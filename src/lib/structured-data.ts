@@ -16,6 +16,17 @@ import type { Locale } from '@/i18n/routing';
 import { siteUrlBase } from './path-from-doc';
 
 const SITE_NAME = 'Travel2Egypt';
+
+/**
+ * IMPORTANT: SITE_URL reads from process.env.NEXT_PUBLIC_SITE_URL at
+ * build/render time. On localhost it will resolve to
+ * http://localhost:3000 — that's expected during dev. In production this
+ * env var MUST be set to https://travel2egypt.org (Vercel project
+ * settings → Environment Variables → NEXT_PUBLIC_SITE_URL). If it isn't,
+ * the Organization JSON-LD's `url` and `@id` fields will point at
+ * localhost and Google will not be able to associate the schema with
+ * the live domain.
+ */
 const SITE_URL = siteUrlBase();
 
 interface ImageField {
@@ -44,34 +55,124 @@ function absoluteUrl(path: string, locale: Locale): string {
 export interface OrganizationInput {
   siteName?: string;
   tagline?: string;
-  contact?: { email?: string; whatsapp?: string };
-  socialLinks?: { linkedin?: string; twitter?: string; instagram?: string; facebook?: string };
+  logo?: ImageField | null;
   defaultOgImage?: ImageField | null;
+  address?: {
+    streetAddress?: string;
+    addressLocality?: string;
+    addressRegion?: string;
+    postalCode?: string;
+    addressCountry?: string;
+  } | null;
+  contact?: { email?: string; phone?: string; whatsapp?: string };
+  socialLinks?: {
+    facebook?: string;
+    instagram?: string;
+    youtube?: string;
+    linkedin?: string;
+    twitter?: string;
+    tripadvisor?: string;
+  };
   sisterBrands?: Array<{ name?: string; url?: string }>;
+  knowsAbout?: string[];
 }
 
+const ACCREDITATIONS = [
+  {
+    name: 'JATA accredited',
+    org: 'Japan Association of Travel Agents',
+    url: 'https://www.jata-net.or.jp/english/',
+  },
+  {
+    name: 'IATA accredited',
+    org: 'International Air Transport Association',
+    url: 'https://www.iata.org/',
+  },
+  {
+    name: 'ASTA accredited',
+    org: 'American Society of Travel Advisors',
+    url: 'https://www.asta.org/',
+  },
+];
+
 export function buildOrganizationSchema(input: OrganizationInput) {
-  const logoUrl = imageUrlOrUndefined(input.defaultOgImage, 1200, 630);
-  const sameAs: string[] = [];
-  if (input.socialLinks?.linkedin) sameAs.push(input.socialLinks.linkedin);
-  if (input.socialLinks?.twitter) sameAs.push(input.socialLinks.twitter);
-  if (input.socialLinks?.instagram) sameAs.push(input.socialLinks.instagram);
-  if (input.socialLinks?.facebook) sameAs.push(input.socialLinks.facebook);
+  // Logo and image are kept distinct: logo for Knowledge Panel
+  // identity, image for the share-card / generic visual fallback.
+  const logoUrl = imageUrlOrUndefined(input.logo, 600, 600);
+  const imageUrl = imageUrlOrUndefined(input.defaultOgImage, 1200, 630);
+
+  // sameAs — every public profile URL the operator wants Google and
+  // AI engines to associate with this Organization.
+  const sameAs = [
+    input.socialLinks?.facebook,
+    input.socialLinks?.instagram,
+    input.socialLinks?.youtube,
+    input.socialLinks?.linkedin,
+    input.socialLinks?.twitter,
+    input.socialLinks?.tripadvisor,
+  ].filter((u): u is string => Boolean(u));
+
+  // contactPoint replaces the previous flat email/telephone — the
+  // structured form is what Google's parser expects.
+  const phoneOrWhatsapp = input.contact?.phone ?? input.contact?.whatsapp;
+  const contactPoint =
+    phoneOrWhatsapp || input.contact?.email
+      ? {
+          '@type': 'ContactPoint',
+          contactType: 'customer service',
+          ...(phoneOrWhatsapp ? { telephone: phoneOrWhatsapp } : {}),
+          ...(input.contact?.email ? { email: input.contact.email } : {}),
+          availableLanguage: ['en', 'es', 'ja'],
+        }
+      : null;
+
+  const address = input.address
+    ? {
+        '@type': 'PostalAddress',
+        ...(input.address.streetAddress
+          ? { streetAddress: input.address.streetAddress }
+          : {}),
+        ...(input.address.addressLocality
+          ? { addressLocality: input.address.addressLocality }
+          : {}),
+        ...(input.address.addressRegion
+          ? { addressRegion: input.address.addressRegion }
+          : {}),
+        ...(input.address.postalCode
+          ? { postalCode: input.address.postalCode }
+          : {}),
+        addressCountry: input.address.addressCountry ?? 'EG',
+      }
+    : { '@type': 'PostalAddress', addressCountry: 'EG' };
 
   return {
     '@context': 'https://schema.org',
     '@type': 'TravelAgency',
     '@id': `${SITE_URL}#organization`,
     name: input.siteName ?? SITE_NAME,
-    description: input.tagline ?? 'Egyptian travel operator since 1995',
+    description: input.tagline ?? 'Egyptian travel operator since 1995.',
+    slogan: input.tagline,
     url: SITE_URL,
     foundingDate: '1995',
-    ...(logoUrl ? { logo: logoUrl, image: logoUrl } : {}),
-    ...(input.contact?.email ? { email: input.contact.email } : {}),
-    ...(input.contact?.whatsapp
-      ? { telephone: input.contact.whatsapp }
+    ...(logoUrl
+      ? {
+          logo: {
+            '@type': 'ImageObject',
+            url: logoUrl,
+          },
+        }
       : {}),
+    ...(imageUrl ? { image: imageUrl } : {}),
+    address,
+    ...(contactPoint ? { contactPoint } : {}),
     ...(sameAs.length > 0 ? { sameAs } : {}),
+    areaServed: {
+      '@type': 'Country',
+      name: 'Egypt',
+    },
+    ...(input.knowsAbout && input.knowsAbout.length > 0
+      ? { knowsAbout: input.knowsAbout }
+      : {}),
     ...(input.sisterBrands && input.sisterBrands.length > 0
       ? {
           subOrganization: input.sisterBrands
@@ -83,9 +184,14 @@ export function buildOrganizationSchema(input: OrganizationInput) {
             })),
         }
       : {}),
-    hasCredential: ['JATA', 'IATA', 'ASTA'].map((acc) => ({
+    hasCredential: ACCREDITATIONS.map((acc) => ({
       '@type': 'EducationalOccupationalCredential',
-      name: `${acc} accredited`,
+      name: acc.name,
+      recognizedBy: {
+        '@type': 'Organization',
+        name: acc.org,
+        url: acc.url,
+      },
     })),
   };
 }

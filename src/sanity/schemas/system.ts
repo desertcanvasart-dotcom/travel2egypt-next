@@ -94,6 +94,65 @@ export const siteSettingsSchema = defineType({
       ],
     }),
     defineField({
+      name: 'logo',
+      title: 'Brand logo',
+      description:
+        'Square or wide brand logo. Used in Schema.org Organization markup, Google Knowledge Panel, and as a fallback for share cards when no other image is set.',
+      type: 'image',
+      group: 'identity',
+      options: { hotspot: false },
+      fields: [
+        defineField({ name: 'alt', type: 'string' }),
+      ],
+    }),
+    defineField({
+      name: 'address',
+      title: 'Postal address',
+      description:
+        'Used in Schema.org Organization markup. Free-text streetAddress is fine; addressLocality and country are required for valid markup.',
+      type: 'object',
+      group: 'identity',
+      fields: [
+        defineField({ name: 'streetAddress', title: 'Street address', type: 'string' }),
+        defineField({
+          name: 'addressLocality',
+          title: 'City',
+          type: 'string',
+          initialValue: 'Cairo',
+        }),
+        defineField({ name: 'addressRegion', title: 'Region / governorate', type: 'string' }),
+        defineField({ name: 'postalCode', title: 'Postal code', type: 'string' }),
+        defineField({
+          name: 'addressCountry',
+          title: 'Country (ISO 3166-1 alpha-2)',
+          type: 'string',
+          initialValue: 'EG',
+        }),
+      ],
+    }),
+    defineField({
+      name: 'knowsAbout',
+      title: 'Topics the operator is authoritative on',
+      description:
+        'Drives Schema.org `knowsAbout` on the Organization markup — important for AI-search citation (ChatGPT, Perplexity, Claude). Add the topics you want to be cited as a source for.',
+      type: 'array',
+      group: 'identity',
+      of: [{ type: 'string' }],
+      initialValue: [
+        'Egyptian travel',
+        'Nile cruises',
+        'Egyptology',
+        'Cairo tours',
+        'Luxor tours',
+        'Aswan tours',
+        'Pyramids of Giza',
+        'Ancient Egyptian history',
+        'Pharaonic monuments',
+        'Red Sea travel',
+        'Egypt travel planning',
+      ],
+    }),
+    defineField({
       name: 'headerNav',
       title: 'Header navigation',
       type: 'array',
@@ -219,7 +278,9 @@ export const siteSettingsSchema = defineType({
     }),
     defineField({
       name: 'socialLinks',
-      title: 'Social links',
+      title: 'Social profiles',
+      description:
+        'All public profile URLs. These power the Schema.org `sameAs` array — Google uses sameAs to link the site to its social presence in the Knowledge Panel, and AI search engines use it to verify authority.',
       type: 'object',
       group: 'contact',
       fields: [
@@ -227,6 +288,12 @@ export const siteSettingsSchema = defineType({
         defineField({ name: 'instagram', type: 'url' }),
         defineField({ name: 'youtube', type: 'url' }),
         defineField({ name: 'linkedin', type: 'url' }),
+        defineField({ name: 'twitter', title: 'X / Twitter', type: 'url' }),
+        defineField({
+          name: 'tripadvisor',
+          title: 'TripAdvisor profile',
+          type: 'url',
+        }),
       ],
     }),
   ],

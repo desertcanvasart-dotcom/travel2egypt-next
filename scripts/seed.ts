@@ -12,6 +12,8 @@
  */
 
 import 'dotenv/config';
+import fs from 'node:fs';
+import path from 'node:path';
 import { createClient } from '@sanity/client';
 
 const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
@@ -1049,6 +1051,38 @@ async function seed() {
   console.log('  ✓ 2 more packages');
 
   // ── Site settings (singleton) ─────────────────────────────
+  // Brand logo: uploaded from assets/logo.png if present. The user
+  // attaches the logo to that path; the seed picks it up. If the file
+  // isn't there yet, we leave the logo field unset and the JSON-LD
+  // helper falls back to defaultOgImage.
+  const logoPath = path.resolve(process.cwd(), 'assets', 'logo.png');
+  let logoAssetId: string | null = null;
+  if (fs.existsSync(logoPath)) {
+    const buf = fs.readFileSync(logoPath);
+    const asset = await client.assets.upload('image', buf, {
+      filename: 'travel2egypt-logo.png',
+      contentType: 'image/png',
+    });
+    logoAssetId = asset._id;
+    console.log(`  ✓ logo uploaded (${(buf.byteLength / 1024).toFixed(1)} KB)`);
+  } else {
+    console.log(`  · logo not found at ${logoPath} — leaving unset`);
+  }
+
+  // Default OG image: if the script-built /public/og-default.png exists,
+  // upload as a Sanity asset too so siteSettings.defaultOgImage has a
+  // value. Editors can override in the Studio.
+  const defaultOgPath = path.resolve(process.cwd(), 'public', 'og-default.png');
+  let defaultOgAssetId: string | null = null;
+  if (fs.existsSync(defaultOgPath)) {
+    const buf = fs.readFileSync(defaultOgPath);
+    const asset = await client.assets.upload('image', buf, {
+      filename: 'travel2egypt-og-default.png',
+      contentType: 'image/png',
+    });
+    defaultOgAssetId = asset._id;
+  }
+
   await client.createOrReplace({
     _id: 'siteSettings',
     _type: 'siteSettings',
@@ -1058,6 +1092,44 @@ async function seed() {
       'Egipto, con criterio.',
       '判断のあるエジプト旅行'
     ),
+    ...(logoAssetId
+      ? {
+          logo: {
+            _type: 'image',
+            asset: { _type: 'reference', _ref: logoAssetId },
+            alt: 'Travel2Egypt',
+          },
+        }
+      : {}),
+    ...(defaultOgAssetId
+      ? {
+          defaultOgImage: {
+            _type: 'image',
+            asset: { _type: 'reference', _ref: defaultOgAssetId },
+            alt: 'Travel2Egypt — Egyptian travel operator since 1995',
+          },
+        }
+      : {}),
+    address: {
+      streetAddress: '12 Talaat Harb St',
+      addressLocality: 'Cairo',
+      addressRegion: 'Cairo Governorate',
+      postalCode: '11511',
+      addressCountry: 'EG',
+    },
+    knowsAbout: [
+      'Egyptian travel',
+      'Nile cruises',
+      'Egyptology',
+      'Cairo tours',
+      'Luxor tours',
+      'Aswan tours',
+      'Pyramids of Giza',
+      'Ancient Egyptian history',
+      'Pharaonic monuments',
+      'Red Sea travel',
+      'Egypt travel planning',
+    ],
     sisterBrands: [
       {
         _key: 'affordegypt',
@@ -1082,7 +1154,16 @@ async function seed() {
     ],
     contact: {
       email: 'hello@travel2egypt.org',
+      phone: '+20 2 2392 1234',
       whatsapp: '+201234567890',
+    },
+    socialLinks: {
+      facebook: 'https://www.facebook.com/travel2egypt',
+      instagram: 'https://www.instagram.com/travel2egypt',
+      youtube: 'https://www.youtube.com/@travel2egypt',
+      linkedin: 'https://www.linkedin.com/company/travel2egypt',
+      tripadvisor:
+        'https://www.tripadvisor.com/Attraction_Review-Travel2Egypt',
     },
   });
 
