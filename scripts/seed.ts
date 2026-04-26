@@ -241,6 +241,55 @@ const operatorNote = (
   body: [block(text)],
 });
 
+const pullQuote = (
+  quote: { en: string; es?: string; ja?: string },
+  options?: {
+    attribution?: { en: string; es?: string; ja?: string };
+    style?: 'literary' | 'historical' | 'traveler';
+  }
+) => ({
+  _type: 'pullQuote',
+  _key: Math.random().toString(36).slice(2, 10),
+  quote: i18nString(quote.en, quote.es, quote.ja),
+  ...(options?.attribution
+    ? {
+        attribution: i18nString(
+          options.attribution.en,
+          options.attribution.es,
+          options.attribution.ja
+        ),
+      }
+    : {}),
+  style: options?.style ?? 'literary',
+});
+
+const sideImage = (
+  assetId: string | null,
+  alt: { en: string; es?: string; ja?: string },
+  options?: {
+    caption?: { en: string; es?: string; ja?: string };
+    alignment?: 'left' | 'right';
+  }
+) => {
+  if (!assetId) return null;
+  return {
+    _type: 'sideImage',
+    _key: Math.random().toString(36).slice(2, 10),
+    image: { _type: 'image', asset: { _type: 'reference', _ref: assetId } },
+    alt: i18nString(alt.en, alt.es, alt.ja),
+    ...(options?.caption
+      ? {
+          caption: i18nString(
+            options.caption.en,
+            options.caption.es,
+            options.caption.ja
+          ),
+        }
+      : {}),
+    alignment: options?.alignment ?? 'right',
+  };
+};
+
 // ── Fixture documents ───────────────────────────────
 
 async function seed() {
@@ -363,6 +412,13 @@ async function seed() {
       },
       'Wikimedia Commons — Cairo article lead photo'
     ),
+    placesToGo: [
+      {
+        _type: 'reference',
+        _ref: 'wiki-monument-great-pyramid',
+        _key: 'great-pyramid',
+      },
+    ],
     seo: {
       _type: 'seo',
       metaTitle: i18nString(
@@ -383,6 +439,7 @@ async function seed() {
     _id: 'guide-cairo-transport',
     _type: 'guideArticle',
     parentCity: { _type: 'reference', _ref: cairo._id },
+    section: 'while-you-are-there',
     title: i18nString(
       'Getting around Cairo',
       'Cómo moverse por El Cairo',
@@ -428,6 +485,7 @@ async function seed() {
     _id: 'guide-cairo-food',
     _type: 'guideArticle',
     parentCity: { _type: 'reference', _ref: cairo._id },
+    section: 'others',
     title: i18nString(
       'Eating in Cairo',
       'Comer en El Cairo',
@@ -449,9 +507,45 @@ async function seed() {
         value: '地元の人が実際に食べる場所、避けるべきもの、日没後に多くの料理が姿を消す街での食事制限の対処法。',
       },
     ],
-    body: i18nPortable([
-      block('Cairo eats late. A 7pm dinner reservation marks you as a foreigner; locals start arriving at 9 and the kitchen is busiest at 11.'),
-    ]),
+    body: i18nPortable(
+      [
+        block('Cairo eats late. A 7pm dinner reservation marks you as a foreigner; locals start arriving at 9 and the kitchen is busiest at 11.'),
+        sideImage(
+          img.cairoFood,
+          {
+            en: 'A bowl of koshary on a Cairo street-food counter',
+            es: 'Un plato de koshary en un puesto callejero de El Cairo',
+            ja: 'カイロの屋台に並ぶコシャリの皿',
+          },
+          {
+            caption: {
+              en: 'Koshary — the dish that holds the city together at lunchtime.',
+              es: 'Koshary — el plato que sostiene la ciudad a la hora del almuerzo.',
+              ja: 'コシャリ — 昼時のカイロを支える一皿。',
+            },
+            alignment: 'right',
+          }
+        )!,
+        block(
+          "Koshary, fuul, ta'amiya, hawawshi, mahshi — the everyday rotation. None of it is fancy and most of it costs less than a coffee in Europe. The thing to understand is that Cairo's food culture lives at the street and corner-shop level rather than the restaurant level."
+        ),
+        pullQuote(
+          {
+            en: 'A city that lets its best food cost a dollar is telling you something about itself.',
+            es: 'Una ciudad cuya mejor comida cuesta un euro te está diciendo algo de sí misma.',
+            ja: '最高の料理が一杯のコーヒーより安い街は、自らについて何かを語っている。',
+          },
+          {
+            attribution: {
+              en: 'Travel folklore',
+              es: 'Folclore viajero',
+              ja: '旅行者の言い伝え',
+            },
+            style: 'traveler',
+          }
+        ),
+      ]
+    ),
     heroImage: heroImage(
       img.cairoFood,
       {

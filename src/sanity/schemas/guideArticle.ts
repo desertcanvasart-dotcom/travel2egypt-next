@@ -36,6 +36,25 @@ export const guideArticleSchema = defineType({
       group: 'content',
     } as any),
     defineField({
+      name: 'section',
+      title: 'Section',
+      type: 'string',
+      group: 'content',
+      options: {
+        list: [
+          { title: 'Introducing', value: 'introducing' },
+          { title: 'Plan Your Trip', value: 'plan-your-trip' },
+          { title: 'While You Are There', value: 'while-you-are-there' },
+          { title: 'Places To Go', value: 'places-to-go' },
+          { title: 'Others', value: 'others' },
+        ],
+        layout: 'radio',
+      },
+      description:
+        'The sidebar grouping this article appears under on the parent city page. Non-clickable rendering hint only. Note: "Places To Go" is normally populated via wikiMonument references on the parent city (city.placesToGo), not by guideArticle documents — the value exists here only for migration compatibility.',
+      validation: (Rule) => Rule.required(),
+    }),
+    defineField({
       name: 'orderRank',
       title: 'Display order within city',
       type: 'number',

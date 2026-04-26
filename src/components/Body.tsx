@@ -3,7 +3,20 @@ import Image from 'next/image';
 
 import { Link } from '@/i18n/navigation';
 import { urlFor } from '@/sanity/lib/image';
-import { resolveInternalLinkHref, type ResolvableRef } from '@/sanity/lib/i18n';
+import {
+  resolveInternalLinkHref,
+  pickLocalized,
+  type ResolvableRef,
+} from '@/sanity/lib/i18n';
+import type { Locale } from '@/i18n/routing';
+
+type LocalizedField<T = string> = string | Array<{ _key: string; value: T }> | null | undefined;
+
+function readLocalized(value: LocalizedField, locale: Locale): string {
+  if (!value) return '';
+  if (typeof value === 'string') return value;
+  return (pickLocalized<string>(value, locale) ?? '') as string;
+}
 
 const OPERATOR_NOTE_LABELS: Record<string, Record<string, string>> = {
   en: {
@@ -51,6 +64,56 @@ export function Body({ value, locale }: BodyProps) {
             {value.caption && (
               <figcaption className="mt-3 text-sm italic text-ink-muted">
                 {value.caption}
+              </figcaption>
+            )}
+          </figure>
+        );
+      },
+      pullQuote: ({ value }) => {
+        const quote = readLocalized(value?.quote, locale);
+        const attribution = readLocalized(value?.attribution, locale);
+        const style = (value?.style as 'literary' | 'historical' | 'traveler') || 'literary';
+        if (!quote) return null;
+        const quoteText =
+          style === 'traveler' ? `‟${quote}”` : quote;
+        return (
+          <figure className="my-12 border-y border-line py-8 text-center">
+            <blockquote className="font-serif text-2xl italic leading-relaxed text-ink md:text-3xl">
+              {quoteText}
+            </blockquote>
+            {attribution && (
+              <figcaption className="mt-4 font-sans text-xs uppercase tracking-[0.18em] text-ink-muted">
+                {style === 'historical' ? `— ${attribution}` : attribution}
+              </figcaption>
+            )}
+          </figure>
+        );
+      },
+      sideImage: ({ value }) => {
+        if (!value?.image?.asset?._ref) return null;
+        const url = urlFor(value.image).width(640).quality(85).url();
+        const alt = readLocalized(value.alt, locale);
+        const caption = readLocalized(value.caption, locale);
+        const alignment = (value.alignment as 'left' | 'right') || 'right';
+        const floatClass =
+          alignment === 'left'
+            ? 'md:float-left md:mr-8 md:ml-0'
+            : 'md:float-right md:ml-8 md:mr-0';
+        return (
+          <figure
+            className={`my-6 w-full md:my-2 md:w-[320px] md:max-w-[40%] ${floatClass}`}
+          >
+            <Image
+              src={url}
+              alt={alt}
+              width={640}
+              height={480}
+              className="rounded-md"
+              sizes="(max-width: 768px) 100vw, 320px"
+            />
+            {caption && (
+              <figcaption className="mt-2 font-serif text-xs italic text-ink-muted">
+                {caption}
               </figcaption>
             )}
           </figure>

@@ -24,11 +24,19 @@
     "landingDeck": "Operator-grade guides to Egypt's cities, by people who run trips here every week.",
     "subArticlesLabel": "In this guide",
     "relatedToursLabel": "Tours from this city",
+    "introducingCity": "Introducing {city}",
     "keyFacts": {
       "bestSeason": "Best season",
       "gettingThere": "Getting there",
       "daysNeeded": "Days needed"
     }
+  },
+  "guideSections": {
+    "introducing": "Introducing",
+    "plan-your-trip": "Plan Your Trip",
+    "while-you-are-there": "While You Are There",
+    "places-to-go": "Places To Go",
+    "others": "Others"
   },
   "tour": {
     "highlightsLabel": "Highlights",

@@ -16,6 +16,7 @@ import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
 import { cityBySlugQuery, allCitySlugsQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
+import { CityGuideSidebar } from '@/components/CityGuideSidebar';
 
 interface Props {
   params: Promise<{ locale: string; citySlug: string }>;
@@ -147,31 +148,6 @@ export default async function CityGuidePage({ params }: Props) {
               </div>
             )}
 
-            {/* Sub-articles */}
-            {city.subArticles && city.subArticles.length > 0 && (
-              <section className="mt-20 border-t border-line pt-16">
-                <h2 className="mb-8 font-serif text-3xl font-medium text-ink">
-                  {t('subArticlesLabel')}
-                </h2>
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-                  {city.subArticles.map((sub: any) => (
-                    <Link
-                      key={sub._id}
-                      href={`/guide/${citySlug}/${sub.slug}`}
-                      className="group block rounded-lg border border-line bg-paper p-6 transition-shadow hover:shadow-soft"
-                    >
-                      <h3 className="mb-2 font-serif text-xl text-ink group-hover:text-orange-deep">
-                        {sub.title}
-                      </h3>
-                      {sub.summary && (
-                        <p className="text-sm text-ink-soft">{sub.summary}</p>
-                      )}
-                    </Link>
-                  ))}
-                </div>
-              </section>
-            )}
-
             {/* Related tours */}
             {city.relatedTours && city.relatedTours.length > 0 && (
               <section className="mt-20 border-t border-line pt-16">
@@ -222,13 +198,16 @@ export default async function CityGuidePage({ params }: Props) {
             )}
           </div>
 
-          {/* Sidebar — key facts */}
-          <aside className="lg:sticky lg:top-24 lg:self-start">
+          {/* Sidebar — guide nav + key facts */}
+          <aside className="space-y-10 lg:sticky lg:top-24 lg:self-start">
+            <CityGuideSidebar
+              citySlug={citySlug}
+              cityName={city.name}
+              subArticles={city.subArticles}
+              placesToGo={city.placesToGo}
+            />
             {city.keyFacts && (
               <div className="rounded-lg border border-line bg-cream-warm p-6">
-                <h3 className="mb-4 font-sans text-xs font-semibold uppercase tracking-[0.12em] text-ink-muted">
-                  {t('subArticlesLabel') === 'In this guide' ? 'Key facts' : ''}
-                </h3>
                 <dl className="space-y-4 text-sm">
                   {city.keyFacts.bestSeason && (
                     <div>

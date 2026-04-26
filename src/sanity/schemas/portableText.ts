@@ -110,6 +110,102 @@ export const portableTextBlocks = defineField({
       ],
     }),
     defineArrayMember({
+      name: 'pullQuote',
+      title: 'Pull Quote',
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'quote',
+          title: 'Quote',
+          type: 'internationalizedArrayString',
+          validation: (Rule) => Rule.required(),
+        }),
+        defineField({
+          name: 'attribution',
+          title: 'Attribution (optional)',
+          type: 'internationalizedArrayString',
+          description:
+            'Who said it. Leave blank for unattributed editorial highlights. Examples: "Local legend," "Travel folklore," "An 18th-century traveler," or a specific name.',
+        }),
+        defineField({
+          name: 'style',
+          title: 'Style',
+          type: 'string',
+          options: {
+            list: [
+              { title: 'Literary (default)', value: 'literary' },
+              { title: 'Historical', value: 'historical' },
+              { title: 'Traveler voice', value: 'traveler' },
+            ],
+          },
+          initialValue: 'literary',
+        }),
+      ],
+      preview: {
+        select: {
+          quote: 'quote.0.value',
+          attribution: 'attribution.0.value',
+        },
+        prepare({ quote, attribution }: { quote?: string; attribution?: string }) {
+          return {
+            title: quote ? `"${quote.slice(0, 60)}..."` : 'Pull quote',
+            subtitle: attribution || '—',
+          };
+        },
+      },
+    }),
+    defineArrayMember({
+      name: 'sideImage',
+      title: 'Side Image',
+      type: 'object',
+      fields: [
+        defineField({
+          name: 'image',
+          title: 'Image',
+          type: 'image',
+          options: { hotspot: true },
+          validation: (Rule) => Rule.required(),
+        }),
+        defineField({
+          name: 'alt',
+          title: 'Alt text',
+          type: 'internationalizedArrayString',
+          validation: (Rule) => Rule.required(),
+        }),
+        defineField({
+          name: 'caption',
+          title: 'Caption (optional)',
+          type: 'internationalizedArrayString',
+          description:
+            'Editorial caption that appears below the side image. Italic serif, smaller than body. Used for atmospheric framing, not literal description of the photo.',
+        }),
+        defineField({
+          name: 'alignment',
+          title: 'Alignment',
+          type: 'string',
+          options: {
+            list: [
+              { title: 'Right (default)', value: 'right' },
+              { title: 'Left', value: 'left' },
+            ],
+          },
+          initialValue: 'right',
+        }),
+      ],
+      preview: {
+        select: {
+          media: 'image',
+          caption: 'caption.0.value',
+        },
+        prepare({ media, caption }: { media?: any; caption?: string }) {
+          return {
+            title: caption || 'Side image',
+            media,
+          };
+        },
+      },
+    }),
+    defineArrayMember({
       name: 'operatorNote',
       title: 'Operator note',
       type: 'object',

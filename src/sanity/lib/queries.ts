@@ -54,10 +54,22 @@ export const cityBySlugQuery = (locale: Locale) => groq`
     },
     "subArticles": *[_type == "guideArticle" && references(^._id)] | order(orderRank asc){
       _id,
+      section,
       "title": ${localizedField('title', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "summary": ${localizedField('summary', locale)},
       heroImage
+    },
+    "placesToGo": placesToGo[]->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      monumentType,
+      heroImage{
+        ...,
+        "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+      }
     },
     "relatedTours": *[_type == "tour" && references(^._id)] | order(_createdAt desc)[0...6]{
       _id,
@@ -74,6 +86,76 @@ export const cityBySlugQuery = (locale: Locale) => groq`
       "metaDescription": ${localizedField('metaDescription', locale)},
       ogImage
     }
+  }
+`;
+
+/**
+ * Single guide article (leaf page) by parent-city slug + article slug.
+ * Pulls article body + the same sidebar dataset as the parent city, so the
+ * leaf page can render the same nav widget the city page does.
+ */
+export const guideArticleBySlugQuery = (locale: Locale) => groq`
+  *[_type == "guideArticle" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  ) && (
+    parentCity->slug[_key == "${locale}"][0].value.current == $citySlug ||
+    (parentCity->slug[_key == "${locale}"][0].value.current == null &&
+     parentCity->slug[_key == "en"][0].value.current == $citySlug)
+  )][0]{
+    _id,
+    section,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "allSlugs": slug[]{ _key, "current": value.current },
+    "summary": ${localizedField('summary', locale)},
+    "body": ${portableTextBodyProjection('body', locale)},
+    heroImage{
+      ...,
+      "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+    },
+    "parentCity": parentCity->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "allSlugs": slug[]{ _key, "current": value.current },
+      "subArticles": *[_type == "guideArticle" && references(^._id)] | order(orderRank asc){
+        _id,
+        section,
+        "title": ${localizedField('title', locale)},
+        "slug": ${localizedSlug('slug', locale)},
+        "summary": ${localizedField('summary', locale)}
+      },
+      "placesToGo": placesToGo[]->{
+        _id,
+        "name": ${localizedField('name', locale)},
+        "slug": ${localizedSlug('slug', locale)},
+        "summary": ${localizedField('summary', locale)},
+        monumentType
+      }
+    },
+    "relatedTours": relatedTours[]->{
+      _id, type, durationDays,
+      "title": ${localizedField('title', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      "durationLabel": ${localizedField('durationLabel', locale)},
+      heroImage
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+export const allGuideArticleSlugsQuery = groq`
+  *[_type == "guideArticle"]{
+    _id,
+    "slugs": slug[]{ _key, "current": value.current },
+    "parentCitySlugs": parentCity->slug[]{ _key, "current": value.current }
   }
 `;
 

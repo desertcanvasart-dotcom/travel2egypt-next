@@ -24,11 +24,19 @@
     "landingDeck": "Guías de las ciudades de Egipto al nivel de un operador, escritas por quienes operamos viajes aquí cada semana.",
     "subArticlesLabel": "En esta guía",
     "relatedToursLabel": "Excursiones desde esta ciudad",
+    "introducingCity": "Conoce {city}",
     "keyFacts": {
       "bestSeason": "Mejor temporada",
       "gettingThere": "Cómo llegar",
       "daysNeeded": "Días recomendados"
     }
+  },
+  "guideSections": {
+    "introducing": "Presentación",
+    "plan-your-trip": "Planifica tu viaje",
+    "while-you-are-there": "Mientras estés allí",
+    "places-to-go": "Lugares para visitar",
+    "others": "Otros"
   },
   "tour": {
     "highlightsLabel": "Lo destacado",

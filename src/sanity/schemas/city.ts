@@ -148,6 +148,15 @@ export const citySchema = defineType({
       ],
     }),
     defineField({
+      name: 'placesToGo',
+      title: 'Places To Go',
+      description:
+        'Monuments and sites associated with this destination. Pulled from Egypt Wiki — same documents that appear under /wiki/monuments. Surfaced in the city sidebar under "Places To Go" using their visitorInfo field.',
+      type: 'array',
+      group: 'guide',
+      of: [{ type: 'reference', to: [{ type: 'wikiMonument' }] }],
+    }),
+    defineField({
       name: 'heroImage',
       title: 'Hero image',
       type: 'localizedImage',

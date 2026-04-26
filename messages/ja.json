@@ -24,11 +24,19 @@
     "landingDeck": "毎週現地でツアーを運営するオペレーターによる、都市別の実践的なガイド。",
     "subArticlesLabel": "このガイドの内容",
     "relatedToursLabel": "この都市発のツアー",
+    "introducingCity": "{city}について",
     "keyFacts": {
       "bestSeason": "ベストシーズン",
       "gettingThere": "アクセス",
       "daysNeeded": "推奨滞在日数"
     }
+  },
+  "guideSections": {
+    "introducing": "概要",
+    "plan-your-trip": "旅行計画",
+    "while-you-are-there": "現地での過ごし方",
+    "places-to-go": "見どころ",
+    "others": "その他"
   },
   "tour": {
     "highlightsLabel": "ハイライト",
