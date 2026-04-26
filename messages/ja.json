@@ -1,0 +1,48 @@
+{
+  "site": {
+    "name": "Travel2Egypt",
+    "tagline": "判断のあるエジプト旅行"
+  },
+  "nav": {
+    "tours": "日帰りツアー",
+    "packages": "パッケージ",
+    "guide": "旅行ガイド",
+    "wiki": "エジプト百科",
+    "blog": "ジャーナル",
+    "travelTips": "旅のヒント",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "planYourTour": "旅行プランを立てる"
+  },
+  "footer": {
+    "sisterBrandsLabel": "Travel2Egyptの他ブランド",
+    "tagline": "1995年創業のエジプト現地オペレーター。JATA・IATA・ASTA認定。",
+    "rights": "© {year} Travel2Egypt. All rights reserved."
+  },
+  "guide": {
+    "landingTitle": "エジプト旅行ガイド",
+    "landingDeck": "毎週現地でツアーを運営するオペレーターによる、都市別の実践的なガイド。",
+    "subArticlesLabel": "このガイドの内容",
+    "relatedToursLabel": "この都市発のツアー",
+    "keyFacts": {
+      "bestSeason": "ベストシーズン",
+      "gettingThere": "アクセス",
+      "daysNeeded": "推奨滞在日数"
+    }
+  },
+  "tour": {
+    "highlightsLabel": "ハイライト",
+    "inclusionsLabel": "ツアーに含まれるもの",
+    "exclusionsLabel": "ツアーに含まれないもの",
+    "itineraryLabel": "行程",
+    "priceIndicationLabel": "目安料金",
+    "priceCaveat": "最終料金は人数・日程・ご希望に応じて、ご相談のうえで確定します。",
+    "talkToConcierge": "このツアーについてコンシェルジュに相談する",
+    "whatsappInquiry": "WhatsAppで気軽に問い合わせる"
+  },
+  "common": {
+    "readMore": "続きを読む",
+    "loading": "読み込み中…",
+    "back": "戻る"
+  }
+}

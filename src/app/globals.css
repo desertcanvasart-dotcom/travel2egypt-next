@@ -1,0 +1,193 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/**
+ * Travel2Egypt design tokens.
+ *
+ * Mirrors the system used in concierge-page-mockup-v2.html with one
+ * additional concession: a few semantic tokens (surface, text-primary,
+ * etc.) so we have a clear separation between brand colors and how
+ * they're applied.
+ *
+ * The brand voice is editorial, restrained, warm. Cream is the dominant
+ * surface; ink is text; orange is reserved for meaningful accent — never
+ * decorative.
+ */
+
+@theme {
+  /* ── Cream / paper surfaces ── */
+  --color-cream: #faf6f0;
+  --color-cream-warm: #f4ece0;
+  --color-cream-deep: #efe5d4;
+  --color-paper: #ffffff;
+
+  /* ── Ink / text ── */
+  --color-ink: #1f1b16;
+  --color-ink-soft: #4a413a;
+  --color-ink-muted: #8b7f73;
+
+  /* ── Orange / accent ── */
+  --color-orange: #e07b3c;
+  --color-orange-deep: #c4682e;
+  --color-orange-soft: #f4a574;
+  --color-orange-pale: #fbe8d7;
+
+  /* ── Earth tones ── */
+  --color-gold: #b8924a;
+  --color-sand: #d4b896;
+  --color-terra: #8b4513;
+
+  /* ── Lines / dividers ── */
+  --color-line: #e5ddd0;
+  --color-line-soft: #f0e8da;
+
+  /* ── Typography ── */
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
+  --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-jp: 'Noto Serif JP', 'Cormorant Garamond', serif;
+
+  /* ── Radii ── */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-pill: 999px;
+
+  /* ── Shadows ── */
+  --shadow-soft: 0 1px 3px rgba(31, 27, 22, 0.04),
+    0 4px 16px rgba(31, 27, 22, 0.04);
+  --shadow-lift: 0 2px 6px rgba(31, 27, 22, 0.06),
+    0 12px 32px rgba(31, 27, 22, 0.06);
+}
+
+/* ── Base styles ── */
+@layer base {
+  html,
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* JA locale uses serif for both headings and body — Noto Serif JP
+     reads with editorial weight matching Cormorant for EN/ES. */
+  html[lang='ja'] body {
+    font-family: var(--font-jp);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    color: var(--color-ink);
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+  }
+
+  html[lang='ja'] h1,
+  html[lang='ja'] h2,
+  html[lang='ja'] h3,
+  html[lang='ja'] h4 {
+    font-family: var(--font-jp);
+    font-weight: 600;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ::selection {
+    background: var(--color-orange-pale);
+    color: var(--color-ink);
+  }
+}
+
+/* ── Editorial prose (Tailwind typography overrides) ── */
+@layer components {
+  .prose-editorial {
+    @apply text-ink-soft;
+    font-size: 1.0625rem;
+    line-height: 1.75;
+  }
+  .prose-editorial > * + * {
+    margin-top: 1.25em;
+  }
+  .prose-editorial h2 {
+    font-size: 1.875rem;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+  }
+  .prose-editorial h3 {
+    font-size: 1.375rem;
+    margin-top: 2em;
+    margin-bottom: 0.4em;
+  }
+  .prose-editorial blockquote {
+    border-left: 3px solid var(--color-orange);
+    padding-left: 1.25em;
+    font-family: var(--font-serif);
+    font-size: 1.25rem;
+    font-style: italic;
+    color: var(--color-ink);
+  }
+  .prose-editorial a {
+    color: var(--color-orange-deep);
+    border-bottom: 1px solid var(--color-orange-pale);
+    transition: border-color 0.15s ease;
+  }
+  .prose-editorial a:hover {
+    border-bottom-color: var(--color-orange);
+  }
+  .prose-editorial ul {
+    list-style: disc;
+    padding-left: 1.25em;
+  }
+  .prose-editorial ol {
+    list-style: decimal;
+    padding-left: 1.25em;
+  }
+  .prose-editorial img {
+    border-radius: var(--radius-md);
+    margin: 2em 0;
+  }
+}
+
+/* ── Operator note callout ── */
+.operator-note {
+  background: var(--color-cream-warm);
+  border-left: 3px solid var(--color-orange);
+  border-radius: var(--radius-sm);
+  padding: 1.25em 1.5em;
+  margin: 2em 0;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+}
+.operator-note__label {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-orange-deep);
+  margin-bottom: 0.5em;
+}
+.operator-note--caution {
+  border-left-color: var(--color-terra);
+  background: #fbe8d7;
+}
+.operator-note--caution .operator-note__label {
+  color: var(--color-terra);
+}
+.operator-note--insider {
+  border-left-color: var(--color-gold);
+}
+.operator-note--insider .operator-note__label {
+  color: var(--color-gold);
+}
+.operator-note--context {
+  border-left-color: var(--color-ink-muted);
+}
+.operator-note--context .operator-note__label {
+  color: var(--color-ink-muted);
+}

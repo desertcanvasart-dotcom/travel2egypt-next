@@ -1,0 +1,48 @@
+{
+  "site": {
+    "name": "Travel2Egypt",
+    "tagline": "Egypt, with judgment."
+  },
+  "nav": {
+    "tours": "Day Tours",
+    "packages": "Packages",
+    "guide": "Travel Guide",
+    "wiki": "Egypt Wiki",
+    "blog": "Journal",
+    "travelTips": "Travel Tips",
+    "about": "About",
+    "contact": "Contact",
+    "planYourTour": "Plan Your Trip"
+  },
+  "footer": {
+    "sisterBrandsLabel": "Other Travel2Egypt brands",
+    "tagline": "Egyptian-operated since 1995. JATA, IATA, ASTA accredited.",
+    "rights": "© {year} Travel2Egypt. All rights reserved."
+  },
+  "guide": {
+    "landingTitle": "Egypt Travel Guide",
+    "landingDeck": "Operator-grade guides to Egypt's cities, by people who run trips here every week.",
+    "subArticlesLabel": "In this guide",
+    "relatedToursLabel": "Tours from this city",
+    "keyFacts": {
+      "bestSeason": "Best season",
+      "gettingThere": "Getting there",
+      "daysNeeded": "Days needed"
+    }
+  },
+  "tour": {
+    "highlightsLabel": "Highlights",
+    "inclusionsLabel": "What's included",
+    "exclusionsLabel": "What's not included",
+    "itineraryLabel": "Itinerary",
+    "priceIndicationLabel": "Indicative pricing",
+    "priceCaveat": "Final pricing is shaped to your party, dates, and choices in conversation.",
+    "talkToConcierge": "Talk to our concierge about this tour",
+    "whatsappInquiry": "Quick WhatsApp inquiry"
+  },
+  "common": {
+    "readMore": "Read more",
+    "loading": "Loading…",
+    "back": "Back"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "site": {
+    "name": "Travel2Egypt",
+    "tagline": "Egipto, con criterio."
+  },
+  "nav": {
+    "tours": "Excursiones de un día",
+    "packages": "Paquetes",
+    "guide": "Guía de viaje",
+    "wiki": "Wiki de Egipto",
+    "blog": "Diario",
+    "travelTips": "Consejos de viaje",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "planYourTour": "Planifica tu viaje"
+  },
+  "footer": {
+    "sisterBrandsLabel": "Otras marcas de Travel2Egypt",
+    "tagline": "Operador egipcio desde 1995. Acreditados por JATA, IATA y ASTA.",
+    "rights": "© {year} Travel2Egypt. Todos los derechos reservados."
+  },
+  "guide": {
+    "landingTitle": "Guía de viaje a Egipto",
+    "landingDeck": "Guías de las ciudades de Egipto al nivel de un operador, escritas por quienes operamos viajes aquí cada semana.",
+    "subArticlesLabel": "En esta guía",
+    "relatedToursLabel": "Excursiones desde esta ciudad",
+    "keyFacts": {
+      "bestSeason": "Mejor temporada",
+      "gettingThere": "Cómo llegar",
+      "daysNeeded": "Días recomendados"
+    }
+  },
+  "tour": {
+    "highlightsLabel": "Lo destacado",
+    "inclusionsLabel": "Qué incluye",
+    "exclusionsLabel": "Qué no incluye",
+    "itineraryLabel": "Itinerario",
+    "priceIndicationLabel": "Precio orientativo",
+    "priceCaveat": "El precio final se ajusta a tu grupo, fechas y elecciones durante la conversación.",
+    "talkToConcierge": "Habla con nuestro concierge sobre este tour",
+    "whatsappInquiry": "Consulta rápida por WhatsApp"
+  },
+  "common": {
+    "readMore": "Leer más",
+    "loading": "Cargando…",
+    "back": "Volver"
+  }
+}
