@@ -118,6 +118,28 @@ const COMMONS = {
     'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Egyptian_food_Koshary.jpg/1920px-Egyptian_food_Koshary.jpg',
   aswanNile:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Aswan_Nile_R02.jpg/1920px-Aswan_Nile_R02.jpg',
+  // ── Wiki ──
+  dynastyEighteenth:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Respaldo_del_trono_de_oro_de_Tutankam%C3%B3n.jpg/1920px-Respaldo_del_trono_de_oro_de_Tutankam%C3%B3n.jpg',
+  dynastyOldKhafre:
+    'https://upload.wikimedia.org/wikipedia/commons/d/d5/Khafre_statue.jpg',
+  dynastyPtolemaic:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Temple_Edfou_Egypte.jpg/1920px-Temple_Edfou_Egypte.jpg',
+  personHatshepsut:
+    'https://upload.wikimedia.org/wikipedia/commons/7/7b/Seated_Statue_of_Hatshepsut_MET_Hatshepsut2012.jpg',
+  personRamses:
+    'https://upload.wikimedia.org/wikipedia/commons/c/cf/Ramses_II_British_Museum.jpg',
+  personCleopatra:
+    'https://upload.wikimedia.org/wikipedia/commons/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg',
+  monumentGreatPyramid:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg/1920px-Great_Pyramid_of_Giza_-_Pyramid_of_Khufu.jpg',
+  // monumentKarnak: no verified Wikipedia article-lead available — placeholder.
+  // monumentTempleHatshepsut: reuses COMMONS.hatshepsut (Deir el-Bahari) above.
+  deityHorus:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Horus_standing.svg/1920px-Horus_standing.svg.png',
+  deityAnubis:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Anubis_standing.svg/1920px-Anubis_standing.svg.png',
+  // deityIsis: no verified article-lead — placeholder.
 };
 
 // ── Localized field helpers ───────────────────────────────
@@ -191,6 +213,17 @@ async function seed() {
     cairoTransport: await uploadImage(COMMONS.cairoAirport, 'cairo-airport.jpg'),
     cairoFood: await uploadImage(COMMONS.koshary, 'koshary.jpg'),
     familyPkg: await uploadImage(COMMONS.aswanNile, 'aswan-nile.jpg'),
+    // Wiki
+    dyn18th: await uploadImage(COMMONS.dynastyEighteenth, 'tutankhamun-throne.jpg'),
+    dynOld: await uploadImage(COMMONS.dynastyOldKhafre, 'khafre-statue.jpg'),
+    dynPtolemaic: await uploadImage(COMMONS.dynastyPtolemaic, 'edfu-temple.jpg'),
+    pHatshepsut: await uploadImage(COMMONS.personHatshepsut, 'hatshepsut-met.jpg'),
+    pRamses: await uploadImage(COMMONS.personRamses, 'ramses-bm.jpg'),
+    pCleopatra: await uploadImage(COMMONS.personCleopatra, 'cleopatra-altes.jpg'),
+    monGreatPyramid: await uploadImage(COMMONS.monumentGreatPyramid, 'great-pyramid.jpg'),
+    monTempleHatshepsut: await uploadImage(COMMONS.hatshepsut, 'deir-el-bahari.jpg'),
+    deityHorus: await uploadImage(COMMONS.deityHorus, 'horus.png'),
+    deityAnubis: await uploadImage(COMMONS.deityAnubis, 'anubis.png'),
   };
   const uploadedCount = Object.values(img).filter(Boolean).length;
   console.log(`  ✓ ${uploadedCount}/${Object.keys(img).length} images uploaded`);
@@ -998,6 +1031,593 @@ async function seed() {
   });
 
   console.log('  ✓ Site settings');
+
+  // ─────────────────────────────────────────────────────────
+  // Wiki — Egyptian reference content
+  //
+  // Cross-references resolve in two passes: dynasties + monuments + deities
+  // are created without forward refs to other wiki types, then patched
+  // after wikiPerson docs exist. This avoids strong-ref-to-missing-doc
+  // errors during initial creation.
+  // ─────────────────────────────────────────────────────────
+
+  // ── Dynasties (no cross-refs yet) ─────────────────────────
+  await client.createOrReplace({
+    _id: 'wiki-dynasty-eighteenth',
+    _type: 'wikiDynasty',
+    name: i18nString('Eighteenth Dynasty', 'XVIII Dinastía', '第18王朝'),
+    slug: i18nSlug('eighteenth-dynasty', 'dinastia-xviii', 'eighteenth-dynasty'),
+    kingdom: 'new',
+    period: i18nString('c. 1550–1295 BCE', 'c. 1550–1295 a. C.', '紀元前1550年頃〜1295年頃'),
+    startYear: -1550,
+    endYear: -1295,
+    summary: i18nString(
+      'The first dynasty of the New Kingdom — Egypt at the height of imperial reach, the dynasty of Hatshepsut, Akhenaten, Nefertiti, and Tutankhamun.',
+      'La primera dinastía del Imperio Nuevo, Egipto en su apogeo imperial: la dinastía de Hatshepsut, Akenatón, Nefertiti y Tutankamón.',
+      '新王国時代の最初の王朝 — 帝国の最盛期、ハトシェプスト、アクエンアテン、ネフェルティティ、ツタンカーメンの王朝。'
+    ),
+    body: i18nPortable([
+      block(
+        "The Eighteenth Dynasty is the dynasty most modern audiences picture when they picture ancient Egypt. It opens with Ahmose I expelling the Hyksos and reunifying the country, runs through Hatshepsut's twenty-year peace and the empire-builder Thutmose III, lurches into Akhenaten's monotheist heresy at Amarna, and ends with the boy-king Tutankhamun, the general Horemheb, and the disrupted succession that ushers in the Nineteenth."
+      ),
+      operatorNote(
+        'context',
+        "If you have to learn one Egyptian dynasty before traveling, learn this one. Almost everything you'll see at Karnak, Luxor, the Valley of the Kings, and Deir el-Bahari is either Eighteenth Dynasty or a direct response to it."
+      ),
+      block(
+        "The dynasty's signature is architectural ambition. Hatshepsut's terraced temple at Deir el-Bahari, Thutmose III's expansion of Karnak, the obelisks (most now in Rome, Istanbul, New York), the Valley of the Kings as the new royal necropolis — all of it. Nineteen pharaohs across roughly 250 years."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.dyn18th,
+      {
+        en: 'Detail of the gold throne of Tutankhamun — Eighteenth Dynasty',
+        es: 'Detalle del trono dorado de Tutankamón — Dinastía XVIII',
+        ja: 'ツタンカーメンの黄金の玉座（第18王朝）',
+      },
+      'Wikimedia Commons — Eighteenth Dynasty article lead photo'
+    ),
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-dynasty-fourth-old',
+    _type: 'wikiDynasty',
+    name: i18nString('Fourth Dynasty', 'IV Dinastía', '第4王朝'),
+    slug: i18nSlug('fourth-dynasty', 'dinastia-iv', 'fourth-dynasty'),
+    kingdom: 'old',
+    period: i18nString('c. 2613–2494 BCE', 'c. 2613–2494 a. C.', '紀元前2613年頃〜2494年頃'),
+    startYear: -2613,
+    endYear: -2494,
+    summary: i18nString(
+      "The Old Kingdom's pyramid-building dynasty — Sneferu, Khufu, Khafre, Menkaure. The Giza Plateau is essentially their work.",
+      'La dinastía constructora de pirámides del Imperio Antiguo: Seneferu, Keops, Kefrén, Micerino. La meseta de Giza es esencialmente obra suya.',
+      '古王国時代のピラミッド建造王朝 — スネフェル王、クフ王、カフラー王、メンカウラー王。ギザ高原はほぼ彼らの建造物。'
+    ),
+    body: i18nPortable([
+      block(
+        "The Fourth Dynasty is the apex of the Old Kingdom and the dynasty that produced the architecture by which all subsequent Egyptian and indeed many world cultures measured monumental ambition. Sneferu's three pyramids at Meidum and Dahshur record the architectural learning curve; his son Khufu builds the Great Pyramid at Giza; Khafre adds his own and the Sphinx; Menkaure closes the family with the smallest of the three Giza pyramids."
+      ),
+      operatorNote(
+        'context',
+        "Standing at Giza you are looking at roughly 75 years of one family's work. The plateau as built environment is essentially a Fourth-Dynasty monument."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.dynOld,
+      {
+        en: "Diorite statue of Khafre, builder of the second Giza pyramid",
+        es: 'Estatua de diorita de Kefrén, constructor de la segunda pirámide de Giza',
+        ja: 'カフラー王の閃緑岩像 — ギザの第二ピラミッド建造者',
+      },
+      'Wikimedia Commons — Khafre article lead photo'
+    ),
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-dynasty-ptolemaic',
+    _type: 'wikiDynasty',
+    name: i18nString('Ptolemaic Dynasty', 'Dinastía Ptolemaica', 'プトレマイオス朝'),
+    slug: i18nSlug('ptolemaic-dynasty', 'dinastia-ptolemaica', 'ptolemaic-dynasty'),
+    kingdom: 'ptolemaic',
+    period: i18nString('305–30 BCE', '305–30 a. C.', '紀元前305年〜30年'),
+    startYear: -305,
+    endYear: -30,
+    summary: i18nString(
+      "The Greek dynasty that ruled Egypt for nearly three centuries after Alexander's conquest, ending with Cleopatra VII and the annexation by Rome.",
+      'La dinastía griega que gobernó Egipto durante casi tres siglos tras la conquista de Alejandro, hasta su final con Cleopatra VII y la anexión romana.',
+      'アレクサンドロス征服後、約3世紀にわたりエジプトを統治したギリシャ系王朝 — クレオパトラ7世とローマ併合で幕を閉じる。'
+    ),
+    body: i18nPortable([
+      block(
+        "Ptolemy I, one of Alexander the Great's generals, took Egypt as his share of the empire and founded the dynasty that would rule from Alexandria for fifteen generations. The Ptolemies were Greek-speaking, ruled through a hybrid Greek-Egyptian apparatus, and never quite stopped being foreigners — until Cleopatra VII, who was the first to learn Egyptian and the last to rule before Rome."
+      ),
+      operatorNote(
+        'context',
+        "Most of the temples that look 'classically Egyptian' to modern visitors — Edfu, Dendera, Kom Ombo, Philae — are Ptolemaic. They're consciously archaic, deliberately styled to look like New-Kingdom temples a millennium older. The Ptolemies wanted Egyptian legitimacy and built it in stone."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.dynPtolemaic,
+      {
+        en: 'The Temple of Edfu — Ptolemaic-era, the most-preserved temple in Egypt',
+        es: 'El templo de Edfu — de época ptolemaica, el templo mejor conservado de Egipto',
+        ja: 'エドフ神殿 — プトレマイオス朝期、エジプトで最も保存状態の良い神殿',
+      },
+      'Wikimedia Commons — Edfu article lead photo'
+    ),
+  });
+
+  console.log('  ✓ 3 dynasties');
+
+  // ── Monuments (refs cities + dynasties; person/deity refs added later) ──
+  await client.createOrReplace({
+    _id: 'wiki-monument-temple-hatshepsut',
+    _type: 'wikiMonument',
+    name: i18nString(
+      'Mortuary Temple of Hatshepsut at Deir el-Bahari',
+      'Templo funerario de Hatshepsut en Deir el-Bahari',
+      'ダイル・アル=バハリのハトシェプスト葬祭殿'
+    ),
+    slug: i18nSlug('temple-of-hatshepsut', 'templo-de-hatshepsut', 'temple-of-hatshepsut'),
+    monumentType: 'mortuary-temple',
+    city: { _type: 'reference', _ref: luxor._id },
+    preciseLocation: i18nString(
+      'West Bank, Luxor — Deir el-Bahari',
+      'Orilla oeste de Luxor — Deir el-Bahari',
+      'ルクソール西岸 — ダイル・アル=バハリ'
+    ),
+    builtDuring: { _type: 'reference', _ref: 'wiki-dynasty-eighteenth' },
+    summary: i18nString(
+      "Hatshepsut's three-terraced mortuary temple, set against the cliffs of Deir el-Bahari. Architecturally unique in the Egyptian tradition.",
+      'El templo funerario de tres terrazas de Hatshepsut, encajado en los acantilados de Deir el-Bahari. Arquitectónicamente único en la tradición egipcia.',
+      'ダイル・アル=バハリの断崖を背景に建つ、ハトシェプストの三段テラス葬祭殿。エジプトの伝統において建築的に唯一無二。'
+    ),
+    body: i18nPortable([
+      block(
+        "The temple is built into the cliffs in three stepped terraces, connected by long ramps. It looks more Greek than Egyptian — and indeed Greek architects who reached Egypt in later centuries used Deir el-Bahari as a reference for proportional architecture. But it predates Greek temple-building by a thousand years."
+      ),
+      block(
+        "The reliefs on the terraces tell two stories. The middle terrace shows the expedition to Punt — Hatshepsut's defining trade mission, possibly to Eritrea or Somalia, recorded with extraordinary visual specificity (giraffes, baboons, the Queen of Punt drawn faithfully as a heavy-set woman). The upper terrace records Hatshepsut's divine birth — her claim that Amun-Re was her father, the legitimacy theology of a queen ruling as king."
+      ),
+      operatorNote(
+        'caution',
+        "After Hatshepsut's death, her successor Thutmose III had her name and image systematically erased from the temple. The damnatio memoriae is visible everywhere — figures chiseled out, cartouches scraped off. The restoration work since the 1960s has been meticulous but the scars are still readable."
+      ),
+    ]),
+    visitorInfo: i18nPortable([
+      block(
+        "Visiting hours: 6am–5pm. Most tour groups arrive between 8am and 10am, which is exactly when the sun is hottest on the unshaded terraces. We aim our visits at 7am or 4pm — cooler, longer shadows, fewer people."
+      ),
+      block(
+        "There's a small electric tram from the entrance to the temple base; we usually skip it and walk (about 10 minutes), which gives you the approach the architects intended."
+      ),
+      operatorNote(
+        'insider',
+        "The Anubis Chapel on the middle terrace, north side, is often empty even when the main terraces are crowded. The painted reliefs there are some of the best-preserved color anywhere in the Theban necropolis."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.monTempleHatshepsut,
+      {
+        en: 'The three terraces of Hatshepsut’s mortuary temple at Deir el-Bahari',
+        es: 'Las tres terrazas del templo funerario de Hatshepsut en Deir el-Bahari',
+        ja: 'ダイル・アル=バハリのハトシェプスト葬祭殿の三段テラス',
+      },
+      'Wikimedia Commons — Deir el-Bahari article lead photo'
+    ),
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-monument-karnak',
+    _type: 'wikiMonument',
+    name: i18nString(
+      'Karnak Temple Complex',
+      'Complejo templario de Karnak',
+      'カルナック神殿群'
+    ),
+    slug: i18nSlug('karnak', 'karnak', 'karnak'),
+    monumentType: 'temple',
+    city: { _type: 'reference', _ref: luxor._id },
+    preciseLocation: i18nString(
+      'East Bank, Luxor',
+      'Orilla este de Luxor',
+      'ルクソール東岸'
+    ),
+    builtDuring: { _type: 'reference', _ref: 'wiki-dynasty-eighteenth' },
+    summary: i18nString(
+      "The largest religious building ever constructed — 200 acres of temples, pylons, sanctuaries, and obelisks accumulated across two thousand years of pharaonic dedication.",
+      'El edificio religioso más grande jamás construido: 80 hectáreas de templos, pilonos, santuarios y obeliscos acumulados durante dos mil años de devoción faraónica.',
+      'これまでに建造された世界最大の宗教施設 — 80ヘクタールの神殿群、塔門、聖所、オベリスクが2,000年にわたるファラオたちの奉献によって積み重なる。'
+    ),
+    body: i18nPortable([
+      block(
+        "Karnak is not a temple. It is the accumulated record of two thousand years of pharaohs each adding what they could afford to add. The Middle Kingdom started it. The Eighteenth Dynasty made it monumental — Hatshepsut's obelisks, Thutmose III's hall of festivals. The Nineteenth Dynasty's Ramesses II built the Great Hypostyle Hall, 134 columns, the largest ever raised. The Ptolemies added their own pylon. Even the Romans patched it."
+      ),
+      operatorNote(
+        'context',
+        "If you can only do one site at Luxor, Karnak is the one. Everything else — Luxor Temple, the Valley of the Kings, Hatshepsut's temple — makes sense in relation to Karnak. It was the religious center, and the others orbit it."
+      ),
+    ]),
+    visitorInfo: i18nPortable([
+      block('6am–5pm; light show in the evening (decent if you want it, skippable if not).'),
+      operatorNote(
+        'insider',
+        "Walk the side paths into the chapels around the Sacred Lake — almost no one does, and that's where the best-preserved color reliefs are."
+      ),
+    ]),
+    // No verified hero image — leaving placeholder rather than risk the
+    // misattributed Wikipedia file (filename suggests Luxor Temple).
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-monument-great-pyramid',
+    _type: 'wikiMonument',
+    name: i18nString(
+      'Great Pyramid of Giza',
+      'Gran Pirámide de Giza',
+      'ギザの大ピラミッド'
+    ),
+    slug: i18nSlug('great-pyramid-of-giza', 'gran-piramide-de-giza', 'great-pyramid-of-giza'),
+    monumentType: 'pyramid',
+    city: { _type: 'reference', _ref: cairo._id },
+    preciseLocation: i18nString(
+      'Giza Plateau',
+      'Meseta de Giza',
+      'ギザ高原'
+    ),
+    builtDuring: { _type: 'reference', _ref: 'wiki-dynasty-fourth-old' },
+    summary: i18nString(
+      "Khufu's pyramid — the largest ever built, the only surviving Wonder of the Ancient World, and the architectural standard the Egyptian state never quite matched again.",
+      'La pirámide de Keops: la más grande jamás construida, la única Maravilla del Mundo Antiguo que sobrevive, y el estándar arquitectónico que el Estado egipcio nunca volvió a igualar.',
+      'クフ王のピラミッド — 史上最大、現存する唯一の古代世界の七不思議、そしてエジプト国家が二度と並べなかった建築水準。'
+    ),
+    body: i18nPortable([
+      block(
+        "146 meters originally, 138 today after the limestone casing was stripped for medieval Cairo's mosques. 2.3 million stone blocks, each averaging 2.5 tons. Built in roughly 20 years during Khufu's reign, around 2560 BCE — meaning a stone block was set every two minutes for two decades."
+      ),
+      operatorNote(
+        'honest',
+        "The interior chambers are interesting historically and uncomfortable physically. The Grand Gallery climb is steep, low-ceilinged, hot, and ends in a small room that contained a granite sarcophagus and now contains tourists. If you have any doubts about claustrophobia, skip the interior — the exterior and context are the real visit."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.monGreatPyramid,
+      {
+        en: 'The Great Pyramid of Giza — Pyramid of Khufu',
+        es: 'La Gran Pirámide de Giza — pirámide de Keops',
+        ja: 'ギザの大ピラミッド — クフ王のピラミッド',
+      },
+      'Wikimedia Commons — Great Pyramid of Giza article lead photo'
+    ),
+  });
+
+  console.log('  ✓ 3 monuments');
+
+  // ── Deities ──────────────────────────────────────────────
+  await client.createOrReplace({
+    _id: 'wiki-deity-horus',
+    _type: 'wikiDeity',
+    name: i18nString('Horus', 'Horus', 'ホルス'),
+    slug: i18nSlug('horus', 'horus', 'horus'),
+    alternateNames: ['Hor', 'Heru', 'Hor-Wer', 'Harakhty', 'Harpocrates'],
+    domain: i18nString(
+      'Sky god, falcon-headed; god of kingship and protection',
+      'Dios del cielo con cabeza de halcón; dios de la realeza y la protección',
+      '空の神、ハヤブサ頭の神 — 王権と守護の神'
+    ),
+    summary: i18nString(
+      "The falcon-headed sky god, son of Osiris and Isis. Every living pharaoh was considered Horus on earth — kingship's divine charter.",
+      'El dios del cielo con cabeza de halcón, hijo de Osiris e Isis. Todo faraón vivo era considerado Horus en la tierra: la carta divina de la realeza.',
+      '空の神、ハヤブサ頭、オシリスとイシスの息子。生ける全てのファラオは地上のホルスとされた — 王権の神聖なる根拠。'
+    ),
+    body: i18nPortable([
+      block(
+        "Horus's mythology is the Osiris cycle in compressed form: his father Osiris murdered by his uncle Set, his mother Isis hiding him in the Delta marshes, his eventual return to claim the throne and the long contendings with Set that ended with Horus winning kingship over the living world. By the historical period the doctrine was settled — the living king was Horus, the dead king became Osiris."
+      ),
+    ]),
+    iconography: i18nPortable([
+      block(
+        "Falcon-headed man wearing the double crown of Upper and Lower Egypt. Often shown as a falcon alone, perched protectively behind the back of a pharaoh's head — most famously in Khafre's seated statue at Giza."
+      ),
+      block(
+        "The Eye of Horus — the wedjat — circulates as a protective amulet across all periods."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.deityHorus,
+      {
+        en: 'Horus standing — line drawing of the falcon-headed god',
+        es: 'Horus de pie — dibujo lineal del dios con cabeza de halcón',
+        ja: 'ホルス立像 — ハヤブサ頭の神の線描',
+      },
+      'Wikimedia Commons — Horus article lead'
+    ),
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-deity-isis',
+    _type: 'wikiDeity',
+    name: i18nString('Isis', 'Isis', 'イシス'),
+    slug: i18nSlug('isis', 'isis', 'isis'),
+    alternateNames: ['Aset', 'Eset', 'Au-Set'],
+    domain: i18nString(
+      'Goddess of magic, motherhood, and protection',
+      'Diosa de la magia, la maternidad y la protección',
+      '魔術・母性・守護の女神'
+    ),
+    summary: i18nString(
+      "Wife of Osiris, mother of Horus, the great mother of the Egyptian pantheon. By the Roman era her cult had spread across the Mediterranean.",
+      'Esposa de Osiris, madre de Horus, la gran madre del panteón egipcio. En época romana su culto se extendió por todo el Mediterráneo.',
+      'オシリスの妻、ホルスの母、エジプト神話の偉大なる母。ローマ時代までに地中海全域に信仰が広まった。'
+    ),
+    body: i18nPortable([
+      block(
+        "Isis is, of all the Egyptian deities, the one whose cult traveled furthest. By the first century CE there were Isis temples in Rome, Pompeii, Athens, and Britain. The Greeks and Romans recognized her in their own mother-goddess types — Demeter, Magna Mater — and the Christian iconography of mother-and-child draws unmistakably from Isis-and-Horus images."
+      ),
+    ]),
+    iconography: i18nPortable([
+      block(
+        "Woman with the throne hieroglyph (her name) on her head, or with cow horns and a sun disk (after she was syncretized with Hathor). Often shown nursing the infant Horus on her lap — the image that would echo, through Coptic Christian art, into the European Madonna-and-child tradition."
+      ),
+    ]),
+    // No verified Wikipedia article-lead image — placeholder.
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-deity-anubis',
+    _type: 'wikiDeity',
+    name: i18nString('Anubis', 'Anubis', 'アヌビス'),
+    slug: i18nSlug('anubis', 'anubis', 'anubis'),
+    alternateNames: ['Anpu', 'Inpu'],
+    domain: i18nString(
+      'Jackal-headed god of mummification and the afterlife',
+      'Dios chacal de la momificación y el más allá',
+      'ジャッカル頭の神 — ミイラ作りと冥界の神'
+    ),
+    summary: i18nString(
+      "The jackal-headed god who oversees embalming and weighs the heart of the deceased against the feather of Maat. Patron of cemeteries and funerary practice.",
+      'El dios chacal que supervisa el embalsamamiento y pesa el corazón del difunto contra la pluma de Maat. Patrón de los cementerios y la práctica funeraria.',
+      'ジャッカル頭の神 — ミイラ作りを監督し、死者の心臓をマアトの羽根と比較して秤量する。墓地と葬送儀礼の守護神。'
+    ),
+    body: i18nPortable([
+      block(
+        "Anubis presides over the most consequential moment in Egyptian afterlife belief — the weighing of the heart in the Hall of Two Truths. If the heart, weighted with the deceased's deeds in life, balances against the feather of Maat, the soul passes into the afterlife. If not, Ammit — part lion, part hippopotamus, part crocodile — devours it."
+      ),
+      block(
+        "His association with embalming is practical: jackals scavenged Egyptian cemeteries, and the early dynastic period seems to have rationalized this by making the jackal the guardian rather than the threat."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.deityAnubis,
+      {
+        en: 'Anubis standing — line drawing of the jackal-headed god',
+        es: 'Anubis de pie — dibujo lineal del dios con cabeza de chacal',
+        ja: 'アヌビス立像 — ジャッカル頭の神の線描',
+      },
+      'Wikimedia Commons — Anubis article lead'
+    ),
+  });
+
+  console.log('  ✓ 3 deities');
+
+  // ── People ──────────────────────────────────────────────
+  await client.createOrReplace({
+    _id: 'wiki-person-hatshepsut',
+    _type: 'wikiPerson',
+    name: i18nString('Hatshepsut', 'Hatshepsut', 'ハトシェプスト'),
+    slug: i18nSlug('hatshepsut', 'hatshepsut', 'hatshepsut'),
+    role: 'pharaoh',
+    alternateNames: ['Hatshepsut', 'Hatchepsut', 'Maatkare'],
+    dynasty: { _type: 'reference', _ref: 'wiki-dynasty-eighteenth' },
+    reignStartYear: -1479,
+    reignEndYear: -1458,
+    reignDisplay: i18nString(
+      'c. 1479–1458 BCE',
+      'c. 1479–1458 a. C.',
+      '紀元前1479年頃〜1458年頃'
+    ),
+    summary: i18nString(
+      'Eighteenth-Dynasty pharaoh, one of a small number of women to rule Egypt as king (not regent, not consort). Her two-decade reign was a peak of Egyptian prosperity and architectural ambition.',
+      'Faraón de la Dinastía XVIII, una de las pocas mujeres que gobernó Egipto como rey (no como regente ni consorte). Sus dos décadas de reinado fueron un apogeo de prosperidad y ambición arquitectónica.',
+      '第18王朝のファラオ。エジプトを王として（摂政や后ではなく）統治した数少ない女性の一人。20年に及ぶ治世はエジプトの繁栄と建築的野心の頂点。'
+    ),
+    body: i18nPortable([
+      block(
+        "Hatshepsut came to the throne first as regent for her young stepson Thutmose III, then — within a few years — as full pharaoh in her own right, taking the throne names and the kingly titles. She ruled for roughly two decades. The standard claim that she was 'erased from history by jealous male successors' overstates the case; the truth is that Thutmose III, after her death and his own emergence as a major military pharaoh, did remove her name and image from many monuments — but inconsistently, and probably for legitimist political reasons rather than personal animus."
+      ),
+      operatorNote(
+        'context',
+        "Her reign was peace, trade, and building. The expedition to Punt is recorded on her temple walls. Karnak got two of her obelisks — the standing one is still the tallest ancient obelisk in Egypt. And Deir el-Bahari is hers from the cliff face up."
+      ),
+      block(
+        "The Hatshepsut you see in modern Egypt is the recovered version. Her statues at the Met, the Cairo Museum, and the Luxor Museum were systematically smashed in antiquity, then reconstructed across the twentieth century from the fragments dumped in a quarry pit in front of her temple. Most of the great statues you see now are partial reassemblies."
+      ),
+    ]),
+    notableMonuments: [
+      { _type: 'reference', _ref: 'wiki-monument-temple-hatshepsut', _key: 'temple-hat' },
+      { _type: 'reference', _ref: 'wiki-monument-karnak', _key: 'karnak' },
+    ],
+    heroImage: heroImage(
+      img.pHatshepsut,
+      {
+        en: 'Seated statue of Hatshepsut, Metropolitan Museum of Art',
+        es: 'Estatua sedente de Hatshepsut, Museo Metropolitano de Arte',
+        ja: 'ハトシェプスト座像 — メトロポリタン美術館',
+      },
+      'Wikimedia Commons — Hatshepsut article lead photo'
+    ),
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-person-ramses-ii',
+    _type: 'wikiPerson',
+    name: i18nString('Ramesses II', 'Ramsés II', 'ラムセス2世'),
+    slug: i18nSlug('ramesses-ii', 'ramses-ii', 'ramesses-ii'),
+    role: 'pharaoh',
+    alternateNames: ['Ramses II', 'Ramesses the Great', 'Usermaatre Setepenre', 'Ozymandias'],
+    reignStartYear: -1279,
+    reignEndYear: -1213,
+    reignDisplay: i18nString(
+      'c. 1279–1213 BCE',
+      'c. 1279–1213 a. C.',
+      '紀元前1279年頃〜1213年頃'
+    ),
+    summary: i18nString(
+      'Nineteenth-Dynasty pharaoh whose 66-year reign produced more monumental construction than any other ruler in Egyptian history. The default Egyptian pharaoh in the Western imagination — Shelley\'s Ozymandias is him.',
+      'Faraón de la Dinastía XIX cuyo reinado de 66 años produjo más construcción monumental que cualquier otro gobernante en la historia egipcia. El faraón egipcio por defecto en el imaginario occidental: el Ozymandias de Shelley es él.',
+      '第19王朝のファラオ。66年に及ぶ治世はエジプト史上最大の記念建造物建造を残した。西洋の想像における「典型的ファラオ」 — シェリーの「オジマンディアス」は彼。'
+    ),
+    body: i18nPortable([
+      block(
+        "Ramesses II ruled for so long that he outlived most of his children. The cartouches at Abu Simbel, the colossal seated statues at the Ramesseum, the additions to Karnak's Hypostyle Hall, the temple at Beit el-Wali, and a list of others — are all his. The signature is recognizable: deep-cut sunk relief, oversized statuary, and an obsessive habit of carving his name into earlier monuments."
+      ),
+      operatorNote(
+        'honest',
+        "He was also a propagandist. The Battle of Kadesh against the Hittites, recorded as a Ramesside victory all over Egypt, was probably a draw at best. The treaty that followed it was the first known international peace treaty — a more interesting outcome than the battle scenes suggest."
+      ),
+    ]),
+    notableMonuments: [
+      { _type: 'reference', _ref: 'wiki-monument-karnak', _key: 'karnak' },
+    ],
+    heroImage: heroImage(
+      img.pRamses,
+      {
+        en: 'Granite colossus of Ramesses II — British Museum',
+        es: 'Coloso de granito de Ramsés II — Museo Británico',
+        ja: 'ラムセス2世の花崗岩巨像 — 大英博物館',
+      },
+      'Wikimedia Commons — Ramesses II article lead photo'
+    ),
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-person-cleopatra-vii',
+    _type: 'wikiPerson',
+    name: i18nString('Cleopatra VII', 'Cleopatra VII', 'クレオパトラ7世'),
+    slug: i18nSlug('cleopatra-vii', 'cleopatra-vii', 'cleopatra-vii'),
+    role: 'queen',
+    alternateNames: ['Cleopatra Philopator', 'Kleopatra'],
+    dynasty: { _type: 'reference', _ref: 'wiki-dynasty-ptolemaic' },
+    reignStartYear: -51,
+    reignEndYear: -30,
+    reignDisplay: i18nString(
+      '51–30 BCE',
+      '51–30 a. C.',
+      '紀元前51年〜30年'
+    ),
+    summary: i18nString(
+      'The last active ruler of the Ptolemaic Kingdom. Her death after the Battle of Actium ended three thousand years of pharaonic Egypt and brought the country under Rome.',
+      'La última gobernante en activo del Reino Ptolemaico. Su muerte tras la batalla de Accio puso fin a tres mil años de Egipto faraónico y entregó el país a Roma.',
+      'プトレマイオス朝最後の実権ある支配者。アクティウム海戦後の彼女の死は、3,000年に及ぶファラオ時代のエジプトを終わらせ、ローマ支配下に置いた。'
+    ),
+    body: i18nPortable([
+      block(
+        "Cleopatra was the first Ptolemaic ruler in nearly three centuries to bother learning Egyptian. She also reportedly spoke nine other languages and presented herself to Egyptian audiences as the goddess Isis incarnate — a calculated piece of cultural politics in a country whose Greek-speaking elite had governed without engaging the local population for generations."
+      ),
+      block(
+        "Her relationships with Julius Caesar and then Mark Antony were strategic alliances first, anything else second; the survival of Ptolemaic Egypt depended on Rome and she made the bargains the situation allowed. The bargains failed at Actium in 31 BCE."
+      ),
+      operatorNote(
+        'context',
+        "The Cleopatra of European painting — pale, sultry, Hellenistic — is partly a Ptolemaic court image and partly two thousand years of European projection. The historical Cleopatra was politically formidable, multilingual, and a writer (her medical and cosmetic treatises were cited by Galen)."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.pCleopatra,
+      {
+        en: 'Marble bust of Cleopatra VII — Altes Museum, Berlin',
+        es: 'Busto de mármol de Cleopatra VII — Altes Museum, Berlín',
+        ja: 'クレオパトラ7世の大理石胸像 — ベルリン旧博物館',
+      },
+      'Wikimedia Commons — Cleopatra article lead photo'
+    ),
+  });
+
+  console.log('  ✓ 3 people');
+
+  // ── Patch passes to add cross-refs that depend on later docs ──
+  await client
+    .patch('wiki-monument-temple-hatshepsut')
+    .set({
+      builtBy: [
+        { _type: 'reference', _ref: 'wiki-person-hatshepsut', _key: 'h' },
+      ],
+      dedicatedTo: [
+        { _type: 'reference', _ref: 'wiki-deity-horus', _key: 'h' },
+      ],
+    })
+    .commit();
+
+  await client
+    .patch('wiki-monument-karnak')
+    .set({
+      builtBy: [
+        { _type: 'reference', _ref: 'wiki-person-hatshepsut', _key: 'h' },
+        { _type: 'reference', _ref: 'wiki-person-ramses-ii', _key: 'r' },
+      ],
+      dedicatedTo: [
+        { _type: 'reference', _ref: 'wiki-deity-horus', _key: 'h' },
+      ],
+    })
+    .commit();
+
+  await client
+    .patch('wiki-dynasty-eighteenth')
+    .set({
+      notableRulers: [
+        { _type: 'reference', _ref: 'wiki-person-hatshepsut', _key: 'h' },
+      ],
+      notableMonuments: [
+        { _type: 'reference', _ref: 'wiki-monument-temple-hatshepsut', _key: 'th' },
+        { _type: 'reference', _ref: 'wiki-monument-karnak', _key: 'k' },
+      ],
+    })
+    .commit();
+
+  await client
+    .patch('wiki-dynasty-fourth-old')
+    .set({
+      notableMonuments: [
+        { _type: 'reference', _ref: 'wiki-monument-great-pyramid', _key: 'gp' },
+      ],
+    })
+    .commit();
+
+  await client
+    .patch('wiki-dynasty-ptolemaic')
+    .set({
+      notableRulers: [
+        { _type: 'reference', _ref: 'wiki-person-cleopatra-vii', _key: 'c' },
+      ],
+    })
+    .commit();
+
+  await client
+    .patch('wiki-deity-horus')
+    .set({
+      associatedMonuments: [
+        { _type: 'reference', _ref: 'wiki-monument-karnak', _key: 'k' },
+        { _type: 'reference', _ref: 'wiki-monument-temple-hatshepsut', _key: 'th' },
+      ],
+      associatedDeities: [
+        { _type: 'reference', _ref: 'wiki-deity-isis', _key: 'i' },
+      ],
+      primaryCultCenters: [
+        { _type: 'reference', _ref: luxor._id, _key: 'luxor' },
+      ],
+    })
+    .commit();
+
+  await client
+    .patch('wiki-deity-isis')
+    .set({
+      associatedDeities: [
+        { _type: 'reference', _ref: 'wiki-deity-horus', _key: 'h' },
+      ],
+    })
+    .commit();
+
+  console.log('  ✓ wiki cross-references patched');
 
   console.log('\nDone. Next:');
   console.log(`  → Open the Studio at http://localhost:3000/studio`);

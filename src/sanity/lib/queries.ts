@@ -255,6 +255,393 @@ export const allTourSlugsQuery = groq`
 `;
 
 // ──────────────────────────────────────────────
+// Wiki — shared projections
+// ──────────────────────────────────────────────
+
+/**
+ * Compact wiki-card projection: just enough for cards on listing pages and
+ * cross-reference lists. Each wiki type's card looks slightly different
+ * (a person shows reign, a monument shows city/type, a deity shows
+ * domain) — the page can read whichever fields it needs.
+ */
+const wikiCardProjection = (locale: Locale) => `
+  _id,
+  _type,
+  "name": ${localizedField('name', locale)},
+  "slug": ${localizedSlug('slug', locale)},
+  "summary": ${localizedField('summary', locale)},
+  heroImage{
+    ...,
+    "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+  },
+  // Type-specific extras (null when the type doesn't have them):
+  kingdom,
+  "period": ${localizedField('period', locale)},
+  role,
+  "reignDisplay": ${localizedField('reignDisplay', locale)},
+  monumentType,
+  "preciseLocation": ${localizedField('preciseLocation', locale)},
+  "city": city->{
+    _id,
+    "name": ${localizedField('name', locale)},
+    "slug": ${localizedSlug('slug', locale)}
+  },
+  "domain": ${localizedField('domain', locale)}
+`;
+
+// ──────────────────────────────────────────────
+// Wiki — Dynasty
+// ──────────────────────────────────────────────
+
+export const allDynastiesQuery = (locale: Locale) => groq`
+  *[_type == "wikiDynasty"] | order(coalesce(startYear, 9999) asc){
+    ${wikiCardProjection(locale)},
+    startYear,
+    endYear
+  }
+`;
+
+export const dynastyBySlugQuery = (locale: Locale) => groq`
+  *[_type == "wikiDynasty" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    ${wikiCardProjection(locale)},
+    "allSlugs": slug[]{ _key, "current": value.current },
+    startYear,
+    endYear,
+    "body": body[_key == "${locale}"][0].value,
+    "predecessorDynasty": predecessorDynasty->{ ${wikiCardProjection(locale)} },
+    "successorDynasty": successorDynasty->{ ${wikiCardProjection(locale)} },
+    "notableRulers": notableRulers[]->{ ${wikiCardProjection(locale)} },
+    "notableMonuments": notableMonuments[]->{ ${wikiCardProjection(locale)} },
+    "relatedTours": relatedTours[]->{
+      _id, type, dayTourMode, durationDays,
+      "title": ${localizedField('title', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      "durationLabel": ${localizedField('durationLabel', locale)},
+      heroImage{
+        ...,
+        "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+      }
+    },
+    "reverseRulers": *[_type == "wikiPerson" && dynasty._ref == ^._id] | order(reignStartYear asc){
+      ${wikiCardProjection(locale)}
+    },
+    "reverseMonuments": *[_type == "wikiMonument" && builtDuring._ref == ^._id]{
+      ${wikiCardProjection(locale)}
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+// ──────────────────────────────────────────────
+// Wiki — Person
+// ──────────────────────────────────────────────
+
+export const allPeopleQuery = (locale: Locale) => groq`
+  *[_type == "wikiPerson"] | order(coalesce(reignStartYear, 9999) asc){
+    ${wikiCardProjection(locale)},
+    reignStartYear,
+    reignEndYear,
+    "dynasty": dynasty->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)}
+    }
+  }
+`;
+
+export const personBySlugQuery = (locale: Locale) => groq`
+  *[_type == "wikiPerson" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    ${wikiCardProjection(locale)},
+    "allSlugs": slug[]{ _key, "current": value.current },
+    alternateNames,
+    reignStartYear,
+    reignEndYear,
+    "body": body[_key == "${locale}"][0].value,
+    "dynasty": dynasty->{ ${wikiCardProjection(locale)} },
+    "predecessor": predecessor->{ ${wikiCardProjection(locale)} },
+    "successor": successor->{ ${wikiCardProjection(locale)} },
+    "spouse": spouse[]->{ ${wikiCardProjection(locale)} },
+    "parents": parents[]->{ ${wikiCardProjection(locale)} },
+    "children": children[]->{ ${wikiCardProjection(locale)} },
+    "notableMonuments": notableMonuments[]->{ ${wikiCardProjection(locale)} },
+    "burialSite": burialSite->{ ${wikiCardProjection(locale)} },
+    "relatedTours": relatedTours[]->{
+      _id, type,
+      "title": ${localizedField('title', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      "durationLabel": ${localizedField('durationLabel', locale)},
+      heroImage{
+        ...,
+        "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+      }
+    },
+    "reverseBuilt": *[_type == "wikiMonument" && ^._id in builtBy[]._ref]{
+      ${wikiCardProjection(locale)}
+    },
+    "reverseBuriedHere": *[_type == "wikiMonument" && ^._id in buriedHere[]._ref]{
+      ${wikiCardProjection(locale)}
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+// ──────────────────────────────────────────────
+// Wiki — Monument
+// ──────────────────────────────────────────────
+
+export const allMonumentsQuery = (locale: Locale) => groq`
+  *[_type == "wikiMonument"] | order(city->orderRank asc, name asc){
+    ${wikiCardProjection(locale)}
+  }
+`;
+
+export const monumentBySlugQuery = (locale: Locale) => groq`
+  *[_type == "wikiMonument" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    ${wikiCardProjection(locale)},
+    "allSlugs": slug[]{ _key, "current": value.current },
+    coordinates,
+    "body": body[_key == "${locale}"][0].value,
+    "visitorInfo": visitorInfo[_key == "${locale}"][0].value,
+    "builtBy": builtBy[]->{ ${wikiCardProjection(locale)} },
+    "builtDuring": builtDuring->{ ${wikiCardProjection(locale)} },
+    "buriedHere": buriedHere[]->{ ${wikiCardProjection(locale)} },
+    "dedicatedTo": dedicatedTo[]->{ ${wikiCardProjection(locale)} },
+    "relatedMonuments": relatedMonuments[]->{ ${wikiCardProjection(locale)} },
+    "relatedTours": relatedTours[]->{
+      _id, type,
+      "title": ${localizedField('title', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      "durationLabel": ${localizedField('durationLabel', locale)},
+      heroImage{
+        ...,
+        "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+      }
+    },
+    "reversePersonBurialSite": *[_type == "wikiPerson" && burialSite._ref == ^._id]{
+      ${wikiCardProjection(locale)}
+    },
+    "reverseRelatedMonuments": *[_type == "wikiMonument" && ^._id in relatedMonuments[]._ref && _id != ^._id]{
+      ${wikiCardProjection(locale)}
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+// ──────────────────────────────────────────────
+// Wiki — Deity
+// ──────────────────────────────────────────────
+
+export const allDeitiesQuery = (locale: Locale) => groq`
+  *[_type == "wikiDeity"] | order(name asc){
+    ${wikiCardProjection(locale)}
+  }
+`;
+
+export const deityBySlugQuery = (locale: Locale) => groq`
+  *[_type == "wikiDeity" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    ${wikiCardProjection(locale)},
+    "allSlugs": slug[]{ _key, "current": value.current },
+    alternateNames,
+    "body": body[_key == "${locale}"][0].value,
+    "iconography": iconography[_key == "${locale}"][0].value,
+    "primaryCultCenters": primaryCultCenters[]->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      heroImage
+    },
+    "associatedMonuments": associatedMonuments[]->{ ${wikiCardProjection(locale)} },
+    "associatedDeities": associatedDeities[]->{ ${wikiCardProjection(locale)} },
+    "reverseDedicatedMonuments": *[_type == "wikiMonument" && ^._id in dedicatedTo[]._ref]{
+      ${wikiCardProjection(locale)}
+    },
+    "reverseAssociatedDeities": *[_type == "wikiDeity" && ^._id in associatedDeities[]._ref && _id != ^._id]{
+      ${wikiCardProjection(locale)}
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+// ──────────────────────────────────────────────
+// Wiki — slug discovery for static generation
+// ──────────────────────────────────────────────
+
+export const allWikiSlugsQuery = groq`
+  *[_type in ["wikiDynasty", "wikiPerson", "wikiMonument", "wikiDeity"]]{
+    _id,
+    _type,
+    "slugs": slug[]{ _key, "current": value.current }
+  }
+`;
+
+// ──────────────────────────────────────────────
+// Articles (document-level i18n via @sanity/document-internationalization).
+//
+// Each translation is a separate doc with a `language` field. Slugs are
+// per-document (not localized arrays). For listing/by-slug, we filter
+// by `language == $locale` directly. If no doc exists in the requested
+// locale we fall back to the EN doc.
+// ──────────────────────────────────────────────
+
+const articleCardProjection = `
+  _id,
+  language,
+  title,
+  "slug": slug.current,
+  deck,
+  publishedAt,
+  updatedAt,
+  heroImage{ ..., "alt": alt },
+  "category": category->{
+    _id,
+    "name": coalesce(name[_key==language][0].value, name[_key=="en"][0].value),
+    "slug": coalesce(slug[_key==language][0].value.current, slug[_key=="en"][0].value.current)
+  },
+  "author": author->{
+    _id,
+    name,
+    slug,
+    "role": coalesce(role[_key==language][0].value, role[_key=="en"][0].value),
+    photo
+  }
+`;
+
+export const articlesByLanguageQuery = groq`
+  *[_type == "article" && language == $locale && !(_id in path("drafts.**"))]
+    | order(publishedAt desc){
+    ${articleCardProjection}
+  }
+`;
+
+export const featuredArticlesQuery = groq`
+  *[_type == "article" && language == $locale && !(_id in path("drafts.**"))]
+    | order(publishedAt desc)[0...6]{
+    ${articleCardProjection}
+  }
+`;
+
+export const articlesByCategorySlugQuery = groq`
+  *[_type == "article" && language == $locale &&
+    !(_id in path("drafts.**")) &&
+    category->slug[_key==$locale][0].value.current == $slug
+    || (category->slug[_key==$locale][0].value.current == null &&
+        category->slug[_key=="en"][0].value.current == $slug)
+  ] | order(publishedAt desc){
+    ${articleCardProjection}
+  }
+`;
+
+export const articleBySlugQuery = groq`
+  *[_type == "article" && slug.current == $slug && language == $locale][0]{
+    ${articleCardProjection},
+    body,
+    "categoryDescription": category->{
+      "description": coalesce(description[_key==^.language][0].value, description[_key=="en"][0].value)
+    },
+    "authorBio": author->{
+      "bio": coalesce(bio[_key==^.^.language][0].value, bio[_key=="en"][0].value)
+    },
+    "relatedArticles": relatedArticles[]->{
+      ${articleCardProjection}
+    },
+    "relatedTours": relatedTours[]->{
+      _id, type,
+      "title": coalesce(title[_key==^.language][0].value, title[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==^.language][0].value.current, slug[_key=="en"][0].value.current),
+      "summary": coalesce(summary[_key==^.language][0].value, summary[_key=="en"][0].value),
+      "durationLabel": coalesce(durationLabel[_key==^.language][0].value, durationLabel[_key=="en"][0].value),
+      heroImage
+    },
+    "relatedCities": relatedCities[]->{
+      _id,
+      "name": coalesce(name[_key==^.language][0].value, name[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==^.language][0].value.current, slug[_key=="en"][0].value.current),
+      heroImage
+    },
+    seo
+  }
+`;
+
+export const allArticleSlugsQuery = groq`
+  *[_type == "article" && !(_id in path("drafts.**"))]{
+    _id,
+    language,
+    "slug": slug.current
+  }
+`;
+
+export const allCategorySlugsQuery = groq`
+  *[_type == "editorialCategory"]{
+    _id,
+    "slugs": slug[]{ _key, "current": value.current }
+  }
+`;
+
+export const categoryBySlugQuery = (locale: Locale) => groq`
+  *[_type == "editorialCategory" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    _id,
+    "name": ${localizedField('name', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "description": ${localizedField('description', locale)},
+    heroImage,
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+export const allCategoriesQuery = (locale: Locale) => groq`
+  *[_type == "editorialCategory"] | order(orderRank asc){
+    _id,
+    "name": ${localizedField('name', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "description": ${localizedField('description', locale)}
+  }
+`;
+
+// ──────────────────────────────────────────────
 // Site settings (singleton)
 // ──────────────────────────────────────────────
 
