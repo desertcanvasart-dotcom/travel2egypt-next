@@ -58,65 +58,82 @@ export function CityGuideSidebar({
     groupedArticles.set(article.section, list);
   }
 
-  return (
-    <nav className="space-y-8 text-sm" aria-label="City guide navigation">
-      {SECTION_ORDER.map((section) => {
-        if (section === 'places-to-go') {
-          if (places.length === 0) return null;
-          return (
-            <div key={section}>
-              <SectionHeader label={t(section)} />
-              <ul className="mt-3 space-y-2">
-                {places.map((place) => (
-                  <li key={place._id}>
-                    <Link
-                      href={`/wiki/monuments/${place.slug}`}
-                      className="block text-ink-soft transition-colors hover:text-orange-deep"
-                    >
-                      {place.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          );
-        }
+  const renderedSections = SECTION_ORDER.map((section) => {
+    if (section === 'places-to-go') {
+      if (places.length === 0) return null;
+      return (
+        <SectionGroup key={section} label={t(section)}>
+          {places.map((place) => (
+            <li key={place._id}>
+              <Link
+                href={`/wiki/monuments/${place.slug}`}
+                className="block text-ink-soft transition-colors hover:text-orange-deep"
+              >
+                {place.name}
+              </Link>
+            </li>
+          ))}
+        </SectionGroup>
+      );
+    }
 
-        const items = groupedArticles.get(section) ?? [];
-        if (items.length === 0) return null;
-        return (
-          <div key={section}>
-            <SectionHeader
-              label={
-                section === 'introducing'
-                  ? tGuide('introducingCity', { city: cityName })
-                  : t(section)
-              }
-            />
-            <ul className="mt-3 space-y-2">
-              {items.map((item) => {
-                const isActive = activeArticleSlug === item.slug;
-                return (
-                  <li key={item._id}>
-                    <Link
-                      href={`/guide/${citySlug}/${item.slug}`}
-                      className={
-                        isActive
-                          ? 'block font-medium text-orange-deep'
-                          : 'block text-ink-soft transition-colors hover:text-orange-deep'
-                      }
-                      aria-current={isActive ? 'page' : undefined}
-                    >
-                      {item.title}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        );
-      })}
+    const items = groupedArticles.get(section) ?? [];
+    if (items.length === 0) return null;
+    const label =
+      section === 'introducing'
+        ? tGuide('introducingCity', { city: cityName })
+        : t(section);
+    return (
+      <SectionGroup key={section} label={label}>
+        {items.map((item) => {
+          const isActive = activeArticleSlug === item.slug;
+          return (
+            <li key={item._id}>
+              <Link
+                href={`/guide/${citySlug}/${item.slug}`}
+                className={
+                  isActive
+                    ? 'block font-medium text-orange-deep'
+                    : 'block text-ink-soft transition-colors hover:text-orange-deep'
+                }
+                aria-current={isActive ? 'page' : undefined}
+              >
+                {item.title}
+              </Link>
+            </li>
+          );
+        })}
+      </SectionGroup>
+    );
+  }).filter(Boolean);
+
+  if (renderedSections.length === 0) return null;
+
+  return (
+    <nav
+      className="rounded-lg border border-line bg-paper p-6 text-sm shadow-soft"
+      aria-label="City guide navigation"
+    >
+      <h2 className="mb-5 border-b border-line pb-4 font-serif text-lg font-medium text-ink">
+        {tGuide('cityTravelGuide', { city: cityName })}
+      </h2>
+      <div className="divide-y divide-line">{renderedSections}</div>
     </nav>
+  );
+}
+
+function SectionGroup({
+  label,
+  children,
+}: {
+  label: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <div className="py-4 first:pt-0 last:pb-0">
+      <SectionHeader label={label} />
+      <ul className="mt-3 space-y-2">{children}</ul>
+    </div>
   );
 }
 

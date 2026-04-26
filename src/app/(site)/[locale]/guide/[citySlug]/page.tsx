@@ -198,8 +198,8 @@ export default async function CityGuidePage({ params }: Props) {
             )}
           </div>
 
-          {/* Sidebar — guide nav + key facts */}
-          <aside className="space-y-10 lg:sticky lg:top-24 lg:self-start">
+          {/* Sidebar — guide nav + key facts (two distinct widgets) */}
+          <aside className="space-y-8 lg:sticky lg:top-24 lg:self-start">
             <CityGuideSidebar
               citySlug={citySlug}
               cityName={city.name}
@@ -207,7 +207,10 @@ export default async function CityGuidePage({ params }: Props) {
               placesToGo={city.placesToGo}
             />
             {city.keyFacts && (
-              <div className="rounded-lg border border-line bg-cream-warm p-6">
+              <div className="rounded-lg border border-line bg-cream-warm p-6 shadow-soft">
+                <h3 className="mb-4 border-b border-line pb-3 font-serif text-base font-medium text-ink">
+                  {t('keyFactsTitle')}
+                </h3>
                 <dl className="space-y-4 text-sm">
                   {city.keyFacts.bestSeason && (
                     <div>

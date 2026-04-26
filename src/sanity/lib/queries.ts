@@ -65,6 +65,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
       "name": ${localizedField('name', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "summary": ${localizedField('summary', locale)},
+      "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
       monumentType,
       heroImage{
         ...,
@@ -132,6 +133,7 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
         "name": ${localizedField('name', locale)},
         "slug": ${localizedSlug('slug', locale)},
         "summary": ${localizedField('summary', locale)},
+        "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
         monumentType
       }
     },
