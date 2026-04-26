@@ -33,7 +33,7 @@ export const DEFAULT_LOCALE: Locale = 'en';
  *   }
  */
 export const localizedField = (field: string, locale: Locale) =>
-  `coalesce(${field}[_key=="${locale}"].value, ${field}[_key=="${DEFAULT_LOCALE}"].value)`;
+  `coalesce(${field}[_key=="${locale}"][0].value, ${field}[_key=="${DEFAULT_LOCALE}"][0].value)`;
 
 /**
  * GROQ snippet for a localized slug field.
@@ -46,7 +46,7 @@ export const localizedField = (field: string, locale: Locale) =>
  *   ]
  */
 export const localizedSlug = (field: string, locale: Locale) =>
-  `coalesce(${field}[_key=="${locale}"].value.current, ${field}[_key=="${DEFAULT_LOCALE}"].value.current)`;
+  `coalesce(${field}[_key=="${locale}"][0].value.current, ${field}[_key=="${DEFAULT_LOCALE}"][0].value.current)`;
 
 /**
  * Helper to extract a localized string client-side from a raw

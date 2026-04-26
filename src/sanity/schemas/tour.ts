@@ -144,7 +144,6 @@ export const tourSchema = defineType({
         {
           type: 'object',
           fields: [
-            defineField({ name: '_key', type: 'string', hidden: true }),
             defineField({
               name: 'value',
               title: 'Highlights (per locale)',
@@ -211,8 +210,8 @@ export const tourSchema = defineType({
       type: 'array',
       group: 'related',
       of: [
-        { type: 'reference', to: [{ type: 'city' }] },
-        { type: 'reference', to: [{ type: 'guideArticle' }] },
+        { type: 'reference', name: 'cityRef', to: [{ type: 'city' }] },
+        { type: 'reference', name: 'guideArticleRef', to: [{ type: 'guideArticle' }] },
       ],
     }),
     defineField({

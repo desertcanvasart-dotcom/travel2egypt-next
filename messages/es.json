@@ -38,7 +38,46 @@
     "priceIndicationLabel": "Precio orientativo",
     "priceCaveat": "El precio final se ajusta a tu grupo, fechas y elecciones durante la conversación.",
     "talkToConcierge": "Habla con nuestro concierge sobre este tour",
-    "whatsappInquiry": "Consulta rápida por WhatsApp"
+    "whatsappInquiry": "Consulta rápida por WhatsApp",
+    "durationLabel": "Duración",
+    "citiesLabel": "Ciudades visitadas",
+    "modeLabel": "Modalidad",
+    "modePrivate": "Privado",
+    "modeGroup": "Grupo",
+    "relatedToursLabel": "Tours relacionados",
+    "relatedGuidesLabel": "Lee más en la guía de viaje",
+    "travelerStoriesLabel": "Viajeros que hicieron este tour"
+  },
+  "tours": {
+    "landingTitle": "Excursiones de un día en Egipto",
+    "landingDeck": "Experiencias de un solo día por las ciudades de Egipto. Elige privadas — solo para ti — o únete a un grupo reducido.",
+    "filterMode": "Modalidad",
+    "filterCity": "Ciudad",
+    "filterAll": "Todas",
+    "filterPrivate": "Privado",
+    "filterGroup": "Grupo",
+    "noResults": "Aún no hay tours que coincidan con estos filtros."
+  },
+  "packages": {
+    "landingTitle": "Paquetes por Egipto",
+    "landingDeck": "Viajes de varios días, con un ritmo pensado para que cada lugar se asiente. Explóralos por temática.",
+    "byTheme": "por {theme}"
+  },
+  "package": {
+    "itineraryLabel": "Itinerario día a día",
+    "highlightsLabel": "Lo destacado",
+    "inclusionsLabel": "Qué incluye",
+    "exclusionsLabel": "Qué no incluye",
+    "durationLabel": "Duración",
+    "citiesLabel": "Ciudades incluidas",
+    "themeLabel": "Temática",
+    "talkToConcierge": "Habla con nuestro concierge sobre este paquete",
+    "whatsappInquiry": "Consulta rápida por WhatsApp",
+    "priceIndicationLabel": "Precio orientativo",
+    "priceCaveat": "El precio final se ajusta a tu grupo, fechas, categoría de hotel y elecciones durante la conversación.",
+    "relatedPackagesLabel": "Paquetes relacionados",
+    "relatedGuidesLabel": "Lee más en la guía de viaje",
+    "travelerStoriesLabel": "Viajeros que hicieron este paquete"
   },
   "common": {
     "readMore": "Leer más",

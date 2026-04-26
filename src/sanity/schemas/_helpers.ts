@@ -26,7 +26,6 @@ export function localizedSlugField(options?: {
       {
         type: 'object' as const,
         fields: [
-          defineField({ name: '_key', type: 'string', hidden: true }),
           defineField({
             name: 'value',
             title: 'Slug',
@@ -76,7 +75,6 @@ export function localizedPortableTextField(
       {
         type: 'object' as const,
         fields: [
-          defineField({ name: '_key', type: 'string', hidden: true }),
           defineField({
             name: 'value',
             title: 'Body',

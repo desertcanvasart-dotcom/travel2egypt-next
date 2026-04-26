@@ -1,6 +1,6 @@
 'use client';
 
-import { useTransition } from 'react';
+import { useEffect, useRef, useState, useTransition } from 'react';
 
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -25,43 +25,92 @@ export function LocaleSwitcher({ currentLocale }: Props) {
   const router = useRouter();
   const pathname = usePathname();
   const [, startTransition] = useTransition();
+  const [open, setOpen] = useState(false);
+  const wrapRef = useRef<HTMLDivElement | null>(null);
 
-  async function onSelect(event: React.ChangeEvent<HTMLSelectElement>) {
-    const nextLocale = event.target.value as Locale;
+  useEffect(() => {
+    if (!open) return;
+    function onDocClick(e: MouseEvent) {
+      if (!wrapRef.current?.contains(e.target as Node)) setOpen(false);
+    }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') setOpen(false);
+    }
+    document.addEventListener('mousedown', onDocClick);
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.removeEventListener('mousedown', onDocClick);
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [open]);
+
+  async function pick(nextLocale: Locale) {
+    setOpen(false);
+    if (nextLocale === currentLocale) return;
     const nextPathname = await resolveLocalizedPathname(
       pathname,
       currentLocale,
       nextLocale
     );
-
     startTransition(() => {
       router.replace(nextPathname, { locale: nextLocale });
     });
   }
 
   return (
-    <label className="relative">
-      <span className="sr-only">Select language</span>
-      <select
-        value={currentLocale}
-        onChange={onSelect}
-        className="cursor-pointer appearance-none rounded-full border border-line bg-transparent py-2 pl-3 pr-7 text-xs font-medium text-ink-soft transition-colors hover:text-ink"
+    <div ref={wrapRef} className="relative">
+      <button
+        type="button"
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        aria-label="Select language"
+        onClick={() => setOpen((v) => !v)}
+        className="flex items-center gap-1 rounded-full border border-line bg-transparent py-1.5 pl-3 pr-2 text-xs font-medium text-ink-soft transition-colors hover:text-ink"
       >
-        {routing.locales.map((locale) => (
-          <option key={locale} value={locale}>
-            {LOCALE_SHORT[locale as Locale]} — {LOCALE_LABELS[locale as Locale]}
-          </option>
-        ))}
-      </select>
-    </label>
+        <span>{LOCALE_SHORT[currentLocale]}</span>
+        <svg
+          width="10"
+          height="10"
+          viewBox="0 0 10 10"
+          aria-hidden="true"
+          className={`transition-transform ${open ? 'rotate-180' : ''}`}
+        >
+          <path d="M2 4l3 3 3-3" stroke="currentColor" strokeWidth="1.4" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </button>
+
+      {open && (
+        <ul
+          role="listbox"
+          className="absolute right-0 z-50 mt-2 min-w-[10rem] overflow-hidden rounded-md border border-line bg-paper shadow-soft"
+        >
+          {routing.locales.map((loc) => {
+            const active = loc === currentLocale;
+            return (
+              <li key={loc} role="option" aria-selected={active}>
+                <button
+                  type="button"
+                  onClick={() => pick(loc as Locale)}
+                  className={
+                    active
+                      ? 'flex w-full items-center justify-between px-3 py-2 text-left text-xs font-medium text-ink'
+                      : 'flex w-full items-center justify-between px-3 py-2 text-left text-xs text-ink-soft transition-colors hover:bg-cream-warm hover:text-ink'
+                  }
+                >
+                  <span>{LOCALE_LABELS[loc as Locale]}</span>
+                  <span className="ml-4 font-sans text-[10px] uppercase tracking-wider text-ink-muted">
+                    {LOCALE_SHORT[loc as Locale]}
+                  </span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
   );
 }
 
-/**
- * Pages with localized slugs need a server lookup to translate the slug
- * across locales. /guide/cairo (en) ↔ /guide/el-cairo (es). Static paths
- * fall through to the default behavior (just swap the locale prefix).
- */
 async function resolveLocalizedPathname(
   pathname: string,
   fromLocale: Locale,

@@ -38,7 +38,46 @@
     "priceIndicationLabel": "目安料金",
     "priceCaveat": "最終料金は人数・日程・ご希望に応じて、ご相談のうえで確定します。",
     "talkToConcierge": "このツアーについてコンシェルジュに相談する",
-    "whatsappInquiry": "WhatsAppで気軽に問い合わせる"
+    "whatsappInquiry": "WhatsAppで気軽に問い合わせる",
+    "durationLabel": "所要時間",
+    "citiesLabel": "訪問都市",
+    "modeLabel": "形式",
+    "modePrivate": "プライベート",
+    "modeGroup": "グループ",
+    "relatedToursLabel": "関連ツアー",
+    "relatedGuidesLabel": "旅行ガイドで詳しく読む",
+    "travelerStoriesLabel": "このツアーに参加した旅行者の声"
+  },
+  "tours": {
+    "landingTitle": "エジプトの日帰りツアー",
+    "landingDeck": "エジプト各都市の1日体験。プライベート（貸切）か、少人数グループからお選びいただけます。",
+    "filterMode": "形式",
+    "filterCity": "都市",
+    "filterAll": "すべて",
+    "filterPrivate": "プライベート",
+    "filterGroup": "グループ",
+    "noResults": "条件に合うツアーがまだありません。"
+  },
+  "packages": {
+    "landingTitle": "エジプトのパッケージツアー",
+    "landingDeck": "それぞれの場所をしっかり感じ取れるペース配分の、複数日にわたる旅。テーマ別にご覧いただけます。",
+    "byTheme": "{theme}別"
+  },
+  "package": {
+    "itineraryLabel": "日程表（1日ごと）",
+    "highlightsLabel": "ハイライト",
+    "inclusionsLabel": "パッケージに含まれるもの",
+    "exclusionsLabel": "パッケージに含まれないもの",
+    "durationLabel": "期間",
+    "citiesLabel": "含まれる都市",
+    "themeLabel": "テーマ",
+    "talkToConcierge": "このパッケージについてコンシェルジュに相談する",
+    "whatsappInquiry": "WhatsAppで気軽に問い合わせる",
+    "priceIndicationLabel": "目安料金",
+    "priceCaveat": "最終料金は人数・日程・ホテルランク・ご希望に応じて、ご相談のうえで確定します。",
+    "relatedPackagesLabel": "関連パッケージ",
+    "relatedGuidesLabel": "旅行ガイドで詳しく読む",
+    "travelerStoriesLabel": "このパッケージに参加した旅行者の声"
   },
   "common": {
     "readMore": "続きを読む",

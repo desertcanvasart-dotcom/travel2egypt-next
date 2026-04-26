@@ -38,7 +38,46 @@
     "priceIndicationLabel": "Indicative pricing",
     "priceCaveat": "Final pricing is shaped to your party, dates, and choices in conversation.",
     "talkToConcierge": "Talk to our concierge about this tour",
-    "whatsappInquiry": "Quick WhatsApp inquiry"
+    "whatsappInquiry": "Quick WhatsApp inquiry",
+    "durationLabel": "Duration",
+    "citiesLabel": "Cities visited",
+    "modeLabel": "Mode",
+    "modePrivate": "Private",
+    "modeGroup": "Group",
+    "relatedToursLabel": "Related tours",
+    "relatedGuidesLabel": "Read more in the travel guide",
+    "travelerStoriesLabel": "Travelers who took this tour"
+  },
+  "tours": {
+    "landingTitle": "Day Tours in Egypt",
+    "landingDeck": "Single-day experiences across Egypt's cities. Choose private — exclusively yours — or join a small group.",
+    "filterMode": "Mode",
+    "filterCity": "City",
+    "filterAll": "All",
+    "filterPrivate": "Private",
+    "filterGroup": "Group",
+    "noResults": "No tours match these filters yet."
+  },
+  "packages": {
+    "landingTitle": "Egypt Packages",
+    "landingDeck": "Multi-day journeys, paced so each place registers. Browse by theme.",
+    "byTheme": "by {theme}"
+  },
+  "package": {
+    "itineraryLabel": "Day-by-day itinerary",
+    "highlightsLabel": "Highlights",
+    "inclusionsLabel": "What's included",
+    "exclusionsLabel": "What's not included",
+    "durationLabel": "Duration",
+    "citiesLabel": "Cities included",
+    "themeLabel": "Theme",
+    "talkToConcierge": "Talk to our concierge about this package",
+    "whatsappInquiry": "Quick WhatsApp inquiry",
+    "priceIndicationLabel": "Indicative pricing",
+    "priceCaveat": "Final pricing is shaped to your party, dates, hotel tier, and choices in conversation.",
+    "relatedPackagesLabel": "Related packages",
+    "relatedGuidesLabel": "Read more in the travel guide",
+    "travelerStoriesLabel": "Travelers who took this package"
   },
   "common": {
     "readMore": "Read more",

@@ -49,7 +49,6 @@ export const citySchema = defineType({
         {
           type: 'object',
           fields: [
-            defineField({ name: '_key', type: 'string', hidden: true }),
             defineField({
               name: 'value',
               title: 'Slug',
@@ -114,7 +113,6 @@ export const citySchema = defineType({
         {
           type: 'object',
           fields: [
-            defineField({ name: '_key', type: 'string', hidden: true }),
             { ...portableTextBlocks, name: 'value' },
           ],
           preview: {

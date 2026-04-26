@@ -1,6 +1,9 @@
+import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
+
+import { buildMetadata } from '@/lib/seo';
 
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -19,6 +22,22 @@ interface Props {
  * city's slug array; if a locale doesn't have its own slug, the EN slug
  * is used (which next-intl handles via fallback at the route layer).
  */
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale, citySlug } = await params;
+  const city = await client.fetch(cityBySlugQuery(locale as Locale), {
+    slug: citySlug,
+  });
+  if (!city) return {};
+  // City schema uses `name` instead of `title`; normalize for the shared builder.
+  return buildMetadata(
+    { ...city, title: city.name },
+    {
+      locale: locale as Locale,
+      path: `/guide/${citySlug}`,
+    }
+  );
+}
+
 export async function generateStaticParams() {
   const cities: Array<{ slugs: Array<{ _key: string; current: string }> }> =
     await client.fetch(allCitySlugsQuery);
