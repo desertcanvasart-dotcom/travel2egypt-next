@@ -12,14 +12,7 @@ import { defineRouting } from 'next-intl/routing';
 export const routing = defineRouting({
   locales: ['en', 'es', 'ja'],
   defaultLocale: 'en',
-  localePrefix: {
-    mode: 'as-needed',
-    prefixes: {
-      en: '/',
-      es: '/es',
-      ja: '/ja',
-    },
-  },
+  localePrefix: 'as-needed',
 });
 
 export type Locale = (typeof routing.locales)[number];

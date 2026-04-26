@@ -1,5 +1,5 @@
 import { defineField, defineType } from 'sanity';
-import { CompassIcon } from '@sanity/icons';
+import { EarthGlobeIcon } from '@sanity/icons';
 
 import { localizedSlugField, localizedPortableTextField } from './_helpers';
 
@@ -7,7 +7,7 @@ export const tourSchema = defineType({
   name: 'tour',
   title: 'Tour',
   type: 'document',
-  icon: CompassIcon,
+  icon: EarthGlobeIcon,
   description:
     'Day tours and multi-day packages. Both share this schema. The "Type" field discriminates between them and reveals fields appropriate to each.',
   groups: [

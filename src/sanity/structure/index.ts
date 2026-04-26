@@ -1,7 +1,6 @@
 import type { StructureBuilder, StructureResolver } from 'sanity/structure';
 import {
   EarthGlobeIcon,
-  CompassIcon,
   ComposeIcon,
   HelpCircleIcon,
   CalendarIcon,
@@ -43,7 +42,7 @@ export const structure: StructureResolver = (S: StructureBuilder) =>
       // ── Tours ──
       S.listItem()
         .title('Tours & packages')
-        .icon(CompassIcon)
+        .icon(EarthGlobeIcon)
         .child(
           S.list()
             .title('Tours & packages')

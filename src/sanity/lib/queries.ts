@@ -24,9 +24,11 @@ import { localizedField, localizedSlug } from './i18n';
  * related tours, hero image — everything the /guide/[citySlug] page renders.
  */
 export const cityBySlugQuery = (locale: Locale) => groq`
-  *[_type == "city" && slug[_key == "${locale}"].value.current == $slug ||
-    (slug[_key == "${locale}"].value.current == null &&
-     slug[_key == "en"].value.current == $slug)][0]{
+  *[_type == "city" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
     _id,
     region,
     coordinates,

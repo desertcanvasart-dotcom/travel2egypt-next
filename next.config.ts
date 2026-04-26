@@ -4,10 +4,7 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig: NextConfig = {
-  experimental: {
-    // Sanity Studio uses some packages that need this
-    serverComponentsExternalPackages: ['@sanity/client'],
-  },
+  serverExternalPackages: ['@sanity/client'],
   images: {
     remotePatterns: [
       {

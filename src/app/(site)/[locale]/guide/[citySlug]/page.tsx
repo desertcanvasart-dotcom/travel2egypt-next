@@ -140,8 +140,8 @@ export default async function CityGuidePage({ params }: Props) {
                         key={tour._id}
                         href={
                           isPackage
-                            ? { pathname: '/packages/[slug]', params: { slug: tour.slug } }
-                            : { pathname: '/tours/[slug]', params: { slug: tour.slug } }
+                            ? `/packages/${tour.slug}`
+                            : `/tours/${tour.slug}`
                         }
                         className="group block"
                       >

@@ -1,4 +1,6 @@
-import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import '../../globals.css';
+import type { Metadata } from 'next';
+import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Cormorant_Garamond, Public_Sans, Noto_Serif_JP } from 'next/font/google';
@@ -30,6 +32,11 @@ const notoSerifJp = Noto_Serif_JP({
   preload: false, // Only loads when html[lang=ja] is rendered
 });
 
+export const metadata: Metadata = {
+  title: 'Travel2Egypt',
+  description: 'Egypt travel, with judgment. An Egyptian operator since 1995.',
+};
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
@@ -43,7 +50,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!hasLocale(routing.locales, locale)) {
+  if (!routing.locales.includes(locale as Locale)) {
     notFound();
   }
 
