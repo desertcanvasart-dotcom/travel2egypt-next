@@ -3,7 +3,12 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import {
+  buildTouristTripSchema,
+  buildBreadcrumbList,
+} from '@/lib/structured-data';
 
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -29,6 +34,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata(tour, {
     locale: locale as Locale,
     path: `/tours/${slug}`,
+    pathByLocale: pathByLocaleFromSlugs(
+      tour.allSlugs,
+      (s: string) => `/tours/${s}`
+    ),
   });
 }
 
@@ -92,8 +101,32 @@ export default async function DayTourPage({ params }: Props) {
         ? t('modeGroup')
         : null;
 
+  const tripSchema = buildTouristTripSchema(
+    {
+      title: tour.title,
+      slug,
+      type: tour.type,
+      summary: tour.summary,
+      durationDays: tour.durationDays,
+      durationLabel: tour.durationLabel,
+      priceIndication: tour.priceIndication,
+      heroImage: tour.heroImage,
+      cities: tour.cities,
+    },
+    locale as Locale
+  );
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: 'Home', path: '/' },
+      { name: 'Day Tours', path: '/tours' },
+      { name: tour.title, path: `/tours/${slug}` },
+    ],
+    locale as Locale
+  );
+
   return (
     <article>
+      <JsonLd data={[tripSchema, breadcrumbSchema]} />
       {/* Hero */}
       <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden bg-cream-deep">
         {heroUrl && (

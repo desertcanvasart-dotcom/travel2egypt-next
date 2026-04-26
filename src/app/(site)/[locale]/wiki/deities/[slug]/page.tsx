@@ -10,7 +10,7 @@ import { urlFor } from '@/sanity/lib/image';
 import { deityBySlugQuery, allWikiSlugsQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { WikiCard, type WikiCardData } from '@/components/WikiCard';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -22,7 +22,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!d) return {};
   return buildMetadata(
     { ...d, title: d.name },
-    { locale: locale as Locale, path: `/wiki/deities/${slug}` }
+    {
+      locale: locale as Locale,
+      path: `/wiki/deities/${slug}`,
+      pathByLocale: pathByLocaleFromSlugs(
+        d.allSlugs,
+        (s: string) => `/wiki/deities/${s}`
+      ),
+    }
   );
 }
 

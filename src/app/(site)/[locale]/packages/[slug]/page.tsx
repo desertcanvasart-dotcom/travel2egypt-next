@@ -3,7 +3,12 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import {
+  buildTouristTripSchema,
+  buildBreadcrumbList,
+} from '@/lib/structured-data';
 
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -114,6 +119,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata(pkg, {
     locale: locale as Locale,
     path: `/packages/${slug}`,
+    pathByLocale: pathByLocaleFromSlugs(
+      pkg.allSlugs,
+      (s: string) => `/packages/${s}`
+    ),
   });
 }
 
@@ -171,8 +180,32 @@ export default async function PackagePage({ params }: Props) {
     (item, idx, arr) => arr.findIndex((other) => other._id === item._id) === idx
   );
 
+  const tripSchema = buildTouristTripSchema(
+    {
+      title: pkg.title,
+      slug,
+      type: 'package',
+      summary: pkg.summary,
+      durationDays: pkg.durationDays,
+      durationLabel: pkg.durationLabel,
+      priceIndication: pkg.priceIndication,
+      heroImage: pkg.heroImage,
+      cities: pkg.cities,
+    },
+    locale as Locale
+  );
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: 'Home', path: '/' },
+      { name: 'Packages', path: '/packages' },
+      { name: pkg.title, path: `/packages/${slug}` },
+    ],
+    locale as Locale
+  );
+
   return (
     <article>
+      <JsonLd data={[tripSchema, breadcrumbSchema]} />
       {/* Hero */}
       <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden bg-cream-deep">
         {heroUrl && (

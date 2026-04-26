@@ -10,7 +10,9 @@ import { urlFor } from '@/sanity/lib/image';
 import { dynastyBySlugQuery, allWikiSlugsQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { WikiCard, type WikiCardData } from '@/components/WikiCard';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList } from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -22,7 +24,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!dynasty) return {};
   return buildMetadata(
     { ...dynasty, title: dynasty.name },
-    { locale: locale as Locale, path: `/wiki/dynasties/${slug}` }
+    {
+      locale: locale as Locale,
+      path: `/wiki/dynasties/${slug}`,
+      pathByLocale: pathByLocaleFromSlugs(
+        dynasty.allSlugs,
+        (s: string) => `/wiki/dynasties/${s}`
+      ),
+    }
   );
 }
 

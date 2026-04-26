@@ -10,7 +10,12 @@ import { urlFor } from '@/sanity/lib/image';
 import { monumentBySlugQuery, allWikiSlugsQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { WikiCard, type WikiCardData } from '@/components/WikiCard';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import {
+  buildPlaceSchema,
+  buildBreadcrumbList,
+} from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -22,7 +27,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!m) return {};
   return buildMetadata(
     { ...m, title: m.name },
-    { locale: locale as Locale, path: `/wiki/monuments/${slug}` }
+    {
+      locale: locale as Locale,
+      path: `/wiki/monuments/${slug}`,
+      pathByLocale: pathByLocaleFromSlugs(
+        m.allSlugs,
+        (s: string) => `/wiki/monuments/${s}`
+      ),
+    }
   );
 }
 
@@ -66,8 +78,32 @@ export default async function MonumentPage({ params }: Props) {
     ...(m.reverseRelatedMonuments ?? []),
   ]);
 
+  const placeSchema = buildPlaceSchema(
+    {
+      name: m.name,
+      slug,
+      summary: m.summary,
+      heroImage: m.heroImage,
+      coordinates: m.coordinates,
+      type: 'wikiMonument',
+      monumentType: m.monumentType,
+      preciseLocation: m.preciseLocation,
+    },
+    locale as Locale
+  );
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: 'Home', path: '/' },
+      { name: 'Egypt Wiki', path: '/wiki' },
+      { name: 'Monuments', path: '/wiki/monuments' },
+      { name: m.name, path: `/wiki/monuments/${slug}` },
+    ],
+    locale as Locale
+  );
+
   return (
     <article>
+      <JsonLd data={[placeSchema, breadcrumbSchema]} />
       <div className="relative h-[55vh] min-h-[360px] w-full overflow-hidden bg-cream-deep">
         {heroUrl && (
           <Image

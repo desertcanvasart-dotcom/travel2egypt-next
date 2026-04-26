@@ -14,6 +14,11 @@ import {
 import { Body } from '@/components/Body';
 import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
 import { buildMetadata } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import {
+  buildArticleSchema,
+  buildBreadcrumbList,
+} from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -107,8 +112,36 @@ export default async function ArticlePage({ params }: Props) {
       )
     : null;
 
+  const articleSchema = buildArticleSchema(
+    {
+      title: article.title,
+      slug,
+      deck: article.deck,
+      publishedAt: article.publishedAt,
+      updatedAt: article.updatedAt,
+      heroImage: article.heroImage,
+      author: article.author
+        ? { name: article.author.name, slug: article.author.slug }
+        : null,
+      category: article.category ? { name: article.category.name } : null,
+    },
+    locale as Locale
+  );
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: 'Home', path: '/' },
+      { name: 'Journal', path: '/blog' },
+      ...(article.category
+        ? [{ name: article.category.name, path: `/blog/category/${article.category.slug}` }]
+        : []),
+      { name: article.title, path: `/blog/${slug}` },
+    ],
+    locale as Locale
+  );
+
   return (
     <article>
+      <JsonLd data={[articleSchema, breadcrumbSchema]} />
       {/* Hero */}
       {heroUrl && (
         <div className="relative h-[55vh] min-h-[360px] w-full overflow-hidden bg-cream-deep">

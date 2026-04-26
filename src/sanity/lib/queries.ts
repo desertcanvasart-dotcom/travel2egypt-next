@@ -727,6 +727,38 @@ export const allCategoriesQuery = (locale: Locale) => groq`
 `;
 
 // ──────────────────────────────────────────────
+// Sitemap — every public-facing doc with its slugs and updated time.
+// Articles use document-level i18n (one doc per language with a plain
+// slug); all other types use internationalized-array slugs.
+// ──────────────────────────────────────────────
+
+export const sitemapDocsQuery = groq`
+  {
+    "localizedDocs": *[_type in [
+      "city", "guideArticle", "tour", "travelTip", "faqEntry",
+      "wikiPerson", "wikiMonument", "wikiDynasty", "wikiDeity",
+      "hotel", "nileCruise", "page", "legalPage"
+    ] && !(_id in path("drafts.**"))]{
+      _id,
+      _type,
+      _updatedAt,
+      "slugs": slug[]{ _key, "current": value.current },
+      "tourType": select(_type == "tour" => type, null),
+      "parentCitySlugs": select(
+        _type == "guideArticle" => parentCity->slug[]{ _key, "current": value.current },
+        null
+      )
+    },
+    "articles": *[_type == "article" && !(_id in path("drafts.**"))]{
+      _id,
+      language,
+      "slug": slug.current,
+      _updatedAt
+    }
+  }
+`;
+
+// ──────────────────────────────────────────────
 // Site settings (singleton)
 // ──────────────────────────────────────────────
 
@@ -734,6 +766,7 @@ export const siteSettingsQuery = (locale: Locale) => groq`
   *[_type == "siteSettings"][0]{
     "siteName": ${localizedField('siteName', locale)},
     "tagline": ${localizedField('tagline', locale)},
+    defaultOgImage,
     contact,
     socialLinks,
     sisterBrands[]{

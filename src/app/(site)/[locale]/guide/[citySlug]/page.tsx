@@ -3,7 +3,12 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import {
+  buildPlaceSchema,
+  buildBreadcrumbList,
+} from '@/lib/structured-data';
 
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -34,6 +39,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     {
       locale: locale as Locale,
       path: `/guide/${citySlug}`,
+      pathByLocale: pathByLocaleFromSlugs(
+        city.allSlugs,
+        (s: string) => `/guide/${s}`
+      ),
     }
   );
 }
@@ -74,8 +83,29 @@ export default async function CityGuidePage({ params }: Props) {
     ? urlFor(city.heroImage).width(2000).height(1000).quality(85).url()
     : null;
 
+  const placeSchema = buildPlaceSchema(
+    {
+      name: city.name,
+      slug: citySlug,
+      summary: city.summary,
+      heroImage: city.heroImage,
+      coordinates: city.coordinates,
+      type: 'city',
+    },
+    locale as Locale
+  );
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: 'Home', path: '/' },
+      { name: 'Travel guide', path: '/guide' },
+      { name: city.name, path: `/guide/${citySlug}` },
+    ],
+    locale as Locale
+  );
+
   return (
     <article>
+      <JsonLd data={[placeSchema, breadcrumbSchema]} />
       {/* Hero */}
       {heroUrl && (
         <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden bg-cream-deep">

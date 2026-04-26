@@ -82,6 +82,18 @@ export const siteSettingsSchema = defineType({
       group: 'identity',
     }),
     defineField({
+      name: 'defaultOgImage',
+      title: 'Default social-share image',
+      description:
+        '1200×630 image used as the absolute final fallback when a page has no SEO image and no hero image. Branded wordmark works best.',
+      type: 'image',
+      group: 'identity',
+      options: { hotspot: true },
+      fields: [
+        defineField({ name: 'alt', type: 'string' }),
+      ],
+    }),
+    defineField({
       name: 'headerNav',
       title: 'Header navigation',
       type: 'array',

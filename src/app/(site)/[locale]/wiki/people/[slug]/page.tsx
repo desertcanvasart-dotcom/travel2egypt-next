@@ -10,7 +10,12 @@ import { urlFor } from '@/sanity/lib/image';
 import { personBySlugQuery, allWikiSlugsQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { WikiCard, type WikiCardData } from '@/components/WikiCard';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import {
+  buildPersonSchema,
+  buildBreadcrumbList,
+} from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -22,7 +27,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!person) return {};
   return buildMetadata(
     { ...person, title: person.name },
-    { locale: locale as Locale, path: `/wiki/people/${slug}` }
+    {
+      locale: locale as Locale,
+      path: `/wiki/people/${slug}`,
+      pathByLocale: pathByLocaleFromSlugs(
+        person.allSlugs,
+        (s: string) => `/wiki/people/${s}`
+      ),
+    }
   );
 }
 
@@ -66,8 +78,32 @@ export default async function PersonPage({ params }: Props) {
     ...(person.reverseBuriedHere ?? []),
   ]);
 
+  const personSchema = buildPersonSchema(
+    {
+      name: person.name,
+      slug,
+      type: 'wikiPerson',
+      summary: person.summary,
+      heroImage: person.heroImage,
+      alternateNames: person.alternateNames,
+      reignDisplay: person.reignDisplay,
+      role: person.role,
+    },
+    locale as Locale
+  );
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: 'Home', path: '/' },
+      { name: 'Egypt Wiki', path: '/wiki' },
+      { name: 'People', path: '/wiki/people' },
+      { name: person.name, path: `/wiki/people/${slug}` },
+    ],
+    locale as Locale
+  );
+
   return (
     <article>
+      <JsonLd data={[personSchema, breadcrumbSchema]} />
       <div className="relative h-[55vh] min-h-[360px] w-full overflow-hidden bg-cream-deep">
         {heroUrl && (
           <Image

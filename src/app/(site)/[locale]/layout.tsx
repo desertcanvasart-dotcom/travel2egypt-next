@@ -8,6 +8,10 @@ import { Cormorant_Garamond, Public_Sans, Noto_Serif_JP } from 'next/font/google
 import { routing, type Locale } from '@/i18n/routing';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { JsonLd } from '@/components/JsonLd';
+import { client } from '@/sanity/lib/client';
+import { siteSettingsQuery } from '@/sanity/lib/queries';
+import { buildOrganizationSchema } from '@/lib/structured-data';
 
 const cormorant = Cormorant_Garamond({
   subsets: ['latin'],
@@ -56,12 +60,16 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
 
+  const siteSettings = await client.fetch(siteSettingsQuery(locale as Locale));
+  const orgSchema = buildOrganizationSchema(siteSettings ?? {});
+
   return (
     <html
       lang={locale}
       className={`${cormorant.variable} ${publicSans.variable} ${notoSerifJp.variable}`}
     >
       <body>
+        <JsonLd data={orgSchema} />
         <NextIntlClientProvider>
           <Header locale={locale as Locale} />
           <main>{children}</main>

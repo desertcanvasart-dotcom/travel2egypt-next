@@ -179,5 +179,15 @@
     "readMore": "Read more",
     "loading": "Loading…",
     "back": "Back"
+  },
+  "notFound": {
+    "eyebrow": "404",
+    "title": "This page wandered off the itinerary.",
+    "deck": "It may have moved, been retired, or never existed in the first place. The journal, the travel guide, and the concierge are all good places to pick the trail back up.",
+    "linksTitle": "Where you might be heading",
+    "journal": "The Journal",
+    "guide": "Travel Guide",
+    "tours": "Day Tours",
+    "concierge": "Talk to our concierge"
   }
 }
