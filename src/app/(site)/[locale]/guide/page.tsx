@@ -35,7 +35,7 @@ export default async function GuideLandingPage({ params }: Props) {
           {cities.map((city: any) => (
             <Link
               key={city._id}
-              href={{ pathname: '/guide/[citySlug]', params: { citySlug: city.slug } }}
+              href={`/guide/${city.slug}`}
               className="group block"
             >
               {city.heroImage?.asset && (

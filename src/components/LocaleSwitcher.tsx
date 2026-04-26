@@ -26,10 +26,16 @@ export function LocaleSwitcher({ currentLocale }: Props) {
   const pathname = usePathname();
   const [, startTransition] = useTransition();
 
-  function onSelect(event: React.ChangeEvent<HTMLSelectElement>) {
+  async function onSelect(event: React.ChangeEvent<HTMLSelectElement>) {
     const nextLocale = event.target.value as Locale;
+    const nextPathname = await resolveLocalizedPathname(
+      pathname,
+      currentLocale,
+      nextLocale
+    );
+
     startTransition(() => {
-      router.replace(pathname, { locale: nextLocale });
+      router.replace(nextPathname, { locale: nextLocale });
     });
   }
 
@@ -49,4 +55,35 @@ export function LocaleSwitcher({ currentLocale }: Props) {
       </select>
     </label>
   );
+}
+
+/**
+ * Pages with localized slugs need a server lookup to translate the slug
+ * across locales. /guide/cairo (en) ↔ /guide/el-cairo (es). Static paths
+ * fall through to the default behavior (just swap the locale prefix).
+ */
+async function resolveLocalizedPathname(
+  pathname: string,
+  fromLocale: Locale,
+  toLocale: Locale
+): Promise<string> {
+  if (fromLocale === toLocale) return pathname;
+
+  const cityMatch = pathname.match(/^\/guide\/([^/]+)\/?$/);
+  if (cityMatch) {
+    const fromSlug = cityMatch[1];
+    try {
+      const res = await fetch(
+        `/api/locale-resolve/city?fromLocale=${fromLocale}&fromSlug=${encodeURIComponent(fromSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { slug } = (await res.json()) as { slug: string | null };
+        if (slug) return `/guide/${slug}`;
+      }
+    } catch {
+      // fall through
+    }
+  }
+
+  return pathname;
 }
