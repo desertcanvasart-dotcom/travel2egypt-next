@@ -139,7 +139,19 @@ const COMMONS = {
     'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Horus_standing.svg/1920px-Horus_standing.svg.png',
   deityAnubis:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Anubis_standing.svg/1920px-Anubis_standing.svg.png',
-  // deityIsis: no verified article-lead — placeholder.
+  deityIsis:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Isis.svg/1920px-Isis.svg.png',
+  monumentKarnakHypostyle:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Karnak_Hypostyle_Hall_R03.jpg/1920px-Karnak_Hypostyle_Hall_R03.jpg',
+  monumentPhilae:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Philae_Temple_R03.jpg/1920px-Philae_Temple_R03.jpg',
+  // monumentEdfu reuses dynastyPtolemaic above (same Edfu temple lead photo).
+  personPtolemyI:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ptolemy_I_Soter_Louvre_Ma849_A.jpg/1920px-Ptolemy_I_Soter_Louvre_Ma849_A.jpg',
+  personPtolemyII:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ptolemy_II_MAN_Napoli_Inv5600.jpg/1920px-Ptolemy_II_MAN_Napoli_Inv5600.jpg',
+  personPtolemyV:
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Egypt_-_king_Ptolemaios_V_-_204-203_BC_-_gold_oktadrachm_-_bust_of_Ptolemaios_V_-_cornucopiae_-_Berlin_MK_AM_18203067.jpg/1920px-Egypt_-_king_Ptolemaios_V_-_204-203_BC_-_gold_oktadrachm_-_bust_of_Ptolemaios_V_-_cornucopiae_-_Berlin_MK_AM_18203067.jpg',
 };
 
 // ── Localized field helpers ───────────────────────────────
@@ -224,6 +236,13 @@ async function seed() {
     monTempleHatshepsut: await uploadImage(COMMONS.hatshepsut, 'deir-el-bahari.jpg'),
     deityHorus: await uploadImage(COMMONS.deityHorus, 'horus.png'),
     deityAnubis: await uploadImage(COMMONS.deityAnubis, 'anubis.png'),
+    deityIsis: await uploadImage(COMMONS.deityIsis, 'isis.png'),
+    monKarnak: await uploadImage(COMMONS.monumentKarnakHypostyle, 'karnak-hypostyle.jpg'),
+    monPhilae: await uploadImage(COMMONS.monumentPhilae, 'philae-temple.jpg'),
+    monEdfu: await uploadImage(COMMONS.dynastyPtolemaic, 'edfu-temple.jpg'),
+    pPtolemyI: await uploadImage(COMMONS.personPtolemyI, 'ptolemy-i-louvre.jpg'),
+    pPtolemyII: await uploadImage(COMMONS.personPtolemyII, 'ptolemy-ii-napoli.jpg'),
+    pPtolemyV: await uploadImage(COMMONS.personPtolemyV, 'ptolemy-v-coin.jpg'),
   };
   const uploadedCount = Object.values(img).filter(Boolean).length;
   console.log(`  ✓ ${uploadedCount}/${Object.keys(img).length} images uploaded`);
@@ -1245,8 +1264,15 @@ async function seed() {
         "Walk the side paths into the chapels around the Sacred Lake — almost no one does, and that's where the best-preserved color reliefs are."
       ),
     ]),
-    // No verified hero image — leaving placeholder rather than risk the
-    // misattributed Wikipedia file (filename suggests Luxor Temple).
+    heroImage: heroImage(
+      img.monKarnak,
+      {
+        en: "The Great Hypostyle Hall at Karnak — 134 columns, the largest ever raised",
+        es: 'La Gran Sala Hipóstila de Karnak: 134 columnas, la más grande jamás levantada',
+        ja: 'カルナックの大列柱室 — 134本の柱を擁する史上最大の列柱ホール',
+      },
+      'Wikimedia Commons — Karnak Hypostyle Hall'
+    ),
   });
 
   await client.createOrReplace({
@@ -1360,7 +1386,15 @@ async function seed() {
         "Woman with the throne hieroglyph (her name) on her head, or with cow horns and a sun disk (after she was syncretized with Hathor). Often shown nursing the infant Horus on her lap — the image that would echo, through Coptic Christian art, into the European Madonna-and-child tradition."
       ),
     ]),
-    // No verified Wikipedia article-lead image — placeholder.
+    heroImage: heroImage(
+      img.deityIsis,
+      {
+        en: 'Isis — line drawing in the standing posture',
+        es: 'Isis — dibujo lineal en posición de pie',
+        ja: 'イシス — 立像の線描',
+      },
+      'Wikimedia Commons — Isis'
+    ),
   });
 
   await client.createOrReplace({
@@ -1535,6 +1569,226 @@ async function seed() {
 
   console.log('  ✓ 3 people');
 
+  // ── Additional Ptolemaic monuments (Edfu, Philae) ──
+  await client.createOrReplace({
+    _id: 'wiki-monument-edfu',
+    _type: 'wikiMonument',
+    name: i18nString(
+      'Temple of Edfu',
+      'Templo de Edfu',
+      'エドフ神殿'
+    ),
+    slug: i18nSlug('temple-of-edfu', 'templo-de-edfu', 'temple-of-edfu'),
+    monumentType: 'temple',
+    city: { _type: 'reference', _ref: luxor._id },
+    preciseLocation: i18nString(
+      'Edfu, between Luxor and Aswan',
+      'Edfu, entre Luxor y Asuán',
+      'エドフ — ルクソールとアスワンの中間'
+    ),
+    builtDuring: { _type: 'reference', _ref: 'wiki-dynasty-ptolemaic' },
+    summary: i18nString(
+      "The most-preserved temple in Egypt — Ptolemaic-era and finished by the late second century BCE, dedicated to Horus. The standard Nile-cruise stop between Luxor and Aswan.",
+      'El templo mejor conservado de Egipto: de época ptolemaica, terminado a finales del siglo II a. C., dedicado a Horus. Parada estándar de los cruceros del Nilo entre Luxor y Asuán.',
+      'エジプトで最も保存状態の良い神殿 — プトレマイオス朝期、紀元前2世紀末に完成、ホルス神に奉献。ルクソールとアスワンを結ぶナイル川クルーズの定番寄港地。'
+    ),
+    body: i18nPortable([
+      block(
+        "Edfu is what a complete pharaonic temple actually looked like. The pylon (the massive entrance gateway) is intact at full height — most Egyptian temples lost theirs to weather, quarrying, or earthquake. The hypostyle halls are roofed. The inner sanctuary still holds a granite naos (the shrine that originally housed the cult statue). The reliefs are deeply cut and largely unrestored."
+      ),
+      operatorNote(
+        'context',
+        "Visit it precisely because it's the most preserved. Other temples ask you to imagine what they were; Edfu shows you. After Edfu, you read every other temple differently — you know what's missing now."
+      ),
+    ]),
+    visitorInfo: i18nPortable([
+      block('Open 7am–4pm. Most visitors arrive by Nile-cruise on the standard 4–5 night Luxor-to-Aswan loop, mid-morning, in groups.'),
+      operatorNote(
+        'insider',
+        "Climb the pylon if your visit allows — the access is sometimes restricted, but when open it gives a view of the inner courts that the ground-level walk doesn't."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.monEdfu,
+      {
+        en: 'The Temple of Edfu — Ptolemaic-era, dedicated to Horus',
+        es: 'El templo de Edfu — de época ptolemaica, dedicado a Horus',
+        ja: 'エドフ神殿 — プトレマイオス朝期、ホルス神に奉献',
+      },
+      'Wikimedia Commons — Edfu article lead photo'
+    ),
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-monument-philae',
+    _type: 'wikiMonument',
+    name: i18nString(
+      'Temple of Isis at Philae',
+      'Templo de Isis en Philae',
+      'フィラエ島のイシス神殿'
+    ),
+    slug: i18nSlug('philae-temple', 'templo-de-philae', 'philae-temple'),
+    monumentType: 'temple',
+    city: { _type: 'reference', _ref: aswan._id },
+    preciseLocation: i18nString(
+      'Agilkia Island, Aswan',
+      'Isla de Agilkia, Asuán',
+      'アスワン、アギルキア島'
+    ),
+    builtDuring: { _type: 'reference', _ref: 'wiki-dynasty-ptolemaic' },
+    summary: i18nString(
+      "Ptolemaic temple to Isis, originally on Philae Island and rescued stone-by-stone in the 1960s when the High Dam threatened to submerge it. Now reassembled on a neighboring island.",
+      'Templo ptolemaico a Isis, originalmente en la isla Philae, rescatado piedra a piedra en los años sesenta cuando la Gran Presa amenazaba con sumergirlo. Hoy reensamblado en una isla vecina.',
+      'プトレマイオス朝期のイシス神殿。元はフィラエ島にあったが、1960年代にアスワン・ハイダムによる水没を防ぐため石材ごと救出され、隣のアギルキア島で再組み立てされた。'
+    ),
+    body: i18nPortable([
+      block(
+        "Philae was the last operating temple of the ancient Egyptian religion — Justinian closed it in the 6th century CE, eight hundred years after most pagan temples in Egypt had been converted to churches. The relief carving here therefore covers the longest period of any major Egyptian temple, and the late additions show the style decaying gracefully under Roman influence."
+      ),
+      operatorNote(
+        'context',
+        "The relocation in the 1960s was a UNESCO project that took eight years. Each block was numbered, the temple disassembled, and rebuilt on Agilkia 200 meters away. The work is invisible to a normal visit; you'd have to look at engineering drawings to see the seams."
+      ),
+    ]),
+    visitorInfo: i18nPortable([
+      block(
+        "Reached by motorboat from a dock about 8 km south of Aswan. The crossing is 10 minutes and is its own pleasant short trip. There is a sound-and-light show in the evening (English, Arabic, French rotating) that we don't strongly recommend — the temple is more atmospheric in late afternoon natural light."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.monPhilae,
+      {
+        en: 'The Temple of Isis at Philae, Aswan — Ptolemaic',
+        es: 'El templo de Isis en Philae, Asuán — Ptolemaico',
+        ja: 'フィラエ島のイシス神殿（アスワン）— プトレマイオス朝期',
+      },
+      'Wikimedia Commons — Philae Temple'
+    ),
+  });
+
+  console.log('  ✓ 2 more monuments (Edfu, Philae)');
+
+  // ── Three more Ptolemaic rulers ──
+  await client.createOrReplace({
+    _id: 'wiki-person-ptolemy-i',
+    _type: 'wikiPerson',
+    name: i18nString('Ptolemy I Soter', 'Ptolomeo I Sóter', 'プトレマイオス1世ソーテール'),
+    slug: i18nSlug('ptolemy-i-soter', 'ptolomeo-i-soter', 'ptolemy-i-soter'),
+    role: 'pharaoh',
+    alternateNames: ['Ptolemy Lagides', 'Ptolemy Soter', 'Soter ("Saviour")'],
+    dynasty: { _type: 'reference', _ref: 'wiki-dynasty-ptolemaic' },
+    reignStartYear: -305,
+    reignEndYear: -282,
+    reignDisplay: i18nString(
+      '305–282 BCE',
+      '305–282 a. C.',
+      '紀元前305年〜282年'
+    ),
+    summary: i18nString(
+      "One of Alexander the Great's generals; founder of the Ptolemaic Dynasty. Took Egypt as his share of Alexander's empire and made Alexandria its capital and intellectual center.",
+      'Uno de los generales de Alejandro Magno y fundador de la dinastía ptolemaica. Tomó Egipto como su parte del imperio y convirtió Alejandría en capital y centro intelectual.',
+      'アレクサンドロス大王の将軍の一人で、プトレマイオス朝の創始者。アレクサンドロスの帝国分割でエジプトを獲得し、アレクサンドリアを首都・知的中心地とした。'
+    ),
+    body: i18nPortable([
+      block(
+        "Ptolemy was probably half-brother to Alexander — historians debate it, but the body of evidence leans yes. After Alexander's death in 323 BCE he secured Egypt as his portion of the empire, took the throne in his own right around 305, and built the apparatus that would govern Egypt for nearly three centuries: a Greek-speaking ruling class superimposed on a functioning Egyptian administrative state."
+      ),
+      block(
+        "His enduring contribution is the Library of Alexandria and the Mouseion attached to it — Ptolemy I founded both, and his son Ptolemy II expanded them into what would become the most concentrated intellectual gathering in the ancient world."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.pPtolemyI,
+      {
+        en: 'Marble portrait of Ptolemy I Soter, Louvre',
+        es: 'Retrato en mármol de Ptolomeo I Sóter, Louvre',
+        ja: 'プトレマイオス1世ソーテールの大理石像 — ルーヴル美術館',
+      },
+      'Wikimedia Commons — Ptolemy I Soter article lead photo'
+    ),
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-person-ptolemy-ii',
+    _type: 'wikiPerson',
+    name: i18nString('Ptolemy II Philadelphus', 'Ptolomeo II Filadelfo', 'プトレマイオス2世フィラデルフォス'),
+    slug: i18nSlug('ptolemy-ii-philadelphus', 'ptolomeo-ii-filadelfo', 'ptolemy-ii-philadelphus'),
+    role: 'pharaoh',
+    alternateNames: ['Ptolemy Philadelphus', 'Philadelphus ("Sibling-loving")'],
+    dynasty: { _type: 'reference', _ref: 'wiki-dynasty-ptolemaic' },
+    reignStartYear: -283,
+    reignEndYear: -246,
+    reignDisplay: i18nString(
+      '283–246 BCE',
+      '283–246 a. C.',
+      '紀元前283年〜246年'
+    ),
+    summary: i18nString(
+      'Second Ptolemaic pharaoh; presided over the dynasty\'s peak of cultural achievement — the expansion of the Library of Alexandria and the commissioning of the Septuagint translation of the Hebrew scriptures.',
+      'Segundo faraón ptolemaico; presidió el apogeo cultural de la dinastía: la expansión de la Biblioteca de Alejandría y la Septuaginta, traducción griega de las Escrituras hebreas.',
+      'プトレマイオス朝第2代ファラオ。アレクサンドリア図書館の拡張、ヘブライ語聖書のギリシャ語訳「七十人訳聖書」の編纂など、王朝の文化的最盛期を統治。'
+    ),
+    body: i18nPortable([
+      block(
+        "Philadelphus is the epithet — \"sibling-loving\" — earned because he married his sister Arsinoe II, observing pharaonic precedent (royal sibling marriage was Egyptian, not Greek) over Greek cultural sensibility. The marriage was a political and religious statement; the divine status accorded to Arsinoe after her death made her one of the most-worshipped Ptolemaic queens."
+      ),
+      block(
+        "His reign was the long, prosperous middle of the dynasty — when the Library reached its expanded form, when the Septuagint was reportedly produced by 72 scholars in 72 days at his commission, and when the cult-hybrid of Greek and Egyptian religion that defined Ptolemaic state ceremony took its mature form."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.pPtolemyII,
+      {
+        en: 'Bust of Ptolemy II Philadelphus, MAN Naples',
+        es: 'Busto de Ptolomeo II Filadelfo, MAN Nápoles',
+        ja: 'プトレマイオス2世フィラデルフォスの胸像 — ナポリ国立考古学博物館',
+      },
+      'Wikimedia Commons — Ptolemy II Philadelphus article lead photo'
+    ),
+  });
+
+  await client.createOrReplace({
+    _id: 'wiki-person-ptolemy-v',
+    _type: 'wikiPerson',
+    name: i18nString('Ptolemy V Epiphanes', 'Ptolomeo V Epifanes', 'プトレマイオス5世エピファネス'),
+    slug: i18nSlug('ptolemy-v-epiphanes', 'ptolomeo-v-epifanes', 'ptolemy-v-epiphanes'),
+    role: 'pharaoh',
+    alternateNames: ['Ptolemy Epiphanes', 'Epiphanes ("God Manifest")'],
+    dynasty: { _type: 'reference', _ref: 'wiki-dynasty-ptolemaic' },
+    reignStartYear: -204,
+    reignEndYear: -180,
+    reignDisplay: i18nString(
+      '204–180 BCE',
+      '204–180 a. C.',
+      '紀元前204年〜180年'
+    ),
+    summary: i18nString(
+      'Fifth Ptolemaic pharaoh, crowned at age six. The Rosetta Stone — the trilingual decree that two thousand years later would unlock Egyptian hieroglyphic — records the policies of his coronation.',
+      'Quinto faraón ptolemaico, coronado a los seis años. La Piedra de Rosetta — el decreto trilingüe que dos mil años después abriría el desciframiento de los jeroglíficos — registra las políticas de su coronación.',
+      'プトレマイオス朝第5代ファラオ。6歳で即位。2,000年後にエジプト象形文字解読の鍵となる三言語碑文「ロゼッタ・ストーン」は、彼の戴冠政策を記録したもの。'
+    ),
+    body: i18nPortable([
+      block(
+        "Epiphanes inherited a dynasty under pressure. The Egyptian native population had begun to revolt seriously in the south during his father's reign and the rebellions continued under him; Greek control of Upper Egypt was lost for decades. The Memphis decree of 196 BCE — issued by the priesthood at his coronation, recorded on the Rosetta Stone, and probably authored to consolidate his legitimacy with the native priesthood — is what survives of his policy."
+      ),
+      operatorNote(
+        'context',
+        "If you've stood in the British Museum and watched the queue at the Rosetta Stone, you've watched the legitimizing-document of a child king the dynasty was already losing."
+      ),
+    ]),
+    heroImage: heroImage(
+      img.pPtolemyV,
+      {
+        en: 'Bust of Ptolemy V Epiphanes on a gold octadrachm coin, Berlin',
+        es: 'Busto de Ptolomeo V Epifanes en una moneda octadracma de oro, Berlín',
+        ja: 'プトレマイオス5世エピファネスの肖像 — 黄金オクタドラクマ硬貨（ベルリン）',
+      },
+      'Wikimedia Commons — Ptolemy V Epiphanes'
+    ),
+  });
+
+  console.log('  ✓ 3 more people (Ptolemy I, II, V)');
+
   // ── Patch passes to add cross-refs that depend on later docs ──
   await client
     .patch('wiki-monument-temple-hatshepsut')
@@ -1587,7 +1841,32 @@ async function seed() {
     .patch('wiki-dynasty-ptolemaic')
     .set({
       notableRulers: [
+        { _type: 'reference', _ref: 'wiki-person-ptolemy-i', _key: 'p1' },
+        { _type: 'reference', _ref: 'wiki-person-ptolemy-ii', _key: 'p2' },
+        { _type: 'reference', _ref: 'wiki-person-ptolemy-v', _key: 'p5' },
         { _type: 'reference', _ref: 'wiki-person-cleopatra-vii', _key: 'c' },
+      ],
+      notableMonuments: [
+        { _type: 'reference', _ref: 'wiki-monument-edfu', _key: 'edfu' },
+        { _type: 'reference', _ref: 'wiki-monument-philae', _key: 'philae' },
+      ],
+    })
+    .commit();
+
+  await client
+    .patch('wiki-monument-philae')
+    .set({
+      dedicatedTo: [
+        { _type: 'reference', _ref: 'wiki-deity-isis', _key: 'i' },
+      ],
+    })
+    .commit();
+
+  await client
+    .patch('wiki-monument-edfu')
+    .set({
+      dedicatedTo: [
+        { _type: 'reference', _ref: 'wiki-deity-horus', _key: 'h' },
       ],
     })
     .commit();
@@ -1598,6 +1877,7 @@ async function seed() {
       associatedMonuments: [
         { _type: 'reference', _ref: 'wiki-monument-karnak', _key: 'k' },
         { _type: 'reference', _ref: 'wiki-monument-temple-hatshepsut', _key: 'th' },
+        { _type: 'reference', _ref: 'wiki-monument-edfu', _key: 'edfu' },
       ],
       associatedDeities: [
         { _type: 'reference', _ref: 'wiki-deity-isis', _key: 'i' },
@@ -1611,8 +1891,14 @@ async function seed() {
   await client
     .patch('wiki-deity-isis')
     .set({
+      associatedMonuments: [
+        { _type: 'reference', _ref: 'wiki-monument-philae', _key: 'philae' },
+      ],
       associatedDeities: [
         { _type: 'reference', _ref: 'wiki-deity-horus', _key: 'h' },
+      ],
+      primaryCultCenters: [
+        { _type: 'reference', _ref: aswan._id, _key: 'aswan' },
       ],
     })
     .commit();
