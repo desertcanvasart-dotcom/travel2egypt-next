@@ -1111,10 +1111,10 @@ async function seed() {
         }
       : {}),
     address: {
-      streetAddress: '12 Talaat Harb St',
+      streetAddress: '32 Central St, Moqattam',
       addressLocality: 'Cairo',
       addressRegion: 'Cairo Governorate',
-      postalCode: '11511',
+      postalCode: '11571',
       addressCountry: 'EG',
     },
     knowsAbout: [
@@ -1154,16 +1154,15 @@ async function seed() {
     ],
     contact: {
       email: 'hello@travel2egypt.org',
-      phone: '+20 2 2392 1234',
-      whatsapp: '+201234567890',
+      phone: '+201158011600',
+      whatsapp: '+201158011600',
     },
     socialLinks: {
-      facebook: 'https://www.facebook.com/travel2egypt',
-      instagram: 'https://www.instagram.com/travel2egypt',
-      youtube: 'https://www.youtube.com/@travel2egypt',
-      linkedin: 'https://www.linkedin.com/company/travel2egypt',
+      facebook: 'https://www.facebook.com/travell2egypt',
+      instagram: 'https://www.instagram.com/travel2egypt_/',
+      youtube: 'https://www.youtube.com/@traveltoegypt',
       tripadvisor:
-        'https://www.tripadvisor.com/Attraction_Review-Travel2Egypt',
+        'https://www.tripadvisor.com/Attraction_Review-g294201-d17406742-Reviews-Travel2Egypt-Cairo_Cairo_Governorate.html',
     },
   });
 
