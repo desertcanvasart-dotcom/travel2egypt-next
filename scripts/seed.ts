@@ -1619,6 +1619,278 @@ async function seed() {
 
   console.log('  ✓ wiki cross-references patched');
 
+  // ─────────────────────────────────────────────────────────
+  // Editorial — Author, Categories, Articles (EN+ES with translation
+  // metadata so the document-internationalization plugin's language
+  // switcher works in the Studio).
+  // ─────────────────────────────────────────────────────────
+
+  const articleHero = (
+    assetId: string | null,
+    alt: string,
+    credit?: string
+  ) => {
+    if (!assetId) return undefined;
+    return {
+      _type: 'image',
+      asset: { _type: 'reference', _ref: assetId },
+      alt,
+      ...(credit ? { credit } : {}),
+    };
+  };
+
+  const author = await client.createOrReplace({
+    _id: 'author-mostafa',
+    _type: 'author',
+    name: 'Mostafa Hassan',
+    slug: { _type: 'slug', current: 'mostafa-hassan' },
+    role: i18nString(
+      'Founder & lead trip designer',
+      'Fundador y diseñador principal de viajes',
+      '創業者・主任ツアーデザイナー'
+    ),
+    bio: i18nPortable([
+      block(
+        "Mostafa has been operating tours through Egypt since 1995. He grew up in Cairo, studied Egyptology at Cairo University, and has been writing about how to actually travel through this country since long before there was a Travel2Egypt to write for. The voice you hear on this site is mostly his."
+      ),
+    ]),
+    yearsInOperation: 30,
+  });
+
+  await client.createOrReplace({
+    _id: 'category-planning',
+    _type: 'editorialCategory',
+    name: i18nString('Planning advice', 'Consejos de planificación', '旅の計画'),
+    slug: i18nSlug('planning-advice', 'consejos-de-planificacion', 'planning-advice'),
+    description: i18nString(
+      'How to think about pacing, sequencing, and the small choices that separate a good Egypt trip from a tired one.',
+      'Cómo pensar el ritmo, la secuencia y las pequeñas decisiones que distinguen un buen viaje a Egipto de uno agotador.',
+      'ペース配分、訪問順、よいエジプト旅と疲れる旅を分ける細かな選択の考え方。'
+    ),
+    orderRank: 10,
+  });
+
+  await client.createOrReplace({
+    _id: 'category-destination',
+    _type: 'editorialCategory',
+    name: i18nString('Destination depth', 'Profundidad de destino', '訪問先を深く知る'),
+    slug: i18nSlug('destination-depth', 'profundidad-de-destino', 'destination-depth'),
+    description: i18nString(
+      'Operator-grade detail on specific cities, sites, and corners of Egypt — the depth that doesn\'t fit in a guidebook.',
+      'Detalle al nivel de un operador sobre ciudades, sitios y rincones específicos de Egipto: la profundidad que no cabe en una guía.',
+      'エジプトの特定都市・遺跡・隅々についてのオペレーター視点の深掘り情報 — ガイドブックには収まらない深度。'
+    ),
+    orderRank: 20,
+  });
+
+  console.log('  ✓ author + 2 categories');
+
+  // ── Articles — three pairs of EN+ES, linked by translation.metadata ──
+  const articles = [
+    {
+      enId: 'article-cairo-third-day-en',
+      esId: 'article-cairo-third-day-es',
+      categoryId: 'category-planning',
+      heroAsset: img.cairo,
+      heroCredit: 'Wikimedia Commons — Cairo article',
+      en: {
+        title: "Why Cairo's third day is the one that matters",
+        slug: 'why-cairos-third-day-matters',
+        deck: "Two days in Cairo is too short. The third day is when the city stops happening to you and you start choosing your relationship with it.",
+        alt: 'Cairo Opera House and the Nile, late afternoon',
+        body: [
+          block(
+            "We tell every first-time visitor: budget at least three full days for Cairo. Two days is too short — you spend day one disoriented and day two starting to find your feet, then leave. Three days is the threshold where the city stops happening to you and you start choosing your relationship with it."
+          ),
+          block(
+            "Day one is the city happening to you. Traffic that operates on different rules than yours. A noise floor that never quite settles. Twenty-two million people in roughly the same physical envelope as Greater Tokyo. The first day is overwhelming for almost everyone."
+          ),
+          operatorNote(
+            'honest',
+            "If your itinerary forces a one-night Cairo, decline. We can build around it, but the result is a tourist's pyramid checklist rather than an Egyptian capital experience. Three nights minimum or it's not worth doing."
+          ),
+          block(
+            "Day two is the calibration. The traffic still works the way it works; you just stop expecting it to work otherwise. The call to prayer that woke you at 4am the first morning becomes structural. The coffee at the corner of your hotel block becomes the best coffee you have anywhere in Egypt because the man making it has been making it the same way for thirty years."
+          ),
+          block(
+            "Day three is the one that matters. By day three, the city stops being a problem to solve and becomes a place to be. Khan el-Khalili stops feeling chaotic and starts feeling like a small handful of streets you mostly know now. The Coptic museum becomes interesting on its own terms rather than as a stop on a list. Coffee at Café Riche or El Fishawy in the late afternoon, watching the city happen rather than trying to do it."
+          ),
+          operatorNote(
+            'context',
+            "If you can spare a fourth day, the Egyptian Museum at Tahrir is what we recommend — emptier now that most marquee items moved to the Grand Egyptian Museum, and that emptiness is its gift."
+          ),
+        ],
+      },
+      es: {
+        title: 'Por qué el tercer día en El Cairo es el que cuenta',
+        slug: 'por-que-tercer-dia-cairo-cuenta',
+        deck: 'Dos días en El Cairo se quedan cortos. Al tercero, la ciudad deja de pasarte por encima y eliges tú la relación con ella.',
+        alt: 'La Ópera de El Cairo y el Nilo, al atardecer',
+        body: [
+          block(
+            'A todo viajero primerizo le decimos lo mismo: dedica al menos tres días completos a El Cairo. Dos días es muy poco — pasas el primero desorientado, el segundo empiezas a orientarte y ya te marchas. Tres días es el umbral en el que la ciudad deja de pasarte por encima y empiezas a elegir cómo relacionarte con ella.'
+          ),
+          block(
+            'El primer día es la ciudad sucediéndote. Un tráfico que funciona con reglas distintas a las tuyas. Un ruido de fondo que no se calma del todo. Veintidós millones de personas en aproximadamente el mismo espacio físico que el Gran Tokio. Es abrumador para casi todo el mundo.'
+          ),
+          operatorNote(
+            'honest',
+            "Si tu itinerario te obliga a una sola noche en El Cairo, rechaza. Podemos construir alrededor, pero el resultado es una lista turística de pirámides, no la experiencia de la capital egipcia. Tres noches como mínimo o no merece la pena."
+          ),
+          block(
+            'El segundo día es la calibración. El tráfico sigue funcionando como funciona; tú simplemente dejas de esperar que sea de otra manera. La llamada al rezo que te despertó a las 4 de la mañana del primer día se vuelve estructural.'
+          ),
+          block(
+            'El tercer día es el que importa. La ciudad deja de ser un problema a resolver y se vuelve un lugar donde estar.'
+          ),
+        ],
+      },
+    },
+    {
+      enId: 'article-nile-cruise-calendar-en',
+      esId: 'article-nile-cruise-calendar-es',
+      categoryId: 'category-planning',
+      heroAsset: img.classicPkg,
+      heroCredit: 'Wikimedia Commons — Felucca article',
+      en: {
+        title: 'The Nile cruise calendar — when, on what',
+        slug: 'nile-cruise-calendar',
+        deck: "Most cruise marketing sells you on the boat. We mostly care about when you sail, on what kind of vessel, and which direction.",
+        alt: 'A felucca on the Nile under sail',
+        body: [
+          block(
+            "Almost everyone who comes to Egypt does some version of a Nile cruise. The standard product is a four-night Luxor-to-Aswan run on a 100-cabin floating hotel. It's fine. It's also not the only thing you can do, and depending on when you come, it's not the right thing for everyone."
+          ),
+          block(
+            "October through April is the cruise season. Outside that, the boats either don't run or run with depleted crews and intermittent maintenance — we don't recommend it. May and September are shoulder; the temperature is bearable in the morning and afternoon, brutal at midday."
+          ),
+          operatorNote(
+            'insider',
+            "If you can travel in late November or early February, do. The light is good, the temperature is in the low 20s C, the boats aren't full, and the temple visits at Luxor and Edfu are still slow enough to feel like sites rather than queues."
+          ),
+          block(
+            "The vessel matters less than people think and more than the brochure suggests. The 100-cabin standard cruisers are fine for most travelers; the smaller dahabiyas (8–12 cabins, sail-powered) are slower, more expensive, and the better experience if you want it. We tier our recommendations against your travel style — most of the conversation is which of these you actually want."
+          ),
+        ],
+      },
+      es: {
+        title: 'Calendario del crucero por el Nilo: cuándo y en qué',
+        slug: 'calendario-crucero-nilo',
+        deck: 'La publicidad de cruceros te vende el barco. A nosotros nos importa más cuándo navegas, en qué tipo de embarcación y en qué dirección.',
+        alt: 'Una faluca a vela en el Nilo',
+        body: [
+          block(
+            'Casi todo el que viene a Egipto hace alguna versión de un crucero por el Nilo. El producto estándar son cuatro noches de Luxor a Asuán en un hotel flotante de 100 camarotes. Está bien. Tampoco es lo único que se puede hacer.'
+          ),
+          block(
+            'De octubre a abril es la temporada de cruceros. Fuera de ahí, los barcos no operan o lo hacen con tripulaciones reducidas y mantenimiento irregular — no lo recomendamos.'
+          ),
+          operatorNote(
+            'insider',
+            'Si puedes viajar a finales de noviembre o principios de febrero, hazlo. La luz es buena, la temperatura ronda los 20 °C, los barcos no van llenos.'
+          ),
+        ],
+      },
+    },
+    {
+      enId: 'article-saqqara-before-giza-en',
+      esId: 'article-saqqara-before-giza-es',
+      categoryId: 'category-destination',
+      heroAsset: img.saqqaraTour,
+      heroCredit: 'Wikimedia Commons — Pyramid of Djoser article',
+      en: {
+        title: "Why we send some travelers to Saqqara before Giza",
+        slug: 'saqqara-before-giza',
+        deck: 'The pyramids you should see first are not always the pyramids you think.',
+        alt: 'The Step Pyramid of Djoser at Saqqara',
+        body: [
+          block(
+            "The standard Cairo itinerary is Pyramids and Sphinx on day one, Egyptian Museum on day two, Old Cairo on day three. It's the obvious order and it works. But for travelers with three or four days in Cairo, we sometimes flip it: Saqqara first, then Giza."
+          ),
+          block(
+            "The argument is architectural. The Step Pyramid of Djoser at Saqqara is the first monumental stone building anywhere in the world. The Bent Pyramid at Dahshur is where the angle changes mid-construction once the original slope proved unstable. The Red Pyramid is the first geometrically true pyramid. By the time you stand at Giza, you've watched a 200-year experiment converge on what most people picture when they picture pyramids."
+          ),
+          operatorNote(
+            'context',
+            "Most first-time visitors do Giza on day one and feel they've understood Egyptian pyramids. Saqqara afterward shows the prototypes, the corrections, the architectural reasoning. Doing it in reverse — Saqqara first — means Giza arrives as a culmination rather than a starting point."
+          ),
+          block(
+            "It's not the right order for every traveler. Iconic-photo travelers, repeat visitors, and tight schedules do Giza first; those are the cases where the obvious order is right. Architectural-history travelers, second-time-to-Egypt travelers, and travelers who are tired of being told what to feel about pyramids — those are the cases where Saqqara first works."
+          ),
+        ],
+      },
+      es: {
+        title: 'Por qué a algunos viajeros los enviamos a Saqqara antes que a Giza',
+        slug: 'saqqara-antes-de-giza',
+        deck: 'Las pirámides que deberías ver primero no siempre son las que piensas.',
+        alt: 'La pirámide escalonada de Zoser en Saqqara',
+        body: [
+          block(
+            'El itinerario estándar de El Cairo es Pirámides y Esfinge el día uno, Museo Egipcio el día dos, Cairo antiguo el día tres. Es el orden obvio y funciona. Pero para viajeros con tres o cuatro días en El Cairo, a veces lo invertimos: Saqqara primero, después Giza.'
+          ),
+          block(
+            'El argumento es arquitectónico. La Pirámide Escalonada de Zoser en Saqqara es el primer edificio monumental de piedra del mundo. La Pirámide Acodada de Dahshur es donde el ángulo cambia a media construcción cuando la pendiente original demostró ser inestable.'
+          ),
+          operatorNote(
+            'context',
+            'La mayoría de los visitantes primerizos hacen Giza el día uno y sienten que ya entendieron las pirámides egipcias. Saqqara después muestra los prototipos, las correcciones, el razonamiento arquitectónico.'
+          ),
+        ],
+      },
+    },
+  ];
+
+  for (const a of articles) {
+    // EN
+    await client.createOrReplace({
+      _id: a.enId,
+      _type: 'article',
+      language: 'en',
+      title: a.en.title,
+      slug: { _type: 'slug', current: a.en.slug },
+      deck: a.en.deck,
+      category: { _type: 'reference', _ref: a.categoryId },
+      author: { _type: 'reference', _ref: author._id },
+      publishedAt: '2025-09-15T10:00:00Z',
+      body: a.en.body,
+      heroImage: articleHero(a.heroAsset, a.en.alt, a.heroCredit),
+    });
+    // ES
+    await client.createOrReplace({
+      _id: a.esId,
+      _type: 'article',
+      language: 'es',
+      title: a.es.title,
+      slug: { _type: 'slug', current: a.es.slug },
+      deck: a.es.deck,
+      category: { _type: 'reference', _ref: a.categoryId },
+      author: { _type: 'reference', _ref: author._id },
+      publishedAt: '2025-09-15T10:00:00Z',
+      body: a.es.body,
+      heroImage: articleHero(a.heroAsset, a.es.alt, a.heroCredit),
+    });
+    // Translation metadata so the Studio's language-switcher links them.
+    await client.createOrReplace({
+      _id: `translation.metadata.${a.enId.replace(/-en$/, '')}`,
+      _type: 'translation.metadata',
+      schemaTypes: ['article'],
+      translations: [
+        {
+          _key: 'en',
+          _type: 'internationalizedArrayReferenceValue',
+          value: { _type: 'reference', _ref: a.enId },
+        },
+        {
+          _key: 'es',
+          _type: 'internationalizedArrayReferenceValue',
+          value: { _type: 'reference', _ref: a.esId },
+        },
+      ],
+    });
+  }
+
+  console.log('  ✓ 3 articles (EN + ES) with translation metadata');
+
   console.log('\nDone. Next:');
   console.log(`  → Open the Studio at http://localhost:3000/studio`);
   console.log(`  → Open the demo page at http://localhost:3000/guide/cairo`);
