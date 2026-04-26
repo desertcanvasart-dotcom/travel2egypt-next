@@ -7,6 +7,7 @@ import { client } from '@/sanity/lib/client';
 import {
   articlesByLanguageQuery,
   allCategoriesQuery,
+  featuredLeadArticleQuery,
 } from '@/sanity/lib/queries';
 import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
 import { buildStaticMetadata } from '@/lib/seo';
@@ -31,15 +32,16 @@ export default async function BlogLandingPage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('blog');
-  const [articles, categories] = await Promise.all([
+  const [articles, categories, lead] = await Promise.all([
     client.fetch<ArticleCardData[]>(articlesByLanguageQuery, { locale }),
     client.fetch<Array<{ _id: string; name: string; slug: string }>>(
       allCategoriesQuery(locale as Locale)
     ),
+    client.fetch<ArticleCardData | null>(featuredLeadArticleQuery, { locale }),
   ]);
 
-  const lead = articles[0];
-  const rest = articles.slice(1);
+  // Filter the lead out of the rest grid to avoid duplication.
+  const rest = articles.filter((a) => a._id !== lead?._id);
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-16">

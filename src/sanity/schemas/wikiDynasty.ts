@@ -139,6 +139,15 @@ export const wikiDynastySchema = defineType({
       of: [{ type: 'localizedImage' }],
     }),
     defineField({
+      name: 'featured',
+      title: 'Featured on /wiki landing',
+      description:
+        'Tick to surface this dynasty in the wiki landing page\'s "Browse by dynasty" preview section.',
+      type: 'boolean',
+      group: 'meta',
+      initialValue: false,
+    }),
+    defineField({
       name: 'seo',
       title: 'SEO',
       type: 'seo',

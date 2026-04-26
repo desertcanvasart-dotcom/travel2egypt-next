@@ -88,6 +88,15 @@ export const articleSchema = defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
+      name: 'featured',
+      title: 'Featured',
+      description:
+        'Tick to surface this article in the journal landing page\'s featured slot. Only one featured article displays at a time — most-recent featured wins.',
+      type: 'boolean',
+      group: 'content',
+      initialValue: false,
+    }),
+    defineField({
       name: 'updatedAt',
       title: 'Updated at',
       description: 'Optional. Show "Updated" label when present.',

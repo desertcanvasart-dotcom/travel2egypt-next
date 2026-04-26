@@ -13,7 +13,12 @@ import { groq } from 'next-sanity';
 
 import type { Locale } from '@/i18n/routing';
 
-import { localizedField, localizedSlug } from './i18n';
+import {
+  localizedField,
+  localizedSlug,
+  portableTextBodyProjection,
+  articleBodyMarkProjection,
+} from './i18n';
 
 // ──────────────────────────────────────────────
 // City guide
@@ -36,7 +41,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
     "slug": ${localizedSlug('slug', locale)},
     "allSlugs": slug[]{ _key, "current": value.current },
     "summary": ${localizedField('summary', locale)},
-    "overview": overview[_key == "${locale}"][0].value,
+    "overview": ${portableTextBodyProjection('overview', locale)},
     "keyFacts": {
       "bestSeason": ${localizedField('keyFacts.bestSeason', locale)},
       "gettingThere": ${localizedField('keyFacts.gettingThere', locale)},
@@ -135,14 +140,14 @@ export const tourBySlugQuery = (locale: Locale) => groq`
      slug[_key == "en"][0].value.current == $slug)
   )][0]{
     ${tourCardProjection(locale)},
-    "body": body[_key == "${locale}"][0].value,
+    "body": ${portableTextBodyProjection('body', locale)},
     "highlights": coalesce(
       highlights[_key == "${locale}"][0].value,
       highlights[_key == "en"][0].value
     ),
-    "inclusions": inclusions[_key == "${locale}"][0].value,
-    "exclusions": exclusions[_key == "${locale}"][0].value,
-    "itinerary": itinerary[_key == "${locale}"][0].value,
+    "inclusions": ${portableTextBodyProjection('inclusions', locale)},
+    "exclusions": ${portableTextBodyProjection('exclusions', locale)},
+    "itinerary": ${portableTextBodyProjection('itinerary', locale)},
     gallery[]{
       ...,
       "alt": ${localizedField('alt', locale)}
@@ -297,7 +302,23 @@ export const allDynastiesQuery = (locale: Locale) => groq`
   *[_type == "wikiDynasty"] | order(coalesce(startYear, 9999) asc){
     ${wikiCardProjection(locale)},
     startYear,
-    endYear
+    endYear,
+    featured
+  }
+`;
+
+/**
+ * Featured-first ordering for the wiki landing's preview sections.
+ * Editors mark items with `featured: true`; we return them first, then
+ * fall through to the type's default order. The landing page slices the
+ * top N for each section.
+ */
+export const featuredDynastiesQuery = (locale: Locale) => groq`
+  *[_type == "wikiDynasty"] | order(coalesce(featured, false) desc, coalesce(startYear, 9999) asc){
+    ${wikiCardProjection(locale)},
+    startYear,
+    endYear,
+    featured
   }
 `;
 
@@ -311,7 +332,7 @@ export const dynastyBySlugQuery = (locale: Locale) => groq`
     "allSlugs": slug[]{ _key, "current": value.current },
     startYear,
     endYear,
-    "body": body[_key == "${locale}"][0].value,
+    "body": ${portableTextBodyProjection('body', locale)},
     "predecessorDynasty": predecessorDynasty->{ ${wikiCardProjection(locale)} },
     "successorDynasty": successorDynasty->{ ${wikiCardProjection(locale)} },
     "notableRulers": notableRulers[]->{ ${wikiCardProjection(locale)} },
@@ -350,11 +371,21 @@ export const allPeopleQuery = (locale: Locale) => groq`
     ${wikiCardProjection(locale)},
     reignStartYear,
     reignEndYear,
+    featured,
     "dynasty": dynasty->{
       _id,
       "name": ${localizedField('name', locale)},
       "slug": ${localizedSlug('slug', locale)}
     }
+  }
+`;
+
+export const featuredPeopleQuery = (locale: Locale) => groq`
+  *[_type == "wikiPerson"] | order(coalesce(featured, false) desc, coalesce(reignStartYear, 9999) asc){
+    ${wikiCardProjection(locale)},
+    featured,
+    reignStartYear,
+    reignEndYear
   }
 `;
 
@@ -369,7 +400,7 @@ export const personBySlugQuery = (locale: Locale) => groq`
     alternateNames,
     reignStartYear,
     reignEndYear,
-    "body": body[_key == "${locale}"][0].value,
+    "body": ${portableTextBodyProjection('body', locale)},
     "dynasty": dynasty->{ ${wikiCardProjection(locale)} },
     "predecessor": predecessor->{ ${wikiCardProjection(locale)} },
     "successor": successor->{ ${wikiCardProjection(locale)} },
@@ -409,7 +440,15 @@ export const personBySlugQuery = (locale: Locale) => groq`
 
 export const allMonumentsQuery = (locale: Locale) => groq`
   *[_type == "wikiMonument"] | order(city->orderRank asc, name asc){
-    ${wikiCardProjection(locale)}
+    ${wikiCardProjection(locale)},
+    featured
+  }
+`;
+
+export const featuredMonumentsQuery = (locale: Locale) => groq`
+  *[_type == "wikiMonument"] | order(coalesce(featured, false) desc, city->orderRank asc, name asc){
+    ${wikiCardProjection(locale)},
+    featured
   }
 `;
 
@@ -422,8 +461,8 @@ export const monumentBySlugQuery = (locale: Locale) => groq`
     ${wikiCardProjection(locale)},
     "allSlugs": slug[]{ _key, "current": value.current },
     coordinates,
-    "body": body[_key == "${locale}"][0].value,
-    "visitorInfo": visitorInfo[_key == "${locale}"][0].value,
+    "body": ${portableTextBodyProjection('body', locale)},
+    "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
     "builtBy": builtBy[]->{ ${wikiCardProjection(locale)} },
     "builtDuring": builtDuring->{ ${wikiCardProjection(locale)} },
     "buriedHere": buriedHere[]->{ ${wikiCardProjection(locale)} },
@@ -460,7 +499,15 @@ export const monumentBySlugQuery = (locale: Locale) => groq`
 
 export const allDeitiesQuery = (locale: Locale) => groq`
   *[_type == "wikiDeity"] | order(name asc){
-    ${wikiCardProjection(locale)}
+    ${wikiCardProjection(locale)},
+    featured
+  }
+`;
+
+export const featuredDeitiesQuery = (locale: Locale) => groq`
+  *[_type == "wikiDeity"] | order(coalesce(featured, false) desc, name asc){
+    ${wikiCardProjection(locale)},
+    featured
   }
 `;
 
@@ -473,8 +520,8 @@ export const deityBySlugQuery = (locale: Locale) => groq`
     ${wikiCardProjection(locale)},
     "allSlugs": slug[]{ _key, "current": value.current },
     alternateNames,
-    "body": body[_key == "${locale}"][0].value,
-    "iconography": iconography[_key == "${locale}"][0].value,
+    "body": ${portableTextBodyProjection('body', locale)},
+    "iconography": ${portableTextBodyProjection('iconography', locale)},
     "primaryCultCenters": primaryCultCenters[]->{
       _id,
       "name": ${localizedField('name', locale)},
@@ -527,6 +574,7 @@ const articleCardProjection = `
   deck,
   publishedAt,
   updatedAt,
+  featured,
   heroImage{ ..., "alt": alt },
   "category": category->{
     _id,
@@ -556,6 +604,20 @@ export const featuredArticlesQuery = groq`
   }
 `;
 
+/**
+ * The single article to surface in the journal landing's lead slot.
+ * Most-recent article with featured == true; falls back to most-recent
+ * overall if nothing is featured.
+ */
+export const featuredLeadArticleQuery = groq`
+  coalesce(
+    *[_type == "article" && language == $locale && featured == true && !(_id in path("drafts.**"))]
+      | order(publishedAt desc)[0]{ ${articleCardProjection} },
+    *[_type == "article" && language == $locale && !(_id in path("drafts.**"))]
+      | order(publishedAt desc)[0]{ ${articleCardProjection} }
+  )
+`;
+
 export const articlesByCategorySlugQuery = groq`
   *[_type == "article" && language == $locale &&
     !(_id in path("drafts.**")) &&
@@ -570,7 +632,30 @@ export const articlesByCategorySlugQuery = groq`
 export const articleBySlugQuery = groq`
   *[_type == "article" && slug.current == $slug && language == $locale][0]{
     ${articleCardProjection},
-    body,
+    "body": body[]{
+      ...,
+      markDefs[]{
+        ...,
+        _type == "internalLink" => {
+          ...,
+          "ref": reference->{
+            _type,
+            "tourType": select(_type == "tour" => type, null),
+            "slug": select(
+              _type == "article" => slug.current,
+              coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
+            ),
+            "parentCitySlug": select(
+              _type == "guideArticle" => coalesce(
+                parentCity->slug[_key==$locale][0].value.current,
+                parentCity->slug[_key=="en"][0].value.current
+              ),
+              null
+            )
+          }
+        }
+      }
+    },
     "categoryDescription": category->{
       "description": coalesce(description[_key==^.language][0].value, description[_key=="en"][0].value)
     },

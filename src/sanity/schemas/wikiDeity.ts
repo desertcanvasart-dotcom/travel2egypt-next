@@ -106,6 +106,15 @@ export const wikiDeitySchema = defineType({
       of: [{ type: 'localizedImage' }],
     }),
     defineField({
+      name: 'featured',
+      title: 'Featured on /wiki landing',
+      description:
+        'Tick to surface this deity in the wiki landing page\'s "Browse by deity" preview section.',
+      type: 'boolean',
+      group: 'meta',
+      initialValue: false,
+    }),
+    defineField({
       name: 'seo',
       title: 'SEO',
       type: 'seo',

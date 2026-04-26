@@ -5,10 +5,10 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import {
-  allDynastiesQuery,
-  allPeopleQuery,
-  allMonumentsQuery,
-  allDeitiesQuery,
+  featuredDynastiesQuery,
+  featuredPeopleQuery,
+  featuredMonumentsQuery,
+  featuredDeitiesQuery,
 } from '@/sanity/lib/queries';
 import { WikiCard, type WikiCardData } from '@/components/WikiCard';
 import { buildStaticMetadata } from '@/lib/seo';
@@ -35,10 +35,10 @@ export default async function WikiLandingPage({ params }: Props) {
   const t = await getTranslations('wiki');
 
   const [dynasties, people, monuments, deities] = await Promise.all([
-    client.fetch<WikiCardData[]>(allDynastiesQuery(locale as Locale)),
-    client.fetch<WikiCardData[]>(allPeopleQuery(locale as Locale)),
-    client.fetch<WikiCardData[]>(allMonumentsQuery(locale as Locale)),
-    client.fetch<WikiCardData[]>(allDeitiesQuery(locale as Locale)),
+    client.fetch<WikiCardData[]>(featuredDynastiesQuery(locale as Locale)),
+    client.fetch<WikiCardData[]>(featuredPeopleQuery(locale as Locale)),
+    client.fetch<WikiCardData[]>(featuredMonumentsQuery(locale as Locale)),
+    client.fetch<WikiCardData[]>(featuredDeitiesQuery(locale as Locale)),
   ]);
 
   const sections: Array<{

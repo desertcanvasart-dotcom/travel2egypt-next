@@ -49,6 +49,126 @@ export const localizedSlug = (field: string, locale: Locale) =>
   `coalesce(${field}[_key=="${locale}"][0].value.current, ${field}[_key=="${DEFAULT_LOCALE}"][0].value.current)`;
 
 /**
+ * Portable-text body projection that also resolves `internalLink` markDefs
+ * to a small payload (`_type` + `slug` + auxiliary fields needed for URL
+ * construction). Apply this in any body GROQ where editors might use
+ * inline internal links — without it, the renderer has no way to build the
+ * destination URL.
+ *
+ * Usage:
+ *   "body": ${portableTextBodyProjection('body', locale)}
+ *
+ * Articles use document-level i18n and a top-level `body` (not localized
+ * arrays); for those, use `articleBodyMarkProjection` directly inside the
+ * existing `body[]{ ... }` projection.
+ */
+export const portableTextBodyProjection = (field: string, locale: Locale) => `
+  ${field}[_key=="${locale}"][0].value[]{
+    ...,
+    markDefs[]{
+      ...,
+      _type == "internalLink" => {
+        ...,
+        "ref": reference->{
+          _type,
+          "tourType": select(_type == "tour" => type, null),
+          "slug": select(
+            _type == "article" => slug.current,
+            coalesce(slug[_key=="${locale}"][0].value.current, slug[_key=="en"][0].value.current)
+          ),
+          "parentCitySlug": select(
+            _type == "guideArticle" => coalesce(
+              parentCity->slug[_key=="${locale}"][0].value.current,
+              parentCity->slug[_key=="en"][0].value.current
+            ),
+            null
+          )
+        }
+      }
+    }
+  }
+`;
+
+/**
+ * For document-level i18n bodies (articles), inject this inside the
+ * existing `body[]{...}` projection to resolve internal links.
+ */
+export const articleBodyMarkProjection = (locale: Locale) => `
+  ...,
+  markDefs[]{
+    ...,
+    _type == "internalLink" => {
+      ...,
+      "ref": reference->{
+        _type,
+        "tourType": select(_type == "tour" => type, null),
+        "slug": select(
+          _type == "article" => slug.current,
+          coalesce(slug[_key=="${locale}"][0].value.current, slug[_key=="en"][0].value.current)
+        ),
+        "parentCitySlug": select(
+          _type == "guideArticle" => coalesce(
+            parentCity->slug[_key=="${locale}"][0].value.current,
+            parentCity->slug[_key=="en"][0].value.current
+          ),
+          null
+        )
+      }
+    }
+  }
+`;
+
+/**
+ * Resolve a Sanity reference (already projected via the helpers above) to
+ * a locale-relative path. Returns null if the type is unknown — callers
+ * should render the link text without an anchor in that case.
+ *
+ * Note: returned paths are *relative* to the locale prefix. Pass through
+ * the i18n Link component (from @/i18n/navigation), which adds the
+ * /es or /ja prefix automatically.
+ */
+export interface ResolvableRef {
+  _type: string;
+  slug?: string;
+  tourType?: 'dayTour' | 'package' | null;
+  parentCitySlug?: string | null;
+}
+
+export function resolveInternalLinkHref(ref: ResolvableRef | null | undefined): string | null {
+  if (!ref || !ref._type || !ref.slug) return null;
+  switch (ref._type) {
+    case 'city':
+      return `/guide/${ref.slug}`;
+    case 'guideArticle':
+      return ref.parentCitySlug
+        ? `/guide/${ref.parentCitySlug}/${ref.slug}`
+        : null;
+    case 'tour':
+      return ref.tourType === 'package'
+        ? `/packages/${ref.slug}`
+        : `/tours/${ref.slug}`;
+    case 'article':
+      return `/blog/${ref.slug}`;
+    case 'wikiPerson':
+      return `/wiki/people/${ref.slug}`;
+    case 'wikiMonument':
+      return `/wiki/monuments/${ref.slug}`;
+    case 'wikiDynasty':
+      return `/wiki/dynasties/${ref.slug}`;
+    case 'wikiDeity':
+      return `/wiki/deities/${ref.slug}`;
+    case 'travelTip':
+      return `/travel-tips/${ref.slug}`;
+    case 'hotel':
+      return `/hotels/${ref.slug}`;
+    case 'nileCruise':
+      return `/cruises/${ref.slug}`;
+    default:
+      return null;
+  }
+}
+
+/**
  * Helper to extract a localized string client-side from a raw
  * internationalized-array value (when you don't want to project it in GROQ).
  */

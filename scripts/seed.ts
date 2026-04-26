@@ -192,6 +192,43 @@ const block = (text: string, style: string = 'normal') => ({
   children: [{ _type: 'span', _key: Math.random().toString(36).slice(2, 10), text, marks: [] }],
 });
 
+/**
+ * Block with one or more inline internal links.
+ *
+ * Each segment is either a plain string or `{linkRef, text}` for the
+ * linked portion. Editors normally do this through the Studio's
+ * portable-text editor; this helper exists for seed data only.
+ */
+type LinkSeg = string | { linkRef: string; text: string };
+const blockWithLinks = (segments: LinkSeg[], style: string = 'normal') => {
+  const markDefs: Array<{ _key: string; _type: string; reference: { _type: string; _ref: string } }> = [];
+  const children = segments.map((seg) => {
+    const childKey = Math.random().toString(36).slice(2, 10);
+    if (typeof seg === 'string') {
+      return { _type: 'span', _key: childKey, text: seg, marks: [] };
+    }
+    const markKey = Math.random().toString(36).slice(2, 10);
+    markDefs.push({
+      _key: markKey,
+      _type: 'internalLink',
+      reference: { _type: 'reference', _ref: seg.linkRef },
+    });
+    return {
+      _type: 'span',
+      _key: childKey,
+      text: seg.text,
+      marks: [markKey],
+    };
+  });
+  return {
+    _type: 'block',
+    _key: Math.random().toString(36).slice(2, 10),
+    style,
+    markDefs,
+    children,
+  };
+};
+
 const operatorNote = (
   tone: 'honest' | 'caution' | 'insider' | 'context',
   text: string
@@ -1467,10 +1504,9 @@ async function seed() {
         "The Hatshepsut you see in modern Egypt is the recovered version. Her statues at the Met, the Cairo Museum, and the Luxor Museum were systematically smashed in antiquity, then reconstructed across the twentieth century from the fragments dumped in a quarry pit in front of her temple. Most of the great statues you see now are partial reassemblies."
       ),
     ]),
-    notableMonuments: [
-      { _type: 'reference', _ref: 'wiki-monument-temple-hatshepsut', _key: 'temple-hat' },
-      { _type: 'reference', _ref: 'wiki-monument-karnak', _key: 'karnak' },
-    ],
+    // Canonical authoring pattern: monuments declare builtBy → Hatshepsut.
+    // The dynasty/person reverse queries pick that up automatically;
+    // editors do not maintain forward refs in both directions.
     heroImage: heroImage(
       img.pHatshepsut,
       {
@@ -1510,9 +1546,8 @@ async function seed() {
         "He was also a propagandist. The Battle of Kadesh against the Hittites, recorded as a Ramesside victory all over Egypt, was probably a draw at best. The treaty that followed it was the first known international peace treaty — a more interesting outcome than the battle scenes suggest."
       ),
     ]),
-    notableMonuments: [
-      { _type: 'reference', _ref: 'wiki-monument-karnak', _key: 'karnak' },
-    ],
+    // Forward `notableMonuments` intentionally omitted — Karnak's
+    // builtBy: [Ramesses II] surfaces here via reverse query.
     heroImage: heroImage(
       img.pRamses,
       {
@@ -1815,42 +1850,25 @@ async function seed() {
     })
     .commit();
 
+  // Dynasty.notableRulers and dynasty.notableMonuments are intentionally
+  // left blank — derived from reverse queries (people whose `dynasty`
+  // points here, monuments whose `builtDuring` points here). The schema
+  // fields remain for editors who want to override or curate; the seed
+  // demonstrates the canonical single-side authoring pattern.
+  // Cleanup: clear any prior forward refs left over from earlier seed
+  // runs (Sanity preserves fields across createOrReplace boundaries
+  // when patched separately).
   await client
     .patch('wiki-dynasty-eighteenth')
-    .set({
-      notableRulers: [
-        { _type: 'reference', _ref: 'wiki-person-hatshepsut', _key: 'h' },
-      ],
-      notableMonuments: [
-        { _type: 'reference', _ref: 'wiki-monument-temple-hatshepsut', _key: 'th' },
-        { _type: 'reference', _ref: 'wiki-monument-karnak', _key: 'k' },
-      ],
-    })
+    .unset(['notableRulers', 'notableMonuments'])
     .commit();
-
   await client
     .patch('wiki-dynasty-fourth-old')
-    .set({
-      notableMonuments: [
-        { _type: 'reference', _ref: 'wiki-monument-great-pyramid', _key: 'gp' },
-      ],
-    })
+    .unset(['notableRulers', 'notableMonuments'])
     .commit();
-
   await client
     .patch('wiki-dynasty-ptolemaic')
-    .set({
-      notableRulers: [
-        { _type: 'reference', _ref: 'wiki-person-ptolemy-i', _key: 'p1' },
-        { _type: 'reference', _ref: 'wiki-person-ptolemy-ii', _key: 'p2' },
-        { _type: 'reference', _ref: 'wiki-person-ptolemy-v', _key: 'p5' },
-        { _type: 'reference', _ref: 'wiki-person-cleopatra-vii', _key: 'c' },
-      ],
-      notableMonuments: [
-        { _type: 'reference', _ref: 'wiki-monument-edfu', _key: 'edfu' },
-        { _type: 'reference', _ref: 'wiki-monument-philae', _key: 'philae' },
-      ],
-    })
+    .unset(['notableRulers', 'notableMonuments'])
     .commit();
 
   await client
@@ -1871,14 +1889,14 @@ async function seed() {
     })
     .commit();
 
+  // Deity.associatedMonuments is now reverse-derived from
+  // wikiMonument.dedicatedTo. We still set associatedDeities and
+  // primaryCultCenters because they have no monument/deity inverse
+  // that can be reverse-queried as cleanly.
   await client
     .patch('wiki-deity-horus')
+    .unset(['associatedMonuments'])
     .set({
-      associatedMonuments: [
-        { _type: 'reference', _ref: 'wiki-monument-karnak', _key: 'k' },
-        { _type: 'reference', _ref: 'wiki-monument-temple-hatshepsut', _key: 'th' },
-        { _type: 'reference', _ref: 'wiki-monument-edfu', _key: 'edfu' },
-      ],
       associatedDeities: [
         { _type: 'reference', _ref: 'wiki-deity-isis', _key: 'i' },
       ],
@@ -1890,10 +1908,8 @@ async function seed() {
 
   await client
     .patch('wiki-deity-isis')
+    .unset(['associatedMonuments'])
     .set({
-      associatedMonuments: [
-        { _type: 'reference', _ref: 'wiki-monument-philae', _key: 'philae' },
-      ],
       associatedDeities: [
         { _type: 'reference', _ref: 'wiki-deity-horus', _key: 'h' },
       ],
@@ -1903,7 +1919,25 @@ async function seed() {
     })
     .commit();
 
-  console.log('  ✓ wiki cross-references patched');
+  // Mark a representative featured doc per type for the /wiki landing.
+  await client
+    .patch('wiki-dynasty-eighteenth')
+    .set({ featured: true })
+    .commit();
+  await client
+    .patch('wiki-person-hatshepsut')
+    .set({ featured: true })
+    .commit();
+  await client
+    .patch('wiki-monument-temple-hatshepsut')
+    .set({ featured: true })
+    .commit();
+  await client
+    .patch('wiki-deity-horus')
+    .set({ featured: true })
+    .commit();
+
+  console.log('  ✓ wiki cross-references patched + featured flagged');
 
   // ─────────────────────────────────────────────────────────
   // Editorial — Author, Categories, Articles (EN+ES with translation
@@ -2084,6 +2118,7 @@ async function seed() {
       categoryId: 'category-destination',
       heroAsset: img.saqqaraTour,
       heroCredit: 'Wikimedia Commons — Pyramid of Djoser article',
+      featured: true,
       en: {
         title: "Why we send some travelers to Saqqara before Giza",
         slug: 'saqqara-before-giza',
@@ -2093,9 +2128,16 @@ async function seed() {
           block(
             "The standard Cairo itinerary is Pyramids and Sphinx on day one, Egyptian Museum on day two, Old Cairo on day three. It's the obvious order and it works. But for travelers with three or four days in Cairo, we sometimes flip it: Saqqara first, then Giza."
           ),
-          block(
-            "The argument is architectural. The Step Pyramid of Djoser at Saqqara is the first monumental stone building anywhere in the world. The Bent Pyramid at Dahshur is where the angle changes mid-construction once the original slope proved unstable. The Red Pyramid is the first geometrically true pyramid. By the time you stand at Giza, you've watched a 200-year experiment converge on what most people picture when they picture pyramids."
-          ),
+          blockWithLinks([
+            'The argument is architectural. The Step Pyramid of Djoser at Saqqara is the first monumental stone building anywhere in the world. The Bent Pyramid at Dahshur is where the angle changes mid-construction once the original slope proved unstable. The Red Pyramid is the first geometrically true pyramid. By the time you stand at the ',
+            { linkRef: 'wiki-monument-great-pyramid', text: 'Great Pyramid of Giza' },
+            ", you've watched a 200-year experiment converge on what most people picture when they picture pyramids.",
+          ]),
+          blockWithLinks([
+            "The 18th-Dynasty pharaoh ",
+            { linkRef: 'wiki-person-hatshepsut', text: 'Hatshepsut' },
+            " is the only Egyptian ruler whose mortuary temple deliberately invokes pyramid form a thousand years out of date — at Deir el-Bahari, terraced like a stretched-out step pyramid. Once you've seen Saqqara you read her temple as commentary on her own dynasty's relationship to the Old Kingdom past.",
+          ]),
           operatorNote(
             'context',
             "Most first-time visitors do Giza on day one and feel they've understood Egyptian pyramids. Saqqara afterward shows the prototypes, the corrections, the architectural reasoning. Doing it in reverse — Saqqara first — means Giza arrives as a culmination rather than a starting point."
@@ -2114,19 +2156,27 @@ async function seed() {
           block(
             'El itinerario estándar de El Cairo es Pirámides y Esfinge el día uno, Museo Egipcio el día dos, Cairo antiguo el día tres. Es el orden obvio y funciona. Pero para viajeros con tres o cuatro días en El Cairo, a veces lo invertimos: Saqqara primero, después Giza.'
           ),
-          block(
-            'El argumento es arquitectónico. La Pirámide Escalonada de Zoser en Saqqara es el primer edificio monumental de piedra del mundo. La Pirámide Acodada de Dahshur es donde el ángulo cambia a media construcción cuando la pendiente original demostró ser inestable.'
-          ),
+          blockWithLinks([
+            'El argumento es arquitectónico. La Pirámide Escalonada de Zoser en Saqqara es el primer edificio monumental de piedra del mundo. La Pirámide Acodada de Dahshur es donde el ángulo cambia a media construcción. Cuando llegas a la ',
+            { linkRef: 'wiki-monument-great-pyramid', text: 'Gran Pirámide de Giza' },
+            ', has presenciado un experimento de 200 años convergiendo en lo que la mayoría imagina al pensar en pirámides.',
+          ]),
           operatorNote(
             'context',
             'La mayoría de los visitantes primerizos hacen Giza el día uno y sienten que ya entendieron las pirámides egipcias. Saqqara después muestra los prototipos, las correcciones, el razonamiento arquitectónico.'
           ),
+          blockWithLinks([
+            'La faraona de la Dinastía XVIII ',
+            { linkRef: 'wiki-person-hatshepsut', text: 'Hatshepsut' },
+            ' es la única gobernante egipcia cuyo templo funerario invoca deliberadamente la forma piramidal mil años después: en Deir el-Bahari, en terrazas, como una pirámide escalonada extendida.',
+          ]),
         ],
       },
     },
   ];
 
   for (const a of articles) {
+    const featured = (a as { featured?: boolean }).featured ?? false;
     // EN
     await client.createOrReplace({
       _id: a.enId,
@@ -2135,6 +2185,7 @@ async function seed() {
       title: a.en.title,
       slug: { _type: 'slug', current: a.en.slug },
       deck: a.en.deck,
+      featured,
       category: { _type: 'reference', _ref: a.categoryId },
       author: { _type: 'reference', _ref: author._id },
       publishedAt: '2025-09-15T10:00:00Z',
@@ -2149,6 +2200,7 @@ async function seed() {
       title: a.es.title,
       slug: { _type: 'slug', current: a.es.slug },
       deck: a.es.deck,
+      featured,
       category: { _type: 'reference', _ref: a.categoryId },
       author: { _type: 'reference', _ref: author._id },
       publishedAt: '2025-09-15T10:00:00Z',

@@ -1,8 +1,9 @@
 import { PortableText, type PortableTextComponents } from '@portabletext/react';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
 
+import { Link } from '@/i18n/navigation';
 import { urlFor } from '@/sanity/lib/image';
+import { resolveInternalLinkHref, type ResolvableRef } from '@/sanity/lib/i18n';
 
 const OPERATOR_NOTE_LABELS: Record<string, Record<string, string>> = {
   en: {
@@ -81,12 +82,27 @@ export function Body({ value, locale }: BodyProps) {
           {children}
         </a>
       ),
-      internalLink: ({ children }) => {
-        // In a fuller implementation this would resolve the reference into
-        // a localized URL via the concierge link map / type-aware router.
-        // For now we render the link text without a href so editors see it
-        // works structurally; wire up resolution before launch.
-        return <span className="underline decoration-orange-pale">{children}</span>;
+      internalLink: ({ children, value }) => {
+        // The body GROQ projection (portableTextBodyProjection /
+        // articleBodyMarkProjection in @/sanity/lib/i18n) attaches a
+        // `ref` payload to each internalLink markDef. If the ref is
+        // missing or unresolvable we render the link text with a
+        // styled underline but no href — better than a broken link.
+        const ref = value?.ref as ResolvableRef | undefined;
+        const href = resolveInternalLinkHref(ref);
+        if (!href) {
+          return (
+            <span className="underline decoration-orange-pale">{children}</span>
+          );
+        }
+        return (
+          <Link
+            href={href}
+            className="underline decoration-orange-pale underline-offset-2 hover:decoration-orange"
+          >
+            {children}
+          </Link>
+        );
       },
     },
   };

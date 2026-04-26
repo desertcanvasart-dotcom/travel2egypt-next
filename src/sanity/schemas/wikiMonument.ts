@@ -174,6 +174,15 @@ export const wikiMonumentSchema = defineType({
       of: [{ type: 'localizedImage' }],
     }),
     defineField({
+      name: 'featured',
+      title: 'Featured on /wiki landing',
+      description:
+        'Tick to surface this monument in the wiki landing page\'s "Browse by monument" preview section.',
+      type: 'boolean',
+      group: 'meta',
+      initialValue: false,
+    }),
+    defineField({
       name: 'seo',
       title: 'SEO',
       type: 'seo',
