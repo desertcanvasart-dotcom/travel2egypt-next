@@ -4,7 +4,7 @@ import { visionTool } from '@sanity/vision';
 import { internationalizedArray } from 'sanity-plugin-internationalized-array';
 import { documentInternationalization } from '@sanity/document-internationalization';
 
-import { apiVersion, dataset, projectId } from './src/sanity/env';
+import { apiVersion, projectId } from './src/sanity/env';
 import { schemaTypes } from './src/sanity/schemas';
 import { structure } from './src/sanity/structure';
 import { SUPPORTED_LANGUAGES } from './src/sanity/lib/languages';
@@ -26,34 +26,43 @@ import { SUPPORTED_LANGUAGES } from './src/sanity/lib/languages';
  *  Both plugins read the same SUPPORTED_LANGUAGES array, so adding a new
  *  locale (e.g. reintroducing Finnish later) is a one-line change.
  */
-export default defineConfig({
-  name: 'travel2egypt',
-  title: 'Travel2Egypt',
+const sharedPlugins = [
+  structureTool({ structure }),
+  visionTool({ defaultApiVersion: apiVersion }),
 
-  projectId,
-  dataset,
+  // Field-level i18n (everything except articles)
+  internationalizedArray({
+    languages: SUPPORTED_LANGUAGES.map((l) => ({ id: l.id, title: l.title })),
+    defaultLanguages: ['en'],
+    fieldTypes: ['string', 'text'],
+  }),
 
-  basePath: '/studio',
+  // Document-level i18n (articles only)
+  documentInternationalization({
+    supportedLanguages: SUPPORTED_LANGUAGES.map((l) => ({ id: l.id, title: l.title })),
+    schemaTypes: ['article'],
+  }),
+];
 
-  plugins: [
-    structureTool({ structure }),
-    visionTool({ defaultApiVersion: apiVersion }),
+const sharedSchema = { types: schemaTypes };
 
-    // Field-level i18n (everything except articles)
-    internationalizedArray({
-      languages: SUPPORTED_LANGUAGES.map((l) => ({ id: l.id, title: l.title })),
-      defaultLanguages: ['en'],
-      fieldTypes: ['string', 'text'],
-    }),
-
-    // Document-level i18n (articles only)
-    documentInternationalization({
-      supportedLanguages: SUPPORTED_LANGUAGES.map((l) => ({ id: l.id, title: l.title })),
-      schemaTypes: ['article'],
-    }),
-  ],
-
-  schema: {
-    types: schemaTypes,
+export default defineConfig([
+  {
+    name: 'production',
+    title: 'Travel2Egypt — Production',
+    projectId,
+    dataset: 'production',
+    basePath: '/studio/production',
+    plugins: sharedPlugins,
+    schema: sharedSchema,
   },
-});
+  {
+    name: 'staging',
+    title: 'Travel2Egypt — Migration Staging',
+    projectId,
+    dataset: 'migration-staging',
+    basePath: '/studio/staging',
+    plugins: sharedPlugins,
+    schema: sharedSchema,
+  },
+]);
