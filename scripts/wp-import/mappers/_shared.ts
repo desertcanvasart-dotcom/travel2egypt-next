@@ -2,6 +2,7 @@
  * Shared helpers used by every entity mapper.
  */
 
+import { parse } from 'node-html-parser';
 import type { SanityClient } from '@sanity/client';
 
 import { htmlToPortableText, type PtBlock } from '../../wp-import-html.js';
@@ -119,6 +120,48 @@ export function buildRedirects(
     });
   }
   return entries;
+}
+
+/**
+ * Pre-scan a body HTML string for inline `<img>` tags carrying a
+ * `wp-image-{ID}` class, upload each attachment to Sanity (idempotent), and
+ * return a resolver that maps the `<img src>` URL to the uploaded Sanity
+ * asset _id. Pass the resolver to `htmlToPortableText({ attachmentResolver })`.
+ *
+ * Why class-based: WP renders body images with `class="wp-image-{ID}"` —
+ * the source-of-truth attachment ID. Avoids round-tripping the WP REST API
+ * with /media?search=<filename> just to find an attachment from a URL.
+ */
+export async function prepareBodyImageResolver(
+  client: SanityClient,
+  wp: WpClient,
+  html: string,
+  opts: { dryRun?: boolean } = {}
+): Promise<{ resolver: (src: string) => string | null; uploaded: number }> {
+  if (!html) return { resolver: () => null, uploaded: 0 };
+  const root = parse(html, { lowerCaseTagName: false });
+  const map = new Map<string, string>(); // src URL → Sanity asset _id
+  const idsSeen = new Set<number>();
+  let uploaded = 0;
+
+  for (const img of root.querySelectorAll('img')) {
+    const src = img.getAttribute('src');
+    if (!src) continue;
+    const cls = img.getAttribute('class') ?? '';
+    const m = /wp-image-(\d+)/.exec(cls);
+    if (!m) continue;
+    const wpId = Number(m[1]);
+    if (idsSeen.has(wpId)) continue;
+    idsSeen.add(wpId);
+    const result = await ensureAssetUploaded(client, wp, wpId, opts);
+    if (result) {
+      map.set(src, result.assetId);
+      uploaded++;
+    }
+  }
+
+  const resolver = (src: string): string | null => map.get(src) ?? null;
+  return { resolver, uploaded };
 }
 
 /** Pull featured-media id from EN entity's featured_media field. */

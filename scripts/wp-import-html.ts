@@ -89,6 +89,15 @@ function stripNoise(root: HTMLElement): void {
     const src = ifr.getAttribute('src') ?? '';
     if (!/(youtube|vimeo)\.com/.test(src)) ifr.remove();
   }
+  // WordPress auto-injects emoji SVGs from s.w.org for emoji characters in
+  // body text. They're decorative noise, not editorial content — strip them.
+  for (const img of Array.from(root.querySelectorAll('img'))) {
+    const cls = img.getAttribute('class') ?? '';
+    const src = img.getAttribute('src') ?? '';
+    if (/\bemoji\b/.test(cls) || /s\.w\.org\/images\/core\/emoji/.test(src)) {
+      img.remove();
+    }
+  }
   // Strip Link Whisper noise attributes (keep <a href>, drop the monitor data).
   for (const a of Array.from(root.querySelectorAll('a'))) {
     a.removeAttribute('data-wpil-monitor-id');

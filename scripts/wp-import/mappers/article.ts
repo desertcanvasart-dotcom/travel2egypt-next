@@ -20,6 +20,7 @@ import {
   decodeTitle,
   NOW,
   plainText,
+  prepareBodyImageResolver,
 } from './_shared.js';
 import type { HtmlPipelineStats, LocaleGroup, MapperResult, ReviewFlag, SanityDoc } from '../types.js';
 
@@ -42,14 +43,21 @@ export async function mapArticle(
   const htmlStats: HtmlPipelineStats = { operatorNotes: 0, pullQuotes: 0, sideImages: 0, images: 0, tablesFlattened: 0, pendingInternalLinks: 0 };
   let mediaUploaded = 0;
 
+  // Build the hero once — same Sanity asset reference is reused on every
+  // locale doc (Sanity dedupes by content hash; we just hand back the same _ref).
+  const hero = await buildHeroImage(client, wp, group, opts);
+  if (hero) mediaUploaded++;
+
   for (const loc of ['en', 'es', 'ja'] as const) {
     const e = group[loc];
     if (!e) continue;
     const html = e.content?.rendered ?? '';
-    const pt = htmlToPortableText(html);
+    // Pre-upload all body attachments referenced via wp-image-{ID} class so
+    // the HTML→PT pipeline can substitute Sanity asset refs for the WP src URLs.
+    const { resolver, uploaded: bodyUploads } = await prepareBodyImageResolver(client, wp, html, opts);
+    mediaUploaded += bodyUploads;
+    const pt = htmlToPortableText(html, { attachmentResolver: resolver });
     for (const k of Object.keys(htmlStats) as Array<keyof HtmlPipelineStats>) htmlStats[k] += pt.stats[k];
-    const hero = loc === 'en' ? await buildHeroImage(client, wp, group, opts) : null;
-    if (hero) mediaUploaded++;
     const meta = buildMigrationMeta(group, opts.reviewFlag);
 
     docs.push({
@@ -58,7 +66,7 @@ export async function mapArticle(
       language: loc,
       title: decodeTitle(e.title?.rendered),
       slug: { _type: 'slug', current: decodeURIComponent(e.slug) },
-      ...(loc === 'en' && hero ? { heroImage: hero } : {}),
+      ...(hero ? { heroImage: hero } : {}),
       excerpt: plainText(e.excerpt?.rendered),
       body: pt.blocks,
       publishedAt: e.date,

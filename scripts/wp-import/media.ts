@@ -87,8 +87,24 @@ export async function ensureAssetUploaded(
   }
 
   // Upload to Sanity. Sanity dedups by content hash automatically — same bytes
-  // returns the same _id, so re-uploads are cheap.
-  const asset = await client.assets.upload('image', buffer, { filename });
+  // returns the same _id, so re-uploads are cheap. Retry on transient socket
+  // errors (ECONNRESET, ETIMEDOUT) — Sanity's edge occasionally drops TLS.
+  let asset: { _id: string };
+  let attempt = 0;
+  while (true) {
+    try {
+      asset = await client.assets.upload('image', buffer, { filename });
+      break;
+    } catch (e) {
+      const msg = (e as Error).message ?? '';
+      const transient = /ECONNRESET|ETIMEDOUT|ENOTFOUND|EAI_AGAIN|socket hang up|network/i.test(msg);
+      if (!transient || attempt >= 4) throw e;
+      attempt++;
+      const wait = 1000 * Math.pow(2, attempt);
+      process.stderr.write(`[media] transient upload error (${msg.slice(0, 80)}); retry ${attempt}/4 in ${wait}ms\n`);
+      await new Promise((r) => setTimeout(r, wait));
+    }
+  }
   const entry: AssetCacheEntry = {
     wpId: attachmentId,
     sanityAssetId: asset._id,
