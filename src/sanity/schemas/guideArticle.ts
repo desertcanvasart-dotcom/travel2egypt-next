@@ -1,7 +1,12 @@
 import { defineField, defineType } from 'sanity';
 import { DocumentTextIcon } from '@sanity/icons';
 
-import { localizedSlugField, localizedPortableTextField } from './_helpers';
+import {
+  MIGRATION_GROUP,
+  localizedPortableTextField,
+  localizedSlugField,
+  migrationField,
+} from './_helpers';
 
 export const guideArticleSchema = defineType({
   name: 'guideArticle',
@@ -14,6 +19,7 @@ export const guideArticleSchema = defineType({
     { name: 'content', title: 'Content', default: true },
     { name: 'media', title: 'Media' },
     { name: 'meta', title: 'Meta' },
+    MIGRATION_GROUP,
   ],
   fields: [
     defineField({
@@ -94,6 +100,7 @@ export const guideArticleSchema = defineType({
       type: 'seo',
       group: 'meta',
     }),
+    migrationField(),
   ],
   preview: {
     select: {

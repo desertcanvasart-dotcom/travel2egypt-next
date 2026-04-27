@@ -1,6 +1,7 @@
 import { defineField, defineType } from 'sanity';
 import { EarthGlobeIcon } from '@sanity/icons';
 
+import { MIGRATION_GROUP, migrationField } from './_helpers';
 import { portableTextBlocks } from './portableText';
 
 const REGIONS = [
@@ -22,6 +23,7 @@ export const citySchema = defineType({
     { name: 'guide', title: 'Guide content' },
     { name: 'media', title: 'Media' },
     { name: 'meta', title: 'Meta' },
+    MIGRATION_GROUP,
   ],
   fields: [
     defineField({
@@ -175,6 +177,7 @@ export const citySchema = defineType({
       type: 'seo',
       group: 'meta',
     }),
+    migrationField(),
   ],
   preview: {
     select: {

@@ -1,0 +1,180 @@
+/**
+ * Shared types for the WordPress importer.
+ */
+
+import type { Classification, PageType } from '../wp-classifier.js';
+
+export type Locale = 'en' | 'es' | 'ja';
+export const LOCALES: readonly Locale[] = ['en', 'es', 'ja'] as const;
+
+/** A WordPress entity slim view (post or page). */
+export interface WpEntityLite {
+  id: number;
+  slug: string;
+  link: string;
+  date: string;
+  modified: string;
+  modified_gmt?: string;
+  parent?: number;
+  template?: string;
+  categories?: number[];
+  tags?: number[];
+  featured_media?: number;
+  status?: string;
+  title?: { rendered: string };
+}
+
+export interface WpEntityFull extends WpEntityLite {
+  content?: { rendered: string };
+  excerpt?: { rendered: string };
+  acf?: Record<string, unknown> | unknown[];
+  meta?: Record<string, unknown>;
+  type: string;
+  author?: number;
+}
+
+/** A WordPress media (attachment) record. */
+export interface WpMedia {
+  id: number;
+  date: string;
+  source_url: string;
+  alt_text?: string;
+  caption?: { rendered: string };
+  description?: { rendered: string };
+  media_type: string;
+  mime_type: string;
+  media_details?: {
+    width?: number;
+    height?: number;
+    file?: string;
+    filesize?: number;
+    sizes?: Record<string, { source_url: string; width: number; height: number; mime_type?: string }>;
+  };
+}
+
+/** Hreflang map for one EN entity, indexed by locale. */
+export interface HreflangMap {
+  wpId: number;
+  links: Partial<Record<Locale | 'x-default', string>>;
+}
+
+/** A locale group: the EN entity + its translated counterparts (if any). */
+export interface LocaleGroup {
+  en: WpEntityFull;
+  es?: WpEntityFull;
+  ja?: WpEntityFull;
+  hreflang: HreflangMap;
+  /** True when only EN is present (singleton). */
+  singleton: boolean;
+  /** True when the EN doc is missing but ES or JA exists (orphan). */
+  orphan?: boolean;
+}
+
+/** Sanity-side internationalized array entry. */
+export interface I18nEntry<T = unknown> {
+  _key: Locale | string;
+  value: T;
+}
+
+/** Field-level i18n string field — array of {_key, value}. */
+export type I18nString = Array<I18nEntry<string>>;
+
+/** Field-level i18n slug field — array of {_key, value:{current}}. */
+export type I18nSlug = Array<I18nEntry<{ _type: 'slug'; current: string }>>;
+
+/** A reference to a Sanity asset (image upload). */
+export interface SanityImageRef {
+  _type: 'image';
+  asset: { _type: 'reference'; _ref: string };
+  alt?: I18nString;
+  caption?: I18nString;
+}
+
+/** Migration provenance object — written to every imported doc. */
+export interface MigrationMetadata {
+  wpId: number;
+  wpUrl: string;
+  wpModifiedAt?: string;
+  wpTemplate?: string | null;
+  migratedAt: string;
+  source: 'wp-import';
+  reviewFlag?: ReviewFlag;
+}
+
+export type ReviewFlag =
+  | 'section-needs-assignment'
+  | 'unclassified-as-article'
+  | 'service-deferred'
+  | 'interactive-tool'
+  | 'promotional-marketing'
+  | 'locale-orphan'
+  | 'keyfacts-mining-failed'
+  | 'hreflang-broken'
+  | 'table-flattened'
+  | 'multi-category-original'
+  | 'wadi-parent-inferred';
+
+/** HTML→PT conversion stats summed across all locales of one entity. */
+export interface HtmlPipelineStats {
+  operatorNotes: number;
+  pullQuotes: number;
+  sideImages: number;
+  images: number;
+  tablesFlattened: number;
+  pendingInternalLinks: number;
+}
+
+/** Output of a mapper for a single entity. */
+export interface MapperResult {
+  /** The Sanity document(s) ready to write. May be 1 (field-level i18n) or up to 3 (document-level i18n). */
+  docs: SanityDoc[];
+  /** Mapped redirect entries (one per locale where applicable). */
+  redirects: RedirectEntry[];
+  /** Free-form log lines to add to the migration log. */
+  logEntries?: LogEntry[];
+  /** HTML pipeline detection stats summed across this entity's locales. */
+  htmlStats?: HtmlPipelineStats;
+  /** Number of media assets uploaded (or "would upload" in dry-run) for this entity. */
+  mediaUploaded?: number;
+}
+
+/** Generic Sanity doc — typed loosely; mappers carry the burden of correctness. */
+export interface SanityDoc {
+  _id: string;
+  _type: string;
+  [key: string]: unknown;
+}
+
+export interface RedirectEntry {
+  from_url: string;
+  to_path: string;
+  locale: Locale;
+  status_code: 301;
+  legacy_wp_id: number | null;
+  priority_score: number;
+}
+
+export interface LogEntry {
+  level: 'info' | 'warn' | 'error';
+  wpId?: number;
+  url?: string;
+  message: string;
+  data?: unknown;
+}
+
+export interface CliOptions {
+  dryRun: boolean;
+  limit?: number;
+  type: 'post' | 'page' | 'attachment' | 'category' | 'all';
+  filterByTemplate?: PageType;
+  since?: string;
+  language: 'en' | 'es' | 'ja' | 'all';
+  continueOnError: boolean;
+  verbose: boolean;
+  phase: 'import' | 'relink';
+  includeJunk: boolean;
+  rescrapeHreflang: boolean;
+  rate: number;
+}
+
+export type { Classification, PageType };

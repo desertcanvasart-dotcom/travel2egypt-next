@@ -1,6 +1,8 @@
 import { defineField, defineType } from 'sanity';
 import { ComposeIcon } from '@sanity/icons';
 
+import { MIGRATION_GROUP, migrationField } from './_helpers';
+
 /**
  * Editorial article — the heart of the journal.
  *
@@ -31,6 +33,7 @@ export const articleSchema = defineType({
     { name: 'related', title: 'Related' },
     { name: 'media', title: 'Media' },
     { name: 'meta', title: 'Meta' },
+    MIGRATION_GROUP,
   ],
   fields: [
     // Added by the document-internationalization plugin — declare so it shows.
@@ -194,6 +197,7 @@ export const articleSchema = defineType({
         }),
       ],
     }),
+    migrationField(),
   ],
   preview: {
     select: {

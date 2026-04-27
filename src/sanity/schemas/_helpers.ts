@@ -3,6 +3,81 @@ import { defineField } from 'sanity';
 import { SUPPORTED_LANGUAGES } from '../lib/languages';
 
 /**
+ * Field group used by the WP migration tooling. Add this to the `groups` array
+ * of any schema that should track WordPress provenance, and add the
+ * `migrationField()` to its `fields` array.
+ */
+export const MIGRATION_GROUP = { name: 'migration', title: 'Migration metadata' };
+
+/**
+ * A single nested `migration` object that carries WordPress provenance for a
+ * Sanity document. Populated by `scripts/wp-import.ts`. Most sub-fields are
+ * read-only; `reviewFlag` is editable so editors can clear it after review.
+ *
+ * GROQ examples:
+ *   *[migration.wpId == 243401][0]
+ *   *[migration.reviewFlag == "section-needs-assignment"]
+ */
+export function migrationField() {
+  return defineField({
+    name: 'migration',
+    title: 'Migration metadata',
+    type: 'object',
+    group: 'migration',
+    description:
+      'Provenance from the WordPress migration. Read-only except `reviewFlag`, which editors may clear after addressing the issue.',
+    fields: [
+      defineField({
+        name: 'wpId',
+        title: 'WP ID',
+        type: 'number',
+        readOnly: true,
+      }),
+      defineField({
+        name: 'wpUrl',
+        title: 'WP URL',
+        type: 'string',
+        readOnly: true,
+        description: 'Original full URL on travel2egypt.org. Used for redirect-map lookups and internal-link relinking.',
+      }),
+      defineField({
+        name: 'wpModifiedAt',
+        title: 'WP modified at',
+        type: 'datetime',
+        readOnly: true,
+      }),
+      defineField({
+        name: 'wpTemplate',
+        title: 'WP template',
+        type: 'string',
+        readOnly: true,
+      }),
+      defineField({
+        name: 'migratedAt',
+        title: 'Migrated at',
+        type: 'datetime',
+        readOnly: true,
+        description: 'Timestamp of the most recent importer run that wrote this doc.',
+      }),
+      defineField({
+        name: 'source',
+        title: 'Source',
+        type: 'string',
+        readOnly: true,
+        description: 'Always "wp-import" for now.',
+      }),
+      defineField({
+        name: 'reviewFlag',
+        title: 'Review flag',
+        type: 'string',
+        description:
+          'Set by the importer when this doc needs editor attention. Clear after review. Known values: "section-needs-assignment", "unclassified-as-article", "service-deferred", "interactive-tool", "promotional-marketing", "locale-orphan", "keyfacts-mining-failed", "hreflang-broken", "table-flattened".',
+      }),
+    ],
+  });
+}
+
+/**
  * Localized slug field — produces an array with one entry per language.
  * Each entry contains a Sanity slug object. Validation requires the EN slug.
  *
