@@ -1,7 +1,12 @@
 import { defineField, defineType } from 'sanity';
 import { HomeIcon } from '@sanity/icons';
 
-import { localizedSlugField, localizedPortableTextField } from './_helpers';
+import {
+  MIGRATION_GROUP,
+  localizedPortableTextField,
+  localizedSlugField,
+  migrationField,
+} from './_helpers';
 
 const HOTEL_CATEGORIES = [
   { title: 'Budget', value: 'budget' },
@@ -23,6 +28,7 @@ export const hotelSchema = defineType({
     { name: 'content', title: 'Content' },
     { name: 'media', title: 'Media' },
     { name: 'meta', title: 'Meta' },
+    MIGRATION_GROUP,
   ],
   fields: [
     defineField({
@@ -108,6 +114,7 @@ export const hotelSchema = defineType({
       type: 'seo',
       group: 'meta',
     }),
+    migrationField(),
   ],
   preview: {
     select: {
@@ -142,6 +149,7 @@ export const nileCruiseSchema = defineType({
     { name: 'content', title: 'Content' },
     { name: 'media', title: 'Media' },
     { name: 'meta', title: 'Meta' },
+    MIGRATION_GROUP,
   ],
   fields: [
     defineField({
@@ -235,6 +243,7 @@ export const nileCruiseSchema = defineType({
       type: 'seo',
       group: 'meta',
     }),
+    migrationField(),
   ],
   preview: {
     select: {

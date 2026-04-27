@@ -1,7 +1,12 @@
 import { defineField, defineType } from 'sanity';
 import { EarthGlobeIcon } from '@sanity/icons';
 
-import { localizedSlugField, localizedPortableTextField } from './_helpers';
+import {
+  MIGRATION_GROUP,
+  localizedPortableTextField,
+  localizedSlugField,
+  migrationField,
+} from './_helpers';
 
 export const tourSchema = defineType({
   name: 'tour',
@@ -18,6 +23,7 @@ export const tourSchema = defineType({
     { name: 'related', title: 'Related content' },
     { name: 'media', title: 'Media' },
     { name: 'meta', title: 'Meta' },
+    MIGRATION_GROUP,
   ],
   fields: [
     // ── Classification ────────────────────────────
@@ -245,6 +251,7 @@ export const tourSchema = defineType({
       type: 'seo',
       group: 'meta',
     }),
+    migrationField(),
   ],
   preview: {
     select: {

@@ -1,7 +1,12 @@
 import { defineField, defineType } from 'sanity';
 import { HomeIcon } from '@sanity/icons';
 
-import { localizedSlugField, localizedPortableTextField } from './_helpers';
+import {
+  MIGRATION_GROUP,
+  localizedPortableTextField,
+  localizedSlugField,
+  migrationField,
+} from './_helpers';
 
 export const wikiMonumentSchema = defineType({
   name: 'wikiMonument',
@@ -19,6 +24,7 @@ export const wikiMonumentSchema = defineType({
     { name: 'connections', title: 'Connections' },
     { name: 'media', title: 'Media' },
     { name: 'meta', title: 'Meta' },
+    MIGRATION_GROUP,
   ],
   fields: [
     defineField({
@@ -188,6 +194,7 @@ export const wikiMonumentSchema = defineType({
       type: 'seo',
       group: 'meta',
     }),
+    migrationField(),
   ],
   preview: {
     select: {

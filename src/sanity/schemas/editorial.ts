@@ -1,7 +1,12 @@
 import { defineField, defineType } from 'sanity';
 import { TagIcon, UserIcon } from '@sanity/icons';
 
-import { localizedSlugField, localizedPortableTextField } from './_helpers';
+import {
+  MIGRATION_GROUP,
+  localizedPortableTextField,
+  localizedSlugField,
+  migrationField,
+} from './_helpers';
 
 export const editorialCategorySchema = defineType({
   name: 'editorialCategory',
@@ -10,6 +15,7 @@ export const editorialCategorySchema = defineType({
   icon: TagIcon,
   description:
     'Categories for the journal/blog. Examples: Planning advice, Destination depth, Traveler stories, Operational transparency, The case for Egypt.',
+  groups: [MIGRATION_GROUP],
   fields: [
     defineField({
       name: 'name',
@@ -39,6 +45,7 @@ export const editorialCategorySchema = defineType({
       title: 'SEO',
       type: 'seo',
     }),
+    migrationField(),
   ],
   preview: {
     select: { title: 'name', media: 'heroImage' },
