@@ -1,38 +1,37 @@
 --- before:ja
 +++ after:ja
   {
--   "name": "ワディ・アル・ナトロン旅行ガイド",
-+   "name": "ワディ・アル・ナトロン",
+    "name": "ワディ・アル・ナトロン",
     "overview": [
       {
--       "_key": "a80dd5a72829",
-+       "_key": "3a6247d1b138",
+-       "_key": "4e16d52e8da0",
++       "_key": "4f746e5d5b65",
         "_type": "block",
         "children": [
           {
--           "_key": "79cd5269cb46",
-+           "_key": "bd7b9be45411",
+-           "_key": "3085535c6eb0",
++           "_key": "43bf9ad7d6cb",
             "_type": "span",
             "marks": [],
             "text": "ワディ"
           },
           {
--           "_key": "0f31ef6d3731",
-+           "_key": "74a9d5b25e02",
+-           "_key": "5e3c56032144",
++           "_key": "a5c766cb5eb4",
             "_type": "span",
             "marks": [],
             "text": "アル"
           },
           {
--           "_key": "794a0a04dea0",
-+           "_key": "2e0313eb221f",
+-           "_key": "38c242e70c78",
++           "_key": "454753962f1f",
             "_type": "span",
             "marks": [],
             "text": "ナトロン"
           },
           {
--           "_key": "825469421545",
-+           "_key": "b0d3738d358d",
+-           "_key": "9a12f49e6fff",
++           "_key": "1035e80225b0",
             "_type": "span",
             "marks": [],
             "text": " 旅行ガイド"
@@ -42,13 +41,13 @@
         "style": "h2"
       },
       {
--       "_key": "5437b1c770b7",
-+       "_key": "8ed8c28c7bb4",
+-       "_key": "944c3562043a",
++       "_key": "07f87a8c0600",
         "_type": "block",
         "children": [
           {
--           "_key": "9f705ed7ddaf",
-+           "_key": "ce182a8e0f07",
+-           "_key": "5a08958facb1",
++           "_key": "0f0e06910b67",
             "_type": "span",
             "marks": [],
             "text": "ワディ・アル・ナトロンは、エジプトのベヘイラ県に位置し、修道生活と宗教遺産の象徴として立っています。この谷は、8つの湖からナトロン塩を生産しており、北西ナイルデルタの砂漠地帯におけるキリスト教の修道主義の遺産を証明するものです。以下は、この魅力的な目的地についての詳細です："
@@ -58,13 +57,13 @@
         "style": "normal"
       },
       {
--       "_key": "8ebc88e64b9d",
-+       "_key": "e2fade14173e",
+-       "_key": "17ebb6665b1e",
++       "_key": "a8e1540c1b6c",
         "_type": "block",
         "children": [
           {
--           "_key": "e5c8e4726a6d",
-+           "_key": "814aed72c387",
+-           "_key": "80350b9e4175",
++           "_key": "f5270579381b",
             "_type": "span",
             "marks": [],
             "text": "地理的および歴史的意義"
@@ -74,27 +73,27 @@
         "style": "h3"
       },
       {
--       "_key": "23dde12f165f",
-+       "_key": "02421b7b1820",
+-       "_key": "3c64c0bed62e",
++       "_key": "18bac05e1770",
         "_type": "block",
         "children": [
           {
--           "_key": "4a090bc2718e",
-+           "_key": "cc631881adeb",
+-           "_key": "0210b6191e21",
++           "_key": "7ed8d21249f4",
             "_type": "span",
             "marks": [],
             "text": "位置: ワディ・アル・ナトロンの地理的配置は注目に値し、ベヘイラ県に位置する戦略的な場所に、塩を生産する湖が点在しています。この地域は、歴史的に「スケティス」として知られ、初期のキリスト教修道主義の物語において重要な役割を果たしており、ニトリアやケリアと並んで最初の修道センターの一つとして機能していました。"
           },
           {
--           "_key": "e7b7a73a018d",
-+           "_key": "ada3bc032bb2",
+-           "_key": "53e4457e660a",
++           "_key": "712fd3ab7f18",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "e9f1b9a5eb4c",
-+           "_key": "af44b50c12a1",
+-           "_key": "514d2135c590",
++           "_key": "c0697ab68e2b",
             "_type": "span",
             "marks": [],
             "text": "キリスト教修道主義: キリスト教文学ではスケティスとして知られるワディ・アル・ナトロンは、北西ナイルデルタの砂漠における初期のキリスト教修道センターの一つであり、修道主義の発展において重要な役割を果たしました。"
@@ -104,13 +103,13 @@
         "style": "normal"
       },
       {
--       "_key": "d28f84a57eba",
-+       "_key": "e1a48d0918bb",
+-       "_key": "c85818b069f3",
++       "_key": "15bdd710fa21",
         "_type": "block",
         "children": [
           {
--           "_key": "42eb69d0bd9e",
-+           "_key": "1097f1c5a8f7",
+-           "_key": "e2907263cdfe",
++           "_key": "274167b48e1e",
             "_type": "span",
             "marks": [],
             "text": "修道センター"
@@ -120,13 +119,13 @@
         "style": "h3"
       },
       {
--       "_key": "99c23a06b858",
-+       "_key": "5e91874e9d98",
+-       "_key": "057dcf2c55e9",
++       "_key": "b9c6007dcaff",
         "_type": "block",
         "children": [
           {
--           "_key": "4c0272e30a41",
-+           "_key": "933973e7e8a6",
+-           "_key": "afdfd6e32ee8",
++           "_key": "e9a1af528d16",
             "_type": "span",
             "marks": [],
             "text": "この谷にはいくつかの修道センターがあり、スケティス（現在のワディ・アル・ナトロン）、ニトリア、ケリアがこの精神的な風景の中心を成しています。これらのセンターは共通の地理的な近接性と絡み合った歴史を共有していますが、それぞれに独自の特徴があります。ワディ・アル・ナトロンは、主に考古学的な遺跡であるニトリアとケリアとは対照的に、現存する修道院で特に注目されています。"
@@ -136,13 +135,13 @@
         "style": "normal"
       },
       {
--       "_key": "750348749bf5",
-+       "_key": "f805bdb41688",
+-       "_key": "9381f270017b",
++       "_key": "893f3319cbc2",
         "_type": "block",
         "children": [
           {
--           "_key": "b167cdc142d2",
-+           "_key": "721b2d1c27bf",
+-           "_key": "e3e3064b8f35",
++           "_key": "a8bbc3daa95f",
             "_type": "span",
             "marks": [],
             "text": "ニトリア砂漠"
@@ -152,13 +151,13 @@
         "style": "h3"
       },
       {
--       "_key": "5fe6740b1465",
-+       "_key": "c7a4f2b6aee0",
+-       "_key": "da33675de770",
++       "_key": "11f710d36db5",
         "_type": "block",
         "children": [
           {
--           "_key": "8d388307dabe",
-+           "_key": "e3b1b97a2dfd",
+-           "_key": "e2c2634de52d",
++           "_key": "624821797c4b",
             "_type": "span",
             "marks": [],
             "text": "「ニトリア砂漠」という言葉は、これらの修道センターが位置する広範な地域を指します。特にニトリアとケリアの周辺地域を指すことが多いですが、ワディ・アル・ナトロン周辺は「スケティス砂漠」として呼ばれています。"
@@ -168,13 +167,13 @@
         "style": "normal"
       },
       {
--       "_key": "501112ffe471",
-+       "_key": "f1be9c03ae18",
+-       "_key": "07cf93f21807",
++       "_key": "8e9b1cb3b95d",
         "_type": "block",
         "children": [
           {
--           "_key": "c9d36d4b756b",
-+           "_key": "715fc36d9ac2",
+-           "_key": "c32cc8f7e606",
++           "_key": "44b91a7cdf8c",
             "_type": "span",
             "marks": [],
             "text": "ワディ・アル・ナトロンの修道院"
@@ -184,13 +183,13 @@
         "style": "h3"
       },
       {
--       "_key": "11acd3bcdc70",
-+       "_key": "6f09e36bf01a",
+-       "_key": "a12f5d99e076",
++       "_key": "7c8de7f949dd",
         "_type": "block",
         "children": [
           {
--           "_key": "b84f3c0f411d",
-+           "_key": "aa48be9b23b4",
+-           "_key": "3298084e2926",
++           "_key": "bbbe8a1abfea",
             "_type": "span",
             "marks": [],
             "text": "ワディ・アル・ナトロンの修道院は、単なる精神的な聖域にとどまらず、豊かな歴史と文化的な物語の宝庫でもあります。これらの現存する修道院は、訪れる人々を引き寄せ、静かな精神的雰囲気とともに、歴史的な教会建築の一端を垣間見ることができます。"
@@ -200,13 +199,13 @@
         "style": "normal"
       },
       {
--       "_key": "c722c7cee1ee",
-+       "_key": "614fe9de67c4",
+-       "_key": "d6be53a926ce",
++       "_key": "69b3984d71be",
         "_type": "block",
         "children": [
           {
--           "_key": "b655e362bc3a",
-+           "_key": "b1b1f9bb3587",
+-           "_key": "72925a690f68",
++           "_key": "118211fd905e",
             "_type": "span",
             "marks": [],
             "text": "要するに、ワディ・アル・ナトロンは精神的な深さと歴史的な魅力が融合した場所です。静かな砂漠の風景と反射する塩湖に囲まれた修道院は、初期キリスト教の修道主義の伝統に触れるユニークな旅を提供しています。この場所は、信仰、文化、歴史への深い証しであり、宗教的な巡礼や歴史的な探求に興味を持つ人々に、その聖なる地を探索するよう招いています。"
@@ -216,27 +215,27 @@
         "style": "normal"
       },
       {
--       "_key": "80be88f6c4a7",
-+       "_key": "8d4bd447189d",
+-       "_key": "40130eee01de",
++       "_key": "e44d67bdb4dc",
         "_type": "block",
         "children": [
           {
--           "_key": "0ceef471471a",
-+           "_key": "030e1b7112af",
+-           "_key": "3d33a6f4c95a",
++           "_key": "396769216a40",
             "_type": "span",
             "marks": [],
             "text": "作成日: 2020年3月18日"
           },
           {
--           "_key": "021b5a8b96ac",
-+           "_key": "32f51548ecd5",
+-           "_key": "0edb53dde02e",
++           "_key": "187c2c2e05e5",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "903c7d608c3b",
-+           "_key": "75b5ea22089f",
+-           "_key": "49b8762bbecb",
++           "_key": "d725801712f6",
             "_type": "span",
             "marks": [],
             "text": "更新日: 2025年3月30日"
@@ -246,27 +245,13 @@
         "style": "normal"
       },
       {
--       "_key": "0c31e015ea09",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "6e9bea4735d3",
--           "_type": "span",
--           "marks": [],
--           "text": "ワディ・アル・ナトロン旅行ガイド"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "baf69ad92f86",
-+       "_key": "3fb6e5f9d6e4",
+-       "_key": "d257c3512dc9",
++       "_key": "5a743765087a",
         "_type": "block",
         "children": [
           {
--           "_key": "750023c35eef",
-+           "_key": "85cd853e96c7",
+-           "_key": "fcfd59d06e94",
++           "_key": "ad2aee0c8cc8",
             "_type": "span",
             "marks": [],
             "text": "ワディ・アル・ナトロンをご紹介"
@@ -276,57 +261,56 @@
         "style": "normal"
       },
       {
--       "_key": "c4f391af1cee",
-+       "_key": "cd85767bd4e4",
+-       "_key": "40f644e2426b",
++       "_key": "5a32e795889c",
         "_type": "block",
         "children": [
           {
--           "_key": "319df878a4fb",
-+           "_key": "6fee04c1da00",
+-           "_key": "7f2fd66bcdf9",
++           "_key": "f330a480e6f7",
             "_type": "span",
             "marks": [
--             "1c54ee6c5462"
-+             "e6442d41a9b8"
+-             "6f6267a887fb"
++             "987cb5012a7c"
             ],
             "text": "歴史"
           }
         ],
         "markDefs": [
           {
--           "_key": "1c54ee6c5462",
-+           "_key": "e6442d41a9b8",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンの歴史/"
-+           },
+-           "_key": "6f6267a887fb",
++           "_key": "987cb5012a7c",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンの歴史/"
+            },
             "_type": "externalLink",
--           "href": "/ja/ワディ・アル・ナトロンの歴史/",
-+           "href": "https://travel2egypt.org/ja/ワディ・アル・ナトロンの歴史/",
+            "href": "https://travel2egypt.org/ja/ワディ・アル・ナトロンの歴史/",
             "newTab": false
           }
         ],
         "style": "normal"
       },
       {
--       "_key": "67e07969d1d8",
-+       "_key": "3105ac38d1b7",
+-       "_key": "92c26938e83b",
++       "_key": "698a1f6436a4",
         "_type": "block",
         "children": [
           {
--           "_key": "888609333af5",
-+           "_key": "b64002b5a248",
+-           "_key": "68e39e8ba40a",
++           "_key": "64b920606ab6",
             "_type": "span",
             "marks": [
--             "848e0b44a16e"
-+             "fd5340eec777"
+-             "7f227f67f075"
++             "b15e7d683d94"
             ],
             "text": "天気"
           }
         ],
         "markDefs": [
           {
--           "_key": "848e0b44a16e",
-+           "_key": "fd5340eec777",
+-           "_key": "7f227f67f075",
++           "_key": "b15e7d683d94",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンの気候と季節/"
@@ -339,13 +323,13 @@
         "style": "normal"
       },
       {
--       "_key": "10565f707a9b",
-+       "_key": "c1285f041db2",
+-       "_key": "0edda98596ac",
++       "_key": "4dec303ce875",
         "_type": "block",
         "children": [
           {
--           "_key": "1eee27b110a0",
-+           "_key": "731c6bab6bea",
+-           "_key": "4e4d4554e704",
++           "_key": "6b28d07017ce",
             "_type": "span",
             "marks": [],
             "text": "旅行の計画"
@@ -355,25 +339,25 @@
         "style": "normal"
       },
       {
--       "_key": "1e0cf0f85fb5",
-+       "_key": "39083478d97b",
+-       "_key": "3803c42d3e12",
++       "_key": "0b4a5896fb93",
         "_type": "block",
         "children": [
           {
--           "_key": "198134508063",
-+           "_key": "322d1ca59e3a",
+-           "_key": "f7ec57317c3c",
++           "_key": "ebcb821bacb3",
             "_type": "span",
             "marks": [
--             "126fcd207986"
-+             "10d47a54965b"
+-             "59ba518ecbe5"
++             "20301fca20c8"
             ],
             "text": "行き方"
           }
         ],
         "markDefs": [
           {
--           "_key": "126fcd207986",
-+           "_key": "10d47a54965b",
+-           "_key": "59ba518ecbe5",
++           "_key": "20301fca20c8",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8a%e3%83%88%e3%83%ad%e3%83%b3%e3%81%b8%e3%81%ae%e8%a1%8c%e3%81%8d%e6%96%b9/"
@@ -386,45 +370,44 @@
         "style": "normal"
       },
       {
--       "_key": "8ab151001f8a",
-+       "_key": "d87ae50a4fd0",
+-       "_key": "a094b99f4ec9",
++       "_key": "2282d4e0ce2a",
         "_type": "block",
         "children": [
           {
--           "_key": "f44137255086",
-+           "_key": "49a7810e56c1",
+-           "_key": "13960d102c53",
++           "_key": "8a6d09edffb6",
             "_type": "span",
             "marks": [
--             "79e00ee4d61a"
-+             "5f377f7cea09"
+-             "a1494e2c6c9c"
++             "739586d6af7e"
             ],
             "text": "宿泊先"
           }
         ],
         "markDefs": [
           {
--           "_key": "79e00ee4d61a",
-+           "_key": "5f377f7cea09",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンの宿泊施設/"
-+           },
+-           "_key": "a1494e2c6c9c",
++           "_key": "739586d6af7e",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンの宿泊施設/"
+            },
             "_type": "externalLink",
--           "href": "/ja/ワディ・アル・ナトロンの宿泊施設/",
-+           "href": "https://travel2egypt.org/ja/ワディ・アル・ナトロンの宿泊施設/",
+            "href": "https://travel2egypt.org/ja/ワディ・アル・ナトロンの宿泊施設/",
             "newTab": false
           }
         ],
         "style": "normal"
       },
       {
--       "_key": "be9f82858eba",
-+       "_key": "30e3bb5d1dc0",
+-       "_key": "5e2a5dce3082",
++       "_key": "241cb6978e8a",
         "_type": "block",
         "children": [
           {
--           "_key": "137fdb813b19",
-+           "_key": "e921a6fc77a8",
+-           "_key": "0cc6e4d017ae",
++           "_key": "bbc13e3fe1c2",
             "_type": "span",
             "marks": [],
             "text": "滞在中に"
@@ -434,25 +417,25 @@
         "style": "normal"
       },
       {
--       "_key": "e8c4b1c2adf6",
-+       "_key": "ef6e65e39c69",
+-       "_key": "1c14716e26bf",
++       "_key": "e0718585dd9c",
         "_type": "block",
         "children": [
           {
--           "_key": "6d59aaae74a9",
-+           "_key": "2cfead6c3e75",
+-           "_key": "1a8cc12a1094",
++           "_key": "ba91f880dac7",
             "_type": "span",
             "marks": [
--             "1b1e6a182a6e"
-+             "0024130ec5eb"
+-             "1b621898c20b"
++             "ea7b2bc17dde"
             ],
             "text": "現地での移動方法"
           }
         ],
         "markDefs": [
           {
--           "_key": "1b1e6a182a6e",
-+           "_key": "0024130ec5eb",
+-           "_key": "1b621898c20b",
++           "_key": "ea7b2bc17dde",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンでの移動方法/"
@@ -465,45 +448,44 @@
         "style": "normal"
       },
       {
--       "_key": "2b1369096e0d",
-+       "_key": "ac74a4550083",
+-       "_key": "9c4b16da1f60",
++       "_key": "893ba5f18433",
         "_type": "block",
         "children": [
           {
--           "_key": "639b593e363c",
-+           "_key": "cde9fc552eb5",
+-           "_key": "2649cf296e7a",
++           "_key": "0046d41d7832",
             "_type": "span",
             "marks": [
--             "1df99e9f058b"
-+             "e2e05e215ecf"
+-             "e43478e6b05c"
++             "9fd279134564"
             ],
             "text": "おすすめのアクティビティ"
           }
         ],
         "markDefs": [
           {
--           "_key": "1df99e9f058b",
-+           "_key": "e2e05e215ecf",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンのアクティビティ/"
-+           },
+-           "_key": "e43478e6b05c",
++           "_key": "9fd279134564",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンのアクティビティ/"
+            },
             "_type": "externalLink",
--           "href": "/ja/ワディ・アル・ナトロンのアクティビティ/",
-+           "href": "https://travel2egypt.org/ja/ワディ・アル・ナトロンのアクティビティ/",
+            "href": "https://travel2egypt.org/ja/ワディ・アル・ナトロンのアクティビティ/",
             "newTab": false
           }
         ],
         "style": "normal"
       },
       {
--       "_key": "5dbf5b03c6a5",
-+       "_key": "3e8e7c0c7f3f",
+-       "_key": "6bbaf0549bea",
++       "_key": "2fa8e50c8659",
         "_type": "block",
         "children": [
           {
--           "_key": "9d2d56c34426",
-+           "_key": "032ae06f55a1",
+-           "_key": "fd1b1b50a2ab",
++           "_key": "7026c32e2c41",
             "_type": "span",
             "marks": [],
             "text": "見どころ"
@@ -513,25 +495,25 @@
         "style": "normal"
       },
       {
--       "_key": "f82e88610bd8",
-+       "_key": "91129f536a79",
+-       "_key": "599552c15593",
++       "_key": "25f7633f6da4",
         "_type": "block",
         "children": [
           {
--           "_key": "16755f0a29d6",
-+           "_key": "65e1baacf5da",
+-           "_key": "396e55005cfc",
++           "_key": "5ba751d55dd0",
             "_type": "span",
             "marks": [
--             "b672137948d9"
-+             "5f6fdf6c9edc"
+-             "7fc5092f9d7c"
++             "b740affb9a13"
             ],
             "text": "バラムス修道院"
           }
         ],
         "markDefs": [
           {
--           "_key": "b672137948d9",
-+           "_key": "5f6fdf6c9edc",
+-           "_key": "7fc5092f9d7c",
++           "_key": "b740affb9a13",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/バラムス修道院/"
@@ -544,25 +526,25 @@
         "style": "normal"
       },
       {
--       "_key": "80ca33969f03",
-+       "_key": "afc2fac8d229",
+-       "_key": "3fedb22c8172",
++       "_key": "21e79d8b8fc4",
         "_type": "block",
         "children": [
           {
--           "_key": "18972c066dbe",
-+           "_key": "f121208c9218",
+-           "_key": "a9e768fff030",
++           "_key": "fd5fda11a0c3",
             "_type": "span",
             "marks": [
--             "c140c40c13c8"
-+             "069597e65b62"
+-             "f3c8787849af"
++             "e048f1279170"
             ],
             "text": "聖ピショイ修道院"
           }
         ],
         "markDefs": [
           {
--           "_key": "c140c40c13c8",
-+           "_key": "069597e65b62",
+-           "_key": "f3c8787849af",
++           "_key": "e048f1279170",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/聖ピショイ修道院/"
@@ -575,25 +557,25 @@
         "style": "normal"
       },
       {
--       "_key": "42f85b83a9ad",
-+       "_key": "ac005d003e9c",
+-       "_key": "871fe81f53c1",
++       "_key": "b10d3a809868",
         "_type": "block",
         "children": [
           {
--           "_key": "063f51efe471",
-+           "_key": "a74fa408f669",
+-           "_key": "3a08526a5563",
++           "_key": "5d192287f6e7",
             "_type": "span",
             "marks": [
--             "f5be9fd4e807"
-+             "21fa284a0a46"
+-             "ca3fe1c8b5e2"
++             "df5c1780a15b"
             ],
             "text": "聖マカリオス大修道院"
           }
         ],
         "markDefs": [
           {
--           "_key": "f5be9fd4e807",
-+           "_key": "21fa284a0a46",
+-           "_key": "ca3fe1c8b5e2",
++           "_key": "df5c1780a15b",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/%e8%81%96%e3%83%9e%e3%82%ab%e3%83%aa%e3%82%aa%e3%82%b9%e5%a4%a7%e4%bf%ae%e9%81%93%e9%99%a2/"
@@ -606,25 +588,25 @@
         "style": "normal"
       },
       {
--       "_key": "4ad8ce7f0b72",
-+       "_key": "69c08c55c6d0",
+-       "_key": "9e9afe1a0bed",
++       "_key": "f9e8fd5b2186",
         "_type": "block",
         "children": [
           {
--           "_key": "03d9796d4b3f",
-+           "_key": "a96b3810cd57",
+-           "_key": "70828d559d11",
++           "_key": "dfc48fa0d848",
             "_type": "span",
             "marks": [
--             "7dc180c46439"
-+             "f4ade87a8cc1"
+-             "60622e6d9cff"
++             "71af99cbbc2e"
             ],
             "text": "シリア修道院"
           }
         ],
         "markDefs": [
           {
--           "_key": "7dc180c46439",
-+           "_key": "f4ade87a8cc1",
+-           "_key": "60622e6d9cff",
++           "_key": "71af99cbbc2e",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/デイル・アル・スリアーニ-シリア修道院/"
@@ -637,13 +619,13 @@
         "style": "normal"
       },
       {
--       "_key": "be6248aaeb3e",
-+       "_key": "7f8b0219f733",
+-       "_key": "b0c639512c21",
++       "_key": "cb2c5a3056f7",
         "_type": "block",
         "children": [
           {
--           "_key": "1a397fd5aa5b",
-+           "_key": "be80bd01efba",
+-           "_key": "c52db077654a",
++           "_key": "d14b7b9f955f",
             "_type": "span",
             "marks": [],
             "text": "その他"
@@ -653,25 +635,25 @@
         "style": "normal"
       },
       {
--       "_key": "cd2f64f20a7d",
-+       "_key": "73491ff054aa",
+-       "_key": "6fa116a44c95",
++       "_key": "1b4e6ee8c5a6",
         "_type": "block",
         "children": [
           {
--           "_key": "3078df5f9f64",
-+           "_key": "876f38f34aa1",
+-           "_key": "632db70776fe",
++           "_key": "0e9ca64bfdfa",
             "_type": "span",
             "marks": [
--             "1759c0642c96"
-+             "4195ea252a3d"
+-             "1486e3b43a73"
++             "7023900b1597"
             ],
             "text": "ツアー"
           }
         ],
         "markDefs": [
           {
--           "_key": "1759c0642c96",
-+           "_key": "4195ea252a3d",
+-           "_key": "1486e3b43a73",
++           "_key": "7023900b1597",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンのおすすめツアー/"
@@ -684,25 +666,25 @@
         "style": "normal"
       },
       {
--       "_key": "b8f44b32da0f",
-+       "_key": "55fd5235c60e",
+-       "_key": "d61a949ac1a5",
++       "_key": "5c2c924f1be9",
         "_type": "block",
         "children": [
           {
--           "_key": "8838bea36b26",
-+           "_key": "125e6c59ebd5",
+-           "_key": "c52235420f37",
++           "_key": "2e430cc3fa40",
             "_type": "span",
             "marks": [
--             "7f44e7e341d7"
-+             "761cacc35258"
+-             "8a58fc976fc8"
++             "eb251cd77095"
             ],
             "text": "食事"
           }
         ],
         "markDefs": [
           {
--           "_key": "7f44e7e341d7",
-+           "_key": "761cacc35258",
+-           "_key": "8a58fc976fc8",
++           "_key": "eb251cd77095",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/%e7%a0%82%e6%bc%a0%e3%81%ae%e9%a5%97%e5%ae%b4%ef%bc%9a%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%8a%e3%83%88%e3%83%ad%e3%83%b3%e3%81%ae%e6%96%99%e7%90%86%e4%bc%9d%e7%b5%b1/"
@@ -715,25 +697,25 @@
         "style": "normal"
       },
       {
--       "_key": "47bb3f290ca6",
-+       "_key": "b13abb6b1693",
+-       "_key": "2cd35491b8aa",
++       "_key": "7799b8519ed5",
         "_type": "block",
         "children": [
           {
--           "_key": "ae7339b1aad8",
-+           "_key": "6033e75eb598",
+-           "_key": "9968ad4eecef",
++           "_key": "6025945470a1",
             "_type": "span",
             "marks": [
--             "98e1996cdf56"
-+             "02ccadc46bd3"
+-             "d8bcc08a22a5"
++             "1451abb5b954"
             ],
             "text": "ここだけの体験"
           }
         ],
         "markDefs": [
           {
--           "_key": "98e1996cdf56",
-+           "_key": "02ccadc46bd3",
+-           "_key": "d8bcc08a22a5",
++           "_key": "1451abb5b954",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/ja/ワディ・アル・ナトロンここだけの体験/"
@@ -746,8 +728,8 @@
         "style": "normal"
       },
       {
--       "_key": "da280c0b20a7",
-+       "_key": "865ac97968f7",
+-       "_key": "a344decb0839",
++       "_key": "e58086e64f0d",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Deir_as_Suriani.jpg",
         "_type": "image",
         "alt": [
@@ -764,8 +746,8 @@
         ]
       },
       {
--       "_key": "3bd08be98f93",
-+       "_key": "59774addd18c",
+-       "_key": "1773dbc88c71",
++       "_key": "b47123e72d3a",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wady-el-natron-1.jpg",
         "_type": "image",
         "alt": [
@@ -786,6 +768,5 @@
       "_type": "slug",
       "current": "ワディ・アル・ナトロン"
     },
--   "summary": "ワディアルナトロン 旅行ガイド ワディ・アル・ナトロンは、エジプトのベヘイラ県に位置し、修道生活と宗教遺産の象徴として立っています。この谷は、8つの湖からナトロン塩を生産しており、北西ナイルデルタの砂漠地帯におけるキリスト教の修道主義の遺産を証明するものです。以下は、この魅力的な目的地についての詳細です： 地理的および歴史的意義 位置: ワディ・アル・ナトロンの地理的配置は注目に値し、ベヘイラ県に位置する戦略的な場所に、塩を生産する湖が点在しています。この地域は、歴史的に「スケティス」として知られ、初期のキリスト教修道主義の物語において重要な役割を果たし"
-+   "summary": "ワディ・アル・ナトロンは、エジプトのベヘイラ県に位置し、修道生活と宗教遺産の象徴として立っています。 この谷は、8つの湖からナトロン塩を生産しており、北西ナイルデルタの砂漠地帯におけるキリスト教の修道主義の遺産を証明するものです。…"
+    "summary": "ワディ・アル・ナトロンは、エジプトのベヘイラ県に位置し、修道生活と宗教遺産の象徴として立っています。 この谷は、8つの湖からナトロン塩を生産しており、北西ナイルデルタの砂漠地帯におけるキリスト教の修道主義の遺産を証明するものです。…"
   }

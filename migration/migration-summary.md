@@ -1,7 +1,7 @@
 # Migration summary
 
-- **Started:** 2026-04-28T19:05:09.477Z
-- **Finished:** 2026-04-28T19:05:23.355Z
+- **Started:** 2026-04-28T22:42:52.811Z
+- **Finished:** 2026-04-28T22:43:03.066Z
 - **Argv:** `--type page --filter-by-template destination-hub --slug-include cairo-travel-guide,wadi-al-natron-travel-guide,al-wadi-al-gadid-travel-guide,akhmim-travel-guide`
 - **Errors:** 0
 
@@ -22,7 +22,7 @@
 - Operator notes: 0
 - Pull quotes: 0
 - Side images: 0
-- Inline images: 0
+- Inline images: 21
 - Tables flattened: 0
 
 ## Locale linkage (hreflang)
@@ -42,6 +42,14 @@
 | swiper carousel (`swiper-slide-image`) | 0 |
 | premium-adv carousel (`premium-adv-carousel__item-img`) | 0 |
 | bdt-img tour-promo (`bdt-img`) | 0 |
+| title-matching H1 (Fix 1) | 7 |
+| metadata lines `Created/Updated On…` (Fix 2) | 7 |
+| section nav blocks `INTRODUCING …` (Fix 3) | 4 |
+| link-mark → `_pendingInternalRef` (URL validator fix) | 260 |
+| link-mark kept as `externalLink` | 18 |
+| link-mark stripped (malformed/empty) | 0 |
+| link-mark stripped (`#anchor` only) | 0 |
+| link-mark stripped (bare mailto:/tel:) | 0 |
 
 ## Stripped carousels
 

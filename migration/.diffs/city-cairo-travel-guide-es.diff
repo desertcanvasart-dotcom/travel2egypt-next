@@ -1,17 +1,16 @@
 --- before:es
 +++ after:es
   {
--   "name": "Guía de Viaje de El Cairo",
-+   "name": "El Cairo",
+    "name": "El Cairo",
     "overview": [
       {
--       "_key": "e6af009c7ba6",
-+       "_key": "4fe780e63086",
+-       "_key": "4a908b76511b",
++       "_key": "7c6801da9202",
         "_type": "block",
         "children": [
           {
--           "_key": "0a2c7e0af124",
-+           "_key": "20ce1fb7d5f5",
+-           "_key": "8d05719912a8",
++           "_key": "cf3be75c0aea",
             "_type": "span",
             "marks": [],
             "text": "Descubre el corazón de Egipto: Guía completa de El Cairo"
@@ -21,106 +20,106 @@
         "style": "h2"
       },
       {
--       "_key": "db1ecda7ff44",
-+       "_key": "14a8eaf38458",
+-       "_key": "9489f74626e4",
++       "_key": "f782e433c3ab",
         "_type": "block",
         "children": [
           {
--           "_key": "a996f998d629",
-+           "_key": "5a3fed6da5fd",
+-           "_key": "44f840fdd95c",
++           "_key": "5dc675dce653",
             "_type": "span",
             "marks": [],
             "text": "Sumérgete en la esencia de Egipto con nuestra enriquecida Guía de Viaje de El Cairo."
           },
           {
--           "_key": "eeab5fff013c",
-+           "_key": "435f402dc56c",
+-           "_key": "6da679da35e6",
++           "_key": "e408b6c332b1",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "07d7b24827d5",
-+           "_key": "9d6dea6c69f8",
+-           "_key": "abf89cf42ddb",
++           "_key": "0a07ec04a5b9",
             "_type": "span",
             "marks": [],
             "text": " Como bulliciosa capital, "
           },
           {
--           "_key": "eab91aad95a0",
-+           "_key": "5a3e2d720f32",
+-           "_key": "0393c03fe649",
++           "_key": "08acd90f0bcc",
             "_type": "span",
             "marks": [
--             "e7fbb1ef585b"
-+             "a5f84812f414"
+-             "c1e68b44aa47"
++             "c3c7f7b46eed"
             ],
             "text": "El Cairo"
           },
           {
--           "_key": "fcf76d274ad1",
-+           "_key": "2cbcbf08e564",
+-           "_key": "b6c05111e4c6",
++           "_key": "bc2273ce8917",
             "_type": "span",
             "marks": [],
             "text": " es un faro de historia, cultura y modernidad."
           },
           {
--           "_key": "177041d3aad2",
-+           "_key": "84a6a0e6153d",
+-           "_key": "f54464e64527",
++           "_key": "4c678573afb6",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "73113b7debfb",
-+           "_key": "9e9c60680111",
+-           "_key": "04596e1313f1",
++           "_key": "08da66a6ee46",
             "_type": "span",
             "marks": [],
             "text": " No es sólo la ciudad más grande de Egipto, sino un pivote en el continente africano, y un importante centro urbano en Oriente Medio y el mundo árabe."
           },
           {
--           "_key": "c4bbac002e15",
-+           "_key": "4e3af9e33fe2",
+-           "_key": "422ffafa08d3",
++           "_key": "5622357749b3",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "8823b015d7ef",
-+           "_key": "7f34448a9a14",
+-           "_key": "27f8c61d6913",
++           "_key": "74810f6fed94",
             "_type": "span",
             "marks": [],
             "text": " Con la decimoquinta área metropolitana más grande del mundo, El Cairo es un tapiz tejido con los hilos de antiguas civilizaciones, notablemente exhibido por el majestuoso complejo "
           },
           {
--           "_key": "3bec0976c9ae",
-+           "_key": "7cba108f3324",
+-           "_key": "3579f61b0d82",
++           "_key": "b789dbe13d40",
             "_type": "span",
             "marks": [
--             "1db92fbea100"
-+             "add9995a2ee8"
+-             "72cf125a21eb"
++             "2401b19aa129"
             ],
             "text": "piramidal"
           },
           {
--           "_key": "1697e5dc3b05",
-+           "_key": "17f725bf476c",
+-           "_key": "dbedb320dd14",
++           "_key": "114f8963f529",
             "_type": "span",
             "marks": [],
             "text": " de Guiza y las históricas ruinas de "
           },
           {
--           "_key": "9fdec98066d5",
-+           "_key": "2c643b3866e0",
+-           "_key": "8cabc9ee8525",
++           "_key": "207d2f007653",
             "_type": "span",
             "marks": [
--             "d6dde3dadaf0"
-+             "c43a757897d0"
+-             "2bb08a93ea19"
++             "e13bc00cea4b"
             ],
             "text": "Menfis"
           },
           {
--           "_key": "3c3694bee402",
-+           "_key": "c3503a753684",
+-           "_key": "59b89606a684",
++           "_key": "37a2c9a298cf",
             "_type": "span",
             "marks": [],
             "text": " enclavadas en su abrazo. "
@@ -128,22 +127,22 @@
         ],
         "markDefs": [
           {
--           "_key": "e7fbb1ef585b",
-+           "_key": "a5f84812f414",
+-           "_key": "c1e68b44aa47",
++           "_key": "c3c7f7b46eed",
             "_type": "externalLink",
             "href": "https://travel2egypt1.wpenginepowered.com/cairo-private-day-tours/",
             "newTab": true
           },
           {
--           "_key": "1db92fbea100",
-+           "_key": "add9995a2ee8",
+-           "_key": "72cf125a21eb",
++           "_key": "2401b19aa129",
             "_type": "externalLink",
             "href": "https://travel2egypt1.wpenginepowered.com/full-day-trip-to-cairo-by-plane-from-sharm-el-sheikh/",
             "newTab": true
           },
           {
--           "_key": "d6dde3dadaf0",
-+           "_key": "c43a757897d0",
+-           "_key": "2bb08a93ea19",
++           "_key": "e13bc00cea4b",
             "_type": "externalLink",
             "href": "https://www.britannica.com/place/Memphis-ancient-city-Egypt",
             "newTab": true
@@ -152,61 +151,61 @@
         "style": "normal"
       },
       {
--       "_key": "830be91b41ff",
-+       "_key": "6acee6748112",
+-       "_key": "78bb6acf20e2",
++       "_key": "7cd31e3c7dcd",
         "_type": "block",
         "children": [
           {
--           "_key": "3cbad90a7ad6",
-+           "_key": "3fcdddb6b6cf",
+-           "_key": "1387b61b9bf3",
++           "_key": "3df5619f8064",
             "_type": "span",
             "marks": [],
             "text": "Enclavada en las fértiles orillas del delta "
           },
           {
--           "_key": "b117e2a63639",
-+           "_key": "ce08b9b00b83",
+-           "_key": "7ab896fa0848",
++           "_key": "dbfdc1af5d55",
             "_type": "span",
             "marks": [
--             "d96b9e114237"
-+             "ab7100a7a736"
+-             "369313260601"
++             "124b61e43792"
             ],
             "text": "del Nilo"
           },
           {
--           "_key": "d51aefd33089",
-+           "_key": "ac3ed87f3239",
+-           "_key": "2b1038827490",
++           "_key": "9913d7f85bd7",
             "_type": "span",
             "marks": [],
             "text": ", la silueta moderna de El Cairo fue esbozada en el año 969 d.C. por la visionaria dinastía fatimí."
           },
           {
--           "_key": "2c6a537e487b",
-+           "_key": "97c23f1986d1",
+-           "_key": "cebd40529834",
++           "_key": "c50f3b4f1ada",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "e30cbc866f06",
-+           "_key": "7c0327760c46",
+-           "_key": "c0186c1c30c7",
++           "_key": "935c70cb34a6",
             "_type": "span",
             "marks": [],
             "text": " Sin embargo, la tierra sobre la que florece la ciudad actual susurra historias de antiguas capitales, cuyo legado está grabado en las piedras "
           },
           {
--           "_key": "96337a241c18",
-+           "_key": "147ced04f379",
+-           "_key": "c1c2578422aa",
++           "_key": "47d36cc93e97",
             "_type": "span",
             "marks": [
--             "b13e95b16dcc"
-+             "e86fb6d436f9"
+-             "939e724be59b"
++             "f59cd5d96f83"
             ],
             "text": "del Viejo Cairo."
           },
           {
--           "_key": "4625d78d4f30",
-+           "_key": "d5d05f471fdf",
+-           "_key": "21cd857bd76d",
++           "_key": "d1adc48b1364",
             "_type": "span",
             "marks": [],
             "text": " "
@@ -214,8 +213,8 @@
         ],
         "markDefs": [
           {
--           "_key": "d96b9e114237",
-+           "_key": "ab7100a7a736",
+-           "_key": "369313260601",
++           "_key": "124b61e43792",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/ritmos-del-nilo-el-cairo-cena-crucero-con-danza-del-vientre/"
@@ -225,8 +224,8 @@
             "newTab": false
           },
           {
--           "_key": "b13e95b16dcc",
-+           "_key": "e86fb6d436f9",
+-           "_key": "939e724be59b",
++           "_key": "f59cd5d96f83",
             "_type": "externalLink",
             "href": "https://travel2egypt1.wpenginepowered.com/private-tour-the-grand-old-cairo-tour/",
             "newTab": true
@@ -235,61 +234,61 @@
         "style": "normal"
       },
       {
--       "_key": "9894cb0cb769",
-+       "_key": "3a586528ac76",
+-       "_key": "8248995da491",
++       "_key": "d3ea2808e6b3",
         "_type": "block",
         "children": [
           {
--           "_key": "db93fc5c4713",
-+           "_key": "6a4792962851",
+-           "_key": "1d50e373ebaa",
++           "_key": "ce68f39d8ff6",
             "_type": "span",
             "marks": [],
             "text": "El Cairo ha latido siempre como el corazón de la vitalidad política y cultural de la región, ganándose el apodo de "
           },
           {
--           "_key": "1c0c7c6f1ea6",
-+           "_key": "db0fa3e76dc5",
+-           "_key": "a388a5281978",
++           "_key": "6ec1c893d546",
             "_type": "span",
             "marks": [
--             "54b256140ed4"
-+             "75bcd30a2626"
+-             "c82e374684f6"
++             "759548f076c0"
             ],
             "text": "«la ciudad de los mil minaretes»"
           },
           {
--           "_key": "94a064818058",
-+           "_key": "acf1517f9fe3",
+-           "_key": "b0fe723412e6",
++           "_key": "24d5cd2811e4",
             "_type": "span",
             "marks": [],
             "text": " debido a su rico tapiz de arquitectura islámica."
           },
           {
--           "_key": "cd543e14dae1",
-+           "_key": "0f89c777247e",
+-           "_key": "c79f0f2beb2c",
++           "_key": "79a0b30c014b",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "eb3acf38cd30",
-+           "_key": "050021d34df2",
+-           "_key": "4e9b7361725d",
++           "_key": "afe26d84845f",
             "_type": "span",
             "marks": [],
             "text": " Esta ciudad es una Ciudad Mundial reconocida, que ostenta con orgullo la clasificación «Beta +» "
           },
           {
--           "_key": "18f1a7aff2da",
-+           "_key": "df22895d5e84",
+-           "_key": "5063f548a1ac",
++           "_key": "f1ec95e23bc3",
             "_type": "span",
             "marks": [
--             "f6ee8a411a1b"
-+             "c378902ee599"
+-             "5ccb2dcf5b79"
++             "8b95a5e95003"
             ],
             "text": "de"
           },
           {
--           "_key": "1b90ba8bc37b",
-+           "_key": "951e290e9f8b",
+-           "_key": "c5c02e48aab1",
++           "_key": "99c5b38471f9",
             "_type": "span",
             "marks": [],
             "text": " la Red de Investigación sobre Globalización y Ciudades Mundiales (GaWC). "
@@ -297,8 +296,8 @@
         ],
         "markDefs": [
           {
--           "_key": "54b256140ed4",
-+           "_key": "75bcd30a2626",
+-           "_key": "c82e374684f6",
++           "_key": "759548f076c0",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/el-cairo-al-descubierto-en-la-ciudad-de-los-mil-minaretes/"
@@ -308,8 +307,8 @@
             "newTab": false
           },
           {
--           "_key": "f6ee8a411a1b",
-+           "_key": "c378902ee599",
+-           "_key": "5ccb2dcf5b79",
++           "_key": "8b95a5e95003",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/paseo-en-globo-al-amanecer-sobre-los-antiguos-monumentos-de-luxor/"
@@ -322,75 +321,75 @@
         "style": "normal"
       },
       {
--       "_key": "b915ea36f285",
-+       "_key": "7ad2c4db35ec",
+-       "_key": "38f197838c68",
++       "_key": "d6ff79814eb6",
         "_type": "block",
         "children": [
           {
--           "_key": "769df8254fa1",
-+           "_key": "4596f69cc998",
+-           "_key": "884c8a2fbb85",
++           "_key": "1c8ad2c28030",
             "_type": "span",
             "marks": [],
             "text": "El Cairo alberga a más de 19 millones de almas en 3.085 kilómetros cuadrados, y su extensión supera a la de cualquier otra ciudad egipcia."
           },
           {
--           "_key": "4478980f4ae6",
-+           "_key": "16599b87775e",
+-           "_key": "f491cf48af89",
++           "_key": "bf262d5d895a",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "e8414f660db5",
-+           "_key": "da8d998778b2",
+-           "_key": "d614e9cd2d99",
++           "_key": "9036fd8663bf",
             "_type": "span",
             "marks": [],
             "text": " Su expansión urbana se ve aumentada "
           },
           {
--           "_key": "dac12179b1ea",
-+           "_key": "448fdc4e4f8b",
+-           "_key": "380f1cb81b9d",
++           "_key": "b72131562b1d",
             "_type": "span",
             "marks": [
--             "7ea501dc2e23"
-+             "461e91dcb206"
+-             "64e91c4b9d67"
++             "a8e28c44fa42"
             ],
             "text": "por otros 9,5 millones de residentes que"
           },
           {
--           "_key": "f3fe308a21b5",
-+           "_key": "1f7e06e6088f",
+-           "_key": "a4908a1c0dcb",
++           "_key": "520423e536e3",
             "_type": "span",
             "marks": [],
             "text": " viven en sus proximidades."
           },
           {
--           "_key": "6c8d9b9dcc19",
-+           "_key": "2c4cb77fef94",
+-           "_key": "40443ccb7bd5",
++           "_key": "9e81c279ab5c",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "f62dd4d995ef",
-+           "_key": "3f0aa41af564",
+-           "_key": "099658327f91",
++           "_key": "b1f2982b89d6",
             "_type": "span",
             "marks": [],
             "text": " Sin embargo, en medio de su grandeza, El "
           },
           {
--           "_key": "c7f48dcda40a",
-+           "_key": "ab33be8a84bc",
+-           "_key": "995f484a2bb4",
++           "_key": "bbc19260a320",
             "_type": "span",
             "marks": [
--             "83c03690b916"
-+             "77a886bfcbc3"
+-             "4c5179eb675a"
++             "354cac6198d3"
             ],
             "text": "Cairo se enfrenta a los"
           },
           {
--           "_key": "714add422955",
-+           "_key": "0dc0edd483ef",
+-           "_key": "777df1a676b6",
++           "_key": "a65355b927ab",
             "_type": "span",
             "marks": [],
             "text": " retos de la contaminación y la congestión, similares a los de otras megaciudades mundiales. "
@@ -398,8 +397,8 @@
         ],
         "markDefs": [
           {
--           "_key": "7ea501dc2e23",
-+           "_key": "461e91dcb206",
+-           "_key": "64e91c4b9d67",
++           "_key": "a8e28c44fa42",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/cruceros-dahabiya-por-el-nilo-por-que-elegir-los-viajes-impulsados-por-el-viento/"
@@ -409,8 +408,8 @@
             "newTab": false
           },
           {
--           "_key": "83c03690b916",
-+           "_key": "77a886bfcbc3",
+-           "_key": "4c5179eb675a",
++           "_key": "354cac6198d3",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/los-secretos-de-minya-excursion-de-2-dias-a-minya-desde-el-cairo/"
@@ -423,44 +422,44 @@
         "style": "normal"
       },
       {
--       "_key": "73930945b146",
-+       "_key": "e91018ad92d4",
+-       "_key": "1d1e0c236a46",
++       "_key": "fc3c9403bde7",
         "_type": "block",
         "children": [
           {
--           "_key": "a5cbdce9ba9b",
-+           "_key": "ab5a6c02bf57",
+-           "_key": "0cb24d7513a2",
++           "_key": "2e0e82dd29db",
             "_type": "span",
             "marks": [],
             "text": "El metro de El Cairo, uno de los dos únicos de África (junto con el de Argel, Argelia), es uno de "
           },
           {
--           "_key": "ecbf2c8d6043",
-+           "_key": "e83db857d39a",
+-           "_key": "7474b5e43b4c",
++           "_key": "5697f822424d",
             "_type": "span",
             "marks": [
--             "fcfa44eaadcb"
-+             "573794ee3043"
+-             "906f574fc269"
++             "e986f85d5ea1"
             ],
             "text": "los más transitados del mundo"
           },
           {
--           "_key": "af34bdc1a112",
-+           "_key": "5d0eaa355ec3",
+-           "_key": "68e5ceb92414",
++           "_key": "83d384c9d5da",
             "_type": "span",
             "marks": [],
             "text": ", con más de 4 millones de pasajeros al año."
           },
           {
--           "_key": "80c75a47fca7",
-+           "_key": "11126b37902b",
+-           "_key": "d24548afcca2",
++           "_key": "29b43da1953b",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "e84e926197f3",
-+           "_key": "710dcfe8707a",
+-           "_key": "3bc8f26cc6a9",
++           "_key": "7ec1934ba322",
             "_type": "span",
             "marks": [],
             "text": " Desde el punto de vista económico, El Cairo es líder de Oriente Medio desde 2005 y ocupa el puesto 43 en el Índice de Ciudades Globales 2010 de Foreign Policy. "
@@ -468,8 +467,8 @@
         ],
         "markDefs": [
           {
--           "_key": "fcfa44eaadcb",
-+           "_key": "573794ee3043",
+-           "_key": "906f574fc269",
++           "_key": "e986f85d5ea1",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-kom-ombo/fiestas-nilo/"
@@ -482,13 +481,13 @@
         "style": "normal"
       },
       {
--       "_key": "0f33e2f2fc16",
-+       "_key": "bda651f3981a",
+-       "_key": "e5a9d0890f9d",
++       "_key": "4c43a0c2dde2",
         "_type": "block",
         "children": [
           {
--           "_key": "8d260ad7fff5",
-+           "_key": "ccc194a42628",
+-           "_key": "ecb4ba9c9796",
++           "_key": "a6cda6049659",
             "_type": "span",
             "marks": [],
             "text": "Etimología y esencia de El Cairo"
@@ -498,72 +497,72 @@
         "style": "h2"
       },
       {
--       "_key": "52864f65a3fb",
-+       "_key": "33b028dd2f27",
+-       "_key": "33399e13fca8",
++       "_key": "12388d7883f0",
         "_type": "block",
         "children": [
           {
--           "_key": "a234f36b8e2b",
-+           "_key": "cb837dcb9cb5",
+-           "_key": "20d7a5c7f718",
++           "_key": "91495f846572",
             "_type": "span",
             "marks": [],
             "text": "Conocida localmente como Maṣr, reflejando el término árabe egipcio para "
           },
           {
--           "_key": "809fafffc352",
-+           "_key": "15502af665df",
+-           "_key": "4f23b84874ce",
++           "_key": "987eedfed66f",
             "_type": "span",
             "marks": [
--             "dadecae65a16"
-+             "8492ed27b99a"
+-             "a7a8c326a6ba"
++             "fc5a8f050a3d"
             ],
             "text": "Egipto"
           },
           {
--           "_key": "aaa812189f5e",
-+           "_key": "1cf6aa4e6122",
+-           "_key": "bec80fd970a0",
++           "_key": "bf37dc662d18",
             "_type": "span",
             "marks": [],
             "text": ", el nombre de El Cairo subraya su papel integral dentro de la nación."
           },
           {
--           "_key": "17c02e75c78b",
-+           "_key": "2b833c57ff52",
+-           "_key": "1bfc9fdc83ff",
++           "_key": "45b1a9ee96f5",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "f3630e05fb49",
-+           "_key": "ec72caa67d63",
+-           "_key": "57bf37ae91e4",
++           "_key": "33ad61952be9",
             "_type": "span",
             "marks": [],
             "text": " Su nombre oficial, al-Qāhirah, se traduce como «el Vencedor» o «el Conquistador», un guiño a la alineación celeste de Marte, conocido como «la Estrella Conquistadora», durante la fundación de la ciudad."
           },
           {
--           "_key": "1ae5013fb0a6",
-+           "_key": "3876646cdd34",
+-           "_key": "7f159e37ab17",
++           "_key": "cfe4bf7d35c6",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "55981277adcb",
-+           "_key": "c090f7c59f4a",
+-           "_key": "07012d92c37f",
++           "_key": "69754c3ba1f0",
             "_type": "span",
             "marks": [],
             "text": " Este nombre también celebra la llegada del califa fatimí Al-Mu’izz, que estableció El Cairo como capital a su llegada desde Mahdia."
           },
           {
--           "_key": "15d572f9a6c2",
-+           "_key": "d5e2803e3e24",
+-           "_key": "29f31fd95b5e",
++           "_key": "07a94d6bb110",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "99abb654b21f",
-+           "_key": "10a7e00584de",
+-           "_key": "1f93d5579ba6",
++           "_key": "c1230578131d",
             "_type": "span",
             "marks": [],
             "text": " La antigua ciudad de Heliópolis, actual suburbio de Ain Shams («Ojo del Sol»), marca otra capa histórica de esta polifacética ciudad. "
@@ -571,8 +570,8 @@
         ],
         "markDefs": [
           {
--           "_key": "dadecae65a16",
-+           "_key": "8492ed27b99a",
+-           "_key": "a7a8c326a6ba",
++           "_key": "fc5a8f050a3d",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/"
@@ -585,109 +584,109 @@
         "style": "normal"
       },
       {
--       "_key": "947eb02c175f",
-+       "_key": "d22dc4f6ec81",
+-       "_key": "e5b8c6bc3b9f",
++       "_key": "a2a95b0a9412",
         "_type": "block",
         "children": [
           {
--           "_key": "629b5fc988a5",
-+           "_key": "00535bcee93d",
+-           "_key": "9c75aec4f81a",
++           "_key": "4827bc6625cc",
             "_type": "span",
             "marks": [],
             "text": "El horizonte de El Cairo, salpicado por los «mil minaretes», ofrece un panorama de atracciones "
           },
           {
--           "_key": "386bb102b2ac",
-+           "_key": "e8686eb97b6c",
+-           "_key": "ec259ecd85da",
++           "_key": "f7e717d4621f",
             "_type": "span",
             "marks": [
--             "26dad6b3bbe5"
-+             "130d82fd3019"
+-             "bda5046b8644"
++             "b0d768934574"
             ],
             "text": "que cautivan a visitantes"
           },
           {
--           "_key": "10d7a3d8cf6e",
-+           "_key": "40c3bff7d80d",
+-           "_key": "08c1db2b8143",
++           "_key": "f1f66bbad397",
             "_type": "span",
             "marks": [],
             "text": " de todo el mundo."
           },
           {
--           "_key": "78bf5f9b60fb",
-+           "_key": "33ababc5731a",
+-           "_key": "f617cd65ac2d",
++           "_key": "c5bf46db3b49",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "1126b99dcda5",
-+           "_key": "3c6194b08002",
+-           "_key": "67e5795a8ab7",
++           "_key": "ea5f817a6e92",
             "_type": "span",
             "marks": [],
             "text": " Destacan "
           },
           {
--           "_key": "8408c8fe514d",
-+           "_key": "d9c9f8fa7219",
+-           "_key": "00733242f6fd",
++           "_key": "47d053e41c0d",
             "_type": "span",
             "marks": [
--             "0d5568f292c8"
-+             "1b24db98b21c"
+-             "4e45f46f33dd"
++             "8f738629c9cf"
             ],
             "text": "las"
           },
           {
--           "_key": "5db495e9318c",
-+           "_key": "809e7912cda8",
+-           "_key": "8d82fd537a71",
++           "_key": "982844de1721",
             "_type": "span",
             "marks": [],
             "text": " sobrecogedoras "
           },
           {
--           "_key": "0662571ab772",
-+           "_key": "e7b7d4b34ed9",
+-           "_key": "37106091b7c0",
++           "_key": "4b385d9ac95f",
             "_type": "span",
             "marks": [
--             "4feb9c5845f8"
-+             "cd3861d7152f"
+-             "ee33d9ba6481"
++             "bd77c2c0f069"
             ],
             "text": "Pirámides de Guiza"
           },
           {
--           "_key": "f52285ae6463",
-+           "_key": "5a9b1a9adbeb",
+-           "_key": "15502a87b92a",
++           "_key": "acceb58a1943",
             "_type": "span",
             "marks": [],
             "text": ", el tesoro del Museo Egipcio de Antigüedades, la maravilla arquitectónica de las Pirámides Escalonadas de Saqqara y la histórica Ciudadela de Saladino."
           },
           {
--           "_key": "907374fbbf5c",
-+           "_key": "8e3620b0500d",
+-           "_key": "b9905e4c86ae",
++           "_key": "f06d024f5725",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "9336a8fdc4b5",
-+           "_key": "976e669f1b99",
+-           "_key": "1f2b03deb67a",
++           "_key": "7b6b8e4f2e65",
             "_type": "span",
             "marks": [],
             "text": " El patrimonio religioso de la ciudad se exhibe magníficamente en la Mezquita de Mohamed "
           },
           {
--           "_key": "518327f85fe0",
-+           "_key": "8368eb7f1ee6",
+-           "_key": "5371e6ec802a",
++           "_key": "787642f79f96",
             "_type": "span",
             "marks": [
--             "8c8e8a990a43"
-+             "2d7ca5bb6e89"
+-             "8d206578098c"
++             "21c405b7a991"
             ],
             "text": "Ali y la Mezquita de Amr Ibn"
           },
           {
--           "_key": "8d1f4a4959d1",
-+           "_key": "fe3c6a166663",
+-           "_key": "d6bea71e655c",
++           "_key": "a96078075066",
             "_type": "span",
             "marks": [],
             "text": " El Aas, la primera mezquita construida en África. "
@@ -695,8 +694,8 @@
         ],
         "markDefs": [
           {
--           "_key": "26dad6b3bbe5",
-+           "_key": "130d82fd3019",
+-           "_key": "bda5046b8644",
++           "_key": "b0d768934574",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/"
@@ -706,22 +705,22 @@
             "newTab": false
           },
           {
--           "_key": "0d5568f292c8",
-+           "_key": "1b24db98b21c",
+-           "_key": "4e45f46f33dd",
++           "_key": "8f738629c9cf",
             "_type": "externalLink",
             "href": "https://travel2egypt1.wpenginepowered.com/pyramids-of-giza-sphinx-egyptian-museum-khan-el-khalili-tour/",
             "newTab": true
           },
           {
--           "_key": "4feb9c5845f8",
-+           "_key": "cd3861d7152f",
+-           "_key": "ee33d9ba6481",
++           "_key": "bd77c2c0f069",
             "_type": "externalLink",
             "href": "https://travel2egypt1.wpenginepowered.com/pyramids-of-giza-sphinx-egyptian-museum-khan-el-khalili-tour/",
             "newTab": true
           },
           {
--           "_key": "8c8e8a990a43",
-+           "_key": "2d7ca5bb6e89",
+-           "_key": "8d206578098c",
++           "_key": "21c405b7a991",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/mezquita-de-al-nasir-mohammed-ben-qalawoon/"
@@ -734,78 +733,78 @@
         "style": "normal"
       },
       {
--       "_key": "2edd210811a3",
-+       "_key": "6e77b1f0bd15",
+-       "_key": "a1029ffd7f4c",
++       "_key": "0998ce1b986b",
         "_type": "block",
         "children": [
           {
--           "_key": "1f06cefb5196",
-+           "_key": "416b1ea0b38c",
+-           "_key": "41a0bd6ad753",
++           "_key": "f71022d99f9a",
             "_type": "span",
             "marks": [],
             "text": "El vibrante tapiz de la historia de El Cairo se adorna aún más con El Cairo copto, hogar de icónicos monumentos coptos como "
           },
           {
--           "_key": "72c2d5515096",
-+           "_key": "48a56fa7bc7e",
+-           "_key": "5d44f130fcbb",
++           "_key": "a6bfe44d0457",
             "_type": "span",
             "marks": [
--             "645339c2ae91"
-+             "6461d5b58fd6"
+-             "2b9eee80f84b"
++             "9197e8f420f9"
             ],
             "text": "la"
           },
           {
--           "_key": "b43fac49524e",
-+           "_key": "6e8c27f66f9e",
+-           "_key": "2fa6f454a786",
++           "_key": "7f29aab51200",
             "_type": "span",
             "marks": [],
             "text": " famosa "
           },
           {
--           "_key": "5cd58448371a",
-+           "_key": "b6e605872e6d",
+-           "_key": "e8bae6f2addc",
++           "_key": "f966c73ff5ce",
             "_type": "span",
             "marks": [
--             "de092c312465"
-+             "fddbae9c2310"
+-             "3033e784168a"
++             "63ab8191c77d"
             ],
             "text": "Iglesia Colgante"
           },
           {
--           "_key": "03578acf777b",
-+           "_key": "8bd93da1bf78",
+-           "_key": "854baf31163e",
++           "_key": "3236b28cf4a1",
             "_type": "span",
             "marks": [],
             "text": " y el Museo Copto."
           },
           {
--           "_key": "1117c90ccdcd",
-+           "_key": "e20b5460f414",
+-           "_key": "a5a8851e91d7",
++           "_key": "a0ba4c5f8201",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "20748610a7a5",
-+           "_key": "e0443e22fbf4",
+-           "_key": "172be0840290",
++           "_key": "62cbb3bf92ee",
             "_type": "span",
             "marks": [],
             "text": " Para saborear la bulliciosa vida de mercado de El Cairo, "
           },
           {
--           "_key": "7a311684c448",
-+           "_key": "cb0e2165e885",
+-           "_key": "015d90b92ec1",
++           "_key": "f450c7727fa2",
             "_type": "span",
             "marks": [
--             "4aa6f1031aad"
-+             "636e52da120d"
+-             "f74f332ad344"
++             "bdf2fd358203"
             ],
             "text": "Khan El Khalili"
           },
           {
--           "_key": "bc4b3f4e3502",
-+           "_key": "5ade7049b87f",
+-           "_key": "6e96059e1f6c",
++           "_key": "9fe18517b1c8",
             "_type": "span",
             "marks": [],
             "text": " es el mercado turístico de mayor renombre mundial. "
@@ -813,22 +812,22 @@
         ],
         "markDefs": [
           {
--           "_key": "645339c2ae91",
-+           "_key": "6461d5b58fd6",
+-           "_key": "2b9eee80f84b",
++           "_key": "9197e8f420f9",
             "_type": "externalLink",
             "href": "https://travel2egypt1.wpenginepowered.com/cairo/the-hanging-church/",
             "newTab": true
           },
           {
--           "_key": "de092c312465",
-+           "_key": "fddbae9c2310",
+-           "_key": "3033e784168a",
++           "_key": "63ab8191c77d",
             "_type": "externalLink",
             "href": "https://travel2egypt1.wpenginepowered.com/cairo/the-hanging-church/",
             "newTab": true
           },
           {
--           "_key": "4aa6f1031aad",
-+           "_key": "636e52da120d",
+-           "_key": "f74f332ad344",
++           "_key": "bdf2fd358203",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/ciudadela-de-saladino-y-bazar-de-khan-el-khalili-el-cairo/"
@@ -841,54 +840,54 @@
         "style": "normal"
       },
       {
--       "_key": "1081cb425b96",
-+       "_key": "18db701d9b79",
+-       "_key": "20f57ba72888",
++       "_key": "8654cedb6255",
         "_type": "block",
         "children": [
           {
--           "_key": "2b50ef474886",
-+           "_key": "3885f84f5988",
+-           "_key": "9f7e0404a5c9",
++           "_key": "cb685e1323b9",
             "_type": "span",
             "marks": [
--             "b4164a337aa3"
-+             "14af56a77376"
+-             "61a100aeb504"
++             "8e34f82cbf77"
             ],
             "text": "El Cairo es también la cuna de"
           },
           {
--           "_key": "74565955a7a7",
-+           "_key": "67635fec44e2",
+-           "_key": "b575913dc7cb",
++           "_key": "9d47da7562a5",
             "_type": "span",
             "marks": [],
             "text": " las industrias cinematográfica y musical más antiguas e influyentes del mundo árabe, además de albergar la Universidad de Al-Azhar, la segunda institución de enseñanza superior más antigua del mundo."
           },
           {
--           "_key": "f98a558f5219",
-+           "_key": "45c6f1a6625a",
+-           "_key": "07932929cfed",
++           "_key": "a1821097aa2b",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "45cb93040d6f",
-+           "_key": "2e2dc552e7ed",
+-           "_key": "7867dfde9bdb",
++           "_key": "e7e58b4a555f",
             "_type": "span",
             "marks": [],
             "text": " Con muchos medios de comunicación y organizaciones internacionales que establecen aquí sus sedes regionales, y con la Liga Árabe llamando a El Cairo su hogar durante "
           },
           {
--           "_key": "02eefd9fd0a9",
-+           "_key": "260106307cfc",
+-           "_key": "5bec0d05b1b3",
++           "_key": "60a87207ce85",
             "_type": "span",
             "marks": [
--             "aa547e9259b1"
-+             "12f45446f6e1"
+-             "9c2ad6769155"
++             "739724dca33e"
             ],
             "text": "gran parte de su historia"
           },
           {
--           "_key": "17b977541e30",
-+           "_key": "2331665af1cb",
+-           "_key": "159542f0c359",
++           "_key": "cb91485471e5",
             "_type": "span",
             "marks": [],
             "text": ", la ciudad es un nexo dinámico de influencia mundial y regional. "
@@ -896,8 +895,8 @@
         ],
         "markDefs": [
           {
--           "_key": "b4164a337aa3",
-+           "_key": "14af56a77376",
+-           "_key": "61a100aeb504",
++           "_key": "8e34f82cbf77",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/vista-de-las-piramides-excursion-de-un-dia-a-el-cairo-en-avion-desde-sharm-el-sheikh/"
@@ -907,8 +906,8 @@
             "newTab": false
           },
           {
--           "_key": "aa547e9259b1",
-+           "_key": "12f45446f6e1",
+-           "_key": "9c2ad6769155",
++           "_key": "739724dca33e",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
@@ -921,44 +920,44 @@
         "style": "normal"
       },
       {
--       "_key": "a3b3164b6880",
-+       "_key": "399b1ff41ce9",
+-       "_key": "3d79afb49b25",
++       "_key": "61642f4e53eb",
         "_type": "block",
         "children": [
           {
--           "_key": "481cda68f5c4",
-+           "_key": "4fb0a8a7805e",
+-           "_key": "c64a082cc67b",
++           "_key": "643c11d42a78",
             "_type": "span",
             "marks": [],
             "text": "Explora El Cairo, donde convergen la historia y la modernidad, ofreciendo un "
           },
           {
--           "_key": "2d4eb1349260",
-+           "_key": "0b2b8b7de667",
+-           "_key": "79ee725537dc",
++           "_key": "fb44aa0c0dc8",
             "_type": "span",
             "marks": [
--             "28d5c9d3f91f"
-+             "056b8273d93b"
+-             "651d1ec335c1"
++             "8a2976da51ca"
             ],
             "text": "viaje"
           },
           {
--           "_key": "5c684bff9ca9",
-+           "_key": "4adde41d5fd6",
+-           "_key": "8706a686a651",
++           "_key": "137740db0006",
             "_type": "span",
             "marks": [],
             "text": " a través del tiempo y un abrazo a lo nuevo."
           },
           {
--           "_key": "c4a222bd4a48",
-+           "_key": "beca872d0a30",
+-           "_key": "b9df04ace7b6",
++           "_key": "f3055d9a3ea8",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "a6d085899d85",
-+           "_key": "98200f5641c6",
+-           "_key": "9a9c0f76e244",
++           "_key": "34b4e1c10381",
             "_type": "span",
             "marks": [],
             "text": " Esta ciudad no es sólo un destino, sino un vibrante capítulo de la historia de la civilización. "
@@ -966,8 +965,8 @@
         ],
         "markDefs": [
           {
--           "_key": "28d5c9d3f91f",
-+           "_key": "056b8273d93b",
+-           "_key": "651d1ec335c1",
++           "_key": "8a2976da51ca",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/viaje/"
@@ -980,13 +979,13 @@
         "style": "normal"
       },
       {
--       "_key": "b7418defa205",
-+       "_key": "bef345f7a537",
+-       "_key": "8f9e8b23026c",
++       "_key": "5bdcbe9b6d7b",
         "_type": "block",
         "children": [
           {
--           "_key": "7cc8defc5bfe",
-+           "_key": "1e81c3e7b749",
+-           "_key": "d9a61a1c69f7",
++           "_key": "9dc46701fccd",
             "_type": "span",
             "marks": [],
             "text": "Creado el 18 de marzo de 2020"
@@ -996,13 +995,13 @@
         "style": "normal"
       },
       {
--       "_key": "2acb13ac3ccc",
-+       "_key": "836bdaf3deff",
+-       "_key": "5f82a66039bc",
++       "_key": "ba998e0657a8",
         "_type": "block",
         "children": [
           {
--           "_key": "7010c7ccabec",
-+           "_key": "98b51286975c",
+-           "_key": "5426232e6f4c",
++           "_key": "efd0676f79b4",
             "_type": "span",
             "marks": [],
             "text": "Actualizado en Julio 27 , 2025"
@@ -1012,41 +1011,13 @@
         "style": "normal"
       },
       {
--       "_key": "44829d138d1e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "9afa7b0b4a37",
--           "_type": "span",
--           "marks": [],
--           "text": "CAIRO"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "517a10616b40",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "87a03288dcae",
--           "_type": "span",
--           "marks": [],
--           "text": "Guía de viaje"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "f0f2b8bf6c86",
-+       "_key": "f61a5bd94d00",
+-       "_key": "d1b904374203",
++       "_key": "759eda33ea51",
         "_type": "block",
         "children": [
           {
--           "_key": "62dffbd49cec",
-+           "_key": "66dcec1bbc7d",
+-           "_key": "405ccdbb9656",
++           "_key": "506527f0ee53",
             "_type": "span",
             "marks": [],
             "text": "PRESENTACIÓN DEL CAIRO"
@@ -1056,57 +1027,56 @@
         "style": "normal"
       },
       {
--       "_key": "50fe4369bf13",
-+       "_key": "61e0d1fc1ab0",
+-       "_key": "829731fb86ba",
++       "_key": "8fa121b5f3ac",
         "_type": "block",
         "children": [
           {
--           "_key": "7f76b39eac47",
-+           "_key": "8a27cc048ce5",
+-           "_key": "e7393e0ff2cb",
++           "_key": "f19ca32e3f06",
             "_type": "span",
             "marks": [
--             "498e0eada60e"
-+             "b799b17b1365"
+-             "47028c176ea4"
++             "dc4d053ed982"
             ],
             "text": "Historia"
           }
         ],
         "markDefs": [
           {
--           "_key": "498e0eada60e",
-+           "_key": "b799b17b1365",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/historia-de-cairo/"
-+           },
+-           "_key": "47028c176ea4",
++           "_key": "dc4d053ed982",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/historia-de-cairo/"
+            },
             "_type": "externalLink",
--           "href": "/es/historia-de-cairo/",
-+           "href": "https://travel2egypt.org/es/historia-de-cairo/",
+            "href": "https://travel2egypt.org/es/historia-de-cairo/",
             "newTab": true
           }
         ],
         "style": "normal"
       },
       {
--       "_key": "3b5a40cb86b7",
-+       "_key": "8eba6a54d255",
+-       "_key": "908eae3d581f",
++       "_key": "bac8e403716e",
         "_type": "block",
         "children": [
           {
--           "_key": "a7d6dbef2019",
-+           "_key": "aafb4a25ec3b",
+-           "_key": "b8fd71f62496",
++           "_key": "d0a27845c81e",
             "_type": "span",
             "marks": [
--             "60e29634d9d7"
-+             "8002cae13d6e"
+-             "21dad2363857"
++             "db14fe1a305b"
             ],
             "text": "El tiempo"
           }
         ],
         "markDefs": [
           {
--           "_key": "60e29634d9d7",
-+           "_key": "8002cae13d6e",
+-           "_key": "21dad2363857",
++           "_key": "db14fe1a305b",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/clima-en-el-cairo/"
@@ -1119,13 +1089,13 @@
         "style": "normal"
       },
       {
--       "_key": "834700ab1492",
-+       "_key": "056dd0fbbf39",
+-       "_key": "996035186f83",
++       "_key": "32afecda2bac",
         "_type": "block",
         "children": [
           {
--           "_key": "3d03f1dee25c",
-+           "_key": "cfd9ff0f80a1",
+-           "_key": "b6813bcd5bab",
++           "_key": "37500edddcc8",
             "_type": "span",
             "marks": [],
             "text": "PLANIFICA TU VIAJE"
@@ -1135,25 +1105,25 @@
         "style": "normal"
       },
       {
--       "_key": "4e18d51cf270",
-+       "_key": "35631157cc1c",
+-       "_key": "166d9154439b",
++       "_key": "b415cc4169c1",
         "_type": "block",
         "children": [
           {
--           "_key": "cea715a0b84e",
-+           "_key": "0f3eb76accb8",
+-           "_key": "bc1e02d62854",
++           "_key": "0174942f2c00",
             "_type": "span",
             "marks": [
--             "f10082f5c626"
-+             "a1178f5c1c17"
+-             "cab6035e2188"
++             "3744d515004b"
             ],
             "text": "Cómo ir"
           }
         ],
         "markDefs": [
           {
--           "_key": "f10082f5c626",
-+           "_key": "a1178f5c1c17",
+-           "_key": "cab6035e2188",
++           "_key": "3744d515004b",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/como-ir-a-el-cairo/"
@@ -1166,25 +1136,25 @@
         "style": "normal"
       },
       {
--       "_key": "0ea3e5a5b4be",
-+       "_key": "5a19faee4396",
+-       "_key": "5cd7f7d367e8",
++       "_key": "0a703a3c1d79",
         "_type": "block",
         "children": [
           {
--           "_key": "e89b741575d2",
-+           "_key": "3e81080e105d",
+-           "_key": "86d6f90150a1",
++           "_key": "3802c1217480",
             "_type": "span",
             "marks": [
--             "cc00e18269f0"
-+             "f1f12637a8c8"
+-             "1dd89ce83c89"
++             "bca73badfdf2"
             ],
             "text": "Dónde alojarse"
           }
         ],
         "markDefs": [
           {
--           "_key": "cc00e18269f0",
-+           "_key": "f1f12637a8c8",
+-           "_key": "1dd89ce83c89",
++           "_key": "bca73badfdf2",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mejores-hoteles-en-cairo/"
@@ -1197,13 +1167,13 @@
         "style": "normal"
       },
       {
--       "_key": "840225264a7b",
-+       "_key": "4b62f1225113",
+-       "_key": "9c21475948b3",
++       "_key": "3d59515535ae",
         "_type": "block",
         "children": [
           {
--           "_key": "736e690bf2a7",
-+           "_key": "d40460c64fda",
+-           "_key": "3fc854e0e271",
++           "_key": "9b1c227166c3",
             "_type": "span",
             "marks": [],
             "text": "MIENTRAS ESTÉS ALLÍ"
@@ -1213,25 +1183,25 @@
         "style": "normal"
       },
       {
--       "_key": "4d7c1fce2452",
-+       "_key": "dceb8781dcdf",
+-       "_key": "bbba53ad3714",
++       "_key": "159d17e59a68",
         "_type": "block",
         "children": [
           {
--           "_key": "cbd3d0321c21",
-+           "_key": "e9dd206be8e6",
+-           "_key": "b86a94fbfdef",
++           "_key": "db84bbb79b09",
             "_type": "span",
             "marks": [
--             "31619cbec013"
-+             "51ab41710837"
+-             "32808fd0cddc"
++             "5a64d6f965fc"
             ],
             "text": "Cómo desplazarse"
           }
         ],
         "markDefs": [
           {
--           "_key": "31619cbec013",
-+           "_key": "51ab41710837",
+-           "_key": "32808fd0cddc",
++           "_key": "5a64d6f965fc",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/como-moverse-en-cairo/"
@@ -1244,25 +1214,25 @@
         "style": "normal"
       },
       {
--       "_key": "e3c5bae86ff4",
-+       "_key": "c59ce4d1b48f",
+-       "_key": "8b3887634ae4",
++       "_key": "0efd681ce6a4",
         "_type": "block",
         "children": [
           {
--           "_key": "6d285d8672b7",
-+           "_key": "f97dec0e19a0",
+-           "_key": "3edf3c1821ee",
++           "_key": "706c881fa1b7",
             "_type": "span",
             "marks": [
--             "16f811e760ee"
-+             "1c1f1b988ce7"
+-             "99fdc930f989"
++             "1fe19161b5f3"
             ],
             "text": "Cosas que hacer"
           }
         ],
         "markDefs": [
           {
--           "_key": "16f811e760ee",
-+           "_key": "1c1f1b988ce7",
+-           "_key": "99fdc930f989",
++           "_key": "1fe19161b5f3",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/es/guia-de-el-cairo__trashed/el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo/"
@@ -1275,13 +1245,13 @@
         "style": "normal"
       },
       {
--       "_key": "e1f1db263197",
-+       "_key": "60a70f6c3ff7",
+-       "_key": "a3d30f5324f0",
++       "_key": "0539898c1716",
         "_type": "block",
         "children": [
           {
--           "_key": "a4e34c0f0bd1",
-+           "_key": "e0e0e1fa977d",
+-           "_key": "08b5653c0891",
++           "_key": "5ac9a20eacfc",
             "_type": "span",
             "marks": [],
             "text": "LUGARES DONDE IR"
@@ -1291,25 +1261,25 @@
         "style": "normal"
       },
       {
--       "_key": "1d681f546fd2",
-+       "_key": "b2ae24d6f66a",
+-       "_key": "959c9cbafcf0",
++       "_key": "1fcfee58dc11",
         "_type": "block",
         "children": [
           {
--           "_key": "437e67b46f47",
-+           "_key": "f19d0ec90517",
+-           "_key": "53343504a201",
++           "_key": "efc814740457",
             "_type": "span",
             "marks": [
--             "e292a6303308"
-+             "6925ccb03b73"
+-             "9de2a1fed4e3"
++             "923d14942f84"
             ],
             "text": "Mezquita de Al Azhar"
           }
         ],
         "markDefs": [
           {
--           "_key": "e292a6303308",
-+           "_key": "6925ccb03b73",
+-           "_key": "9de2a1fed4e3",
++           "_key": "923d14942f84",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-de-al-azhar/"
@@ -1322,25 +1292,25 @@
         "style": "normal"
       },
       {
--       "_key": "234926849c28",
-+       "_key": "38a32e0f01d2",
+-       "_key": "257cf7f0cbab",
++       "_key": "778de1b77009",
         "_type": "block",
         "children": [
           {
--           "_key": "8c6a37a550ff",
-+           "_key": "a23ff0d05b9b",
+-           "_key": "d7467c50b65a",
++           "_key": "6aa5e42a90c3",
             "_type": "span",
             "marks": [
--             "7fdd98cd1edf"
-+             "b48a4b7422bd"
+-             "ef7c61611898"
++             "43ee3999d4c6"
             ],
             "text": "Al-Azhar a la ciudadela"
           }
         ],
         "markDefs": [
           {
--           "_key": "7fdd98cd1edf",
-+           "_key": "b48a4b7422bd",
+-           "_key": "ef7c61611898",
++           "_key": "43ee3999d4c6",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/de-al-azhar-a-la-ciudadela/"
@@ -1353,25 +1323,25 @@
         "style": "normal"
       },
       {
--       "_key": "94cc775695fe",
-+       "_key": "a8dd5990ad7a",
+-       "_key": "b73c2e2fc76f",
++       "_key": "b335a84a7a66",
         "_type": "block",
         "children": [
           {
--           "_key": "950e0ec57328",
-+           "_key": "6117dbf9d4a1",
+-           "_key": "678063ef4985",
++           "_key": "dacde5f24454",
             "_type": "span",
             "marks": [
--             "ed132fb5d4b8"
-+             "4f7c6c92f1e8"
+-             "f4d7eceb73e6"
++             "7ae314d5b400"
             ],
             "text": "Palacio Amir Taz"
           }
         ],
         "markDefs": [
           {
--           "_key": "ed132fb5d4b8",
-+           "_key": "4f7c6c92f1e8",
+-           "_key": "f4d7eceb73e6",
++           "_key": "7ae314d5b400",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/palacio-amir-taz/"
@@ -1384,25 +1354,25 @@
         "style": "normal"
       },
       {
--       "_key": "bbde0c91aaa3",
-+       "_key": "753cb1c94c7b",
+-       "_key": "11f50cc53c14",
++       "_key": "0bd3e544c6c3",
         "_type": "block",
         "children": [
           {
--           "_key": "6ba4cf1cf701",
-+           "_key": "2f88adf2ed9e",
+-           "_key": "f47d63bce61f",
++           "_key": "2c62458fa673",
             "_type": "span",
             "marks": [
--             "c7136f3f02fb"
-+             "7e70304183eb"
+-             "4c1e4e357c95"
++             "c972211bb4bc"
             ],
             "text": "Mezquita de Aqsunur"
           }
         ],
         "markDefs": [
           {
--           "_key": "c7136f3f02fb",
-+           "_key": "7e70304183eb",
+-           "_key": "4c1e4e357c95",
++           "_key": "c972211bb4bc",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-de-aqsunur/"
@@ -1415,25 +1385,25 @@
         "style": "normal"
       },
       {
--       "_key": "e1de54545159",
-+       "_key": "1984029c82ad",
+-       "_key": "b6a82afb5cd1",
++       "_key": "b4d20513e7bb",
         "_type": "block",
         "children": [
           {
--           "_key": "7b287aefadda",
-+           "_key": "c597d9205888",
+-           "_key": "cb87acf6f28a",
++           "_key": "b00bf1c14a05",
             "_type": "span",
             "marks": [
--             "872c948240bd"
-+             "3b357083726f"
+-             "b5658dab4166"
++             "a7aaa83dcc70"
             ],
             "text": "Bab Zuweila"
           }
         ],
         "markDefs": [
           {
--           "_key": "872c948240bd",
-+           "_key": "3b357083726f",
+-           "_key": "b5658dab4166",
++           "_key": "a7aaa83dcc70",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/bab-zuweila/"
@@ -1446,25 +1416,25 @@
         "style": "normal"
       },
       {
--       "_key": "4b72a36dbf48",
-+       "_key": "45a7d8dd0f9a",
+-       "_key": "08e815a19d69",
++       "_key": "2b87c97577c9",
         "_type": "block",
         "children": [
           {
--           "_key": "f156bd48eb44",
-+           "_key": "ff5390130901",
+-           "_key": "c2332de7aba6",
++           "_key": "4ca7aa378445",
             "_type": "span",
             "marks": [
--             "eab9213c979a"
-+             "cb64e74ce432"
+-             "5a419cc6b955"
++             "494867d86f7e"
             ],
             "text": "Beit Al-Harrawi"
           }
         ],
         "markDefs": [
           {
--           "_key": "eab9213c979a",
-+           "_key": "cb64e74ce432",
+-           "_key": "5a419cc6b955",
++           "_key": "494867d86f7e",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/beit-al-harrawi/"
@@ -1477,25 +1447,25 @@
         "style": "normal"
       },
       {
--       "_key": "bb641190f29f",
-+       "_key": "d009609afe23",
+-       "_key": "070f4de33735",
++       "_key": "ec87dc609881",
         "_type": "block",
         "children": [
           {
--           "_key": "334540414c4b",
-+           "_key": "c9c5e836cb88",
+-           "_key": "bcd49adaa69a",
++           "_key": "050866fc326e",
             "_type": "span",
             "marks": [
--             "e3a1e7673a66"
-+             "f3fac4cacff5"
+-             "ca6b1d9febd9"
++             "e1e56ae8a3c0"
             ],
             "text": "Beit Al-Suhaymi (Casa Al-Suhaymi)"
           }
         ],
         "markDefs": [
           {
--           "_key": "e3a1e7673a66",
-+           "_key": "f3fac4cacff5",
+-           "_key": "ca6b1d9febd9",
++           "_key": "e1e56ae8a3c0",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/beit-al-suhaymicasa-al-suhaymi/"
@@ -1508,25 +1478,25 @@
         "style": "normal"
       },
       {
--       "_key": "7edba8cc49c8",
-+       "_key": "c057385929ef",
+-       "_key": "63385bbe93b8",
++       "_key": "5cedb961d872",
         "_type": "block",
         "children": [
           {
--           "_key": "cb0ea6364683",
-+           "_key": "b46506f915a9",
+-           "_key": "4263d25fe7b6",
++           "_key": "e56a8c50c5f4",
             "_type": "span",
             "marks": [
--             "1aa34dd72f49"
-+             "0f435e18abc5"
+-             "ee4b391f8305"
++             "6fd1b6c97d5b"
             ],
             "text": "Beit Zeinab al-Khatoun"
           }
         ],
         "markDefs": [
           {
--           "_key": "1aa34dd72f49",
-+           "_key": "0f435e18abc5",
+-           "_key": "ee4b391f8305",
++           "_key": "6fd1b6c97d5b",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/beit-zeinab-al-jatun/"
@@ -1539,25 +1509,25 @@
         "style": "normal"
       },
       {
--       "_key": "6f805dac2813",
-+       "_key": "90db42c74ee7",
+-       "_key": "ae662e740da6",
++       "_key": "b4a765a57f6f",
         "_type": "block",
         "children": [
           {
--           "_key": "ca5607b4104c",
-+           "_key": "233a88cbe94d",
+-           "_key": "e65ff5be8ecb",
++           "_key": "21e15d874a97",
             "_type": "span",
             "marks": [
--             "581d05ec97eb"
-+             "d4dd39e42d43"
+-             "82434512f35c"
++             "f8024e62ef90"
             ],
             "text": "CALLE Bein al-Qasreen (Entre los dos palacios {calle})"
           }
         ],
         "markDefs": [
           {
--           "_key": "581d05ec97eb",
-+           "_key": "d4dd39e42d43",
+-           "_key": "82434512f35c",
++           "_key": "f8024e62ef90",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/calle-bein-al-qasreen/"
@@ -1570,25 +1540,25 @@
         "style": "normal"
       },
       {
--       "_key": "e07c24c2693d",
-+       "_key": "b44ff76c334b",
+-       "_key": "6d3e5406719a",
++       "_key": "da69f9a1ceb3",
         "_type": "block",
         "children": [
           {
--           "_key": "20c4549ecce2",
-+           "_key": "503c83352291",
+-           "_key": "b32eda4226e3",
++           "_key": "090f1d8f5fcd",
             "_type": "span",
             "marks": [
--             "9fa876b82e6d"
-+             "4eece758050e"
+-             "af7fdb797417"
++             "249a2cbf4dff"
             ],
             "text": "Sinagoga Ben Ezra"
           }
         ],
         "markDefs": [
           {
--           "_key": "9fa876b82e6d",
-+           "_key": "4eece758050e",
+-           "_key": "af7fdb797417",
++           "_key": "249a2cbf4dff",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/sinagoga-ben-ezra/"
@@ -1601,25 +1571,25 @@
         "style": "normal"
       },
       {
--       "_key": "d1e4a1823d28",
-+       "_key": "1bd66c9825f1",
+-       "_key": "155a228fcdbc",
++       "_key": "45fb4703ab2b",
         "_type": "block",
         "children": [
           {
--           "_key": "7dcff8695ba4",
-+           "_key": "224cc5edc7e2",
+-           "_key": "0097ace56260",
++           "_key": "cba81bea4e61",
             "_type": "span",
             "marks": [
--             "51b223d0e1c6"
-+             "3d8175436064"
+-             "d6e2775cf8a1"
++             "3a44c400dc47"
             ],
             "text": "Iglesia de Santa Bárbara"
           }
         ],
         "markDefs": [
           {
--           "_key": "51b223d0e1c6",
-+           "_key": "3d8175436064",
+-           "_key": "d6e2775cf8a1",
++           "_key": "3a44c400dc47",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/iglesia-de-santa-barbara/"
@@ -1632,25 +1602,25 @@
         "style": "normal"
       },
       {
--       "_key": "956a5ff3c6dd",
-+       "_key": "22a5a7cca3dc",
+-       "_key": "7e2c4ba010ad",
++       "_key": "19440323db3c",
         "_type": "block",
         "children": [
           {
--           "_key": "cfc73ae6a32d",
-+           "_key": "dd206960952b",
+-           "_key": "1dc89c2e83f7",
++           "_key": "41a0d64be330",
             "_type": "span",
             "marks": [
--             "5648967864a0"
-+             "f455d83d5535"
+-             "84570d3824cd"
++             "e368e259b032"
             ],
             "text": "El Cairo copto"
           }
         ],
         "markDefs": [
           {
--           "_key": "5648967864a0",
-+           "_key": "f455d83d5535",
+-           "_key": "84570d3824cd",
++           "_key": "e368e259b032",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/el-cairo-copto/"
@@ -1663,25 +1633,25 @@
         "style": "normal"
       },
       {
--       "_key": "b609b197cce3",
-+       "_key": "608bd0e44108",
+-       "_key": "9c4ff6ac3856",
++       "_key": "83c2a7bb0b30",
         "_type": "block",
         "children": [
           {
--           "_key": "cafafd087fb5",
-+           "_key": "8fdeb650331a",
+-           "_key": "255ffb3bddbf",
++           "_key": "9eb05efc1885",
             "_type": "span",
             "marks": [
--             "0c50b5e8b20c"
-+             "396d2f75bb8e"
+-             "2302ea02a7df"
++             "11af424c724d"
             ],
             "text": "Museo Textil Egipcio"
           }
         ],
         "markDefs": [
           {
--           "_key": "0c50b5e8b20c",
-+           "_key": "396d2f75bb8e",
+-           "_key": "2302ea02a7df",
++           "_key": "11af424c724d",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/museo-textil-egipcio/"
@@ -1694,25 +1664,25 @@
         "style": "normal"
       },
       {
--       "_key": "838904e44cdc",
-+       "_key": "3cb06a85b14e",
+-       "_key": "c85c8b1c55a8",
++       "_key": "572b0f3077d1",
         "_type": "block",
         "children": [
           {
--           "_key": "07e7bdaa9673",
-+           "_key": "4f5aec98f6af",
+-           "_key": "84a75da9e5f9",
++           "_key": "925d11cb4651",
             "_type": "span",
             "marks": [
--             "7fbcdc0241ae"
-+             "abb85d7fcbb4"
+-             "68a7760f7181"
++             "f1ea30f20d18"
             ],
             "text": "Terraza Gawhara"
           }
         ],
         "markDefs": [
           {
--           "_key": "7fbcdc0241ae",
-+           "_key": "abb85d7fcbb4",
+-           "_key": "68a7760f7181",
++           "_key": "f1ea30f20d18",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/terraza-gawhara/"
@@ -1725,25 +1695,25 @@
         "style": "normal"
       },
       {
--       "_key": "a03faf25878a",
-+       "_key": "a9c9b5149c01",
+-       "_key": "7e5458811a58",
++       "_key": "4649787d5ca6",
         "_type": "block",
         "children": [
           {
--           "_key": "e93ed25c2cec",
-+           "_key": "518dffe60674",
+-           "_key": "9873ca1da939",
++           "_key": "72bab1626e6e",
             "_type": "span",
             "marks": [
--             "ae12092d1eb9"
-+             "f269d2e3794b"
+-             "c022f3e1f26c"
++             "eadb574253f6"
             ],
             "text": "Museo Gayer Anderson"
           }
         ],
         "markDefs": [
           {
--           "_key": "ae12092d1eb9",
-+           "_key": "f269d2e3794b",
+-           "_key": "c022f3e1f26c",
++           "_key": "eadb574253f6",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/museo-gayer-anderson/"
@@ -1756,25 +1726,25 @@
         "style": "normal"
       },
       {
--       "_key": "ad20ec737b2b",
-+       "_key": "66662148f184",
+-       "_key": "cd8d2fe8a87b",
++       "_key": "e39a148d3612",
         "_type": "block",
         "children": [
           {
--           "_key": "64cf269031e4",
-+           "_key": "3a32c1aae7e6",
+-           "_key": "5473acde5c86",
++           "_key": "087b61bf1d66",
             "_type": "span",
             "marks": [
--             "5c929fe1a09d"
-+             "f802ea11a6af"
+-             "cbbf9a7ce1e8"
++             "c2a332ed20d3"
             ],
             "text": "Ciudadela de Ibn Tulún"
           }
         ],
         "markDefs": [
           {
--           "_key": "5c929fe1a09d",
-+           "_key": "f802ea11a6af",
+-           "_key": "cbbf9a7ce1e8",
++           "_key": "c2a332ed20d3",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/ciudadela-de-ibn-tulun/"
@@ -1787,42 +1757,42 @@
         "style": "normal"
       },
       {
--       "_key": "42927425c804",
-+       "_key": "e1289f4f45f5",
+-       "_key": "022cee89c967",
++       "_key": "67f333ee4fab",
         "_type": "block",
         "children": [
           {
--           "_key": "043f1ac4fb8b",
-+           "_key": "5329104cdd9b",
+-           "_key": "f60468203c1a",
++           "_key": "56d321fb46ea",
             "_type": "span",
             "marks": [
--             "386e32956804"
-+             "238afd32bf1f"
+-             "ca8e7034e134"
++             "f23cf987911d"
             ],
             "text": "Bazar Khan Al-Khalili (el bazar más "
           },
           {
--           "_key": "a8cb320fb228",
-+           "_key": "25a94f43ae82",
+-           "_key": "f40fe2c7ed15",
++           "_key": "4dc778950445",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "9010fcbeb28e",
-+           "_key": "e9a9db7cf949",
+-           "_key": "3fa68b94bd17",
++           "_key": "a3b617002f9f",
             "_type": "span",
             "marks": [
--             "6318df5350cb"
-+             "2766f0c7ca67"
+-             "fbf1030cca93"
++             "e75c57dadacb"
             ],
             "text": "famoso de El Cairo)"
           }
         ],
         "markDefs": [
           {
--           "_key": "386e32956804",
-+           "_key": "238afd32bf1f",
+-           "_key": "ca8e7034e134",
++           "_key": "f23cf987911d",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/bazar-khan-al-khalili/"
@@ -1832,8 +1802,8 @@
             "newTab": false
           },
           {
--           "_key": "6318df5350cb",
-+           "_key": "2766f0c7ca67",
+-           "_key": "fbf1030cca93",
++           "_key": "e75c57dadacb",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/bazar-khan-al-khalili/"
@@ -1846,42 +1816,42 @@
         "style": "normal"
       },
       {
--       "_key": "ea7f13d8c6e1",
-+       "_key": "af8daf253f6f",
+-       "_key": "921e15d882e1",
++       "_key": "d41b427de594",
         "_type": "block",
         "children": [
           {
--           "_key": "65f35def6c22",
-+           "_key": "e63466e9ee9a",
+-           "_key": "c1113f1f9786",
++           "_key": "eb2dffea3cbe",
             "_type": "span",
             "marks": [
--             "c131b2c4dbdb"
-+             "2a34aa673785"
+-             "166f821f4694"
++             "ef5366e839f4"
             ],
             "text": "Khanqah y mausoleo del sultán "
           },
           {
--           "_key": "1766b98272ff",
-+           "_key": "62fa5c201a59",
+-           "_key": "dc2ec19ae549",
++           "_key": "34e245bd0e67",
             "_type": "span",
             "marks": [],
             "text": "\n"
           },
           {
--           "_key": "a3a168f29db9",
-+           "_key": "02a834d09c7f",
+-           "_key": "06538f094242",
++           "_key": "6134bc448f2e",
             "_type": "span",
             "marks": [
--             "94334b0ba698"
-+             "6fd9ffa28469"
+-             "03a7c2417577"
++             "46faeb373a56"
             ],
             "text": "Baybars al-Gashankir"
           }
         ],
         "markDefs": [
           {
--           "_key": "c131b2c4dbdb",
-+           "_key": "2a34aa673785",
+-           "_key": "166f821f4694",
++           "_key": "ef5366e839f4",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/janqah-y-mausoleo-del-sultan-baybars-al-gashankir/"
@@ -1891,8 +1861,8 @@
             "newTab": false
           },
           {
--           "_key": "94334b0ba698",
-+           "_key": "6fd9ffa28469",
+-           "_key": "03a7c2417577",
++           "_key": "46faeb373a56",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/janqah-y-mausoleo-del-sultan-baybars-al-gashankir/"
@@ -1905,25 +1875,25 @@
         "style": "normal"
       },
       {
--       "_key": "1450ef73ea9d",
-+       "_key": "0f528e690651",
+-       "_key": "5a648054e4d1",
++       "_key": "24b27b94a9e0",
         "_type": "block",
         "children": [
           {
--           "_key": "d55211d97ad2",
-+           "_key": "e66285943d03",
+-           "_key": "40d63db7bb81",
++           "_key": "3d99feec601e",
             "_type": "span",
             "marks": [
--             "38da8f33d68a"
-+             "6136a7d45cb9"
+-             "a7f86c3588cb"
++             "5c2202700295"
             ],
             "text": "Khanqah-Mausoleo de Farag Ibn Barquq"
           }
         ],
         "markDefs": [
           {
--           "_key": "38da8f33d68a",
-+           "_key": "6136a7d45cb9",
+-           "_key": "a7f86c3588cb",
++           "_key": "5c2202700295",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/janqah-mausoleo-de-farag-ibn-barquq/"
@@ -1936,25 +1906,25 @@
         "style": "normal"
       },
       {
--       "_key": "68b6b0a93cff",
-+       "_key": "a713e6393fcf",
+-       "_key": "2cf97304ee2b",
++       "_key": "31939e6ed6c0",
         "_type": "block",
         "children": [
           {
--           "_key": "d1de6d6cead1",
-+           "_key": "0db6219cfe82",
+-           "_key": "bb5e7924a6fb",
++           "_key": "7e5d805178cf",
             "_type": "span",
             "marks": [
--             "d13fa8dd2065"
-+             "0253240bc4da"
+-             "3df581c20272"
++             "8f8bd8935908"
             ],
             "text": "Madraza y mausoleo de as-Salih Ayyub"
           }
         ],
         "markDefs": [
           {
--           "_key": "d13fa8dd2065",
-+           "_key": "0253240bc4da",
+-           "_key": "3df581c20272",
++           "_key": "8f8bd8935908",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/madrasa-y-mausoleo-de-as-salih-negm-el-din-ayyub/"
@@ -1967,25 +1937,25 @@
         "style": "normal"
       },
       {
--       "_key": "ddd8c2b54f5e",
-+       "_key": "ddc9dffe1adc",
+-       "_key": "037cb7107eeb",
++       "_key": "6a45345e807f",
         "_type": "block",
         "children": [
           {
--           "_key": "a14ec6a8a126",
-+           "_key": "1c2a5a5e5fc8",
+-           "_key": "00ef9d454416",
++           "_key": "989104931eb9",
             "_type": "span",
             "marks": [
--             "fa4df9516e11"
-+             "09aa8e8430bb"
+-             "06e2ad8330b9"
++             "6113b2fd90e2"
             ],
             "text": "Madraza y Mausoleo de Qalawun"
           }
         ],
         "markDefs": [
           {
--           "_key": "fa4df9516e11",
-+           "_key": "09aa8e8430bb",
+-           "_key": "06e2ad8330b9",
++           "_key": "6113b2fd90e2",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/madraza-y-mausoleo-de-qalawun/"
@@ -1998,25 +1968,25 @@
         "style": "normal"
       },
       {
--       "_key": "249402c9bfea",
-+       "_key": "9f414ccb387d",
+-       "_key": "a68118ece4a5",
++       "_key": "02275dffe0fb",
         "_type": "block",
         "children": [
           {
--           "_key": "a139c1935a67",
-+           "_key": "be729d76e8e6",
+-           "_key": "8dcba1b885ef",
++           "_key": "d92f56328f2a",
             "_type": "span",
             "marks": [
--             "8046fdef0c2a"
-+             "31f7478e5f6f"
+-             "83f6081f88f4"
++             "b75c2da11f58"
             ],
             "text": "Mezquita An-Nasir Mohammed Bin Qalawoon"
           }
         ],
         "markDefs": [
           {
--           "_key": "8046fdef0c2a",
-+           "_key": "31f7478e5f6f",
+-           "_key": "83f6081f88f4",
++           "_key": "b75c2da11f58",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/madrasa-y-mausoleo-de-an-nasir-mohammed-sultan/"
@@ -2029,25 +1999,25 @@
         "style": "normal"
       },
       {
--       "_key": "68793182f3ca",
-+       "_key": "186ba5e05a56",
+-       "_key": "474ad1d1ccd4",
++       "_key": "7f4130d1f4ee",
         "_type": "block",
         "children": [
           {
--           "_key": "33944b90c355",
-+           "_key": "31dc5caf3446",
+-           "_key": "b12551065448",
++           "_key": "f1b3727e834e",
             "_type": "span",
             "marks": [
--             "311f937bb02f"
-+             "aa35396177ef"
+-             "5767cb95be1f"
++             "64f336310a4d"
             ],
             "text": "Madraza y mausoleo de Barquq"
           }
         ],
         "markDefs": [
           {
--           "_key": "311f937bb02f",
-+           "_key": "aa35396177ef",
+-           "_key": "5767cb95be1f",
++           "_key": "64f336310a4d",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/madraza-y-mausoleo-de-barquq/"
@@ -2060,25 +2030,25 @@
         "style": "normal"
       },
       {
--       "_key": "7fb2055f8714",
-+       "_key": "ca60e39ad7ee",
+-       "_key": "ac28443be365",
++       "_key": "310132643574",
         "_type": "block",
         "children": [
           {
--           "_key": "58c0c3ffb578",
-+           "_key": "e0fb514ece9f",
+-           "_key": "68ed00b83e08",
++           "_key": "8d776822d212",
             "_type": "span",
             "marks": [
--             "62e7315454c6"
-+             "41defee6ce7e"
+-             "754a5ac8f4fa"
++             "d03c7741fe5d"
             ],
             "text": "Mausoleo de Al-Ghouri"
           }
         ],
         "markDefs": [
           {
--           "_key": "62e7315454c6",
-+           "_key": "41defee6ce7e",
+-           "_key": "754a5ac8f4fa",
++           "_key": "d03c7741fe5d",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mausoleo-de-al-ghouri/"
@@ -2091,25 +2061,25 @@
         "style": "normal"
       },
       {
--       "_key": "15821c93b9a5",
-+       "_key": "5e59e0b7f2c7",
+-       "_key": "586f05a1b83c",
++       "_key": "7779690f9fdd",
         "_type": "block",
         "children": [
           {
--           "_key": "6ea16970922c",
-+           "_key": "53b3804e2962",
+-           "_key": "b2aa98330e3e",
++           "_key": "e88200f20678",
             "_type": "span",
             "marks": [
--             "299091b34752"
-+             "87a3f4e80b74"
+-             "10626cb576e0"
++             "827371d46e78"
             ],
             "text": "Midan Al-Hussein (Plaza Sayedna Al-Hussein)"
           }
         ],
         "markDefs": [
           {
--           "_key": "299091b34752",
-+           "_key": "87a3f4e80b74",
+-           "_key": "10626cb576e0",
++           "_key": "827371d46e78",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/midan-al-husseinplaza-sayedna-al-hussein/"
@@ -2122,25 +2092,25 @@
         "style": "normal"
       },
       {
--       "_key": "edfa29cda12f",
-+       "_key": "79c79b0971e6",
+-       "_key": "716c6b114b83",
++       "_key": "dbc1ebb2a15f",
         "_type": "block",
         "children": [
           {
--           "_key": "9f6b35eb2528",
-+           "_key": "5e082274c69d",
+-           "_key": "43ebec560b67",
++           "_key": "aa22820b2a63",
             "_type": "span",
             "marks": [
--             "52d191926bea"
-+             "474b1e8c253d"
+-             "5fcd8ae160f7"
++             "5b3ceded6aef"
             ],
             "text": "Mezquita de Al-Hakim"
           }
         ],
         "markDefs": [
           {
--           "_key": "52d191926bea",
-+           "_key": "474b1e8c253d",
+-           "_key": "5fcd8ae160f7",
++           "_key": "5b3ceded6aef",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-de-al-hakim/"
@@ -2153,25 +2123,25 @@
         "style": "normal"
       },
       {
--       "_key": "3b83d202150d",
-+       "_key": "66038ffc8790",
+-       "_key": "7047f1f94594",
++       "_key": "e33f0e7589a0",
         "_type": "block",
         "children": [
           {
--           "_key": "63492a555ef6",
-+           "_key": "41b19cdfd247",
+-           "_key": "f0d8b5c5b112",
++           "_key": "fe4adb500076",
             "_type": "span",
             "marks": [
--             "961cb7a17891"
-+             "661e6d60f692"
+-             "8826289cf2b5"
++             "40ddc0e627f1"
             ],
             "text": "Mezquita de Al-Mu’ayyad Shaykh"
           }
         ],
         "markDefs": [
           {
--           "_key": "961cb7a17891",
-+           "_key": "661e6d60f692",
+-           "_key": "8826289cf2b5",
++           "_key": "40ddc0e627f1",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-del-sheij-al-muayyad/"
@@ -2184,25 +2154,25 @@
         "style": "normal"
       },
       {
--       "_key": "04b18c385fa5",
-+       "_key": "9c830014328d",
+-       "_key": "addb9e07e485",
++       "_key": "2d170b360b49",
         "_type": "block",
         "children": [
           {
--           "_key": "fb8c33d4684e",
-+           "_key": "4fd4ff2cc5c9",
+-           "_key": "f9b6443f5340",
++           "_key": "4a2ea9d361c4",
             "_type": "span",
             "marks": [
--             "28fdb20dc1b1"
-+             "8d0b44b77c39"
+-             "1a9fdc9fb3a9"
++             "4b9dd8a66ca0"
             ],
             "text": "Mezquita de al-Aqmar"
           }
         ],
         "markDefs": [
           {
--           "_key": "28fdb20dc1b1",
-+           "_key": "8d0b44b77c39",
+-           "_key": "1a9fdc9fb3a9",
++           "_key": "4b9dd8a66ca0",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-de-al-aqmar/"
@@ -2215,25 +2185,25 @@
         "style": "normal"
       },
       {
--       "_key": "6141512eddeb",
-+       "_key": "31f7a51d4a1f",
+-       "_key": "01c4f009441e",
++       "_key": "cd00ccb64652",
         "_type": "block",
         "children": [
           {
--           "_key": "cdeef974531f",
-+           "_key": "efd301a51001",
+-           "_key": "d01c2922e752",
++           "_key": "7edf204d01fb",
             "_type": "span",
             "marks": [
--             "54606d84ab92"
-+             "3ea8425f8c57"
+-             "9cc163e78341"
++             "0d71e6609061"
             ],
             "text": "Mezquita de Amr ibn al-As"
           }
         ],
         "markDefs": [
           {
--           "_key": "54606d84ab92",
-+           "_key": "3ea8425f8c57",
+-           "_key": "9cc163e78341",
++           "_key": "0d71e6609061",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-de-amr-ibn-al-as/"
@@ -2246,25 +2216,25 @@
         "style": "normal"
       },
       {
--       "_key": "6546bd7c5caf",
-+       "_key": "45c1eb974859",
+-       "_key": "dbddab6e03cd",
++       "_key": "3c74015f2cb3",
         "_type": "block",
         "children": [
           {
--           "_key": "91c58da46d63",
-+           "_key": "73cca41d67e8",
+-           "_key": "2406d11d753a",
++           "_key": "d615783a677b",
             "_type": "span",
             "marks": [
--             "2a30023802ef"
-+             "8817ba4100d4"
+-             "14a7c76b7b84"
++             "c716fc165908"
             ],
             "text": "Mezquita de An-Nasir Mohammed"
           }
         ],
         "markDefs": [
           {
--           "_key": "2a30023802ef",
-+           "_key": "8817ba4100d4",
+-           "_key": "14a7c76b7b84",
++           "_key": "c716fc165908",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/madrasa-y-mausoleo-de-an-nasir-mohammed-sultan/"
@@ -2277,25 +2247,25 @@
         "style": "normal"
       },
       {
--       "_key": "802d33a61f6e",
-+       "_key": "89c304b9b03e",
+-       "_key": "6c4edcf424f1",
++       "_key": "305b750e09e7",
         "_type": "block",
         "children": [
           {
--           "_key": "b65b1eb0c257",
-+           "_key": "6b89c1c8630f",
+-           "_key": "2201a4e4eb31",
++           "_key": "72e6ad1d9d9f",
             "_type": "span",
             "marks": [
--             "e4cfcb778565"
-+             "2a6e0d672a5f"
+-             "9d3e83789e3b"
++             "0d41fd481729"
             ],
             "text": "Mezquita de Aslam al-Silahdar"
           }
         ],
         "markDefs": [
           {
--           "_key": "e4cfcb778565",
-+           "_key": "2a6e0d672a5f",
+-           "_key": "9d3e83789e3b",
++           "_key": "0d41fd481729",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-de-aslam-al-silahdar/"
@@ -2308,25 +2278,25 @@
         "style": "normal"
       },
       {
--       "_key": "0f3d43c8b911",
-+       "_key": "da75191109cd",
+-       "_key": "fe19d64e91cb",
++       "_key": "abf24d1cfba7",
         "_type": "block",
         "children": [
           {
--           "_key": "8271cade51a0",
-+           "_key": "07d584ac124a",
+-           "_key": "9a8b58057d3d",
++           "_key": "0911bb0cb806",
             "_type": "span",
             "marks": [
--             "ec19a5e598ad"
-+             "acf8f4954795"
+-             "ff4ba19f4584"
++             "611a2e339141"
             ],
             "text": "Mezquita de Ibn Tulún"
           }
         ],
         "markDefs": [
           {
--           "_key": "ec19a5e598ad",
-+           "_key": "acf8f4954795",
+-           "_key": "ff4ba19f4584",
++           "_key": "611a2e339141",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-de-ibn-tulun/"
@@ -2339,25 +2309,25 @@
         "style": "normal"
       },
       {
--       "_key": "138f83423bc4",
-+       "_key": "3b7eb059886b",
+-       "_key": "50eeab97ac57",
++       "_key": "4f3d6bfbefca",
         "_type": "block",
         "children": [
           {
--           "_key": "cccc627ddbdc",
-+           "_key": "b38e0bad5462",
+-           "_key": "01a430db0bb3",
++           "_key": "c5fa11f74667",
             "_type": "span",
             "marks": [
--             "932066282014"
-+             "300cf8de3920"
+-             "46e2d8f8ed43"
++             "5fb744c20d7e"
             ],
             "text": "Mezquita de Mohammed Ali"
           }
         ],
         "markDefs": [
           {
--           "_key": "932066282014",
-+           "_key": "300cf8de3920",
+-           "_key": "46e2d8f8ed43",
++           "_key": "5fb744c20d7e",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-de-mohammed-ali/"
@@ -2370,25 +2340,25 @@
         "style": "normal"
       },
       {
--       "_key": "db72acf2d153",
-+       "_key": "61d7f51185b6",
+-       "_key": "f69516fdf707",
++       "_key": "07d7f8e67cf2",
         "_type": "block",
         "children": [
           {
--           "_key": "f9cc72856ee1",
-+           "_key": "f88b3ce4031d",
+-           "_key": "593e31b4425f",
++           "_key": "9afbca0c3edc",
             "_type": "span",
             "marks": [
--             "2023edb4eb15"
-+             "986655faff53"
+-             "0323b753664b"
++             "7841f54406e9"
             ],
             "text": "Mezquita de Sayyidna al-Hussein"
           }
         ],
         "markDefs": [
           {
--           "_key": "2023edb4eb15",
-+           "_key": "986655faff53",
+-           "_key": "0323b753664b",
++           "_key": "7841f54406e9",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-de-sayyidna-al-hussein/"
@@ -2401,25 +2371,25 @@
         "style": "normal"
       },
       {
--       "_key": "99cc8a968bce",
-+       "_key": "8866be5a9795",
+-       "_key": "b6f7c285eb59",
++       "_key": "899c4c1a8d52",
         "_type": "block",
         "children": [
           {
--           "_key": "edfbe7658655",
-+           "_key": "fa6be265d2b1",
+-           "_key": "7564676acb30",
++           "_key": "becf50207bae",
             "_type": "span",
             "marks": [
--             "50e5c3b34ed2"
-+             "318da6fa03a5"
+-             "c3bf2ddf5956"
++             "56c9b01fb9f9"
             ],
             "text": "Mezquita-Madraza de Al-Ghouri"
           }
         ],
         "markDefs": [
           {
--           "_key": "50e5c3b34ed2",
-+           "_key": "318da6fa03a5",
+-           "_key": "c3bf2ddf5956",
++           "_key": "56c9b01fb9f9",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-madrasa-de-al-ghouri/"
@@ -2432,25 +2402,25 @@
         "style": "normal"
       },
       {
--       "_key": "c9029180a3eb",
-+       "_key": "18ad51b20e47",
+-       "_key": "2103401ed4fb",
++       "_key": "faa75eec8356",
         "_type": "block",
         "children": [
           {
--           "_key": "e22776c43158",
-+           "_key": "ce0f719000c5",
+-           "_key": "5f7d1dd395c9",
++           "_key": "9f08d23993e3",
             "_type": "span",
             "marks": [
--             "436662b0d37a"
-+             "51a7eb982f0f"
+-             "00d50e16ef70"
++             "d16dbf4a0bbb"
             ],
             "text": "Mezquita-Madraza del Sultán Hassan"
           }
         ],
         "markDefs": [
           {
--           "_key": "436662b0d37a",
-+           "_key": "51a7eb982f0f",
+-           "_key": "00d50e16ef70",
++           "_key": "d16dbf4a0bbb",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-madrasa-del-sultan-hassan/"
@@ -2463,25 +2433,25 @@
         "style": "normal"
       },
       {
--       "_key": "035fe6725a4e",
-+       "_key": "bafa92df8e87",
+-       "_key": "8195f4affb0e",
++       "_key": "95e6995e30d6",
         "_type": "block",
         "children": [
           {
--           "_key": "75210ae5e6d1",
-+           "_key": "619930a37c07",
+-           "_key": "a4bc166bbf50",
++           "_key": "2c8ef07f6330",
             "_type": "span",
             "marks": [
--             "f6bc364040c1"
-+             "8d7bb069a051"
+-             "4c4fc339c729"
++             "5828ad342d76"
             ],
             "text": "Mezquita-Madraza de Umm Sultan Sha’aban"
           }
         ],
         "markDefs": [
           {
--           "_key": "f6bc364040c1",
-+           "_key": "8d7bb069a051",
+-           "_key": "4c4fc339c729",
++           "_key": "5828ad342d76",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/mezquita-y-madrasa-de-umm-sultan-shaaban/"
@@ -2494,25 +2464,25 @@
         "style": "normal"
       },
       {
--       "_key": "7f8d089f3f4e",
-+       "_key": "854826586c21",
+-       "_key": "9ace65022da4",
++       "_key": "499c927c7f31",
         "_type": "block",
         "children": [
           {
--           "_key": "4a8cb1f23bc5",
-+           "_key": "666ec58d18cd",
+-           "_key": "34c3664d2a8d",
++           "_key": "f32437f55352",
             "_type": "span",
             "marks": [
--             "dfd886cae997"
-+             "af391b419ed7"
+-             "8d1fb735a0cf"
++             "3699937bbd65"
             ],
             "text": "Museo Mevleví"
           }
         ],
         "markDefs": [
           {
--           "_key": "dfd886cae997",
-+           "_key": "af391b419ed7",
+-           "_key": "8d1fb735a0cf",
++           "_key": "3699937bbd65",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/museo-mevlevi/"
@@ -2525,25 +2495,25 @@
         "style": "normal"
       },
       {
--       "_key": "11744dfa2720",
-+       "_key": "f9610042859e",
+-       "_key": "69bb596d7875",
++       "_key": "7a0231ce5777",
         "_type": "block",
         "children": [
           {
--           "_key": "8cc52b1180b2",
-+           "_key": "597b6bb4e315",
+-           "_key": "b7d5bd073adf",
++           "_key": "2967503aebcb",
             "_type": "span",
             "marks": [
--             "6b1f06127ee2"
-+             "4d68d8b51e1f"
+-             "0847ff972f48"
++             "aed8b352530e"
             ],
             "text": "Museo de Arte Islámico"
           }
         ],
         "markDefs": [
           {
--           "_key": "6b1f06127ee2",
-+           "_key": "4d68d8b51e1f",
+-           "_key": "0847ff972f48",
++           "_key": "aed8b352530e",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/museo-de-arte-islamico/"
@@ -2556,25 +2526,25 @@
         "style": "normal"
       },
       {
--       "_key": "26cc972aae5f",
-+       "_key": "34fa8e4350ec",
+-       "_key": "540f9edfbc15",
++       "_key": "e3ea2b5e8adb",
         "_type": "block",
         "children": [
           {
--           "_key": "4c90614ff60f",
-+           "_key": "26e46f529203",
+-           "_key": "2f338f19cc7f",
++           "_key": "5d897a861055",
             "_type": "span",
             "marks": [
--             "b5d3930eda2a"
-+             "d093b0bd0dec"
+-             "a9dc0ac84764"
++             "943cda0f8b98"
             ],
             "text": "Cementerio del Norte"
           }
         ],
         "markDefs": [
           {
--           "_key": "b5d3930eda2a",
-+           "_key": "d093b0bd0dec",
+-           "_key": "a9dc0ac84764",
++           "_key": "943cda0f8b98",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/cementerio-del-norte/"
@@ -2587,25 +2557,25 @@
         "style": "normal"
       },
       {
--       "_key": "196412ccd262",
-+       "_key": "08983f05ae47",
+-       "_key": "a680a9e437b5",
++       "_key": "b36e4a8de1b4",
         "_type": "block",
         "children": [
           {
--           "_key": "91c7e4430ed5",
-+           "_key": "f66c0513f88e",
+-           "_key": "fc0a3ec2f6a9",
++           "_key": "bab099513e28",
             "_type": "span",
             "marks": [
--             "0ae1f34e7b88"
-+             "8a08fbe17cac"
+-             "681c75a947fc"
++             "2b29183f07d1"
             ],
             "text": "Recinto Norte"
           }
         ],
         "markDefs": [
           {
--           "_key": "0ae1f34e7b88",
-+           "_key": "8a08fbe17cac",
+-           "_key": "681c75a947fc",
++           "_key": "2b29183f07d1",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/recinto-norte/"
@@ -2618,25 +2588,25 @@
         "style": "normal"
       },
       {
--       "_key": "91b72b04be44",
-+       "_key": "36b04b3773e8",
+-       "_key": "cd84e5addfb8",
++       "_key": "1dc068d9d3a4",
         "_type": "block",
         "children": [
           {
--           "_key": "34e5bb04807a",
-+           "_key": "9538f7fd9455",
+-           "_key": "22eef0874723",
++           "_key": "cde7b9593755",
             "_type": "span",
             "marks": [
--             "92b19d56a95a"
-+             "46fcfca06fc9"
+-             "0f0e20f1e391"
++             "e84a7d6218bf"
             ],
             "text": "Murallas del Norte y Puertas"
           }
         ],
         "markDefs": [
           {
--           "_key": "92b19d56a95a",
-+           "_key": "46fcfca06fc9",
+-           "_key": "0f0e20f1e391",
++           "_key": "e84a7d6218bf",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/muros-y-puertas-del-norte/"
@@ -2649,25 +2619,25 @@
         "style": "normal"
       },
       {
--       "_key": "02325845188a",
-+       "_key": "f3f1d98c63c8",
+-       "_key": "e95ceb2ae649",
++       "_key": "8f8d872baea4",
         "_type": "block",
         "children": [
           {
--           "_key": "43779a6a88df",
-+           "_key": "c8a65cfc1ec4",
+-           "_key": "583b5ffe4edb",
++           "_key": "fcce37e3ae0f",
             "_type": "span",
             "marks": [
--             "451a93df935c"
-+             "7198acc1f68f"
+-             "24c8b611e07a"
++             "77cd9baa28ca"
             ],
             "text": "Sabil y Kuttab de Abdel Rahman Katkhuda"
           }
         ],
         "markDefs": [
           {
--           "_key": "451a93df935c",
-+           "_key": "7198acc1f68f",
+-           "_key": "24c8b611e07a",
++           "_key": "77cd9baa28ca",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/sabil-y-kuttab-de-abdel-rahman-katkhuda/"
@@ -2680,25 +2650,25 @@
         "style": "normal"
       },
       {
--       "_key": "505675412cf2",
-+       "_key": "3bbc7df35cd4",
+-       "_key": "b73942ba81b9",
++       "_key": "3b52207e929d",
         "_type": "block",
         "children": [
           {
--           "_key": "985058767a94",
-+           "_key": "cc85a7da195a",
+-           "_key": "1f39d8bd1aa3",
++           "_key": "e31f722bc1c3",
             "_type": "span",
             "marks": [
--             "3e92fde5876e"
-+             "e021a75e02c7"
+-             "2ad63b5da872"
++             "7ec35426d7d5"
             ],
             "text": "Sabil de Muhammed Ali Pasha"
           }
         ],
         "markDefs": [
           {
--           "_key": "3e92fde5876e",
-+           "_key": "e021a75e02c7",
+-           "_key": "2ad63b5da872",
++           "_key": "7ec35426d7d5",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/sabil-de-muhammed-ali-pacha/"
@@ -2711,25 +2681,25 @@
         "style": "normal"
       },
       {
--       "_key": "71b35966b7ca",
-+       "_key": "65948f9ee471",
+-       "_key": "585411875639",
++       "_key": "fd17b0be8cc7",
         "_type": "block",
         "children": [
           {
--           "_key": "f705211f75e9",
-+           "_key": "56a3786d07aa",
+-           "_key": "acb1001c65ec",
++           "_key": "928bbe7c9375",
             "_type": "span",
             "marks": [
--             "4142d7e392da"
-+             "0bd1a237c9f9"
+-             "8ffd078e82f5"
++             "0a5aa45ad57e"
             ],
             "text": "Sharia al-Muizz li-Din Allah"
           }
         ],
         "markDefs": [
           {
--           "_key": "4142d7e392da",
-+           "_key": "0bd1a237c9f9",
+-           "_key": "8ffd078e82f5",
++           "_key": "0a5aa45ad57e",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/sharia-al-muizz-li-din-allah/"
@@ -2742,25 +2712,25 @@
         "style": "normal"
       },
       {
--       "_key": "4a4b86be41c1",
-+       "_key": "c5c7166c5b58",
+-       "_key": "8713066aba4e",
++       "_key": "b7da21722068",
         "_type": "block",
         "children": [
           {
--           "_key": "70612654ffa7",
-+           "_key": "eea7a22e10d7",
+-           "_key": "9924d5c50950",
++           "_key": "a00bda1ca035",
             "_type": "span",
             "marks": [
--             "2729d482ac16"
-+             "58a17fbdc6f7"
+-             "9d4bdde343b9"
++             "e17fa18bf3af"
             ],
             "text": "Iglesia de San Sergio y Baco"
           }
         ],
         "markDefs": [
           {
--           "_key": "2729d482ac16",
-+           "_key": "58a17fbdc6f7",
+-           "_key": "9d4bdde343b9",
++           "_key": "e17fa18bf3af",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/iglesia-de-san-sergio-y-baco/"
@@ -2773,25 +2743,25 @@
         "style": "normal"
       },
       {
--       "_key": "7d38ea842b40",
-+       "_key": "c490e6b0b339",
+-       "_key": "0394d72e449d",
++       "_key": "7028c44b7b5a",
         "_type": "block",
         "children": [
           {
--           "_key": "793208694c4c",
-+           "_key": "aedc33180b45",
+-           "_key": "2cecf3b91149",
++           "_key": "d97fcceec8d7",
             "_type": "span",
             "marks": [
--             "e938dbd5f0fd"
-+             "4d8bc0e280bb"
+-             "3df08b9d7408"
++             "44145783529f"
             ],
             "text": "Ciudadela de Saladino"
           }
         ],
         "markDefs": [
           {
--           "_key": "e938dbd5f0fd",
-+           "_key": "4d8bc0e280bb",
+-           "_key": "3df08b9d7408",
++           "_key": "44145783529f",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/la-ciudadela-de-saladino/"
@@ -2804,25 +2774,25 @@
         "style": "normal"
       },
       {
--       "_key": "de094310a939",
-+       "_key": "cc67931d9c3b",
+-       "_key": "52aba51177e3",
++       "_key": "fdc75fdab94f",
         "_type": "block",
         "children": [
           {
--           "_key": "c1f6c9c9ab65",
-+           "_key": "0473301ea90b",
+-           "_key": "fc61ff0e7034",
++           "_key": "1d18188f03fc",
             "_type": "span",
             "marks": [
--             "5b8d390545fa"
-+             "a6eb7c9be9d7"
+-             "a0cb71efd057"
++             "3a1f232a7284"
             ],
             "text": "Complejo del Sultán Ashraf Barsbey"
           }
         ],
         "markDefs": [
           {
--           "_key": "5b8d390545fa",
-+           "_key": "a6eb7c9be9d7",
+-           "_key": "a0cb71efd057",
++           "_key": "3a1f232a7284",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/el-complejo-del-sultan-ashraf-barsbey/"
@@ -2835,25 +2805,25 @@
         "style": "normal"
       },
       {
--       "_key": "775bcb2f03ad",
-+       "_key": "b2afa5aa4db1",
+-       "_key": "a6def563cb9c",
++       "_key": "1052c66d6454",
         "_type": "block",
         "children": [
           {
--           "_key": "ccc3bfbdce30",
-+           "_key": "c09be88172f6",
+-           "_key": "059750505c43",
++           "_key": "fc6f6b673312",
             "_type": "span",
             "marks": [
--             "8918ab673e34"
-+             "2e718681525d"
+-             "acccbdbfa319"
++             "241b3b1b7e00"
             ],
             "text": "Museo Copto (el único museo copto de Egipto)"
           }
         ],
         "markDefs": [
           {
--           "_key": "8918ab673e34",
-+           "_key": "2e718681525d",
+-           "_key": "acccbdbfa319",
++           "_key": "241b3b1b7e00",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/el-museo-copto/"
@@ -2866,25 +2836,25 @@
         "style": "normal"
       },
       {
--       "_key": "09768119305a",
-+       "_key": "ec1d4ea7c9c9",
+-       "_key": "bf369ceca677",
++       "_key": "cebbfec213b7",
         "_type": "block",
         "children": [
           {
--           "_key": "1ef34aace2e9",
-+           "_key": "b0797c56d9c5",
+-           "_key": "b7f5716bb245",
++           "_key": "7c9fcf680fe3",
             "_type": "span",
             "marks": [
--             "997653c61d2f"
-+             "e5f62766b368"
+-             "bd5fcea8e96d"
++             "2e456a020c61"
             ],
             "text": "Museo Egipcio"
           }
         ],
         "markDefs": [
           {
--           "_key": "997653c61d2f",
-+           "_key": "e5f62766b368",
+-           "_key": "bd5fcea8e96d",
++           "_key": "2e456a020c61",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/el-museo-egipcio/"
@@ -2897,25 +2867,25 @@
         "style": "normal"
       },
       {
--       "_key": "9fcbff5f26d2",
-+       "_key": "5f373c752478",
+-       "_key": "6b589ec53f57",
++       "_key": "d7b99cd6afab",
         "_type": "block",
         "children": [
           {
--           "_key": "2dcde3aeabfa",
-+           "_key": "7f221ec2ab61",
+-           "_key": "24b4ecf296a7",
++           "_key": "bbd3aa4858b0",
             "_type": "span",
             "marks": [
--             "5114f52def9b"
-+             "96c3577e7b8e"
+-             "57e8fa82897f"
++             "5c3d18a02a12"
             ],
             "text": "Iglesia Colgante"
           }
         ],
         "markDefs": [
           {
--           "_key": "5114f52def9b",
-+           "_key": "96c3577e7b8e",
+-           "_key": "57e8fa82897f",
++           "_key": "5c3d18a02a12",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/la-iglesia-colgante/"
@@ -2928,25 +2898,25 @@
         "style": "normal"
       },
       {
--       "_key": "ee3e53b4979e",
-+       "_key": "82cd0e020cc5",
+-       "_key": "e6b5472ca131",
++       "_key": "d087ce56eaf4",
         "_type": "block",
         "children": [
           {
--           "_key": "f08ea07421ae",
-+           "_key": "e4c5729238f7",
+-           "_key": "1a0274e843d6",
++           "_key": "c6fae718232b",
             "_type": "span",
             "marks": [
--             "d297cf29700e"
-+             "573c9a95c597"
+-             "97f0aa27a72d"
++             "37748baa1939"
             ],
             "text": "Complejo de Khayrbek"
           }
         ],
         "markDefs": [
           {
--           "_key": "d297cf29700e",
-+           "_key": "573c9a95c597",
+-           "_key": "97f0aa27a72d",
++           "_key": "37748baa1939",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/el-complejo-khayrbek/"
@@ -2959,25 +2929,25 @@
         "style": "normal"
       },
       {
--       "_key": "e684c128cd4c",
-+       "_key": "ad843b81f78a",
+-       "_key": "0e833c26d025",
++       "_key": "95271126771e",
         "_type": "block",
         "children": [
           {
--           "_key": "6dcbed808f66",
-+           "_key": "53bc41e7632a",
+-           "_key": "0aa569a19374",
++           "_key": "971fafce4af5",
             "_type": "span",
             "marks": [
--             "2f5dda23ab65"
-+             "f79e867e6fb8"
+-             "4e1c792f77a9"
++             "6c56f3998355"
             ],
             "text": "Mezquita del Sultán Qaitbey"
           }
         ],
         "markDefs": [
           {
--           "_key": "2f5dda23ab65",
-+           "_key": "f79e867e6fb8",
+-           "_key": "4e1c792f77a9",
++           "_key": "6c56f3998355",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/la-mezquita-del-sultan-qaitbey/"
@@ -2990,25 +2960,25 @@
         "style": "normal"
       },
       {
--       "_key": "197fd648ef56",
-+       "_key": "73ac80e7b947",
+-       "_key": "d3cc08e44ae1",
++       "_key": "68248bad0e0a",
         "_type": "block",
         "children": [
           {
--           "_key": "5beb4ccd5f7d",
-+           "_key": "1a1265b97b71",
+-           "_key": "d76527cd94e6",
++           "_key": "8cc5228bcc6c",
             "_type": "span",
             "marks": [
--             "010d4730a737"
-+             "d20c4fccb92f"
+-             "3b6489a9349d"
++             "a5ef8e938853"
             ],
             "text": "Torres Romanas"
           }
         ],
         "markDefs": [
           {
--           "_key": "010d4730a737",
-+           "_key": "d20c4fccb92f",
+-           "_key": "3b6489a9349d",
++           "_key": "a5ef8e938853",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/las-torres-romanas/"
@@ -3021,25 +2991,25 @@
         "style": "normal"
       },
       {
--       "_key": "73ece3785a8d",
-+       "_key": "2c05ff9b0976",
+-       "_key": "cf143ae05b03",
++       "_key": "9c274e2df9a2",
         "_type": "block",
         "children": [
           {
--           "_key": "fbfcee7cb031",
-+           "_key": "cbf1f1758d10",
+-           "_key": "4c03693651de",
++           "_key": "e5dd296182a3",
             "_type": "span",
             "marks": [
--             "3a79954bf92a"
-+             "461692d5654e"
+-             "4e442e1fd340"
++             "60be9e3b2d13"
             ],
             "text": "Wikala al-Bazara"
           }
         ],
         "markDefs": [
           {
--           "_key": "3a79954bf92a",
-+           "_key": "461692d5654e",
+-           "_key": "4e442e1fd340",
++           "_key": "60be9e3b2d13",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/wikala-al-bazara/"
@@ -3052,25 +3022,25 @@
         "style": "normal"
       },
       {
--       "_key": "4ea242b74371",
-+       "_key": "eff3174ddfad",
+-       "_key": "3c2eeed48ea6",
++       "_key": "dcf0309041ed",
         "_type": "block",
         "children": [
           {
--           "_key": "e2ff7ee3f8c1",
-+           "_key": "8e6b7b483e1f",
+-           "_key": "d151d214f3d4",
++           "_key": "2905d2c7d61e",
             "_type": "span",
             "marks": [
--             "391af0e32321"
-+             "65887ccf24c4"
+-             "5b69e45d7e3d"
++             "933ba71d2e55"
             ],
             "text": "Wikala de Al-Ghouri"
           }
         ],
         "markDefs": [
           {
--           "_key": "391af0e32321",
-+           "_key": "65887ccf24c4",
+-           "_key": "5b69e45d7e3d",
++           "_key": "933ba71d2e55",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/wikala-de-al-ghouri/"
@@ -3083,13 +3053,13 @@
         "style": "normal"
       },
       {
--       "_key": "7184b35106f4",
-+       "_key": "934413967507",
+-       "_key": "fa5133ff86c3",
++       "_key": "b0c975f45b12",
         "_type": "block",
         "children": [
           {
--           "_key": "f418546a953f",
-+           "_key": "275341a53a22",
+-           "_key": "ea9e7ca4f63b",
++           "_key": "bc702e0a6f93",
             "_type": "span",
             "marks": [],
             "text": "OTROS"
@@ -3099,57 +3069,56 @@
         "style": "normal"
       },
       {
--       "_key": "3aefa9cde4fb",
-+       "_key": "29fc6785a052",
+-       "_key": "2000b8c83793",
++       "_key": "015eafb26e34",
         "_type": "block",
         "children": [
           {
--           "_key": "0a2397314449",
-+           "_key": "72df63fab385",
+-           "_key": "884cbd1b183b",
++           "_key": "f9f8a919ea62",
             "_type": "span",
             "marks": [
--             "1591ed837364"
-+             "5f0abe8396d4"
+-             "1bc247673a3d"
++             "816e21277465"
             ],
             "text": "Visitas"
           }
         ],
         "markDefs": [
           {
--           "_key": "1591ed837364",
-+           "_key": "5f0abe8396d4",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/tours-destacados-en-el-cairo/"
-+           },
+-           "_key": "1bc247673a3d",
++           "_key": "816e21277465",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/tours-destacados-en-el-cairo/"
+            },
             "_type": "externalLink",
--           "href": "/es/tours-destacados-en-el-cairo/",
-+           "href": "https://travel2egypt.org/es/tours-destacados-en-el-cairo/",
+            "href": "https://travel2egypt.org/es/tours-destacados-en-el-cairo/",
             "newTab": false
           }
         ],
         "style": "normal"
       },
       {
--       "_key": "d61380d55162",
-+       "_key": "38f72622e777",
+-       "_key": "1c0d7279d654",
++       "_key": "ef792b1bfe3d",
         "_type": "block",
         "children": [
           {
--           "_key": "3bcd04584396",
-+           "_key": "0d88c03af06e",
+-           "_key": "1aeefdad1983",
++           "_key": "98517063213e",
             "_type": "span",
             "marks": [
--             "62fc2fb5901c"
-+             "7a9fffd5d92b"
+-             "2235d2668362"
++             "08cec65b83ae"
             ],
             "text": "Alimentación"
           }
         ],
         "markDefs": [
           {
--           "_key": "62fc2fb5901c",
-+           "_key": "7a9fffd5d92b",
+-           "_key": "2235d2668362",
++           "_key": "08cec65b83ae",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/guia-gastronomica-de-el-cairo/"
@@ -3162,57 +3131,56 @@
         "style": "normal"
       },
       {
--       "_key": "e624125449a7",
-+       "_key": "af5972bf3037",
+-       "_key": "92b6afc4798d",
++       "_key": "d567ab397571",
         "_type": "block",
         "children": [
           {
--           "_key": "d4834fd3dff0",
-+           "_key": "be65097ef5b6",
+-           "_key": "10ed52785f83",
++           "_key": "b21cc58467cb",
             "_type": "span",
             "marks": [
--             "97d3f7988833"
-+             "9d7049573fba"
+-             "9462a79652a6"
++             "5a7b507a986a"
             ],
             "text": "Sólo aquí"
           }
         ],
         "markDefs": [
           {
--           "_key": "97d3f7988833",
-+           "_key": "9d7049573fba",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/lo-mejor-de-el-cairo/"
-+           },
+-           "_key": "9462a79652a6",
++           "_key": "5a7b507a986a",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/lo-mejor-de-el-cairo/"
+            },
             "_type": "externalLink",
--           "href": "/es/lo-mejor-de-el-cairo/",
-+           "href": "https://travel2egypt.org/es/lo-mejor-de-el-cairo/",
+            "href": "https://travel2egypt.org/es/lo-mejor-de-el-cairo/",
             "newTab": false
           }
         ],
         "style": "normal"
       },
       {
--       "_key": "1dd1ff00179e",
-+       "_key": "4c27473270eb",
+-       "_key": "bd5815840e5a",
++       "_key": "3054bff7ce60",
         "_type": "block",
         "children": [
           {
--           "_key": "de533065da15",
-+           "_key": "78fa1f6c8abf",
+-           "_key": "cce094cec85c",
++           "_key": "281f0ad8f8f4",
             "_type": "span",
             "marks": [
--             "31cc99c12044"
-+             "38e704976189"
+-             "2d23aec9979d"
++             "ae5ee83704c2"
             ],
             "text": "Eventos"
           }
         ],
         "markDefs": [
           {
--           "_key": "31cc99c12044",
-+           "_key": "38e704976189",
+-           "_key": "2d23aec9979d",
++           "_key": "ae5ee83704c2",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/eventos-en-el-cairo/"
@@ -3225,8 +3193,8 @@
         "style": "normal"
       },
       {
--       "_key": "e5440e0a3f0a",
-+       "_key": "6bc4b8282555",
+-       "_key": "7551d71356d2",
++       "_key": "a9dfdeddf556",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
         "_type": "image",
         "alt": [
@@ -3243,8 +3211,8 @@
         ]
       },
       {
--       "_key": "0d9f1509a3b7",
-+       "_key": "0dc58c6d2e53",
+-       "_key": "652b0f72ea46",
++       "_key": "5a968befeb3d",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
         "_type": "image",
         "alt": [
@@ -3265,6 +3233,5 @@
       "_type": "slug",
       "current": "el-cairo"
     },
--   "summary": "Descubre el corazón de Egipto: Guía completa de El Cairo Sumérgete en la esencia de Egipto con nuestra enriquecida Guía de Viaje de El Cairo. Como bulliciosa capital, El Cairo es un faro de historia, cultura y modernidad. No es sólo la ciudad más grande de Egipto, sino un pivote "
-+   "summary": "Sumérgete en la esencia de Egipto con nuestra enriquecida Guía de Viaje de El Cairo. Como bulliciosa capital, El Cairo es un faro de historia, cultura y modernidad.…"
+    "summary": "Sumérgete en la esencia de Egipto con nuestra enriquecida Guía de Viaje de El Cairo. Como bulliciosa capital, El Cairo es un faro de historia, cultura y modernidad.…"
   }

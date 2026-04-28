@@ -1,0 +1,35 @@
+{
+  "fieldOutcomes": [
+    {
+      "field": "migration",
+      "outcome": "created"
+    },
+    {
+      "field": "name",
+      "outcome": "created"
+    },
+    {
+      "field": "overview",
+      "outcome": "created"
+    },
+    {
+      "field": "slug",
+      "outcome": "created"
+    },
+    {
+      "field": "summary",
+      "outcome": "created"
+    }
+  ],
+  "fieldTypes": {
+    "_id": "string",
+    "_type": "string",
+    "name": "array",
+    "slug": "array",
+    "summary": "array",
+    "overview": "array",
+    "migration": "object"
+  },
+  "createMode": true,
+  "description": "CREATE-mode synthetic, no hero (covers any *-travel-guide city without featured_media on first import)"
+}

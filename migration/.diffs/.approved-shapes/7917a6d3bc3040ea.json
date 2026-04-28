@@ -1,0 +1,60 @@
+{
+  "fieldOutcomes": [
+    {
+      "field": "_createdAt",
+      "outcome": "preserved-no-wp"
+    },
+    {
+      "field": "_rev",
+      "outcome": "preserved-no-wp"
+    },
+    {
+      "field": "_updatedAt",
+      "outcome": "preserved-no-wp"
+    },
+    {
+      "field": "heroImage",
+      "outcome": "unchanged"
+    },
+    {
+      "field": "migration",
+      "outcome": "overwritten"
+    },
+    {
+      "field": "name",
+      "outcome": "unchanged"
+    },
+    {
+      "field": "overview",
+      "outcome": "i18n-merged",
+      "localesTouched": [
+        "en",
+        "es",
+        "ja"
+      ]
+    },
+    {
+      "field": "slug",
+      "outcome": "unchanged"
+    },
+    {
+      "field": "summary",
+      "outcome": "unchanged"
+    }
+  ],
+  "fieldTypes": {
+    "_createdAt": "string",
+    "_id": "string",
+    "_rev": "string",
+    "_type": "string",
+    "_updatedAt": "string",
+    "heroImage": "object",
+    "migration": "object",
+    "name": "array",
+    "overview": "array",
+    "slug": "array",
+    "summary": "array"
+  },
+  "createMode": false,
+  "description": "UPDATE no-editorial-fields, with hero (Wadi-al-Natron post-Step-5b)"
+}

@@ -1,82 +1,67 @@
 --- before:en
 +++ after:en
   {
--   "name": "Cairo Travel Guide",
-+   "name": "Cairo",
+    "name": "Cairo",
     "overview": [
       {
--       "_key": "1cfc4b797b40",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "e41273b08f13",
--           "_type": "span",
--           "marks": [],
--           "text": "Discover the Heart of Egypt: A Comprehensive Cairo Travel Guide"
--         }
--       ],
--       "markDefs": [],
--       "style": "h2"
--     },
--     {
--       "_key": "8386557803a1",
-+       "_key": "443807a58d9e",
+-       "_key": "f3488268d4dd",
++       "_key": "f41fcefa6592",
         "_type": "block",
         "children": [
           {
--           "_key": "b74765381e41",
-+           "_key": "3c035c167df9",
+-           "_key": "b1c8666e5bd4",
++           "_key": "7dcb7d813b69",
             "_type": "span",
             "marks": [],
             "text": "Dive into the essence of Egypt with our enriched Cairo Travel Guide. As the bustling capital city, "
           },
           {
--           "_key": "0290c98c931c",
-+           "_key": "6e47d2ca7029",
+-           "_key": "e438d69f22c1",
++           "_key": "0a862000396b",
             "_type": "span",
             "marks": [
--             "4de53c83b8cb"
-+             "15d991e3ff9f"
+-             "1417943a02b2"
++             "d1f5cd44a11d"
             ],
             "text": "Cairo"
           },
           {
--           "_key": "edda05e2192b",
-+           "_key": "8af8e4def6fb",
+-           "_key": "3b1abb525b38",
++           "_key": "0aa0b33e661a",
             "_type": "span",
             "marks": [],
             "text": " stands as a beacon of history, culture, and modernity. It’s not just the largest city in Egypt but a pivotal one on the African continent, and a significant urban center in the Middle East and the Arab world. With the 15th-largest metropolitan area globally, Cairo is a tapestry woven with the threads of ancient civilizations, notably showcased by the majestic Giza "
           },
           {
--           "_key": "2849ee5e1d08",
-+           "_key": "80abf122b1e3",
+-           "_key": "fba139d8e134",
++           "_key": "562a0cc77efd",
             "_type": "span",
             "marks": [
--             "b95bef15ac98"
-+             "cbb70e461e6b"
+-             "cdc820dab891"
++             "a44ccde14dda"
             ],
             "text": "pyramid"
           },
           {
--           "_key": "22cf4fcaead5",
-+           "_key": "486e0b0367c8",
+-           "_key": "59b8d3453fbe",
++           "_key": "aa43a3f839c2",
             "_type": "span",
             "marks": [],
             "text": " complex and the historic ruins of "
           },
           {
--           "_key": "f75668587015",
-+           "_key": "206beb93422c",
+-           "_key": "da236c7b17a8",
++           "_key": "7e3f59ba7d97",
             "_type": "span",
             "marks": [
--             "078f4f4633ce"
-+             "80ca132ae0d1"
+-             "d4ab10e0d98f"
++             "e74a74e22de1"
             ],
             "text": "Memphis"
           },
           {
--           "_key": "abfaeccb50a7",
-+           "_key": "16744ef3d9d8",
+-           "_key": "db5cb8df3766",
++           "_key": "42734bcf3b47",
             "_type": "span",
             "marks": [],
             "text": " nestled within its embrace."
@@ -84,8 +69,8 @@
         ],
         "markDefs": [
           {
--           "_key": "4de53c83b8cb",
-+           "_key": "15d991e3ff9f",
+-           "_key": "1417943a02b2",
++           "_key": "d1f5cd44a11d",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/cairo-private-day-tours/"
@@ -95,8 +80,8 @@
             "newTab": false
           },
           {
--           "_key": "b95bef15ac98",
-+           "_key": "cbb70e461e6b",
+-           "_key": "cdc820dab891",
++           "_key": "a44ccde14dda",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/full-day-trip-to-cairo-by-plane-from-sharm-el-sheikh/"
@@ -106,8 +91,8 @@
             "newTab": false
           },
           {
--           "_key": "078f4f4633ce",
-+           "_key": "80ca132ae0d1",
+-           "_key": "d4ab10e0d98f",
++           "_key": "e74a74e22de1",
             "_type": "externalLink",
             "href": "https://www.britannica.com/place/Memphis-ancient-city-Egypt",
             "newTab": true
@@ -116,32 +101,32 @@
         "style": "normal"
       },
       {
--       "_key": "2e93939d2ede",
-+       "_key": "ed82fad04fde",
+-       "_key": "983177b527bd",
++       "_key": "d4957ea62db5",
         "_type": "block",
         "children": [
           {
--           "_key": "9a0e9f10d6e8",
-+           "_key": "d6d066ddd923",
+-           "_key": "1d2ff9698ee8",
++           "_key": "1cb9073da338",
             "_type": "span",
             "marks": [],
             "text": "Nestled by the fertile banks of the Nile Delta, the modern silhouette of Cairo was sketched in 969 CE by the visionary Fatimid dynasty. Yet, the land on which today’s city flourishes whispers tales of ancient capitals, their legacy etched in the stones of "
           },
           {
--           "_key": "0d793c1ba8ac",
-+           "_key": "7adf583a094d",
+-           "_key": "c934b908134e",
++           "_key": "a0d8abef857f",
             "_type": "span",
             "marks": [
--             "a8d9b083bde9"
-+             "4110165b7daf"
+-             "81118781ffba"
++             "f28f10b0c39b"
             ],
             "text": "Old Cairo."
           }
         ],
         "markDefs": [
           {
--           "_key": "a8d9b083bde9",
-+           "_key": "4110165b7daf",
+-           "_key": "81118781ffba",
++           "_key": "f28f10b0c39b",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/private-tour-the-grand-old-cairo-tour/"
@@ -154,13 +139,13 @@
         "style": "normal"
       },
       {
--       "_key": "f9f93eba5141",
-+       "_key": "b125a4869721",
+-       "_key": "da3ba4ff48c5",
++       "_key": "e4b96ddc295e",
         "_type": "block",
         "children": [
           {
--           "_key": "04726bb1549e",
-+           "_key": "809c13263fdb",
+-           "_key": "3a8e1acfc6c2",
++           "_key": "fa9a78fb0c29",
             "_type": "span",
             "marks": [],
             "text": "Cairo has forever pulsed as the heart of political and cultural vibrancy in the region, earning the moniker “the city of a thousand minarets” due to its rich tapestry of Islamic architecture. This city is a recognized World City, proudly bearing a “Beta +” classification from the Globalization and World Cities Research Network (GaWC)."
@@ -170,13 +155,13 @@
         "style": "normal"
       },
       {
--       "_key": "116b508a52a1",
-+       "_key": "68048527b676",
+-       "_key": "fe542a8e0946",
++       "_key": "7ca53ffd3582",
         "_type": "block",
         "children": [
           {
--           "_key": "6361727e25d7",
-+           "_key": "939bf6798b11",
+-           "_key": "288e35f443c6",
++           "_key": "5cdd32c57aeb",
             "_type": "span",
             "marks": [],
             "text": "Home to over 19 million souls across 3,085 square kilometers, Cairo’s expanse outstrips any other Egyptian city. Its urban sprawl is further augmented by an additional 9.5 million residents living in its vicinity. Yet, amidst its grandeur, Cairo faces the challenges of pollution and congestion, akin to other global megacities."
@@ -186,13 +171,13 @@
         "style": "normal"
       },
       {
--       "_key": "4617bca2cca4",
-+       "_key": "a45d19b2880c",
+-       "_key": "765d4c4e4404",
++       "_key": "157cd2a484ef",
         "_type": "block",
         "children": [
           {
--           "_key": "8674235686ad",
-+           "_key": "4713bf241b53",
+-           "_key": "6666bb38e5e1",
++           "_key": "4ae3e1887a8d",
             "_type": "span",
             "marks": [],
             "text": "The Cairo metro system, one of only two in Africa (alongside Algiers, Algeria), is among the world’s busiest, serving over 4 million passengers annually. Economically, Cairo has led the Middle East since 2005 and ranked 43rd globally on Foreign Policy’s 2010 Global Cities Index."
@@ -202,13 +187,13 @@
         "style": "normal"
       },
       {
--       "_key": "9fac5235742c",
-+       "_key": "e0c97e6fb371",
+-       "_key": "08ce1a8718a0",
++       "_key": "1baea0b292c0",
         "_type": "block",
         "children": [
           {
--           "_key": "ff20fb67f9d2",
-+           "_key": "0123fd1db9d2",
+-           "_key": "23c561009967",
++           "_key": "e8a299e2bc09",
             "_type": "span",
             "marks": [],
             "text": "Etymology and the Essence of Cairo"
@@ -218,13 +203,13 @@
         "style": "h2"
       },
       {
--       "_key": "613b761be93a",
-+       "_key": "d55bbbe797e5",
+-       "_key": "05d52007a443",
++       "_key": "df71fca597d2",
         "_type": "block",
         "children": [
           {
--           "_key": "069622823838",
-+           "_key": "08c16f608fd9",
+-           "_key": "0934310d3376",
++           "_key": "2f2ebc42a643",
             "_type": "span",
             "marks": [],
             "text": "Locally referred to as Maṣr, mirroring the Egyptian Arabic term for Egypt, Cairo’s name underscores its integral role within the nation. Its official name, al-Qāhirah, translates to “the Vanquisher” or “the Conqueror,” a nod to the celestial alignment of Mars, known as “the Conquering Star,” during the city’s foundation. This name also celebrates the arrival of Fatimid Caliph Al-Mu’izz, who established Cairo as a capital upon his arrival from Mahdia. The ancient city of Heliopolis, now the suburb of Ain Shams (“Eye of the Sun”), marks another historical layer of this multifaceted city."
@@ -234,47 +219,47 @@
         "style": "normal"
       },
       {
--       "_key": "b53661a96bab",
-+       "_key": "3c2a182ca802",
+-       "_key": "f88256ad4e30",
++       "_key": "9f20f0cf27bf",
         "_type": "block",
         "children": [
           {
--           "_key": "a88c0ef1ca8a",
-+           "_key": "d47fadbc7298",
+-           "_key": "5afb357911be",
++           "_key": "929092dec7dc",
             "_type": "span",
             "marks": [],
             "text": "Cairo’s skyline, dotted with the “thousand minarets,” offers a panorama of attractions captivating visitors worldwide. Highlights include the awe-inspiring "
           },
           {
--           "_key": "b417fc937e0a",
-+           "_key": "f95e6f7e4754",
+-           "_key": "009c378272a6",
++           "_key": "43f1dd887f65",
             "_type": "span",
             "marks": [
--             "8cf1f0bbe042"
-+             "bd148f90e5c4"
+-             "ff9ad6485575"
++             "7606619c5883"
             ],
             "text": "Pyramids of Giza"
           },
           {
--           "_key": "6abc689ed4c5",
-+           "_key": "42c22cd4a723",
+-           "_key": "012f9b47441d",
++           "_key": "e44047339885",
             "_type": "span",
             "marks": [],
             "text": ", the treasure trove of the Egyptian Museum of Antiquities, the architectural marvel of the Step Pyramids at Saqqara, and the historic Citadel of Saladin. The city’s religious heritage is magnificently displayed at the Mosque of Mohamed Ali and the "
           },
           {
--           "_key": "5183681dee89",
-+           "_key": "0fedb8d1764d",
+-           "_key": "5a8e6f1b361f",
++           "_key": "ee7b3e5195a1",
             "_type": "span",
             "marks": [
--             "7f9e9aac6e68"
-+             "852502f83788"
+-             "a5dd97f68774"
++             "20e160bbe86f"
             ],
             "text": "Mosque of Amr"
           },
           {
--           "_key": "32492a9d6fc5",
-+           "_key": "f5a4a414dc73",
+-           "_key": "04dae05487cb",
++           "_key": "6ef792f40adb",
             "_type": "span",
             "marks": [],
             "text": " Ibn El Aas, the first mosque built in Africa."
@@ -282,8 +267,8 @@
         ],
         "markDefs": [
           {
--           "_key": "8cf1f0bbe042",
-+           "_key": "bd148f90e5c4",
+-           "_key": "ff9ad6485575",
++           "_key": "7606619c5883",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/pyramids-of-giza-sphinx-egyptian-museum-khan-el-khalili-tour/"
@@ -293,8 +278,8 @@
             "newTab": false
           },
           {
--           "_key": "7f9e9aac6e68",
-+           "_key": "852502f83788",
+-           "_key": "a5dd97f68774",
++           "_key": "20e160bbe86f",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-mosque-of-amr-ibn-al-as/"
@@ -307,30 +292,30 @@
         "style": "normal"
       },
       {
--       "_key": "2196791f185a",
-+       "_key": "fe0cec8dd4aa",
+-       "_key": "fd55657cabaa",
++       "_key": "a2657af4ab49",
         "_type": "block",
         "children": [
           {
--           "_key": "65e66fdfb9c3",
-+           "_key": "9e960bf42b5f",
+-           "_key": "6f84fceee9e5",
++           "_key": "aa45a90a1835",
             "_type": "span",
             "marks": [],
             "text": "The vibrant tapestry of Cairo’s history is further adorned with Coptic Cairo, home to iconic Coptic landmarks like the famous "
           },
           {
--           "_key": "fa97efc07a93",
-+           "_key": "77dc837d045a",
+-           "_key": "d6a2417217c1",
++           "_key": "dba8dcc67bc8",
             "_type": "span",
             "marks": [
--             "fa38db1ea488"
-+             "aba41e7e8eb0"
+-             "2d0ea3e5c171"
++             "55aeb8aff23e"
             ],
             "text": "Hanging Church"
           },
           {
--           "_key": "7125f1474209",
-+           "_key": "c35293ab7e8f",
+-           "_key": "8a7014a5ed39",
++           "_key": "7b0c0179a826",
             "_type": "span",
             "marks": [],
             "text": " and the Coptic Museum. For a taste of Cairo’s bustling market life, Khan El Khalili stands as the most renowned tourist market globally."
@@ -338,8 +323,8 @@
         ],
         "markDefs": [
           {
--           "_key": "fa38db1ea488",
-+           "_key": "aba41e7e8eb0",
+-           "_key": "2d0ea3e5c171",
++           "_key": "55aeb8aff23e",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/cairo/the-hanging-church/"
@@ -352,13 +337,13 @@
         "style": "normal"
       },
       {
--       "_key": "4134be8abe2b",
-+       "_key": "ef131b446b5e",
+-       "_key": "6c1e62b29851",
++       "_key": "1cc59c363d70",
         "_type": "block",
         "children": [
           {
--           "_key": "14a837f115c8",
-+           "_key": "92bcc134f437",
+-           "_key": "26e78b25ec00",
++           "_key": "6155517209f2",
             "_type": "span",
             "marks": [],
             "text": "Cairo is also the cradle of the oldest and most influential film and music industries in the Arab world, alongside hosting Al-Azhar University, the world’s second-oldest institution of higher learning. With many international media and organizations setting their regional headquarters here, and the Arab League calling Cairo home for much of its history, the city is a dynamic nexus of global and regional influence."
@@ -368,13 +353,13 @@
         "style": "normal"
       },
       {
--       "_key": "545a26cb34fc",
-+       "_key": "2a8cd40e7e0d",
+-       "_key": "fe2a0720be20",
++       "_key": "dcea5da0c326",
         "_type": "block",
         "children": [
           {
--           "_key": "c06e46535116",
-+           "_key": "a37f4c90b486",
+-           "_key": "82f225712015",
++           "_key": "6f06c9607099",
             "_type": "span",
             "marks": [],
             "text": "Explore Cairo, where history and modernity converge, offering a journey through time and an embrace of the new. This city is not just a destination but a vibrant chapter in the story of civilization."
@@ -384,1974 +369,8 @@
         "style": "normal"
       },
       {
--       "_key": "1c0504299f72",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "d7e93389f374",
--           "_type": "span",
--           "marks": [],
--           "text": "Created On March 18, 2020"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "69db22f74eec",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "e69337c6fd88",
--           "_type": "span",
--           "marks": [],
--           "text": "Updated On Aug , 2024"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "21301d2a5793",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "129ccd03d19f",
--           "_type": "span",
--           "marks": [],
--           "text": "CAIRO Travel Guide"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "4e1b411714b1",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "835dda8b4da4",
--           "_type": "span",
--           "marks": [],
--           "text": "INTRODUCING CAIRO"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "dfdb3778aa54",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "3298eedc010a",
--           "_type": "span",
--           "marks": [
--             "3f6d22f63683"
--           ],
--           "text": "History"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "3f6d22f63683",
--           "_type": "externalLink",
--           "href": "/cairo-travel-guide/history-chronicles",
--           "newTab": true
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "ea7b9cdf1d04",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "ae460e51cbd4",
--           "_type": "span",
--           "marks": [
--             "f02bb8e0a406"
--           ],
--           "text": "Weather"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "f02bb8e0a406",
--           "_type": "externalLink",
--           "href": "/weather-in-cairo",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "97c9c35cc56a",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "dc07ee34d5ef",
--           "_type": "span",
--           "marks": [],
--           "text": "PLAN YOUR TRIP"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "a3c56eaa4835",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "f6beab5d2d69",
--           "_type": "span",
--           "marks": [
--             "cad29d3e61dc"
--           ],
--           "text": "How To Go"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "cad29d3e61dc",
--           "_type": "externalLink",
--           "href": "/cairo-travel-guide/how-to-go/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "8b3781b5ca6b",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "507efbf9439e",
--           "_type": "span",
--           "marks": [
--             "a0a368f17efe"
--           ],
--           "text": "Where To Stay"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "a0a368f17efe",
--           "_type": "externalLink",
--           "href": "/cairo-travel-guide/accommodations-stays",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "0fbbf9fac951",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "169c78d32718",
--           "_type": "span",
--           "marks": [],
--           "text": "WHILE YOU ARE THERE"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "6961ce3e8efd",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "939d41eda8d7",
--           "_type": "span",
--           "marks": [
--             "8155d0743010"
--           ],
--           "text": "Getting Around"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "8155d0743010",
--           "_type": "externalLink",
--           "href": "/cairo-travel-guide/travel-conquering",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "ae59a5f55756",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "cff409429fce",
--           "_type": "span",
--           "marks": [
--             "cb11e33931d6"
--           ],
--           "text": "Things To Do"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "cb11e33931d6",
--           "_type": "externalLink",
--           "href": "/cairo-travel-guide/activities-heart",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "ec95b3a13139",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "41cd57379dab",
--           "_type": "span",
--           "marks": [],
--           "text": "PLACES TO GO"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "ed67e4a790dc",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "abaae1d1311e",
--           "_type": "span",
--           "marks": [
--             "0c5929712bf2"
--           ],
--           "text": "Al-Azhar Mosque"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "0c5929712bf2",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/al-azhar-mosque/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/al-azhar-mosque/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "bec3c3cca8c2",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "086f4c889ee6",
--           "_type": "span",
--           "marks": [
--             "5704c3520a9a"
--           ],
--           "text": "Al-Azhar To The Citadel"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "5704c3520a9a",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/al-azhar-to-the-citadel/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/al-azhar-to-the-citadel/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "4f8a679448a7",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "a80c461c0af1",
--           "_type": "span",
--           "marks": [
--             "97612d457c6d"
--           ],
--           "text": "Amir Taz Palace"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "97612d457c6d",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/amir-taz-palace/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/amir-taz-palace/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "6dfc64d48cfd",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "e5d8d04bbb5d",
--           "_type": "span",
--           "marks": [
--             "99d61997482f"
--           ],
--           "text": "Aqsunur’s Mosque"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "99d61997482f",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/aqsunurs-mosque/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/aqsunurs-mosque/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "df3305367649",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "2eb3bb188981",
--           "_type": "span",
--           "marks": [
--             "b00e7cdfbf68"
--           ],
--           "text": "Bab Zuweila"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "b00e7cdfbf68",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/bab-zuweila/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/bab-zuweila/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "22984f55b1e0",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "dc379ccbc7b6",
--           "_type": "span",
--           "marks": [
--             "b2183a2289dc"
--           ],
--           "text": "Beit Al-Harrawi"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "b2183a2289dc",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/beit-al-harrawi/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/beit-al-harrawi/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "89e1a0c229e5",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "40dcd646df45",
--           "_type": "span",
--           "marks": [
--             "863923c9cad6"
--           ],
--           "text": "Beit Al-Suhaymi (Al-Suhaymi House)"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "863923c9cad6",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/beit-al-suhaymi-al-suhaymi-house/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/beit-al-suhaymi-al-suhaymi-house/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "263f793b268d",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "0aa7a68e12c2",
--           "_type": "span",
--           "marks": [
--             "4d3eae8a6867"
--           ],
--           "text": "Beit Zeinab al-Khatoun"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "4d3eae8a6867",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/beit-zeinab-al-khatoun/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/beit-zeinab-al-khatoun/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "9a783a664ac6",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "0b32b0db8cae",
--           "_type": "span",
--           "marks": [
--             "ddf8d2d6ccd0"
--           ],
--           "text": "Bein al-Qasreen STREET (Between The Two Palaces {Street})"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "ddf8d2d6ccd0",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/bein-al-qasreen-street/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/bein-al-qasreen-street/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "3bee91dd2b54",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "bbdf82e6791d",
--           "_type": "span",
--           "marks": [
--             "1871b951c71a"
--           ],
--           "text": "Ben Ezra Synagogue"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "1871b951c71a",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/ben-ezra-synagogue/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/ben-ezra-synagogue/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "74e08fad7e8e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "4f9b1eae8ed3",
--           "_type": "span",
--           "marks": [
--             "bf94e571572a"
--           ],
--           "text": "Church of St. Barbara"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "bf94e571572a",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/church-of-st-barbara/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/church-of-st-barbara/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "19b83652fed0",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "ca6218ecbf78",
--           "_type": "span",
--           "marks": [
--             "6127704978bc"
--           ],
--           "text": "Coptic Cairo"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "6127704978bc",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/egypt-travel-guide/coptic-cairo/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/egypt-travel-guide/coptic-cairo/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "61eca982cc34",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "b2ce711d5eea",
--           "_type": "span",
--           "marks": [
--             "3d5cacb1a290"
--           ],
--           "text": "Egyptian Textile Museum"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "3d5cacb1a290",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/egyptian-textile-museum/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/egyptian-textile-museum/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "87ed1fc0bca3",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "668d30a45ab8",
--           "_type": "span",
--           "marks": [
--             "8bf16920d8da"
--           ],
--           "text": "Gawhara Terrace"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "8bf16920d8da",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/gawhara-terrace/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/gawhara-terrace/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "dc7e042fd32e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "dd79619c531e",
--           "_type": "span",
--           "marks": [
--             "95468cea144f"
--           ],
--           "text": "Gayer-Anderson Museum"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "95468cea144f",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/gayer-anderson-museum/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/gayer-anderson-museum/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "6e754378113e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "06079a3bf008",
--           "_type": "span",
--           "marks": [
--             "fa396c21d169"
--           ],
--           "text": "Ibn Tulun Citadel"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "fa396c21d169",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/ibn-tulun-citadel/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/ibn-tulun-citadel/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "196058f5f091",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "6c156489e153",
--           "_type": "span",
--           "marks": [
--             "3a267940d2fa"
--           ],
--           "text": "Khan Al-Khalili Bazaar (Cairo’s Most Famous Bazaar)"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "3a267940d2fa",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/khan-al-khalili-bazaar/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/khan-al-khalili-bazaar/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "d294ac9c271a",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "31884dbe7e8a",
--           "_type": "span",
--           "marks": [
--             "746352bd891c"
--           ],
--           "text": "Khanqah & Mausoleum of Sultan Baybars al-Gashankir"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "746352bd891c",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/khanqah-mausoleum-of-sultan-baybars-al-gashankir/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/khanqah-mausoleum-of-sultan-baybars-al-gashankir/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "000cecbc358e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "b93c233c848b",
--           "_type": "span",
--           "marks": [
--             "472110ba3b42"
--           ],
--           "text": "Khanqah-Mausoleum of Farag Ibn Barquq"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "472110ba3b42",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/khanqah-mausoleum-of-farag-ibn-barquq/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/khanqah-mausoleum-of-farag-ibn-barquq/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "7d695022adff",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "52438fb25846",
--           "_type": "span",
--           "marks": [
--             "b8b88c9b6321"
--           ],
--           "text": "Madrassa & Mausoleum of as-Salih Ayyub"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "b8b88c9b6321",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/madrassa-mausoleum-of-as-salih-ayyu/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/madrassa-mausoleum-of-as-salih-ayyu/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "f08ad67bf85e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "c59e2eae1ee9",
--           "_type": "span",
--           "marks": [
--             "0d6e0e0f341b"
--           ],
--           "text": "Madrassa & Mausoleum of Qalawun"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "0d6e0e0f341b",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/madrassa-mausoleum-of-qalawun/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/madrassa-mausoleum-of-qalawun/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "c567491b31f1",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "65e4046ab4c4",
--           "_type": "span",
--           "marks": [
--             "ea637c965d56"
--           ],
--           "text": "An-Nasir Mohammed Bin Qalawoon Mosque"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "ea637c965d56",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/an-nasir-mohammed-bin-qalawoon-mosque/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/an-nasir-mohammed-bin-qalawoon-mosque/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "1ec854917fa1",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "daad3f1e7a7c",
--           "_type": "span",
--           "marks": [
--             "0f6f18370f95"
--           ],
--           "text": "Madrassa And Mausoleum of Barquq"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "0f6f18370f95",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/madrassa-and-mausoleum-of-barquq/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/madrassa-and-mausoleum-of-barquq/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "01b5b04da480",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "c194570701a8",
--           "_type": "span",
--           "marks": [
--             "27dab7075e7d"
--           ],
--           "text": "Mausoleum of Al-Ghouri"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "27dab7075e7d",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mausoleum-of-al-ghouri/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mausoleum-of-al-ghouri/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "b06e13bd4958",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "a2c4ea1f39bf",
--           "_type": "span",
--           "marks": [
--             "d87eff081d23"
--           ],
--           "text": "Midan Al-Hussein (Sayedna Al-Hussein Square)"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "d87eff081d23",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/midan-al-hussein/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/midan-al-hussein/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "84601929e1ad",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "4c1d62b945d1",
--           "_type": "span",
--           "marks": [
--             "1b0f33ead3d7"
--           ],
--           "text": "Mosque of Al-Hakim"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "1b0f33ead3d7",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-of-al-hakim/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-of-al-hakim/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "73c9cf3f80c8",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "1b1990528f76",
--           "_type": "span",
--           "marks": [
--             "90c74a765393"
--           ],
--           "text": "Mosque of Al-Mu’ayyad Shaykh"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "90c74a765393",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-of-al-muayyad-shaykh/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-of-al-muayyad-shaykh/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "5ae5b608ef7d",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "022876fb9886",
--           "_type": "span",
--           "marks": [
--             "d20ef0681a6a"
--           ],
--           "text": "Mosque of al-Aqmar"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "d20ef0681a6a",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-of-al-aqmar/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-of-al-aqmar/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "65492bbf809d",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "ded56c63a611",
--           "_type": "span",
--           "marks": [
--             "299a62b0231d"
--           ],
--           "text": "Mosque of Amr ibn al-As"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "299a62b0231d",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-of-amr-ibn-al-as/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-of-amr-ibn-al-as/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "c974e2ec4930",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "70a4266f1a43",
--           "_type": "span",
--           "marks": [
--             "52b88d7b55ed"
--           ],
--           "text": "Mosque of An-Nasir Mohammed"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "52b88d7b55ed",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/an-nasir-mohammed-bin-qalawoon-mosque/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/an-nasir-mohammed-bin-qalawoon-mosque/",
--           "newTab": true
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "99ec8d23c189",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "bb55e8997fc5",
--           "_type": "span",
--           "marks": [
--             "76d65eae9760"
--           ],
--           "text": "Mosque of Aslam al-Silahdar"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "76d65eae9760",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-of-aslam-al-silahdar/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-of-aslam-al-silahdar/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "c27fcf33ccee",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "c5471eac64fb",
--           "_type": "span",
--           "marks": [
--             "e6d4c0760bd5"
--           ],
--           "text": "Mosque of Ibn Tulun"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "e6d4c0760bd5",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-of-ibn-tulun/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-of-ibn-tulun/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "4e0c652b8b19",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "a3cd0cff888a",
--           "_type": "span",
--           "marks": [
--             "e32274f95e35"
--           ],
--           "text": "Mosque of Mohammed Ali"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "e32274f95e35",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-of-mohammed-ali/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-of-mohammed-ali/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "a8f1a4b64655",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "9adfbf3ff411",
--           "_type": "span",
--           "marks": [
--             "3b91cbb7ab6f"
--           ],
--           "text": "Mosque of Sayyidna al-Hussein"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "3b91cbb7ab6f",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-of-sayyidna-al-hussein/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-of-sayyidna-al-hussein/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "df54a5f9814c",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "747b08610694",
--           "_type": "span",
--           "marks": [
--             "ee34b56b724c"
--           ],
--           "text": "Mosque-Madrassa of Al-Ghouri"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "ee34b56b724c",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-madrassa-of-al-ghouri/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-madrassa-of-al-ghouri/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "19c2c4094314",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "e2c433438c10",
--           "_type": "span",
--           "marks": [
--             "63533f4df74a"
--           ],
--           "text": "Mosque-Madrassa of Sultan Hassan"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "63533f4df74a",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-madrassa-of-sultan-hassan/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-madrassa-of-sultan-hassan/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "6661ab7f16f4",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "cfd61e0e47ae",
--           "_type": "span",
--           "marks": [
--             "1ef64cae6d60"
--           ],
--           "text": "Mosque-Madrassa of Umm Sultan Sha’aban"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "1ef64cae6d60",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/mosque-madrassa-of-umm-sultan-shaaban/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/mosque-madrassa-of-umm-sultan-shaaban/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "cebd152c760c",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "37f90a559e7a",
--           "_type": "span",
--           "marks": [
--             "e04188ef9e9c"
--           ],
--           "text": "Museo Mevlevi"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "e04188ef9e9c",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/museo-mevlevi/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/museo-mevlevi/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "26bc7660f092",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "bf363c2788bd",
--           "_type": "span",
--           "marks": [
--             "d18b69b9cacc"
--           ],
--           "text": "Museum of Islamic Art"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "d18b69b9cacc",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/museum-of-islamic-art/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/museum-of-islamic-art/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "ad21b643d06d",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "f830a76fba98",
--           "_type": "span",
--           "marks": [
--             "5fce89a0b919"
--           ],
--           "text": "Northern Cemetery"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "5fce89a0b919",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/northern-cemetery/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/northern-cemetery/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "41b4570b1c7a",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "18c0b088f452",
--           "_type": "span",
--           "marks": [
--             "7754b36d84b3"
--           ],
--           "text": "Northern Enclosure"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "7754b36d84b3",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/northern-enclosure/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/northern-enclosure/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "de21b5f2dad9",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "fcbad40e9a06",
--           "_type": "span",
--           "marks": [
--             "b43cb5e9b92e"
--           ],
--           "text": "Northern Walls and Gates"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "b43cb5e9b92e",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/northern-walls-and-gates/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/northern-walls-and-gates/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "19dfc6346df3",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "6f44149c6db3",
--           "_type": "span",
--           "marks": [
--             "a9a89a91337e"
--           ],
--           "text": "Sabil And Kuttab Of Abdel Rahman Katkhuda"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "a9a89a91337e",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/sabil-and-kuttab-of-abdel-rahman-katkhuda/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/sabil-and-kuttab-of-abdel-rahman-katkhuda/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "af26cf9cf3ce",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "0d8d0e903b27",
--           "_type": "span",
--           "marks": [
--             "8109a1f847ae"
--           ],
--           "text": "Sabil of Muhammed Ali Pasha"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "8109a1f847ae",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/sabil-of-muhammed-ali-pasha/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/sabil-of-muhammed-ali-pasha/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "9cafba2d385e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "c335a1c4cb1a",
--           "_type": "span",
--           "marks": [
--             "76630e86d286"
--           ],
--           "text": "Sharia al-Muizz li-Din Allah"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "76630e86d286",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/sharia-al-muizz-li-din-allah/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/sharia-al-muizz-li-din-allah/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "c84ee69f3864",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "9b8980f2bacc",
--           "_type": "span",
--           "marks": [
--             "8048a23714a9"
--           ],
--           "text": "The Church of St Sergius & Bacchus"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "8048a23714a9",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/church-of-st-sergius-bacchus/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/church-of-st-sergius-bacchus/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "a822bef6a86e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "87fa48acbaf9",
--           "_type": "span",
--           "marks": [
--             "a8af181680e4"
--           ],
--           "text": "The Citadel Of Saladin"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "a8af181680e4",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-citadel-of-saladin/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/the-citadel-of-saladin/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "901fd8608cee",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "bdef01a8d6d4",
--           "_type": "span",
--           "marks": [
--             "2a763c2d78bd"
--           ],
--           "text": "The Complex of Sultan Ashraf Barsbey"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "2a763c2d78bd",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-complex-of-sultan-ashraf-barsbey/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/the-complex-of-sultan-ashraf-barsbey/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "f06643983d30",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "d6b055efaeed",
--           "_type": "span",
--           "marks": [
--             "15102825d246"
--           ],
--           "text": "The Coptic Museum (The Only Coptic Museum In Egypt)"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "15102825d246",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-coptic-museum/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/the-coptic-museum/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "1e56cbdcbfec",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "0125d4d1b1bf",
--           "_type": "span",
--           "marks": [
--             "24446c6a6d69"
--           ],
--           "text": "The Egyptian Museum"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "24446c6a6d69",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-egyptian-museum/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/the-egyptian-museum/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "a70455b8791e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "96b7c4c7e8ef",
--           "_type": "span",
--           "marks": [
--             "4d6c55116715"
--           ],
--           "text": "The Hanging Church"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "4d6c55116715",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-hanging-church/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/the-hanging-church/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "a6749bccdfab",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "c0fb54adf640",
--           "_type": "span",
--           "marks": [
--             "2edaf6301a7a"
--           ],
--           "text": "The Khayrbek Complex"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "2edaf6301a7a",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-khayrbek-complex/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/the-khayrbek-complex/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "a6e441abb748",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "174089521629",
--           "_type": "span",
--           "marks": [
--             "6c6f77b7a2b5"
--           ],
--           "text": "The Mosque of Sultan Qaitbey"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "6c6f77b7a2b5",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-mosque-of-sultan-qaitbey/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/the-mosque-of-sultan-qaitbey/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "054128e0575b",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "2fd808d543ce",
--           "_type": "span",
--           "marks": [
--             "2a5c201ee2ae"
--           ],
--           "text": "The Roman Towers"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "2a5c201ee2ae",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-roman-towers/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/the-roman-towers/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "edcc3c729e5f",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "3968a055ce05",
--           "_type": "span",
--           "marks": [
--             "7831d4820c0d"
--           ],
--           "text": "Wikala al-Bazara"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "7831d4820c0d",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/wikala-al-bazara/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/wikala-al-bazara/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "89bcb293024b",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "7140d0a3f163",
--           "_type": "span",
--           "marks": [
--             "7f89960816c5"
--           ],
--           "text": "Wikala of Al-Ghouri"
--         }
--       ],
--       "level": 1,
--       "listItem": "bullet",
--       "markDefs": [
--         {
--           "_key": "7f89960816c5",
--           "_pendingInternalRef": {
--             "sourceLocale": "en",
--             "wpUrl": "https://travel2egypt.org/cairo-travel-guide/wikala-of-al-ghouri/"
--           },
--           "_type": "externalLink",
--           "href": "https://travel2egypt.org/cairo-travel-guide/wikala-of-al-ghouri/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "a7bb6bb1f7df",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "0abcf8891f44",
--           "_type": "span",
--           "marks": [],
--           "text": "OTHERS"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "dbe2e37236a2",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "1185162abbf8",
--           "_type": "span",
--           "marks": [
--             "6221e564212b"
--           ],
--           "text": "Tours"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "6221e564212b",
--           "_type": "externalLink",
--           "href": "/cairo-travel-guide/sightseeing-circuits/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "d8642b42ba60",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "1d1ed311dfab",
--           "_type": "span",
--           "marks": [
--             "f76ef7b7fe73"
--           ],
--           "text": "Food"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "f76ef7b7fe73",
--           "_type": "externalLink",
--           "href": "/cairo-travel-guide/culinary-quest",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "ca890c8b0674",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "d1ed8d5aacbd",
--           "_type": "span",
--           "marks": [
--             "9c29dd376608"
--           ],
--           "text": "Only Here"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "9c29dd376608",
--           "_type": "externalLink",
--           "href": "/cairo-travel-guide/experiences-unveiled",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "f48883f9dc36",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "9e5a50c00efc",
--           "_type": "span",
--           "marks": [
--             "bd4e882b72f7"
--           ],
--           "text": "Events"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "bd4e882b72f7",
--           "_type": "externalLink",
--           "href": "/cairo-travel-guide/events-horizon",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "683f1a549517",
-+       "_key": "79e476fe8956",
+-       "_key": "a5c16980ce3f",
++       "_key": "704e8a178383",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
         "_type": "image",
         "alt": [
@@ -2368,8 +387,8 @@
         ]
       },
       {
--       "_key": "49a0ebfec3d3",
-+       "_key": "2dd5ba8fc074",
+-       "_key": "e7a28169a305",
++       "_key": "d32eac4de65f",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
         "_type": "image",
         "alt": [
@@ -2390,6 +409,5 @@
       "_type": "slug",
       "current": "cairo"
     },
--   "summary": "Discover the Heart of Egypt: A Comprehensive Cairo Travel Guide Dive into the essence of Egypt with our enriched Cairo Travel Guide. As the bustling capital city, Cairo stands as a beacon of history, culture, and modernity. It s not just the largest city in Egypt but a pivotal on"
-+   "summary": "Dive into the essence of Egypt with our enriched Cairo Travel Guide. As the bustling capital city, Cairo stands as a beacon of history, culture, and modernity.…"
+    "summary": "Dive into the essence of Egypt with our enriched Cairo Travel Guide. As the bustling capital city, Cairo stands as a beacon of history, culture, and modernity.…"
   }

@@ -3,9 +3,9 @@
   {
     "_createdAt": "2026-04-28T19:05:22Z",
     "_id": "wp-page-58090",
-    "_rev": "HKnJcdg5mBoLDonMNkS7Wg",
+    "_rev": "gk8n1Y45KbppZEAYCKrstn",
     "_type": "city",
-    "_updatedAt": "2026-04-28T22:05:46Z",
+    "_updatedAt": "2026-04-28T22:43:02Z",
     "heroImage": {
       "_type": "image",
       "asset": {
@@ -14,8 +14,8 @@
       }
     },
     "migration": {
--     "migratedAt": "2026-04-28T19:05:22.210Z",
-+     "migratedAt": "2026-04-28T22:16:03.640Z",
+-     "migratedAt": "2026-04-28T22:43:01.695Z",
++     "migratedAt": "2026-04-28T22:54:35.090Z",
       "reviewFlag": "keyfacts-mining-failed",
       "source": "wp-import",
       "wpId": 58090,

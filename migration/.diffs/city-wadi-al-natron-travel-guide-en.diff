@@ -1,66 +1,33 @@
 --- before:en
 +++ after:en
   {
--   "name": "Wādī Al Natron Travel Guide",
-+   "name": "Wādī Al Natron",
+    "name": "Wādī Al Natron",
     "overview": [
       {
--       "_key": "850e9eddd4cf",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "274fdca68fc3",
--           "_type": "span",
--           "marks": [],
--           "text": "Wadi "
--         },
--         {
--           "_key": "bea6581aecb3",
--           "_type": "span",
--           "marks": [],
--           "text": "Al "
--         },
--         {
--           "_key": "63e66de1c245",
--           "_type": "span",
--           "marks": [],
--           "text": "Natron"
--         },
--         {
--           "_key": "585b9e15a5ff",
--           "_type": "span",
--           "marks": [],
--           "text": " Travel Guide"
--         }
--       ],
--       "markDefs": [],
--       "style": "h2"
--     },
--     {
--       "_key": "1551e7304356",
-+       "_key": "b12648196822",
+-       "_key": "4d8d2e87c8c1",
++       "_key": "46eb02c032b9",
         "_type": "block",
         "children": [
           {
--           "_key": "93e341cd32ad",
-+           "_key": "4df6a18ac3a3",
+-           "_key": "7cef4ec13804",
++           "_key": "50b380588dd0",
             "_type": "span",
             "marks": [],
             "text": "Wadi Al-Natron, nestled in "
           },
           {
--           "_key": "6927320a4b8a",
-+           "_key": "4e4804c4c2a7",
+-           "_key": "dddadb2bebf9",
++           "_key": "e11a21d388a9",
             "_type": "span",
             "marks": [
--             "fcbe2fde8c3c"
-+             "67f71d7d4017"
+-             "89c25d13fa6f"
++             "2eed5f54af77"
             ],
             "text": "Egypt"
           },
           {
--           "_key": "5435af0c75ff",
-+           "_key": "bb007daba6ac",
+-           "_key": "c82eed03708d",
++           "_key": "e8a3febfeb0c",
             "_type": "span",
             "marks": [],
             "text": "‘s Beheira Governorate, stands as a beacon of monastic life and religious heritage. This valley, distinguished by its production of natron salt from its eight lakes, is a testament to the enduring legacy of Christian monasticism in the desert regions of the northwestern Nile Delta. Here is a closer look at this captivating destination:"
@@ -68,28 +35,27 @@
         ],
         "markDefs": [
           {
--           "_key": "fcbe2fde8c3c",
-+           "_key": "67f71d7d4017",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/about-egypt/"
-+           },
+-           "_key": "89c25d13fa6f",
++           "_key": "2eed5f54af77",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/about-egypt/"
+            },
             "_type": "externalLink",
--           "href": "/about-egypt/",
-+           "href": "https://travel2egypt.org/about-egypt/",
+            "href": "https://travel2egypt.org/about-egypt/",
             "newTab": false
           }
         ],
         "style": "normal"
       },
       {
--       "_key": "0424ae1d60d2",
-+       "_key": "49a32afa0c7d",
+-       "_key": "b63415808ccc",
++       "_key": "b72c0bd98018",
         "_type": "block",
         "children": [
           {
--           "_key": "64417d1b465d",
-+           "_key": "8922a53743b8",
+-           "_key": "efd531378351",
++           "_key": "6f2bbc4e972d",
             "_type": "span",
             "marks": [],
             "text": "Geographical and Historical Significance"
@@ -99,13 +65,13 @@
         "style": "h3"
       },
       {
--       "_key": "9dcb1366fcbd",
-+       "_key": "9797ae489535",
+-       "_key": "43b054852461",
++       "_key": "bf1e020eb9fb",
         "_type": "block",
         "children": [
           {
--           "_key": "40fae16f3e8c",
-+           "_key": "4827c5d8a444",
+-           "_key": "1442131f81b0",
++           "_key": "0a360108c951",
             "_type": "span",
             "marks": [
               "strong"
@@ -113,36 +79,36 @@
             "text": "Location"
           },
           {
--           "_key": "06decc1ec629",
-+           "_key": "9ea927d3d1f5",
+-           "_key": "1e0fb7bf32c8",
++           "_key": "fc47d9185dd0",
             "_type": "span",
             "marks": [],
             "text": ": Wadi Al-Natron’s geographical layout is remarkable, with its strategic location in the "
           },
           {
--           "_key": "5a174bae5bc9",
-+           "_key": "53fe641e377f",
+-           "_key": "0041c52508d9",
++           "_key": "bac12233b29c",
             "_type": "span",
             "marks": [
--             "5a28431503bb"
-+             "d20376eb6dff"
+-             "1910efa353ad"
++             "d317778f7757"
             ],
             "text": "Beheira"
           },
           {
--           "_key": "68b734cec7ad",
-+           "_key": "cf68d1c81927",
+-           "_key": "daffd585c7ea",
++           "_key": "67b1de32d038",
             "_type": "span",
             "marks": [],
             "text": " Governorate accentuated by the presence of salt-producing lakes. This area, historically referred to as Scetis, is pivotal in the narrative of early Christian monasticism, serving as one of the initial monastic centers alongside"
           },
           {
--           "_key": "be2472b0b8d9",
-+           "_key": "8d8c35a25596",
+-           "_key": "c2b3703ab0f5",
++           "_key": "0dc73efef173",
             "_type": "span",
             "marks": [
--             "0f6bbafee2fd"
-+             "31f39326dd2c"
+-             "e10bd938372a"
++             "b26e40f663a0"
             ],
             "text": " Nitria and Kellia."
           }
@@ -151,8 +117,8 @@
         "listItem": "bullet",
         "markDefs": [
           {
--           "_key": "5a28431503bb",
-+           "_key": "d20376eb6dff",
+-           "_key": "1910efa353ad",
++           "_key": "d317778f7757",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/bahariya-oasis-travel-guide/accommodations-retreats/"
@@ -162,8 +128,8 @@
             "newTab": false
           },
           {
--           "_key": "0f6bbafee2fd",
-+           "_key": "31f39326dd2c",
+-           "_key": "e10bd938372a",
++           "_key": "b26e40f663a0",
             "_type": "externalLink",
             "href": "https://en.wikipedia.org/wiki/Nitria_(monastic_site)",
             "newTab": true
@@ -172,13 +138,13 @@
         "style": "normal"
       },
       {
--       "_key": "d1759fd030ba",
-+       "_key": "547dff86c89c",
+-       "_key": "58ffa8c6061e",
++       "_key": "45be0051dbd8",
         "_type": "block",
         "children": [
           {
--           "_key": "b7d233338772",
-+           "_key": "d71898e3ef2e",
+-           "_key": "e6e2fab860ca",
++           "_key": "0062c13bbdde",
             "_type": "span",
             "marks": [
               "strong"
@@ -186,8 +152,8 @@
             "text": "Christian Monasticism"
           },
           {
--           "_key": "aef61280aa69",
-+           "_key": "9a845a9e2d56",
+-           "_key": "ec5bcb5c110d",
++           "_key": "3b3484b21511",
             "_type": "span",
             "marks": [],
             "text": ": Historically known as Scetis in Christian literature, Wadi Al-Natron is one of the three early Christian monastic centers in the desert of the northwestern Nile Delta."
@@ -199,13 +165,13 @@
         "style": "normal"
       },
       {
--       "_key": "509f7f2d6201",
-+       "_key": "14ec213fa0ae",
+-       "_key": "75f876e9644e",
++       "_key": "6d01e8ca4efb",
         "_type": "block",
         "children": [
           {
--           "_key": "f0e9f3861d81",
-+           "_key": "5202c9cb8eef",
+-           "_key": "ee748025cc35",
++           "_key": "6f5feaa9f682",
             "_type": "span",
             "marks": [],
             "text": "Monastic Centers"
@@ -215,30 +181,30 @@
         "style": "h3"
       },
       {
--       "_key": "d493ff2d87f7",
-+       "_key": "d0149326a97f",
+-       "_key": "52c5f910ec16",
++       "_key": "1b8d210b081a",
         "_type": "block",
         "children": [
           {
--           "_key": "1a7acd83484b",
-+           "_key": "f102264d4acb",
+-           "_key": "628a92b75d63",
++           "_key": "355b9eda7f05",
             "_type": "span",
             "marks": [],
             "text": "The valley is home to several monastic centers, with Scetis (modern-"
           },
           {
--           "_key": "b9c5b68200cc",
-+           "_key": "8497acc3d611",
+-           "_key": "b5638f2b0bec",
++           "_key": "5abc70c8ec28",
             "_type": "span",
             "marks": [
--             "64b47847b462"
-+             "28fb52cadb4d"
+-             "5502623f70cd"
++             "9be75ced4472"
             ],
             "text": "day Wadi Al-Natron"
           },
           {
--           "_key": "8d5e3e7f0e4d",
-+           "_key": "b5b4fbd15b7b",
+-           "_key": "a8e4b5475a0e",
++           "_key": "9eb0320fb37a",
             "_type": "span",
             "marks": [],
             "text": "), Nitria, and Kellia forming the crux of this spiritual landscape. Although these centers share a common geographical proximity and intertwined histories, each has its unique characteristics. Wadi Al-Natron is particularly noted for its operational monasteries, in contrast to the mainly archaeological sites of Nitria and Kellia."
@@ -248,8 +214,8 @@
         "listItem": "bullet",
         "markDefs": [
           {
--           "_key": "64b47847b462",
-+           "_key": "28fb52cadb4d",
+-           "_key": "5502623f70cd",
++           "_key": "9be75ced4472",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/wadi-al-natron-travel-guide/feasting-desert/"
@@ -262,13 +228,13 @@
         "style": "normal"
       },
       {
--       "_key": "31dfe70ec3b9",
-+       "_key": "912c0b052c4b",
+-       "_key": "6c673307adf7",
++       "_key": "39fb4e0d09bd",
         "_type": "block",
         "children": [
           {
--           "_key": "f7c0468e4652",
-+           "_key": "7c56ac9491e3",
+-           "_key": "826af1382b92",
++           "_key": "bba6251eecd9",
             "_type": "span",
             "marks": [],
             "text": "The Nitrian Desert"
@@ -278,13 +244,13 @@
         "style": "h3"
       },
       {
--       "_key": "ac48f77fb027",
-+       "_key": "fbab2cd02506",
+-       "_key": "1e8c7890ca18",
++       "_key": "492eebea3a5e",
         "_type": "block",
         "children": [
           {
--           "_key": "6027feebbe3e",
-+           "_key": "4a83969a04b8",
+-           "_key": "9330c1002744",
++           "_key": "9b3585b80151",
             "_type": "span",
             "marks": [],
             "text": "The term ‘Nitrian Desert’ broadly covers the entire region housing these monastic centers. It often signifies the areas around Nitria and Kellia specifically, while the vicinity of Wadi Al-Natron is referred to as the Scetis Desert.."
@@ -296,13 +262,13 @@
         "style": "normal"
       },
       {
--       "_key": "7f362e6cf5ea",
-+       "_key": "fa5eeb486864",
+-       "_key": "5031db7eea7b",
++       "_key": "a4935b8ce18f",
         "_type": "block",
         "children": [
           {
--           "_key": "e4f84c6b6899",
-+           "_key": "254c1cd0b1c7",
+-           "_key": "53a68532142a",
++           "_key": "a4b9003dbf63",
             "_type": "span",
             "marks": [],
             "text": "Monasteries in Wadi Al-Natron"
@@ -312,13 +278,13 @@
         "style": "h3"
       },
       {
--       "_key": "cc941a9ccba5",
-+       "_key": "4522f4f094c3",
+-       "_key": "e1e7a2381419",
++       "_key": "b9e45c8ebdf2",
         "_type": "block",
         "children": [
           {
--           "_key": "c9585122503f",
-+           "_key": "16b725193299",
+-           "_key": "0c05e7935105",
++           "_key": "c639773a8e23",
             "_type": "span",
             "marks": [],
             "text": "The monasteries of Wadi Al-Natron are not only spiritual sanctuaries but also repositories of rich historical and cultural narratives. These active monastic dwellings continue to draw visitors, offering a serene spiritual atmosphere alongside a glimpse into historical ecclesiastical architecture."
@@ -330,13 +296,13 @@
         "style": "normal"
       },
       {
--       "_key": "bc4bc8ff81d7",
-+       "_key": "8faaa5e1d16f",
+-       "_key": "5abb4514a663",
++       "_key": "fff9e16a5199",
         "_type": "block",
         "children": [
           {
--           "_key": "212c8091eca1",
-+           "_key": "49d5246138e0",
+-           "_key": "2597df704dfa",
++           "_key": "5e2ba3e0e604",
             "_type": "span",
             "marks": [],
             "text": "In essence, Wadi Al-Natron is a profound blend of spiritual depth and historical intrigue. Its monasteries, set amidst the tranquil desert landscape and reflective salt lakes, offer a unique journey into the heart of early Christian monastic traditions. This destination is a profound testament to faith, culture, and history, inviting those interested in religious pilgrimages and historical inquiry alike to explore its sacred grounds."
@@ -346,419 +312,8 @@
         "style": "normal"
       },
       {
--       "_key": "3c668910270b",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "2595c0b6ec2c",
--           "_type": "span",
--           "marks": [],
--           "text": "Created On March 18, 2020"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "c52a5e48c77c",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "9b67a9d40ef5",
--           "_type": "span",
--           "marks": [],
--           "text": "Updated On Aug , 2024"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "c38f2d2f8518",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "650bff15d1fe",
--           "_type": "span",
--           "marks": [],
--           "text": "WADI AL NATRON Travel Guide"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "c6dc7e4bf1aa",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "9afb9c6e7bf9",
--           "_type": "span",
--           "marks": [],
--           "text": "INTRODUCING Al WADI AL NATRON"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "6a99757f315a",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "2ede87619401",
--           "_type": "span",
--           "marks": [
--             "7d834ec2b22c"
--           ],
--           "text": "History"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "7d834ec2b22c",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/journey-heart",
--           "newTab": true
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "04f46f6709fb",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "ec253b9570d5",
--           "_type": "span",
--           "marks": [
--             "180dac894b26"
--           ],
--           "text": "Weather"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "180dac894b26",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/climate-best-times",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "10675d8502f9",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "47ecd12f4ef2",
--           "_type": "span",
--           "marks": [],
--           "text": "PLAN YOUR TRIP"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "d7d7a33f7832",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "01f1f967f5eb",
--           "_type": "span",
--           "marks": [
--             "752b44035207"
--           ],
--           "text": "How To Go"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "752b44035207",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/how-to-go/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "e16c6206c456",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "91e9deaa01b7",
--           "_type": "span",
--           "marks": [
--             "5581f518d868"
--           ],
--           "text": "Where To Stay"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "5581f518d868",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/spiritual-retreats",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "55e22becce8a",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "a5a58d88f1fb",
--           "_type": "span",
--           "marks": [],
--           "text": "WHILE YOU ARE THERE"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "25def59ebd2b",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "94b9aa8a1ed1",
--           "_type": "span",
--           "marks": [
--             "a9d1ce69919b"
--           ],
--           "text": "Getting Around"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "a9d1ce69919b",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/discovering-travel-guide",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "0f30e62a3bdc",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "61f99393aeaa",
--           "_type": "span",
--           "marks": [
--             "24f2d6e3308e"
--           ],
--           "text": "Things To Do"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "24f2d6e3308e",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/things-to-do/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "3de7e7dd12a7",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "0ce9a8fbbbc3",
--           "_type": "span",
--           "marks": [],
--           "text": "PLACES TO GO"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "b1735076f432",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "5b08176106a1",
--           "_type": "span",
--           "marks": [
--             "9543fcd0eb68"
--           ],
--           "text": "Paromeos Monastery"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "9543fcd0eb68",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/paromeos-monastery/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "d34e9ec87e42",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "428772c8e610",
--           "_type": "span",
--           "marks": [
--             "2fa7825ad1f5"
--           ],
--           "text": "Monastery of St. Pishoy"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "2fa7825ad1f5",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/monastery-of-st-pishoy/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "f6538417f752",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "997ec45cba67",
--           "_type": "span",
--           "marks": [
--             "c8bf37242897"
--           ],
--           "text": "Monastery of Saint Macarius the Great"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "c8bf37242897",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/monastery-of-saint-macarius-the-great/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "d87ae51cce3e",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "eef98f6bab98",
--           "_type": "span",
--           "marks": [
--             "cf8a1d131970"
--           ],
--           "text": "Syrian Monastery"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "cf8a1d131970",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/syrian-monastery/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "97c9a9f1380b",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "79a035cb51ac",
--           "_type": "span",
--           "marks": [],
--           "text": "OTHERS"
--         }
--       ],
--       "markDefs": [],
--       "style": "normal"
--     },
--     {
--       "_key": "3e87279ec1c1",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "d16e028ebd86",
--           "_type": "span",
--           "marks": [
--             "e7a43aeac89a"
--           ],
--           "text": "Tours"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "e7a43aeac89a",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/tours/",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "3d725eec14d2",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "80792f059135",
--           "_type": "span",
--           "marks": [
--             "3c8ba52445ad"
--           ],
--           "text": "Food"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "3c8ba52445ad",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/feasting-desert",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "3f6d20390a05",
--       "_type": "block",
--       "children": [
--         {
--           "_key": "71b73e22b3a2",
--           "_type": "span",
--           "marks": [
--             "d6133a28d51a"
--           ],
--           "text": "Only Here"
--         }
--       ],
--       "markDefs": [
--         {
--           "_key": "d6133a28d51a",
--           "_type": "externalLink",
--           "href": "/wadi-al-natron-travel-guide/hidden-treasures",
--           "newTab": false
--         }
--       ],
--       "style": "normal"
--     },
--     {
--       "_key": "914f1ce37015",
-+       "_key": "c02c01b56047",
+-       "_key": "3c1f7e4db18b",
++       "_key": "d5873770770e",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Deir_as_Suriani.jpg",
         "_type": "image",
         "alt": [
@@ -775,8 +330,8 @@
         ]
       },
       {
--       "_key": "c1ba72670dfa",
-+       "_key": "16b96815b267",
+-       "_key": "f74256220a1a",
++       "_key": "72c56e256e25",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wady-el-natron-1.jpg",
         "_type": "image",
         "alt": [
@@ -797,6 +352,5 @@
       "_type": "slug",
       "current": "wadi-al-natron"
     },
--   "summary": "Wadi Al Natron Travel Guide Wadi Al-Natron, nestled in Egypt s Beheira Governorate, stands as a beacon of monastic life and religious heritage. This valley, distinguished by its production of natron salt from its eight lakes, is a testament to the enduring legacy of Christian mon"
-+   "summary": "Wadi Al-Natron, nestled in Egypt‘s Beheira Governorate, stands as a beacon of monastic life and religious heritage. This valley, distinguished by its production of natron salt from its eight lakes, is a testament to the enduring legacy of Christian monasticism in the desert regions of the northwestern Nile Delta.…"
+    "summary": "Wadi Al-Natron, nestled in Egypt‘s Beheira Governorate, stands as a beacon of monastic life and religious heritage. This valley, distinguished by its production of natron salt from its eight lakes, is a testament to the enduring legacy of Christian monasticism in the desert regions of the northwestern Nile Delta.…"
   }

@@ -17,7 +17,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import type { PerFieldChange, SanityDoc } from './merge.js';
+import { canonicalize, type PerFieldChange, type SanityDoc } from './merge.js';
 
 export interface Fingerprint {
   /** Sorted list of fields and their merge outcomes. The composite key. */
@@ -26,6 +26,10 @@ export interface Fingerprint {
   fieldTypes: Record<string, string>;
   /** Whether this is a CREATE-first run (existing was null). */
   createMode: boolean;
+  /** Optional human-readable category label. NOT part of the hash — purely
+   * metadata for the approved-shapes inspection. Set by retrofit step or by
+   * future approval workflows. */
+  description?: string;
 }
 
 /** Extract a structural fingerprint from a diff outcome. */
@@ -50,10 +54,26 @@ export function fingerprint(
 
 /** Stable hash of a fingerprint — used as the filename of the approved-shape
  * record. SHA-256 hex truncated to 16 chars (collision risk negligible at
- * our scale). */
+ * our scale).
+ *
+ * Uses `canonicalize()` to deterministically order keys at every level. The
+ * earlier implementation used `JSON.stringify(fp, Object.keys(fp).sort())`
+ * — the second argument was misused as a replacer ARRAY, which filters
+ * recursively to only keys named in the array, stripping all nested content
+ * (fieldTypes/fieldOutcomes detail). That bug made every fingerprint hash
+ * to the same value regardless of structural content. Fixed in session 5
+ * during the Path A integration test, surfaced as a real collision between
+ * Cairo (with orderRank, no hero) and Wadi-al-Natron (with hero, no
+ * orderRank) producing the same hash.
+ */
 export function fingerprintHash(fp: Fingerprint): string {
-  const canonical = JSON.stringify(fp, Object.keys(fp).sort());
-  // Within fingerprint, fieldOutcomes is already sorted; localesTouched too.
+  // Exclude `description` from the hash — it's metadata, not part of the
+  // structural signature. Two fingerprints with identical shape but
+  // different descriptions hash to the same value (which is what the
+  // approval gate wants).
+  const { description: _omit, ...rest } = fp;
+  void _omit;
+  const canonical = canonicalize(rest as unknown as SanityDoc);
   return createHash('sha256').update(canonical).digest('hex').slice(0, 16);
 }
 

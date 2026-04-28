@@ -17,6 +17,7 @@
  */
 
 import { mergeCityDoc, deepEqual, applyCityMerge, type MergeFetcher, type SanityDoc, CITY_EDITORIAL_ONLY_FIELDS } from '../merge.js';
+import { fingerprint, fingerprintHash } from '../fingerprint.js';
 
 let pass = 0;
 let fail = 0;
@@ -341,6 +342,72 @@ async function runIntegrationTests(): Promise<void> {
     const result = await applyCityMerge(fetcher, mapperDoc);
     assertEqual(result.merged._id, undefined, '(i4) missing _id: doc returned verbatim');
   }
+}
+
+// ---------------------------------------------------------------------------
+// fingerprintHash collision-safety tests — would have caught the
+// session-5 hash collision bug where different city shapes (Cairo with
+// orderRank, no hero; Wadi with hero, no orderRank) produced identical
+// hashes due to a JSON.stringify replacer-array misuse.
+// ---------------------------------------------------------------------------
+{
+  const cairoMerged: SanityDoc = {
+    _id: 'wp-page-83284',
+    _type: 'city',
+    name: i18n('Cairo'),
+    orderRank: 1,
+    migration: { wpId: 83284 },
+  };
+  const wadiMerged: SanityDoc = {
+    _id: 'wp-page-58731',
+    _type: 'city',
+    name: i18n('Wadi'),
+    heroImage: { _type: 'image', asset: { _ref: 'image-x' } },
+    migration: { wpId: 58731 },
+  };
+  const fpCairo = fingerprint(
+    [
+      { field: 'orderRank', outcome: 'preserved-editorial-only' },
+      { field: 'migration', outcome: 'overwritten' },
+      { field: 'name', outcome: 'unchanged' },
+    ],
+    cairoMerged,
+    false,
+  );
+  const fpWadi = fingerprint(
+    [
+      { field: 'heroImage', outcome: 'unchanged' },
+      { field: 'migration', outcome: 'overwritten' },
+      { field: 'name', outcome: 'unchanged' },
+    ],
+    wadiMerged,
+    false,
+  );
+  const hashCairo = fingerprintHash(fpCairo);
+  const hashWadi = fingerprintHash(fpWadi);
+  assert(
+    hashCairo !== hashWadi,
+    `(fp1) [REGRESSION GUARD] different city field shapes must produce different hashes; got cairo=${hashCairo} wadi=${hashWadi}`,
+  );
+  // Same shape = same hash (positive case).
+  const cairoMergedDup: SanityDoc = JSON.parse(JSON.stringify(cairoMerged));
+  const fpCairoDup = fingerprint(
+    [
+      { field: 'orderRank', outcome: 'preserved-editorial-only' },
+      { field: 'migration', outcome: 'overwritten' },
+      { field: 'name', outcome: 'unchanged' },
+    ],
+    cairoMergedDup,
+    false,
+  );
+  assertEqual(fingerprintHash(fpCairoDup), hashCairo, '(fp2) identical shapes produce identical hashes');
+  // CREATE-mode and UPDATE-mode same field set should differ.
+  const fpCairoCreate = fingerprint([{ field: 'name', outcome: 'created' }], cairoMerged, true);
+  const fpCairoUpdate = fingerprint([{ field: 'name', outcome: 'unchanged' }], cairoMerged, false);
+  assert(
+    fingerprintHash(fpCairoCreate) !== fingerprintHash(fpCairoUpdate),
+    '(fp3) CREATE vs UPDATE produce different hashes (createMode is keyed)',
+  );
 }
 
 runIntegrationTests()
