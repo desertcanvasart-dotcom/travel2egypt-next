@@ -37,7 +37,21 @@ export interface ConversionResult {
     images: number;
     tablesFlattened: number;
     pendingInternalLinks: number;
+    /** Number of `.elementor-cta` widget instances stripped (tour-promo CTAs). */
+    tourPromoStripped: number;
+    /** Number of `.e-grid` containers stripped because they held only internal-T2E nav links. */
+    categoryGridStripped: number;
+    /** Number of duplicate paragraph instances removed (backlink widgets). */
+    backlinkStripped: number;
+    /** Native Elementor `swiper-slide-image` carousels stripped (container-level). */
+    carouselSwiperStripped: number;
+    /** Royal/Premium Addons `premium-adv-carousel` carousels stripped (container-level). */
+    carouselPremiumAdvStripped: number;
+    /** Bdthemes/Element Pack `bdt-img` related-tour widgets stripped. */
+    bdtImgStripped: number;
   };
+  /** Sample src URLs from carousels that were stripped. Capped per call. */
+  discardedCarouselSrcs: { swiper: string[]; premiumAdv: string[]; bdtImg: string[] };
 }
 
 export interface ConversionOptions {
@@ -45,17 +59,44 @@ export interface ConversionOptions {
    * inserts placeholder image blocks; the importer later swaps in the real
    * Sanity asset reference based on the WP attachment URL. */
   attachmentResolver?: (sourceUrl: string) => string | null;
+  /** Shape of `alt` / `caption` on emitted image blocks.
+   *  - `'i18n'` (default) emits internationalized arrays — for field-level i18n schemas (city/tour/etc).
+   *  - `'string'` emits plain strings — for document-level i18n schemas (article).
+   * The mismatch is what surfaced as "Expected type String got Array" in Studio. */
+  localeShape?: 'string' | 'i18n';
 }
 
 // ---------- Entry point ------------------------------------------------
 
 export function htmlToPortableText(html: string, opts: ConversionOptions = {}): ConversionResult {
-  const stats = { operatorNotes: 0, pullQuotes: 0, sideImages: 0, images: 0, tablesFlattened: 0, pendingInternalLinks: 0 };
+  const stats = {
+    operatorNotes: 0,
+    pullQuotes: 0,
+    sideImages: 0,
+    images: 0,
+    tablesFlattened: 0,
+    pendingInternalLinks: 0,
+    tourPromoStripped: 0,
+    categoryGridStripped: 0,
+    backlinkStripped: 0,
+    carouselSwiperStripped: 0,
+    carouselPremiumAdvStripped: 0,
+    bdtImgStripped: 0,
+  };
+  const discardedCarouselSrcs = { swiper: [] as string[], premiumAdv: [] as string[], bdtImg: [] as string[] };
   const decoded = decodeEntities(html);
   const root = parse(decoded, { lowerCaseTagName: false });
 
+  // Promotional widget strip MUST run before liftElementorWrappers — lifting
+  // destroys the wrapper ancestry the class detectors need.
+  stripPromotionalWidgets(root, stats);
+  stripCarouselWidgets(root, stats, discardedCarouselSrcs);
+  stripBdtImgWidgets(root, stats, discardedCarouselSrcs);
   stripNoise(root);
   liftElementorWrappers(root);
+  // Duplicate-paragraph dedupe (backlink widgets) runs after lifting because
+  // text-equality only stabilizes once wrapper variation is gone.
+  dedupeDuplicateParagraphs(root, stats);
 
   const blocks: PtBlock[] = [];
   for (const child of root.childNodes) {
@@ -64,13 +105,200 @@ export function htmlToPortableText(html: string, opts: ConversionOptions = {}): 
 
   // Drop trailing empty blocks.
   while (blocks.length && isEmptyBlock(blocks[blocks.length - 1])) blocks.pop();
-  return { blocks, stats };
+  return { blocks, stats, discardedCarouselSrcs };
 }
 
 // ---------- Stripping passes ------------------------------------------
 
 const NOISE_TAGS = new Set(['STYLE', 'SCRIPT', 'NOSCRIPT', 'SVG', 'FORM']);
 const NOISE_CLASS_HINTS = ['share', 'social-icons', 'addtoany', 'about-author', 'post-author', 'related-posts'];
+
+/**
+ * Strip Elementor promotional widgets. Detects by class signature (must run
+ * BEFORE liftElementorWrappers, which would destroy the ancestry).
+ *
+ * Rules:
+ *   - tour-promo: `.elementor-cta` containers (Book Now / Learn more cards
+ *     with image + button). Always 100% promotional, never editorial.
+ *   - category-grid: `.e-grid` containers whose anchors all link to internal
+ *     travel2egypt.org URLs (≥2 such anchors). The sitewide "tour categories"
+ *     navigation widget. Conservative: skip e-grid blocks with mixed-internal/
+ *     external anchors or fewer than 2 anchors, since they may be legit grids.
+ */
+function stripPromotionalWidgets(root: HTMLElement, stats: ConversionResult['stats']): void {
+  // 1. tour-promo CTAs (`<div class="elementor-cta">…</div>` — image + button card).
+  for (const el of Array.from(root.querySelectorAll('.elementor-cta'))) {
+    el.remove();
+    stats.tourPromoStripped++;
+  }
+
+  // 2. category-grid is rendered two ways:
+  //
+  //    (a) An `e-grid` container holding `elementor-widget-button` children
+  //        all linking to internal T2E URLs.
+  //    (b) An `e-con` (e-flex/e-con-boxed) section holding sibling
+  //        `elementor-widget-heading` + many `elementor-widget-button` widgets
+  //        with internal-T2E anchors and NO paragraph content.
+  //
+  // Both are structural variants of the same sitewide nav widget. Detector:
+  // any `elementor-element` whose only descendants are heading + button widgets
+  // and whose buttons all link internally — strip the whole element.
+  for (const el of Array.from(root.querySelectorAll('[class]'))) {
+    const cls = el.getAttribute('class') ?? '';
+    if (!/\belementor-element\b/.test(cls)) continue;
+    if (!/\be-(grid|flex|con|con-boxed|con-full)\b/.test(cls)) continue;
+    // Skip if this element is nested inside a larger element we'll handle
+    // at the parent level — we want the outermost match.
+    const parentCls = (el.parentNode as HTMLElement | null)?.getAttribute('class') ?? '';
+    if (/\belementor-element\b/.test(parentCls) && /\be-(grid|flex|con)\b/.test(parentCls)) continue;
+
+    const buttons = el.querySelectorAll('.elementor-widget-button');
+    if (buttons.length < 2) continue;
+    const anchors = buttons.flatMap((b) => b.querySelectorAll('a'));
+    if (anchors.length < 2) continue;
+    const allInternal = anchors.every((a) => {
+      const href = a.getAttribute('href') ?? '';
+      return /^https?:\/\/(www\.)?travel2egypt\.org/.test(href);
+    });
+    if (!allInternal) continue;
+    // Reject if there's substantial editorial paragraph text in this element
+    // (avoid stripping legit content that happens to contain buttons).
+    const paragraphs = el.querySelectorAll('p');
+    const hasProse = paragraphs.some((p) => p.text.trim().length > 80);
+    if (hasProse) continue;
+
+    el.remove();
+    stats.categoryGridStripped++;
+  }
+}
+
+/**
+ * Remove duplicate paragraph nodes within a single body. Some WP "related
+ * content" / backlink widgets emit verbatim copies of an article's own
+ * paragraphs; the duplicates land at the bottom and look like trailing
+ * editorial. Conservative: only paragraphs ≥80 chars qualify, only the
+ * second-and-later occurrences are removed.
+ */
+function dedupeDuplicateParagraphs(root: HTMLElement, stats: ConversionResult['stats']): void {
+  const seen = new Set<string>();
+  for (const p of Array.from(root.querySelectorAll('p'))) {
+    const text = p.text.trim();
+    if (text.length < 80) continue;
+    if (seen.has(text)) {
+      p.remove();
+      stats.backlinkStripped++;
+    } else {
+      seen.add(text);
+    }
+  }
+}
+
+/**
+ * Strip Elementor + Royal/Premium-Addons image carousels (container-level).
+ *
+ * Two distinct widgets caught:
+ *   - Elementor native swiper (`<img class="swiper-slide-image">`). Common on
+ *     monuments, transfer/operational pages, and some tours.
+ *   - Royal/Premium Elementor Addons carousel (`<img class="premium-adv-carousel__item-img">`).
+ *     Dominant on hotels and cruises.
+ *
+ * Both are nav/decoration widgets that don't fit consultation-only architecture.
+ * On hotel/cruise/tour entity types these MAY contain editorial property
+ * photography — that's a separate per-mapper decision (see known-issues.md
+ * "Pre-flight gates"). For posts (this session's blast radius) the post-corpus
+ * scan confirmed zero swiper / zero premium-adv carousels — strip is safe.
+ *
+ * Strategy: walk up from each carousel `<img>` to its nearest swiper/carousel
+ * container ancestor (≤8 hops), record sample srcs, remove the container.
+ * If no carousel container is found, fall back to removing the `<img>` itself.
+ */
+function stripCarouselWidgets(
+  root: HTMLElement,
+  stats: ConversionResult['stats'],
+  discarded: { swiper: string[]; premiumAdv: string[]; bdtImg: string[] }
+): void {
+  const SWIPER_CONTAINERS = /\b(swiper|elementor-widget-image-carousel|elementor-image-carousel)\b/i;
+  const PREMIUM_CONTAINERS = /\bpremium-adv-carousel\b/i;
+  const SAMPLE_CAP = 20;
+
+  function walkUp(el: HTMLElement, matcher: RegExp): HTMLElement | null {
+    let cur: HTMLElement | null = el;
+    for (let hop = 0; hop < 8 && cur; hop++) {
+      const cls = cur.getAttribute?.('class') ?? '';
+      if (matcher.test(cls)) return cur;
+      cur = cur.parentNode as HTMLElement | null;
+    }
+    return null;
+  }
+
+  // Pass 1: swiper carousels.
+  const stripped = new Set<HTMLElement>();
+  for (const img of Array.from(root.querySelectorAll('img'))) {
+    const cls = img.getAttribute('class') ?? '';
+    if (!/\bswiper-slide-image\b/.test(cls)) continue;
+    const container = walkUp(img, SWIPER_CONTAINERS) ?? img;
+    if (stripped.has(container)) continue;
+    // Collect sample srcs from all <img> within the container.
+    for (const inner of container === img ? [img] : Array.from(container.querySelectorAll('img'))) {
+      const src = inner.getAttribute('src');
+      if (src && discarded.swiper.length < SAMPLE_CAP) discarded.swiper.push(src);
+    }
+    stats.carouselSwiperStripped++;
+    container.remove();
+    stripped.add(container);
+  }
+
+  // Pass 2: premium-adv carousels.
+  const strippedP = new Set<HTMLElement>();
+  for (const img of Array.from(root.querySelectorAll('img'))) {
+    const cls = img.getAttribute('class') ?? '';
+    if (!/\bpremium-adv-carousel__item-img\b/.test(cls)) continue;
+    const container = walkUp(img, PREMIUM_CONTAINERS) ?? img;
+    if (strippedP.has(container)) continue;
+    for (const inner of container === img ? [img] : Array.from(container.querySelectorAll('img'))) {
+      const src = inner.getAttribute('src');
+      if (src && discarded.premiumAdv.length < SAMPLE_CAP) discarded.premiumAdv.push(src);
+    }
+    stats.carouselPremiumAdvStripped++;
+    container.remove();
+    strippedP.add(container);
+  }
+}
+
+/**
+ * Strip Bdthemes/Element Pack `bdt-img` related-tour widgets.
+ *
+ * These render as <img class="bdt-img"> pointing at unrelated tour-promo
+ * imagery (e.g. abu-simbel-travel-guide showed "Memories Eternal: 10-Day
+ * Egypt"). Same pattern as `.elementor-cta` and category-grid — third-party
+ * promotional widget, not body content. Container ancestry varies; remove
+ * the closest `[class*="bdt-"]` ancestor (≤6 hops) or the img itself.
+ */
+function stripBdtImgWidgets(
+  root: HTMLElement,
+  stats: ConversionResult['stats'],
+  discarded: { swiper: string[]; premiumAdv: string[]; bdtImg: string[] }
+): void {
+  const SAMPLE_CAP = 20;
+  const stripped = new Set<HTMLElement>();
+  for (const img of Array.from(root.querySelectorAll('img'))) {
+    const cls = img.getAttribute('class') ?? '';
+    if (!/\bbdt-img\b/.test(cls)) continue;
+    let cur: HTMLElement | null = img;
+    let container: HTMLElement = img;
+    for (let hop = 0; hop < 6 && cur; hop++) {
+      const c = cur.getAttribute?.('class') ?? '';
+      if (/\bbdt-(?!img\b)[a-z-]+/.test(c)) { container = cur; break; }
+      cur = cur.parentNode as HTMLElement | null;
+    }
+    if (stripped.has(container)) continue;
+    const src = img.getAttribute('src');
+    if (src && discarded.bdtImg.length < SAMPLE_CAP) discarded.bdtImg.push(src);
+    stats.bdtImgStripped++;
+    container.remove();
+    stripped.add(container);
+  }
+}
 
 function stripNoise(root: HTMLElement): void {
   // Tag-based noise.
@@ -310,6 +538,13 @@ function extractEmDashAttribution(node: HTMLElement): string | null {
   return m ? m[1].trim() : null;
 }
 
+/** Format alt/caption per the configured locale shape. Default 'i18n'. */
+function altCaptionShape(value: string, opts: ConversionOptions): string | I18nArray {
+  if (opts.localeShape === 'string') return value;
+  return [{ _key: 'en', value }];
+}
+type I18nArray = Array<{ _key: string; value: string }>;
+
 function pushFigure(node: HTMLElement, blocks: PtBlock[], stats: ConversionResult['stats'], opts: ConversionOptions): void {
   const cls = node.getAttribute('class')?.toLowerCase() ?? '';
   const img = node.querySelector('img') as HTMLElement | null;
@@ -333,8 +568,8 @@ function pushFigure(node: HTMLElement, blocks: PtBlock[], stats: ConversionResul
       ...(assetRef
         ? { image: { _type: 'image', asset: { _type: 'reference', _ref: assetRef } } }
         : { _pendingImage: src }),
-      ...(alt ? { alt: [{ _key: 'en', value: alt }] } : {}),
-      ...(caption ? { caption: [{ _key: 'en', value: caption }] } : {}),
+      ...(alt ? { alt: altCaptionShape(alt, opts) } : {}),
+      ...(caption ? { caption: altCaptionShape(caption, opts) } : {}),
       alignment: alignRight ? 'right' : 'left',
     });
     return;
@@ -347,8 +582,8 @@ function pushFigure(node: HTMLElement, blocks: PtBlock[], stats: ConversionResul
     ...(assetRef
       ? { asset: { _type: 'reference', _ref: assetRef } }
       : { _pendingImage: src }),
-    ...(alt ? { alt: [{ _key: 'en', value: alt }] } : {}),
-    ...(caption ? { caption: [{ _key: 'en', value: caption }] } : {}),
+    ...(alt ? { alt: altCaptionShape(alt, opts) } : {}),
+    ...(caption ? { caption: altCaptionShape(caption, opts) } : {}),
   });
 }
 
@@ -368,7 +603,7 @@ function pushImage(node: HTMLElement, blocks: PtBlock[], stats: ConversionResult
       ...(assetRef
         ? { image: { _type: 'image', asset: { _type: 'reference', _ref: assetRef } } }
         : { _pendingImage: src }),
-      ...(alt ? { alt: [{ _key: 'en', value: alt }] } : {}),
+      ...(alt ? { alt: altCaptionShape(alt, opts) } : {}),
       alignment: alignRight ? 'right' : 'left',
     });
     return;
@@ -380,7 +615,7 @@ function pushImage(node: HTMLElement, blocks: PtBlock[], stats: ConversionResult
     ...(assetRef
       ? { asset: { _type: 'reference', _ref: assetRef } }
       : { _pendingImage: src }),
-    ...(alt ? { alt: [{ _key: 'en', value: alt }] } : {}),
+    ...(alt ? { alt: altCaptionShape(alt, opts) } : {}),
   });
 }
 
@@ -557,7 +792,20 @@ export function mineVisitorInfo(html: string, opts: ConversionOptions = {}): PtB
   liftElementorWrappers(root);
 
   const out: PtBlock[] = [];
-  const stats = { operatorNotes: 0, pullQuotes: 0, sideImages: 0, images: 0, tablesFlattened: 0, pendingInternalLinks: 0 };
+  const stats = {
+    operatorNotes: 0,
+    pullQuotes: 0,
+    sideImages: 0,
+    images: 0,
+    tablesFlattened: 0,
+    pendingInternalLinks: 0,
+    tourPromoStripped: 0,
+    categoryGridStripped: 0,
+    backlinkStripped: 0,
+    carouselSwiperStripped: 0,
+    carouselPremiumAdvStripped: 0,
+    bdtImgStripped: 0,
+  };
 
   const paragraphs = Array.from(root.querySelectorAll('p'));
   for (const p of paragraphs) {

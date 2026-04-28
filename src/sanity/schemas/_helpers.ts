@@ -73,6 +73,27 @@ export function migrationField() {
         description:
           'Set by the importer when this doc needs editor attention. Clear after review. Known values: "section-needs-assignment", "unclassified-as-article", "service-deferred", "interactive-tool", "promotional-marketing", "locale-orphan", "keyfacts-mining-failed", "hreflang-broken", "table-flattened".',
       }),
+      defineField({
+        name: 'wpAuthorId',
+        title: 'WP author ID',
+        type: 'number',
+        readOnly: true,
+        description: 'Original WordPress author user ID. Preserved so editorial can later reassign legacy-archive articles to real authors in bulk.',
+      }),
+      defineField({
+        name: 'wpAuthorSlug',
+        title: 'WP author slug',
+        type: 'string',
+        readOnly: true,
+      }),
+      defineField({
+        name: 'wpCategorySlugs',
+        title: 'WP category slugs',
+        type: 'array',
+        of: [{ type: 'string' }],
+        readOnly: true,
+        description: 'Original WordPress category slugs. Used by the two-bucket heuristic that mapped this doc to a Sanity editorialCategory.',
+      }),
     ],
   });
 }

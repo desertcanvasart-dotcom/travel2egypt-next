@@ -251,16 +251,119 @@ Counts are sums across the en+es+ja locales of each post group.
 
 Aggregate run-2 totals: 1844 tour-promo + 200 category-grid + 108 duplicate-paragraph stripped.
 
+Run-3 (post-bundle) extends the strip set with three more rules: swiper
+carousel (`swiper-slide-image`), Royal/Premium Addons carousel
+(`premium-adv-carousel__item-img`), and `bdt-img` related-tour widgets.
+Per-rule counters and per-article carousel-discarded src URLs surface in
+`migration-summary.md`.
+
+---
+
+## Pre-flight gates for upcoming entity types
+
+Distinct from the critical/not-blocking/deferred axis: these are findings
+that must be resolved **before** the next entity-type mapper runs (hubs,
+subpages, monuments, hotels, nile-cruises, tours).
+
+### Hotel/cruise/tour body imagery hidden in `_elementor_data` post-meta
+
+**Discovered while sampling 9 hotel pages adversarially.** ~33% of hotels
+(`al-tarfa-desert-sanctuary-lodge`, `bedouin-castle-hotel`,
+`daniela-village-saint-catherine-hotel`) return 40+ KB of `content.rendered`
+with **zero `<img>` tags and zero `/wp-content/uploads/` URL references** of
+any kind — neither in `<img src>`, nor inline-style `background-image`, nor
+`data-image`/`data-elementor-image` attributes. The remaining 6 hotels render
+imagery via the Royal/Premium Addons carousel widget
+(`premium-adv-carousel__item-img`) — class-less from the importer's
+perspective, but the URLs are at least present.
+
+The implication: for ~1/3 of hotels, the imagery lives entirely in
+`_elementor_data` post-meta JSON, which `content.rendered` does not include.
+The current importer scrapes `content.rendered` only.
+
+**Sample (9 hotels):**
+
+| WP id | Slug | Body length | `<img>` count | Mechanism |
+|---:|---|---:|---:|---|
+| 83679 | `al-tarfa-desert-sanctuary-lodge` | small | 0 | imagery in `_elementor_data` |
+| 83680 | `bedouin-castle-hotel` | 42 273 | 0 | imagery in `_elementor_data` |
+| 83681 | `daniela-village-saint-catherine-hotel` | 45 330 | 0 | imagery in `_elementor_data` |
+| 63657 | `hilton-alexandria-corniche-hotel` | 47 074 | 4 | premium-adv carousel |
+| 63630 | `hurghada-marriott-red-sea-resort` | 48 749 | 3 | premium-adv carousel |
+| 63932 | `jw-marriott-cairo-hotel` | 48 601 | 4 | premium-adv carousel |
+| 63523 | `mercure-luxor-karnak-resort` | 49 457 | 4 | premium-adv carousel |
+| 63666 | `sheraton-montazah-hotel` | 49 261 | 4 | premium-adv carousel |
+| 64598 | `steigenberger-nile-palace-luxor-hotel` | 50 191 | 4 | premium-adv carousel |
+
+Same pattern likely applies to nile-cruises and tour-or-package pages — both
+are Elementor page-builder driven. Spot-check on at least 4 cruises + 4 tours
+before locking the relevant mapper.
+
+**Three viable paths (decision needed before hotel/cruise/tour mappers):**
+
+1. **REST meta-field whitelist.** Register `_elementor_data` (and any related
+   meta keys) as REST-readable on the WP side, then parse the Elementor JSON
+   tree client-side to extract image references. Requires WP plugin or
+   `mu-plugins/` change. Highest fidelity, most upstream work.
+2. **Featured-only.** Use `featured_media` as the sole image source for
+   these entity types. Single hero per hotel/cruise/tour; accept body-imagery
+   loss for the 33% with empty `content.rendered` and the carousel imagery
+   loss on the other 67%. Lowest implementation cost; matches
+   editorial-luxury restraint; defensible.
+3. **Live HTML scrape.** Fetch the rendered HTML page (post-PHP-render),
+   parse the resolved DOM. Captures everything Elementor produces but adds
+   a second fetch path with rate-limit/cache implications and is fragile to
+   theme changes.
+
+**Decision should be made together with the editorial gallery question:**
+if hotel/cruise/tour content is preserved as a `gallery` array, path 1 or 3
+is needed. If it collapses to single hero only, path 2 is sufficient.
+
+### Carousel-imagery editorial review (post-strip)
+
+Every imported article has its stripped carousel imagery surfaced in
+`migration/migration-summary.md` under "Stripped carousels" with sample src
+URLs (capped at 20 per widget per locale). Editorial should review
+post-import and flag any high-value articles that need surgical re-import
+once a gallery strategy is locked.
+
+---
+
+## Migration-staging-only artifacts
+
+The following documents live **only in the migration-staging dataset** and
+must NOT be promoted to the production dataset by any future sync/promote
+script. They are migration-specific artifacts whose presence in production
+would encode false provenance.
+
+- `author.legacy-archive` ("Travel2Egypt Archive") — written via
+  `createIfNotExists` from `scripts/wp-import.ts` on every import run.
+  Referenced by every imported article as the default `author`. Honest
+  transitional construct: imported articles weren't authored by editorial;
+  they were imported. Editorial reassignment to real authors handles
+  promotion-time correctness.
+
+If a future "promote staging → production" script is added, it must:
+- Skip docs whose `_id` is `author-legacy-archive`.
+- For every article that references `author.legacy-archive`, either reassign
+  to a real author before promotion OR carry the archive author across as a
+  documented migration artifact (with the same caveat in production Studio).
+
+The two `editorialCategory` seed docs (`category-planning`,
+`category-destination`) are NOT staging-only — those are the curated
+production taxonomy, ensured in staging only because imported articles need
+them to resolve. The production `scripts/seed.ts` remains canonical.
+
 ---
 
 ## Triage matrix
 
 | # | Issue | Severity | Notes |
 |---:|---|---|---|
-| 3B | alt/caption shape | **critical** | Touches HTML→PT pipeline; affects every body image |
-| 3C | required author + category | **critical** | Needs editorial decision on default refs |
-| 5 | 156 images without asset | **critical** | Resolver fallback bounded |
-| 3A | excerpt → deck rename | not-blocking | 1-line fix |
+| 3B | alt/caption shape | **resolved** | `localeShape: 'string' \| 'i18n'` flag through `ConversionOptions`; mapArticle sets `'string'` |
+| 3C | required author + category | **resolved** | `author.legacy-archive` seed + two-bucket category heuristic with `wpCategorySlugs` provenance |
+| 5 | 156 images without asset | **resolved** | Carousel widgets stripped (swiper + premium-adv + bdt-img) + filename-fallback resolver with ambiguous-match registry |
+| 3A | excerpt → deck rename | **resolved** | Field renamed in mapArticle |
 | 2 | wrong-language bodies | not-blocking | Editorial triage; possibly + reviewFlag enum |
 | 4 | heading concat | deferred | Studio sampling first |
 | 7 | sub-paragraph dedupe | deferred | Prefix dedup cheap, internal needs samples |

@@ -72,7 +72,11 @@ export function i18nBody(group: LocaleGroup, fieldName = 'body'): Array<{ _key: 
 
 /** Combined HTML→PT stats summed across all locales of a group. */
 export function summedHtmlStats(group: LocaleGroup) {
-  const stats = { operatorNotes: 0, pullQuotes: 0, sideImages: 0, images: 0, tablesFlattened: 0, pendingInternalLinks: 0 };
+  const stats = {
+    operatorNotes: 0, pullQuotes: 0, sideImages: 0, images: 0, tablesFlattened: 0, pendingInternalLinks: 0,
+    tourPromoStripped: 0, categoryGridStripped: 0, backlinkStripped: 0,
+    carouselSwiperStripped: 0, carouselPremiumAdvStripped: 0, bdtImgStripped: 0,
+  };
   for (const loc of ['en', 'es', 'ja'] as const) {
     const e = group[loc];
     if (!e?.content?.rendered) continue;
@@ -136,7 +140,7 @@ export async function prepareBodyImageResolver(
   client: SanityClient,
   wp: WpClient,
   html: string,
-  opts: { dryRun?: boolean } = {}
+  opts: { dryRun?: boolean; referrerSlug?: string; referrerLocale?: string } = {}
 ): Promise<{ resolver: (src: string) => string | null; uploaded: number }> {
   if (!html) return { resolver: () => null, uploaded: 0 };
   const root = parse(html, { lowerCaseTagName: false });
@@ -144,14 +148,41 @@ export async function prepareBodyImageResolver(
   const idsSeen = new Set<number>();
   let uploaded = 0;
 
+  // Pass 1: class-based resolution (preferred — direct attachment ID).
+  const classlessSrcs: string[] = [];
   for (const img of root.querySelectorAll('img')) {
     const src = img.getAttribute('src');
     if (!src) continue;
     const cls = img.getAttribute('class') ?? '';
     const m = /wp-image-(\d+)/.exec(cls);
-    if (!m) continue;
+    if (!m) {
+      // Only candidate for filename fallback if it's a /wp-content/uploads/ src.
+      if (/\/wp-content\/uploads\//.test(src) && !map.has(src)) classlessSrcs.push(src);
+      continue;
+    }
     const wpId = Number(m[1]);
     if (idsSeen.has(wpId)) continue;
+    idsSeen.add(wpId);
+    const result = await ensureAssetUploaded(client, wp, wpId, opts);
+    if (result) {
+      map.set(src, result.assetId);
+      uploaded++;
+    }
+  }
+
+  // Pass 2: filename-fallback for class-less <img>s pointing at WP uploads.
+  const seenSrc = new Set<string>();
+  for (const src of classlessSrcs) {
+    if (seenSrc.has(src) || map.has(src)) continue;
+    seenSrc.add(src);
+    const wpId = await resolveAttachmentByFilename(wp, src, opts);
+    if (wpId === null) continue;
+    if (idsSeen.has(wpId)) {
+      // Already uploaded under a different src URL — link this src to the same asset.
+      const existing = await ensureAssetUploaded(client, wp, wpId, opts);
+      if (existing) map.set(src, existing.assetId);
+      continue;
+    }
     idsSeen.add(wpId);
     const result = await ensureAssetUploaded(client, wp, wpId, opts);
     if (result) {
@@ -164,12 +195,128 @@ export async function prepareBodyImageResolver(
   return { resolver, uploaded };
 }
 
+/**
+ * Filename-fallback attachment resolver.
+ *
+ * For `<img>` tags without `wp-image-{ID}` class (Block-editor pasted images,
+ * legacy posts, some Elementor inner-content imagery): derive a base filename
+ * from the `<img src>`, query `/wp/v2/media?search=<base>`, and pick the best
+ * candidate (exact source_url match wins, else most-recently-uploaded).
+ *
+ * Multi-match cases (≥2 candidates without exact match) are logged to
+ * MEDIA_SEARCH_AMBIGUOUS so editorial can spot-check the chosen attachment.
+ *
+ * Result is cached in-process so the same src URL never round-trips twice.
+ */
+const FILENAME_RESOLUTION_CACHE = new Map<string, number | null>();
+
+async function resolveAttachmentByFilename(
+  wp: WpClient,
+  src: string,
+  opts: { referrerSlug?: string; referrerLocale?: string } = {}
+): Promise<number | null> {
+  const cached = FILENAME_RESOLUTION_CACHE.get(src);
+  if (cached !== undefined) return cached;
+
+  const base = deriveBaseFilename(src);
+  if (!base) {
+    FILENAME_RESOLUTION_CACHE.set(src, null);
+    return null;
+  }
+
+  let results: WpMediaSearchHit[] = [];
+  try {
+    results = await wp.getJson<WpMediaSearchHit[]>(
+      `/wp/v2/media?search=${encodeURIComponent(base)}&per_page=10&_fields=id,date,source_url`,
+      { cacheKey: `media-search-${base}` }
+    );
+  } catch {
+    FILENAME_RESOLUTION_CACHE.set(src, null);
+    return null;
+  }
+  if (!Array.isArray(results) || results.length === 0) {
+    FILENAME_RESOLUTION_CACHE.set(src, null);
+    return null;
+  }
+
+  // Prefer exact source_url match (any size variant counted equal).
+  const exact = results.find((r) => r.source_url === src);
+  let chosen: WpMediaSearchHit;
+  if (exact) {
+    chosen = exact;
+  } else {
+    // Most-recently-uploaded wins.
+    chosen = results.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''))[0];
+    if (results.length > 1) {
+      recordAmbiguousMatch({
+        baseFilename: base,
+        srcUrl: src,
+        chosenWpId: chosen.id,
+        candidateWpIds: results.map((r) => r.id),
+        candidateSourceUrls: results.map((r) => r.source_url),
+        referrerSlug: opts.referrerSlug ?? '<unknown>',
+        referrerLocale: opts.referrerLocale ?? '<unknown>',
+      });
+    }
+  }
+  FILENAME_RESOLUTION_CACHE.set(src, chosen.id);
+  return chosen.id;
+}
+
+interface WpMediaSearchHit {
+  id: number;
+  date: string;
+  source_url: string;
+}
+
+/**
+ * Derive a search-friendly base filename from a WP upload URL.
+ * Strips: query string, path prefix, common WP size suffix `-NxN` and
+ * `-scaled`, and the file extension. Output is a base name suitable for
+ * `/wp/v2/media?search=<base>`.
+ *
+ * Examples:
+ *   .../uploads/2024/06/Cairo-evening-1024x768.jpg → Cairo-evening
+ *   .../uploads/2024/03/5-4.jpg                    → 5-4
+ *   .../uploads/2024/05/temple-of-luxor-scaled.jpg → temple-of-luxor
+ */
+function deriveBaseFilename(src: string): string | null {
+  try {
+    const u = new URL(src);
+    const last = u.pathname.split('/').pop() ?? '';
+    if (!last) return null;
+    let name = last.replace(/\.[a-z0-9]{2,5}$/i, '');
+    name = name.replace(/-scaled$/i, '');
+    name = name.replace(/-\d{2,4}x\d{2,4}$/, '');
+    return name || null;
+  } catch {
+    return null;
+  }
+}
+
+export interface AmbiguousMediaMatch {
+  baseFilename: string;
+  srcUrl: string;
+  chosenWpId: number;
+  candidateWpIds: number[];
+  candidateSourceUrls: string[];
+  referrerSlug: string;
+  referrerLocale: string;
+}
+const AMBIGUOUS_MATCHES: AmbiguousMediaMatch[] = [];
+function recordAmbiguousMatch(m: AmbiguousMediaMatch): void {
+  AMBIGUOUS_MATCHES.push(m);
+}
+export function getAmbiguousMediaMatches(): AmbiguousMediaMatch[] {
+  return AMBIGUOUS_MATCHES.slice();
+}
+
 /** Pull featured-media id from EN entity's featured_media field. */
 export async function buildHeroImage(
   client: SanityClient,
   wp: WpClient,
   group: LocaleGroup,
-  opts: { dryRun?: boolean } = {}
+  opts: { dryRun?: boolean; referrerSlug?: string; referrerLocale?: string } = {}
 ): Promise<unknown | null> {
   const featured = group.en.featured_media;
   if (!featured) return null;
