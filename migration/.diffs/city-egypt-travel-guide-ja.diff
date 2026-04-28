@@ -1,0 +1,2228 @@
+--- before:ja
++++ after:ja
+- {}
++ {
++   "name": "エジプト旅行ガイド",
++   "overview": [
++     {
++       "_key": "4bedb0b38970",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "52e5dbebee56",
++           "_type": "span",
++           "marks": [],
++           "text": "40以上のエジプトの都市を網羅した、あなたのための完全ガイド"
++         }
++       ],
++       "markDefs": [],
++       "style": "h2"
++     },
++     {
++       "_key": "dac62090fdc1",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "ea18827a0764",
++           "_type": "span",
++           "marks": [
++             "strong"
++           ],
++           "text": "究極のエジプトトラベルガイドへようこそ！"
++         },
++         {
++           "_key": "428b5d2fc32a",
++           "_type": "span",
++           "marks": [],
++           "text": "\n"
++         },
++         {
++           "_key": "aac22307ac5d",
++           "_type": "span",
++           "marks": [],
++           "text": " ここは、古代の鼓動が現代の足音の下に息づき、ファラオたちのささやきが賑やかな街角に響き渡る場所。エジプト——黄金色に輝く砂漠が瑠璃色の空の下に広がり、悠久の時を刻みながらナイル川が大地を優雅に流れる国。ここはただ訪れるだけの場所ではなく、五感で体験し、心に刻む世界なのです！"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "1e5acff6aeb6",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/ABU-SIMBLE.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Majestic rock-cut temples of Abu Simbel built by Pharaoh Ramses II"
++         }
++       ]
++     },
++     {
++       "_key": "15f4fa735a10",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8bd18f46dcbf",
++           "_type": "span",
++           "marks": [],
++           "text": " アブ・シンベル "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "d75f42e5e4cd",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2167cf46b02e",
++           "_type": "span",
++           "marks": [],
++           "text": "アブ・シンベルは、小さな集落であり、観光客を惹きつけるものは多くありません。しかし、その偉大な…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "ffb43c16d002",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8de8e359566e",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "e7ef0142952a",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/AKHMIM.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Akhmim an ancient city in Egypt known for its archaeological sites and rich textile heritage"
++         }
++       ]
++     },
++     {
++       "_key": "c38b84d99acc",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "80b5fb144d6f",
++           "_type": "span",
++           "marks": [],
++           "text": " アクミーム "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "88323a9f2a15",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "566965c7a1eb",
++           "_type": "span",
++           "marks": [],
++           "text": "アクミームは、エジプトのソハーグ東部に位置する町であり、その場所にはかつて…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "6974dc83527e",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "e7f83c67c1cc",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "37f132344e96",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/Al-Arish-.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Beautiful Mediterranean coastline and sandy beaches of Al Arish Egypt"
++         }
++       ]
++     },
++     {
++       "_key": "fbd78eae542d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "cb3889977498",
++           "_type": "span",
++           "marks": [],
++           "text": " アル・アリーシュ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "85499db86efe",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "16d63c22ccb7",
++           "_type": "span",
++           "marks": [],
++           "text": "アル・アリーシュは、透き通るような青い海と、広がる豊かなナツメヤシの森によって知られています。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "6dfc20ad1d13",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "40623d3bd560",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "13ff2f462d46",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/07/wadi-rayan-1.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The stunning waterfalls of Wadi El Rayan in Egypt, cascading into a serene pool surrounded by rocky desert terrain and lush vegetation under a clear sky"
++         }
++       ]
++     },
++     {
++       "_key": "d36a257f49cf",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "62f7f7ae36d6",
++           "_type": "span",
++           "marks": [],
++           "text": " アル・ファイユーム "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "758892f0ebcd",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "67183f3e9e79",
++           "_type": "span",
++           "marks": [],
++           "text": "アル・ファイユームは、ナイル川から数百本の水路を通じて潤されることから、「オアシス」とも称される地域です。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "d06bdfdb031c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "723a6d992a2d",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "6388170b9904",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/AL-MINYA.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Ancient sites and lush landscapes of Al Minya along the Nile River"
++         }
++       ]
++     },
++     {
++       "_key": "c4b672d6860c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "29721456a4af",
++           "_type": "span",
++           "marks": [],
++           "text": " アル・ミンヤ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "c303cdfd634a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "26cce12b5a34",
++           "_type": "span",
++           "marks": [],
++           "text": "アル・ミンヤの名前は、古代エジプト語の「メナト・クフ 」に由来し、その意味は…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "a74d488126a7",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d5f5aad1fa7e",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "f97bed2b77a5",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/AL-QUSEIR.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Historic coastal town of Al-Quseir with traditional architecture and Red Sea views"
++         }
++       ]
++     },
++     {
++       "_key": "6cba9bab9e98",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d2ced1c050ca",
++           "_type": "span",
++           "marks": [],
++           "text": " アル・クセイル "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "724b35cc1521",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b6acb045f5eb",
++           "_type": "span",
++           "marks": [],
++           "text": "アル・クセイルは、ナイル川に近いという独特の立地を持ち、プトレマイオス朝時代には…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "10dfdf48cf28",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "70822212e2a1",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "581fbcd22264",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/desert-safari-wadi-gadeed.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "egypt travel guide"
++         }
++       ]
++     },
++     {
++       "_key": "6ae231e36ffb",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d0e173829a5b",
++           "_type": "span",
++           "marks": [],
++           "text": " アル・ワディ・アル・ガディード "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "8c3af3d4525f",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "0a85a3176243",
++           "_type": "span",
++           "marks": [],
++           "text": "この地域は、東サハラのほぼ雨の降らない高原地帯であり、東部中央…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "ad2aae7c5d52",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d37dfb2fac3b",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "015a248f4e7b",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/arial-view-of-al-gouna-.jpeg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "egypt travel guide"
++         }
++       ]
++     },
++     {
++       "_key": "f1eb16c68e73",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "1804bd28638e",
++           "_type": "span",
++           "marks": [],
++           "text": " エル・グーナ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "7323f4a6f65c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "4505c7c918cc",
++           "_type": "span",
++           "marks": [],
++           "text": "エル・グーナには、美しいビーチがいくつもあり、代表的なものとしてムーズ・ビーチ、ゼイトゥーナ・ビーチ などが挙げられます...."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "8bffe87dfd05",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "6ed2d4f19ed0",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "fc9580d1e0b9",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/overall-view-of-library.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "egypt travel guide"
++         }
++       ]
++     },
++     {
++       "_key": "9af2578ccb46",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "4f8240988237",
++           "_type": "span",
++           "marks": [],
++           "text": " アレクサンドリア "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "6eafcaa702e0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8ea97642899b",
++           "_type": "span",
++           "marks": [],
++           "text": "アレクサンドリアは、独自の魅力を持つ街です。個性的な建築様式が織りなす景観と…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "cf6748219ef3",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "73456aa060ca",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "4744d61fe662",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Aswans-Riverside-Charm.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The serene riverside charm of Aswan, featuring traditional felucca boats sailing along the Nile River with lush greenery and scenic views"
++         }
++       ]
++     },
++     {
++       "_key": "628e6da13f4b",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "00dd0dce5754",
++           "_type": "span",
++           "marks": [],
++           "text": " アスワン "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "f4553aa4337d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b2ac8112afda",
++           "_type": "span",
++           "marks": [],
++           "text": "アスワンは、温暖な気候からエジプトで最も人気のある冬のリゾート地として知られています。第一…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b70429aef140",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "7f5d1065ab4a",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "f902649ee37b",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Ancient-Egyptian-Wall-Carvings.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Intricate ancient Egyptian wall carvings depicting pharaohs and deities, etched into stone and illuminated by soft light"
++         }
++       ]
++     },
++     {
++       "_key": "2067cac7a866",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "cdb62514ef4d",
++           "_type": "span",
++           "marks": [],
++           "text": " アシュート "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "7e9f27edc5f0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "a143d5897a77",
++           "_type": "span",
++           "marks": [],
++           "text": "アシュートは、長い間、外国人にとってエジプトで最も異質な場所と見なされてきました。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "3fad80af46bf",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8239a6eb663f",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "a17a967b2a98",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Stargazing-in-Egypts-White-Desert.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A tent illuminated under the Milky Way in Egypt’s White Desert, next to a unique rock formation"
++         }
++       ]
++     },
++     {
++       "_key": "74046c452d2b",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "1d8633d9c016",
++           "_type": "span",
++           "marks": [],
++           "text": " バハリヤ・オアシス "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "9c684757ef68",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "26ed263b6e69",
++           "_type": "span",
++           "marks": [],
++           "text": "バハリヤ・オアシスは、古代より「北のオアシス」として知られています。近年の道路整備や…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "8e76927a3667",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c20619debf3e",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "548d6eccba2d",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/BARIS.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Baris an oasis in Egypt known for its tranquil desert landscapes and ancient heritage"
++         }
++       ]
++     },
++     {
++       "_key": "7adc108ad1e4",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "fd2c56c05256",
++           "_type": "span",
++           "marks": [],
++           "text": " バリス "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "3eb9b9316156",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "04193a561bde",
++           "_type": "span",
++           "marks": [],
++           "text": "バリスはかつて、ダルブ・アル＝アルバイーン（Darb al-Arba'een）沿いの最も重要な交易拠点の一つでした。しかし…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "5b51169ebd3f",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "24bd7337c8e2",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "df378a4490f0",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/Beni-Suef.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Beni Suef a historic city on the Nile known for its cultural heritage and natural beauty"
++         }
++       ]
++     },
++     {
++       "_key": "078d898930ea",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "20ba5ba55a9e",
++           "_type": "span",
++           "marks": [],
++           "text": " ベニ・スエフ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "d077cc491541",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d2c1611fb77b",
++           "_type": "span",
++           "marks": [],
++           "text": "ベニ・スエフは、考古学的および農業的に重要な地域であり、西岸に位置する重要な交易拠点でもあります。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "25943840c1bf",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "35ae0c72b209",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "a6d7deb5b1bf",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Group-Photo.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A peaceful view of a Nile cruise boat sailing on the river, surrounded by lush greenery and desert landscapes under a clear sky"
++         }
++       ]
++     },
++     {
++       "_key": "340195d6b469",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "cbb8ed9ad12e",
++           "_type": "span",
++           "marks": [],
++           "text": " カイロ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "f8dea844334c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "e023468a99f3",
++           "_type": "span",
++           "marks": [],
++           "text": "カイロはエジプトの首都であり、「千のミナレットの街」として知られています。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "44952d661b4c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "acb0e87b3ea8",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "ae2749ab2342",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Mystique-of-Desert-Village-Ruins.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Ruins of an ancient desert village with clay structures and mountain views in the background"
++         }
++       ]
++     },
++     {
++       "_key": "121d2f4fcc5d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "e4f197b29189",
++           "_type": "span",
++           "marks": [],
++           "text": " ダフラ・オアシス "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "1174d5b0890f",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "cb4ec73b4e8c",
++           "_type": "span",
++           "marks": [],
++           "text": "ダフラ・オアシスは、豊かで多彩な歴史を持ち、多くの素晴らしい遺跡を残しています。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "99c64941204b",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "391016e80cd8",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "8e274bc0d565",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Magnificent-Edfu-Temple.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The grand entrance of Edfu Temple with intricate carvings on its walls and a bright blue sky overhead"
++         }
++       ]
++     },
++     {
++       "_key": "6c7c31585117",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b6b09fcf6939",
++           "_type": "span",
++           "marks": [],
++           "text": " エドフ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "93c328ef14ba",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b792d7c15f7c",
++           "_type": "span",
++           "marks": [],
++           "text": "エドフの町は、現在、砂糖生産と陶器製造の重要な拠点となっています。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "2967666d0394",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "1eb8eea51d29",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "5b94c48985cb",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Vibrant-Artistry-of-Ancient-Temple-Ceilings.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A richly decorated ceiling in an ancient Egyptian temple, with vivid colors and intricate carvings on the columns and panels"
++         }
++       ]
++     },
++     {
++       "_key": "35aa40e16df8",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c562ff50033b",
++           "_type": "span",
++           "marks": [],
++           "text": " エスナ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "0502a416a769",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b5bbdb3c6627",
++           "_type": "span",
++           "marks": [],
++           "text": "エスナは、ルクソールからの朝の小旅行に最適な町であり、またルクソールからの移動途中の立ち寄りスポットとしても人気があります。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "28e495d67022",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b4c7bdfbe788",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "8e46f54e3069",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Harmony-of-Desert-and-Water.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A group of people walking along a calm body of water beside a golden sand dune under a vibrant sky"
++         }
++       ]
++     },
++     {
++       "_key": "0bc3e496d2af",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "fe9d5c1d7261",
++           "_type": "span",
++           "marks": [],
++           "text": " ファラフラ・オアシス "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "57f16db69f23",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "4a52d30a22ce",
++           "_type": "span",
++           "marks": [],
++           "text": "ファラフラ・オアシスは、北西部に位置する三角形の形をした肥沃な窪地です。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "9bf553fa9ba0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f5177677512e",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "6271bf3a90d4",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Timeless-Scene-of-Camels-and-Pyramids.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Camels resting in the desert with the iconic pyramids of Giza in the background under a partly cloudy sky"
++         }
++       ]
++     },
++     {
++       "_key": "b953df348e27",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "ad4bf62a1c9b",
++           "_type": "span",
++           "marks": [],
++           "text": " ギザ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "ae5c1d85b031",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8842f4fea628",
++           "_type": "span",
++           "marks": [],
++           "text": "ギザのピラミッドは、実際に訪れるとまるで夢のような光景が広がります。この古代の石造建築は…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "4a2f208ca107",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8057417fb3ae",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "7ce9f2fd0e2b",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/sunset-quad-safari-in-hurghada-.jpeg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "travelers riding quad bike in hurghada's desert"
++         }
++       ]
++     },
++     {
++       "_key": "8b2a03d41d31",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "454806dab790",
++           "_type": "span",
++           "marks": [],
++           "text": " ハルガダ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "c16b2c6c56f3",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "026df85432ef",
++           "_type": "span",
++           "marks": [],
++           "text": "ハルガダは、エジプト屈指の素晴らしい観光地の一つへと発展しました。透き通るような青い海と…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "eca2bc9a5231",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "7edd3e2cad46",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "827727f1daa2",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Tranquility-Along-the-Nile-in-Cairo.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A peaceful view of the Nile River’s edge in Cairo, with lush greenery, buildings, and clear blue skies"
++         }
++       ]
++     },
++     {
++       "_key": "db5ea8bffa2a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b1451c25ab4c",
++           "_type": "span",
++           "marks": [],
++           "text": " イスマイリア "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "82f361318540",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "40846547aeee",
++           "_type": "span",
++           "marks": [],
++           "text": "イスマイリアは、ティムサー湖沿いに位置し、スエズ運河の沿岸に広がる都市です。ポートサイドと…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "8f37ec7acb12",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "17b72eed0836",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "d3ceb83c4572",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Timeless-Beauty-of-a-Hilltop-Village.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "historic village built into a hill, glowing warmly under the evening light surrounded by lush greenery"
++         }
++       ]
++     },
++     {
++       "_key": "0bc981e04f35",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "eb8f498b6c3a",
++           "_type": "span",
++           "marks": [],
++           "text": " ハルガ・オアシス "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "bd8a612e4097",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "045012bdb569",
++           "_type": "span",
++           "marks": [],
++           "text": "エル・ハルガは、豊富なナツメヤシの木、伝統的な鳩小屋、広がる農地で知られています。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "ef31168440a4",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "4a8b44b10ffc",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b73d230bba8e",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Magnificent-Temple-of-Kom-Ombo.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The ancient Temple of Kom Ombo, featuring large columns and intricate carvings under a bright blue sky"
++         }
++       ]
++     },
++     {
++       "_key": "1ee8b7024a54",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "3f9ee3cb4449",
++           "_type": "span",
++           "marks": [],
++           "text": " コム・オンボ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "4fe97b9c956e",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d624af9d1c55",
++           "_type": "span",
++           "marks": [],
++           "text": "コム・オンボは、アスワンとルクソールの間に位置し、気軽に立ち寄れる魅力的な小さな町です。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "30ce8516f1a1",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "3984c2231ce9",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "2d7bb7ff88e6",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Enchantment-of-Luxor-Temple-at-Night.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The illuminated Luxor Temple at night, with towering statues and columns glowing under a dramatic sky"
++         }
++       ]
++     },
++     {
++       "_key": "e88fe6a0b486",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "ff8d89ca73c1",
++           "_type": "span",
++           "marks": [],
++           "text": " ルクソール "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "077b0f2f0e1d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "3db6689b6904",
++           "_type": "span",
++           "marks": [],
++           "text": "テーベ——「昇る太陽の地」、「宮殿の街」とも称されたルクソールは、かつてエジプトで最も…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "8bc7260626c5",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "3306e74b26b4",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b750451d68f1",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Relaxation-on-the-Red-Sea.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A Red Sea beach resort with straw umbrellas, crystal-clear waters, and vibrant coral reefs"
++         }
++       ]
++     },
++     {
++       "_key": "329ccf400c0b",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "bd56d45771e8",
++           "_type": "span",
++           "marks": [],
++           "text": " マルサ・アラム "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "903849716a28",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "75f56e95a6af",
++           "_type": "span",
++           "marks": [],
++           "text": "マルサ・アラムは、カイロから南へ約790kmに位置し、紅海沿岸の絶好のロケーションを誇る町です。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "047140d4b916",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d568fcf18b6f",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "544e976318bc",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Untamed-Beauty-of-Egypts-Rocky-Coastline.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A rugged coastline with rocky outcrops extending into the blue waters of the sea under a clear sky"
++         }
++       ]
++     },
++     {
++       "_key": "e6277df36749",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "50ebfe18b312",
++           "_type": "span",
++           "marks": [],
++           "text": " マルサ・マトルーフ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "9bd802b2a532",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "fbf7197bae80",
++           "_type": "span",
++           "marks": [],
++           "text": "マルサ・マトルーフは、アギバ・ビーチやガラム・ビーチなど、白く長い砂浜と透き通る美しい海を誇るリゾート地です。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "4710c8755ab7",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "14d247b4f46b",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "04ed76e11d7e",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/NUWEIBA.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Scenic view of Nuweiba with clear blue waters and mountainous backdrop"
++         }
++       ]
++     },
++     {
++       "_key": "a16f2d0bdb56",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "38042e05f5a3",
++           "_type": "span",
++           "marks": [],
++           "text": " ヌウェイバ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "72afc934c4e8",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "842072e675d3",
++           "_type": "span",
++           "marks": [],
++           "text": "ヌウェイバは「湾の宝石」と称され、黄金色の美しいビーチが広がり、周囲には多くの…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "0f5332013554",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "a2199aed5f50",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b318fbaa0615",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/PORT-SAID.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Port Said waterfront with historic buildings and a view of the Suez Canal"
++         }
++       ]
++     },
++     {
++       "_key": "43e549d400dd",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d8dd4627099d",
++           "_type": "span",
++           "marks": [],
++           "text": " ポートサイド "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "2c47ab93657e",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "a08a2ef26f13",
++           "_type": "span",
++           "marks": [],
++           "text": "ポートサイド（には、各階に広々としたバルコニーを備えた歴史ある建物が数多く残されており、街全体に…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "4cdec77ef36f",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "6890ae8c6e32",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "4386fc9535ff",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/QENA.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Historic city of Qena with traditional architecture and cultural landmarks"
++         }
++       ]
++     },
++     {
++       "_key": "fe7d2cbe6b5a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "886ecc83deb2",
++           "_type": "span",
++           "marks": [],
++           "text": " ケナ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "7bc4b806ffa1",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "756538291014",
++           "_type": "span",
++           "marks": [],
++           "text": "ケナは、エジプト中部のナイル川東岸に位置する都市であり、国内でも最も魅力的な街の一つです。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "d20960278544",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b90bf9cc1559",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b13b944ca979",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Coastal-Tranquility-by-the-Mountains.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A pristine sandy beach with gentle waves, set against a backdrop of mountains and clear blue skies"
++         }
++       ]
++     },
++     {
++       "_key": "47272589623a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "50f610f2f6f8",
++           "_type": "span",
++           "marks": [],
++           "text": " ラス・スドル "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "d99c785f0ebe",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "a35936cc76b8",
++           "_type": "span",
++           "marks": [],
++           "text": "ラス・スドルは、スエズ湾と紅海沿岸に位置するエジプトの町です。これは…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "caf3cd280367",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "7b5fcfeb05e1",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "62606f722e96",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Life-Along-the-Nile.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A quaint town by the Nile River, with traditional buildings, palm trees, and small wooden boats on the water"
++         }
++       ]
++     },
++     {
++       "_key": "b0714b6009f1",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8463ad092e13",
++           "_type": "span",
++           "marks": [],
++           "text": " ロゼッタ（ラシード "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "c85da4b76a36",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "00d611218f11",
++           "_type": "span",
++           "marks": [],
++           "text": "ロゼッタ（ラシード）は、19世紀には英国人観光客に人気のある旅行先であり、その…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "350f9c61a5a0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f1084999ceb6",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "fb4ecb757d3c",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/A-Camels-Rest-by-the-Shore.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A camel resting on a sandy beach by the shore, adorned with colorful traditional blankets, with the blue sea and sky in the background"
++         }
++       ]
++     },
++     {
++       "_key": "b19ebf183c85",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "04a71d3c77fb",
++           "_type": "span",
++           "marks": [],
++           "text": " サファガ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "0dd1fb7b9e0f",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f4a7d3be971d",
++           "_type": "span",
++           "marks": [],
++           "text": "サファガは、エジプトの紅海沿岸に位置する町で、フルガダから南へ約53km（33マイル）にあります。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "aeb01e0f2ca0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b882b611e798",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "335bf75e5f6a",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Timeless-St.-Catherines-Monastery.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The historic St. Catherine’s Monastery nestled at the foot of rugged mountains under a bright sky"
++         }
++       ]
++     },
++     {
++       "_key": "4598655c388d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "644d867b8d40",
++           "_type": "span",
++           "marks": [],
++           "text": " セント・カトリーヌ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "5083c406a667",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "458839ef6dbf",
++           "_type": "span",
++           "marks": [],
++           "text": "セント・カトリーヌは、南シナイ県に位置する都市であり…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "780984f43df8",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "94dc52e8801e",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "c63f3bf78bec",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/A-Camels-Rest-by-the-Beach.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A decorated camel standing on a sandy beach near straw umbrellas, with the sea stretching into the horizon"
++         }
++       ]
++     },
++     {
++       "_key": "298fcf1f0519",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "378c90931905",
++           "_type": "span",
++           "marks": [],
++           "text": " シャルム・エル・シェイク "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "b9da47f07e85",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "323926068a7e",
++           "_type": "span",
++           "marks": [],
++           "text": "シャルム・エル・シェイクで素晴らしい休暇を過ごし、素晴らしいビーチや…をお楽しみください。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "17f23d40bf38",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "fbaf68185c12",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "8fabc3ff9f5c",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Enchanting-Salt-Lake-Oasis.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A vivid turquoise salt lake surrounded by desert landscapes under a blue sky"
++         }
++       ]
++     },
++     {
++       "_key": "25e3f47adcba",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "45167fe61ee5",
++           "_type": "span",
++           "marks": [],
++           "text": " シワ・オアシス "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "7bfa4174859d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b669db2ab346",
++           "_type": "span",
++           "marks": [],
++           "text": "シワ・オアシスで一日の終わりを迎えるなら、伝説の女王クレオパトラが愛したと言われる「クレオパトラのプール」でひと泳ぎを楽しんでください。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "569960269ad0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b927aec30e92",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "72bb93aefc34",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Artistry-of-Temple-Ceilings.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The intricately carved ceiling of an ancient Egyptian temple, featuring detailed patterns and symbols"
++         }
++       ]
++     },
++     {
++       "_key": "0f451c75bfbb",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "910bf73a0f26",
++           "_type": "span",
++           "marks": [],
++           "text": " ソハーグ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "6dc2e59dec63",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "456bc9576ea9",
++           "_type": "span",
++           "marks": [],
++           "text": "ソハーグは、エジプトのナイル川西岸に位置する都市であり、ソハーグ県の県庁所在地として知られています。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "be609ab798a8",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8ff9ce2c6d47",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "272c3f2c3390",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/A-Scenic-River-Cruise.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A vibrant red boat cruising along a calm river, with palm trees, buildings, and a cityscape in the background"
++         }
++       ]
++     },
++     {
++       "_key": "f6b3fb4f9b64",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f88d8cb74db9",
++           "_type": "span",
++           "marks": [],
++           "text": " スエズ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "354cb4826c4d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b1487bbe9b2e",
++           "_type": "span",
++           "marks": [],
++           "text": "スエズは、エジプト北部に位置する港湾都市で、2018年8月時点で人口約75万人を有しています。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "78c97f3c7a5d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "4ee4fc1dd33b",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "6f84d6340eb9",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Majestic-Fortress-by-the-Sea.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "An ancient stone fortress perched on a rocky hill overlooking vivid blue waters under a bright sky"
++         }
++       ]
++     },
++     {
++       "_key": "31c4d9e59a83",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "3af531e4437e",
++           "_type": "span",
++           "marks": [],
++           "text": " タバ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "35cf029c8d59",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "69958c7238b7",
++           "_type": "span",
++           "marks": [],
++           "text": "タバは、20年以上前には小さな病院といくつかの地元のオリエンタルショップのみで構成されていましたが、現在では…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "60c0c302874b",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "138a08c83f58",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "0cc792ed2879",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/WADI-AL-NATRON.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Wadi Al Natrun desert landscape with ancient monasteries and serene surrounding"
++         }
++       ]
++     },
++     {
++       "_key": "daf01ae8289c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "096997e27e03",
++           "_type": "span",
++           "marks": [],
++           "text": " ワディ・アル・ナトロン "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "9abae1fd4088",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "450dc76cf40d",
++           "_type": "span",
++           "marks": [],
++           "text": "ワディ・アル・ナトロンは、エジプトのベイヘラ県に位置する谷で、ここには…"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "71697a4a8275",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "900897c131c1",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "fc4e8c6cc169",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/DAHAB.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Dahab’s golden beaches and crystal-clear waters along the Red Sea"
++         }
++       ]
++     },
++     {
++       "_key": "c77cf93a2195",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "77cc52e87d44",
++           "_type": "span",
++           "marks": [],
++           "text": " ダハブ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "3df71ef7224d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "dd7b49b22ecf",
++           "_type": "span",
++           "marks": [],
++           "text": "ダハブの名前は「金」を意味し、それは海辺に広がる砂浜の黄金色からも明らかです。"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "3b75c90cef30",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f15a79e546eb",
++           "_type": "span",
++           "marks": [],
++           "text": "詳しくはこちらへ"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     }
++   ],
++   "slug": {
++     "_type": "slug",
++     "current": "エジプト旅行ガイド"
++   },
++   "summary": "40以上のエジプトの都市を網羅した、あなたのための完全ガイド 究極のエジプトトラベルガイドへようこそ！ ここは、古代の鼓動が現代の足音の下に息づき、ファラオたちのささやきが賑やかな街角に響き渡る場所。エジプト——黄金色に輝く砂漠が瑠璃色の空の下に広がり、悠久の時を刻みながらナイル川が大地を優雅に流れる国。ここはただ訪れるだけの場所ではなく、五感で体験し、心に刻む世界なのです！ アブ・シンベル アブ・シンベルは、小さな集落であり、観光客を惹きつけるものは多くありません。しかし、その偉大な… 詳しくはこちらへ アクミーム アクミームは、エジプトのソハーグ東部"
++ }

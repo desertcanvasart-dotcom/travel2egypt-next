@@ -1,0 +1,669 @@
+--- before:en
++++ after:en
+- {}
++ {
++   "name": "Akhmim Travel Guide",
++   "overview": [
++     {
++       "_key": "46bcb39d993e",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "9727e0a9c29b",
++           "_type": "span",
++           "marks": [],
++           "text": "Akhmim - The Complete Travel Guide"
++         }
++       ],
++       "markDefs": [],
++       "style": "h2"
++     },
++     {
++       "_key": "c264cbbbd199",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2559724814e5",
++           "_type": "span",
++           "marks": [
++             "f3f63c57eb21"
++           ],
++           "text": "Akhmim,"
++         },
++         {
++           "_key": "569e5a28dc8d",
++           "_type": "span",
++           "marks": [],
++           "text": " situated on the east bank of the Nile in "
++         },
++         {
++           "_key": "f95b669f170f",
++           "_type": "span",
++           "marks": [
++             "ec9be8675bcf"
++           ],
++           "text": "Sohag"
++         },
++         {
++           "_key": "3dc1fbeabcc1",
++           "_type": "span",
++           "marks": [],
++           "text": ", Egypt, embodies a rich tapestry of history and culture that extends far beyond its geographic boundaries. This town, more than a mere suburban area, is deeply entrenched in the annals of history, rising from the ancient Egyptian town of Ipu. Its existence offers a seamless blend of the past and present, serving as a poignant reminder of a civilization that once thrived here. "
++         },
++         {
++           "_key": "34d9174ff280",
++           "_type": "span",
++           "marks": [
++             "1ad7a72d0c5b"
++           ],
++           "text": "Akhmim’s"
++         },
++         {
++           "_key": "a3d18181a109",
++           "_type": "span",
++           "marks": [],
++           "text": " foundation is steeped in a history that traces back to a pre-dynastic era, making it older than the well-documented Egyptian dynasties that have captivated the world’s imagination."
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "f3f63c57eb21",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "http://travel2egypt.org/akhmim-travel-guide/tours/"
++           },
++           "_type": "externalLink",
++           "href": "http://travel2egypt.org/akhmim-travel-guide/tours/",
++           "newTab": false
++         },
++         {
++           "_key": "ec9be8675bcf",
++           "_type": "externalLink",
++           "href": "https://en.wikipedia.org/wiki/Sohag",
++           "newTab": true
++         },
++         {
++           "_key": "1ad7a72d0c5b",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "http://travel2egypt.org/akhmim-travel-guide/getting-around/"
++           },
++           "_type": "externalLink",
++           "href": "http://travel2egypt.org/akhmim-travel-guide/getting-around/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "5c0a59c0a778",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f0d2501c37f3",
++           "_type": "span",
++           "marks": [],
++           "text": "In the present day, "
++         },
++         {
++           "_key": "a51fa2988ef2",
++           "_type": "span",
++           "marks": [
++             "756dee7044b0"
++           ],
++           "text": "Akhmim"
++         },
++         {
++           "_key": "c6a41321df31",
++           "_type": "span",
++           "marks": [],
++           "text": " is celebrated for its enduring contribution to Egypt’s cultural heritage, especially through its ancient crafts in weaving, textiles, and drapery. These trades are among "
++         },
++         {
++           "_key": "91b46402b3a3",
++           "_type": "span",
++           "marks": [
++             "ec4af2251093"
++           ],
++           "text": "Egypt’s"
++         },
++         {
++           "_key": "799a2d0176b3",
++           "_type": "span",
++           "marks": [],
++           "text": " oldest, symbolizing the town’s historical significance and its artisans’ skillful dedication to preserving these ancient practices. The heart of Akhmim buzzes with life, especially around its vibrant "
++         },
++         {
++           "_key": "07d646f0bbae",
++           "_type": "span",
++           "marks": [
++             "42f7e0b9d122"
++           ],
++           "text": "shops and the local"
++         },
++         {
++           "_key": "1cf381c6c141",
++           "_type": "span",
++           "marks": [],
++           "text": " open-air museum. These spaces not only display the town’s rich history but also "
++         },
++         {
++           "_key": "9421436e43dd",
++           "_type": "span",
++           "marks": [
++             "e504810bf64c"
++           ],
++           "text": "celebrate the living tradition"
++         },
++         {
++           "_key": "67c8438e1f83",
++           "_type": "span",
++           "marks": [],
++           "text": " of its craftsmen and weavers, whose hands craft wonders."
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "756dee7044b0",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/akhmim-travel-guide/history-legacy/"
++           },
++           "_type": "externalLink",
++           "href": "https://travel2egypt.org/akhmim-travel-guide/history-legacy/",
++           "newTab": false
++         },
++         {
++           "_key": "ec4af2251093",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/contact-us/"
++           },
++           "_type": "externalLink",
++           "href": "https://travel2egypt.org/contact-us/",
++           "newTab": false
++         },
++         {
++           "_key": "42f7e0b9d122",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/aswan-travel-guide/aswan-local-market/"
++           },
++           "_type": "externalLink",
++           "href": "https://travel2egypt.org/aswan-travel-guide/aswan-local-market/",
++           "newTab": false
++         },
++         {
++           "_key": "e504810bf64c",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/kom-ombo-travel-guide/festivities-nile/"
++           },
++           "_type": "externalLink",
++           "href": "https://travel2egypt.org/kom-ombo-travel-guide/festivities-nile/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "cdf28ea3772d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "6766c938edcc",
++           "_type": "span",
++           "marks": [],
++           "text": "The transformation of Akhmim into a modern locale has not diluted its historical essence. It remains a bastion of traditional weaving and tapestry, an art "
++         },
++         {
++           "_key": "03a66938b309",
++           "_type": "span",
++           "marks": [
++             "f37f4392c27f"
++           ],
++           "text": "form"
++         },
++         {
++           "_key": "620deae65155",
++           "_type": "span",
++           "marks": [],
++           "text": " that is central to its identity. The marketplaces near the open-air museum are a testament to this, offering a glimpse into the skilled artistry that defines Akhmim. Here, visitors have the unique opportunity to engage with the town’s "
++         },
++         {
++           "_key": "b7a943126d19",
++           "_type": "span",
++           "marks": [
++             "5d59aa205fb3"
++           ],
++           "text": "cultural"
++         },
++         {
++           "_key": "412c34f7ab68",
++           "_type": "span",
++           "marks": [],
++           "text": " legacy, witnessing first-hand the creation of exquisite textiles and potentially taking home a piece of this enduring heritage. Akhmim, therefore, stands not just as a town but as a living museum, a "
++         },
++         {
++           "_key": "d026d80e4719",
++           "_type": "span",
++           "marks": [
++             "a3a48b73faf9"
++           ],
++           "text": "place where history"
++         },
++         {
++           "_key": "0beab7b2c885",
++           "_type": "span",
++           "marks": [],
++           "text": " is both preserved and celebrated, inviting those who visit to partake in its rich cultural narrative."
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "f37f4392c27f",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/form/"
++           },
++           "_type": "externalLink",
++           "href": "https://travel2egypt.org/form/",
++           "newTab": false
++         },
++         {
++           "_key": "5d59aa205fb3",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/animals-in-ancient-egypt/"
++           },
++           "_type": "externalLink",
++           "href": "https://travel2egypt.org/animals-in-ancient-egypt/",
++           "newTab": false
++         },
++         {
++           "_key": "a3a48b73faf9",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/the-worlds-first-labour-strike/"
++           },
++           "_type": "externalLink",
++           "href": "https://travel2egypt.org/the-worlds-first-labour-strike/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "64b98a2c19ad",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "890890be268f",
++           "_type": "span",
++           "marks": [],
++           "text": "Created On March 18, 2020"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "2308f14e154c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "02d4378debb8",
++           "_type": "span",
++           "marks": [],
++           "text": "Updated On July 24, 2025"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "eb6338df3186",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "dccff33f41b9",
++           "_type": "span",
++           "marks": [],
++           "text": "AKHMIM Travel Guide"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "1907afb0c42b",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d99e60364891",
++           "_type": "span",
++           "marks": [],
++           "text": "INTRODUCING AKHMIM"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "67d674db73b9",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "55220b84ad43",
++           "_type": "span",
++           "marks": [
++             "4c5ec3bd66fc"
++           ],
++           "text": "History"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "4c5ec3bd66fc",
++           "_type": "externalLink",
++           "href": "/akhmim-travel-guide/history-legacy/",
++           "newTab": true
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "34ecdbe11191",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "92cea4c32f13",
++           "_type": "span",
++           "marks": [
++             "70bdee99b504"
++           ],
++           "text": "Weather"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "70bdee99b504",
++           "_type": "externalLink",
++           "href": "/akhmim-travel-guide/weather-seasons",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "c2857365c6cb",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "148b0ef5649e",
++           "_type": "span",
++           "marks": [],
++           "text": "PLAN YOUR TRIP"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b9a6b3e56f22",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "e9761939a1b0",
++           "_type": "span",
++           "marks": [
++             "ffcb47d66ebc"
++           ],
++           "text": "How To Go"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "ffcb47d66ebc",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/how-to-get-around-akhmim/"
++           },
++           "_type": "externalLink",
++           "href": "https://travel2egypt.org/how-to-get-around-akhmim/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "ecc9031b491a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "12e990e15490",
++           "_type": "span",
++           "marks": [
++             "a1793fb5dffb"
++           ],
++           "text": "Where To Stay"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "a1793fb5dffb",
++           "_type": "externalLink",
++           "href": "/akhmim-travel-guide/accommodation-comfort",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "50b401170c96",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b6a34d8e9456",
++           "_type": "span",
++           "marks": [],
++           "text": "WHILE YOU ARE THERE"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "3d3147281cb7",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "824b25041815",
++           "_type": "span",
++           "marks": [
++             "f37f135702bc"
++           ],
++           "text": "Getting Around"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "f37f135702bc",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/getting-to-akhmim/"
++           },
++           "_type": "externalLink",
++           "href": "https://travel2egypt.org/getting-to-akhmim/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "d75e82eb6d85",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "0311c5e145ca",
++           "_type": "span",
++           "marks": [
++             "d878dcfac1cc"
++           ],
++           "text": "Things To Do"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "d878dcfac1cc",
++           "_type": "externalLink",
++           "href": "/akhmim-travel-guide/adventure-awaits",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "fbac659faa1e",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "e61196eb68b2",
++           "_type": "span",
++           "marks": [],
++           "text": "PLACES TO GO"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "d82ba0e472e6",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2097056d3e35",
++           "_type": "span",
++           "marks": [
++             "7a7b5bc237ea"
++           ],
++           "text": "Unique Sites"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "7a7b5bc237ea",
++           "_type": "externalLink",
++           "href": "/akhmim-travel-guide/unique-site/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "79fb87e554c8",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "4fddae8b72ba",
++           "_type": "span",
++           "marks": [],
++           "text": "OTHERS"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "5eccb995a3ce",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "497af5a96b73",
++           "_type": "span",
++           "marks": [
++             "231a39bdfcf1"
++           ],
++           "text": "Tours"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "231a39bdfcf1",
++           "_type": "externalLink",
++           "href": "/akhmim-travel-guide/tours/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "c85bc6179e0c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "487f1574e152",
++           "_type": "span",
++           "marks": [
++             "3ee3e55d012e"
++           ],
++           "text": "Food"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "3ee3e55d012e",
++           "_type": "externalLink",
++           "href": "/akhmim-travel-guide/taste-exploring/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "212dd24d5d94",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "82556df4f885",
++           "_type": "span",
++           "marks": [
++             "fa5fd6ec2ec5"
++           ],
++           "text": "Only Here"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "fa5fd6ec2ec5",
++           "_type": "externalLink",
++           "href": "/akhmim-travel-guide/unveiled-experiences",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "797b219bb302",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/6440ecd00256f92e09d9ec1fdcd9b5f0.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A close-up of an ancient Egyptian statue's face with a headdress and cobra symbol"
++         }
++       ],
++       "caption": [
++         {
++           "_key": "en",
++           "value": "A pharaoh's face carved in stone defies the passage of time, resonating with the splendor of ancient Egypt."
++         }
++       ]
++     }
++   ],
++   "slug": {
++     "_type": "slug",
++     "current": "akhmim-travel-guide"
++   },
++   "summary": "Akhmim The Complete Travel Guide Akhmim, situated on the east bank of the Nile in Sohag, Egypt, embodies a rich tapestry of history and culture that extends far beyond its geographic boundaries. This town, more than a mere suburban area, is deeply entrenched in the annals of hist"
++ }

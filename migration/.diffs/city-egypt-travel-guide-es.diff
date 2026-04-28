@@ -1,0 +1,2355 @@
+--- before:es
++++ after:es
+- {}
++ {
++   "name": "Guía de Viajes de Egipto",
++   "overview": [
++     {
++       "_key": "0662184dc4e8",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b6a9561f6415",
++           "_type": "span",
++           "marks": [],
++           "text": "Tu Guía de Viajes Completa a Más de 40 Ciudades de Egipto "
++         }
++       ],
++       "markDefs": [],
++       "style": "h2"
++     },
++     {
++       "_key": "d9da7e8c967c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "6e2741e06afb",
++           "_type": "span",
++           "marks": [],
++           "text": "Bienvenido a tu Guía de Viajes definitiva de Egipto, donde el pulso del mundo antiguo late bajo pasos modernos y los susurros de los faraones resuenan a través de las bulliciosas calles de la ciudad. ¡Egipto, una tierra donde los desiertos dorados se extienden bajo cielos de zafiro y el majestuoso Nilo se abre camino grácilmente a través de tierras milenarias, no es solo un lugar para visitar, sino un mundo para experimentar!"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "e15466e0676a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "e003345b62ce",
++           "_type": "span",
++           "marks": [],
++           "text": "¿Por qué limitarte solo a "
++         },
++         {
++           "_key": "27ad84bb52f0",
++           "_type": "span",
++           "marks": [
++             "9a323e3031d2"
++           ],
++           "text": "las Pirámides de Giza"
++         },
++         {
++           "_key": "c96a4c2b03e1",
++           "_type": "span",
++           "marks": [],
++           "text": " o la mística Esfinge cuando el tesoro de Egipto abarca más de 40 vibrantes ciudades, cada una con su propio sabor único y secretos? Desde el caos hipnotizante de los bazares de El Cairo hasta las tranquilas aguas de Asuán, esta guía es tu pasaporte para explorar los vastos y variados paisajes de este majestuoso país."
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "9a323e3031d2",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "http://travel2egypt.org/es/itinerario-de-1-dia-por-las-piramides-de-guiza-disfruta-de-las-maravillas-del-antiguo-egipto/"
++           },
++           "_type": "externalLink",
++           "href": "http://travel2egypt.org/es/itinerario-de-1-dia-por-las-piramides-de-guiza-disfruta-de-las-maravillas-del-antiguo-egipto/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "17d8f74dc0e1",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "780e3f1cd582",
++           "_type": "span",
++           "marks": [],
++           "text": "Imagina flotar por el Nilo al atardecer, las aguas incendiándose con colores tan vivos que quedarán grabados en tu memoria para siempre. Imagínate en Alejandría, donde el Mediterráneo acaricia playas arenosas y el legendario faro de Faros una vez se erigió como un faro de maravillas antiguas. Aventúrate en "
++         },
++         {
++           "_key": "fbf8c984215d",
++           "_type": "span",
++           "marks": [
++             "d51b2974b573"
++           ],
++           "text": "Luxor"
++         },
++         {
++           "_key": "8809ec09767e",
++           "_type": "span",
++           "marks": [],
++           "text": ", el museo al aire libre más grande del mundo, donde templos y tumbas viven a la sombra de los dioses. ¿Qué más podrías pedir?"
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "d51b2974b573",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "http://travel2egypt.org/es/guia-de-viaje-de-luxor/"
++           },
++           "_type": "externalLink",
++           "href": "http://travel2egypt.org/es/guia-de-viaje-de-luxor/",
++           "newTab": false
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "2a4d45f9c9e1",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c0067b90c591",
++           "_type": "span",
++           "marks": [],
++           "text": "Cada ciudad en nuestra guía de viajes de Egipto ofrece no solo lugares emblemáticos, sino también puertas al pasado, sazonadas con el vigor de la Egipto de hoy. Sumérgete en el rico tapiz de"
++         },
++         {
++           "_key": "8d94ced7ff7c",
++           "_type": "span",
++           "marks": [
++             "cd100c08c0bc"
++           ],
++           "text": " la cultura nubia de Asuán"
++         },
++         {
++           "_key": "86609aa7bca1",
++           "_type": "span",
++           "marks": [],
++           "text": ". Siente la adrenalina mientras te deslizas en tabla por las dunas resonantes cerca del oasis de Siwa. Saborea el aromático café egipcio mientras observas a la gente en un animado café en el cosmopolita El Cairo. Con más de 40 ciudades presentadas, nuestra guía de viajes no solo rasca la superficie: se adentra en el corazón del alma de Egipto."
++         }
++       ],
++       "markDefs": [
++         {
++           "_key": "cd100c08c0bc",
++           "_type": "externalLink",
++           "href": "https://es.wikipedia.org/wiki/Nubia",
++           "newTab": true
++         }
++       ],
++       "style": "normal"
++     },
++     {
++       "_key": "48a2cfce60e9",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c14ab924dba7",
++           "_type": "span",
++           "marks": [],
++           "text": "Sabemos que un gran viaje comienza con consejos expertos. Por ello, cada guía de ciudad está repleta de consejos prácticos, desde cómo navegar el transporte local hasta encontrar gemas ocultas fuera de los caminos trillados. Encontrarás todo lo necesario para tejer tu propia narrativa en esta tierra antigua y fascinante."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "45745f40b9b9",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "de00f83e9083",
++           "_type": "span",
++           "marks": [],
++           "text": "Entonces, ¿estás listo para perderte en las historias que te esperan en cada esquina soleada? ¿Para bailar al ritmo de los vientos del desierto y permanecer quieto en el silencio de las tumbas sagradas? Egipto te llama con una voz tan antigua como los faraones y tan fresca como el amanecer. Acógelo. Descúbrelo. Deja que Egipto te transforme."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "898cee39728a",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/05/ABU-SIMBLE.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "abu simble.jpg"
++         }
++       ]
++     },
++     {
++       "_key": "901e405faa25",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "37de3e2af3cf",
++           "_type": "span",
++           "marks": [],
++           "text": " ABU SIMBLE "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "4ed4d3c08361",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "9663d75ff2a3",
++           "_type": "span",
++           "marks": [],
++           "text": "Es un asentamiento muy pequeño con muy poco que atraer a los visitantes, aparte de su gran"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "c0528c1245e3",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "eafdefeed1b1",
++           "_type": "span",
++           "marks": [],
++           "text": "Learn more"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "4d56c51450fe",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/05/AKHMIM.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "akhmim.jpg"
++         }
++       ]
++     },
++     {
++       "_key": "aa55cea9de92",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "1123e6d2591b",
++           "_type": "span",
++           "marks": [],
++           "text": " AKHMIM "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "5e660f1dbd00",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "052f353a5db3",
++           "_type": "span",
++           "marks": [],
++           "text": "Ubicada al este de Sohag, Akhmim es un suburbio de Egipto que se encuentra en el lugar"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "e9b508052465",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "fe643df35000",
++           "_type": "span",
++           "marks": [],
++           "text": "Learn more"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "54a142121dea",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/05/Al-Arish-.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "al arish .jpg"
++         }
++       ]
++     },
++     {
++       "_key": "cfd3576abee6",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "065917a63392",
++           "_type": "span",
++           "marks": [],
++           "text": " AL ARISH "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "1874b6aa3913",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8520502b8014",
++           "_type": "span",
++           "marks": [],
++           "text": "Arish se distingue por sus aguas cristalinas y azules, su extensa y fructífera selva de palmeras."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "862a3addc874",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2ed63df8d828",
++           "_type": "span",
++           "marks": [],
++           "text": "Learn more"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "0ec056d0cbc9",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/07/wadi-rayan-1.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The stunning waterfalls of Wadi El Rayan in Egypt, cascading into a serene pool surrounded by rocky desert terrain and lush vegetation under a clear sky"
++         }
++       ]
++     },
++     {
++       "_key": "54430ff589e2",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "30ded667ed92",
++           "_type": "span",
++           "marks": [],
++           "text": " Fayúm "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "bd2ae8c594f4",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c73e7e87794e",
++           "_type": "span",
++           "marks": [],
++           "text": "A menudo se le llama un oasis, ya que es regado por el Nilo a través de cientos de canales."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "a92e729c81bb",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "57cb1b4910da",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "f727fbcb5dd6",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/AL-MINYA.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Ancient sites and lush landscapes of Al Minya along the Nile River"
++         }
++       ]
++     },
++     {
++       "_key": "805cdb135c46",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2288ae22751c",
++           "_type": "span",
++           "marks": [],
++           "text": " Al-Minya "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "ca00f3cd082e",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "e49d3c130f80",
++           "_type": "span",
++           "marks": [],
++           "text": "El nombre de la ciudad se deriva de su antiguo nombre egipcio Men'at Khufu, que significa"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "be885e2151be",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b0e141268d87",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "32bc64bbf245",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/AL-QUSEIR.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Historic coastal town of Al-Quseir with traditional architecture and Red Sea views"
++         }
++       ]
++     },
++     {
++       "_key": "0cd3828036bf",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "96f625f2bf88",
++           "_type": "span",
++           "marks": [],
++           "text": " AL QUSEIR "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "36c02261bd8b",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "1304660caed2",
++           "_type": "span",
++           "marks": [],
++           "text": "Al Quseir tiene una posición única debido a su proximidad al río Nilo y es conocido en la época ptolemaica."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "d80390f7ff02",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2459f7e57d15",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b6f33e559642",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/desert-safari-wadi-gadeed.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "egypt travel guide"
++         }
++       ]
++     },
++     {
++       "_key": "9117973584d7",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "6c12b1dcad60",
++           "_type": "span",
++           "marks": [],
++           "text": " AL WADI AL GADID "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "8423707ae769",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "3f7885bcc1a9",
++           "_type": "span",
++           "marks": [],
++           "text": "La zona es una meseta casi sin lluvias en el desierto oriental del Sahara, abarcando el centro-este."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "97f7fbdb4098",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "3bd7c0ee1923",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "7b6a8c33b76a",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/arial-view-of-al-gouna-.jpeg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "egypt travel guide"
++         }
++       ]
++     },
++     {
++       "_key": "66a2c95263d9",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "7c1f6a3a9adb",
++           "_type": "span",
++           "marks": [],
++           "text": " AL-GOUNA "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "7d9af8e95f4d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "03faf37eacb4",
++           "_type": "span",
++           "marks": [],
++           "text": "La isla de El Gouna tiene varias playas, entre las que se incluyen Moods Beach, Zeytuna,"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "6aa4860e27f0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "32f7d43cd37a",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "2b861b80ee2f",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/overall-view-of-library.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "egypt travel guide"
++         }
++       ]
++     },
++     {
++       "_key": "ba4d43922f2c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8a89022dbc59",
++           "_type": "span",
++           "marks": [],
++           "text": " Alejandría "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "60193270eb63",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "7c5e3089ddcf",
++           "_type": "span",
++           "marks": [],
++           "text": "Alexandría es una ciudad con un tipo de magia propio. Se destaca por una mezcla única de arquitectura,"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "189bb7ac6551",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "80ea1f5375ba",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "e3a7e02d4681",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Aswans-Riverside-Charm.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The serene riverside charm of Aswan, featuring traditional felucca boats sailing along the Nile River with lush greenery and scenic views"
++         }
++       ]
++     },
++     {
++       "_key": "d627a03e48ae",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "e6907e8a9fe8",
++           "_type": "span",
++           "marks": [],
++           "text": " Asuán "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "95c7175e8425",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b3407f82da15",
++           "_type": "span",
++           "marks": [],
++           "text": "El balneario de invierno más popular de Egipto debido a su clima cálido, situado cerca del primer"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "fd89e5d3be6c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "9086d1c5692a",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "2dc1055eb90e",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Ancient-Egyptian-Wall-Carvings.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Intricate ancient Egyptian carvings on a temple wall, featuring a detailed depiction of a pharaoh and hieroglyphics"
++         }
++       ]
++     },
++     {
++       "_key": "e8fc180b37b9",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "216857af40c1",
++           "_type": "span",
++           "marks": [],
++           "text": " Asiut "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "e2b6f6f2ede1",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "11e75f4e6cc0",
++           "_type": "span",
++           "marks": [],
++           "text": "Durante mucho tiempo, Assiut fue considerado el lugar más extraño para que un extranjero visitara en Egipto."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "647ecff359ff",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "42565c9a2638",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "f46344a2eda3",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Stargazing-in-Egypts-White-Desert.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A tent illuminated under the Milky Way in Egypt’s White Desert, next to a unique rock formation"
++         }
++       ]
++     },
++     {
++       "_key": "999770bccaa7",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8d6b7d39ca16",
++           "_type": "span",
++           "marks": [],
++           "text": " BAHARIYA OASIS "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "b6b6840c149a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b87113614e5a",
++           "_type": "span",
++           "marks": [],
++           "text": "Bahariya, conocida desde la antigüedad como la 'Oasis del Norte', ha mejorado sus carreteras y el"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "1145cad6389a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2ec45a4d0aa2",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "9537e78b3bfc",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/BARIS.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Baris an oasis in Egypt known for its tranquil desert landscapes and ancient heritage"
++         }
++       ]
++     },
++     {
++       "_key": "e3ee65e0eb71",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2fb1b560983e",
++           "_type": "span",
++           "marks": [],
++           "text": " BARIS "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "808a7da61457",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "5461b26ea1ad",
++           "_type": "span",
++           "marks": [],
++           "text": "Baris fue en su día uno de los centros comerciales más importantes a lo largo del Darb al-Arba'een, pero"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "c2af33642593",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "0f0d8df8cab5",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "9823cb8fe17e",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/Beni-Suef.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Beni Suef a historic city on the Nile known for its cultural heritage and natural beauty"
++         }
++       ]
++     },
++     {
++       "_key": "61c1d714300d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "072da5543d3b",
++           "_type": "span",
++           "marks": [],
++           "text": " BENI SUEF "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "b695c7379146",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "9aa52d312bd0",
++           "_type": "span",
++           "marks": [],
++           "text": "Es de importancia arqueológica y agrícola, y un centro comercial vital en el oeste."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "f1bce81fd4b4",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "35ef48c756e8",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "e4b16a66e668",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/07/Al-Azhar-Mosque-Minarets.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "descubre egipto en 9 días: tu itinerario de viaje definitivo"
++         }
++       ]
++     },
++     {
++       "_key": "ce9718ba02cb",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "dcfcaf5bee01",
++           "_type": "span",
++           "marks": [],
++           "text": " El Cairo "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "52c4576e5e64",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "a40169b46494",
++           "_type": "span",
++           "marks": [],
++           "text": "El Cairo es la capital de Egipto, apodada la ciudad de los mil minaretes."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "1cb49c55222c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f13000ca127c",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "15bc96a75952",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Mystique-of-Desert-Village-Ruins.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Ruins of an ancient desert village with clay structures and mountain views in the background"
++         }
++       ]
++     },
++     {
++       "_key": "e203c1b87cfa",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "5fe3a15cda54",
++           "_type": "span",
++           "marks": [],
++           "text": " DAKHLA OASIS "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "2606c7cfc24a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "7b1d9809d2ff",
++           "_type": "span",
++           "marks": [],
++           "text": "Con una historia rica y colorida que ha legado muchos monumentos maravillosos."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b66f52720a04",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "854daef314a6",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "f2c9b4b87815",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Magnificent-Edfu-Temple.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The grand entrance of Edfu Temple with intricate carvings on its walls and a bright blue sky overhead"
++         }
++       ]
++     },
++     {
++       "_key": "be78b6141a41",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "7ace77fd081d",
++           "_type": "span",
++           "marks": [],
++           "text": " EDFU "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "579403d7f01d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "153d50ca3392",
++           "_type": "span",
++           "marks": [],
++           "text": "La ciudad de Edfu es hoy un importante centro de producción de azúcar y cerámica."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "ad35110803d7",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f53a7b04f073",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "61ab0d02fd01",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Vibrant-Artistry-of-Ancient-Temple-Ceilings.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A richly decorated ceiling in an ancient Egyptian temple, with vivid colors and intricate carvings on the columns and panels"
++         }
++       ]
++     },
++     {
++       "_key": "88ba3ab1dc81",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "1efa3b692a3e",
++           "_type": "span",
++           "marks": [],
++           "text": " ESNA "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "43ecedcbb156",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "40d0ce1d07df",
++           "_type": "span",
++           "marks": [],
++           "text": "La ciudad es ideal para una agradable excursión matutina desde Luxor o una parada en ruta desde Luxor."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "649d5f0639af",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "549e7d062d46",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "fb3b859fdbe1",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Harmony-of-Desert-and-Water.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A group of people walking along a calm body of water beside a golden sand dune under a vibrant sky"
++         }
++       ]
++     },
++     {
++       "_key": "281dfe9ffbbc",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "bfa4789cb8ad",
++           "_type": "span",
++           "marks": [],
++           "text": " FARAFRA OASIS "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "91fa1dec9a66",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "98616ba3c4a5",
++           "_type": "span",
++           "marks": [],
++           "text": "El oasis de Farafra es una depresión fértil con forma triangular al noroeste."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "a3baa155b749",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b9ae7ea040c0",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "928fcc3f1d75",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Timeless-Scene-of-Camels-and-Pyramids.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Camels resting in the desert with the iconic pyramids of Giza in the background under a partly cloudy sky"
++         }
++       ]
++     },
++     {
++       "_key": "7ad44b4b2f00",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "88e36d7d2e6a",
++           "_type": "span",
++           "marks": [],
++           "text": " Guiza "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "8bd2626705f2",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "508c37287c32",
++           "_type": "span",
++           "marks": [],
++           "text": "Las pirámides de Giza son surrealistas cuando las visitas en persona. Estas antiguas estructuras de mampostería"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "636407e0954f",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "bb75b05f1145",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "7404925b940b",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/01/sunset-quad-safari-in-hurghada-.jpeg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "travelers riding quad bike in hurghada's desert"
++         }
++       ]
++     },
++     {
++       "_key": "219d5bf195d8",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "40b90ed8a68d",
++           "_type": "span",
++           "marks": [],
++           "text": " HURGHADA "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "1ab6814ab266",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d26ebd76a3a4",
++           "_type": "span",
++           "marks": [],
++           "text": "Hurghada se ha convertido en uno de los destinos turísticos más maravillosos de Egipto. Con"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "d2689d393610",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "39f0c2c98de0",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "282bc81794f9",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Tranquility-Along-the-Nile-in-Cairo.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A peaceful view of the Nile River’s edge in Cairo, with lush greenery, buildings, and clear blue skies"
++         }
++       ]
++     },
++     {
++       "_key": "523ac6ba6ff5",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "158a4353cd8a",
++           "_type": "span",
++           "marks": [],
++           "text": " Ismailia "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "bb7c7828445a",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "5beca0963ad1",
++           "_type": "span",
++           "marks": [],
++           "text": "Ismailia está situada en el Lago Timsah, a lo largo de la costa del Canal, a medio camino entre Port Said y Suez."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "9a2883ff6c06",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "fb02a84fe1cf",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "ae11d487f451",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Timeless-Beauty-of-a-Hilltop-Village.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "historic village built into a hill, glowing warmly under the evening light surrounded by lush greenery"
++         }
++       ]
++     },
++     {
++       "_key": "fefcd7a17cd0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "7cefb1079813",
++           "_type": "span",
++           "marks": [],
++           "text": " KHARGA OASIS "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "2500275df9bd",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2f93594d6256",
++           "_type": "span",
++           "marks": [],
++           "text": "El-Kharga es famosa por la gran cantidad de palmeras, palomares y campos."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "359c5d452e49",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "559edbb6ad93",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "ff844afb7fff",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Magnificent-Temple-of-Kom-Ombo.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The ancient Temple of Kom Ombo, featuring large columns and intricate carvings under a bright blue sky"
++         }
++       ]
++     },
++     {
++       "_key": "c6b9757845f4",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "6c299d3345f3",
++           "_type": "span",
++           "marks": [],
++           "text": " KOM OMBO "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "8dea6d82c781",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b98b5c1da993",
++           "_type": "span",
++           "marks": [],
++           "text": "Es un lugar agradable, fácilmente accesible en ruta entre Asuán y Luxor."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "803f98a3aaf8",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "dac3c7971472",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "6d5f79276269",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Enchantment-of-Luxor-Temple-at-Night.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The illuminated Luxor Temple at night, with towering statues and columns glowing under a dramatic sky"
++         }
++       ]
++     },
++     {
++       "_key": "fc21b93470ca",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "fdca4cd78ae6",
++           "_type": "span",
++           "marks": [],
++           "text": " LUXOR "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "a0e8bb7924a8",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "0765bde72075",
++           "_type": "span",
++           "marks": [],
++           "text": "Tebas, la tierra del sol naciente, la ciudad de los palacios, Luxor fue una de las más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "e4374857c4e0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "6399cc85f855",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "0971ec2fed7f",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Relaxation-on-the-Red-Sea.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A Red Sea beach resort with straw umbrellas, crystal-clear waters, and vibrant coral reefs"
++         }
++       ]
++     },
++     {
++       "_key": "9f30929a5627",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "7447f5c40194",
++           "_type": "span",
++           "marks": [],
++           "text": " MARSA ALAM "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "8d2300c06e26",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b8c4600953dd",
++           "_type": "span",
++           "marks": [],
++           "text": "Marsa Alam se encuentra a 790 km al sur de El Cairo y disfruta de una ubicación única en el Mar Rojo."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "dbf2b10bfd25",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "8c698c0240d8",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "9a7d8aa45834",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Untamed-Beauty-of-Egypts-Rocky-Coastline.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A rugged coastline with rocky outcrops extending into the blue waters of the sea under a clear sky"
++         }
++       ]
++     },
++     {
++       "_key": "9de369acd6e6",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "cf40fcb0e286",
++           "_type": "span",
++           "marks": [],
++           "text": " MARSA MATRUH "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "145f3b26fb26",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "56e9fb84550a",
++           "_type": "span",
++           "marks": [],
++           "text": "Con largas playas de arena blanca y aguas cristalinas, como la playa de Agiba y Gharam."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "4c7c76f55712",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b98d9cb34932",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "bd5137e97f20",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/NUWEIBA.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Scenic view of Nuweiba with clear blue waters and mountainous backdrop"
++         }
++       ]
++     },
++     {
++       "_key": "f4a4c7150f79",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c38d3a52a5da",
++           "_type": "span",
++           "marks": [],
++           "text": " NUWEIBA "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "15b172d964f2",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "dca46aa3f272",
++           "_type": "span",
++           "marks": [],
++           "text": "Nuweiba, conocida como la joya del golfo, tiene maravillosas playas doradas rodeadas de muchas."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "2374b8fb6839",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "b07bab4cbc2b",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b32c4634a43d",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/PORT-SAID.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Port Said waterfront with historic buildings and a view of the Suez Canal"
++         }
++       ]
++     },
++     {
++       "_key": "228dd7250493",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "883978e995da",
++           "_type": "span",
++           "marks": [],
++           "text": " Puerto Saíd "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "7d65a9a5b6c4",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d9eb5a88b49d",
++           "_type": "span",
++           "marks": [],
++           "text": "Hay numerosas casas antiguas con grandes balcones en todos los pisos, lo que le da a la ciudad un"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "cea9c5ed4e14",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "67ec428d6e97",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "811787f49df4",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/QENA.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Historic city of Qena with traditional architecture and cultural landmarks"
++         }
++       ]
++     },
++     {
++       "_key": "a744a6d2dfee",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "5b1b835e3b23",
++           "_type": "span",
++           "marks": [],
++           "text": " QENA "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "5f1679ccb074",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "ad4f172d732c",
++           "_type": "span",
++           "marks": [],
++           "text": "Ciudad en el centro de Egipto, situada en la orilla este del Nilo, Qena es una de las ciudades más hermosas."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "605ca009696b",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "67fc2c30c68b",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "a9644649e5d7",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Coastal-Tranquility-by-the-Mountains.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A pristine sandy beach with gentle waves, set against a backdrop of mountains and clear blue skies"
++         }
++       ]
++     },
++     {
++       "_key": "917d8f347999",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "ad7e4dd4080f",
++           "_type": "span",
++           "marks": [],
++           "text": " RAS SUDR "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "5a17c0ed5b5b",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "826212e2f2f0",
++           "_type": "span",
++           "marks": [],
++           "text": "Ras Sudr es una ciudad egipcia ubicada en el Golfo de Suez y la costa del Mar Rojo. Es parte de"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "e996e99f10f1",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "6c79acec00aa",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b358ba443a54",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/Life-Along-the-Nile.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A quaint town by the Nile River, with traditional buildings, palm trees, and small wooden boats on the water"
++         }
++       ]
++     },
++     {
++       "_key": "39e7d8274bee",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "5fa5cae65cea",
++           "_type": "span",
++           "marks": [],
++           "text": " ROSETTA (RASHEED} "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "1a01c93ab780",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c7783a6c7f42",
++           "_type": "span",
++           "marks": [],
++           "text": "Durante el siglo XIX, fue un popular destino turístico británico, conocido por su"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "be3339fe30ef",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "4ca1e04850a5",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "7d63ed233f6b",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/A-Camels-Rest-by-the-Shore.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A camel resting on a sandy beach by the shore, adorned with colorful traditional blankets, with the blue sea and sky in the background"
++         }
++       ]
++     },
++     {
++       "_key": "10626c9ec9ac",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "311c4f32abcc",
++           "_type": "span",
++           "marks": [],
++           "text": " SAFAGA "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "b25a897b4b19",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "65cf0cc1fb1e",
++           "_type": "span",
++           "marks": [],
++           "text": "Safaga es una ciudad en Egipto, en la costa del Mar Rojo, ubicada a 53 km (33 millas)"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "4489b5b2378e",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "3767b99dd49d",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "088a11cd9cb7",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Timeless-St.-Catherines-Monastery.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The historic St. Catherine’s Monastery nestled at the foot of rugged mountains under a bright sky"
++         }
++       ]
++     },
++     {
++       "_key": "b7971385dfc7",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "3e551d01900e",
++           "_type": "span",
++           "marks": [],
++           "text": " SAINTE CATHERINE "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "db107dfec814",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "5b8439c756d6",
++           "_type": "span",
++           "marks": [],
++           "text": "Santa Catalina es una ciudad en la gobernación de Sinaí del Sur. Está ubicada en"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "0d381bde3781",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2ccd0aab7f4b",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "357a62243c87",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/A-Camels-Rest-by-the-Beach.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A decorated camel standing on a sandy beach near straw umbrellas, with the sea stretching into the horizon"
++         }
++       ]
++     },
++     {
++       "_key": "1fd358261b67",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c7be32cafa80",
++           "_type": "span",
++           "marks": [],
++           "text": " SHARM EL-SHEIKH "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "112430756be0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "17c820133b32",
++           "_type": "span",
++           "marks": [],
++           "text": "Visita Sharm El Sheikh para unas vacaciones maravillosas y disfruta de sus hermosas playas,..."
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "5953d926a03e",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c581973d001d",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "0f4b75fb9569",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Enchanting-Salt-Lake-Oasis.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A vivid turquoise salt lake surrounded by desert landscapes under a blue sky"
++         }
++       ]
++     },
++     {
++       "_key": "0bf45d010a44",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "909e2aa6dbc6",
++           "_type": "span",
++           "marks": [],
++           "text": " SIWA OASIS "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "636207b685e0",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c8c2bc7a2e45",
++           "_type": "span",
++           "marks": [],
++           "text": "Termina tu día dándote un chapuzón en la Piscina de Cleopatra, donde se dice que la legendaria reina ella misma"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "a344c0f89678",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "55683bec1c02",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "c59647695348",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Artistry-of-Temple-Ceilings.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "The intricately carved ceiling of an ancient Egyptian temple, featuring detailed patterns and symbols"
++         }
++       ]
++     },
++     {
++       "_key": "ce458d0de3f3",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "bbeb0f53ae61",
++           "_type": "span",
++           "marks": [],
++           "text": " SOHAG "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "099598abab4c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d1d01d524add",
++           "_type": "span",
++           "marks": [],
++           "text": "Sohag es una ciudad en la orilla occidental del Nilo en Egipto. Ha sido la capital de Sohag"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "cdde4d6afc83",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "2fb06182ccdc",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "9f4b8c5fee7f",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/A-Scenic-River-Cruise.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "A vibrant red boat cruising along a calm river, with palm trees, buildings, and a cityscape in the background"
++         }
++       ]
++     },
++     {
++       "_key": "a591bd562860",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d34ab608430e",
++           "_type": "span",
++           "marks": [],
++           "text": " SUEZ "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "5079404dc1ef",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "c842d27d4a3a",
++           "_type": "span",
++           "marks": [],
++           "text": "Suez es una ciudad portuaria (con una población de aproximadamente 750,000 habitantes en agosto de 2018) en el norte-"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "b21dfa8a4026",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f4b64d1855a0",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "5be77b8a00bf",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/12/The-Majestic-Fortress-by-the-Sea.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "An ancient stone fortress perched on a rocky hill overlooking vivid blue waters under a bright sky"
++         }
++       ]
++     },
++     {
++       "_key": "6a51cbda1e53",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "e02bc159c45d",
++           "_type": "span",
++           "marks": [],
++           "text": " TABA "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "ca7d540f3c30",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "0e7bd1417e15",
++           "_type": "span",
++           "marks": [],
++           "text": "Hace más de 20 años, Taba consistía únicamente en un pequeño hospital, algunos restaurantes orientales locales"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "e1c57814b3ac",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "34a4cc1500a7",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "d4cc8df2eb16",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/WADI-AL-NATRON.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Wadi Al Natrun desert landscape with ancient monasteries and serene surrounding"
++         }
++       ]
++     },
++     {
++       "_key": "973294246240",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "d92a4070c500",
++           "_type": "span",
++           "marks": [],
++           "text": " WADI AL-NATRON "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "b06c024b8d79",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "12fd032d13f4",
++           "_type": "span",
++           "marks": [],
++           "text": "Wadi Al-Natrón es un valle ubicado en la gobernación de Beheira, Egipto, que incluye un"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "c35c63b9f37d",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "f396b503cb56",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "f752704e67fd",
++       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/03/DAHAB.jpg",
++       "_type": "image",
++       "alt": [
++         {
++           "_key": "en",
++           "value": "Dahab’s golden beaches and crystal-clear waters along the Red Sea"
++         }
++       ]
++     },
++     {
++       "_key": "ea1975469d54",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "90a6ad810d24",
++           "_type": "span",
++           "marks": [],
++           "text": " DAHAB "
++         }
++       ],
++       "markDefs": [],
++       "style": "h3"
++     },
++     {
++       "_key": "acb4a5acab4c",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "cfcc3e7b8cae",
++           "_type": "span",
++           "marks": [],
++           "text": "Dahab significa directamente oro, y esto es evidente en las playas de arena que se encuentran junto al mar"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     },
++     {
++       "_key": "8805f6c17bd2",
++       "_type": "block",
++       "children": [
++         {
++           "_key": "1e8fdeda27a0",
++           "_type": "span",
++           "marks": [],
++           "text": "Saber más"
++         }
++       ],
++       "markDefs": [],
++       "style": "normal"
++     }
++   ],
++   "slug": {
++     "_type": "slug",
++     "current": "guia-de-viajes-de-egipto"
++   },
++   "summary": "Tu Guía de Viajes Completa a Más de 40 Ciudades de Egipto Bienvenido a tu Guía de Viajes definitiva de Egipto, donde el pulso del mundo antiguo late bajo pasos modernos y los susurros de los faraones resuenan a través de las bulliciosas calles de la ciudad. ¡Egipto, una tierra do"
++ }

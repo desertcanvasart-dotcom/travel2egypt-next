@@ -1,0 +1,23 @@
+--- before
++++ after
+- {}
++ {
++   "_id": "wp-page-58090",
++   "_type": "city",
++   "heroImage": {
++     "_type": "image",
++     "asset": {
++       "_ref": "image-dryrun-103662",
++       "_type": "reference"
++     }
++   },
++   "migration": {
++     "migratedAt": "2026-04-28T18:19:15.218Z",
++     "reviewFlag": "keyfacts-mining-failed",
++     "source": "wp-import",
++     "wpId": 58090,
++     "wpModifiedAt": "2026-02-15T12:54:53",
++     "wpTemplate": "",
++     "wpUrl": "https://travel2egypt.org/akhmim-travel-guide/"
++   }
++ }

@@ -1,0 +1,16 @@
+--- before
++++ after
+- {}
++ {
++   "_id": "wp-page-56654",
++   "_type": "city",
++   "migration": {
++     "migratedAt": "2026-04-28T18:19:20.109Z",
++     "reviewFlag": "keyfacts-mining-failed",
++     "source": "wp-import",
++     "wpId": 56654,
++     "wpModifiedAt": "2026-02-27T12:14:24",
++     "wpTemplate": "elementor_header_footer",
++     "wpUrl": "https://travel2egypt.org/egypt-travel-guide/"
++   }
++ }

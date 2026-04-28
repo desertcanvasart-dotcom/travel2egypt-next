@@ -1,0 +1,16 @@
+--- before
++++ after
+- {}
++ {
++   "_id": "wp-page-83284",
++   "_type": "city",
++   "migration": {
++     "migratedAt": "2026-04-28T18:19:05.557Z",
++     "reviewFlag": "keyfacts-mining-failed",
++     "source": "wp-import",
++     "wpId": 83284,
++     "wpModifiedAt": "2025-04-08T21:53:42",
++     "wpTemplate": "elementor_header_footer",
++     "wpUrl": "https://travel2egypt.org/cairo-travel-guide/"
++   }
++ }
