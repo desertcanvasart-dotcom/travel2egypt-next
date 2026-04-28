@@ -244,6 +244,55 @@ approval gates require write-path-confirmed shapes. When a diff/write
 divergence is fixed mid-session, prior fingerprints must be invalidated
 (deleted or marked unverified) and regenerated post-write.
 
+### Every safety-net component requires its own end-to-end integration test
+
+Session 5 (2026-04-29) found two integration bugs in safety-net
+components on the same day:
+
+1. `mergeCityDoc` worked in isolation (31/31 unit tests passing) but
+   wasn't wired into the write path — only the dry-run-diff-only path
+   used it. Live writes silently dropped editorial state.
+2. `fingerprintHash` worked in isolation (produced a 16-hex-char SHA-256
+   prefix) but used `JSON.stringify(fp, Object.keys(fp).sort())` where
+   the second argument is interpreted as a REPLACER ARRAY filtering
+   nested keys recursively. fieldTypes' nested keys (heroImage, region,
+   orderRank, etc.) were stripped before hashing, producing
+   collision-prone hashes. Cairo (with orderRank, no hero) and
+   Wadi-al-Natron (no orderRank, with hero) hashed identically.
+
+Both bugs would have shipped at 41-doc scale if the live verification
+hadn't surfaced them. Pattern: any safety-net function with non-trivial
+outputs needs:
+
+- (a) a unit test for the function in isolation,
+- (b) an integration test that exercises the function via the same code
+  path the production system uses, and
+- (c) a regression-guard test asserting the function discriminates
+  between cases it should discriminate between.
+
+The fingerprint collision bug was specifically the (c) gap — the unit
+tests verified hashing worked but never asserted "different shapes
+produce different hashes." Add this triad as the standard for any new
+safety-net component in sessions 6+.
+
+### Post-write drift assertion is a standing protocol (not a one-off)
+
+After any actual write that uses a merge function, run a verification
+query that compares the diff-predicted output against post-write-Sanity
+actual output, asserting zero drift:
+
+```bash
+# After actual write completes, immediately re-run dry-run-diff-only on
+# the same scope. Expected output: every diff shows "no changes" (since
+# the write should have produced exactly what the diff predicted).
+npm run wp-import -- <same flags> --dry-run-diff-only
+```
+
+Any non-zero drift is an integration bug between the diff and write
+paths. Make this a step in every safety-net session, not a one-off check.
+Session 5 surfaced two diff/write divergences post-fact; the drift
+assertion catches them at the gate before scaling to N.
+
 ## Branch state
 
 Branch `claude/awesome-shannon-3194f1` was merged to `main` at the close of
