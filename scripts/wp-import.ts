@@ -32,6 +32,7 @@ import { WpClient, WordfenceHaltError } from './wp-import/wp-client.js';
 import { makeSanityClient, findCityByEnSlug } from './wp-import/sanity.js';
 import { getMissingAttachments } from './wp-import/media.js';
 import { getAmbiguousMediaMatches } from './wp-import/mappers/_shared.js';
+import { applyCityMerge } from './wp-import/merge.js';
 import { getHreflangMap } from './wp-import/hreflang.js';
 import { mapArticle } from './wp-import/mappers/article.js';
 import { mapCity } from './wp-import/mappers/city.js';
@@ -691,7 +692,16 @@ async function persistResult(
       continue;
     }
     try {
-      await createOrReplaceWithRetry(sanity, doc, stats);
+      // Q3 merge rule: for city docs, fetch existing state and apply
+      // mergeCityDoc before write so editorial-only fields (region,
+      // coordinates, orderRank, gallery, placesToGo) the mapper doesn't
+      // produce are preserved. Path A wiring per session-5 critical-bug
+      // fix. The dry-run-diff-only path goes through the same helper so
+      // both paths converge on identical semantics.
+      const docToWrite = doc._type === 'city'
+        ? ((await applyCityMerge(sanity, doc)).merged as SanityDoc)
+        : doc;
+      await createOrReplaceWithRetry(sanity, docToWrite, stats);
       bump(stats, doc._type, 'written');
       countReviewFlag(stats, doc);
     } catch (e) {

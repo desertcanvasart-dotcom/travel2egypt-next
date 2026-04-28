@@ -16,7 +16,7 @@
  * jest/vitest dependency for a single test module.
  */
 
-import { mergeCityDoc, deepEqual, type SanityDoc, CITY_EDITORIAL_ONLY_FIELDS } from '../merge.js';
+import { mergeCityDoc, deepEqual, applyCityMerge, type MergeFetcher, type SanityDoc, CITY_EDITORIAL_ONLY_FIELDS } from '../merge.js';
 
 let pass = 0;
 let fail = 0;
@@ -255,7 +255,100 @@ const i18nSlug = (en: string, es?: string, ja?: string) => {
 }
 
 // ---------------------------------------------------------------------------
-// Report
+// applyCityMerge integration tests — the missing coverage that would have
+// caught the session-5 bug where mergeCityDoc was wired only to the diff
+// path, not the write path. Wrapped in async main() because tsx (cjs
+// transform) doesn't support top-level await.
 // ---------------------------------------------------------------------------
-process.stdout.write(`mergeCityDoc tests: pass=${pass} fail=${fail}\n`);
-process.exit(fail === 0 ? 0 : 1);
+
+function mockFetcher(returnValue: unknown): MergeFetcher {
+  return {
+    fetch: async <T>(_query: string, _params?: Record<string, unknown>): Promise<T> => {
+      return returnValue as T;
+    },
+  };
+}
+
+async function runIntegrationTests(): Promise<void> {
+  // (i1) UPDATE-mode: existing has editorial region; mapper omits it; merge preserves.
+  //      THIS IS THE EXACT SHAPE OF THE BUG. If this assertion fails before
+  //      Path A is wired (i.e. the write path uses raw createOrReplace), the
+  //      live system would lose region. With Path A, this test passes.
+  {
+    const existing: SanityDoc = {
+      _id: 'wp-page-58090',
+      _type: 'city',
+      name: i18n('Akhmim Travel Guide'),
+      region: 'upper-egypt',
+    };
+    const mapperDoc: SanityDoc = {
+      _id: 'wp-page-58090',
+      _type: 'city',
+      name: i18n('Akhmim'),
+      // NO region — mapper output never carries editorial fields
+    };
+    const fetcher = mockFetcher(existing);
+    const result = await applyCityMerge(fetcher, mapperDoc);
+    assertEqual(
+      result.merged.region,
+      'upper-egypt',
+      '(i1) [INTEGRATION — would have caught the session-5 bug] applyCityMerge preserves editorial region when mapper omits it'
+    );
+    const mergedName = result.merged.name as Array<{ _key: string; value: string }>;
+    assertEqual(mergedName[0].value, 'Akhmim', '(i1) name still overwritten (mapper-sourced)');
+  }
+
+  // (i2) CREATE-mode: existing is null. applyCityMerge returns mapperDoc verbatim.
+  {
+    const mapperDoc: SanityDoc = {
+      _id: 'wp-page-99999',
+      _type: 'city',
+      name: i18n('NewCity'),
+    };
+    const fetcher = mockFetcher(null);
+    const result = await applyCityMerge(fetcher, mapperDoc);
+    assertEqual(result.merged._id, 'wp-page-99999', '(i2) CREATE mode: id passes through');
+    assertEqual(result.merged.region, undefined, '(i2) CREATE mode: no region fabricated');
+    const allCreated = result.perFieldChanges.every((c) => c.outcome === 'created');
+    assert(allCreated, '(i2) CREATE mode: all per-field outcomes = created');
+  }
+
+  // (i3) Non-city _type: applyCityMerge skips the merge logic entirely.
+  {
+    const articleDoc: SanityDoc = {
+      _id: 'wp-post-1-en',
+      _type: 'article',
+      title: 'Some article',
+    };
+    const fetcher: MergeFetcher = {
+      fetch: async () => {
+        throw new Error('fetcher should not be called for non-city _type');
+      },
+    };
+    const result = await applyCityMerge(fetcher, articleDoc);
+    assertEqual(result.merged._id, 'wp-post-1-en', '(i3) non-city _type: doc returned verbatim');
+    assertEqual(result.perFieldChanges.length, 0, '(i3) non-city _type: no per-field changes');
+  }
+
+  // (i4) Missing _id (defensive): applyCityMerge returns mapperDoc verbatim.
+  {
+    const mapperDoc: SanityDoc = { _type: 'city', name: i18n('Anonymous') } as SanityDoc;
+    const fetcher: MergeFetcher = {
+      fetch: async () => {
+        throw new Error('fetcher should not be called when _id is missing');
+      },
+    };
+    const result = await applyCityMerge(fetcher, mapperDoc);
+    assertEqual(result.merged._id, undefined, '(i4) missing _id: doc returned verbatim');
+  }
+}
+
+runIntegrationTests()
+  .then(() => {
+    process.stdout.write(`mergeCityDoc tests: pass=${pass} fail=${fail}\n`);
+    process.exit(fail === 0 ? 0 : 1);
+  })
+  .catch((e) => {
+    process.stderr.write(`Integration test threw: ${(e as Error).message}\n`);
+    process.exit(1);
+  });

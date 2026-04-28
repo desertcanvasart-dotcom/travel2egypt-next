@@ -252,6 +252,52 @@ export function canonicalize(doc: SanityDoc | unknown): string {
   return JSON.stringify(sortKeys(doc), null, 2);
 }
 
+/**
+ * Minimal Sanity-client shape for `applyCityMerge`. The full @sanity/client
+ * type has many methods we don't need; carving out just `fetch` keeps this
+ * helper testable with a tiny mock object.
+ */
+export interface MergeFetcher {
+  fetch<T = unknown>(query: string, params?: Record<string, unknown>): Promise<T>;
+}
+
+/**
+ * Fetch the existing Sanity doc by `_id`, run `mergeCityDoc` against it,
+ * and return the merged doc to write. Plumbing point that wires the Q3
+ * merge rule into the actual write path.
+ *
+ * Without this helper, `client.createOrReplace(mapperDoc)` would clobber
+ * editorial-only fields (region, coordinates, orderRank, etc.) that
+ * the mapper doesn't produce. The bug surfaced in session 5: the
+ * `--dry-run-diff-only` path used mergeCityDoc, but the live write
+ * path used raw createOrReplace and silently lost editorial state.
+ *
+ * Returns the merged doc and the per-field changes list (for logging).
+ * If `existing` is null (CREATE-first run, no prior doc by this _id),
+ * mergeCityDoc returns mapperDoc verbatim — no field outcomes preserved.
+ *
+ * Test coverage: `scripts/wp-import/__tests__/merge.test.ts` includes a
+ * dedicated `applyCityMerge` test that mocks the fetcher with a doc
+ * carrying an editorial-only field, asserts the post-merge doc still
+ * carries it. This is the integration test that would have caught the
+ * session-5 divergence.
+ */
+export async function applyCityMerge(
+  fetcher: MergeFetcher,
+  mapperDoc: SanityDoc,
+): Promise<{ merged: SanityDoc; perFieldChanges: PerFieldChange[] }> {
+  if (mapperDoc._type !== 'city') {
+    // Defensive: don't run city-specific merge against other doc types.
+    return { merged: mapperDoc, perFieldChanges: [] };
+  }
+  const id = mapperDoc._id;
+  if (!id) {
+    return { merged: mapperDoc, perFieldChanges: [] };
+  }
+  const existing = await fetcher.fetch<SanityDoc | null>(`*[_id == $id][0]`, { id });
+  return mergeCityDoc(existing ?? null, mapperDoc);
+}
+
 function sortKeys(v: unknown): unknown {
   if (Array.isArray(v)) return v.map(sortKeys);
   if (v && typeof v === 'object') {
