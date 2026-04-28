@@ -76,6 +76,7 @@ export function summedHtmlStats(group: LocaleGroup) {
     operatorNotes: 0, pullQuotes: 0, sideImages: 0, images: 0, tablesFlattened: 0, pendingInternalLinks: 0,
     tourPromoStripped: 0, categoryGridStripped: 0, backlinkStripped: 0,
     carouselSwiperStripped: 0, carouselPremiumAdvStripped: 0, bdtImgStripped: 0,
+    titleH1Stripped: 0, metadataLineStripped: 0, sectionNavBlockStripped: 0,
   };
   for (const loc of ['en', 'es', 'ja'] as const) {
     const e = group[loc];

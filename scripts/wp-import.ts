@@ -712,6 +712,9 @@ async function persistResult(
     stats.stripRules.carouselSwiper += result.htmlStats.carouselSwiperStripped;
     stats.stripRules.carouselPremiumAdv += result.htmlStats.carouselPremiumAdvStripped;
     stats.stripRules.bdtImg += result.htmlStats.bdtImgStripped;
+    stats.stripRules.titleH1 += result.htmlStats.titleH1Stripped;
+    stats.stripRules.metadataLine += result.htmlStats.metadataLineStripped;
+    stats.stripRules.sectionNavBlock += result.htmlStats.sectionNavBlockStripped;
     // Per-article strip counter event for editorial triage. Only emit when at
     // least one rule fired, so the log doesn't get drowned in zeros.
     const totalStripped =
@@ -720,7 +723,10 @@ async function persistResult(
       result.htmlStats.backlinkStripped +
       result.htmlStats.carouselSwiperStripped +
       result.htmlStats.carouselPremiumAdvStripped +
-      result.htmlStats.bdtImgStripped;
+      result.htmlStats.bdtImgStripped +
+      result.htmlStats.titleH1Stripped +
+      result.htmlStats.metadataLineStripped +
+      result.htmlStats.sectionNavBlockStripped;
     if (totalStripped > 0) {
       const enDoc = result.docs.find((d) => d._type !== 'translation.metadata');
       logEvent({
@@ -734,6 +740,9 @@ async function persistResult(
           carouselSwiper: result.htmlStats.carouselSwiperStripped,
           carouselPremiumAdv: result.htmlStats.carouselPremiumAdvStripped,
           bdtImg: result.htmlStats.bdtImgStripped,
+          titleH1: result.htmlStats.titleH1Stripped,
+          metadataLine: result.htmlStats.metadataLineStripped,
+          sectionNavBlock: result.htmlStats.sectionNavBlockStripped,
         },
       });
     }

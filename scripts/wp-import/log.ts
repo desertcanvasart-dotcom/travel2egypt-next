@@ -35,6 +35,9 @@ export interface MigrationStats {
     carouselSwiper: number;
     carouselPremiumAdv: number;
     bdtImg: number;
+    titleH1: number;
+    metadataLine: number;
+    sectionNavBlock: number;
   };
   /** Per-locale records of carousel images discarded by strip rules. */
   discardedCarousels: DiscardedCarousel[];
@@ -61,7 +64,7 @@ export function emptyStats(argv: string[]): MigrationStats {
     bySanityType: {},
     reviewFlags: {} as MigrationStats['reviewFlags'],
     htmlPipeline: { operatorNotes: 0, pullQuotes: 0, sideImages: 0, images: 0, tablesFlattened: 0 },
-    stripRules: { tourPromo: 0, categoryGrid: 0, backlink: 0, carouselSwiper: 0, carouselPremiumAdv: 0, bdtImg: 0 },
+    stripRules: { tourPromo: 0, categoryGrid: 0, backlink: 0, carouselSwiper: 0, carouselPremiumAdv: 0, bdtImg: 0, titleH1: 0, metadataLine: 0, sectionNavBlock: 0 },
     discardedCarousels: [],
     ambiguousMatches: [],
     hreflang: { entitiesProbed: 0, multiLocaleGroups: 0, singletons: 0, broken: 0 },
@@ -144,6 +147,9 @@ export function writeSummary(stats: MigrationStats): void {
   push(`| swiper carousel (\`swiper-slide-image\`) | ${stats.stripRules.carouselSwiper} |`);
   push(`| premium-adv carousel (\`premium-adv-carousel__item-img\`) | ${stats.stripRules.carouselPremiumAdv} |`);
   push(`| bdt-img tour-promo (\`bdt-img\`) | ${stats.stripRules.bdtImg} |`);
+  push(`| title-matching H1 (Fix 1) | ${stats.stripRules.titleH1} |`);
+  push(`| metadata lines \`Created/Updated On…\` (Fix 2) | ${stats.stripRules.metadataLine} |`);
+  push(`| section nav blocks \`INTRODUCING …\` (Fix 3) | ${stats.stripRules.sectionNavBlock} |`);
   push();
 
   push(`## Stripped carousels`);

@@ -9,19 +9,18 @@
 
 import type { SanityClient } from '@sanity/client';
 
-import { mineKeyFacts } from '../../wp-import-html.js';
+import { htmlToPortableText, mineKeyFacts } from '../../wp-import-html.js';
 import { findCityByEnSlug } from '../sanity.js';
 import type { WpClient } from '../wp-client.js';
 import {
   buildHeroImage,
   buildMigrationMeta,
   buildRedirects,
-  i18nBody,
   i18nString,
   decodeTitle,
   plainText,
 } from './_shared.js';
-import type { I18nSlug, Locale, LocaleGroup, MapperResult, SanityDoc } from '../types.js';
+import type { HtmlPipelineStats, I18nSlug, Locale, LocaleGroup, MapperResult, SanityDoc } from '../types.js';
 
 /**
  * Locale-aware slug stripper for destination-hub WP pages.
@@ -77,6 +76,92 @@ function cityI18nSlug(group: LocaleGroup): I18nSlug {
   return out;
 }
 
+/**
+ * Fix 4 — strip "Travel Guide" suffix (locale-aware) from the city `name`
+ * field. Mirrors the slug-strip rules:
+ *
+ *   EN: `^(.+?)\s+Travel Guide$` (case-insensitive) → group 1
+ *   ES: `^Guía de viaje[s]?\s+(?:de(?:l)?\s+)?(?:la\s+|el\s+)?(.+?)$` → group 1
+ *   JA: `^(.+?)旅行ガイド$` → group 1
+ *
+ * If a locale's title doesn't match the expected pattern, the raw title is
+ * kept (don't blank). The fallback is logged so editorial can review.
+ *
+ * Plus the JA outlier (`の宿泊情報` = "Accommodation Info") gets a parallel
+ * strip — same rationale as the slug stripper.
+ */
+function stripCityNameSuffix(rawName: string, locale: Locale): { stripped: string; matched: boolean } {
+  const trimmed = rawName.trim();
+  if (locale === 'en') {
+    const m = /^(.+?)\s+Travel\s+Guide$/i.exec(trimmed);
+    if (m) return { stripped: m[1].trim(), matched: true };
+  } else if (locale === 'ja') {
+    const m = /^(.+?)旅行ガイド$/.exec(trimmed);
+    if (m) return { stripped: m[1].trim(), matched: true };
+    const m2 = /^(.+?)の宿泊情報$/.exec(trimmed);
+    if (m2) return { stripped: m2[1].trim(), matched: true };
+  } else if (locale === 'es') {
+    // "Guía de viaje de El Cairo", "Guía de viaje del Oasis de Siwa",
+    // "Guía de Safaga", "Guía de viajes de Marsa Matruh"
+    const m = /^Guía\s+(?:de\s+(?:viaje[s]?\s+)?)?de(?:l)?\s+(?:oasis\s+de\s+)?(.+?)$/i.exec(trimmed);
+    if (m) return { stripped: m[1].trim(), matched: true };
+  }
+  process.stderr.write(`[city] name-strip pattern miss locale=${locale} raw="${trimmed}" (kept verbatim)\n`);
+  return { stripped: trimmed, matched: false };
+}
+
+/**
+ * Fix 5 — summary cleanup. Build summary from the FIRST text-block of the
+ * post-strip overview body (NOT from WP excerpt, which carries the H1 prefix
+ * that Fix 1's pipeline strip can't reach).
+ *
+ * Logic:
+ *   1. Walk overview blocks for the locale. Find the first `_type: 'block'`
+ *      with non-empty children (the first prose paragraph after Fix 1
+ *      stripped the title H1).
+ *   2. Concatenate its span texts.
+ *   3. Sentence-aware truncate to ≤2 sentences. Delimiters: `. `, `? `, `! `
+ *      (Western), `。` (JA). Append `…` if truncated.
+ *
+ * Falls back to plainText(WP excerpt) only if the body has no usable text
+ * blocks. The WP-excerpt path is the legacy session-1-seed behaviour and
+ * still useful for entity types that don't have overview bodies.
+ */
+function buildCitySummaryFromOverview(
+  overviewBlocks: unknown[],
+  fallbackText: string,
+  locale: Locale,
+): string {
+  // Step 1: find first prose paragraph in overview body.
+  let prose = '';
+  for (const block of overviewBlocks) {
+    if (!block || typeof block !== 'object') continue;
+    const b = block as { _type?: string; style?: string; children?: Array<{ text?: string }> };
+    if (b._type !== 'block') continue;
+    // Skip headings — they're navigation, not summary material.
+    if (b.style && /^h[1-6]$/i.test(b.style)) continue;
+    const text = (b.children ?? []).map((c) => c.text ?? '').join('').trim();
+    if (text.length < 30) continue; // skip too-short fragments
+    prose = text;
+    break;
+  }
+  // Fallback to WP excerpt if no usable prose found.
+  let text = (prose || fallbackText).replace(/\s+/g, ' ').trim();
+  if (!text) return '';
+
+  // Step 2: sentence-aware truncate to ≤2 sentences.
+  const max = 2;
+  let segments: string[];
+  if (locale === 'ja') {
+    segments = text.split(/(?<=。)/).filter((s) => s.trim().length > 0);
+  } else {
+    segments = text.split(/(?<=[.!?])\s+/).filter((s) => s.trim().length > 0);
+  }
+  if (segments.length <= max) return text;
+  const kept = segments.slice(0, max).join(' ').trim();
+  return kept.endsWith('…') ? kept : `${kept}…`;
+}
+
 interface CityMapperOpts {
   dryRun?: boolean;
   priorityScore?: number;
@@ -104,7 +189,35 @@ export async function mapCity(
   }
 
   const hero = await buildHeroImage(client, wp, group, opts);
-  const overview = i18nBody(group);
+
+  // Build per-locale page titles for use by Fixes 1 (HTML pipeline title-H1
+  // strip) and Fix 5 (summary title-prefix bleed strip). Decoded titles are
+  // used for substring matching against body content.
+  const titles: Partial<Record<Locale, string>> = {};
+  for (const loc of ['en', 'es', 'ja'] as const) {
+    const e = group[loc];
+    if (e) titles[loc] = decodeTitle(e.title?.rendered) ?? '';
+  }
+
+  // Build overview body per locale, threading pageTitle through so the HTML
+  // pipeline's Fix 1 (title-matching H1 strip) fires per locale.
+  // Accumulate HtmlPipelineStats across the 3 locales for run-summary aggregation.
+  const overview: Array<{ _key: Locale; _type: 'object'; value: unknown[] }> = [];
+  const overviewBlocksPerLocale: Partial<Record<Locale, unknown[]>> = {};
+  const htmlStats: HtmlPipelineStats = {
+    operatorNotes: 0, pullQuotes: 0, sideImages: 0, images: 0, tablesFlattened: 0, pendingInternalLinks: 0,
+    tourPromoStripped: 0, categoryGridStripped: 0, backlinkStripped: 0,
+    carouselSwiperStripped: 0, carouselPremiumAdvStripped: 0, bdtImgStripped: 0,
+    titleH1Stripped: 0, metadataLineStripped: 0, sectionNavBlockStripped: 0,
+  };
+  for (const loc of ['en', 'es', 'ja'] as const) {
+    const e = group[loc];
+    if (!e?.content?.rendered) continue;
+    const r = htmlToPortableText(e.content.rendered, { pageTitle: titles[loc] ?? '' });
+    overview.push({ _key: loc, _type: 'object', value: r.blocks });
+    overviewBlocksPerLocale[loc] = r.blocks;
+    for (const k of Object.keys(htmlStats) as Array<keyof HtmlPipelineStats>) htmlStats[k] += r.stats[k];
+  }
 
   // Mine keyFacts from the EN body. Empty when detection fails.
   const keyFactsRaw = mineKeyFacts(en.content?.rendered ?? '');
@@ -117,12 +230,38 @@ export async function mapCity(
       }
     : null;
 
+  // Fix 4: strip locale-specific "Travel Guide" suffix from name. Built per-locale
+  // explicitly because i18nString's pick callback doesn't carry locale context.
+  const name: Array<{ _key: Locale; value: string }> = [];
+  for (const loc of ['en', 'es', 'ja'] as const) {
+    const e = group[loc];
+    if (!e) continue;
+    const raw = decodeTitle(e.title?.rendered) ?? '';
+    if (!raw) continue;
+    const stripped = stripCityNameSuffix(raw, loc).stripped;
+    if (stripped) name.push({ _key: loc, value: stripped });
+  }
+
+  // Fix 5: summary built from first prose paragraph of post-strip overview
+  // body (Fix 1 already removed the title H1, so the first paragraph is the
+  // actual content). Falls back to WP excerpt only if body has no usable
+  // prose blocks. ≤2 sentences, locale-aware delimiters, ellipsis on truncate.
+  const summary: Array<{ _key: Locale; value: string }> = [];
+  for (const loc of ['en', 'es', 'ja'] as const) {
+    const e = group[loc];
+    if (!e) continue;
+    const overviewBlocks = overviewBlocksPerLocale[loc] ?? [];
+    const fallback = plainText(e.excerpt?.rendered ?? '');
+    const built = buildCitySummaryFromOverview(overviewBlocks, fallback, loc);
+    if (built) summary.push({ _key: loc, value: built });
+  }
+
   const doc: SanityDoc = {
     _id,
     _type: 'city',
-    name: i18nString(group, (e) => decodeTitle(e.title?.rendered)),
+    name,
     slug: cityI18nSlug(group),
-    summary: i18nString(group, (e) => plainText(e.excerpt?.rendered).slice(0, 280)),
+    summary,
     overview,
     ...(keyFacts ? { keyFacts } : {}),
     ...(hero ? { heroImage: hero } : {}),
@@ -142,5 +281,5 @@ export async function mapCity(
     opts.priorityScore ?? 0
   );
 
-  return { docs: [doc], redirects };
+  return { docs: [doc], redirects, htmlStats };
 }

@@ -49,6 +49,12 @@ export interface ConversionResult {
     carouselPremiumAdvStripped: number;
     /** Bdthemes/Element Pack `bdt-img` related-tour widgets stripped. */
     bdtImgStripped: number;
+    /** First H1 stripped because it duplicated the WP page title. */
+    titleH1Stripped: number;
+    /** Metadata lines (`Created On…`, `Updated On…`) stripped. */
+    metadataLineStripped: number;
+    /** Section-navigation blocks (INTRODUCING X / PLAN YOUR TRIP / …) stripped. */
+    sectionNavBlockStripped: number;
   };
   /** Sample src URLs from carousels that were stripped. Capped per call. */
   discardedCarouselSrcs: { swiper: string[]; premiumAdv: string[]; bdtImg: string[] };
@@ -64,6 +70,12 @@ export interface ConversionOptions {
    *  - `'string'` emits plain strings — for document-level i18n schemas (article).
    * The mismatch is what surfaced as "Expected type String got Array" in Studio. */
   localeShape?: 'string' | 'i18n';
+  /** When provided, the first `<h1>`/`<h2>` whose text matches the page title
+   * (case-insensitive substring, either direction) is stripped. Removes the
+   * title-duplication artifact common on Elementor pages where the body
+   * starts with an H1 of the same text as the WP title.
+   * Counts in `stats.titleH1Stripped`. */
+  pageTitle?: string;
 }
 
 // ---------- Entry point ------------------------------------------------
@@ -82,6 +94,9 @@ export function htmlToPortableText(html: string, opts: ConversionOptions = {}): 
     carouselSwiperStripped: 0,
     carouselPremiumAdvStripped: 0,
     bdtImgStripped: 0,
+    titleH1Stripped: 0,
+    metadataLineStripped: 0,
+    sectionNavBlockStripped: 0,
   };
   const discardedCarouselSrcs = { swiper: [] as string[], premiumAdv: [] as string[], bdtImg: [] as string[] };
   const decoded = decodeEntities(html);
@@ -92,8 +107,19 @@ export function htmlToPortableText(html: string, opts: ConversionOptions = {}): 
   stripPromotionalWidgets(root, stats);
   stripCarouselWidgets(root, stats, discardedCarouselSrcs);
   stripBdtImgWidgets(root, stats, discardedCarouselSrcs);
+  // Title-H1 strip runs before liftElementorWrappers so we can find the H1
+  // inside its Elementor heading-widget container and remove the whole widget.
+  if (opts.pageTitle) stripTitleH1(root, stats, opts.pageTitle);
+  // Section-nav blocks run BEFORE liftElementorWrappers because the
+  // destination-hub-specific pattern is an `.elementor-widget-toggle` with
+  // `INTRODUCING X` / `PLAN YOUR TRIP` toggle titles. Lifting destroys those
+  // wrapper classes; we need them intact to identify the widget.
+  stripSectionNavBlocks(root, stats);
   stripNoise(root);
   liftElementorWrappers(root);
+  // Metadata lines run AFTER lifting because they target bare <p>s, which
+  // are easier to match once Elementor wrappers are flattened.
+  stripMetadataLines(root, stats);
   // Duplicate-paragraph dedupe (backlink widgets) runs after lifting because
   // text-equality only stabilizes once wrapper variation is gone.
   dedupeDuplicateParagraphs(root, stats);
@@ -130,6 +156,14 @@ function stripPromotionalWidgets(root: HTMLElement, stats: ConversionResult['sta
   for (const el of Array.from(root.querySelectorAll('.elementor-cta'))) {
     el.remove();
     stats.tourPromoStripped++;
+  }
+
+  // 1b. Divider widgets are pure presentation (horizontal rule with optional
+  // text in the middle, e.g. "AKHMIM Travel Guide"). Strip wholesale —
+  // editorial content never lives in dividers, and the text content (when
+  // present) is always a duplicate of the page title.
+  for (const el of Array.from(root.querySelectorAll('.elementor-widget-divider'))) {
+    el.remove();
   }
 
   // 2. category-grid is rendered two ways:
@@ -297,6 +331,263 @@ function stripBdtImgWidgets(
     stats.bdtImgStripped++;
     container.remove();
     stripped.add(container);
+  }
+}
+
+/**
+ * Fix 1 — strip the first H1 (or H2) whose text duplicates the WP page title.
+ *
+ * Common Elementor pattern: a heading widget renders the page title inside the
+ * body, AND the WP title is also used as the doc's `name` field upstream. The
+ * body H1 then duplicates the heading rendered by the front-end template.
+ *
+ * Match is case-insensitive substring, both directions:
+ *   - Title contained in H1 (e.g. "Cairo Travel Guide" inside "CAIRO Travel Guide — A Complete Walkthrough")
+ *   - H1 contained in title (e.g. "Cairo" body H1 against "Cairo Travel Guide" title)
+ *
+ * Whitespace and punctuation normalised (lowercased, multi-space collapsed,
+ * dashes/punctuation removed) before substring check, so "Akhmim - The Complete
+ * Travel Guide" matches "Akhmim Travel Guide".
+ *
+ * Counts in `stats.titleH1Stripped`. Only the FIRST matching heading is
+ * removed; subsequent H1/H2 with the title are left as-is (editorial may
+ * reference the title intentionally further down the body).
+ */
+function stripTitleH1(root: HTMLElement, stats: ConversionResult['stats'], pageTitle: string): void {
+  // Normalise: lowercase + diacritic-fold (NFD then strip combining marks) +
+  // replace punctuation/dashes with space + collapse whitespace. Diacritic
+  // fold catches "Wādī" vs "Wadi" mismatches in WP-rendered headings.
+  const norm = (s: string) =>
+    s
+      .normalize('NFD')
+      .replace(/[̀-ͯ]/g, '')
+      .toLowerCase()
+      .replace(/[‐-―\-_,.;:!?‘’“”]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  const titleNorm = norm(pageTitle);
+  if (!titleNorm) return;
+  const titleTokens = titleNorm.split(' ').filter(Boolean);
+
+  /**
+   * Token-subsequence match: does `short`'s token sequence appear within
+   * `long`'s tokens IN ORDER (with arbitrary tokens allowed between)?
+   * Catches "Akhmim Travel Guide" inside "Akhmim - The Complete Travel Guide"
+   * (which substring-match misses because of the inserted "the complete").
+   */
+  const isSubsequence = (shortTokens: string[], longTokens: string[]): boolean => {
+    if (shortTokens.length === 0 || shortTokens.length > longTokens.length) return false;
+    let i = 0;
+    for (const lt of longTokens) {
+      if (shortTokens[i] === lt) i++;
+      if (i >= shortTokens.length) return true;
+    }
+    return false;
+  };
+
+  // Scan h1/h2 first (one strip max), then p — the latter catches the
+  // "AKHMIM Travel Guide" leading-title duplicate rendered as a paragraph
+  // (often a separate elementor-widget-heading with style: normal).
+  // For <p> we strip ALL matches under the 60-char guard since multiple
+  // duplicate-title paragraphs are common and never legitimate.
+  let h1H2Done = false;
+  for (const tag of ['h1', 'h2', 'p'] as const) {
+    for (const el of Array.from(root.querySelectorAll(tag))) {
+      if ((tag === 'h1' || tag === 'h2') && h1H2Done) break;
+      const t = norm(el.text);
+      if (!t) continue;
+      // For <p>, only consider short title-like text (<60 chars) to avoid
+      // falsely stripping a prose paragraph that happens to mention the title.
+      if (tag === 'p' && t.length > 60) continue;
+      const headingTokens = t.split(' ').filter(Boolean);
+      // Match either direction: title-tokens-in-heading or heading-tokens-in-title.
+      if (
+        isSubsequence(titleTokens, headingTokens) ||
+        isSubsequence(headingTokens, titleTokens) ||
+        t.includes(titleNorm) ||
+        titleNorm.includes(t)
+      ) {
+        // Walk up to the closest `.elementor-widget-heading` wrapper (the
+        // specific widget that contains the heading), but STOP there. Do NOT
+        // walk further up to `.elementor-element` ancestors — those are
+        // column/section containers that also hold sibling widgets like
+        // text-editor with the actual prose. Removing the column would
+        // delete the prose alongside the heading.
+        let target: HTMLElement = el;
+        let cur: HTMLElement | null = el.parentNode as HTMLElement | null;
+        for (let hop = 0; hop < 4 && cur; hop++) {
+          const cls = cur.getAttribute?.('class') ?? '';
+          if (/\belementor-widget-heading\b/.test(cls)) {
+            target = cur;
+            break; // found the heading widget — stop here, do not walk to parent column
+          }
+          cur = cur.parentNode as HTMLElement | null;
+        }
+        target.remove();
+        stats.titleH1Stripped++;
+        if (tag === 'h1' || tag === 'h2') {
+          h1H2Done = true;
+          break; // h1/h2 strips at most once; continue to p scan
+        }
+        // p scan continues — strip every matching short paragraph.
+      }
+    }
+  }
+}
+
+/**
+ * Fix 2 — strip metadata lines (`Created On…`, `Updated On…`, `Last Updated…`,
+ * `Published…`).
+ *
+ * These appear as bare `<p>` nodes (often inside Elementor text-editor
+ * widgets) generated by an unknown WP plugin. Always boilerplate, never
+ * editorial content. Counts in `stats.metadataLineStripped`.
+ */
+const METADATA_LINE_RE = /^\s*(Created|Updated|Last\s+Updated|Published)\s+On\s+.+$/i;
+function stripMetadataLines(root: HTMLElement, stats: ConversionResult['stats']): void {
+  for (const p of Array.from(root.querySelectorAll('p'))) {
+    const text = p.text.trim();
+    if (text && METADATA_LINE_RE.test(text)) {
+      p.remove();
+      stats.metadataLineStripped++;
+    }
+  }
+}
+
+/**
+ * Fix 3 — strip the section-navigation block.
+ *
+ * Destination-hub WP pages append a sibling-page navigation block at the
+ * bottom of the body. The block consists of ALL-CAPS section headers
+ * (`INTRODUCING <CITY>`, `PLAN YOUR TRIP`, `WHILE YOU ARE THERE`,
+ * `PLACES TO GO`, `OTHERS`) followed by anchor links to subpage articles.
+ *
+ * In our schema those subpage articles are separate `guideArticle` docs
+ * (linked via `parentCity` + `section`); the nav block here would be a
+ * duplicate listing with broken refs.
+ *
+ * Detector: any `<p>`/`<h1>`/`<h2>`/`<h3>` whose normalised ALL-CAPS text
+ * matches one of:
+ *   - `INTRODUCING <CITY>` (any uppercase city name)
+ *   - `PLAN YOUR TRIP`
+ *   - `WHILE YOU ARE THERE`
+ *   - `PLACES TO GO`
+ *   - `OTHERS`
+ *
+ * Plus a leading line `<CITY> TRAVEL GUIDE` (e.g. "AKHMIM Travel Guide")
+ * that precedes the first section header.
+ *
+ * Strip from the first match through the last match's following content
+ * up to the next non-section-block sibling. Conservative bound: stop at
+ * end of body if no other content follows.
+ *
+ * Counts in `stats.sectionNavBlockStripped` (one increment per block,
+ * not per node — block-level metric).
+ */
+const SECTION_HEADER_PATTERNS: RegExp[] = [
+  /^INTRODUCING\s+[A-Z][A-Z\s\-']+$/,
+  /^PLAN YOUR TRIP$/,
+  /^WHILE YOU ARE THERE$/,
+  /^PLACES TO GO$/,
+  /^OTHERS$/,
+];
+// Leading title line allows the city portion to be ALL-CAPS while the
+// "Travel Guide" suffix is in title case (the actual WP rendering pattern,
+// e.g. "AKHMIM Travel Guide" — observed on multiple destination-hub pages).
+const LEADING_TITLE_LINE_RE = /^[A-Z][A-Z\s\-']+\s+(?:TRAVEL\s+GUIDE|Travel\s+Guide)$/;
+function stripSectionNavBlocks(root: HTMLElement, stats: ConversionResult['stats']): void {
+  const isHeader = (text: string) => SECTION_HEADER_PATTERNS.some((re) => re.test(text));
+  const isLeadingTitle = (text: string) => LEADING_TITLE_LINE_RE.test(text);
+
+  // Strategy A: Elementor toggle/accordion widget that contains section-nav
+  // titles. Confirmed pattern on destination-hub WP pages — the section-nav
+  // is rendered as `.elementor-widget-toggle` with `<a class="elementor-toggle-title">`
+  // children whose text matches our SECTION_HEADER_PATTERNS. The whole widget
+  // gets stripped.
+  //
+  // Use ONLY the outer widget wrapper class (`.elementor-widget-toggle`,
+  // `.elementor-widget-accordion`) so we don't double-match the inner
+  // block-element classes (`.elementor-toggle`) and double-count.
+  const stripped = new Set<HTMLElement>();
+  for (const widget of Array.from(
+    root.querySelectorAll('.elementor-widget-toggle, .elementor-widget-accordion')
+  )) {
+    if (stripped.has(widget)) continue;
+    // Skip if an ancestor was already removed (still attached to detached subtree).
+    let parent: HTMLElement | null = widget.parentNode as HTMLElement | null;
+    let ancestorRemoved = false;
+    while (parent) {
+      if (stripped.has(parent)) { ancestorRemoved = true; break; }
+      parent = parent.parentNode as HTMLElement | null;
+    }
+    if (ancestorRemoved) continue;
+
+    const titles = widget.querySelectorAll('.elementor-toggle-title, .elementor-accordion-title, .elementor-tab-title');
+    let matchedAny = false;
+    for (const t of titles) {
+      const txt = t.text.trim();
+      if (isHeader(txt)) { matchedAny = true; break; }
+    }
+    if (matchedAny) {
+      widget.remove();
+      stripped.add(widget);
+      stats.sectionNavBlockStripped++;
+    }
+  }
+
+  // Strategy B: plain heading/paragraph approach for non-Elementor structures.
+  // Walks h1-h4 + p sequentially. Once a section header is found, only
+  // consumes CONTIGUOUS nav-pattern nodes (section headers + anchor-only
+  // paragraphs). Stops at the first non-matching node — does NOT strip to
+  // end of body.
+  //
+  // "Anchor-only paragraph" = a `<p>` whose entire visible text is the
+  // concatenation of its child anchor texts (no editorial prose around them).
+  // If the paragraph contains additional prose, the section block is over.
+  const allHeadings = Array.from(root.querySelectorAll('h1, h2, h3, h4, p'));
+
+  let firstIdx = -1;
+  for (let i = 0; i < allHeadings.length; i++) {
+    const txt = allHeadings[i].text.trim();
+    if (isHeader(txt)) { firstIdx = i; break; }
+  }
+  if (firstIdx === -1) return;
+
+  // Walk back to consume any preceding leading-title line.
+  let startIdx = firstIdx;
+  if (startIdx > 0 && isLeadingTitle(allHeadings[startIdx - 1].text.trim())) startIdx--;
+
+  const toRemove = new Set<HTMLElement>();
+  // Add the leading title (if matched) and the first section header.
+  for (let i = startIdx; i <= firstIdx; i++) toRemove.add(allHeadings[i]);
+
+  // Walk forward from firstIdx+1 consuming only contiguous nav-pattern nodes.
+  for (let i = firstIdx + 1; i < allHeadings.length; i++) {
+    const el = allHeadings[i];
+    const txt = el.text.trim();
+    const tag = (el.tagName ?? '').toLowerCase();
+    if (isHeader(txt)) {
+      toRemove.add(el);
+      continue;
+    }
+    if (tag === 'p') {
+      const anchors = el.querySelectorAll('a');
+      if (anchors.length === 0) break;
+      // Anchor-only check: paragraph text equals concatenation of anchor
+      // texts (with normalised whitespace). If extra prose surrounds the
+      // anchors, the nav block is over.
+      const anchorText = anchors.map((a) => a.text.trim()).join(' ').replace(/\s+/g, ' ').trim();
+      const pText = txt.replace(/\s+/g, ' ').trim();
+      if (anchorText !== pText) break;
+      toRemove.add(el);
+      continue;
+    }
+    break; // any heading not matching a section pattern → end of nav block
+  }
+
+  if (toRemove.size > 0) {
+    for (const el of toRemove) el.remove();
+    stats.sectionNavBlockStripped++;
   }
 }
 
@@ -805,6 +1096,9 @@ export function mineVisitorInfo(html: string, opts: ConversionOptions = {}): PtB
     carouselSwiperStripped: 0,
     carouselPremiumAdvStripped: 0,
     bdtImgStripped: 0,
+    titleH1Stripped: 0,
+    metadataLineStripped: 0,
+    sectionNavBlockStripped: 0,
   };
 
   const paragraphs = Array.from(root.querySelectorAll('p'));
