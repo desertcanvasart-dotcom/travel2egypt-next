@@ -6,6 +6,114 @@ run 2 (post-strip-rules). The 495 articles + 165 translation.metadata are in
 
 ---
 
+## Cutover decisions made
+
+Locked decisions, dated. Items leave the open-questions / cutover-blockers
+list once they appear here. Future sessions trust this section over any
+narrative claim elsewhere.
+
+### Q1 — Brand swap: Ring 2, scheduled at session 5.5
+
+**Decision (2026-04-28, Islam):** Brand swap is Ring 2 scope (typographic
+hierarchy affecting Portable Text rendering — heading scales, line-heights,
+pull-quote/side-image composition) and is scheduled as a dedicated
+session 5.5 between sessions 5 and 6.
+
+**Rationale:** Ring 2 timing means the swap happens *after* city UPDATE
+content lands but *before* destination-subpage and entity-type rendering
+patterns calcify in sessions 6-8. Brand inputs are gathered at
+`~/Desktop/travel2egypt-brand/`. Session 5 writes content only, no
+styling — rendering decisions in session 5 do not need to anticipate the
+swap. Session 5 visual QA uses the structural-only standard; typography
+mismatches are not flagged as bugs.
+
+### Q3 — city UPDATE merge rule: WP overwrites where it has a value
+
+**Decision (2026-04-28, Islam):** Unified rule — "WP overwrites where WP
+has a value; everything else stays as-is." Operationalized as four
+sub-decisions:
+
+- Field WP has → overwrite Sanity with WP value
+- Field WP doesn't have → leave Sanity untouched (NOT set to undefined)
+- Field not in WP schema (editorial-only) → always leave untouched
+- Locale slot WP doesn't have → leave that slot untouched (do NOT blank)
+- Seed cities not in WP source → leave entirely untouched, surface in
+  summary as "seed-only, not in WP"
+
+**Sub-decision Q3.1 (placesToGo):** Out of scope for session 5. Single-
+source-of-truth ownership is monument session 7. Session 5 leaves
+`placesToGo` array untouched regardless of what WP destination-hub source
+contains. WP "Places to visit" sampling in session 5 step 1 is
+informational-only.
+
+**Rationale:** Predictable, idempotent, low-cognitive-load. Editorial
+work in Studio is preserved by default. WP source is the operational
+source for migration-touched fields. The four sub-decisions cover every
+edge case without ad-hoc field-level reasoning.
+
+**Note (2026-04-28):** First-run state of migration-staging is empty for
+city documents (verified by GROQ). The unified rule's "leave Sanity
+untouched" clauses fire zero times on first run. They become load-bearing
+on iteration 2+ when the importer re-runs against staged content.
+
+### Q4 — Hotel/cruise/tour gallery: hero-only (B)
+
+**Decision (2026-04-28, Islam):** Path B — first carousel `<img>` src
+becomes hero image if `featured_media` is not set on the WP page.
+Remaining carousel images are dropped. No `gallery: image[]` schema work.
+
+**Rationale:** Editorial-luxury restraint over decoration. Travel2Egypt
+brand voice (Black Tomato / Audley / Departures references) does not
+include carousel galleries. Paying schema cost for content that may not
+survive editorial review post-migration is wasted architecture. If
+specific high-value hotels need richer galleries later, surgical
+re-import handles them.
+
+**Scope:** Out of session 5. Locked now to unblock session 8 mapper work
+(hotel / nileCruise / tour). Carousel images discarded by hero-only logic
+will be logged with sample src URLs to `migration-summary.md`'s "Stripped
+carousels" section, same instrumentation as session 4's strip rules.
+
+---
+
+## Cutover Blockers — additions identified in session 5
+
+DOC 1 (Application Handover v3) carries the canonical Cutover Blockers
+table. Session-5-discovered additions land here first, get folded into
+DOC 1 at session 5 close. Each item has owner + deadline.
+
+### Production-only city enrichments not in migration-staging
+
+**Discovered (2026-04-28):** Direct cross-dataset GROQ probe at session 5
+pre-flight showed migration-staging has zero `city` documents while
+production has 3 (`city-cairo`, `city-aswan`, `city-luxor`). Production
+Cairo carries `placesToGo` (1 entry) and likely Key Facts and other
+editorial-only enrichments; production Aswan and Luxor carry name + slug
+seed only.
+
+After session 5 (CREATE-first city import) and session 7 (monument
+reverse-refs populating placesToGo), staging will have 69 cities with
+WP-sourced content + monument-derived placesToGo. **Production's
+editorial enrichments on Cairo will not appear in staging post-migration
+unless explicitly transferred.**
+
+**Decision needed before cutover:** sync strategy for staging → production
+cutover. Two viable shapes:
+
+- **Merge-not-replace at cutover:** copy staging cities into production
+  but preserve editorial-only fields (Key Facts, etc.) on cities that
+  exist in production. Same merge rule as Q3 but inverted direction.
+- **Re-seed into staging before cutover:** copy production's Cairo Key
+  Facts (and any other editorial-only enrichments on Aswan/Luxor) into
+  staging now, run session 5+7 against the seeded staging, then cutover
+  is a clean replace.
+
+**Owner:** Islam.
+**Deadline:** before session 9 close.
+**Action this session:** none. Surface only.
+
+---
+
 ## Methodology lessons (carry forward)
 
 Plain lesson statements drawn from this session's wrong turns. Future
