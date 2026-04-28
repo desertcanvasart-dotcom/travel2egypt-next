@@ -715,6 +715,11 @@ async function persistResult(
     stats.stripRules.titleH1 += result.htmlStats.titleH1Stripped;
     stats.stripRules.metadataLine += result.htmlStats.metadataLineStripped;
     stats.stripRules.sectionNavBlock += result.htmlStats.sectionNavBlockStripped;
+    stats.stripRules.linkMarkConvertedToPendingRef += result.htmlStats.linkMarkConvertedToPendingRef;
+    stats.stripRules.linkMarkKeptAsExternal += result.htmlStats.linkMarkKeptAsExternal;
+    stats.stripRules.linkMarkStrippedMalformed += result.htmlStats.linkMarkStrippedMalformed;
+    stats.stripRules.linkMarkStrippedAnchor += result.htmlStats.linkMarkStrippedAnchor;
+    stats.stripRules.linkMarkStrippedMailto += result.htmlStats.linkMarkStrippedMailto;
     // Per-article strip counter event for editorial triage. Only emit when at
     // least one rule fired, so the log doesn't get drowned in zeros.
     const totalStripped =

@@ -134,6 +134,11 @@ export interface HtmlPipelineStats {
   titleH1Stripped: number;
   metadataLineStripped: number;
   sectionNavBlockStripped: number;
+  linkMarkConvertedToPendingRef: number;
+  linkMarkKeptAsExternal: number;
+  linkMarkStrippedMalformed: number;
+  linkMarkStrippedAnchor: number;
+  linkMarkStrippedMailto: number;
 }
 
 /** Per-locale record of carousel images discarded by strip rules (sample srcs). */

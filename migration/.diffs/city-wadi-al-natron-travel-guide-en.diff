@@ -38,29 +38,29 @@
 -     },
 -     {
 -       "_key": "1551e7304356",
-+       "_key": "5697d59c1999",
++       "_key": "b12648196822",
         "_type": "block",
         "children": [
           {
 -           "_key": "93e341cd32ad",
-+           "_key": "cc4786e723c8",
++           "_key": "4df6a18ac3a3",
             "_type": "span",
             "marks": [],
             "text": "Wadi Al-Natron, nestled in "
           },
           {
 -           "_key": "6927320a4b8a",
-+           "_key": "e3776b92f793",
++           "_key": "4e4804c4c2a7",
             "_type": "span",
             "marks": [
 -             "fcbe2fde8c3c"
-+             "2c073ea062d3"
++             "67f71d7d4017"
             ],
             "text": "Egypt"
           },
           {
 -           "_key": "5435af0c75ff",
-+           "_key": "08e4fe4b4c05",
++           "_key": "bb007daba6ac",
             "_type": "span",
             "marks": [],
             "text": "‘s Beheira Governorate, stands as a beacon of monastic life and religious heritage. This valley, distinguished by its production of natron salt from its eight lakes, is a testament to the enduring legacy of Christian monasticism in the desert regions of the northwestern Nile Delta. Here is a closer look at this captivating destination:"
@@ -69,9 +69,14 @@
         "markDefs": [
           {
 -           "_key": "fcbe2fde8c3c",
-+           "_key": "2c073ea062d3",
++           "_key": "67f71d7d4017",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/about-egypt/"
++           },
             "_type": "externalLink",
-            "href": "/about-egypt/",
+-           "href": "/about-egypt/",
++           "href": "https://travel2egypt.org/about-egypt/",
             "newTab": false
           }
         ],
@@ -79,12 +84,12 @@
       },
       {
 -       "_key": "0424ae1d60d2",
-+       "_key": "948a6e71e24f",
++       "_key": "49a32afa0c7d",
         "_type": "block",
         "children": [
           {
 -           "_key": "64417d1b465d",
-+           "_key": "b43dbb646701",
++           "_key": "8922a53743b8",
             "_type": "span",
             "marks": [],
             "text": "Geographical and Historical Significance"
@@ -95,12 +100,12 @@
       },
       {
 -       "_key": "9dcb1366fcbd",
-+       "_key": "12d9f454912a",
++       "_key": "9797ae489535",
         "_type": "block",
         "children": [
           {
 -           "_key": "40fae16f3e8c",
-+           "_key": "b4688e6fdaa6",
++           "_key": "4827c5d8a444",
             "_type": "span",
             "marks": [
               "strong"
@@ -109,35 +114,35 @@
           },
           {
 -           "_key": "06decc1ec629",
-+           "_key": "254bb02f10b7",
++           "_key": "9ea927d3d1f5",
             "_type": "span",
             "marks": [],
             "text": ": Wadi Al-Natron’s geographical layout is remarkable, with its strategic location in the "
           },
           {
 -           "_key": "5a174bae5bc9",
-+           "_key": "4f6f94ffbce1",
++           "_key": "53fe641e377f",
             "_type": "span",
             "marks": [
 -             "5a28431503bb"
-+             "89a3305d127c"
++             "d20376eb6dff"
             ],
             "text": "Beheira"
           },
           {
 -           "_key": "68b734cec7ad",
-+           "_key": "4fe6d7e70ef0",
++           "_key": "cf68d1c81927",
             "_type": "span",
             "marks": [],
             "text": " Governorate accentuated by the presence of salt-producing lakes. This area, historically referred to as Scetis, is pivotal in the narrative of early Christian monasticism, serving as one of the initial monastic centers alongside"
           },
           {
 -           "_key": "be2472b0b8d9",
-+           "_key": "d6c5623c1d7e",
++           "_key": "8d8c35a25596",
             "_type": "span",
             "marks": [
 -             "0f6bbafee2fd"
-+             "5d2a084eaac4"
++             "31f39326dd2c"
             ],
             "text": " Nitria and Kellia."
           }
@@ -147,7 +152,7 @@
         "markDefs": [
           {
 -           "_key": "5a28431503bb",
-+           "_key": "89a3305d127c",
++           "_key": "d20376eb6dff",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/bahariya-oasis-travel-guide/accommodations-retreats/"
@@ -158,7 +163,7 @@
           },
           {
 -           "_key": "0f6bbafee2fd",
-+           "_key": "5d2a084eaac4",
++           "_key": "31f39326dd2c",
             "_type": "externalLink",
             "href": "https://en.wikipedia.org/wiki/Nitria_(monastic_site)",
             "newTab": true
@@ -168,12 +173,12 @@
       },
       {
 -       "_key": "d1759fd030ba",
-+       "_key": "e2f156d5799d",
++       "_key": "547dff86c89c",
         "_type": "block",
         "children": [
           {
 -           "_key": "b7d233338772",
-+           "_key": "89b96d4c278c",
++           "_key": "d71898e3ef2e",
             "_type": "span",
             "marks": [
               "strong"
@@ -182,7 +187,7 @@
           },
           {
 -           "_key": "aef61280aa69",
-+           "_key": "5014698fa2ab",
++           "_key": "9a845a9e2d56",
             "_type": "span",
             "marks": [],
             "text": ": Historically known as Scetis in Christian literature, Wadi Al-Natron is one of the three early Christian monastic centers in the desert of the northwestern Nile Delta."
@@ -195,12 +200,12 @@
       },
       {
 -       "_key": "509f7f2d6201",
-+       "_key": "2005da23ad23",
++       "_key": "14ec213fa0ae",
         "_type": "block",
         "children": [
           {
 -           "_key": "f0e9f3861d81",
-+           "_key": "9aeed02860b9",
++           "_key": "5202c9cb8eef",
             "_type": "span",
             "marks": [],
             "text": "Monastic Centers"
@@ -211,29 +216,29 @@
       },
       {
 -       "_key": "d493ff2d87f7",
-+       "_key": "5e1be19a8387",
++       "_key": "d0149326a97f",
         "_type": "block",
         "children": [
           {
 -           "_key": "1a7acd83484b",
-+           "_key": "7cfc32906afb",
++           "_key": "f102264d4acb",
             "_type": "span",
             "marks": [],
             "text": "The valley is home to several monastic centers, with Scetis (modern-"
           },
           {
 -           "_key": "b9c5b68200cc",
-+           "_key": "f6cca1967ada",
++           "_key": "8497acc3d611",
             "_type": "span",
             "marks": [
 -             "64b47847b462"
-+             "0fbc2a1fc876"
++             "28fb52cadb4d"
             ],
             "text": "day Wadi Al-Natron"
           },
           {
 -           "_key": "8d5e3e7f0e4d",
-+           "_key": "5bd7d9b85b3a",
++           "_key": "b5b4fbd15b7b",
             "_type": "span",
             "marks": [],
             "text": "), Nitria, and Kellia forming the crux of this spiritual landscape. Although these centers share a common geographical proximity and intertwined histories, each has its unique characteristics. Wadi Al-Natron is particularly noted for its operational monasteries, in contrast to the mainly archaeological sites of Nitria and Kellia."
@@ -244,7 +249,7 @@
         "markDefs": [
           {
 -           "_key": "64b47847b462",
-+           "_key": "0fbc2a1fc876",
++           "_key": "28fb52cadb4d",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "http://travel2egypt.org/wadi-al-natron-travel-guide/feasting-desert/"
@@ -258,12 +263,12 @@
       },
       {
 -       "_key": "31dfe70ec3b9",
-+       "_key": "38dce21555e7",
++       "_key": "912c0b052c4b",
         "_type": "block",
         "children": [
           {
 -           "_key": "f7c0468e4652",
-+           "_key": "daeec3fd1eeb",
++           "_key": "7c56ac9491e3",
             "_type": "span",
             "marks": [],
             "text": "The Nitrian Desert"
@@ -274,12 +279,12 @@
       },
       {
 -       "_key": "ac48f77fb027",
-+       "_key": "205668caf866",
++       "_key": "fbab2cd02506",
         "_type": "block",
         "children": [
           {
 -           "_key": "6027feebbe3e",
-+           "_key": "81784a7b7ec7",
++           "_key": "4a83969a04b8",
             "_type": "span",
             "marks": [],
             "text": "The term ‘Nitrian Desert’ broadly covers the entire region housing these monastic centers. It often signifies the areas around Nitria and Kellia specifically, while the vicinity of Wadi Al-Natron is referred to as the Scetis Desert.."
@@ -292,12 +297,12 @@
       },
       {
 -       "_key": "7f362e6cf5ea",
-+       "_key": "7b74a1222038",
++       "_key": "fa5eeb486864",
         "_type": "block",
         "children": [
           {
 -           "_key": "e4f84c6b6899",
-+           "_key": "c79a23c3b0f4",
++           "_key": "254c1cd0b1c7",
             "_type": "span",
             "marks": [],
             "text": "Monasteries in Wadi Al-Natron"
@@ -308,12 +313,12 @@
       },
       {
 -       "_key": "cc941a9ccba5",
-+       "_key": "975ac4c2d4f1",
++       "_key": "4522f4f094c3",
         "_type": "block",
         "children": [
           {
 -           "_key": "c9585122503f",
-+           "_key": "c7e934f4224b",
++           "_key": "16b725193299",
             "_type": "span",
             "marks": [],
             "text": "The monasteries of Wadi Al-Natron are not only spiritual sanctuaries but also repositories of rich historical and cultural narratives. These active monastic dwellings continue to draw visitors, offering a serene spiritual atmosphere alongside a glimpse into historical ecclesiastical architecture."
@@ -326,12 +331,12 @@
       },
       {
 -       "_key": "bc4bc8ff81d7",
-+       "_key": "2927b3468e04",
++       "_key": "8faaa5e1d16f",
         "_type": "block",
         "children": [
           {
 -           "_key": "212c8091eca1",
-+           "_key": "744a6a611f4d",
++           "_key": "49d5246138e0",
             "_type": "span",
             "marks": [],
             "text": "In essence, Wadi Al-Natron is a profound blend of spiritual depth and historical intrigue. Its monasteries, set amidst the tranquil desert landscape and reflective salt lakes, offer a unique journey into the heart of early Christian monastic traditions. This destination is a profound testament to faith, culture, and history, inviting those interested in religious pilgrimages and historical inquiry alike to explore its sacred grounds."
@@ -753,7 +758,7 @@
 -     },
 -     {
 -       "_key": "914f1ce37015",
-+       "_key": "332ee5ed039d",
++       "_key": "c02c01b56047",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Deir_as_Suriani.jpg",
         "_type": "image",
         "alt": [
@@ -771,7 +776,7 @@
       },
       {
 -       "_key": "c1ba72670dfa",
-+       "_key": "c24ac0c384ec",
++       "_key": "16b96815b267",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wady-el-natron-1.jpg",
         "_type": "image",
         "alt": [

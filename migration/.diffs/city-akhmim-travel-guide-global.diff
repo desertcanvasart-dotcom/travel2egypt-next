@@ -3,9 +3,9 @@
   {
     "_createdAt": "2026-04-28T19:05:22Z",
     "_id": "wp-page-58090",
-    "_rev": "mxAS2Q3l09qdFj5vZMwM6A",
+    "_rev": "HKnJcdg5mBoLDonMNkS7Wg",
     "_type": "city",
-    "_updatedAt": "2026-04-28T19:05:22Z",
+    "_updatedAt": "2026-04-28T22:05:46Z",
     "heroImage": {
       "_type": "image",
       "asset": {
@@ -15,12 +15,13 @@
     },
     "migration": {
 -     "migratedAt": "2026-04-28T19:05:22.210Z",
-+     "migratedAt": "2026-04-28T20:30:20.619Z",
++     "migratedAt": "2026-04-28T22:16:03.640Z",
       "reviewFlag": "keyfacts-mining-failed",
       "source": "wp-import",
       "wpId": 58090,
       "wpModifiedAt": "2026-02-15T12:54:53",
       "wpTemplate": "",
       "wpUrl": "https://travel2egypt.org/akhmim-travel-guide/"
-    }
+    },
+    "region": "upper-egypt"
   }

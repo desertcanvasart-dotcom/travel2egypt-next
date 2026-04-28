@@ -55,6 +55,19 @@ export interface ConversionResult {
     metadataLineStripped: number;
     /** Section-navigation blocks (INTRODUCING X / PLAN YOUR TRIP / …) stripped. */
     sectionNavBlockStripped: number;
+    // Link-mark normalisation per-`<A>` classification. Flat counters (not
+    // nested) so the existing per-mapper aggregator loops still work via
+    // `for (const k of Object.keys(htmlStats)) htmlStats[k] += r.stats[k]`.
+    /** Internal/relative URLs → `_pendingInternalRef` (relink phase will resolve). */
+    linkMarkConvertedToPendingRef: number;
+    /** Absolute external URLs (Wikipedia, etc.) kept as `externalLink`. */
+    linkMarkKeptAsExternal: number;
+    /** Malformed/javascript:/data:/empty hrefs — mark stripped, text kept. */
+    linkMarkStrippedMalformed: number;
+    /** Anchor-only `#section` hrefs — mark stripped, text kept. */
+    linkMarkStrippedAnchor: number;
+    /** Bare `mailto:` / `tel:` with no address — mark stripped, text kept. */
+    linkMarkStrippedMailto: number;
   };
   /** Sample src URLs from carousels that were stripped. Capped per call. */
   discardedCarouselSrcs: { swiper: string[]; premiumAdv: string[]; bdtImg: string[] };
@@ -97,6 +110,11 @@ export function htmlToPortableText(html: string, opts: ConversionOptions = {}): 
     titleH1Stripped: 0,
     metadataLineStripped: 0,
     sectionNavBlockStripped: 0,
+    linkMarkConvertedToPendingRef: 0,
+    linkMarkKeptAsExternal: 0,
+    linkMarkStrippedMalformed: 0,
+    linkMarkStrippedAnchor: 0,
+    linkMarkStrippedMailto: 0,
   };
   const discardedCarouselSrcs = { swiper: [] as string[], premiumAdv: [] as string[], bdtImg: [] as string[] };
   const decoded = decodeEntities(html);
@@ -675,15 +693,15 @@ function walkBlock(node: HTMLElement, blocks: PtBlock[], stats: ConversionResult
   switch (tag) {
     case 'H1':
     case 'H2':
-      pushHeading(node, blocks, 'h2');
+      pushHeading(node, blocks, 'h2', stats);
       return;
     case 'H3':
-      pushHeading(node, blocks, 'h3');
+      pushHeading(node, blocks, 'h3', stats);
       return;
     case 'H4':
     case 'H5':
     case 'H6':
-      pushHeading(node, blocks, 'h4');
+      pushHeading(node, blocks, 'h4', stats);
       return;
     case 'P':
       pushParagraph(node, blocks, stats);
@@ -731,8 +749,8 @@ function walkBlock(node: HTMLElement, blocks: PtBlock[], stats: ConversionResult
 
 // ---------- Block builders --------------------------------------------
 
-function pushHeading(node: HTMLElement, blocks: PtBlock[], style: 'h2' | 'h3' | 'h4'): void {
-  const children = inline(node);
+function pushHeading(node: HTMLElement, blocks: PtBlock[], style: 'h2' | 'h3' | 'h4', stats?: ConversionResult['stats']): void {
+  const children = inline(node, stats);
   if (children.length === 0) return;
   blocks.push(textBlock(style, children));
 }
@@ -758,19 +776,19 @@ function pushParagraph(node: HTMLElement, blocks: PtBlock[], stats: ConversionRe
       _key: key(),
       _type: 'operatorNote',
       tone: 'honest',
-      body: [textBlock('normal', inline(node))],
+      body: [textBlock('normal', inline(node, stats))],
     });
     return;
   }
 
-  const children = inline(node);
+  const children = inline(node, stats);
   if (children.length === 0) return;
   blocks.push(textBlock('normal', children));
 }
 
 function pushList(node: HTMLElement, blocks: PtBlock[], listType: 'bullet' | 'number', stats: ConversionResult['stats']): void {
   for (const li of node.querySelectorAll(':scope > li')) {
-    const children = inline(li as HTMLElement);
+    const children = inline(li as HTMLElement, stats);
     if (children.length === 0) continue;
     blocks.push({
       ...textBlock('normal', children),
@@ -792,7 +810,7 @@ function pushBlockquote(node: HTMLElement, blocks: PtBlock[], stats: ConversionR
   }
   // Default blockquote.
   for (const para of node.querySelectorAll(':scope > p')) {
-    const children = inline(para as HTMLElement);
+    const children = inline(para as HTMLElement, stats);
     if (children.length) blocks.push(textBlock('blockquote', children));
   }
 }
@@ -938,16 +956,16 @@ interface PtMarkDef {
   [k: string]: unknown;
 }
 
-function inline(node: HTMLElement): PtSpan[] {
+function inline(node: HTMLElement, stats?: ConversionResult['stats']): PtSpan[] {
   const spans: PtSpan[] = [];
   const markDefs: PtMarkDef[] = [];
-  walkInline(node, spans, [], markDefs);
+  walkInline(node, spans, [], markDefs, stats);
   // Attach markDefs to the parent block via a side channel (we inject into the block builder).
   (spans as PtSpan[] & { __markDefs?: PtMarkDef[] }).__markDefs = markDefs;
   return spans;
 }
 
-function walkInline(node: HTMLElement, spans: PtSpan[], activeMarks: string[], markDefs: PtMarkDef[]): void {
+function walkInline(node: HTMLElement, spans: PtSpan[], activeMarks: string[], markDefs: PtMarkDef[], stats?: ConversionResult['stats']): void {
   for (const child of node.childNodes) {
     if (child.nodeType === NodeType.TEXT_NODE) {
       const text = (child as any).rawText.replace(/\s+/g, ' ');
@@ -963,47 +981,125 @@ function walkInline(node: HTMLElement, spans: PtSpan[], activeMarks: string[], m
       continue;
     }
     if (tag === 'STRONG' || tag === 'B') {
-      walkInline(el, spans, [...activeMarks, 'strong'], markDefs);
+      walkInline(el, spans, [...activeMarks, 'strong'], markDefs, stats);
       continue;
     }
     if (tag === 'EM' || tag === 'I') {
-      walkInline(el, spans, [...activeMarks, 'em'], markDefs);
+      walkInline(el, spans, [...activeMarks, 'em'], markDefs, stats);
       continue;
     }
     if (tag === 'U') {
-      walkInline(el, spans, [...activeMarks, 'underline'], markDefs);
+      walkInline(el, spans, [...activeMarks, 'underline'], markDefs, stats);
       continue;
     }
     if (tag === 'A') {
-      const href = el.getAttribute('href') ?? '';
+      const rawHref = el.getAttribute('href') ?? '';
       const rel = el.getAttribute('rel') ?? '';
-      const isInternalT2E = /^https?:\/\/(www\.)?travel2egypt\.org/.test(href);
-      const isAnchor = href.startsWith('#');
+      const href = rawHref.trim();
       const markKey = key();
-      if (isInternalT2E) {
-        // Phase 1 placeholder — relink phase resolves to internalLink.
+      const newTab = /noopener|_blank/.test(rel);
+
+      // Schema validator (`Rule.uri({ scheme: ['http','https','mailto','tel'] })`)
+      // requires absolute URLs in one of those four schemes. Anything else
+      // fails Sanity validation and blocks Studio publish. Classification:
+      //
+      //   - relative-rooted (`/foo`)        → _pendingInternalRef, canonical https://travel2egypt.org/foo
+      //   - absolute T2E http(s)            → _pendingInternalRef (existing behaviour)
+      //   - absolute external http(s)       → externalLink (Wikipedia, Britannica, etc.)
+      //   - mailto:/tel: with address       → externalLink
+      //   - bare mailto:/tel: (no address)  → strip mark, keep text
+      //   - #anchor-only                    → strip mark, keep text
+      //   - empty / malformed scheme        → strip mark, keep text
+      //
+      // "Strip mark, keep text" means: don't add the markDef AND don't add
+      // markKey to activeMarks; recurse into the <a>'s children with the
+      // current activeMarks. The visible text survives; the link does not.
+
+      // Empty href.
+      if (!href) {
+        if (stats) stats.linkMarkStrippedMalformed++;
+        walkInline(el, spans, activeMarks, markDefs, stats);
+        continue;
+      }
+      // Anchor-only.
+      if (href.startsWith('#')) {
+        if (stats) stats.linkMarkStrippedAnchor++;
+        walkInline(el, spans, activeMarks, markDefs, stats);
+        continue;
+      }
+      // Relative-rooted (single-leading-slash). Matches /foo and /es/foo;
+      // does NOT match // (protocol-relative — those are typically external).
+      if (/^\/(?!\/)/.test(href)) {
+        const canonical = `https://travel2egypt.org${href}`;
+        markDefs.push({
+          _key: markKey,
+          _type: 'externalLink',
+          href: canonical,
+          newTab,
+          _pendingInternalRef: { wpUrl: canonical, sourceLocale: 'en' as const },
+        });
+        if (stats) stats.linkMarkConvertedToPendingRef++;
+        walkInline(el, spans, [...activeMarks, markKey], markDefs, stats);
+        continue;
+      }
+      // Absolute T2E URLs (existing behavior — already _pendingInternalRef).
+      if (/^https?:\/\/(www\.)?travel2egypt\.org/.test(href)) {
         markDefs.push({
           _key: markKey,
           _type: 'externalLink',
           href,
-          newTab: /noopener|_blank/.test(rel),
+          newTab,
           _pendingInternalRef: { wpUrl: href, sourceLocale: 'en' as const },
         });
-      } else if (isAnchor) {
-        markDefs.push({ _key: markKey, _type: 'externalLink', href, newTab: false });
-      } else {
+        if (stats) stats.linkMarkConvertedToPendingRef++;
+        walkInline(el, spans, [...activeMarks, markKey], markDefs, stats);
+        continue;
+      }
+      // Disallowed schemes — strip mark.
+      if (/^(javascript|data|file|ftp|vbscript):/i.test(href)) {
+        if (stats) stats.linkMarkStrippedMalformed++;
+        walkInline(el, spans, activeMarks, markDefs, stats);
+        continue;
+      }
+      // mailto: / tel: — bare scheme strips, with-address keeps.
+      if (href.startsWith('mailto:') || href.startsWith('tel:')) {
+        const afterScheme = href.replace(/^(mailto|tel):/, '').trim();
+        if (!afterScheme) {
+          if (stats) stats.linkMarkStrippedMailto++;
+          walkInline(el, spans, activeMarks, markDefs, stats);
+          continue;
+        }
+        markDefs.push({ _key: markKey, _type: 'externalLink', href, newTab });
+        if (stats) stats.linkMarkKeptAsExternal++;
+        walkInline(el, spans, [...activeMarks, markKey], markDefs, stats);
+        continue;
+      }
+      // Absolute http(s) — keep as external.
+      if (/^https?:\/\//.test(href)) {
+        markDefs.push({ _key: markKey, _type: 'externalLink', href, newTab });
+        if (stats) stats.linkMarkKeptAsExternal++;
+        walkInline(el, spans, [...activeMarks, markKey], markDefs, stats);
+        continue;
+      }
+      // Schemeless host (rare but defensible — `example.com/foo`). Prepend https://.
+      if (/^[a-z0-9.-]+\.[a-z]{2,}(\/|\?|#|$)/i.test(href)) {
         markDefs.push({
           _key: markKey,
           _type: 'externalLink',
-          href,
-          newTab: /noopener|_blank/.test(rel),
+          href: `https://${href}`,
+          newTab,
         });
+        if (stats) stats.linkMarkKeptAsExternal++;
+        walkInline(el, spans, [...activeMarks, markKey], markDefs, stats);
+        continue;
       }
-      walkInline(el, spans, [...activeMarks, markKey], markDefs);
+      // Catchall — strip mark, log to malformed.
+      if (stats) stats.linkMarkStrippedMalformed++;
+      walkInline(el, spans, activeMarks, markDefs, stats);
       continue;
     }
     // Span/other inline wrappers: recurse without adding marks.
-    walkInline(el, spans, activeMarks, markDefs);
+    walkInline(el, spans, activeMarks, markDefs, stats);
   }
 }
 
@@ -1099,6 +1195,11 @@ export function mineVisitorInfo(html: string, opts: ConversionOptions = {}): PtB
     titleH1Stripped: 0,
     metadataLineStripped: 0,
     sectionNavBlockStripped: 0,
+    linkMarkConvertedToPendingRef: 0,
+    linkMarkKeptAsExternal: 0,
+    linkMarkStrippedMalformed: 0,
+    linkMarkStrippedAnchor: 0,
+    linkMarkStrippedMailto: 0,
   };
 
   const paragraphs = Array.from(root.querySelectorAll('p'));
@@ -1112,7 +1213,7 @@ export function mineVisitorInfo(html: string, opts: ConversionOptions = {}): PtB
     if (/photography is (allowed|forbidden|free)/.test(text)) signals++;
     if (/\b(dress|wear)\b/.test(text)) signals++;
     if (signals >= 2) {
-      const children = inline(p as HTMLElement);
+      const children = inline(p as HTMLElement, stats);
       out.push(textBlock('normal', children));
     }
   }

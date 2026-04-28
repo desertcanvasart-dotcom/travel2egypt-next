@@ -38,6 +38,13 @@ export interface MigrationStats {
     titleH1: number;
     metadataLine: number;
     sectionNavBlock: number;
+    /** Sub-counters for `<a>` link-mark normalisation (Sanity URL validator
+     * fix — relative-rooted URLs to _pendingInternalRef, etc.). */
+    linkMarkConvertedToPendingRef: number;
+    linkMarkKeptAsExternal: number;
+    linkMarkStrippedMalformed: number;
+    linkMarkStrippedAnchor: number;
+    linkMarkStrippedMailto: number;
   };
   /** Per-locale records of carousel images discarded by strip rules. */
   discardedCarousels: DiscardedCarousel[];
@@ -64,7 +71,13 @@ export function emptyStats(argv: string[]): MigrationStats {
     bySanityType: {},
     reviewFlags: {} as MigrationStats['reviewFlags'],
     htmlPipeline: { operatorNotes: 0, pullQuotes: 0, sideImages: 0, images: 0, tablesFlattened: 0 },
-    stripRules: { tourPromo: 0, categoryGrid: 0, backlink: 0, carouselSwiper: 0, carouselPremiumAdv: 0, bdtImg: 0, titleH1: 0, metadataLine: 0, sectionNavBlock: 0 },
+    stripRules: {
+      tourPromo: 0, categoryGrid: 0, backlink: 0,
+      carouselSwiper: 0, carouselPremiumAdv: 0, bdtImg: 0,
+      titleH1: 0, metadataLine: 0, sectionNavBlock: 0,
+      linkMarkConvertedToPendingRef: 0, linkMarkKeptAsExternal: 0,
+      linkMarkStrippedMalformed: 0, linkMarkStrippedAnchor: 0, linkMarkStrippedMailto: 0,
+    },
     discardedCarousels: [],
     ambiguousMatches: [],
     hreflang: { entitiesProbed: 0, multiLocaleGroups: 0, singletons: 0, broken: 0 },
@@ -150,6 +163,11 @@ export function writeSummary(stats: MigrationStats): void {
   push(`| title-matching H1 (Fix 1) | ${stats.stripRules.titleH1} |`);
   push(`| metadata lines \`Created/Updated On…\` (Fix 2) | ${stats.stripRules.metadataLine} |`);
   push(`| section nav blocks \`INTRODUCING …\` (Fix 3) | ${stats.stripRules.sectionNavBlock} |`);
+  push(`| link-mark → \`_pendingInternalRef\` (URL validator fix) | ${stats.stripRules.linkMarkConvertedToPendingRef} |`);
+  push(`| link-mark kept as \`externalLink\` | ${stats.stripRules.linkMarkKeptAsExternal} |`);
+  push(`| link-mark stripped (malformed/empty) | ${stats.stripRules.linkMarkStrippedMalformed} |`);
+  push(`| link-mark stripped (\`#anchor\` only) | ${stats.stripRules.linkMarkStrippedAnchor} |`);
+  push(`| link-mark stripped (bare mailto:/tel:) | ${stats.stripRules.linkMarkStrippedMailto} |`);
   push();
 
   push(`## Stripped carousels`);

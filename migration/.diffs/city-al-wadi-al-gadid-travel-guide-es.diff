@@ -20,19 +20,19 @@
 -     },
 -     {
 -       "_key": "164d4c9968d5",
-+       "_key": "3dbe7251d45d",
++       "_key": "1c2b2b887236",
         "_type": "block",
         "children": [
           {
 -           "_key": "9b480c6e9800",
-+           "_key": "1b76b118b721",
++           "_key": "bc6d6fdfa74f",
             "_type": "span",
             "marks": [],
             "text": "Embark on a captivating journey through "
           },
           {
 -           "_key": "e68d896a884e",
-+           "_key": "ddb8e41e089f",
++           "_key": "64083ed45b1f",
             "_type": "span",
             "marks": [
               "strong"
@@ -41,41 +41,41 @@
           },
           {
 -           "_key": "8cca1c6e5d91",
-+           "_key": "d1238092c569",
++           "_key": "286632555806",
             "_type": "span",
             "marks": [],
             "text": ", a majestic realm in Southwestern Egypt. This expansive area, covering two-fifths of Egypt’s landmass, is a mosaic of ancient oases and desert mysteries. From the lush "
           },
           {
 -           "_key": "235bc9cc82cd",
-+           "_key": "27090417a569",
++           "_key": "d64f8a9529eb",
             "_type": "span",
             "marks": [
 -             "82f19f207ecb"
-+             "b2b3eedbd286"
++             "ec8079f66ac8"
             ],
             "text": "Siwa Oasis"
           },
           {
 -           "_key": "b93bd2046675",
-+           "_key": "83c8085bf3fc",
++           "_key": "12fc047a4011",
             "_type": "span",
             "marks": [],
             "text": " to the secluded Al-Khārijah, each oasis in Al Wādī al Gadīd is a unique world, brimming with history and natural splendor. Traverse ancient caravan routes, explore hidden artesian wells, and marvel at the stark beauty of the Sahara’s edge. This guide invites you to discover the untold stories and breathtaking landscapes of "
           },
           {
 -           "_key": "eaa1d172270c",
-+           "_key": "7097028ae303",
++           "_key": "b6aa898096b1",
             "_type": "span",
             "marks": [
 -             "3badff71cb6c"
-+             "4f9c7b20cbc4"
++             "ac756d4b8409"
             ],
             "text": "Egypt’s"
           },
           {
 -           "_key": "6ac1ee2af225",
-+           "_key": "f2c7780a984b",
++           "_key": "65ab148652ce",
             "_type": "span",
             "marks": [],
             "text": " most enigmatic region. "
@@ -84,14 +84,19 @@
         "markDefs": [
           {
 -           "_key": "82f19f207ecb",
-+           "_key": "b2b3eedbd286",
++           "_key": "ec8079f66ac8",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/siwa-oasis/"
++           },
             "_type": "externalLink",
-            "href": "/siwa-oasis/",
+-           "href": "/siwa-oasis/",
++           "href": "https://travel2egypt.org/siwa-oasis/",
             "newTab": false
           },
           {
 -           "_key": "3badff71cb6c",
-+           "_key": "4f9c7b20cbc4",
++           "_key": "ac756d4b8409",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/al-arish-travel-guide/movement-guide/"
@@ -105,12 +110,12 @@
       },
       {
 -       "_key": "e5745c540508",
-+       "_key": "7722f75d62ef",
++       "_key": "f99ff3803eaa",
         "_type": "block",
         "children": [
           {
 -           "_key": "83c7e8f30f7e",
-+           "_key": "3cc00e28fa8a",
++           "_key": "2496f1a10f8b",
             "_type": "span",
             "marks": [],
             "text": "El corazón del desierto - Oasis de Al-Baḥriyyah:"
@@ -121,39 +126,39 @@
       },
       {
 -       "_key": "6526fb2b2424",
-+       "_key": "a0be357f48d4",
++       "_key": "035269ed999e",
         "_type": "block",
         "children": [
           {
 -           "_key": "9959e50b9b16",
-+           "_key": "80cc5cbe3b00",
++           "_key": "7f1050291d8b",
             "_type": "span",
             "marks": [
 -             "3c212131b1b3"
-+             "3377e360ab44"
++             "a52bba07669f"
             ],
             "text": "Viaja al Oasis de Al-Baḥriyyah,"
           },
           {
 -           "_key": "6048f3e22bed",
-+           "_key": "33c4a1e1c59e",
++           "_key": "425ac4f26e82",
             "_type": "span",
             "marks": [],
             "text": " donde los susurros del pasado se encuentran con las innovaciones del presente. Visita las Momias Doradas de"
           },
           {
 -           "_key": "28c165f7d3fc",
-+           "_key": "c31a375a05c7",
++           "_key": "bb3fa6736c83",
             "_type": "span",
             "marks": [
 -             "e1d2832f3dfc"
-+             "9b841f18fb42"
++             "9c18b6523ff5"
             ],
             "text": " Bahariya,"
           },
           {
 -           "_key": "4e5fc0dd8687",
-+           "_key": "a82848f03ef0",
++           "_key": "1daa6b6cee57",
             "_type": "span",
             "marks": [],
             "text": " testimonio del encanto intemporal de Egipto, y aventúrate en las cercanas minas de mineral de hierro, fusión de riqueza natural y destreza industrial. "
@@ -162,7 +167,7 @@
         "markDefs": [
           {
 -           "_key": "3c212131b1b3",
-+           "_key": "3377e360ab44",
++           "_key": "a52bba07669f",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/bahariya-oasis-travel-guide/journeying-in-bahariya-oasis/"
@@ -173,9 +178,14 @@
           },
           {
 -           "_key": "e1d2832f3dfc",
-+           "_key": "9b841f18fb42",
++           "_key": "9c18b6523ff5",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/bahariya-oasis/"
++           },
             "_type": "externalLink",
-            "href": "/bahariya-oasis/",
+-           "href": "/bahariya-oasis/",
++           "href": "https://travel2egypt.org/bahariya-oasis/",
             "newTab": false
           }
         ],
@@ -183,12 +193,12 @@
       },
       {
 -       "_key": "18ac1a391d30",
-+       "_key": "45660ab45f5a",
++       "_key": "46fcf85dbb17",
         "_type": "block",
         "children": [
           {
 -           "_key": "2067fb9b1341",
-+           "_key": "311ff32fb8c1",
++           "_key": "259fa2db280c",
             "_type": "span",
             "marks": [],
             "text": "La paleta del pintor - Oasis de Al-Farāfirah: "
@@ -199,22 +209,22 @@
       },
       {
 -       "_key": "576a71f68d2d",
-+       "_key": "759629dd2acc",
++       "_key": "0af64576b3c7",
         "_type": "block",
         "children": [
           {
 -           "_key": "54e7f8778e19",
-+           "_key": "62c66cde5ddf",
++           "_key": "3ca488a0f83e",
             "_type": "span",
             "marks": [
 -             "42e142d9bf33"
-+             "195aca038350"
++             "7027b1630e12"
             ],
             "text": "El oasis de Al-Farāfirah"
           },
           {
 -           "_key": "65f04cb4c114",
-+           "_key": "af5133b225c0",
++           "_key": "7ab81db689bb",
             "_type": "span",
             "marks": [],
             "text": ", con sus paisajes surrealistas de desierto blanco, parece el sueño de un pintor. Las formaciones rocosas calcáreas sobre el cielo azul crean una sinfonía visual. Camina por este terreno extraño y acampa bajo un dosel de estrellas, una experiencia que desafía a las palabras. "
@@ -223,7 +233,7 @@
         "markDefs": [
           {
 -           "_key": "42e142d9bf33",
-+           "_key": "195aca038350",
++           "_key": "7027b1630e12",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-farafra/"
@@ -237,12 +247,12 @@
       },
       {
 -       "_key": "e112e04b96e4",
-+       "_key": "eca8512c2a8b",
++       "_key": "8552cafff87a",
         "_type": "block",
         "children": [
           {
 -           "_key": "649cdf02d90c",
-+           "_key": "2b9e4b44b4c8",
++           "_key": "039fd5b1a607",
             "_type": "span",
             "marks": [],
             "text": "El Valle Oculto - Oasis de Al-Dākhilah: "
@@ -253,46 +263,46 @@
       },
       {
 -       "_key": "4b05ce37acbc",
-+       "_key": "1e1d9016a43a",
++       "_key": "b506b0f7a76a",
         "_type": "block",
         "children": [
           {
 -           "_key": "c192c7be8ea9",
-+           "_key": "0336ffc07bfe",
++           "_key": "238ac0b4692c",
             "_type": "span",
             "marks": [],
             "text": " Next, uncover the secrets of "
           },
           {
 -           "_key": "c6ec081f533d",
-+           "_key": "a85fb4a05344",
++           "_key": "dc148f20c7bc",
             "_type": "span",
             "marks": [
 -             "75b4fe4ce951"
-+             "045ad65fd3bf"
++             "0c386dfe8345"
             ],
             "text": "Al-Dākhilah Oasis"
           },
           {
 -           "_key": "11500be48494",
-+           "_key": "58916be2e3e5",
++           "_key": "772434e95adf",
             "_type": "span",
             "marks": [],
             "text": ". Surrounded by rose-colored cliffs, this oasis is a haven of tranquility. Visit the medieval mud-brick town of Mut and the timeless "
           },
           {
 -           "_key": "3a29fe03ab03",
-+           "_key": "9c8a958d4afb",
++           "_key": "4c4022395ea8",
             "_type": "span",
             "marks": [
 -             "ba22c9c0aa1d"
-+             "86a4cf6e9c58"
++             "ffe0f3059ac3"
             ],
             "text": "Deir el-Hagar"
           },
           {
 -           "_key": "004e0b69fc00",
-+           "_key": "3b2178f47a66",
++           "_key": "6bf552cd0128",
             "_type": "span",
             "marks": [],
             "text": " temple, a journey through centuries in mere steps. "
@@ -301,14 +311,19 @@
         "markDefs": [
           {
 -           "_key": "75b4fe4ce951",
-+           "_key": "045ad65fd3bf",
++           "_key": "0c386dfe8345",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/dakhla-oasis/"
++           },
             "_type": "externalLink",
-            "href": "/dakhla-oasis/",
+-           "href": "/dakhla-oasis/",
++           "href": "https://travel2egypt.org/dakhla-oasis/",
             "newTab": false
           },
           {
 -           "_key": "ba22c9c0aa1d",
-+           "_key": "86a4cf6e9c58",
++           "_key": "ffe0f3059ac3",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/cairo-and-nile-cruise-round-trip/"
@@ -322,12 +337,12 @@
       },
       {
 -       "_key": "019e894dec9c",
-+       "_key": "647dc9c65877",
++       "_key": "de30553723af",
         "_type": "block",
         "children": [
           {
 -           "_key": "6923a8b638cc",
-+           "_key": "4bfb62147caf",
++           "_key": "12e960489a22",
             "_type": "span",
             "marks": [],
             "text": "La Última Frontera - Oasis de Al-Khārijah: "
@@ -338,46 +353,46 @@
       },
       {
 -       "_key": "ca0fe333bb65",
-+       "_key": "5278828c714c",
++       "_key": "8d56954691fb",
         "_type": "block",
         "children": [
           {
 -           "_key": "cfa26546f7ce",
-+           "_key": "f07d6aefe9a7",
++           "_key": "262883f4b1ae",
             "_type": "span",
             "marks": [],
             "text": "Concluye tu odisea en el Oasis de Al-Khārijah, la última frontera antes del vasto Sáhara. Aquí, la"
           },
           {
 -           "_key": "f2f1920f4c6a",
-+           "_key": "c511325967b8",
++           "_key": "e8de5396771c",
             "_type": "span",
             "marks": [
 -             "939a48c29819"
-+             "4661f2a0f22d"
++             "eeaf77d4a803"
             ],
             "text": " modernidad y"
           },
           {
 -           "_key": "cce4817fae0b",
-+           "_key": "007e4ede71e6",
++           "_key": "1b18abc0e7b2",
             "_type": "span",
             "marks": [],
             "text": " la tradición se mezclan a la perfección. Sube a bordo del ferrocarril histórico de Al-Khārijah a Najʿ Ḥammādī, un viaje que "
           },
           {
 -           "_key": "b65a0775fc56",
-+           "_key": "a9579e8be82c",
++           "_key": "a734523e4df1",
             "_type": "span",
             "marks": [
 -             "915831422891"
-+             "e68f1098c22c"
++             "232660c59665"
             ],
             "text": "traza las líneas vitales de esta antigua "
           },
           {
 -           "_key": "c659c3fd98e6",
-+           "_key": "01d2f30e6988",
++           "_key": "7ffd3b79e9ef",
             "_type": "span",
             "marks": [],
             "text": "tierra. "
@@ -386,7 +401,7 @@
         "markDefs": [
           {
 -           "_key": "939a48c29819",
-+           "_key": "4661f2a0f22d",
++           "_key": "eeaf77d4a803",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/al-fayoum-travel-guide/stay-traditional-modern/"
@@ -397,7 +412,7 @@
           },
           {
 -           "_key": "915831422891",
-+           "_key": "e68f1098c22c",
++           "_key": "232660c59665",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/the-evolution-of-food-in-egypt/"
@@ -411,12 +426,12 @@
       },
       {
 -       "_key": "31ee73f6f53e",
-+       "_key": "16c1c8956863",
++       "_key": "28ccb062d1c7",
         "_type": "block",
         "children": [
           {
 -           "_key": "95d8ebd0703f",
-+           "_key": "bb2aa8cc7fd6",
++           "_key": "12cdd60789c1",
             "_type": "span",
             "marks": [],
             "text": "El Descenso - Depresión de Qattara y Monte Bābayn: "
@@ -427,46 +442,46 @@
       },
       {
 -       "_key": "7df8576ca590",
-+       "_key": "2d89cef2e3d6",
++       "_key": "9c24d9eaad89",
         "_type": "block",
         "children": [
           {
 -           "_key": "3cf257954c1a",
-+           "_key": "301badb10613",
++           "_key": "34aff85e7d57",
             "_type": "span",
             "marks": [],
             "text": "Venture to "
           },
           {
 -           "_key": "83db989b4736",
-+           "_key": "b2e143bce2f1",
++           "_key": "14c0aff9ce9b",
             "_type": "span",
             "marks": [
 -             "d0fb44dbd063"
-+             "8ad44175e8f8"
++             "3517901e089e"
             ],
             "text": "the Qattara"
           },
           {
 -           "_key": "3d64c0a9134a",
-+           "_key": "d929fbc1b14e",
++           "_key": "2ce6e0dc47a0",
             "_type": "span",
             "marks": [],
             "text": " Depression, a landscape sculpted by time, and ascend Mount Bābayn, the highest point in Al Wādī al Gadīd. Witness the breathtaking panorama of the desert, a sight that captures the heart of "
           },
           {
 -           "_key": "b0f28c04b39b",
-+           "_key": "355fca8ab790",
++           "_key": "07d6b25c7238",
             "_type": "span",
             "marks": [
 -             "59b1dceea0c2"
-+             "7a6189c3568b"
++             "b63b826e5523"
             ],
             "text": "Egypt’s"
           },
           {
 -           "_key": "4945d9b8545e",
-+           "_key": "313cc0a716b9",
++           "_key": "f43a087aeee6",
             "_type": "span",
             "marks": [],
             "text": " hidden majesty. "
@@ -475,14 +490,14 @@
         "markDefs": [
           {
 -           "_key": "d0fb44dbd063",
-+           "_key": "8ad44175e8f8",
++           "_key": "3517901e089e",
             "_type": "externalLink",
             "href": "https://www.britannica.com/place/Qattara-Depression",
             "newTab": true
           },
           {
 -           "_key": "59b1dceea0c2",
-+           "_key": "7a6189c3568b",
++           "_key": "b63b826e5523",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/contact-us/"
@@ -496,19 +511,19 @@
       },
       {
 -       "_key": "7c46252cd81a",
-+       "_key": "faeda2190d62",
++       "_key": "8c8ff3f268b7",
         "_type": "block",
         "children": [
           {
 -           "_key": "dac0f287c29c",
-+           "_key": "dfc4cd0d607e",
++           "_key": "04aafca4abd1",
             "_type": "span",
             "marks": [],
             "text": "In "
           },
           {
 -           "_key": "e67c54e1e853",
-+           "_key": "220edca1b7f4",
++           "_key": "e90b290f3f31",
             "_type": "span",
             "marks": [
               "strong"
@@ -517,7 +532,7 @@
           },
           {
 -           "_key": "8a1eb3fbc89b",
-+           "_key": "c6ccf0b5d888",
++           "_key": "5159f1057c33",
             "_type": "span",
             "marks": [],
             "text": ", every step is a story, every oasis a different world. This is not just a journey through a region; it’s an exploration of history, nature, and the indomitable spirit of Egypt. "
@@ -528,12 +543,12 @@
       },
       {
 -       "_key": "fbc60327880a",
-+       "_key": "bec9068fcaef",
++       "_key": "1b84445b8ad0",
         "_type": "block",
         "children": [
           {
 -           "_key": "132cf124c6b1",
-+           "_key": "7facd9c04486",
++           "_key": "b0fd6db114b0",
             "_type": "span",
             "marks": [],
             "text": "Creado el 18 de marzo de 2020"
@@ -572,12 +587,12 @@
 -     },
 -     {
 -       "_key": "a42176bd8582",
-+       "_key": "7d5dae761f13",
++       "_key": "4a07c599bd6e",
         "_type": "block",
         "children": [
           {
 -           "_key": "915a73b50c41",
-+           "_key": "e6005f10d947",
++           "_key": "0737e79e6220",
             "_type": "span",
             "marks": [],
             "text": "PRESENTACIÓN DE Al Wādī Al Gadīd"
@@ -588,16 +603,16 @@
       },
       {
 -       "_key": "80b0b675c84c",
-+       "_key": "b648a6e735b2",
++       "_key": "f103938c0eec",
         "_type": "block",
         "children": [
           {
 -           "_key": "3bb78ec90995",
-+           "_key": "0ffd558d4d5c",
++           "_key": "1031b95103f5",
             "_type": "span",
             "marks": [
 -             "101717151b49"
-+             "a682b951cb21"
++             "01e4187a2084"
             ],
             "text": "Historia"
           }
@@ -605,7 +620,7 @@
         "markDefs": [
           {
 -           "_key": "101717151b49",
-+           "_key": "a682b951cb21",
++           "_key": "01e4187a2084",
             "_pendingInternalRef": {
               "sourceLocale": "en",
               "wpUrl": "https://travel2egypt.org/es/historia-de-al-wadi-al-gadid/"
@@ -619,16 +634,16 @@
       },
       {
 -       "_key": "37c1677d44de",
-+       "_key": "110f5b9a111b",
++       "_key": "30a7b5026890",
         "_type": "block",
         "children": [
           {
 -           "_key": "3d0245fcf534",
-+           "_key": "64d77885577b",
++           "_key": "4a57bb75baf8",
             "_type": "span",
             "marks": [
 -             "9b72257173ac"
-+             "9f527ab00913"
++             "faa84c0317d3"
             ],
             "text": "El tiempo"
           }
@@ -636,9 +651,14 @@
         "markDefs": [
           {
 -           "_key": "9b72257173ac",
-+           "_key": "9f527ab00913",
++           "_key": "faa84c0317d3",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/es/como-es-el-clima-en-al-wadi-al-gadid/"
++           },
             "_type": "externalLink",
-            "href": "/es/como-es-el-clima-en-al-wadi-al-gadid/",
+-           "href": "/es/como-es-el-clima-en-al-wadi-al-gadid/",
++           "href": "https://travel2egypt.org/es/como-es-el-clima-en-al-wadi-al-gadid/",
             "newTab": false
           }
         ],
@@ -646,12 +666,12 @@
       },
       {
 -       "_key": "45db4e36700c",
-+       "_key": "958b2c033e0b",
++       "_key": "df47c4068e60",
         "_type": "block",
         "children": [
           {
 -           "_key": "bebf94253cc5",
-+           "_key": "5442331c9216",
++           "_key": "3a62fe6fc85b",
             "_type": "span",
             "marks": [],
             "text": "PLANIFICA TU VIAJE"
@@ -662,16 +682,16 @@
       },
       {
 -       "_key": "962998f68fad",
-+       "_key": "61a596d70fc8",
++       "_key": "85419ebba0a4",
         "_type": "block",
         "children": [
           {
 -           "_key": "ffec7e071684",
-+           "_key": "fabc8a9a0bb6",
++           "_key": "e3b8c4048f4c",
             "_type": "span",
             "marks": [
 -             "d6fad005d0d0"
-+             "ddd34b95367c"
++             "902358cea102"
             ],
             "text": "Cómo ir"
           }
@@ -679,9 +699,14 @@
         "markDefs": [
           {
 -           "_key": "d6fad005d0d0",
-+           "_key": "ddd34b95367c",
++           "_key": "902358cea102",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/es/guia-para-llegar-a-al-wadi-al-gadid/"
++           },
             "_type": "externalLink",
-            "href": "/es/guia-para-llegar-a-al-wadi-al-gadid/",
+-           "href": "/es/guia-para-llegar-a-al-wadi-al-gadid/",
++           "href": "https://travel2egypt.org/es/guia-para-llegar-a-al-wadi-al-gadid/",
             "newTab": false
           }
         ],
@@ -689,16 +714,16 @@
       },
       {
 -       "_key": "bb702264adda",
-+       "_key": "81e105e88023",
++       "_key": "d6b87fce9e2f",
         "_type": "block",
         "children": [
           {
 -           "_key": "9efeced30f50",
-+           "_key": "0238b0377fe3",
++           "_key": "b85e3188d7e0",
             "_type": "span",
             "marks": [
 -             "8a8a8ec35b26"
-+             "a9d29bc7b75c"
++             "eb6924d20efe"
             ],
             "text": "Dónde alojarse"
           }
@@ -706,9 +731,14 @@
         "markDefs": [
           {
 -           "_key": "8a8a8ec35b26",
-+           "_key": "a9d29bc7b75c",
++           "_key": "eb6924d20efe",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/es/top-de-alojamientos-en-al-wadi-al-gadid/"
++           },
             "_type": "externalLink",
-            "href": "/es/top-de-alojamientos-en-al-wadi-al-gadid/",
+-           "href": "/es/top-de-alojamientos-en-al-wadi-al-gadid/",
++           "href": "https://travel2egypt.org/es/top-de-alojamientos-en-al-wadi-al-gadid/",
             "newTab": false
           }
         ],
@@ -716,12 +746,12 @@
       },
       {
 -       "_key": "c46172d543fe",
-+       "_key": "b33d8f6beded",
++       "_key": "787177d37a10",
         "_type": "block",
         "children": [
           {
 -           "_key": "5baa8b534f43",
-+           "_key": "72fc8552752d",
++           "_key": "ecac1448aeaa",
             "_type": "span",
             "marks": [],
             "text": "MIENTRAS ESTÉS ALLÍ"
@@ -732,16 +762,16 @@
       },
       {
 -       "_key": "58d95cc2f305",
-+       "_key": "8cc86bf518d2",
++       "_key": "130ab4e8ba79",
         "_type": "block",
         "children": [
           {
 -           "_key": "770a5ef002d7",
-+           "_key": "bd9c4840de56",
++           "_key": "368454b3e013",
             "_type": "span",
             "marks": [
 -             "8eee7a57238a"
-+             "3e3d912ccaaf"
++             "d4ff064a7953"
             ],
             "text": "Cómo desplazarse"
           }
@@ -749,9 +779,14 @@
         "markDefs": [
           {
 -           "_key": "8eee7a57238a",
-+           "_key": "3e3d912ccaaf",
++           "_key": "d4ff064a7953",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/es/como-moverse-en-al-wadi-al-gadid/"
++           },
             "_type": "externalLink",
-            "href": "/es/como-moverse-en-al-wadi-al-gadid/",
+-           "href": "/es/como-moverse-en-al-wadi-al-gadid/",
++           "href": "https://travel2egypt.org/es/como-moverse-en-al-wadi-al-gadid/",
             "newTab": false
           }
         ],
@@ -759,16 +794,16 @@
       },
       {
 -       "_key": "8f9bd0761285",
-+       "_key": "b2198540a3a6",
++       "_key": "e6123c42e0c4",
         "_type": "block",
         "children": [
           {
 -           "_key": "bd0fdcee5ad5",
-+           "_key": "19a99912dcc7",
++           "_key": "cacb6c10d84c",
             "_type": "span",
             "marks": [
 -             "60a916d696a7"
-+             "efe19639e3e6"
++             "c8d673f7cb5b"
             ],
             "text": "Cosas que hacer"
           }
@@ -776,9 +811,14 @@
         "markDefs": [
           {
 -           "_key": "60a916d696a7",
-+           "_key": "efe19639e3e6",
++           "_key": "c8d673f7cb5b",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/es/cosas-que-hacer-en-al-wadi-al-gadid/"
++           },
             "_type": "externalLink",
-            "href": "/es/cosas-que-hacer-en-al-wadi-al-gadid/",
+-           "href": "/es/cosas-que-hacer-en-al-wadi-al-gadid/",
++           "href": "https://travel2egypt.org/es/cosas-que-hacer-en-al-wadi-al-gadid/",
             "newTab": false
           }
         ],
@@ -786,12 +826,12 @@
       },
       {
 -       "_key": "2a379779f222",
-+       "_key": "d64db8543501",
++       "_key": "a5d0fa94ecc2",
         "_type": "block",
         "children": [
           {
 -           "_key": "d6ecf05f33dc",
-+           "_key": "0a7b9d1a0fdb",
++           "_key": "f3bfab5e8e39",
             "_type": "span",
             "marks": [],
             "text": "LUGARES DONDE IR"
@@ -802,16 +842,16 @@
       },
       {
 -       "_key": "2b55eb795013",
-+       "_key": "88ca457f59e9",
++       "_key": "228362d80998",
         "_type": "block",
         "children": [
           {
 -           "_key": "5ad88f70230e",
-+           "_key": "c26dba4dd7a5",
++           "_key": "65e63d1d086e",
             "_type": "span",
             "marks": [
 -             "159a54cb1605"
-+             "30a680358299"
++             "a685d36e1498"
             ],
             "text": "Reliquias del reinado de los faraones"
           }
@@ -819,9 +859,14 @@
         "markDefs": [
           {
 -           "_key": "159a54cb1605",
-+           "_key": "30a680358299",
++           "_key": "a685d36e1498",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/es/reliquias-del-reinado-de-los-faraones/"
++           },
             "_type": "externalLink",
-            "href": "/es/reliquias-del-reinado-de-los-faraones/",
+-           "href": "/es/reliquias-del-reinado-de-los-faraones/",
++           "href": "https://travel2egypt.org/es/reliquias-del-reinado-de-los-faraones/",
             "newTab": false
           }
         ],
@@ -829,12 +874,12 @@
       },
       {
 -       "_key": "ad239145a620",
-+       "_key": "fd5093129d2c",
++       "_key": "bc5374e064af",
         "_type": "block",
         "children": [
           {
 -           "_key": "d77c5aabf915",
-+           "_key": "c935dcef97a5",
++           "_key": "55af8cce5355",
             "_type": "span",
             "marks": [],
             "text": "OTROS"
@@ -845,16 +890,16 @@
       },
       {
 -       "_key": "1d1e5cf1cbe8",
-+       "_key": "7b8326f905b7",
++       "_key": "d0eee559dd25",
         "_type": "block",
         "children": [
           {
 -           "_key": "3b4542d3cf2a",
-+           "_key": "b0f4d5c78211",
++           "_key": "3efe6228cae0",
             "_type": "span",
             "marks": [
 -             "765dc66a4056"
-+             "d10e47443a41"
++             "4108a12036d6"
             ],
             "text": "Visitas"
           }
@@ -862,9 +907,14 @@
         "markDefs": [
           {
 -           "_key": "765dc66a4056",
-+           "_key": "d10e47443a41",
++           "_key": "4108a12036d6",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/es/tours-destacados-en-al-wadi-al-gadid/"
++           },
             "_type": "externalLink",
-            "href": "/es/tours-destacados-en-al-wadi-al-gadid/",
+-           "href": "/es/tours-destacados-en-al-wadi-al-gadid/",
++           "href": "https://travel2egypt.org/es/tours-destacados-en-al-wadi-al-gadid/",
             "newTab": false
           }
         ],
@@ -872,16 +922,16 @@
       },
       {
 -       "_key": "db06c8bd1465",
-+       "_key": "742336443a14",
++       "_key": "aeff714f7380",
         "_type": "block",
         "children": [
           {
 -           "_key": "db2358a8b51b",
-+           "_key": "578a25226324",
++           "_key": "f06db9a7a213",
             "_type": "span",
             "marks": [
 -             "84f93b60124d"
-+             "b6e77f615555"
++             "6342a759326b"
             ],
             "text": "Alimentación"
           }
@@ -889,9 +939,14 @@
         "markDefs": [
           {
 -           "_key": "84f93b60124d",
-+           "_key": "b6e77f615555",
++           "_key": "6342a759326b",
++           "_pendingInternalRef": {
++             "sourceLocale": "en",
++             "wpUrl": "https://travel2egypt.org/es/mejores-comidas-al-wadi-al-gadid/"
++           },
             "_type": "externalLink",
-            "href": "/es/mejores-comidas-al-wadi-al-gadid/",
+-           "href": "/es/mejores-comidas-al-wadi-al-gadid/",
++           "href": "https://travel2egypt.org/es/mejores-comidas-al-wadi-al-gadid/",
             "newTab": false
           }
         ],
@@ -899,7 +954,7 @@
       },
       {
 -       "_key": "5ad718de17d7",
-+       "_key": "27dd1f2d7723",
++       "_key": "cc1926f0e90c",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/3170179.700x525.jpg",
         "_type": "image",
         "alt": [
@@ -917,7 +972,7 @@
       },
       {
 -       "_key": "3eb12f240175",
-+       "_key": "5f230199e802",
++       "_key": "2c10651b1328",
         "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wadi.jpg",
         "_type": "image",
         "alt": [
