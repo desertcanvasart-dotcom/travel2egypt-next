@@ -46,6 +46,8 @@ export interface MigrationStats {
   missingAttachments: Array<{ wpId: number; src: string; referrerSlug: string; referrerLocale: string }>;
   /** Sanity write retries triggered by transient 5xx / ECONNRESET. */
   sanityRetries: number;
+  /** `<img src>` URLs remapped to a previously-resolved asset (same wpId, different src). */
+  duplicateSrcRemappings: number;
   redirects: { total: number; liveMatched: number; historicMatched: number; orphans: number };
   relink: { scanned: number; resolved: number; orphaned: number; patched: number };
   reconciliation: { citiesUpdated: number; placesToGoAdded: number };
@@ -66,6 +68,7 @@ export function emptyStats(argv: string[]): MigrationStats {
     media: { uploaded: 0, reused: 0, failed: 0 },
     missingAttachments: [],
     sanityRetries: 0,
+    duplicateSrcRemappings: 0,
     redirects: { total: 0, liveMatched: 0, historicMatched: 0, orphans: 0 },
     relink: { scanned: 0, resolved: 0, orphaned: 0, patched: 0 },
     reconciliation: { citiesUpdated: 0, placesToGoAdded: 0 },
@@ -189,6 +192,7 @@ export function writeSummary(stats: MigrationStats): void {
   push(`- Uploaded: ${stats.media.uploaded}`);
   push(`- Reused (idempotent): ${stats.media.reused}`);
   push(`- Failed: ${stats.media.failed}`);
+  push(`- Duplicate \`<img src>\` remappings (same wpId, different src): ${stats.duplicateSrcRemappings}`);
   push();
 
   push(`## Missing source attachments`);

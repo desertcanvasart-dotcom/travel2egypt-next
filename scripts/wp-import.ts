@@ -674,6 +674,9 @@ async function persistResult(
   if (result.discardedCarousels?.length) {
     for (const dc of result.discardedCarousels) stats.discardedCarousels.push(dc);
   }
+  if (result.duplicateSrcRemappings) {
+    stats.duplicateSrcRemappings += result.duplicateSrcRemappings;
+  }
   if (result.mediaUploaded) {
     if (cli.dryRun) stats.media.uploaded += result.mediaUploaded;
     else stats.media.uploaded += result.mediaUploaded;

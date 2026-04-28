@@ -57,6 +57,7 @@ export async function mapArticle(
   };
   const discardedCarousels: DiscardedCarousel[] = [];
   let mediaUploaded = 0;
+  let duplicateSrcRemappings = 0;
 
   // Resolve original WP author + categories from id→slug maps for migration meta.
   const wpAuthorSlug = opts.wpAuthorById?.get(group.en.author ?? -1);
@@ -81,10 +82,11 @@ export async function mapArticle(
     const refSlug = decodeURIComponent(e.slug);
     // Pre-upload all body attachments referenced via wp-image-{ID} class so
     // the HTML→PT pipeline can substitute Sanity asset refs for the WP src URLs.
-    const { resolver, uploaded: bodyUploads } = await prepareBodyImageResolver(client, wp, html, {
+    const { resolver, uploaded: bodyUploads, duplicateSrcRemappings: bodyDups } = await prepareBodyImageResolver(client, wp, html, {
       ...opts, referrerSlug: refSlug, referrerLocale: loc,
     });
     mediaUploaded += bodyUploads;
+    duplicateSrcRemappings += bodyDups;
     const pt = htmlToPortableText(html, { attachmentResolver: resolver, localeShape: 'string' });
     for (const k of Object.keys(htmlStats) as Array<keyof HtmlPipelineStats>) htmlStats[k] += pt.stats[k];
 
@@ -167,5 +169,5 @@ export async function mapArticle(
     opts.priorityScore ?? 0
   );
 
-  return { docs, redirects, htmlStats, mediaUploaded, discardedCarousels };
+  return { docs, redirects, htmlStats, mediaUploaded, discardedCarousels, duplicateSrcRemappings };
 }

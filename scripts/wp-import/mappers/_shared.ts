@@ -141,58 +141,76 @@ export async function prepareBodyImageResolver(
   wp: WpClient,
   html: string,
   opts: { dryRun?: boolean; referrerSlug?: string; referrerLocale?: string } = {}
-): Promise<{ resolver: (src: string) => string | null; uploaded: number }> {
-  if (!html) return { resolver: () => null, uploaded: 0 };
+): Promise<{ resolver: (src: string) => string | null; uploaded: number; duplicateSrcRemappings: number }> {
+  if (!html) return { resolver: () => null, uploaded: 0, duplicateSrcRemappings: 0 };
   const root = parse(html, { lowerCaseTagName: false });
   const map = new Map<string, string>(); // src URL → Sanity asset _id
-  const idsSeen = new Set<number>();
+  // The same WP attachment can render under multiple <img src> URLs in one
+  // body (http vs https, with/without size suffix, classic-editor vs
+  // block-editor). Track wpId → assetId so subsequent occurrences resolve to
+  // the same asset instead of being skipped as "already seen" (which would
+  // leave them as _pendingImage in the output).
+  const wpIdToAsset = new Map<number, string>();
   let uploaded = 0;
+  let duplicateSrcRemappings = 0;
 
   // Pass 1: class-based resolution (preferred — direct attachment ID).
   const classlessSrcs: string[] = [];
   for (const img of root.querySelectorAll('img')) {
     const src = img.getAttribute('src');
     if (!src) continue;
+    if (map.has(src)) continue;
     const cls = img.getAttribute('class') ?? '';
     const m = /wp-image-(\d+)/.exec(cls);
     if (!m) {
       // Only candidate for filename fallback if it's a /wp-content/uploads/ src.
-      if (/\/wp-content\/uploads\//.test(src) && !map.has(src)) classlessSrcs.push(src);
+      if (/\/wp-content\/uploads\//.test(src)) classlessSrcs.push(src);
       continue;
     }
     const wpId = Number(m[1]);
-    if (idsSeen.has(wpId)) continue;
-    idsSeen.add(wpId);
+    const existingAsset = wpIdToAsset.get(wpId);
+    if (existingAsset) {
+      // Same wpId, different src URL. Map this src to the same asset.
+      map.set(src, existingAsset);
+      duplicateSrcRemappings++;
+      continue;
+    }
     const result = await ensureAssetUploaded(client, wp, wpId, opts);
     if (result) {
       map.set(src, result.assetId);
+      wpIdToAsset.set(wpId, result.assetId);
       uploaded++;
     }
   }
 
   // Pass 2: filename-fallback for class-less <img>s pointing at WP uploads.
+  // (Forward-looking insurance — exercises mostly on Block-editor / pasted
+  // imagery in upcoming entity types, not on the post corpus where everything
+  // tends to carry wp-image-{ID}.)
   const seenSrc = new Set<string>();
   for (const src of classlessSrcs) {
     if (seenSrc.has(src) || map.has(src)) continue;
     seenSrc.add(src);
     const wpId = await resolveAttachmentByFilename(wp, src, opts);
     if (wpId === null) continue;
-    if (idsSeen.has(wpId)) {
-      // Already uploaded under a different src URL — link this src to the same asset.
-      const existing = await ensureAssetUploaded(client, wp, wpId, opts);
-      if (existing) map.set(src, existing.assetId);
+    const existingAsset = wpIdToAsset.get(wpId);
+    if (existingAsset) {
+      // Class-less src whose attachment was already uploaded under a class-
+      // bearing src elsewhere in the same body. Map to the same asset.
+      map.set(src, existingAsset);
+      duplicateSrcRemappings++;
       continue;
     }
-    idsSeen.add(wpId);
     const result = await ensureAssetUploaded(client, wp, wpId, opts);
     if (result) {
       map.set(src, result.assetId);
+      wpIdToAsset.set(wpId, result.assetId);
       uploaded++;
     }
   }
 
   const resolver = (src: string): string | null => map.get(src) ?? null;
-  return { resolver, uploaded };
+  return { resolver, uploaded, duplicateSrcRemappings };
 }
 
 /**

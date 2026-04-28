@@ -157,6 +157,8 @@ export interface MapperResult {
   mediaUploaded?: number;
   /** Per-locale discarded-carousel records (sample srcs preserved for editorial). */
   discardedCarousels?: DiscardedCarousel[];
+  /** Times a duplicate `<img src>` for the same `wp-image-{ID}` was remapped to the existing asset. */
+  duplicateSrcRemappings?: number;
 }
 
 /** Generic Sanity doc — typed loosely; mappers carry the burden of correctness. */
