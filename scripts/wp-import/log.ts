@@ -170,14 +170,14 @@ export function writeSummary(stats: MigrationStats): void {
     push(`_None._`);
   } else {
     push(
-      `Filename fallback resolved an \`<img>\` to multiple candidate WP attachments without an exact \`source_url\` match. Selection rule: most-recently-uploaded wins. Editorial spot-check recommended.`
+      `Filename fallback could not pick a candidate cleanly. Layer 0 (exact source_url) and layer 1 (exact path-tail) didn't produce a single match. Layer 2 (year/month directory) either disambiguated among multiple year/month candidates (\`year-month\`) or failed to find any (\`rejected\` — left as \`_pendingImage\`).`
     );
     push();
-    push(`| Article slug | Locale | base filename | candidate IDs | chosen | src URL |`);
-    push(`|---|---|---|---|---:|---|`);
+    push(`| Article slug | Locale | base filename | layer | chosen wpId | rejection reason | src URL |`);
+    push(`|---|---|---|---|---:|---|---|`);
     for (const m of stats.ambiguousMatches) {
-      const ids = m.candidateWpIds.join(', ');
-      push(`| ${m.referrerSlug} | ${m.referrerLocale} | ${m.baseFilename} | ${ids} | ${m.chosenWpId} | ${m.srcUrl} |`);
+      const chosen = m.chosenWpId === null ? '—' : String(m.chosenWpId);
+      push(`| ${m.referrerSlug} | ${m.referrerLocale} | ${m.baseFilename} | ${m.layer} | ${chosen} | ${m.rejectionReason} | ${m.srcUrl} |`);
     }
   }
   push();

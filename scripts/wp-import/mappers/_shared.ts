@@ -258,28 +258,106 @@ async function resolveAttachmentByFilename(
     return null;
   }
 
-  // Prefer exact source_url match (any size variant counted equal).
+  return chooseCandidate(src, base, results, opts);
+}
+
+/**
+ * Three-layer cascade for picking among candidate WP attachments returned by
+ * `?search=<base>`. WP search is full-text and returns broad token matches —
+ * `pyramids-of-giza` matches `great-pyramids-of-giza`, `10` matches every
+ * file with `10` anywhere — so a "most-recently-uploaded wins" tiebreaker
+ * silently picks unrelated files. The cascade trades coverage for accuracy:
+ *
+ *   Layer 0: exact source_url match (any direct hit wins).
+ *   Layer 1: exact path-tail match — `source_url` ends with `/<base>.<ext>`.
+ *            One match → use. Multiple matches → fall to layer 2 within them.
+ *   Layer 2: same year/month directory (`/YYYY/MM/`) preference.
+ *            One match → use. Multiple → most-recent among filtered.
+ *   Layer 3: no match — return null (image stays as `_pendingImage`),
+ *            record to MEDIA_SEARCH_AMBIGUOUS with full candidate list and
+ *            rejection reason. Editorial sees genuine ambiguities only.
+ */
+function chooseCandidate(
+  src: string,
+  base: string,
+  results: WpMediaSearchHit[],
+  opts: { referrerSlug?: string; referrerLocale?: string }
+): number | null {
+  // Layer 0: exact source_url match.
   const exact = results.find((r) => r.source_url === src);
-  let chosen: WpMediaSearchHit;
   if (exact) {
-    chosen = exact;
-  } else {
-    // Most-recently-uploaded wins.
-    chosen = results.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''))[0];
-    if (results.length > 1) {
+    FILENAME_RESOLUTION_CACHE.set(src, exact.id);
+    return exact.id;
+  }
+
+  const ext = deriveExtension(src);
+  const tail = ext ? `/${base}${ext}`.toLowerCase() : `/${base}.`.toLowerCase();
+  const yearMonth = deriveYearMonth(src);
+
+  // Layer 1: exact path-tail match.
+  const tailMatches = results.filter((r) =>
+    ext
+      ? r.source_url.toLowerCase().endsWith(tail)
+      : r.source_url.toLowerCase().includes(tail)
+  );
+
+  if (tailMatches.length === 1) {
+    FILENAME_RESOLUTION_CACHE.set(src, tailMatches[0].id);
+    return tailMatches[0].id;
+  }
+
+  // Layer 2: year/month preference. Pool depends on layer 1 outcome:
+  //   - If multiple exact-tail matches: filter within them (genuine collision).
+  //   - If zero exact-tail matches: try year/month across all candidates
+  //     (file may have been renamed mid-flight — same upload month is a
+  //     reasonable proxy).
+  const layer2Pool = tailMatches.length > 1 ? tailMatches : results;
+  if (yearMonth) {
+    const ym = layer2Pool.filter((r) => r.source_url.includes(yearMonth));
+    if (ym.length === 1) {
+      process.stderr.write(
+        `[media-search] LAYER2 src=${src} → wpId=${ym[0].id} (year/month=${yearMonth}, layer1=${tailMatches.length})\n`
+      );
+      FILENAME_RESOLUTION_CACHE.set(src, ym[0].id);
+      return ym[0].id;
+    }
+    if (ym.length > 1) {
+      const chosen = ym.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''))[0];
+      process.stderr.write(
+        `[media-search] LAYER2 src=${src} → wpId=${chosen.id} (year/month=${yearMonth}, most-recent of ${ym.length})\n`
+      );
       recordAmbiguousMatch({
         baseFilename: base,
         srcUrl: src,
         chosenWpId: chosen.id,
-        candidateWpIds: results.map((r) => r.id),
-        candidateSourceUrls: results.map((r) => r.source_url),
+        candidateWpIds: ym.map((r) => r.id),
+        candidateSourceUrls: ym.map((r) => r.source_url),
         referrerSlug: opts.referrerSlug ?? '<unknown>',
         referrerLocale: opts.referrerLocale ?? '<unknown>',
+        layer: 'year-month',
+        rejectionReason: `${ym.length} candidates within ${yearMonth} (${tailMatches.length > 1 ? 'after layer-1 tail filter' : 'no exact-tail match'})`,
       });
+      FILENAME_RESOLUTION_CACHE.set(src, chosen.id);
+      return chosen.id;
     }
   }
-  FILENAME_RESOLUTION_CACHE.set(src, chosen.id);
-  return chosen.id;
+
+  // Layer 3: no exact-tail single match, no single year/month match. Refuse
+  // to pick — leave as _pendingImage. Editorial sees this as a genuine
+  // ambiguity, not algorithmic noise.
+  recordAmbiguousMatch({
+    baseFilename: base,
+    srcUrl: src,
+    chosenWpId: null,
+    candidateWpIds: results.map((r) => r.id),
+    candidateSourceUrls: results.map((r) => r.source_url),
+    referrerSlug: opts.referrerSlug ?? '<unknown>',
+    referrerLocale: opts.referrerLocale ?? '<unknown>',
+    layer: 'rejected',
+    rejectionReason: `no exact-tail (${tailMatches.length} matches), year-month=${yearMonth ?? 'unknown'} matched 0 of ${results.length}`,
+  });
+  FILENAME_RESOLUTION_CACHE.set(src, null);
+  return null;
 }
 
 interface WpMediaSearchHit {
@@ -313,14 +391,42 @@ function deriveBaseFilename(src: string): string | null {
   }
 }
 
+/** Extract the file extension (with leading dot) from a WP upload URL. */
+function deriveExtension(src: string): string | null {
+  try {
+    const u = new URL(src);
+    const last = u.pathname.split('/').pop() ?? '';
+    const m = /\.([a-z0-9]{2,5})$/i.exec(last);
+    return m ? `.${m[1]}` : null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Extract the `/YYYY/MM/` segment from a WP upload URL like
+ * `…/wp-content/uploads/2024/03/foo.jpg`. Returns the segment with leading
+ * and trailing slash so it can be substring-matched against any candidate's
+ * `source_url` regardless of full path shape.
+ */
+function deriveYearMonth(src: string): string | null {
+  const m = /\/wp-content\/uploads\/(\d{4})\/(\d{2})\//.exec(src);
+  return m ? `/${m[1]}/${m[2]}/` : null;
+}
+
 export interface AmbiguousMediaMatch {
   baseFilename: string;
   srcUrl: string;
-  chosenWpId: number;
+  /** null when the cascade refused to pick (layer 3 rejection — left as _pendingImage). */
+  chosenWpId: number | null;
   candidateWpIds: number[];
   candidateSourceUrls: string[];
   referrerSlug: string;
   referrerLocale: string;
+  /** Which layer made the call. `year-month` = layer 2 disambiguator fired; `rejected` = layer 3 returned null. */
+  layer: 'year-month' | 'rejected';
+  /** Human-readable reason describing the layer-1/layer-2 filter outcomes. */
+  rejectionReason: string;
 }
 const AMBIGUOUS_MATCHES: AmbiguousMediaMatch[] = [];
 function recordAmbiguousMatch(m: AmbiguousMediaMatch): void {
