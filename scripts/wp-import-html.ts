@@ -17,7 +17,13 @@
  */
 
 import { parse, type HTMLElement, NodeType } from 'node-html-parser';
-import { randomBytes } from 'node:crypto';
+// `key()` is deterministic — sequential counter reset per htmlToPortableText
+// call. Sanity uses _key only as a within-array stable identifier, so per-call
+// uniqueness is sufficient. Determinism eliminates pipeline-induced drift in
+// migration/.diffs/ output (the post-write drift-assertion protocol catches
+// real diff/write divergences; without deterministic keys, every run produced
+// fresh random hex that the assertion couldn't distinguish from semantic
+// changes).
 
 // ---------- Public types -----------------------------------------------
 
@@ -94,6 +100,7 @@ export interface ConversionOptions {
 // ---------- Entry point ------------------------------------------------
 
 export function htmlToPortableText(html: string, opts: ConversionOptions = {}): ConversionResult {
+  resetKeyCounter();
   const stats = {
     operatorNotes: 0,
     pullQuotes: 0,
@@ -1122,8 +1129,14 @@ function isEmptyBlock(b: PtBlock): boolean {
   return children.every((c) => !c.text || c.text.trim() === '');
 }
 
+let __keyCounter = 0;
+function resetKeyCounter(): void {
+  __keyCounter = 0;
+}
 function key(): string {
-  return randomBytes(6).toString('hex');
+  // Hex-style stable identifier; matches the prior 12-hex-char shape so any
+  // downstream code parsing _key never sees an unexpected format.
+  return (__keyCounter++).toString(16).padStart(12, '0');
 }
 
 function decodeEntities(s: string): string {
@@ -1175,6 +1188,7 @@ export function mineKeyFacts(html: string): {
  * (in order) as Portable Text, or empty array if no signals found.
  */
 export function mineVisitorInfo(html: string, opts: ConversionOptions = {}): PtBlock[] {
+  resetKeyCounter();
   const root = parse(decodeEntities(html), { lowerCaseTagName: false });
   liftElementorWrappers(root);
 

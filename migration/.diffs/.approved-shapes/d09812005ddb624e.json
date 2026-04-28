@@ -26,12 +26,7 @@
     },
     {
       "field": "overview",
-      "outcome": "i18n-merged",
-      "localesTouched": [
-        "en",
-        "es",
-        "ja"
-      ]
+      "outcome": "unchanged"
     },
     {
       "field": "region",

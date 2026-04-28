@@ -247,9 +247,53 @@ export function deepEqual(a: unknown, b: unknown): boolean {
 }
 
 /** Canonicalize a doc for fingerprinting / diffing. Returns a string with
- * deterministic key ordering. Suitable for line-by-line diff. */
+ * deterministic key ordering AND with noise-key stripping (PT block/span
+ * `_key` values are random hex generated per pipeline run; they're stable
+ * identifiers for React rendering but content-irrelevant for diff). Locale
+ * `_key`s on i18n array entries (`'en'`, `'es'`, `'ja'`) are PRESERVED —
+ * those carry semantic meaning. */
 export function canonicalize(doc: SanityDoc | unknown): string {
-  return JSON.stringify(sortKeys(doc), null, 2);
+  return JSON.stringify(sortKeys(stripNoiseKeys(doc)), null, 2);
+}
+
+/** Locale-code _key values that are part of the schema's i18n contract.
+ * These must NOT be stripped by canonicalize. Any other _key (random hex
+ * from PT block/span generation) is noise for diff/fingerprint purposes. */
+const LOCALE_KEYS = new Set(['en', 'es', 'ja', 'x-default']);
+
+/** Run-volatile fields. These differ on every mapper run by design and are
+ * not semantic-content drift. The drift-assertion protocol catches real
+ * diff/write divergences; these fields would be false positives.
+ *
+ * - `migratedAt`: timestamp of the mapper run (always changes per run).
+ *
+ * If you find yourself adding to this list, ask whether the field is
+ * actually semantic content or pipeline metadata. Semantic content stays
+ * in the canonical form. Pipeline metadata is excluded. */
+const RUN_VOLATILE_KEYS = new Set(['migratedAt']);
+
+/** Strip noise from canonical output:
+ *   - Random `_key` strings (PT block/span/markDef IDs) — replaced with
+ *     deterministic counter values upstream, but defensively stripped here
+ *     in case any survive.
+ *   - Locale `_key`s on i18n array entries are PRESERVED (en/es/ja carry
+ *     semantic meaning).
+ *   - Run-volatile fields (`migratedAt`) — stripped because they always
+ *     differ across mapper runs, polluting the drift assertion.
+ */
+function stripNoiseKeys(v: unknown): unknown {
+  if (Array.isArray(v)) return v.map(stripNoiseKeys);
+  if (v && typeof v === 'object') {
+    const obj = v as Record<string, unknown>;
+    const out: Record<string, unknown> = {};
+    for (const k of Object.keys(obj)) {
+      if (k === '_key' && typeof obj[k] === 'string' && !LOCALE_KEYS.has(obj[k] as string)) continue;
+      if (RUN_VOLATILE_KEYS.has(k)) continue;
+      out[k] = stripNoiseKeys(obj[k]);
+    }
+    return out;
+  }
+  return v;
 }
 
 /**

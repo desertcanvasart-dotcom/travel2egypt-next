@@ -1,7 +1,7 @@
 # Migration summary
 
-- **Started:** 2026-04-28T22:42:52.811Z
-- **Finished:** 2026-04-28T22:43:03.066Z
+- **Started:** 2026-04-28T23:24:55.200Z
+- **Finished:** 2026-04-28T23:25:05.139Z
 - **Argv:** `--type page --filter-by-template destination-hub --slug-include cairo-travel-guide,wadi-al-natron-travel-guide,al-wadi-al-gadid-travel-guide,akhmim-travel-guide`
 - **Errors:** 0
 

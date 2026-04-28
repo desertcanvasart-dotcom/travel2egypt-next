@@ -13,6 +13,10 @@
       "outcome": "preserved-no-wp"
     },
     {
+      "field": "heroImage",
+      "outcome": "unchanged"
+    },
+    {
       "field": "migration",
       "outcome": "overwritten"
     },
@@ -21,17 +25,8 @@
       "outcome": "unchanged"
     },
     {
-      "field": "orderRank",
-      "outcome": "preserved-editorial-only"
-    },
-    {
       "field": "overview",
-      "outcome": "i18n-merged",
-      "localesTouched": [
-        "en",
-        "es",
-        "ja"
-      ]
+      "outcome": "unchanged"
     },
     {
       "field": "slug",
@@ -48,13 +43,13 @@
     "_rev": "string",
     "_type": "string",
     "_updatedAt": "string",
+    "heroImage": "object",
     "migration": "object",
     "name": "array",
-    "orderRank": "number",
     "overview": "array",
     "slug": "array",
     "summary": "array"
   },
   "createMode": false,
-  "description": "UPDATE with editorial orderRank preservation (Cairo post-Step-5b: orderRank=1, no hero)"
+  "description": "UPDATE no-editorial-fields, with hero (Wadi-al-Natron post-Step-5b)"
 }
