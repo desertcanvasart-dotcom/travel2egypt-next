@@ -46,126 +46,14 @@ if this pattern recurs.
 
 ## Branch state
 
-Branch `claude/awesome-shannon-3194f1` is **alive, not merged**. It contains three
-valid patches that should ship together with the fixes below:
-
-1. **Sanity write retry** — 3-attempt exponential backoff (1s/4s/16s) on transient
-   5xx + ECONNRESET. Mirrors the Wordfence pattern on the read side.
-2. **Missing-attachment triage list** — registry of source-URL 404s with referencing
-   article slug + locale, surfaced under "Missing source attachments" in
-   `migration/migration-summary.md`.
-3. **Strip rules** — three Elementor widget strippers (tour-promo CTA, category-grid,
-   duplicate-paragraph backlink) plus per-rule counters in summary + per-article
-   JSONL events.
-
-Decision standing for the next session: bundle these three with the critical fixes
-below in a single merge to main, rather than partial-merging now.
-
----
-
-## Critical (blocks merge)
-
-### 3B — alt / caption i18n shape mismatch
-
-**Symptom:** Studio shows "Expected type String got Array" on every article body image.
-
-**Root cause:** Article uses **document-level i18n** (one Sanity doc per locale,
-linked via `translation.metadata`). Each locale doc should hold plain strings for its
-locale's `alt` / `caption`. The HTML→PT pipeline always emits **field-level i18n
-arrays** instead.
-
-- Pipeline writes i18n arrays at:
-  - `scripts/wp-import-html.ts:336` (sideImage from `<figure>` with alignment)
-  - `scripts/wp-import-html.ts:350` (image from `<figure>`)
-  - `scripts/wp-import-html.ts:371` (sideImage from bare `<img style="float">`)
-  - `scripts/wp-import-html.ts:383` (image from bare `<img>`)
-- Schema declares strings:
-  - `src/sanity/schemas/article.ts:117-123` (body image `alt: string`, `caption: string`)
-
-**Fix shapes considered:**
-- (a) Pass a `localeShape: 'string' | 'i18n'` flag through `ConversionOptions`,
-  default `'i18n'`, override to `'string'` from `mapArticle`.
-- (b) Post-process blocks in `mapArticle` to flatten arrays to strings using the
-  current locale.
-
-(a) is cleaner; (b) keeps the pipeline pure but adds a transform pass.
-
-### 3C — required author + category references not written
-
-**Symptom:** Studio shows red required-validation errors on every imported article.
-
-**Root cause:** `src/sanity/schemas/article.ts` declares both fields with
-`Rule.required()`:
-
-- Line 71-77: `category` → reference to `editorialCategory`, required
-- Line 78-85: `author` → reference to `author`, required
-
-Importer (`scripts/wp-import/mappers/article.ts`) writes neither.
-
-**Fix shapes considered:**
-- Importer writes a default author + category reference (probably "Travel2Egypt
-  staff" / a "Migrated" or per-WP-category mapping). Needs editorial input on the
-  default(s).
-- Or: relax the schema validation (`Rule.required()` → optional) and let editorial
-  fill in over time.
-
-Both options need editorial sign-off. Safe default for now: define a single
-"Migration import" author seed doc + a "Travel & Culture" category seed doc, write
-those refs to every imported article, let editorial reassign in Studio.
-
-### 5 — 156 body images have no asset reference
-
-**Symptom:** ~30% of body images on affected articles render as broken-image
-placeholders in Studio. Counts pulled from `migration-staging` GROQ scan.
-
-**Hot articles** (sample):
-
-| Slug | `_pendingImage` only | with asset | % missing |
-|---|---:|---:|---:|
-| places-in-egypt | 8 | 14 | 36% |
-| sacred-places-in-egypt-temples-mosques-and-religious-sites… | 6 | 9 | 40% |
-| must-visit-museums-in-egypt | 1 | 6 | 14% |
-| travel-agency-in-egypt | 1 | 1 | 50% |
-
-**Root cause:** Body image resolver only handles `<img>` tags carrying a
-`wp-image-{ID}` class:
-
-- `scripts/wp-import/mappers/_shared.ts:147-156`
-
-```ts
-const m = /wp-image-(\d+)/.exec(cls);
-if (!m) continue;
-```
-
-Any `<img>` without that class (Block-editor inserts, pasted/cross-domain images,
-some Elementor inner-content images) is emitted with `_pendingImage: <src>` and no
-upload.
-
-Of the 156 missing-asset blocks, 56 are documented 404 misses (in
-`migration/migration-summary.md` "Missing source attachments"). The remaining ~100
-are class-less `<img>` tags that need a URL→attachment fallback.
-
-**Fix shape:** extend resolver with a fallback: when `wp-image-{ID}` is absent, hit
-`/wp-json/wp/v2/media?search=<filename-without-extension>` to resolve the
-attachment ID by source filename. Cacheable; adds at most one extra REST call per
-class-less `<img>` per run.
+Branch `claude/awesome-shannon-3194f1` was merged to `main` at the close of
+session 4. The five-commit diagnosis trail (original bundle + four follow-ups
+on issue 5) is preserved in git history. See "Resolved in session 4" at the
+bottom for the verification numbers.
 
 ---
 
 ## Real but not blocking
-
-### 3A — excerpt vs deck field name mismatch
-
-**Symptom:** Studio "field not in schema" warning on every article.
-
-**Cause:** Importer writes `excerpt` field, schema declares `deck` (Standfirst).
-
-- Importer: `scripts/wp-import/mappers/article.ts:74`
-- Schema: `src/sanity/schemas/article.ts:62-69` (declares `deck` as `text`, rows: 3)
-
-**Fix:** rename `excerpt` → `deck` in importer (one-line change). Sanity will store
-the data correctly under the right name; the orphaned `excerpt` data already in
-staging will be overwritten on the next re-run.
 
 ### 2 — wrong-language bodies (10 articles)
 
@@ -409,3 +297,119 @@ them to resolve. The production `scripts/seed.ts` remains canonical.
 | 7 | sub-paragraph dedupe | deferred | Prefix dedup cheap, internal needs samples |
 | — | curse-of-king-tut truncation | deferred | Investigate after critical fixes |
 | — | karnak-temple `\n` escapes | deferred | Elementor heading-widget gap |
+
+---
+
+## Resolved in session 4
+
+Diagnostic record preserved here so future sessions can trace the cause and
+the verification numbers behind each resolution. Five-commit trail on
+`claude/awesome-shannon-3194f1` (merged to `main`):
+
+```
+ed89dfa  Session 4 critical fixes: article schema-aligned, image resolver hardened, carousels stripped
+83889d8  Issue 5 follow-up: same-wpId-different-src body image mapping
+c64e0b6  Issue 5 follow-up 2: fix /wp-json/ prefix on filename-fallback path
+d77baa6  Issue 5 follow-up 3: three-layer cascade for filename-fallback candidate picker
+<this>   Mark session 4 critical fixes resolved
+```
+
+### 3A — excerpt → deck rename ✅
+
+**Was:** importer wrote `excerpt`, schema declared `deck`. Studio "field
+not in schema" warning on every article.
+
+**Resolution:** field renamed in `scripts/wp-import/mappers/article.ts`.
+
+**Verification (run #4 GROQ):**
+- `articles with deck: 167` (where WP excerpt was non-empty)
+- `articles with excerpt: 0`
+
+### 3B — alt / caption shape mismatch ✅
+
+**Was:** HTML→PT pipeline always emitted internationalized arrays for
+`alt`/`caption`, but article uses document-level i18n where each locale doc
+holds plain strings. Studio "Expected type String got Array" on every
+article body image.
+
+**Resolution:** `localeShape: 'string' | 'i18n'` parameter added to
+`ConversionOptions` in `scripts/wp-import-html.ts`. Default `'i18n'` keeps
+field-level-i18n mappers unchanged. `mapArticle` overrides to `'string'`.
+
+**Verification:** sample article body image renders
+`alt: "Outdoor dining area overlooking the Nile River…"` as plain string,
+not array.
+
+### 3C — required author + category references ✅
+
+**Was:** schema declared both with `Rule.required()`; importer wrote
+neither. Red required-validation errors on every imported article.
+
+**Resolution:**
+- Seed doc `author.legacy-archive` ("Travel2Egypt Archive") written
+  idempotently to `migration-staging` via `createIfNotExists` at importer
+  startup. Every imported article references it. Migration-staging-only
+  artifact; not promoted to production (see "Migration-staging-only
+  artifacts" above).
+- Two-bucket category heuristic on `mapArticle`: WP cats intersecting
+  `{tips-tricks, egypt-travel-guide, safety}` → `category-planning`, else
+  `category-destination`.
+- Original WP author/category provenance preserved on `migration` object
+  (`wpAuthorId`, `wpAuthorSlug`, `wpCategorySlugs`) for editorial
+  reassignment.
+
+**Verification (run #4 GROQ):**
+- `articles with author ref: 495 / 495`
+- `articles with category ref: 495 / 495`
+- Split: `category-destination: 354`, `category-planning: 141`
+
+### 5 — body images without asset reference ✅
+
+**Was:** 156 unresolved `_pendingImage` blocks across 81 articles. Resolver
+only handled `<img>` carrying `wp-image-{ID}` class; class-less Elementor
+`image.default` widget renderings were silently emitted as pending.
+
+**Resolution (four-commit diagnosis trail):**
+- **Original bundle:** filename-fallback resolver — when `wp-image-{ID}`
+  absent, `/wp-json/wp/v2/media?search=<base>` to find by filename. Plus
+  carousel + bdt-img strip rules (zero firings on posts; insurance for
+  next session's hotel/cruise/tour entity types) and `MEDIA_SEARCH_AMBIGUOUS`
+  registry.
+- **Follow-up 1:** wpId → assetId map so subsequent `<img src>` URLs sharing
+  the same WP attachment ID (different size suffix, http/https variants)
+  resolve to the same asset instead of being skipped.
+- **Follow-up 2:** `/wp/v2/media` → `/wp-json/wp/v2/media` URL prefix fix.
+  The original filename-fallback never executed for two re-runs because
+  every search 404'd; the silent `try/catch` swallowed the error. See
+  "Methodology lessons: loud failures" above.
+- **Follow-up 3:** three-layer cascade replacing naive most-recent
+  tiebreaker. Layer 0 exact source_url; layer 1 exact path-tail
+  (`/<base>.<ext>`); layer 2 same `/YYYY/MM/` directory; layer 3 refusal
+  with full ambiguity record. WP `?search=` is full-text, so the naive
+  rule was silently picking unrelated files (`pyramids-of-giza` matching
+  `great-pyramids-of-giza`, `10` matching everything).
+
+**Verification (run #4 GROQ):**
+- `total resolved image blocks: 2603` (was 2515 pre-fix → +88 newly
+  resolved)
+- `total unresolved image blocks: 68` across 48 articles
+  - 60 are no-candidate misses (equivalent to MISSING_ATTACHMENTS class —
+    source attachment deleted or never had searchable metadata)
+  - 8 are recorded in `MEDIA_SEARCH_AMBIGUOUS` table in
+    `migration/migration-summary.md`:
+    - 6 `rejected` (layer 3 refusal — left as `_pendingImage`):
+      `Nour`, `10`, `aswan`, `nile-cruise`, `1-4`, `Untitled-design`-class
+    - 2 `year-month` tiebreakers worth editorial spot-check:
+      `Kom-Ombo-temple` (2 candidates in `/2024/01/`) and `3-25.png`
+      (2 candidates in `/2024/03/`)
+- Layer 2 (year/month) fired 11 times in run #4 — earned its keep.
+  If future sessions show layer 2 hitting zero, simplify; if frequent,
+  it's the right call.
+- 0 `[media-search] FAIL` stderr entries — the loud-failure logger stays
+  silent.
+
+**The 60 no-candidate cases** are the genuine long tail: source
+attachments that were deleted, renamed beyond filename-search reach, or
+never had retrievable metadata. They surface to editorial as
+`_pendingImage` blocks in Studio with the original src URL preserved;
+editorial can re-source manually if any are high-value.
