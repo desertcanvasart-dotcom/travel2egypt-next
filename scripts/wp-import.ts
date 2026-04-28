@@ -83,6 +83,8 @@ function parseCli(argv: string[]): CliOptions {
       case '--type': opts.type = next() as CliOptions['type']; break;
       case '--filter-by-template': opts.filterByTemplate = next() as PageType; break;
       case '--slug-pattern': opts.slugPattern = next(); break;
+      case '--dry-run-diff-only': opts.dryRunDiffOnly = true; break;
+      case '--adversarial': opts.adversarial = true; break;
       case '--since': opts.since = next(); break;
       case '--language': opts.language = next() as CliOptions['language']; break;
       case '--continue-on-error': opts.continueOnError = true; break;
@@ -117,6 +119,12 @@ Flags:
                               Single \`*\` wildcard at start, end, or both. Examples:
                               \`*-travel-guide\` (suffix), \`reaching-*\` (prefix),
                               \`*-egypt-*\` (contains), \`exact-slug\` (exact).
+  --dry-run-diff-only         Run city safety-net diff infrastructure with NO
+                              Sanity writes. Emits per-locale diffs + references
+                              report + fingerprint summary to migration/.diffs/.
+                              Required for city UPDATE work (session 5+).
+  --adversarial               With --dry-run-diff-only: pick 5-sample adversarially
+                              (cairo + oldest/newest/longest/shortest body).
   --since YYYY-MM-DD          Only entities modified on/after this date.
   --language en|es|ja|all     Locale filter (default: all).
   --continue-on-error         Log errors and continue.
@@ -169,6 +177,24 @@ function shouldSkip(slug: string, classification: { type: PageType }, opts: CliO
 
 async function main(): Promise<void> {
   const cli = parseCli(process.argv.slice(2));
+
+  // --dry-run-diff-only delegates to the city safety-net entry. No Sanity writes.
+  if (cli.dryRunDiffOnly) {
+    if (cli.filterByTemplate !== 'destination-hub') {
+      process.stderr.write(`[wp-import] --dry-run-diff-only currently supports --filter-by-template destination-hub only (got "${cli.filterByTemplate ?? 'none'}")\n`);
+      process.exit(2);
+    }
+    const { runDiff } = await import('./wp-import-diff.js');
+    await runDiff({
+      filterByTemplate: cli.filterByTemplate,
+      slugPattern: cli.slugPattern,
+      limit: cli.limit,
+      adversarial: cli.adversarial ?? false,
+      rate: cli.rate,
+    });
+    return;
+  }
+
   const env = loadEnv();
   const stats = emptyStats(process.argv.slice(2));
 
@@ -506,7 +532,7 @@ async function routeToMapper(
 
 // ---------- Locale-group assembly --------------------------------------
 
-async function assembleLocaleGroup(
+export async function assembleLocaleGroup(
   wp: WpClient,
   rest: 'posts' | 'pages',
   enLite: WpEntityLite,
@@ -825,10 +851,15 @@ async function runRelinkOnly(
   stats.relink = summary;
 }
 
-main().catch((e) => {
-  process.stderr.write(`\n[wp-import] uncaught: ${(e as Error).stack}\n`);
-  process.exit(1);
-});
+// Only run main() when this file is the entrypoint, not when imported by
+// another script (e.g. scripts/wp-import-diff.ts re-uses helpers from here).
+const __thisFile = fileURLToPath(import.meta.url);
+if (process.argv[1] === __thisFile) {
+  main().catch((e) => {
+    process.stderr.write(`\n[wp-import] uncaught: ${(e as Error).stack}\n`);
+    process.exit(1);
+  });
+}
 
 // Reference to satisfy lint: ROOT is used for path-based imports inside subscripts.
 void ROOT;

@@ -10,7 +10,9 @@
     "typecheck": "tsc --noEmit",
     "seed": "tsx scripts/seed.ts",
     "wp-audit": "tsx scripts/wp-audit.ts",
-    "wp-import": "tsx scripts/wp-import.ts"
+    "wp-import": "tsx scripts/wp-import.ts",
+    "wp-import-diff": "tsx scripts/wp-import-diff.ts",
+    "test:merge": "tsx scripts/wp-import/__tests__/merge.test.ts"
   },
   "dependencies": {
     "@portabletext/react": "^3.2.1",

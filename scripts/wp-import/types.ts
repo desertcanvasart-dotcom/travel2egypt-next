@@ -195,6 +195,13 @@ export interface CliOptions {
    *  to subset destination-hubs to `*-travel-guide` only, sidestepping the
    *  classifier's `*-egypt` overshoot without mutating classifier logic. */
   slugPattern?: string;
+  /** Run the city safety-net diff infrastructure (no Sanity writes). Delegates
+   *  to scripts/wp-import-diff.ts. Required for the city UPDATE step per
+   *  DOC 3 session 5 spec. */
+  dryRunDiffOnly?: boolean;
+  /** Adversarial sample selection for the diff-only run (cairo + oldest/newest/
+   *  longest/shortest). Mirrors --adversarial on wp-import-diff. */
+  adversarial?: boolean;
   since?: string;
   language: 'en' | 'es' | 'ja' | 'all';
   continueOnError: boolean;

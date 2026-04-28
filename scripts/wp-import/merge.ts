@@ -1,0 +1,264 @@
+/**
+ * Q3 unified merge rule: WP overwrites where WP has a value; everything else
+ * stays as-is. Pure function; testable; no Sanity / WP IO.
+ *
+ * The merge applies to a single Sanity doc (e.g. one `city` document with
+ * field-level i18n arrays). The four sub-decisions from Q3 (Islam,
+ * 2026-04-28):
+ *
+ *   1. Field WP has → overwrite Sanity with WP value
+ *   2. Field WP doesn't have → leave Sanity untouched
+ *   3. Field not in WP schema (editorial-only) → always leave untouched
+ *   4. Locale slot WP doesn't have → leave that slot untouched (do NOT blank)
+ *
+ * Sub-decision 5 (seed cities not in WP) is handled at the orchestrator
+ * level, not here. If the orchestrator never calls merge for that city, its
+ * Sanity state remains as-is.
+ *
+ * Sub-decision Q3.1 (placesToGo out of scope) is enforced by listing the
+ * field in EDITORIAL_ONLY_FIELDS — even if a WP source contained
+ * placesToGo-shaped data, this merge would not propagate it.
+ *
+ * Field categorization rules:
+ *   - `editorialOnly`: field is never sourced from WP. Always preserved.
+ *   - `migrationSourced`: field is sourced from WP. Q3 rules 1/2 apply.
+ *   - i18n arrays: per-locale slot rule (Q3 rule 4) applies element-wise.
+ *
+ * This module is intentionally narrow: it knows the city merge contract,
+ * not the city schema. Fixtures in __tests__/merge.test.ts cover the five
+ * cases in DOC 3 step 2.
+ */
+
+/** Generic Sanity doc shape — typed loosely so the merge contract is enforced
+ * by tests rather than the type system. The merge function does not mutate
+ * either input. */
+export type SanityDoc = Record<string, unknown> & { _id?: string; _type?: string };
+
+/** Field-level i18n array entry shape: `[{ _key: 'en', value: ... }, ...]`. */
+export interface I18nEntry {
+  _key: string;
+  value: unknown;
+  _type?: string;
+}
+
+/** Editorial-only fields on `city` that the city mapper never writes.
+ *
+ * `placesToGo` is out of scope for session 5 per Q3.1; including it here as
+ * editorial-only ensures any future stray attempt to set it from the mapper
+ * still falls back to "preserve Sanity" instead of overwriting.
+ *
+ * `coordinates`, `region`, `orderRank` are seed-only fields.
+ *
+ * Schema reference: `src/sanity/schemas/city.ts`. */
+export const CITY_EDITORIAL_ONLY_FIELDS: readonly string[] = [
+  'placesToGo',
+  'coordinates',
+  'region',
+  'orderRank',
+  'gallery',
+] as const;
+
+/** Internal shape for a single field's merge outcome — surfaced to the
+ * orchestrator for fingerprint generation and for the diff summary table. */
+export interface PerFieldChange {
+  field: string;
+  /**
+   *  - `created`: field was absent in Sanity, WP supplied. (CREATE-first run.)
+   *  - `overwritten`: field present in both, WP value used.
+   *  - `preserved-no-wp`: field present in Sanity, WP didn't supply.
+   *  - `preserved-editorial-only`: field is in CITY_EDITORIAL_ONLY_FIELDS.
+   *  - `i18n-merged`: i18n array; some locale slots overwritten, others preserved.
+   *    `localesTouched` enumerates which slots WP supplied.
+   *  - `unchanged`: identical value on both sides.
+   */
+  outcome:
+    | 'created'
+    | 'overwritten'
+    | 'preserved-no-wp'
+    | 'preserved-editorial-only'
+    | 'i18n-merged'
+    | 'unchanged';
+  localesTouched?: string[];
+}
+
+/** Type guard for an i18n entry array. */
+function isI18nArray(v: unknown): v is I18nEntry[] {
+  return (
+    Array.isArray(v) &&
+    v.length > 0 &&
+    v.every((e) => typeof e === 'object' && e !== null && '_key' in e && typeof (e as I18nEntry)._key === 'string')
+  );
+}
+
+/** Merge a WP-derived doc onto an existing Sanity doc per Q3 rules.
+ *
+ * @param existing - current Sanity state. `null` for CREATE-first scenarios.
+ * @param wp - WP-derived candidate doc (the output of the city mapper).
+ * @param editorialOnlyFields - field names the merge will never overwrite.
+ * @returns merged doc (the actual write payload) + per-field outcome list.
+ *
+ * Behaviour:
+ * - `_id`, `_type` always taken from `wp` (matching the mapper's deterministic IDs).
+ * - For each field in `wp`:
+ *     - If listed in `editorialOnlyFields` → ignored (preserved-editorial-only).
+ *     - If `existing[field]` is undefined → field is set from `wp[field]` (created).
+ *     - If both are i18n arrays → element-wise merge by `_key` (i18n-merged or unchanged).
+ *     - Otherwise → `wp[field]` wins (overwritten or unchanged).
+ * - For each field in `existing` not present in `wp` → preserved-no-wp.
+ * - For each field in `existing` listed as editorial-only → preserved-editorial-only,
+ *   even if `wp` also supplied it (defensive).
+ */
+export function mergeCityDoc(
+  existing: SanityDoc | null,
+  wp: SanityDoc,
+  editorialOnlyFields: readonly string[] = CITY_EDITORIAL_ONLY_FIELDS,
+): { merged: SanityDoc; perFieldChanges: PerFieldChange[] } {
+  const editorialSet = new Set(editorialOnlyFields);
+  const merged: SanityDoc = {};
+  const changes: PerFieldChange[] = [];
+
+  // Always start from existing (preserve everything we don't explicitly overwrite).
+  if (existing) {
+    for (const k of Object.keys(existing)) merged[k] = existing[k];
+  }
+
+  // _id and _type come from WP / mapper output — same value as existing in steady state,
+  // but on first CREATE they're the only source.
+  if (wp._id !== undefined) merged._id = wp._id;
+  if (wp._type !== undefined) merged._type = wp._type;
+
+  // Walk WP fields applying Q3 rules.
+  const wpKeys = Object.keys(wp).filter((k) => k !== '_id' && k !== '_type');
+  const handledKeys = new Set<string>();
+  for (const field of wpKeys) {
+    handledKeys.add(field);
+    if (editorialSet.has(field)) {
+      // Defensive: WP output should not contain editorial-only fields, but if it
+      // does, we ignore the WP value and keep whatever existing has.
+      changes.push({ field, outcome: 'preserved-editorial-only' });
+      continue;
+    }
+    const wpVal = wp[field];
+    const existingVal = existing?.[field];
+
+    if (existingVal === undefined) {
+      merged[field] = wpVal;
+      changes.push({ field, outcome: 'created' });
+      continue;
+    }
+
+    if (isI18nArray(wpVal) && isI18nArray(existingVal)) {
+      const { merged: mergedI18n, localesTouched, anyChange } = mergeI18nArray(existingVal, wpVal);
+      merged[field] = mergedI18n;
+      if (localesTouched.length === 0) {
+        changes.push({ field, outcome: 'unchanged' });
+      } else if (anyChange) {
+        changes.push({ field, outcome: 'i18n-merged', localesTouched });
+      } else {
+        changes.push({ field, outcome: 'unchanged' });
+      }
+      continue;
+    }
+
+    if (deepEqual(wpVal, existingVal)) {
+      merged[field] = existingVal;
+      changes.push({ field, outcome: 'unchanged' });
+    } else {
+      merged[field] = wpVal;
+      changes.push({ field, outcome: 'overwritten' });
+    }
+  }
+
+  // Surface fields present in existing but not in wp (preserved-no-wp).
+  if (existing) {
+    for (const field of Object.keys(existing)) {
+      if (field === '_id' || field === '_type') continue;
+      if (handledKeys.has(field)) continue;
+      if (editorialSet.has(field)) {
+        changes.push({ field, outcome: 'preserved-editorial-only' });
+      } else {
+        changes.push({ field, outcome: 'preserved-no-wp' });
+      }
+    }
+  }
+
+  return { merged, perFieldChanges: changes.sort((a, b) => a.field.localeCompare(b.field)) };
+}
+
+/** Element-wise merge of two i18n arrays by `_key`.
+ *
+ * For every entry in `wp`: overwrite the matching `_key` in `existing`.
+ * For every entry in `existing` whose `_key` is NOT in `wp`: preserve it.
+ *
+ * `localesTouched` enumerates which `_key`s came from WP (overwrote or
+ * created). `anyChange` is true if any locale slot's value differs from
+ * what existing held. */
+function mergeI18nArray(
+  existing: I18nEntry[],
+  wp: I18nEntry[],
+): { merged: I18nEntry[]; localesTouched: string[]; anyChange: boolean } {
+  const wpByKey = new Map<string, I18nEntry>();
+  for (const e of wp) wpByKey.set(e._key, e);
+  const existingByKey = new Map<string, I18nEntry>();
+  for (const e of existing) existingByKey.set(e._key, e);
+
+  const localesTouched: string[] = [];
+  let anyChange = false;
+  const out: I18nEntry[] = [];
+  // Ensure deterministic order: union of keys, sorted alphabetically.
+  const allKeys = new Set<string>([...existingByKey.keys(), ...wpByKey.keys()]);
+  for (const key of [...allKeys].sort()) {
+    const wpE = wpByKey.get(key);
+    const existE = existingByKey.get(key);
+    if (wpE !== undefined) {
+      out.push(wpE);
+      localesTouched.push(key);
+      if (!existE || !deepEqual(existE.value, wpE.value)) anyChange = true;
+    } else if (existE !== undefined) {
+      out.push(existE);
+    }
+  }
+  return { merged: out, localesTouched, anyChange };
+}
+
+/** Structural equality. Sufficient for our payloads (JSON-shaped). */
+export function deepEqual(a: unknown, b: unknown): boolean {
+  if (a === b) return true;
+  if (typeof a !== typeof b) return false;
+  if (a === null || b === null) return a === b;
+  if (Array.isArray(a) && Array.isArray(b)) {
+    if (a.length !== b.length) return false;
+    for (let i = 0; i < a.length; i++) if (!deepEqual(a[i], b[i])) return false;
+    return true;
+  }
+  if (typeof a === 'object' && typeof b === 'object') {
+    const ao = a as Record<string, unknown>;
+    const bo = b as Record<string, unknown>;
+    const ak = Object.keys(ao).sort();
+    const bk = Object.keys(bo).sort();
+    if (ak.length !== bk.length) return false;
+    for (let i = 0; i < ak.length; i++) {
+      if (ak[i] !== bk[i]) return false;
+      if (!deepEqual(ao[ak[i]], bo[bk[i]])) return false;
+    }
+    return true;
+  }
+  return false;
+}
+
+/** Canonicalize a doc for fingerprinting / diffing. Returns a string with
+ * deterministic key ordering. Suitable for line-by-line diff. */
+export function canonicalize(doc: SanityDoc | unknown): string {
+  return JSON.stringify(sortKeys(doc), null, 2);
+}
+
+function sortKeys(v: unknown): unknown {
+  if (Array.isArray(v)) return v.map(sortKeys);
+  if (v && typeof v === 'object') {
+    const obj = v as Record<string, unknown>;
+    const out: Record<string, unknown> = {};
+    for (const k of Object.keys(obj).sort()) out[k] = sortKeys(obj[k]);
+    return out;
+  }
+  return v;
+}
