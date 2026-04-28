@@ -3,20 +3,28 @@
 Source: session 5 pre-flight (2026-04-28). Classifier `*-egypt` rule at
 `scripts/wp-classifier.ts:408` overshoots, classifying tour packages and topic
 articles as destination-hub. These 27 *-egypt pages are deferred from session 5's
-city import, plus 1 from the 42 *-travel-guide bucket (`egypt-travel-guide` —
-generic country-level, not a destination). Total deferred: 28.
+city import.
 
 Each page is classified manually below as a structured input for the session that
 owns the actual target type. "unclear" entries need Islam triage at the start of
 their owner session.
+
+`egypt-travel-guide` (id 56654) — surfaced separately during the *-travel-guide
+spot-check — is not in this list. Decision recorded in
+`migration/known-issues.md` "Cutover decisions made" Q5: WP archive/index page,
+not migrated to any Sanity doc; redirect at cutover.
 
 ## Counts by target type
 
 | Target type | Count | Owner session |
 |---|---:|---|
 | `tour` | 5 | session 8 (tour-or-package) |
-| `guideArticle` | 21 | session 6 (destination-subpage) |
+| `guideArticle` | 20 | session 6 (destination-subpage) |
 | `unclear` | 2 | needs Islam decision before owner-session work |
+
+Total: 27 pages (the *-egypt suffix bucket from session 5 pre-flight). The
+28th page (`egypt-travel-guide`) was relocated to "Cutover decisions made"
+Q5 in `migration/known-issues.md` — redirected at cutover, not migrated.
 
 ## Per-page classification
 
@@ -27,7 +35,6 @@ their owner session.
 | 60895 | `bargaining-in-egypt` | Bargaining in Egypt | 7351 | `guideArticle` | topic signals: slug-*-in-egypt |
 | 73307 | `culinary-journey-in-egypt` | Culinary Journey in egypt | 12592 | `guideArticle` | topic signals: slug-*-in-egypt, slug-cultural/culinary |
 | 73387 | `cultural-etiquette-in-egypt` | Cultural Etiquette In Egypt | 6677 | `guideArticle` | topic signals: slug-*-in-egypt, slug-cultural/culinary |
-| 56654 | `egypt-travel-guide` | Egypt Travel Guide | 0 | `guideArticle` | generic country-level guide, not a destination — defaulted to guideArticle, Islam decides |
 | 60953 | `electricity-in-egypt` | Electricity in Egypt | 43563 | `guideArticle` | topic signals: slug-*-in-egypt, slug-topic-prefix |
 | 60909 | `language-in-egypt` | Language in Egypt | 31684 | `guideArticle` | topic signals: slug-*-in-egypt, slug-topic-prefix |
 | 61367 | `month-by-month-guide-to-egypt` | Month-by-Month Guide to Egypt | 14896 | `guideArticle` | topic signals: slug-guide-to |

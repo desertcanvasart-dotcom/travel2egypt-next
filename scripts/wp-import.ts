@@ -83,6 +83,7 @@ function parseCli(argv: string[]): CliOptions {
       case '--type': opts.type = next() as CliOptions['type']; break;
       case '--filter-by-template': opts.filterByTemplate = next() as PageType; break;
       case '--slug-pattern': opts.slugPattern = next(); break;
+      case '--slug-exclude': opts.slugExclude = next(); break;
       case '--dry-run-diff-only': opts.dryRunDiffOnly = true; break;
       case '--adversarial': opts.adversarial = true; break;
       case '--since': opts.since = next(); break;
@@ -119,6 +120,10 @@ Flags:
                               Single \`*\` wildcard at start, end, or both. Examples:
                               \`*-travel-guide\` (suffix), \`reaching-*\` (prefix),
                               \`*-egypt-*\` (contains), \`exact-slug\` (exact).
+  --slug-exclude <list>       Comma-separated glob-lite patterns to EXCLUDE.
+                              Same grammar as --slug-pattern. Page is excluded
+                              if it matches any pattern. Example:
+                              \`egypt-travel-guide,*-archive\`.
   --dry-run-diff-only         Run city safety-net diff infrastructure with NO
                               Sanity writes. Emits per-locale diffs + references
                               report + fingerprint summary to migration/.diffs/.
@@ -188,6 +193,7 @@ async function main(): Promise<void> {
     await runDiff({
       filterByTemplate: cli.filterByTemplate,
       slugPattern: cli.slugPattern,
+      slugExclude: cli.slugExclude,
       limit: cli.limit,
       adversarial: cli.adversarial ?? false,
       rate: cli.rate,
@@ -457,6 +463,13 @@ async function importPages(
     const before = filtered.length;
     filtered = filtered.filter((x) => matcher(x.p.slug));
     process.stderr.write(`[wp-import] filtered ${before} → ${filtered.length} by slug-pattern="${cli.slugPattern}"\n`);
+  }
+  // --slug-exclude (any match excludes the page).
+  if (cli.slugExclude) {
+    const excluders = compileSlugExclude(cli.slugExclude);
+    const before = filtered.length;
+    filtered = filtered.filter((x) => !excluders.some((m) => m(x.p.slug)));
+    process.stderr.write(`[wp-import] filtered ${before} → ${filtered.length} by slug-exclude="${cli.slugExclude}"\n`);
   }
   if (cli.limit) filtered = filtered.slice(0, cli.limit);
 
@@ -777,6 +790,21 @@ function compileSlugPattern(pattern: string): (slug: string) => boolean {
   if (startsWildcard) return (s) => s.endsWith(core);
   if (endsWildcard) return (s) => s.startsWith(core);
   return (s) => s === core;
+}
+
+/**
+ * Compile a comma-separated list of slug-exclude patterns into matcher functions.
+ * Each pattern follows the same glob-lite grammar as --slug-pattern. The caller
+ * applies them as `slugs.filter(s => !excluders.some(m => m(s)))`.
+ *
+ * Whitespace around commas is trimmed. Empty entries are skipped.
+ */
+function compileSlugExclude(list: string): Array<(slug: string) => boolean> {
+  return list
+    .split(',')
+    .map((p) => p.trim())
+    .filter(Boolean)
+    .map((p) => compileSlugPattern(p));
 }
 
 function handleEntityError(e: unknown, lite: WpEntityLite, cli: CliOptions, stats: MigrationStats): void {

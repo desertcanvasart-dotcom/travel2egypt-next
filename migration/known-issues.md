@@ -56,6 +56,29 @@ city documents (verified by GROQ). The unified rule's "leave Sanity
 untouched" clauses fire zero times on first run. They become load-bearing
 on iteration 2+ when the importer re-runs against staged content.
 
+### Q5 — `egypt-travel-guide` disposition: do not migrate, redirect at cutover
+
+**Decision (2026-04-28, Islam):** WP page `egypt-travel-guide` (id 56654)
+is the WP archive/index page for the 41 city-level travel-guides,
+structurally equivalent to the Next.js front-end `/guide/` listing route.
+Decision: **do not migrate to any Sanity doc type.** Redirect at cutover:
+
+- `https://travel2egypt.org/egypt-travel-guide/` → `/guide/`
+- `https://travel2egypt.org/es/guia-de-viaje-de-egipto/` (or equivalent ES slug) → `/es/guide/`
+- `https://travel2egypt.org/ja/<JA-slug>/` → `/ja/guide/`
+
+(Locale slug variants TBC during session 9 when the redirect-map generator
+runs against full source data.)
+
+**Rationale:** Migrating an archive/index page as a content doc would
+create a no-purpose Sanity record that the listing route already serves.
+The 41 individual travel-guide pages are the actual content; the archive
+is just navigation.
+
+**Owner:** redirect-map generation in session 9 step 13.
+**Session 5 implementation:** excluded from the import via the new
+`--slug-exclude` flag on `wp-import` / `wp-import-diff`.
+
 ### Q4 — Hotel/cruise/tour gallery: hero-only (B)
 
 **Decision (2026-04-28, Islam):** Path B — first carousel `<img>` src
@@ -248,6 +271,24 @@ Either way: needs a new `reviewFlag` enum value if option B is chosen
 ---
 
 ## Deferred
+
+### Manual redirects: archive pages not migrated as docs (session 9 step 13)
+
+Some WP pages are archive/index navigation rather than content (e.g. the
+`egypt-travel-guide` listing page — see "Cutover decisions made" Q5).
+These don't get a Sanity doc but DO need 301 redirects at cutover so old
+URLs route to the equivalent front-end listing route.
+
+Investigate at session 9 step 13 whether the redirect-map generator
+(`scripts/wp-import/redirect-map.ts`) handles non-doc redirects
+declaratively — current code derives redirects from `MapperResult.redirects`
+on a per-doc basis, so non-migrated pages would slip through. If a manual-
+entry mechanism doesn't exist, add one (likely a `migration/manual-redirects.csv`
+ingested into the final redirect-map.csv).
+
+Known entries (will grow as more archive/index pages surface):
+
+- `/egypt-travel-guide/` (EN) + locale variants → `/guide/` (Q5 disposition)
 
 ### 4 — heading concatenation prevalence
 

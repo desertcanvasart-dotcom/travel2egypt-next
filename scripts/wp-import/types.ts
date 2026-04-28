@@ -195,6 +195,12 @@ export interface CliOptions {
    *  to subset destination-hubs to `*-travel-guide` only, sidestepping the
    *  classifier's `*-egypt` overshoot without mutating classifier logic. */
   slugPattern?: string;
+  /** Optional slug-exclude filter, symmetric to --slug-pattern. Comma-separated
+   *  list of glob-lite patterns; any match excludes the page. Combines with
+   *  --filter-by-template AND --slug-pattern (page must pass both inclusion
+   *  filters AND not match any exclusion pattern). Used in session 5 to skip
+   *  `egypt-travel-guide` (archive page, redirected at cutover not migrated). */
+  slugExclude?: string;
   /** Run the city safety-net diff infrastructure (no Sanity writes). Delegates
    *  to scripts/wp-import-diff.ts. Required for the city UPDATE step per
    *  DOC 3 session 5 spec. */
