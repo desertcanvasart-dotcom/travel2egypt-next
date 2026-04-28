@@ -201,6 +201,13 @@ export interface CliOptions {
    *  filters AND not match any exclusion pattern). Used in session 5 to skip
    *  `egypt-travel-guide` (archive page, redirected at cutover not migrated). */
   slugExclude?: string;
+  /** Optional slug-include exact-match list. Comma-separated, NO globbing.
+   *  When set, replaces --slug-pattern entirely (override warning emitted if
+   *  both flags supplied). Combines with --filter-by-template AND --slug-exclude
+   *  (page must pass template, be in include list, and not match exclude).
+   *  Used in session 5 step 5 to write exactly the 4 cities from the diff
+   *  sample, deterministic regardless of enumeration order. */
+  slugInclude?: string;
   /** Run the city safety-net diff infrastructure (no Sanity writes). Delegates
    *  to scripts/wp-import-diff.ts. Required for the city UPDATE step per
    *  DOC 3 session 5 spec. */

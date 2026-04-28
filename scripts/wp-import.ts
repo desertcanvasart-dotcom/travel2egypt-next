@@ -84,6 +84,7 @@ function parseCli(argv: string[]): CliOptions {
       case '--filter-by-template': opts.filterByTemplate = next() as PageType; break;
       case '--slug-pattern': opts.slugPattern = next(); break;
       case '--slug-exclude': opts.slugExclude = next(); break;
+      case '--slug-include': opts.slugInclude = next(); break;
       case '--dry-run-diff-only': opts.dryRunDiffOnly = true; break;
       case '--adversarial': opts.adversarial = true; break;
       case '--since': opts.since = next(); break;
@@ -124,6 +125,11 @@ Flags:
                               Same grammar as --slug-pattern. Page is excluded
                               if it matches any pattern. Example:
                               \`egypt-travel-guide,*-archive\`.
+  --slug-include <list>       Comma-separated EXACT slug list (no globbing).
+                              When set, replaces --slug-pattern entirely
+                              (override warning emitted if both supplied).
+                              Use to write a deterministic specific set:
+                              \`cairo-travel-guide,luxor-travel-guide,...\`.
   --dry-run-diff-only         Run city safety-net diff infrastructure with NO
                               Sanity writes. Emits per-locale diffs + references
                               report + fingerprint summary to migration/.diffs/.
@@ -194,6 +200,7 @@ async function main(): Promise<void> {
       filterByTemplate: cli.filterByTemplate,
       slugPattern: cli.slugPattern,
       slugExclude: cli.slugExclude,
+      slugInclude: cli.slugInclude,
       limit: cli.limit,
       adversarial: cli.adversarial ?? false,
       rate: cli.rate,
@@ -457,14 +464,23 @@ async function importPages(
     filtered = classified.filter((x) => x.c.type === cli.filterByTemplate);
     process.stderr.write(`[wp-import] filtered ${classified.length} → ${filtered.length} by template=${cli.filterByTemplate}\n`);
   }
-  // --slug-pattern (combines with template filter; both must match).
-  if (cli.slugPattern) {
+  // --slug-include wins over --slug-pattern when both are supplied.
+  if (cli.slugInclude) {
+    if (cli.slugPattern) {
+      process.stderr.write(`[wp-import] WARNING: --slug-include is set; --slug-pattern="${cli.slugPattern}" is ignored.\n`);
+    }
+    const includeSet = compileSlugInclude(cli.slugInclude);
+    const before = filtered.length;
+    filtered = filtered.filter((x) => includeSet.has(x.p.slug));
+    process.stderr.write(`[wp-import] filtered ${before} → ${filtered.length} by slug-include exact list (${includeSet.size} slug${includeSet.size === 1 ? '' : 's'})\n`);
+  } else if (cli.slugPattern) {
+    // --slug-pattern only applies when --slug-include is not set.
     const matcher = compileSlugPattern(cli.slugPattern);
     const before = filtered.length;
     filtered = filtered.filter((x) => matcher(x.p.slug));
     process.stderr.write(`[wp-import] filtered ${before} → ${filtered.length} by slug-pattern="${cli.slugPattern}"\n`);
   }
-  // --slug-exclude (any match excludes the page).
+  // --slug-exclude (any match excludes the page). Applies regardless of include vs pattern.
   if (cli.slugExclude) {
     const excluders = compileSlugExclude(cli.slugExclude);
     const before = filtered.length;
@@ -805,6 +821,14 @@ function compileSlugExclude(list: string): Array<(slug: string) => boolean> {
     .map((p) => p.trim())
     .filter(Boolean)
     .map((p) => compileSlugPattern(p));
+}
+
+/** Compile a comma-separated exact-slug list into a Set for O(1) lookup. No
+ * globbing; the caller asks for these exact slugs. Whitespace trimmed; empty
+ * entries skipped. Used for deterministic "write exactly these N slugs"
+ * operations like the Step 5 actual-write. */
+function compileSlugInclude(list: string): Set<string> {
+  return new Set(list.split(',').map((s) => s.trim()).filter(Boolean));
 }
 
 function handleEntityError(e: unknown, lite: WpEntityLite, cli: CliOptions, stats: MigrationStats): void {

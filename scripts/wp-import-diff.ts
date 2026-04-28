@@ -58,6 +58,7 @@ interface DiffCli {
   filterByTemplate: PageType;
   slugPattern?: string;
   slugExclude?: string;
+  slugInclude?: string;
   limit?: number;
   adversarial: boolean;
   rate: number;
@@ -82,6 +83,10 @@ function compileSlugExclude(list: string): Array<(slug: string) => boolean> {
   return list.split(',').map((p) => p.trim()).filter(Boolean).map((p) => compileSlugPattern(p));
 }
 
+function compileSlugInclude(list: string): Set<string> {
+  return new Set(list.split(',').map((s) => s.trim()).filter(Boolean));
+}
+
 function parseCli(argv: string[]): DiffCli {
   const opts: DiffCli = { filterByTemplate: 'destination-hub', adversarial: false, rate: 4 };
   for (let i = 0; i < argv.length; i++) {
@@ -91,6 +96,7 @@ function parseCli(argv: string[]): DiffCli {
       case '--filter-by-template': opts.filterByTemplate = next() as PageType; break;
       case '--slug-pattern': opts.slugPattern = next(); break;
       case '--slug-exclude': opts.slugExclude = next(); break;
+      case '--slug-include': opts.slugInclude = next(); break;
       case '--limit': opts.limit = Number(next()); break;
       case '--adversarial': opts.adversarial = true; break;
       case '--rate': opts.rate = Number(next()); break;
@@ -123,7 +129,13 @@ export async function runDiff(cli: DiffCli): Promise<void> {
   let candidates = allPages
     .map((p) => ({ p, c: classifyPageBySlug(p.slug) }))
     .filter((x) => x.c.type === cli.filterByTemplate);
-  if (cli.slugPattern) {
+  if (cli.slugInclude) {
+    if (cli.slugPattern) {
+      process.stderr.write(`[wp-import-diff] WARNING: --slug-include is set; --slug-pattern="${cli.slugPattern}" is ignored.\n`);
+    }
+    const includeSet = compileSlugInclude(cli.slugInclude);
+    candidates = candidates.filter((x) => includeSet.has(x.p.slug));
+  } else if (cli.slugPattern) {
     const m = compileSlugPattern(cli.slugPattern);
     candidates = candidates.filter((x) => m(x.p.slug));
   }
