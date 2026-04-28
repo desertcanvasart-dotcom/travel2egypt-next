@@ -76,6 +76,47 @@ carousels" section, same instrumentation as session 4's strip rules.
 
 ---
 
+## Classifier issues
+
+### `*-egypt` suffix rule overshoots — session 5 discovery
+
+`scripts/wp-classifier.ts:408` classifies any page slug ending in `-egypt`
+as `destination-hub`. Confirmed in session 5 pre-flight: 27 of 69
+destination-hub-classified pages are misclassified. Plus 1 from the 42
+`*-travel-guide` bucket (`egypt-travel-guide` — generic country-level guide,
+not a destination). Total: 28 pages should not be cities.
+
+Manual reclassification at
+[migration/.diffs/destination-hub-misclassified-deferred.md](.diffs/destination-hub-misclassified-deferred.md):
+
+- 5 → `tour` (session 8 owner)
+- 21 → `guideArticle` (session 6 owner)
+- 2 → `unclear` (aggregator/listing pages, need Islam decision before owner session)
+
+**Decision pending:** tighten the rule, or accept and triage at each owner
+session. Session 5 sidesteps by filtering to `*-travel-guide` only via a
+new `--slug-pattern` flag; classifier logic untouched.
+
+### Forward-flag for session 7 (placesToGo + body prose)
+
+Session 5 imports `overview` body content from WP destination-hub pages.
+Cairo's body carries "Things To Do" content inside an Elementor tabs
+widget; the HTML→PT pipeline preserves the inner text in `overview` body.
+Session 7 will populate `placesToGo` array from monument reverse-refs.
+
+**Result:** monuments mentioned in prose form in `city.overview` (session 5)
+AND as structured refs in `city.placesToGo` (session 7). Front-end
+rendering needs to either:
+- strip prose mentions of monuments that also appear in placesToGo,
+- leave both (with visual differentiation between prose and structured), or
+- defer placesToGo rendering to a clearly-separate section so the
+  duplication is editorially obvious to readers.
+
+Not session 5's problem to solve. Surface to session 7 (or 7.5) at session
+5 close handoff.
+
+---
+
 ## Cutover Blockers — additions identified in session 5
 
 DOC 1 (Application Handover v3) carries the canonical Cutover Blockers

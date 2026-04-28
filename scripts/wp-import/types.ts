@@ -190,6 +190,11 @@ export interface CliOptions {
   limit?: number;
   type: 'post' | 'page' | 'attachment' | 'category' | 'all';
   filterByTemplate?: PageType;
+  /** Optional slug-pattern filter (glob `*` only — matched as prefix/suffix anchors).
+   *  Combines with `--filter-by-template`: page must satisfy both. Used in session 5
+   *  to subset destination-hubs to `*-travel-guide` only, sidestepping the
+   *  classifier's `*-egypt` overshoot without mutating classifier logic. */
+  slugPattern?: string;
   since?: string;
   language: 'en' | 'es' | 'ja' | 'all';
   continueOnError: boolean;

@@ -82,6 +82,7 @@ function parseCli(argv: string[]): CliOptions {
       case '--limit': opts.limit = Number(next()); break;
       case '--type': opts.type = next() as CliOptions['type']; break;
       case '--filter-by-template': opts.filterByTemplate = next() as PageType; break;
+      case '--slug-pattern': opts.slugPattern = next(); break;
       case '--since': opts.since = next(); break;
       case '--language': opts.language = next() as CliOptions['language']; break;
       case '--continue-on-error': opts.continueOnError = true; break;
@@ -112,6 +113,10 @@ Flags:
   --filter-by-template <T>    destination-hub | destination-subpage | monument |
                               tour-or-package | hotel | nile-cruise |
                               service-or-utility | article | unclassified
+  --slug-pattern <glob>       Optional slug filter combining with --filter-by-template.
+                              Single \`*\` wildcard at start, end, or both. Examples:
+                              \`*-travel-guide\` (suffix), \`reaching-*\` (prefix),
+                              \`*-egypt-*\` (contains), \`exact-slug\` (exact).
   --since YYYY-MM-DD          Only entities modified on/after this date.
   --language en|es|ja|all     Locale filter (default: all).
   --continue-on-error         Log errors and continue.
@@ -420,6 +425,13 @@ async function importPages(
     filtered = classified.filter((x) => x.c.type === cli.filterByTemplate);
     process.stderr.write(`[wp-import] filtered ${classified.length} → ${filtered.length} by template=${cli.filterByTemplate}\n`);
   }
+  // --slug-pattern (combines with template filter; both must match).
+  if (cli.slugPattern) {
+    const matcher = compileSlugPattern(cli.slugPattern);
+    const before = filtered.length;
+    filtered = filtered.filter((x) => matcher(x.p.slug));
+    process.stderr.write(`[wp-import] filtered ${before} → ${filtered.length} by slug-pattern="${cli.slugPattern}"\n`);
+  }
   if (cli.limit) filtered = filtered.slice(0, cli.limit);
 
   // Two-pass ordering: cities (hubs) BEFORE everything else, so subpages can resolve parentCity.
@@ -711,6 +723,34 @@ function collect(
 function scoreFor(url: string, priorityIndex: Map<string, number>): number {
   const decoded = decodeURIComponent(url).replace(/\/$/, '');
   return priorityIndex.get(decoded) ?? 0;
+}
+
+/**
+ * Compile a glob-lite slug pattern into a matcher function. Supports a single
+ * `*` wildcard at start, end, or both. Anything else is treated as exact match.
+ *
+ *   "*-travel-guide" → suffix match
+ *   "reaching-*"     → prefix match
+ *   "*-egypt-*"      → contains match
+ *   "exact-slug"     → exact match
+ *
+ * The narrow grammar is intentional: full glob/regex would invite shell-quoting
+ * surprises and obscure the corpus-split semantics this flag is meant to
+ * express. Used in session 5 to subset destination-hubs to `*-travel-guide`
+ * without mutating the classifier.
+ */
+function compileSlugPattern(pattern: string): (slug: string) => boolean {
+  const startsWildcard = pattern.startsWith('*');
+  const endsWildcard = pattern.endsWith('*');
+  const core = pattern.replace(/^\*/, '').replace(/\*$/, '');
+  if (core.includes('*')) {
+    process.stderr.write(`[wp-import] --slug-pattern: only one leading and/or trailing '*' supported, got "${pattern}"\n`);
+    process.exit(2);
+  }
+  if (startsWildcard && endsWildcard) return (s) => s.includes(core);
+  if (startsWildcard) return (s) => s.endsWith(core);
+  if (endsWildcard) return (s) => s.startsWith(core);
+  return (s) => s === core;
 }
 
 function handleEntityError(e: unknown, lite: WpEntityLite, cli: CliOptions, stats: MigrationStats): void {
