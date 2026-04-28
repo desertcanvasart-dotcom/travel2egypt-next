@@ -1,892 +1,1031 @@
 --- before:es
 +++ after:es
-- {}
-+ {
-+   "name": "Guía de viaje de Akhmim",
-+   "overview": [
-+     {
-+       "_key": "308e1f8e4fb7",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "809afaefcbc8",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Akhmim - La Guía de Viaje Completa"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h2"
-+     },
-+     {
-+       "_key": "b919826cfd4d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "fb85ea6cbb1c",
-+           "_type": "span",
-+           "marks": [
-+             "92866e877bb7"
-+           ],
-+           "text": "Akhmim,"
-+         },
-+         {
-+           "_key": "56a23a907ad0",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " situada en la orilla oriental del Nilo, en "
-+         },
-+         {
-+           "_key": "14d1aa04efcc",
-+           "_type": "span",
-+           "marks": [
-+             "8326324e5c34"
-+           ],
-+           "text": "Sohag"
-+         },
-+         {
-+           "_key": "08e3c5c2cece",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "(Egipto), encarna un rico tapiz de historia y cultura que se extiende mucho más allá de sus límites geográficos."
-+         },
-+         {
-+           "_key": "7871b1d4080a",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "a88cfdcb694e",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " Esta ciudad, más que una mera zona suburbana, está profundamente arraigada en los anales de la historia, surgiendo de la antigua ciudad egipcia de Ipu."
-+         },
-+         {
-+           "_key": "49ef97e55808",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "ad1c226952f7",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " Su existencia ofrece una mezcla perfecta del pasado y el presente, sirviendo de conmovedor recordatorio de una civilización que prosperó aquí en otro tiempo. "
-+         },
-+         {
-+           "_key": "aaa6d2096539",
-+           "_type": "span",
-+           "marks": [
-+             "d6c84b4ddf3f"
-+           ],
-+           "text": "La"
-+         },
-+         {
-+           "_key": "de606320445b",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " fundación "
-+         },
-+         {
-+           "_key": "c8c95582f131",
-+           "_type": "span",
-+           "marks": [
-+             "4c2419ac3964"
-+           ],
-+           "text": "de Akhmim"
-+         },
-+         {
-+           "_key": "31a508323117",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " está impregnada de una historia que se remonta a una época predinástica, lo que la hace más antigua que las bien documentadas dinastías egipcias que han cautivado la imaginación del mundo."
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "92866e877bb7",
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt1.wpenginepowered.com/akhmim-travel-guide/tours/",
-+           "newTab": true
-+         },
-+         {
-+           "_key": "8326324e5c34",
-+           "_type": "externalLink",
-+           "href": "https://en.wikipedia.org/wiki/Sohag",
-+           "newTab": true
-+         },
-+         {
-+           "_key": "d6c84b4ddf3f",
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt1.wpenginepowered.com/akhmim-travel-guide/getting-around/",
-+           "newTab": true
-+         },
-+         {
-+           "_key": "4c2419ac3964",
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt1.wpenginepowered.com/akhmim-travel-guide/getting-around/",
-+           "newTab": true
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "636e91227080",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "57799c028211",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "En la actualidad, Akhmim es célebre por su perdurable contribución al patrimonio cultural de Egipto, especialmente a través de sus antiguos oficios de tejeduría, textiles y pañería."
-+         },
-+         {
-+           "_key": "3f923fb8649c",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "53a6ffbfbc64",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " Estos oficios figuran entre los más antiguos de "
-+         },
-+         {
-+           "_key": "da8f47dbd6a5",
-+           "_type": "span",
-+           "marks": [
-+             "1ae66d3e178e"
-+           ],
-+           "text": "Egipto"
-+         },
-+         {
-+           "_key": "a586ca7e61cf",
-+           "_type": "span",
-+           "marks": [],
-+           "text": ", lo que simboliza la importancia histórica de la ciudad y la hábil dedicación de sus artesanos a preservar estas prácticas ancestrales."
-+         },
-+         {
-+           "_key": "00d80d9e0c6f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "60f0b599b2d7",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " El corazón de Akhmim bulle de vida, especialmente en torno a sus animadas tiendas y al museo "
-+         },
-+         {
-+           "_key": "40b388451a65",
-+           "_type": "span",
-+           "marks": [
-+             "622cf5386d2c"
-+           ],
-+           "text": "local"
-+         },
-+         {
-+           "_key": "2750c0fb97bd",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " al aire libre."
-+         },
-+         {
-+           "_key": "5fbf43c9a7a6",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "236f610af248",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " Estos espacios no sólo muestran la rica "
-+         },
-+         {
-+           "_key": "1482af94057c",
-+           "_type": "span",
-+           "marks": [
-+             "e5e4e10f6bd2"
-+           ],
-+           "text": "historia"
-+         },
-+         {
-+           "_key": "d557a066bf82",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " de la ciudad, sino que también celebran la tradición viva de sus artesanos y tejedores, cuyas manos hacen maravillas."
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "1ae66d3e178e",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/",
-+           "newTab": false
-+         },
-+         {
-+           "_key": "622cf5386d2c",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/",
-+           "newTab": false
-+         },
-+         {
-+           "_key": "e5e4e10f6bd2",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "bf0abff3a4ea",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "6bd8a28f66d1",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "La transformación de Akhmim en una localidad moderna no ha diluido su esencia histórica."
-+         },
-+         {
-+           "_key": "f7bd5ed4e8da",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "66a5ba12cdc3",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " "
-+         },
-+         {
-+           "_key": "f45414ed4f01",
-+           "_type": "span",
-+           "marks": [
-+             "e8b88f5f6ba6"
-+           ],
-+           "text": "Sigue siendo"
-+         },
-+         {
-+           "_key": "bfb1455b37ea",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " un bastión del tejido y la tapicería tradicionales, una forma de arte que es fundamental para su identidad."
-+         },
-+         {
-+           "_key": "8f272204d97f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "d6f2090fca77",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " Los mercados cercanos al museo al aire libre son un testimonio de ello, ya que ofrecen una visión de la artesanía especializada que define a Akhmim."
-+         },
-+         {
-+           "_key": "869c6357735f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "804b5b475cd5",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " Aquí, los "
-+         },
-+         {
-+           "_key": "bf36f2032098",
-+           "_type": "span",
-+           "marks": [
-+             "c8f367d367fd"
-+           ],
-+           "text": "visitantes"
-+         },
-+         {
-+           "_key": "31b661873869",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " tienen la oportunidad única de comprometerse con el legado cultural de la ciudad, presenciando de primera mano la creación de exquisitos tejidos y pudiendo llevarse a casa un trozo de este patrimonio perdurable."
-+         },
-+         {
-+           "_key": "101107c7bfcf",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "c5847f35aad4",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " Akhmim, por tanto, no es sólo una ciudad, sino un museo vivo, un lugar donde la historia se conserva y se celebra, invitando a quienes la visitan a participar en su rica narrativa cultural."
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "e8b88f5f6ba6",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-fayoum/sigue-siendo-tradicional-moderno/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-al-fayoum/sigue-siendo-tradicional-moderno/",
-+           "newTab": false
-+         },
-+         {
-+           "_key": "c8f367d367fd",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "75db12fa3c8a",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "5b6c0bd784fd",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Creado el 18 de marzo de 2020"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "1b5340e03c7a",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3aef7e318510",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Actualizado en Ago , 2024"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "691779f33405",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "dc5e0b0b5a3b",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Guía de viaje de AKHMIM"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "6452a3a35223",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "8483f105fcfd",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "PRESENTACIÓN DE AKHMIM"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "a8e1d7181630",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "1090ad929588",
-+           "_type": "span",
-+           "marks": [
-+             "ab4834cf4d3d"
-+           ],
-+           "text": "Historia"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "ab4834cf4d3d",
-+           "_type": "externalLink",
-+           "href": "/es/la-historia-de-akhmim/",
-+           "newTab": true
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "60549104bb3c",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a7d775b3f0fd",
-+           "_type": "span",
-+           "marks": [
-+             "f549be2d2f65"
-+           ],
-+           "text": "El tiempo"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "f549be2d2f65",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/clima-en-akhmim/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/clima-en-akhmim/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "2f0e21dc29ce",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "1155c49b908f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "PLANIFICA TU VIAJE"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "8a10d225a656",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "8534f9d34123",
-+           "_type": "span",
-+           "marks": [
-+             "d89db2e7d0d3"
-+           ],
-+           "text": "Cómo ir"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "d89db2e7d0d3",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/como-ir-a-akmim/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/como-ir-a-akmim/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "9c8b13fe18ab",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "1c3f5fc1ef54",
-+           "_type": "span",
-+           "marks": [
-+             "14745c363c24"
-+           ],
-+           "text": "Dónde alojarse"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "14745c363c24",
-+           "_type": "externalLink",
-+           "href": "/es/alojamiento-comodo-en-akhmim/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "e2f3e415e871",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a953c5d84537",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "MIENTRAS ESTÉS ALLÍ"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "6266343982cf",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "6d9f19996bfa",
-+           "_type": "span",
-+           "marks": [
-+             "5de0f5888b09"
-+           ],
-+           "text": "Cómo desplazarse"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "5de0f5888b09",
-+           "_type": "externalLink",
-+           "href": "/es/como-moverse-por-akhmim/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "bda2d67ebbbf",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "cacb53366250",
-+           "_type": "span",
-+           "marks": [
-+             "a59128d6f9ab"
-+           ],
-+           "text": "Cosas que hacer"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "a59128d6f9ab",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/la-aventura-te-espera/"
-+           },
-+           "_type": "externalLink",
-+           "href": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/la-aventura-te-espera/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "e3e6c706379e",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "2ca6568a44c5",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "LUGARES DONDE IR"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "152c5b4d0eff",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "962552c916e4",
-+           "_type": "span",
-+           "marks": [
-+             "6081f2e77a96"
-+           ],
-+           "text": "Sitios únicos"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "6081f2e77a96",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/sitios-unicos/"
-+           },
-+           "_type": "externalLink",
-+           "href": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/sitios-unicos/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "7eb538e6c3c0",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "63ee08d7bc3f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "OTROS"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "99cddee5a9eb",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "8eea597a7b1a",
-+           "_type": "span",
-+           "marks": [
-+             "3d29ab27c8af"
-+           ],
-+           "text": "Visitas"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "3d29ab27c8af",
-+           "_type": "externalLink",
-+           "href": "/es/principales-tours-en-akmim/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "36444d61ab70",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "552204234d2f",
-+           "_type": "span",
-+           "marks": [
-+             "7c537af27776"
-+           ],
-+           "text": "Alimentación"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "7c537af27776",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/explorar-el-sabor/"
-+           },
-+           "_type": "externalLink",
-+           "href": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/explorar-el-sabor/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "ccb8d9657a67",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a153128a4895",
-+           "_type": "span",
-+           "marks": [
-+             "c5caf68656f7"
-+           ],
-+           "text": "Sólo aquí"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "c5caf68656f7",
-+           "_type": "externalLink",
-+           "href": "/es/solo-aqui-en-akhmim/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "220f6b95341d",
-+       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/6440ecd00256f92e09d9ec1fdcd9b5f0.jpg",
-+       "_type": "image",
-+       "alt": [
-+         {
-+           "_key": "en",
-+           "value": "A close-up of an ancient Egyptian statue's face with a headdress and cobra symbol"
-+         }
-+       ],
-+       "caption": [
-+         {
-+           "_key": "en",
-+           "value": "El rostro de un faraón tallado en piedra desafía el paso del tiempo, resonando con el esplendor del antiguo Egipto."
-+         }
-+       ]
-+     },
-+     {
-+       "_key": "77c2fa4e088b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "325bf22cbc4e",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Guía de viaje de Al Arish: Puerta de la Península del Sinaí"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h2"
-+     },
-+     {
-+       "_key": "c10a31ab44b7",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "e849c201fd33",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Explora "
-+         },
-+         {
-+           "_key": "05e3ef0e609b",
-+           "_type": "span",
-+           "marks": [
-+             "621030c0c8a6"
-+           ],
-+           "text": "Al Arish"
-+         },
-+         {
-+           "_key": "1d81981cfaf9",
-+           "_type": "span",
-+           "marks": [],
-+           "text": ", la serena ciudad costera que marca la puerta de entrada a la encantadora península del Sinaí."
-+         },
-+         {
-+           "_key": "11de5f51d704",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "8d21906f0986",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " Nuestra "
-+         },
-+         {
-+           "_key": "9eece6817306",
-+           "_type": "span",
-+           "marks": [
-+             "e06efbc41c59"
-+           ],
-+           "text": "guía de viaje"
-+         },
-+         {
-+           "_key": "5c15a93befc4",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " cubre las mejores playas, lugares históricos y sitios donde comer para que vivas Al Arish como un lugareño más."
-+         },
-+         {
-+           "_key": "f5ef62806e0a",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "98fed8331873",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " "
-+         },
-+         {
-+           "_key": "b25985b37f4b",
-+           "_type": "span",
-+           "marks": [
-+             "49908d053187"
-+           ],
-+           "text": "Perfecta tanto para aventureros como"
-+         },
-+         {
-+           "_key": "266ab7aa73fb",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " para quienes buscan relajarse."
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "621030c0c8a6",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-arish/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-al-arish/",
-+           "newTab": false
-+         },
-+         {
-+           "_key": "e06efbc41c59",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-qena/guia-de-viajes/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-qena/guia-de-viajes/",
-+           "newTab": false
-+         },
-+         {
-+           "_key": "49908d053187",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-taba/guia-de-viaje-estacional-de-taba-como-encontrar-el-momento-perfecto-para-visitarla/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-taba/guia-de-viaje-estacional-de-taba-como-encontrar-el-momento-perfecto-para-visitarla/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "90a2cde2ebdb",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "1c2c2e60b82c",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Saber más"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     }
-+   ],
-+   "slug": {
-+     "_type": "slug",
-+     "current": "akhmim"
-+   },
-+   "summary": "Akhmim La Guía de Viaje Completa Akhmim, situada en la orilla oriental del Nilo, en Sohag(Egipto), encarna un rico tapiz de historia y cultura que se extiende mucho más allá de sus límites geográficos. Esta ciudad, más que una mera zona suburbana, está profundamente arraigada en "
-+ }
+  {
+    "name": "Guía de viaje de Akhmim",
+    "overview": [
+      {
+-       "_key": "980cc6e3cc7a",
++       "_key": "065ad8d0a030",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "258b02974cda",
++           "_key": "f7d24d5ebf83",
+            "_type": "span",
+            "marks": [],
+            "text": "Akhmim - La Guía de Viaje Completa"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+-       "_key": "49ed65b92fb3",
++       "_key": "2218fddf5f6d",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "d7fa1e2de89c",
++           "_key": "563ae143f032",
+            "_type": "span",
+            "marks": [
+-             "7689e559b395"
++             "9b570a4a3e84"
+            ],
+            "text": "Akhmim,"
+          },
+          {
+-           "_key": "795f30157e0a",
++           "_key": "7775c9a2567b",
+            "_type": "span",
+            "marks": [],
+            "text": " situada en la orilla oriental del Nilo, en "
+          },
+          {
+-           "_key": "22a4228ab68a",
++           "_key": "2259a0af2a90",
+            "_type": "span",
+            "marks": [
+-             "12d8c9813337"
++             "522d53652ff2"
+            ],
+            "text": "Sohag"
+          },
+          {
+-           "_key": "d2dfeff977be",
++           "_key": "e24016189b36",
+            "_type": "span",
+            "marks": [],
+            "text": "(Egipto), encarna un rico tapiz de historia y cultura que se extiende mucho más allá de sus límites geográficos."
+          },
+          {
+-           "_key": "b28ce784a63c",
++           "_key": "b599903f4644",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "9d88092a1cf2",
++           "_key": "981985e0bceb",
+            "_type": "span",
+            "marks": [],
+            "text": " Esta ciudad, más que una mera zona suburbana, está profundamente arraigada en los anales de la historia, surgiendo de la antigua ciudad egipcia de Ipu."
+          },
+          {
+-           "_key": "3a696028716c",
++           "_key": "cf999499bd97",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "52670440fbcf",
++           "_key": "b60c899fbacf",
+            "_type": "span",
+            "marks": [],
+            "text": " Su existencia ofrece una mezcla perfecta del pasado y el presente, sirviendo de conmovedor recordatorio de una civilización que prosperó aquí en otro tiempo. "
+          },
+          {
+-           "_key": "5e07af1224ac",
++           "_key": "5d6aa5b0e8f8",
+            "_type": "span",
+            "marks": [
+-             "e4fb77246b9d"
++             "af8fc74a529b"
+            ],
+            "text": "La"
+          },
+          {
+-           "_key": "e9c009df2953",
++           "_key": "e8689459713b",
+            "_type": "span",
+            "marks": [],
+            "text": " fundación "
+          },
+          {
+-           "_key": "870ed95ca473",
++           "_key": "fba52816119a",
+            "_type": "span",
+            "marks": [
+-             "b4d364f94fe4"
++             "7b2504b5b6af"
+            ],
+            "text": "de Akhmim"
+          },
+          {
+-           "_key": "d10dc88a0661",
++           "_key": "e2a03c5223e4",
+            "_type": "span",
+            "marks": [],
+            "text": " está impregnada de una historia que se remonta a una época predinástica, lo que la hace más antigua que las bien documentadas dinastías egipcias que han cautivado la imaginación del mundo."
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "7689e559b395",
++           "_key": "9b570a4a3e84",
+            "_type": "externalLink",
+            "href": "https://travel2egypt1.wpenginepowered.com/akhmim-travel-guide/tours/",
+            "newTab": true
+          },
+          {
+-           "_key": "12d8c9813337",
++           "_key": "522d53652ff2",
+            "_type": "externalLink",
+            "href": "https://en.wikipedia.org/wiki/Sohag",
+            "newTab": true
+          },
+          {
+-           "_key": "e4fb77246b9d",
++           "_key": "af8fc74a529b",
+            "_type": "externalLink",
+            "href": "https://travel2egypt1.wpenginepowered.com/akhmim-travel-guide/getting-around/",
+            "newTab": true
+          },
+          {
+-           "_key": "b4d364f94fe4",
++           "_key": "7b2504b5b6af",
+            "_type": "externalLink",
+            "href": "https://travel2egypt1.wpenginepowered.com/akhmim-travel-guide/getting-around/",
+            "newTab": true
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "98bcf7c698cc",
++       "_key": "446092d9b954",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "8157040592c6",
++           "_key": "e01ca0cf38a7",
+            "_type": "span",
+            "marks": [],
+            "text": "En la actualidad, Akhmim es célebre por su perdurable contribución al patrimonio cultural de Egipto, especialmente a través de sus antiguos oficios de tejeduría, textiles y pañería."
+          },
+          {
+-           "_key": "eb15f72917e9",
++           "_key": "8adecc735179",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "75803d4dcc84",
++           "_key": "8b6f49104bdc",
+            "_type": "span",
+            "marks": [],
+            "text": " Estos oficios figuran entre los más antiguos de "
+          },
+          {
+-           "_key": "9aca2a182337",
++           "_key": "88dd345c25a0",
+            "_type": "span",
+            "marks": [
+-             "3b56aa6a3910"
++             "81d4898cddea"
+            ],
+            "text": "Egipto"
+          },
+          {
+-           "_key": "e7252635a217",
++           "_key": "94295c700c9d",
+            "_type": "span",
+            "marks": [],
+            "text": ", lo que simboliza la importancia histórica de la ciudad y la hábil dedicación de sus artesanos a preservar estas prácticas ancestrales."
+          },
+          {
+-           "_key": "47a01a397672",
++           "_key": "00bdb30fbca0",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "e0be49c04aef",
++           "_key": "1266d6c216e8",
+            "_type": "span",
+            "marks": [],
+            "text": " El corazón de Akhmim bulle de vida, especialmente en torno a sus animadas tiendas y al museo "
+          },
+          {
+-           "_key": "6f2ee88e78ed",
++           "_key": "e8399449cbaf",
+            "_type": "span",
+            "marks": [
+-             "2cb4e10fe67f"
++             "22ca4d8f9919"
+            ],
+            "text": "local"
+          },
+          {
+-           "_key": "d58113a5be5d",
++           "_key": "d85a62f1af14",
+            "_type": "span",
+            "marks": [],
+            "text": " al aire libre."
+          },
+          {
+-           "_key": "6770636a5652",
++           "_key": "6898e6a7d3bf",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "7ba21069b2ef",
++           "_key": "06090d8ce681",
+            "_type": "span",
+            "marks": [],
+            "text": " Estos espacios no sólo muestran la rica "
+          },
+          {
+-           "_key": "81988c6daab7",
++           "_key": "ca8ff0b8221d",
+            "_type": "span",
+            "marks": [
+-             "55d1a7421d6a"
++             "f64f0509e732"
+            ],
+            "text": "historia"
+          },
+          {
+-           "_key": "3084043d0f61",
++           "_key": "2a904366f5c6",
+            "_type": "span",
+            "marks": [],
+            "text": " de la ciudad, sino que también celebran la tradición viva de sus artesanos y tejedores, cuyas manos hacen maravillas."
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "3b56aa6a3910",
++           "_key": "81d4898cddea",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/",
+            "newTab": false
+          },
+          {
+-           "_key": "2cb4e10fe67f",
++           "_key": "22ca4d8f9919",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/",
+            "newTab": false
+          },
+          {
+-           "_key": "55d1a7421d6a",
++           "_key": "f64f0509e732",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "0ed08ab7a08a",
++       "_key": "3de00c0e2ba0",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "18d6df967cea",
++           "_key": "653585a41aa6",
+            "_type": "span",
+            "marks": [],
+            "text": "La transformación de Akhmim en una localidad moderna no ha diluido su esencia histórica."
+          },
+          {
+-           "_key": "945075af85e5",
++           "_key": "0c0025451841",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "4e2ac1c8c7ea",
++           "_key": "0ccb9085bd29",
+            "_type": "span",
+            "marks": [],
+            "text": " "
+          },
+          {
+-           "_key": "06547fd3479a",
++           "_key": "0003bb463048",
+            "_type": "span",
+            "marks": [
+-             "d95075a5e6a6"
++             "689356673cf0"
+            ],
+            "text": "Sigue siendo"
+          },
+          {
+-           "_key": "d2c40f860bc0",
++           "_key": "cb2767644465",
+            "_type": "span",
+            "marks": [],
+            "text": " un bastión del tejido y la tapicería tradicionales, una forma de arte que es fundamental para su identidad."
+          },
+          {
+-           "_key": "0f6bba97a83c",
++           "_key": "f528ddddb930",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "7d0931fb203b",
++           "_key": "40b020f734ed",
+            "_type": "span",
+            "marks": [],
+            "text": " Los mercados cercanos al museo al aire libre son un testimonio de ello, ya que ofrecen una visión de la artesanía especializada que define a Akhmim."
+          },
+          {
+-           "_key": "718b7aed0561",
++           "_key": "04e433a00bc8",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "4b525305338a",
++           "_key": "5ec423275110",
+            "_type": "span",
+            "marks": [],
+            "text": " Aquí, los "
+          },
+          {
+-           "_key": "07185d0491d6",
++           "_key": "33de122d1e79",
+            "_type": "span",
+            "marks": [
+-             "bbfe6df40236"
++             "bf1c33034311"
+            ],
+            "text": "visitantes"
+          },
+          {
+-           "_key": "f845eb7d33e7",
++           "_key": "3bab7e6fe78a",
+            "_type": "span",
+            "marks": [],
+            "text": " tienen la oportunidad única de comprometerse con el legado cultural de la ciudad, presenciando de primera mano la creación de exquisitos tejidos y pudiendo llevarse a casa un trozo de este patrimonio perdurable."
+          },
+          {
+-           "_key": "7d28cd27fc57",
++           "_key": "562e76ff59c0",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "3c627c69a4c2",
++           "_key": "9f1e4aac0990",
+            "_type": "span",
+            "marks": [],
+            "text": " Akhmim, por tanto, no es sólo una ciudad, sino un museo vivo, un lugar donde la historia se conserva y se celebra, invitando a quienes la visitan a participar en su rica narrativa cultural."
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "d95075a5e6a6",
++           "_key": "689356673cf0",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-fayoum/sigue-siendo-tradicional-moderno/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-al-fayoum/sigue-siendo-tradicional-moderno/",
+            "newTab": false
+          },
+          {
+-           "_key": "bbfe6df40236",
++           "_key": "bf1c33034311",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "a9aac9b3c379",
++       "_key": "c5256e5938e5",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "69dff0884389",
++           "_key": "21d938a2f839",
+            "_type": "span",
+            "marks": [],
+            "text": "Creado el 18 de marzo de 2020"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "903372618da9",
++       "_key": "733805bf547b",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "1f30f09fada2",
++           "_key": "aad159fe3cf1",
+            "_type": "span",
+            "marks": [],
+            "text": "Actualizado en Ago , 2024"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "6d6767b667e8",
++       "_key": "4a9d7d33f1a7",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "ffa099d0a77c",
++           "_key": "d15b36dfa15a",
+            "_type": "span",
+            "marks": [],
+            "text": "Guía de viaje de AKHMIM"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "a1973ea4e85d",
++       "_key": "c225ac3b3649",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "89dfbb9ae111",
++           "_key": "b8d28492f559",
+            "_type": "span",
+            "marks": [],
+            "text": "PRESENTACIÓN DE AKHMIM"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "cf4d9aa0e847",
++       "_key": "c3a7c3d5dd40",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "94092580973a",
++           "_key": "a52c684984ca",
+            "_type": "span",
+            "marks": [
+-             "69c1f5008c3f"
++             "e9127a8e2524"
+            ],
+            "text": "Historia"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "69c1f5008c3f",
++           "_key": "e9127a8e2524",
+            "_type": "externalLink",
+            "href": "/es/la-historia-de-akhmim/",
+            "newTab": true
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "933d480dabf5",
++       "_key": "7559fa5b233a",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "f704704a951c",
++           "_key": "e9ad4a7688a2",
+            "_type": "span",
+            "marks": [
+-             "de3e1b7d414f"
++             "b96cad345d6c"
+            ],
+            "text": "El tiempo"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "de3e1b7d414f",
++           "_key": "b96cad345d6c",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/clima-en-akhmim/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/clima-en-akhmim/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "c937af8b71c9",
++       "_key": "c41ea43c76b3",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "a3a1703e9fb7",
++           "_key": "64b453dae716",
+            "_type": "span",
+            "marks": [],
+            "text": "PLANIFICA TU VIAJE"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "202d37d1927c",
++       "_key": "cc47f6af7034",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "c81977d45cd1",
++           "_key": "021f8a0e46c9",
+            "_type": "span",
+            "marks": [
+-             "6973614cae62"
++             "1422dfd2d53f"
+            ],
+            "text": "Cómo ir"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "6973614cae62",
++           "_key": "1422dfd2d53f",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/como-ir-a-akmim/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/como-ir-a-akmim/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "959b0de16233",
++       "_key": "7be46ae763c7",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "e389dea56a8f",
++           "_key": "a52e460fc13a",
+            "_type": "span",
+            "marks": [
+-             "55918af28d34"
++             "826893add8d7"
+            ],
+            "text": "Dónde alojarse"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "55918af28d34",
++           "_key": "826893add8d7",
+            "_type": "externalLink",
+            "href": "/es/alojamiento-comodo-en-akhmim/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "b75c2c927c64",
++       "_key": "891029f9a17b",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "13ae139609d2",
++           "_key": "945d96f195c5",
+            "_type": "span",
+            "marks": [],
+            "text": "MIENTRAS ESTÉS ALLÍ"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "68b1d403b13c",
++       "_key": "f2ef5e58d07e",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "4576d53d3598",
++           "_key": "fdc8b2769f49",
+            "_type": "span",
+            "marks": [
+-             "b76d6166df7c"
++             "f38df0244b1a"
+            ],
+            "text": "Cómo desplazarse"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "b76d6166df7c",
++           "_key": "f38df0244b1a",
+            "_type": "externalLink",
+            "href": "/es/como-moverse-por-akhmim/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "36718ad60a0d",
++       "_key": "19609705c0eb",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "68e30fa935dd",
++           "_key": "5c9942224360",
+            "_type": "span",
+            "marks": [
+-             "6f500a40477b"
++             "3e195a1867d0"
+            ],
+            "text": "Cosas que hacer"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "6f500a40477b",
++           "_key": "3e195a1867d0",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/la-aventura-te-espera/"
+            },
+            "_type": "externalLink",
+            "href": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/la-aventura-te-espera/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "5a83ebbf3a07",
++       "_key": "ded320d03d13",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "618e2770dca7",
++           "_key": "cb142de8eb94",
+            "_type": "span",
+            "marks": [],
+            "text": "LUGARES DONDE IR"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "f0dc0310829d",
++       "_key": "b2f98ddeb56b",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "3727b91c4bdc",
++           "_key": "3b9b5343f84e",
+            "_type": "span",
+            "marks": [
+-             "78f7bba4c018"
++             "c5922db7339b"
+            ],
+            "text": "Sitios únicos"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "78f7bba4c018",
++           "_key": "c5922db7339b",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/sitios-unicos/"
+            },
+            "_type": "externalLink",
+            "href": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/sitios-unicos/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "0e64436060a8",
++       "_key": "db10dec11474",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "5c424596049d",
++           "_key": "e658a7ab1d66",
+            "_type": "span",
+            "marks": [],
+            "text": "OTROS"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "56f78b611253",
++       "_key": "6bcb903f8f70",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "4ff96952905c",
++           "_key": "da3c02a5cf9e",
+            "_type": "span",
+            "marks": [
+-             "86aa7c05b981"
++             "a2e4f2d8978f"
+            ],
+            "text": "Visitas"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "86aa7c05b981",
++           "_key": "a2e4f2d8978f",
+            "_type": "externalLink",
+            "href": "/es/principales-tours-en-akmim/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "5ebfc652fa0e",
++       "_key": "82d0fc017369",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "da5d8df42858",
++           "_key": "be003cc62489",
+            "_type": "span",
+            "marks": [
+-             "73c901ad01b4"
++             "4c2a7b4f64f8"
+            ],
+            "text": "Alimentación"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "73c901ad01b4",
++           "_key": "4c2a7b4f64f8",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/explorar-el-sabor/"
+            },
+            "_type": "externalLink",
+            "href": "http://travel2egypt.org/es/guia-de-viaje-de-akhmim/explorar-el-sabor/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "4d77ac42bff5",
++       "_key": "cdb0e961017f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "5cc9869d8a81",
++           "_key": "7b7bdae5a3c0",
+            "_type": "span",
+            "marks": [
+-             "a17645baf347"
++             "ad8bb6699a20"
+            ],
+            "text": "Sólo aquí"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "a17645baf347",
++           "_key": "ad8bb6699a20",
+            "_type": "externalLink",
+            "href": "/es/solo-aqui-en-akhmim/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "b67821e0710d",
++       "_key": "d6ed29f7dba9",
+        "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/6440ecd00256f92e09d9ec1fdcd9b5f0.jpg",
+        "_type": "image",
+        "alt": [
+          {
+            "_key": "en",
+            "value": "A close-up of an ancient Egyptian statue's face with a headdress and cobra symbol"
+          }
+        ],
+        "caption": [
+          {
+            "_key": "en",
+            "value": "El rostro de un faraón tallado en piedra desafía el paso del tiempo, resonando con el esplendor del antiguo Egipto."
+          }
+        ]
+      },
+      {
+-       "_key": "07d45194a4cd",
++       "_key": "76ab760ca02f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "724e30d8a16b",
++           "_key": "2acb5cac22f0",
+            "_type": "span",
+            "marks": [],
+            "text": "Guía de viaje de Al Arish: Puerta de la Península del Sinaí"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+-       "_key": "d810bc1d86e9",
++       "_key": "ae77212e22ea",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "db8e91f29100",
++           "_key": "00dfaad7b0ad",
+            "_type": "span",
+            "marks": [],
+            "text": "Explora "
+          },
+          {
+-           "_key": "36fc0d76982a",
++           "_key": "7069a8b8cd86",
+            "_type": "span",
+            "marks": [
+-             "4b1144d2f14f"
++             "7b14eccad70d"
+            ],
+            "text": "Al Arish"
+          },
+          {
+-           "_key": "217b8fa0d083",
++           "_key": "9f36545d65b8",
+            "_type": "span",
+            "marks": [],
+            "text": ", la serena ciudad costera que marca la puerta de entrada a la encantadora península del Sinaí."
+          },
+          {
+-           "_key": "2ef53bbc881a",
++           "_key": "b632dfe01715",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "17ba5020daf5",
++           "_key": "1f8bfef074d9",
+            "_type": "span",
+            "marks": [],
+            "text": " Nuestra "
+          },
+          {
+-           "_key": "48e41b39604b",
++           "_key": "ad993d1a87d9",
+            "_type": "span",
+            "marks": [
+-             "5d9db85b85dd"
++             "c4ee7fb200c9"
+            ],
+            "text": "guía de viaje"
+          },
+          {
+-           "_key": "2cdcf17bee81",
++           "_key": "d6dcce79cf77",
+            "_type": "span",
+            "marks": [],
+            "text": " cubre las mejores playas, lugares históricos y sitios donde comer para que vivas Al Arish como un lugareño más."
+          },
+          {
+-           "_key": "ff9b5f358b40",
++           "_key": "4113f658172e",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "faca831476dd",
++           "_key": "15c7ef833107",
+            "_type": "span",
+            "marks": [],
+            "text": " "
+          },
+          {
+-           "_key": "aa60345625de",
++           "_key": "dae87a48d33e",
+            "_type": "span",
+            "marks": [
+-             "b63bee9334ae"
++             "da06f4d97ac3"
+            ],
+            "text": "Perfecta tanto para aventureros como"
+          },
+          {
+-           "_key": "4ef2eee56531",
++           "_key": "9712ac0fdf08",
+            "_type": "span",
+            "marks": [],
+            "text": " para quienes buscan relajarse."
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "4b1144d2f14f",
++           "_key": "7b14eccad70d",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-arish/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-al-arish/",
+            "newTab": false
+          },
+          {
+-           "_key": "5d9db85b85dd",
++           "_key": "c4ee7fb200c9",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-qena/guia-de-viajes/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-qena/guia-de-viajes/",
+            "newTab": false
+          },
+          {
+-           "_key": "b63bee9334ae",
++           "_key": "da06f4d97ac3",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-taba/guia-de-viaje-estacional-de-taba-como-encontrar-el-momento-perfecto-para-visitarla/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-taba/guia-de-viaje-estacional-de-taba-como-encontrar-el-momento-perfecto-para-visitarla/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "61224db4455b",
++       "_key": "fdcf93140932",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "fff8b0850ed8",
++           "_key": "e5f226935930",
+            "_type": "span",
+            "marks": [],
+            "text": "Saber más"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "slug": {
+      "_type": "slug",
+      "current": "akhmim"
+    },
+    "summary": "Akhmim La Guía de Viaje Completa Akhmim, situada en la orilla oriental del Nilo, en Sohag(Egipto), encarna un rico tapiz de historia y cultura que se extiende mucho más allá de sus límites geográficos. Esta ciudad, más que una mera zona suburbana, está profundamente arraigada en "
+  }

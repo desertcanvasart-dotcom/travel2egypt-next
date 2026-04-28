@@ -1,2224 +1,2549 @@
 --- before:ja
 +++ after:ja
-- {}
-+ {
-+   "name": "カイロ旅行ガイド",
-+   "overview": [
-+     {
-+       "_key": "2b1d2688553a",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d98c6940bc76",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "エジプトの心を巡る旅：カイロ完全ガイド"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h2"
-+     },
-+     {
-+       "_key": "9339da25664c",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "0a7551c43b49",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "エジプトの本質を感じる旅へ──この充実したカイロ・トラベルガイドとともに。"
-+         },
-+         {
-+           "_key": "f8d037e063c6",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "d3333b78d6dc",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "活気あふれる首都カイロは、歴史・文化・現代性が交差する灯台のような存在です。エジプト最大の都市であるだけでなく、"
-+         },
-+         {
-+           "_key": "a85b8b8da0a4",
-+           "_type": "span",
-+           "marks": [
-+             "1f7d5df41fcc"
-+           ],
-+           "text": "アフリカ大陸"
-+         },
-+         {
-+           "_key": "9ac59bc666ad",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "においても極めて重要な役割を果たし、中東・アラブ世界における主要な都市拠点でもあります。世界第15位の都市圏を誇るカイロは、古代文明の記憶が織り込まれた壮大なタペストリーのような街。その象徴ともいえるのが、壮麗なギザのピラミッド群や、歴史を物語る"
-+         },
-+         {
-+           "_key": "42b3f72bf86f",
-+           "_type": "span",
-+           "marks": [
-+             "d7d4de4f95cd"
-+           ],
-+           "text": "メンフィス"
-+         },
-+         {
-+           "_key": "163bd5e0a032",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "遺跡です。"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "1f7d5df41fcc",
-+           "_type": "externalLink",
-+           "href": "https://www.mofa.go.jp/mofaj/area/africa.html",
-+           "newTab": true
-+         },
-+         {
-+           "_key": "d7d4de4f95cd",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/プライベートツアー-メンフィスとサッカラ/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/プライベートツアー-メンフィスとサッカラ/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "718eead8c670",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "048b35de8ed9",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "肥沃なナイル・デルタの岸辺に広がるこの都市の現代的な姿は、969年、ファーティマ朝という先見の明を持った王朝によって描き出されました。しかし、今日のカイロが栄えるこの地には、さらに古い時代の都の記憶が静かに息づいており、その遺産はオールド・カイロの石造建築に深く刻まれています。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "64fcad17016b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "fe45b4108643",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "カイロは常にこの地域の政治と文化の中心として鼓動を打ち続けてきました。イスラム建築が街の随所に広がることから、「千のミナレットの都市」という美しい異名も持っています。また、グローバリゼーションと世界都市研究ネットワーク（GaWC）から「Beta+」都市として認定されており、世界都市としての地位も確立しています。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "2171ac50baf4",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "4f4e3dbc7ea0",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "総面積3,085平方キロメートルにわたり、1,900万人以上が暮らすカイロは、エジプトの中で群を抜く規模を誇ります。さらに周辺地域には約950万人が居住し、その都市圏は驚くべき広がりを見せています。とはいえ、この壮大な都市もまた、世界の他のメガシティと同様に、大気汚染や交通渋滞といった課題に直面しています。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "eefa7518d14d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "aacff22f0f68",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "カイロの地下鉄システムは、アルジェリアのアルジェと並びアフリカで稼働する唯一のものの一つであり、世界でも有数の混雑を誇ります。年間4,000万人以上の乗客に利用されており、都市の交通インフラを支える重要な存在です。経済面では、2005年以降中東地域をリードし、2010年の『Foreign Policy』誌「世界都市指数」では世界第43位にランクインしています。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "fa579c551c09",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3ce07836a275",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "カイロという名の由来とその本質"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h2"
-+     },
-+     {
-+       "_key": "93b91eba25fc",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "6fc5784b5144",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "エジプト・アラビア語で「マスル」と呼ばれるカイロ──この呼称は、エジプト全体を象徴するほど、国にとって不可欠な存在であることを示しています。正式名称「アル・カーヒラ」は「征服者」または「勝利者」を意味し、都市の建設時に「征服の星」とも称される火星が天に輝いていたことにちなんで名づけられました。この名はまた、マフディーヤから到着したファーティマ朝のカリフ、アル・ムイッズによる首都建設を記念するものでもあります。かつての古代都市ヘリオポリス──現在は「太陽の目」を意味するアイーン・シャムスという郊外の一部──も、この多層的な都市の歴史を物語る重要な一章です。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "4a6d08138212",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3c8c7b98e53a",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "「千のミナレット」が点在するカイロのスカイラインは、世界中の旅行者を魅了する壮大な景観を形づくっています。中でも、圧倒的なスケールを誇るギザのピラミッド群、古代エジプトの財宝が収められたエジプト考古学博物館、建築的に驚嘆すべきサッカラの階段ピラミッド、そして歴史を感じさせるサラディンのシタデルは必見です。また、宗教的な遺産としては、"
-+         },
-+         {
-+           "_key": "322af2f927d6",
-+           "_type": "span",
-+           "marks": [
-+             "8a8c67991024"
-+           ],
-+           "text": "ムハンマド・アリー・モスク"
-+         },
-+         {
-+           "_key": "b3c28ccf6cfc",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "や、アフリカ最初のモスクであるアムル・イブン・アル＝アース・モスクが壮麗にその存在感を放っています。"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "8a8c67991024",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/カイロ旅行ガイド/ムハンマド・アリー・モスク/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/カイロ旅行ガイド/ムハンマド・アリー・モスク/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "e10371c25a05",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "ba1b13e26149",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "カイロの歴史を彩るもう一つの魅力が、"
-+         },
-+         {
-+           "_key": "8358831b42b5",
-+           "_type": "span",
-+           "marks": [
-+             "b30795647f7c"
-+           ],
-+           "text": "コプト・カイロ地"
-+         },
-+         {
-+           "_key": "8e3c395fffad",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "区です。有名な吊り教会（ハンギング・チャーチ）やコプト博物館など、コプト教会の象徴的な名所が数多く残されています。賑やかな市場の雰囲気を体験したいなら、世界的に名高い観光市場「ハーン・ハリーリ」は欠かせません。"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "b30795647f7c",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/プライベートツアー：グランド・オールド・カイ/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/プライベートツアー：グランド・オールド・カイ/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "a45e39b3cfc8",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3bac9b0c4d2f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "また、カイロはアラブ世界で最も古く、最も影響力のある映画・音楽産業の発祥地であり、世界で2番目に古い高等教育機関「アズハル大学」の所在地でもあります。数多くの国際メディアや組織がこの地に地域本部を構え、アラブ連盟もその歴史の大部分を通してカイロに本部を置いてきました。この都市は、世界と中東地域の両方をつなぐダイナミックな交差点となっています。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "47ad44b290ce",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "9497886309b0",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "歴史と現代が交差する街──カイロを巡る旅は、時空を超える体験と、新しい価値観との出会いをもたらします。この街は、単なる観光地ではありません。"
-+         },
-+         {
-+           "_key": "121a92e1a01c",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "4c2a472f4de2",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "それは、文明という壮大な物語の中に息づく、いまなお書き続けられている生きた章なのです。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "91844d4fd7a4",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "750099f43150",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "作成日：2020年3月18日"
-+         },
-+         {
-+           "_key": "a433ba25a4b1",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "44ffc5321f23",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " 更新日：2024年8月"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "94fde7b24830",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "cdd65ecc98ac",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "カイロ旅行ガイド"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "c8a8b43f570b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "97481146e9fc",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "カイロの紹介"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "1f51d08a3b02",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "5b7c9ad0ffc4",
-+           "_type": "span",
-+           "marks": [
-+             "e2928da2ccb7"
-+           ],
-+           "text": "歴史"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "e2928da2ccb7",
-+           "_type": "externalLink",
-+           "href": "/ja/カイロの歴史をたどる旅/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "23f8905fe453",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "35665a96b3cd",
-+           "_type": "span",
-+           "marks": [
-+             "d77c6f2c53e7"
-+           ],
-+           "text": "天気"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "d77c6f2c53e7",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e5%a4%a9%e6%b0%97%e3%81%a8%e6%b0%97%e6%b8%a9/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e5%a4%a9%e6%b0%97%e3%81%a8%e6%b0%97%e6%b8%a9/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "9699424bc2b2",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a66708a58f0f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "旅行の計画"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "a92d9fd5d0f3",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "759d394b9f55",
-+           "_type": "span",
-+           "marks": [
-+             "f828bb66c3d5"
-+           ],
-+           "text": "行き方"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "f828bb66c3d5",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ab%e8%a1%8c%e3%81%8f%e3%81%ab%e3%81%af%e3%81%a9%e3%81%86%e3%81%99%e3%82%8b/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ab%e8%a1%8c%e3%81%8f%e3%81%ab%e3%81%af%e3%81%a9%e3%81%86%e3%81%99%e3%82%8b/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "be642e0c7b1a",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "38bd15c152b5",
-+           "_type": "span",
-+           "marks": [
-+             "e81f8569bdb8"
-+           ],
-+           "text": "宿泊先"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "e81f8569bdb8",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/カイロでの宿泊に最適な場所/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/カイロでの宿泊に最適な場所/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "d8eab880220d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "bee47cd08042",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "滞在中に"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "29c204811aa8",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "e92dbaf12b25",
-+           "_type": "span",
-+           "marks": [
-+             "242d35322207",
-+             "strong"
-+           ],
-+           "text": "現地での移動方法"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "242d35322207",
-+           "_type": "externalLink",
-+           "href": "/ja/カイロの移動手段ガイド/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "097da78f8054",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "7d0a3e811374",
-+           "_type": "span",
-+           "marks": [
-+             "aee292d79c08",
-+             "strong"
-+           ],
-+           "text": "おすすめのアクティビティ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "aee292d79c08",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e3%81%ae%e5%bf%83%ef%bc%9a%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%a7%e3%81%ae%e5%bf%85%e8%a6%8b%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e3%81%ae%e5%bf%83%ef%bc%9a%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%a7%e3%81%ae%e5%bf%85%e8%a6%8b%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "491f40b383bf",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "9f2b2cff673a",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "見どころ"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "cd877dde741e",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "ca634bdbb0b0",
-+           "_type": "span",
-+           "marks": [
-+             "1e371d07b009"
-+           ],
-+           "text": "エジプト考古学博物館"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "1e371d07b009",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e8%80%83%e5%8f%a4%e5%ad%a6%e5%8d%9a%e7%89%a9%e9%a4%a8/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e8%80%83%e5%8f%a4%e5%ad%a6%e5%8d%9a%e7%89%a9%e9%a4%a8/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "70b1db4bf9b1",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "eae9536e3464",
-+           "_type": "span",
-+           "marks": [
-+             "bd1fd5776857"
-+           ],
-+           "text": "北墓地"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "bd1fd5776857",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e5%a2%93%e5%9c%b0/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e5%a2%93%e5%9c%b0/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "b8490e43e003",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "1aebaadf956d",
-+           "_type": "span",
-+           "marks": [
-+             "0b00b9d097b0"
-+           ],
-+           "text": "スルタン・アシュラフ・バーズベイの複合施設"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "0b00b9d097b0",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%a2%e3%82%b7%e3%83%a5%e3%83%a9%e3%83%95%e3%83%bb%e3%83%90%e3%83%ab%e3%82%b9%e3%83%99%e3%82%a4%e3%81%ae%e8%a4%87%e5%90%88%e6%96%bd%e8%a8%ad/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%a2%e3%82%b7%e3%83%a5%e3%83%a9%e3%83%95%e3%83%bb%e3%83%90%e3%83%ab%e3%82%b9%e3%83%99%e3%82%a4%e3%81%ae%e8%a4%87%e5%90%88%e6%96%bd%e8%a8%ad/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "c88379dffb76",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "b9e17cd8c877",
-+           "_type": "span",
-+           "marks": [
-+             "7809c2873e73"
-+           ],
-+           "text": "ファラーグ・イブン・バルクークのカーンカ・モスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "7809c2873e73",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%95%e3%82%a1%e3%83%a9%e3%82%b0%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%90%e3%83%ab%e3%82%af%e3%83%bc%e3%82%af%e3%81%ae%e3%83%8f%e3%83%b3%e3%82%ab%e3%83%bc%e3%81%a8%e9%9c%8a%e5%bb%9f/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%95%e3%82%a1%e3%83%a9%e3%82%b0%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%90%e3%83%ab%e3%82%af%e3%83%bc%e3%82%af%e3%81%ae%e3%83%8f%e3%83%b3%e3%82%ab%e3%83%bc%e3%81%a8%e9%9c%8a%e5%bb%9f/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "fab5e5313f49",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "b5a6d4271d84",
-+           "_type": "span",
-+           "marks": [
-+             "1fc8576a8347"
-+           ],
-+           "text": "スルタン・カイトベイのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "1fc8576a8347",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%ab%e3%82%a4%e3%83%88%e3%83%99%e3%82%a4%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%ab%e3%82%a4%e3%83%88%e3%83%99%e3%82%a4%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "1c41bb1d6b6b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "23d4a9feafa5",
-+           "_type": "span",
-+           "marks": [
-+             "a9f91e30e704"
-+           ],
-+           "text": "ゲイヤー・アンダーソン博物館"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "a9f91e30e704",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%83%bb%e3%82%a2%e3%83%b3%e3%83%80%e3%83%bc%e3%82%bd%e3%83%b3%e5%8d%9a%e7%89%a9%e9%a4%a8/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%83%bb%e3%82%a2%e3%83%b3%e3%83%80%e3%83%bc%e3%82%bd%e3%83%b3%e5%8d%9a%e7%89%a9%e9%a4%a8/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "c9bb96b81ae0",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "5cd24a470d95",
-+           "_type": "span",
-+           "marks": [
-+             "7c4e2d94a562"
-+           ],
-+           "text": "イブン・トゥルーンのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "7c4e2d94a562",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%88%e3%82%a5%e3%83%bc%e3%83%ab%e3%83%bc%e3%83%b3%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%88%e3%82%a5%e3%83%bc%e3%83%ab%e3%83%bc%e3%83%b3%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "ef380253454e",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "05c50a7b8186",
-+           "_type": "span",
-+           "marks": [
-+             "f006ccf54da8"
-+           ],
-+           "text": "メヴレヴィ博物館"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "f006ccf54da8",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a1%e3%83%b4%e3%83%ac%e3%83%b4%e3%82%a3%e5%8d%9a%e7%89%a9%e9%a4%a8/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a1%e3%83%b4%e3%83%ac%e3%83%b4%e3%82%a3%e5%8d%9a%e7%89%a9%e9%a4%a8/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "4c521ded8cb5",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "eb7a40f502de",
-+           "_type": "span",
-+           "marks": [
-+             "ee94df977757"
-+           ],
-+           "text": "アミール・タズ宮殿"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "ee94df977757",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%9f%e3%83%bc%e3%83%ab%e3%83%bb%e3%82%bf%e3%82%ba%e5%ae%ae%e6%ae%bf/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%9f%e3%83%bc%e3%83%ab%e3%83%bb%e3%82%bf%e3%82%ba%e5%ae%ae%e6%ae%bf/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "6caab488257d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "c91d901d1a52",
-+           "_type": "span",
-+           "marks": [
-+             "9a2813a6e72d"
-+           ],
-+           "text": "アル・アズハルから城塞まで"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "9a2813a6e72d",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%a2%e3%82%ba%e3%83%8f%e3%83%ab%e3%81%8b%e3%82%89%e5%9f%8e%e5%a1%9e%ef%bc%88%e3%82%b7%e3%82%bf%e3%83%87%e3%83%ab%ef%bc%89%e3%81%b8/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%a2%e3%82%ba%e3%83%8f%e3%83%ab%e3%81%8b%e3%82%89%e5%9f%8e%e5%a1%9e%ef%bc%88%e3%82%b7%e3%82%bf%e3%83%87%e3%83%ab%ef%bc%89%e3%81%b8/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "e59f129d4d38",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "4953fbdf9b56",
-+           "_type": "span",
-+           "marks": [
-+             "8292193ade5f"
-+           ],
-+           "text": "サラディン城塞"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "8292193ade5f",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%a9%e3%83%87%e3%82%a3%e3%83%b3%e3%81%ae%e5%9f%8e%e5%a1%9e/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%a9%e3%83%87%e3%82%a3%e3%83%b3%e3%81%ae%e5%9f%8e%e5%a1%9e/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "63d2bf3e62af",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "9ca9ef487707",
-+           "_type": "span",
-+           "marks": [
-+             "c5ef0e4ccec2"
-+           ],
-+           "text": "スルタン・ハッサンのモスク・マドラサ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "c5ef0e4ccec2",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%83%8f%e3%82%b5%e3%83%b3%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af%e3%81%a8%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%83%8f%e3%82%b5%e3%83%b3%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af%e3%81%a8%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "7ac8a9df53d8",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "e7a98b0329cc",
-+           "_type": "span",
-+           "marks": [
-+             "e6d2d4ce226b"
-+           ],
-+           "text": "北囲い"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "e6d2d4ce226b",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e3%81%ae%e5%9b%b2%e9%83%ad%ef%bc%88%e3%83%8e%e3%83%bc%e3%82%b6%e3%83%b3%e3%83%bb%e3%82%a8%e3%83%b3%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%a3%e3%83%bc%ef%bc%89/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e3%81%ae%e5%9b%b2%e9%83%ad%ef%bc%88%e3%83%8e%e3%83%bc%e3%82%b6%e3%83%b3%e3%83%bb%e3%82%a8%e3%83%b3%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%a3%e3%83%bc%ef%bc%89/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "b924cd22f2e0",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "5b952ea48444",
-+           "_type": "span",
-+           "marks": [
-+             "65113fbad474"
-+           ],
-+           "text": "ジャワハラ・テラス"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "65113fbad474",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ac%e3%82%a6%e3%83%8f%e3%83%a9%e3%83%bb%e3%83%86%e3%83%a9%e3%82%b9/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ac%e3%82%a6%e3%83%8f%e3%83%a9%e3%83%bb%e3%83%86%e3%83%a9%e3%82%b9/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "453d77bcc3eb",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "2180e65c37d7",
-+           "_type": "span",
-+           "marks": [
-+             "27d2137c2c07"
-+           ],
-+           "text": "アンサール・ムハンマドのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "27d2137c2c07",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%8a%e3%83%bc%e3%82%b9%e3%82%a3%e3%83%ab%e3%83%bb%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%82%ab%e3%83%a9%e3%82%a6/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%8a%e3%83%bc%e3%82%b9%e3%82%a3%e3%83%ab%e3%83%bb%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%82%ab%e3%83%a9%e3%82%a6/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "80ac56da2f63",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "b9d7b3f93a65",
-+           "_type": "span",
-+           "marks": [
-+             "e72b2a1d0fd7"
-+           ],
-+           "text": "ムハンマド・アリのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "e72b2a1d0fd7",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "75651edd1bfa",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "4afbf0f62b0e",
-+           "_type": "span",
-+           "marks": [
-+             "5f0c58a97c8d"
-+           ],
-+           "text": "イブン・トゥルーン城塞"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "5f0c58a97c8d",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%88%e3%82%a5%e3%83%bc%e3%83%ab%e3%83%bc%e3%83%b3%e5%9f%8e%e5%a1%9e/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%88%e3%82%a5%e3%83%bc%e3%83%ab%e3%83%bc%e3%83%b3%e5%9f%8e%e5%a1%9e/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "5cadb05fbb51",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "71a64704cf4a",
-+           "_type": "span",
-+           "marks": [
-+             "3a4b4c973fed"
-+           ],
-+           "text": "カイリベク複合施設"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "3a4b4c973fed",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8f%e3%82%a4%e3%83%bc%e3%83%ab%e3%83%99%e3%82%a4%e3%83%bb%e3%82%b3%e3%83%b3%e3%83%97%e3%83%ac%e3%83%83%e3%82%af%e3%82%b9/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8f%e3%82%a4%e3%83%bc%e3%83%ab%e3%83%99%e3%82%a4%e3%83%bb%e3%82%b3%e3%83%b3%e3%83%97%e3%83%ac%e3%83%83%e3%82%af%e3%82%b9/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "28e519654ce0",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "bd6315d875a5",
-+           "_type": "span",
-+           "marks": [
-+             "1957d55fa77f"
-+           ],
-+           "text": "アクスヌールのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "1957d55fa77f",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%af%e3%82%b9%e3%83%8c%e3%83%bc%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%af%e3%82%b9%e3%83%8c%e3%83%bc%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "18ff63cc7110",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "00d984197fdf",
-+           "_type": "span",
-+           "marks": [
-+             "9da14cd4756b"
-+           ],
-+           "text": "ウム・スルタン・シャアバンのモスク・マドラサ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "9da14cd4756b",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a6%e3%83%a0%e3%83%bb%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%b7%e3%83%a3%e3%82%a2%e3%83%90%e3%83%bc%e3%83%b3%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af%e3%81%a8%e3%83%9e%e3%83%89%e3%83%a9/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a6%e3%83%a0%e3%83%bb%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%b7%e3%83%a3%e3%82%a2%e3%83%90%e3%83%bc%e3%83%b3%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af%e3%81%a8%e3%83%9e%e3%83%89%e3%83%a9/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "ff7e0b78441b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "0f4902e36127",
-+           "_type": "span",
-+           "marks": [
-+             "898ef10f0b67"
-+           ],
-+           "text": "アスラム・アル・シラフダーのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "898ef10f0b67",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%a9%e3%83%a0%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%b7%e3%83%a9%e3%83%95%e3%83%80%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%a9%e3%83%a0%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%b7%e3%83%a9%e3%83%95%e3%83%80%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "80d916c5a67b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "10ff28c1b2dd",
-+           "_type": "span",
-+           "marks": [
-+             "c92c9b226295"
-+           ],
-+           "text": "イスラム美術博物館"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "c92c9b226295",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%82%b9%e3%83%a9%e3%83%a0%e7%be%8e%e8%a1%93%e9%a4%a8/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%82%b9%e3%83%a9%e3%83%a0%e7%be%8e%e8%a1%93%e9%a4%a8/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "64621d9edf5c",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "f2437383191d",
-+           "_type": "span",
-+           "marks": [
-+             "32b029161e49"
-+           ],
-+           "text": "アル・ムアイッド・シャイフのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "32b029161e49",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%a0%e3%82%a2%e3%82%a4%e3%83%a4%e3%83%89%e3%83%bb%e3%82%b7%e3%83%a3%e3%82%a4%e3%83%95%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%a0%e3%82%a2%e3%82%a4%e3%83%a4%e3%83%89%e3%83%bb%e3%82%b7%e3%83%a3%e3%82%a4%e3%83%95%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "1ba53bc3eac2",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "4030ed9281dc",
-+           "_type": "span",
-+           "marks": [
-+             "2fc3baa032b4"
-+           ],
-+           "text": "バブ・ズウイラ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "2fc3baa032b4",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%90%e3%83%96%e3%83%bb%e3%82%ba%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%a9/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%90%e3%83%96%e3%83%bb%e3%82%ba%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%a9/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "536aa91b8b82",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "12259cfddefa",
-+           "_type": "span",
-+           "marks": [
-+             "969c16535409"
-+           ],
-+           "text": "ムハンマド・アリ・パシャのサビール"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "969c16535409",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%91%e3%82%b7%e3%83%a3%e3%81%ae%e3%82%b5%e3%83%93%e3%83%bc%e3%83%ab/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%91%e3%82%b7%e3%83%a3%e3%81%ae%e3%82%b5%e3%83%93%e3%83%bc%e3%83%ab/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "118b2a53bcb5",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "c53baff285c7",
-+           "_type": "span",
-+           "marks": [
-+             "caa6c9e13450"
-+           ],
-+           "text": "アル・グーフリ・ウィカラ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "caa6c9e13450",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b0%e3%83%bc%e3%83%aa%e3%83%bc%e3%83%bb%e3%82%a6%e3%82%a3%e3%82%ab%e3%83%a9/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b0%e3%83%bc%e3%83%aa%e3%83%bc%e3%83%bb%e3%82%a6%e3%82%a3%e3%82%ab%e3%83%a9/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "91630b4a9fa2",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "24ba3cfab572",
-+           "_type": "span",
-+           "marks": [
-+             "6f1cf380d847"
-+           ],
-+           "text": "アル・グーフリのモスク・マドラサ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "6f1cf380d847",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b0%e3%83%bc%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af%e5%85%bc%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b0%e3%83%bc%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af%e5%85%bc%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "eecfad169697",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "982747b910f5",
-+           "_type": "span",
-+           "marks": [
-+             "18cb352d2853"
-+           ],
-+           "text": "アル・グーフリの霊廟"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "18cb352d2853",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%b0%e3%83%bc%e3%83%aa%e5%bb%9f/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%b0%e3%83%bc%e3%83%aa%e5%bb%9f/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "01d8eb625286",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a766e719a1ec",
-+           "_type": "span",
-+           "marks": [
-+             "c94b7d121031"
-+           ],
-+           "text": "ベイト・アル・ハラウィ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "c94b7d121031",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%83%a9%e3%82%a6%e3%82%a3/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%83%a9%e3%82%a6%e3%82%a3/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "5473cd352fbb",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "849b9add0fb6",
-+           "_type": "span",
-+           "marks": [
-+             "faebfb667e43"
-+           ],
-+           "text": "ベイト・ゼイナブ・アル・カトゥーン"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "faebfb667e43",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%bc%e3%82%a4%e3%83%8a%e3%83%96%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ab%e3%83%88%e3%82%a5%e3%83%bc%e3%83%b3/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%bc%e3%82%a4%e3%83%8a%e3%83%96%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ab%e3%83%88%e3%82%a5%e3%83%bc%e3%83%b3/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "fa6699c4102d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "0cdc8b9df6e5",
-+           "_type": "span",
-+           "marks": [
-+             "96ab20f5d347"
-+           ],
-+           "text": "アル・アズハル・モスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "96ab20f5d347",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%ba%e3%83%8f%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%ba%e3%83%8f%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "b8358bca79ea",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "75ec4fdeec98",
-+           "_type": "span",
-+           "marks": [
-+             "3d0f924f2495"
-+           ],
-+           "text": "シャリア・アル・ムイッズ・リディン・アッラー"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "3d0f924f2495",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b7%e3%83%a3%e3%83%bc%e3%83%aa%e3%82%a2%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%a0%e3%82%a4%e3%83%83%e3%82%ba%e3%83%bb%e3%83%aa%e3%83%83%e3%83%87%e3%82%a3%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b7%e3%83%a3%e3%83%bc%e3%83%aa%e3%82%a2%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%a0%e3%82%a4%e3%83%83%e3%82%ba%e3%83%bb%e3%83%aa%e3%83%83%e3%83%87%e3%82%a3%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "2f07d80d8089",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d9a14d670633",
-+           "_type": "span",
-+           "marks": [
-+             "ff492f60f040"
-+           ],
-+           "text": "アル・アクマールのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "ff492f60f040",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%a2%e3%82%af%e3%83%9e%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%a2%e3%82%af%e3%83%9e%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "26618341dbcf",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d7efcfe27269",
-+           "_type": "span",
-+           "marks": [
-+             "6548def28be9"
-+           ],
-+           "text": "ベイト・アル・スハイミ（アル・スハイミ家）"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "6548def28be9",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b9%e3%83%8f%e3%82%a4%e3%83%9f%ef%bc%88%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b9%e3%83%8f%e3%82%a4%e3%83%9f%e9%82%b8%ef%bc%89/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b9%e3%83%8f%e3%82%a4%e3%83%9f%ef%bc%88%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b9%e3%83%8f%e3%82%a4%e3%83%9f%e9%82%b8%ef%bc%89/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "d444dd7023d7",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "81b4a426ecfe",
-+           "_type": "span",
-+           "marks": [
-+             "800181eaf216"
-+           ],
-+           "text": "アル・ハキムのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "800181eaf216",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%82%ad%e3%83%a0%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%82%ad%e3%83%a0%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "46b373603b5f",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "ea4d9c661fa1",
-+           "_type": "span",
-+           "marks": [
-+             "000a4bc63d2a"
-+           ],
-+           "text": "北の壁と門"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "000a4bc63d2a",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e5%81%b4%e3%81%ae%e5%a3%81%e3%81%a8%e9%96%80/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e5%81%b4%e3%81%ae%e5%a3%81%e3%81%a8%e9%96%80/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "cb87a0880c75",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "325349f611b2",
-+           "_type": "span",
-+           "marks": [
-+             "500a83c5dab7"
-+           ],
-+           "text": "ウィカラ・アル・バザラ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "500a83c5dab7",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a6%e3%82%a3%e3%82%ab%e3%83%a9%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%90%e3%82%b6%e3%83%bc%e3%83%a9/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a6%e3%82%a3%e3%82%ab%e3%83%a9%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%90%e3%82%b6%e3%83%bc%e3%83%a9/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "ad81e950eb37",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "e2300685c0d0",
-+           "_type": "span",
-+           "marks": [
-+             "5a96bc584089"
-+           ],
-+           "text": "スルタン・バイバルズ・アル・ガシャンクィールのカーンカと霊廟"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "5a96bc584089",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%83%90%e3%82%a4%e3%83%90%e3%83%ab%e3%82%b9%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ac%e3%82%b7%e3%83%a3%e3%83%b3%e3%82%ad%e3%83%bc%e3%83%ab%e3%81%ae/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%83%90%e3%82%a4%e3%83%90%e3%83%ab%e3%82%b9%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ac%e3%82%b7%e3%83%a3%e3%83%b3%e3%82%ad%e3%83%bc%e3%83%ab%e3%81%ae/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "548765dcb116",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "b66779dfbbf7",
-+           "_type": "span",
-+           "marks": [
-+             "7b9a646cb5f4"
-+           ],
-+           "text": "エジプト繊維博物館"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "7b9a646cb5f4",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e7%b9%94%e7%89%a9%e5%8d%9a%e7%89%a9%e9%a4%a8/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e7%b9%94%e7%89%a9%e5%8d%9a%e7%89%a9%e9%a4%a8/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "11a8dadf4696",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "66acbea3ce26",
-+           "_type": "span",
-+           "marks": [
-+             "23a0808ab11c"
-+           ],
-+           "text": "アブデル・ラフマン・カトフダのサビールとクッターブ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "23a0808ab11c",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%83%89%e3%83%ab%e3%83%bb%e3%83%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%83%bb%e3%82%ab%e3%83%88%e3%83%95%e3%83%80%e3%83%bc%e3%81%ae%e3%82%b5%e3%83%93%e3%83%bc%e3%83%ab%e3%81%a8%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%83%89%e3%83%ab%e3%83%bb%e3%83%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%83%bb%e3%82%ab%e3%83%88%e3%83%95%e3%83%80%e3%83%bc%e3%81%ae%e3%82%b5%e3%83%93%e3%83%bc%e3%83%ab%e3%81%a8%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "f558c88caa66",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "298ccb9b8d99",
-+           "_type": "span",
-+           "marks": [
-+             "bf9e82f42de9"
-+           ],
-+           "text": "アンサール・ムハンマド・スルタンのマドラサと霊廟"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "bf9e82f42de9",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%b3%ef%bc%9d%e3%83%8a%e3%83%bc%e3%82%b9%e3%82%a3%e3%83%ab%e3%83%bb%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%81%ae%e3%83%9e%e3%83%89/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%b3%ef%bc%9d%e3%83%8a%e3%83%bc%e3%82%b9%e3%82%a3%e3%83%ab%e3%83%bb%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%81%ae%e3%83%9e%e3%83%89/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "b7dff5217ca5",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "8aa49ada087e",
-+           "_type": "span",
-+           "marks": [
-+             "425e26c5eab2"
-+           ],
-+           "text": "バークークのマドラサと霊廟"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "425e26c5eab2",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%90%e3%83%ab%e3%82%af%e3%83%bc%e3%82%af%e3%81%ae%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5%e3%81%a8%e9%9c%8a%e5%bb%9f/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%90%e3%83%ab%e3%82%af%e3%83%bc%e3%82%af%e3%81%ae%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5%e3%81%a8%e9%9c%8a%e5%bb%9f/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "486f29ffa288",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "4cbb60b9fd6d",
-+           "_type": "span",
-+           "marks": [
-+             "e579df293edb"
-+           ],
-+           "text": "アス・サリフ・アユーブのマドラサと霊廟"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "e579df293edb",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%bc%e3%83%aa%e3%83%95%e3%83%bb%e3%83%8a%e3%82%b8%e3%83%a5%e3%83%a0%e3%83%bb%e3%82%a8%e3%83%83%e3%83%87%e3%82%a3%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2%e3%82%a4%e3%83%a6%e3%83%bc%e3%83%96/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%bc%e3%83%aa%e3%83%95%e3%83%bb%e3%83%8a%e3%82%b8%e3%83%a5%e3%83%a0%e3%83%bb%e3%82%a8%e3%83%83%e3%83%87%e3%82%a3%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2%e3%82%a4%e3%83%a6%e3%83%bc%e3%83%96/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "5340930437b4",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d8f1fa136ea5",
-+           "_type": "span",
-+           "marks": [
-+             "feca785a9fae"
-+           ],
-+           "text": "ベイン・アル・カスリーン通り（2つの宮殿の間の通り）"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "feca785a9fae",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ab%e3%82%b9%e3%83%ac%e3%82%a4%e3%83%b3%e9%80%9a%e3%82%8a/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ab%e3%82%b9%e3%83%ac%e3%82%a4%e3%83%b3%e9%80%9a%e3%82%8a/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "3b0107d29abe",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "5856617a0b6b",
-+           "_type": "span",
-+           "marks": [
-+             "3dfc3053baf1"
-+           ],
-+           "text": "カラウーンのマドラサと霊廟"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "3dfc3053baf1",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%83%a9%e3%83%bc%e3%82%a6%e3%83%bc%e3%83%b3%e3%81%ae%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5%e3%81%a8%e9%9c%8a%e5%bb%9f/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%83%a9%e3%83%bc%e3%82%a6%e3%83%bc%e3%83%b3%e3%81%ae%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5%e3%81%a8%e9%9c%8a%e5%bb%9f/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "52b3f284fa66",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "076421cecba4",
-+           "_type": "span",
-+           "marks": [
-+             "37c2dd2057dc"
-+           ],
-+           "text": "サイイドナ・アル・フセインのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "37c2dd2057dc",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b7%e3%82%a7%e3%82%a4%e3%83%89%e3%83%8a%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95%e3%82%bb%e3%82%a4%e3%83%b3%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b7%e3%82%a7%e3%82%a4%e3%83%89%e3%83%8a%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95%e3%82%bb%e3%82%a4%e3%83%b3%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "08d4b9a8ad92",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "1bf23837786e",
-+           "_type": "span",
-+           "marks": [
-+             "563039fa1fb8"
-+           ],
-+           "text": "ミダン・アル・フセイン（サイイドナ・アル・フセイン広場）"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "563039fa1fb8",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%9f%e3%83%80%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95%e3%82%bb%e3%82%a4%e3%83%b3%ef%bc%88%e3%82%b7%e3%82%a7%e3%82%a4%e3%83%89%e3%83%8a%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%9f%e3%83%80%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95%e3%82%bb%e3%82%a4%e3%83%b3%ef%bc%88%e3%82%b7%e3%82%a7%e3%82%a4%e3%83%89%e3%83%8a%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "483ac036f4a4",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "31d89e7673f3",
-+           "_type": "span",
-+           "marks": [
-+             "7056cc208cdc"
-+           ],
-+           "text": "カーン・アル・ハリリバザール（カイロで最も有名なバザール）"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "7056cc208cdc",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8f%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%83%aa%e3%83%aa-%e3%83%90%e3%82%b6%e3%83%bc%e3%83%ab/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8f%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%83%aa%e3%83%aa-%e3%83%90%e3%82%b6%e3%83%bc%e3%83%ab/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "a4658a8cb42b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3bb27cf33358",
-+           "_type": "span",
-+           "marks": [
-+             "b2a141183277"
-+           ],
-+           "text": "コプト地区"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "b2a141183277",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b3%e3%83%97%e3%83%88%e3%83%bb%e3%82%ab%e3%82%a4%e3%83%ad/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b3%e3%83%97%e3%83%88%e3%83%bb%e3%82%ab%e3%82%a4%e3%83%ad/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "8df8dd876989",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "8c59d996b0e5",
-+           "_type": "span",
-+           "marks": [
-+             "fb21b8ed1ff4"
-+           ],
-+           "text": "アムル・イブン・アル・アスのモスク"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "fb21b8ed1ff4",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%a0%e3%83%ab%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%a2%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%a0%e3%83%ab%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%a2%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "baa8b4598a6d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d243c2c6def5",
-+           "_type": "span",
-+           "marks": [
-+             "f110c46ca5c4"
-+           ],
-+           "text": "ベン・エズラ・シナゴーグ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "f110c46ca5c4",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%83%b3%e3%83%bb%e3%82%a8%e3%82%ba%e3%83%a9%e3%83%bb%e3%82%b7%e3%83%8a%e3%82%b4%e3%83%bc%e3%82%b0/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%83%b3%e3%83%bb%e3%82%a8%e3%82%ba%e3%83%a9%e3%83%bb%e3%82%b7%e3%83%8a%e3%82%b4%e3%83%bc%e3%82%b0/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "c4bf0f1a90a1",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "4763fc92a57f",
-+           "_type": "span",
-+           "marks": [
-+             "023607f8d939"
-+           ],
-+           "text": "ローマの塔"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "023607f8d939",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%ad%e3%83%bc%e3%83%9e%e3%81%ae%e5%a1%94/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%ad%e3%83%bc%e3%83%9e%e3%81%ae%e5%a1%94/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "d5f6760d5357",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "e0198a591a28",
-+           "_type": "span",
-+           "marks": [
-+             "7b8ec4a7a2ea"
-+           ],
-+           "text": "セント・セルギウスとバッカスの教会"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "7b8ec4a7a2ea",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%82%bb%e3%83%ab%e3%82%ae%e3%82%a6%e3%82%b9%e3%81%a8%e3%83%90%e3%83%83%e3%82%ab%e3%82%b9%e6%95%99%e4%bc%9a/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%82%bb%e3%83%ab%e3%82%ae%e3%82%a6%e3%82%b9%e3%81%a8%e3%83%90%e3%83%83%e3%82%ab%e3%82%b9%e6%95%99%e4%bc%9a/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "c2c8e76d0c76",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "23f18d3d9db1",
-+           "_type": "span",
-+           "marks": [
-+             "78fce3711819"
-+           ],
-+           "text": "コプト博物館（エジプト唯一のコプト博物館）"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "78fce3711819",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b3%e3%83%97%e3%83%88%e5%8d%9a%e7%89%a9%e9%a4%a8/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b3%e3%83%97%e3%83%88%e5%8d%9a%e7%89%a9%e9%a4%a8/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "cad6a5602b21",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "ea0087fc279b",
-+           "_type": "span",
-+           "marks": [
-+             "3b7b467fef0e"
-+           ],
-+           "text": "セント・バーバラの教会"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "3b7b467fef0e",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%83%90%e3%83%ab%e3%83%90%e3%83%a9%e6%95%99%e4%bc%9a/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%83%90%e3%83%ab%e3%83%90%e3%83%a9%e6%95%99%e4%bc%9a/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "a5e915a77fb1",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "9c7bd74f7f73",
-+           "_type": "span",
-+           "marks": [
-+             "71e22b7478fb"
-+           ],
-+           "text": "ハンギング・チャーチ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "71e22b7478fb",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%b3%e3%82%ae%e3%83%b3%e3%82%b0%e3%83%bb%e3%83%81%e3%83%a3%e3%83%bc%e3%83%81/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%b3%e3%82%ae%e3%83%b3%e3%82%b0%e3%83%bb%e3%83%81%e3%83%a3%e3%83%bc%e3%83%81/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "5069980033a6",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "6f8b48773b39",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "その他"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "061f92b4bd96",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "c3038e928abb",
-+           "_type": "span",
-+           "marks": [
-+             "0a9c830fa234",
-+             "strong"
-+           ],
-+           "text": "ツアー"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "0a9c830fa234",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%a6%b3%e5%85%89%e3%83%ab%e3%83%bc%e3%83%88/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%a6%b3%e5%85%89%e3%83%ab%e3%83%bc%e3%83%88/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "ac774d74cc8d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "6c81e8a10a19",
-+           "_type": "span",
-+           "marks": [
-+             "ac25d55c40e7",
-+             "strong"
-+           ],
-+           "text": "食事"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "ac25d55c40e7",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e7%be%8e%e9%a3%9f%e6%8e%a2%e8%a8%aa%ef%bc%9a%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e9%a6%96%e9%83%bd%e3%81%ae%e5%91%b3%e3%82%8f%e3%81%84/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e7%be%8e%e9%a3%9f%e6%8e%a2%e8%a8%aa%ef%bc%9a%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e9%a6%96%e9%83%bd%e3%81%ae%e5%91%b3%e3%82%8f%e3%81%84/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "2adfcfd3574a",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "c9bf9cb203f5",
-+           "_type": "span",
-+           "marks": [
-+             "5ee973058f8f",
-+             "strong"
-+           ],
-+           "text": "ここだけ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "5ee973058f8f",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e7%9c%9f%e5%ae%9f%ef%bc%9a%e5%8d%83%e3%81%ae%e3%83%9f%e3%83%8a%e3%83%ac%e3%83%83%e3%83%88%e3%81%ae%e8%a1%97/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e7%9c%9f%e5%ae%9f%ef%bc%9a%e5%8d%83%e3%81%ae%e3%83%9f%e3%83%8a%e3%83%ac%e3%83%83%e3%83%88%e3%81%ae%e8%a1%97/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "b2653836c050",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "631a570cf2b2",
-+           "_type": "span",
-+           "marks": [
-+             "e12d9b7a30a2",
-+             "strong"
-+           ],
-+           "text": "イベント"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "e12d9b7a30a2",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%83%9b%e3%83%a9%e3%82%a4%e3%82%ba%e3%83%b3%ef%bc%9a%e6%96%87%e5%8c%96%e7%9a%84%e7%a5%ad%e3%82%8a%e3%81%ae%e6%97%85%e8%a1%8c/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%83%9b%e3%83%a9%e3%82%a4%e3%82%ba%e3%83%b3%ef%bc%9a%e6%96%87%e5%8c%96%e7%9a%84%e7%a5%ad%e3%82%8a%e3%81%ae%e6%97%85%e8%a1%8c/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "df106e0b7c46",
-+       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
-+       "_type": "image",
-+       "alt": [
-+         {
-+           "_key": "en",
-+           "value": "Cairo Food Guide"
-+         }
-+       ],
-+       "caption": [
-+         {
-+           "_key": "en",
-+           "value": "ナイル川と街の古代の魅力が出会うカイロの黄金の時間"
-+         }
-+       ]
-+     },
-+     {
-+       "_key": "e1dec450b7f8",
-+       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
-+       "_type": "image",
-+       "alt": [
-+         {
-+           "_key": "en",
-+           "value": "Cairo Food Guide"
-+         }
-+       ],
-+       "caption": [
-+         {
-+           "_key": "en",
-+           "value": "カイロの城塞：中世の壮麗さと都市の拡大の融合"
-+         }
-+       ]
-+     }
-+   ],
-+   "slug": {
-+     "_type": "slug",
-+     "current": "カイロ"
-+   },
-+   "summary": "エジプトの心を巡る旅：カイロ完全ガイド エジプトの本質を感じる旅へ──この充実したカイロ・トラベルガイドとともに。活気あふれる首都カイロは、歴史・文化・現代性が交差する灯台のような存在です。エジプト最大の都市であるだけでなく、アフリカ大陸においても極めて重要な役割を果たし、中東・アラブ世界における主要な都市拠点でもあります。世界第15位の都市圏を誇るカイロは、古代文明の記憶が織り込まれた壮大なタペストリーのような街。その象徴ともいえるのが、壮麗なギザのピラミッド群や、歴史を物語るメンフィス遺跡です。 肥沃なナイル・デルタの岸辺に広がるこの都市の現代的な姿"
-+ }
+  {
+    "name": "カイロ旅行ガイド",
+    "overview": [
+      {
+-       "_key": "f693bd95d0a4",
++       "_key": "179d67189d72",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "224a4ce2057e",
++           "_key": "04a607a8e74e",
+            "_type": "span",
+            "marks": [],
+            "text": "エジプトの心を巡る旅：カイロ完全ガイド"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+-       "_key": "16ff1bf8b24a",
++       "_key": "74e689270fe5",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "a6094ff5300b",
++           "_key": "9fb3ba7223bd",
+            "_type": "span",
+            "marks": [],
+            "text": "エジプトの本質を感じる旅へ──この充実したカイロ・トラベルガイドとともに。"
+          },
+          {
+-           "_key": "6ba2520fb5ea",
++           "_key": "0f06b1522c46",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "e867caefcb6a",
++           "_key": "7a9de0f47f68",
+            "_type": "span",
+            "marks": [],
+            "text": "活気あふれる首都カイロは、歴史・文化・現代性が交差する灯台のような存在です。エジプト最大の都市であるだけでなく、"
+          },
+          {
+-           "_key": "d0de81c4f07d",
++           "_key": "b03e256ee8d9",
+            "_type": "span",
+            "marks": [
+-             "78e06f0aa1a7"
++             "594d550ef502"
+            ],
+            "text": "アフリカ大陸"
+          },
+          {
+-           "_key": "c03fc2505cf5",
++           "_key": "9e7fe38628c4",
+            "_type": "span",
+            "marks": [],
+            "text": "においても極めて重要な役割を果たし、中東・アラブ世界における主要な都市拠点でもあります。世界第15位の都市圏を誇るカイロは、古代文明の記憶が織り込まれた壮大なタペストリーのような街。その象徴ともいえるのが、壮麗なギザのピラミッド群や、歴史を物語る"
+          },
+          {
+-           "_key": "55d2c7884801",
++           "_key": "23f1684f2ca6",
+            "_type": "span",
+            "marks": [
+-             "82d787fee39c"
++             "6c8733aaceed"
+            ],
+            "text": "メンフィス"
+          },
+          {
+-           "_key": "8c5135eb700b",
++           "_key": "23b753dc21af",
+            "_type": "span",
+            "marks": [],
+            "text": "遺跡です。"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "78e06f0aa1a7",
++           "_key": "594d550ef502",
+            "_type": "externalLink",
+            "href": "https://www.mofa.go.jp/mofaj/area/africa.html",
+            "newTab": true
+          },
+          {
+-           "_key": "82d787fee39c",
++           "_key": "6c8733aaceed",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/プライベートツアー-メンフィスとサッカラ/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/プライベートツアー-メンフィスとサッカラ/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "285da6fed89a",
++       "_key": "ecb9110209da",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "1d6c29135960",
++           "_key": "cc3e25c9aa4d",
+            "_type": "span",
+            "marks": [],
+            "text": "肥沃なナイル・デルタの岸辺に広がるこの都市の現代的な姿は、969年、ファーティマ朝という先見の明を持った王朝によって描き出されました。しかし、今日のカイロが栄えるこの地には、さらに古い時代の都の記憶が静かに息づいており、その遺産はオールド・カイロの石造建築に深く刻まれています。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "ed8bbd71abae",
++       "_key": "5a50c0f15c1f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "42c459e4f422",
++           "_key": "ac3b727d6007",
+            "_type": "span",
+            "marks": [],
+            "text": "カイロは常にこの地域の政治と文化の中心として鼓動を打ち続けてきました。イスラム建築が街の随所に広がることから、「千のミナレットの都市」という美しい異名も持っています。また、グローバリゼーションと世界都市研究ネットワーク（GaWC）から「Beta+」都市として認定されており、世界都市としての地位も確立しています。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "4643e1427e89",
++       "_key": "b113d84e6cd7",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "c0e0d19c613a",
++           "_key": "f1a7e832d9da",
+            "_type": "span",
+            "marks": [],
+            "text": "総面積3,085平方キロメートルにわたり、1,900万人以上が暮らすカイロは、エジプトの中で群を抜く規模を誇ります。さらに周辺地域には約950万人が居住し、その都市圏は驚くべき広がりを見せています。とはいえ、この壮大な都市もまた、世界の他のメガシティと同様に、大気汚染や交通渋滞といった課題に直面しています。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "d06802aa8db4",
++       "_key": "eb360b7382cb",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "f3eb51ff3082",
++           "_key": "d9c711db3e34",
+            "_type": "span",
+            "marks": [],
+            "text": "カイロの地下鉄システムは、アルジェリアのアルジェと並びアフリカで稼働する唯一のものの一つであり、世界でも有数の混雑を誇ります。年間4,000万人以上の乗客に利用されており、都市の交通インフラを支える重要な存在です。経済面では、2005年以降中東地域をリードし、2010年の『Foreign Policy』誌「世界都市指数」では世界第43位にランクインしています。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "2ccab080c30b",
++       "_key": "1edb21376c22",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "f47d4c0fc259",
++           "_key": "5b4b1215c840",
+            "_type": "span",
+            "marks": [],
+            "text": "カイロという名の由来とその本質"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+-       "_key": "16bb2fd0fd07",
++       "_key": "5724a4bf6fb2",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "2b62864947c4",
++           "_key": "d5ee39c26026",
+            "_type": "span",
+            "marks": [],
+            "text": "エジプト・アラビア語で「マスル」と呼ばれるカイロ──この呼称は、エジプト全体を象徴するほど、国にとって不可欠な存在であることを示しています。正式名称「アル・カーヒラ」は「征服者」または「勝利者」を意味し、都市の建設時に「征服の星」とも称される火星が天に輝いていたことにちなんで名づけられました。この名はまた、マフディーヤから到着したファーティマ朝のカリフ、アル・ムイッズによる首都建設を記念するものでもあります。かつての古代都市ヘリオポリス──現在は「太陽の目」を意味するアイーン・シャムスという郊外の一部──も、この多層的な都市の歴史を物語る重要な一章です。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "4296bbcd9b6a",
++       "_key": "4ae3d891860f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "17c8124aa55c",
++           "_key": "d058b42edaf8",
+            "_type": "span",
+            "marks": [],
+            "text": "「千のミナレット」が点在するカイロのスカイラインは、世界中の旅行者を魅了する壮大な景観を形づくっています。中でも、圧倒的なスケールを誇るギザのピラミッド群、古代エジプトの財宝が収められたエジプト考古学博物館、建築的に驚嘆すべきサッカラの階段ピラミッド、そして歴史を感じさせるサラディンのシタデルは必見です。また、宗教的な遺産としては、"
+          },
+          {
+-           "_key": "a90733e94075",
++           "_key": "fe138dbca506",
+            "_type": "span",
+            "marks": [
+-             "0763c9cb2bfc"
++             "0bf3173ebbaa"
+            ],
+            "text": "ムハンマド・アリー・モスク"
+          },
+          {
+-           "_key": "214788dc2557",
++           "_key": "458784fe914e",
+            "_type": "span",
+            "marks": [],
+            "text": "や、アフリカ最初のモスクであるアムル・イブン・アル＝アース・モスクが壮麗にその存在感を放っています。"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "0763c9cb2bfc",
++           "_key": "0bf3173ebbaa",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/カイロ旅行ガイド/ムハンマド・アリー・モスク/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/カイロ旅行ガイド/ムハンマド・アリー・モスク/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "1066f4efd6b4",
++       "_key": "3cbdfee97ac8",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "162d6bb55188",
++           "_key": "7d82f4b6fbaf",
+            "_type": "span",
+            "marks": [],
+            "text": "カイロの歴史を彩るもう一つの魅力が、"
+          },
+          {
+-           "_key": "24ff7f87b2ae",
++           "_key": "6dcd029fff3d",
+            "_type": "span",
+            "marks": [
+-             "fb704819f6d5"
++             "71aff67447da"
+            ],
+            "text": "コプト・カイロ地"
+          },
+          {
+-           "_key": "513ad3f02941",
++           "_key": "4c34d7fd670d",
+            "_type": "span",
+            "marks": [],
+            "text": "区です。有名な吊り教会（ハンギング・チャーチ）やコプト博物館など、コプト教会の象徴的な名所が数多く残されています。賑やかな市場の雰囲気を体験したいなら、世界的に名高い観光市場「ハーン・ハリーリ」は欠かせません。"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "fb704819f6d5",
++           "_key": "71aff67447da",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/プライベートツアー：グランド・オールド・カイ/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/プライベートツアー：グランド・オールド・カイ/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "f29668b6ca7d",
++       "_key": "e52f948cbb1f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "84b2fc99d030",
++           "_key": "814ba0020a5d",
+            "_type": "span",
+            "marks": [],
+            "text": "また、カイロはアラブ世界で最も古く、最も影響力のある映画・音楽産業の発祥地であり、世界で2番目に古い高等教育機関「アズハル大学」の所在地でもあります。数多くの国際メディアや組織がこの地に地域本部を構え、アラブ連盟もその歴史の大部分を通してカイロに本部を置いてきました。この都市は、世界と中東地域の両方をつなぐダイナミックな交差点となっています。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "36f023f06de0",
++       "_key": "f47c14655e4b",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "92554f735d02",
++           "_key": "11bdc7ea1c83",
+            "_type": "span",
+            "marks": [],
+            "text": "歴史と現代が交差する街──カイロを巡る旅は、時空を超える体験と、新しい価値観との出会いをもたらします。この街は、単なる観光地ではありません。"
+          },
+          {
+-           "_key": "5f0ceced6ed8",
++           "_key": "ad337f75a144",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "5dc0921c35b2",
++           "_key": "9f9d6c4d74fb",
+            "_type": "span",
+            "marks": [],
+            "text": "それは、文明という壮大な物語の中に息づく、いまなお書き続けられている生きた章なのです。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "2b678cf086c7",
++       "_key": "8d096561e793",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6f04bb2cf013",
++           "_key": "f0c1e6bde81e",
+            "_type": "span",
+            "marks": [],
+            "text": "作成日：2020年3月18日"
+          },
+          {
+-           "_key": "c313e7a41d6c",
++           "_key": "70e84f3d9b05",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "6d748ad2163a",
++           "_key": "0f9ae2b7640e",
+            "_type": "span",
+            "marks": [],
+            "text": " 更新日：2024年8月"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "e399698ff304",
++       "_key": "3303c83a1ca0",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "0cb29aa702b6",
++           "_key": "3d9afbeec653",
+            "_type": "span",
+            "marks": [],
+            "text": "カイロ旅行ガイド"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "5f829ea547c5",
++       "_key": "39af5dae9ace",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "c7edb2c69299",
++           "_key": "f25d1b14dd5d",
+            "_type": "span",
+            "marks": [],
+            "text": "カイロの紹介"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "ca3bea97cdad",
++       "_key": "6303021a2858",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "5e00cde31431",
++           "_key": "774d758142d1",
+            "_type": "span",
+            "marks": [
+-             "7a707819ea75"
++             "3ffa8755c6e8"
+            ],
+            "text": "歴史"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "7a707819ea75",
++           "_key": "3ffa8755c6e8",
+            "_type": "externalLink",
+            "href": "/ja/カイロの歴史をたどる旅/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "299ce573dacf",
++       "_key": "b11ffee4f46f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "906f6b9ff818",
++           "_key": "48effe8a5dc8",
+            "_type": "span",
+            "marks": [
+-             "524bd8b2c44e"
++             "127d1b85b40f"
+            ],
+            "text": "天気"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "524bd8b2c44e",
++           "_key": "127d1b85b40f",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e5%a4%a9%e6%b0%97%e3%81%a8%e6%b0%97%e6%b8%a9/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e5%a4%a9%e6%b0%97%e3%81%a8%e6%b0%97%e6%b8%a9/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "31cce468a8ab",
++       "_key": "d6d8bc1c7eea",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "69ec92ce90ce",
++           "_key": "7aecba55c19b",
+            "_type": "span",
+            "marks": [],
+            "text": "旅行の計画"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "1cb96884c214",
++       "_key": "b163be57e03a",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "e68039ccc25a",
++           "_key": "4433335b3900",
+            "_type": "span",
+            "marks": [
+-             "f5d8f3582ce3"
++             "b6d03ceeb892"
+            ],
+            "text": "行き方"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "f5d8f3582ce3",
++           "_key": "b6d03ceeb892",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ab%e8%a1%8c%e3%81%8f%e3%81%ab%e3%81%af%e3%81%a9%e3%81%86%e3%81%99%e3%82%8b/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ab%e8%a1%8c%e3%81%8f%e3%81%ab%e3%81%af%e3%81%a9%e3%81%86%e3%81%99%e3%82%8b/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "6cc9952bfb83",
++       "_key": "d4571e61b08d",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "896018c89aad",
++           "_key": "99e682879cbd",
+            "_type": "span",
+            "marks": [
+-             "096e8564e0f8"
++             "65a3c91bb677"
+            ],
+            "text": "宿泊先"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "096e8564e0f8",
++           "_key": "65a3c91bb677",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/カイロでの宿泊に最適な場所/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/カイロでの宿泊に最適な場所/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "2f0aee31a2c1",
++       "_key": "9780d11bdb58",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "5fd5f3db602c",
++           "_key": "ca0235938612",
+            "_type": "span",
+            "marks": [],
+            "text": "滞在中に"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "89f1c2c9c145",
++       "_key": "f1453fe5bf8c",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "4705fa89be1c",
++           "_key": "fe851dddcfde",
+            "_type": "span",
+            "marks": [
+-             "db6595b061c5",
++             "62b263f5063d",
+              "strong"
+            ],
+            "text": "現地での移動方法"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "db6595b061c5",
++           "_key": "62b263f5063d",
+            "_type": "externalLink",
+            "href": "/ja/カイロの移動手段ガイド/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "5fec3f11a3f1",
++       "_key": "5fd85f926f1e",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "7dc298b0e828",
++           "_key": "9dcf7da7500c",
+            "_type": "span",
+            "marks": [
+-             "d1a19a38a64c",
++             "26069e8aaa07",
+              "strong"
+            ],
+            "text": "おすすめのアクティビティ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "d1a19a38a64c",
++           "_key": "26069e8aaa07",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e3%81%ae%e5%bf%83%ef%bc%9a%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%a7%e3%81%ae%e5%bf%85%e8%a6%8b%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e3%81%ae%e5%bf%83%ef%bc%9a%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%a7%e3%81%ae%e5%bf%85%e8%a6%8b%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "4a9960bb8285",
++       "_key": "c9dcdf53a34f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "83c17577456b",
++           "_key": "40216553aca3",
+            "_type": "span",
+            "marks": [],
+            "text": "見どころ"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "50cee2f96104",
++       "_key": "76d89e7d4321",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "a805de610f8d",
++           "_key": "1601ec75a590",
+            "_type": "span",
+            "marks": [
+-             "7e7fb8dcb2a9"
++             "e8b2128eb65e"
+            ],
+            "text": "エジプト考古学博物館"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "7e7fb8dcb2a9",
++           "_key": "e8b2128eb65e",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e8%80%83%e5%8f%a4%e5%ad%a6%e5%8d%9a%e7%89%a9%e9%a4%a8/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e8%80%83%e5%8f%a4%e5%ad%a6%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "f027a5c6cf3e",
++       "_key": "d2bced539181",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "ff4553d205d0",
++           "_key": "8376d192a257",
+            "_type": "span",
+            "marks": [
+-             "f6834911006b"
++             "06ebfdbf95b3"
+            ],
+            "text": "北墓地"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "f6834911006b",
++           "_key": "06ebfdbf95b3",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e5%a2%93%e5%9c%b0/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e5%a2%93%e5%9c%b0/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "ca644ea00e7a",
++       "_key": "7a556627db76",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "e420d78f9017",
++           "_key": "8c7569ae4275",
+            "_type": "span",
+            "marks": [
+-             "aa100c327b1d"
++             "19a2b3baa532"
+            ],
+            "text": "スルタン・アシュラフ・バーズベイの複合施設"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "aa100c327b1d",
++           "_key": "19a2b3baa532",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%a2%e3%82%b7%e3%83%a5%e3%83%a9%e3%83%95%e3%83%bb%e3%83%90%e3%83%ab%e3%82%b9%e3%83%99%e3%82%a4%e3%81%ae%e8%a4%87%e5%90%88%e6%96%bd%e8%a8%ad/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%a2%e3%82%b7%e3%83%a5%e3%83%a9%e3%83%95%e3%83%bb%e3%83%90%e3%83%ab%e3%82%b9%e3%83%99%e3%82%a4%e3%81%ae%e8%a4%87%e5%90%88%e6%96%bd%e8%a8%ad/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "04805b9e2ca7",
++       "_key": "25756d3494fd",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "09adfd1bbfc8",
++           "_key": "bf52703b0542",
+            "_type": "span",
+            "marks": [
+-             "33372a8441e7"
++             "105ea942d3b4"
+            ],
+            "text": "ファラーグ・イブン・バルクークのカーンカ・モスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "33372a8441e7",
++           "_key": "105ea942d3b4",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%95%e3%82%a1%e3%83%a9%e3%82%b0%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%90%e3%83%ab%e3%82%af%e3%83%bc%e3%82%af%e3%81%ae%e3%83%8f%e3%83%b3%e3%82%ab%e3%83%bc%e3%81%a8%e9%9c%8a%e5%bb%9f/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%95%e3%82%a1%e3%83%a9%e3%82%b0%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%90%e3%83%ab%e3%82%af%e3%83%bc%e3%82%af%e3%81%ae%e3%83%8f%e3%83%b3%e3%82%ab%e3%83%bc%e3%81%a8%e9%9c%8a%e5%bb%9f/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "6f71080f00fd",
++       "_key": "cbe84abd599d",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "4c70f32c9343",
++           "_key": "d9f98bfd6c85",
+            "_type": "span",
+            "marks": [
+-             "c9f568a1a2d5"
++             "2c61967976d4"
+            ],
+            "text": "スルタン・カイトベイのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "c9f568a1a2d5",
++           "_key": "2c61967976d4",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%ab%e3%82%a4%e3%83%88%e3%83%99%e3%82%a4%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%ab%e3%82%a4%e3%83%88%e3%83%99%e3%82%a4%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "28e17c163fa0",
++       "_key": "041e59af73e2",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "b85ac03b8c95",
++           "_key": "06758ab5d046",
+            "_type": "span",
+            "marks": [
+-             "c1dd84806960"
++             "c75c59c33fa2"
+            ],
+            "text": "ゲイヤー・アンダーソン博物館"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "c1dd84806960",
++           "_key": "c75c59c33fa2",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%83%bb%e3%82%a2%e3%83%b3%e3%83%80%e3%83%bc%e3%82%bd%e3%83%b3%e5%8d%9a%e7%89%a9%e9%a4%a8/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ac%e3%82%a4%e3%83%a4%e3%83%bc%e3%83%bb%e3%82%a2%e3%83%b3%e3%83%80%e3%83%bc%e3%82%bd%e3%83%b3%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "0f01f5ffd5cd",
++       "_key": "9833e2570c0e",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "9fa97af8e12c",
++           "_key": "6ce7eba2a8ed",
+            "_type": "span",
+            "marks": [
+-             "bfe533f508c4"
++             "89d72d31b208"
+            ],
+            "text": "イブン・トゥルーンのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "bfe533f508c4",
++           "_key": "89d72d31b208",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%88%e3%82%a5%e3%83%bc%e3%83%ab%e3%83%bc%e3%83%b3%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%88%e3%82%a5%e3%83%bc%e3%83%ab%e3%83%bc%e3%83%b3%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "f0a8ccbe5aaf",
++       "_key": "609fb30faef6",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "175c776ef0ab",
++           "_key": "e8f4878137ee",
+            "_type": "span",
+            "marks": [
+-             "6b9d8901e82b"
++             "d7dfde02fdfe"
+            ],
+            "text": "メヴレヴィ博物館"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "6b9d8901e82b",
++           "_key": "d7dfde02fdfe",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a1%e3%83%b4%e3%83%ac%e3%83%b4%e3%82%a3%e5%8d%9a%e7%89%a9%e9%a4%a8/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a1%e3%83%b4%e3%83%ac%e3%83%b4%e3%82%a3%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "3f287b87d456",
++       "_key": "3926765fae43",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "a96805d3de9d",
++           "_key": "9dd58bb82aec",
+            "_type": "span",
+            "marks": [
+-             "a13701f522c2"
++             "55cdb2d49780"
+            ],
+            "text": "アミール・タズ宮殿"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "a13701f522c2",
++           "_key": "55cdb2d49780",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%9f%e3%83%bc%e3%83%ab%e3%83%bb%e3%82%bf%e3%82%ba%e5%ae%ae%e6%ae%bf/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%9f%e3%83%bc%e3%83%ab%e3%83%bb%e3%82%bf%e3%82%ba%e5%ae%ae%e6%ae%bf/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "524475225ddb",
++       "_key": "9c6878954327",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "f5dd581fa4ca",
++           "_key": "de6f9a116ced",
+            "_type": "span",
+            "marks": [
+-             "9eb743ccef47"
++             "8641c5dc52fa"
+            ],
+            "text": "アル・アズハルから城塞まで"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "9eb743ccef47",
++           "_key": "8641c5dc52fa",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%a2%e3%82%ba%e3%83%8f%e3%83%ab%e3%81%8b%e3%82%89%e5%9f%8e%e5%a1%9e%ef%bc%88%e3%82%b7%e3%82%bf%e3%83%87%e3%83%ab%ef%bc%89%e3%81%b8/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%a2%e3%82%ba%e3%83%8f%e3%83%ab%e3%81%8b%e3%82%89%e5%9f%8e%e5%a1%9e%ef%bc%88%e3%82%b7%e3%82%bf%e3%83%87%e3%83%ab%ef%bc%89%e3%81%b8/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "3953054a0273",
++       "_key": "89ed752163d1",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "95eb39be58b3",
++           "_key": "cd1811fc666b",
+            "_type": "span",
+            "marks": [
+-             "3de5dae0766f"
++             "c486de77c635"
+            ],
+            "text": "サラディン城塞"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "3de5dae0766f",
++           "_key": "c486de77c635",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%a9%e3%83%87%e3%82%a3%e3%83%b3%e3%81%ae%e5%9f%8e%e5%a1%9e/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%a9%e3%83%87%e3%82%a3%e3%83%b3%e3%81%ae%e5%9f%8e%e5%a1%9e/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "a746535ca239",
++       "_key": "372910d8123e",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "439f183a8518",
++           "_key": "1c925c58435d",
+            "_type": "span",
+            "marks": [
+-             "9ff31c126e53"
++             "7e4a40e39231"
+            ],
+            "text": "スルタン・ハッサンのモスク・マドラサ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "9ff31c126e53",
++           "_key": "7e4a40e39231",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%83%8f%e3%82%b5%e3%83%b3%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af%e3%81%a8%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%83%8f%e3%82%b5%e3%83%b3%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af%e3%81%a8%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "51351ffefc3f",
++       "_key": "fad14e58b213",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "13f312fb480c",
++           "_key": "8858398bafa2",
+            "_type": "span",
+            "marks": [
+-             "5f583f4601ef"
++             "573da808e84c"
+            ],
+            "text": "北囲い"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "5f583f4601ef",
++           "_key": "573da808e84c",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e3%81%ae%e5%9b%b2%e9%83%ad%ef%bc%88%e3%83%8e%e3%83%bc%e3%82%b6%e3%83%b3%e3%83%bb%e3%82%a8%e3%83%b3%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%a3%e3%83%bc%ef%bc%89/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e3%81%ae%e5%9b%b2%e9%83%ad%ef%bc%88%e3%83%8e%e3%83%bc%e3%82%b6%e3%83%b3%e3%83%bb%e3%82%a8%e3%83%b3%e3%82%af%e3%83%ad%e3%83%bc%e3%82%b8%e3%83%a3%e3%83%bc%ef%bc%89/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "1f14e80ffe56",
++       "_key": "6078552c8523",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "f9fa05cc7fbc",
++           "_key": "3ef04f0e09ab",
+            "_type": "span",
+            "marks": [
+-             "417bffe8c5ec"
++             "0be5692ac043"
+            ],
+            "text": "ジャワハラ・テラス"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "417bffe8c5ec",
++           "_key": "0be5692ac043",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ac%e3%82%a6%e3%83%8f%e3%83%a9%e3%83%bb%e3%83%86%e3%83%a9%e3%82%b9/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ac%e3%82%a6%e3%83%8f%e3%83%a9%e3%83%bb%e3%83%86%e3%83%a9%e3%82%b9/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "5bf7d1facf92",
++       "_key": "af956c61c31f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "36085c05f500",
++           "_key": "e23caf13f227",
+            "_type": "span",
+            "marks": [
+-             "7cef56467dc2"
++             "e4120da210a2"
+            ],
+            "text": "アンサール・ムハンマドのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "7cef56467dc2",
++           "_key": "e4120da210a2",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%8a%e3%83%bc%e3%82%b9%e3%82%a3%e3%83%ab%e3%83%bb%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%82%ab%e3%83%a9%e3%82%a6/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%8a%e3%83%bc%e3%82%b9%e3%82%a3%e3%83%ab%e3%83%bb%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%82%ab%e3%83%a9%e3%82%a6/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "7e08f00c8b7f",
++       "_key": "800e4854a2d0",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "503441969c5d",
++           "_key": "45ed3c34f785",
+            "_type": "span",
+            "marks": [
+-             "d48963c4f9ce"
++             "8d25d9f99806"
+            ],
+            "text": "ムハンマド・アリのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "d48963c4f9ce",
++           "_key": "8d25d9f99806",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "867273e47d90",
++       "_key": "183146a0af76",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "315da73c47fb",
++           "_key": "0322f51af1e3",
+            "_type": "span",
+            "marks": [
+-             "4508a632a77f"
++             "662694ab4b06"
+            ],
+            "text": "イブン・トゥルーン城塞"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "4508a632a77f",
++           "_key": "662694ab4b06",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%88%e3%82%a5%e3%83%bc%e3%83%ab%e3%83%bc%e3%83%b3%e5%9f%8e%e5%a1%9e/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%83%88%e3%82%a5%e3%83%bc%e3%83%ab%e3%83%bc%e3%83%b3%e5%9f%8e%e5%a1%9e/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "0c7ca8497b74",
++       "_key": "305e00ebb3b5",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6cc647727348",
++           "_key": "5a3129dd902a",
+            "_type": "span",
+            "marks": [
+-             "0daf84e94546"
++             "be9969b903fd"
+            ],
+            "text": "カイリベク複合施設"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "0daf84e94546",
++           "_key": "be9969b903fd",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8f%e3%82%a4%e3%83%bc%e3%83%ab%e3%83%99%e3%82%a4%e3%83%bb%e3%82%b3%e3%83%b3%e3%83%97%e3%83%ac%e3%83%83%e3%82%af%e3%82%b9/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8f%e3%82%a4%e3%83%bc%e3%83%ab%e3%83%99%e3%82%a4%e3%83%bb%e3%82%b3%e3%83%b3%e3%83%97%e3%83%ac%e3%83%83%e3%82%af%e3%82%b9/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "780f14fb08d9",
++       "_key": "f6fcc7e77078",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "0bb47c6aec8e",
++           "_key": "ee0c14f04d2f",
+            "_type": "span",
+            "marks": [
+-             "6ac6a2563b92"
++             "d05af73c6493"
+            ],
+            "text": "アクスヌールのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "6ac6a2563b92",
++           "_key": "d05af73c6493",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%af%e3%82%b9%e3%83%8c%e3%83%bc%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%af%e3%82%b9%e3%83%8c%e3%83%bc%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "381b81b6fa13",
++       "_key": "73e78697c04e",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "9c71938485fd",
++           "_key": "f525f9be32c2",
+            "_type": "span",
+            "marks": [
+-             "8cf21c33b533"
++             "126064234e41"
+            ],
+            "text": "ウム・スルタン・シャアバンのモスク・マドラサ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "8cf21c33b533",
++           "_key": "126064234e41",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a6%e3%83%a0%e3%83%bb%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%b7%e3%83%a3%e3%82%a2%e3%83%90%e3%83%bc%e3%83%b3%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af%e3%81%a8%e3%83%9e%e3%83%89%e3%83%a9/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a6%e3%83%a0%e3%83%bb%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%82%b7%e3%83%a3%e3%82%a2%e3%83%90%e3%83%bc%e3%83%b3%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af%e3%81%a8%e3%83%9e%e3%83%89%e3%83%a9/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "d34084dacffa",
++       "_key": "d5e5a5c60ecf",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "54ad4df47ff7",
++           "_key": "dbe797e040d6",
+            "_type": "span",
+            "marks": [
+-             "533a8a846898"
++             "b2fbb250ef46"
+            ],
+            "text": "アスラム・アル・シラフダーのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "533a8a846898",
++           "_key": "b2fbb250ef46",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%a9%e3%83%a0%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%b7%e3%83%a9%e3%83%95%e3%83%80%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%a9%e3%83%a0%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%b7%e3%83%a9%e3%83%95%e3%83%80%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "7dd601b18504",
++       "_key": "f82542ef9146",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "0e3b9e48f3d8",
++           "_key": "e257fbf1c876",
+            "_type": "span",
+            "marks": [
+-             "e64575eaaba3"
++             "e5498bbc8e7e"
+            ],
+            "text": "イスラム美術博物館"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "e64575eaaba3",
++           "_key": "e5498bbc8e7e",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%82%b9%e3%83%a9%e3%83%a0%e7%be%8e%e8%a1%93%e9%a4%a8/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%82%b9%e3%83%a9%e3%83%a0%e7%be%8e%e8%a1%93%e9%a4%a8/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "d4fadc362131",
++       "_key": "cef39180d4e8",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "2de06d2cc96a",
++           "_key": "729147036827",
+            "_type": "span",
+            "marks": [
+-             "752dd2161816"
++             "e3d481e1588c"
+            ],
+            "text": "アル・ムアイッド・シャイフのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "752dd2161816",
++           "_key": "e3d481e1588c",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%a0%e3%82%a2%e3%82%a4%e3%83%a4%e3%83%89%e3%83%bb%e3%82%b7%e3%83%a3%e3%82%a4%e3%83%95%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%a0%e3%82%a2%e3%82%a4%e3%83%a4%e3%83%89%e3%83%bb%e3%82%b7%e3%83%a3%e3%82%a4%e3%83%95%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "ca2aa92bdda6",
++       "_key": "4bdced6d5992",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "4fe9e4ea9dc0",
++           "_key": "b1c0ea32b5dd",
+            "_type": "span",
+            "marks": [
+-             "4499f7b7047b"
++             "38c376cc57d5"
+            ],
+            "text": "バブ・ズウイラ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "4499f7b7047b",
++           "_key": "38c376cc57d5",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%90%e3%83%96%e3%83%bb%e3%82%ba%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%a9/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%90%e3%83%96%e3%83%bb%e3%82%ba%e3%82%a6%e3%82%a7%e3%82%a4%e3%83%a9/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "8aca0a2f9227",
++       "_key": "06d0a0fa03da",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "f1789713ac1a",
++           "_key": "156b32af46f8",
+            "_type": "span",
+            "marks": [
+-             "f6168d685bea"
++             "15a81a0ae1d8"
+            ],
+            "text": "ムハンマド・アリ・パシャのサビール"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "f6168d685bea",
++           "_key": "15a81a0ae1d8",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%91%e3%82%b7%e3%83%a3%e3%81%ae%e3%82%b5%e3%83%93%e3%83%bc%e3%83%ab/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%91%e3%82%b7%e3%83%a3%e3%81%ae%e3%82%b5%e3%83%93%e3%83%bc%e3%83%ab/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "e6ede174b77d",
++       "_key": "d92dd05b3bd0",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "92247c7bc0b9",
++           "_key": "4fdd88eb9ca1",
+            "_type": "span",
+            "marks": [
+-             "4451b89e0ed1"
++             "01e93a9c02c5"
+            ],
+            "text": "アル・グーフリ・ウィカラ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "4451b89e0ed1",
++           "_key": "01e93a9c02c5",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b0%e3%83%bc%e3%83%aa%e3%83%bc%e3%83%bb%e3%82%a6%e3%82%a3%e3%82%ab%e3%83%a9/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b0%e3%83%bc%e3%83%aa%e3%83%bc%e3%83%bb%e3%82%a6%e3%82%a3%e3%82%ab%e3%83%a9/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "9febd9caf01b",
++       "_key": "98645c26595e",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "188e1b5fff7c",
++           "_key": "508b1ee452e7",
+            "_type": "span",
+            "marks": [
+-             "64dfab534a25"
++             "fc97710028be"
+            ],
+            "text": "アル・グーフリのモスク・マドラサ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "64dfab534a25",
++           "_key": "fc97710028be",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b0%e3%83%bc%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af%e5%85%bc%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b0%e3%83%bc%e3%83%aa%e3%83%bc%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af%e5%85%bc%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "6bc1af0060f5",
++       "_key": "6c15d111f1e1",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "1d62e60f4dfd",
++           "_key": "ce97b2180dd1",
+            "_type": "span",
+            "marks": [
+-             "9266731012a6"
++             "9bee67ba0e8a"
+            ],
+            "text": "アル・グーフリの霊廟"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "9266731012a6",
++           "_key": "9bee67ba0e8a",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%b0%e3%83%bc%e3%83%aa%e5%bb%9f/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%b0%e3%83%bc%e3%83%aa%e5%bb%9f/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "d6bb5bb59697",
++       "_key": "db0174ef9165",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "2f0d344be947",
++           "_key": "34f756a34478",
+            "_type": "span",
+            "marks": [
+-             "1eabbf989cb9"
++             "b77a0c249687"
+            ],
+            "text": "ベイト・アル・ハラウィ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "1eabbf989cb9",
++           "_key": "b77a0c249687",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%83%a9%e3%82%a6%e3%82%a3/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%83%a9%e3%82%a6%e3%82%a3/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "652689756e89",
++       "_key": "e2e2eda1a082",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6abd2e13ff30",
++           "_key": "43903c7a717e",
+            "_type": "span",
+            "marks": [
+-             "8b403cd2497f"
++             "c8b3c7ebdfcd"
+            ],
+            "text": "ベイト・ゼイナブ・アル・カトゥーン"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "8b403cd2497f",
++           "_key": "c8b3c7ebdfcd",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%bc%e3%82%a4%e3%83%8a%e3%83%96%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ab%e3%83%88%e3%82%a5%e3%83%bc%e3%83%b3/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%bc%e3%82%a4%e3%83%8a%e3%83%96%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ab%e3%83%88%e3%82%a5%e3%83%bc%e3%83%b3/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "bc192e984a95",
++       "_key": "0e561f3e7bb6",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "b218b9bbcca8",
++           "_key": "885a29b4078a",
+            "_type": "span",
+            "marks": [
+-             "2e694cef1724"
++             "62d19f1aac67"
+            ],
+            "text": "アル・アズハル・モスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "2e694cef1724",
++           "_key": "62d19f1aac67",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%ba%e3%83%8f%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%ba%e3%83%8f%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "17fe8e569c6a",
++       "_key": "589e667512f1",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "58dfa6e46797",
++           "_key": "9133d90c2339",
+            "_type": "span",
+            "marks": [
+-             "78db98922ce8"
++             "38e65d55126b"
+            ],
+            "text": "シャリア・アル・ムイッズ・リディン・アッラー"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "78db98922ce8",
++           "_key": "38e65d55126b",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b7%e3%83%a3%e3%83%bc%e3%83%aa%e3%82%a2%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%a0%e3%82%a4%e3%83%83%e3%82%ba%e3%83%bb%e3%83%aa%e3%83%83%e3%83%87%e3%82%a3%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b7%e3%83%a3%e3%83%bc%e3%83%aa%e3%82%a2%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%a0%e3%82%a4%e3%83%83%e3%82%ba%e3%83%bb%e3%83%aa%e3%83%83%e3%83%87%e3%82%a3%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "d41132db33b5",
++       "_key": "a3792538e042",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "4537e2daed0c",
++           "_key": "70e719eba0d3",
+            "_type": "span",
+            "marks": [
+-             "04765b6ff7af"
++             "d8ee890f1fa9"
+            ],
+            "text": "アル・アクマールのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "04765b6ff7af",
++           "_key": "d8ee890f1fa9",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%a2%e3%82%af%e3%83%9e%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%a2%e3%82%af%e3%83%9e%e3%83%ab%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "714358e42e4c",
++       "_key": "d84f8a664c5f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "19091dba62cf",
++           "_key": "5f602276659d",
+            "_type": "span",
+            "marks": [
+-             "2ce940b01835"
++             "b06acd4ac862"
+            ],
+            "text": "ベイト・アル・スハイミ（アル・スハイミ家）"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "2ce940b01835",
++           "_key": "b06acd4ac862",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b9%e3%83%8f%e3%82%a4%e3%83%9f%ef%bc%88%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b9%e3%83%8f%e3%82%a4%e3%83%9f%e9%82%b8%ef%bc%89/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%88%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b9%e3%83%8f%e3%82%a4%e3%83%9f%ef%bc%88%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b9%e3%83%8f%e3%82%a4%e3%83%9f%e9%82%b8%ef%bc%89/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "c8b2db8852ba",
++       "_key": "b5bb4385e812",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "8e9b3148e131",
++           "_key": "1576e9772515",
+            "_type": "span",
+            "marks": [
+-             "6ebd4d553d10"
++             "1383d521bb26"
+            ],
+            "text": "アル・ハキムのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "6ebd4d553d10",
++           "_key": "1383d521bb26",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%82%ad%e3%83%a0%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%82%ad%e3%83%a0%e3%83%bb%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "03dde18ab444",
++       "_key": "0c57ce011afc",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "a22c655529b8",
++           "_key": "9c8a53e47cae",
+            "_type": "span",
+            "marks": [
+-             "a64a7356e15c"
++             "df5c3642b7a9"
+            ],
+            "text": "北の壁と門"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "a64a7356e15c",
++           "_key": "df5c3642b7a9",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e5%81%b4%e3%81%ae%e5%a3%81%e3%81%a8%e9%96%80/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e5%81%b4%e3%81%ae%e5%a3%81%e3%81%a8%e9%96%80/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "d9a42ae5938e",
++       "_key": "6f178eb9b7bb",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "95c3443c8484",
++           "_key": "9b93717f59c1",
+            "_type": "span",
+            "marks": [
+-             "9f3983f6f41f"
++             "400eab11384f"
+            ],
+            "text": "ウィカラ・アル・バザラ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "9f3983f6f41f",
++           "_key": "400eab11384f",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a6%e3%82%a3%e3%82%ab%e3%83%a9%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%90%e3%82%b6%e3%83%bc%e3%83%a9/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a6%e3%82%a3%e3%82%ab%e3%83%a9%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%90%e3%82%b6%e3%83%bc%e3%83%a9/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "460aab0817a5",
++       "_key": "969cf4fafcad",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "ed423c22b5fa",
++           "_key": "e50c2028f25a",
+            "_type": "span",
+            "marks": [
+-             "337e0af3b1ea"
++             "c73736d3058d"
+            ],
+            "text": "スルタン・バイバルズ・アル・ガシャンクィールのカーンカと霊廟"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "337e0af3b1ea",
++           "_key": "c73736d3058d",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%83%90%e3%82%a4%e3%83%90%e3%83%ab%e3%82%b9%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ac%e3%82%b7%e3%83%a3%e3%83%b3%e3%82%ad%e3%83%bc%e3%83%ab%e3%81%ae/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%83%bb%e3%83%90%e3%82%a4%e3%83%90%e3%83%ab%e3%82%b9%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ac%e3%82%b7%e3%83%a3%e3%83%b3%e3%82%ad%e3%83%bc%e3%83%ab%e3%81%ae/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "8bed80843dbf",
++       "_key": "866f23fe904f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "7b738e995358",
++           "_key": "f6badb7d65a3",
+            "_type": "span",
+            "marks": [
+-             "b1ee1f2aea65"
++             "fad33ca0d561"
+            ],
+            "text": "エジプト繊維博物館"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "b1ee1f2aea65",
++           "_key": "fad33ca0d561",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e7%b9%94%e7%89%a9%e5%8d%9a%e7%89%a9%e9%a4%a8/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e7%b9%94%e7%89%a9%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "8a2dca2a5d2d",
++       "_key": "6a5f5e292d79",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6faf032e8efc",
++           "_key": "088b0863bd18",
+            "_type": "span",
+            "marks": [
+-             "bd3d4c2c1149"
++             "99ba8c133494"
+            ],
+            "text": "アブデル・ラフマン・カトフダのサビールとクッターブ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "bd3d4c2c1149",
++           "_key": "99ba8c133494",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%83%89%e3%83%ab%e3%83%bb%e3%83%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%83%bb%e3%82%ab%e3%83%88%e3%83%95%e3%83%80%e3%83%bc%e3%81%ae%e3%82%b5%e3%83%93%e3%83%bc%e3%83%ab%e3%81%a8%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%83%89%e3%83%ab%e3%83%bb%e3%83%a9%e3%83%bc%e3%83%9e%e3%83%b3%e3%83%bb%e3%82%ab%e3%83%88%e3%83%95%e3%83%80%e3%83%bc%e3%81%ae%e3%82%b5%e3%83%93%e3%83%bc%e3%83%ab%e3%81%a8%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "2d74188b2787",
++       "_key": "3049d33ab88c",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "d094526c01b4",
++           "_key": "1c0a2305bb62",
+            "_type": "span",
+            "marks": [
+-             "18a1aa300ecb"
++             "6bedbcce0b3d"
+            ],
+            "text": "アンサール・ムハンマド・スルタンのマドラサと霊廟"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "18a1aa300ecb",
++           "_key": "6bedbcce0b3d",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%b3%ef%bc%9d%e3%83%8a%e3%83%bc%e3%82%b9%e3%82%a3%e3%83%ab%e3%83%bb%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%81%ae%e3%83%9e%e3%83%89/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%b3%ef%bc%9d%e3%83%8a%e3%83%bc%e3%82%b9%e3%82%a3%e3%83%ab%e3%83%bb%e3%83%a0%e3%83%8f%e3%83%b3%e3%83%9e%e3%83%89%e3%83%bb%e3%82%b9%e3%83%ab%e3%82%bf%e3%83%b3%e3%81%ae%e3%83%9e%e3%83%89/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "33e168bac36a",
++       "_key": "af359bd00b05",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "b6a23b11896b",
++           "_key": "ddaf5a3c03f6",
+            "_type": "span",
+            "marks": [
+-             "83fe98c519a4"
++             "56880eb954e5"
+            ],
+            "text": "バークークのマドラサと霊廟"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "83fe98c519a4",
++           "_key": "56880eb954e5",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%90%e3%83%ab%e3%82%af%e3%83%bc%e3%82%af%e3%81%ae%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5%e3%81%a8%e9%9c%8a%e5%bb%9f/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%90%e3%83%ab%e3%82%af%e3%83%bc%e3%82%af%e3%81%ae%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5%e3%81%a8%e9%9c%8a%e5%bb%9f/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "353d5d053c7c",
++       "_key": "a9cf5afcdc41",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "2c4a2d817e1c",
++           "_key": "1aeb2537969e",
+            "_type": "span",
+            "marks": [
+-             "7813e124385e"
++             "246489c2e71d"
+            ],
+            "text": "アス・サリフ・アユーブのマドラサと霊廟"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "7813e124385e",
++           "_key": "246489c2e71d",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%bc%e3%83%aa%e3%83%95%e3%83%bb%e3%83%8a%e3%82%b8%e3%83%a5%e3%83%a0%e3%83%bb%e3%82%a8%e3%83%83%e3%83%87%e3%82%a3%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2%e3%82%a4%e3%83%a6%e3%83%bc%e3%83%96/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%bc%e3%83%aa%e3%83%95%e3%83%bb%e3%83%8a%e3%82%b8%e3%83%a5%e3%83%a0%e3%83%bb%e3%82%a8%e3%83%83%e3%83%87%e3%82%a3%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2%e3%82%a4%e3%83%a6%e3%83%bc%e3%83%96/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "d84ec125c058",
++       "_key": "5e34ac1d75fc",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "81d359c33ebc",
++           "_key": "be0a11aa2ea9",
+            "_type": "span",
+            "marks": [
+-             "c2aa8f68524a"
++             "bc60e7ed8dd3"
+            ],
+            "text": "ベイン・アル・カスリーン通り（2つの宮殿の間の通り）"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "c2aa8f68524a",
++           "_key": "bc60e7ed8dd3",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ab%e3%82%b9%e3%83%ac%e3%82%a4%e3%83%b3%e9%80%9a%e3%82%8a/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%82%a4%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%ab%e3%82%b9%e3%83%ac%e3%82%a4%e3%83%b3%e9%80%9a%e3%82%8a/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "65191b2f2584",
++       "_key": "a6437c527a54",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "28468706ff4b",
++           "_key": "9bbdeab5e47d",
+            "_type": "span",
+            "marks": [
+-             "37e3fdb500d7"
++             "d954cb0119d6"
+            ],
+            "text": "カラウーンのマドラサと霊廟"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "37e3fdb500d7",
++           "_key": "d954cb0119d6",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%83%a9%e3%83%bc%e3%82%a6%e3%83%bc%e3%83%b3%e3%81%ae%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5%e3%81%a8%e9%9c%8a%e5%bb%9f/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%83%a9%e3%83%bc%e3%82%a6%e3%83%bc%e3%83%b3%e3%81%ae%e3%83%9e%e3%83%89%e3%83%a9%e3%82%b5%e3%81%a8%e9%9c%8a%e5%bb%9f/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "f2d3f9bdf735",
++       "_key": "9d5c746608e3",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "b8bf250fb7b9",
++           "_key": "286c02ab7901",
+            "_type": "span",
+            "marks": [
+-             "dc4a670a674f"
++             "5b7693ba81d2"
+            ],
+            "text": "サイイドナ・アル・フセインのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "dc4a670a674f",
++           "_key": "5b7693ba81d2",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b7%e3%82%a7%e3%82%a4%e3%83%89%e3%83%8a%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95%e3%82%bb%e3%82%a4%e3%83%b3%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b7%e3%82%a7%e3%82%a4%e3%83%89%e3%83%8a%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95%e3%82%bb%e3%82%a4%e3%83%b3%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "e44b7b2347f8",
++       "_key": "0d3bb74b1899",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "33e561698462",
++           "_key": "a6e02adead00",
+            "_type": "span",
+            "marks": [
+-             "bff770bf725f"
++             "ae8c048bfa21"
+            ],
+            "text": "ミダン・アル・フセイン（サイイドナ・アル・フセイン広場）"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "bff770bf725f",
++           "_key": "ae8c048bfa21",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%9f%e3%83%80%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95%e3%82%bb%e3%82%a4%e3%83%b3%ef%bc%88%e3%82%b7%e3%82%a7%e3%82%a4%e3%83%89%e3%83%8a%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%9f%e3%83%80%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95%e3%82%bb%e3%82%a4%e3%83%b3%ef%bc%88%e3%82%b7%e3%82%a7%e3%82%a4%e3%83%89%e3%83%8a%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%95/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "fad4afe7e180",
++       "_key": "45566aabd4fb",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "19082384778d",
++           "_key": "403ea3342027",
+            "_type": "span",
+            "marks": [
+-             "2aa272de8c63"
++             "376539f2663b"
+            ],
+            "text": "カーン・アル・ハリリバザール（カイロで最も有名なバザール）"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "2aa272de8c63",
++           "_key": "376539f2663b",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8f%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%83%aa%e3%83%aa-%e3%83%90%e3%82%b6%e3%83%bc%e3%83%ab/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8f%e3%83%bc%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%8f%e3%83%aa%e3%83%aa-%e3%83%90%e3%82%b6%e3%83%bc%e3%83%ab/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "81f43244fdb4",
++       "_key": "a1ef39cf41fc",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "56eb0fe7070e",
++           "_key": "e473f4eb377e",
+            "_type": "span",
+            "marks": [
+-             "b616a9ac0192"
++             "811bf883d4e5"
+            ],
+            "text": "コプト地区"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "b616a9ac0192",
++           "_key": "811bf883d4e5",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b3%e3%83%97%e3%83%88%e3%83%bb%e3%82%ab%e3%82%a4%e3%83%ad/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b3%e3%83%97%e3%83%88%e3%83%bb%e3%82%ab%e3%82%a4%e3%83%ad/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "a7cef10509f3",
++       "_key": "384bd26d80af",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "139792c32066",
++           "_key": "b3c5acce4e0b",
+            "_type": "span",
+            "marks": [
+-             "bb72034337b2"
++             "9c30a157e860"
+            ],
+            "text": "アムル・イブン・アル・アスのモスク"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "bb72034337b2",
++           "_key": "9c30a157e860",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%a0%e3%83%ab%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%a2%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%a0%e3%83%ab%e3%83%bb%e3%82%a4%e3%83%96%e3%83%b3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%a2%e3%83%bc%e3%82%b9%e3%81%ae%e3%83%a2%e3%82%b9%e3%82%af/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "7802985eb5c9",
++       "_key": "4a6db146cd5b",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "0280d6c00e28",
++           "_key": "4c9d7f6e08d4",
+            "_type": "span",
+            "marks": [
+-             "3c320da53c47"
++             "cefaa4f20f90"
+            ],
+            "text": "ベン・エズラ・シナゴーグ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "3c320da53c47",
++           "_key": "cefaa4f20f90",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%83%b3%e3%83%bb%e3%82%a8%e3%82%ba%e3%83%a9%e3%83%bb%e3%82%b7%e3%83%8a%e3%82%b4%e3%83%bc%e3%82%b0/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%99%e3%83%b3%e3%83%bb%e3%82%a8%e3%82%ba%e3%83%a9%e3%83%bb%e3%82%b7%e3%83%8a%e3%82%b4%e3%83%bc%e3%82%b0/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "11c963f90fcf",
++       "_key": "2a2e12f40b38",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "353ce2710b04",
++           "_key": "fc47ecbd1256",
+            "_type": "span",
+            "marks": [
+-             "b5373bcaf8c8"
++             "01d89cb72522"
+            ],
+            "text": "ローマの塔"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "b5373bcaf8c8",
++           "_key": "01d89cb72522",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%ad%e3%83%bc%e3%83%9e%e3%81%ae%e5%a1%94/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%ad%e3%83%bc%e3%83%9e%e3%81%ae%e5%a1%94/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "faa9055b2554",
++       "_key": "627649b7f7e2",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "eb8864aad4c8",
++           "_key": "dc667e956cee",
+            "_type": "span",
+            "marks": [
+-             "350e26300d67"
++             "1a9bdf5c005d"
+            ],
+            "text": "セント・セルギウスとバッカスの教会"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "350e26300d67",
++           "_key": "1a9bdf5c005d",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%82%bb%e3%83%ab%e3%82%ae%e3%82%a6%e3%82%b9%e3%81%a8%e3%83%90%e3%83%83%e3%82%ab%e3%82%b9%e6%95%99%e4%bc%9a/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%82%bb%e3%83%ab%e3%82%ae%e3%82%a6%e3%82%b9%e3%81%a8%e3%83%90%e3%83%83%e3%82%ab%e3%82%b9%e6%95%99%e4%bc%9a/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "99093d14eaaf",
++       "_key": "19ca461627cf",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "731724d2d667",
++           "_key": "c62a24563f3a",
+            "_type": "span",
+            "marks": [
+-             "a830f9a775c1"
++             "e8ad1ef8b174"
+            ],
+            "text": "コプト博物館（エジプト唯一のコプト博物館）"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "a830f9a775c1",
++           "_key": "e8ad1ef8b174",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b3%e3%83%97%e3%83%88%e5%8d%9a%e7%89%a9%e9%a4%a8/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b3%e3%83%97%e3%83%88%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "45b4ae638351",
++       "_key": "8fb8843e9432",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "f7084373ca00",
++           "_key": "8d547d21eb52",
+            "_type": "span",
+            "marks": [
+-             "e82f3fdf4b27"
++             "a81b0c3dcabb"
+            ],
+            "text": "セント・バーバラの教会"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "e82f3fdf4b27",
++           "_key": "a81b0c3dcabb",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%83%90%e3%83%ab%e3%83%90%e3%83%a9%e6%95%99%e4%bc%9a/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%83%90%e3%83%ab%e3%83%90%e3%83%a9%e6%95%99%e4%bc%9a/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "e71e586276df",
++       "_key": "759d7de99ab1",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "adfb9872e22a",
++           "_key": "92cbf128f18a",
+            "_type": "span",
+            "marks": [
+-             "b5e198702d1f"
++             "8cf532f1177d"
+            ],
+            "text": "ハンギング・チャーチ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "b5e198702d1f",
++           "_key": "8cf532f1177d",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%b3%e3%82%ae%e3%83%b3%e3%82%b0%e3%83%bb%e3%83%81%e3%83%a3%e3%83%bc%e3%83%81/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%b3%e3%82%ae%e3%83%b3%e3%82%b0%e3%83%bb%e3%83%81%e3%83%a3%e3%83%bc%e3%83%81/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "1ad78c370ec0",
++       "_key": "0b9a247afac4",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "c08308759d28",
++           "_key": "294bb638734a",
+            "_type": "span",
+            "marks": [],
+            "text": "その他"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "6598e22f3614",
++       "_key": "7d34f5a8d24f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "d38efe3e7a3b",
++           "_key": "88707d5e345b",
+            "_type": "span",
+            "marks": [
+-             "665f38e6db48",
++             "b5cfdef09025",
+              "strong"
+            ],
+            "text": "ツアー"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "665f38e6db48",
++           "_key": "b5cfdef09025",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%a6%b3%e5%85%89%e3%83%ab%e3%83%bc%e3%83%88/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%a6%b3%e5%85%89%e3%83%ab%e3%83%bc%e3%83%88/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "8268f6fdc76b",
++       "_key": "1dd99166dd50",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "5a9e6e56cce2",
++           "_key": "d0e36c1ce2ff",
+            "_type": "span",
+            "marks": [
+-             "4b9e90bd0f89",
++             "2b0be0f59dd8",
+              "strong"
+            ],
+            "text": "食事"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "4b9e90bd0f89",
++           "_key": "2b0be0f59dd8",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e7%be%8e%e9%a3%9f%e6%8e%a2%e8%a8%aa%ef%bc%9a%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e9%a6%96%e9%83%bd%e3%81%ae%e5%91%b3%e3%82%8f%e3%81%84/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e7%be%8e%e9%a3%9f%e6%8e%a2%e8%a8%aa%ef%bc%9a%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e9%a6%96%e9%83%bd%e3%81%ae%e5%91%b3%e3%82%8f%e3%81%84/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "159b714af20a",
++       "_key": "d5a57e05b9ad",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "ec99c72387ae",
++           "_key": "a3199cf3de6a",
+            "_type": "span",
+            "marks": [
+-             "0d3b1dd787c7",
++             "5ce8b90072e3",
+              "strong"
+            ],
+            "text": "ここだけ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "0d3b1dd787c7",
++           "_key": "5ce8b90072e3",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e7%9c%9f%e5%ae%9f%ef%bc%9a%e5%8d%83%e3%81%ae%e3%83%9f%e3%83%8a%e3%83%ac%e3%83%83%e3%83%88%e3%81%ae%e8%a1%97/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e7%9c%9f%e5%ae%9f%ef%bc%9a%e5%8d%83%e3%81%ae%e3%83%9f%e3%83%8a%e3%83%ac%e3%83%83%e3%83%88%e3%81%ae%e8%a1%97/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "bd5cf07a8644",
++       "_key": "23b9646c33ef",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "cf7f9d3fd3c1",
++           "_key": "ed472aa19b1d",
+            "_type": "span",
+            "marks": [
+-             "a2394eca92db",
++             "8839c3d0851d",
+              "strong"
+            ],
+            "text": "イベント"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "a2394eca92db",
++           "_key": "8839c3d0851d",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%83%9b%e3%83%a9%e3%82%a4%e3%82%ba%e3%83%b3%ef%bc%9a%e6%96%87%e5%8c%96%e7%9a%84%e7%a5%ad%e3%82%8a%e3%81%ae%e6%97%85%e8%a1%8c/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%83%9b%e3%83%a9%e3%82%a4%e3%82%ba%e3%83%b3%ef%bc%9a%e6%96%87%e5%8c%96%e7%9a%84%e7%a5%ad%e3%82%8a%e3%81%ae%e6%97%85%e8%a1%8c/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "dc3802bec99b",
++       "_key": "ab344231525b",
+        "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
+        "_type": "image",
+        "alt": [
+          {
+            "_key": "en",
+            "value": "Cairo Food Guide"
+          }
+        ],
+        "caption": [
+          {
+            "_key": "en",
+            "value": "ナイル川と街の古代の魅力が出会うカイロの黄金の時間"
+          }
+        ]
+      },
+      {
+-       "_key": "9bff21fc397d",
++       "_key": "a10261a6f7c1",
+        "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
+        "_type": "image",
+        "alt": [
+          {
+            "_key": "en",
+            "value": "Cairo Food Guide"
+          }
+        ],
+        "caption": [
+          {
+            "_key": "en",
+            "value": "カイロの城塞：中世の壮麗さと都市の拡大の融合"
+          }
+        ]
+      }
+    ],
+    "slug": {
+      "_type": "slug",
+      "current": "カイロ"
+    },
+    "summary": "エジプトの心を巡る旅：カイロ完全ガイド エジプトの本質を感じる旅へ──この充実したカイロ・トラベルガイドとともに。活気あふれる首都カイロは、歴史・文化・現代性が交差する灯台のような存在です。エジプト最大の都市であるだけでなく、アフリカ大陸においても極めて重要な役割を果たし、中東・アラブ世界における主要な都市拠点でもあります。世界第15位の都市圏を誇るカイロは、古代文明の記憶が織り込まれた壮大なタペストリーのような街。その象徴ともいえるのが、壮麗なギザのピラミッド群や、歴史を物語るメンフィス遺跡です。 肥沃なナイル・デルタの岸辺に広がるこの都市の現代的な姿"
+  }

@@ -45,7 +45,7 @@ import { makeSanityClient } from './wp-import/sanity.js';
 import { mapCity } from './wp-import/mappers/city.js';
 import { mergeCityDoc, type SanityDoc } from './wp-import/merge.js';
 import { emitDiff } from './wp-import/diff-emit.js';
-import { fingerprint, fingerprintHash, loadApprovedShapes, type Fingerprint } from './wp-import/fingerprint.js';
+import { fingerprint, fingerprintHash, loadApprovedShapes, saveApprovedShape, type Fingerprint } from './wp-import/fingerprint.js';
 import { emptyStats, logEvent } from './wp-import/log.js';
 import { assembleLocaleGroup } from './wp-import.js';
 import type { CliOptions, WpEntityLite } from './wp-import/types.js';
@@ -62,6 +62,11 @@ interface DiffCli {
   limit?: number;
   adversarial: boolean;
   rate: number;
+  /** When true, fingerprints of all successfully-diffed cities are persisted to
+   *  migration/.diffs/.approved-shapes/. Used post-Step-5 once Islam confirms
+   *  Studio inspection passes (Step 6→7 transition). Otherwise fingerprints are
+   *  only printed in the summary's NOVEL/approved column. */
+  saveApprovedShapes?: boolean;
 }
 
 /** Slug-pattern matcher (mirrored from wp-import.ts). */
@@ -99,6 +104,7 @@ function parseCli(argv: string[]): DiffCli {
       case '--slug-include': opts.slugInclude = next(); break;
       case '--limit': opts.limit = Number(next()); break;
       case '--adversarial': opts.adversarial = true; break;
+      case '--save-approved-shapes': opts.saveApprovedShapes = true; break;
       case '--rate': opts.rate = Number(next()); break;
       case '-h':
       case '--help':
@@ -205,7 +211,34 @@ export async function runDiff(cli: DiffCli): Promise<void> {
       const novel = !approvedShapes.has(hash);
       summaryRows.push({ slug: enSlug, docId: mergedDocId, summaryLine: diff.summaryLine, fingerprintHash: hash, novel, createMode: existing === null });
 
-      process.stderr.write(`  ✓ ${enSlug} → ${mergedDocId} (fp=${hash}${novel ? ' NOVEL' : ' approved'})\n`);
+      // Persist fingerprint to .approved-shapes/ when --save-approved-shapes is set.
+      // Idempotent: re-saving an existing hash overwrites with identical content.
+      //
+      // We save BOTH the actual-mode fingerprint (UPDATE if existing was found,
+      // CREATE if not) AND a synthetic CREATE-mode fingerprint computed against
+      // existing=null. Reason: the same structural shape produces different
+      // fingerprint hashes in CREATE vs UPDATE modes (different field outcomes).
+      // For Step 8's full 41-doc run, the 37 cities not written in Step 5 will be
+      // CREATE-mode; the 4 already written will be UPDATE-mode. Saving both lets
+      // the auto-approval circuit match either path.
+      if (cli.saveApprovedShapes) {
+        saveApprovedShape(APPROVED_DIR, fp);
+        approvedShapes.set(hash, fp);
+        // Synthetic CREATE-mode fingerprint: re-merge against existing=null to
+        // capture the field-outcomes shape that Step 8's unwritten cities will
+        // produce. Skip if we were already in CREATE mode (no extra info).
+        if (existing !== null) {
+          const { merged: createMerged, perFieldChanges: createChanges } = mergeCityDoc(null, wpDoc);
+          const createFp = fingerprint(createChanges, createMerged, true);
+          const createHash = fingerprintHash(createFp);
+          saveApprovedShape(APPROVED_DIR, createFp);
+          approvedShapes.set(createHash, createFp);
+          process.stderr.write(`  ✓ ${enSlug} → ${mergedDocId} (fp=${hash}${novel ? ' NOVEL' : ' approved'} [saved]; +CREATE-mode fp=${createHash} [saved])\n`);
+          continue;
+        }
+      }
+
+      process.stderr.write(`  ✓ ${enSlug} → ${mergedDocId} (fp=${hash}${novel ? ' NOVEL' : ' approved'}${cli.saveApprovedShapes ? ' [saved]' : ''})\n`);
     } catch (e) {
       process.stderr.write(`  ✗ ${p.slug}: ${(e as Error).message}\n`);
       logEvent({ level: 'error', wpId: p.id, message: `diff failed for ${p.slug}: ${(e as Error).message}` });

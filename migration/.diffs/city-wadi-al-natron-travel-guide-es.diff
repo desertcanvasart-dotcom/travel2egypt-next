@@ -1,967 +1,1111 @@
 --- before:es
 +++ after:es
-- {}
-+ {
-+   "name": "Guía de viaje de Wādī Al Natron",
-+   "overview": [
-+     {
-+       "_key": "28d3c85cd531",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "6c7e79e064c6",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Guía de viaje de "
-+         },
-+         {
-+           "_key": "11abaaa01428",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Wadi "
-+         },
-+         {
-+           "_key": "77f61aab46a9",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Al "
-+         },
-+         {
-+           "_key": "69081843df7f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Natron"
-+         },
-+         {
-+           "_key": "7e4a2097ab34",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " "
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h2"
-+     },
-+     {
-+       "_key": "288e9d4c5865",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "ba96e035f1b3",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Wadi Al-Natron, enclavado en la provincia "
-+         },
-+         {
-+           "_key": "1f2e2bb09709",
-+           "_type": "span",
-+           "marks": [
-+             "67aaba4a274d"
-+           ],
-+           "text": "egipcia"
-+         },
-+         {
-+           "_key": "e9e4cb0699b0",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " de Beheira, es un faro de vida monástica y patrimonio religioso."
-+         },
-+         {
-+           "_key": "26e18b673c61",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "d7f5ecb1e35e",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " Este valle, que se distingue por la producción de sal de natrón de sus ocho lagos, es un testimonio del perdurable legado del monacato cristiano en las regiones desérticas del noroeste del delta del Nilo."
-+         },
-+         {
-+           "_key": "238a23e1293d",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "333d6da25993",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " He aquí un vistazo más de cerca a este cautivador destino:"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "67aaba4a274d",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/acerca-de-egipto/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/acerca-de-egipto/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "c735d133a87d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "f0c4a6b26870",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Importancia geográfica e histórica"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h3"
-+     },
-+     {
-+       "_key": "271d380ea8d1",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "0536b4082e59",
-+           "_type": "span",
-+           "marks": [
-+             "strong"
-+           ],
-+           "text": "Localización"
-+         },
-+         {
-+           "_key": "972e9f9ae11f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": ": La disposición geográfica de Wadi Al-Natron es notable, con su situación estratégica en la gobernación de Beheira acentuada por la presencia de lagos productores de sal."
-+         },
-+         {
-+           "_key": "b8e0a2fb25a2",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "8087bbd536a4",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Esta zona, denominada históricamente Escetis, es fundamental en la narrativa del monacato cristiano primitivo, ya que fue uno de los centros monásticos iniciales junto con"
-+         },
-+         {
-+           "_key": "81335e940c98",
-+           "_type": "span",
-+           "marks": [
-+             "8c073631e91d"
-+           ],
-+           "text": " Nitria y Kellia."
-+         }
-+       ],
-+       "level": 1,
-+       "listItem": "bullet",
-+       "markDefs": [
-+         {
-+           "_key": "8c073631e91d",
-+           "_type": "externalLink",
-+           "href": "https://en.wikipedia.org/wiki/Nitria_(monastic_site)",
-+           "newTab": true
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "3eeb5192fae2",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3e9dee068208",
-+           "_type": "span",
-+           "marks": [
-+             "strong"
-+           ],
-+           "text": "Monasticismo cristiano"
-+         },
-+         {
-+           "_key": "290b5b41fb57",
-+           "_type": "span",
-+           "marks": [],
-+           "text": ": Conocido históricamente como Escetis en la literatura cristiana, Wadi Al-Natron es uno de los tres primeros centros monásticos cristianos del desierto del delta del Nilo noroccidental."
-+         }
-+       ],
-+       "level": 1,
-+       "listItem": "bullet",
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "b4580ebe58c0",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "c4ceed80922b",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Centros monásticos"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h3"
-+     },
-+     {
-+       "_key": "6e8f773f2aeb",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "b3a0d0caf356",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "El valle alberga varios centros monásticos, con Escetis (actualWadi Al-Natron), Nitria y Kellia formando el núcleo de este paisaje espiritual."
-+         },
-+         {
-+           "_key": "d0140a90dbda",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "07bbc674f707",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Aunque estos centros comparten "
-+         },
-+         {
-+           "_key": "5fefa2237aa1",
-+           "_type": "span",
-+           "marks": [
-+             "9444bdb891d3"
-+           ],
-+           "text": "una proximidad geográfica común e historias"
-+         },
-+         {
-+           "_key": "1cf353194066",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " entrelazadas, cada uno tiene sus características únicas."
-+         },
-+         {
-+           "_key": "78baa291901b",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "8d18d22328dd",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Wadi Al-Natron "
-+         },
-+         {
-+           "_key": "0005d5e39f4f",
-+           "_type": "span",
-+           "marks": [
-+             "ee5b4f8afcac"
-+           ],
-+           "text": "destaca"
-+         },
-+         {
-+           "_key": "d249ca9e2d26",
-+           "_type": "span",
-+           "marks": [],
-+           "text": " especialmente por sus monasterios operativos, en contraste con los yacimientos principalmente arqueológicos de Nitria y Kellia."
-+         }
-+       ],
-+       "level": 1,
-+       "listItem": "bullet",
-+       "markDefs": [
-+         {
-+           "_key": "9444bdb891d3",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/los-coptos-de-egipto-guardianes-de-una-antigua-fe/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/los-coptos-de-egipto-guardianes-de-una-antigua-fe/",
-+           "newTab": false
-+         },
-+         {
-+           "_key": "ee5b4f8afcac",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "5aab6b31962c",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "8730c9075fb1",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "El desierto de Nitria"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h3"
-+     },
-+     {
-+       "_key": "8a5287da9392",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "55c0e3c81441",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "El término «Desierto de Nitria» abarca ampliamente toda la región que alberga estos centros monásticos."
-+         },
-+         {
-+           "_key": "8f8f0ccb13dc",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "8c2e628c9e8e",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "A menudo se refiere específicamente a las zonas alrededor de Nitria y Kellia, mientras que la vecindad de Wadi Al-Natron se denomina Desierto de Scetis…"
-+         }
-+       ],
-+       "level": 1,
-+       "listItem": "bullet",
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "02433b12c9e7",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "bb97763219e2",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Monasterios en Wadi Al-Natron"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h3"
-+     },
-+     {
-+       "_key": "eb1d58df0dea",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "b8c9ca78358e",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Los monasterios de Wadi Al-Natron no son sólo santuarios espirituales, sino también depósitos de ricos relatos históricos y culturales."
-+         },
-+         {
-+           "_key": "2bc0b6744c67",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "0227f5d51702",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Estas activas moradas monásticas siguen atrayendo a los "
-+         },
-+         {
-+           "_key": "660ded33486a",
-+           "_type": "span",
-+           "marks": [
-+             "8db1dfc72d0b"
-+           ],
-+           "text": "visitantes"
-+         },
-+         {
-+           "_key": "e81120ae361b",
-+           "_type": "span",
-+           "marks": [],
-+           "text": ", ofreciendo una serena atmósfera espiritual junto con una visión de la arquitectura eclesiástica histórica."
-+         }
-+       ],
-+       "level": 1,
-+       "listItem": "bullet",
-+       "markDefs": [
-+         {
-+           "_key": "8db1dfc72d0b",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "78e5e62e7aa2",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3bd2237f544c",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "En esencia, Wadi Al-Natron es una profunda mezcla de profundidad espiritual e intriga histórica."
-+         },
-+         {
-+           "_key": "fce98c39d4b8",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "31ddbbff5377",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Sus monasterios, situados en medio del tranquilo paisaje desértico y "
-+         },
-+         {
-+           "_key": "158a1b1a69e0",
-+           "_type": "span",
-+           "marks": [
-+             "b60152c79d59"
-+           ],
-+           "text": "los reflectantes lagos salados"
-+         },
-+         {
-+           "_key": "6f1589a5c7db",
-+           "_type": "span",
-+           "marks": [],
-+           "text": ", ofrecen un viaje único al corazón de las primeras tradiciones monásticas cristianas."
-+         },
-+         {
-+           "_key": "e7a223959daf",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "\n"
-+         },
-+         {
-+           "_key": "957734be8772",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Este destino es un profundo testimonio de fe, "
-+         },
-+         {
-+           "_key": "8a189db08526",
-+           "_type": "span",
-+           "marks": [
-+             "7be850fdfd71"
-+           ],
-+           "text": "cultura e historia"
-+         },
-+         {
-+           "_key": "9a994f86467e",
-+           "_type": "span",
-+           "marks": [],
-+           "text": ", que invita tanto a los interesados en las peregrinaciones religiosas como en la investigación histórica a explorar sus tierras sagradas."
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "b60152c79d59",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/descubre-los-lagos-salados-de-siwa-bienestar-y-aventura-en-egipto/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/descubre-los-lagos-salados-de-siwa-bienestar-y-aventura-en-egipto/",
-+           "newTab": false
-+         },
-+         {
-+           "_key": "7be850fdfd71",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "ce42e29ff3e2",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "0c7d8298a000",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Creado el 18 de marzo de 2020"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "a6bcebe46582",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "fa6e00a4dfaf",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Actualizado en Ago , 2024"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "e340e1720a76",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "b626da37bde9",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "Guía de viaje de WADI AL NATRON"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "7678765753d1",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a13daa0b6e94",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "PRESENTACIÓN DE WADI AL NATRON"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "facf08dc4ac8",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "f291155a11e2",
-+           "_type": "span",
-+           "marks": [
-+             "d2499794d9ac"
-+           ],
-+           "text": "Historia"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "d2499794d9ac",
-+           "_type": "externalLink",
-+           "href": "/es/historia-de-wadi-el-natrun/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "314d2309c109",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "8daa4623175a",
-+           "_type": "span",
-+           "marks": [
-+             "f7645180cb5a"
-+           ],
-+           "text": "El tiempo"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "f7645180cb5a",
-+           "_type": "externalLink",
-+           "href": "/es/clima-en-wadi-al-natron/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "f47f3acebbae",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "35b87fdf4fe6",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "PLANIFICA TU VIAJE"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "b2a4295d645d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "7defc5d4af29",
-+           "_type": "span",
-+           "marks": [
-+             "0da803acef15"
-+           ],
-+           "text": "Cómo ir"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "0da803acef15",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/como-ir-a-wadi-al-natron/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/como-ir-a-wadi-al-natron/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "c37c7aaa1746",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "623b88ba5b33",
-+           "_type": "span",
-+           "marks": [
-+             "90e0f4c8b5c7"
-+           ],
-+           "text": "Dónde alojarse"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "90e0f4c8b5c7",
-+           "_type": "externalLink",
-+           "href": "/es/donde-alojarse-en-wadi-al-natron/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "5b646d960826",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "ea7424c4dda8",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "MIENTRAS ESTÉS ALLÍ"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "85ad967b2665",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "abc629eedd05",
-+           "_type": "span",
-+           "marks": [
-+             "76e39d943ff4"
-+           ],
-+           "text": "Cómo desplazarse"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "76e39d943ff4",
-+           "_type": "externalLink",
-+           "href": "/es/como-moverse-en-wadi-al-natron/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "bfa35a7665d0",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "7622ab4d50e4",
-+           "_type": "span",
-+           "marks": [
-+             "5d32c7b148f3"
-+           ],
-+           "text": "Cosas que hacer"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "5d32c7b148f3",
-+           "_type": "externalLink",
-+           "href": "/es/cosas-que-hacer-en-wadi-al-natron/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "fc7badd41011",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d4aa15649bb8",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "LUGARES DONDE IR"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "0c95f6e4c766",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d420cf42bee4",
-+           "_type": "span",
-+           "marks": [
-+             "ed0fa3b429f0"
-+           ],
-+           "text": "Monasterio de Paromeos"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "ed0fa3b429f0",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-paromeos/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-paromeos/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "49e2c6944534",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a177c68b2ddb",
-+           "_type": "span",
-+           "marks": [
-+             "0b0939cdca38"
-+           ],
-+           "text": "Monasterio de San Pishoy"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "0b0939cdca38",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-pishoy/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-pishoy/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "9651b702e618",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "fdb06f87a22a",
-+           "_type": "span",
-+           "marks": [
-+             "9f7910c792e5"
-+           ],
-+           "text": "Monasterio de San Macario el Grande"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "9f7910c792e5",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-macario-el-grande/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-macario-el-grande/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "8b3c006aa906",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "42bd5621398d",
-+           "_type": "span",
-+           "marks": [
-+             "5084102b5dc1"
-+           ],
-+           "text": "Monasterio sirio"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "5084102b5dc1",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-sirio/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-sirio/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "77eddd834708",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "2ac768e8ebff",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "OTROS"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "393e697f557f",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "05e812a36349",
-+           "_type": "span",
-+           "marks": [
-+             "441fc232e20b"
-+           ],
-+           "text": "Visitas"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "441fc232e20b",
-+           "_type": "externalLink",
-+           "href": "/es/mejores-tours-en-wadi-al-natron/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "caa24426e4ad",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "1ac7d791f189",
-+           "_type": "span",
-+           "marks": [
-+             "5e0d23ae3ce3"
-+           ],
-+           "text": "Alimentación"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "5e0d23ae3ce3",
-+           "_type": "externalLink",
-+           "href": "/es/gastronomia-de-wadi-al-natron",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "59ed1b56da37",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "69af16550c12",
-+           "_type": "span",
-+           "marks": [
-+             "30e22cd432f3"
-+           ],
-+           "text": "Sólo aquí"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "30e22cd432f3",
-+           "_type": "externalLink",
-+           "href": "/es/solo-en-wadi-al-natron/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "a6a1f0136fa5",
-+       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Deir_as_Suriani.jpg",
-+       "_type": "image",
-+       "alt": [
-+         {
-+           "_key": "en",
-+           "value": "Image of the beige walls and rounded domes of Deir as-Suriani monastery under a clear blue sky, with a palm tree in the foreground"
-+         }
-+       ],
-+       "caption": [
-+         {
-+           "_key": "en",
-+           "value": "Monasterio Deir as-Suriani: Un Oasis de Paz en el Desierto"
-+         }
-+       ]
-+     },
-+     {
-+       "_key": "994093afb083",
-+       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wady-el-natron-1.jpg",
-+       "_type": "image",
-+       "alt": [
-+         {
-+           "_key": "en",
-+           "value": "Ancient domed Coptic monasteries with a tall bell tower nestled among palm trees in Wadi El Natron, Egyp"
-+         }
-+       ],
-+       "caption": [
-+         {
-+           "_key": "en",
-+           "value": "La belleza atemporal de los monasterios coptos de Wadi El Natron, un testimonio del legado cristiano de Egipto."
-+         }
-+       ]
-+     }
-+   ],
-+   "slug": {
-+     "_type": "slug",
-+     "current": "wadi-al-natron"
-+   },
-+   "summary": "Guía de viaje de Wadi Al Natron Wadi Al-Natron, enclavado en la provincia egipcia de Beheira, es un faro de vida monástica y patrimonio religioso. Este valle, que se distingue por la producción de sal de natrón de sus ocho lagos, es un testimonio del perdurable legado del monacat"
-+ }
+  {
+    "name": "Guía de viaje de Wādī Al Natron",
+    "overview": [
+      {
+-       "_key": "f4f2c722b799",
++       "_key": "19da4d631a9f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "8f3a7803f541",
++           "_key": "21a7f890c64a",
+            "_type": "span",
+            "marks": [],
+            "text": "Guía de viaje de "
+          },
+          {
+-           "_key": "91cfbc2cdd1a",
++           "_key": "b914046d85db",
+            "_type": "span",
+            "marks": [],
+            "text": "Wadi "
+          },
+          {
+-           "_key": "ab888f26f6e7",
++           "_key": "f84c59ff7cd8",
+            "_type": "span",
+            "marks": [],
+            "text": "Al "
+          },
+          {
+-           "_key": "a11448f9b698",
++           "_key": "9caf2983cc3c",
+            "_type": "span",
+            "marks": [],
+            "text": "Natron"
+          },
+          {
+-           "_key": "509ed892dffe",
++           "_key": "7cc3c84d3880",
+            "_type": "span",
+            "marks": [],
+            "text": " "
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+-       "_key": "c52868e5aef1",
++       "_key": "5ce5de1f5c1f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "b457cb29d744",
++           "_key": "12a588a8e458",
+            "_type": "span",
+            "marks": [],
+            "text": "Wadi Al-Natron, enclavado en la provincia "
+          },
+          {
+-           "_key": "6640c38ee37f",
++           "_key": "9992cd82664d",
+            "_type": "span",
+            "marks": [
+-             "2abc5e741af2"
++             "4becb239a955"
+            ],
+            "text": "egipcia"
+          },
+          {
+-           "_key": "6cc35ec5ab7e",
++           "_key": "3ff2e2eb9df8",
+            "_type": "span",
+            "marks": [],
+            "text": " de Beheira, es un faro de vida monástica y patrimonio religioso."
+          },
+          {
+-           "_key": "05c0b6ca17ef",
++           "_key": "3b7e4c46fbad",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "570de9de8f12",
++           "_key": "80fa6ca01ab3",
+            "_type": "span",
+            "marks": [],
+            "text": " Este valle, que se distingue por la producción de sal de natrón de sus ocho lagos, es un testimonio del perdurable legado del monacato cristiano en las regiones desérticas del noroeste del delta del Nilo."
+          },
+          {
+-           "_key": "2d05e95b76e6",
++           "_key": "797e409149c5",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "ec15b3b54918",
++           "_key": "a0080cef2d84",
+            "_type": "span",
+            "marks": [],
+            "text": " He aquí un vistazo más de cerca a este cautivador destino:"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "2abc5e741af2",
++           "_key": "4becb239a955",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/acerca-de-egipto/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/acerca-de-egipto/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "43047e045964",
++       "_key": "07b7438e27d0",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "c96645fbcbc4",
++           "_key": "980266ceb992",
+            "_type": "span",
+            "marks": [],
+            "text": "Importancia geográfica e histórica"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+-       "_key": "be7ddd15bfc3",
++       "_key": "459d5ad89478",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "95e755666692",
++           "_key": "5aa90cdb313d",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Localización"
+          },
+          {
+-           "_key": "03a5ce0540e2",
++           "_key": "148623c1e2e3",
+            "_type": "span",
+            "marks": [],
+            "text": ": La disposición geográfica de Wadi Al-Natron es notable, con su situación estratégica en la gobernación de Beheira acentuada por la presencia de lagos productores de sal."
+          },
+          {
+-           "_key": "3e5715c3f26b",
++           "_key": "f8c9c8699683",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "5feea31c8e67",
++           "_key": "3058be8841be",
+            "_type": "span",
+            "marks": [],
+            "text": "Esta zona, denominada históricamente Escetis, es fundamental en la narrativa del monacato cristiano primitivo, ya que fue uno de los centros monásticos iniciales junto con"
+          },
+          {
+-           "_key": "fa60ff9b250c",
++           "_key": "1f20cd85bb32",
+            "_type": "span",
+            "marks": [
+-             "f0a2236a56c7"
++             "471653374ed6"
+            ],
+            "text": " Nitria y Kellia."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [
+          {
+-           "_key": "f0a2236a56c7",
++           "_key": "471653374ed6",
+            "_type": "externalLink",
+            "href": "https://en.wikipedia.org/wiki/Nitria_(monastic_site)",
+            "newTab": true
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "59b5b19de439",
++       "_key": "982121c979c9",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "03f18e1ef248",
++           "_key": "2983b8a3824b",
+            "_type": "span",
+            "marks": [
+              "strong"
+            ],
+            "text": "Monasticismo cristiano"
+          },
+          {
+-           "_key": "b97c17c93b50",
++           "_key": "8c69326f6aa6",
+            "_type": "span",
+            "marks": [],
+            "text": ": Conocido históricamente como Escetis en la literatura cristiana, Wadi Al-Natron es uno de los tres primeros centros monásticos cristianos del desierto del delta del Nilo noroccidental."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "4758cd75a8e8",
++       "_key": "331047870078",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "2f3a2d2656a2",
++           "_key": "673b8b0a336a",
+            "_type": "span",
+            "marks": [],
+            "text": "Centros monásticos"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+-       "_key": "9516abe604b2",
++       "_key": "e694b7bb10c7",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "224c40335aa1",
++           "_key": "07166e545fd8",
+            "_type": "span",
+            "marks": [],
+            "text": "El valle alberga varios centros monásticos, con Escetis (actualWadi Al-Natron), Nitria y Kellia formando el núcleo de este paisaje espiritual."
+          },
+          {
+-           "_key": "453e6bf1280d",
++           "_key": "459038102d82",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "9d6be4cc8761",
++           "_key": "250b162dfb4c",
+            "_type": "span",
+            "marks": [],
+            "text": "Aunque estos centros comparten "
+          },
+          {
+-           "_key": "17e833508287",
++           "_key": "1cda5a789c70",
+            "_type": "span",
+            "marks": [
+-             "b75107d24d1e"
++             "69e41f05d5d9"
+            ],
+            "text": "una proximidad geográfica común e historias"
+          },
+          {
+-           "_key": "447eee1352a7",
++           "_key": "5c72056d1f82",
+            "_type": "span",
+            "marks": [],
+            "text": " entrelazadas, cada uno tiene sus características únicas."
+          },
+          {
+-           "_key": "147432b3689d",
++           "_key": "bb5ab2acfd25",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "c5c8cfdba95a",
++           "_key": "fdb3dfe641b4",
+            "_type": "span",
+            "marks": [],
+            "text": "Wadi Al-Natron "
+          },
+          {
+-           "_key": "714ad9d60f3c",
++           "_key": "dca87209ed9d",
+            "_type": "span",
+            "marks": [
+-             "ac3a6ce6d68e"
++             "ea9fb740c1f3"
+            ],
+            "text": "destaca"
+          },
+          {
+-           "_key": "531405f4aa45",
++           "_key": "53c5df60959c",
+            "_type": "span",
+            "marks": [],
+            "text": " especialmente por sus monasterios operativos, en contraste con los yacimientos principalmente arqueológicos de Nitria y Kellia."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [
+          {
+-           "_key": "b75107d24d1e",
++           "_key": "69e41f05d5d9",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/los-coptos-de-egipto-guardianes-de-una-antigua-fe/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/los-coptos-de-egipto-guardianes-de-una-antigua-fe/",
+            "newTab": false
+          },
+          {
+-           "_key": "ac3a6ce6d68e",
++           "_key": "ea9fb740c1f3",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "482595204c9c",
++       "_key": "8cd1ff377efb",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "fc46e0fdfc60",
++           "_key": "ce11cf0fc1e0",
+            "_type": "span",
+            "marks": [],
+            "text": "El desierto de Nitria"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+-       "_key": "f0a956067b2d",
++       "_key": "5aa531ca6a25",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "08924682ef42",
++           "_key": "8a7c0fb44d70",
+            "_type": "span",
+            "marks": [],
+            "text": "El término «Desierto de Nitria» abarca ampliamente toda la región que alberga estos centros monásticos."
+          },
+          {
+-           "_key": "67c16fead046",
++           "_key": "8291617105e8",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "260a4183ec49",
++           "_key": "fabd5cab4f01",
+            "_type": "span",
+            "marks": [],
+            "text": "A menudo se refiere específicamente a las zonas alrededor de Nitria y Kellia, mientras que la vecindad de Wadi Al-Natron se denomina Desierto de Scetis…"
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "217839a6f25a",
++       "_key": "fe590a8b8e1a",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "cc80a694314f",
++           "_key": "54e012af6485",
+            "_type": "span",
+            "marks": [],
+            "text": "Monasterios en Wadi Al-Natron"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+-       "_key": "e012c736b5d9",
++       "_key": "303bafa6803a",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "ea63cbc9f239",
++           "_key": "2883335a76e6",
+            "_type": "span",
+            "marks": [],
+            "text": "Los monasterios de Wadi Al-Natron no son sólo santuarios espirituales, sino también depósitos de ricos relatos históricos y culturales."
+          },
+          {
+-           "_key": "e128f74ecf9b",
++           "_key": "453c191a7654",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "1e4531277c07",
++           "_key": "9a4c2b4e03e8",
+            "_type": "span",
+            "marks": [],
+            "text": "Estas activas moradas monásticas siguen atrayendo a los "
+          },
+          {
+-           "_key": "0ad50bb83a3b",
++           "_key": "9358e091ceef",
+            "_type": "span",
+            "marks": [
+-             "d577e2afd744"
++             "1a204880f36b"
+            ],
+            "text": "visitantes"
+          },
+          {
+-           "_key": "06db39ebacbb",
++           "_key": "5c15ccb80770",
+            "_type": "span",
+            "marks": [],
+            "text": ", ofreciendo una serena atmósfera espiritual junto con una visión de la arquitectura eclesiástica histórica."
+          }
+        ],
+        "level": 1,
+        "listItem": "bullet",
+        "markDefs": [
+          {
+-           "_key": "d577e2afd744",
++           "_key": "1a204880f36b",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "d4a8a658aad5",
++       "_key": "23d44b6a359c",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "fb0d015b1f4d",
++           "_key": "220177473c6a",
+            "_type": "span",
+            "marks": [],
+            "text": "En esencia, Wadi Al-Natron es una profunda mezcla de profundidad espiritual e intriga histórica."
+          },
+          {
+-           "_key": "cf4970942ea0",
++           "_key": "e1afa4416e9a",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "311111fe8e58",
++           "_key": "c9b3d35e894e",
+            "_type": "span",
+            "marks": [],
+            "text": "Sus monasterios, situados en medio del tranquilo paisaje desértico y "
+          },
+          {
+-           "_key": "5ca7dcbbb860",
++           "_key": "324e5028ab89",
+            "_type": "span",
+            "marks": [
+-             "97874e5e6271"
++             "6570ab2a4fc8"
+            ],
+            "text": "los reflectantes lagos salados"
+          },
+          {
+-           "_key": "3429e8832197",
++           "_key": "eef964144513",
+            "_type": "span",
+            "marks": [],
+            "text": ", ofrecen un viaje único al corazón de las primeras tradiciones monásticas cristianas."
+          },
+          {
+-           "_key": "fa025f92fc2a",
++           "_key": "3b8163222839",
+            "_type": "span",
+            "marks": [],
+            "text": "\n"
+          },
+          {
+-           "_key": "26e167ef18dc",
++           "_key": "a54c4d55aa4e",
+            "_type": "span",
+            "marks": [],
+            "text": "Este destino es un profundo testimonio de fe, "
+          },
+          {
+-           "_key": "cac22f79666f",
++           "_key": "cce1a4587b9d",
+            "_type": "span",
+            "marks": [
+-             "c843ad667469"
++             "e2f8c5331b72"
+            ],
+            "text": "cultura e historia"
+          },
+          {
+-           "_key": "305955eb3aad",
++           "_key": "7eb90d3bea78",
+            "_type": "span",
+            "marks": [],
+            "text": ", que invita tanto a los interesados en las peregrinaciones religiosas como en la investigación histórica a explorar sus tierras sagradas."
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "97874e5e6271",
++           "_key": "6570ab2a4fc8",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/descubre-los-lagos-salados-de-siwa-bienestar-y-aventura-en-egipto/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/descubre-los-lagos-salados-de-siwa-bienestar-y-aventura-en-egipto/",
+            "newTab": false
+          },
+          {
+-           "_key": "c843ad667469",
++           "_key": "e2f8c5331b72",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "ac87c843fb17",
++       "_key": "ac27f9e7de91",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "95a30362f45a",
++           "_key": "4ddf16fad312",
+            "_type": "span",
+            "marks": [],
+            "text": "Creado el 18 de marzo de 2020"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "19e3a60e02b1",
++       "_key": "d6e5c52e49ac",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "368cb580bb73",
++           "_key": "9bc0ba8c59e3",
+            "_type": "span",
+            "marks": [],
+            "text": "Actualizado en Ago , 2024"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "37d208fef538",
++       "_key": "9f16d0687e8c",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "7094854302d1",
++           "_key": "34dce6650443",
+            "_type": "span",
+            "marks": [],
+            "text": "Guía de viaje de WADI AL NATRON"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "eeb7bf06fdaa",
++       "_key": "37b0c022c1a1",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "9e87563258ff",
++           "_key": "f15ed7e596f8",
+            "_type": "span",
+            "marks": [],
+            "text": "PRESENTACIÓN DE WADI AL NATRON"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "8df34b9fcc63",
++       "_key": "87200c63ff10",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "4f3012dc2562",
++           "_key": "1f4d2467745b",
+            "_type": "span",
+            "marks": [
+-             "bcf9e2a88642"
++             "8aa8872f8ab4"
+            ],
+            "text": "Historia"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "bcf9e2a88642",
++           "_key": "8aa8872f8ab4",
+            "_type": "externalLink",
+            "href": "/es/historia-de-wadi-el-natrun/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "63e837b17d42",
++       "_key": "baff5c7f379f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "aac18150fc25",
++           "_key": "3cb2e6e4005e",
+            "_type": "span",
+            "marks": [
+-             "37901f6a6213"
++             "2cbd711c3588"
+            ],
+            "text": "El tiempo"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "37901f6a6213",
++           "_key": "2cbd711c3588",
+            "_type": "externalLink",
+            "href": "/es/clima-en-wadi-al-natron/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "95f9cd12a27f",
++       "_key": "22dddb6e620a",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "e7ad3a830081",
++           "_key": "a33f49fb7387",
+            "_type": "span",
+            "marks": [],
+            "text": "PLANIFICA TU VIAJE"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "a69a8cd7b969",
++       "_key": "ec48e28d450b",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "1c926d8ff301",
++           "_key": "3b64a0610a09",
+            "_type": "span",
+            "marks": [
+-             "0242cc5be85d"
++             "6fa2f5fb8482"
+            ],
+            "text": "Cómo ir"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "0242cc5be85d",
++           "_key": "6fa2f5fb8482",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/como-ir-a-wadi-al-natron/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/como-ir-a-wadi-al-natron/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "bb1eb86461e6",
++       "_key": "e6ab33507dc1",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "423411edbb15",
++           "_key": "4890d91e97d9",
+            "_type": "span",
+            "marks": [
+-             "2c4f1a56ca13"
++             "21e7ec0b3b37"
+            ],
+            "text": "Dónde alojarse"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "2c4f1a56ca13",
++           "_key": "21e7ec0b3b37",
+            "_type": "externalLink",
+            "href": "/es/donde-alojarse-en-wadi-al-natron/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "87e2e6bae3ac",
++       "_key": "f1aeea6c9d02",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "cc3557200e7d",
++           "_key": "3bd87bc51834",
+            "_type": "span",
+            "marks": [],
+            "text": "MIENTRAS ESTÉS ALLÍ"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "0dff4bd79e70",
++       "_key": "f019e67dea52",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "0407b09f5342",
++           "_key": "95d43d9ba9b9",
+            "_type": "span",
+            "marks": [
+-             "4bcaba0aa4f5"
++             "b5677ece7801"
+            ],
+            "text": "Cómo desplazarse"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "4bcaba0aa4f5",
++           "_key": "b5677ece7801",
+            "_type": "externalLink",
+            "href": "/es/como-moverse-en-wadi-al-natron/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "246622714322",
++       "_key": "dae617a3e7e8",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "2498217de8ed",
++           "_key": "9f765dd29f27",
+            "_type": "span",
+            "marks": [
+-             "f5c3a6ba1ce2"
++             "a62e76690c77"
+            ],
+            "text": "Cosas que hacer"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "f5c3a6ba1ce2",
++           "_key": "a62e76690c77",
+            "_type": "externalLink",
+            "href": "/es/cosas-que-hacer-en-wadi-al-natron/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "2cf6c9447197",
++       "_key": "d8c60d706168",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "e91caa9273f3",
++           "_key": "39f85e1bdf2f",
+            "_type": "span",
+            "marks": [],
+            "text": "LUGARES DONDE IR"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "72e3dbbf48ff",
++       "_key": "ffe7a4957f47",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "c099442a120c",
++           "_key": "a460a7ef7836",
+            "_type": "span",
+            "marks": [
+-             "4be781de8597"
++             "9cc58db7f8e7"
+            ],
+            "text": "Monasterio de Paromeos"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "4be781de8597",
++           "_key": "9cc58db7f8e7",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-paromeos/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-paromeos/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "199a50c337f8",
++       "_key": "f5152116c704",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "08a45a36d050",
++           "_key": "8e32c12d24ba",
+            "_type": "span",
+            "marks": [
+-             "af79ed647a33"
++             "eafb337869f3"
+            ],
+            "text": "Monasterio de San Pishoy"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "af79ed647a33",
++           "_key": "eafb337869f3",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-pishoy/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-pishoy/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "b26fb1dc9d2b",
++       "_key": "6f332d36ac34",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "744f7d8acf7d",
++           "_key": "637248bd772d",
+            "_type": "span",
+            "marks": [
+-             "c8f182f1c7bf"
++             "36457328db7e"
+            ],
+            "text": "Monasterio de San Macario el Grande"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "c8f182f1c7bf",
++           "_key": "36457328db7e",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-macario-el-grande/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-macario-el-grande/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "e673d3d797a4",
++       "_key": "6ac3bb32701a",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "df9523f787c0",
++           "_key": "a7f52c62e353",
+            "_type": "span",
+            "marks": [
+-             "c3f3ba1465d7"
++             "3202dd3df613"
+            ],
+            "text": "Monasterio sirio"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "c3f3ba1465d7",
++           "_key": "3202dd3df613",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-sirio/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/es/guia-de-viaje-de-wadi-al-natron/monasterio-sirio/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "d9e84041e531",
++       "_key": "991d546021ab",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "7e4bd849344f",
++           "_key": "884da8da2f3b",
+            "_type": "span",
+            "marks": [],
+            "text": "OTROS"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "68d1e4db63e2",
++       "_key": "392b3a801724",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "9961f2c5c788",
++           "_key": "55063281f87b",
+            "_type": "span",
+            "marks": [
+-             "0395eb69a5e5"
++             "42cdd6cc1ee7"
+            ],
+            "text": "Visitas"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "0395eb69a5e5",
++           "_key": "42cdd6cc1ee7",
+            "_type": "externalLink",
+            "href": "/es/mejores-tours-en-wadi-al-natron/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "6ce194fab110",
++       "_key": "1817adada9d8",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "d6eac7fd2fea",
++           "_key": "13941cc082f8",
+            "_type": "span",
+            "marks": [
+-             "c80161947d24"
++             "dc6fbd5aa114"
+            ],
+            "text": "Alimentación"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "c80161947d24",
++           "_key": "dc6fbd5aa114",
+            "_type": "externalLink",
+            "href": "/es/gastronomia-de-wadi-al-natron",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "ccfe4c768a51",
++       "_key": "34c6530b105c",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "631484d53fba",
++           "_key": "8c6dc0857d7e",
+            "_type": "span",
+            "marks": [
+-             "b6c40a816ea2"
++             "6597be955a29"
+            ],
+            "text": "Sólo aquí"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "b6c40a816ea2",
++           "_key": "6597be955a29",
+            "_type": "externalLink",
+            "href": "/es/solo-en-wadi-al-natron/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "ef47704c58ae",
++       "_key": "0a16867a3a2f",
+        "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Deir_as_Suriani.jpg",
+        "_type": "image",
+        "alt": [
+          {
+            "_key": "en",
+            "value": "Image of the beige walls and rounded domes of Deir as-Suriani monastery under a clear blue sky, with a palm tree in the foreground"
+          }
+        ],
+        "caption": [
+          {
+            "_key": "en",
+            "value": "Monasterio Deir as-Suriani: Un Oasis de Paz en el Desierto"
+          }
+        ]
+      },
+      {
+-       "_key": "2e430e7b301d",
++       "_key": "b06a34c42a79",
+        "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wady-el-natron-1.jpg",
+        "_type": "image",
+        "alt": [
+          {
+            "_key": "en",
+            "value": "Ancient domed Coptic monasteries with a tall bell tower nestled among palm trees in Wadi El Natron, Egyp"
+          }
+        ],
+        "caption": [
+          {
+            "_key": "en",
+            "value": "La belleza atemporal de los monasterios coptos de Wadi El Natron, un testimonio del legado cristiano de Egipto."
+          }
+        ]
+      }
+    ],
+    "slug": {
+      "_type": "slug",
+      "current": "wadi-al-natron"
+    },
+    "summary": "Guía de viaje de Wadi Al Natron Wadi Al-Natron, enclavado en la provincia egipcia de Beheira, es un faro de vida monástica y patrimonio religioso. Este valle, que se distingue por la producción de sal de natrón de sus ocho lagos, es un testimonio del perdurable legado del monacat"
+  }

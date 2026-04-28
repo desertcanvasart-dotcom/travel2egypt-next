@@ -1,17 +1,17 @@
 # city diff summary
 
-Generated: 2026-04-28T18:56:54.163Z
+Generated: 2026-04-28T19:09:35.017Z
 Targeted cities: 4
-Novel structures (no approved fingerprint): 4 (100.0%)
+Novel structures (no approved fingerprint): 0 (0.0%)
 
 ## Per-city summary
 
 | Slug | Doc ID | Mode | Fingerprint | Status | Summary |
 |---|---|---|---|---|---|
-| `cairo-travel-guide` | `wp-page-83284` | CREATE | `cba98e2e44131f8d` | 🔍 NOVEL — needs review | cairo-travel-guide (wp-page-83284) — created=5 — 7402 changed line(s) |
-| `al-wadi-al-gadid-travel-guide` | `wp-page-58952` | CREATE | `cba98e2e44131f8d` | 🔍 NOVEL — needs review | al-wadi-al-gadid-travel-guide (wp-page-58952) — created=5 — 2060 changed line(s) |
-| `wadi-al-natron-travel-guide` | `wp-page-58731` | CREATE | `65447b1fcf5dc548` | 🔍 NOVEL — needs review | wadi-al-natron-travel-guide (wp-page-58731) — created=6 — 2417 changed line(s) |
-| `akhmim-travel-guide` | `wp-page-58090` | CREATE | `65447b1fcf5dc548` | 🔍 NOVEL — needs review | akhmim-travel-guide (wp-page-58090) — created=6 — 2060 changed line(s) |
+| `cairo-travel-guide` | `wp-page-83284` | UPDATE | `1e43cc641cfea015` | ✅ approved-shape match | cairo-travel-guide (wp-page-83284) — i18n-merged=1, overwritten=1, preserved-no-wp=3, unchanged=3 — 2182 changed line(s) |
+| `al-wadi-al-gadid-travel-guide` | `wp-page-58952` | UPDATE | `1e43cc641cfea015` | ✅ approved-shape match | al-wadi-al-gadid-travel-guide (wp-page-58952) — i18n-merged=1, overwritten=1, preserved-no-wp=3, unchanged=3 — 608 changed line(s) |
+| `wadi-al-natron-travel-guide` | `wp-page-58731` | UPDATE | `30a367ad4d17c97e` | ✅ approved-shape match | wadi-al-natron-travel-guide (wp-page-58731) — i18n-merged=1, overwritten=1, preserved-no-wp=3, unchanged=4 — 714 changed line(s) |
+| `akhmim-travel-guide` | `wp-page-58090` | UPDATE | `30a367ad4d17c97e` | ✅ approved-shape match | akhmim-travel-guide (wp-page-58090) — i18n-merged=1, overwritten=1, preserved-no-wp=3, unchanged=4 — 636 changed line(s) |
 
 ## How to proceed
 

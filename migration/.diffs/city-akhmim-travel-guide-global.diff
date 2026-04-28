@@ -1,23 +1,26 @@
 --- before
 +++ after
-- {}
-+ {
-+   "_id": "wp-page-58090",
-+   "_type": "city",
-+   "heroImage": {
-+     "_type": "image",
-+     "asset": {
-+       "_ref": "image-dryrun-103662",
-+       "_type": "reference"
-+     }
-+   },
-+   "migration": {
-+     "migratedAt": "2026-04-28T18:56:52.790Z",
-+     "reviewFlag": "keyfacts-mining-failed",
-+     "source": "wp-import",
-+     "wpId": 58090,
-+     "wpModifiedAt": "2026-02-15T12:54:53",
-+     "wpTemplate": "",
-+     "wpUrl": "https://travel2egypt.org/akhmim-travel-guide/"
-+   }
-+ }
+  {
+    "_createdAt": "2026-04-28T19:05:22Z",
+    "_id": "wp-page-58090",
+    "_rev": "mxAS2Q3l09qdFj5vZMwM6A",
+    "_type": "city",
+    "_updatedAt": "2026-04-28T19:05:22Z",
+    "heroImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-ee1b85b14e6f00563a0241e631db44708550f6ff-500x500-jpg",
+        "_type": "reference"
+      }
+    },
+    "migration": {
+-     "migratedAt": "2026-04-28T19:05:22.210Z",
++     "migratedAt": "2026-04-28T19:09:33.260Z",
+      "reviewFlag": "keyfacts-mining-failed",
+      "source": "wp-import",
+      "wpId": 58090,
+      "wpModifiedAt": "2026-02-15T12:54:53",
+      "wpTemplate": "",
+      "wpUrl": "https://travel2egypt.org/akhmim-travel-guide/"
+    }
+  }

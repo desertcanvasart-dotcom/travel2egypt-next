@@ -1,484 +1,556 @@
 --- before:ja
 +++ after:ja
-- {}
-+ {
-+   "name": "アクミーム旅行ガイド",
-+   "overview": [
-+     {
-+       "_key": "89ad23772a4c",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "6a3a756e933c",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アクミーム完全旅行ガイド"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h2"
-+     },
-+     {
-+       "_key": "27eac7e0c95f",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "6e6df3707cef",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アクミームはエジプトのソハグに位置し、ナイル川の東岸に広がる歴史と文化が豊かな町です。この町は単なる郊外の一部ではなく、古代エジプトの町イプから続く深い歴史に根ざしています。その存在は、過去と現在が見事に融合した証であり、かつてここで栄えた文明を思い起こさせます。アクミームの起源は、王朝時代よりも前の時代にまで遡り、世界の想像力を引きつけてきたエジプトの王朝よりも古い歴史を誇ります。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "370686931838",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d91ef88035b8",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "現代のアクミームは、エジプトの文化遺産への貢献が長く続いており、特に織物、テキスタイル、カーテンの古代の技術で知られています。これらの技術はエジプト最古の産業の一つであり、アクミームの歴史的な重要性と、職人たちがこれらの古代の技法を守り続けていることを象徴しています。アフミムの中心部は活気に満ちており、特に賑やかなショップや地元の野外博物館周辺では、町の豊かな歴史を展示するだけでなく、その職人や織物職人たちが生きた伝統を祝っています。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "1d3c3cf7cc9c",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "89643eb7d209",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アクミームが現代的な場所へと変貌を遂げたとしても、その歴史的な本質は損なわれていません。伝統的な織物とタペストリーの拠点として、そのアイデンティティに欠かせないアートフォームとして、現在もその存在を保っています。野外博物館近くの市場は、アクミームを特徴づける熟練した技術を目の当たりにできる場所であり、ここではその文化的な遺産に触れ、精緻なテキスタイルが生み出される様子を目の前で見ることができ、訪問者はその遺産を身近に感じることができます。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "aaae5975a026",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "53f8ea429b11",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "したがって、アクミームは単なる町ではなく、生きた博物館として存在し、歴史が保存され祝われている場所であり、訪れる人々にその豊かな文化の物語を共有する機会を提供しています。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "9c5e0beb42a4",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "25adafec91f2",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "作成日: 2020年3月18日"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "beef0cf91164",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "601fc4c0a9b3",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "更新日: 2025年3月1日"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "21a09e75924f",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "e7e66c37e1f6",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アクミーム旅行ガイド"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "fb114be3fa0e",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "bebfe194e20f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アクミムの紹介"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "15e688ef134b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a1f36e1db1ff",
-+           "_type": "span",
-+           "marks": [
-+             "2f6bced8fdfa"
-+           ],
-+           "text": "歴史"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "2f6bced8fdfa",
-+           "_type": "externalLink",
-+           "href": "/ja/アクミームの歴史的遺産を巡る/",
-+           "newTab": true
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "645b5891d4e8",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "b2cfb842c68c",
-+           "_type": "span",
-+           "marks": [
-+             "1a99672c423c"
-+           ],
-+           "text": "天気"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "1a99672c423c",
-+           "_type": "externalLink",
-+           "href": "/ja/今日のアクミームの天気",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "4b703227af5a",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "65e97aa9bf2f",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "旅行の計画"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "d705bee4d82d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "05ff0ce64965",
-+           "_type": "span",
-+           "marks": [
-+             "54a648e2231a"
-+           ],
-+           "text": "行き方"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "54a648e2231a",
-+           "_type": "externalLink",
-+           "href": "/ja/アクミームアクセスガイド/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "31db5f22c7a5",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "7397b1ca17bb",
-+           "_type": "span",
-+           "marks": [
-+             "b0d0855d9c11"
-+           ],
-+           "text": "宿泊先"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "b0d0855d9c11",
-+           "_type": "externalLink",
-+           "href": "/ja/アクミームの宿泊の快適さ/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "395184cc32a9",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "0f092e1b3762",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "滞在中に"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "0af4c2d25992",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "04ab24f38e64",
-+           "_type": "span",
-+           "marks": [
-+             "69fd4df6a9f6"
-+           ],
-+           "text": "現地での移動方法"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "69fd4df6a9f6",
-+           "_type": "externalLink",
-+           "href": "/ja/観光で使えるアクミームの交通手段一覧/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "83b222ba8f8d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "60fd1f5712b5",
-+           "_type": "span",
-+           "marks": [
-+             "14a4375958e4"
-+           ],
-+           "text": "おすすめのアクティビティ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "14a4375958e4",
-+           "_type": "externalLink",
-+           "href": "/ja/アクミームで話題のアクティビティ/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "88e892524a76",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "2c89fc17dba0",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "見どころ"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "b9acddb72f28",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "902b55c018e9",
-+           "_type": "span",
-+           "marks": [
-+             "239113b83707"
-+           ],
-+           "text": "ユニークな名所"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "239113b83707",
-+           "_type": "externalLink",
-+           "href": "/ja/アクミームでのユニークな名所/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "5f30bd8a84d0",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "fecd6de26b65",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "その他"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "fa9c5b91dfdb",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "95dc51295be6",
-+           "_type": "span",
-+           "marks": [
-+             "17c8a13f1037"
-+           ],
-+           "text": "ツアー"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "17c8a13f1037",
-+           "_type": "externalLink",
-+           "href": "/ja/アクミームでのツアー/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "587f8ff6d857",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "aa48878cc631",
-+           "_type": "span",
-+           "marks": [
-+             "a5cf200b1879"
-+           ],
-+           "text": "食べ物"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "a5cf200b1879",
-+           "_type": "externalLink",
-+           "href": "/ja/アクミームのグルメ体験/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "a78d92486d9f",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "2851766f930f",
-+           "_type": "span",
-+           "marks": [
-+             "154204d2045a"
-+           ],
-+           "text": "ここだけ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "154204d2045a",
-+           "_type": "externalLink",
-+           "href": "/ja/ベルリン写本/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "3e200123f069",
-+       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/6440ecd00256f92e09d9ec1fdcd9b5f0.jpg",
-+       "_type": "image",
-+       "alt": [
-+         {
-+           "_key": "en",
-+           "value": "A close-up of an ancient Egyptian statue's face with a headdress and cobra symbol"
-+         }
-+       ],
-+       "caption": [
-+         {
-+           "_key": "en",
-+           "value": "石に刻まれたファラオの顔は時の流れを超え、古代エジプトの壮麗さを今に伝え続ける。"
-+         }
-+       ]
-+     },
-+     {
-+       "_key": "4c9a70b35e83",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3c8258d74a78",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル＝アリーシュ旅行ガイド：シナイ半島への玄関口"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h2"
-+     },
-+     {
-+       "_key": "b1d4750f4b4c",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "5a647128c374",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル＝アリーシュへようこそ！この穏やかな海沿いの街は、魅惑のシナイ半島への玄関口として知られています。本ガイドでは、最高のビーチ、歴史的スポット、地元の絶品グルメを紹介し、まるで現地の人のようにアル＝アリーシュを満喫できる情報をお届けします。冒険好きの方にも、のんびり過ごしたい方にも最適な旅先です！"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "9a880a22fc2d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "30d29f6a4d05",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "詳しくはこちらへ"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     }
-+   ],
-+   "slug": {
-+     "_type": "slug",
-+     "current": "アクミーム"
-+   },
-+   "summary": "アクミーム完全旅行ガイド アクミームはエジプトのソハグに位置し、ナイル川の東岸に広がる歴史と文化が豊かな町です。この町は単なる郊外の一部ではなく、古代エジプトの町イプから続く深い歴史に根ざしています。その存在は、過去と現在が見事に融合した証であり、かつてここで栄えた文明を思い起こさせます。アクミームの起源は、王朝時代よりも前の時代にまで遡り、世界の想像力を引きつけてきたエジプトの王朝よりも古い歴史を誇ります。 現代のアクミームは、エジプトの文化遺産への貢献が長く続いており、特に織物、テキスタイル、カーテンの古代の技術で知られています。これらの技術はエジプ"
-+ }
+  {
+    "name": "アクミーム旅行ガイド",
+    "overview": [
+      {
+-       "_key": "34fcee4e728c",
++       "_key": "d4221cc471dd",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6746721bb64f",
++           "_key": "4f9b533135fe",
+            "_type": "span",
+            "marks": [],
+            "text": "アクミーム完全旅行ガイド"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+-       "_key": "f6f1435995f1",
++       "_key": "1afa821f2454",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "29b1fd769909",
++           "_key": "9cfe8b7c88c8",
+            "_type": "span",
+            "marks": [],
+            "text": "アクミームはエジプトのソハグに位置し、ナイル川の東岸に広がる歴史と文化が豊かな町です。この町は単なる郊外の一部ではなく、古代エジプトの町イプから続く深い歴史に根ざしています。その存在は、過去と現在が見事に融合した証であり、かつてここで栄えた文明を思い起こさせます。アクミームの起源は、王朝時代よりも前の時代にまで遡り、世界の想像力を引きつけてきたエジプトの王朝よりも古い歴史を誇ります。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "d28872e0d593",
++       "_key": "0928933e130b",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "a4b6ed3579d0",
++           "_key": "6dd370df1497",
+            "_type": "span",
+            "marks": [],
+            "text": "現代のアクミームは、エジプトの文化遺産への貢献が長く続いており、特に織物、テキスタイル、カーテンの古代の技術で知られています。これらの技術はエジプト最古の産業の一つであり、アクミームの歴史的な重要性と、職人たちがこれらの古代の技法を守り続けていることを象徴しています。アフミムの中心部は活気に満ちており、特に賑やかなショップや地元の野外博物館周辺では、町の豊かな歴史を展示するだけでなく、その職人や織物職人たちが生きた伝統を祝っています。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "efc7a996eec0",
++       "_key": "d56095bc4fcb",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "a8b07d40b462",
++           "_key": "f8c102a380cf",
+            "_type": "span",
+            "marks": [],
+            "text": "アクミームが現代的な場所へと変貌を遂げたとしても、その歴史的な本質は損なわれていません。伝統的な織物とタペストリーの拠点として、そのアイデンティティに欠かせないアートフォームとして、現在もその存在を保っています。野外博物館近くの市場は、アクミームを特徴づける熟練した技術を目の当たりにできる場所であり、ここではその文化的な遺産に触れ、精緻なテキスタイルが生み出される様子を目の前で見ることができ、訪問者はその遺産を身近に感じることができます。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "d5f11a89be95",
++       "_key": "7a46165a9966",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "98f5fa31e62c",
++           "_key": "bb3f4f688dd2",
+            "_type": "span",
+            "marks": [],
+            "text": "したがって、アクミームは単なる町ではなく、生きた博物館として存在し、歴史が保存され祝われている場所であり、訪れる人々にその豊かな文化の物語を共有する機会を提供しています。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "f972d38a24cf",
++       "_key": "cc36f564b5d5",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6ca87038a590",
++           "_key": "a271b3d74f95",
+            "_type": "span",
+            "marks": [],
+            "text": "作成日: 2020年3月18日"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "532a298879d1",
++       "_key": "222bc19ae339",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "3b902d9862fd",
++           "_key": "008a548e39d2",
+            "_type": "span",
+            "marks": [],
+            "text": "更新日: 2025年3月1日"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "e4a54f828124",
++       "_key": "7c4a5584759f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "5360393085da",
++           "_key": "2e1c9ad3d15f",
+            "_type": "span",
+            "marks": [],
+            "text": "アクミーム旅行ガイド"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "e1468e5efb70",
++       "_key": "556af932b2eb",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6f980a377e95",
++           "_key": "2cb9d98951d0",
+            "_type": "span",
+            "marks": [],
+            "text": "アクミムの紹介"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "1c8e91e07930",
++       "_key": "f462e49bde11",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6456e45da103",
++           "_key": "b8d95622a167",
+            "_type": "span",
+            "marks": [
+-             "ad7499e2c87e"
++             "8fdf6f728a12"
+            ],
+            "text": "歴史"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "ad7499e2c87e",
++           "_key": "8fdf6f728a12",
+            "_type": "externalLink",
+            "href": "/ja/アクミームの歴史的遺産を巡る/",
+            "newTab": true
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "edff21f2cd1f",
++       "_key": "c295e6dfa587",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "96ad32af918e",
++           "_key": "8cf76cd829af",
+            "_type": "span",
+            "marks": [
+-             "1f1330fba217"
++             "9ee7db273132"
+            ],
+            "text": "天気"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "1f1330fba217",
++           "_key": "9ee7db273132",
+            "_type": "externalLink",
+            "href": "/ja/今日のアクミームの天気",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "6f6747e06fb6",
++       "_key": "269329575ae2",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6dd99901e7b5",
++           "_key": "c7b61108153f",
+            "_type": "span",
+            "marks": [],
+            "text": "旅行の計画"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "27a14c504f84",
++       "_key": "907a6a748572",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "44c9699964dd",
++           "_key": "3b13b1223a33",
+            "_type": "span",
+            "marks": [
+-             "100e022c27d3"
++             "0ddc3f7901d8"
+            ],
+            "text": "行き方"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "100e022c27d3",
++           "_key": "0ddc3f7901d8",
+            "_type": "externalLink",
+            "href": "/ja/アクミームアクセスガイド/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "e8ace686043c",
++       "_key": "c26d8c5a127c",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "d48f7a802912",
++           "_key": "98d34619726b",
+            "_type": "span",
+            "marks": [
+-             "98cde7fb30bd"
++             "89c38b67fc59"
+            ],
+            "text": "宿泊先"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "98cde7fb30bd",
++           "_key": "89c38b67fc59",
+            "_type": "externalLink",
+            "href": "/ja/アクミームの宿泊の快適さ/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "db9130137567",
++       "_key": "07e7ab2eaef6",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "50aef7ebff6c",
++           "_key": "2d6b6610d7d9",
+            "_type": "span",
+            "marks": [],
+            "text": "滞在中に"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "ef425a48d247",
++       "_key": "9bb3f3de828c",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "2b261988959b",
++           "_key": "f825925d589a",
+            "_type": "span",
+            "marks": [
+-             "ed6bd7a112b7"
++             "ede529ffa521"
+            ],
+            "text": "現地での移動方法"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "ed6bd7a112b7",
++           "_key": "ede529ffa521",
+            "_type": "externalLink",
+            "href": "/ja/観光で使えるアクミームの交通手段一覧/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "df0df2a2c6de",
++       "_key": "c9f0d3ffdc0b",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "86f905cbb316",
++           "_key": "65facb065f34",
+            "_type": "span",
+            "marks": [
+-             "bdea9e2d90d2"
++             "93c514d400c1"
+            ],
+            "text": "おすすめのアクティビティ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "bdea9e2d90d2",
++           "_key": "93c514d400c1",
+            "_type": "externalLink",
+            "href": "/ja/アクミームで話題のアクティビティ/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "62d7c18039e4",
++       "_key": "c3955047affa",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "3a8b132bf88d",
++           "_key": "c336061c0473",
+            "_type": "span",
+            "marks": [],
+            "text": "見どころ"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "564675bf4256",
++       "_key": "4e283a44a77a",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "86718052bae6",
++           "_key": "005b1d4efdd7",
+            "_type": "span",
+            "marks": [
+-             "ec8791984274"
++             "898625d525cb"
+            ],
+            "text": "ユニークな名所"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "ec8791984274",
++           "_key": "898625d525cb",
+            "_type": "externalLink",
+            "href": "/ja/アクミームでのユニークな名所/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "cc08afbb5307",
++       "_key": "bc9413498d1d",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "1eb39bc8a134",
++           "_key": "80b0c813ca0f",
+            "_type": "span",
+            "marks": [],
+            "text": "その他"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "b3eff29943f7",
++       "_key": "bac807568920",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "4e3713f23e60",
++           "_key": "c16af710a0f0",
+            "_type": "span",
+            "marks": [
+-             "8334d9cbea3e"
++             "c8b77b36c31a"
+            ],
+            "text": "ツアー"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "8334d9cbea3e",
++           "_key": "c8b77b36c31a",
+            "_type": "externalLink",
+            "href": "/ja/アクミームでのツアー/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "2f81ccb9c90e",
++       "_key": "244ea5639dc3",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "9f784e127887",
++           "_key": "07768774f982",
+            "_type": "span",
+            "marks": [
+-             "4fb330fc4c30"
++             "6085b0d4188f"
+            ],
+            "text": "食べ物"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "4fb330fc4c30",
++           "_key": "6085b0d4188f",
+            "_type": "externalLink",
+            "href": "/ja/アクミームのグルメ体験/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "b7ecd9ed2cb0",
++       "_key": "d931d5415b27",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "bd6993088386",
++           "_key": "14542fe7e2ed",
+            "_type": "span",
+            "marks": [
+-             "7ab89372acdc"
++             "b283e9dc6b29"
+            ],
+            "text": "ここだけ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "7ab89372acdc",
++           "_key": "b283e9dc6b29",
+            "_type": "externalLink",
+            "href": "/ja/ベルリン写本/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "94c97b39dfda",
++       "_key": "3ceadf4170d2",
+        "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/6440ecd00256f92e09d9ec1fdcd9b5f0.jpg",
+        "_type": "image",
+        "alt": [
+          {
+            "_key": "en",
+            "value": "A close-up of an ancient Egyptian statue's face with a headdress and cobra symbol"
+          }
+        ],
+        "caption": [
+          {
+            "_key": "en",
+            "value": "石に刻まれたファラオの顔は時の流れを超え、古代エジプトの壮麗さを今に伝え続ける。"
+          }
+        ]
+      },
+      {
+-       "_key": "320cde09701c",
++       "_key": "e81a387e3c6d",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "a4364384ec40",
++           "_key": "86eb1ca6a0f9",
+            "_type": "span",
+            "marks": [],
+            "text": "アル＝アリーシュ旅行ガイド：シナイ半島への玄関口"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+-       "_key": "9a47cf8fb930",
++       "_key": "1ffac7c4271d",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "eecd0ed76b54",
++           "_key": "9129bcfdd0fe",
+            "_type": "span",
+            "marks": [],
+            "text": "アル＝アリーシュへようこそ！この穏やかな海沿いの街は、魅惑のシナイ半島への玄関口として知られています。本ガイドでは、最高のビーチ、歴史的スポット、地元の絶品グルメを紹介し、まるで現地の人のようにアル＝アリーシュを満喫できる情報をお届けします。冒険好きの方にも、のんびり過ごしたい方にも最適な旅先です！"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "e4978f8861e5",
++       "_key": "ac1e2ef38100",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "17f3600268fe",
++           "_key": "445981524df2",
+            "_type": "span",
+            "marks": [],
+            "text": "詳しくはこちらへ"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "slug": {
+      "_type": "slug",
+      "current": "アクミーム"
+    },
+    "summary": "アクミーム完全旅行ガイド アクミームはエジプトのソハグに位置し、ナイル川の東岸に広がる歴史と文化が豊かな町です。この町は単なる郊外の一部ではなく、古代エジプトの町イプから続く深い歴史に根ざしています。その存在は、過去と現在が見事に融合した証であり、かつてここで栄えた文明を思い起こさせます。アクミームの起源は、王朝時代よりも前の時代にまで遡り、世界の想像力を引きつけてきたエジプトの王朝よりも古い歴史を誇ります。 現代のアクミームは、エジプトの文化遺産への貢献が長く続いており、特に織物、テキスタイル、カーテンの古代の技術で知られています。これらの技術はエジプ"
+  }

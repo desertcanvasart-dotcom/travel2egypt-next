@@ -1,568 +1,647 @@
 --- before:ja
 +++ after:ja
-- {}
-+ {
-+   "name": "アル・ワーディ・アル・ガディード旅行ガイド",
-+   "overview": [
-+     {
-+       "_key": "639bc490f398",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "f63f0c67e6fa",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル・ワーディ・アル・ガディード旅行ガイド"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h2"
-+     },
-+     {
-+       "_key": "4e05c62858e6",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "7bd90550865e",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル・ワーディ・アル・ガディードの魅惑的な旅へ出かけましょう。エジプト南西部に広がるこの壮大な地域は、国土の5分の2を占め、古代のオアシスと砂漠の神秘が織りなすモザイクのような場所です。緑豊かなシーワ・オアシスから人里離れたアル＝ハリジャ・オアシスまで、それぞれが独自の世界を持ち、歴史と自然の美しさに満ちています。かつてのキャラバンルートをたどり、隠れた地下水源を探し、サハラ砂漠の壮大な景観に心を奪われましょう。本ガイドでは、エジプトで最も神秘的な地域の知られざる物語と息をのむような風景をご紹介します。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "6bc47e9bbdfa",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "c1f00a170549",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "砂漠の中心 – アル＝バハリーヤ・オアシス"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h3"
-+     },
-+     {
-+       "_key": "84c6c1eaf15a",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "f5087465b006",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル・バハリーヤ・オアシスへ旅し、過去のささやきと現代の革新が交差する地を探検しましょう。エジプトの永遠の魅力を物語るバハリーヤの黄金のミイラを訪れ、さらに近くの鉄鉱山へ足を延ばせば、自然の恵みと産業の力が融合する景観を目の当たりにできます。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "f115f6b6fa67",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a4ef424539a2",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "画家のパレット – アル・ファラーフィラ・オアシス"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h3"
-+     },
-+     {
-+       "_key": "4a6ff0fa3d48",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a946812408be",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル・ファラーフィラ・オアシスは、まるで画家の夢が現実になったかのような幻想的な白砂漠の風景が広がります。青空に映える白亜の奇岩群が、まるで一枚の絵画のような美しいコントラストを描き出します。この異世界のような大地をトレッキングし、満天の星空の下でキャンプをすれば、言葉では表しきれないほどの感動が待っています。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "be45866abbbd",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "09c616381882",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "隠された谷 – アル＝ダーキラ・オアシス"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h3"
-+     },
-+     {
-+       "_key": "413f8d84797b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "860d43e85b26",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "次に、アル・ダーキラ・オアシスの秘密を探りましょう。バラ色の崖に囲まれたこのオアシスは、静寂と安らぎの楽園です。中世の泥レンガ造りの町ムットを訪れ、時を超えて佇むデイル・エル＝ハガル神殿を巡れば、ほんの数歩で何世紀もの歴史を旅することができます。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "d3cf92e45006",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "fc338a3d13c9",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "最後のフロンティア – アル・ハリジャ・オアシス"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h3"
-+     },
-+     {
-+       "_key": "808c52748fe9",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d1755a43566b",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル＝ハリジャ・オアシスであなたの旅を締めくくりましょう。広大なサハラ砂漠へと続く最後のフロンティアであり、ここでは伝統と現代が見事に調和しています。歴史ある鉄道に乗り、アル＝ハリジャからナグ・ハンマーディーへと向かえば、この古の大地を貫く生命の軌跡をたどる旅が始まります。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "8cb1b5133364",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "9fb897155043",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "降下の地 – カッタラ低地とバーバイン山"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "h3"
-+     },
-+     {
-+       "_key": "90574c34af1b",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "e3fecf5521b2",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "カッタラ低地へ足を踏み入れ、時の流れが刻んだ壮大な風景を体感しましょう。そして、アル・ワーディ・アル・ガディードで最も高いバーバイン山に登り、息をのむような砂漠のパノラマを目に焼き付けてください。そこには、エジプトの隠された荘厳な美が広がっています。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "e9378fe16135",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "9a2798a53550",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル・ワーディ・アル・ガディードでは、一歩ごとに物語があり、オアシスごとに異なる世界が広がっています。これは単なる地域の旅ではなく、歴史と自然、そしてエジプトの不屈の精神を探求する冒険なのです。"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "bbd297fcc863",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "6f05b0deed96",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "作成日: 2020年3月18日"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "82b4d686118a",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "f6a06a39eb20",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "更新日: 2025年23月8日"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "5813cee62839",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "77591866d718",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル・ワーディ・アル・ガディード旅行ガイド"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "719cbfeebcfb",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a7270d52306a",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "アル・ワディー・アル・ガディードの紹介"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "d02e095022e4",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "db355d0ba055",
-+           "_type": "span",
-+           "marks": [
-+             "a207a3fb2489"
-+           ],
-+           "text": "歴史"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "a207a3fb2489",
-+           "_type": "externalLink",
-+           "href": "/ja/アル・ワーディ・アル・ジャディードの歴史/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "808dca97eebf",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "c9433b41182a",
-+           "_type": "span",
-+           "marks": [
-+             "2f3f53ef84ff"
-+           ],
-+           "text": "天気"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "2f3f53ef84ff",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e3%81%ae%e5%a4%a9%e6%b0%97%e4%ba%88%e5%a0%b1/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e3%81%ae%e5%a4%a9%e6%b0%97%e4%ba%88%e5%a0%b1/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "2eea89a6cc66",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "a79c38cc7f53",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "旅行の計画"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "bad9528cb0a4",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "c3c7fdc9c251",
-+           "_type": "span",
-+           "marks": [
-+             "2e92ce402d0e"
-+           ],
-+           "text": "行き方"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "2e92ce402d0e",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e3%81%b8%e3%81%ae%e4%ba%a4%e9%80%9a%e6%89%8b%e6%ae%b5/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e3%81%b8%e3%81%ae%e4%ba%a4%e9%80%9a%e6%89%8b%e6%ae%b5/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "8038856c399d",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "06ec42d29452",
-+           "_type": "span",
-+           "marks": [
-+             "3837223d90a3"
-+           ],
-+           "text": "宿泊先"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "3837223d90a3",
-+           "_type": "externalLink",
-+           "href": "/ja/アル・ワディ・アル・ガディードで泊まるならこ/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "02a80ba01701",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "7d18996a701a",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "滞在中に"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "e5fb8982fad3",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "d16465e77f4e",
-+           "_type": "span",
-+           "marks": [
-+             "117f8795bee4"
-+           ],
-+           "text": "現地での移動方法"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "117f8795bee4",
-+           "_type": "externalLink",
-+           "href": "/ja/アル・ワディー・アル・ガディードでの移動",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "9f775e873814",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3058b4bc764a",
-+           "_type": "span",
-+           "marks": [
-+             "99f207b92b45"
-+           ],
-+           "text": "おすすめのアクティビティ"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "99f207b92b45",
-+           "_type": "externalLink",
-+           "href": "/ja/アル・ワディー・アル・ガディードでやるべきこ",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "a715b6d6e616",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "3d7e7b2cd3e1",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "見どころ"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "e65a1385ca49",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "c5dd978702f2",
-+           "_type": "span",
-+           "marks": [
-+             "a9597d66cf19"
-+           ],
-+           "text": "ファラオの治世の遺物"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "a9597d66cf19",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%95%e3%82%a1%e3%83%a9%e3%82%aa%e3%81%ae%e6%99%82%e4%bb%a3%e3%81%ae%e9%81%ba%e7%89%a9/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%95%e3%82%a1%e3%83%a9%e3%82%aa%e3%81%ae%e6%99%82%e4%bb%a3%e3%81%ae%e9%81%ba%e7%89%a9/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "c1b71b0c8c0a",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "e3d2ee30d4bb",
-+           "_type": "span",
-+           "marks": [],
-+           "text": "その他"
-+         }
-+       ],
-+       "markDefs": [],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "186b02bbb1cb",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "41d6b99d92ea",
-+           "_type": "span",
-+           "marks": [
-+             "d4b872b69101"
-+           ],
-+           "text": "ツアー"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "d4b872b69101",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%88%e3%83%ac%e3%83%83%e3%82%ad%e3%83%b3%e3%82%b0%e6%97%a5%e8%a8%98/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%88%e3%83%ac%e3%83%83%e3%82%ad%e3%83%b3%e3%82%b0%e6%97%a5%e8%a8%98/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "bad5bafa1015",
-+       "_type": "block",
-+       "children": [
-+         {
-+           "_key": "37520886efb7",
-+           "_type": "span",
-+           "marks": [
-+             "4f4fa6725a72"
-+           ],
-+           "text": "食事"
-+         }
-+       ],
-+       "markDefs": [
-+         {
-+           "_key": "4f4fa6725a72",
-+           "_pendingInternalRef": {
-+             "sourceLocale": "en",
-+             "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%a0%82%e6%bc%a0%e3%81%ae%e5%91%b3%e8%a6%9a%ef%bc%9a%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc/"
-+           },
-+           "_type": "externalLink",
-+           "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%a0%82%e6%bc%a0%e3%81%ae%e5%91%b3%e8%a6%9a%ef%bc%9a%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc/",
-+           "newTab": false
-+         }
-+       ],
-+       "style": "normal"
-+     },
-+     {
-+       "_key": "ded1ea8c3c2b",
-+       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/3170179.700x525.jpg",
-+       "_type": "image",
-+       "alt": [
-+         {
-+           "_key": "en",
-+           "value": "Two large, naturally sculpted rock formations resembling giant heads overlooking a barren desert landscape"
-+         }
-+       ],
-+       "caption": [
-+         {
-+           "_key": "en",
-+           "value": "自然が創り上げた芸術：砂漠に佇む石の守護者たち"
-+         }
-+       ]
-+     },
-+     {
-+       "_key": "fa3eb1e1cd05",
-+       "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wadi.jpg",
-+       "_type": "image",
-+       "alt": [
-+         {
-+           "_key": "en",
-+           "value": "Massive limestone formations standing tall amidst the desert landscape under a clear blue skyThe photograph captures a series of towering limestone formations, sculpted by natural erosion processes, rising from the desert floor, signifying the resilience and enduring beauty of nature."
-+         }
-+       ],
-+       "caption": [
-+         {
-+           "_key": "en",
-+           "value": "砂漠に佇む石灰岩の守護者たち ― 時と自然が刻んだ芸術の証"
-+         }
-+       ]
-+     }
-+   ],
-+   "slug": {
-+     "_type": "slug",
-+     "current": "アル・ワーディ・アル・ジャディード"
-+   },
-+   "summary": "アル・ワーディ・アル・ガディード旅行ガイド アル・ワーディ・アル・ガディードの魅惑的な旅へ出かけましょう。エジプト南西部に広がるこの壮大な地域は、国土の5分の2を占め、古代のオアシスと砂漠の神秘が織りなすモザイクのような場所です。緑豊かなシーワ・オアシスから人里離れたアル＝ハリジャ・オアシスまで、それぞれが独自の世界を持ち、歴史と自然の美しさに満ちています。かつてのキャラバンルートをたどり、隠れた地下水源を探し、サハラ砂漠の壮大な景観に心を奪われましょう。本ガイドでは、エジプトで最も神秘的な地域の知られざる物語と息をのむような風景をご紹介します。 砂漠の"
-+ }
+  {
+    "name": "アル・ワーディ・アル・ガディード旅行ガイド",
+    "overview": [
+      {
+-       "_key": "f78475205c34",
++       "_key": "c6cf36a07d14",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "fca94a972d83",
++           "_key": "12b11f132838",
+            "_type": "span",
+            "marks": [],
+            "text": "アル・ワーディ・アル・ガディード旅行ガイド"
+          }
+        ],
+        "markDefs": [],
+        "style": "h2"
+      },
+      {
+-       "_key": "2609a60b1a3e",
++       "_key": "6a7f9fb1e419",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "7951515403ab",
++           "_key": "93f8d7785646",
+            "_type": "span",
+            "marks": [],
+            "text": "アル・ワーディ・アル・ガディードの魅惑的な旅へ出かけましょう。エジプト南西部に広がるこの壮大な地域は、国土の5分の2を占め、古代のオアシスと砂漠の神秘が織りなすモザイクのような場所です。緑豊かなシーワ・オアシスから人里離れたアル＝ハリジャ・オアシスまで、それぞれが独自の世界を持ち、歴史と自然の美しさに満ちています。かつてのキャラバンルートをたどり、隠れた地下水源を探し、サハラ砂漠の壮大な景観に心を奪われましょう。本ガイドでは、エジプトで最も神秘的な地域の知られざる物語と息をのむような風景をご紹介します。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "8284484890a3",
++       "_key": "98ca01f1f2f0",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "24382aa38788",
++           "_key": "b251999c7f87",
+            "_type": "span",
+            "marks": [],
+            "text": "砂漠の中心 – アル＝バハリーヤ・オアシス"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+-       "_key": "3612e71ea6b1",
++       "_key": "b10cec84eda6",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "81e974e3d39f",
++           "_key": "75f4f1e1293d",
+            "_type": "span",
+            "marks": [],
+            "text": "アル・バハリーヤ・オアシスへ旅し、過去のささやきと現代の革新が交差する地を探検しましょう。エジプトの永遠の魅力を物語るバハリーヤの黄金のミイラを訪れ、さらに近くの鉄鉱山へ足を延ばせば、自然の恵みと産業の力が融合する景観を目の当たりにできます。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "21d685c0ab83",
++       "_key": "bb08c3348383",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "11ec9f52e5ec",
++           "_key": "58ea95dd586c",
+            "_type": "span",
+            "marks": [],
+            "text": "画家のパレット – アル・ファラーフィラ・オアシス"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+-       "_key": "c3325b32eebd",
++       "_key": "b3125f0e9eeb",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "7c9e44f082c6",
++           "_key": "12a4648af8b6",
+            "_type": "span",
+            "marks": [],
+            "text": "アル・ファラーフィラ・オアシスは、まるで画家の夢が現実になったかのような幻想的な白砂漠の風景が広がります。青空に映える白亜の奇岩群が、まるで一枚の絵画のような美しいコントラストを描き出します。この異世界のような大地をトレッキングし、満天の星空の下でキャンプをすれば、言葉では表しきれないほどの感動が待っています。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "3d9be6a5db83",
++       "_key": "fc0c7259c22f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "77edb72a5161",
++           "_key": "be78617c5e6d",
+            "_type": "span",
+            "marks": [],
+            "text": "隠された谷 – アル＝ダーキラ・オアシス"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+-       "_key": "a04bd5050285",
++       "_key": "f776f2041539",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "c6410dd75111",
++           "_key": "1c9908653797",
+            "_type": "span",
+            "marks": [],
+            "text": "次に、アル・ダーキラ・オアシスの秘密を探りましょう。バラ色の崖に囲まれたこのオアシスは、静寂と安らぎの楽園です。中世の泥レンガ造りの町ムットを訪れ、時を超えて佇むデイル・エル＝ハガル神殿を巡れば、ほんの数歩で何世紀もの歴史を旅することができます。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "998e54b4b123",
++       "_key": "a7ff59131557",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "4006f35afeea",
++           "_key": "6fb00d526c52",
+            "_type": "span",
+            "marks": [],
+            "text": "最後のフロンティア – アル・ハリジャ・オアシス"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+-       "_key": "f1ea859c2532",
++       "_key": "1c6418fe1cd1",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "d983066407a8",
++           "_key": "1ec3d6d824b9",
+            "_type": "span",
+            "marks": [],
+            "text": "アル＝ハリジャ・オアシスであなたの旅を締めくくりましょう。広大なサハラ砂漠へと続く最後のフロンティアであり、ここでは伝統と現代が見事に調和しています。歴史ある鉄道に乗り、アル＝ハリジャからナグ・ハンマーディーへと向かえば、この古の大地を貫く生命の軌跡をたどる旅が始まります。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "d98145d8d7ff",
++       "_key": "3ecf8ba6f9d5",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "39774c4c2079",
++           "_key": "4f29abf633a2",
+            "_type": "span",
+            "marks": [],
+            "text": "降下の地 – カッタラ低地とバーバイン山"
+          }
+        ],
+        "markDefs": [],
+        "style": "h3"
+      },
+      {
+-       "_key": "eb7b9f92e9c8",
++       "_key": "459c86faad83",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "7419acd2aed0",
++           "_key": "dba8f614ed95",
+            "_type": "span",
+            "marks": [],
+            "text": "カッタラ低地へ足を踏み入れ、時の流れが刻んだ壮大な風景を体感しましょう。そして、アル・ワーディ・アル・ガディードで最も高いバーバイン山に登り、息をのむような砂漠のパノラマを目に焼き付けてください。そこには、エジプトの隠された荘厳な美が広がっています。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "8b157ff7af67",
++       "_key": "6809adb41250",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "1999033345e9",
++           "_key": "2dbb4cbb1b1a",
+            "_type": "span",
+            "marks": [],
+            "text": "アル・ワーディ・アル・ガディードでは、一歩ごとに物語があり、オアシスごとに異なる世界が広がっています。これは単なる地域の旅ではなく、歴史と自然、そしてエジプトの不屈の精神を探求する冒険なのです。"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "acedc830b9a3",
++       "_key": "d584e808d423",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "6644ba07fb2e",
++           "_key": "211979752f54",
+            "_type": "span",
+            "marks": [],
+            "text": "作成日: 2020年3月18日"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "6bca784e80f9",
++       "_key": "949933d71d4e",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "fccf0086ced2",
++           "_key": "f5c5d9aeac93",
+            "_type": "span",
+            "marks": [],
+            "text": "更新日: 2025年23月8日"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "ae6f6560b951",
++       "_key": "42cd7a4bbcb5",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "bee18ee3f508",
++           "_key": "6ea7b34eab57",
+            "_type": "span",
+            "marks": [],
+            "text": "アル・ワーディ・アル・ガディード旅行ガイド"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "33c4d49f9e42",
++       "_key": "c40432cc6387",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "48464d5cf087",
++           "_key": "afeab91f230a",
+            "_type": "span",
+            "marks": [],
+            "text": "アル・ワディー・アル・ガディードの紹介"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "9b5d40d57203",
++       "_key": "7b591a73a2c7",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "8080b71fbcaa",
++           "_key": "f5444207d879",
+            "_type": "span",
+            "marks": [
+-             "0e90d3583d89"
++             "e15067e58b35"
+            ],
+            "text": "歴史"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "0e90d3583d89",
++           "_key": "e15067e58b35",
+            "_type": "externalLink",
+            "href": "/ja/アル・ワーディ・アル・ジャディードの歴史/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "63289903d935",
++       "_key": "28ff05d5f3ce",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "ee193bc643a2",
++           "_key": "35c174517189",
+            "_type": "span",
+            "marks": [
+-             "2e82ede161d0"
++             "6b5e64ec2300"
+            ],
+            "text": "天気"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "2e82ede161d0",
++           "_key": "6b5e64ec2300",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e3%81%ae%e5%a4%a9%e6%b0%97%e4%ba%88%e5%a0%b1/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e3%81%ae%e5%a4%a9%e6%b0%97%e4%ba%88%e5%a0%b1/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "953eab3dcd78",
++       "_key": "fd01283b74c6",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "7a8fa64b5aec",
++           "_key": "bc61e2f6a9e6",
+            "_type": "span",
+            "marks": [],
+            "text": "旅行の計画"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "7ae35b408d40",
++       "_key": "2c8e0426040d",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "5339618832d4",
++           "_key": "6447e1279203",
+            "_type": "span",
+            "marks": [
+-             "662f3cb03810"
++             "bc1d81871de2"
+            ],
+            "text": "行き方"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "662f3cb03810",
++           "_key": "bc1d81871de2",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e3%81%b8%e3%81%ae%e4%ba%a4%e9%80%9a%e6%89%8b%e6%ae%b5/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%af%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e3%81%b8%e3%81%ae%e4%ba%a4%e9%80%9a%e6%89%8b%e6%ae%b5/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "fb971cca0c3e",
++       "_key": "4d6be8adea90",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "3115956a1ab6",
++           "_key": "a88a344d352d",
+            "_type": "span",
+            "marks": [
+-             "9fb1b4e6f5e8"
++             "424075b3f0d5"
+            ],
+            "text": "宿泊先"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "9fb1b4e6f5e8",
++           "_key": "424075b3f0d5",
+            "_type": "externalLink",
+            "href": "/ja/アル・ワディ・アル・ガディードで泊まるならこ/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "0f5e6b3daa3d",
++       "_key": "6a278f18be37",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "bff2acb1ec62",
++           "_key": "372ec15de99c",
+            "_type": "span",
+            "marks": [],
+            "text": "滞在中に"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "055a52c8d622",
++       "_key": "b0d01ff9b17c",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "749a459b4fa5",
++           "_key": "1bbeeaab4cb5",
+            "_type": "span",
+            "marks": [
+-             "d874c100b5b9"
++             "5e9d5d2730cf"
+            ],
+            "text": "現地での移動方法"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "d874c100b5b9",
++           "_key": "5e9d5d2730cf",
+            "_type": "externalLink",
+            "href": "/ja/アル・ワディー・アル・ガディードでの移動",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "a27df7bd1401",
++       "_key": "85b26721b466",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "927c12e65dc7",
++           "_key": "e69d338f8a24",
+            "_type": "span",
+            "marks": [
+-             "182d3d6a864a"
++             "25df6921ec5d"
+            ],
+            "text": "おすすめのアクティビティ"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "182d3d6a864a",
++           "_key": "25df6921ec5d",
+            "_type": "externalLink",
+            "href": "/ja/アル・ワディー・アル・ガディードでやるべきこ",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "fb5204a6ba0f",
++       "_key": "6ae05cd008d9",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "d85dcc9bf04b",
++           "_key": "ba4201229892",
+            "_type": "span",
+            "marks": [],
+            "text": "見どころ"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "775f6326f189",
++       "_key": "630ffadcf664",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "d2a632a5a4a3",
++           "_key": "720a563d965c",
+            "_type": "span",
+            "marks": [
+-             "1096093022a3"
++             "5010370ac682"
+            ],
+            "text": "ファラオの治世の遺物"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "1096093022a3",
++           "_key": "5010370ac682",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%95%e3%82%a1%e3%83%a9%e3%82%aa%e3%81%ae%e6%99%82%e4%bb%a3%e3%81%ae%e9%81%ba%e7%89%a9/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%95%e3%82%a1%e3%83%a9%e3%82%aa%e3%81%ae%e6%99%82%e4%bb%a3%e3%81%ae%e9%81%ba%e7%89%a9/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "0d2933b8fbbb",
++       "_key": "bb26ab7e5fe7",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "eaa7e2ae79cb",
++           "_key": "8d81e073b4dd",
+            "_type": "span",
+            "marks": [],
+            "text": "その他"
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+-       "_key": "ecae77ab0722",
++       "_key": "4d16d2840794",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "a20dc9563187",
++           "_key": "8a67f4602e63",
+            "_type": "span",
+            "marks": [
+-             "808b4f08f8ff"
++             "5532d0a78839"
+            ],
+            "text": "ツアー"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "808b4f08f8ff",
++           "_key": "5532d0a78839",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%88%e3%83%ac%e3%83%83%e3%82%ad%e3%83%b3%e3%82%b0%e6%97%a5%e8%a8%98/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%88%e3%83%ac%e3%83%83%e3%82%ad%e3%83%b3%e3%82%b0%e6%97%a5%e8%a8%98/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "dbb2ec42defe",
++       "_key": "e919128b8b7f",
+        "_type": "block",
+        "children": [
+          {
+-           "_key": "15175591f7cd",
++           "_key": "4c41e014847f",
+            "_type": "span",
+            "marks": [
+-             "f7d7c34ba04a"
++             "01666aac8595"
+            ],
+            "text": "食事"
+          }
+        ],
+        "markDefs": [
+          {
+-           "_key": "f7d7c34ba04a",
++           "_key": "01666aac8595",
+            "_pendingInternalRef": {
+              "sourceLocale": "en",
+              "wpUrl": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%a0%82%e6%bc%a0%e3%81%ae%e5%91%b3%e8%a6%9a%ef%bc%9a%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc/"
+            },
+            "_type": "externalLink",
+            "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc%e3%83%89%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%a0%82%e6%bc%a0%e3%81%ae%e5%91%b3%e8%a6%9a%ef%bc%9a%e3%82%a2%e3%83%ab%ef%bc%9d%e3%83%af%e3%83%bc%e3%83%87%e3%82%a3%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%b8%e3%83%a3%e3%83%87%e3%82%a3%e3%83%bc/",
+            "newTab": false
+          }
+        ],
+        "style": "normal"
+      },
+      {
+-       "_key": "85c1beda80aa",
++       "_key": "c3f025326704",
+        "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/3170179.700x525.jpg",
+        "_type": "image",
+        "alt": [
+          {
+            "_key": "en",
+            "value": "Two large, naturally sculpted rock formations resembling giant heads overlooking a barren desert landscape"
+          }
+        ],
+        "caption": [
+          {
+            "_key": "en",
+            "value": "自然が創り上げた芸術：砂漠に佇む石の守護者たち"
+          }
+        ]
+      },
+      {
+-       "_key": "c2fd2b06892e",
++       "_key": "8a05219bf7c6",
+        "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/wadi.jpg",
+        "_type": "image",
+        "alt": [
+          {
+            "_key": "en",
+            "value": "Massive limestone formations standing tall amidst the desert landscape under a clear blue skyThe photograph captures a series of towering limestone formations, sculpted by natural erosion processes, rising from the desert floor, signifying the resilience and enduring beauty of nature."
+          }
+        ],
+        "caption": [
+          {
+            "_key": "en",
+            "value": "砂漠に佇む石灰岩の守護者たち ― 時と自然が刻んだ芸術の証"
+          }
+        ]
+      }
+    ],
+    "slug": {
+      "_type": "slug",
+      "current": "アル・ワーディ・アル・ジャディード"
+    },
+    "summary": "アル・ワーディ・アル・ガディード旅行ガイド アル・ワーディ・アル・ガディードの魅惑的な旅へ出かけましょう。エジプト南西部に広がるこの壮大な地域は、国土の5分の2を占め、古代のオアシスと砂漠の神秘が織りなすモザイクのような場所です。緑豊かなシーワ・オアシスから人里離れたアル＝ハリジャ・オアシスまで、それぞれが独自の世界を持ち、歴史と自然の美しさに満ちています。かつてのキャラバンルートをたどり、隠れた地下水源を探し、サハラ砂漠の壮大な景観に心を奪われましょう。本ガイドでは、エジプトで最も神秘的な地域の知られざる物語と息をのむような風景をご紹介します。 砂漠の"
+  }
