@@ -245,10 +245,11 @@ async function resolveAttachmentByFilename(
   let results: WpMediaSearchHit[] = [];
   try {
     results = await wp.getJson<WpMediaSearchHit[]>(
-      `/wp/v2/media?search=${encodeURIComponent(base)}&per_page=10&_fields=id,date,source_url`,
+      `/wp-json/wp/v2/media?search=${encodeURIComponent(base)}&per_page=10&_fields=id,date,source_url`,
       { cacheKey: `media-search-${base}` }
     );
-  } catch {
+  } catch (e) {
+    process.stderr.write(`[media-search] FAIL base=${base} src=${src}: ${(e as Error).message}\n`);
     FILENAME_RESOLUTION_CACHE.set(src, null);
     return null;
   }

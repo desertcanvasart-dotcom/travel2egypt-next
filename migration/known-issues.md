@@ -4,6 +4,46 @@ Working document for the next session. Captures the diagnostic findings from ses
 run 2 (post-strip-rules). The 495 articles + 165 translation.metadata are in
 `migration-staging` with the documented issues listed below.
 
+---
+
+## Methodology lessons (carry forward)
+
+Plain lesson statements drawn from this session's wrong turns. Future
+sessions read these as context, not as actionable items.
+
+### Loud failures over silent ones
+
+A `try/catch` that returns `null` indistinguishably from a successful empty
+result is epistemically broken — it removes the system's ability to tell you
+something's wrong. The original `resolveAttachmentByFilename` swallowed every
+404 from the malformed URL path, so the filename-fallback "ran" returning
+zero hits while the run summary reported clean. One full re-run cycle and one
+wrong diagnosis (same-wpId-different-src) cost. Pattern to use instead: every
+new code path's failure modes log to stderr at minimum, ideally with the input
+that triggered them. Make silence impossible.
+
+### Sample-based corpus characterizations are probabilistic, not categorical
+
+When sampling N articles to characterize a corpus, the honest output is "N
+articles sampled show pattern X; tail cases possible." When a fix depends on
+a categorical claim about the corpus, either run an exhaustive scan or
+design the fix to fail loudly on the tail case rather than silently swallowing
+it. Pre-flight characterization "every img has `wp-image-{ID}`" is an
+overgeneralization from sample to population — what was actually true is
+"every img in 8 samples has `wp-image-{ID}`." The Elementor `image.default`
+widget on `travel-agency-in-egypt` rendered class-less imgs and was the
+hidden tail case.
+
+### TypeScript clean is necessary, not sufficient
+
+`tsc --noEmit` checks types, not runtime correctness. URL strings, API
+endpoints, and schema field names are not type-checked against external
+systems. New code paths exercising external APIs need a one-shot exercise
+against a known input before declaring clean. Adding a
+`--hit-new-paths` mode to wp-import that runs each new resolver against one
+seed input and asserts non-empty cache files would be small future investment
+if this pattern recurs.
+
 ## Branch state
 
 Branch `claude/awesome-shannon-3194f1` is **alive, not merged**. It contains three
