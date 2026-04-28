@@ -216,6 +216,34 @@ against a known input before declaring clean. Adding a
 seed input and asserts non-empty cache files would be small future investment
 if this pattern recurs.
 
+### Safety-net components must share runtime code with the operation they protect
+
+Session 5 (2026-04-28): the `mergeCityDoc` function was used by the
+`--dry-run-diff-only` path but NOT by the actual write path. The diff
+showed Q3 merge rule preserving Akhmim's editorial `region` field. The
+actual write used `client.createOrReplace(doc)` which clobbers fields the
+mapper omits. Result: a verified-clean dry-run, then a live write that
+silently dropped editorial state. Both paths must converge on the same
+merge function or the safety net is theater.
+
+Detection rule for any UPDATE-mode session: post-write verification query
+that the editorial fields survived. The 31/31 unit tests for
+`mergeCityDoc` did not catch this because they tested the function in
+isolation; the integration with the write path was the missing coverage.
+Add the integration assertion (write path against a mocked existing doc
+with an editorial-only field set; assert post-write doc still contains
+the field) to the merge test suite or as a separate test.
+
+### Fingerprints derived from dry-run output are untrustworthy until the write path is proven to match
+
+Session 5 corollary of the above: the safety-net fingerprint protocol
+captures structural shape from the diff path. If the diff and write paths
+diverge (as they did pre-Path-A wiring), fingerprints from the diff
+document hypothetical behavior, not actual write output. Fingerprint
+approval gates require write-path-confirmed shapes. When a diff/write
+divergence is fixed mid-session, prior fingerprints must be invalidated
+(deleted or marked unverified) and regenerated post-write.
+
 ## Branch state
 
 Branch `claude/awesome-shannon-3194f1` was merged to `main` at the close of
