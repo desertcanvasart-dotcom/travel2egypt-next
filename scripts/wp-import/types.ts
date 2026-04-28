@@ -99,6 +99,9 @@ export interface MigrationMetadata {
   migratedAt: string;
   source: 'wp-import';
   reviewFlag?: ReviewFlag;
+  wpAuthorId?: number;
+  wpAuthorSlug?: string;
+  wpCategorySlugs?: string[];
 }
 
 export type ReviewFlag =
@@ -122,6 +125,22 @@ export interface HtmlPipelineStats {
   images: number;
   tablesFlattened: number;
   pendingInternalLinks: number;
+  tourPromoStripped: number;
+  categoryGridStripped: number;
+  backlinkStripped: number;
+  carouselSwiperStripped: number;
+  carouselPremiumAdvStripped: number;
+  bdtImgStripped: number;
+}
+
+/** Per-locale record of carousel images discarded by strip rules (sample srcs). */
+export interface DiscardedCarousel {
+  docId: string;
+  slug: string;
+  locale: Locale;
+  widget: 'swiper' | 'premium-adv' | 'bdt-img';
+  count: number;
+  sampleSrcs: string[];
 }
 
 /** Output of a mapper for a single entity. */
@@ -136,6 +155,10 @@ export interface MapperResult {
   htmlStats?: HtmlPipelineStats;
   /** Number of media assets uploaded (or "would upload" in dry-run) for this entity. */
   mediaUploaded?: number;
+  /** Per-locale discarded-carousel records (sample srcs preserved for editorial). */
+  discardedCarousels?: DiscardedCarousel[];
+  /** Times a duplicate `<img src>` for the same `wp-image-{ID}` was remapped to the existing asset. */
+  duplicateSrcRemappings?: number;
 }
 
 /** Generic Sanity doc — typed loosely; mappers carry the burden of correctness. */

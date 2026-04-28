@@ -33,6 +33,27 @@ interface AssetCacheEntry {
   uploadedAt: string;
 }
 
+/** Process-level registry of attachment 404s, keyed by `${wpId}:${referrerSlug}:${referrerLocale}`. */
+export interface MissingAttachment {
+  wpId: number;
+  src: string;
+  referrerSlug: string;
+  referrerLocale: string;
+}
+const MISSING_ATTACHMENTS: MissingAttachment[] = [];
+const MISSING_DEDUPE = new Set<string>();
+
+export function getMissingAttachments(): MissingAttachment[] {
+  return MISSING_ATTACHMENTS.slice();
+}
+
+function recordMissing(m: MissingAttachment): void {
+  const key = `${m.wpId}:${m.referrerSlug}:${m.referrerLocale}`;
+  if (MISSING_DEDUPE.has(key)) return;
+  MISSING_DEDUPE.add(key);
+  MISSING_ATTACHMENTS.push(m);
+}
+
 /**
  * Ensure a WP attachment has a corresponding Sanity asset. Returns the
  * Sanity asset reference (_ref). Idempotent — returns the cached _ref if
@@ -42,7 +63,7 @@ export async function ensureAssetUploaded(
   client: SanityClient,
   wp: WpClient,
   attachmentId: number,
-  opts: { dryRun?: boolean } = {}
+  opts: { dryRun?: boolean; referrerSlug?: string; referrerLocale?: string } = {}
 ): Promise<{ assetId: string; filename: string } | null> {
   const cachePath = join(CACHE_DIR, `${attachmentId}.json`);
   if (existsSync(cachePath)) {
@@ -83,6 +104,14 @@ export async function ensureAssetUploaded(
     buffer = dl.buffer;
   } catch (e) {
     process.stderr.write(`[media] DOWNLOAD_FAIL wpId=${attachmentId} src=${sourceUrl}: ${(e as Error).message}\n`);
+    if (opts.referrerSlug && opts.referrerLocale) {
+      recordMissing({
+        wpId: attachmentId,
+        src: sourceUrl,
+        referrerSlug: opts.referrerSlug,
+        referrerLocale: opts.referrerLocale,
+      });
+    }
     return null;
   }
 
@@ -124,7 +153,7 @@ export async function buildImageRef(
   wp: WpClient,
   attachmentId: number,
   locales: Locale[],
-  opts: { dryRun?: boolean } = {}
+  opts: { dryRun?: boolean; referrerSlug?: string; referrerLocale?: string } = {}
 ): Promise<SanityImageRef | null> {
   const upload = await ensureAssetUploaded(client, wp, attachmentId, opts);
   if (!upload) return null;

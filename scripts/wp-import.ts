@@ -30,6 +30,8 @@ import { classifyPageBySlug, type PageType } from './wp-classifier.js';
 import { loadEnv } from './wp-import/env.js';
 import { WpClient, WordfenceHaltError } from './wp-import/wp-client.js';
 import { makeSanityClient, findCityByEnSlug } from './wp-import/sanity.js';
+import { getMissingAttachments } from './wp-import/media.js';
+import { getAmbiguousMediaMatches } from './wp-import/mappers/_shared.js';
 import { getHreflangMap } from './wp-import/hreflang.js';
 import { mapArticle } from './wp-import/mappers/article.js';
 import { mapCity } from './wp-import/mappers/city.js';
@@ -187,8 +189,101 @@ async function main(): Promise<void> {
     }
   }
 
+  stats.missingAttachments = getMissingAttachments();
+  stats.ambiguousMatches = getAmbiguousMediaMatches();
   writeSummary(stats);
   process.stderr.write(`[wp-import] summary written → migration/migration-summary.md\n`);
+}
+
+/**
+ * Idempotently ensure the migration-staging dataset has the seed docs that
+ * imported articles reference: a "Travel2Egypt Archive" author + the two
+ * curated editorialCategory documents (planning / destination).
+ *
+ * `createIfNotExists` ensures we never clobber editorial work in Studio.
+ * If the production seed.ts is later re-run against staging, its
+ * `createOrReplace` will overwrite our minimal stubs with the curated copy —
+ * which is the desired behavior.
+ */
+async function ensureMigrationStagingSeed(sanity: SanityClient): Promise<void> {
+  const archiveBio =
+    'Articles attributed to the Travel2Egypt Archive were imported from our legacy content library and are undergoing editorial review. Where original authorship can be verified, articles will be reassigned to their authors over time.';
+  const ptBlock = (text: string, keyHint: string) => [
+    {
+      _type: 'block',
+      _key: `bio-${keyHint}`,
+      style: 'normal',
+      children: [{ _type: 'span', _key: `span-${keyHint}`, text, marks: [] }],
+      markDefs: [],
+    },
+  ];
+  const i18nString = (en: string, es: string, ja: string) => [
+    { _key: 'en', value: en },
+    { _key: 'es', value: es },
+    { _key: 'ja', value: ja },
+  ];
+  const i18nSlug = (en: string, es: string, ja: string) => [
+    { _key: 'en', _type: 'object', value: { _type: 'slug', current: en } },
+    { _key: 'es', _type: 'object', value: { _type: 'slug', current: es } },
+    { _key: 'ja', _type: 'object', value: { _type: 'slug', current: ja } },
+  ];
+
+  await sanity.createIfNotExists({
+    _id: 'author-legacy-archive',
+    _type: 'author',
+    name: 'Travel2Egypt Archive',
+    slug: { _type: 'slug', current: 'travel2egypt-archive' },
+    bio: [{ _key: 'en', _type: 'object', value: ptBlock(archiveBio, 'en') }],
+  } as any);
+
+  await sanity.createIfNotExists({
+    _id: 'category-planning',
+    _type: 'editorialCategory',
+    name: i18nString('Planning advice', 'Consejos de planificación', '旅の計画'),
+    slug: i18nSlug('planning-advice', 'consejos-de-planificacion', 'planning-advice'),
+    orderRank: 10,
+  } as any);
+
+  await sanity.createIfNotExists({
+    _id: 'category-destination',
+    _type: 'editorialCategory',
+    name: i18nString('Destination depth', 'Profundidad de destino', '訪問先を深く知る'),
+    slug: i18nSlug('destination-depth', 'profundidad-de-destino', 'destination-depth'),
+    orderRank: 20,
+  } as any);
+}
+
+/**
+ * Fetch WP id→slug maps for categories and users once at startup. Cheap
+ * (~1 page each) and avoids per-post round-trips. Used by mapArticle to
+ * preserve original WP author + category provenance on the migration object,
+ * and to feed the two-bucket category-routing heuristic.
+ */
+async function fetchWpMaps(wp: WpClient): Promise<{
+  categoryById: Map<number, string>;
+  authorById: Map<number, string>;
+}> {
+  const categoryById = new Map<number, string>();
+  const authorById = new Map<number, string>();
+  try {
+    const cats = await wp.getPaginated<{ id: number; slug: string }>(
+      '/wp-json/wp/v2/categories',
+      { _fields: 'id,slug' }
+    );
+    for (const c of cats) categoryById.set(c.id, c.slug);
+  } catch (e) {
+    process.stderr.write(`[wp-import] failed to fetch WP categories: ${(e as Error).message}\n`);
+  }
+  try {
+    const users = await wp.getPaginated<{ id: number; slug: string }>(
+      '/wp-json/wp/v2/users',
+      { _fields: 'id,slug' }
+    );
+    for (const u of users) authorById.set(u.id, u.slug);
+  } catch (e) {
+    process.stderr.write(`[wp-import] failed to fetch WP users: ${(e as Error).message}\n`);
+  }
+  return { categoryById, authorById };
 }
 
 async function runImportPhase(
@@ -197,6 +292,17 @@ async function runImportPhase(
   cli: CliOptions,
   stats: MigrationStats
 ): Promise<void> {
+  // Idempotently ensure migration-staging holds the seed docs that imported
+  // articles reference (legacy-archive author + 2 editorialCategory docs).
+  if (!cli.dryRun) {
+    await ensureMigrationStagingSeed(sanity);
+    process.stderr.write(`[wp-import] migration-staging seed (legacy-archive author + 2 categories) ensured\n`);
+  }
+
+  // Fetch WP id→slug maps once for author + category provenance.
+  const wpMaps = await fetchWpMaps(wp);
+  process.stderr.write(`[wp-import] WP maps loaded: ${wpMaps.categoryById.size} categories, ${wpMaps.authorById.size} users\n`);
+
   // Categories are simple enough to run in their own pass.
   if (cli.type === 'all' || cli.type === 'category') {
     await importCategories(sanity, wp, cli, stats);
@@ -211,7 +317,7 @@ async function runImportPhase(
 
   // Posts: WP `post` → article.
   if (cli.type === 'all' || cli.type === 'post') {
-    await importPosts(sanity, wp, cli, stats, priorityIndex, allRedirects, liveUrlToPath);
+    await importPosts(sanity, wp, cli, stats, priorityIndex, allRedirects, liveUrlToPath, wpMaps);
   }
 
   // Pages: classified per scripts/wp-classifier.ts; routed to per-type mappers.
@@ -264,7 +370,8 @@ async function importPosts(
   stats: MigrationStats,
   priorityIndex: Map<string, number>,
   allRedirects: RedirectEntry[],
-  liveUrlToPath: Map<string, { to_path: string; locale: Locale; legacy_wp_id: number }>
+  liveUrlToPath: Map<string, { to_path: string; locale: Locale; legacy_wp_id: number }>,
+  wpMaps: { categoryById: Map<number, string>; authorById: Map<number, string> }
 ): Promise<void> {
   process.stderr.write(`[wp-import] enumerating EN posts...\n`);
   const params: Record<string, string> = { lang: 'en', _fields: 'id,slug,date,modified,modified_gmt,link,template,categories,tags,featured_media,title' };
@@ -276,7 +383,12 @@ async function importPosts(
       const group = await assembleLocaleGroup(wp, 'posts', lite, cli, stats);
       if (!group) continue;
       const priority = scoreFor(group.en.link, priorityIndex);
-      const result = await mapArticle(sanity, wp, group, { priorityScore: priority, dryRun: cli.dryRun });
+      const result = await mapArticle(sanity, wp, group, {
+        priorityScore: priority,
+        dryRun: cli.dryRun,
+        wpCategoryById: wpMaps.categoryById,
+        wpAuthorById: wpMaps.authorById,
+      });
       await persistResult(sanity, cli, stats, result);
       collect(allRedirects, liveUrlToPath, result);
     } catch (e) {
@@ -454,6 +566,50 @@ function extractSlug(url: string): string | null {
 
 // ---------- Persist + bookkeeping --------------------------------------
 
+/**
+ * Sanity transient-error guard. Mirrors the Wordfence-backoff pattern on the
+ * write side: retry on 5xx-class transient errors and ECONNRESET-style network
+ * blips with exponential backoff (1s, 4s, 16s). Halts only after the 3rd
+ * attempt fails. Detected by message-string sniffing because the @sanity/client
+ * surface doesn't expose a typed error class for these.
+ */
+function isTransientSanityError(e: unknown): boolean {
+  const msg = (e as Error)?.message ?? '';
+  return (
+    /invalid response was received from the upstream server/i.test(msg) ||
+    /ECONNRESET|ETIMEDOUT|ENOTFOUND|EAI_AGAIN|socket hang up|network/i.test(msg) ||
+    /\b5\d\d\b/.test(msg)
+  );
+}
+
+async function createOrReplaceWithRetry(
+  sanity: SanityClient,
+  doc: SanityDoc,
+  stats: MigrationStats
+): Promise<void> {
+  const delays = [1_000, 4_000, 16_000];
+  for (let attempt = 0; attempt <= delays.length; attempt++) {
+    try {
+      await sanity.createOrReplace(doc as any);
+      return;
+    } catch (e) {
+      if (attempt < delays.length && isTransientSanityError(e)) {
+        const wait = delays[attempt];
+        stats.sanityRetries++;
+        const msg = (e as Error).message?.slice(0, 120) ?? '';
+        process.stderr.write(`[sanity-retry] ${doc._id} attempt ${attempt + 1}/${delays.length} in ${wait}ms (${msg})\n`);
+        logEvent({
+          level: 'warn',
+          message: `sanity-retry ${doc._id} attempt=${attempt + 1} delay=${wait}ms err=${msg}`,
+        });
+        await new Promise((r) => setTimeout(r, wait));
+        continue;
+      }
+      throw e;
+    }
+  }
+}
+
 async function persistResult(
   sanity: SanityClient,
   cli: CliOptions,
@@ -468,7 +624,7 @@ async function persistResult(
       continue;
     }
     try {
-      await sanity.createOrReplace(doc as any);
+      await createOrReplaceWithRetry(sanity, doc, stats);
       bump(stats, doc._type, 'written');
       countReviewFlag(stats, doc);
     } catch (e) {
@@ -483,6 +639,43 @@ async function persistResult(
     stats.htmlPipeline.sideImages += result.htmlStats.sideImages;
     stats.htmlPipeline.images += result.htmlStats.images;
     stats.htmlPipeline.tablesFlattened += result.htmlStats.tablesFlattened;
+    stats.stripRules.tourPromo += result.htmlStats.tourPromoStripped;
+    stats.stripRules.categoryGrid += result.htmlStats.categoryGridStripped;
+    stats.stripRules.backlink += result.htmlStats.backlinkStripped;
+    stats.stripRules.carouselSwiper += result.htmlStats.carouselSwiperStripped;
+    stats.stripRules.carouselPremiumAdv += result.htmlStats.carouselPremiumAdvStripped;
+    stats.stripRules.bdtImg += result.htmlStats.bdtImgStripped;
+    // Per-article strip counter event for editorial triage. Only emit when at
+    // least one rule fired, so the log doesn't get drowned in zeros.
+    const totalStripped =
+      result.htmlStats.tourPromoStripped +
+      result.htmlStats.categoryGridStripped +
+      result.htmlStats.backlinkStripped +
+      result.htmlStats.carouselSwiperStripped +
+      result.htmlStats.carouselPremiumAdvStripped +
+      result.htmlStats.bdtImgStripped;
+    if (totalStripped > 0) {
+      const enDoc = result.docs.find((d) => d._type !== 'translation.metadata');
+      logEvent({
+        level: 'info',
+        message: `strip-counts ${enDoc?._id ?? 'unknown'}`,
+        data: {
+          docId: enDoc?._id,
+          tourPromo: result.htmlStats.tourPromoStripped,
+          categoryGrid: result.htmlStats.categoryGridStripped,
+          backlink: result.htmlStats.backlinkStripped,
+          carouselSwiper: result.htmlStats.carouselSwiperStripped,
+          carouselPremiumAdv: result.htmlStats.carouselPremiumAdvStripped,
+          bdtImg: result.htmlStats.bdtImgStripped,
+        },
+      });
+    }
+  }
+  if (result.discardedCarousels?.length) {
+    for (const dc of result.discardedCarousels) stats.discardedCarousels.push(dc);
+  }
+  if (result.duplicateSrcRemappings) {
+    stats.duplicateSrcRemappings += result.duplicateSrcRemappings;
   }
   if (result.mediaUploaded) {
     if (cli.dryRun) stats.media.uploaded += result.mediaUploaded;
