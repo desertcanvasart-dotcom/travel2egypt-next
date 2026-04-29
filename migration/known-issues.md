@@ -173,7 +173,9 @@ cutover. Two viable shapes:
   is a clean replace.
 
 **Owner:** Islam.
-**Deadline:** before session 9 close.
+**Deadline:** before session 8 close. (Tightened from "session 9 close"
+at session 5 close — session 9 should remain a closeout buffer, not absorb
+blocker resolution work, per DOC 3 Step 11.)
 **Action this session:** none. Surface only.
 
 ---
@@ -293,12 +295,43 @@ paths. Make this a step in every safety-net session, not a one-off check.
 Session 5 surfaced two diff/write divergences post-fact; the drift
 assertion catches them at the gate before scaling to N.
 
+### Worktree-CWD verification at every session start
+
+The Claude Code harness can launch a new session with a default Node
+version (and occasionally a default working directory) that diverges from
+what the prior session was running under. Silent divergence — same code,
+different runtime — is an integration-drift class we already pay for in
+diff/write paths; the same applies to session boundaries.
+
+Standing rule for every session start, as the first command after entering
+the worktree:
+
+```bash
+pwd
+git worktree list
+git branch --show-current
+git log --oneline -5
+node --version  # if Sanity CLI / npm-side work is on the agenda
+```
+
+If `pwd` doesn't match the expected worktree, OR if the branch isn't the
+expected session branch, OR if `node --version` differs from the prior
+session's runtime — STOP and surface, do not attempt recovery without
+direction. Session 5 lost ~5 minutes to a silent Node v18 vs v20.20.2
+divergence at the harness handoff that would have surfaced earlier under
+this rule.
+
 ## Branch state
 
 Branch `claude/awesome-shannon-3194f1` was merged to `main` at the close of
 session 4. The five-commit diagnosis trail (original bundle + four follow-ups
 on issue 5) is preserved in git history. See "Resolved in session 4" at the
 bottom for the verification numbers.
+
+Branch `claude/session-5-city-import` is the session 5 branch (city import
++ safety-net infrastructure + post-write drift protocol). At session 5
+close (2026-04-29), 21 commits ahead of main, summarized in
+"Session 5 close" below.
 
 ---
 
@@ -564,6 +597,126 @@ them to resolve. The production `scripts/seed.ts` remains canonical.
 | 7 | sub-paragraph dedupe | deferred | Prefix dedup cheap, internal needs samples |
 | — | curse-of-king-tut truncation | deferred | Investigate after critical fixes |
 | — | karnak-temple `\n` escapes | deferred | Elementor heading-widget gap |
+
+---
+
+## Session 5 close (2026-04-29)
+
+Session-close summary. Future sessions read this for state at handoff and
+the corrected canonical numbers.
+
+### Cutover decisions made (consolidated)
+
+Locked, dated, no further discussion this session:
+
+- **Q1 — Brand swap: Ring 2, scheduled session 5.5.** Brand swap is
+  typographic hierarchy + Portable Text rendering tier, not visual-only.
+  Inputs ready at `~/Desktop/travel2egypt-brand/`. Handoff note:
+  `migration/.handoffs/session-5.5-brand-swap.md`.
+- **Q3 — City UPDATE merge rule: WP overwrites where WP has a value;
+  everything else stays as-is.** Editorial-only fields (region, orderRank,
+  Key Facts, etc.) preserved across re-imports. Implemented via
+  `mergeCityDoc` (commit `2a14e25`); guarded by integration-test triad
+  (commit `3dde213`); fingerprint trust hardened by drift-protocol fix
+  (commit `5b3d183`).
+- **Q4 — Hotel/cruise/tour gallery: hero-only (B).** No body-image
+  imagery for those entity types in the initial import. Confirmed for
+  sessions 6-8.
+- **Q5 — `egypt-travel-guide` archive page: do not migrate, redirect at
+  cutover.** Tracked under "Manual redirects" deferred section. Locale
+  variants (ES/JA) follow the same disposition.
+
+### Counts at session 5 close (canonical, supersedes DOC 1 v3)
+
+| Metric | Value |
+|---|---:|
+| Cities in `migration-staging` | **41** |
+| Cities with hero image | 17 |
+| Cities flagged `keyfacts-mining-failed` | 40 (Sohag is the 1 success) |
+| Articles in `migration-staging` | 495 |
+| Articles re-written today (scope-anomaly side effect) | 489 |
+| Articles untouched today | 6 |
+| Total media uploaded today | 2,673 |
+| `UPLOAD_EXHAUSTED` registry entries | 2 (article-side) |
+| `MISSING_ATTACHMENTS` registry entries | substantial — see migration-summary.md |
+| Step 8 actual write runtime | 63 minutes |
+| Step 8 drift-assertion result | ✅ 41/41 cities, 0 changed line(s) |
+
+### Corpus-fact corrections to DOC 1 (Application Handover v3)
+
+DOC 1 v3 carried two stale claims for the `city` row that should fold into
+v4 when it gets generated for session 6 prep:
+
+1. **"Migration-staging current state" table for `city`** said:
+   *"1+ Cairo (existing seed); session 5 will UPDATE 69 hubs."*
+   Corrected: at session 5 start, migration-staging had 0 cities. Session 5
+   wrote 41 cities (CREATE-first run; UPDATE on iteration 2+ via
+   `mergeCityDoc`). The 69-hub number was the pre-`--slug-pattern` /
+   pre-`--slug-exclude` page count; final scope after both filters is 41.
+2. **Document type table for `city`** said:
+   *"destination-hub (69 EN, UPDATE existing seed)."*
+   Corrected: scope is 41 after `--slug-pattern '*-travel-guide'` and
+   `--slug-exclude 'egypt-travel-guide'`. Of the original 69, 27 were
+   reclassified as misclassified destination-hubs; deferred to sessions 6
+   (guideArticle) and 8 (tour) per
+   `migration/.diffs/destination-hub-misclassified-deferred.md`.
+
+### Deferred reclassifications
+
+`migration/.diffs/destination-hub-misclassified-deferred.md` contains 27
+`*-egypt` slugs to be reclassified out of `destination-hub` into
+`guideArticle` (session 6) or `tour` (session 8). Decision tree on a
+per-slug basis lives in that file.
+
+### Manual redirects flagged for session 9
+
+To be added to `migration/manual-redirects.csv` (file may not exist yet —
+session 9 step 13 creates the ingestion mechanism):
+
+- `/egypt-travel-guide/` → `/guide/`
+- `/es/guia-de-viaje-de-egipto/` → `/es/guide/`
+- `/ja/エジプト旅行ガイド/` → `/ja/guide/`
+
+### Methodology lessons committed in session 5 (commit cross-reference)
+
+For traceability:
+
+| Commit | Lesson |
+|---|---|
+| `a82e7ec` | Safety-net components must share runtime code with the operation they protect; fingerprints derived from dry-run output are untrustworthy until the write path is proven to match |
+| `3dde213` | Every safety-net component requires its own end-to-end integration test; post-write drift assertion is a standing protocol (not a one-off) |
+| `5b3d183` | Drift-protocol fix: deterministic keys + run-volatile field stripping (operationalises the assertion above) |
+| (this commit) | Worktree-CWD verification at every session start (Node-version drift caught at handoff) |
+
+### Workflow rules added in session 5
+
+These are durable rules, not session-specific actions:
+
+1. **Worktree-CWD verification at session start.** First command in every
+   new Claude Code session: `pwd && git worktree list && git branch --show-current && git log --oneline -5 && node --version`.
+   If anything diverges from the expected state, STOP and surface.
+   See methodology lessons section above.
+2. **Post-write drift assertion as standing protocol.** After every actual
+   write that uses a merge function, immediately re-run the same scope as
+   `--dry-run-diff-only`. Expected: zero changed line(s) across all docs.
+   Any drift = integration bug between diff and write paths; investigate
+   before scaling.
+
+### Open items from session 5
+
+Tracked in earlier sections of this file:
+
+- **Session-5-discovered defects** (below): `--filter-by-template` only
+  narrows pages, not posts. Article clobber risk for sessions 6-7. Must
+  fix before session 6 (449 subpages).
+- **Cutover Blockers**: production-only city enrichments not in staging.
+  Deadline: before session 8 close (tightened this session).
+
+### Branch state at session 5 close
+
+`claude/session-5-city-import` is 21 commits ahead of `main`. Methodology
++ infrastructure + actual writes are all on the branch. Merge to main at
+session 5 close per workflow rule 1.
 
 ---
 
