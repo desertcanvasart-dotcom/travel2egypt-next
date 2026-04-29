@@ -1,0 +1,10 @@
+# Per-locale diff artifacts — regenerated every dry-run, not durable
+city-*-en.diff
+city-*-es.diff
+city-*-ja.diff
+city-*-global.diff
+
+# Keep tracked:
+# - .approved-shapes/ (durable fingerprint set)
+# - city-diff-summary.md (current state report)
+# - city-references.md (current state report)
