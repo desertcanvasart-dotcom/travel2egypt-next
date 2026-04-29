@@ -567,6 +567,63 @@ them to resolve. The production `scripts/seed.ts` remains canonical.
 
 ---
 
+## Session-5-discovered defects
+
+### `--filter-by-template` only narrows pages, not posts (scope-anomaly + clobber risk)
+
+**Discovered:** Session 5 Step 8 actual write, 2026-04-29.
+
+**Symptom:** Step 8 was invoked with
+`--filter-by-template destination-hub --slug-pattern '*-travel-guide' --slug-exclude 'egypt-travel-guide'`,
+expected to narrow scope to the 41 city hub pages. Actual scope:
+
+| Type | Written |
+|---|---:|
+| article | 489 |
+| city | 41 |
+| editorialCategory | 19 |
+| translation.metadata | 163 |
+
+(plus 2,673 media uploads, 63-minute runtime).
+
+**Cause:** the filter flags only narrow pages. Posts (which become `article`
+docs) and category/translation enumerations run unconditionally before the
+page filter applies.
+
+**Blast radius — clobber risk:** articles route via `createOrReplace` with no
+`mergeArticleDoc` equivalent of `mergeCityDoc` — same failure class as the Q3
+city editorial-clobber bug fixed earlier in session 5. Any editorial work on
+staging articles between session 4 close (2026-04-28 14:42 UTC) and Step 8
+start (2026-04-29 11:12 UTC) was silently overwritten.
+
+**Verification at the time of writing:** technical signals show no editorial
+activity on articles in that window — 0 articles with `_createdAt` in the
+gap, 0 articles with `reviewFlag` set, sampled article block-key patterns
+match deterministic mapper output (`000000000001`, `00000000000d`, …).
+No definitive proof, but the most likely-to-fire signals are quiet. Final
+recall belongs to Islam.
+
+**Fixes needed before session 6** (which will hit this trap on ~449 subpages
+with worse blast radius — guideArticle subpages have non-trivial editorial
+fields):
+
+1. Extend `--filter-by-template` to also narrow posts, OR add an explicit
+   `--type=page|post` requirement when `--filter-by-template` is used.
+2. Build a `mergeArticleDoc` (and `mergeGuideArticleDoc`) parallel to
+   `mergeCityDoc` so editorial-only fields on articles/guideArticles are
+   preserved across re-imports — same Q3 merge rule pattern.
+3. Decide whether session 6 should run with a tighter scope flag set
+   (e.g. `--type=page` or path-based exclusion) until #1 and #2 land.
+
+**Related:** UPLOAD_EXHAUSTED registry (added in session 5) fired for the
+first time during this run on 2 article hero images
+(the-best-egypt-travel-itineraries, october-escapes-discovering-egypt-in-autumn,
+both `attempts=1 transient=false` — Sanity returned non-transient upstream
+errors). Surfaced in `migration-summary.md` correctly. Not a defect, just a
+note that the new registry is exercised.
+
+---
+
 ## Resolved in session 4
 
 Diagnostic record preserved here so future sessions can trace the cause and
