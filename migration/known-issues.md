@@ -321,6 +321,16 @@ direction. Session 5 lost ~5 minutes to a silent Node v18 vs v20.20.2
 divergence at the harness handoff that would have surfaced earlier under
 this rule.
 
+**Complementary rule — investigation artifacts written before branching:**
+when running pre-flight probes (Gate A, Gate C, etc.), write outputs into
+the session worktree, not main. Files created in main pre-branch become
+untracked phantoms that block subsequent merges (the tracked twin on the
+branch can't overwrite the untracked twin in main's working tree, even
+when bytes are identical). Verify with `pwd` before any `> file.json`
+redirect; if in main when about to write a session artifact, branch first.
+Session 5 close hit this with `migration/.diffs/elementor-data-probe.json`
+written in main 17 minutes before the session 5 branch was cut.
+
 ## Branch state
 
 Branch `claude/awesome-shannon-3194f1` was merged to `main` at the close of
