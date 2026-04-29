@@ -54,6 +54,9 @@ export interface MigrationStats {
   media: { uploaded: number; reused: number; failed: number };
   /** Per-attachment 404 misses, keyed by referencing article slug + locale. */
   missingAttachments: Array<{ wpId: number; src: string; referrerSlug: string; referrerLocale: string }>;
+  /** Sanity-side upload failures (non-transient or retry-exhausted), keyed by
+   *  wpId + referrer. Surfaced as a parallel artifact to missingAttachments. */
+  uploadExhausted: Array<{ wpId: number; src: string; filename: string; attempts: number; lastError: string; referrerSlug: string; referrerLocale: string }>;
   /** Sanity write retries triggered by transient 5xx / ECONNRESET. */
   sanityRetries: number;
   /** `<img src>` URLs remapped to a previously-resolved asset (same wpId, different src). */
@@ -83,6 +86,7 @@ export function emptyStats(argv: string[]): MigrationStats {
     hreflang: { entitiesProbed: 0, multiLocaleGroups: 0, singletons: 0, broken: 0 },
     media: { uploaded: 0, reused: 0, failed: 0 },
     missingAttachments: [],
+    uploadExhausted: [],
     sanityRetries: 0,
     duplicateSrcRemappings: 0,
     redirects: { total: 0, liveMatched: 0, historicMatched: 0, orphans: 0 },
@@ -230,6 +234,21 @@ export function writeSummary(stats: MigrationStats): void {
     push(`|---|---|---:|---|`);
     for (const m of stats.missingAttachments) {
       push(`| ${m.referrerSlug} | ${m.referrerLocale} | ${m.wpId} | ${m.src} |`);
+    }
+  }
+  push();
+
+  push(`## Upload exhaustions (Sanity side)`);
+  push();
+  if (stats.uploadExhausted.length === 0) {
+    push(`_None._`);
+  } else {
+    push(`Sanity asset upload either threw a non-transient error or exhausted the 5-attempt retry. Doc was either skipped (--continueOnError) or run halted. Mirror of MISSING_ATTACHMENTS for symmetry per session 5 methodology rule 1 (loud failures).`);
+    push();
+    push(`| Article slug | Locale | WP attachment ID | Filename | Attempts | Source URL | Last error |`);
+    push(`|---|---|---:|---|---:|---|---|`);
+    for (const u of stats.uploadExhausted) {
+      push(`| ${u.referrerSlug} | ${u.referrerLocale} | ${u.wpId} | ${u.filename} | ${u.attempts} | ${u.src} | ${u.lastError.replace(/\|/g, '\\|')} |`);
     }
   }
   push();

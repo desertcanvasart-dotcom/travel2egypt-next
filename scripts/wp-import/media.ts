@@ -54,6 +54,33 @@ function recordMissing(m: MissingAttachment): void {
   MISSING_ATTACHMENTS.push(m);
 }
 
+/** Process-level registry of Sanity-side upload exhaustions: either non-transient
+ *  errors (e.g. 4xx/auth) that throw immediately, or transient errors that
+ *  exhausted the 5-attempt retry. Mirrors MISSING_ATTACHMENTS so editorial
+ *  triage has a structured artifact instead of grepping stderr. */
+export interface UploadExhausted {
+  wpId: number;
+  src: string;
+  filename: string;
+  attempts: number;
+  lastError: string;
+  referrerSlug: string;
+  referrerLocale: string;
+}
+const UPLOAD_EXHAUSTED: UploadExhausted[] = [];
+const UPLOAD_EXHAUSTED_DEDUPE = new Set<string>();
+
+export function getUploadExhausted(): UploadExhausted[] {
+  return UPLOAD_EXHAUSTED.slice();
+}
+
+function recordUploadExhausted(u: UploadExhausted): void {
+  const key = `${u.wpId}:${u.referrerSlug}:${u.referrerLocale}`;
+  if (UPLOAD_EXHAUSTED_DEDUPE.has(key)) return;
+  UPLOAD_EXHAUSTED_DEDUPE.add(key);
+  UPLOAD_EXHAUSTED.push(u);
+}
+
 /**
  * Ensure a WP attachment has a corresponding Sanity asset. Returns the
  * Sanity asset reference (_ref). Idempotent — returns the cached _ref if
@@ -127,7 +154,21 @@ export async function ensureAssetUploaded(
     } catch (e) {
       const msg = (e as Error).message ?? '';
       const transient = /ECONNRESET|ETIMEDOUT|ENOTFOUND|EAI_AGAIN|socket hang up|network/i.test(msg);
-      if (!transient || attempt >= 4) throw e;
+      if (!transient || attempt >= 4) {
+        if (opts.referrerSlug && opts.referrerLocale) {
+          recordUploadExhausted({
+            wpId: attachmentId,
+            src: sourceUrl,
+            filename,
+            attempts: attempt + 1,
+            lastError: msg.slice(0, 200),
+            referrerSlug: opts.referrerSlug,
+            referrerLocale: opts.referrerLocale,
+          });
+        }
+        process.stderr.write(`[media] UPLOAD_EXHAUSTED wpId=${attachmentId} src=${sourceUrl} attempts=${attempt + 1} transient=${transient}: ${msg.slice(0, 120)}\n`);
+        throw e;
+      }
       attempt++;
       const wait = 1000 * Math.pow(2, attempt);
       process.stderr.write(`[media] transient upload error (${msg.slice(0, 80)}); retry ${attempt}/4 in ${wait}ms\n`);

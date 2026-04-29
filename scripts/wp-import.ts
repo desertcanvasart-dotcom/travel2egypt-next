@@ -30,7 +30,7 @@ import { classifyPageBySlug, type PageType } from './wp-classifier.js';
 import { loadEnv } from './wp-import/env.js';
 import { WpClient, WordfenceHaltError } from './wp-import/wp-client.js';
 import { makeSanityClient, findCityByEnSlug } from './wp-import/sanity.js';
-import { getMissingAttachments } from './wp-import/media.js';
+import { getMissingAttachments, getUploadExhausted } from './wp-import/media.js';
 import { getAmbiguousMediaMatches } from './wp-import/mappers/_shared.js';
 import { applyCityMerge } from './wp-import/merge.js';
 import { getHreflangMap } from './wp-import/hreflang.js';
@@ -235,6 +235,7 @@ async function main(): Promise<void> {
   }
 
   stats.missingAttachments = getMissingAttachments();
+  stats.uploadExhausted = getUploadExhausted();
   stats.ambiguousMatches = getAmbiguousMediaMatches();
   writeSummary(stats);
   process.stderr.write(`[wp-import] summary written → migration/migration-summary.md\n`);
