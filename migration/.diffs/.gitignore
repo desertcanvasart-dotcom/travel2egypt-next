@@ -3,6 +3,8 @@ city-*-en.diff
 city-*-es.diff
 city-*-ja.diff
 city-*-global.diff
+# NOOP diffs from post-write drift-assertion runs — also regenerated
+city-*-NOOP.diff
 
 # Keep tracked:
 # - .approved-shapes/ (durable fingerprint set)
