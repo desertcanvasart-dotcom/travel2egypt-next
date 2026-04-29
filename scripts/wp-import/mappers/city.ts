@@ -52,7 +52,9 @@ function stripCityHubSuffix(rawSlug: string, locale: Locale): { stripped: string
   if (locale === 'en') {
     if (decoded.endsWith('-travel-guide')) return { stripped: decoded.replace(/-travel-guide$/, ''), matched: true };
   } else if (locale === 'ja') {
-    if (decoded.endsWith('旅行ガイド')) return { stripped: decoded.replace(/旅行ガイド$/, ''), matched: true };
+    // JA suffix variants: 旅行ガイド ("travel guide" — 40/41 cities), 観光ガイド
+    // ("tourism guide" — al-Minya), の宿泊情報 ("accommodation info" — Dahab outlier).
+    if (/(?:旅行|観光)ガイド$/.test(decoded)) return { stripped: decoded.replace(/(?:旅行|観光)ガイド$/, ''), matched: true };
     if (decoded.endsWith('の宿泊情報')) return { stripped: decoded.replace(/の宿泊情報$/, ''), matched: true };
   } else if (locale === 'es') {
     const ES_PREFIX = /^guia(?:-de(?:-viaje[s]?)?)?-de[l]?-(?:oasis-de-)?/;
@@ -96,7 +98,8 @@ function stripCityNameSuffix(rawName: string, locale: Locale): { stripped: strin
     const m = /^(.+?)\s+Travel\s+Guide$/i.exec(trimmed);
     if (m) return { stripped: m[1].trim(), matched: true };
   } else if (locale === 'ja') {
-    const m = /^(.+?)旅行ガイド$/.exec(trimmed);
+    // Same JA suffix variants as the slug stripper: 旅行ガイド, 観光ガイド, の宿泊情報.
+    const m = /^(.+?)(?:旅行|観光)ガイド$/.exec(trimmed);
     if (m) return { stripped: m[1].trim(), matched: true };
     const m2 = /^(.+?)の宿泊情報$/.exec(trimmed);
     if (m2) return { stripped: m2[1].trim(), matched: true };

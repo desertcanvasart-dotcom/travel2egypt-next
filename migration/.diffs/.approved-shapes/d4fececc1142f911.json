@@ -5,6 +5,10 @@
       "outcome": "created"
     },
     {
+      "field": "keyFacts",
+      "outcome": "created"
+    },
+    {
       "field": "migration",
       "outcome": "created"
     },
@@ -32,8 +36,10 @@
     "slug": "array",
     "summary": "array",
     "overview": "array",
+    "keyFacts": "object",
     "heroImage": "object",
     "migration": "object"
   },
-  "createMode": true
+  "createMode": true,
+  "description": "CREATE-mode, with hero + keyFacts.bestSeason mined. First city in 41-doc cohort where bestSeason regex fired in mineKeyFacts. Other cities may match this shape if their body contains similar climate-pattern sentences."
 }
