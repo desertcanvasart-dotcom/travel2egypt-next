@@ -30,7 +30,8 @@ import type { HtmlPipelineStats, I18nSlug, Locale, LocaleGroup, MapperResult, Sa
  * session 5 pre-flight):
  *
  *   EN: ends with "-travel-guide"             — 41/41 conform
- *   JA: ends with "旅行ガイド"                  — 40/41 conform
+ *   JA: ends with 旅行ガイド (40/41 cities) or 観光ガイド (al-minya only —
+ *        translator variant). Alternation handles both.
  *        (1 outlier: dahab-travel-guide JA = "ダハブの宿泊情報"
  *         = "Dahab Accommodation Info" — different content concept;
  *         we strip "の宿泊情報" too and flag for editorial review)
@@ -84,7 +85,8 @@ function cityI18nSlug(group: LocaleGroup): I18nSlug {
  *
  *   EN: `^(.+?)\s+Travel Guide$` (case-insensitive) → group 1
  *   ES: `^Guía de viaje[s]?\s+(?:de(?:l)?\s+)?(?:la\s+|el\s+)?(.+?)$` → group 1
- *   JA: `^(.+?)旅行ガイド$` → group 1
+ *   JA: `^(.+?)(?:旅行|観光)ガイド$` → capture group 1. Handles both
+ *       旅行ガイド (travel guide) and 観光ガイド (tourism guide) translator variants.
  *
  * If a locale's title doesn't match the expected pattern, the raw title is
  * kept (don't blank). The fallback is logged so editorial can review.
