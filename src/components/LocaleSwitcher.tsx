@@ -63,7 +63,7 @@ export function LocaleSwitcher({ currentLocale }: Props) {
         type="button"
         aria-haspopup="listbox"
         aria-expanded={open}
-        aria-label="Select language"
+        aria-label={`Select language (currently ${LOCALE_SHORT[currentLocale]})`}
         onClick={() => setOpen((v) => !v)}
         className="flex items-center gap-1.5 border-b border-rule-strong bg-transparent pb-[2px] text-xs font-medium uppercase tracking-[0.1em] text-night-soft transition-colors hover:border-faience hover:text-faience"
       >
