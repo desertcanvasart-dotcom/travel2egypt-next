@@ -18,24 +18,28 @@ function readLocalized(value: LocalizedField, locale: Locale): string {
   return (pickLocalized<string>(value, locale) ?? '') as string;
 }
 
+/**
+ * Operator-note tone labels — single-word eyebrow per brand-inputs Phase 2
+ * plan #4. Italic faience small caps, applied via .operator-note__label.
+ */
 const OPERATOR_NOTE_LABELS: Record<string, Record<string, string>> = {
   en: {
     honest: 'Honest take',
-    caution: 'Watch out',
+    caution: 'Caution',
     insider: 'Insider tip',
-    context: 'Worth knowing',
+    context: 'Context',
   },
   es: {
     honest: 'Opinión honesta',
     caution: 'Cuidado',
     insider: 'Consejo del operador',
-    context: 'Vale la pena saberlo',
+    context: 'Contexto',
   },
   ja: {
     honest: '正直な所見',
-    caution: '注意点',
+    caution: '注意',
     insider: '内部情報',
-    context: '知っておくべきこと',
+    context: '背景',
   },
 };
 
@@ -54,15 +58,9 @@ export function Body({ value, locale }: BodyProps) {
         const url = urlFor(value).width(1400).quality(85).url();
         return (
           <figure className="my-10">
-            <Image
-              src={url}
-              alt={value.alt || ''}
-              width={1400}
-              height={900}
-              className="rounded-md"
-            />
+            <Image src={url} alt={value.alt || ''} width={1400} height={900} />
             {value.caption && (
-              <figcaption className="mt-3 text-sm italic text-ink-muted">
+              <figcaption className="mt-3 font-serif text-sm italic text-night-soft">
                 {value.caption}
               </figcaption>
             )}
@@ -74,15 +72,19 @@ export function Body({ value, locale }: BodyProps) {
         const attribution = readLocalized(value?.attribution, locale);
         const style = (value?.style as 'literary' | 'historical' | 'traveler') || 'literary';
         if (!quote) return null;
-        const quoteText =
-          style === 'traveler' ? `‟${quote}”` : quote;
         return (
-          <figure className="my-12 border-y border-line py-8 text-center">
-            <blockquote className="font-serif text-2xl italic leading-relaxed text-ink md:text-3xl">
-              {quoteText}
+          <figure className="my-12 border-y border-rule-strong py-8">
+            <blockquote className="relative font-serif text-2xl italic leading-snug text-night md:text-3xl">
+              <span
+                aria-hidden
+                className="absolute -left-2 -top-3 font-serif italic text-faience text-[2em] leading-[0.5] md:-left-4"
+              >
+                &ldquo;
+              </span>
+              <span className="pl-6 md:pl-8">{quote}</span>
             </blockquote>
             {attribution && (
-              <figcaption className="mt-4 font-sans text-xs uppercase tracking-[0.18em] text-ink-muted">
+              <figcaption className="mt-5 pl-6 font-sans text-xs uppercase tracking-[0.18em] text-night-soft md:pl-8">
                 {style === 'historical' ? `— ${attribution}` : attribution}
               </figcaption>
             )}
@@ -108,11 +110,10 @@ export function Body({ value, locale }: BodyProps) {
               alt={alt}
               width={640}
               height={480}
-              className="rounded-md"
               sizes="(max-width: 768px) 100vw, 320px"
             />
             {caption && (
-              <figcaption className="mt-2 font-serif text-xs italic text-ink-muted">
+              <figcaption className="mt-2 font-serif text-xs italic text-night-soft">
                 {caption}
               </figcaption>
             )}
@@ -120,17 +121,18 @@ export function Body({ value, locale }: BodyProps) {
         );
       },
       operatorNote: ({ value }) => {
-        const tone = value.tone || 'honest';
+        const tone = (value.tone as keyof (typeof OPERATOR_NOTE_LABELS)['en']) || 'honest';
         const label = OPERATOR_NOTE_LABELS[locale]?.[tone] ?? '';
-        const className = tone === 'honest'
-          ? 'operator-note'
-          : `operator-note operator-note--${tone}`;
+        const attribution = readLocalized(value?.attribution, locale);
         return (
-          <aside className={className}>
-            <div className="operator-note__label">{label}</div>
-            <div>
+          <aside className="operator-note">
+            {label && <div className="operator-note__label">{label}</div>}
+            <div className="operator-note__body">
               <PortableText value={value.body} components={baseComponents} />
             </div>
+            {attribution && (
+              <div className="operator-note__attribution">{attribution}</div>
+            )}
           </aside>
         );
       },
@@ -155,13 +157,13 @@ export function Body({ value, locale }: BodyProps) {
         const href = resolveInternalLinkHref(ref);
         if (!href) {
           return (
-            <span className="underline decoration-orange-pale">{children}</span>
+            <span className="border-b border-rule-strong">{children}</span>
           );
         }
         return (
           <Link
             href={href}
-            className="underline decoration-orange-pale underline-offset-2 hover:decoration-orange"
+            className="border-b border-rule-strong text-faience transition-colors hover:border-faience"
           >
             {children}
           </Link>
