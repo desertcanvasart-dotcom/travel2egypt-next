@@ -63,9 +63,9 @@ export function LocaleSwitcher({ currentLocale }: Props) {
         type="button"
         aria-haspopup="listbox"
         aria-expanded={open}
-        aria-label="Select language"
+        aria-label={`Select language (currently ${LOCALE_SHORT[currentLocale]})`}
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1 rounded-full border border-line bg-transparent py-1.5 pl-3 pr-2 text-xs font-medium text-ink-soft transition-colors hover:text-ink"
+        className="flex items-center gap-1.5 border-b border-rule-strong bg-transparent pb-[2px] text-xs font-medium uppercase tracking-[0.1em] text-night-soft transition-colors hover:border-faience hover:text-faience"
       >
         <span>{LOCALE_SHORT[currentLocale]}</span>
         <svg
@@ -82,7 +82,7 @@ export function LocaleSwitcher({ currentLocale }: Props) {
       {open && (
         <ul
           role="listbox"
-          className="absolute right-0 z-50 mt-2 min-w-[10rem] overflow-hidden rounded-md border border-line bg-paper shadow-soft"
+          className="absolute right-0 z-50 mt-2 min-w-[11rem] overflow-hidden border border-rule-strong bg-paper"
         >
           {routing.locales.map((loc) => {
             const active = loc === currentLocale;
@@ -93,12 +93,12 @@ export function LocaleSwitcher({ currentLocale }: Props) {
                   onClick={() => pick(loc as Locale)}
                   className={
                     active
-                      ? 'flex w-full items-center justify-between px-3 py-2 text-left text-xs font-medium text-ink'
-                      : 'flex w-full items-center justify-between px-3 py-2 text-left text-xs text-ink-soft transition-colors hover:bg-cream-warm hover:text-ink'
+                      ? 'flex w-full items-center justify-between bg-limestone px-4 py-2.5 text-left font-serif text-sm text-night'
+                      : 'flex w-full items-center justify-between px-4 py-2.5 text-left font-serif text-sm text-night-soft transition-colors hover:bg-limestone hover:text-night'
                   }
                 >
                   <span>{LOCALE_LABELS[loc as Locale]}</span>
-                  <span className="ml-4 font-sans text-[10px] uppercase tracking-wider text-ink-muted">
+                  <span className="ml-4 font-sans text-[10px] uppercase tracking-[0.12em] text-night-soft">
                     {LOCALE_SHORT[loc as Locale]}
                   </span>
                 </button>

@@ -1,5 +1,19 @@
 # Session 5.5 — Brand swap (Ring 2)
 
+> **STATUS: COMPLETED 2026-05-01.** All four phases delivered, merged
+> to main. See `migration/known-issues.md` "Session 5.5 close
+> (2026-05-01)" for the canonical close summary, decision log, and
+> known follow-ups (now carried into the session 6 handoff at
+> `migration/.handoffs/session-6-subpages.md`). Lighthouse 100/100 on
+> a11y + best-practices across the four Phase 4 pages. Two methodology
+> lessons captured in `known-issues.md` (framework version pinning;
+> rendered-DOM vs HTML grep for dev-mode validation). Two carryover
+> defects identified mid-session and patched in main: root
+> `not-found.tsx` deleted (Next 15.5 stricter validator) + locale
+> `[...rest]` catchall added so unmatched paths reach the branded 404.
+
+---
+
 Handoff from session 5 (city import + safety-net infrastructure) to
 session 5.5 (brand swap). Read this end-to-end before kicking off.
 

@@ -3,8 +3,7 @@ import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { Cormorant_Garamond, Public_Sans, Noto_Serif_JP } from 'next/font/google';
-
+import { fontVariables } from '@/app/fonts';
 import { routing, type Locale } from '@/i18n/routing';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -12,29 +11,6 @@ import { JsonLd } from '@/components/JsonLd';
 import { client } from '@/sanity/lib/client';
 import { siteSettingsQuery } from '@/sanity/lib/queries';
 import { buildOrganizationSchema } from '@/lib/structured-data';
-
-const cormorant = Cormorant_Garamond({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-cormorant',
-  display: 'swap',
-});
-
-const publicSans = Public_Sans({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-  variable: '--font-public-sans',
-  display: 'swap',
-});
-
-const notoSerifJp = Noto_Serif_JP({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-noto-serif-jp',
-  display: 'swap',
-  preload: false, // Only loads when html[lang=ja] is rendered
-});
 
 export const metadata: Metadata = {
   title: 'Travel2Egypt',
@@ -64,10 +40,7 @@ export default async function LocaleLayout({
   const orgSchema = buildOrganizationSchema(siteSettings ?? {});
 
   return (
-    <html
-      lang={locale}
-      className={`${cormorant.variable} ${publicSans.variable} ${notoSerifJp.variable}`}
-    >
+    <html lang={locale} className={fontVariables}>
       <body>
         <JsonLd data={orgSchema} />
         <NextIntlClientProvider>

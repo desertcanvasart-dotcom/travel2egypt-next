@@ -44,12 +44,12 @@ export default async function BlogLandingPage({ params }: Props) {
   const rest = articles.filter((a) => a._id !== lead?._id);
 
   return (
-    <div className="mx-auto max-w-7xl px-6 py-16">
+    <div className="mx-auto max-w-7xl px-6 py-20">
       <header className="mb-16 max-w-3xl">
-        <h1 className="mb-4 font-serif text-5xl font-medium leading-tight text-ink md:text-6xl">
+        <h1 className="mb-6 font-serif text-[clamp(2.5rem,5.5vw,4.5rem)] font-normal leading-[1.05] tracking-[-0.02em] text-night">
           {t('landingTitle')}
         </h1>
-        <p className="font-serif text-xl italic leading-relaxed text-ink-soft">
+        <p className="font-serif text-[clamp(1.25rem,2vw,1.5rem)] italic leading-[1.45] text-night-soft">
           {t('landingDeck')}
         </p>
       </header>
@@ -57,11 +57,11 @@ export default async function BlogLandingPage({ params }: Props) {
       {categories.length > 0 && (
         <nav
           aria-label={t('categoryLabel')}
-          className="mb-12 flex flex-wrap gap-2 border-y border-line py-4"
+          className="mb-16 flex flex-wrap gap-x-8 gap-y-3 border-y border-rule py-5"
         >
           <Link
             href="/blog"
-            className="rounded-full bg-ink px-4 py-1.5 text-xs font-medium text-paper"
+            className="font-serif text-base text-night transition-colors hover:text-faience"
           >
             {t('allCategories')}
           </Link>
@@ -69,7 +69,7 @@ export default async function BlogLandingPage({ params }: Props) {
             <Link
               key={cat._id}
               href={`/blog/category/${cat.slug}`}
-              className="rounded-full border border-line px-4 py-1.5 text-xs font-medium text-ink-soft transition-colors hover:text-ink"
+              className="font-serif text-base italic text-night-soft transition-colors hover:text-faience"
             >
               {cat.name}
             </Link>
@@ -78,16 +78,16 @@ export default async function BlogLandingPage({ params }: Props) {
       )}
 
       {articles.length === 0 ? (
-        <p className="mt-12 font-serif text-lg italic text-ink-muted">
+        <p className="mt-12 font-serif text-lg italic text-night-soft">
           {t('noArticlesYet')}
         </p>
       ) : (
-        <div className="space-y-16">
+        <div className="space-y-20">
           {lead && (
             <ArticleCard article={lead} variant="lead" locale={locale} />
           )}
           {rest.length > 0 && (
-            <div className="grid grid-cols-1 gap-x-10 gap-y-14 border-t border-line pt-12 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-x-10 gap-y-16 border-t border-rule-strong pt-16 md:grid-cols-2 lg:grid-cols-3">
               {rest.map((article) => (
                 <ArticleCard
                   key={article._id}

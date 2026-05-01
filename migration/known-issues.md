@@ -295,6 +295,44 @@ paths. Make this a step in every safety-net session, not a one-off check.
 Session 5 surfaced two diff/write divergences post-fact; the drift
 assertion catches them at the gate before scaling to N.
 
+### Pin framework versions to the actual installed major+minor
+
+Version range mismatches between `package.json` and the lockfile produce
+silent integration drift. Session 5.5 found `package.json` declared
+`next: ^15.1.4` but the lockfile resolved 15.5.15. Next 15.5's stricter
+root-layout validator broke a pattern that 15.1 tolerated — but the gap
+was invisible until a non-existent route triggered the `_not-found`
+chunk compilation, which then poisoned the entire dev bundle (every
+route returned HTTP 500). Fresh worktrees can pull different resolutions
+from the same caret range; the lockfile is authoritative locally but
+the next `npm install` on a peer machine may pin elsewhere.
+
+Standing rule: pin major+minor versions on framework-level packages
+(Next, React, TypeScript) where strict-mode validation tightens across
+minor versions. `^15.5.15` instead of `^15.1.4`. Detection: when bumping
+a framework-level package, audit the actual range vs. installed; if
+they diverge by minor or higher, narrow the range to match.
+
+### Use rendered DOM, not HTML grep, for dev-mode error-surface detection
+
+In dev mode, Next.js bundles error-component classes (`next-error-h1`,
+prefetched not-found body text) into every page's HTML for fast-refresh
+and client-side navigation. HTML-grep-based detection logic that looks
+for these markers will produce false positives on legitimate pages and
+false negatives on actually-rendered error surfaces.
+
+Session 5.5's catchall verification matrix initially mis-flagged a
+working catchall as serving Next's default 404 because the grep matched
+bundled chunks rather than rendered DOM. Resolution: prefer
+`preview_inspect` on the actual rendered element (e.g., the page's H1
+text) or visual screenshots. HTML-grep works for production builds but
+not for dev-mode validation runs.
+
+Standing rule: when validating dev-mode UI surfaces, use rendered-DOM
+inspection (computed styles, element text, screenshots) rather than
+raw HTML grep. The dev bundle is not a faithful representation of what
+the user sees.
+
 ### Worktree-CWD verification at every session start
 
 The Claude Code harness can launch a new session with a default Node
@@ -900,3 +938,162 @@ attachments that were deleted, renamed beyond filename-search reach, or
 never had retrievable metadata. They surface to editorial as
 `_pendingImage` blocks in Studio with the original src URL preserved;
 editorial can re-source manually if any are high-value.
+
+## Session 5.5 close (2026-05-01)
+
+Brand swap (Ring 2). All four phases per `migration/.brand-inputs/
+travel2egypt-brand-inputs.md` Section 10 complete + a not-found build
+error fix that surfaced mid-session.
+
+### Brand applied (locked)
+
+- **Palette:** limestone (`#EDE4D0` / `#E8DFCC` / `#D4C8AC`), faience
+  (`#1B4965` / `#0F3550` / faience-soft rgba), sand (`#C9A961` /
+  `#B8924D` — dark-bg only), night (`#13110A` / `#2A2620`), paper
+  (`#FAF6EC`). Rule colors `rgba(19,17,10,0.12)` and `…0.24`.
+- **Type system:** Cormorant Garamond (display) + Inter (body) for
+  EN/ES with `latin-ext` subset; Noto Serif JP + Noto Sans JP for JA.
+  Locale font override declared outside `@layer base` so it wins over
+  Tailwind `.font-serif` / `.font-sans` utilities. Fluid `clamp()`
+  type scale per brand-inputs Section 2.
+- **Wordmark:** "Travel" + italic faience "2" + "Egypt", Cormorant
+  Garamond, 1.5rem header / 1.75rem footer. Replaces the T2E
+  orange-circle badge across header and footer.
+- **Tailwind v4 `@theme`:** all brand tokens declared as `--color-*`,
+  `--text-*`, `--space-*` etc. inside `@theme {}` in
+  `src/app/globals.css`. Legacy aliases (`cream`, `ink`, `orange`,
+  `line`, `gold`, `terra`) kept active to avoid breaking unmigrated
+  page templates; planned removal in session 6 alongside the broader
+  page-template sweep.
+
+### Components updated
+
+- **Buttons:** `.btn-primary` (paper-on-night, sand hover) and
+  `.btn-secondary` (paper text-link, sand hover). Sharp edges only,
+  no shadows, no rounded corners. Plus `.btn-secondary-light` for
+  light backgrounds.
+- **Cards:** ArticleCard / TourCard / PackageCard / GuideRefCard
+  re-skinned to 4/5 vertical aspect, no borders/shadows, brand
+  hover (translateY + image scale 1.03). WikiCard shifted from
+  image-led to bordered text+count knowledge-card pattern per
+  brand-inputs Section 4.
+- **SectionHeader:** new component with Roman numeral (i. ii. iii.)
+  italic faience prefix, optional `<em>` italic faience accent in
+  title, right-aligned arrow link, bottom-rule.
+- **PortableText (`Body.tsx`):** operator-note redesigned to single
+  visual language across four tones (limestone bg, large faience
+  italic opening quote mark, italic Cormorant body) + italic faience
+  eyebrow tone label ("HONEST TAKE / CAUTION / INSIDER TIP /
+  CONTEXT"); pull-quote with anchored faience opening mark; side-image
+  de-rounded; internal-link mark on rule-strong border + faience hover.
+- **ConciergeCTA:** new reusable section with night background, sand
+  uppercase eyebrow, italic-sand headline accent, three Roman-numbered
+  process steps, `.btn-primary` + `.btn-secondary` actions. Optional
+  `tourSlug` prop wires per-tour context.
+- **Wordmark.tsx:** new factored component supporting `header` /
+  `footer` / `hero` sizes, `asHeading` prop for the footer brand block.
+
+### Pages updated
+
+- **Homepage:** brand signature hero ("Egypt asks more of you / *than
+  its postcards admit.*" — straight + italic-faience-second-line) +
+  4/5 limestone color-block placeholder figure + standfirst section
+  with sand italic accent + ConciergeCTA. Real photography swaps in
+  post-cutover.
+- **City detail page:** with-hero / no-hero parity (both render paths
+  cleanly). No-hero variant uses italic faience oversized city
+  initial (`clamp(5rem, 13vw, 9rem)`) above region eyebrow and H1 as a
+  publishing-grade typographic anchor. Empty-keyFacts hide. Section
+  header on related-tours block. ConciergeCTA at page bottom.
+- **Blog/journal landing:** brand sweep — fluid display heading,
+  italic Cormorant lede, rule-bordered category nav (italic Cormorant
+  categories with faience hover) replacing the rounded-pill nav.
+- **404 surface:** consolidated to `(site)/[locale]/not-found.tsx`
+  swept to brand tokens. Root `app/not-found.tsx` deleted; locale
+  catchall (`(site)/[locale]/[...rest]/page.tsx`) added so unmatched
+  paths reach the branded 404 instead of Next's built-in white 404.
+
+### Photography strategy
+
+- **Cities with `featured_media`:** real WP-migrated photography
+  renders in the with-hero variant (verified on Cairo, Aswan, Luxor on
+  production; Akhmim on staging).
+- **Cities without `featured_media`:** no-hero variant with italic
+  faience initial typographic anchor — no image, intentional restraint
+  per brand-inputs Section 8 fallback strategy.
+- **Homepage figure:** 4/5 limestone-warm color-block placeholder with
+  sand-gradient overlay + italic Cormorant caption. Swappable for real
+  imagery via siteSettings or a homepage Sanity document post-cutover.
+- **Favicon:** italic Cormorant faience "2" on paper at `app/icon.svg`
+  (Next.js auto-generates `<link rel="icon">`).
+
+### Lighthouse scores (final, against `migration-staging`)
+
+| Page | Accessibility | Best Practices |
+|---|---:|---:|
+| `/` | 100 | 100 |
+| `/guide/cairo` | 100 | 100 |
+| `/guide/aswan` | 100 | 100 |
+| `/guide/bahariya-oasis` | 100 | 100 |
+
+`valid-source-maps` audit fails are dev-mode artifacts; production
+builds emit maps and the audit clears.
+
+### WCAG contrast (dark sections)
+
+All foreground/background pairings on dark sections (concierge CTA,
+standfirst) measured ≥ 7:1 (AAA). Sand on night = 8.31:1; paper on
+night = 17.5:1; paper @ 70% on night = 12.6:1. Sand on paper is the
+expected fail (2.11:1) and is forbidden by the brand spec — no
+implementation uses it.
+
+### Decision log
+
+Decisions made during the session that diverged from or extended
+brand-inputs:
+
+1. **Operator-note tone differentiation kept (not collapsed).**
+   Brand-inputs Section 5 prescribed a single operator-note variant;
+   the existing schema has four tones (honest / caution / insider /
+   context) that signal meaningfully different kinds of authority
+   claim. Resolution: single visual language across tones, italic
+   faience eyebrow label per tone — preserves editorial information
+   without surface differentiation.
+2. **No-hero variant typographic anchor.** Brand-inputs prescribed
+   limestone color block for missing photography. Phase 2 review
+   judged the bare title-block read as missing-something. Resolution:
+   italic faience oversized city initial (publishing convention from
+   Cereal / NYT T Magazine / brand-inputs Section 5 italic-as-accent)
+   above the title.
+3. **Brand documents path.** Brief specified `~/t2e/migration/
+   .brand-inputs/`; placed in session worktree path instead so reads
+   work from session CWD per the methodology rule about session
+   artifacts. `.gitignore` covers all worktrees. Audited at session
+   start.
+4. **Sans-serif swap.** Existing code used Public Sans; brand-inputs
+   Section 2 specifies Inter. Approved swap; baseline metrics tighter
+   but no layout breaks observed.
+5. **Tailwind v4 `@theme`-in-CSS interpretation.** Brand-inputs
+   Section 1 used Tailwind v3 config syntax; this project uses v4 with
+   `@theme` block in CSS. Ported the same semantic tokens; idiomatic
+   for v4.
+6. **Legacy aliases retained.** Plan said remove in Phase 2; broader
+   page-template sweep deferred to session 6, so aliases stay active
+   to prevent unmigrated pages from rendering broken. Removal is
+   session 6 cleanup work.
+7. **Standfirst whitespace at desktop.** Phase 4 surfaced the 200px
+   labeled-column pattern leaves visible whitespace below the eyebrow
+   at 1280. Verdict: keep — faithful to homepage v2 reference and the
+   Aesop/Hermès/Cereal labeled-column editorial pattern.
+
+### Known follow-ups (for session 6 handoff)
+
+- Tour / wiki / packages list page templates still carry legacy color
+  classes from the Phase 2 sweep deferral. Need brand sweep.
+- Tour detail page concierge CTA + section headers (depends on tour
+  template; tour template itself needs brand sweep).
+- "Recently designed trips" + Knowledge / Wiki sections from homepage
+  v2 (depend on real content + a homepage Sanity document).
+- JA-locale Cairo slug 404s on staging (pre-existing dataset issue;
+  flag for migration triage). Production has working JA Cairo.
+- Legacy aliases removal once unmigrated page templates are swept.

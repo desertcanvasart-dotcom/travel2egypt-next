@@ -1,8 +1,6 @@
-import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
 import { Link } from '@/i18n/navigation';
-import { urlFor } from '@/sanity/lib/image';
 
 export interface WikiCardData {
   _id: string;
@@ -20,6 +18,7 @@ export interface WikiCardData {
   preciseLocation?: string;
   city?: { name?: string; slug?: string } | null;
   domain?: string;
+  count?: number;
 }
 
 interface Props {
@@ -35,11 +34,15 @@ const TYPE_PATH: Record<string, string> = {
   wikiDeity: '/wiki/deities',
 };
 
+/**
+ * Knowledge / Wiki card per brand-inputs Section 4.
+ *
+ * 1px rule border on default state; on hover, limestone background
+ * with faience border. Italic faience label at top, serif title centered,
+ * uppercase wide-tracked count at bottom. Min-height for grid alignment.
+ */
 export async function WikiCard({ item, eyebrow }: Props) {
   const t = await getTranslations('wiki');
-  const heroUrl = item.heroImage?.asset
-    ? urlFor(item.heroImage).width(800).height(560).quality(80).url()
-    : null;
 
   // Map slugs (kingdom/role/monumentType) to translated labels.
   const monumentTypeLabel = item.monumentType
@@ -60,28 +63,29 @@ export async function WikiCard({ item, eyebrow }: Props) {
   const href = `${TYPE_PATH[item._type] ?? '/wiki'}/${item.slug}`;
 
   return (
-    <Link href={href} className="group block">
-      <div className="mb-3 aspect-[4/3] overflow-hidden rounded-lg bg-cream-deep">
-        {heroUrl ? (
-          <Image
-            src={heroUrl}
-            alt={item.heroImage?.alt || item.name}
-            width={800}
-            height={560}
-            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-          />
-        ) : null}
+    <Link
+      href={href}
+      className="group flex min-h-[200px] flex-col justify-between border border-rule-strong p-7 transition-all duration-300 hover:border-faience hover:bg-limestone"
+    >
+      <div>
+        {computedEyebrow && (
+          <p className="mb-3 font-serif text-[0.8125rem] italic text-faience">
+            {computedEyebrow}
+          </p>
+        )}
+        <h3 className="mb-4 font-serif text-2xl font-medium leading-tight text-night">
+          {item.name}
+        </h3>
+        {item.summary && (
+          <p className="line-clamp-3 text-[0.9375rem] leading-relaxed text-night-soft">
+            {item.summary}
+          </p>
+        )}
       </div>
-      {computedEyebrow && (
-        <p className="mb-1 font-sans text-xs font-semibold uppercase tracking-[0.12em] text-orange-deep">
-          {computedEyebrow}
+      {item.count != null && (
+        <p className="mt-4 font-sans text-[0.8125rem] uppercase tracking-[0.1em] text-night-soft">
+          {item.count} {item.count === 1 ? 'entry' : 'entries'}
         </p>
-      )}
-      <h3 className="mb-1 font-serif text-xl text-ink group-hover:text-orange-deep">
-        {item.name}
-      </h3>
-      {item.summary && (
-        <p className="line-clamp-3 text-sm text-ink-soft">{item.summary}</p>
       )}
     </Link>
   );

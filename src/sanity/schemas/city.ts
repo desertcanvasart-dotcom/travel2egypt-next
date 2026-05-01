@@ -13,6 +13,19 @@ const REGIONS = [
   { title: 'Mediterranean coast', value: 'mediterranean' },
 ];
 
+/**
+ * Slug -> short display name for the Studio list preview. Drops the
+ * parenthetical qualifier from the dropdown title for compact rendering.
+ */
+const REGION_DISPLAY: Record<string, string> = {
+  'lower-egypt': 'Lower Egypt',
+  'upper-egypt': 'Upper Egypt',
+  'red-sea': 'Red Sea coast',
+  sinai: 'Sinai Peninsula',
+  'western-desert': 'Western Desert',
+  mediterranean: 'Mediterranean coast',
+};
+
 export const citySchema = defineType({
   name: 'city',
   title: 'City',
@@ -191,7 +204,7 @@ export const citySchema = defineType({
         : title;
       return {
         title: en || 'Untitled city',
-        subtitle: region ? region.replace(/-/g, ' ') : '',
+        subtitle: region ? (REGION_DISPLAY[region] ?? region) : '',
         media,
       };
     },
