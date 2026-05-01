@@ -84,6 +84,16 @@ export default async function CityGuidePage({ params }: Props) {
     ? urlFor(city.heroImage).width(2000).height(1000).quality(85).url()
     : null;
 
+  // Hide the Key Facts card entirely when no field has content. Per session
+  // 5 carryover: an empty card with just the heading reads as a layout
+  // mistake, not as restraint.
+  const keyFacts = city.keyFacts ?? null;
+  const hasKeyFacts =
+    !!keyFacts &&
+    (keyFacts.bestSeason || keyFacts.gettingThere || keyFacts.daysNeeded);
+
+  const regionLabel = (city.region as string | undefined)?.replace(/-/g, ' ');
+
   const placeSchema = buildPlaceSchema(
     {
       name: city.name,
@@ -107,9 +117,9 @@ export default async function CityGuidePage({ params }: Props) {
   return (
     <article>
       <JsonLd data={[placeSchema, breadcrumbSchema]} />
-      {/* Hero */}
-      {heroUrl && (
-        <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden bg-cream-deep">
+      {heroUrl ? (
+        // With-hero variant: full-bleed image + overlay gradient + bottom-aligned title.
+        <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden bg-limestone-deep">
           <Image
             src={heroUrl}
             alt={city.heroImage?.alt || city.name}
@@ -118,26 +128,43 @@ export default async function CityGuidePage({ params }: Props) {
             className="object-cover"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-ink/60 via-ink/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-night/65 via-night/20 to-transparent" />
           <div className="absolute inset-x-0 bottom-0">
             <div className="mx-auto max-w-7xl px-6 pb-12">
-              <p className="mb-3 font-sans text-xs font-semibold uppercase tracking-[0.15em] text-orange-soft">
-                {city.region?.replace(/-/g, ' ')}
-              </p>
-              <h1 className="font-serif text-6xl font-medium leading-none text-paper md:text-7xl">
+              {regionLabel && (
+                <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand">
+                  {regionLabel}
+                </p>
+              )}
+              <h1 className="font-serif text-6xl font-normal leading-[1.05] text-paper md:text-7xl">
                 {city.name}
               </h1>
             </div>
           </div>
         </div>
+      ) : (
+        // No-hero variant: large editorial title block on paper. Reads as
+        // deliberate restraint, not as a missing image. Per Phase 2.6.
+        <header className="border-b border-rule">
+          <div className="mx-auto max-w-7xl px-6 pb-16 pt-24 md:pt-32">
+            {regionLabel && (
+              <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-night-soft">
+                {regionLabel}
+              </p>
+            )}
+            <h1 className="max-w-[18ch] font-serif text-[clamp(2.5rem,6vw,5rem)] font-normal leading-[1.05] tracking-[-0.02em] text-night">
+              {city.name}
+            </h1>
+          </div>
+        </header>
       )}
 
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_320px]">
           {/* Main column */}
           <div>
-            {/* Summary */}
-            <p className="mb-12 font-serif text-2xl italic leading-relaxed text-ink-soft">
+            {/* Summary / lede */}
+            <p className="mb-12 font-serif text-2xl italic leading-snug text-night-soft md:text-[1.625rem]">
               {city.summary}
             </p>
 
@@ -150,14 +177,14 @@ export default async function CityGuidePage({ params }: Props) {
 
             {/* Related tours */}
             {city.relatedTours && city.relatedTours.length > 0 && (
-              <section className="mt-20 border-t border-line pt-16">
-                <h2 className="mb-8 font-serif text-3xl font-medium text-ink">
+              <section className="mt-20 border-t border-rule-strong pt-12">
+                <h2 className="mb-10 font-serif text-3xl font-normal tracking-[-0.01em] text-night">
                   {t('relatedToursLabel')}
                 </h2>
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+                <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
                   {city.relatedTours.map((tour: any) => {
                     const tourImageUrl = tour.heroImage?.asset
-                      ? urlFor(tour.heroImage).width(700).height(450).quality(80).url()
+                      ? urlFor(tour.heroImage).width(800).height(1000).quality(82).url()
                       : null;
                     const isPackage = tour.type === 'package';
                     return (
@@ -168,27 +195,29 @@ export default async function CityGuidePage({ params }: Props) {
                             ? `/packages/${tour.slug}`
                             : `/tours/${tour.slug}`
                         }
-                        className="group block"
+                        className="group block transition-transform duration-500 hover:-translate-y-0.5"
                       >
-                        {tourImageUrl && (
-                          <div className="mb-3 aspect-[4/3] overflow-hidden rounded-lg bg-cream-deep">
+                        <div className="mb-5 aspect-[4/5] overflow-hidden bg-limestone-deep">
+                          {tourImageUrl && (
                             <Image
                               src={tourImageUrl}
                               alt={tour.heroImage?.alt || tour.title}
-                              width={700}
-                              height={450}
-                              className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                              width={800}
+                              height={1000}
+                              className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
                             />
-                          </div>
-                        )}
-                        <p className="mb-1 font-sans text-xs font-semibold uppercase tracking-[0.12em] text-orange-deep">
+                          )}
+                        </div>
+                        <p className="mb-2 font-sans text-xs font-medium uppercase tracking-[0.12em] text-night-soft">
                           {tour.durationLabel || `${tour.durationDays} days`}
                         </p>
-                        <h3 className="mb-1 font-serif text-xl text-ink group-hover:text-orange-deep">
+                        <h3 className="mb-2 font-serif text-2xl font-medium leading-tight text-night transition-colors group-hover:text-faience">
                           {tour.title}
                         </h3>
                         {tour.summary && (
-                          <p className="text-sm text-ink-soft">{tour.summary}</p>
+                          <p className="line-clamp-3 text-[0.9375rem] leading-relaxed text-night-soft">
+                            {tour.summary}
+                          </p>
                         )}
                       </Link>
                     );
@@ -198,42 +227,42 @@ export default async function CityGuidePage({ params }: Props) {
             )}
           </div>
 
-          {/* Sidebar — guide nav + key facts (two distinct widgets) */}
-          <aside className="space-y-8 lg:sticky lg:top-24 lg:self-start">
+          {/* Sidebar — guide nav + key facts (two distinct widgets). */}
+          <aside className="space-y-12 lg:sticky lg:top-24 lg:self-start">
             <CityGuideSidebar
               citySlug={citySlug}
               cityName={city.name}
               subArticles={city.subArticles}
               placesToGo={city.placesToGo}
             />
-            {city.keyFacts && (
-              <div className="rounded-lg border border-line bg-cream-warm p-6 shadow-soft">
-                <h3 className="mb-4 border-b border-line pb-3 font-serif text-base font-medium text-ink">
+            {hasKeyFacts && (
+              <div className="border-t border-rule-strong pt-6">
+                <h3 className="mb-5 font-sans text-xs font-medium uppercase tracking-[0.16em] text-night-soft">
                   {t('keyFactsTitle')}
                 </h3>
-                <dl className="space-y-4 text-sm">
-                  {city.keyFacts.bestSeason && (
+                <dl className="space-y-5 text-[0.9375rem]">
+                  {keyFacts!.bestSeason && (
                     <div>
-                      <dt className="mb-1 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                      <dt className="mb-1 font-serif text-sm italic text-faience">
                         {t('keyFacts.bestSeason')}
                       </dt>
-                      <dd className="text-ink-soft">{city.keyFacts.bestSeason}</dd>
+                      <dd className="text-night-soft">{keyFacts!.bestSeason}</dd>
                     </div>
                   )}
-                  {city.keyFacts.gettingThere && (
+                  {keyFacts!.gettingThere && (
                     <div>
-                      <dt className="mb-1 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                      <dt className="mb-1 font-serif text-sm italic text-faience">
                         {t('keyFacts.gettingThere')}
                       </dt>
-                      <dd className="text-ink-soft">{city.keyFacts.gettingThere}</dd>
+                      <dd className="text-night-soft">{keyFacts!.gettingThere}</dd>
                     </div>
                   )}
-                  {city.keyFacts.daysNeeded && (
+                  {keyFacts!.daysNeeded && (
                     <div>
-                      <dt className="mb-1 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                      <dt className="mb-1 font-serif text-sm italic text-faience">
                         {t('keyFacts.daysNeeded')}
                       </dt>
-                      <dd className="text-ink-soft">{city.keyFacts.daysNeeded}</dd>
+                      <dd className="text-night-soft">{keyFacts!.daysNeeded}</dd>
                     </div>
                   )}
                 </dl>
