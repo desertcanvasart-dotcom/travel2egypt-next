@@ -3,6 +3,36 @@
     "name": "Travel2Egypt",
     "tagline": "判断のあるエジプト旅行"
   },
+  "home": {
+    "eyebrow": "1995年創業のエジプト現地オペレーター",
+    "heroFirstLine": "エジプトは絵葉書では",
+    "heroAccent": "語りきれないものを求めてくる。",
+    "heroLede": "現地運営者ならではの旅行ガイド、丁寧に組み立てたツアー、そして本当に話を聞くコンシェルジュ。エジプト人運営、カイロ本社、シーワに深く根を張っています。",
+    "heroMetaYears": "30年",
+    "heroMetaYearsLabel": "エジプトでの運営実績",
+    "heroMetaTrips": "数千回",
+    "heroMetaTripsLabel": "のツアー手配",
+    "standfirstEyebrow": "私たちの違い",
+    "standfirstLine1": "多くの旅行サイトはエジプトを観光地のチェックリストとして扱います。",
+    "standfirstLine2": "私たちは八千万人の住む、四つの主要方言と数千年の自意識を持つ国として扱います。",
+    "standfirstAccent": "違いは細部に宿ります。"
+  },
+  "concierge": {
+    "eyebrow": "旅の計画を立てる",
+    "headlineFirst": "エジプトに何を求めているか、",
+    "headlineAccent": "聞かせてください。",
+    "body": "私たちが手配するすべての旅は、対話から始まります。やりたいこと、避けたいこと、望むペースを教えてください。自分たちが行きたいと思える旅をご提案します。",
+    "step1Title": "対話",
+    "step1Text": "日程、人数、体力、エジプト訪問歴をうかがいます。",
+    "step2Title": "オーダーメイド",
+    "step2Text": "テンプレートではなく、具体的な都市・ホテル・現地手配先を盛り込んだ実際の旅程をお作りします。",
+    "step3Title": "現地サポート",
+    "step3Text": "旅行中も近くで支えます。30年の運営経験に裏打ちされた現地サポート。",
+    "primaryCta": "コンシェルジュに相談する",
+    "secondaryCta": "WhatsAppでサクッと相談",
+    "ctaTourLabel": "このツアーについてコンシェルジュに相談する",
+    "ctaTrailingArrow": "→"
+  },
   "nav": {
     "tours": "日帰りツアー",
     "packages": "パッケージ",
