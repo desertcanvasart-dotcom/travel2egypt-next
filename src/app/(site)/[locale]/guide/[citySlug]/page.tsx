@@ -143,10 +143,18 @@ export default async function CityGuidePage({ params }: Props) {
           </div>
         </div>
       ) : (
-        // No-hero variant: large editorial title block on paper. Reads as
-        // deliberate restraint, not as a missing image. Per Phase 2.6.
+        // No-hero variant: large editorial title block on paper anchored
+        // by an oversized italic faience initial — publishing convention
+        // compensating for absent hero photography without introducing
+        // surface differentiation. Per Phase 2 follow-up.
         <header className="border-b border-rule">
           <div className="mx-auto max-w-7xl px-6 pb-16 pt-24 md:pt-32">
+            <span
+              aria-hidden
+              className="mb-4 block font-serif italic text-faience leading-[0.85] text-[clamp(5rem,13vw,9rem)] tracking-[-0.03em]"
+            >
+              {city.name?.charAt(0) ?? ''}
+            </span>
             {regionLabel && (
               <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-night-soft">
                 {regionLabel}
