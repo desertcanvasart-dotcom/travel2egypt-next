@@ -3,6 +3,8 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
+import { Wordmark } from './Wordmark';
+
 interface FooterProps {
   locale: Locale;
 }
@@ -47,13 +49,8 @@ export function Footer({ locale }: FooterProps) {
         <div className="grid grid-cols-1 gap-12 md:grid-cols-4">
           {/* Brand block */}
           <div className="md:col-span-2">
-            <div className="mb-4 flex items-center gap-2.5">
-              <span className="flex h-9 w-9 items-center justify-center rounded-full bg-ink font-sans text-[11px] font-bold tracking-wider text-orange">
-                T2E
-              </span>
-              <span className="font-serif text-2xl font-semibold text-ink">
-                Travel2Egypt
-              </span>
+            <div className="mb-4">
+              <Wordmark size="footer" asHeading />
             </div>
             <p className="max-w-md font-serif text-lg italic text-ink-soft">
               {t('tagline')}
