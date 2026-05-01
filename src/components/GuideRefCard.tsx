@@ -24,27 +24,32 @@ export function GuideRefCard({ item }: Props) {
       : `/guide/${item.slug ?? ''}`;
 
   const heroUrl = item.heroImage?.asset
-    ? urlFor(item.heroImage).width(700).height(450).quality(80).url()
+    ? urlFor(item.heroImage).width(700).height(875).quality(80).url()
     : null;
 
   return (
-    <Link href={href} className="group block">
-      <div className="mb-3 aspect-[4/3] overflow-hidden rounded-lg bg-cream-deep">
+    <Link
+      href={href}
+      className="group block transition-transform duration-500 hover:-translate-y-0.5"
+    >
+      <div className="mb-5 aspect-[4/5] overflow-hidden bg-limestone-deep">
         {heroUrl ? (
           <Image
             src={heroUrl}
             alt={item.heroImage?.alt || item.title || ''}
             width={700}
-            height={450}
-            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+            height={875}
+            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
           />
         ) : null}
       </div>
-      <h3 className="mb-1 font-serif text-xl text-ink group-hover:text-orange-deep">
+      <h3 className="mb-2 font-serif text-2xl font-medium leading-tight text-night transition-colors group-hover:text-faience">
         {item.title}
       </h3>
       {item.summary && (
-        <p className="line-clamp-3 text-sm text-ink-soft">{item.summary}</p>
+        <p className="line-clamp-3 text-[0.9375rem] leading-relaxed text-night-soft">
+          {item.summary}
+        </p>
       )}
     </Link>
   );
