@@ -63,6 +63,14 @@
       "daysNeeded": "Days needed"
     }
   },
+  "regions": {
+    "lower-egypt": "Lower Egypt",
+    "upper-egypt": "Upper Egypt",
+    "western-desert": "Western Desert",
+    "sinai": "Sinai Peninsula",
+    "red-sea": "Red Sea coast",
+    "mediterranean": "Mediterranean coast"
+  },
   "guideSections": {
     "introducing": "Introducing",
     "plan-your-trip": "Plan Your Trip",

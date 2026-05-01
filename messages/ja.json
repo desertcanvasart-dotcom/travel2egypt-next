@@ -63,6 +63,14 @@
       "daysNeeded": "推奨滞在日数"
     }
   },
+  "regions": {
+    "lower-egypt": "下エジプト",
+    "upper-egypt": "上エジプト",
+    "western-desert": "西方砂漠",
+    "sinai": "シナイ半島",
+    "red-sea": "紅海沿岸",
+    "mediterranean": "地中海沿岸"
+  },
   "guideSections": {
     "introducing": "概要",
     "plan-your-trip": "旅行計画",

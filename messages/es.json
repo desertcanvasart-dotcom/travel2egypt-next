@@ -63,6 +63,14 @@
       "daysNeeded": "Días recomendados"
     }
   },
+  "regions": {
+    "lower-egypt": "Bajo Egipto",
+    "upper-egypt": "Alto Egipto",
+    "western-desert": "Desierto Occidental",
+    "sinai": "Península del Sinaí",
+    "red-sea": "Costa del Mar Rojo",
+    "mediterranean": "Costa Mediterránea"
+  },
   "guideSections": {
     "introducing": "Presentación",
     "plan-your-trip": "Planifica tu viaje",

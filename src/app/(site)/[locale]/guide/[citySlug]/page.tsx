@@ -25,6 +25,32 @@ interface Props {
 }
 
 /**
+ * Resolve the region eyebrow label for the given locale via the
+ * `regions` next-intl namespace. Defensive: if the city's region slug
+ * is not in the namespace (e.g., a future region added to the schema
+ * before translations land), fall back to the legacy slug-uppercase
+ * behaviour and log a dev-mode warning so the omission gets noticed.
+ */
+async function resolveRegionLabel(
+  region: string | undefined,
+  locale: Locale
+): Promise<string | null> {
+  if (!region) return null;
+  const t = await getTranslations({ locale, namespace: 'regions' });
+  // next-intl throws on missing keys when the namespace is loaded; we
+  // probe with `has` first so the dev-mode warning is the only visible
+  // signal for missing translations.
+  if (t.has(region)) return t(region as any);
+  if (process.env.NODE_ENV !== 'production') {
+    // eslint-disable-next-line no-console
+    console.warn(
+      `[city page] region slug "${region}" missing from messages.regions namespace; rendering slug-uppercased fallback.`
+    );
+  }
+  return region.replace(/-/g, ' ');
+}
+
+/**
  * Static params — emit one entry per (locale, citySlug) so all variants
  * get pre-rendered at build time. The localized slug is read from the
  * city's slug array; if a locale doesn't have its own slug, the EN slug
@@ -94,7 +120,7 @@ export default async function CityGuidePage({ params }: Props) {
     !!keyFacts &&
     (keyFacts.bestSeason || keyFacts.gettingThere || keyFacts.daysNeeded);
 
-  const regionLabel = (city.region as string | undefined)?.replace(/-/g, ' ');
+  const regionLabel = await resolveRegionLabel(city.region as string | undefined, locale as Locale);
 
   const placeSchema = buildPlaceSchema(
     {
