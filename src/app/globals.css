@@ -163,25 +163,12 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* JA locale: Noto Sans JP for body, Noto Serif JP for headings */
-  html[lang='ja'] body {
-    font-family: var(--font-jp-sans);
-  }
-
   h1, h2, h3, h4 {
     font-family: var(--font-serif);
     color: var(--color-night);
     font-weight: 400;
     letter-spacing: var(--tracking-display);
     line-height: var(--leading-tight);
-  }
-
-  html[lang='ja'] h1,
-  html[lang='ja'] h2,
-  html[lang='ja'] h3,
-  html[lang='ja'] h4 {
-    font-family: var(--font-jp-serif);
-    font-weight: 500;
   }
 
   a {
@@ -193,6 +180,32 @@
     background: var(--color-faience-soft);
     color: var(--color-night);
   }
+}
+
+/* ============================================================ */
+/*  Locale-specific font overrides — declared OUTSIDE @layer    */
+/*  base so they win against Tailwind utilities (.font-serif    */
+/*  / .font-sans) generated in @layer utilities. Without this,  */
+/*  any heading with `className="font-serif …"` would resolve   */
+/*  to Cormorant on JA pages even when html[lang=ja] is set.    */
+/* ============================================================ */
+
+html[lang='ja'] body,
+html[lang='ja'] .font-sans {
+  font-family: var(--font-jp-sans);
+}
+html[lang='ja'] h1,
+html[lang='ja'] h2,
+html[lang='ja'] h3,
+html[lang='ja'] h4,
+html[lang='ja'] .font-serif {
+  font-family: var(--font-jp-serif);
+}
+html[lang='ja'] h1,
+html[lang='ja'] h2,
+html[lang='ja'] h3,
+html[lang='ja'] h4 {
+  font-weight: 500;
 }
 
 /* ============================================================ */
@@ -227,6 +240,121 @@
 .display-italic {
   font-style: italic;
   color: var(--color-faience);
+}
+
+/* ============================================================ */
+/*  Buttons — sharp edges, no rounded corners, no shadows.      */
+/*  Per brand-inputs Section 4: light-on-dark primary,          */
+/*  text-link secondary.                                         */
+/* ============================================================ */
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.125rem 2rem;
+  background: var(--color-paper);
+  color: var(--color-night);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border: none;
+  cursor: pointer;
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+.btn-primary:hover {
+  background: var(--color-sand);
+  color: var(--color-night);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.125rem 1.5rem;
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  border-bottom: 1px solid rgba(250, 246, 236, 0.3);
+  transition:
+    border-color 0.3s ease,
+    color 0.3s ease;
+}
+.btn-secondary:hover {
+  border-bottom-color: var(--color-sand);
+  color: var(--color-sand);
+}
+
+/* Light-bg variant of secondary (paper background) */
+.btn-secondary-light {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 0;
+  color: var(--color-night);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  border-bottom: 1px solid var(--color-rule-strong);
+  transition:
+    border-color 0.3s ease,
+    color 0.3s ease;
+}
+.btn-secondary-light:hover {
+  border-bottom-color: var(--color-faience);
+  color: var(--color-faience);
+}
+
+/* ============================================================ */
+/*  Section header pattern                                      */
+/* ============================================================ */
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: 1.5rem;
+  margin-bottom: var(--space-xl);
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.section-title {
+  font-family: var(--font-serif);
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 400;
+  color: var(--color-night);
+  letter-spacing: var(--tracking-display);
+  line-height: var(--leading-tight);
+}
+.section-title em {
+  font-style: italic;
+  color: var(--color-faience);
+}
+.section-link {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  color: var(--color-night-soft);
+  border-bottom: 1px solid var(--color-rule-strong);
+  padding-bottom: 2px;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+}
+.section-link:hover {
+  color: var(--color-faience);
+  border-bottom-color: var(--color-faience);
+}
+.section-subtitle {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.125rem;
+  color: var(--color-night-soft);
+  margin-top: -1.5rem;
+  margin-bottom: var(--space-xl);
+  max-width: 40em;
 }
 
 /* ============================================================ */
@@ -282,44 +410,57 @@
 
 /* ============================================================ */
 /*  Operator note callout                                       */
-/*  Phase 1 retains the four tonal variants but redresses them  */
-/*  in the brand palette (limestone bg, faience accent default, */
-/*  with sand-warm/terra/night-soft for tonal differentiation). */
-/*  Phase 2 redesigns the markup to match brand-inputs Section  */
-/*  5 (large italic faience opening mark + eyebrow tone label). */
+/*  Per brand-inputs Section 5 (large italic faience opening    */
+/*  mark) + Phase 2 plan #4 (single visual language for all     */
+/*  four tones, differentiated by italic faience eyebrow label).*/
 /* ============================================================ */
 .operator-note {
   background: var(--color-limestone);
-  border-left: 3px solid var(--color-faience);
-  padding: 1.25em 1.5em;
-  margin: 2em 0;
-  font-family: var(--font-sans);
-  font-size: 1rem;
+  padding: var(--space-md) var(--space-lg);
+  margin: var(--space-lg) 0;
+  border-top: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
 }
 .operator-note__label {
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
+  font-style: italic;
   font-size: var(--text-eyebrow);
   font-weight: 500;
   letter-spacing: var(--tracking-eyebrow);
   text-transform: uppercase;
   color: var(--color-faience);
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
 }
-.operator-note--caution {
-  border-left-color: var(--color-terra);
+.operator-note__body {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: var(--leading-base);
+  color: var(--color-night);
 }
-.operator-note--caution .operator-note__label {
-  color: var(--color-terra);
+.operator-note__body p {
+  margin: 0;
 }
-.operator-note--insider {
-  border-left-color: var(--color-sand-warm);
+.operator-note__body p + p {
+  margin-top: 0.75em;
 }
-.operator-note--insider .operator-note__label {
-  color: var(--color-sand-warm);
+.operator-note__body::before {
+  content: '\201C'; /* left double quotation */
+  font-size: 2em;
+  line-height: 0.5;
+  color: var(--color-faience);
+  font-style: italic;
+  margin-right: 0.1em;
+  vertical-align: -0.15em;
 }
-.operator-note--context {
-  border-left-color: var(--color-night-soft);
-}
-.operator-note--context .operator-note__label {
+.operator-note__attribution {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-xs);
+  border-top: 1px solid var(--color-rule-strong);
+  font-family: var(--font-sans);
+  font-size: var(--text-meta);
   color: var(--color-night-soft);
+}
+.operator-note__attribution em {
+  font-family: var(--font-serif);
+  font-style: italic;
 }
