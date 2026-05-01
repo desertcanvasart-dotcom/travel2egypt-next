@@ -2,94 +2,186 @@
 @plugin '@tailwindcss/typography';
 
 /**
- * Travel2Egypt design tokens.
+ * Travel2Egypt design tokens — Brand swap (session 5.5).
  *
- * Mirrors the system used in concierge-page-mockup-v2.html with one
- * additional concession: a few semantic tokens (surface, text-primary,
- * etc.) so we have a clear separation between brand colors and how
- * they're applied.
+ * Source of truth: migration/.brand-inputs/travel2egypt-brand-inputs.md
+ * Direction: Editorial Authority + Modern Heritage, operator's voice.
+ * Egyptian-without-cliché.
  *
- * The brand voice is editorial, restrained, warm. Cream is the dominant
- * surface; ink is text; orange is reserved for meaningful accent — never
- * decorative.
+ * Five color groups:
+ *   limestone — pale warm off-white (Saqqara stone in late afternoon)
+ *   faience   — deep ultramarine-turquoise (ancient Egyptian glaze)
+ *   sand      — warm gold (Western Desert at golden hour) — dark-bg only
+ *   night     — almost-black with warm undertone — primary text
+ *   paper     — warm off-white — the canvas of the brand
+ *
+ * Phase 1 keeps legacy token aliases (cream/ink/orange/line) so existing
+ * components render coherently against the new palette until Phase 2
+ * sweeps them. Aliases are removed in Phase 2.
  */
 
 @theme {
-  /* ── Cream / paper surfaces ── */
-  --color-cream: #faf6f0;
-  --color-cream-warm: #f4ece0;
-  --color-cream-deep: #efe5d4;
-  --color-paper: #ffffff;
+  /* ============================================================ */
+  /*  Brand colors                                                */
+  /* ============================================================ */
 
-  /* ── Ink / text ── */
-  --color-ink: #1f1b16;
-  --color-ink-soft: #4a413a;
-  --color-ink-muted: #8b7f73;
+  /* Limestone — Saqqara stone */
+  --color-limestone: #ede4d0;
+  --color-limestone-warm: #e8dfcc;
+  --color-limestone-deep: #d4c8ac;
 
-  /* ── Orange / accent ── */
-  --color-orange: #e07b3c;
-  --color-orange-deep: #c4682e;
-  --color-orange-soft: #f4a574;
-  --color-orange-pale: #fbe8d7;
+  /* Faience — ultramarine-turquoise glaze */
+  --color-faience: #1b4965;
+  --color-faience-deep: #0f3550;
+  --color-faience-soft: rgba(27, 73, 101, 0.08);
 
-  /* ── Earth tones ── */
-  --color-gold: #b8924a;
-  --color-sand: #d4b896;
-  --color-terra: #8b4513;
+  /* Sand — Western Desert gold (dark-bg accent only) */
+  --color-sand: #c9a961;
+  --color-sand-warm: #b8924d;
 
-  /* ── Lines / dividers ── */
-  --color-line: #e5ddd0;
-  --color-line-soft: #f0e8da;
+  /* Night — primary text on paper */
+  --color-night: #13110a;
+  --color-night-soft: #2a2620;
 
-  /* ── Typography ── */
-  --font-serif: 'Cormorant Garamond', 'Times New Roman', serif;
-  --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  --font-jp: 'Noto Serif JP', 'Cormorant Garamond', serif;
+  /* Paper — canvas */
+  --color-paper: #faf6ec;
 
-  /* ── Radii ── */
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 18px;
-  --radius-pill: 999px;
+  /* Rules / dividers */
+  --color-rule: rgba(19, 17, 10, 0.12);
+  --color-rule-strong: rgba(19, 17, 10, 0.24);
 
-  /* ── Shadows ── */
-  --shadow-soft: 0 1px 3px rgba(31, 27, 22, 0.04),
-    0 4px 16px rgba(31, 27, 22, 0.04);
-  --shadow-lift: 0 2px 6px rgba(31, 27, 22, 0.06),
-    0 12px 32px rgba(31, 27, 22, 0.06);
+  /* ============================================================ */
+  /*  Phase 1 legacy aliases (DEPRECATED — removed in Phase 2)    */
+  /*  Map old surface/text/accent tokens onto brand colors so     */
+  /*  unmigrated components render coherently.                    */
+  /* ============================================================ */
+
+  --color-cream: #ede4d0;          /* → limestone */
+  --color-cream-warm: #e8dfcc;     /* → limestone-warm */
+  --color-cream-deep: #d4c8ac;     /* → limestone-deep */
+
+  --color-ink: #13110a;            /* → night */
+  --color-ink-soft: #2a2620;       /* → night-soft */
+  --color-ink-muted: #5a544a;      /* → night-soft (lighter) */
+
+  --color-orange: #1b4965;         /* → faience (accent reassignment) */
+  --color-orange-deep: #0f3550;    /* → faience-deep */
+  --color-orange-soft: #1b4965;    /* → faience */
+  --color-orange-pale: rgba(27, 73, 101, 0.08); /* → faience-soft */
+
+  --color-gold: #c9a961;           /* → sand (closer match than legacy) */
+  --color-terra: #8b4513;          /* kept — operator-note caution accent */
+
+  --color-line: rgba(19, 17, 10, 0.12);        /* → rule */
+  --color-line-soft: rgba(19, 17, 10, 0.06);   /* → softer rule */
+
+  /* ============================================================ */
+  /*  Typography                                                  */
+  /* ============================================================ */
+
+  --font-serif: var(--font-cormorant), 'Times New Roman', serif;
+  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont,
+    'Segoe UI', sans-serif;
+  --font-jp-serif: var(--font-noto-serif-jp), var(--font-cormorant), serif;
+  --font-jp-sans: var(--font-noto-sans-jp), var(--font-inter), sans-serif;
+
+  /* Display sizes — Cormorant Garamond, fluid */
+  --text-display-xl: clamp(2.75rem, 7vw, 5.5rem);
+  --text-display-lg: clamp(2.25rem, 5vw, 3.75rem);
+  --text-display-md: clamp(1.75rem, 3.5vw, 2.5rem);
+  --text-display-sm: clamp(1.375rem, 2.5vw, 1.75rem);
+
+  /* Body sizes — Inter */
+  --text-lede: clamp(1.25rem, 2vw, 1.5rem);
+  --text-body-lg: 1.0625rem;
+  --text-body: 1rem;
+  --text-body-sm: 0.9375rem;
+  --text-meta: 0.875rem;
+  --text-eyebrow: 0.75rem;
+  --text-micro: 0.8125rem;
+
+  /* Letter-spacing */
+  --tracking-display: -0.02em;
+  --tracking-display-tight: -0.025em;
+  --tracking-body: 0;
+  --tracking-eyebrow: 0.18em;
+  --tracking-meta: 0.12em;
+  --tracking-locale: 0.1em;
+
+  /* Line-height */
+  --leading-display: 1.05;
+  --leading-tight: 1.15;
+  --leading-snug: 1.25;
+  --leading-base: 1.45;
+  --leading-body: 1.7;
+  --leading-loose: 1.8;
+
+  /* ============================================================ */
+  /*  Spacing — rhythm, not pixels                                */
+  /* ============================================================ */
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+  --space-2xl: 6rem;
+  --space-3xl: 9rem;
+
+  /* Container widths */
+  --container-default: 1280px;
+  --container-narrow: 920px;
+  --container-text: 680px;
+
+  /* ============================================================ */
+  /*  Radii — DEPRECATED. Brand spec is sharp edges only.         */
+  /*  Kept only for unmigrated components in Phase 1.             */
+  /* ============================================================ */
+
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-pill: 0px;
+
+  /* Shadows — DEPRECATED. Brand spec has no shadows on cards. */
+  --shadow-soft: none;
+  --shadow-lift: none;
 }
 
-/* ── Base styles ── */
+/* ============================================================ */
+/*  Base styles                                                 */
+/* ============================================================ */
 @layer base {
   html,
   body {
-    background: var(--color-cream);
-    color: var(--color-ink);
+    background: var(--color-paper);
+    color: var(--color-night);
     font-family: var(--font-sans);
-    line-height: 1.6;
+    font-size: 16px;
+    line-height: var(--leading-body);
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
-  /* JA locale uses serif for both headings and body — Noto Serif JP
-     reads with editorial weight matching Cormorant for EN/ES. */
+  /* JA locale: Noto Sans JP for body, Noto Serif JP for headings */
   html[lang='ja'] body {
-    font-family: var(--font-jp);
+    font-family: var(--font-jp-sans);
   }
 
   h1, h2, h3, h4 {
     font-family: var(--font-serif);
-    color: var(--color-ink);
-    font-weight: 500;
-    letter-spacing: -0.01em;
-    line-height: 1.15;
+    color: var(--color-night);
+    font-weight: 400;
+    letter-spacing: var(--tracking-display);
+    line-height: var(--leading-tight);
   }
 
   html[lang='ja'] h1,
   html[lang='ja'] h2,
   html[lang='ja'] h3,
   html[lang='ja'] h4 {
-    font-family: var(--font-jp);
-    font-weight: 600;
+    font-family: var(--font-jp-serif);
+    font-weight: 500;
   }
 
   a {
@@ -98,23 +190,59 @@
   }
 
   ::selection {
-    background: var(--color-orange-pale);
-    color: var(--color-ink);
+    background: var(--color-faience-soft);
+    color: var(--color-night);
   }
 }
 
-/* ── Editorial prose (Tailwind typography overrides) ── */
+/* ============================================================ */
+/*  Brand utility classes                                       */
+/* ============================================================ */
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: var(--text-eyebrow);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-eyebrow);
+  color: var(--color-night-soft);
+}
+
+.lede {
+  font-family: var(--font-serif);
+  font-size: var(--text-lede);
+  line-height: var(--leading-base);
+  font-weight: 400;
+  color: var(--color-night-soft);
+}
+
+.section-num {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--color-faience);
+  margin-right: 0.75rem;
+}
+
+.display-italic {
+  font-style: italic;
+  color: var(--color-faience);
+}
+
+/* ============================================================ */
+/*  Editorial prose                                             */
+/* ============================================================ */
 @layer components {
   .prose-editorial {
-    @apply text-ink-soft;
-    font-size: 1.0625rem;
-    line-height: 1.75;
+    color: var(--color-night-soft);
+    font-size: var(--text-body-lg);
+    line-height: var(--leading-body);
   }
   .prose-editorial > * + * {
     margin-top: 1.25em;
   }
   .prose-editorial h2 {
-    font-size: 1.875rem;
+    font-size: var(--text-display-md);
     margin-top: 2.5em;
     margin-bottom: 0.5em;
   }
@@ -124,20 +252,20 @@
     margin-bottom: 0.4em;
   }
   .prose-editorial blockquote {
-    border-left: 3px solid var(--color-orange);
+    border-left: 3px solid var(--color-faience);
     padding-left: 1.25em;
     font-family: var(--font-serif);
     font-size: 1.25rem;
     font-style: italic;
-    color: var(--color-ink);
+    color: var(--color-night);
   }
   .prose-editorial a {
-    color: var(--color-orange-deep);
-    border-bottom: 1px solid var(--color-orange-pale);
+    color: var(--color-faience);
+    border-bottom: 1px solid var(--color-rule-strong);
     transition: border-color 0.15s ease;
   }
   .prose-editorial a:hover {
-    border-bottom-color: var(--color-orange);
+    border-bottom-color: var(--color-faience);
   }
   .prose-editorial ul {
     list-style: disc;
@@ -148,16 +276,21 @@
     padding-left: 1.25em;
   }
   .prose-editorial img {
-    border-radius: var(--radius-md);
     margin: 2em 0;
   }
 }
 
-/* ── Operator note callout ── */
+/* ============================================================ */
+/*  Operator note callout                                       */
+/*  Phase 1 retains the four tonal variants but redresses them  */
+/*  in the brand palette (limestone bg, faience accent default, */
+/*  with sand-warm/terra/night-soft for tonal differentiation). */
+/*  Phase 2 redesigns the markup to match brand-inputs Section  */
+/*  5 (large italic faience opening mark + eyebrow tone label). */
+/* ============================================================ */
 .operator-note {
-  background: var(--color-cream-warm);
-  border-left: 3px solid var(--color-orange);
-  border-radius: var(--radius-sm);
+  background: var(--color-limestone);
+  border-left: 3px solid var(--color-faience);
   padding: 1.25em 1.5em;
   margin: 2em 0;
   font-family: var(--font-sans);
@@ -165,29 +298,28 @@
 }
 .operator-note__label {
   font-family: var(--font-sans);
-  font-size: 0.6875rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
+  font-size: var(--text-eyebrow);
+  font-weight: 500;
+  letter-spacing: var(--tracking-eyebrow);
   text-transform: uppercase;
-  color: var(--color-orange-deep);
+  color: var(--color-faience);
   margin-bottom: 0.5em;
 }
 .operator-note--caution {
   border-left-color: var(--color-terra);
-  background: #fbe8d7;
 }
 .operator-note--caution .operator-note__label {
   color: var(--color-terra);
 }
 .operator-note--insider {
-  border-left-color: var(--color-gold);
+  border-left-color: var(--color-sand-warm);
 }
 .operator-note--insider .operator-note__label {
-  color: var(--color-gold);
+  color: var(--color-sand-warm);
 }
 .operator-note--context {
-  border-left-color: var(--color-ink-muted);
+  border-left-color: var(--color-night-soft);
 }
 .operator-note--context .operator-note__label {
-  color: var(--color-ink-muted);
+  color: var(--color-night-soft);
 }
