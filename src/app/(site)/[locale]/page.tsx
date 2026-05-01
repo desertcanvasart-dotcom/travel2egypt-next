@@ -1,7 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import { useTranslations } from 'next-intl';
 
-import { Link } from '@/i18n/navigation';
+import { ConciergeCTA } from '@/components/ConciergeCTA';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -14,54 +14,76 @@ export default async function HomePage({ params }: Props) {
 }
 
 function HomeContent() {
-  const t = useTranslations('site');
-  const tNav = useTranslations('nav');
+  const t = useTranslations('home');
 
   return (
-    <div className="mx-auto max-w-4xl px-6 py-24">
-      <h1 className="mb-6 font-serif text-[clamp(2.75rem,7vw,5.5rem)] font-normal leading-[1.05] tracking-[-0.02em] text-night">
-        {t('tagline')}
-      </h1>
-      <p className="mb-12 max-w-2xl font-serif text-2xl italic leading-snug text-night-soft md:text-[1.625rem]">
-        Egyptian-operated since 1995. Day tours, multi-day packages, and Nile
-        cruises designed in conversation, not from a catalogue.
-      </p>
+    <>
+      {/* ── Hero ────────────────────────────────────────────────── */}
+      <section className="border-b border-rule">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 items-end gap-16 px-6 pb-24 pt-24 md:gap-24 md:pb-32 md:pt-32 lg:grid-cols-[1.4fr_1fr]">
+          <div>
+            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.18em] text-night-soft">
+              {t('eyebrow')}
+            </p>
+            <h1 className="mb-8 font-serif text-[clamp(2.75rem,7vw,5.5rem)] font-normal leading-[1.05] tracking-[-0.02em] text-night">
+              <span className="block">{t('heroFirstLine')}</span>
+              <span className="block italic text-faience">{t('heroAccent')}</span>
+            </h1>
+            <p className="mb-10 max-w-[32em] font-serif text-[clamp(1.25rem,2vw,1.5rem)] leading-[1.45] text-night-soft">
+              {t('heroLede')}
+            </p>
+            <dl className="flex flex-wrap gap-x-12 gap-y-4 border-t border-rule pt-6 text-sm text-night-soft">
+              <div>
+                <dt className="sr-only">{t('heroMetaYearsLabel')}</dt>
+                <dd>
+                  <strong className="font-medium text-night">{t('heroMetaYears')}</strong>{' '}
+                  {t('heroMetaYearsLabel')}
+                </dd>
+              </div>
+              <div>
+                <dt className="sr-only">{t('heroMetaTripsLabel')}</dt>
+                <dd>
+                  <strong className="font-medium text-night">{t('heroMetaTrips')}</strong>{' '}
+                  {t('heroMetaTripsLabel')}
+                </dd>
+              </div>
+            </dl>
+          </div>
 
-      <div className="grid grid-cols-1 gap-px bg-rule-strong sm:grid-cols-2">
-        <Link
-          href="/guide"
-          className="group block bg-paper p-10 transition-colors hover:bg-limestone"
-        >
-          <p className="mb-3 font-serif text-sm italic text-faience">i.</p>
-          <h2 className="mb-2 font-serif text-3xl font-medium leading-tight text-night transition-colors group-hover:text-faience">
-            {tNav('guide')} <span className="font-sans font-normal">→</span>
-          </h2>
-          <p className="text-[0.9375rem] leading-relaxed text-night-soft">
-            Operator-grade guides to Egypt&rsquo;s cities.
-          </p>
-        </Link>
-        <Link
-          href="/plan-your-tour"
-          className="group block bg-night p-10 text-paper transition-colors hover:bg-night-soft"
-        >
-          <p className="mb-3 font-serif text-sm italic text-sand">ii.</p>
-          <h2 className="mb-2 font-serif text-3xl font-medium leading-tight text-paper transition-colors group-hover:text-sand">
-            {tNav('planYourTour')} <span className="font-sans font-normal">→</span>
-          </h2>
-          <p className="text-[0.9375rem] leading-relaxed text-paper/75">
-            Talk to our concierge about the trip you want.
-          </p>
-        </Link>
-      </div>
+          {/* Hero figure — limestone color block placeholder per
+              brand-inputs Section 8 fallback strategy. Real photography
+              swaps in post-cutover via siteSettings or a homepage
+              document. */}
+          <figure className="relative aspect-[4/5] w-full overflow-hidden bg-limestone-warm">
+            <div
+              className="h-full w-full"
+              style={{
+                background:
+                  'linear-gradient(180deg, transparent 0%, rgba(19, 17, 10, 0.18) 100%), linear-gradient(135deg, #C9A961 0%, #B8924D 50%, #8B6F3D 100%)',
+              }}
+            />
+            <figcaption className="absolute bottom-0 left-0 p-6 font-serif text-xs italic text-paper/85">
+              Western Desert, golden hour
+            </figcaption>
+          </figure>
+        </div>
+      </section>
 
-      <p className="mt-16 max-w-2xl font-serif text-sm italic text-night-soft">
-        Development scaffold. Most pages are stubs — the live demo is the city
-        guide at{' '}
-        <Link href="/guide/cairo" className="border-b border-rule-strong text-faience">
-          /guide/cairo
-        </Link>{' '}
-        once you have seeded the Sanity dataset.
-      </p>
-    </div>
+      {/* ── Standfirst ──────────────────────────────────────────── */}
+      <section className="bg-night text-paper">
+        <div className="mx-auto grid max-w-[920px] grid-cols-1 gap-12 px-6 py-24 md:grid-cols-[200px_1fr] md:gap-20 md:py-28">
+          <p className="font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand">
+            {t('standfirstEyebrow')}
+          </p>
+          <p className="font-serif text-[clamp(1.5rem,2.5vw,2rem)] leading-[1.4] text-paper">
+            {t('standfirstLine1')} {t('standfirstLine2')}{' '}
+            <em className="italic text-sand">{t('standfirstAccent')}</em>
+          </p>
+        </div>
+      </section>
+
+      {/* ── Concierge CTA ───────────────────────────────────────── */}
+      <ConciergeCTA />
+    </>
   );
 }

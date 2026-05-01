@@ -17,6 +17,8 @@ import { urlFor } from '@/sanity/lib/image';
 import { cityBySlugQuery, allCitySlugsQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { CityGuideSidebar } from '@/components/CityGuideSidebar';
+import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { SectionHeader } from '@/components/SectionHeader';
 
 interface Props {
   params: Promise<{ locale: string; citySlug: string }>;
@@ -185,10 +187,16 @@ export default async function CityGuidePage({ params }: Props) {
 
             {/* Related tours */}
             {city.relatedTours && city.relatedTours.length > 0 && (
-              <section className="mt-20 border-t border-rule-strong pt-12">
-                <h2 className="mb-10 font-serif text-3xl font-normal tracking-[-0.01em] text-night">
-                  {t('relatedToursLabel')}
-                </h2>
+              <section className="mt-20">
+                <SectionHeader
+                  num="i"
+                  title={
+                    <>
+                      Tours from <em>{city.name}</em>
+                    </>
+                  }
+                />
+                <h2 className="sr-only">{t('relatedToursLabel')}</h2>
                 <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
                   {city.relatedTours.map((tour: any) => {
                     const tourImageUrl = tour.heroImage?.asset
@@ -279,6 +287,8 @@ export default async function CityGuidePage({ params }: Props) {
           </aside>
         </div>
       </div>
+
+      <ConciergeCTA />
     </article>
   );
 }
