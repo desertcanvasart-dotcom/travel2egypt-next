@@ -67,7 +67,7 @@ export function CityGuideSidebar({
             <li key={place._id}>
               <Link
                 href={`/wiki/monuments/${place.slug}`}
-                className="block text-ink-soft transition-colors hover:text-orange-deep"
+                className="block text-night-soft transition-colors hover:text-faience"
               >
                 {place.name}
               </Link>
@@ -93,8 +93,8 @@ export function CityGuideSidebar({
                 href={`/guide/${citySlug}/${item.slug}`}
                 className={
                   isActive
-                    ? 'block font-medium text-orange-deep'
-                    : 'block text-ink-soft transition-colors hover:text-orange-deep'
+                    ? 'block font-medium text-faience'
+                    : 'block text-night-soft transition-colors hover:text-faience'
                 }
                 aria-current={isActive ? 'page' : undefined}
               >
@@ -111,13 +111,13 @@ export function CityGuideSidebar({
 
   return (
     <nav
-      className="rounded-lg border border-line bg-paper p-6 text-sm shadow-soft"
+      className="border-t border-rule-strong pt-6 text-sm"
       aria-label="City guide navigation"
     >
-      <h2 className="mb-5 border-b border-line pb-4 font-serif text-lg font-medium text-ink">
+      <h2 className="mb-5 font-sans text-xs font-medium uppercase tracking-[0.16em] text-night-soft">
         {tGuide('cityTravelGuide', { city: cityName })}
       </h2>
-      <div className="divide-y divide-line">{renderedSections}</div>
+      <div className="divide-y divide-rule">{renderedSections}</div>
     </nav>
   );
 }
@@ -139,7 +139,7 @@ function SectionGroup({
 
 function SectionHeader({ label }: { label: string }) {
   return (
-    <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.15em] text-ink-muted">
+    <h3 className="font-serif text-sm italic text-faience">
       {label}
     </h3>
   );

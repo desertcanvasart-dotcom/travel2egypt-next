@@ -44,7 +44,7 @@ export function Footer({ locale }: FooterProps) {
   const descriptions = SISTER_BRAND_DESCRIPTIONS[locale];
 
   return (
-    <footer className="mt-24 border-t border-line bg-cream-warm">
+    <footer className="mt-24 border-t border-rule bg-limestone-warm">
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-4">
           {/* Brand block */}
@@ -52,40 +52,40 @@ export function Footer({ locale }: FooterProps) {
             <div className="mb-4">
               <Wordmark size="footer" asHeading />
             </div>
-            <p className="max-w-md font-serif text-lg italic text-ink-soft">
+            <p className="max-w-md font-serif text-lg italic leading-relaxed text-night-soft">
               {t('tagline')}
             </p>
           </div>
 
           {/* Nav columns */}
           <div>
-            <h4 className="mb-4 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+            <h4 className="mb-5 font-sans text-xs font-medium uppercase tracking-[0.16em] text-night-soft">
               Travel
             </h4>
-            <ul className="space-y-2.5 text-sm text-ink-soft">
-              <li><Link href="/tours" className="hover:text-ink transition-colors">{tNav('tours')}</Link></li>
-              <li><Link href="/packages" className="hover:text-ink transition-colors">{tNav('packages')}</Link></li>
-              <li><Link href="/guide" className="hover:text-ink transition-colors">{tNav('guide')}</Link></li>
-              <li><Link href="/travel-tips" className="hover:text-ink transition-colors">{tNav('travelTips')}</Link></li>
+            <ul className="space-y-2.5 text-[0.9375rem] text-night">
+              <li><Link href="/tours" className="transition-colors hover:text-faience">{tNav('tours')}</Link></li>
+              <li><Link href="/packages" className="transition-colors hover:text-faience">{tNav('packages')}</Link></li>
+              <li><Link href="/guide" className="transition-colors hover:text-faience">{tNav('guide')}</Link></li>
+              <li><Link href="/travel-tips" className="transition-colors hover:text-faience">{tNav('travelTips')}</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="mb-4 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+            <h4 className="mb-5 font-sans text-xs font-medium uppercase tracking-[0.16em] text-night-soft">
               About
             </h4>
-            <ul className="space-y-2.5 text-sm text-ink-soft">
-              <li><Link href="/wiki" className="hover:text-ink transition-colors">{tNav('wiki')}</Link></li>
-              <li><Link href="/blog" className="hover:text-ink transition-colors">{tNav('blog')}</Link></li>
-              <li><Link href="/about" className="hover:text-ink transition-colors">{tNav('about')}</Link></li>
-              <li><Link href="/contact" className="hover:text-ink transition-colors">{tNav('contact')}</Link></li>
+            <ul className="space-y-2.5 text-[0.9375rem] text-night">
+              <li><Link href="/wiki" className="transition-colors hover:text-faience">{tNav('wiki')}</Link></li>
+              <li><Link href="/blog" className="transition-colors hover:text-faience">{tNav('blog')}</Link></li>
+              <li><Link href="/about" className="transition-colors hover:text-faience">{tNav('about')}</Link></li>
+              <li><Link href="/contact" className="transition-colors hover:text-faience">{tNav('contact')}</Link></li>
             </ul>
           </div>
         </div>
 
         {/* Sister brands strip */}
-        <div className="mt-12 border-t border-line pt-8">
-          <h4 className="mb-3 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+        <div className="mt-12 border-t border-rule-strong pt-8">
+          <h4 className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.16em] text-night-soft">
             {t('sisterBrandsLabel')}
           </h4>
           <div className="flex flex-wrap gap-8">
@@ -97,10 +97,10 @@ export function Footer({ locale }: FooterProps) {
                 rel="noopener noreferrer"
                 className="group flex items-baseline gap-3"
               >
-                <span className="font-serif text-lg font-semibold text-ink transition-colors group-hover:text-orange-deep">
+                <span className="font-serif text-lg font-medium text-night transition-colors group-hover:text-faience">
                   {brand.name}
                 </span>
-                <span className="text-sm text-ink-muted">
+                <span className="font-serif text-sm italic text-night-soft">
                   {descriptions[brand.descriptionKey]}
                 </span>
               </a>
@@ -109,11 +109,11 @@ export function Footer({ locale }: FooterProps) {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 flex flex-col gap-4 border-t border-line pt-8 text-xs text-ink-muted md:flex-row md:items-center md:justify-between">
+        <div className="mt-12 flex flex-col gap-4 border-t border-rule pt-8 text-[0.8125rem] text-night-soft md:flex-row md:items-center md:justify-between">
           <p>{t('rights', { year })}</p>
           <div className="flex gap-6">
-            <Link href="/privacy" className="hover:text-ink transition-colors">Privacy</Link>
-            <Link href="/terms" className="hover:text-ink transition-colors">Terms</Link>
+            <Link href="/privacy" className="transition-colors hover:text-faience">Privacy</Link>
+            <Link href="/terms" className="transition-colors hover:text-faience">Terms</Link>
           </div>
         </div>
       </div>
