@@ -33,6 +33,7 @@ import { makeSanityClient, findCityByEnSlug } from './wp-import/sanity.js';
 import { getMissingAttachments, getUploadExhausted } from './wp-import/media.js';
 import { getAmbiguousMediaMatches } from './wp-import/mappers/_shared.js';
 import { applyCityMerge } from './wp-import/merge.js';
+import { decideScope, validateScopeFlags, ScopeFlagError, type ScopePlan } from './wp-import/scope.js';
 import { getHreflangMap } from './wp-import/hreflang.js';
 import { mapArticle } from './wp-import/mappers/article.js';
 import { mapCity } from './wp-import/mappers/city.js';
@@ -114,10 +115,17 @@ Usage: npm run wp-import -- [flags]
 Flags:
   --dry-run                   Preview mode; no Sanity writes, no media uploads.
   --limit N                   Process at most N entities.
-  --type <kind>               post | page | attachment | category | all
+  --type <kind>               post | page | attachment | category | both | all
+                              \`both\` = pages + posts. Required when
+                              --filter-by-template is set, so categories /
+                              attachments cannot run unfiltered alongside
+                              (the session 5 Step 8 scope-anomaly trap).
   --filter-by-template <T>    destination-hub | destination-subpage | monument |
                               tour-or-package | hotel | nile-cruise |
                               service-or-utility | article | unclassified
+                              When set, --type is required and must be
+                              page | post | both. Categories never run with
+                              this flag (categories don't have templates).
   --slug-pattern <glob>       Optional slug filter combining with --filter-by-template.
                               Single \`*\` wildcard at start, end, or both. Examples:
                               \`*-travel-guide\` (suffix), \`reaching-*\` (prefix),
@@ -189,6 +197,16 @@ function shouldSkip(slug: string, classification: { type: PageType }, opts: CliO
 
 async function main(): Promise<void> {
   const cli = parseCli(process.argv.slice(2));
+
+  try {
+    validateScopeFlags(cli);
+  } catch (e) {
+    if (e instanceof ScopeFlagError) {
+      process.stderr.write(`[wp-import] ${e.message}\n`);
+      process.exit(2);
+    }
+    throw e;
+  }
 
   // --dry-run-diff-only delegates to the city safety-net entry. No Sanity writes.
   if (cli.dryRunDiffOnly) {
@@ -332,12 +350,18 @@ async function fetchWpMaps(wp: WpClient): Promise<{
   return { categoryById, authorById };
 }
 
-async function runImportPhase(
+export async function runImportPhase(
   sanity: SanityClient,
   wp: WpClient,
   cli: CliOptions,
   stats: MigrationStats
 ): Promise<void> {
+  // Decide corpus scope up front. Single source of truth, replaces the
+  // three legacy `cli.type === 'all' || …` gates that allowed the
+  // session 5 Step 8 scope-anomaly to fire.
+  const plan = decideScope(cli);
+  process.stderr.write(`${plan.summary}\n`);
+
   // Idempotently ensure migration-staging holds the seed docs that imported
   // articles reference (legacy-archive author + 2 editorialCategory docs).
   if (!cli.dryRun) {
@@ -349,8 +373,8 @@ async function runImportPhase(
   const wpMaps = await fetchWpMaps(wp);
   process.stderr.write(`[wp-import] WP maps loaded: ${wpMaps.categoryById.size} categories, ${wpMaps.authorById.size} users\n`);
 
-  // Categories are simple enough to run in their own pass.
-  if (cli.type === 'all' || cli.type === 'category') {
+  // Categories: only when scope plan says so.
+  if (plan.runCategories) {
     await importCategories(sanity, wp, cli, stats);
     if (cli.type === 'category') return;
   }
@@ -361,13 +385,13 @@ async function runImportPhase(
   const allRedirects: RedirectEntry[] = [];
   const liveUrlToPath = new Map<string, { to_path: string; locale: Locale; legacy_wp_id: number }>();
 
-  // Posts: WP `post` → article.
-  if (cli.type === 'all' || cli.type === 'post') {
-    await importPosts(sanity, wp, cli, stats, priorityIndex, allRedirects, liveUrlToPath, wpMaps);
+  // Posts: WP `post` → article. Honors the template filter via plan.
+  if (plan.runPosts) {
+    await importPosts(sanity, wp, cli, stats, priorityIndex, allRedirects, liveUrlToPath, wpMaps, plan);
   }
 
   // Pages: classified per scripts/wp-classifier.ts; routed to per-type mappers.
-  if (cli.type === 'all' || cli.type === 'page') {
+  if (plan.runPages) {
     await importPages(sanity, wp, cli, stats, priorityIndex, allRedirects, liveUrlToPath);
   }
 
@@ -417,12 +441,22 @@ async function importPosts(
   priorityIndex: Map<string, number>,
   allRedirects: RedirectEntry[],
   liveUrlToPath: Map<string, { to_path: string; locale: Locale; legacy_wp_id: number }>,
-  wpMaps: { categoryById: Map<number, string>; authorById: Map<number, string> }
+  wpMaps: { categoryById: Map<number, string>; authorById: Map<number, string> },
+  plan: ScopePlan
 ): Promise<void> {
   process.stderr.write(`[wp-import] enumerating EN posts...\n`);
   const params: Record<string, string> = { lang: 'en', _fields: 'id,slug,date,modified,modified_gmt,link,template,categories,tags,featured_media,title' };
   if (cli.since) params.modified_after = cli.since + 'T00:00:00';
-  const posts = (await wp.getPaginated<WpEntityLite>('/wp-json/wp/v2/posts', params)).slice(0, cli.limit ?? Infinity);
+  let posts = (await wp.getPaginated<WpEntityLite>('/wp-json/wp/v2/posts', params)).slice(0, cli.limit ?? Infinity);
+
+  // Apply --filter-by-template to posts symmetrically with pages. Without
+  // this, --filter-by-template destination-hub --type=both would still let
+  // 489 articles through (the session 5 Step 8 trap on the post side).
+  if (plan.postTemplateFilter) {
+    const before = posts.length;
+    posts = posts.filter((p) => classifyPageBySlug(p.slug).type === plan.postTemplateFilter);
+    process.stderr.write(`[wp-import] filtered ${before} → ${posts.length} posts by template=${plan.postTemplateFilter}\n`);
+  }
 
   for (const lite of posts) {
     try {
