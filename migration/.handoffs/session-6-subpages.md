@@ -1,5 +1,15 @@
 # Session 6 — Destination subpages migration
 
+> **Status: Pre-flight completed 2026-05-03.** Session 6.5 ready to
+> execute. See [migration/known-issues.md](../known-issues.md) "Session
+> 6 close (2026-05-03)" section + [migration/.diffs/destination-hub-misclassified-resolved.md](../.diffs/destination-hub-misclassified-resolved.md)
+> for canonical inputs to 6.5. Per session 6 brief Phase 0 reading note,
+> the "Session 6 = 449 destination subpages migration" framing in this
+> handoff predates the session 6 / 6.5 split — pre-flight defects landed
+> in session 6 (commits `038649e` / `72b8840` / `4b5d3a3`); the actual
+> 449-doc write is session 6.5. See `migration/.handoffs/session-6.5-subpage-write.md`.
+
+
 Handoff from session 5.5 (brand swap, completed 2026-05-01) to session 6
 (largest cohort: 449 destination subpages). Read end-to-end before
 kicking off.
