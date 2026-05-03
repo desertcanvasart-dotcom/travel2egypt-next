@@ -1,3 +1,8 @@
+// Imported lazily as a value so the classifier can route by slug membership
+// without duplicating the slug list. Co-locating the canonical map in the
+// mapper file keeps the routing source-of-truth in one place.
+import { isTravelTipSlug } from './wp-import/mappers/travelTip.js';
+
 /**
  * Slug classifier for Travel2Egypt WordPress migration.
  *
@@ -20,6 +25,7 @@ export type PageType =
   | 'hotel'
   | 'nile-cruise'
   | 'article'
+  | 'travelTip'
   | 'service-or-utility'
   | 'persona-or-system'
   | 'unclassified'
@@ -400,6 +406,22 @@ export function classifyPageBySlug(rawSlug: string): Classification {
   }
 
   // ---- Existing destination-hub / topic / tour rules ----
+
+  // 1.5. travelTip — country-level practical-tip slugs (added in session 6.5a
+  //      Phase 2 per session 6 Phase 3 routing decisions in
+  //      `migration/.diffs/destination-hub-misclassified-resolved.md`).
+  //      Must run BEFORE the *-egypt destination-hub rule below, which would
+  //      otherwise overshoot and re-misclassify these slugs (the original
+  //      session-5 trap that resolved.md re-routed away from). Single source
+  //      of truth: membership in `TRAVEL_TIP_SLUG_TO_CATEGORY` (imported from
+  //      the mapper to keep classifier and mapper from drifting).
+  if (isTravelTipSlug(s)) {
+    return {
+      type: 'travelTip',
+      reason: 'Slug ∈ TRAVEL_TIP_SLUG_TO_CATEGORY (session 6.5a Phase 2 routing)',
+      confidence: 'high',
+    };
+  }
 
   // 2. Destination hubs (slug = token, or *-travel-guide, or *-egypt)
   if (

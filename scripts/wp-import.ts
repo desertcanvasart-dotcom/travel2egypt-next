@@ -40,6 +40,7 @@ import { mapCity } from './wp-import/mappers/city.js';
 import { mapGuideArticle } from './wp-import/mappers/guideArticle.js';
 import { mapWikiMonument } from './wp-import/mappers/wikiMonument.js';
 import { mapTour } from './wp-import/mappers/tour.js';
+import { mapTravelTip } from './wp-import/mappers/travelTip.js';
 import { mapHotel } from './wp-import/mappers/hotel.js';
 import { mapNileCruise } from './wp-import/mappers/nileCruise.js';
 import { mapEditorialCategory } from './wp-import/mappers/editorialCategory.js';
@@ -123,7 +124,8 @@ Flags:
                               (the session 5 Step 8 scope-anomaly trap).
   --filter-by-template <T>    destination-hub | destination-subpage | monument |
                               tour-or-package | hotel | nile-cruise |
-                              service-or-utility | article | unclassified
+                              service-or-utility | article | travelTip |
+                              unclassified
                               When set, --type is required and must be
                               page | post | both. Categories never run with
                               this flag (categories don't have templates).
@@ -577,6 +579,8 @@ async function routeToMapper(
       return mapWikiMonument(sanity, wp, group, { ...opts, classification });
     case 'tour-or-package':
       return mapTour(sanity, wp, group, opts);
+    case 'travelTip':
+      return mapTravelTip(sanity, wp, group, opts);
     case 'hotel':
       return mapHotel(sanity, wp, group, { ...opts, classification });
     case 'nile-cruise':
