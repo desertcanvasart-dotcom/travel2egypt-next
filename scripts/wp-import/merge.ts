@@ -101,6 +101,25 @@ export const GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS: readonly string[] = [
   'seo',
 ] as const;
 
+/** Editorial-only fields on `travelTip` (field-level i18n).
+ *
+ * `category` is mapper-produced acknowledged-default — the mapper writes
+ * `travelTipCategory-{bucket}` per the slug→bucket map locked in session 6
+ * Phase 3 (`migration/.diffs/destination-hub-misclassified-resolved.md`).
+ * Editorial reassignment in Studio is the canonical authority; same
+ * provenance shape as article.author / article.category /
+ * guideArticle.section. Lesson 15 applied.
+ *
+ * `relatedTips` and `seo` the mapper does not produce — pure editorial
+ * fields the classification protects defensively.
+ *
+ * Schema reference: `src/sanity/schemas/travelTip.ts`. */
+export const TRAVEL_TIP_EDITORIAL_ONLY_FIELDS: readonly string[] = [
+  'category',
+  'relatedTips',
+  'seo',
+] as const;
+
 /** Internal shape for a single field's merge outcome — surfaced to the
  * orchestrator for fingerprint generation and for the diff summary table. */
 export interface PerFieldChange {
@@ -382,6 +401,16 @@ export function mergeGuideArticleDoc(
 }
 
 /**
+ * Q3 merge for a `travelTip` doc. Thin facade — see mergeArticleDoc.
+ */
+export function mergeTravelTipDoc(
+  existing: SanityDoc | null,
+  wp: SanityDoc,
+): { merged: SanityDoc; perFieldChanges: PerFieldChange[] } {
+  return mergeCityDoc(existing, wp, TRAVEL_TIP_EDITORIAL_ONLY_FIELDS);
+}
+
+/**
  * Single source of truth for which `_type` values get Q3 merge protection.
  * Maps the Sanity doc type to its editorial-only field list. Used by both
  * `applyMerge` (the dispatcher) and `isMergeableType` (the predicate the
@@ -395,6 +424,7 @@ const MERGE_REGISTRY: Record<string, readonly string[]> = {
   city: CITY_EDITORIAL_ONLY_FIELDS,
   article: ARTICLE_EDITORIAL_ONLY_FIELDS,
   guideArticle: GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS,
+  travelTip: TRAVEL_TIP_EDITORIAL_ONLY_FIELDS,
 };
 
 /**
