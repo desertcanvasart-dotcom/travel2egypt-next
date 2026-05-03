@@ -196,7 +196,12 @@ export interface LogEntry {
 export interface CliOptions {
   dryRun: boolean;
   limit?: number;
-  type: 'post' | 'page' | 'attachment' | 'category' | 'all';
+  /**
+   * Corpus scope. `both` = pages + posts (added with `--filter-by-template`
+   * scope-narrowing fix; required when `--filter-by-template` is set so
+   * categories/attachments don't run unfiltered. The session 5 Step 8 trap.)
+   */
+  type: 'post' | 'page' | 'attachment' | 'category' | 'both' | 'all';
   filterByTemplate?: PageType;
   /** Optional slug-pattern filter (glob `*` only — matched as prefix/suffix anchors).
    *  Combines with `--filter-by-template`: page must satisfy both. Used in session 5

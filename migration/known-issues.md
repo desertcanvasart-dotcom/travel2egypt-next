@@ -369,6 +369,51 @@ redirect; if in main when about to write a session artifact, branch first.
 Session 5 close hit this with `migration/.diffs/elementor-data-probe.json`
 written in main 17 minutes before the session 5 branch was cut.
 
+### Field classification is about provenance authority, not mapper output
+
+When deciding whether a field is WP-sourced or editorial-only, the question
+isn't "does the mapper produce a value" — it's "is the mapper's value
+canonical or default?" Mapper-produced seed defaults that exist to satisfy
+schema requirements (e.g., `author = legacy-archive`, the two-bucket
+`category` heuristic, classifier-inferred `section`) should be classified
+editorial-only when editorial assignment is the canonical authority. Strict
+Q3 "WP overwrites where WP has a value" applies to canonical WP fields
+(title, body, slug, hero), not to mapper-generated defaults. Surfaced in
+session 6 Phase 2 when classifying article and guideArticle fields:
+`author`, `category`, `section` are all mapper-produced but editorial-only
+by provenance. The corollary is that `mergeCityDoc`'s editorial-only
+contract evolved from "WP can't write" to "WP can't OVERWRITE editor's
+value" — strictly additive on CREATE-first, identical on UPDATE.
+
+### When classifier output conflicts with schema reality, schema wins
+
+Re-route to the natural schema home rather than loosening the schema or
+creating synthetic refs to satisfy the classifier. Classifier heuristics
+are slug-pattern-based; schema design encodes editorial intent. Editorial
+intent is canonical. Session 6 Phase 3 example: 18 country-level slugs
+(`airports-in-egypt`, `transportation-in-egypt`, `tipping-in-egypt`, …)
+were classified `guideArticle` by the *-egypt deferred-list heuristic,
+but `guideArticle.parentCity` is `Rule.required`. Re-routed to `travelTip`
+(which has no parentCity requirement, schema description: "Practical,
+factual travel tips") rather than loosening guideArticle's requirement
+or fabricating a synthetic "Egypt" parent city doc.
+
+### Drift signals require root-cause investigation before remediation
+
+When a drift assertion flags deviation, the assertion's job is to surface
+the signal, not to attribute cause. Investigation must distinguish:
+(a) **code-introduced drift** — recent changes broke something; fix the
+code; (b) **environment-introduced drift** — cold cache, stale state,
+missing context; fix the environment or run conditions; (c) **real-but-
+explained drift** — intentional content change between baselines; accept
+and document. The five-lines-of-evidence pattern from session 6 Phase 4
+is the canonical example: single field affected → unmodified code in
+suspect area → semantic equivalence on UPDATE path → field classification
+excludes merge logic from the suspect signal → cleanly-passing reference
+cases under same code prove the engine works. Without this discipline,
+a false-positive drift signal leads to a wasted remediation cycle on
+code that's actually fine.
+
 ## Branch state
 
 Branch `claude/awesome-shannon-3194f1` was merged to `main` at the close of
@@ -1097,3 +1142,221 @@ brand-inputs:
 - JA-locale Cairo slug 404s on staging (pre-existing dataset issue;
   flag for migration triage). Production has working JA Cairo.
 - Legacy aliases removal once unmigrated page templates are swept.
+
+---
+
+## Session 6 close (2026-05-03)
+
+Pre-flight defects resolved for the 449-subpage write cohort. **Pre-flight
+only — no actual subpage writes in session 6.** The 449-subpage actual
+write is session 6.5, separate session, separate brief, separate session
+worktree. Per the brief's Phase 3 split decision, this session's scope
+stops at "pre-flight verified, ready for session 6.5."
+
+### Pre-flight defects resolved
+
+| Defect | Commit | Description |
+|---|---|---|
+| 1 | `038649e` | `--filter-by-template` posts narrowing fix. Closes the session 5 Step 8 scope-anomaly trap by extending scope-narrowing to all corpora. New `--type=both` value; `--type` now required when `--filter-by-template` is set. New `scripts/wp-import/scope.ts` with pure `decideScope` + `validateScopeFlags` + `ScopeFlagError`. |
+| 2 | `72b8840` | `mergeArticleDoc` + `mergeGuideArticleDoc` + `applyMerge` dispatcher + `MERGE_REGISTRY`. Single dispatch site in `persistResult` via `isMergeableType` → `applyMerge` → registry lookup. Loud-failure on unregistered `_type`. `applyCityMerge` retained as backward-compat facade for the diff path. |
+| 3 | `4b5d3a3` | 27 `*-egypt` deferred slugs triage. Decision-only artifact at `migration/.diffs/destination-hub-misclassified-resolved.md`. Five locked decisions D1–D5; per-slug routing table; session 6.5 prerequisites flagged. |
+
+### Field classification tables (canonical reference for session 6.5)
+
+`scripts/wp-import/merge.ts`:
+
+```ts
+ARTICLE_EDITORIAL_ONLY_FIELDS = [
+  'author', 'category', 'featured', 'updatedAt',
+  'relatedArticles', 'relatedTours', 'relatedCities',
+] as const;
+
+GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS = [
+  'section', 'orderRank', 'relatedTours', 'seo',
+] as const;
+```
+
+**Reasoning** (lesson 15): mapper-produced acknowledged-defaults treated
+as editorial-only because editorial assignment is canonical authority,
+not classifier output. `author = legacy-archive` is a schema-requirement
+default; `category` is a 2-bucket slug heuristic default; `section` is
+a classifier-inferred default. Editorial reassignment in Studio overlays
+canonical authority and must survive re-imports.
+
+**Pre-staged for session 6.5** (when the travelTip mapper lands):
+
+```ts
+TRAVEL_TIP_EDITORIAL_ONLY_FIELDS = [
+  'category', 'relatedTips', 'seo',
+] as const;
+```
+
+`category` editorial-only by the same provenance principle as article /
+guideArticle. `relatedTips` and `seo` are mapper-not-produced.
+
+### `mergeCityDoc` semantic refinement
+
+Contract evolved from **"editorial-only ⇒ WP can't write"** to
+**"editorial-only ⇒ WP can't OVERWRITE editor's value."** On CREATE-first
+(`existing === null`) the WP value is allowed through to seed the field;
+on UPDATE the existing-side value is preserved.
+
+- Strictly additive on CREATE-first path; UPDATE semantics identical.
+- All 42 existing `mergeCityDoc` tests still green.
+- **Future risk** (flag for awareness): if a city mapper change starts
+  producing fields currently in `CITY_EDITORIAL_ONLY_FIELDS`
+  (`placesToGo`, `coordinates`, `region`, `orderRank`, `gallery`),
+  CREATE-first runs would now write that mapper value where previously
+  they dropped it. Probably correct behavior, but a behavior shift any
+  future mapper change should weigh.
+
+### Test triad results
+
+| Suite | Assertions | Status |
+|---|---:|---|
+| `npm run test:merge` (city contract) | 42 | ✓ green |
+| `npm run test:merge-dispatch` (article + guideArticle + registry) | 50 | ✓ green |
+| `npm run test:scope` (filter-by-template scope) | 42 | ✓ green |
+| **Total** | **134** | ✓ |
+
+`tsc --noEmit`: clean.
+
+### Drift assertion baseline result (cold-cache)
+
+Ran the session 5 invocation pattern as `--dry-run-diff-only` from this
+fresh worktree:
+
+```
+npm run wp-import -- --filter-by-template destination-hub \
+  --slug-pattern '*-travel-guide' --slug-exclude 'egypt-travel-guide' \
+  --type page --dry-run-diff-only
+```
+
+Results: 41/41 cities enumerated. **24 no-hero cities + Cairo: 0 changed
+lines** (matched approved-shape `befec11adfcbd6f2` / `e79be18948f1d1ca`).
+**17 hero-bearing cities: 2 changed lines each, all isolated to
+`heroImage.asset._ref`** (real Sanity asset hash on existing-side vs.
+`image-dryrun-{wpId}` placeholder on mapper-output side).
+
+**Root cause: cold worktree cache.** `migration/.cache/media/` is
+gitignored and not propagated from main; without cached asset refs the
+dry-run media path returns the placeholder at
+[`scripts/wp-import/media.ts:124`](../scripts/wp-import/media.ts).
+**Not Phase 1/2-introduced drift.** Five-lines-of-evidence attribution
+per lesson 17:
+
+1. Single field affected (`heroImage.asset._ref` only)
+2. `media.ts` unmodified by Phase 1/2
+3. mergeCityDoc UPDATE semantics unchanged (refinement is CREATE-first only)
+4. `heroImage` not in `CITY_EDITORIAL_ONLY_FIELDS` — flows through Q3 rule 1 same as before
+5. 24 no-hero cities + Cairo pass cleanly under same code path
+
+Session 5 close's "41/41 cities, 0 changed line(s)" result remains
+canonical (was achieved with hot cache immediately post-Step-8 actual
+write). The fresh-worktree summary regenerated by this run was reverted
+to preserve the session 5 historical record.
+
+### Operational notes
+
+#### Cold-cache vs. hot-cache asset ref divergence
+
+`--dry-run-diff-only` against a fresh worktree's cold
+`migration/.cache/media/` produces placeholder asset refs
+(`image-dryrun-{wpId}`) that diverge from real Sanity asset content
+hashes. Drift assertions in fresh worktrees show false-positive drift
+on cities (or any docs) with hero / asset references.
+
+Two paths:
+
+1. **Run drift assertion only after actual writes in the same worktree**
+   (cache hot from the upload pass, refs real). Standing pattern for
+   post-write drift assertions.
+2. **Pre-populate the cache from current Sanity state.** Needed only if
+   a session does drift-assertion-only work in a fresh worktree.
+
+For session 6.5: option 1 — the post-write drift assertion follows the
+449-doc actual write, asset cache is hot.
+
+#### `wp-import` test-side-effects on `migration-summary.md` / `migration-log.jsonl`
+
+The regression-guard test in `scripts/wp-import/__tests__/scope.test.ts`
+(case c2: `--type page --dry-run --limit 0`) invokes the full importer
+as a subprocess. Even with `--dry-run --limit 0`, the importer still
+writes `migration/migration-summary.md` and appends to
+`migration/migration-log.jsonl` at run end. These files are tracked
+historical records (session 5 close state), so test runs in a fresh
+worktree pollute them.
+
+**Mitigation for now:** revert the files before commit (`git checkout
+HEAD -- migration/migration-log.jsonl migration/migration-summary.md`).
+**Future fix candidate** (deferred to session 6.5+): add a
+`--no-summary` flag that suppresses summary + log writes, OR have the
+test invoke through a wrapper that redirects to `/tmp`. Logging here
+so future sessions don't waste cycles re-investigating the same drift
+signal.
+
+#### CLI flag form: `--type` accepts space-separated only
+
+`--type page` parses; `--type=page` does not parse (the wp-import
+parseCli loop only matches `case '--type':` then advances to next argv
+entry). Surfaced during session 6 Phase 4.1 drift run. Session 6.5
+authors should use the space-separated form. (Same applies to
+`--filter-by-template`, `--slug-pattern`, etc. — all CLI flags that
+take a value use the space-separated form in this codebase.)
+
+### Decision log — five locked decisions D1–D5
+
+Cross-referenced to `migration/.diffs/destination-hub-misclassified-resolved.md`:
+
+| ID | Slug(s) | Decision |
+|---|---|---|
+| D1 | All 20 originally-classified guideArticles | 2 → guideArticle (`reaching-{siwa,sohag}-egypt`), 18 → travelTip (lesson 16: schema wins over classifier) |
+| D2 | `about-egypt` | Decision-deferred post-cutover; default redirect `/`; 500-word body sample captured for editorial review |
+| D3 | `month-by-month-guide-to-egypt` | travelTip / `when-to-go` |
+| D4 | `currency-in-egypt` | travelTip / `culture-and-money` with 3,000-char post-strip fallback to redirect |
+| D5 | `hassle-free-egypt` | Redirect `/tours/`, don't migrate (Q5 `egypt-travel-guide` precedent) |
+
+### Methodology lessons committed in session 6 (commit cross-reference)
+
+| Commit | Lesson |
+|---|---|
+| `72b8840` | Lesson 15 — Field classification is about provenance authority, not mapper output |
+| `4b5d3a3` | Lesson 16 — When classifier output conflicts with schema reality, schema wins |
+| (Phase 4 surface) | Lesson 17 — Drift signals require root-cause investigation before remediation |
+
+Lessons live in the top-level "Methodology lessons (carry forward)"
+section of this file.
+
+### Counts at session 6 close (canonical)
+
+| Metric | Value | Note |
+|---|---:|---|
+| Cities in `migration-staging` | **41** | unchanged from session 5 close |
+| Articles in `migration-staging` | **495** | unchanged from session 5 close (165 EN + 165 ES + 165 JA) |
+| `guideArticle` in `migration-staging` | **0** | session 6.5 will write the cohort |
+| `editorialCategory` in `migration-staging` | **21** | 19 wp-imports + 2 seed docs (`category-planning`, `category-destination`) — session 5's "19" referred to wp-imports only |
+| `translation.metadata` in `migration-staging` | **0** | also 0 on production; per Investigation 1 the prior 163-165 figures were transient post-write counts; article-side i18n is intact via per-locale `language` field (165 EN + 165 ES + 165 JA articles) |
+
+### Cutover blockers timeline
+
+Session 8 close deadline for production-only city enrichments still
+holds (per session 5.5 close). Session 6 doesn't open new blockers
+(pre-flight only). No tightening needed.
+
+### Session 6 done; session 6.5 ready
+
+- Pre-flight gates verified at session start (worktree-CWD, drift refs,
+  brand-inputs, corpus-fact GROQ probes via direct curl, `tsc` clean)
+- Three pre-flight defects landed (commits `038649e` / `72b8840` /
+  `4b5d3a3`)
+- 134 test assertions across 3 suites green
+- Decision artifact written, drift baseline explained, session 6.5
+  handoff prepared at `migration/.handoffs/session-6.5-subpage-write.md`
+- No actual subpage writes; that is session 6.5 scope.
+
+### Branch state at session 6 close
+
+Branch `claude/magical-wiles-511a5a` (harness-generated; the brief's
+illustrative `claude/session-6-preflight` was not used — actual branch
+name is canonical for this session's references). Merged to `main` at
+session 6 close per workflow rule 1.
