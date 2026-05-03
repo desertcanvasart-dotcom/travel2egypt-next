@@ -58,6 +58,49 @@ export const CITY_EDITORIAL_ONLY_FIELDS: readonly string[] = [
   'gallery',
 ] as const;
 
+/** Editorial-only fields on `article` (document-level i18n).
+ *
+ * `author` and `category` are mapper-produced **acknowledged-defaults**, not
+ * canonical assignments: the article mapper writes `author = legacy-archive`
+ * unconditionally and a 2-bucket `category` from a slug heuristic. Editorial
+ * reassignment in Studio is the canonical authority. Treating these as
+ * editorial-only means the CREATE-first run seeds them and UPDATE re-imports
+ * preserve whatever editorial state has overlaid them. This is the field-
+ * classification principle the session 6 brief locked: provenance authority,
+ * not mapper-produces-or-not.
+ *
+ * `featured`, `updatedAt`, `relatedArticles`, `relatedTours`, `relatedCities`
+ * the mapper never writes — pure editorial fields.
+ *
+ * Schema reference: `src/sanity/schemas/article.ts`. */
+export const ARTICLE_EDITORIAL_ONLY_FIELDS: readonly string[] = [
+  'author',
+  'category',
+  'featured',
+  'updatedAt',
+  'relatedArticles',
+  'relatedTours',
+  'relatedCities',
+] as const;
+
+/** Editorial-only fields on `guideArticle` (field-level i18n).
+ *
+ * `section` is a mapper-produced acknowledged-default from the classifier's
+ * `inferredSection`. Phase 3 of session 6 explicitly assigns sections for the
+ * 27 deferred `*-egypt` slugs; treating section as editorial-only ensures
+ * those triage decisions survive session 6.5 re-imports. The same provenance
+ * principle as article.author / article.category.
+ *
+ * `orderRank`, `relatedTours`, `seo` the mapper does not produce.
+ *
+ * Schema reference: `src/sanity/schemas/guideArticle.ts`. */
+export const GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS: readonly string[] = [
+  'section',
+  'orderRank',
+  'relatedTours',
+  'seo',
+] as const;
+
 /** Internal shape for a single field's merge outcome — surfaced to the
  * orchestrator for fingerprint generation and for the diff summary table. */
 export interface PerFieldChange {
@@ -133,9 +176,20 @@ export function mergeCityDoc(
   for (const field of wpKeys) {
     handledKeys.add(field);
     if (editorialSet.has(field)) {
-      // Defensive: WP output should not contain editorial-only fields, but if it
-      // does, we ignore the WP value and keep whatever existing has.
-      changes.push({ field, outcome: 'preserved-editorial-only' });
+      // Editorial-only contract: WP cannot OVERWRITE a value the editor has set.
+      // On CREATE-first (existing has no value yet) the WP value is allowed to
+      // seed the field — this is the "acknowledged-default" semantics for
+      // mapper-produced fields like article.author / article.category /
+      // guideArticle.section: mapper writes a heuristic default to satisfy
+      // schema requirements; once an editor overlays canonical authority, the
+      // editorial value sticks across re-imports.
+      const existingHasValue = existing && existing[field] !== undefined;
+      if (existingHasValue) {
+        changes.push({ field, outcome: 'preserved-editorial-only' });
+        continue;
+      }
+      merged[field] = wp[field];
+      changes.push({ field, outcome: 'created' });
       continue;
     }
     const wpVal = wp[field];
@@ -306,40 +360,110 @@ export interface MergeFetcher {
 }
 
 /**
- * Fetch the existing Sanity doc by `_id`, run `mergeCityDoc` against it,
- * and return the merged doc to write. Plumbing point that wires the Q3
- * merge rule into the actual write path.
+ * Q3 merge for an `article` doc. Thin facade — mergeCityDoc is generic via
+ * the editorialOnlyFields parameter; the named wrapper makes the call site
+ * read like its provenance.
+ */
+export function mergeArticleDoc(
+  existing: SanityDoc | null,
+  wp: SanityDoc,
+): { merged: SanityDoc; perFieldChanges: PerFieldChange[] } {
+  return mergeCityDoc(existing, wp, ARTICLE_EDITORIAL_ONLY_FIELDS);
+}
+
+/**
+ * Q3 merge for a `guideArticle` doc. Thin facade — see mergeArticleDoc.
+ */
+export function mergeGuideArticleDoc(
+  existing: SanityDoc | null,
+  wp: SanityDoc,
+): { merged: SanityDoc; perFieldChanges: PerFieldChange[] } {
+  return mergeCityDoc(existing, wp, GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS);
+}
+
+/**
+ * Single source of truth for which `_type` values get Q3 merge protection.
+ * Maps the Sanity doc type to its editorial-only field list. Used by both
+ * `applyMerge` (the dispatcher) and `isMergeableType` (the predicate the
+ * write path uses to decide whether to call the dispatcher).
+ *
+ * To extend with a new mergeable type: add the type's
+ * `EDITORIAL_ONLY_FIELDS` constant above, add an entry here, and the
+ * write path picks it up automatically.
+ */
+const MERGE_REGISTRY: Record<string, readonly string[]> = {
+  city: CITY_EDITORIAL_ONLY_FIELDS,
+  article: ARTICLE_EDITORIAL_ONLY_FIELDS,
+  guideArticle: GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS,
+};
+
+/**
+ * Predicate the write path uses to decide whether to dispatch through
+ * `applyMerge`. Doc types not in the registry (editorialCategory,
+ * translation.metadata, etc.) skip merge entirely and are written via raw
+ * createOrReplace — they have no editorial-only fields to preserve.
+ */
+export function isMergeableType(type: string | undefined): boolean {
+  return type !== undefined && Object.prototype.hasOwnProperty.call(MERGE_REGISTRY, type);
+}
+
+/**
+ * Single dispatcher for all Q3-protected merges. Replaces the per-type
+ * `applyCityMerge` pattern: the write path calls `applyMerge(sanity, doc)`
+ * and the registry routes to the right field list.
+ *
+ * Loud-failure contract (methodology lesson 1): if called with a `_type`
+ * not in `MERGE_REGISTRY`, this throws. The registry itself is now a
+ * safety-net component — silently falling back to "no merge protection"
+ * is exactly the failure mode that the registry exists to prevent. The
+ * write path must gate its call with `isMergeableType` first.
  *
  * Without this helper, `client.createOrReplace(mapperDoc)` would clobber
- * editorial-only fields (region, coordinates, orderRank, etc.) that
- * the mapper doesn't produce. The bug surfaced in session 5: the
- * `--dry-run-diff-only` path used mergeCityDoc, but the live write
- * path used raw createOrReplace and silently lost editorial state.
- *
- * Returns the merged doc and the per-field changes list (for logging).
- * If `existing` is null (CREATE-first run, no prior doc by this _id),
- * mergeCityDoc returns mapperDoc verbatim — no field outcomes preserved.
- *
- * Test coverage: `scripts/wp-import/__tests__/merge.test.ts` includes a
- * dedicated `applyCityMerge` test that mocks the fetcher with a doc
- * carrying an editorial-only field, asserts the post-merge doc still
- * carries it. This is the integration test that would have caught the
- * session-5 divergence.
+ * editorial-only fields (city.region, article.author, guideArticle.section,
+ * etc.). The bug class surfaced in session 5: the `--dry-run-diff-only`
+ * path used mergeCityDoc, but the live write path used raw createOrReplace
+ * and silently lost editorial state.
+ */
+export async function applyMerge(
+  fetcher: MergeFetcher,
+  mapperDoc: SanityDoc,
+): Promise<{ merged: SanityDoc; perFieldChanges: PerFieldChange[] }> {
+  const type = mapperDoc._type;
+  if (!type || !Object.prototype.hasOwnProperty.call(MERGE_REGISTRY, type)) {
+    throw new Error(
+      `applyMerge: no merge handler registered for _type=${JSON.stringify(type)}. ` +
+        `Registered types: ${Object.keys(MERGE_REGISTRY).join(', ')}. ` +
+        `If this is a new doc type that should be merge-protected, add its ` +
+        `EDITORIAL_ONLY_FIELDS to scripts/wp-import/merge.ts MERGE_REGISTRY. ` +
+        `If it should bypass merge entirely, gate the call site with isMergeableType.`,
+    );
+  }
+  if (!mapperDoc._id) {
+    throw new Error(`applyMerge: mapperDoc lacks _id (type=${type}). Cannot fetch existing.`);
+  }
+  const editorialOnlyFields = MERGE_REGISTRY[type];
+  const existing = await fetcher.fetch<SanityDoc | null>(`*[_id == $id][0]`, { id: mapperDoc._id });
+  return mergeCityDoc(existing ?? null, mapperDoc, editorialOnlyFields);
+}
+
+/**
+ * Backward-compatible facade for the city-specific merge entry. The
+ * `wp-import-diff.ts` diff path imports this directly. New code should use
+ * `applyMerge` + `isMergeableType` instead.
  */
 export async function applyCityMerge(
   fetcher: MergeFetcher,
   mapperDoc: SanityDoc,
 ): Promise<{ merged: SanityDoc; perFieldChanges: PerFieldChange[] }> {
   if (mapperDoc._type !== 'city') {
-    // Defensive: don't run city-specific merge against other doc types.
+    // Defensive: callers passed mapperDoc through this city-specific facade.
+    // Returning verbatim preserves prior behavior (no merge, no throw).
     return { merged: mapperDoc, perFieldChanges: [] };
   }
-  const id = mapperDoc._id;
-  if (!id) {
+  if (!mapperDoc._id) {
     return { merged: mapperDoc, perFieldChanges: [] };
   }
-  const existing = await fetcher.fetch<SanityDoc | null>(`*[_id == $id][0]`, { id });
-  return mergeCityDoc(existing ?? null, mapperDoc);
+  return applyMerge(fetcher, mapperDoc);
 }
 
 function sortKeys(v: unknown): unknown {

@@ -32,7 +32,7 @@ import { WpClient, WordfenceHaltError } from './wp-import/wp-client.js';
 import { makeSanityClient, findCityByEnSlug } from './wp-import/sanity.js';
 import { getMissingAttachments, getUploadExhausted } from './wp-import/media.js';
 import { getAmbiguousMediaMatches } from './wp-import/mappers/_shared.js';
-import { applyCityMerge } from './wp-import/merge.js';
+import { applyMerge, isMergeableType } from './wp-import/merge.js';
 import { decideScope, validateScopeFlags, ScopeFlagError, type ScopePlan } from './wp-import/scope.js';
 import { getHreflangMap } from './wp-import/hreflang.js';
 import { mapArticle } from './wp-import/mappers/article.js';
@@ -116,7 +116,8 @@ Flags:
   --dry-run                   Preview mode; no Sanity writes, no media uploads.
   --limit N                   Process at most N entities.
   --type <kind>               post | page | attachment | category | both | all
-                              \`both\` = pages + posts. Required when
+                              \`both\` = page + post (categories not run when
+                              --filter-by-template is set). Required when
                               --filter-by-template is set, so categories /
                               attachments cannot run unfiltered alongside
                               (the session 5 Step 8 scope-anomaly trap).
@@ -713,7 +714,7 @@ async function createOrReplaceWithRetry(
   }
 }
 
-async function persistResult(
+export async function persistResult(
   sanity: SanityClient,
   cli: CliOptions,
   stats: MigrationStats,
@@ -727,14 +728,17 @@ async function persistResult(
       continue;
     }
     try {
-      // Q3 merge rule: for city docs, fetch existing state and apply
-      // mergeCityDoc before write so editorial-only fields (region,
-      // coordinates, orderRank, gallery, placesToGo) the mapper doesn't
-      // produce are preserved. Path A wiring per session-5 critical-bug
-      // fix. The dry-run-diff-only path goes through the same helper so
-      // both paths converge on identical semantics.
-      const docToWrite = doc._type === 'city'
-        ? ((await applyCityMerge(sanity, doc)).merged as SanityDoc)
+      // Q3 merge rule: for mergeable types (city, article, guideArticle),
+      // fetch existing state and apply per-type merge so editorial-only
+      // fields the mapper doesn't produce are preserved. The dispatcher
+      // applyMerge consults the central registry in merge.ts; types not
+      // in the registry (editorialCategory, translation.metadata, …)
+      // bypass merge and are written via raw createOrReplace. The
+      // session 5 lesson: write path must converge with diff path on the
+      // same merge function — applyMerge + registry is the single
+      // dispatch site.
+      const docToWrite = isMergeableType(doc._type)
+        ? ((await applyMerge(sanity, doc)).merged as SanityDoc)
         : doc;
       await createOrReplaceWithRetry(sanity, docToWrite, stats);
       bump(stats, doc._type, 'written');
