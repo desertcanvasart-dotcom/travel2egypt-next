@@ -115,7 +115,8 @@ export type ReviewFlag =
   | 'hreflang-broken'
   | 'table-flattened'
   | 'multi-category-original'
-  | 'wadi-parent-inferred';
+  | 'wadi-parent-inferred'
+  | 'deferred-editorial';
 
 /** HTML→PT conversion stats summed across all locales of one entity. */
 export interface HtmlPipelineStats {

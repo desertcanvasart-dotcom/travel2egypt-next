@@ -44,19 +44,25 @@ interface TravelTipMapperOpts {
 }
 
 /**
- * Slug → travelTipCategory `_id` map. Hardcoded from session 6 Phase 3
- * routing decisions in `migration/.diffs/destination-hub-misclassified-resolved.md`
- * "Per-slug routing table". Editorial reassignment in Studio overlays this
- * acknowledged-default per `TRAVEL_TIP_EDITORIAL_ONLY_FIELDS` classification
- * (session 6 close + 6.5a Phase 3).
+ * Slug → travelTipCategory `_id` map. Source of truth combining session 6
+ * Phase 3 routing decisions (`migration/.diffs/destination-hub-misclassified-resolved.md`)
+ * with session 6.5a Investigation 1 case-D additions (etp tile-grid completeness)
+ * and Investigation 2's removal of `month-by-month-guide-to-egypt` (now routes
+ * to `article`, not `travelTip`).
+ *
+ * Editorial reassignment in Studio overlays this acknowledged-default per
+ * `TRAVEL_TIP_EDITORIAL_ONLY_FIELDS` classification (session 6 close + 6.5a Phase 3).
  *
  * Keys are EN slugs only — locale slug variants resolve to the same WP `_id`
  * and route here unchanged.
+ *
+ * Total: 30 entries (17 from Phase 3 minus month-by-month + 13 case-D).
  */
 export const TRAVEL_TIP_SLUG_TO_CATEGORY: Record<string, string> = {
   // getting-around
   'airports-in-egypt': 'travelTipCategory-getting-around',
   'transportation-in-egypt': 'travelTipCategory-getting-around',
+  'distance-between-egyptian-cities': 'travelTipCategory-getting-around', // Inv 1
   // practical-essentials
   'electricity-in-egypt': 'travelTipCategory-practical-essentials',
   'wifi-in-egypt': 'travelTipCategory-practical-essentials',
@@ -64,20 +70,32 @@ export const TRAVEL_TIP_SLUG_TO_CATEGORY: Record<string, string> = {
   'time-in-egypt': 'travelTipCategory-practical-essentials',
   'language-in-egypt': 'travelTipCategory-practical-essentials',
   'toilets-in-egypt': 'travelTipCategory-practical-essentials',
+  'attractions-entrance-fees': 'travelTipCategory-practical-essentials', // Inv 1
+  'opening-hours-and-public-holidays': 'travelTipCategory-practical-essentials', // Inv 1
+  'passport-and-visa': 'travelTipCategory-practical-essentials', // Inv 1
+  'travel-insurance': 'travelTipCategory-practical-essentials', // Inv 1
+  'getting-there': 'travelTipCategory-practical-essentials', // Inv 1
+  'health-and-safety': 'travelTipCategory-practical-essentials', // Inv 1 (Q1: folded into existing bucket, no new bucket)
+  'water-safety-in-egypt-advice-for-travelers': 'travelTipCategory-practical-essentials', // Inv 1
+  'tips-on-accommodations': 'travelTipCategory-practical-essentials', // Inv 1
   // culture-and-money
   'bargaining-in-egypt': 'travelTipCategory-culture-and-money',
   'tipping-in-egypt': 'travelTipCategory-culture-and-money',
   'touts-in-egypt': 'travelTipCategory-culture-and-money',
   'cultural-etiquette-in-egypt': 'travelTipCategory-culture-and-money',
-  'currency-in-egypt': 'travelTipCategory-culture-and-money',
+  'currency-in-egypt': 'travelTipCategory-culture-and-money', // D4 conditional
+  'visiting-a-religious-site': 'travelTipCategory-culture-and-money', // Inv 1
   // when-to-go
   'ramadan-in-egypt': 'travelTipCategory-when-to-go',
-  'month-by-month-guide-to-egypt': 'travelTipCategory-when-to-go',
+  // (month-by-month-guide-to-egypt removed — Inv 2 routes it to `article` via EXPLICIT_PAGE_ROUTING)
   // food
   'culinary-journey-in-egypt': 'travelTipCategory-food',
   // traveler-segments
   'solo-woman-traveler-in-egypt': 'travelTipCategory-traveler-segments',
   'vegetarian-travelers-to-egypt': 'travelTipCategory-traveler-segments',
+  'student-travelers': 'travelTipCategory-traveler-segments', // Inv 1
+  'travel-with-disabilities': 'travelTipCategory-traveler-segments', // Inv 1
+  'traveling-with-kids': 'travelTipCategory-traveler-segments', // Inv 1
 };
 
 /**

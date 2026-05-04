@@ -570,6 +570,19 @@ async function routeToMapper(
   cli: CliOptions
 ): Promise<MapperResult | null> {
   const opts = { dryRun: cli.dryRun, priorityScore };
+
+  // Editorial-defer short-circuit (session 6.5a Investigation 3). Classifier
+  // attaches `reviewFlag: 'deferred-editorial'` for slug-collision junk that
+  // shouldn't write at all; the cutover redirect handles user-facing routing
+  // at session 9. Returning null here matches the existing skip path used by
+  // persona-or-system / test-or-junk classifications.
+  if (classification.reviewFlag === 'deferred-editorial') {
+    process.stderr.write(
+      `[wp-import] editorial defer: ${group.en.slug} (${group.en.id}) — no write; redirect handled at cutover\n`
+    );
+    return null;
+  }
+
   switch (classification.type) {
     case 'destination-hub':
       return mapCity(sanity, wp, group, opts);

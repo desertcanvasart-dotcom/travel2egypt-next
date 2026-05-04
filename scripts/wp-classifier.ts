@@ -2,6 +2,7 @@
 // without duplicating the slug list. Co-locating the canonical map in the
 // mapper file keeps the routing source-of-truth in one place.
 import { isTravelTipSlug } from './wp-import/mappers/travelTip.js';
+import type { ReviewFlag } from './wp-import/types.js';
 
 /**
  * Slug classifier for Travel2Egypt WordPress migration.
@@ -33,19 +34,28 @@ export type PageType =
 
 export type Confidence = 'high' | 'med' | 'low';
 
+/** Section values for `guideArticle` (subset matching the schema's options.list). */
+export type GuideArticleSection =
+  | 'introducing'
+  | 'plan-your-trip'
+  | 'while-you-are-there'
+  | 'places-to-go'
+  | 'others';
+
 export interface Classification {
   type: PageType;
   reason: string;
   confidence: Confidence;
   /** Slug token of the parent destination, when inferable. */
   inferredParentCity?: string;
-  /** Section value for destination-subpage (introducing|plan-your-trip|while-you-are-there|places-to-go|others). */
-  inferredSection?:
-    | 'introducing'
-    | 'plan-your-trip'
-    | 'while-you-are-there'
-    | 'places-to-go'
-    | 'others';
+  /** Section value for destination-subpage. */
+  inferredSection?: GuideArticleSection;
+  /**
+   * Review flag set by the classifier itself (rather than by the orchestrator).
+   * Only used today for editorial-defer slugs (session 6.5a Investigation 3) so
+   * the dispatch can route them to a no-op exit before any mapper runs.
+   */
+  reviewFlag?: ReviewFlag;
 }
 
 // ---------- Lookup tables ----------------------------------------------
@@ -261,10 +271,109 @@ function findDistrict(slug: string): { district: string; parent: string } | null
   return null;
 }
 
+// ---------- Editorial overrides (session 6.5a Investigations 1/2/3) ----
+
+/**
+ * Editorial routing override: target `PageType` keyed by exact WP slug. Fires
+ * before all generic rules in `classifyPageBySlug` so it always wins. Encodes
+ * Investigation 2/3 decisions where the classifier's slug-pattern heuristic
+ * disagrees with editorial intent.
+ */
+export const EXPLICIT_PAGE_ROUTING: Record<string, PageType> = {
+  // Investigation 2: editorial blog-post routing (page → article).
+  'egypt-weather-guide': 'article',
+  'month-by-month-guide-to-egypt': 'article',
+  // Investigation 3: tour products misclassified as destination-subpage.
+  'cairo-private-car-and-guide': 'tour-or-package',
+  'aswan-private-car-and-guide': 'tour-or-package',
+  'luxor-private-car-and-guide': 'tour-or-package',
+  // Investigation 3 (Q4): redirect-only stub — movement-guide → ways-to-get-to-taba
+  // at cutover. service-or-utility routes through mapServiceStub which preserves
+  // the WP body (editorial triage context) and emits a redirect entry.
+  'movement-guide': 'service-or-utility',
+};
+
+/**
+ * Editorial slug override: Sanity slug differs from WP database slug.
+ * Used only for WP slug-collision junk where the editorial-correct slug
+ * doesn't match the WP slug. The mapper writes the override slug to all
+ * locale variants of `guideArticle.slug`; the WP-slug-shaped redirect-from
+ * URL is unchanged so the cutover redirect still fires.
+ *
+ * NOTE: this divergence is intentional but breaks the WP-slug == Sanity-slug
+ * invariant for these 3 docs only. Documented in the close artifacts.
+ */
+export const EXPLICIT_SLUG_OVERRIDES: Record<string, string> = {
+  'dahab-historical-guide-3': 'colored-canyon',
+  'dahab-historical-guide-5': 'blue-hole',
+  'dahab-historical-guide-6': 'dahab-restaurants',
+};
+
+/**
+ * Editorial section override: guideArticle.section assignment when the
+ * classifier heuristic can't determine the right bucket. Editorial-only
+ * field; protected by `GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS` so re-imports
+ * preserve subsequent Studio reassignment.
+ */
+export const EXPLICIT_SECTION_OVERRIDES: Record<string, GuideArticleSection> = {
+  'dahab-historical-guide-3': 'while-you-are-there',
+  'dahab-historical-guide-5': 'others',
+  'dahab-historical-guide-6': 'others',
+};
+
+/**
+ * Editorial parentCity override: assigns when the classifier can't infer
+ * from slug structure. Defensive — for the 3 dahab cleanups the existing
+ * destination-prefix safety fallback (rule 6) would also infer "dahab",
+ * but the explicit override is the editorial source of truth.
+ */
+export const EXPLICIT_PARENT_CITY_OVERRIDES: Record<string, string> = {
+  'dahab-historical-guide-3': 'dahab',
+  'dahab-historical-guide-5': 'dahab',
+  'dahab-historical-guide-6': 'dahab',
+};
+
+/**
+ * Editorial defer set: slugs that should not write at all. The classifier
+ * returns `unclassified` with `reviewFlag: 'deferred-editorial'`; the
+ * dispatch in `routeToMapper` checks the flag and short-circuits to null
+ * before any mapper runs. Cutover redirect handled at session 9.
+ */
+export const EXPLICIT_DEFER_SLUGS: Set<string> = new Set([
+  // Investigation 3: Lake Nasser content under Dahab-shaped junk slug. Closest
+  // canonical page is wp-page-57848 (`upcoming-events-in-abu-simbel`), already
+  // in the 422 cohort with high-confidence Abu Simbel routing.
+  'dahab-historical-guide-4',
+]);
+
 // ---------- Main classifier --------------------------------------------
 
 export function classifyPageBySlug(rawSlug: string): Classification {
   const s = rawSlug.toLowerCase();
+
+  // Editorial overrides — fire before any generic rule so they always win.
+  // Source of truth: session 6.5a Investigations 1/2/3.
+  if (EXPLICIT_DEFER_SLUGS.has(s)) {
+    return {
+      type: 'unclassified',
+      reason: 'Editorial defer (slug-collision junk; redirect handled at cutover)',
+      confidence: 'high',
+      reviewFlag: 'deferred-editorial',
+    };
+  }
+  if (Object.prototype.hasOwnProperty.call(EXPLICIT_PAGE_ROUTING, s)) {
+    return {
+      type: EXPLICIT_PAGE_ROUTING[s],
+      reason: 'Explicit editorial routing override',
+      confidence: 'high',
+      ...(Object.prototype.hasOwnProperty.call(EXPLICIT_PARENT_CITY_OVERRIDES, s)
+        ? { inferredParentCity: EXPLICIT_PARENT_CITY_OVERRIDES[s] }
+        : {}),
+      ...(Object.prototype.hasOwnProperty.call(EXPLICIT_SECTION_OVERRIDES, s)
+        ? { inferredSection: EXPLICIT_SECTION_OVERRIDES[s] }
+        : {}),
+    };
+  }
 
   // 0. Test/junk -- always first so we never misclassify garbage.
   if (
