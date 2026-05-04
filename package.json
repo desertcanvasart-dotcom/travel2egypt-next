@@ -9,12 +9,14 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "seed": "tsx scripts/seed.ts",
+    "seed:travel-tip-categories": "tsx scripts/seed-travel-tip-categories.ts",
     "wp-audit": "tsx scripts/wp-audit.ts",
     "wp-import": "tsx scripts/wp-import.ts",
     "wp-import-diff": "tsx scripts/wp-import-diff.ts",
     "test:merge": "tsx scripts/wp-import/__tests__/merge.test.ts",
     "test:merge-dispatch": "tsx scripts/wp-import/__tests__/merge-dispatch.test.ts",
-    "test:scope": "tsx scripts/wp-import/__tests__/scope.test.ts"
+    "test:scope": "tsx scripts/wp-import/__tests__/scope.test.ts",
+    "test:overrides": "tsx scripts/wp-import/__tests__/classifier-overrides.test.ts"
   },
   "dependencies": {
     "@portabletext/react": "^3.2.1",

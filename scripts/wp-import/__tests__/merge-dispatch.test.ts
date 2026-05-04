@@ -23,10 +23,12 @@
 import {
   mergeArticleDoc,
   mergeGuideArticleDoc,
+  mergeTravelTipDoc,
   applyMerge,
   isMergeableType,
   ARTICLE_EDITORIAL_ONLY_FIELDS,
   GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS,
+  TRAVEL_TIP_EDITORIAL_ONLY_FIELDS,
   type MergeFetcher,
 } from '../merge.js';
 import { fingerprint, fingerprintHash } from '../fingerprint.js';
@@ -297,6 +299,130 @@ assertEqual(
   assertEqual(merged.section, 'plan-your-trip', 'a-guide-3: editorial section preserved');
 }
 
+// ─── (a) Unit: mergeTravelTipDoc ─────────────────────────────────────────
+
+process.stderr.write('# (a-travelTip) Unit — mergeTravelTipDoc Q3 sub-decisions\n');
+
+assertEqual(
+  TRAVEL_TIP_EDITORIAL_ONLY_FIELDS.slice().sort(),
+  ['category', 'relatedTips', 'seo'],
+  'a-tip-1: editorial-only field list locked'
+);
+
+// CREATE-first: mapper-produced category seeded when existing === null.
+{
+  const wp: SanityDoc = {
+    _id: 'wp-page-60892',
+    _type: 'travelTip',
+    title: [{ _key: 'en', value: 'Airports in Egypt' }],
+    slug: [{ _key: 'en', _type: 'object', value: { _type: 'slug', current: 'airports-in-egypt' } }],
+    summary: [{ _key: 'en', value: 'Airports overview…' }],
+    body: [{ _key: 'en', _type: 'object', value: [{ _type: 'block' }] }],
+    // Mapper-produced acknowledged-default category (resolved.md getting-around bucket).
+    category: { _type: 'reference', _ref: 'travelTipCategory-getting-around' },
+    migration: { wpId: 60892, source: 'wp-import' },
+  };
+  const { merged } = mergeTravelTipDoc(null, wp);
+  assertEqual(merged._id, wp._id, 'a-tip-2: CREATE _id from mapper');
+  assertEqual(merged.title, wp.title, 'a-tip-2: CREATE title from mapper');
+  assertEqual(
+    merged.category,
+    wp.category,
+    'a-tip-2: CREATE category from mapper (acknowledged-default — resolved.md routing)'
+  );
+}
+
+// UPDATE: editorial-reassigned category MUST be preserved.
+{
+  const existing: SanityDoc = {
+    _id: 'wp-page-60892',
+    _type: 'travelTip',
+    title: [{ _key: 'en', value: 'Airports in Egypt' }],
+    // Editor moved this travelTip from getting-around to practical-essentials in Studio.
+    category: { _type: 'reference', _ref: 'travelTipCategory-practical-essentials' },
+    relatedTips: [{ _type: 'reference', _ref: 'wp-page-60934' }],
+    seo: { metaTitle: 'Egyptian airports — operator notes' },
+  };
+  const wp: SanityDoc = {
+    _id: 'wp-page-60892',
+    _type: 'travelTip',
+    title: [{ _key: 'en', value: 'Airports in Egypt (refreshed)' }],
+    slug: [{ _key: 'en', _type: 'object', value: { _type: 'slug', current: 'airports-in-egypt' } }],
+    body: [{ _key: 'en', _type: 'object', value: [{ _type: 'block' }] }],
+    // Mapper writes the SLUG_TO_CATEGORY default — would clobber the editorial reassignment.
+    category: { _type: 'reference', _ref: 'travelTipCategory-getting-around' },
+    migration: { wpId: 60892, source: 'wp-import' },
+  };
+  const { merged, perFieldChanges } = mergeTravelTipDoc(existing, wp);
+  assertEqual(
+    merged.title,
+    wp.title,
+    'a-tip-3: WP overwrites title (Q3 rule 1)'
+  );
+  assertEqual(
+    merged.category,
+    { _type: 'reference', _ref: 'travelTipCategory-practical-essentials' },
+    'a-tip-3: editorial category preserved (lesson 8 wire-in for travelTip)'
+  );
+  assertEqual(
+    merged.relatedTips,
+    [{ _type: 'reference', _ref: 'wp-page-60934' }],
+    'a-tip-3: editorial relatedTips preserved'
+  );
+  assertEqual(
+    merged.seo,
+    { metaTitle: 'Egyptian airports — operator notes' },
+    'a-tip-3: editorial seo preserved'
+  );
+  const editorialFields = perFieldChanges
+    .filter((c) => c.outcome === 'preserved-editorial-only')
+    .map((c) => c.field)
+    .sort();
+  assertEqual(
+    editorialFields,
+    ['category', 'relatedTips', 'seo'],
+    'a-tip-3: per-field changes record editorial-only outcomes for all 3 fields'
+  );
+}
+
+// Q3 rule 4: per-locale i18n title slot preservation (travelTip uses field-level i18n).
+{
+  const existing: SanityDoc = {
+    _id: 'wp-page-60953',
+    _type: 'travelTip',
+    title: [
+      { _key: 'en', value: 'Electricity in Egypt' },
+      { _key: 'es', value: 'Electricidad en Egipto' },
+      { _key: 'ja', value: 'エジプトの電気' },
+    ],
+    category: { _type: 'reference', _ref: 'travelTipCategory-practical-essentials' },
+  };
+  const wp: SanityDoc = {
+    _id: 'wp-page-60953',
+    _type: 'travelTip',
+    // WP only supplies EN this run (ES + JA already polished in Studio).
+    title: [{ _key: 'en', value: 'Electricity in Egypt (refreshed)' }],
+    category: { _type: 'reference', _ref: 'travelTipCategory-practical-essentials' },
+  };
+  const { merged } = mergeTravelTipDoc(existing, wp);
+  const title = merged.title as Array<{ _key: string; value: string }>;
+  assertEqual(
+    title.find((t) => t._key === 'en')?.value,
+    'Electricity in Egypt (refreshed)',
+    'a-tip-4: EN slot overwritten by WP (rule 1)'
+  );
+  assertEqual(
+    title.find((t) => t._key === 'es')?.value,
+    'Electricidad en Egipto',
+    'a-tip-4: ES slot preserved (rule 4)'
+  );
+  assertEqual(
+    title.find((t) => t._key === 'ja')?.value,
+    'エジプトの電気',
+    'a-tip-4: JA slot preserved (rule 4)'
+  );
+}
+
 // ─── (b) Integration: persistResult preserves editorial-only fields ─────
 
 process.stderr.write('\n# (b) Integration — persistResult end-to-end with clobber-semantics mock\n');
@@ -402,6 +528,78 @@ async function runIntegration(): Promise<void> {
     );
   }
 
+  // b-tip-1: travelTip — editorial category preservation through persistResult.
+  // The lesson-8-equivalent test for travelTip: pre-seed with editor-reassigned
+  // category, run mapper-default through persistResult, assert post-write doc
+  // retains the editorial assignment, NOT the mapper default. This catches
+  // (i) applyMerge not wired into persistResult, (ii) registry missing
+  // 'travelTip' entry, (iii) merge logic buggy. All three fail cases produce
+  // the same observable: editorial category lost.
+  {
+    const sanity = makeMockSanity();
+    sanity.__seed({
+      _id: 'wp-page-60892',
+      _type: 'travelTip',
+      title: [{ _key: 'en', value: 'Airports in Egypt' }],
+      category: { _type: 'reference', _ref: 'travelTipCategory-practical-essentials' },
+      relatedTips: [{ _type: 'reference', _ref: 'wp-page-60934' }],
+      seo: { metaTitle: 'Egyptian airports — operator notes' },
+    });
+    const mapperDoc: SanityDoc = {
+      _id: 'wp-page-60892',
+      _type: 'travelTip',
+      title: [{ _key: 'en', value: 'Airports in Egypt (refreshed)' }],
+      slug: [{ _key: 'en', _type: 'object', value: { _type: 'slug', current: 'airports-in-egypt' } }],
+      summary: [{ _key: 'en', value: 'Airports overview…' }],
+      body: [{ _key: 'en', _type: 'object', value: [{ _type: 'block' }] }],
+      // Mapper-default category — would clobber editorial reassignment if merge fails.
+      category: { _type: 'reference', _ref: 'travelTipCategory-getting-around' },
+      migration: { wpId: 60892, source: 'wp-import' },
+    };
+    await persistResult(sanity as any, baseCli(), emptyStats([]), emptyMapperResult([mapperDoc]));
+    const stored = sanity.__get('wp-page-60892');
+    assert(stored !== undefined, 'b-tip-1: travelTip persisted');
+    const titleEn = (stored?.title as Array<{ _key: string; value: string }>).find((t) => t._key === 'en');
+    assertEqual(titleEn?.value, 'Airports in Egypt (refreshed)', 'b-tip-1: WP-sourced title overwrote');
+    assertEqual(
+      stored?.category,
+      { _type: 'reference', _ref: 'travelTipCategory-practical-essentials' },
+      'b-tip-1: editorial category preserved (lesson 8 wire-in test for travelTip)'
+    );
+    assertEqual(
+      stored?.relatedTips,
+      [{ _type: 'reference', _ref: 'wp-page-60934' }],
+      'b-tip-1: editorial relatedTips preserved'
+    );
+    assertEqual(
+      stored?.seo,
+      { metaTitle: 'Egyptian airports — operator notes' },
+      'b-tip-1: editorial seo preserved'
+    );
+  }
+
+  // b-tip-2: travelTip CREATE-first — no existing doc, mapper writes acknowledged-default.
+  {
+    const sanity = makeMockSanity();
+    const mapperDoc: SanityDoc = {
+      _id: 'wp-page-60953',
+      _type: 'travelTip',
+      title: [{ _key: 'en', value: 'Electricity in Egypt' }],
+      slug: [{ _key: 'en', _type: 'object', value: { _type: 'slug', current: 'electricity-in-egypt' } }],
+      summary: [{ _key: 'en', value: 'Plugs, voltage, what to bring.' }],
+      category: { _type: 'reference', _ref: 'travelTipCategory-practical-essentials' },
+      migration: { wpId: 60953, source: 'wp-import' },
+    };
+    await persistResult(sanity as any, baseCli(), emptyStats([]), emptyMapperResult([mapperDoc]));
+    const stored = sanity.__get('wp-page-60953');
+    assert(stored !== undefined, 'b-tip-2: CREATE-first travelTip persisted');
+    assertEqual(
+      stored?.category,
+      mapperDoc.category,
+      'b-tip-2: CREATE-first writes mapper default category (acknowledged-default flow)'
+    );
+  }
+
   // b-non-merge: editorialCategory (a non-mergeable type) bypasses applyMerge
   // and goes through raw createOrReplace. Must not throw via the registry.
   {
@@ -441,8 +639,10 @@ async function runIntegration(): Promise<void> {
   assert(isMergeableType('city'), 'reg-4: city is mergeable');
   assert(isMergeableType('article'), 'reg-4: article is mergeable');
   assert(isMergeableType('guideArticle'), 'reg-4: guideArticle is mergeable');
+  assert(isMergeableType('travelTip'), 'reg-4: travelTip is mergeable (Prereq 3 wired)');
   assert(!isMergeableType('editorialCategory'), 'reg-4: editorialCategory NOT mergeable');
   assert(!isMergeableType('translation.metadata'), 'reg-4: translation.metadata NOT mergeable');
+  assert(!isMergeableType('wikiMonument'), 'reg-4: wikiMonument NOT mergeable yet (session 7+ work)');
   assert(!isMergeableType(undefined), 'reg-4: undefined NOT mergeable');
   assert(!isMergeableType(''), 'reg-4: empty string NOT mergeable');
 
@@ -551,6 +751,50 @@ async function runIntegration(): Promise<void> {
     assert(
       fingerprintHash(fpEnOnly) !== fingerprintHash(fpAllLocales),
       'c-guide-2: localesTouched is part of the hash (i18n discrimination)'
+    );
+  }
+
+  // c-tip-1: travelTip outcome shape differences → different hashes. The merge
+  // engine for travelTip is the same generic engine (mergeCityDoc with a
+  // different editorialOnlyFields set), so the fingerprint behavior should be
+  // structurally identical to city / article / guideArticle. This test ensures
+  // there's nothing travelTip-specific that breaks the discrimination contract.
+  {
+    const docA: SanityDoc = {
+      _id: 'wp-page-c-tip-1',
+      _type: 'travelTip',
+      title: [{ _key: 'en', value: 'Tipping in Egypt' }],
+      category: { _type: 'reference', _ref: 'travelTipCategory-culture-and-money' },
+    };
+    const docB: SanityDoc = {
+      _id: 'wp-page-c-tip-2',
+      _type: 'travelTip',
+      title: [{ _key: 'en', value: 'Bargaining in Egypt' }],
+      category: { _type: 'reference', _ref: 'travelTipCategory-culture-and-money' },
+      relatedTips: [{ _type: 'reference', _ref: 'wp-page-other' }],
+      seo: { metaTitle: 'X' },
+    };
+    const fpA = fingerprint(
+      [
+        { field: 'title', outcome: 'unchanged' },
+        { field: 'category', outcome: 'preserved-editorial-only' },
+      ],
+      docA,
+      false,
+    );
+    const fpB = fingerprint(
+      [
+        { field: 'title', outcome: 'unchanged' },
+        { field: 'category', outcome: 'preserved-editorial-only' },
+        { field: 'relatedTips', outcome: 'preserved-editorial-only' },
+        { field: 'seo', outcome: 'preserved-editorial-only' },
+      ],
+      docB,
+      false,
+    );
+    assert(
+      fingerprintHash(fpA) !== fingerprintHash(fpB),
+      'c-tip-1: different travelTip shapes → different fingerprint hashes'
     );
   }
 }

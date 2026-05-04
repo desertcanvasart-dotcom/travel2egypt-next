@@ -414,6 +414,53 @@ cases under same code prove the engine works. Without this discipline,
 a false-positive drift signal leads to a wasted remediation cycle on
 code that's actually fine.
 
+### Spec contract evolution during test-triad work is normal and good
+
+When test-triad work reveals a spec contract that's hard to assert
+against, the spec is wrong, not the tests. Session 6.5a Phase 2 specified
+`null` returns for deferred-editorial slugs in `routeToMapper`; Phase 3
+test-triad work surfaced that null is functionally equivalent to a
+structured no-op MapperResult but is unassertable as an event. The fix
+was structural — explicit `{ docs: [], redirects: [], logEntries: [{
+level: 'info', data: { code: 'editorial-defer', ... } }] }` — preserving
+runtime behavior (importPages already short-circuits on falsy result;
+persistResult is a no-op for empty docs/redirects) while making the
+deferral a first-class assertable signal. Visible beats invisible.
+Tests, dry-runs, and integration verification refine the spec; they
+don't fight it.
+
+### Cohort math compounds across investigations; reality is the source of truth
+
+Phase amendment specs that quote cohort numbers across multiple
+investigation findings are draft-quality. Reconciliation against actual
+classifier output via dry-run is mandatory before close. Session 6.5a
+Phase 4 spec said 420 guideArticle / 2 article; reality was 417 / 4
+(cohort math: `422 - 1 (egypt-weather-guide) - 1 (dahab-historical-guide-4
+deferred) - 3 (private-car-and-guide override) = 417`; `2 EXPLICIT_PAGE_ROUTING
++ 2 pre-existing ^egyptian- editorial pattern = 4`). The pre-existing
+`^egyptian-` pattern matches surfaced for the first time when
+`--filter-by-template article` was scoped against the page corpus —
+classifier rule had been active since session 5 but never previously
+exercised by template-filter. Don't trust spec cohort numbers; verify
+via dry-run before close.
+
+### Editorial routing overrides as data, not rules
+
+Investigation findings often surface "this slug should route differently
+than the classifier says." Implementing as data-driven override maps
+(`EXPLICIT_PAGE_ROUTING`, `EXPLICIT_SLUG_OVERRIDES`,
+`EXPLICIT_SECTION_OVERRIDES`, `EXPLICIT_PARENT_CITY_OVERRIDES`,
+`EXPLICIT_DEFER_SLUGS`) beats implementing as new classifier rules.
+Override maps: (1) make editorial decisions visible and auditable in
+one location; (2) compose cleanly without rule-priority arguments
+(each map is a single lookup); (3) test-trivially as map-membership
+checks; (4) carry no risk of over-matching unrelated slugs (exact-key
+lookup, not pattern). Reserve classifier rule additions for genuinely
+new heuristic patterns; encode editorial decisions as override maps.
+Session 6.5a Phase 2 amendment is the canonical example: 5 maps,
+~16 entries total, replaced what would have been ~5 new classifier
+rules each with rule-priority and over-match concerns.
+
 ## Branch state
 
 Branch `claude/awesome-shannon-3194f1` was merged to `main` at the close of
@@ -1360,3 +1407,147 @@ Branch `claude/magical-wiles-511a5a` (harness-generated; the brief's
 illustrative `claude/session-6-preflight` was not used — actual branch
 name is canonical for this session's references). Merged to `main` at
 session 6 close per workflow rule 1.
+
+## Session 6.5a close (2026-05-04)
+
+Session 6.5 was split into 6.5a (preparation + investigations + override
+maps) and 6.5b (actual 451-doc write). 6.5a is preparation-only — no
+writes to staging beyond Phase 1's seeding of 6 `travelTipCategory` docs.
+
+### Phase commits
+
+| Phase | Commit | Description |
+|---|---|---|
+| Phase 1 | `dc64ccb` | Seeded 6 `travelTipCategory` docs to migration-staging via `scripts/seed-travel-tip-categories.ts` |
+| Phase 2 | `81f0f34` | `travelTip` mapper + classifier extension (predicate-based rule firing before `*-egypt`) + dispatch wire-in |
+| Phase 3 | `aa1cfd5` | `mergeTravelTipDoc` + `MERGE_REGISTRY` entry + 22 new merge-dispatch assertions |
+| Phase 2 amendment | `517e389` | 5 override maps in `wp-classifier.ts`; classifier override checks at top of `classifyPageBySlug`; slug/section/parentCity overrides in `mapGuideArticle`; `TRAVEL_TIP_SLUG_TO_CATEGORY` extended 18 → 30; `routeToMapper` deferred-editorial returns structured `MapperResult` |
+| Phase 3 amendment | `03499b0` | New `classifier-overrides.test.ts` (105 assertions) + `npm run test:overrides` script |
+| Phase 4 | (no commit — dry-run only) | Validated final cohorts: 417 guideArticle, 30 travelTip, 4 article; 1 deferred slug; 3 dahab cleanups verified; D4 currency-in-egypt MIGRATE confirmed (3,351 chars ≥ 3,000 threshold) |
+
+### Investigations completed
+
+- **Investigation 1** — 33-vs-18 travelTip cohort. Enumerated the
+  `egypt-travel-tips` hub tile-grid (33 unique canonical slugs after
+  dead-link resolution); identified 14 case-D content gaps; routed 13
+  into the travelTip cohort across existing 6 buckets (Q1: no new
+  bucket — `health-and-safety` folds into `practical-essentials`);
+  `tips-for-families` becomes a redirect target rather than a separate
+  doc per editorial decision (content merges into `traveling-with-kids`).
+- **Investigation 2** — `egypt-weather-guide` + `month-by-month-guide-to-egypt`.
+  Verified both as WP **pages** (not posts); session 5 article import
+  scope was complete (165 EN posts × 3 locales = 495 articles, no gap);
+  both routed to `article` via `EXPLICIT_PAGE_ROUTING`. Supersedes
+  session 6 Phase 3 D3 decision for `month-by-month-guide-to-egypt`.
+- **Investigation 3** — Topic-suffix audit on the 422 destination-subpage
+  cohort. Surfaced 7 misroutes: 3 `*-private-car-and-guide` slugs
+  (tour products) → `tour-or-package` via override; 4
+  `dahab-historical-guide-N` slug-collision junk → 1 deferred
+  (`dahab-historical-guide-4` → `EXPLICIT_DEFER_SLUGS`) + 3 cleanups
+  with slug/section/parent overrides (`-3` → colored-canyon /
+  while-you-are-there; `-5` → blue-hole / others; `-6` →
+  dahab-restaurants / others; all parent=dahab).
+- **Pre-Phase-5 audit** — `^egyptian-` page-corpus enumeration. 3 matches:
+  1 routes to `tour-or-package` correctly via tour-pattern rule
+  (`egyptian-museum-and-bazaar-tour`); 2 to `article` via pre-existing
+  editorial pattern (`...-citadel-and-khan-el-khalili-bazaar`,
+  `...-textile-museum`). Confirms article cohort = 4 final.
+
+### 5 override maps in `scripts/wp-classifier.ts`
+
+Each fires before generic classification rules; encodes editorial
+decisions as data, not rules (lesson 20).
+
+| Map | Entries | Use |
+|---|---:|---|
+| `EXPLICIT_PAGE_ROUTING` | 6 | Route slug → spec'd `PageType` (Inv 2 + Inv 3) |
+| `EXPLICIT_SLUG_OVERRIDES` | 3 | Sanity slug differs from WP database slug (dahab cleanups) |
+| `EXPLICIT_SECTION_OVERRIDES` | 3 | `guideArticle.section` when classifier heuristic can't determine bucket (dahab cleanups) |
+| `EXPLICIT_PARENT_CITY_OVERRIDES` | 3 | `guideArticle.parentCity` defensive override (dahab cleanups) |
+| `EXPLICIT_DEFER_SLUGS` | 1 | No-write defer; cutover redirect at session 9 (`dahab-historical-guide-4`) |
+
+Override application is editorial-only; protected by
+`mergeGuideArticleDoc` field-level i18n preservation; deferred path
+returns structured `MapperResult` with `data.code = 'editorial-defer'`
+log entry (assertable as a first-class event per lesson 18).
+
+### Decision log — 6.5a routing decisions
+
+| ID | Decision |
+|---|---|
+| 6.5a-D1 | 33-vs-18 → **30 travelTip cohort** (Inv 1: 17 from etp tile grid + 13 case-D additions; `tips-for-families` redirects to `traveling-with-kids`; `egypt-travel-tips` hub becomes the new `/travel-tips/` index route) |
+| 6.5a-D2 | `egypt-weather-guide` → `article` via `EXPLICIT_PAGE_ROUTING` (Inv 2: blog-post-shaped; lives in journal) |
+| 6.5a-D3 (supersedes session-6 D3) | `month-by-month-guide-to-egypt` → `article` (supersedes session 6 Phase 3 D3 routing to travelTip; lives in journal as blog post per Inv 2 narrative shape) |
+| 6.5a-D4 | 3 `*-private-car-and-guide` → `tour-or-package` (Inv 3: tour products; routing override; defer write to session 8 alongside the existing 5 deferred tour rows from session 6 Phase 3 D5) |
+| 6.5a-D5 | 4 `dahab-historical-guide-N` (Inv 3): `-4` deferred (content merges editorially to `/guide/abu-simbel/only-in-abu-simbel/`); `-3`, `-5`, `-6` migrate with slug rewrites (`colored-canyon`, `blue-hole`, `dahab-restaurants`) and section/parent overrides |
+| 6.5a-D6 | `egypt-travel-faqs` → defer + new schema design later; no migration, no redirect, 404 at cutover (Q6) |
+| 6.5a-D7 | `movement-guide` → `service-or-utility` stub (no write); manual redirect to `/guide/taba/ways-to-get-to-taba/` |
+
+### Test triad results
+
+| Suite | Assertions | Status |
+|---|---:|---|
+| `test:merge` | 42 | ✓ |
+| `test:merge-dispatch` | 72 | ✓ |
+| `test:scope` | 42 | ✓ |
+| `test:overrides` | 105 | ✓ (new file) |
+| **Total** | **261** | ✓ all green |
+
+`tsc --noEmit`: clean.
+
+### Methodology lessons committed in session 6.5a
+
+| Commit (post-amendment) | Lesson |
+|---|---|
+| `03499b0` | Lesson 18 — Spec contract evolution during test-triad work is normal and good |
+| `03499b0` (Phase 4 surface) | Lesson 19 — Cohort math compounds across investigations; reality is the source of truth |
+| `517e389` | Lesson 20 — Editorial routing overrides as data, not rules |
+
+### Final cohort numbers (canonical, supersedes session 6 close)
+
+| Metric | Value | Note |
+|---|---:|---|
+| Cities in `migration-staging` | **41** | unchanged |
+| Articles in `migration-staging` | **495** | unchanged (165 × 3 locales) |
+| `guideArticle` in `migration-staging` | **0** | 6.5b will write **417** |
+| `travelTip` in `migration-staging` | **0** | 6.5b will write **30** |
+| `travelTipCategory` in `migration-staging` | **6** | seeded in 6.5a Phase 1 |
+| `editorialCategory` in `migration-staging` | **21** | unchanged |
+
+Pending session 6.5b actual writes: **451 docs** (417 guideArticle + 30
+travelTip + 4 article). 0 to staging from 6.5a beyond the 6
+`travelTipCategory` Phase 1 seeds.
+
+### Operational note for 6.5b authors
+
+When `--filter-by-template article` is invoked against the page corpus
+(which 6.5b does for the 4 article migrations), pre-existing
+`^egyptian-` editorial pattern matches surface in addition to the 2
+`EXPLICIT_PAGE_ROUTING` overrides. Document so future authors don't
+read 4 and assume defect. Source of truth: classifier rule 5 in
+`scripts/wp-classifier.ts`. The 4 final article slugs:
+
+1. `egypt-weather-guide` (wp-page-73355) — `EXPLICIT_PAGE_ROUTING` (Inv 2)
+2. `month-by-month-guide-to-egypt` (wp-page-61367) — `EXPLICIT_PAGE_ROUTING` (Inv 2)
+3. `egyptian-museum-citadel-and-khan-el-khalili-bazaar` (wp-page-87870) — pre-existing rule 5 (editorial pattern `^egyptian-`)
+4. `egyptian-textile-museum` (wp-page-63575) — pre-existing rule 5
+
+A 5th `^egyptian-` page (`egyptian-museum-and-bazaar-tour`,
+wp-page-87729) routes to `tour-or-package` via tour-pattern rule 4
+which fires before rule 5 (correct: title is "Egyptian Museum and
+Bazaar Tour" — a tour product).
+
+### Cutover blockers timeline
+
+Session 8 close deadline for production-only city enrichments still
+holds. Session 6.5a (preparation only) opens no new blockers. No
+tightening needed.
+
+### Branch state at session 6.5a close
+
+Branch `claude/hopeful-dhawan-e5c186` (harness-generated). 5 commits
+ahead of `main` at close (3 from prior session-6-5a-prep work
+fast-forwarded into this worktree at session start: `dc64ccb` /
+`81f0f34` / `aa1cfd5`; plus 2 amendment commits in this session:
+`517e389` / `03499b0`). Merged to `main` at session 6.5a close per
+workflow rule 1.

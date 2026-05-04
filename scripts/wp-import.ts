@@ -40,6 +40,7 @@ import { mapCity } from './wp-import/mappers/city.js';
 import { mapGuideArticle } from './wp-import/mappers/guideArticle.js';
 import { mapWikiMonument } from './wp-import/mappers/wikiMonument.js';
 import { mapTour } from './wp-import/mappers/tour.js';
+import { mapTravelTip } from './wp-import/mappers/travelTip.js';
 import { mapHotel } from './wp-import/mappers/hotel.js';
 import { mapNileCruise } from './wp-import/mappers/nileCruise.js';
 import { mapEditorialCategory } from './wp-import/mappers/editorialCategory.js';
@@ -123,7 +124,8 @@ Flags:
                               (the session 5 Step 8 scope-anomaly trap).
   --filter-by-template <T>    destination-hub | destination-subpage | monument |
                               tour-or-package | hotel | nile-cruise |
-                              service-or-utility | article | unclassified
+                              service-or-utility | article | travelTip |
+                              unclassified
                               When set, --type is required and must be
                               page | post | both. Categories never run with
                               this flag (categories don't have templates).
@@ -559,7 +561,7 @@ async function importPages(
   }
 }
 
-async function routeToMapper(
+export async function routeToMapper(
   sanity: SanityClient,
   wp: WpClient,
   group: LocaleGroup,
@@ -568,6 +570,35 @@ async function routeToMapper(
   cli: CliOptions
 ): Promise<MapperResult | null> {
   const opts = { dryRun: cli.dryRun, priorityScore };
+
+  // Editorial-defer short-circuit (session 6.5a Investigation 3). Classifier
+  // attaches `reviewFlag: 'deferred-editorial'` for slug-collision junk that
+  // shouldn't write at all; the cutover redirect is session 9 manual work
+  // (content merges editorially into another doc). The result has empty
+  // docs/redirects so persistResult and collect() are both no-ops, but the
+  // logEntry surfaces the defer in run output and is the assertion surface
+  // for the overrides test triad.
+  if (classification.reviewFlag === 'deferred-editorial') {
+    const slug = group.en.slug;
+    const wpId = group.en.id;
+    process.stderr.write(
+      `[wp-import] editorial defer: ${slug} (${wpId}) — no write; redirect handled at cutover\n`
+    );
+    return {
+      docs: [],
+      redirects: [],
+      logEntries: [
+        {
+          level: 'info',
+          wpId,
+          url: group.en.link,
+          message: `editorial-defer: ${slug} (no write; cutover redirect at session 9)`,
+          data: { code: 'editorial-defer', slug, wpId },
+        },
+      ],
+    };
+  }
+
   switch (classification.type) {
     case 'destination-hub':
       return mapCity(sanity, wp, group, opts);
@@ -577,6 +608,8 @@ async function routeToMapper(
       return mapWikiMonument(sanity, wp, group, { ...opts, classification });
     case 'tour-or-package':
       return mapTour(sanity, wp, group, opts);
+    case 'travelTip':
+      return mapTravelTip(sanity, wp, group, opts);
     case 'hotel':
       return mapHotel(sanity, wp, group, { ...opts, classification });
     case 'nile-cruise':
