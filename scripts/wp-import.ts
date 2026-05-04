@@ -561,7 +561,7 @@ async function importPages(
   }
 }
 
-async function routeToMapper(
+export async function routeToMapper(
   sanity: SanityClient,
   wp: WpClient,
   group: LocaleGroup,
@@ -573,14 +573,30 @@ async function routeToMapper(
 
   // Editorial-defer short-circuit (session 6.5a Investigation 3). Classifier
   // attaches `reviewFlag: 'deferred-editorial'` for slug-collision junk that
-  // shouldn't write at all; the cutover redirect handles user-facing routing
-  // at session 9. Returning null here matches the existing skip path used by
-  // persona-or-system / test-or-junk classifications.
+  // shouldn't write at all; the cutover redirect is session 9 manual work
+  // (content merges editorially into another doc). The result has empty
+  // docs/redirects so persistResult and collect() are both no-ops, but the
+  // logEntry surfaces the defer in run output and is the assertion surface
+  // for the overrides test triad.
   if (classification.reviewFlag === 'deferred-editorial') {
+    const slug = group.en.slug;
+    const wpId = group.en.id;
     process.stderr.write(
-      `[wp-import] editorial defer: ${group.en.slug} (${group.en.id}) — no write; redirect handled at cutover\n`
+      `[wp-import] editorial defer: ${slug} (${wpId}) — no write; redirect handled at cutover\n`
     );
-    return null;
+    return {
+      docs: [],
+      redirects: [],
+      logEntries: [
+        {
+          level: 'info',
+          wpId,
+          url: group.en.link,
+          message: `editorial-defer: ${slug} (no write; cutover redirect at session 9)`,
+          data: { code: 'editorial-defer', slug, wpId },
+        },
+      ],
+    };
   }
 
   switch (classification.type) {
