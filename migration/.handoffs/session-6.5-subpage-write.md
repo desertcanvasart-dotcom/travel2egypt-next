@@ -1,5 +1,25 @@
 # Session 6.5 — Destination-subpage actual write
 
+> **Status: 6.5a complete (2026-05-04). 6.5b ready to execute.**
+>
+> Session 6.5 has been split:
+>
+> - **6.5a (complete)** — preparation work merged. `travelTipCategory`
+>   docs seeded; `travelTip` mapper + classifier rule + `MERGE_REGISTRY`
+>   entry; 5 override maps for editorial routing; 4 investigations
+>   resolved (33-vs-18 cohort, page-corpus article gap, topic-suffix
+>   audit, `^egyptian-` audit). 261 test assertions green.
+> - **6.5b (pending)** — actual **451-doc** write
+>   (417 guideArticle + 30 travelTip + 4 article) + post-write drift
+>   assertion + close-to-session-7 handoff. See
+>   [`session-6.5b-actual-write.md`](session-6.5b-actual-write.md) for
+>   the canonical 6.5b input.
+>
+> Final cohort numbers, decision log, override maps, and methodology
+> lessons (18, 19, 20) live in `migration/known-issues.md` "Session 6.5a
+> close" section. Trust that file over this brief for cohort numbers
+> if they differ.
+
 Handoff input from session 6 close (2026-05-03).
 
 **Scope:** 449 destination-subpages → `guideArticle`, plus 17–18
