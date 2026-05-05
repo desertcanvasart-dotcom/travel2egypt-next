@@ -31,6 +31,8 @@ import {
   TRAVEL_TIP_EDITORIAL_ONLY_FIELDS,
   type MergeFetcher,
 } from '../merge.js';
+import { mapArticle } from '../mappers/article.js';
+import type { LocaleGroup } from '../types.js';
 import { fingerprint, fingerprintHash } from '../fingerprint.js';
 import { persistResult } from '../../wp-import.js';
 import { emptyStats } from '../log.js';
@@ -795,6 +797,47 @@ async function runIntegration(): Promise<void> {
     assert(
       fingerprintHash(fpA) !== fingerprintHash(fpB),
       'c-tip-1: different travelTip shapes → different fingerprint hashes'
+    );
+  }
+
+  // ─── (d) Regression: article mapper translation.metadata _id shape ──────
+  // 6.5b sub-phase 6r-1 found Sanity silently drops mutations whose _id starts
+  // with `translation.metadata.` (200 + transactionId, no persistence). Lock in
+  // the fix that uses the canonical `tmeta-` prefix instead.
+  process.stderr.write('\n# (d) Regression — translation.metadata _id namespace (6r-1)\n');
+  {
+    const mkEntry = (id: number, slug: string, locale: string) => ({
+      id, slug, link: `https://example.com/${slug}`,
+      date: '2024-01-01T00:00:00', modified: '2024-01-01T00:00:00',
+      type: 'post', title: { rendered: `T-${locale}` },
+      content: { rendered: '' }, excerpt: { rendered: '' },
+    });
+    const group: LocaleGroup = {
+      en: mkEntry(73355, 'egypt-weather-guide', 'en') as any,
+      es: mkEntry(143842, 'guia-del-tiempo-en-egipto', 'es') as any,
+      ja: mkEntry(162707, 'エジプトの天候ガイド', 'ja') as any,
+      hreflang: { wpId: 73355, links: {} },
+      singleton: false,
+    };
+    const result = await mapArticle({} as any, {} as any, group);
+    const metaDoc = result.docs.find((d) => d._type === 'translation.metadata');
+    assert(metaDoc !== undefined, 'd-meta-1: article mapper emits a translation.metadata doc for multi-locale group');
+    const metaId = metaDoc?._id ?? '';
+    assert(
+      !metaId.startsWith('translation.metadata.'),
+      `d-meta-2: metadata _id must not use Sanity's reserved namespace; got: ${metaId}`
+    );
+    assert(
+      !metaId.startsWith('drafts.'),
+      `d-meta-3: metadata _id must not start with drafts.; got: ${metaId}`
+    );
+    assert(
+      !metaId.startsWith('versions.'),
+      `d-meta-4: metadata _id must not start with versions.; got: ${metaId}`
+    );
+    assert(
+      metaId.startsWith('tmeta-'),
+      `d-meta-5: metadata _id must use the canonical tmeta- prefix; got: ${metaId}`
     );
   }
 }

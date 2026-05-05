@@ -97,6 +97,15 @@ export const travelTipSchema = defineType({
       group: 'media',
     }),
     defineField({
+      name: 'featured',
+      title: 'Featured on travel-tips landing',
+      description:
+        'When checked, this tip appears in the featured strip on the /travel-tips index page.',
+      type: 'boolean',
+      initialValue: false,
+      group: 'meta',
+    }),
+    defineField({
       name: 'seo',
       title: 'SEO',
       type: 'seo',

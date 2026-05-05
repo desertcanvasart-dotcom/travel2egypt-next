@@ -811,6 +811,101 @@ export const allCategoriesQuery = (locale: Locale) => groq`
 `;
 
 // ──────────────────────────────────────────────
+// Travel tips — categorized practical guidance (visa, currency, dress, …).
+// Flat URL `/travel-tips/[slug]`; categories surface as anchor sections on
+// the index. travelTip uses internationalized-array slugs (field-level i18n).
+// ──────────────────────────────────────────────
+
+export const allTravelTipCategoriesQuery = (locale: Locale) => groq`
+  *[_type == "travelTipCategory"] | order(orderRank asc, name[_key=="${locale}"][0].value asc){
+    _id,
+    "name": ${localizedField('name', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "description": ${localizedField('description', locale)},
+    orderRank,
+    "tipCount": count(*[_type == "travelTip" && references(^._id)])
+  }
+`;
+
+export const allTravelTipsQuery = (locale: Locale) => groq`
+  *[_type == "travelTip"] | order(category->orderRank asc, title[_key=="${locale}"][0].value asc){
+    _id,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "summary": ${localizedField('summary', locale)},
+    featured,
+    category->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)}
+    },
+    heroImage
+  }
+`;
+
+export const featuredTravelTipsQuery = (locale: Locale) => groq`
+  *[_type == "travelTip" && featured == true] | order(category->orderRank asc, title[_key=="${locale}"][0].value asc){
+    _id,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "summary": ${localizedField('summary', locale)},
+    category->{
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)}
+    },
+    heroImage
+  }
+`;
+
+export const travelTipBySlugQuery = (locale: Locale) => groq`
+  *[_type == "travelTip" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    _id,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "allSlugs": slug[]{ _key, "current": value.current },
+    "summary": ${localizedField('summary', locale)},
+    "body": ${portableTextBodyProjection('body', locale)},
+    featured,
+    category->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)}
+    },
+    "relatedTips": relatedTips[]->{
+      _id,
+      "title": ${localizedField('title', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      category->{
+        "name": ${localizedField('name', locale)},
+        "slug": ${localizedSlug('slug', locale)}
+      },
+      heroImage
+    },
+    heroImage{
+      ...,
+      "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value),
+      "caption": coalesce(caption[_key=="${locale}"][0].value, caption[_key=="en"][0].value)
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+export const allTravelTipSlugsQuery = groq`
+  *[_type == "travelTip"]{
+    "slugs": slug[]{ _key, "current": value.current }
+  }
+`;
+
+// ──────────────────────────────────────────────
 // Sitemap — every public-facing doc with its slugs and updated time.
 // Articles use document-level i18n (one doc per language with a plain
 // slug); all other types use internationalized-array slugs.

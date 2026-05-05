@@ -82,6 +82,28 @@ function recordUploadExhausted(u: UploadExhausted): void {
 }
 
 /**
+ * Classifies an upload error as transient (retryable) or permanent.
+ *
+ * Transient: socket/DNS-level errors (Node) AND HTTP gateway/upstream errors
+ * (502/503/504, "upstream" in the message — Sanity's CDN surfaces these as
+ * `"An invalid response was received from the upstream server"`, which is the
+ * canonical Phase 4 trigger that motivated this classifier extraction).
+ *
+ * Permanent: auth errors (401/403), validation errors (400), unmatched
+ * (default fail-closed — preserves the loud-failure ethos for genuinely
+ * unknown errors).
+ *
+ * Match is against `e.message` only — string-based for compatibility with
+ * both Node socket-level errors (`code` exposed via message) and Sanity
+ * client error wrappers. Future enhancement could inspect `.statusCode`
+ * if/when Sanity client surface stabilizes.
+ */
+export function isTransientUploadError(e: Error): boolean {
+  const msg = e.message ?? '';
+  return /ECONNRESET|ETIMEDOUT|ENOTFOUND|EAI_AGAIN|socket hang up|network|upstream|\b50[234]\b/i.test(msg);
+}
+
+/**
  * Ensure a WP attachment has a corresponding Sanity asset. Returns the
  * Sanity asset reference (_ref). Idempotent — returns the cached _ref if
  * the asset was uploaded in a previous run.
@@ -153,7 +175,7 @@ export async function ensureAssetUploaded(
       break;
     } catch (e) {
       const msg = (e as Error).message ?? '';
-      const transient = /ECONNRESET|ETIMEDOUT|ENOTFOUND|EAI_AGAIN|socket hang up|network/i.test(msg);
+      const transient = isTransientUploadError(e as Error);
       if (!transient || attempt >= 4) {
         if (opts.referrerSlug && opts.referrerLocale) {
           recordUploadExhausted({
@@ -167,7 +189,11 @@ export async function ensureAssetUploaded(
           });
         }
         process.stderr.write(`[media] UPLOAD_EXHAUSTED wpId=${attachmentId} src=${sourceUrl} attempts=${attempt + 1} transient=${transient}: ${msg.slice(0, 120)}\n`);
-        throw e;
+        // Soft-fail (Phase 4-recovery Fix 2): return null to let callers fall
+        // back to `_pendingImage` (HTML pipeline) or no-hero (hero path),
+        // mirroring the DOWNLOAD_FAIL pattern at L128-143. The
+        // UPLOAD_EXHAUSTED registry entry above preserves triage visibility.
+        return null;
       }
       attempt++;
       const wait = 1000 * Math.pow(2, attempt);
