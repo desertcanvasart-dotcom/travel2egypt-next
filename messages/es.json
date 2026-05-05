@@ -223,6 +223,17 @@
     "noArticlesYet": "Aún no hay artículos en este idioma — vuelve pronto.",
     "allCategories": "Todas las categorías"
   },
+  "travelTips": {
+    "landingTitle": "Consejos de Viaje",
+    "landingDeck": "Las preguntas que surgen antes de un primer viaje a Egipto—respondidas con sencillez, como lo haríamos en una conversación privada.",
+    "categoryNavLabel": "Explora por categoría",
+    "featuredLabel": "Recomendados",
+    "allTipsLabel": "Todos los consejos",
+    "categoryLabel": "Categoría",
+    "tipsInCategory": "{count} consejos en esta categoría",
+    "relatedTipsHeading": "Consejos relacionados",
+    "backToTravelTips": "Volver a consejos de viaje"
+  },
   "common": {
     "readMore": "Leer más",
     "loading": "Cargando…",

@@ -1551,3 +1551,59 @@ fast-forwarded into this worktree at session start: `dc64ccb` /
 `81f0f34` / `aa1cfd5`; plus 2 amendment commits in this session:
 `517e389` / `03499b0`). Merged to `main` at session 6.5a close per
 workflow rule 1.
+
+## Lessons 21-36 — Session 6.5b (orphan-fix + travel-tips routes)
+
+### From Phase 4 partial-write recovery (4r-recovery)
+
+**Lesson 21 — Worktree-local environment files must be verified before phase work, not assumed from main.**
+Phase 4 began with the worktree's `.env` pointing at a slightly-stale dataset configuration that didn't match main. The mismatch wasn't surfaced until partway through the import when the symptom (unexpected staging behavior) appeared. Future sub-phases must explicitly verify worktree-local env state in their pre-flight gates.
+
+**Lesson 22 — Validation strategy must match the importer's emission shape.**
+Per-slug grep validation works for slug-by-slug imports but fails for cohort-math validations. Phase 4's failure surfaced via cohort-math discrepancies (390 expected, 380 written) that wouldn't have been caught by per-slug grep alone. Future phases must choose validation type based on what the importer's summary emits.
+
+**Lesson 23 — Cohort write-count semantics differ by i18n model.**
+A cohort write of 380 docs in field-level i18n means 380 documents (each with embedded multi-locale fields). The same write in document-level i18n would produce 1140 documents (one per locale). Architects must explicitly state which model the cohort uses when discussing write counts.
+
+**Lesson 24 — Half-built features in importer code surface as fragility under load.**
+The UPLOAD_EXHAUSTED registry was scaffolded but not wired through to all retry paths. Under Phase 4's load, the missing wiring became visible. Half-built features should either be completed or removed before high-volume sub-phases.
+
+**Lesson 25 — Resilience fixes are best surfaced under load, not during pre-flight.**
+The retry-classifier extension and soft-fail return at exhaustion (4r-recovery's media.ts changes) wouldn't have been justified by pre-flight scenarios alone. Production-shaped load surfaced them naturally.
+
+**Lesson 26 — Dry-run summary's emission shape determines what idempotency claim it can support.**
+Phase 7's drift dry-run validated wall-clock symmetry between cold-cache and hot-cache runs (~21min vs ~35sec) — that's a strong signal of idempotency at the importer level. But it doesn't validate per-document field stability. Future idempotency assertions must specify what they're proving.
+
+**Lesson 27 — Architect prompts are not infallible; surface honestly when reality contradicts.**
+The 8r-2d prompt embedded a GROQ syntax bug (`slug.en.current` instead of `slug[_key=="en"][0].value.current`). Claude Code's STOP at the residual-orphan gate caught it. Future architecture should encourage surfacing bugs even when they slow execution.
+
+### From Phase 6 article-write recovery (6r-recovery)
+
+**Lesson 28 — Architect spot-check examples should be drawn from canonical maps, not memory.**
+Phase 6's metadata-doc namespace bug came from architect-supplied examples that were structurally similar but used the reserved `translation.metadata.*` namespace by accident. Architect prompts must verify examples against actual schema definitions.
+
+**Lesson 29 — Cohort-count gates are necessary but not sufficient.**
+Phase 7's idempotency dry-run validated cohort counts as stable, but missed that 154 of 417 guideArticle docs had `parentCity: null`. The route uses parentCity as a key field; without coverage gates on critical fields, route-critical defects can land at gate-passing state.
+
+**Lesson 30 — Sanity reserves dotted-prefix _id namespaces; mutations to translation.metadata.* silently drop.**
+Documents with IDs like `translation.metadata.wp-post-123` cannot be mutated through the standard mutate API — Sanity treats them as reserved. Use `tmeta-wp-post-123` or similar non-dotted namespace.
+
+**Lesson 31 — Post-write drift dry-runs validate idempotency through wall-clock symmetry.**
+A subsequent re-run that completes much faster than the first (with identical exit codes and summaries) is strong evidence of importer-level idempotency. Use this as a pre-flight assertion before declaring a phase complete.
+
+**Lesson 32 — Frontend-route-critical fields require coverage gates, not just spot-checks.**
+Phase 8's spot-check found 5 broken URLs out of 417, which surfaced as a tip-of-the-iceberg signal. The full audit revealed 154 orphans. Future cohorts must include coverage gates on every field the route consumer uses (e.g., parentCity, slug, category._ref).
+
+### From Phase 8 orphan-fix (8r work)
+
+**Lesson 33 — Token matching and semantic resolution are separate concerns; do not collapse them at the matching layer.**
+The 8r-2c classifier work originally tried to return resolved-slug from `findDestinationToken`, which broke position-aware string operations downstream (rule 6's `slice` calls). The fix decomposes: matching layer returns the literal matched token; semantic resolution (TOKEN_TO_CITY_SLUG alias) happens at consumer assignment sites. This decoupling means new aliases can be added without changes to position-aware logic.
+
+**Lesson 34 — Classifier extensions can legitimately grow the cohort, not just fix attribution.**
+When extending classifier rules to recognize previously-unclassified slugs, the cohort count can go up — newly-recognized slugs that weren't being written before now get written. The "idempotent re-emit" expectation only holds for slugs the classifier already recognized. Future re-emit phases should distinguish between "fix existing docs' attribution" (idempotent on count) and "extend recognition to new docs" (cohort grows). Both are legitimate; the count gate must reflect which is happening.
+
+**Lesson 35 — Alias maps require token-recognition pre-conditions.**
+TOKEN_TO_CITY_SLUG translates a matched token to its canonical staging slug, but the matcher only attempts matches against tokens in DESTINATIONS. Adding an alias for a token that isn't in DESTINATIONS produces a silent no-op: the alias is never reached because the matcher never finds the token. Verify the matcher will find the token BEFORE adding the alias.
+
+**Lesson 36 — Architectural decisions made under uncertainty about future growth should default to the simpler shape.**
+The 8r-3b travel-tips route work initially considered separate category routes (`/travel-tips/category/[slug]`) but reverted to anchor-scroll within the index after the operator answered "maybe" on catalog growth. With 30 tips across 6 categories (4-6 tips per category), separate routes would have been thin-content. Anchor-scroll keeps the URL surface flat and headroom available for upgrade if the catalog grows beyond 60 tips.

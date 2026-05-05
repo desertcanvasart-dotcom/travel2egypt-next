@@ -62,15 +62,55 @@ export interface Classification {
 
 /** Single-token destination identifiers. Order matters for prefix-matching: longer first. */
 export const DESTINATIONS = [
-  'sharm-el-sheikh', 'sharm', 'abu-simbel', 'marsa-alam', 'el-gouna', 'al-gouna',
-  'st-catherine', 'saint-catherine', 'kharga-oasis',
+  // Long-form / multi-word staging-canonical slugs first so longest-match wins.
+  'sharm-el-sheikh', 'rosetta-rasheed', 'al-wadi-al-gadid', 'wadi-el-natrun', 'wadi-al-natron',
+  'bahariya-oasis', 'farafra-oasis', 'dakhla-oasis', 'kharga-oasis', 'siwa-oasis',
+  'saint-catherine', 'st-catherine',
+  'abu-simbel', 'marsa-alam', 'marsa-matruh', 'al-gouna', 'el-gouna',
+  'al-arish', 'al-fayoum', 'al-quseir', 'al-minya',
+  'el-fayoum', 'el-minya', 'el-quseir', 'el-alamein',
+  'beni-suef', 'kom-ombo', 'port-said', 'ras-sudr',
   'cairo', 'luxor', 'aswan', 'alexandria', 'giza',
-  'hurghada', 'dahab', 'taba', 'nuweiba', 'sinai', 'suez', 'siwa',
-  'bahariya', 'kharga', 'dakhla', 'farafra', 'fayoum', 'fayyoum', 'el-fayoum',
-  'edfu', 'kom-ombo', 'abydos', 'dendera', 'sohag', 'asyut', 'beni-suef',
-  'port-said', 'ismailia', 'mansoura', 'tanta', 'rashid', 'rosetta',
-  'el-minya', 'minya', 'el-alamein', 'alamein', 'al-quseir', 'el-quseir', 'quseir',
+  'hurghada', 'dahab', 'taba', 'nuweiba', 'sinai', 'suez', 'siwa', 'sharm',
+  'bahariya', 'kharga', 'dakhla', 'farafra', 'fayoum', 'fayyoum',
+  'edfu', 'esna', 'qena', 'akhmim', 'baris', 'safaga', 'ismailia',
+  'abydos', 'dendera', 'sohag', 'asyut', 'mansoura', 'tanta', 'rashid', 'rosetta',
+  'minya', 'alamein', 'quseir',
 ];
+
+/**
+ * Maps classifier-recognized tokens to canonical staging city EN slugs where they differ.
+ * Reason: the classifier accepts multiple transliteration / short-form variants
+ * (siwa, farafra, rosetta, etc.), but the city docs in migration-staging use specific
+ * canonical slugs (siwa-oasis, farafra-oasis, rosetta-rasheed, …). This alias keeps
+ * the pattern-matching surface broad while making slug resolution explicit.
+ *
+ * Used by `findDestinationToken`: when a token matches, the alias (if any) replaces
+ * it before being returned, so callers (and `inferredParentCity`) always see the
+ * staging-canonical slug.
+ */
+export const TOKEN_TO_CITY_SLUG: Record<string, string> = {
+  siwa: 'siwa-oasis',
+  farafra: 'farafra-oasis',
+  dakhla: 'dakhla-oasis',
+  bahariya: 'bahariya-oasis',
+  kharga: 'kharga-oasis',
+  rosetta: 'rosetta-rasheed',
+  rashid: 'rosetta-rasheed',
+  fayoum: 'al-fayoum',
+  'el-fayoum': 'al-fayoum',
+  fayyoum: 'al-fayoum',
+  'el-gouna': 'al-gouna',
+  'el-minya': 'al-minya',
+  minya: 'al-minya',
+  'el-quseir': 'al-quseir',
+  quseir: 'al-quseir',
+  'st-catherine': 'saint-catherine',
+  sharm: 'sharm-el-sheikh',
+  // 8r-2d-fixup: transliteration variant of wadi-el-natrun surfaced in 8r-2d's first re-emit
+  // (the slug `things-to-do-in-wadi-al-natron` uses al-natron rather than el-natrun).
+  'wadi-al-natron': 'wadi-el-natrun',
+};
 
 /** Districts/neighborhoods that resolve to a parent destination. */
 export const DISTRICT_TO_PARENT: Record<string, string> = {
@@ -107,7 +147,9 @@ export const WADI_TO_PARENT: Record<string, { parent: string; reason: string }> 
   'wadi-el-hitan': { parent: 'fayoum', reason: 'Western Desert — Wadi El Hitan (Whale Valley) in Fayoum' },
   'wadi-al-hittan': { parent: 'fayoum', reason: 'Variant slug for Wadi El Hitan in Fayoum' },
   // White Desert (Farafra/Bahariya region)
-  'wadi-el-natrun': { parent: 'farafra', reason: 'Western Desert — Wadi El Natrun (Coptic monasteries)' },
+  // 8r-2c: parent updated from 'farafra' to 'wadi-el-natrun' — wadi-el-natrun is its
+  // own staging city (renamed from wadi-al-natron in 8r-2c).
+  'wadi-el-natrun': { parent: 'wadi-el-natrun', reason: 'Wadi El Natrun is its own staging city (Coptic monasteries)' },
   // Red Sea / Eastern Desert (mapped to nearest coastal hub)
   'wadi-el-gamal-national-park': { parent: 'marsa-alam', reason: 'Wadi El Gemal National Park — gateway is Marsa Alam' },
   'wadi-el-gamal': { parent: 'marsa-alam', reason: 'Wadi El Gemal — gateway is Marsa Alam' },
@@ -251,12 +293,39 @@ const PERSONA_SLUGS = new Set([
 // ---------- Helpers ----------------------------------------------------
 
 function findDestinationToken(slug: string): string | null {
-  // Match longest first.
+  // Match longest first; DESTINATIONS is curated longest-first.
+  // Returns the matched token verbatim (NOT aliased) so callers can do
+  // position-relative slicing / position checks. Apply `resolveCityAlias` at
+  // the `inferredParentCity` assignment site to surface the staging-canonical
+  // city slug to consumers.
   for (const d of DESTINATIONS) {
-    if (slug === d) return d;
-    if (slug.startsWith(d + '-')) return d;
-    if (slug.endsWith('-' + d)) return d;
-    if (slug.includes('-' + d + '-')) return d;
+    if (slug === d || slug.startsWith(d + '-') || slug.endsWith('-' + d) || slug.includes('-' + d + '-')) {
+      return d;
+    }
+  }
+  return null;
+}
+
+/** Resolve a destination token to its staging-canonical city slug via TOKEN_TO_CITY_SLUG. */
+function resolveCityAlias(token: string | null | undefined): string | undefined {
+  if (!token) return undefined;
+  return TOKEN_TO_CITY_SLUG[token] ?? token;
+}
+
+/**
+ * Same matching surface as findDestinationToken but for WADI_TO_PARENT keys.
+ * Returns the parent city token if the slug equals, prefixes-with, suffixes-with,
+ * or contains a wadi-* key. Used by rule 1g (extended in 8r-2c) to catch
+ * derivative subpages like `tours-in-wadi-el-natrun`, `wadi-el-natrun-history`.
+ */
+function findWadiParent(slug: string): { wadi: string; parent: string; reason: string } | null {
+  // Sort longest-first to prefer specific matches (wadi-el-natrun before wadi-el).
+  const wadis = Object.keys(WADI_TO_PARENT).sort((a, b) => b.length - a.length);
+  for (const w of wadis) {
+    if (slug === w || slug.startsWith(w + '-') || slug.endsWith('-' + w) || slug.includes('-' + w + '-')) {
+      const entry = WADI_TO_PARENT[w]!;
+      return { wadi: w, parent: entry.parent, reason: entry.reason };
+    }
   }
   return null;
 }
@@ -331,6 +400,15 @@ export const EXPLICIT_PARENT_CITY_OVERRIDES: Record<string, string> = {
   'dahab-historical-guide-3': 'dahab',
   'dahab-historical-guide-5': 'dahab',
   'dahab-historical-guide-6': 'dahab',
+
+  // 8r-2c additions: belt-and-suspenders bindings of wadi-el-natrun derivatives
+  // to the wadi-el-natrun staging city. The extended WADI rule (1g) would also
+  // catch these, but the explicit override documents the editorial intent.
+  'tours-in-wadi-el-natrun': 'wadi-el-natrun',
+  'wadi-el-natrun-accommodation-guide': 'wadi-el-natrun',
+  'wadi-el-natrun-history': 'wadi-el-natrun',
+  'wadi-el-natrun-weather-insights': 'wadi-el-natrun',
+  'where-to-eat-in-wadi-el-natrun': 'wadi-el-natrun',
 };
 
 /**
@@ -344,6 +422,36 @@ export const EXPLICIT_DEFER_SLUGS: Set<string> = new Set([
   // canonical page is wp-page-57848 (`upcoming-events-in-abu-simbel`), already
   // in the 422 cohort with high-confidence Abu Simbel routing.
   'dahab-historical-guide-4',
+
+  // 8r-2b/8r-2c: hubs and generic-tour pages → cutover redirect to /tours/.
+  'special-interest-tours',
+  'group-day-tours',
+  'multiday-adventure-and-safari-tours',
+  'private-day-tours',
+  'sinai-quest-adventures',
+  'ramasside-tours',
+  'snorkeling-adventure-on-the-nefertari-submarine',
+  'a-9-day-egypt-tour-of-culture-and-history',
+  '10-day-egypt-travel-journey-through-history',
+
+  // 8r-2b/8r-2c: regional ticket-prices pages → cutover redirect to
+  // /attractions-and-ticket-prices/.
+  'ticket-prices-for-attractions-in-al-sharqia',
+  'ticket-prices-for-attractions-in-red-sea-sinai',
+  'ticket-prices-for-attractions-in-western-desert',
+
+  // 8r-2b/8r-2c: events-calendar redirects to a specific event page at cutover
+  // (→ /the-giza-sound-and-light-show-experience/).
+  'events-calendar',
+
+  // 8r-2b/8r-2c: dead-end content; 410/404 at cutover, no redirect.
+  'saint-catherines-monastery-and-mount-sinai',
+
+  // 8r-2b/8r-2c: handed off to session 7 wikiMonument cohort. Defer for now;
+  // session 7 will re-emit these as wikiMonument records.
+  'wadi-al-hittan',
+  'wadi-el-rayan',
+  'dendera-village',
 ]);
 
 // ---------- Main classifier --------------------------------------------
@@ -406,7 +514,7 @@ export function classifyPageBySlug(rawSlug: string): Classification {
       type: 'destination-subpage',
       reason: `District "${dist.district}" → parent ${dist.parent}, section: places-to-go`,
       confidence: 'high',
-      inferredParentCity: dist.parent,
+      inferredParentCity: resolveCityAlias(dist.parent),
       inferredSection: 'places-to-go',
     };
   }
@@ -424,7 +532,7 @@ export function classifyPageBySlug(rawSlug: string): Classification {
       type: 'service-or-utility',
       reason: 'Airport / hotel transfer operational page',
       confidence: 'high',
-      inferredParentCity: dest ?? undefined,
+      inferredParentCity: resolveCityAlias(dest),
     };
   }
 
@@ -475,7 +583,7 @@ export function classifyPageBySlug(rawSlug: string): Classification {
         type: 'monument',
         reason: `Monument prefix "${h}"`,
         confidence: 'high',
-        inferredParentCity: dest ?? undefined,
+        inferredParentCity: resolveCityAlias(dest),
       };
     }
   }
@@ -496,22 +604,26 @@ export function classifyPageBySlug(rawSlug: string): Classification {
           type: 'hotel',
           reason: hasBrand ? 'Hotel-brand token in slug' : 'Hotel-shape suffix in slug',
           confidence: 'high',
-          inferredParentCity: dest ?? undefined,
+          inferredParentCity: resolveCityAlias(dest),
         };
       }
     }
   }
 
-  // 1g. Wadi-* explicit parent inference (approved Phase B decision).
-  if (s in WADI_TO_PARENT) {
-    const w = WADI_TO_PARENT[s];
-    return {
-      type: 'destination-subpage',
-      reason: `wadi-* explicit inference: ${w.reason}`,
-      confidence: 'high',
-      inferredParentCity: w.parent,
-      // section deliberately unset — let editor decide (these are nature/heritage sites)
-    };
+  // 1g. Wadi-* explicit parent inference (approved Phase B decision; extended in 8r-2c
+  //      to match prefix/suffix/middle so derivative subpages like
+  //      `tours-in-wadi-el-natrun` and `wadi-el-natrun-history` resolve too).
+  {
+    const wadi = findWadiParent(s);
+    if (wadi) {
+      return {
+        type: 'destination-subpage',
+        reason: `wadi-* explicit inference: ${wadi.reason}`,
+        confidence: 'high',
+        inferredParentCity: resolveCityAlias(wadi.parent),
+        // section deliberately unset — let editor decide (these are nature/heritage sites)
+      };
+    }
   }
 
   // ---- Existing destination-hub / topic / tour rules ----
@@ -550,7 +662,7 @@ export function classifyPageBySlug(rawSlug: string): Classification {
         type: 'destination-subpage',
         reason: `Topic-prefix "${prefix}"${dest ? ` → ${dest}` : ''}`,
         confidence: dest ? 'high' : 'med',
-        inferredParentCity: dest ?? undefined,
+        inferredParentCity: resolveCityAlias(dest),
         inferredSection: section,
       };
     }
@@ -564,7 +676,7 @@ export function classifyPageBySlug(rawSlug: string): Classification {
         type: 'destination-subpage',
         reason: `Topic-suffix "${suffix}"${dest ? ` → ${dest}` : ''}`,
         confidence: dest ? 'high' : 'med',
-        inferredParentCity: dest ?? undefined,
+        inferredParentCity: resolveCityAlias(dest),
         inferredSection: section,
       };
     }
@@ -598,14 +710,14 @@ export function classifyPageBySlug(rawSlug: string): Classification {
           type: 'monument',
           reason: `Destination "${dest}" + monument keyword in tail`,
           confidence: 'med',
-          inferredParentCity: dest,
+          inferredParentCity: resolveCityAlias(dest),
         };
       }
       return {
         type: 'destination-subpage',
         reason: `Destination "${dest}" prefix + topical tail (no section keyword match)`,
         confidence: 'low',
-        inferredParentCity: dest,
+        inferredParentCity: resolveCityAlias(dest),
         // inferredSection deliberately undefined — editor assigns post-migration
       };
     }
@@ -614,7 +726,7 @@ export function classifyPageBySlug(rawSlug: string): Classification {
         type: 'destination-subpage',
         reason: `Destination "${dest}" suffix (no section keyword match)`,
         confidence: 'low',
-        inferredParentCity: dest,
+        inferredParentCity: resolveCityAlias(dest),
         // inferredSection deliberately undefined
       };
     }

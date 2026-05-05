@@ -16,7 +16,8 @@
     "test:merge": "tsx scripts/wp-import/__tests__/merge.test.ts",
     "test:merge-dispatch": "tsx scripts/wp-import/__tests__/merge-dispatch.test.ts",
     "test:scope": "tsx scripts/wp-import/__tests__/scope.test.ts",
-    "test:overrides": "tsx scripts/wp-import/__tests__/classifier-overrides.test.ts"
+    "test:overrides": "tsx scripts/wp-import/__tests__/classifier-overrides.test.ts",
+    "test:media": "tsx scripts/wp-import/__tests__/media.test.ts"
   },
   "dependencies": {
     "@portabletext/react": "^3.2.1",

@@ -211,8 +211,12 @@ export interface ArticleSchemaInput {
   category?: { name?: string } | null;
 }
 
-export function buildArticleSchema(input: ArticleSchemaInput, locale: Locale) {
-  const url = absoluteUrl(`/blog/${input.slug}`, locale);
+export function buildArticleSchema(
+  input: ArticleSchemaInput,
+  locale: Locale,
+  path?: string,
+) {
+  const url = absoluteUrl(path ?? `/blog/${input.slug}`, locale);
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',

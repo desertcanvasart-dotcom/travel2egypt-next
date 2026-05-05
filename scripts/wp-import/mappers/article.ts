@@ -145,7 +145,8 @@ export async function mapArticle(
   // The plugin uses its own translation.metadata documents; the importer can
   // either populate them directly (one per group) or rely on Studio UI to
   // link. For Phase D test runs we'll create the metadata doc explicitly.
-  const metaDocId = `translation.metadata.wp-post-${group.en.id}`;
+  // Avoid Sanity's reserved `translation.metadata.*` _id namespace; see migration/known-issues.md lesson 30.
+  const metaDocId = `tmeta-wp-post-${group.en.id}`;
   const translations = docs
     .filter((d) => d.language)
     .map((d) => ({

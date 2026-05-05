@@ -32,6 +32,7 @@ import {
   EXPLICIT_SECTION_OVERRIDES,
   EXPLICIT_PARENT_CITY_OVERRIDES,
   EXPLICIT_DEFER_SLUGS,
+  TOKEN_TO_CITY_SLUG,
 } from '../../wp-classifier.js';
 import { TRAVEL_TIP_SLUG_TO_CATEGORY } from '../mappers/travelTip.js';
 import { mapGuideArticle } from '../mappers/guideArticle.js';
@@ -211,10 +212,10 @@ for (const slug of [
 
 // Override-map shape sanity
 assertEqual(Object.keys(EXPLICIT_PAGE_ROUTING).length, 6, '3A.1-f: EXPLICIT_PAGE_ROUTING has 6 entries');
-assertEqual(EXPLICIT_DEFER_SLUGS.size, 1, '3A.1-f: EXPLICIT_DEFER_SLUGS has 1 entry');
+assertEqual(EXPLICIT_DEFER_SLUGS.size, 18, '3A.1-f: EXPLICIT_DEFER_SLUGS has 18 entries (8r-2c added 17)');
 assertEqual(Object.keys(EXPLICIT_SLUG_OVERRIDES).length, 3, '3A.1-f: EXPLICIT_SLUG_OVERRIDES has 3 entries');
 assertEqual(Object.keys(EXPLICIT_SECTION_OVERRIDES).length, 3, '3A.1-f: EXPLICIT_SECTION_OVERRIDES has 3 entries');
-assertEqual(Object.keys(EXPLICIT_PARENT_CITY_OVERRIDES).length, 3, '3A.1-f: EXPLICIT_PARENT_CITY_OVERRIDES has 3 entries');
+assertEqual(Object.keys(EXPLICIT_PARENT_CITY_OVERRIDES).length, 8, '3A.1-f: EXPLICIT_PARENT_CITY_OVERRIDES has 8 entries (8r-2c added 5)');
 
 // ─── 3A.2 — Regression (non-override slugs unchanged) ──────────────────
 
@@ -471,6 +472,187 @@ assertEqual(
   'travelTipCategory-culture-and-money',
   '3D-i: currency-in-egypt still in map (D4 conditional)'
 );
+
+// ─── (3E) DESTINATIONS extension — recovered city slugs (8r-2c) ─────────
+//
+// 8r-1 found 154 / 417 guideArticles with parentCity null. 8r-2a decomposed:
+// 104 city-bearing orphans whose underlying city slug was absent from
+// DESTINATIONS, and 28 alias-resolution failures. 8r-2c extended DESTINATIONS
+// + added TOKEN_TO_CITY_SLUG. Lock in inferredParentCity resolution for the
+// recovered cities — one representative slug per city, matching one of the
+// real orphan slugs from `migration/.cache/phase-logs/8r-2a-orphan-slugs.txt`.
+process.stderr.write('\n# (3E) DESTINATIONS extension — recovered city resolutions\n');
+{
+  const recovered: Array<[string, string, string]> = [
+    // [orphan slug, expected inferredParentCity, label]
+    ['akhmim-weather', 'akhmim', 'akhmim (prefix)'],
+    ['where-to-eat-in-akhmim', 'akhmim', 'akhmim (suffix)'],
+    ['al-arish-history', 'al-arish', 'al-arish (prefix)'],
+    ['food-in-al-arish', 'al-arish', 'al-arish (suffix)'],
+    ['al-fayoum-events', 'al-fayoum', 'al-fayoum (prefix)'],
+    ['where-to-stay-in-al-fayoum', 'al-fayoum', 'al-fayoum (suffix)'],
+    ['food-in-al-wadi-al-gadid', 'al-wadi-al-gadid', 'al-wadi-al-gadid (suffix)'],
+    ['baris-tours', 'baris', 'baris (prefix)'],
+    ['where-to-stay-in-baris', 'baris', 'baris (suffix)'],
+    ['dakhla-oasis-tours', 'dakhla-oasis', 'dakhla-oasis (prefix, longest-match wins over `dakhla`)'],
+    ['food-in-dakhla-oasis', 'dakhla-oasis', 'dakhla-oasis (suffix)'],
+    ['esna-weather', 'esna', 'esna (prefix)'],
+    ['where-to-stay-in-esna', 'esna', 'esna (suffix)'],
+    ['farafra-oasis-tours', 'farafra-oasis', 'farafra-oasis (prefix, longest-match wins over `farafra`)'],
+    ['food-in-farafra-oasis', 'farafra-oasis', 'farafra-oasis (suffix)'],
+    ['food-in-marsa-matruh', 'marsa-matruh', 'marsa-matruh (suffix)'],
+    ['where-to-stay-in-marsa-matruh', 'marsa-matruh', 'marsa-matruh (suffix)'],
+    ['explore-ras-sudr-tours', 'ras-sudr', 'ras-sudr (middle)'],
+    ['food-in-qena', 'qena', 'qena (suffix)'],
+    ['food-in-safaga', 'safaga', 'safaga (suffix)'],
+    ['where-to-stay-in-safaga', 'safaga', 'safaga (suffix)'],
+    ['food-in-bahariya-oasis', 'bahariya-oasis', 'bahariya-oasis (suffix, longest-match wins over `bahariya`)'],
+    ['things-to-do-in-bahariya-oasis', 'bahariya-oasis', 'bahariya-oasis (suffix; the original phase-8 404 case)'],
+    ['explore-al-minya-tours', 'al-minya', 'al-minya (middle, longest-match wins over `minya`)'],
+  ];
+  for (const [slug, expected, label] of recovered) {
+    const c = classifyPageBySlug(slug);
+    assertEqual(c.inferredParentCity, expected, `3E-${label}: ${slug} → ${expected}`);
+  }
+}
+
+// ─── (3F) TOKEN_TO_CITY_SLUG alias resolution ───────────────────────────
+process.stderr.write('\n# (3F) TOKEN_TO_CITY_SLUG alias resolution\n');
+{
+  // Map shape sanity.
+  assertEqual(TOKEN_TO_CITY_SLUG['siwa'], 'siwa-oasis', '3F-shape-a: siwa → siwa-oasis');
+  assertEqual(TOKEN_TO_CITY_SLUG['rosetta'], 'rosetta-rasheed', '3F-shape-b: rosetta → rosetta-rasheed');
+  assertEqual(TOKEN_TO_CITY_SLUG['fayoum'], 'al-fayoum', '3F-shape-c: fayoum → al-fayoum');
+  assertEqual(TOKEN_TO_CITY_SLUG['sharm'], 'sharm-el-sheikh', '3F-shape-d: sharm → sharm-el-sheikh');
+  // 8r-2d-fixup: wadi-al-natron transliteration variant → wadi-el-natrun.
+  assertEqual(TOKEN_TO_CITY_SLUG['wadi-al-natron'], 'wadi-el-natrun', '3F-shape-e: wadi-al-natron → wadi-el-natrun');
+
+  // End-to-end resolution through classifier — short token in slug must surface
+  // the staging-canonical city slug as inferredParentCity.
+  const aliasCases: Array<[string, string]> = [
+    ['events-in-siwa', 'siwa-oasis'],
+    ['siwa-dining-experiences', 'siwa-oasis'],
+    ['accommodations-in-farafra', 'farafra-oasis'],
+    ['weather-in-farafra', 'farafra-oasis'],
+    ['kharga-unearthed', 'kharga-oasis'],
+    ['road-to-dakhla', 'dakhla-oasis'],
+    ['best-rosetta-tours', 'rosetta-rasheed'],
+    ['stay-in-rosetta', 'rosetta-rasheed'],
+    ['fayoum-horizons', 'al-fayoum'],
+    ['la-maison-bleue-el-gouna', 'al-gouna'],
+    ['sharm-el-luli', 'sharm-el-sheikh'],
+    // 8r-2d-fixup: end-to-end through classifier, plus negative regression for canonical slug.
+    ['things-to-do-in-wadi-al-natron', 'wadi-el-natrun'],
+    ['tours-in-wadi-el-natrun', 'wadi-el-natrun'],
+  ];
+  for (const [slug, expected] of aliasCases) {
+    const c = classifyPageBySlug(slug);
+    assertEqual(c.inferredParentCity, expected, `3F-${slug}: alias resolves to ${expected}`);
+  }
+}
+
+// ─── (3G) WADI rule extension — prefix/suffix matching (8r-2c) ──────────
+//
+// Pre-8r-2c the wadi rule (1g) matched whole-slug only. Extended to
+// prefix/suffix/middle so derivative subpages resolve. Plus wadi-el-natrun
+// is now its own staging city (renamed from wadi-al-natron in 8r-2c), so
+// WADI_TO_PARENT['wadi-el-natrun'].parent = 'wadi-el-natrun' (self-route).
+process.stderr.write('\n# (3G) WADI rule extension — derivative-subpage matching\n');
+{
+  // Whole-slug behavior preserved for the existing fixtures.
+  const c1 = classifyPageBySlug('wadi-feiran');
+  assertEqual(c1.type, 'destination-subpage', '3G-whole: wadi-feiran still classifies as destination-subpage');
+  assertEqual(c1.inferredParentCity, 'sinai', '3G-whole: wadi-feiran → sinai (unchanged)');
+
+  // Wadi-el-natrun now self-parents (it is its own staging city).
+  const c2 = classifyPageBySlug('wadi-el-natrun');
+  assertEqual(c2.inferredParentCity, 'wadi-el-natrun', '3G-self: wadi-el-natrun self-parents (now a staging city)');
+
+  // Derivative subpages resolve via the extended rule (overrides also bind, but
+  // these prove the rule's prefix/suffix/middle reach).
+  const derivatives: Array<[string, string]> = [
+    ['wadi-el-natrun-history', 'wadi-el-natrun'],
+    ['wadi-el-natrun-accommodation-guide', 'wadi-el-natrun'],
+    ['wadi-el-natrun-weather-insights', 'wadi-el-natrun'],
+    ['where-to-eat-in-wadi-el-natrun', 'wadi-el-natrun'],
+    ['tours-in-wadi-el-natrun', 'wadi-el-natrun'],
+  ];
+  for (const [slug, expected] of derivatives) {
+    const c = classifyPageBySlug(slug);
+    assertEqual(c.inferredParentCity, expected, `3G-deriv: ${slug} → ${expected}`);
+  }
+}
+
+// ─── (3H) EXPLICIT_DEFER_SLUGS — 17 new entries from 8r-2c ──────────────
+process.stderr.write('\n# (3H) EXPLICIT_DEFER_SLUGS — 17 new entries (8r-2b/8r-2c)\n');
+{
+  const newDefers = [
+    'special-interest-tours',
+    'group-day-tours',
+    'multiday-adventure-and-safari-tours',
+    'private-day-tours',
+    'sinai-quest-adventures',
+    'ramasside-tours',
+    'snorkeling-adventure-on-the-nefertari-submarine',
+    'a-9-day-egypt-tour-of-culture-and-history',
+    '10-day-egypt-travel-journey-through-history',
+    'ticket-prices-for-attractions-in-al-sharqia',
+    'ticket-prices-for-attractions-in-red-sea-sinai',
+    'ticket-prices-for-attractions-in-western-desert',
+    'events-calendar',
+    'saint-catherines-monastery-and-mount-sinai',
+    'wadi-al-hittan',
+    'wadi-el-rayan',
+    'dendera-village',
+  ];
+  for (const slug of newDefers) {
+    assert(EXPLICIT_DEFER_SLUGS.has(slug), `3H-set: ${slug} present in EXPLICIT_DEFER_SLUGS`);
+    const c = classifyPageBySlug(slug);
+    assertEqual(c.type, 'unclassified', `3H-class-${slug}: returns unclassified`);
+    assertEqual(c.reviewFlag, 'deferred-editorial', `3H-flag-${slug}: reviewFlag=deferred-editorial`);
+  }
+}
+
+// ─── (3I) EXPLICIT_PARENT_CITY_OVERRIDES — 5 new wadi-el-natrun entries ─
+process.stderr.write('\n# (3I) EXPLICIT_PARENT_CITY_OVERRIDES — 5 new entries (8r-2c)\n');
+{
+  const overrides = [
+    'tours-in-wadi-el-natrun',
+    'wadi-el-natrun-accommodation-guide',
+    'wadi-el-natrun-history',
+    'wadi-el-natrun-weather-insights',
+    'where-to-eat-in-wadi-el-natrun',
+  ];
+  for (const slug of overrides) {
+    assertEqual(
+      EXPLICIT_PARENT_CITY_OVERRIDES[slug],
+      'wadi-el-natrun',
+      `3I-${slug}: maps to wadi-el-natrun`
+    );
+  }
+}
+
+// ─── (3J) Negative regression — currently-working slugs unchanged ───────
+//
+// The 263 working guideArticles must continue to work after the DESTINATIONS
+// reorder + alias map. Sample slugs that should classify identically to before.
+process.stderr.write('\n# (3J) Negative regression — currently-working slugs unchanged\n');
+{
+  const unchanged: Array<[string, string]> = [
+    ['things-to-do-in-cairo', 'cairo'],
+    ['getting-around-luxor', 'luxor'],
+    ['where-to-stay-in-aswan', 'aswan'],
+    ['food-in-abu-simbel', 'abu-simbel'],
+    ['history-of-al-quseir', 'al-quseir'],
+  ];
+  for (const [slug, expected] of unchanged) {
+    const c = classifyPageBySlug(slug);
+    assertEqual(c.inferredParentCity, expected, `3J-${slug}: still resolves to ${expected}`);
+  }
+  // dahab-historical-guide must still resolve to dahab (3A.2-e regression).
+  const c = classifyPageBySlug('dahab-historical-guide');
+  assertEqual(c.inferredParentCity, 'dahab', '3J-dahab-historical-guide: parentCity=dahab unchanged');
+}
 
 // ─── Run all ────────────────────────────────────────────────────────────
 
