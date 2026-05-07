@@ -1,0 +1,13 @@
+# Travel2Egypt migration session journal
+
+Append a new entry per session at session close. Format below.
+
+=== Session 7 (2026-05-07) ===
+Status: Migration core COMPLETE; Phase 3.5 partial (6/41 cities deep, 35 deferred to Phase 3.5b)
+Deliverable: 134 wikiMonument cohort migrated to migration-staging dataset; 27 cities populated with placesToGo; 1:1 forward-inverse ref parity
+Commit: c8e00d9 (no-ff merge of session-7-actual-write into main; work commit de4e943)
+Tests: 677/677 (42 merge + 104 merge-dispatch + 42 scope + 430 overrides + 24 media + 35 reconcile)
+Editorial cleanup: Pair A duplicate deletion; Cairo Pair B disambiguation pending operator Studio
+Phase 3.5 cities walked deep: Cairo, Giza, Aswan, Al Fayoum, Alexandria, Luxor (6 of 41)
+Operator followups: 10 tracks captured (Track 7 reserved); Track 6 = 46 monuments to author pre-launch
+Next session (Session 8): Phase 3.5b — remaining 35 cities at standard depth; potentially Track 9 archaeological-site enum
