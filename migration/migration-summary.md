@@ -1,7 +1,7 @@
 # Migration summary
 
-- **Started:** 2026-05-05T15:42:41.815Z
-- **Finished:** 2026-05-05T15:42:46.967Z
+- **Started:** 2026-05-07T22:30:44.683Z
+- **Finished:** 2026-05-07T22:30:57.086Z
 - **Argv:** `--filter-by-template destination-hub --slug-pattern *-travel-guide --slug-exclude egypt-travel-guide --type page --dry-run --limit 0`
 - **Errors:** 0
 
@@ -95,5 +95,5 @@ _None._
 
 ## City reconciliation
 
-- Cities updated: 0
-- Places-to-go references added: 0
+- Cities updated: 27
+- Places-to-go references added: 134

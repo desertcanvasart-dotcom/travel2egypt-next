@@ -24,11 +24,13 @@ import {
   mergeArticleDoc,
   mergeGuideArticleDoc,
   mergeTravelTipDoc,
+  mergeWikiMonumentDoc,
   applyMerge,
   isMergeableType,
   ARTICLE_EDITORIAL_ONLY_FIELDS,
   GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS,
   TRAVEL_TIP_EDITORIAL_ONLY_FIELDS,
+  WIKI_MONUMENT_EDITORIAL_ONLY_FIELDS,
   type MergeFetcher,
 } from '../merge.js';
 import { mapArticle } from '../mappers/article.js';
@@ -425,6 +427,194 @@ assertEqual(
   );
 }
 
+// ─── (a) Unit: mergeWikiMonumentDoc ──────────────────────────────────────
+//
+// Session 7 0.5c added wikiMonument to MERGE_REGISTRY. The mapper writes
+// monumentType (heuristic from slug) + city (forward-ref from
+// inferredParentCity) + the standard mapper-managed fields; this protects
+// the 13 editorial-only fields against UPDATE-pass clobber. Same
+// acknowledged-default contract as travelTip.category and
+// guideArticle.section (lessons 8 + 15).
+
+process.stderr.write('\n# (a-wikiMonument) Unit — mergeWikiMonumentDoc Q3 sub-decisions\n');
+
+assertEqual(
+  WIKI_MONUMENT_EDITORIAL_ONLY_FIELDS.slice().sort(),
+  [
+    'builtBy',
+    'builtDuring',
+    'buriedHere',
+    'coordinates',
+    'dedicatedTo',
+    'featured',
+    'gallery',
+    'monumentType',
+    'preciseLocation',
+    'relatedArticles',
+    'relatedMonuments',
+    'relatedTours',
+    'seo',
+  ],
+  'a-mon-1: editorial-only field list locked (13 fields, Session 7 0.5c)'
+);
+
+// CREATE-first: mapper-produced monumentType + city seeded when existing === null.
+{
+  const wp: SanityDoc = {
+    _id: 'wp-page-87001',
+    _type: 'wikiMonument',
+    name: [{ _key: 'en', value: 'Temple of Karnak' }],
+    slug: [{ _key: 'en', _type: 'object', value: { _type: 'slug', current: 'temple-of-karnak' } }],
+    monumentType: 'temple', // mapper heuristic
+    city: { _type: 'reference', _ref: 'wp-page-58000-luxor' }, // mapper forward-ref
+    summary: [{ _key: 'en', value: 'A vast temple complex…' }],
+    body: [{ _key: 'en', _type: 'object', value: [{ _type: 'block' }] }],
+    migration: { wpId: 87001, source: 'wp-import' },
+  };
+  const { merged } = mergeWikiMonumentDoc(null, wp);
+  assertEqual(merged._id, wp._id, 'a-mon-2: CREATE _id from mapper');
+  assertEqual(merged.name, wp.name, 'a-mon-2: CREATE name from mapper');
+  assertEqual(
+    merged.monumentType,
+    'temple',
+    'a-mon-2: CREATE monumentType from mapper (acknowledged-default — slug heuristic)'
+  );
+  assertEqual(
+    merged.city,
+    { _type: 'reference', _ref: 'wp-page-58000-luxor' },
+    'a-mon-2: CREATE city ref from mapper (forward-ref, mapper-managed)'
+  );
+}
+
+// UPDATE: editorial-reassigned monumentType + populated wiki-relations MUST
+// be preserved; mapper-managed name / body / city are refreshed from WP.
+{
+  const existing: SanityDoc = {
+    _id: 'wp-page-87001',
+    _type: 'wikiMonument',
+    name: [{ _key: 'en', value: 'Temple of Karnak' }],
+    // Editor refined to mortuary-temple after reading the deeper history of
+    // the Khonsu temple within the precinct.
+    monumentType: 'mortuary-temple',
+    preciseLocation: [{ _key: 'en', value: 'East bank, Luxor' }],
+    coordinates: { lat: 25.7188, lng: 32.6573 },
+    builtBy: [{ _type: 'reference', _ref: 'wp-person-senusret-i' }],
+    builtDuring: { _type: 'reference', _ref: 'wp-dynasty-12' },
+    dedicatedTo: [{ _type: 'reference', _ref: 'wp-deity-amun-ra' }],
+    relatedMonuments: [{ _type: 'reference', _ref: 'wp-page-87002' }],
+    relatedTours: [{ _type: 'reference', _ref: 'wp-tour-luxor-half-day' }],
+    relatedArticles: [{ _type: 'reference', _ref: 'wp-post-12345' }],
+    gallery: [{ _key: 'g1', asset: { _ref: 'image-karnak-pylon' } }],
+    featured: true,
+    seo: { metaTitle: 'Karnak — operator notes' },
+    // city was set in a prior run; editor moved it to luxor-east-bank.
+    city: { _type: 'reference', _ref: 'wp-page-58050-luxor-east-bank' },
+  };
+  const wp: SanityDoc = {
+    _id: 'wp-page-87001',
+    _type: 'wikiMonument',
+    name: [{ _key: 'en', value: 'Temple of Karnak (refreshed)' }],
+    slug: [{ _key: 'en', _type: 'object', value: { _type: 'slug', current: 'temple-of-karnak' } }],
+    // Mapper writes the slug-heuristic default — would clobber the editorial reassignment.
+    monumentType: 'temple',
+    // Mapper writes the inferredParentCity forward-ref — overwrites editor's reassignment
+    // (acceptable per 0.5c architecture decision; can be promoted to editorial-only later).
+    city: { _type: 'reference', _ref: 'wp-page-58000-luxor' },
+    body: [{ _key: 'en', _type: 'object', value: [{ _type: 'block' }] }],
+    migration: { wpId: 87001, source: 'wp-import' },
+  };
+  const { merged, perFieldChanges } = mergeWikiMonumentDoc(existing, wp);
+
+  // Mapper-managed fields refreshed from WP.
+  assertEqual(
+    merged.name,
+    wp.name,
+    'a-mon-3: WP overwrites name (Q3 rule 1)'
+  );
+  assertEqual(
+    merged.city,
+    { _type: 'reference', _ref: 'wp-page-58000-luxor' },
+    'a-mon-3: city ref refreshed from mapper (forward-ref is mapper-managed, NOT editorial-only)'
+  );
+
+  // Editorial-only fields preserved.
+  assertEqual(
+    merged.monumentType,
+    'mortuary-temple',
+    'a-mon-3: editorial monumentType preserved (lesson 8 wire-in for wikiMonument)'
+  );
+  assertEqual(
+    merged.preciseLocation,
+    existing.preciseLocation,
+    'a-mon-3: editorial preciseLocation preserved'
+  );
+  assertEqual(
+    merged.coordinates,
+    existing.coordinates,
+    'a-mon-3: editorial coordinates preserved'
+  );
+  assertEqual(
+    merged.builtBy,
+    existing.builtBy,
+    'a-mon-3: editorial builtBy preserved'
+  );
+  assertEqual(
+    merged.builtDuring,
+    existing.builtDuring,
+    'a-mon-3: editorial builtDuring preserved'
+  );
+  assertEqual(
+    merged.dedicatedTo,
+    existing.dedicatedTo,
+    'a-mon-3: editorial dedicatedTo preserved'
+  );
+  assertEqual(
+    merged.relatedMonuments,
+    existing.relatedMonuments,
+    'a-mon-3: editorial relatedMonuments preserved'
+  );
+  assertEqual(
+    merged.gallery,
+    existing.gallery,
+    'a-mon-3: editorial gallery preserved'
+  );
+  assertEqual(merged.featured, true, 'a-mon-3: editorial featured preserved');
+  assertEqual(
+    merged.seo,
+    { metaTitle: 'Karnak — operator notes' },
+    'a-mon-3: editorial seo preserved'
+  );
+
+  // Per-field-change ledger reports the full editorial-only set.
+  const editorialFields = perFieldChanges
+    .filter((c) => c.outcome === 'preserved-editorial-only')
+    .map((c) => c.field)
+    .sort();
+  assertEqual(
+    editorialFields,
+    [
+      'builtBy',
+      'builtDuring',
+      'coordinates',
+      'dedicatedTo',
+      'featured',
+      'gallery',
+      'monumentType',
+      'preciseLocation',
+      'relatedArticles',
+      'relatedMonuments',
+      'relatedTours',
+      'seo',
+    ],
+    'a-mon-3: per-field changes record editorial-only outcomes for all 12 populated editorial fields (buriedHere unset on existing — not tracked)'
+  );
+}
+
+// applyMerge dispatch coverage for wikiMonument lives in the Registry block
+// below: reg-4 confirms isMergeableType('wikiMonument') === true, which gates
+// the persistResult call site. Direct applyMerge invocation against
+// wikiMonument would require an async context not available at top level.
+
 // ─── (b) Integration: persistResult preserves editorial-only fields ─────
 
 process.stderr.write('\n# (b) Integration — persistResult end-to-end with clobber-semantics mock\n');
@@ -602,6 +792,70 @@ async function runIntegration(): Promise<void> {
     );
   }
 
+  // b-mon-1: wikiMonument — editorial monumentType + wiki-relations preservation
+  // through persistResult. Lesson-8-equivalent test for wikiMonument: pre-seed
+  // with editor-refined monumentType + populated wiki-relation fields, run
+  // mapper-default through persistResult, assert post-write doc retains
+  // editorial state. Same triple-failure surface as b-tip-1.
+  {
+    const sanity = makeMockSanity();
+    sanity.__seed({
+      _id: 'wp-page-87001',
+      _type: 'wikiMonument',
+      name: [{ _key: 'en', value: 'Temple of Karnak' }],
+      monumentType: 'mortuary-temple', // editor refined
+      preciseLocation: [{ _key: 'en', value: 'East bank, Luxor' }],
+      builtBy: [{ _type: 'reference', _ref: 'wp-person-senusret-i' }],
+      relatedMonuments: [{ _type: 'reference', _ref: 'wp-page-87002' }],
+      featured: true,
+      seo: { metaTitle: 'Karnak — operator notes' },
+    });
+    const mapperDoc: SanityDoc = {
+      _id: 'wp-page-87001',
+      _type: 'wikiMonument',
+      name: [{ _key: 'en', value: 'Temple of Karnak (refreshed)' }],
+      slug: [{ _key: 'en', _type: 'object', value: { _type: 'slug', current: 'temple-of-karnak' } }],
+      // Mapper-default monumentType from slug heuristic — would clobber 'mortuary-temple' editorial.
+      monumentType: 'temple',
+      // Mapper-managed forward-ref city — refreshed each run.
+      city: { _type: 'reference', _ref: 'wp-page-58000-luxor' },
+      summary: [{ _key: 'en', value: 'A vast temple complex…' }],
+      body: [{ _key: 'en', _type: 'object', value: [{ _type: 'block' }] }],
+      migration: { wpId: 87001, source: 'wp-import' },
+    };
+    await persistResult(sanity as any, baseCli(), emptyStats([]), emptyMapperResult([mapperDoc]));
+    const stored = sanity.__get('wp-page-87001');
+    assert(stored !== undefined, 'b-mon-1: wikiMonument persisted');
+    const nameEn = (stored?.name as Array<{ _key: string; value: string }>).find((n) => n._key === 'en');
+    assertEqual(nameEn?.value, 'Temple of Karnak (refreshed)', 'b-mon-1: WP-sourced name overwrote');
+    assertEqual(
+      stored?.monumentType,
+      'mortuary-temple',
+      'b-mon-1: editorial monumentType preserved (lesson 8 wire-in test for wikiMonument)'
+    );
+    assertEqual(
+      stored?.preciseLocation,
+      [{ _key: 'en', value: 'East bank, Luxor' }],
+      'b-mon-1: editorial preciseLocation preserved'
+    );
+    assertEqual(
+      stored?.builtBy,
+      [{ _type: 'reference', _ref: 'wp-person-senusret-i' }],
+      'b-mon-1: editorial builtBy preserved'
+    );
+    assertEqual(
+      stored?.relatedMonuments,
+      [{ _type: 'reference', _ref: 'wp-page-87002' }],
+      'b-mon-1: editorial relatedMonuments preserved'
+    );
+    assertEqual(stored?.featured, true, 'b-mon-1: editorial featured preserved');
+    assertEqual(
+      stored?.city,
+      { _type: 'reference', _ref: 'wp-page-58000-luxor' },
+      'b-mon-1: WP-supplied city ref flows through (mapper-managed, NOT editorial-only)'
+    );
+  }
+
   // b-non-merge: editorialCategory (a non-mergeable type) bypasses applyMerge
   // and goes through raw createOrReplace. Must not throw via the registry.
   {
@@ -621,9 +875,13 @@ async function runIntegration(): Promise<void> {
   process.stderr.write('\n# Registry — applyMerge throws on unregistered _type (lesson 1)\n');
 
   const noopFetcher: MergeFetcher = { fetch: async () => null as never };
+  // hotel is dispatched in routeToMapper but NOT registered in MERGE_REGISTRY
+  // (no editorial-only field protection yet — future session work). Used here
+  // as the canonical "registered dispatch but unmergeable type" placeholder
+  // since wikiMonument graduated to mergeable in Session 7 0.5c.
   await assertThrowsAsync(
-    () => applyMerge(noopFetcher, { _id: 'whatever', _type: 'wikiMonument' } as SanityDoc),
-    'no merge handler registered for _type="wikiMonument"',
+    () => applyMerge(noopFetcher, { _id: 'whatever', _type: 'hotel' } as SanityDoc),
+    'no merge handler registered for _type="hotel"',
     'reg-1: applyMerge with unregistered type throws (loud failure)'
   );
   await assertThrowsAsync(
@@ -642,9 +900,10 @@ async function runIntegration(): Promise<void> {
   assert(isMergeableType('article'), 'reg-4: article is mergeable');
   assert(isMergeableType('guideArticle'), 'reg-4: guideArticle is mergeable');
   assert(isMergeableType('travelTip'), 'reg-4: travelTip is mergeable (Prereq 3 wired)');
+  assert(isMergeableType('wikiMonument'), 'reg-4: wikiMonument is mergeable (Session 7 0.5c wired)');
   assert(!isMergeableType('editorialCategory'), 'reg-4: editorialCategory NOT mergeable');
   assert(!isMergeableType('translation.metadata'), 'reg-4: translation.metadata NOT mergeable');
-  assert(!isMergeableType('wikiMonument'), 'reg-4: wikiMonument NOT mergeable yet (session 7+ work)');
+  assert(!isMergeableType('hotel'), 'reg-4: hotel NOT mergeable yet (future session work)');
   assert(!isMergeableType(undefined), 'reg-4: undefined NOT mergeable');
   assert(!isMergeableType(''), 'reg-4: empty string NOT mergeable');
 

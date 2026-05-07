@@ -937,39 +937,41 @@ function handleEntityError(e: unknown, lite: WpEntityLite, cli: CliOptions, stat
 
 // ---------- Reconciliation: city.placesToGo -----------------------------
 
-async function reconcilePlacesToGo(
+export async function reconcilePlacesToGo(
   sanity: SanityClient,
   cli: CliOptions,
   stats: MigrationStats
 ): Promise<void> {
-  // Find every wikiMonument that has an inferred parent city slug encoded in
-  // its migration provenance (or via a derived lookup). We embed parentSlug
-  // by re-classifying from the slug — works because WP slug is preserved.
+  // Phase 3b refactor: read `wikiMonument.city._ref` directly. The mapper's
+  // hybrid resolution (override → divider → classifier) wrote the canonical
+  // forward-ref at import time; reconciliation is an inversion of that
+  // relation, not a re-resolution. Reading from Sanity keeps reconciliation
+  // and the doc's own `city` field definitionally consistent.
+  //
+  // Defensive `defined(city)` filter guards against future schema drift; the
+  // Phase 2 gates already confirm 0 monuments lack the field.
   const monuments = (await sanity.fetch(
-    `*[_type == "wikiMonument" && defined(migration.wpId)]{ _id, "slug": slug[_key=="en"][0].value.current }`
-  )) as Array<{ _id: string; slug?: string }>;
+    `*[_type == "wikiMonument" && defined(migration.wpId) && defined(city)]{ _id, "cityId": city._ref }`
+  )) as Array<{ _id: string; cityId: string }>;
 
-  // Group monuments by inferredParentCity slug.
-  const byCitySlug = new Map<string, string[]>(); // citySlug → [monumentIds]
+  // Group monuments by city _id (no slug round-trip needed; the ref already
+  // points at the canonical city doc).
+  const byCityId = new Map<string, string[]>(); // cityId → [monumentIds]
   for (const m of monuments) {
-    if (!m.slug) continue;
-    const c = classifyPageBySlug(m.slug);
-    if (!c.inferredParentCity) continue;
-    const arr = byCitySlug.get(c.inferredParentCity) ?? [];
+    if (!m.cityId) continue;
+    const arr = byCityId.get(m.cityId) ?? [];
     arr.push(m._id);
-    byCitySlug.set(c.inferredParentCity, arr);
+    byCityId.set(m.cityId, arr);
   }
 
-  for (const [citySlug, monumentIds] of byCitySlug.entries()) {
-    const city = await findCityByEnSlug(sanity, citySlug);
-    if (!city) continue;
+  for (const [cityId, monumentIds] of byCityId.entries()) {
     if (cli.dryRun) {
       stats.reconciliation.citiesUpdated++;
       stats.reconciliation.placesToGoAdded += monumentIds.length;
       continue;
     }
     // Read current placesToGo, dedupe by _ref, then patch.
-    const current = (await sanity.fetch(`*[_id == $id][0].placesToGo`, { id: city._id })) as Array<{ _ref: string }> | null;
+    const current = (await sanity.fetch(`*[_id == $id][0].placesToGo`, { id: cityId })) as Array<{ _ref: string }> | null;
     const existing = new Set((current ?? []).map((r) => r._ref));
     const newRefs = monumentIds
       .filter((id) => !existing.has(id))
@@ -977,7 +979,7 @@ async function reconcilePlacesToGo(
     if (newRefs.length === 0) continue;
 
     await sanity
-      .patch(city._id)
+      .patch(cityId)
       .setIfMissing({ placesToGo: [] })
       .insert('after', 'placesToGo[-1]', newRefs)
       .commit();

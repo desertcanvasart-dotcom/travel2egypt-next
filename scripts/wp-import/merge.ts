@@ -120,6 +120,49 @@ export const TRAVEL_TIP_EDITORIAL_ONLY_FIELDS: readonly string[] = [
   'seo',
 ] as const;
 
+/** Editorial-only fields on `wikiMonument` (field-level i18n).
+ *
+ * `monumentType` is mapper-produced acknowledged-default — the mapper writes
+ * one of 16 enum values via slug heuristic (`inferMonumentType`); editorial
+ * reassignment in Studio is the canonical authority. Same provenance shape
+ * as article.author / article.category / guideArticle.section / travelTip.category
+ * (Lesson 15 applied).
+ *
+ * `preciseLocation`, `coordinates` are not in WP source; pure editorial.
+ *
+ * `builtBy`, `builtDuring`, `buriedHere`, `dedicatedTo` are wiki-relations
+ * to the wikiPerson / wikiDynasty / wikiDeity cohorts — editorial.
+ *
+ * `relatedMonuments`, `relatedTours`, `relatedArticles` are editorial
+ * cross-refs.
+ *
+ * `gallery` — mapper sets only `heroImage`; gallery is editorial-curated.
+ *
+ * `featured`, `seo` — standard editorial.
+ *
+ * Mapper-managed (NOT in this list, refreshed each run):
+ *   _id, _type, name, slug, summary, body, visitorInfo, heroImage, migration, city.
+ * `city` is the forward-ref derived from classifier `inferredParentCity`;
+ * Studio reassignment (e.g. for multi-city monuments) will be overwritten by
+ * re-runs. If that becomes a real concern, promote to this list.
+ *
+ * Schema reference: `src/sanity/schemas/wikiMonument.ts`. */
+export const WIKI_MONUMENT_EDITORIAL_ONLY_FIELDS: readonly string[] = [
+  'monumentType',
+  'preciseLocation',
+  'coordinates',
+  'builtBy',
+  'builtDuring',
+  'buriedHere',
+  'dedicatedTo',
+  'relatedMonuments',
+  'relatedTours',
+  'relatedArticles',
+  'gallery',
+  'featured',
+  'seo',
+] as const;
+
 /** Internal shape for a single field's merge outcome — surfaced to the
  * orchestrator for fingerprint generation and for the diff summary table. */
 export interface PerFieldChange {
@@ -411,6 +454,16 @@ export function mergeTravelTipDoc(
 }
 
 /**
+ * Q3 merge for a `wikiMonument` doc. Thin facade — see mergeArticleDoc.
+ */
+export function mergeWikiMonumentDoc(
+  existing: SanityDoc | null,
+  wp: SanityDoc,
+): { merged: SanityDoc; perFieldChanges: PerFieldChange[] } {
+  return mergeCityDoc(existing, wp, WIKI_MONUMENT_EDITORIAL_ONLY_FIELDS);
+}
+
+/**
  * Single source of truth for which `_type` values get Q3 merge protection.
  * Maps the Sanity doc type to its editorial-only field list. Used by both
  * `applyMerge` (the dispatcher) and `isMergeableType` (the predicate the
@@ -425,6 +478,7 @@ const MERGE_REGISTRY: Record<string, readonly string[]> = {
   article: ARTICLE_EDITORIAL_ONLY_FIELDS,
   guideArticle: GUIDE_ARTICLE_EDITORIAL_ONLY_FIELDS,
   travelTip: TRAVEL_TIP_EDITORIAL_ONLY_FIELDS,
+  wikiMonument: WIKI_MONUMENT_EDITORIAL_ONLY_FIELDS,
 };
 
 /**
