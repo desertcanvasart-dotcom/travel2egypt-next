@@ -110,6 +110,13 @@ export const TOKEN_TO_CITY_SLUG: Record<string, string> = {
   // 8r-2d-fixup: transliteration variant of wadi-el-natrun surfaced in 8r-2d's first re-emit
   // (the slug `things-to-do-in-wadi-al-natron` uses al-natron rather than el-natrun).
   'wadi-al-natron': 'wadi-el-natrun',
+  // Session 7 Phase 1.5b-i: normalization aliases for monument-divider city
+  // extraction (`extractMonumentParentCity`). The Elementor sidebar widget
+  // text "{CITY} Travel Guide" carries the parent-city signal but with
+  // editorial typos / abbreviations that don't match staging slugs.
+  'abu-simble': 'abu-simbel',
+  'abu-simblel': 'abu-simbel',
+  'st.-catherine': 'saint-catherine',
 };
 
 /** Districts/neighborhoods that resolve to a parent destination. */
@@ -261,6 +268,157 @@ const MONUMENT_KEYWORDS = [
   'shrine', 'crypt', 'fortress', 'bastion',
 ];
 
+/**
+ * Maps a WP slug to one of the 16 `wikiMonument.monumentType` enum values.
+ * Co-located with MONUMENT_PREFIXES / MONUMENT_KEYWORDS so prefix/keyword
+ * vocabulary stays in sync with the enum-mapping vocabulary.
+ *
+ * Priority order — first match wins. Defaults to 'other' when no pattern
+ * matches (editorial assigns the correct type post-import).
+ *
+ * Cluster decisions (Phase 0.5b architect review):
+ * - mausoleum-of-* / qubbat-* / mashhad-* / sabil-* / khanqah-* → shrine
+ *   (public-veneration shrines, operator can promote to 'tomb' in Studio).
+ * - synagogue / cemetery / bazaar / gate / tower / island / oasis-monument /
+ *   cliff / wadi / spring → 'other' (no schema enum value; no expansion
+ *   this session — architectural restraint).
+ * - dendera-village → 'other' (no special case; editorial refines).
+ */
+export function inferMonumentType(slug: string): string {
+  const s = slug.toLowerCase();
+
+  // Multi-word prefixes / keywords MUST come before their single-word
+  // overlapping forms (e.g. mortuary-temple before temple, rock-cut-tomb
+  // before tomb).
+  if (/(^|-)pyramids?(-|$)/.test(s)) return 'pyramid';
+  if (/(^|-)rock-cut-tomb(-|$)/.test(s)) return 'rock-cut-tomb';
+  if (/(^|-)mortuary-temple(-|$)/.test(s)) return 'mortuary-temple';
+  if (/(^|-)temples?(-|$)/.test(s)) return 'temple';
+  if (/(^|-)tombs?(-|$)/.test(s)) return 'tomb';
+  if (/(^|-)necropolis(-|$)/.test(s)) return 'necropolis';
+  if (/(^|-)(mosque|madrassa)(-|$)/.test(s)) return 'mosque';
+  if (/(^|-)monastery(-|$)/.test(s)) return 'monastery';
+  if (/(^|-)(church|cathedral)(-|$)/.test(s)) return 'church';
+  if (/(^|-)museum(-|$)/.test(s)) return 'museum';
+  if (/(^|-)palace(-|$)/.test(s)) return 'palace';
+  if (/(^|-)(citadel|fortress|bastion)(-|$)/.test(s)) return 'fortress';
+  if (/(^|-)obelisk(-|$)/.test(s)) return 'obelisk';
+  if (/(^|-)(colossus|colossi)(-|$)/.test(s)) return 'colossus';
+  if (
+    /^(mausoleum-of-|qubbat-|mashhad-|sabil-|khanqah-)/.test(s) ||
+    /(^|-)(mausoleum|shrine|crypt)(-|$)/.test(s)
+  ) {
+    return 'shrine';
+  }
+  return 'other';
+}
+
+/**
+ * Extracts parent city from a monument page's Elementor sidebar.
+ *
+ * Travel2Egypt monument pages embed a divider widget with text
+ * "{CITY} Travel Guide" linking to the city's travel guide. Phase 1.5a
+ * discovered this is the only reliable WP-source signal for monument→city
+ * relationship (143 monuments, 91.6% coverage on the cohort, 100% of
+ * legitimate monuments after misroute filtering).
+ *
+ * Walks Elementor JSON, finds the first divider widget whose text matches
+ * `/Travel\s+Guide/i`, normalizes the city token, and verifies it resolves
+ * to a known staging city via:
+ *   1. Direct match against TOKEN_TO_CITY_SLUG values (already a city slug)
+ *   2. Alias lookup via TOKEN_TO_CITY_SLUG keys ("siwa" → "siwa-oasis")
+ *   3. Unicode-stripped form against either of the above
+ *      (handles diacritics like "al-wādī-al-gadīd" → "al-wadi-al-gadid")
+ *
+ * Returns null if extraction fails OR if normalization can't resolve the
+ * token to a known staging city. Defensive: rather than fabricate a non-
+ * city slug (which would orphan the doc), returns null and lets the mapper
+ * apply its fallback (classifier inference, then null).
+ */
+export function extractMonumentParentCity(
+  elementorDataJson: string | null | undefined,
+): string | null {
+  if (!elementorDataJson) return null;
+
+  let data: unknown;
+  try {
+    data = JSON.parse(elementorDataJson);
+  } catch {
+    return null;
+  }
+
+  // Iterative DFS over Elementor's section/column/widget tree. Sections and
+  // columns nest children under `.elements`; widgets carry `widgetType` and
+  // `settings`. We want the first divider whose text matches the pattern.
+  const stack: unknown[] = Array.isArray(data) ? [...data] : [data];
+  while (stack.length > 0) {
+    const node = stack.pop();
+    if (!node || typeof node !== 'object') continue;
+    const obj = node as Record<string, unknown>;
+
+    if (Array.isArray(obj.elements)) stack.push(...obj.elements);
+
+    if (obj.widgetType === 'divider' && obj.settings && typeof obj.settings === 'object') {
+      const settings = obj.settings as Record<string, unknown>;
+      const rawText = typeof settings.text === 'string' ? settings.text : null;
+      if (!rawText) continue;
+
+      // Strip HTML (anchor tags wrapping the text are common), decode the
+      // `&nbsp;` entity to a regular space (Phase 1.5b-ii fix — `tawila-island`'s
+      // divider has `AL GOUNA&nbsp;Travel Guide` which would otherwise miss the
+      // `\s+Travel` pattern), and trim.
+      const stripped = rawText.replace(/<[^>]*>/g, '').replace(/&nbsp;/gi, ' ').trim();
+
+      // Loose pattern — handles malformed "GIZATravel Guide" (no space).
+      const match = stripped.match(/^(.+?)\s*Travel\s+Guide\s*$/i);
+      if (!match) continue;
+
+      const cityRaw = match[1].trim().toLowerCase().replace(/\s+/g, '-');
+      const normalized = normalizeMonumentCityToken(cityRaw);
+      if (normalized) return normalized;
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Set of canonical staging city slugs derived from DESTINATIONS minus
+ * the alias keys in TOKEN_TO_CITY_SLUG. The remainders are the slugs that
+ * map directly to staging city docs (cairo, luxor, giza, abu-simbel, ...).
+ * Built once at module load.
+ */
+const CANONICAL_CITY_SLUGS: ReadonlySet<string> = new Set(
+  DESTINATIONS.filter((d) => !Object.prototype.hasOwnProperty.call(TOKEN_TO_CITY_SLUG, d)),
+);
+
+/**
+ * Normalizes a divider-extracted city token to a staging city slug.
+ *
+ * Returns null if no resolution found (defensive — caller must not
+ * fabricate a city ref from an unrecognized token).
+ *
+ * Resolution order: direct match → alias → Unicode-stripped form.
+ */
+function normalizeMonumentCityToken(token: string): string | null {
+  if (CANONICAL_CITY_SLUGS.has(token)) return token;
+  if (Object.prototype.hasOwnProperty.call(TOKEN_TO_CITY_SLUG, token)) {
+    return TOKEN_TO_CITY_SLUG[token]!;
+  }
+
+  // Diacritic-stripped fallback (NFD decomposes accents into combining marks
+  // we can drop; e.g. "al-wādī-al-gadīd" → "al-wadi-al-gadid").
+  const stripped = token.normalize('NFD').replace(/[̀-ͯ]/g, '');
+  if (stripped !== token) {
+    if (CANONICAL_CITY_SLUGS.has(stripped)) return stripped;
+    if (Object.prototype.hasOwnProperty.call(TOKEN_TO_CITY_SLUG, stripped)) {
+      return TOKEN_TO_CITY_SLUG[stripped]!;
+    }
+  }
+
+  return null;
+}
+
 const TOUR_PATTERNS: RegExp[] = [
   /^\d+-day(s)?-/, /-day-tour/, /-package(-|$)/, /-vacation/,
   /-itinerary/, /-cruise(?!s)/, /\d+-days?-/, /^private-/,
@@ -360,6 +518,33 @@ export const EXPLICIT_PAGE_ROUTING: Record<string, PageType> = {
   // at cutover. service-or-utility routes through mapServiceStub which preserves
   // the WP body (editorial triage context) and emits a redirect entry.
   'movement-guide': 'service-or-utility',
+
+  // Session 7 Phase 0.5b: editorial monument routing for 3 attractions
+  // previously deferred (8r-2b/8r-2c). WADI rule (1g) and MONUMENT_KEYWORDS
+  // would route wadi-al-hittan / wadi-el-rayan as destination-subpage and
+  // dendera-village as unclassified — explicit routing is the editorial
+  // source of truth and lands them in the wikiMonument cohort.
+  'wadi-al-hittan': 'monument',
+  'wadi-el-rayan': 'monument',
+  'dendera-village': 'monument',
+
+  // Session 7 Phase 1.5b-ii: tour products misclassified as monument due to
+  // slug-prefix collisions with MONUMENT_PREFIXES (`pyramids-of-`, `the-great-`).
+  // All 7 carry the Royal Elementor Tour widget signature in body
+  // (Price / Duration / Max People / Min Age / Tour Type / Reviews).
+  // See Phase 1.5b-ii Part A investigation report.
+  'shared-snorkeling-day-at-giftun-island': 'tour-or-package',
+  'the-great-pharaohs-and-white-desert': 'tour-or-package',
+  'fayoum-oasis-including-pyramids-of-meydum-hawara': 'tour-or-package',
+  'pyramids-of-giza-and-grand-egyptian-museum': 'tour-or-package',
+  'pyramids-of-giza-and-sphinx': 'tour-or-package',
+  'pyramids-of-giza-sphinx-egyptian-museum-khan-el-khalili-tour': 'tour-or-package',
+  'pyramids-of-giza-sphinx-memphis-and-saqqara-tour': 'tour-or-package',
+
+  // Session 7 Phase 1.5b-ii: Pickalbatros chain hotel branded as "Palace" —
+  // collides with `palace-of-` MONUMENT_PREFIXES. Body opens with
+  // "About The Hotel" / "resort" — clearly a hotel product.
+  '8-pickalbatros-palace-sharm-aqua-park': 'hotel',
 };
 
 /**
@@ -409,7 +594,38 @@ export const EXPLICIT_PARENT_CITY_OVERRIDES: Record<string, string> = {
   'wadi-el-natrun-history': 'wadi-el-natrun',
   'wadi-el-natrun-weather-insights': 'wadi-el-natrun',
   'where-to-eat-in-wadi-el-natrun': 'wadi-el-natrun',
+
+  // Session 7 Phase 0.5b: parent-city for 3 attractions reclassified to
+  // monument cohort (paired with EXPLICIT_PAGE_ROUTING entries above).
+  // Editorial decision (session-7-handoff): place_to_go entries under their
+  // respective cities — wadi-al-hittan and wadi-el-rayan under al-fayoum,
+  // dendera-village under qena.
+  'wadi-al-hittan': 'al-fayoum',
+  'wadi-el-rayan': 'al-fayoum',
+  'dendera-village': 'qena',
+
+  // Session 7 Phase 1.5b-iii: editorial fix for `the-temple-of-dendera`. The
+  // Elementor sidebar divider on this page incorrectly points to "Abu Simbel
+  // Travel Guide" (editorial copy-paste error in WP source), but Dendera
+  // Temple is in Qena governorate, ~800km north of Abu Simbel. Without this
+  // override, mapper priority 2 (divider) would fire first and land the
+  // monument under the wrong city. Override (priority 1) captures the
+  // editorial truth and short-circuits divider extraction.
+  'the-temple-of-dendera': 'qena',
 };
+
+/**
+ * Returns the operator-curated parent city slug for a slug if present in
+ * EXPLICIT_PARENT_CITY_OVERRIDES, else undefined. Exported as a tiny helper
+ * so consumers (e.g. the wikiMonument mapper's priority-1 check) don't need
+ * to import the map directly. Pure read access — no normalization, no
+ * fallback inference.
+ */
+export function getExplicitParentCityOverride(slug: string): string | undefined {
+  return Object.prototype.hasOwnProperty.call(EXPLICIT_PARENT_CITY_OVERRIDES, slug)
+    ? EXPLICIT_PARENT_CITY_OVERRIDES[slug]
+    : undefined;
+}
 
 /**
  * Editorial defer set: slugs that should not write at all. The classifier
@@ -447,11 +663,9 @@ export const EXPLICIT_DEFER_SLUGS: Set<string> = new Set([
   // 8r-2b/8r-2c: dead-end content; 410/404 at cutover, no redirect.
   'saint-catherines-monastery-and-mount-sinai',
 
-  // 8r-2b/8r-2c: handed off to session 7 wikiMonument cohort. Defer for now;
-  // session 7 will re-emit these as wikiMonument records.
-  'wadi-al-hittan',
-  'wadi-el-rayan',
-  'dendera-village',
+  // (Session 7 Phase 0.5b: wadi-al-hittan, wadi-el-rayan, dendera-village
+  // moved from defer to EXPLICIT_PAGE_ROUTING + EXPLICIT_PARENT_CITY_OVERRIDES
+  // above. They now route as monument cohort with editorial parent-city.)
 ]);
 
 // ---------- Main classifier --------------------------------------------
