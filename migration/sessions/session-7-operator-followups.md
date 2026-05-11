@@ -1188,3 +1188,248 @@ Surfaced during Session 8 Phase 3.5b walkthrough. Each item is a minor editorial
    - Action: operator Studio decision; may or may not require schema enum addition
    - Target session: paired with Track 9 archaeological-site schema work
    - Pre-launch priority: Low
+
+---
+
+## Session 9 Phase 1 Close — Architectural Decisions for Tour Migration (2026-05-08)
+
+This section captures architectural decisions made during Session 9 Phase 0 (investigation, scope reconciliation) and Phase 1 (12-tour WP fetch + `_elementor_data` analysis + mapper/schema deep-read). Phase 1 work is uncommitted in `session-9-actual-write` worktree. Phase 2 will resume with these decisions locked.
+
+### Context (Phase 0 + 1 findings)
+
+**Pre-flight Gate A status:** RESOLVED before Session 9 began. WP Application Password credentials present in `.env` (WP_APPLICATION_USERNAME + WP_APPLICATION_PASSWORD). Importer's `scripts/wp-import/wp-client.ts` already uses Basic auth + `?context=edit` query param. Cached responses from prior sessions prove `_elementor_data` retrieves successfully. **No additional WP admin grant needed.**
+
+**Schema state:** Tour and hotelAndCruise schemas ALREADY EXIST.
+- `src/sanity/schemas/tour.ts` — type discriminator (dayTour/package), 7 field groups, multi-city via `cities` array of refs (Rule.required().min(1))
+- `src/sanity/schemas/hotelAndCruise.ts` — exports TWO schemas: `hotel` AND `nileCruise` (separate doc types)
+
+**Tour mapper state:** `scripts/wp-import/mappers/tour.ts` exists but is critically incomplete:
+1. Does NOT use `_elementor_data` at all (only consumes HTML body)
+2. Field name mismatch: mapper outputs `description`, schema field is `body`
+3. Mapper output is currently invalid against schema (missing required `cities` field)
+
+**HTML→PortableText transformer state:** `scripts/wp-import-html.ts` does extensive Elementor handling but strips tour-relevant widgets (tour-promo CTAs, related-tour widgets, e-grid/e-flex/e-con button containers). Conflicts with what tours need to preserve.
+
+**Cohort fetch:** All 12 deferred tour slugs fetched successfully with `_elementor_data` populated.
+
+**`_elementor_data` structure:** Workable. Top-level array of sections. Itinerary lives in `accordion` widget (`settings.tabs[]` is array, one entry per day). Day title in `tab_title` (HTML), day body in `tab_content` (HTML).
+
+**Two layouts in cohort:**
+- Modern (2 tours, `a-9-day-...` + `10-day-...`): `nested-tabs` wrapping 4 named tabs (Overview, Itinerary, Dates & Prices, FAQs & Reviews). Itinerary tab contains accordion.
+- Older (10 tours): Direct accordion at top level, no nested-tabs.
+
+**Widget frequency across 12 tours:** text-editor (183), heading (76), html (50 — mostly Bokun strip), icon-box (25), divider (25), button (25), spacer (14), accordion (12 — NEW EXTRACTION), image-carousel (10), image (10), shortcode (6), icon-list (4 — NEW), nested-tabs (2 — NEW), elementskit-icon-box (5), theme-page-title (2).
+
+**Cohort universe:** Total WP pages: 1,246. Approximate tour-cohort candidates: ~670 (54% of corpus). Many are country-localized variants (`-from-germany`, `-from-spain`).
+
+### Decisions Locked (Q1-Q7)
+
+**Q1 — Cohort scope for Session 9: 12 deferred slugs only.**
+
+Rationale: Validate mapper against the 12 first. Broader ~670 cohort (after dedupe analysis to find unique tours vs country-variants) deferred to Session 9.5 or later.
+
+The 12 slugs:
+- From Session 6 D5 (5): 10-days-felucca-journey-through-egypt, 12-day-amazing-family-vacation-in-egypt, essential-egypt, the-holy-family-trip-in-egypt, tour-of-egypt
+- From Session 6.5a Inv 3 (3): cairo-private-car-and-guide, aswan-private-car-and-guide, luxor-private-car-and-guide
+- From 8r-2b reclassification (4): ramasside-tours, snorkeling-adventure-on-the-nefertari-submarine, a-9-day-egypt-tour-of-culture-and-history, 10-day-egypt-travel-journey-through-history
+
+**Q2 — Pricing extraction: Flatten to `priceIndication` string.**
+
+Rationale: Schema's `priceIndication` is single-string consultation-only — matches editorial-luxury positioning (no booking buttons per locked strategic decision from Session 5.5). WP source pricing is prose-ish, not clean tiers. Lossy-flatten preserves operator's intent (price as guidance, not commerce). Schema enrichment to structured tiers is premature.
+
+**Q3 — Itinerary structure: Enrich schema with structured `days` array.**
+
+Rationale: Editorial-luxury positioning benefits from per-day richness (maps, snippets, summaries). Replace existing freeform PT `itinerary` field with structured `days[]`. No legacy data to preserve (cohort is 0). Render-side downstream work (Next.js tour detail page rendering days[]) is out of scope for Session 9.
+
+**Q4 — City binding for multi-stop tours: Hybrid parse with default fallback.**
+
+Strategy: Parse high-confidence city slug matches from `tab_title` strings (substring match against the 41-city slug list). For ambiguous/no-match days, default to Cairo (project's primary tour origin city). This satisfies schema's Rule.required().min(1) on `cities` array while not requiring operator intervention per tour.
+
+**Q5 — Schema treatment for itinerary: Replace freeform PT `itinerary` field.**
+
+Rationale: No legacy tour docs exist (cohort = 0). Clean schema vs keeping both. Backward compat is moot.
+
+**Q6 — TourDay object shape: Richer (11 fields).**
+
+```typescript
+days: {
+  type: 'array',
+  group: 'itinerary',
+  of: [{
+    type: 'object',
+    name: 'tourDay',
+    fields: [
+      { name: 'dayNumber', type: 'number' },              // 1, 2, 3...
+      { name: 'title', type: 'i18nString' },               // "Arrival in Cairo"
+      { name: 'cities', type: 'array', of: [{ type: 'reference', to: [{ type: 'city' }] }] },  // optional refs
+      { name: 'body', type: 'i18nPortableText' },         // day narrative
+      { name: 'meals', type: 'i18nString' },              // e.g., "Breakfast, Dinner"
+      { name: 'accommodation', type: 'i18nString' },      // hotel/cruise name
+      { name: 'highlights', type: 'array', of: [{ type: 'i18nString' }] }, // bullet list
+      { name: 'transport', type: 'i18nString' },          // "Flight to Aswan; private car..."
+      { name: 'suggestedActivities', type: 'array', of: [{ type: 'i18nString' }] }, // optional
+      { name: 'paceRating', type: 'number' },             // 1-5 intensity (validated 1-5)
+      { name: 'photoSpots', type: 'array', of: [{ type: 'i18nString' }] }, // optional
+    ]
+  }]
+}
+```
+
+Rationale: Adding fields now is essentially free (no migration cost; cohort is 0). Operator can leave optional fields empty during initial import; populate during editorial pass. Avoids "should have added X" regret later.
+
+Critical implementation note for Phase 2 mapper: Mapper extracts dayNumber, title, body from `_elementor_data` accordion. Other fields (meals, accommodation, highlights, transport, suggestedActivities, paceRating, photoSpots) are LEFT EMPTY — operator authoring fills them. Mapper produces minimal-viable day objects; operator enriches.
+
+**Q7 — Phase 2 pacing: Stop here today; resume Phase 2 fresh.**
+
+Rationale: 7 architectural decisions locked is substantial design work. Phase 2 schema + mapper rewrite is 2-3 hours of focused engineering. Doing tired risks bugs that compound into Phase 3 dry-run debugging.
+
+### Open Q5-Q8 (Lower-priority architectural questions, resolved)
+
+**LQ5 — Bokun booking widget: STRIP COMPLETELY (operator decision).**
+
+Bokun is dead infrastructure. Site no longer uses it; new editorial-luxury positioning is consultation-only via global concierge CTA. Mapper strips Bokun completely — no inline CTA placeholder, no replacement text, no "Book this tour" link. Treat as if the widget never existed in the source.
+
+Implementation: identify Bokun by widget content matching (Bokun script src patterns: `bokun.io`, `bokun-iframe`, `bokun-widget`). Strip the entire html-widget container, not just the script tag, to prevent orphaned wrapper markup.
+
+**LQ6 — Forminator contact form (`[forminator_form id="245197"]`): Strip from migrated output.**
+
+Forminator is NOT permanently dead like Bokun — but the migration does not preserve it. Operator can rebuild equivalent contact functionality during editorial authoring using a Sanity CTA component. The mapper strips silently; operator decides during editorial pass whether/where to rebuild.
+
+Implementation: strip shortcode widgets matching `[forminator_form ...]`. No replacement.
+
+**LQ7 — Generic `html` widget (50 occurrences): Strip all by default.**
+
+Most are Bokun scripts or third-party embeds. Preserves narrative integrity. If specific html widgets contain legitimate operator content (rare), operator can flag during Phase 2 dry-run review.
+
+**LQ8 — Mapper handles both accordion-direct + nested-tabs layouts: Implementation requirement.**
+
+Mapper logic detects nested-tabs first (modern layout); falls back to top-level accordion (older layout). The 2 newest tours (`a-9-day-...-history`, `10-day-...-history`) use nested-tabs; the other 10 use direct accordion.
+
+### Phase 2 Work Breakdown
+
+**Phase 2 will execute in 5 sub-phases:**
+
+**Phase 2a — Tour schema update (~30-45 min):**
+- Replace existing freeform `itinerary` PT field with structured `days` array (tourDay object)
+- Add 11-field tourDay object per design above (dayNumber, title, cities, body, meals, accommodation, highlights, transport, suggestedActivities, paceRating, photoSpots)
+- Sanity Studio loads new schema at runtime (no deploy needed; per Session 8 Track 9 learning)
+- Test that schema syntax is valid
+
+**Phase 2b — Tour mapper rewrite (~60-90 min):**
+- Read `_elementor_data` from cached WP responses
+- Parse nested-tabs structure (modern layout) or top-level accordion (older layout)
+- Extract Overview tab → `body` field (i18n PT via existing transformer)
+- Extract Itinerary accordion → `days[]` array
+- Extract Dates & Prices prose → `priceIndication` string
+- Extract image-carousel + image widgets → `gallery` array
+- Resolve city refs via hybrid parse (high-confidence slug match + Cairo default)
+- Strip Bokun widgets completely (LQ5)
+- Strip Forminator forms (LQ6)
+- Strip generic html widgets (LQ7)
+- Output valid Sanity doc against new schema
+
+**Phase 2c — Mapper tests (~30 min):**
+- Test triad addition: `test:tour-mapper` for accordion extraction, nested-tabs extraction, pricing flatten, city resolution, Bokun strip
+- Update existing test cardinality if needed (currently 677/677)
+
+**Phase 2d — Dry-run validation (~15-30 min):**
+- Run mapper against all 12 cached tour responses (dry-run mode)
+- Verify each produces valid Sanity doc
+- Spot-check output for 2-3 representative tours (one nested-tabs modern, one accordion-direct older, one private-car-and-guide)
+
+**Phase 2e — Actual writes + close (~30-45 min):**
+- Run mapper to write 12 tour docs to migration-staging
+- Verify cohort gates (tour count: 0 → 12)
+- Update operator-followups with Phase 2 completion
+- Commit Phase 1 + Phase 2 as single Session 9 work commit
+- No-ff merge to main
+- Update journal.txt
+- Total Session 9 wall-clock for Phase 2: 3-4 hours
+
+### Reference paths
+
+- Worktree: `/Users/islamhussein/t2e/.claude/worktrees/session-9-actual-write`
+- Tour schema: `src/sanity/schemas/tour.ts`
+- Tour mapper: `scripts/wp-import/mappers/tour.ts`
+- HTML transformer: `scripts/wp-import-html.ts`
+- WP client (auth): `scripts/wp-import/wp-client.ts` (lines 47-53, 217)
+- Env loader: `scripts/wp-import/env.ts` (lines 39-47)
+- Cached tour fetches: `migration/.cache/rest/pages-bySlug-*-en.json` (12 files, gitignored)
+- Classifier tour patterns: `scripts/wp-classifier.ts:422` (TOUR_PATTERNS), `:509` (EXPLICIT_PAGE_ROUTING)
+
+### Auth credential gotcha
+
+WP_APPLICATION_PASSWORD contains spaces (standard WP Application Password format). Shell-sourcing (`set -a; source .env; set +a`) silently truncates at the first space. Workaround for shell probes: `awk`-extract the raw value. Node dotenv handles this correctly via `process.env`, so the importer is unaffected — only manual shell probes need the workaround.
+
+### Cumulative operator-followups state
+
+After this Session 9 Phase 1 close append:
+- Tracks 1-11 (Sessions 7-8 work): unchanged
+- Session 9 Phase 1 close section: ~160 lines appended
+- Doc total: ~1,350 lines
+
+### Phase 2 prerequisites for resumption
+
+When resuming Phase 2:
+1. Read this Session 9 Phase 1 close section first
+2. Verify session-9-actual-write worktree state (no changes since today)
+3. Confirm WP fetches still cached in `.cache/rest/` (gitignored, may persist or may need re-fetch)
+4. Then proceed with Phase 2a schema update
+
+---
+
+## Session 9 Phase 2 close — Track 11 / editorial follow-ups
+
+Phase 2 (tour cohort) shipped 12 docs to migration-staging. Operator Studio QA caught four content-quality issues that were fixed via mapper + schema refinements and a re-import (Phase 2b.d.4). Items below carry forward.
+
+### Source-data merged days (operator splits in WP source before re-import)
+
+1. `12-day-amazing-family-vacation-in-egypt` — WP accordion has "Day 4, 5" combined as a single tab; migrated `days[]` has 11 entries with a gap at Day 5. **Fix path:** split into two tabs in WP, re-run `wp-import` for this slug (the orchestrator's `createOrReplace` semantics handle the re-write atomically).
+2. `tour-of-egypt` — same pattern at Day 14; migrated `days[]` has 17 entries with a gap. Fix path identical.
+
+### Cities follow-ups (operator authors per-tour in Studio editorial)
+
+3. `ramasside-tours` — `cities[]` resolved to Cairo via last-resort fallback; should be Sharm El-Sheikh. Manual edit in Studio.
+4. Seven multi-city tours have `cities[]` = Cairo as last-resort: `essential-egypt`, `tour-of-egypt`, `the-holy-family-trip-in-egypt`, `10-days-felucca-journey-through-egypt`, `12-day-amazing-family-vacation-in-egypt`, `a-9-day-egypt-tour-of-culture-and-history`, `10-day-egypt-travel-journey-through-history`. Per Phase 1 Q4 spec the operator authors per-day `cities` and adjusts top-level `cities` during editorial.
+
+### Content authoring (operator pre-cutover)
+
+5. Modern packages have empty `priceIndication` by design (4 tours). Operator may author "from €X per person" indicative pricing during editorial if desired.
+6. `ramasside-tours` summary leads with "Ramasside Tours: Desert Adventure & Snorkeling Experience Experience…" — source-content title duplication artifact; operator may rewrite.
+7. `cairo-private-car-and-guide` summary is 111 chars (the body's first PT block is a single short sentence). Operator may write a longer summary.
+8. Four tours lack `featured_media` in WP and migrated with no `heroImage`: `12-day-amazing-family-vacation-in-egypt`, `snorkeling-adventure-on-the-nefertari-submarine`, `the-holy-family-trip-in-egypt`, `essential-egypt`. Operator attaches hero images during editorial.
+
+### Mapper / orchestrator polish (future-session candidates, low priority)
+
+9. `cleanDayTitle` strips leading punctuation but doesn't normalize internal double-spaces from inline tag removal. One-line regex addition if the artifact ever surfaces visibly.
+10. `migration/migration-log.jsonl` zero-event scenario: tours bypass the HTML transformer (body comes from `_elementor_data`, not `content.rendered`), so cohort writes that don't trigger errors or upload events produce zero log entries. Per Phase 2b.d.2.verify Step 2 analysis — known by-design behavior, not a bug. Sanity state is the canonical write record; drift assertions for tour cohort need a GROQ anchor rather than the log line count.
+11. Asset-counter undercount in the migration summary: "Uploaded: 0, Reused (idempotent): 0" even when 8 hero asset refs are present in the written docs (Sanity's content-hash idempotency resolved them without an upload event). Cosmetic logging gap, not a data issue.
+12. Orchestrator has no `--expected-cohort-size N` flag. When `--slug-include` filters produce a smaller routed cohort than expected (because some slugs route to `mapCity` or get deferred), the only signal is the summary table row. Caused two iteration rounds in Phase 2b.d.1 → 2b.d.1.fix → 2b.d.1.fix.2. Adding a cohort-size assertion would catch this class of issue earlier.
+
+### Redirect-map.csv overwrite defect (DISCOVERED Session 9 close; URGENT pre-narrow-cohort fix)
+
+**Behavior:** `scripts/wp-import/redirect-map.ts::writeRedirectMap` uses `writeFileSync` overwrite mode. Each `wp-import` run replaces `migration/redirect-map.csv` (and `redirect-orphans.csv`) with only the current run's entries. Running wp-import for a narrow cohort (e.g. a single content type) silently drops all prior cohorts' redirects from the cutover plan.
+
+**Detected at Session 9 close:** Phase 2b.d.2's 12-tour narrow-cohort write overwrote the file, dropping 393 wikiMonument-cohort redirects from Sessions 7-8 (135 EN + 135 ES + 135 JA + a few miscellaneous travel-guide entries). Restored as a fourth commit on `session-9-actual-write` via main + HEAD union (data-only fix).
+
+**Risk for future sessions:** ANY subsequent narrow-cohort `wp-import` invocation will repeat the silent data loss against the now-restored 471-line cutover plan. Before running another narrow cohort:
+- Option β (recommended): implement read-merge-write semantics in `writeRedirectMap`. Open questions: how to resolve same-`from_url`-with-different-`to_path` conflicts across sessions (newest wins? oldest? error? human review?). Worth dedicated design time, not session-close pressure.
+- Option α-equivalent workaround: run wp-import for the full content union (all types, no `--slug-include`) so the regenerated file naturally contains all cohorts. Heavier each session but no design ambiguity.
+
+Anyone touching wp-import in a narrow-cohort mode without addressing this first will need to do the same union-restore dance.
+
+**Carry-over from Session 7:** "Add `the-mosque-of-amr-ibn-al-as` → `mosque-of-amr-ibn-al-as` to the redirect map" — original Session 7 followup. Untouched by Session 9 close; remains a Track 11 editorial item.
+
+### Schema refactors (future maintenance session)
+
+- **Rename `dayTourMode` → `tourMode`.** The field name became technically inaccurate at Session 9 Phase 2 close when its visibility was broadened to packages (the private/group distinction applies to both day tours and multi-day packages). The current name is harmless but the cleaner long-term shape is `tourMode`. Requires: schema rename, TypeScript type updates, mapper update (1 reference in `scripts/wp-import/mappers/tour.ts`), test fixture updates if any reference the field, and a Sanity data migration script (`@sanity/client` `.patch().set({ tourMode: doc.dayTourMode }).unset(['dayTourMode']).commit()`) on the 8 existing dayTour docs in migration-staging. Defer to a maintenance session.
+
+- **`packageTheme` field is required at schema but unset for all 4 migrated packages** (no source-data signal in WP for this field). Operator authors during editorial pass per package. If a default makes sense at migration time, add to the mapper's package path.
+
+### Lessons (capture for methodology continuity)
+
+13. **Lesson 21 corollary** — `grep` on `name: 'X'` misses fields constructed via helper functions (e.g. `localizedPortableTextField('body', …)`). Occurred ~3× in this session. Premise-verification gate: use multiple greps including helper-function names, or read the schema file directly when the field surface matters for an edit.
+14. **`internationalizedArrayString` cannot nest inside `array of internationalizedArrayString`** — the Sanity plugin's per-locale wrapper can't nest inside another array. Mirror the top-level `highlights` pattern instead: per-locale object wrapper with `_key` locale + `value` array of strings, custom preview prepare.
+15. **Architect-reviewer pattern with STOP gates between consequential actions worked well for this session.** Worktree on `session-9-actual-write`, four phases (2a-i schema, 2b mapper rewrite, 2b.d orchestrator integration, 2b.d.4 Studio-QA-driven fixes), nine sub-iterations, all converged cleanly without rollbacks.
+16. **Studio QA round 1 caught 4 content-quality issues invisible to harness + orchestrator dry-run**: summary junk prefix (Elementor tab labels leaking via WP excerpt path), transactional `priceIndication` content (date schedules + pax matrices), day-title `:` artifacts (punctuation outside the `<span class="bold">` source markup), schema `days[]` visibility for `dayTourMode === 'private'`. Lesson: dry-run validation gates correctness (mapper produces valid docs); manual Studio QA gates content quality (mapper produces *good* docs). Both layers remain in the loop for the first cohort of each new content type.
+

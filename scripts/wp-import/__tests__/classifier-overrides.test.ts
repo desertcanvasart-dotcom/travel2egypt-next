@@ -215,8 +215,8 @@ for (const slug of [
 }
 
 // Override-map shape sanity
-assertEqual(Object.keys(EXPLICIT_PAGE_ROUTING).length, 17, '3A.1-f: EXPLICIT_PAGE_ROUTING has 17 entries (Session 7 1.5b-ii added 7 tour reroutes + 1 hotel reroute)');
-assertEqual(EXPLICIT_DEFER_SLUGS.size, 15, '3A.1-f: EXPLICIT_DEFER_SLUGS has 15 entries (Session 7 0.5b removed 3 attractions)');
+assertEqual(Object.keys(EXPLICIT_PAGE_ROUTING).length, 26, '3A.1-f: EXPLICIT_PAGE_ROUTING has 26 entries (Session 9 2b.d.1.fix.2 added 5 Session 6 D5 reroutes on top of 2b.d.1.fix′s 4)');
+assertEqual(EXPLICIT_DEFER_SLUGS.size, 11, '3A.1-f: EXPLICIT_DEFER_SLUGS has 11 entries (Session 9 2b.d.1.fix moved 4 slugs to EXPLICIT_PAGE_ROUTING)');
 assertEqual(Object.keys(EXPLICIT_SLUG_OVERRIDES).length, 3, '3A.1-f: EXPLICIT_SLUG_OVERRIDES has 3 entries');
 assertEqual(Object.keys(EXPLICIT_SECTION_OVERRIDES).length, 3, '3A.1-f: EXPLICIT_SECTION_OVERRIDES has 3 entries');
 assertEqual(Object.keys(EXPLICIT_PARENT_CITY_OVERRIDES).length, 12, '3A.1-f: EXPLICIT_PARENT_CITY_OVERRIDES has 12 entries (Session 7 1.5b-iii added the-temple-of-dendera→qena editorial override)');
@@ -587,22 +587,24 @@ process.stderr.write('\n# (3G) WADI rule extension — derivative-subpage matchi
   }
 }
 
-// ─── (3H) EXPLICIT_DEFER_SLUGS — 14 entries (8r-2b/8r-2c added 17, Session 7 0.5b removed 3) ─
-process.stderr.write('\n# (3H) EXPLICIT_DEFER_SLUGS — 14 entries (Session 7 0.5b removed 3 attractions)\n');
+// ─── (3H) EXPLICIT_DEFER_SLUGS — 10 entries (Session 9 2b.d.1.fix moved 4 to EXPLICIT_PAGE_ROUTING) ─
+process.stderr.write('\n# (3H) EXPLICIT_DEFER_SLUGS — 10 entries (Session 9 2b.d.1.fix moved 4 to EXPLICIT_PAGE_ROUTING)\n');
 {
   // wadi-al-hittan, wadi-el-rayan, dendera-village were removed in
   // Session 7 0.5b (moved to EXPLICIT_PAGE_ROUTING + EXPLICIT_PARENT_CITY_OVERRIDES
   // for monument-cohort routing). See block 3K below for their new contract.
+  //
+  // Session 9 2b.d.1.fix additionally moved ramasside-tours,
+  // snorkeling-adventure-on-the-nefertari-submarine,
+  // a-9-day-egypt-tour-of-culture-and-history,
+  // 10-day-egypt-travel-journey-through-history to EXPLICIT_PAGE_ROUTING
+  // → tour-or-package. They now migrate as part of the 12-tour cohort.
   const newDefers = [
     'special-interest-tours',
     'group-day-tours',
     'multiday-adventure-and-safari-tours',
     'private-day-tours',
     'sinai-quest-adventures',
-    'ramasside-tours',
-    'snorkeling-adventure-on-the-nefertari-submarine',
-    'a-9-day-egypt-tour-of-culture-and-history',
-    '10-day-egypt-travel-journey-through-history',
     'ticket-prices-for-attractions-in-al-sharqia',
     'ticket-prices-for-attractions-in-red-sea-sinai',
     'ticket-prices-for-attractions-in-western-desert',
@@ -615,11 +617,19 @@ process.stderr.write('\n# (3H) EXPLICIT_DEFER_SLUGS — 14 entries (Session 7 0.
     assertEqual(c.type, 'unclassified', `3H-class-${slug}: returns unclassified`);
     assertEqual(c.reviewFlag, 'deferred-editorial', `3H-flag-${slug}: reviewFlag=deferred-editorial`);
   }
-  // Negative regression: the 3 attractions are NO LONGER in DEFER.
-  for (const slug of ['wadi-al-hittan', 'wadi-el-rayan', 'dendera-village']) {
+  // Negative regression: the 3 attractions + 4 Session 9 tour reroutes are NO LONGER in DEFER.
+  for (const slug of [
+    'wadi-al-hittan',
+    'wadi-el-rayan',
+    'dendera-village',
+    'ramasside-tours',
+    'snorkeling-adventure-on-the-nefertari-submarine',
+    'a-9-day-egypt-tour-of-culture-and-history',
+    '10-day-egypt-travel-journey-through-history',
+  ]) {
     assert(
       !EXPLICIT_DEFER_SLUGS.has(slug),
-      `3H-neg: ${slug} NOT in EXPLICIT_DEFER_SLUGS (Session 7 0.5b reclassified to monument)`
+      `3H-neg: ${slug} NOT in EXPLICIT_DEFER_SLUGS (Session 7 0.5b or Session 9 2b.d.1.fix reclassified)`
     );
   }
 }

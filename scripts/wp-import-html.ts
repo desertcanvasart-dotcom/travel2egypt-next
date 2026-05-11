@@ -99,8 +99,28 @@ export interface ConversionOptions {
 
 // ---------- Entry point ------------------------------------------------
 
+/**
+ * Pre-parse cleanup: unwrap leaked ChatGPT-export wrappers found on some
+ * tour Day 1 content (`AIPRM__conversation__response`, `text-token-text-primary`).
+ * Iterates until no marker remains so nested wrappers all unwrap. Keep children;
+ * drop the wrapper div and its attributes.
+ */
+function unwrapChatgptExportArtifacts(html: string): string {
+  let prev: string;
+  let current = html;
+  do {
+    prev = current;
+    current = current.replace(
+      /<div[^>]*class="[^"]*(?:AIPRM__conversation__response|text-token-text-primary)[^"]*"[^>]*>([\s\S]*?)<\/div>/gi,
+      '$1'
+    );
+  } while (current !== prev);
+  return current;
+}
+
 export function htmlToPortableText(html: string, opts: ConversionOptions = {}): ConversionResult {
   resetKeyCounter();
+  html = unwrapChatgptExportArtifacts(html);
   const stats = {
     operatorNotes: 0,
     pullQuotes: 0,
