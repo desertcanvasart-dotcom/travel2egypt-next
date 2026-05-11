@@ -1,5 +1,5 @@
 import { defineField, defineType } from 'sanity';
-import { EarthGlobeIcon } from '@sanity/icons';
+import { CalendarIcon, EarthGlobeIcon } from '@sanity/icons';
 
 import {
   MIGRATION_GROUP,
@@ -141,6 +141,182 @@ export const tourSchema = defineType({
 
     // ── Itinerary & details ────────────────────────────
     defineField({
+      name: 'days',
+      title: 'Itinerary days',
+      description:
+        'Day-by-day tour itinerary. Mapper populates dayNumber, title, cities, morning, lunch, and afternoon; operator enriches the remaining fields during editorial pass.',
+      type: 'array',
+      group: 'itinerary',
+      of: [
+        {
+          type: 'object',
+          name: 'tourDay',
+          title: 'Day',
+          fields: [
+            defineField({
+              name: 'dayNumber',
+              title: 'Day number',
+              type: 'number',
+              validation: (Rule) => Rule.required().min(1).integer(),
+            }),
+            defineField({
+              name: 'title',
+              title: 'Day title',
+              description: 'e.g. "Arrival in Cairo" or "Felucca to Aswan"',
+              type: 'internationalizedArrayString',
+            }),
+            defineField({
+              name: 'cities',
+              title: 'Cities visited this day',
+              type: 'array',
+              of: [{ type: 'reference', to: [{ type: 'city' }] }],
+            }),
+            defineField(
+              localizedPortableTextField('morning', {
+                title: 'Morning',
+                description: 'Morning activity narrative. Migrated from WP source where applicable; operator may enrich.',
+              }) as any
+            ),
+            defineField({
+              name: 'lunch',
+              title: 'Lunch',
+              description: 'Lunch context — typically a restaurant name or short description.',
+              type: 'internationalizedArrayString',
+            }),
+            defineField(
+              localizedPortableTextField('afternoon', {
+                title: 'Afternoon',
+                description: 'Afternoon activity narrative.',
+              }) as any
+            ),
+            defineField({
+              name: 'meals',
+              title: 'Meals included',
+              description: 'e.g. "Breakfast, Dinner". Operator-authored.',
+              type: 'internationalizedArrayString',
+            }),
+            defineField({
+              name: 'accommodation',
+              title: 'Accommodation',
+              description: 'Hotel or cruise name for the night. Operator-authored.',
+              type: 'internationalizedArrayString',
+            }),
+            defineField({
+              name: 'highlights',
+              title: 'Day highlights',
+              description: 'Short list of what makes this day distinctive. Operator-authored.',
+              type: 'array',
+              of: [
+                {
+                  type: 'object',
+                  fields: [
+                    defineField({
+                      name: 'value',
+                      title: 'Day highlights (per locale)',
+                      type: 'array',
+                      of: [{ type: 'string' }],
+                    }),
+                  ],
+                  preview: {
+                    select: { key: '_key', count: 'value' },
+                    prepare({ key, count }: any) {
+                      return {
+                        title: `Day highlights — ${key?.toUpperCase()}`,
+                        subtitle: `${count?.length || 0} items`,
+                      };
+                    },
+                  },
+                },
+              ],
+            }),
+            defineField({
+              name: 'transport',
+              title: 'Transport',
+              description: 'e.g. "Flight to Aswan; private car to hotel". Operator-authored.',
+              type: 'internationalizedArrayString',
+            }),
+            defineField({
+              name: 'suggestedActivities',
+              title: 'Suggested activities',
+              description: 'Optional add-ons or recommendations for free time. Operator-authored.',
+              type: 'array',
+              of: [
+                {
+                  type: 'object',
+                  fields: [
+                    defineField({
+                      name: 'value',
+                      title: 'Suggested activities (per locale)',
+                      type: 'array',
+                      of: [{ type: 'string' }],
+                    }),
+                  ],
+                  preview: {
+                    select: { key: '_key', count: 'value' },
+                    prepare({ key, count }: any) {
+                      return {
+                        title: `Suggested activities — ${key?.toUpperCase()}`,
+                        subtitle: `${count?.length || 0} items`,
+                      };
+                    },
+                  },
+                },
+              ],
+            }),
+            defineField({
+              name: 'paceRating',
+              title: 'Pace rating',
+              description: '1 (relaxed) to 5 (intense). Operator-authored.',
+              type: 'number',
+              validation: (Rule) => Rule.min(1).max(5).integer(),
+            }),
+            defineField({
+              name: 'photoSpots',
+              title: 'Photo spots',
+              description: 'Notable photo opportunities for the day. Operator-authored.',
+              type: 'array',
+              of: [
+                {
+                  type: 'object',
+                  fields: [
+                    defineField({
+                      name: 'value',
+                      title: 'Photo spots (per locale)',
+                      type: 'array',
+                      of: [{ type: 'string' }],
+                    }),
+                  ],
+                  preview: {
+                    select: { key: '_key', count: 'value' },
+                    prepare({ key, count }: any) {
+                      return {
+                        title: `Photo spots — ${key?.toUpperCase()}`,
+                        subtitle: `${count?.length || 0} items`,
+                      };
+                    },
+                  },
+                },
+              ],
+            }),
+          ],
+          preview: {
+            select: {
+              dayNumber: 'dayNumber',
+              title: 'title',
+            },
+            prepare(selection: { dayNumber?: number; title?: Array<{ _key: string; value?: string }> }) {
+              const { dayNumber, title } = selection;
+              const en = Array.isArray(title) ? title.find((t) => t._key === 'en')?.value : undefined;
+              return {
+                title: `Day ${dayNumber ?? '?'}${en ? ` — ${en}` : ''}`,
+                media: CalendarIcon,
+              };
+            },
+          },
+        },
+      ],
+    }),
+    defineField({
       name: 'highlights',
       title: 'Highlights',
       description: 'Bullet experience moments — what the visitor will actually do.',
@@ -185,9 +361,9 @@ export const tourSchema = defineType({
     ),
     defineField(
       localizedPortableTextField('itinerary', {
-        title: 'Itinerary',
+        title: 'Legacy itinerary (deprecated)',
         description:
-          'Day-by-day or hour-by-hour itinerary. Use heading 3 for day labels (e.g. "Day 1 — Cairo arrival").',
+          'Deprecated freeform itinerary PT. Superseded by Itinerary days above. Kept temporarily so production tours keep rendering during the frontend transition; do not edit on new tours.',
         group: 'itinerary',
       }) as any
     ),
