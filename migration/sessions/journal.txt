@@ -11,3 +11,16 @@ Editorial cleanup: Pair A duplicate deletion; Cairo Pair B disambiguation pendin
 Phase 3.5 cities walked deep: Cairo, Giza, Aswan, Al Fayoum, Alexandria, Luxor (6 of 41)
 Operator followups: 10 tracks captured (Track 7 reserved); Track 6 = 46 monuments to author pre-launch
 Next session (Session 8): Phase 3.5b — remaining 35 cities at standard depth; potentially Track 9 archaeological-site enum
+
+=== Session 8 (2026-05-08) ===
+Status: Phase 3.5 walkthrough COMPLETE (35 remaining cities + 2 misroute corrections); Track 9 archaeological-site enum implemented
+Deliverable: 35 cities reviewed at standard depth; 2 wikiMonument misroutes corrected (Hatshepsut Abu Simbel→Luxor, Sahure Al Arish→Giza); schema enum addition + 3 reclassifications (necropolis→archaeological-site for Saqqara, Abusir, Dahshur)
+Commit: 45e268e (no-ff merge of session-8-actual-write into main; work commit 42b64a8)
+Tests: 677/677 (no test changes; schema enum addition didn't affect cardinality)
+Cohort: 134 wikiMonuments, 26 populated cities (was 27; Al Arish dropped post-Sahure-reroute), 134 placesToGo refs, 1:1 forward-inverse parity preserved
+monumentType distribution shift: necropolis 5→2, archaeological-site 0→3
+Track 6 (pre-launch editorial work): ~77 items captured across 8 sub-sections (A-H); ~29 new this session in G+H
+Track 9: implemented (schema + i18n + reclassifications); future authoring of Track 6 D/E/F sites can use archaeological-site enum
+Track 11: expanded (Qena Dendera editorial review + Phase 3.5b polish items)
+Phase 3.5 walkthrough COMPLETE (all 41 cities reviewed across Sessions 7-8)
+Next session (Session 9): tours/hotels/cruises cohort + Pre-flight Gate A (Elementor whitelist for HTML→PortableText transformer) per session-8-handoff.md
