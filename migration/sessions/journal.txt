@@ -24,3 +24,37 @@ Track 9: implemented (schema + i18n + reclassifications); future authoring of Tr
 Track 11: expanded (Qena Dendera editorial review + Phase 3.5b polish items)
 Phase 3.5 walkthrough COMPLETE (all 41 cities reviewed across Sessions 7-8)
 Next session (Session 9): tours/hotels/cruises cohort + Pre-flight Gate A (Elementor whitelist for HTML→PortableText transformer) per session-8-handoff.md
+
+=== Session 9 (2026-05-11) ===
+Status: Phase 1 (architectural decisions captured) + Phase 2 (tour cohort migration) COMPLETE. 12 tour docs written to migration-staging; Studio QA round 1 surfaced 4 content-quality issues, all resolved via mapper + schema refinements and a clean re-import (Phase 2b.d.4).
+Deliverable: 12 tour docs in migration-staging (4 packages, 8 dayTours); tour schema days[] array with 13-field tourDay shape + morning/lunch/afternoon unified day model; mapper rewrite (80 → ~520 lines) consuming `_elementor_data` JSON via three extraction paths (modern nested-tabs, older accordion-direct, private-car-and-guide); 9 classifier reroutes; 1 SLUG_CITY_OVERRIDES entry; HTML transformer ChatGPT-export-wrapper unwrap.
+Tests: 669/669 (test:overrides 422 — net -8 from 430: 12 defer-loop assertions removed for the 4 reroutes, 4 negative-regression assertions added).
+Cohort: 12/12 tours present in migration-staging via createOrReplace; 0 errors; 8 of 12 carry heroImage refs (real Sanity asset hashes via content-hash idempotency); 0 SLUG_CITY_OVERRIDES-required misroutings remain (4/4 non-Cairo refs verified — aswan, cairo, luxor via slug-prefix; marsa-alam via override).
+
+Key decisions:
+- Unified day model: morning (PT) + lunch (i18n string) + afternoon (PT) as the per-day shape regardless of dayTour (1-entry days[]) vs package (N-entry days[]).
+- Three mapper extraction paths driven by structural detection: modern uses nested-tabs[0..3] for Overview/Itinerary/Dates/FAQs; older walks flat sections for Overview heading + accordion; private-car-and-guide routes the single-tab accordion content to top-level body (not days[]) and extracts pricing from a content-matched html widget.
+- 9 classifier reroutes to EXPLICIT_PAGE_ROUTING → tour-or-package: 4 from Phase 2b.d.1.fix (slugs reversed out of EXPLICIT_DEFER_SLUGS — session 6.5a 8r-2b/8r-2c decision reversal) + 5 from Phase 2b.d.1.fix.2 (Session 6 D5 slugs whose -egypt suffix was being caught by destination-token rule before TOUR_PATTERNS could route them).
+- SLUG_CITY_OVERRIDES (1 entry): snorkeling-adventure-on-the-nefertari-submarine → marsa-alam. Pattern reusable for future water-based/named-attraction tours where slug-prefix matching fails.
+- Schema visibility: days[] hidden when dayTourMode === 'private'. Highlights / Inclusions / Exclusions / Legacy itinerary remain visible regardless.
+- Content extraction rules locked in Phase 2b.d.4 from Studio QA:
+  • summary built from first body PT block (≥50 chars) with word-boundary truncation at 240, replacing the WP-excerpt-based path that leaked Elementor tab labels.
+  • Modern package priceIndication empty by design (Dates & Prices tab is transactional pricing-schedule data, not editorial).
+  • Private-car priceIndication clipped at "Group Size" marker (drops pax-break pricing matrix, keeps package descriptions).
+  • Day titles get leading-punctuation strip (:;-–— + whitespace) to handle accordion source markup where the colon sits outside the bold span.
+- Gallery extraction logic preserved in extractOlder but emission disabled at doc-construction (sourceUrl stubs aren't valid Sanity image refs; real asset upload deferred to a later sub-phase).
+
+Lessons:
+- Lesson 21 corollary: grep on `name: 'X'` misses fields constructed via helpers (e.g. localizedPortableTextField). Multiple-grep or direct-read premise verification needed before schema edits.
+- internationalizedArrayString cannot nest inside `array of internationalizedArrayString`. Mirror the top-level highlights pattern instead.
+- Architect-reviewer pattern with STOP gates handled 9 sub-iterations cleanly across 4 phase boundaries.
+- Studio QA round 1 caught 4 content-quality issues invisible to dry-run + harness validation. Dry-run gates correctness; manual Studio QA gates content quality. Both layers stay in the loop for first cohort of each new content type.
+
+Track 11 carryover items captured in migration/sessions/session-7-operator-followups.md:
+- 2 source-data merged-day artifacts (12-day-amazing Day 5; tour-of-egypt Day 14) — operator splits in WP, re-import.
+- 8 city refs requiring per-tour editorial adjustment (1 ramasside → Sharm El-Sheikh; 7 multi-city → per-day cities + top-level adjustment).
+- 4 tours need hero images attached (no featured_media in WP source).
+- Optional priceIndication authoring for 4 modern packages.
+
+Commit: <work commit + audit-trail commit pending on session-9-actual-write; merge to main deferred to separate prompt>
+Next session: operator continues Track 11 editorial pre-cutover work; Session 9.5 considers broader tour cohort (~670 candidates) + hotels + nileCruises per the original Session 9 wider scope.
