@@ -1375,3 +1375,41 @@ When resuming Phase 2:
 2. Verify session-9-actual-write worktree state (no changes since today)
 3. Confirm WP fetches still cached in `.cache/rest/` (gitignored, may persist or may need re-fetch)
 4. Then proceed with Phase 2a schema update
+
+---
+
+## Session 9 Phase 2 close — Track 11 / editorial follow-ups
+
+Phase 2 (tour cohort) shipped 12 docs to migration-staging. Operator Studio QA caught four content-quality issues that were fixed via mapper + schema refinements and a re-import (Phase 2b.d.4). Items below carry forward.
+
+### Source-data merged days (operator splits in WP source before re-import)
+
+1. `12-day-amazing-family-vacation-in-egypt` — WP accordion has "Day 4, 5" combined as a single tab; migrated `days[]` has 11 entries with a gap at Day 5. **Fix path:** split into two tabs in WP, re-run `wp-import` for this slug (the orchestrator's `createOrReplace` semantics handle the re-write atomically).
+2. `tour-of-egypt` — same pattern at Day 14; migrated `days[]` has 17 entries with a gap. Fix path identical.
+
+### Cities follow-ups (operator authors per-tour in Studio editorial)
+
+3. `ramasside-tours` — `cities[]` resolved to Cairo via last-resort fallback; should be Sharm El-Sheikh. Manual edit in Studio.
+4. Seven multi-city tours have `cities[]` = Cairo as last-resort: `essential-egypt`, `tour-of-egypt`, `the-holy-family-trip-in-egypt`, `10-days-felucca-journey-through-egypt`, `12-day-amazing-family-vacation-in-egypt`, `a-9-day-egypt-tour-of-culture-and-history`, `10-day-egypt-travel-journey-through-history`. Per Phase 1 Q4 spec the operator authors per-day `cities` and adjusts top-level `cities` during editorial.
+
+### Content authoring (operator pre-cutover)
+
+5. Modern packages have empty `priceIndication` by design (4 tours). Operator may author "from €X per person" indicative pricing during editorial if desired.
+6. `ramasside-tours` summary leads with "Ramasside Tours: Desert Adventure & Snorkeling Experience Experience…" — source-content title duplication artifact; operator may rewrite.
+7. `cairo-private-car-and-guide` summary is 111 chars (the body's first PT block is a single short sentence). Operator may write a longer summary.
+8. Four tours lack `featured_media` in WP and migrated with no `heroImage`: `12-day-amazing-family-vacation-in-egypt`, `snorkeling-adventure-on-the-nefertari-submarine`, `the-holy-family-trip-in-egypt`, `essential-egypt`. Operator attaches hero images during editorial.
+
+### Mapper / orchestrator polish (future-session candidates, low priority)
+
+9. `cleanDayTitle` strips leading punctuation but doesn't normalize internal double-spaces from inline tag removal. One-line regex addition if the artifact ever surfaces visibly.
+10. `migration/migration-log.jsonl` zero-event scenario: tours bypass the HTML transformer (body comes from `_elementor_data`, not `content.rendered`), so cohort writes that don't trigger errors or upload events produce zero log entries. Per Phase 2b.d.2.verify Step 2 analysis — known by-design behavior, not a bug. Sanity state is the canonical write record; drift assertions for tour cohort need a GROQ anchor rather than the log line count.
+11. Asset-counter undercount in the migration summary: "Uploaded: 0, Reused (idempotent): 0" even when 8 hero asset refs are present in the written docs (Sanity's content-hash idempotency resolved them without an upload event). Cosmetic logging gap, not a data issue.
+12. Orchestrator has no `--expected-cohort-size N` flag. When `--slug-include` filters produce a smaller routed cohort than expected (because some slugs route to `mapCity` or get deferred), the only signal is the summary table row. Caused two iteration rounds in Phase 2b.d.1 → 2b.d.1.fix → 2b.d.1.fix.2. Adding a cohort-size assertion would catch this class of issue earlier.
+
+### Lessons (capture for methodology continuity)
+
+13. **Lesson 21 corollary** — `grep` on `name: 'X'` misses fields constructed via helper functions (e.g. `localizedPortableTextField('body', …)`). Occurred ~3× in this session. Premise-verification gate: use multiple greps including helper-function names, or read the schema file directly when the field surface matters for an edit.
+14. **`internationalizedArrayString` cannot nest inside `array of internationalizedArrayString`** — the Sanity plugin's per-locale wrapper can't nest inside another array. Mirror the top-level `highlights` pattern instead: per-locale object wrapper with `_key` locale + `value` array of strings, custom preview prepare.
+15. **Architect-reviewer pattern with STOP gates between consequential actions worked well for this session.** Worktree on `session-9-actual-write`, four phases (2a-i schema, 2b mapper rewrite, 2b.d orchestrator integration, 2b.d.4 Studio-QA-driven fixes), nine sub-iterations, all converged cleanly without rollbacks.
+16. **Studio QA round 1 caught 4 content-quality issues invisible to harness + orchestrator dry-run**: summary junk prefix (Elementor tab labels leaking via WP excerpt path), transactional `priceIndication` content (date schedules + pax matrices), day-title `:` artifacts (punctuation outside the `<span class="bold">` source markup), schema `days[]` visibility for `dayTourMode === 'private'`. Lesson: dry-run validation gates correctness (mapper produces valid docs); manual Studio QA gates content quality (mapper produces *good* docs). Both layers remain in the loop for the first cohort of each new content type.
+

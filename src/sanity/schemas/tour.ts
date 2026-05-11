@@ -147,6 +147,7 @@ export const tourSchema = defineType({
         'Day-by-day tour itinerary. Mapper populates dayNumber, title, cities, morning, lunch, and afternoon; operator enriches the remaining fields during editorial pass.',
       type: 'array',
       group: 'itinerary',
+      hidden: ({ document }) => (document as { dayTourMode?: string })?.dayTourMode === 'private',
       of: [
         {
           type: 'object',

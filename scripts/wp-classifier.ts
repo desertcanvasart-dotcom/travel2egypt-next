@@ -514,6 +514,21 @@ export const EXPLICIT_PAGE_ROUTING: Record<string, PageType> = {
   'cairo-private-car-and-guide': 'tour-or-package',
   'aswan-private-car-and-guide': 'tour-or-package',
   'luxor-private-car-and-guide': 'tour-or-package',
+  // Session 9 Phase 2b.d.1.fix: 4 slugs previously deferred (8r-2b/8r-2c)
+  // now migrate as tour cohort per Phase 1 architectural scope reversal.
+  'ramasside-tours': 'tour-or-package',
+  'snorkeling-adventure-on-the-nefertari-submarine': 'tour-or-package',
+  'a-9-day-egypt-tour-of-culture-and-history': 'tour-or-package',
+  '10-day-egypt-travel-journey-through-history': 'tour-or-package',
+  // Session 9 Phase 2b.d.1.fix.2: 5 Session 6 D5 slugs ("redirect /tours/, don't
+  // migrate") now migrate as tour cohort per Phase 1 Q1. Required because each
+  // ends in `-egypt`, which the destination-token rule catches before
+  // TOUR_PATTERNS gets a chance, misrouting these to mapCity.
+  '12-day-amazing-family-vacation-in-egypt': 'tour-or-package',
+  'essential-egypt': 'tour-or-package',
+  'the-holy-family-trip-in-egypt': 'tour-or-package',
+  '10-days-felucca-journey-through-egypt': 'tour-or-package',
+  'tour-of-egypt': 'tour-or-package',
   // Investigation 3 (Q4): redirect-only stub — movement-guide → ways-to-get-to-taba
   // at cutover. service-or-utility routes through mapServiceStub which preserves
   // the WP body (editorial triage context) and emits a redirect entry.
@@ -645,10 +660,13 @@ export const EXPLICIT_DEFER_SLUGS: Set<string> = new Set([
   'multiday-adventure-and-safari-tours',
   'private-day-tours',
   'sinai-quest-adventures',
-  'ramasside-tours',
-  'snorkeling-adventure-on-the-nefertari-submarine',
-  'a-9-day-egypt-tour-of-culture-and-history',
-  '10-day-egypt-travel-journey-through-history',
+  // (Session 9 Phase 2b.d.1.fix: ramasside-tours,
+  // snorkeling-adventure-on-the-nefertari-submarine,
+  // a-9-day-egypt-tour-of-culture-and-history,
+  // 10-day-egypt-travel-journey-through-history moved from defer to
+  // EXPLICIT_PAGE_ROUTING → tour-or-package above. They now migrate as
+  // tour cohort. 8r-2b/8r-2c decision reversed by Phase 1 architectural
+  // scope: "12 deferred slugs only" cohort.)
 
   // 8r-2b/8r-2c: regional ticket-prices pages → cutover redirect to
   // /attractions-and-ticket-prices/.
