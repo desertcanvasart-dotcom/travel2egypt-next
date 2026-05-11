@@ -629,6 +629,7 @@ async function seed() {
     _id: 'tour-egypt-in-depth-14',
     _type: 'tour',
     type: 'package',
+    dayTourMode: 'private',
     theme: { _type: 'reference', _ref: inDepthTheme._id },
     cities: [
       { _type: 'reference', _ref: cairo._id, _key: 'cairo' },
@@ -1068,6 +1069,7 @@ async function seed() {
     _id: 'tour-classic-egypt-8',
     _type: 'tour',
     type: 'package',
+    dayTourMode: 'private',
     theme: { _type: 'reference', _ref: inDepthTheme._id },
     cities: [
       { _type: 'reference', _ref: cairo._id, _key: 'cairo' },
@@ -1107,6 +1109,7 @@ async function seed() {
     _id: 'tour-family-egypt-10',
     _type: 'tour',
     type: 'package',
+    dayTourMode: 'private',
     theme: { _type: 'reference', _ref: familyTheme._id },
     cities: [
       { _type: 'reference', _ref: cairo._id, _key: 'cairo' },
