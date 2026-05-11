@@ -58,6 +58,7 @@ export const wikiMonumentSchema = defineType({
           { title: 'Obelisk', value: 'obelisk' },
           { title: 'Colossus / statue', value: 'colossus' },
           { title: 'Necropolis', value: 'necropolis' },
+          { title: 'Archaeological site', value: 'archaeological-site' },
           { title: 'Church', value: 'church' },
           { title: 'Mosque', value: 'mosque' },
           { title: 'Monastery', value: 'monastery' },

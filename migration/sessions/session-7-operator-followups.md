@@ -500,6 +500,10 @@ Unlike temples built for public ceremonies, these tombs were deeply symbolic and
 
 **monumentType (proposed):** `mortuary-temple`
 
+**Update (Session 8 Phase 3.5b):** Hatshepsut Temple wikiMonument doc was DISCOVERED to exist in cohort but misrouted to Abu Simbel during initial migration. Body content (verified in Session 8) describes Deir el-Bahari, Luxor's West Bank, correctly. Session 8 executed 3-part Sanity reroute (monument city._ref → Luxor; Abu Simbel placesToGo unset; Luxor placesToGo append). Status changed from "needs new authoring" to "**body enrichment recommended** + reroute already complete."
+
+The provided source material below remains useful for body enrichment, but no fresh authoring is needed — the doc exists with adequate baseline body content. Operator may decide whether to enrich the existing body or accept it as-is.
+
 **Source material (operator-provided):**
 
 Rising dramatically against the limestone cliffs of Deir el-Bahari, the Temple of Hatshepsut is one of the most elegant and architecturally revolutionary monuments of ancient Egypt. Built during the 18th Dynasty for Queen Hatshepsut, one of the very few women to rule Egypt as pharaoh, the temple was designed not simply as a mortuary sanctuary, but as a bold political statement carved into the landscape itself.
@@ -773,6 +777,151 @@ Modern restoration work has helped recover part of the original grandeur of Amen
 | F | Luxor | 13 | — | 13 (11 new + 2 body updates) |
 | **Total** | — | **34 priority** | **12 deferred** | **46 items** |
 
+### G. Phase 3.5b walkthrough — surfaced absences (Siwa, Abu Simbel)
+
+Surfaced during Session 8 Phase 3.5b walkthrough (Batch 1 medium cohorts). These are absences in current cohort that operator confirmed worth capturing for future authoring. Lighter capture than sub-sections D-F (no inline source material; absence-name + brief context only).
+
+#### G.1 — Siwa Oasis (2 absences)
+
+1. **Cleopatra's Bath (Spring of Juba / Ain Juba)** — natural mineral spring near Aghurmi village in Siwa Oasis. Iconic Siwan tourist stop where Cleopatra allegedly bathed. Tourists visit alongside Temple of the Oracle (which IS in cohort). `monumentType: other` (natural feature, no enum fits)
+   - Pre-launch priority: Medium (Siwa visitors expect to see this on tour itineraries)
+
+2. **Mountain of the Dead (Gebel el-Mawta)** — rock-cut tombs from Greco-Roman period on a hill near Shali Fortress. Notable individual tombs include Tomb of Si-Amun. `monumentType: tomb` or `necropolis` (cluster of tombs)
+   - Pre-launch priority: Medium (specialty Siwa archaeology interest)
+
+#### G.2 — Abu Simbel (1 absence)
+
+1. **Small Temple of Abu Simbel (Nefertari's Temple)** — Hathor-dedicated temple at Abu Simbel, smaller companion to the Great Temple. Built for Nefertari, Ramesses II's beloved queen. `monumentType: temple`
+   - Pre-launch priority: **High** — iconic monument; absence is glaring (Abu Simbel has just 3 entries post-Hatshepsut-reroute; the Small Temple is one of the two main Abu Simbel monuments)
+
+**Note:** Phase 3.5b standard depth (vs Session 7 deep cities) means absence captures are absence-name-only (no inline source material). Operator authors body content at editorial time using web research or operator knowledge.
+
+### H. Phase 3.5b Batch 3 — Tier 1 empty cities (7 cities with heritage gaps)
+
+Surfaced during Session 8 Phase 3.5b Batch 3 walkthrough (review of 14 empty cities, those with 0 placesToGo entries). Architect classified 7 cities as Tier 1 — genuinely have heritage monuments worth authoring, current empty state is an editorial gap not by-design. The other 7 empty cities (Tier 2: Hurghada, Dahab, Marsa Alam, Marsa Matruh, Nuweiba, Ras Sudr, Safaga) are correctly empty — modern resort/beach towns without significant heritage monument inventory.
+
+Tier 1 entries below capture absence-names with brief context. No inline source material (matches Track 6 sub-section G "standard depth" pattern; lighter than sub-sections D/E/F). Operator should research and author body content at editorial time.
+
+#### H.1 — Rosetta Rasheed
+
+Historic Mediterranean port city near Alexandria. The Rosetta Stone (key to deciphering hieroglyphs) was discovered here in 1799. Multiple heritage absences:
+
+- **Qaitbay Fort of Rashid (Rosetta Fort)** — Mamluk-era fortification at the Nile-Mediterranean confluence; the site where the Rosetta Stone was found. `monumentType: fortress`
+- **Mosque of Zaghloul** — Ottoman-era mosque, prominent local landmark. `monumentType: mosque`
+- **Ramadan House (Bayt Ramadan)** — 17th-century Ottoman merchant house, characteristic Rasheed architecture. `monumentType: other` (historic house, no enum)
+- **Arab Killy House (Bayt Arab Killy)** — Ottoman-era merchant residence. `monumentType: other`
+- **El-Amasyali House** — preserved Ottoman house with characteristic mashrabiya windows. `monumentType: other`
+
+**Pre-launch priority:** High — Rosetta has international name recognition (Rosetta Stone); zero placesToGo is editorially weak
+
+#### H.2 — Dakhla Oasis
+
+Western Desert oasis, paired naturally with the Bahariya/Farafra/Kharga/Siwa oasis circuit (which has placesToGo entries). Real heritage:
+
+- **Al-Qasr (Old Qasr)** — fortified medieval Islamic village with surviving mudbrick houses and narrow alleys. `monumentType: archaeological-site` (per Track 9) or `other`
+- **Deir el-Hagar Temple** — Roman-period temple to Amun-Re, Mut, and Khonsu; well-preserved. `monumentType: temple`
+- **Balat Tombs** — Old Kingdom mastaba cluster near Balat village. `monumentType: tomb` or `necropolis`
+- **Bashendi village** — preserved traditional Dakhla mudbrick village; historical houses. `monumentType: other`
+- **Ethnographic Museum of Dakhla** — local museum showcasing Western Desert culture. `monumentType: museum`
+
+**Pre-launch priority:** High — major Western Desert tourist destination; empty placesToGo undermines oasis circuit narrative
+
+#### H.3 — Al Minya
+
+Middle Egypt city, gateway to Beni Hasan and Tell el-Amarna. Substantial heritage:
+
+- **Beni Hasan Tombs** — Middle Kingdom rock-cut tombs with famous wall paintings (Khnumhotep II tomb especially). `monumentType: rock-cut-tomb` or `tomb`
+- **Tuna el-Gebel Necropolis** — Greco-Roman necropolis with the Tomb of Petosiris, plus catacombs of sacred ibis and baboon burials. `monumentType: necropolis`
+- **Tell el-Amarna (Akhetaten)** — Akhenaten's heretic-period capital city ruins. `monumentType: archaeological-site` (per Track 9)
+- **Royal Tomb of Akhenaten (Tell el-Amarna)** — Akhenaten's burial chamber. `monumentType: tomb` or `rock-cut-tomb`
+- **Speos Artemidos (Stabl Antar)** — rock-cut temple of Hatshepsut and Thutmose III. `monumentType: temple` or `rock-cut-tomb`
+- **Frazer Tombs** — Old Kingdom mastaba field. `monumentType: necropolis`
+
+**Pre-launch priority:** **Highest** — Middle Egypt is a major archaeological region (Beni Hasan + Amarna are world-famous); empty placesToGo is a critical gap
+
+#### H.4 — Bahariya Oasis
+
+Western Desert oasis with notable Greco-Roman heritage:
+
+- **Valley of the Golden Mummies** — famous Greco-Roman necropolis with gilded mummies discovered in 1996. `monumentType: necropolis`
+- **Temple of Alexander the Great** — only confirmed temple in Egypt dedicated to Alexander; in Bahariya village of Qasr Allam. `monumentType: temple`
+- **Tomb of Bannentiu** — Greco-Roman painted tomb. `monumentType: tomb`
+- **Black Desert** — natural landscape feature; volcanic-black-topped mesas. `monumentType: other` (natural feature)
+- **Bahariya Oasis Museum (Mummies Museum)** — small museum displaying golden mummies. `monumentType: museum`
+
+**Pre-launch priority:** High — Valley of the Golden Mummies has international press recognition; Alexander temple is unique
+
+#### H.5 — Akhmim
+
+Upper Egypt city in Sohag governorate area. Real heritage:
+
+- **Akhmim Open-Air Museum (Meret Amun Colossus)** — colossal statue of Princess Meret Amun, daughter of Ramesses II. `monumentType: colossus`
+- **Temple of Akhmim** — partial remains of Ramesses II temple. `monumentType: temple`
+- **Monastery of Apa Shenoute (Red Monastery sister site)** — Coptic monastery, lesser-visited counterpart to Sohag's monasteries. `monumentType: monastery`
+
+**Pre-launch priority:** Medium — specialty interest; pairs well with Sohag's existing entries (Abydos, White Monastery, Red Monastery)
+
+#### H.6 — Ismailia
+
+Suez Canal Zone city. Limited but present heritage:
+
+- **Ismailia Museum** — regional antiquities museum; collection from Eastern Delta and Sinai. `monumentType: museum`
+- **Garden of the Stelae** — open-air display of ancient stelae near the museum. `monumentType: other`
+- **Lake Timsah** — natural feature, Suez Canal staging point. `monumentType: other`
+
+**Pre-launch priority:** Low-Medium — minor regional interest; not a primary tourist destination
+
+#### H.7 — Suez
+
+Suez Canal southern terminus city. Limited heritage:
+
+- **Suez War Memorial Museum** — modern memorial museum; 1973 war and Suez Canal history. `monumentType: museum`
+- **Ain Sukhna ruins** — minor archaeological remains near Ain Sukhna (between Suez and Ras Sudr). `monumentType: archaeological-site` (per Track 9) or `other`
+
+**Pre-launch priority:** Low — modern-history-focused; minor cohort coverage
+
+**Tier 2 cities — confirmed intentionally empty** (no Track 6 entries needed):
+
+- **Hurghada** — modern Red Sea resort; no heritage monuments
+- **Dahab** — Sinai backpacker beach town; no heritage monuments
+- **Marsa Alam** — modern Red Sea resort; no heritage monuments
+- **Marsa Matruh** — Mediterranean coastal town; minor Roman ruins (Cleopatra's Beach is geographic feature only); not Tier 1 priority
+- **Nuweiba** — Sinai beach town; minor heritage
+- **Ras Sudr** — Sinai resort area; very minor heritage
+- **Safaga** — Red Sea industrial port + resort; minor heritage
+
+These cities' empty placesToGo is correct — they're destination guides for non-heritage tourism (beach, diving, desert adventure) rather than monument hubs.
+
+**Plus Al Arish** (post-Sahure-reroute): Sinai Mediterranean coastal city. Sahure pyramid was incorrectly routed here; after correction, Al Arish has 0 placesToGo. Currently no Tier 1 heritage entries identified (Mediterranean Sinai coast doesn't have major monument inventory in the WP source). Confirmed correctly empty by Phase 3.5b classification.
+
+**Recommendation summary** for sub-section H:
+
+- Total Tier 1 absences captured: ~28 monuments across 7 cities
+- Estimated editorial time: ~15-30 min per monument × 28 = ~7-14 hours total
+- Should land in respective city placesToGo arrays after authoring
+- Tier 2 cities (7 + Al Arish = 8) explicitly captured as intentionally empty — no future authoring needed
+
+**Pre-launch priority** for sub-section H:
+
+- **Highest:** Al Minya (Beni Hasan + Tell el-Amarna are world-class archaeology)
+- **High:** Rosetta Rasheed, Dakhla Oasis, Bahariya Oasis
+- **Medium:** Akhmim
+- **Low-Medium:** Ismailia, Suez
+
+**Cumulative Track 6 totals (post-sub-section-H append):**
+
+| Sub-section | City | Items | Type |
+|---|---|---:|---|
+| A | Cairo | 4 | absences |
+| B | Giza | 4 | 3 absences + 1 body update |
+| C | Aswan | 3 | absences |
+| D | Al Fayoum | 12 | 7 inline + 5 deferred |
+| E | Alexandria | 10 | 3 inline + 7 deferred |
+| F | Luxor | 13 | 11 new + 2 body updates |
+| G | Siwa + Abu Simbel | 3 | brief-absence captures |
+| H | 7 Tier-1 empty cities | ~28 | brief-absence captures |
+| **Total** | — | **~77 items** | Across 8 sub-sections, all of Phase 3.5 + 3.5b walkthrough cities |
+
 ## Track 8: Visual Itinerary / Travel Infographic Content Type
 
 ### A. Concept
@@ -811,7 +960,7 @@ Operator was asked: "would this content type replace existing travel guides or s
 **DEFER TO POST-LAUNCH.** Specifically:
 
 - ❌ Not Session 7 (would derail the wikiMonument migration core deliverable)
-- ❌ Not Session 8 (tours/hotels/cruises cohort is already substantial)
+- ❌ Not Session 8 (Session 8 scope is Phase 3.5b — remaining 35 cities at standard depth, Track 9 archaeological-site enum, and operator Studio cleanup batch; tours/hotels/cruises cohort deferred to Session 9 or later per operator scope decision May 8 2026)
 - ❌ Not Session 9 (manual redirects + Phase 2 relink — different concern)
 - ❌ Not Sessions 10/10.5/11 (concierge, GEO/SEO, cutover — all launch-critical)
 - ✅ **Target: Session 12+ (post-launch product enhancement)**
@@ -895,6 +1044,40 @@ Could be a small carve-out within Session 9 (alongside other schema enrichment w
 - **Q:** Add `archaeological-site` enum value? — *"Yes, add as part of pre-launch work"* ✓
 - **Q:** Where in process? — *"Separate Track 9, distinct from per-monument authoring (Track 6)"* ✓
 
+### J. Implementation status (Session 8 — 2026-05-08)
+
+**Phase A — Schema + i18n + deploy (executed):**
+- Added `archaeological-site` enum value to `src/sanity/schemas/wikiMonument.ts` (after `necropolis`)
+- Added i18n translations to messages/en.json, es.json, ja.json
+- Schema loaded at runtime via embedded Next.js Studio (no `sanity deploy` step needed)
+- Observation: Sanity API doesn't enforce schema; validation is client-side only (Studio UI + CLI). This means schema changes are decoupled from content validation.
+
+**Phase B — Reclassifications (executed):**
+- Reclassified 3 necropolis wikiMonument docs to `archaeological-site`:
+  - `the-saqqara-necropolis` (wp-page-69956) → archaeological-site
+  - `abusir-necropolis` (wp-page-69928) → archaeological-site
+  - `dahshur-necropolis` (wp-page-69914) → archaeological-site
+- Single 3-patch atomic transaction (txn `5HUKV5Goy6kU9Eb7xqWkIV`)
+- Cohort gates unchanged: 134 wikiMonuments, 26 populated cities, 134 placesToGo, 0 missing city
+- monumentType distribution: necropolis 5 → 2 (−3); archaeological-site 0 → 3 (+3)
+
+**i18n gap observation (Track 5 scope, not addressed here):**
+
+The `wiki.monumentTypes` namespace in messages/ files is missing translations for 5+ existing enum values (church, mosque, monastery, museum). Track 5 captures this; Track 9 added only the new archaeological-site translation to maintain implementation focus. Future Track 5 work should add the remaining ~15 enum value translations.
+
+**Cohort impact:**
+
+Before Track 9:
+- Cohort had no archaeological-site classifications
+- Saqqara/Abusir/Dahshur necropolises classified as `necropolis`
+
+After Track 9:
+- 3 docs classified as `archaeological-site` (the three Old Kingdom necropolis areas, now treated as multi-monument site-clusters)
+- New enum value available for Track 6 sub-section D and F authoring candidates (Karanis, Tebtunis, Memphis open-air, Deir el-Medina)
+- Other necropolis-type docs retained their `necropolis` classification (2 remaining)
+
+**Schema test status:** 677/677 passing post-reclassification (42 merge + 104 merge-dispatch + 42 scope + 430 overrides + 24 media + 35 reconcile).
+
 ## Track 10: Phase 4 rendering spot-check anomalies
 
 ### Concept
@@ -937,3 +1120,71 @@ This is by-design behavior consistent with i18n best practices (each locale has 
 ### Operator decision captured
 
 - **Q:** Capture Phase 4's two anomalies before Phase 5? — *"Yes — capture both anomalies as Track 10"* ✓
+
+---
+
+## Session 8 Scope Reconciliation (added 2026-05-08)
+
+During Session 8 planning, a scope conflict was identified between two planning documents:
+
+- `session-8-handoff.md` (committed 2026-05-05): proposed Session 8 = tours/hotels/cruises cohort + Pre-flight Gate A (Elementor whitelist)
+- `journal.txt` Session 7 close entry (committed 2026-05-08): proposed Session 8 = Phase 3.5b (remaining 35 cities)
+
+Operator (Islam) reconciled the conflict in favor of the journal entry, citing:
+- Phase 3.5 in Session 7 was a real commitment that wasn't fully delivered; closing it first respects work-in-progress
+- 35 cities at standard depth is predictable, low-risk continuation
+- Track 6 needs Phase 3.5 complete before its scope is meaningfully closed
+- Track 9 (archaeological-site enum) is small-scope complementary work
+- Operator Studio cleanups (Pair B titles, Sphinx monumentType, al-azhar monumentType) batch naturally with Phase 3.5b
+
+Session 8 scope: Phase 3.5b + Track 9 + operator Studio cleanup batch
+Session 9 (tentative): tours/hotels/cruises cohort per session-8-handoff.md, plus any spillover from Session 8
+
+This reconciliation note supersedes any prior Track cross-references implying Session 8 = tours/hotels/cruises.
+
+## Track 11: Editorial Review Candidates (Qena Dendera Hierarchy)
+
+### A. Qena's 4 Dendera entries — semantic overlap evaluation
+
+During Session 8 Phase 3.5b walkthrough, Qena's placesToGo array was found to contain 4 entries that form a hierarchical content structure:
+
+| Slug | WP parent | Body focus |
+|---|---|---|
+| `dendera-village` | (root) | Locality/area surrounding the complex (60km north of Luxor) |
+| `the-temple-of-dendera` | qena-travel-guide | Canonical complex overview (editorial spine) |
+| `the-temple-of-hathor` | (root) | Main temple inside the complex |
+| `the-temple-precinct` | (root) | Architectural element (enclosure wall + Domitian's Gateway) |
+
+**Status:** All 4 confirmed distinct (not migration duplicates — each has ~2,000 char body with distinct opening focus). NO cleanup action needed.
+
+**Editorial review question for operator:**
+
+In archaeological literature, "Temple of Dendera" and "Temple of Hathor" are often used interchangeably — the main temple of the Dendera complex IS the Temple of Hathor. The 4-entry structure raises an editorial choice:
+
+- **Keep as-is (4 distinct pages):** SEO/coverage breadth, hierarchical navigation (village → complex → main temple → precinct), each page targets different search intents
+- **Consolidate (merge Hathor into Dendera):** clearer for non-specialist readers, reduces ambiguity, fewer thin pages
+
+Recommendation: defer to operator editorial judgment during pre-launch content review. The current structure is internally consistent; consolidation is an editorial preference, not a migration error.
+
+**Target session:** Operator review at any point before Phase 11 cutover; not blocking
+**Pre-launch priority:** Low — current structure is shippable
+
+### B. Phase 3.5b Editorial Polish Items
+
+Surfaced during Session 8 Phase 3.5b walkthrough. Each item is a minor editorial polish, not a migration error.
+
+1. **Farafra `fortress` slug rename**
+   - Current slug: `fortress` (overly generic)
+   - Body describes Qasr el-Farafra, the medieval mud-brick village fortress
+   - Recommended slug: `qasr-el-farafra` or `farafra-fortress`
+   - Action: rename slug + add 301 redirect from old slug → new slug (per Track 10 pattern)
+   - Target session: Session 11 (pre-launch QA) or operator Studio session
+   - Pre-launch priority: Low
+
+2. **Saint Catherine `library-of-the-monastery` monumentType**
+   - Current monumentType: `monastery`
+   - Doc describes the library inside Saint Catherine Monastery (not a monastery itself)
+   - Recommended: `other` (no enum value fits "library"); or consider `archaeological-site` if treating it as part of the monastery complex (Track 9)
+   - Action: operator Studio decision; may or may not require schema enum addition
+   - Target session: paired with Track 9 archaeological-site schema work
+   - Pre-launch priority: Low
