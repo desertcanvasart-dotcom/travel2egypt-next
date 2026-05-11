@@ -58,3 +58,13 @@ Track 11 carryover items captured in migration/sessions/session-7-operator-follo
 
 Commit: <work commit + audit-trail commit pending on session-9-actual-write; merge to main deferred to separate prompt>
 Next session: operator continues Track 11 editorial pre-cutover work; Session 9.5 considers broader tour cohort (~670 candidates) + hotels + nileCruises per the original Session 9 wider scope.
+
+Late-stage Studio QA finding: dayTourMode field was originally gated to day tours
+only via hidden predicate. Operator surfaced during re-QA that the private/group
+distinction also applies to packages (private = exclusive booking, group =
+scheduled departure). Fix applied as schema visibility broadening + symmetric
+validation (every tour requires a mode) (kept field
+name dayTourMode; full rename to tourMode captured in operator-followups as
+future maintenance refactor). Lesson: business-domain field gating should be
+verified against the operator's actual taxonomy, not inferred from field-name
+semantics.

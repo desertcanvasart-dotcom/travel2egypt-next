@@ -1406,6 +1406,12 @@ Phase 2 (tour cohort) shipped 12 docs to migration-staging. Operator Studio QA c
 11. Asset-counter undercount in the migration summary: "Uploaded: 0, Reused (idempotent): 0" even when 8 hero asset refs are present in the written docs (Sanity's content-hash idempotency resolved them without an upload event). Cosmetic logging gap, not a data issue.
 12. Orchestrator has no `--expected-cohort-size N` flag. When `--slug-include` filters produce a smaller routed cohort than expected (because some slugs route to `mapCity` or get deferred), the only signal is the summary table row. Caused two iteration rounds in Phase 2b.d.1 → 2b.d.1.fix → 2b.d.1.fix.2. Adding a cohort-size assertion would catch this class of issue earlier.
 
+### Schema refactors (future maintenance session)
+
+- **Rename `dayTourMode` → `tourMode`.** The field name became technically inaccurate at Session 9 Phase 2 close when its visibility was broadened to packages (the private/group distinction applies to both day tours and multi-day packages). The current name is harmless but the cleaner long-term shape is `tourMode`. Requires: schema rename, TypeScript type updates, mapper update (1 reference in `scripts/wp-import/mappers/tour.ts`), test fixture updates if any reference the field, and a Sanity data migration script (`@sanity/client` `.patch().set({ tourMode: doc.dayTourMode }).unset(['dayTourMode']).commit()`) on the 8 existing dayTour docs in migration-staging. Defer to a maintenance session.
+
+- **`packageTheme` field is required at schema but unset for all 4 migrated packages** (no source-data signal in WP for this field). Operator authors during editorial pass per package. If a default makes sense at migration time, add to the mapper's package path.
+
 ### Lessons (capture for methodology continuity)
 
 13. **Lesson 21 corollary** — `grep` on `name: 'X'` misses fields constructed via helper functions (e.g. `localizedPortableTextField('body', …)`). Occurred ~3× in this session. Premise-verification gate: use multiple greps including helper-function names, or read the schema file directly when the field surface matters for an edit.

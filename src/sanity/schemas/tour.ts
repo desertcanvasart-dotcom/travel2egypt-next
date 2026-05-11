@@ -44,9 +44,9 @@ export const tourSchema = defineType({
     }),
     defineField({
       name: 'dayTourMode',
-      title: 'Day tour mode',
+      title: 'Tour mode',
       description:
-        'Only applies to day tours. Private = exclusive for the booking party. Group = shared with other travelers.',
+        'Private = exclusive for the booking party. Group = scheduled departure shared with other travelers.',
       type: 'string',
       group: 'classification',
       options: {
@@ -56,17 +56,8 @@ export const tourSchema = defineType({
         ],
         layout: 'radio',
       },
-      hidden: ({ document }) => document?.type !== 'dayTour',
       validation: (Rule) =>
-        Rule.custom((value, context) => {
-          if (
-            context.document?.type === 'dayTour' &&
-            !value
-          ) {
-            return 'Day tours require a mode (private or group)';
-          }
-          return true;
-        }),
+        Rule.required().error('Every tour requires a mode (private or group)'),
     }),
     defineField({
       name: 'theme',
