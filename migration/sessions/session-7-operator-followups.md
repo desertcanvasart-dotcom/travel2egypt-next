@@ -1420,6 +1420,18 @@ Anyone touching wp-import in a narrow-cohort mode without addressing this first 
 
 **Carry-over from Session 7:** "Add `the-mosque-of-amr-ibn-al-as` → `mosque-of-amr-ibn-al-as` to the redirect map" — original Session 7 followup. Untouched by Session 9 close; remains a Track 11 editorial item.
 
+### Backlog — pre-broader-tour-migration
+
+- **WP category audit for package-type pages.** Goal: extract all WP categories assigned to the ~80–120 package-type pages in the WP corpus, produce a frequency-sorted CSV, surface to editorial for theme inventory decision. Rationale: WP themes live as category pages, not in tour slugs, so the current mapper can't extract them — `theme` is unset on all migrated packages today. This audit must run before the broader tour migration scales beyond the 4 packages currently in staging, so the theme inventory is locked first. Surfaced 2026-05-12 alongside the Phase 2b.d.4 Issue-2 provisional theme assignments (`wp-page-89438` carries `migration.reviewFlag: 'theme-provisional'` as a re-categorization beacon for when Nile Cruise theme exists).
+
+- **Production-to-staging dataset parity.** `migration-staging` had zero theme documents until they were cloned from `production` during the 2026-05-12 Issue 2 fix. `scripts/seed.ts` writes to `production` only. Any tour or page that references a theme (or any other seed-only document type) will have broken refs in staging until the docs are replicated. Options to consider:
+  - Extend `seed.ts` to write to both datasets in one run.
+  - Add a separate sync-to-staging script run after each seed update.
+  - Add ref-resolvability validation to the import mapper (refuse to write a ref that doesn't resolve in the target dataset).
+  - Document the constraint that staging requires manual theme cloning before any package imports.
+  
+  Decision deferred. Surface for review before broader tour migration.
+
 ### Schema refactors (future maintenance session)
 
 - **Rename `dayTourMode` → `tourMode`.** The field name became technically inaccurate at Session 9 Phase 2 close when its visibility was broadened to packages (the private/group distinction applies to both day tours and multi-day packages). The current name is harmless but the cleaner long-term shape is `tourMode`. Requires: schema rename, TypeScript type updates, mapper update (1 reference in `scripts/wp-import/mappers/tour.ts`), test fixture updates if any reference the field, and a Sanity data migration script (`@sanity/client` `.patch().set({ tourMode: doc.dayTourMode }).unset(['dayTourMode']).commit()`) on the 8 existing dayTour docs in migration-staging. Defer to a maintenance session.
