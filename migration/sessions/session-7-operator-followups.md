@@ -1406,6 +1406,20 @@ Phase 2 (tour cohort) shipped 12 docs to migration-staging. Operator Studio QA c
 11. Asset-counter undercount in the migration summary: "Uploaded: 0, Reused (idempotent): 0" even when 8 hero asset refs are present in the written docs (Sanity's content-hash idempotency resolved them without an upload event). Cosmetic logging gap, not a data issue.
 12. Orchestrator has no `--expected-cohort-size N` flag. When `--slug-include` filters produce a smaller routed cohort than expected (because some slugs route to `mapCity` or get deferred), the only signal is the summary table row. Caused two iteration rounds in Phase 2b.d.1 → 2b.d.1.fix → 2b.d.1.fix.2. Adding a cohort-size assertion would catch this class of issue earlier.
 
+### Redirect-map.csv overwrite defect (DISCOVERED Session 9 close; URGENT pre-narrow-cohort fix)
+
+**Behavior:** `scripts/wp-import/redirect-map.ts::writeRedirectMap` uses `writeFileSync` overwrite mode. Each `wp-import` run replaces `migration/redirect-map.csv` (and `redirect-orphans.csv`) with only the current run's entries. Running wp-import for a narrow cohort (e.g. a single content type) silently drops all prior cohorts' redirects from the cutover plan.
+
+**Detected at Session 9 close:** Phase 2b.d.2's 12-tour narrow-cohort write overwrote the file, dropping 393 wikiMonument-cohort redirects from Sessions 7-8 (135 EN + 135 ES + 135 JA + a few miscellaneous travel-guide entries). Restored as a fourth commit on `session-9-actual-write` via main + HEAD union (data-only fix).
+
+**Risk for future sessions:** ANY subsequent narrow-cohort `wp-import` invocation will repeat the silent data loss against the now-restored 471-line cutover plan. Before running another narrow cohort:
+- Option β (recommended): implement read-merge-write semantics in `writeRedirectMap`. Open questions: how to resolve same-`from_url`-with-different-`to_path` conflicts across sessions (newest wins? oldest? error? human review?). Worth dedicated design time, not session-close pressure.
+- Option α-equivalent workaround: run wp-import for the full content union (all types, no `--slug-include`) so the regenerated file naturally contains all cohorts. Heavier each session but no design ambiguity.
+
+Anyone touching wp-import in a narrow-cohort mode without addressing this first will need to do the same union-restore dance.
+
+**Carry-over from Session 7:** "Add `the-mosque-of-amr-ibn-al-as` → `mosque-of-amr-ibn-al-as` to the redirect map" — original Session 7 followup. Untouched by Session 9 close; remains a Track 11 editorial item.
+
 ### Schema refactors (future maintenance session)
 
 - **Rename `dayTourMode` → `tourMode`.** The field name became technically inaccurate at Session 9 Phase 2 close when its visibility was broadened to packages (the private/group distinction applies to both day tours and multi-day packages). The current name is harmless but the cleaner long-term shape is `tourMode`. Requires: schema rename, TypeScript type updates, mapper update (1 reference in `scripts/wp-import/mappers/tour.ts`), test fixture updates if any reference the field, and a Sanity data migration script (`@sanity/client` `.patch().set({ tourMode: doc.dayTourMode }).unset(['dayTourMode']).commit()`) on the 8 existing dayTour docs in migration-staging. Defer to a maintenance session.

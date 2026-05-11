@@ -68,3 +68,15 @@ name dayTourMode; full rename to tourMode captured in operator-followups as
 future maintenance refactor). Lesson: business-domain field gating should be
 verified against the operator's actual taxonomy, not inferred from field-name
 semantics.
+
+Pre-merge defect discovery: redirect-map.csv shrank by 393 lines during Session 9
+Phase 2b.d.2 because writeRedirectMap uses writeFileSync overwrite mode — the
+narrow 12-tour cohort run silently dropped all wikiMonument redirects from
+Sessions 7-8. Diagnosed during pre-merge inspection of git diff stats. Restored
+via union of main + HEAD for both redirect-map.csv and redirect-orphans.csv
+(no from_url key collisions; 100% of lost data was prior-cohort, 0% tour-related).
+Underlying code defect captured in operator-followups as Option β refactor with
+merge-semantics design questions flagged. Lesson: diff-stat reading during
+commit review caught a defect that no test, no harness, and no Studio QA could
+have surfaced — the data loss was in a CSV-side-effect file that no validation
+path inspects.
