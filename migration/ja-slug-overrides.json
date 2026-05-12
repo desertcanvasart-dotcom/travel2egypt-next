@@ -3,7 +3,6 @@
     "slug": "shogai-no-aru-kata-no-ryoko",
     "reason": "Kuromoji parse glitch on 障がい (modern hiragana-mixed spelling of shōgai / 'disability'): algorithm produced 'sawa-gai' (mis-reading 障 as 'sawa', the reading typically used in 障る/sawaru). Also mis-read 方 in polite context as 'ho' instead of 'kata'. Corrected to faithful Hepburn: shogai-no-aru-kata-no-ryoko. Topic is accessibility/disability content where slug fidelity matters for credibility with Japanese-speaking visitors."
   },
-
   "wp-page-60455": {
     "slug": "sei-katarina-no-rekishi",
     "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
@@ -48,17 +47,14 @@
     "slug": "sharumuerusheiku-kara-shinai-san-to-sei-katarina-shudoin",
     "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
   },
-
   "wp-page-145987": {
     "slug": "sharumuerusheiku-kara-erusaremu-to-shikai-e-no-furudeitua",
     "reason": "Kuromoji split 死海 (Dead Sea) into 死/shi + 海/umi. Place-name reading is shikai (compound). Single-doc correction."
   },
-
   "wp-page-87759": {
     "slug": "saradin-josai-kan-eru-kariri-bazaru-kairo",
     "reason": "Kuromoji split サラディン (Saladin) into two katakana tokens (sara/din); should be single foreign-name token. Also fixed inner ・ middle-dot on カリリ・バザール (Khan El Khalili Bazaar) which kuromoji ran together as kariribazaru — should be kariri-bazaru per middle-dot principle."
   },
-
   "wp-page-58729": {
     "slug": "aru-wadhi-aru-gadhido-no-rekishi",
     "reason": "Kuromoji ran the multi-segment katakana アル・ワーディ・アル・ガディード together as aruwadiarugadido. Operator chose Arabic-source dh transliteration (consistent with how the place name is transliterated from Arabic) rather than pure katakana phonetic. Cluster standardization."
@@ -87,7 +83,6 @@
     "slug": "aru-wadhi-aru-gadhido-de-no-ido",
     "reason": "Kuromoji ran the multi-segment katakana アル・ワーディ・アル・ガディード together as aruwadiarugadido. Operator chose Arabic-source dh transliteration (consistent with how the place name is transliterated from Arabic) rather than pure katakana phonetic. Cluster standardization."
   },
-
   "wp-page-86832": {
     "slug": "kairo-puraibeto-dei-tsua",
     "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency."
@@ -124,7 +119,6 @@
     "slug": "asuwan-puraibeto-dei-tsua",
     "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency."
   },
-
   "wp-page-87495": {
     "slug": "eru-gu-na-hatsu-dendera-to-abidosu-shinden-tsua",
     "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (aruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
@@ -172,5 +166,457 @@
   "wp-page-58816": {
     "slug": "eru-gu-na-no-osusume-tsua",
     "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58925": {
+    "slug": "sei-katarina",
+    "reason": "Cluster consistency with sei-katarina guideArticle overrides (11 docs under this city). Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. See city-level cluster decision in session 12 handoff."
+  },
+  "wp-page-58740": {
+    "slug": "eru-gu-na",
+    "reason": "Cluster consistency with el-gouna guideArticle overrides (12 docs under this city). Operator chose international convention El Gouna (eru-gu-na) over kuromoji literal eruguna/aruguna."
+  },
+  "wp-page-58952": {
+    "slug": "aru-wadhi-aru-gadhido",
+    "reason": "Cluster consistency with aru-wadhi-aru-gadhido guideArticle overrides (7 docs under this city). Operator chose Arabic-source dh transliteration over pure katakana phonetic. Source-data note: city JA name has ガ but current JA slug has ジャ — kana variant in source; this override resolves the discrepancy at slug level."
+  },
+  "wp-page-58885": {
+    "slug": "marusa-aramu",
+    "reason": "Cluster consistency: matches marusa-aramu middle-dot override applied to guideArticle wp-page-87001 (Marsa Alam Private Day Tour). Middle-dot principle."
+  },
+  "wp-page-58927": {
+    "slug": "sharumu-eru-sheiku",
+    "reason": "Cluster consistency: matches sharumu-eru-sheiku middle-dot override applied to guideArticle wp-page-86911 (Sharm El Sheikh Private Day Tour). Middle-dot principle."
+  },
+  "wp-page-58633": {
+    "slug": "aru-minya",
+    "reason": "Arabic-prefix recognition. Single-token katakana アルミンヤ has no ・ middle-dot, but アル is the Arabic definite article 'Al-' followed by ミンヤ (Minya). Operator-domain decision to separate the prefix at the city level for cluster consistency with guideArticle content."
+  },
+  "wp-page-58731": {
+    "slug": "wadi-aru-natoron",
+    "reason": "Multi-segment middle-dot fix. Algorithm collapsed ワディ・アル・ナトロン to wadiarunatoron; corrected to preserve all ・ boundaries per uniform middle-dot principle."
+  },
+  "wp-page-58769": {
+    "slug": "bahariya-oashisu",
+    "reason": "Middle-dot fix on [Name]・オアシス (Oasis) compound. Algorithm collapsed the ・ boundary; corrected to preserve it."
+  },
+  "wp-page-58783": {
+    "slug": "dafura-oashisu",
+    "reason": "Middle-dot fix on [Name]・オアシス (Oasis) compound. Algorithm collapsed the ・ boundary; corrected to preserve it."
+  },
+  "wp-page-58849": {
+    "slug": "farafura-oashisu",
+    "reason": "Middle-dot fix on [Name]・オアシス (Oasis) compound. Algorithm collapsed the ・ boundary; corrected to preserve it."
+  },
+  "wp-page-58776": {
+    "slug": "beni-suefu",
+    "reason": "Middle-dot fix on the two-segment place name."
+  },
+  "wp-page-58875": {
+    "slug": "komu-ombo",
+    "reason": "Middle-dot fix on the two-segment place name."
+  },
+  "wp-page-58887": {
+    "slug": "marusa-matorufu",
+    "reason": "Middle-dot fix on the two-segment place name."
+  },
+  "wp-page-58907": {
+    "slug": "rasu-sedoru",
+    "reason": "Middle-dot fix + operator-domain transliteration choice. Algorithm collapsed ラス・スドル to rasusudoru; corrected to rasu-sedoru using international 'Sedr' convention (preferred over literal katakana 'su' reading of スドル)."
+  },
+  "wp-page-58915": {
+    "slug": "rashido",
+    "reason": "Operator-domain editorial choice. Title ロゼッタ・ラシード (Rosetta / Rashid) has both European and Arabic names; slug standardized to Arabic-derived name only. European 'Rosetta' (ロゼッタ) portion dropped."
+  },
+  "wp-page-56813": {
+    "slug": "abu-shinberu",
+    "reason": "Multi-segment middle-dot fix + operator-confirmed strict-Hepburn ン→n for this specific place name. Modified-Hepburn would produce 'abu-shimberu' (ン before bilabial becomes m); operator explicitly preferred the strict-Hepburn 'n' rendering here. Documented exception to the modified-Hepburn default applied elsewhere in the corpus (e.g., komu-ombo)."
+  },
+  "wp-page-58638": {
+    "slug": "aru-minya-no-tsukibetsu-tenki-to-osusume-no-fukuso",
+    "reason": "Cluster consistency: substring aruminya → aru-minya applied per the Al-Minya middle-dot correction. See city-level override wp-page-58633 for parent-level rationale."
+  },
+  "wp-page-58640": {
+    "slug": "aru-minya-e-no-akusesu-no-hinto",
+    "reason": "Cluster consistency: substring aruminya → aru-minya applied per the Al-Minya middle-dot correction. See city-level override wp-page-58633 for parent-level rationale."
+  },
+  "wp-page-58642": {
+    "slug": "aru-minya-no-shukuhaku-joho",
+    "reason": "Cluster consistency: substring aruminya → aru-minya applied per the Al-Minya middle-dot correction. See city-level override wp-page-58633 for parent-level rationale."
+  },
+  "wp-page-58645": {
+    "slug": "aru-minya-no-shinai-ido-hoho-ryoko-sha-muke",
+    "reason": "Cluster consistency: substring aruminya → aru-minya applied per the Al-Minya middle-dot correction. See city-level override wp-page-58633 for parent-level rationale."
+  },
+  "wp-page-58650": {
+    "slug": "aru-minya-no-osusume-no-tsua",
+    "reason": "Cluster consistency: substring aruminya → aru-minya applied per the Al-Minya middle-dot correction. See city-level override wp-page-58633 for parent-level rationale."
+  },
+  "wp-page-58652": {
+    "slug": "aru-minya-no-shoku-bunka-o-saguru",
+    "reason": "Cluster consistency: substring aruminya → aru-minya applied per the Al-Minya middle-dot correction. See city-level override wp-page-58633 for parent-level rationale."
+  },
+  "wp-page-58655": {
+    "slug": "aru-minya-de-mie-zaru-mono-o-hakken-suru",
+    "reason": "Cluster consistency: substring aruminya → aru-minya applied per the Al-Minya middle-dot correction. See city-level override wp-page-58633 for parent-level rationale."
+  },
+  "wp-page-59165": {
+    "slug": "aru-minya-no-akutibiti",
+    "reason": "Cluster consistency: substring aruminya → aru-minya applied per the Al-Minya middle-dot correction. See city-level override wp-page-58633 for parent-level rationale."
+  },
+  "wp-page-60462": {
+    "slug": "aru-minya-no-osusume-tsua",
+    "reason": "Cluster consistency: substring aruminya → aru-minya applied per the Al-Minya middle-dot correction. See city-level override wp-page-58633 for parent-level rationale."
+  },
+  "wp-page-60595": {
+    "slug": "wadi-aru-natoron-no-rekishi",
+    "reason": "Cluster consistency: substring wadiarunatoron → wadi-aru-natoron applied per the Wadi Al-Natrun middle-dot correction. See city-level override wp-page-58731 for parent-level rationale."
+  },
+  "wp-page-60597": {
+    "slug": "wadi-aru-natoron-no-kiko-to-kisetsu",
+    "reason": "Cluster consistency: substring wadiarunatoron → wadi-aru-natoron applied per the Wadi Al-Natrun middle-dot correction. See city-level override wp-page-58731 for parent-level rationale."
+  },
+  "wp-page-60598": {
+    "slug": "wadi-aru-natoron-e-no-iki-kata",
+    "reason": "Cluster consistency: substring wadiarunatoron → wadi-aru-natoron applied per the Wadi Al-Natrun middle-dot correction. See city-level override wp-page-58731 for parent-level rationale."
+  },
+  "wp-page-60599": {
+    "slug": "wadi-aru-natoron-no-shukuhaku-shisetsu",
+    "reason": "Cluster consistency: substring wadiarunatoron → wadi-aru-natoron applied per the Wadi Al-Natrun middle-dot correction. See city-level override wp-page-58731 for parent-level rationale."
+  },
+  "wp-page-60600": {
+    "slug": "wadi-aru-natoron-de-no-ido-hoho",
+    "reason": "Cluster consistency: substring wadiarunatoron → wadi-aru-natoron applied per the Wadi Al-Natrun middle-dot correction. See city-level override wp-page-58731 for parent-level rationale."
+  },
+  "wp-page-60601": {
+    "slug": "wadi-aru-natoron-no-akutibiti",
+    "reason": "Cluster consistency: substring wadiarunatoron → wadi-aru-natoron applied per the Wadi Al-Natrun middle-dot correction. See city-level override wp-page-58731 for parent-level rationale."
+  },
+  "wp-page-60602": {
+    "slug": "wadi-aru-natoron-no-osusume-tsua",
+    "reason": "Cluster consistency: substring wadiarunatoron → wadi-aru-natoron applied per the Wadi Al-Natrun middle-dot correction. See city-level override wp-page-58731 for parent-level rationale."
+  },
+  "wp-page-60604": {
+    "slug": "wadi-aru-natoron-koko-dake-no-taiken",
+    "reason": "Cluster consistency: substring wadiarunatoron → wadi-aru-natoron applied per the Wadi Al-Natrun middle-dot correction. See city-level override wp-page-58731 for parent-level rationale."
+  },
+  "wp-page-58727": {
+    "slug": "bahariya-oashisu-no-kiko",
+    "reason": "Cluster consistency: substring bahariyaoashisu → bahariya-oashisu applied per the Bahariya Oasis middle-dot correction. See city-level override wp-page-58769 for parent-level rationale."
+  },
+  "wp-page-59283": {
+    "slug": "bahariya-oashisu-no-osusume-tsua",
+    "reason": "Cluster consistency: substring bahariyaoashisu → bahariya-oashisu applied per the Bahariya Oasis middle-dot correction. See city-level override wp-page-58769 for parent-level rationale."
+  },
+  "wp-page-59284": {
+    "slug": "oashisu-no-mikaku-bahariya-oashisu-no-shoku-bunka-o-ajiwau",
+    "reason": "Cluster consistency: substring bahariyaoashisu → bahariya-oashisu applied per the Bahariya Oasis middle-dot correction. See city-level override wp-page-58769 for parent-level rationale."
+  },
+  "wp-page-59285": {
+    "slug": "bahariya-oashisu-de-no-ido-hoho",
+    "reason": "Cluster consistency: substring bahariyaoashisu → bahariya-oashisu applied per the Bahariya Oasis middle-dot correction. See city-level override wp-page-58769 for parent-level rationale."
+  },
+  "wp-page-59286": {
+    "slug": "shira-re-zaru-bahariya-oashisu-no-rekishi-o-himotoku",
+    "reason": "Cluster consistency: substring bahariyaoashisu → bahariya-oashisu applied per the Bahariya Oasis middle-dot correction. See city-level override wp-page-58769 for parent-level rationale."
+  },
+  "wp-page-59287": {
+    "slug": "bahariya-oashisu-e-no-akusesu-hoho",
+    "reason": "Cluster consistency: substring bahariyaoashisu → bahariya-oashisu applied per the Bahariya Oasis middle-dot correction. See city-level override wp-page-58769 for parent-level rationale."
+  },
+  "wp-page-59288": {
+    "slug": "bahariya-oashisu-kaiho-michi-no-hakken-ga-anata-o-matsu",
+    "reason": "Cluster consistency: substring bahariyaoashisu → bahariya-oashisu applied per the Bahariya Oasis middle-dot correction. See city-level override wp-page-58769 for parent-level rationale."
+  },
+  "wp-page-59290": {
+    "slug": "bahariya-oashisu-no-osusume-shukuhaku-saki",
+    "reason": "Cluster consistency: substring bahariyaoashisu → bahariya-oashisu applied per the Bahariya Oasis middle-dot correction. See city-level override wp-page-58769 for parent-level rationale."
+  },
+  "wp-page-96707": {
+    "slug": "bahariya-oashisu-no-tanken-gaido",
+    "reason": "Cluster consistency: substring bahariyaoashisu → bahariya-oashisu applied per the Bahariya Oasis middle-dot correction. See city-level override wp-page-58769 for parent-level rationale."
+  },
+  "wp-page-59344": {
+    "slug": "gasutoronomikkujani-beni-suefu-no-shoku-bunka-o-saguru",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-59345": {
+    "slug": "beni-suefu-de-no-ido-hoho",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-59346": {
+    "slug": "jidai-o-koeru-beni-suefu-no-monogatari",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-59347": {
+    "slug": "beni-suefu-no-tadoru-beki-michi",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-59348": {
+    "slug": "beni-suefu-no-hakken-yuniku-na-dosatsu-to-taiken",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-59349": {
+    "slug": "beni-suefu-no-akutibiti",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-59350": {
+    "slug": "beni-suefu-no-shukuhaku-opushon",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-59356": {
+    "slug": "beni-suefu-no-kisetsu-goto-no-tenko",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-59376": {
+    "slug": "beni-suefu-e-no-tsua",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-72323": {
+    "slug": "beni-suefu-no-kanko-chi-chiketto-ryokin",
+    "reason": "Cluster consistency: substring benisuefu → beni-suefu applied per the Beni Suef middle-dot correction. See city-level override wp-page-58776 for parent-level rationale."
+  },
+  "wp-page-59481": {
+    "slug": "dafura-oashisu-de-no-ido-hoho",
+    "reason": "Cluster consistency: substring dafuraoashisu → dafura-oashisu applied per the Dakhla Oasis middle-dot correction. See city-level override wp-page-58783 for parent-level rationale."
+  },
+  "wp-page-59483": {
+    "slug": "rekishi-ni-irodora-re-ta-dafura-oashisu-no-machi-nami",
+    "reason": "Cluster consistency: substring dafuraoashisu → dafura-oashisu applied per the Dakhla Oasis middle-dot correction. See city-level override wp-page-58783 for parent-level rationale."
+  },
+  "wp-page-59493": {
+    "slug": "dafura-oashisu-no-shukuhaku-shisetsu",
+    "reason": "Cluster consistency: substring dafuraoashisu → dafura-oashisu applied per the Dakhla Oasis middle-dot correction. See city-level override wp-page-58783 for parent-level rationale."
+  },
+  "wp-page-59494": {
+    "slug": "dafura-oashisu-no-midokoro-taiken-supotto",
+    "reason": "Cluster consistency: substring dafuraoashisu → dafura-oashisu applied per the Dakhla Oasis middle-dot correction. See city-level override wp-page-58783 for parent-level rationale."
+  },
+  "wp-page-59506": {
+    "slug": "dafura-oashisu-e-no-iki-kata",
+    "reason": "Cluster consistency: substring dafuraoashisu → dafura-oashisu applied per the Dakhla Oasis middle-dot correction. See city-level override wp-page-58783 for parent-level rationale."
+  },
+  "wp-page-94706": {
+    "slug": "dafura-oashisu-no-kiko-to-kisetsu",
+    "reason": "Cluster consistency: substring dafuraoashisu → dafura-oashisu applied per the Dakhla Oasis middle-dot correction. See city-level override wp-page-58783 for parent-level rationale."
+  },
+  "wp-page-59629": {
+    "slug": "jidai-o-koeru-farafura-oashisu-no-monogatari",
+    "reason": "Cluster consistency: substring farafuraoashisu → farafura-oashisu applied per the Farafra Oasis middle-dot correction. See city-level override wp-page-58849 for parent-level rationale."
+  },
+  "wp-page-59634": {
+    "slug": "farafura-oashisu-no-kiko-to-kisetsu",
+    "reason": "Cluster consistency: substring farafuraoashisu → farafura-oashisu applied per the Farafra Oasis middle-dot correction. See city-level override wp-page-58849 for parent-level rationale."
+  },
+  "wp-page-59636": {
+    "slug": "farafura-oashisu-no-shukuhaku-joho",
+    "reason": "Cluster consistency: substring farafuraoashisu → farafura-oashisu applied per the Farafra Oasis middle-dot correction. See city-level override wp-page-58849 for parent-level rationale."
+  },
+  "wp-page-59638": {
+    "slug": "farafura-oashisu-no-kotsu-shudan-matome",
+    "reason": "Cluster consistency: substring farafuraoashisu → farafura-oashisu applied per the Farafra Oasis middle-dot correction. See city-level override wp-page-58849 for parent-level rationale."
+  },
+  "wp-page-59642": {
+    "slug": "farafura-oashisu-no-akutibiti",
+    "reason": "Cluster consistency: substring farafuraoashisu → farafura-oashisu applied per the Farafra Oasis middle-dot correction. See city-level override wp-page-58849 for parent-level rationale."
+  },
+  "wp-page-59644": {
+    "slug": "farafura-oashisu-no-osusume-tsua",
+    "reason": "Cluster consistency: substring farafuraoashisu → farafura-oashisu applied per the Farafra Oasis middle-dot correction. See city-level override wp-page-58849 for parent-level rationale."
+  },
+  "wp-page-59645": {
+    "slug": "farafura-oashisu-no-ryori",
+    "reason": "Cluster consistency: substring farafuraoashisu → farafura-oashisu applied per the Farafra Oasis middle-dot correction. See city-level override wp-page-58849 for parent-level rationale."
+  },
+  "wp-page-96618": {
+    "slug": "farafura-oashisu-e-no-akusesu-no-hinto",
+    "reason": "Cluster consistency: substring farafuraoashisu → farafura-oashisu applied per the Farafra Oasis middle-dot correction. See city-level override wp-page-58849 for parent-level rationale."
+  },
+  "wp-page-60624": {
+    "slug": "komu-ombo-e-no-iki-kata",
+    "reason": "Cluster consistency: substring komuombo → komu-ombo applied per the Kom Ombo middle-dot correction. See city-level override wp-page-58875 for parent-level rationale."
+  },
+  "wp-page-60628": {
+    "slug": "komu-ombo-no-osusume-tsua",
+    "reason": "Cluster consistency: substring komuombo → komu-ombo applied per the Kom Ombo middle-dot correction. See city-level override wp-page-58875 for parent-level rationale."
+  },
+  "wp-page-60631": {
+    "slug": "komu-ombo-koko-dake-no-taiken",
+    "reason": "Cluster consistency: substring komuombo → komu-ombo applied per the Kom Ombo middle-dot correction. See city-level override wp-page-58875 for parent-level rationale."
+  },
+  "wp-page-78370": {
+    "slug": "komu-ombo-no-rekishi-teki-haikei",
+    "reason": "Cluster consistency: substring komuombo → komu-ombo applied per the Kom Ombo middle-dot correction. See city-level override wp-page-58875 for parent-level rationale."
+  },
+  "wp-page-78374": {
+    "slug": "komu-ombo-no-tenki-to-kion",
+    "reason": "Cluster consistency: substring komuombo → komu-ombo applied per the Kom Ombo middle-dot correction. See city-level override wp-page-58875 for parent-level rationale."
+  },
+  "wp-page-78375": {
+    "slug": "komu-ombo-no-o-matsuri",
+    "reason": "Cluster consistency: substring komuombo → komu-ombo applied per the Kom Ombo middle-dot correction. See city-level override wp-page-58875 for parent-level rationale."
+  },
+  "wp-page-78376": {
+    "slug": "komu-ombo-de-no-shukuhaku-ni-saiteki-na-basho",
+    "reason": "Cluster consistency: substring komuombo → komu-ombo applied per the Kom Ombo middle-dot correction. See city-level override wp-page-58875 for parent-level rationale."
+  },
+  "wp-page-78380": {
+    "slug": "komu-ombo-no-ryori",
+    "reason": "Cluster consistency: substring komuombo → komu-ombo applied per the Kom Ombo middle-dot correction. See city-level override wp-page-58875 for parent-level rationale."
+  },
+  "wp-page-78784": {
+    "slug": "komu-ombo-de-no-ido-hoho",
+    "reason": "Cluster consistency: substring komuombo → komu-ombo applied per the Kom Ombo middle-dot correction. See city-level override wp-page-58875 for parent-level rationale."
+  },
+  "wp-page-60223": {
+    "slug": "marusa-matorufu-no-rekishi-teki-haikei",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-60224": {
+    "slug": "marusa-matorufu-no-nenkan-kiko-gaido",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-60227": {
+    "slug": "marusa-matorufu-made-no-iki-kata",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-60228": {
+    "slug": "marusa-matorufu-de-ninki-no-hoteru-joho",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-60229": {
+    "slug": "marusa-matorufu-de-no-ido-hoho",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-60230": {
+    "slug": "marusa-matorufu-no-akutibiti",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-60231": {
+    "slug": "marusa-matorufu-no-osusume-tsua",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-60237": {
+    "slug": "marusa-matorufu-no-tabemono",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-60238": {
+    "slug": "marusa-matorufu-no-o-matsuri",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-77873": {
+    "slug": "marusa-matorufu-no-kanko-meisho",
+    "reason": "Cluster consistency: substring marusamatorufu → marusa-matorufu applied per the Marsa Matruh middle-dot correction. See city-level override wp-page-58887 for parent-level rationale."
+  },
+  "wp-page-60370": {
+    "slug": "rasu-sedoru-no-rekishi",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-60380": {
+    "slug": "rasu-sedoru-no-kiko",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-60381": {
+    "slug": "rasu-sedoru-no-iki-kata-to-kotsu-joho",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-60382": {
+    "slug": "rasu-sedoru-de-tomaru-basho-matome",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-60383": {
+    "slug": "rasu-sedoru-de-no-ido-hoho",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-60384": {
+    "slug": "rasu-sedoru-no-akutibiti",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-60386": {
+    "slug": "rasu-sedoru-no-osusume-tsua",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-60388": {
+    "slug": "rasu-sedoru-koko-dake-no-taiken",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-75745": {
+    "slug": "rasu-sedoru-no-ryori",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-76469": {
+    "slug": "rasu-sedoru-no-kanko-meisho",
+    "reason": "Cluster consistency: substring rasusudoru → rasu-sedoru applied per the Ras Sedr middle-dot correction. See city-level override wp-page-58907 for parent-level rationale."
+  },
+  "wp-page-60416": {
+    "slug": "rashido-no-rekishi",
+    "reason": "Cluster consistency: substring rozettarashido → rashido applied per the Rashid middle-dot correction. See city-level override wp-page-58915 for parent-level rationale."
+  },
+  "wp-page-60419": {
+    "slug": "rashido-no-kiko-to-kisetsu",
+    "reason": "Cluster consistency: substring rozettarashido → rashido applied per the Rashid middle-dot correction. See city-level override wp-page-58915 for parent-level rationale."
+  },
+  "wp-page-60420": {
+    "slug": "rashido-e-no-iki-kata",
+    "reason": "Cluster consistency: substring rozettarashido → rashido applied per the Rashid middle-dot correction. See city-level override wp-page-58915 for parent-level rationale."
+  },
+  "wp-page-60421": {
+    "slug": "rashido-no-shukuhaku-shisetsu",
+    "reason": "Cluster consistency: substring rozettarashido → rashido applied per the Rashid middle-dot correction. See city-level override wp-page-58915 for parent-level rationale."
+  },
+  "wp-page-60422": {
+    "slug": "rashido-de-no-ido-hoho",
+    "reason": "Cluster consistency: substring rozettarashido → rashido applied per the Rashid middle-dot correction. See city-level override wp-page-58915 for parent-level rationale."
+  },
+  "wp-page-60423": {
+    "slug": "rashido-no-akutibiti",
+    "reason": "Cluster consistency: substring rozettarashido → rashido applied per the Rashid middle-dot correction. See city-level override wp-page-58915 for parent-level rationale."
+  },
+  "wp-page-60424": {
+    "slug": "rashido-no-osusume-tsua",
+    "reason": "Cluster consistency: substring rozettarashido → rashido applied per the Rashid middle-dot correction. See city-level override wp-page-58915 for parent-level rationale."
+  },
+  "wp-page-60426": {
+    "slug": "rashido-koko-dake-no-taiken",
+    "reason": "Cluster consistency: substring rozettarashido → rashido applied per the Rashid middle-dot correction. See city-level override wp-page-58915 for parent-level rationale."
+  },
+  "wp-page-75799": {
+    "slug": "rashido-no-kanko-meisho",
+    "reason": "Cluster consistency: substring rozettarashido → rashido applied per the Rashid middle-dot correction. See city-level override wp-page-58915 for parent-level rationale."
+  },
+  "wp-page-253330": {
+    "slug": "haruga-oashisu-e-no-iki-kata",
+    "reason": "Cluster consistency: substring harugaoashisu → haruga-oashisu applied per the Kharga Oasis middle-dot correction. No city-level parent; correction applied per cluster (Kharga Oasis)."
+  },
+  "wp-page-253537": {
+    "slug": "koko-dake-haruga-oashisu",
+    "reason": "Cluster consistency: substring harugaoashisu → haruga-oashisu applied per the Kharga Oasis middle-dot correction. No city-level parent; correction applied per cluster (Kharga Oasis)."
+  },
+  "wp-page-146102": {
+    "slug": "sharumu-eru-ruri",
+    "reason": "Cluster consistency: substring sharumuerururi → sharumu-eru-ruri applied per the Sharm El Lulu middle-dot correction. No city-level parent; correction applied per cluster (Sharm El Lulu)."
+  },
+  "wp-page-59236": {
+    "slug": "asuwan-hai-damu",
+    "reason": "Multi-segment middle-dot fix on アスワン・ハイ・ダム (Aswan High Dam). Three ・ boundaries collapsed by algorithm; corrected uniformly. Kana-faithful romaji preserved (no English convention substitution)."
+  },
+  "wp-page-59654": {
+    "slug": "kasuru-aru-farafura",
+    "reason": "Multi-segment middle-dot fix on カスル・アル・ファラフラ (Kasr Al-Farafra fort). Three ・ boundaries collapsed by algorithm; corrected uniformly. Operator confirmed 'aru' (literal Arabic prefix) rather than 'el' for this specific place — international convention not applied here."
+  },
+  "wp-page-61927": {
+    "slug": "toropiteru-nama-bei-sharumu",
+    "reason": "Multi-segment middle-dot fix on トロピテル・ナーマ・ベイ・シャルム (Tropitel Naama Bay Sharm hotel). Original algorithmic slug included both JA romaji and EN brand portions concatenated; operator decision to strip the redundant EN portion. Kana-faithful only."
+  },
+  "wp-page-63527": {
+    "slug": "nama-bei-puromunado-rizoto",
+    "reason": "Multi-segment middle-dot fix on ナーマ・ベイ・プロムナード・リゾート (Naama Bay Promenade Resort). EN portion stripped per operator decision (consistent with other bilingual-title hotel slugs in this batch)."
+  },
+  "wp-page-63832": {
+    "slug": "dyushitto-tani-reikubyu-kairo",
+    "reason": "Multi-segment middle-dot fix on デュシット・タニ・レイクビュー・カイロ (Dusit Thani Lakeview Cairo). Three ・ boundaries collapsed by algorithm; corrected uniformly. No EN portion in source title; nothing to strip."
+  },
+  "wp-page-64048": {
+    "slug": "shamushia-kyampu-dafura-oashisu",
+    "reason": "Multi-segment middle-dot fix on シャムシア・キャンプ・ダフラ・オアシス (Shamsiya Camp Dakhla Oasis). Incorporates the dafura-oashisu correction (consistent with the city-level Dakhla Oasis override wp-page-58783). EN portion stripped per operator decision."
   }
 }
