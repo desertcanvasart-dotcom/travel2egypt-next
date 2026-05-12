@@ -45,6 +45,8 @@
     "@types/react-dom": "^19.0.2",
     "autoprefixer": "^10.4.20",
     "dotenv": "^16.4.7",
+    "kuroshiro": "^1.2.0",
+    "kuroshiro-analyzer-kuromoji": "^1.1.0",
     "postcss": "^8.5.0",
     "tailwindcss": "^4.0.0",
     "tsx": "^4.19.2",
