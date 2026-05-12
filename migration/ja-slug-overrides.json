@@ -2,5 +2,175 @@
   "wp-page-60948": {
     "slug": "shogai-no-aru-kata-no-ryoko",
     "reason": "Kuromoji parse glitch on 障がい (modern hiragana-mixed spelling of shōgai / 'disability'): algorithm produced 'sawa-gai' (mis-reading 障 as 'sawa', the reading typically used in 障る/sawaru). Also mis-read 方 in polite context as 'ho' instead of 'kata'. Corrected to faithful Hepburn: shogai-no-aru-kata-no-ryoko. Topic is accessibility/disability content where slug fidelity matters for credibility with Japanese-speaking visitors."
+  },
+
+  "wp-page-60455": {
+    "slug": "sei-katarina-no-rekishi",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-60457": {
+    "slug": "sei-katarina-no-kiko-to-kisetsu",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-60458": {
+    "slug": "sei-katarina-e-no-iki-kata",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-60459": {
+    "slug": "sei-katarina-no-shukuhaku-shisetsu",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-60460": {
+    "slug": "sei-katarina-de-no-ido-hoho",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-60461": {
+    "slug": "sei-katarina-no-akutibiti",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-60463": {
+    "slug": "sei-katarina-no-ryori",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-60464": {
+    "slug": "sei-katarina-koko-dake-no-taiken",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-60744": {
+    "slug": "sei-katarina-san",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-75564": {
+    "slug": "sei-katarina-no-o-matsuri",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+  "wp-page-145963": {
+    "slug": "sharumuerusheiku-kara-shinai-san-to-sei-katarina-shudoin",
+    "reason": "Kuromoji misclassified 聖 as kiyoshi (given-name reading); correct religious-context reading is sei. Saint Catherine cluster standardization."
+  },
+
+  "wp-page-145987": {
+    "slug": "sharumuerusheiku-kara-erusaremu-to-shikai-e-no-furudeitua",
+    "reason": "Kuromoji split 死海 (Dead Sea) into 死/shi + 海/umi. Place-name reading is shikai (compound). Single-doc correction."
+  },
+
+  "wp-page-87759": {
+    "slug": "saradin-josai-kan-eru-kariri-bazaru-kairo",
+    "reason": "Kuromoji split サラディン (Saladin) into two katakana tokens (sara/din); should be single foreign-name token. Also fixed inner ・ middle-dot on カリリ・バザール (Khan El Khalili Bazaar) which kuromoji ran together as kariribazaru — should be kariri-bazaru per middle-dot principle."
+  },
+
+  "wp-page-58729": {
+    "slug": "aru-wadhi-aru-gadhido-no-rekishi",
+    "reason": "Kuromoji ran the multi-segment katakana アル・ワーディ・アル・ガディード together as aruwadiarugadido. Operator chose Arabic-source dh transliteration (consistent with how the place name is transliterated from Arabic) rather than pure katakana phonetic. Cluster standardization."
+  },
+  "wp-page-58730": {
+    "slug": "aru-wadhi-aru-gadhido-no-tenki-yoho",
+    "reason": "Kuromoji ran the multi-segment katakana アル・ワーディ・アル・ガディード together as aruwadiarugadido. Operator chose Arabic-source dh transliteration (consistent with how the place name is transliterated from Arabic) rather than pure katakana phonetic. Cluster standardization."
+  },
+  "wp-page-58735": {
+    "slug": "aru-wadhi-aru-gadhido-e-no-kotsu-shudan",
+    "reason": "Kuromoji ran the multi-segment katakana アル・ワーディ・アル・ガディード together as aruwadiarugadido. Operator chose Arabic-source dh transliteration (consistent with how the place name is transliterated from Arabic) rather than pure katakana phonetic. Cluster standardization."
+  },
+  "wp-page-58736": {
+    "slug": "aru-wadhi-aru-gadhido-de-no-shukuhaku-saki",
+    "reason": "Kuromoji ran the multi-segment katakana アル・ワーディ・アル・ガディード together as aruwadiarugadido. Operator chose Arabic-source dh transliteration (consistent with how the place name is transliterated from Arabic) rather than pure katakana phonetic. Cluster standardization."
+  },
+  "wp-page-58737": {
+    "slug": "aru-wadhi-aru-gadhido-de-yaru-beki-koto",
+    "reason": "Kuromoji ran the multi-segment katakana アル・ワーディ・アル・ガディード together as aruwadiarugadido. Operator chose Arabic-source dh transliteration (consistent with how the place name is transliterated from Arabic) rather than pure katakana phonetic. Cluster standardization."
+  },
+  "wp-page-58752": {
+    "slug": "aru-wadhi-aru-gadhido-no-bishoku-no-miryoku",
+    "reason": "Kuromoji ran the multi-segment katakana アル・ワーディ・アル・ガディード together as aruwadiarugadido. Operator chose Arabic-source dh transliteration (consistent with how the place name is transliterated from Arabic) rather than pure katakana phonetic. Cluster standardization."
+  },
+  "wp-page-59921": {
+    "slug": "aru-wadhi-aru-gadhido-de-no-ido",
+    "reason": "Kuromoji ran the multi-segment katakana アル・ワーディ・アル・ガディード together as aruwadiarugadido. Operator chose Arabic-source dh transliteration (consistent with how the place name is transliterated from Arabic) rather than pure katakana phonetic. Cluster standardization."
+  },
+
+  "wp-page-86832": {
+    "slug": "kairo-puraibeto-dei-tsua",
+    "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency."
+  },
+  "wp-page-87070": {
+    "slug": "arekisandoria-puraibeto-dei-tsua",
+    "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency."
+  },
+  "wp-page-86817": {
+    "slug": "eru-gu-na-puraibeto-dei-tsua",
+    "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency. Additionally: El Gouna Al→El standardization (operator chose international convention 'El Gouna' / eru-gu-na over kuromoji's literal 'aruguna')."
+  },
+  "wp-page-86841": {
+    "slug": "rukusoru-puraibeto-dei-tsua",
+    "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency."
+  },
+  "wp-page-86858": {
+    "slug": "harugada-puraibeto-dei-tsua",
+    "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency."
+  },
+  "wp-page-86911": {
+    "slug": "sharumu-eru-sheiku-puraibeto-dei-tsua",
+    "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency. Additionally: Sharm El Sheikh middle-dot fix (sharumusheiku → sharumu-eru-sheiku to match the ・ boundaries in source title)."
+  },
+  "wp-page-86936": {
+    "slug": "safaga-puraibeto-dei-tsua",
+    "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency."
+  },
+  "wp-page-87001": {
+    "slug": "marusa-aramu-puraibeto-dei-tsua",
+    "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency. Additionally: Marsa Alam middle-dot fix (marusaaramu → marusa-aramu to match the ・ boundary)."
+  },
+  "wp-page-87064": {
+    "slug": "asuwan-puraibeto-dei-tsua",
+    "reason": "Compound katakana プライベートデイツアー (Private Day Tour) ran together in algorithmic output. Loanword sub-tokenization applied uniformly across the 9-doc Private Day Tour content series for cluster consistency."
+  },
+
+  "wp-page-87495": {
+    "slug": "eru-gu-na-hatsu-dendera-to-abidosu-shinden-tsua",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (aruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-77016": {
+    "slug": "ra-mezon-buru-eru-gu-na",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (aruguna/eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3. Note: this doc (La Maison Blue El Gouna) additionally applies middle-dot principle to the 'La Maison Blue' brand portion: ra-mezon-buru-eru-gu-na."
+  },
+  "wp-page-58738": {
+    "slug": "eru-gu-na-de-jinsei-o-iwau-taiken",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58793": {
+    "slug": "shira-re-zaru-eru-gu-na-no-rekishi-o-himotoku",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58795": {
+    "slug": "eru-gu-na-ryoko-mae-ni-shitte-oki-tai-tenki-joho",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58796": {
+    "slug": "eru-gu-na-de-tomaru-basho-matome",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58798": {
+    "slug": "eru-gu-na-de-no-akutibitigaido",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58799": {
+    "slug": "eru-gu-na-no-ibento-gaido",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58801": {
+    "slug": "eru-gu-na-no-iki-kata-to-kotsu-joho",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58802": {
+    "slug": "eru-gu-na-no-kotsu-shudan-matome",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58803": {
+    "slug": "eru-gu-na-de-no-sekai-no-aji-o-tanoshimu",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
+  },
+  "wp-page-58816": {
+    "slug": "eru-gu-na-no-osusume-tsua",
+    "reason": "El Gouna standardization. Operator chose international convention 'El Gouna' (eru-gu-na) over kuromoji's literal katakana phonetic (eruguna ran together). Applied to all docs about El Gouna in the corpus identified by Scan 3."
   }
 }
