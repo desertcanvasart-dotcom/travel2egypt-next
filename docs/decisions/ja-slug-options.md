@@ -43,6 +43,70 @@ Estimated 2–3 hours.
 
 ---
 
+## 1.5 Locked policies for romanization
+
+Decided at session 11 start, before implementation. Applied uniformly to the migration script and every wp-import mapper that produces JA slugs.
+
+1. **Romanization standard**: Hepburn, via `kuroshiro` + `kuroshiro-analyzer-kuromoji`.
+2. **Long vowels**: macrons collapsed to single ASCII vowels. ō→o, ū→u, ē→e, ā→a, ī→i. No macrons in final output.
+3. **Length cap**: 60 chars max. Truncate at the last hyphen boundary at or before position 60 — never mid-word. If no hyphen exists within 60 chars (exceedingly rare with romanized JA), hard-truncate.
+4. **Particles preserved as romaji**: do not strip grammatical particles (`no`, `ni`, `e`, `ga`, `wo`, `wa`, `to`, `de`, `kara`, `made`, `ya`, `mo`). Romaji is transliteration, not paraphrase. Stripping conflates distinct meanings (e.g., "X no Y" vs "X e no Y") and is a credibility hit for Japanese-speaking visitors. Non-negotiable per operator linguistic expertise.
+
+---
+
+## 1.6 Architecture revision (replaces "external slug list" framing from §1)
+
+Single source of truth: Sanity (`migration-staging`). Slugs are generated algorithmically by a shared helper consumed by two callers:
+
+  (a) **One-shot migration script** (`scripts/migrate-ja-romaji-slugs.ts`) — patches existing JA docs across multiple entity types.
+  (b) **wp-import mappers** (`scripts/wp-import/mappers/*.ts`) — handles future JA content imports.
+
+Same algorithm, same code path. No external spreadsheet handoff.
+
+**Override file** `migration/ja-slug-overrides.json` (committed, root-relative). Keyed by Sanity `_id` (which already namespaces by entity type via the doc-id convention `wp-{type}-{wpId}-{lang}`). Both consumers consult overrides before falling back to the algorithm. Values are either bare strings (`"slug-here"`) or objects (`{ "slug": "...", "reason": "..." }`) when a comment is warranted.
+
+**Library**: `kuroshiro` v1.2 + `kuroshiro-analyzer-kuromoji` v1.1. Hepburn output, ASCII post-processing per §1.5 policies. ~14MB kuromoji dictionary loaded once per process.
+
+**Library risk**: kuroshiro v1 was last updated 2020. Stable for our use case; if a future Node major breaks compatibility, replacement is a 1–2hr swap behind the helper's interface (`titleToRomajiSlug(jaTitle)`). Acceptable.
+
+### Phased rollout
+
+JA slug migration touches multiple entity types. Phasing keeps each session's review surface tractable:
+
+| Session | Entity types | Doc count (JA) |
+|---|---|---|
+| 11 (this) | `article`, `travelTip` | 170 + ~30 |
+| 12 (next) | `guideArticle` | ~700 |
+| Future | `city`, `tour`, `wikiMonument`, others as they migrate | per entity |
+
+Each session adds its entity type to the migration script's `--type` allowed values and to the corresponding wp-import mapper. The helper and override file are built once (session 11) and reused unchanged.
+
+---
+
+## 1.7 Rollback plan
+
+Sanity document history retains the pre-migration slug per `_id`.
+
+**Single-article revert**: Sanity Studio → document → History → restore to revision before the slug patch landed.
+
+**Bulk revert** (only if widespread regression): write a separate revert script that consumes the dry-run CSV produced earlier in the migration (`migration/.cache/ja-slug-{type}-{timestamp}.csv`). Each CSV row contains `_id, oldSlug, newSlug` — the inverse map. Re-run the migration script with a `--revert <csv-path>` flag pointing at that CSV. Don't pre-build; write only if needed.
+
+Pre-migration state is fully reconstructable from any committed dry-run CSV under `migration/.cache/`. The CSVs are gitignored as derived artifacts, but each `--commit` run also logs `{op: 'ja-slug-update', _id, oldSlug, newSlug}` rows to `migration/migration-log.jsonl` (committed) for audit-stable recovery if `.cache/` is lost.
+
+---
+
+## 1.8 Switcher consequence for non-article entities
+
+After this session's migration, JA detail pages will **route correctly** on direct navigation for both `article` and `travelTip` types (the URL-encoding bug §4.2 is resolved for those types). However:
+
+- The `LocaleSwitcher` currently has α API-route branches only for `/guide/[citySlug]` (existing) and `/blog/[slug]` (added session 10). It does **not** have branches for `/travel-tips/[slug]`, `/blog/category/[slug]`, or any `/wiki/*` route.
+- Consequence: a user on an EN travel tip page clicking JA will get a prefix-swapped URL (`/ja/travel-tips/<EN-slug>`) which 404s, even though the destination JA travel tip itself now resolves on direct navigation.
+- Same bug class as the category-page switcher bug deferred in session 10.
+
+Tracked as a deferred item in the session 11 handoff. Inflection point for the architectural reconsideration (per §2 "Future option 2"): once 5+ entity types need the α pattern. Current count of deferred switcher fixes: `travelTip`, `guideArticle`, `editorialCategory`, `wikiMonument` (and possibly more wiki types) — already 4, plus any further entity types making the case for migration to a middleware-driven layout-level provider stronger by session 12.
+
+---
+
 ## 2. Architectural retraction: provider pattern (β) → API route (α)
 
 ### What was attempted
