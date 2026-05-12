@@ -45,7 +45,7 @@ loadEnv();
 
 // ─── Per-type configuration ───────────────────────────────────────────────
 
-type EntityType = 'article' | 'travelTip' | 'guideArticle';
+type EntityType = 'article' | 'travelTip' | 'guideArticle' | 'city';
 
 interface EntityConfig {
   type: EntityType;
@@ -116,6 +116,24 @@ const CONFIGS: Record<EntityType, EntityConfig> = {
     } | order(_id asc)`,
     patchPath: 'slug[_key=="ja"].value.current',
   },
+  city: {
+    type: 'city',
+    label: 'city (field-level i18n) — JA title sourced from name[_key=="ja"][0].value',
+    expectedCount: 41,
+    coverageQuery: `*[_type == "city"]{
+      _id,
+      "hasJaTitle": defined(name[_key == "ja"][0].value),
+      "hasJaSlug": defined(slug[_key == "ja"][0].value.current),
+    }`,
+    scopeQuery: `*[_type == "city"
+      && defined(name[_key == "ja"][0].value)
+      && defined(slug[_key == "ja"][0].value.current)]{
+      _id,
+      "jaTitle": name[_key == "ja"][0].value,
+      "jaSlug": slug[_key == "ja"][0].value.current,
+    } | order(_id asc)`,
+    patchPath: 'slug[_key=="ja"].value.current',
+  },
 };
 
 // ─── CLI argument parsing ─────────────────────────────────────────────────
@@ -137,8 +155,8 @@ function parseArgs(argv: string[]): Args {
     else if (arg === '--allow-mismatches') allowMismatches = true;
     else if (arg.startsWith('--type=')) {
       const v = arg.slice('--type='.length);
-      if (v !== 'article' && v !== 'travelTip' && v !== 'guideArticle') {
-        die(`Unknown --type "${v}". Allowed: article, travelTip, guideArticle.`);
+      if (v !== 'article' && v !== 'travelTip' && v !== 'guideArticle' && v !== 'city') {
+        die(`Unknown --type "${v}". Allowed: article, travelTip, guideArticle, city.`);
       }
       type = v;
     } else if (arg === '--type') {
@@ -150,7 +168,7 @@ function parseArgs(argv: string[]): Args {
     }
   }
   if (!type) {
-    die('--type is required. Allowed values: article, travelTip, guideArticle.');
+    die('--type is required. Allowed values: article, travelTip, guideArticle, city.');
   }
   return { type: type as EntityType, commit, only, allowMismatches };
 }
