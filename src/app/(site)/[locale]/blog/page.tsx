@@ -6,7 +6,7 @@ import type { Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import {
   articlesByLanguageQuery,
-  allCategoriesQuery,
+  categoryRootsQuery,
   featuredLeadArticleQuery,
 } from '@/sanity/lib/queries';
 import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
@@ -34,8 +34,10 @@ export default async function BlogLandingPage({ params }: Props) {
   const t = await getTranslations('blog');
   const [articles, categories, lead] = await Promise.all([
     client.fetch<ArticleCardData[]>(articlesByLanguageQuery, { locale }),
+    // Primary nav surfaces only the two root buckets (Planning, Destination);
+    // leaf sub-categories are reached from each bucket's landing page.
     client.fetch<Array<{ _id: string; name: string; slug: string }>>(
-      allCategoriesQuery(locale as Locale)
+      categoryRootsQuery(locale as Locale)
     ),
     client.fetch<ArticleCardData | null>(featuredLeadArticleQuery, { locale }),
   ]);
