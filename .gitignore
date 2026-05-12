@@ -1,7 +1,8 @@
 node_modules
 .next
 .env
-.env.local
+.env.*
+!.env.example
 .DS_Store
 *.log
 .sanity
@@ -11,4 +12,5 @@ tsconfig.tsbuildinfo
 assets/
 migration/.cache/
 migration/.brand-inputs/
-.claude/launch.json
+.claude/
+!.claude/settings.json
