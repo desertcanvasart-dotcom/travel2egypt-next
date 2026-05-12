@@ -11,10 +11,8 @@ import {
   articleBySlugQuery,
   allArticleSlugsQuery,
 } from '@/sanity/lib/queries';
-import { fetchTranslationSlugs } from '@/sanity/lib/translations';
 import { Body } from '@/components/Body';
 import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
-import { TranslationProvider } from '@/components/TranslationProvider';
 import { buildMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
 import {
@@ -100,11 +98,6 @@ export default async function ArticlePage({ params }: Props) {
   })) as ArticleDoc | null;
   if (!article) notFound();
 
-  // Locale → slug map for the LocaleSwitcher. Read-only, fail-soft —
-  // an empty map disables every non-current locale option, which is
-  // the correct fail-safe when an article has no translation.metadata.
-  const translationSlugs = await fetchTranslationSlugs(article._id);
-
   const heroUrl = article.heroImage?.asset
     ? urlFor(article.heroImage).width(2400).height(1400).quality(85).url()
     : null;
@@ -147,7 +140,6 @@ export default async function ArticlePage({ params }: Props) {
   );
 
   return (
-    <TranslationProvider slugs={translationSlugs} basePath="/blog">
     <article>
       <JsonLd data={[articleSchema, breadcrumbSchema]} />
       {/* Hero */}
@@ -269,6 +261,5 @@ export default async function ArticlePage({ params }: Props) {
         )}
       </div>
     </article>
-    </TranslationProvider>
   );
 }
