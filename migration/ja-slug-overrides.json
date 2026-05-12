@@ -1,1 +1,6 @@
-{}
+{
+  "wp-page-60948": {
+    "slug": "shogai-no-aru-kata-no-ryoko",
+    "reason": "Kuromoji parse glitch on 障がい (modern hiragana-mixed spelling of shōgai / 'disability'): algorithm produced 'sawa-gai' (mis-reading 障 as 'sawa', the reading typically used in 障る/sawaru). Also mis-read 方 in polite context as 'ho' instead of 'kata'. Corrected to faithful Hepburn: shogai-no-aru-kata-no-ryoko. Topic is accessibility/disability content where slug fidelity matters for credibility with Japanese-speaking visitors."
+  }
+}
