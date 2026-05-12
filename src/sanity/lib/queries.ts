@@ -702,12 +702,36 @@ export const featuredLeadArticleQuery = groq`
   )
 `;
 
+/**
+ * Articles for /blog/category/[slug]. Handles two URL shapes via the OR
+ * inside the predicate:
+ *
+ *   1. $slug matches a leaf category — `article.category` (the leaf) has
+ *      that slug in the current locale (EN fallback).
+ *   2. $slug matches a root bucket — `article.category->parent` (the root)
+ *      has that slug in the current locale (EN fallback). All articles
+ *      under the bucket return as a single feed.
+ *
+ * Replaces a prior version where `&&` / `||` precedence was wrong and the
+ * EN-fallback clause matched any article with a null current-locale slug,
+ * regardless of category. The new form parenthesizes the per-row predicate.
+ */
 export const articlesByCategorySlugQuery = groq`
-  *[_type == "article" && language == $locale &&
-    !(_id in path("drafts.**")) &&
-    category->slug[_key==$locale][0].value.current == $slug
-    || (category->slug[_key==$locale][0].value.current == null &&
-        category->slug[_key=="en"][0].value.current == $slug)
+  *[
+    _type == "article"
+    && language == $locale
+    && !(_id in path("drafts.**"))
+    && (
+      coalesce(
+        category->slug[_key==$locale][0].value.current,
+        category->slug[_key=="en"][0].value.current
+      ) == $slug
+      ||
+      coalesce(
+        category->parent->slug[_key==$locale][0].value.current,
+        category->parent->slug[_key=="en"][0].value.current
+      ) == $slug
+    )
   ] | order(publishedAt desc){
     ${articleCardProjection}
   }
