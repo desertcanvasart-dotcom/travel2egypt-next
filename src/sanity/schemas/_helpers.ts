@@ -74,6 +74,13 @@ export function migrationField() {
           'Set by the importer when this doc needs editor attention. Clear after review. Known values: "section-needs-assignment", "unclassified-as-article", "service-deferred", "interactive-tool", "promotional-marketing", "locale-orphan", "keyfacts-mining-failed", "hreflang-broken", "table-flattened".',
       }),
       defineField({
+        name: 'deckNeedsReview',
+        title: 'Deck needs review',
+        type: 'boolean',
+        description:
+          'Set true when the deck was hard-capped during migration cleanup (ends mid-sentence with ellipsis). Editorial should rewrite the deck and untick this. Filter in Studio with *[migration.deckNeedsReview == true].',
+      }),
+      defineField({
         name: 'wpAuthorId',
         title: 'WP author ID',
         type: 'number',
