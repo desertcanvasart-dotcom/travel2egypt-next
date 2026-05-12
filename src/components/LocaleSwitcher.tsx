@@ -134,5 +134,28 @@ async function resolveLocalizedPathname(
     }
   }
 
+  // Article detail: /blog/[slug]. Explicitly NOT /blog (archive) or
+  // /blog/category/[slug] — those listing/index routes locale-swap via
+  // simple prefix. Look up the locale-specific article slug via the
+  // article API route. On miss or fetch failure, fall back to the
+  // target locale's /blog archive — keeps the reader in the journal,
+  // different locale, instead of a 404.
+  const articleMatch = pathname.match(/^\/blog\/(?!category\/)([^/]+)\/?$/);
+  if (articleMatch) {
+    const fromSlug = articleMatch[1];
+    try {
+      const res = await fetch(
+        `/api/locale-resolve/article?fromLocale=${fromLocale}&fromSlug=${encodeURIComponent(fromSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { slug } = (await res.json()) as { slug: string | null };
+        if (slug) return `/blog/${slug}`;
+      }
+    } catch {
+      // fall through to /blog archive
+    }
+    return '/blog';
+  }
+
   return pathname;
 }
