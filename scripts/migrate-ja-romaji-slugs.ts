@@ -45,7 +45,7 @@ loadEnv();
 
 // ─── Per-type configuration ───────────────────────────────────────────────
 
-type EntityType = 'article' | 'travelTip';
+type EntityType = 'article' | 'travelTip' | 'guideArticle';
 
 interface EntityConfig {
   type: EntityType;
@@ -98,6 +98,24 @@ const CONFIGS: Record<EntityType, EntityConfig> = {
     } | order(_id asc)`,
     patchPath: 'slug[_key=="ja"].value.current',
   },
+  guideArticle: {
+    type: 'guideArticle',
+    label: 'guideArticle (field-level i18n)',
+    expectedCount: 430,
+    coverageQuery: `*[_type == "guideArticle"]{
+      _id,
+      "hasJaTitle": defined(title[_key == "ja"][0].value),
+      "hasJaSlug": defined(slug[_key == "ja"][0].value.current),
+    }`,
+    scopeQuery: `*[_type == "guideArticle"
+      && defined(title[_key == "ja"][0].value)
+      && defined(slug[_key == "ja"][0].value.current)]{
+      _id,
+      "jaTitle": title[_key == "ja"][0].value,
+      "jaSlug": slug[_key == "ja"][0].value.current,
+    } | order(_id asc)`,
+    patchPath: 'slug[_key=="ja"].value.current',
+  },
 };
 
 // ─── CLI argument parsing ─────────────────────────────────────────────────
@@ -119,8 +137,8 @@ function parseArgs(argv: string[]): Args {
     else if (arg === '--allow-mismatches') allowMismatches = true;
     else if (arg.startsWith('--type=')) {
       const v = arg.slice('--type='.length);
-      if (v !== 'article' && v !== 'travelTip') {
-        die(`Unknown --type "${v}". Allowed: article, travelTip.`);
+      if (v !== 'article' && v !== 'travelTip' && v !== 'guideArticle') {
+        die(`Unknown --type "${v}". Allowed: article, travelTip, guideArticle.`);
       }
       type = v;
     } else if (arg === '--type') {
@@ -132,7 +150,7 @@ function parseArgs(argv: string[]): Args {
     }
   }
   if (!type) {
-    die('--type is required. Allowed values: article, travelTip.');
+    die('--type is required. Allowed values: article, travelTip, guideArticle.');
   }
   return { type: type as EntityType, commit, only, allowMismatches };
 }
