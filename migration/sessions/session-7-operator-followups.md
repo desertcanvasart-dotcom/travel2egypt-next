@@ -1445,3 +1445,50 @@ Anyone touching wp-import in a narrow-cohort mode without addressing this first 
 15. **Architect-reviewer pattern with STOP gates between consequential actions worked well for this session.** Worktree on `session-9-actual-write`, four phases (2a-i schema, 2b mapper rewrite, 2b.d orchestrator integration, 2b.d.4 Studio-QA-driven fixes), nine sub-iterations, all converged cleanly without rollbacks.
 16. **Studio QA round 1 caught 4 content-quality issues invisible to harness + orchestrator dry-run**: summary junk prefix (Elementor tab labels leaking via WP excerpt path), transactional `priceIndication` content (date schedules + pax matrices), day-title `:` artifacts (punctuation outside the `<span class="bold">` source markup), schema `days[]` visibility for `dayTourMode === 'private'`. Lesson: dry-run validation gates correctness (mapper produces valid docs); manual Studio QA gates content quality (mapper produces *good* docs). Both layers remain in the loop for the first cohort of each new content type.
 
+### Editorial taxonomy restructure — follow-ups
+
+Surfaced 2026-05-12 during the journal-category restructure session (6 commits `2f6057f`..`1a67f1a`). Restructure moved 495 articles from a 2-bucket flat taxonomy to a 2-root / 21-leaf hierarchy in `migration-staging`. The items below are out-of-scope work deferred from that session.
+
+a) **Breadcrumb navigation on category pages.**
+   Problem: Leaf category pages have no UI affordance to return to the parent bucket; root bucket pages have no link back to `/blog`. Users must use the browser back button.
+   Scope: Add a clickable eyebrow breadcrumb. Pattern: `JOURNAL · DESTINATION · NILE CRUISE` with each segment linked. Apply to all category landing pages.
+   Estimated: 30–45 min. Schedule: brand polish (Session 6).
+
+b) **Translation pass: editorialCategory ES/JA names.**
+   Problem: All 19 `wp-category-*` leaf documents have empty ES and JA `name` fields. EN-fallback covers them, but Spanish/Japanese journal browsers see English category names. Same issue applies to root `category-destination.name.es` which still reads "Profundidad de destino" (stale after the root rename to "Destination").
+   Scope: Editorial team adds proper Spanish and Japanese translations for each leaf and corrects the destination root ES. Casing: Spanish sentence case, Japanese as appropriate.
+   Estimated: 1–2 hours editorial work, not engineering. Schedule: before production cutover.
+
+c) **Root bucket description and hero image.**
+   Problem: `category-planning` and `category-destination` have empty `description` and `heroImage` fields. Bucket landing pages render H1 only, no deck or hero.
+   Scope: Editorial team writes 1–2 sentence decks for both buckets and selects hero images. Suggested decks (inspiration, not final):
+   - Planning: "Planning advice you can act on without our help."
+   - Destination: "Egypt deeper than the headline sights."
+   Estimated: 1 hour editorial work. Schedule: brand polish (Session 6).
+
+d) **Studio desk customization for the new hierarchy.**
+   Problem: Categories desk shows a flat 23-item list. Articles desk has no category filtering.
+   Scope: Pattern Y for categories (grouped under parents). Filter articles by category in the Articles desk.
+   Estimated: 2–3 hours of Claude Code work. Schedule: after broader migration phase completes; before content-team handoff.
+
+e) **Editorial review: 66 ambiguous articles.**
+   Problem: 66 articles carry `migration.reviewFlag == "category-ambiguous"` because their WP source tags spanned both Planning and Destination. The Phase 4 specificity rule picked one, but each could plausibly belong elsewhere.
+   Scope: Editorial team reviews each in Sanity Studio, confirms or re-tags. Filter query:
+   ```groq
+   *[_type == "article" && migration.reviewFlag == "category-ambiguous"]
+   ```
+   Estimated: 2–3 hours editorial work. Schedule: post-migration editorial review.
+
+f) **Editorial review: 13 orphan articles.**
+   Problem: 13 articles have no WP source tags. Defaulted to Destination Depth with `migration.reviewFlag == "category-orphan"`.
+   Scope: Editorial team reviews, assigns correct sub-category. Filter query:
+   ```groq
+   *[_type == "article" && migration.reviewFlag == "category-orphan"]
+   ```
+   Estimated: 30–45 min editorial work. Schedule: post-migration editorial review.
+
+g) **Featured article excerpt template on /blog archive.**
+   Problem: On the `/blog` landing, the featured lead article ("Curse of King Tut's Tomb") renders the full article body instead of a short excerpt. Article detail page renders correctly.
+   Scope: Update the journal-archive featured-block component to render `article.excerpt` (or the first ~280 chars of `body` if excerpt is null), not full body.
+   Estimated: 30 min. Schedule: brand polish (Session 6).
+
