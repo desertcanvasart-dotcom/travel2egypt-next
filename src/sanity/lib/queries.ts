@@ -817,6 +817,11 @@ export const categoryBySlugQuery = (locale: Locale) => groq`
     "slug": ${localizedSlug('slug', locale)},
     "description": ${localizedField('description', locale)},
     heroImage,
+    "parent": parent->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)}
+    },
     seo{
       "metaTitle": ${localizedField('metaTitle', locale)},
       "metaDescription": ${localizedField('metaDescription', locale)},
@@ -831,6 +836,25 @@ export const allCategoriesQuery = (locale: Locale) => groq`
     "name": ${localizedField('name', locale)},
     "slug": ${localizedSlug('slug', locale)},
     "description": ${localizedField('description', locale)}
+  }
+`;
+
+/** Root buckets only (no parent). Used by the /blog primary nav. */
+export const categoryRootsQuery = (locale: Locale) => groq`
+  *[_type == "editorialCategory" && !defined(parent)] | order(orderRank asc, name[_key=="en"][0].value asc){
+    _id,
+    "name": ${localizedField('name', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "description": ${localizedField('description', locale)}
+  }
+`;
+
+/** Leaves under a given parent root, keyed by parent _id. */
+export const categoryLeavesByParentIdQuery = (locale: Locale) => groq`
+  *[_type == "editorialCategory" && parent._ref == $parentId] | order(name[_key=="en"][0].value asc){
+    _id,
+    "name": ${localizedField('name', locale)},
+    "slug": ${localizedSlug('slug', locale)}
   }
 `;
 
