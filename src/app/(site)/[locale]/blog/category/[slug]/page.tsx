@@ -2,11 +2,13 @@ import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 
+import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import {
   categoryBySlugQuery,
+  categoryLeavesByParentIdQuery,
   articlesByCategorySlugQuery,
   allCategorySlugsQuery,
 } from '@/sanity/lib/queries';
@@ -17,9 +19,27 @@ interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
+interface CategoryDoc {
+  _id: string;
+  name: string;
+  description?: string;
+  heroImage?: any;
+  seo?: any;
+  parent: { _id: string; name: string; slug: string } | null;
+}
+
+interface LeafSummary {
+  _id: string;
+  name: string;
+  slug: string;
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  const cat = await client.fetch(categoryBySlugQuery(locale as Locale), { slug });
+  const cat = await client.fetch<CategoryDoc | null>(
+    categoryBySlugQuery(locale as Locale),
+    { slug }
+  );
   if (!cat) return {};
   return buildMetadata(
     { title: cat.name, summary: cat.description, heroImage: cat.heroImage, seo: cat.seo },
@@ -28,6 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
+  // Emits both root slugs (planning, destination) and all 21 leaf slugs.
   const all: Array<{ slugs: Array<{ _key: string; current: string }> }> =
     await client.fetch(allCategorySlugsQuery);
   const params: Array<{ locale: string; slug: string }> = [];
@@ -49,20 +70,47 @@ export default async function CategoryPage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('blog');
-  const [category, articles] = await Promise.all([
-    client.fetch<{
-      _id: string;
-      name: string;
-      description?: string;
-    } | null>(categoryBySlugQuery(locale as Locale), { slug }),
+
+  const category = await client.fetch<CategoryDoc | null>(
+    categoryBySlugQuery(locale as Locale),
+    { slug }
+  );
+  if (!category) notFound();
+
+  const isRoot = !category.parent;
+
+  // Fetch leaves only when on a root page; articles always.
+  const [leaves, articles] = await Promise.all([
+    isRoot
+      ? client.fetch<LeafSummary[]>(categoryLeavesByParentIdQuery(locale as Locale), {
+          parentId: category._id,
+        })
+      : Promise.resolve<LeafSummary[]>([]),
     client.fetch<ArticleCardData[]>(articlesByCategorySlugQuery, { locale, slug }),
   ]);
 
-  if (!category) notFound();
-
   return (
     <div className="mx-auto max-w-7xl px-6 py-16">
-      <header className="mb-16 max-w-3xl">
+      <header className="mb-12 max-w-3xl">
+        {/* Breadcrumb to parent bucket on leaf pages */}
+        {!isRoot && category.parent && (
+          <nav
+            aria-label="Breadcrumb"
+            className="mb-4 font-sans text-xs uppercase tracking-[0.18em] text-night-soft"
+          >
+            <Link
+              href={`/blog/category/${category.parent.slug}`}
+              className="transition-colors hover:text-faience"
+            >
+              {category.parent.name}
+            </Link>
+            <span aria-hidden="true" className="mx-2">
+              ›
+            </span>
+            <span className="text-night">{category.name}</span>
+          </nav>
+        )}
+
         <p className="mb-3 font-sans text-xs font-semibold uppercase tracking-[0.18em] text-orange-deep">
           {t('categoryLabel')}
         </p>
@@ -75,6 +123,24 @@ export default async function CategoryPage({ params }: Props) {
           </p>
         )}
       </header>
+
+      {/* Secondary filter bar — only on root bucket pages */}
+      {isRoot && leaves.length > 0 && (
+        <nav
+          aria-label={t('categoryLabel')}
+          className="mb-12 flex flex-wrap gap-x-6 gap-y-3 border-y border-rule py-4"
+        >
+          {leaves.map((leaf) => (
+            <Link
+              key={leaf._id}
+              href={`/blog/category/${leaf.slug}`}
+              className="font-serif text-base italic text-night-soft transition-colors hover:text-faience"
+            >
+              {leaf.name}
+            </Link>
+          ))}
+        </nav>
+      )}
 
       {articles.length === 0 ? (
         <p className="mt-12 font-serif text-lg italic text-ink-muted">
