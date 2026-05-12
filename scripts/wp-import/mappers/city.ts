@@ -16,6 +16,7 @@ import {
   buildHeroImage,
   buildMigrationMeta,
   buildRedirects,
+  deriveJaSlug,
   i18nString,
   decodeTitle,
   plainText,
@@ -65,16 +66,44 @@ function stripCityHubSuffix(rawSlug: string, locale: Locale): { stripped: string
   return { stripped: decoded, matched: false };
 }
 
-/** Build the i18n slug array for a city doc, applying locale-aware stripping
- * to convert WP destination-hub slugs (like "cairo-travel-guide") into the
- * Sanity city slug convention (like "cairo"). */
-function cityI18nSlug(group: LocaleGroup): I18nSlug {
+/** Build the i18n slug array for a city doc, with JA slug derived from the
+ * stripped JA name via the shared romaji helper. EN/ES branches preserve the
+ * existing locale-aware -travel-guide suffix-stripping logic (per session 5
+ * slug-shape decision). Override file consulted for JA via deriveJaSlug.
+ *
+ * City-specific because the EN/ES suffix-stripping is not relevant to other
+ * entity types — keeps _shared.ts pure and lets each mapper own its own
+ * cleanup rules.
+ *
+ * The JA branch derives the slug from the editorial JA name (using the same
+ * stripCityNameSuffix that the doc's `name` field uses) rather than the raw
+ * WP title. This guarantees the slug is textually consistent with the doc's
+ * canonical JA name.
+ */
+async function cityI18nSlugWithJaRomaji(
+  group: LocaleGroup,
+  jaOverrideKey: string
+): Promise<I18nSlug> {
   const out: I18nSlug = [];
   for (const loc of ['en', 'es', 'ja'] as const) {
     const e = group[loc];
     if (!e?.slug) continue;
-    const { stripped } = stripCityHubSuffix(e.slug, loc);
-    out.push({ _key: loc, value: { _type: 'slug', current: stripped } });
+    if (loc === 'ja') {
+      if (!e.title?.rendered) {
+        throw new Error(
+          `[city mapper] JA entry has slug but no title for city wpId=${group.en?.id}. ` +
+          `Cannot derive romaji slug without title input. ` +
+          `Resolution: (1) fix the JA title upstream in WP, OR (2) add an entry to migration/ja-slug-overrides.json keyed by '${jaOverrideKey}' with a manually-chosen slug.`
+        );
+      }
+      const rawJaTitle = decodeTitle(e.title.rendered) ?? '';
+      const strippedJaTitle = stripCityNameSuffix(rawJaTitle, 'ja').stripped;
+      const slug = await deriveJaSlug(strippedJaTitle, jaOverrideKey);
+      out.push({ _key: 'ja', value: { _type: 'slug', current: slug } });
+    } else {
+      const { stripped } = stripCityHubSuffix(e.slug, loc);
+      out.push({ _key: loc, value: { _type: 'slug', current: stripped } });
+    }
   }
   return out;
 }
@@ -267,7 +296,7 @@ export async function mapCity(
     _id,
     _type: 'city',
     name,
-    slug: cityI18nSlug(group),
+    slug: await cityI18nSlugWithJaRomaji(group, _id),
     summary,
     overview,
     ...(keyFacts ? { keyFacts } : {}),
