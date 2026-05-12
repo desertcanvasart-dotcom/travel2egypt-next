@@ -1491,4 +1491,37 @@ g) **Featured article excerpt template on /blog archive.**
    Problem: On the `/blog` landing, the featured lead article ("Curse of King Tut's Tomb") renders the full article body instead of a short excerpt. Article detail page renders correctly.
    Scope: Update the journal-archive featured-block component to render `article.excerpt` (or the first ~280 chars of `body` if excerpt is null), not full body.
    Estimated: 30 min. Schedule: brand polish (Session 6).
+   **Resolved (Session 5.5 follow-up):** Root cause was a data bug, not a rendering bug — see item (h).
+
+h) **Migration bug: deck field bloat.**
+   Diagnosis: The WP→Sanity importer stuffed full article body content into the `deck` (standfirst) field for 503 of 507 articles in `migration-staging` (deck lengths 300–6,900 chars; schema expects one short sentence ~70–200 chars). The ArticleCard `variant="lead"` renders `deck` without line-clamp, so the bloated content displayed as ~1,500 words of italic serif prose on `/blog`.
+   Remediation applied this session via `scripts/truncate-article-decks.ts`: truncate each long deck to its first sentence (abbreviation-aware), or first + second if first <30 chars; hard-cap at 280 chars with ellipsis if no sentence boundary appears in range. 503 articles modified, 4 already-short skipped. Post-patch distribution: 39 <100 chars, 209 in 100–199, 78 in 200–279, 181 hard-capped at ~283.
+   Editorial work remaining: 181 hard-capped articles end mid-sentence with ellipsis and need a real one-sentence deck rewritten. Flagged via new `migration.deckNeedsReview` boolean (set by `scripts/flag-hard-capped-decks.ts`); existing `migration.reviewFlag` values preserved (33 articles carry both flags). Studio filter: `*[migration.deckNeedsReview == true]`.
+   Importer fix: the WP→Sanity import code that originally populated `deck` from body content should be corrected before any future re-import (otherwise next sync overwrites our cleanup). Source likely in `scripts/wp-import/` — locate the deck-extraction step and constrain to WP `excerpt` field or first paragraph only.
+   Estimated: 30 min to fix importer + 5–10 hours editorial rewrites. Schedule: importer fix before next re-import; editorial rewrites ongoing.
+
+i) **Audit short-text fields for bloat.**
+   Risk: The same importer code path that bloated `article.deck` may have populated other short-text fields on other doc types with full body content (e.g. destination subpage `subtitle`/`intro`/`summary`, tour `lede`, monument `excerpt`, etc.). Visual rendering may be masking the issue on pages not yet exercised.
+   Scope: Sweep `migration-staging` for any short-text field whose values exceed plausible bounds (e.g. >500 chars for fields described as "subtitle" or "standfirst"). Surface a per-doc-type, per-field length distribution. Decide field-by-field whether to truncate, null, or leave for editorial.
+   Estimated: 1–2 hours audit + variable remediation per field. Schedule: before Session 6 destination subpages launch, since that's the next set of pages that will surface affected docs.
+
+j) **Japanese article slug strategy.**
+   Problem: Japanese articles return 404 on detail pages (e.g., `/ja/blog/エジプトのエスコート`). Japanese slugs are stored as Japanese characters (Hiragana/Katakana/Kanji). URL-encoding plus GROQ slug matching appears to fail.
+
+   Strategic decision needed before fix:
+   - Option A: Keep Japanese-character slugs, fix routing
+   - Option B: Convert all Japanese slugs to romaji (Latin transliteration)
+   - Option C: Use English slug for Japanese articles (consistency issue with Spanish which uses Spanish slugs)
+   - Option D: Different strategy per locale (ES Spanish, JA romaji)
+
+   Affects: ~170 Japanese articles + all future Japanese content (cities, monuments, tours). SEO and URL sharing implications.
+   Estimated: 2–3 hour session with strategic decision + implementation. Schedule: dedicated next session.
+
+k) **Language switcher uses translation.metadata.**
+   Problem: Language switcher on article detail pages constructs URL by changing only the locale prefix (`/blog/x` → `/es/blog/x`). This produces 404 for articles whose slug differs across locales.
+
+   Spanish articles work because Spanish slugs are Spanish. So `/blog/the-curse-of-king-tuts-tomb` switches to `/es/blog/the-curse-of-king-tuts-tomb` which doesn't exist — the Spanish version has its own Spanish slug.
+
+   Fix: language switcher should look up locale-specific slug via `article.translation.metadata`, route to correct slug per target locale.
+   Estimated: 1–2 hours. Schedule: same session as item (j).
 
