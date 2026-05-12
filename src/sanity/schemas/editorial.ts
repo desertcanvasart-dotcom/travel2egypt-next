@@ -25,6 +25,20 @@ export const editorialCategorySchema = defineType({
     }),
     defineField(localizedSlugField() as any),
     defineField({
+      name: 'parent',
+      title: 'Parent category',
+      description:
+        'Set on leaf sub-categories. Leave blank on root buckets. Invariant: parent must itself be a root (no grandchildren); enforced by data layer, not Studio.',
+      type: 'reference',
+      to: [{ type: 'editorialCategory' }],
+      validation: (Rule) =>
+        Rule.custom((parent, ctx) => {
+          if (!parent?._ref) return true;
+          if (parent._ref === ctx.document?._id) return 'Cannot reference self';
+          return true;
+        }),
+    }),
+    defineField({
       name: 'description',
       title: 'Description',
       type: 'internationalizedArrayText',
