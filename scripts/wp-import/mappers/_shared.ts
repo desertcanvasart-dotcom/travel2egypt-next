@@ -3,11 +3,14 @@
  */
 
 import { parse } from 'node-html-parser';
+import { readFileSync, existsSync } from 'node:fs';
+import { resolve } from 'node:path';
 import type { SanityClient } from '@sanity/client';
 
 import { htmlToPortableText, type PtBlock } from '../../wp-import-html.js';
 import type { WpClient } from '../wp-client.js';
 import { ensureAssetUploaded } from '../media.js';
+import { titleToRomajiSlug } from './_romaji.js';
 import type {
   I18nSlug,
   I18nString,
@@ -53,6 +56,79 @@ export function i18nSlug(group: LocaleGroup): I18nSlug {
   for (const loc of ['en', 'es', 'ja'] as const) {
     const e = group[loc];
     if (e?.slug) out.push({ _key: loc, value: { _type: 'slug', current: decodeURIComponent(e.slug) } });
+  }
+  return out;
+}
+
+// ─── JA slug override + romanization (consumed by article.ts + travelTip.ts) ──
+
+interface JaSlugOverrideValue { slug: string; reason?: string; }
+type JaSlugOverrides = Record<string, string | JaSlugOverrideValue>;
+
+let _jaSlugOverrides: JaSlugOverrides | null = null;
+const JA_SLUG_OVERRIDES_PATH = resolve(process.cwd(), 'migration/ja-slug-overrides.json');
+
+function loadJaSlugOverrides(): JaSlugOverrides {
+  if (_jaSlugOverrides !== null) return _jaSlugOverrides;
+  if (!existsSync(JA_SLUG_OVERRIDES_PATH)) { _jaSlugOverrides = {}; return _jaSlugOverrides; }
+  const raw = readFileSync(JA_SLUG_OVERRIDES_PATH, 'utf8').trim();
+  if (!raw) { _jaSlugOverrides = {}; return _jaSlugOverrides; }
+  _jaSlugOverrides = JSON.parse(raw) as JaSlugOverrides;
+  return _jaSlugOverrides;
+}
+
+function jaSlugOverride(overrideKey: string): string | null {
+  const v = loadJaSlugOverrides()[overrideKey];
+  if (!v) return null;
+  return typeof v === 'string' ? v : v.slug;
+}
+
+/**
+ * Derive the JA slug for a doc — override-first, algorithmic fallback.
+ * Caller passes the Sanity _id (or equivalent unique key) for override lookup.
+ * Requires initRomaji() to have been called at process startup.
+ */
+export async function deriveJaSlug(jaTitle: string, overrideKey: string): Promise<string> {
+  const ov = jaSlugOverride(overrideKey);
+  if (ov !== null) return ov;
+  return titleToRomajiSlug(jaTitle);
+}
+
+/**
+ * Field-level i18n slug array, with the JA entry produced via the romaji
+ * helper (override-first, algorithmic fallback). EN/ES use decodeURIComponent
+ * of the WP source slug, identical to i18nSlug().
+ *
+ * Caller passes the override key for the JA entry — typically the Sanity _id.
+ * For travelTip (single doc, no -ja suffix), pass `wp-page-${en.id}`.
+ *
+ * Throws if the JA entry has a slug but no title — required to avoid
+ * silently falling back to the Japanese-character WP slug (the bug §4.2
+ * this session closed). Resolve by fixing the JA title upstream, or by
+ * adding an override entry to migration/ja-slug-overrides.json.
+ */
+export async function i18nSlugWithJaRomaji(
+  group: LocaleGroup,
+  jaOverrideKey: string
+): Promise<I18nSlug> {
+  const out: I18nSlug = [];
+  for (const loc of ['en', 'es', 'ja'] as const) {
+    const e = group[loc];
+    if (!e?.slug) continue;
+    if (loc === 'ja') {
+      if (!e.title?.rendered) {
+        throw new Error(
+          `[i18nSlugWithJaRomaji] JA entry has slug but no title for override key '${jaOverrideKey}'. ` +
+          `Cannot derive romaji slug without title input. ` +
+          `Resolution: (1) fix the JA title upstream in WP, OR (2) add an entry to migration/ja-slug-overrides.json keyed by '${jaOverrideKey}' with a manually-chosen slug.`
+        );
+      }
+      const jaTitle = decodeTitle(e.title.rendered);
+      const slug = await deriveJaSlug(jaTitle, jaOverrideKey);
+      out.push({ _key: 'ja', value: { _type: 'slug', current: slug } });
+    } else {
+      out.push({ _key: loc, value: { _type: 'slug', current: decodeURIComponent(e.slug) } });
+    }
   }
   return out;
 }

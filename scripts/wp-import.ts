@@ -36,6 +36,7 @@ import { applyMerge, isMergeableType } from './wp-import/merge.js';
 import { decideScope, validateScopeFlags, ScopeFlagError, type ScopePlan } from './wp-import/scope.js';
 import { getHreflangMap } from './wp-import/hreflang.js';
 import { mapArticle } from './wp-import/mappers/article.js';
+import { initRomaji } from './wp-import/mappers/_romaji.js';
 import { mapCity } from './wp-import/mappers/city.js';
 import { mapGuideArticle } from './wp-import/mappers/guideArticle.js';
 import { mapWikiMonument } from './wp-import/mappers/wikiMonument.js';
@@ -232,6 +233,12 @@ async function main(): Promise<void> {
 
   const env = loadEnv();
   const stats = emptyStats(process.argv.slice(2));
+
+  // Initialize the JA romanization dictionary once at startup (idempotent,
+  // ~270ms). Required by article + travelTip mappers when processing JA
+  // locale entries. Loaded even for relink phase to keep this simple — the
+  // cost is negligible vs. branching on phase.
+  await initRomaji();
 
   process.stderr.write(`[wp-import] phase=${cli.phase} dataset=${env.sanityDataset} dryRun=${cli.dryRun}\n`);
 

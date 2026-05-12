@@ -18,6 +18,7 @@ import {
   buildMigrationMeta,
   buildRedirects,
   decodeTitle,
+  deriveJaSlug,
   NOW,
   plainText,
   prepareBodyImageResolver,
@@ -117,12 +118,26 @@ export async function mapArticle(
       ...(wpCategorySlugs.length ? { wpCategorySlugs } : {}),
     };
 
+    let slugCurrent: string;
+    if (loc === 'ja') {
+      if (!e.title?.rendered) {
+        throw new Error(
+          `[article mapper] JA entry has slug but no title for doc '${docId}'. ` +
+          `Cannot derive romaji slug without title input. ` +
+          `Resolution: (1) fix the JA title upstream in WP, OR (2) add an entry to migration/ja-slug-overrides.json keyed by '${docId}' with a manually-chosen slug.`
+        );
+      }
+      slugCurrent = await deriveJaSlug(decodeTitle(e.title.rendered), docId);
+    } else {
+      slugCurrent = decodeURIComponent(e.slug);
+    }
+
     docs.push({
       _id: docId,
       _type,
       language: loc,
       title: decodeTitle(e.title?.rendered),
-      slug: { _type: 'slug', current: decodeURIComponent(e.slug) },
+      slug: { _type: 'slug', current: slugCurrent },
       ...(hero ? { heroImage: hero } : {}),
       deck: plainText(e.excerpt?.rendered),
       body: pt.blocks,
