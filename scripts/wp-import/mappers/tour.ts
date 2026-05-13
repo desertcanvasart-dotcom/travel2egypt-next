@@ -29,6 +29,7 @@
 
 import type { SanityClient } from '@sanity/client';
 
+import { TOKEN_TO_CITY_SLUG } from '../../wp-classifier.js';
 import type { WpClient } from '../wp-client.js';
 import {
   buildHeroImage,
@@ -113,9 +114,9 @@ export async function mapTour(
   const tourMode: 'private' | 'group' | undefined =
     tourType === 'package' ? undefined : isPrivateCarAndGuide ? 'private' : 'group';
 
-  // City refs (slug-prefix match against the 41-city list; Cairo last resort).
+  // City refs (full-slug token-boundary scan; Cairo last resort).
   const cityRefsBySlug = opts.cityRefsBySlug ?? (await fetchCityRefsBySlug(client));
-  const cities = resolveTopLevelCities(slug, cityRefsBySlug);
+  const { cities, resolution: cityResolution } = resolveTopLevelCities(slug, cityRefsBySlug);
 
   // Per-locale Elementor extraction.
   const extracted = extractContent(group, isPrivateCarAndGuide);
@@ -141,7 +142,7 @@ export async function mapTour(
     cities,
     ...(durationDays > 0 ? { durationDays } : {}),
     ...(hero ? { heroImage: hero } : {}),
-    migration: buildMigrationMeta(group),
+    migration: buildMigrationMeta(group, undefined, { cityResolution }),
   };
 
   const redirects = buildRedirects(
@@ -187,29 +188,105 @@ async function fetchCityRefsBySlug(client: SanityClient): Promise<Map<string, st
   return map;
 }
 
-function resolveTopLevelCities(
+export type CityResolution = 'override' | 'full-slug-scan' | 'default-cairo';
+
+/**
+ * Full-slug token-boundary scan against the 41-city Sanity inventory.
+ *
+ * For each city slug (longest-first), find token-aligned occurrences in the
+ * tour slug, consuming matched character positions so an `abu-simbel` match
+ * isn't double-counted as a separate `abu` or `simbel` if those were also
+ * in inventory. Multiple distinct cities can match — returned in match order.
+ *
+ * `SLUG_CITY_OVERRIDES` wins absolutely. Falls back to Cairo if nothing matches.
+ */
+export function resolveTopLevelCities(
   slug: string,
   cityRefsBySlug: Map<string, string>
-): Array<{ _type: 'reference'; _ref: string; _key: string }> {
+): { cities: Array<{ _type: 'reference'; _ref: string; _key: string }>; resolution: CityResolution } {
   // Explicit override first.
   const overrideCitySlug = SLUG_CITY_OVERRIDES[slug];
   if (overrideCitySlug) {
     const id = cityRefsBySlug.get(overrideCitySlug);
-    if (id) return [{ _type: 'reference', _ref: id, _key: id }];
-    // Override pointed to a city slug not present in cityRefsBySlug — fall through.
+    if (id) {
+      return {
+        cities: [{ _type: 'reference', _ref: id, _key: id }],
+        resolution: 'override',
+      };
+    }
+    // Override pointed to a slug not in inventory — fall through to scan.
   }
-  // Longest-prefix match wins, so a more specific city slug isn't shadowed by
-  // a shorter substring of itself.
+
+  // Sort longest-first so multi-word cities (abu-simbel, marsa-alam, siwa-oasis)
+  // are matched before any bare token that overlaps.
   const sortedCitySlugs = [...cityRefsBySlug.keys()].sort((a, b) => b.length - a.length);
+
+  // Character-position mask. A position consumed by a longer match is unavailable
+  // for any subsequent (shorter) match.
+  const consumed = new Array<boolean>(slug.length).fill(false);
+  const matched: Array<{ slug: string; id: string; at: number }> = [];
+
   for (const citySlug of sortedCitySlugs) {
-    if (slug === citySlug || slug.startsWith(citySlug + '-')) {
+    const escaped = citySlug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp(`(?:^|-)(${escaped})(?:-|$)`, 'g');
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(slug)) !== null) {
+      const tokenStart = m.index + (m[0].startsWith('-') ? 1 : 0);
+      const tokenEnd = tokenStart + m[1].length;
+      let overlap = false;
+      for (let i = tokenStart; i < tokenEnd; i++) {
+        if (consumed[i]) { overlap = true; break; }
+      }
+      if (overlap) continue;
+      for (let i = tokenStart; i < tokenEnd; i++) consumed[i] = true;
       const id = cityRefsBySlug.get(citySlug)!;
-      return [{ _type: 'reference', _ref: id, _key: id }];
+      matched.push({ slug: citySlug, id, at: tokenStart });
+      break; // one match per city slug
     }
   }
-  const cairoId = cityRefsBySlug.get('cairo');
-  if (cairoId) return [{ _type: 'reference', _ref: cairoId, _key: cairoId }];
-  return [];
+
+  // Alias pass — handles operator-domain Egyptian-geography variants where
+  // slugs use bare tokens (siwa, fayoum, dakhla, …) but Sanity inventory uses
+  // multi-word canonical forms (siwa-oasis, al-fayoum, …). Source of truth is
+  // TOKEN_TO_CITY_SLUG in the classifier; we import it to stay in sync.
+  for (const [aliasToken, canonicalSlug] of Object.entries(TOKEN_TO_CITY_SLUG)) {
+    if (matched.some((m) => m.slug === canonicalSlug)) continue;
+    const canonicalId = cityRefsBySlug.get(canonicalSlug);
+    if (!canonicalId) continue;
+    const escaped = aliasToken.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp(`(?:^|-)(${escaped})(?:-|$)`, 'g');
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(slug)) !== null) {
+      const tokenStart = m.index + (m[0].startsWith('-') ? 1 : 0);
+      const tokenEnd = tokenStart + m[1].length;
+      let overlap = false;
+      for (let i = tokenStart; i < tokenEnd; i++) {
+        if (consumed[i]) { overlap = true; break; }
+      }
+      if (overlap) continue;
+      for (let i = tokenStart; i < tokenEnd; i++) consumed[i] = true;
+      matched.push({ slug: canonicalSlug, id: canonicalId, at: tokenStart });
+      break;
+    }
+  }
+
+  if (matched.length === 0) {
+    const cairoId = cityRefsBySlug.get('cairo');
+    if (cairoId) {
+      return {
+        cities: [{ _type: 'reference', _ref: cairoId, _key: cairoId }],
+        resolution: 'default-cairo',
+      };
+    }
+    return { cities: [], resolution: 'default-cairo' };
+  }
+
+  // Return cities in left-to-right slug order for deterministic, readable output.
+  matched.sort((a, b) => a.at - b.at);
+  return {
+    cities: matched.map((m) => ({ _type: 'reference' as const, _ref: m.id, _key: m.id })),
+    resolution: 'full-slug-scan',
+  };
 }
 
 // -- Locale entry accessor (LocaleGroup uses discrete keys, not index) ----------

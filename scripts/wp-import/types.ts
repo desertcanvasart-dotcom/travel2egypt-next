@@ -102,6 +102,8 @@ export interface MigrationMetadata {
   wpAuthorId?: number;
   wpAuthorSlug?: string;
   wpCategorySlugs?: string[];
+  /** Tour mapper: source of city ref resolution. */
+  cityResolution?: 'override' | 'full-slug-scan' | 'default-cairo';
 }
 
 export type ReviewFlag =

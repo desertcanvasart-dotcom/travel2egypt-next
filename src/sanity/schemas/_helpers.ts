@@ -101,6 +101,13 @@ export function migrationField() {
         readOnly: true,
         description: 'Original WordPress category slugs. Used by the two-bucket heuristic that mapped this doc to a Sanity editorialCategory.',
       }),
+      defineField({
+        name: 'cityResolution',
+        title: 'City resolution source',
+        type: 'string',
+        readOnly: true,
+        description: 'Tour mapper only. How the cities[] array was derived. One of "override", "full-slug-scan", "default-cairo".',
+      }),
     ],
   });
 }
