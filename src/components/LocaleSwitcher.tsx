@@ -118,6 +118,32 @@ async function resolveLocalizedPathname(
 ): Promise<string> {
   if (fromLocale === toLocale) return pathname;
 
+  // Guide article detail: /guide/[citySlug]/[articleSlug]. Two-segment URL;
+  // both slugs vary by locale. Single API call resolves both. Matched BEFORE
+  // the city regex (which is single-segment) for safety — the city regex's
+  // `?$` anchor already enforces no second segment, so order is defensive
+  // rather than functionally required.
+  // On miss / fetch failure / partial translation: fall back to /guide list.
+  const guideArticleMatch = pathname.match(/^\/guide\/([^/]+)\/([^/]+)\/?$/);
+  if (guideArticleMatch) {
+    const fromArticleSlug = guideArticleMatch[2];
+    try {
+      const res = await fetch(
+        `/api/locale-resolve/guideArticle?fromLocale=${fromLocale}&fromArticleSlug=${encodeURIComponent(fromArticleSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { articleSlug, citySlug } = (await res.json()) as {
+          articleSlug: string | null;
+          citySlug: string | null;
+        };
+        if (articleSlug && citySlug) return `/guide/${citySlug}/${articleSlug}`;
+      }
+    } catch {
+      // fall through to /guide list
+    }
+    return '/guide';
+  }
+
   const cityMatch = pathname.match(/^\/guide\/([^/]+)\/?$/);
   if (cityMatch) {
     const fromSlug = cityMatch[1];
@@ -155,6 +181,26 @@ async function resolveLocalizedPathname(
       // fall through to /blog archive
     }
     return '/blog';
+  }
+
+  // Travel tip detail: /travel-tips/[slug]. Single-segment URL, slug
+  // varies by locale (field-level i18n on travelTip). On miss / fetch
+  // failure: fall back to /travel-tips list.
+  const travelTipMatch = pathname.match(/^\/travel-tips\/([^/]+)\/?$/);
+  if (travelTipMatch) {
+    const fromSlug = travelTipMatch[1];
+    try {
+      const res = await fetch(
+        `/api/locale-resolve/travelTip?fromLocale=${fromLocale}&fromSlug=${encodeURIComponent(fromSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { slug } = (await res.json()) as { slug: string | null };
+        if (slug) return `/travel-tips/${slug}`;
+      }
+    } catch {
+      // fall through to /travel-tips list
+    }
+    return '/travel-tips';
   }
 
   return pathname;
