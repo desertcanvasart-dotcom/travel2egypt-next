@@ -1,0 +1,2313 @@
+[
+  {
+    "wpId": 239597,
+    "slug": "pyramids-of-giza-and-grand-egyptian-museum",
+    "title": "Pyramids of Giza and Grand Egyptian Museum (GEM) Private Tour",
+    "type": "dayTour",
+    "classifierReason": "Explicit editorial routing override",
+    "confidence": "high"
+  },
+  {
+    "wpId": 239040,
+    "slug": "cairo-sky-adventure",
+    "title": "Cairo Sky Adventure",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-adventure(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 238599,
+    "slug": "desert-oasis-siwa-retreat-solo-traveller",
+    "title": "Desert &amp; Oasis — Siwa Retreat (Solo Traveller)",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-retreat(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 238562,
+    "slug": "nile-in-5-days-luxor-aswan-solo-traveller",
+    "title": "Nile in 5 Days — Luxor &amp; Aswan (Solo Traveller)",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 238546,
+    "slug": "cairo-in-3-days-insider-edition-solo-traveller",
+    "title": "Cairo in 3 Days — Insider Edition (Solo Traveller)",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 238471,
+    "slug": "9-days-cairo-%c2%b7-st-catherine-%c2%b7-sharm-el-sheikh",
+    "title": "9 Days – Cairo · St. Catherine · Sharm El Sheikh",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 238461,
+    "slug": "3-days-cairo-highlights-for-friends",
+    "title": "3 Days – Cairo Highlights for Friends",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 3
+  },
+  {
+    "wpId": 238436,
+    "slug": "12-day-red-sea-desert-friends-escape",
+    "title": "12 Day Red Sea &amp; Desert Friends Escape",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 12
+  },
+  {
+    "wpId": 238377,
+    "slug": "9-days-red-sea-desert-escape",
+    "title": "9 Days – Red Sea &amp; Desert Escape",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 238371,
+    "slug": "nile-love-journey-luxor-aswan",
+    "title": "Nile Love Journey — Luxor &#038; Aswan",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-journey(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 238357,
+    "slug": "5-days-cairo-luxor-romance-edition",
+    "title": "5 Days – Cairo &#038; Luxor Romance Edition",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 5
+  },
+  {
+    "wpId": 237730,
+    "slug": "cairo-and-alexandria-4-days-family-package",
+    "title": "Cairo and Alexandria 4-Days Family Package",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-package(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 237732,
+    "slug": "cairo-and-nile-cruise-8-day-family-package",
+    "title": "Cairo and Nile Cruise 8-Day Family Package",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-package(-|$)/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 218448,
+    "slug": "11-day-luxor-to-cairo-egypt-nile-cruise-vacation-from-germany",
+    "title": "11 Day Luxor To Cairo Egypt Nile Cruise Vacation from Germany",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 218432,
+    "slug": "9-day-prestigious-egypt-vacation-from-germany",
+    "title": "9-Day Prestigious Egypt Vacation from Germany",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 161593,
+    "slug": "bahariya-and-siwa-oasis-vacation-from-germany",
+    "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from Germany",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 161561,
+    "slug": "10-day-romantic-egypt-travel-deals-from-germany",
+    "title": "Love on the Nile: 10-Day Romantic Egypt Travel Deals from Germany",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 161535,
+    "slug": "8-day-customized-aswan-travel-deal-from-germany",
+    "title": "8 Day Customized Aswan Travel Deal from Germany",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 161513,
+    "slug": "18-day-grand-egypt-holiday-package-from-germany",
+    "title": "18 Day Grand Egypt Holiday Package from Germany",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 18
+  },
+  {
+    "wpId": 161486,
+    "slug": "8-day-egypt-holiday-package-from-germany",
+    "title": "Sharm&#8217;s Delight: 8-Day Egypt Holiday Package from Germany",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 161448,
+    "slug": "4-day-cairo-travel-package-from-germany",
+    "title": "Egypt Escape: 4-Day Cairo Travel Package from Germany",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 161359,
+    "slug": "14-day-egypt-tour-package-from-germany-for-families",
+    "title": "Luxury 14-Day Egypt Tour Package from Germany for Families",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 161314,
+    "slug": "egypt-tours-from-germany",
+    "title": "Egypt Tours from Germany",
+    "type": "dayTour",
+    "classifierReason": "egypt-tours-from-{country} pattern",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160630,
+    "slug": "10-day-romantic-egypt-deals-from-spain",
+    "title": "10-Day Romantic Egypt Deals From Spain",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 161192,
+    "slug": "8-day-customized-aswan-travel-deal-from-spain",
+    "title": "8 Day Customized Aswan Travel Deal from Spain",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 161143,
+    "slug": "18-day-grand-egypt-holiday-package-from-spain",
+    "title": "18 Day Grand Egypt Holiday Package from Spain",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 18
+  },
+  {
+    "wpId": 161128,
+    "slug": "8-day-egypt-holiday-package-from-spain",
+    "title": "Sharm&#8217;s Delight: 8-Day Egypt Holiday Package from spain",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 161111,
+    "slug": "bahariya-and-siwa-oasis-vacation-from-spain",
+    "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from spain",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 161093,
+    "slug": "11-day-luxor-to-cairo-egypt-nile-cruise-vacation-from-spain",
+    "title": "11 Day Luxor To Cairo Egypt Nile Cruise Vacation from Spain",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 161079,
+    "slug": "9-day-prestigious-egypt-vacation-from-spain",
+    "title": "Luxury &amp; Legacy: 9-Day Prestigious Egypt Vacation from Spain",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 161041,
+    "slug": "4-day-cairo-travel-package-from-spain",
+    "title": "Egypt Escape: 4-Day Cairo Travel Package from Spain",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 161017,
+    "slug": "14-day-egypt-tour-package-from-spain-for-families",
+    "title": "Luxury 14-Day Egypt Tour Package from Spain for Families",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 160983,
+    "slug": "egypt-tours-from-spain",
+    "title": "Egypt Tours from Spain",
+    "type": "dayTour",
+    "classifierReason": "egypt-tours-from-{country} pattern",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160965,
+    "slug": "9-day-prestigious-egypt-vacation-from-usa",
+    "title": "Luxury &amp; Legacy: 9-Day Prestigious Egypt Vacation from USA",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 160953,
+    "slug": "bahariya-and-siwa-oasis-vacation-from-usa",
+    "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from USA",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160943,
+    "slug": "luxor-to-cairo-egypt-nile-cruise-vacation-from-usa",
+    "title": "11 Day Luxor To Cairo Egypt Nile Cruise Vacation from USA",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160918,
+    "slug": "10-day-romantic-egypt-travel-deals-from-usa",
+    "title": "Love on the Nile: 10-Day Romantic Egypt Travel Deals from USA",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 160906,
+    "slug": "8-day-customized-aswan-travel-deal-from-usa",
+    "title": "8 Day Customized Aswan Travel Deal from USA",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160894,
+    "slug": "18-day-grand-egypt-holiday-package-from-usa",
+    "title": "18 Day Grand Egypt Holiday Package from USA",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 18
+  },
+  {
+    "wpId": 160877,
+    "slug": "8-day-egypt-holiday-package-from-usa",
+    "title": "Sharm&#8217;s Delight: 8-Day Egypt Holiday Package from USA",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160863,
+    "slug": "4-day-cairo-travel-package-from-usa",
+    "title": "Egypt Escape: 4-Day Cairo Travel Package from USA",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 160846,
+    "slug": "14-day-egypt-tour-package-from-usa-for-families",
+    "title": "Luxury 14-Day Egypt Tour Package from USA for Families",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 160833,
+    "slug": "egypt-tours-from-usa",
+    "title": "Egypt Tours from USA",
+    "type": "dayTour",
+    "classifierReason": "egypt-tours-from-{country} pattern",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160803,
+    "slug": "11-day-luxor-to-cairo-egypt-nile-cruise-vacation-from-turkey",
+    "title": "11 Day Luxor To Cairo Egypt Nile Cruise Vacation from Turkey",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 160788,
+    "slug": "9-day-prestigious-egypt-vacation-from-turkey",
+    "title": "Luxury &amp; Legacy: 9-Day Prestigious Egypt Vacation from Turkey",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 160776,
+    "slug": "bahariya-and-siwa-oasis-vacation-from-turkey",
+    "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from Turkey",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160767,
+    "slug": "10-day-romantic-egypt-travel-deals-from-turkey",
+    "title": "Love on the Nile: 10-Day Romantic Egypt Travel Deals from Turkey",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 160742,
+    "slug": "8-day-customized-aswan-travel-deal-from-turkey",
+    "title": "8 Day Customized Aswan Travel Deal from Turkey",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160732,
+    "slug": "18-day-grand-egypt-holiday-package-from-turkey",
+    "title": "18 Day Grand Egypt Holiday Package from Turkey",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 18
+  },
+  {
+    "wpId": 160716,
+    "slug": "8-day-egypt-holiday-package-from-turkey",
+    "title": "Sharm&#8217;s Delight: 8-Day Egypt Holiday Package from Turkey",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160696,
+    "slug": "4-day-cairo-travel-package-from-turkey",
+    "title": "Egypt Escape: 4-Day Cairo Travel Package from Turkey",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 160682,
+    "slug": "14-day-egypt-tour-package-from-turkey-for-families",
+    "title": "Luxury 14-Day Egypt Tour Package from Turkey for Families",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 160669,
+    "slug": "egypt-tours-from-turkey",
+    "title": "Egypt Tours from Turkey",
+    "type": "dayTour",
+    "classifierReason": "egypt-tours-from-{country} pattern",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160516,
+    "slug": "10-day-romantic-egypt-travel-deals-from-canada",
+    "title": "Love on the Nile: 10-Day Romantic Egypt Travel Deals from Canada",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 160611,
+    "slug": "8-day-customized-aswan-travel-deal-from-canada",
+    "title": "8 Day Customized Aswan Travel Deal from Canada",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160597,
+    "slug": "18-day-grand-egypt-holiday-package-from-canada",
+    "title": "18 Day Grand Egypt Holiday Package from Canada",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 18
+  },
+  {
+    "wpId": 160581,
+    "slug": "8-day-egypt-holiday-package-from-canada",
+    "title": "Sharm&#8217;s Delight: 8-Day Egypt Holiday Package from Canada",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160571,
+    "slug": "4-day-cairo-travel-package-from-canada",
+    "title": "Egypt Escape: 4-Day Cairo Travel Package from Canada",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 160553,
+    "slug": "14-day-egypt-tour-package-from-canada-for-families",
+    "title": "Luxury 14-Day Egypt Tour Package from Canada for Families",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 160503,
+    "slug": "bahariya-and-siwa-oasis-vacation-from-canada",
+    "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from Canada",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160491,
+    "slug": "9-day-prestigious-egypt-vacation-from-canada",
+    "title": "Luxury &amp; Legacy: 9-Day Prestigious Egypt Vacation from Canada",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 160477,
+    "slug": "11-day-luxor-to-cairo-egypt-nile-cruise-vacation-from-canada",
+    "title": "11 Day Luxor To Cairo Egypt Nile Cruise Vacation from Canada",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 160423,
+    "slug": "egypt-tours-from-canada",
+    "title": "Egypt Tours from Canada",
+    "type": "dayTour",
+    "classifierReason": "egypt-tours-from-{country} pattern",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160357,
+    "slug": "luxor-to-cairo-egypt-nile-cruise-vacation-from-australia",
+    "title": "11 Day Luxor To Cairo Egypt Nile Cruise Vacation from Australia",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160324,
+    "slug": "9-day-prestigious-egypt-vacation-from-australia",
+    "title": "Luxury &amp; Legacy: 9-Day Prestigious Egypt Vacation from Australia",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 160312,
+    "slug": "bahariya-and-siwa-oasis-vacation-from-australia",
+    "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from Australia",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160277,
+    "slug": "10-day-romantic-egypt-travel-deals-from-australia",
+    "title": "Love on the Nile: 10-Day Romantic Egypt Travel Deals from Australia",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 160261,
+    "slug": "8-day-customized-aswan-travel-deal-from-australia",
+    "title": "8 Day Customized Aswan Travel Deal from Australia",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160234,
+    "slug": "18-day-grand-egypt-holiday-package-from-australia",
+    "title": "18 Day Grand Egypt Holiday Package from Australia",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 18
+  },
+  {
+    "wpId": 160209,
+    "slug": "8-day-sharm-el-sheikh-holiday-package-from-australia",
+    "title": "Sharm&#8217;s Delight: 8-Day Egypt Holiday Package from Australia",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160197,
+    "slug": "egypt-escape-4-day-cairo-travel-package-from-australia",
+    "title": "Egypt Escape: 4-Day Cairo Travel Package from Australia",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-package(-|$)/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 160182,
+    "slug": "luxury-14-day-egypt-tour-package-from-australia-for-families",
+    "title": "Luxury 14-Day Egypt Tour Package from Australia for Families",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-package(-|$)/",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 160172,
+    "slug": "egypt-tours-from-australia",
+    "title": "Egypt Tours from australia",
+    "type": "dayTour",
+    "classifierReason": "egypt-tours-from-{country} pattern",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160149,
+    "slug": "egypt-nile-cruise-vacation-from-india",
+    "title": "11 Day Luxor To Cairo Egypt Nile Cruise Vacation from India",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160139,
+    "slug": "9-day-prestigious-egypt-vacation-from-india",
+    "title": "Luxury &amp; Legacy: 9-Day Prestigious Egypt Vacation from India",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 160129,
+    "slug": "bahariya-and-siwa-oasis-vacation-from-india",
+    "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 160116,
+    "slug": "10-day-romantic-egypt-travel-deals-from-india",
+    "title": "Love on the Nile: 10-Day Romantic Egypt Travel Deals from India",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 160107,
+    "slug": "8-day-customized-aswan-travel-deal-from-india",
+    "title": "8-Day Customized Aswan Travel Deal from India",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160096,
+    "slug": "18-day-grand-egypt-holiday-package-from-india",
+    "title": "18-Day Grand Egypt Holiday Package from India",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 18
+  },
+  {
+    "wpId": 160072,
+    "slug": "8-day-egypt-holiday-package-from-india",
+    "title": "Sharm&#8217;s Delight: 8-Day Egypt Holiday Package from India",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 160059,
+    "slug": "4-day-cairo-travel-package-from-india",
+    "title": "Egypt Escape: 4-Day Cairo Travel Package from India",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 160044,
+    "slug": "14-day-egypt-tour-package-from-india-for-families",
+    "title": "Luxury 14-Day Egypt Tour Package from India for Families",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 160026,
+    "slug": "egypt-tours-from-india",
+    "title": "Egypt Tours from India",
+    "type": "dayTour",
+    "classifierReason": "egypt-tours-from-{country} pattern",
+    "confidence": "high"
+  },
+  {
+    "wpId": 159772,
+    "slug": "5-days-egypt-tours",
+    "title": "5 Days Egypt Tours",
+    "type": "dayTour",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 5
+  },
+  {
+    "wpId": 159756,
+    "slug": "2-days-egypt-tours",
+    "title": "2 Days Egypt Tours",
+    "type": "dayTour",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 2
+  },
+  {
+    "wpId": 159590,
+    "slug": "13-days-egypt-tours",
+    "title": "13 Days Egypt Tours",
+    "type": "package",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 13
+  },
+  {
+    "wpId": 159581,
+    "slug": "15-days-egypt-tours",
+    "title": "15 Days Egypt Tours",
+    "type": "package",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 15
+  },
+  {
+    "wpId": 159175,
+    "slug": "14-days-egypt-tours",
+    "title": "14 Days Egypt Tours",
+    "type": "package",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 159124,
+    "slug": "7-days-egypt-tours",
+    "title": "7 Days Egypt Tours",
+    "type": "dayTour",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 7
+  },
+  {
+    "wpId": 159097,
+    "slug": "12-days-egypt-tours",
+    "title": "12 Days Egypt Tours",
+    "type": "package",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 12
+  },
+  {
+    "wpId": 159038,
+    "slug": "10-days-egypt-tours",
+    "title": "10 Days Egypt Tours",
+    "type": "package",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 159022,
+    "slug": "11-days-egypt-tours",
+    "title": "11 Days Egypt Tours",
+    "type": "package",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 159000,
+    "slug": "9-days-egypt-tours",
+    "title": "9 Days Egypt Tours",
+    "type": "package",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 158702,
+    "slug": "8-days-egypt-tours",
+    "title": "8 Days Egypt Tours",
+    "type": "package",
+    "classifierReason": "N-day Egypt tours listing page",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 158052,
+    "slug": "egypt-tours-from-the-uk",
+    "title": "Egypt Tours from the UK",
+    "type": "dayTour",
+    "classifierReason": "egypt-tours-from-{country} pattern",
+    "confidence": "high"
+  },
+  {
+    "wpId": 156550,
+    "slug": "11-day-egypt-tour-of-history-adventure-relaxation",
+    "title": "11-Day Egypt Tour of History, Adventure &amp; Relaxation",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 156014,
+    "slug": "fayoum-desert-adventure",
+    "title": "Fayoum Desert Adventure",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-adventure(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 155692,
+    "slug": "a-western-desert-expedition",
+    "title": "Desert Trails: A Western Desert Expedition",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-expedition(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 155539,
+    "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
+    "title": "Desert Horizons: 7-Day Bahariya &#038; Siwa Oasis Tour – Travel2Egypt",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high",
+    "durationDays": 7
+  },
+  {
+    "wpId": 154883,
+    "slug": "overnight-sataya-dolphin-reef-safari",
+    "title": "Overnight Sataya Dolphin Reef Safari",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-safari(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 153242,
+    "slug": "4-day-history-culture-escape",
+    "title": "Short Break in Cairo: 4-Day History &#038; Culture Escape",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 151868,
+    "slug": "group-tour-luxor-hurghada",
+    "title": "Luxor Highlights: One-Day Group Tour from Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 151754,
+    "slug": "cairo-group-tour",
+    "title": "Cairo Group Tour: Pyramids, Museum &amp; Khan El Khalili",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 151510,
+    "slug": "dendera-and-abydos-temple-tour-hurghada",
+    "title": "Sands of History: Dendera and Abydos Temple Tour Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 149374,
+    "slug": "small-group-travel-packages",
+    "title": "Small Group Travel Packages",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^small-group/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 145919,
+    "slug": "mount-sinai-sunrise-trek",
+    "title": "Mount Sinai Sunrise Trek",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-trek(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 145910,
+    "slug": "2-day-pyramids-mediterranean-tour",
+    "title": "Cairo to Alexandria: 2-Day Pyramids &amp; Mediterranean Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 2
+  },
+  {
+    "wpId": 145857,
+    "slug": "group-day-trip-to-cairo-from-safaga",
+    "title": "Capital Splendors: Group Day Trip to Cairo from Safaga",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-trip/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 145867,
+    "slug": "group-day-tour-to-cairo-from-al-gouna",
+    "title": "Group Day Tour to Cairo from Al Gouna",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 136566,
+    "slug": "7-days-in-egypt-pyramids-temples-and-timeless-wonders",
+    "title": "7 Days in Egypt: Pyramids, Temples, and Timeless Wonders",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 7
+  },
+  {
+    "wpId": 136519,
+    "slug": "epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
+    "title": "Epic Egyptian Escape: A 7-Day Adventure from Pyramids to Pharaohs",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high",
+    "durationDays": 7
+  },
+  {
+    "wpId": 135806,
+    "slug": "aswan-city-tour-from-marsa-alam-small-group-tour",
+    "title": "Aswan City Tour From Marsa Alam Small Group Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 135878,
+    "slug": "luxor-full-day-excursion-from-marsa-alam",
+    "title": "Luxor Full Day Excursion from Marsa Alam",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-from-marsa-alam$/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 135858,
+    "slug": "marsa-alam-to-cairo-small-group-tour-full-day-by-plane",
+    "title": "Marsa Alam to Cairo Small Group Tour Full-Day By Plane",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 133463,
+    "slug": "skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+    "title": "Skyward Solitude: Private Luxor Sunrise Hot Air Balloon Experience",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-experience(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 133412,
+    "slug": "sunrise-hot-air-balloon-ride-over-luxors-ancient-landmarks",
+    "title": "Sunrise Hot-Air Balloon Ride over Luxor&#8217;s Ancient Landmarks",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-hot-air-balloon/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 131889,
+    "slug": "5-day-the-obeiyed-cave-safari-tour",
+    "title": "Desert Adventure: 5-Day The Obeiyed Cave Safari Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 5
+  },
+  {
+    "wpId": 130067,
+    "slug": "4-day-ultimate-lake-nasser-experience",
+    "title": "4-Day Ultimate Lake Nasser Experience",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 130027,
+    "slug": "2-day-desert-nature-wildlife-retreat",
+    "title": "2-Day Nubian Desert Nature &amp; Wildlife Retreat",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 2
+  },
+  {
+    "wpId": 129996,
+    "slug": "3-day-nubian-fishing-safari",
+    "title": "3- Day Nubian Fishing Safari",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 3
+  },
+  {
+    "wpId": 121250,
+    "slug": "safaga-to-luxor-full-day-ancient-city-exploration",
+    "title": "Safaga to Luxor: Full Day Ancient City Exploration",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-exploration(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 121071,
+    "slug": "exclusive-chartered-experience-private-boat-journey-to-orange-bay",
+    "title": "Exclusive Chartered Experience: Private Boat Journey to Orange Bay",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-journey(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 118678,
+    "slug": "cairo-day-tour-from-alexandria",
+    "title": "Cairo Day Tour from Alexandria",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 118521,
+    "slug": "memphis-saqqara-dahshur-tour-from-alexandria",
+    "title": "Memphis, Saqqara &#038; Dahshur Tour from Alexandria",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 116301,
+    "slug": "sacred-sands-unveiling-dendera-and-abydos-from-hurghada",
+    "title": "Sacred Sands: Unveiling Dendera and Abydos from Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-from-hurghada$/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 115614,
+    "slug": "safaga-to-luxor-full-day-group-ancient-city-adventure",
+    "title": "Luxor Day Trip from Hurghada: Join Our Group Tour of Ancient Sites",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-adventure(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 115522,
+    "slug": "group-trip-to-cairo-by-bus-from-hurghada",
+    "title": "Capital Splendors: Full-Day Group Trip to Cairo by Bus from Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-trip(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 115615,
+    "slug": "nefertari-submarine-adventure-and-sunset-dinner-cruise-from-marsa-alam",
+    "title": "Nefertari Submarine Adventure and Sunset Dinner Cruise from Marsa Alam",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-cruise(?!s)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 115566,
+    "slug": "semi-submarine-adventure-in-marsa-alam",
+    "title": "Semi-Submarine Adventure in Marsa Alam",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-adventure(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 115481,
+    "slug": "private-snorkeling-adventure-in-marsa-alam",
+    "title": "Marine Marvels: Private Snorkeling Adventure in Marsa Alam",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 115196,
+    "slug": "shared-snorkeling-day-at-giftun-island",
+    "title": "Coral Companions: Shared Snorkeling Day at Giftun Island",
+    "type": "dayTour",
+    "classifierReason": "Explicit editorial routing override",
+    "confidence": "high"
+  },
+  {
+    "wpId": 115168,
+    "slug": "shared-seas-full-day-snorkeling-tour",
+    "title": "Dolphins&#8217; Dance Group: Shared Seas Full Day Snorkeling Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 113521,
+    "slug": "3-day-siwa-journey-from-alexandria",
+    "title": "3-Day Siwa Journey From Alexandria",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 3
+  },
+  {
+    "wpId": 113456,
+    "slug": "day-tour-to-visit-cairo-from-alexandria",
+    "title": "Day Tour to Visit Cairo from Alexandria",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 113206,
+    "slug": "aswan-felucca-adventure",
+    "title": "Aswan Felucca Adventure with Nile-Side Lunch",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-adventure(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 113193,
+    "slug": "aswan-to-el-kab-and-edfu-temple-tour",
+    "title": "Aswan to El Kab and Edfu Temple Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 113187,
+    "slug": "temples-of-time-day-tour-to-nubian-temples-from-aswan",
+    "title": "Temples of Time: Day Tour to Nubian Temples from Aswan",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 113061,
+    "slug": "siwa-oasis-adventure-tour",
+    "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 113004,
+    "slug": "14-day-egypt-luxury-family-holiday",
+    "title": "14-Day Egypt Luxury Family Holiday",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 113005,
+    "slug": "9-day-classic-egypt-family-adventure",
+    "title": "9-Day Classic Egypt Family Adventure",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 110952,
+    "slug": "the-giza-sound-and-light-show-experience",
+    "title": "The Giza Sound and Light Show Experience",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-experience(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 103567,
+    "slug": "enchanting-expeditions",
+    "title": "Enchanting Expeditions",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^enchanting-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 102370,
+    "slug": "aswan-and-abu-simbel-from-luxor",
+    "title": "2-Day Egypt&#8217;s Majestic Trio: Aswan and Abu Simbel from Luxor",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-from-luxor$/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 99402,
+    "slug": "cultural-immersions",
+    "title": "Cultural Immersions",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-immersions?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 94331,
+    "slug": "exclusive-deals",
+    "title": "Exclusive Deals",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^exclusive-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 90450,
+    "slug": "11-day-cairo-and-nile-cruise-round-trip",
+    "title": "Nile Elegance: 11-Day Cairo and Nile Cruise Round Trip",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 90443,
+    "slug": "4-days-lake-nasser-cruise-from-abu-simbel",
+    "title": "Lake Nasser Explorer: 4-Day Lake Nasser Cruise from Abu Simbel",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 90425,
+    "slug": "5-day-lake-nasser-cruise-from-aswan",
+    "title": "5-Day Lake Nasser Cruise from Aswan",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 5
+  },
+  {
+    "wpId": 90416,
+    "slug": "8-day-luxor-to-luxor-cruise",
+    "title": "Nile Circumnavigation: 8-Day Luxor to Luxor Cruise",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 90411,
+    "slug": "5-day-river-cruise-from-luxor",
+    "title": "Nile Majesty: 5-Day River Cruise from Luxor",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 5
+  },
+  {
+    "wpId": 90402,
+    "slug": "4-days-cruise-from-aswan-to-luxor",
+    "title": "Nile Discovery: 4-Days Cruise from Aswan to Luxor",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 90376,
+    "slug": "15-day-luxor-nile-cruise-vacation",
+    "title": "15-Day Luxor &#038; Nile Cruise Vacation",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 15
+  },
+  {
+    "wpId": 249752,
+    "slug": "15-day-nile-cruise-and-hurghada-tour",
+    "title": "15-Day Nile Cruise and Hurghada Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 15
+  },
+  {
+    "wpId": 90347,
+    "slug": "15-day-ultimate-nile-cruise-from-cairo-to-aswan",
+    "title": "Nile Grandeur: 15-Day Ultimate Nile Cruise from Cairo to Aswan",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 15
+  },
+  {
+    "wpId": 90335,
+    "slug": "14-day-long-nile-cruise-aswan-cairo",
+    "title": "Aswan to Cairo: 14-Day Long Nile Cruise",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 14
+  },
+  {
+    "wpId": 90326,
+    "slug": "13-day-nile-cruise-from-cairo-to-luxor",
+    "title": "Royal Nile Passage: 13-Day Long Nile Cruise from Cairo to Luxor",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 13
+  },
+  {
+    "wpId": 89177,
+    "slug": "11-day-nile-cruise-from-luxor-to-cairo",
+    "title": "Grand Nile Passage: 11-Day Nile Cruise from Luxor to Cairo",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 89895,
+    "slug": "cairo-and-nile-cruise-tour",
+    "title": "Nile Tapestry: 8-Day Cairo and Nile Cruise Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-cruise(?!s)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 89649,
+    "slug": "aswan-personalized-vacation",
+    "title": "Aswan Tailored Retreat: 8-Day Personalized Vacation",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 89619,
+    "slug": "egypt-and-the-nile-tour",
+    "title": "Pharaohs&#8217; Legacy: 10-Day Egypt and The Nile Tour Package",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 89602,
+    "slug": "10-days-eternal-egypt-tour",
+    "title": "Timeless Wonders: 10-Days Eternal Egypt Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 89524,
+    "slug": "13-day-impressive-egypt-tour",
+    "title": "Pharaonic Odyssey: 13-Day Impressive Egypt Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 13
+  },
+  {
+    "wpId": 89510,
+    "slug": "the-great-pharaohs-and-white-desert",
+    "title": "Desert Dynasties: 6-Day Great Pharaohs &#038; White Desert Tour",
+    "type": "dayTour",
+    "classifierReason": "Explicit editorial routing override",
+    "confidence": "high"
+  },
+  {
+    "wpId": 89015,
+    "slug": "the-romantic-egypt-tour",
+    "title": "Love on the Nile: 10-Day The Romantic Egypt Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 89439,
+    "slug": "bahariya-oasis-and-white-desert-3-day-tour",
+    "title": "Desert Oasis: Bahariya Oasis And White Desert 3-Day Adventure",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high",
+    "durationDays": 3
+  },
+  {
+    "wpId": 89436,
+    "slug": "8-day-egypt-golf-tour",
+    "title": "Fairways &amp; Pharaohs: 8-Day Egypt Golf Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 89435,
+    "slug": "9-day-egypt-bird-watching-adventure",
+    "title": "Avian Wonders: 9-Day Egypt Bird Watching Adventure",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 89411,
+    "slug": "white-desert-wonders-4-day-cairo-and-white-desert-tour",
+    "title": "White Desert Wonders: 4-Day Cairo and White Desert Tour – Travel2Egypt",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 89376,
+    "slug": "10-days-nile-dreamer-tour-experience",
+    "title": "10-Days Nile Dreamer Tour Experience",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 88972,
+    "slug": "luxor-personalized-vacation",
+    "title": "Custom Luxor Retreat: 8-Day Personalized Vacation",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 89348,
+    "slug": "grand-islamic-cairo-day-tour",
+    "title": "Islamic Insights: The Grand Islamic Cairo Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 89343,
+    "slug": "10-days-the-splendid-minya-tour",
+    "title": "Minya’s Majesty: 10-Days The Splendid Minya Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 89005,
+    "slug": "10-day-nile-and-western-desert-tour",
+    "title": "Desert Rivers: 10-Day Nile and Western Desert Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 88994,
+    "slug": "secret-sanctuaries-13-day-mysterious-oases-and-the-nile-tour",
+    "title": "Secret Sanctuaries: 13-Day Mysterious Oases and the Nile Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high",
+    "durationDays": 13
+  },
+  {
+    "wpId": 88992,
+    "slug": "10-day-marvelous-abu-simbel-ancient-egypt-tour",
+    "title": "10-Day Marvelous Abu Simbel &#038; Ancient Egypt Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 86877,
+    "slug": "ancient-egypt-and-the-red-sea-tour",
+    "title": "Ancient Egypt And The Red Sea Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 86875,
+    "slug": "14-night-nile-cruise-and-hurghada-stay",
+    "title": "Reef to River: 14-Night Nile Cruise &#038; Hurghada Stay",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-cruise(?!s)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 86867,
+    "slug": "8-days-ultimate-trip-to-sharm-el-sheikh",
+    "title": "Sharm’s Delight: 8-Days The Ultimate Trip to Sharm El Sheikh",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 89284,
+    "slug": "11-day-explore-egypt-and-red-sea-tour",
+    "title": "11-Day Explore Egypt and Red Sea Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 86857,
+    "slug": "the-egypt-royal-vacation-tour",
+    "title": "Regal Escape: 10-Day The Egypt Royal Vacation Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /-vacation/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 86855,
+    "slug": "9-days-egypt-prestigious-vacation",
+    "title": "9-Days Egypt Prestigious Vacation",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 9
+  },
+  {
+    "wpId": 86851,
+    "slug": "the-elegant-cairo-4-days-tour",
+    "title": "The Elegant Cairo 4-Days Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 86846,
+    "slug": "4-days-city-break",
+    "title": "4-Days City Break",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 4
+  },
+  {
+    "wpId": 89175,
+    "slug": "8-days-best-of-egypt-tour-package",
+    "title": "Egypt Highlights: 8-Days Best of Egypt Tour Package",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 88611,
+    "slug": "private-car-transfer-from-aswan-to-luxor",
+    "title": "Nile Link: Private Car Transfer from Aswan to Luxor",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88609,
+    "slug": "kom-ombo-and-edfu-temples-day-tour-from-aswan",
+    "title": "Aswan to Antiquity: Kom-Ombo &amp; Edfu Temples Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88607,
+    "slug": "abu-simbel-by-plane-from-aswan",
+    "title": "Abu Simbel by Plane from Aswan",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-from-aswan$/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88604,
+    "slug": "private-tour-sound-light-show-at-philae-temple",
+    "title": "Sound &amp; Light Show in Aswan&#8217;s Philae Temple",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88602,
+    "slug": "private-tour-nubian-village-with-motor-boat",
+    "title": "Nubian Life: Private Nubian Village and Nile Tour with Motor Boat",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88599,
+    "slug": "nubian-museum-local-market-tour-in-aswan",
+    "title": "Nubian Museum &amp; Local Market Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88597,
+    "slug": "aswan-full-day-city-tour",
+    "title": "Aswan Full Day City Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88565,
+    "slug": "full-day-trip-to-cairo-by-plane-from-hurghada",
+    "title": "Capital Splendors: Full-Day Trip to Cairo by Plane from Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-trip/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88564,
+    "slug": "desert-rides-hurghada-quad-bike-adventure",
+    "title": "Thrilling Desert Rides: Hurghada Quad Bike Adventure",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-adventure(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88563,
+    "slug": "dendera-and-abydos-temples-from-hurghada",
+    "title": "Private Tour: Dendera And Abydos Temples From Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-from-hurghada$/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88562,
+    "slug": "luxor-full-day-tour-from-hurghada",
+    "title": "Luxor Full Day Tour from Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88561,
+    "slug": "private-tour-transfer-from-hurghada-to-luxor",
+    "title": "Private Transfer from Hurghada to Luxor",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88558,
+    "slug": "giftun-island-snorkeling-day-trip-from-hurghada",
+    "title": "Giftun Island Snorkeling Day Trip from Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-trip/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88557,
+    "slug": "dolphin-full-day-snorkeling-tour-from-hurghada",
+    "title": "Dolphin Full Day Snorkeling Tour from Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88556,
+    "slug": "sindbad-submarine-red-sea-tour-from-hurghada",
+    "title": "Royal Seascope Submarine Red Sea Tour from Hurghada",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88555,
+    "slug": "4wd-desert-safari-dinner-and-show-from-hurghada",
+    "title": "Desert Adventure: Hurghada 4WD Safari, Dinner, and Show",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-safari(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88572,
+    "slug": "private-tour-aswan-bird-watching-tour",
+    "title": "Aswan Bird-Watching Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88554,
+    "slug": "desert-quad-bike-safari-from-hurghada",
+    "title": "Exhilarating Desert Thrill: Quad Bike Safari to Bedouin Village",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-safari(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88502,
+    "slug": "abu-simbel-car-day-tour-from-aswan",
+    "title": "Abu Simbel Car Day Tour from Aswan",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88483,
+    "slug": "el-kab-and-esna-temple-day-tour-from-aswan",
+    "title": "Hidden Gems: El Kab and Esna Temple Day Tour from Aswan",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88427,
+    "slug": "private-tour-day-tour-to-alexandria-from-cairo",
+    "title": "Coastal Citadel: Private Day Tour to Alexandria from Cairo",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88412,
+    "slug": "private-tour-local-market-with-horse-carriage",
+    "title": "Private Tour: Local Market With Horse Carriage",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88397,
+    "slug": "private-tour-karnak-temple-luxor-temple",
+    "title": "Temple Majesty: Private Karnak &amp; Luxor Temple Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88181,
+    "slug": "private-tour-transfer-from-luxor-to-hurghada-by-car",
+    "title": "Private Tour: Transfer from Luxor to Hurghada by Car",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88179,
+    "slug": "day-tour-to-esna-edfu-kom-ombo-from-luxor",
+    "title": "Full Day Visit To Esna, Edfu &amp; Kom-Ombo From Luxor Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88178,
+    "slug": "dendera-and-abydos-temples-from-luxor",
+    "title": "Private Tour: Dendera and Abydos Temples From Luxor",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-from-luxor$/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88177,
+    "slug": "the-ultimate-luxor-day-tour",
+    "title": "The Ultimate Luxor Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88176,
+    "slug": "private-tour-valley-of-kings-temples-day-tour",
+    "title": "Valley of Kings &amp; Temples Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88175,
+    "slug": "half-day-tour-of-luxor-karnak-temples",
+    "title": "Half-Day Heritage: Luxor &amp; Karnak Temples Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88174,
+    "slug": "private-tour-transfer-from-luxor-to-marsa-alam-by-car",
+    "title": "Coastal Road: Private Car Transfer from Luxor to Marsa Alam",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88173,
+    "slug": "full-day-trip-to-cairo-by-plane-from-luxor",
+    "title": "Full-Day Trip by Plane from Luxor to cairo",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-trip/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88172,
+    "slug": "karnak-luxor-temples-and-museum-day-tour",
+    "title": "Karnak, Luxor Temples &#038; Museum Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88170,
+    "slug": "private-tour-full-day-to-grand-west-bank",
+    "title": "Valley of Nobles: Full Day to Grand West Bank Private Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88167,
+    "slug": "esna-temple-and-el-kab-day-tour-from-luxor",
+    "title": "Riverbanks of Time: Esna and El Kab Day Tour from Luxor",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88109,
+    "slug": "fayoum-oasis-and-beni-suef-pyramids-tour",
+    "title": "Oasis Legends: Fayoum Oasis and Beni Suef Pyramids Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88108,
+    "slug": "alexandria-day-tour",
+    "title": "Ancient Echoes: Alexandria Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88107,
+    "slug": "group-day-tour-to-memphis-saqqara-and-dahshur",
+    "title": "Old Kingdom Trio: Group Day Tour to Memphis, Saqqara, and Dahshur",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 88093,
+    "slug": "pyramids-of-giza-and-sphinx",
+    "title": "Pyramids of Giza &#038; Sphinx Tour",
+    "type": "dayTour",
+    "classifierReason": "Explicit editorial routing override",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87976,
+    "slug": "private-tour-2-day-trip-to-alexandria-from-cairo",
+    "title": "Mediterranean Heritage: 2-Day Alexandria Private Tour from Cairo",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high",
+    "durationDays": 2
+  },
+  {
+    "wpId": 87974,
+    "slug": "8-day-cairo-and-egypt-desert-safari",
+    "title": "Sands of Time: 8-Day Cairo and Egypt Desert Safari",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 87828,
+    "slug": "private-tour-the-grand-old-cairo-tour",
+    "title": "Private Tour: The Grand Old Cairo Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87829,
+    "slug": "giza-pyramids-the-citadel-cairo-bazaar-day-tour",
+    "title": "Giza Pyramids, The Citadel &amp; Cairo Bazaar Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87830,
+    "slug": "2-day-tour-to-al-minya-from-cairo",
+    "title": "Minya&#8217;s Secrets: 2-Day Minya Tour from Cairo",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 2
+  },
+  {
+    "wpId": 87832,
+    "slug": "private-tour-2-days-1-night-trip-to-saint-catherine-from-cairo",
+    "title": "Mount Sinai Pilgrimage: 2-Day Trip to Saint Catherine from Cairo",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87834,
+    "slug": "private-tour-2-day-trip-to-bahariya-oasis",
+    "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /\\d+-days?-/",
+    "confidence": "high",
+    "durationDays": 2
+  },
+  {
+    "wpId": 87835,
+    "slug": "fayoum-oasis-including-pyramids-of-meydum-hawara",
+    "title": "Fayoum Oasis with Meydum &amp; Hawara Pyramids",
+    "type": "dayTour",
+    "classifierReason": "Explicit editorial routing override",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87839,
+    "slug": "the-grand-islamic-day-tour",
+    "title": "The Grand Islamic Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87840,
+    "slug": "memphis-saqqara-citadel-khan-tour",
+    "title": "Memphis, Saqqara, Citadel, &amp; Khan El-Khalili",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87766,
+    "slug": "pyramids-of-giza-sphinx-egyptian-museum-khan-el-khalili-tour",
+    "title": "Pyramids, Sphinx &#038; Egyptian Museum Tour",
+    "type": "dayTour",
+    "classifierReason": "Explicit editorial routing override",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87765,
+    "slug": "pyramids-of-giza-sphinx-memphis-and-saqqara-tour",
+    "title": "Pyramids of Giza, Sphinx, Memphis &amp; Saqqara",
+    "type": "dayTour",
+    "classifierReason": "Explicit editorial routing override",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87761,
+    "slug": "minya-day-tour",
+    "title": "Minya Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87760,
+    "slug": "full-day-trip-to-luxor-by-plane-from-cairo",
+    "title": "Full-Day Trip to Luxor by Plane from Cairo",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-trip/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87758,
+    "slug": "private-tour-memphis-and-saqqara",
+    "title": "Private Tour: Memphis and Saqqara",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87757,
+    "slug": "group-day-tour-of-the-pyramids-and-sphinx",
+    "title": "Giza’s Grandeur: Group Day Tour of the Pyramids and Sphinx",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87756,
+    "slug": "private-tour-memphis-saqqara-and-dahshur",
+    "title": "Private Tour: Memphis, Saqqara and Dahshur",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87729,
+    "slug": "egyptian-museum-and-bazaar-tour",
+    "title": "Egyptian Museum and Bazaar Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87637,
+    "slug": "quad-bike-tour-at-sunset-sharm-el-sheikh",
+    "title": "Sharm El Sheikh Quad Bike Tour at Sunset",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87634,
+    "slug": "full-day-trip-to-cairo-by-plane-from-sharm-el-sheikh",
+    "title": "Pyramids View: Full-Day Cairo Tour by Plane from Sharm El Sheikh",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-trip/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87600,
+    "slug": "snorkeling-sea-trip-in-sharm-el-sheikh",
+    "title": "Snorkeling Sea Trip in Sharm El Sheikh",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-trip(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87558,
+    "slug": "dendera-and-abydos-temples-tour-from-safaga",
+    "title": "Dendera and Abydos Temples Tour from Safaga",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87527,
+    "slug": "the-grand-west-bank-tour",
+    "title": "West Bank Wonders: The Grand West Bank Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87510,
+    "slug": "esna-edfu-kom-ombo-day-tour",
+    "title": "Nile’s Ancient Harmony: Esna, Edfu &#038; Kom Ombo Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87484,
+    "slug": "group-day-tour-to-kom-ombo-and-edfu-temples-from-aswan",
+    "title": "Temple Alignments: Kom Ombo and Edfu Temples Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87460,
+    "slug": "abu-simbel-temples-day-tour",
+    "title": "Majestic Abu Simbel Temples Day Tour",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87309,
+    "slug": "private-tour-alexandria-day-tour",
+    "title": "Alexandrian Echoes: Full Day Private Tour in Alexandria",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87273,
+    "slug": "luxor-day-tour-from-al-gouna",
+    "title": "Luxor Day Tour from Al-Gouna",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 87255,
+    "slug": "10-days-unforgettable-egypt-tour",
+    "title": "Memories Eternal: 10-Days Unforgettable Egypt Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 10
+  },
+  {
+    "wpId": 86844,
+    "slug": "8-days-egypt-panorama-tour",
+    "title": "8-Days Egypt Panorama Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 8
+  },
+  {
+    "wpId": 86836,
+    "slug": "11-day-the-splendor-of-egypt-tour",
+    "title": "11-Day The Splendor of Egypt Tour",
+    "type": "package",
+    "classifierReason": "Matches tour pattern /^\\d+-day(s)?-/",
+    "confidence": "high",
+    "durationDays": 11
+  },
+  {
+    "wpId": 86790,
+    "slug": "luxor-2-day-tour-by-plane-from-cairo",
+    "title": "Aerial Odyssey: Luxor 2-Day Tour by Plane from Cairo",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-day-tour/",
+    "confidence": "high",
+    "durationDays": 2
+  },
+  {
+    "wpId": 75623,
+    "slug": "siwa-tour-packages",
+    "title": "Siwa Tour Packages",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 64216,
+    "slug": "kasr-ibrim-cruise-ship",
+    "title": "Kasr Ibrim Cruise Ship",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-cruise(?!s)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 64129,
+    "slug": "the-nile-goddess-cruise",
+    "title": "The Nile Goddess Cruise",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-cruise(?!s)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 64105,
+    "slug": "taziry-ecolodge-siwa-safari-paradise",
+    "title": "Taziry Ecolodge Siwa Safari",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-safari(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 60584,
+    "slug": "cultural-tours-in-taba",
+    "title": "Cultural Tours In Taba",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 60562,
+    "slug": "cultural-tours-in-suez",
+    "title": "Cultural Tours In Suez",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 60538,
+    "slug": "sohag-tour-packages",
+    "title": "Sohag Tour Packages",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 60488,
+    "slug": "top-tours-in-sharm-el-sheikh",
+    "title": "Top Tours in Sharm El Sheikh: Explore with Local Experts",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 60352,
+    "slug": "private-tours-in-port-said",
+    "title": "Private Tours In Port Said",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 60348,
+    "slug": "planning-your-trip-to-port-said",
+    "title": "Planning Your Trip to Port Said",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-trip(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 60334,
+    "slug": "top-tours-in-qena",
+    "title": "Top Tours In Qena",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 60302,
+    "slug": "nuweiba-tour-packages",
+    "title": "Nuweiba Tour Packages",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 60079,
+    "slug": "top-tours-in-giza",
+    "title": "Top Tours In Giza",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 59741,
+    "slug": "top-tours-in-kharga-oasis",
+    "title": "Top Tours In Kharga Oasis",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 59658,
+    "slug": "off-road-from-farafra-to-dakhla",
+    "title": "Off-Road From Farafra to Dakhla",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-from-[a-z][a-z-]*-(by|via|in|to)-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 59589,
+    "slug": "private-tours-in-edfu",
+    "title": "Private Tours In Edfu",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 59421,
+    "slug": "private-tours-in-dahab",
+    "title": "Private Tours In Dahab",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /^private-/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 59425,
+    "slug": "planning-your-trip-to-dahab",
+    "title": "Planning Your Trip to Dahab",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-trip(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 58751,
+    "slug": "top-tours-in-al-wadi-al-gadid",
+    "title": "Top Tours in Al Wadi Al Gadid",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  },
+  {
+    "wpId": 57833,
+    "slug": "top-tours-in-abu-simbel",
+    "title": "Top Tours in Abu Simbel",
+    "type": "dayTour",
+    "classifierReason": "Matches tour pattern /-tour(s)?(-|$)/",
+    "confidence": "high"
+  }
+]
