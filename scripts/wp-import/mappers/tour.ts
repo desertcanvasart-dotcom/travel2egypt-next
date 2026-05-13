@@ -257,7 +257,7 @@ function extractContent(group: LocaleGroup, isPrivateCarAndGuide: boolean): Extr
   for (const locale of LOCALES) {
     const lc = perLocale[locale];
     if (lc.body) {
-      const blocks = htmlToPortableText(lc.body).blocks;
+      const blocks = htmlToPortableText(lc.body, { locale }).blocks;
       if (blocks.length > 0) result.body.push({ _key: locale, _type: 'object', value: blocks });
     }
   }
@@ -279,7 +279,7 @@ function extractContent(group: LocaleGroup, isPrivateCarAndGuide: boolean): Extr
       if (!localeDay) continue;
       if (localeDay.title) titles.push({ _key: locale, value: localeDay.title });
       if (localeDay.content) {
-        const blocks = htmlToPortableText(localeDay.content).blocks;
+        const blocks = htmlToPortableText(localeDay.content, { locale }).blocks;
         if (blocks.length > 0) mornings.push({ _key: locale, _type: 'object', value: blocks });
       }
     }

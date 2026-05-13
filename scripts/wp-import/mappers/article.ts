@@ -56,6 +56,7 @@ export async function mapArticle(
     tourPromoStripped: 0, categoryGridStripped: 0, backlinkStripped: 0,
     carouselSwiperStripped: 0, carouselPremiumAdvStripped: 0, bdtImgStripped: 0,
     titleH1Stripped: 0, metadataLineStripped: 0, sectionNavBlockStripped: 0,
+    crossPromoTailStripped: 0,
     linkMarkConvertedToPendingRef: 0, linkMarkKeptAsExternal: 0,
     linkMarkStrippedMalformed: 0, linkMarkStrippedAnchor: 0, linkMarkStrippedMailto: 0,
   };
@@ -91,7 +92,7 @@ export async function mapArticle(
     });
     mediaUploaded += bodyUploads;
     duplicateSrcRemappings += bodyDups;
-    const pt = htmlToPortableText(html, { attachmentResolver: resolver, localeShape: 'string' });
+    const pt = htmlToPortableText(html, { attachmentResolver: resolver, localeShape: 'string', locale: loc });
     for (const k of Object.keys(htmlStats) as Array<keyof HtmlPipelineStats>) htmlStats[k] += pt.stats[k];
 
     // Capture discarded carousels per locale (sample srcs preserved for editorial triage).

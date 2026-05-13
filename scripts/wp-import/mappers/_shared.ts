@@ -139,7 +139,7 @@ export function i18nBody(group: LocaleGroup, fieldName = 'body'): Array<{ _key: 
   for (const loc of ['en', 'es', 'ja'] as const) {
     const e = group[loc];
     if (!e?.content?.rendered) continue;
-    const result = htmlToPortableText(e.content.rendered);
+    const result = htmlToPortableText(e.content.rendered, { locale: loc });
     out.push({ _key: loc, _type: 'object', value: result.blocks });
   }
   void fieldName;
@@ -153,13 +153,14 @@ export function summedHtmlStats(group: LocaleGroup) {
     tourPromoStripped: 0, categoryGridStripped: 0, backlinkStripped: 0,
     carouselSwiperStripped: 0, carouselPremiumAdvStripped: 0, bdtImgStripped: 0,
     titleH1Stripped: 0, metadataLineStripped: 0, sectionNavBlockStripped: 0,
+    crossPromoTailStripped: 0,
     linkMarkConvertedToPendingRef: 0, linkMarkKeptAsExternal: 0,
     linkMarkStrippedMalformed: 0, linkMarkStrippedAnchor: 0, linkMarkStrippedMailto: 0,
   };
   for (const loc of ['en', 'es', 'ja'] as const) {
     const e = group[loc];
     if (!e?.content?.rendered) continue;
-    const r = htmlToPortableText(e.content.rendered);
+    const r = htmlToPortableText(e.content.rendered, { locale: loc });
     for (const k of Object.keys(stats) as Array<keyof typeof stats>) stats[k] += r.stats[k];
   }
   return stats;

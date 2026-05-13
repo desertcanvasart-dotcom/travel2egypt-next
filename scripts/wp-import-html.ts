@@ -61,6 +61,8 @@ export interface ConversionResult {
     metadataLineStripped: number;
     /** Section-navigation blocks (INTRODUCING X / PLAN YOUR TRIP / …) stripped. */
     sectionNavBlockStripped: number;
+    /** Cross-promo tail blocks (image + h2 + prose + "Learn more"/詳しくはこちらへ/Saber más) stripped. */
+    crossPromoTailStripped: number;
     // Link-mark normalisation per-`<A>` classification. Flat counters (not
     // nested) so the existing per-mapper aggregator loops still work via
     // `for (const k of Object.keys(htmlStats)) htmlStats[k] += r.stats[k]`.
@@ -89,6 +91,11 @@ export interface ConversionOptions {
    *  - `'string'` emits plain strings — for document-level i18n schemas (article).
    * The mismatch is what surfaced as "Expected type String got Array" in Studio. */
   localeShape?: 'string' | 'i18n';
+  /** Locale of the input HTML, used to dispatch locale-specific cleanup
+   *  patterns (section-nav headers, cross-promo "Learn more" anchor).
+   *  Defaults to 'en' — preserves legacy behavior for any caller that
+   *  doesn't yet thread locale through. */
+  locale?: 'en' | 'es' | 'ja' | string;
   /** When provided, the first `<h1>`/`<h2>` whose text matches the page title
    * (case-insensitive substring, either direction) is stripped. Removes the
    * title-duplication artifact common on Elementor pages where the body
@@ -137,6 +144,7 @@ export function htmlToPortableText(html: string, opts: ConversionOptions = {}): 
     titleH1Stripped: 0,
     metadataLineStripped: 0,
     sectionNavBlockStripped: 0,
+    crossPromoTailStripped: 0,
     linkMarkConvertedToPendingRef: 0,
     linkMarkKeptAsExternal: 0,
     linkMarkStrippedMalformed: 0,
@@ -159,7 +167,8 @@ export function htmlToPortableText(html: string, opts: ConversionOptions = {}): 
   // destination-hub-specific pattern is an `.elementor-widget-toggle` with
   // `INTRODUCING X` / `PLAN YOUR TRIP` toggle titles. Lifting destroys those
   // wrapper classes; we need them intact to identify the widget.
-  stripSectionNavBlocks(root, stats);
+  stripSectionNavBlocks(root, stats, opts.locale);
+  stripCrossPromoTail(root, stats, opts.locale);
   stripNoise(root);
   liftElementorWrappers(root);
   // Metadata lines run AFTER lifting because they target bare <p>s, which
@@ -529,20 +538,64 @@ function stripMetadataLines(root: HTMLElement, stats: ConversionResult['stats'])
  * Counts in `stats.sectionNavBlockStripped` (one increment per block,
  * not per node — block-level metric).
  */
-const SECTION_HEADER_PATTERNS: RegExp[] = [
+const SECTION_HEADER_PATTERNS_EN: RegExp[] = [
   /^INTRODUCING\s+[A-Z][A-Z\s\-']+$/,
   /^PLAN YOUR TRIP$/,
   /^WHILE YOU ARE THERE$/,
   /^PLACES TO GO$/,
   /^OTHERS$/,
 ];
+const SECTION_HEADER_PATTERNS_JA: RegExp[] = [
+  /^[぀-ゟ゠-ヿ一-鿿　-〿㐀-䶿]+の紹介$/,
+  /^旅行の計画$/,
+  /^滞在中に$/,
+  /^見どころ$/,
+  /^その他$/,
+];
+const SECTION_HEADER_PATTERNS_ES: RegExp[] = [
+  /^PRESENTACIÓN DE [A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ\s\-']+$/,
+  /^PLANIFICA TU VIAJE$/,
+  /^MIENTRAS ESTÉS ALLÍ$/,
+  /^LUGARES DONDE IR$/,
+  /^OTROS$/,
+];
+const SECTION_HEADER_PATTERNS_BY_LOCALE: Record<string, RegExp[]> = {
+  en: SECTION_HEADER_PATTERNS_EN,
+  ja: SECTION_HEADER_PATTERNS_JA,
+  es: SECTION_HEADER_PATTERNS_ES,
+};
+
 // Leading title line allows the city portion to be ALL-CAPS while the
 // "Travel Guide" suffix is in title case (the actual WP rendering pattern,
 // e.g. "AKHMIM Travel Guide" — observed on multiple destination-hub pages).
-const LEADING_TITLE_LINE_RE = /^[A-Z][A-Z\s\-']+\s+(?:TRAVEL\s+GUIDE|Travel\s+Guide)$/;
-function stripSectionNavBlocks(root: HTMLElement, stats: ConversionResult['stats']): void {
-  const isHeader = (text: string) => SECTION_HEADER_PATTERNS.some((re) => re.test(text));
-  const isLeadingTitle = (text: string) => LEADING_TITLE_LINE_RE.test(text);
+const LEADING_TITLE_LINE_RE_EN = /^[A-Z][A-Z\s\-']+\s+(?:TRAVEL\s+GUIDE|Travel\s+Guide)$/;
+// JA/ES don't have a separate "X TRAVEL GUIDE" leading line per the
+// session 13 pre-flight inspection — title is already stripped via
+// stripTitleH1 / Fix 1. Null skips the walk-back-for-title step.
+const LEADING_TITLE_LINE_RE_BY_LOCALE: Record<string, RegExp | null> = {
+  en: LEADING_TITLE_LINE_RE_EN,
+  ja: null,
+  es: null,
+};
+
+// Cross-promo "Learn more" anchor text per locale. Used by
+// stripCrossPromoTail to detect the closing block of the WP hub-template
+// next-city promotion that follows the section-nav tail.
+const CROSS_PROMO_LEARN_MORE_BY_LOCALE: Record<string, RegExp> = {
+  en: /^Learn\s+more$/i,
+  ja: /^詳しくはこちらへ$/,
+  es: /^Saber\s+más$/i,
+};
+
+function stripSectionNavBlocks(
+  root: HTMLElement,
+  stats: ConversionResult['stats'],
+  locale: string = 'en'
+): void {
+  const patterns = SECTION_HEADER_PATTERNS_BY_LOCALE[locale] ?? SECTION_HEADER_PATTERNS_EN;
+  const leadingTitleRe = LEADING_TITLE_LINE_RE_BY_LOCALE[locale] ?? null;
+  const isHeader = (text: string) => patterns.some((re) => re.test(text));
+  const isLeadingTitle = (text: string) => leadingTitleRe !== null && leadingTitleRe.test(text);
 
   // Strategy A: Elementor toggle/accordion widget that contains section-nav
   // titles. Confirmed pattern on destination-hub WP pages — the section-nav
@@ -602,6 +655,28 @@ function stripSectionNavBlocks(root: HTMLElement, stats: ConversionResult['stats
   let startIdx = firstIdx;
   if (startIdx > 0 && isLeadingTitle(allHeadings[startIdx - 1].text.trim())) startIdx--;
 
+  // JA/ES additional walk-back: consume contiguous anchor-only paragraphs
+  // preceding the first matched section header. Tail blocks in those locales
+  // often have sub-anchors (e.g., "歴史" / "天気" / "Historia" / "El tiempo")
+  // that appear BEFORE the first plain section header. These are still part
+  // of the WP hub-template TOC and should be stripped along with the rest.
+  // The contiguity + anchor-only shape requirement prevents over-stripping
+  // editorial prose.
+  // Gated to JA/ES per session 13 operator decision — EN is already cleaned
+  // in the dataset and we keep its original Strategy B behavior unchanged.
+  if (locale === 'ja' || locale === 'es') {
+    while (startIdx > 0) {
+      const prev = allHeadings[startIdx - 1];
+      if ((prev.tagName ?? '').toLowerCase() !== 'p') break;
+      const anchors = prev.querySelectorAll('a');
+      if (anchors.length === 0) break;
+      const anchorText = anchors.map((a) => a.text.trim()).join(' ').replace(/\s+/g, ' ').trim();
+      const pText = prev.text.trim().replace(/\s+/g, ' ').trim();
+      if (anchorText !== pText) break;
+      startIdx--;
+    }
+  }
+
   const toRemove = new Set<HTMLElement>();
   // Add the leading title (if matched) and the first section header.
   for (let i = startIdx; i <= firstIdx; i++) toRemove.add(allHeadings[i]);
@@ -634,6 +709,69 @@ function stripSectionNavBlocks(root: HTMLElement, stats: ConversionResult['stats
     for (const el of toRemove) el.remove();
     stats.sectionNavBlockStripped++;
   }
+}
+
+/**
+ * Strip the "next-city promo" tail block that the WP destination-hub template
+ * places AFTER the section-nav TOC. Pattern (at document tail, contiguous):
+ *
+ *   <img>|<figure>|<container-with-img> + <h2>|<h3> + <p>{prose} + <p>{"Learn more" text}
+ *
+ * The "Learn more" phrase is locale-distinctive (EN "Learn more", JA
+ * "詳しくはこちらへ", ES "Saber más"). The phrase may be inside an <a> tag
+ * or plain text — source HTML is inconsistent. Match on text content
+ * regardless of wrapping.
+ *
+ * Conservative: ONLY removes if all 4 trailing elements match the shape AND
+ * the last element's text matches the locale's Learn-more pattern. If any
+ * condition fails, no removal.
+ *
+ * Counts in stats.crossPromoTailStripped (one increment when the 4-element
+ * block is removed).
+ */
+function stripCrossPromoTail(
+  root: HTMLElement,
+  stats: ConversionResult['stats'],
+  locale: string = 'en'
+): void {
+  const learnMoreRe = CROSS_PROMO_LEARN_MORE_BY_LOCALE[locale];
+  if (!learnMoreRe) return;
+
+  // Collect top-level structural elements at the body root (post-lift).
+  const candidates: HTMLElement[] = [];
+  for (const child of root.childNodes) {
+    const el = child as HTMLElement;
+    if (!el || !el.tagName) continue;
+    candidates.push(el);
+  }
+  if (candidates.length < 4) return;
+
+  // Walk from the end backwards: last element must match Learn-more text.
+  const n = candidates.length;
+  const last = candidates[n - 1];
+  if ((last.tagName ?? '').toLowerCase() !== 'p') return;
+  const lastText = last.text.trim();
+  if (!learnMoreRe.test(lastText)) return;
+
+  // Preceding element: prose paragraph.
+  const prose = candidates[n - 2];
+  if ((prose.tagName ?? '').toLowerCase() !== 'p') return;
+
+  // Preceding element: heading (h2 or h3 — WP source uses both).
+  const heading = candidates[n - 3];
+  const headingTag = (heading.tagName ?? '').toLowerCase();
+  if (headingTag !== 'h2' && headingTag !== 'h3') return;
+
+  // Preceding element: image (raw <img>, <figure>, or container with <img> descendant).
+  const imageContainer = candidates[n - 4];
+  const hasImage =
+    (imageContainer.tagName ?? '').toLowerCase() === 'img' ||
+    imageContainer.querySelectorAll('img').length > 0;
+  if (!hasImage) return;
+
+  // All four match — strip them.
+  for (const el of [imageContainer, heading, prose, last]) el.remove();
+  stats.crossPromoTailStripped++;
 }
 
 function stripNoise(root: HTMLElement): void {
@@ -1229,6 +1367,7 @@ export function mineVisitorInfo(html: string, opts: ConversionOptions = {}): PtB
     titleH1Stripped: 0,
     metadataLineStripped: 0,
     sectionNavBlockStripped: 0,
+    crossPromoTailStripped: 0,
     linkMarkConvertedToPendingRef: 0,
     linkMarkKeptAsExternal: 0,
     linkMarkStrippedMalformed: 0,

@@ -29,7 +29,7 @@ export function mapServiceStub(_client: SanityClient, _wp: WpClient, group: Loca
     const e = group[loc];
     if (!e) continue;
     const html = e.content?.rendered ?? '';
-    const pt = html ? htmlToPortableText(html) : { blocks: [], stats: {} };
+    const pt = html ? htmlToPortableText(html, { locale: loc }) : { blocks: [], stats: {} };
     docs.push({
       _id: `wp-page-${e.id}-${loc}`,
       _type: 'article',

@@ -136,6 +136,7 @@ export interface HtmlPipelineStats {
   titleH1Stripped: number;
   metadataLineStripped: number;
   sectionNavBlockStripped: number;
+  crossPromoTailStripped: number;
   linkMarkConvertedToPendingRef: number;
   linkMarkKeptAsExternal: number;
   linkMarkStrippedMalformed: number;

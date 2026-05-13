@@ -243,13 +243,14 @@ export async function mapCity(
     tourPromoStripped: 0, categoryGridStripped: 0, backlinkStripped: 0,
     carouselSwiperStripped: 0, carouselPremiumAdvStripped: 0, bdtImgStripped: 0,
     titleH1Stripped: 0, metadataLineStripped: 0, sectionNavBlockStripped: 0,
+    crossPromoTailStripped: 0,
     linkMarkConvertedToPendingRef: 0, linkMarkKeptAsExternal: 0,
     linkMarkStrippedMalformed: 0, linkMarkStrippedAnchor: 0, linkMarkStrippedMailto: 0,
   };
   for (const loc of ['en', 'es', 'ja'] as const) {
     const e = group[loc];
     if (!e?.content?.rendered) continue;
-    const r = htmlToPortableText(e.content.rendered, { pageTitle: titles[loc] ?? '' });
+    const r = htmlToPortableText(e.content.rendered, { pageTitle: titles[loc] ?? '', locale: loc });
     overview.push({ _key: loc, _type: 'object', value: r.blocks });
     overviewBlocksPerLocale[loc] = r.blocks;
     for (const k of Object.keys(htmlStats) as Array<keyof HtmlPipelineStats>) htmlStats[k] += r.stats[k];
