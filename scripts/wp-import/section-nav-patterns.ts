@@ -28,7 +28,7 @@ export const SECTION_HEADER_PATTERNS_EN: RegExp[] = [
 ];
 
 export const SECTION_HEADER_PATTERNS_JA: RegExp[] = [
-  /^[぀-ゟ゠-ヿ一-鿿　-〿㐀-䶿]+の(?:ご)?紹介$/,
+  /^[぀-ゟ゠-ヿ一-鿿　-〿㐀-䶿]+(?:の|を)(?:ご)?紹介$/,
   /^旅行の計画$/,
   /^滞在中に$/,
   /^見どころ$/,
@@ -36,7 +36,7 @@ export const SECTION_HEADER_PATTERNS_JA: RegExp[] = [
 ];
 
 export const SECTION_HEADER_PATTERNS_ES: RegExp[] = [
-  /^PRESENTACIÓN DE [\p{L}][\p{L}\s\-']+$/iu,
+  /^PRESENTACIÓN DE(?:L)? [\p{L}][\p{L}\s\-']+$/iu,
   /^PLANIFICA TU VIAJE$/,
   /^MIENTRAS ESTÉS ALLÍ$/,
   /^LUGARES DONDE IR$/,
