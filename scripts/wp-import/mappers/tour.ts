@@ -15,7 +15,7 @@
  *     stubs — real Sanity asset upload happens in a follow-up phase.
  *
  * Type discriminator: `package` if slug matches `package|vacation|itinerary|
- * cruise-vacation` OR `\d+-day` where N > 7; `dayTour` otherwise. `dayTourMode`
+ * cruise-vacation` OR `\d+-day` where N > 7; `dayTour` otherwise. `tourMode`
  * defaults: `private` for `*-private-car-and-guide` slugs, `group` for other
  * dayTours, unset for packages.
  *
@@ -110,7 +110,7 @@ export async function mapTour(
   const tourType: 'dayTour' | 'package' = isPackage ? 'package' : 'dayTour';
 
   const isPrivateCarAndGuide = /-private-car-and-guide$/.test(slug);
-  const dayTourMode: 'private' | 'group' | undefined =
+  const tourMode: 'private' | 'group' | undefined =
     tourType === 'package' ? undefined : isPrivateCarAndGuide ? 'private' : 'group';
 
   // City refs (slug-prefix match against the 41-city list; Cairo last resort).
@@ -129,7 +129,7 @@ export async function mapTour(
     _id: `wp-page-${en.id}`,
     _type: 'tour',
     type: tourType,
-    ...(dayTourMode ? { dayTourMode } : {}),
+    ...(tourMode ? { tourMode } : {}),
     title: i18nString(group, (e) => decodeTitle(e.title?.rendered)),
     slug: i18nSlug(group),
     summary: buildSummaryFromExtractedBody(extracted.body),

@@ -47,7 +47,7 @@ export default async function ToursLandingPage({ params, searchParams }: Props) 
   ).sort((a, b) => a.name.localeCompare(b.name));
 
   const filtered = tours.filter((tour) => {
-    if (mode && mode !== 'all' && tour.dayTourMode !== mode) return false;
+    if (mode && mode !== 'all' && tour.tourMode !== mode) return false;
     if (city && city !== 'all') {
       const slugs = (tour.cities ?? []).map((c) => c.slug);
       if (!slugs.includes(city)) return false;

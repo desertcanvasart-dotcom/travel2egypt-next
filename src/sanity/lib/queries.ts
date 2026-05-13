@@ -187,7 +187,7 @@ export const allCitiesQuery = (locale: Locale) => groq`
 const tourCardProjection = (locale: Locale) => `
   _id,
   type,
-  dayTourMode,
+  tourMode,
   durationDays,
   "title": ${localizedField('title', locale)},
   "slug": ${localizedSlug('slug', locale)},
@@ -310,7 +310,7 @@ export const allPackagesQuery = (locale: Locale) => groq`
  * landing's mode filter when a mode is selected via search params.
  */
 export const dayToursByModeQuery = (locale: Locale) => groq`
-  *[_type == "tour" && type == "dayTour" && dayTourMode == $mode] | order(_createdAt desc){
+  *[_type == "tour" && type == "dayTour" && tourMode == $mode] | order(_createdAt desc){
     ${tourCardProjection(locale)}
   }
 `;
@@ -422,7 +422,7 @@ export const dynastyBySlugQuery = (locale: Locale) => groq`
     "notableRulers": notableRulers[]->{ ${wikiCardProjection(locale)} },
     "notableMonuments": notableMonuments[]->{ ${wikiCardProjection(locale)} },
     "relatedTours": relatedTours[]->{
-      _id, type, dayTourMode, durationDays,
+      _id, type, tourMode, durationDays,
       "title": ${localizedField('title', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "summary": ${localizedField('summary', locale)},

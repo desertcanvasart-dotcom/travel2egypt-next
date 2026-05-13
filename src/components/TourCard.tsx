@@ -6,7 +6,7 @@ import { urlFor } from '@/sanity/lib/image';
 export interface TourCardData {
   _id: string;
   type?: string;
-  dayTourMode?: 'private' | 'group';
+  tourMode?: 'private' | 'group';
   durationDays?: number;
   title: string;
   slug: string;
@@ -45,10 +45,10 @@ export function TourCard({ tour }: Props) {
       </div>
       <div className="mb-2 flex flex-wrap items-center gap-3 font-sans text-xs font-medium uppercase tracking-[0.12em] text-night-soft">
         {duration && <span>{duration}</span>}
-        {tour.dayTourMode && (
+        {tour.tourMode && (
           <>
             <span className="h-[3px] w-[3px] rounded-full bg-night-soft" aria-hidden />
-            <span>{tour.dayTourMode === 'private' ? 'Private' : 'Group'}</span>
+            <span>{tour.tourMode === 'private' ? 'Private' : 'Group'}</span>
           </>
         )}
         {primaryCity && (
