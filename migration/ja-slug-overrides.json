@@ -618,5 +618,21 @@
   "wp-page-64048": {
     "slug": "shamushia-kyampu-dafura-oashisu",
     "reason": "Multi-segment middle-dot fix on シャムシア・キャンプ・ダフラ・オアシス (Shamsiya Camp Dakhla Oasis). Incorporates the dafura-oashisu correction (consistent with the city-level Dakhla Oasis override wp-page-58783). EN portion stripped per operator decision."
+  },
+  "wp-page-87438": {
+    "slug": "asuwan-tambo-puraibeto-ka",
+    "reason": "Tour entity (session 14). Truncated kana slug; operator-domain transliteration. Aswan exploration + private car (drops trailing 'dedicated guide'). Uses 'tambo' for 探訪 per established modified-Hepburn default (ン→m before b/m/p), consistent with komu-ombo cluster and with the algorithm-generated 'tambo' on wp-page-89353 / wp-page-89438. abu-shinberu remains the documented per-doc exception."
+  },
+  "wp-page-112993": {
+    "slug": "12-nichikan-famiri-bakeshon",
+    "reason": "Tour entity (session 14). Truncated kana slug; operator-domain transliteration. 12 days + family vacation (drops brand-marketing 'amazing' prefix)."
+  },
+  "wp-page-115573": {
+    "slug": "nefertari-sensuitei-shunokeringu",
+    "reason": "Tour entity (session 14). Truncated kana slug; operator-domain transliteration. Uses international 'nefertari' (queen name) over kana literal."
+  },
+  "wp-page-146018": {
+    "slug": "ramesses-jidai-tsua",
+    "reason": "Tour entity (session 14). Truncated kana slug; operator-domain transliteration. Uses international 'ramesses' (pharaoh name) over kana literal."
   }
 }

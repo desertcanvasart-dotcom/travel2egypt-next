@@ -43,7 +43,7 @@ export const tourSchema = defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
-      name: 'dayTourMode',
+      name: 'tourMode',
       title: 'Tour mode',
       description:
         'Private = exclusive for the booking party. Group = scheduled departure shared with other travelers.',
@@ -138,7 +138,7 @@ export const tourSchema = defineType({
         'Day-by-day tour itinerary. Mapper populates dayNumber, title, cities, morning, lunch, and afternoon; operator enriches the remaining fields during editorial pass.',
       type: 'array',
       group: 'itinerary',
-      hidden: ({ document }) => (document as { dayTourMode?: string })?.dayTourMode === 'private',
+      hidden: ({ document }) => (document as { tourMode?: string })?.tourMode === 'private',
       of: [
         {
           type: 'object',
@@ -425,7 +425,7 @@ export const tourSchema = defineType({
     select: {
       title: 'title',
       type: 'type',
-      mode: 'dayTourMode',
+      mode: 'tourMode',
       duration: 'durationDays',
       media: 'heroImage',
     },

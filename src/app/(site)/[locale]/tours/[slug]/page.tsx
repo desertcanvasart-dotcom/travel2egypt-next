@@ -95,9 +95,9 @@ export default async function DayTourPage({ params }: Props) {
     (item, idx, arr) => arr.findIndex((other) => other._id === item._id) === idx
   );
   const modeLabel =
-    tour.dayTourMode === 'private'
+    tour.tourMode === 'private'
       ? t('modePrivate')
-      : tour.dayTourMode === 'group'
+      : tour.tourMode === 'group'
         ? t('modeGroup')
         : null;
 
