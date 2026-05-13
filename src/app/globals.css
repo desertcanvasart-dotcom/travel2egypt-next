@@ -80,10 +80,10 @@
   /* ============================================================ */
 
   --font-serif: var(--font-cormorant), 'Times New Roman', serif;
-  --font-sans: var(--font-inter), -apple-system, BlinkMacSystemFont,
+  --font-sans: var(--font-source-serif-4), -apple-system, BlinkMacSystemFont,
     'Segoe UI', sans-serif;
   --font-jp-serif: var(--font-noto-serif-jp), var(--font-cormorant), serif;
-  --font-jp-sans: var(--font-noto-sans-jp), var(--font-inter), sans-serif;
+  --font-jp-sans: var(--font-noto-sans-jp), var(--font-source-serif-4), sans-serif;
 
   /* Display sizes — Cormorant Garamond, fluid */
   --text-display-xl: clamp(2.75rem, 7vw, 5.5rem);
@@ -91,7 +91,7 @@
   --text-display-md: clamp(1.75rem, 3.5vw, 2.5rem);
   --text-display-sm: clamp(1.375rem, 2.5vw, 1.75rem);
 
-  /* Body sizes — Inter */
+  /* Body sizes — Source Serif 4 */
   --text-lede: clamp(1.25rem, 2vw, 1.5rem);
   --text-body-lg: 1.0625rem;
   --text-body: 1rem;
