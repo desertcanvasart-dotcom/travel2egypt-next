@@ -104,6 +104,10 @@ export interface MigrationMetadata {
   wpCategorySlugs?: string[];
   /** Tour mapper: source of city ref resolution. */
   cityResolution?: 'override' | 'full-slug-scan' | 'default-cairo';
+  /** Tour mapper: theme heuristic pattern that fired (or 'fallback'). */
+  themeMatchedPattern?: string;
+  /** Tour mapper: matrix violation (group day tour outside allowed cities). */
+  matrixViolation?: { reason: string; cities: string[] };
 }
 
 export type ReviewFlag =

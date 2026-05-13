@@ -40,7 +40,7 @@ import { initRomaji } from './wp-import/mappers/_romaji.js';
 import { mapCity } from './wp-import/mappers/city.js';
 import { mapGuideArticle } from './wp-import/mappers/guideArticle.js';
 import { mapWikiMonument } from './wp-import/mappers/wikiMonument.js';
-import { mapTour } from './wp-import/mappers/tour.js';
+import { mapTour, EXCLUDED_TOUR_WP_IDS } from './wp-import/mappers/tour.js';
 import { mapTravelTip } from './wp-import/mappers/travelTip.js';
 import { mapHotel } from './wp-import/mappers/hotel.js';
 import { mapNileCruise } from './wp-import/mappers/nileCruise.js';
@@ -541,6 +541,14 @@ async function importPages(
 
   for (const { p, c } of [...hubs, ...rest]) {
     try {
+      // Tour-specific exclusion list (session 15): listing pages, generic
+      // catalog names, and dayTours already reclassified to package. Plumbed
+      // through the orchestrator entry so excluded IDs are visible in the log.
+      if (c.type === 'tour-or-package' && EXCLUDED_TOUR_WP_IDS.has(p.id)) {
+        process.stderr.write(`[wp-import] excluded tour wpId=${p.id} slug=${p.slug} (session-15 EXCLUDED_TOUR_WP_IDS)\n`);
+        bump(stats, 'skipped', 'skipped');
+        continue;
+      }
       const decision = shouldSkip(p.slug, c, cli);
       if (decision.skip) {
         bump(stats, 'skipped', 'skipped');

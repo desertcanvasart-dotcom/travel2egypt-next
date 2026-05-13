@@ -169,7 +169,7 @@ export function summedHtmlStats(group: LocaleGroup) {
 export function buildMigrationMeta(
   group: LocaleGroup,
   reviewFlag?: ReviewFlag,
-  extras?: Partial<Pick<MigrationMetadata, 'cityResolution'>>
+  extras?: Partial<Pick<MigrationMetadata, 'cityResolution' | 'themeMatchedPattern' | 'matrixViolation'>>
 ): MigrationMetadata {
   const en = group.en;
   return {

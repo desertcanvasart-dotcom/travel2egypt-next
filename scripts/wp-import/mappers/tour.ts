@@ -118,6 +118,10 @@ export async function mapTour(
   const cityRefsBySlug = opts.cityRefsBySlug ?? (await fetchCityRefsBySlug(client));
   const { cities, resolution: cityResolution } = resolveTopLevelCities(slug, cityRefsBySlug);
 
+  // Reverse map id → slug for matrix-violation detection below.
+  const cityIdToSlug = new Map<string, string>();
+  for (const [s, id] of cityRefsBySlug.entries()) cityIdToSlug.set(id, s);
+
   // Per-locale Elementor extraction.
   const extracted = extractContent(group, isPrivateCarAndGuide);
 
@@ -126,13 +130,31 @@ export async function mapTour(
 
   const durationDays = daysFromSlug(slug);
 
+  // Theme — required for packages. Day tours get the heuristic too so the audit
+  // report has uniform coverage, but the schema only enforces required-ness on
+  // packages (see src/sanity/schemas/tour.ts).
+  const titleEn = decodeTitle(en.title?.rendered) ?? '';
+  const themeMatch = inferTheme(slug, titleEn);
+  const themeRef = { _type: 'reference' as const, _ref: themeMatch.themeId };
+
+  // Matrix violation — flag group dayTours assigned to non-allowed cities.
+  const matrixViolation = detectMatrixViolation(tourType, tourMode, cities, cityIdToSlug);
+
+  // EN slug override (operator-curated clean form, e.g. URL-encoded-char fixups).
+  const slugArray = i18nSlug(group);
+  const enOverride = EN_SLUG_OVERRIDES_BY_WP_ID[en.id];
+  if (enOverride) {
+    const enEntry = slugArray.find((s) => s._key === 'en');
+    if (enEntry) enEntry.value = { _type: 'slug', current: enOverride };
+  }
+
   const doc: SanityDoc = {
     _id: `wp-page-${en.id}`,
     _type: 'tour',
     type: tourType,
     ...(tourMode ? { tourMode } : {}),
     title: i18nString(group, (e) => decodeTitle(e.title?.rendered)),
-    slug: i18nSlug(group),
+    slug: slugArray,
     summary: buildSummaryFromExtractedBody(extracted.body),
     // `body` is forward-looking — not currently declared on tour schema (see header note).
     ...(extracted.body.length > 0 ? { body: extracted.body } : {}),
@@ -141,8 +163,14 @@ export async function mapTour(
     // gallery emission disabled — Phase 2b.e or later will wire asset upload via ensureAssetUploaded
     cities,
     ...(durationDays > 0 ? { durationDays } : {}),
+    // Always attach theme (required for packages, useful provenance for day tours).
+    theme: themeRef,
     ...(hero ? { heroImage: hero } : {}),
-    migration: buildMigrationMeta(group, undefined, { cityResolution }),
+    migration: buildMigrationMeta(group, undefined, {
+      cityResolution,
+      themeMatchedPattern: themeMatch.matchedPattern,
+      ...(matrixViolation ? { matrixViolation } : {}),
+    }),
   };
 
   const redirects = buildRedirects(
@@ -172,6 +200,181 @@ function daysFromSlug(slug: string): number {
 const SLUG_CITY_OVERRIDES: Record<string, string> = {
   'snorkeling-adventure-on-the-nefertari-submarine': 'marsa-alam',
 };
+
+/**
+ * WP ID → clean EN slug override. Applied after i18nSlug builds the localized
+ * slug array. The WP URL → Sanity path redirect still flows through buildRedirects
+ * using the original WP slug, so legacy URLs continue to redirect to the new
+ * clean Sanity path.
+ */
+export const EN_SLUG_OVERRIDES_BY_WP_ID: Record<number, string> = {
+  // wp-page-238471 — original WP slug contains URL-encoded middle-dot interpuncts
+  // (`9-days-cairo-%c2%b7-st-catherine-%c2%b7-sharm-el-sheikh`). Operator decision
+  // at session 15 sub-step C: rename to a clean hyphenated form.
+  238471: '9-days-cairo-st-catherine-sharm-el-sheikh',
+};
+
+/**
+ * Orchestrator-level exclusion set. WP IDs in this set never reach mapTour.
+ * Plumbed via the importer's shouldSkip() — see scripts/wp-import.ts.
+ *
+ * Composition (session 15):
+ *   - 12 listing/archive pages (concern A): egypt-tours-from-*, N-days-egypt-tours,
+ *     small-group-travel-packages
+ *   - 3 listing-style placeholders surfaced at sub-step 2.5d: enchanting-expeditions,
+ *     cultural-immersions, exclusive-deals
+ *   - 11 docs reclassified to package at sub-step 2g.1 (already imported as packages,
+ *     must not be re-imported by Batch 2)
+ */
+export const EXCLUDED_TOUR_WP_IDS: ReadonlySet<number> = new Set<number>([
+  // Concern A (listing pages, 12)
+  161314, 160983, 160833, 160669, 160423, 160172, 160026, 158052,
+  159772, 159756, 159124, 149374,
+  // 2.5d additions (3)
+  103567, 99402, 94331,
+  // 2g.1 reclassified — already in Sanity as packages (11)
+  102370, 87832, 113061, 238546, 86851, 238562,
+  89510, 89895, 89015, 89619, 86875,
+]);
+
+// -- Theme heuristic ------------------------------------------------------------
+
+/**
+ * Slug-keyword based theme inference for packages. Match order is most-specific
+ * first; first match wins. Falls back to `theme-egypt-in-depth`.
+ *
+ * Returns the matched pattern alongside the chosen theme so the migration meta
+ * can record provenance for the Step 5 audit report (operator review of
+ * heuristic-assigned themes).
+ */
+export interface ThemeMatch { themeId: string; matchedPattern: string }
+
+const THEME_RULES: Array<{ re: RegExp; themeId: string; label: string }> = [
+  { re: /family/i, themeId: 'theme-family-egypt', label: 'family' },
+  { re: /dahabiya/i, themeId: 'theme-dahabiya-nile-cruise', label: 'dahabiya' },
+  { re: /holy-family|pilgrimage|biblical/i, themeId: 'theme-special-interest', label: 'holy-family|pilgrimage|biblical' },
+  // nile-cruise / felucca after dahabiya so dahabiya wins.
+  { re: /nile-cruise|felucca/i, themeId: 'theme-nile-cruise', label: 'nile-cruise|felucca' },
+  { re: /luxury|deluxe|prestigious|legacy/i, themeId: 'theme-luxury', label: 'luxury|deluxe|prestigious|legacy' },
+  { re: /red-sea|snorkel|hurghada-and-|sharm-and-/i, themeId: 'theme-egypt-red-sea', label: 'red-sea|snorkel|hurghada-and-|sharm-and-' },
+  { re: /adventure|desert|safari/i, themeId: 'theme-adventure', label: 'adventure|desert|safari' },
+  { re: /on-the-go|short-|quick-/i, themeId: 'theme-egypt-on-the-go', label: 'on-the-go|short-|quick-' },
+  { re: /-from-(germany|spain|usa|the-uk|canada|australia|india|turkey|united-kingdom)/i, themeId: 'theme-hassle-free', label: 'from-{country}' },
+  { re: /essential|grand-tour|in-depth/i, themeId: 'theme-egypt-in-depth', label: 'essential|grand-tour|in-depth' },
+];
+
+export function inferTheme(slug: string, title: string): ThemeMatch {
+  const haystack = `${slug} ${title}`.toLowerCase();
+  for (const rule of THEME_RULES) {
+    if (rule.re.test(haystack)) {
+      return { themeId: rule.themeId, matchedPattern: rule.label };
+    }
+  }
+  return { themeId: 'theme-egypt-in-depth', matchedPattern: 'fallback' };
+}
+
+// -- Matrix violation detection -------------------------------------------------
+
+/** Cities approved for group day-tour departures (operator decision, session 14). */
+export const ALLOWED_GROUP_DAYTOUR_CITIES: ReadonlySet<string> = new Set<string>([
+  'aswan', 'cairo', 'hurghada', 'luxor', 'marsa-alam', 'sharm-el-sheikh',
+]);
+
+export interface MatrixViolation { reason: string; cities: string[] }
+
+/**
+ * Flag group dayTours whose resolved cities include any outside the allowed set.
+ * Returns null when the doc is compliant. Packages and private dayTours never
+ * violate (matrix only applies to group day-tour departures).
+ */
+export function detectMatrixViolation(
+  type: 'dayTour' | 'package',
+  tourMode: 'private' | 'group' | undefined,
+  cityRefIds: Array<{ _ref: string }>,
+  cityIdToSlug: Map<string, string>
+): MatrixViolation | null {
+  if (type !== 'dayTour' || tourMode !== 'group') return null;
+  const offending: string[] = [];
+  for (const c of cityRefIds) {
+    const slug = cityIdToSlug.get(c._ref);
+    if (slug && !ALLOWED_GROUP_DAYTOUR_CITIES.has(slug)) offending.push(slug);
+  }
+  if (offending.length === 0) return null;
+  return { reason: 'group-day-tour-in-non-allowed-city', cities: offending };
+}
+
+// -- Country-variant consolidation (B3) -----------------------------------------
+
+/**
+ * Candidate shape from migration/sessions/session-15-audit/candidates.json
+ * (and any external caller that constructs equivalent structures).
+ */
+export interface ConsolidationCandidate {
+  wpId: number;
+  slug: string;
+  title?: string;
+}
+
+export interface ConsolidationResult {
+  canonical: ConsolidationCandidate[];
+  redirects: Array<{ fromSlug: string; toSlug: string; fromWpId: number; toWpId: number }>;
+  clusters: Array<{
+    baseSlug: string;
+    canonical: { wpId: number; slug: string };
+    droppedVariants: Array<{ wpId: number; slug: string; sourceCountry: string }>;
+  }>;
+}
+
+const COUNTRY_SUFFIX_RE = /-from-(germany|spain|usa|the-uk|canada|australia|india|turkey|united-kingdom)$/i;
+
+/**
+ * Group candidates by base slug (slug minus `-from-{country}` suffix). Within
+ * each cluster of ≥2 variants, pick canonical = lowest WP ID (oldest); other
+ * variants are dropped and a redirect is emitted from the variant slug to the
+ * canonical slug.
+ *
+ * If a base slug appears in the candidate list WITHOUT a country suffix, that
+ * suffix-less doc wins canonical regardless of WP-ID age.
+ *
+ * Candidates with no country suffix and no cluster pass through unchanged.
+ */
+export function consolidateCountryVariants(candidates: ConsolidationCandidate[]): ConsolidationResult {
+  const clusters = new Map<string, ConsolidationCandidate[]>();
+  for (const c of candidates) {
+    const m = COUNTRY_SUFFIX_RE.exec(c.slug);
+    const base = m ? c.slug.slice(0, c.slug.length - m[0].length) : c.slug;
+    if (!clusters.has(base)) clusters.set(base, []);
+    clusters.get(base)!.push(c);
+  }
+  const canonical: ConsolidationCandidate[] = [];
+  const redirects: ConsolidationResult['redirects'] = [];
+  const log: ConsolidationResult['clusters'] = [];
+  for (const [baseSlug, members] of clusters.entries()) {
+    if (members.length === 1) {
+      canonical.push(members[0]);
+      continue;
+    }
+    // Prefer a member whose slug already equals the base (no country suffix).
+    const naked = members.find((m) => m.slug === baseSlug);
+    const canonicalCandidate =
+      naked ?? [...members].sort((a, b) => a.wpId - b.wpId)[0];
+    canonical.push({ ...canonicalCandidate, slug: baseSlug });
+    const dropped = members
+      .filter((m) => m.wpId !== canonicalCandidate.wpId)
+      .map((m) => {
+        const cm = COUNTRY_SUFFIX_RE.exec(m.slug);
+        const sourceCountry = cm?.[1] ?? 'unknown';
+        redirects.push({ fromSlug: m.slug, toSlug: baseSlug, fromWpId: m.wpId, toWpId: canonicalCandidate.wpId });
+        return { wpId: m.wpId, slug: m.slug, sourceCountry };
+      });
+    log.push({
+      baseSlug,
+      canonical: { wpId: canonicalCandidate.wpId, slug: baseSlug },
+      droppedVariants: dropped,
+    });
+  }
+  return { canonical, redirects, clusters: log };
+}
 
 // -- City resolution ------------------------------------------------------------
 
