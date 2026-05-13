@@ -17,6 +17,13 @@
  */
 
 import { parse, type HTMLElement, NodeType } from 'node-html-parser';
+
+import {
+  SECTION_HEADER_PATTERNS_BY_LOCALE,
+  SECTION_HEADER_PATTERNS_EN,
+  LEADING_TITLE_LINE_RE_BY_LOCALE,
+  CROSS_PROMO_LEARN_MORE_BY_LOCALE,
+} from './wp-import/section-nav-patterns.js';
 // `key()` is deterministic — sequential counter reset per htmlToPortableText
 // call. Sanity uses _key only as a within-array stable identifier, so per-call
 // uniqueness is sufficient. Determinism eliminates pipeline-induced drift in
@@ -538,55 +545,6 @@ function stripMetadataLines(root: HTMLElement, stats: ConversionResult['stats'])
  * Counts in `stats.sectionNavBlockStripped` (one increment per block,
  * not per node — block-level metric).
  */
-const SECTION_HEADER_PATTERNS_EN: RegExp[] = [
-  /^INTRODUCING\s+[A-Z][A-Z\s\-']+$/,
-  /^PLAN YOUR TRIP$/,
-  /^WHILE YOU ARE THERE$/,
-  /^PLACES TO GO$/,
-  /^OTHERS$/,
-];
-const SECTION_HEADER_PATTERNS_JA: RegExp[] = [
-  /^[぀-ゟ゠-ヿ一-鿿　-〿㐀-䶿]+の紹介$/,
-  /^旅行の計画$/,
-  /^滞在中に$/,
-  /^見どころ$/,
-  /^その他$/,
-];
-const SECTION_HEADER_PATTERNS_ES: RegExp[] = [
-  /^PRESENTACIÓN DE [A-ZÁÉÍÓÚÑ][A-ZÁÉÍÓÚÑ\s\-']+$/,
-  /^PLANIFICA TU VIAJE$/,
-  /^MIENTRAS ESTÉS ALLÍ$/,
-  /^LUGARES DONDE IR$/,
-  /^OTROS$/,
-];
-const SECTION_HEADER_PATTERNS_BY_LOCALE: Record<string, RegExp[]> = {
-  en: SECTION_HEADER_PATTERNS_EN,
-  ja: SECTION_HEADER_PATTERNS_JA,
-  es: SECTION_HEADER_PATTERNS_ES,
-};
-
-// Leading title line allows the city portion to be ALL-CAPS while the
-// "Travel Guide" suffix is in title case (the actual WP rendering pattern,
-// e.g. "AKHMIM Travel Guide" — observed on multiple destination-hub pages).
-const LEADING_TITLE_LINE_RE_EN = /^[A-Z][A-Z\s\-']+\s+(?:TRAVEL\s+GUIDE|Travel\s+Guide)$/;
-// JA/ES don't have a separate "X TRAVEL GUIDE" leading line per the
-// session 13 pre-flight inspection — title is already stripped via
-// stripTitleH1 / Fix 1. Null skips the walk-back-for-title step.
-const LEADING_TITLE_LINE_RE_BY_LOCALE: Record<string, RegExp | null> = {
-  en: LEADING_TITLE_LINE_RE_EN,
-  ja: null,
-  es: null,
-};
-
-// Cross-promo "Learn more" anchor text per locale. Used by
-// stripCrossPromoTail to detect the closing block of the WP hub-template
-// next-city promotion that follows the section-nav tail.
-const CROSS_PROMO_LEARN_MORE_BY_LOCALE: Record<string, RegExp> = {
-  en: /^Learn\s+more$/i,
-  ja: /^詳しくはこちらへ$/,
-  es: /^Saber\s+más$/i,
-};
-
 function stripSectionNavBlocks(
   root: HTMLElement,
   stats: ConversionResult['stats'],
