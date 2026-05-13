@@ -210,7 +210,7 @@ export default async function ArticlePage({ params }: Props) {
 
         {/* Body — generous typography on a narrower column */}
         {article.body ? (
-          <div className="prose-editorial prose-editorial--article max-w-none">
+          <div className="prose-editorial max-w-none">
             <Body value={article.body} locale={locale as Locale} />
           </div>
         ) : null}

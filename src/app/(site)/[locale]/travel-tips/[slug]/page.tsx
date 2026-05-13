@@ -187,7 +187,7 @@ export default async function TravelTipDetailPage({ params }: Props) {
 
             {/* Body */}
             {tip.body ? (
-              <div className="prose-editorial prose-editorial--article max-w-none">
+              <div className="prose-editorial max-w-none">
                 <Body value={tip.body} locale={locale as Locale} />
               </div>
             ) : null}
