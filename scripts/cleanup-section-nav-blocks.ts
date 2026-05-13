@@ -482,7 +482,13 @@ async function main() {
       skipped++;
       continue;
     }
-    const patchPath = `${cfg.bodyField}[_key=="${args.locale}"][0].value`;
+    // NOTE: Sanity patch paths do NOT accept [0] after [_key=="..."] —
+    // the filter resolves to the single element directly. GROQ READ paths
+    // accept and require the [0] index. Easy to confuse; the cleanup script
+    // initially had the wrong shape, and Sanity silently no-op'd 82 patches
+    // before the block-count integrity check caught it. See session 13 commit
+    // 3701eaf for the failure-mode audit trail.
+    const patchPath = `${cfg.bodyField}[_key=="${args.locale}"].value`;
     try {
       await client.patch(r._id).set({ [patchPath]: r.result.cleaned }).commit({ visibility: 'async' });
       patched++;
