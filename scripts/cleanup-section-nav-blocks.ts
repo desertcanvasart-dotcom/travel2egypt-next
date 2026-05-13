@@ -242,21 +242,72 @@ function isCrossPromoLearnMoreBlock(block: PtBlock, locale: Locale): boolean {
 }
 
 interface CleanupResult {
-  /** Whether the doc/locale has a TOC tail to strip. */
+  /** Whether the doc/locale has a bulk TOC tail to strip (Strategy B+C). */
   hasToc: boolean;
-  /** Where to slice from (inclusive). If hasToc=false, this is unused. */
+  /**
+   * Whether Strategy D fired — a single orphan tail-header block survived
+   * after the bulk TOC was already stripped (manually, by earlier passes,
+   * or by partial import). Mutually exclusive with hasToc.
+   */
+  hasOrphanTailHeader: boolean;
+  /** Where to slice from (inclusive). If neither hasToc nor hasOrphanTailHeader, unused. */
   sliceIndex: number;
   /** Number of blocks that would be removed (original.length - sliceIndex). */
   removedCount: number;
-  /** Whether the cross-promo 4-block tail was also matched. */
+  /** Whether the cross-promo 4-block tail was also matched (only with hasToc). */
   crossPromoMatched: boolean;
   /** Cleaned array (original sliced at sliceIndex). */
   cleaned: PtBlock[];
 }
 
+/**
+ * Strategy D — position-based detector for single-orphan tail headers.
+ *
+ * Runs only when Strategy B+C didn't fire. Inspects ONLY the final block.
+ * Four guards prevent over-strip on editorial prose:
+ *   1. last-block-only (everything above is untouched)
+ *   2. Type-1 only: no marks, no markDefs, single span
+ *   3. style: normal (h-style headings handled differently and aren't tail residuals here)
+ *   4. text length ≤ 80 chars (orphan headers are short; prose paragraphs are long)
+ *
+ * Loose locale signal: ES starts with PRESENTACIÓN (case-insensitive),
+ * JA ends with 紹介. Catches DE/DEL/DE-LA variants and の/を/のご/をご
+ * particle constructions without enumeration.
+ */
+function detectOrphanTailHeader(
+  blocks: PtBlock[],
+  locale: Locale
+): { sliceIndex: number; removedCount: number } | null {
+  if (blocks.length === 0) return null;
+  const last = blocks[blocks.length - 1];
+
+  if (last._type !== 'block') return null;
+  if (last.style !== 'normal') return null;
+  if (!last.children || last.children.length !== 1) return null;
+  const span = last.children[0];
+  if (span._type !== 'span') return null;
+  if ((span.marks?.length ?? 0) !== 0) return null;
+  if ((last.markDefs?.length ?? 0) !== 0) return null;
+
+  const text = (span.text ?? '').trim();
+  if (text.length === 0 || text.length > 80) return null;
+
+  if (locale === 'es') {
+    if (/^PRESENTACIÓN\b/i.test(text)) {
+      return { sliceIndex: blocks.length - 1, removedCount: 1 };
+    }
+  } else if (locale === 'ja') {
+    if (/紹介$/.test(text)) {
+      return { sliceIndex: blocks.length - 1, removedCount: 1 };
+    }
+  }
+
+  return null;
+}
+
 function detectCleanup(blocks: PtBlock[], locale: Locale): CleanupResult {
   if (blocks.length === 0) {
-    return { hasToc: false, sliceIndex: 0, removedCount: 0, crossPromoMatched: false, cleaned: [] };
+    return { hasToc: false, hasOrphanTailHeader: false, sliceIndex: 0, removedCount: 0, crossPromoMatched: false, cleaned: [] };
   }
 
   // Find first block matching the locale's section-header pattern.
@@ -265,7 +316,19 @@ function detectCleanup(blocks: PtBlock[], locale: Locale): CleanupResult {
     if (isSectionHeaderBlock(blocks[i], locale)) { firstHeaderIdx = i; break; }
   }
   if (firstHeaderIdx === -1) {
-    return { hasToc: false, sliceIndex: blocks.length, removedCount: 0, crossPromoMatched: false, cleaned: blocks.slice() };
+    // Strategy B+C didn't fire — try Strategy D (orphan tail-header).
+    const orphan = detectOrphanTailHeader(blocks, locale);
+    if (orphan) {
+      return {
+        hasToc: false,
+        hasOrphanTailHeader: true,
+        sliceIndex: orphan.sliceIndex,
+        removedCount: orphan.removedCount,
+        crossPromoMatched: false,
+        cleaned: blocks.slice(0, orphan.sliceIndex),
+      };
+    }
+    return { hasToc: false, hasOrphanTailHeader: false, sliceIndex: blocks.length, removedCount: 0, crossPromoMatched: false, cleaned: blocks.slice() };
   }
 
   // Walk back consuming contiguous anchor-only paragraphs.
@@ -308,6 +371,7 @@ function detectCleanup(blocks: PtBlock[], locale: Locale): CleanupResult {
   const sliceIndex = startIdx;
   return {
     hasToc: true,
+    hasOrphanTailHeader: false,
     sliceIndex,
     removedCount: blocks.length - sliceIndex,
     crossPromoMatched,
@@ -405,7 +469,7 @@ async function main() {
     let overrideReason: string | undefined;
 
     if (ov?.action === 'skip') {
-      result = { hasToc: false, sliceIndex: blocks.length, removedCount: 0, crossPromoMatched: false, cleaned: blocks };
+      result = { hasToc: false, hasOrphanTailHeader: false, sliceIndex: blocks.length, removedCount: 0, crossPromoMatched: false, cleaned: blocks };
       source = 'override-skip';
       flags.push('OVERRIDE-SKIP');
       overrideReason = ov.reason;
@@ -413,6 +477,7 @@ async function main() {
       const sliceIndex = ov.sliceIndex;
       result = {
         hasToc: true,
+        hasOrphanTailHeader: false,
         sliceIndex,
         removedCount: blocks.length - sliceIndex,
         crossPromoMatched: false,
@@ -424,8 +489,9 @@ async function main() {
     } else {
       result = detectCleanup(blocks, args.locale);
       source = 'algorithm';
-      if (!result.hasToc) flags.push('NO-TOC');
+      if (!result.hasToc && !result.hasOrphanTailHeader) flags.push('NO-TOC');
       if (result.hasToc && !result.crossPromoMatched) flags.push('TOC-NO-CROSSPROMO');
+      if (result.hasOrphanTailHeader) flags.push('ORPHAN-TAIL-HEADER');
     }
 
     rows.push({ _id: d._id, origCount, result, source, overrideReason, flags });
@@ -433,10 +499,11 @@ async function main() {
 
   // Aggregate stats
   const withToc = rows.filter((r) => r.result.hasToc).length;
-  const withoutToc = rows.length - withToc;
+  const orphanHits = rows.filter((r) => r.result.hasOrphanTailHeader).length;
+  const withoutAny = rows.length - withToc - orphanHits;
   const crossPromoHits = rows.filter((r) => r.result.crossPromoMatched).length;
   const tocNoCrossPromo = rows.filter((r) => r.result.hasToc && !r.result.crossPromoMatched).length;
-  const removedCounts = rows.filter((r) => r.result.hasToc).map((r) => r.result.removedCount);
+  const removedCounts = rows.filter((r) => r.result.hasToc || r.result.hasOrphanTailHeader).map((r) => r.result.removedCount);
   const minRem = removedCounts.length ? Math.min(...removedCounts) : 0;
   const maxRem = removedCounts.length ? Math.max(...removedCounts) : 0;
   const meanRem = removedCounts.length ? (removedCounts.reduce((s, n) => s + n, 0) / removedCounts.length).toFixed(1) : '0';
@@ -447,8 +514,9 @@ async function main() {
   console.log('');
   console.log('## Stats');
   console.log(`  Total docs:                ${rows.length}`);
-  console.log(`  With TOC tail:             ${withToc}`);
-  console.log(`  No TOC tail (no cleanup):  ${withoutToc}`);
+  console.log(`  With TOC tail (B+C):       ${withToc}`);
+  console.log(`  Orphan tail-header (D):    ${orphanHits}`);
+  console.log(`  No cleanup needed:         ${withoutAny}`);
   console.log(`  Cross-promo also stripped: ${crossPromoHits}`);
   console.log(`  TOC stripped, no cross-promo (🚩): ${tocNoCrossPromo}`);
   if (removedCounts.length > 0) {
@@ -474,7 +542,7 @@ async function main() {
   const logEntries: Array<Record<string, unknown>> = [];
 
   for (const r of rows) {
-    if (!r.result.hasToc) {
+    if (!r.result.hasToc && !r.result.hasOrphanTailHeader) {
       skipped++;
       continue;
     }
@@ -502,6 +570,7 @@ async function main() {
         removedCount: r.result.removedCount,
         crossPromoMatched: r.result.crossPromoMatched,
         source: r.source,
+        detectionMethod: r.result.hasToc ? 'bulk-toc' : 'orphan-tail-header',
         ...(r.overrideReason ? { overrideReason: r.overrideReason } : {}),
       });
     } catch (e) {
