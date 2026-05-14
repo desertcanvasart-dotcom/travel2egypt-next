@@ -284,6 +284,9 @@ export const EN_SLUG_OVERRIDES_BY_WP_ID: Record<number, string> = {
   160059: '4-day-cairo-travel-package',
   160357: 'luxor-to-cairo-egypt-nile-cruise-vacation',
   158052: 'egypt-tours',
+  // Sub-step 4c.1 — added when B3 regex extended for `-for-families` qualifier.
+  // Cluster of 6 country-targeted family packages collapses to this canonical.
+  160044: '14-day-egypt-tour-package-for-families',
 };
 
 /**
@@ -438,51 +441,82 @@ export interface ConsolidationResult {
   }>;
 }
 
-const COUNTRY_SUFFIX_RE = /-from-(germany|spain|usa|the-uk|canada|australia|india|turkey|united-kingdom)$/i;
+// Trailing qualifier suffixes that may follow the country segment. These are
+// preserved in the canonical slug (so e.g. `…-from-germany-for-families` →
+// canonical `…-for-families`, not just `…`). Append-only — add new known
+// qualifiers as the corpus surfaces them.
+const COUNTRY_QUALIFIERS = ['for-families'] as const;
+const COUNTRY_SUFFIX_RE = new RegExp(
+  `-from-(germany|spain|usa|the-uk|canada|australia|india|turkey|united-kingdom)(-(?:${COUNTRY_QUALIFIERS.join('|')}))?$`,
+  'i',
+);
 
 /**
- * Group candidates by base slug (slug minus `-from-{country}` suffix). Within
- * each cluster of ≥2 variants, pick canonical = lowest WP ID (oldest); other
- * variants are dropped and a redirect is emitted from the variant slug to the
- * canonical slug.
+ * Group candidates by base slug (slug minus `-from-{country}` and any trailing
+ * known qualifier). Within each cluster of ≥2 variants, pick canonical =
+ * lowest WP ID (oldest); other variants are dropped and a redirect is emitted
+ * from the variant slug to the canonical slug.
  *
  * If a base slug appears in the candidate list WITHOUT a country suffix, that
- * suffix-less doc wins canonical regardless of WP-ID age.
+ * suffix-less doc wins canonical regardless of WP-ID age, and its slug is used
+ * verbatim as the canonical slug.
+ *
+ * For clusters where members carry a qualifier (e.g. `-for-families`), the
+ * canonical slug is `{base}-{qualifier}` so the qualifier is preserved on the
+ * surviving URL. Members within a cluster are assumed to share a qualifier
+ * (the grouping key strips both country AND qualifier, so qualifier mismatch
+ * within a "cluster" would be a corpus anomaly worth surfacing).
  *
  * Candidates with no country suffix and no cluster pass through unchanged.
  */
 export function consolidateCountryVariants(candidates: ConsolidationCandidate[]): ConsolidationResult {
-  const clusters = new Map<string, ConsolidationCandidate[]>();
-  for (const c of candidates) {
+  // Per-candidate parse: extract country + qualifier + group key.
+  type Parsed = { c: ConsolidationCandidate; country?: string; qualifier?: string; groupKey: string };
+  const parsed: Parsed[] = candidates.map((c) => {
     const m = COUNTRY_SUFFIX_RE.exec(c.slug);
-    const base = m ? c.slug.slice(0, c.slug.length - m[0].length) : c.slug;
-    if (!clusters.has(base)) clusters.set(base, []);
-    clusters.get(base)!.push(c);
+    if (!m) return { c, groupKey: c.slug };
+    const country = m[1];
+    // m[2] is the captured trailing-qualifier group including its leading '-'
+    // (e.g. '-for-families'); m[3] (inner non-capturing) we don't need.
+    const qualifier = m[2] ? m[2].slice(1) : undefined;
+    const groupKey = c.slug.slice(0, c.slug.length - m[0].length);
+    return { c, country, qualifier, groupKey };
+  });
+
+  const clusters = new Map<string, Parsed[]>();
+  for (const p of parsed) {
+    if (!clusters.has(p.groupKey)) clusters.set(p.groupKey, []);
+    clusters.get(p.groupKey)!.push(p);
   }
+
   const canonical: ConsolidationCandidate[] = [];
   const redirects: ConsolidationResult['redirects'] = [];
   const log: ConsolidationResult['clusters'] = [];
-  for (const [baseSlug, members] of clusters.entries()) {
+
+  for (const [groupKey, members] of clusters.entries()) {
     if (members.length === 1) {
-      canonical.push(members[0]);
+      canonical.push(members[0].c);
       continue;
     }
-    // Prefer a member whose slug already equals the base (no country suffix).
-    const naked = members.find((m) => m.slug === baseSlug);
+    // Resolve the canonical slug: a member whose own slug equals the groupKey
+    // (suffix-less and qualifier-less) wins verbatim; otherwise compose
+    // `{groupKey}-{qualifier}` from the first member that carries a qualifier,
+    // falling back to plain groupKey if none do (the original B3 behavior).
+    const naked = members.find((m) => m.c.slug === groupKey);
+    const qualifier = members.find((m) => m.qualifier)?.qualifier;
+    const canonicalSlug = naked ? naked.c.slug : qualifier ? `${groupKey}-${qualifier}` : groupKey;
     const canonicalCandidate =
-      naked ?? [...members].sort((a, b) => a.wpId - b.wpId)[0];
-    canonical.push({ ...canonicalCandidate, slug: baseSlug });
+      naked?.c ?? [...members].sort((a, b) => a.c.wpId - b.c.wpId)[0].c;
+    canonical.push({ ...canonicalCandidate, slug: canonicalSlug });
     const dropped = members
-      .filter((m) => m.wpId !== canonicalCandidate.wpId)
+      .filter((m) => m.c.wpId !== canonicalCandidate.wpId)
       .map((m) => {
-        const cm = COUNTRY_SUFFIX_RE.exec(m.slug);
-        const sourceCountry = cm?.[1] ?? 'unknown';
-        redirects.push({ fromSlug: m.slug, toSlug: baseSlug, fromWpId: m.wpId, toWpId: canonicalCandidate.wpId });
-        return { wpId: m.wpId, slug: m.slug, sourceCountry };
+        redirects.push({ fromSlug: m.c.slug, toSlug: canonicalSlug, fromWpId: m.c.wpId, toWpId: canonicalCandidate.wpId });
+        return { wpId: m.c.wpId, slug: m.c.slug, sourceCountry: m.country ?? 'unknown' };
       });
     log.push({
-      baseSlug,
-      canonical: { wpId: canonicalCandidate.wpId, slug: baseSlug },
+      baseSlug: groupKey,
+      canonical: { wpId: canonicalCandidate.wpId, slug: canonicalSlug },
       droppedVariants: dropped,
     });
   }

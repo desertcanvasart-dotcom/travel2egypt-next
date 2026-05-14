@@ -51,7 +51,7 @@ console.log('canonical slugs:', consol.canonical.map((c) => c.slug).join(', '));
 console.log('redirect samples:', consol.redirects.slice(0, 2).map((r) => `${r.fromSlug} → ${r.toSlug}`).join(' | '));
 
 console.log('\n=== Slug override + exclusions ===');
-console.log(`EN_SLUG_OVERRIDES size: ${Object.keys(EN_SLUG_OVERRIDES_BY_WP_ID).length} (expect 11 = 1 interpunct + 10 B3 canonicals)`);
+console.log(`EN_SLUG_OVERRIDES size: ${Object.keys(EN_SLUG_OVERRIDES_BY_WP_ID).length} (expect 12 = 1 interpunct + 11 B3 canonicals)`);
 console.log(`EN_SLUG_OVERRIDES has wp-page-238471: ${238471 in EN_SLUG_OVERRIDES_BY_WP_ID} (expect true)`);
 console.log(`  → ${EN_SLUG_OVERRIDES_BY_WP_ID[238471]}`);
 const b3CanonicalExpect: Array<[number, string]> = [
@@ -65,6 +65,7 @@ const b3CanonicalExpect: Array<[number, string]> = [
   [160059, '4-day-cairo-travel-package'],
   [160357, 'luxor-to-cairo-egypt-nile-cruise-vacation'],
   [158052, 'egypt-tours'],
+  [160044, '14-day-egypt-tour-package-for-families'],
 ];
 let b3OvPass = 0;
 for (const [id, slug] of b3CanonicalExpect) {
@@ -153,6 +154,35 @@ for (const c of gap2Cases) {
   if (ok) gap2Pass++;
 }
 console.log(`${gap2Pass}/${gap2Cases.length} gap-#2 redirect-uses-override pass`);
+
+console.log('\n=== B3 with -for-families qualifier (sub-step 4c.1 extension) ===');
+const familyCluster = consolidateCountryVariants([
+  { wpId: 161359, slug: '14-day-egypt-tour-package-from-germany-for-families' },
+  { wpId: 161017, slug: '14-day-egypt-tour-package-from-spain-for-families' },
+  { wpId: 160846, slug: '14-day-egypt-tour-package-from-usa-for-families' },
+  { wpId: 160682, slug: '14-day-egypt-tour-package-from-turkey-for-families' },
+  { wpId: 160553, slug: '14-day-egypt-tour-package-from-canada-for-families' },
+  { wpId: 160044, slug: '14-day-egypt-tour-package-from-india-for-families' },
+]);
+console.log(`canonical count: ${familyCluster.canonical.length} (expect 1)`);
+console.log(`redirects: ${familyCluster.redirects.length} (expect 5)`);
+const fc = familyCluster.canonical[0];
+const fcSlugOk = fc?.slug === '14-day-egypt-tour-package-for-families';
+const fcWpIdOk = fc?.wpId === 160044; // lowest WP ID wins (no naked peer)
+console.log(`canonical slug: ${fc?.slug} ${fcSlugOk ? '✓' : '✗ expected 14-day-egypt-tour-package-for-families'}`);
+console.log(`canonical wpId: ${fc?.wpId} ${fcWpIdOk ? '✓' : '✗ expected 160044 (lowest WP ID)'}`);
+console.log(`redirect sample: ${familyCluster.redirects[0]?.fromSlug} → ${familyCluster.redirects[0]?.toSlug}`);
+
+console.log('\n=== B3 non-consolidation of remaining country-suffix singletons ===');
+const singletons = consolidateCountryVariants([
+  { wpId: 160149, slug: 'egypt-nile-cruise-vacation-from-india' },
+  { wpId: 160182, slug: 'luxury-14-day-egypt-tour-package-from-australia-for-families' },
+  { wpId: 160197, slug: 'egypt-escape-4-day-cairo-travel-package-from-australia' },
+  { wpId: 160209, slug: '8-day-sharm-el-sheikh-holiday-package-from-australia' },
+  { wpId: 160630, slug: '10-day-romantic-egypt-deals-from-spain' },
+]);
+console.log(`canonical count: ${singletons.canonical.length} (expect 5 — heterogeneous bases, each its own cluster)`);
+console.log(`redirects: ${singletons.redirects.length} (expect 0 — no consolidation)`);
 
 console.log('\n=== egypt-tours B3 cluster ===');
 const eggCluster = consolidateCountryVariants([

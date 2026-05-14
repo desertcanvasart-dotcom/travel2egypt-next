@@ -266,6 +266,38 @@
     ]
   },
   {
+    "cluster": "14-day-egypt-tour-package",
+    "canonicalWpId": 160044,
+    "canonicalSlug": "14-day-egypt-tour-package-for-families",
+    "variants": [
+      {
+        "wpId": 161359,
+        "slug": "14-day-egypt-tour-package-from-germany-for-families",
+        "sourceCountry": "germany"
+      },
+      {
+        "wpId": 161017,
+        "slug": "14-day-egypt-tour-package-from-spain-for-families",
+        "sourceCountry": "spain"
+      },
+      {
+        "wpId": 160846,
+        "slug": "14-day-egypt-tour-package-from-usa-for-families",
+        "sourceCountry": "usa"
+      },
+      {
+        "wpId": 160682,
+        "slug": "14-day-egypt-tour-package-from-turkey-for-families",
+        "sourceCountry": "turkey"
+      },
+      {
+        "wpId": 160553,
+        "slug": "14-day-egypt-tour-package-from-canada-for-families",
+        "sourceCountry": "canada"
+      }
+    ]
+  },
+  {
     "cluster": "luxor-to-cairo-egypt-nile-cruise-vacation",
     "canonicalWpId": 160357,
     "canonicalSlug": "luxor-to-cairo-egypt-nile-cruise-vacation",
