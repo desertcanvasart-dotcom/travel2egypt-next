@@ -226,5 +226,43 @@ async function resolveLocalizedPathname(
     return `/${base}`;
   }
 
+  // Hotel detail: /hotels/[slug]. Single-segment URL, slug varies by
+  // locale (field-level i18n on hotel). On miss / fetch failure: fall
+  // back to /hotels list.
+  const hotelMatch = pathname.match(/^\/hotels\/([^/]+)\/?$/);
+  if (hotelMatch) {
+    const fromSlug = hotelMatch[1];
+    try {
+      const res = await fetch(
+        `/api/locale-resolve/hotel?fromLocale=${fromLocale}&fromSlug=${encodeURIComponent(fromSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { slug } = (await res.json()) as { slug: string | null };
+        if (slug) return `/hotels/${slug}`;
+      }
+    } catch {
+      // fall through to /hotels list
+    }
+    return '/hotels';
+  }
+
+  // Nile cruise detail: /nile-cruises/[slug]. Same pattern as hotel.
+  const cruiseMatch = pathname.match(/^\/nile-cruises\/([^/]+)\/?$/);
+  if (cruiseMatch) {
+    const fromSlug = cruiseMatch[1];
+    try {
+      const res = await fetch(
+        `/api/locale-resolve/nileCruise?fromLocale=${fromLocale}&fromSlug=${encodeURIComponent(fromSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { slug } = (await res.json()) as { slug: string | null };
+        if (slug) return `/nile-cruises/${slug}`;
+      }
+    } catch {
+      // fall through to /nile-cruises list
+    }
+    return '/nile-cruises';
+  }
+
   return pathname;
 }
