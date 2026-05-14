@@ -51,8 +51,29 @@ console.log('canonical slugs:', consol.canonical.map((c) => c.slug).join(', '));
 console.log('redirect samples:', consol.redirects.slice(0, 2).map((r) => `${r.fromSlug} → ${r.toSlug}`).join(' | '));
 
 console.log('\n=== Slug override + exclusions ===');
+console.log(`EN_SLUG_OVERRIDES size: ${Object.keys(EN_SLUG_OVERRIDES_BY_WP_ID).length} (expect 11 = 1 interpunct + 10 B3 canonicals)`);
 console.log(`EN_SLUG_OVERRIDES has wp-page-238471: ${238471 in EN_SLUG_OVERRIDES_BY_WP_ID} (expect true)`);
 console.log(`  → ${EN_SLUG_OVERRIDES_BY_WP_ID[238471]}`);
+const b3CanonicalExpect: Array<[number, string]> = [
+  [160477, '11-day-luxor-to-cairo-egypt-nile-cruise-vacation'],
+  [160139, '9-day-prestigious-egypt-vacation'],
+  [160129, 'bahariya-and-siwa-oasis-vacation'],
+  [160116, '10-day-romantic-egypt-travel-deals'],
+  [160107, '8-day-customized-aswan-travel-deal'],
+  [160096, '18-day-grand-egypt-holiday-package'],
+  [160072, '8-day-egypt-holiday-package'],
+  [160059, '4-day-cairo-travel-package'],
+  [160357, 'luxor-to-cairo-egypt-nile-cruise-vacation'],
+  [158052, 'egypt-tours'],
+];
+let b3OvPass = 0;
+for (const [id, slug] of b3CanonicalExpect) {
+  const got = EN_SLUG_OVERRIDES_BY_WP_ID[id];
+  const ok = got === slug;
+  console.log(`  ${ok ? '✓' : '✗'}  EN_SLUG_OVERRIDES[${id}] = ${got}${ok ? '' : `   EXPECTED ${slug}`}`);
+  if (ok) b3OvPass++;
+}
+console.log(`${b3OvPass}/${b3CanonicalExpect.length} B3 canonical overrides pass`);
 console.log(`EXCLUDED_TOUR_WP_IDS size: ${EXCLUDED_TOUR_WP_IDS.size} (expect 19 = 1 archive + 3 listing-style + 11 reclassified + 4 deleted)`);
 // Specific membership checks — pre/post 3.5 boundary
 console.log(`  EXCLUDED has 161314 (egypt-tours-from-germany): ${EXCLUDED_TOUR_WP_IDS.has(161314)} (expect false — moved to type override)`);
@@ -74,6 +95,64 @@ for (const [id, expect] of overrideExpect) {
   if (ok) typePass++;
 }
 console.log(`${typePass}/${overrideExpect.length} type override pass`);
+
+console.log('\n=== Integration: B3 canonical slug ↔ EN_SLUG_OVERRIDES coherence ===');
+// For every cluster canonical, EN_SLUG_OVERRIDES[canonical.wpId] MUST equal
+// the canonical's slug. If they diverge, the doc lands at one path while the
+// dropped-variant redirects (and the canonical's own redirect) point to a
+// different path — silent 404s. This is the integration test that would have
+// caught gap #1 originally.
+const allB3Inputs = [
+  // egypt-tours cluster (8)
+  { wpId: 161314, slug: 'egypt-tours-from-germany' },
+  { wpId: 160983, slug: 'egypt-tours-from-spain' },
+  { wpId: 160833, slug: 'egypt-tours-from-usa' },
+  { wpId: 160669, slug: 'egypt-tours-from-turkey' },
+  { wpId: 160423, slug: 'egypt-tours-from-canada' },
+  { wpId: 160172, slug: 'egypt-tours-from-australia' },
+  { wpId: 160026, slug: 'egypt-tours-from-india' },
+  { wpId: 158052, slug: 'egypt-tours-from-the-uk' },
+  // Sample from one larger cluster
+  { wpId: 161593, slug: 'bahariya-and-siwa-oasis-vacation-from-germany' },
+  { wpId: 161111, slug: 'bahariya-and-siwa-oasis-vacation-from-spain' },
+  { wpId: 160953, slug: 'bahariya-and-siwa-oasis-vacation-from-usa' },
+  { wpId: 160776, slug: 'bahariya-and-siwa-oasis-vacation-from-turkey' },
+  { wpId: 160503, slug: 'bahariya-and-siwa-oasis-vacation-from-canada' },
+  { wpId: 160312, slug: 'bahariya-and-siwa-oasis-vacation-from-australia' },
+  { wpId: 160129, slug: 'bahariya-and-siwa-oasis-vacation-from-india' },
+];
+const integ = consolidateCountryVariants(allB3Inputs);
+let cohPass = 0;
+for (const cl of integ.clusters.filter((c) => c.droppedVariants.length > 0)) {
+  const ovr = EN_SLUG_OVERRIDES_BY_WP_ID[cl.canonical.wpId];
+  const ok = ovr === cl.canonical.slug;
+  console.log(`  ${ok ? '✓' : '✗'}  cluster "${cl.baseSlug}": canonical wpId=${cl.canonical.wpId}, B3 slug=${cl.canonical.slug}, override=${ovr ?? '(missing)'}`);
+  if (ok) cohPass++;
+}
+console.log(`${cohPass}/${integ.clusters.filter((c) => c.droppedVariants.length > 0).length} cluster canonical/override coherence pass`);
+
+// Gap #2 — simulate the gap-#2-fixed redirect callback inline. For a doc that
+// has an EN_SLUG_OVERRIDES entry, the redirect to_path must reflect the
+// override slug, not the raw WP slug. Walk through the egypt-tours canonical
+// (wpId=158052, raw slug='egypt-tours-from-the-uk', override='egypt-tours').
+function simulateEnRedirectToPath(wpId: number, rawSlug: string, base: 'tours' | 'packages'): string {
+  const override = EN_SLUG_OVERRIDES_BY_WP_ID[wpId];
+  const finalSlug = override ?? decodeURIComponent(rawSlug);
+  return `/${base}/${finalSlug}`;
+}
+const gap2Cases = [
+  { wpId: 158052, rawSlug: 'egypt-tours-from-the-uk', base: 'packages' as const, expect: '/packages/egypt-tours' },
+  { wpId: 238471, rawSlug: '9-days-cairo-%c2%b7-st-catherine-%c2%b7-sharm-el-sheikh', base: 'packages' as const, expect: '/packages/9-days-cairo-st-catherine-sharm-el-sheikh' },
+  { wpId: 999999, rawSlug: 'unrelated-slug', base: 'packages' as const, expect: '/packages/unrelated-slug' }, // no override → raw slug
+];
+let gap2Pass = 0;
+for (const c of gap2Cases) {
+  const got = simulateEnRedirectToPath(c.wpId, c.rawSlug, c.base);
+  const ok = got === c.expect;
+  console.log(`  ${ok ? '✓' : '✗'}  gap-#2 wpId=${c.wpId} → ${got}${ok ? '' : `   EXPECTED ${c.expect}`}`);
+  if (ok) gap2Pass++;
+}
+console.log(`${gap2Pass}/${gap2Cases.length} gap-#2 redirect-uses-override pass`);
 
 console.log('\n=== egypt-tours B3 cluster ===');
 const eggCluster = consolidateCountryVariants([

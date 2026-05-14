@@ -185,9 +185,14 @@ export async function mapTour(
   const redirects = buildRedirects(
     group,
     (locale, slugIn) => {
-      const decoded = decodeURIComponent(slugIn);
+      // For EN: prefer the operator-curated override slug if present, so the
+      // redirect destination matches the doc's actual slug (gap #2 fix).
+      // For ES/JA: no override mechanism exists — decode the raw WP slug.
+      const finalSlug = locale === 'en' && enOverride
+        ? enOverride
+        : decodeURIComponent(slugIn);
       const base = tourType === 'package' ? 'packages' : 'tours';
-      return locale === 'en' ? `/${base}/${decoded}` : `/${locale}/${base}/${decoded}`;
+      return locale === 'en' ? `/${base}/${finalSlug}` : `/${locale}/${base}/${finalSlug}`;
     },
     opts.priorityScore ?? 0
   );
@@ -264,6 +269,21 @@ export const EN_SLUG_OVERRIDES_BY_WP_ID: Record<number, string> = {
   // (`9-days-cairo-%c2%b7-st-catherine-%c2%b7-sharm-el-sheikh`). Operator decision
   // at session 15 sub-step C: rename to a clean hyphenated form.
   238471: '9-days-cairo-st-catherine-sharm-el-sheikh',
+  // B3 country-variant cluster canonicals (10 entries). consolidateCountryVariants
+  // designates the suffix-stripped form as canonical; without these overrides the
+  // canonical doc would import with its WP source slug (e.g. `egypt-tours-from-the-uk`)
+  // instead of the consolidated form (e.g. `egypt-tours`), defeating B3.
+  // Source: scripts/session-15-prepare-batch-2.ts canonical output.
+  160477: '11-day-luxor-to-cairo-egypt-nile-cruise-vacation',
+  160139: '9-day-prestigious-egypt-vacation',
+  160129: 'bahariya-and-siwa-oasis-vacation',
+  160116: '10-day-romantic-egypt-travel-deals',
+  160107: '8-day-customized-aswan-travel-deal',
+  160096: '18-day-grand-egypt-holiday-package',
+  160072: '8-day-egypt-holiday-package',
+  160059: '4-day-cairo-travel-package',
+  160357: 'luxor-to-cairo-egypt-nile-cruise-vacation',
+  158052: 'egypt-tours',
 };
 
 /**
