@@ -45,7 +45,7 @@ loadEnv();
 
 // ─── Per-type configuration ───────────────────────────────────────────────
 
-type EntityType = 'article' | 'travelTip' | 'guideArticle' | 'city' | 'tour';
+type EntityType = 'article' | 'travelTip' | 'guideArticle' | 'city' | 'tour' | 'hotel' | 'nileCruise';
 
 interface EntityConfig {
   type: EntityType;
@@ -152,6 +152,42 @@ const CONFIGS: Record<EntityType, EntityConfig> = {
     } | order(_id asc)`,
     patchPath: 'slug[_key=="ja"].value.current',
   },
+  hotel: {
+    type: 'hotel',
+    label: 'hotel (field-level i18n) — JA title sourced from name[_key=="ja"][0].value',
+    expectedCount: 66,
+    coverageQuery: `*[_type == "hotel"]{
+      _id,
+      "hasJaTitle": defined(name[_key == "ja"][0].value),
+      "hasJaSlug": defined(slug[_key == "ja"][0].value.current),
+    }`,
+    scopeQuery: `*[_type == "hotel"
+      && defined(name[_key == "ja"][0].value)
+      && defined(slug[_key == "ja"][0].value.current)]{
+      _id,
+      "jaTitle": name[_key == "ja"][0].value,
+      "jaSlug": slug[_key == "ja"][0].value.current,
+    } | order(_id asc)`,
+    patchPath: 'slug[_key=="ja"].value.current',
+  },
+  nileCruise: {
+    type: 'nileCruise',
+    label: 'nileCruise (field-level i18n) — JA title sourced from name[_key=="ja"][0].value',
+    expectedCount: 40,
+    coverageQuery: `*[_type == "nileCruise"]{
+      _id,
+      "hasJaTitle": defined(name[_key == "ja"][0].value),
+      "hasJaSlug": defined(slug[_key == "ja"][0].value.current),
+    }`,
+    scopeQuery: `*[_type == "nileCruise"
+      && defined(name[_key == "ja"][0].value)
+      && defined(slug[_key == "ja"][0].value.current)]{
+      _id,
+      "jaTitle": name[_key == "ja"][0].value,
+      "jaSlug": slug[_key == "ja"][0].value.current,
+    } | order(_id asc)`,
+    patchPath: 'slug[_key=="ja"].value.current',
+  },
 };
 
 // ─── CLI argument parsing ─────────────────────────────────────────────────
@@ -173,8 +209,8 @@ function parseArgs(argv: string[]): Args {
     else if (arg === '--allow-mismatches') allowMismatches = true;
     else if (arg.startsWith('--type=')) {
       const v = arg.slice('--type='.length);
-      if (v !== 'article' && v !== 'travelTip' && v !== 'guideArticle' && v !== 'city' && v !== 'tour') {
-        die(`Unknown --type "${v}". Allowed: article, travelTip, guideArticle, city, tour.`);
+      if (v !== 'article' && v !== 'travelTip' && v !== 'guideArticle' && v !== 'city' && v !== 'tour' && v !== 'hotel' && v !== 'nileCruise') {
+        die(`Unknown --type "${v}". Allowed: article, travelTip, guideArticle, city, tour, hotel, nileCruise.`);
       }
       type = v;
     } else if (arg === '--type') {
@@ -186,7 +222,7 @@ function parseArgs(argv: string[]): Args {
     }
   }
   if (!type) {
-    die('--type is required. Allowed values: article, travelTip, guideArticle, city, tour.');
+    die('--type is required. Allowed values: article, travelTip, guideArticle, city, tour, hotel, nileCruise.');
   }
   return { type: type as EntityType, commit, only, allowMismatches };
 }
