@@ -126,6 +126,13 @@ export function migrationField() {
           defineField({ name: 'cities', type: 'array', of: [{ type: 'string' }] }),
         ],
       }),
+      defineField({
+        name: 'durationDaysSource',
+        title: 'Duration days source',
+        type: 'string',
+        readOnly: true,
+        description: 'Tour mapper only. How durationDays was resolved: slug-leading | slug-anywhere | title | daytour-default | package-placeholder. The package-placeholder value (default 7) flags this doc for Step 5 operator review.',
+      }),
     ],
   });
 }

@@ -133,14 +133,17 @@ export async function mapTour(
   // Hero image (preserved).
   const hero = await buildHeroImage(client, wp, group, opts);
 
-  const durationDays = daysFromSlug(slug);
-
   // Theme — required for packages. Day tours get the heuristic too so the audit
   // report has uniform coverage, but the schema only enforces required-ness on
   // packages (see src/sanity/schemas/tour.ts).
   const titleEn = decodeTitle(en.title?.rendered) ?? '';
   const themeMatch = inferTheme(slug, titleEn);
   const themeRef = { _type: 'reference' as const, _ref: themeMatch.themeId };
+
+  // durationDays — multi-source resolver (sub-step 3.5+ tweak).
+  // Required field on packages; mapTour now always emits a value with
+  // explicit source provenance so Step 5 audit can flag placeholders.
+  const duration = resolveDurationDays(slug, titleEn, tourType);
 
   // Matrix violation — flag group dayTours assigned to non-allowed cities.
   const matrixViolation = detectMatrixViolation(tourType, tourMode, cities, cityIdToSlug);
@@ -167,13 +170,14 @@ export async function mapTour(
     ...(extracted.priceIndication.length > 0 ? { priceIndication: extracted.priceIndication } : {}),
     // gallery emission disabled — Phase 2b.e or later will wire asset upload via ensureAssetUploaded
     cities,
-    ...(durationDays > 0 ? { durationDays } : {}),
+    durationDays: duration.value,
     // Always attach theme (required for packages, useful provenance for day tours).
     theme: themeRef,
     ...(hero ? { heroImage: hero } : {}),
     migration: buildMigrationMeta(group, undefined, {
       cityResolution,
       themeMatchedPattern: themeMatch.matchedPattern,
+      durationDaysSource: duration.source,
       ...(matrixViolation ? { matrixViolation } : {}),
     }),
   };
@@ -194,6 +198,49 @@ export async function mapTour(
 function daysFromSlug(slug: string): number {
   const m = /^(\d+)-?days?-/.exec(slug) ?? /(\d+)-day-/.exec(slug);
   return m ? Number(m[1]) : 0;
+}
+
+/**
+ * Multi-source resolver for `durationDays`. Required because some packages
+ * (notably the egypt-tours B3 canonical and other slug-keyword-classified
+ * packages) have no N-days prefix in the slug, leaving the field unset and
+ * tripping schema-required validation.
+ *
+ * Resolution priority:
+ *   1. slug-leading pattern (^N-days?-)
+ *   2. slug-anywhere pattern (-N-days?-)
+ *   3. title pattern (N-Day / N Day / N-Night / N Night)
+ *   4. type=dayTour default → 1
+ *   5. type=package fallback → 7 (placeholder, recorded as
+ *      `durationDaysSource: 'package-placeholder'` in migration meta;
+ *      Step 5 audit surfaces these for operator Studio review)
+ *
+ * The source string is recorded in `migration.durationDaysSource` so the
+ * audit pipeline can distinguish parsed-from-source values from heuristic
+ * fallbacks. Always returns a value > 0.
+ */
+export type DurationSource =
+  | 'slug-leading'
+  | 'slug-anywhere'
+  | 'title'
+  | 'daytour-default'
+  | 'package-placeholder';
+
+export interface DurationResolution { value: number; source: DurationSource }
+
+export function resolveDurationDays(
+  slug: string,
+  title: string,
+  type: 'dayTour' | 'package'
+): DurationResolution {
+  const slugLeading = /^(\d+)-?days?-/.exec(slug);
+  if (slugLeading) return { value: Number(slugLeading[1]), source: 'slug-leading' };
+  const slugAny = /-(\d+)-?days?-/.exec(slug);
+  if (slugAny) return { value: Number(slugAny[1]), source: 'slug-anywhere' };
+  const titleMatch = /(\d+)[\s-](?:day|night)s?\b/i.exec(title);
+  if (titleMatch) return { value: Number(titleMatch[1]), source: 'title' };
+  if (type === 'dayTour') return { value: 1, source: 'daytour-default' };
+  return { value: 7, source: 'package-placeholder' };
 }
 
 /**

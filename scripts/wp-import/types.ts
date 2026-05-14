@@ -108,6 +108,8 @@ export interface MigrationMetadata {
   themeMatchedPattern?: string;
   /** Tour mapper: matrix violation (group day tour outside allowed cities). */
   matrixViolation?: { reason: string; cities: string[] };
+  /** Tour mapper: how durationDays was resolved. `package-placeholder` flags Step 5 review candidates. */
+  durationDaysSource?: 'slug-leading' | 'slug-anywhere' | 'title' | 'daytour-default' | 'package-placeholder';
 }
 
 export type ReviewFlag =

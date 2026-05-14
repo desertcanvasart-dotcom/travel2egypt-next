@@ -3,6 +3,7 @@ import {
   inferTheme,
   consolidateCountryVariants,
   detectMatrixViolation,
+  resolveDurationDays,
   EN_SLUG_OVERRIDES_BY_WP_ID,
   EXCLUDED_TOUR_WP_IDS,
   SLUG_TYPE_OVERRIDES_BY_WP_ID,
@@ -88,6 +89,23 @@ const eggCluster = consolidateCountryVariants([
 console.log(`canonical count: ${eggCluster.canonical.length} (expect 1)`);
 console.log(`redirects: ${eggCluster.redirects.length} (expect 7)`);
 console.log(`canonical: wpId=${eggCluster.canonical[0]?.wpId} slug=${eggCluster.canonical[0]?.slug} (expect lowest WP ID 158052, slug=egypt-tours)`);
+
+console.log('\n=== resolveDurationDays ===');
+const durationCases: Array<{ slug: string; title: string; type: 'dayTour' | 'package'; expectValue: number; expectSource: string }> = [
+  { slug: 'egypt-tours',                            title: 'Egypt Tours from the UK',                       type: 'package', expectValue: 7, expectSource: 'package-placeholder' },
+  { slug: '9-day-prestigious-egypt-vacation',       title: '9-Day Prestigious Egypt Vacation',              type: 'package', expectValue: 9, expectSource: 'slug-leading' },
+  { slug: 'the-elegant-cairo-4-days-tour',          title: 'The Elegant Cairo 4-Days Tour',                 type: 'package', expectValue: 4, expectSource: 'slug-anywhere' },
+  { slug: 'cairo-and-nile-cruise-tour',             title: 'Nile Tapestry: 8-Day Cairo and Nile Cruise Tour', type: 'package', expectValue: 8, expectSource: 'title' },
+  { slug: 'some-day-tour',                          title: 'Some Day Tour',                                  type: 'dayTour', expectValue: 1, expectSource: 'daytour-default' },
+];
+let durationPass = 0;
+for (const c of durationCases) {
+  const r = resolveDurationDays(c.slug, c.title, c.type);
+  const ok = r.value === c.expectValue && r.source === c.expectSource;
+  console.log(`${ok ? '✓' : '✗'}  [${c.type}] ${c.slug} → ${r.value} (${r.source})${ok ? '' : `   EXPECTED ${c.expectValue} (${c.expectSource})`}`);
+  if (ok) durationPass++;
+}
+console.log(`${durationPass}/${durationCases.length} resolveDurationDays pass`);
 
 console.log('\n=== Matrix violation ===');
 const cityIdToSlug = new Map([
