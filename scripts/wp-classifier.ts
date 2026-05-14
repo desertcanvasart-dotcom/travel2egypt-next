@@ -818,11 +818,40 @@ export function classifyPageBySlug(rawSlug: string): Classification {
     return { type: 'tour-or-package', reason: 'egypt-tours-from-{country} pattern', confidence: 'high' };
   }
 
-  // 1c-bis. ^\d+-days?-egypt-tours$  ("5-days-egypt-tours" / "2-day-egypt-tours") → tour-or-package
-  // Catches the generic N-day Egypt package listing pages BEFORE the -tours topic-suffix rule
-  // would mis-bucket them as "destination-subpage / others".
-  if (/^\d+-days?-egypt-tours?$/.test(s)) {
-    return { type: 'tour-or-package', reason: 'N-day Egypt tours listing page', confidence: 'high' };
+  // 1c-bis. Aggregator / listicle disqualifiers (session 18 cleanup).
+  //
+  // These slug shapes were imported as `tour-or-package` from WordPress
+  // but the docs had empty bodies — they're not bookable tour products,
+  // they're WP aggregator/landing pages that hacked around a missing
+  // /guides/{city}/tours architectural surface. 26 such shells were
+  // deleted in commit e832cbf; these rules prevent reintroduction on
+  // future WP syncs.
+  //
+  // Same architectural pattern as the session-17 -dahabiya rule above
+  // (commit a4419aa): keyword match needs shape-based disambiguation.
+  //
+  // Route to `service-or-utility` so the importer's service-stub mapper
+  // handles them (operator decides per-doc redirects at cutover).
+  // Whitelisted concierge products (e.g. `cairo-private-car-and-guide`)
+  // are EXPLICIT_PAGE_ROUTING'd to `tour-or-package` above and never
+  // reach this rule.
+  const AGGREGATOR_SHELL_PATTERNS: Array<{ re: RegExp; label: string }> = [
+    { re: /^(?:cultural|private|top|best|day)-tours?-in-/, label: 'city-shape tour aggregator (cultural/private/top/best/day-tours-in-X)' },
+    { re: /^things-to-do-in-/, label: 'things-to-do-in-X listicle (already routed elsewhere; listed for defence)' },
+    { re: /^[a-z0-9-]+-tour-packages?$/, label: 'X-tour-packages city aggregator' },
+    { re: /^\d+-days?-egypt-tours?$/, label: 'N-day Egypt listicle aggregator' },
+    { re: /^\d+-days?-best-of-egypt-tour-package$/, label: 'N-day best-of-Egypt singleton' },
+  ];
+  for (const { re, label } of AGGREGATOR_SHELL_PATTERNS) {
+    if (re.test(s)) {
+      const dest = findDestinationToken(s);
+      return {
+        type: 'service-or-utility',
+        reason: `Aggregator-shell disqualifier: ${label}`,
+        confidence: 'high',
+        ...(dest ? { inferredParentCity: resolveCityAlias(dest) } : {}),
+      };
+    }
   }
 
   // 1d. pharaohs-of-{period}, ancient-{...}, egyptian-{...} → article
