@@ -65,6 +65,8 @@ export function Footer({ locale }: FooterProps) {
             <ul className="space-y-2.5 text-[0.9375rem] text-night">
               <li><Link href="/tours" className="transition-colors hover:text-faience">{tNav('tours')}</Link></li>
               <li><Link href="/packages" className="transition-colors hover:text-faience">{tNav('packages')}</Link></li>
+              <li><Link href="/hotels" className="transition-colors hover:text-faience">{tNav('hotels')}</Link></li>
+              <li><Link href="/nile-cruises" className="transition-colors hover:text-faience">{tNav('nileCruises')}</Link></li>
               <li><Link href="/guide" className="transition-colors hover:text-faience">{tNav('guide')}</Link></li>
               <li><Link href="/travel-tips" className="transition-colors hover:text-faience">{tNav('travelTips')}</Link></li>
             </ul>
