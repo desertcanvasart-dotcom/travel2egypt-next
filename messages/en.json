@@ -249,5 +249,53 @@
     "guide": "Travel Guide",
     "tours": "Day Tours",
     "concierge": "Talk to our concierge"
+  },
+  "hotels": {
+    "landingTitle": "Hotels we recommend in Egypt",
+    "landingDeck": "Specific properties we work with — chosen because they suit a kind of traveler and a kind of trip, not because anyone paid for placement.",
+    "filterCity": "City",
+    "filterCategory": "Category",
+    "filterAll": "All",
+    "noResults": "No hotels match these filters yet.",
+    "categoryStandard": "Standard",
+    "categoryDeluxe": "Deluxe",
+    "categoryLuxury": "Luxury",
+    "categoryBoutique": "Boutique"
+  },
+  "hotel": {
+    "breadcrumbLabel": "Hotels",
+    "cityLabel": "City",
+    "categoryLabel": "Category",
+    "starRatingLabel": "Star rating",
+    "operatorNotesLabel": "Our honest take",
+    "relatedToursLabel": "Tours where we stay here",
+    "talkToConcierge": "Talk to our concierge about this hotel",
+    "whatsappInquiry": "Quick WhatsApp inquiry"
+  },
+  "cruises": {
+    "landingTitle": "Nile cruises & dahabiyas",
+    "landingDeck": "From classic cruise ships to slow-sailing dahabiyas and small feluccas — the river is the journey, and the vessel sets the pace.",
+    "filterType": "Vessel",
+    "filterTier": "Tier",
+    "filterAll": "All",
+    "typeCruiseShip": "Cruise ships",
+    "typeDahabiya": "Dahabiyas",
+    "typeFelucca": "Feluccas",
+    "tierStandard": "Standard",
+    "tierDeluxe": "Deluxe",
+    "tierLuxury": "Luxury",
+    "tierBoutique": "Boutique",
+    "noResults": "No vessels match these filters yet."
+  },
+  "cruise": {
+    "breadcrumbLabel": "Nile cruises",
+    "typeLabel": "Vessel",
+    "tierLabel": "Tier",
+    "capacityLabel": "Capacity",
+    "cabinsUnit": "cabins",
+    "operatorNotesLabel": "Our honest take",
+    "relatedToursLabel": "Packages featuring this vessel",
+    "talkToConcierge": "Talk to our concierge about this cruise",
+    "whatsappInquiry": "Quick WhatsApp inquiry"
   }
 }
