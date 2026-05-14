@@ -17,7 +17,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: 'cruises' });
   return buildStaticMetadata({
     locale: locale as Locale,
-    path: '/cruises',
+    path: '/nile-cruises',
     title: t('landingTitle'),
     description: t('landingDeck'),
   });

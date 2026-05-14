@@ -162,7 +162,7 @@ export function resolveInternalLinkHref(ref: ResolvableRef | null | undefined): 
     case 'hotel':
       return `/hotels/${ref.slug}`;
     case 'nileCruise':
-      return `/cruises/${ref.slug}`;
+      return `/nile-cruises/${ref.slug}`;
     default:
       return null;
   }

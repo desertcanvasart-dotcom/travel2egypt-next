@@ -67,10 +67,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     {
       locale: locale as Locale,
-      path: `/cruises/${slug}`,
+      path: `/nile-cruises/${slug}`,
       pathByLocale: pathByLocaleFromSlugs(
         cruise.allSlugs ?? [],
-        (s: string) => `/cruises/${s}`
+        (s: string) => `/nile-cruises/${s}`
       ),
     }
   );
@@ -124,8 +124,8 @@ export default async function CruisePage({ params }: Props) {
   const breadcrumbSchema = buildBreadcrumbList(
     [
       { name: 'Home', path: '/' },
-      { name: t('breadcrumbLabel'), path: '/cruises' },
-      { name: cruise.name, path: `/cruises/${slug}` },
+      { name: t('breadcrumbLabel'), path: '/nile-cruises' },
+      { name: cruise.name, path: `/nile-cruises/${slug}` },
     ],
     locale as Locale
   );

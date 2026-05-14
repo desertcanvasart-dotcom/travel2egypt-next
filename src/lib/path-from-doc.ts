@@ -70,7 +70,7 @@ export function pathFromDoc({
     case 'hotel':
       return `/hotels/${slug}`;
     case 'nileCruise':
-      return `/cruises/${slug}`;
+      return `/nile-cruises/${slug}`;
     case 'page':
       return `/${slug}`;
     case 'legalPage':
