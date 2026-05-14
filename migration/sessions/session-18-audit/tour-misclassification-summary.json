@@ -1,0 +1,19 @@
+{
+  "totalTours": 222,
+  "totalCandidates": 29,
+  "byGroup": {
+    "Group B": 17,
+    "Group A": 9,
+    "Group D": 3
+  },
+  "bySignal": {
+    "tour-shape": 0,
+    "guide-shape": 0,
+    "ambiguous": 29
+  },
+  "byRecommendation": {
+    "shell-empty→guideArticle-or-delete": 26,
+    "guideArticle": 3
+  },
+  "conflictsWithExistingGuide": 14
+}
