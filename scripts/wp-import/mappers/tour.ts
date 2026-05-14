@@ -104,10 +104,15 @@ export async function mapTour(
   const en = group.en;
   const slug = en.slug.toLowerCase();
 
-  // Type discriminator (preserved from prior mapper).
-  const isPackage =
-    /-package(-|$)|-vacation(-|$)|-itinerary(-|$)|cruise-vacation/.test(slug) ||
-    daysFromSlug(slug) > 7;
+  // Type discriminator. Operator-curated WP-ID override consulted first
+  // (operator clarification: type = duration. The slug-pattern heuristic
+  // below has a known ~22% miss rate on multi-day docs without explicit
+  // package keywords or N-days prefix > 7 — see SLUG_TYPE_OVERRIDES_BY_WP_ID).
+  const overriddenType = SLUG_TYPE_OVERRIDES_BY_WP_ID[en.id];
+  const isPackage = overriddenType
+    ? overriddenType === 'package'
+    : /-package(-|$)|-vacation(-|$)|-itinerary(-|$)|cruise-vacation/.test(slug) ||
+      daysFromSlug(slug) > 7;
   const tourType: 'dayTour' | 'package' = isPackage ? 'package' : 'dayTour';
 
   const isPrivateCarAndGuide = /-private-car-and-guide$/.test(slug);
@@ -215,26 +220,67 @@ export const EN_SLUG_OVERRIDES_BY_WP_ID: Record<number, string> = {
 };
 
 /**
+ * WP ID → operator-curated type discriminator. Consulted in mapTour BEFORE the
+ * slug-pattern heuristic. Use when the slug-pattern would misclassify a doc
+ * whose actual product is multi-day (or vice versa) — operator's authoritative
+ * rule: package = multi-day, dayTour = 1-day.
+ *
+ * Session 15 entries (11) — all multi-day egypt-tours archive variants that the
+ * slug pattern misses. They were previously held in EXCLUDED_TOUR_WP_IDS as
+ * "listing pages" but operator review reclassified them as legitimate
+ * SEO-targeted package pages (8 country variants of egypt-tours, 3 N-day
+ * variants). They consolidate via consolidateCountryVariants (B3) where
+ * applicable.
+ */
+export const SLUG_TYPE_OVERRIDES_BY_WP_ID: Record<number, 'dayTour' | 'package'> = {
+  // 8 country-targeted variants of egypt-tours
+  161314: 'package', // egypt-tours-from-germany
+  160983: 'package', // egypt-tours-from-spain
+  160833: 'package', // egypt-tours-from-usa
+  160669: 'package', // egypt-tours-from-turkey
+  160423: 'package', // egypt-tours-from-canada
+  160172: 'package', // egypt-tours-from-australia
+  160026: 'package', // egypt-tours-from-india
+  158052: 'package', // egypt-tours-from-the-uk
+  // 3 N-days variants of egypt-tours
+  159772: 'package', // 5-days-egypt-tours
+  159756: 'package', // 2-days-egypt-tours
+  159124: 'package', // 7-days-egypt-tours
+};
+
+/**
  * Orchestrator-level exclusion set. WP IDs in this set never reach mapTour.
  * Plumbed via the importer's shouldSkip() — see scripts/wp-import.ts.
  *
- * Composition (session 15):
- *   - 12 listing/archive pages (concern A): egypt-tours-from-*, N-days-egypt-tours,
- *     small-group-travel-packages
+ * Composition (session 15, post sub-step 3.5):
+ *   - 1 archive page (small-group-travel-packages — true listicle, not a product)
  *   - 3 listing-style placeholders surfaced at sub-step 2.5d: enchanting-expeditions,
  *     cultural-immersions, exclusive-deals
  *   - 11 docs reclassified to package at sub-step 2g.1 (already imported as packages,
  *     must not be re-imported by Batch 2)
+ *   - 4 docs deleted at sub-step 3.5a (don't belong under `tour` entity at all):
+ *     2 cruise-vessel pages → hotelAndCruise; 2 'Planning Your Trip' info pages
+ *     → article/guide. Defense-in-depth against accidental re-import.
+ *
+ * The 11 egypt-tours archive variants formerly in this set moved to
+ * SLUG_TYPE_OVERRIDES_BY_WP_ID after operator clarified they are legitimate
+ * SEO-targeted packages, not listicles.
+ *
+ * Total: 19 entries.
  */
 export const EXCLUDED_TOUR_WP_IDS: ReadonlySet<number> = new Set<number>([
-  // Concern A (listing pages, 12)
-  161314, 160983, 160833, 160669, 160423, 160172, 160026, 158052,
-  159772, 159756, 159124, 149374,
-  // 2.5d additions (3)
+  // True archive page (1)
+  149374, // small-group-travel-packages
+  // 2.5d listing-style placeholders (3)
   103567, 99402, 94331,
   // 2g.1 reclassified — already in Sanity as packages (11)
   102370, 87832, 113061, 238546, 86851, 238562,
   89510, 89895, 89015, 89619, 86875,
+  // 3.5a deleted — don't belong under `tour` (4)
+  64129, // the-nile-goddess-cruise → hotelAndCruise
+  64216, // kasr-ibrim-cruise-ship → hotelAndCruise
+  59425, // planning-your-trip-to-dahab → article/guide
+  60348, // planning-your-trip-to-port-said → article/guide
 ]);
 
 // -- Theme heuristic ------------------------------------------------------------

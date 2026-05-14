@@ -5,6 +5,7 @@ import {
   detectMatrixViolation,
   EN_SLUG_OVERRIDES_BY_WP_ID,
   EXCLUDED_TOUR_WP_IDS,
+  SLUG_TYPE_OVERRIDES_BY_WP_ID,
 } from './wp-import/mappers/tour.js';
 
 console.log('=== Theme heuristic ===');
@@ -51,7 +52,42 @@ console.log('redirect samples:', consol.redirects.slice(0, 2).map((r) => `${r.fr
 console.log('\n=== Slug override + exclusions ===');
 console.log(`EN_SLUG_OVERRIDES has wp-page-238471: ${238471 in EN_SLUG_OVERRIDES_BY_WP_ID} (expect true)`);
 console.log(`  → ${EN_SLUG_OVERRIDES_BY_WP_ID[238471]}`);
-console.log(`EXCLUDED_TOUR_WP_IDS size: ${EXCLUDED_TOUR_WP_IDS.size} (expect 26 = 12 listings + 3 listing-style + 11 reclassified)`);
+console.log(`EXCLUDED_TOUR_WP_IDS size: ${EXCLUDED_TOUR_WP_IDS.size} (expect 19 = 1 archive + 3 listing-style + 11 reclassified + 4 deleted)`);
+// Specific membership checks — pre/post 3.5 boundary
+console.log(`  EXCLUDED has 161314 (egypt-tours-from-germany): ${EXCLUDED_TOUR_WP_IDS.has(161314)} (expect false — moved to type override)`);
+console.log(`  EXCLUDED has 149374 (small-group-travel-packages): ${EXCLUDED_TOUR_WP_IDS.has(149374)} (expect true — true archive)`);
+console.log(`  EXCLUDED has 64129 (the-nile-goddess-cruise): ${EXCLUDED_TOUR_WP_IDS.has(64129)} (expect true — deleted, defense-in-depth)`);
+
+console.log('\n=== SLUG_TYPE_OVERRIDES_BY_WP_ID ===');
+const overrideExpect = [
+  [161314, 'package'], [160983, 'package'], [160833, 'package'], [160669, 'package'],
+  [160423, 'package'], [160172, 'package'], [160026, 'package'], [158052, 'package'],
+  [159772, 'package'], [159756, 'package'], [159124, 'package'],
+] as const;
+console.log(`SLUG_TYPE_OVERRIDES size: ${Object.keys(SLUG_TYPE_OVERRIDES_BY_WP_ID).length} (expect 11)`);
+let typePass = 0;
+for (const [id, expect] of overrideExpect) {
+  const got = SLUG_TYPE_OVERRIDES_BY_WP_ID[id];
+  const ok = got === expect;
+  console.log(`  ${ok ? '✓' : '✗'}  wp-page-${id} → ${got}${ok ? '' : `   EXPECTED ${expect}`}`);
+  if (ok) typePass++;
+}
+console.log(`${typePass}/${overrideExpect.length} type override pass`);
+
+console.log('\n=== egypt-tours B3 cluster ===');
+const eggCluster = consolidateCountryVariants([
+  { wpId: 161314, slug: 'egypt-tours-from-germany' },
+  { wpId: 160983, slug: 'egypt-tours-from-spain' },
+  { wpId: 160833, slug: 'egypt-tours-from-usa' },
+  { wpId: 160669, slug: 'egypt-tours-from-turkey' },
+  { wpId: 160423, slug: 'egypt-tours-from-canada' },
+  { wpId: 160172, slug: 'egypt-tours-from-australia' },
+  { wpId: 160026, slug: 'egypt-tours-from-india' },
+  { wpId: 158052, slug: 'egypt-tours-from-the-uk' },
+]);
+console.log(`canonical count: ${eggCluster.canonical.length} (expect 1)`);
+console.log(`redirects: ${eggCluster.redirects.length} (expect 7)`);
+console.log(`canonical: wpId=${eggCluster.canonical[0]?.wpId} slug=${eggCluster.canonical[0]?.slug} (expect lowest WP ID 158052, slug=egypt-tours)`);
 
 console.log('\n=== Matrix violation ===');
 const cityIdToSlug = new Map([
