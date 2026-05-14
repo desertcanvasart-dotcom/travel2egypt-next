@@ -249,5 +249,53 @@
     "guide": "旅行ガイド",
     "tours": "日帰りツアー",
     "concierge": "コンシェルジュに相談する"
+  },
+  "hotels": {
+    "landingTitle": "私たちが薦めるエジプトのホテル",
+    "landingDeck": "提携先のホテルを厳選。広告料ではなく、旅人と旅のスタイルに合うかどうかで選んでいます。",
+    "filterCity": "都市",
+    "filterCategory": "カテゴリ",
+    "filterAll": "すべて",
+    "noResults": "このフィルターに一致するホテルはまだありません。",
+    "categoryStandard": "スタンダード",
+    "categoryDeluxe": "デラックス",
+    "categoryLuxury": "ラグジュアリー",
+    "categoryBoutique": "ブティック"
+  },
+  "hotel": {
+    "breadcrumbLabel": "ホテル",
+    "cityLabel": "都市",
+    "categoryLabel": "カテゴリ",
+    "starRatingLabel": "星評価",
+    "operatorNotesLabel": "私たちの率直な見解",
+    "relatedToursLabel": "このホテルに滞在するツアー",
+    "talkToConcierge": "このホテルについてコンシェルジュに相談する",
+    "whatsappInquiry": "WhatsAppで簡単に問い合わせ"
+  },
+  "cruises": {
+    "landingTitle": "ナイル川クルーズ & ダハビーヤ",
+    "landingDeck": "クラシックなクルーズ船から、ゆったり帆走するダハビーヤ、小さなフェルーカまで——川そのものが旅であり、船がそのリズムを決めます。",
+    "filterType": "船種",
+    "filterTier": "グレード",
+    "filterAll": "すべて",
+    "typeCruiseShip": "クルーズ船",
+    "typeDahabiya": "ダハビーヤ",
+    "typeFelucca": "フェルーカ",
+    "tierStandard": "スタンダード",
+    "tierDeluxe": "デラックス",
+    "tierLuxury": "ラグジュアリー",
+    "tierBoutique": "ブティック",
+    "noResults": "このフィルターに一致する船はまだありません。"
+  },
+  "cruise": {
+    "breadcrumbLabel": "ナイル川クルーズ",
+    "typeLabel": "船種",
+    "tierLabel": "グレード",
+    "capacityLabel": "定員",
+    "cabinsUnit": "キャビン",
+    "operatorNotesLabel": "私たちの率直な見解",
+    "relatedToursLabel": "この船を使うパッケージ",
+    "talkToConcierge": "このクルーズについてコンシェルジュに相談する",
+    "whatsappInquiry": "WhatsAppで簡単に問い合わせ"
   }
 }

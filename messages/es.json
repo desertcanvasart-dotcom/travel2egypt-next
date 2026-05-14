@@ -249,5 +249,53 @@
     "guide": "Guía de viaje",
     "tours": "Excursiones de un día",
     "concierge": "Habla con nuestro concierge"
+  },
+  "hotels": {
+    "landingTitle": "Hoteles que recomendamos en Egipto",
+    "landingDeck": "Establecimientos concretos con los que trabajamos — elegidos porque encajan con un tipo de viajero y un tipo de viaje, no por pago publicitario.",
+    "filterCity": "Ciudad",
+    "filterCategory": "Categoría",
+    "filterAll": "Todos",
+    "noResults": "Ningún hotel coincide con estos filtros aún.",
+    "categoryStandard": "Estándar",
+    "categoryDeluxe": "Deluxe",
+    "categoryLuxury": "Lujo",
+    "categoryBoutique": "Boutique"
+  },
+  "hotel": {
+    "breadcrumbLabel": "Hoteles",
+    "cityLabel": "Ciudad",
+    "categoryLabel": "Categoría",
+    "starRatingLabel": "Categoría por estrellas",
+    "operatorNotesLabel": "Nuestra opinión honesta",
+    "relatedToursLabel": "Tours en los que nos alojamos aquí",
+    "talkToConcierge": "Habla con nuestro concierge sobre este hotel",
+    "whatsappInquiry": "Consulta rápida por WhatsApp"
+  },
+  "cruises": {
+    "landingTitle": "Cruceros por el Nilo y dahabiyas",
+    "landingDeck": "Desde cruceros clásicos hasta dahabiyas de vela lenta y pequeñas faluas — el río es el viaje, y la embarcación marca el ritmo.",
+    "filterType": "Embarcación",
+    "filterTier": "Nivel",
+    "filterAll": "Todos",
+    "typeCruiseShip": "Cruceros",
+    "typeDahabiya": "Dahabiyas",
+    "typeFelucca": "Faluas",
+    "tierStandard": "Estándar",
+    "tierDeluxe": "Deluxe",
+    "tierLuxury": "Lujo",
+    "tierBoutique": "Boutique",
+    "noResults": "Ninguna embarcación coincide con estos filtros aún."
+  },
+  "cruise": {
+    "breadcrumbLabel": "Cruceros por el Nilo",
+    "typeLabel": "Embarcación",
+    "tierLabel": "Nivel",
+    "capacityLabel": "Capacidad",
+    "cabinsUnit": "camarotes",
+    "operatorNotesLabel": "Nuestra opinión honesta",
+    "relatedToursLabel": "Paquetes con esta embarcación",
+    "talkToConcierge": "Habla con nuestro concierge sobre este crucero",
+    "whatsappInquiry": "Consulta rápida por WhatsApp"
   }
 }

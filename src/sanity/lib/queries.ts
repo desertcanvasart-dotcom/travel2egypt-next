@@ -344,6 +344,122 @@ export const allTourSlugsQuery = groq`
 `;
 
 // ──────────────────────────────────────────────
+// Hotel — list + detail + slug discovery
+// ──────────────────────────────────────────────
+
+const hotelCardProjection = (locale: Locale) => `
+  _id,
+  category,
+  starRating,
+  "name": coalesce(${localizedField('name', locale)}, name),
+  "slug": ${localizedSlug('slug', locale)},
+  "allSlugs": slug[]{ _key, "current": value.current },
+  "summary": ${localizedField('summary', locale)},
+  heroImage{
+    ...,
+    "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+  },
+  "city": city->{
+    _id,
+    "name": ${localizedField('name', locale)},
+    "slug": ${localizedSlug('slug', locale)}
+  }
+`;
+
+export const allHotelsQuery = (locale: Locale) => groq`
+  *[_type == "hotel"] | order(coalesce(starRating, 0) desc, name asc){
+    ${hotelCardProjection(locale)}
+  }
+`;
+
+export const hotelBySlugQuery = (locale: Locale) => groq`
+  *[_type == "hotel" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    ${hotelCardProjection(locale)},
+    "body": ${portableTextBodyProjection('body', locale)},
+    "operatorNotes": ${portableTextBodyProjection('operatorNotes', locale)},
+    gallery[]{
+      ...,
+      "alt": ${localizedField('alt', locale)}
+    },
+    "relatedTours": relatedTours[]->{
+      ${tourCardProjection(locale)}
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+export const allHotelSlugsQuery = groq`
+  *[_type == "hotel"]{
+    _id,
+    "slugs": slug[]{ _key, "current": value.current }
+  }
+`;
+
+// ──────────────────────────────────────────────
+// Nile cruise — list + detail + slug discovery
+// ──────────────────────────────────────────────
+
+const cruiseCardProjection = (locale: Locale) => `
+  _id,
+  type,
+  tier,
+  capacity,
+  "name": coalesce(${localizedField('name', locale)}, name),
+  "slug": ${localizedSlug('slug', locale)},
+  "allSlugs": slug[]{ _key, "current": value.current },
+  "summary": ${localizedField('summary', locale)},
+  heroImage{
+    ...,
+    "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+  }
+`;
+
+export const allCruisesQuery = (locale: Locale) => groq`
+  *[_type == "nileCruise"] | order(name asc){
+    ${cruiseCardProjection(locale)}
+  }
+`;
+
+export const cruiseBySlugQuery = (locale: Locale) => groq`
+  *[_type == "nileCruise" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    ${cruiseCardProjection(locale)},
+    "body": ${portableTextBodyProjection('body', locale)},
+    "operatorNotes": ${portableTextBodyProjection('operatorNotes', locale)},
+    gallery[]{
+      ...,
+      "alt": ${localizedField('alt', locale)}
+    },
+    "relatedTours": relatedTours[]->{
+      ${tourCardProjection(locale)}
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+export const allCruiseSlugsQuery = groq`
+  *[_type == "nileCruise"]{
+    _id,
+    "slugs": slug[]{ _key, "current": value.current }
+  }
+`;
+
+// ──────────────────────────────────────────────
 // Wiki — shared projections
 // ──────────────────────────────────────────────
 
