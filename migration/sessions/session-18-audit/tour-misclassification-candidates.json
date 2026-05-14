@@ -1,0 +1,841 @@
+[
+  {
+    "wpId": "wp-page-158702",
+    "slug": "8-days-egypt-tours",
+    "title": "8 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159000",
+    "slug": "9-days-egypt-tours",
+    "title": "9 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159022",
+    "slug": "11-days-egypt-tours",
+    "title": "11 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159038",
+    "slug": "10-days-egypt-tours",
+    "title": "10 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159097",
+    "slug": "12-days-egypt-tours",
+    "title": "12 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159124",
+    "slug": "7-days-egypt-tours",
+    "title": "7 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159175",
+    "slug": "14-days-egypt-tours",
+    "title": "14 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159581",
+    "slug": "15-days-egypt-tours",
+    "title": "15 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159590",
+    "slug": "13-days-egypt-tours",
+    "title": "13 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159756",
+    "slug": "2-days-egypt-tours",
+    "title": "2 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-159772",
+    "slug": "5-days-egypt-tours",
+    "title": "5 Days Egypt Tours",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^\\d+-days?-egypt-tours?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": null,
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-57833",
+    "slug": "top-tours-in-abu-simbel",
+    "title": "Top Tours in Abu Simbel",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "abu-simbel",
+        "name": "Abu Simbel"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^top-(?:\\d+-)?(?:tours|things|activities)-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "abu-simbel",
+    "existing_guide_conflict": {
+      "_id": "wp-page-56930",
+      "slug": "abu-simbel-historical-overview",
+      "title": "Abu Simbel historical overview"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-58751",
+    "slug": "top-tours-in-al-wadi-al-gadid",
+    "title": "Top Tours in Al Wadi Al Gadid",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "al-wadi-al-gadid",
+        "name": "Al Wadi Al Gadid"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^top-(?:\\d+-)?(?:tours|things|activities)-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "al-wadi-al-gadid",
+    "existing_guide_conflict": {
+      "_id": "wp-page-58729",
+      "slug": "history-of-al-wadi-al-gadid",
+      "title": "History Of Al Wadi Al Gadid"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-59421",
+    "slug": "private-tours-in-dahab",
+    "title": "Private Tours In Dahab",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "dahab",
+        "name": "Dahab"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group A",
+    "matched_pattern": "^private-tours-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "dahab",
+    "existing_guide_conflict": {
+      "_id": "wp-page-59422",
+      "slug": "dahab-restaurants",
+      "title": "Culinary Journey"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-59589",
+    "slug": "private-tours-in-edfu",
+    "title": "Private Tours In Edfu",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "edfu",
+        "name": "Edfu"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group A",
+    "matched_pattern": "^private-tours-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "edfu",
+    "existing_guide_conflict": {
+      "_id": "wp-page-59571",
+      "slug": "edfu-historical-guide",
+      "title": "Edfu Historical Guide"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-59741",
+    "slug": "top-tours-in-kharga-oasis",
+    "title": "Top Tours In Kharga Oasis",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "kharga-oasis",
+        "name": "Kharga Oasis"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^top-(?:\\d+-)?(?:tours|things|activities)-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "kharga-oasis",
+    "existing_guide_conflict": {
+      "_id": "wp-page-253330",
+      "slug": "how-to-go-to-kharga-oasis",
+      "title": "How to Go to Kharga Oasis"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-60079",
+    "slug": "top-tours-in-giza",
+    "title": "Top Tours In Giza",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "giza",
+        "name": "Giza"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^top-(?:\\d+-)?(?:tours|things|activities)-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "giza",
+    "existing_guide_conflict": {
+      "_id": "wp-page-253700",
+      "slug": "how-to-get-to-giza",
+      "title": "How to Get to Giza"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-60302",
+    "slug": "nuweiba-tour-packages",
+    "title": "Nuweiba Tour Packages",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "nuweiba",
+        "name": "Nuweiba"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group A",
+    "matched_pattern": "^.+-tour-packages?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "nuweiba",
+    "existing_guide_conflict": {
+      "_id": "wp-page-225555",
+      "slug": "how-to-go-to-nuweiba",
+      "title": "How to go to Nuweiba"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-60334",
+    "slug": "top-tours-in-qena",
+    "title": "Top Tours In Qena",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "qena",
+        "name": "Qena"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^top-(?:\\d+-)?(?:tours|things|activities)-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "qena",
+    "existing_guide_conflict": {
+      "_id": "wp-page-60320",
+      "slug": "qena-historical-overview",
+      "title": "Qena Historical Overview"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-60352",
+    "slug": "private-tours-in-port-said",
+    "title": "Private Tours In Port Said",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "port-said",
+        "name": "Port Said"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group A",
+    "matched_pattern": "^private-tours-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "port-said",
+    "existing_guide_conflict": {
+      "_id": "wp-page-60345",
+      "slug": "port-said-historical-guide",
+      "title": "Port Said Historical Guide"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-60488",
+    "slug": "top-tours-in-sharm-el-sheikh",
+    "title": "Top Tours in Sharm El Sheikh: Explore with Local Experts",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "sharm-el-sheikh",
+        "name": "Sharm El Sheikh"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group B",
+    "matched_pattern": "^top-(?:\\d+-)?(?:tours|things|activities)-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "sharm-el-sheikh",
+    "existing_guide_conflict": {
+      "_id": "wp-page-114938",
+      "slug": "sharm-el-sheikh-small-group-day-tours",
+      "title": "Sharm El-Sheikh Small Group Day Tours"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-60538",
+    "slug": "sohag-tour-packages",
+    "title": "Sohag Tour Packages",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "sohag",
+        "name": "Sohag"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group A",
+    "matched_pattern": "^.+-tour-packages?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "sohag",
+    "existing_guide_conflict": {
+      "_id": "wp-page-60533",
+      "slug": "sohag-weather-guide",
+      "title": "Seasons Travel Guide"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-60562",
+    "slug": "cultural-tours-in-suez",
+    "title": "Cultural Tours In Suez",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "suez",
+        "name": "Suez"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group A",
+    "matched_pattern": "^cultural-tours-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "suez",
+    "existing_guide_conflict": {
+      "_id": "wp-page-254140",
+      "slug": "getting-around-suez",
+      "title": "Getting Around Suez"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-60584",
+    "slug": "cultural-tours-in-taba",
+    "title": "Cultural Tours In Taba",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "taba",
+        "name": "Taba"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group A",
+    "matched_pattern": "^cultural-tours-in-",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "taba",
+    "existing_guide_conflict": {
+      "_id": "wp-page-197000",
+      "slug": "getting-around-taba",
+      "title": "Getting Around Taba"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-75623",
+    "slug": "siwa-tour-packages",
+    "title": "Siwa Tour Packages",
+    "type": "dayTour",
+    "tourMode": "group",
+    "cityRefs": [
+      {
+        "slug": "siwa-oasis",
+        "name": "Siwa Oasis"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group A",
+    "matched_pattern": "^.+-tour-packages?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "siwa",
+    "existing_guide_conflict": {
+      "_id": "wp-page-112945",
+      "slug": "adventure-activities-in-siwa-oasis",
+      "title": "Unleashing the Thrill: Top Adventure Activities in Siwa Oasis"
+    },
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  },
+  {
+    "wpId": "wp-page-87438",
+    "slug": "aswan-private-car-and-guide",
+    "title": "Discover Aswan: Private Car and Personal Guide for a Day",
+    "type": "dayTour",
+    "tourMode": "private",
+    "cityRefs": [
+      {
+        "slug": "aswan",
+        "name": "Aswan"
+      }
+    ],
+    "body_sample": "Flexible Start:  Begin your day with convenience and comfort as we pick you up from your preferred location in Aswan. Whether it's your hotel, a local residence, or any other spot within Aswan (excluding transfers from/to Aswan International Airport), we've got you covered.\nExpert Insights:  With your Egyptology guide at your side, embark on a journey tailored entirely to your interests. Explore the wonders of Aswan at your own pace, choosing from captivating sites such as:\nPhilae Temple:  Dive ",
+    "body_length_chars": 1543,
+    "matched_pattern_group": "Group D",
+    "matched_pattern": "^.+-guide$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "aswan-private-car-and",
+    "existing_guide_conflict": null,
+    "empty_body": false,
+    "recommended_target": "tour-keep"
+  },
+  {
+    "wpId": "wp-page-87764",
+    "slug": "cairo-private-car-and-guide",
+    "title": "Private Car and Guide for a Day",
+    "type": "dayTour",
+    "tourMode": "private",
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "Suggested Itinerary Ideas\nHere are some ideas to inspire your day. Your final route will depend on your selections, interest, and timing:\nEgyptian Museum  – Home to thousands of artefacts, including the golden mask of Tutankhamun.\nGiza Pyramids & Sphinx  – Stand in awe before these legendary monuments of ancient engineering.\nKhan El Khalili Bazaar  – Dive into Cairo’s most colourful souq, rich in scents, crafts, and culture.\nSaladin Citadel & Muhammad Ali Mosque  – Discover  Islamic Cairo's  cro",
+    "body_length_chars": 1305,
+    "matched_pattern_group": "Group D",
+    "matched_pattern": "^.+-guide$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "cairo-private-car-and",
+    "existing_guide_conflict": null,
+    "empty_body": false,
+    "recommended_target": "tour-keep"
+  },
+  {
+    "wpId": "wp-page-88169",
+    "slug": "luxor-private-car-and-guide",
+    "title": "Explore Luxor: Private Car and Guide Service",
+    "type": "dayTour",
+    "tourMode": "private",
+    "cityRefs": [
+      {
+        "slug": "luxor",
+        "name": "Luxor"
+      }
+    ],
+    "body_sample": "Introduction to Luxor:  Luxor, a city echoing with the stories of ancient civilizations, offers a unique personalized journey through its historic landscapes. Enjoy an 8-hour tour tailored to your interests, accompanied by a skilled English-speaking Egyptology guide and transported in a modern, air-conditioned car.\nCustomized Exploration:  Design your day by choosing the sites that fascinate you the most, from majestic temples and ancient tombs to the vibrant local culture. Your guide will ensur",
+    "body_length_chars": 1039,
+    "matched_pattern_group": "Group D",
+    "matched_pattern": "^.+-guide$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "luxor-private-car-and",
+    "existing_guide_conflict": null,
+    "empty_body": false,
+    "recommended_target": "tour-keep"
+  },
+  {
+    "wpId": "wp-page-89175",
+    "slug": "8-days-best-of-egypt-tour-package",
+    "title": "Egypt Highlights: 8-Days Best of Egypt Tour Package",
+    "type": "package",
+    "tourMode": null,
+    "cityRefs": [
+      {
+        "slug": "cairo",
+        "name": "Cairo"
+      }
+    ],
+    "body_sample": "",
+    "body_length_chars": 0,
+    "matched_pattern_group": "Group A",
+    "matched_pattern": "^.+-tour-packages?$",
+    "content_signal": "ambiguous",
+    "content_signal_evidence": [],
+    "content_signal_scores": {
+      "tour": 0,
+      "guide": 0
+    },
+    "city_inference": "8-days-best-of",
+    "existing_guide_conflict": null,
+    "empty_body": true,
+    "recommended_target": "shell-empty→guideArticle-or-delete"
+  }
+]
