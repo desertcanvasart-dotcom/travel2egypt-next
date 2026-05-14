@@ -769,19 +769,41 @@ export function classifyPageBySlug(rawSlug: string): Classification {
   }
 
   // 1b-bis. Nile cruise vessels — must run BEFORE the hotel rule because hotel
-  // brand tokens (movenpick, oberoi, etc.) often own cruise vessels too.
-  // Vessel signals: m-s- prefix, -dahabiya suffix, -nile-cruise suffix, or
-  // explicit vessel-name tokens.
+  // brand tokens (movenpick, oberoi, etc.) often own cruise vessels too, AND
+  // before TOUR_PATTERNS (which catches `-cruise(?!s)` generically and would
+  // mis-bucket vessel slugs as tour packages).
+  //
+  // Vessel signals:
+  //   - m-s- prefix (M/S = motor ship)
+  //   - -dahabiya suffix
+  //   - -nile-cruise suffix or prefix
+  //   - -cruise-ship$ (explicit vessel suffix, e.g. kasr-ibrim-cruise-ship)
+  //   - -cruise$ as proper-name suffix (e.g. the-nile-goddess-cruise,
+  //     movenpick-prince-abbas-cruise) — guarded against tour-package shapes
+  //     that start with N-day or contain transport/itinerary tokens.
+  const isCruiseTourShape =
+    /^\d+-days?-/.test(s) ||
+    /-from-/.test(s) ||
+    /-to-[a-z]/.test(s) ||
+    /-tour(s)?(-|$)/.test(s) ||
+    /-vacation/.test(s) ||
+    /-package(-|$)/.test(s) ||
+    /-itinerary/.test(s) ||
+    /-journey(-|$)/.test(s) ||
+    /-holiday/.test(s) ||
+    /-adventure(-|$)/.test(s);
   if (
     /^m-s-/.test(s) ||
     /-dahabiya(-|$)/.test(s) ||
     /-nile-cruise$/.test(s) ||
     /^nile-cruise-/.test(s) ||
-    s === 'nile-cruise'
+    s === 'nile-cruise' ||
+    /-cruise-ship$/.test(s) ||
+    (/-cruise$/.test(s) && !isCruiseTourShape)
   ) {
     return {
       type: 'nile-cruise',
-      reason: 'Nile cruise vessel pattern (m-s-/dahabiya/nile-cruise)',
+      reason: 'Nile cruise vessel pattern (m-s-/dahabiya/nile-cruise/-cruise-ship/proper-name-cruise)',
       confidence: 'high',
     };
   }
