@@ -101,6 +101,38 @@ export function migrationField() {
         readOnly: true,
         description: 'Original WordPress category slugs. Used by the two-bucket heuristic that mapped this doc to a Sanity editorialCategory.',
       }),
+      defineField({
+        name: 'cityResolution',
+        title: 'City resolution source',
+        type: 'string',
+        readOnly: true,
+        description: 'Tour mapper only. How the cities[] array was derived. One of "override", "full-slug-scan", "default-cairo".',
+      }),
+      defineField({
+        name: 'themeMatchedPattern',
+        title: 'Theme heuristic pattern',
+        type: 'string',
+        readOnly: true,
+        description: 'Tour mapper only. Slug-keyword pattern that picked the theme ref, or "fallback" if no rule matched. Drives the Step 5 audit report.',
+      }),
+      defineField({
+        name: 'matrixViolation',
+        title: 'Matrix violation',
+        type: 'object',
+        readOnly: true,
+        description: 'Tour mapper only. Set on group day tours assigned to cities outside the allowed-cities set. Operator clears after editorial review.',
+        fields: [
+          defineField({ name: 'reason', type: 'string' }),
+          defineField({ name: 'cities', type: 'array', of: [{ type: 'string' }] }),
+        ],
+      }),
+      defineField({
+        name: 'durationDaysSource',
+        title: 'Duration days source',
+        type: 'string',
+        readOnly: true,
+        description: 'Tour mapper only. How durationDays was resolved: slug-leading | slug-anywhere | title | daytour-default | package-placeholder. The package-placeholder value (default 7) flags this doc for Step 5 operator review.',
+      }),
     ],
   });
 }

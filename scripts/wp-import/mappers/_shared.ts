@@ -168,7 +168,8 @@ export function summedHtmlStats(group: LocaleGroup) {
 
 export function buildMigrationMeta(
   group: LocaleGroup,
-  reviewFlag?: ReviewFlag
+  reviewFlag?: ReviewFlag,
+  extras?: Partial<Pick<MigrationMetadata, 'cityResolution' | 'themeMatchedPattern' | 'matrixViolation' | 'durationDaysSource'>>
 ): MigrationMetadata {
   const en = group.en;
   return {
@@ -179,6 +180,7 @@ export function buildMigrationMeta(
     migratedAt: NOW(),
     source: 'wp-import',
     ...(reviewFlag ? { reviewFlag } : {}),
+    ...(extras ?? {}),
   };
 }
 

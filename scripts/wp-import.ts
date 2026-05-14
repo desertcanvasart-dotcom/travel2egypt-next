@@ -40,7 +40,7 @@ import { initRomaji } from './wp-import/mappers/_romaji.js';
 import { mapCity } from './wp-import/mappers/city.js';
 import { mapGuideArticle } from './wp-import/mappers/guideArticle.js';
 import { mapWikiMonument } from './wp-import/mappers/wikiMonument.js';
-import { mapTour } from './wp-import/mappers/tour.js';
+import { mapTour, EXCLUDED_TOUR_WP_IDS, consolidateCountryVariants } from './wp-import/mappers/tour.js';
 import { mapTravelTip } from './wp-import/mappers/travelTip.js';
 import { mapHotel } from './wp-import/mappers/hotel.js';
 import { mapNileCruise } from './wp-import/mappers/nileCruise.js';
@@ -535,12 +535,62 @@ async function importPages(
   }
   if (cli.limit) filtered = filtered.slice(0, cli.limit);
 
+  // B3 country-variant consolidation pre-pass (session 15 sub-step 3.5+).
+  // Scans tour-or-package candidates for clusters with shared base slug +
+  // country suffix (-from-{country}), designates a single canonical per cluster,
+  // and emits cluster-level redirects from dropped variants to the canonical.
+  // Dropped variants are then skipped in the main loop. Without this wiring,
+  // dropped country-variant URLs would 404 after import (gap #3).
+  const tourPagesForB3 = filtered.filter((x) => x.c.type === 'tour-or-package');
+  const b3 = consolidateCountryVariants(
+    tourPagesForB3.map(({ p }) => ({ wpId: p.id, slug: p.slug })),
+  );
+  const b3DroppedVariantIds = new Set<number>();
+  for (const cl of b3.clusters) {
+    for (const v of cl.droppedVariants) b3DroppedVariantIds.add(v.wpId);
+  }
+  if (b3DroppedVariantIds.size > 0) {
+    process.stderr.write(
+      `[wp-import] B3 consolidation: ${b3.clusters.filter((c) => c.droppedVariants.length > 0).length} clusters, ${b3DroppedVariantIds.size} dropped variants → cluster-level redirects emitted\n`,
+    );
+    // Index pages by wpId for from_url lookup on dropped variants.
+    const pageByWpId = new Map(tourPagesForB3.map(({ p }) => [p.id, p]));
+    for (const r of b3.redirects) {
+      const fromPage = pageByWpId.get(r.fromWpId);
+      if (!fromPage) continue;
+      // canonical → /packages/{toSlug}; toSlug is the consolidated (suffix-stripped)
+      // form, matching the override that EN_SLUG_OVERRIDES_BY_WP_ID applies to the
+      // canonical doc at mapTour time.
+      allRedirects.push({
+        from_url: fromPage.link,
+        to_path: `/packages/${r.toSlug}`,
+        locale: 'en',
+        status_code: 301,
+        legacy_wp_id: r.fromWpId,
+        priority_score: 0,
+      });
+    }
+  }
+
   // Two-pass ordering: cities (hubs) BEFORE everything else, so subpages can resolve parentCity.
   const hubs = filtered.filter((x) => x.c.type === 'destination-hub');
   const rest = filtered.filter((x) => x.c.type !== 'destination-hub');
 
   for (const { p, c } of [...hubs, ...rest]) {
     try {
+      // Tour-specific exclusion list (session 15): listing pages, generic
+      // catalog names, and dayTours already reclassified to package. Plumbed
+      // through the orchestrator entry so excluded IDs are visible in the log.
+      if (c.type === 'tour-or-package' && EXCLUDED_TOUR_WP_IDS.has(p.id)) {
+        process.stderr.write(`[wp-import] excluded tour wpId=${p.id} slug=${p.slug} (session-15 EXCLUDED_TOUR_WP_IDS)\n`);
+        bump(stats, 'skipped', 'skipped');
+        continue;
+      }
+      if (c.type === 'tour-or-package' && b3DroppedVariantIds.has(p.id)) {
+        process.stderr.write(`[wp-import] B3 dropped-variant skip wpId=${p.id} slug=${p.slug} (cluster-level redirect already emitted)\n`);
+        bump(stats, 'skipped', 'skipped');
+        continue;
+      }
       const decision = shouldSkip(p.slug, c, cli);
       if (decision.skip) {
         bump(stats, 'skipped', 'skipped');

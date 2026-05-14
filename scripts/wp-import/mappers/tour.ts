@@ -29,6 +29,7 @@
 
 import type { SanityClient } from '@sanity/client';
 
+import { TOKEN_TO_CITY_SLUG } from '../../wp-classifier.js';
 import type { WpClient } from '../wp-client.js';
 import {
   buildHeroImage,
@@ -103,19 +104,28 @@ export async function mapTour(
   const en = group.en;
   const slug = en.slug.toLowerCase();
 
-  // Type discriminator (preserved from prior mapper).
-  const isPackage =
-    /-package(-|$)|-vacation(-|$)|-itinerary(-|$)|cruise-vacation/.test(slug) ||
-    daysFromSlug(slug) > 7;
+  // Type discriminator. Operator-curated WP-ID override consulted first
+  // (operator clarification: type = duration. The slug-pattern heuristic
+  // below has a known ~22% miss rate on multi-day docs without explicit
+  // package keywords or N-days prefix > 7 — see SLUG_TYPE_OVERRIDES_BY_WP_ID).
+  const overriddenType = SLUG_TYPE_OVERRIDES_BY_WP_ID[en.id];
+  const isPackage = overriddenType
+    ? overriddenType === 'package'
+    : /-package(-|$)|-vacation(-|$)|-itinerary(-|$)|cruise-vacation/.test(slug) ||
+      daysFromSlug(slug) > 7;
   const tourType: 'dayTour' | 'package' = isPackage ? 'package' : 'dayTour';
 
   const isPrivateCarAndGuide = /-private-car-and-guide$/.test(slug);
   const tourMode: 'private' | 'group' | undefined =
     tourType === 'package' ? undefined : isPrivateCarAndGuide ? 'private' : 'group';
 
-  // City refs (slug-prefix match against the 41-city list; Cairo last resort).
+  // City refs (full-slug token-boundary scan; Cairo last resort).
   const cityRefsBySlug = opts.cityRefsBySlug ?? (await fetchCityRefsBySlug(client));
-  const cities = resolveTopLevelCities(slug, cityRefsBySlug);
+  const { cities, resolution: cityResolution } = resolveTopLevelCities(slug, cityRefsBySlug);
+
+  // Reverse map id → slug for matrix-violation detection below.
+  const cityIdToSlug = new Map<string, string>();
+  for (const [s, id] of cityRefsBySlug.entries()) cityIdToSlug.set(id, s);
 
   // Per-locale Elementor extraction.
   const extracted = extractContent(group, isPrivateCarAndGuide);
@@ -123,7 +133,28 @@ export async function mapTour(
   // Hero image (preserved).
   const hero = await buildHeroImage(client, wp, group, opts);
 
-  const durationDays = daysFromSlug(slug);
+  // Theme — required for packages. Day tours get the heuristic too so the audit
+  // report has uniform coverage, but the schema only enforces required-ness on
+  // packages (see src/sanity/schemas/tour.ts).
+  const titleEn = decodeTitle(en.title?.rendered) ?? '';
+  const themeMatch = inferTheme(slug, titleEn);
+  const themeRef = { _type: 'reference' as const, _ref: themeMatch.themeId };
+
+  // durationDays — multi-source resolver (sub-step 3.5+ tweak).
+  // Required field on packages; mapTour now always emits a value with
+  // explicit source provenance so Step 5 audit can flag placeholders.
+  const duration = resolveDurationDays(slug, titleEn, tourType);
+
+  // Matrix violation — flag group dayTours assigned to non-allowed cities.
+  const matrixViolation = detectMatrixViolation(tourType, tourMode, cities, cityIdToSlug);
+
+  // EN slug override (operator-curated clean form, e.g. URL-encoded-char fixups).
+  const slugArray = i18nSlug(group);
+  const enOverride = EN_SLUG_OVERRIDES_BY_WP_ID[en.id];
+  if (enOverride) {
+    const enEntry = slugArray.find((s) => s._key === 'en');
+    if (enEntry) enEntry.value = { _type: 'slug', current: enOverride };
+  }
 
   const doc: SanityDoc = {
     _id: `wp-page-${en.id}`,
@@ -131,7 +162,7 @@ export async function mapTour(
     type: tourType,
     ...(tourMode ? { tourMode } : {}),
     title: i18nString(group, (e) => decodeTitle(e.title?.rendered)),
-    slug: i18nSlug(group),
+    slug: slugArray,
     summary: buildSummaryFromExtractedBody(extracted.body),
     // `body` is forward-looking — not currently declared on tour schema (see header note).
     ...(extracted.body.length > 0 ? { body: extracted.body } : {}),
@@ -139,17 +170,29 @@ export async function mapTour(
     ...(extracted.priceIndication.length > 0 ? { priceIndication: extracted.priceIndication } : {}),
     // gallery emission disabled — Phase 2b.e or later will wire asset upload via ensureAssetUploaded
     cities,
-    ...(durationDays > 0 ? { durationDays } : {}),
+    durationDays: duration.value,
+    // Always attach theme (required for packages, useful provenance for day tours).
+    theme: themeRef,
     ...(hero ? { heroImage: hero } : {}),
-    migration: buildMigrationMeta(group),
+    migration: buildMigrationMeta(group, undefined, {
+      cityResolution,
+      themeMatchedPattern: themeMatch.matchedPattern,
+      durationDaysSource: duration.source,
+      ...(matrixViolation ? { matrixViolation } : {}),
+    }),
   };
 
   const redirects = buildRedirects(
     group,
     (locale, slugIn) => {
-      const decoded = decodeURIComponent(slugIn);
+      // For EN: prefer the operator-curated override slug if present, so the
+      // redirect destination matches the doc's actual slug (gap #2 fix).
+      // For ES/JA: no override mechanism exists — decode the raw WP slug.
+      const finalSlug = locale === 'en' && enOverride
+        ? enOverride
+        : decodeURIComponent(slugIn);
       const base = tourType === 'package' ? 'packages' : 'tours';
-      return locale === 'en' ? `/${base}/${decoded}` : `/${locale}/${base}/${decoded}`;
+      return locale === 'en' ? `/${base}/${finalSlug}` : `/${locale}/${base}/${finalSlug}`;
     },
     opts.priorityScore ?? 0
   );
@@ -163,6 +206,49 @@ function daysFromSlug(slug: string): number {
 }
 
 /**
+ * Multi-source resolver for `durationDays`. Required because some packages
+ * (notably the egypt-tours B3 canonical and other slug-keyword-classified
+ * packages) have no N-days prefix in the slug, leaving the field unset and
+ * tripping schema-required validation.
+ *
+ * Resolution priority:
+ *   1. slug-leading pattern (^N-days?-)
+ *   2. slug-anywhere pattern (-N-days?-)
+ *   3. title pattern (N-Day / N Day / N-Night / N Night)
+ *   4. type=dayTour default → 1
+ *   5. type=package fallback → 7 (placeholder, recorded as
+ *      `durationDaysSource: 'package-placeholder'` in migration meta;
+ *      Step 5 audit surfaces these for operator Studio review)
+ *
+ * The source string is recorded in `migration.durationDaysSource` so the
+ * audit pipeline can distinguish parsed-from-source values from heuristic
+ * fallbacks. Always returns a value > 0.
+ */
+export type DurationSource =
+  | 'slug-leading'
+  | 'slug-anywhere'
+  | 'title'
+  | 'daytour-default'
+  | 'package-placeholder';
+
+export interface DurationResolution { value: number; source: DurationSource }
+
+export function resolveDurationDays(
+  slug: string,
+  title: string,
+  type: 'dayTour' | 'package'
+): DurationResolution {
+  const slugLeading = /^(\d+)-?days?-/.exec(slug);
+  if (slugLeading) return { value: Number(slugLeading[1]), source: 'slug-leading' };
+  const slugAny = /-(\d+)-?days?-/.exec(slug);
+  if (slugAny) return { value: Number(slugAny[1]), source: 'slug-anywhere' };
+  const titleMatch = /(\d+)[\s-](?:day|night)s?\b/i.exec(title);
+  if (titleMatch) return { value: Number(titleMatch[1]), source: 'title' };
+  if (type === 'dayTour') return { value: 1, source: 'daytour-default' };
+  return { value: 7, source: 'package-placeholder' };
+}
+
+/**
  * Tour-slug → city-slug overrides for cases where slug-prefix matching gives the
  * wrong city (typically water-based or named-attraction tours whose slug doesn't
  * mention the geographic city). Consulted before slug-prefix scan; Cairo
@@ -171,6 +257,271 @@ function daysFromSlug(slug: string): number {
 const SLUG_CITY_OVERRIDES: Record<string, string> = {
   'snorkeling-adventure-on-the-nefertari-submarine': 'marsa-alam',
 };
+
+/**
+ * WP ID → clean EN slug override. Applied after i18nSlug builds the localized
+ * slug array. The WP URL → Sanity path redirect still flows through buildRedirects
+ * using the original WP slug, so legacy URLs continue to redirect to the new
+ * clean Sanity path.
+ */
+export const EN_SLUG_OVERRIDES_BY_WP_ID: Record<number, string> = {
+  // wp-page-238471 — original WP slug contains URL-encoded middle-dot interpuncts
+  // (`9-days-cairo-%c2%b7-st-catherine-%c2%b7-sharm-el-sheikh`). Operator decision
+  // at session 15 sub-step C: rename to a clean hyphenated form.
+  238471: '9-days-cairo-st-catherine-sharm-el-sheikh',
+  // B3 country-variant cluster canonicals (10 entries). consolidateCountryVariants
+  // designates the suffix-stripped form as canonical; without these overrides the
+  // canonical doc would import with its WP source slug (e.g. `egypt-tours-from-the-uk`)
+  // instead of the consolidated form (e.g. `egypt-tours`), defeating B3.
+  // Source: scripts/session-15-prepare-batch-2.ts canonical output.
+  160477: '11-day-luxor-to-cairo-egypt-nile-cruise-vacation',
+  160139: '9-day-prestigious-egypt-vacation',
+  160129: 'bahariya-and-siwa-oasis-vacation',
+  160116: '10-day-romantic-egypt-travel-deals',
+  160107: '8-day-customized-aswan-travel-deal',
+  160096: '18-day-grand-egypt-holiday-package',
+  160072: '8-day-egypt-holiday-package',
+  160059: '4-day-cairo-travel-package',
+  160357: 'luxor-to-cairo-egypt-nile-cruise-vacation',
+  158052: 'egypt-tours',
+  // Sub-step 4c.1 — added when B3 regex extended for `-for-families` qualifier.
+  // Cluster of 6 country-targeted family packages collapses to this canonical.
+  160044: '14-day-egypt-tour-package-for-families',
+};
+
+/**
+ * WP ID → operator-curated type discriminator. Consulted in mapTour BEFORE the
+ * slug-pattern heuristic. Use when the slug-pattern would misclassify a doc
+ * whose actual product is multi-day (or vice versa) — operator's authoritative
+ * rule: package = multi-day, dayTour = 1-day.
+ *
+ * Session 15 entries (11) — all multi-day egypt-tours archive variants that the
+ * slug pattern misses. They were previously held in EXCLUDED_TOUR_WP_IDS as
+ * "listing pages" but operator review reclassified them as legitimate
+ * SEO-targeted package pages (8 country variants of egypt-tours, 3 N-day
+ * variants). They consolidate via consolidateCountryVariants (B3) where
+ * applicable.
+ */
+export const SLUG_TYPE_OVERRIDES_BY_WP_ID: Record<number, 'dayTour' | 'package'> = {
+  // 8 country-targeted variants of egypt-tours
+  161314: 'package', // egypt-tours-from-germany
+  160983: 'package', // egypt-tours-from-spain
+  160833: 'package', // egypt-tours-from-usa
+  160669: 'package', // egypt-tours-from-turkey
+  160423: 'package', // egypt-tours-from-canada
+  160172: 'package', // egypt-tours-from-australia
+  160026: 'package', // egypt-tours-from-india
+  158052: 'package', // egypt-tours-from-the-uk
+  // 3 N-days variants of egypt-tours
+  159772: 'package', // 5-days-egypt-tours
+  159756: 'package', // 2-days-egypt-tours
+  159124: 'package', // 7-days-egypt-tours
+};
+
+/**
+ * Orchestrator-level exclusion set. WP IDs in this set never reach mapTour.
+ * Plumbed via the importer's shouldSkip() — see scripts/wp-import.ts.
+ *
+ * Composition (session 15, post sub-step 3.5):
+ *   - 1 archive page (small-group-travel-packages — true listicle, not a product)
+ *   - 3 listing-style placeholders surfaced at sub-step 2.5d: enchanting-expeditions,
+ *     cultural-immersions, exclusive-deals
+ *   - 11 docs reclassified to package at sub-step 2g.1 (already imported as packages,
+ *     must not be re-imported by Batch 2)
+ *   - 4 docs deleted at sub-step 3.5a (don't belong under `tour` entity at all):
+ *     2 cruise-vessel pages → hotelAndCruise; 2 'Planning Your Trip' info pages
+ *     → article/guide. Defense-in-depth against accidental re-import.
+ *
+ * The 11 egypt-tours archive variants formerly in this set moved to
+ * SLUG_TYPE_OVERRIDES_BY_WP_ID after operator clarified they are legitimate
+ * SEO-targeted packages, not listicles.
+ *
+ * Total: 19 entries.
+ */
+export const EXCLUDED_TOUR_WP_IDS: ReadonlySet<number> = new Set<number>([
+  // True archive page (1)
+  149374, // small-group-travel-packages
+  // 2.5d listing-style placeholders (3)
+  103567, 99402, 94331,
+  // 2g.1 reclassified — already in Sanity as packages (11)
+  102370, 87832, 113061, 238546, 86851, 238562,
+  89510, 89895, 89015, 89619, 86875,
+  // 3.5a deleted — don't belong under `tour` (4)
+  64129, // the-nile-goddess-cruise → hotelAndCruise
+  64216, // kasr-ibrim-cruise-ship → hotelAndCruise
+  59425, // planning-your-trip-to-dahab → article/guide
+  60348, // planning-your-trip-to-port-said → article/guide
+]);
+
+// -- Theme heuristic ------------------------------------------------------------
+
+/**
+ * Slug-keyword based theme inference for packages. Match order is most-specific
+ * first; first match wins. Falls back to `theme-egypt-in-depth`.
+ *
+ * Returns the matched pattern alongside the chosen theme so the migration meta
+ * can record provenance for the Step 5 audit report (operator review of
+ * heuristic-assigned themes).
+ */
+export interface ThemeMatch { themeId: string; matchedPattern: string }
+
+const THEME_RULES: Array<{ re: RegExp; themeId: string; label: string }> = [
+  { re: /family/i, themeId: 'theme-family-egypt', label: 'family' },
+  { re: /dahabiya/i, themeId: 'theme-dahabiya-nile-cruise', label: 'dahabiya' },
+  { re: /holy-family|pilgrimage|biblical/i, themeId: 'theme-special-interest', label: 'holy-family|pilgrimage|biblical' },
+  // nile-cruise / felucca after dahabiya so dahabiya wins.
+  { re: /nile-cruise|felucca/i, themeId: 'theme-nile-cruise', label: 'nile-cruise|felucca' },
+  { re: /luxury|deluxe|prestigious|legacy/i, themeId: 'theme-luxury', label: 'luxury|deluxe|prestigious|legacy' },
+  { re: /red-sea|snorkel|hurghada-and-|sharm-and-/i, themeId: 'theme-egypt-red-sea', label: 'red-sea|snorkel|hurghada-and-|sharm-and-' },
+  { re: /adventure|desert|safari/i, themeId: 'theme-adventure', label: 'adventure|desert|safari' },
+  { re: /on-the-go|short-|quick-/i, themeId: 'theme-egypt-on-the-go', label: 'on-the-go|short-|quick-' },
+  { re: /-from-(germany|spain|usa|the-uk|canada|australia|india|turkey|united-kingdom)/i, themeId: 'theme-hassle-free', label: 'from-{country}' },
+  { re: /essential|grand-tour|in-depth/i, themeId: 'theme-egypt-in-depth', label: 'essential|grand-tour|in-depth' },
+];
+
+export function inferTheme(slug: string, title: string): ThemeMatch {
+  const haystack = `${slug} ${title}`.toLowerCase();
+  for (const rule of THEME_RULES) {
+    if (rule.re.test(haystack)) {
+      return { themeId: rule.themeId, matchedPattern: rule.label };
+    }
+  }
+  return { themeId: 'theme-egypt-in-depth', matchedPattern: 'fallback' };
+}
+
+// -- Matrix violation detection -------------------------------------------------
+
+/** Cities approved for group day-tour departures (operator decision, session 14). */
+export const ALLOWED_GROUP_DAYTOUR_CITIES: ReadonlySet<string> = new Set<string>([
+  'aswan', 'cairo', 'hurghada', 'luxor', 'marsa-alam', 'sharm-el-sheikh',
+]);
+
+export interface MatrixViolation { reason: string; cities: string[] }
+
+/**
+ * Flag group dayTours whose resolved cities include any outside the allowed set.
+ * Returns null when the doc is compliant. Packages and private dayTours never
+ * violate (matrix only applies to group day-tour departures).
+ */
+export function detectMatrixViolation(
+  type: 'dayTour' | 'package',
+  tourMode: 'private' | 'group' | undefined,
+  cityRefIds: Array<{ _ref: string }>,
+  cityIdToSlug: Map<string, string>
+): MatrixViolation | null {
+  if (type !== 'dayTour' || tourMode !== 'group') return null;
+  const offending: string[] = [];
+  for (const c of cityRefIds) {
+    const slug = cityIdToSlug.get(c._ref);
+    if (slug && !ALLOWED_GROUP_DAYTOUR_CITIES.has(slug)) offending.push(slug);
+  }
+  if (offending.length === 0) return null;
+  return { reason: 'group-day-tour-in-non-allowed-city', cities: offending };
+}
+
+// -- Country-variant consolidation (B3) -----------------------------------------
+
+/**
+ * Candidate shape from migration/sessions/session-15-audit/candidates.json
+ * (and any external caller that constructs equivalent structures).
+ */
+export interface ConsolidationCandidate {
+  wpId: number;
+  slug: string;
+  title?: string;
+}
+
+export interface ConsolidationResult {
+  canonical: ConsolidationCandidate[];
+  redirects: Array<{ fromSlug: string; toSlug: string; fromWpId: number; toWpId: number }>;
+  clusters: Array<{
+    baseSlug: string;
+    canonical: { wpId: number; slug: string };
+    droppedVariants: Array<{ wpId: number; slug: string; sourceCountry: string }>;
+  }>;
+}
+
+// Trailing qualifier suffixes that may follow the country segment. These are
+// preserved in the canonical slug (so e.g. `…-from-germany-for-families` →
+// canonical `…-for-families`, not just `…`). Append-only — add new known
+// qualifiers as the corpus surfaces them.
+const COUNTRY_QUALIFIERS = ['for-families'] as const;
+const COUNTRY_SUFFIX_RE = new RegExp(
+  `-from-(germany|spain|usa|the-uk|canada|australia|india|turkey|united-kingdom)(-(?:${COUNTRY_QUALIFIERS.join('|')}))?$`,
+  'i',
+);
+
+/**
+ * Group candidates by base slug (slug minus `-from-{country}` and any trailing
+ * known qualifier). Within each cluster of ≥2 variants, pick canonical =
+ * lowest WP ID (oldest); other variants are dropped and a redirect is emitted
+ * from the variant slug to the canonical slug.
+ *
+ * If a base slug appears in the candidate list WITHOUT a country suffix, that
+ * suffix-less doc wins canonical regardless of WP-ID age, and its slug is used
+ * verbatim as the canonical slug.
+ *
+ * For clusters where members carry a qualifier (e.g. `-for-families`), the
+ * canonical slug is `{base}-{qualifier}` so the qualifier is preserved on the
+ * surviving URL. Members within a cluster are assumed to share a qualifier
+ * (the grouping key strips both country AND qualifier, so qualifier mismatch
+ * within a "cluster" would be a corpus anomaly worth surfacing).
+ *
+ * Candidates with no country suffix and no cluster pass through unchanged.
+ */
+export function consolidateCountryVariants(candidates: ConsolidationCandidate[]): ConsolidationResult {
+  // Per-candidate parse: extract country + qualifier + group key.
+  type Parsed = { c: ConsolidationCandidate; country?: string; qualifier?: string; groupKey: string };
+  const parsed: Parsed[] = candidates.map((c) => {
+    const m = COUNTRY_SUFFIX_RE.exec(c.slug);
+    if (!m) return { c, groupKey: c.slug };
+    const country = m[1];
+    // m[2] is the captured trailing-qualifier group including its leading '-'
+    // (e.g. '-for-families'); m[3] (inner non-capturing) we don't need.
+    const qualifier = m[2] ? m[2].slice(1) : undefined;
+    const groupKey = c.slug.slice(0, c.slug.length - m[0].length);
+    return { c, country, qualifier, groupKey };
+  });
+
+  const clusters = new Map<string, Parsed[]>();
+  for (const p of parsed) {
+    if (!clusters.has(p.groupKey)) clusters.set(p.groupKey, []);
+    clusters.get(p.groupKey)!.push(p);
+  }
+
+  const canonical: ConsolidationCandidate[] = [];
+  const redirects: ConsolidationResult['redirects'] = [];
+  const log: ConsolidationResult['clusters'] = [];
+
+  for (const [groupKey, members] of clusters.entries()) {
+    if (members.length === 1) {
+      canonical.push(members[0].c);
+      continue;
+    }
+    // Resolve the canonical slug: a member whose own slug equals the groupKey
+    // (suffix-less and qualifier-less) wins verbatim; otherwise compose
+    // `{groupKey}-{qualifier}` from the first member that carries a qualifier,
+    // falling back to plain groupKey if none do (the original B3 behavior).
+    const naked = members.find((m) => m.c.slug === groupKey);
+    const qualifier = members.find((m) => m.qualifier)?.qualifier;
+    const canonicalSlug = naked ? naked.c.slug : qualifier ? `${groupKey}-${qualifier}` : groupKey;
+    const canonicalCandidate =
+      naked?.c ?? [...members].sort((a, b) => a.c.wpId - b.c.wpId)[0].c;
+    canonical.push({ ...canonicalCandidate, slug: canonicalSlug });
+    const dropped = members
+      .filter((m) => m.c.wpId !== canonicalCandidate.wpId)
+      .map((m) => {
+        redirects.push({ fromSlug: m.c.slug, toSlug: canonicalSlug, fromWpId: m.c.wpId, toWpId: canonicalCandidate.wpId });
+        return { wpId: m.c.wpId, slug: m.c.slug, sourceCountry: m.country ?? 'unknown' };
+      });
+    log.push({
+      baseSlug: groupKey,
+      canonical: { wpId: canonicalCandidate.wpId, slug: canonicalSlug },
+      droppedVariants: dropped,
+    });
+  }
+  return { canonical, redirects, clusters: log };
+}
 
 // -- City resolution ------------------------------------------------------------
 
@@ -187,29 +538,105 @@ async function fetchCityRefsBySlug(client: SanityClient): Promise<Map<string, st
   return map;
 }
 
-function resolveTopLevelCities(
+export type CityResolution = 'override' | 'full-slug-scan' | 'default-cairo';
+
+/**
+ * Full-slug token-boundary scan against the 41-city Sanity inventory.
+ *
+ * For each city slug (longest-first), find token-aligned occurrences in the
+ * tour slug, consuming matched character positions so an `abu-simbel` match
+ * isn't double-counted as a separate `abu` or `simbel` if those were also
+ * in inventory. Multiple distinct cities can match — returned in match order.
+ *
+ * `SLUG_CITY_OVERRIDES` wins absolutely. Falls back to Cairo if nothing matches.
+ */
+export function resolveTopLevelCities(
   slug: string,
   cityRefsBySlug: Map<string, string>
-): Array<{ _type: 'reference'; _ref: string; _key: string }> {
+): { cities: Array<{ _type: 'reference'; _ref: string; _key: string }>; resolution: CityResolution } {
   // Explicit override first.
   const overrideCitySlug = SLUG_CITY_OVERRIDES[slug];
   if (overrideCitySlug) {
     const id = cityRefsBySlug.get(overrideCitySlug);
-    if (id) return [{ _type: 'reference', _ref: id, _key: id }];
-    // Override pointed to a city slug not present in cityRefsBySlug — fall through.
+    if (id) {
+      return {
+        cities: [{ _type: 'reference', _ref: id, _key: id }],
+        resolution: 'override',
+      };
+    }
+    // Override pointed to a slug not in inventory — fall through to scan.
   }
-  // Longest-prefix match wins, so a more specific city slug isn't shadowed by
-  // a shorter substring of itself.
+
+  // Sort longest-first so multi-word cities (abu-simbel, marsa-alam, siwa-oasis)
+  // are matched before any bare token that overlaps.
   const sortedCitySlugs = [...cityRefsBySlug.keys()].sort((a, b) => b.length - a.length);
+
+  // Character-position mask. A position consumed by a longer match is unavailable
+  // for any subsequent (shorter) match.
+  const consumed = new Array<boolean>(slug.length).fill(false);
+  const matched: Array<{ slug: string; id: string; at: number }> = [];
+
   for (const citySlug of sortedCitySlugs) {
-    if (slug === citySlug || slug.startsWith(citySlug + '-')) {
+    const escaped = citySlug.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp(`(?:^|-)(${escaped})(?:-|$)`, 'g');
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(slug)) !== null) {
+      const tokenStart = m.index + (m[0].startsWith('-') ? 1 : 0);
+      const tokenEnd = tokenStart + m[1].length;
+      let overlap = false;
+      for (let i = tokenStart; i < tokenEnd; i++) {
+        if (consumed[i]) { overlap = true; break; }
+      }
+      if (overlap) continue;
+      for (let i = tokenStart; i < tokenEnd; i++) consumed[i] = true;
       const id = cityRefsBySlug.get(citySlug)!;
-      return [{ _type: 'reference', _ref: id, _key: id }];
+      matched.push({ slug: citySlug, id, at: tokenStart });
+      break; // one match per city slug
     }
   }
-  const cairoId = cityRefsBySlug.get('cairo');
-  if (cairoId) return [{ _type: 'reference', _ref: cairoId, _key: cairoId }];
-  return [];
+
+  // Alias pass — handles operator-domain Egyptian-geography variants where
+  // slugs use bare tokens (siwa, fayoum, dakhla, …) but Sanity inventory uses
+  // multi-word canonical forms (siwa-oasis, al-fayoum, …). Source of truth is
+  // TOKEN_TO_CITY_SLUG in the classifier; we import it to stay in sync.
+  for (const [aliasToken, canonicalSlug] of Object.entries(TOKEN_TO_CITY_SLUG)) {
+    if (matched.some((m) => m.slug === canonicalSlug)) continue;
+    const canonicalId = cityRefsBySlug.get(canonicalSlug);
+    if (!canonicalId) continue;
+    const escaped = aliasToken.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const re = new RegExp(`(?:^|-)(${escaped})(?:-|$)`, 'g');
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(slug)) !== null) {
+      const tokenStart = m.index + (m[0].startsWith('-') ? 1 : 0);
+      const tokenEnd = tokenStart + m[1].length;
+      let overlap = false;
+      for (let i = tokenStart; i < tokenEnd; i++) {
+        if (consumed[i]) { overlap = true; break; }
+      }
+      if (overlap) continue;
+      for (let i = tokenStart; i < tokenEnd; i++) consumed[i] = true;
+      matched.push({ slug: canonicalSlug, id: canonicalId, at: tokenStart });
+      break;
+    }
+  }
+
+  if (matched.length === 0) {
+    const cairoId = cityRefsBySlug.get('cairo');
+    if (cairoId) {
+      return {
+        cities: [{ _type: 'reference', _ref: cairoId, _key: cairoId }],
+        resolution: 'default-cairo',
+      };
+    }
+    return { cities: [], resolution: 'default-cairo' };
+  }
+
+  // Return cities in left-to-right slug order for deterministic, readable output.
+  matched.sort((a, b) => a.at - b.at);
+  return {
+    cities: matched.map((m) => ({ _type: 'reference' as const, _ref: m.id, _key: m.id })),
+    resolution: 'full-slug-scan',
+  };
 }
 
 // -- Locale entry accessor (LocaleGroup uses discrete keys, not index) ----------

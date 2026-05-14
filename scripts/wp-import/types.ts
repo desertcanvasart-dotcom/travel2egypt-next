@@ -102,6 +102,14 @@ export interface MigrationMetadata {
   wpAuthorId?: number;
   wpAuthorSlug?: string;
   wpCategorySlugs?: string[];
+  /** Tour mapper: source of city ref resolution. */
+  cityResolution?: 'override' | 'full-slug-scan' | 'default-cairo';
+  /** Tour mapper: theme heuristic pattern that fired (or 'fallback'). */
+  themeMatchedPattern?: string;
+  /** Tour mapper: matrix violation (group day tour outside allowed cities). */
+  matrixViolation?: { reason: string; cities: string[] };
+  /** Tour mapper: how durationDays was resolved. `package-placeholder` flags Step 5 review candidates. */
+  durationDaysSource?: 'slug-leading' | 'slug-anywhere' | 'title' | 'daytour-default' | 'package-placeholder';
 }
 
 export type ReviewFlag =
