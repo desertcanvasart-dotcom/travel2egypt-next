@@ -525,7 +525,7 @@ export function consolidateCountryVariants(candidates: ConsolidationCandidate[])
 
 // -- City resolution ------------------------------------------------------------
 
-async function fetchCityRefsBySlug(client: SanityClient): Promise<Map<string, string>> {
+export async function fetchCityRefsBySlug(client: SanityClient): Promise<Map<string, string>> {
   const cities: Array<{
     _id: string;
     slug?: Array<{ _key: string; value?: { current?: string } }>;
