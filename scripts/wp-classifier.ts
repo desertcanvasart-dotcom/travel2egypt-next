@@ -779,28 +779,33 @@ export function classifyPageBySlug(rawSlug: string): Classification {
   //   - -nile-cruise suffix or prefix
   //   - -cruise-ship$ (explicit vessel suffix, e.g. kasr-ibrim-cruise-ship)
   //   - -cruise$ as proper-name suffix (e.g. the-nile-goddess-cruise,
-  //     movenpick-prince-abbas-cruise) — guarded against tour-package shapes
-  //     that start with N-day or contain transport/itinerary tokens.
-  const isCruiseTourShape =
+  //     movenpick-prince-abbas-cruise)
+  //
+  // Tour-shape disqualifiers — even if a vessel signal matches, these tokens
+  // mean the slug is a multi-day vacation package using a dahabiya/cruise as
+  // transport, not a vessel listing. Fall through to TOUR_PATTERNS below.
+  //   - ^N-day(s)- prefix (`7-days-of-splendor-...`, `7-day-luxury-dahabiya-...`)
+  //   - -from- (country variant suffix: `-from-germany`, `-from-spain`, etc.)
+  //   - -vacation token (package signal)
+  //   - -splendor narrative (operator-domain SEO marker for package pages)
+  //
+  // Deliberately narrow — bare `<name>-dahabiya` and `<name>-dahabiya-{seo-
+  // descriptor}` patterns like `agatha-dahabiya-journey-along-the-nile` and
+  // `adelaide-dahabiya-nile-cruise` are vessel names and stay in nile-cruise.
+  const isVesselTourShape =
     /^\d+-days?-/.test(s) ||
     /-from-/.test(s) ||
-    /-to-[a-z]/.test(s) ||
-    /-tour(s)?(-|$)/.test(s) ||
-    /-vacation/.test(s) ||
-    /-package(-|$)/.test(s) ||
-    /-itinerary/.test(s) ||
-    /-journey(-|$)/.test(s) ||
-    /-holiday/.test(s) ||
-    /-adventure(-|$)/.test(s);
-  if (
+    /-vacation(-|$)/.test(s) ||
+    /-splendor/.test(s);
+  const matchesVesselPattern =
     /^m-s-/.test(s) ||
     /-dahabiya(-|$)/.test(s) ||
     /-nile-cruise$/.test(s) ||
     /^nile-cruise-/.test(s) ||
     s === 'nile-cruise' ||
     /-cruise-ship$/.test(s) ||
-    (/-cruise$/.test(s) && !isCruiseTourShape)
-  ) {
+    /-cruise$/.test(s);
+  if (matchesVesselPattern && !isVesselTourShape) {
     return {
       type: 'nile-cruise',
       reason: 'Nile cruise vessel pattern (m-s-/dahabiya/nile-cruise/-cruise-ship/proper-name-cruise)',
