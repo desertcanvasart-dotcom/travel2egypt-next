@@ -1,0 +1,77 @@
+{
+  "note": "These slugs match cruise vessel shape but are operationally tour packages (multi-day dahabiya vacations). Deferred to a future tour-batch session for proper import as type=package with B3 consolidation for the 7-country variant cluster.",
+  "moved": [
+    {
+      "wpId": 218454,
+      "slug": "meroes-journey-7-day-luxury-dahabiya-cruise-vacation-from-germany",
+      "title": "Meroe&#8217;s Journey: 7-Day Luxury Dahabiya Cruise Vacation from Germany",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 161062,
+      "slug": "7-day-luxury-dahabiya-cruise-vacation-from-spain",
+      "title": "Meroe&#8217;s Journey: 7-Day Luxury Dahabiya Cruise Vacation from Spain",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 160933,
+      "slug": "7-day-dahabiya-vacation-from-usa",
+      "title": "7-Day Dahabiya Vacation from USA",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 160817,
+      "slug": "7-day-luxury-dahabiya-cruise-vacation-from-turkey",
+      "title": "Meroe&#8217;s Journey: 7-Day Luxury Dahabiya Cruise Vacation from Turkey",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 160467,
+      "slug": "7-day-luxury-dahabiya-cruise-vacation-from-canada",
+      "title": "Meroe&#8217;s Journey: 7-Day Luxury Dahabiya Cruise Vacation from Canada",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 160380,
+      "slug": "7-day-luxury-dahabiya-cruise-vacation-from-australia",
+      "title": "Meroe&#8217;s Journey: 7-Day Luxury Dahabiya Cruise Vacation from Australia",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 160159,
+      "slug": "7-day-luxury-dahabiya-cruise-vacation-from-india",
+      "title": "Meroe&#8217;s Journey: 7-Day Luxury Dahabiya Cruise Vacation from India",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 106175,
+      "slug": "7-days-of-splendor-exploring-the-nile-on-a-roman-dahabiya",
+      "title": "7 Days of Splendor: Exploring the Nile on a Roman Dahabiya",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 87124,
+      "slug": "7-days-luxury-dahabiya-nile-cruise",
+      "title": "Meroe: 7-Days Luxury Dahabiya Nile Cruise",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 87125,
+      "slug": "7-days-luxury-dahabiya-cruise-on-the-nile",
+      "title": "El Nil: 7-Days Luxury Dahabiya Cruise on the Nile",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 87123,
+      "slug": "7-days-luxor-to-aswan-dahabiya-cruise",
+      "title": "Malouka: 7-Days Luxor to Aswan Dahabiya Cruise",
+      "newType": "tour-or-package"
+    },
+    {
+      "wpId": 87101,
+      "slug": "7-days-dahabiya-nile-cruise-from-aswan-to-luxor",
+      "title": "Aswan Serenity: 7-Days Dahabiya Nile Cruise from Aswan to Luxor",
+      "newType": "tour-or-package"
+    }
+  ]
+}

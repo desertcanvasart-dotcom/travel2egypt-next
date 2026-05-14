@@ -634,5 +634,13 @@
   "wp-page-146018": {
     "slug": "ramesses-jidai-tsua",
     "reason": "Tour entity (session 14). Truncated kana slug; operator-domain transliteration. Uses international 'ramesses' (pharaoh name) over kana literal."
+  },
+  "wp-page-72456": {
+    "slug": "hilton-sharm-sharks-bay",
+    "reason": "WP source has incorrect JA title — title was set to ダブルツリー・シャークス・ベイ・リゾート (DoubleTree Sharks Bay Resort), but this is actually a Hilton property per the EN slug. Same JA title collides with wp-page-77042 (the actual DoubleTree). Override to EN-derived slug to disambiguate; operator should fix the JA title in Studio post-migration."
+  },
+  "wp-page-77042": {
+    "slug": "double-tree-sharks-bay-resort",
+    "reason": "Tied collision with wp-page-72456 (Hilton mislabeled as DoubleTree in WP JA title). Both auto-derived to same romaji slug. Override to EN-derived form for this DoubleTree property to disambiguate. Operator should verify JA title in Studio."
   }
 }

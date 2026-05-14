@@ -1,5 +1,16 @@
 /**
  * WP nile-cruise `page` → Sanity `nileCruise`.
+ *
+ * Required schema fields enforced here:
+ *   - name, slug, summary: from WP entity
+ *   - type: inferred from slug keywords (dahabiya / felucca) or defaults to
+ *     'cruise-ship'. Recorded in migration.typeInference for audit.
+ *
+ * Optional fields (tier, capacity, body content, operatorNotes, gallery,
+ * seo) left for operator authoring. tier is null at import; operator
+ * assigns standard/deluxe/luxury/boutique in Studio.
+ *
+ * Redirect path: /nile-cruises/[slug] (matches schema convention).
  */
 
 import type { SanityClient } from '@sanity/client';
@@ -22,6 +33,16 @@ interface NileCruiseMapperOpts {
   priorityScore?: number;
 }
 
+function inferVesselType(slug: string): {
+  type: 'cruise-ship' | 'dahabiya' | 'felucca';
+  source: 'slug-keyword' | 'default-cruise-ship';
+} {
+  const s = slug.toLowerCase();
+  if (/(^|-)dahabiya(-|$)/.test(s)) return { type: 'dahabiya', source: 'slug-keyword' };
+  if (/(^|-)felucca(-|$)/.test(s)) return { type: 'felucca', source: 'slug-keyword' };
+  return { type: 'cruise-ship', source: 'default-cruise-ship' };
+}
+
 export async function mapNileCruise(
   client: SanityClient,
   wp: WpClient,
@@ -29,6 +50,8 @@ export async function mapNileCruise(
   opts: NileCruiseMapperOpts = {}
 ): Promise<MapperResult> {
   const en = group.en;
+  const { type: vesselType, source: typeInference } = inferVesselType(en.slug);
+
   const hero = await buildHeroImage(client, wp, group, opts);
 
   const doc: SanityDoc = {
@@ -36,17 +59,20 @@ export async function mapNileCruise(
     _type: 'nileCruise',
     name: i18nString(group, (e) => decodeTitle(e.title?.rendered)),
     slug: i18nSlug(group),
+    type: vesselType,
     summary: i18nString(group, (e) => plainText(e.excerpt?.rendered).slice(0, 240)),
-    description: i18nBody(group),
+    body: i18nBody(group),
     ...(hero ? { heroImage: hero } : {}),
-    migration: buildMigrationMeta(group),
+    migration: buildMigrationMeta(group, undefined, {
+      typeInference,
+    }),
   };
 
   const redirects = buildRedirects(
     group,
-    (locale, slug) => {
-      const decoded = decodeURIComponent(slug);
-      return locale === 'en' ? `/cruises/${decoded}` : `/${locale}/cruises/${decoded}`;
+    (locale, slugIn) => {
+      const decoded = decodeURIComponent(slugIn);
+      return locale === 'en' ? `/nile-cruises/${decoded}` : `/${locale}/nile-cruises/${decoded}`;
     },
     opts.priorityScore ?? 0
   );

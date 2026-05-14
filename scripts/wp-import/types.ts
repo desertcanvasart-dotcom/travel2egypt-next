@@ -110,6 +110,10 @@ export interface MigrationMetadata {
   matrixViolation?: { reason: string; cities: string[] };
   /** Tour mapper: how durationDays was resolved. `package-placeholder` flags Step 5 review candidates. */
   durationDaysSource?: 'slug-leading' | 'slug-anywhere' | 'title' | 'daytour-default' | 'package-placeholder';
+  /** Hotel mapper: how category was assigned (placeholder for operator review). */
+  categoryResolution?: 'default-standard';
+  /** nileCruise mapper: how vessel type was inferred. */
+  typeInference?: 'slug-keyword' | 'default-cruise-ship';
 }
 
 export type ReviewFlag =

@@ -9,8 +9,6 @@ import {
 } from './_helpers';
 
 const HOTEL_CATEGORIES = [
-  { title: 'Budget', value: 'budget' },
-  { title: 'Mid-range', value: 'mid-range' },
   { title: 'Standard', value: 'standard' },
   { title: 'Deluxe', value: 'deluxe' },
   { title: 'Luxury', value: 'luxury' },
