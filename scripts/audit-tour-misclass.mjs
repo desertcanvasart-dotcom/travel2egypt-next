@@ -149,7 +149,26 @@ function bodySignal(text) {
   return { signal, evidence, tourScore, guideScore };
 }
 
-function recommendTarget(group, signal, bodyLen) {
+// Whitelist of operator-domain service products that match a slug pattern
+// (typically /-guide$/) but are bookable tours, not editorial content.
+// The "guide" in these slugs refers to a human guide (the service), not a
+// destination-guide article. Same disambiguation as the session 17
+// -dahabiya rule (commit a4419aa) where keyword-only classification needs
+// product-shape evidence to avoid false positives.
+const TOUR_KEEP_WHITELIST = [
+  /-private-car-and-guide$/,
+];
+
+function isWhitelistedTour(slug) {
+  return TOUR_KEEP_WHITELIST.some((re) => re.test(slug));
+}
+
+function recommendTarget(slug, group, signal, bodyLen) {
+  // Operator-domain whitelist runs FIRST — concierge service products
+  // whose slug ends in /-private-car-and-guide/ are bookable tours,
+  // never editorial guides, regardless of body shape or Group D match.
+  if (isWhitelistedTour(slug)) return 'tour-keep';
+
   // Empty/near-empty body + listing-style slug = a shell page that should
   // either become an editorial guide stub or be deleted.
   if (bodyLen < 200 && (group === 'A' || group === 'B')) return 'shell-empty→guideArticle-or-delete';
@@ -229,7 +248,7 @@ async function main() {
       city_inference: city,
       existing_guide_conflict: conflict,
       empty_body: text.length < 200,
-      recommended_target: recommendTarget(m.group, sig.signal, text.length),
+      recommended_target: recommendTarget(t.slug, m.group, sig.signal, text.length),
     });
   }
 

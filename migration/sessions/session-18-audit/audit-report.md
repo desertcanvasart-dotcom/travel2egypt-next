@@ -16,11 +16,11 @@ else" — it's that **26 of the 222 tour docs (~12%) are empty shell pages
 that were never real tours to begin with**. They are aggregator/landing
 husks from the WP site (e.g. `top-tours-in-giza` with 0 chars of body).
 
-| Bucket | Count | What they are |
-|---|---:|---|
-| Empty shell pages with listing-style slugs | 26 | Aggregator/landing husks — `top-tours-in-X`, `N-days-egypt-tours`, `private-tours-in-X`, `X-tour-packages`, `cultural-tours-in-X` |
-| Real tours flagged by `-guide$` false-positive | 3 | `{aswan,cairo,luxor}-private-car-and-guide` — actual concierge services, the "guide" is human |
-| **Total candidates surfaced** | **29** | |
+| Bucket | Count | What they are | `recommended_target` |
+|---|---:|---|---|
+| Empty shell pages with listing-style slugs | 26 | Aggregator/landing husks — `top-tours-in-X`, `N-days-egypt-tours`, `private-tours-in-X`, `X-tour-packages`, `cultural-tours-in-X` | `shell-empty→guideArticle-or-delete` |
+| Real tours whitelisted past `-guide$` | 3 | `{aswan,cairo,luxor}-private-car-and-guide` — actual concierge services, the "guide" is human | `tour-keep` |
+| **Total candidates surfaced** | **29** | | |
 
 **No real tour content was misclassified as something else.** Bodies
 that look tour-shaped are tour-shaped; the slugs that *look* listicle
@@ -128,16 +128,17 @@ sibling guideArticle and would need either a fresh stub or a redirect.
 - Conflict: `getting-around-suez`
 - **Recommendation**: delete the tour shell
 
-### 9. `aswan-private-car-and-guide` (Group D, **false positive**)
+### 9. `aswan-private-car-and-guide` (Group D, whitelisted)
 - Title: "Discover Aswan: Private Car and Personal Guide for a Day"
 - Body: 1543 chars — real itinerary content with hotel pickup, 8-hour service description
-- Body-signal evidence: pickup mentioned but didn't trigger the `pickup+hotel` rule due to phrasing variations
-- **Recommendation**: **keep as tour**. Slug ends in `-guide` but refers to a human guide, not editorial content. The Group D `-guide$` regex is too permissive. This is a real concierge service.
+- `recommended_target`: `tour-keep` (whitelist: `/-private-car-and-guide$/`)
+- The slug ends in `-guide` but refers to a human guide — a bookable
+  concierge service, not an editorial article.
 
-### 10. `cairo-private-car-and-guide` (Group D, **false positive**)
+### 10. `cairo-private-car-and-guide` (Group D, whitelisted)
 - Title: "Private Car and Guide for a Day"
-- Body: 1305 chars — "Suggested Itinerary Ideas", museum/site descriptions, real service
-- **Recommendation**: **keep as tour**. Same false-positive class as #9.
+- Body: 1305 chars — "Suggested Itinerary Ideas", museum/site descriptions
+- `recommended_target`: `tour-keep` (same whitelist as #9)
 
 ## Estimated Phase-2 (migration) scope
 
@@ -158,9 +159,12 @@ If operator wants to act on this audit:
   (filtered by duration where applicable)
 - Effort: same batch as bucket 1
 
-### Bucket 3 — No action (3 false positives)
+### Bucket 3 — No action (3 whitelisted as `tour-keep`)
 - `{aswan,cairo,luxor}-private-car-and-guide`
 - Real tour content. The "guide" in the slug refers to a human guide.
+- These are surfaced by the Group D pattern but bypassed by the
+  recommender's `/-private-car-and-guide$/` whitelist (see
+  `TOUR_KEEP_WHITELIST` in `scripts/audit-tour-misclass.mjs`).
 
 ### Bucket 4 — Classifier refinement (Phase 3)
 The slug patterns that surfaced these shells should be added to the
@@ -201,7 +205,9 @@ Suggested classifier rules:
 - **No traffic data**: this audit doesn't know which slugs carry SEO
   equity. Delete-vs-redirect decisions should be cross-referenced with
   Search Console data before the redirects ship.
-- **False-positive class**: the `-guide$` regex picked up 3 real tours
-  whose slug ends in `-guide` because "guide" = human. The audit
-  surfaces them but the recommendation is correct (keep). No automated
-  action should fire on these.
+- **False-positive handling**: the `-guide$` regex picked up 3 real
+  tours whose slug ends in `-guide` because "guide" = human. The
+  recommender whitelists `/-private-car-and-guide$/` so their
+  `recommended_target` is `tour-keep` (not `guideArticle`). Future
+  similar concierge-service slug shapes should be added to
+  `TOUR_KEEP_WHITELIST` as they surface.
