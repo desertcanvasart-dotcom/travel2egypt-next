@@ -203,5 +203,28 @@ async function resolveLocalizedPathname(
     return '/travel-tips';
   }
 
+  // Tour detail: /tours/[slug] (dayTour subtype) or /packages/[slug]
+  // (package subtype). Both render from the same `tour` Sanity type via
+  // a single resolver endpoint. Base path is preserved on locale switch
+  // so type→URL mapping stays consistent (operator decision: dayTours live
+  // under /tours, packages under /packages — see scripts/wp-import/mappers/tour.ts).
+  const tourMatch = pathname.match(/^\/(tours|packages)\/([^/]+)\/?$/);
+  if (tourMatch) {
+    const base = tourMatch[1];
+    const fromSlug = tourMatch[2];
+    try {
+      const res = await fetch(
+        `/api/locale-resolve/tour?fromLocale=${fromLocale}&fromSlug=${encodeURIComponent(fromSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { slug } = (await res.json()) as { slug: string | null };
+        if (slug) return `/${base}/${slug}`;
+      }
+    } catch {
+      // fall through to listing
+    }
+    return `/${base}`;
+  }
+
   return pathname;
 }
