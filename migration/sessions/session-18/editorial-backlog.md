@@ -155,3 +155,69 @@ deletions in this session. Operator handles them in Studio.
 | Duration aggregators (deleted, this session) | 12 |
 | Outliers (operator handles separately) | 2 |
 | **Total in this reference list** | **28** |
+
+---
+
+## §D — Session 21 editorial cleanups (deleted docs needing follow-up)
+
+Source: session-21 deletion-log.json (transaction `11ceQugRC4GuR1GhSnZmOC`, 2026-05-15).
+Operator's editorial review — enabled by sessions 19 (Studio enhancement) +
+20 (schema reconcile) — surfaced 8 docs across hotel + nileCruise. All 8 had
+empty body, no slug, and zero inbound references.
+
+### Tour package to recreate (operator Studio work)
+
+- **4-Days Stay at Marriott Mena House**
+  - Former hotel doc: `wp-page-86853` (deleted session 21)
+  - Locale names captured for re-creation:
+    - EN: "4-Days Stay at Marriott Mena House"
+    - ES: "Retiro real de 4 días en Marriott Mena House"
+    - JA: "ロイヤルリトリート：マリオット・メナ・ハウスでの4日間の滞在"
+  - Operator creates as new tour doc:
+    - type: package
+    - tourMode: private
+    - durationDays: 4
+    - city: cairo (or giza — Mena House sits at the Giza pyramids)
+    - theme: operator picks
+  - The actual hotel `wp-page-63651` ("Marriott Mena House Hotel") was
+    preserved and is the natural `relatedHotels` ref for this future tour.
+
+### Future deploy-time redirect (operator decision)
+
+- **Hilton Sharm Shark's Bay** (former hotel `wp-page-72456`, deleted session 21)
+  - Pre-deletion the doc already had ES/JA locale fields renamed to "Double
+    Tree Sharks Bay Resort" — partial in-flight rename, EN never updated.
+  - Redirect target: **Double Tree Sharks Bay Resort** (existing hotel
+    `wp-page-77042`, verified live).
+  - To add at deploy time. Original WP slug TBD by operator (no slug field
+    populated on the deleted doc).
+
+### Theme hub pages to create (operator Studio work)
+
+- **Nile Cruise Holidays** (former cruise `wp-page-86752`, deleted session 21)
+  - Locale names: EN "Nile Cruise Holidays" / ES "Vacaciones en un crucero
+    por el Nilo" / JA "ナイルクルーズの休日"
+  - Operator creates theme content separately (theme hub architecture TBD).
+
+- **Dahabiya Nile Cruise** (former cruise `wp-page-86704`, deleted session 21)
+  - Locale names: EN "Dahabiya Nile Cruise" / ES "Crucero Dahabiya por el
+    Nilo" / JA "ダハビーヤ・ナイルクルーズ"
+  - Same as above.
+
+### Duplicate vessels removed (no operator follow-up needed)
+
+| Vessel | Canonical kept | Duplicate deleted | Rationale |
+|---|---|---|---|
+| Malouka Dahabiya | `wp-page-64203` ("Malouka Dahabiya") | `wp-page-65309` ("Nour El Nil Malouka Dahabiya") | cleaner name without vendor prefix |
+| Adelaïde Dahabiya | `wp-page-83685` ("Adelaïde Dahabiya") | `wp-page-106202` ("Adelaïde Dahabiya: A Journey Along the Nile") | concise vs verbose marketing title |
+| Agatha Dahabiya | `wp-page-83686` ("Agatha Dahabiya") | `wp-page-106203` ("Agatha Dahabiya: Journey Along the Nile") | concise vs verbose marketing title |
+| Nour El Nil Meroe Dahabiya | `wp-page-64190` | `wp-page-70064` (leading-space name) | data-quality (whitespace prefix) |
+
+### Operator Studio rename pending
+
+- **Pickalbatros Palace Sharm Aqua Park** (hotel `wp-page-72466`)
+  - Current EN/ES name carries an odd "8 " prefix: "8 Pickalbatros Palace
+    Sharm Aqua Park". JA name is clean.
+  - Suggested rename: "Pickalbatros Palace Sharm Resort" (operator's call).
+  - Edit in Studio: Hotels & cruises → All hotels → click doc → edit name
+    field per locale (EN/ES/JA) → Publish.
