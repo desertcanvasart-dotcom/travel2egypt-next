@@ -97,7 +97,14 @@
     "relatedToursLabel": "Related tours",
     "relatedGuidesLabel": "Read more in the travel guide",
     "travelerStoriesLabel": "Travelers who took this tour",
-    "durationHoursUnit": "{hours, plural, one {# hour} other {# hours}}"
+    "durationHoursUnit": "{hours, plural, one {# hour} other {# hours}}",
+    "dayLabel": "Day {n}",
+    "mealsLabel": "Meals",
+    "stayLabel": "Stay",
+    "transportLabel": "Transport",
+    "paceLabel": "Pace",
+    "suggestedActivitiesLabel": "Suggested activities",
+    "photoSpotsLabel": "Photo spots"
   },
   "tours": {
     "landingTitle": "Day Tours in Egypt",
@@ -128,7 +135,14 @@
     "priceCaveat": "Final pricing is shaped to your party, dates, hotel tier, and choices in conversation.",
     "relatedPackagesLabel": "Related packages",
     "relatedGuidesLabel": "Read more in the travel guide",
-    "travelerStoriesLabel": "Travelers who took this package"
+    "travelerStoriesLabel": "Travelers who took this package",
+    "dayLabel": "Day {n}",
+    "mealsLabel": "Meals",
+    "stayLabel": "Stay",
+    "transportLabel": "Transport",
+    "paceLabel": "Pace",
+    "suggestedActivitiesLabel": "Suggested activities",
+    "photoSpotsLabel": "Photo spots"
   },
   "wiki": {
     "landingTitle": "Egypt Wiki",

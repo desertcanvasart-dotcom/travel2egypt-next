@@ -97,7 +97,14 @@
     "relatedToursLabel": "関連ツアー",
     "relatedGuidesLabel": "旅行ガイドで詳しく読む",
     "travelerStoriesLabel": "このツアーに参加した旅行者の声",
-    "durationHoursUnit": "{hours} 時間"
+    "durationHoursUnit": "{hours} 時間",
+    "dayLabel": "{n}日目",
+    "mealsLabel": "食事",
+    "stayLabel": "宿泊",
+    "transportLabel": "移動手段",
+    "paceLabel": "ペース",
+    "suggestedActivitiesLabel": "おすすめアクティビティ",
+    "photoSpotsLabel": "撮影スポット"
   },
   "tours": {
     "landingTitle": "エジプトの日帰りツアー",
@@ -128,7 +135,14 @@
     "priceCaveat": "最終料金は人数・日程・ホテルランク・ご希望に応じて、ご相談のうえで確定します。",
     "relatedPackagesLabel": "関連パッケージ",
     "relatedGuidesLabel": "旅行ガイドで詳しく読む",
-    "travelerStoriesLabel": "このパッケージに参加した旅行者の声"
+    "travelerStoriesLabel": "このパッケージに参加した旅行者の声",
+    "dayLabel": "{n}日目",
+    "mealsLabel": "食事",
+    "stayLabel": "宿泊",
+    "transportLabel": "移動手段",
+    "paceLabel": "ペース",
+    "suggestedActivitiesLabel": "おすすめアクティビティ",
+    "photoSpotsLabel": "撮影スポット"
   },
   "wiki": {
     "landingTitle": "エジプト百科",

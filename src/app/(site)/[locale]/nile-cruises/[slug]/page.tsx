@@ -19,6 +19,7 @@ import {
 import { Body } from '@/components/Body';
 import { TourCard, type TourCardData } from '@/components/TourCard';
 import type { CruiseCardData } from '@/components/CruiseCard';
+import { ItineraryDays, type ItineraryDay } from '@/components/ItineraryDays';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -26,17 +27,7 @@ interface Props {
 
 type CityRefLite = { _id: string; name?: string; slug?: string };
 
-type CruiseDay = {
-  dayNumber?: number;
-  title?: string;
-  cities?: CityRefLite[];
-  morning?: unknown;
-  lunch?: string;
-  afternoon?: unknown;
-  meals?: string;
-  overnight?: string;
-  highlights?: string[];
-};
+type CruiseDay = ItineraryDay;
 
 type CruiseDetail = CruiseCardData & {
   body?: unknown;
@@ -171,9 +162,7 @@ export default async function CruisePage({ params }: Props) {
     .slice()
     .sort((a, b) => WEEKDAY_ORDER.indexOf(a as any) - WEEKDAY_ORDER.indexOf(b as any));
 
-  const sortedItinerary = (cruise.itinerary ?? [])
-    .slice()
-    .sort((a, b) => (a.dayNumber ?? 0) - (b.dayNumber ?? 0));
+  const itinerary = cruise.itinerary ?? [];
 
   const dateFormatter = new Intl.DateTimeFormat(locale, {
     year: 'numeric',
@@ -256,69 +245,17 @@ export default async function CruisePage({ params }: Props) {
               </section>
             )}
 
-            {sortedItinerary.length > 0 && (
-              <section className="mt-16 border-t border-line pt-12">
-                <h2 className="mb-6 font-serif text-3xl font-medium text-ink">
-                  {t('itineraryLabel')}
-                </h2>
-                <ol className="space-y-10">
-                  {sortedItinerary.map((day, idx) => (
-                    <li key={`day-${day.dayNumber ?? idx}`} className="border-l-2 border-orange-soft pl-6">
-                      <p className="mb-2 font-sans text-xs font-semibold uppercase tracking-[0.15em] text-orange-deep">
-                        {t('dayLabel', { n: day.dayNumber ?? idx + 1 })}
-                        {day.cities && day.cities.length > 0 && (
-                          <span className="ml-3 font-normal normal-case tracking-normal text-ink-muted">
-                            {day.cities.map((c) => c.name).filter(Boolean).join(' · ')}
-                          </span>
-                        )}
-                      </p>
-                      {day.title && (
-                        <h3 className="mb-3 font-serif text-2xl font-medium text-ink">
-                          {day.title}
-                        </h3>
-                      )}
-                      {Boolean(day.morning) && (
-                        <div className="prose-editorial mb-3 max-w-none text-ink-soft">
-                          <Body value={day.morning} locale={locale as Locale} />
-                        </div>
-                      )}
-                      {day.lunch && (
-                        <p className="mb-3 text-sm italic text-ink-muted">{day.lunch}</p>
-                      )}
-                      {Boolean(day.afternoon) && (
-                        <div className="prose-editorial mb-3 max-w-none text-ink-soft">
-                          <Body value={day.afternoon} locale={locale as Locale} />
-                        </div>
-                      )}
-                      {day.highlights && day.highlights.length > 0 && (
-                        <ul className="mb-3 space-y-1.5 text-sm text-ink-soft">
-                          {day.highlights.map((h, i) => (
-                            <li key={i} className="flex gap-2 leading-relaxed">
-                              <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-orange-deep" />
-                              <span>{h}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                      <dl className="mt-3 flex flex-wrap gap-x-6 gap-y-1 text-xs text-ink-muted">
-                        {day.meals && (
-                          <div className="flex gap-1.5">
-                            <dt className="font-semibold uppercase tracking-wider">{t('mealsLabel')}:</dt>
-                            <dd>{day.meals}</dd>
-                          </div>
-                        )}
-                        {day.overnight && (
-                          <div className="flex gap-1.5">
-                            <dt className="font-semibold uppercase tracking-wider">{t('overnightLabel')}:</dt>
-                            <dd>{day.overnight}</dd>
-                          </div>
-                        )}
-                      </dl>
-                    </li>
-                  ))}
-                </ol>
-              </section>
-            )}
+            <ItineraryDays
+              days={itinerary}
+              locale={locale as Locale}
+              labels={{
+                itinerary: t('itineraryLabel'),
+                day: (n) => t('dayLabel', { n }),
+                meals: t('mealsLabel'),
+                stay: t('overnightLabel'),
+              }}
+            />
+
 
             {cruise.relatedTours && cruise.relatedTours.length > 0 && (
               <section className="mt-20 border-t border-line pt-16">

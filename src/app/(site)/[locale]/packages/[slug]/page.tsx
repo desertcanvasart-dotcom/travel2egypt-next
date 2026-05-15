@@ -22,94 +22,10 @@ import {
 import { Body } from '@/components/Body';
 import { PackageCard, type PackageCardData } from '@/components/PackageCard';
 import { GuideRefCard, type GuideRefCardData } from '@/components/GuideRefCard';
+import { ItineraryDays } from '@/components/ItineraryDays';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
-}
-
-/**
- * Phase grouping for multi-day itineraries. Hardcoded per package slug
- * for now — when we add an `itineraryPhases` schema field later, this
- * map can be replaced by `pkg.itineraryPhases`. Phases are editorial
- * structure (not translatable copy), so the same EN-keyed entry applies
- * across locales.
- */
-const ITINERARY_PHASES: Record<string, Array<{ label: string; days: [number, number] }>> = {
-  'egypt-in-depth-14-days': [
-    { label: 'Cairo', days: [1, 3] },
-    { label: 'The Nile · Luxor to Aswan', days: [4, 10] },
-    { label: 'Back to Cairo', days: [11, 14] },
-  ],
-};
-
-/**
- * Splits a portable-text itinerary at h3 blocks whose text starts with
- * "Day N", grouping into phase clusters. Each phase cluster is rendered
- * with a small uppercase orange label above the day blocks.
- */
-type ITBlock = { _type?: string; style?: string; children?: Array<{ text?: string }> };
-
-function PhasedItinerary({
-  blocks,
-  phases,
-  locale,
-}: {
-  blocks: ITBlock[];
-  phases: Array<{ label: string; days: [number, number] }> | null;
-  locale: Locale;
-}) {
-  if (!phases || phases.length === 0) {
-    return (
-      <div className="prose-editorial max-w-none">
-        <Body value={blocks} locale={locale} />
-      </div>
-    );
-  }
-
-  const dayOf = (b: ITBlock): number | null => {
-    if (b.style !== 'h3') return null;
-    const text = (b.children ?? []).map((c) => c.text ?? '').join('');
-    const m = text.match(/Day\s+(\d+)/i);
-    return m ? Number(m[1]) : null;
-  };
-
-  const groups: Array<{ phase: { label: string; days: [number, number] } | null; blocks: ITBlock[] }> = [];
-  let currentPhaseIndex = -1;
-
-  for (const block of blocks) {
-    const day = dayOf(block);
-    if (day !== null) {
-      const idx = phases.findIndex((p) => day >= p.days[0] && day <= p.days[1]);
-      if (idx !== -1 && idx !== currentPhaseIndex) {
-        currentPhaseIndex = idx;
-        groups.push({ phase: phases[idx], blocks: [] });
-      }
-    }
-    if (groups.length === 0) {
-      groups.push({ phase: null, blocks: [] });
-    }
-    groups[groups.length - 1].blocks.push(block);
-  }
-
-  return (
-    <div className="space-y-10">
-      {groups.map((group, i) => (
-        <div key={i}>
-          {group.phase && (
-            <p className="mb-2 font-sans text-xs font-semibold uppercase tracking-[0.18em] text-orange-deep">
-              {group.phase.label}
-              <span className="ml-2 text-ink-muted">
-                Days {group.phase.days[0]}–{group.phase.days[1]}
-              </span>
-            </p>
-          )}
-          <div className="prose-editorial max-w-none">
-            <Body value={group.blocks} locale={locale} />
-          </div>
-        </div>
-      ))}
-    </div>
-  );
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -305,18 +221,22 @@ export default async function PackagePage({ params }: Props) {
               </section>
             )}
 
-            {/* Day-by-day itinerary, optionally split into phases */}
-            {pkg.itinerary && (
-              <section className="mt-16 border-t border-line pt-12">
-                <h2 className="mb-8 font-serif text-3xl font-medium text-ink">
-                  {t('itineraryLabel')}
-                </h2>
-                <PhasedItinerary
-                  blocks={pkg.itinerary}
-                  phases={ITINERARY_PHASES[slug] ?? null}
-                  locale={locale as Locale}
-                />
-              </section>
+            {/* Day-by-day itinerary (structured days[]) */}
+            {pkg.days && pkg.days.length > 0 && (
+              <ItineraryDays
+                days={pkg.days}
+                locale={locale as Locale}
+                labels={{
+                  itinerary: t('itineraryLabel'),
+                  day: (n) => t('dayLabel', { n }),
+                  meals: t('mealsLabel'),
+                  stay: t('stayLabel'),
+                  transport: t('transportLabel'),
+                  pace: t('paceLabel'),
+                  suggested: t('suggestedActivitiesLabel'),
+                  photoSpots: t('photoSpotsLabel'),
+                }}
+              />
             )}
 
             {/* Related packages */}

@@ -97,7 +97,14 @@
     "relatedToursLabel": "Tours relacionados",
     "relatedGuidesLabel": "Lee más en la guía de viaje",
     "travelerStoriesLabel": "Viajeros que hicieron este tour",
-    "durationHoursUnit": "{hours, plural, one {# hora} other {# horas}}"
+    "durationHoursUnit": "{hours, plural, one {# hora} other {# horas}}",
+    "dayLabel": "Día {n}",
+    "mealsLabel": "Comidas",
+    "stayLabel": "Alojamiento",
+    "transportLabel": "Transporte",
+    "paceLabel": "Ritmo",
+    "suggestedActivitiesLabel": "Actividades sugeridas",
+    "photoSpotsLabel": "Lugares fotogénicos"
   },
   "tours": {
     "landingTitle": "Excursiones de un día en Egipto",
@@ -128,7 +135,14 @@
     "priceCaveat": "El precio final se ajusta a tu grupo, fechas, categoría de hotel y elecciones durante la conversación.",
     "relatedPackagesLabel": "Paquetes relacionados",
     "relatedGuidesLabel": "Lee más en la guía de viaje",
-    "travelerStoriesLabel": "Viajeros que hicieron este paquete"
+    "travelerStoriesLabel": "Viajeros que hicieron este paquete",
+    "dayLabel": "Día {n}",
+    "mealsLabel": "Comidas",
+    "stayLabel": "Alojamiento",
+    "transportLabel": "Transporte",
+    "paceLabel": "Ritmo",
+    "suggestedActivitiesLabel": "Actividades sugeridas",
+    "photoSpotsLabel": "Lugares fotogénicos"
   },
   "wiki": {
     "landingTitle": "Wiki de Egipto",

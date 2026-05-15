@@ -22,6 +22,7 @@ import {
 import { Body } from '@/components/Body';
 import { TourCard, type TourCardData } from '@/components/TourCard';
 import { GuideRefCard, type GuideRefCardData } from '@/components/GuideRefCard';
+import { ItineraryDays } from '@/components/ItineraryDays';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -237,16 +238,22 @@ export default async function DayTourPage({ params }: Props) {
               </section>
             )}
 
-            {/* Itinerary */}
-            {tour.itinerary && (
-              <section className="mt-16 border-t border-line pt-12">
-                <h2 className="mb-6 font-serif text-3xl font-medium text-ink">
-                  {t('itineraryLabel')}
-                </h2>
-                <div className="prose-editorial max-w-none">
-                  <Body value={tour.itinerary} locale={locale as Locale} />
-                </div>
-              </section>
+            {/* Day-by-day itinerary (structured days[]) */}
+            {tour.days && tour.days.length > 0 && (
+              <ItineraryDays
+                days={tour.days}
+                locale={locale as Locale}
+                labels={{
+                  itinerary: t('itineraryLabel'),
+                  day: (n) => t('dayLabel', { n }),
+                  meals: t('mealsLabel'),
+                  stay: t('stayLabel'),
+                  transport: t('transportLabel'),
+                  pace: t('paceLabel'),
+                  suggested: t('suggestedActivitiesLabel'),
+                  photoSpots: t('photoSpotsLabel'),
+                }}
+              />
             )}
 
             {/* Related tours */}

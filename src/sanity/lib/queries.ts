@@ -232,7 +232,34 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     ),
     "inclusions": ${portableTextBodyProjection('inclusions', locale)},
     "exclusions": ${portableTextBodyProjection('exclusions', locale)},
-    "itinerary": ${portableTextBodyProjection('itinerary', locale)},
+    "days": days[]{
+      dayNumber,
+      "title": ${localizedField('title', locale)},
+      "cities": cities[]->{
+        _id,
+        "name": ${localizedField('name', locale)},
+        "slug": ${localizedSlug('slug', locale)}
+      },
+      "morning": ${portableTextBodyProjection('morning', locale)},
+      "lunch": ${localizedField('lunch', locale)},
+      "afternoon": ${portableTextBodyProjection('afternoon', locale)},
+      "meals": ${localizedField('meals', locale)},
+      "accommodation": ${localizedField('accommodation', locale)},
+      "transport": ${localizedField('transport', locale)},
+      "paceRating": paceRating,
+      "highlights": coalesce(
+        highlights[_key == "${locale}"][0].value,
+        highlights[_key == "en"][0].value
+      ),
+      "suggestedActivities": coalesce(
+        suggestedActivities[_key == "${locale}"][0].value,
+        suggestedActivities[_key == "en"][0].value
+      ),
+      "photoSpots": coalesce(
+        photoSpots[_key == "${locale}"][0].value,
+        photoSpots[_key == "en"][0].value
+      )
+    },
     gallery[]{
       ...,
       "alt": ${localizedField('alt', locale)}
