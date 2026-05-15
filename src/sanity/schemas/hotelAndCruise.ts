@@ -32,10 +32,17 @@ export const hotelSchema = defineType({
     defineField({
       name: 'name',
       title: 'Hotel name',
-      description: 'The brand name. Same across languages.',
-      type: 'string',
+      description:
+        'Per-locale name. EN is the brand/canonical form; ES and JA may diverge (translation, transliteration, or SEO-tuned variants). EN is required; other locales fall back to EN if blank.',
+      type: 'internationalizedArrayString',
       group: 'identity',
-      validation: (Rule) => Rule.required(),
+      validation: (Rule) =>
+        Rule.required().custom((value: any) => {
+          if (!Array.isArray(value)) return 'Name is required';
+          const en = value.find((v: any) => v._key === 'en');
+          if (!en?.value) return 'English name is required';
+          return true;
+        }),
     }),
     defineField({
       ...localizedSlugField({ source: 'name' }),
@@ -123,12 +130,15 @@ export const hotelSchema = defineType({
       media: 'heroImage',
     },
     prepare({ title, city, category, stars, media }) {
+      const titleEn = Array.isArray(title)
+        ? title.find((t: any) => t._key === 'en')?.value
+        : title;
       const cityEn = Array.isArray(city)
         ? city.find((c: any) => c._key === 'en')?.value
         : city;
       const stars_ = stars ? '★'.repeat(stars) : '';
       return {
-        title: title || 'Untitled hotel',
+        title: titleEn || 'Untitled hotel',
         subtitle: [cityEn, category, stars_].filter(Boolean).join(' · '),
         media,
       };
@@ -153,9 +163,17 @@ export const nileCruiseSchema = defineType({
     defineField({
       name: 'name',
       title: 'Vessel name',
-      type: 'string',
+      description:
+        'Per-locale name. EN is the brand/canonical form; ES and JA may diverge (translation, transliteration, or SEO-tuned variants). EN is required; other locales fall back to EN if blank.',
+      type: 'internationalizedArrayString',
       group: 'identity',
-      validation: (Rule) => Rule.required(),
+      validation: (Rule) =>
+        Rule.required().custom((value: any) => {
+          if (!Array.isArray(value)) return 'Name is required';
+          const en = value.find((v: any) => v._key === 'en');
+          if (!en?.value) return 'English name is required';
+          return true;
+        }),
     }),
     defineField({
       ...localizedSlugField({ source: 'name' }),
@@ -252,8 +270,11 @@ export const nileCruiseSchema = defineType({
       media: 'heroImage',
     },
     prepare({ title, type, tier, capacity, media }) {
+      const titleEn = Array.isArray(title)
+        ? title.find((t: any) => t._key === 'en')?.value
+        : title;
       return {
-        title: title || 'Untitled vessel',
+        title: titleEn || 'Untitled vessel',
         subtitle: [type, tier, capacity ? `${capacity} cabins` : null]
           .filter(Boolean)
           .join(' · '),
