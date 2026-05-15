@@ -96,7 +96,8 @@
     "modeGroup": "Group",
     "relatedToursLabel": "Related tours",
     "relatedGuidesLabel": "Read more in the travel guide",
-    "travelerStoriesLabel": "Travelers who took this tour"
+    "travelerStoriesLabel": "Travelers who took this tour",
+    "durationHoursUnit": "{hours, plural, one {# hour} other {# hours}}"
   },
   "tours": {
     "landingTitle": "Day Tours in Egypt",
@@ -298,6 +299,29 @@
     "operatorNotesLabel": "Our honest take",
     "relatedToursLabel": "Packages featuring this vessel",
     "talkToConcierge": "Talk to our concierge about this cruise",
-    "whatsappInquiry": "Quick WhatsApp inquiry"
+    "whatsappInquiry": "Quick WhatsApp inquiry",
+    "poweredByLabel": "Propulsion",
+    "poweredByEngine": "Engine",
+    "poweredByWind": "Sail",
+    "poweredBySteam": "Steam",
+    "routeLabel": "Route",
+    "roundTripFrom": "Round trip from {city}",
+    "oneWayRoute": "{from} → {to}",
+    "departureScheduleLabel": "Departures",
+    "departureWeekdaysLabel": "Weekly",
+    "specificDeparturesLabel": "Specific dates",
+    "durationLabel": "Duration",
+    "durationNightsUnit": "{count, plural, one {# night} other {# nights}}",
+    "itineraryLabel": "Itinerary",
+    "dayLabel": "Day {n}",
+    "mealsLabel": "Meals",
+    "overnightLabel": "Overnight",
+    "weekday_mon": "Mon",
+    "weekday_tue": "Tue",
+    "weekday_wed": "Wed",
+    "weekday_thu": "Thu",
+    "weekday_fri": "Fri",
+    "weekday_sat": "Sat",
+    "weekday_sun": "Sun"
   }
 }

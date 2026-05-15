@@ -24,9 +24,30 @@ interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
+type CityRefLite = { _id: string; name?: string; slug?: string };
+
+type CruiseDay = {
+  dayNumber?: number;
+  title?: string;
+  cities?: CityRefLite[];
+  morning?: unknown;
+  lunch?: string;
+  afternoon?: unknown;
+  meals?: string;
+  overnight?: string;
+  highlights?: string[];
+};
+
 type CruiseDetail = CruiseCardData & {
   body?: unknown;
   operatorNotes?: unknown;
+  poweredBy?: string[];
+  durationNights?: number;
+  departureCity?: CityRefLite | null;
+  returnCity?: CityRefLite | null;
+  departureWeekdays?: string[];
+  specificDepartureDates?: string[];
+  itinerary?: CruiseDay[];
   relatedTours?: TourCardData[];
   gallery?: Array<{ asset?: unknown; alt?: string }>;
   seo?: {
@@ -37,6 +58,14 @@ type CruiseDetail = CruiseCardData & {
   };
   allSlugs?: Array<{ _key: string; current: string }>;
 };
+
+const POWERED_BY_KEYS: Record<string, string> = {
+  engine: 'poweredByEngine',
+  wind: 'poweredByWind',
+  steam: 'poweredBySteam',
+};
+
+const WEEKDAY_ORDER = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'] as const;
 
 const TYPE_LABEL: Record<string, string> = {
   'cruise-ship': 'Cruise ship',
@@ -121,6 +150,37 @@ export default async function CruisePage({ params }: Props) {
   const tierLabel = cruise.tier ? TIER_LABEL[cruise.tier] : null;
   const capacityLabel = cruise.capacity ? `${cruise.capacity} ${t('cabinsUnit')}` : null;
 
+  const poweredByLabels = (cruise.poweredBy ?? [])
+    .map((p) => (POWERED_BY_KEYS[p] ? t(POWERED_BY_KEYS[p]) : null))
+    .filter((v): v is string => Boolean(v));
+
+  const departureName = cruise.departureCity?.name ?? null;
+  const returnName = cruise.returnCity?.name ?? null;
+  const routeLabel = departureName
+    ? returnName && returnName !== departureName
+      ? t('oneWayRoute', { from: departureName, to: returnName })
+      : t('roundTripFrom', { city: departureName })
+    : null;
+
+  const durationNightsLabel =
+    typeof cruise.durationNights === 'number'
+      ? t('durationNightsUnit', { count: cruise.durationNights })
+      : null;
+
+  const sortedWeekdays = (cruise.departureWeekdays ?? [])
+    .slice()
+    .sort((a, b) => WEEKDAY_ORDER.indexOf(a as any) - WEEKDAY_ORDER.indexOf(b as any));
+
+  const sortedItinerary = (cruise.itinerary ?? [])
+    .slice()
+    .sort((a, b) => (a.dayNumber ?? 0) - (b.dayNumber ?? 0));
+
+  const dateFormatter = new Intl.DateTimeFormat(locale, {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  });
+
   const breadcrumbSchema = buildBreadcrumbList(
     [
       { name: 'Home', path: '/' },
@@ -196,6 +256,70 @@ export default async function CruisePage({ params }: Props) {
               </section>
             )}
 
+            {sortedItinerary.length > 0 && (
+              <section className="mt-16 border-t border-line pt-12">
+                <h2 className="mb-6 font-serif text-3xl font-medium text-ink">
+                  {t('itineraryLabel')}
+                </h2>
+                <ol className="space-y-10">
+                  {sortedItinerary.map((day, idx) => (
+                    <li key={`day-${day.dayNumber ?? idx}`} className="border-l-2 border-orange-soft pl-6">
+                      <p className="mb-2 font-sans text-xs font-semibold uppercase tracking-[0.15em] text-orange-deep">
+                        {t('dayLabel', { n: day.dayNumber ?? idx + 1 })}
+                        {day.cities && day.cities.length > 0 && (
+                          <span className="ml-3 font-normal normal-case tracking-normal text-ink-muted">
+                            {day.cities.map((c) => c.name).filter(Boolean).join(' · ')}
+                          </span>
+                        )}
+                      </p>
+                      {day.title && (
+                        <h3 className="mb-3 font-serif text-2xl font-medium text-ink">
+                          {day.title}
+                        </h3>
+                      )}
+                      {Boolean(day.morning) && (
+                        <div className="prose-editorial mb-3 max-w-none text-ink-soft">
+                          <Body value={day.morning} locale={locale as Locale} />
+                        </div>
+                      )}
+                      {day.lunch && (
+                        <p className="mb-3 text-sm italic text-ink-muted">{day.lunch}</p>
+                      )}
+                      {Boolean(day.afternoon) && (
+                        <div className="prose-editorial mb-3 max-w-none text-ink-soft">
+                          <Body value={day.afternoon} locale={locale as Locale} />
+                        </div>
+                      )}
+                      {day.highlights && day.highlights.length > 0 && (
+                        <ul className="mb-3 space-y-1.5 text-sm text-ink-soft">
+                          {day.highlights.map((h, i) => (
+                            <li key={i} className="flex gap-2 leading-relaxed">
+                              <span aria-hidden className="mt-2 h-1 w-1 shrink-0 rounded-full bg-orange-deep" />
+                              <span>{h}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                      <dl className="mt-3 flex flex-wrap gap-x-6 gap-y-1 text-xs text-ink-muted">
+                        {day.meals && (
+                          <div className="flex gap-1.5">
+                            <dt className="font-semibold uppercase tracking-wider">{t('mealsLabel')}:</dt>
+                            <dd>{day.meals}</dd>
+                          </div>
+                        )}
+                        {day.overnight && (
+                          <div className="flex gap-1.5">
+                            <dt className="font-semibold uppercase tracking-wider">{t('overnightLabel')}:</dt>
+                            <dd>{day.overnight}</dd>
+                          </div>
+                        )}
+                      </dl>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+
             {cruise.relatedTours && cruise.relatedTours.length > 0 && (
               <section className="mt-20 border-t border-line pt-16">
                 <h2 className="mb-8 font-serif text-3xl font-medium text-ink">
@@ -235,6 +359,58 @@ export default async function CruisePage({ params }: Props) {
                       {t('capacityLabel')}
                     </dt>
                     <dd className="text-ink-soft">{capacityLabel}</dd>
+                  </div>
+                )}
+                {poweredByLabels.length > 0 && (
+                  <div>
+                    <dt className="mb-1 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                      {t('poweredByLabel')}
+                    </dt>
+                    <dd className="text-ink-soft">{poweredByLabels.join(' · ')}</dd>
+                  </div>
+                )}
+                {routeLabel && (
+                  <div>
+                    <dt className="mb-1 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                      {t('routeLabel')}
+                    </dt>
+                    <dd className="text-ink-soft">{routeLabel}</dd>
+                  </div>
+                )}
+                {durationNightsLabel && (
+                  <div>
+                    <dt className="mb-1 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                      {t('durationLabel')}
+                    </dt>
+                    <dd className="text-ink-soft">{durationNightsLabel}</dd>
+                  </div>
+                )}
+                {(sortedWeekdays.length > 0 || (cruise.specificDepartureDates?.length ?? 0) > 0) && (
+                  <div>
+                    <dt className="mb-1 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
+                      {t('departureScheduleLabel')}
+                    </dt>
+                    <dd className="space-y-1.5 text-ink-soft">
+                      {sortedWeekdays.length > 0 && (
+                        <div className="flex flex-wrap gap-1.5">
+                          {sortedWeekdays.map((d) => (
+                            <span
+                              key={d}
+                              className="rounded-full border border-line bg-cream-warm px-2.5 py-0.5 text-xs"
+                            >
+                              {t(`weekday_${d}` as any)}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                      {cruise.specificDepartureDates && cruise.specificDepartureDates.length > 0 && (
+                        <ul className="text-xs text-ink-muted">
+                          {cruise.specificDepartureDates.slice(0, 8).map((d) => (
+                            <li key={d}>{dateFormatter.format(new Date(d))}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </dd>
                   </div>
                 )}
               </dl>

@@ -96,7 +96,8 @@
     "modeGroup": "グループ",
     "relatedToursLabel": "関連ツアー",
     "relatedGuidesLabel": "旅行ガイドで詳しく読む",
-    "travelerStoriesLabel": "このツアーに参加した旅行者の声"
+    "travelerStoriesLabel": "このツアーに参加した旅行者の声",
+    "durationHoursUnit": "{hours} 時間"
   },
   "tours": {
     "landingTitle": "エジプトの日帰りツアー",
@@ -298,6 +299,29 @@
     "operatorNotesLabel": "私たちの率直な見解",
     "relatedToursLabel": "この船を使うパッケージ",
     "talkToConcierge": "このクルーズについてコンシェルジュに相談する",
-    "whatsappInquiry": "WhatsAppで簡単に問い合わせ"
+    "whatsappInquiry": "WhatsAppで簡単に問い合わせ",
+    "poweredByLabel": "推進方式",
+    "poweredByEngine": "エンジン",
+    "poweredByWind": "帆",
+    "poweredBySteam": "蒸気",
+    "routeLabel": "ルート",
+    "roundTripFrom": "{city} 発着の周遊",
+    "oneWayRoute": "{from} → {to}",
+    "departureScheduleLabel": "出航日",
+    "departureWeekdaysLabel": "毎週",
+    "specificDeparturesLabel": "特定日",
+    "durationLabel": "日程",
+    "durationNightsUnit": "{count} 泊",
+    "itineraryLabel": "日程表",
+    "dayLabel": "{n}日目",
+    "mealsLabel": "食事",
+    "overnightLabel": "宿泊",
+    "weekday_mon": "月",
+    "weekday_tue": "火",
+    "weekday_wed": "水",
+    "weekday_thu": "木",
+    "weekday_fri": "金",
+    "weekday_sat": "土",
+    "weekday_sun": "日"
   }
 }

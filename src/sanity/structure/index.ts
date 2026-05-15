@@ -200,6 +200,12 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
                         schemaType: 'tour',
                         filter: `type == "dayTour" && ${MISSING.summaryEn}`,
                       }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-daytour-missing-duration-hours',
+                        title: 'Needs duration hours',
+                        schemaType: 'tour',
+                        filter: 'type == "dayTour" && !defined(durationHours)',
+                      }),
                     ])
                 ),
 
@@ -507,6 +513,24 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
                         title: 'Missing hero image',
                         schemaType: 'nileCruise',
                         filter: MISSING.hero,
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-cruise-missing-powered-by',
+                        title: 'Needs propulsion type',
+                        schemaType: 'nileCruise',
+                        filter: '!defined(poweredBy) || count(poweredBy) == 0',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-cruise-missing-departure-city',
+                        title: 'Needs departure city',
+                        schemaType: 'nileCruise',
+                        filter: '!defined(departureCity)',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-cruise-missing-itinerary',
+                        title: 'Needs itinerary',
+                        schemaType: 'nileCruise',
+                        filter: '!defined(itinerary) || count(itinerary) == 0',
                       }),
                     ])
                 ),

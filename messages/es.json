@@ -96,7 +96,8 @@
     "modeGroup": "Grupo",
     "relatedToursLabel": "Tours relacionados",
     "relatedGuidesLabel": "Lee más en la guía de viaje",
-    "travelerStoriesLabel": "Viajeros que hicieron este tour"
+    "travelerStoriesLabel": "Viajeros que hicieron este tour",
+    "durationHoursUnit": "{hours, plural, one {# hora} other {# horas}}"
   },
   "tours": {
     "landingTitle": "Excursiones de un día en Egipto",
@@ -298,6 +299,29 @@
     "operatorNotesLabel": "Nuestra opinión honesta",
     "relatedToursLabel": "Paquetes con esta embarcación",
     "talkToConcierge": "Habla con nuestro concierge sobre este crucero",
-    "whatsappInquiry": "Consulta rápida por WhatsApp"
+    "whatsappInquiry": "Consulta rápida por WhatsApp",
+    "poweredByLabel": "Propulsión",
+    "poweredByEngine": "Motor",
+    "poweredByWind": "Vela",
+    "poweredBySteam": "Vapor",
+    "routeLabel": "Ruta",
+    "roundTripFrom": "Ida y vuelta desde {city}",
+    "oneWayRoute": "{from} → {to}",
+    "departureScheduleLabel": "Salidas",
+    "departureWeekdaysLabel": "Semanal",
+    "specificDeparturesLabel": "Fechas específicas",
+    "durationLabel": "Duración",
+    "durationNightsUnit": "{count, plural, one {# noche} other {# noches}}",
+    "itineraryLabel": "Itinerario",
+    "dayLabel": "Día {n}",
+    "mealsLabel": "Comidas",
+    "overnightLabel": "Noche a bordo",
+    "weekday_mon": "Lun",
+    "weekday_tue": "Mar",
+    "weekday_wed": "Mié",
+    "weekday_thu": "Jue",
+    "weekday_fri": "Vie",
+    "weekday_sat": "Sáb",
+    "weekday_sun": "Dom"
   }
 }
