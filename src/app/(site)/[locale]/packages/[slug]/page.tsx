@@ -23,6 +23,7 @@ import { Body } from '@/components/Body';
 import { PackageCard, type PackageCardData } from '@/components/PackageCard';
 import { GuideRefCard, type GuideRefCardData } from '@/components/GuideRefCard';
 import { ItineraryDays } from '@/components/ItineraryDays';
+import { Gallery } from '@/components/Gallery';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -237,6 +238,11 @@ export default async function PackagePage({ params }: Props) {
                   photoSpots: t('photoSpotsLabel'),
                 }}
               />
+            )}
+
+            {/* Gallery */}
+            {pkg.gallery && pkg.gallery.length > 0 && (
+              <Gallery images={pkg.gallery} title={t('galleryLabel')} />
             )}
 
             {/* Related packages */}

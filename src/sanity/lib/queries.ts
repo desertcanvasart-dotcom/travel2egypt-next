@@ -262,7 +262,9 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     },
     gallery[]{
       ...,
-      "alt": ${localizedField('alt', locale)}
+      "alt": ${localizedField('alt', locale)},
+      "caption": ${localizedField('caption', locale)},
+      credit
     },
     "relatedTours": relatedTours[]->{
       ${tourCardProjection(locale)}

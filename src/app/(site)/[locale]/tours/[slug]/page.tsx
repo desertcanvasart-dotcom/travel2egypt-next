@@ -23,6 +23,7 @@ import { Body } from '@/components/Body';
 import { TourCard, type TourCardData } from '@/components/TourCard';
 import { GuideRefCard, type GuideRefCardData } from '@/components/GuideRefCard';
 import { ItineraryDays } from '@/components/ItineraryDays';
+import { Gallery } from '@/components/Gallery';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -254,6 +255,11 @@ export default async function DayTourPage({ params }: Props) {
                   photoSpots: t('photoSpotsLabel'),
                 }}
               />
+            )}
+
+            {/* Gallery */}
+            {tour.gallery && tour.gallery.length > 0 && (
+              <Gallery images={tour.gallery} title={t('galleryLabel')} />
             )}
 
             {/* Related tours */}
