@@ -101,6 +101,11 @@ export default async function DayTourPage({ params }: Props) {
         ? t('modeGroup')
         : null;
 
+  const durationHoursLabel =
+    tour.type === 'dayTour' && typeof tour.durationHours === 'number'
+      ? t('durationHoursUnit', { hours: tour.durationHours })
+      : null;
+
   const tripSchema = buildTouristTripSchema(
     {
       title: tour.title,
@@ -145,7 +150,9 @@ export default async function DayTourPage({ params }: Props) {
         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-[#1f1408]/42 via-[#1f1408]/15 to-transparent pt-32">
           <div className="mx-auto max-w-7xl px-6 pb-12">
             <p className="mb-3 flex flex-wrap items-center gap-2 font-sans text-xs font-semibold uppercase tracking-[0.15em] text-orange-soft">
-              {tour.durationLabel && <span>{tour.durationLabel}</span>}
+              {(tour.durationLabel || durationHoursLabel) && (
+                <span>{tour.durationLabel || durationHoursLabel}</span>
+              )}
               {modeLabel && (
                 <>
                   <span className="opacity-60">·</span>
@@ -310,12 +317,14 @@ export default async function DayTourPage({ params }: Props) {
           <aside className="lg:sticky lg:top-24 lg:self-start">
             <div className="rounded-lg border border-line bg-cream-warm p-6">
               <dl className="space-y-4 text-sm">
-                {tour.durationLabel && (
+                {(tour.durationLabel || durationHoursLabel) && (
                   <div>
                     <dt className="mb-1 font-sans text-xs font-semibold uppercase tracking-wider text-ink-muted">
                       {t('durationLabel')}
                     </dt>
-                    <dd className="text-ink-soft">{tour.durationLabel}</dd>
+                    <dd className="text-ink-soft">
+                      {tour.durationLabel || durationHoursLabel}
+                    </dd>
                   </div>
                 )}
                 {modeLabel && (

@@ -189,6 +189,7 @@ const tourCardProjection = (locale: Locale) => `
   type,
   tourMode,
   durationDays,
+  durationHours,
   "title": ${localizedField('title', locale)},
   "slug": ${localizedSlug('slug', locale)},
   "allSlugs": slug[]{ _key, "current": value.current },
@@ -412,6 +413,8 @@ const cruiseCardProjection = (locale: Locale) => `
   type,
   tier,
   capacity,
+  poweredBy,
+  durationNights,
   "name": ${localizedField('name', locale)},
   "slug": ${localizedSlug('slug', locale)},
   "allSlugs": slug[]{ _key, "current": value.current },
@@ -437,6 +440,36 @@ export const cruiseBySlugQuery = (locale: Locale) => groq`
     ${cruiseCardProjection(locale)},
     "body": ${portableTextBodyProjection('body', locale)},
     "operatorNotes": ${portableTextBodyProjection('operatorNotes', locale)},
+    departureWeekdays,
+    specificDepartureDates,
+    "departureCity": departureCity->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)}
+    },
+    "returnCity": returnCity->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)}
+    },
+    "itinerary": itinerary[]{
+      dayNumber,
+      "title": ${localizedField('title', locale)},
+      "cities": cities[]->{
+        _id,
+        "name": ${localizedField('name', locale)},
+        "slug": ${localizedSlug('slug', locale)}
+      },
+      "morning": ${portableTextBodyProjection('morning', locale)},
+      "lunch": ${localizedField('lunch', locale)},
+      "afternoon": ${portableTextBodyProjection('afternoon', locale)},
+      "meals": ${localizedField('meals', locale)},
+      "overnight": ${localizedField('overnight', locale)},
+      "highlights": coalesce(
+        highlights[_key == "${locale}"][0].value,
+        highlights[_key == "en"][0].value
+      )
+    },
     gallery[]{
       ...,
       "alt": ${localizedField('alt', locale)}
