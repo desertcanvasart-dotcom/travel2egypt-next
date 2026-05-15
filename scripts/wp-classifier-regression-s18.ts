@@ -35,7 +35,7 @@ const client = createClient({
 
 async function main(){
 // Test 1 — 26 deleted slugs should classify to service-or-utility
-const candidates = JSON.parse(fs.readFileSync(CANDIDATES, 'utf8'));
+const candidates: Array<{ recommended_target: string; slug: string }> = JSON.parse(fs.readFileSync(CANDIDATES, 'utf8'));
 const deletedSlugs = candidates.filter((c) => String(c.recommended_target).startsWith('shell-empty')).map((c) => c.slug);
 
 const t1Failures = [];
@@ -78,7 +78,7 @@ for (const slug of WHITELIST) {
   }
 }
 
-const pad = (s, n) => String(s).padEnd(n);
+const pad = (s: string, n: number) => String(s).padEnd(n);
 console.log('=== Session 18 classifier regression tests ===\n');
 console.log(`Test 1 — 26 deleted shells → service-or-utility:`);
 console.log(`  passed: ${deletedSlugs.length - t1Failures.length}/${deletedSlugs.length}  ${t1Failures.length === 0 ? 'PASS' : 'FAIL'}`);

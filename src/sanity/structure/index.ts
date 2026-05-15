@@ -7,21 +7,79 @@ import {
   HomeIcon,
   CogIcon,
   CommentIcon,
-  StarIcon,
   LinkIcon,
-  TagIcon,
-  DocumentIcon,
   MasterDetailIcon,
-  UserIcon,
+  WarningOutlineIcon,
+  FilterIcon,
 } from '@sanity/icons';
+
+import {
+  byCityChild,
+  byEnumChild,
+  byRefChild,
+  workflowFilterItem,
+  MISSING,
+} from './helpers';
 
 /**
  * Custom Studio structure. Replaces the default "list every type
- * alphabetically" desk with a more navigable hierarchy. Singletons
- * (siteSettings, conciergeLinkMap) appear as single items rather than
- * lists you can add documents to.
+ * alphabetically" desk with a navigable hierarchy.
+ *
+ * Session 19 enhancements (on top of the session-pre-19 baseline):
+ *   - By-city navigation for tour, hotel, guideArticle (41 cities each)
+ *   - By-discriminator facets: tour.type, tour.tourMode, hotel.category,
+ *     nileCruise.type, nileCruise.tier, guideArticle.section,
+ *     travelTip.category
+ *   - "Needing review" workflow nodes surfacing operator-Studio editorial
+ *     backlogs as native Studio navigation rather than requiring
+ *     audit-report cross-reference. Filters target the migration meta
+ *     fields populated by the WP import (migration.cityResolution,
+ *     migration.categoryResolution, migration.typeInference) plus
+ *     content gaps (empty body / summary, missing hero).
+ *
+ * All existing structure nodes are preserved (flat lists kept for power
+ * users); the new nodes are additive.
  */
-export const structure: StructureResolver = (S: StructureBuilder) =>
+
+// Tour-mode enum (schema-defined).
+const TOUR_MODE_VALUES = [
+  { value: 'private', title: 'Private' },
+  { value: 'group', title: 'Group' },
+];
+
+// hotel.category enum.
+const HOTEL_CATEGORY_VALUES = [
+  { value: 'standard', title: 'Standard' },
+  { value: 'deluxe', title: 'Deluxe' },
+  { value: 'luxury', title: 'Luxury' },
+  { value: 'boutique', title: 'Boutique' },
+];
+
+// nileCruise.type enum.
+const CRUISE_TYPE_VALUES = [
+  { value: 'cruise-ship', title: 'Cruise ship' },
+  { value: 'dahabiya', title: 'Dahabiya' },
+  { value: 'felucca', title: 'Felucca' },
+];
+
+// nileCruise.tier enum.
+const CRUISE_TIER_VALUES = [
+  { value: 'standard', title: 'Standard' },
+  { value: 'deluxe', title: 'Deluxe' },
+  { value: 'luxury', title: 'Luxury' },
+  { value: 'boutique', title: 'Boutique' },
+];
+
+// guideArticle.section enum (matches the 5 city-guide nav sections).
+const GUIDE_SECTION_VALUES = [
+  { value: 'introducing', title: 'Introducing' },
+  { value: 'plan-your-trip', title: 'Plan your trip' },
+  { value: 'while-you-are-there', title: 'While you are there' },
+  { value: 'places-to-go', title: 'Places to go' },
+  { value: 'others', title: 'Others' },
+];
+
+export const structure: StructureResolver = (S: StructureBuilder, context) =>
   S.list()
     .title('Travel2Egypt')
     .items([
@@ -39,7 +97,7 @@ export const structure: StructureResolver = (S: StructureBuilder) =>
             ])
         ),
 
-      // ── Tours ──
+      // ── Tours & packages ──
       S.listItem()
         .title('Tours & packages')
         .icon(EarthGlobeIcon)
@@ -47,6 +105,7 @@ export const structure: StructureResolver = (S: StructureBuilder) =>
           S.list()
             .title('Tours & packages')
             .items([
+              // Flat lists (preserved for power users)
               S.listItem()
                 .title('All tours')
                 .schemaType('tour')
@@ -67,6 +126,159 @@ export const structure: StructureResolver = (S: StructureBuilder) =>
                     .title('Packages')
                     .filter('_type == "tour" && type == "package"')
                 ),
+
+              S.divider(),
+
+              // ── Day tours: facets ──
+              S.listItem()
+                .title('Day tours by city')
+                .icon(FilterIcon)
+                .child(
+                  byCityChild(S, context, {
+                    schemaType: 'tour',
+                    cityRefField: 'cities',
+                    isArray: true,
+                    extraFilter: 'type == "dayTour"',
+                    perCityTitlePrefix: 'Day tours',
+                  })
+                ),
+              S.listItem()
+                .title('Day tours by theme')
+                .icon(FilterIcon)
+                .child(
+                  byRefChild(S, context, {
+                    schemaType: 'tour',
+                    refField: 'theme',
+                    refTarget: 'theme',
+                    extraFilter: 'type == "dayTour"',
+                    perBucketTitlePrefix: 'Day tours',
+                  })
+                ),
+              S.listItem()
+                .title('Day tours by mode')
+                .icon(FilterIcon)
+                .child(
+                  byEnumChild(S, {
+                    schemaType: 'tour',
+                    field: 'tourMode',
+                    values: TOUR_MODE_VALUES,
+                    extraFilter: 'type == "dayTour"',
+                    perBucketTitlePrefix: 'Day tours',
+                  })
+                ),
+
+              // ── Day tours: needing review ──
+              S.listItem()
+                .title('Day tours — needing review')
+                .icon(WarningOutlineIcon)
+                .child(
+                  S.list()
+                    .title('Day tours — needing review')
+                    .items([
+                      workflowFilterItem(S, {
+                        id: 'review-tour-daytour-default-cairo',
+                        title: 'Needs city verification (default-cairo)',
+                        schemaType: 'tour',
+                        filter:
+                          'type == "dayTour" && migration.cityResolution == "default-cairo"',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-daytour-missing-body',
+                        title: 'Missing body content',
+                        schemaType: 'tour',
+                        filter: `type == "dayTour" && ${MISSING.bodyEn}`,
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-daytour-missing-hero',
+                        title: 'Missing hero image',
+                        schemaType: 'tour',
+                        filter: `type == "dayTour" && ${MISSING.hero}`,
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-daytour-missing-summary',
+                        title: 'Missing summary',
+                        schemaType: 'tour',
+                        filter: `type == "dayTour" && ${MISSING.summaryEn}`,
+                      }),
+                    ])
+                ),
+
+              S.divider(),
+
+              // ── Packages: facets ──
+              S.listItem()
+                .title('Packages by city')
+                .icon(FilterIcon)
+                .child(
+                  byCityChild(S, context, {
+                    schemaType: 'tour',
+                    cityRefField: 'cities',
+                    isArray: true,
+                    extraFilter: 'type == "package"',
+                    perCityTitlePrefix: 'Packages',
+                  })
+                ),
+              S.listItem()
+                .title('Packages by theme')
+                .icon(FilterIcon)
+                .child(
+                  byRefChild(S, context, {
+                    schemaType: 'tour',
+                    refField: 'theme',
+                    refTarget: 'theme',
+                    extraFilter: 'type == "package"',
+                    perBucketTitlePrefix: 'Packages',
+                  })
+                ),
+              S.listItem()
+                .title('Packages by mode')
+                .icon(FilterIcon)
+                .child(
+                  byEnumChild(S, {
+                    schemaType: 'tour',
+                    field: 'tourMode',
+                    values: TOUR_MODE_VALUES,
+                    extraFilter: 'type == "package"',
+                    perBucketTitlePrefix: 'Packages',
+                  })
+                ),
+
+              // ── Packages: needing review ──
+              S.listItem()
+                .title('Packages — needing review')
+                .icon(WarningOutlineIcon)
+                .child(
+                  S.list()
+                    .title('Packages — needing review')
+                    .items([
+                      workflowFilterItem(S, {
+                        id: 'review-tour-package-default-cairo',
+                        title: 'Needs city verification (default-cairo)',
+                        schemaType: 'tour',
+                        filter:
+                          'type == "package" && migration.cityResolution == "default-cairo"',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-package-missing-body',
+                        title: 'Missing body content',
+                        schemaType: 'tour',
+                        filter: `type == "package" && ${MISSING.bodyEn}`,
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-package-missing-hero',
+                        title: 'Missing hero image',
+                        schemaType: 'tour',
+                        filter: `type == "package" && ${MISSING.hero}`,
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-package-missing-summary',
+                        title: 'Missing summary',
+                        schemaType: 'tour',
+                        filter: `type == "package" && ${MISSING.summaryEn}`,
+                      }),
+                    ])
+                ),
+
               S.divider(),
               S.documentTypeListItem('theme').title('Package themes'),
             ])
@@ -81,7 +293,63 @@ export const structure: StructureResolver = (S: StructureBuilder) =>
             .title('Travel guide')
             .items([
               S.documentTypeListItem('city').title('Cities'),
-              S.documentTypeListItem('guideArticle').title('Guide sub-articles'),
+              S.documentTypeListItem('guideArticle').title('All guide articles'),
+              S.divider(),
+              S.listItem()
+                .title('Guide articles by city')
+                .icon(FilterIcon)
+                .child(
+                  byCityChild(S, context, {
+                    schemaType: 'guideArticle',
+                    cityRefField: 'parentCity',
+                    isArray: false,
+                    perCityTitlePrefix: 'Guide articles',
+                  })
+                ),
+              S.listItem()
+                .title('Guide articles by section')
+                .icon(FilterIcon)
+                .child(
+                  byEnumChild(S, {
+                    schemaType: 'guideArticle',
+                    field: 'section',
+                    values: GUIDE_SECTION_VALUES,
+                    perBucketTitlePrefix: 'Guide articles',
+                  })
+                ),
+              S.listItem()
+                .title('Guide articles — needing review')
+                .icon(WarningOutlineIcon)
+                .child(
+                  S.list()
+                    .title('Guide articles — needing review')
+                    .items([
+                      workflowFilterItem(S, {
+                        id: 'review-guide-missing-section',
+                        title: 'Missing section assignment',
+                        schemaType: 'guideArticle',
+                        filter: '!defined(section)',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-guide-missing-parent-city',
+                        title: 'Missing parent city',
+                        schemaType: 'guideArticle',
+                        filter: '!defined(parentCity)',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-guide-missing-body',
+                        title: 'Missing body content',
+                        schemaType: 'guideArticle',
+                        filter: MISSING.bodyEn,
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-guide-missing-hero',
+                        title: 'Missing hero image',
+                        schemaType: 'guideArticle',
+                        filter: MISSING.hero,
+                      }),
+                    ])
+                ),
             ])
         ),
 
@@ -93,7 +361,19 @@ export const structure: StructureResolver = (S: StructureBuilder) =>
           S.list()
             .title('Travel tips')
             .items([
-              S.documentTypeListItem('travelTip').title('Tips'),
+              S.documentTypeListItem('travelTip').title('All tips'),
+              S.listItem()
+                .title('Tips by category')
+                .icon(FilterIcon)
+                .child(
+                  byRefChild(S, context, {
+                    schemaType: 'travelTip',
+                    refField: 'category',
+                    refTarget: 'travelTipCategory',
+                    perBucketTitlePrefix: 'Tips',
+                  })
+                ),
+              S.divider(),
               S.documentTypeListItem('travelTipCategory').title('Categories'),
             ])
         ),
@@ -121,8 +401,115 @@ export const structure: StructureResolver = (S: StructureBuilder) =>
           S.list()
             .title('Hotels & cruises')
             .items([
-              S.documentTypeListItem('hotel').title('Hotels'),
-              S.documentTypeListItem('nileCruise').title('Nile cruises'),
+              S.documentTypeListItem('hotel').title('All hotels'),
+              S.listItem()
+                .title('Hotels by city')
+                .icon(FilterIcon)
+                .child(
+                  byCityChild(S, context, {
+                    schemaType: 'hotel',
+                    cityRefField: 'city',
+                    isArray: false,
+                    perCityTitlePrefix: 'Hotels',
+                  })
+                ),
+              S.listItem()
+                .title('Hotels by category')
+                .icon(FilterIcon)
+                .child(
+                  byEnumChild(S, {
+                    schemaType: 'hotel',
+                    field: 'category',
+                    values: HOTEL_CATEGORY_VALUES,
+                    perBucketTitlePrefix: 'Hotels',
+                  })
+                ),
+              S.listItem()
+                .title('Hotels — needing review')
+                .icon(WarningOutlineIcon)
+                .child(
+                  S.list()
+                    .title('Hotels — needing review')
+                    .items([
+                      workflowFilterItem(S, {
+                        id: 'review-hotel-default-standard',
+                        title: 'Needs category review (default-standard)',
+                        schemaType: 'hotel',
+                        filter: 'migration.categoryResolution == "default-standard"',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-hotel-missing-body',
+                        title: 'Missing body content',
+                        schemaType: 'hotel',
+                        filter: MISSING.bodyEn,
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-hotel-missing-hero',
+                        title: 'Missing hero image',
+                        schemaType: 'hotel',
+                        filter: MISSING.hero,
+                      }),
+                    ])
+                ),
+
+              S.divider(),
+
+              S.documentTypeListItem('nileCruise').title('All Nile cruises'),
+              S.listItem()
+                .title('Nile cruises by type')
+                .icon(FilterIcon)
+                .child(
+                  byEnumChild(S, {
+                    schemaType: 'nileCruise',
+                    field: 'type',
+                    values: CRUISE_TYPE_VALUES,
+                    perBucketTitlePrefix: 'Nile cruises',
+                  })
+                ),
+              S.listItem()
+                .title('Nile cruises by tier')
+                .icon(FilterIcon)
+                .child(
+                  byEnumChild(S, {
+                    schemaType: 'nileCruise',
+                    field: 'tier',
+                    values: CRUISE_TIER_VALUES,
+                    perBucketTitlePrefix: 'Nile cruises',
+                  })
+                ),
+              S.listItem()
+                .title('Nile cruises — needing review')
+                .icon(WarningOutlineIcon)
+                .child(
+                  S.list()
+                    .title('Nile cruises — needing review')
+                    .items([
+                      workflowFilterItem(S, {
+                        id: 'review-cruise-default-type',
+                        title: 'Needs type verification (default-cruise-ship)',
+                        schemaType: 'nileCruise',
+                        filter: 'migration.typeInference == "default-cruise-ship"',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-cruise-missing-tier',
+                        title: 'Needs tier assignment',
+                        schemaType: 'nileCruise',
+                        filter: '!defined(tier)',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-cruise-missing-body',
+                        title: 'Missing body content',
+                        schemaType: 'nileCruise',
+                        filter: MISSING.bodyEn,
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-cruise-missing-hero',
+                        title: 'Missing hero image',
+                        schemaType: 'nileCruise',
+                        filter: MISSING.hero,
+                      }),
+                    ])
+                ),
             ])
         ),
 
