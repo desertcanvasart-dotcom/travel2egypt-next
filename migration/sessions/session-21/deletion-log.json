@@ -1,0 +1,140 @@
+{
+  "deleted_at": "2026-05-15T14:48:01.443Z",
+  "count": 8,
+  "transaction_id": "11ceQugRC4GuR1GhSnZmOC",
+  "by_category": {
+    "wrong-entity-type": [
+      {
+        "id": "wp-page-86853",
+        "name": "4-Days Stay at Marriott Mena House",
+        "should_be": "tour package (private, 4-day, Cairo/Giza)"
+      }
+    ],
+    "superseded": [
+      {
+        "id": "wp-page-72456",
+        "name": "Hilton Sharm Shark's Bay",
+        "redirect_to": "Double Tree Sharks Bay Resort"
+      }
+    ],
+    "theme-hub-misclassified": [
+      {
+        "id": "wp-page-86752",
+        "name": "Nile Cruise Holidays"
+      },
+      {
+        "id": "wp-page-86704",
+        "name": "Dahabiya Nile Cruise"
+      }
+    ],
+    "duplicates": [
+      {
+        "id": "wp-page-65309",
+        "name": "Nour El Nil Malouka Dahabiya",
+        "kept": "wp-page-64203",
+        "kept_name": "Malouka Dahabiya"
+      },
+      {
+        "id": "wp-page-106202",
+        "name": "Adelaïde Dahabiya: A Journey Along the Nile",
+        "kept": "wp-page-83685",
+        "kept_name": "Adelaïde Dahabiya"
+      },
+      {
+        "id": "wp-page-106203",
+        "name": "Agatha Dahabiya: Journey Along the Nile",
+        "kept": "wp-page-83686",
+        "kept_name": "Agatha Dahabiya"
+      },
+      {
+        "id": "wp-page-70064",
+        "name": " Nour El Nil Meroe Dahabiya",
+        "kept": "wp-page-64190",
+        "kept_name": "Nour El Nil Meroe Dahabiya",
+        "note": "Inferred 4th duplicate (operator listed Adelaïde twice; Meroe is the only other nileCruise duplicate pair, math reconciles to 34)."
+      }
+    ]
+  },
+  "pre_delete_snapshot": [
+    {
+      "_id": "wp-page-106202",
+      "_type": "nileCruise",
+      "bodyLen": 0,
+      "incomingRefs": [],
+      "nameEn": [
+        "Adelaïde Dahabiya: A Journey Along the Nile"
+      ]
+    },
+    {
+      "_id": "wp-page-106203",
+      "_type": "nileCruise",
+      "bodyLen": 0,
+      "incomingRefs": [],
+      "nameEn": [
+        "Agatha Dahabiya: Journey Along the Nile"
+      ]
+    },
+    {
+      "_id": "wp-page-65309",
+      "_type": "nileCruise",
+      "bodyLen": 0,
+      "incomingRefs": [],
+      "nameEn": [
+        "Nour El Nil Malouka Dahabiya"
+      ]
+    },
+    {
+      "_id": "wp-page-70064",
+      "_type": "nileCruise",
+      "bodyLen": 0,
+      "incomingRefs": [],
+      "nameEn": [
+        " Nour El Nil Meroe Dahabiya"
+      ]
+    },
+    {
+      "_id": "wp-page-72456",
+      "_type": "hotel",
+      "bodyLen": 0,
+      "incomingRefs": [],
+      "nameEn": [
+        "Hilton Sharm Shark s Bay"
+      ]
+    },
+    {
+      "_id": "wp-page-86704",
+      "_type": "nileCruise",
+      "bodyLen": 0,
+      "incomingRefs": [],
+      "nameEn": [
+        "Dahabiya Nile Cruise"
+      ]
+    },
+    {
+      "_id": "wp-page-86752",
+      "_type": "nileCruise",
+      "bodyLen": 0,
+      "incomingRefs": [],
+      "nameEn": [
+        "Nile Cruise Holidays"
+      ]
+    },
+    {
+      "_id": "wp-page-86853",
+      "_type": "hotel",
+      "bodyLen": 0,
+      "incomingRefs": [],
+      "nameEn": [
+        "4-Days Stay at Marriott Mena House"
+      ]
+    }
+  ],
+  "pre_delete_issues": [],
+  "post_delete": {
+    "hotel_count": 64,
+    "nileCruise_count": 34,
+    "expected_hotel": 64,
+    "expected_nileCruise": 34,
+    "still_existing": []
+  }
+}

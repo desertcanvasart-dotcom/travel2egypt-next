@@ -1,0 +1,271 @@
+{
+  "generated_at": "2026-05-15T14:32:25.045Z",
+  "counts": {
+    "hotel_total": 66,
+    "nileCruise_total": 40
+  },
+  "queries": {
+    "marriott": {
+      "label": "marriott",
+      "count": 2,
+      "result": [
+        {
+          "_id": "wp-page-63651",
+          "_type": "hotel",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Marriott Mena House Hotel"
+          ],
+          "nameEs": [
+            "Hotel Marriott Mena House"
+          ],
+          "nameJa": [
+            "マリオット・メナ・ハウス・ホテル（Marriott Mena House Hotel）"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        },
+        {
+          "_id": "wp-page-86853",
+          "_type": "hotel",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "4-Days Stay at Marriott Mena House"
+          ],
+          "nameEs": [
+            "Retiro real de 4 días en Marriott Mena House"
+          ],
+          "nameJa": [
+            "ロイヤルリトリート：マリオット・メナ・ハウスでの4日間の滞在"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        }
+      ]
+    },
+    "hilton_sharm": {
+      "label": "hilton_sharm",
+      "count": 1,
+      "result": [
+        {
+          "_id": "wp-page-72456",
+          "_type": "hotel",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Hilton Sharm Shark s Bay"
+          ],
+          "nameEs": [
+            "Double Tree Sharks Bay Resort"
+          ],
+          "nameJa": [
+            "ダブルツリー・シャークス・ベイ・リゾート"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        }
+      ]
+    },
+    "nile_cruise_holidays": {
+      "label": "nile_cruise_holidays",
+      "count": 1,
+      "result": [
+        {
+          "_id": "wp-page-86752",
+          "_type": "nileCruise",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Nile Cruise Holidays"
+          ],
+          "nameEs": [
+            "Vacaciones en un crucero por el Nilo"
+          ],
+          "nameJa": [
+            "ナイルクルーズの休日"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        }
+      ]
+    },
+    "dahabiya_nile_cruise": {
+      "label": "dahabiya_nile_cruise",
+      "count": 1,
+      "result": [
+        {
+          "_id": "wp-page-86704",
+          "_type": "nileCruise",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Dahabiya Nile Cruise"
+          ],
+          "nameEs": [
+            "Crucero Dahabiya por el Nilo"
+          ],
+          "nameJa": [
+            "ダハビーヤ・ナイルクルーズ"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        }
+      ]
+    },
+    "pickalbatros_palace_sharm": {
+      "label": "pickalbatros_palace_sharm",
+      "count": 1,
+      "result": [
+        {
+          "_id": "wp-page-72466",
+          "_type": "hotel",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "8 Pickalbatros Palace Sharm Aqua Park"
+          ],
+          "nameEs": [
+            "8 Pickalbatros Palace Sharm Aqua Park"
+          ],
+          "nameJa": [
+            "ピカラトロス・パレス・シャルム アクアパーク（Pickalbatros Palace Sharm Aqua Park）"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        }
+      ]
+    },
+    "malouka_dups": {
+      "label": "malouka_dups",
+      "count": 2,
+      "result": [
+        {
+          "_id": "wp-page-64203",
+          "_type": "nileCruise",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Malouka Dahabiya"
+          ],
+          "nameEs": [
+            "Malouka Dahabiya"
+          ],
+          "nameJa": [
+            "マルーカ・ダハビヤ（Malouka Dahabiya）"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        },
+        {
+          "_id": "wp-page-65309",
+          "_type": "nileCruise",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Nour El Nil Malouka Dahabiya"
+          ],
+          "nameEs": [
+            "Nour El Nil Malouka Dahabiya"
+          ],
+          "nameJa": [],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        }
+      ]
+    },
+    "adelaide_dups": {
+      "label": "adelaide_dups",
+      "count": 2,
+      "result": [
+        {
+          "_id": "wp-page-106202",
+          "_type": "nileCruise",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Adelaïde Dahabiya: A Journey Along the Nile"
+          ],
+          "nameEs": [
+            "Descubriendo el Nilo: Un viaje a bordo del Adelaïde Dahabiya"
+          ],
+          "nameJa": [
+            "ナイル探求の旅：アデライード・ダハビーヤ号での冒険"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        },
+        {
+          "_id": "wp-page-83685",
+          "_type": "nileCruise",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Adelaïde Dahabiya"
+          ],
+          "nameEs": [
+            "Adelaïde Dahabiya"
+          ],
+          "nameJa": [
+            "アデライド・ダハビヤ（Adelaïde Dahabiya）"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        }
+      ]
+    },
+    "agatha_dups": {
+      "label": "agatha_dups",
+      "count": 2,
+      "result": [
+        {
+          "_id": "wp-page-106203",
+          "_type": "nileCruise",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Agatha Dahabiya: Journey Along the Nile"
+          ],
+          "nameEs": [
+            "El Agatha Dahabiya: Descubriendo el río eterno de Egipto"
+          ],
+          "nameJa": [
+            "アガサ・ダハビーヤ：ナイル川をたどる旅"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        },
+        {
+          "_id": "wp-page-83686",
+          "_type": "nileCruise",
+          "bodyLen": 0,
+          "incomingRefs": [],
+          "nameEn": [
+            "Agatha Dahabiya"
+          ],
+          "nameEs": [
+            "Agatha Dahabiya"
+          ],
+          "nameJa": [
+            "アガサ・ダハビヤ（Agatha Dahabiya）"
+          ],
+          "slugEn": null,
+          "slugEs": null,
+          "slugJa": null
+        }
+      ]
+    }
+  }
+}
