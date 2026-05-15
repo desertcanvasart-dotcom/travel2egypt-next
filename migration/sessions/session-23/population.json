@@ -1,0 +1,379 @@
+{
+  "generated_at": "2026-05-15T16:10:08.481Z",
+  "totals": {
+    "all": 194,
+    "dayTour": 100,
+    "package": 94
+  },
+  "topLevel": [
+    {
+      "name": "type",
+      "kind": "string",
+      "required": true,
+      "desc": "Discriminator: dayTour | package",
+      "populationCount": 194,
+      "denominator": 194,
+      "populationRate": 100,
+      "scope": "all"
+    },
+    {
+      "name": "tourMode",
+      "kind": "string",
+      "required": true,
+      "desc": "private | group",
+      "populationCount": 156,
+      "denominator": 194,
+      "populationRate": 80.4,
+      "scope": "all"
+    },
+    {
+      "name": "theme",
+      "kind": "ref",
+      "required": "package-only",
+      "refTo": "theme",
+      "desc": "Package theme (required for packages)",
+      "populationCount": 94,
+      "denominator": 94,
+      "populationRate": 100,
+      "scope": "package-only"
+    },
+    {
+      "name": "cities",
+      "kind": "refArray",
+      "required": true,
+      "refTo": "city",
+      "desc": "Cities visited",
+      "populationCount": 194,
+      "denominator": 194,
+      "populationRate": 100,
+      "scope": "all"
+    },
+    {
+      "name": "durationDays",
+      "kind": "number",
+      "required": true,
+      "desc": "1 for dayTour, n for package",
+      "populationCount": 194,
+      "denominator": 194,
+      "populationRate": 100,
+      "scope": "all"
+    },
+    {
+      "name": "durationHours",
+      "kind": "number",
+      "required": false,
+      "desc": "Day-tour hours granularity (session-22)",
+      "populationCount": 7,
+      "denominator": 100,
+      "populationRate": 7,
+      "scope": "dayTour-only"
+    },
+    {
+      "name": "durationLabel",
+      "kind": "i18nString",
+      "required": false,
+      "desc": "Human-readable duration",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "title",
+      "kind": "i18nString",
+      "required": true,
+      "desc": "Tour title",
+      "populationCount": 194,
+      "denominator": 194,
+      "populationRate": 100,
+      "scope": "all"
+    },
+    {
+      "name": "slug",
+      "kind": "i18nSlug",
+      "required": false,
+      "desc": "URL slug per locale",
+      "populationCount": 194,
+      "denominator": 194,
+      "populationRate": 100,
+      "scope": "all"
+    },
+    {
+      "name": "summary",
+      "kind": "i18nText",
+      "required": true,
+      "desc": "Card summary",
+      "populationCount": 186,
+      "denominator": 194,
+      "populationRate": 95.9,
+      "scope": "all"
+    },
+    {
+      "name": "body",
+      "kind": "i18nPT",
+      "required": false,
+      "desc": "Editorial description",
+      "populationCount": 186,
+      "denominator": 194,
+      "populationRate": 95.9,
+      "scope": "all"
+    },
+    {
+      "name": "days",
+      "kind": "objArray",
+      "required": false,
+      "desc": "Structured itinerary days (hidden for private)",
+      "populationCount": 189,
+      "denominator": 194,
+      "populationRate": 97.4,
+      "scope": "all"
+    },
+    {
+      "name": "highlights",
+      "kind": "i18nStringArr",
+      "required": false,
+      "desc": "Bullet experience moments",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "inclusions",
+      "kind": "i18nPT",
+      "required": false,
+      "desc": "What's included",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "exclusions",
+      "kind": "i18nPT",
+      "required": false,
+      "desc": "What's not included",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "itinerary",
+      "kind": "i18nPT",
+      "required": false,
+      "desc": "LEGACY freeform itinerary (deprecated)",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "priceIndication",
+      "kind": "i18nString",
+      "required": false,
+      "desc": "Indicative pricing string",
+      "populationCount": 3,
+      "denominator": 194,
+      "populationRate": 1.5,
+      "scope": "all"
+    },
+    {
+      "name": "relatedTours",
+      "kind": "refArray",
+      "required": false,
+      "refTo": "tour",
+      "desc": "Cross-references",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "relatedGuides",
+      "kind": "refArray",
+      "required": false,
+      "refTo": "city|guideArticle",
+      "desc": "Related guide content",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "relatedTravelerStories",
+      "kind": "refArray",
+      "required": false,
+      "refTo": "travelerStory",
+      "desc": "Reviews from travelers",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "heroImage",
+      "kind": "localizedImage",
+      "required": false,
+      "desc": "Hero image",
+      "populationCount": 109,
+      "denominator": 194,
+      "populationRate": 56.2,
+      "scope": "all"
+    },
+    {
+      "name": "gallery",
+      "kind": "imageArray",
+      "required": false,
+      "desc": "Gallery images",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "seo",
+      "kind": "obj",
+      "required": false,
+      "desc": "SEO metadata (metaTitle, metaDescription, ogImage)",
+      "populationCount": 0,
+      "denominator": 194,
+      "populationRate": 0,
+      "scope": "all"
+    },
+    {
+      "name": "migration",
+      "kind": "obj",
+      "required": false,
+      "desc": "Migration metadata (internal)",
+      "populationCount": 194,
+      "denominator": 194,
+      "populationRate": 100,
+      "scope": "all"
+    }
+  ],
+  "tourDay": {
+    "tours_with_days": 189,
+    "total_days": 823,
+    "perField": [
+      {
+        "name": "dayNumber",
+        "kind": "number",
+        "required": true,
+        "desc": "Day index",
+        "populationCount": 823,
+        "denominator": 823,
+        "populationRate": 100
+      },
+      {
+        "name": "title",
+        "kind": "i18nString",
+        "required": false,
+        "desc": "Day title",
+        "populationCount": 819,
+        "denominator": 823,
+        "populationRate": 99.5
+      },
+      {
+        "name": "cities",
+        "kind": "refArray",
+        "required": false,
+        "refTo": "city",
+        "desc": "Cities visited this day",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      },
+      {
+        "name": "morning",
+        "kind": "i18nPT",
+        "required": false,
+        "desc": "Morning activity narrative",
+        "populationCount": 823,
+        "denominator": 823,
+        "populationRate": 100
+      },
+      {
+        "name": "lunch",
+        "kind": "i18nString",
+        "required": false,
+        "desc": "Lunch context",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      },
+      {
+        "name": "afternoon",
+        "kind": "i18nPT",
+        "required": false,
+        "desc": "Afternoon activity narrative",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      },
+      {
+        "name": "meals",
+        "kind": "i18nString",
+        "required": false,
+        "desc": "Meals included this day",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      },
+      {
+        "name": "accommodation",
+        "kind": "i18nString",
+        "required": false,
+        "desc": "Hotel/cruise for the night",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      },
+      {
+        "name": "highlights",
+        "kind": "i18nStringArr",
+        "required": false,
+        "desc": "Day highlights bullets",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      },
+      {
+        "name": "transport",
+        "kind": "i18nString",
+        "required": false,
+        "desc": "Transport mode",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      },
+      {
+        "name": "suggestedActivities",
+        "kind": "i18nStringArr",
+        "required": false,
+        "desc": "Optional add-ons",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      },
+      {
+        "name": "paceRating",
+        "kind": "number",
+        "required": false,
+        "desc": "1 (relaxed) — 5 (intense)",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      },
+      {
+        "name": "photoSpots",
+        "kind": "i18nStringArr",
+        "required": false,
+        "desc": "Notable photo opportunities",
+        "populationCount": 0,
+        "denominator": 823,
+        "populationRate": 0
+      }
+    ]
+  }
+}

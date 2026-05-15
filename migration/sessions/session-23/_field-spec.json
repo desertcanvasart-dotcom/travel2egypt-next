@@ -1,0 +1,43 @@
+{
+  "topLevel": [
+    {"name": "type",                    "kind": "string",        "required": true,  "desc": "Discriminator: dayTour | package"},
+    {"name": "tourMode",                "kind": "string",        "required": true,  "desc": "private | group"},
+    {"name": "theme",                   "kind": "ref",           "required": "package-only", "refTo": "theme", "desc": "Package theme (required for packages)"},
+    {"name": "cities",                  "kind": "refArray",      "required": true,  "refTo": "city", "desc": "Cities visited"},
+    {"name": "durationDays",            "kind": "number",        "required": true,  "desc": "1 for dayTour, n for package"},
+    {"name": "durationHours",           "kind": "number",        "required": false, "desc": "Day-tour hours granularity (session-22)"},
+    {"name": "durationLabel",           "kind": "i18nString",    "required": false, "desc": "Human-readable duration"},
+    {"name": "title",                   "kind": "i18nString",    "required": true,  "desc": "Tour title"},
+    {"name": "slug",                    "kind": "i18nSlug",      "required": false, "desc": "URL slug per locale"},
+    {"name": "summary",                 "kind": "i18nText",      "required": true,  "desc": "Card summary"},
+    {"name": "body",                    "kind": "i18nPT",        "required": false, "desc": "Editorial description"},
+    {"name": "days",                    "kind": "objArray",      "required": false, "desc": "Structured itinerary days (hidden for private)"},
+    {"name": "highlights",              "kind": "i18nStringArr", "required": false, "desc": "Bullet experience moments"},
+    {"name": "inclusions",              "kind": "i18nPT",        "required": false, "desc": "What's included"},
+    {"name": "exclusions",              "kind": "i18nPT",        "required": false, "desc": "What's not included"},
+    {"name": "itinerary",               "kind": "i18nPT",        "required": false, "desc": "LEGACY freeform itinerary (deprecated)"},
+    {"name": "priceIndication",         "kind": "i18nString",    "required": false, "desc": "Indicative pricing string"},
+    {"name": "relatedTours",            "kind": "refArray",      "required": false, "refTo": "tour", "desc": "Cross-references"},
+    {"name": "relatedGuides",           "kind": "refArray",      "required": false, "refTo": "city|guideArticle", "desc": "Related guide content"},
+    {"name": "relatedTravelerStories",  "kind": "refArray",      "required": false, "refTo": "travelerStory", "desc": "Reviews from travelers"},
+    {"name": "heroImage",               "kind": "localizedImage","required": false, "desc": "Hero image"},
+    {"name": "gallery",                 "kind": "imageArray",    "required": false, "desc": "Gallery images"},
+    {"name": "seo",                     "kind": "obj",           "required": false, "desc": "SEO metadata (metaTitle, metaDescription, ogImage)"},
+    {"name": "migration",               "kind": "obj",           "required": false, "desc": "Migration metadata (internal)"}
+  ],
+  "tourDay": [
+    {"name": "dayNumber",               "kind": "number",        "required": true,  "desc": "Day index"},
+    {"name": "title",                   "kind": "i18nString",    "required": false, "desc": "Day title"},
+    {"name": "cities",                  "kind": "refArray",      "required": false, "refTo": "city", "desc": "Cities visited this day"},
+    {"name": "morning",                 "kind": "i18nPT",        "required": false, "desc": "Morning activity narrative"},
+    {"name": "lunch",                   "kind": "i18nString",    "required": false, "desc": "Lunch context"},
+    {"name": "afternoon",               "kind": "i18nPT",        "required": false, "desc": "Afternoon activity narrative"},
+    {"name": "meals",                   "kind": "i18nString",    "required": false, "desc": "Meals included this day"},
+    {"name": "accommodation",           "kind": "i18nString",    "required": false, "desc": "Hotel/cruise for the night"},
+    {"name": "highlights",              "kind": "i18nStringArr", "required": false, "desc": "Day highlights bullets"},
+    {"name": "transport",               "kind": "i18nString",    "required": false, "desc": "Transport mode"},
+    {"name": "suggestedActivities",     "kind": "i18nStringArr", "required": false, "desc": "Optional add-ons"},
+    {"name": "paceRating",              "kind": "number",        "required": false, "desc": "1 (relaxed) — 5 (intense)"},
+    {"name": "photoSpots",              "kind": "i18nStringArr", "required": false, "desc": "Notable photo opportunities"}
+  ]
+}
