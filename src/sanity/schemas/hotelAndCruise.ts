@@ -1,5 +1,5 @@
 import { defineField, defineType } from 'sanity';
-import { HomeIcon } from '@sanity/icons';
+import { HomeIcon, CalendarIcon } from '@sanity/icons';
 
 import {
   MIGRATION_GROUP,
@@ -155,6 +155,8 @@ export const nileCruiseSchema = defineType({
   groups: [
     { name: 'identity', title: 'Identity', default: true },
     { name: 'content', title: 'Content' },
+    { name: 'route', title: 'Route & schedule' },
+    { name: 'itinerary', title: 'Itinerary' },
     { name: 'media', title: 'Media' },
     { name: 'meta', title: 'Meta' },
     MIGRATION_GROUP,
@@ -214,6 +216,27 @@ export const nileCruiseSchema = defineType({
       group: 'identity',
     }),
     defineField({
+      name: 'poweredBy',
+      title: 'Powered by',
+      description:
+        'Propulsion methods. Multi-select for hybrid vessels (e.g., a dahabiya with sail and auxiliary motor).',
+      type: 'array',
+      group: 'identity',
+      of: [
+        {
+          type: 'string',
+          options: {
+            list: [
+              { title: 'Engine', value: 'engine' },
+              { title: 'Wind (sail)', value: 'wind' },
+              { title: 'Steam', value: 'steam' },
+            ],
+          },
+        },
+      ],
+      options: { layout: 'tags' },
+    }),
+    defineField({
       name: 'summary',
       title: 'Summary',
       type: 'internationalizedArrayText',
@@ -240,6 +263,173 @@ export const nileCruiseSchema = defineType({
       group: 'content',
       of: [{ type: 'reference', to: [{ type: 'tour' }] }],
     }),
+
+    // ── Route & schedule ────────────────────────────
+    defineField({
+      name: 'departureCity',
+      title: 'Departure city',
+      description: 'Where the cruise originates.',
+      type: 'reference',
+      to: [{ type: 'city' }],
+      group: 'route',
+    }),
+    defineField({
+      name: 'returnCity',
+      title: 'Return city',
+      description:
+        'Where the cruise ends. Often the same as the departure city for round-trip itineraries.',
+      type: 'reference',
+      to: [{ type: 'city' }],
+      group: 'route',
+    }),
+    defineField({
+      name: 'durationNights',
+      title: 'Duration (nights)',
+      type: 'number',
+      group: 'route',
+      validation: (Rule) => Rule.positive().integer(),
+    }),
+    defineField({
+      name: 'departureWeekdays',
+      title: 'Departure weekdays',
+      description: 'Fixed weekdays the cruise departs (for weekly recurring schedules).',
+      type: 'array',
+      group: 'route',
+      of: [
+        {
+          type: 'string',
+          options: {
+            list: [
+              { title: 'Monday', value: 'mon' },
+              { title: 'Tuesday', value: 'tue' },
+              { title: 'Wednesday', value: 'wed' },
+              { title: 'Thursday', value: 'thu' },
+              { title: 'Friday', value: 'fri' },
+              { title: 'Saturday', value: 'sat' },
+              { title: 'Sunday', value: 'sun' },
+            ],
+          },
+        },
+      ],
+      options: { layout: 'tags' },
+    }),
+    defineField({
+      name: 'specificDepartureDates',
+      title: 'Specific departure dates',
+      description:
+        'For variable or seasonal schedules. Use in addition to or instead of weekly weekdays.',
+      type: 'array',
+      group: 'route',
+      of: [{ type: 'date' }],
+    }),
+
+    // ── Itinerary ────────────────────────────
+    defineField({
+      name: 'itinerary',
+      title: 'Itinerary',
+      description: 'Day-by-day breakdown of the cruise journey.',
+      type: 'array',
+      group: 'itinerary',
+      of: [
+        {
+          type: 'object',
+          name: 'cruiseDay',
+          title: 'Day',
+          fields: [
+            defineField({
+              name: 'dayNumber',
+              title: 'Day number',
+              type: 'number',
+              validation: (Rule) => Rule.required().min(1).integer(),
+            }),
+            defineField({
+              name: 'title',
+              title: 'Day title',
+              description: 'e.g. "Embark in Luxor — Sail to Esna"',
+              type: 'internationalizedArrayString',
+            }),
+            defineField({
+              name: 'cities',
+              title: 'Ports / cities visited this day',
+              type: 'array',
+              of: [{ type: 'reference', to: [{ type: 'city' }] }],
+            }),
+            defineField(
+              localizedPortableTextField('morning', {
+                title: 'Morning',
+                description: 'Morning sailing/excursion narrative.',
+              }) as any
+            ),
+            defineField({
+              name: 'lunch',
+              title: 'Lunch',
+              description: 'Onboard or shore lunch context.',
+              type: 'internationalizedArrayString',
+            }),
+            defineField(
+              localizedPortableTextField('afternoon', {
+                title: 'Afternoon',
+                description: 'Afternoon sailing/excursion narrative.',
+              }) as any
+            ),
+            defineField({
+              name: 'meals',
+              title: 'Meals included',
+              description: 'e.g. "Breakfast, Lunch, Dinner".',
+              type: 'internationalizedArrayString',
+            }),
+            defineField({
+              name: 'overnight',
+              title: 'Overnight',
+              description: 'Where the vessel is moored or sailing for the night.',
+              type: 'internationalizedArrayString',
+            }),
+            defineField({
+              name: 'highlights',
+              title: 'Day highlights',
+              type: 'array',
+              of: [
+                {
+                  type: 'object',
+                  fields: [
+                    defineField({
+                      name: 'value',
+                      title: 'Day highlights (per locale)',
+                      type: 'array',
+                      of: [{ type: 'string' }],
+                    }),
+                  ],
+                  preview: {
+                    select: { key: '_key', count: 'value' },
+                    prepare({ key, count }: any) {
+                      return {
+                        title: `Day highlights — ${key?.toUpperCase()}`,
+                        subtitle: `${count?.length || 0} items`,
+                      };
+                    },
+                  },
+                },
+              ],
+            }),
+          ],
+          preview: {
+            select: {
+              dayNumber: 'dayNumber',
+              title: 'title',
+            },
+            prepare(selection: { dayNumber?: number; title?: Array<{ _key: string; value?: string }> }) {
+              const { dayNumber, title } = selection;
+              const en = Array.isArray(title) ? title.find((t) => t._key === 'en')?.value : undefined;
+              return {
+                title: `Day ${dayNumber ?? '?'}${en ? ` — ${en}` : ''}`,
+                media: CalendarIcon,
+              };
+            },
+          },
+        },
+      ],
+    }),
+
     defineField({
       name: 'heroImage',
       title: 'Hero image',

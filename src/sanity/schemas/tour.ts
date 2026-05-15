@@ -94,6 +94,15 @@ export const tourSchema = defineType({
       validation: (Rule) => Rule.required().min(1).max(60),
     }),
     defineField({
+      name: 'durationHours',
+      title: 'Duration (hours)',
+      description: 'Day-tour granularity (e.g., 4h half-day, 8h full-day, 12h long-day).',
+      type: 'number',
+      group: 'classification',
+      hidden: ({ document }) => document?.type !== 'dayTour',
+      validation: (Rule) => Rule.positive().precision(1),
+    }),
+    defineField({
       name: 'durationLabel',
       title: 'Duration label',
       description:
