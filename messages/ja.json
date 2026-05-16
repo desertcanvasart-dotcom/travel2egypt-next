@@ -374,5 +374,35 @@
     "ctaTours": "エジプト旅行を計画する",
     "metaTitle": "あなたの名前をヒエログリフで · Travel2Egypt",
     "metaDescription": "古代エジプトの書記官が使った音標文字で、どんな名前もヒエログリフに変換します。無料・即時・共有可能。王名枠(カルトゥーシュ)で囲むこともできます。"
+  },
+  "distances": {
+    "eyebrow": "無料プランニングツール",
+    "heading": "エジプト都市間の距離",
+    "subheading": "25都市・104ルートの検索可能な表。km/mi切替、平均速度の調整で運転時間が即時に再計算されます。",
+    "search": "検索",
+    "searchPlaceholder": "都市名…",
+    "unitLabel": "単位",
+    "speedLabel": "速度 (km/h)",
+    "fromLabel": "出発地",
+    "toLabel": "目的地",
+    "regionLabel": "地域",
+    "any": "すべて",
+    "reset": "フィルターをリセット",
+    "resultsCount": "{count} ルート",
+    "emptyState": "条件に合うルートがありません。",
+    "colFrom": "出発地",
+    "colTo": "目的地",
+    "colDistance": "距離",
+    "colDriveTime": "所要時間",
+    "colRegion": "地域",
+    "planMyTransfer": "送迎を手配",
+    "disclaimer": "距離は都市中心部間の道路距離です。所要時間は選択した平均速度に基づく目安です。実際の時間は交通状況、天候、休憩、チェックポイントにより変動します。シナイ半島と東部砂漠のルートでは、検問の所要時間を見越してください。",
+    "regions": {
+      "nileValley": "ナイル川流域",
+      "easternDesert": "東部砂漠",
+      "sinaiPeninsula": "シナイ半島"
+    },
+    "metaTitle": "エジプト都市間の距離 · Travel2Egypt",
+    "metaDescription": "エジプトの25都市・104ルートの距離と運転時間の早見表。ナイル川流域、東部砂漠、シナイ半島を網羅。無料・設定可能・即時表示。"
   }
 }

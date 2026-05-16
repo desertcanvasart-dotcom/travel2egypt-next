@@ -374,5 +374,35 @@
     "ctaTours": "Plan a trip to Egypt",
     "metaTitle": "Your Name in Hieroglyphs · Travel2Egypt",
     "metaDescription": "Translate any name into Egyptian hieroglyphs using the phonetic alphabet of the ancient scribes. Free, instant, shareable — wrap your name in a royal cartouche."
+  },
+  "distances": {
+    "eyebrow": "Free planning tool",
+    "heading": "Distance Between Egyptian Cities",
+    "subheading": "Searchable table of 104 routes across 25 cities. Toggle km/mi, set your average driving speed, and the drive times recalculate live.",
+    "search": "Search",
+    "searchPlaceholder": "City name…",
+    "unitLabel": "Unit",
+    "speedLabel": "Speed (km/h)",
+    "fromLabel": "From",
+    "toLabel": "To",
+    "regionLabel": "Region",
+    "any": "Any",
+    "reset": "Reset filters",
+    "resultsCount": "{count} routes",
+    "emptyState": "No routes match your filters.",
+    "colFrom": "From",
+    "colTo": "To",
+    "colDistance": "Distance",
+    "colDriveTime": "Drive time",
+    "colRegion": "Region",
+    "planMyTransfer": "Plan my transfer",
+    "disclaimer": "Distances are road distances between city centers. Drive times are estimates based on your selected average speed; actual times vary with traffic, weather, fuel stops, and security checkpoints. For Sinai and Eastern Desert routes, plan extra time for checkpoints.",
+    "regions": {
+      "nileValley": "Nile Valley",
+      "easternDesert": "Eastern Desert",
+      "sinaiPeninsula": "Sinai Peninsula"
+    },
+    "metaTitle": "Distance Between Egyptian Cities · Travel2Egypt",
+    "metaDescription": "Searchable table of distances and estimated drive times between 25 Egyptian cities — 104 routes across the Nile Valley, Eastern Desert, and Sinai Peninsula. Free, configurable, instant."
   }
 }
