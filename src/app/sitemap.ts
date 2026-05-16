@@ -58,7 +58,9 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   // /faq deferred until a future session builds the FAQ page (per session
   // 37 cleanup — the route is currently a 404). Re-add when FAQ ships:
   // { path: '/faq', priority: 0.6 },
-  { path: '/about', priority: 0.6 },
+  // Top-level company page (session 38) — priority 0.7, a notch above the
+  // editorial pages below it.
+  { path: '/about', priority: 0.7 },
   { path: '/contact', priority: 0.5 },
   // Name-in-hieroglyphs translator (session 32). Preserves SEO equity from
   // WP /your-name-in-hieroglyphics/ via a 301 set up at cutover.
