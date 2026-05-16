@@ -346,5 +346,17 @@
   },
   "legal": {
     "lastUpdatedPrefix": "Last updated"
+  },
+  "wikiComingSoon": {
+    "eyebrow": "Coming soon",
+    "headline": "Egypt Wiki · {section} is coming",
+    "deck": "Our editorial team is building this section. Monuments — temples, tombs, mosques, museums — are live now and reachable below.",
+    "ctaMonuments": "Browse monuments",
+    "ctaHome": "Back to homepage",
+    "section": {
+      "deities": "Deities",
+      "dynasties": "Dynasties",
+      "people": "People"
+    }
   }
 }

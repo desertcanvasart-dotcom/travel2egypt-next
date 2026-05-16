@@ -50,7 +50,9 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   { path: '/tours', priority: 0.9 },
   { path: '/packages', priority: 0.9 },
   { path: '/guide', priority: 0.9 },
-  { path: '/wiki', priority: 0.9 },
+  // /wiki redirects to /wiki/monuments in v1 (session 31 surgical defer);
+  // surface the live landing directly so search engines index that URL.
+  { path: '/wiki/monuments', priority: 0.9 },
   { path: '/blog', priority: 0.8 },
   { path: '/travel-tips', priority: 0.7 },
   { path: '/faq', priority: 0.6 },

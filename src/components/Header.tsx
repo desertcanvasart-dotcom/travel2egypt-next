@@ -28,9 +28,10 @@ export function Header({ locale }: HeaderProps) {
           <Link href="/guide" className="text-sm text-night-soft transition-colors hover:text-faience">
             {t('guide')}
           </Link>
-          <Link href="/wiki" className="text-sm text-night-soft transition-colors hover:text-faience">
-            {t('wiki')}
-          </Link>
+          {/* Egypt Wiki nav hidden for v1 (session 31 surgical defer):
+              only wikiMonument is content-complete; deities/dynasties/people
+              await v2 editorial. Monuments stay reachable via the city
+              "Places to Go" sidebar. Restore this link when v2 ships. */}
           <Link href="/blog" className="text-sm text-night-soft transition-colors hover:text-faience">
             {t('blog')}
           </Link>

@@ -346,5 +346,17 @@
   },
   "legal": {
     "lastUpdatedPrefix": "最終更新"
+  },
+  "wikiComingSoon": {
+    "eyebrow": "近日公開",
+    "headline": "エジプトWiki・{section}は準備中",
+    "deck": "編集チームがこのセクションを制作中です。神殿、墓、モスク、博物館などの遺跡は現在公開中で、下記からご覧いただけます。",
+    "ctaMonuments": "遺跡を見る",
+    "ctaHome": "ホームへ戻る",
+    "section": {
+      "deities": "神々",
+      "dynasties": "王朝",
+      "people": "人物"
+    }
   }
 }
