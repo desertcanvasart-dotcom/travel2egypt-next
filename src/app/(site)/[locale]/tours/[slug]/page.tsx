@@ -375,7 +375,7 @@ export default async function DayTourPage({ params }: Props) {
             {/* CTAs */}
             <div className="mt-6 space-y-3">
               <Link
-                href={`/plan-your-tour?context=tour:${slug}`}
+                href="/contact"
                 className="block w-full rounded-full bg-orange px-6 py-3.5 text-center text-sm font-medium text-paper transition-colors hover:bg-orange-deep"
               >
                 {t('talkToConcierge')}

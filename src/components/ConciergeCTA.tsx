@@ -9,10 +9,17 @@ import { Link } from '@/i18n/navigation';
  * brand-inputs.md Section 7. Drop into any page where the concierge
  * conversion path makes sense (homepage, city detail, tour detail).
  *
- * `tourSlug` (optional): when present, the primary CTA links to
- *   /plan-your-tour?context=tour:<slug> and the headline label flips
- *   to the tour-context wording.
+ * `tourSlug` (optional): when present, the primary CTA label flips to the
+ *   tour-context wording.
+ *
+ * Stopgap (session 37): the primary CTA points at /contact. It used to
+ * target /plan-your-tour, but that AI-concierge route isn't built yet —
+ * restore it (and the tour-context query param) when the concierge ships.
  */
+
+const WHATSAPP_HREF =
+  'https://wa.me/201158011600?text=' +
+  encodeURIComponent("Hi Travel2Egypt, I'd like to talk about planning a trip.");
 
 interface ConciergeCTAProps {
   tourSlug?: string;
@@ -23,9 +30,7 @@ interface ConciergeCTAProps {
 export function ConciergeCTA({ tourSlug, variant = 'full' }: ConciergeCTAProps) {
   const t = useTranslations('concierge');
 
-  const planHref = tourSlug
-    ? `/plan-your-tour?context=tour:${tourSlug}`
-    : '/plan-your-tour';
+  const planHref = '/contact';
   const primaryLabel = tourSlug ? t('ctaTourLabel') : t('primaryCta');
 
   return (
@@ -70,7 +75,7 @@ export function ConciergeCTA({ tourSlug, variant = 'full' }: ConciergeCTAProps) 
             <span aria-hidden>{t('ctaTrailingArrow')}</span>
           </Link>
           <a
-            href="https://wa.me/+201000000000"
+            href={WHATSAPP_HREF}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-secondary"

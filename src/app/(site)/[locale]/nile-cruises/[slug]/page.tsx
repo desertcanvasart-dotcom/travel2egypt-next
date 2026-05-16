@@ -355,7 +355,7 @@ export default async function CruisePage({ params }: Props) {
 
             <div className="mt-6 space-y-3">
               <Link
-                href={`/plan-your-tour?context=cruise:${slug}`}
+                href="/contact"
                 className="block w-full rounded-full bg-orange px-6 py-3.5 text-center text-sm font-medium text-paper transition-colors hover:bg-orange-deep"
               >
                 {t('talkToConcierge')}

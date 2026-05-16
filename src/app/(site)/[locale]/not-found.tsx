@@ -37,7 +37,7 @@ export default async function LocaleNotFound() {
           </li>
           <li>
             <Link
-              href="/plan-your-tour"
+              href="/contact"
               className="text-night transition-colors hover:text-faience"
             >
               {t('concierge')} →

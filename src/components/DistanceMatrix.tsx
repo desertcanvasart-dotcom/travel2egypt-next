@@ -361,7 +361,7 @@ function PlanLink({
   const slug = transferSlug(route.from, route.to);
   return (
     <Link
-      href={`/plan-your-tour?context=transfer:${slug}`}
+      href="/contact"
       className={
         'text-xs font-semibold uppercase tracking-wider text-orange-deep underline-offset-2 hover:underline ' +
         (className ?? '')
