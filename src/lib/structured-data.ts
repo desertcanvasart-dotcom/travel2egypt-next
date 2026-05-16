@@ -77,7 +77,7 @@ export interface OrganizationInput {
   knowsAbout?: string[];
 }
 
-const ACCREDITATIONS = [
+const ACCREDITATIONS: Array<{ name: string; org: string; url?: string }> = [
   {
     name: 'JATA accredited',
     org: 'Japan Association of Travel Agents',
@@ -92,6 +92,11 @@ const ACCREDITATIONS = [
     name: 'ASTA accredited',
     org: 'American Society of Travel Advisors',
     url: 'https://www.asta.org/',
+  },
+  {
+    name: 'ETAA accredited',
+    org: 'Egyptian Travel Agents Association',
+    // url intentionally omitted — official ETAA URL not yet confirmed.
   },
 ];
 
