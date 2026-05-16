@@ -196,6 +196,20 @@ export const nileCruiseSchema = defineType({
       validation: (Rule) => Rule.required(),
     }),
     defineField({
+      name: 'cruiseRoute',
+      title: 'Cruise route',
+      description:
+        'Which body of water the vessel sails. Optional; defaults to Nile. The Hotel Grade Concept page splits its Cruises sub-section into Nile vs Lake Nasser once this field is filled.',
+      type: 'string',
+      group: 'identity',
+      options: {
+        list: [
+          { title: 'Nile (Luxor / Aswan)', value: 'nile' },
+          { title: 'Lake Nasser (Aswan / Abu Simbel)', value: 'lake-nasser' },
+        ],
+      },
+    }),
+    defineField({
       name: 'tier',
       title: 'Tier',
       type: 'string',
