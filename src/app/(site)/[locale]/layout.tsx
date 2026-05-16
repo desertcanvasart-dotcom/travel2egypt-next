@@ -14,7 +14,7 @@ import { buildOrganizationSchema } from '@/lib/structured-data';
 
 export const metadata: Metadata = {
   title: 'Travel2Egypt',
-  description: 'Egypt travel, with judgment. An Egyptian operator since 1995.',
+  description: 'Egypt travel, with judgment. An Egyptian operator since 2003.',
 };
 
 export function generateStaticParams() {
