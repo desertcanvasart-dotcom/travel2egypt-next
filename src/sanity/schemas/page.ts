@@ -85,6 +85,7 @@ export const legalPageSchema = defineType({
           { title: 'Privacy policy', value: 'privacy' },
           { title: 'Terms & conditions', value: 'terms' },
           { title: 'Cookie policy', value: 'cookies' },
+          { title: 'Disclaimer', value: 'disclaimer' },
           { title: 'AI disclosure', value: 'ai-disclosure' },
           { title: 'Other', value: 'other' },
         ],

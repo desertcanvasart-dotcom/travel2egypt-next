@@ -49,7 +49,11 @@
   "footer": {
     "sisterBrandsLabel": "Travel2Egyptの他ブランド",
     "tagline": "1995年創業のエジプト現地オペレーター。JATA・IATA・ASTA認定。",
-    "rights": "© {year} Travel2Egypt. All rights reserved."
+    "rights": "© {year} Travel2Egypt. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "cookies": "クッキーポリシー",
+    "disclaimer": "免責事項"
   },
   "guide": {
     "landingTitle": "エジプト旅行ガイド",
@@ -339,5 +343,8 @@
     "weekday_fri": "金",
     "weekday_sat": "土",
     "weekday_sun": "日"
+  },
+  "legal": {
+    "lastUpdatedPrefix": "最終更新"
   }
 }

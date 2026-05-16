@@ -37,6 +37,13 @@ const SISTER_BRAND_DESCRIPTIONS: Record<Locale, Record<string, string>> = {
   },
 };
 
+const LEGAL_LINKS = [
+  { href: '/privacy-policy', key: 'privacy' },
+  { href: '/terms',          key: 'terms' },
+  { href: '/cookie-policy',  key: 'cookies' },
+  { href: '/disclaimer',     key: 'disclaimer' },
+] as const;
+
 export function Footer({ locale }: FooterProps) {
   const t = useTranslations('footer');
   const tNav = useTranslations('nav');
@@ -113,9 +120,16 @@ export function Footer({ locale }: FooterProps) {
         {/* Bottom bar */}
         <div className="mt-12 flex flex-col gap-4 border-t border-rule pt-8 text-[0.8125rem] text-night-soft md:flex-row md:items-center md:justify-between">
           <p>{t('rights', { year })}</p>
-          <div className="flex gap-6">
-            <Link href="/privacy" className="transition-colors hover:text-faience">Privacy</Link>
-            <Link href="/terms" className="transition-colors hover:text-faience">Terms</Link>
+          <div className="flex flex-wrap gap-x-6 gap-y-2">
+            {LEGAL_LINKS.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="transition-colors hover:text-faience"
+              >
+                {t(link.key)}
+              </Link>
+            ))}
           </div>
         </div>
       </div>
