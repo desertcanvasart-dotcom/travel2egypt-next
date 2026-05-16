@@ -53,7 +53,7 @@ export function Footer({ locale }: FooterProps) {
   return (
     <footer className="mt-24 border-t border-rule bg-limestone-warm">
       <div className="mx-auto max-w-7xl px-6 py-16">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-5">
           {/* Brand block */}
           <div className="md:col-span-2">
             <div className="mb-4">
@@ -67,7 +67,7 @@ export function Footer({ locale }: FooterProps) {
           {/* Nav columns */}
           <div>
             <h4 className="mb-5 font-sans text-xs font-medium uppercase tracking-[0.16em] text-night-soft">
-              Travel
+              {t('travelLabel')}
             </h4>
             <ul className="space-y-2.5 text-[0.9375rem] text-night">
               <li><Link href="/tours" className="transition-colors hover:text-faience">{tNav('tours')}</Link></li>
@@ -81,7 +81,18 @@ export function Footer({ locale }: FooterProps) {
 
           <div>
             <h4 className="mb-5 font-sans text-xs font-medium uppercase tracking-[0.16em] text-night-soft">
-              About
+              {t('resourcesLabel')}
+            </h4>
+            <ul className="space-y-2.5 text-[0.9375rem] text-night">
+              <li><Link href="/hotel-grade-concept" className="transition-colors hover:text-faience">{t('hotelGradeConcept')}</Link></li>
+              <li><Link href="/distance-between-egyptian-cities" className="transition-colors hover:text-faience">{t('cityDistances')}</Link></li>
+              <li><Link href="/your-name-in-hieroglyphs" className="transition-colors hover:text-faience">{t('nameInHieroglyphs')}</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="mb-5 font-sans text-xs font-medium uppercase tracking-[0.16em] text-night-soft">
+              {t('aboutLabel')}
             </h4>
             <ul className="space-y-2.5 text-[0.9375rem] text-night">
               {/* Egypt Wiki nav hidden for v1 (session 31 surgical defer) —
