@@ -84,6 +84,7 @@ export function Footer({ locale }: FooterProps) {
               {t('resourcesLabel')}
             </h4>
             <ul className="space-y-2.5 text-[0.9375rem] text-night">
+              <li><Link href="/faq" className="transition-colors hover:text-faience">{t('faqLabel')}</Link></li>
               <li><Link href="/hotel-grade-concept" className="transition-colors hover:text-faience">{t('hotelGradeConcept')}</Link></li>
               <li><Link href="/distance-between-egyptian-cities" className="transition-colors hover:text-faience">{t('cityDistances')}</Link></li>
               <li><Link href="/your-name-in-hieroglyphs" className="transition-colors hover:text-faience">{t('nameInHieroglyphs')}</Link></li>

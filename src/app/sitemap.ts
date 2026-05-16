@@ -55,9 +55,8 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   { path: '/wiki/monuments', priority: 0.9 },
   { path: '/blog', priority: 0.8 },
   { path: '/travel-tips', priority: 0.7 },
-  // /faq deferred until a future session builds the FAQ page (per session
-  // 37 cleanup — the route is currently a 404). Re-add when FAQ ships:
-  // { path: '/faq', priority: 0.6 },
+  // FAQ page shipped session 39 (was deferred in session 37).
+  { path: '/faq', priority: 0.6 },
   // Top-level company page (session 38) — priority 0.7, a notch above the
   // editorial pages below it.
   { path: '/about', priority: 0.7 },

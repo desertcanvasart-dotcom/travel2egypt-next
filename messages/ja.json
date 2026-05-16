@@ -60,7 +60,8 @@
     "hotelGradeConcept": "ホテルグレードの考え方",
     "cityDistances": "都市間の距離",
     "nameInHieroglyphs": "あなたの名前をヒエログリフで",
-    "responsibleTravel": "責任ある旅行"
+    "responsibleTravel": "責任ある旅行",
+    "faqLabel": "FAQ"
   },
   "guide": {
     "landingTitle": "エジプト旅行ガイド",
@@ -447,5 +448,13 @@
   "about": {
     "metaTitle": "About Travel2Egypt | 30 Years of Egyptian Travel",
     "metaDescription": "Egyptian-run, Cairo-headquartered. Founded by Islam Hussein, in Egyptian travel since 1993. JATA, IATA, ASTA, ETAA accredited. Founder-led, online-focused, intimate scale."
+  },
+  "faq": {
+    "metaTitle": "FAQ | Egypt Travel Questions Answered | Travel2Egypt",
+    "metaDescription": "Frequently asked questions about traveling in Egypt: visa, best time to visit, budget, safety, tipping, booking with Travel2Egypt. Quick answers from a Cairo-based operator.",
+    "heroHeading": "Frequently Asked Questions",
+    "heroSubhead": "Quick answers to questions we hear most often.",
+    "bottomCtaPretext": "Still have a question?",
+    "bottomCtaLabel": "Talk to us on WhatsApp"
   }
 }

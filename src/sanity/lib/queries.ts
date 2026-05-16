@@ -1286,3 +1286,20 @@ export const cruisesForGradeConceptQuery = (locale: Locale) => groq`
       "slug": ${localizedSlug('slug', locale)}
     }
 `;
+
+// ──────────────────────────────────────────────
+// FAQ — categories with their entries nested (session 39)
+// ──────────────────────────────────────────────
+
+export const faqPageQuery = (locale: Locale) => groq`
+  *[_type == "faqCategory"] | order(orderRank asc) {
+    _id,
+    "name": ${localizedField('name', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "entries": *[_type == "faqEntry" && references(^._id)] | order(orderRank asc) {
+      _id,
+      "question": ${localizedField('question', locale)},
+      "answer": ${portableTextBodyProjection('answer', locale)}
+    }
+  }
+`;
