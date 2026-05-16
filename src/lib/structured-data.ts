@@ -150,10 +150,10 @@ export function buildOrganizationSchema(input: OrganizationInput) {
     '@type': 'TravelAgency',
     '@id': `${SITE_URL}#organization`,
     name: input.siteName ?? SITE_NAME,
-    description: input.tagline ?? 'Egyptian travel operator since 1995.',
+    description: input.tagline ?? 'Egyptian travel operator since 2003.',
     slogan: input.tagline,
     url: SITE_URL,
-    foundingDate: '1995',
+    foundingDate: '2003',
     ...(logoUrl
       ? {
           logo: {

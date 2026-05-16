@@ -22,7 +22,7 @@ import { urlFor } from '@/sanity/lib/image';
 import { routing, type Locale } from '@/i18n/routing';
 
 const SITE_NAME = 'Travel2Egypt';
-const SITE_TAGLINE = 'Egypt travel, with judgment. An Egyptian operator since 1995.';
+const SITE_TAGLINE = 'Egypt travel, with judgment. An Egyptian operator since 2003.';
 
 const LOCALE_OG: Record<Locale, string> = {
   en: 'en_US',
