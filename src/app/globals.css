@@ -84,6 +84,10 @@
     'Segoe UI', sans-serif;
   --font-jp-serif: var(--font-noto-serif-jp), var(--font-cormorant), serif;
   --font-jp-sans: var(--font-noto-sans-jp), var(--font-source-serif-4), sans-serif;
+  /* Hieroglyph face — loaded by the name-in-hieroglyphs page only.
+     Falls through to system Egyptian Hieroglyphs fonts where available. */
+  --font-hieroglyph: var(--font-noto-sans-egyptian-hieroglyphs),
+    'Aegyptus', 'Egyptian Hieroglyphs', serif;
 
   /* Display sizes — Cormorant Garamond, fluid */
   --text-display-xl: clamp(2.75rem, 7vw, 5.5rem);
