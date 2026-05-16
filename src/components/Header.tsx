@@ -39,11 +39,14 @@ export function Header({ locale }: HeaderProps) {
 
         <div className="flex items-center gap-6">
           <LocaleSwitcher currentLocale={locale} />
+          {/* Was /plan-your-tour — that AI-concierge route isn't built yet.
+              Stopgap (session 37): point at /contact so the CTA lands on a
+              real page. Restore the planning route when the concierge ships. */}
           <Link
-            href="/plan-your-tour"
+            href="/contact"
             className="hidden border-b border-rule-strong pb-[2px] text-sm text-night-soft transition-colors hover:border-faience hover:text-faience md:inline-block"
           >
-            {t('planYourTour')} →
+            {t('contact')} →
           </Link>
         </div>
       </div>

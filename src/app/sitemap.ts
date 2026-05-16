@@ -55,7 +55,9 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   { path: '/wiki/monuments', priority: 0.9 },
   { path: '/blog', priority: 0.8 },
   { path: '/travel-tips', priority: 0.7 },
-  { path: '/faq', priority: 0.6 },
+  // /faq deferred until a future session builds the FAQ page (per session
+  // 37 cleanup — the route is currently a 404). Re-add when FAQ ships:
+  // { path: '/faq', priority: 0.6 },
   { path: '/about', priority: 0.6 },
   { path: '/contact', priority: 0.5 },
   // Name-in-hieroglyphs translator (session 32). Preserves SEO equity from

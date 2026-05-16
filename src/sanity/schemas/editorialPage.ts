@@ -43,6 +43,7 @@ export const editorialPageSchema = defineType({
         list: [
           { title: 'Hotel Grade Concept', value: 'hotel-grade-concept' },
           { title: 'Responsible Travel', value: 'responsible-travel' },
+          { title: 'Contact', value: 'contact' },
           { title: 'About', value: 'about' },
           { title: 'How We Plan', value: 'how-we-plan' },
           { title: 'Other', value: 'other' },
@@ -84,7 +85,7 @@ export const editorialPageSchema = defineType({
       group: 'hero',
       fields: [
         defineField({ name: 'label', title: 'Label', type: 'internationalizedArrayString' }),
-        defineField({ name: 'href', title: 'URL', type: 'string', description: 'Site-internal path, e.g. /plan-your-tour' }),
+        defineField({ name: 'href', title: 'URL', type: 'string', description: 'Site-internal path (e.g. /contact) or an external URL (e.g. a WhatsApp deep link)' }),
       ],
     }),
     defineField({
