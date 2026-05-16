@@ -49,7 +49,11 @@
   "footer": {
     "sisterBrandsLabel": "Otras marcas de Travel2Egypt",
     "tagline": "Operador egipcio desde 1995. Acreditados por JATA, IATA y ASTA.",
-    "rights": "© {year} Travel2Egypt. Todos los derechos reservados."
+    "rights": "© {year} Travel2Egypt. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "cookies": "Política de Cookies",
+    "disclaimer": "Aviso legal"
   },
   "guide": {
     "landingTitle": "Guía de viaje a Egipto",
@@ -339,5 +343,8 @@
     "weekday_fri": "Vie",
     "weekday_sat": "Sáb",
     "weekday_sun": "Dom"
+  },
+  "legal": {
+    "lastUpdatedPrefix": "Última actualización"
   }
 }

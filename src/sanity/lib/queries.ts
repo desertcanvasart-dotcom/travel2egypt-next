@@ -1202,3 +1202,20 @@ export const allCitySlugsQuery = groq`
     "slugs": slug[]{ _key, "current": value.current }
   }
 `;
+
+// ──────────────────────────────────────────────
+// Legal pages — fetched by `kind` (the enum is stable across locales,
+// unlike the per-locale slug). One thin query supports all four pages.
+// ──────────────────────────────────────────────
+
+export const legalPageByKindQuery = (locale: Locale) => groq`
+  *[_type == "legalPage" && kind == $kind][0]{
+    _id,
+    kind,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "allSlugs": slug[]{ _key, "current": value.current },
+    lastUpdated,
+    "body": ${portableTextBodyProjection('body', locale)}
+  }
+`;
