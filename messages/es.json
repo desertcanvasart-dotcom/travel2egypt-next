@@ -404,5 +404,29 @@
     },
     "metaTitle": "Distancias entre ciudades egipcias · Travel2Egypt",
     "metaDescription": "Tabla con búsqueda de distancias y tiempos de conducción estimados entre 25 ciudades egipcias — 104 rutas por el Valle del Nilo, el Desierto Oriental y la Península del Sinaí. Gratis, configurable, instantáneo."
+  },
+  "hotelGradeConcept": {
+    "tiers": {
+      "standard": {
+        "heading": "S — Estándar",
+        "tagline": "Clásico 5 estrellas internacional. Habitaciones fiables, buen servicio."
+      },
+      "deluxe": {
+        "heading": "D — Deluxe",
+        "tagline": "Estilo refinado y servicios mejorados — el paso pulido."
+      },
+      "luxury": {
+        "heading": "L — Lujo",
+        "tagline": "Establecimientos insignia y las direcciones más icónicas de Egipto."
+      }
+    },
+    "hotelsLabel": "Hoteles",
+    "cruisesLabel": "Cruceros",
+    "nileCruisesLabel": "Cruceros por el Nilo",
+    "lakeNasserCruisesLabel": "Cruceros por el Lago Nasser",
+    "emptyTierState": "Estamos ampliando nuestra selección {tier} — vuelve pronto.",
+    "jumpTo": "Saltar a categoría",
+    "metaTitle": "Nuestro concepto de categorías hoteleras · Travel2Egypt",
+    "metaDescription": "Tres niveles claros de hoteles de 5 estrellas en Egipto — Estándar, Deluxe y Lujo. Seleccionados por servicio y consistencia, organizados por ciudad, con la flota de cruceros por el Nilo clasificada del mismo modo."
   }
 }

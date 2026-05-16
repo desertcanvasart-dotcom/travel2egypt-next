@@ -1222,3 +1222,67 @@ export const legalPageByKindQuery = (locale: Locale) => groq`
     "body": ${portableTextBodyProjection('body', locale)}
   }
 `;
+
+// ──────────────────────────────────────────────
+// Editorial pages — fetched by kind (Hotel Grade Concept, About, etc.)
+// ──────────────────────────────────────────────
+
+const ctaProjection = (locale: Locale) => `{
+  "label": ${localizedField('label', locale)},
+  href
+}`;
+
+export const editorialPageByKindQuery = (locale: Locale) => groq`
+  *[_type == "editorialPage" && kind == $kind][0]{
+    _id, kind, title, lastUpdated,
+    "heroHeading":      ${localizedField('heroHeading', locale)},
+    "heroSubhead":      ${localizedField('heroSubhead', locale)},
+    "heroPrimaryCta":   heroPrimaryCta${ctaProjection(locale)},
+    "heroSecondaryCta": heroSecondaryCta${ctaProjection(locale)},
+    sections[]{
+      _key,
+      "heading": ${localizedField('heading', locale)},
+      "body":    ${portableTextBodyProjection('body', locale)}
+    },
+    "ribbonBody":         ${localizedField('ribbonBody', locale)},
+    "ribbonCta":          ribbonCta${ctaProjection(locale)},
+    "bottomCtaHeading":   ${localizedField('bottomCtaHeading', locale)},
+    "bottomCtaBody":      ${localizedField('bottomCtaBody', locale)},
+    "bottomCtaPrimary":   bottomCtaPrimary${ctaProjection(locale)},
+    "bottomCtaSecondary": bottomCtaSecondary${ctaProjection(locale)}
+  }
+`;
+
+// ──────────────────────────────────────────────
+// Hotel Grade Concept — tier columns (auto-generated)
+// Boutique-flagged docs are intentionally excluded; the page covers
+// only Standard / Deluxe / Luxury tiers per operator decision.
+// ──────────────────────────────────────────────
+
+export const hotelsForGradeConceptQuery = (locale: Locale) => groq`
+  *[_type == "hotel" && category in ["standard", "deluxe", "luxury"]]
+    | order(category asc, city->orderRank asc, name asc) {
+      _id,
+      category,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "city": city->{
+        _id,
+        orderRank,
+        "name": ${localizedField('name', locale)},
+        "slug": ${localizedSlug('slug', locale)}
+      }
+    }
+`;
+
+export const cruisesForGradeConceptQuery = (locale: Locale) => groq`
+  *[_type == "nileCruise" && tier in ["standard", "deluxe", "luxury"]]
+    | order(tier asc, coalesce(cruiseRoute, "nile") asc, name asc) {
+      _id,
+      "tier": tier,
+      "cruiseRoute": coalesce(cruiseRoute, "nile"),
+      type,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)}
+    }
+`;

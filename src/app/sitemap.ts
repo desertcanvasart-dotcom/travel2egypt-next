@@ -64,6 +64,9 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   // Distance-between-cities tool (session 33). Slug preserved exactly from
   // legacy WP URL — no redirect needed.
   { path: '/distance-between-egyptian-cities', priority: 0.8 },
+  // Hotel Grade Concept editorial + tier columns (session 34). Slug
+  // preserved exactly from legacy WP URL.
+  { path: '/hotel-grade-concept', priority: 0.7 },
 ];
 
 function buildLocaleUrl(path: string, locale: Locale): string {

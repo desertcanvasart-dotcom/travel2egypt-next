@@ -404,5 +404,29 @@
     },
     "metaTitle": "エジプト都市間の距離 · Travel2Egypt",
     "metaDescription": "エジプトの25都市・104ルートの距離と運転時間の早見表。ナイル川流域、東部砂漠、シナイ半島を網羅。無料・設定可能・即時表示。"
+  },
+  "hotelGradeConcept": {
+    "tiers": {
+      "standard": {
+        "heading": "S — スタンダード",
+        "tagline": "国際的な5つ星の標準。安定した客室と確かなサービス。"
+      },
+      "deluxe": {
+        "heading": "D — デラックス",
+        "tagline": "上質なスタイルとアップグレードされた設備。"
+      },
+      "luxury": {
+        "heading": "L — ラグジュアリー",
+        "tagline": "エジプトを代表するフラッグシップと象徴的なアドレス。"
+      }
+    },
+    "hotelsLabel": "ホテル",
+    "cruisesLabel": "クルーズ",
+    "nileCruisesLabel": "ナイル川クルーズ",
+    "lakeNasserCruisesLabel": "ナセル湖クルーズ",
+    "emptyTierState": "{tier}カテゴリーは拡充中です — もうしばらくお待ちください。",
+    "jumpTo": "カテゴリーへ",
+    "metaTitle": "ホテルグレードの考え方 · Travel2Egypt",
+    "metaDescription": "エジプトの5つ星宿泊施設を、スタンダード/デラックス/ラグジュアリーの3段階に明確に整理。都市ごとに編成し、ナイル川クルーズ船団も同じ基準で格付け。"
   }
 }

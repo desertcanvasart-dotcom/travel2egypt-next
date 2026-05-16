@@ -602,7 +602,8 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
           S.list()
             .title('Pages')
             .items([
-              S.documentTypeListItem('page').title('Editorial pages'),
+              S.documentTypeListItem('editorialPage').title('Editorial pages'),
+              S.documentTypeListItem('page').title('Generic pages'),
               S.documentTypeListItem('legalPage').title('Legal pages'),
             ])
         ),

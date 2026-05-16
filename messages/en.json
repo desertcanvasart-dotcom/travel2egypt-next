@@ -404,5 +404,29 @@
     },
     "metaTitle": "Distance Between Egyptian Cities · Travel2Egypt",
     "metaDescription": "Searchable table of distances and estimated drive times between 25 Egyptian cities — 104 routes across the Nile Valley, Eastern Desert, and Sinai Peninsula. Free, configurable, instant."
+  },
+  "hotelGradeConcept": {
+    "tiers": {
+      "standard": {
+        "heading": "S — Standard",
+        "tagline": "Classic international 5-star. Reliable rooms, good service."
+      },
+      "deluxe": {
+        "heading": "D — Deluxe",
+        "tagline": "Refined style and upgraded amenities — the polished step up."
+      },
+      "luxury": {
+        "heading": "L — Luxury",
+        "tagline": "Top-tier flagships and Egypt's iconic addresses."
+      }
+    },
+    "hotelsLabel": "Hotels",
+    "cruisesLabel": "Cruises",
+    "nileCruisesLabel": "Nile Cruises",
+    "lakeNasserCruisesLabel": "Lake Nasser Cruises",
+    "emptyTierState": "We're expanding our {tier} inventory — check back soon.",
+    "jumpTo": "Jump to tier",
+    "metaTitle": "Our Hotel Grade Concept · Travel2Egypt",
+    "metaDescription": "Three clear levels of 5-star stays across Egypt — Standard, Deluxe, and Luxury. Hand-picked for service and consistency, organized by city, with the Nile cruise fleet graded the same way."
   }
 }
