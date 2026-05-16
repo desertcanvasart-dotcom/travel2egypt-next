@@ -67,6 +67,9 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   // Hotel Grade Concept editorial + tier columns (session 34). Slug
   // preserved exactly from legacy WP URL.
   { path: '/hotel-grade-concept', priority: 0.7 },
+  // Responsible Travel editorial (session 36). Slug preserved exactly
+  // from legacy WP URL — captures ~1814 sessions of historical SEO equity.
+  { path: '/responsible-travel', priority: 0.6 },
 ];
 
 function buildLocaleUrl(path: string, locale: Locale): string {

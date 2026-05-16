@@ -99,6 +99,7 @@ export function Footer({ locale }: FooterProps) {
                   see Header.tsx comment. Restore when v2 ships. */}
               <li><Link href="/blog" className="transition-colors hover:text-faience">{tNav('blog')}</Link></li>
               <li><Link href="/about" className="transition-colors hover:text-faience">{tNav('about')}</Link></li>
+              <li><Link href="/responsible-travel" className="transition-colors hover:text-faience">{t('responsibleTravel')}</Link></li>
               <li><Link href="/contact" className="transition-colors hover:text-faience">{tNav('contact')}</Link></li>
             </ul>
           </div>
