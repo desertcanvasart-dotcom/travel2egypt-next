@@ -358,5 +358,21 @@
       "dynasties": "Dinastías",
       "people": "Personajes"
     }
+  },
+  "hieroglyphs": {
+    "eyebrow": "Traductor de nombres gratuito",
+    "heading": "Tu nombre en jeroglíficos",
+    "subheading": "Escribe cualquier nombre y velo en el alfabeto fonético de los escribas del antiguo Egipto.",
+    "banner": "Los jeroglíficos pueden leerse de derecha a izquierda, de izquierda a derecha o de arriba abajo — la dirección depende de hacia dónde miran las aves y los animales.",
+    "inputLabel": "Escribe tu nombre",
+    "placeholder": "Tu nombre aquí…",
+    "emptyState": "Empieza a escribir para ver tu nombre.",
+    "cartoucheToggle": "Enmarcar en un cartucho (el marco real)",
+    "disclaimer": "Esta es una transliteración fonética — una aproximación moderna y divertida. Los escribas antiguos usaban los jeroglíficos de forma simbólica y gramatical; los nombres se escribían normalmente dentro de un cartucho (marco oval) reservado a la realeza. Letras como C/K, E/I, F/V y O/U/W comparten signos porque el antiguo egipcio no distinguía esos sonidos como hace el inglés moderno.",
+    "ctaPrompt": "¿Te interesa cómo usaba estos signos la gente que los talló?",
+    "ctaMonuments": "Explorar monumentos egipcios",
+    "ctaTours": "Planifica tu viaje a Egipto",
+    "metaTitle": "Tu nombre en jeroglíficos · Travel2Egypt",
+    "metaDescription": "Traduce cualquier nombre a jeroglíficos egipcios usando el alfabeto fonético de los escribas antiguos. Gratis, instantáneo, compartible — envuelve tu nombre en un cartucho real."
   }
 }

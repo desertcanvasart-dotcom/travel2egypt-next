@@ -16,6 +16,7 @@ import {
   Source_Serif_4,
   Noto_Serif_JP,
   Noto_Sans_JP,
+  Noto_Sans_Egyptian_Hieroglyphs,
 } from 'next/font/google';
 
 export const cormorant = Cormorant_Garamond({
@@ -47,9 +48,22 @@ export const notoSansJp = Noto_Sans_JP({
   preload: false,
 });
 
+/**
+ * Noto Sans Egyptian Hieroglyphs — used only on the
+ * /your-name-in-hieroglyphs translator page. preload: false so the ~50KB
+ * font file doesn't ship on every page.
+ */
+export const notoSansEgyptianHieroglyphs = Noto_Sans_Egyptian_Hieroglyphs({
+  weight: ['400'],
+  variable: '--font-noto-sans-egyptian-hieroglyphs',
+  display: 'swap',
+  preload: false,
+});
+
 export const fontVariables = [
   cormorant.variable,
   sourceSerif4.variable,
   notoSerifJp.variable,
   notoSansJp.variable,
+  notoSansEgyptianHieroglyphs.variable,
 ].join(' ');

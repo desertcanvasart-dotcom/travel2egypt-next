@@ -58,6 +58,9 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   { path: '/faq', priority: 0.6 },
   { path: '/about', priority: 0.6 },
   { path: '/contact', priority: 0.5 },
+  // Name-in-hieroglyphs translator (session 32). Preserves SEO equity from
+  // WP /your-name-in-hieroglyphics/ via a 301 set up at cutover.
+  { path: '/your-name-in-hieroglyphs', priority: 0.8 },
 ];
 
 function buildLocaleUrl(path: string, locale: Locale): string {

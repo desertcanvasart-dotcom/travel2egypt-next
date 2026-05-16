@@ -358,5 +358,21 @@
       "dynasties": "Dynasties",
       "people": "People"
     }
+  },
+  "hieroglyphs": {
+    "eyebrow": "Free name translator",
+    "heading": "Your Name in Hieroglyphs",
+    "subheading": "Type any name and see it written in the phonetic alphabet of ancient Egyptian scribes.",
+    "banner": "Hieroglyphs can be read right-to-left, left-to-right, or top-to-bottom — direction depends on which way the bird and animal glyphs face.",
+    "inputLabel": "Enter your name",
+    "placeholder": "Your name here…",
+    "emptyState": "Start typing to see your name appear.",
+    "cartoucheToggle": "Wrap in a cartouche (the royal frame)",
+    "disclaimer": "This is a phonetic transliteration — a fun, modern approximation. Ancient scribes used hieroglyphs symbolically and grammatically; names were typically written within a cartouche (oval frame) reserved for royalty. Letters such as C/K, E/I, F/V, and O/U/W share glyphs because ancient Egyptian didn't distinguish those sounds the way modern English does.",
+    "ctaPrompt": "Curious how these signs were used by the people who carved them?",
+    "ctaMonuments": "Explore Egyptian monuments",
+    "ctaTours": "Plan a trip to Egypt",
+    "metaTitle": "Your Name in Hieroglyphs · Travel2Egypt",
+    "metaDescription": "Translate any name into Egyptian hieroglyphs using the phonetic alphabet of the ancient scribes. Free, instant, shareable — wrap your name in a royal cartouche."
   }
 }
