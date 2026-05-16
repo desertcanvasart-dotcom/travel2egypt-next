@@ -6,6 +6,12 @@ Allow: /
 Disallow: /studio
 Disallow: /studio/
 Disallow: /api/
+# Egypt Wiki — only /wiki/monuments ships in v1 (session 31 surgical defer).
+# The three Coming Soon sub-sections are blocked from indexing here in
+# addition to the noindex meta they emit. Remove when v2 ships.
+Disallow: /wiki/deities
+Disallow: /wiki/dynasties
+Disallow: /wiki/people
 
 # ── AI crawlers ──────────────────────────────────────────
 # Listed explicitly so future-you doesn't have to guess what was decided.

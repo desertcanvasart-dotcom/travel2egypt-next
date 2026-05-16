@@ -1141,7 +1141,10 @@ export const sitemapDocsQuery = groq`
   {
     "localizedDocs": *[_type in [
       "city", "guideArticle", "tour", "travelTip", "faqEntry",
-      "wikiPerson", "wikiMonument", "wikiDynasty", "wikiDeity",
+      // wikiDeity / wikiDynasty / wikiPerson deferred to v2 (session 31):
+      // those routes render Coming Soon and shouldn't appear in sitemap.
+      // wikiMonument ships in v1.
+      "wikiMonument",
       "hotel", "nileCruise", "page", "legalPage"
     ] && !(_id in path("drafts.**"))]{
       _id,

@@ -346,5 +346,17 @@
   },
   "legal": {
     "lastUpdatedPrefix": "Última actualización"
+  },
+  "wikiComingSoon": {
+    "eyebrow": "Próximamente",
+    "headline": "Wiki de Egipto · {section} llegará pronto",
+    "deck": "Nuestro equipo editorial está construyendo esta sección. Los monumentos — templos, tumbas, mezquitas, museos — ya están disponibles a continuación.",
+    "ctaMonuments": "Explorar monumentos",
+    "ctaHome": "Volver al inicio",
+    "section": {
+      "deities": "Deidades",
+      "dynasties": "Dinastías",
+      "people": "Personajes"
+    }
   }
 }

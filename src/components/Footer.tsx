@@ -84,7 +84,8 @@ export function Footer({ locale }: FooterProps) {
               About
             </h4>
             <ul className="space-y-2.5 text-[0.9375rem] text-night">
-              <li><Link href="/wiki" className="transition-colors hover:text-faience">{tNav('wiki')}</Link></li>
+              {/* Egypt Wiki nav hidden for v1 (session 31 surgical defer) —
+                  see Header.tsx comment. Restore when v2 ships. */}
               <li><Link href="/blog" className="transition-colors hover:text-faience">{tNav('blog')}</Link></li>
               <li><Link href="/about" className="transition-colors hover:text-faience">{tNav('about')}</Link></li>
               <li><Link href="/contact" className="transition-colors hover:text-faience">{tNav('contact')}</Link></li>

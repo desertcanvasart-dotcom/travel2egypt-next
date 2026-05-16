@@ -409,6 +409,13 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
         ),
 
       // ── Wiki ──
+      // Surgical defer (session 31): only wikiMonument ships in v1.
+      // The other three sub-types — wikiDynasty, wikiPerson, wikiDeity —
+      // have 0 docs each and their /wiki/(deities|dynasties|people)
+      // routes render Coming Soon. Their schemas are kept registered (for
+      // PT internalLink reference targets and forward compatibility), but
+      // hidden from Studio nav until v2 editorial fills them.
+      // To restore: uncomment the three deferred lines below.
       S.listItem()
         .title('Egypt Wiki')
         .icon(CalendarIcon)
@@ -416,10 +423,10 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
           S.list()
             .title('Egypt Wiki')
             .items([
-              S.documentTypeListItem('wikiDynasty').title('Dynasties'),
-              S.documentTypeListItem('wikiPerson').title('People (Pharaohs, Queens, etc.)'),
               S.documentTypeListItem('wikiMonument').title('Monuments (Temples, Tombs, Pyramids)'),
-              S.documentTypeListItem('wikiDeity').title('Deities'),
+              // S.documentTypeListItem('wikiDynasty').title('Dynasties'),
+              // S.documentTypeListItem('wikiPerson').title('People (Pharaohs, Queens, etc.)'),
+              // S.documentTypeListItem('wikiDeity').title('Deities'),
             ])
         ),
 
