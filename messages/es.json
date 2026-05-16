@@ -374,5 +374,35 @@
     "ctaTours": "Planifica tu viaje a Egipto",
     "metaTitle": "Tu nombre en jeroglíficos · Travel2Egypt",
     "metaDescription": "Traduce cualquier nombre a jeroglíficos egipcios usando el alfabeto fonético de los escribas antiguos. Gratis, instantáneo, compartible — envuelve tu nombre en un cartucho real."
+  },
+  "distances": {
+    "eyebrow": "Herramienta de planificación gratuita",
+    "heading": "Distancias entre ciudades egipcias",
+    "subheading": "Tabla con búsqueda de 104 rutas entre 25 ciudades. Cambia entre km/mi, ajusta tu velocidad media y los tiempos se recalculan al instante.",
+    "search": "Buscar",
+    "searchPlaceholder": "Nombre de ciudad…",
+    "unitLabel": "Unidad",
+    "speedLabel": "Velocidad (km/h)",
+    "fromLabel": "Desde",
+    "toLabel": "Hasta",
+    "regionLabel": "Región",
+    "any": "Todas",
+    "reset": "Restablecer filtros",
+    "resultsCount": "{count} rutas",
+    "emptyState": "Ninguna ruta coincide con tus filtros.",
+    "colFrom": "Desde",
+    "colTo": "Hasta",
+    "colDistance": "Distancia",
+    "colDriveTime": "Tiempo en coche",
+    "colRegion": "Región",
+    "planMyTransfer": "Planifica tu traslado",
+    "disclaimer": "Las distancias corresponden a las rutas por carretera entre centros urbanos. Los tiempos son estimados según la velocidad media seleccionada; los tiempos reales varían según tráfico, clima, paradas y controles de seguridad. Para las rutas del Sinaí y el Desierto Oriental, prevé tiempo adicional para los controles.",
+    "regions": {
+      "nileValley": "Valle del Nilo",
+      "easternDesert": "Desierto Oriental",
+      "sinaiPeninsula": "Península del Sinaí"
+    },
+    "metaTitle": "Distancias entre ciudades egipcias · Travel2Egypt",
+    "metaDescription": "Tabla con búsqueda de distancias y tiempos de conducción estimados entre 25 ciudades egipcias — 104 rutas por el Valle del Nilo, el Desierto Oriental y la Península del Sinaí. Gratis, configurable, instantáneo."
   }
 }

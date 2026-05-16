@@ -1,0 +1,732 @@
+{
+  "routes": [
+    {
+      "from": "Cairo",
+      "to": "Abu Simbel",
+      "distance_km": 1112,
+      "estimated_drive_time": "11h 07m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Cairo",
+      "to": "Al Menya",
+      "distance_km": 263,
+      "estimated_drive_time": "2h 38m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Cairo",
+      "to": "Alexandria",
+      "distance_km": 218,
+      "estimated_drive_time": "2h 11m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Cairo",
+      "to": "Aswan",
+      "distance_km": 849,
+      "estimated_drive_time": "8h 29m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Cairo",
+      "to": "Edfu",
+      "distance_km": 745,
+      "estimated_drive_time": "7h 27m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Cairo",
+      "to": "Esna",
+      "distance_km": 700,
+      "estimated_drive_time": "7h 00m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Cairo",
+      "to": "Giza",
+      "distance_km": 4,
+      "estimated_drive_time": "0h 02m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Cairo",
+      "to": "Kom Ombo",
+      "distance_km": 803,
+      "estimated_drive_time": "8h 02m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Cairo",
+      "to": "Luxor",
+      "distance_km": 630,
+      "estimated_drive_time": "6h 18m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Abu Simbel",
+      "to": "Al Menya",
+      "distance_km": 975,
+      "estimated_drive_time": "9h 45m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Abu Simbel",
+      "to": "Alexandria",
+      "distance_km": 1324,
+      "estimated_drive_time": "13h 14m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Abu Simbel",
+      "to": "Aswan",
+      "distance_km": 282,
+      "estimated_drive_time": "2h 49m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Abu Simbel",
+      "to": "Edfu",
+      "distance_km": 297,
+      "estimated_drive_time": "2h 58m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Abu Simbel",
+      "to": "Esna",
+      "distance_km": 419,
+      "estimated_drive_time": "4h 11m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Abu Simbel",
+      "to": "Giza",
+      "distance_km": 1104,
+      "estimated_drive_time": "11h 02m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Abu Simbel",
+      "to": "Kom Ombo",
+      "distance_km": 270,
+      "estimated_drive_time": "2h 42m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Abu Simbel",
+      "to": "Luxor",
+      "distance_km": 501,
+      "estimated_drive_time": "5h 01m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Al Menya",
+      "to": "Alexandria",
+      "distance_km": 476,
+      "estimated_drive_time": "4h 46m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Al Menya",
+      "to": "Aswan",
+      "distance_km": 714,
+      "estimated_drive_time": "7h 08m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Al Menya",
+      "to": "Edfu",
+      "distance_km": 632,
+      "estimated_drive_time": "6h 19m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Al Menya",
+      "to": "Esna",
+      "distance_km": 563,
+      "estimated_drive_time": "5h 38m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Al Menya",
+      "to": "Giza",
+      "distance_km": 281,
+      "estimated_drive_time": "2h 49m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Al Menya",
+      "to": "Kom Ombo",
+      "distance_km": 690,
+      "estimated_drive_time": "6h 54m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Al Menya",
+      "to": "Luxor",
+      "distance_km": 518,
+      "estimated_drive_time": "5h 11m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Alexandria",
+      "to": "Aswan",
+      "distance_km": 1062,
+      "estimated_drive_time": "10h 37m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Alexandria",
+      "to": "Edfu",
+      "distance_km": 957,
+      "estimated_drive_time": "9h 34m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Alexandria",
+      "to": "Esna",
+      "distance_km": 912,
+      "estimated_drive_time": "9h 07m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Alexandria",
+      "to": "Giza",
+      "distance_km": 218,
+      "estimated_drive_time": "2h 11m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Alexandria",
+      "to": "Kom Ombo",
+      "distance_km": 1015,
+      "estimated_drive_time": "10h 09m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Alexandria",
+      "to": "Luxor",
+      "distance_km": 849,
+      "estimated_drive_time": "8h 29m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Aswan",
+      "to": "Edfu",
+      "distance_km": 134,
+      "estimated_drive_time": "1h 20m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Aswan",
+      "to": "Esna",
+      "distance_km": 156,
+      "estimated_drive_time": "1h 34m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Aswan",
+      "to": "Giza",
+      "distance_km": 841,
+      "estimated_drive_time": "8h 25m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Aswan",
+      "to": "Kom Ombo",
+      "distance_km": 48,
+      "estimated_drive_time": "0h 29m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Aswan",
+      "to": "Luxor",
+      "distance_km": 238,
+      "estimated_drive_time": "2h 23m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Edfu",
+      "to": "Esna",
+      "distance_km": 75,
+      "estimated_drive_time": "0h 45m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Edfu",
+      "to": "Giza",
+      "distance_km": 738,
+      "estimated_drive_time": "7h 23m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Edfu",
+      "to": "Kom Ombo",
+      "distance_km": 63,
+      "estimated_drive_time": "0h 38m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Edfu",
+      "to": "Luxor",
+      "distance_km": 109,
+      "estimated_drive_time": "1h 05m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Esna",
+      "to": "Giza",
+      "distance_km": 692,
+      "estimated_drive_time": "6h 55m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Esna",
+      "to": "Kom Ombo",
+      "distance_km": 121,
+      "estimated_drive_time": "1h 13m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Esna",
+      "to": "Luxor",
+      "distance_km": 58,
+      "estimated_drive_time": "0h 35m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Giza",
+      "to": "Kom Ombo",
+      "distance_km": 796,
+      "estimated_drive_time": "7h 58m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Giza",
+      "to": "Luxor",
+      "distance_km": 622,
+      "estimated_drive_time": "6h 13m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Kom Ombo",
+      "to": "Luxor",
+      "distance_km": 139,
+      "estimated_drive_time": "1h 23m",
+      "notes": "Nile Valley"
+    },
+    {
+      "from": "Cairo",
+      "to": "Al Sokhna",
+      "distance_km": 131,
+      "estimated_drive_time": "1h 19m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Cairo",
+      "to": "Hurghada",
+      "distance_km": 466,
+      "estimated_drive_time": "4h 40m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Cairo",
+      "to": "Marsa Alam",
+      "distance_km": 601,
+      "estimated_drive_time": "6h 01m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Cairo",
+      "to": "Safaga",
+      "distance_km": 465,
+      "estimated_drive_time": "4h 39m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Cairo",
+      "to": "Suez",
+      "distance_km": 140,
+      "estimated_drive_time": "1h 24m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Al Sokhna",
+      "to": "Al Gouna",
+      "distance_km": 284,
+      "estimated_drive_time": "2h 50m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Al Sokhna",
+      "to": "Al Quseir",
+      "distance_km": 532,
+      "estimated_drive_time": "5h 19m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Al Sokhna",
+      "to": "Hurghada",
+      "distance_km": 212,
+      "estimated_drive_time": "2h 07m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Al Sokhna",
+      "to": "Suez",
+      "distance_km": 56,
+      "estimated_drive_time": "0h 34m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Al Gouna",
+      "to": "Al Quseir",
+      "distance_km": 172,
+      "estimated_drive_time": "1h 43m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Al Gouna",
+      "to": "Hurghada",
+      "distance_km": 32,
+      "estimated_drive_time": "0h 19m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Al Gouna",
+      "to": "Suez",
+      "distance_km": 372,
+      "estimated_drive_time": "3h 43m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Al Quseir",
+      "to": "Hurghada",
+      "distance_km": 154,
+      "estimated_drive_time": "1h 32m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Al Quseir",
+      "to": "Suez",
+      "distance_km": 519,
+      "estimated_drive_time": "5h 11m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Hurghada",
+      "to": "Suez",
+      "distance_km": 378,
+      "estimated_drive_time": "3h 47m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Cairo",
+      "to": "Ismailia",
+      "distance_km": 123,
+      "estimated_drive_time": "1h 14m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Ismailia",
+      "to": "Al Sokhna",
+      "distance_km": 135,
+      "estimated_drive_time": "1h 21m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Ismailia",
+      "to": "Hurghada",
+      "distance_km": 467,
+      "estimated_drive_time": "4h 40m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Ismailia",
+      "to": "Al Quseir",
+      "distance_km": 624,
+      "estimated_drive_time": "6h 14m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Ismailia",
+      "to": "Safaga",
+      "distance_km": 483,
+      "estimated_drive_time": "4h 50m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Ismailia",
+      "to": "Suez",
+      "distance_km": 90,
+      "estimated_drive_time": "0h 54m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Marsa Alam",
+      "to": "Al Sokhna",
+      "distance_km": 668,
+      "estimated_drive_time": "6h 41m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Marsa Alam",
+      "to": "Al Gouna",
+      "distance_km": 314,
+      "estimated_drive_time": "3h 08m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Marsa Alam",
+      "to": "Al Quseir",
+      "distance_km": 137,
+      "estimated_drive_time": "1h 22m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Marsa Alam",
+      "to": "Safaga",
+      "distance_km": 286,
+      "estimated_drive_time": "2h 52m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Marsa Alam",
+      "to": "Suez",
+      "distance_km": 653,
+      "estimated_drive_time": "6h 32m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Safaga",
+      "to": "Al Sokhna",
+      "distance_km": 444,
+      "estimated_drive_time": "4h 26m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Safaga",
+      "to": "Al Gouna",
+      "distance_km": 91,
+      "estimated_drive_time": "0h 55m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Safaga",
+      "to": "Al Quseir",
+      "distance_km": 88,
+      "estimated_drive_time": "0h 53m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Safaga",
+      "to": "Hurghada",
+      "distance_km": 62,
+      "estimated_drive_time": "0h 37m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Safaga",
+      "to": "Suez",
+      "distance_km": 438,
+      "estimated_drive_time": "4h 23m",
+      "notes": "Eastern Desert"
+    },
+    {
+      "from": "Cairo",
+      "to": "El Tor",
+      "distance_km": 400,
+      "estimated_drive_time": "4h 00m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Cairo",
+      "to": "Saint Catherine",
+      "distance_km": 442,
+      "estimated_drive_time": "4h 25m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Cairo",
+      "to": "Sharm El-Sheikh",
+      "distance_km": 494,
+      "estimated_drive_time": "4h 56m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Cairo",
+      "to": "Dahab",
+      "distance_km": 537,
+      "estimated_drive_time": "5h 22m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Cairo",
+      "to": "Nuweiba",
+      "distance_km": 471,
+      "estimated_drive_time": "4h 43m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Cairo",
+      "to": "Ras Sedr",
+      "distance_km": 201,
+      "estimated_drive_time": "2h 01m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Cairo",
+      "to": "Taba",
+      "distance_km": 415,
+      "estimated_drive_time": "4h 09m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Dahab",
+      "to": "El Tor",
+      "distance_km": 189,
+      "estimated_drive_time": "1h 53m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Dahab",
+      "to": "Saint Catherine",
+      "distance_km": 138,
+      "estimated_drive_time": "1h 23m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Dahab",
+      "to": "Sharm El-Sheikh",
+      "distance_km": 86,
+      "estimated_drive_time": "0h 52m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Dahab",
+      "to": "Nuweiba",
+      "distance_km": 68,
+      "estimated_drive_time": "0h 41m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Dahab",
+      "to": "Ras Sedr",
+      "distance_km": 356,
+      "estimated_drive_time": "3h 34m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Dahab",
+      "to": "Taba",
+      "distance_km": 139,
+      "estimated_drive_time": "1h 23m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "El Tor",
+      "to": "Saint Catherine",
+      "distance_km": 170,
+      "estimated_drive_time": "1h 42m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "El Tor",
+      "to": "Sharm El-Sheikh",
+      "distance_km": 108,
+      "estimated_drive_time": "1h 05m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "El Tor",
+      "to": "Nuweiba",
+      "distance_km": 247,
+      "estimated_drive_time": "2h 28m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "El Tor",
+      "to": "Ras Sedr",
+      "distance_km": 201,
+      "estimated_drive_time": "2h 01m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "El Tor",
+      "to": "Taba",
+      "distance_km": 318,
+      "estimated_drive_time": "3h 11m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Nuweiba",
+      "to": "Saint Catherine",
+      "distance_km": 109,
+      "estimated_drive_time": "1h 05m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Nuweiba",
+      "to": "Sharm El-Sheikh",
+      "distance_km": 142,
+      "estimated_drive_time": "1h 25m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Nuweiba",
+      "to": "Ras Sedr",
+      "distance_km": 337,
+      "estimated_drive_time": "3h 22m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Nuweiba",
+      "to": "Taba",
+      "distance_km": 73,
+      "estimated_drive_time": "0h 44m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Ras Sedr",
+      "to": "Saint Catherine",
+      "distance_km": 255,
+      "estimated_drive_time": "2h 33m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Ras Sedr",
+      "to": "Sharm El-Sheikh",
+      "distance_km": 312,
+      "estimated_drive_time": "3h 07m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Ras Sedr",
+      "to": "Taba",
+      "distance_km": 320,
+      "estimated_drive_time": "3h 12m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Saint Catherine",
+      "to": "Sharm El-Sheikh",
+      "distance_km": 85,
+      "estimated_drive_time": "0h 51m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Saint Catherine",
+      "to": "Taba",
+      "distance_km": 180,
+      "estimated_drive_time": "1h 48m",
+      "notes": "Sinai Peninsula"
+    },
+    {
+      "from": "Sharm El-Sheikh",
+      "to": "Taba",
+      "distance_km": 212,
+      "estimated_drive_time": "2h 07m",
+      "notes": "Sinai Peninsula"
+    }
+  ]
+}
