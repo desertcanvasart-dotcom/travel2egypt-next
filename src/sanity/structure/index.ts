@@ -206,6 +206,18 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
                         schemaType: 'tour',
                         filter: 'type == "dayTour" && !defined(durationHours)',
                       }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-daytour-missing-slug-es',
+                        title: 'Missing Spanish slug',
+                        schemaType: 'tour',
+                        filter: 'type == "dayTour" && !defined(slug[_key=="es"][0].value.current)',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-daytour-missing-slug-ja',
+                        title: 'Missing Japanese slug',
+                        schemaType: 'tour',
+                        filter: 'type == "dayTour" && !defined(slug[_key=="ja"][0].value.current)',
+                      }),
                     ])
                 ),
 
@@ -281,6 +293,18 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
                         title: 'Missing summary',
                         schemaType: 'tour',
                         filter: `type == "package" && ${MISSING.summaryEn}`,
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-package-missing-slug-es',
+                        title: 'Missing Spanish slug',
+                        schemaType: 'tour',
+                        filter: 'type == "package" && !defined(slug[_key=="es"][0].value.current)',
+                      }),
+                      workflowFilterItem(S, {
+                        id: 'review-tour-package-missing-slug-ja',
+                        title: 'Missing Japanese slug',
+                        schemaType: 'tour',
+                        filter: 'type == "package" && !defined(slug[_key=="ja"][0].value.current)',
                       }),
                     ])
                 ),

@@ -436,19 +436,24 @@ export const tourSchema = defineType({
       type: 'type',
       mode: 'tourMode',
       duration: 'durationDays',
+      slug: 'slug',
       media: 'heroImage',
     },
-    prepare({ title, type, mode, duration, media }) {
+    prepare({ title, type, mode, duration, slug, media }) {
       const en = Array.isArray(title)
         ? title.find((t: any) => t._key === 'en')?.value
         : title;
+      const enSlug = Array.isArray(slug)
+        ? slug.find((s: any) => s._key === 'en')?.value?.current
+        : undefined;
       const typeLabel =
         type === 'package'
           ? `Package · ${duration}d`
           : `Day tour${mode ? ` (${mode})` : ''}`;
+      const subtitle = enSlug ? `${typeLabel}  ·  /${enSlug}` : typeLabel;
       return {
         title: en || 'Untitled tour',
-        subtitle: typeLabel,
+        subtitle,
         media,
       };
     },
