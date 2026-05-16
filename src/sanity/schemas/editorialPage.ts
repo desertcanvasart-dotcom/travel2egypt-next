@@ -42,6 +42,7 @@ export const editorialPageSchema = defineType({
       options: {
         list: [
           { title: 'Hotel Grade Concept', value: 'hotel-grade-concept' },
+          { title: 'Responsible Travel', value: 'responsible-travel' },
           { title: 'About', value: 'about' },
           { title: 'How We Plan', value: 'how-we-plan' },
           { title: 'Other', value: 'other' },

@@ -59,7 +59,8 @@
     "resourcesLabel": "Resources",
     "hotelGradeConcept": "Hotel Grade Concept",
     "cityDistances": "City Distances",
-    "nameInHieroglyphs": "Your Name in Hieroglyphs"
+    "nameInHieroglyphs": "Your Name in Hieroglyphs",
+    "responsibleTravel": "Responsible Travel"
   },
   "guide": {
     "landingTitle": "Egypt Travel Guide",
@@ -434,5 +435,9 @@
     "jumpTo": "Jump to tier",
     "metaTitle": "Our Hotel Grade Concept · Travel2Egypt",
     "metaDescription": "Three clear levels of 5-star stays across Egypt — Standard, Deluxe, and Luxury. Hand-picked for service and consistency, organized by city, with the Nile cruise fleet graded the same way."
+  },
+  "responsibleTravel": {
+    "metaTitle": "Responsible Travel · Travel2Egypt",
+    "metaDescription": "Where your money goes when you travel with us. Locally owned businesses, fair employment, community projects in Egyptian oasis and Nile communities. Honest about scope — no greenwashing."
   }
 }

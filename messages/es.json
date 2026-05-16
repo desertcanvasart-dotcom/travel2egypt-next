@@ -59,7 +59,8 @@
     "resourcesLabel": "Recursos",
     "hotelGradeConcept": "Concepto de categorías hoteleras",
     "cityDistances": "Distancias entre ciudades",
-    "nameInHieroglyphs": "Tu nombre en jeroglíficos"
+    "nameInHieroglyphs": "Tu nombre en jeroglíficos",
+    "responsibleTravel": "Viajes responsables"
   },
   "guide": {
     "landingTitle": "Guía de viaje a Egipto",
@@ -434,5 +435,9 @@
     "jumpTo": "Saltar a categoría",
     "metaTitle": "Nuestro concepto de categorías hoteleras · Travel2Egypt",
     "metaDescription": "Tres niveles claros de hoteles de 5 estrellas en Egipto — Estándar, Deluxe y Lujo. Seleccionados por servicio y consistencia, organizados por ciudad, con la flota de cruceros por el Nilo clasificada del mismo modo."
+  },
+  "responsibleTravel": {
+    "metaTitle": "Viajes responsables · Travel2Egypt",
+    "metaDescription": "Adónde va tu dinero cuando viajas con nosotros. Negocios de propiedad local, empleo justo y proyectos comunitarios en los oasis y comunidades del Nilo. Honestos sobre el alcance — sin greenwashing."
   }
 }
