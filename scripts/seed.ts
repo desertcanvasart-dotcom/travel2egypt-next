@@ -1231,7 +1231,7 @@ async function seed() {
       {
         _key: 'affordegypt',
         name: 'AffordEgypt',
-        url: 'https://affordegypt.com',
+        url: 'https://affordegypt.com/',
         description: i18nString(
           'Egypt for budget-conscious travelers.',
           'Egipto para viajeros con presupuesto.',
@@ -1241,7 +1241,7 @@ async function seed() {
       {
         _key: 'solei',
         name: 'Soléi',
-        url: 'https://solei.com',
+        url: 'https://xn--soli-dpa.com/',
         description: i18nString(
           'Boutique luxury, Siwa-rooted.',
           'Lujo boutique, con raíces en Siwa.',
