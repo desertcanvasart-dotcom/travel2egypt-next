@@ -20,6 +20,7 @@ import type { Metadata } from 'next';
 
 import { urlFor } from '@/sanity/lib/image';
 import { routing, type Locale } from '@/i18n/routing';
+import { PRODUCTION_URL } from './site';
 
 const SITE_NAME = 'Travel2Egypt';
 const SITE_TAGLINE = 'Egypt travel, with judgment. An Egyptian operator since 2003.';
@@ -86,10 +87,9 @@ interface Options {
 }
 
 function siteUrl(): string {
-  return (process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000').replace(
-    /\/$/,
-    ''
-  );
+  // Always the production origin — canonical URLs must be host-independent
+  // so the Railway deployment never self-canonicalizes to its own domain.
+  return PRODUCTION_URL;
 }
 
 function buildAbsoluteUrl(locale: Locale, path: string): string {

@@ -7,6 +7,7 @@
  */
 
 import type { Locale } from '@/i18n/routing';
+import { PRODUCTION_URL } from './site';
 
 export type SitemapDocType =
   | 'city'
@@ -96,8 +97,7 @@ export function absoluteUrlForDoc(
 }
 
 export function siteUrlBase(): string {
-  return (process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000').replace(
-    /\/$/,
-    ''
-  );
+  // Always the production origin — sitemap and structured-data URLs must
+  // be host-independent so they never point at the Railway domain.
+  return PRODUCTION_URL;
 }
