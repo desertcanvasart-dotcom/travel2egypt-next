@@ -96,7 +96,7 @@ const ACCREDITATIONS: Array<{ name: string; org: string; url?: string }> = [
   {
     name: 'ETAA accredited',
     org: 'Egyptian Travel Agents Association',
-    // url intentionally omitted — official ETAA URL not yet confirmed.
+    url: 'https://www.etaa-egypt.org/',
   },
 ];
 
