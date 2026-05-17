@@ -12,12 +12,12 @@ interface FooterProps {
 const SISTER_BRANDS = [
   {
     name: 'AffordEgypt',
-    url: 'https://affordegypt.com',
+    url: 'https://affordegypt.com/',
     descriptionKey: 'affordegypt',
   },
   {
     name: 'Soléi',
-    url: 'https://solei.com',
+    url: 'https://xn--soli-dpa.com/',
     descriptionKey: 'solei',
   },
 ];
