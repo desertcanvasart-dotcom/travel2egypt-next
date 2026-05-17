@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
+import { CookiePreferencesButton } from './CookiePreferencesButton';
 import { Wordmark } from './Wordmark';
 
 interface FooterProps {
@@ -88,6 +89,7 @@ export function Footer({ locale }: FooterProps) {
               <li><Link href="/hotel-grade-concept" className="transition-colors hover:text-faience">{t('hotelGradeConcept')}</Link></li>
               <li><Link href="/distance-between-egyptian-cities" className="transition-colors hover:text-faience">{t('cityDistances')}</Link></li>
               <li><Link href="/your-name-in-hieroglyphs" className="transition-colors hover:text-faience">{t('nameInHieroglyphs')}</Link></li>
+              <li><CookiePreferencesButton /></li>
             </ul>
           </div>
 
