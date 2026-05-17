@@ -63,7 +63,7 @@ export const localizedSlug = (field: string, locale: Locale) =>
  * existing `body[]{ ... }` projection.
  */
 export const portableTextBodyProjection = (field: string, locale: Locale) => `
-  ${field}[_key=="${locale}"][0].value[]{
+  coalesce(${field}[_key=="${locale}"][0].value, ${field}[_key=="${DEFAULT_LOCALE}"][0].value)[]{
     ...,
     markDefs[]{
       ...,

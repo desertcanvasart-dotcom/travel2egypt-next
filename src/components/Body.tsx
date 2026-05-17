@@ -56,12 +56,16 @@ export function Body({ value, locale }: BodyProps) {
       image: ({ value }) => {
         if (!value?.asset?._ref) return null;
         const url = urlFor(value).width(1400).quality(85).url();
+        // alt/caption are internationalizedArrayString in the schema;
+        // readLocalized also accepts a plain string for older content.
+        const alt = readLocalized(value.alt, locale);
+        const caption = readLocalized(value.caption, locale);
         return (
           <figure className="my-10">
-            <Image src={url} alt={value.alt || ''} width={1400} height={900} />
-            {value.caption && (
+            <Image src={url} alt={alt} width={1400} height={900} />
+            {caption && (
               <figcaption className="mt-3 font-serif text-sm italic text-night-soft">
-                {value.caption}
+                {caption}
               </figcaption>
             )}
           </figure>
