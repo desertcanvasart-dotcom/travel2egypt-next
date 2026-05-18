@@ -19,8 +19,9 @@ no remaining placeholders:
 - **§6.3** `city.placesToGo` rework — **LOCKED**: re-point to `guideArticle`
   references filtered to `kind == "attraction"`.
 
-Reconciling §2.6 against the authoring guide surfaced **three guide ↔ plan/schema
-conflicts** that need operator reconciliation before Phase 3 — tracked in §11.4.
+Reconciling §2.6 against the authoring guide surfaced three guide ↔ plan/schema
+conflicts; **all three were resolved in Session 52** (drop `publishedAt` from the
+guide, fix the `wadi-el-natrun` slug, drop `kind=parent` 12 → 11) — see §11.4.
 
 ---
 
@@ -43,7 +44,7 @@ not revisited here):
    `annual-events-in-safaga`, `cultural-tours-in-taba`.
 6. Sanity stays clean — no placeholder docs; "no content yet" is handled by the
    redirect map pointing at the parent city guide.
-7. `kind` is a new 12-value enum on `guideArticle`.
+7. `kind` is a new 11-value enum on `guideArticle`.
 8. `section` (existing 5-value enum) is **auto-derived from `kind`** at import —
    editors set only `kind`. (s50 addendum.)
 
@@ -83,19 +84,18 @@ Current fields ([src/sanity/schemas/guideArticle.ts](../../src/sanity/schemas/gu
 
 | Addition | Detail | Severity |
 |---|---|---|
-| **`kind`** | New 12-value string enum (§2.3). Editorial taxonomy. Required. | Minor — additive |
-| **`publishedAt`** | **LOCKED — do not add.** Sanity's built-in `_createdAt` / `_updatedAt`, plus the existing `migration.migratedAt`, cover display-date needs without editorial overhead. This is the lower-risk default; a dedicated `publishedAt` field can be added in a future schema session if a specific need surfaces. ⚠ The content-authoring-guide lists `publishedAt` as a **required** front-matter field — a conflict, since there is no schema field to receive it (§11.4). | Locked — don't add |
+| **`kind`** | New 11-value string enum (§2.3). Editorial taxonomy. Required. | Minor — additive |
+| **`publishedAt`** | **LOCKED — do not add.** Sanity's built-in `_createdAt` / `_updatedAt`, plus the existing `migration.migratedAt`, cover display-date needs without editorial overhead. This is the lower-risk default; a dedicated `publishedAt` field can be added in a future schema session if a specific need surfaces. (`publishedAt` has also been dropped from the content-authoring-guide front-matter — s52 — so there is no longer a guide/schema conflict.) | Locked — don't add |
 
 No other field additions are required for `guideArticle`. **No new document
 types are needed.**
 
 ### §2.3 The `kind` enum — specification
 
-`kind` is the editorial taxonomy. 12 values:
+`kind` is the editorial taxonomy. 11 values:
 
 | `kind` | Meaning |
 |---|---|
-| `parent` | The destination's top-level guide (the `city` page itself — see note) |
 | `signature` | "Only here in X" — the destination's signature page |
 | `attraction` | An individual monument / site / place |
 | `transport-to` | How to reach the destination |
@@ -108,11 +108,13 @@ types are needed.**
 | `heritage` | History and heritage |
 | `overview` | "Places to go" / general destination overview |
 
-Note on `parent`: the destination's parent guide is the **`city`** document
-(`/guide/<city>`), not a `guideArticle`. `kind=parent` exists in the enum for
-taxonomy completeness and for redirect-map rows that target the parent, but a
-`guideArticle` is never authored with `kind=parent`. The import tool rejects
-`kind=parent` on a `guideArticle` MD file (§4.4).
+**On parent destination guides.** A destination's parent guide is its **`city`**
+document, served at `/guide/<city>` — it is not a `guideArticle` and has no
+`kind`. City documents are operator-curated and are **not** created by the bulk
+MD import. If a destination ever lacks one, the `city` doc is created directly
+in Sanity Studio. (All 41 destinations — including Baris and Esna — already have
+a `city` doc; see §11.) There is therefore no `kind=parent` value: the bulk
+import only ever produces the 11 sub-page kinds above.
 
 ### §2.4 `kind` → `section` relationship (s50 addendum — locked)
 
@@ -127,7 +129,6 @@ The bulk-import tool computes `section` from `kind` deterministically:
 
 | `kind` | → `section` |
 |---|---|
-| `parent` | *(none — parent is the city page)* |
 | `signature` | `introducing` |
 | `heritage` | `introducing` |
 | `transport-to` | `plan-your-trip` |
@@ -169,11 +170,11 @@ fields by reading the three locale siblings for a slug.
 |---|---|---|---|
 | `slug` | required | `slug` (i18n-array) | Same slug across all three locales (guide §11). EN required. |
 | `city` | required | `parentCity` | Resolved: city-slug → `city` reference. |
-| `kind` | required | `kind` | One of the 12 values; `section` derived from it (§2.4). |
+| `kind` | required | `kind` | One of the 11 values; `section` derived from it (§2.4). |
 | `locale` | required | *(selects the i18n `_key`)* | Determines which `en`/`es`/`ja` entry this file populates. |
 | `title` | required | `title` (per-locale entry) | |
 | `description` | required | `seo.metaDescription` (per-locale) | ~155-char SEO snippet — maps to the `seo` object, **not** `summary`. |
-| `publishedAt` | required *(front-matter)* | **— not persisted —** | Per §2.2 there is no `guideArticle.publishedAt`. The tool accepts the field (the guide makes authors supply it) but writes it nowhere. **Conflict — §11.4.** |
+| *(`publishedAt` — removed)* | — | — | `publishedAt` was dropped from the authoring guide in s52; it is no longer a front-matter field. Per §2.2 there is no `guideArticle.publishedAt` either. |
 | `heroImage` | optional | `heroImage` | Relative `./images/` path; uploaded to the Sanity CDN by the import tool. |
 | `excerpt` | optional | `summary` (per-locale) | The listing/card blurb — this is what `guideArticle.summary` is for. |
 | `keywords` | optional | `seo` keywords if the `seo` object supports a keyword field; else not persisted | 3c to confirm against the `seo` schema. |
@@ -274,8 +275,7 @@ they share `city`, `kind`, `slug` and `orderRank`, and differ in `title`,
    verbatim (s44 lesson — the MCP tool must not be used here).
 6. **`section` derivation** — set `section` from `kind` via the §2.4 table.
 7. **Validation** (import fails the file, with a reason, if any fail):
-   - `kind` present and one of the 12 values; `kind=parent` rejected on a
-     `guideArticle`.
+   - `kind` present and one of the 11 values.
    - EN locale file present (ES/JA optional but warned — §8).
    - `slug` present; `city` resolves to an existing `city` doc.
    - required fields per the authoring guide present.
@@ -499,7 +499,7 @@ focused Phase 3 session (≈ 0.5 session).
 |---|---|---|---|
 | 3a | Schema additions | Add `kind` enum to `guideArticle`; add the 6 carried-over optional fields from §6.2 (`monumentType`, `preciseLocation`, `coordinates`, `visitorInfo`, `gallery`, `featured`); re-point `city.placesToGo` to `guideArticle`/`kind==attraction` (§6.3); deploy schema | — |
 | 3b | `kind` backfill | Backfill `kind` on the 431 existing `guideArticle` docs (see below) | 3a |
-| 3c | Import-tool build | Build the bulk MD-import tool (§4) against the locked §2.6 mapping; resolve the §11.4 guide-conflicts first; confirm `keywords`/`seo` field details | 3a |
+| 3c | Import-tool build | Build the bulk MD-import tool (§4) against the locked §2.6 mapping; confirm `keywords`/`seo` field details | 3a |
 | 3d | Redirect tooling | Build the redirect-map regenerator + wire `next.config.ts` `redirects()` (§5, §3.4) | — |
 | 3e | wikiMonument consolidation | Run the 134-doc transformation (§6) | 3a, 3c-ish |
 | 3f | Merge tasks | Execute the 2 merges (§7) | 3a |
@@ -546,7 +546,7 @@ content (the 71 absent attractions + the 134 consolidated monuments).
 |---|---|---|
 | `content-authoring-guide.md` | — | **Resolved** — committed to `docs/migrations/`; §2.6 reconciled against it. |
 | `wikiMonument` orphan-field disposition | — | **Resolved** — §6.2: 6 carried, 6 dropped, 4 cross-refs prosified. |
-| `publishedAt` field semantics | — | **Resolved** — §2.2: locked "do not add" (see the §11.4 front-matter conflict). |
+| `publishedAt` field semantics | — | **Resolved** — §2.2: locked "do not add"; also removed from the authoring guide (s52, §11.4). |
 | **D5 — Giza's 2 unspecified redirect pages** | Operator | Carried from s48 §6.4 — URLs still unidentified. |
 | 91 absent attractions — city assignment | Phase 4 | Each absent attraction's `parentCity` is set from the inventory CSV `destination`; `biahmu` resolved to Al Fayoum (s48 §6.2). |
 | 134 `wikiMonument` city assignments | — | **Resolved** — `wikiMonument.city` is a required ref; no ambiguity (§6.5). |
@@ -554,33 +554,25 @@ content (the 71 absent attractions + the 134 consolidated monuments).
 | Translation-review queue | Editorial | Cumulative; s46/s47 items + any locale-incomplete imports. |
 | Session 47 cookie-policy reconciliation | — | **Resolved** — completed in s47; production-dataset boilerplate remains a cutover-sweep item only. |
 
-### §11.4 Guide ↔ plan/schema conflicts (surfaced reconciling §2.6 — operator decision needed)
+### §11.4 Guide ↔ plan/schema conflicts — RESOLVED (Session 52)
 
 Reconciling §2.6 against `content-authoring-guide.md` exposed three points where
-the authoring guide and the plan/schema disagree. None blocks the Phase 3a
-schema session, but each needs an operator call before the Phase 3c import tool
-is built — and two are cheap one-line fixes to the guide:
+the authoring guide and the plan/schema disagreed. **All three were resolved in
+Session 52** — both documents now agree:
 
-1. **`publishedAt` — required in front-matter, but no schema field.** The guide
-   (§4) makes `publishedAt` a *required* authoring field; §2.2 locks "do not add
-   a `publishedAt` field to `guideArticle`." So authors must supply a value the
-   import tool has nowhere to store. **Recommendation:** drop `publishedAt` from
-   the guide's *required* list (it adds editorial overhead for a value Sanity's
-   `_createdAt`/`_updatedAt` already cover) — or, if the date genuinely matters,
-   reverse §2.2. One or the other must change.
-2. **`wadi-al-natron` vs `wadi-el-natrun`.** The guide's city-slug list (§2)
-   spells the destination `wadi-al-natron`; the actual `city` document's slug in
-   Sanity is **`wadi-el-natrun`** (`wp-page-58731`). The import tool resolves
-   `city` front-matter to a `city` reference by slug — `wadi-al-natron` will not
-   match. **Recommendation:** fix the guide to `wadi-el-natrun` (the slug is
-   load-bearing and the Sanity doc is the source of truth).
-3. **`kind=parent` — authorable page vs. plan rule.** The guide (§5) presents
-   `parent` as a page authors create as a `.md` file ("the destination's main
-   travel-guide page, one per city"); plan §2.3 states a `guideArticle` is never
-   authored with `kind=parent` (the parent *is* the `city` doc) and the import
-   tool rejects it. **Recommendation:** decide whether `parent` MD files are
-   accepted and routed to update the `city` doc, or disallowed — then align the
-   guide and §2.3/§4.7 accordingly.
+1. **`publishedAt`** — **Resolved.** The guide made `publishedAt` a *required*
+   front-matter field, but §2.2 locks "no `publishedAt` schema field." `publishedAt`
+   has been **removed from the authoring guide** (front-matter spec, required-field
+   table, and example). Sanity's `_createdAt`/`_updatedAt` cover display-date needs.
+2. **`wadi-al-natron` vs `wadi-el-natrun`** — **Resolved.** The guide's city-slug
+   list spelled it `wadi-al-natron`; the `city` document's slug in Sanity is
+   `wadi-el-natrun` (`wp-page-58731`). The **guide has been corrected** to
+   `wadi-el-natrun`. A full 41-slug cross-check (s52 pre-flight) confirmed this was
+   the *only* mismatch — the other 40 slugs match Sanity exactly.
+3. **`kind=parent`** — **Resolved.** `kind=parent` has been **dropped entirely**
+   (12 → 11 `kind` values) from both documents. A destination's parent guide is
+   its `city` document at `/guide/<city>` — operator-curated, never bulk-imported
+   (see §2.3). The bulk import only ever produces the 11 sub-page kinds.
 
 ### City-doc check (resolved this session)
 
@@ -600,7 +592,7 @@ Qena additionally have stray `drafts.` siblings — cosmetic; clean up opportuni
 | **Bulk-write rate limits / Sanity API quotas** | Low–Medium — ~134 + ~2,000 writes | Throttle the write loop; batch per destination; the raw client + `createOrReplace` is idempotent so interrupted runs resume safely. |
 | **Trilingual gaps** if the team delivers EN-only | Medium — locale-incomplete pages | Import proceeds EN-only with a `reviewFlag`; runtime EN-fallback keeps pages whole; queue tracks the debt. |
 | **Image volume + CDN cost** | Low–Medium | `media.ts` caches by source hash (no re-upload); monitor Sanity asset usage during the first Phase 4 batch. |
-| **Guide ↔ plan conflicts (§11.4)** unresolved when 3c builds the parser | Low–Medium | Three known conflicts (`publishedAt`, `wadi-el-natrun` slug, `kind=parent`); all surfaced and tracked — operator resolves them before 3c. |
+| Guide ↔ plan conflicts (§11.4) | Resolved | All three (`publishedAt`, `wadi-el-natrun` slug, `kind=parent`) were resolved in Session 52 — guide and plan are aligned. |
 | **431-doc `kind` backfill mis-assigns** | Low | `places-to-go`→`attraction` is exact; everything else is heuristic + operator review of ambiguous docs. |
 
 ---
@@ -613,12 +605,9 @@ scope is now fully specified and locked: add the `kind` enum, add the 6
 carried-over optional fields (§6.2), and re-point `city.placesToGo` (§6.3).
 Small, additive, low-risk — and it unblocks the most parallelism.
 
-**3a has no remaining pre-conditions** — all four design decisions are locked.
-
-**Before Phase 3c** (the import-tool session), the operator should resolve the
-three guide ↔ plan conflicts in §11.4 (`publishedAt` required-vs-unstored, the
-`wadi-el-natrun` slug spelling, and `kind=parent` handling). None gates 3a;
-all three should be settled before the parser is written.
+**3a has no remaining pre-conditions** — all four design decisions are locked,
+and the three guide ↔ plan conflicts (§11.4) were resolved in Session 52. The
+plan and the authoring guide are now fully aligned.
 
 Once 3a lands, run 3b (`kind` backfill), 3c (import tool) and 3d (redirect
 tooling) — 3c and 3d in parallel — then 3e and 3f.

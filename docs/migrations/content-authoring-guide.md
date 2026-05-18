@@ -71,7 +71,7 @@ siwa-oasis
 sohag
 suez
 taba
-wadi-al-natron
+wadi-el-natrun
 ```
 
 Final URL pattern: `travel2egypt.org/guide/<city-slug>/<page-slug>/`
@@ -112,7 +112,6 @@ locale: en
 title: "Valley of the Kings"
 description: "The royal necropolis of the New Kingdom pharaohs across the Nile from Luxor."
 heroImage: ./images/valley-of-the-kings-hero.jpg
-publishedAt: 2026-05-20
 ---
 
 Body content starts here as standard markdown.
@@ -128,7 +127,6 @@ Body content starts here as standard markdown.
 | `locale` | Language of this file's body content | `en`, `es`, or `ja` |
 | `title` | Page title (used as `<h1>`, page title, og:title) | `"Valley of the Kings"` |
 | `description` | Meta description (~155 chars; SEO snippet) | `"..."` |
-| `publishedAt` | Intended publish date (ISO format: `YYYY-MM-DD`) | `2026-05-20` |
 
 ### Optional fields
 
@@ -150,11 +148,11 @@ Body content starts here as standard markdown.
 
 ## 5. The `kind` field — required values
 
-Pick exactly one per page. The bulk-import tooling rejects unknown values.
+Pick exactly one of the **11** values per page. The bulk-import tooling rejects
+unknown values.
 
 | Value | Use for | Example |
 |---|---|---|
-| `parent` | The destination's main travel-guide page (one per city) | `luxor-travel-guide` (slug) |
 | `signature` | "Only here in X" page — what makes this destination unique | `only-here-in-luxor` |
 | `attraction` | Specific monument, beach, valley, site, named place | `valley-of-the-kings` |
 | `transport-to` | How to get to this destination | `how-to-reach-luxor` |
@@ -168,6 +166,11 @@ Pick exactly one per page. The bulk-import tooling rejects unknown values.
 | `overview` | Places-to-go / general overview pages | `places-to-go-in-luxor` |
 
 If a page doesn't fit any of these, **stop and ask** — don't invent a new `kind`.
+
+A destination's *main travel-guide page* (the city landing page at
+`/guide/<city>`) is **not** authored here — city pages are operator-curated
+directly in Sanity Studio, not bulk-imported. Only the 11 sub-page kinds above
+are authored as `.md` files.
 
 ---
 
@@ -318,7 +321,6 @@ locale: en
 title: "Valley of the Kings"
 description: "The royal necropolis of the New Kingdom pharaohs, cut into the limestone cliffs across the Nile from Luxor."
 heroImage: ./images/valley-of-the-kings-hero.jpg
-publishedAt: 2026-05-20
 ---
 
 For five centuries — from the 16th to the 11th century BC — Egypt's New Kingdom pharaohs were buried in tombs cut deep into the rock of a narrow desert wadi west of Thebes. The Valley of the Kings holds at least 65 tombs, and almost certainly more still undiscovered.
