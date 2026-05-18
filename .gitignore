@@ -16,3 +16,4 @@ migration/.brand-inputs/
 !.claude/settings.json
 migration/content/*-prep.md
 migration/content/about-team-photo.*
+migration/content/*.csv
