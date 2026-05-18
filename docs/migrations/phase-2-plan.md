@@ -7,13 +7,20 @@ This is the executable spec for **Phase 3** (structure build) and **Phase 4**
 ([phase-1-gap-report.md](phase-1-gap-report.md)) and the Session 49 conflict-doc
 dump ([session-49-conflict-docs.md](session-49-conflict-docs.md)).
 
-Two items in this plan are marked **`[OPERATOR INPUT PENDING]`** — they could not
-be finalised this session and must be resolved before the Phase 3 sessions they
-gate:
+**Session 51 backfill status.** The s50 plan carried two `[OPERATOR INPUT
+PENDING]` placeholders. Session 51 resolves what it can:
 
-- **§2.6** front-matter → Sanity field mapping — needs `content-authoring-guide.md`
-  (not yet placed in the repo).
-- **§6.2** `wikiMonument` orphan-field disposition — needs an operator decision.
+- **§6.2** `wikiMonument` orphan-field disposition — **LOCKED** (s51): carry 6
+  fields, drop 6, prosify the 4 dropped wiki cross-refs.
+- **§6.3** `city.placesToGo` rework — **LOCKED** (s51): re-point to
+  `guideArticle` references filtered to `kind == "attraction"`.
+- **§2.6** front-matter → Sanity field mapping — **still pending**:
+  `docs/migrations/content-authoring-guide.md` was not placed in the repo for
+  the s50 plan or the s51 backfill. The provisional mapping stands; it gates the
+  Phase 3c import-tool parser only.
+- **§2.2** `publishedAt` — **pending confirmation**: the s51 brief's decision
+  slot was left blank. The "don't add" recommendation stands as the working
+  assumption pending one-line operator confirmation.
 
 ---
 
@@ -77,7 +84,7 @@ Current fields ([src/sanity/schemas/guideArticle.ts](../../src/sanity/schemas/gu
 | Addition | Detail | Severity |
 |---|---|---|
 | **`kind`** | New 12-value string enum (§2.3). Editorial taxonomy. Required. | Minor — additive |
-| **`publishedAt`** | Not present anywhere today. **Recommendation: do not add.** Sanity's built-in draft/publish (`_id` vs `drafts._id`) already models published state, and the runtime client reads the `published` perspective. A separate `publishedAt` field would duplicate that. If editorial wants a *visible* publication date, add it then — kept as an open item (§11). | Open |
+| **`publishedAt`** | Not present anywhere today. **Recommendation: do not add** — Sanity's built-in draft/publish (`_id` vs `drafts._id`) already models published state, and the runtime client reads the `published` perspective; a separate field would duplicate it. If editorial later wants a *visible* publication date, add it then. **Not yet locked:** the Session 51 backfill brief left this decision slot (`[OPERATOR FILLS — add-as-optional / don't-add]`) blank, so "don't add" stands as the working assumption pending a one-line operator confirmation. | Pending confirm |
 
 No other field additions are required for `guideArticle`. **No new document
 types are needed.**
@@ -153,8 +160,13 @@ use the raw `@sanity/client` so `_key`s are stored verbatim (s44 lesson).
 
 ### §2.6 Front-matter → Sanity field mapping
 
-**`[OPERATOR INPUT PENDING]` — `docs/migrations/content-authoring-guide.md` is
-not yet in the repo.** The exact front-matter keys cannot be pinned without it.
+**`[OPERATOR INPUT PENDING]` — still unresolved as of Session 51.**
+`docs/migrations/content-authoring-guide.md` was expected in the repo for the
+s50 plan and again for the s51 backfill, but is not present in either. The exact
+front-matter keys cannot be pinned without it. The provisional mapping below is
+the working assumption; the Phase 3c import-tool session must reconcile it
+against the guide before the parser is written. This gates **Phase 3c only** —
+not the Phase 3a schema session.
 
 Provisional mapping, to be confirmed against the guide:
 
@@ -370,36 +382,57 @@ Effort ≈ **1 session** (the scorer and CSV writer already exist).
 | `migration` | `migration` |
 | *(set)* | `kind = attraction`, `section = places-to-go` (derived) |
 
-**`[OPERATOR INPUT PENDING]` — orphan fields with no `guideArticle` home.**
-The consolidation decision is locked; the disposition of these 12 fields is not.
-For each, choose **fold into body** / **add field to `guideArticle`** / **drop**:
+**Orphan-field disposition — LOCKED (Session 51).** The 12 `wikiMonument`
+fields with no `guideArticle` equivalent are dispositioned as follows.
 
-| `wikiMonument` field | Note |
+**Carry over** — added to `guideArticle` as **optional** fields in the Phase 3a
+schema session. They sit unused on non-attraction `guideArticle` docs and carry
+the consolidated monument data on `kind=attraction` docs:
+
+| Field carried over | Type |
 |---|---|
-| `visitorInfo` (portable text) | A whole second body — operator-grade visiting detail. Folding into `body` is lossless prose; a dedicated field preserves structure. |
-| `monumentType` (17-value enum) | Could become a `guideArticle` sub-type field, or be dropped. |
-| `coordinates`, `preciseLocation` | Map data — drop or carry. |
-| `builtBy` / `builtDuring` / `buriedHere` / `dedicatedTo` | Structured links to `wikiPerson` / `wikiDynasty` / `wikiDeity`. Dropping them severs the Egypt-Wiki graph for these sites. |
-| `gallery` | Extra images beyond `heroImage`. |
-| `featured` | "Featured on /wiki landing" — likely obsolete post-consolidation. |
-| `relatedMonuments` / `relatedArticles` | Cross-links. |
+| `monumentType` | string enum (17 values) |
+| `preciseLocation` | `internationalizedArrayString` |
+| `coordinates` | `coordinates` object |
+| `visitorInfo` | i18n portable text (`localizedPortableTextField`) |
+| `gallery` | array of `localizedImage` |
+| `featured` | boolean |
 
-**Recommendation for the operator decision:** add `visitorInfo` and `gallery`
-to `guideArticle` (genuine reader value, cheap to add); fold `monumentType` /
-`preciseLocation` into body prose; drop `featured`; treat the
-`builtBy`/`dedicatedTo` wiki-graph links as a separate decision — if the
-Egypt-Wiki cross-linking matters, that argues for keeping a thin `wikiMonument`
-rather than a full consolidation. Flag this tension back to the operator.
+**Drop** — not carried as structured fields:
 
-### §6.3 `city.placesToGo` rework (consequence)
+| Field dropped | Was | Reason |
+|---|---|---|
+| `builtBy` | → `wikiPerson` ref | wiki cross-ref |
+| `builtDuring` | → `wikiDynasty` ref | wiki cross-ref |
+| `buriedHere` | → `wikiPerson` ref | wiki cross-ref |
+| `dedicatedTo` | → `wikiDeity` ref | wiki cross-ref |
+| `relatedMonuments` | → `wikiMonument` refs | invalid post-consolidation — targets are removed |
+| `relatedArticles` | → `article` refs | `article` type is being phased out |
+
+**The 4 dropped wiki cross-refs are prosified, not lost.** During consolidation
+the script reads each referenced `wikiPerson` / `wikiDynasty` / `wikiDeity`
+document's name and **folds the fact into the `guideArticle` body as prose**
+(e.g. "Built by Ramesses II during the Nineteenth Dynasty") **where that fact is
+not already stated in the body**. Cases where it is unclear whether the body
+already covers the fact — or which name form to use — go to an
+**operator-review gate** rather than being auto-written.
+
+`relatedMonuments` / `relatedArticles` are dropped outright with no prose fold —
+post-consolidation, related-attraction discovery is served by the city page's
+`kind=attraction` listing (§6.3).
+
+### §6.3 `city.placesToGo` rework — LOCKED (Session 51)
 
 `city.placesToGo` is an array of references **to `wikiMonument`**, rendered in
-the city-page sidebar. Consolidating wikiMonument away **breaks this field**.
-Phase 3 must, in the same session as the consolidation: re-point `placesToGo`
-to `guideArticle` (filtered to `kind=attraction`), or drop the field and derive
-the sidebar's "Places To Go" list from `guideArticle` where
-`parentCity == ^ && kind == "attraction"`. **Recommendation: derive it** — one
-less hand-maintained reference list.
+the city-page sidebar. Consolidating wikiMonument away breaks this field.
+
+**Locked decision:** re-point `city.placesToGo` from `wikiMonument` references
+to **`guideArticle` references, constrained to `kind == "attraction"`**. This is
+a schema change on the `city` document type, handled in the **Phase 3a** schema
+session alongside the `kind` addition. The existing reference *values* are
+re-pointed during the §6.4 consolidation run — as each `wikiMonument` becomes a
+`guideArticle`, every `placesToGo` entry that pointed at the old monument is
+swapped for a reference to the new `guideArticle`.
 
 ### §6.4 Execution
 
@@ -464,7 +497,7 @@ focused Phase 3 session (≈ 0.5 session).
 
 | # | Session | Scope | Depends on |
 |---|---|---|---|
-| 3a | Schema additions | Add `kind` enum to `guideArticle`; rework `city.placesToGo` (§6.3); deploy schema | — |
+| 3a | Schema additions | Add `kind` enum to `guideArticle`; add the 6 carried-over optional fields from §6.2 (`monumentType`, `preciseLocation`, `coordinates`, `visitorInfo`, `gallery`, `featured`); re-point `city.placesToGo` to `guideArticle`/`kind==attraction` (§6.3); deploy schema | — |
 | 3b | `kind` backfill | Backfill `kind` on the 431 existing `guideArticle` docs (see below) | 3a |
 | 3c | Import-tool build | Build the bulk MD-import tool (§4); reconcile §2.6 against the authoring guide | 3a |
 | 3d | Redirect tooling | Build the redirect-map regenerator + wire `next.config.ts` `redirects()` (§5, §3.4) | — |
@@ -511,10 +544,10 @@ content (the 71 absent attractions + the 134 consolidated monuments).
 
 | Item | Owner | Notes |
 |---|---|---|
-| **`content-authoring-guide.md` not placed** | Operator | Blocks §2.6 finalisation and the 3c import-tool parser. |
-| **`wikiMonument` orphan-field disposition** | Operator | §6.2 — 12 fields; gates session 3e. |
+| **`content-authoring-guide.md` not placed** | Operator | Still not in the repo as of s51. Blocks §2.6 finalisation and the 3c import-tool parser (not 3a). |
+| `wikiMonument` orphan-field disposition | — | **Resolved (s51)** — §6.2: 6 carried, 6 dropped, 4 cross-refs prosified. |
 | **D5 — Giza's 2 unspecified redirect pages** | Operator | Carried from s48 §6.4 — URLs still unidentified. |
-| `publishedAt` field semantics | Operator | §2.2 — recommendation is "don't add"; confirm. |
+| **`publishedAt` field semantics** | Operator | §2.2 — the s51 backfill brief left the decision slot blank; "don't add" stands pending a one-line confirmation. |
 | 91 absent attractions — city assignment | Phase 4 | Each absent attraction's `parentCity` is set from the inventory CSV `destination`; `biahmu` resolved to Al Fayoum (s48 §6.2). |
 | 134 `wikiMonument` city assignments | — | **Resolved** — `wikiMonument.city` is a required ref; no ambiguity (§6.5). |
 | Volume breakdown of the ~3,000 total docs | Operator | Only destination content is scoped here; other types (tours, hotels, articles, wiki) are out of Phase 2 scope. |
@@ -533,7 +566,7 @@ Qena additionally have stray `drafts.` siblings — cosmetic; clean up opportuni
 
 | Risk | Impact | Mitigation |
 |---|---|---|
-| **`wikiMonument` consolidation loses the Egypt-Wiki graph** (`builtBy`/`dedicatedTo` links to person/dynasty/deity docs) | Medium — severs structured history data | §6.2 operator decision; if the graph matters, reconsider full consolidation vs. a thin retained `wikiMonument`. |
+| **`wikiMonument` consolidation drops the Egypt-Wiki graph** (`builtBy`/`builtDuring`/`buriedHere`/`dedicatedTo` links to person/dynasty/deity docs) | Low–Medium — structured links become prose | Locked (§6.2): the 4 cross-refs are prosified into body content during consolidation, with an operator-review gate for ambiguous cases. The structured graph is not preserved by design; the facts are. |
 | **No MD→PT converter exists** | Low | Reuse `wp-import-html.ts` via an MD→HTML step (§4.3) — avoids a divergent generator. |
 | **Redirect layer is greenfield** | Medium — SEO equity at stake until built | Session 3d builds + wires it before Phase 4 content lands; parent-fallback means every legacy URL 301s to *something* from day one. |
 | **Bulk-write rate limits / Sanity API quotas** | Low–Medium — ~134 + ~2,000 writes | Throttle the write loop; batch per destination; the raw client + `createOrReplace` is idempotent so interrupted runs resume safely. |
@@ -547,18 +580,21 @@ Qena additionally have stray `drafts.` siblings — cosmetic; clean up opportuni
 ## §13. Recommended next session
 
 **Fire Phase 3a — schema additions — first.** It is the only hard dependency
-for everything else (3b, 3c, 3e, 3f all need the `kind` field deployed), it is
-small and low-risk (one enum field + the `city.placesToGo` rework), and it
-unblocks the most parallelism.
+for everything else (3b, 3c, 3e, 3f all need the `kind` field deployed). Its
+scope is now fully specified (s51): add the `kind` enum, add the 6 carried-over
+optional fields (§6.2), and re-point `city.placesToGo` (§6.3). Small, additive,
+low-risk — and it unblocks the most parallelism.
 
-**Pre-conditions to confirm before 3a:**
+**Pre-conditions before 3a:**
 
-1. Operator places `content-authoring-guide.md` in the repo (needed by 3c, but
-   confirming it early de-risks §2.6).
-2. Operator answers the §6.2 `wikiMonument` orphan-field disposition — this
-   determines whether 3a also adds `visitorInfo` / `gallery` (or other) fields
-   to `guideArticle`, so it is cleanest decided *before* the schema session.
-3. Operator confirms the §2.2 `publishedAt` recommendation ("don't add").
+1. **`publishedAt`** — confirm "don't add" (one line). The s51 brief left this
+   slot blank; it is the only decision 3a still needs. If "add-as-optional" is
+   chosen instead, 3a adds one more optional field — trivial either way, so 3a
+   can proceed even on the standing recommendation if no answer comes.
+2. `content-authoring-guide.md` — needed by **3c**, not 3a. Placing it early
+   de-risks §2.6 but does not gate the schema session.
+
+The §6.2 and §6.3 dispositions are locked (s51) — no longer pre-conditions.
 
 Once 3a lands, run 3b (`kind` backfill), 3c (import tool) and 3d (redirect
 tooling) — 3c and 3d in parallel — then 3e and 3f.
