@@ -7,20 +7,20 @@ This is the executable spec for **Phase 3** (structure build) and **Phase 4**
 ([phase-1-gap-report.md](phase-1-gap-report.md)) and the Session 49 conflict-doc
 dump ([session-49-conflict-docs.md](session-49-conflict-docs.md)).
 
-**Session 51 backfill status.** The s50 plan carried two `[OPERATOR INPUT
-PENDING]` placeholders. Session 51 resolves what it can:
+**Backfill status — final.** The s50 plan carried `[OPERATOR INPUT PENDING]`
+placeholders; all four design decisions are now **locked** and the plan carries
+no remaining placeholders:
 
-- **§6.2** `wikiMonument` orphan-field disposition — **LOCKED** (s51): carry 6
-  fields, drop 6, prosify the 4 dropped wiki cross-refs.
-- **§6.3** `city.placesToGo` rework — **LOCKED** (s51): re-point to
-  `guideArticle` references filtered to `kind == "attraction"`.
-- **§2.6** front-matter → Sanity field mapping — **still pending**:
-  `docs/migrations/content-authoring-guide.md` was not placed in the repo for
-  the s50 plan or the s51 backfill. The provisional mapping stands; it gates the
-  Phase 3c import-tool parser only.
-- **§2.2** `publishedAt` — **pending confirmation**: the s51 brief's decision
-  slot was left blank. The "don't add" recommendation stands as the working
-  assumption pending one-line operator confirmation.
+- **§2.2** `publishedAt` — **LOCKED**: do not add the field.
+- **§2.6** front-matter → field mapping — **LOCKED**: reconciled against
+  `docs/migrations/content-authoring-guide.md` (now committed to the repo).
+- **§6.2** `wikiMonument` orphan-field disposition — **LOCKED**: carry 6 fields,
+  drop 6, prosify the 4 dropped wiki cross-refs.
+- **§6.3** `city.placesToGo` rework — **LOCKED**: re-point to `guideArticle`
+  references filtered to `kind == "attraction"`.
+
+Reconciling §2.6 against the authoring guide surfaced **three guide ↔ plan/schema
+conflicts** that need operator reconciliation before Phase 3 — tracked in §11.4.
 
 ---
 
@@ -84,7 +84,7 @@ Current fields ([src/sanity/schemas/guideArticle.ts](../../src/sanity/schemas/gu
 | Addition | Detail | Severity |
 |---|---|---|
 | **`kind`** | New 12-value string enum (§2.3). Editorial taxonomy. Required. | Minor — additive |
-| **`publishedAt`** | Not present anywhere today. **Recommendation: do not add** — Sanity's built-in draft/publish (`_id` vs `drafts._id`) already models published state, and the runtime client reads the `published` perspective; a separate field would duplicate it. If editorial later wants a *visible* publication date, add it then. **Not yet locked:** the Session 51 backfill brief left this decision slot (`[OPERATOR FILLS — add-as-optional / don't-add]`) blank, so "don't add" stands as the working assumption pending a one-line operator confirmation. | Pending confirm |
+| **`publishedAt`** | **LOCKED — do not add.** Sanity's built-in `_createdAt` / `_updatedAt`, plus the existing `migration.migratedAt`, cover display-date needs without editorial overhead. This is the lower-risk default; a dedicated `publishedAt` field can be added in a future schema session if a specific need surfaces. ⚠ The content-authoring-guide lists `publishedAt` as a **required** front-matter field — a conflict, since there is no schema field to receive it (§11.4). | Locked — don't add |
 
 No other field additions are required for `guideArticle`. **No new document
 types are needed.**
@@ -160,30 +160,30 @@ use the raw `@sanity/client` so `_key`s are stored verbatim (s44 lesson).
 
 ### §2.6 Front-matter → Sanity field mapping
 
-**`[OPERATOR INPUT PENDING]` — still unresolved as of Session 51.**
-`docs/migrations/content-authoring-guide.md` was expected in the repo for the
-s50 plan and again for the s51 backfill, but is not present in either. The exact
-front-matter keys cannot be pinned without it. The provisional mapping below is
-the working assumption; the Phase 3c import-tool session must reconcile it
-against the guide before the parser is written. This gates **Phase 3c only** —
-not the Phase 3a schema session.
+**LOCKED — reconciled against `docs/migrations/content-authoring-guide.md`**
+(committed to the repo). The guide defines one MD file per (page, locale), each
+with YAML front-matter (guide §4). The import tool assembles the i18n-array
+fields by reading the three locale siblings for a slug.
 
-Provisional mapping, to be confirmed against the guide:
+| Front-matter field | Req? | → `guideArticle` field | Notes |
+|---|---|---|---|
+| `slug` | required | `slug` (i18n-array) | Same slug across all three locales (guide §11). EN required. |
+| `city` | required | `parentCity` | Resolved: city-slug → `city` reference. |
+| `kind` | required | `kind` | One of the 12 values; `section` derived from it (§2.4). |
+| `locale` | required | *(selects the i18n `_key`)* | Determines which `en`/`es`/`ja` entry this file populates. |
+| `title` | required | `title` (per-locale entry) | |
+| `description` | required | `seo.metaDescription` (per-locale) | ~155-char SEO snippet — maps to the `seo` object, **not** `summary`. |
+| `publishedAt` | required *(front-matter)* | **— not persisted —** | Per §2.2 there is no `guideArticle.publishedAt`. The tool accepts the field (the guide makes authors supply it) but writes it nowhere. **Conflict — §11.4.** |
+| `heroImage` | optional | `heroImage` | Relative `./images/` path; uploaded to the Sanity CDN by the import tool. |
+| `excerpt` | optional | `summary` (per-locale) | The listing/card blurb — this is what `guideArticle.summary` is for. |
+| `keywords` | optional | `seo` keywords if the `seo` object supports a keyword field; else not persisted | 3c to confirm against the `seo` schema. |
+| `lastUpdated` | optional | **— not persisted —** | No `guideArticle` field. Drop, or fold into `migration` metadata — 3c decides. |
+| body markdown | — | `body` (MD → portable text) | `# H1` is disallowed by the guide; `title` is the H1. |
 
-| Front-matter key (expected) | → `guideArticle` field |
-|---|---|
-| `title` | `title` (per-locale) |
-| `slug` | `slug` (per-locale; EN required) |
-| `city` | `parentCity` (resolved to a `city` reference by slug) |
-| `kind` | `kind` (required; `section` derived from it) |
-| `summary` / `description` | `summary` |
-| `heroImage` | `heroImage` (uploaded to Sanity assets) |
-| `orderRank` | `orderRank` (optional; default 100) |
-| body markdown | `body` (MD → portable text) |
-| `relatedTours` | `relatedTours` (resolved to `tour` references) — if present |
-
-Phase 3's import-tool session must reconcile this table with the authoring
-guide before the parser is written.
+Fields **not** author-set (so absent from front-matter): `orderRank` (schema
+default 100), `relatedTours`, and the §6.2 carried-over monument fields
+(`monumentType`, `coordinates`, etc. — populated only by the §6 consolidation,
+never by the MD import).
 
 ---
 
@@ -499,7 +499,7 @@ focused Phase 3 session (≈ 0.5 session).
 |---|---|---|---|
 | 3a | Schema additions | Add `kind` enum to `guideArticle`; add the 6 carried-over optional fields from §6.2 (`monumentType`, `preciseLocation`, `coordinates`, `visitorInfo`, `gallery`, `featured`); re-point `city.placesToGo` to `guideArticle`/`kind==attraction` (§6.3); deploy schema | — |
 | 3b | `kind` backfill | Backfill `kind` on the 431 existing `guideArticle` docs (see below) | 3a |
-| 3c | Import-tool build | Build the bulk MD-import tool (§4); reconcile §2.6 against the authoring guide | 3a |
+| 3c | Import-tool build | Build the bulk MD-import tool (§4) against the locked §2.6 mapping; resolve the §11.4 guide-conflicts first; confirm `keywords`/`seo` field details | 3a |
 | 3d | Redirect tooling | Build the redirect-map regenerator + wire `next.config.ts` `redirects()` (§5, §3.4) | — |
 | 3e | wikiMonument consolidation | Run the 134-doc transformation (§6) | 3a, 3c-ish |
 | 3f | Merge tasks | Execute the 2 merges (§7) | 3a |
@@ -544,15 +544,43 @@ content (the 71 absent attractions + the 134 consolidated monuments).
 
 | Item | Owner | Notes |
 |---|---|---|
-| **`content-authoring-guide.md` not placed** | Operator | Still not in the repo as of s51. Blocks §2.6 finalisation and the 3c import-tool parser (not 3a). |
-| `wikiMonument` orphan-field disposition | — | **Resolved (s51)** — §6.2: 6 carried, 6 dropped, 4 cross-refs prosified. |
+| `content-authoring-guide.md` | — | **Resolved** — committed to `docs/migrations/`; §2.6 reconciled against it. |
+| `wikiMonument` orphan-field disposition | — | **Resolved** — §6.2: 6 carried, 6 dropped, 4 cross-refs prosified. |
+| `publishedAt` field semantics | — | **Resolved** — §2.2: locked "do not add" (see the §11.4 front-matter conflict). |
 | **D5 — Giza's 2 unspecified redirect pages** | Operator | Carried from s48 §6.4 — URLs still unidentified. |
-| **`publishedAt` field semantics** | Operator | §2.2 — the s51 backfill brief left the decision slot blank; "don't add" stands pending a one-line confirmation. |
 | 91 absent attractions — city assignment | Phase 4 | Each absent attraction's `parentCity` is set from the inventory CSV `destination`; `biahmu` resolved to Al Fayoum (s48 §6.2). |
 | 134 `wikiMonument` city assignments | — | **Resolved** — `wikiMonument.city` is a required ref; no ambiguity (§6.5). |
 | Volume breakdown of the ~3,000 total docs | Operator | Only destination content is scoped here; other types (tours, hotels, articles, wiki) are out of Phase 2 scope. |
 | Translation-review queue | Editorial | Cumulative; s46/s47 items + any locale-incomplete imports. |
-| **Session 47 cookie-policy reconciliation** | — | **Resolved** — completed in s47; production-dataset boilerplate remains a cutover-sweep item only. |
+| Session 47 cookie-policy reconciliation | — | **Resolved** — completed in s47; production-dataset boilerplate remains a cutover-sweep item only. |
+
+### §11.4 Guide ↔ plan/schema conflicts (surfaced reconciling §2.6 — operator decision needed)
+
+Reconciling §2.6 against `content-authoring-guide.md` exposed three points where
+the authoring guide and the plan/schema disagree. None blocks the Phase 3a
+schema session, but each needs an operator call before the Phase 3c import tool
+is built — and two are cheap one-line fixes to the guide:
+
+1. **`publishedAt` — required in front-matter, but no schema field.** The guide
+   (§4) makes `publishedAt` a *required* authoring field; §2.2 locks "do not add
+   a `publishedAt` field to `guideArticle`." So authors must supply a value the
+   import tool has nowhere to store. **Recommendation:** drop `publishedAt` from
+   the guide's *required* list (it adds editorial overhead for a value Sanity's
+   `_createdAt`/`_updatedAt` already cover) — or, if the date genuinely matters,
+   reverse §2.2. One or the other must change.
+2. **`wadi-al-natron` vs `wadi-el-natrun`.** The guide's city-slug list (§2)
+   spells the destination `wadi-al-natron`; the actual `city` document's slug in
+   Sanity is **`wadi-el-natrun`** (`wp-page-58731`). The import tool resolves
+   `city` front-matter to a `city` reference by slug — `wadi-al-natron` will not
+   match. **Recommendation:** fix the guide to `wadi-el-natrun` (the slug is
+   load-bearing and the Sanity doc is the source of truth).
+3. **`kind=parent` — authorable page vs. plan rule.** The guide (§5) presents
+   `parent` as a page authors create as a `.md` file ("the destination's main
+   travel-guide page, one per city"); plan §2.3 states a `guideArticle` is never
+   authored with `kind=parent` (the parent *is* the `city` doc) and the import
+   tool rejects it. **Recommendation:** decide whether `parent` MD files are
+   accepted and routed to update the `city` doc, or disallowed — then align the
+   guide and §2.3/§4.7 accordingly.
 
 ### City-doc check (resolved this session)
 
@@ -572,7 +600,7 @@ Qena additionally have stray `drafts.` siblings — cosmetic; clean up opportuni
 | **Bulk-write rate limits / Sanity API quotas** | Low–Medium — ~134 + ~2,000 writes | Throttle the write loop; batch per destination; the raw client + `createOrReplace` is idempotent so interrupted runs resume safely. |
 | **Trilingual gaps** if the team delivers EN-only | Medium — locale-incomplete pages | Import proceeds EN-only with a `reviewFlag`; runtime EN-fallback keeps pages whole; queue tracks the debt. |
 | **Image volume + CDN cost** | Low–Medium | `media.ts` caches by source hash (no re-upload); monitor Sanity asset usage during the first Phase 4 batch. |
-| **`content-authoring-guide.md` arrives and contradicts §2.6** | Low–Medium | 3c session reconciles before the parser is written; the provisional mapping is close to the known field set. |
+| **Guide ↔ plan conflicts (§11.4)** unresolved when 3c builds the parser | Low–Medium | Three known conflicts (`publishedAt`, `wadi-el-natrun` slug, `kind=parent`); all surfaced and tracked — operator resolves them before 3c. |
 | **431-doc `kind` backfill mis-assigns** | Low | `places-to-go`→`attraction` is exact; everything else is heuristic + operator review of ambiguous docs. |
 
 ---
@@ -581,20 +609,16 @@ Qena additionally have stray `drafts.` siblings — cosmetic; clean up opportuni
 
 **Fire Phase 3a — schema additions — first.** It is the only hard dependency
 for everything else (3b, 3c, 3e, 3f all need the `kind` field deployed). Its
-scope is now fully specified (s51): add the `kind` enum, add the 6 carried-over
-optional fields (§6.2), and re-point `city.placesToGo` (§6.3). Small, additive,
-low-risk — and it unblocks the most parallelism.
+scope is now fully specified and locked: add the `kind` enum, add the 6
+carried-over optional fields (§6.2), and re-point `city.placesToGo` (§6.3).
+Small, additive, low-risk — and it unblocks the most parallelism.
 
-**Pre-conditions before 3a:**
+**3a has no remaining pre-conditions** — all four design decisions are locked.
 
-1. **`publishedAt`** — confirm "don't add" (one line). The s51 brief left this
-   slot blank; it is the only decision 3a still needs. If "add-as-optional" is
-   chosen instead, 3a adds one more optional field — trivial either way, so 3a
-   can proceed even on the standing recommendation if no answer comes.
-2. `content-authoring-guide.md` — needed by **3c**, not 3a. Placing it early
-   de-risks §2.6 but does not gate the schema session.
-
-The §6.2 and §6.3 dispositions are locked (s51) — no longer pre-conditions.
+**Before Phase 3c** (the import-tool session), the operator should resolve the
+three guide ↔ plan conflicts in §11.4 (`publishedAt` required-vs-unstored, the
+`wadi-el-natrun` slug spelling, and `kind=parent` handling). None gates 3a;
+all three should be settled before the parser is written.
 
 Once 3a lands, run 3b (`kind` backfill), 3c (import tool) and 3d (redirect
 tooling) — 3c and 3d in parallel — then 3e and 3f.
