@@ -1,0 +1,564 @@
+# Phase 2 — Destination Architecture Design
+
+**Session 50 · 2026-05-18 · design document (no system changed)**
+
+This is the executable spec for **Phase 3** (structure build) and **Phase 4**
+(content import). It builds on the Session 48 gap audit
+([phase-1-gap-report.md](phase-1-gap-report.md)) and the Session 49 conflict-doc
+dump ([session-49-conflict-docs.md](session-49-conflict-docs.md)).
+
+Two items in this plan are marked **`[OPERATOR INPUT PENDING]`** — they could not
+be finalised this session and must be resolved before the Phase 3 sessions they
+gate:
+
+- **§2.6** front-matter → Sanity field mapping — needs `content-authoring-guide.md`
+  (not yet placed in the repo).
+- **§6.2** `wikiMonument` orphan-field disposition — needs an operator decision.
+
+---
+
+## §1. Executive summary
+
+**Scope.** Migrate ~90 absent destination pages into `guideArticle`, consolidate
+134 `wikiMonument` docs into `guideArticle`, merge 2 conflict docs into their
+parent guides, build a bulk MD-import tool, and build + wire a redirect map for
+all ~206 legacy destination URLs.
+
+**Locked decisions carried into this plan** (from s48/s49 and the s50 addendum —
+not revisited here):
+
+1. All attraction pages live in `guideArticle` under `/guide/<city>/<slug>`.
+2. The 134 `wikiMonument` docs consolidate into `guideArticle` (option A).
+3. Trilingual from the start — EN/ES/JA required together.
+4. 2 merge tasks: `wp-page-60303` → `nuweiba-travel-guide`,
+   `wp-page-75692` → `safaga-travel-guide`.
+5. 3 redirect-to-parent URLs stand: `cultural-events-in-nuweiba`,
+   `annual-events-in-safaga`, `cultural-tours-in-taba`.
+6. Sanity stays clean — no placeholder docs; "no content yet" is handled by the
+   redirect map pointing at the parent city guide.
+7. `kind` is a new 12-value enum on `guideArticle`.
+8. `section` (existing 5-value enum) is **auto-derived from `kind`** at import —
+   editors set only `kind`. (s50 addendum.)
+
+**Key finding that shapes the plan:** the content model and routing are
+**already built and generic** — adding destination content is a *content* and
+*tooling* exercise, not a schema rebuild. The only schema change is one new
+enum field. The redirect layer, by contrast, **does not exist at runtime** and
+must be built from scratch.
+
+**Expected effort:** Phase 3 ≈ **5–6 sessions** (schema, import tool, redirect
+tooling + wiring, wikiMonument consolidation, merge tasks, `kind` backfill).
+Phase 4 ≈ **7–11 sessions** (content import waves). See §9–§10.
+
+---
+
+## §2. Sanity content model
+
+### §2.1 `guideArticle` as-is
+
+Current fields ([src/sanity/schemas/guideArticle.ts](../../src/sanity/schemas/guideArticle.ts)):
+
+| Field | Type | Notes |
+|---|---|---|
+| `parentCity` | reference → `city` | required ✓ — the city-reference mechanism already exists |
+| `title` | `internationalizedArrayString` | required |
+| `slug` | i18n-array (`localizedSlugField`) | one slug per locale; EN required |
+| `section` | string enum (5 values) | sidebar grouping — see §2.4 |
+| `orderRank` | number | display order within city |
+| `summary` | `internationalizedArrayText` | one-sentence listing blurb — serves the "description" role |
+| `body` | i18n portable text (`localizedPortableTextField`) | supports `block`, `image`, `pullQuote`, `sideImage` |
+| `heroImage` | `localizedImage` | |
+| `relatedTours` | array of reference → `tour` | |
+| `seo` | `seo` object | |
+| `migration` | `migration` object | WP provenance (`wpId`, `wpUrl`, `reviewFlag`, …) |
+
+### §2.2 Required additions
+
+| Addition | Detail | Severity |
+|---|---|---|
+| **`kind`** | New 12-value string enum (§2.3). Editorial taxonomy. Required. | Minor — additive |
+| **`publishedAt`** | Not present anywhere today. **Recommendation: do not add.** Sanity's built-in draft/publish (`_id` vs `drafts._id`) already models published state, and the runtime client reads the `published` perspective. A separate `publishedAt` field would duplicate that. If editorial wants a *visible* publication date, add it then — kept as an open item (§11). | Open |
+
+No other field additions are required for `guideArticle`. **No new document
+types are needed.**
+
+### §2.3 The `kind` enum — specification
+
+`kind` is the editorial taxonomy. 12 values:
+
+| `kind` | Meaning |
+|---|---|
+| `parent` | The destination's top-level guide (the `city` page itself — see note) |
+| `signature` | "Only here in X" — the destination's signature page |
+| `attraction` | An individual monument / site / place |
+| `transport-to` | How to reach the destination |
+| `transport-around` | Getting around within the destination |
+| `accommodation` | Where to stay |
+| `food` | Where/what to eat |
+| `tours` | Tours and activities |
+| `events` | Festivals and events |
+| `climate` | Weather / when to go |
+| `heritage` | History and heritage |
+| `overview` | "Places to go" / general destination overview |
+
+Note on `parent`: the destination's parent guide is the **`city`** document
+(`/guide/<city>`), not a `guideArticle`. `kind=parent` exists in the enum for
+taxonomy completeness and for redirect-map rows that target the parent, but a
+`guideArticle` is never authored with `kind=parent`. The import tool rejects
+`kind=parent` on a `guideArticle` MD file (§4.4).
+
+### §2.4 `kind` → `section` relationship (s50 addendum — locked)
+
+Two fields, two jobs:
+
+- **`kind`** — *editorial taxonomy*. Drives editorial discovery, the redirect
+  map, and per-category migration batching. Editor-set (in MD front-matter).
+- **`section`** — *UX grouping*. Drives the sidebar grouping on the city page
+  (5 buckets). **Derived, never hand-set** going forward.
+
+The bulk-import tool computes `section` from `kind` deterministically:
+
+| `kind` | → `section` |
+|---|---|
+| `parent` | *(none — parent is the city page)* |
+| `signature` | `introducing` |
+| `heritage` | `introducing` |
+| `transport-to` | `plan-your-trip` |
+| `climate` | `plan-your-trip` |
+| `transport-around` | `while-you-are-there` |
+| `accommodation` | `while-you-are-there` |
+| `food` | `while-you-are-there` |
+| `tours` | `while-you-are-there` |
+| `attraction` | `places-to-go` |
+| `events` | `others` |
+| `overview` | `others` |
+
+This mapping is **not invertible 1:1** (`section=others` ← `events` *or*
+`overview`; three `kind`s collapse to `while-you-are-there`). That asymmetry is
+why the Phase 3 backfill of the 431 existing docs needs per-doc judgment (§9).
+
+### §2.5 Locale handling
+
+All localised fields use the established i18n-array shape — an array with one
+object per locale, keyed by `_key` (`en`/`es`/`ja`):
+
+- `title`, `summary` → `internationalizedArrayString` / `internationalizedArrayText`
+- `slug` → array of `{ _key, value: { _type: 'slug', current } }`
+- `body` → array of `{ _key, value: [ …portable-text… ] }`
+
+**The slug is one-per-locale but the path structure is shared** — there is no
+per-locale *route* divergence beyond the slug string. EN is required; ES/JA fall
+back to the EN slug if blank (per `localizedSlugField` validation). Writes must
+use the raw `@sanity/client` so `_key`s are stored verbatim (s44 lesson).
+
+### §2.6 Front-matter → Sanity field mapping
+
+**`[OPERATOR INPUT PENDING]` — `docs/migrations/content-authoring-guide.md` is
+not yet in the repo.** The exact front-matter keys cannot be pinned without it.
+
+Provisional mapping, to be confirmed against the guide:
+
+| Front-matter key (expected) | → `guideArticle` field |
+|---|---|
+| `title` | `title` (per-locale) |
+| `slug` | `slug` (per-locale; EN required) |
+| `city` | `parentCity` (resolved to a `city` reference by slug) |
+| `kind` | `kind` (required; `section` derived from it) |
+| `summary` / `description` | `summary` |
+| `heroImage` | `heroImage` (uploaded to Sanity assets) |
+| `orderRank` | `orderRank` (optional; default 100) |
+| body markdown | `body` (MD → portable text) |
+| `relatedTours` | `relatedTours` (resolved to `tour` references) — if present |
+
+Phase 3's import-tool session must reconcile this table with the authoring
+guide before the parser is written.
+
+---
+
+## §3. URL routing
+
+### §3.1 `/guide/<city>/<slug>` — validated, documented as-is
+
+- Route: `src/app/(site)/[locale]/guide/[citySlug]/[slug]/page.tsx`. SSG via
+  `generateStaticParams` over all `guideArticle` slugs × locales.
+- Rendering is **generic**: title, `summary`, `body`, `heroImage`, and a
+  `CityGuideSidebar`. The page reads `section` only to print a breadcrumb label.
+
+### §3.2 `kind`-aware rendering — design decision: **generic, no per-kind layouts**
+
+`kind` is **metadata only**. The route renders every `guideArticle` identically
+regardless of `kind`. This is a deliberate decision and matches how `section`
+already behaves. Benefits: no routing work in Phase 3, attractions and food
+pages and transport pages all share one validated template. If a future kind
+ever needs a bespoke layout, that is a separate, additive change — Phase 2 does
+not pre-build for it.
+
+### §3.3 `/wiki/monuments/<slug>` during consolidation
+
+`/wiki/monuments/[slug]` is a live SSG route today. As each `wikiMonument` is
+consolidated into a `guideArticle` (§6), its monument URL must 301 to the new
+`/guide/<city>/<slug>`. Because the wiki route is SSG, the redirect is wired in
+the redirect layer (§3.4), **not** by deleting the route — the route can stay
+until every monument is migrated, then be removed in a final cleanup.
+
+### §3.4 404 handling and the redirect-map integration point
+
+**There is no runtime redirect engine today.** `next.config.ts` has no
+`redirects()`; middleware does only i18n + `noindex`. `migration/redirect-map.csv`
+exists as data but nothing consumes it. Phase 3 must **build** the redirect
+layer. Two options:
+
+- **A — `next.config.ts` `redirects()`** generated from `redirect-map.csv` at
+  build time. Simple, fast (edge-evaluated), but the redirect set is frozen per
+  deploy and large lists inflate the config.
+- **B — middleware lookup** against a compiled redirect table. Handles large
+  sets and can be updated without a full rebuild, at a small per-request cost.
+
+**Recommendation: Option A.** ~206 destination redirects + 134 monument
+redirects + the existing 129 rows ≈ 470 entries — well within what
+`redirects()` handles comfortably, and the destination URL set is stable once
+Phase 4 completes. The redirect-map regenerator (§5) emits the `redirects()`
+array as a generated file that `next.config.ts` imports.
+
+---
+
+## §4. Bulk content-import tool design
+
+### §4.1 Purpose
+
+Input: a tree of Markdown files authored per `content-authoring-guide.md`.
+Output: `guideArticle` documents in the `migration-staging` dataset.
+
+### §4.2 Input layout
+
+```
+content/destinations/<city>/<slug>.<locale>.md      e.g.
+content/destinations/luxor/the-valley-of-the-kings.en.md
+content/destinations/luxor/the-valley-of-the-kings.es.md
+content/destinations/luxor/the-valley-of-the-kings.ja.md
+```
+
+One file per (slug, locale). The three locale files for a slug are siblings;
+they share `city`, `kind`, `slug` and `orderRank`, and differ in `title`,
+`summary` and body prose. (Final layout confirmed against the authoring guide.)
+
+### §4.3 Components
+
+1. **File walker** — globs `content/destinations/**/*.md`, groups files by
+   `(city, slug)`, collects locale siblings.
+2. **Front-matter parser** — YAML front-matter (use `gray-matter`, already a
+   common dependency pattern; confirm or add). Produces a typed record per file.
+3. **MD → Portable Text converter.** No MD→PT converter exists today; only
+   `scripts/wp-import-html.ts` (HTML→PT). **Recommendation:** convert
+   **MD → HTML** with a small dependency (`marked`), then reuse the existing,
+   battle-tested `wp-import-html.ts` HTML→PT pipeline — it already emits the
+   exact `block` / `image` / `pullQuote` / `sideImage` shapes the `body` field
+   accepts. This avoids a second, divergent PT generator.
+4. **Image uploader** — reuse `scripts/wp-import/media.ts` (uploads to the
+   Sanity asset CDN, caches by source URL/hash).
+5. **Sanity write loop** — raw `@sanity/client` (`createClient` +
+   `.createOrReplace()` / `.patch().commit()`), the path `seed.ts` and
+   `scripts/wp-import/sanity.ts` already use. Raw client stores `_key`/`_type`
+   verbatim (s44 lesson — the MCP tool must not be used here).
+6. **`section` derivation** — set `section` from `kind` via the §2.4 table.
+7. **Validation** (import fails the file, with a reason, if any fail):
+   - `kind` present and one of the 12 values; `kind=parent` rejected on a
+     `guideArticle`.
+   - EN locale file present (ES/JA optional but warned — §8).
+   - `slug` present; `city` resolves to an existing `city` doc.
+   - required fields per the authoring guide present.
+8. **Idempotency** — deterministic `_id` derived from city+slug (or look up by
+   slug). If the doc exists, `patch`; else `create`. Re-running the tool
+   produces no duplicates.
+9. **Error reporting** — a run summary: created / updated / skipped counts, and
+   a list of skipped files each with its failure reason.
+
+### §4.4 CLI shape
+
+```
+npm run import:destinations -- [--dry-run] [--city <slug>] [--only <slug>]
+```
+
+- `--dry-run` — parse, validate, convert, report; **no Sanity writes**.
+- `--city` — limit to one destination (Phase 4 batching).
+- `--only` — single slug (debugging).
+Default: process the whole `content/destinations/` tree.
+
+### §4.5 Build effort
+
+≈ **1–2 sessions.** Most machinery is reusable (`wp-import-html.ts`, `media.ts`,
+`sanity.ts`); the new code is the walker, front-matter parser, MD→HTML step,
+`kind`→`section` derivation, and validation.
+
+---
+
+## §5. Redirect-map design
+
+### §5.1 Source of truth — extend the existing file
+
+`migration/redirect-map.csv` already exists (129 rows) with columns:
+
+```
+from_url,to_path,locale,status_code,legacy_wp_id,priority_score
+```
+
+**Use this schema — do not invent a new one.** It is already produced by
+`scripts/wp-import/redirect-map.ts` (a redirect-map writer + priority scorer).
+The s50-brief's proposed columns (`reason`, `source_doc_id`) are useful — add
+them as **optional trailing columns** rather than restructuring:
+
+```
+from_url,to_path,locale,status_code,legacy_wp_id,priority_score,reason,source_doc_id
+```
+
+### §5.2 Population pipeline
+
+For every legacy destination URL:
+
+1. **`disposition=migrate` rows (inventory CSV).**
+   - New target URL: from the per-destination xlsx `Best New URL` where
+     present; else derive `/guide/<city-slug>/<slug>`.
+   - If the new `guideArticle` **exists** in Sanity → `to_path` = that specific
+     URL.
+   - If **absent** → `to_path` = the parent city guide `/guide/<city-slug>`
+     (the "no content yet" fallback — keeps Sanity clean, no placeholder docs).
+2. **The 3 `redirect-to-parent` rows** — `to_path` = parent city guide.
+3. **`wikiMonument` consolidation (134 docs)** — add
+   `/wiki/monuments/<slug>` → `/guide/<city>/<slug>` for each consolidated doc.
+4. **The 2 merge tasks** — add the old slug → the parent travel guide.
+
+### §5.3 Update strategy
+
+The map is **regenerated**, not hand-edited. As content lands in Phase 4, the
+regenerator re-runs: a row whose target was the parent-guide fallback is
+upgraded to the specific new URL once that doc exists in Sanity. So the map
+converges from "mostly parent fallbacks" to "mostly specific URLs" as Phase 4
+progresses.
+
+### §5.4 Tooling
+
+Extend `scripts/wp-import/redirect-map.ts` into a **regenerator** that:
+- reads the inventory CSV + xlsx mappings + current Sanity state,
+- computes `to_path` per §5.2 (specific URL if the doc exists, else parent),
+- writes `migration/redirect-map.csv`,
+- emits the generated `redirects()` array for `next.config.ts` (§3.4).
+
+Effort ≈ **1 session** (the scorer and CSV writer already exist).
+
+---
+
+## §6. `wikiMonument` → `guideArticle` consolidation
+
+### §6.1 Scope
+
+134 `wikiMonument` docs → 134 new `guideArticle` docs with `kind=attraction`.
+
+### §6.2 Field mapping
+
+**Clean 1:1 maps** (both schemas share the shape):
+
+| `wikiMonument` | → `guideArticle` |
+|---|---|
+| `name` | `title` |
+| `slug` | `slug` |
+| `city` | `parentCity` |
+| `summary` | `summary` |
+| `body` | `body` |
+| `heroImage` | `heroImage` |
+| `relatedTours` | `relatedTours` |
+| `seo` | `seo` |
+| `migration` | `migration` |
+| *(set)* | `kind = attraction`, `section = places-to-go` (derived) |
+
+**`[OPERATOR INPUT PENDING]` — orphan fields with no `guideArticle` home.**
+The consolidation decision is locked; the disposition of these 12 fields is not.
+For each, choose **fold into body** / **add field to `guideArticle`** / **drop**:
+
+| `wikiMonument` field | Note |
+|---|---|
+| `visitorInfo` (portable text) | A whole second body — operator-grade visiting detail. Folding into `body` is lossless prose; a dedicated field preserves structure. |
+| `monumentType` (17-value enum) | Could become a `guideArticle` sub-type field, or be dropped. |
+| `coordinates`, `preciseLocation` | Map data — drop or carry. |
+| `builtBy` / `builtDuring` / `buriedHere` / `dedicatedTo` | Structured links to `wikiPerson` / `wikiDynasty` / `wikiDeity`. Dropping them severs the Egypt-Wiki graph for these sites. |
+| `gallery` | Extra images beyond `heroImage`. |
+| `featured` | "Featured on /wiki landing" — likely obsolete post-consolidation. |
+| `relatedMonuments` / `relatedArticles` | Cross-links. |
+
+**Recommendation for the operator decision:** add `visitorInfo` and `gallery`
+to `guideArticle` (genuine reader value, cheap to add); fold `monumentType` /
+`preciseLocation` into body prose; drop `featured`; treat the
+`builtBy`/`dedicatedTo` wiki-graph links as a separate decision — if the
+Egypt-Wiki cross-linking matters, that argues for keeping a thin `wikiMonument`
+rather than a full consolidation. Flag this tension back to the operator.
+
+### §6.3 `city.placesToGo` rework (consequence)
+
+`city.placesToGo` is an array of references **to `wikiMonument`**, rendered in
+the city-page sidebar. Consolidating wikiMonument away **breaks this field**.
+Phase 3 must, in the same session as the consolidation: re-point `placesToGo`
+to `guideArticle` (filtered to `kind=attraction`), or drop the field and derive
+the sidebar's "Places To Go" list from `guideArticle` where
+`parentCity == ^ && kind == "attraction"`. **Recommendation: derive it** — one
+less hand-maintained reference list.
+
+### §6.4 Execution
+
+Bulk transformation script: read each `wikiMonument`, create the
+`guideArticle`, add the redirect row, **soft-archive** the source (set a
+`migration.reviewFlag` / supersede marker — do **not** delete, so a rollback is
+possible). Final hard-delete of `wikiMonument` docs is a separate, later step
+after operator sign-off.
+
+### §6.5 Edge cases
+
+`wikiMonument.city` is a **required** reference, so every monument already has a
+city — no ambiguous-city problem for the 134 (this was an open worry in the
+brief; the schema resolves it). Ambiguity only arises for the 91 absent
+*attractions* from the CSV that are authored fresh in Phase 4 (§11).
+
+---
+
+## §7. Merge tasks
+
+Two `guideArticle` docs are merged into their parent city guides and retired.
+
+### §7.1 `wp-page-60303` → `nuweiba-travel-guide`
+
+- `cultural-events-in-nuweiba` (EN 1,872 / ES 2,139 / JA 852 chars; see s49).
+- Append its body, per locale, into the `nuweiba` city doc's `overview` (or a
+  dedicated section) under an appropriate heading.
+- Add redirect `/cultural-events-in-nuweiba/` → `/guide/nuweiba` (301).
+- Delete the source `guideArticle` (all locales live in the one i18n doc).
+
+### §7.2 `wp-page-75692` → `safaga-travel-guide`
+
+- `annual-events-in-safaga` (EN 2,475 / ES 2,808 / JA 1,076). Same pattern;
+  parent is the `safaga` city doc.
+
+### §7.3 Review gate
+
+Both merges produce operator-visible content changes on the city pages →
+**operator reviews the merged city-page body before publish.** Execute as one
+focused Phase 3 session (≈ 0.5 session).
+
+---
+
+## §8. Translation handling in tooling
+
+- **EN required**; ES + JA strongly expected (trilingual decision). The import
+  tool imports an EN-only slug if that is all that exists, and **flags it**
+  (`migration.reviewFlag = "locale-incomplete"`) for the translation queue.
+- **Missing-locale behaviour at runtime** is already handled — ES/JA fall back
+  to the EN slug and EN body via the established GROQ projection. No placeholder
+  docs.
+- **Per-locale slug variants are supported** by the schema (one slug per locale)
+  but **the path structure is shared** — no per-locale routing divergence. If a
+  locale slug is blank it falls back to EN.
+- The translation-review queue (cumulative from prior sessions — s46 consent
+  namespace, s47 cookie copy, and now any locale-incomplete imports) stays
+  active; the import tool feeds it rather than blocking on it.
+
+---
+
+## §9. Phase 3 session plan
+
+| # | Session | Scope | Depends on |
+|---|---|---|---|
+| 3a | Schema additions | Add `kind` enum to `guideArticle`; rework `city.placesToGo` (§6.3); deploy schema | — |
+| 3b | `kind` backfill | Backfill `kind` on the 431 existing `guideArticle` docs (see below) | 3a |
+| 3c | Import-tool build | Build the bulk MD-import tool (§4); reconcile §2.6 against the authoring guide | 3a |
+| 3d | Redirect tooling | Build the redirect-map regenerator + wire `next.config.ts` `redirects()` (§5, §3.4) | — |
+| 3e | wikiMonument consolidation | Run the 134-doc transformation (§6) | 3a, 3c-ish |
+| 3f | Merge tasks | Execute the 2 merges (§7) | 3a |
+
+**`kind` backfill (3b)** — the 431 existing `guideArticle` docs have `section`
+set but not `kind`, and `section`→`kind` is not 1:1:
+- `section=places-to-go` → `kind=attraction` — clean, scripted.
+- All other sections → slug-pattern heuristic (the s48 slug-variant inventory in
+  §5 of the gap report is the input — e.g. `only-*` → `signature`, `how-to-go|
+  reach|travel-to|ways-to-get` → `transport-to`, `weather|climate|temperature|
+  when-to-go` → `climate`, etc.), with ambiguous docs flagged for operator
+  review.
+This is a Phase 3 sub-task, **not blocking** the Phase 2 plan.
+
+3a → 3b are sequential. 3c and 3d can run **in parallel** with each other and
+with 3b. 3e depends on 3a (and benefits from 3c's tooling). **≈ 5–6 sessions.**
+
+---
+
+## §10. Phase 4 session plan
+
+Phase 4 is the content import itself.
+
+- **First wave** — import the operator's already-authored content (the ~2,000
+  destination docs reported ready) via the §4 tool, batched **per destination**
+  (`--city <slug>`): one destination = one reviewable unit.
+- **Batch order** — lead with the destinations carrying the largest s48 gaps
+  (Farafra 8, Alexandria 7, Siwa 7, Al Minya 5, Bahariya 5, Marsa Alam 5,
+  Qena 5) so the redirect map converges fastest off parent-fallbacks.
+- **Per-batch gates:** dry-run → review skipped-file report → real import →
+  spot-check rendered pages on Railway → re-run the redirect-map regenerator so
+  the new specific URLs replace parent fallbacks.
+- **Translation completeness** — each batch reports locale-incomplete slugs into
+  the review queue (§8); the batch is not blocked on them.
+
+**≈ 7–11 sessions**, consistent with the s48 estimate. The bulk is attraction
+content (the 71 absent attractions + the 134 consolidated monuments).
+
+---
+
+## §11. Open-items tracker
+
+| Item | Owner | Notes |
+|---|---|---|
+| **`content-authoring-guide.md` not placed** | Operator | Blocks §2.6 finalisation and the 3c import-tool parser. |
+| **`wikiMonument` orphan-field disposition** | Operator | §6.2 — 12 fields; gates session 3e. |
+| **D5 — Giza's 2 unspecified redirect pages** | Operator | Carried from s48 §6.4 — URLs still unidentified. |
+| `publishedAt` field semantics | Operator | §2.2 — recommendation is "don't add"; confirm. |
+| 91 absent attractions — city assignment | Phase 4 | Each absent attraction's `parentCity` is set from the inventory CSV `destination`; `biahmu` resolved to Al Fayoum (s48 §6.2). |
+| 134 `wikiMonument` city assignments | — | **Resolved** — `wikiMonument.city` is a required ref; no ambiguity (§6.5). |
+| Volume breakdown of the ~3,000 total docs | Operator | Only destination content is scoped here; other types (tours, hotels, articles, wiki) are out of Phase 2 scope. |
+| Translation-review queue | Editorial | Cumulative; s46/s47 items + any locale-incomplete imports. |
+| **Session 47 cookie-policy reconciliation** | — | **Resolved** — completed in s47; production-dataset boilerplate remains a cutover-sweep item only. |
+
+### City-doc check (resolved this session)
+
+All **41 destinations have `city` docs, including Baris and Esna** — the brief's
+worry about missing city docs does not materialise. (Bahariya, Cairo, Luxor,
+Qena additionally have stray `drafts.` siblings — cosmetic; clean up opportunistically.)
+
+---
+
+## §12. Risks and unknowns
+
+| Risk | Impact | Mitigation |
+|---|---|---|
+| **`wikiMonument` consolidation loses the Egypt-Wiki graph** (`builtBy`/`dedicatedTo` links to person/dynasty/deity docs) | Medium — severs structured history data | §6.2 operator decision; if the graph matters, reconsider full consolidation vs. a thin retained `wikiMonument`. |
+| **No MD→PT converter exists** | Low | Reuse `wp-import-html.ts` via an MD→HTML step (§4.3) — avoids a divergent generator. |
+| **Redirect layer is greenfield** | Medium — SEO equity at stake until built | Session 3d builds + wires it before Phase 4 content lands; parent-fallback means every legacy URL 301s to *something* from day one. |
+| **Bulk-write rate limits / Sanity API quotas** | Low–Medium — ~134 + ~2,000 writes | Throttle the write loop; batch per destination; the raw client + `createOrReplace` is idempotent so interrupted runs resume safely. |
+| **Trilingual gaps** if the team delivers EN-only | Medium — locale-incomplete pages | Import proceeds EN-only with a `reviewFlag`; runtime EN-fallback keeps pages whole; queue tracks the debt. |
+| **Image volume + CDN cost** | Low–Medium | `media.ts` caches by source hash (no re-upload); monitor Sanity asset usage during the first Phase 4 batch. |
+| **`content-authoring-guide.md` arrives and contradicts §2.6** | Low–Medium | 3c session reconciles before the parser is written; the provisional mapping is close to the known field set. |
+| **431-doc `kind` backfill mis-assigns** | Low | `places-to-go`→`attraction` is exact; everything else is heuristic + operator review of ambiguous docs. |
+
+---
+
+## §13. Recommended next session
+
+**Fire Phase 3a — schema additions — first.** It is the only hard dependency
+for everything else (3b, 3c, 3e, 3f all need the `kind` field deployed), it is
+small and low-risk (one enum field + the `city.placesToGo` rework), and it
+unblocks the most parallelism.
+
+**Pre-conditions to confirm before 3a:**
+
+1. Operator places `content-authoring-guide.md` in the repo (needed by 3c, but
+   confirming it early de-risks §2.6).
+2. Operator answers the §6.2 `wikiMonument` orphan-field disposition — this
+   determines whether 3a also adds `visitorInfo` / `gallery` (or other) fields
+   to `guideArticle`, so it is cleanest decided *before* the schema session.
+3. Operator confirms the §2.2 `publishedAt` recommendation ("don't add").
+
+Once 3a lands, run 3b (`kind` backfill), 3c (import tool) and 3d (redirect
+tooling) — 3c and 3d in parallel — then 3e and 3f.
