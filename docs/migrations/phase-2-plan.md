@@ -129,7 +129,7 @@ The bulk-import tool computes `section` from `kind` deterministically:
 
 | `kind` | → `section` |
 |---|---|
-| `signature` | `introducing` |
+| `signature` | `others` |
 | `heritage` | `introducing` |
 | `transport-to` | `plan-your-trip` |
 | `climate` | `plan-your-trip` |
@@ -141,9 +141,10 @@ The bulk-import tool computes `section` from `kind` deterministically:
 | `events` | `others` |
 | `overview` | `others` |
 
-This mapping is **not invertible 1:1** (`section=others` ← `events` *or*
-`overview`; three `kind`s collapse to `while-you-are-there`). That asymmetry is
-why the Phase 3 backfill of the 431 existing docs needs per-doc judgment (§9).
+This mapping is **not invertible 1:1** (`section=others` ← `events`,
+`overview`, *or* `signature`; three `kind`s collapse to `while-you-are-there`).
+That asymmetry is why the Phase 3 backfill of the 431 existing docs needs
+per-doc judgment (§9).
 
 ### §2.5 Locale handling
 
