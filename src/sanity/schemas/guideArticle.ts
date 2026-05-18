@@ -18,6 +18,7 @@ export const guideArticleSchema = defineType({
   groups: [
     { name: 'content', title: 'Content', default: true },
     { name: 'media', title: 'Media' },
+    { name: 'attraction', title: 'Attraction details' },
     { name: 'meta', title: 'Meta' },
     MIGRATION_GROUP,
   ],
@@ -41,6 +42,30 @@ export const guideArticleSchema = defineType({
       ...localizedSlugField(),
       group: 'content',
     } as any),
+    defineField({
+      name: 'kind',
+      title: 'Kind',
+      type: 'string',
+      group: 'content',
+      description:
+        'Editorial taxonomy — the page type. Drives discovery, redirect mapping, and the derived sidebar section.',
+      options: {
+        list: [
+          { title: 'Signature ("Only here in…")', value: 'signature' },
+          { title: 'Attraction', value: 'attraction' },
+          { title: 'Transport — getting there', value: 'transport-to' },
+          { title: 'Transport — getting around', value: 'transport-around' },
+          { title: 'Accommodation', value: 'accommodation' },
+          { title: 'Food', value: 'food' },
+          { title: 'Tours', value: 'tours' },
+          { title: 'Events', value: 'events' },
+          { title: 'Climate', value: 'climate' },
+          { title: 'Heritage', value: 'heritage' },
+          { title: 'Overview', value: 'overview' },
+        ],
+      },
+      validation: (Rule) => Rule.required(),
+    }),
     defineField({
       name: 'section',
       title: 'Section',
@@ -93,6 +118,70 @@ export const guideArticleSchema = defineType({
       type: 'array',
       group: 'content',
       of: [{ type: 'reference', to: [{ type: 'tour' }] }],
+    }),
+    defineField({
+      name: 'monumentType',
+      title: 'Type',
+      type: 'string',
+      group: 'attraction',
+      description:
+        'For attraction pages consolidated from Egypt Wiki. Optional on other kinds.',
+      options: {
+        list: [
+          { title: 'Temple', value: 'temple' },
+          { title: 'Mortuary temple', value: 'mortuary-temple' },
+          { title: 'Tomb', value: 'tomb' },
+          { title: 'Rock-cut tomb', value: 'rock-cut-tomb' },
+          { title: 'Pyramid', value: 'pyramid' },
+          { title: 'Shrine', value: 'shrine' },
+          { title: 'Fortress', value: 'fortress' },
+          { title: 'Palace', value: 'palace' },
+          { title: 'Obelisk', value: 'obelisk' },
+          { title: 'Colossus / statue', value: 'colossus' },
+          { title: 'Necropolis', value: 'necropolis' },
+          { title: 'Archaeological site', value: 'archaeological-site' },
+          { title: 'Church', value: 'church' },
+          { title: 'Mosque', value: 'mosque' },
+          { title: 'Monastery', value: 'monastery' },
+          { title: 'Museum', value: 'museum' },
+          { title: 'Other', value: 'other' },
+        ],
+      },
+    }),
+    defineField({
+      name: 'preciseLocation',
+      title: 'Precise location',
+      type: 'internationalizedArrayString',
+      group: 'attraction',
+      description: 'Within the city. E.g. "West Bank, Luxor" / "Giza Plateau".',
+    }),
+    defineField({
+      name: 'coordinates',
+      title: 'Coordinates',
+      type: 'coordinates',
+      group: 'attraction',
+    }),
+    defineField(
+      localizedPortableTextField('visitorInfo', {
+        title: 'Visitor info',
+        description:
+          'Operational specifics for travelers: opening hours, photography permits, accessibility, what most visitors miss.',
+        group: 'attraction',
+      }) as any
+    ),
+    defineField({
+      name: 'gallery',
+      title: 'Gallery',
+      type: 'array',
+      group: 'attraction',
+      of: [{ type: 'localizedImage' }],
+    }),
+    defineField({
+      name: 'featured',
+      title: 'Featured',
+      type: 'boolean',
+      group: 'attraction',
+      initialValue: false,
     }),
     defineField({
       name: 'seo',
