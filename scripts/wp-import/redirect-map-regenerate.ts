@@ -84,20 +84,30 @@ export function writeRedirectMapCsv(path: string, entries: RedirectEntry[]): voi
 
 // ─── Inventory schema ─────────────────────────────────────────────────────────
 //
-// The inventory CSV is operator-maintained, gitignored, and not staged in the
-// repo. Expected columns (validated at read time):
+// The inventory CSV is operator-maintained, gitignored
+// (`migration/content/*.csv`). Schema as authored:
 //
-//   legacy_url      — absolute WP URL (with or without trailing slash)
-//   destination     — city slug, must match Sanity `city.slug.en`
-//   slug            — page slug (only required when disposition=migrate)
-//   disposition     — migrate | redirect-to-parent | unknown | note-only
-//   locale          — en | es | ja (optional; defaults to 'en' if blank)
+//   destination       — display name (e.g. "Abu Simbel"); slug-ified here
+//   url               — absolute WP URL (with or without trailing slash)
+//   slug_path         — page slug (only required when disposition=migrate)
+//   category          — kind/category hint; informational, not consumed here
+//   disposition       — migrate | redirect-to-parent | unknown | note-only |
+//                       discovered-in-s48 (treated as migrate)
+//   redirect_target   — optional explicit target override (Phase 3e/3f use)
+//   merge_from_doc_id — Phase 3f bookkeeping; ignored here
+//   note              — free text; ignored here
+//   is_relative       — bookkeeping; ignored here
 //
-// Unknown / note-only rows are skipped with an info log. Operator can extend
-// the schema later (e.g. `Best New URL` from per-destination xlsx); reader
-// is forward-compatible — extra columns are ignored.
+// The fixture under `__fixtures__/inventory.sample.csv` uses simpler column
+// names (`legacy_url`, `slug`) for test compactness — the reader accepts
+// either header set.
 
-export type InventoryDisposition = 'migrate' | 'redirect-to-parent' | 'unknown' | 'note-only';
+export type InventoryDisposition =
+  | 'migrate'
+  | 'redirect-to-parent'
+  | 'unknown'
+  | 'note-only'
+  | 'discovered-in-s48';
 
 export interface InventoryRow {
   legacy_url: string;
@@ -105,9 +115,26 @@ export interface InventoryRow {
   slug: string;
   disposition: InventoryDisposition;
   locale: Locale;
+  redirect_target?: string;
 }
 
-const INVENTORY_REQUIRED_COLS = ['legacy_url', 'destination', 'slug', 'disposition'] as const;
+const VALID_DISPOSITIONS: readonly InventoryDisposition[] = [
+  'migrate',
+  'redirect-to-parent',
+  'unknown',
+  'note-only',
+  'discovered-in-s48',
+] as const;
+
+/** "Abu Simbel" → "abu-simbel". Matches Sanity `city.slug.en` convention. */
+export function slugifyDestination(name: string): string {
+  return name
+    .trim()
+    .toLowerCase()
+    .replace(/[’']/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
 
 export function readInventoryCsv(path: string): InventoryRow[] {
   const text = readFileSync(path, 'utf8');
@@ -115,36 +142,43 @@ export function readInventoryCsv(path: string): InventoryRow[] {
   const header = lines.shift();
   if (!header) throw new Error(`inventory CSV is empty: ${path}`);
   const cols = header.split(',').map((c) => c.trim());
-  for (const required of INVENTORY_REQUIRED_COLS) {
-    if (!cols.includes(required)) {
-      throw new Error(
-        `inventory CSV missing required column "${required}". Found: ${cols.join(', ')}`
-      );
+  const idx = (name: string) => cols.indexOf(name);
+
+  // Accept either the production schema or the fixture's compact schema.
+  const urlCol = idx('url') >= 0 ? 'url' : 'legacy_url';
+  const slugCol = idx('slug_path') >= 0 ? 'slug_path' : 'slug';
+  const required = ['destination', urlCol, slugCol, 'disposition'];
+  for (const r of required) {
+    if (idx(r) < 0) {
+      throw new Error(`inventory CSV missing required column "${r}". Found: ${cols.join(', ')}`);
     }
   }
-  const idx = (name: string) => cols.indexOf(name);
   const I = {
-    legacy_url: idx('legacy_url'),
     destination: idx('destination'),
-    slug: idx('slug'),
+    url: idx(urlCol),
+    slug_path: idx(slugCol),
     disposition: idx('disposition'),
+    redirect_target: idx('redirect_target'),
     locale: idx('locale'),
   };
   return lines.map((line, i) => {
     const parts = line.split(',');
-    const disposition = parts[I.disposition] as InventoryDisposition;
-    if (!['migrate', 'redirect-to-parent', 'unknown', 'note-only'].includes(disposition)) {
-      throw new Error(`inventory CSV row ${i + 2}: invalid disposition "${disposition}"`);
+    const dispRaw = parts[I.disposition];
+    if (!VALID_DISPOSITIONS.includes(dispRaw as InventoryDisposition)) {
+      throw new Error(`inventory CSV row ${i + 2}: invalid disposition "${dispRaw}"`);
     }
+    const disposition = dispRaw as InventoryDisposition;
     const rawLocale = I.locale >= 0 ? parts[I.locale] : '';
     const locale: Locale =
       rawLocale && LOCALES.includes(rawLocale as Locale) ? (rawLocale as Locale) : 'en';
+    const redirect_target = I.redirect_target >= 0 ? parts[I.redirect_target] : '';
     return {
-      legacy_url: parts[I.legacy_url],
-      destination: parts[I.destination],
-      slug: parts[I.slug] ?? '',
+      legacy_url: parts[I.url],
+      destination: slugifyDestination(parts[I.destination] ?? ''),
+      slug: parts[I.slug_path] ?? '',
       disposition,
       locale,
+      redirect_target: redirect_target || undefined,
     };
   });
 }
@@ -255,7 +289,7 @@ export function applyInventory(opts: ApplyInventoryOpts): ApplyInventoryResult {
     if (row.disposition === 'redirect-to-parent') {
       toPath = `/guide/${row.destination}/`;
       counts.c_parent++;
-    } else if (row.disposition === 'migrate') {
+    } else if (row.disposition === 'migrate' || row.disposition === 'discovered-in-s48') {
       if (!row.slug) {
         log?.(`[skip] migrate row without slug: ${row.legacy_url}`);
         skipped++;

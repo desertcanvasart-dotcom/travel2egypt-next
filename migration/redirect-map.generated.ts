@@ -13,16 +13,6 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
-    "source": "/fi/kuinka-pukeutua-vieraillessa-egyptissa",
-    "destination": "/",
-    "permanent": true
-  },
-  {
-    "source": "/fi/liikkuminen-egyptissa",
-    "destination": "/",
-    "permanent": true
-  },
-  {
     "source": "/fi/egyptin-hieroglyfien-ymmartaminen",
     "destination": "/",
     "permanent": true
@@ -108,6 +98,11 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/fi/kuinka-pukeutua-vieraillessa-egyptissa",
+    "destination": "/",
+    "permanent": true
+  },
+  {
     "source": "/ms-esplanade-nile-cruise",
     "destination": "/nile-cruises/ms-esplanade-nile-cruise",
     "permanent": true
@@ -185,6 +180,11 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/ナイル・ゴッデス・クルーズ",
     "destination": "/ja/nile-cruises/ナイル・ゴッデス・クルーズ",
+    "permanent": true
+  },
+  {
+    "source": "/fi/liikkuminen-egyptissa",
+    "destination": "/",
     "permanent": true
   },
   {
@@ -640,6 +640,1061 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/why-choose-us",
     "destination": "/about",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-cairo",
+    "destination": "/guide/cairo/only-here-in-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/the-small-temple-of-abu-simbel",
+    "destination": "/guide/abu-simbel/the-small-temple-of-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/qasr-ibrim",
+    "destination": "/guide/abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-abu-simbel",
+    "destination": "/guide/abu-simbel/only-in-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/top-tours-in-abu-simbel",
+    "destination": "/guide/abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/top-hotels-in-abu-simbel",
+    "destination": "/guide/abu-simbel/top-hotels-in-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/how-to-go-in-abu-simbel",
+    "destination": "/guide/abu-simbel/how-to-go-in-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-akhmim",
+    "destination": "/guide/akhmim/only-in-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/unique-sites-in-akhmim",
+    "destination": "/guide/akhmim/unique-sites-in-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/kom-ushim-karanis",
+    "destination": "/guide/al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/medinet-madi",
+    "destination": "/guide/al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/al-fayoum-waterwheels",
+    "destination": "/guide/al-fayoum/al-fayoum-waterwheels",
+    "permanent": true
+  },
+  {
+    "source": "/biahmu",
+    "destination": "/guide/al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-al-fayoum",
+    "destination": "/guide/al-fayoum/only-here-in-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/bardawil-lake",
+    "destination": "/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/the-ancient-city-of-pelusium",
+    "destination": "/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/the-protected-area-of-zaranik",
+    "destination": "/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-al-arish",
+    "destination": "/guide/al-arish/only-in-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/the-fortress-of-al-arish",
+    "destination": "/guide/al-arish/the-fortress-of-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/el-ashmunein",
+    "destination": "/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/tal-el-amarna",
+    "destination": "/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/tuna-el-gebel",
+    "destination": "/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/beni-hassan",
+    "destination": "/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/tihna-el-gebel",
+    "destination": "/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/top-restaurants-in-al-minya",
+    "destination": "/guide/al-minya/top-restaurants-in-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-al-minya",
+    "destination": "/guide/al-minya/only-here-in-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/getting-around-in-al-minya",
+    "destination": "/guide/al-minya/getting-around-in-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-al-quseir",
+    "destination": "/guide/al-quseir/only-here-in-al-quseir",
+    "permanent": true
+  },
+  {
+    "source": "/the-port-of-myos-hormos",
+    "destination": "/guide/al-quseir",
+    "permanent": true
+  },
+  {
+    "source": "/bir-umm-fawakhir",
+    "destination": "/guide/al-quseir",
+    "permanent": true
+  },
+  {
+    "source": "/how-to-get-around-wadi-el-natrun",
+    "destination": "/guide/wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/where-to-eat-in-wadi-el-natrun",
+    "destination": "/guide/wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-wadi-al-natron",
+    "destination": "/guide/wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/how-to-reach-al-gouna",
+    "destination": "/guide/al-gouna/how-to-reach-al-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/zeytouna-beach",
+    "destination": "/guide/al-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/al-gouna-travel-guide/mangroovy-beach",
+    "destination": "/guide/al-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/traditional-food-in-al-gouna",
+    "destination": "/guide/al-gouna/traditional-food-in-al-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-al-gouna",
+    "destination": "/guide/al-gouna/only-in-al-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/al-gouna-festivals-and-celebrations",
+    "destination": "/guide/al-gouna/al-gouna-festivals-and-celebrations",
+    "permanent": true
+  },
+  {
+    "source": "/getting-to-alexandria",
+    "destination": "/guide/alexandria/getting-to-alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/how-to-get-around-alexandria",
+    "destination": "/guide/alexandria/how-to-get-around-alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-alexandria",
+    "destination": "/guide/alexandria/only-here-in-alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/necropolis-of-anfushi",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/the-pharos-lighthouse",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/the-royal-palaces",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/catacombs-of-kom-el-shuqafa",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/pompeys-pillar",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/the-roman-amphitheater",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/qaitbey-fort",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/how-to-reach-aswan",
+    "destination": "/guide/aswan/how-to-reach-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/traditional-food-in-aswan",
+    "destination": "/guide/aswan/traditional-food-in-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/tombs-of-the-nobles-in-aswan",
+    "destination": "/guide/aswan/tombs-of-the-nobles-in-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-festivals-and-celebrations",
+    "destination": "/guide/aswan/aswan-festivals-and-celebrations",
+    "permanent": true
+  },
+  {
+    "source": "/the-botanical-garden",
+    "destination": "/guide/aswan",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-local-market",
+    "destination": "/guide/aswan/aswan-local-market",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-high-dam",
+    "destination": "/guide/aswan/aswan-high-dam",
+    "permanent": true
+  },
+  {
+    "source": "/convent-of-the-holy-virgin-at-dorunka",
+    "destination": "/guide/asyut",
+    "permanent": true
+  },
+  {
+    "source": "/what-to-eat-in-asyut",
+    "destination": "/guide/asyut/what-to-eat-in-asyut",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-asyut",
+    "destination": "/guide/asyut/only-here-in-asyut",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-bahariya-oasis",
+    "destination": "/guide/bahariya-oasis/only-here-in-bahariya-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/valley-of-the-golden-mummies",
+    "destination": "/guide/bahariya-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/el-hayz",
+    "destination": "/guide/bahariya-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/al-qasr-village",
+    "destination": "/guide/bahariya-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/bawiti",
+    "destination": "/guide/bahariya-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/the-crystal-mountain",
+    "destination": "/guide/bahariya-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/how-to-reach-beni-suef",
+    "destination": "/guide/beni-suef/how-to-reach-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/ehnasya-el-medina",
+    "destination": "/guide/beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/dishasha",
+    "destination": "/guide/beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-beni-suef",
+    "destination": "/guide/beni-suef/only-here-in-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/al-mezauwaqa",
+    "destination": "/guide/dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/weather-in-dakhla-oasis",
+    "destination": "/guide/dakhla-oasis/weather-in-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/dakhla-oasis/deir-el-hagar",
+    "destination": "/guide/dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/dakhla-oasis/food-2",
+    "destination": "/guide/dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-dakhla-oasis",
+    "destination": "/guide/dakhla-oasis/only-here-in-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/dakhla-oasis/where-to-stay",
+    "destination": "/guide/dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/what-to-do-in-edfu",
+    "destination": "/guide/edfu/what-to-do-in-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/popular-tours-in-edfu",
+    "destination": "/guide/edfu",
+    "permanent": true
+  },
+  {
+    "source": "/edfu-food-and-drink",
+    "destination": "/guide/edfu/edfu-food-and-drink",
+    "permanent": true
+  },
+  {
+    "source": "/the-hidden-valley-and-the-new-white-desert",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/white-desert-national-park",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/el-qaf",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/crystal-mountain-and-agabat",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/off-road-from-farafra-to-dakhla",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/palm-groves",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ghard-abu-muharrik-and-the-sand-volcano",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/qasr-al-farafra",
+    "destination": "/guide/farafra-oasis/qasr-al-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/road-to-dakhla",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/the-white-desert",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/accommodations-in-farafra",
+    "destination": "/guide/farafra-oasis/accommodations-in-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/top-hotels-in-giza",
+    "destination": "/guide/giza/top-hotels-in-giza",
+    "permanent": true
+  },
+  {
+    "source": "/navigating-giza",
+    "destination": "/guide/giza/navigating-giza",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-giza",
+    "destination": "/guide/giza/only-in-giza",
+    "permanent": true
+  },
+  {
+    "source": "/top-tours-in-giza",
+    "destination": "/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/public-transport-in-hurghada",
+    "destination": "/guide/hurghada/public-transport-in-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/where-to-sleep-in-hurghada",
+    "destination": "/guide/hurghada/where-to-sleep-in-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/what-to-eat-in-hurghada",
+    "destination": "/guide/hurghada/what-to-eat-in-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/hurghada-marina",
+    "destination": "/guide/hurghada/hurghada-marina",
+    "permanent": true
+  },
+  {
+    "source": "/hurghada-aquarium",
+    "destination": "/guide/hurghada/hurghada-aquarium",
+    "permanent": true
+  },
+  {
+    "source": "/giftun-islands",
+    "destination": "/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/straits-of-gubal",
+    "destination": "/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/abu-nuhas-shipwreck-sites",
+    "destination": "/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/accommodation-options-ismailia",
+    "destination": "/guide/ismailia/accommodation-options-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/ismailia-flavors",
+    "destination": "/guide/ismailia/ismailia-flavors",
+    "permanent": true
+  },
+  {
+    "source": "/only-here-in-ismailia",
+    "destination": "/guide/ismailia/only-here-in-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/navigating-ismailia",
+    "destination": "/guide/ismailia/navigating-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/top-tours-in-kharga-oasis",
+    "destination": "/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/the-speos-of-horemheb",
+    "destination": "/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/gebel-el-silsila",
+    "destination": "/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/public-transport-in-kom-ombo",
+    "destination": "/guide/kom-ombo/public-transport-in-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/explore-kom-ombo-activities",
+    "destination": "/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/where-to-sleep-in-kom-ombo",
+    "destination": "/guide/kom-ombo/where-to-sleep-in-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/what-to-eat-in-kom-ombo",
+    "destination": "/guide/kom-ombo/what-to-eat-in-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/kom-ombo-unforgettable-moments",
+    "destination": "/guide/kom-ombo/kom-ombo-unforgettable-moments",
+    "permanent": true
+  },
+  {
+    "source": "/annual-events-in-kom-ombo",
+    "destination": "/guide/kom-ombo/annual-events-in-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/top-restaurants-in-luxor",
+    "destination": "/guide/luxor/top-restaurants-in-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/luxor-off-the-beaten-path",
+    "destination": "/guide/luxor/luxor-off-the-beaten-path",
+    "permanent": true
+  },
+  {
+    "source": "/cultural-events-in-luxor",
+    "destination": "/guide/luxor/cultural-events-in-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/the-valley-of-the-queens",
+    "destination": "/guide/luxor",
+    "permanent": true
+  },
+  {
+    "source": "/the-valley-of-the-kings",
+    "destination": "/guide/luxor",
+    "permanent": true
+  },
+  {
+    "source": "/deir-el-madina",
+    "destination": "/guide/luxor",
+    "permanent": true
+  },
+  {
+    "source": "/luxor-ancient-past",
+    "destination": "/guide/luxor/luxor-ancient-past",
+    "permanent": true
+  },
+  {
+    "source": "/luxor-climate",
+    "destination": "/guide/luxor/luxor-climate",
+    "permanent": true
+  },
+  {
+    "source": "/travel-to-luxor",
+    "destination": "/guide/luxor/travel-to-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/what-to-do-in-luxor",
+    "destination": "/guide/luxor/what-to-do-in-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/when-to-go-marsa-alam",
+    "destination": "/guide/marsa-alam/when-to-go-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/the-town-of-marsa-alam",
+    "destination": "/guide/marsa-alam/the-town-of-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/hamata-islands-qulaan-archipelago",
+    "destination": "/guide/marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/the-camel-market-at-shalateen",
+    "destination": "/guide/marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/sharm-el-luli",
+    "destination": "/guide/marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/sataya-reef",
+    "destination": "/guide/marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/port-ghalib-marina",
+    "destination": "/guide/marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/abu-dabbab-beach",
+    "destination": "/guide/marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/wadi-el-gamal-national-park",
+    "destination": "/guide/marsa-alam/wadi-el-gamal-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/marsa-alam-flavors",
+    "destination": "/guide/marsa-alam/marsa-alam-flavors",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-marsa-alam",
+    "destination": "/guide/marsa-alam/only-in-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/places-to-go-in-marsa-matruh",
+    "destination": "/guide/marsa-matruh/places-to-go-in-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/marsa-matruh-events",
+    "destination": "/guide/marsa-matruh/marsa-matruh-events",
+    "permanent": true
+  },
+  {
+    "source": "/uncovering-nuweiba-heritage",
+    "destination": "/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/nuweiba-hotel-guide",
+    "destination": "/guide/nuweiba/nuweiba-hotel-guide",
+    "permanent": true
+  },
+  {
+    "source": "/tours-in-nuweiba",
+    "destination": "/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-nuweiba",
+    "destination": "/guide/nuweiba/only-in-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/cultural-events-in-nuweiba",
+    "destination": "/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/the-tarabin-beach",
+    "destination": "/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/lodging-in-port-said",
+    "destination": "/guide/port-said/lodging-in-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/planning-your-trip-to-port-said",
+    "destination": "/guide/port-said",
+    "permanent": true
+  },
+  {
+    "source": "/suez-canal-house",
+    "destination": "/guide/port-said",
+    "permanent": true
+  },
+  {
+    "source": "/waterfront-quarter-port-said",
+    "destination": "/guide/port-said/waterfront-quarter-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/tours-to-enjoy-in-port-said",
+    "destination": "/guide/port-said",
+    "permanent": true
+  },
+  {
+    "source": "/port-said-food-and-drink",
+    "destination": "/guide/port-said/port-said-food-and-drink",
+    "permanent": true
+  },
+  {
+    "source": "/navigating-qena",
+    "destination": "/guide/qena/navigating-qena",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-qena",
+    "destination": "/guide/qena/only-in-qena",
+    "permanent": true
+  },
+  {
+    "source": "/upcoming-events-in-qena",
+    "destination": "/guide/qena/upcoming-events-in-qena",
+    "permanent": true
+  },
+  {
+    "source": "/sacred-lake",
+    "destination": "/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/hathor-and-bes",
+    "destination": "/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/the-roof-chapels-of-hathor",
+    "destination": "/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/hypostyle-ceiling",
+    "destination": "/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/roman-mammisi",
+    "destination": "/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/ras-sudr-ancient-past",
+    "destination": "/guide/ras-sudr/ras-sudr-ancient-past",
+    "permanent": true
+  },
+  {
+    "source": "/ras-sudr-climate",
+    "destination": "/guide/ras-sudr/ras-sudr-climate",
+    "permanent": true
+  },
+  {
+    "source": "/travel-to-ras-sudr",
+    "destination": "/guide/ras-sudr/travel-to-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/ras-sudr-local-transport-guide",
+    "destination": "/guide/ras-sudr/ras-sudr-local-transport-guide",
+    "permanent": true
+  },
+  {
+    "source": "/places-to-visit-in-ras-sudr",
+    "destination": "/guide/ras-sudr/places-to-visit-in-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/explore-ras-sudr-tours",
+    "destination": "/guide/ras-sudr/explore-ras-sudr-tours",
+    "permanent": true
+  },
+  {
+    "source": "/top-restaurants-in-ras-sudr",
+    "destination": "/guide/ras-sudr/top-restaurants-in-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-ras-sudr",
+    "destination": "/guide/ras-sudr/only-in-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/places-to-stay-in-ras-sudr",
+    "destination": "/guide/ras-sudr/places-to-stay-in-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/outstanding-islamic-and-ottoman-places-in-rosetta",
+    "destination": "/guide/rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-rosetta",
+    "destination": "/guide/rosetta-rasheed/only-in-rosetta",
+    "permanent": true
+  },
+  {
+    "source": "/taste-of-rosetta",
+    "destination": "/guide/rosetta-rasheed/taste-of-rosetta",
+    "permanent": true
+  },
+  {
+    "source": "/places-to-go-in-safaga",
+    "destination": "/guide/safaga/places-to-go-in-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-safaga",
+    "destination": "/guide/safaga/only-in-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/annual-events-in-safaga",
+    "destination": "/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-saint-catherine",
+    "destination": "/guide/saint-catherine/only-in-saint-catherine",
+    "permanent": true
+  },
+  {
+    "source": "/saint-catherine-mountain",
+    "destination": "/guide/saint-catherine/saint-catherine-mountain",
+    "permanent": true
+  },
+  {
+    "source": "/moses-mountain",
+    "destination": "/guide/saint-catherine",
+    "permanent": true
+  },
+  {
+    "source": "/accommodations-in-sharm-el-sheikh",
+    "destination": "/guide/sharm-el-sheikh/accommodations-in-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-sharm-el-sheikh",
+    "destination": "/guide/sharm-el-sheikh/only-in-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/top-tours-in-sharm-el-sheikh",
+    "destination": "/guide/sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/nabq-national-park",
+    "destination": "/guide/sharm-el-sheikh/nabq-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/ras-mohamed-national-park",
+    "destination": "/guide/sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/naama-bay-sharm-el-sheikh-guide",
+    "destination": "/guide/sharm-el-sheikh/naama-bay-sharm-el-sheikh-guide",
+    "permanent": true
+  },
+  {
+    "source": "/uncovering-siwa-heritage",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/siwa-hotel-guide",
+    "destination": "/guide/siwa-oasis/siwa-hotel-guide",
+    "permanent": true
+  },
+  {
+    "source": "/reaching-siwa-egypt",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/tours-in-siwa",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/cleopatra-pool",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/dakrour-mountain",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/mountain-of-the-dead",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/salt-lakes",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/uncovering-sohag-heritage",
+    "destination": "/guide/sohag",
+    "permanent": true
+  },
+  {
+    "source": "/sohag-hotel-guide",
+    "destination": "/guide/sohag/sohag-hotel-guide",
+    "permanent": true
+  },
+  {
+    "source": "/reaching-sohag-egypt",
+    "destination": "/guide/sohag",
+    "permanent": true
+  },
+  {
+    "source": "/story-of-suez",
+    "destination": "/guide/suez/story-of-suez",
+    "permanent": true
+  },
+  {
+    "source": "/suez-temperature-trends",
+    "destination": "/guide/suez/suez-temperature-trends",
+    "permanent": true
+  },
+  {
+    "source": "/ways-to-get-to-suez",
+    "destination": "/guide/suez/ways-to-get-to-suez",
+    "permanent": true
+  },
+  {
+    "source": "/cultural-tours-in-suez",
+    "destination": "/guide/suez",
+    "permanent": true
+  },
+  {
+    "source": "/eating-out-in-suez",
+    "destination": "/guide/suez/eating-out-in-suez",
+    "permanent": true
+  },
+  {
+    "source": "/story-of-taba",
+    "destination": "/guide/taba/story-of-taba",
+    "permanent": true
+  },
+  {
+    "source": "/taba-temperature-trends",
+    "destination": "/guide/taba/taba-temperature-trends",
+    "permanent": true
+  },
+  {
+    "source": "/ways-to-get-to-taba",
+    "destination": "/guide/taba/ways-to-get-to-taba",
+    "permanent": true
+  },
+  {
+    "source": "/best-places-to-stay-taba",
+    "destination": "/guide/taba/best-places-to-stay-taba",
+    "permanent": true
+  },
+  {
+    "source": "/taba-heights",
+    "destination": "/guide/taba/taba-heights",
+    "permanent": true
+  },
+  {
+    "source": "/only-in-taba",
+    "destination": "/guide/taba/only-in-taba",
+    "permanent": true
+  },
+  {
+    "source": "/eating-out-in-taba",
+    "destination": "/guide/taba/eating-out-in-taba",
+    "permanent": true
+  },
+  {
+    "source": "/cultural-tours-in-taba",
+    "destination": "/guide/taba",
+    "permanent": true
+  },
+  {
+    "source": "/how-to-go-in-al-wadi-al-gadid",
+    "destination": "/guide/al-wadi-al-gadid/how-to-go-in-al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/top-tours-in-al-wadi-al-gadid",
+    "destination": "/guide/al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/planning-your-trip-to-dahab",
+    "destination": "/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/experiences-in-dahab",
+    "destination": "/guide/dahab/experiences-in-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/abu-galum-protectorate",
+    "destination": "/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/private-tours-in-dahab",
+    "destination": "/guide/dahab",
     "permanent": true
   }
 ];
