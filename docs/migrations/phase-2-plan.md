@@ -554,6 +554,7 @@ content (the 71 absent attractions + the 134 consolidated monuments).
 | Volume breakdown of the ~3,000 total docs | Operator | Only destination content is scoped here; other types (tours, hotels, articles, wiki) are out of Phase 2 scope. |
 | Translation-review queue | Editorial | Cumulative; s46/s47 items + any locale-incomplete imports. |
 | Session 47 cookie-policy reconciliation | — | **Resolved** — completed in s47; production-dataset boilerplate remains a cutover-sweep item only. |
+| 2 duplicate `/fi/` rows in `migration/redirect-map.csv` | Backlog | Surfaced by s55: `/fi/kuinka-pukeutua-vieraillessa-egyptissa/` and `/fi/liikkuminen-egyptissa/` each appear twice in the baseline (pre-existing from the s48 writer). The s55 regenerator dedupes by `source` when emitting `redirect-map.generated.ts` (128 rows → 126 unique rules), so this does not affect runtime. Cleanup is a one-line dedup in the live-entries collection path of `scripts/wp-import/redirect-map.ts` — non-blocking, separate session. |
 
 ### §11.4 Guide ↔ plan/schema conflicts — RESOLVED (Session 52)
 
