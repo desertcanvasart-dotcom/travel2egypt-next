@@ -3696,5 +3696,35 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/wiki/monuments/ウム・スルタン・シャアバーンのモスクとマドラ",
     "destination": "/ja/guide/cairo/ウム・スルタン・シャアバーンのモスクとマドラ",
     "permanent": true
+  },
+  {
+    "source": "/guide/nuweiba/cultural-events-in-nuweiba",
+    "destination": "/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/fiestas-en-nuweiba",
+    "destination": "/es/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/nuweiba/nuweiba-no-o-matsuri",
+    "destination": "/ja/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/guide/safaga/annual-events-in-safaga",
+    "destination": "/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/celebracion-en-safaga",
+    "destination": "/es/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/safaga/safaga-de-no-oiwai",
+    "destination": "/ja/guide/safaga",
+    "permanent": true
   }
 ];
