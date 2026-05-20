@@ -1696,5 +1696,2005 @@ export const redirects: RedirectRule[] = [
     "source": "/private-tours-in-dahab",
     "destination": "/guide/dahab",
     "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/fatnas-island",
+    "destination": "/guide/siwa-oasis/fatnas-island",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/isla-fatnas",
+    "destination": "/es/guide/siwa-oasis/isla-fatnas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ファトナス島",
+    "destination": "/ja/guide/siwa-oasis/ファトナス島",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-temple-of-kom-ombo",
+    "destination": "/guide/kom-ombo/the-temple-of-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-de-kom-ombo",
+    "destination": "/es/guide/kom-ombo/el-templo-de-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/コム・オンボ神殿",
+    "destination": "/ja/guide/kom-ombo/コム・オンボ神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-great-temple-of-abu-simbel",
+    "destination": "/guide/abu-simbel/the-great-temple-of-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-gran-templo-de-abu-simbel",
+    "destination": "/es/guide/abu-simbel/el-gran-templo-de-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アブ・シンベル大神殿",
+    "destination": "/ja/guide/abu-simbel/アブ・シンベル大神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-temple-of-amada",
+    "destination": "/guide/abu-simbel/the-temple-of-amada",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-de-amada",
+    "destination": "/es/guide/abu-simbel/el-templo-de-amada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アマダ神殿",
+    "destination": "/ja/guide/abu-simbel/アマダ神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-temple-of-derr",
+    "destination": "/guide/abu-simbel/the-temple-of-derr",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-de-derr",
+    "destination": "/es/guide/abu-simbel/el-templo-de-derr",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/デール神殿",
+    "destination": "/ja/guide/abu-simbel/デール神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/sultan-selim-fortress",
+    "destination": "/guide/al-quseir/sultan-selim-fortress",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/fortaleza-del-sultan-selim",
+    "destination": "/es/guide/al-quseir/fortaleza-del-sultan-selim",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/スルタン・セリム要塞",
+    "destination": "/ja/guide/al-quseir/スルタン・セリム要塞",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-serapeum-temple",
+    "destination": "/guide/alexandria/the-serapeum-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-del-serapeum",
+    "destination": "/es/guide/alexandria/el-templo-del-serapeum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/セラピス神殿",
+    "destination": "/ja/guide/alexandria/セラピス神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/royal-family-jewellery-museum",
+    "destination": "/guide/alexandria/royal-family-jewellery-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/museo-de-joyas-de-la-familia-real",
+    "destination": "/es/guide/alexandria/museo-de-joyas-de-la-familia-real",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/王室宝石博物館",
+    "destination": "/ja/guide/alexandria/王室宝石博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-greco-roman-museum",
+    "destination": "/guide/alexandria/the-greco-roman-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-museo-grecorromano",
+    "destination": "/es/guide/alexandria/el-museo-grecorromano",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/グレコ・ローマン博物館",
+    "destination": "/ja/guide/alexandria/グレコ・ローマン博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/al-mursi-abu-al-abbas-mosque",
+    "destination": "/guide/alexandria/al-mursi-abu-al-abbas-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-al-mursi-abu-al-abbas",
+    "destination": "/es/guide/alexandria/mezquita-al-mursi-abu-al-abbas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル・モルシ・アブー・アル・アッバース・モス",
+    "destination": "/ja/guide/alexandria/アル・モルシ・アブー・アル・アッバース・モス",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-national-museum",
+    "destination": "/guide/alexandria/the-national-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-museo-nacional",
+    "destination": "/es/guide/alexandria/el-museo-nacional",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アレクサンドリア国立博物館",
+    "destination": "/ja/guide/alexandria/アレクサンドリア国立博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/elephantine-island",
+    "destination": "/guide/aswan/elephantine-island",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/isla-elefantina",
+    "destination": "/es/guide/aswan/isla-elefantina",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/エレファンティネ島",
+    "destination": "/ja/guide/aswan/エレファンティネ島",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-kalabsha-temple",
+    "destination": "/guide/aswan/the-kalabsha-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-de-kalabsha",
+    "destination": "/es/guide/aswan/el-templo-de-kalabsha",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/カラブシャ神殿",
+    "destination": "/ja/guide/aswan/カラブシャ神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-aswan-museum",
+    "destination": "/guide/aswan/the-aswan-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-museo-de-asuan",
+    "destination": "/es/guide/aswan/el-museo-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アスワン博物館",
+    "destination": "/ja/guide/aswan/アスワン博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/aswan-isis-temple",
+    "destination": "/guide/aswan/aswan-isis-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/templo-de-isis-de-asuan",
+    "destination": "/es/guide/aswan/templo-de-isis-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アスワン・イシス神殿",
+    "destination": "/ja/guide/aswan/アスワン・イシス神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-nubian-museum",
+    "destination": "/guide/aswan/the-nubian-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-museo-nubio",
+    "destination": "/es/guide/aswan/el-museo-nubio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ヌビア博物館",
+    "destination": "/ja/guide/aswan/ヌビア博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-unfinished-obelisk",
+    "destination": "/guide/aswan/the-unfinished-obelisk",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-obelisco-inacabado",
+    "destination": "/es/guide/aswan/el-obelisco-inacabado",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/未完成のオベリスク",
+    "destination": "/ja/guide/aswan/未完成のオベリスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/st-simeon-monastery",
+    "destination": "/guide/aswan/st-simeon-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/monasterio-de-san-simeon",
+    "destination": "/es/guide/aswan/monasterio-de-san-simeon",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/聖シメオン修道院",
+    "destination": "/ja/guide/aswan/聖シメオン修道院",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/kitcheners-island",
+    "destination": "/guide/aswan/kitcheners-island",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/isla-de-kitchener",
+    "destination": "/es/guide/aswan/isla-de-kitchener",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/キッチナー島",
+    "destination": "/ja/guide/aswan/キッチナー島",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/sehel-island",
+    "destination": "/guide/aswan/sehel-island",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/isla-de-sehel",
+    "destination": "/es/guide/aswan/isla-de-sehel",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/セヘル島",
+    "destination": "/ja/guide/aswan/セヘル島",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-aga-khan-mausoleum",
+    "destination": "/guide/aswan/the-aga-khan-mausoleum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-mausoleo-de-aga-khan-en-asuan",
+    "destination": "/es/guide/aswan/el-mausoleo-de-aga-khan-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アーガー・ハーン廟",
+    "destination": "/ja/guide/aswan/アーガー・ハーン廟",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-tomb-of-khety-ii-at-asyut",
+    "destination": "/guide/asyut/the-tomb-of-khety-ii-at-asyut",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-tumba-de-khety-ii-en-asyut",
+    "destination": "/es/guide/asyut/la-tumba-de-khety-ii-en-asyut",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アスユートのケティ2世の墓",
+    "destination": "/ja/guide/asyut/アスユートのケティ2世の墓",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-necropolis-of-meir",
+    "destination": "/guide/asyut/the-necropolis-of-meir",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-necropolis-de-meir",
+    "destination": "/es/guide/asyut/la-necropolis-de-meir",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/メイルのネクロポリス",
+    "destination": "/ja/guide/asyut/メイルのネクロポリス",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/meidum-necropolis",
+    "destination": "/guide/beni-suef/meidum-necropolis",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/necropolis-de-meidum",
+    "destination": "/es/guide/beni-suef/necropolis-de-meidum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/メイドゥムネクロポリス",
+    "destination": "/ja/guide/beni-suef/メイドゥムネクロポリス",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/pyramid-of-meidum",
+    "destination": "/guide/beni-suef/pyramid-of-meidum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramide-de-meidum",
+    "destination": "/es/guide/beni-suef/piramide-de-meidum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/メイドゥムのピラミッド",
+    "destination": "/ja/guide/beni-suef/メイドゥムのピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-temple-of-khnum-at-esna",
+    "destination": "/guide/esna/the-temple-of-khnum-at-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/templo-de-khnum-2",
+    "destination": "/es/guide/esna/templo-de-khnum-2",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/クヌム神殿",
+    "destination": "/ja/guide/esna/クヌム神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/badrs-museum",
+    "destination": "/guide/farafra-oasis/badrs-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/museo-badr",
+    "destination": "/es/guide/farafra-oasis/museo-badr",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/バドル博物館",
+    "destination": "/ja/guide/farafra-oasis/バドル博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/fortress",
+    "destination": "/guide/farafra-oasis/fortress",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-fortaleza",
+    "destination": "/es/guide/farafra-oasis/la-fortaleza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/要塞",
+    "destination": "/ja/guide/farafra-oasis/要塞",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/kharga-cultural-museum",
+    "destination": "/guide/kharga-oasis/kharga-cultural-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/museo-cultural-de-kharga",
+    "destination": "/es/guide/kharga-oasis/museo-cultural-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/カルガ文化博物館",
+    "destination": "/ja/guide/kharga-oasis/カルガ文化博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/fortress-and-temple-at-nadura",
+    "destination": "/guide/kharga-oasis/fortress-and-temple-at-nadura",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/fortaleza-y-templo-de-nadura",
+    "destination": "/es/guide/kharga-oasis/fortaleza-y-templo-de-nadura",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ナドゥーラの砦と神殿",
+    "destination": "/ja/guide/kharga-oasis/ナドゥーラの砦と神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/hibis-temple",
+    "destination": "/guide/kharga-oasis/hibis-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/templo-de-hibis",
+    "destination": "/es/guide/kharga-oasis/templo-de-hibis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ヒビス神殿",
+    "destination": "/ja/guide/kharga-oasis/ヒビス神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/khnum-temple",
+    "destination": "/guide/kom-ombo/khnum-temple",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-luxor-temple",
+    "destination": "/guide/luxor/the-luxor-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-de-luxor",
+    "destination": "/es/guide/luxor/el-templo-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ルクソール神殿",
+    "destination": "/ja/guide/luxor/ルクソール神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-colossi-of-memnon",
+    "destination": "/guide/luxor/the-colossi-of-memnon",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/los-colosos-de-memnon",
+    "destination": "/es/guide/luxor/los-colosos-de-memnon",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/メムノンの巨像",
+    "destination": "/ja/guide/luxor/メムノンの巨像",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-mortuary-temple-of-queen-hatshepsut",
+    "destination": "/guide/luxor/the-mortuary-temple-of-queen-hatshepsut",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-mortuorio-de-la-reina-hatshepsut",
+    "destination": "/es/guide/luxor/el-templo-mortuorio-de-la-reina-hatshepsut",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/女王ハトシェプスト葬祭殿",
+    "destination": "/ja/guide/luxor/女王ハトシェプスト葬祭殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/edfu-temple",
+    "destination": "/guide/edfu/edfu-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/templo-de-edfu",
+    "destination": "/es/guide/edfu/templo-de-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/エドフ神殿",
+    "destination": "/ja/guide/edfu/エドフ神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-luxor-museum",
+    "destination": "/guide/luxor/the-luxor-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/museo-de-luxor",
+    "destination": "/es/guide/luxor/museo-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ルクソール博物館",
+    "destination": "/ja/guide/luxor/ルクソール博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/madinat-habu-temple",
+    "destination": "/guide/luxor/madinat-habu-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/templo-de-madinat-habu",
+    "destination": "/es/guide/luxor/templo-de-madinat-habu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/マディナット・ハブ神殿",
+    "destination": "/ja/guide/luxor/マディナット・ハブ神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-temple-of-dendera",
+    "destination": "/guide/qena/the-temple-of-dendera",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-de-dendera",
+    "destination": "/es/guide/qena/el-templo-de-dendera",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/デンデラの神殿",
+    "destination": "/ja/guide/qena/デンデラの神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-karnak-temple",
+    "destination": "/guide/luxor/the-karnak-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-de-karnak",
+    "destination": "/es/guide/luxor/el-templo-de-karnak",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/カルナック神殿",
+    "destination": "/ja/guide/luxor/カルナック神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/saint-catherine-monastery",
+    "destination": "/guide/saint-catherine/saint-catherine-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/monasterio-de-santa-catalina",
+    "destination": "/es/guide/saint-catherine/monasterio-de-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/聖カタリナ修道院",
+    "destination": "/ja/guide/saint-catherine/聖カタリナ修道院",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-al-hakim-be-amr-allah",
+    "destination": "/guide/saint-catherine/mosque-of-al-hakim-be-amr-allah",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-al-hakim-be-amr-allah",
+    "destination": "/es/guide/saint-catherine/mezquita-de-al-hakim-be-amr-allah",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル・ハーキム・ビー・アムルッラー・モスク",
+    "destination": "/ja/guide/saint-catherine/アル・ハーキム・ビー・アムルッラー・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/library-of-the-monastery",
+    "destination": "/guide/saint-catherine/library-of-the-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/biblioteca-del-monasterio",
+    "destination": "/es/guide/saint-catherine/biblioteca-del-monasterio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/聖カタリナ修道院図書館",
+    "destination": "/ja/guide/saint-catherine/聖カタリナ修道院図書館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-heavenly-cathedral",
+    "destination": "/guide/sharm-el-sheikh/the-heavenly-cathedral",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-catedral-celestial",
+    "destination": "/es/guide/sharm-el-sheikh/la-catedral-celestial",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/天上の大聖堂",
+    "destination": "/ja/guide/sharm-el-sheikh/天上の大聖堂",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-great-sand-sea",
+    "destination": "/guide/siwa-oasis/the-great-sand-sea",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-gran-mar-de-arena",
+    "destination": "/es/guide/siwa-oasis/el-gran-mar-de-arena",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/大砂海",
+    "destination": "/ja/guide/siwa-oasis/大砂海",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/siwa-house-museum",
+    "destination": "/guide/siwa-oasis/siwa-house-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/casa-museo-siwa",
+    "destination": "/es/guide/siwa-oasis/casa-museo-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/シーワ・ハウス博物館",
+    "destination": "/ja/guide/siwa-oasis/シーワ・ハウス博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/shali-fortress",
+    "destination": "/guide/siwa-oasis/shali-fortress",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/fortaleza-de-shali",
+    "destination": "/es/guide/siwa-oasis/fortaleza-de-shali",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/シャリの砦",
+    "destination": "/ja/guide/siwa-oasis/シャリの砦",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/temple-of-the-oracle",
+    "destination": "/guide/siwa-oasis/temple-of-the-oracle",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/templo-del-oraculo",
+    "destination": "/es/guide/siwa-oasis/templo-del-oraculo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/神託の神殿",
+    "destination": "/ja/guide/siwa-oasis/神託の神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/abydos-temple",
+    "destination": "/guide/sohag/abydos-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/templo-de-abydos",
+    "destination": "/es/guide/sohag/templo-de-abydos",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アビドス神殿",
+    "destination": "/ja/guide/sohag/アビドス神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-white-monastery",
+    "destination": "/guide/sohag/the-white-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-monasterio-blanco",
+    "destination": "/es/guide/sohag/el-monasterio-blanco",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ホワイト・モナステリー（白の修道院）",
+    "destination": "/ja/guide/sohag/ホワイト・モナステリー（白の修道院）",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/monastery-of-st-pishoy",
+    "destination": "/guide/wadi-el-natrun/monastery-of-st-pishoy",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/monasterio-de-san-pishoy",
+    "destination": "/es/guide/wadi-el-natrun/monasterio-de-san-pishoy",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/聖ピショイ修道院",
+    "destination": "/ja/guide/wadi-el-natrun/聖ピショイ修道院",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/paromeos-monastery",
+    "destination": "/guide/wadi-el-natrun/paromeos-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/monasterio-de-paromeos",
+    "destination": "/es/guide/wadi-el-natrun/monasterio-de-paromeos",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/バラムス修道院",
+    "destination": "/ja/guide/wadi-el-natrun/バラムス修道院",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/syrian-monastery",
+    "destination": "/guide/wadi-el-natrun/syrian-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/monasterio-sirio",
+    "destination": "/es/guide/wadi-el-natrun/monasterio-sirio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/デイル・アル・スリアーニ-シリア修道院",
+    "destination": "/ja/guide/wadi-el-natrun/デイル・アル・スリアーニ-シリア修道院",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/monastery-of-saint-macarius-the-great",
+    "destination": "/guide/wadi-el-natrun/monastery-of-saint-macarius-the-great",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/monasterio-de-san-macario-el-grande",
+    "destination": "/es/guide/wadi-el-natrun/monasterio-de-san-macario-el-grande",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/聖マカリオス大修道院",
+    "destination": "/ja/guide/wadi-el-natrun/聖マカリオス大修道院",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-red-monastery",
+    "destination": "/guide/sohag/the-red-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-monasterio-rojo",
+    "destination": "/es/guide/sohag/el-monasterio-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/レッド・モナステリー-赤の修道院",
+    "destination": "/ja/guide/sohag/レッド・モナステリー-赤の修道院",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/wadi-el-rayan",
+    "destination": "/guide/al-fayoum/wadi-el-rayan",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/wadi-al-rayan",
+    "destination": "/es/guide/al-fayoum/wadi-al-rayan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ワディ・アル・ライアン",
+    "destination": "/ja/guide/al-fayoum/ワディ・アル・ライアン",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-pyramid-of-hawara",
+    "destination": "/guide/al-fayoum/the-pyramid-of-hawara",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-piramide-de-hawara",
+    "destination": "/es/guide/al-fayoum/la-piramide-de-hawara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ハワラのピラミッド",
+    "destination": "/ja/guide/al-fayoum/ハワラのピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-pyramid-of-al-lahun",
+    "destination": "/guide/al-fayoum/the-pyramid-of-al-lahun",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-piramide-de-al-lahun",
+    "destination": "/es/guide/al-fayoum/la-piramide-de-al-lahun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ラフンのピラミッド",
+    "destination": "/ja/guide/al-fayoum/ラフンのピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-mosque-of-qaitbey-in-al-fayoum",
+    "destination": "/guide/al-fayoum/the-mosque-of-qaitbey-in-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-mezquita-de-qaitbey",
+    "destination": "/es/guide/al-fayoum/la-mezquita-de-qaitbey",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/カイトベイ・モスク",
+    "destination": "/ja/guide/al-fayoum/カイトベイ・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-hanging-mosque",
+    "destination": "/guide/al-fayoum/the-hanging-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-mezquita-colgante",
+    "destination": "/es/guide/al-fayoum/la-mezquita-colgante",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ハンギング・モスク",
+    "destination": "/ja/guide/al-fayoum/ハンギング・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/wadi-al-hittan",
+    "destination": "/guide/al-fayoum/wadi-al-hittan",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/wadi-al-hittan",
+    "destination": "/es/guide/al-fayoum/wadi-al-hittan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ワディ・アル・ヒータン",
+    "destination": "/ja/guide/al-fayoum/ワディ・アル・ヒータン",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-roman-fortress-at-dush",
+    "destination": "/guide/baris/the-roman-fortress-at-dush",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-fortaleza-romana-de-dush",
+    "destination": "/es/guide/baris/la-fortaleza-romana-de-dush",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ドゥシュのローマ要塞",
+    "destination": "/ja/guide/baris/ドゥシュのローマ要塞",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/gayer-anderson-museum",
+    "destination": "/guide/cairo/gayer-anderson-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/museo-gayer-anderson",
+    "destination": "/es/guide/cairo/museo-gayer-anderson",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ガイヤー・アンダーソン博物館",
+    "destination": "/ja/guide/cairo/ガイヤー・アンダーソン博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-ibn-tulun",
+    "destination": "/guide/cairo/mosque-of-ibn-tulun",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-ibn-tulun",
+    "destination": "/es/guide/cairo/mezquita-de-ibn-tulun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/イブン・トゥールーン・モスク",
+    "destination": "/ja/guide/cairo/イブン・トゥールーン・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-al-nasir-mohammed-ben-qalawoon",
+    "destination": "/guide/cairo/mosque-of-al-nasir-mohammed-ben-qalawoon",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-al-nasir-mohammed-ben-qalawoon",
+    "destination": "/es/guide/cairo/mezquita-de-al-nasir-mohammed-ben-qalawoon",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル・ナースィル・ムハンマド・イブン・カラウ",
+    "destination": "/ja/guide/cairo/アル・ナースィル・ムハンマド・イブン・カラウ",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-citadel-of-saladin",
+    "destination": "/guide/cairo/the-citadel-of-saladin",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-ciudadela-de-saladino",
+    "destination": "/es/guide/cairo/la-ciudadela-de-saladino",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/サラディンの城塞",
+    "destination": "/ja/guide/cairo/サラディンの城塞",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-madrassa-of-sultan-hassan",
+    "destination": "/guide/cairo/mosque-madrassa-of-sultan-hassan",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-madrasa-del-sultan-hassan",
+    "destination": "/es/guide/cairo/mezquita-madrasa-del-sultan-hassan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/スルタン・ハサン・モスクとマドラサ",
+    "destination": "/ja/guide/cairo/スルタン・ハサン・モスクとマドラサ",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-mohammed-ali",
+    "destination": "/guide/cairo/mosque-of-mohammed-ali",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-mohammed-ali",
+    "destination": "/es/guide/cairo/mezquita-de-mohammed-ali",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ムハンマド・アリー・モスク",
+    "destination": "/ja/guide/cairo/ムハンマド・アリー・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/ibn-tulun-citadel",
+    "destination": "/guide/cairo/ibn-tulun-citadel",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/ciudadela-de-ibn-tulun",
+    "destination": "/es/guide/cairo/ciudadela-de-ibn-tulun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/イブン・トゥールーン城塞",
+    "destination": "/ja/guide/cairo/イブン・トゥールーン城塞",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/aqsunur-mosque",
+    "destination": "/guide/cairo/aqsunur-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-aqsunur",
+    "destination": "/es/guide/cairo/mezquita-de-aqsunur",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アクスヌール・モスク",
+    "destination": "/ja/guide/cairo/アクスヌール・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-aslam-al-silahdar",
+    "destination": "/guide/cairo/mosque-of-aslam-al-silahdar",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-aslam-al-silahdar",
+    "destination": "/es/guide/cairo/mezquita-de-aslam-al-silahdar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アスラム・アル・シラフダル・モスク",
+    "destination": "/ja/guide/cairo/アスラム・アル・シラフダル・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-al-muayyad-shaykh",
+    "destination": "/guide/cairo/mosque-of-al-muayyad-shaykh",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-del-sheij-al-muayyad",
+    "destination": "/es/guide/cairo/mezquita-del-sheij-al-muayyad",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル・ムアイヤド・シャイフ・モスク",
+    "destination": "/ja/guide/cairo/アル・ムアイヤド・シャイフ・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-madrassa-of-al-ghouri",
+    "destination": "/guide/cairo/mosque-madrassa-of-al-ghouri",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-madrasa-de-al-ghouri",
+    "destination": "/es/guide/cairo/mezquita-madrasa-de-al-ghouri",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル＝グーリー・モスク兼マドラサ",
+    "destination": "/ja/guide/cairo/アル＝グーリー・モスク兼マドラサ",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mausoleum-of-al-ghouri",
+    "destination": "/guide/cairo/mausoleum-of-al-ghouri",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mausoleo-de-al-ghouri",
+    "destination": "/es/guide/cairo/mausoleo-de-al-ghouri",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル・グーリ廟",
+    "destination": "/ja/guide/cairo/アル・グーリ廟",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-al-aqmar",
+    "destination": "/guide/cairo/mosque-of-al-aqmar",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-al-aqmar",
+    "destination": "/es/guide/cairo/mezquita-de-al-aqmar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル・アクマル・モスク",
+    "destination": "/ja/guide/cairo/アル・アクマル・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-al-hakim",
+    "destination": "/guide/cairo/mosque-of-al-hakim",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-al-hakim",
+    "destination": "/es/guide/cairo/mezquita-de-al-hakim",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル・ハキム・モスク",
+    "destination": "/ja/guide/cairo/アル・ハキム・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/khanqah-mausoleum-of-sultan-baybars-al-gashankir",
+    "destination": "/guide/cairo/khanqah-mausoleum-of-sultan-baybars-al-gashankir",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/janqah-y-mausoleo-del-sultan-baybars-al-gashankir",
+    "destination": "/es/guide/cairo/janqah-y-mausoleo-del-sultan-baybars-al-gashankir",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/スルタン・バイバルス・アル・ガシャンキール",
+    "destination": "/ja/guide/cairo/スルタン・バイバルス・アル・ガシャンキール",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/sabil-and-kuttab-of-abdel-rahman-katkhuda",
+    "destination": "/guide/cairo/sabil-and-kuttab-of-abdel-rahman-katkhuda",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/sabil-y-kuttab-de-abdel-rahman-katkhuda",
+    "destination": "/es/guide/cairo/sabil-y-kuttab-de-abdel-rahman-katkhuda",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アブドル・ラーマン・カトフダーのサビールとク",
+    "destination": "/ja/guide/cairo/アブドル・ラーマン・カトフダーのサビールとク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/an-nasir-mohammed-bin-qalawoon-mosque",
+    "destination": "/guide/cairo/an-nasir-mohammed-bin-qalawoon-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/madrasa-y-mausoleo-de-an-nasir-mohammed-sultan",
+    "destination": "/es/guide/cairo/madrasa-y-mausoleo-de-an-nasir-mohammed-sultan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アン・ナースィル・ムハンマド・スルタンのマド",
+    "destination": "/ja/guide/cairo/アン・ナースィル・ムハンマド・スルタンのマド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/madrassa-and-mausoleum-of-barquq",
+    "destination": "/guide/cairo/madrassa-and-mausoleum-of-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/madraza-y-mausoleo-de-barquq",
+    "destination": "/es/guide/cairo/madraza-y-mausoleo-de-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/バルクークのマドラサと霊廟",
+    "destination": "/ja/guide/cairo/バルクークのマドラサと霊廟",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/madrassa-mausoleum-of-as-salih-negm-el-din-ayyub",
+    "destination": "/guide/cairo/madrassa-mausoleum-of-as-salih-negm-el-din-ayyub",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/madrasa-y-mausoleo-de-as-salih-negm-el-din-ayyub",
+    "destination": "/es/guide/cairo/madrasa-y-mausoleo-de-as-salih-negm-el-din-ayyub",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/サーリフ・ナジュム・エッディーン・アイユーブ",
+    "destination": "/ja/guide/cairo/サーリフ・ナジュム・エッディーン・アイユーブ",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/madrassa-mausoleum-of-qalawun",
+    "destination": "/guide/cairo/madrassa-mausoleum-of-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/madraza-y-mausoleo-de-qalawun",
+    "destination": "/es/guide/cairo/madraza-y-mausoleo-de-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/カラーウーンのマドラサと霊廟",
+    "destination": "/ja/guide/cairo/カラーウーンのマドラサと霊廟",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-sayyidna-al-hussein",
+    "destination": "/guide/cairo/mosque-of-sayyidna-al-hussein",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-sayyidna-al-hussein",
+    "destination": "/es/guide/cairo/mezquita-de-sayyidna-al-hussein",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/シェイドナ・アル・フセインのモスク",
+    "destination": "/ja/guide/cairo/シェイドナ・アル・フセインのモスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-of-amr-ibn-al-as",
+    "destination": "/guide/cairo/mosque-of-amr-ibn-al-as",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-amr-ibn-al-as",
+    "destination": "/es/guide/cairo/mezquita-de-amr-ibn-al-as",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アムル・イブン・アル＝アスのモスク",
+    "destination": "/ja/guide/cairo/アムル・イブン・アル＝アスのモスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/church-of-st-sergius-bacchus",
+    "destination": "/guide/cairo/church-of-st-sergius-bacchus",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/iglesia-de-san-sergio-y-baco",
+    "destination": "/es/guide/cairo/iglesia-de-san-sergio-y-baco",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/聖セルギウスとバッカス教会",
+    "destination": "/ja/guide/cairo/聖セルギウスとバッカス教会",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-hanging-church",
+    "destination": "/guide/cairo/the-hanging-church",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-iglesia-colgante",
+    "destination": "/es/guide/cairo/la-iglesia-colgante",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ハンギング・チャーチ",
+    "destination": "/ja/guide/cairo/ハンギング・チャーチ",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/pharaoh-island",
+    "destination": "/guide/taba/pharaoh-island",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/isla-del-faraon",
+    "destination": "/es/guide/taba/isla-del-faraon",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ファラオ島",
+    "destination": "/ja/guide/taba/ファラオ島",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-philae-temple",
+    "destination": "/guide/aswan/the-philae-temple",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-de-filae",
+    "destination": "/es/guide/aswan/el-templo-de-filae",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アスワンのフィラエ神殿",
+    "destination": "/ja/guide/aswan/アスワンのフィラエ神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/dahshur-necropolis",
+    "destination": "/guide/giza/dahshur-necropolis",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/necropolis-de-dahshur",
+    "destination": "/es/guide/giza/necropolis-de-dahshur",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ダハシュールのネクロポリス",
+    "destination": "/ja/guide/giza/ダハシュールのネクロポリス",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-northern-pyramid",
+    "destination": "/guide/giza/the-northern-pyramid",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-piramide-del-norte",
+    "destination": "/es/guide/giza/la-piramide-del-norte",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/北のピラミッド",
+    "destination": "/ja/guide/giza/北のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-pyramid-of-khaba",
+    "destination": "/guide/giza/the-pyramid-of-khaba",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-piramide-de-khaba",
+    "destination": "/es/guide/giza/la-piramide-de-khaba",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ハバ王のピラミッド",
+    "destination": "/ja/guide/giza/ハバ王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-bent-pyramid",
+    "destination": "/guide/giza/the-bent-pyramid",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-piramide-doblada",
+    "destination": "/es/guide/giza/la-piramide-doblada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/屈折ピラミッド",
+    "destination": "/ja/guide/giza/屈折ピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-red-pyramid",
+    "destination": "/guide/giza/the-red-pyramid",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-piramide-roja",
+    "destination": "/es/guide/giza/la-piramide-roja",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/赤いピラミッド",
+    "destination": "/ja/guide/giza/赤いピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-black-pyramid",
+    "destination": "/guide/giza/the-black-pyramid",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-piramide-negra",
+    "destination": "/es/guide/giza/la-piramide-negra",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/黒いピラミッド",
+    "destination": "/ja/guide/giza/黒いピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-white-pyramid",
+    "destination": "/guide/giza/the-white-pyramid",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-piramide-blanca",
+    "destination": "/es/guide/giza/la-piramide-blanca",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/白いピラミッド",
+    "destination": "/ja/guide/giza/白いピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/pyramid-of-khufu",
+    "destination": "/guide/giza/pyramid-of-khufu",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramide-de-jufu",
+    "destination": "/es/guide/giza/piramide-de-jufu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/クフ王のピラミッド",
+    "destination": "/ja/guide/giza/クフ王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/pyramid-of-khafre",
+    "destination": "/guide/giza/pyramid-of-khafre",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramide-de-jafre",
+    "destination": "/es/guide/giza/piramide-de-jafre",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/カフラー王のピラミッド",
+    "destination": "/ja/guide/giza/カフラー王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/pyramid-of-menkaure",
+    "destination": "/guide/giza/pyramid-of-menkaure",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramide-de-menkaure",
+    "destination": "/es/guide/giza/piramide-de-menkaure",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/メンカウラー王のピラミッド",
+    "destination": "/ja/guide/giza/メンカウラー王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-great-sphinx",
+    "destination": "/guide/giza/the-great-sphinx",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-gran-esfinge",
+    "destination": "/es/guide/giza/la-gran-esfinge",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/大スフィンクス",
+    "destination": "/ja/guide/giza/大スフィンクス",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-solar-boat-museum",
+    "destination": "/guide/giza/the-solar-boat-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-museo-del-barco-solar",
+    "destination": "/es/guide/giza/el-museo-del-barco-solar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/太陽の船博物館",
+    "destination": "/ja/guide/giza/太陽の船博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/abusir-necropolis",
+    "destination": "/guide/giza/abusir-necropolis",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/necropolis-de-abusir",
+    "destination": "/es/guide/giza/necropolis-de-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アブシールのネクロポリス",
+    "destination": "/ja/guide/giza/アブシールのネクロポリス",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/abusir-pyramid-of-neferirkare",
+    "destination": "/guide/giza/abusir-pyramid-of-neferirkare",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramide-abusir-de-neferirkare",
+    "destination": "/es/guide/giza/piramide-abusir-de-neferirkare",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ネフェリルカラー王のピラミッド",
+    "destination": "/ja/guide/giza/ネフェリルカラー王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/abusir-pyramid-of-niuserre",
+    "destination": "/guide/giza/abusir-pyramid-of-niuserre",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramide-abusir-de-niuserre",
+    "destination": "/es/guide/giza/piramide-abusir-de-niuserre",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ニウセルラー王のピラミッド",
+    "destination": "/ja/guide/giza/ニウセルラー王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/abusir-pyramid-of-khentkawes",
+    "destination": "/guide/giza/abusir-pyramid-of-khentkawes",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramide-abusir-de-khentkawes",
+    "destination": "/es/guide/giza/piramide-abusir-de-khentkawes",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ケント・カウエス王妃のピラミッド",
+    "destination": "/ja/guide/giza/ケント・カウエス王妃のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/abusir-pyramid-of-sahure",
+    "destination": "/guide/giza/abusir-pyramid-of-sahure",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramide-abusir-de-sahure",
+    "destination": "/es/guide/giza/piramide-abusir-de-sahure",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アブシールにあるサフラ王のピラミッド",
+    "destination": "/ja/guide/giza/アブシールにあるサフラ王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/pyramids-of-zawyet-el-aryan",
+    "destination": "/guide/giza/pyramids-of-zawyet-el-aryan",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramides-de-zawyet-el-aryan",
+    "destination": "/es/guide/giza/piramides-de-zawyet-el-aryan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ザウィエト・エル・アリアンのピラミッド",
+    "destination": "/ja/guide/giza/ザウィエト・エル・アリアンのピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/abu-rawash-pyramid-of-djedefre",
+    "destination": "/guide/giza/abu-rawash-pyramid-of-djedefre",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/piramide-de-abu-rawash-de-djedefre",
+    "destination": "/es/guide/giza/piramide-de-abu-rawash-de-djedefre",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アブ・ロアシュ：ジェデフラー王のピラミッド",
+    "destination": "/ja/guide/giza/アブ・ロアシュ：ジェデフラー王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-saqqara-necropolis",
+    "destination": "/guide/giza/the-saqqara-necropolis",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-necropolis-de-saqqara",
+    "destination": "/es/guide/giza/la-necropolis-de-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/サッカラ・ネクロポリス（サッカラの墓地遺跡）",
+    "destination": "/ja/guide/giza/サッカラ・ネクロポリス（サッカラの墓地遺跡）",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/tomb-of-general-horemheb",
+    "destination": "/guide/giza/tomb-of-general-horemheb",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/tumba-del-general-horemheb",
+    "destination": "/es/guide/giza/tumba-del-general-horemheb",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ホルエムヘブ将軍の墓",
+    "destination": "/ja/guide/giza/ホルエムヘブ将軍の墓",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/tomb-of-mereruka",
+    "destination": "/guide/giza/tomb-of-mereruka",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/tumba-de-mereruka",
+    "destination": "/es/guide/giza/tumba-de-mereruka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/メルエルカの墓",
+    "destination": "/ja/guide/giza/メルエルカの墓",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/imhotep-museum",
+    "destination": "/guide/giza/imhotep-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/museo-imhotep",
+    "destination": "/es/guide/giza/museo-imhotep",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/イムホテプ博物館",
+    "destination": "/ja/guide/giza/イムホテプ博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/memphis-mit-rahina-museum",
+    "destination": "/guide/giza/memphis-mit-rahina-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/memphis-museo-mit-rahina",
+    "destination": "/es/guide/giza/memphis-museo-mit-rahina",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/メンフィス-ミトラヒナ博物館",
+    "destination": "/ja/guide/giza/メンフィス-ミトラヒナ博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/el-wadi-el-gedid-museum",
+    "destination": "/guide/al-wadi-al-gadid/el-wadi-el-gedid-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/museo-de-al-wadi-al-gedid",
+    "destination": "/es/guide/al-wadi-al-gadid/museo-de-al-wadi-al-gedid",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル・ワーディ・アル・ガディード博物館",
+    "destination": "/ja/guide/al-wadi-al-gadid/アル・ワーディ・アル・ガディード博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/al-azhar-mosque",
+    "destination": "/guide/cairo/al-azhar-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-de-al-azhar",
+    "destination": "/es/guide/cairo/mezquita-de-al-azhar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アズハル・モスク",
+    "destination": "/ja/guide/cairo/アズハル・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/military-museum",
+    "destination": "/guide/port-said/military-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/museo-militar-de-port-said",
+    "destination": "/es/guide/port-said/museo-militar-de-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ポートサイド軍事博物館",
+    "destination": "/ja/guide/port-said/ポートサイド軍事博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/dendera-village",
+    "destination": "/guide/qena/dendera-village",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/pueblo-de-dendera",
+    "destination": "/es/guide/qena/pueblo-de-dendera",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/デンデラ村",
+    "destination": "/ja/guide/qena/デンデラ村",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-temple-of-hathor",
+    "destination": "/guide/qena/the-temple-of-hathor",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-templo-de-hathor",
+    "destination": "/es/guide/qena/el-templo-de-hathor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ハトホル神殿",
+    "destination": "/ja/guide/qena/ハトホル神殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-temple-precinct",
+    "destination": "/guide/qena/the-temple-precinct",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-recinto-del-templo",
+    "destination": "/es/guide/qena/el-recinto-del-templo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/デンデラ神殿敷地",
+    "destination": "/ja/guide/qena/デンデラ神殿敷地",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/tawila-island",
+    "destination": "/guide/al-gouna/tawila-island",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/isla-de-tawila",
+    "destination": "/es/guide/al-gouna/isla-de-tawila",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/タウィラ島",
+    "destination": "/ja/guide/al-gouna/タウィラ島",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-egyptian-museum",
+    "destination": "/guide/cairo/the-egyptian-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-museo-egipcio",
+    "destination": "/es/guide/cairo/el-museo-egipcio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/エジプト考古学博物館",
+    "destination": "/ja/guide/cairo/エジプト考古学博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/khan-al-khalili-bazaar",
+    "destination": "/guide/cairo/khan-al-khalili-bazaar",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/bazar-khan-al-khalili",
+    "destination": "/es/guide/cairo/bazar-khan-al-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ハーン・アル・ハリリ-バザール",
+    "destination": "/ja/guide/cairo/ハーン・アル・ハリリ-バザール",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/museum-of-islamic-art",
+    "destination": "/guide/cairo/museum-of-islamic-art",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/museo-de-arte-islamico",
+    "destination": "/es/guide/cairo/museo-de-arte-islamico",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/イスラム美術館",
+    "destination": "/ja/guide/cairo/イスラム美術館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/northern-cemetery",
+    "destination": "/guide/cairo/northern-cemetery",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/cementerio-del-norte",
+    "destination": "/es/guide/cairo/cementerio-del-norte",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/北墓地",
+    "destination": "/ja/guide/cairo/北墓地",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/khanqah-mausoleum-of-farag-ibn-barquq",
+    "destination": "/guide/cairo/khanqah-mausoleum-of-farag-ibn-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/janqah-mausoleo-de-farag-ibn-barquq",
+    "destination": "/es/guide/cairo/janqah-mausoleo-de-farag-ibn-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ファラグ・イブン・バルクークのハンカーと霊廟",
+    "destination": "/ja/guide/cairo/ファラグ・イブン・バルクークのハンカーと霊廟",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-mosque-of-sultan-qaitbey",
+    "destination": "/guide/cairo/the-mosque-of-sultan-qaitbey",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/la-mezquita-del-sultan-qaitbey",
+    "destination": "/es/guide/cairo/la-mezquita-del-sultan-qaitbey",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/スルタン・カイトベイのモスク",
+    "destination": "/ja/guide/cairo/スルタン・カイトベイのモスク",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/amir-taz-palace",
+    "destination": "/guide/cairo/amir-taz-palace",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/palacio-amir-taz",
+    "destination": "/es/guide/cairo/palacio-amir-taz",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アミール・タズ宮殿",
+    "destination": "/ja/guide/cairo/アミール・タズ宮殿",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/al-azhar-to-the-citadel",
+    "destination": "/guide/cairo/al-azhar-to-the-citadel",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/de-al-azhar-a-la-ciudadela",
+    "destination": "/es/guide/cairo/de-al-azhar-a-la-ciudadela",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/アル＝アズハルから城塞（シタデル）へ",
+    "destination": "/ja/guide/cairo/アル＝アズハルから城塞（シタデル）へ",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/sabil-of-muhammed-ali-pasha",
+    "destination": "/guide/cairo/sabil-of-muhammed-ali-pasha",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/sabil-de-muhammed-ali-pacha",
+    "destination": "/es/guide/cairo/sabil-de-muhammed-ali-pacha",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ムハンマド・アリー・パシャのサビール",
+    "destination": "/ja/guide/cairo/ムハンマド・アリー・パシャのサビール",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/bab-zuweila",
+    "destination": "/guide/cairo/bab-zuweila",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/bab-zuweila",
+    "destination": "/es/guide/cairo/bab-zuweila",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/バブ・ズウェイラ",
+    "destination": "/ja/guide/cairo/バブ・ズウェイラ",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-coptic-museum",
+    "destination": "/guide/cairo/the-coptic-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/el-museo-copto",
+    "destination": "/es/guide/cairo/el-museo-copto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/コプト博物館",
+    "destination": "/ja/guide/cairo/コプト博物館",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/the-roman-towers",
+    "destination": "/guide/cairo/the-roman-towers",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/las-torres-romanas",
+    "destination": "/es/guide/cairo/las-torres-romanas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ローマの塔",
+    "destination": "/ja/guide/cairo/ローマの塔",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/church-of-st-barbara",
+    "destination": "/guide/cairo/church-of-st-barbara",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/iglesia-de-santa-barbara",
+    "destination": "/es/guide/cairo/iglesia-de-santa-barbara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/聖バルバラ教会",
+    "destination": "/ja/guide/cairo/聖バルバラ教会",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/ben-ezra-synagogue",
+    "destination": "/guide/cairo/ben-ezra-synagogue",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/sinagoga-ben-ezra",
+    "destination": "/es/guide/cairo/sinagoga-ben-ezra",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ベン・エズラ・シナゴーグ",
+    "destination": "/ja/guide/cairo/ベン・エズラ・シナゴーグ",
+    "permanent": true
+  },
+  {
+    "source": "/wiki/monuments/mosque-madrassa-of-umm-sultan-shaaban",
+    "destination": "/guide/cairo/mosque-madrassa-of-umm-sultan-shaaban",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/mezquita-y-madrasa-de-umm-sultan-shaaban",
+    "destination": "/es/guide/cairo/mezquita-y-madrasa-de-umm-sultan-shaaban",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/ウム・スルタン・シャアバーンのモスクとマドラ",
+    "destination": "/ja/guide/cairo/ウム・スルタン・シャアバーンのモスクとマドラ",
+    "permanent": true
   }
 ];
