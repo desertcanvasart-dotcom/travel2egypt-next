@@ -44,8 +44,11 @@ export function CityGuideSidebar({
   placesToGo,
   activeArticleSlug,
 }: Props) {
-  const articles = subArticles ?? [];
-  const places = placesToGo ?? [];
+  // Sanity GROQ `placesToGo[]->` can yield null for refs whose target doc was
+  // deleted or hasn't propagated to the CDN yet. Filter to keep the renderer
+  // tolerant of that transient. Same belt-and-braces on subArticles.
+  const articles = (subArticles ?? []).filter((a): a is SubArticle => a !== null && a !== undefined);
+  const places = (placesToGo ?? []).filter((p): p is PlaceToGo => p !== null && p !== undefined);
   const t = useTranslations('guideSections');
   const tGuide = useTranslations('guide');
 
@@ -66,7 +69,7 @@ export function CityGuideSidebar({
           {places.map((place) => (
             <li key={place._id}>
               <Link
-                href={`/wiki/monuments/${place.slug}`}
+                href={`/guide/${citySlug}/${place.slug}`}
                 className="block text-night-soft transition-colors hover:text-faience"
               >
                 {place.name}

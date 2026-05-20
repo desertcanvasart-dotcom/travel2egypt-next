@@ -62,7 +62,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
     },
     "placesToGo": placesToGo[]->{
       _id,
-      "name": ${localizedField('name', locale)},
+      "name": ${localizedField('title', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "summary": ${localizedField('summary', locale)},
       "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
@@ -130,7 +130,7 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
       },
       "placesToGo": placesToGo[]->{
         _id,
-        "name": ${localizedField('name', locale)},
+        "name": ${localizedField('title', locale)},
         "slug": ${localizedSlug('slug', locale)},
         "summary": ${localizedField('summary', locale)},
         "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
