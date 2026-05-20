@@ -166,10 +166,16 @@ export const citySchema = defineType({
       name: 'placesToGo',
       title: 'Places To Go',
       description:
-        'Monuments and sites associated with this destination. Pulled from Egypt Wiki — same documents that appear under /wiki/monuments. Surfaced in the city sidebar under "Places To Go" using their visitorInfo field.',
+        'Attractions associated with this destination — references to guideArticle docs with kind=="attraction". Surfaced in the city sidebar under "Places To Go" using their visitorInfo field. Post-s57: rebuilt comprehensively from the 134 wikiMonument consolidation + existing attraction guideArticles; operator can re-curate in Studio.',
       type: 'array',
       group: 'guide',
-      of: [{ type: 'reference', to: [{ type: 'wikiMonument' }] }],
+      of: [
+        {
+          type: 'reference',
+          to: [{ type: 'guideArticle' }],
+          options: { filter: 'kind == "attraction"' },
+        },
+      ],
     }),
     defineField({
       name: 'heroImage',
