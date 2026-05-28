@@ -4,6 +4,7 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
 import { LocaleSwitcher } from './LocaleSwitcher';
+import { ServicesMenu } from './ServicesMenu';
 import { Wordmark } from './Wordmark';
 
 interface HeaderProps {
@@ -19,12 +20,7 @@ export function Header({ locale }: HeaderProps) {
         <Wordmark size="header" />
 
         <nav className="hidden items-center gap-9 md:flex">
-          <Link href="/tours" className="text-sm text-night-soft transition-colors hover:text-faience">
-            {t('tours')}
-          </Link>
-          <Link href="/packages" className="text-sm text-night-soft transition-colors hover:text-faience">
-            {t('packages')}
-          </Link>
+          <ServicesMenu />
           <Link href="/guide" className="text-sm text-night-soft transition-colors hover:text-faience">
             {t('guide')}
           </Link>
