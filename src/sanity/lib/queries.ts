@@ -1306,3 +1306,137 @@ export const faqPageQuery = (locale: Locale) => groq`
     }
   }
 `;
+
+// ──────────────────────────────────────────────
+// Tour category / landing / catch-all dispatch
+// ──────────────────────────────────────────────
+
+/**
+ * Catch-all dispatch query — given a slug at root, find which doc type
+ * claims it. Returns _type + _id so the catch-all route can fetch the
+ * full doc with the appropriate type-specific query.
+ *
+ * Order clause picks deterministically when slugs collide across types.
+ * Today's audit shows zero collisions; clause is defensive.
+ */
+export const slugLookupQuery = (locale: Locale) => groq`
+  *[
+    !(_id in path("drafts.**")) &&
+    _type in ["tourCategory","tourLanding","tour","article","wikiMonument"] &&
+    (slug[_key == "${locale}"][0].value.current == $slug ||
+     (slug[_key == "${locale}"][0].value.current == null &&
+      slug[_key == "en"][0].value.current == $slug))
+  ] | order(select(
+      _type == "tourCategory" => 1,
+      _type == "tourLanding"  => 2,
+      _type == "tour"         => 3,
+      _type == "article"      => 4,
+      _type == "wikiMonument" => 5,
+      99
+    ) asc)[0]{ _id, _type }
+`;
+
+/**
+ * tourCategory hub page — pulls the 4 hub fields + its sub-landings list.
+ * Sub-landings are loaded with enough fields to render listing cards.
+ */
+export const tourCategoryBySlugQuery = (locale: Locale) => groq`
+  *[_type == "tourCategory" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug))
+  ][0]{
+    _id, key, subAxis,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "summary": ${localizedField('summary', locale)},
+    "intro": ${portableTextBodyProjection('intro', locale)},
+    "faq": ${portableTextBodyProjection('faq', locale)},
+    heroImage{
+      ...,
+      "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+    },
+    "allSlugs": slug[]{ _key, "current": value.current },
+    "landings": *[_type == "tourLanding" && category._ref == ^._id]{
+      _id,
+      "title": ${localizedField('title', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      heroImage{
+        ...,
+        "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+      },
+      "destinationCitySlug": destinationCity->slug[_key=="en"][0].value.current,
+      "themeSlug": themeRef->slug[_key=="en"][0].value.current,
+      originRegion
+    } | order(coalesce(destinationCitySlug, themeSlug, originRegion) asc),
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+/**
+ * tourLanding sub-category page — hub fields + filtered tours list.
+ * Filter is data-driven by the discriminator (destinationCity, themeRef,
+ * or originRegion) and the parent category's (type × tourMode).
+ */
+export const tourLandingBySlugQuery = (locale: Locale) => groq`
+  *[_type == "tourLanding" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug))
+  ][0]{
+    _id,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "summary": ${localizedField('summary', locale)},
+    "intro": ${portableTextBodyProjection('intro', locale)},
+    "faq": ${portableTextBodyProjection('faq', locale)},
+    heroImage{
+      ...,
+      "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+    },
+    "allSlugs": slug[]{ _key, "current": value.current },
+    "category": category->{ _id, key, "title": ${localizedField('title', locale)}, "slug": ${localizedSlug('slug', locale)} },
+    "destinationCity": destinationCity->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)} },
+    "themeRef": themeRef->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)} },
+    originRegion,
+    // Build the tours list from the discriminator: this landing lists tours
+    // sharing the same parent-category (type × tourMode) AND the same axis value.
+    "tours": *[
+      _type == "tour" &&
+      !(_id in path("drafts.**")) &&
+      (
+        // Discriminator filter:
+        (^.destinationCity._ref != null && ^.destinationCity._ref in cities[]._ref) ||
+        (^.themeRef._ref != null && theme._ref == ^.themeRef._ref) ||
+        (^.originRegion != null && originRegion == ^.originRegion)
+      ) &&
+      // Category filter (type × tourMode must match the parent category's key)
+      (
+        (^.category->key == "private-day-tour" && type == "dayTour" && tourMode == "private") ||
+        (^.category->key == "group-day-tour"   && type == "dayTour" && tourMode == "group")   ||
+        (^.category->key == "private-package"  && type == "package" && tourMode == "private") ||
+        (^.category->key == "group-package"    && type == "package" && tourMode == "group")
+      )
+    ] | order(durationDays asc, _createdAt desc){
+      _id, type, tourMode, durationDays,
+      "title": ${localizedField('title', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      "durationLabel": ${localizedField('durationLabel', locale)},
+      heroImage{
+        ...,
+        "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+      }
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;

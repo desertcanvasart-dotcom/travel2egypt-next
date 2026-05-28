@@ -17,11 +17,12 @@ export const redirects: RedirectRule[] = [
     "destination": "/",
     "permanent": true
   },
-  {
-    "source": "/nile-cruise-holidays",
-    "destination": "/nile-cruises/nile-cruise-holidays",
-    "permanent": true
-  },
+  // DISABLED-s48: superseded by tourLanding /nile-cruise-holidays/
+  // {
+  //   "source": "/nile-cruise-holidays",
+  //   "destination": "/nile-cruises/nile-cruise-holidays",
+  //   "permanent": true
+  // },
   {
     "source": "/es/vacaciones-en-un-crucero-por-el-nilo",
     "destination": "/es/nile-cruises/vacaciones-en-un-crucero-por-el-nilo",
@@ -352,11 +353,12 @@ export const redirects: RedirectRule[] = [
     "destination": "/ja/nile-cruises/アデライド・ダハビヤ（adelaide-dahabiya）",
     "permanent": true
   },
-  {
-    "source": "/authentic-dahabiya-nile-cruise",
-    "destination": "/nile-cruises/authentic-dahabiya-nile-cruise",
-    "permanent": true
-  },
+  // DISABLED-s48: superseded by tourLanding /authentic-dahabiya-nile-cruise/
+  // {
+  //   "source": "/authentic-dahabiya-nile-cruise",
+  //   "destination": "/nile-cruises/authentic-dahabiya-nile-cruise",
+  //   "permanent": true
+  // },
   {
     "source": "/es/crucero-dahabiya-por-el-nilo",
     "destination": "/es/nile-cruises/crucero-dahabiya-por-el-nilo",
