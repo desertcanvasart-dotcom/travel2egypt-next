@@ -28,7 +28,7 @@ export function PackageCard({ pkg }: Props) {
 
   return (
     <Link
-      href={`/packages/${pkg.slug}`}
+      href={`/${pkg.slug}`}
       className="group block transition-transform duration-500 hover:-translate-y-0.5"
     >
       <div className="mb-6 aspect-[4/5] overflow-hidden bg-limestone-deep">

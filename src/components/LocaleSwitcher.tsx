@@ -203,11 +203,10 @@ async function resolveLocalizedPathname(
     return '/travel-tips';
   }
 
-  // Tour detail: /tours/[slug] (dayTour subtype) or /packages/[slug]
-  // (package subtype). Both render from the same `tour` Sanity type via
-  // a single resolver endpoint. Base path is preserved on locale switch
-  // so type→URL mapping stays consistent (operator decision: dayTours live
-  // under /tours, packages under /packages — see scripts/wp-import/mappers/tour.ts).
+  // Legacy tour detail: /tours/[slug] or /packages/[slug]. These now
+  // redirect to the canonical root URL, so resolve the target-locale slug
+  // and send the switcher straight to `/<slug>` (skipping the redirect hop).
+  // On miss / fetch failure: fall back to the relevant listing.
   const tourMatch = pathname.match(/^\/(tours|packages)\/([^/]+)\/?$/);
   if (tourMatch) {
     const base = tourMatch[1];
@@ -218,7 +217,7 @@ async function resolveLocalizedPathname(
       );
       if (res.ok) {
         const { slug } = (await res.json()) as { slug: string | null };
-        if (slug) return `/${base}/${slug}`;
+        if (slug) return `/${slug}`;
       }
     } catch {
       // fall through to listing
@@ -262,6 +261,27 @@ async function resolveLocalizedPathname(
       // fall through to /nile-cruises list
     }
     return '/nile-cruises';
+  }
+
+  // Root-level single-segment slug: tours, tour categories, and tour
+  // landings are canonical at `/<slug>` with locale-varying slugs. Matched
+  // LAST so all prefixed routes above take precedence. The leading-char
+  // class excludes the home page (empty segment). On miss / fetch failure:
+  // keep the path unchanged (non-localized roots like a static page slug).
+  const rootMatch = pathname.match(/^\/([^/]+)\/?$/);
+  if (rootMatch) {
+    const fromSlug = rootMatch[1];
+    try {
+      const res = await fetch(
+        `/api/locale-resolve/root?fromLocale=${fromLocale}&fromSlug=${encodeURIComponent(fromSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { slug } = (await res.json()) as { slug: string | null };
+        if (slug) return `/${slug}`;
+      }
+    } catch {
+      // fall through to unchanged pathname
+    }
   }
 
   return pathname;

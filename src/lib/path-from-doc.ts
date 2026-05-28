@@ -53,7 +53,9 @@ export function pathFromDoc({
     case 'guideArticle':
       return parentCitySlug ? `/guide/${parentCitySlug}/${slug}` : null;
     case 'tour':
-      return tourType === 'package' ? `/packages/${slug}` : `/tours/${slug}`;
+      // Tours and packages are canonical at the site root (legacy WP URLs
+      // were root-level). tourType no longer affects the path.
+      return `/${slug}`;
     case 'article':
       return `/blog/${slug}`;
     case 'wikiPerson':

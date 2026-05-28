@@ -291,7 +291,7 @@ function TourLandingView({ doc, locale }: { doc: TourLandingDoc; locale: Locale 
         <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {doc.tours.map((t) => (
             <li key={t._id}>
-              <Link href={`/tours/${t.slug}`} className="block rounded-lg border border-rule p-6 transition-colors hover:border-ink">
+              <Link href={`/${t.slug}`} className="block rounded-lg border border-rule p-6 transition-colors hover:border-ink">
                 <p className="mb-2 font-sans text-xs uppercase tracking-wider text-ink-soft">
                   {t.durationLabel ?? (t.durationDays ? `${t.durationDays} day${t.durationDays === 1 ? '' : 's'}` : '')}
                 </p>

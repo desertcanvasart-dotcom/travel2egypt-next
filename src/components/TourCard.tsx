@@ -29,7 +29,7 @@ export function TourCard({ tour }: Props) {
 
   return (
     <Link
-      href={`/tours/${tour.slug}`}
+      href={`/${tour.slug}`}
       className="group block transition-transform duration-500 hover:-translate-y-0.5"
     >
       <div className="mb-5 aspect-[4/5] overflow-hidden bg-limestone-deep">
