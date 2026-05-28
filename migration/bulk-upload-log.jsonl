@@ -2869,3 +2869,10 @@
 {"ts":"2026-05-28T16:50:44.897Z","phase":"TT-bulk-import","kind":"upsert","_id":"wp-page-60893","slug":"visiting-a-religious-site","sourceFiles":{"en":"visiting-a-religious-site.md","es":"visiting-a-religious-site.md","ja":"sacred_sites_guide_ja_2026-05.md"}}
 {"ts":"2026-05-28T16:50:44.897Z","phase":"TT-bulk-import","kind":"upsert","_id":"wp-page-60906","slug":"water-safety-in-egypt-advice-for-travelers","sourceFiles":{"en":"water-safety-in-egypt.md","es":"water-safety-in-egypt.md","ja":"water_safety_guide_ja_2026-05.md"}}
 {"ts":"2026-05-28T16:50:44.897Z","phase":"TT-bulk-import-cleanup","deleted":["wp-page-60914","wp-page-60954"],"redirectRowsAdded":9}
+{"ts":"2026-05-28T17:13:12.924Z","phase":"HOTELS-finish-promotion","refsPatched":1,"guideArticlesDeleted":5,"redirectRowsAppended":30}
+{"ts":"2026-05-28T17:17:22.751Z","phase":"HOTELS-fix-city-ref","_id":"hotel.adr-re-amellal-ecolodge-siwa","slug":"adr-re-amellal-ecolodge-siwa","mdCity":"siwa","newCityRef":"wp-page-58932"}
+{"ts":"2026-05-28T17:17:22.754Z","phase":"HOTELS-fix-city-ref","_id":"hotel.al-tabuna-camp-dakhla-oasis","slug":"al-tabuna-camp-dakhla-oasis","mdCity":"dakhla","newCityRef":"wp-page-58783"}
+{"ts":"2026-05-28T17:17:22.754Z","phase":"HOTELS-fix-city-ref","_id":"hotel.ghaliet-siwa-ecolodge","slug":"ghaliet-siwa-ecolodge","mdCity":"siwa","newCityRef":"wp-page-58932"}
+{"ts":"2026-05-28T17:17:22.754Z","phase":"HOTELS-fix-city-ref","_id":"hotel.la-maison-bleue-el-gouna","slug":"la-maison-bleue-el-gouna","mdCity":"el-gouna","newCityRef":"wp-page-58740"}
+{"ts":"2026-05-28T17:17:22.754Z","phase":"HOTELS-fix-city-ref","_id":"hotel.shamsiya-camp-dakhla-oasis","slug":"shamsiya-camp-dakhla-oasis","mdCity":"dakhla","newCityRef":"wp-page-58783"}
+{"ts":"2026-05-28T17:17:22.754Z","phase":"HOTELS-fix-city-ref","_id":"hotel.taziry-ecolodge-siwa-safari","slug":"taziry-ecolodge-siwa-safari","mdCity":"siwa","newCityRef":"wp-page-58932"}
