@@ -11,6 +11,8 @@ import { portableTextSchema } from './portableText';
 import { seoSchema } from './seo';
 import { themeSchema } from './theme';
 import { tourSchema } from './tour';
+import { tourCategorySchema } from './tourCategory';
+import { tourLandingSchema } from './tourLanding';
 import {
   travelTipCategorySchema,
   travelTipSchema,
@@ -47,6 +49,8 @@ export const schemaTypes = [
 
   // ── Tours ──
   tourSchema,
+  tourCategorySchema,
+  tourLandingSchema,
   themeSchema,
 
   // ── Geography & guides ──

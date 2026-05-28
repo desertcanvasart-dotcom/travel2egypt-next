@@ -86,6 +86,33 @@ export const tourSchema = defineType({
       validation: (Rule) => Rule.required().min(1),
     }),
     defineField({
+      name: 'originRegion',
+      title: 'Origin region (group packages)',
+      description:
+        'Traveler-origin segment for small-group multi-day packages. Drives which Group Packages landing page lists this tour.',
+      type: 'string',
+      group: 'classification',
+      options: {
+        list: [
+          { title: 'Japan & East Asia', value: 'japan-east-asia' },
+          { title: 'USA & Canada', value: 'usa-canada' },
+          { title: 'UK & Europe', value: 'uk-europe' },
+        ],
+        layout: 'radio',
+      },
+      hidden: ({ document }) =>
+        (document as { type?: string })?.type !== 'package' ||
+        (document as { tourMode?: string })?.tourMode !== 'group',
+      validation: (Rule) =>
+        Rule.custom((value, context) => {
+          const d = context.document as { type?: string; tourMode?: string } | undefined;
+          if (d?.type === 'package' && d?.tourMode === 'group' && !value) {
+            return 'Group packages require an origin region';
+          }
+          return true;
+        }),
+    }),
+    defineField({
       name: 'durationDays',
       title: 'Duration (days)',
       description: 'For day tours: 1. For packages: total days.',
