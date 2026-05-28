@@ -229,6 +229,9 @@ export const tourBySlugQuery = (locale: Locale) => groq`
   )][0]{
     ${tourCardProjection(locale)},
     "body": ${portableTextBodyProjection('body', locale)},
+    "themeLanding": *[_type == "tourLanding" && themeRef._ref == ^.theme._ref][0]{
+      "slug": ${localizedSlug('slug', locale)}
+    },
     "highlights": coalesce(
       highlights[_key == "${locale}"][0].value,
       highlights[_key == "en"][0].value
