@@ -79,11 +79,18 @@ export const tourSchema = defineType({
       name: 'cities',
       title: 'Cities',
       description:
-        'Cities visited or operated from. Day tours typically have one; packages have many.',
+        'Cities visited or operated from. Day tours typically have one; packages have many. Required for day tours; optional for packages (multi-city journeys whose city set is editorial).',
       type: 'array',
       group: 'classification',
       of: [{ type: 'reference', to: [{ type: 'city' }] }],
-      validation: (Rule) => Rule.required().min(1),
+      validation: (Rule) =>
+        Rule.custom((value, context) => {
+          const isDayTour = (context.document as { type?: string } | undefined)?.type === 'dayTour';
+          if (isDayTour && (!Array.isArray(value) || value.length === 0)) {
+            return 'Day tours require at least one city.';
+          }
+          return true;
+        }),
     }),
     defineField({
       name: 'originRegion',
