@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbList } from '@/lib/structured-data';
 
@@ -99,10 +100,31 @@ export default async function GuideArticlePage({ params }: Props) {
     ? tSections(SECTION_LABEL_KEYS[article.section] ?? 'others')
     : null;
 
+  // Resolve region label for the parent city (used in the breadcrumb trail).
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+  const tRegions = await getTranslations({ locale, namespace: 'regions' });
+  const cityRegion = article.parentCity?.region as string | undefined;
+  const regionLabel = cityRegion && tRegions.has(cityRegion as any)
+    ? tRegions(cityRegion as any)
+    : null;
+
+  const breadcrumbItems = [
+    { label: tNav('home'), href: '/' },
+    { label: tNav('guide'), href: '/guide' },
+    ...(regionLabel && cityRegion
+      ? [{ label: regionLabel, href: `/guide#${cityRegion}` }]
+      : []),
+    { label: article.parentCity.name, href: `/guide/${citySlug}` },
+    ...(sectionLabel ? [{ label: sectionLabel }] : []),
+    { label: article.title },
+  ];
   const breadcrumbSchema = buildBreadcrumbList(
     [
-      { name: 'Home', path: '/' },
-      { name: 'Travel guide', path: '/guide' },
+      { name: tNav('home'), path: '/' },
+      { name: tNav('guide'), path: '/guide' },
+      ...(regionLabel && cityRegion
+        ? [{ name: regionLabel, path: `/guide#${cityRegion}` }]
+        : []),
       { name: article.parentCity.name, path: `/guide/${citySlug}` },
       ...(sectionLabel
         ? [{ name: sectionLabel, path: `/guide/${citySlug}` }]
@@ -117,30 +139,7 @@ export default async function GuideArticlePage({ params }: Props) {
       <JsonLd data={[breadcrumbSchema]} />
 
       <div className="mx-auto max-w-7xl px-6 py-12">
-        {/* Breadcrumb */}
-        <nav
-          className="mb-8 font-sans text-xs uppercase tracking-[0.12em] text-ink-muted"
-          aria-label="Breadcrumb"
-        >
-          <ol className="flex flex-wrap items-center gap-2">
-            <li>
-              <Link
-                href={`/guide/${citySlug}`}
-                className="transition-colors hover:text-orange-deep"
-              >
-                {article.parentCity.name}
-              </Link>
-            </li>
-            {sectionLabel && (
-              <>
-                <li aria-hidden="true">›</li>
-                <li>{sectionLabel}</li>
-              </>
-            )}
-            <li aria-hidden="true">›</li>
-            <li className="text-ink-soft">{article.title}</li>
-          </ol>
-        </nav>
+        <Breadcrumb items={breadcrumbItems} className="mb-8" />
 
         {heroUrl && (
           <div className="relative mb-10 aspect-[2/1] w-full overflow-hidden rounded-lg bg-cream-deep">
@@ -157,6 +156,20 @@ export default async function GuideArticlePage({ params }: Props) {
 
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_320px]">
           <div>
+            {/* Eyebrow: City · Region — each segment is a link. */}
+            <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.18em] text-ink-soft">
+              <Link href={`/guide/${citySlug}`} className="hover:text-ink">
+                {article.parentCity.name}
+              </Link>
+              {regionLabel && cityRegion && (
+                <>
+                  <span aria-hidden className="mx-2">·</span>
+                  <Link href={`/guide#${cityRegion}`} className="hover:text-ink">
+                    {regionLabel}
+                  </Link>
+                </>
+              )}
+            </p>
             <h1 className="mb-6 font-serif text-5xl font-medium leading-tight text-ink md:text-6xl">
               {article.title}
             </h1>

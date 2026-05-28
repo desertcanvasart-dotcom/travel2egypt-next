@@ -34,6 +34,7 @@
     "ctaTrailingArrow": "→"
   },
   "nav": {
+    "home": "Inicio",
     "tours": "Excursiones de un día",
     "packages": "Paquetes",
     "guide": "Guía de viaje",
@@ -67,6 +68,7 @@
   "guide": {
     "landingTitle": "Guía de viaje a Egipto",
     "landingDeck": "Guías de las ciudades de Egipto al nivel de un operador, escritas por quienes operamos viajes aquí cada semana.",
+    "regionOther": "Otros destinos",
     "subArticlesLabel": "En esta guía",
     "relatedToursLabel": "Excursiones desde esta ciudad",
     "introducingCity": "Conoce {city}",
@@ -91,6 +93,7 @@
     "plan-your-trip": "Planifica tu viaje",
     "while-you-are-there": "Mientras estés allí",
     "places-to-go": "Lugares para visitar",
+    "places-to-go-other": "Otros sitios",
     "others": "Otros"
   },
   "tour": {

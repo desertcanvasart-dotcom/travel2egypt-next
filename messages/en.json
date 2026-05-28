@@ -34,6 +34,7 @@
     "ctaTrailingArrow": "→"
   },
   "nav": {
+    "home": "Home",
     "tours": "Day Tours",
     "packages": "Packages",
     "guide": "Travel Guide",
@@ -67,6 +68,7 @@
   "guide": {
     "landingTitle": "Egypt Travel Guide",
     "landingDeck": "Operator-grade guides to Egypt's cities, by people who run trips here every week.",
+    "regionOther": "Other destinations",
     "subArticlesLabel": "In this guide",
     "relatedToursLabel": "Tours from this city",
     "introducingCity": "Introducing {city}",
@@ -91,6 +93,7 @@
     "plan-your-trip": "Plan Your Trip",
     "while-you-are-there": "While You Are There",
     "places-to-go": "Places To Go",
+    "places-to-go-other": "Other sites",
     "others": "Others"
   },
   "tour": {

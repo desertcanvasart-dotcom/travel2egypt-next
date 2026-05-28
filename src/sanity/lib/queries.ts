@@ -52,7 +52,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
       "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value),
       "caption": coalesce(caption[_key=="${locale}"][0].value, caption[_key=="en"][0].value)
     },
-    "subArticles": *[_type == "guideArticle" && references(^._id)] | order(orderRank asc){
+    "subArticles": *[_type == "guideArticle" && references(^._id) && hidden != true] | order(orderRank asc){
       _id,
       section,
       "title": ${localizedField('title', locale)},
@@ -67,6 +67,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
       "summary": ${localizedField('summary', locale)},
       "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
       monumentType,
+      placesToGoGroup,
       heroImage{
         ...,
         "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
@@ -118,10 +119,11 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
     },
     "parentCity": parentCity->{
       _id,
+      region,
       "name": ${localizedField('name', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "allSlugs": slug[]{ _key, "current": value.current },
-      "subArticles": *[_type == "guideArticle" && references(^._id)] | order(orderRank asc){
+      "subArticles": *[_type == "guideArticle" && references(^._id) && hidden != true] | order(orderRank asc){
         _id,
         section,
         "title": ${localizedField('title', locale)},
@@ -134,7 +136,8 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
         "slug": ${localizedSlug('slug', locale)},
         "summary": ${localizedField('summary', locale)},
         "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
-        monumentType
+        monumentType,
+        placesToGoGroup
       }
     },
     "relatedTours": relatedTours[]->{

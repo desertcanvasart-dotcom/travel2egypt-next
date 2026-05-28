@@ -58,6 +58,7 @@ export const guideArticleSchema = defineType({
           { title: 'Accommodation', value: 'accommodation' },
           { title: 'Food', value: 'food' },
           { title: 'Tours', value: 'tours' },
+          { title: 'Things To Do', value: 'things-to-do' },
           { title: 'Events', value: 'events' },
           { title: 'Climate', value: 'climate' },
           { title: 'Heritage', value: 'heritage' },
@@ -156,6 +157,14 @@ export const guideArticleSchema = defineType({
       description: 'Within the city. E.g. "West Bank, Luxor" / "Giza Plateau".',
     }),
     defineField({
+      name: 'placesToGoGroup',
+      title: 'Places To Go — sub-group',
+      type: 'string',
+      group: 'attraction',
+      description:
+        'Optional group label used to cluster attractions within the city sidebar. Examples: "Coptic Cairo", "Islamic Cairo", "Pharaonic Cairo", "Saqqara", "Giza Plateau", "West Bank", "East Bank". Plain string (not localized) — translation of the label itself is handled at render time. Sidebar groups places alphabetically by this value, with untagged items shown last.',
+    }),
+    defineField({
       name: 'coordinates',
       title: 'Coordinates',
       type: 'coordinates',
@@ -187,6 +196,15 @@ export const guideArticleSchema = defineType({
       name: 'seo',
       title: 'SEO',
       type: 'seo',
+      group: 'meta',
+    }),
+    defineField({
+      name: 'hidden',
+      title: 'Hidden from sidebars',
+      description:
+        'When true, this doc is excluded from city-guide sidebar listings. Used as a holding flag for legacy single-tour docs awaiting migration to the tour doc type. See migration/deferred-tour-migration.md.',
+      type: 'boolean',
+      initialValue: false,
       group: 'meta',
     }),
     migrationField(),

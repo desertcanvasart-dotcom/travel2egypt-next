@@ -17,4 +17,6 @@ migration/.brand-inputs/
 migration/content/*-prep.md
 migration/content/about-team-photo.*
 migration/content/*.csv
+migration/content/*.dmg
+backups/
 .cache/

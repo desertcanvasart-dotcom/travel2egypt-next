@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
 import {
   buildPlaceSchema,
@@ -121,6 +122,7 @@ export default async function CityGuidePage({ params }: Props) {
     (keyFacts.bestSeason || keyFacts.gettingThere || keyFacts.daysNeeded);
 
   const regionLabel = await resolveRegionLabel(city.region as string | undefined, locale as Locale);
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
 
   const placeSchema = buildPlaceSchema(
     {
@@ -133,14 +135,31 @@ export default async function CityGuidePage({ params }: Props) {
     },
     locale as Locale
   );
-  const breadcrumbSchema = buildBreadcrumbList(
-    [
-      { name: 'Home', path: '/' },
-      { name: 'Travel guide', path: '/guide' },
-      { name: city.name, path: `/guide/${citySlug}` },
-    ],
-    locale as Locale
-  );
+  // Breadcrumb structure: Home › Travel Guide › [Region (anchor)] › City.
+  // Region link goes to /guide#<region-slug> — anchors to the H2 on the hub.
+  const cityCrumbsBase = [
+    { label: tNav('home'), href: '/' },
+    { label: tNav('guide'), href: '/guide' },
+  ];
+  if (regionLabel && city.region) {
+    cityCrumbsBase.push({
+      label: regionLabel,
+      href: `/guide#${city.region}`,
+    });
+  }
+  const cityCrumbs = [
+    ...cityCrumbsBase,
+    { label: city.name, href: undefined as unknown as string },
+  ];
+  const schemaCrumbs = [
+    { name: tNav('home'), path: '/' },
+    { name: tNav('guide'), path: '/guide' },
+    ...(regionLabel && city.region
+      ? [{ name: regionLabel, path: `/guide#${city.region}` }]
+      : []),
+    { name: city.name, path: `/guide/${citySlug}` },
+  ];
+  const breadcrumbSchema = buildBreadcrumbList(schemaCrumbs, locale as Locale);
 
   return (
     <article>
@@ -196,6 +215,7 @@ export default async function CityGuidePage({ params }: Props) {
       )}
 
       <div className="mx-auto max-w-7xl px-6 py-16">
+        <Breadcrumb items={cityCrumbs} className="mb-8" />
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_320px]">
           {/* Main column */}
           <div>

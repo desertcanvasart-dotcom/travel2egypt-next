@@ -26,6 +26,7 @@ interface PlaceToGo {
   slug: string;
   summary?: string;
   monumentType?: string;
+  placesToGoGroup?: string | null;
 }
 
 interface Props {
@@ -64,18 +65,58 @@ export function CityGuideSidebar({
   const renderedSections = SECTION_ORDER.map((section) => {
     if (section === 'places-to-go') {
       if (places.length === 0) return null;
+
+      // Group places by `placesToGoGroup` (e.g., "Coptic Cairo", "Saqqara").
+      // Empty/null group → "Other sites" (rendered last).
+      // Inside each group: alphabetical by name.
+      // Groups themselves: alphabetical, with "Other sites" pinned last.
+      const OTHER_KEY = '__other__';
+      const groupsMap = new Map<string, PlaceToGo[]>();
+      for (const p of places) {
+        const key = p.placesToGoGroup?.trim() || OTHER_KEY;
+        if (!groupsMap.has(key)) groupsMap.set(key, []);
+        groupsMap.get(key)!.push(p);
+      }
+      const groupKeys = [...groupsMap.keys()].sort((a, b) => {
+        if (a === OTHER_KEY) return 1;
+        if (b === OTHER_KEY) return -1;
+        return a.localeCompare(b);
+      });
+      const collator = new Intl.Collator(undefined, { sensitivity: 'base' });
+      for (const k of groupKeys) {
+        groupsMap.get(k)!.sort((x, y) => collator.compare(x.name ?? '', y.name ?? ''));
+      }
+      // If every place is in the same single group (or all untagged),
+      // render flat without sub-headers — sub-headers only help when
+      // there are actually multiple groups to distinguish.
+      const renderSubHeaders = groupKeys.length > 1;
+
       return (
         <SectionGroup key={section} label={t(section)}>
-          {places.map((place) => (
-            <li key={place._id}>
-              <Link
-                href={`/guide/${citySlug}/${place.slug}`}
-                className="block text-night-soft transition-colors hover:text-faience"
+          {groupKeys.flatMap((groupKey) => {
+            const groupPlaces = groupsMap.get(groupKey)!;
+            const isOther = groupKey === OTHER_KEY;
+            const items = groupPlaces.map((place) => (
+              <li key={place._id}>
+                <Link
+                  href={`/guide/${citySlug}/${place.slug}`}
+                  className="block text-night-soft transition-colors hover:text-faience"
+                >
+                  {place.name}
+                </Link>
+              </li>
+            ));
+            if (!renderSubHeaders) return items;
+            return [
+              <li
+                key={`hdr-${groupKey}`}
+                className="mt-3 pt-2 text-xs uppercase tracking-wider text-night-muted first:mt-0 first:pt-0"
               >
-                {place.name}
-              </Link>
-            </li>
-          ))}
+                {isOther ? t('places-to-go-other') : groupKey}
+              </li>,
+              ...items,
+            ];
+          })}
         </SectionGroup>
       );
     }
