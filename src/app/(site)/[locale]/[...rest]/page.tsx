@@ -15,6 +15,7 @@ import { notFound, redirect } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 
+import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
@@ -23,8 +24,11 @@ import {
   slugLookupQuery,
   tourCategoryBySlugQuery,
   tourLandingBySlugQuery,
+  tourBySlugQuery,
+  siteSettingsQuery,
 } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
+import { TourPageView } from '@/components/TourPageView';
 
 interface Props {
   params: Promise<{ locale: string; rest: string[] }>;
@@ -65,8 +69,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: doc.seo?.metaDescription ?? doc.summary,
     };
   }
-  // For tour / article / wikiMonument we redirect to their canonical routes — they
-  // own their own generateMetadata there.
+  if (hit._type === 'tour') {
+    const tour = await client.fetch(tourBySlugQuery(locale as Locale), { slug: rest[0] });
+    if (!tour) return {};
+    return buildMetadata(tour, {
+      locale: locale as Locale,
+      path: `/${rest[0]}`,
+      pathByLocale: pathByLocaleFromSlugs(tour.allSlugs, (s: string) => `/${s}`),
+    });
+  }
+  // article / wikiMonument still routed via their explicit handlers; they own metadata there.
   return {};
 }
 
@@ -77,16 +89,20 @@ export default async function CatchAllPage({ params }: Props) {
   const hit = await resolveSlug(locale as Locale, rest);
   if (!hit) notFound();
 
-  // Tours, articles, and wikiMonuments still live under their named
-  // routes for now (/tours/<slug>, /blog/<slug>, /wiki/monuments/<slug>).
-  // To preserve legacy WP URLs (/<slug>/) we redirect from root to those
-  // canonical handlers. SEO-wise this would normally be a 301; for
-  // session 48's MVP we use Next's runtime redirect which serves 307.
-  // A follow-up pass will fold those renderers into shared components so
-  // root URLs render natively here without the redirect hop.
+  // Tours render natively here (canonical URL is the root path) using the
+  // shared TourPageView component, which is also used by the legacy
+  // /tours/[slug] route — that route now redirects here.
   if (hit._type === 'tour') {
-    redirect(`/tours/${rest[0]}`);
+    const [tour, siteSettings] = await Promise.all([
+      client.fetch(tourBySlugQuery(locale as Locale), { slug: rest[0] }),
+      client.fetch(siteSettingsQuery(locale as Locale)),
+    ]);
+    if (!tour) notFound();
+    return <TourPageView tour={tour} locale={locale as Locale} slug={rest[0]} siteSettings={siteSettings} />;
   }
+  // Articles + wikiMonuments still live under their explicit named routes —
+  // redirect from root preserves legacy WP URLs at a single 307 hop until
+  // those renderers are extracted into shared components as well.
   if (hit._type === 'article') {
     redirect(`/blog/${rest[0]}`);
   }
