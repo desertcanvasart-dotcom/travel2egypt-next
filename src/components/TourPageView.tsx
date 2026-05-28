@@ -141,7 +141,7 @@ export async function TourPageView({ tour, locale, slug, siteSettings }: TourPag
                 {tour.summary}
               </p>
             )}
-            {tour.body && (
+            {Array.isArray(tour.body) && tour.body.length > 0 && (
               <div className="prose-editorial max-w-none">
                 <Body value={tour.body} locale={locale} />
               </div>
@@ -161,9 +161,18 @@ export async function TourPageView({ tour, locale, slug, siteSettings }: TourPag
               </section>
             )}
 
-            {(tour.inclusions || tour.exclusions) && (
+            {/*
+              Inclusions / exclusions render only when the schema fields are
+              non-empty. The MD-imported tours keep "What's Included" /
+              "What's Not Included" as inline h2 sections inside body[], so
+              the structured fields stay empty and this section collapses.
+              When an editor later splits them out in Studio, the section
+              shows up automatically.
+            */}
+            {((Array.isArray(tour.inclusions) && tour.inclusions.length > 0) ||
+              (Array.isArray(tour.exclusions) && tour.exclusions.length > 0)) && (
               <section className="mt-16 grid gap-10 border-t border-line pt-12 sm:grid-cols-2">
-                {tour.inclusions && (
+                {Array.isArray(tour.inclusions) && tour.inclusions.length > 0 && (
                   <div>
                     <h2 className="mb-4 font-serif text-2xl font-medium text-ink">{t('inclusionsLabel')}</h2>
                     <div className="prose-editorial max-w-none text-ink-soft">
@@ -171,7 +180,7 @@ export async function TourPageView({ tour, locale, slug, siteSettings }: TourPag
                     </div>
                   </div>
                 )}
-                {tour.exclusions && (
+                {Array.isArray(tour.exclusions) && tour.exclusions.length > 0 && (
                   <div>
                     <h2 className="mb-4 font-serif text-2xl font-medium text-ink">{t('exclusionsLabel')}</h2>
                     <div className="prose-editorial max-w-none text-ink-soft">
