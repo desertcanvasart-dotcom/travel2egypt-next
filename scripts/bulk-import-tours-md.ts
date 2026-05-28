@@ -165,11 +165,22 @@ function parseMd(raw: string): ParsedMd | null {
 
 function findCategoryDir(locale: Locale, category: CategoryConfig): string | null {
   const variants = [
-    join(CORPUS_ROOT, locale, category.folder),
-    join(CORPUS_ROOT, locale, category.folder + ' '), // trailing-space variant present in some JA folders
+    join(CORPUS_ROOT, locale, 'tours', category.folder),
+    join(CORPUS_ROOT, locale, 'tours', category.folder + ' '), // trailing-space variant present in some JA folders
   ];
   for (const p of variants) if (existsSync(p) && statSync(p).isDirectory()) return p;
   return null;
+}
+
+// Recursively collect all .md file paths under a directory.
+function collectMdFiles(dir: string): string[] {
+  const out: string[] = [];
+  for (const entry of readdirSync(dir)) {
+    const full = join(dir, entry);
+    if (statSync(full).isDirectory()) out.push(...collectMdFiles(full));
+    else if (entry.endsWith('.md')) out.push(full);
+  }
+  return out;
 }
 
 // ── Per-tour aggregation across locales ───────────────────────────────────
@@ -206,8 +217,9 @@ function walkCorpus(): TourRecord[] {
           continue;
         }
         const subDir = join(catDir, sub);
-        for (const file of readdirSync(subDir).filter((n) => n.endsWith('.md'))) {
-          const fullPath = join(subDir, file);
+        // Some JA sub-folders nest files one level deeper (e.g. Aswan/abu-simbel/x.md);
+        // EN/ES keep files flat. Walk recursively so nested locale files are picked up.
+        for (const fullPath of collectMdFiles(subDir)) {
           const raw = readFileSync(fullPath, 'utf8');
           const parsed = parseMd(raw);
           if (!parsed) continue;
@@ -310,6 +322,14 @@ async function main() {
   console.log('Walking corpus…');
   let records = walkCorpus();
   console.log(`  parsed ${records.length} unique tour slugs across 4 categories.`);
+
+  // Operator decision (2026-05-29): skip the aswan-city-tour-from-marsa-alam pair.
+  // The corpus has two distinct tours (group + private) sharing one slug; Sanity
+  // holds them as separate docs. Left for manual handling rather than collapsed here.
+  const SKIP_SLUGS = new Set(['aswan-city-tour-from-marsa-alam']);
+  const skippedConflict = records.filter((r) => SKIP_SLUGS.has(r.canonicalSlug)).length;
+  records = records.filter((r) => !SKIP_SLUGS.has(r.canonicalSlug));
+  if (skippedConflict) console.log(`  skipped ${skippedConflict} conflict slug(s): ${[...SKIP_SLUGS].join(', ')}`);
   if (args.only) records = records.filter((r) => r.canonicalSlug === args.only);
   if (args.limit) records = records.slice(0, args.limit);
 
