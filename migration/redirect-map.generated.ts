@@ -708,8 +708,18 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/nubian-life-private-nubian-village-and-nile-tour-with-motor-boat",
-    "destination": "/private-tour-nubian-village-with-motor-boat",
+    "source": "/private-tour-nubian-village-with-motor-boat",
+    "destination": "/nubian-life-private-nubian-village-and-nile-tour-with-motor-boat",
+    "permanent": true
+  },
+  {
+    "source": "/es/vida-nubia-aldea-y-nilo-barco-motor",
+    "destination": "/es/nubian-life-private-nubian-village-and-nile-tour-with-motor-boat",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nubia-no-kurashi-motaboto-de-meguru-nubia-mura-nairu-gawa",
+    "destination": "/ja/nubian-life-private-nubian-village-and-nile-tour-with-motor-boat",
     "permanent": true
   },
   {

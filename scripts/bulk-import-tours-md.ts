@@ -33,7 +33,10 @@ import { htmlToPortableText } from './wp-import-html.js';
 
 loadEnv();
 
-const CORPUS_ROOT = '/Users/islamhussein/Downloads/All 3 langs';
+// Default corpus root; override with --corpus=<path> to import a staged subset
+// (e.g. a folder holding only newly-authored tours) without touching the full
+// corpus. The override folder must follow the same {en,es,ja}/tours/... layout.
+let CORPUS_ROOT = '/Users/islamhussein/Downloads/All 3 langs';
 const LOG_PATH = resolve(process.cwd(), 'migration/bulk-upload-log.jsonl');
 const LOCALES = ['en', 'es', 'ja'] as const;
 type Locale = (typeof LOCALES)[number];
@@ -91,18 +94,19 @@ const REGION_FOLDER_TO_ENUM: Record<string, 'japan-east-asia' | 'usa-canada' | '
 
 // ── Args + client ─────────────────────────────────────────────────────────
 
-interface Args { commit: boolean; dryRun: boolean; limit: number | null; only: string | null }
+interface Args { commit: boolean; dryRun: boolean; limit: number | null; only: string | null; corpus: string | null }
 function parseArgs(argv: string[]): Args {
-  let commit = false; let dryRun = false; let limit: number | null = null; let only: string | null = null;
+  let commit = false; let dryRun = false; let limit: number | null = null; let only: string | null = null; let corpus: string | null = null;
   for (const a of argv.slice(2)) {
     if (a === '--commit') commit = true;
     else if (a === '--dry-run') dryRun = true;
     else if (a.startsWith('--limit=')) limit = parseInt(a.slice(8), 10);
     else if (a.startsWith('--only=')) only = a.slice(7);
+    else if (a.startsWith('--corpus=')) corpus = a.slice(9);
     else die(`Unknown arg: ${a}`);
   }
   if (commit === dryRun) die('Pass exactly one of --dry-run or --commit.');
-  return { commit, dryRun, limit, only };
+  return { commit, dryRun, limit, only, corpus };
 }
 function die(msg: string): never { process.stderr.write(`error: ${msg}\n`); process.exit(2); }
 
@@ -316,7 +320,8 @@ function cityIdFromSlug(_slug: string): string { return _slug; }
 
 async function main() {
   const args = parseArgs(process.argv);
-  console.log(`\n=== Bulk-import tours from MD ===\nmode: ${args.commit ? 'COMMIT' : 'dry-run'}${args.limit ? `  limit: ${args.limit}` : ''}${args.only ? `  only: ${args.only}` : ''}\n`);
+  if (args.corpus) CORPUS_ROOT = resolve(args.corpus);
+  console.log(`\n=== Bulk-import tours from MD ===\nmode: ${args.commit ? 'COMMIT' : 'dry-run'}${args.limit ? `  limit: ${args.limit}` : ''}${args.only ? `  only: ${args.only}` : ''}\ncorpus: ${CORPUS_ROOT}\n`);
   const client = getClient();
 
   console.log('Walking corpus…');

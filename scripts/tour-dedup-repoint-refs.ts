@@ -83,6 +83,10 @@ const TARGET_BY_OLD_SLUG: Record<string, string> = {
   // SET D: doc-backed "unpublish & redirect" (es/ja null). The other SET D
   // sources are legacy URLs with no Sanity doc → redirect-only, nothing to repoint.
   'nile-love-journey-luxor-aswan': '5-day-river-cruise-from-luxor',
+  // SET D reversal: the freshly-authored nubian-life tour became canonical, so
+  // the old private-tour-nubian-village doc is now the duplicate → consolidate
+  // into the new tour.
+  'private-tour-nubian-village-with-motor-boat': 'nubian-life-private-nubian-village-and-nile-tour-with-motor-boat',
 };
 
 // SET C: retired with no replacement. Inbound links reported as MANUAL.

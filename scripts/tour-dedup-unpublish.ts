@@ -61,7 +61,12 @@ const SET_C_OLD = [
 ];
 // SET D: doc-backed "unpublish & redirect". Only this one source is a live
 // Sanity doc; the other SET D sources are legacy URLs (redirect-only).
-const SET_D_OLD = ['nile-love-journey-luxor-aswan'];
+const SET_D_OLD = [
+  'nile-love-journey-luxor-aswan',
+  // Reversal: nubian-life was rewritten from scratch and is now canonical, so
+  // its former redirect target is now the duplicate to retire.
+  'private-tour-nubian-village-with-motor-boat',
+];
 
 async function resolveId(enSlug: string): Promise<string | null> {
   const d = await client.fetch<{ _id: string } | null>(
