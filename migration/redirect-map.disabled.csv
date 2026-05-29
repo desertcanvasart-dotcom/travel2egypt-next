@@ -1,0 +1,14 @@
+# Disabled redirects — provenance record (NOT read by redirect-map:regenerate).
+#
+# These rows were removed from migration/redirect-map.csv because their source
+# URL now resolves to a published tourLanding document; keeping the 301 would
+# shadow the live page. They are preserved here so the history isn't lost and
+# they can be re-enabled (move back into redirect-map.csv) if those landings
+# are ever retired.
+#
+# Format matches redirect-map.csv: from_url,to_path,locale,status_code,legacy_wp_id,priority_score
+#
+# reason: conflicts with tourLanding /nile-cruise-holidays/
+https://travel2egypt.org/nile-cruise-holidays/,/nile-cruises/nile-cruise-holidays,en,301,86752,135.90
+# reason: conflicts with tourLanding /authentic-dahabiya-nile-cruise/
+https://travel2egypt.org/authentic-dahabiya-nile-cruise/,/nile-cruises/authentic-dahabiya-nile-cruise,en,301,86704,0.00

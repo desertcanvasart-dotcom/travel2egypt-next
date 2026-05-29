@@ -80,6 +80,9 @@ const TARGET_BY_OLD_SLUG: Record<string, string> = {
   'cairo-in-3-days-insider-edition-solo-traveller': 'the-elegant-cairo-4-days-tour',
   'desert-oasis-siwa-retreat-solo-traveller': '3-day-siwa-journey-from-alexandria',
   'nile-in-5-days-luxor-aswan-solo-traveller': '5-day-river-cruise-from-luxor',
+  // SET D: doc-backed "unpublish & redirect" (es/ja null). The other SET D
+  // sources are legacy URLs with no Sanity doc → redirect-only, nothing to repoint.
+  'nile-love-journey-luxor-aswan': '5-day-river-cruise-from-luxor',
 };
 
 // SET C: retired with no replacement. Inbound links reported as MANUAL.

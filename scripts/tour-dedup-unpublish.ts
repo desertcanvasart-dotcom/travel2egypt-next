@@ -59,6 +59,9 @@ const SET_C_OLD = [
   'egypt-escape-4-day-cairo-travel-package-from-australia', '4-day-cairo-travel-package',
   '10-day-romantic-egypt-travel-deals', '3-days-cairo-highlights-for-friends',
 ];
+// SET D: doc-backed "unpublish & redirect". Only this one source is a live
+// Sanity doc; the other SET D sources are legacy URLs (redirect-only).
+const SET_D_OLD = ['nile-love-journey-luxor-aswan'];
 
 async function resolveId(enSlug: string): Promise<string | null> {
   const d = await client.fetch<{ _id: string } | null>(
@@ -83,7 +86,7 @@ async function unpublishOne(pubId: string): Promise<'unpublished' | 'already' | 
 }
 
 async function main() {
-  const groups: Array<[string, string[]]> = [['SET A', SET_A_OLD], ['SET B', SET_B_OLD], ['SET C', SET_C_OLD]];
+  const groups: Array<[string, string[]]> = [['SET A', SET_A_OLD], ['SET B', SET_B_OLD], ['SET C', SET_C_OLD], ['SET D', SET_D_OLD]];
   let total = 0, done = 0, missing = 0;
   console.log(APPLY ? '*** APPLY MODE — performing unpublish ***' : '--- DRY RUN (pass --apply to execute) ---');
   for (const [label, slugs] of groups) {

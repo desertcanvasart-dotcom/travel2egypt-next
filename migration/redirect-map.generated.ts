@@ -688,6 +688,41 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/cairo-to-alexandria-2-day-pyramids-mediterranean-tour",
+    "destination": "/private-tour-2-day-trip-to-alexandria-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/aerial-odyssey-luxor-2-day-tour-by-plane-from-cairo",
+    "destination": "/luxor-2-day-tour-by-plane-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/timeless-wonders-10-days-eternal-egypt-tour",
+    "destination": "/10-days-unforgettable-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/sunrise-hot-air-balloon-ride-over-luxor-s-ancient-landmarks",
+    "destination": "/skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+    "permanent": true
+  },
+  {
+    "source": "/nubian-life-private-nubian-village-and-nile-tour-with-motor-boat",
+    "destination": "/private-tour-nubian-village-with-motor-boat",
+    "permanent": true
+  },
+  {
+    "source": "/3-day-enchanting-siwa-oasis-adventure-tour",
+    "destination": "/3-day-siwa-journey-from-alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/nile-love-journey-luxor-aswan",
+    "destination": "/5-day-river-cruise-from-luxor",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
