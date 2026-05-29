@@ -5,5 +5,8 @@ import { projectId, dataset } from './src/sanity/env';
 export default defineCliConfig({
   api: { projectId, dataset },
   studioHost: 'travel2egypt',
-  autoUpdates: true,
+  deployment: {
+    appId: 'ckopfb256vftiqoevrah2xws',
+    autoUpdates: true,
+  },
 });
