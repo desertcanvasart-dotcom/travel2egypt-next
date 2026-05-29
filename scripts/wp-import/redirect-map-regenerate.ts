@@ -41,7 +41,9 @@ const LOCALES: readonly Locale[] = ['en', 'es', 'ja'] as const;
 
 export function readRedirectMapCsv(path: string): RedirectEntry[] {
   const text = readFileSync(path, 'utf8');
-  const lines = text.split(/\r?\n/).filter((l) => l.length > 0);
+  // Skip blank lines and `#`-prefixed comment lines (e.g. `# DISABLED-...`
+  // rows that document an intentionally-excluded redirect). They are not data.
+  const lines = text.split(/\r?\n/).filter((l) => l.length > 0 && !l.startsWith('#'));
   const header = lines.shift();
   if (header !== CSV_HEADER) {
     throw new Error(

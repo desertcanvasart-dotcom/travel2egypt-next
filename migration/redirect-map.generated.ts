@@ -17,12 +17,6 @@ export const redirects: RedirectRule[] = [
     "destination": "/",
     "permanent": true
   },
-  // DISABLED-s48: superseded by tourLanding /nile-cruise-holidays/
-  // {
-  //   "source": "/nile-cruise-holidays",
-  //   "destination": "/nile-cruises/nile-cruise-holidays",
-  //   "permanent": true
-  // },
   {
     "source": "/es/vacaciones-en-un-crucero-por-el-nilo",
     "destination": "/es/nile-cruises/vacaciones-en-un-crucero-por-el-nilo",
@@ -46,6 +40,651 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/fi/suuren-gizan-pyramidin-sisaan",
     "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/abu-simbel-by-plane-from-aswan",
+    "destination": "/abu-simble-by-plane-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/abu-simbel-en-avion-desde-asuan",
+    "destination": "/es/abu-simble-by-plane-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/asuwan-kara-hikoki-de-iku-abu-shin-beru",
+    "destination": "/ja/abu-simble-by-plane-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/abu-simbel-car-day-tour-from-aswan",
+    "destination": "/private-tour-abu-simble-by-bus-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/ruta-templos-autobus-abu-simbel-desde-asuan",
+    "destination": "/es/private-tour-abu-simble-by-bus-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/shinden-no-michi-asuwan-hatsu-abu-shin-beru-shinden-higaeri",
+    "destination": "/ja/private-tour-abu-simble-by-bus-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/alexandria-day-tour",
+    "destination": "/alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/catacumba-columna-de-pompeyo-museo-nacional-y-anfiteatro",
+    "destination": "/es/alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/katakombe-pompei-no-hashira-kokuritsu-hakubutsukan-enkei",
+    "destination": "/ja/alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-city-tour-from-marsa-alam-small-group-tour",
+    "destination": "/aswan-city-tour-from-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/visita-a-la-ciudad-de-asuan-desde-marsa-alam",
+    "destination": "/es/aswan-city-tour-from-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/ja/marusaaramu-hatsu-asuwan-shi-tsua",
+    "destination": "/ja/aswan-city-tour-from-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-day-tour-from-alexandria",
+    "destination": "/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/de-alejandria-a-el-cairo-piramides-y-museo",
+    "destination": "/es/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/arekusandoria-hatsu-kairo-e-no-puraibeto-higaeri-tsua-giza",
+    "destination": "/ja/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/group-trip-to-cairo-by-bus-from-hurghada",
+    "destination": "/cairo-by-bus-group-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/esplendores-de-la-capital-excursion-en-grupo-de-un-dia-a-el-cairo-en-autobus-desde-hurghada",
+    "destination": "/es/cairo-by-bus-group-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/shuto-no-kagayaki-furugada-hatsu-kairo-e-no-basu-de-iku",
+    "destination": "/ja/cairo-by-bus-group-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/shared-snorkeling-day-at-giftun-island",
+    "destination": "/giftun-island-shared-snorkeling-day-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/companeros-de-coral-dia-compartido-de-snorkel-en-la-isla-giftun",
+    "destination": "/es/giftun-island-shared-snorkeling-day-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/sango-no-nakama-tachi-gifutun-to-shunokeringu-kyoyu-tsua",
+    "destination": "/ja/giftun-island-shared-snorkeling-day-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/dendera-and-abydos-temples-tour-from-safaga",
+    "destination": "/dendera-and-abydos-temples-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/safaga-a-santuarios-excursion-de-un-dia-a-los-templos-de-dendera-y-abydos",
+    "destination": "/es/dendera-and-abydos-temples-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/ja/safaga-kara-meguru-seiiki-no-tabi-dendera-abidosu-shinden",
+    "destination": "/ja/dendera-and-abydos-temples-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/desert-quad-bike-safari-from-hurghada",
+    "destination": "/desert-quad-bike-safari-to-bedouin-village-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/emocionante-emocion-en-el-desierto-safari-en-quad-a-un-pueblo-beduino",
+    "destination": "/es/desert-quad-bike-safari-to-bedouin-village-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kofun-no-sabaku-adobencha-bedowin-no-mura-e-no",
+    "destination": "/ja/desert-quad-bike-safari-to-bedouin-village-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/group-day-tour-of-the-pyramids-and-sphinx",
+    "destination": "/pyramids-of-giza-and-sphinx-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-un-dia-en-grupo-piramides-de-guiza-y-esfinge",
+    "destination": "/es/pyramids-of-giza-and-sphinx-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/ja/gurupu-higaeri-tsua-giza-no-piramiddo-to-sufinkusu",
+    "destination": "/ja/pyramids-of-giza-and-sphinx-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/karnak-luxor-temples-and-museum-day-tour",
+    "destination": "/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/reyes-y-columnas-visita-de-un-dia-a-los-templos-y-museo-de-karnak-y-luxor",
+    "destination": "/es/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/o-tachi-to-hashira-karunakku-shinden-rukusoru-shinden",
+    "destination": "/ja/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "permanent": true
+  },
+  {
+    "source": "/luxor-full-day-tour-from-hurghada",
+    "destination": "/luxor-day-tour-from-hurghadafull-day",
+    "permanent": true
+  },
+  {
+    "source": "/es/de-hurghada-a-luxor-descubrimiento-de-la-ciudad-antigua-en-dia-completo",
+    "destination": "/es/luxor-day-tour-from-hurghadafull-day",
+    "permanent": true
+  },
+  {
+    "source": "/ja/furugada-hatsu-rukusoru-kodai-toshi-1-nichi-tambo-tsua",
+    "destination": "/ja/luxor-day-tour-from-hurghadafull-day",
+    "permanent": true
+  },
+  {
+    "source": "/group-tour-luxor-hurghada",
+    "destination": "/luxor-highlights-group-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/destacados-de-luxor-tour-en-grupo-de-un-dia-desde-hurghada",
+    "destination": "/es/luxor-highlights-group-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/rukusoru-hairaito-furugada-hatsu-higaeri-gurupu-tsua",
+    "destination": "/ja/luxor-highlights-group-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/abu-simbel-temples-day-tour",
+    "destination": "/abu-simbel-temples-day-tour-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-un-dia-a-los-majestuosos-templos-de-abu-simble",
+    "destination": "/es/abu-simbel-temples-day-tour-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/yudai-na-abu-shin-beru-shinden-higaeri-tsua",
+    "destination": "/ja/abu-simbel-temples-day-tour-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/private-snorkeling-adventure-in-marsa-alam",
+    "destination": "/group-snorkeling-adventure-in-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/aventura-privada-de-snorkel-en-marsa-alam",
+    "destination": "/es/group-snorkeling-adventure-in-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/ja/umi-no-kyoi-marusaaramu-de-no-puraibetoshunokeringuadobencha",
+    "destination": "/ja/group-snorkeling-adventure-in-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/marsa-alam-to-cairo-small-group-tour-full-day-by-plane",
+    "destination": "/marsa-alam-to-cairo-full-day-tour-by-plane",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-un-dia-en-avion-de-marsa-alam-a-el-cairo",
+    "destination": "/es/marsa-alam-to-cairo-full-day-tour-by-plane",
+    "permanent": true
+  },
+  {
+    "source": "/ja/marusaaramu-hatsu-kairo-higaeri-tsua-hikoki-riyo",
+    "destination": "/ja/marsa-alam-to-cairo-full-day-tour-by-plane",
+    "permanent": true
+  },
+  {
+    "source": "/memphis-saqqara-dahshur-tour-from-alexandria",
+    "destination": "/private-day-trip-to-memphis-saqqara-and-dahshur-from-alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-privada-de-un-dia-a-menfis-saqqara-y-dahshur-desde-alejandria",
+    "destination": "/es/private-day-trip-to-memphis-saqqara-and-dahshur-from-alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/arekusandoria-hatsu-menfisu-sakkara-dahashuru-no-puraibeto",
+    "destination": "/ja/private-day-trip-to-memphis-saqqara-and-dahshur-from-alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/mount-sinai-sunrise-trek",
+    "destination": "/mount-sinai-sunrise-trek-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/ascenso-al-amanecer-del-monte-sinai",
+    "destination": "/es/mount-sinai-sunrise-trek-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/ja/shinai-san-sanraizutorekku",
+    "destination": "/ja/mount-sinai-sunrise-trek-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/private-car-transfer-from-aswan-to-luxor",
+    "destination": "/private-tour-transfer-from-aswan-to-luxor-by-bus",
+    "permanent": true
+  },
+  {
+    "source": "/es/nilo-link-traslado-en-autobus-privado-de-asuan-a-luxor",
+    "destination": "/es/private-tour-transfer-from-aswan-to-luxor-by-bus",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nairu-rinku-asuwan-kara-rukusoru-e-no-puraibeto-basu-sogei",
+    "destination": "/ja/private-tour-transfer-from-aswan-to-luxor-by-bus",
+    "permanent": true
+  },
+  {
+    "source": "/esna-edfu-kom-ombo-day-tour",
+    "destination": "/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/visita-a-esna-edfu-y-kom-ombo",
+    "destination": "/es/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/esuna-edofu-komuombo-homon",
+    "destination": "/ja/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/group-day-tour-to-memphis-saqqara-and-dahshur",
+    "destination": "/memphis-saqqara-and-dahshur-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/trio-del-reino-antiguo-excursion-en-grupo-de-un-dia-a-menfis-saqqara-y-dahshur",
+    "destination": "/es/memphis-saqqara-and-dahshur-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ko-okoku-no-san-dai-iseki-menfisu-sakkara-dahashuru-no",
+    "destination": "/ja/memphis-saqqara-and-dahshur-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/dendera-and-abydos-temples-from-hurghada",
+    "destination": "/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-privada-templos-de-dendera-y-abydos-desde-hurghada",
+    "destination": "/es/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/puraibeto-tsua-furugada-kara-shuppatsu-suru-dendera-to",
+    "destination": "/ja/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/private-tour-transfer-from-luxor-to-hurghada-by-car",
+    "destination": "/private-tour-transfer-from-luxor-to-hurghada-by-bus",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-privada-traslado-de-luxor-a-hurghada-en-autobus",
+    "destination": "/es/private-tour-transfer-from-luxor-to-hurghada-by-bus",
+    "permanent": true
+  },
+  {
+    "source": "/ja/puraibeto-tsua-rukusoru-kara-furugada-made-no-basu-sogei",
+    "destination": "/ja/private-tour-transfer-from-luxor-to-hurghada-by-bus",
+    "permanent": true
+  },
+  {
+    "source": "/pyramids-of-giza-sphinx-memphis-and-saqqara-tour",
+    "destination": "/private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/es/piramides-de-guiza-esfinge-menfis-y-saqqara",
+    "destination": "/es/private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/giza-no-piramiddo-sufinkusu-menfisu-sakkara",
+    "destination": "/ja/private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/pyramids-of-giza-sphinx-egyptian-museum-khan-el-khalili-tour",
+    "destination": "/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "permanent": true
+  },
+  {
+    "source": "/es/piramides-de-guiza-y-esfinge-museo-egipcio-y-khan-el-khalili",
+    "destination": "/es/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/giza-no-piramiddo-sufinkusu-ejiputo-kokogaku-hakubutsukan",
+    "destination": "/ja/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "permanent": true
+  },
+  {
+    "source": "/snorkeling-sea-trip-in-sharm-el-sheikh",
+    "destination": "/diving-sea-trip-in-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/escapada-exclusiva-excursion-privada-de-snorkel-en-el-mar-en-sharm-el-sheikh",
+    "destination": "/es/diving-sea-trip-in-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ekusukurushibuesukepu-sharumuerusheiku-de-tanoshimu",
+    "destination": "/ja/diving-sea-trip-in-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/temples-of-time-day-tour-to-nubian-temples-from-aswan",
+    "destination": "/nubian-temples-day-tour-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/templos-del-tiempo-excursion-de-un-dia-a-los-templos-nubios-desde-asuan",
+    "destination": "/es/nubian-temples-day-tour-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/toki-o-koeru-shinden-asuwan-hatsu-nubia-shinden-higaeri-tsua",
+    "destination": "/ja/nubian-temples-day-tour-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/desert-rides-hurghada-quad-bike-adventure",
+    "destination": "/hurghada-quad-bike-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/emocionantes-paseos-por-el-desierto-aventura-en-quad-en-hurghada",
+    "destination": "/es/hurghada-quad-bike-tour",
+    "permanent": true
+  },
+  {
+    "source": "/ja/suriringu-na-sabaku-no-raido-furugadakuwaddobaikuadobencha",
+    "destination": "/ja/hurghada-quad-bike-tour",
+    "permanent": true
+  },
+  {
+    "source": "/the-grand-west-bank-tour",
+    "destination": "/grand-west-bank-group-day-tour-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/maravillas-de-la-orilla-oeste-de-luxor-recorrido-completo",
+    "destination": "/es/grand-west-bank-group-day-tour-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/seigan-no-kiseki-gurandouesutobankutsua",
+    "destination": "/ja/grand-west-bank-group-day-tour-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-group-tour",
+    "destination": "/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "permanent": true
+  },
+  {
+    "source": "/es/tour-en-grupo-por-el-cairo-piramides-museo-y-khan-el-khalili",
+    "destination": "/es/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kairo-gurupu-tsua-piramiddo-hakubutsukan-kanerukariri",
+    "destination": "/ja/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "permanent": true
+  },
+  {
+    "source": "/day-tour-to-visit-cairo-from-alexandria",
+    "destination": "/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-un-dia-para-visitar-el-cairo-desde-alejandria",
+    "destination": "/es/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/arekusandoria-kara-kairo-e-no-higaeri-tsua",
+    "destination": "/ja/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/bahariya-oasis-and-white-desert-3-day-tour",
+    "destination": "/the-white-desert-and-djara-cave",
+    "permanent": true
+  },
+  {
+    "source": "/es/oasis-del-desierto-aventura-de-3-dias-bahariya-desierto-blanco",
+    "destination": "/es/the-white-desert-and-djara-cave",
+    "permanent": true
+  },
+  {
+    "source": "/ja/sabaku-no-oashisu-bahariyaoashisu-to-howaito-dezato-3",
+    "destination": "/ja/the-white-desert-and-djara-cave",
+    "permanent": true
+  },
+  {
+    "source": "/half-day-tour-of-luxor-karnak-temples",
+    "destination": "/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/patrimonio-de-medio-dia-excursion-a-luxor-y-los-templos-de-karnak",
+    "destination": "/es/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hannichi-isan-tsua-rukusoru-to-karunakku-shinden-tsua",
+    "destination": "/ja/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "permanent": true
+  },
+  {
+    "source": "/fayoum-oasis-and-beni-suef-pyramids-tour",
+    "destination": "/fayoum-meidum-hawara-pyramids-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/leyendas-de-los-oasis-excursion-al-oasis-de-fayoum-y-las-piramides-de-beni-suef",
+    "destination": "/es/fayoum-meidum-hawara-pyramids-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/ja/oashisu-no-densetsu-fayumuoashisu-to-benisuefu-no-piramiddo",
+    "destination": "/ja/fayoum-meidum-hawara-pyramids-group-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/dendera-and-abydos-temple-tour-hurghada",
+    "destination": "/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/arenas-de-la-historia-tour-de-los-templos-de-dendera-y-abydos-desde-hurghada",
+    "destination": "/es/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/rekishi-no-sakyu-furugada-hatsu-dendera-abidosu-shinden-tsua",
+    "destination": "/ja/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/group-day-tour-to-kom-ombo-and-edfu-temples-from-aswan",
+    "destination": "/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/alineaciones-de-templos-excursion-de-un-dia-a-los-templos-de-kom-ombo-y-edfu",
+    "destination": "/es/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/shinden-no-seiretsu-komuombo-jiin-to-edofu-jiin-no-higaeri",
+    "destination": "/ja/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/private-tour-valley-of-kings-temples-day-tour",
+    "destination": "/grand-west-bank-group-day-tour-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-un-dia-al-valle-de-los-reyes-y-los-templos",
+    "destination": "/es/grand-west-bank-group-day-tour-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/oke-no-tani-to-shinden-higaeri-tsua",
+    "destination": "/ja/grand-west-bank-group-day-tour-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/11-day-luxor-to-cairo-egypt-nile-cruise-vacation",
+    "destination": "/egypt-group-tours-from-usa-canada",
+    "permanent": true
+  },
+  {
+    "source": "/es/crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-vacaciones-en-egipto-desde-canada",
+    "destination": "/es/egypt-group-tours-from-usa-canada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kanada-hatsu-11-nichikan-rukusoru-kairo-ejiputo-nairu-kuruzu",
+    "destination": "/ja/egypt-group-tours-from-usa-canada",
+    "permanent": true
+  },
+  {
+    "source": "/12-day-red-sea-desert-friends-escape",
+    "destination": "/egypt-and-the-red-sea-paradise",
+    "permanent": true
+  },
+  {
+    "source": "/group-day-trip-to-cairo-from-safaga",
+    "destination": "/hurghada-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/capital-splendors-tour-de-un-dia-en-grupo-a-el-cairo-desde-safaga-plan-del-tour",
+    "destination": "/es/hurghada-excursiones-de-un-dia-en-grupo-reducido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/shuto-no-kagayaki-safaga-hatsu-kairo-e-no-gurupu-higaeri",
+    "destination": "/ja/furugada-sho-gurupu-higaeri-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/group-day-tour-to-cairo-from-al-gouna",
+    "destination": "/hurghada-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/tour-de-un-dia-en-grupo-a-el-cairo-desde-al-gouna",
+    "destination": "/es/hurghada-excursiones-de-un-dia-en-grupo-reducido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/erugouna-hatsu-kairo-gurupu-higaeri-tsua",
+    "destination": "/ja/furugada-sho-gurupu-higaeri-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/5-days-cairo-luxor-romance-edition",
+    "destination": "/marriott-mena-house-4-days-stay",
+    "permanent": true
+  },
+  {
+    "source": "/9-days-cairo-st-catherine-sharm-el-sheikh",
+    "destination": "/11-day-explore-egypt-and-red-sea-tour",
+    "permanent": true
+  },
+  {
+    "source": "/9-days-red-sea-desert-escape",
+    "destination": "/multiday-adventure-and-safari-tours",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-in-3-days-insider-edition-solo-traveller",
+    "destination": "/the-elegant-cairo-4-days-tour",
+    "permanent": true
+  },
+  {
+    "source": "/desert-oasis-siwa-retreat-solo-traveller",
+    "destination": "/3-day-siwa-journey-from-alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/nile-in-5-days-luxor-aswan-solo-traveller",
+    "destination": "/5-day-river-cruise-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/nilo-en-5-dias-luxor-y-asuan-viajero-solo",
+    "destination": "/es/5-day-river-cruise-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/5-nichikan-no-nairu-rukusoru-to-asuwan-o-ichi-nin-sama-ryoko",
+    "destination": "/ja/5-day-river-cruise-from-luxor",
     "permanent": true
   },
   {
@@ -353,12 +992,6 @@ export const redirects: RedirectRule[] = [
     "destination": "/ja/nile-cruises/アデライド・ダハビヤ（adelaide-dahabiya）",
     "permanent": true
   },
-  // DISABLED-s48: superseded by tourLanding /authentic-dahabiya-nile-cruise/
-  // {
-  //   "source": "/authentic-dahabiya-nile-cruise",
-  //   "destination": "/nile-cruises/authentic-dahabiya-nile-cruise",
-  //   "permanent": true
-  // },
   {
     "source": "/es/crucero-dahabiya-por-el-nilo",
     "destination": "/es/nile-cruises/crucero-dahabiya-por-el-nilo",
@@ -656,7 +1289,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/qasr-ibrim",
-    "destination": "/guide/abu-simbel",
+    "destination": "/guide/abu-simbel/qasr-ibrim",
     "permanent": true
   },
   {
@@ -691,12 +1324,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/kom-ushim-karanis",
-    "destination": "/guide/al-fayoum",
+    "destination": "/guide/al-fayoum/kom-ushim-karanis",
     "permanent": true
   },
   {
     "source": "/medinet-madi",
-    "destination": "/guide/al-fayoum",
+    "destination": "/guide/al-fayoum/medinet-madi",
     "permanent": true
   },
   {
@@ -706,7 +1339,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/biahmu",
-    "destination": "/guide/al-fayoum",
+    "destination": "/guide/al-fayoum/biahmu",
     "permanent": true
   },
   {
@@ -716,7 +1349,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/bardawil-lake",
-    "destination": "/guide/al-arish",
+    "destination": "/guide/al-arish/bardawil-lake",
     "permanent": true
   },
   {
@@ -741,7 +1374,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/el-ashmunein",
-    "destination": "/guide/al-minya",
+    "destination": "/guide/al-minya/el-ashmunein",
     "permanent": true
   },
   {
@@ -751,7 +1384,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/tuna-el-gebel",
-    "destination": "/guide/al-minya",
+    "destination": "/guide/al-minya/tuna-el-gebel",
     "permanent": true
   },
   {
@@ -791,7 +1424,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/bir-umm-fawakhir",
-    "destination": "/guide/al-quseir",
+    "destination": "/guide/al-quseir/bir-umm-fawakhir",
     "permanent": true
   },
   {
@@ -816,7 +1449,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/zeytouna-beach",
-    "destination": "/guide/al-gouna",
+    "destination": "/guide/al-gouna/zeytouna-beach",
     "permanent": true
   },
   {
@@ -856,7 +1489,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/necropolis-of-anfushi",
-    "destination": "/guide/alexandria",
+    "destination": "/guide/alexandria/necropolis-of-anfushi",
     "permanent": true
   },
   {
@@ -876,7 +1509,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/pompeys-pillar",
-    "destination": "/guide/alexandria",
+    "destination": "/guide/alexandria/pompeys-pillar",
     "permanent": true
   },
   {
@@ -886,7 +1519,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/qaitbey-fort",
-    "destination": "/guide/alexandria",
+    "destination": "/guide/alexandria/qaitbey-fort",
     "permanent": true
   },
   {
@@ -926,7 +1559,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/convent-of-the-holy-virgin-at-dorunka",
-    "destination": "/guide/asyut",
+    "destination": "/guide/asyut/convent-of-the-holy-virgin-at-dorunka",
     "permanent": true
   },
   {
@@ -946,22 +1579,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/valley-of-the-golden-mummies",
-    "destination": "/guide/bahariya-oasis",
+    "destination": "/guide/bahariya-oasis/valley-of-the-golden-mummies",
     "permanent": true
   },
   {
     "source": "/el-hayz",
-    "destination": "/guide/bahariya-oasis",
+    "destination": "/guide/bahariya-oasis/el-hayz",
     "permanent": true
   },
   {
     "source": "/al-qasr-village",
-    "destination": "/guide/bahariya-oasis",
+    "destination": "/guide/bahariya-oasis/al-qasr-village",
     "permanent": true
   },
   {
     "source": "/bawiti",
-    "destination": "/guide/bahariya-oasis",
+    "destination": "/guide/bahariya-oasis/bawiti",
     "permanent": true
   },
   {
@@ -976,12 +1609,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ehnasya-el-medina",
-    "destination": "/guide/beni-suef",
+    "destination": "/guide/beni-suef/ehnasya-el-medina",
     "permanent": true
   },
   {
     "source": "/dishasha",
-    "destination": "/guide/beni-suef",
+    "destination": "/guide/beni-suef/dishasha",
     "permanent": true
   },
   {
@@ -1041,12 +1674,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/white-desert-national-park",
-    "destination": "/guide/farafra-oasis",
+    "destination": "/guide/farafra-oasis/white-desert-national-park",
     "permanent": true
   },
   {
     "source": "/el-qaf",
-    "destination": "/guide/farafra-oasis",
+    "destination": "/guide/farafra-oasis/el-qaf",
     "permanent": true
   },
   {
@@ -1061,12 +1694,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/palm-groves",
-    "destination": "/guide/farafra-oasis",
+    "destination": "/guide/farafra-oasis/palm-groves",
     "permanent": true
   },
   {
     "source": "/ghard-abu-muharrik-and-the-sand-volcano",
-    "destination": "/guide/farafra-oasis",
+    "destination": "/guide/farafra-oasis/ghard-abu-muharrik-and-the-sand-volcano",
     "permanent": true
   },
   {
@@ -1076,7 +1709,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/road-to-dakhla",
-    "destination": "/guide/farafra-oasis",
+    "destination": "/guide/farafra-oasis/road-to-dakhla",
     "permanent": true
   },
   {
@@ -1136,17 +1769,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/giftun-islands",
-    "destination": "/guide/hurghada",
+    "destination": "/guide/hurghada/giftun-islands",
     "permanent": true
   },
   {
     "source": "/straits-of-gubal",
-    "destination": "/guide/hurghada",
+    "destination": "/guide/hurghada/straits-of-gubal",
     "permanent": true
   },
   {
     "source": "/abu-nuhas-shipwreck-sites",
-    "destination": "/guide/hurghada",
+    "destination": "/guide/hurghada/abu-nuhas-shipwreck-sites",
     "permanent": true
   },
   {
@@ -1181,7 +1814,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/gebel-el-silsila",
-    "destination": "/guide/kom-ombo",
+    "destination": "/guide/kom-ombo/gebel-el-silsila",
     "permanent": true
   },
   {
@@ -1241,7 +1874,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/deir-el-madina",
-    "destination": "/guide/luxor",
+    "destination": "/guide/luxor/deir-el-madina",
     "permanent": true
   },
   {
@@ -1286,22 +1919,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/sharm-el-luli",
-    "destination": "/guide/marsa-alam",
+    "destination": "/guide/marsa-alam/sharm-el-luli",
     "permanent": true
   },
   {
     "source": "/sataya-reef",
-    "destination": "/guide/marsa-alam",
+    "destination": "/guide/marsa-alam/sataya-reef",
     "permanent": true
   },
   {
     "source": "/port-ghalib-marina",
-    "destination": "/guide/marsa-alam",
+    "destination": "/guide/marsa-alam/port-ghalib-marina",
     "permanent": true
   },
   {
     "source": "/abu-dabbab-beach",
-    "destination": "/guide/marsa-alam",
+    "destination": "/guide/marsa-alam/abu-dabbab-beach",
     "permanent": true
   },
   {
@@ -1341,7 +1974,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/tours-in-nuweiba",
-    "destination": "/guide/nuweiba",
+    "destination": "/guide/nuweiba/tours-in-nuweiba",
     "permanent": true
   },
   {
@@ -1371,7 +2004,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/suez-canal-house",
-    "destination": "/guide/port-said",
+    "destination": "/guide/port-said/suez-canal-house",
     "permanent": true
   },
   {
@@ -1411,7 +2044,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/hathor-and-bes",
-    "destination": "/guide/qena",
+    "destination": "/guide/qena/hathor-and-bes",
     "permanent": true
   },
   {
@@ -1426,7 +2059,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/roman-mammisi",
-    "destination": "/guide/qena",
+    "destination": "/guide/qena/roman-mammisi",
     "permanent": true
   },
   {
@@ -1576,17 +2209,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/dakrour-mountain",
-    "destination": "/guide/siwa-oasis",
+    "destination": "/guide/siwa-oasis/dakrour-mountain",
     "permanent": true
   },
   {
     "source": "/mountain-of-the-dead",
-    "destination": "/guide/siwa-oasis",
+    "destination": "/guide/siwa-oasis/mountain-of-the-dead",
     "permanent": true
   },
   {
     "source": "/salt-lakes",
-    "destination": "/guide/siwa-oasis",
+    "destination": "/guide/siwa-oasis/salt-lakes",
     "permanent": true
   },
   {
@@ -1691,7 +2324,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/abu-galum-protectorate",
-    "destination": "/guide/dahab",
+    "destination": "/guide/dahab/abu-galum-protectorate",
     "permanent": true
   },
   {
@@ -2081,12 +2714,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/wiki/monuments/templo-de-khnum-2",
-    "destination": "/es/guide/esna/templo-de-khnum-2",
+    "destination": "/es/guide/kom-ombo/templo-de-khnum-2",
     "permanent": true
   },
   {
     "source": "/ja/wiki/monuments/クヌム神殿",
-    "destination": "/ja/guide/esna/クヌム神殿",
+    "destination": "/ja/guide/kom-ombo/クヌム神殿",
     "permanent": true
   },
   {
@@ -3727,6 +4360,1026 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/guide/safaga/safaga-de-no-oiwai",
     "destination": "/ja/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/guide/luxor/luxor-off-the-beaten-path",
+    "destination": "/guide/luxor/only-in-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/luxor-off-the-beaten-path",
+    "destination": "/es/guide/luxor/only-in-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/luxor/luxor-off-the-beaten-path",
+    "destination": "/ja/guide/luxor/only-in-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/guide/marsa-matruh/places-to-go-in-marsa-matruh",
+    "destination": "/guide/marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/places-to-go-in-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/marsa-matruh/places-to-go-in-marsa-matruh",
+    "destination": "/ja/guide/marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/guide/safaga/places-to-go-in-safaga",
+    "destination": "/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/places-to-go-in-safaga",
+    "destination": "/es/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/safaga/places-to-go-in-safaga",
+    "destination": "/ja/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/guide/kharga-oasis/kharga-oasis-only-here",
+    "destination": "/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/kharga-oasis-only-here",
+    "destination": "/es/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/kharga-oasis/kharga-oasis-only-here",
+    "destination": "/ja/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/asyut/annual-events-in-asyut",
+    "destination": "/guide/asyut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/annual-events-in-asyut",
+    "destination": "/es/guide/asyut",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/asyut/annual-events-in-asyut",
+    "destination": "/ja/guide/asyut",
+    "permanent": true
+  },
+  {
+    "source": "/guide/dakhla-oasis/weather-in-dakhla-oasis",
+    "destination": "/guide/dakhla-oasis/when-to-explore-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/weather-in-dakhla-oasis",
+    "destination": "/es/guide/dakhla-oasis/when-to-explore-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/dakhla-oasis/weather-in-dakhla-oasis",
+    "destination": "/ja/guide/dakhla-oasis/when-to-explore-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/abu-rawash-pyramid-of-djedefre",
+    "destination": "/guide/giza/pyramid-of-djedefre-at-abu-rawash",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/abu-rawash-pyramid-of-djedefre",
+    "destination": "/es/guide/giza/pyramid-of-djedefre-at-abu-rawash",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/abu-rawash-pyramid-of-djedefre",
+    "destination": "/ja/guide/giza/pyramid-of-djedefre-at-abu-rawash",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/abusir-pyramid-of-khentkawes",
+    "destination": "/guide/giza/pyramid-of-khentkaus-ii-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/abusir-pyramid-of-khentkawes",
+    "destination": "/es/guide/giza/pyramid-of-khentkaus-ii-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/abusir-pyramid-of-khentkawes",
+    "destination": "/ja/guide/giza/pyramid-of-khentkaus-ii-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/abusir-pyramid-of-neferirkare",
+    "destination": "/guide/giza/pyramid-of-neferirkare-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/abusir-pyramid-of-neferirkare",
+    "destination": "/es/guide/giza/pyramid-of-neferirkare-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/abusir-pyramid-of-neferirkare",
+    "destination": "/ja/guide/giza/pyramid-of-neferirkare-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/abusir-pyramid-of-sahure",
+    "destination": "/guide/giza/pyramid-of-sahure-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/abusir-pyramid-of-sahure",
+    "destination": "/es/guide/giza/pyramid-of-sahure-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/abusir-pyramid-of-sahure",
+    "destination": "/ja/guide/giza/pyramid-of-sahure-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/the-bent-pyramid",
+    "destination": "/guide/giza/the-bent-pyramid-of-sneferu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-bent-pyramid",
+    "destination": "/es/guide/giza/the-bent-pyramid-of-sneferu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/the-bent-pyramid",
+    "destination": "/ja/guide/giza/the-bent-pyramid-of-sneferu",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/the-red-pyramid",
+    "destination": "/guide/giza/the-red-pyramid-of-sneferu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-red-pyramid",
+    "destination": "/es/guide/giza/the-red-pyramid-of-sneferu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/the-red-pyramid",
+    "destination": "/ja/guide/giza/the-red-pyramid-of-sneferu",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/the-northern-pyramid",
+    "destination": "/guide/giza/the-red-pyramid-of-sneferu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-northern-pyramid",
+    "destination": "/es/guide/giza/the-red-pyramid-of-sneferu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/the-northern-pyramid",
+    "destination": "/ja/guide/giza/the-red-pyramid-of-sneferu",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/the-white-pyramid",
+    "destination": "/guide/giza/the-white-pyramid-of-amenemhat-ii",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-white-pyramid",
+    "destination": "/es/guide/giza/the-white-pyramid-of-amenemhat-ii",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/the-white-pyramid",
+    "destination": "/ja/guide/giza/the-white-pyramid-of-amenemhat-ii",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/pyramid-of-khufu",
+    "destination": "/guide/giza/the-great-pyramid-of-khufu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/pyramid-of-khufu",
+    "destination": "/es/guide/giza/the-great-pyramid-of-khufu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/pyramid-of-khufu",
+    "destination": "/ja/guide/giza/the-great-pyramid-of-khufu",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/the-solar-boat-museum",
+    "destination": "/guide/giza/the-solar-boat-of-khufu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-solar-boat-museum",
+    "destination": "/es/guide/giza/the-solar-boat-of-khufu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/the-solar-boat-museum",
+    "destination": "/ja/guide/giza/the-solar-boat-of-khufu",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/memphis-mit-rahina-museum",
+    "destination": "/guide/giza/mit-rahina-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/memphis-mit-rahina-museum",
+    "destination": "/es/guide/giza/mit-rahina-museum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/memphis-mit-rahina-museum",
+    "destination": "/ja/guide/giza/mit-rahina-museum",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/imhotep-museum",
+    "destination": "/guide/giza/imhotep-museum-at-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/imhotep-museum",
+    "destination": "/es/guide/giza/imhotep-museum-at-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/imhotep-museum",
+    "destination": "/ja/guide/giza/imhotep-museum-at-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/tomb-of-general-horemheb",
+    "destination": "/guide/giza/tomb-of-general-horemheb-at-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/tomb-of-general-horemheb",
+    "destination": "/es/guide/giza/tomb-of-general-horemheb-at-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/tomb-of-general-horemheb",
+    "destination": "/ja/guide/giza/tomb-of-general-horemheb-at-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/tomb-of-mereruka",
+    "destination": "/guide/giza/tomb-of-mereruka-at-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/tomb-of-mereruka",
+    "destination": "/es/guide/giza/tomb-of-mereruka-at-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/tomb-of-mereruka",
+    "destination": "/ja/guide/giza/tomb-of-mereruka-at-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/saqqara",
+    "destination": "/guide/giza/the-saqqara-necropolis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/saqqara",
+    "destination": "/es/guide/giza/the-saqqara-necropolis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/saqqara",
+    "destination": "/ja/guide/giza/the-saqqara-necropolis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/the-pyramid-of-khaba",
+    "destination": "/guide/giza/the-layer-pyramid-of-khaba-at-zawyet-el-aryan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-pyramid-of-khaba",
+    "destination": "/es/guide/giza/the-layer-pyramid-of-khaba-at-zawyet-el-aryan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/the-pyramid-of-khaba",
+    "destination": "/ja/guide/giza/the-layer-pyramid-of-khaba-at-zawyet-el-aryan",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/mosque-of-al-muayyad-shaykh",
+    "destination": "/guide/cairo/mosque-of-al-mu-ayyad-shaykh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-al-muayyad-shaykh",
+    "destination": "/es/guide/cairo/mosque-of-al-mu-ayyad-shaykh",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/mosque-of-al-muayyad-shaykh",
+    "destination": "/ja/guide/cairo/mosque-of-al-mu-ayyad-shaykh",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/mosque-of-mohammed-ali",
+    "destination": "/guide/cairo/mosque-of-muhammad-ali",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-mohammed-ali",
+    "destination": "/es/guide/cairo/mosque-of-muhammad-ali",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/mosque-of-mohammed-ali",
+    "destination": "/ja/guide/cairo/mosque-of-muhammad-ali",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/sabil-of-muhammed-ali-pasha",
+    "destination": "/guide/cairo/sabil-of-muhammad-ali-pasha",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/sabil-of-muhammed-ali-pasha",
+    "destination": "/es/guide/cairo/sabil-of-muhammad-ali-pasha",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/sabil-of-muhammed-ali-pasha",
+    "destination": "/ja/guide/cairo/sabil-of-muhammad-ali-pasha",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/the-egyptian-museum",
+    "destination": "/guide/cairo/egyptian-museum-of-antiquities",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/the-egyptian-museum",
+    "destination": "/es/guide/cairo/egyptian-museum-of-antiquities",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/the-egyptian-museum",
+    "destination": "/ja/guide/cairo/egyptian-museum-of-antiquities",
+    "permanent": true
+  },
+  {
+    "source": "/guide/farafra-oasis/badrs-museum",
+    "destination": "/guide/farafra-oasis/badr-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/badrs-museum",
+    "destination": "/es/guide/farafra-oasis/badr-museum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafra-oasis/badrs-museum",
+    "destination": "/ja/guide/farafra-oasis/badr-museum",
+    "permanent": true
+  },
+  {
+    "source": "/guide/farafra-oasis/white-desert",
+    "destination": "/guide/farafra-oasis/white-desert-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/white-desert",
+    "destination": "/es/guide/farafra-oasis/white-desert-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafra-oasis/white-desert",
+    "destination": "/ja/guide/farafra-oasis/white-desert-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/guide/al-fayoum/wadi-el-rayan",
+    "destination": "/guide/al-fayoum/wadi-al-rayan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/wadi-el-rayan",
+    "destination": "/es/guide/al-fayoum/wadi-al-rayan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/al-fayoum/wadi-el-rayan",
+    "destination": "/ja/guide/al-fayoum/wadi-al-rayan",
+    "permanent": true
+  },
+  {
+    "source": "/guide/marsa-alam/wadi-el-gamal-national-park",
+    "destination": "/guide/marsa-alam/wadi-el-gemal-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/wadi-el-gamal-national-park",
+    "destination": "/es/guide/marsa-alam/wadi-el-gemal-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/marsa-alam/wadi-el-gamal-national-park",
+    "destination": "/ja/guide/marsa-alam/wadi-el-gemal-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/guide/aswan/st-simeon-monastery",
+    "destination": "/guide/aswan/saint-simeon-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/st-simeon-monastery",
+    "destination": "/es/guide/aswan/saint-simeon-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/aswan/st-simeon-monastery",
+    "destination": "/ja/guide/aswan/saint-simeon-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/guide/sharm-el-sheikh/nabq-managed-resource-protected-area",
+    "destination": "/guide/sharm-el-sheikh/nabq-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/nabq-managed-resource-protected-area",
+    "destination": "/es/guide/sharm-el-sheikh/nabq-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharm-el-sheikh/nabq-managed-resource-protected-area",
+    "destination": "/ja/guide/sharm-el-sheikh/nabq-national-park",
+    "permanent": true
+  },
+  {
+    "source": "/guide/sharm-el-sheikh/naama-bay-promenade-resort",
+    "destination": "/guide/sharm-el-sheikh/naama-bay-sharm-el-sheikh-guide",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/naama-bay-promenade-resort",
+    "destination": "/es/guide/sharm-el-sheikh/naama-bay-sharm-el-sheikh-guide",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharm-el-sheikh/naama-bay-promenade-resort",
+    "destination": "/ja/guide/sharm-el-sheikh/naama-bay-sharm-el-sheikh-guide",
+    "permanent": true
+  },
+  {
+    "source": "/guide/sharm-el-sheikh/sharm-el-luli",
+    "destination": "/guide/marsa-alam/sharm-el-luli",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/sharm-el-luli",
+    "destination": "/es/guide/marsa-alam/sharm-el-luli",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharm-el-sheikh/sharm-el-luli",
+    "destination": "/ja/guide/marsa-alam/sharm-el-luli",
+    "permanent": true
+  },
+  {
+    "source": "/guide/aswan/kitcheners-island",
+    "destination": "/guide/aswan/botanical-garden",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/kitcheners-island",
+    "destination": "/es/guide/aswan/botanical-garden",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/aswan/kitcheners-island",
+    "destination": "/ja/guide/aswan/botanical-garden",
+    "permanent": true
+  },
+  {
+    "source": "/guide/wadi-el-natrun/monastery-of-st-pishoy",
+    "destination": "/guide/wadi-el-natrun/monastery-of-saint-pishoy",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/monastery-of-st-pishoy",
+    "destination": "/es/guide/wadi-el-natrun/monastery-of-saint-pishoy",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/wadi-el-natrun/monastery-of-st-pishoy",
+    "destination": "/ja/guide/wadi-el-natrun/monastery-of-saint-pishoy",
+    "permanent": true
+  },
+  {
+    "source": "/guide/dahab/colored-canyon",
+    "destination": "/guide/dahab/coloured-canyon",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/colored-canyon",
+    "destination": "/es/guide/dahab/coloured-canyon",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/dahab/colored-canyon",
+    "destination": "/ja/guide/dahab/coloured-canyon",
+    "permanent": true
+  },
+  {
+    "source": "/guide/al-arish/events-in-al-arish",
+    "destination": "/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/events-in-al-arish",
+    "destination": "/es/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/al-arish/events-in-al-arish",
+    "destination": "/ja/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/guide/al-gouna/al-gouna-private-day-tours",
+    "destination": "/al-gouna-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/al-gouna-private-day-tours",
+    "destination": "/es/al-gouna-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/al-gouna/al-gouna-private-day-tours",
+    "destination": "/ja/al-gouna-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/alexandria/alexandria-private-day-tours",
+    "destination": "/alexandria-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/alexandria-private-day-tours",
+    "destination": "/es/alexandria-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/alexandria/alexandria-private-day-tours",
+    "destination": "/ja/alexandria-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/aswan/aswan-private-day-tours",
+    "destination": "/aswan-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/aswan-private-day-tours",
+    "destination": "/es/aswan-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/aswan/aswan-private-day-tours",
+    "destination": "/ja/aswan-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/cairo-private-day-tours",
+    "destination": "/cairo-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/cairo-private-day-tours",
+    "destination": "/es/cairo-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/cairo-private-day-tours",
+    "destination": "/ja/cairo-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/hurghada/hurghada-private-day-tours",
+    "destination": "/hurghada-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/hurghada-private-day-tours",
+    "destination": "/es/hurghada-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/hurghada/hurghada-private-day-tours",
+    "destination": "/ja/hurghada-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/luxor/luxor-private-day-tours",
+    "destination": "/luxor-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/luxor-private-day-tours",
+    "destination": "/es/luxor-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/luxor/luxor-private-day-tours",
+    "destination": "/ja/luxor-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/marsa-alam/marsa-alam-private-day-tours",
+    "destination": "/marsa-alam-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/marsa-alam-private-day-tours",
+    "destination": "/es/marsa-alam-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/marsa-alam/marsa-alam-private-day-tours",
+    "destination": "/ja/marsa-alam-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/safaga/safaga-private-day-tours",
+    "destination": "/safaga-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/safaga-private-day-tours",
+    "destination": "/es/safaga-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/safaga/safaga-private-day-tours",
+    "destination": "/ja/safaga-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/sharm-el-sheikh/sharm-el-sheikh-private-day-tours",
+    "destination": "/sharm-el-sheikh-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/sharm-el-sheikh-private-day-tours",
+    "destination": "/es/sharm-el-sheikh-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharm-el-sheikh/sharm-el-sheikh-private-day-tours",
+    "destination": "/ja/sharm-el-sheikh-private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/aswan/aswan-small-group-day-tours",
+    "destination": "/aswan-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/aswan-small-group-day-tours",
+    "destination": "/es/aswan-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/aswan/aswan-small-group-day-tours",
+    "destination": "/ja/aswan-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/cairo-small-group-day-tours",
+    "destination": "/cairo-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/cairo-small-group-day-tours",
+    "destination": "/es/cairo-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/cairo-small-group-day-tours",
+    "destination": "/ja/cairo-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/hurghada/hurghada-small-group-day-tours",
+    "destination": "/hurghada-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/hurghada-small-group-day-tours",
+    "destination": "/es/hurghada-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/hurghada/hurghada-small-group-day-tours",
+    "destination": "/ja/hurghada-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/luxor/luxor-small-group-day-tours",
+    "destination": "/luxor-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/luxor-small-group-day-tours",
+    "destination": "/es/luxor-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/luxor/luxor-small-group-day-tours",
+    "destination": "/ja/luxor-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/marsa-alam/marsa-alam-small-group-day-tours",
+    "destination": "/marsa-alam-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/marsa-alam-small-group-day-tours",
+    "destination": "/es/marsa-alam-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/marsa-alam/marsa-alam-small-group-day-tours",
+    "destination": "/ja/marsa-alam-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/guide/sharm-el-sheikh/sharm-el-sheikh-small-group-day-tours",
+    "destination": "/sharm-el-sheikh-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/sharm-el-sheikh-small-group-day-tours",
+    "destination": "/es/sharm-el-sheikh-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharm-el-sheikh/sharm-el-sheikh-small-group-day-tours",
+    "destination": "/ja/sharm-el-sheikh-small-group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/travel-tips/telephones-in-egypt",
+    "destination": "/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/telephones-in-egypt",
+    "destination": "/es/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/ja/travel-tips/telephones-in-egypt",
+    "destination": "/ja/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/travel-tips/wifi-in-egypt",
+    "destination": "/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/wifi-in-egypt",
+    "destination": "/es/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/ja/travel-tips/wifi-in-egypt",
+    "destination": "/ja/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/travel-tips/tips-for-families",
+    "destination": "/travel-tips/traveling-with-kids",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/tips-for-families",
+    "destination": "/es/travel-tips/traveling-with-kids",
+    "permanent": true
+  },
+  {
+    "source": "/ja/travel-tips/tips-for-families",
+    "destination": "/ja/travel-tips/traveling-with-kids",
+    "permanent": true
+  },
+  {
+    "source": "/hotels/sofitel-legend-old-cataract",
+    "destination": "/hotels/mandarin-oriental-old-cataract-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/hotels/sofitel-legend-old-cataract",
+    "destination": "/es/hotels/mandarin-oriental-old-cataract-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hotels/sofitel-legend-old-cataract",
+    "destination": "/ja/hotels/mandarin-oriental-old-cataract-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/hotels/sofitel-pavillon-winter-luxor",
+    "destination": "/hotels/mandarin-oriental-winter-palace-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/hotels/sofitel-pavillon-winter-luxor",
+    "destination": "/es/hotels/mandarin-oriental-winter-palace-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hotels/sofitel-pavillon-winter-luxor",
+    "destination": "/ja/hotels/mandarin-oriental-winter-palace-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/hotels/grand-nile-tower-hotel-cairo",
+    "destination": "/hotels/hilton-cairo-grand-nile",
+    "permanent": true
+  },
+  {
+    "source": "/es/hotels/grand-nile-tower-hotel-cairo",
+    "destination": "/es/hotels/hilton-cairo-grand-nile",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hotels/grand-nile-tower-hotel-cairo",
+    "destination": "/ja/hotels/hilton-cairo-grand-nile",
+    "permanent": true
+  },
+  {
+    "source": "/hotels/sharm-dreams-resort-sharm-el-sheikh",
+    "destination": "/hotels/jaz-sharm-dreams-resort",
+    "permanent": true
+  },
+  {
+    "source": "/es/hotels/sharm-dreams-resort-sharm-el-sheikh",
+    "destination": "/es/hotels/jaz-sharm-dreams-resort",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hotels/sharm-dreams-resort-sharm-el-sheikh",
+    "destination": "/ja/hotels/jaz-sharm-dreams-resort",
+    "permanent": true
+  },
+  {
+    "source": "/hotels/four-seasons-resort-sharm-alsheikh",
+    "destination": "/hotels/the-four-seasons-at-sharm",
+    "permanent": true
+  },
+  {
+    "source": "/es/hotels/four-seasons-resort-sharm-alsheikh",
+    "destination": "/es/hotels/the-four-seasons-at-sharm",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hotels/four-seasons-resort-sharm-alsheikh",
+    "destination": "/ja/hotels/the-four-seasons-at-sharm",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/dusit-thani-lake-view-cairo",
+    "destination": "/hotels/dusit-thani-lake-view",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/dusit-thani-lake-view-cairo",
+    "destination": "/es/hotels/dusit-thani-lake-view",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/dusit-thani-lake-view-cairo",
+    "destination": "/ja/hotels/dusit-thani-lake-view",
+    "permanent": true
+  },
+  {
+    "source": "/guide/siwa-oasis/ghaliet-ecolodge-siwa",
+    "destination": "/hotels/ghaliet-siwa-ecolodge",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/ghaliet-ecolodge-siwa",
+    "destination": "/es/hotels/ghaliet-siwa-ecolodge",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/siwa-oasis/ghaliet-ecolodge-siwa",
+    "destination": "/ja/hotels/ghaliet-siwa-ecolodge",
+    "permanent": true
+  },
+  {
+    "source": "/guide/dakhla-oasis/shamsiya-camp-dakhla-oasis",
+    "destination": "/hotels/shamsiya-camp-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/shamsiya-camp-dakhla-oasis",
+    "destination": "/es/hotels/shamsiya-camp-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/dakhla-oasis/shamsiya-camp-dakhla-oasis",
+    "destination": "/ja/hotels/shamsiya-camp-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/dakhla-oasis/al-tabuna-camp-el-dakhla-oasis",
+    "destination": "/hotels/al-tabuna-camp-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/al-tabuna-camp-el-dakhla-oasis",
+    "destination": "/es/hotels/al-tabuna-camp-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/dakhla-oasis/al-tabuna-camp-el-dakhla-oasis",
+    "destination": "/ja/hotels/al-tabuna-camp-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/al-gouna/la-maison-bleue-el-gouna",
+    "destination": "/hotels/la-maison-bleue-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/la-maison-bleue-el-gouna",
+    "destination": "/es/hotels/la-maison-bleue-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/al-gouna/la-maison-bleue-el-gouna",
+    "destination": "/ja/hotels/la-maison-bleue-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/blog/4-day-egypt-travel-itnarary",
+    "destination": "/blog/4-day-egypt-travel-itinerary",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/4-day-egypt-travel-itnarary",
+    "destination": "/es/blog/4-day-egypt-travel-itinerary",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/4-day-egypt-travel-itnarary",
+    "destination": "/ja/blog/4-day-egypt-travel-itinerary",
+    "permanent": true
+  },
+  {
+    "source": "/blog/month-by-month-guide-to-egypt",
+    "destination": "/blog/best-time-to-visit-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/month-by-month-guide-to-egypt",
+    "destination": "/es/blog/best-time-to-visit-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/month-by-month-guide-to-egypt",
+    "destination": "/ja/blog/best-time-to-visit-egypt",
     "permanent": true
   }
 ];

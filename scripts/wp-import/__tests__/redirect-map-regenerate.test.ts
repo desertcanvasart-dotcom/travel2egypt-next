@@ -72,7 +72,9 @@ assertEq(toPathToDestination('/'), '/', 'destination root stays');
 // ── CSV round-trip ────────────────────────────────────────────────────────────
 
 const baseline = readRedirectMapCsv(REAL_CSV);
-assert(baseline.length === 128, `baseline reads 128 rows (got ${baseline.length})`);
+// The live CSV grows as redirects are added across sessions; assert it parses
+// to a non-trivial row set rather than snapshotting an exact (rotting) count.
+assert(baseline.length > 100, `baseline reads >100 rows (got ${baseline.length})`);
 
 const tmp = mkdtempSync(join(tmpdir(), 'redirect-map-test-'));
 try {
