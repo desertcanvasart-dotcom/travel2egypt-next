@@ -62,23 +62,29 @@ export function ServicesMenu() {
       </button>
 
       {open && (
-        <ul
-          role="menu"
-          className="absolute left-0 z-50 mt-2 min-w-[15rem] overflow-hidden border border-rule-strong bg-paper"
-        >
-          {SERVICE_LINKS.map(({ key, href }) => (
-            <li key={key} role="none">
-              <Link
-                href={href}
-                role="menuitem"
-                onClick={() => setOpen(false)}
-                className="block px-4 py-2.5 font-serif text-sm text-night-soft transition-colors hover:bg-limestone hover:text-night"
-              >
-                {t(key)}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        // Wrapper sits flush under the button (top-full) with a transparent
+        // pt-2 bridge so the pointer never leaves the hover region while
+        // crossing the visual gap to the menu — otherwise onMouseLeave fires
+        // and the menu vanishes before it can be clicked.
+        <div className="absolute left-0 top-full z-50 pt-2">
+          <ul
+            role="menu"
+            className="min-w-[15rem] overflow-hidden border border-rule-strong bg-paper"
+          >
+            {SERVICE_LINKS.map(({ key, href }) => (
+              <li key={key} role="none">
+                <Link
+                  href={href}
+                  role="menuitem"
+                  onClick={() => setOpen(false)}
+                  className="block px-4 py-2.5 font-serif text-sm text-night-soft transition-colors hover:bg-limestone hover:text-night"
+                >
+                  {t(key)}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       )}
     </div>
   );

@@ -320,6 +320,84 @@ export function localizedPortableTextField(
                   },
                 },
               },
+              {
+                type: 'object',
+                name: 'gallery',
+                title: 'Image Gallery',
+                fields: [
+                  defineField({
+                    name: 'images',
+                    title: 'Images',
+                    type: 'array',
+                    of: [
+                      {
+                        type: 'image',
+                        options: { hotspot: true },
+                        fields: [
+                          defineField({ name: 'alt', type: 'string' }),
+                          defineField({ name: 'caption', type: 'string' }),
+                        ],
+                      },
+                    ],
+                    validation: (Rule: any) => Rule.min(2).error('Add at least two images.'),
+                  }),
+                  defineField({
+                    name: 'columns',
+                    title: 'Columns',
+                    type: 'string',
+                    options: {
+                      list: [
+                        { title: 'Two across', value: '2' },
+                        { title: 'Three across (default)', value: '3' },
+                      ],
+                    },
+                    initialValue: '3',
+                  }),
+                ],
+                preview: {
+                  select: { images: 'images', media: 'images.0' },
+                  prepare({ images, media }: { images?: any[]; media?: any }) {
+                    const n = Array.isArray(images) ? images.length : 0;
+                    return { title: `Gallery — ${n} image${n === 1 ? '' : 's'}`, media };
+                  },
+                },
+              },
+              {
+                type: 'object',
+                name: 'operatorNote',
+                title: 'Operator note',
+                description:
+                  'Honest aside in the operator voice. Renders as a visually distinct callout.',
+                fields: [
+                  defineField({
+                    name: 'tone',
+                    title: 'Tone',
+                    type: 'string',
+                    options: {
+                      list: [
+                        { title: 'Honest take', value: 'honest' },
+                        { title: 'Watch out', value: 'caution' },
+                        { title: 'Insider tip', value: 'insider' },
+                        { title: 'Worth knowing', value: 'context' },
+                      ],
+                      layout: 'radio',
+                    },
+                    initialValue: 'honest',
+                  }),
+                  defineField({
+                    name: 'body',
+                    title: 'Note',
+                    type: 'array',
+                    of: [{ type: 'block', styles: [{ title: 'Paragraph', value: 'normal' }] }],
+                  }),
+                ],
+                preview: {
+                  select: { tone: 'tone' },
+                  prepare({ tone }: { tone?: string }) {
+                    return { title: `Operator note — ${tone ?? 'honest'}` };
+                  },
+                },
+              },
             ],
           }),
         ],

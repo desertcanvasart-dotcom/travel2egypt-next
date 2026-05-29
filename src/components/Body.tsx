@@ -124,6 +124,36 @@ export function Body({ value, locale }: BodyProps) {
           </figure>
         );
       },
+      gallery: ({ value }) => {
+        const images = (Array.isArray(value?.images) ? value.images : []).filter(
+          (img: any) => img?.asset?._ref,
+        );
+        if (images.length === 0) return null;
+        const columns = value?.columns === '2' ? '2' : '3';
+        const gridClass =
+          columns === '2'
+            ? 'sm:grid-cols-2'
+            : 'sm:grid-cols-2 md:grid-cols-3';
+        return (
+          <div className={`my-10 grid grid-cols-1 gap-3 ${gridClass}`}>
+            {images.map((img: any, i: number) => {
+              const url = urlFor(img).width(800).quality(85).url();
+              const alt = readLocalized(img.alt, locale);
+              const caption = readLocalized(img.caption, locale);
+              return (
+                <figure key={img._key ?? i} className="m-0">
+                  <Image src={url} alt={alt} width={800} height={600} sizes="(max-width: 640px) 100vw, 33vw" />
+                  {caption && (
+                    <figcaption className="mt-2 font-serif text-xs italic text-night-soft">
+                      {caption}
+                    </figcaption>
+                  )}
+                </figure>
+              );
+            })}
+          </div>
+        );
+      },
       operatorNote: ({ value }) => {
         const tone = (value.tone as keyof (typeof OPERATOR_NOTE_LABELS)['en']) || 'honest';
         const label = OPERATOR_NOTE_LABELS[locale]?.[tone] ?? '';
