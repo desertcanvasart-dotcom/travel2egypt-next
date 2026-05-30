@@ -5,6 +5,8 @@ import {
   LinkIcon,
 } from '@sanity/icons';
 
+import { localizedPortableTextField } from './_helpers';
+
 export const trustBadgeSchema = defineType({
   name: 'trustBadge',
   title: 'Trust badge',
@@ -67,8 +69,17 @@ export const siteSettingsSchema = defineType({
     { name: 'sisterBrands', title: 'Sister brands' },
     { name: 'trust', title: 'Trust' },
     { name: 'contact', title: 'Contact' },
+    { name: 'guide', title: 'Guide page' },
   ],
   fields: [
+    defineField({
+      ...localizedPortableTextField('guideIntro', {
+        title: 'Guide page intro',
+        description:
+          'Editorial intro shown above the region/city grid on the /guide landing page. Per-locale; falls back to English where a locale is empty.',
+        group: 'guide',
+      }),
+    } as any),
     defineField({
       name: 'siteName',
       title: 'Site name',

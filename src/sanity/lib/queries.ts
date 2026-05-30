@@ -1202,6 +1202,14 @@ export const siteSettingsQuery = (locale: Locale) => groq`
   }
 `;
 
+// Guide landing intro — editorial copy stored on the siteSettings singleton,
+// rendered above the region/city grid on /guide. Coalesces to English.
+export const guideIntroQuery = (locale: Locale) => groq`
+  *[_type == "siteSettings"][0]{
+    "guideIntro": ${portableTextBodyProjection('guideIntro', locale)}
+  }
+`;
+
 // ──────────────────────────────────────────────
 // Slug discovery (for static generation)
 // ──────────────────────────────────────────────

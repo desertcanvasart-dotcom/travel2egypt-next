@@ -2,13 +2,14 @@ import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 
+import { Body } from '@/components/Body';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
-import { allCitiesQuery } from '@/sanity/lib/queries';
+import { allCitiesQuery, guideIntroQuery } from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
 import { buildBreadcrumbList } from '@/lib/structured-data';
 
@@ -49,6 +50,8 @@ export default async function GuideLandingPage({ params }: Props) {
   const tNav = await getTranslations('nav');
 
   const cities = await client.fetch(allCitiesQuery(locale as Locale));
+  const settings = await client.fetch(guideIntroQuery(locale as Locale));
+  const guideIntro = settings?.guideIntro as any[] | undefined;
 
   const breadcrumbItems = [
     { label: tNav('home'), href: '/' },
@@ -92,6 +95,12 @@ export default async function GuideLandingPage({ params }: Props) {
           {t('landingDeck')}
         </p>
       </header>
+
+      {guideIntro && guideIntro.length > 0 && (
+        <div className="prose-editorial mb-16 max-w-3xl">
+          <Body value={guideIntro} locale={locale as Locale} />
+        </div>
+      )}
 
       {cities && cities.length > 0 ? (
         <div className="space-y-16">
