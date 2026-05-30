@@ -87,7 +87,7 @@ export default async function GuideLandingPage({ params }: Props) {
     <div className="mx-auto max-w-7xl px-6 py-20">
       <JsonLd data={breadcrumbSchema} />
       <Breadcrumb items={breadcrumbItems} className="mb-8" />
-      <header className="mb-16 max-w-3xl">
+      <header className="mx-auto mb-16 max-w-3xl">
         <h1 className="mb-6 font-serif text-5xl font-medium leading-tight text-ink">
           {t('landingTitle')}
         </h1>
@@ -97,7 +97,7 @@ export default async function GuideLandingPage({ params }: Props) {
       </header>
 
       {guideIntro && guideIntro.length > 0 && (
-        <div className="prose-editorial mb-16 max-w-3xl">
+        <div className="prose-editorial mx-auto mb-16 max-w-3xl">
           <Body value={guideIntro} locale={locale as Locale} />
         </div>
       )}
