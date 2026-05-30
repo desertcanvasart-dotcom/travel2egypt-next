@@ -5633,6 +5633,3956 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/es/02-day-luxor-tour-by-plane-from-cairo",
+    "destination": "/es/luxor-en-avion-desde-el-cairo-tour-de-dos-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/10-day-egypt-group-tour-cairo-nile-red-sea",
+    "destination": "/es/egipto-en-equilibrio-el-cairo-el-nilo-y-el-mar-rojo-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/11-day-egypt-group-tour-cairo-red-sea-nile",
+    "destination": "/es/egipto-sin-prisa-el-cairo-el-mar-rojo-y-el-nilo-en-11-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
+    "destination": "/es/dos-dias-de-luxor-a-abu-simbel-con-una-noche-por-medio",
+    "permanent": true
+  },
+  {
+    "source": "/es/2-day-nubian-desert-nature-wildlife-retreat",
+    "destination": "/es/dos-dias-en-el-desierto-nubio-un-retiro-silencioso-cerca-del-lago-nasser",
+    "permanent": true
+  },
+  {
+    "source": "/es/4-days-white-desert-wadi-al-hittan-exploration",
+    "destination": "/es/desierto-blanco-y-wadi-al-hitan-en-cuatro-dias-del-fayum-a-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/7-days-dahabiya-nile-cruise-from-aswan-to-luxor",
+    "destination": "/es/de-asuan-a-luxor-en-dahabiya-siete-dias-rio-abajo",
+    "permanent": true
+  },
+  {
+    "source": "/es/7-days-luxor-to-aswan-dahabiya-cruise",
+    "destination": "/es/la-malouka-rio-arriba-siete-dias-de-luxor-a-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/7-days-luxury-dahabiya-cruise-on-the-nile",
+    "destination": "/es/el-nil-elegance-siete-dias-de-luxor-a-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/7-days-luxury-dahabiya-nile-cruise",
+    "destination": "/es/la-meroe-siete-dias-en-el-nilo-de-luxor-a-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/7-days-of-splendor-exploring-the-nile-on-a-roman-dahabiya",
+    "destination": "/es/siete-dias-en-el-nilo-de-luxor-a-asuan-a-bordo-de-la-roman",
+    "permanent": true
+  },
+  {
+    "source": "/es/8-days-best-of-egypt-tour-package",
+    "destination": "/es/lo-mejor-de-egipto-en-8-dias-el-cairo-abu-simbel-el-nilo-y-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/9-day-egypt-group-tour-cairo-abu-simbel-nile",
+    "destination": "/es/egipto-en-armonia-el-cairo-abu-simbel-y-el-nilo-en-9-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/abu-simbel-temples-day-tour-from-aswan",
+    "destination": "/es/excursion-en-grupo-a-abu-simbel-desde-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/abu-simble-by-plane-from-aswan",
+    "destination": "/es/abu-simbel-en-avion-desde-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/adelaide-dahabiya-nile-cruise",
+    "destination": "/es/la-adelaide-siete-dias-en-el-nilo-entre-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/agatha-dahabiya-journey-along-the-nile",
+    "destination": "/es/la-agatha-siete-dias-en-el-nilo-de-luxor-a-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+    "destination": "/es/alejandria-desde-el-cairo-catacumbas-columna-y-ciudad-grecorromana",
+    "permanent": true
+  },
+  {
+    "source": "/es/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "destination": "/es/tour-de-dia-desde-alejandria-a-el-cairo-piramides-museo-y-jan-el-jalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/aqua-park-cleo-park",
+    "destination": "/es/cleo-park-hadaba-una-jornada-completa-en-el-parque-acuatico-de-sharm",
+    "permanent": true
+  },
+  {
+    "source": "/es/aswan-airport-transfer",
+    "destination": "/es/traslado-privado-desde-el-aeropuerto-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/aswan-city-tour-from-marsa-alam",
+    "destination": "/es/excursion-a-asuan-desde-marsa-alam-obelisco-inacabado-presa-alta-y-templo-de-file",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-alexandria-city-break-5-days",
+    "destination": "/es/el-cairo-y-alejandria-en-5-dias-dos-ciudades-dos-costas",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-by-bus-group-day-tour-from-hurghada",
+    "destination": "/es/el-cairo-en-autobus-desde-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-dinner-cruise-with-belly-dancing-show",
+    "destination": "/es/cena-crucero-por-el-nilo-en-el-cairo-con-danza-oriental",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-sky-adventure",
+    "destination": "/es/cairo-sky-adventure-helicoptero-sobre-las-piramides-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-weekend-city-break-2-nights-3-days",
+    "destination": "/es/escapada-de-fin-de-semana-a-el-cairo-3-dias-en-la-capital",
+    "permanent": true
+  },
+  {
+    "source": "/es/dahab-blue-hole-desert-snorkel-group-day-tour-from-sharm",
+    "destination": "/es/dahab-wadi-qunai-y-blue-hole-desde-sharm-el-sheij-desierto-y-snorquel-en-grupo",
+    "permanent": true
+  },
+  {
+    "source": "/es/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "destination": "/es/karnak-templo-de-luxor-y-museo-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "destination": "/es/templos-de-dendera-y-abidos-desde-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/dendera-and-abydos-temples-day-tour",
+    "destination": "/es/tour-de-dia-por-los-templos-de-dendera-y-abidos-desde-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/dendera-and-abydos-temples-from-al-gouna",
+    "destination": "/es/templos-de-dendera-y-abidos-tour-privado-de-dia-completo-desde-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
+    "destination": "/es/dos-dias-desde-el-cairo-al-desierto-occidental-bahariya-negro-y-blanco",
+    "permanent": true
+  },
+  {
+    "source": "/es/desert-quad-bike-safari-to-bedouin-village-from-hurghada",
+    "destination": "/es/safari-en-quad-a-una-aldea-beduina-desde-hurgada",
+    "permanent": true
+  },
+  {
+    "source": "/es/diving-sea-trip-in-sharm-el-sheikh",
+    "destination": "/es/dia-de-snorkel-privado-en-sharm-el-sheij-arrecifes-del-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/dolphin-house-shared-snorkeling-day-from-hurghada",
+    "destination": "/es/dolphin-house-desde-hurghada-snorquel-compartido-en-yate",
+    "permanent": true
+  },
+  {
+    "source": "/es/dolphin-show-sharm-el-sheikh",
+    "destination": "/es/espectaculo-de-delfines-en-sharm-el-sheij-que-esperar",
+    "permanent": true
+  },
+  {
+    "source": "/es/dolphins-dance-group-shared-seas-full-day-snorkeling-tour",
+    "destination": "/es/el-baile-de-los-delfines-jornada-compartida-de-snorkel-desde-hurgada",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-and-the-red-sea-paradise",
+    "destination": "/es/egipto-y-el-mar-rojo-en-12-dias-el-cairo-el-nilo-luxor-asuan-y-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/egyptian-museum-citadel-and-khan-el-khalili-bazaar",
+    "destination": "/es/el-cairo-en-un-dia-museo-egipcio-ciudadela-y-jan-el-jalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "destination": "/es/templos-de-esna-edfu-y-kom-ombo-desde-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/fayoum-meidum-hawara-pyramids-group-day-tour",
+    "destination": "/es/fayoum-meidum-y-hawara-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/gateway-to-the-past-luxor-airport-transfer",
+    "destination": "/es/traslado-privado-desde-el-aeropuerto-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/giftun-island-shared-snorkeling-day-from-hurghada",
+    "destination": "/es/islas-giftun-desde-hurghada-dia-de-snorquel-compartido-en-yate",
+    "permanent": true
+  },
+  {
+    "source": "/es/grand-west-bank-group-day-tour-luxor",
+    "destination": "/es/la-gran-orilla-occidental-de-luxor-excursion-en-grupo",
+    "permanent": true
+  },
+  {
+    "source": "/es/group-snorkeling-adventure-in-marsa-alam",
+    "destination": "/es/dia-de-snorkel-privado-en-marsa-alam-arrecifes-del-mar-rojo-en-yate",
+    "permanent": true
+  },
+  {
+    "source": "/es/hurghada-airport-transfer",
+    "destination": "/es/traslado-privado-desde-el-aeropuerto-de-hurgada-al-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/es/hurghada-dolphin-show-tickets-and-transfer-from-hurghada",
+    "destination": "/es/espectaculo-de-delfines-en-hurgada-entrada-y-traslado-al-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/es/hurghada-quad-bike-tour",
+    "destination": "/es/safari-por-el-desierto-de-hurgada-quads-camellos-y-estrellas-con-beduinos",
+    "permanent": true
+  },
+  {
+    "source": "/es/islamic-cairo-day-tour",
+    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/jerusalem-dead-sea-bethlehem-group-day-tour-from-sharm",
+    "destination": "/es/jerusalen-mar-muerto-y-belen-desde-sharm-el-sheij-excursion-en-grupo",
+    "permanent": true
+  },
+  {
+    "source": "/es/luxor-day-tour-from-hurghadafull-day",
+    "destination": "/es/luxor-dia-completo-desde-hurgada-templos-tumbas-y-la-orilla-occidental",
+    "permanent": true
+  },
+  {
+    "source": "/es/luxor-highlights-group-day-tour-from-hurghada",
+    "destination": "/es/lo-esencial-de-luxor-desde-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/marriott-mena-house-4-days-stay",
+    "destination": "/es/retiro-real-4-dias-en-el-marriott-mena-house",
+    "permanent": true
+  },
+  {
+    "source": "/es/marsa-alam-to-cairo-full-day-tour-by-plane",
+    "destination": "/es/el-cairo-en-avion-desde-marsa-alam-dia-completo",
+    "permanent": true
+  },
+  {
+    "source": "/es/memphis-saqqara-and-dahshur-group-day-tour",
+    "destination": "/es/menfis-saqqara-y-dahshur-en-grupo-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/mount-sinai-and-st-catherine-full-day-tour-from-sharm",
+    "destination": "/es/de-sharm-el-sheij-al-monte-sinai-y-santa-catalina-dia-completo",
+    "permanent": true
+  },
+  {
+    "source": "/es/mount-sinai-pilgrimage-2-day-trip-to-saint-catherine-from-cairo",
+    "destination": "/es/dos-dias-desde-el-cairo-al-monte-sinai-y-a-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/mount-sinai-sunrise-trek-group-day-tour",
+    "destination": "/es/ascenso-al-amanecer-al-monte-sinai-y-monasterio-de-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/nmec-royal-mummies-old-cairo",
+    "destination": "/es/dia-patrimonial-en-el-cairo-nmec-momias-reales-y-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/es/nubian-life-private-nubian-village-and-nile-tour-with-motor-boat",
+    "destination": "/es/vida-nubia-visita-privada-en-lancha-a-un-pueblo-nubio-desde-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/nubian-temples-day-tour-from-aswan",
+    "destination": "/es/templos-nubios-desde-asuan-kalabsha-beit-el-wali-y-kertassi",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-day-trip-to-memphis-saqqara-and-dahshur-from-alexandria",
+    "destination": "/es/menfis-saqqara-y-dahshur-una-jornada-completa-desde-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-abu-simble-by-bus-from-aswan",
+    "destination": "/es/abu-simbel-por-carretera-desde-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-memphis-saqqara-citadel-and-khan-el-khalili-bazaar",
+    "destination": "/es/menfis-saqqara-la-ciudadela-y-jan-el-jalili-un-tour-de-dia-por-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "destination": "/es/piramides-esfinge-museo-egipcio-y-jan-el-jalili-un-dia-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+    "destination": "/es/guiza-menfis-y-saqqara-las-millas-mas-antiguas-de-egipto-en-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-transfer-from-aswan-to-luxor-by-bus",
+    "destination": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-transfer-from-luxor-to-aswan-by-bus",
+    "destination": "/es/traslado-privado-de-luxor-a-asuan-con-paradas",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-transfer-from-luxor-to-hurghada-by-bus",
+    "destination": "/es/traslado-privado-de-luxor-a-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/pyramids-of-giza-and-sphinx-group-day-tour",
+    "destination": "/es/piramides-de-guiza-y-esfinge-excursion-en-grupo",
+    "permanent": true
+  },
+  {
+    "source": "/es/ramasside-tours-desert-adventure-snorkeling-experience",
+    "destination": "/es/de-sharm-a-dahab-un-dia-entre-el-desierto-del-sinai-y-el-blue-hole",
+    "permanent": true
+  },
+  {
+    "source": "/es/royal-sea-scope",
+    "destination": "/es/royal-sea-scope-tour-en-semisubmarino-por-el-mar-rojo-desde-sharm-el-sheij",
+    "permanent": true
+  },
+  {
+    "source": "/es/royal-seascope-submarine-hurghada",
+    "destination": "/es/semisubmarino-royal-seascope-en-hurgada-bajo-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/sataya-reef-marsa-alam-dolphin-house",
+    "destination": "/es/arrecife-de-sataya-y-dolphin-house-desde-marsa-alam-un-dia-en-el-mar",
+    "permanent": true
+  },
+  {
+    "source": "/es/sharm-el-sheikh-airport-transfer",
+    "destination": "/es/traslado-desde-el-aeropuerto-de-sharm-el-sheij-llegadas-resueltas",
+    "permanent": true
+  },
+  {
+    "source": "/es/sound-light-show-at-karnak-temple-in-luxor",
+    "destination": "/es/luz-y-sonido-en-karnak",
+    "permanent": true
+  },
+  {
+    "source": "/es/sufi-dance-tanoura-show-in-the-wikala-of-el-ghoury",
+    "destination": "/es/tanoura-en-wekalet-el-ghuri-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/swimming-with-dolphins",
+    "destination": "/es/nadar-con-delfines-en-sharm-el-sheij",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-pearl-of-red-sea-hurghada",
+    "destination": "/es/hurghada-y-el-mar-rojo-en-8-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-white-desert-and-djara-cave",
+    "destination": "/es/el-interior-del-desierto-cinco-dias-de-bahariya-a-la-cueva-de-djara",
+    "permanent": true
+  },
+  {
+    "source": "/es/transfer-from-cairo-airport-to-hotel",
+    "destination": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/es/transfer-from-hotel-to-airport",
+    "destination": "/es/traslado-privado-del-hotel-al-aeropuerto-de-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-giza-sound-and-light-show-experience",
+    "destination": "/es/el-espectaculo-de-luz-y-sonido-de-guiza-una-velada-en-las-piramides",
+    "permanent": true
+  },
+  {
+    "source": "/es/12-day-amazing-family-vacation-in-egypt",
+    "destination": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/14-day-egypt-luxury-family-holiday",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/9-day-classic-egypt-family-adventure",
+    "destination": "/es/viaje-familiar-clasico-por-egipto-en-9-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/aswan-to-el-kab-and-edfu-temple-tour",
+    "destination": "/es/de-asuan-a-el-kab-y-edfu-un-dia-entre-la-dinastia-xviii-y-el-ultimo-templo-en-funcionamiento",
+    "permanent": true
+  },
+  {
+    "source": "/es/aswan-felucca-adventure",
+    "destination": "/es/faluca-por-el-nilo-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/3-day-siwa-journey-from-alexandria",
+    "destination": "/es/tres-dias-de-alejandria-a-siwa-costa-guerra-del-desierto-oraculo",
+    "permanent": true
+  },
+  {
+    "source": "/es/semi-submarine-adventure-in-marsa-alam",
+    "destination": "/es/semisubmarino-en-marsa-alam-el-mar-rojo-al-otro-lado-del-cristal",
+    "permanent": true
+  },
+  {
+    "source": "/es/snorkeling-adventure-on-the-nefertari-submarine",
+    "destination": "/es/atardecer-snorkel-y-submarino-nefertari-port-ghalib",
+    "permanent": true
+  },
+  {
+    "source": "/es/nefertari-submarine-adventure-and-sunset-dinner-cruise-from-marsa-alam",
+    "destination": "/es/submarino-nefertari-y-crucero-con-comida-desde-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/sacred-sands-unveiling-dendera-and-abydos-from-hurghada",
+    "destination": "/es/dendera-y-abidos-desde-hurgada-dia-completo-de-templos",
+    "permanent": true
+  },
+  {
+    "source": "/es/exclusive-chartered-experience-private-boat-journey-to-orange-bay",
+    "destination": "/es/una-jornada-fletada-hasta-bahia-naranja-barco-privado-parque-nacional-de-giftun-su-ritmo",
+    "permanent": true
+  },
+  {
+    "source": "/es/safaga-to-luxor-full-day-ancient-city-exploration",
+    "destination": "/es/de-safaga-a-luxor-dia-completo-entre-templos-tumbas-y-colosos",
+    "permanent": true
+  },
+  {
+    "source": "/es/3-day-nubian-fishing-safari",
+    "destination": "/es/tres-dias-en-el-lago-nasser-un-safari-nubio-de-pesca",
+    "permanent": true
+  },
+  {
+    "source": "/es/2-day-desert-nature-wildlife-retreat",
+    "destination": "/es/2-day-nubian-desert-nature-wildlife-retreat",
+    "permanent": true
+  },
+  {
+    "source": "/es/4-day-ultimate-lake-nasser-experience",
+    "destination": "/es/cuatro-dias-en-el-lago-nasser-pesca-desierto-y-los-templos-rescatados",
+    "permanent": true
+  },
+  {
+    "source": "/es/5-day-the-obeiyed-cave-safari-tour",
+    "destination": "/es/el-desierto-occidental-en-sus-propios-terminos-safari-privado-de-cinco-dias-a-la-cueva-de-el-obeiyed",
+    "permanent": true
+  },
+  {
+    "source": "/es/skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+    "destination": "/es/globo-al-amanecer-en-luxor-media-hora-sobre-la-orilla-occidental",
+    "permanent": true
+  },
+  {
+    "source": "/es/luxor-full-day-excursion-from-marsa-alam",
+    "destination": "/es/excursion-de-dia-completo-a-luxor-desde-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
+    "destination": "/es/egipto-en-7-dias-el-cairo-crucero-por-el-nilo-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/7-days-in-egypt-pyramids-temples-and-timeless-wonders",
+    "destination": "/es/siete-dias-en-egipto-el-cairo-alejandria-asuan-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/4-day-history-culture-escape",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/es/overnight-sataya-dolphin-reef-safari",
+    "destination": "/es/safari-con-pernocta-en-shaab-sataya-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/desert-horizons-7-day-bahariya-siwa-oasis-tour",
+    "destination": "/es/bahariya-y-siwa-en-siete-dias-el-desierto-occidental-de-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/fayoum-desert-adventure",
+    "destination": "/es/desierto-de-fayum-dos-dias-entre-wadi-al-hitan-wadi-al-rayan-y-el-lago-qarun",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-and-alexandria-4-days-family-package",
+    "destination": "/es/cuatro-dias-para-familias-el-cairo-y-alejandria-con-calma",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-and-nile-cruise-8-day-family-package",
+    "destination": "/es/ocho-dias-para-familias-el-cairo-y-crucero-por-el-nilo-bien-acompasado",
+    "permanent": true
+  },
+  {
+    "source": "/es/pyramids-of-giza-and-grand-egyptian-museum",
+    "destination": "/es/piramides-de-guiza-y-gran-museo-egipcio-tour-privado-de-dia",
+    "permanent": true
+  },
+  {
+    "source": "/es/15-day-nile-cruise-and-hurghada-tour",
+    "destination": "/es/crucero-por-el-nilo-y-hurghada-en-15-dias-luxor-asuan-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/11-day-the-splendor-of-egypt-tour",
+    "destination": "/es/el-esplendor-de-egipto-en-11-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/8-days-egypt-panorama-tour",
+    "destination": "/es/panorama-de-egipto-en-8-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/4-days-city-break",
+    "destination": "/es/escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-elegant-cairo-4-days-tour",
+    "destination": "/es/el-cairo-elegante-4-dias-entre-la-ciudad-antigua-y-la-ciudad-viva",
+    "permanent": true
+  },
+  {
+    "source": "/es/9-days-egypt-prestigious-vacation",
+    "destination": "/es/egipto-prestigioso-en-9-dias-luxor-el-nilo-asuan-y-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-egypt-royal-vacation-tour",
+    "destination": "/es/vacacion-real-en-egipto-10-dias-entre-asuan-el-nilo-y-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/8-days-ultimate-trip-to-sharm-el-sheikh",
+    "destination": "/es/sharm-el-sheij-en-8-dias-mar-rojo-arrecifes-y-costa-desertica",
+    "permanent": true
+  },
+  {
+    "source": "/es/14-night-nile-cruise-and-hurghada-stay",
+    "destination": "/es/crucero-por-el-nilo-de-14-dias-y-estancia-en-hurghada-luxor-asuan-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/10-days-unforgettable-egypt-tour",
+    "destination": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/es/luxor-day-tour-from-al-gouna",
+    "destination": "/es/luxor-en-un-dia-desde-el-gouna-templos-tumbas-y-la-orilla-oeste",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-alexandria-day-tour",
+    "destination": "/es/tour-privado-de-dia-completo-en-alejandria-lo-que-la-ciudad-guarda-en-realidad",
+    "permanent": true
+  },
+  {
+    "source": "/es/aswan-private-car-and-guide",
+    "destination": "/es/asuan-con-coche-privado-y-guia",
+    "permanent": true
+  },
+  {
+    "source": "/es/full-day-trip-to-cairo-by-plane-from-sharm-el-sheikh",
+    "destination": "/es/dia-completo-a-el-cairo-en-avion-desde-sharm-el-sheij",
+    "permanent": true
+  },
+  {
+    "source": "/es/quad-bike-tour-at-sunset-sharm-el-sheikh",
+    "destination": "/es/tour-en-quad-al-atardecer-en-sharm-el-sheij-desierto-dunas-y-cultura-beduina",
+    "permanent": true
+  },
+  {
+    "source": "/es/egyptian-museum-and-bazaar-tour",
+    "destination": "/es/el-cairo-en-un-dia-museo-egipcio-cairo-copto-y-jan-el-jalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-memphis-saqqara-and-dahshur",
+    "destination": "/es/menfis-saqqara-y-dahshur-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-memphis-and-saqqara",
+    "destination": "/es/menfis-saqqara-y-el-cairo-islamico",
+    "permanent": true
+  },
+  {
+    "source": "/es/full-day-trip-to-luxor-by-plane-from-cairo",
+    "destination": "/es/luxor-en-avion-desde-el-cairo-en-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/es/minya-day-tour",
+    "destination": "/es/minia-en-un-dia-desde-el-cairo-beni-hassan-hermopolis-y-amarna",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-private-car-and-guide",
+    "destination": "/es/coche-privado-y-guia-en-el-cairo-arma-tu-propia-ruta",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-the-grand-old-cairo-tour",
+    "destination": "/es/tour-privado-la-gran-jornada-por-el-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/es/giza-pyramids-the-citadel-cairo-bazaar-day-tour",
+    "destination": "/es/piramides-de-guiza-mezquitas-de-la-ciudadela-y-jan-el-jalili-un-dia-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/2-day-tour-to-al-minya-from-cairo",
+    "destination": "/es/minia-en-dos-dias-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/fayoum-oasis-including-pyramids-of-meydum-hawara",
+    "destination": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-grand-islamic-day-tour",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/es/8-day-cairo-and-egypt-desert-safari",
+    "destination": "/es/arenas-del-tiempo-ocho-dias-de-el-cairo-al-desierto-occidental",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-2-day-trip-to-alexandria-from-cairo",
+    "destination": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "permanent": true
+  },
+  {
+    "source": "/es/pyramids-of-giza-and-sphinx",
+    "destination": "/es/piramides-de-guiza-la-esfinge-y-el-cairo-antiguo-tour-privado-de-dia",
+    "permanent": true
+  },
+  {
+    "source": "/es/esna-temple-and-el-kab-day-tour-from-luxor",
+    "destination": "/es/esna-y-el-kab-desde-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/luxor-private-car-and-guide",
+    "destination": "/es/coche-privado-y-guia-en-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-full-day-to-grand-west-bank",
+    "destination": "/es/gran-orilla-occidental-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/full-day-trip-to-cairo-by-plane-from-luxor",
+    "destination": "/es/el-cairo-en-avion-desde-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-transfer-from-luxor-to-marsa-alam-by-car",
+    "destination": "/es/traslado-privado-de-luxor-a-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-ultimate-luxor-day-tour",
+    "destination": "/es/el-gran-tour-de-luxor-en-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/es/dendera-and-abydos-temples-from-luxor",
+    "destination": "/es/dendera-y-abidos-desde-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/day-tour-to-esna-edfu-kom-ombo-from-luxor",
+    "destination": "/es/esna-edfu-y-kom-ombo-desde-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-karnak-temple-luxor-temple",
+    "destination": "/es/karnak-y-templo-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-local-market-with-horse-carriage",
+    "destination": "/es/calesa-y-mercado-local-en-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-day-tour-to-alexandria-from-cairo",
+    "destination": "/es/tour-privado-a-alejandria-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-kab-and-esna-temple-day-tour-from-aswan",
+    "destination": "/es/el-kab-y-esna-desde-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/4wd-desert-safari-dinner-and-show-from-hurghada",
+    "destination": "/es/safari-por-el-desierto-desde-hurgada-4x4-cena-beduina-y-espectaculo-sufi",
+    "permanent": true
+  },
+  {
+    "source": "/es/sindbad-submarine-red-sea-tour-from-hurghada",
+    "destination": "/es/submarino-sindbad-en-hurgada-una-inmersion-real-bajo-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/dolphin-full-day-snorkeling-tour-from-hurghada",
+    "destination": "/es/snorkel-privado-con-delfines-dia-completo-desde-hurgada",
+    "permanent": true
+  },
+  {
+    "source": "/es/giftun-island-snorkeling-day-trip-from-hurghada",
+    "destination": "/es/snorkel-en-la-isla-giftun-dia-completo-desde-hurgada",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-transfer-from-hurghada-to-luxor",
+    "destination": "/es/traslado-privado-de-hurgada-a-luxor-dos-ciudades-una-carretera",
+    "permanent": true
+  },
+  {
+    "source": "/es/full-day-trip-to-cairo-by-plane-from-hurghada",
+    "destination": "/es/el-cairo-en-avion-desde-hurgada-piramides-ciudadela-y-bazar",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-aswan-bird-watching-tour",
+    "destination": "/es/avistamiento-de-aves-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/aswan-full-day-city-tour",
+    "destination": "/es/asuan-en-un-dia-alta-presa-philae-y-obelisco-inacabado",
+    "permanent": true
+  },
+  {
+    "source": "/es/nubian-museum-local-market-tour-in-aswan",
+    "destination": "/es/museo-nubio-y-mercado-local-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-tour-sound-light-show-at-philae-temple",
+    "destination": "/es/luz-y-sonido-en-el-templo-de-philae",
+    "permanent": true
+  },
+  {
+    "source": "/es/kom-ombo-and-edfu-temples-day-tour-from-aswan",
+    "destination": "/es/kom-ombo-y-edfu-desde-asuan-hasta-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/luxor-personalized-vacation",
+    "destination": "/es/retiro-privado-en-luxor-8-dias-en-la-ciudad-de-los-templos",
+    "permanent": true
+  },
+  {
+    "source": "/es/10-day-marvelous-abu-simbel-ancient-egypt-tour",
+    "destination": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/secret-sanctuaries-13-day-mysterious-oases-and-the-nile-tour",
+    "destination": "/es/oasis-y-nilo-en-13-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/10-day-nile-and-western-desert-tour",
+    "destination": "/es/nilo-y-desierto-occidental-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-romantic-egypt-tour",
+    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/11-day-nile-cruise-from-luxor-to-cairo",
+    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/11-day-explore-egypt-and-red-sea-tour",
+    "destination": "/es/egipto-y-el-mar-rojo-en-11-dias-luxor-el-nilo-el-cairo-y-sharm-el-sheij",
+    "permanent": true
+  },
+  {
+    "source": "/es/10-days-the-splendid-minya-tour",
+    "destination": "/es/el-minya-y-el-sur-profundo-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/tour-of-egypt",
+    "destination": "/es/gran-tour-privado-de-egipto-en-18-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/10-days-nile-dreamer-tour-experience",
+    "destination": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
+    "permanent": true
+  },
+  {
+    "source": "/es/white-desert-wonders-4-day-cairo-and-white-desert-tour",
+    "destination": "/es/el-cairo-y-el-desierto-blanco-cuatro-dias-de-las-piramides-a-la-tiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/9-day-egypt-bird-watching-adventure",
+    "destination": "/es/corredor-egipcio-viaje-privado-de-observacion-de-aves-de-nueve-dias-de-el-cairo-a-las-cataratas",
+    "permanent": true
+  },
+  {
+    "source": "/es/8-day-egypt-golf-tour",
+    "destination": "/es/fairways-y-faraones-viaje-privado-de-golf-en-egipto-en-ocho-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/10-days-felucca-journey-through-egypt",
+    "destination": "/es/velas-en-el-nilo-viaje-privado-de-diez-dias-en-faluca-de-asuan-a-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-holy-family-trip-in-egypt",
+    "destination": "/es/la-ruta-de-la-sagrada-familia-quince-dias-por-el-egipto-copto-y-el-nilo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/es/the-great-pharaohs-and-white-desert",
+    "destination": "/es/faraones-y-desierto-blanco-viaje-privado-de-seis-dias-de-el-cairo-al-sahara",
+    "permanent": true
+  },
+  {
+    "source": "/es/13-day-impressive-egypt-tour",
+    "destination": "/es/egipto-impresionante-en-13-dias-el-cairo-el-nilo-luxor-sinai-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/essential-egypt",
+    "destination": "/es/egipto-esencial-en-8-dias-el-cairo-alejandria-asuan-y-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-and-the-nile-tour",
+    "destination": "/es/legado-de-los-faraones-egipto-y-el-nilo-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/aswan-personalized-vacation",
+    "destination": "/es/asuan-a-medida-retiro-privado-de-8-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-and-nile-cruise-tour",
+    "destination": "/es/el-cairo-y-el-nilo-en-8-dias-piramides-rio-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/13-day-nile-cruise-from-cairo-to-luxor",
+    "destination": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/14-day-long-nile-cruise-aswan-cairo",
+    "destination": "/es/crucero-de-14-dias-por-el-nilo-de-asuan-a-el-cairo-por-el-rio",
+    "permanent": true
+  },
+  {
+    "source": "/es/15-day-ultimate-nile-cruise-from-cairo-to-aswan",
+    "destination": "/es/grandeza-del-nilo-en-15-dias-de-el-cairo-a-asuan-por-el-rio",
+    "permanent": true
+  },
+  {
+    "source": "/es/15-day-luxor-nile-cruise-vacation",
+    "destination": "/es/vacaciones-de-15-dias-en-luxor-y-crucero-por-el-nilo-luxor-el-nilo-y-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/4-days-cruise-from-aswan-to-luxor",
+    "destination": "/es/crucero-de-4-dias-por-el-nilo-de-asuan-a-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/5-day-river-cruise-from-luxor",
+    "destination": "/es/crucero-fluvial-de-5-dias-por-el-nilo-de-luxor-a-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/8-day-luxor-to-luxor-cruise",
+    "destination": "/es/crucero-de-8-dias-por-el-nilo-de-luxor-a-luxor-templos-tumbas-y-rio",
+    "permanent": true
+  },
+  {
+    "source": "/es/5-day-lake-nasser-cruise-from-aswan",
+    "destination": "/es/crucero-de-5-dias-por-el-lago-nasser-desde-asuan-templos-de-las-tierras-sumergidas",
+    "permanent": true
+  },
+  {
+    "source": "/es/4-days-lake-nasser-cruise-from-abu-simbel",
+    "destination": "/es/explorador-del-lago-nasser-crucero-de-4-dias-de-abu-simbel-a-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/11-day-cairo-and-nile-cruise-round-trip",
+    "destination": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/the-great-temple-of-abu-simbel",
+    "destination": "/es/guide/abu-simbel/el-gran-templo-de-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/tours-in-abu-simbel",
+    "destination": "/es/guide/abu-simbel/tours-y-excursiones-a-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/ancient-city-of-pelusium",
+    "destination": "/es/guide/al-arish/la-antigua-ciudad-de-pelusio",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/bardawil-lake",
+    "destination": "/es/guide/al-arish/lago-bardawil",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/protected-area-of-zaranik",
+    "destination": "/es/guide/al-arish/el-area-protegida-de-zaranik",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/the-mosque-of-qaitbey-in-al-fayoum",
+    "destination": "/es/guide/al-fayoum/la-mezquita-de-qaitbay-en-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/wadi-al-hittan",
+    "destination": "/es/guide/al-fayoum/wadi-al-hitan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/tawila-island",
+    "destination": "/es/guide/al-gouna/isla-tawila",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/zeytouna-beach",
+    "destination": "/es/guide/al-gouna/zeytuna-beach",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/port-of-myos-hormos",
+    "destination": "/es/guide/al-quseir/el-puerto-de-myos-hormos",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/sultan-selim-fortress",
+    "destination": "/es/guide/al-quseir/fortaleza-del-sultan-selim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/kharga-museum-of-antiquities",
+    "destination": "/es/guide/al-wadi-al-gadid/el-museo-de-antiguedades-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/tours-in-al-wadi-al-gadid",
+    "destination": "/es/guide/al-wadi-al-gadid/tours-y-excursiones-en-al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/al-mursi-abu-al-abbas-mosque",
+    "destination": "/es/guide/alejandria/mezquita-de-abu-al-abbas-al-mursi",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/alexandria-national-museum",
+    "destination": "/es/guide/alejandria/museo-nacional-de-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/bibliotheca-alexandrina",
+    "destination": "/es/guide/alejandria/biblioteca-de-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/catacombs-of-kom-el-shoqafa",
+    "destination": "/es/guide/alejandria/catacumbas-de-kom-el-shoqafa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/necropolis-of-anfushi",
+    "destination": "/es/guide/alejandria/necropolis-de-anfushi",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/pharos-lighthouse",
+    "destination": "/es/guide/alejandria/faro-de-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/pompeys-pillar",
+    "destination": "/es/guide/alejandria/columna-de-pompeyo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/qaitbey-fort",
+    "destination": "/es/guide/alejandria/ciudadela-de-qaitbay",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/roman-theatre",
+    "destination": "/es/guide/alejandria/el-teatro-romano-de-kom-el-dikka",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/royal-family-jewellery-museum",
+    "destination": "/es/guide/alejandria/museo-de-joyeria-real",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/royal-palaces",
+    "destination": "/es/guide/alejandria/los-palacios-reales-de-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/aswan-isis-temple",
+    "destination": "/es/guide/asuan/el-templo-de-isis-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/botanical-garden",
+    "destination": "/es/guide/asuan/el-jardin-botanico",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/elephantine-island",
+    "destination": "/es/guide/asuan/la-isla-de-elefantina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/saint-simeon-monastery",
+    "destination": "/es/guide/asuan/el-monasterio-de-san-simeon",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/sehel-island",
+    "destination": "/es/guide/asuan/la-isla-de-sehel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/the-aswan-museum",
+    "destination": "/es/guide/asuan/el-museo-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/convent-of-the-holy-virgin-at-dorunka",
+    "destination": "/es/guide/asyut/el-convento-de-la-santisima-virgen-en-durunka",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/the-tomb-of-khety-ii-at-asyut",
+    "destination": "/es/guide/asyut/la-tumba-de-jety-ii-en-asiut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/al-qasr-village",
+    "destination": "/es/guide/bahariya/pueblo-de-al-qasr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/crystal-mountain",
+    "destination": "/es/guide/bahariya/montana-de-cristal",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/valley-of-the-golden-mummies",
+    "destination": "/es/guide/bahariya/valle-de-las-momias-doradas",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/meidum-necropolis",
+    "destination": "/es/guide/beni-suef/la-necropolis-de-meidum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/pyramid-of-meidum",
+    "destination": "/es/guide/beni-suef/la-piramide-de-meidum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/al-azhar-mosque",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-al-azhar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/al-ghuriyya-complex",
+    "destination": "/es/guide/el-cairo/el-complejo-de-al-ghuriyya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/amir-taz-palace",
+    "destination": "/es/guide/el-cairo/el-palacio-del-emir-taz",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/aqsunqur-mosque-the-blue-mosque",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-aqsunqur-la-mezquita-azul",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/bein-al-qasreen",
+    "destination": "/es/guide/el-cairo/bayn-al-qasrein",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/ben-ezra-synagogue",
+    "destination": "/es/guide/el-cairo/la-sinagoga-de-ben-ezra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/church-of-saint-barbara",
+    "destination": "/es/guide/el-cairo/la-iglesia-de-santa-barbara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/church-of-saint-sergius-and-bacchus-abu-serga",
+    "destination": "/es/guide/el-cairo/la-iglesia-de-san-sergio-y-san-baco-abu-serga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/complex-of-sultan-al-ashraf-barsbay",
+    "destination": "/es/guide/el-cairo/el-complejo-del-sultan-al-ashraf-barsbay",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/egyptian-museum-of-antiquities",
+    "destination": "/es/guide/el-cairo/el-museo-egipcio-de-antiguedades",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/egyptian-textile-museum",
+    "destination": "/es/guide/el-cairo/el-museo-textil-egipcio",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/from-al-azhar-to-the-citadel-walking-islamic-cairo",
+    "destination": "/es/guide/el-cairo/de-al-azhar-a-la-ciudadela-recorrido-a-pie-por-el-cairo-islamico",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/gawhara-terrace-and-palace",
+    "destination": "/es/guide/el-cairo/la-terraza-y-el-palacio-de-gawhara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/gayer-anderson-museum",
+    "destination": "/es/guide/el-cairo/el-museo-gayer-anderson",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/hanging-church-al-mu-allaqa",
+    "destination": "/es/guide/el-cairo/la-iglesia-colgante-al-muallaqah",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+    "destination": "/es/guide/el-cairo/la-khanqah-y-mausoleo-del-sultan-baybars-al-jashnagir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/khanqah-mausoleum-of-farag-ibn-barquq",
+    "destination": "/es/guide/el-cairo/la-khanqah-mausoleo-de-farag-ibn-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/khayrbek-complex",
+    "destination": "/es/guide/el-cairo/el-complejo-de-khayrbek",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/madrasa-and-khanqah-of-sultan-barquq",
+    "destination": "/es/guide/el-cairo/la-madrasa-y-khanqah-del-sultan-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+    "destination": "/es/guide/el-cairo/la-madrasa-y-mausoleo-de-as-salih-najm-al-din-ayyub",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mausoleum-complex-of-sultan-qaytbay",
+    "destination": "/es/guide/el-cairo/el-complejo-mausoleo-del-sultan-qaytbay",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mausoleum-of-al-ghouri",
+    "destination": "/es/guide/el-cairo/el-mausoleo-de-al-ghouri",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/midan-al-hussein",
+    "destination": "/es/guide/el-cairo/la-plaza-de-al-hussein",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-madrasa-of-al-ghouri",
+    "destination": "/es/guide/el-cairo/la-mezquita-madrasa-de-al-ghouri",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-madrassa-of-sultan-hassan",
+    "destination": "/es/guide/el-cairo/mezquita-madrasa-del-sultan-hassan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-madrassa-of-umm-sultan-sha-aban",
+    "destination": "/es/guide/el-cairo/la-mezquita-madrasa-de-umm-sultan-sha-aban",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-al-aqmar",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-al-aqmar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-al-hakim",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-al-hakim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-al-mu-ayyad-shaykh",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-al-mu-ayyad-shaykh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-amr-ibn-al-as",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-amr-ibn-al-as",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-aslam-al-silahdar",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-aslam-al-silahdar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-ibn-tulun",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-ibn-tulun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-muhammad-ali",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-mohamed-ali",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-sayyidna-al-hussein",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-sayyidna-al-hussein",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/museo-mevlevi-mawlawiyya-museum",
+    "destination": "/es/guide/el-cairo/el-museo-mevlevi-museo-mawlawiyya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/museum-of-islamic-art",
+    "destination": "/es/guide/el-cairo/el-museo-de-arte-islamico",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/northern-cemetery",
+    "destination": "/es/guide/el-cairo/el-cementerio-norte",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/northern-enclosure-of-the-citadel",
+    "destination": "/es/guide/el-cairo/el-recinto-norte-de-la-ciudadela",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/northern-walls-and-gates-of-fatimid-cairo",
+    "destination": "/es/guide/el-cairo/las-murallas-y-puertas-del-norte-de-el-cairo-fatimi",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/roman-towers-and-church-of-saint-george",
+    "destination": "/es/guide/el-cairo/las-torres-romanas-y-la-iglesia-de-san-jorge",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/sabil-kuttab-of-abd-al-rahman-katkhuda",
+    "destination": "/es/guide/el-cairo/el-sabil-kuttab-de-abd-al-rahman-katkhuda",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/sabil-of-muhammad-ali-pasha",
+    "destination": "/es/guide/el-cairo/el-sabil-de-mohamed-ali-pacha",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/sharia-al-muizz-li-din-allah",
+    "destination": "/es/guide/el-cairo/la-calle-al-muizz-li-din-allah",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/wikala-al-bazar-a",
+    "destination": "/es/guide/el-cairo/la-wikala-al-bazar-a",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/abu-galum-protectorate",
+    "destination": "/es/guide/dahab/area-protegida-de-abu-galum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/coloured-canyon",
+    "destination": "/es/guide/dahab/el-canon-de-los-colores",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/how-to-go-in-dahab",
+    "destination": "/es/guide/dahab/como-llegar-a-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/tours-in-dahab",
+    "destination": "/es/guide/dahab/excursiones-desde-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/deir-el-hagar",
+    "destination": "/es/guide/dakhla/deir-al-hagar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/muzawaka-tombs",
+    "destination": "/es/guide/dakhla/las-tumbas-de-muzawaka",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/edfu-temple",
+    "destination": "/es/guide/edfu/el-templo-de-horus-en-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/tours-in-edfu",
+    "destination": "/es/guide/edfu/visitas-guiadas-y-excursiones-desde-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/esna/the-temple-of-khnum-at-esna",
+    "destination": "/es/guide/esna/templo-de-jnum-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/badr-museum",
+    "destination": "/es/guide/farafra/el-museo-de-badr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/crystal-mountain-and-aqabat",
+    "destination": "/es/guide/farafra/la-montana-de-cristal-y-el-valle-de-aqabat",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/fortress",
+    "destination": "/es/guide/farafra/la-fortaleza-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/getting-around-in-farafra-oasis",
+    "destination": "/es/guide/farafra/como-moverse-por-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/ghard-abu-muharrik-and-the-sand-volcano",
+    "destination": "/es/guide/farafra/ghard-abu-muharrik-y-el-volcan-de-arena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/hidden-valley-and-the-new-white-desert",
+    "destination": "/es/guide/farafra/el-valle-oculto-y-el-nuevo-desierto-blanco",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/how-to-go-in-farafra-oasis",
+    "destination": "/es/guide/farafra/como-llegar-al-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/off-road-farafra-to-dakhla",
+    "destination": "/es/guide/farafra/fuera-de-pista-de-farafra-a-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/palm-groves",
+    "destination": "/es/guide/farafra/los-palmares-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/road-to-dakhla",
+    "destination": "/es/guide/farafra/la-carretera-hacia-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/things-to-do-in-farafra-oasis",
+    "destination": "/es/guide/farafra/que-hacer-en-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/top-hotels-in-farafra-oasis",
+    "destination": "/es/guide/farafra/donde-alojarse-en-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/weather-in-farafra-oasis",
+    "destination": "/es/guide/farafra/el-clima-en-farafra-y-la-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/white-desert-national-park",
+    "destination": "/es/guide/farafra/parque-nacional-del-desierto-blanco",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/abusir-necropolis",
+    "destination": "/es/guide/guiza/la-necropolis-de-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/dahshur-necropolis",
+    "destination": "/es/guide/guiza/la-necropolis-de-dahshur",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/imhotep-museum-at-saqqara",
+    "destination": "/es/guide/guiza/el-museo-imhotep-en-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/mastaba-of-ptahshepses-at-abusir",
+    "destination": "/es/guide/guiza/la-mastaba-de-ptahshepses-en-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/memphis-mit-rahina",
+    "destination": "/es/guide/guiza/menfis-mit-rahina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/mit-rahina-museum",
+    "destination": "/es/guide/guiza/el-museo-de-mit-rahina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/pyramid-of-djedefre-at-abu-rawash",
+    "destination": "/es/guide/guiza/la-piramide-de-dyedefra-en-abu-rawash",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/pyramid-of-khafre",
+    "destination": "/es/guide/guiza/la-piramide-de-kefren",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/pyramid-of-khentkaus-ii-at-abusir",
+    "destination": "/es/guide/guiza/la-piramide-de-khentkaus-ii-en-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/pyramid-of-menkaure",
+    "destination": "/es/guide/guiza/la-piramide-de-micerinos",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/pyramid-of-neferirkare-at-abusir",
+    "destination": "/es/guide/guiza/la-piramide-de-neferirkara-en-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/pyramid-of-sahure-at-abusir",
+    "destination": "/es/guide/guiza/la-piramide-de-sahura-en-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/pyramids-of-zawyet-el-aryan",
+    "destination": "/es/guide/guiza/las-piramides-de-zawyet-el-aryan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-bent-pyramid-of-sneferu",
+    "destination": "/es/guide/guiza/la-piramide-acodada-de-snefru",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-black-pyramid",
+    "destination": "/es/guide/guiza/la-piramide-negra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-giza-plateau",
+    "destination": "/es/guide/guiza/la-meseta-de-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-great-pyramid-of-khufu",
+    "destination": "/es/guide/guiza/la-gran-piramide-de-keops",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-great-sphinx",
+    "destination": "/es/guide/guiza/la-gran-esfinge",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-layer-pyramid-of-khaba-at-zawyet-el-aryan",
+    "destination": "/es/guide/guiza/la-piramide-de-capas-de-khaba-en-zawyet-el-aryan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-red-pyramid-of-sneferu",
+    "destination": "/es/guide/guiza/la-piramide-roja-de-snefru",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-saqqara-necropolis",
+    "destination": "/es/guide/guiza/la-necropolis-de-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-solar-boat-of-khufu",
+    "destination": "/es/guide/guiza/la-barca-solar-de-keops",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-unfinished-pyramid-at-zawyet-el-aryan",
+    "destination": "/es/guide/guiza/la-piramide-inacabada-de-zawyet-el-aryan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-white-pyramid-of-amenemhat-ii",
+    "destination": "/es/guide/guiza/la-piramide-blanca-de-amenemhat-ii",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/tomb-of-general-horemheb-at-saqqara",
+    "destination": "/es/guide/guiza/la-tumba-del-general-horemheb-en-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/tomb-of-mereruka-at-saqqara",
+    "destination": "/es/guide/guiza/la-tumba-de-mereruka-en-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/tours-in-giza",
+    "destination": "/es/guide/guiza/las-mejores-excursiones-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/upcoming-events-in-giza",
+    "destination": "/es/guide/guiza/eventos-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/abu-nuhas-shipwreck-sites",
+    "destination": "/es/guide/hurghada/los-pecios-de-abu-nuhas",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/giftun-islands",
+    "destination": "/es/guide/hurghada/las-islas-giftun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/only-in-hurghada",
+    "destination": "/es/guide/hurghada/solo-en-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/straits-of-gubal",
+    "destination": "/es/guide/hurghada/el-estrecho-de-gubal",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/upcoming-events-in-hurghada",
+    "destination": "/es/guide/hurghada/festivales-y-celebraciones-en-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/cemetery-of-el-bagawat",
+    "destination": "/es/guide/kharga/cementerio-de-el-bagawat",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/fortress-and-temple-at-nadura",
+    "destination": "/es/guide/kharga/fortaleza-y-templo-de-nadura",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/hibis-temple",
+    "destination": "/es/guide/kharga/templo-de-hibis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/kharga-cultural-museum",
+    "destination": "/es/guide/kharga/museo-cultural-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/tours-in-kharga-oasis",
+    "destination": "/es/guide/kharga/tours-e-itinerarios-por-el-oasis-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/gebel-el-silsila",
+    "destination": "/es/guide/kom-ombo/gebel-el-silsila-la-cantera-de-egipto-en-el-punto-mas-estrecho-del-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/only-in-kom-ombo",
+    "destination": "/es/guide/kom-ombo/solo-en-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/the-temple-of-kom-ombo",
+    "destination": "/es/guide/kom-ombo/el-templo-de-kom-ombo-el-templo-doble-del-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/deir-el-madina",
+    "destination": "/es/guide/luxor/deir-el-medina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/madinat-habu-temple",
+    "destination": "/es/guide/luxor/medinet-habu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/only-in-luxor",
+    "destination": "/es/guide/luxor/solo-en-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/ramesseum",
+    "destination": "/es/guide/luxor/el-rameseo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/the-luxor-museum",
+    "destination": "/es/guide/luxor/el-museo-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/the-luxor-temple",
+    "destination": "/es/guide/luxor/el-templo-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/valley-of-the-kings",
+    "destination": "/es/guide/luxor/el-valle-de-los-reyes",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/valley-of-the-queens",
+    "destination": "/es/guide/luxor/el-valle-de-las-reinas",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/abu-dabbab-beach",
+    "destination": "/es/guide/marsa-alam/playa-de-abu-dabbab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/camel-market-at-shalateen",
+    "destination": "/es/guide/marsa-alam/el-mercado-de-camellos-de-shalateen",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/hamata-islands",
+    "destination": "/es/guide/marsa-alam/islas-hamata",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/port-ghalib-marina",
+    "destination": "/es/guide/marsa-alam/marina-de-port-ghalib",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/sataya-reef",
+    "destination": "/es/guide/marsa-alam/arrecife-sataya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/wadi-el-gemal-national-park",
+    "destination": "/es/guide/marsa-alam/parque-nacional-wadi-el-gemal",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/places-in-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/lugares-de-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/nuweiba-historical-overview",
+    "destination": "/es/guide/nuweiba/historia-de-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/tours-in-nuweiba",
+    "destination": "/es/guide/nuweiba/tours-y-excursiones-desde-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/how-to-go-in-port-said",
+    "destination": "/es/guide/port-said/como-llegar-a-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/military-museum",
+    "destination": "/es/guide/port-said/museo-militar-de-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/tours-in-port-said",
+    "destination": "/es/guide/port-said/excursiones-en-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/chapel-of-the-disc",
+    "destination": "/es/guide/qena/la-capilla-del-disco",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/cleopatra-and-caesarion",
+    "destination": "/es/guide/qena/cleopatra-y-cesarion",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/dendera-village",
+    "destination": "/es/guide/qena/dendera-aldea",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/dendera-zodiac-and-the-osiris-chapels",
+    "destination": "/es/guide/qena/el-zodiaco-de-dendera-y-las-capillas-de-osiris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/hathor-and-bes",
+    "destination": "/es/guide/qena/hathor-y-bes",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/hypostyle-hall-and-ceiling",
+    "destination": "/es/guide/qena/la-sala-hipostila-y-su-techo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/nectanebo-mammisi",
+    "destination": "/es/guide/qena/el-mammisi-de-nectanebo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/roman-mammisi",
+    "destination": "/es/guide/qena/el-mammisi-romano",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/tours-in-qena",
+    "destination": "/es/guide/qena/excursiones-desde-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/places-in-ras-sudr",
+    "destination": "/es/guide/ras-sudr/lugares-de-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/food-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/donde-comer-en-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/getting-around-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/como-moverse-por-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/how-to-go-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/como-llegar-a-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/only-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/solo-en-rosetta-el-lugar-detras-de-la-piedra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/places-in-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/lugares-de-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/rosetta-rasheed-historical-overview",
+    "destination": "/es/guide/rosetta-rasheed/rosetta-rashid-historia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/things-to-do-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/que-hacer-en-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/top-hotels-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/donde-alojarse-en-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/tours-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/excursiones-en-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/weather-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/el-tiempo-en-rosetta-rashid-y-la-mejor-epoca-para-visitarla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/places-in-safaga",
+    "destination": "/es/guide/safaga/lugares-de-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/fatimid-mosque",
+    "destination": "/es/guide/santa-catalina/la-mezquita-fatimi-del-monasterio-de-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/library-of-the-monastery",
+    "destination": "/es/guide/santa-catalina/la-biblioteca-del-monasterio-de-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/mount-sinai-jebel-musa",
+    "destination": "/es/guide/santa-catalina/el-monte-sinai-jebel-musa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/saint-catherine-monastery",
+    "destination": "/es/guide/santa-catalina/el-monasterio-de-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/nabq-national-park",
+    "destination": "/es/guide/sharm-el-sheikh/area-protegida-de-nabq",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/ras-mohammed-national-park",
+    "destination": "/es/guide/sharm-el-sheikh/parque-nacional-ras-mohammed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/tours-in-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/tours-y-excursiones-en-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/cleopatra-s-pool",
+    "destination": "/es/guide/siwa/piscina-de-cleopatra-ain-juba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/dakrour-mountain",
+    "destination": "/es/guide/siwa/montana-dakrour",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/fatnas-island",
+    "destination": "/es/guide/siwa/isla-fatnas",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/food-in-siwa-oasis",
+    "destination": "/es/guide/siwa/gastronomia-en-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/getting-around-in-siwa-oasis",
+    "destination": "/es/guide/siwa/como-moverse-por-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/how-to-go-in-siwa-oasis",
+    "destination": "/es/guide/siwa/como-llegar-a-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/mountain-of-the-dead",
+    "destination": "/es/guide/siwa/montana-de-los-muertos-gebel-al-mawta",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/only-in-siwa-oasis",
+    "destination": "/es/guide/siwa/solo-aqui-la-medicina-tradicional-en-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/salt-lakes",
+    "destination": "/es/guide/siwa/los-lagos-salados-de-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/shali-fortress",
+    "destination": "/es/guide/siwa/la-fortaleza-de-shali",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/siwa-house-museum",
+    "destination": "/es/guide/siwa/el-museo-de-la-casa-de-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/siwa-oasis-historical-overview",
+    "destination": "/es/guide/siwa/oasis-de-siwa-historia-y-patrimonio",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/temple-of-the-oracle",
+    "destination": "/es/guide/siwa/templo-del-oraculo-aghurmi",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/top-hotels-in-siwa-oasis",
+    "destination": "/es/guide/siwa/guia-de-alojamiento-en-siwa-donde-alojarse",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/tours-in-siwa-oasis",
+    "destination": "/es/guide/siwa/siwa-excursiones-y-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/upcoming-events-in-siwa-oasis",
+    "destination": "/es/guide/siwa/eventos-en-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/weather-in-siwa-oasis",
+    "destination": "/es/guide/siwa/guia-del-tiempo-en-el-oasis-de-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/abydos-temple",
+    "destination": "/es/guide/sohag/templo-de-abidos",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/how-to-go-in-sohag",
+    "destination": "/es/guide/sohag/como-llegar-a-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/sohag-historical-overview",
+    "destination": "/es/guide/sohag/historia-de-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/tours-in-sohag",
+    "destination": "/es/guide/sohag/excursiones-e-itinerarios-en-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/suez/tours-in-suez",
+    "destination": "/es/guide/suez/tours-e-ideas-de-itinerario-en-suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/pharaoh-island",
+    "destination": "/es/guide/taba/la-isla-del-faraon",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/tours-in-taba",
+    "destination": "/es/guide/taba/tours-y-excursiones-desde-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/monastery-of-saint-macarius-the-great",
+    "destination": "/es/guide/wadi-al-natron/monasterio-de-san-macario-el-grande",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/monastery-of-saint-pishoy",
+    "destination": "/es/guide/wadi-al-natron/monasterio-de-san-pisoy",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/only-in-wadi-el-natrun",
+    "destination": "/es/guide/wadi-al-natron/solo-en-wadi-al-natron-2",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/paromeos-monastery",
+    "destination": "/es/guide/wadi-al-natron/monasterio-de-baramus",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/syrian-monastery",
+    "destination": "/es/guide/wadi-al-natron/el-monasterio-de-los-sirios",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/things-to-do-in-wadi-el-natrun",
+    "destination": "/es/guide/wadi-al-natron/que-hacer-en-wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/getting-around-taba",
+    "destination": "/es/guide/taba/como-moverse-por-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/how-to-go-to-nuweiba",
+    "destination": "/es/guide/nuweiba/como-llegar-a-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/how-to-go-to-kharga-oasis",
+    "destination": "/es/guide/kharga/como-llegar-al-oasis-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/how-to-get-to-giza",
+    "destination": "/es/guide/guiza/como-llegar-a-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/suez/getting-around-suez",
+    "destination": "/es/guide/suez/como-moverse-por-suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/abu-simbel-historical-overview",
+    "destination": "/es/guide/abu-simbel/historia-de-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/weather-in-abu-simbel",
+    "destination": "/es/guide/abu-simbel/clima-y-mejor-epoca-para-visitar-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/how-to-go-in-abu-simbel",
+    "destination": "/es/guide/abu-simbel/como-llegar-a-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/top-hotels-in-abu-simbel",
+    "destination": "/es/guide/abu-simbel/donde-alojarse-en-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/getting-around-in-abu-simbel",
+    "destination": "/es/guide/abu-simbel/como-moverse-por-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/things-to-do-in-abu-simbel",
+    "destination": "/es/guide/abu-simbel/que-hacer-en-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/food-in-abu-simbel",
+    "destination": "/es/guide/abu-simbel/gastronomia-en-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/only-in-abu-simbel",
+    "destination": "/es/guide/abu-simbel/solo-en-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/upcoming-events-in-abu-simbel",
+    "destination": "/es/guide/abu-simbel/festival-de-la-alineacion-solar-de-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/akhmim-accommodation-guide",
+    "destination": "/es/guide/akhmim/donde-alojarse-en-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/abu-simbel/the-small-temple-of-abu-simbel",
+    "destination": "/es/guide/abu-simbel/el-templo-pequeno-de-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/tours-in-akhmim",
+    "destination": "/es/guide/akhmim/tours-y-excursiones-en-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/where-to-eat-in-akhmim",
+    "destination": "/es/guide/akhmim/comer-en-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/history-of-akhmim",
+    "destination": "/es/guide/akhmim/historia-de-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/getting-around-to-akhmim",
+    "destination": "/es/guide/akhmim/como-moverse-por-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/only-in-akhmim",
+    "destination": "/es/guide/akhmim/solo-en-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/things-to-do-in-akhmim",
+    "destination": "/es/guide/akhmim/que-hacer-en-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/akhmim-weather",
+    "destination": "/es/guide/akhmim/el-clima-de-akhmim-y-la-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/al-fayoum-tours",
+    "destination": "/es/guide/al-fayoum/tours-y-excursiones-en-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/al-fayoum-events",
+    "destination": "/es/guide/al-fayoum/eventos-en-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/food-in-al-fayoum",
+    "destination": "/es/guide/al-fayoum/gastronomia-en-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/history-of-al-fayoum",
+    "destination": "/es/guide/al-fayoum/historia-de-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/only-here-in-al-fayoum",
+    "destination": "/es/guide/al-fayoum/solo-aqui-en-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/weather-in-al-fayoum",
+    "destination": "/es/guide/al-fayoum/clima-de-al-fayoum-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/al-arish-history",
+    "destination": "/es/guide/al-arish/historia-de-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/weather-in-al-arish",
+    "destination": "/es/guide/al-arish/clima-de-al-arish-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/how-to-go-to-al-arish",
+    "destination": "/es/guide/al-arish/como-llegar-a-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/where-to-stay-in-al-arish",
+    "destination": "/es/guide/al-arish/donde-alojarse-en-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/getting-around-al-arish",
+    "destination": "/es/guide/al-arish/como-moverse-por-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/things-to-do-in-al-arish",
+    "destination": "/es/guide/al-arish/que-hacer-en-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/the-fortress-of-al-arish",
+    "destination": "/es/guide/al-arish/el-fuerte-de-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/food-in-al-arish",
+    "destination": "/es/guide/al-arish/la-gastronomia-de-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-arish/only-in-al-arish",
+    "destination": "/es/guide/al-arish/solo-en-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-minya/history-of-al-minya",
+    "destination": "/es/guide/al-minya/historia-de-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-minya/weather-in-al-minya",
+    "destination": "/es/guide/al-minya/el-clima-en-al-minya-y-la-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-minya/how-to-go-to-al-minya",
+    "destination": "/es/guide/al-minya/como-llegar-a-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-minya/places-to-stay-in-al-minya",
+    "destination": "/es/guide/al-minya/donde-alojarse-en-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-minya/getting-around-in-al-minya",
+    "destination": "/es/guide/al-minya/como-moverse-por-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-minya/things-to-do-in-al-minya",
+    "destination": "/es/guide/al-minya/que-hacer-en-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-minya/explore-al-minya-tours",
+    "destination": "/es/guide/al-minya/como-planificar-la-visita-a-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-minya/top-restaurants-in-al-minya",
+    "destination": "/es/guide/al-minya/donde-comer-en-al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-minya/only-here-in-al-minya",
+    "destination": "/es/guide/al-minya/solo-aqui-en-al-minya-akenaton-y-el-momento-de-amarna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/getting-around-al-fayoum",
+    "destination": "/es/guide/al-fayoum/como-moverse-por-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/things-to-do-in-al-fayoum",
+    "destination": "/es/guide/al-fayoum/que-hacer-en-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/history-of-al-quseir",
+    "destination": "/es/guide/al-quseir/al-quseir-historia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/weather-in-al-quseir",
+    "destination": "/es/guide/al-quseir/al-quseir-clima-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/how-to-go-to-al-quseir",
+    "destination": "/es/guide/al-quseir/al-quseir-como-llegar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/getting-around-in-al-quseir",
+    "destination": "/es/guide/al-quseir/al-quseir-como-moverse",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/things-to-do-in-al-quseir",
+    "destination": "/es/guide/al-quseir/al-quseir-que-hacer",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/tours-in-al-quseir",
+    "destination": "/es/guide/al-quseir/tours-y-excursiones-desde-al-quseir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/food-in-al-quseir",
+    "destination": "/es/guide/al-quseir/donde-comer-en-al-quseir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/only-here-in-al-quseir",
+    "destination": "/es/guide/al-quseir/solo-aqui-en-al-quseir-buceo-sin-prisa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/weather-in-bahariya-oasis",
+    "destination": "/es/guide/bahariya/el-clima-del-oasis-de-bahariya-y-la-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/history-of-al-wadi-al-gadid",
+    "destination": "/es/guide/al-wadi-al-gadid/historia-de-al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/weather-in-al-wadi-al-gadid",
+    "destination": "/es/guide/al-wadi-al-gadid/el-clima-en-al-wadi-al-gadid-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/how-to-go-in-al-wadi-al-gadid",
+    "destination": "/es/guide/al-wadi-al-gadid/como-llegar-a-al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/where-to-stay-in-al-wadi-al-gadid",
+    "destination": "/es/guide/al-wadi-al-gadid/donde-alojarse-en-al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/things-to-do-in-al-wadi-al-gadid",
+    "destination": "/es/guide/al-wadi-al-gadid/que-hacer-en-al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/only-in-al-gouna",
+    "destination": "/es/guide/al-gouna/solo-en-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/food-in-al-wadi-al-gadid",
+    "destination": "/es/guide/al-wadi-al-gadid/gastronomia-en-al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/discover-al-gouna-history",
+    "destination": "/es/guide/al-gouna/historia-de-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/al-gouna-weather",
+    "destination": "/es/guide/al-gouna/el-clima-en-el-gouna-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/stay-in-al-gouna",
+    "destination": "/es/guide/al-gouna/donde-alojarse-en-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/things-to-do-in-al-gouna",
+    "destination": "/es/guide/al-gouna/que-hacer-en-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/al-gouna-festivals-and-celebrations",
+    "destination": "/es/guide/al-gouna/eventos-y-festivales-de-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/how-to-reach-al-gouna",
+    "destination": "/es/guide/al-gouna/como-llegar-a-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/getting-around-in-al-gouna",
+    "destination": "/es/guide/al-gouna/como-moverse-por-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/traditional-food-in-al-gouna",
+    "destination": "/es/guide/al-gouna/gastronomia-en-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/al-gouna-guided-tours",
+    "destination": "/es/guide/al-gouna/tours-y-excursiones-desde-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/alexandria-history-overview",
+    "destination": "/es/guide/alejandria/historia-de-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/alexandria-weather",
+    "destination": "/es/guide/alejandria/el-clima-de-alejandria-y-la-mejor-epoca-para-visitarla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/alexandria-accommodation-guide",
+    "destination": "/es/guide/alejandria/donde-alojarse-en-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/things-to-do-in-alexandria",
+    "destination": "/es/guide/alejandria/que-hacer-en-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/getting-to-alexandria",
+    "destination": "/es/guide/alejandria/como-llegar-a-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/how-to-get-around-alexandria",
+    "destination": "/es/guide/alejandria/como-moverse-por-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/where-to-eat-in-alexandria",
+    "destination": "/es/guide/alejandria/donde-comer-en-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/only-here-in-alexandria",
+    "destination": "/es/guide/alejandria/buceo-en-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/tours-in-alexandria",
+    "destination": "/es/guide/alejandria/visitas-guiadas-y-excursiones-en-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/events-in-alexandria",
+    "destination": "/es/guide/alejandria/eventos-en-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/aswan-guided-tours",
+    "destination": "/es/guide/asuan/tours-y-excursiones-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/traditional-food-in-aswan",
+    "destination": "/es/guide/asuan/comida-tradicional-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/getting-around-in-aswan",
+    "destination": "/es/guide/asuan/como-moverse-por-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/discover-aswan-history",
+    "destination": "/es/guide/asuan/historia-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/how-to-reach-aswan",
+    "destination": "/es/guide/asuan/como-llegar-a-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/only-here-in-aswan",
+    "destination": "/es/guide/asuan/solo-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/things-to-do-in-aswan",
+    "destination": "/es/guide/asuan/que-hacer-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/stay-in-aswan",
+    "destination": "/es/guide/asuan/donde-alojarse-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-quseir/where-to-stay-in-al-quseir",
+    "destination": "/es/guide/al-quseir/al-quseir-donde-alojarse",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/aswan-festivals-and-celebrations",
+    "destination": "/es/guide/asuan/festivales-y-celebraciones-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/tombs-of-the-nobles-in-aswan",
+    "destination": "/es/guide/asuan/las-tumbas-de-los-nobles-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/aswan-high-dam",
+    "destination": "/es/guide/asuan/la-presa-alta-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/aswan-local-market",
+    "destination": "/es/guide/asuan/el-mercado-local-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/discover-asyut-with-tours",
+    "destination": "/es/guide/asyut/tours-y-excursiones-desde-asiut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/what-to-eat-in-asyut",
+    "destination": "/es/guide/asyut/que-comer-en-asiut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/getting-around-asyut",
+    "destination": "/es/guide/asyut/como-moverse-por-asiut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/history-of-asyut",
+    "destination": "/es/guide/asyut/historia-de-asiut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/how-to-go-to-asyut",
+    "destination": "/es/guide/asyut/como-llegar-a-asiut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/only-here-in-asyut",
+    "destination": "/es/guide/asyut/solo-en-asiut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/things-to-do-in-asyut",
+    "destination": "/es/guide/asyut/que-hacer-en-asiut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/where-to-stay-in-asyut",
+    "destination": "/es/guide/asyut/donde-alojarse-en-asiut",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/asyut/weather-in-asyut",
+    "destination": "/es/guide/asyut/el-clima-de-asiut-y-la-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/tours-in-bahariya-oasis",
+    "destination": "/es/guide/bahariya/excursiones-en-el-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/food-in-bahariya-oasis",
+    "destination": "/es/guide/bahariya/gastronomia-en-el-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/getting-around-in-bahariya-oasis",
+    "destination": "/es/guide/bahariya/como-moverse-por-el-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/history-of-bahariya-oasis",
+    "destination": "/es/guide/bahariya/historia-del-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/how-to-go-to-bahariya-oasis",
+    "destination": "/es/guide/bahariya/como-llegar-al-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/only-here-in-bahariya-oasis",
+    "destination": "/es/guide/bahariya/solo-aqui-en-el-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/where-to-stay-in-bahariya-oasis",
+    "destination": "/es/guide/bahariya/donde-alojarse-en-el-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/baris/baris-tours",
+    "destination": "/es/guide/baris/tours-en-baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/baris/food-in-baris",
+    "destination": "/es/guide/baris/gastronomia-en-baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/baris/weather-in-baris",
+    "destination": "/es/guide/baris/el-clima-en-baris-y-la-mejor-epoca-para-visitarla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/baris/history-of-baris",
+    "destination": "/es/guide/baris/historia-de-baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/baris/how-to-get-to-baris",
+    "destination": "/es/guide/baris/como-llegar-a-baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/baris/getting-around-in-baris",
+    "destination": "/es/guide/baris/como-moverse-por-baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/baris/things-to-do-in-baris",
+    "destination": "/es/guide/baris/que-hacer-en-baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/baris/where-to-stay-in-baris",
+    "destination": "/es/guide/baris/donde-alojarse-cerca-de-baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/food-in-beni-suef",
+    "destination": "/es/guide/beni-suef/gastronomia-en-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/getting-around-beni-suef",
+    "destination": "/es/guide/beni-suef/como-moverse-por-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/discover-beni-suef-history",
+    "destination": "/es/guide/beni-suef/historia-de-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/how-to-reach-beni-suef",
+    "destination": "/es/guide/beni-suef/como-llegar-a-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/only-here-in-beni-suef",
+    "destination": "/es/guide/beni-suef/solo-aqui-en-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/things-to-do-in-beni-suef",
+    "destination": "/es/guide/beni-suef/que-hacer-en-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/stay-in-beni-suef",
+    "destination": "/es/guide/beni-suef/donde-alojarse-en-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/beni-suef-weather",
+    "destination": "/es/guide/beni-suef/el-clima-de-beni-suef-y-la-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/beni-suef/beni-suef-guided-tours",
+    "destination": "/es/guide/beni-suef/tours-y-excursiones-desde-beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/cairo-tours",
+    "destination": "/es/guide/el-cairo/excursiones-por-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/cairo-food-guide",
+    "destination": "/es/guide/el-cairo/guia-gastronomica-de-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/getting-around-cairo",
+    "destination": "/es/guide/el-cairo/como-moverse-por-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/history-of-cairo",
+    "destination": "/es/guide/el-cairo/historia-de-el-cairo-de-la-antiguedad-hasta-hoy",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/how-to-go-to-cairo",
+    "destination": "/es/guide/el-cairo/como-llegar-a-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/only-here-in-cairo",
+    "destination": "/es/guide/el-cairo/solo-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/things-to-do-in-cairo",
+    "destination": "/es/guide/el-cairo/que-hacer-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/where-to-stay-in-cairo",
+    "destination": "/es/guide/el-cairo/donde-alojarse-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/weather-in-cairo",
+    "destination": "/es/guide/el-cairo/el-clima-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/cairo-events",
+    "destination": "/es/guide/el-cairo/eventos-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/dahab-restaurants",
+    "destination": "/es/guide/dahab/donde-comer-en-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/getting-around-dahab",
+    "destination": "/es/guide/dahab/como-moverse-por-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/blue-hole",
+    "destination": "/es/guide/dahab/exclusivas-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/experiences-in-dahab",
+    "destination": "/es/guide/dahab/que-hacer-en-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/where-to-stay-in-dahab",
+    "destination": "/es/guide/dahab/donde-alojarse-en-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/dahab-seasonal-guide",
+    "destination": "/es/guide/dahab/el-tiempo-en-dahab-y-mejor-epoca-para-visitarla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/dakhla-oasis-tours",
+    "destination": "/es/guide/dakhla/tours-y-excursiones-en-el-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/food-in-dakhla-oasis",
+    "destination": "/es/guide/dakhla/gastronomia-en-el-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/getting-around-in-dakhla-oasis",
+    "destination": "/es/guide/dakhla/como-moverse-por-el-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/history-of-dakhla-oasis",
+    "destination": "/es/guide/dakhla/historia-del-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/hotels-in-dakhla-oasis",
+    "destination": "/es/guide/dakhla/donde-alojarse-en-el-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/things-to-do-in-dakhla-oasis",
+    "destination": "/es/guide/dakhla/que-hacer-en-el-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/only-here-in-dakhla-oasis",
+    "destination": "/es/guide/dakhla/solo-aqui-en-el-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/when-to-explore-dakhla-oasis",
+    "destination": "/es/guide/dakhla/clima-del-oasis-de-dakhla-y-mejor-epoca-para-visitarlo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dakhla-oasis/how-to-go-to-dakhla-oasis",
+    "destination": "/es/guide/dakhla/como-llegar-al-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/how-to-go-to-al-fayoum",
+    "destination": "/es/guide/al-fayoum/como-llegar-a-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/where-to-stay-in-al-fayoum",
+    "destination": "/es/guide/al-fayoum/donde-alojarse-en-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/edfu-historical-guide",
+    "destination": "/es/guide/edfu/historia-de-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/edfu-seasonal-guide",
+    "destination": "/es/guide/edfu/clima-en-edfu-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/where-to-stay-in-edfu",
+    "destination": "/es/guide/edfu/donde-alojarse-en-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/how-to-go-to-edfu",
+    "destination": "/es/guide/edfu/como-llegar-a-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/edfu-getting-around-guide",
+    "destination": "/es/guide/edfu/como-moverse-por-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/what-to-do-in-edfu",
+    "destination": "/es/guide/edfu/que-hacer-en-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/edfu-food-and-drink",
+    "destination": "/es/guide/edfu/comida-y-bebida-en-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/esna/history-of-esna",
+    "destination": "/es/guide/esna/historia-de-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/esna/esna-weather",
+    "destination": "/es/guide/esna/el-clima-en-esna-y-la-mejor-epoca-para-visitarla",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/esna/where-to-stay-in-esna",
+    "destination": "/es/guide/esna/donde-alojarse-en-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/esna/things-to-do-in-esna",
+    "destination": "/es/guide/esna/que-hacer-en-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/esna/food-in-esna",
+    "destination": "/es/guide/esna/comida-y-bebida-en-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/esna/getting-around-in-esna",
+    "destination": "/es/guide/esna/como-moverse-por-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/esna/tours-in-esna",
+    "destination": "/es/guide/esna/excursiones-desde-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/history-of-farafra-oasis",
+    "destination": "/es/guide/farafra/historia-del-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/farafra-oasis-tours",
+    "destination": "/es/guide/farafra/excursiones-y-expediciones-desde-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/food-in-farafra-oasis",
+    "destination": "/es/guide/farafra/comida-y-bebida-en-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/history-of-hurghada",
+    "destination": "/es/guide/hurghada/historia-de-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/hurghada-travel-weather",
+    "destination": "/es/guide/hurghada/el-clima-de-hurghada-guia-mes-a-mes",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/where-to-sleep-in-hurghada",
+    "destination": "/es/guide/hurghada/donde-alojarse-en-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/public-transport-in-hurghada",
+    "destination": "/es/guide/hurghada/como-moverse-por-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/activities-in-hurghada",
+    "destination": "/es/guide/hurghada/que-hacer-en-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/discover-hurghada-with-tours",
+    "destination": "/es/guide/hurghada/descubrir-hurghada-con-nuestras-excursiones",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/what-to-eat-in-hurghada",
+    "destination": "/es/guide/hurghada/donde-comer-en-hurghada-restaurantes-y-platos-imprescindibles",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/hurghada-aquarium",
+    "destination": "/es/guide/hurghada/hurghada-grand-aquarium",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/hurghada-marina",
+    "destination": "/es/guide/hurghada/la-marina-de-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/kharga-oasis-weather",
+    "destination": "/es/guide/kharga/el-clima-del-oasis-de-kharga-y-la-mejor-epoca-para-visitarlo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/getting-around-in-kharga-oasis",
+    "destination": "/es/guide/kharga/como-moverse-por-el-oasis-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/where-to-stay-in-kharga-oasis",
+    "destination": "/es/guide/kharga/donde-alojarse-en-el-oasis-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/things-to-do-in-kharga-oasis",
+    "destination": "/es/guide/kharga/que-hacer-en-el-oasis-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/food-in-kharga-oasis",
+    "destination": "/es/guide/kharga/donde-comer-en-el-oasis-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/getting-around-in-al-wadi-al-gadid",
+    "destination": "/es/guide/al-wadi-al-gadid/como-moverse-por-al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/weather-in-aswan",
+    "destination": "/es/guide/asuan/el-clima-de-asuan-y-la-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/giza-historical-overview",
+    "destination": "/es/guide/guiza/guiza-panorama-historico",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/weather-in-giza",
+    "destination": "/es/guide/guiza/el-clima-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/top-hotels-in-giza",
+    "destination": "/es/guide/guiza/donde-alojarse-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/navigating-giza",
+    "destination": "/es/guide/guiza/como-moverse-por-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/things-to-do-in-giza",
+    "destination": "/es/guide/guiza/que-hacer-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/giza-local-cuisine",
+    "destination": "/es/guide/guiza/donde-comer-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/only-in-giza",
+    "destination": "/es/guide/guiza/solo-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ismailia/past-and-present-ismailia",
+    "destination": "/es/guide/ismailia/historia-de-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ismailia/ismailia-weather-guide",
+    "destination": "/es/guide/ismailia/el-clima-en-ismailia-y-cuando-ir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ismailia/ismailia-arrival-guide",
+    "destination": "/es/guide/ismailia/como-llegar-a-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ismailia/accommodation-options-ismailia",
+    "destination": "/es/guide/ismailia/donde-alojarse-en-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ismailia/navigating-ismailia",
+    "destination": "/es/guide/ismailia/como-moverse-por-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ismailia/things-to-do-in-ismailia",
+    "destination": "/es/guide/ismailia/que-hacer-en-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ismailia/ismailia-flavors",
+    "destination": "/es/guide/ismailia/comida-y-bebida-en-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ismailia/only-here-in-ismailia",
+    "destination": "/es/guide/ismailia/solo-en-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/best-marsa-alam-tours",
+    "destination": "/es/guide/marsa-alam/excursiones-desde-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/history-of-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/historia-de-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/marsa-matruh-weather-overview",
+    "destination": "/es/guide/marsa-matruh/el-tiempo-en-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/how-to-go-to-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/como-llegar-a-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/where-to-stay-in-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/donde-alojarse-en-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/getting-around-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/como-moverse-por-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/things-to-do-in-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/que-hacer-en-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/tours-in-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/excursiones-desde-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/food-in-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/donde-comer-en-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-matruh/marsa-matruh-events",
+    "destination": "/es/guide/marsa-matruh/eventos-en-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/nuweiba-weather-guide",
+    "destination": "/es/guide/nuweiba/tiempo-en-nuweiba-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/nuweiba-hotel-guide",
+    "destination": "/es/guide/nuweiba/donde-alojarse-en-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/getting-around-nuweiba",
+    "destination": "/es/guide/nuweiba/como-moverse-por-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/things-to-do-in-nuweiba",
+    "destination": "/es/guide/nuweiba/que-hacer-en-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/cultural-events-in-nuweiba",
+    "destination": "/es/guide/nuweiba/eventos-y-vida-cultural-en-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/only-in-nuweiba",
+    "destination": "/es/guide/nuweiba/solo-en-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/qena-historical-overview",
+    "destination": "/es/guide/qena/historia-de-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/weather-in-qena",
+    "destination": "/es/guide/qena/el-clima-en-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/transport-to-qena",
+    "destination": "/es/guide/qena/como-llegar-a-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/top-hotels-in-qena",
+    "destination": "/es/guide/qena/donde-alojarse-en-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/navigating-qena",
+    "destination": "/es/guide/qena/como-moverse-por-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/things-to-do-in-qena",
+    "destination": "/es/guide/qena/que-hacer-en-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/food-in-qena",
+    "destination": "/es/guide/qena/gastronomia-en-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/only-in-qena",
+    "destination": "/es/guide/qena/solo-en-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/port-said-historical-guide",
+    "destination": "/es/guide/port-said/historia-de-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/port-said-seasonal-guide",
+    "destination": "/es/guide/port-said/clima-de-port-said-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/lodging-in-port-said",
+    "destination": "/es/guide/port-said/donde-alojarse-en-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/port-said-getting-around-guide",
+    "destination": "/es/guide/port-said/moverse-por-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/things-to-do-in-port-said",
+    "destination": "/es/guide/port-said/que-hacer-en-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/port-said-food-and-drink",
+    "destination": "/es/guide/port-said/comida-y-bebida-en-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/ras-sudr-ancient-past",
+    "destination": "/es/guide/ras-sudr/historia-de-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/ras-sudr-climate",
+    "destination": "/es/guide/ras-sudr/el-tiempo-en-ras-sudr-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/travel-to-ras-sudr",
+    "destination": "/es/guide/ras-sudr/como-llegar-a-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/places-to-stay-in-ras-sudr",
+    "destination": "/es/guide/ras-sudr/donde-alojarse-en-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/ras-sudr-local-transport-guide",
+    "destination": "/es/guide/ras-sudr/como-moverse-por-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/things-to-do-in-ras-sudr",
+    "destination": "/es/guide/ras-sudr/que-hacer-en-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/explore-ras-sudr-tours",
+    "destination": "/es/guide/ras-sudr/excursiones-desde-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/only-in-ras-sudr",
+    "destination": "/es/guide/ras-sudr/solo-en-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/history-of-safaga",
+    "destination": "/es/guide/safaga/historia-de-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/weather-in-safaga",
+    "destination": "/es/guide/safaga/el-tiempo-en-safaga-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/how-to-go-to-safaga",
+    "destination": "/es/guide/safaga/como-llegar-a-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/where-to-stay-in-safaga",
+    "destination": "/es/guide/safaga/donde-alojarse-en-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/getting-around-safaga",
+    "destination": "/es/guide/safaga/como-moverse-por-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/things-to-do-in-safaga",
+    "destination": "/es/guide/safaga/que-hacer-en-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/safaga-tours",
+    "destination": "/es/guide/safaga/excursiones-desde-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/food-in-safaga",
+    "destination": "/es/guide/safaga/donde-comer-en-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/only-in-safaga",
+    "destination": "/es/guide/safaga/solo-en-safaga-arena-negra-y-una-costa-que-cura",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/history-of-saint-catherine",
+    "destination": "/es/guide/santa-catalina/historia-de-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/weather-in-saint-catherine",
+    "destination": "/es/guide/santa-catalina/clima-y-mejor-epoca-para-visitar-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/how-to-go-to-saint-catherine",
+    "destination": "/es/guide/santa-catalina/como-llegar-a-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/where-to-stay-in-saint-catherine",
+    "destination": "/es/guide/santa-catalina/donde-alojarse-en-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/getting-around-saint-catherine",
+    "destination": "/es/guide/santa-catalina/como-moverse-por-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/things-to-do-in-saint-catherine",
+    "destination": "/es/guide/santa-catalina/que-hacer-en-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/saint-catherine-guided-tours",
+    "destination": "/es/guide/santa-catalina/excursiones-y-visitas-guiadas-en-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/food-in-saint-catherine",
+    "destination": "/es/guide/santa-catalina/comida-en-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/only-in-saint-catherine",
+    "destination": "/es/guide/santa-catalina/solo-en-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/sharm-el-sheikh-historical-overview",
+    "destination": "/es/guide/sharm-el-sheikh/historia-de-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/sharm-el-sheikh-weather-guide",
+    "destination": "/es/guide/sharm-el-sheikh/el-tiempo-en-sharm-el-sheikh-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/transport-to-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/como-llegar-a-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/accommodations-in-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/donde-alojarse-en-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/getting-around-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/como-moverse-por-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/things-to-do-in-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/que-hacer-en-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/sharm-el-sheikh-local-cuisine",
+    "destination": "/es/guide/sharm-el-sheikh/comida-y-restaurantes-en-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/only-in-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/solo-aqui-la-geografia-de-resort-de-sharm",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/things-to-do-in-siwa-oasis",
+    "destination": "/es/guide/siwa/que-hacer-en-el-oasis-de-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/sohag-weather-guide",
+    "destination": "/es/guide/sohag/clima-y-mejor-epoca-para-visitar-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/sohag-hotel-guide",
+    "destination": "/es/guide/sohag/donde-alojarse-en-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/things-to-do-in-sohag",
+    "destination": "/es/guide/sohag/que-hacer-en-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/getting-around-sohag",
+    "destination": "/es/guide/sohag/como-moverse-por-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/sohag-dining-experiences",
+    "destination": "/es/guide/sohag/gastronomia-en-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/suez/story-of-suez",
+    "destination": "/es/guide/suez/historia-de-suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/suez/suez-temperature-trends",
+    "destination": "/es/guide/suez/el-clima-de-suez-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/suez/ways-to-get-to-suez",
+    "destination": "/es/guide/suez/como-llegar-a-suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/suez/where-to-stay-in-suez",
+    "destination": "/es/guide/suez/donde-alojarse-en-suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/suez/eating-out-in-suez",
+    "destination": "/es/guide/suez/donde-comer-en-suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/suez/things-to-do-in-suez",
+    "destination": "/es/guide/suez/que-hacer-en-suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/story-of-taba",
+    "destination": "/es/guide/taba/historia-de-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/taba-temperature-trends",
+    "destination": "/es/guide/taba/clima-y-mejor-epoca-para-visitar-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/best-places-to-stay-taba",
+    "destination": "/es/guide/taba/donde-alojarse-en-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/ways-to-get-to-taba",
+    "destination": "/es/guide/taba/como-llegar-a-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/things-to-do-in-taba",
+    "destination": "/es/guide/taba/que-hacer-en-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/eating-out-in-taba",
+    "destination": "/es/guide/taba/donde-comer-en-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/taba/only-in-taba",
+    "destination": "/es/guide/taba/solo-en-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/wadi-el-natrun-history",
+    "destination": "/es/guide/wadi-al-natron/historia-de-wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/wadi-el-natrun-weather-insights",
+    "destination": "/es/guide/wadi-al-natron/clima-y-mejor-epoca-para-visitar-wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/getting-to-wadi-el-natrun",
+    "destination": "/es/guide/wadi-al-natron/como-llegar-a-wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/wadi-el-natrun-accommodation-guide",
+    "destination": "/es/guide/wadi-al-natron/donde-alojarse-cerca-de-wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/how-to-get-around-wadi-el-natrun",
+    "destination": "/es/guide/wadi-al-natron/como-moverse-por-wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/tours-in-wadi-el-natrun",
+    "destination": "/es/guide/wadi-al-natron/excursiones-y-visitas-guiadas-en-wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/where-to-eat-in-wadi-el-natrun",
+    "destination": "/es/guide/wadi-al-natron/donde-comer-en-wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/arrival-in-kom-ombo",
+    "destination": "/es/guide/kom-ombo/como-llegar-a-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/discover-kom-ombo-with-tours",
+    "destination": "/es/guide/kom-ombo/excursiones-y-circuitos-por-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/kom-ombo-unforgettable-moments",
+    "destination": "/es/guide/kom-ombo/que-hacer-en-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/luxor-ancient-past",
+    "destination": "/es/guide/luxor/luxor-historia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/travel-to-luxor",
+    "destination": "/es/guide/luxor/luxor-como-llegar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/luxor-climate",
+    "destination": "/es/guide/luxor/luxor-clima-y-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/what-to-do-in-luxor",
+    "destination": "/es/guide/luxor/luxor-que-hacer",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/places-to-stay-in-luxor",
+    "destination": "/es/guide/luxor/luxor-donde-alojarse",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/explore-luxor-tours",
+    "destination": "/es/guide/luxor/excursiones-desde-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/luxor-local-transport-guide",
+    "destination": "/es/guide/luxor/como-moverse-por-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/top-restaurants-in-luxor",
+    "destination": "/es/guide/luxor/restaurantes-en-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/cultural-events-in-luxor",
+    "destination": "/es/guide/luxor/eventos-culturales-en-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/the-town-of-marsa-alam",
+    "destination": "/es/guide/marsa-alam/la-ciudad-de-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/only-in-marsa-alam",
+    "destination": "/es/guide/marsa-alam/solo-en-marsa-alam-el-dugongo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/past-and-present-marsa-alam",
+    "destination": "/es/guide/marsa-alam/historia-de-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/marsa-alam-arrival-guide",
+    "destination": "/es/guide/marsa-alam/como-llegar-a-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/saint-catherine-mountain",
+    "destination": "/es/guide/santa-catalina/el-monte-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/naama-bay-sharm-el-sheikh-guide",
+    "destination": "/es/guide/sharm-el-sheikh/naama-bahia-de",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/al-fayoum-waterwheels",
+    "destination": "/es/guide/al-fayoum/las-norias-de-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/coptic-cairo",
+    "destination": "/es/guide/el-cairo/el-cairo-copto",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/esna/how-to-go-to-esna",
+    "destination": "/es/guide/esna/como-llegar-a-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/the-giza-sound-and-light-show",
+    "destination": "/es/guide/guiza/el-espectaculo-de-sonido-y-luz-de-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/unique-sites-in-akhmim",
+    "destination": "/es/guide/akhmim/lugares-unicos-de-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/safaga/annual-events-in-safaga",
+    "destination": "/es/guide/safaga/eventos-en-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/top-restaurants-in-ras-sudr",
+    "destination": "/es/guide/ras-sudr/donde-comer-en-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/nuweiba/nuweiba-dining-experiences",
+    "destination": "/es/guide/nuweiba/comida-y-bebida-en-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/waterfront-quarter-port-said",
+    "destination": "/es/guide/port-said/el-barrio-del-paseo-maritimo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/port-said/suez-canal-house",
+    "destination": "/es/guide/port-said/la-casa-de-la-autoridad-del-canal-de-suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/upcoming-events-in-qena",
+    "destination": "/es/guide/qena/eventos-en-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/kharga-oasis-history",
+    "destination": "/es/guide/kharga/historia-del-oasis-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/history-of-kom-ombo",
+    "destination": "/es/guide/kom-ombo/historia-de-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/kom-ombo-travel-weather",
+    "destination": "/es/guide/kom-ombo/el-clima-en-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/annual-events-in-kom-ombo",
+    "destination": "/es/guide/kom-ombo/eventos-anuales-en-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/where-to-sleep-in-kom-ombo",
+    "destination": "/es/guide/kom-ombo/donde-alojarse-para-visitar-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/what-to-eat-in-kom-ombo",
+    "destination": "/es/guide/kom-ombo/que-comer-en-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/when-to-go-marsa-alam",
+    "destination": "/es/guide/marsa-alam/el-clima-de-marsa-alam-y-la-mejor-epoca-para-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/accommodation-options-marsa-alam",
+    "destination": "/es/guide/marsa-alam/donde-alojarse-en-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/getting-around-in-marsa-alam",
+    "destination": "/es/guide/marsa-alam/como-moverse-por-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/things-to-do-in-marsa-alam",
+    "destination": "/es/guide/marsa-alam/que-hacer-en-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/marsa-alam/marsa-alam-flavors",
+    "destination": "/es/guide/marsa-alam/donde-comer-en-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/arrival-in-hurghada",
+    "destination": "/es/guide/hurghada/como-llegar-a-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kom-ombo/public-transport-in-kom-ombo",
+    "destination": "/es/guide/kom-ombo/como-moverse-por-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/dahab-historical-guide",
+    "destination": "/es/guide/dahab/historia-de-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/upcoming-events-in-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/eventos-y-vida-nocturna-en-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/akhmim/how-to-go-to-akhmim",
+    "destination": "/es/guide/akhmim/como-llegar-a-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/bahariya-oasis/things-to-do-in-bahariya-oasis",
+    "destination": "/es/guide/bahariya/que-hacer-en-el-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/about-egypt",
+    "destination": "/es/travel-tips/sobre-egipto-entender-el-pais-antes-de-llegar",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/egypt-weather-guide",
+    "destination": "/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/staying-connected-in-egypt",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/airports-in-egypt",
+    "destination": "/es/travel-tips/aeropuertos-de-egipto-una-guia-de-las-puertas-de-entrada-del-pais",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/visiting-a-religious-site",
+    "destination": "/es/travel-tips/visitar-lugares-de-culto-en-egipto-una-guia-respetuosa",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/bargaining-in-egypt",
+    "destination": "/es/travel-tips/el-regateo-en-egipto-la-cultura-que-hay-detras-del-trato",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/currency-in-egypt",
+    "destination": "/es/travel-tips/la-moneda-en-egipto-la-libra-egipcia-el-efectivo-y-las-tarjetas",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/water-safety-in-egypt-advice-for-travelers",
+    "destination": "/es/travel-tips/seguridad-del-agua-en-egipto-agua-de-beber-bano-y-bilharziasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/getting-there",
+    "destination": "/es/travel-tips/como-llegar-a-egipto-vuelos-ferris-y-pasos-fronterizos",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/health-and-safety",
+    "destination": "/es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/language-in-egypt",
+    "destination": "/es/travel-tips/la-lengua-en-egipto-de-los-jeroglificos-al-arabe-de-la-calle",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/opening-hours-and-public-holidays",
+    "destination": "/es/travel-tips/horarios-y-dias-festivos-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/passport-and-visa",
+    "destination": "/es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/ramadan-in-egypt",
+    "destination": "/es/travel-tips/el-ramadan-en-egipto-como-el-pais-cambia-de-ritmo",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/student-travelers",
+    "destination": "/es/travel-tips/viajar-a-egipto-como-estudiante-descuentos-albergues-y-trenes",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/time-in-egypt",
+    "destination": "/es/travel-tips/la-hora-en-egipto-husos-horarios-calendarios-y-el-ritmo-de-las-oraciones",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/solo-woman-traveler-in-egypt",
+    "destination": "/es/travel-tips/viajar-sola-a-egipto-el-panorama-real",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/tips-on-accommodations",
+    "destination": "/es/travel-tips/donde-alojarse-en-egipto-hoteles-resorts-y-mucho-mas",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/tipping-in-egypt",
+    "destination": "/es/travel-tips/propinas-en-egipto-como-funciona-de-verdad-el-baksheesh",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/transportation-in-egypt",
+    "destination": "/es/travel-tips/como-moverse-por-egipto-trenes-vuelos-autobuses-y-taxis",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/travel-insurance",
+    "destination": "/es/travel-tips/seguro-de-viaje-para-egipto-lo-que-de-verdad-hace-falta",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/traveling-with-kids",
+    "destination": "/es/travel-tips/viajar-a-egipto-con-ninos-el-dia-a-dia-practico",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/travel-with-disabilities",
+    "destination": "/es/travel-tips/viajar-a-egipto-con-discapacidad-que-encontrara-sobre-el-terreno",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/toilets-in-egypt",
+    "destination": "/es/travel-tips/los-aseos-en-egipto-una-guia-practica-para-el-viajero",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/touts-in-egypt",
+    "destination": "/es/travel-tips/los-buscavidas-en-egipto-como-manejarlos-y-donde-se-concentran",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/vegetarian-travelers-to-egypt",
+    "destination": "/es/travel-tips/viajar-a-egipto-siendo-vegetariano-una-guia-practica-de-comida",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/electricity-in-egypt",
+    "destination": "/es/travel-tips/la-electricidad-en-egipto-enchufes-voltaje-y-adaptadores",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/attractions-entrance-fees",
+    "destination": "/es/travel-tips/entradas-a-los-monumentos-de-egipto-que-presupuestar-y-que-priorizar",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/culinary-journey-in-egypt",
+    "destination": "/es/travel-tips/comer-en-egipto-un-viaje-culinario-por-el-pais",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/cultural-etiquette-in-egypt",
+    "destination": "/es/travel-tips/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/distance-between-egyptian-cities",
+    "destination": "/es/travel-tips/distancias-entre-las-ciudades-de-egipto-una-guia-practica",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun",
+    "destination": "/es/guide/wadi-al-natron",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
