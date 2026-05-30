@@ -41,6 +41,7 @@ export default async function CruisesLandingPage({ params, searchParams }: Props
 
   const typeOptions = [
     { value: 'cruise-ship', label: t('typeCruiseShip') },
+    { value: 'yacht', label: t('typeYacht') },
     { value: 'dahabiya', label: t('typeDahabiya') },
     { value: 'felucca', label: t('typeFelucca') },
   ];

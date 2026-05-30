@@ -60,6 +60,7 @@ const WEEKDAY_ORDER = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'] as const
 
 const TYPE_LABEL: Record<string, string> = {
   'cruise-ship': 'Cruise ship',
+  yacht: 'Yacht',
   dahabiya: 'Dahabiya',
   felucca: 'Felucca',
 };

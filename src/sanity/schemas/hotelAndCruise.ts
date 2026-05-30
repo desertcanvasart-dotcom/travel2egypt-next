@@ -189,6 +189,7 @@ export const nileCruiseSchema = defineType({
       options: {
         list: [
           { title: 'Cruise ship', value: 'cruise-ship' },
+          { title: 'Yacht', value: 'yacht' },
           { title: 'Dahabiya', value: 'dahabiya' },
           { title: 'Felucca', value: 'felucca' },
         ],

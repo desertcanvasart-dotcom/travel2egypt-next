@@ -4989,7 +4989,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/nile-cruises/m-s-nubian-sea-lake-nasser-cruise",
-    "destination": "/ja/nile-cruises/m-s-nubian-shi-naseru-ko-kuruzu",
+    "destination": "/ja/nile-cruises/m-s-nubian-shi",
     "permanent": true
   },
   {
@@ -10154,7 +10154,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/m-s-nubian-sea-lake-nasser-cruise",
-    "destination": "/nile-cruises/m-s-nubian-sea-lake-nasser-cruise",
+    "destination": "/nile-cruises/m-s-nubian-sea",
+    "permanent": true
+  },
+  {
+    "source": "/nile-cruises/m-s-nubian-sea-lake-nasser-cruise",
+    "destination": "/nile-cruises/m-s-nubian-sea",
+    "permanent": true
+  },
+  {
+    "source": "/es/nile-cruises/m-s-nubian-sea-lake-nasser-cruise",
+    "destination": "/es/nile-cruises/m-s-nubian-sea",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nile-cruises/m-s-nubian-shi-naseru-ko-kuruzu",
+    "destination": "/ja/nile-cruises/m-s-nubian-shi",
     "permanent": true
   },
   {

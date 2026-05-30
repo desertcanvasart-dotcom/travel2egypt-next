@@ -7,7 +7,7 @@ export interface CruiseCardData {
   _id: string;
   name: string;
   slug: string;
-  type?: 'cruise-ship' | 'dahabiya' | 'felucca';
+  type?: 'cruise-ship' | 'yacht' | 'dahabiya' | 'felucca';
   tier?: 'standard' | 'deluxe' | 'luxury' | 'boutique';
   capacity?: number;
   summary?: string;
@@ -20,6 +20,7 @@ interface Props {
 
 const TYPE_LABEL: Record<NonNullable<CruiseCardData['type']>, string> = {
   'cruise-ship': 'Cruise ship',
+  yacht: 'Yacht',
   dahabiya: 'Dahabiya',
   felucca: 'Felucca',
 };
