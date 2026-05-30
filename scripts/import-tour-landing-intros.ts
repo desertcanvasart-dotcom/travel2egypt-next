@@ -137,8 +137,9 @@ function toPortableText(body: string, title: string, enTitle: string): any[] {
     if (line === enTitle || line === `**${enTitle}**`) continue;
     // drop authoring footer
     if (/^last updated:/i.test(line) || /^最終更新|^última actualización/i.test(line)) continue;
-    // divider
-    if (line === '· · ·') { out.push(block('normal', [{ _type: 'span', _key: k('s'), text: '· · ·', marks: [] }])); continue; }
+    // divider — skip entirely (other sections don't use the · · · separators;
+    // emitting them also doubled the inter-paragraph gap)
+    if (line === '· · ·') continue;
     // section header: **■ X**  or  ■ X
     const hdr = line.match(/^\*\*\s*■\s*(.+?)\s*\*\*$/) || line.match(/^■\s*(.+)$/);
     if (hdr) { out.push(block('h2', [{ _type: 'span', _key: k('s'), text: hdr[1].trim(), marks: [] }])); continue; }

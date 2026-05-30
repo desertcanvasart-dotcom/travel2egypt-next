@@ -276,10 +276,10 @@ function TourLandingView({ doc, locale }: { doc: TourLandingDoc; locale: Locale 
 
       <div className="mx-auto max-w-7xl px-6 py-12">
         {doc.summary && (
-          <p className="mb-10 font-serif text-2xl italic leading-snug text-ink-soft md:text-[1.625rem]">{doc.summary}</p>
+          <p className="mx-auto mb-10 max-w-3xl font-serif text-2xl italic leading-snug text-ink-soft md:text-[1.625rem]">{doc.summary}</p>
         )}
         {doc.intro && (
-          <div className="prose-editorial mb-12 max-w-3xl">
+          <div className="prose-editorial mx-auto mb-12 max-w-3xl">
             <Body value={doc.intro} locale={locale} />
           </div>
         )}
@@ -289,17 +289,35 @@ function TourLandingView({ doc, locale }: { doc: TourLandingDoc; locale: Locale 
         </h2>
 
         <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {doc.tours.map((t) => (
+          {doc.tours.map((t) => {
+            const tourImg = t.heroImage?.asset
+              ? urlFor(t.heroImage as any).width(600).height(400).quality(85).url()
+              : null;
+            return (
             <li key={t._id}>
-              <Link href={`/${t.slug}`} className="block rounded-lg border border-rule p-6 transition-colors hover:border-ink">
-                <p className="mb-2 font-sans text-xs uppercase tracking-wider text-ink-soft">
-                  {t.durationLabel ?? (t.durationDays ? `${t.durationDays} day${t.durationDays === 1 ? '' : 's'}` : '')}
-                </p>
-                <h3 className="mb-2 font-serif text-lg font-medium text-ink">{t.title}</h3>
-                {t.summary && <p className="line-clamp-3 text-sm text-ink-soft">{t.summary}</p>}
+              <Link href={`/${t.slug}`} className="group block overflow-hidden rounded-lg border border-rule transition-colors hover:border-ink">
+                {tourImg && (
+                  <div className="relative aspect-[3/2] w-full overflow-hidden bg-limestone-deep">
+                    <Image
+                      src={tourImg}
+                      alt={t.heroImage?.alt || t.title}
+                      fill
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    />
+                  </div>
+                )}
+                <div className="p-6">
+                  <p className="mb-2 font-sans text-xs uppercase tracking-wider text-ink-soft">
+                    {t.durationLabel ?? (t.durationDays ? `${t.durationDays} day${t.durationDays === 1 ? '' : 's'}` : '')}
+                  </p>
+                  <h3 className="mb-2 font-serif text-lg font-medium text-ink">{t.title}</h3>
+                  {t.summary && <p className="line-clamp-3 text-sm text-ink-soft">{t.summary}</p>}
+                </div>
               </Link>
             </li>
-          ))}
+            );
+          })}
         </ul>
 
         {doc.faq && (
