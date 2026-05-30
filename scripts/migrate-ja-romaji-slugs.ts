@@ -295,9 +295,11 @@ function getClient(forWrites: boolean): SanityClient {
   if (dataset !== 'migration-staging') {
     die(`Refusing to run against dataset "${dataset}". This script operates on migration-staging only.`);
   }
-  const token = forWrites ? process.env.SANITY_API_WRITE_TOKEN : undefined;
+  const token = forWrites
+    ? (process.env.SANITY_STAGING_API_WRITE_TOKEN || process.env.SANITY_API_WRITE_TOKEN)
+    : undefined;
   if (forWrites && !token) {
-    die('SANITY_API_WRITE_TOKEN must be set in .env for --commit.');
+    die('SANITY_STAGING_API_WRITE_TOKEN (or SANITY_API_WRITE_TOKEN) must be set in .env for --commit.');
   }
   return createClient({
     projectId,
@@ -546,6 +548,16 @@ async function main() {
 
   // ── Build scope
   let docs = await client.fetch<InputDoc[]>(cfg.scopeQuery);
+  // Published-only: a write token surfaces draft versions, which are
+  // editorial work-in-progress (often near-duplicate JA titles that
+  // collide with their published counterparts). The live site reads
+  // published docs, so we romanize those only — matching the tokenless
+  // dry-run scope. Drafts keep their slug until the operator publishes.
+  const draftCount = docs.filter((d) => d._id.startsWith('drafts.')).length;
+  if (draftCount > 0) {
+    console.log(`\n(skipping ${draftCount} draft doc(s); patching published only)`);
+    docs = docs.filter((d) => !d._id.startsWith('drafts.'));
+  }
   if (args.only) {
     docs = docs.filter((d) => d._id === args.only);
     if (docs.length === 0) die(`No doc matched --only=${args.only} within scope query.`);

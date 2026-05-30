@@ -642,5 +642,69 @@
   "wp-page-77042": {
     "slug": "double-tree-sharks-bay-resort",
     "reason": "Tied collision with wp-page-72456 (Hilton mislabeled as DoubleTree in WP JA title). Both auto-derived to same romaji slug. Override to EN-derived form for this DoubleTree property to disambiguate. Operator should verify JA title in Studio."
+  },
+  "wp-page-64441": {
+    "slug": "m-s-nubian-shi",
+    "reason": "nileCruise collision. Two M/S Nubian Sea docs (Lake Nasser) share JA name 'M/S ヌビアン・シー' and both auto-romanize to m-s-nubianshi. This doc's EN slug is the short form 'm-s-nubian-sea'; override to m-s-nubian-shi (kana-faithful with ・ middle-dot preserved) to disambiguate from wp-page-64150. Duplicate-doc cleanup deferred to operator."
+  },
+  "wp-page-64150": {
+    "slug": "m-s-nubian-shi-naseru-ko-kuruzu",
+    "reason": "nileCruise collision. Two M/S Nubian Sea docs (Lake Nasser) share JA name 'M/S ヌビアン・シー' and both auto-romanize to m-s-nubianshi. This doc's EN slug is the long form 'm-s-nubian-sea-lake-nasser-cruise'; override to m-s-nubian-shi-naseru-ko-kuruzu (Nubian Sea Nasser Lake Cruise) to disambiguate from wp-page-64441. Duplicate-doc cleanup deferred to operator."
+  },
+  "guideArticle.alexandria.the-national-museum": {
+    "slug": "kokuritsu-hakubutsukan",
+    "reason": "guideArticle collision. Duplicate of guideArticle.alexandria.alexandria-national-museum — both share JA title アレクサンドリア国立博物館 (auto → arekusandoria-kokuritsu-hakubutsukan). This doc's EN slug is the shorter 'the-national-museum'; override to kokuritsu-hakubutsukan ('National Museum', no city prefix) to disambiguate. Duplicate-doc cleanup deferred to operator."
+  },
+  "guideArticle.cairo.church-of-saint-barbara": {
+    "slug": "sei-baru-bara-kyokai",
+    "reason": "guideArticle collision + reading fix. JA title 聖バルバラ教会; kuromoji misreads 聖 as kiyoshi (given-name reading) — correct religious-context reading is sei (consistent with Saint Catherine cluster). This is the primary 'Church of Saint Barbara' doc; locked to sei-baru-bara-kyokai. Disambiguated from duplicate church-of-st-barbara."
+  },
+  "guideArticle.cairo.church-of-st-barbara": {
+    "slug": "sei-baru-bara-kyokai-2",
+    "reason": "guideArticle collision + reading fix. Duplicate of guideArticle.cairo.church-of-saint-barbara (both 聖バルバラ教会, both mis-read 聖 as kiyoshi). Override to sei-baru-bara-kyokai-2 to disambiguate the duplicate; '-2' marks it for operator merge. 聖→sei applied per Saint Catherine cluster precedent."
+  },
+  "wp-page-59655": {
+    "slug": "dafura-e-no-michi-2",
+    "reason": "guideArticle collision. Duplicate of guideArticle.farafra-oasis.road-to-dakhla — both share JA title ダフラへの道 (auto → dafura-e-no-michi). This doc retains its raw wp-page id (un-renamed import, likely the older duplicate); override to dafura-e-no-michi-2 to disambiguate. '-2' marks it for operator merge. Incorporates dafura per the Dakhla Oasis cluster reading."
+  },
+  "guideArticle.aswan.saint-simeon-monastery": {
+    "slug": "sei-shimeon-shudoin",
+    "reason": "Reading fix. JA title 聖シメオン修道院; kuromoji mis-read 聖 as kiyoshi (given-name reading). Correct religious-context reading is sei (Saint Catherine cluster precedent). Did not collide, so corrected via override after first commit."
+  },
+  "guideArticle.cairo.church-of-saint-sergius-and-bacchus-abu-serga": {
+    "slug": "sei-serugiusu-to-bakkasu-kyokai-abuseruga",
+    "reason": "Reading fix. JA title 聖セルギウスとバッカス教会（アブ・セルガ）; 聖→sei (kuromoji produced kiyoshi). Religious-context reading per Saint Catherine cluster precedent."
+  },
+  "guideArticle.cairo.church-of-st-sergius-bacchus": {
+    "slug": "sei-serugiusu-to-bakkasu-kyokai",
+    "reason": "Reading fix. JA title 聖セルギウスとバッカス教会; 聖→sei (kuromoji produced kiyoshi). Distinct from the -abuseruga variant doc. Religious-context reading per Saint Catherine cluster precedent."
+  },
+  "guideArticle.cairo.roman-towers-and-church-of-saint-george": {
+    "slug": "roma-no-to-to-sei-georugiosu-kyokai",
+    "reason": "Reading fix. JA title ローマの塔と聖ゲオルギオス教会; 聖→sei (kuromoji produced kiyoshi). Religious-context reading per Saint Catherine cluster precedent."
+  },
+  "guideArticle.saint-catherine.fatimid-mosque": {
+    "slug": "sei-katorina-shudoin-no-fatima-asa-mosuku",
+    "reason": "Reading fix. JA title 聖カトリーナ修道院のファーティマ朝モスク; 聖→sei (kuromoji produced kiyoshi). Religious-context reading per Saint Catherine cluster precedent."
+  },
+  "guideArticle.saint-catherine.library-of-the-monastery": {
+    "slug": "sei-katorina-shudoin-no-toshokan",
+    "reason": "Reading fix. JA title 聖カトリーナ修道院の図書館; 聖→sei (kuromoji produced kiyoshi). Religious-context reading per Saint Catherine cluster precedent."
+  },
+  "guideArticle.saint-catherine.saint-catherine-monastery": {
+    "slug": "sei-katorina-shudoin",
+    "reason": "Reading fix. JA title 聖カトリーナ修道院; 聖→sei (kuromoji produced kiyoshi). Religious-context reading per Saint Catherine cluster precedent."
+  },
+  "guideArticle.wadi-el-natrun.monastery-of-saint-macarius-the-great": {
+    "slug": "sei-makariosu-dai-shudoin",
+    "reason": "Reading fix. JA title 聖マカリオス大修道院; 聖→sei (kuromoji produced kiyoshi). Religious-context reading per Saint Catherine cluster precedent."
+  },
+  "guideArticle.wadi-el-natrun.monastery-of-saint-pishoy": {
+    "slug": "sei-bishoi-shudoin",
+    "reason": "Reading fix. JA title 聖ビショイ修道院; 聖→sei (kuromoji produced kiyoshi). Religious-context reading per Saint Catherine cluster precedent."
+  },
+  "tour.mount-sinai-pilgrimage-2-day-trip-to-saint-catherine-from-cairo": {
+    "slug": "kairo-kara-shinai-san-to-sei-katarina-shudoin-e-ni",
+    "reason": "Reading fix. JA title カイロからシナイ山と聖カタリナ修道院へ、二日間の巡礼; 聖→sei (kuromoji produced kiyoshi). Religious-context reading per Saint Catherine cluster precedent."
   }
 }
