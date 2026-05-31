@@ -10,6 +10,7 @@ export interface ArticleCardData {
   slug: string;
   deck?: string;
   publishedAt?: string;
+  updatedAt?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
   category?: { name?: string; slug?: string } | null;
   author?: { name?: string; slug?: string; photo?: { asset?: unknown } | null } | null;
@@ -30,8 +31,9 @@ export function ArticleCard({ article, variant = 'compact', locale }: Props) {
       : urlFor(article.heroImage).width(800).height(1000).quality(80).url()
     : null;
 
-  const dateLabel = article.publishedAt
-    ? new Date(article.publishedAt).toLocaleDateString(
+  const displayDate = article.updatedAt ?? article.publishedAt;
+  const dateLabel = displayDate
+    ? new Date(displayDate).toLocaleDateString(
         locale === 'ja' ? 'ja-JP' : locale === 'es' ? 'es-ES' : 'en-US',
         { year: 'numeric', month: 'long', day: 'numeric' }
       )

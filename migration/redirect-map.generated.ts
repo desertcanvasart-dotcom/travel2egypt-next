@@ -14098,6 +14098,36 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/travel-tips/telephones",
+    "destination": "/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/telephones",
+    "destination": "/es/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/ja/travel-tips/telephones",
+    "destination": "/ja/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/travel-tips/wifi",
+    "destination": "/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/wifi",
+    "destination": "/es/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/ja/travel-tips/wifi",
+    "destination": "/ja/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
     "source": "/travel-tips/tips-for-families",
     "destination": "/travel-tips/traveling-with-kids",
     "permanent": true
@@ -14290,6 +14320,16 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/blog/month-by-month-guide-to-egypt",
     "destination": "/ja/blog/best-time-to-visit-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/hotels/the-westin-soma-bay-golf-resort-spa",
+    "destination": "/hotels/the-cascades-soma-bay",
+    "permanent": true
+  },
+  {
+    "source": "/es/hotels/the-westin-soma-bay-golf-resort-spa",
+    "destination": "/es/hotels/the-cascades-soma-bay",
     "permanent": true
   }
 ];

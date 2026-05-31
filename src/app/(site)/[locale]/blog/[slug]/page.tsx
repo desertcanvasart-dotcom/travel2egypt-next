@@ -105,8 +105,9 @@ export default async function ArticlePage({ params }: Props) {
     ? urlFor(article.author.photo).width(160).height(160).quality(85).url()
     : null;
 
-  const dateLabel = article.publishedAt
-    ? new Date(article.publishedAt).toLocaleDateString(
+  const displayDate = article.updatedAt ?? article.publishedAt;
+  const dateLabel = displayDate
+    ? new Date(displayDate).toLocaleDateString(
         locale === 'ja' ? 'ja-JP' : locale === 'es' ? 'es-ES' : 'en-US',
         { year: 'numeric', month: 'long', day: 'numeric' }
       )
