@@ -11,6 +11,7 @@ import { monumentBySlugQuery, allWikiSlugsQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { WikiCard, type WikiCardData } from '@/components/WikiCard';
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { withoutRedirectedParams } from '@/lib/redirect-sources';
 import { JsonLd } from '@/components/JsonLd';
 import {
   buildPlaceSchema,
@@ -54,7 +55,10 @@ export async function generateStaticParams() {
       });
     }
   }
-  return params;
+  // Drop slugs that are redirect sources (reclassified monuments that 308 to a
+  // guide article) — statically exporting a path that also has a redirect makes
+  // `next build` error. The redirect handles those paths at runtime.
+  return withoutRedirectedParams(params, (s) => `/wiki/monuments/${s}`);
 }
 
 export default async function MonumentPage({ params }: Props) {
