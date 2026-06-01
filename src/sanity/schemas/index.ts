@@ -29,6 +29,7 @@ import { hotelSchema, nileCruiseSchema } from './hotelAndCruise';
 import { hotelsArchiveSchema } from './hotelsArchive';
 import { dayToursArchiveSchema } from './dayToursArchive';
 import { nileCruisesArchiveSchema } from './nileCruisesArchive';
+import { travelTipsArchiveSchema } from './travelTipsArchive';
 import { pageSchema, legalPageSchema } from './page';
 import { editorialPageSchema } from './editorialPage';
 import {
@@ -78,6 +79,7 @@ export const schemaTypes = [
   hotelsArchiveSchema,
   dayToursArchiveSchema,
   nileCruisesArchiveSchema,
+  travelTipsArchiveSchema,
 
   // ── System ──
   pageSchema,
