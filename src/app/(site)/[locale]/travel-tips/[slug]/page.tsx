@@ -10,22 +10,24 @@ import { urlFor } from '@/sanity/lib/image';
 import {
   travelTipBySlugQuery,
   allTravelTipSlugsQuery,
-  allTravelTipCategoriesQuery,
+  siblingTravelTipsQuery,
+  articlesByLanguageQuery,
 } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
-import { TravelTipCard, type TravelTipCardData } from '@/components/TravelTipCard';
-import {
-  TravelTipsSidebar,
-  type TravelTipsSidebarCategory,
-} from '@/components/TravelTipsSidebar';
-import { SectionHeader } from '@/components/SectionHeader';
+import { Breadcrumb } from '@/components/Breadcrumb';
+import { ArticleSidebar } from '@/components/ArticleSidebar';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { FloatingConcierge } from '@/components/FloatingConcierge';
+import {
+  ArticleRelatedWeave,
+  ArticleFootBand,
+  type WeaveColumn,
+  type WeaveItem,
+} from '@/components/ArticleConnective';
+import { extractHeadings, readingTimeMinutes } from '@/lib/portable-text';
 import { JsonLd } from '@/components/JsonLd';
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
-import {
-  buildArticleSchema,
-  buildBreadcrumbList,
-} from '@/lib/structured-data';
+import { buildArticleSchema, buildBreadcrumbList } from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -38,9 +40,7 @@ interface TravelTipDoc {
   allSlugs?: Array<{ _key: string; current: string }>;
   summary?: string;
   body?: unknown;
-  featured?: boolean;
   category?: { _id?: string; name?: string; slug?: string } | null;
-  relatedTips?: TravelTipCardData[];
   heroImage?: { asset?: unknown; alt?: string; caption?: string } | null;
   seo?: {
     metaTitle?: string;
@@ -57,36 +57,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   })) as TravelTipDoc | null;
   if (!tip) return {};
   return buildMetadata(
-    {
-      title: tip.title,
-      summary: tip.summary,
-      heroImage: tip.heroImage,
-      seo: tip.seo,
-    },
+    { title: tip.title, summary: tip.summary, heroImage: tip.heroImage, seo: tip.seo },
     {
       locale: locale as Locale,
       path: `/travel-tips/${slug}`,
-      pathByLocale: pathByLocaleFromSlugs(
-        tip.allSlugs,
-        (s: string) => `/travel-tips/${s}`
-      ),
+      pathByLocale: pathByLocaleFromSlugs(tip.allSlugs, (s: string) => `/travel-tips/${s}`),
     }
   );
 }
 
 export async function generateStaticParams() {
-  const tips: Array<{
-    slugs: Array<{ _key: string; current: string }>;
-  }> = await client.fetch(allTravelTipSlugsQuery);
-
+  const tips: Array<{ slugs: Array<{ _key: string; current: string }> }> =
+    await client.fetch(allTravelTipSlugsQuery);
   const params: Array<{ locale: string; slug: string }> = [];
   for (const tip of tips) {
     const enSlug = tip.slugs?.find((s) => s._key === 'en')?.current;
     if (!enSlug) continue;
     for (const locale of routing.locales) {
-      const localizedSlug =
-        tip.slugs.find((s) => s._key === locale)?.current ?? enSlug;
-      params.push({ locale, slug: localizedSlug });
+      params.push({ locale, slug: tip.slugs.find((s) => s._key === locale)?.current ?? enSlug });
     }
   }
   return params;
@@ -97,22 +85,56 @@ export default async function TravelTipDetailPage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('travelTips');
+  const tBlog = await getTranslations('blog');
+  const tNav = await getTranslations('nav');
 
-  const [tip, categories] = await Promise.all([
-    client.fetch(travelTipBySlugQuery(locale as Locale), { slug }) as Promise<
-      TravelTipDoc | null
-    >,
-    client.fetch<TravelTipsSidebarCategory[]>(
-      allTravelTipCategoriesQuery(locale as Locale)
-    ),
-  ]);
-
+  const tip = (await client.fetch(travelTipBySlugQuery(locale as Locale), {
+    slug,
+  })) as TravelTipDoc | null;
   if (!tip) notFound();
 
-  const heroUrl = tip.heroImage?.asset
-    ? urlFor(tip.heroImage).width(2000).height(1000).quality(85).url()
+  const [siblings, recentArticles] = await Promise.all([
+    tip.category?._id
+      ? client.fetch<Array<{ _id: string; title: string; slug: string; summary?: string }>>(
+          siblingTravelTipsQuery(locale as Locale),
+          { categoryId: tip.category._id, excludeId: tip._id }
+        )
+      : Promise.resolve([]),
+    client.fetch<
+      Array<{ _id: string; title: string; slug: string; category?: { name?: string } | null }>
+    >(articlesByLanguageQuery, { locale }),
+  ]);
+
+  const headings = extractHeadings(tip.body);
+  const minutes = readingTimeMinutes(tip.body, locale as Locale);
+  const dropCap = minutes >= 2;
+
+  const featureUrl = tip.heroImage?.asset
+    ? urlFor(tip.heroImage).width(1600).quality(85).url()
     : null;
 
+  const categoryHref = tip.category?.slug ? `/travel-tips#category-${tip.category.slug}` : null;
+
+  // ── Related weave: "More in {category}" siblings (tips carry no city, so
+  // the "Read in the Guide" column is omitted — the weave drops empty columns). ──
+  const moreInItems: WeaveItem[] = siblings.map((s) => ({
+    id: s._id,
+    title: s.title,
+    note: s.summary,
+    href: `/travel-tips/${s.slug}`,
+  }));
+  const weaveColumns: WeaveColumn[] = tip.category?.name
+    ? [{ heading: t('moreInCategory', { category: tip.category.name }), items: moreInItems }]
+    : [];
+
+  const journalItems: WeaveItem[] = recentArticles.slice(0, 3).map((a) => ({
+    id: a._id,
+    title: a.title,
+    kicker: a.category?.name,
+    href: `/blog/${a.slug}`,
+  }));
+
+  // ── Structured data ──
   const articleSchema = buildArticleSchema(
     {
       title: tip.title,
@@ -126,102 +148,119 @@ export default async function TravelTipDetailPage({ params }: Props) {
   );
   const breadcrumbSchema = buildBreadcrumbList(
     [
-      { name: 'Home', path: '/' },
+      { name: tNav('home'), path: '/' },
       { name: t('landingTitle'), path: '/travel-tips' },
       ...(tip.category?.name && tip.category.slug
-        ? [
-            {
-              name: tip.category.name,
-              path: `/travel-tips#category-${tip.category.slug}`,
-            },
-          ]
+        ? [{ name: tip.category.name, path: `/travel-tips#category-${tip.category.slug}` }]
         : []),
       { name: tip.title, path: `/travel-tips/${slug}` },
     ],
     locale as Locale
   );
 
+  const breadcrumbItems = [
+    { label: tNav('home'), href: '/' },
+    { label: t('breadcrumb'), href: '/travel-tips' },
+    ...(tip.category?.name && categoryHref
+      ? [{ label: tip.category.name, href: categoryHref }]
+      : []),
+    { label: tip.title },
+  ];
+
   return (
     <article>
       <JsonLd data={[articleSchema, breadcrumbSchema]} />
 
-      {/* Hero */}
-      {heroUrl && (
-        <div className="relative h-[55vh] min-h-[360px] w-full overflow-hidden bg-limestone-deep">
-          <Image
-            src={heroUrl}
-            alt={tip.heroImage?.alt || tip.title}
-            fill
-            priority
-            className="object-cover"
-            sizes="100vw"
-          />
+      {/* Breadcrumb + type-led header */}
+      <div className="mx-auto max-w-7xl px-6">
+        <Breadcrumb items={breadcrumbItems} className="pt-8" />
+
+        <header className="max-w-[820px] pt-12">
+          {tip.category?.name && categoryHref && (
+            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+              <Link href={categoryHref} className="transition-colors hover:text-night">
+                {tip.category.name}
+              </Link>
+            </p>
+          )}
+          <h1 className="font-serif text-[clamp(2.5rem,5.5vw,4.5rem)] font-normal leading-[1.04] tracking-[-0.01em] text-faience">
+            {tip.title}
+          </h1>
+          {tip.summary && (
+            <p className="mt-7 max-w-[680px] font-serif text-[clamp(1.375rem,2.3vw,1.75rem)] italic leading-snug text-night-soft">
+              {tip.summary}
+            </p>
+          )}
+          <div className="mt-9 flex flex-wrap items-center gap-x-4 border-y border-rule py-5 font-sans text-xs uppercase tracking-[0.08em] text-night-soft">
+            <span>{t('readingTime', { count: minutes })}</span>
+          </div>
+        </header>
+      </div>
+
+      {/* Optional lead image */}
+      {featureUrl && (
+        <div className="mx-auto mt-12 max-w-7xl px-6">
+          <figure>
+            <div className="relative aspect-[16/8] overflow-hidden bg-limestone-deep">
+              <Image
+                src={featureUrl}
+                alt={tip.heroImage?.alt || tip.title}
+                fill
+                sizes="(max-width: 1280px) 100vw, 1216px"
+                className="object-cover"
+                priority
+              />
+            </div>
+            {tip.heroImage?.caption && (
+              <figcaption className="mt-3 font-sans text-xs uppercase tracking-[0.08em] text-night-soft">
+                {tip.heroImage.caption}
+              </figcaption>
+            )}
+          </figure>
         </div>
       )}
 
-      <div className="mx-auto max-w-7xl px-6 py-16">
-        <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_320px]">
-          {/* Main column */}
-          <div>
-            {/* Headline block */}
-            <header className="mb-10">
-              {tip.category?.name && tip.category.slug && (
-                <p className="mb-4 font-sans text-xs font-semibold uppercase tracking-[0.18em] text-orange-deep">
-                  <Link
-                    href={`/travel-tips#category-${tip.category.slug}`}
-                    className="hover:text-ink"
-                  >
-                    {tip.category.name}
-                  </Link>
-                </p>
-              )}
-              <h1 className="mb-6 font-serif text-4xl font-medium leading-[1.1] text-night md:text-5xl">
-                {tip.title}
-              </h1>
-              {tip.summary && (
-                <p className="font-serif text-2xl italic leading-relaxed text-night-soft">
-                  {tip.summary}
-                </p>
-              )}
-            </header>
+      {/* Body: sticky sidebar + article */}
+      <div className="mx-auto max-w-7xl px-6">
+        <div className="grid grid-cols-1 gap-x-20 gap-y-10 py-16 lg:grid-cols-[220px_minmax(0,1fr)]">
+          <ArticleSidebar
+            headings={headings}
+            filedUnder={tip.category?.name ? [tip.category.name] : []}
+            shareTitle={tip.title}
+            labels={{
+              toc: tBlog('tocLabel'),
+              conciergeText: tBlog('sidebarConciergeText'),
+              conciergeCta: tBlog('sidebarConciergeCta'),
+              filedUnder: tBlog('filedUnderLabel'),
+              share: tBlog('shareLabel'),
+              copyLink: tBlog('shareCopyLink'),
+              copied: tBlog('shareCopied'),
+              email: tBlog('shareEmail'),
+            }}
+          />
 
-            {/* Body */}
+          <div className="min-w-0">
             {tip.body ? (
-              <div className="prose-editorial max-w-none">
+              <div className={`prose-editorial max-w-[680px] ${dropCap ? 'article-dropcap' : ''}`}>
                 <Body value={tip.body} locale={locale as Locale} />
               </div>
             ) : null}
           </div>
-
-          {/* Sidebar — category navigation */}
-          <aside className="lg:sticky lg:top-24 lg:self-start">
-            <TravelTipsSidebar
-              categories={categories}
-              currentCategorySlug={tip.category?.slug}
-              locale={locale}
-            />
-          </aside>
         </div>
-
-        {/* Related tips */}
-        {tip.relatedTips && tip.relatedTips.length > 0 && (
-          <section className="mt-20 border-t border-rule-strong pt-16">
-            <SectionHeader num="i" title={<>{t('relatedTipsHeading')}</>} />
-            <div className="grid grid-cols-1 gap-x-10 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-              {tip.relatedTips.map((rel) => (
-                <TravelTipCard
-                  key={rel._id}
-                  tip={rel}
-                  variant="default"
-                  locale={locale}
-                />
-              ))}
-            </div>
-          </section>
-        )}
       </div>
 
-      <ConciergeCTA variant="full" />
+      <ArticleRelatedWeave columns={weaveColumns} />
+
+      <ConciergeCTA variant="compact" contextLabel={t('conciergeAboutTips')} />
+      <ArticleFootBand
+        inSeasonLabel={t('footInSeasonLabel')}
+        inSeasonBody={t('footInSeasonBody')}
+        journalLabel={t('footJournalLabel')}
+        journalItems={journalItems}
+        practicalLabel={t('footPracticalLabel')}
+        practicalBody={t('footPracticalBody')}
+      />
+      <FloatingConcierge />
     </article>
   );
 }

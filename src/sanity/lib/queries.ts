@@ -1310,6 +1310,66 @@ export const allTravelTipSlugsQuery = groq`
   }
 `;
 
+/**
+ * Settings doc for the bespoke /travel-tips page: header, essay, optional
+ * cornerstone tip, and ordered departments (each a resolved category + intro).
+ */
+export const travelTipsArchiveQuery = (locale: Locale) => groq`
+  *[_type == "travelTipsArchive"][0]{
+    "kicker": ${localizedField('kicker', locale)},
+    "title": ${localizedField('mastTitle', locale)},
+    "tagline": ${localizedField('tagline', locale)},
+    "essayHeading": ${localizedField('essayHeading', locale)},
+    "essay": ${portableTextBodyProjection('essay', locale)},
+    "cornerstone": cornerstone{
+      "dek": ${localizedField('dek', locale)},
+      "tip": tip->{
+        _id,
+        "title": ${localizedField('title', locale)},
+        "slug": ${localizedSlug('slug', locale)},
+        "summary": ${localizedField('summary', locale)},
+        "category": category->{ "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)} },
+        heroImage{ ..., "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value) }
+      }
+    },
+    "departments": departments[]{
+      "intro": ${localizedField('intro', locale)},
+      "category": category->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)} }
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+/**
+ * All tips for the bespoke archive — card fields plus a `chars` count of the
+ * flattened body (locale, EN fallback) so the route can derive a read-time.
+ */
+export const travelTipsForArchiveQuery = (locale: Locale) => groq`
+  *[_type == "travelTip"] | order(category->orderRank asc, ${localizedField('title', locale)} asc){
+    _id,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "summary": ${localizedField('summary', locale)},
+    "chars": length(pt::text(coalesce(body[_key=="${locale}"][0].value, body[_key=="en"][0].value))),
+    "category": category->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)} }
+  }
+`;
+
+/** Sibling tips in the same category (for the detail page's "More in {category}"). */
+export const siblingTravelTipsQuery = (locale: Locale) => groq`
+  *[_type == "travelTip" && category._ref == $categoryId && _id != $excludeId]
+    | order(${localizedField('title', locale)} asc)[0...4]{
+    _id,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "summary": ${localizedField('summary', locale)}
+  }
+`;
+
 // ──────────────────────────────────────────────
 // Sitemap — every public-facing doc with its slugs and updated time.
 // Articles use document-level i18n (one doc per language with a plain
