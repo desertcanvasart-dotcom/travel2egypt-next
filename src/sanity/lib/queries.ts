@@ -526,6 +526,7 @@ const cruiseCardProjection = (locale: Locale) => `
   capacity,
   poweredBy,
   durationNights,
+  cruiseRoute,
   "name": ${localizedField('name', locale)},
   "slug": ${localizedSlug('slug', locale)},
   "allSlugs": slug[]{ _key, "current": value.current },
@@ -539,6 +540,38 @@ const cruiseCardProjection = (locale: Locale) => `
 export const allCruisesQuery = (locale: Locale) => groq`
   *[_type == "nileCruise"] | order(name asc){
     ${cruiseCardProjection(locale)}
+  }
+`;
+
+/**
+ * The /nile-cruises archive-settings document. Mirrors the others (no
+ * navigator). Referenced cruises resolve through the shared cruise card
+ * projection (now incl. cruiseRoute) so the route can derive vessel + route.
+ */
+export const nileCruisesArchiveQuery = (locale: Locale) => groq`
+  *[_type == "nileCruisesArchive"][0]{
+    "kicker": ${localizedField('kicker', locale)},
+    "title": ${localizedField('mastTitle', locale)},
+    "tagline": ${localizedField('tagline', locale)},
+    "essayHeading": ${localizedField('essayHeading', locale)},
+    "essay": ${portableTextBodyProjection('essay', locale)},
+    "featured": featured{
+      "dek": ${localizedField('dek', locale)},
+      "body": ${portableTextBodyProjection('body', locale)},
+      "cruise": cruise->{ ${cruiseCardProjection(locale)} }
+    },
+    "collections": collections[]{
+      "kicker": ${localizedField('kicker', locale)},
+      "title": ${localizedField('title', locale)},
+      "intro": ${localizedField('intro', locale)},
+      "variant": layoutVariant,
+      "cruises": cruises[]->{ ${cruiseCardProjection(locale)} }
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
   }
 `;
 

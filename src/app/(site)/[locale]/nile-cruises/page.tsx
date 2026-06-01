@@ -3,10 +3,21 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { type Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
-import { allCruisesQuery } from '@/sanity/lib/queries';
-import { CruiseCard, type CruiseCardData } from '@/components/CruiseCard';
+import {
+  allCruisesQuery,
+  nileCruisesArchiveQuery,
+  articlesByLanguageQuery,
+} from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
-import { CruisesFilter } from './CruisesFilter';
+import { ArchiveTemplate } from '@/components/archive/ArchiveTemplate';
+import type {
+  ArchiveItem,
+  ArchiveCollection,
+  FacetFilterGroup,
+  ItemFacet,
+  CollectionVariant,
+} from '@/components/archive/types';
+import type { WeaveItem } from '@/components/ArticleConnective';
 
 export async function generateMetadata({
   params,
@@ -14,7 +25,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: 'cruises' });
+  const t = await getTranslations({ locale, namespace: 'nileCruises' });
   return buildStaticMetadata({
     locale: locale as Locale,
     path: '/nile-cruises',
@@ -23,78 +34,194 @@ export async function generateMetadata({
   });
 }
 
-interface Props {
-  params: Promise<{ locale: string }>;
-  searchParams: Promise<{ type?: string; tier?: string }>;
+interface RawCruise {
+  _id: string;
+  name: string;
+  slug: string;
+  summary?: string;
+  type?: string;
+  cruiseRoute?: string;
+  heroImage?: { asset?: unknown; alt?: string } | null;
 }
 
-export default async function CruisesLandingPage({ params, searchParams }: Props) {
+interface ArchiveDoc {
+  kicker?: string;
+  title?: string;
+  tagline?: string;
+  essayHeading?: string;
+  essay?: unknown;
+  featured?: { dek?: string; body?: unknown; cruise?: RawCruise | null } | null;
+  collections?: Array<{
+    kicker?: string;
+    title?: string;
+    intro?: string;
+    variant?: string;
+    cruises?: RawCruise[];
+  }>;
+}
+
+/**
+ * Vessel + route are derived (the schema has clean `type` but no direction
+ * fields). Lake Nasser is treated as a ROUTE, not a vessel, so cards read
+ * "Ship · Lake Nasser" rather than duplicating. Nights are intentionally not a
+ * facet here — durationNights is unpopulated and these docs are vessel
+ * profiles, not fixed-length sailings (see archive README).
+ */
+function isLakeNasser(c: RawCruise): boolean {
+  return c.cruiseRoute === 'lake-nasser' || /nasser/i.test(c.name ?? '');
+}
+function deriveVessel(c: RawCruise): string {
+  if (/steam|sudan/i.test(c.name ?? '')) return 'steamer';
+  if (c.type === 'dahabiya') return 'dahabiya';
+  return 'ship';
+}
+
+const VESSEL_ORDER = ['dahabiya', 'ship', 'steamer'] as const;
+const ROUTE_ORDER = ['nile', 'lake-nasser'] as const;
+
+export default async function NileCruisesArchivePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
   const { locale } = await params;
-  const { type, tier } = await searchParams;
   setRequestLocale(locale);
 
-  const t = await getTranslations('cruises');
+  const t = await getTranslations('nileCruises');
+  const tArchive = await getTranslations('archive');
+  const tNav = await getTranslations('nav');
 
-  const cruises: CruiseCardData[] = await client.fetch(
-    allCruisesQuery(locale as Locale)
+  const [archive, cruises, recentArticles] = await Promise.all([
+    client.fetch<ArchiveDoc | null>(nileCruisesArchiveQuery(locale as Locale)),
+    client.fetch<RawCruise[]>(allCruisesQuery(locale as Locale)),
+    client.fetch<
+      Array<{ _id: string; title: string; slug: string; category?: { name?: string } | null }>
+    >(articlesByLanguageQuery, { locale }),
+  ]);
+
+  const vesselLabel = (key: string): string => {
+    switch (key) {
+      case 'dahabiya':
+        return t('vesselDahabiya');
+      case 'steamer':
+        return t('vesselSteamer');
+      default:
+        return t('vesselShip');
+    }
+  };
+  const routeLabel = (key: string): string =>
+    key === 'lake-nasser' ? t('routeLakeNasser') : t('routeNile');
+
+  const toItem = (c: RawCruise): ArchiveItem => {
+    const vessel = deriveVessel(c);
+    const route = isLakeNasser(c) ? 'lake-nasser' : 'nile';
+    const facets: ItemFacet[] = [
+      { key: 'vessel', value: vessel, label: vesselLabel(vessel), render: 'badge' },
+      { key: 'route', value: route, label: routeLabel(route), render: 'text' },
+    ];
+    return {
+      _id: c._id,
+      title: c.name,
+      href: `/nile-cruises/${c.slug}`,
+      summary: c.summary,
+      image: c.heroImage ?? null,
+      facets,
+    };
+  };
+
+  const indexItems = cruises.map(toItem);
+
+  // ── Facets: vessel + route, both exact (present values only) ──
+  const presentVessels = VESSEL_ORDER.filter((v) => cruises.some((c) => deriveVessel(c) === v));
+  const presentRoutes = ROUTE_ORDER.filter((r) =>
+    cruises.some((c) => (isLakeNasser(c) ? 'lake-nasser' : 'nile') === r)
   );
-
-  const typeOptions = [
-    { value: 'cruise-ship', label: t('typeCruiseShip') },
-    { value: 'yacht', label: t('typeYacht') },
-    { value: 'dahabiya', label: t('typeDahabiya') },
-    { value: 'felucca', label: t('typeFelucca') },
+  const filters: FacetFilterGroup[] = [
+    {
+      key: 'vessel',
+      paramKey: 'vessel',
+      label: t('filterVessel'),
+      options: presentVessels.map((v) => ({ value: v, label: vesselLabel(v) })),
+    },
+    {
+      key: 'route',
+      paramKey: 'route',
+      label: t('filterRoute'),
+      options: presentRoutes.map((r) => ({ value: r, label: routeLabel(r) })),
+    },
   ];
 
-  const tierOptions = [
-    { value: 'luxury', label: t('tierLuxury') },
-    { value: 'deluxe', label: t('tierDeluxe') },
-    { value: 'boutique', label: t('tierBoutique') },
-    { value: 'standard', label: t('tierStandard') },
-  ];
+  // ── Featured ──
+  const featured = archive?.featured?.cruise
+    ? {
+        kicker: t('featuredKicker'),
+        item: toItem(archive.featured.cruise),
+        dek: archive.featured.dek,
+        body: archive.featured.body,
+        linkLabel: t('featuredLink'),
+      }
+    : undefined;
 
-  const filtered = cruises.filter((cruise) => {
-    if (type && type !== 'all') {
-      if (cruise.type !== type) return false;
-    }
-    if (tier && tier !== 'all') {
-      if (cruise.tier !== tier) return false;
-    }
-    return true;
-  });
+  // ── Collections ──
+  const VARIANTS: CollectionVariant[] = ['lead', 'pair', 'trio'];
+  const collections: ArchiveCollection[] = (archive?.collections ?? [])
+    .map((c) => ({
+      kicker: c.kicker,
+      title: c.title ?? '',
+      intro: c.intro,
+      variant: (VARIANTS.includes(c.variant as CollectionVariant)
+        ? c.variant
+        : 'trio') as CollectionVariant,
+      items: (c.cruises ?? []).map(toItem),
+    }))
+    .filter((c) => c.title && c.items.length > 0);
+
+  const journalItems: WeaveItem[] = recentArticles.slice(0, 3).map((a) => ({
+    id: a._id,
+    title: a.title,
+    kicker: a.category?.name,
+    href: `/blog/${a.slug}`,
+  }));
+
+  const breadcrumbItems = [
+    { label: tNav('home'), href: '/' },
+    { label: t('breadcrumb') },
+  ];
 
   return (
-    <div className="mx-auto max-w-7xl px-6 py-16">
-      <header className="mb-12 max-w-3xl">
-        <h1 className="mb-4 font-serif text-5xl font-medium leading-tight text-ink md:text-6xl">
-          {t('landingTitle')}
-        </h1>
-        <p className="font-serif text-xl italic leading-relaxed text-ink-soft">
-          {t('landingDeck')}
-        </p>
-      </header>
-
-      <CruisesFilter
-        typeOptions={typeOptions}
-        tierOptions={tierOptions}
-        labels={{
-          filterType: t('filterType'),
-          filterTier: t('filterTier'),
-          filterAll: t('filterAll'),
-        }}
-      />
-
-      {filtered.length === 0 ? (
-        <p className="mt-12 font-serif text-lg italic text-ink-muted">
-          {t('noResults')}
-        </p>
-      ) : (
-        <div className="mt-12 grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((cruise) => (
-            <CruiseCard key={cruise._id} cruise={cruise} />
-          ))}
-        </div>
-      )}
-    </div>
+    <ArchiveTemplate
+      locale={locale as Locale}
+      breadcrumbItems={breadcrumbItems}
+      header={{
+        kicker: archive?.kicker,
+        title: archive?.title ?? t('landingTitle'),
+        tagline: archive?.tagline ?? t('landingDeck'),
+      }}
+      essay={archive?.essay ? { heading: archive.essayHeading, body: archive.essay } : undefined}
+      featured={featured}
+      collections={collections}
+      index={{
+        items: indexItems,
+        filters,
+        labels: {
+          kicker: tArchive('theIndex'),
+          title: t('indexTitle'),
+          intro: t('indexIntro'),
+          all: tArchive('all'),
+          empty: tArchive('emptyState'),
+        },
+      }}
+      itemNoun={t('itemNoun')}
+      collectionKicker={(n) => tArchive('collectionLabel', { number: n })}
+      conciergeContextLabel={t('conciergeAboutCruise')}
+      footBand={{
+        inSeasonLabel: t('footInSeasonLabel'),
+        inSeasonBody: t('footInSeasonBody'),
+        journalLabel: t('footJournalLabel'),
+        journalItems,
+        practicalLabel: t('footPracticalLabel'),
+        practicalBody: t('footPracticalBody'),
+      }}
+    />
   );
 }
