@@ -50,7 +50,8 @@ export default async function DistanceBetweenCitiesPage({ params }: Props) {
           regionLabel: t('regionLabel'),
           any: t('any'),
           reset: t('reset'),
-          resultsCount: t('resultsCount'),
+          // raw: contains a {count} placeholder the client component fills via .replace()
+          resultsCount: t.raw('resultsCount') as string,
           emptyState: t('emptyState'),
           colFrom: t('colFrom'),
           colTo: t('colTo'),

@@ -54,7 +54,8 @@ export default async function Page({ params }: Props) {
         cruisesLabel: t('cruisesLabel'),
         nileCruisesLabel: t('nileCruisesLabel'),
         lakeNasserCruisesLabel: t('lakeNasserCruisesLabel'),
-        emptyTierState: t('emptyTierState'),
+        // raw: contains a {tier} placeholder the client component fills via .replace()
+        emptyTierState: t.raw('emptyTierState') as string,
         jumpTo: t('jumpTo'),
       }}
     />
