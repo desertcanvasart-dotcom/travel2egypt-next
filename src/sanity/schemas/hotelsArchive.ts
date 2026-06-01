@@ -2,6 +2,10 @@ import { defineField, defineType } from 'sanity';
 import { CaseIcon } from '@sanity/icons';
 
 import { MIGRATION_GROUP, localizedPortableTextField, migrationField } from './_helpers';
+import {
+  ARCHIVE_ESSAY_EXTRA_BLOCKS,
+  CONCIERGE_NOTE_BLOCK,
+} from './_archiveBlocks';
 
 /**
  * Archive-settings document for the /hotels landing.
@@ -14,91 +18,11 @@ import { MIGRATION_GROUP, localizedPortableTextField, migrationField } from './_
  *
  * To add the next archive (tours / cruises / tips), copy this file, swap the
  * reference target type, and add a facet config in the route. See
- * src/components/archive/README.md.
+ * src/components/archive/README.md. The definitionList + conciergeNote essay
+ * blocks live in ./_archiveBlocks so every archive shares them.
  */
 
-/**
- * Extra portable-text blocks the essay/featured body support beyond the
- * standard set: a definition list (the Hotel Grade Concept term/description
- * rows) and the reusable concierge-note aside.
- */
-const DEFINITION_LIST_BLOCK = {
-  type: 'object',
-  name: 'definitionList',
-  title: 'Definition list',
-  description: 'Term + description rows — e.g. the hotel grades (Luxury, Deluxe, …).',
-  fields: [
-    defineField({
-      name: 'items',
-      title: 'Rows',
-      type: 'array',
-      of: [
-        {
-          type: 'object',
-          name: 'definition',
-          fields: [
-            defineField({
-              name: 'term',
-              title: 'Term',
-              type: 'internationalizedArrayString',
-              validation: (Rule: any) => Rule.required(),
-            }),
-            defineField({
-              name: 'description',
-              title: 'Description',
-              type: 'internationalizedArrayText',
-              validation: (Rule: any) => Rule.required(),
-            }),
-          ],
-          preview: {
-            select: { term: 'term.0.value', desc: 'description.0.value' },
-            prepare({ term, desc }: { term?: string; desc?: string }) {
-              return { title: term || 'Definition', subtitle: desc };
-            },
-          },
-        },
-      ],
-      validation: (Rule: any) => Rule.min(1),
-    }),
-  ],
-  preview: {
-    select: { items: 'items' },
-    prepare({ items }: { items?: unknown[] }) {
-      const n = Array.isArray(items) ? items.length : 0;
-      return { title: `Definition list — ${n} row${n === 1 ? '' : 's'}` };
-    },
-  },
-};
-
-const CONCIERGE_NOTE_BLOCK = {
-  type: 'object',
-  name: 'conciergeNote',
-  title: 'Concierge note',
-  description: 'A short first-person aside in the concierge voice. Gold-ruled italic aside.',
-  fields: [
-    defineField({
-      name: 'body',
-      title: 'Note',
-      type: 'array',
-      of: [
-        {
-          type: 'block',
-          styles: [{ title: 'Paragraph', value: 'normal' }],
-          marks: {
-            decorators: [
-              { title: 'Bold', value: 'strong' },
-              { title: 'Italic', value: 'em' },
-            ],
-            annotations: [],
-          },
-        },
-      ],
-      validation: (Rule: any) => Rule.required(),
-    }),
-  ],
-};
-
-const ESSAY_EXTRA_BLOCKS = [DEFINITION_LIST_BLOCK, CONCIERGE_NOTE_BLOCK];
+const ESSAY_EXTRA_BLOCKS = ARCHIVE_ESSAY_EXTRA_BLOCKS;
 
 export const hotelsArchiveSchema = defineType({
   name: 'hotelsArchive',

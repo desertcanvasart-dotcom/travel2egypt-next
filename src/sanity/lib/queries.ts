@@ -471,6 +471,50 @@ export const hotelsArchiveQuery = (locale: Locale) => groq`
   }
 `;
 
+/**
+ * The /private-day-tours archive-settings document. Mirrors hotelsArchive and
+ * adds a `navigator` whose entries resolve to existing tourLanding city
+ * sub-pages (slug + city) — the route computes the live per-city tour count.
+ */
+export const dayToursArchiveQuery = (locale: Locale) => groq`
+  *[_type == "dayToursArchive"][0]{
+    "kicker": ${localizedField('kicker', locale)},
+    "title": ${localizedField('mastTitle', locale)},
+    "tagline": ${localizedField('tagline', locale)},
+    "essayHeading": ${localizedField('essayHeading', locale)},
+    "essay": ${portableTextBodyProjection('essay', locale)},
+    "featured": featured{
+      "dek": ${localizedField('dek', locale)},
+      "body": ${portableTextBodyProjection('body', locale)},
+      "tour": tour->{ ${tourCardProjection(locale)} }
+    },
+    "collections": collections[]{
+      "kicker": ${localizedField('kicker', locale)},
+      "title": ${localizedField('title', locale)},
+      "intro": ${localizedField('intro', locale)},
+      "variant": layoutVariant,
+      "tours": tours[]->{ ${tourCardProjection(locale)} }
+    },
+    "navigator": navigator{
+      "heading": ${localizedField('heading', locale)},
+      "intro": ${localizedField('intro', locale)},
+      "items": items[]{
+        "note": ${localizedField('note', locale)},
+        "landing": landing->{
+          "slug": ${localizedSlug('slug', locale)},
+          "cityId": destinationCity._ref,
+          "cityName": coalesce(destinationCity->name[_key=="${locale}"][0].value, destinationCity->name[_key=="en"][0].value)
+        }
+      }
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
 // ──────────────────────────────────────────────
 // Nile cruise — list + detail + slug discovery
 // ──────────────────────────────────────────────

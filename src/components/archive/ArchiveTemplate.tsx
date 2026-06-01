@@ -8,8 +8,14 @@ import { ArchiveHeader } from './ArchiveHeader';
 import { ArchiveEssay } from './ArchiveEssay';
 import { FeaturedItem } from './FeaturedItem';
 import { ThemedCollection } from './ThemedCollection';
+import { ArchiveNavigator } from './ArchiveNavigator';
 import { ArchiveIndex } from './ArchiveIndex';
-import type { ArchiveCollection, ArchiveItem, FacetFilterGroup } from './types';
+import type {
+  ArchiveCollection,
+  ArchiveItem,
+  FacetFilterGroup,
+  NavigatorConfig,
+} from './types';
 
 const CONTAINER = 'mx-auto max-w-7xl px-6';
 
@@ -26,6 +32,8 @@ export interface ArchiveTemplateProps {
     linkLabel: string;
   };
   collections: ArchiveCollection[];
+  /** Optional "choose by destination" navigator. Omitted archives skip the section. */
+  navigator?: NavigatorConfig;
   index: {
     items: ArchiveItem[];
     filters: FacetFilterGroup[];
@@ -53,6 +61,7 @@ export function ArchiveTemplate({
   essay,
   featured,
   collections,
+  navigator,
   index,
   itemNoun,
   collectionKicker,
@@ -97,6 +106,12 @@ export function ArchiveTemplate({
               itemNoun={itemNoun}
             />
           ))}
+        </div>
+      )}
+
+      {navigator && navigator.items.length > 0 && (
+        <div className={CONTAINER}>
+          <ArchiveNavigator config={navigator} />
         </div>
       )}
 

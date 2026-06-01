@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import { useRouter, usePathname } from '@/i18n/navigation';
 
 import type { ArchiveItem, FacetFilterGroup } from './types';
+import { bucketKeyForValue } from './types';
 import { FacetBadgeLine } from './ArchiveCard';
 
 interface Labels {
@@ -50,6 +51,18 @@ export function ArchiveIndex({ items, filters, labels }: Props) {
     filters.every((group) => {
       const sel = selected[group.paramKey];
       if (!sel || sel === 'all') return true;
+      // Range facet: bucket the item's numeric value (falling back to its
+      // pre-bucketed key) and compare to the selected bucket. Exact facets
+      // are unchanged — hotels' grade/city keep matching identically.
+      if (group.kind === 'range' && group.buckets) {
+        const facet = item.facets.find((f) => f.key === group.key);
+        if (!facet) return false;
+        const bucketKey =
+          typeof facet.numericValue === 'number'
+            ? bucketKeyForValue(group.buckets, facet.numericValue)
+            : facet.value;
+        return bucketKey === sel;
+      }
       return item.facets.some((f) => f.key === group.key && f.value === sel);
     })
   );
@@ -73,28 +86,32 @@ export function ArchiveIndex({ items, filters, labels }: Props) {
         {filters.map((group) => {
           const current = selected[group.paramKey] ?? 'all';
           return (
-            <div
-              key={group.key}
-              role="group"
-              aria-label={group.label}
-              className="flex flex-wrap items-center gap-2"
-            >
-              <span className="mr-2 font-sans text-xs uppercase tracking-[0.14em] text-night-soft">
-                {group.label}
-              </span>
-              <FilterButton
-                label={labels.all}
-                active={current === 'all'}
-                onClick={() => update(group.paramKey, 'all')}
-              />
-              {group.options.map((opt) => (
+            <div key={group.key} className="flex flex-col gap-2">
+              <div
+                role="group"
+                aria-label={group.label}
+                className="flex flex-wrap items-center gap-2"
+              >
+                <span className="mr-2 font-sans text-xs uppercase tracking-[0.14em] text-night-soft">
+                  {group.label}
+                </span>
                 <FilterButton
-                  key={opt.value}
-                  label={opt.label}
-                  active={current === opt.value}
-                  onClick={() => update(group.paramKey, opt.value)}
+                  label={group.allLabel ?? labels.all}
+                  active={current === 'all'}
+                  onClick={() => update(group.paramKey, 'all')}
                 />
-              ))}
+                {group.options.map((opt) => (
+                  <FilterButton
+                    key={opt.value}
+                    label={opt.label}
+                    active={current === opt.value}
+                    onClick={() => update(group.paramKey, opt.value)}
+                  />
+                ))}
+              </div>
+              {group.hint && (
+                <p className="font-serif text-sm italic text-night-soft">{group.hint}</p>
+              )}
             </div>
           );
         })}
