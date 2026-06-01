@@ -81,6 +81,25 @@ const FIXES: Fix[] = [
   // Bahariya: the Zed-Amun-ef-ankh / Bannentiu tombs are at Qarat Qasr Salim,
   // not Ain El-Hubaga (consistent with Travel Guide / History / Things to Do).
   { city: 'bahariya-oasis', slug: 'bawiti', find: 'The Decorated Tombs of Ain El-Hubaga', replace: 'The Decorated Tombs of Qarat Qasr Salim', note: 'Bawiti tomb location consistency' },
+  // --- Second-pass consistency (verified against current live content) ---
+  // Bir Umm Fawakhir is ~halfway on the ~180 km Quft–Quseir road, so ~90 km W.
+  { city: 'al-quseir', slug: 'tours-in-al-quseir', find: 'Bir Umm Fawakhir, about sixty kilometres west on the Wadi Hammamat road', replace: 'Bir Umm Fawakhir, about ninety kilometres west on the Wadi Hammamat road', note: 'Bir Umm Fawakhir distance' },
+  // Esna: the pronaos IS the hypostyle hall (begun under Claudius); only its
+  // rear wall is Ptolemaic. Fixes the self-contradiction.
+  { city: 'esna', slug: 'history-of-esna', find: 'Construction of the pronaos began under Ptolemy VI Philometor in the second century BC.', replace: 'Only the rear wall of the pronaos is Ptolemaic, built under Ptolemy VI Philometor and Ptolemy VIII Euergetes in the second century BC.', note: 'Esna pronaos build-history' },
+  // El Gouna → Hurghada Intl Airport ~35–40 km (was understated 26–30).
+  { city: 'al-gouna', slug: 'getting-around-in-al-gouna', find: 'around 26 to 30 kilometres south of El Gouna', replace: 'around 35 to 40 kilometres south of El Gouna', note: 'airport distance' },
+  { city: 'al-gouna', slug: 'how-to-reach-al-gouna', find: 'roughly 26 to 30 kilometres south of El Gouna', replace: 'roughly 35 to 40 kilometres south of El Gouna', note: 'airport distance' },
+  // Qasr al-Ghueita: align History page to Things-to-do (Persian main construction).
+  { city: 'al-wadi-al-gadid', slug: 'history-of-al-wadi-al-gadid', find: 'began in the Twenty-Fifth Dynasty and was later expanded', replace: 'dates mainly to the Persian period in the late sixth century BC and was later expanded', note: 'Qasr al-Ghueita date consistency' },
+  // Cairo Geniza: align Coptic Cairo summary to the dedicated Ben Ezra page.
+  { city: 'cairo', slug: 'coptic-cairo', find: 'approximately 300,000 manuscript fragments dating from the ninth to nineteenth centuries', replace: 'around 400,000 manuscript fragments dating from the sixth to nineteenth centuries', note: 'Cairo Geniza figures' },
+  // Qasr Qarun has no inscriptions; the two pages disagree on century — broaden
+  // both to "the Ptolemaic period" to remove the contradiction honestly.
+  { city: 'al-fayoum', slug: 'al-fayoum-events', find: 'the Ptolemaic period — roughly the 3rd to 2nd century BC — and stands', replace: 'the Ptolemaic period, and stands', note: 'Qasr Qarun date consistency' },
+  { city: 'al-fayoum', slug: 'things-to-do-in-al-fayoum', find: 'the late Ptolemaic period — roughly the 1st century BC — and consists', replace: 'the Ptolemaic period, and consists', note: 'Qasr Qarun date consistency' },
+  // Abu Simbel solar-festival page: last drive-time outlier → 3.5–4h (cluster-wide).
+  { city: 'abu-simbel', slug: 'upcoming-events-in-abu-simbel', find: 'the drive takes about three to three and a half hours', replace: 'the drive takes about three and a half to four hours', note: 'Aswan–Abu Simbel drive time consistency' },
 ];
 
 interface Span { _type: string; _key?: string; text?: string }
