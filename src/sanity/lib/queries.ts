@@ -972,6 +972,14 @@ export const articleBySlugQuery = groq`
       heroImage
     },
     "categoryId": category._ref,
+    "categoryTrail": category->{
+      "name": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
+      "parent": parent->{
+        "name": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value),
+        "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
+      }
+    },
     "primaryCity": relatedCities[0]->{
       _id,
       "name": coalesce(name[_key==^.language][0].value, name[_key=="en"][0].value),

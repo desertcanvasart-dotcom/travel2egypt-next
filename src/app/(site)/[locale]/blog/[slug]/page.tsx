@@ -30,6 +30,11 @@ import {
   buildArticleSchema,
   buildBreadcrumbList,
 } from '@/lib/structured-data';
+import {
+  buildBlogTrail,
+  toVisibleCrumbs,
+  toSchemaCrumbs,
+} from '@/lib/blog-breadcrumb';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -88,6 +93,11 @@ interface ArticleDoc {
   } | null;
   category?: { name: string; slug: string } | null;
   categoryId?: string | null;
+  categoryTrail?: {
+    name: string;
+    slug: string;
+    parent?: { name: string; slug: string } | null;
+  } | null;
   author?: {
     _id: string;
     name: string;
@@ -240,25 +250,16 @@ export default async function ArticlePage({ params }: Props) {
     },
     locale as Locale
   );
-  const breadcrumbSchema = buildBreadcrumbList(
-    [
-      { name: 'Home', path: '/' },
-      { name: tNav('blog'), path: '/blog' },
-      ...(article.category
-        ? [{ name: article.category.name, path: `/blog/category/${article.category.slug}` }]
-        : []),
-      { name: article.title, path: `/blog/${slug}` },
-    ],
-    locale as Locale
-  );
-
-  const breadcrumbItems = [
-    { label: tNav('blog'), href: '/blog' },
-    ...(article.category
-      ? [{ label: article.category.name, href: `/blog/category/${article.category.slug}` }]
-      : []),
-    { label: article.title },
-  ];
+  // Home › Journal › Section › Subcategory › Title — one builder feeds both
+  // the visible breadcrumb and the JSON-LD, so they never drift.
+  const trail = buildBlogTrail({
+    homeLabel: tNav('home'),
+    journalLabel: tNav('blog'),
+    category: article.categoryTrail ?? null,
+    article: { title: article.title, slug },
+  });
+  const breadcrumbItems = toVisibleCrumbs(trail);
+  const breadcrumbSchema = buildBreadcrumbList(toSchemaCrumbs(trail), locale as Locale);
 
   return (
     <article>
@@ -269,13 +270,13 @@ export default async function ArticlePage({ params }: Props) {
         <Breadcrumb items={breadcrumbItems} className="pt-8" />
 
         <header className="max-w-[820px] pt-12">
-          {article.category && (
+          {article.categoryTrail && (
             <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
               <Link
-                href={`/blog/category/${article.category.slug}`}
+                href={`/blog/category/${article.categoryTrail.slug}`}
                 className="transition-colors hover:text-night"
               >
-                {article.category.name}
+                {article.categoryTrail.name}
               </Link>
             </p>
           )}
