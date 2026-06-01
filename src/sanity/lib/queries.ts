@@ -1152,7 +1152,10 @@ export const sitemapDocsQuery = groq`
       // wikiMonument ships in v1.
       "wikiMonument",
       "hotel", "nileCruise", "page", "legalPage"
-    ] && !(_id in path("drafts.**"))]{
+    ] && !(_id in path("drafts.**"))
+      // Exclude soft-archived/hidden guideArticles (e.g. de-duplicated legacy
+      // pages) so they drop out of the sitemap; their slugs 301 elsewhere.
+      && !(_type == "guideArticle" && hidden == true)]{
       _id,
       _type,
       _updatedAt,
