@@ -38,6 +38,16 @@ const SISTER_BRAND_DESCRIPTIONS: Record<Locale, Record<string, string>> = {
   },
 };
 
+// Accreditation bodies + review profile shown as text links in the footer.
+// Swap any href for your specific membership/verification page if preferred.
+const TRUST_LINKS = [
+  { name: 'TripAdvisor', url: 'https://www.tripadvisor.com/Attraction_Review-g294201-d17406742-Reviews-Travel2Egypt-Cairo_Cairo_Governorate.html' },
+  { name: 'IATA', url: 'https://www.iata.org/' },
+  { name: 'ASTA', url: 'https://www.asta.org/' },
+  { name: 'ETAA', url: 'https://www.etaa-egypt.org/' },
+  { name: 'JATA', url: 'https://www.jata-net.or.jp/' },
+] as const;
+
 const LEGAL_LINKS = [
   { href: '/privacy-policy', key: 'privacy' },
   { href: '/terms',          key: 'terms' },
@@ -128,6 +138,26 @@ export function Footer({ locale }: FooterProps) {
                 <span className="font-serif text-sm italic text-night-soft">
                   {descriptions[brand.descriptionKey]}
                 </span>
+              </a>
+            ))}
+          </div>
+        </div>
+
+        {/* Accreditations & reviews */}
+        <div className="mt-12 border-t border-rule-strong pt-8">
+          <h4 className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.16em] text-night-soft">
+            {t('trustLabel')}
+          </h4>
+          <div className="flex flex-wrap gap-x-6 gap-y-2 text-[0.9375rem] text-night">
+            {TRUST_LINKS.map((item) => (
+              <a
+                key={item.name}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="transition-colors hover:text-faience"
+              >
+                {item.name}
               </a>
             ))}
           </div>
