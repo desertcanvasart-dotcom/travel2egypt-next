@@ -43,6 +43,31 @@ no facet key is hardcoded. Per archive type, the **facets** differ:
 | nile-cruises       | `nights`, `route`            |
 | travel-tips        | `category`                   |
 
+### ⚠️ TODO before the tours / cruises archives — RANGE facets
+
+The facet filter model is currently **exact-match only** (`badge` / `stars` /
+`text`): a row matches a filter when `facet.value === selected`. That works for
+grade, city, route, category.
+
+It does **not** work for `duration` (private-day-tours) or `nights`
+(nile-cruises), which travelers filter by **range**, not exact value — e.g.
+"2–5 days", "6–10", "11+". A `duration=3` exact filter would hide a 4-day tour.
+
+**Resolve this first when adding the tours archive.** Two options:
+
+1. **Pre-bucket at query time (no template change):** map each item's raw
+   duration to a bucket label and emit it as a normal `badge`/`text` facet
+   (`value: '2-5'`, `label: '2–5 days'`), with the filter options being those
+   buckets. Simplest; keeps `ArchiveIndex` exact-match. Downside: bucket
+   boundaries are fixed in the route, not data-driven.
+2. **Add a `range` facet type to `ArchiveIndex`:** the facet carries a numeric
+   value; the filter group defines ranges (`{min,max,label}[]`); matching tests
+   `min <= value <= max`. More general, reusable across both archives, but
+   touches the template's filter logic and `types.ts`.
+
+Recommendation: option 2 if both tours and cruises need it (they do), so the
+range logic lives once in the template rather than being re-bucketed per route.
+
 ## Adding a new archive (no template edits)
 
 1. **Schema** — copy `src/sanity/schemas/hotelsArchive.ts` to e.g.
