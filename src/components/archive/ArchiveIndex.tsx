@@ -16,56 +16,43 @@ interface Labels {
   empty: string;
 }
 
-interface Props {
+interface ViewProps {
   items: ArchiveItem[];
   filters: FacetFilterGroup[];
   labels: Labels;
+  /** Current selection per paramKey (defaults to 'all'). */
+  selected: Record<string, string>;
+  /** Filter handler. Omitted in the static fallback → buttons are inert. */
+  onSelect?: (paramKey: string, value: string) => void;
+}
+
+function matches(item: ArchiveItem, filters: FacetFilterGroup[], selected: Record<string, string>) {
+  return filters.every((group) => {
+    const sel = selected[group.paramKey];
+    if (!sel || sel === 'all') return true;
+    // Range facet: bucket the item's numeric value (falling back to its
+    // pre-bucketed key). Exact facets are unchanged.
+    if (group.kind === 'range' && group.buckets) {
+      const facet = item.facets.find((f) => f.key === group.key);
+      if (!facet) return false;
+      const bucketKey =
+        typeof facet.numericValue === 'number'
+          ? bucketKeyForValue(group.buckets, facet.numericValue)
+          : facet.value;
+      return bucketKey === sel;
+    }
+    return item.facets.some((f) => f.key === group.key && f.value === sel);
+  });
 }
 
 /**
- * Dense, faceted index of every item. Filtering is client-side over the
- * fetched set (counts are small) and URL-syncable via query params, so a
- * filtered view is shareable and survives reload. Without JS the full list
- * renders (progressive enhancement). Buttons expose aria-pressed and group
- * semantics; an empty result shows a message rather than a blank list.
+ * Presentational index — header + faceted filter pills + dense rows. Pure
+ * function of `selected`; no hooks, so it doubles as the Suspense fallback
+ * (rendered server-side with everything unfiltered, keeping the rows in the
+ * static HTML). The client `ArchiveIndex` supplies `selected` + `onSelect`.
  */
-export function ArchiveIndex({ items, filters, labels }: Props) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
-
-  const selected: Record<string, string> = {};
-  for (const group of filters) {
-    selected[group.paramKey] = searchParams.get(group.paramKey) ?? 'all';
-  }
-
-  function update(paramKey: string, value: string) {
-    const params = new URLSearchParams(searchParams.toString());
-    if (value === 'all') params.delete(paramKey);
-    else params.set(paramKey, value);
-    const qs = params.toString();
-    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
-  }
-
-  const filtered = items.filter((item) =>
-    filters.every((group) => {
-      const sel = selected[group.paramKey];
-      if (!sel || sel === 'all') return true;
-      // Range facet: bucket the item's numeric value (falling back to its
-      // pre-bucketed key) and compare to the selected bucket. Exact facets
-      // are unchanged — hotels' grade/city keep matching identically.
-      if (group.kind === 'range' && group.buckets) {
-        const facet = item.facets.find((f) => f.key === group.key);
-        if (!facet) return false;
-        const bucketKey =
-          typeof facet.numericValue === 'number'
-            ? bucketKeyForValue(group.buckets, facet.numericValue)
-            : facet.value;
-        return bucketKey === sel;
-      }
-      return item.facets.some((f) => f.key === group.key && f.value === sel);
-    })
-  );
+export function ArchiveIndexView({ items, filters, labels, selected, onSelect }: ViewProps) {
+  const filtered = items.filter((item) => matches(item, filters, selected));
 
   return (
     <section className="border-t border-rule py-20 md:py-24">
@@ -87,25 +74,21 @@ export function ArchiveIndex({ items, filters, labels }: Props) {
           const current = selected[group.paramKey] ?? 'all';
           return (
             <div key={group.key} className="flex flex-col gap-2">
-              <div
-                role="group"
-                aria-label={group.label}
-                className="flex flex-wrap items-center gap-2"
-              >
+              <div role="group" aria-label={group.label} className="flex flex-wrap items-center gap-2">
                 <span className="mr-2 font-sans text-xs uppercase tracking-[0.14em] text-night-soft">
                   {group.label}
                 </span>
                 <FilterButton
                   label={group.allLabel ?? labels.all}
                   active={current === 'all'}
-                  onClick={() => update(group.paramKey, 'all')}
+                  onClick={onSelect ? () => onSelect(group.paramKey, 'all') : undefined}
                 />
                 {group.options.map((opt) => (
                   <FilterButton
                     key={opt.value}
                     label={opt.label}
                     active={current === opt.value}
-                    onClick={() => update(group.paramKey, opt.value)}
+                    onClick={onSelect ? () => onSelect(group.paramKey, opt.value) : undefined}
                   />
                 ))}
               </div>
@@ -148,6 +131,42 @@ export function ArchiveIndex({ items, filters, labels }: Props) {
   );
 }
 
+/**
+ * Client index — reads/writes the URL query params and feeds selection into
+ * ArchiveIndexView. Must be rendered inside a <Suspense> boundary (useSearchParams
+ * triggers a CSR bailout during static prerender); ArchiveTemplate provides it.
+ */
+export function ArchiveIndex({
+  items,
+  filters,
+  labels,
+}: {
+  items: ArchiveItem[];
+  filters: FacetFilterGroup[];
+  labels: Labels;
+}) {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const selected: Record<string, string> = {};
+  for (const group of filters) {
+    selected[group.paramKey] = searchParams.get(group.paramKey) ?? 'all';
+  }
+
+  function update(paramKey: string, value: string) {
+    const params = new URLSearchParams(searchParams.toString());
+    if (value === 'all') params.delete(paramKey);
+    else params.set(paramKey, value);
+    const qs = params.toString();
+    router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+  }
+
+  return (
+    <ArchiveIndexView items={items} filters={filters} labels={labels} selected={selected} onSelect={update} />
+  );
+}
+
 function FilterButton({
   label,
   active,
@@ -155,7 +174,7 @@ function FilterButton({
 }: {
   label: string;
   active: boolean;
-  onClick: () => void;
+  onClick?: () => void;
 }) {
   return (
     <button
