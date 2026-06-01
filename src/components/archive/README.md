@@ -36,12 +36,21 @@ interface ArchiveItem {
 Facets are generic. Cards and index rows render them by their `render` hint —
 no facet key is hardcoded. Per archive type, the **facets** differ:
 
-| Archive            | facets                       |
-| ------------------ | ---------------------------- |
-| hotels             | `grade`, `stars`, `city`     |
-| private-day-tours  | `duration`, `city`           |
-| nile-cruises       | `nights`, `route`            |
-| travel-tips        | `category`                   |
+| Archive            | facets                              |
+| ------------------ | ----------------------------------- |
+| hotels             | `grade`, `stars`, `city`            |
+| private-day-tours  | `duration` (range), `city`          |
+| nile-cruises       | `vessel`, `route` — `nights` deferred |
+| travel-tips        | `category`                          |
+
+> **nile-cruises / nights:** the original plan had a `nights` range facet, but
+> `durationNights` is unpopulated (0/50) and the `nileCruise` docs are *vessel
+> profiles*, not fixed-length sailings — so a single nights value per doc is
+> semantically wrong and would invent product facts. The index filters by
+> `vessel` (dahabiya/ship/steamer — derived from `type` + name) and `route`
+> (Nile/Lake Nasser — Lake Nasser lives in `route`, not `vessel`, so cards read
+> "Ship · Lake Nasser" without duplication). Wire the `nights` range facet only
+> if dated cruise itineraries (with real nights) are later modeled.
 
 ### Range facets (implemented)
 
