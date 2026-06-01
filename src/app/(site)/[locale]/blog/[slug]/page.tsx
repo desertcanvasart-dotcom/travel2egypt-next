@@ -365,8 +365,9 @@ export default async function ArticlePage({ params }: Props) {
               </div>
             )}
 
-            {/* Author bio */}
-            {article.authorBio?.bio ? (
+            {/* Author bio — skip for archive pieces, where it would just
+                duplicate the archive attribution box above. */}
+            {!isArchive && article.authorBio?.bio ? (
               <section className="mt-12 max-w-[680px] border border-rule bg-limestone-warm p-8">
                 <div className="flex items-center gap-4">
                   {authorPhotoUrl && (
