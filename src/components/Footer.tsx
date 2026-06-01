@@ -44,7 +44,7 @@ const TRUST_LINKS = [
   { name: 'TripAdvisor', url: 'https://www.tripadvisor.com/Attraction_Review-g294201-d17406742-Reviews-Travel2Egypt-Cairo_Cairo_Governorate.html' },
   { name: 'IATA', url: 'https://www.iata.org/' },
   { name: 'ASTA', url: 'https://www.asta.org/' },
-  { name: 'ETAA', url: 'https://www.etaa-egypt.org/' },
+  { name: 'ETAA', url: 'https://www.etaa-egypt.org/SitePages/CompanyDetailsEn.aspx?licc=198' },
   { name: 'JATA', url: 'https://www.jata-net.or.jp/' },
 ] as const;
 
