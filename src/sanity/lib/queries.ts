@@ -352,6 +352,33 @@ export const dayToursByModeQuery = (locale: Locale) => groq`
 `;
 
 /**
+ * Sibling day tours in the same city + track (for the single tour page's
+ * related weave). $mode = tourMode, $cityId = a city ref, $excludeId = current.
+ */
+export const siblingDayToursQuery = (locale: Locale) => groq`
+  *[_type == "tour" && type == "dayTour" && tourMode == $mode
+    && $cityId in cities[]._ref && _id != $excludeId]
+    | order(_createdAt desc)[0...6]{
+    _id,
+    "title": ${localizedField('title', locale)},
+    "slug": ${localizedSlug('slug', locale)},
+    "summary": ${localizedField('summary', locale)}
+  }
+`;
+
+/**
+ * The OTHER day-tour track's landing slug for the same city (private ↔ group),
+ * for the subcategory cross-links. Returns null when that track has no landing
+ * in this city. $cityId = destinationCity._ref, $otherKey = the opposite
+ * category key.
+ */
+export const otherTrackLandingSlugQuery = (locale: Locale) => groq`
+  *[_type == "tourLanding" && category->key == $otherKey && destinationCity._ref == $cityId][0]{
+    "slug": ${localizedSlug('slug', locale)}
+  }
+`;
+
+/**
  * Packages grouped by theme. Returns a list of themes ordered by orderRank,
  * each with its packages nested. Themes without packages are filtered out.
  */

@@ -7,6 +7,7 @@ import {
   localizedSlugField,
   migrationField,
 } from './_helpers';
+import { ARCHIVE_ESSAY_EXTRA_BLOCKS } from './_archiveBlocks';
 
 /**
  * Tour sub-category landing page. Sits one level under tourCategory and
@@ -105,10 +106,20 @@ export const tourLandingSchema = defineType({
     defineField(
       localizedPortableTextField('intro', {
         title: 'Intro',
-        description: 'Editorial body shown above the tour listing.',
+        description:
+          'Editorial body shown above the tour listing. Supports a concierge note and a definition list.',
         group: 'content',
+        extraBlocks: ARCHIVE_ESSAY_EXTRA_BLOCKS,
       }) as any,
     ),
+    defineField({
+      name: 'ctaContext',
+      title: 'Concierge CTA context (optional)',
+      description:
+        'Overrides the concierge CTA button label on this landing. Falls back to a city-derived label (e.g. "Talk to our concierge about Sharm El-Sheikh").',
+      type: 'internationalizedArrayString',
+      group: 'content',
+    }),
     defineField(
       localizedPortableTextField('faq', {
         title: 'FAQ',
