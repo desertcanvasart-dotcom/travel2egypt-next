@@ -344,7 +344,26 @@
     "categoryStandard": "Estándar",
     "categoryDeluxe": "Deluxe",
     "categoryLuxury": "Lujo",
-    "categoryBoutique": "Boutique"
+    "categoryBoutique": "Boutique",
+    "breadcrumb": "Hoteles",
+    "filterGrade": "Categoría",
+    "itemNoun": "establecimientos",
+    "indexTitle": "Todos los hoteles",
+    "indexIntro": "La lista completa. Filtra por categoría y ciudad si ya sabes lo que buscas.",
+    "featuredKicker": "El que reservaríamos nosotros · Esta temporada",
+    "featuredLink": "Leer nuestra reseña completa",
+    "conciergeAboutHotels": "Habla con nuestro concierge sobre hoteles",
+    "footInSeasonLabel": "En temporada ahora",
+    "footInSeasonBody": "De noviembre a marzo es temporada alta en el Nilo: los hoteles a orillas del río en Luxor y Asuán se llenan primero. Reserva pronto las habitaciones emblemáticas.\n\nLa costa del mar Rojo funciona todo el año; es más apacible en octubre y abril.",
+    "footJournalLabel": "Desde el Diario",
+    "footPracticalLabel": "Notas prácticas",
+    "footPracticalBody": "Las categorías describen la experiencia, no el número de servicios — lee el ensayo de arriba antes de filtrar por estrellas.\n\nAnte la duda sobre qué establecimiento encaja con el viaje, pregúntanos. Ajustar el hotel al itinerario es la mitad de lo que hacemos."
+  },
+  "archive": {
+    "all": "Todos",
+    "collectionLabel": "Colección №{number}",
+    "emptyState": "Nada coincide con esos filtros todavía.",
+    "theIndex": "El índice"
   },
   "hotel": {
     "breadcrumbLabel": "Hoteles",

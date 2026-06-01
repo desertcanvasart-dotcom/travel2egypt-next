@@ -344,7 +344,26 @@
     "categoryStandard": "スタンダード",
     "categoryDeluxe": "デラックス",
     "categoryLuxury": "ラグジュアリー",
-    "categoryBoutique": "ブティック"
+    "categoryBoutique": "ブティック",
+    "breadcrumb": "ホテル",
+    "filterGrade": "グレード",
+    "itemNoun": "軒",
+    "indexTitle": "すべてのホテル",
+    "indexIntro": "全リスト。お探しの条件が決まっていれば、グレードと都市で絞り込めます。",
+    "featuredKicker": "私たちが自分で予約する一軒 · 今シーズン",
+    "featuredLink": "詳しいレビューを読む",
+    "conciergeAboutHotels": "ホテルについてコンシェルジュに相談する",
+    "footInSeasonLabel": "今のシーズン",
+    "footInSeasonBody": "11月から3月はナイル川のハイシーズン。ルクソールやアスワンの川沿いホテルから先に埋まります。象徴的な部屋は早めにご予約を。\n\n紅海沿岸は通年営業で、10月と4月が最も穏やかです。",
+    "footJournalLabel": "ジャーナルから",
+    "footPracticalLabel": "実用メモ",
+    "footPracticalBody": "グレードは設備の数ではなく滞在の質を表します。星で絞り込む前に、上のエッセイをお読みください。\n\nどのホテルが旅に合うか迷ったら、ぜひご相談を。旅程に合わせてホテルを選ぶことが、私たちの仕事の半分です。"
+  },
+  "archive": {
+    "all": "すべて",
+    "collectionLabel": "コレクション №{number}",
+    "emptyState": "条件に一致するものがまだありません。",
+    "theIndex": "インデックス"
   },
   "hotel": {
     "breadcrumbLabel": "ホテル",

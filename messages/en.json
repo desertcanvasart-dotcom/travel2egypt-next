@@ -344,7 +344,26 @@
     "categoryStandard": "Standard",
     "categoryDeluxe": "Deluxe",
     "categoryLuxury": "Luxury",
-    "categoryBoutique": "Boutique"
+    "categoryBoutique": "Boutique",
+    "breadcrumb": "Hotels",
+    "filterGrade": "Grade",
+    "itemNoun": "properties",
+    "indexTitle": "Every property",
+    "indexIntro": "The full list. Filter by grade and city if you already know what you're after.",
+    "featuredKicker": "The one we'd book ourselves · This season",
+    "featuredLink": "Read our full review",
+    "conciergeAboutHotels": "Talk to our concierge about hotels",
+    "footInSeasonLabel": "In season now",
+    "footInSeasonBody": "November to March is high season on the Nile — the river hotels in Luxor and Aswan book out first. Reserve the landmark rooms early.\n\nThe Red Sea coast runs year-round; it is gentlest in October and April.",
+    "footJournalLabel": "From the Journal",
+    "footPracticalLabel": "Practical notes",
+    "footPracticalBody": "Grades describe the experience, not the facility count — read the essay above before filtering by stars.\n\nWhen in doubt about which property suits the trip, ask us. Matching the hotel to the journey is half of what we do."
+  },
+  "archive": {
+    "all": "All",
+    "collectionLabel": "Collection №{number}",
+    "emptyState": "Nothing matches those filters yet.",
+    "theIndex": "The index"
   },
   "hotel": {
     "breadcrumbLabel": "Hotels",

@@ -198,7 +198,17 @@ export function localizedSlugField(options?: {
  */
 export function localizedPortableTextField(
   name: string,
-  options?: { title?: string; description?: string; group?: string }
+  options?: {
+    title?: string;
+    description?: string;
+    group?: string;
+    /**
+     * Extra block members appended to the per-locale body's `of` array — e.g.
+     * the archive essay passes `definitionList` and `conciergeNote`. Existing
+     * callers omit it and keep the standard block set unchanged.
+     */
+    extraBlocks?: any[];
+  }
 ) {
   return {
     name,
@@ -398,6 +408,7 @@ export function localizedPortableTextField(
                   },
                 },
               },
+              ...(options?.extraBlocks ?? []),
             ],
           }),
         ],

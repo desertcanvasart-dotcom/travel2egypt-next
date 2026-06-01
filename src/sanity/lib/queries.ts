@@ -439,6 +439,38 @@ export const allHotelSlugsQuery = groq`
   }
 `;
 
+/**
+ * The /hotels archive-settings document: header copy, essay, featured hotel,
+ * and ordered themed collections. Referenced hotels resolve through the shared
+ * hotel card projection so the ArchiveTemplate can render them as items.
+ */
+export const hotelsArchiveQuery = (locale: Locale) => groq`
+  *[_type == "hotelsArchive"][0]{
+    "kicker": ${localizedField('kicker', locale)},
+    "title": ${localizedField('mastTitle', locale)},
+    "tagline": ${localizedField('tagline', locale)},
+    "essayHeading": ${localizedField('essayHeading', locale)},
+    "essay": ${portableTextBodyProjection('essay', locale)},
+    "featured": featured{
+      "dek": ${localizedField('dek', locale)},
+      "body": ${portableTextBodyProjection('body', locale)},
+      "hotel": hotel->{ ${hotelCardProjection(locale)} }
+    },
+    "collections": collections[]{
+      "kicker": ${localizedField('kicker', locale)},
+      "title": ${localizedField('title', locale)},
+      "intro": ${localizedField('intro', locale)},
+      "variant": layoutVariant,
+      "hotels": hotels[]->{ ${hotelCardProjection(locale)} }
+    },
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
 // ──────────────────────────────────────────────
 // Nile cruise — list + detail + slug discovery
 // ──────────────────────────────────────────────

@@ -91,6 +91,32 @@ export function Body({ value, locale }: BodyProps) {
           </aside>
         );
       },
+      definitionList: ({ value }) => {
+        const items = (Array.isArray(value?.items) ? value.items : []).filter(Boolean);
+        if (items.length === 0) return null;
+        return (
+          <dl className="my-7 border-t border-rule">
+            {items.map((row: any, i: number) => {
+              const term = readLocalized(row?.term, locale);
+              const desc = readLocalized(row?.description, locale);
+              if (!term && !desc) return null;
+              return (
+                <div
+                  key={row?._key ?? i}
+                  className="grid grid-cols-1 gap-2 border-b border-rule py-3.5 sm:grid-cols-[130px_1fr] sm:gap-6"
+                >
+                  <dt className="pt-1 font-sans text-xs uppercase tracking-[0.14em] text-sand-warm">
+                    {term}
+                  </dt>
+                  <dd className="font-sans text-[0.9375rem] leading-relaxed text-night-soft">
+                    {desc}
+                  </dd>
+                </div>
+              );
+            })}
+          </dl>
+        );
+      },
       image: ({ value }) => {
         if (!value?.asset?._ref) return null;
         const url = urlFor(value).width(1400).quality(85).url();
