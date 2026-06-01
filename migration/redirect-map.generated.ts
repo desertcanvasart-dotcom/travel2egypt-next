@@ -8428,11 +8428,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/es/guide/dahab/blue-hole",
-    "destination": "/es/guide/dahab/exclusivas-dahab",
-    "permanent": true
-  },
-  {
     "source": "/es/guide/dahab/experiences-in-dahab",
     "destination": "/es/guide/dahab/que-hacer-en-dahab",
     "permanent": true
@@ -9840,6 +9835,11 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/fi/missa-tutankhamun-on-nyt",
     "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/dahab/blue-hole",
+    "destination": "/es/guide/dahab",
     "permanent": true
   },
   {
@@ -13243,11 +13243,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/guide/nuweiba/cultural-events-in-nuweiba",
-    "destination": "/guide/nuweiba",
-    "permanent": true
-  },
-  {
     "source": "/es/guide/nuweiba/fiestas-en-nuweiba",
     "destination": "/es/guide/nuweiba",
     "permanent": true
@@ -13255,11 +13250,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/guide/nuweiba/nuweiba-no-o-matsuri",
     "destination": "/ja/guide/nuweiba",
-    "permanent": true
-  },
-  {
-    "source": "/guide/safaga/annual-events-in-safaga",
-    "destination": "/guide/safaga",
     "permanent": true
   },
   {
@@ -14330,6 +14320,751 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/es/hotels/the-westin-soma-bay-golf-resort-spa",
     "destination": "/es/hotels/the-cascades-soma-bay",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/al-azhar-to-the-citadel",
+    "destination": "/guide/cairo/from-al-azhar-to-the-citadel-walking-islamic-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/al-azhar-to-the-citadel",
+    "destination": "/es/guide/cairo/from-al-azhar-to-the-citadel-walking-islamic-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/al-azhar-to-the-citadel",
+    "destination": "/ja/guide/cairo/from-al-azhar-to-the-citadel-walking-islamic-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/aqsunur-mosque",
+    "destination": "/guide/cairo/aqsunqur-mosque-the-blue-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/aqsunur-mosque",
+    "destination": "/es/guide/cairo/aqsunqur-mosque-the-blue-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/aqsunur-mosque",
+    "destination": "/ja/guide/cairo/aqsunqur-mosque-the-blue-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/church-of-st-barbara",
+    "destination": "/guide/cairo/church-of-saint-barbara",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/church-of-st-barbara",
+    "destination": "/es/guide/cairo/church-of-saint-barbara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/church-of-st-barbara",
+    "destination": "/ja/guide/cairo/church-of-saint-barbara",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/church-of-st-sergius-bacchus",
+    "destination": "/guide/cairo/church-of-saint-sergius-and-bacchus-abu-serga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/church-of-st-sergius-bacchus",
+    "destination": "/es/guide/cairo/church-of-saint-sergius-and-bacchus-abu-serga",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/church-of-st-sergius-bacchus",
+    "destination": "/ja/guide/cairo/church-of-saint-sergius-and-bacchus-abu-serga",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/ibn-tulun-citadel",
+    "destination": "/guide/cairo/mosque-of-ibn-tulun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/ibn-tulun-citadel",
+    "destination": "/es/guide/cairo/mosque-of-ibn-tulun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/ibn-tulun-citadel",
+    "destination": "/ja/guide/cairo/mosque-of-ibn-tulun",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/khan-al-khalili-bazaar",
+    "destination": "/guide/cairo/khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/khan-al-khalili-bazaar",
+    "destination": "/es/guide/cairo/khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/khan-al-khalili-bazaar",
+    "destination": "/ja/guide/cairo/khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/khanqah-mausoleum-of-sultan-baybars-al-gashankir",
+    "destination": "/guide/cairo/khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/khanqah-mausoleum-of-sultan-baybars-al-gashankir",
+    "destination": "/es/guide/cairo/khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/khanqah-mausoleum-of-sultan-baybars-al-gashankir",
+    "destination": "/ja/guide/cairo/khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/madrassa-and-mausoleum-of-barquq",
+    "destination": "/guide/cairo/madrasa-and-khanqah-of-sultan-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/madrassa-and-mausoleum-of-barquq",
+    "destination": "/es/guide/cairo/madrasa-and-khanqah-of-sultan-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/madrassa-and-mausoleum-of-barquq",
+    "destination": "/ja/guide/cairo/madrasa-and-khanqah-of-sultan-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/madrassa-mausoleum-of-as-salih-negm-el-din-ayyub",
+    "destination": "/guide/cairo/madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/madrassa-mausoleum-of-as-salih-negm-el-din-ayyub",
+    "destination": "/es/guide/cairo/madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/madrassa-mausoleum-of-as-salih-negm-el-din-ayyub",
+    "destination": "/ja/guide/cairo/madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/mosque-madrassa-of-al-ghouri",
+    "destination": "/guide/cairo/mosque-madrasa-of-al-ghouri",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-madrassa-of-al-ghouri",
+    "destination": "/es/guide/cairo/mosque-madrasa-of-al-ghouri",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/mosque-madrassa-of-al-ghouri",
+    "destination": "/ja/guide/cairo/mosque-madrasa-of-al-ghouri",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/mosque-madrassa-of-umm-sultan-shaaban",
+    "destination": "/guide/cairo/mosque-madrassa-of-umm-sultan-sha-aban",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-madrassa-of-umm-sultan-shaaban",
+    "destination": "/es/guide/cairo/mosque-madrassa-of-umm-sultan-sha-aban",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/mosque-madrassa-of-umm-sultan-shaaban",
+    "destination": "/ja/guide/cairo/mosque-madrassa-of-umm-sultan-sha-aban",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/sabil-and-kuttab-of-abdel-rahman-katkhuda",
+    "destination": "/guide/cairo/sabil-kuttab-of-abd-al-rahman-katkhuda",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/sabil-and-kuttab-of-abdel-rahman-katkhuda",
+    "destination": "/es/guide/cairo/sabil-kuttab-of-abd-al-rahman-katkhuda",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/sabil-and-kuttab-of-abdel-rahman-katkhuda",
+    "destination": "/ja/guide/cairo/sabil-kuttab-of-abd-al-rahman-katkhuda",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/the-hanging-church",
+    "destination": "/guide/cairo/hanging-church-al-mu-allaqa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/the-hanging-church",
+    "destination": "/es/guide/cairo/hanging-church-al-mu-allaqa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/the-hanging-church",
+    "destination": "/ja/guide/cairo/hanging-church-al-mu-allaqa",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/the-mosque-of-sultan-qaitbey",
+    "destination": "/guide/cairo/mausoleum-complex-of-sultan-qaytbay",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/the-mosque-of-sultan-qaitbey",
+    "destination": "/es/guide/cairo/mausoleum-complex-of-sultan-qaytbay",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/the-mosque-of-sultan-qaitbey",
+    "destination": "/ja/guide/cairo/mausoleum-complex-of-sultan-qaytbay",
+    "permanent": true
+  },
+  {
+    "source": "/guide/farafra-oasis/accommodations-in-farafra",
+    "destination": "/guide/farafra-oasis/top-hotels-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/accommodations-in-farafra",
+    "destination": "/es/guide/farafra-oasis/top-hotels-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafra-oasis/accommodations-in-farafra",
+    "destination": "/ja/guide/farafra-oasis/top-hotels-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/farafra-oasis/getting-around-in-farafra",
+    "destination": "/guide/farafra-oasis/getting-around-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/getting-around-in-farafra",
+    "destination": "/es/guide/farafra-oasis/getting-around-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafra-oasis/getting-around-in-farafra",
+    "destination": "/ja/guide/farafra-oasis/getting-around-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/farafra-oasis/how-to-go-to-farafra",
+    "destination": "/guide/farafra-oasis/how-to-go-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/how-to-go-to-farafra",
+    "destination": "/es/guide/farafra-oasis/how-to-go-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafra-oasis/how-to-go-to-farafra",
+    "destination": "/ja/guide/farafra-oasis/how-to-go-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/farafra-oasis/things-to-do-in-farafra",
+    "destination": "/guide/farafra-oasis/things-to-do-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/things-to-do-in-farafra",
+    "destination": "/es/guide/farafra-oasis/things-to-do-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafra-oasis/things-to-do-in-farafra",
+    "destination": "/ja/guide/farafra-oasis/things-to-do-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/farafra-oasis/weather-in-farafra",
+    "destination": "/guide/farafra-oasis/weather-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/weather-in-farafra",
+    "destination": "/es/guide/farafra-oasis/weather-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafra-oasis/weather-in-farafra",
+    "destination": "/ja/guide/farafra-oasis/weather-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/best-rosetta-tours",
+    "destination": "/guide/rosetta-rasheed/tours-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/best-rosetta-tours",
+    "destination": "/es/guide/rosetta-rasheed/tours-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/best-rosetta-tours",
+    "destination": "/ja/guide/rosetta-rasheed/tours-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/getting-around-rosetta",
+    "destination": "/guide/rosetta-rasheed/getting-around-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/getting-around-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/getting-around-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/getting-around-rosetta",
+    "destination": "/ja/guide/rosetta-rasheed/getting-around-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/only-in-rosetta",
+    "destination": "/guide/rosetta-rasheed/only-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/only-in-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/only-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/only-in-rosetta",
+    "destination": "/ja/guide/rosetta-rasheed/only-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/past-and-present-rosetta",
+    "destination": "/guide/rosetta-rasheed/rosetta-rasheed-historical-overview",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/past-and-present-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/rosetta-rasheed-historical-overview",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/past-and-present-rosetta",
+    "destination": "/ja/guide/rosetta-rasheed/rosetta-rasheed-historical-overview",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/places-to-go-in-rosetta",
+    "destination": "/guide/rosetta-rasheed/places-in-rosetta",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/places-to-go-in-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/places-in-rosetta",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/places-to-go-in-rosetta",
+    "destination": "/ja/guide/rosetta-rasheed/places-in-rosetta",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/rosetta-arrival-guide",
+    "destination": "/guide/rosetta-rasheed/how-to-go-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/rosetta-arrival-guide",
+    "destination": "/es/guide/rosetta-rasheed/how-to-go-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/rosetta-arrival-guide",
+    "destination": "/ja/guide/rosetta-rasheed/how-to-go-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/stay-in-rosetta",
+    "destination": "/guide/rosetta-rasheed/top-hotels-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/stay-in-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/top-hotels-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/stay-in-rosetta",
+    "destination": "/ja/guide/rosetta-rasheed/top-hotels-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/taste-of-rosetta",
+    "destination": "/guide/rosetta-rasheed/food-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/taste-of-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/food-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/taste-of-rosetta",
+    "destination": "/ja/guide/rosetta-rasheed/food-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/things-to-do-in-rosetta",
+    "destination": "/guide/rosetta-rasheed/things-to-do-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/things-to-do-in-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/things-to-do-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/things-to-do-in-rosetta",
+    "destination": "/ja/guide/rosetta-rasheed/things-to-do-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/guide/rosetta-rasheed/when-to-go-rosetta",
+    "destination": "/guide/rosetta-rasheed/weather-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/when-to-go-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/weather-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rosetta-rasheed/when-to-go-rosetta",
+    "destination": "/ja/guide/rosetta-rasheed/weather-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/guide/siwa-oasis/adventure-activities-in-siwa-oasis",
+    "destination": "/guide/siwa-oasis/things-to-do-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/adventure-activities-in-siwa-oasis",
+    "destination": "/es/guide/siwa-oasis/things-to-do-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/siwa-oasis/adventure-activities-in-siwa-oasis",
+    "destination": "/ja/guide/siwa-oasis/things-to-do-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/siwa-oasis/events-in-siwa",
+    "destination": "/guide/siwa-oasis/upcoming-events-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/events-in-siwa",
+    "destination": "/es/guide/siwa-oasis/upcoming-events-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/siwa-oasis/events-in-siwa",
+    "destination": "/ja/guide/siwa-oasis/upcoming-events-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/siwa-oasis/getting-around-siwa",
+    "destination": "/guide/siwa-oasis/getting-around-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/getting-around-siwa",
+    "destination": "/es/guide/siwa-oasis/getting-around-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/siwa-oasis/getting-around-siwa",
+    "destination": "/ja/guide/siwa-oasis/getting-around-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/siwa-oasis/siwa-dining-experiences",
+    "destination": "/guide/siwa-oasis/food-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/siwa-dining-experiences",
+    "destination": "/es/guide/siwa-oasis/food-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/siwa-oasis/siwa-dining-experiences",
+    "destination": "/ja/guide/siwa-oasis/food-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/siwa-oasis/siwa-hotel-guide",
+    "destination": "/guide/siwa-oasis/top-hotels-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/siwa-hotel-guide",
+    "destination": "/es/guide/siwa-oasis/top-hotels-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/siwa-oasis/siwa-hotel-guide",
+    "destination": "/ja/guide/siwa-oasis/top-hotels-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/siwa-oasis/siwa-only-here",
+    "destination": "/guide/siwa-oasis/only-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/siwa-only-here",
+    "destination": "/es/guide/siwa-oasis/only-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/siwa-oasis/siwa-only-here",
+    "destination": "/ja/guide/siwa-oasis/only-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/siwa-oasis/siwa-weather-guide",
+    "destination": "/guide/siwa-oasis/weather-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/siwa-weather-guide",
+    "destination": "/es/guide/siwa-oasis/weather-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/siwa-oasis/siwa-weather-guide",
+    "destination": "/ja/guide/siwa-oasis/weather-in-siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/guide/wadi-el-natrun/only-in-wadi-al-natron",
+    "destination": "/guide/wadi-el-natrun/only-in-wadi-el-natrun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/only-in-wadi-al-natron",
+    "destination": "/es/guide/wadi-el-natrun/only-in-wadi-el-natrun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/wadi-el-natrun/only-in-wadi-al-natron",
+    "destination": "/ja/guide/wadi-el-natrun/only-in-wadi-el-natrun",
+    "permanent": true
+  },
+  {
+    "source": "/guide/wadi-el-natrun/things-to-do-in-wadi-al-natron",
+    "destination": "/guide/wadi-el-natrun/things-to-do-in-wadi-el-natrun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/things-to-do-in-wadi-al-natron",
+    "destination": "/es/guide/wadi-el-natrun/things-to-do-in-wadi-el-natrun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/wadi-el-natrun/things-to-do-in-wadi-al-natron",
+    "destination": "/ja/guide/wadi-el-natrun/things-to-do-in-wadi-el-natrun",
+    "permanent": true
+  },
+  {
+    "source": "/guide/al-wadi-al-gadid/el-wadi-el-gedid-museum",
+    "destination": "/guide/al-wadi-al-gadid/kharga-museum-of-antiquities",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-wadi-al-gadid/el-wadi-el-gedid-museum",
+    "destination": "/es/guide/al-wadi-al-gadid/kharga-museum-of-antiquities",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/al-wadi-al-gadid/el-wadi-el-gedid-museum",
+    "destination": "/ja/guide/al-wadi-al-gadid/kharga-museum-of-antiquities",
+    "permanent": true
+  },
+  {
+    "source": "/guide/alexandria/the-national-museum",
+    "destination": "/guide/alexandria/alexandria-national-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/the-national-museum",
+    "destination": "/es/guide/alexandria/alexandria-national-museum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/alexandria/the-national-museum",
+    "destination": "/ja/guide/alexandria/alexandria-national-museum",
+    "permanent": true
+  },
+  {
+    "source": "/guide/ras-sudr/places-to-visit-in-ras-sudr",
+    "destination": "/guide/ras-sudr/places-in-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/ras-sudr/places-to-visit-in-ras-sudr",
+    "destination": "/es/guide/ras-sudr/places-in-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/ras-sudr/places-to-visit-in-ras-sudr",
+    "destination": "/ja/guide/ras-sudr/places-in-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/guide/saint-catherine/mosque-of-al-hakim-be-amr-allah",
+    "destination": "/guide/saint-catherine/fatimid-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/mosque-of-al-hakim-be-amr-allah",
+    "destination": "/es/guide/saint-catherine/fatimid-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/saint-catherine/mosque-of-al-hakim-be-amr-allah",
+    "destination": "/ja/guide/saint-catherine/fatimid-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/an-nasir-mohammed-bin-qalawoon-mosque",
+    "destination": "/guide/cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/an-nasir-mohammed-bin-qalawoon-mosque",
+    "destination": "/es/guide/cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/an-nasir-mohammed-bin-qalawoon-mosque",
+    "destination": "/ja/guide/cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/mosque-of-al-nasir-mohammed-ben-qalawoon",
+    "destination": "/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-al-nasir-mohammed-ben-qalawoon",
+    "destination": "/es/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/mosque-of-al-nasir-mohammed-ben-qalawoon",
+    "destination": "/ja/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/guide/qena/the-temple-of-dendera",
+    "destination": "/guide/qena/the-temple-precinct",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/the-temple-of-dendera",
+    "destination": "/es/guide/qena/the-temple-precinct",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/qena/the-temple-of-dendera",
+    "destination": "/ja/guide/qena/the-temple-precinct",
+    "permanent": true
+  },
+  {
+    "source": "/guide/qena/the-temple-of-hathor",
+    "destination": "/guide/qena/the-temple-precinct",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/the-temple-of-hathor",
+    "destination": "/es/guide/qena/the-temple-precinct",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/qena/the-temple-of-hathor",
+    "destination": "/ja/guide/qena/the-temple-precinct",
+    "permanent": true
+  },
+  {
+    "source": "/guide/dahab/blue-hole",
+    "destination": "/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/dahab/blue-hole",
+    "destination": "/ja/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+    "destination": "/guide/cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+    "destination": "/es/guide/cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+    "destination": "/ja/guide/cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+    "destination": "/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+    "destination": "/es/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+    "destination": "/ja/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/guide/kharga-oasis/kharga-unearthed",
+    "destination": "/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/kharga-unearthed",
+    "destination": "/es/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/kharga-oasis/kharga-unearthed",
+    "destination": "/ja/guide/kharga-oasis",
     "permanent": true
   }
 ];
