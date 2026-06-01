@@ -98,9 +98,6 @@ export default async function ArticlePage({ params }: Props) {
   })) as ArticleDoc | null;
   if (!article) notFound();
 
-  const heroUrl = article.heroImage?.asset
-    ? urlFor(article.heroImage).width(2400).height(1400).quality(85).url()
-    : null;
   const authorPhotoUrl = article.author?.photo?.asset
     ? urlFor(article.author.photo).width(160).height(160).quality(85).url()
     : null;
@@ -143,19 +140,7 @@ export default async function ArticlePage({ params }: Props) {
   return (
     <article>
       <JsonLd data={[articleSchema, breadcrumbSchema]} />
-      {/* Hero */}
-      {heroUrl && (
-        <div className="relative h-[55vh] min-h-[360px] w-full overflow-hidden bg-cream-deep">
-          <Image
-            src={heroUrl}
-            alt={article.heroImage?.alt || article.title}
-            fill
-            priority
-            className="object-cover"
-            sizes="100vw"
-          />
-        </div>
-      )}
+      {/* Hero image intentionally not rendered on blog posts (banner removed). */}
 
       <div className="mx-auto max-w-3xl px-6 py-16">
         {/* Headline block */}
