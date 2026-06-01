@@ -236,6 +236,45 @@ export const portableTextBlocks = defineField({
         }),
       ],
     }),
+    defineArrayMember({
+      name: 'conciergeNote',
+      title: 'Concierge note',
+      type: 'object',
+      icon: BlockContentIcon,
+      description:
+        'A short first-person aside in the concierge voice — practical guidance the reader can act on ("If you only fly once, fly at the start of your Cairo days"). Renders as a gold-ruled italic aside inside the article.',
+      fields: [
+        defineField({
+          name: 'body',
+          title: 'Note',
+          type: 'array',
+          of: [
+            {
+              type: 'block',
+              styles: [{ title: 'Paragraph', value: 'normal' }],
+              marks: {
+                decorators: [
+                  { title: 'Bold', value: 'strong' },
+                  { title: 'Italic', value: 'em' },
+                ],
+                annotations: [],
+              },
+            },
+          ],
+          validation: (Rule) => Rule.required(),
+        }),
+      ],
+      preview: {
+        select: { body: 'body' },
+        prepare({ body }: { body?: Array<{ children?: Array<{ text?: string }> }> }) {
+          const text = body?.[0]?.children?.map((c) => c.text).join('') ?? '';
+          return {
+            title: text ? `“${text.slice(0, 60)}…”` : 'Concierge note',
+            subtitle: 'Concierge note',
+          };
+        },
+      },
+    }),
   ],
 });
 

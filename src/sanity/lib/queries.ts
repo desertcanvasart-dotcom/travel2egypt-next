@@ -971,9 +971,65 @@ export const articleBySlugQuery = groq`
       "slug": coalesce(slug[_key==^.language][0].value.current, slug[_key=="en"][0].value.current),
       heroImage
     },
+    "categoryId": category._ref,
+    "primaryCity": relatedCities[0]->{
+      _id,
+      "name": coalesce(name[_key==^.language][0].value, name[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==^.language][0].value.current, slug[_key=="en"][0].value.current)
+    },
     seo
   }
 `;
+
+/**
+ * The "connective weave" beneath an article, fetched in one round trip:
+ *
+ *   - readNext: other articles in the same category, newest first (excludes
+ *     the current article).
+ *   - tours:    tours bound to the article's primary city.
+ *   - city + guideArticles: the city's guide page and a couple of its guide
+ *     entries — the "Read in the Guide" column.
+ *   - recent:   recent journal articles for the foot band's "From the Journal"
+ *     column (also excludes the current article).
+ *
+ * Params: $locale, $excludeId, $categoryId, $cityId. When the article has no
+ * primary city, pass $cityId as null — the city-bound clauses then resolve to
+ * empty and the columns are simply omitted by the template.
+ */
+export const articleRelatedWeaveQuery = groq`{
+  "readNext": *[
+    _type == "article" && language == $locale && !(_id in path("drafts.**"))
+    && _id != $excludeId && category._ref == $categoryId
+  ] | order(publishedAt desc)[0...3]{ ${articleCardProjection} },
+  "recent": *[
+    _type == "article" && language == $locale && !(_id in path("drafts.**"))
+    && _id != $excludeId
+  ] | order(publishedAt desc)[0...3]{ ${articleCardProjection} },
+  "tours": *[
+    _type == "tour" && !(_id in path("drafts.**")) && $cityId in cities[]._ref
+  ] | order(_createdAt desc)[0...3]{
+    _id, type,
+    "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value),
+    "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
+    "summary": coalesce(summary[_key==$locale][0].value, summary[_key=="en"][0].value)
+  },
+  "city": *[_type == "city" && _id == $cityId][0]{
+    _id,
+    "name": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value),
+    "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
+    "summary": coalesce(summary[_key==$locale][0].value, summary[_key=="en"][0].value)
+  },
+  "guideArticles": *[
+    _type == "guideArticle" && !(_id in path("drafts.**"))
+    && parentCity._ref == $cityId && hidden != true
+  ] | order(coalesce(orderRank, 100) asc)[0...2]{
+    _id,
+    "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value),
+    "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
+    "parentCitySlug": coalesce(parentCity->slug[_key==$locale][0].value.current, parentCity->slug[_key=="en"][0].value.current),
+    "summary": coalesce(summary[_key==$locale][0].value, summary[_key=="en"][0].value)
+  }
+}`;
 
 export const allArticleSlugsQuery = groq`
   *[_type == "article" && !(_id in path("drafts.**"))]{
