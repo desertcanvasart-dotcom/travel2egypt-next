@@ -29,6 +29,8 @@ import {
 } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { TourPageView } from '@/components/TourPageView';
+import { SubcategoryRoute } from '@/components/subcategory/SubcategoryRoute';
+import { TourCloseRhythm } from '@/components/subcategory/TourCloseRhythm';
 
 interface Props {
   params: Promise<{ locale: string; rest: string[] }>;
@@ -98,7 +100,12 @@ export default async function CatchAllPage({ params }: Props) {
       client.fetch(siteSettingsQuery(locale as Locale)),
     ]);
     if (!tour) notFound();
-    return <TourPageView tour={tour} locale={locale as Locale} slug={rest[0]} siteSettings={siteSettings} />;
+    return (
+      <>
+        <TourPageView tour={tour} locale={locale as Locale} slug={rest[0]} siteSettings={siteSettings} />
+        <TourCloseRhythm tour={tour} locale={locale as Locale} />
+      </>
+    );
   }
   // Articles + wikiMonuments still live under their explicit named routes —
   // redirect from root preserves legacy WP URLs at a single 307 hop until
@@ -120,6 +127,12 @@ export default async function CatchAllPage({ params }: Props) {
   if (hit._type === 'tourLanding') {
     const doc = await client.fetch(tourLandingBySlugQuery(locale as Locale), { slug: rest[0] });
     if (!doc) notFound();
+    // Day-tour landings (city × track) render through the SubcategoryTemplate.
+    // Package landings (theme / origin-region) keep the legacy view for now.
+    const key = doc.category?.key;
+    if ((key === 'private-day-tour' || key === 'group-day-tour') && doc.destinationCity?.slug) {
+      return <SubcategoryRoute doc={doc} locale={locale as Locale} />;
+    }
     return <TourLandingView doc={doc} locale={locale as Locale} />;
   }
 

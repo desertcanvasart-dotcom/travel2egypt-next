@@ -1,3 +1,5 @@
+import type { ReactNode } from 'react';
+
 import { Link } from '@/i18n/navigation';
 
 /**
@@ -85,7 +87,10 @@ export interface FootBandProps {
   journalLabel: string;
   journalItems: WeaveItem[];
   practicalLabel: string;
-  practicalBody: string;
+  /** Column 3 as prose. Ignored when `practicalItems` is provided. */
+  practicalBody?: string;
+  /** Column 3 as a link list (e.g. cross-links). Takes precedence over `practicalBody`. */
+  practicalItems?: WeaveItem[];
 }
 
 function Prose({ body }: { body: string }) {
@@ -101,6 +106,36 @@ function Prose({ body }: { body: string }) {
   );
 }
 
+function LinkList({ items }: { items: WeaveItem[] }) {
+  return (
+    <ul>
+      {items.map((item) => (
+        <li key={item.id} className="border-b border-rule last:border-0">
+          <Link href={item.href} className="block py-3.5 transition-colors hover:text-sand-warm">
+            <span className="block font-serif text-lg leading-snug text-night">{item.title}</span>
+            {item.kicker && (
+              <span className="mt-0.5 block font-sans text-[0.625rem] uppercase tracking-[0.1em] text-night-soft">
+                {item.kicker}
+              </span>
+            )}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function FootColumn({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <div>
+      <h4 className="mb-6 border-b border-rule pb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand-warm">
+        {label}
+      </h4>
+      {children}
+    </div>
+  );
+}
+
 export function ArticleFootBand({
   inSeasonLabel,
   inSeasonBody,
@@ -108,44 +143,25 @@ export function ArticleFootBand({
   journalItems,
   practicalLabel,
   practicalBody,
+  practicalItems,
 }: FootBandProps) {
   return (
     <section className="bg-limestone-deep">
       <div className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid grid-cols-1 gap-x-16 gap-y-12 md:grid-cols-3">
-          <div>
-            <h4 className="mb-6 border-b border-rule pb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand-warm">
-              {inSeasonLabel}
-            </h4>
+          <FootColumn label={inSeasonLabel}>
             <Prose body={inSeasonBody} />
-          </div>
-          <div>
-            <h4 className="mb-6 border-b border-rule pb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand-warm">
-              {journalLabel}
-            </h4>
-            <ul>
-              {journalItems.map((item) => (
-                <li key={item.id} className="border-b border-rule last:border-0">
-                  <Link href={item.href} className="block py-3.5 transition-colors hover:text-sand-warm">
-                    <span className="block font-serif text-lg leading-snug text-night">
-                      {item.title}
-                    </span>
-                    {item.kicker && (
-                      <span className="mt-0.5 block font-sans text-[0.625rem] uppercase tracking-[0.1em] text-night-soft">
-                        {item.kicker}
-                      </span>
-                    )}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h4 className="mb-6 border-b border-rule pb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand-warm">
-              {practicalLabel}
-            </h4>
-            <Prose body={practicalBody} />
-          </div>
+          </FootColumn>
+          <FootColumn label={journalLabel}>
+            <LinkList items={journalItems} />
+          </FootColumn>
+          <FootColumn label={practicalLabel}>
+            {practicalItems && practicalItems.length > 0 ? (
+              <LinkList items={practicalItems} />
+            ) : (
+              <Prose body={practicalBody ?? ''} />
+            )}
+          </FootColumn>
         </div>
       </div>
     </section>
