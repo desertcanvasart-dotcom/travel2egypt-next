@@ -21,7 +21,7 @@ import { createClient, type SanityClient } from '@sanity/client';
 import { config as loadEnv } from 'dotenv';
 loadEnv();
 
-interface Fix { city: string; slug: string; find: string; replace: string; note?: string; type?: 'guideArticle' | 'city' }
+interface Fix { city: string; slug: string; find: string; replace: string; note?: string; type?: 'guideArticle' | 'city'; locale?: 'en' | 'es' | 'ja' }
 
 const FIXES: Fix[] = [
   // F1 — Lake Bardawil area (Ramsar ~604 km²). [al-arish destination = city.overview]
@@ -100,6 +100,70 @@ const FIXES: Fix[] = [
   { city: 'al-fayoum', slug: 'things-to-do-in-al-fayoum', find: 'the late Ptolemaic period — roughly the 1st century BC — and consists', replace: 'the Ptolemaic period, and consists', note: 'Qasr Qarun date consistency' },
   // Abu Simbel solar-festival page: last drive-time outlier → 3.5–4h (cluster-wide).
   { city: 'abu-simbel', slug: 'upcoming-events-in-abu-simbel', find: 'the drive takes about three to three and a half hours', replace: 'the drive takes about three and a half to four hours', note: 'Aswan–Abu Simbel drive time consistency' },
+
+  // ============================================================
+  // ES / JA — same factual errors in the translated bodies.
+  // ============================================================
+  // --- Spanish ---
+  { locale: 'es', type: 'city', city: 'al-arish', slug: 'al-arish', find: 'más de 700 kilómetros cuadrados', replace: 'unos 600 kilómetros cuadrados', note: 'Bardawil area (es)' },
+  { locale: 'es', city: 'bahariya-oasis', slug: 'things-to-do-in-bahariya-oasis', find: 'una pequeña cresta de cuarcita', replace: 'una pequeña cresta de barita y calcita', note: 'Crystal Mountain (es)' },
+  { locale: 'es', city: 'aswan', slug: 'things-to-do-in-aswan', find: 'Construido en granito rosa de Asuán', replace: 'Construido en piedra caliza rosa', note: 'Aga Khan material (es)' },
+  { locale: 'es', type: 'city', city: 'aswan', slug: 'aswan', find: 'construido en granito rosa de Asuán', replace: 'construido en piedra caliza rosa', note: 'Aga Khan material (es, city)' },
+  { locale: 'es', city: 'alexandria', slug: 'things-to-do-in-alexandria', find: 'construida en 1479-80', replace: 'construida en 1477-1479', note: 'Qaitbay date (es)' },
+  { locale: 'es', type: 'city', city: 'alexandria', slug: 'alexandria', find: 'construida en 1479-80', replace: 'construida en 1477-1479', note: 'Qaitbay date (es, city)' },
+  { locale: 'es', type: 'city', city: 'abu-simbel', slug: 'abu-simbel', find: 'aproximadamente 60 metros del corredor', replace: 'aproximadamente 56 metros del corredor', note: 'temple length (es)' },
+  { locale: 'es', city: 'akhmim', slug: 'tours-in-akhmim', find: 'misión egipcio-alemana desde 1969', replace: 'misión egipcio-alemana desde 2003', note: 'Athribis (es)' },
+  { locale: 'es', city: 'al-arish', slug: 'ancient-city-of-pelusium', find: '333 a. C.', replace: '332 a. C.', note: 'Alexander (es)' },
+  { locale: 'es', city: 'al-arish', slug: 'ancient-city-of-pelusium', find: 'epidemia en 524 d. C.', replace: 'epidemia en 541 d. C.', note: 'Plague (es)' },
+  // --- Japanese ---
+  { locale: 'ja', type: 'city', city: 'al-arish', slug: 'al-arish', find: '700平方kmを超えます', replace: '約600平方kmです', note: 'Bardawil area (ja)' },
+  { locale: 'ja', city: 'bahariya-oasis', slug: 'things-to-do-in-bahariya-oasis', find: '小さな石英質の尾根', replace: '小さなバライト（重晶石）と方解石の尾根', note: 'Crystal Mountain (ja)' },
+  { locale: 'ja', city: 'aswan', slug: 'things-to-do-in-aswan', find: 'ピンクのアスワンの花崗岩で', replace: 'ピンクの石灰岩で', note: 'Aga Khan material (ja)' },
+  { locale: 'ja', type: 'city', city: 'aswan', slug: 'aswan', find: 'ピンクのアスワンの花崗岩で建てられ', replace: 'ピンクの石灰岩で建てられ', note: 'Aga Khan material (ja, city)' },
+  { locale: 'ja', type: 'city', city: 'alexandria', slug: 'alexandria', find: '1479〜80年に', replace: '1477〜1479年に', note: 'Qaitbay date (ja, city)' },
+  { locale: 'ja', city: 'akhmim', slug: 'tours-in-akhmim', find: '1969年からエジプト・ドイツ合同調査隊', replace: '2003年からエジプト・ドイツ合同調査隊', note: 'Athribis (ja)' },
+  { locale: 'ja', city: 'al-arish', slug: 'ancient-city-of-pelusium', find: '紀元前333年', replace: '紀元前332年', note: 'Alexander (ja)' },
+  { locale: 'ja', city: 'al-arish', slug: 'ancient-city-of-pelusium', find: '紀元524年', replace: '紀元541年', note: 'Plague (ja)' },
+  // batch 3
+  { locale: 'es', city: 'alexandria', slug: 'things-to-do-in-alexandria', find: 'Veinticinco metros de granito rojo', replace: 'Unos veintisiete metros de granito rojo', note: "Pompey's Pillar height (es)" },
+  { locale: 'ja', city: 'alexandria', slug: 'things-to-do-in-alexandria', find: '1479〜80年に', replace: '1477〜1479年に', note: 'Qaitbay date (ja, things)' },
+  { locale: 'es', city: 'aswan', slug: 'sehel-island', find: 'tallada hacia el 250 a. C.', replace: 'tallada hacia el 187 a. C.', note: 'Famine Stela date (es)' },
+  { locale: 'ja', city: 'aswan', slug: 'sehel-island', find: '紀元前250年頃', replace: '紀元前187年頃', note: 'Famine Stela date (ja)' },
+  { locale: 'es', city: 'al-minya', slug: 'speos-artemidos', find: 'a unos 28 kilómetros al sur de Al Minya', replace: 'a unos 22 kilómetros al sur de Al Minya', note: 'Speos distance (es)' },
+  { locale: 'ja', city: 'al-minya', slug: 'speos-artemidos', find: 'アル・ミニヤの南約28km', replace: 'アル・ミニヤの南約22km', note: 'Speos distance (ja)' },
+  { locale: 'es', city: 'baris', slug: 'the-roman-fortress-at-dush', find: 'hasta seis metros en algunos lugares y hasta doce en otros', replace: 'hasta seis metros en algunos lugares', note: 'Dush walls (es)' },
+  { locale: 'ja', city: 'baris', slug: 'the-roman-fortress-at-dush', find: '場所によって6m、別の場所では12mにまで立ち上がり', replace: '場所によって最大6mまで立ち上がり', note: 'Dush walls (ja)' },
+  // batch 4
+  { locale: 'es', city: 'akhmim', slug: 'how-to-go-to-akhmim', find: 'Desde El Cairo, el trayecto dura unas cinco o seis horas', replace: 'Desde El Cairo, el trayecto dura unas seis o siete horas', note: 'Cairo–Sohag train (es)' },
+  { locale: 'ja', city: 'akhmim', slug: 'how-to-go-to-akhmim', find: 'カイロからは約5〜6時間', replace: 'カイロからは約6〜7時間', note: 'Cairo–Sohag train (ja)' },
+  { locale: 'es', city: 'giza', slug: 'pyramid-of-khafre', find: 'Giovanni Battista Belzoni en 1816.', replace: 'Giovanni Battista Belzoni el 2 de marzo de 1818.', note: 'Belzoni entry (es)' },
+  { locale: 'es', city: 'giza', slug: 'pyramid-of-khafre', find: 'Regresó en 1818, momento en que inscribió su nombre y la fecha del descubrimiento («Discovered by G. Belzoni. 1 Mar. 1818»)', replace: 'Inscribió su nombre y la fecha del descubrimiento («Discovered by G. Belzoni. 2 Mar. 1818»)', note: 'Belzoni inscription (es)' },
+  { locale: 'ja', city: 'giza', slug: 'pyramid-of-khafre', find: 'ベルツォーニで、1816年のことでした。', replace: 'ベルツォーニで、1818年3月2日のことでした。', note: 'Belzoni entry (ja)' },
+  { locale: 'ja', city: 'giza', slug: 'pyramid-of-khafre', find: '彼は1818年に戻り、玄室の南壁に自分の名前と発見の日付、「G・ベルツォーニにより発見。1818年3月1日」を刻みました。', replace: '彼は玄室の南壁に自分の名前と発見の日付、「G・ベルツォーニにより発見。1818年3月2日」を刻みました。', note: 'Belzoni inscription (ja)' },
+  { locale: 'es', city: 'dahab', slug: 'coloured-canyon', find: 'a solo tres kilómetros de Nuweiba, la base más cercana', replace: 'a unos 20 a 30 kilómetros por carretera de Nuweiba, la base más cercana', note: 'Coloured Canyon distance (es)' },
+  { locale: 'ja', city: 'dahab', slug: 'coloured-canyon', find: 'ヌウェイバからはわずか3kmです', replace: 'ヌウェイバからは道路で約20〜30kmです', note: 'Coloured Canyon distance (ja)' },
+  // batch 5
+  { locale: 'es', city: 'al-gouna', slug: 'al-gouna-guided-tours', find: 'a unos 220 kilómetros —tres a cuatro horas en cada sentido', replace: 'a unos 300 kilómetros —cuatro a cinco horas en cada sentido', note: 'El Gouna–Luxor (es)' },
+  { locale: 'ja', city: 'al-gouna', slug: 'al-gouna-guided-tours', find: '道路距離は約220km', replace: '道路距離は約300km', note: 'El Gouna–Luxor distance (ja)' },
+  { locale: 'ja', city: 'al-gouna', slug: 'al-gouna-guided-tours', find: '片道3〜4時間ほどです', replace: '片道4〜5時間ほどです', note: 'El Gouna–Luxor time (ja)' },
+  { locale: 'es', city: 'al-gouna', slug: 'mangroovy-beach', find: 'a unos veinticinco kilómetros del Aeropuerto Internacional de Hurghada', replace: 'a unos cuarenta kilómetros del Aeropuerto Internacional de Hurghada', note: 'airport distance (es)' },
+  { locale: 'ja', city: 'al-gouna', slug: 'mangroovy-beach', find: 'ハルガダ国際空港から約25km', replace: 'ハルガダ国際空港から約40km', note: 'airport distance (ja)' },
+  { locale: 'es', city: 'al-quseir', slug: 'getting-around-in-al-quseir', find: 'el Mövenpick a un kilómetro al norte', replace: 'el Mövenpick a unos seis kilómetros al norte', note: 'Mövenpick distance (es)' },
+  { locale: 'ja', city: 'al-quseir', slug: 'getting-around-in-al-quseir', find: 'Mövenpick は町の北約1km', replace: 'Mövenpick は町の北約6km', note: 'Mövenpick distance (ja)' },
+  // batch 6
+  // NOTE: Bawiti es/ja deliberately NOT changed — those translations are an
+  // older version describing tombs genuinely near the Ain El-Hubaga spring
+  // (Fakhry 1938), internally consistent; not the en Qarat Qasr Salim mislabel.
+  { locale: 'es', city: 'cairo', slug: 'the-citadel-of-saladin', find: 'completada en 1857 d. C.', replace: 'completada en 1848 d. C.', note: 'Muhammad Ali mosque date (es)' },
+  { locale: 'ja', city: 'cairo', slug: 'the-citadel-of-saladin', find: '1830年着工、1857年完成', replace: '1830年着工、1848年完成', note: 'Muhammad Ali mosque date (ja)' },
+  { locale: 'es', type: 'city', city: 'abu-simbel', slug: 'abu-simbel', find: 'entre tres horas y tres horas y media en cada sentido', replace: 'entre tres horas y media y cuatro horas en cada sentido', note: 'Aswan drive time (es)' },
+  { locale: 'es', city: 'al-fayoum', slug: 'al-fayoum-events', find: 'del periodo ptolemaico — aproximadamente del siglo III al II a. C. — y se alza', replace: 'del periodo ptolemaico y se alza', note: 'Qasr Qarun date (es)' },
+  // batch 7 (final)
+  { locale: 'ja', type: 'city', city: 'abu-simbel', slug: 'abu-simbel', find: '片道の所要時間は約3〜3時間半です', replace: '片道の所要時間は約3時間半〜4時間です', note: 'Aswan drive time (ja)' },
+  { locale: 'ja', city: 'alexandria', slug: 'things-to-do-in-alexandria', find: '赤色アスワン花崗岩の25m', replace: '赤色アスワン花崗岩の約27m', note: "Pompey's Pillar height (ja)" },
+  { locale: 'es', city: 'al-fayoum', slug: 'things-to-do-in-al-fayoum', find: 'del periodo ptolemaico tardío — aproximadamente del siglo I a. C. — y consta', replace: 'del periodo ptolemaico y consta', note: 'Qasr Qarun date (es, things)' },
+  { locale: 'ja', city: 'al-fayoum', slug: 'things-to-do-in-al-fayoum', find: '神殿はプトレマイオス朝後期、およそ紀元前1世紀の建物で', replace: '神殿はプトレマイオス朝の建物で', note: 'Qasr Qarun date (ja, things)' },
+  { locale: 'ja', city: 'al-fayoum', slug: 'al-fayoum-events', find: '神殿はプトレマイオス時代、およそ紀元前3〜2世紀にさかのぼり', replace: '神殿はプトレマイオス時代にさかのぼり', note: 'Qasr Qarun date (ja, events)' },
 ];
 
 interface Span { _type: string; _key?: string; text?: string }
@@ -145,13 +209,14 @@ async function main() {
           { s: slug, c: city });
     if (!doc) { console.log(`  ✗ ${type} ${city}/${slug}: doc not found`); missed += fixes.length; continue; }
     const fieldVal = (doc as Record<string, unknown>)[field] as LE<Block[]>[] | undefined;
-    const enEntry = fieldVal?.find((e) => e._key === 'en');
-    if (!enEntry || !Array.isArray(enEntry.value)) { console.log(`  ✗ ${type} ${city}/${slug}: no en ${field}`); missed += fixes.length; continue; }
 
     let changed = false;
     for (const f of fixes) {
+      const loc = f.locale ?? 'en';
+      const entry = fieldVal?.find((e) => e._key === loc);
+      if (!entry || !Array.isArray(entry.value)) { console.log(`  ✗ ${city}/${slug} [${loc}]: no ${field}`); missed++; continue; }
       let matches = 0;
-      for (const block of enEntry.value) {
+      for (const block of entry.value) {
         if (block._type !== 'block' || !Array.isArray(block.children)) continue;
         for (const sp of block.children) {
           if (sp._type === 'span' && typeof sp.text === 'string' && sp.text.includes(f.find)) {
@@ -161,12 +226,11 @@ async function main() {
           }
         }
       }
-      if (matches > 0) { console.log(`  ✓ ${city}/${slug}: "${f.find}" → "${f.replace}" (${matches}×)  [${f.note ?? ''}]`); applied++; }
+      if (matches > 0) { console.log(`  ✓ ${city}/${slug} [${loc}]: "${f.find}" → "${f.replace}" (${matches}×)  [${f.note ?? ''}]`); applied++; }
       else {
-        // already-done check: replace present somewhere?
-        const present = enEntry.value.some((b) => b.children?.some((s) => typeof s.text === 'string' && s.text.includes(f.replace)));
-        if (present) { console.log(`  - ${city}/${slug}: "${f.find}" not found but replacement present — already done`); alreadyDone++; }
-        else { console.log(`  ⚠ ${city}/${slug}: FIND NOT MATCHED: "${f.find}"  [${f.note ?? ''}]`); missed++; }
+        const present = entry.value.some((b) => b.children?.some((s) => typeof s.text === 'string' && s.text.includes(f.replace)));
+        if (present) { console.log(`  - ${city}/${slug} [${loc}]: "${f.find}" not found but replacement present — already done`); alreadyDone++; }
+        else { console.log(`  ⚠ ${city}/${slug} [${loc}]: FIND NOT MATCHED: "${f.find}"  [${f.note ?? ''}]`); missed++; }
       }
     }
     if (changed && args.commit) { tx = tx.patch(doc._id, (p) => p.set({ [field]: fieldVal })); ops++; }
