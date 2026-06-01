@@ -13,7 +13,15 @@ import {
   allCategorySlugsQuery,
 } from '@/sanity/lib/queries';
 import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
+import { Breadcrumb } from '@/components/Breadcrumb';
+import { JsonLd } from '@/components/JsonLd';
 import { buildMetadata } from '@/lib/seo';
+import { buildBreadcrumbList } from '@/lib/structured-data';
+import {
+  buildBlogTrail,
+  toVisibleCrumbs,
+  toSchemaCrumbs,
+} from '@/lib/blog-breadcrumb';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -22,6 +30,7 @@ interface Props {
 interface CategoryDoc {
   _id: string;
   name: string;
+  slug: string;
   description?: string;
   heroImage?: any;
   seo?: any;
@@ -70,6 +79,7 @@ export default async function CategoryPage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('blog');
+  const tNav = await getTranslations('nav');
 
   const category = await client.fetch<CategoryDoc | null>(
     categoryBySlugQuery(locale as Locale),
@@ -78,6 +88,22 @@ export default async function CategoryPage({ params }: Props) {
   if (!category) notFound();
 
   const isRoot = !category.parent;
+
+  // Home › Journal › Section [› Subcategory] — the category itself is the
+  // current page. Same builder as the article route, so trails stay aligned.
+  const trail = buildBlogTrail({
+    homeLabel: tNav('home'),
+    journalLabel: tNav('blog'),
+    category: {
+      name: category.name,
+      slug: category.slug,
+      parent: category.parent
+        ? { name: category.parent.name, slug: category.parent.slug }
+        : null,
+    },
+  });
+  const breadcrumbItems = toVisibleCrumbs(trail);
+  const breadcrumbSchema = buildBreadcrumbList(toSchemaCrumbs(trail), locale as Locale);
 
   // Fetch leaves only when on a root page; articles always.
   const [leaves, articles] = await Promise.all([
@@ -91,26 +117,9 @@ export default async function CategoryPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-16">
+      <JsonLd data={[breadcrumbSchema]} />
+      <Breadcrumb items={breadcrumbItems} className="mb-8" />
       <header className="mb-12 max-w-3xl">
-        {/* Breadcrumb to parent bucket on leaf pages */}
-        {!isRoot && category.parent && (
-          <nav
-            aria-label="Breadcrumb"
-            className="mb-4 font-sans text-xs uppercase tracking-[0.18em] text-night-soft"
-          >
-            <Link
-              href={`/blog/category/${category.parent.slug}`}
-              className="transition-colors hover:text-faience"
-            >
-              {category.parent.name}
-            </Link>
-            <span aria-hidden="true" className="mx-2">
-              ›
-            </span>
-            <span className="text-night">{category.name}</span>
-          </nav>
-        )}
-
         <p className="mb-3 font-sans text-xs font-semibold uppercase tracking-[0.18em] text-orange-deep">
           {t('categoryLabel')}
         </p>
