@@ -8,7 +8,18 @@ import {
   pickLocalized,
   type ResolvableRef,
 } from '@/sanity/lib/i18n';
+import { createHeadingIdGenerator } from '@/lib/portable-text';
 import type { Locale } from '@/i18n/routing';
+
+/**
+ * Single-word eyebrow shown on inline concierge-note asides. Localized so
+ * the gold-ruled aside reads correctly in every locale.
+ */
+const CONCIERGE_NOTE_LABELS: Record<string, string> = {
+  en: 'Concierge note',
+  es: 'Nota del concierge',
+  ja: 'コンシェルジュより',
+};
 
 type LocalizedField<T = string> = string | Array<{ _key: string; value: T }> | null | undefined;
 
@@ -51,8 +62,35 @@ interface BodyProps {
 export function Body({ value, locale }: BodyProps) {
   if (!value) return null;
 
+  // h2s get stable, de-duplicated ids so the in-article TOC can anchor to
+  // them. Must mirror extractHeadings()'s order/dedupe — both walk blocks in
+  // document order and call the generator once per h2.
+  const nextHeadingId = createHeadingIdGenerator();
+
   const components: PortableTextComponents = {
+    block: {
+      h2: ({ value: block, children }) => {
+        const text = Array.isArray(block?.children)
+          ? block.children
+              .map((c) => (typeof (c as { text?: string }).text === 'string' ? (c as { text?: string }).text : ''))
+              .join('')
+          : '';
+        return <h2 id={nextHeadingId(text)}>{children}</h2>;
+      },
+    },
     types: {
+      conciergeNote: ({ value }) => {
+        if (!value?.body) return null;
+        const label = CONCIERGE_NOTE_LABELS[locale] ?? CONCIERGE_NOTE_LABELS.en;
+        return (
+          <aside className="concierge-note">
+            <div className="concierge-note__label">{label}</div>
+            <div className="concierge-note__body">
+              <PortableText value={value.body} components={baseComponents} />
+            </div>
+          </aside>
+        );
+      },
       image: ({ value }) => {
         if (!value?.asset?._ref) return null;
         const url = urlFor(value).width(1400).quality(85).url();

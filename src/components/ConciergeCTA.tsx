@@ -25,13 +25,18 @@ interface ConciergeCTAProps {
   tourSlug?: string;
   /** Visual variant — "full" includes the three process steps; "compact" omits them for narrow contexts. */
   variant?: 'full' | 'compact';
+  /**
+   * Optional, already-localized primary-CTA label override — e.g. "Talk to
+   * our concierge about Cairo". Takes precedence over the tour/default label.
+   */
+  contextLabel?: string;
 }
 
-export function ConciergeCTA({ tourSlug, variant = 'full' }: ConciergeCTAProps) {
+export function ConciergeCTA({ tourSlug, variant = 'full', contextLabel }: ConciergeCTAProps) {
   const t = useTranslations('concierge');
 
   const planHref = '/contact';
-  const primaryLabel = tourSlug ? t('ctaTourLabel') : t('primaryCta');
+  const primaryLabel = contextLabel ?? (tourSlug ? t('ctaTourLabel') : t('primaryCta'));
 
   return (
     <section className="bg-night text-paper">

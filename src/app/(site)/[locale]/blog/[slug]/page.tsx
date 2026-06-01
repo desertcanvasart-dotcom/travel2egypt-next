@@ -9,10 +9,21 @@ import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
 import {
   articleBySlugQuery,
+  articleRelatedWeaveQuery,
   allArticleSlugsQuery,
 } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
-import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
+import { Breadcrumb } from '@/components/Breadcrumb';
+import { ArticleSidebar } from '@/components/ArticleSidebar';
+import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { FloatingConcierge } from '@/components/FloatingConcierge';
+import {
+  ArticleRelatedWeave,
+  ArticleFootBand,
+  type WeaveColumn,
+  type WeaveItem,
+} from '@/components/ArticleConnective';
+import { extractHeadings, readingTimeMinutes } from '@/lib/portable-text';
 import { buildMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
 import {
@@ -46,8 +57,6 @@ export async function generateStaticParams() {
   const all: Array<{ language: string; slug: string }> = await client.fetch(
     allArticleSlugsQuery
   );
-  // Each article exists per-language; emit a (locale, slug) for each
-  // article whose language matches a routing locale.
   const params: Array<{ locale: string; slug: string }> = [];
   for (const article of all) {
     if (!article.slug || !article.language) continue;
@@ -55,6 +64,12 @@ export async function generateStaticParams() {
     params.push({ locale: article.language, slug: article.slug });
   }
   return params;
+}
+
+interface CityRef {
+  _id: string;
+  name?: string;
+  slug?: string;
 }
 
 interface ArticleDoc {
@@ -65,8 +80,14 @@ interface ArticleDoc {
   body?: unknown;
   publishedAt?: string;
   updatedAt?: string;
-  heroImage?: { asset?: unknown; alt?: string; caption?: string; credit?: string } | null;
+  heroImage?: {
+    asset?: unknown;
+    alt?: string;
+    caption?: string;
+    credit?: string;
+  } | null;
   category?: { name: string; slug: string } | null;
+  categoryId?: string | null;
   author?: {
     _id: string;
     name: string;
@@ -75,16 +96,30 @@ interface ArticleDoc {
     photo?: { asset?: unknown } | null;
   } | null;
   authorBio?: { bio?: unknown } | null;
-  relatedArticles?: ArticleCardData[];
-  relatedTours?: Array<{
+  relatedCities?: CityRef[];
+  primaryCity?: CityRef | null;
+}
+
+interface WeaveData {
+  readNext: Array<{ _id: string; title: string; slug: string; category?: { name?: string } | null }>;
+  recent: Array<{ _id: string; title: string; slug: string; category?: { name?: string } | null }>;
+  tours: Array<{ _id: string; type?: string; title: string; slug: string; summary?: string }>;
+  city: { _id: string; name?: string; slug?: string; summary?: string } | null;
+  guideArticles: Array<{
     _id: string;
-    type?: string;
     title: string;
     slug: string;
+    parentCitySlug?: string;
     summary?: string;
-    durationLabel?: string;
-    heroImage?: { asset?: unknown; alt?: string } | null;
   }>;
+}
+
+function formatDate(value: string | undefined, locale: string): string | null {
+  if (!value) return null;
+  return new Date(value).toLocaleDateString(
+    locale === 'ja' ? 'ja-JP' : locale === 'es' ? 'es-ES' : 'en-US',
+    { year: 'numeric', month: 'long', day: 'numeric' }
+  );
 }
 
 export default async function ArticlePage({ params }: Props) {
@@ -92,24 +127,104 @@ export default async function ArticlePage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('blog');
+  const tNav = await getTranslations('nav');
   const article = (await client.fetch(articleBySlugQuery, {
     locale,
     slug,
   })) as ArticleDoc | null;
   if (!article) notFound();
 
+  const primaryCity = article.primaryCity ?? null;
+
+  const weave = (await client.fetch(articleRelatedWeaveQuery, {
+    locale,
+    excludeId: article._id,
+    categoryId: article.categoryId ?? null,
+    cityId: primaryCity?._id ?? null,
+  })) as WeaveData;
+
+  const headings = extractHeadings(article.body);
+  const minutes = readingTimeMinutes(article.body, locale as Locale);
+  const dateLabel = formatDate(article.updatedAt ?? article.publishedAt, locale);
+
   const authorPhotoUrl = article.author?.photo?.asset
-    ? urlFor(article.author.photo).width(160).height(160).quality(85).url()
+    ? urlFor(article.author.photo).width(96).height(96).quality(85).url()
     : null;
 
-  const displayDate = article.updatedAt ?? article.publishedAt;
-  const dateLabel = displayDate
-    ? new Date(displayDate).toLocaleDateString(
-        locale === 'ja' ? 'ja-JP' : locale === 'es' ? 'es-ES' : 'en-US',
-        { year: 'numeric', month: 'long', day: 'numeric' }
-      )
+  const isArchive = (article.author?.name ?? '').toLowerCase().includes('archive');
+
+  // Drop cap reads well on substantial pieces; suppress it on short field
+  // notes where a giant initial would overwhelm a couple of paragraphs.
+  const dropCap = minutes >= 2;
+
+  const featureUrl = article.heroImage?.asset
+    ? urlFor(article.heroImage).width(1600).quality(85).url()
     : null;
 
+  // ── Filed-under: category, then any related cities ──────────────────
+  const filedUnder = [
+    article.category?.name,
+    ...(article.relatedCities ?? []).map((c) => c.name).filter(Boolean),
+  ].filter((s): s is string => Boolean(s));
+
+  // ── Related weave columns ───────────────────────────────────────────
+  const readNextItems: WeaveItem[] = weave.readNext.map((a) => ({
+    id: a._id,
+    kicker: a.category?.name,
+    title: a.title,
+    href: `/blog/${a.slug}`,
+  }));
+
+  const tourItems: WeaveItem[] = weave.tours
+    .filter((tour) => tour.slug)
+    .map((tour) => ({
+      id: tour._id,
+      kicker: tour.type === 'package' ? t('weavePackageKicker') : t('weaveTourKicker'),
+      title: tour.title,
+      note: tour.summary,
+      href: tour.type === 'package' ? `/packages/${tour.slug}` : `/${tour.slug}`,
+    }));
+
+  const guideItems: WeaveItem[] = [
+    ...(weave.city?.slug
+      ? [
+          {
+            id: weave.city._id,
+            kicker: t('weaveCityKicker'),
+            title: weave.city.name ?? '',
+            note: weave.city.summary,
+            href: `/guide/${weave.city.slug}`,
+          },
+        ]
+      : []),
+    ...weave.guideArticles
+      .filter((g) => g.slug && g.parentCitySlug)
+      .map((g) => ({
+        id: g._id,
+        kicker: t('weaveGuideKicker'),
+        title: g.title,
+        note: g.summary,
+        href: `/guide/${g.parentCitySlug}/${g.slug}`,
+      })),
+  ];
+
+  const cityName = primaryCity?.name ?? '';
+  const weaveColumns: WeaveColumn[] = [
+    { heading: t('readNextLabel'), items: readNextItems },
+    ...(cityName
+      ? [{ heading: t('doInCityLabel', { city: cityName }), items: tourItems }]
+      : []),
+    { heading: t('readGuideLabel'), items: guideItems },
+  ];
+
+  const journalItems: WeaveItem[] = weave.recent.map((a) => ({
+    id: a._id,
+    kicker: a.category?.name,
+    title: a.title,
+    href: `/blog/${a.slug}`,
+  }));
+
+  // ── Structured data ─────────────────────────────────────────────────
   const articleSchema = buildArticleSchema(
     {
       title: article.title,
@@ -128,7 +243,7 @@ export default async function ArticlePage({ params }: Props) {
   const breadcrumbSchema = buildBreadcrumbList(
     [
       { name: 'Home', path: '/' },
-      { name: 'Journal', path: '/blog' },
+      { name: tNav('blog'), path: '/blog' },
       ...(article.category
         ? [{ name: article.category.name, path: `/blog/category/${article.category.slug}` }]
         : []),
@@ -137,115 +252,170 @@ export default async function ArticlePage({ params }: Props) {
     locale as Locale
   );
 
+  const breadcrumbItems = [
+    { label: tNav('blog'), href: '/blog' },
+    ...(article.category
+      ? [{ label: article.category.name, href: `/blog/category/${article.category.slug}` }]
+      : []),
+    { label: article.title },
+  ];
+
   return (
     <article>
       <JsonLd data={[articleSchema, breadcrumbSchema]} />
-      {/* Hero image intentionally not rendered on blog posts (banner removed). */}
 
-      <div className="mx-auto max-w-3xl px-6 py-16">
-        {/* Headline block */}
-        <header className="mb-10">
+      {/* ── Breadcrumb + type-led header ── */}
+      <div className="mx-auto max-w-7xl px-6">
+        <Breadcrumb items={breadcrumbItems} className="pt-8" />
+
+        <header className="max-w-[820px] pt-12">
           {article.category && (
-            <p className="mb-4 font-sans text-xs font-semibold uppercase tracking-[0.18em] text-orange-deep">
+            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
               <Link
                 href={`/blog/category/${article.category.slug}`}
-                className="hover:text-ink"
+                className="transition-colors hover:text-night"
               >
                 {article.category.name}
               </Link>
             </p>
           )}
-          <h1 className="mb-6 font-serif text-4xl font-medium leading-[1.1] text-ink md:text-5xl">
+          <h1 className="font-serif text-[clamp(2.75rem,6vw,5rem)] font-normal leading-[1.02] tracking-[-0.01em] text-faience">
             {article.title}
           </h1>
           {article.deck && (
-            <p className="mb-8 font-serif text-2xl italic leading-relaxed text-ink-soft">
+            <p className="mt-7 max-w-[680px] font-serif text-[clamp(1.375rem,2.3vw,1.8rem)] italic leading-snug text-night-soft">
               {article.deck}
             </p>
           )}
-          {article.author && (
-            <div className="flex items-center gap-3 border-y border-line py-4">
-              {authorPhotoUrl ? (
-                <Image
-                  src={authorPhotoUrl}
-                  alt={article.author.name}
-                  width={48}
-                  height={48}
-                  className="h-12 w-12 rounded-full object-cover"
-                />
-              ) : null}
-              <div className="text-sm">
-                <p className="text-ink">
-                  <span className="text-ink-muted">{t('byLabel')}</span>{' '}
-                  <span className="font-medium">{article.author.name}</span>
-                </p>
-                {article.author.role && (
-                  <p className="text-xs uppercase tracking-wider text-ink-muted">
-                    {article.author.role}
-                  </p>
-                )}
-              </div>
-              {dateLabel && (
-                <p className="ml-auto text-xs uppercase tracking-wider text-ink-muted">
-                  {dateLabel}
-                </p>
-              )}
-            </div>
-          )}
-        </header>
-
-        {/* Body — generous typography on a narrower column */}
-        {article.body ? (
-          <div className="prose-editorial max-w-none">
-            <Body value={article.body} locale={locale as Locale} />
+          <div className="mt-9 flex flex-wrap items-center gap-x-4 gap-y-2 border-y border-rule py-5 font-sans text-xs uppercase tracking-[0.08em] text-night-soft">
+            {article.author && (
+              <span className="text-night">
+                <span className="text-night-soft">{t('byLabel')}</span> {article.author.name}
+              </span>
+            )}
+            {article.author && dateLabel && <span aria-hidden className="text-rule-strong">·</span>}
+            {dateLabel && <span>{dateLabel}</span>}
+            <span aria-hidden className="text-rule-strong">·</span>
+            <span>{t('readingTime', { count: minutes })}</span>
           </div>
-        ) : null}
+        </header>
       </div>
 
-      {/* Author bio + related */}
-      <div className="mx-auto max-w-3xl px-6">
-        {article.authorBio?.bio ? (
-          <section className="mt-16 rounded-lg border border-line bg-cream-warm p-8">
-            <div className="flex items-center gap-4">
-              {authorPhotoUrl && (
-                <Image
-                  src={authorPhotoUrl}
-                  alt={article.author?.name ?? ''}
-                  width={64}
-                  height={64}
-                  className="h-16 w-16 rounded-full object-cover"
-                />
-              )}
-              <div>
-                <p className="font-serif text-xl text-ink">{article.author?.name}</p>
-                {article.author?.role && (
-                  <p className="text-xs uppercase tracking-wider text-ink-muted">
-                    {article.author.role}
-                  </p>
-                )}
+      {/* ── Optional magazine lead image (features only) ── */}
+      {featureUrl && (
+        <div className="mx-auto mt-12 max-w-7xl px-6">
+          <figure>
+            <div className="relative aspect-[16/8] overflow-hidden bg-limestone-deep">
+              <Image
+                src={featureUrl}
+                alt={article.heroImage?.alt || article.title}
+                fill
+                sizes="(max-width: 1280px) 100vw, 1216px"
+                className="object-cover"
+                priority
+              />
+            </div>
+            {article.heroImage?.caption && (
+              <figcaption className="mt-3 font-sans text-xs uppercase tracking-[0.08em] text-night-soft">
+                {article.heroImage.caption}
+              </figcaption>
+            )}
+          </figure>
+        </div>
+      )}
+
+      {/* ── Body: sticky sidebar + article ── */}
+      <div className="mx-auto max-w-7xl px-6">
+        <div className="grid grid-cols-1 gap-x-20 gap-y-10 py-16 lg:grid-cols-[220px_minmax(0,1fr)]">
+          <ArticleSidebar
+            headings={headings}
+            filedUnder={filedUnder}
+            shareTitle={article.title}
+            labels={{
+              toc: t('tocLabel'),
+              conciergeText: t('sidebarConciergeText'),
+              conciergeCta: t('sidebarConciergeCta'),
+              filedUnder: t('filedUnderLabel'),
+              share: t('shareLabel'),
+              copyLink: t('shareCopyLink'),
+              copied: t('shareCopied'),
+              email: t('shareEmail'),
+            }}
+          />
+
+          <div className="min-w-0">
+            {article.body ? (
+              <div
+                className={`prose-editorial max-w-[680px] ${dropCap ? 'article-dropcap' : ''}`}
+              >
+                <Body value={article.body} locale={locale as Locale} />
               </div>
-            </div>
-            <div className="prose-editorial mt-4 max-w-none text-sm">
-              <Body value={article.authorBio.bio} locale={locale as Locale} />
-            </div>
-          </section>
-        ) : null}
+            ) : null}
+
+            {/* Archive attribution — only for legacy archive pieces */}
+            {isArchive && (
+              <div className="mt-10 max-w-[680px] bg-limestone-deep p-7">
+                <p className="mb-2 font-sans text-xs font-medium uppercase tracking-[0.18em] text-night">
+                  {t('archiveTitle')}
+                </p>
+                <p className="font-sans text-sm leading-relaxed text-night-soft">
+                  {t('archiveBody')}
+                </p>
+              </div>
+            )}
+
+            {/* Author bio */}
+            {article.authorBio?.bio ? (
+              <section className="mt-12 max-w-[680px] border border-rule bg-limestone-warm p-8">
+                <div className="flex items-center gap-4">
+                  {authorPhotoUrl && (
+                    <Image
+                      src={authorPhotoUrl}
+                      alt={article.author?.name ?? ''}
+                      width={56}
+                      height={56}
+                      className="h-14 w-14 rounded-full object-cover"
+                    />
+                  )}
+                  <div>
+                    <p className="font-serif text-xl text-night">{article.author?.name}</p>
+                    {article.author?.role && (
+                      <p className="font-sans text-xs uppercase tracking-wider text-night-soft">
+                        {article.author.role}
+                      </p>
+                    )}
+                  </div>
+                </div>
+                <div className="prose-editorial mt-4 max-w-none text-sm">
+                  <Body value={article.authorBio.bio} locale={locale as Locale} />
+                </div>
+              </section>
+            ) : null}
+          </div>
+        </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-6 pb-24 pt-16">
-        {article.relatedArticles && article.relatedArticles.length > 0 && (
-          <section className="mt-12 border-t border-line pt-12">
-            <h2 className="mb-8 font-serif text-3xl font-medium text-ink">
-              {t('relatedArticlesLabel')}
-            </h2>
-            <div className="grid grid-cols-1 gap-x-10 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-              {article.relatedArticles.map((r) => (
-                <ArticleCard key={r._id} article={r} locale={locale} />
-              ))}
-            </div>
-          </section>
-        )}
-      </div>
+      {/* ── Related weave ── */}
+      <ArticleRelatedWeave columns={weaveColumns} />
+
+      {/* ── Concierge CTA (contextual where a city is known) ── */}
+      <ConciergeCTA
+        variant="compact"
+        contextLabel={cityName ? t('conciergeAboutCity', { city: cityName }) : undefined}
+      />
+
+      {/* ── Foot connective band ── */}
+      <ArticleFootBand
+        inSeasonLabel={t('footInSeasonLabel')}
+        inSeasonBody={t('footInSeasonBody')}
+        journalLabel={t('footJournalLabel')}
+        journalItems={journalItems}
+        practicalLabel={t('footPracticalLabel')}
+        practicalBody={t('footPracticalBody')}
+      />
+
+      {/* ── Persistent concierge affordance ── */}
+      <FloatingConcierge />
     </article>
   );
 }
