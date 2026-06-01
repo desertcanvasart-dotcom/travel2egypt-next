@@ -1,3 +1,5 @@
+import { Suspense } from 'react';
+
 import { Breadcrumb, type BreadcrumbCrumb } from '@/components/Breadcrumb';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
 import { FloatingConcierge } from '@/components/FloatingConcierge';
@@ -9,7 +11,7 @@ import { ArchiveEssay } from './ArchiveEssay';
 import { FeaturedItem } from './FeaturedItem';
 import { ThemedCollection } from './ThemedCollection';
 import { ArchiveNavigator } from './ArchiveNavigator';
-import { ArchiveIndex } from './ArchiveIndex';
+import { ArchiveIndex, ArchiveIndexView } from './ArchiveIndex';
 import type {
   ArchiveCollection,
   ArchiveItem,
@@ -116,7 +118,22 @@ export function ArchiveTemplate({
       )}
 
       <div className={CONTAINER}>
-        <ArchiveIndex items={index.items} filters={index.filters} labels={index.labels} />
+        {/* useSearchParams (in ArchiveIndex) must sit inside Suspense for static
+            prerender. The fallback is the same view unfiltered, so the rows are
+            still server-rendered for SEO; the client swaps in the interactive
+            filtered version on hydration. */}
+        <Suspense
+          fallback={
+            <ArchiveIndexView
+              items={index.items}
+              filters={index.filters}
+              labels={index.labels}
+              selected={{}}
+            />
+          }
+        >
+          <ArchiveIndex items={index.items} filters={index.filters} labels={index.labels} />
+        </Suspense>
       </div>
 
       <ConciergeCTA variant="compact" contextLabel={conciergeContextLabel} />
