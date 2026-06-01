@@ -27,6 +27,7 @@ import { wikiMonumentSchema } from './wikiMonument';
 import { wikiDeitySchema } from './wikiDeity';
 import { hotelSchema, nileCruiseSchema } from './hotelAndCruise';
 import { hotelsArchiveSchema } from './hotelsArchive';
+import { dayToursArchiveSchema } from './dayToursArchive';
 import { pageSchema, legalPageSchema } from './page';
 import { editorialPageSchema } from './editorialPage';
 import {
@@ -74,6 +75,7 @@ export const schemaTypes = [
   hotelSchema,
   nileCruiseSchema,
   hotelsArchiveSchema,
+  dayToursArchiveSchema,
 
   // ── System ──
   pageSchema,

@@ -43,30 +43,47 @@ no facet key is hardcoded. Per archive type, the **facets** differ:
 | nile-cruises       | `nights`, `route`            |
 | travel-tips        | `category`                   |
 
-### ⚠️ TODO before the tours / cruises archives — RANGE facets
+### Range facets (implemented)
 
-The facet filter model is currently **exact-match only** (`badge` / `stars` /
-`text`): a row matches a filter when `facet.value === selected`. That works for
-grade, city, route, category.
+Most facets are **exact-match** (`facet.value === selected` — grade, city,
+route, category). For values travelers filter by **range** (duration, nights),
+a filter group sets `kind: 'range'` and declares ordered `buckets`:
 
-It does **not** work for `duration` (private-day-tours) or `nights`
-(nile-cruises), which travelers filter by **range**, not exact value — e.g.
-"2–5 days", "6–10", "11+". A `duration=3` exact filter would hide a 4-day tour.
+```ts
+{
+  key: 'duration', paramKey: 'length', label: 'Length', kind: 'range',
+  allLabel: 'Any length',
+  buckets: [
+    { key: 'half', label: 'Half day', min: 0, max: 5 },
+    { key: 'full', label: 'Full day', min: 6, max: 10 },
+    { key: 'extended', label: 'Extended', min: 11 },   // open-ended: omit max
+  ],
+  options: buckets.map(b => ({ value: b.key, label: b.label })),
+  hint: 'Length is a range, not an exact figure…',      // optional italic note
+}
+```
 
-**Resolve this first when adding the tours archive.** Two options:
+Each item's facet for that key carries a **`numericValue`** (e.g. hours,
+nights). `ArchiveIndex` buckets the value via `bucketKeyForValue()` and matches
+the bucket key. If an item has no `numericValue`, it falls back to exact-match
+on `facet.value` (a pre-bucketed key) — so a route can mix real numbers with
+heuristic buckets. `/nile-cruises` reuses this for `nights` by setting
+`numericValue = durationNights` and night buckets — no template change.
 
-1. **Pre-bucket at query time (no template change):** map each item's raw
-   duration to a bucket label and emit it as a normal `badge`/`text` facet
-   (`value: '2-5'`, `label: '2–5 days'`), with the filter options being those
-   buckets. Simplest; keeps `ArchiveIndex` exact-match. Downside: bucket
-   boundaries are fixed in the route, not data-driven.
-2. **Add a `range` facet type to `ArchiveIndex`:** the facet carries a numeric
-   value; the filter group defines ranges (`{min,max,label}[]`); matching tests
-   `min <= value <= max`. More general, reusable across both archives, but
-   touches the template's filter logic and `types.ts`.
+`/private-day-tours` shows the pattern. **Caveat:** day-tour duration data is
+sparse (few `durationHours`, no `durationLabel`), so its route derives the
+bucket heuristically (hours → multi-day → title/slug signals → default "Full
+day"). Buckets are a filtering/UI affordance there, not asserted facts —
+backfill real durations to make them authoritative.
 
-Recommendation: option 2 if both tours and cruises need it (they do), so the
-range logic lives once in the template rather than being re-bucketed per route.
+### Navigator (optional section)
+
+Archives may supply a `navigator` (`NavigatorConfig`): a heading + ordered
+`{ cityName, note, countLabel, href }` items rendered as a bordered city grid
+(`ArchiveNavigator`), between the collections and the index. It's optional —
+hotels omit it; the city sub-pages would omit it too. `/private-day-tours`
+points each entry at an existing `tourLanding` city sub-page and computes the
+live per-city count in the route.
 
 ## Adding a new archive (no template edits)
 
@@ -89,6 +106,18 @@ range logic lives once in the template rather than being re-bucketed per route.
    the curation is the editorial value).
 
 That's it: new facet config + new content, not template changes.
+
+`/private-day-tours` is the worked second example — copy its route for the
+range facet + navigator wiring; copy `/hotels` for the simpler exact-match case.
+
+## City sub-pages (`/[city]-private-day-tours`)
+
+These are currently a separate template (the `tourLanding` view in the
+`[...rest]` catch-all) and were left as-is. A city sub-page can later adopt
+`ArchiveTemplate` too: **omit the `navigator`** (you're already inside one city)
+and **scope the index + collections to that city** (filter the tour set by the
+landing's `destinationCity`). The facet config drops `city` and keeps just
+`duration`. No template changes — same pattern, narrower data.
 
 ## Notes
 
