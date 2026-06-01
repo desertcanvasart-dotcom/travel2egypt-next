@@ -58,10 +58,11 @@ const NOTES_MARKERS = [
   'cluster consistency callouts',
   'internal-link opportunities',
   'meta title and meta description added',
-  // NOTE: 'google drive copy' deliberately NOT a marker. On Port Said docs that
-  // region contains a richer ALTERNATE version of the article (not just leaked
-  // metadata), so auto-truncating would delete real content. Port Said
-  // "Google Drive Copy" regions are flagged for manual review instead.
+  // 'google drive copy' — Port Said docs append the RAW Google-Doc source under
+  // this heading (sheet refs + a run-on duplicate of the polished article that
+  // already sits above it). Verified redundant on tours-in-port-said, so the
+  // whole trailing region is safe to truncate.
+  'google drive copy',
 ];
 
 // Fields to clean, per document type.

@@ -65,6 +65,22 @@ const FIXES: Fix[] = [
   // Al Quseir Mövenpick is ~6 km north of town (El Quadim Bay), not ~1 km
   // (consistent with Food page "five to six kilometres north").
   { city: 'al-quseir', slug: 'getting-around-in-al-quseir', find: 'Mövenpick about a kilometre north', replace: 'Mövenpick about six kilometres north', note: 'Mövenpick distance consistency' },
+  // Akhmim: Cairo–Sohag train ~6–7h (align to Tours page + reality; was low).
+  { city: 'akhmim', slug: 'how-to-go-to-akhmim', find: 'From Cairo, the journey takes roughly five to six hours', replace: 'From Cairo, the journey takes roughly six to seven hours', note: 'Cairo–Sohag train time' },
+  // Abu Simbel relocation cost ~$40M (align History page to main page + reality).
+  { city: 'abu-simbel', slug: 'abu-simbel-historical-overview', find: 'cost around 36 million US dollars', replace: 'cost around 40 million US dollars', note: 'relocation cost consistency' },
+  // Abu Simbel Great Temple interior depth: same page used 56m and 60m; unify on 56m.
+  { type: 'city', city: 'abu-simbel', slug: 'abu-simbel', find: 'roughly 60-metre corridor', replace: 'roughly 56-metre corridor', note: 'temple length self-consistency' },
+  // Fayoum waterwheels: "sharweel" is wrong (means "trousers"); they are the
+  // water-powered taboot (per the dedicated Waterwheels page).
+  { city: 'al-fayoum', slug: 'things-to-do-in-al-fayoum', find: 'sharweel', replace: 'taboot', note: 'waterwheel term' },
+  // Abu Simbel drive-time: align main page (outlier 3–3.5h) to how-to-go + tours (3.5–4h).
+  { type: 'city', city: 'abu-simbel', slug: 'abu-simbel', find: 'around three to three and a half hours each way', replace: 'around three and a half to four hours each way', note: 'Aswan–Abu Simbel drive time consistency' },
+  // Mosque of Muhammad Ali completion: align Citadel page to dedicated mosque page (1848).
+  { city: 'cairo', slug: 'the-citadel-of-saladin', find: 'begun 1830, completed 1857', replace: 'begun 1830, completed 1848', note: 'Muhammad Ali mosque date consistency' },
+  // Bahariya: the Zed-Amun-ef-ankh / Bannentiu tombs are at Qarat Qasr Salim,
+  // not Ain El-Hubaga (consistent with Travel Guide / History / Things to Do).
+  { city: 'bahariya-oasis', slug: 'bawiti', find: 'The Decorated Tombs of Ain El-Hubaga', replace: 'The Decorated Tombs of Qarat Qasr Salim', note: 'Bawiti tomb location consistency' },
 ];
 
 interface Span { _type: string; _key?: string; text?: string }
