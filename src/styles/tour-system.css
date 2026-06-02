@@ -244,6 +244,10 @@
  * ========================================================================= */
 .lvl-subcategory .hero { position: relative; min-height: clamp(520px, 72vh, 640px); display: flex; align-items: flex-end; overflow: hidden; }
 .lvl-subcategory .hero .bg { position: absolute; inset: 0; }
+/* The .bg fills the hero; its JourneyImage child (.t2e-visual) must fill .bg too,
+   else it collapses to 0 height and the <Image fill> hero photo never shows
+   (only the scrim gradient renders). Mirrors the .feature fix. */
+.lvl-subcategory .hero .bg > .t2e-visual { position: absolute; inset: 0; }
 .lvl-subcategory .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(10, 14, 20, .76), rgba(10, 14, 20, .30) 48%, rgba(10, 14, 20, .05)); }
 .lvl-subcategory .hero-grid { position: relative; z-index: 2; display: grid; grid-template-columns: minmax(0, 1.1fr) 400px; gap: 56px; align-items: end; width: 100%; padding: 0 0 52px; }
 .lvl-subcategory .hero .t2e-kicker { color: #e9d9b4; margin-bottom: 18px; display: block; }
