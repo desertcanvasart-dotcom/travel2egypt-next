@@ -164,7 +164,15 @@ export async function CategoryView({
     { value: 'extended', label: t('lengthExtended') },
   ];
 
-  const hasEditorial = Boolean(archive?.essay) || Boolean(archive?.editorByline?.heading);
+  // Byline (sticky "why" aside) — heading + note are REQUIRED content; it must
+  // never render with only its kicker. Doc fields win; i18n copy is the fallback
+  // so the aside is always complete in every locale even before the doc is seeded.
+  const bylineKicker = archive?.editorByline?.kicker ?? ts('whyKicker');
+  const bylineHeading = archive?.editorByline?.heading ?? ts('whyHeading');
+  const bylineNote = archive?.editorByline?.intro ?? ts('whyNote');
+  // The editorial section always renders: the byline always has content, and the
+  // essay shows when present.
+  const hasEditorial = true;
 
   return (
     <div className="tour-doc lvl-category">
@@ -188,9 +196,9 @@ export async function CategoryView({
         <section className="editorial">
           <div className="t2e-wrap intro-grid">
             <aside className="byline">
-              <span className="t2e-kicker">{archive?.editorByline?.kicker ?? ts('whyKicker')}</span>
-              {archive?.editorByline?.heading && <h3>{archive.editorByline.heading}</h3>}
-              {archive?.editorByline?.intro && <p>{archive.editorByline.intro}</p>}
+              <span className="t2e-kicker">{bylineKicker}</span>
+              <h3>{bylineHeading}</h3>
+              <p>{bylineNote}</p>
             </aside>
             <article className="article">
               <TourProse value={archive?.essay} locale={locale} />
