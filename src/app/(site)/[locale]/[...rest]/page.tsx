@@ -29,7 +29,8 @@ import {
 } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { TourPageView } from '@/components/TourPageView';
-import { SubcategoryRoute } from '@/components/subcategory/SubcategoryRoute';
+import { SingleTourView } from '@/components/tour-system/SingleTourView';
+import { SubcategoryView } from '@/components/tour-system/SubcategoryView';
 import { TourCloseRhythm } from '@/components/subcategory/TourCloseRhythm';
 
 interface Props {
@@ -100,6 +101,11 @@ export default async function CatchAllPage({ params }: Props) {
       client.fetch(siteSettingsQuery(locale as Locale)),
     ]);
     if (!tour) notFound();
+    // Single day tours render in the reconciled journey-3 design. Multi-day
+    // packages keep the legacy TourPageView (day-by-day itinerary grid).
+    if ((tour as { type?: string }).type === 'dayTour') {
+      return <SingleTourView tour={tour as never} locale={locale as Locale} />;
+    }
     return (
       <>
         <TourPageView tour={tour} locale={locale as Locale} slug={rest[0]} siteSettings={siteSettings} />
@@ -127,11 +133,12 @@ export default async function CatchAllPage({ params }: Props) {
   if (hit._type === 'tourLanding') {
     const doc = await client.fetch(tourLandingBySlugQuery(locale as Locale), { slug: rest[0] });
     if (!doc) notFound();
-    // Day-tour landings (city × track) render through the SubcategoryTemplate.
-    // Package landings (theme / origin-region) keep the legacy view for now.
+    // Day-tour landings (city × track) render through the reconciled
+    // SubcategoryView (journey-2 design). Package landings (theme /
+    // origin-region) keep the legacy view for now.
     const key = doc.category?.key;
     if ((key === 'private-day-tour' || key === 'group-day-tour') && doc.destinationCity?.slug) {
-      return <SubcategoryRoute doc={doc} locale={locale as Locale} />;
+      return <SubcategoryView doc={doc} locale={locale as Locale} />;
     }
     return <TourLandingView doc={doc} locale={locale as Locale} />;
   }

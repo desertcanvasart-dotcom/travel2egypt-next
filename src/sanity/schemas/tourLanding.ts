@@ -8,6 +8,15 @@ import {
   migrationField,
 } from './_helpers';
 import { ARCHIVE_ESSAY_EXTRA_BLOCKS } from './_archiveBlocks';
+import {
+  landingFactsField,
+  landingHeroNoteField,
+  landingBylineField,
+  landingMoodChooserField,
+  landingOrientationField,
+  landingTourNotesField,
+  landingJournalField,
+} from './_tourSystemBlocks';
 
 /**
  * Tour sub-category landing page. Sits one level under tourCategory and
@@ -120,6 +129,13 @@ export const tourLandingSchema = defineType({
       type: 'internationalizedArrayString',
       group: 'content',
     }),
+
+    // ── Tour-system design fields (journey-2 subcategory) ──────────
+    landingFactsField,
+    landingHeroNoteField,
+    landingBylineField,
+    landingMoodChooserField,
+    landingOrientationField,
     defineField(
       localizedPortableTextField('faq', {
         title: 'FAQ',
@@ -138,6 +154,8 @@ export const tourLandingSchema = defineType({
       group: 'related',
       of: [{ type: 'reference', to: [{ type: 'tour' }] }],
     }),
+    landingTourNotesField,
+    landingJournalField,
 
     // ── Media ────────────────────────────────────────────────────
     defineField({

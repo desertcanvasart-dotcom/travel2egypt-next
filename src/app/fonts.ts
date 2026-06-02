@@ -14,6 +14,8 @@
 import {
   Cormorant_Garamond,
   Source_Serif_4,
+  Newsreader,
+  DM_Sans,
   Noto_Serif_JP,
   Noto_Sans_JP,
   Noto_Sans_Egyptian_Hieroglyphs,
@@ -21,9 +23,31 @@ import {
 
 export const cormorant = Cormorant_Garamond({
   subsets: ['latin', 'latin-ext'],
-  weight: ['400', '500', '600'],
+  weight: ['300', '400', '500', '600'],
   style: ['normal', 'italic'],
   variable: '--font-cormorant',
+  display: 'swap',
+});
+
+/**
+ * Tour-system reference faces (journey-1/2/3 approved designs):
+ *   - Reading/body → Newsreader (300/400/500 + italic 400)
+ *   - UI/labels    → DM Sans (400/500/600)
+ * Loaded site-wide because the canonical chrome (nav/footer/concierge)
+ * reconciled to those designs uses them. Exact per spec — no substitution.
+ */
+export const newsreader = Newsreader({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['300', '400', '500'],
+  style: ['normal', 'italic'],
+  variable: '--font-newsreader',
+  display: 'swap',
+});
+
+export const dmSans = DM_Sans({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '600'],
+  variable: '--font-dm-sans',
   display: 'swap',
 });
 
@@ -63,6 +87,8 @@ export const notoSansEgyptianHieroglyphs = Noto_Sans_Egyptian_Hieroglyphs({
 export const fontVariables = [
   cormorant.variable,
   sourceSerif4.variable,
+  newsreader.variable,
+  dmSans.variable,
   notoSerifJp.variable,
   notoSansJp.variable,
   notoSansEgyptianHieroglyphs.variable,

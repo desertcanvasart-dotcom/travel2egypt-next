@@ -314,6 +314,40 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       authorName,
       authorOrigin
     },
+    "journalRefs": journalRefs[]->{
+      _id,
+      "title": title,
+      "slug": slug.current
+    },
+    "groupSize": ${localizedField('groupSize', locale)},
+    "effortLevel": ${localizedField('effortLevel', locale)},
+    "departsFrom": ${localizedField('departsFrom', locale)},
+    "priceFrom": ${localizedField('priceFrom', locale)},
+    "timeline": timeline[]{
+      "time": ${localizedField('time', locale)},
+      "description": ${localizedField('description', locale)}
+    },
+    "conciergeNote": ${localizedField('conciergeNote', locale)},
+    "includedItems": coalesce(includedItems[_key=="${locale}"][0].value, includedItems[_key=="en"][0].value),
+    "notIncludedItems": coalesce(notIncludedItems[_key=="${locale}"][0].value, notIncludedItems[_key=="en"][0].value),
+    "accessNoteTitle": ${localizedField('accessNoteTitle', locale)},
+    "accessNote": ${localizedField('accessNote', locale)},
+    "audienceNoteTitle": ${localizedField('audienceNoteTitle', locale)},
+    "audienceNote": ${localizedField('audienceNote', locale)},
+    "shapeOfDay": shapeOfDay{
+      "where": ${localizedField('where', locale)},
+      "duration": ${localizedField('duration', locale)},
+      "character": ${localizedField('character', locale)}
+    },
+    "priceTiers": priceTiers[]{
+      "name": ${localizedField('name', locale)},
+      "sub": ${localizedField('sub', locale)},
+      "price": ${localizedField('price', locale)},
+      "unit": ${localizedField('unit', locale)}
+    },
+    "priceNote": ${localizedField('priceNote', locale)},
+    "trustSignals": coalesce(trustSignals[_key=="${locale}"][0].value, trustSignals[_key=="en"][0].value),
+    "accreditations": ${localizedField('accreditations', locale)},
     seo{
       "metaTitle": ${localizedField('metaTitle', locale)},
       "metaDescription": ${localizedField('metaDescription', locale)},
@@ -509,12 +543,18 @@ export const dayToursArchiveQuery = (locale: Locale) => groq`
     "title": ${localizedField('mastTitle', locale)},
     "tagline": ${localizedField('tagline', locale)},
     "essayHeading": ${localizedField('essayHeading', locale)},
+    "editorByline": editorByline{
+      "kicker": ${localizedField('kicker', locale)},
+      "heading": ${localizedField('heading', locale)},
+      "intro": ${localizedField('intro', locale)}
+    },
     "essay": ${portableTextBodyProjection('essay', locale)},
     "featured": featured{
       "dek": ${localizedField('dek', locale)},
       "body": ${portableTextBodyProjection('body', locale)},
       "tour": tour->{ ${tourCardProjection(locale)} }
     },
+    "editorsPicks": editorsPicks[]->{ ${tourCardProjection(locale)} },
     "collections": collections[]{
       "kicker": ${localizedField('kicker', locale)},
       "title": ${localizedField('title', locale)},
@@ -1683,6 +1723,61 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
     },
     "themeRef": themeRef->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)} },
     originRegion,
+    "ctaContext": ${localizedField('ctaContext', locale)},
+    "facts": facts[]{
+      "label": ${localizedField('label', locale)},
+      "value": ${localizedField('value', locale)}
+    },
+    "heroNote": ${localizedField('heroNote', locale)},
+    "editorByline": editorByline{
+      "kicker": ${localizedField('kicker', locale)},
+      "heading": ${localizedField('heading', locale)},
+      "intro": ${localizedField('intro', locale)},
+      "mini": ${localizedField('mini', locale)}
+    },
+    "moodChooser": moodChooser{
+      "heading": ${localizedField('heading', locale)},
+      "intro": ${localizedField('intro', locale)},
+      "cards": cards[]{
+        "eyebrow": ${localizedField('eyebrow', locale)},
+        "title": ${localizedField('title', locale)},
+        "body": ${localizedField('body', locale)},
+        "bullets": coalesce(bullets[_key=="${locale}"][0].value, bullets[_key=="en"][0].value),
+        "jumpLabel": ${localizedField('jumpLabel', locale)},
+        "image": image{ ..., "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value) }
+      }
+    },
+    "orientation": orientation{
+      "baseLabel": ${localizedField('baseLabel', locale)},
+      "baseName": ${localizedField('baseName', locale)},
+      "stops": stops[]{
+        "name": ${localizedField('name', locale)},
+        "sub": ${localizedField('sub', locale)},
+        "time": ${localizedField('time', locale)},
+        "effort": ${localizedField('effort', locale)}
+      },
+      "copyKicker": ${localizedField('copyKicker', locale)},
+      "copyHeading": ${localizedField('copyHeading', locale)},
+      "copyBody": ${localizedField('copyBody', locale)},
+      "effort": effort[]{
+        "label": ${localizedField('label', locale)},
+        "value": ${localizedField('value', locale)}
+      }
+    },
+    "tourPresentation": tourPresentation[]{
+      "tourId": tour._ref,
+      "label": ${localizedField('label', locale)},
+      "featured": featured,
+      "why": ${localizedField('why', locale)}
+    },
+    "journalRefs": journalRefs[]->{
+      _id,
+      "_type": _type,
+      "title": coalesce(${localizedField('title', locale)}, title),
+      "slug": coalesce(${localizedSlug('slug', locale)}, slug.current),
+      "summary": coalesce(${localizedField('summary', locale)}, excerpt),
+      "kicker": ${localizedField('section', locale)}
+    },
     // Build the tours list from the discriminator: this landing lists tours
     // sharing the same parent-category (type × tourMode) AND the same axis value.
     "tours": *[

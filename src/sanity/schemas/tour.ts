@@ -7,6 +7,16 @@ import {
   localizedSlugField,
   migrationField,
 } from './_helpers';
+import {
+  tourMetaFields,
+  tourTimelineField,
+  tourBodyExtraFields,
+  tourShapeField,
+  tourPriceTiersField,
+  tourPriceNoteField,
+  tourTrustFields,
+  tourJournalField,
+} from './_tourSystemBlocks';
 
 export const tourSchema = defineType({
   name: 'tour',
@@ -144,6 +154,8 @@ export const tourSchema = defineType({
       type: 'internationalizedArrayString',
       group: 'classification',
     }),
+    // ── Tour-system meta row (journey-3 single) ──
+    ...tourMetaFields,
 
     // ── Content ────────────────────────────
     defineField({
@@ -403,6 +415,11 @@ export const tourSchema = defineType({
       }) as any
     ),
 
+    // ── Tour-system structured fields (journey-3 single) ──
+    tourTimelineField,
+    ...tourBodyExtraFields,
+    tourShapeField,
+
     // ── Pricing (consultation-only — indicative direction only) ────────────────────
     defineField({
       name: 'priceIndication',
@@ -412,6 +429,8 @@ export const tourSchema = defineType({
       type: 'internationalizedArrayString',
       group: 'pricing',
     }),
+    tourPriceTiersField,
+    tourPriceNoteField,
 
     // ── Related ────────────────────────────
     defineField({
@@ -439,6 +458,8 @@ export const tourSchema = defineType({
       group: 'related',
       of: [{ type: 'reference', to: [{ type: 'travelerStory' }] }],
     }),
+    ...tourTrustFields,
+    tourJournalField,
 
     // ── Media ────────────────────────────
     defineField({

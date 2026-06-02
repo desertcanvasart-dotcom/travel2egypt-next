@@ -1,0 +1,324 @@
+import { getTranslations } from 'next-intl/server';
+
+import { Link } from '@/i18n/navigation';
+import { client } from '@/sanity/lib/client';
+import { otherTrackLandingSlugQuery } from '@/sanity/lib/queries';
+import type { Locale } from '@/i18n/routing';
+
+import { JourneyImage } from './JourneyImage';
+import { TourProse } from './TourProse';
+import { ConciergeOpenButton } from './ConciergeOpenButton';
+import { FloatingConcierge } from '../FloatingConcierge';
+
+const WHATSAPP = 'https://wa.me/201158011600';
+
+interface CityRef { _id: string; name: string; slug: string }
+
+export interface SingleTour {
+  _id: string;
+  type?: string;
+  tourMode?: string;
+  title: string;
+  slug: string;
+  summary?: string;
+  durationLabel?: string;
+  priceIndication?: string;
+  heroImage?: { asset?: unknown; alt?: string } | null;
+  cities?: CityRef[];
+  body?: unknown;
+  groupSize?: string;
+  effortLevel?: string;
+  departsFrom?: string;
+  priceFrom?: string;
+  timeline?: Array<{ time?: string; description?: string }> | null;
+  conciergeNote?: string;
+  includedItems?: string[] | null;
+  notIncludedItems?: string[] | null;
+  accessNoteTitle?: string;
+  accessNote?: string;
+  audienceNoteTitle?: string;
+  audienceNote?: string;
+  shapeOfDay?: { where?: string; duration?: string; character?: string } | null;
+  priceTiers?: Array<{ name?: string; sub?: string; price?: string; unit?: string }> | null;
+  priceNote?: string;
+  trustSignals?: string[] | null;
+  accreditations?: string;
+  relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[] }> | null;
+  relatedGuides?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
+  relatedGuideArticles?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
+  journalRefs?: Array<{ _id: string; title?: string; slug?: string }> | null;
+}
+
+export async function SingleTourView({ tour, locale }: { tour: SingleTour; locale: Locale }) {
+  const t = await getTranslations('tour');
+  const tSub = await getTranslations('subcategory');
+  const tNav = await getTranslations('nav');
+  const ts = await getTranslations('tourSystem');
+
+  const isGroup = tour.tourMode === 'group';
+  const trackLabel = isGroup ? tSub('trackGroup') : tSub('trackPrivate');
+  const trackKicker = isGroup ? ts('kickerGroup') : ts('kickerPrivate');
+  const city = tour.cities?.[0];
+  const cityName = city?.name ?? '';
+  const dayToursPath = isGroup ? '/group-day-tours' : '/private-day-tours';
+  const sameKey = isGroup ? 'group-day-tour' : 'private-day-tour';
+  const otherKey = isGroup ? 'private-day-tour' : 'group-day-tour';
+
+  const [sameLanding, otherLanding] = city?._id
+    ? await Promise.all([
+        client.fetch<{ slug?: string } | null>(otherTrackLandingSlugQuery(locale), { otherKey: sameKey, cityId: city._id }),
+        client.fetch<{ slug?: string } | null>(otherTrackLandingSlugQuery(locale), { otherKey, cityId: city._id }),
+      ])
+    : [null, null];
+
+  // Meta row "from" price: explicit → first tier → indicative.
+  const tier0 = tour.priceTiers?.[0];
+  const fromPrice =
+    tour.priceFrom ||
+    (tier0?.price ? `${tier0.price}${tier0.unit ? ` ${tier0.unit}` : ''}` : '') ||
+    tour.priceIndication ||
+    '';
+
+  const metaItems = [
+    { label: ts('metaDuration'), value: tour.durationLabel },
+    { label: ts('metaGroup'), value: tour.groupSize },
+    { label: ts('metaEffort'), value: tour.effortLevel },
+    { label: ts('metaDeparts'), value: tour.departsFrom },
+    { label: ts('metaFrom'), value: fromPrice },
+  ].filter((m) => m.value);
+
+  const timeline = (tour.timeline ?? []).filter((s) => s.time || s.description);
+  const included = tour.includedItems ?? [];
+  const notIncluded = tour.notIncludedItems ?? [];
+  const hasIncl = included.length > 0 || notIncluded.length > 0;
+  const shape = tour.shapeOfDay;
+  const hasShape = Boolean(shape?.where || shape?.duration || shape?.character);
+  const tiers = (tour.priceTiers ?? []).filter((p) => p.name || p.price);
+  const trust = (tour.trustSignals ?? []).filter(Boolean);
+
+  const guideItems = [...(tour.relatedGuides ?? []), ...(tour.relatedGuideArticles ?? [])].filter((g) => g.title);
+  const journal = (tour.journalRefs ?? []).filter((j) => j.title);
+  const moreDays = (tour.relatedTours ?? []).filter((r) => r.slug);
+
+  const guideHref = (g: { _type?: string; slug?: string; parentCity?: { slug?: string } | null }) =>
+    g._type === 'guideArticle' && g.parentCity?.slug ? `/guide/${g.parentCity.slug}/${g.slug}` : `/guide/${g.slug}`;
+
+  return (
+    <div className="tour-doc lvl-single">
+      <div className="t2e-wrap">
+        <nav className="t2e-crumb" aria-label="Breadcrumb">
+          <ol>
+            <li><Link href="/">{tNav('home')}</Link></li>
+            <li><Link href={dayToursPath}>{tSub('breadcrumbDayTours')}</Link></li>
+            <li>{trackLabel}</li>
+            {cityName && (
+              <li>{sameLanding?.slug ? <Link href={`/${sameLanding.slug}`}>{cityName}</Link> : cityName}</li>
+            )}
+            <li>{tour.title}</li>
+          </ol>
+        </nav>
+
+        <header className="head">
+          <span className="t2e-kicker">{trackKicker}{cityName ? ` · ${cityName}` : ''}</span>
+          <h1>{tour.title}</h1>
+          {tour.summary && <p className="dek">{tour.summary}</p>}
+          {metaItems.length > 0 && (
+            <div className="head-meta">
+              {metaItems.map((m, i) => (
+                <div className="m" key={i}>
+                  <small>{m.label}</small>
+                  <strong>{m.value}</strong>
+                </div>
+              ))}
+            </div>
+          )}
+        </header>
+      </div>
+
+      <div className="t2e-wrap">
+        <figure className="feature">
+          <JourneyImage image={tour.heroImage} alt={tour.title} sizes="(max-width:980px) 100vw, 1168px" widthHint={2336} priority />
+        </figure>
+      </div>
+
+      <div className="t2e-wrap">
+        <div className="layout">
+          <article className="body">
+            <TourProse value={tour.body} locale={locale} />
+
+            {timeline.length > 0 && (
+              <>
+                <h2>{ts('timelineTitle')}</h2>
+                <ul className="timeline">
+                  {timeline.map((s, i) => (
+                    <li key={i}>
+                      <span className="t">{s.time}</span>
+                      <span className="d">{s.description}</span>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+
+            {tour.conciergeNote && (
+              <div className="note">
+                <span className="t2e-kicker">{ts('conciergeNoteLabel')}</span>
+                <p>{tour.conciergeNote}</p>
+              </div>
+            )}
+
+            {hasIncl && (
+              <>
+                <h2>{ts('includedTitle')}</h2>
+                <div className="incl">
+                  <div>
+                    <h4>{ts('includedLabel')}</h4>
+                    <ul className="yes">{included.map((it, i) => <li key={i}>{it}</li>)}</ul>
+                  </div>
+                  <div>
+                    <h4>{ts('notIncludedLabel')}</h4>
+                    <ul className="no">{notIncluded.map((it, i) => <li key={i}>{it}</li>)}</ul>
+                  </div>
+                </div>
+              </>
+            )}
+
+            {tour.accessNote && (
+              <>
+                <h2>{tour.accessNoteTitle ?? ts('accessTitle')}</h2>
+                <p>{tour.accessNote}</p>
+              </>
+            )}
+
+            {tour.audienceNote && (
+              <>
+                <h2>{tour.audienceNoteTitle ?? ts('audienceTitle')}</h2>
+                <p>{tour.audienceNote}</p>
+              </>
+            )}
+          </article>
+
+          <aside className="rail">
+            {hasShape && (
+              <div className="card">
+                <span className="ck">{ts('shapeTitle')}</span>
+                <ul className="shape">
+                  {shape?.where && <li><small>{ts('shapeWhere')}</small><span>{shape.where}</span></li>}
+                  {shape?.duration && <li><small>{ts('shapeDuration')}</small><span>{shape.duration}</span></li>}
+                  {shape?.character && <li><small>{ts('shapeCharacter')}</small><span>{shape.character}</span></li>}
+                </ul>
+              </div>
+            )}
+
+            {tiers.length > 0 && (
+              <div className="card">
+                <span className="ck">{ts('priceTitle')}</span>
+                <ul className="tiers">
+                  {tiers.map((tier, i) => (
+                    <li key={i}>
+                      <span className="tn">{tier.name}{tier.sub && <small>{tier.sub}</small>}</span>
+                      <span className="tp">{tier.price}{tier.unit && <small> {tier.unit}</small>}</span>
+                    </li>
+                  ))}
+                </ul>
+                {tour.priceNote && <p className="price-note">{tour.priceNote}</p>}
+                <ConciergeOpenButton className="rail-cta">{ts('planThis')} →</ConciergeOpenButton>
+                <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
+              </div>
+            )}
+
+            {trust.length > 0 && (
+              <div className="card">
+                <span className="ck">{ts('whyBook')}</span>
+                <ul className="trust">{trust.map((s, i) => <li key={i}>{s}</li>)}</ul>
+                {tour.accreditations && <div className="accred">{tour.accreditations}</div>}
+              </div>
+            )}
+          </aside>
+        </div>
+      </div>
+
+      <section className="concierge-cta">
+        <div className="t2e-wrap">
+          <div className="cta-inner">
+            <span className="t2e-kicker">{ts('ctaKicker')}</span>
+            <h2>{ts('ctaTitleL3')} <em>{ts('ctaTitleL3Em')}</em></h2>
+            <p>{ts('ctaBodyL3')}</p>
+            <div className="cta-buttons">
+              <ConciergeOpenButton className="cta-btn cta-btn--primary">{ts('ctaAboutTour')} →</ConciergeOpenButton>
+              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {(moreDays.length > 0 || guideItems.length > 0 || journal.length > 0) && (
+        <section className="related">
+          <div className="t2e-wrap">
+            <div className="related-grid">
+              {moreDays.length > 0 && (
+                <div className="related-col">
+                  <h3>{ts('moreDaysFrom', { city: cityName })}</h3>
+                  {moreDays.slice(0, 3).map((r) => (
+                    <Link key={r._id} className="ritem" href={`/${r.slug}`}>
+                      {r.durationLabel && <span className="rk">{r.durationLabel}</span>}
+                      <span className="rt">{r.title}</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+              {guideItems.length > 0 && (
+                <div className="related-col">
+                  <h3>{ts('readInGuide')}</h3>
+                  {guideItems.slice(0, 3).map((g) => (
+                    <Link key={g._id} className="ritem" href={guideHref(g)}>
+                      <span className="rt">{g.title}</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+              {journal.length > 0 && (
+                <div className="related-col">
+                  <h3>{ts('fromJournal')}</h3>
+                  {journal.slice(0, 3).map((j) => (
+                    <Link key={j._id} className="ritem" href={`/blog/${j.slug}`}>
+                      <span className="rt">{j.title}</span>
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        </section>
+      )}
+
+      <section className="t2e-footband">
+        <div className="t2e-wrap t2e-footband-grid">
+          <div>
+            <h4>{tSub('footInSeasonLabel')}</h4>
+            <div className="t2e-season">
+              <p>{tSub('footInSeasonBody')}</p>
+            </div>
+          </div>
+          <div>
+            <h4>{tSub('aroundCity', { city: cityName })}</h4>
+            <ul>
+              <li><Link href={city?.slug ? `/guide/${city.slug}` : '/guide'}>{tSub('crosslinkCityGuide', { city: cityName })}<small>{tSub('crosslinkGuideKicker')}</small></Link></li>
+              <li><Link href="/hotels">{tSub('crosslinkHotels', { city: cityName })}<small>{tSub('crosslinkHotelsKicker')}</small></Link></li>
+              {otherLanding?.slug && (
+                <li>
+                  <Link href={`/${otherLanding.slug}`}>
+                    {isGroup ? tSub('crosslinkOtherPrivate', { city: cityName }) : tSub('crosslinkOtherGroup', { city: cityName })}
+                    <small>{tSub('crosslinkOtherKicker')}</small>
+                  </Link>
+                </li>
+              )}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <FloatingConcierge />
+    </div>
+  );
+}
