@@ -212,7 +212,12 @@
 .lvl-category .filter.on, .lvl-subcategory .filter.on { background: var(--navy); color: var(--paper); border-color: var(--navy); }
 .lvl-category .range-hint, .lvl-subcategory .range-hint { font-family: var(--read); font-style: italic; font-size: 13px; color: var(--navy-mute); margin: 6px 0 22px; }
 .lvl-category .rows, .lvl-subcategory .rows { border-top: 1px solid var(--rule); }
-.lvl-category .trow, .lvl-subcategory .trow { display: grid; grid-template-columns: 1.8fr 130px 130px 40px; gap: 32px; align-items: center; padding: 20px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; transition: background .2s, padding .2s; }
+.lvl-category .trow, .lvl-subcategory .trow { display: grid; gap: 32px; align-items: center; padding: 20px 0; border-bottom: 1px solid var(--rule); text-decoration: none; color: inherit; transition: background .2s, padding .2s; }
+/* Category index keeps the city column (name · duration · city · arrow). */
+.lvl-category .trow { grid-template-columns: 1.8fr 130px 130px 40px; }
+/* Day-tour subcategory index has no theme column (theme data is empty corpus-wide):
+   name · duration · arrow. */
+.lvl-subcategory .trow { grid-template-columns: 1.9fr 130px 40px; }
 .lvl-category .trow:hover, .lvl-subcategory .trow:hover { background: var(--paper-warm); padding-left: 14px; padding-right: 14px; }
 .lvl-category .trow .tr-name, .lvl-subcategory .trow .tr-name { font-family: var(--display); font-size: 22px; font-weight: 400; line-height: 1.15; color: var(--navy); }
 .lvl-category .trow .tr-dur, .lvl-subcategory .trow .tr-dur { font-family: var(--ui); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-dark); }
