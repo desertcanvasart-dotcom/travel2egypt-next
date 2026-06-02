@@ -3,7 +3,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { type Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
-import { allDayToursQuery, dayToursArchiveQuery } from '@/sanity/lib/queries';
+import { privateDayToursQuery, dayToursArchiveQuery } from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
 import { CategoryView, type CategoryArchiveDoc } from '@/components/tour-system/CategoryView';
 
@@ -44,7 +44,7 @@ export default async function PrivateDayToursPage({
 
   const [archive, tours] = await Promise.all([
     client.fetch<CategoryArchiveDoc | null>(dayToursArchiveQuery(locale as Locale)),
-    client.fetch<RawTour[]>(allDayToursQuery(locale as Locale)),
+    client.fetch<RawTour[]>(privateDayToursQuery(locale as Locale)),
   ]);
 
   return <CategoryView archive={archive} tours={tours} locale={locale as Locale} />;
