@@ -1813,7 +1813,6 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
       "slug": ${localizedSlug('slug', locale)},
       "summary": ${localizedField('summary', locale)},
       "durationLabel": ${localizedField('durationLabel', locale)},
-      "theme": theme->{ "name": ${localizedField('name', locale)} },
       heroImage{
         ...,
         "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
