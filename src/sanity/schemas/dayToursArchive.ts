@@ -52,6 +52,18 @@ export const dayToursArchiveSchema = defineType({
       type: 'internationalizedArrayString',
       group: 'essay',
     }),
+    defineField({
+      name: 'editorByline',
+      title: 'Essay byline (sticky aside)',
+      description: 'The sticky aside beside the philosophy essay (journey-1 design): a kicker, a one-line heading, and a short framing note.',
+      type: 'object',
+      group: 'essay',
+      fields: [
+        defineField({ name: 'kicker', title: 'Kicker', type: 'internationalizedArrayString' }),
+        defineField({ name: 'heading', title: 'Heading', type: 'internationalizedArrayString' }),
+        defineField({ name: 'intro', title: 'Intro', type: 'internationalizedArrayText' }),
+      ],
+    }),
     defineField(
       localizedPortableTextField('essay', {
         title: 'Essay',
@@ -84,6 +96,16 @@ export const dayToursArchiveSchema = defineType({
           }) as any
         ),
       ],
+    }),
+
+    defineField({
+      name: 'editorsPicks',
+      title: "Editor's picks (lead + 2)",
+      description: "Journey-1 \"Days we'd build a trip around\" section. First tour renders as the large lead card, the next two as side cards. Leave empty to omit the section.",
+      type: 'array',
+      group: 'featured',
+      of: [{ type: 'reference', to: [{ type: 'tour' }] }],
+      validation: (Rule) => Rule.max(3),
     }),
 
     // ── Collections ──

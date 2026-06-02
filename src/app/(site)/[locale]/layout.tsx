@@ -1,4 +1,5 @@
 import '../../globals.css';
+import '@/styles/tour-system.css';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale, getMessages } from 'next-intl/server';

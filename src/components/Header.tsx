@@ -5,47 +5,43 @@ import type { Locale } from '@/i18n/routing';
 
 import { LocaleSwitcher } from './LocaleSwitcher';
 import { ServicesMenu } from './ServicesMenu';
-import { Wordmark } from './Wordmark';
 
 interface HeaderProps {
   locale: Locale;
 }
 
+/**
+ * Canonical site nav — reconciled to the approved tour-system reference
+ * (journey-1/2/3). Classes/styles live in src/styles/tour-system.css. The
+ * Services dropdown and locale switcher keep their real behaviour; the scoped
+ * `.t2e-nav-*` rules restyle their triggers to the reference link look by
+ * specificity, so those client components need no edits.
+ */
 export function Header({ locale }: HeaderProps) {
   const t = useTranslations('nav');
 
   return (
-    <header className="sticky top-0 z-40 border-b border-rule bg-paper/95 backdrop-blur-sm">
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
-        <Wordmark size="header" />
+    <nav className="t2e-nav">
+      <div className="t2e-wrap t2e-nav-inner">
+        <Link className="t2e-logo" href="/" aria-label="Travel2Egypt — home">
+          Travel<span className="s">2</span>Egypt
+        </Link>
 
-        <nav className="hidden items-center gap-9 md:flex">
-          <ServicesMenu />
-          <Link href="/guide" className="text-sm text-night-soft transition-colors hover:text-faience">
-            {t('guide')}
-          </Link>
-          {/* Egypt Wiki nav hidden for v1 (session 31 surgical defer):
-              only wikiMonument is content-complete; deities/dynasties/people
-              await v2 editorial. Monuments stay reachable via the city
-              "Places to Go" sidebar. Restore this link when v2 ships. */}
-          <Link href="/blog" className="text-sm text-night-soft transition-colors hover:text-faience">
-            {t('blog')}
-          </Link>
-        </nav>
+        <ul className="t2e-nav-links">
+          <li><ServicesMenu /></li>
+          <li><Link href="/guide">{t('guide')}</Link></li>
+          {/* Egypt Wiki nav stays hidden for v1 (session 31 defer). */}
+          <li><Link href="/blog">{t('blog')}</Link></li>
+        </ul>
 
-        <div className="flex items-center gap-6">
+        <div className="t2e-nav-right">
           <LocaleSwitcher currentLocale={locale} />
-          {/* Was /plan-your-tour — that AI-concierge route isn't built yet.
-              Stopgap (session 37): point at /contact so the CTA lands on a
-              real page. Restore the planning route when the concierge ships. */}
-          <Link
-            href="/contact"
-            className="hidden border-b border-rule-strong pb-[2px] text-sm text-night-soft transition-colors hover:border-faience hover:text-faience md:inline-block"
-          >
+          {/* /plan-your-tour not built yet — point at /contact (session 37 stopgap). */}
+          <Link className="t2e-nav-cta" href="/contact">
             {t('contact')} →
           </Link>
         </div>
       </div>
-    </header>
+    </nav>
   );
 }
