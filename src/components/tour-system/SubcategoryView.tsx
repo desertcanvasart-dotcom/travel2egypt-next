@@ -7,6 +7,8 @@ import type { Locale } from '@/i18n/routing';
 
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
+import { bucketKey } from './lengthBucket';
+import { CategoryIndex, type CategoryRow } from './CategoryIndex';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { FloatingConcierge } from '../FloatingConcierge';
 
@@ -17,7 +19,10 @@ interface RawTour {
   title: string;
   slug: string;
   summary?: string;
+  durationDays?: number;
+  durationHours?: number;
   durationLabel?: string;
+  theme?: { name?: string } | null;
   heroImage?: { asset?: unknown; alt?: string } | null;
 }
 
@@ -72,6 +77,8 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
   const t = await getTranslations('subcategory');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+  const tDay = await getTranslations('dayTours');
+  const tArchive = await getTranslations('archive');
 
   const trackKey = doc.category?.key ?? 'private-day-tour';
   const isGroup = trackKey === 'group-day-tour';
@@ -126,6 +133,32 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
   const orient = doc.orientation;
   const orientStops = (orient?.stops ?? []).filter((s) => s.name);
   const journal = (doc.journalRefs ?? []).filter((j) => j.title);
+
+  // ── "Every {city} day" index — the COMPLETE catalogue for this city/track.
+  // doc.tours already holds every private-Sharm day tour (the curated grid above
+  // is a subset of it), so the index lists all of them, curated included.
+  const bucketLabel = (key: string) =>
+    key === 'half' ? tDay('lengthHalf') : key === 'extended' ? tDay('lengthExtended') : tDay('lengthFull');
+  const indexRows: CategoryRow[] = tours
+    .filter((tr) => tr.slug)
+    .map((tr) => {
+      const key = bucketKey(tr);
+      return {
+        id: tr._id,
+        name: tr.title,
+        durKey: key,
+        durLabel: tr.durationLabel || bucketLabel(key),
+        cityName: '',
+        citySlug: '',
+        theme: tr.theme?.name ?? '',
+        href: `/${tr.slug}`,
+      };
+    });
+  const lengthOptions = [
+    { value: 'half', label: tDay('lengthHalf') },
+    { value: 'full', label: tDay('lengthFull') },
+    { value: 'extended', label: tDay('lengthExtended') },
+  ];
 
   const quizPrompts = [ts('quizQ1'), ts('quizQ2'), ts('quizQ3'), ts('quizQ4')];
 
@@ -273,6 +306,29 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
                 {sideTours.map((tr) => tourCard(tr, false))}
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="index">
+          <div className="t2e-wrap">
+            <div className="t2e-section-head">
+              <div>
+                <span className="t2e-kicker">{ts('cityIndexKicker')}</span>
+                <h2>{ts('cityIndexTitle', { city: cityName })} <em>{ts('cityIndexTitleEm')}</em></h2>
+              </div>
+              <p>{ts('cityIndexIntro', { city: cityName })}</p>
+            </div>
+            <CategoryIndex
+              variant="single"
+              rows={indexRows}
+              lengthOptions={lengthOptions}
+              labels={{
+                lengthLabel: tDay('filterLength'),
+                anyLength: tDay('anyLength'),
+                lengthHint: tDay('lengthHint'),
+                empty: tArchive('emptyState'),
+              }}
+            />
           </div>
         </section>
 

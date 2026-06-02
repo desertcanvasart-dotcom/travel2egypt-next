@@ -5,6 +5,7 @@ import type { Locale } from '@/i18n/routing';
 
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
+import { bucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { FloatingConcierge } from '../FloatingConcierge';
@@ -40,20 +41,6 @@ export interface CategoryArchiveDoc {
       landing?: { slug?: string; cityId?: string; cityName?: string } | null;
     }>;
   } | null;
-}
-
-/** Half/full/extended bucket — UI affordance, mirrors the route's logic. */
-function bucketKey(tour: RawTour): string {
-  if (typeof tour.durationHours === 'number') {
-    if (tour.durationHours <= 5) return 'half';
-    if (tour.durationHours >= 11) return 'extended';
-    return 'full';
-  }
-  if (typeof tour.durationDays === 'number' && tour.durationDays >= 2) return 'extended';
-  const text = `${tour.title ?? ''} ${tour.slug ?? ''}`.toLowerCase();
-  if (/\b(two|three|2|3)[ -]?days?\b|overnight|by road/.test(text)) return 'extended';
-  if (/half[ -]?day|sunrise|sunset|balloon|by night|morning only/.test(text)) return 'half';
-  return 'full';
 }
 
 export async function CategoryView({

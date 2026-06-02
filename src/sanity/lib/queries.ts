@@ -1808,11 +1808,12 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
         (^.category->key == "group-package"    && type == "package" && tourMode == "group")
       )
     ] | order(durationDays asc, _createdAt desc){
-      _id, type, tourMode, durationDays,
+      _id, type, tourMode, durationDays, durationHours,
       "title": ${localizedField('title', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "summary": ${localizedField('summary', locale)},
       "durationLabel": ${localizedField('durationLabel', locale)},
+      "theme": theme->{ "name": ${localizedField('name', locale)} },
       heroImage{
         ...,
         "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
