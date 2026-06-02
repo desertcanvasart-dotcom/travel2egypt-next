@@ -167,6 +167,38 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
                   })
                 ),
 
+              S.divider(),
+
+              // ── Subcategory landing pages (tourLanding) — the city × track
+              //    and theme/origin landings rendered by SubcategoryTemplate.
+              //    Previously unreachable from the desk. ──
+              S.listItem()
+                .title('Subcategory landings')
+                .icon(MasterDetailIcon)
+                .child(
+                  S.list()
+                    .title('Subcategory landings')
+                    .items([
+                      S.listItem()
+                        .title('All landing pages')
+                        .schemaType('tourLanding')
+                        .child(S.documentTypeList('tourLanding').title('All landing pages')),
+                      S.divider(),
+                      S.listItem()
+                        .title('By track')
+                        .icon(FilterIcon)
+                        .child(
+                          byRefChild(S, context, {
+                            schemaType: 'tourLanding',
+                            refField: 'category',
+                            refTarget: 'tourCategory',
+                            refDisplayQuery: 'coalesce(title[_key=="en"][0].value, title)',
+                            perBucketTitlePrefix: 'Landings',
+                          })
+                        ),
+                    ])
+                ),
+
               // ── Day tours: needing review ──
               S.listItem()
                 .title('Day tours — needing review')
