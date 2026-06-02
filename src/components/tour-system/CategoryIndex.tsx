@@ -11,17 +11,25 @@ export interface CategoryRow {
   durLabel: string;
   cityName: string;
   citySlug: string;
+  /** Theme name — shown in the third column on the single-city variant. */
+  theme?: string;
   href: string;
 }
 
 interface CategoryIndexProps {
   rows: CategoryRow[];
-  cityOptions: Array<{ value: string; label: string }>;
+  /** Omit (or pass []) on the single-city variant — the city facet is then hidden. */
+  cityOptions?: Array<{ value: string; label: string }>;
   lengthOptions: Array<{ value: string; label: string }>;
+  /**
+   * 'category' (default): city + length facets, third column = city.
+   * 'single': length facet only, third column = theme. Same component + CSS.
+   */
+  variant?: 'category' | 'single';
   labels: {
-    cityLabel: string;
+    cityLabel?: string;
     lengthLabel: string;
-    allCity: string;
+    allCity?: string;
     anyLength: string;
     lengthHint: string;
     empty: string;
@@ -29,39 +37,44 @@ interface CategoryIndexProps {
 }
 
 /**
- * L1 index — reference `.filters` (city + length) over a `.trow` row list.
- * Client-side filtering; matches journey-1-category.html exactly.
+ * Shared index — reference `.filters` over a `.trow` row list, client-side
+ * filtering. Matches journey-1-category.html. The L2 single-city variant
+ * reuses the exact same markup/CSS: it just hides the city facet and shows
+ * the tour theme in the third column instead of the city.
  */
-export function CategoryIndex({ rows, cityOptions, lengthOptions, labels }: CategoryIndexProps) {
+export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant = 'category', labels }: CategoryIndexProps) {
   const [city, setCity] = useState<string | null>(null);
   const [length, setLength] = useState<string | null>(null);
+  const single = variant === 'single';
 
   const filtered = rows.filter(
-    (r) => (city == null || r.citySlug === city) && (length == null || r.durKey === length)
+    (r) => (single || city == null || r.citySlug === city) && (length == null || r.durKey === length)
   );
 
   return (
     <>
-      <div className="filters">
-        <span className="filter-label">{labels.cityLabel}</span>
-        <button
-          type="button"
-          className={city == null ? 'filter on' : 'filter'}
-          onClick={() => setCity(null)}
-        >
-          {labels.allCity}
-        </button>
-        {cityOptions.map((o) => (
+      {!single && (
+        <div className="filters">
+          <span className="filter-label">{labels.cityLabel}</span>
           <button
-            key={o.value}
             type="button"
-            className={city === o.value ? 'filter on' : 'filter'}
-            onClick={() => setCity(o.value)}
+            className={city == null ? 'filter on' : 'filter'}
+            onClick={() => setCity(null)}
           >
-            {o.label}
+            {labels.allCity}
           </button>
-        ))}
-      </div>
+          {cityOptions.map((o) => (
+            <button
+              key={o.value}
+              type="button"
+              className={city === o.value ? 'filter on' : 'filter'}
+              onClick={() => setCity(o.value)}
+            >
+              {o.label}
+            </button>
+          ))}
+        </div>
+      )}
       <div className="filters">
         <span className="filter-label">{labels.lengthLabel}</span>
         <button
@@ -91,7 +104,7 @@ export function CategoryIndex({ rows, cityOptions, lengthOptions, labels }: Cate
             <Link key={r.id} className="trow" href={r.href}>
               <div className="tr-name">{r.name}</div>
               <div className="tr-dur">{r.durLabel}</div>
-              <div className="tr-city">{r.cityName}</div>
+              <div className="tr-city">{single ? (r.theme ?? '') : r.cityName}</div>
               <div className="tr-arrow">→</div>
             </Link>
           ))
