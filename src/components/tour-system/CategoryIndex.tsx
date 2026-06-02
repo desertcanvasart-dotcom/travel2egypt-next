@@ -104,7 +104,9 @@ export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant =
             <Link key={r.id} className="trow" href={r.href}>
               <div className="tr-name">{r.name}</div>
               <div className="tr-dur">{r.durLabel}</div>
-              <div className="tr-city">{single ? (r.theme ?? '') : r.cityName}</div>
+              {/* Single-city (subcategory) index has no theme column — theme data is
+                  empty across day tours; the row is name · duration · arrow. */}
+              {!single && <div className="tr-city">{r.cityName}</div>}
               <div className="tr-arrow">→</div>
             </Link>
           ))
