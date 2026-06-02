@@ -22,7 +22,6 @@ interface RawTour {
   durationDays?: number;
   durationHours?: number;
   durationLabel?: string;
-  theme?: { name?: string } | null;
   heroImage?: { asset?: unknown; alt?: string } | null;
 }
 
@@ -150,7 +149,6 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
         durLabel: tr.durationLabel || bucketLabel(key),
         cityName: '',
         citySlug: '',
-        theme: tr.theme?.name ?? '',
         href: `/${tr.slug}`,
       };
     });

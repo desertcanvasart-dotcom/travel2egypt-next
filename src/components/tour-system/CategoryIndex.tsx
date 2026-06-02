@@ -11,8 +11,6 @@ export interface CategoryRow {
   durLabel: string;
   cityName: string;
   citySlug: string;
-  /** Theme name — shown in the third column on the single-city variant. */
-  theme?: string;
   href: string;
 }
 
@@ -22,8 +20,9 @@ interface CategoryIndexProps {
   cityOptions?: Array<{ value: string; label: string }>;
   lengthOptions: Array<{ value: string; label: string }>;
   /**
-   * 'category' (default): city + length facets, third column = city.
-   * 'single': length facet only, third column = theme. Same component + CSS.
+   * 'category' (default): city + length facets, row is name · duration · city · arrow.
+   * 'single': length facet only, row is name · duration · arrow (no city/theme column).
+   * Same component + CSS.
    */
   variant?: 'category' | 'single';
   labels: {
@@ -39,8 +38,8 @@ interface CategoryIndexProps {
 /**
  * Shared index — reference `.filters` over a `.trow` row list, client-side
  * filtering. Matches journey-1-category.html. The L2 single-city variant
- * reuses the exact same markup/CSS: it just hides the city facet and shows
- * the tour theme in the third column instead of the city.
+ * reuses the exact same markup/CSS: it just hides the city facet and drops
+ * the city column (the row is name · duration · arrow).
  */
 export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant = 'category', labels }: CategoryIndexProps) {
   const [city, setCity] = useState<string | null>(null);
