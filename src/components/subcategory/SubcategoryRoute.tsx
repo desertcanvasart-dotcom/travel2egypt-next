@@ -30,7 +30,12 @@ export interface SubcategoryLandingDoc {
   ctaContext?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
   category?: { key?: string; title?: string; slug?: string } | null;
-  destinationCity?: { _id: string; name: string; slug: string } | null;
+  destinationCity?: {
+    _id: string;
+    name: string;
+    slug: string;
+    heroImage?: { asset?: unknown; alt?: string } | null;
+  } | null;
   tours?: RawTour[];
 }
 
@@ -138,7 +143,9 @@ export async function SubcategoryRoute({
     <SubcategoryTemplate
       locale={locale}
       hero={{
-        image: doc.heroImage ?? null,
+        // Landing's own hero, else fall back to the destination city's hero
+        // (every city has one) so the page is never image-less.
+        image: doc.heroImage ?? doc.destinationCity?.heroImage ?? null,
         kicker: isGroup ? t('heroKickerGroup') : t('heroKickerPrivate'),
         kickerHref: '/private-day-tours',
         title: doc.title,
