@@ -94,7 +94,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const shape = tour.shapeOfDay;
   const hasShape = Boolean(shape?.where || shape?.duration || shape?.character);
   const tiers = (tour.priceTiers ?? []).filter((p) => p.name || p.price);
-  const trust = (tour.trustSignals ?? []).filter(Boolean);
+  // Trust signals are GLOBAL — identical on every tour, from i18n, not per-tour data.
+  const trustSignals = [ts('trustSignal1'), ts('trustSignal2'), ts('trustSignal3'), ts('trustSignal4')];
 
   const guideItems = [...(tour.relatedGuides ?? []), ...(tour.relatedGuideArticles ?? [])].filter((g) => g.title);
   const journal = (tour.journalRefs ?? []).filter((j) => j.title);
@@ -227,13 +228,11 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               </div>
             )}
 
-            {trust.length > 0 && (
-              <div className="card">
-                <span className="ck">{ts('whyBook')}</span>
-                <ul className="trust">{trust.map((s, i) => <li key={i}>{s}</li>)}</ul>
-                {tour.accreditations && <div className="accred">{tour.accreditations}</div>}
-              </div>
-            )}
+            <div className="card">
+              <span className="ck">{ts('whyBook')}</span>
+              <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
+              <div className="accred">{ts('trustAccred')}</div>
+            </div>
           </aside>
         </div>
       </div>
