@@ -1675,7 +1675,12 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
     },
     "allSlugs": slug[]{ _key, "current": value.current },
     "category": category->{ _id, key, "title": ${localizedField('title', locale)}, "slug": ${localizedSlug('slug', locale)} },
-    "destinationCity": destinationCity->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)} },
+    "destinationCity": destinationCity->{
+      _id,
+      "name": ${localizedField('name', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "heroImage": heroImage{ ..., "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value) }
+    },
     "themeRef": themeRef->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)} },
     originRegion,
     // Build the tours list from the discriminator: this landing lists tours
