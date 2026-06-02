@@ -367,6 +367,17 @@ export const allDayToursQuery = (locale: Locale) => groq`
 `;
 
 /**
+ * Private day tours only — the /private-day-tours category page index +
+ * navigator counts. Scoped on tourMode == "private" so group tours never
+ * leak onto the private page (an unset mode is excluded by the equality).
+ */
+export const privateDayToursQuery = (locale: Locale) => groq`
+  *[_type == "tour" && type == "dayTour" && tourMode == "private"] | order(_createdAt desc){
+    ${tourCardProjection(locale)}
+  }
+`;
+
+/**
  * All packages, ordered for listing pages.
  */
 export const allPackagesQuery = (locale: Locale) => groq`

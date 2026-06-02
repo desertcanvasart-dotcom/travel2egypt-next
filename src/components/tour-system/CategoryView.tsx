@@ -16,6 +16,7 @@ interface RawTour {
   title: string;
   slug: string;
   summary?: string;
+  tourMode?: string;
   durationDays?: number;
   durationHours?: number;
   durationLabel?: string;
@@ -72,9 +73,32 @@ export async function CategoryView({
   const bucketLabel = (key: string) =>
     key === 'half' ? t('lengthHalf') : key === 'extended' ? t('lengthExtended') : t('lengthFull');
 
-  // ── Editor's picks: lead + 2 sides (editorsPicks, else featured + nothing) ──
-  const pickTours: RawTour[] = (archive?.editorsPicks ?? []).filter(Boolean);
-  if (pickTours.length === 0 && archive?.featured?.tour) pickTours.push(archive.featured.tour);
+  // ── Editor's picks: always 1 lead + 2 sides, PRIVATE tours only. ──
+  // Curated `editorsPicks` first, then the `featured` tour, then top up from
+  // the (already private-scoped) tours list so the 3-card grid never collapses
+  // even when curation is short or empty. Group tours are filtered out so a
+  // mis-curated group tour can never appear on the private page.
+  const isPrivate = (tr?: RawTour | null): tr is RawTour => Boolean(tr) && tr!.tourMode === 'private';
+  const pickTours: RawTour[] = [];
+  const seenPicks = new Set<string>();
+  const curatedCount = (archive?.editorsPicks ?? []).filter(isPrivate).length;
+  for (const tr of [
+    ...(archive?.editorsPicks ?? []),
+    archive?.featured?.tour ?? null,
+    ...tours,
+  ]) {
+    if (!isPrivate(tr) || seenPicks.has(tr._id)) continue;
+    seenPicks.add(tr._id);
+    pickTours.push(tr);
+    if (pickTours.length === 3) break;
+  }
+  if (curatedCount < 3) {
+    // eslint-disable-next-line no-console
+    console.warn(
+      `[private-day-tours] editor's picks: only ${curatedCount} private tour(s) curated in dayToursArchive.editorsPicks; ` +
+        `topped up to ${pickTours.length} from featured + recent private tours. Curate 3 in Studio for editorial control.`,
+    );
+  }
   const lead = pickTours[0];
   const sides = pickTours.slice(1, 3);
 
@@ -275,6 +299,7 @@ export async function CategoryView({
               <li><Link href="/hotel-grade-concept">{ts('footHowPrivate')}<small>{ts('footHowPrivateSub')}</small></Link></li>
               <li><Link href="/group-day-tours">{ts('footPrivateOrGroup')}<small>{ts('footPrivateOrGroupSub')}</small></Link></li>
               <li><Link href="/distance-between-egyptian-cities">{ts('footCityDistances')}<small>{ts('footCityDistancesSub')}</small></Link></li>
+              <li><Link href="/group-day-tours">{ts('footSeeGroup')}</Link></li>
             </ul>
           </div>
         </div>
