@@ -296,6 +296,15 @@ export const tourPriceNoteField = defineField({
   description: 'The small note under the price tiers (why entrance is separate, final quote on inquiry).',
 });
 
+export const tourSingleSupplementField = defineField({
+  name: 'singleSupplement',
+  title: 'Single supplement (amount)',
+  type: 'number',
+  group: 'pricing',
+  description:
+    'Single-supplement amount, same currency as the From price. Renders a "Single supplement · from {value}" row in the package price card (symbol taken from the From price).',
+});
+
 export const tourTrustFields = [
   localizedStringListField('trustSignals', { title: 'Trust signals', group: 'related', description: 'Why-book-with-us bullets in the rail.' }),
   defineField({ name: 'accreditations', title: 'Accreditations line', type: 'internationalizedArrayString', group: 'related', description: 'e.g. "ETAA · IATA · ASTA — Egyptian-operated since 2003".' }),
