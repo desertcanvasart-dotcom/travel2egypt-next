@@ -32,6 +32,7 @@ import { TourPageView } from '@/components/TourPageView';
 import { SingleTourView } from '@/components/tour-system/SingleTourView';
 import { PackageView } from '@/components/tour-system/PackageView';
 import { SubcategoryView } from '@/components/tour-system/SubcategoryView';
+import { PackageSubcategoryView } from '@/components/tour-system/PackageSubcategoryView';
 import { TourCloseRhythm } from '@/components/subcategory/TourCloseRhythm';
 
 interface Props {
@@ -141,11 +142,15 @@ export default async function CatchAllPage({ params }: Props) {
     const doc = await client.fetch(tourLandingBySlugQuery(locale as Locale), { slug: rest[0] });
     if (!doc) notFound();
     // Day-tour landings (city × track) render through the reconciled
-    // SubcategoryView (journey-2 design). Package landings (theme /
-    // origin-region) keep the legacy view for now.
+    // SubcategoryView (journey-2). Private/standard package theme landings
+    // render through PackageSubcategoryView (journey-pkg-subcategory). Group
+    // packages (origin-region) keep the legacy view for now.
     const key = doc.category?.key;
     if ((key === 'private-day-tour' || key === 'group-day-tour') && doc.destinationCity?.slug) {
       return <SubcategoryView doc={doc} locale={locale as Locale} />;
+    }
+    if (key === 'private-package' && doc.themeRef?.slug) {
+      return <PackageSubcategoryView doc={doc} locale={locale as Locale} />;
     }
     return <TourLandingView doc={doc} locale={locale as Locale} />;
   }
