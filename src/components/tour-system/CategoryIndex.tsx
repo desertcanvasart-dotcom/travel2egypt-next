@@ -22,9 +22,11 @@ interface CategoryIndexProps {
   /**
    * 'category' (default): city + length facets, row is name · duration · city · arrow.
    * 'single': length facet only, row is name · duration · arrow (no city/theme column).
-   * Same component + CSS.
+   * 'package': length facet only, row is name · duration · theme · arrow (third
+   *   column shown, but no per-theme facet — theme is the navigator's job).
+   *   The theme label is carried in `cityName`. Same component + CSS.
    */
-  variant?: 'category' | 'single';
+  variant?: 'category' | 'single' | 'package';
   labels: {
     cityLabel?: string;
     lengthLabel: string;
@@ -44,15 +46,18 @@ interface CategoryIndexProps {
 export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant = 'category', labels }: CategoryIndexProps) {
   const [city, setCity] = useState<string | null>(null);
   const [length, setLength] = useState<string | null>(null);
-  const single = variant === 'single';
+  // City facet only on the full category index; the third column (city/theme)
+  // shows on every variant except the bare single-city subcategory index.
+  const showCityFacet = variant === 'category';
+  const showThirdCol = variant !== 'single';
 
   const filtered = rows.filter(
-    (r) => (single || city == null || r.citySlug === city) && (length == null || r.durKey === length)
+    (r) => (!showCityFacet || city == null || r.citySlug === city) && (length == null || r.durKey === length)
   );
 
   return (
     <>
-      {!single && (
+      {showCityFacet && (
         <div className="filters">
           <span className="filter-label">{labels.cityLabel}</span>
           <button
@@ -103,9 +108,10 @@ export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant =
             <Link key={r.id} className="trow" href={r.href}>
               <div className="tr-name">{r.name}</div>
               <div className="tr-dur">{r.durLabel}</div>
-              {/* Single-city (subcategory) index has no theme column — theme data is
-                  empty across day tours; the row is name · duration · arrow. */}
-              {!single && <div className="tr-city">{r.cityName}</div>}
+              {/* Single-city (subcategory) index has no third column. The category
+                  index shows city; the package index shows theme (carried in
+                  cityName). Both render name · duration · {city|theme} · arrow. */}
+              {showThirdCol && <div className="tr-city">{r.cityName}</div>}
               <div className="tr-arrow">→</div>
             </Link>
           ))

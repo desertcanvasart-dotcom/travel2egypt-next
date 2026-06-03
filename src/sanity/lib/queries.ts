@@ -388,6 +388,53 @@ export const allPackagesQuery = (locale: Locale) => groq`
 `;
 
 /**
+ * Private/standard packages (the {package × private} bucket) — feeds the
+ * /egypt-travel-packages category index + picks. Group packages (tourMode
+ * "group", the 3-region bucket) are EXCLUDED; they stay on the legacy view.
+ * tourCardProjection already resolves each package's `theme`, so per-theme
+ * counts are derived client-side from this single list.
+ */
+export const privatePackagesQuery = (locale: Locale) => groq`
+  *[_type == "tour" && type == "package" && tourMode == "private"] | order(durationDays asc, _createdAt desc){
+    ${tourCardProjection(locale)}
+  }
+`;
+
+/**
+ * The private-package theme landings — slug (navigator link), theme id (to
+ * count packages against), theme name, and a one-line note (the landing's own
+ * summary). Counts are computed by the view from privatePackagesQuery so there
+ * is one source of truth.
+ */
+export const packageThemeLandingsQuery = (locale: Locale) => groq`
+  *[_type == "tourLanding" && category->key == "private-package" && defined(themeRef._ref)]{
+    "slug": ${localizedSlug('slug', locale)},
+    "themeId": themeRef._ref,
+    "themeName": coalesce(themeRef->name[_key=="${locale}"][0].value, themeRef->name[_key=="en"][0].value),
+    "note": ${localizedField('summary', locale)}
+  } | order(themeName asc)
+`;
+
+/**
+ * The package category hub doc (tourCategory key "private-package"): masthead
+ * title + tagline, the editor byline aside, the philosophy essay, and any
+ * curated picks. Mirrors dayToursArchiveQuery's editorial projection.
+ */
+export const packageCategoryQuery = (locale: Locale) => groq`
+  *[_type == "tourCategory" && key == "private-package"][0]{
+    "title": ${localizedField('title', locale)},
+    "tagline": ${localizedField('summary', locale)},
+    "editorByline": editorByline{
+      "kicker": ${localizedField('kicker', locale)},
+      "heading": ${localizedField('heading', locale)},
+      "intro": ${localizedField('intro', locale)}
+    },
+    "essay": ${portableTextBodyProjection('intro', locale)},
+    "editorsPicks": editorsPicks[]->{ ${tourCardProjection(locale)} }
+  }
+`;
+
+/**
  * Day tours filtered by mode (private or group). Used by the /tours
  * landing's mode filter when a mode is selected via search params.
  */
