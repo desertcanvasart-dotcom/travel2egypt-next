@@ -389,6 +389,34 @@ export const privateDayToursQuery = (locale: Locale) => groq`
 `;
 
 /**
+ * Group day tours only — the /group-day-tours category page index + navigator
+ * counts. Scoped on tourMode == "group" so private tours never leak onto the
+ * small-group page (an unset mode is excluded by the equality). Mirrors
+ * privateDayToursQuery for the {dayTour × group} bucket.
+ */
+export const groupDayToursQuery = (locale: Locale) => groq`
+  *[_type == "tour" && type == "dayTour" && tourMode == "group"] | order(_createdAt desc){
+    ${tourCardProjection(locale)}
+  }
+`;
+
+/**
+ * The group-day-tour city landings — feeds the /group-day-tours navigator
+ * ("choose by destination"). Returns slug (link), cityId (to count tours
+ * against), cityName, and a one-line note. Counts are computed by the view from
+ * groupDayToursQuery so there is one source of truth. Parallels the private
+ * page's navigator, which is sourced from the dayToursArchive singleton.
+ */
+export const groupDayLandingsQuery = (locale: Locale) => groq`
+  *[_type == "tourLanding" && category->key == "group-day-tour" && defined(destinationCity._ref)]{
+    "slug": ${localizedSlug('slug', locale)},
+    "cityId": destinationCity._ref,
+    "cityName": coalesce(destinationCity->name[_key=="${locale}"][0].value, destinationCity->name[_key=="en"][0].value),
+    "note": ${localizedField('summary', locale)}
+  } | order(cityName asc)
+`;
+
+/**
  * All packages, ordered for listing pages.
  */
 export const allPackagesQuery = (locale: Locale) => groq`

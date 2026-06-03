@@ -43,38 +43,59 @@ export interface CategoryArchiveDoc {
   } | null;
 }
 
+/** A navigator destination, used by the group page (the private page sources
+ * its navigator from the dayToursArchive singleton instead). */
+export interface CategoryNavLanding {
+  slug?: string;
+  cityId?: string;
+  cityName?: string;
+  note?: string;
+}
+
 export async function CategoryView({
   archive,
   tours,
+  navLandings,
+  mode = 'private',
   locale,
 }: {
   archive: CategoryArchiveDoc | null;
   tours: RawTour[];
+  /** Group navigator destinations. Omitted on the private page (archive-sourced). */
+  navLandings?: CategoryNavLanding[];
+  mode?: 'private' | 'group';
   locale: Locale;
 }) {
   const t = await getTranslations('dayTours');
   const tArchive = await getTranslations('archive');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+  const isGroup = mode === 'group';
 
   const bucketLabel = (key: string) =>
     key === 'half' ? t('lengthHalf') : key === 'extended' ? t('lengthExtended') : t('lengthFull');
 
-  // ── Editor's picks: always 1 lead + 2 sides, PRIVATE tours only. ──
-  // Curated `editorsPicks` first, then the `featured` tour, then top up from
-  // the (already private-scoped) tours list so the 3-card grid never collapses
-  // even when curation is short or empty. Group tours are filtered out so a
-  // mis-curated group tour can never appear on the private page.
-  const isPrivate = (tr?: RawTour | null): tr is RawTour => Boolean(tr) && tr!.tourMode === 'private';
+  // ── Editor's picks: always 1 lead + 2 sides, tours of THIS bucket's mode only.
+  // Curated `editorsPicks` first, then the `featured` tour, then top up from the
+  // (already mode-scoped) tours list so the 3-card grid never collapses even when
+  // curation is short or empty. Off-mode tours are filtered out so a mis-curated
+  // tour can never appear on the wrong page. ──
+  const isMine = (tr?: RawTour | null): tr is RawTour => Boolean(tr) && tr!.tourMode === mode;
   const pickTours: RawTour[] = [];
   const seenPicks = new Set<string>();
-  const curatedCount = (archive?.editorsPicks ?? []).filter(isPrivate).length;
+  const curatedCount = (archive?.editorsPicks ?? []).filter(isMine).length;
+  // Group has no curated picks and sparse hero coverage; surface the few tours
+  // that DO carry a hero first so the marquee's prominent lead card isn't a
+  // placeholder. Private keeps its archive-curated order untouched.
+  const topUp = isGroup
+    ? [...tours].sort((a, b) => Number(Boolean(b.heroImage?.asset)) - Number(Boolean(a.heroImage?.asset)))
+    : tours;
   for (const tr of [
     ...(archive?.editorsPicks ?? []),
     archive?.featured?.tour ?? null,
-    ...tours,
+    ...topUp,
   ]) {
-    if (!isPrivate(tr) || seenPicks.has(tr._id)) continue;
+    if (!isMine(tr) || seenPicks.has(tr._id)) continue;
     seenPicks.add(tr._id);
     pickTours.push(tr);
     if (pickTours.length === 3) break;
@@ -82,8 +103,8 @@ export async function CategoryView({
   if (curatedCount < 3) {
     // eslint-disable-next-line no-console
     console.warn(
-      `[private-day-tours] editor's picks: only ${curatedCount} private tour(s) curated in dayToursArchive.editorsPicks; ` +
-        `topped up to ${pickTours.length} from featured + recent private tours. Curate 3 in Studio for editorial control.`,
+      `[${isGroup ? 'group-day-tours' : 'private-day-tours'}] editor's picks: only ${curatedCount} ${mode} tour(s) curated in dayToursArchive.editorsPicks; ` +
+        `topped up to ${pickTours.length} from featured + recent ${mode} tours. Curate 3 in Studio for editorial control.`,
     );
   }
   const lead = pickTours[0];
@@ -112,17 +133,28 @@ export async function CategoryView({
     );
   };
 
-  // ── Navigator ──
-  const navItems = (archive?.navigator?.items ?? [])
-    .filter((it) => it.landing?.slug && it.landing?.cityId)
+  // ── Navigator. The group page passes `navLandings` (city landings); the
+  // private page sources its curated navigator from the dayToursArchive
+  // singleton. Both normalise to {slug, cityId, cityName, note} and derive the
+  // per-city count from the (mode-scoped) tours list — one source of truth. ──
+  const navSource: CategoryNavLanding[] = navLandings
+    ? navLandings
+    : (archive?.navigator?.items ?? []).map((it) => ({
+        slug: it.landing?.slug,
+        cityId: it.landing?.cityId,
+        cityName: it.landing?.cityName,
+        note: it.note,
+      }));
+  const navItems = navSource
+    .filter((it) => it.slug && it.cityId)
     .map((it) => {
-      const count = tours.filter((tr) => tr.cities?.some((c) => c._id === it.landing!.cityId)).length;
+      const count = tours.filter((tr) => tr.cities?.some((c) => c._id === it.cityId)).length;
       return {
-        id: it.landing!.cityId!,
-        cityName: it.landing!.cityName ?? '',
+        id: it.cityId!,
+        cityName: it.cityName ?? '',
         note: it.note,
         countLabel: t('cityTourCount', { count }),
-        href: `/${it.landing!.slug}`,
+        href: `/${it.slug}`,
       };
     });
 
@@ -152,12 +184,58 @@ export async function CategoryView({
     { value: 'extended', label: t('lengthExtended') },
   ];
 
-  // Byline (sticky "why" aside) — heading + note are REQUIRED content; it must
-  // never render with only its kicker. Doc fields win; i18n copy is the fallback
-  // so the aside is always complete in every locale even before the doc is seeded.
-  const bylineKicker = archive?.editorByline?.kicker ?? ts('whyKicker');
-  const bylineHeading = archive?.editorByline?.heading ?? ts('whyHeading');
-  const bylineNote = archive?.editorByline?.intro ?? ts('whyNote');
+  // ── Copy. Private uses the dayToursArchive doc fields (with i18n fallbacks);
+  // group has no archive singleton, so it reads a dedicated `grpDayCat*` set in
+  // the tourSystem namespace. Centralised here so the JSX stays mode-agnostic.
+  // Byline heading + note are REQUIRED content — the aside must never render with
+  // only its kicker, so every value resolves to copy in every locale. ──
+  const c = isGroup
+    ? {
+        crumb: ts('grpDayCatTitle'),
+        mastKicker: ts('grpDayCatMastKicker'),
+        mastTitle: ts('grpDayCatTitle'),
+        mastTag: ts('grpDayCatDeck'),
+        whyKicker: ts('grpDayCatWhyKicker'),
+        whyHeading: ts('grpDayCatWhyHeading'),
+        whyNote: ts('grpDayCatWhyNote'),
+        navTitle: ts('grpDayCatNavTitle'),
+        picksKicker: ts('grpDayCatPicksKicker'),
+        picksTitle: ts('grpDayCatPicksTitle'),
+        picksTitleEm: ts('grpDayCatPicksTitleEm'),
+        picksIntro: ts('grpDayCatPicksIntro'),
+        indexTitle: ts('grpDayCatIndexTitle'),
+        indexTitleEm: ts('grpDayCatIndexTitleEm'),
+        indexIntro: ts('grpDayCatIndexIntro'),
+        ctaKicker: ts('grpDayCatCtaKicker'),
+        ctaTitle: ts('grpDayCatCtaTitle'),
+        ctaTitleEm: ts('grpDayCatCtaTitleEm'),
+        ctaBody: ts('grpDayCatCtaBody'),
+        footSeasonLabel: ts('grpDayCatFootSeasonLabel'),
+        footSeasonBody: ts('grpDayCatFootSeasonBody'),
+      }
+    : {
+        crumb: archive?.title ?? t('landingTitle'),
+        mastKicker: archive?.kicker ?? ts('mastKicker'),
+        mastTitle: archive?.title ?? t('landingTitle'),
+        mastTag: archive?.tagline ?? t('landingDeck'),
+        whyKicker: archive?.editorByline?.kicker ?? ts('whyKicker'),
+        whyHeading: archive?.editorByline?.heading ?? ts('whyHeading'),
+        whyNote: archive?.editorByline?.intro ?? ts('whyNote'),
+        navTitle: archive?.navigator?.heading ?? ts('navTitle'),
+        picksKicker: ts('picksKicker'),
+        picksTitle: ts('picksTitle'),
+        picksTitleEm: ts('picksTitleEm'),
+        picksIntro: ts('picksIntro'),
+        indexTitle: ts('indexTitle'),
+        indexTitleEm: ts('indexTitleEm'),
+        indexIntro: t('indexIntro'),
+        ctaKicker: ts('ctaKicker'),
+        ctaTitle: ts('ctaTitleL1'),
+        ctaTitleEm: ts('ctaTitleL1Em'),
+        ctaBody: ts('ctaBodyL1'),
+        footSeasonLabel: t('footInSeasonLabel'),
+        footSeasonBody: t('footInSeasonBody'),
+      };
   // The editorial section always renders: the byline always has content, and the
   // essay shows when present.
   const hasEditorial = true;
@@ -169,14 +247,14 @@ export async function CategoryView({
           <ol>
             <li><Link href="/">{tNav('home')}</Link></li>
             <li>{tNav('services')}</li>
-            <li>{archive?.title ?? t('landingTitle')}</li>
+            <li>{c.crumb}</li>
           </ol>
         </nav>
 
         <header className="masthead">
-          <span className="t2e-kicker">{archive?.kicker ?? ts('mastKicker')}</span>
-          <h1 className="mast-title">{archive?.title ?? t('landingTitle')}</h1>
-          <p className="mast-tag">{archive?.tagline ?? t('landingDeck')}</p>
+          <span className="t2e-kicker">{c.mastKicker}</span>
+          <h1 className="mast-title">{c.mastTitle}</h1>
+          <p className="mast-tag">{c.mastTag}</p>
         </header>
       </div>
 
@@ -184,12 +262,27 @@ export async function CategoryView({
         <section className="editorial">
           <div className="t2e-wrap intro-grid">
             <aside className="byline">
-              <span className="t2e-kicker">{bylineKicker}</span>
-              <h3>{bylineHeading}</h3>
-              <p>{bylineNote}</p>
+              <span className="t2e-kicker">{c.whyKicker}</span>
+              <h3>{c.whyHeading}</h3>
+              <p>{c.whyNote}</p>
             </aside>
             <article className="article">
-              <TourProse value={archive?.essay} locale={locale} />
+              {archive?.essay ? (
+                <TourProse value={archive.essay} locale={locale} />
+              ) : isGroup ? (
+                // Group has no archive essay; render the i18n editorial framing so
+                // the article column is never a blank frame (rules §3). First
+                // paragraph carries `.lead` for the reference drop-cap.
+                ts('grpDayCatEssay')
+                  .split('\n\n')
+                  .map((para, i) => (
+                    <p key={i} className={i === 0 ? 'lead' : undefined}>
+                      {para}
+                    </p>
+                  ))
+              ) : (
+                <TourProse value={archive?.essay} locale={locale} />
+              )}
             </article>
           </div>
         </section>
@@ -200,8 +293,8 @@ export async function CategoryView({
           <div className="t2e-wrap">
             <div className="t2e-section-head">
               <div>
-                <span className="t2e-kicker">{ts('navKicker')}</span>
-                <h2>{archive?.navigator?.heading ?? ts('navTitle')}</h2>
+                <span className="t2e-kicker">{isGroup ? ts('grpDayCatNavKicker') : ts('navKicker')}</span>
+                <h2>{c.navTitle}</h2>
               </div>
               {archive?.navigator?.intro && <p>{archive.navigator.intro}</p>}
             </div>
@@ -225,10 +318,10 @@ export async function CategoryView({
           <div className="t2e-wrap">
             <div className="t2e-section-head">
               <div>
-                <span className="t2e-kicker">{ts('picksKicker')}</span>
-                <h2>{ts('picksTitle')} <em>{ts('picksTitleEm')}</em></h2>
+                <span className="t2e-kicker">{c.picksKicker}</span>
+                <h2>{c.picksTitle} <em>{c.picksTitleEm}</em></h2>
               </div>
-              <p>{ts('picksIntro')}</p>
+              <p>{c.picksIntro}</p>
             </div>
             <div className="grid-lead">
               {pickCard(lead, true)}
@@ -243,9 +336,9 @@ export async function CategoryView({
           <div className="t2e-section-head">
             <div>
               <span className="t2e-kicker">{tArchive('theIndex')}</span>
-              <h2>{ts('indexTitle')} <em>{ts('indexTitleEm')}</em></h2>
+              <h2>{c.indexTitle} <em>{c.indexTitleEm}</em></h2>
             </div>
-            <p>{t('indexIntro')}</p>
+            <p>{c.indexIntro}</p>
           </div>
           <CategoryIndex
             rows={rows}
@@ -266,9 +359,9 @@ export async function CategoryView({
       <section className="concierge-cta">
         <div className="t2e-wrap">
           <div className="cta-inner">
-            <span className="t2e-kicker">{ts('ctaKicker')}</span>
-            <h2>{ts('ctaTitleL1')} <em>{ts('ctaTitleL1Em')}</em></h2>
-            <p>{ts('ctaBodyL1')}</p>
+            <span className="t2e-kicker">{c.ctaKicker}</span>
+            <h2>{c.ctaTitle} <em>{c.ctaTitleEm}</em></h2>
+            <p>{c.ctaBody}</p>
             <div className="cta-buttons">
               <ConciergeOpenButton className="cta-btn cta-btn--primary">
                 {ts('ctaPrimary')} →
@@ -284,18 +377,18 @@ export async function CategoryView({
       <section className="t2e-footband">
         <div className="t2e-wrap t2e-footband-grid">
           <div>
-            <h4>{t('footInSeasonLabel')}</h4>
+            <h4>{c.footSeasonLabel}</h4>
             <div className="t2e-season">
-              <p>{t('footInSeasonBody')}</p>
+              <p>{c.footSeasonBody}</p>
             </div>
           </div>
           <div>
             <h4>{ts('beforeYouChoose')}</h4>
             <ul>
               <li><Link href="/hotel-grade-concept">{ts('footHowPrivate')}<small>{ts('footHowPrivateSub')}</small></Link></li>
-              <li><Link href="/group-day-tours">{ts('footPrivateOrGroup')}<small>{ts('footPrivateOrGroupSub')}</small></Link></li>
+              <li><Link href={isGroup ? '/private-day-tours' : '/group-day-tours'}>{ts('footPrivateOrGroup')}<small>{ts('footPrivateOrGroupSub')}</small></Link></li>
               <li><Link href="/distance-between-egyptian-cities">{ts('footCityDistances')}<small>{ts('footCityDistancesSub')}</small></Link></li>
-              <li><Link href="/group-day-tours">{ts('footSeeGroup')}</Link></li>
+              <li><Link href={isGroup ? '/private-day-tours' : '/group-day-tours'}>{isGroup ? ts('grpDayCatFootSeePrivate') : ts('footSeeGroup')}</Link></li>
             </ul>
           </div>
         </div>
