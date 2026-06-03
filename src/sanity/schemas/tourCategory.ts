@@ -7,6 +7,7 @@ import {
   localizedSlugField,
   migrationField,
 } from './_helpers';
+import { ARCHIVE_ESSAY_EXTRA_BLOCKS } from './_archiveBlocks';
 
 /**
  * Top-level tour-category hub. One doc per (type × tourMode) cell, four total:
@@ -93,8 +94,10 @@ export const tourCategorySchema = defineType({
     defineField(
       localizedPortableTextField('intro', {
         title: 'Intro',
-        description: 'Editorial body shown above the listing on the hub page.',
+        description:
+          'Editorial body (the philosophy essay) shown above the listing. Supports a definition list (e.g. Private / Small group) and concierge notes.',
         group: 'content',
+        extraBlocks: ARCHIVE_ESSAY_EXTRA_BLOCKS,
       }) as any,
     ),
     defineField(
@@ -104,6 +107,29 @@ export const tourCategorySchema = defineType({
         group: 'content',
       }) as any,
     ),
+    defineField({
+      name: 'editorByline',
+      title: 'Editor byline (philosophy aside)',
+      description:
+        'The sticky aside beside the philosophy essay on the package category page (journey-pkg design): a kicker, a one-line heading, and a short framing note. Heading + note are required content — if left blank, the page falls back to localized copy.',
+      type: 'object',
+      group: 'content',
+      fields: [
+        defineField({ name: 'kicker', title: 'Kicker', type: 'internationalizedArrayString' }),
+        defineField({ name: 'heading', title: 'Heading', type: 'internationalizedArrayString' }),
+        defineField({ name: 'intro', title: 'Intro', type: 'internationalizedArrayText' }),
+      ],
+    }),
+    defineField({
+      name: 'editorsPicks',
+      title: "Editor's picks",
+      description:
+        "Up to 3 curated packages shown as the picks grid (lead 3:4 + two 4:5). Leave empty to auto-fill from recent packages — curate 3 here for editorial control.",
+      type: 'array',
+      group: 'content',
+      of: [{ type: 'reference', to: [{ type: 'tour' }] }],
+      validation: (Rule) => Rule.max(3),
+    }),
     defineField({
       name: 'heroImage',
       title: 'Hero image',

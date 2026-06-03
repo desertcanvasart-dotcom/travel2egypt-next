@@ -22,3 +22,17 @@ export function bucketKey(tour: BucketableTour): 'half' | 'full' | 'extended' {
   if (/half[ -]?day|sunrise|sunset|balloon|by night|morning only/.test(text)) return 'half';
   return 'full';
 }
+
+/**
+ * Length bucket for a multi-day PACKAGE — the affordance behind the package
+ * category index's length facet (Up to 5 / 6–9 / 10–14 / 15 days+). Keyed by
+ * day count; packages without a numeric duration land in the broad middle
+ * bucket so the row still appears under the most common filter.
+ */
+export function packageBucketKey(durationDays?: number): 'le5' | '6to9' | '10to14' | '15plus' {
+  if (typeof durationDays !== 'number' || !Number.isFinite(durationDays)) return '6to9';
+  if (durationDays <= 5) return 'le5';
+  if (durationDays <= 9) return '6to9';
+  if (durationDays <= 14) return '10to14';
+  return '15plus';
+}
