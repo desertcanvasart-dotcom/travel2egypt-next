@@ -368,6 +368,7 @@
   .lvl-subcategory .effort li { grid-template-columns: 1fr; gap: 4px; }
   .lvl-subcategory .stop { grid-template-columns: 1fr; }
   .lvl-subcategory .stop .s-time { text-align: left; }
+  .lvl-single .days .day { padding-left: 64px; }
 }
 
 /* ===========================================================================
@@ -402,6 +403,22 @@
 .lvl-single .timeline .t { font-family: var(--ui); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-dark); padding-top: 4px; }
 .lvl-single .timeline .d { color: var(--ink); }
 .lvl-single .timeline .d strong { font-weight: 600; color: var(--navy); }
+
+/* DAY-BY-DAY — package itinerary spine (journey-pkg). Replaces the hour-by-hour timeline. */
+.lvl-single .days { list-style: none; margin: 8px 0 12px; position: relative; }
+.lvl-single .days::before { content: ""; position: absolute; left: 23px; top: 8px; bottom: 8px; width: 1px; background: var(--rule); }
+.lvl-single .day { position: relative; padding: 18px 0 18px 72px; border-top: 1px solid var(--rule-soft); }
+.lvl-single .day:first-child { border-top: 0; }
+.lvl-single .day .marker { position: absolute; left: 0; top: 18px; width: 46px; height: 46px; border-radius: 50%; background: var(--paper-warm); border: 1px solid var(--rule); display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: var(--ui); line-height: 1; }
+.lvl-single .day .marker small { font-size: 8px; letter-spacing: .12em; text-transform: uppercase; color: var(--navy-mute); }
+.lvl-single .day .marker b { font-family: var(--display); font-size: 20px; font-weight: 500; color: var(--navy); }
+.lvl-single .day h3 { font-family: var(--display); font-weight: 400; font-size: 23px; line-height: 1.15; color: var(--navy); margin-bottom: 5px; }
+.lvl-single .day .stay { font-family: var(--ui); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 9px; }
+.lvl-single .day p { font-size: 16px; line-height: 1.55; color: var(--navy-mute); margin: 0 0 8px; }
+.lvl-single .day p:last-child { margin-bottom: 0; }
+
+/* Single supplement line in the package price card. */
+.lvl-single .supp { display: flex; justify-content: space-between; font-family: var(--ui); font-size: 12px; color: var(--navy-mute); margin-top: 13px; padding-top: 13px; border-top: 1px solid var(--rule-soft); }
 
 .lvl-single .incl { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; margin: 6px 0 8px; }
 .lvl-single .incl h4 { font-family: var(--ui); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 14px; padding-bottom: 10px; border-bottom: 1px solid var(--rule); }

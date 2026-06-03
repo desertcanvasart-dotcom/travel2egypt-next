@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Classic Egypt: Cairo, Nile Cruise &amp; Abu Simbel — Travel2Egypt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF6EC; --paper-warm:#F4EEDE; --paper-deep:#ECE4D0;
+    --ink:#1A2230; --navy:#14243B; --navy-mute:#5C6675;
+    --gold:#B89456; --gold-dark:#8C6B38;
+    --rule:rgba(22,32,46,.14); --rule-soft:rgba(22,32,46,.07); --black:#14110A;
+    --display:'Cormorant Garamond',Georgia,serif; --read:'Newsreader',Georgia,serif; --ui:'DM Sans',-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:var(--read);font-size:19px;line-height:1.72;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  a{color:inherit}
+  .wrap{max-width:1280px;margin:0 auto;padding:0 56px}
+  .kicker{font-family:var(--ui);font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dark)}
+  .visual{position:relative;overflow:hidden;background:#ddd}
+  .visual::after{content:"";position:absolute;inset:0;mix-blend-mode:multiply;opacity:.45;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='2'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.18 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+  .img-nile{background:radial-gradient(circle at 60% 40%,rgba(255,215,150,.4),transparent 40%),linear-gradient(160deg,#1B3A2E,#5C7E6A 38%,#C9A461 72%,#E3CE94)}
+
+  /* NAV */
+  .nav{border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:100;background:rgba(250,246,236,.94);backdrop-filter:blur(10px)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+  .logo{font-family:var(--display);font-size:24px;font-weight:500;color:var(--navy);text-decoration:none;display:flex;align-items:baseline;gap:1px}.logo .s{font-size:15px;color:var(--gold)}
+  .nav-links{display:flex;gap:36px;list-style:none}.nav-links a{text-decoration:none;font-family:var(--ui);font-size:14px;color:var(--navy)}.nav-links a.active,.nav-links a:hover{color:var(--gold-dark)}
+  .nav-right{display:flex;align-items:center;gap:26px;font-family:var(--ui);font-size:13px}.nav-cta{text-decoration:none;border-bottom:1px solid var(--navy);padding-bottom:3px}
+
+  .crumb{padding:26px 0 0}
+  .crumb ol{list-style:none;display:flex;gap:10px;flex-wrap:wrap;font-family:var(--ui);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--navy-mute)}
+  .crumb a{text-decoration:none}.crumb li:not(:last-child)::after{content:"/";margin-left:10px;color:var(--rule)}
+
+  /* HEADER */
+  .head{padding:48px 0 0;max-width:900px}
+  .head .kicker{display:inline-block;margin-bottom:22px}
+  .head h1{font-family:var(--display);font-weight:400;font-size:clamp(42px,5.4vw,76px);line-height:1;letter-spacing:-.015em;color:var(--navy)}
+  .head .dek{font-family:var(--display);font-style:italic;font-size:clamp(21px,2.2vw,28px);line-height:1.4;color:var(--navy-mute);margin-top:24px;max-width:680px}
+  .head-meta{display:flex;flex-wrap:wrap;gap:20px 30px;margin-top:32px;padding:20px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+  .head-meta .m{display:flex;flex-direction:column;gap:4px}
+  .head-meta small{font-family:var(--ui);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--navy-mute)}
+  .head-meta strong{font-family:var(--display);font-size:19px;font-weight:400;color:var(--navy)}
+  .feature{margin:40px 0 0;aspect-ratio:16/7}
+
+  /* LAYOUT + RAIL */
+  .layout{display:grid;grid-template-columns:minmax(0,1fr) 372px;gap:64px;padding:60px 0 40px;align-items:start}
+  .body{max-width:680px}
+  .body>p{margin-bottom:26px}
+  .body .lead:first-letter{font-family:var(--display);font-size:76px;float:left;line-height:.72;padding:8px 14px 0 0;color:var(--navy)}
+  .body h2{font-family:var(--display);font-weight:400;font-size:clamp(28px,3vw,38px);line-height:1.08;color:var(--navy);margin:52px 0 18px}
+  .body h2:first-child{margin-top:0}
+  .pull{margin:40px 0;padding:28px 34px;background:var(--paper-warm);border-left:2px solid var(--gold)}
+  .pull p{font-family:var(--display);font-style:italic;font-size:22px;line-height:1.4;color:var(--navy);margin:0}
+
+  /* DAY-BY-DAY — the package itinerary (replaces hour-by-hour) */
+  .days{list-style:none;margin:8px 0 12px;position:relative}
+  .days::before{content:"";position:absolute;left:23px;top:8px;bottom:8px;width:1px;background:var(--rule)}
+  .day{position:relative;padding:18px 0 18px 72px;border-top:1px solid var(--rule-soft)}
+  .day:first-child{border-top:0}
+  .day .marker{position:absolute;left:0;top:18px;width:46px;height:46px;border-radius:50%;background:var(--paper-warm);border:1px solid var(--rule);display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:var(--ui);line-height:1}
+  .day .marker small{font-size:8px;letter-spacing:.12em;text-transform:uppercase;color:var(--navy-mute)}
+  .day .marker b{font-family:var(--display);font-size:20px;font-weight:500;color:var(--navy)}
+  .day h3{font-family:var(--display);font-weight:400;font-size:23px;line-height:1.15;color:var(--navy);margin-bottom:5px}
+  .day .stay{font-family:var(--ui);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:9px}
+  .day p{font-size:16px;line-height:1.55;color:var(--navy-mute);margin:0}
+
+  /* inclusions two-col */
+  .incl{display:grid;grid-template-columns:1fr 1fr;gap:36px;margin:6px 0 8px}
+  .incl h4{font-family:var(--ui);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--rule)}
+  .incl ul{list-style:none}
+  .incl li{font-size:15px;line-height:1.5;color:var(--navy-mute);padding:8px 0 8px 22px;position:relative}
+  .incl li::before{position:absolute;left:0;top:8px;font-family:var(--ui);font-size:13px}
+  .incl .yes li::before{content:"✓";color:var(--gold-dark)}
+  .incl .no li::before{content:"–";color:var(--navy-mute)}
+
+  .note{margin:38px 0;padding:24px 30px;background:var(--paper-warm);border-left:2px solid var(--gold)}
+  .note .kicker{display:flex;align-items:center;gap:7px;margin-bottom:10px}.note .kicker::before{content:"";width:6px;height:6px;background:var(--gold);border-radius:50%}
+  .note p{font-family:var(--display);font-style:italic;font-size:20px;line-height:1.45;color:var(--navy);margin:0}
+
+  /* DECISION RAIL */
+  .rail{position:sticky;top:104px;display:flex;flex-direction:column;gap:20px}
+  .card{border:1px solid var(--rule);background:var(--paper);padding:26px}
+  .card .ck{font-family:var(--ui);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:16px;display:block}
+  .shape{list-style:none}
+  .shape li{display:grid;grid-template-columns:80px 1fr;gap:14px;padding:11px 0;border-top:1px solid var(--rule-soft)}
+  .shape li:first-child{border-top:0;padding-top:0}
+  .shape small{font-family:var(--ui);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--navy-mute);padding-top:3px}
+  .shape span{font-family:var(--display);font-size:18px;color:var(--navy);line-height:1.25}
+  /* package price tiers (by hotel category) */
+  .tiers{list-style:none}
+  .tiers li{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:13px 0;border-top:1px solid var(--rule-soft)}
+  .tiers li:first-child{border-top:0;padding-top:0}
+  .tiers .tn{font-family:var(--read);font-size:14px;color:var(--navy)}
+  .tiers .tn small{display:block;font-family:var(--ui);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--navy-mute);margin-top:2px}
+  .tiers .tp{font-family:var(--display);font-size:22px;color:var(--navy);white-space:nowrap}
+  .tiers .tp small{font-size:12px;color:var(--navy-mute)}
+  .supp{display:flex;justify-content:space-between;font-family:var(--ui);font-size:12px;color:var(--navy-mute);margin-top:13px;padding-top:13px;border-top:1px solid var(--rule-soft)}
+  .price-note{font-family:var(--ui);font-size:11px;line-height:1.5;color:var(--navy-mute);margin-top:12px}
+  .rail-cta{display:block;text-align:center;background:var(--navy);color:var(--paper);text-decoration:none;font-family:var(--ui);font-size:13px;letter-spacing:.04em;padding:15px;transition:.2s;margin-top:16px}
+  .rail-cta:hover{background:var(--black)}
+  .rail-cta.ghost{background:transparent;color:var(--navy);border:1px solid var(--rule);margin-top:10px}.rail-cta.ghost:hover{border-color:var(--navy);background:transparent;color:var(--gold-dark)}
+  .trust{list-style:none}
+  .trust li{font-family:var(--ui);font-size:12px;line-height:1.4;color:var(--navy-mute);padding:9px 0 9px 22px;position:relative;border-top:1px solid var(--rule-soft)}
+  .trust li:first-child{border-top:0}
+  .trust li::before{content:"✓";position:absolute;left:0;top:9px;color:var(--gold-dark);font-size:12px}
+  .accred{font-family:var(--ui);font-size:11px;letter-spacing:.14em;color:var(--navy-mute);margin-top:14px;padding-top:14px;border-top:1px solid var(--rule-soft)}
+
+  /* CONCIERGE CTA */
+  .concierge-cta{background:var(--black);color:var(--paper);padding:90px 0}
+  .cta-inner{max-width:720px}
+  .concierge-cta .kicker{color:var(--gold);margin-bottom:24px;display:block}
+  .concierge-cta h2{font-family:var(--display);font-weight:400;font-size:clamp(38px,4.4vw,58px);line-height:1.05;color:var(--paper)}.concierge-cta h2 em{font-style:italic;color:var(--gold)}
+  .concierge-cta p{font-family:var(--read);font-size:17px;line-height:1.6;color:rgba(250,246,236,.7);margin:22px 0 36px;max-width:520px}
+  .cta-buttons{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .cta-btn{font-family:var(--ui);font-size:13px;letter-spacing:.04em;text-decoration:none;padding:15px 26px;display:inline-flex;align-items:center;gap:10px;transition:.2s}
+  .cta-btn--primary{background:var(--paper);color:var(--black)}.cta-btn--primary:hover{background:var(--gold)}
+  .cta-btn--ghost{color:var(--paper);border-bottom:1px solid rgba(250,246,236,.4);padding:15px 0}.cta-btn--ghost:hover{border-color:var(--gold);color:var(--gold)}
+
+  /* RELATED */
+  .related{border-top:1px solid var(--rule);padding:78px 0}
+  .related-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:56px}
+  .related-col h3{font-family:var(--ui);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid var(--rule)}
+  .ritem{display:block;text-decoration:none;color:inherit;padding:15px 0;border-bottom:1px solid var(--rule-soft);transition:padding .2s}.ritem:last-child{border-bottom:0}.ritem:hover{padding-left:8px}
+  .ritem .rk{font-family:var(--ui);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--navy-mute);display:block;margin-bottom:5px}
+  .ritem .rt{font-family:var(--display);font-size:21px;font-weight:400;line-height:1.2;color:var(--navy)}
+
+  /* FOOT BAND + FOOTER (canonical) */
+  .footband{background:var(--paper-warm);padding:78px 0}
+  .footband-grid{display:grid;grid-template-columns:1fr 1fr;gap:64px}
+  .footband h4{font-family:var(--ui);font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid var(--rule)}
+  .footband ul{list-style:none}.footband li{padding:13px 0;border-bottom:1px solid var(--rule-soft)}.footband li:last-child{border-bottom:0}
+  .footband li a{text-decoration:none;color:var(--navy);font-family:var(--display);font-size:19px;line-height:1.3;display:block}.footband li a:hover{color:var(--gold-dark)}
+  .footband li small{display:block;margin-top:3px;font-family:var(--ui);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--navy-mute)}
+  .season{font-family:var(--display);font-style:italic;font-size:19px;line-height:1.55;color:var(--navy-mute)}.season p+p{margin-top:14px}
+
+  footer{padding:64px 0 48px;border-top:1px solid var(--rule)}
+  .foot-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px}
+  .foot-brand .logo{margin-bottom:16px}.foot-brand p{font-family:var(--display);font-style:italic;font-size:16px;color:var(--navy-mute)}
+  .foot-col h5{font-family:var(--ui);font-size:11px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:18px}
+  .foot-col ul{list-style:none}.foot-col li{margin-bottom:11px}.foot-col a{font-family:var(--read);font-size:15px;color:var(--navy);text-decoration:none}.foot-col a:hover{color:var(--gold-dark)}
+  .foot-brands{padding:28px 0;border-top:1px solid var(--rule);display:flex;align-items:baseline;gap:28px;flex-wrap:wrap}.foot-brands .kicker{margin-right:12px}.foot-brands .brand{font-family:var(--display);font-size:18px;color:var(--navy)}.foot-brands .brand span{font-family:var(--display);font-style:italic;font-size:14px;color:var(--navy-mute);margin-left:8px}
+  .foot-legal{padding-top:24px;border-top:1px solid var(--rule);display:flex;justify-content:space-between;font-family:var(--ui);font-size:12px;color:var(--navy-mute);flex-wrap:wrap;gap:16px}.foot-legal a{color:var(--navy-mute);text-decoration:none;margin-left:20px}
+
+  .conc{position:fixed;bottom:28px;right:28px;z-index:200}
+  .conc-trigger{display:flex;align-items:center;gap:11px;background:var(--navy);color:var(--paper);border:0;padding:13px 20px;cursor:pointer;font-family:var(--ui);font-size:12px;letter-spacing:.16em;text-transform:uppercase;box-shadow:0 12px 36px rgba(20,36,59,.2);transition:.25s}
+  .conc-trigger:hover{background:var(--black);transform:translateY(-2px)}.conc-trigger .dot{width:7px;height:7px;background:var(--gold);border-radius:50%;animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:.5}50%{opacity:1}}
+  .conc-panel{position:fixed;bottom:92px;right:28px;width:380px;background:var(--paper);border:1px solid var(--rule);padding:30px;box-shadow:0 24px 60px rgba(20,36,59,.2);z-index:199;transform:translateY(16px);opacity:0;pointer-events:none;transition:.3s}
+  .conc-panel.open{transform:translateY(0);opacity:1;pointer-events:auto}
+  .conc-panel .kicker{margin-bottom:12px;display:block}.conc-panel h4{font-family:var(--display);font-size:24px;font-weight:400;line-height:1.15;color:var(--navy);margin-bottom:16px}
+  .conc-panel .sub{font-family:var(--display);font-style:italic;font-size:16px;color:var(--navy-mute);margin-bottom:20px;line-height:1.4}
+  .conc-list{list-style:none;margin-bottom:22px}.conc-list li{padding:11px 0;border-bottom:1px solid var(--rule-soft)}.conc-list li:last-child{border-bottom:0}
+  .conc-list button{background:transparent;border:0;text-align:left;width:100%;cursor:pointer;font-family:var(--ui);font-size:13px;color:var(--navy);line-height:1.4;display:flex;gap:9px;padding:0}.conc-list button::before{content:"→";color:var(--gold);font-family:var(--display)}
+  .conc-input{border:1px solid var(--rule);background:var(--paper-warm);padding:12px 14px;width:100%;font-family:var(--ui);font-size:13px;color:var(--navy)}.conc-input:focus{outline:none;border-color:var(--gold)}
+  .conc-close{position:absolute;top:16px;right:16px;background:transparent;border:0;cursor:pointer;color:var(--navy-mute);font-size:17px;font-family:var(--display)}
+
+  @media(max-width:980px){
+    .wrap{padding:0 24px}.nav-links{display:none}
+    .layout{grid-template-columns:1fr;gap:40px}
+    .rail{position:static;order:-1}
+    .incl,.related-grid,.footband-grid,.foot-top{grid-template-columns:1fr;gap:30px}
+    .conc-panel{width:calc(100vw - 32px);right:16px}
+  }
+  @media(max-width:620px){.shape li{grid-template-columns:1fr;gap:4px}.day{padding-left:64px}}
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="wrap nav-inner">
+  <a class="logo" href="#">Travel<span class="s">2</span>Egypt</a>
+  <ul class="nav-links"><li><a class="active" href="#">Services</a></li><li><a href="#">Travel Guide</a></li><li><a href="#">Journal</a></li></ul>
+  <div class="nav-right"><span>EN ▾</span><a class="nav-cta" href="#">Contact →</a></div>
+</div></nav>
+
+<div class="wrap">
+  <nav class="crumb"><ol>
+    <li><a href="#">Home</a></li><li><a href="#">Packages</a></li><li><a href="#">Egypt In-Depth</a></li><li>Classic Egypt: Cairo, Nile &amp; Abu Simbel</li>
+  </ol></nav>
+
+  <!-- HEADER -->
+  <header class="head">
+    <span class="kicker">Egypt Travel Package · 8 Days</span>
+    <h1>Classic Egypt: Cairo, the Nile &amp; Abu Simbel</h1>
+    <p class="dek">The whole arc of ancient Egypt in eight days — the Pyramids and the Grand Egyptian Museum, four nights sailing the Nile from Aswan to Luxor, and the long temples of the south, run privately for your party alone.</p>
+    <div class="head-meta">
+      <div class="m"><small>Duration</small><strong>8 days · 7 nights</strong></div>
+      <div class="m"><small>Route</small><strong>Cairo · Aswan · Nile · Luxor</strong></div>
+      <div class="m"><small>Style</small><strong>Private journey</strong></div>
+      <div class="m"><small>Pace</small><strong>Moderate</strong></div>
+      <div class="m"><small>From</small><strong>€1,290 pp</strong></div>
+    </div>
+  </header>
+</div>
+
+<div class="wrap"><figure class="feature visual img-nile"></figure></div>
+
+<!-- BODY + RAIL -->
+<div class="wrap">
+  <div class="layout">
+    <article class="body">
+      <p class="lead">This is the journey most people mean when they say they want to "see Egypt" — and the eight-day version is the one we send first-time visitors on, because it reaches everything that matters without ever feeling rushed. Two nights in Cairo for the Pyramids and the Grand Egyptian Museum, a flight south to Aswan, four nights sailing the Nile through the temples of Kom Ombo and Edfu to Luxor, and the great west-bank necropolis at the end. Abu Simbel sits in the middle of it, reached at dawn.</p>
+      <p>Run privately, the pace bends to you: a slower morning at Karnak, a longer stop at the museum, an earlier start to beat the heat. The cruise is the spine — you unpack once and the country comes to you for four days — and the licensed Egyptologist stays with you the whole way, in Cairo, on the boat, and on the west bank.</p>
+
+      <div class="pull"><p>The Nile cruise is not a transfer between sights. For four days it is the trip — the temples are simply where you step ashore.</p></div>
+
+      <h2>Day by day</h2>
+      <ol class="days">
+        <li class="day"><span class="marker"><small>Day</small><b>1</b></span><h3>Arrive Cairo</h3><div class="stay">Overnight · Cairo</div><p>Met at the airport and transferred to your hotel. The rest of the day is yours to rest after the flight; your guide confirms the plan for the morning.</p></li>
+        <li class="day"><span class="marker"><small>Day</small><b>2</b></span><h3>The Pyramids, the Sphinx &amp; the Grand Egyptian Museum</h3><div class="stay">Overnight · Cairo</div><p>The Giza plateau early, then the Grand Egyptian Museum — now holding the complete Tutankhamun collection in one place for the first time. Old Cairo and Khan el-Khalili if energy allows.</p></li>
+        <li class="day"><span class="marker"><small>Day</small><b>3</b></span><h3>Fly to Aswan · board the cruise</h3><div class="stay">Overnight · Nile cruise</div><p>Morning flight south. The High Dam and the island temple of Philae, then aboard for lunch. The river slows everything down from here.</p></li>
+        <li class="day"><span class="marker"><small>Day</small><b>4</b></span><h3>Abu Simbel · sail to Kom Ombo</h3><div class="stay">Overnight · Nile cruise</div><p>An early excursion to the colossi of Abu Simbel, then back aboard to sail north, with the twin temple of Kom Ombo at dusk.</p></li>
+        <li class="day"><span class="marker"><small>Day</small><b>5</b></span><h3>Edfu · sail to Luxor</h3><div class="stay">Overnight · Nile cruise</div><p>The best-preserved temple in Egypt at Edfu in the morning, then a long, slow sail to Luxor through the country the cruise exists for.</p></li>
+        <li class="day"><span class="marker"><small>Day</small><b>6</b></span><h3>The Valley of the Kings &amp; the west bank</h3><div class="stay">Overnight · Luxor</div><p>The royal tombs, Hatshepsut's temple and the Colossi of Memnon. Disembark and into a Luxor hotel for the last two nights ashore.</p></li>
+        <li class="day"><span class="marker"><small>Day</small><b>7</b></span><h3>Karnak &amp; Luxor Temple · fly to Cairo</h3><div class="stay">Overnight · Cairo</div><p>The vast east-bank temples in the cooler morning, then an afternoon flight back to Cairo for the final night.</p></li>
+        <li class="day"><span class="marker"><small>Day</small><b>8</b></span><h3>Departure</h3><div class="stay">Transfer out</div><p>A private transfer to the airport in time for your flight home.</p></li>
+      </ol>
+
+      <div class="note"><span class="kicker">Concierge note</span><p>The eight-day version is the one to choose if it's your first time. If you've seen Cairo before, we drop the first two days and start you on the river — say so and we'll re-cost it.</p></div>
+
+      <h2>What's included</h2>
+      <div class="incl">
+        <div><h4>Included</h4><ul class="yes"><li>3 nights hotel (Cairo &amp; Luxor) + 4 nights full-board Nile cruise</li><li>Domestic flights: Cairo–Aswan, Luxor–Cairo</li><li>Daily breakfast; all meals aboard the cruise</li><li>Private licensed Egyptologist throughout</li><li>All transfers in air-conditioned vehicles</li><li>All entrance fees on the itinerary, incl. Abu Simbel</li></ul></div>
+        <div><h4>Not included</h4><ul class="no"><li>International flights to/from Egypt</li><li>Egypt entry visa</li><li>Drinks, and meals not listed</li><li>Gratuities</li><li>Travel insurance &amp; optional excursions</li></ul></div>
+      </div>
+
+      <h2>How we pace it, and when to go</h2>
+      <p>October to April is the comfortable window; we start mornings early year-round to keep the temples ahead of both the heat and the coaches. The cruise can run Aswan-to-Luxor or the reverse depending on sailing dates — the itinerary above is the more common direction, and we confirm yours when we hold the boat.</p>
+
+      <h2>Who it's for — and who should think twice</h2>
+      <p>This is the right first journey for almost anyone: it's comprehensive, comfortably paced, and the cruise removes most of the daily packing and transfers. Think twice only if you have less than a week — in which case a shorter Nile-focused trip serves better — or if you want to go deep on one region rather than see the whole arc. Tell us either way and we'll point you to the journey that fits.</p>
+    </article>
+
+    <!-- DECISION RAIL -->
+    <aside class="rail">
+      <div class="card">
+        <span class="ck">The shape of the journey</span>
+        <ul class="shape">
+          <li><small>Route</small><span>Cairo · Aswan · Nile cruise · Luxor</span></li>
+          <li><small>Length</small><span>8 days, 7 nights</span></li>
+          <li><small>Nights</small><span>3 hotel · 4 on the river</span></li>
+          <li><small>Style</small><span>Private — your party alone, your pace</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="ck">Price logic — by hotel standard</span>
+        <ul class="tiers">
+          <li><span class="tn">Four-star<small>Comfortable, well-located</small></span><span class="tp">€1,290<small> pp</small></span></li>
+          <li><span class="tn">Five-star<small>Top hotels &amp; cruise</small></span><span class="tp">€1,690<small> pp</small></span></li>
+          <li><span class="tn">Deluxe<small>The best on the river</small></span><span class="tp">€2,290<small> pp</small></span></li>
+        </ul>
+        <div class="supp"><span>Single supplement</span><span>from €390</span></div>
+        <p class="price-note">Per person, twin-share, by season. Final quote — your dates, party size and room — confirmed on inquiry.</p>
+        <a class="rail-cta" href="#">Plan this journey with us →</a>
+        <a class="rail-cta ghost" href="#">Quick WhatsApp inquiry →</a>
+      </div>
+      <div class="card">
+        <span class="ck">Why book with us</span>
+        <ul class="trust">
+          <li>Private licensed Egyptologist for the whole journey</li>
+          <li>We charter the cruise and hotels directly — no resellers</li>
+          <li>Transparent pricing by standard, no hidden fees</li>
+          <li>We'll tell you if a shorter or deeper trip suits you better</li>
+        </ul>
+        <div class="accred">ETAA · IATA · ASTA — Egyptian-operated since 2003</div>
+      </div>
+    </aside>
+  </div>
+</div>
+
+<!-- CONCIERGE CTA -->
+<section class="concierge-cta"><div class="wrap"><div class="cta-inner">
+  <span class="kicker">Plan your trip</span>
+  <h2>Talk to us about <em>this journey.</em></h2>
+  <p>Tell us your dates, your party, and the hotel standard you have in mind. We'll confirm the cruise, the right direction of sail, and whether eight days is the version for you — then hold it.</p>
+  <div class="cta-buttons">
+    <a class="cta-btn cta-btn--primary" href="#">Talk to our concierge about this journey →</a>
+    <a class="cta-btn cta-btn--ghost" href="#">Quick WhatsApp inquiry →</a>
+  </div>
+</div></div></section>
+
+<!-- RELATED -->
+<section class="related"><div class="wrap">
+  <div class="related-grid">
+    <div class="related-col">
+      <h3>Journeys like this</h3>
+      <a class="ritem" href="#"><span class="rk">12 days · Private</span><span class="rt">Egypt in Depth: Cairo, the Oases &amp; the South</span></a>
+      <a class="ritem" href="#"><span class="rk">5 days · Private</span><span class="rt">Nile in Brief: Aswan to Luxor by Cruise</span></a>
+      <a class="ritem" href="#"><span class="rk">10 days · Private</span><span class="rt">Egypt &amp; the Red Sea</span></a>
+    </div>
+    <div class="related-col">
+      <h3>Read in the Guide</h3>
+      <a class="ritem" href="#"><span class="rk">Planning</span><span class="rt">Cruise ship or dahabiya — how to choose</span></a>
+      <a class="ritem" href="#"><span class="rk">Egypt in Depth</span><span class="rt">The Grand Egyptian Museum</span></a>
+    </div>
+    <div class="related-col">
+      <h3>From the Journal</h3>
+      <a class="ritem" href="#"><span class="rk">Practical guide</span><span class="rt">How many days do you really need in Egypt?</span></a>
+      <a class="ritem" href="#"><span class="rk">On the river</span><span class="rt">A day aboard a Nile cruise</span></a>
+    </div>
+  </div>
+</div></section>
+
+<!-- FOOT BAND -->
+<section class="footband"><div class="wrap footband-grid">
+  <div>
+    <h4>In season now</h4>
+    <div class="season">
+      <p>October to April is the comfortable window for the whole route; we run mornings early year-round to stay ahead of the heat and the crowds.</p>
+      <p>Cruise sailing dates set the direction and the hotels — we confirm both when we hold your journey.</p>
+    </div>
+  </div>
+  <div>
+    <h4>Around this journey</h4>
+    <ul>
+      <li><a href="#">All Egypt In-Depth journeys<small>Back to the theme</small></a></li>
+      <li><a href="#">Nile Cruise Holidays<small>The cruise, on its own</small></a></li>
+      <li><a href="#">Egypt for the first time<small>In the Travel Guide</small></a></li>
+    </ul>
+  </div>
+</div></section>
+
+<!-- FOOTER -->
+<footer><div class="wrap">
+  <div class="foot-top">
+    <div class="foot-brand"><a class="logo" href="#">Travel<span class="s">2</span>Egypt</a><p>Egyptian-operated since 2003. JATA, IATA, ASTA, ETAA accredited.</p></div>
+    <div class="foot-col"><h5>Travel</h5><ul><li><a href="#">Day Tours</a></li><li><a href="#">Packages</a></li><li><a href="#">Hotels</a></li><li><a href="#">Nile cruises</a></li><li><a href="#">Travel Guide</a></li><li><a href="#">Travel Tips</a></li></ul></div>
+    <div class="foot-col"><h5>Resources</h5><ul><li><a href="#">FAQ</a></li><li><a href="#">Hotel Grade Concept</a></li><li><a href="#">City Distances</a></li><li><a href="#">Your Name in Hieroglyphs</a></li></ul></div>
+    <div class="foot-col"><h5>About</h5><ul><li><a href="#">Journal</a></li><li><a href="#">About</a></li><li><a href="#">Responsible Travel</a></li><li><a href="#">Contact</a></li></ul></div>
+  </div>
+  <div class="foot-brands"><span class="kicker">Other Travel2Egypt brands</span><span class="brand">AffordEgypt<span>Egypt for budget-conscious travelers.</span></span><span class="brand">Soléi<span>Boutique luxury, Siwa-rooted.</span></span></div>
+  <div class="foot-legal"><span>© 2026 Travel2Egypt. All rights reserved.</span><span><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Cookie Policy</a><a href="#">Disclaimer</a></span></div>
+</div></footer>
+
+<div class="conc"><button class="conc-trigger" id="cBtn"><span class="dot"></span>Concierge</button></div>
+<div class="conc-panel" id="cPanel">
+  <button class="conc-close" id="cClose">✕</button>
+  <span class="kicker">Concierge</span><h4>Ask about this journey.</h4>
+  <p class="sub">Not a chatbot. Answered by people who run this route.</p>
+  <ul class="conc-list">
+    <li><button>Is eight days enough, or should we take longer?</button></li>
+    <li><button>Cruise ship or dahabiya for these four nights?</button></li>
+    <li><button>We've seen Cairo — can we start on the river?</button></li>
+    <li><button>What changes between four-star and five-star?</button></li>
+  </ul>
+  <input class="conc-input" type="text" placeholder="Or write your own question…" />
+</div>
+<script>
+  const b=document.getElementById('cBtn'),p=document.getElementById('cPanel'),c=document.getElementById('cClose');
+  b.addEventListener('click',()=>p.classList.toggle('open'));c.addEventListener('click',()=>p.classList.remove('open'));
+</script>
+</body>
+</html>
