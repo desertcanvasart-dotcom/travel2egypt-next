@@ -704,6 +704,10 @@
     "trustSignal2": "少人数または貸切——大型バスの相乗りではありません",
     "trustSignal3": "段階制の透明な料金——隠れた費用なし",
     "trustSignal4": "別の一日のほうが向いていれば、正直にお伝えします",
-    "trustAccred": "ETAA · IATA · ASTA — 2003年以来のエジプト現地オペレーター"
+    "trustAccred": "ETAA · IATA · ASTA — 2003年以来のエジプト現地オペレーター",
+    "shapeDaysCount": "{count, plural, other {#日間}}",
+    "priceFromLabel": "料金",
+    "priceOnInquiry": "お問い合わせ",
+    "priceNoteOnInquiry": "最終料金は人数・季節・選択内容により異なります——お問い合わせ時に確定します。隠れた費用はありません。"
   }
 }
