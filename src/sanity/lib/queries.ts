@@ -322,7 +322,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     "groupSize": ${localizedField('groupSize', locale)},
     "effortLevel": ${localizedField('effortLevel', locale)},
     "departsFrom": ${localizedField('departsFrom', locale)},
-    "priceFrom": ${localizedField('priceFrom', locale)},
+    priceFrom,
     "timeline": timeline[]{
       "time": ${localizedField('time', locale)},
       "description": ${localizedField('description', locale)}
@@ -342,7 +342,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     "priceTiers": priceTiers[]{
       "name": ${localizedField('name', locale)},
       "sub": ${localizedField('sub', locale)},
-      "price": ${localizedField('price', locale)},
+      price,
       "unit": ${localizedField('unit', locale)}
     },
     "priceNote": ${localizedField('priceNote', locale)},

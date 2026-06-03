@@ -221,7 +221,7 @@ export const tourMetaFields = [
   defineField({ name: 'groupSize', title: 'Group size (meta)', type: 'internationalizedArrayString', group: 'classification', description: 'Meta row. e.g. "Max 10 guests" or "Private — your party only".' }),
   defineField({ name: 'effortLevel', title: 'Effort (meta)', type: 'internationalizedArrayString', group: 'classification', description: 'Meta row. e.g. "Moderate–demanding".' }),
   defineField({ name: 'departsFrom', title: 'Departs (meta)', type: 'internationalizedArrayString', group: 'classification', description: 'Meta row. e.g. "Sharm · Dahab".' }),
-  defineField({ name: 'priceFrom', title: 'From price (meta)', type: 'internationalizedArrayString', group: 'pricing', description: 'Short "from" price for the meta row, e.g. "€95 pp". Falls back to the first price tier.' }),
+  defineField({ name: 'priceFrom', title: 'From price (number)', type: 'number', group: 'pricing', description: 'Numeric "from" price (per person), e.g. 1290. Currency is EUR, applied by the renderer — do NOT type a symbol. Falls back to the first price tier.' }),
 ];
 
 /** Hour-by-hour timeline (distinct from the multi-day `days[]`). */
@@ -280,10 +280,10 @@ export const tourPriceTiersField = defineField({
       fields: [
         defineField({ name: 'name', title: 'Tier name', type: 'internationalizedArrayString', validation: (R: any) => R.required() }),
         defineField({ name: 'sub', title: 'Sub-label', type: 'internationalizedArrayString' }),
-        defineField({ name: 'price', title: 'Price', type: 'internationalizedArrayString', description: 'e.g. "€95", "€115"', validation: (R: any) => R.required() }),
+        defineField({ name: 'price', title: 'Price (number)', type: 'number', description: 'Numeric price, e.g. 1290. Currency is EUR, applied by the renderer — no symbol.', validation: (R: any) => R.required() }),
         defineField({ name: 'unit', title: 'Unit', type: 'internationalizedArrayString', description: 'e.g. "pp"' }),
       ],
-      preview: { select: { name: 'name.0.value', price: 'price.0.value' }, prepare: ({ name, price }: any) => ({ title: name || 'Tier', subtitle: price }) },
+      preview: { select: { name: 'name.0.value', price: 'price' }, prepare: ({ name, price }: any) => ({ title: name || 'Tier', subtitle: price != null ? `€${price}` : '' }) },
     },
   ],
 });

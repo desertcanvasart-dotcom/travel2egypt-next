@@ -13,6 +13,7 @@
 
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
+import { CURRENCY } from './currency';
 import { siteUrlBase } from './path-from-doc';
 
 const SITE_NAME = 'Travel2Egypt';
@@ -263,7 +264,7 @@ export interface TouristTripInput {
   summary?: string;
   durationDays?: number;
   durationLabel?: string;
-  priceIndication?: string;
+  priceFrom?: number;
   heroImage?: ImageField | null;
   cities?: Array<{ name?: string }>;
 }
@@ -300,11 +301,12 @@ export function buildTouristTripSchema(
             })),
         }
       : {}),
-    ...(input.priceIndication
+    ...(typeof input.priceFrom === 'number'
       ? {
           offers: {
             '@type': 'Offer',
-            description: input.priceIndication,
+            price: input.priceFrom,
+            priceCurrency: CURRENCY.code,
             availability: 'https://schema.org/InStock',
           },
         }

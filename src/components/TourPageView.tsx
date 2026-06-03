@@ -45,6 +45,7 @@ import {
 } from '@/lib/structured-data';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
+import { formatPrice } from '@/lib/currency';
 import { urlFor } from '@/sanity/lib/image';
 import { Body } from '@/components/Body';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
@@ -81,7 +82,7 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
   const duration = computeDurationLabel(tour, t);
   const character = computeCharacter(tour, t);
   const goodFor = computeGoodFor(tour);
-  const fromPrice = tour.priceIndication?.trim() || null;
+  const fromPrice = formatPrice(tour.priceFrom, 'pp') || null;
 
   // ── JSON-LD ──────────────────────────────────────────────────────────────
   const tripSchema = buildTouristTripSchema(
@@ -92,7 +93,7 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
       summary: tour.summary,
       durationDays: tour.durationDays,
       durationLabel: tour.durationLabel,
-      priceIndication: tour.priceIndication,
+      priceFrom: tour.priceFrom,
       heroImage: tour.heroImage,
       cities: tour.cities,
     },

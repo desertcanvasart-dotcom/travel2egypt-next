@@ -5,6 +5,8 @@ import { client } from '@/sanity/lib/client';
 import { otherTrackLandingSlugQuery } from '@/sanity/lib/queries';
 import type { Locale } from '@/i18n/routing';
 
+import { formatPrice } from '@/lib/currency';
+
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
@@ -23,14 +25,13 @@ export interface SingleTour {
   summary?: string;
   durationDays?: number;
   durationLabel?: string;
-  priceIndication?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
   cities?: CityRef[];
   body?: unknown;
   groupSize?: string;
   effortLevel?: string;
   departsFrom?: string;
-  priceFrom?: string;
+  priceFrom?: number;
   timeline?: Array<{ time?: string; description?: string }> | null;
   conciergeNote?: string;
   includedItems?: string[] | null;
@@ -40,7 +41,7 @@ export interface SingleTour {
   audienceNoteTitle?: string;
   audienceNote?: string;
   shapeOfDay?: { where?: string; duration?: string; character?: string } | null;
-  priceTiers?: Array<{ name?: string; sub?: string; price?: string; unit?: string }> | null;
+  priceTiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }> | null;
   priceNote?: string;
   trustSignals?: string[] | null;
   accreditations?: string;
@@ -72,13 +73,10 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
       ])
     : [null, null];
 
-  // Meta row "from" price: explicit → first tier → indicative.
+  // Meta row "from" price (EUR, per person): explicit → first tier. Numeric → formatPrice.
   const tier0 = tour.priceTiers?.[0];
-  const fromPrice =
-    tour.priceFrom ||
-    (tier0?.price ? `${tier0.price}${tier0.unit ? ` ${tier0.unit}` : ''}` : '') ||
-    tour.priceIndication ||
-    '';
+  const fromAmount = typeof tour.priceFrom === 'number' ? tour.priceFrom : tier0?.price;
+  const fromPrice = formatPrice(fromAmount, 'pp');
 
   const metaItems = [
     { label: ts('metaDuration'), value: tour.durationLabel },
@@ -238,7 +236,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                   tiers.map((tier, i) => (
                     <li key={i}>
                       <span className="tn">{tier.name}{tier.sub && <small>{tier.sub}</small>}</span>
-                      <span className="tp">{tier.price}{tier.unit && <small> {tier.unit}</small>}</span>
+                      <span className="tp">{formatPrice(tier.price)}{tier.unit && <small> {tier.unit}</small>}</span>
                     </li>
                   ))
                 ) : (

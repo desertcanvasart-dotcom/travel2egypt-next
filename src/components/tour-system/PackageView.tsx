@@ -3,6 +3,7 @@ import { PortableText } from '@portabletext/react';
 
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
+import { formatPrice } from '@/lib/currency';
 
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
@@ -29,9 +30,8 @@ export interface PackageDoc {
   summary?: string;
   durationDays?: number;
   durationLabel?: string;
-  priceIndication?: string;
-  priceFrom?: string;
-  priceTiers?: Array<{ name?: string; sub?: string; price?: string; unit?: string }> | null;
+  priceFrom?: number;
+  priceTiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }> | null;
   priceNote?: string;
   singleSupplement?: number | null;
   heroImage?: { asset?: unknown; alt?: string } | null;
@@ -77,13 +77,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
       : '';
 
   // META ROW — omit any cell whose field is empty.
-  const fromPrice =
-    tour.priceFrom ||
-    (tour.priceTiers?.[0]?.price
-      ? `${tour.priceTiers[0].price}${tour.priceTiers[0].unit ? ` ${tour.priceTiers[0].unit}` : ''}`
-      : '') ||
-    tour.priceIndication ||
-    '';
+  const fromAmount = typeof tour.priceFrom === 'number' ? tour.priceFrom : tour.priceTiers?.[0]?.price;
+  const fromPrice = formatPrice(fromAmount, 'pp');
   const metaItems = [
     { label: ts('metaDuration'), value: durationMeta },
     { label: ts('metaRoute'), value: route },
@@ -100,13 +95,10 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
     { label: ts('shapeStyle'), value: shape?.character || styleLabel },
   ].filter((r) => r.value);
 
-  const tiers = (tour.priceTiers ?? []).filter((p) => p.name || p.price);
-  // Currency symbol is taken from the From-price string (no global currency exists),
-  // so the single-supplement row matches whatever currency this package is priced in.
-  const priceSymbol = (fromPrice.match(/^[^\d\s]+/) ?? [''])[0];
+  const tiers = (tour.priceTiers ?? []).filter((p) => p.name || typeof p.price === 'number');
   const suppValue =
     typeof tour.singleSupplement === 'number'
-      ? `${ts('pkgSuppFrom')} ${priceSymbol}${tour.singleSupplement.toLocaleString('en-US')}`
+      ? `${ts('pkgSuppFrom')} ${formatPrice(tour.singleSupplement)}`
       : '';
   const trustSignals = [ts('trustSignal1'), ts('trustSignal2'), ts('trustSignal3'), ts('trustSignal4')];
 
@@ -237,7 +229,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                   tiers.map((tier, i) => (
                     <li key={i}>
                       <span className="tn">{tier.name}{tier.sub && <small>{tier.sub}</small>}</span>
-                      <span className="tp">{tier.price}{tier.unit && <small> {tier.unit}</small>}</span>
+                      <span className="tp">{formatPrice(tier.price)}{tier.unit && <small> {tier.unit}</small>}</span>
                     </li>
                   ))
                 ) : (
