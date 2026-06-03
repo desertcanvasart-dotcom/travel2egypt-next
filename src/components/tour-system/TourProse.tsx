@@ -52,7 +52,13 @@ export function TourProse({ value, locale }: { value: unknown; locale: Locale })
         if (isLead) leadAssigned = true;
         return <p className={isLead ? 'lead' : undefined}>{children}</p>;
       },
+      // The reference single-tour body uses ONE large Cormorant heading level for
+      // every section ("The day, hour by hour", "What's included", …). Render h2
+      // AND any h3/h4 the migrated body carries at that same large level, so no
+      // section heading falls back to the small/italic default.
       h2: ({ children }) => <h2>{children}</h2>,
+      h3: ({ children }) => <h2>{children}</h2>,
+      h4: ({ children }) => <h2>{children}</h2>,
     },
     types: {
       pullQuote: ({ value: v }) => {
