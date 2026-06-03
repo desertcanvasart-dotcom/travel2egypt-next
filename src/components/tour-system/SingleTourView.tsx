@@ -154,7 +154,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
 
       <div className="t2e-wrap">
         <figure className="feature">
-          <JourneyImage image={tour.heroImage} alt={tour.title} sizes="(max-width:980px) 100vw, 1168px" widthHint={2336} priority />
+          <JourneyImage image={tour.heroImage} alt={tour.title} sizes="(max-width:980px) 100vw, 1168px" widthHint={2336} ratio={16 / 7} priority />
         </figure>
       </div>
 

@@ -114,6 +114,7 @@ export async function PackageSubcategoryView({
           className="tour-img"
           sizes={isFeatured ? '(max-width:980px) 100vw, 649px' : '(max-width:980px) 100vw, 245px'}
           widthHint={isFeatured ? 1300 : 560}
+          ratio={isFeatured ? (isSparse ? 16 / 9 : 4 / 5) : 1}
         />
         <div className="tour-content">
           {pres?.label && <span className="label">{pres.label}</span>}
@@ -222,7 +223,7 @@ export async function PackageSubcategoryView({
                 {moodCards.map((c, i) => (
                   <a className="choice" href="#tours" key={i}>
                     <div>
-                      <JourneyImage image={c.image} alt={c.title} className="choice-visual" sizes="(max-width:980px) 100vw, 370px" widthHint={740} />
+                      <JourneyImage image={c.image} alt={c.title} className="choice-visual" sizes="(max-width:980px) 100vw, 370px" widthHint={740} ratio={4 / 3} />
                       {c.eyebrow && <span className="t2e-eyebrow">{c.eyebrow}</span>}
                       <h3>{c.title}</h3>
                       {c.body && <p>{c.body}</p>}
