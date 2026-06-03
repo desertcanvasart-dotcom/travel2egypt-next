@@ -193,6 +193,7 @@ const tourCardProjection = (locale: Locale) => `
   tourMode,
   durationDays,
   durationHours,
+  originRegion,
   "title": ${localizedField('title', locale)},
   "slug": ${localizedSlug('slug', locale)},
   "allSlugs": slug[]{ _key, "current": value.current },
@@ -416,12 +417,13 @@ export const packageThemeLandingsQuery = (locale: Locale) => groq`
 `;
 
 /**
- * The package category hub doc (tourCategory key "private-package"): masthead
- * title + tagline, the editor byline aside, the philosophy essay, and any
- * curated picks. Mirrors dayToursArchiveQuery's editorial projection.
+ * The package category hub doc: masthead title + tagline, the editor byline
+ * aside, the philosophy essay, and any curated picks. `key` selects the bucket
+ * — "private-package" (themes) or "group-package" (regions). Mirrors
+ * dayToursArchiveQuery's editorial projection.
  */
-export const packageCategoryQuery = (locale: Locale) => groq`
-  *[_type == "tourCategory" && key == "private-package"][0]{
+export const packageCategoryQuery = (locale: Locale, key = 'private-package') => groq`
+  *[_type == "tourCategory" && key == "${key}"][0]{
     "title": ${localizedField('title', locale)},
     "tagline": ${localizedField('summary', locale)},
     "editorByline": editorByline{
@@ -432,6 +434,31 @@ export const packageCategoryQuery = (locale: Locale) => groq`
     "essay": ${portableTextBodyProjection('intro', locale)},
     "editorsPicks": editorsPicks[]->{ ${tourCardProjection(locale)} }
   }
+`;
+
+/**
+ * Group/scheduled packages (the {package × group} bucket) — feeds
+ * /small-group-travel-packages and its region landings. Organised by
+ * originRegion (japan-east-asia / uk-europe / usa-canada), NOT theme.
+ */
+export const groupPackagesQuery = (locale: Locale) => groq`
+  *[_type == "tour" && type == "package" && tourMode == "group"] | order(durationDays asc, _createdAt desc){
+    ${tourCardProjection(locale)}
+  }
+`;
+
+/**
+ * The group-package region landings — slug (navigator link), originRegion (the
+ * axis value to count packages against), title (region name), and a one-line
+ * note. Counts are computed by the view from groupPackagesQuery.
+ */
+export const packageRegionLandingsQuery = (locale: Locale) => groq`
+  *[_type == "tourLanding" && category->key == "group-package" && defined(originRegion)]{
+    "slug": ${localizedSlug('slug', locale)},
+    "axisId": originRegion,
+    "name": ${localizedField('title', locale)},
+    "note": ${localizedField('summary', locale)}
+  } | order(name asc)
 `;
 
 /**

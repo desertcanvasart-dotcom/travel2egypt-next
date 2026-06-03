@@ -5,8 +5,8 @@ import { type Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import {
   packageCategoryQuery,
-  privatePackagesQuery,
-  packageThemeLandingsQuery,
+  groupPackagesQuery,
+  packageRegionLandingsQuery,
 } from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
 import {
@@ -24,9 +24,9 @@ export async function generateMetadata({
   const ts = await getTranslations({ locale, namespace: 'tourSystem' });
   return buildStaticMetadata({
     locale: locale as Locale,
-    path: '/egypt-travel-packages',
-    title: ts('pkgCatTitle'),
-    description: ts('pkgCatMetaDescription'),
+    path: '/small-group-travel-packages',
+    title: ts('pkgGroupCatTitle'),
+    description: ts('pkgGroupCatMetaDescription'),
   });
 }
 
@@ -43,14 +43,7 @@ interface RawPackage {
   theme?: { _id: string; name?: string; slug?: string } | null;
 }
 
-interface ThemeLanding {
-  slug?: string;
-  themeId?: string;
-  themeName?: string;
-  note?: string;
-}
-
-export default async function EgyptTravelPackagesPage({
+export default async function SmallGroupTravelPackagesPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -58,25 +51,18 @@ export default async function EgyptTravelPackagesPage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  const [archive, packages, themeLandings] = await Promise.all([
-    client.fetch<PackageCategoryDoc | null>(packageCategoryQuery(locale as Locale, 'private-package')),
-    client.fetch<RawPackage[]>(privatePackagesQuery(locale as Locale)),
-    client.fetch<ThemeLanding[]>(packageThemeLandingsQuery(locale as Locale)),
+  const [archive, packages, navLandings] = await Promise.all([
+    client.fetch<PackageCategoryDoc | null>(packageCategoryQuery(locale as Locale, 'group-package')),
+    client.fetch<RawPackage[]>(groupPackagesQuery(locale as Locale)),
+    client.fetch<PackageNavLanding[]>(packageRegionLandingsQuery(locale as Locale)),
   ]);
-
-  const navLandings: PackageNavLanding[] = themeLandings.map((l) => ({
-    slug: l.slug,
-    axisId: l.themeId,
-    name: l.themeName,
-    note: l.note,
-  }));
 
   return (
     <PackageCategoryView
       archive={archive}
       packages={packages}
       navLandings={navLandings}
-      mode="private"
+      mode="group"
       locale={locale as Locale}
     />
   );
