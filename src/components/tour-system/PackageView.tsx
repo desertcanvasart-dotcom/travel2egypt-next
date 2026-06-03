@@ -9,6 +9,7 @@ import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { FloatingConcierge } from '../FloatingConcierge';
+import { buildDepartures, type RawDeparture } from './departures';
 
 const WHATSAPP = 'https://wa.me/201158011600';
 
@@ -34,6 +35,11 @@ export interface PackageDoc {
   priceTiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }> | null;
   priceNote?: string;
   singleSupplement?: number | null;
+  basePrice?: number | null;
+  peakUpliftPct?: number | null;
+  maxGroup?: number | null;
+  departures?: RawDeparture[] | null;
+  originRegion?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
   cities?: CityRef[];
   body?: unknown;
@@ -69,6 +75,35 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const styleLabel = ts('pkgStylePrivate');
   const durationMeta = durationDays > 0 ? ts('pkgDurationMeta', { days: durationDays, nights }) : '';
 
+  // ── Group package: the scheduled-departures apparatus. Built deterministically
+  // at render/build time so the soonest FUTURE date is selected. ──
+  const isGroup = tour.tourMode === 'group';
+  const dep = isGroup
+    ? buildDepartures(tour.departures, {
+        durationDays,
+        basePrice: tour.basePrice,
+        peakUpliftPct: tour.peakUpliftPct,
+        locale,
+        now: new Date(),
+      })
+    : null;
+  const STATUS_LABEL: Record<string, string> = {
+    guaranteed: ts('pkgGrpStatusGuaranteed'),
+    few: ts('pkgGrpStatusFew'),
+    available: ts('pkgGrpStatusAvailable'),
+    soldout: ts('pkgGrpStatusSoldout'),
+    onrequest: ts('pkgGrpStatusOnrequest'),
+  };
+  const STATUS_CLASS: Record<string, string> = {
+    guaranteed: 's-ok',
+    few: 's-few',
+    available: 's-open',
+    soldout: 's-out',
+    onrequest: 's-req',
+  };
+  const reserveHref = (dateRange: string) =>
+    `${WHATSAPP}?text=${encodeURIComponent(ts('pkgGrpReserveText', { title: tour.title, date: dateRange }))}`;
+
   // Nights split (hotel vs river) — derived from days[].accommodation when present.
   const cruiseNights = days.filter((d) => d.accommodation && CRUISE_RE.test(d.accommodation)).length;
   const nightsSplit =
@@ -76,24 +111,51 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
       ? ts('pkgNightsSplit', { hotel: Math.max(nights - cruiseNights, 0), river: cruiseNights })
       : '';
 
-  // META ROW — omit any cell whose field is empty.
-  const fromAmount = typeof tour.priceFrom === 'number' ? tour.priceFrom : tour.priceTiers?.[0]?.price;
+  // META ROW — omit any cell whose field is empty. Group packages swap Style →
+  // Group (max N) + Departures (N a year); the From cell shows the base price,
+  // or "On inquiry" while no base price is set.
+  const fromAmount = isGroup
+    ? typeof tour.basePrice === 'number'
+      ? tour.basePrice
+      : undefined
+    : typeof tour.priceFrom === 'number'
+      ? tour.priceFrom
+      : tour.priceTiers?.[0]?.price;
   const fromPrice = formatPrice(fromAmount, 'pp');
-  const metaItems = [
-    { label: ts('metaDuration'), value: durationMeta },
-    { label: ts('metaRoute'), value: route },
-    { label: ts('metaStyle'), value: styleLabel },
-    { label: ts('metaFrom'), value: fromPrice },
-  ].filter((m) => m.value);
+  const metaItems = (
+    isGroup
+      ? [
+          { label: ts('metaDuration'), value: durationMeta },
+          { label: ts('metaRoute'), value: route },
+          { label: ts('pkgGrpGroupLabel'), value: typeof tour.maxGroup === 'number' ? ts('pkgGrpMaxGroup', { n: tour.maxGroup }) : '' },
+          { label: ts('pkgGrpDeparturesLabel'), value: dep && dep.count > 0 ? ts('pkgGrpPerYear', { count: dep.count }) : '' },
+          { label: ts('metaFrom'), value: fromPrice || ts('priceOnInquiry') },
+        ]
+      : [
+          { label: ts('metaDuration'), value: durationMeta },
+          { label: ts('metaRoute'), value: route },
+          { label: ts('metaStyle'), value: styleLabel },
+          { label: ts('metaFrom'), value: fromPrice },
+        ]
+  ).filter((m) => m.value);
 
   // RAIL — shape of the journey (always renders; derived).
   const shape = tour.shapeOfDay;
-  const shapeRows = [
-    { label: ts('shapeRoute'), value: shape?.where || route },
-    { label: ts('shapeLength'), value: shape?.duration || durationMeta },
-    { label: ts('shapeNights'), value: nightsSplit },
-    { label: ts('shapeStyle'), value: shape?.character || styleLabel },
-  ].filter((r) => r.value);
+  const shapeRows = (
+    isGroup
+      ? [
+          { label: ts('shapeRoute'), value: shape?.where || route },
+          { label: ts('shapeLength'), value: durationDays > 0 ? ts('shapeDaysCount', { count: durationDays }) : durationMeta },
+          { label: ts('pkgGrpGroupLabel'), value: typeof tour.maxGroup === 'number' ? ts('pkgGrpMaxGroup', { n: tour.maxGroup }) : '' },
+          { label: ts('pkgGrpGuideLabel'), value: ts('pkgGrpGuideValue') },
+        ]
+      : [
+          { label: ts('shapeRoute'), value: shape?.where || route },
+          { label: ts('shapeLength'), value: shape?.duration || durationMeta },
+          { label: ts('shapeNights'), value: nightsSplit },
+          { label: ts('shapeStyle'), value: shape?.character || styleLabel },
+        ]
+  ).filter((r) => r.value);
 
   const tiers = (tour.priceTiers ?? []).filter((p) => p.name || typeof p.price === 'number');
   const suppValue =
@@ -112,7 +174,19 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const guideHref = (g: { _type?: string; slug?: string; parentCity?: { slug?: string } | null }) =>
     g._type === 'guideArticle' && g.parentCity?.slug ? `/guide/${g.parentCity.slug}/${g.slug}` : `/guide/${g.slug}`;
 
-  const kicker = `${ts('pkgKicker')}${durationDays > 0 ? ` · ${ts('shapeDaysCount', { count: durationDays })}` : ''}`;
+  const kicker = isGroup
+    ? ts('pkgGrpKicker')
+    : `${ts('pkgKicker')}${durationDays > 0 ? ` · ${ts('shapeDaysCount', { count: durationDays })}` : ''}`;
+
+  // Rail "then …" preview line for the next-departure card.
+  const thenLine = (() => {
+    if (!dep || !dep.next) return '';
+    const rest = dep.upcomingAfterNext;
+    const shown = rest.slice(0, 3).map((r) => r.shortDate).join(' · ');
+    if (rest.length === 0) return '';
+    if (rest.length <= 3) return ts('pkgGrpThen', { dates: shown });
+    return ts('pkgGrpThen', { dates: ts('pkgGrpAndMore', { dates: shown, count: rest.length - 3 }) });
+  })();
 
   return (
     <div className="tour-doc lvl-single">
@@ -120,9 +194,18 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
         <nav className="t2e-crumb" aria-label="Breadcrumb">
           <ol>
             <li><Link href="/">{tNav('home')}</Link></li>
-            <li>{tNav('packages')}</li>
-            {tour.theme?.name && (
-              <li>{tour.themeLanding?.slug ? <Link href={`/${tour.themeLanding.slug}`}>{tour.theme.name}</Link> : tour.theme.name}</li>
+            {isGroup ? (
+              <>
+                <li><Link href="/small-group-travel-packages">{ts('pkgGroupSubBreadcrumb')}</Link></li>
+                <li>{ts('pkgGroupRegionLabel', { region: tour.originRegion ?? '' })}</li>
+              </>
+            ) : (
+              <>
+                <li>{tNav('packages')}</li>
+                {tour.theme?.name && (
+                  <li>{tour.themeLanding?.slug ? <Link href={`/${tour.themeLanding.slug}`}>{tour.theme.name}</Link> : tour.theme.name}</li>
+                )}
+              </>
             )}
             <li>{tour.title}</li>
           </ol>
@@ -173,6 +256,43 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               </>
             )}
 
+            {isGroup && dep && dep.rows.length > 0 && (
+              <section className="departures" id="departures">
+                <h2>{ts('pkgGrpDepTitle')}</h2>
+                <p className="dep-sub">{ts('pkgGrpDepSub', { count: dep.count })}</p>
+                <div className="dep-table">
+                  {dep.rows.map((r, i) => {
+                    const statusCls = r.status ? STATUS_CLASS[r.status] ?? 's-open' : '';
+                    const joinLabel = r.status === 'soldout'
+                      ? ts('pkgGrpWaitlist')
+                      : r.status === 'onrequest'
+                        ? ts('pkgGrpEnquire')
+                        : ts('pkgGrpReserve');
+                    return (
+                      <div className={r.isSoldOut ? 'dep-row is-out' : 'dep-row'} key={i}>
+                        <div className="dp-date">{r.dateRange}</div>
+                        <div className={`dp-status ${statusCls}`}>{r.status ? STATUS_LABEL[r.status] : ''}</div>
+                        <div className="dp-places">{typeof r.placesLeft === 'number' ? ts('pkgGrpPlaces', { count: r.placesLeft }) : ''}</div>
+                        <div className="dp-price">
+                          {r.price != null ? formatPrice(r.price) : ts('priceOnInquiry')}
+                          {r.price != null && <small>{ts('pkgGrpPerPerson')}</small>}
+                        </div>
+                        <a
+                          className={r.isSoldOut ? 'dp-join is-disabled' : 'dp-join'}
+                          href={r.isSoldOut ? undefined : reserveHref(r.dateRange)}
+                          target={r.isSoldOut ? undefined : '_blank'}
+                          rel="noopener noreferrer"
+                        >
+                          {joinLabel}
+                        </a>
+                      </div>
+                    );
+                  })}
+                </div>
+                <p className="dep-note">{ts('pkgGrpDepNote')}</p>
+              </section>
+            )}
+
             {tour.conciergeNote && (
               <div className="note">
                 <span className="t2e-kicker">{ts('conciergeNoteLabel')}</span>
@@ -211,6 +331,34 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
           </article>
 
           <aside className="rail">
+            {/* Group packages LEAD with the next-departure card: the soonest
+                future date, or a "next season" state if every date has sailed. */}
+            {isGroup && dep && (
+              dep.next ? (
+                <div className="card rdep">
+                  <span className="ck">{ts('pkgGrpNextKicker')}</span>
+                  <div className="nd-date">{dep.next.dateRange}</div>
+                  {(dep.next.status || typeof dep.next.placesLeft === 'number') && (
+                    <div className="nd-status">
+                      {[dep.next.status ? STATUS_LABEL[dep.next.status] : null,
+                        typeof dep.next.placesLeft === 'number' ? ts('pkgGrpPlaces', { count: dep.next.placesLeft }) : null]
+                        .filter(Boolean).join(' · ')}
+                    </div>
+                  )}
+                  {thenLine && <div className="nd-next">{thenLine}</div>}
+                  <a className="nd-btn" href={reserveHref(dep.next.dateRange)} target="_blank" rel="noopener noreferrer">{ts('pkgGrpReservePlace')} →</a>
+                  <a className="nd-all" href="#departures">{ts('pkgGrpSeeAll', { count: dep.count })}</a>
+                </div>
+              ) : (
+                <div className="card rdep">
+                  <span className="ck">{ts('pkgGrpNextSeasonKicker')}</span>
+                  <div className="nd-date">{ts('pkgGrpNextSeasonTitle')}</div>
+                  <div className="nd-next" style={{ borderTop: 0, paddingTop: 0 }}>{ts('pkgGrpNextSeasonBody')}</div>
+                  <ConciergeOpenButton className="nd-btn">{ts('pkgGrpEnquireDates')}</ConciergeOpenButton>
+                </div>
+              )
+            )}
+
             {shapeRows.length > 0 && (
               <div className="card">
                 <span className="ck">{ts('pkgShapeTitle')}</span>

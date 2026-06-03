@@ -486,10 +486,46 @@
 .lvl-single .ritem .rk { font-family: var(--ui); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--navy-mute); display: block; margin-bottom: 5px; }
 .lvl-single .ritem .rt { font-family: var(--display); font-size: 21px; font-weight: 400; line-height: 1.2; color: var(--navy); }
 
+/* ── Departures (group packages) ── */
+.lvl-single .departures { margin: 8px 0; scroll-margin-top: 96px; }
+.lvl-single .departures h2 { font-family: var(--display); font-weight: 400; font-size: clamp(28px, 3vw, 40px); line-height: 1.06; color: var(--navy); margin: 46px 0 6px; }
+.lvl-single .dep-sub { font-family: var(--display); font-style: italic; font-size: 18px; color: var(--navy-mute); margin-bottom: 24px; }
+.lvl-single .dep-table { border-top: 1px solid var(--rule); }
+.lvl-single .dep-row { display: grid; grid-template-columns: 1.5fr 1fr .8fr 1fr auto; gap: 20px; align-items: center; padding: 16px 0; border-bottom: 1px solid var(--rule-soft); }
+.lvl-single .dep-row .dp-date { font-family: var(--display); font-size: 21px; color: var(--navy); line-height: 1.1; }
+.lvl-single .dep-row .dp-status { font-family: var(--ui); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+.lvl-single .dp-status.s-ok { color: #4a6b4f; }
+.lvl-single .dp-status.s-few { color: #9a6b2f; }
+.lvl-single .dp-status.s-open, .lvl-single .dp-status.s-out { color: var(--navy-mute); }
+.lvl-single .dp-status.s-req { color: var(--navy-mute); opacity: .8; }
+.lvl-single .dep-row.is-out { opacity: .5; }
+.lvl-single .dep-row.is-out .dp-date { text-decoration: line-through; }
+.lvl-single .dep-row .dp-places { font-family: var(--ui); font-size: 13px; color: var(--navy-mute); }
+.lvl-single .dep-row .dp-price { font-family: var(--display); font-size: 20px; color: var(--navy); }
+.lvl-single .dep-row .dp-price small { font-family: var(--ui); font-size: 11px; color: var(--navy-mute); display: block; letter-spacing: .04em; }
+.lvl-single .dp-join { font-family: var(--ui); font-size: 12px; letter-spacing: .04em; text-decoration: none; color: var(--navy); border: 1px solid var(--rule); padding: 9px 16px; white-space: nowrap; transition: .2s; }
+.lvl-single .dp-join:hover { background: var(--navy); color: var(--paper); border-color: var(--navy); }
+.lvl-single .dp-join.is-disabled { pointer-events: none; color: var(--navy-mute); border-color: var(--rule-soft); }
+.lvl-single .dep-note { font-family: var(--read); font-style: italic; font-size: 15px; color: var(--navy-mute); margin-top: 18px; line-height: 1.5; }
+
+/* next-departure rail card (dark, leads the rail) */
+.lvl-single .rdep { background: var(--black); color: var(--paper); border-color: var(--black); }
+.lvl-single .rdep .ck { color: var(--gold); }
+.lvl-single .rdep .nd-date { font-family: var(--display); font-size: 26px; line-height: 1.05; color: var(--paper); margin-bottom: 8px; }
+.lvl-single .rdep .nd-status { font-family: var(--ui); font-size: 12px; letter-spacing: .06em; color: #9dbb9f; margin-bottom: 16px; }
+.lvl-single .rdep .nd-next { font-family: var(--read); font-size: 14px; color: rgba(250, 246, 236, .66); line-height: 1.5; border-top: 1px solid rgba(250, 246, 236, .16); padding-top: 14px; margin-bottom: 18px; }
+.lvl-single .rdep .nd-btn { display: block; text-align: center; background: var(--paper); color: var(--black); font-family: var(--ui); font-size: 13px; letter-spacing: .04em; text-decoration: none; padding: 14px; transition: .2s; border: 0; width: 100%; cursor: pointer; }
+.lvl-single .rdep .nd-btn:hover { background: var(--gold); }
+.lvl-single .rdep .nd-all { display: block; text-align: center; font-family: var(--ui); font-size: 12px; color: rgba(250, 246, 236, .7); text-decoration: none; margin-top: 12px; }
+.lvl-single .rdep .nd-all:hover { color: var(--gold); }
+
 @media (max-width: 980px) {
   .lvl-single .layout { grid-template-columns: 1fr; gap: 40px; }
   .lvl-single .rail { position: static; order: -1; }
   .lvl-single .incl, .lvl-single .related-grid { grid-template-columns: 1fr; gap: 30px; }
+  .lvl-single .dep-row { grid-template-columns: 1fr auto; gap: 6px 16px; }
+  .lvl-single .dep-row .dp-status, .lvl-single .dep-row .dp-places, .lvl-single .dep-row .dp-price { grid-column: 1; }
+  .lvl-single .dep-row .dp-join { grid-row: 1 / span 4; align-self: center; }
 }
 @media (max-width: 620px) {
   .lvl-single .timeline li, .lvl-single .shape li { grid-template-columns: 1fr; gap: 4px; }

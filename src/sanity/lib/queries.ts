@@ -348,6 +348,15 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     },
     "priceNote": ${localizedField('priceNote', locale)},
     singleSupplement,
+    basePrice,
+    peakUpliftPct,
+    maxGroup,
+    "departures": departures[]{
+      "startDate": startDate,
+      "isPeak": isPeak,
+      "status": status,
+      "placesLeft": placesLeft
+    },
     "trustSignals": coalesce(trustSignals[_key=="${locale}"][0].value, trustSignals[_key=="en"][0].value),
     "accreditations": ${localizedField('accreditations', locale)},
     seo{
