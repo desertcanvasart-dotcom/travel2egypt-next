@@ -704,6 +704,10 @@
     "trustSignal2": "Small group or private — never a packed coach",
     "trustSignal3": "Transparent, tiered pricing — no hidden fees",
     "trustSignal4": "We'll tell you honestly if another day suits you better",
-    "trustAccred": "ETAA · IATA · ASTA — Egyptian-operated since 2003"
+    "trustAccred": "ETAA · IATA · ASTA — Egyptian-operated since 2003",
+    "shapeDaysCount": "{count, plural, one {# day} other {# days}}",
+    "priceFromLabel": "From",
+    "priceOnInquiry": "On inquiry",
+    "priceNoteOnInquiry": "Final price depends on group size, season, and the options you choose — confirmed on inquiry. No hidden fees."
   }
 }

@@ -21,6 +21,7 @@ export interface SingleTour {
   title: string;
   slug: string;
   summary?: string;
+  durationDays?: number;
   durationLabel?: string;
   priceIndication?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
@@ -91,8 +92,25 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const included = tour.includedItems ?? [];
   const notIncluded = tour.notIncludedItems ?? [];
   const hasIncl = included.length > 0 || notIncluded.length > 0;
+
+  // Shape-of-the-day card ALWAYS renders. When a field isn't explicitly authored,
+  // derive it from existing tour data so the rail never shows a blank/broken card.
   const shape = tour.shapeOfDay;
-  const hasShape = Boolean(shape?.where || shape?.duration || shape?.character);
+  const derivedWhere =
+    shape?.where || (tour.cities ?? []).map((c) => c.name).filter(Boolean).join(' · ') || cityName;
+  const derivedDuration =
+    shape?.duration ||
+    tour.durationLabel ||
+    (tour.durationDays && tour.durationDays > 1 ? ts('shapeDaysCount', { count: tour.durationDays }) : '');
+  const derivedCharacter =
+    shape?.character ||
+    [isGroup ? tSub('trackGroup') : tSub('trackPrivate'), tour.groupSize].filter(Boolean).join(' · ');
+  const shapeRows = [
+    { label: ts('shapeWhere'), value: derivedWhere },
+    { label: ts('shapeDuration'), value: derivedDuration },
+    { label: ts('shapeCharacter'), value: derivedCharacter },
+  ].filter((r) => r.value);
+
   const tiers = (tour.priceTiers ?? []).filter((p) => p.name || p.price);
   // Trust signals are GLOBAL — identical on every tour, from i18n, not per-tour data.
   const trustSignals = [ts('trustSignal1'), ts('trustSignal2'), ts('trustSignal3'), ts('trustSignal4')];
@@ -200,33 +218,40 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           </article>
 
           <aside className="rail">
-            {hasShape && (
+            {/* Shape-of-the-day — always renders (derived from tour data when unauthored). */}
+            {shapeRows.length > 0 && (
               <div className="card">
                 <span className="ck">{ts('shapeTitle')}</span>
                 <ul className="shape">
-                  {shape?.where && <li><small>{ts('shapeWhere')}</small><span>{shape.where}</span></li>}
-                  {shape?.duration && <li><small>{ts('shapeDuration')}</small><span>{shape.duration}</span></li>}
-                  {shape?.character && <li><small>{ts('shapeCharacter')}</small><span>{shape.character}</span></li>}
+                  {shapeRows.map((r, i) => (
+                    <li key={i}><small>{r.label}</small><span>{r.value}</span></li>
+                  ))}
                 </ul>
               </div>
             )}
 
-            {tiers.length > 0 && (
-              <div className="card">
-                <span className="ck">{ts('priceTitle')}</span>
-                <ul className="tiers">
-                  {tiers.map((tier, i) => (
+            {/* Price-logic — always renders. No tiers → "From · on inquiry" + honesty note. */}
+            <div className="card">
+              <span className="ck">{ts('priceTitle')}</span>
+              <ul className="tiers">
+                {tiers.length > 0 ? (
+                  tiers.map((tier, i) => (
                     <li key={i}>
                       <span className="tn">{tier.name}{tier.sub && <small>{tier.sub}</small>}</span>
                       <span className="tp">{tier.price}{tier.unit && <small> {tier.unit}</small>}</span>
                     </li>
-                  ))}
-                </ul>
-                {tour.priceNote && <p className="price-note">{tour.priceNote}</p>}
-                <ConciergeOpenButton className="rail-cta">{ts('planThis')} →</ConciergeOpenButton>
-                <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
-              </div>
-            )}
+                  ))
+                ) : (
+                  <li>
+                    <span className="tn">{ts('priceFromLabel')}</span>
+                    <span className="tp">{ts('priceOnInquiry')}</span>
+                  </li>
+                )}
+              </ul>
+              <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
+              <ConciergeOpenButton className="rail-cta">{ts('planThis')} →</ConciergeOpenButton>
+              <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
+            </div>
 
             <div className="card">
               <span className="ck">{ts('whyBook')}</span>

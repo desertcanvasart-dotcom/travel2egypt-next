@@ -704,6 +704,10 @@
     "trustSignal2": "Grupo reducido o privado — nunca un autocar lleno",
     "trustSignal3": "Precios escalonados y transparentes — sin costes ocultos",
     "trustSignal4": "Te diremos con honestidad si otro día te conviene más",
-    "trustAccred": "ETAA · IATA · ASTA — operador egipcio desde 2003"
+    "trustAccred": "ETAA · IATA · ASTA — operador egipcio desde 2003",
+    "shapeDaysCount": "{count, plural, one {# día} other {# días}}",
+    "priceFromLabel": "Desde",
+    "priceOnInquiry": "A consultar",
+    "priceNoteOnInquiry": "El precio final depende del tamaño del grupo, la temporada y las opciones que elijas — se confirma al consultar. Sin costes ocultos."
   }
 }
