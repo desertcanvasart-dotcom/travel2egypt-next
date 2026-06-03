@@ -127,6 +127,21 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
                     .filter('_type == "tour" && type == "package"')
                 ),
 
+              // ── Category landing pages (the four hub docs) — the editorial
+              //    shell for /private-day-tours, /egypt-travel-packages, etc.
+              //    This is where editorByline + editor's picks are curated.
+              //    Previously unreachable from the desk. ──
+              S.listItem()
+                .title('Category landing pages (hubs)')
+                .icon(MasterDetailIcon)
+                .child(
+                  S.documentTypeList('tourCategory')
+                    .title('Category landing pages')
+                    .child((docId) =>
+                      S.document().documentId(docId).schemaType('tourCategory')
+                    )
+                ),
+
               S.divider(),
 
               // ── Day tours: facets ──
