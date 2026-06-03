@@ -30,6 +30,7 @@ import {
 import { Body } from '@/components/Body';
 import { TourPageView } from '@/components/TourPageView';
 import { SingleTourView } from '@/components/tour-system/SingleTourView';
+import { PackageView } from '@/components/tour-system/PackageView';
 import { SubcategoryView } from '@/components/tour-system/SubcategoryView';
 import { TourCloseRhythm } from '@/components/subcategory/TourCloseRhythm';
 
@@ -101,10 +102,16 @@ export default async function CatchAllPage({ params }: Props) {
       client.fetch(siteSettingsQuery(locale as Locale)),
     ]);
     if (!tour) notFound();
-    // Single day tours render in the reconciled journey-3 design. Multi-day
-    // packages keep the legacy TourPageView (day-by-day itinerary grid).
-    if ((tour as { type?: string }).type === 'dayTour') {
+    // Single day tours render in the reconciled journey-3 design; standard/private
+    // packages render in the journey-pkg design. The group-package "departure
+    // dates" variant is deferred — it keeps the legacy TourPageView for now.
+    const tType = (tour as { type?: string; tourMode?: string }).type;
+    const tMode = (tour as { tourMode?: string }).tourMode;
+    if (tType === 'dayTour') {
       return <SingleTourView tour={tour as never} locale={locale as Locale} />;
+    }
+    if (tType === 'package' && tMode === 'private') {
+      return <PackageView tour={tour as never} locale={locale as Locale} />;
     }
     return (
       <>
