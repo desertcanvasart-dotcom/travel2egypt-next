@@ -11,7 +11,11 @@ import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { FloatingConcierge } from '../FloatingConcierge';
 
 const WHATSAPP = 'https://wa.me/201158011600';
-const PACKAGES_HUB = '/egypt-travel-packages';
+
+// Below this many journeys, the page takes the sparse path: lead with the
+// single journey as the featured piece and OMIT the side-grid + the index
+// entirely (no empty frames, no single-row index). At >= this, both switch on.
+const GRID_THRESHOLD = 3;
 
 interface RawPackage {
   _id: string;
@@ -43,6 +47,7 @@ export interface PackageSubcategoryDoc {
   heroImage?: { asset?: unknown; alt?: string } | null;
   category?: { key?: string; title?: string; slug?: string } | null;
   themeRef?: { _id: string; name?: string; slug?: string } | null;
+  originRegion?: string;
   facts?: Array<{ label?: string; value?: string }> | null;
   heroNote?: string;
   editorByline?: { kicker?: string; heading?: string; intro?: string; mini?: string } | null;
@@ -61,19 +66,38 @@ export interface PackageSubcategoryDoc {
   tours?: RawPackage[];
 }
 
-export async function PackageSubcategoryView({ doc, locale }: { doc: PackageSubcategoryDoc; locale: Locale }) {
+export async function PackageSubcategoryView({
+  doc,
+  locale,
+  mode = 'private',
+}: {
+  doc: PackageSubcategoryDoc;
+  locale: Locale;
+  mode?: 'private' | 'group';
+}) {
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
   const tArchive = await getTranslations('archive');
 
-  const themeName = doc.themeRef?.name ?? doc.title;
+  const isGroup = mode === 'group';
+  const hub = isGroup ? '/small-group-travel-packages' : '/egypt-travel-packages';
+  // Axis label: region for group (short, from originRegion), theme for private.
+  const axisName = isGroup
+    ? ts('pkgGroupRegionLabel', { region: doc.originRegion ?? '' })
+    : doc.themeRef?.name ?? doc.title;
+  const heroKicker = isGroup ? ts('pkgGroupSubHeroKicker') : ts('pkgSubHeroKicker');
+  const breadcrumb = isGroup ? ts('pkgGroupSubBreadcrumb') : ts('pkgSubBreadcrumb');
+  const trackLabel = isGroup ? ts('pkgGroupSubTrackLabel') : ts('pkgSubTrackLabel');
   const heroImage = doc.heroImage ?? null;
 
-  // Packages for this theme — already theme-scoped + ordered by the landing query.
   const presById = new Map((doc.tourPresentation ?? []).filter((p) => p.tourId).map((p) => [p.tourId!, p]));
   const packages = doc.tours ?? [];
   const featured = packages.find((p) => presById.get(p._id)?.featured) ?? packages[0];
   const sides = packages.filter((p) => p._id !== featured?._id).slice(0, 4);
+
+  // Sparse path: a thin catalogue (< 3) leads with the single featured piece
+  // and drops the side-grid + the whole index — no empty frames.
+  const isSparse = packages.length < GRID_THRESHOLD;
 
   const dayLabel = (p: RawPackage) =>
     p.durationLabel ||
@@ -81,7 +105,7 @@ export async function PackageSubcategoryView({ doc, locale }: { doc: PackageSubc
 
   const tourCard = (p: RawPackage, isFeatured: boolean) => {
     const pres = presById.get(p._id);
-    const meta = [dayLabel(p), ts('pkgSubTrackLabel')].filter(Boolean).join(' · ');
+    const meta = [dayLabel(p), trackLabel].filter(Boolean).join(' · ');
     return (
       <Link key={p._id} className={isFeatured ? 'tour-card featured' : 'tour-card'} href={`/${p.slug}`}>
         <JourneyImage
@@ -109,8 +133,6 @@ export async function PackageSubcategoryView({ doc, locale }: { doc: PackageSubc
   const orientStops = (orient?.stops ?? []).filter((s) => s.name);
   const journal = (doc.journalRefs ?? []).filter((j) => j.title);
 
-  // ── "Every {theme}" index — every private/standard package in this theme.
-  // name · duration(days) · arrow, length facet only. NO prices (3-level rule). ──
   const indexRows: CategoryRow[] = packages
     .filter((p) => p.slug)
     .map((p) => ({
@@ -135,11 +157,11 @@ export async function PackageSubcategoryView({ doc, locale }: { doc: PackageSubc
     <div className="tour-doc lvl-subcategory">
       <header className="hero">
         <div className="bg">
-          <JourneyImage image={heroImage} alt={themeName} className="" sizes="100vw" widthHint={2560} priority />
+          <JourneyImage image={heroImage} alt={axisName} className="" sizes="100vw" widthHint={2560} priority />
         </div>
         <div className="t2e-wrap hero-grid">
           <div>
-            <span className="t2e-kicker">{ts('pkgSubHeroKicker')} · {themeName}</span>
+            <span className="t2e-kicker">{heroKicker} · {axisName}</span>
             <h1>{doc.title}</h1>
             {doc.summary && <p className="hero-dek">{doc.summary}</p>}
           </div>
@@ -165,8 +187,8 @@ export async function PackageSubcategoryView({ doc, locale }: { doc: PackageSubc
         <nav className="t2e-crumb" aria-label="Breadcrumb" style={{ paddingBottom: 25 }}>
           <ol>
             <li><Link href="/">{tNav('home')}</Link></li>
-            <li><Link href={PACKAGES_HUB}>{ts('pkgSubBreadcrumb')}</Link></li>
-            <li>{themeName}</li>
+            <li><Link href={hub}>{breadcrumb}</Link></li>
+            <li>{axisName}</li>
           </ol>
         </nav>
       </div>
@@ -193,7 +215,7 @@ export async function PackageSubcategoryView({ doc, locale }: { doc: PackageSubc
           <section className="choose">
             <div className="t2e-wrap">
               <div className="t2e-section-head">
-                <h2>{mood?.heading ?? ts('moodHeading', { city: themeName })}</h2>
+                <h2>{mood?.heading ?? ts('moodHeading', { city: axisName })}</h2>
                 {mood?.intro && <p>{mood.intro}</p>}
               </div>
               <div className="choice-grid">
@@ -264,38 +286,46 @@ export async function PackageSubcategoryView({ doc, locale }: { doc: PackageSubc
                 <h2>{ts('pkgSubToursTitle')} <em>{ts('pkgSubToursEm')}</em></h2>
                 <p>{ts('pkgSubToursIntro')}</p>
               </div>
-              <div className="tour-layout">
+              {/* Sparse (< 3): the featured piece stands alone, full-width — no
+                  empty side column. >= 3: featured + the 2×2 side-grid. */}
+              <div className={isSparse ? 'tour-layout solo' : 'tour-layout'}>
                 {tourCard(featured, true)}
-                <div className="side-tours">
-                  {sides.map((p) => tourCard(p, false))}
-                </div>
+                {!isSparse && (
+                  <div className="side-tours">
+                    {sides.map((p) => tourCard(p, false))}
+                  </div>
+                )}
               </div>
             </div>
           </section>
         )}
 
-        <section className="index">
-          <div className="t2e-wrap">
-            <div className="t2e-section-head">
-              <div>
-                <span className="t2e-kicker">{tArchive('theIndex')}</span>
-                <h2>{ts('pkgSubIndexTitle')} <em>{themeName}.</em></h2>
+        {/* Complete index — only once the catalogue is deep enough to warrant
+            it (>= 3). A single-row index would be an empty frame, so it's omitted. */}
+        {!isSparse && (
+          <section className="index">
+            <div className="t2e-wrap">
+              <div className="t2e-section-head">
+                <div>
+                  <span className="t2e-kicker">{tArchive('theIndex')}</span>
+                  <h2>{ts('pkgSubIndexTitle')} <em>{axisName}.</em></h2>
+                </div>
+                <p>{ts('pkgSubIndexIntro', { theme: axisName })}</p>
               </div>
-              <p>{ts('pkgSubIndexIntro', { theme: themeName })}</p>
+              <CategoryIndex
+                variant="single"
+                rows={indexRows}
+                lengthOptions={lengthOptions}
+                labels={{
+                  lengthLabel: ts('pkgCatLenLabel'),
+                  anyLength: ts('pkgCatLenAny'),
+                  lengthHint: ts('pkgSubIndexHint'),
+                  empty: tArchive('emptyState'),
+                }}
+              />
             </div>
-            <CategoryIndex
-              variant="single"
-              rows={indexRows}
-              lengthOptions={lengthOptions}
-              labels={{
-                lengthLabel: ts('pkgCatLenLabel'),
-                anyLength: ts('pkgCatLenAny'),
-                lengthHint: ts('pkgSubIndexHint'),
-                empty: tArchive('emptyState'),
-              }}
-            />
-          </div>
-        </section>
+          </section>
+        )}
 
         {journal.length > 0 && (
           <section className="journal">
@@ -351,7 +381,7 @@ export async function PackageSubcategoryView({ doc, locale }: { doc: PackageSubc
             <div>
               <h4>{ts('pkgSubPairsLabel')}</h4>
               <ul>
-                <li><Link href={PACKAGES_HUB}>{ts('pkgSubPairsAll')}<small>{ts('pkgSubPairsAllSub')}</small></Link></li>
+                <li><Link href={hub}>{ts('pkgSubPairsAll')}<small>{ts('pkgSubPairsAllSub')}</small></Link></li>
                 <li><Link href="/nile-cruises">{ts('pkgSubPairsCruise')}<small>{ts('pkgSubPairsCruiseSub')}</small></Link></li>
                 <li><Link href="/guide">{ts('pkgSubPairsGuide')}<small>{ts('pkgSubPairsGuideSub')}</small></Link></li>
               </ul>

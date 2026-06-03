@@ -821,6 +821,10 @@
     "pkgGroupCatFootDays": "¿Cuántos días necesitas?",
     "pkgGroupCatFootDaysSub": "En la Guía de viaje",
     "pkgGroupCatFootCruise": "Crucero o dahabiya",
-    "pkgGroupCatFootCruiseSub": "Cómo elegir"
+    "pkgGroupCatFootCruiseSub": "Cómo elegir",
+    "pkgGroupSubHeroKicker": "Paquetes en grupo reducido",
+    "pkgGroupSubBreadcrumb": "Paquetes en grupo",
+    "pkgGroupSubTrackLabel": "Salida en grupo",
+    "pkgGroupRegionLabel": "{region, select, japan-east-asia {Japón y Asia Oriental} uk-europe {Reino Unido y Europa} usa-canada {EE. UU. y Canadá} other {Egipto}}"
   }
 }

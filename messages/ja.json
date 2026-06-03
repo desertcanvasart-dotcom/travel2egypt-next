@@ -821,6 +821,10 @@
     "pkgGroupCatFootDays": "何日必要ですか？",
     "pkgGroupCatFootDaysSub": "トラベルガイドで",
     "pkgGroupCatFootCruise": "クルーズ船かダハビーヤか",
-    "pkgGroupCatFootCruiseSub": "選び方"
+    "pkgGroupCatFootCruiseSub": "選び方",
+    "pkgGroupSubHeroKicker": "少人数グループ旅行パッケージ",
+    "pkgGroupSubBreadcrumb": "グループパッケージ",
+    "pkgGroupSubTrackLabel": "グループ出発",
+    "pkgGroupRegionLabel": "{region, select, japan-east-asia {日本・東アジア} uk-europe {英国・ヨーロッパ} usa-canada {米国・カナダ} other {エジプト}}"
   }
 }

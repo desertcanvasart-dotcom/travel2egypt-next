@@ -152,6 +152,9 @@ export default async function CatchAllPage({ params }: Props) {
     if (key === 'private-package' && doc.themeRef?.slug) {
       return <PackageSubcategoryView doc={doc} locale={locale as Locale} />;
     }
+    if (key === 'group-package' && doc.originRegion) {
+      return <PackageSubcategoryView doc={doc} locale={locale as Locale} mode="group" />;
+    }
     return <TourLandingView doc={doc} locale={locale as Locale} />;
   }
 

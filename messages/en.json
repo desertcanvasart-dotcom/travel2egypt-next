@@ -821,6 +821,10 @@
     "pkgGroupCatFootDays": "How many days do you need?",
     "pkgGroupCatFootDaysSub": "In the Travel Guide",
     "pkgGroupCatFootCruise": "Cruise ship or dahabiya",
-    "pkgGroupCatFootCruiseSub": "How to choose"
+    "pkgGroupCatFootCruiseSub": "How to choose",
+    "pkgGroupSubHeroKicker": "Small Group Travel Packages",
+    "pkgGroupSubBreadcrumb": "Small Group Packages",
+    "pkgGroupSubTrackLabel": "Group departure",
+    "pkgGroupRegionLabel": "{region, select, japan-east-asia {Japan & East Asia} uk-europe {UK & Europe} usa-canada {USA & Canada} other {Egypt}}"
   }
 }
