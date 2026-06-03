@@ -706,5 +706,13 @@
   "tour.mount-sinai-pilgrimage-2-day-trip-to-saint-catherine-from-cairo": {
     "slug": "kairo-kara-shinai-san-to-sei-katarina-shudoin-e-ni",
     "reason": "Reading fix. JA title カイロからシナイ山と聖カタリナ修道院へ、二日間の巡礼; 聖→sei (kuromoji produced kiyoshi). Religious-context reading per Saint Catherine cluster precedent."
+  },
+  "wp-post-167058-ja": {
+    "slug": "ejiputo-no-ragujuari-ryoko",
+    "reason": "Collision resolution: identical JA title 「エジプトのラグジュアリー旅行」 shared with wp-post-161810-ja. This doc is EN 'Luxury Travel in Egypt' — takes the literal romaji (ragujuari ryoko)."
+  },
+  "wp-post-161810-ja": {
+    "slug": "ejiputo-no-ragujuari-na-bakeshon",
+    "reason": "Collision resolution: identical JA title shared with wp-post-167058-ja. This doc is EN 'A Luxurious Egyptian Vacation' — keeps its vacation-sense slug to disambiguate."
   }
 }
