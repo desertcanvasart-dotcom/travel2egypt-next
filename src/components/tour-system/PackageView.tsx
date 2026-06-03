@@ -33,6 +33,7 @@ export interface PackageDoc {
   priceFrom?: string;
   priceTiers?: Array<{ name?: string; sub?: string; price?: string; unit?: string }> | null;
   priceNote?: string;
+  singleSupplement?: number | null;
   heroImage?: { asset?: unknown; alt?: string } | null;
   cities?: CityRef[];
   body?: unknown;
@@ -100,6 +101,13 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   ].filter((r) => r.value);
 
   const tiers = (tour.priceTiers ?? []).filter((p) => p.name || p.price);
+  // Currency symbol is taken from the From-price string (no global currency exists),
+  // so the single-supplement row matches whatever currency this package is priced in.
+  const priceSymbol = (fromPrice.match(/^[^\d\s]+/) ?? [''])[0];
+  const suppValue =
+    typeof tour.singleSupplement === 'number'
+      ? `${ts('pkgSuppFrom')} ${priceSymbol}${tour.singleSupplement.toLocaleString('en-US')}`
+      : '';
   const trustSignals = [ts('trustSignal1'), ts('trustSignal2'), ts('trustSignal3'), ts('trustSignal4')];
 
   const included = tour.includedItems ?? [];
@@ -235,10 +243,13 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                 ) : (
                   <li>
                     <span className="tn">{ts('priceFromLabel')}</span>
-                    <span className="tp">{ts('priceOnInquiry')}</span>
+                    <span className="tp">{fromPrice || ts('priceOnInquiry')}</span>
                   </li>
                 )}
               </ul>
+              {suppValue && (
+                <div className="supp"><span>{ts('pkgSingleSupp')}</span><span>{suppValue}</span></div>
+              )}
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
               <ConciergeOpenButton className="rail-cta">{ts('pkgPlanThis')} →</ConciergeOpenButton>
               <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>

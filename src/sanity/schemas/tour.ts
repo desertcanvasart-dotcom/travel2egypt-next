@@ -14,6 +14,7 @@ import {
   tourShapeField,
   tourPriceTiersField,
   tourPriceNoteField,
+  tourSingleSupplementField,
   tourTrustFields,
   tourJournalField,
 } from './_tourSystemBlocks';
@@ -431,6 +432,7 @@ export const tourSchema = defineType({
     }),
     tourPriceTiersField,
     tourPriceNoteField,
+    tourSingleSupplementField,
 
     // ── Related ────────────────────────────
     defineField({
