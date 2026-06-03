@@ -530,3 +530,39 @@
 @media (max-width: 620px) {
   .lvl-single .timeline li, .lvl-single .shape li { grid-template-columns: 1fr; gap: 4px; }
 }
+
+/* ===========================================================================
+ * JAPANESE (html[lang=ja]) — locale type adaptation for the journey design.
+ *
+ * The reference faces (Cormorant / Newsreader / DM Sans) carry no CJK glyphs,
+ * so JA text was falling to an uncontrolled OS font; and the design leans on
+ * italic Cormorant for deks / pull-quotes, which CJK has no true italic for
+ * (the browser synthesises an ugly slant). This block, and ONLY this block,
+ * adapts the journey tier for JA — the EN reference values above are untouched,
+ * and the scope is `.tour-doc` so EN/ES render exactly as before.
+ *
+ *   1. Re-point the design's font tokens to the already-loaded Noto JP faces
+ *      (serif display + serif body = Mincho, sans UI = Gothic — a 1:1 mirror of
+ *      the EN serif/serif/sans split).
+ *   2. Suppress every synthesised italic.
+ *   3. Drop the Latin display's negative tracking and give CJK headings the
+ *      line-height they need to wrap without crowding.
+ * ========================================================================= */
+html[lang='ja'] .tour-doc {
+  --display: var(--font-jp-serif);
+  --read: var(--font-jp-serif);
+  --ui: var(--font-jp-sans);
+}
+/* CJK has no true italic — kill all synthesised obliques across the tier. */
+html[lang='ja'] .tour-doc,
+html[lang='ja'] .tour-doc * { font-style: normal !important; }
+/* Negative tracking is a Latin-display device; CJK is already tight. Give
+   multi-line CJK headings room to breathe. */
+html[lang='ja'] .tour-doc :is(h1, h2, h3, h4) {
+  letter-spacing: normal;
+  line-height: 1.34;
+}
+/* Ease the wide Latin label tracking for kana / kanji. */
+html[lang='ja'] .tour-doc :is(.t2e-kicker, .t2e-eyebrow, .meta, .label, .tr-dur, .filter-label, .ck, .rk) {
+  letter-spacing: 0.06em;
+}
