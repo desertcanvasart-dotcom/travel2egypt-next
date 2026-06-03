@@ -111,7 +111,9 @@ export default async function CatchAllPage({ params }: Props) {
     if (tType === 'dayTour') {
       return <SingleTourView tour={tour as never} locale={locale as Locale} />;
     }
-    if (tType === 'package' && tMode === 'private') {
+    if (tType === 'package' && (tMode === 'private' || tMode === 'group')) {
+      // Private packages → journey-pkg; group packages → journey-pkg + the
+      // scheduled-departures apparatus (PackageView detects mode internally).
       return <PackageView tour={tour as never} locale={locale as Locale} />;
     }
     return (
@@ -151,6 +153,9 @@ export default async function CatchAllPage({ params }: Props) {
     }
     if (key === 'private-package' && doc.themeRef?.slug) {
       return <PackageSubcategoryView doc={doc} locale={locale as Locale} />;
+    }
+    if (key === 'group-package' && doc.originRegion) {
+      return <PackageSubcategoryView doc={doc} locale={locale as Locale} mode="group" />;
     }
     return <TourLandingView doc={doc} locale={locale as Locale} />;
   }

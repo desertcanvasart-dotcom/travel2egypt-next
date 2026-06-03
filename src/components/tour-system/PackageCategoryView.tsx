@@ -20,6 +20,7 @@ interface RawPackage {
   tourMode?: string;
   durationDays?: number;
   durationLabel?: string;
+  originRegion?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
   theme?: { _id: string; name?: string; slug?: string } | null;
 }
@@ -32,35 +33,56 @@ export interface PackageCategoryDoc {
   editorsPicks?: RawPackage[] | null;
 }
 
-export interface PackageThemeLanding {
+/**
+ * Navigator landing — generic over the grouping axis. Private packages group
+ * by theme (axisId = theme id, matched against pkg.theme._id); group packages
+ * group by origin region (axisId = originRegion, matched against pkg.originRegion).
+ */
+export interface PackageNavLanding {
   slug?: string;
-  themeId?: string;
-  themeName?: string;
+  axisId?: string;
+  name?: string;
   note?: string;
 }
 
 export async function PackageCategoryView({
   archive,
   packages,
-  themeLandings,
+  navLandings,
+  mode = 'private',
   locale,
 }: {
   archive: PackageCategoryDoc | null;
   packages: RawPackage[];
-  themeLandings: PackageThemeLanding[];
+  navLandings: PackageNavLanding[];
+  mode?: 'private' | 'group';
   locale: Locale;
 }) {
   const tArchive = await getTranslations('archive');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
 
+  // Copy switches by bucket; length-bucket + count labels are shared.
+  const P = mode === 'group' ? 'pkgGroupCat' : 'pkgCat';
+  const k = (suffix: string) => ts(`${P}${suffix}`);
+  const isGroup = mode === 'group';
+
   const dayLabel = (pkg: RawPackage) =>
     pkg.durationLabel ||
     (typeof pkg.durationDays === 'number' ? ts('pkgCatDayCount', { count: pkg.durationDays }) : '');
 
-  // ── Editor's picks: always 1 lead + 2 sides. Curated `editorsPicks` first,
-  // then top up from the (already private-scoped) package list so the 3-card
-  // grid never collapses. No price is ever shown on a pick. ──
+  // Axis label for a package (region name for group, theme name for private).
+  const axisName = new Map(navLandings.filter((l) => l.axisId).map((l) => [l.axisId!, l.name ?? '']));
+  const pkgAxisLabel = (p: RawPackage) =>
+    isGroup ? axisName.get(p.originRegion ?? '') ?? '' : p.theme?.name ?? '';
+  const countFor = (axisId?: string) =>
+    !axisId
+      ? 0
+      : packages.filter((p) => (isGroup ? p.originRegion === axisId : p.theme?._id === axisId)).length;
+
+  // ── Editor's picks: always 1 lead + 2 sides (or fewer if the bucket is tiny).
+  // Curated first, then top up from the (already mode-scoped) package list. No
+  // price is ever shown on a pick. ──
   const pickList: RawPackage[] = [];
   const seen = new Set<string>();
   const curatedCount = (archive?.editorsPicks ?? []).filter(Boolean).length;
@@ -70,19 +92,18 @@ export async function PackageCategoryView({
     pickList.push(p);
     if (pickList.length === 3) break;
   }
-  if (curatedCount < 3) {
+  if (curatedCount < Math.min(3, packages.length)) {
     // eslint-disable-next-line no-console
     console.warn(
-      `[egypt-travel-packages] editor's picks: only ${curatedCount} package(s) curated in ` +
-        `tourCategory.private-package.editorsPicks; topped up to ${pickList.length} from recent ` +
-        `private packages. Curate 3 in Studio for editorial control.`,
+      `[${isGroup ? 'small-group-travel-packages' : 'egypt-travel-packages'}] editor's picks: ` +
+        `${curatedCount} curated; topped up to ${pickList.length} from recent packages. Curate in Studio for control.`,
     );
   }
   const lead = pickList[0];
   const sides = pickList.slice(1, 3);
 
   const pickCard = (pkg: RawPackage, isLead: boolean) => {
-    const themeName = pkg.theme?.name;
+    const axis = pkgAxisLabel(pkg);
     const dur = dayLabel(pkg);
     return (
       <Link key={pkg._id} className={isLead ? 'tour tour--lead' : 'tour'} href={`/${pkg.slug}`}>
@@ -95,7 +116,7 @@ export async function PackageCategoryView({
         />
         <div className="tour-badge">
           {dur && <span className="dur">{dur}</span>}
-          {themeName && <span>· {themeName}</span>}
+          {axis && <span>· {axis}</span>}
         </div>
         <h4 className="tour-name">{pkg.title}</h4>
         {pkg.summary && <p className="tour-desc">{pkg.summary}</p>}
@@ -103,27 +124,23 @@ export async function PackageCategoryView({
     );
   };
 
-  // ── Navigator: the theme landings, each with its REAL published-package
-  // count derived from the package list. Every theme renders; a theme with 0
-  // packages would render without a link (none today — all 10 have packages). ──
-  const countFor = (themeId?: string) =>
-    themeId ? packages.filter((p) => p.theme?._id === themeId).length : 0;
-  const navItems = themeLandings
-    .filter((l) => l.slug && l.themeName)
+  // ── Navigator: the landings, each with its REAL published count derived from
+  // the package list. Every landing renders; one with 0 packages renders
+  // unlinked. ──
+  const navItems = navLandings
+    .filter((l) => l.slug && l.name)
     .map((l) => {
-      const count = countFor(l.themeId);
+      const count = countFor(l.axisId);
       return {
-        id: l.themeId ?? l.slug!,
-        name: l.themeName!,
+        id: l.axisId ?? l.slug!,
+        name: l.name!,
         note: l.note,
-        count,
         countLabel: ts('pkgCatThemeCount', { count }),
         href: count > 0 ? `/${l.slug}` : undefined,
       };
     });
 
-  // ── Index rows — name · duration · theme · arrow, length facet only. NO price
-  // (the 3-level rule: prices live on the single-package page, not the index). ──
+  // ── Index rows — name · duration · axis · arrow, length facet only. NO price. ──
   const rows: CategoryRow[] = packages
     .filter((p) => p.slug)
     .map((p) => ({
@@ -131,8 +148,8 @@ export async function PackageCategoryView({
       name: p.title,
       durKey: packageBucketKey(p.durationDays),
       durLabel: dayLabel(p),
-      cityName: p.theme?.name ?? '',
-      citySlug: p.theme?.slug ?? '',
+      cityName: pkgAxisLabel(p),
+      citySlug: '',
       href: `/${p.slug}`,
     }));
   const lengthOptions = [
@@ -142,11 +159,9 @@ export async function PackageCategoryView({
     { value: '15plus', label: ts('pkgCatLen15plus') },
   ];
 
-  // Byline (sticky "why" aside) — heading + note are REQUIRED content; doc wins,
-  // localized copy is the never-blank fallback.
-  const bylineKicker = archive?.editorByline?.kicker ?? ts('pkgCatWhyKicker');
-  const bylineHeading = archive?.editorByline?.heading ?? ts('pkgCatWhyHeading');
-  const bylineNote = archive?.editorByline?.intro ?? ts('pkgCatWhyNote');
+  const bylineKicker = archive?.editorByline?.kicker ?? k('WhyKicker');
+  const bylineHeading = archive?.editorByline?.heading ?? k('WhyHeading');
+  const bylineNote = archive?.editorByline?.intro ?? k('WhyNote');
 
   return (
     <div className="tour-doc lvl-category">
@@ -155,13 +170,13 @@ export async function PackageCategoryView({
           <ol>
             <li><Link href="/">{tNav('home')}</Link></li>
             <li>{tNav('services')}</li>
-            <li>{archive?.title ?? ts('pkgCatTitle')}</li>
+            <li>{archive?.title ?? k('Title')}</li>
           </ol>
         </nav>
 
         <header className="masthead">
-          <span className="t2e-kicker">{ts('pkgCatMastKicker')}</span>
-          <h1 className="mast-title">{archive?.title ?? ts('pkgCatTitle')}</h1>
+          <span className="t2e-kicker">{k('MastKicker')}</span>
+          <h1 className="mast-title">{archive?.title ?? k('Title')}</h1>
           {archive?.tagline && <p className="mast-tag">{archive.tagline}</p>}
         </header>
       </div>
@@ -184,10 +199,10 @@ export async function PackageCategoryView({
           <div className="t2e-wrap">
             <div className="t2e-section-head">
               <div>
-                <span className="t2e-kicker">{ts('pkgCatNavKicker')}</span>
-                <h2>{ts('pkgCatNavTitle')} <em>{ts('pkgCatNavTitleEm')}</em></h2>
+                <span className="t2e-kicker">{k('NavKicker')}</span>
+                <h2>{k('NavTitle')} <em>{k('NavTitleEm')}</em></h2>
               </div>
-              <p>{ts('pkgCatNavIntro')}</p>
+              <p>{k('NavIntro')}</p>
             </div>
             <div className="city-grid">
               {navItems.map((c) =>
@@ -219,10 +234,10 @@ export async function PackageCategoryView({
           <div className="t2e-wrap">
             <div className="t2e-section-head">
               <div>
-                <span className="t2e-kicker">{ts('pkgCatPicksKicker')}</span>
-                <h2>{ts('pkgCatPicksTitle')} <em>{ts('pkgCatPicksTitleEm')}</em></h2>
+                <span className="t2e-kicker">{k('PicksKicker')}</span>
+                <h2>{k('PicksTitle')} <em>{k('PicksTitleEm')}</em></h2>
               </div>
-              <p>{ts('pkgCatPicksIntro')}</p>
+              <p>{k('PicksIntro')}</p>
             </div>
             <div className="grid-lead">
               {pickCard(lead, true)}
@@ -237,9 +252,9 @@ export async function PackageCategoryView({
           <div className="t2e-section-head">
             <div>
               <span className="t2e-kicker">{tArchive('theIndex')}</span>
-              <h2>{ts('pkgCatIndexTitle')} <em>{ts('pkgCatIndexTitleEm')}</em></h2>
+              <h2>{k('IndexTitle')} <em>{k('IndexTitleEm')}</em></h2>
             </div>
-            <p>{ts('pkgCatIndexIntro')}</p>
+            <p>{k('IndexIntro')}</p>
           </div>
           <CategoryIndex
             rows={rows}
@@ -258,9 +273,9 @@ export async function PackageCategoryView({
       <section className="concierge-cta">
         <div className="t2e-wrap">
           <div className="cta-inner">
-            <span className="t2e-kicker">{ts('pkgCatCtaKicker')}</span>
-            <h2>{ts('pkgCatCtaTitle')} <em>{ts('pkgCatCtaTitleEm')}</em></h2>
-            <p>{ts('pkgCatCtaBody')}</p>
+            <span className="t2e-kicker">{k('CtaKicker')}</span>
+            <h2>{k('CtaTitle')} <em>{k('CtaTitleEm')}</em></h2>
+            <p>{k('CtaBody')}</p>
             <div className="cta-buttons">
               <ConciergeOpenButton className="cta-btn cta-btn--primary">
                 {ts('ctaPrimary')} →
@@ -276,17 +291,17 @@ export async function PackageCategoryView({
       <section className="t2e-footband">
         <div className="t2e-wrap t2e-footband-grid">
           <div>
-            <h4>{ts('pkgCatFootSeasonLabel')}</h4>
+            <h4>{k('FootSeasonLabel')}</h4>
             <div className="t2e-season">
-              <p>{ts('pkgCatFootSeasonBody')}</p>
+              <p>{k('FootSeasonBody')}</p>
             </div>
           </div>
           <div>
             <h4>{ts('beforeYouChoose')}</h4>
             <ul>
-              <li><Link href="/faq">{ts('pkgCatFootPrivateGroup')}<small>{ts('pkgCatFootPrivateGroupSub')}</small></Link></li>
-              <li><Link href="/guide">{ts('pkgCatFootDays')}<small>{ts('pkgCatFootDaysSub')}</small></Link></li>
-              <li><Link href="/nile-cruises">{ts('pkgCatFootCruise')}<small>{ts('pkgCatFootCruiseSub')}</small></Link></li>
+              <li><Link href={isGroup ? '/egypt-travel-packages' : '/faq'}>{k('FootPrivateGroup')}<small>{k('FootPrivateGroupSub')}</small></Link></li>
+              <li><Link href="/guide">{k('FootDays')}<small>{k('FootDaysSub')}</small></Link></li>
+              <li><Link href="/nile-cruises">{k('FootCruise')}<small>{k('FootCruiseSub')}</small></Link></li>
             </ul>
           </div>
         </div>

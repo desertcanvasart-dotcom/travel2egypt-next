@@ -434,6 +434,87 @@ export const tourSchema = defineType({
     tourPriceNoteField,
     tourSingleSupplementField,
 
+    // ── Scheduled departures (group packages only) ────────────────────
+    defineField({
+      name: 'basePrice',
+      title: 'Base price (per person, EUR)',
+      description:
+        'Per-person price for a standard scheduled departure. Leave unset → every date shows "On inquiry" and the peak uplift stays dormant. Number only — never a symbol.',
+      type: 'number',
+      group: 'pricing',
+    }),
+    defineField({
+      name: 'peakUpliftPct',
+      title: 'Peak uplift (%)',
+      description: 'Percent added to the base price on departures flagged as peak (e.g. late December). Default 30.',
+      type: 'number',
+      initialValue: 30,
+      group: 'pricing',
+    }),
+    defineField({
+      name: 'maxGroup',
+      title: 'Max group size',
+      description: 'The cap on a scheduled small-group departure (e.g. 12). Shown in the meta row + rail.',
+      type: 'number',
+      group: 'pricing',
+    }),
+    defineField({
+      name: 'departures',
+      title: 'Scheduled departures',
+      description:
+        'Fixed departure dates for a group package. The end date is derived from the duration; the row price is the base price (×(1+uplift) when peak). Status and places are optional and omit cleanly when unset.',
+      type: 'array',
+      group: 'pricing',
+      of: [
+        {
+          type: 'object',
+          name: 'departure',
+          fields: [
+            defineField({
+              name: 'startDate',
+              title: 'Start date',
+              type: 'date',
+              options: { dateFormat: 'YYYY-MM-DD' },
+              validation: (Rule) => Rule.required(),
+            }),
+            defineField({
+              name: 'isPeak',
+              title: 'Peak date',
+              description: 'Applies the peak uplift to this departure (dormant until a base price is set).',
+              type: 'boolean',
+              initialValue: false,
+            }),
+            defineField({
+              name: 'status',
+              title: 'Status (optional)',
+              type: 'string',
+              options: {
+                list: [
+                  { title: 'Guaranteed', value: 'guaranteed' },
+                  { title: 'Few places', value: 'few' },
+                  { title: 'Available', value: 'available' },
+                  { title: 'Sold out', value: 'soldout' },
+                  { title: 'On request', value: 'onrequest' },
+                ],
+                layout: 'radio',
+              },
+            }),
+            defineField({
+              name: 'placesLeft',
+              title: 'Places left (optional)',
+              type: 'number',
+            }),
+          ],
+          preview: {
+            select: { date: 'startDate', status: 'status', peak: 'isPeak' },
+            prepare({ date, status, peak }) {
+              return { title: date || 'Departure', subtitle: [status, peak ? 'peak' : null].filter(Boolean).join(' · ') };
+            },
+          },
+        },
+      ],
+    }),
+
     // ── Related ────────────────────────────
     defineField({
       name: 'relatedTours',
