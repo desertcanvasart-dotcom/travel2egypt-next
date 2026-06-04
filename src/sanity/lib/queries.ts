@@ -20,6 +20,18 @@ import {
   articleBodyMarkProjection,
 } from './i18n';
 
+/**
+ * Slug-guard for related "further reading" modules. Filters a reference array
+ * to only those targets that have a slug in the ACTIVE locale, so the module
+ * degrades gracefully per locale instead of emitting dead cross-locale links
+ * (a target lacking an es/ja slug simply drops out under /es and /ja).
+ *
+ * Centralized here — apply to every related-* array that feeds a RENDERED
+ * module. Usage:  `relatedTours[${relatedLocaleGuard(locale)}]->{ … }`
+ */
+export const relatedLocaleGuard = (locale: Locale) =>
+  `defined(@->slug[_key=="${locale}"][0].value.current)`;
+
 // ──────────────────────────────────────────────
 // City guide
 // ──────────────────────────────────────────────
@@ -273,7 +285,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       "caption": ${localizedField('caption', locale)},
       credit
     },
-    "relatedTours": relatedTours[]->{
+    "relatedTours": relatedTours[${relatedLocaleGuard(locale)}]->{
       ${tourCardProjection(locale)}
     },
     "relatedGuides": relatedGuides[]->{
@@ -605,7 +617,7 @@ export const hotelBySlugQuery = (locale: Locale) => groq`
       ...,
       "alt": ${localizedField('alt', locale)}
     },
-    "relatedTours": relatedTours[]->{
+    "relatedTours": relatedTours[${relatedLocaleGuard(locale)}]->{
       ${tourCardProjection(locale)}
     },
     seo{
@@ -808,7 +820,7 @@ export const cruiseBySlugQuery = (locale: Locale) => groq`
       ...,
       "alt": ${localizedField('alt', locale)}
     },
-    "relatedTours": relatedTours[]->{
+    "relatedTours": relatedTours[${relatedLocaleGuard(locale)}]->{
       ${tourCardProjection(locale)}
     },
     seo{
