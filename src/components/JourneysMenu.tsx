@@ -58,7 +58,7 @@ export function JourneysMenu() {
         aria-haspopup="menu"
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className="flex items-center gap-1.5 text-sm text-night-soft transition-colors hover:text-faience"
+        className="flex items-center gap-1.5 text-night-soft transition-colors hover:text-faience"
       >
         <span>{t('journeys')}</span>
         <svg

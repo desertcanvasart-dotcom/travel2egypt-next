@@ -82,7 +82,7 @@
 .t2e-nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 22px 0; }
 .t2e-logo { font-family: var(--display); font-size: 24px; font-weight: 500; color: var(--navy); text-decoration: none; display: flex; align-items: baseline; gap: 1px; }
 .t2e-logo .s { font-size: 15px; color: var(--gold); }
-.t2e-nav-links { display: flex; gap: 36px; list-style: none; }
+.t2e-nav-links { display: flex; align-items: center; gap: 36px; list-style: none; }
 .t2e-nav-links { margin: 0; padding: 0; }
 .t2e-nav-links a,
 .t2e-nav-links button { text-decoration: none; font-family: var(--ui); font-size: 14px; color: var(--navy); background: transparent; border: 0; padding: 0; cursor: pointer; }
