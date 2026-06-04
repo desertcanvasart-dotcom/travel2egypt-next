@@ -76,10 +76,107 @@ export const siteSettingsSchema = defineType({
       ...localizedPortableTextField('guideIntro', {
         title: 'Guide page intro',
         description:
-          'Editorial intro shown above the region/city grid on the /guide landing page. Per-locale; falls back to English where a locale is empty.',
+          'LEGACY. The old long-form intro essay. Decomposed into the fields below for the archive redesign; kept for reference / other surfaces.',
         group: 'guide',
       }),
     } as any),
+    // ── Guide archive redesign (decomposed from guideIntro) ──
+    // Localized; es/ja fall back to EN per the localization track.
+    defineField({
+      name: 'guideLead',
+      title: 'Guide · masthead lead',
+      description: 'The tight 2–3 paragraph lead under the masthead. Separate paragraphs with a blank line; the first renders as the italic opener. Localized; es/ja fall back to EN.',
+      type: 'internationalizedArrayText',
+      group: 'guide',
+    }),
+    defineField({
+      name: 'guideFirstTrip',
+      title: 'Guide · "first trip" pointer (legacy / v1)',
+      description: 'LEGACY. Superseded by guideWays (the three-ways block).',
+      type: 'text',
+      rows: 2,
+      group: 'guide',
+    }),
+    defineField({
+      name: 'guideWays',
+      title: 'Guide · three ways in',
+      description: 'The three entry styles. First entry’s body auto-links the essential cities (Cairo, Giza, Luxor, Aswan).',
+      type: 'array',
+      group: 'guide',
+      of: [
+        {
+          type: 'object',
+          name: 'guideWay',
+          fields: [
+            defineField({ name: 'title', title: 'Title', type: 'internationalizedArrayString' }),
+            defineField({ name: 'body', title: 'Body', type: 'internationalizedArrayText' }),
+          ],
+          preview: {
+            select: { title: 'title' },
+            prepare({ title }) {
+              const en = Array.isArray(title) ? title.find((t: any) => t._key === 'en')?.value : title;
+              return { title: en || 'Way' };
+            },
+          },
+        },
+      ],
+    }),
+    defineField({
+      name: 'guideRegions',
+      title: 'Guide · regions',
+      description: 'One per region, in display order. Cities attach via their guideRegion key. The lead card is the region\'s top-ranked city.',
+      type: 'array',
+      group: 'guide',
+      of: [
+        {
+          type: 'object',
+          name: 'guideRegion',
+          fields: [
+            defineField({ name: 'key', title: 'Region key', type: 'string', description: 'Matches city.guideRegion (e.g. cairo-giza).' }),
+            defineField({ name: 'name', title: 'Region name', type: 'internationalizedArrayString' }),
+            defineField({ name: 'lede', title: 'Region lede', type: 'internationalizedArrayText' }),
+          ],
+          preview: {
+            select: { title: 'name', subtitle: 'key' },
+            prepare({ title, subtitle }) {
+              const en = Array.isArray(title) ? title.find((t: any) => t._key === 'en')?.value : title;
+              return { title: en || subtitle, subtitle };
+            },
+          },
+        },
+      ],
+    }),
+    defineField({
+      name: 'guideManifesto',
+      title: 'Guide · manifesto points',
+      description: 'The distilled "won\'t do" points (~4).',
+      type: 'array',
+      group: 'guide',
+      of: [
+        {
+          type: 'object',
+          name: 'manifestoPoint',
+          fields: [
+            defineField({ name: 'bold', title: 'Lead clause (bold)', type: 'internationalizedArrayString' }),
+            defineField({ name: 'text', title: 'Rest', type: 'internationalizedArrayText' }),
+          ],
+          preview: {
+            select: { title: 'bold' },
+            prepare({ title }) {
+              const en = Array.isArray(title) ? title.find((t: any) => t._key === 'en')?.value : title;
+              return { title: en || 'Manifesto point' };
+            },
+          },
+        },
+      ],
+    }),
+    defineField({
+      name: 'guideSignoff',
+      title: 'Guide · sign-off',
+      description: 'The "Final Word" paragraphs. Separate paragraphs with a blank line; the last renders italic/gold. Localized; es/ja fall back to EN.',
+      type: 'internationalizedArrayText',
+      group: 'guide',
+    }),
     defineField({
       name: 'siteName',
       title: 'Site name',

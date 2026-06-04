@@ -56,7 +56,7 @@
     "sisterBrandsLabel": "Travel2Egyptの他ブランド",
     "trustLabel": "認定・レビュー",
     "tagline": "2003年創業のエジプト現地オペレーター。JATA・IATA・ASTA・ETAA認定。",
-    "rights": "© {year} Travel2Egypt. All rights reserved.",
+    "rights": "© {year} Travel2Egypt. 無断転載を禁じます。",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "cookies": "クッキーポリシー",
@@ -69,7 +69,7 @@
     "nameInHieroglyphs": "あなたの名前をヒエログリフで",
     "responsibleTravel": "責任ある旅行",
     "faqLabel": "FAQ",
-    "cookiePreferences": "Cookie preferences"
+    "cookiePreferences": "Cookie設定"
   },
   "guide": {
     "landingTitle": "エジプト旅行ガイド",
@@ -84,7 +84,19 @@
       "bestSeason": "ベストシーズン",
       "gettingThere": "アクセス",
       "daysNeeded": "推奨滞在日数"
-    }
+    },
+    "firstTrip": "初めての旅？",
+    "manifestoKicker": "このガイドの考え方",
+    "manifestoTitle": "このガイドがしないこと。",
+    "factBestFor": "おすすめ",
+    "factTime": "目安の日数",
+    "factHonest": "正直なひとこと",
+    "waysKicker": "どこから始めるか",
+    "waysTitle": "エジプトへの三つの入り方。",
+    "tierEssential": "必須",
+    "tierExceptional": "別格",
+    "tierWorth": "価値あり",
+    "tierSkip": "見送り可"
   },
   "regions": {
     "lower-egypt": "下エジプト",

@@ -1636,6 +1636,45 @@ export const guideIntroQuery = (locale: Locale) => groq`
   }
 `;
 
+/**
+ * The /guide archive redesign. Settings carry the decomposed essay (EN, plain);
+ * cities carry guideRegion/Tier/Order/Dek + localized name/slug/hero. Cities
+ * without a guideRegion (Siwa, undeterminable) are excluded.
+ */
+export const guideArchiveQuery = (locale: Locale) => groq`
+  {
+    "settings": *[_type == "siteSettings"][0]{
+      "guideLead": ${localizedField('guideLead', locale)},
+      "guideWays": guideWays[]{
+        "title": ${localizedField('title', locale)},
+        "body": ${localizedField('body', locale)}
+      },
+      "guideRegions": guideRegions[]{
+        key,
+        "name": ${localizedField('name', locale)},
+        "lede": ${localizedField('lede', locale)}
+      },
+      "guideManifesto": guideManifesto[]{
+        "bold": ${localizedField('bold', locale)},
+        "text": ${localizedField('text', locale)}
+      },
+      "guideSignoff": ${localizedField('guideSignoff', locale)}
+    },
+    "cities": *[_type == "city" && defined(guideRegion)]{
+      _id, guideRegion, guideTier, guideOrder,
+      "guideTierLabel": ${localizedField('guideTierLabel', locale)},
+      "guideDek": ${localizedField('guideDek', locale)},
+      "guideBestFor": ${localizedField('guideBestFor', locale)},
+      "guideTime": ${localizedField('guideTime', locale)},
+      "guideHonestNote": ${localizedField('guideHonestNote', locale)},
+      "name": ${localizedField('name', locale)},
+      "nameEn": name[_key=="en"][0].value,
+      "slug": ${localizedSlug('slug', locale)},
+      heroImage
+    }
+  }
+`;
+
 // ──────────────────────────────────────────────
 // Slug discovery (for static generation)
 // ──────────────────────────────────────────────
