@@ -886,7 +886,7 @@
     "pkgGroupSubHeroKicker": "Paquetes en grupo reducido",
     "pkgGroupSubBreadcrumb": "Paquetes en grupo",
     "pkgGroupSubTrackLabel": "Salida en grupo",
-    "pkgGroupRegionLabel": "{region, select, japan-east-asia {Japón y Asia Oriental} uk-europe {Reino Unido y Europa} usa-canada {EE. UU. y Canadá} other {Egipto}}",
+    "pkgGroupRegionLabel": "{region, select, japan_east_asia {Japón y Asia Oriental} uk_europe {Reino Unido y Europa} usa_canada {EE. UU. y Canadá} other {Egipto}}",
     "pkgGrpKicker": "Grupo reducido · salidas programadas",
     "pkgGrpGroupLabel": "Grupo",
     "pkgGrpMaxGroup": "Máx. {n}",

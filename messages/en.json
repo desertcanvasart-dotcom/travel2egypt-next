@@ -886,7 +886,7 @@
     "pkgGroupSubHeroKicker": "Small Group Travel Packages",
     "pkgGroupSubBreadcrumb": "Small Group Packages",
     "pkgGroupSubTrackLabel": "Group departure",
-    "pkgGroupRegionLabel": "{region, select, japan-east-asia {Japan & East Asia} uk-europe {UK & Europe} usa-canada {USA & Canada} other {Egypt}}",
+    "pkgGroupRegionLabel": "{region, select, japan_east_asia {Japan & East Asia} uk_europe {UK & Europe} usa_canada {USA & Canada} other {Egypt}}",
     "pkgGrpKicker": "Small group · scheduled departures",
     "pkgGrpGroupLabel": "Group",
     "pkgGrpMaxGroup": "Max {n}",
