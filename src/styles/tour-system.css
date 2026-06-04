@@ -692,7 +692,7 @@ html[lang='ja'] .tour-doc :is(.t2e-kicker, .t2e-eyebrow, .meta, .label, .tr-dur,
 
 /* TRAVELLER-TYPE — where to begin */
 .lvl-home .triage { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
-.lvl-home .tcard { background: var(--paper); padding: 30px 28px; text-decoration: none; color: inherit; transition: background .2s; display: flex; flex-direction: column; }
+.lvl-home .tcard { background: var(--paper); padding: 30px 28px; text-decoration: none; color: inherit; transition: background .2s; display: flex; flex-direction: column; scroll-margin-top: 96px; }
 .lvl-home .tcard:hover { background: var(--paper-deep); }
 .lvl-home .tcard h3 { font-family: var(--display); font-weight: 400; font-size: 25px; line-height: 1.04; color: var(--navy); margin-bottom: 9px; }
 .lvl-home .tcard p { font-size: 15px; line-height: 1.5; color: var(--navy-mute); margin-bottom: 16px; flex: 1; }

@@ -35,6 +35,21 @@ function tourHref(type?: string, slug?: string): string | null {
 const ROMAN = ['i.', 'ii.', 'iii.', 'iv.'];
 const WHATSAPP = 'https://wa.me/201158011600';
 
+/**
+ * Stable, locale-independent anchor ids for the six "Where to begin" cards, in
+ * grid order (top-left → bottom-right). The header "Journeys" dropdown links to
+ * these (/#<id>). Index-based (not slugified from the localized title) so the
+ * ids stay identical across en/es/ja. Order must match the seeded card order.
+ */
+const TRAVELLER_ANCHORS = [
+  'first-time-in-egypt',
+  'the-cultural-traveller',
+  'travelling-as-a-family',
+  'desert-and-quiet',
+  'travelling-in-style',
+  'coming-back',
+] as const;
+
 export async function HomeView({
   data,
   locale,
@@ -104,13 +119,13 @@ export async function HomeView({
             <div className="triage">
               {traveller.map((c, i) =>
                 c.href ? (
-                  <Link className="tcard" href={c.href} key={i}>
+                  <Link className="tcard" id={TRAVELLER_ANCHORS[i]} href={c.href} key={i}>
                     <h3>{c.title}</h3>
                     <p>{c.dek}</p>
                     <span className="go">{t('startHere')}</span>
                   </Link>
                 ) : (
-                  <div className="tcard" key={i}>
+                  <div className="tcard" id={TRAVELLER_ANCHORS[i]} key={i}>
                     <h3>{c.title}</h3>
                     <p>{c.dek}</p>
                   </div>
