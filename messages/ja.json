@@ -886,7 +886,7 @@
     "pkgGroupSubHeroKicker": "少人数グループ旅行パッケージ",
     "pkgGroupSubBreadcrumb": "グループパッケージ",
     "pkgGroupSubTrackLabel": "グループ出発",
-    "pkgGroupRegionLabel": "{region, select, japan-east-asia {日本・東アジア} uk-europe {英国・ヨーロッパ} usa-canada {米国・カナダ} other {エジプト}}",
+    "pkgGroupRegionLabel": "{region, select, japan_east_asia {日本・東アジア} uk_europe {英国・ヨーロッパ} usa_canada {米国・カナダ} other {エジプト}}",
     "pkgGrpKicker": "少人数グループ · 定期出発",
     "pkgGrpGroupLabel": "グループ",
     "pkgGrpMaxGroup": "最大{n}名",

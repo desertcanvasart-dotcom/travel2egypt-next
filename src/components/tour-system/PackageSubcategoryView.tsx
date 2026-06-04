@@ -83,7 +83,9 @@ export async function PackageSubcategoryView({
   const hub = isGroup ? '/small-group-travel-packages' : '/egypt-travel-packages';
   // Axis label: region for group (short, from originRegion), theme for private.
   const axisName = isGroup
-    ? ts('pkgGroupRegionLabel', { region: doc.originRegion ?? '' })
+    ? // ICU `select` keys must be identifiers (no hyphens), so map the region
+      // value (japan-east-asia → japan_east_asia) before the lookup.
+      ts('pkgGroupRegionLabel', { region: (doc.originRegion ?? '').replace(/-/g, '_') })
     : doc.themeRef?.name ?? doc.title;
   const heroKicker = isGroup ? ts('pkgGroupSubHeroKicker') : ts('pkgSubHeroKicker');
   const breadcrumb = isGroup ? ts('pkgGroupSubBreadcrumb') : ts('pkgSubBreadcrumb');
