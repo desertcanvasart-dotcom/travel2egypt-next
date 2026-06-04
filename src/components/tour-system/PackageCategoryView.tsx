@@ -225,6 +225,23 @@ export async function PackageCategoryView({
                   </div>
                 ),
               )}
+              {/* Fill a ragged final row (the 3-col grid leaves the empty cells
+                  showing the grey rule background) with a concierge prompt that
+                  spans exactly the gap. A perfectly-full grid renders nothing. */}
+              {(() => {
+                const fillerSpan = (3 - (navItems.length % 3)) % 3;
+                return fillerSpan > 0 ? (
+                  <ConciergeOpenButton
+                    className="city city--cta"
+                    style={{ gridColumn: `span ${fillerSpan}` }}
+                  >
+                    <span>
+                      <span className="c-name">{ts('navConciergeTitle')}</span>
+                      <span className="c-cta-action">{ts('ctaPrimary')} →</span>
+                    </span>
+                  </ConciergeOpenButton>
+                ) : null;
+              })()}
             </div>
           </div>
         </section>

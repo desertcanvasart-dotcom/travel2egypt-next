@@ -208,6 +208,12 @@
 .lvl-category .city .c-name { font-family: var(--display); font-size: 25px; font-weight: 400; color: var(--navy); }
 .lvl-category .city .c-note { font-family: var(--read); font-size: 13px; color: var(--navy-mute); margin-top: 4px; line-height: 1.4; }
 .lvl-category .city .c-count { font-family: var(--ui); font-size: 12px; color: var(--gold-dark); letter-spacing: .06em; white-space: nowrap; }
+/* Concierge filler — occupies a ragged final row's empty cells so the grid
+   never shows a bare grey block. A button styled to sit in the grid; the warm
+   tone + gold action line read it as a prompt, not a destination. */
+.lvl-category .city--cta { background: var(--paper-warm); border: 0; cursor: pointer; text-align: left; font: inherit; align-items: center; }
+.lvl-category .city--cta:hover { background: var(--paper-deep); }
+.lvl-category .city--cta .c-cta-action { display: block; margin-top: 8px; font-family: var(--ui); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--gold-dark); }
 
 .lvl-category .picks { padding: 84px 0; border-bottom: 1px solid var(--rule); }
 .lvl-category .grid-lead { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 36px; }
