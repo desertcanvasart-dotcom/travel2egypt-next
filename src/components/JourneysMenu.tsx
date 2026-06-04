@@ -88,7 +88,7 @@ export function JourneysMenu() {
                   href={hashHref(hash)}
                   role="menuitem"
                   onClick={() => setOpen(false)}
-                  className="block px-4 py-2.5 font-serif text-[15px] leading-relaxed text-night-soft transition-colors hover:bg-limestone hover:text-night"
+                  className="block whitespace-nowrap text-night-soft transition-colors hover:bg-limestone hover:text-night"
                 >
                   {t(key)}
                 </a>

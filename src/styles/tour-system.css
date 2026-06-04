@@ -88,11 +88,21 @@
 .t2e-nav-links button { text-decoration: none; font-family: var(--ui); font-size: 14px; color: var(--navy); background: transparent; border: 0; padding: 0; cursor: pointer; }
 .t2e-nav-links a.active, .t2e-nav-links a:hover,
 .t2e-nav-links button:hover { color: var(--gold-dark); }
-/* Journeys dropdown items: editorial serif (matching the homepage cards),
-   slightly smaller with generous leading. More specific than the nav-link
-   rule above so it wins; per-locale serif so JA uses Noto Serif JP. */
-.t2e-nav-links [role='menu'] a { font-family: var(--display); font-size: 16px; line-height: 1.5; }
-html[lang='ja'] .t2e-nav-links [role='menu'] a { font-family: var(--font-jp-serif); }
+
+/* ---- Header dropdown panels (Journeys menu + locale switcher) ----
+   The .t2e-nav-* link rules reset padding to 0 and force --ui on their
+   inline triggers; by specificity that also strips the Tailwind spacing
+   from the dropdown items, clipping text against the card edges. Restore
+   generous, on-brand spacing here (higher specificity wins). Items keep the
+   header sans (--ui) so the dropdowns read as part of the header. */
+.t2e-nav-links [role='menu'],
+.t2e-nav-right [role='listbox'] { padding-top: 8px; padding-bottom: 8px; }
+.t2e-nav-links [role='menu'] a {
+  font-family: var(--ui); font-size: 14px; line-height: 1.6; padding: 9px 24px;
+}
+.t2e-nav-right [role='listbox'] button {
+  font-family: var(--ui); font-size: 13px; line-height: 1.6; padding: 9px 22px; gap: 40px;
+}
 .t2e-nav-right { display: flex; align-items: center; gap: 26px; font-family: var(--ui); font-size: 13px; }
 .t2e-nav-right button { font-family: var(--ui); font-size: 13px; color: var(--navy); background: transparent; border: 0; padding: 0; cursor: pointer; display: flex; align-items: center; gap: 6px; }
 .t2e-nav-right button:hover { color: var(--gold-dark); }
