@@ -1636,6 +1636,29 @@ export const guideIntroQuery = (locale: Locale) => groq`
   }
 `;
 
+/**
+ * The /guide archive redesign. Settings carry the decomposed essay (EN, plain);
+ * cities carry guideRegion/Tier/Order/Dek + localized name/slug/hero. Cities
+ * without a guideRegion (Siwa, undeterminable) are excluded.
+ */
+export const guideArchiveQuery = (locale: Locale) => groq`
+  {
+    "settings": *[_type == "siteSettings"][0]{
+      guideLead, guideFirstTrip,
+      "guideRegions": guideRegions[]{ key, name, lede },
+      "guideManifesto": guideManifesto[]{ bold, text },
+      guideSignoff
+    },
+    "cities": *[_type == "city" && defined(guideRegion)]{
+      _id, guideRegion, guideTier, guideTierLabel, guideOrder, guideDek,
+      "name": ${localizedField('name', locale)},
+      "nameEn": name[_key=="en"][0].value,
+      "slug": ${localizedSlug('slug', locale)},
+      heroImage
+    }
+  }
+`;
+
 // ──────────────────────────────────────────────
 // Slug discovery (for static generation)
 // ──────────────────────────────────────────────

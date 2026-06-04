@@ -76,10 +76,73 @@ export const siteSettingsSchema = defineType({
       ...localizedPortableTextField('guideIntro', {
         title: 'Guide page intro',
         description:
-          'Editorial intro shown above the region/city grid on the /guide landing page. Per-locale; falls back to English where a locale is empty.',
+          'LEGACY. The old long-form intro essay. Decomposed into the fields below for the archive redesign; kept for reference / other surfaces.',
         group: 'guide',
       }),
     } as any),
+    // ── Guide archive redesign (decomposed from guideIntro) ──
+    // EN-only for now; es/ja fall back to EN per the localization track.
+    defineField({
+      name: 'guideLead',
+      title: 'Guide · masthead lead',
+      description: 'The tight 2–3 paragraph lead under the masthead. First paragraph renders as the italic opener.',
+      type: 'array',
+      of: [{ type: 'text', rows: 3 }],
+      group: 'guide',
+    }),
+    defineField({
+      name: 'guideFirstTrip',
+      title: 'Guide · "first trip" pointer',
+      description: 'One line pointing first-timers at the essential three (Cairo, Luxor, Aswan auto-link).',
+      type: 'text',
+      rows: 2,
+      group: 'guide',
+    }),
+    defineField({
+      name: 'guideRegions',
+      title: 'Guide · regions',
+      description: 'One per region, in display order. Cities attach via their guideRegion key. The lead card is the region\'s top-ranked city.',
+      type: 'array',
+      group: 'guide',
+      of: [
+        {
+          type: 'object',
+          name: 'guideRegion',
+          fields: [
+            defineField({ name: 'key', title: 'Region key', type: 'string', description: 'Matches city.guideRegion (e.g. cairo-giza).' }),
+            defineField({ name: 'name', title: 'Region name', type: 'string' }),
+            defineField({ name: 'lede', title: 'Region lede', type: 'text', rows: 3 }),
+          ],
+          preview: { select: { title: 'name', subtitle: 'key' } },
+        },
+      ],
+    }),
+    defineField({
+      name: 'guideManifesto',
+      title: 'Guide · manifesto points',
+      description: 'The distilled "won\'t do" points (~4).',
+      type: 'array',
+      group: 'guide',
+      of: [
+        {
+          type: 'object',
+          name: 'manifestoPoint',
+          fields: [
+            defineField({ name: 'bold', title: 'Lead clause (bold)', type: 'string' }),
+            defineField({ name: 'text', title: 'Rest', type: 'text', rows: 2 }),
+          ],
+          preview: { select: { title: 'bold' } },
+        },
+      ],
+    }),
+    defineField({
+      name: 'guideSignoff',
+      title: 'Guide · sign-off',
+      description: 'The "Final Word" paragraphs. Last one renders italic/gold.',
+      type: 'array',
+      of: [{ type: 'text', rows: 2 }],
+      group: 'guide',
+    }),
     defineField({
       name: 'siteName',
       title: 'Site name',
