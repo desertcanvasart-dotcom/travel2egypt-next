@@ -30,12 +30,12 @@ interface GuideRegionDef {
 }
 
 export interface GuideArchiveSettings {
-  guideLead?: string[];
+  guideLead?: string;
   guideFirstTrip?: string;
   guideWays?: Array<{ title?: string; body?: string }>;
   guideRegions?: GuideRegionDef[];
   guideManifesto?: Array<{ bold?: string; text?: string }>;
-  guideSignoff?: string[];
+  guideSignoff?: string;
 }
 
 const TIER_CLASS: Record<string, string> = {
@@ -44,17 +44,13 @@ const TIER_CLASS: Record<string, string> = {
   worth: 't-worth',
   skip: 't-skip',
 };
-const TIER_DEFAULT: Record<string, string> = {
-  essential: 'Essential',
-  exceptional: 'Exceptional',
-  worth: 'Worth it',
-  skip: 'Skip unless',
-};
 const TIER_RANK: Record<string, number> = { essential: 0, exceptional: 1, worth: 2, skip: 3 };
 
 const tierClass = (t?: string) => `tier ${TIER_CLASS[t ?? ''] ?? 't-none'}`;
-const tierLabel = (c: GuideCity) => c.guideTierLabel || TIER_DEFAULT[c.guideTier ?? ''] || '';
 const rank = (c: GuideCity) => TIER_RANK[c.guideTier ?? ''] ?? 4;
+
+/** Split a localized multi-paragraph block on blank lines. */
+const paras = (s?: string) => (s ?? '').split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean);
 
 /** Render text with the named cities linked (the "first trip" pointer). Uses a
  * plain locale-aware anchor (not the client Link) so it renders in SSR. */
@@ -87,10 +83,19 @@ export async function GuideArchiveView({
   const t = await getTranslations('guide');
   const tNav = await getTranslations('nav');
 
-  const lead = settings?.guideLead ?? [];
+  // Default tier labels (a city's guideTierLabel overrides these).
+  const tierDefaults: Record<string, string> = {
+    essential: t('tierEssential'),
+    exceptional: t('tierExceptional'),
+    worth: t('tierWorth'),
+    skip: t('tierSkip'),
+  };
+  const tierLabel = (c: GuideCity) => c.guideTierLabel || tierDefaults[c.guideTier ?? ''] || '';
+
+  const lead = paras(settings?.guideLead);
   const regions = settings?.guideRegions ?? [];
   const manifesto = (settings?.guideManifesto ?? []).filter((m) => m.bold || m.text);
-  const signoff = settings?.guideSignoff ?? [];
+  const signoff = paras(settings?.guideSignoff);
 
   // Group cities by region; sort each by tier rank then guideOrder.
   const byRegion = new Map<string, GuideCity[]>();
@@ -103,11 +108,12 @@ export async function GuideArchiveView({
     list.sort((a, b) => rank(a) - rank(b) || (a.guideOrder ?? 100) - (b.guideOrder ?? 100));
   }
 
-  // First-trip pointer links — the essential cities (Cairo, Luxor, Aswan order).
-  // Match on the EN name — guideFirstTrip is EN even on es/ja (the fallback).
+  // First-trip pointer links — the essential cities. Match on the LOCALIZED
+  // name, since the ways[0] body is localized too (the names in the prose are
+  // the localized forms — e.g. "El Cairo" / "カイロ").
   const firstTripLinks = new Map<string, string>();
   for (const city of cities) {
-    if (city.guideTier === 'essential') firstTripLinks.set(city.nameEn ?? city.name, city.slug);
+    if (city.guideTier === 'essential') firstTripLinks.set(city.name, city.slug);
   }
 
   const facts = (city: GuideCity) => {

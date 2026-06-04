@@ -81,13 +81,12 @@ export const siteSettingsSchema = defineType({
       }),
     } as any),
     // ── Guide archive redesign (decomposed from guideIntro) ──
-    // EN-only for now; es/ja fall back to EN per the localization track.
+    // Localized; es/ja fall back to EN per the localization track.
     defineField({
       name: 'guideLead',
       title: 'Guide · masthead lead',
-      description: 'The tight 2–3 paragraph lead under the masthead. First paragraph renders as the italic opener.',
-      type: 'array',
-      of: [{ type: 'text', rows: 3 }],
+      description: 'The tight 2–3 paragraph lead under the masthead. Separate paragraphs with a blank line; the first renders as the italic opener. Localized; es/ja fall back to EN.',
+      type: 'internationalizedArrayText',
       group: 'guide',
     }),
     defineField({
@@ -109,10 +108,16 @@ export const siteSettingsSchema = defineType({
           type: 'object',
           name: 'guideWay',
           fields: [
-            defineField({ name: 'title', title: 'Title', type: 'string' }),
-            defineField({ name: 'body', title: 'Body', type: 'text', rows: 4 }),
+            defineField({ name: 'title', title: 'Title', type: 'internationalizedArrayString' }),
+            defineField({ name: 'body', title: 'Body', type: 'internationalizedArrayText' }),
           ],
-          preview: { select: { title: 'title' } },
+          preview: {
+            select: { title: 'title' },
+            prepare({ title }) {
+              const en = Array.isArray(title) ? title.find((t: any) => t._key === 'en')?.value : title;
+              return { title: en || 'Way' };
+            },
+          },
         },
       ],
     }),
@@ -128,10 +133,16 @@ export const siteSettingsSchema = defineType({
           name: 'guideRegion',
           fields: [
             defineField({ name: 'key', title: 'Region key', type: 'string', description: 'Matches city.guideRegion (e.g. cairo-giza).' }),
-            defineField({ name: 'name', title: 'Region name', type: 'string' }),
-            defineField({ name: 'lede', title: 'Region lede', type: 'text', rows: 3 }),
+            defineField({ name: 'name', title: 'Region name', type: 'internationalizedArrayString' }),
+            defineField({ name: 'lede', title: 'Region lede', type: 'internationalizedArrayText' }),
           ],
-          preview: { select: { title: 'name', subtitle: 'key' } },
+          preview: {
+            select: { title: 'name', subtitle: 'key' },
+            prepare({ title, subtitle }) {
+              const en = Array.isArray(title) ? title.find((t: any) => t._key === 'en')?.value : title;
+              return { title: en || subtitle, subtitle };
+            },
+          },
         },
       ],
     }),
@@ -146,19 +157,24 @@ export const siteSettingsSchema = defineType({
           type: 'object',
           name: 'manifestoPoint',
           fields: [
-            defineField({ name: 'bold', title: 'Lead clause (bold)', type: 'string' }),
-            defineField({ name: 'text', title: 'Rest', type: 'text', rows: 2 }),
+            defineField({ name: 'bold', title: 'Lead clause (bold)', type: 'internationalizedArrayString' }),
+            defineField({ name: 'text', title: 'Rest', type: 'internationalizedArrayText' }),
           ],
-          preview: { select: { title: 'bold' } },
+          preview: {
+            select: { title: 'bold' },
+            prepare({ title }) {
+              const en = Array.isArray(title) ? title.find((t: any) => t._key === 'en')?.value : title;
+              return { title: en || 'Manifesto point' };
+            },
+          },
         },
       ],
     }),
     defineField({
       name: 'guideSignoff',
       title: 'Guide · sign-off',
-      description: 'The "Final Word" paragraphs. Last one renders italic/gold.',
-      type: 'array',
-      of: [{ type: 'text', rows: 2 }],
+      description: 'The "Final Word" paragraphs. Separate paragraphs with a blank line; the last renders italic/gold. Localized; es/ja fall back to EN.',
+      type: 'internationalizedArrayText',
       group: 'guide',
     }),
     defineField({

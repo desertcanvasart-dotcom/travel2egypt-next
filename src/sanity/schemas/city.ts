@@ -134,8 +134,8 @@ export const citySchema = defineType({
     defineField({
       name: 'guideTierLabel',
       title: 'Guide tier label (override)',
-      description: 'Optional display text for the tag (e.g. "For divers", "On the cruise", "Deep cut"). Defaults to the tier name.',
-      type: 'string',
+      description: 'Optional display text for the tag (e.g. "For divers", "On the cruise", "Deep cut"). Defaults to the tier name. Localized; es/ja fall back to EN.',
+      type: 'internationalizedArrayString',
       group: 'guide',
     }),
     defineField({
@@ -149,32 +149,30 @@ export const citySchema = defineType({
     defineField({
       name: 'guideDek',
       title: 'Guide dek (operator voice)',
-      description: 'One honest line — what the city is FOR. Shown on the archive card instead of the SEO summary. EN for now.',
-      type: 'text',
-      rows: 2,
+      description: 'One honest line — what the city is FOR. Shown on the archive card instead of the SEO summary. Localized; es/ja fall back to EN.',
+      type: 'internationalizedArrayText',
       group: 'guide',
     }),
     // ── Guide archive per-city facts block (Best for / Time / Honest note) ──
     defineField({
       name: 'guideBestFor',
       title: 'Guide · Best for',
-      description: 'What the city rewards — the sites/experiences worth coming for. EN for now.',
-      type: 'string',
+      description: 'What the city rewards — the sites/experiences worth coming for. Localized; es/ja fall back to EN.',
+      type: 'internationalizedArrayString',
       group: 'guide',
     }),
     defineField({
       name: 'guideTime',
       title: 'Guide · Time',
-      description: 'Honest time to allow (e.g. "two nights", "half day", "a waypoint"). EN for now.',
-      type: 'string',
+      description: 'Honest time to allow (e.g. "two nights", "half day", "a waypoint"). Localized; es/ja fall back to EN.',
+      type: 'internationalizedArrayString',
       group: 'guide',
     }),
     defineField({
       name: 'guideHonestNote',
       title: 'Guide · Honest note',
-      description: 'The operator’s candid one-liner — set in italic on the card. EN for now.',
-      type: 'text',
-      rows: 2,
+      description: 'The operator’s candid one-liner — set in italic on the card. Localized; es/ja fall back to EN.',
+      type: 'internationalizedArrayText',
       group: 'guide',
     }),
     defineField({

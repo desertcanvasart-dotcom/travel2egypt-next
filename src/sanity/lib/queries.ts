@@ -1644,15 +1644,29 @@ export const guideIntroQuery = (locale: Locale) => groq`
 export const guideArchiveQuery = (locale: Locale) => groq`
   {
     "settings": *[_type == "siteSettings"][0]{
-      guideLead, guideFirstTrip,
-      "guideWays": guideWays[]{ title, body },
-      "guideRegions": guideRegions[]{ key, name, lede },
-      "guideManifesto": guideManifesto[]{ bold, text },
-      guideSignoff
+      "guideLead": ${localizedField('guideLead', locale)},
+      "guideWays": guideWays[]{
+        "title": ${localizedField('title', locale)},
+        "body": ${localizedField('body', locale)}
+      },
+      "guideRegions": guideRegions[]{
+        key,
+        "name": ${localizedField('name', locale)},
+        "lede": ${localizedField('lede', locale)}
+      },
+      "guideManifesto": guideManifesto[]{
+        "bold": ${localizedField('bold', locale)},
+        "text": ${localizedField('text', locale)}
+      },
+      "guideSignoff": ${localizedField('guideSignoff', locale)}
     },
     "cities": *[_type == "city" && defined(guideRegion)]{
-      _id, guideRegion, guideTier, guideTierLabel, guideOrder, guideDek,
-      guideBestFor, guideTime, guideHonestNote,
+      _id, guideRegion, guideTier, guideOrder,
+      "guideTierLabel": ${localizedField('guideTierLabel', locale)},
+      "guideDek": ${localizedField('guideDek', locale)},
+      "guideBestFor": ${localizedField('guideBestFor', locale)},
+      "guideTime": ${localizedField('guideTime', locale)},
+      "guideHonestNote": ${localizedField('guideHonestNote', locale)},
       "name": ${localizedField('name', locale)},
       "nameEn": name[_key=="en"][0].value,
       "slug": ${localizedSlug('slug', locale)},
