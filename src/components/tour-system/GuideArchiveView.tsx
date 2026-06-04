@@ -14,6 +14,9 @@ export interface GuideCity {
   guideTierLabel?: string;
   guideOrder?: number;
   guideDek?: string;
+  guideBestFor?: string;
+  guideTime?: string;
+  guideHonestNote?: string;
   name: string;
   nameEn?: string;
   slug: string;
@@ -29,6 +32,7 @@ interface GuideRegionDef {
 export interface GuideArchiveSettings {
   guideLead?: string[];
   guideFirstTrip?: string;
+  guideWays?: Array<{ title?: string; body?: string }>;
   guideRegions?: GuideRegionDef[];
   guideManifesto?: Array<{ bold?: string; text?: string }>;
   guideSignoff?: string[];
@@ -106,6 +110,23 @@ export async function GuideArchiveView({
     if (city.guideTier === 'essential') firstTripLinks.set(city.nameEn ?? city.name, city.slug);
   }
 
+  const facts = (city: GuideCity) => {
+    if (!city.guideBestFor && !city.guideTime && !city.guideHonestNote) return null;
+    return (
+      <div className="facts">
+        {city.guideBestFor && (
+          <div className="f"><span className="f-k">{t('factBestFor')}</span>{city.guideBestFor}</div>
+        )}
+        {city.guideTime && (
+          <div className="f"><span className="f-k">{t('factTime')}</span>{city.guideTime}</div>
+        )}
+        {city.guideHonestNote && (
+          <div className="honest"><span className="f-k">{t('factHonest')}</span>{city.guideHonestNote}</div>
+        )}
+      </div>
+    );
+  };
+
   const card = (city: GuideCity, lead: boolean) => {
     const label = tierLabel(city);
     if (lead) {
@@ -115,7 +136,8 @@ export async function GuideArchiveView({
           <div className="gl-body">
             {label && <span className={tierClass(city.guideTier)}>{label}</span>}
             <h3>{city.name}</h3>
-            {city.guideDek && <p>{city.guideDek}</p>}
+            {city.guideDek && <p className="dek">{city.guideDek}</p>}
+            {facts(city)}
           </div>
         </Link>
       );
@@ -125,7 +147,8 @@ export async function GuideArchiveView({
         <JourneyImage image={city.heroImage} alt={city.name} className="" sizes="(max-width:620px) 100vw, (max-width:980px) 50vw, 360px" widthHint={720} ratio={4 / 3} />
         {label && <span className={tierClass(city.guideTier)}>{label}</span>}
         <h4>{city.name}</h4>
-        {city.guideDek && <p>{city.guideDek}</p>}
+        {city.guideDek && <p className="dek">{city.guideDek}</p>}
+        {facts(city)}
       </Link>
     );
   };
@@ -152,11 +175,24 @@ export async function GuideArchiveView({
           )}
         </header>
 
-        {settings?.guideFirstTrip && (
-          <div className="start">
-            <span className="s-k">{t('firstTrip')}</span>
-            <p>{linkCities(settings.guideFirstTrip, firstTripLinks, locale)}</p>
-          </div>
+        {(settings?.guideWays ?? []).length > 0 && (
+          <section className="ways">
+            <div className="ways-head">
+              <span className="t2e-kicker">{t('waysKicker')}</span>
+              <h2>{t('waysTitle')}</h2>
+            </div>
+            <div className="ways-grid">
+              {settings!.guideWays!.map((way, i) => (
+                <article className="way" key={i}>
+                  <div className="num">{String(i + 1).padStart(2, '0')}</div>
+                  {way.title && <h3>{way.title}</h3>}
+                  {way.body && (
+                    <p>{i === 0 ? linkCities(way.body, firstTripLinks, locale) : way.body}</p>
+                  )}
+                </article>
+              ))}
+            </div>
+          </section>
         )}
       </div>
 

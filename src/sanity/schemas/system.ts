@@ -92,11 +92,29 @@ export const siteSettingsSchema = defineType({
     }),
     defineField({
       name: 'guideFirstTrip',
-      title: 'Guide · "first trip" pointer',
-      description: 'One line pointing first-timers at the essential three (Cairo, Luxor, Aswan auto-link).',
+      title: 'Guide · "first trip" pointer (legacy / v1)',
+      description: 'LEGACY. Superseded by guideWays (the three-ways block).',
       type: 'text',
       rows: 2,
       group: 'guide',
+    }),
+    defineField({
+      name: 'guideWays',
+      title: 'Guide · three ways in',
+      description: 'The three entry styles. First entry’s body auto-links the essential cities (Cairo, Giza, Luxor, Aswan).',
+      type: 'array',
+      group: 'guide',
+      of: [
+        {
+          type: 'object',
+          name: 'guideWay',
+          fields: [
+            defineField({ name: 'title', title: 'Title', type: 'string' }),
+            defineField({ name: 'body', title: 'Body', type: 'text', rows: 4 }),
+          ],
+          preview: { select: { title: 'title' } },
+        },
+      ],
     }),
     defineField({
       name: 'guideRegions',

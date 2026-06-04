@@ -154,6 +154,29 @@ export const citySchema = defineType({
       rows: 2,
       group: 'guide',
     }),
+    // ── Guide archive per-city facts block (Best for / Time / Honest note) ──
+    defineField({
+      name: 'guideBestFor',
+      title: 'Guide · Best for',
+      description: 'What the city rewards — the sites/experiences worth coming for. EN for now.',
+      type: 'string',
+      group: 'guide',
+    }),
+    defineField({
+      name: 'guideTime',
+      title: 'Guide · Time',
+      description: 'Honest time to allow (e.g. "two nights", "half day", "a waypoint"). EN for now.',
+      type: 'string',
+      group: 'guide',
+    }),
+    defineField({
+      name: 'guideHonestNote',
+      title: 'Guide · Honest note',
+      description: 'The operator’s candid one-liner — set in italic on the card. EN for now.',
+      type: 'text',
+      rows: 2,
+      group: 'guide',
+    }),
     defineField({
       name: 'orderRank',
       title: 'Display order',

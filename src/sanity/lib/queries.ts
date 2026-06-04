@@ -1645,12 +1645,14 @@ export const guideArchiveQuery = (locale: Locale) => groq`
   {
     "settings": *[_type == "siteSettings"][0]{
       guideLead, guideFirstTrip,
+      "guideWays": guideWays[]{ title, body },
       "guideRegions": guideRegions[]{ key, name, lede },
       "guideManifesto": guideManifesto[]{ bold, text },
       guideSignoff
     },
     "cities": *[_type == "city" && defined(guideRegion)]{
       _id, guideRegion, guideTier, guideTierLabel, guideOrder, guideDek,
+      guideBestFor, guideTime, guideHonestNote,
       "name": ${localizedField('name', locale)},
       "nameEn": name[_key=="en"][0].value,
       "slug": ${localizedSlug('slug', locale)},
