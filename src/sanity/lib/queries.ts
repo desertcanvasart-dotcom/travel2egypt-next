@@ -1676,6 +1676,37 @@ export const guideArchiveQuery = (locale: Locale) => groq`
 `;
 
 // ──────────────────────────────────────────────
+// Homepage singleton (v2) — curated traveller / guide / starting-point blocks.
+// Hero headline + the "differently" statement live in i18n (kept verbatim);
+// this fetches only the data-driven content. New text fields coalesce to EN.
+// ──────────────────────────────────────────────
+
+export const homePageQuery = (locale: Locale) => groq`
+  *[_type == "homePage"][0]{
+    heroImage,
+    "heroCaption": ${localizedField('heroCaption', locale)},
+    "travellerCards": travellerCards[]{
+      "title": ${localizedField('title', locale)},
+      "dek": ${localizedField('dek', locale)},
+      href
+    },
+    "guideCards": guideCards[]{
+      "title": ${localizedField('title', locale)},
+      "dek": ${localizedField('dek', locale)},
+      href
+    },
+    "startingPoints": startingPoints[]{
+      "meta": ${localizedField('meta', locale)},
+      "title": ${localizedField('title', locale)},
+      "dek": ${localizedField('dek', locale)},
+      "tourType": tour->type,
+      "tourSlug": coalesce(tour->slug[_key=="${locale}"][0].value.current, tour->slug[_key=="en"][0].value.current),
+      "image": tour->heroImage
+    }
+  }
+`;
+
+// ──────────────────────────────────────────────
 // Slug discovery (for static generation)
 // ──────────────────────────────────────────────
 
