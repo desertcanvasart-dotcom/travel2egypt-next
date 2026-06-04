@@ -1,9 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { useTranslations } from 'next-intl';
-
-import { Link } from '@/i18n/navigation';
+import { useLocale, useTranslations } from 'next-intl';
 
 // The six "Where should your Egypt start?" reader-types. Each links to the
 // matching card anchor on the homepage (kebab-case ids on .lvl-home .tcard).
@@ -21,8 +19,16 @@ const JOURNEY_LINKS = [
 
 export function JourneysMenu() {
   const t = useTranslations('nav');
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
   const wrapRef = useRef<HTMLDivElement | null>(null);
+
+  // Locale-aware homepage hash. Native <a> (not the client Link) so the browser
+  // handles the anchor natively: on the homepage it scrolls without a reload;
+  // from any other page it navigates to the locale home and scrolls to the
+  // card. (App Router's client Link does not reliably scroll to hash targets.)
+  const hashHref = (hash: string) =>
+    locale === 'en' ? `/#${hash}` : `/${locale}#${hash}`;
 
   useEffect(() => {
     if (!open) return;
@@ -78,14 +84,14 @@ export function JourneysMenu() {
           >
             {JOURNEY_LINKS.map(({ key, hash }) => (
               <li key={key} role="none">
-                <Link
-                  href={`/#${hash}`}
+                <a
+                  href={hashHref(hash)}
                   role="menuitem"
                   onClick={() => setOpen(false)}
                   className="block px-4 py-2.5 font-serif text-[15px] leading-relaxed text-night-soft transition-colors hover:bg-limestone hover:text-night"
                 >
                   {t(key)}
-                </Link>
+                </a>
               </li>
             ))}
           </ul>

@@ -88,6 +88,11 @@
 .t2e-nav-links button { text-decoration: none; font-family: var(--ui); font-size: 14px; color: var(--navy); background: transparent; border: 0; padding: 0; cursor: pointer; }
 .t2e-nav-links a.active, .t2e-nav-links a:hover,
 .t2e-nav-links button:hover { color: var(--gold-dark); }
+/* Journeys dropdown items: editorial serif (matching the homepage cards),
+   slightly smaller with generous leading. More specific than the nav-link
+   rule above so it wins; per-locale serif so JA uses Noto Serif JP. */
+.t2e-nav-links [role='menu'] a { font-family: var(--display); font-size: 16px; line-height: 1.5; }
+html[lang='ja'] .t2e-nav-links [role='menu'] a { font-family: var(--font-jp-serif); }
 .t2e-nav-right { display: flex; align-items: center; gap: 26px; font-family: var(--ui); font-size: 13px; }
 .t2e-nav-right button { font-family: var(--ui); font-size: 13px; color: var(--navy); background: transparent; border: 0; padding: 0; cursor: pointer; display: flex; align-items: center; gap: 6px; }
 .t2e-nav-right button:hover { color: var(--gold-dark); }
