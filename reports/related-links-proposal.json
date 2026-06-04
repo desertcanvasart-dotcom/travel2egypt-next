@@ -5,15 +5,23 @@
   "droppedCityIds": [
     "wp-page-58530",
     "wp-page-58731",
+    "wp-page-58769",
     "wp-page-58932",
     "wp-page-58952"
   ],
+  "renderEligibility": {
+    "tour_relatedTours": "RENDERS (SingleTourView L277-284 + PackageView L421-428) → ELIGIBLE",
+    "hotel_relatedTours": "RENDERS (hotels/[slug]/page.tsx L191-197) → ELIGIBLE",
+    "guideArticle_relatedTours": "PROJECTS-ONLY, NOT RENDERED (CityGuideSidebar has no relatedTours prop) → SKIP",
+    "article_relatedArticles": "NON-RENDERING (dynamic weave) → SKIP",
+    "nileCruise_relatedTours": "DEFERRED (homogeneous output, route-blind rule) → DEFER"
+  },
   "types": {
     "guideArticle_relatedTours": {
       "source": 724,
       "wouldFill": 416,
       "wouldRemainEmpty": 308,
-      "capHitCount": 260,
+      "capHitCount": 246,
       "emptiesSample": [
         "The Ancient City of Pelusium",
         "Lake Bardawil",
@@ -1389,195 +1397,115 @@
         {
           "docId": "guideArticle.bahariya-oasis.al-qasr-village",
           "title": "Al Qasr Village",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "guideArticle.bahariya-oasis.bawiti",
           "title": "Bawiti",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "guideArticle.bahariya-oasis.crystal-mountain",
           "title": "Crystal Mountain",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "guideArticle.bahariya-oasis.el-hayz",
           "title": "El-Hayz",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "guideArticle.bahariya-oasis.valley-of-the-golden-mummies",
           "title": "Valley of the Golden Mummies",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
@@ -4421,7 +4349,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -4436,7 +4364,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -6595,36 +6523,12 @@
         {
           "docId": "guideArticle.siwa-oasis.cleopatra-s-pool",
           "title": "Cleopatra's Pool",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6634,36 +6538,12 @@
         {
           "docId": "guideArticle.siwa-oasis.dakrour-mountain",
           "title": "Dakrour Mountain",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6673,36 +6553,12 @@
         {
           "docId": "guideArticle.siwa-oasis.fatnas-island",
           "title": "Fatnas Island",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6712,36 +6568,12 @@
         {
           "docId": "guideArticle.siwa-oasis.food-in-siwa-oasis",
           "title": "Food in Siwa Oasis",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6751,36 +6583,12 @@
         {
           "docId": "guideArticle.siwa-oasis.getting-around-in-siwa-oasis",
           "title": "Getting Around Siwa Oasis",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6790,36 +6598,12 @@
         {
           "docId": "guideArticle.siwa-oasis.how-to-go-in-siwa-oasis",
           "title": "How to Get to Siwa Oasis",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6829,36 +6613,12 @@
         {
           "docId": "guideArticle.siwa-oasis.mountain-of-the-dead",
           "title": "Mountain of the Dead",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6868,36 +6628,12 @@
         {
           "docId": "guideArticle.siwa-oasis.only-in-siwa-oasis",
           "title": "Only Here: Traditional Healing in Siwa",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6907,36 +6643,12 @@
         {
           "docId": "guideArticle.siwa-oasis.salt-lakes",
           "title": "The Salt Lakes of Siwa",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6946,36 +6658,12 @@
         {
           "docId": "guideArticle.siwa-oasis.shali-fortress",
           "title": "Shali Fortress",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -6985,36 +6673,12 @@
         {
           "docId": "guideArticle.siwa-oasis.siwa-house-museum",
           "title": "The Siwa House Museum",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -7024,36 +6688,12 @@
         {
           "docId": "guideArticle.siwa-oasis.siwa-oasis-historical-overview",
           "title": "Siwa Oasis History",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -7063,36 +6703,12 @@
         {
           "docId": "guideArticle.siwa-oasis.temple-of-the-oracle",
           "title": "Temple of the Oracle",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -7102,36 +6718,12 @@
         {
           "docId": "guideArticle.siwa-oasis.the-great-sand-sea",
           "title": "The Great Sand Sea",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -7141,36 +6733,12 @@
         {
           "docId": "guideArticle.siwa-oasis.top-hotels-in-siwa-oasis",
           "title": "Where to Stay in Siwa Oasis",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -7180,36 +6748,12 @@
         {
           "docId": "guideArticle.siwa-oasis.tours-in-siwa-oasis",
           "title": "Siwa Tours and Excursions",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -7219,36 +6763,12 @@
         {
           "docId": "guideArticle.siwa-oasis.upcoming-events-in-siwa-oasis",
           "title": "Events in Siwa",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -7258,36 +6778,12 @@
         {
           "docId": "guideArticle.siwa-oasis.weather-in-siwa-oasis",
           "title": "Siwa Weather and Best Time to Visit",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -7297,36 +6793,12 @@
         {
           "docId": "wp-page-112945",
           "title": "Unleashing the Thrill: Top Adventure Activities in Siwa Oasis",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -8268,39 +7740,23 @@
         {
           "docId": "wp-page-58727",
           "title": "Bahariya Oasis Weather and Best Time to Visit",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
@@ -9395,273 +8851,161 @@
         {
           "docId": "wp-page-59283",
           "title": "Tours in Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "wp-page-59284",
           "title": "Food in Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "wp-page-59285",
           "title": "Getting Around Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "wp-page-59286",
           "title": "History of Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "wp-page-59287",
           "title": "How to Get to Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "wp-page-59288",
           "title": "Only in Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "wp-page-59290",
           "title": "Where to Stay in Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         },
@@ -10201,7 +9545,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -10216,7 +9560,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -10231,7 +9575,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -10246,7 +9590,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -10261,7 +9605,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -10276,7 +9620,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -10291,7 +9635,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -10306,7 +9650,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -10321,7 +9665,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -10336,7 +9680,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -11803,36 +11147,12 @@
         {
           "docId": "wp-page-60506",
           "title": "Siwa Weather Guide",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -11842,36 +11162,12 @@
         {
           "docId": "wp-page-60508",
           "title": "Siwa Hotel Guide",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -11881,36 +11177,12 @@
         {
           "docId": "wp-page-60509",
           "title": "Getting Around Siwa",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -11920,36 +11192,12 @@
         {
           "docId": "wp-page-60510",
           "title": "Things to Do in Siwa Oasis",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -11959,36 +11207,12 @@
         {
           "docId": "wp-page-60511",
           "title": "Events In Siwa",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -11998,36 +11222,12 @@
         {
           "docId": "wp-page-60512",
           "title": "Siwa Dining Experiences",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -12037,36 +11237,12 @@
         {
           "docId": "wp-page-60513",
           "title": "Siwa Only Here",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
               "slug": "3-day-siwa-journey-from-alexandria",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -14124,39 +13300,23 @@
         {
           "docId": "wp-page-96707",
           "title": "Things to Do in Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
+            },
+            {
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": true
             }
           ]
         }
@@ -14213,7 +13373,7 @@
           "docId": "tour.10-day-egypt-group-tour-cairo-nile-red-sea",
           "title": "10-Day Egypt Group Tour: Cairo, the Nile & the Red Sea",
           "type": "package",
-          "candidateCount": 20,
+          "candidateCount": 19,
           "refs": [
             {
               "targetId": "wp-page-88992",
@@ -14245,7 +13405,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -14253,7 +13413,7 @@
           "docId": "tour.11-day-egypt-group-tour-cairo-red-sea-nile",
           "title": "11-Day Egypt Group Tour: Cairo, the Red Sea & the Nile",
           "type": "package",
-          "candidateCount": 47,
+          "candidateCount": 46,
           "refs": [
             {
               "targetId": "wp-page-89343",
@@ -14293,7 +13453,7 @@
           "docId": "tour.2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
           "title": "Two Days from Luxor to Abu Simbel — With a Night in Between",
           "type": "package",
-          "candidateCount": 20,
+          "candidateCount": 19,
           "refs": [
             {
               "targetId": "wp-page-156421",
@@ -14333,7 +13493,7 @@
           "docId": "tour.2-day-nubian-desert-nature-wildlife-retreat",
           "title": "Two Days in the Nubian Desert: A Quiet Retreat near Lake Nasser",
           "type": "package",
-          "candidateCount": 14,
+          "candidateCount": 13,
           "refs": [
             {
               "targetId": "tour.4-days-white-desert-wadi-al-hittan-exploration",
@@ -14352,17 +13512,17 @@
               "droppedDest": false
             },
             {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
+              "targetId": "wp-page-87974",
+              "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
+              "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
             },
             {
-              "targetId": "wp-page-87974",
-              "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
-              "slug": "8-day-cairo-and-egypt-desert-safari",
+              "targetId": "wp-page-89435",
+              "title": "Egyptian Flyway: A Nine-Day Private Birdwatching Journey from Cairo to the Cataracts",
+              "slug": "9-day-egypt-bird-watching-adventure",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": false
@@ -14373,7 +13533,7 @@
           "docId": "tour.4-days-white-desert-wadi-al-hittan-exploration",
           "title": "4-Day White Desert & Wadi Al Hittan Tour: Fayoum to Bahariya",
           "type": "package",
-          "candidateCount": 14,
+          "candidateCount": 13,
           "refs": [
             {
               "targetId": "tour.the-white-desert-and-djara-cave",
@@ -14384,25 +13544,25 @@
               "droppedDest": false
             },
             {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89435",
               "title": "Egyptian Flyway: A Nine-Day Private Birdwatching Journey from Cairo to the Cataracts",
               "slug": "9-day-egypt-bird-watching-adventure",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": false
+            },
+            {
+              "targetId": "wp-page-89436",
+              "title": "Fairways and Pharaohs: An Eight-Day Private Egypt Golf Tour",
+              "slug": "8-day-egypt-golf-tour",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": false
@@ -14613,7 +13773,7 @@
           "docId": "tour.8-days-best-of-egypt-tour-package",
           "title": "8-Day Egypt Highlights: Cairo, Abu Simbel, the Nile and Luxor",
           "type": "package",
-          "candidateCount": 9,
+          "candidateCount": 8,
           "refs": [
             {
               "targetId": "wp-page-89558",
@@ -14622,14 +13782,6 @@
               "missingEs": false,
               "missingJa": false,
               "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
             },
             {
               "targetId": "wp-page-158052",
@@ -14643,6 +13795,14 @@
               "targetId": "wp-page-160072",
               "title": "Sharm s Delight: 8-Day Egypt Holiday Package from India",
               "slug": "8-day-egypt-holiday-package",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": false
+            },
+            {
+              "targetId": "wp-page-160630",
+              "title": "10-Day Romantic Egypt Deals From Spain",
+              "slug": "10-day-romantic-egypt-deals-from-spain",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": false
@@ -15421,7 +14581,7 @@
           "docId": "tour.desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
           "title": "Two Days from Cairo into the Western Desert: Bahariya, Black and White",
           "type": "package",
-          "candidateCount": 14,
+          "candidateCount": 13,
           "refs": [
             {
               "targetId": "tour.4-days-white-desert-wadi-al-hittan-exploration",
@@ -15440,17 +14600,17 @@
               "droppedDest": false
             },
             {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
+              "targetId": "wp-page-87974",
+              "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
+              "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
             },
             {
-              "targetId": "wp-page-87974",
-              "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
-              "slug": "8-day-cairo-and-egypt-desert-safari",
+              "targetId": "wp-page-89435",
+              "title": "Egyptian Flyway: A Nine-Day Private Birdwatching Journey from Cairo to the Cataracts",
+              "slug": "9-day-egypt-bird-watching-adventure",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": false
@@ -16421,16 +15581,8 @@
           "docId": "tour.mount-sinai-pilgrimage-2-day-trip-to-saint-catherine-from-cairo",
           "title": "Two Days from Cairo to Mount Sinai and Saint Catherine's",
           "type": "package",
-          "candidateCount": 4,
+          "candidateCount": 3,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-89411",
               "title": "4-Day Cairo and White Desert Tour: Giza, Bahariya and the White Desert",
@@ -17341,7 +16493,7 @@
           "docId": "tour.the-white-desert-and-djara-cave",
           "title": "5-Day White Desert & Djara Cave Tour: Bahariya, the Golden Mummies and the Western Desert",
           "type": "package",
-          "candidateCount": 14,
+          "candidateCount": 13,
           "refs": [
             {
               "targetId": "tour.4-days-white-desert-wadi-al-hittan-exploration",
@@ -17352,25 +16504,25 @@
               "droppedDest": false
             },
             {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89435",
               "title": "Egyptian Flyway: A Nine-Day Private Birdwatching Journey from Cairo to the Cataracts",
               "slug": "9-day-egypt-bird-watching-adventure",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": false
+            },
+            {
+              "targetId": "wp-page-89436",
+              "title": "Fairways and Pharaohs: An Eight-Day Private Egypt Golf Tour",
+              "slug": "8-day-egypt-golf-tour",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": false
@@ -17613,7 +16765,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -17653,7 +16805,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -17661,7 +16813,7 @@
           "docId": "wp-page-113061",
           "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
           "type": "package",
-          "candidateCount": 7,
+          "candidateCount": 5,
           "refs": [
             {
               "targetId": "wp-page-113521",
@@ -17781,16 +16933,8 @@
           "docId": "wp-page-113521",
           "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
           "type": "package",
-          "candidateCount": 27,
+          "candidateCount": 23,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-237730",
               "title": "Four Days for Families: Cairo and Alexandria, Slowed Down",
@@ -17811,6 +16955,14 @@
               "targetId": "wp-page-238461",
               "title": "3 Days – Cairo Highlights for Friends",
               "slug": "3-days-cairo-highlights-for-friends",
+              "missingEs": true,
+              "missingJa": true,
+              "droppedDest": false
+            },
+            {
+              "targetId": "wp-page-238357",
+              "title": "5 Days – Cairo Luxor Romance Edition",
+              "slug": "5-days-cairo-luxor-romance-edition",
               "missingEs": true,
               "missingJa": true,
               "droppedDest": false
@@ -18133,7 +17285,7 @@
           "docId": "wp-page-129996",
           "title": "Three Days on Lake Nasser: A Nubian Fishing Safari",
           "type": "package",
-          "candidateCount": 49,
+          "candidateCount": 48,
           "refs": [
             {
               "targetId": "wp-page-102370",
@@ -18173,7 +17325,7 @@
           "docId": "wp-page-130027",
           "title": "2-Day Nubian Desert Nature & Wildlife Retreat",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-238461",
@@ -18213,7 +17365,7 @@
           "docId": "wp-page-130067",
           "title": "Four Days on Lake Nasser: Fishing, Desert, and the Rescued Temples",
           "type": "package",
-          "candidateCount": 102,
+          "candidateCount": 101,
           "refs": [
             {
               "targetId": "wp-page-131889",
@@ -18253,7 +17405,7 @@
           "docId": "wp-page-131889",
           "title": "5-Day Obeiyed Cave Safari: Bahariya, the White Desert, and Beyond",
           "type": "package",
-          "candidateCount": 102,
+          "candidateCount": 101,
           "refs": [
             {
               "targetId": "wp-page-130067",
@@ -18421,7 +17573,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89895",
@@ -18453,7 +17605,7 @@
           "docId": "wp-page-136566",
           "title": "Seven Days in Egypt: Cairo, Alexandria, Aswan, Luxor",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-156421",
@@ -18477,7 +17629,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89895",
@@ -18493,7 +17645,7 @@
           "docId": "wp-page-145910",
           "title": "Cairo to Alexandria: 2-Day Pyramids & Mediterranean Tour",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-130027",
@@ -18669,23 +17821,15 @@
           "docId": "wp-page-155539",
           "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
           "type": "package",
-          "candidateCount": 19,
+          "candidateCount": 16,
           "refs": [
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "tour.4-days-white-desert-wadi-al-hittan-exploration",
@@ -18702,6 +17846,14 @@
               "missingEs": false,
               "missingJa": false,
               "droppedDest": false
+            },
+            {
+              "targetId": "wp-page-89435",
+              "title": "Egyptian Flyway: A Nine-Day Private Birdwatching Journey from Cairo to the Cataracts",
+              "slug": "9-day-egypt-bird-watching-adventure",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": false
             }
           ]
         },
@@ -18709,7 +17861,7 @@
           "docId": "wp-page-155692",
           "title": "Desert Trails: A Western Desert Expedition",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-130027",
@@ -18789,7 +17941,7 @@
           "docId": "wp-page-156421",
           "title": "A 9-Day Egypt Tour of Culture and History",
           "type": "package",
-          "candidateCount": 149,
+          "candidateCount": 148,
           "refs": [
             {
               "targetId": "wp-page-89895",
@@ -18829,7 +17981,7 @@
           "docId": "wp-page-156539",
           "title": "10-Day Egypt Travel Journey Through History",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-87255",
@@ -18845,7 +17997,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89343",
@@ -18869,7 +18021,7 @@
           "docId": "wp-page-156550",
           "title": "11-Day Egypt Tour of History, Adventure & Relaxation",
           "type": "package",
-          "candidateCount": 168,
+          "candidateCount": 167,
           "refs": [
             {
               "targetId": "wp-page-89343",
@@ -18901,7 +18053,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -18909,7 +18061,7 @@
           "docId": "wp-page-158052",
           "title": "Egypt Tours from the UK",
           "type": "package",
-          "candidateCount": 97,
+          "candidateCount": 96,
           "refs": [
             {
               "targetId": "wp-page-89558",
@@ -18941,7 +18093,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -18989,7 +18141,7 @@
           "docId": "wp-page-160072",
           "title": "Sharm s Delight: 8-Day Egypt Holiday Package from India",
           "type": "package",
-          "candidateCount": 97,
+          "candidateCount": 96,
           "refs": [
             {
               "targetId": "wp-page-89558",
@@ -19021,7 +18173,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -19029,7 +18181,7 @@
           "docId": "wp-page-160096",
           "title": "18-Day Grand Egypt Holiday Package from India",
           "type": "package",
-          "candidateCount": 97,
+          "candidateCount": 96,
           "refs": [
             {
               "targetId": "wp-page-90347",
@@ -19069,23 +18221,15 @@
           "docId": "wp-page-160129",
           "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
           "type": "package",
-          "candidateCount": 15,
+          "candidateCount": 12,
           "refs": [
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "tour.8-days-best-of-egypt-tour-package",
@@ -19100,6 +18244,14 @@
               "title": "8-Day Essential Egypt Tour: Cairo, Alexandria, Aswan and Luxor",
               "slug": "essential-egypt",
               "missingEs": false,
+              "missingJa": false,
+              "droppedDest": false
+            },
+            {
+              "targetId": "wp-page-158052",
+              "title": "Egypt Tours from the UK",
+              "slug": "egypt-tours",
+              "missingEs": true,
               "missingJa": false,
               "droppedDest": false
             }
@@ -19133,7 +18285,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89895",
@@ -19181,7 +18333,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -19229,7 +18381,7 @@
           "docId": "wp-page-160630",
           "title": "10-Day Romantic Egypt Deals From Spain",
           "type": "package",
-          "candidateCount": 97,
+          "candidateCount": 96,
           "refs": [
             {
               "targetId": "wp-page-89524",
@@ -19341,7 +18493,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -19349,7 +18501,7 @@
           "docId": "wp-page-238357",
           "title": "5 Days – Cairo Luxor Romance Edition",
           "type": "package",
-          "candidateCount": 128,
+          "candidateCount": 127,
           "refs": [
             {
               "targetId": "wp-page-86790",
@@ -19389,7 +18541,7 @@
           "docId": "wp-page-238371",
           "title": "Nile Love Journey — Luxor Aswan",
           "type": "package",
-          "candidateCount": 77,
+          "candidateCount": 76,
           "refs": [
             {
               "targetId": "wp-page-102370",
@@ -19429,7 +18581,7 @@
           "docId": "wp-page-238461",
           "title": "3 Days – Cairo Highlights for Friends",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-130027",
@@ -19469,7 +18621,7 @@
           "docId": "wp-page-238546",
           "title": "Cairo in 3 Days — Insider Edition (Solo Traveller)",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-130027",
@@ -19701,7 +18853,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -19813,7 +18965,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89895",
@@ -19861,7 +19013,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -19949,7 +19101,7 @@
           "docId": "wp-page-87255",
           "title": "10-Day Egypt Tour: Cairo, Alexandria, Luxor, Aswan and the Nile",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-156539",
@@ -19965,7 +19117,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89343",
@@ -20637,7 +19789,7 @@
           "docId": "wp-page-87832",
           "title": "Mount Sinai Pilgrimage: 2-Day Trip to Saint Catherine from Cairo",
           "type": "package",
-          "candidateCount": 98,
+          "candidateCount": 97,
           "refs": [
             {
               "targetId": "wp-page-89411",
@@ -20677,7 +19829,7 @@
           "docId": "wp-page-87834",
           "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
           "type": "package",
-          "candidateCount": 23,
+          "candidateCount": 21,
           "refs": [
             {
               "targetId": "wp-page-130027",
@@ -20837,16 +19989,8 @@
           "docId": "wp-page-87974",
           "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
           "type": "package",
-          "candidateCount": 104,
+          "candidateCount": 101,
           "refs": [
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-89435",
               "title": "Egyptian Flyway: A Nine-Day Private Birdwatching Journey from Cairo to the Cataracts",
@@ -20867,6 +20011,14 @@
               "targetId": "wp-page-89510",
               "title": "Pharaohs and White Desert: A Six-Day Private Journey from Cairo into the Sahara",
               "slug": "the-great-pharaohs-and-white-desert",
+              "missingEs": false,
+              "missingJa": false,
+              "droppedDest": false
+            },
+            {
+              "targetId": "wp-page-136519",
+              "title": "7-Day Egypt Tour: Cairo, the Nile Cruise, Luxor and Aswan",
+              "slug": "epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": false
@@ -21957,7 +21109,7 @@
           "docId": "wp-page-88992",
           "title": "10-Day Abu Simbel & Ancient Egypt Tour: Cairo, the Nile and Luxor",
           "type": "package",
-          "candidateCount": 25,
+          "candidateCount": 24,
           "refs": [
             {
               "targetId": "tour.10-day-egypt-group-tour-cairo-nile-red-sea",
@@ -21989,7 +21141,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -21997,7 +21149,7 @@
           "docId": "wp-page-88994",
           "title": "13-Day Oases and the Nile: Cairo, the Western Desert, and Luxor",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-87255",
@@ -22021,7 +21173,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89343",
@@ -22037,7 +21189,7 @@
           "docId": "wp-page-89005",
           "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
           "type": "package",
-          "candidateCount": 130,
+          "candidateCount": 127,
           "refs": [
             {
               "targetId": "wp-page-89343",
@@ -22077,7 +21229,7 @@
           "docId": "wp-page-89015",
           "title": "Love on the Nile: A 10-Day Romantic Egypt Tour",
           "type": "package",
-          "candidateCount": 97,
+          "candidateCount": 96,
           "refs": [
             {
               "targetId": "wp-page-160630",
@@ -22141,7 +21293,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89343",
@@ -22189,7 +21341,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -22197,7 +21349,7 @@
           "docId": "wp-page-89343",
           "title": "10-Day Splendid Minya Tour: Cairo, El Minya, Aswan, Luxor and Back",
           "type": "package",
-          "candidateCount": 149,
+          "candidateCount": 148,
           "refs": [
             {
               "targetId": "wp-page-90450",
@@ -22229,7 +21381,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -22277,7 +21429,7 @@
           "docId": "wp-page-89353",
           "title": "18-Day Grand Tour of Egypt: Cairo, the Nile, the Red Sea and Sinai",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-90347",
@@ -22349,7 +21501,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -22357,7 +21509,7 @@
           "docId": "wp-page-89411",
           "title": "4-Day Cairo and White Desert Tour: Giza, Bahariya and the White Desert",
           "type": "package",
-          "candidateCount": 97,
+          "candidateCount": 96,
           "refs": [
             {
               "targetId": "wp-page-87832",
@@ -22397,7 +21549,7 @@
           "docId": "wp-page-89435",
           "title": "Egyptian Flyway: A Nine-Day Private Birdwatching Journey from Cairo to the Cataracts",
           "type": "package",
-          "candidateCount": 102,
+          "candidateCount": 101,
           "refs": [
             {
               "targetId": "wp-page-87974",
@@ -22405,7 +21557,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89436",
@@ -22437,7 +21589,7 @@
           "docId": "wp-page-89436",
           "title": "Fairways and Pharaohs: An Eight-Day Private Egypt Golf Tour",
           "type": "package",
-          "candidateCount": 102,
+          "candidateCount": 101,
           "refs": [
             {
               "targetId": "wp-page-87974",
@@ -22445,7 +21597,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89435",
@@ -22477,7 +21629,7 @@
           "docId": "wp-page-89438",
           "title": "Nile Sails: A Ten-Day Private Felucca Journey from Aswan Toward Luxor",
           "type": "package",
-          "candidateCount": 102,
+          "candidateCount": 101,
           "refs": [
             {
               "targetId": "wp-page-86857",
@@ -22509,7 +21661,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -22517,7 +21669,7 @@
           "docId": "wp-page-89452",
           "title": "The Holy Family Trail: Fifteen Days Through Coptic Egypt and the Ancient Nile",
           "type": "package",
-          "candidateCount": 102,
+          "candidateCount": 101,
           "refs": [
             {
               "targetId": "wp-page-90347",
@@ -22557,7 +21709,7 @@
           "docId": "wp-page-89510",
           "title": "Pharaohs and White Desert: A Six-Day Private Journey from Cairo into the Sahara",
           "type": "package",
-          "candidateCount": 102,
+          "candidateCount": 101,
           "refs": [
             {
               "targetId": "wp-page-87974",
@@ -22565,7 +21717,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89435",
@@ -22597,7 +21749,7 @@
           "docId": "wp-page-89524",
           "title": "13-Day Egypt Tour: Cairo, the Nile, Luxor, Sinai and the Red Sea",
           "type": "package",
-          "candidateCount": 97,
+          "candidateCount": 96,
           "refs": [
             {
               "targetId": "wp-page-160630",
@@ -22637,7 +21789,7 @@
           "docId": "wp-page-89558",
           "title": "8-Day Essential Egypt Tour: Cairo, Alexandria, Aswan and Luxor",
           "type": "package",
-          "candidateCount": 97,
+          "candidateCount": 96,
           "refs": [
             {
               "targetId": "wp-page-158052",
@@ -22669,7 +21821,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -22677,7 +21829,7 @@
           "docId": "wp-page-89602",
           "title": "Timeless Wonders: 10-Days Eternal Egypt Tour",
           "type": "package",
-          "candidateCount": 101,
+          "candidateCount": 100,
           "refs": [
             {
               "targetId": "wp-page-87255",
@@ -22701,7 +21853,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89343",
@@ -22717,7 +21869,7 @@
           "docId": "wp-page-89619",
           "title": "Pharaohs' Legacy: A 10-Day Egypt and Nile Tour",
           "type": "package",
-          "candidateCount": 97,
+          "candidateCount": 96,
           "refs": [
             {
               "targetId": "wp-page-160630",
@@ -22829,7 +21981,7 @@
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -22861,7 +22013,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
               "targetId": "wp-page-89343",
@@ -23239,7 +22391,7 @@
       "source": 77,
       "wouldFill": 76,
       "wouldRemainEmpty": 1,
-      "capHitCount": 62,
+      "capHitCount": 59,
       "emptiesSample": [
         "Sol y Mar Pioneers Hotel, Kharga Oasis"
       ],
@@ -23247,32 +22399,8 @@
         {
           "docId": "hotel.adr-re-amellal-ecolodge-siwa",
           "title": "Adrere Amellal Desert Ecolodge, Siwa: No Electricity, No Wi-Fi",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
@@ -23294,7 +22422,7 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
@@ -23379,32 +22507,8 @@
         {
           "docId": "hotel.ghaliet-siwa-ecolodge",
           "title": "Ghaliet Ecolodge, Siwa: Solar-Powered, Spring-Fed",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
@@ -23644,39 +22748,15 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "hotel.taziry-ecolodge-siwa-safari",
           "title": "Taziry Ecolodge & Sustainable Village, Siwa",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
@@ -23729,36 +22809,20 @@
         {
           "docId": "wp-page-131814",
           "title": "Sandrose Hotel Bahariya",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -25460,39 +24524,15 @@
               "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             }
           ]
         },
         {
           "docId": "wp-page-64075",
           "title": "Dream Lodge Hotel, Siwa Oasis",
-          "candidateCount": 4,
+          "candidateCount": 1,
           "refs": [
-            {
-              "targetId": "wp-page-113061",
-              "title": "3-Day Enchanting Siwa Oasis Adventure Tour",
-              "slug": "siwa-oasis-adventure-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
-            {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-113521",
               "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
@@ -25809,36 +24849,20 @@
         {
           "docId": "wp-page-83188",
           "title": "El Beyt Farm Hotel, Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -25887,36 +24911,20 @@
         {
           "docId": "wp-page-83680",
           "title": "Bedouin Castle Hotel, Bahariya Oasis",
-          "candidateCount": 5,
+          "candidateCount": 2,
           "refs": [
-            {
-              "targetId": "wp-page-87834",
-              "title": "Desert Oasis: 2-Day Bahariya Oasis Private Tour From Cairo",
-              "slug": "private-tour-2-day-trip-to-bahariya-oasis",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": false
-            },
-            {
-              "targetId": "wp-page-155539",
-              "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert",
-              "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
-              "missingEs": false,
-              "missingJa": false,
-              "droppedDest": true
-            },
             {
               "targetId": "wp-page-87974",
               "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
               "slug": "8-day-cairo-and-egypt-desert-safari",
               "missingEs": false,
               "missingJa": false,
-              "droppedDest": false
+              "droppedDest": true
             },
             {
-              "targetId": "wp-page-160129",
-              "title": "An Unforgettable Bahariya and Siwa Oasis Vacation from India",
-              "slug": "bahariya-and-siwa-oasis-vacation",
+              "targetId": "wp-page-89005",
+              "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+              "slug": "10-day-nile-and-western-desert-tour",
               "missingEs": false,
               "missingJa": false,
               "droppedDest": true
@@ -43131,8 +42139,68 @@
     }
   },
   "anomalies": {
-    "droppedDestTargets": 168,
-    "crossLocaleDeadLinks_es": 36,
-    "crossLocaleDeadLinks_ja": 68
+    "droppedDestTargets": 119,
+    "crossLocaleDeadLinks_es": 38,
+    "crossLocaleDeadLinks_ja": 69
+  },
+  "droppedPolicy": {
+    "droppedCities": [
+      {
+        "id": "wp-page-58530",
+        "name": "Al Fayoum",
+        "slug": "al-fayoum"
+      },
+      {
+        "id": "wp-page-58731",
+        "name": "Wādī Al Natron",
+        "slug": "wadi-el-natrun"
+      },
+      {
+        "id": "wp-page-58769",
+        "name": "Bahariya Oasis",
+        "slug": "bahariya-oasis"
+      },
+      {
+        "id": "wp-page-58932",
+        "name": "Siwa Oasis",
+        "slug": "siwa-oasis"
+      },
+      {
+        "id": "wp-page-58952",
+        "name": "Al Wadi Al Gadid",
+        "slug": "al-wadi-al-gadid"
+      }
+    ],
+    "excludedFromPool_soleOrMajority": 4,
+    "incidentalKeptAndFlagged": 3,
+    "incidentalFlags": [
+      {
+        "tourId": "wp-page-113521",
+        "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
+        "slug": "3-day-siwa-journey-from-alexandria",
+        "droppedStops": [
+          "Siwa Oasis"
+        ],
+        "totalCities": 2
+      },
+      {
+        "tourId": "wp-page-87974",
+        "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
+        "slug": "8-day-cairo-and-egypt-desert-safari",
+        "droppedStops": [
+          "Bahariya Oasis"
+        ],
+        "totalCities": 2
+      },
+      {
+        "tourId": "wp-page-89005",
+        "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+        "slug": "10-day-nile-and-western-desert-tour",
+        "droppedStops": [
+          "Bahariya Oasis"
+        ],
+        "totalCities": 4
+      }
+    ]
   }
 }

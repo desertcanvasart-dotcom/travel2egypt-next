@@ -39,8 +39,11 @@ const client = createClient({
   useCdn: false,
 });
 
-// Dropped destinations (removed from the live site; flag if proposed as targets).
-const DROPPED_RE = /(siwa|fayoum|natrun|wadi-al-gadid|al-gadid|new-valley)/i;
+// Dropped destinations per the cutover policy (this WRITE session's list):
+// Siwa, Bahariya, Fayoum, Wadi al-Natrun, Al Wadi al-Gadid.
+// NOTE: Bahariya & Fayoum differ from the homepage's "Desert & quiet" treatment
+// (which kept them live) — flagged for reconciliation in the report.
+const DROPPED_RE = /(siwa|bahariya|fayoum|natrun|wadi-al-gadid|al-gadid|new-valley)/i;
 const NILE_THEMES = new Set(['theme-nile-cruise', 'theme-dahabiya-nile-cruise']);
 
 type Slugs = { en?: string; es?: string; ja?: string };
@@ -91,16 +94,45 @@ async function main() {
     `*[_type=="guideArticle" && kind=="attraction" && defined(slug[_key=="en"][0].value.current)]{ _id, "parentCity": parentCity._ref, "title": coalesce(title[_key=="en"][0].value, title[_key=="es"][0].value) }`);
 
   const droppedCityIds = new Set(cities.filter((c) => c.slug && DROPPED_RE.test(c.slug)).map((c) => c._id));
-  const tourById = new Map(tours.map((t) => [t._id, t]));
+  const cityNameById = new Map(cities.map((c) => [c._id, c.name]));
 
-  const report: any = { generatedAt: 'DRY-RUN', cap: CAP, hardMax: HARD_MAX, droppedCityIds: [...droppedCityIds], types: {} };
+  // Dropped-destination policy. cities[] has no documented lead/primary ordering,
+  // so we do NOT trust cities[0] as the primary destination. Fallback signal:
+  // a candidate tour is EXCLUDED from target pools when dropped cities are the
+  // SOLE or strict-MAJORITY (>50%) of its cities[]; KEPT + flagged "incidental"
+  // when a dropped stop is a minority among otherwise-live cities.
+  const incidentalFlags: any[] = [];
+  const excludedTourIds = new Set<string>();
+  for (const t of tours) {
+    const dc = t.cities.filter((c) => droppedCityIds.has(c));
+    const n = t.cities.length;
+    if (n > 0 && (dc.length === n || dc.length / n > 0.5)) {
+      excludedTourIds.add(t._id);
+    } else if (dc.length > 0) {
+      incidentalFlags.push({ tourId: t._id, title: t.title, slug: t.slug.en, droppedStops: dc.map((id) => cityNameById.get(id) ?? id), totalCities: n });
+    }
+  }
+  const eligibleTarget = (t: Tour) => !excludedTourIds.has(t._id);
+
+  const report: any = {
+    generatedAt: 'DRY-RUN', cap: CAP, hardMax: HARD_MAX,
+    droppedCityIds: [...droppedCityIds],
+    renderEligibility: {
+      tour_relatedTours: 'RENDERS (SingleTourView L277-284 + PackageView L421-428) → ELIGIBLE',
+      hotel_relatedTours: 'RENDERS (hotels/[slug]/page.tsx L191-197) → ELIGIBLE',
+      guideArticle_relatedTours: 'PROJECTS-ONLY, NOT RENDERED (CityGuideSidebar has no relatedTours prop) → SKIP',
+      article_relatedArticles: 'NON-RENDERING (dynamic weave) → SKIP',
+      nileCruise_relatedTours: 'DEFERRED (homogeneous output, route-blind rule) → DEFER',
+    },
+    types: {},
+  };
 
   // ── guideArticle.relatedTours ──
   {
     const proposals: any[] = []; let empty = 0; let capHit = 0; const empties: string[] = [];
     for (const g of guideArticles) {
       if (!g.parentCity) { empty++; empties.push(g.title + ' (no parentCity)'); continue; }
-      const cands = tours.filter((t) => t.cities.includes(g.parentCity!));
+      const cands = tours.filter((t) => t.cities.includes(g.parentCity!) && eligibleTarget(t));
       const ranked = cands.map((t) => {
         const focus = t.cities.length === 1 && t.cities[0] === g.parentCity ? 0 : t.cities[0] === g.parentCity ? 1 : 2;
         return { t, focus, n: t.cities.length };
@@ -119,7 +151,7 @@ async function main() {
     for (const t of tours) {
       const myBucket = bucket(t);
       const cityset = new Set(t.cities);
-      const cands = tours.filter((o) => o._id !== t._id && !t.existing.includes(o._id) &&
+      const cands = tours.filter((o) => o._id !== t._id && !t.existing.includes(o._id) && eligibleTarget(o) &&
         ((t.theme && o.theme === t.theme) || o.cities.some((c) => cityset.has(c))));
       const ranked = cands.map((o) => {
         const overlap = o.cities.filter((c) => cityset.has(c)).length;
@@ -140,7 +172,7 @@ async function main() {
     const proposals: any[] = []; let empty = 0; let capHit = 0; const empties: string[] = [];
     for (const h of hotels) {
       if (!h.city) { empty++; empties.push((h.title ?? h._id) + ' (no city)'); continue; }
-      const cands = tours.filter((t) => t.cities.includes(h.city!))
+      const cands = tours.filter((t) => t.cities.includes(h.city!) && eligibleTarget(t))
         .sort((a, b) => a.cities.length - b.cities.length || (a.title ?? '').localeCompare(b.title ?? ''));
       if (cands.length === 0) { empty++; if (empties.length < 25) empties.push(h.title ?? h._id); continue; }
       if (cands.length > CAP) capHit++;
@@ -155,8 +187,8 @@ async function main() {
     const proposals: any[] = []; let empty = 0; let capHit = 0; const empties: string[] = [];
     for (const c of cruises) {
       const cityIds = [c.depCity, c.retCity].filter(Boolean) as string[];
-      const nileTours = tours.filter((t) => t.theme && NILE_THEMES.has(t.theme));
-      const cityTours = tours.filter((t) => cityIds.some((id) => t.cities.includes(id)) && !(t.theme && NILE_THEMES.has(t.theme)));
+      const nileTours = tours.filter((t) => t.theme && NILE_THEMES.has(t.theme) && eligibleTarget(t));
+      const cityTours = tours.filter((t) => cityIds.some((id) => t.cities.includes(id)) && eligibleTarget(t) && !(t.theme && NILE_THEMES.has(t.theme)));
       const ranked = [...nileTours.sort((a, b) => a.cities.length - b.cities.length || (a.title ?? '').localeCompare(b.title ?? '')),
                       ...cityTours.sort((a, b) => a.cities.length - b.cities.length || (a.title ?? '').localeCompare(b.title ?? ''))];
       if (ranked.length === 0) { empty++; if (empties.length < 25) empties.push(c.title ?? c._id); continue; }
@@ -209,6 +241,12 @@ async function main() {
     }
   }
   report.anomalies = anomalies;
+  report.droppedPolicy = {
+    droppedCities: cities.filter((c) => c.slug && DROPPED_RE.test(c.slug)).map((c) => ({ id: c._id, name: c.name, slug: c.slug })),
+    excludedFromPool_soleOrMajority: excludedTourIds.size,
+    incidentalKeptAndFlagged: incidentalFlags.length,
+    incidentalFlags: incidentalFlags.slice(0, 50),
+  };
 
   // ── Write JSON ──
   writeFileSync('reports/related-links-proposal.json', JSON.stringify(report, null, 2));
