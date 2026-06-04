@@ -5,16 +5,21 @@ import { useTranslations } from 'next-intl';
 
 import { Link } from '@/i18n/navigation';
 
-// EN category slugs. The root catch-all's slugLookupQuery falls back to the
-// EN slug when a locale slug is null, so these resolve in every locale.
-const SERVICE_LINKS = [
-  { key: 'servicePrivateDayTours', href: '/private-day-tours' },
-  { key: 'serviceGroupDayTours', href: '/group-day-tours' },
-  { key: 'serviceEgyptPackages', href: '/egypt-travel-packages' },
-  { key: 'serviceGroupPackages', href: '/small-group-travel-packages' },
+// The six "Where should your Egypt start?" reader-types. Each links to the
+// matching card anchor on the homepage (kebab-case ids on .lvl-home .tcard).
+// Order matches the homepage card grid (top-left → bottom-right). Labels reuse
+// the same i18n strings as the homepage cards so the two stay literally
+// consistent across locales.
+const JOURNEY_LINKS = [
+  { key: 'journeyFirstTime', hash: 'first-time-in-egypt' },
+  { key: 'journeyCultural', hash: 'the-cultural-traveller' },
+  { key: 'journeyFamily', hash: 'travelling-as-a-family' },
+  { key: 'journeyDesert', hash: 'desert-and-quiet' },
+  { key: 'journeyStyle', hash: 'travelling-in-style' },
+  { key: 'journeyReturning', hash: 'coming-back' },
 ] as const;
 
-export function ServicesMenu() {
+export function JourneysMenu() {
   const t = useTranslations('nav');
   const [open, setOpen] = useState(false);
   const wrapRef = useRef<HTMLDivElement | null>(null);
@@ -49,7 +54,7 @@ export function ServicesMenu() {
         onClick={() => setOpen((v) => !v)}
         className="flex items-center gap-1.5 text-sm text-night-soft transition-colors hover:text-faience"
       >
-        <span>{t('services')}</span>
+        <span>{t('journeys')}</span>
         <svg
           width="10"
           height="10"
@@ -69,15 +74,15 @@ export function ServicesMenu() {
         <div className="absolute left-0 top-full z-50 pt-2">
           <ul
             role="menu"
-            className="min-w-[15rem] overflow-hidden border border-rule-strong bg-paper"
+            className="min-w-[16rem] overflow-hidden border border-rule-strong bg-paper"
           >
-            {SERVICE_LINKS.map(({ key, href }) => (
+            {JOURNEY_LINKS.map(({ key, hash }) => (
               <li key={key} role="none">
                 <Link
-                  href={href}
+                  href={`/#${hash}`}
                   role="menuitem"
                   onClick={() => setOpen(false)}
-                  className="block px-4 py-2.5 font-serif text-sm text-night-soft transition-colors hover:bg-limestone hover:text-night"
+                  className="block px-4 py-2.5 font-serif text-[15px] leading-relaxed text-night-soft transition-colors hover:bg-limestone hover:text-night"
                 >
                   {t(key)}
                 </Link>
