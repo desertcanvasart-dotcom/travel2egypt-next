@@ -82,7 +82,7 @@ export function LocaleSwitcher({ currentLocale }: Props) {
       {open && (
         <ul
           role="listbox"
-          className="absolute right-0 z-50 mt-2 min-w-[11rem] overflow-hidden border border-rule-strong bg-paper"
+          className="absolute right-0 z-50 mt-2 min-w-[12rem] overflow-hidden border border-rule-strong bg-paper"
         >
           {routing.locales.map((loc) => {
             const active = loc === currentLocale;

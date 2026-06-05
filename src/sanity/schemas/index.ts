@@ -32,6 +32,7 @@ import { nileCruisesArchiveSchema } from './nileCruisesArchive';
 import { travelTipsArchiveSchema } from './travelTipsArchive';
 import { pageSchema, legalPageSchema } from './page';
 import { editorialPageSchema } from './editorialPage';
+import { homePageSchema } from './homePage';
 import {
   trustBadgeSchema,
   siteSettingsSchema,
@@ -88,4 +89,5 @@ export const schemaTypes = [
   trustBadgeSchema,
   siteSettingsSchema,
   conciergeLinkMapSchema,
+  homePageSchema,
 ];

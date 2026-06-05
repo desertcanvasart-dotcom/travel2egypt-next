@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Travel2Egypt — Egyptian operator since 2003</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF6EC; --paper-warm:#F4EEDE; --paper-deep:#ECE4D0;
+    --ink:#1A2230; --navy:#14243B; --navy-mute:#5C6675;
+    --gold:#B89456; --gold-dark:#8C6B38;
+    --rule:rgba(22,32,46,.14); --rule-soft:rgba(22,32,46,.07);
+    --black:#14110A; --on-dark:#EDE6D4; --on-dark-mute:#A99F86; --rule-dark:rgba(237,230,212,.16);
+    --display:'Cormorant Garamond',Georgia,serif; --read:'Newsreader',Georgia,serif; --ui:'DM Sans',-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{background:var(--paper);color:var(--ink);font-family:var(--read);font-size:19px;line-height:1.72;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  a{color:inherit}
+  .wrap{max-width:1240px;margin:0 auto;padding:0 56px}
+  .kicker{font-family:var(--ui);font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--gold-dark)}
+  .visual{position:relative;overflow:hidden;background:#ddd}
+  .visual::after{content:"";position:absolute;inset:0;mix-blend-mode:multiply;opacity:.4;pointer-events:none;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.72' numOctaves='2'/><feColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.18 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>")}
+  .v-hero{background:linear-gradient(150deg,#7A5A24,#B58F44 48%,#E2C77E)}
+  .v1{background:linear-gradient(150deg,#2A2540,#7A5C8A 50%,#C99B6E)}
+  .v2{background:linear-gradient(150deg,#8C6B2B,#D7B36A 55%,#EBD79C)}
+  .v3{background:linear-gradient(150deg,#3E6E72,#7FA0A0 50%,#D8C68E)}
+  .v4{background:linear-gradient(150deg,#23485A,#4E8088 55%,#A9C3BE)}
+  .v5{background:linear-gradient(150deg,#9A6B2F,#C99B5E 55%,#E6D29A)}
+  .v6{background:linear-gradient(150deg,#5B6E48,#9AA877 55%,#D8C88E)}
+  .img-cap{position:absolute;left:18px;bottom:16px;z-index:2;font-family:var(--read);font-style:italic;font-size:14px;color:rgba(255,255,255,.82)}
+
+  /* NAV */
+  .nav{border-bottom:1px solid var(--rule);position:sticky;top:0;z-index:100;background:rgba(250,246,236,.94);backdrop-filter:blur(10px)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:22px 56px;max-width:1240px;margin:0 auto}
+  .logo{font-family:var(--display);font-size:24px;font-weight:500;color:var(--navy);text-decoration:none}.logo .s{font-size:15px;color:var(--gold)}
+  .nav-links{display:flex;gap:34px;list-style:none}.nav-links a{text-decoration:none;font-family:var(--ui);font-size:14px;color:var(--navy)}.nav-links a:hover{color:var(--gold-dark)}
+  .nav-right{display:flex;align-items:center;gap:24px;font-family:var(--ui);font-size:13px;color:var(--navy)}.nav-cta{text-decoration:none;border-bottom:1px solid var(--navy);padding-bottom:3px}
+
+  /* HERO */
+  .hero{padding:92px 0 100px;border-bottom:1px solid var(--rule)}
+  .hero-grid{display:grid;grid-template-columns:1.06fr .94fr;gap:72px;align-items:center}
+  .hero .kicker{display:block;margin-bottom:26px}
+  .hero h1{font-family:var(--display);font-weight:400;font-size:clamp(54px,6.6vw,94px);line-height:.97;letter-spacing:-.018em;color:var(--navy)}
+  .hero h1 em{font-style:italic}
+  .hero .sub{max-width:440px;margin-top:30px;font-size:19px;line-height:1.6;color:var(--navy-mute)}
+  .hero .stats{display:flex;gap:52px;margin-top:40px;padding-top:26px;border-top:1px solid var(--rule);font-family:var(--ui);font-size:14px;color:var(--navy-mute)}
+  .hero .stats b{color:var(--navy);font-weight:600}
+  .hero-img{aspect-ratio:4/5;width:100%}
+
+  /* SECTION head shared */
+  .sec{padding:92px 0;border-bottom:1px solid var(--rule)}
+  .sec.warm{background:var(--paper-warm)}
+  .sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:44px}
+  .sec-head .kicker{display:block;margin-bottom:14px}
+  .sec-head h2{font-family:var(--display);font-weight:400;font-size:clamp(34px,4vw,54px);line-height:1;color:var(--navy)}
+  .sec-head .lede{max-width:460px;font-size:16px;color:var(--navy-mute);line-height:1.55}
+  .more{font-family:var(--ui);font-size:13px;letter-spacing:.04em;text-decoration:none;color:var(--gold-dark);white-space:nowrap;border-bottom:1px solid var(--gold);padding-bottom:2px}
+
+  /* TRAVELLER-TYPE — where to begin (who-you-are axis, text grid) */
+  .triage{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+  .tcard{background:var(--paper);padding:30px 28px;text-decoration:none;color:inherit;transition:background .2s;display:flex;flex-direction:column}
+  .tcard:hover{background:var(--paper-deep)}
+  .tcard h3{font-family:var(--display);font-weight:400;font-size:25px;line-height:1.04;color:var(--navy);margin-bottom:9px}
+  .tcard p{font-size:15px;line-height:1.5;color:var(--navy-mute);margin-bottom:16px;flex:1}
+  .tcard .go{font-family:var(--ui);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dark)}
+
+  /* DARK band — WHAT WE DO DIFFERENTLY (benefit-forward) */
+  .differ{background:var(--black);color:var(--on-dark);padding:104px 0}
+  .differ-grid{display:grid;grid-template-columns:.32fr .68fr;gap:48px}
+  .differ .kicker{color:var(--gold);padding-top:8px}
+  .differ .statement{font-family:var(--display);font-weight:300;font-size:clamp(30px,3.6vw,48px);line-height:1.14;color:var(--on-dark);max-width:880px}
+  .differ .statement .accent{font-style:italic;color:var(--gold)}
+  .differ-points{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--rule-dark);border:1px solid var(--rule-dark);margin-top:60px}
+  .dp{background:var(--black);padding:30px 28px}
+  .dp h3{font-family:var(--display);font-weight:400;font-size:25px;line-height:1.06;color:var(--on-dark);margin-bottom:12px}
+  .dp p{font-family:var(--read);font-size:15.5px;line-height:1.56;color:var(--on-dark-mute)}
+
+  /* WAYS TO TRAVEL (what-format axis, image cards) */
+  .ways{display:grid;grid-template-columns:1fr 1fr 1fr;gap:34px}
+  .way{text-decoration:none;color:inherit;display:block;transition:opacity .25s}.way:hover{opacity:.86}
+  .way .visual{aspect-ratio:4/3;width:100%;margin-bottom:18px}
+  .way h3{font-family:var(--display);font-weight:400;font-size:30px;line-height:1.02;color:var(--navy);margin-bottom:9px}
+  .way p{font-size:16px;line-height:1.5;color:var(--navy-mute);margin-bottom:14px}
+  .way .go{font-family:var(--ui);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dark)}
+
+  /* EGYPT TRAVEL GUIDE — major feature (left intro + 2x2 cards) */
+  .gfeat{display:grid;grid-template-columns:.82fr 1.18fr;gap:60px;align-items:start}
+  .gfeat-l .kicker{display:block;margin-bottom:16px}
+  .gfeat-l h2{font-family:var(--display);font-weight:400;font-size:clamp(32px,3.6vw,48px);line-height:1.02;color:var(--navy);margin-bottom:18px}
+  .gfeat-l p{font-size:16.5px;line-height:1.6;color:var(--navy-mute);margin-bottom:22px;max-width:380px}
+  .gfeat-cards{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule)}
+  .gfc{background:var(--paper-warm);padding:28px 26px;text-decoration:none;color:inherit;transition:background .2s}
+  .gfc:hover{background:var(--paper-deep)}
+  .gfc .ix{font-family:var(--read);font-style:italic;font-size:14px;color:var(--gold);margin-bottom:11px}
+  .gfc h3{font-family:var(--display);font-weight:400;font-size:23px;line-height:1.05;color:var(--navy);margin-bottom:8px}
+  .gfc p{font-size:14.5px;line-height:1.5;color:var(--navy-mute)}
+
+  /* SUGGESTED STARTING POINTS (image cards, 4-up) */
+  .starts{display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+  .scard{text-decoration:none;color:inherit;display:block;transition:opacity .25s}.scard:hover{opacity:.86}
+  .scard .visual{aspect-ratio:3/2;width:100%;margin-bottom:15px}
+  .scard .meta{font-family:var(--ui);font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:8px}
+  .scard h3{font-family:var(--display);font-weight:400;font-size:24px;line-height:1.04;color:var(--navy);margin-bottom:7px}
+  .scard p{font-size:14.5px;line-height:1.48;color:var(--navy-mute)}
+
+  /* HOW THE CONCIERGE WORKS — dark close */
+  .plan{background:var(--black);color:var(--on-dark);padding:104px 0}
+  .plan .kicker{color:var(--gold);display:block;margin-bottom:22px}
+  .plan h2{font-family:var(--display);font-weight:400;font-size:clamp(36px,4.6vw,62px);line-height:1;color:var(--on-dark)}
+  .plan h2 em{font-style:italic;color:var(--gold)}
+  .plan .sub{max-width:540px;margin-top:24px;font-size:18px;line-height:1.6;color:var(--on-dark-mute)}
+  .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:34px;margin-top:58px;padding-top:40px;border-top:1px solid var(--rule-dark)}
+  .step .n{font-family:var(--read);font-style:italic;font-size:15px;color:var(--gold);margin-bottom:13px}
+  .step h4{font-family:var(--display);font-weight:400;font-size:23px;line-height:1.05;color:var(--on-dark);margin-bottom:9px}
+  .step p{font-size:14.5px;line-height:1.52;color:var(--on-dark-mute)}
+  .plan-cta{display:flex;gap:22px;margin-top:52px;padding-top:40px;border-top:1px solid var(--rule-dark);flex-wrap:wrap;align-items:center}
+  .btn{font-family:var(--ui);font-size:13px;letter-spacing:.06em;text-decoration:none;padding:15px 26px;display:inline-flex;align-items:center;gap:12px}
+  .btn.solid{background:var(--paper);color:var(--navy)}
+  .btn.ghost{color:var(--on-dark);border-bottom:1px solid var(--rule-dark);padding-left:0;padding-right:0}
+
+  /* FOOTER */
+  footer{padding:64px 0 46px;background:var(--paper-warm)}
+  .foot-top{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;padding-bottom:48px;border-bottom:1px solid var(--rule)}
+  .foot-brand{font-family:var(--display);font-size:22px;color:var(--navy);margin-bottom:14px}
+  .foot-brand .s{color:var(--gold)}
+  .foot-about{font-family:var(--read);font-style:italic;font-size:15px;color:var(--navy-mute);max-width:280px;line-height:1.5}
+  .foot-col h5{font-family:var(--ui);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:16px}
+  .foot-col a{display:block;text-decoration:none;font-size:15px;color:var(--navy);margin-bottom:10px}.foot-col a:hover{color:var(--gold-dark)}
+  .foot-brands{display:flex;align-items:baseline;gap:30px;padding:30px 0;border-bottom:1px solid var(--rule);flex-wrap:wrap;font-size:15px;color:var(--navy-mute)}
+  .foot-brands .bk{font-family:var(--ui);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-dark)}
+  .foot-brands b{font-family:var(--display);font-size:19px;color:var(--navy);font-weight:500}
+  .foot-brands i{font-style:italic}
+  .foot-legal{display:flex;justify-content:space-between;padding-top:26px;font-family:var(--ui);font-size:12px;color:var(--navy-mute);flex-wrap:wrap;gap:14px}
+  .foot-legal a{color:var(--navy-mute);text-decoration:none;margin-left:18px}
+
+  .conc{position:fixed;bottom:28px;right:28px;z-index:200}
+  .conc-trigger{display:flex;align-items:center;gap:11px;background:var(--navy);color:var(--paper);border:0;padding:13px 20px;cursor:pointer;font-family:var(--ui);font-size:12px;letter-spacing:.16em;text-transform:uppercase;box-shadow:0 12px 36px rgba(20,36,59,.2)}
+  .conc-trigger .dot{width:7px;height:7px;background:var(--gold);border-radius:50%}
+
+  @media(max-width:980px){
+    .wrap,.nav-inner{padding-left:24px;padding-right:24px}.nav-links{display:none}
+    .hero{padding:56px 0 60px}.hero-grid{grid-template-columns:1fr;gap:38px}.hero-img{aspect-ratio:16/10;order:-1}
+    .triage{grid-template-columns:1fr}
+    .differ-grid{grid-template-columns:1fr;gap:28px}.differ-points{grid-template-columns:1fr}
+    .ways{grid-template-columns:1fr}
+    .gfeat{grid-template-columns:1fr;gap:34px}
+    .starts{grid-template-columns:1fr 1fr}
+    .steps{grid-template-columns:1fr 1fr;gap:28px}
+    .foot-top{grid-template-columns:1fr 1fr}
+    .sec-head{flex-direction:column;align-items:flex-start}
+  }
+  @media(max-width:620px){.starts,.gfeat-cards,.steps,.foot-top{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav class="nav"><div class="nav-inner">
+  <a class="logo" href="#">Travel<span class="s">2</span>Egypt</a>
+  <ul class="nav-links"><li><a href="#">Services ▾</a></li><li><a href="#">Travel Guide</a></li><li><a href="#">Journal</a></li></ul>
+  <div class="nav-right"><span>EN ▾</span><a class="nav-cta" href="#">Contact →</a></div>
+</div></nav>
+
+<!-- HERO -->
+<header class="hero"><div class="wrap"><div class="hero-grid">
+  <div class="hero-copy">
+    <span class="kicker">Egyptian operator since 2003</span>
+    <h1>Egypt asks more of you <em>than its postcards admit.</em></h1>
+    <p class="sub">Operator-grade guides, private journeys, and a Cairo-based concierge — for travellers who want Egypt planned with care, not copied from a template.</p>
+    <div class="stats"><span><b>30 years</b> operating in Egypt</span><span><b>Thousands</b> of trips organised</span></div>
+  </div>
+  <div class="visual v-hero hero-img"><span class="img-cap">Western Desert, golden hour</span></div>
+</div></div></header>
+
+<!-- WHERE TO BEGIN — traveller-type (who-you-are) -->
+<section class="sec"><div class="wrap">
+  <div class="sec-head">
+    <div><span class="kicker">Where to begin</span><h2>Where should your Egypt start?</h2></div>
+    <p class="lede">A first sense of where you belong. Nothing fixed — a starting point we'll shape with you.</p>
+  </div>
+  <div class="triage">
+    <a class="tcard" href="#"><h3>First time in Egypt</h3><p>Cairo, the Pyramids, a Nile cruise, Luxor and Aswan — the essential story, and what not to rush.</p><span class="go">Start here →</span></a>
+    <a class="tcard" href="#"><h3>The cultural traveller</h3><p>Islamic and Coptic Cairo, Luxor, Abydos, Nubian Aswan, the desert monasteries.</p><span class="go">Start here →</span></a>
+    <a class="tcard" href="#"><h3>Travelling as a family</h3><p>Cairo, a Nile cruise and Red Sea rest — culture, comfort and breathing space, paced for children.</p><span class="go">Start here →</span></a>
+    <a class="tcard" href="#"><h3>Desert &amp; quiet</h3><p>Bahariya, the White Desert and Fayoum — Egypt's silence as much as its temples.</p><span class="go">Start here →</span></a>
+    <a class="tcard" href="#"><h3>Travelling in style</h3><p>Private guiding, the finest boats on the Nile, landmark hotels, and every transfer handled.</p><span class="go">Start here →</span></a>
+    <a class="tcard" href="#"><h3>Coming back</h3><p>Middle Egypt, Alexandria, the desert oases, the specialist sites a first trip leaves out.</p><span class="go">Start here →</span></a>
+  </div>
+</div></section>
+
+<!-- WHAT WE DO DIFFERENTLY (benefit-forward) -->
+<section class="differ"><div class="wrap"><div class="differ-grid">
+  <span class="kicker">What we do<br>differently</span>
+  <div>
+    <p class="statement">Most travel sites treat Egypt as a checklist of monuments. We treat it as a country with eighty million people, four major dialects, and several thousand years of opinions about itself. <span class="accent">The difference shows up in the details.</span></p>
+  </div>
+</div>
+<div class="differ-points">
+  <article class="dp"><h3>No generic route</h3><p>We shape the trip around your pace and interests, not around a fixed package. The people who reply are the people who run it.</p></article>
+  <article class="dp"><h3>No anonymous suppliers</h3><p>Guides, drivers, boats and hotels are chosen with ground knowledge — and we're accountable when something needs fixing.</p></article>
+  <article class="dp"><h3>No forced must-see list</h3><p>We'll tell you what's worth it, what can wait, and what may not suit you at all. A quiet site you'll love beats a famous one you won't.</p></article>
+</div>
+</div></section>
+
+<!-- WAYS TO TRAVEL (what-format) -->
+<section class="sec"><div class="wrap">
+  <div class="sec-head">
+    <div><span class="kicker">Ways to travel</span><h2>However you want to see it.</h2></div>
+    <a class="more" href="#">All services →</a>
+  </div>
+  <div class="ways">
+    <a class="way" href="#"><div class="visual v2"></div><h3>Day Tours</h3><p>Single days, done properly — a private guide, the major sites and the ones the queues miss.</p><span class="go">Private &amp; small-group →</span></a>
+    <a class="way" href="#"><div class="visual v5"></div><h3>Tailor-Made Journeys</h3><p>Multi-day trips designed around you — the Nile, the desert and the coast, woven into one route.</p><span class="go">Explore journeys →</span></a>
+    <a class="way" href="#"><div class="visual v4"></div><h3>Nile Cruises &amp; Dahabiyas</h3><p>The sail between Luxor and Aswan — on the handful of boats we'd put our own travellers on.</p><span class="go">Cruises &amp; dahabiyas →</span></a>
+  </div>
+</div></section>
+
+<!-- THE EGYPT TRAVEL GUIDE — feature -->
+<section class="sec warm"><div class="wrap"><div class="gfeat">
+  <div class="gfeat-l">
+    <span class="kicker">The Egypt Travel Guide</span>
+    <h2>Not a brochure. A working guide.</h2>
+    <p>A reference to Egypt's cities, regions, routes and travel realities — what each place is for, how long to give it, and when to skip it. Written by the people who run the trips.</p>
+    <a class="more" href="#">Read the full guide →</a>
+  </div>
+  <div class="gfeat-cards">
+    <a class="gfc" href="#"><div class="ix">i.</div><h3>How Egypt is laid out</h3><p>Cairo, the Nile Valley, the Red Sea, Sinai, the Delta and the Western Desert — and how they connect.</p></a>
+    <a class="gfc" href="#"><div class="ix">ii.</div><h3>First-trip route logic</h3><p>What belongs in a first Egypt trip, what can wait for a second, and what to give the most time.</p></a>
+    <a class="gfc" href="#"><div class="ix">iii.</div><h3>The cities that matter</h3><p>Cairo, Giza, Luxor, Aswan, Alexandria, Abu Simbel and beyond — ranked honestly, not alphabetically.</p></a>
+    <a class="gfc" href="#"><div class="ix">iv.</div><h3>Specialist Egypt</h3><p>The monasteries, Middle Egypt, the desert oases, Nubian culture, Islamic Cairo — for the deeper trip.</p></a>
+  </div>
+</div></div></section>
+
+<!-- SUGGESTED STARTING POINTS -->
+<section class="sec"><div class="wrap">
+  <div class="sec-head">
+    <div><span class="kicker">Suggested starting points</span><h2>A few ways Egypt takes shape.</h2></div>
+    <p class="lede">Not fixed templates — examples of how a trip can be built around your time, pace and interest.</p>
+  </div>
+  <div class="starts">
+    <a class="scard" href="#"><div class="visual v2"></div><div class="meta">9–11 days</div><h3>The First Egypt Journey</h3><p>Cairo, a Nile cruise, Luxor and Aswan — the essential story without rushing.</p></a>
+    <a class="scard" href="#"><div class="visual v4"></div><div class="meta">8 days</div><h3>The Slow Nile Journey</h3><p>A dahabiya, Luxor and Aswan, the quieter river stops. Atmosphere over checklist.</p></a>
+    <a class="scard" href="#"><div class="visual v5"></div><div class="meta">7–9 days</div><h3>The Desert &amp; Nile Journey</h3><p>Cairo, Bahariya, the White Desert, then the river. Silence as much as temples.</p></a>
+    <a class="scard" href="#"><div class="visual v3"></div><div class="meta">10 days</div><h3>The Family Egypt Journey</h3><p>Cairo, a Nile cruise and Red Sea rest — culture, comfort and breathing space.</p></a>
+  </div>
+</div></section>
+
+<!-- HOW THE CONCIERGE WORKS — dark close -->
+<section class="plan"><div class="wrap">
+  <span class="kicker">How the concierge works</span>
+  <h2>Tell us what you want <em>from Egypt.</em></h2>
+  <p class="sub">Every trip begins with a conversation, not a checkout. Tell us what you'd like, what you'd rather avoid, and the pace you want — we'll come back with a plan we'd want for ourselves.</p>
+  <div class="steps">
+    <div class="step"><div class="n">i.</div><h4>Tell us</h4><p>Dates, pace, interests, hotel level, who's travelling, and what you'd rather avoid.</p></div>
+    <div class="step"><div class="n">ii.</div><h4>We shape the route</h4><p>The right cities and sequence, the boat or hotels, guides, and realistic timings.</p></div>
+    <div class="step"><div class="n">iii.</div><h4>You refine it</h4><p>We adjust the plan with you until it reads like a trip you'd take, not one you were sold.</p></div>
+    <div class="step"><div class="n">iv.</div><h4>We operate it</h4><p>Private guides, transport and hotels on the ground — and human support while you travel.</p></div>
+  </div>
+  <div class="plan-cta">
+    <a class="btn solid" href="#">Talk to our concierge →</a>
+    <a class="btn ghost" href="#">Quick WhatsApp inquiry →</a>
+  </div>
+</div></section>
+
+<!-- FOOTER -->
+<footer><div class="wrap">
+  <div class="foot-top">
+    <div>
+      <div class="foot-brand">Travel<span class="s">2</span>Egypt</div>
+      <p class="foot-about">Egyptian-operated since 2003. JATA, IATA, ASTA, ETAA accredited.</p>
+    </div>
+    <div class="foot-col"><h5>Travel</h5><a href="#">Day Tours</a><a href="#">Packages</a><a href="#">Hotels</a><a href="#">Nile cruises</a><a href="#">Travel Guide</a><a href="#">Travel Tips</a></div>
+    <div class="foot-col"><h5>Resources</h5><a href="#">FAQ</a><a href="#">Hotel Grade Concept</a><a href="#">City Distances</a><a href="#">Your Name in Hieroglyphs</a></div>
+    <div class="foot-col"><h5>About</h5><a href="#">Journal</a><a href="#">About</a><a href="#">Responsible Travel</a><a href="#">Contact</a></div>
+  </div>
+  <div class="foot-brands">
+    <span class="bk">Other Travel2Egypt brands</span>
+    <span><b>AffordEgypt</b> &nbsp;<i>Egypt for budget-conscious travellers.</i></span>
+    <span><b>Soléi</b> &nbsp;<i>Boutique luxury, Siwa-rooted.</i></span>
+  </div>
+  <div class="foot-legal">
+    <span>© 2026 Travel2Egypt. All rights reserved.</span>
+    <span><a href="#">Privacy Policy</a><a href="#">Terms &amp; Conditions</a><a href="#">Cookie Policy</a><a href="#">Disclaimer</a></span>
+  </div>
+</div></footer>
+
+<div class="conc"><button class="conc-trigger"><span class="dot"></span>Concierge</button></div>
+</body>
+</html>

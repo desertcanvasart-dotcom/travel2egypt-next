@@ -659,6 +659,15 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
 
       // ── Singletons ──
       S.listItem()
+        .title('Homepage')
+        .icon(HomeIcon)
+        .child(
+          S.editor()
+            .id('homePage')
+            .schemaType('homePage')
+            .documentId('homePage')
+        ),
+      S.listItem()
         .title('Site settings')
         .icon(CogIcon)
         .child(

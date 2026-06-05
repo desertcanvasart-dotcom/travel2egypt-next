@@ -61,8 +61,13 @@ export function Footer({ locale }: FooterProps) {
           <div className="t2e-foot-col">
             <h5>{t('travelLabel')}</h5>
             <ul>
-              <li><Link href="/tours">{tNav('tours')}</Link></li>
-              <li><Link href="/packages">{tNav('packages')}</Link></li>
+              {/* The four operational trip-types (moved here from the old
+                  header "Services" dropdown), then hotels / cruises / guide /
+                  tips. Package labels shortened (Egypt prefix dropped). */}
+              <li><Link href="/private-day-tours">{tNav('servicePrivateDayTours')}</Link></li>
+              <li><Link href="/group-day-tours">{tNav('serviceGroupDayTours')}</Link></li>
+              <li><Link href="/egypt-travel-packages">{tNav('serviceEgyptPackages')}</Link></li>
+              <li><Link href="/small-group-travel-packages">{tNav('serviceGroupPackages')}</Link></li>
               <li><Link href="/hotels">{tNav('hotels')}</Link></li>
               <li><Link href="/nile-cruises">{tNav('nileCruises')}</Link></li>
               <li><Link href="/guide">{tNav('guide')}</Link></li>

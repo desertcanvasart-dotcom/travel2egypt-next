@@ -4,7 +4,7 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
 import { LocaleSwitcher } from './LocaleSwitcher';
-import { ServicesMenu } from './ServicesMenu';
+import { JourneysMenu } from './JourneysMenu';
 
 interface HeaderProps {
   locale: Locale;
@@ -13,7 +13,7 @@ interface HeaderProps {
 /**
  * Canonical site nav — reconciled to the approved tour-system reference
  * (journey-1/2/3). Classes/styles live in src/styles/tour-system.css. The
- * Services dropdown and locale switcher keep their real behaviour; the scoped
+ * Journeys dropdown and locale switcher keep their real behaviour; the scoped
  * `.t2e-nav-*` rules restyle their triggers to the reference link look by
  * specificity, so those client components need no edits.
  */
@@ -28,7 +28,7 @@ export function Header({ locale }: HeaderProps) {
         </Link>
 
         <ul className="t2e-nav-links">
-          <li><ServicesMenu /></li>
+          <li><JourneysMenu /></li>
           <li><Link href="/guide">{t('guide')}</Link></li>
           {/* Egypt Wiki nav stays hidden for v1 (session 31 defer). */}
           <li><Link href="/blog">{t('blog')}</Link></li>
