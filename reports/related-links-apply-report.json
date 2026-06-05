@@ -1,0 +1,159 @@
+{
+  "mode": "COMMIT",
+  "backup": "backups/migration-staging-20260605-012336.tar.gz",
+  "fields": {
+    "tour_relatedTours": {
+      "eligible": "RENDERS (SingleTourView L277-284 + PackageView L421-428) → ELIGIBLE",
+      "proposalCount": 229,
+      "emptyPublishedDocs": 228,
+      "wouldWrite": 228,
+      "written": 228,
+      "skippedNonEmpty": 1,
+      "skippedNonEmptyList": [
+        {
+          "id": "wp-page-87637",
+          "title": "Sharm El Sheikh Sunset Quad Bike Tour: Desert, Dunes & Bedouin Culture"
+        }
+      ],
+      "skippedMissingOrUnpublished": 0,
+      "draftedTargets": [],
+      "incidentalDroppedRefs": 40,
+      "sample": [
+        {
+          "id": "tour.02-day-luxor-tour-by-plane-from-cairo",
+          "title": "Luxor by Air: A Two-Day Tour from Cairo",
+          "refs": [
+            "tour.alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+            "tour.transfer-from-cairo-airport-to-hotel",
+            "tour.cairo-dinner-cruise-with-belly-dancing-show",
+            "tour.nmec-royal-mummies-old-cairo"
+          ]
+        },
+        {
+          "id": "tour.10-day-egypt-group-tour-cairo-nile-red-sea",
+          "title": "10-Day Egypt Group Tour: Cairo, the Nile & the Red Sea",
+          "refs": [
+            "wp-page-88992",
+            "wp-page-87255",
+            "wp-page-156539",
+            "wp-page-89005"
+          ]
+        },
+        {
+          "id": "tour.11-day-egypt-group-tour-cairo-red-sea-nile",
+          "title": "11-Day Egypt Group Tour: Cairo, the Red Sea & the Nile",
+          "refs": [
+            "wp-page-89343",
+            "wp-page-90450",
+            "wp-page-156550",
+            "wp-page-113004"
+          ]
+        },
+        {
+          "id": "tour.2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
+          "title": "Two Days from Luxor to Abu Simbel — With a Night in Between",
+          "refs": [
+            "wp-page-156421",
+            "wp-page-136566",
+            "wp-page-88992",
+            "tour.10-day-egypt-group-tour-cairo-nile-red-sea"
+          ]
+        },
+        {
+          "id": "tour.2-day-nubian-desert-nature-wildlife-retreat",
+          "title": "Two Days in the Nubian Desert: A Quiet Retreat near Lake Nasser",
+          "refs": [
+            "tour.4-days-white-desert-wadi-al-hittan-exploration",
+            "tour.the-white-desert-and-djara-cave",
+            "wp-page-87974",
+            "wp-page-89435"
+          ]
+        }
+      ]
+    },
+    "hotel_relatedTours": {
+      "eligible": "RENDERS (hotels/[slug]/page.tsx L191-197) → ELIGIBLE",
+      "proposalCount": 76,
+      "emptyPublishedDocs": 78,
+      "wouldWrite": 76,
+      "written": 76,
+      "skippedNonEmpty": 0,
+      "skippedNonEmptyList": [],
+      "skippedMissingOrUnpublished": 0,
+      "draftedTargets": [],
+      "incidentalDroppedRefs": 13,
+      "sample": [
+        {
+          "id": "hotel.adr-re-amellal-ecolodge-siwa",
+          "title": "Adrere Amellal Desert Ecolodge, Siwa: No Electricity, No Wi-Fi",
+          "refs": [
+            "wp-page-113521"
+          ]
+        },
+        {
+          "id": "hotel.al-tabuna-camp-dakhla-oasis",
+          "title": "Al Tabuna Camp, Dakhla Oasis: Rooted in Oasis Food Culture",
+          "refs": [
+            "wp-page-89005"
+          ]
+        },
+        {
+          "id": "hotel.barcelo-tiran-sharm-resort",
+          "title": "Barcelo Tiran Sharm: 1,100 Metres of Private Beach",
+          "refs": [
+            "wp-page-86867",
+            "tour.aqua-park-cleo-park",
+            "tour.dahab-blue-hole-desert-snorkel-group-day-tour-from-sharm",
+            "tour.dolphin-show-sharm-el-sheikh"
+          ]
+        },
+        {
+          "id": "hotel.dusit-thani-lake-view",
+          "title": "Dusit Thani LakeView Cairo: Thai Luxury in New Cairo",
+          "refs": [
+            "wp-page-86857",
+            "wp-page-87255",
+            "wp-page-156539",
+            "wp-page-89376"
+          ]
+        },
+        {
+          "id": "hotel.ghaliet-siwa-ecolodge",
+          "title": "Ghaliet Ecolodge, Siwa: Solar-Powered, Spring-Fed",
+          "refs": [
+            "wp-page-113521"
+          ]
+        }
+      ]
+    }
+  },
+  "cutoverAudit_incidentalDroppedTours": [
+    {
+      "tourId": "wp-page-113521",
+      "title": "Three Days from Alexandria to Siwa — Coast, Desert War, Oracle",
+      "slug": "3-day-siwa-journey-from-alexandria",
+      "droppedStops": [
+        "Siwa Oasis"
+      ],
+      "totalCities": 2
+    },
+    {
+      "tourId": "wp-page-87974",
+      "title": "8-Day Cairo and Egypt Desert Safari: Pyramids, Oases, and the Western Desert",
+      "slug": "8-day-cairo-and-egypt-desert-safari",
+      "droppedStops": [
+        "Bahariya Oasis"
+      ],
+      "totalCities": 2
+    },
+    {
+      "tourId": "wp-page-89005",
+      "title": "10-Day Nile and Western Desert Tour: Cairo, the Oases, and Luxor",
+      "slug": "10-day-nile-and-western-desert-tour",
+      "droppedStops": [
+        "Bahariya Oasis"
+      ],
+      "totalCities": 4
+    }
+  ]
+}
