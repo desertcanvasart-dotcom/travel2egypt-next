@@ -15,6 +15,7 @@ import type { Locale } from '@/i18n/routing';
 
 import {
   localizedField,
+  localizedFieldStrict,
   localizedSlug,
   portableTextBodyProjection,
   articleBodyMarkProjection,
@@ -473,12 +474,15 @@ export const packageThemeLandingsQuery = (locale: Locale) => groq`
  */
 export const packageCategoryQuery = (locale: Locale, key = 'private-package') => groq`
   *[_type == "tourCategory" && key == "${key}"][0]{
-    "title": ${localizedField('title', locale)},
+    // Dual-source (i18n key exists) → locale-strict so es/ja fall through to i18n
+    // instead of masking it with en. tagline(summary) + essay(intro) are
+    // Sanity-only → keep en-coalesce until localized.
+    "title": ${localizedFieldStrict('title', locale)},
     "tagline": ${localizedField('summary', locale)},
     "editorByline": editorByline{
-      "kicker": ${localizedField('kicker', locale)},
-      "heading": ${localizedField('heading', locale)},
-      "intro": ${localizedField('intro', locale)}
+      "kicker": ${localizedFieldStrict('kicker', locale)},
+      "heading": ${localizedFieldStrict('heading', locale)},
+      "intro": ${localizedFieldStrict('intro', locale)}
     },
     "essay": ${portableTextBodyProjection('intro', locale)},
     "editorsPicks": editorsPicks[]->{ ${tourCardProjection(locale)} }
@@ -674,14 +678,16 @@ export const hotelsArchiveQuery = (locale: Locale) => groq`
  */
 export const dayToursArchiveQuery = (locale: Locale) => groq`
   *[_type == "dayToursArchive"][0]{
-    "kicker": ${localizedField('kicker', locale)},
-    "title": ${localizedField('mastTitle', locale)},
-    "tagline": ${localizedField('tagline', locale)},
+    // Dual-source fields (also have an i18n chrome key) → locale-STRICT so an
+    // unpopulated es/ja falls through to i18n instead of masking it with en.
+    "kicker": ${localizedFieldStrict('kicker', locale)},
+    "title": ${localizedFieldStrict('mastTitle', locale)},
+    "tagline": ${localizedFieldStrict('tagline', locale)},
     "essayHeading": ${localizedField('essayHeading', locale)},
     "editorByline": editorByline{
-      "kicker": ${localizedField('kicker', locale)},
-      "heading": ${localizedField('heading', locale)},
-      "intro": ${localizedField('intro', locale)}
+      "kicker": ${localizedFieldStrict('kicker', locale)},
+      "heading": ${localizedFieldStrict('heading', locale)},
+      "intro": ${localizedFieldStrict('intro', locale)}
     },
     "essay": ${portableTextBodyProjection('essay', locale)},
     "featured": featured{
@@ -698,7 +704,7 @@ export const dayToursArchiveQuery = (locale: Locale) => groq`
       "tours": tours[]->{ ${tourCardProjection(locale)} }
     },
     "navigator": navigator{
-      "heading": ${localizedField('heading', locale)},
+      "heading": ${localizedFieldStrict('heading', locale)},
       "intro": ${localizedField('intro', locale)},
       "items": items[]{
         "note": ${localizedField('note', locale)},

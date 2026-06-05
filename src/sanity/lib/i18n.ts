@@ -36,6 +36,24 @@ export const localizedField = (field: string, locale: Locale) =>
   `coalesce(${field}[_key=="${locale}"][0].value, ${field}[_key=="${DEFAULT_LOCALE}"][0].value)`;
 
 /**
+ * Locale-STRICT variant — returns the value ONLY for the current locale, with
+ * NO en fallback (so the result is null when the field isn't populated for this
+ * locale).
+ *
+ * Use this for DUAL-SOURCE fields that ALSO have an i18n chrome key, where the
+ * consuming view resolves `strictValue ?? i18nKey`. With the en-coalescing
+ * `localizedField`, an unpopulated es/ja returns a truthy en string that
+ * short-circuits the `??` and MASKS the (already-translated) i18n value. The
+ * strict variant returns null instead, so the view falls through to i18n — while
+ * a genuinely locale-populated Sanity value still wins (editor override kept).
+ *
+ * Do NOT use for Sanity-ONLY fields (essays, taglines without an i18n key):
+ * those must keep coalescing to en until localized.
+ */
+export const localizedFieldStrict = (field: string, locale: Locale) =>
+  `${field}[_key=="${locale}"][0].value`;
+
+/**
  * GROQ snippet for a localized slug field.
  *
  * Slugs are stored as an array of `slug` objects, one per locale:
