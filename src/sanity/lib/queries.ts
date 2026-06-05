@@ -647,7 +647,7 @@ export const allHotelSlugsQuery = groq`
 export const hotelsArchiveQuery = (locale: Locale) => groq`
   *[_type == "hotelsArchive"][0]{
     "kicker": ${localizedField('kicker', locale)},
-    "title": ${localizedField('mastTitle', locale)},
+    "title": ${localizedFieldStrict('mastTitle', locale)},
     "tagline": ${localizedField('tagline', locale)},
     "essayHeading": ${localizedField('essayHeading', locale)},
     "essay": ${portableTextBodyProjection('essay', locale)},
@@ -759,7 +759,7 @@ export const allCruisesQuery = (locale: Locale) => groq`
 export const nileCruisesArchiveQuery = (locale: Locale) => groq`
   *[_type == "nileCruisesArchive"][0]{
     "kicker": ${localizedField('kicker', locale)},
-    "title": ${localizedField('mastTitle', locale)},
+    "title": ${localizedFieldStrict('mastTitle', locale)},
     "tagline": ${localizedField('tagline', locale)},
     "essayHeading": ${localizedField('essayHeading', locale)},
     "essay": ${portableTextBodyProjection('essay', locale)},
@@ -1525,7 +1525,7 @@ export const allTravelTipSlugsQuery = groq`
 export const travelTipsArchiveQuery = (locale: Locale) => groq`
   *[_type == "travelTipsArchive"][0]{
     "kicker": ${localizedField('kicker', locale)},
-    "title": ${localizedField('mastTitle', locale)},
+    "title": ${localizedFieldStrict('mastTitle', locale)},
     "tagline": ${localizedField('tagline', locale)},
     "essayHeading": ${localizedField('essayHeading', locale)},
     "essay": ${portableTextBodyProjection('essay', locale)},
