@@ -1,0 +1,1686 @@
+{
+  "author": {
+    "count": 1,
+    "fields": {
+      "bio": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "travel2egypt-archive"
+        ],
+        "enButNoJa": [
+          "travel2egypt-archive"
+        ]
+      }
+    }
+  },
+  "city": {
+    "count": 41,
+    "fields": {
+      "guideBestFor": {
+        "en": 37,
+        "es": 37,
+        "ja": 37,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "guideDek": {
+        "en": 37,
+        "es": 37,
+        "ja": 37,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "guideHonestNote": {
+        "en": 37,
+        "es": 37,
+        "ja": 37,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "guideTime": {
+        "en": 37,
+        "es": 37,
+        "ja": 37,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "name": {
+        "en": 41,
+        "es": 41,
+        "ja": 41,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "overview": {
+        "en": 41,
+        "es": 41,
+        "ja": 41,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "slug": {
+        "en": 41,
+        "es": 41,
+        "ja": 41,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "summary": {
+        "en": 40,
+        "es": 40,
+        "ja": 40,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "guideTierLabel": {
+        "en": 26,
+        "es": 26,
+        "ja": 26,
+        "enButNoEs": [],
+        "enButNoJa": []
+      }
+    }
+  },
+  "dayToursArchive": {
+    "count": 1,
+    "fields": {
+      "essay": {
+        "en": 1,
+        "es": 1,
+        "ja": 1,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "essayHeading": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "dayToursArchive"
+        ],
+        "enButNoJa": [
+          "dayToursArchive"
+        ]
+      },
+      "kicker": {
+        "en": 1,
+        "es": 1,
+        "ja": 1,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "mastTitle": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "dayToursArchive"
+        ],
+        "enButNoJa": [
+          "dayToursArchive"
+        ]
+      },
+      "tagline": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "dayToursArchive"
+        ],
+        "enButNoJa": [
+          "dayToursArchive"
+        ]
+      }
+    }
+  },
+  "editorialCategory": {
+    "count": 23,
+    "fields": {
+      "name": {
+        "en": 23,
+        "es": 4,
+        "ja": 4,
+        "enButNoEs": [
+          "wp-category-1",
+          "wp-category-19",
+          "wp-category-20",
+          "wp-category-21",
+          "wp-category-354",
+          "wp-category-355",
+          "wp-category-356",
+          "wp-category-360",
+          "wp-category-381",
+          "wp-category-647",
+          "wp-category-693",
+          "wp-category-72",
+          "wp-category-73",
+          "wp-category-74",
+          "wp-category-75",
+          "wp-category-76",
+          "wp-category-77",
+          "wp-category-78",
+          "wp-category-94"
+        ],
+        "enButNoJa": [
+          "wp-category-1",
+          "wp-category-19",
+          "wp-category-20",
+          "wp-category-21",
+          "wp-category-354",
+          "wp-category-355",
+          "wp-category-356",
+          "wp-category-360",
+          "wp-category-381",
+          "wp-category-647",
+          "wp-category-693",
+          "wp-category-72",
+          "wp-category-73",
+          "wp-category-74",
+          "wp-category-75",
+          "wp-category-76",
+          "wp-category-77",
+          "wp-category-78",
+          "wp-category-94"
+        ]
+      },
+      "slug": {
+        "en": 23,
+        "es": 4,
+        "ja": 4,
+        "enButNoEs": [
+          "wp-category-1",
+          "wp-category-19",
+          "wp-category-20",
+          "wp-category-21",
+          "wp-category-354",
+          "wp-category-355",
+          "wp-category-356",
+          "wp-category-360",
+          "wp-category-381",
+          "wp-category-647",
+          "wp-category-693",
+          "wp-category-72",
+          "wp-category-73",
+          "wp-category-74",
+          "wp-category-75",
+          "wp-category-76",
+          "wp-category-77",
+          "wp-category-78",
+          "wp-category-94"
+        ],
+        "enButNoJa": [
+          "wp-category-1",
+          "wp-category-19",
+          "wp-category-20",
+          "wp-category-21",
+          "wp-category-354",
+          "wp-category-355",
+          "wp-category-356",
+          "wp-category-360",
+          "wp-category-381",
+          "wp-category-647",
+          "wp-category-693",
+          "wp-category-72",
+          "wp-category-73",
+          "wp-category-74",
+          "wp-category-75",
+          "wp-category-76",
+          "wp-category-77",
+          "wp-category-78",
+          "wp-category-94"
+        ]
+      }
+    }
+  },
+  "editorialPage": {
+    "count": 4,
+    "fields": {
+      "heroHeading": {
+        "en": 4,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "editorial-page-about",
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ],
+        "enButNoJa": [
+          "editorial-page-about",
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ]
+      },
+      "slug": {
+        "en": 4,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "editorial-page-about",
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ],
+        "enButNoJa": [
+          "editorial-page-about",
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ]
+      },
+      "bottomCtaBody": {
+        "en": 3,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ],
+        "enButNoJa": [
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ]
+      },
+      "bottomCtaHeading": {
+        "en": 3,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ],
+        "enButNoJa": [
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ]
+      },
+      "heroSubhead": {
+        "en": 3,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ],
+        "enButNoJa": [
+          "editorial-page-contact",
+          "editorial-page-hotel-grade-concept",
+          "editorial-page-responsible-travel"
+        ]
+      },
+      "ribbonBody": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "editorial-page-hotel-grade-concept"
+        ],
+        "enButNoJa": [
+          "editorial-page-hotel-grade-concept"
+        ]
+      }
+    }
+  },
+  "faqCategory": {
+    "count": 7,
+    "fields": {
+      "name": {
+        "en": 7,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "faq-category-avoiding-hassles",
+          "faq-category-booking-with-travel2egypt",
+          "faq-category-culture-and-language",
+          "faq-category-health-and-safety",
+          "faq-category-money-and-payments",
+          "faq-category-planning-your-visit",
+          "faq-category-practical-essentials"
+        ],
+        "enButNoJa": [
+          "faq-category-avoiding-hassles",
+          "faq-category-booking-with-travel2egypt",
+          "faq-category-culture-and-language",
+          "faq-category-health-and-safety",
+          "faq-category-money-and-payments",
+          "faq-category-planning-your-visit",
+          "faq-category-practical-essentials"
+        ]
+      },
+      "slug": {
+        "en": 7,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "faq-category-avoiding-hassles",
+          "faq-category-booking-with-travel2egypt",
+          "faq-category-culture-and-language",
+          "faq-category-health-and-safety",
+          "faq-category-money-and-payments",
+          "faq-category-planning-your-visit",
+          "faq-category-practical-essentials"
+        ],
+        "enButNoJa": [
+          "faq-category-avoiding-hassles",
+          "faq-category-booking-with-travel2egypt",
+          "faq-category-culture-and-language",
+          "faq-category-health-and-safety",
+          "faq-category-money-and-payments",
+          "faq-category-planning-your-visit",
+          "faq-category-practical-essentials"
+        ]
+      }
+    }
+  },
+  "faqEntry": {
+    "count": 24,
+    "fields": {
+      "answer": {
+        "en": 24,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "faq-entry-are-credit-cards-accepted-everywhere",
+          "faq-entry-are-there-restrictions-on-photography",
+          "faq-entry-can-i-bring-a-drone-to-egypt",
+          "faq-entry-can-i-drink-the-tap-water-in-egypt",
+          "faq-entry-can-i-get-a-sim-card-in-egypt",
+          "faq-entry-do-i-need-a-visa-for-egypt",
+          "faq-entry-how-and-when-do-i-pay",
+          "faq-entry-how-do-i-avoid-tourist-scams",
+          "faq-entry-how-does-booking-with-travel2egypt-work",
+          "faq-entry-how-does-tipping-work-in-egypt",
+          "faq-entry-how-much-should-i-budget-per-day",
+          "faq-entry-how-widely-is-english-spoken",
+          "faq-entry-is-egypt-safe-to-travel-right-now",
+          "faq-entry-what-are-some-useful-arabic-phrases",
+          "faq-entry-what-currency-does-egypt-use",
+          "faq-entry-what-time-zone-is-egypt",
+          "faq-entry-what-vaccinations-do-i-need-for-egypt",
+          "faq-entry-whats-the-basic-cultural-etiquette",
+          "faq-entry-whats-the-cancellation-policy",
+          "faq-entry-whats-the-dress-code",
+          "faq-entry-whats-the-legal-drinking-age",
+          "faq-entry-when-does-your-team-respond-to-inquiries",
+          "faq-entry-when-is-the-best-time-to-visit-egypt",
+          "faq-entry-why-dont-you-publish-prices-on-your-website"
+        ],
+        "enButNoJa": [
+          "faq-entry-are-credit-cards-accepted-everywhere",
+          "faq-entry-are-there-restrictions-on-photography",
+          "faq-entry-can-i-bring-a-drone-to-egypt",
+          "faq-entry-can-i-drink-the-tap-water-in-egypt",
+          "faq-entry-can-i-get-a-sim-card-in-egypt",
+          "faq-entry-do-i-need-a-visa-for-egypt",
+          "faq-entry-how-and-when-do-i-pay",
+          "faq-entry-how-do-i-avoid-tourist-scams",
+          "faq-entry-how-does-booking-with-travel2egypt-work",
+          "faq-entry-how-does-tipping-work-in-egypt",
+          "faq-entry-how-much-should-i-budget-per-day",
+          "faq-entry-how-widely-is-english-spoken",
+          "faq-entry-is-egypt-safe-to-travel-right-now",
+          "faq-entry-what-are-some-useful-arabic-phrases",
+          "faq-entry-what-currency-does-egypt-use",
+          "faq-entry-what-time-zone-is-egypt",
+          "faq-entry-what-vaccinations-do-i-need-for-egypt",
+          "faq-entry-whats-the-basic-cultural-etiquette",
+          "faq-entry-whats-the-cancellation-policy",
+          "faq-entry-whats-the-dress-code",
+          "faq-entry-whats-the-legal-drinking-age",
+          "faq-entry-when-does-your-team-respond-to-inquiries",
+          "faq-entry-when-is-the-best-time-to-visit-egypt",
+          "faq-entry-why-dont-you-publish-prices-on-your-website"
+        ]
+      },
+      "question": {
+        "en": 24,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "faq-entry-are-credit-cards-accepted-everywhere",
+          "faq-entry-are-there-restrictions-on-photography",
+          "faq-entry-can-i-bring-a-drone-to-egypt",
+          "faq-entry-can-i-drink-the-tap-water-in-egypt",
+          "faq-entry-can-i-get-a-sim-card-in-egypt",
+          "faq-entry-do-i-need-a-visa-for-egypt",
+          "faq-entry-how-and-when-do-i-pay",
+          "faq-entry-how-do-i-avoid-tourist-scams",
+          "faq-entry-how-does-booking-with-travel2egypt-work",
+          "faq-entry-how-does-tipping-work-in-egypt",
+          "faq-entry-how-much-should-i-budget-per-day",
+          "faq-entry-how-widely-is-english-spoken",
+          "faq-entry-is-egypt-safe-to-travel-right-now",
+          "faq-entry-what-are-some-useful-arabic-phrases",
+          "faq-entry-what-currency-does-egypt-use",
+          "faq-entry-what-time-zone-is-egypt",
+          "faq-entry-what-vaccinations-do-i-need-for-egypt",
+          "faq-entry-whats-the-basic-cultural-etiquette",
+          "faq-entry-whats-the-cancellation-policy",
+          "faq-entry-whats-the-dress-code",
+          "faq-entry-whats-the-legal-drinking-age",
+          "faq-entry-when-does-your-team-respond-to-inquiries",
+          "faq-entry-when-is-the-best-time-to-visit-egypt",
+          "faq-entry-why-dont-you-publish-prices-on-your-website"
+        ],
+        "enButNoJa": [
+          "faq-entry-are-credit-cards-accepted-everywhere",
+          "faq-entry-are-there-restrictions-on-photography",
+          "faq-entry-can-i-bring-a-drone-to-egypt",
+          "faq-entry-can-i-drink-the-tap-water-in-egypt",
+          "faq-entry-can-i-get-a-sim-card-in-egypt",
+          "faq-entry-do-i-need-a-visa-for-egypt",
+          "faq-entry-how-and-when-do-i-pay",
+          "faq-entry-how-do-i-avoid-tourist-scams",
+          "faq-entry-how-does-booking-with-travel2egypt-work",
+          "faq-entry-how-does-tipping-work-in-egypt",
+          "faq-entry-how-much-should-i-budget-per-day",
+          "faq-entry-how-widely-is-english-spoken",
+          "faq-entry-is-egypt-safe-to-travel-right-now",
+          "faq-entry-what-are-some-useful-arabic-phrases",
+          "faq-entry-what-currency-does-egypt-use",
+          "faq-entry-what-time-zone-is-egypt",
+          "faq-entry-what-vaccinations-do-i-need-for-egypt",
+          "faq-entry-whats-the-basic-cultural-etiquette",
+          "faq-entry-whats-the-cancellation-policy",
+          "faq-entry-whats-the-dress-code",
+          "faq-entry-whats-the-legal-drinking-age",
+          "faq-entry-when-does-your-team-respond-to-inquiries",
+          "faq-entry-when-is-the-best-time-to-visit-egypt",
+          "faq-entry-why-dont-you-publish-prices-on-your-website"
+        ]
+      }
+    }
+  },
+  "guideArticle": {
+    "count": 724,
+    "fields": {
+      "body": {
+        "en": 724,
+        "es": 722,
+        "ja": 722,
+        "enButNoEs": [
+          "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+          "guideArticle.cairo.mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05"
+        ],
+        "enButNoJa": [
+          "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+          "guideArticle.cairo.mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05"
+        ]
+      },
+      "slug": {
+        "en": 724,
+        "es": 724,
+        "ja": 724,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "summary": {
+        "en": 724,
+        "es": 722,
+        "ja": 722,
+        "enButNoEs": [
+          "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+          "guideArticle.cairo.mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05"
+        ],
+        "enButNoJa": [
+          "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+          "guideArticle.cairo.mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05"
+        ]
+      },
+      "title": {
+        "en": 724,
+        "es": 720,
+        "ja": 721,
+        "enButNoEs": [
+          "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+          "guideArticle.cairo.mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+          "guideArticle.kom-ombo.speos-of-horemheb",
+          "wp-page-75564"
+        ],
+        "enButNoJa": [
+          "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+          "guideArticle.cairo.mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+          "wp-page-75564"
+        ]
+      }
+    }
+  },
+  "homePage": {
+    "count": 1,
+    "fields": {
+      "heroCaption": {
+        "en": 1,
+        "es": 1,
+        "ja": 1,
+        "enButNoEs": [],
+        "enButNoJa": []
+      }
+    }
+  },
+  "hotel": {
+    "count": 78,
+    "fields": {
+      "body": {
+        "en": 77,
+        "es": 77,
+        "ja": 75,
+        "enButNoEs": [],
+        "enButNoJa": [
+          "hotel.naama-bay-hotel-and-resort",
+          "hotel.park-regency-sharm-el-sheikh-resort",
+          "wp-page-131814"
+        ]
+      },
+      "name": {
+        "en": 77,
+        "es": 5,
+        "ja": 75,
+        "enButNoEs": [
+          "hotel.adr-re-amellal-ecolodge-siwa",
+          "hotel.al-tabuna-camp-dakhla-oasis",
+          "hotel.barcelo-tiran-sharm-resort",
+          "hotel.dusit-thani-lake-view",
+          "hotel.ghaliet-siwa-ecolodge",
+          "hotel.intercontinental-cairo-semiramis",
+          "hotel.la-maison-bleue-el-gouna",
+          "hotel.naama-bay-hotel-and-resort",
+          "hotel.naama-bay-promenade-beach-resort-by-accor",
+          "hotel.oberoi-sahl-hasheesh",
+          "hotel.park-regency-sharm-el-sheikh-resort",
+          "hotel.shamsiya-camp-dakhla-oasis",
+          "hotel.taziry-ecolodge-siwa-safari",
+          "hotel.the-waldorf-astoria-cairo",
+          "wp-page-131827",
+          "wp-page-61923",
+          "wp-page-61925",
+          "wp-page-62450",
+          "wp-page-62455",
+          "wp-page-62463",
+          "wp-page-62469",
+          "wp-page-62471",
+          "wp-page-63506",
+          "wp-page-63512",
+          "wp-page-63552",
+          "wp-page-63581",
+          "wp-page-63589",
+          "wp-page-63592",
+          "wp-page-63597",
+          "wp-page-63598",
+          "wp-page-63628",
+          "wp-page-63630",
+          "wp-page-63635",
+          "wp-page-63641",
+          "wp-page-63645",
+          "wp-page-63651",
+          "wp-page-63657",
+          "wp-page-63660",
+          "wp-page-63663",
+          "wp-page-63665",
+          "wp-page-63666",
+          "wp-page-63673",
+          "wp-page-63678",
+          "wp-page-63683",
+          "wp-page-63689",
+          "wp-page-63826",
+          "wp-page-63831",
+          "wp-page-63871",
+          "wp-page-63883",
+          "wp-page-63908",
+          "wp-page-63932",
+          "wp-page-63972",
+          "wp-page-63984",
+          "wp-page-64007",
+          "wp-page-64016",
+          "wp-page-64025",
+          "wp-page-64066",
+          "wp-page-64075",
+          "wp-page-64114",
+          "wp-page-64287",
+          "wp-page-64598",
+          "wp-page-72466",
+          "wp-page-76293",
+          "wp-page-76997",
+          "wp-page-77008",
+          "wp-page-77042",
+          "wp-page-77074",
+          "wp-page-83188",
+          "wp-page-83680",
+          "wp-page-83681",
+          "wp-page-84962",
+          "wp-page-92774"
+        ],
+        "enButNoJa": [
+          "hotel.naama-bay-hotel-and-resort",
+          "hotel.park-regency-sharm-el-sheikh-resort",
+          "wp-page-131814"
+        ]
+      },
+      "slug": {
+        "en": 77,
+        "es": 77,
+        "ja": 75,
+        "enButNoEs": [],
+        "enButNoJa": [
+          "hotel.naama-bay-hotel-and-resort",
+          "hotel.park-regency-sharm-el-sheikh-resort",
+          "wp-page-131814"
+        ]
+      },
+      "summary": {
+        "en": 77,
+        "es": 5,
+        "ja": 75,
+        "enButNoEs": [
+          "hotel.adr-re-amellal-ecolodge-siwa",
+          "hotel.al-tabuna-camp-dakhla-oasis",
+          "hotel.barcelo-tiran-sharm-resort",
+          "hotel.dusit-thani-lake-view",
+          "hotel.ghaliet-siwa-ecolodge",
+          "hotel.intercontinental-cairo-semiramis",
+          "hotel.la-maison-bleue-el-gouna",
+          "hotel.naama-bay-hotel-and-resort",
+          "hotel.naama-bay-promenade-beach-resort-by-accor",
+          "hotel.oberoi-sahl-hasheesh",
+          "hotel.park-regency-sharm-el-sheikh-resort",
+          "hotel.shamsiya-camp-dakhla-oasis",
+          "hotel.taziry-ecolodge-siwa-safari",
+          "hotel.the-waldorf-astoria-cairo",
+          "wp-page-131827",
+          "wp-page-61923",
+          "wp-page-61925",
+          "wp-page-62450",
+          "wp-page-62455",
+          "wp-page-62463",
+          "wp-page-62469",
+          "wp-page-62471",
+          "wp-page-63506",
+          "wp-page-63512",
+          "wp-page-63552",
+          "wp-page-63581",
+          "wp-page-63589",
+          "wp-page-63592",
+          "wp-page-63597",
+          "wp-page-63598",
+          "wp-page-63628",
+          "wp-page-63630",
+          "wp-page-63635",
+          "wp-page-63641",
+          "wp-page-63645",
+          "wp-page-63651",
+          "wp-page-63657",
+          "wp-page-63660",
+          "wp-page-63663",
+          "wp-page-63665",
+          "wp-page-63666",
+          "wp-page-63673",
+          "wp-page-63678",
+          "wp-page-63683",
+          "wp-page-63689",
+          "wp-page-63826",
+          "wp-page-63831",
+          "wp-page-63871",
+          "wp-page-63883",
+          "wp-page-63908",
+          "wp-page-63932",
+          "wp-page-63972",
+          "wp-page-63984",
+          "wp-page-64007",
+          "wp-page-64016",
+          "wp-page-64025",
+          "wp-page-64066",
+          "wp-page-64075",
+          "wp-page-64114",
+          "wp-page-64287",
+          "wp-page-64598",
+          "wp-page-72466",
+          "wp-page-76293",
+          "wp-page-76997",
+          "wp-page-77008",
+          "wp-page-77042",
+          "wp-page-77074",
+          "wp-page-83188",
+          "wp-page-83680",
+          "wp-page-83681",
+          "wp-page-84962",
+          "wp-page-92774"
+        ],
+        "enButNoJa": [
+          "hotel.naama-bay-hotel-and-resort",
+          "hotel.park-regency-sharm-el-sheikh-resort",
+          "wp-page-131814"
+        ]
+      }
+    }
+  },
+  "hotelsArchive": {
+    "count": 1,
+    "fields": {
+      "essay": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "hotelsArchive"
+        ],
+        "enButNoJa": [
+          "hotelsArchive"
+        ]
+      },
+      "essayHeading": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "hotelsArchive"
+        ],
+        "enButNoJa": [
+          "hotelsArchive"
+        ]
+      },
+      "kicker": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "hotelsArchive"
+        ],
+        "enButNoJa": [
+          "hotelsArchive"
+        ]
+      },
+      "mastTitle": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "hotelsArchive"
+        ],
+        "enButNoJa": [
+          "hotelsArchive"
+        ]
+      },
+      "tagline": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "hotelsArchive"
+        ],
+        "enButNoJa": [
+          "hotelsArchive"
+        ]
+      }
+    }
+  },
+  "legalPage": {
+    "count": 4,
+    "fields": {
+      "body": {
+        "en": 4,
+        "es": 4,
+        "ja": 4,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "slug": {
+        "en": 4,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "legal-cookie-policy",
+          "legal-disclaimer",
+          "legal-privacy-policy",
+          "legal-terms"
+        ],
+        "enButNoJa": [
+          "legal-cookie-policy",
+          "legal-disclaimer",
+          "legal-privacy-policy",
+          "legal-terms"
+        ]
+      },
+      "title": {
+        "en": 4,
+        "es": 4,
+        "ja": 4,
+        "enButNoEs": [],
+        "enButNoJa": []
+      }
+    }
+  },
+  "nileCruise": {
+    "count": 50,
+    "fields": {
+      "body": {
+        "en": 50,
+        "es": 50,
+        "ja": 50,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "name": {
+        "en": 50,
+        "es": 2,
+        "ja": 50,
+        "enButNoEs": [
+          "nileCruise.amawaterways-amadahlia-nile-cruise",
+          "nileCruise.amawaterways-amalilia-nile-cruise",
+          "nileCruise.eyaru-dahabiya",
+          "nileCruise.la-flaneuse-du-nil-dahabiya",
+          "nileCruise.lazuli-dahabiya",
+          "nileCruise.ms-eugenie-lake-nasser-cruise",
+          "nileCruise.nour-el-nil-dahabiya",
+          "nileCruise.oberoi-philae-nile-cruise",
+          "nileCruise.sanctuary-nile-adventurer",
+          "nileCruise.sanctuary-nile-seray",
+          "nileCruise.sanctuary-sun-boat-iii",
+          "nileCruise.sanctuary-sun-boat-iv",
+          "nileCruise.sanctuary-zein-nile-chateau",
+          "nileCruise.steam-ship-sudan-nile-cruise",
+          "nileCruise.uniworld-river-tosca-nile-cruise",
+          "nileCruise.viking-aton-nile-cruise",
+          "nileCruise.viking-osiris-nile-cruise",
+          "wp-page-64053",
+          "wp-page-64104",
+          "wp-page-64129",
+          "wp-page-64176",
+          "wp-page-64190",
+          "wp-page-64203",
+          "wp-page-64216",
+          "wp-page-64228",
+          "wp-page-64250",
+          "wp-page-64259",
+          "wp-page-64268",
+          "wp-page-64278",
+          "wp-page-64289",
+          "wp-page-64294",
+          "wp-page-64295",
+          "wp-page-64312",
+          "wp-page-64322",
+          "wp-page-64331",
+          "wp-page-64341",
+          "wp-page-64354",
+          "wp-page-64426",
+          "wp-page-64441",
+          "wp-page-64450",
+          "wp-page-64459",
+          "wp-page-65203",
+          "wp-page-65210",
+          "wp-page-65273",
+          "wp-page-65281",
+          "wp-page-83684",
+          "wp-page-83685",
+          "wp-page-83686"
+        ],
+        "enButNoJa": []
+      },
+      "slug": {
+        "en": 50,
+        "es": 50,
+        "ja": 50,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "summary": {
+        "en": 50,
+        "es": 2,
+        "ja": 50,
+        "enButNoEs": [
+          "nileCruise.amawaterways-amadahlia-nile-cruise",
+          "nileCruise.amawaterways-amalilia-nile-cruise",
+          "nileCruise.eyaru-dahabiya",
+          "nileCruise.la-flaneuse-du-nil-dahabiya",
+          "nileCruise.lazuli-dahabiya",
+          "nileCruise.ms-eugenie-lake-nasser-cruise",
+          "nileCruise.nour-el-nil-dahabiya",
+          "nileCruise.oberoi-philae-nile-cruise",
+          "nileCruise.sanctuary-nile-adventurer",
+          "nileCruise.sanctuary-nile-seray",
+          "nileCruise.sanctuary-sun-boat-iii",
+          "nileCruise.sanctuary-sun-boat-iv",
+          "nileCruise.sanctuary-zein-nile-chateau",
+          "nileCruise.steam-ship-sudan-nile-cruise",
+          "nileCruise.uniworld-river-tosca-nile-cruise",
+          "nileCruise.viking-aton-nile-cruise",
+          "nileCruise.viking-osiris-nile-cruise",
+          "wp-page-64053",
+          "wp-page-64104",
+          "wp-page-64129",
+          "wp-page-64176",
+          "wp-page-64190",
+          "wp-page-64203",
+          "wp-page-64216",
+          "wp-page-64228",
+          "wp-page-64250",
+          "wp-page-64259",
+          "wp-page-64268",
+          "wp-page-64278",
+          "wp-page-64289",
+          "wp-page-64294",
+          "wp-page-64295",
+          "wp-page-64312",
+          "wp-page-64322",
+          "wp-page-64331",
+          "wp-page-64341",
+          "wp-page-64354",
+          "wp-page-64426",
+          "wp-page-64441",
+          "wp-page-64450",
+          "wp-page-64459",
+          "wp-page-65203",
+          "wp-page-65210",
+          "wp-page-65273",
+          "wp-page-65281",
+          "wp-page-83684",
+          "wp-page-83685",
+          "wp-page-83686"
+        ],
+        "enButNoJa": []
+      }
+    }
+  },
+  "nileCruisesArchive": {
+    "count": 1,
+    "fields": {
+      "essay": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "nileCruisesArchive"
+        ],
+        "enButNoJa": [
+          "nileCruisesArchive"
+        ]
+      },
+      "essayHeading": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "nileCruisesArchive"
+        ],
+        "enButNoJa": [
+          "nileCruisesArchive"
+        ]
+      },
+      "kicker": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "nileCruisesArchive"
+        ],
+        "enButNoJa": [
+          "nileCruisesArchive"
+        ]
+      },
+      "mastTitle": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "nileCruisesArchive"
+        ],
+        "enButNoJa": [
+          "nileCruisesArchive"
+        ]
+      },
+      "tagline": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "nileCruisesArchive"
+        ],
+        "enButNoJa": [
+          "nileCruisesArchive"
+        ]
+      }
+    }
+  },
+  "siteSettings": {
+    "count": 1,
+    "fields": {
+      "guideIntro": {
+        "en": 1,
+        "es": 1,
+        "ja": 1,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "guideLead": {
+        "en": 1,
+        "es": 1,
+        "ja": 1,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "guideSignoff": {
+        "en": 1,
+        "es": 1,
+        "ja": 1,
+        "enButNoEs": [],
+        "enButNoJa": []
+      }
+    }
+  },
+  "theme": {
+    "count": 10,
+    "fields": {
+      "name": {
+        "en": 10,
+        "es": 10,
+        "ja": 10,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "slug": {
+        "en": 10,
+        "es": 2,
+        "ja": 2,
+        "enButNoEs": [
+          "theme-adventure",
+          "theme-dahabiya-nile-cruise",
+          "theme-egypt-on-the-go",
+          "theme-egypt-red-sea",
+          "theme-hassle-free",
+          "theme-luxury",
+          "theme-nile-cruise",
+          "theme-special-interest"
+        ],
+        "enButNoJa": [
+          "theme-adventure",
+          "theme-dahabiya-nile-cruise",
+          "theme-egypt-on-the-go",
+          "theme-egypt-red-sea",
+          "theme-hassle-free",
+          "theme-luxury",
+          "theme-nile-cruise",
+          "theme-special-interest"
+        ]
+      },
+      "description": {
+        "en": 2,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "theme-egypt-in-depth",
+          "theme-family-egypt"
+        ],
+        "enButNoJa": [
+          "theme-egypt-in-depth",
+          "theme-family-egypt"
+        ]
+      }
+    }
+  },
+  "tour": {
+    "count": 229,
+    "fields": {
+      "body": {
+        "en": 221,
+        "es": 196,
+        "ja": 193,
+        "enButNoEs": [
+          "wp-page-102370",
+          "wp-page-113061",
+          "wp-page-115168",
+          "wp-page-115614",
+          "wp-page-130027",
+          "wp-page-133412",
+          "wp-page-145910",
+          "wp-page-145919",
+          "wp-page-146018",
+          "wp-page-160096",
+          "wp-page-160129",
+          "wp-page-238357",
+          "wp-page-238371",
+          "wp-page-238461",
+          "wp-page-238546",
+          "wp-page-86790",
+          "wp-page-87460",
+          "wp-page-87558",
+          "wp-page-87600",
+          "wp-page-87832",
+          "wp-page-87834",
+          "wp-page-87840",
+          "wp-page-88176",
+          "wp-page-89348",
+          "wp-page-89602"
+        ],
+        "enButNoJa": [
+          "tour.10-day-egypt-group-tour-cairo-nile-red-sea",
+          "tour.11-day-egypt-group-tour-cairo-red-sea-nile",
+          "tour.9-day-egypt-group-tour-cairo-abu-simbel-nile",
+          "wp-page-102370",
+          "wp-page-113061",
+          "wp-page-115168",
+          "wp-page-115614",
+          "wp-page-130027",
+          "wp-page-133412",
+          "wp-page-145910",
+          "wp-page-145919",
+          "wp-page-146018",
+          "wp-page-160096",
+          "wp-page-160129",
+          "wp-page-238357",
+          "wp-page-238371",
+          "wp-page-238461",
+          "wp-page-238546",
+          "wp-page-86790",
+          "wp-page-87460",
+          "wp-page-87558",
+          "wp-page-87600",
+          "wp-page-87832",
+          "wp-page-87834",
+          "wp-page-87840",
+          "wp-page-88176",
+          "wp-page-89348",
+          "wp-page-89602"
+        ]
+      },
+      "slug": {
+        "en": 229,
+        "es": 224,
+        "ja": 222,
+        "enButNoEs": [
+          "wp-page-158052",
+          "wp-page-238357",
+          "wp-page-238371",
+          "wp-page-238461",
+          "wp-page-238546"
+        ],
+        "enButNoJa": [
+          "tour.10-day-egypt-group-tour-cairo-nile-red-sea",
+          "tour.11-day-egypt-group-tour-cairo-red-sea-nile",
+          "tour.9-day-egypt-group-tour-cairo-abu-simbel-nile",
+          "wp-page-238357",
+          "wp-page-238371",
+          "wp-page-238461",
+          "wp-page-238546"
+        ]
+      },
+      "summary": {
+        "en": 221,
+        "es": 196,
+        "ja": 196,
+        "enButNoEs": [
+          "wp-page-102370",
+          "wp-page-113061",
+          "wp-page-115168",
+          "wp-page-115614",
+          "wp-page-130027",
+          "wp-page-133412",
+          "wp-page-145910",
+          "wp-page-145919",
+          "wp-page-146018",
+          "wp-page-160096",
+          "wp-page-160129",
+          "wp-page-238357",
+          "wp-page-238371",
+          "wp-page-238461",
+          "wp-page-238546",
+          "wp-page-86790",
+          "wp-page-87460",
+          "wp-page-87558",
+          "wp-page-87600",
+          "wp-page-87832",
+          "wp-page-87834",
+          "wp-page-87840",
+          "wp-page-88176",
+          "wp-page-89348",
+          "wp-page-89602"
+        ],
+        "enButNoJa": [
+          "wp-page-102370",
+          "wp-page-113061",
+          "wp-page-115168",
+          "wp-page-115614",
+          "wp-page-130027",
+          "wp-page-133412",
+          "wp-page-145910",
+          "wp-page-145919",
+          "wp-page-146018",
+          "wp-page-160096",
+          "wp-page-160129",
+          "wp-page-238357",
+          "wp-page-238371",
+          "wp-page-238461",
+          "wp-page-238546",
+          "wp-page-86790",
+          "wp-page-87460",
+          "wp-page-87558",
+          "wp-page-87600",
+          "wp-page-87832",
+          "wp-page-87834",
+          "wp-page-87840",
+          "wp-page-88176",
+          "wp-page-89348",
+          "wp-page-89602"
+        ]
+      },
+      "title": {
+        "en": 229,
+        "es": 229,
+        "ja": 229,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "durationLabel": {
+        "en": 2,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "wp-page-113005",
+          "wp-page-87637"
+        ],
+        "enButNoJa": [
+          "wp-page-113005",
+          "wp-page-87637"
+        ]
+      },
+      "departsFrom": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "wp-page-87637"
+        ],
+        "enButNoJa": [
+          "wp-page-87637"
+        ]
+      },
+      "effortLevel": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "wp-page-87637"
+        ],
+        "enButNoJa": [
+          "wp-page-87637"
+        ]
+      },
+      "groupSize": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "wp-page-87637"
+        ],
+        "enButNoJa": [
+          "wp-page-87637"
+        ]
+      },
+      "includedItems": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "wp-page-87637"
+        ],
+        "enButNoJa": [
+          "wp-page-87637"
+        ]
+      },
+      "notIncludedItems": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "wp-page-87637"
+        ],
+        "enButNoJa": [
+          "wp-page-87637"
+        ]
+      },
+      "priceNote": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "wp-page-87637"
+        ],
+        "enButNoJa": [
+          "wp-page-87637"
+        ]
+      }
+    }
+  },
+  "tourCategory": {
+    "count": 4,
+    "fields": {
+      "slug": {
+        "en": 4,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "tourCategory.group-day-tour",
+          "tourCategory.group-package",
+          "tourCategory.private-day-tour",
+          "tourCategory.private-package"
+        ],
+        "enButNoJa": [
+          "tourCategory.group-day-tour",
+          "tourCategory.group-package",
+          "tourCategory.private-day-tour",
+          "tourCategory.private-package"
+        ]
+      },
+      "summary": {
+        "en": 4,
+        "es": 2,
+        "ja": 2,
+        "enButNoEs": [
+          "tourCategory.group-day-tour",
+          "tourCategory.private-day-tour"
+        ],
+        "enButNoJa": [
+          "tourCategory.group-day-tour",
+          "tourCategory.private-day-tour"
+        ]
+      },
+      "title": {
+        "en": 4,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "tourCategory.group-day-tour",
+          "tourCategory.group-package",
+          "tourCategory.private-day-tour",
+          "tourCategory.private-package"
+        ],
+        "enButNoJa": [
+          "tourCategory.group-day-tour",
+          "tourCategory.group-package",
+          "tourCategory.private-day-tour",
+          "tourCategory.private-package"
+        ]
+      },
+      "intro": {
+        "en": 2,
+        "es": 2,
+        "ja": 2,
+        "enButNoEs": [],
+        "enButNoJa": []
+      }
+    }
+  },
+  "tourLanding": {
+    "count": 28,
+    "fields": {
+      "intro": {
+        "en": 28,
+        "es": 28,
+        "ja": 28,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "slug": {
+        "en": 28,
+        "es": 15,
+        "ja": 15,
+        "enButNoEs": [
+          "tourLanding.authentic-dahabiya-nile-cruise",
+          "tourLanding.egypt-and-the-red-sea",
+          "tourLanding.egypt-family-holidays",
+          "tourLanding.egypt-group-tours-from-japan",
+          "tourLanding.egypt-group-tours-from-uk-europe",
+          "tourLanding.egypt-group-tours-from-usa-canada",
+          "tourLanding.egypt-in-depth",
+          "tourLanding.egypt-luxury-holidays",
+          "tourLanding.egypt-on-the-go",
+          "tourLanding.hassle-free-egypt",
+          "tourLanding.multiday-adventure-and-safari-tours",
+          "tourLanding.nile-cruise-holidays",
+          "tourLanding.special-interest-tours"
+        ],
+        "enButNoJa": [
+          "tourLanding.authentic-dahabiya-nile-cruise",
+          "tourLanding.egypt-and-the-red-sea",
+          "tourLanding.egypt-family-holidays",
+          "tourLanding.egypt-group-tours-from-japan",
+          "tourLanding.egypt-group-tours-from-uk-europe",
+          "tourLanding.egypt-group-tours-from-usa-canada",
+          "tourLanding.egypt-in-depth",
+          "tourLanding.egypt-luxury-holidays",
+          "tourLanding.egypt-on-the-go",
+          "tourLanding.hassle-free-egypt",
+          "tourLanding.multiday-adventure-and-safari-tours",
+          "tourLanding.nile-cruise-holidays",
+          "tourLanding.special-interest-tours"
+        ]
+      },
+      "title": {
+        "en": 28,
+        "es": 28,
+        "ja": 28,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "summary": {
+        "en": 13,
+        "es": 13,
+        "ja": 13,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "heroNote": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "tourLanding.sharm-el-sheikh-private-day-tours"
+        ],
+        "enButNoJa": [
+          "tourLanding.sharm-el-sheikh-private-day-tours"
+        ]
+      }
+    }
+  },
+  "translation.metadata": {
+    "count": 332,
+    "fields": {
+      "translations": {
+        "en": 0,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [],
+        "enButNoJa": []
+      }
+    }
+  },
+  "travelTip": {
+    "count": 31,
+    "fields": {
+      "body": {
+        "en": 31,
+        "es": 31,
+        "ja": 30,
+        "enButNoEs": [],
+        "enButNoJa": [
+          "wp-page-77776"
+        ]
+      },
+      "slug": {
+        "en": 31,
+        "es": 31,
+        "ja": 30,
+        "enButNoEs": [],
+        "enButNoJa": [
+          "wp-page-77776"
+        ]
+      },
+      "summary": {
+        "en": 31,
+        "es": 31,
+        "ja": 30,
+        "enButNoEs": [],
+        "enButNoJa": [
+          "wp-page-77776"
+        ]
+      },
+      "title": {
+        "en": 31,
+        "es": 31,
+        "ja": 30,
+        "enButNoEs": [],
+        "enButNoJa": [
+          "wp-page-77776"
+        ]
+      }
+    }
+  },
+  "travelTipCategory": {
+    "count": 7,
+    "fields": {
+      "description": {
+        "en": 7,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "travelTipCategory-culture-and-money",
+          "travelTipCategory-food",
+          "travelTipCategory-getting-around",
+          "travelTipCategory-introducing-egypt",
+          "travelTipCategory-practical-essentials",
+          "travelTipCategory-traveler-segments",
+          "travelTipCategory-when-to-go"
+        ],
+        "enButNoJa": [
+          "travelTipCategory-culture-and-money",
+          "travelTipCategory-food",
+          "travelTipCategory-getting-around",
+          "travelTipCategory-introducing-egypt",
+          "travelTipCategory-practical-essentials",
+          "travelTipCategory-traveler-segments",
+          "travelTipCategory-when-to-go"
+        ]
+      },
+      "name": {
+        "en": 7,
+        "es": 6,
+        "ja": 6,
+        "enButNoEs": [
+          "travelTipCategory-introducing-egypt"
+        ],
+        "enButNoJa": [
+          "travelTipCategory-introducing-egypt"
+        ]
+      },
+      "slug": {
+        "en": 7,
+        "es": 6,
+        "ja": 6,
+        "enButNoEs": [
+          "travelTipCategory-introducing-egypt"
+        ],
+        "enButNoJa": [
+          "travelTipCategory-introducing-egypt"
+        ]
+      }
+    }
+  },
+  "travelTipsArchive": {
+    "count": 1,
+    "fields": {
+      "essay": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "travelTipsArchive"
+        ],
+        "enButNoJa": [
+          "travelTipsArchive"
+        ]
+      },
+      "essayHeading": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "travelTipsArchive"
+        ],
+        "enButNoJa": [
+          "travelTipsArchive"
+        ]
+      },
+      "kicker": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "travelTipsArchive"
+        ],
+        "enButNoJa": [
+          "travelTipsArchive"
+        ]
+      },
+      "mastTitle": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "travelTipsArchive"
+        ],
+        "enButNoJa": [
+          "travelTipsArchive"
+        ]
+      },
+      "tagline": {
+        "en": 1,
+        "es": 0,
+        "ja": 0,
+        "enButNoEs": [
+          "travelTipsArchive"
+        ],
+        "enButNoJa": [
+          "travelTipsArchive"
+        ]
+      }
+    }
+  },
+  "wikiMonument": {
+    "count": 134,
+    "fields": {
+      "body": {
+        "en": 134,
+        "es": 134,
+        "ja": 134,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "name": {
+        "en": 134,
+        "es": 134,
+        "ja": 134,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "slug": {
+        "en": 134,
+        "es": 134,
+        "ja": 134,
+        "enButNoEs": [],
+        "enButNoJa": []
+      },
+      "summary": {
+        "en": 134,
+        "es": 134,
+        "ja": 134,
+        "enButNoEs": [],
+        "enButNoJa": []
+      }
+    }
+  }
+}
