@@ -9678,6 +9678,21 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/safaga-to-luxor-full-day-group-ancient-city-adventure",
+    "destination": "/safaga-to-luxor-full-day-ancient-city-exploration",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-un-dia-a-luxor-desde-hurghada-unete-a-nuestro-recorrido-en-grupo-por-los-sitios-antiguos",
+    "destination": "/es/de-safaga-a-luxor-dia-completo-entre-templos-tumbas-y-colosos",
+    "permanent": true
+  },
+  {
+    "source": "/ja/furugada-hatsu-rukusoru-higaeri-tsua-kodai-iseki-o-meguru",
+    "destination": "/ja/safaga-hatsu-rukusoru-shinden-haka-zo-o-meguru-shujitsu-tsua",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
