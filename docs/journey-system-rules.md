@@ -19,6 +19,19 @@ Packages. EVERY query (index, per-city/theme counts, navigator, related) scopes 
 bucket's (type, mode) pair. Exclude docs with unset type or mode. Verify every count
 against the CMS before closing.
 
+### 2.1 Day-by-day itinerary — GROUP packages ONLY (critical, do not get this wrong)
+- **GROUP packages (`type=="package" && tourMode=="group"`) HAVE a structured day-by-day
+  itinerary** (the `days[]` field / a per-day grid). It is expected/required for them.
+- **PRIVATE packages (`type=="package" && tourMode=="private"`) DO NOT have a day-by-day
+  itinerary.** They describe how the days go in PROSE in the body (region/theme `###`
+  headings + a "The shape of the journey" block), with **no `days[]` grid**.
+  Reference format: `/<slug>` of any imported private package, e.g. `marriott-mena-house-4-days-stay`.
+- Day tours: single day, no `days[]`.
+- Consequence: never populate `days[]` on a private package; never strip `days[]` from a
+  group package. When auditing/cleaning, scope strictly by `tourMode`.
+  (History: 76 private packages carried a legacy `days[]` from the WP migration; these were
+  stripped/replaced with prose. Group packages were left untouched.)
+
 ## 3. Frame + content (never ship a blank frame)
 - Required editorial fields (byline heading + note, section intros) are seeded so they
   never render blank.
