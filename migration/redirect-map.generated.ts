@@ -9693,6 +9693,31 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/3-days-cairo-highlights-for-friends",
+    "destination": "/the-elegant-cairo-4-days-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/3-days-cairo-highlights-for-friends",
+    "destination": "/es/el-cairo-elegante-4-dias-entre-la-ciudad-antigua-y-la-ciudad-viva",
+    "permanent": true
+  },
+  {
+    "source": "/ja/3-days-cairo-highlights-for-friends",
+    "destination": "/ja/ereganto-kairo-kodai-to-gendai-no-machi-o-meguru-4-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/es/cairo-in-3-days-insider-edition-solo-traveller",
+    "destination": "/es/el-cairo-elegante-4-dias-entre-la-ciudad-antigua-y-la-ciudad-viva",
+    "permanent": true
+  },
+  {
+    "source": "/ja/cairo-in-3-days-insider-edition-solo-traveller",
+    "destination": "/ja/ereganto-kairo-kodai-to-gendai-no-machi-o-meguru-4-nichikan",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
