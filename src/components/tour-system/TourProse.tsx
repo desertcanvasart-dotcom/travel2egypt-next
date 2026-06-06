@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import { PortableText, type PortableTextComponents } from '@portabletext/react';
 
 import { pickLocalized } from '@/sanity/lib/i18n';
+import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
 
 /**
@@ -61,6 +63,29 @@ export function TourProse({ value, locale }: { value: unknown; locale: Locale })
       h4: ({ children }) => <h2>{children}</h2>,
     },
     types: {
+      image: ({ value: v }) => {
+        const img = v as { asset?: { _ref?: string }; alt?: Loc; caption?: Loc };
+        if (!img?.asset?._ref) return null;
+        const url = urlFor(img).width(1400).quality(85).url();
+        // Preserve the asset's aspect ratio (ref ends in "-WxH-ext").
+        const dims = img.asset._ref.match(/-(\d+)x(\d+)-/);
+        const w = dims ? Number(dims[1]) : 1400;
+        const h = dims ? Number(dims[2]) : 900;
+        const alt = read(img.alt, locale);
+        const caption = read(img.caption, locale);
+        return (
+          <figure className="prose-figure">
+            <Image
+              src={url}
+              alt={alt}
+              width={w}
+              height={h}
+              sizes="(max-width: 760px) 100vw, 720px"
+            />
+            {caption && <figcaption>{caption}</figcaption>}
+          </figure>
+        );
+      },
       pullQuote: ({ value: v }) => {
         const quote = read((v as { quote?: Loc }).quote, locale);
         if (!quote) return null;
