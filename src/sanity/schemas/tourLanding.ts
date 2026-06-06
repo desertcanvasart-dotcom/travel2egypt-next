@@ -86,6 +86,7 @@ export const tourLandingSchema = defineType({
           { title: 'Japan & East Asia', value: 'japan-east-asia' },
           { title: 'USA & Canada', value: 'usa-canada' },
           { title: 'UK & Europe', value: 'uk-europe' },
+          { title: 'Australia', value: 'australia' },
         ],
         layout: 'radio',
       },
