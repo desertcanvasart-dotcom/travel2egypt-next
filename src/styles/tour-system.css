@@ -485,7 +485,7 @@
 .lvl-single .tiers .tp { font-family: var(--display); font-size: 22px; color: var(--navy); white-space: nowrap; }
 .lvl-single .tiers .tp small { font-size: 12px; color: var(--navy-mute); }
 .lvl-single .price-note { font-family: var(--ui); font-size: 11px; line-height: 1.5; color: var(--navy-mute); margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--rule-soft); }
-.lvl-single .rail-cta { display: block; text-align: center; background: var(--navy); color: var(--paper); text-decoration: none; font-family: var(--ui); font-size: 13px; letter-spacing: .04em; padding: 15px; transition: .2s; }
+.lvl-single .rail-cta { display: block; width: 100%; box-sizing: border-box; text-align: center; background: var(--navy); color: var(--paper); text-decoration: none; font-family: var(--ui); font-size: 13px; letter-spacing: .04em; padding: 15px; border: 1px solid transparent; margin-top: 18px; transition: .2s; cursor: pointer; }
 .lvl-single .rail-cta:hover { background: var(--black); }
 .lvl-single .rail-cta.ghost { background: transparent; color: var(--navy); border: 1px solid var(--rule); margin-top: 10px; }
 .lvl-single .rail-cta.ghost:hover { border-color: var(--navy); background: transparent; color: var(--gold-dark); }
@@ -597,6 +597,10 @@ html[lang='ja'] .tour-doc :is(h1, h2, h3, h4) {
 html[lang='ja'] .tour-doc :is(.t2e-kicker, .t2e-eyebrow, .meta, .label, .tr-dur, .filter-label, .ck, .rk) {
   letter-spacing: 0.06em;
 }
+/* "お問い合わせ" (on-request price) is 6 full-width glyphs — at the Latin price
+   size it wraps in the narrow departures-table price column. Shrink it for JA so
+   it stays on one line. */
+html[lang='ja'] .lvl-single .dep-row .dp-price { font-size: 16px; white-space: nowrap; }
 
 /* ===========================================================================
  * GUIDE ARCHIVE (journey-guide-archive.html) → .lvl-guide
