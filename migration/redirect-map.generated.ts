@@ -9578,6 +9578,106 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/aswan-and-abu-simbel-from-luxor",
+    "destination": "/2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/trio-majestuoso-de-egipto-de-2-dias-asuan-y-abu-simbel-desde-luxor",
+    "destination": "/es/dos-dias-de-luxor-a-abu-simbel-con-una-noche-por-medio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/2-nichikan-de-ejiputo-no-sodai-na-san-juso-rukusoru-kara",
+    "destination": "/ja/rukusoru-kara-abu-shin-beru-e-ni-nichikan-tochu-ni-ichiya-o",
+    "permanent": true
+  },
+  {
+    "source": "/2-day-desert-nature-wildlife-retreat",
+    "destination": "/2-day-nubian-desert-nature-wildlife-retreat",
+    "permanent": true
+  },
+  {
+    "source": "/ja/2-nichikan-no-nubia-sabaku-no-shizen-to-yasei-dobutsu-no",
+    "destination": "/ja/nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no",
+    "permanent": true
+  },
+  {
+    "source": "/private-tour-2-day-trip-to-bahariya-oasis",
+    "destination": "/desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/oasis-del-desierto-excursion-privada-2-dias-bahariya-desde-cairo",
+    "destination": "/es/dos-dias-desde-el-cairo-al-desierto-occidental-bahariya-negro-y-blanco",
+    "permanent": true
+  },
+  {
+    "source": "/ja/sabaku-no-oashisu-2-nichikan-no",
+    "destination": "/ja/kairo-kara-seiho-sabaku-e-ni-nichikan-bahareiya-kuro-sabaku",
+    "permanent": true
+  },
+  {
+    "source": "/private-tour-2-days-1-night-trip-to-saint-catherine-from-cairo",
+    "destination": "/mount-sinai-pilgrimage-2-day-trip-to-saint-catherine-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/peregrinacion-al-monte-sinai-viaje-de-2-dias-a-santa-catalina-desde-el-cairo",
+    "destination": "/es/dos-dias-desde-el-cairo-al-monte-sinai-y-a-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/ja/shinai-san-junrei-kairo-kara-hijiri-katarina-e-no-2-nichikan",
+    "destination": "/ja/kairo-kara-shinai-san-to-sei-katarina-shudoin-e-ni",
+    "permanent": true
+  },
+  {
+    "source": "/ramasside-tours",
+    "destination": "/ramasside-tours-desert-adventure-snorkeling-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-ramasside-aventura-en-el-desierto-y-experiencia-de-snorkel",
+    "destination": "/es/de-sharm-a-dahab-un-dia-entre-el-desierto-del-sinai-y-el-blue-hole",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ramesses-jidai-tsua",
+    "destination": "/ja/sharumu-kara-dahabu-e-shinai-sabaku-no-nairiku-to-buruhoru-o",
+    "permanent": true
+  },
+  {
+    "source": "/sunrise-hot-air-balloon-ride-over-luxors-ancient-landmarks",
+    "destination": "/skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/paseo-en-globo-al-amanecer-sobre-los-antiguos-monumentos-de-luxor",
+    "destination": "/es/globo-al-amanecer-en-luxor-media-hora-sobre-la-orilla-occidental",
+    "permanent": true
+  },
+  {
+    "source": "/ja/rukusoru-no-kodai-iseki-o-sora-kara-nagameru-asayake-no",
+    "destination": "/ja/rukusoru-yoake-no-netsu-kikyu-seigan-o-sora-kara-san-ju-fun",
+    "permanent": true
+  },
+  {
+    "source": "/siwa-oasis-adventure-tour",
+    "destination": "/3-day-siwa-journey-from-alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-aventura-de-3-dias-al-encantador-oasis-de-siwa",
+    "destination": "/es/tres-dias-de-alejandria-a-siwa-costa-guerra-del-desierto-oraculo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/3-nichikan-no-miwaku-teki-na-shiwa-oashisu-boken-tsua",
+    "destination": "/ja/arekusandoria-kara-shiwa-e-san-nichikan-umi-sabaku-no",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
