@@ -481,9 +481,9 @@
 .lvl-single .tiers .tp { font-family: var(--display); font-size: 22px; color: var(--navy); white-space: nowrap; }
 .lvl-single .tiers .tp small { font-size: 12px; color: var(--navy-mute); }
 .lvl-single .price-note { font-family: var(--ui); font-size: 11px; line-height: 1.5; color: var(--navy-mute); margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--rule-soft); }
-.lvl-single .rail-cta { display: block; text-align: center; background: var(--navy); color: var(--paper); text-decoration: none; font-family: var(--ui); font-size: 13px; letter-spacing: .04em; padding: 15px; transition: .2s; }
+.lvl-single .rail-cta { display: block; text-align: center; background: var(--navy); color: var(--paper); text-decoration: none; font-family: var(--ui); font-size: 13px; letter-spacing: .04em; padding: 15px; margin-top: 18px; transition: .2s; }
 .lvl-single .rail-cta:hover { background: var(--black); }
-.lvl-single .rail-cta.ghost { background: transparent; color: var(--navy); border: 1px solid var(--rule); margin-top: 10px; }
+.lvl-single .rail-cta.ghost { background: transparent; color: var(--navy); border: 1px solid var(--rule); margin-top: 10px; text-align: left; }
 .lvl-single .rail-cta.ghost:hover { border-color: var(--navy); background: transparent; color: var(--gold-dark); }
 .lvl-single .trust { list-style: none; }
 .lvl-single .trust li { font-family: var(--ui); font-size: 12px; line-height: 1.4; color: var(--navy-mute); padding: 9px 0 9px 22px; position: relative; border-top: 1px solid var(--rule-soft); }
