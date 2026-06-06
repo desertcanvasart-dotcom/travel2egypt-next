@@ -583,21 +583,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/private-tour-valley-of-kings-temples-day-tour",
-    "destination": "/grand-west-bank-group-day-tour-luxor",
-    "permanent": true
-  },
-  {
-    "source": "/es/excursion-de-un-dia-al-valle-de-los-reyes-y-los-templos",
-    "destination": "/es/grand-west-bank-group-day-tour-luxor",
-    "permanent": true
-  },
-  {
-    "source": "/ja/oke-no-tani-to-shinden-higaeri-tsua",
-    "destination": "/ja/grand-west-bank-group-day-tour-luxor",
-    "permanent": true
-  },
-  {
     "source": "/11-day-luxor-to-cairo-egypt-nile-cruise-vacation",
     "destination": "/egypt-group-tours-from-usa-canada",
     "permanent": true
