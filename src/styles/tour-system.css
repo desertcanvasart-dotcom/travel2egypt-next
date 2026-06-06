@@ -539,16 +539,16 @@
 .lvl-single .dp-join.is-disabled { pointer-events: none; color: var(--navy-mute); border-color: var(--rule-soft); }
 .lvl-single .dep-note { font-family: var(--read); font-style: italic; font-size: 15px; color: var(--navy-mute); margin-top: 18px; line-height: 1.5; }
 
-/* next-departure rail card (dark, leads the rail) */
-.lvl-single .rdep { background: var(--black); color: var(--paper); border-color: var(--black); }
-.lvl-single .rdep .ck { color: var(--gold); }
-.lvl-single .rdep .nd-date { font-family: var(--display); font-size: 26px; line-height: 1.05; color: var(--paper); margin-bottom: 8px; }
-.lvl-single .rdep .nd-status { font-family: var(--ui); font-size: 12px; letter-spacing: .06em; color: #9dbb9f; margin-bottom: 16px; }
-.lvl-single .rdep .nd-next { font-family: var(--read); font-size: 14px; color: rgba(250, 246, 236, .66); line-height: 1.5; border-top: 1px solid rgba(250, 246, 236, .16); padding-top: 14px; margin-bottom: 18px; }
-.lvl-single .rdep .nd-btn { display: block; text-align: center; background: var(--paper); color: var(--black); font-family: var(--ui); font-size: 13px; letter-spacing: .04em; text-decoration: none; padding: 14px; transition: .2s; border: 0; width: 100%; cursor: pointer; }
-.lvl-single .rdep .nd-btn:hover { background: var(--gold); }
-.lvl-single .rdep .nd-all { display: block; text-align: center; font-family: var(--ui); font-size: 12px; color: rgba(250, 246, 236, .7); text-decoration: none; margin-top: 12px; }
-.lvl-single .rdep .nd-all:hover { color: var(--gold); }
+/* next-departure rail card — leads the rail on the light surface with a thin
+   gold top-accent and hairline rules instead of a dark fill. */
+.lvl-single .rdep { background: var(--paper); border-top: 2px solid var(--gold-dark); }
+.lvl-single .rdep .nd-date { font-family: var(--display); font-size: 26px; line-height: 1.05; color: var(--navy); margin-bottom: 8px; }
+.lvl-single .rdep .nd-status { font-family: var(--ui); font-size: 12px; letter-spacing: .06em; color: var(--navy-mute); margin-bottom: 16px; }
+.lvl-single .rdep .nd-next { font-family: var(--read); font-size: 14px; color: var(--navy-mute); line-height: 1.5; border-top: 1px solid var(--rule-soft); padding-top: 14px; margin-bottom: 18px; }
+.lvl-single .rdep .nd-btn { display: block; text-align: center; background: var(--navy); color: var(--paper); font-family: var(--ui); font-size: 13px; letter-spacing: .04em; text-decoration: none; padding: 14px; transition: .2s; border: 0; width: 100%; cursor: pointer; }
+.lvl-single .rdep .nd-btn:hover { background: var(--black); }
+.lvl-single .rdep .nd-all { display: block; text-align: center; font-family: var(--ui); font-size: 12px; color: var(--navy-mute); text-decoration: none; margin-top: 12px; }
+.lvl-single .rdep .nd-all:hover { color: var(--gold-dark); }
 
 @media (max-width: 980px) {
   .lvl-single .layout { grid-template-columns: 1fr; gap: 40px; }
