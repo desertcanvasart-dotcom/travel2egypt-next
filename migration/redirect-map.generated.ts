@@ -9703,6 +9703,51 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/10-day-romantic-egypt-deals-from-spain",
+    "destination": "/egypt-group-tours-from-uk-europe",
+    "permanent": true
+  },
+  {
+    "source": "/es/amor-en-el-nilo-ofertas-de-viaje-romantico-por-egipto-de-10-dias-desde-espana",
+    "destination": "/es/egypt-group-tours-from-uk-europe",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nairu-gawa-no-koi-supein-hatsu-10-nichikan-no",
+    "destination": "/ja/egypt-group-tours-from-uk-europe",
+    "permanent": true
+  },
+  {
+    "source": "/9-day-prestigious-egypt-vacation",
+    "destination": "/9-days-egypt-prestigious-vacation",
+    "permanent": true
+  },
+  {
+    "source": "/es/lujo-y-legado-paquete-prestigioso-de-vacaciones-de-9-dias-a-egipto-desde-india",
+    "destination": "/es/egipto-prestigioso-en-9-dias-luxor-el-nilo-asuan-y-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ragujuari-regashi-india-hatsu-9-nichikan-no-ejiputo-kokyu",
+    "destination": "/ja/9-nichikan-pure-suteji-ejiputo-no-kyujitsu-rukusoru-nairu",
+    "permanent": true
+  },
+  {
+    "source": "/14-day-egypt-tour-package-for-families",
+    "destination": "/14-day-egypt-luxury-family-holiday",
+    "permanent": true
+  },
+  {
+    "source": "/es/paquete-de-tour-de-lujo-de-14-dias-por-egipto-desde-india-para-familias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/indo-hatsu-kazoku-de-tanoshimu-ragujuari-na-ejiputo-14",
+    "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
