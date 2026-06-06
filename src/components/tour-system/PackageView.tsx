@@ -267,7 +267,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                       ? ts('pkgGrpWaitlist')
                       : r.status === 'onrequest'
                         ? ts('pkgGrpEnquire')
-                        : ts('pkgGrpReserve');
+                        : ts('pkgGrpHoldDate');
                     return (
                       <div className={r.isSoldOut ? 'dep-row is-out' : 'dep-row'} key={i}>
                         <div className="dp-date">{r.dateRange}</div>
@@ -346,7 +346,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                     </div>
                   )}
                   {thenLine && <div className="nd-next">{thenLine}</div>}
-                  <a className="nd-btn" href={reserveHref(dep.next.dateRange)} target="_blank" rel="noopener noreferrer">{ts('pkgGrpReservePlace')} →</a>
+                  <a className="nd-btn" href={reserveHref(dep.next.dateRange)} target="_blank" rel="noopener noreferrer">{ts('pkgGrpHoldDateCta')} →</a>
                   <a className="nd-all" href="#departures">{ts('pkgGrpSeeAll', { count: dep.count })}</a>
                 </div>
               ) : (
