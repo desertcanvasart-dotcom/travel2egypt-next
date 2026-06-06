@@ -14,7 +14,8 @@ const COMMIT = process.argv.includes('--commit');
 const env = Object.fromEntries(fs.readFileSync('.env', 'utf8').split('\n').filter((l) => l.includes('=') && !l.trim().startsWith('#')).map((l) => { const i = l.indexOf('='); return [l.slice(0, i).trim(), l.slice(i + 1).trim()]; }));
 const c = createClient({ projectId: env.NEXT_PUBLIC_SANITY_PROJECT_ID, dataset: env.NEXT_PUBLIC_SANITY_DATASET, apiVersion: '2024-12-01', token: env.SANITY_STAGING_API_WRITE_TOKEN, useCdn: false });
 
-const docs = await c.fetch(`*[_type=="tour" && type=="package" && tourMode=="private" && !(_id in path("drafts.**")) && count(days)>0]{
+// Require an EN body — stripping days[] from a body-less doc would empty the page.
+const docs = await c.fetch(`*[_type=="tour" && type=="package" && tourMode=="private" && !(_id in path("drafts.**")) && count(days)>0 && defined(body[_key=="en"][0].value)]{
   _id, "slug":slug[_key=="en"][0].value.current, "en":title[_key=="en"][0].value, "nDays":count(days)
 } | order(slug)`);
 
