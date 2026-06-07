@@ -20,6 +20,7 @@ import type { MetadataRoute } from 'next';
 import { client } from '@/sanity/lib/client';
 import { sitemapDocsQuery } from '@/sanity/lib/queries';
 import { routing, type Locale } from '@/i18n/routing';
+import { getPathname } from '@/i18n/navigation';
 import {
   pathFromDoc,
   siteUrlBase,
@@ -76,8 +77,10 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
 ];
 
 function buildLocaleUrl(path: string, locale: Locale): string {
-  const localePrefix = locale === 'en' ? '' : `/${locale}`;
-  return `${SITE}${localePrefix}${path}`;
+  // getPathname applies the locale prefix (as-needed) AND localized pathnames
+  // for static routes (e.g. /hotels → /ja/hoteru). Dynamic/Sanity paths are
+  // unknown to the pathnames map, so they get the prefix only.
+  return `${SITE}${getPathname({ href: path, locale })}`;
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
