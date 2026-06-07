@@ -20,7 +20,7 @@ import { config as loadEnv } from 'dotenv';
 import { readFileSync } from 'node:fs';
 import { marked } from 'marked';
 
-import { htmlToPortableText } from './wp-import-html.ts';
+import { htmlToPortableText } from './wp-import-html.js';
 
 loadEnv();
 
@@ -106,7 +106,7 @@ async function main() {
     console.log(`• ${enSlug}`);
     console.log(`    blocks=${blocks.length}  h2=${h2}  h4(days)=${h4}`);
     console.log(`    seq: ${styleSeq.join(' ')}`);
-    console.log(`    title block: "${(blocks[0]?.children?.[0]?.text ?? '').slice(0, 40)}"`);
+    console.log(`    title block: "${((blocks[0] as any)?.children?.[0]?.text ?? '').slice(0, 40)}"`);
 
     // fetch all docs (published + any draft) for this slug
     const docs = await client.fetch<Array<{ _id: string; keys: string[] | null }>>(

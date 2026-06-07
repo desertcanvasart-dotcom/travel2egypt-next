@@ -82,7 +82,7 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
   const duration = computeDurationLabel(tour, t);
   const character = computeCharacter(tour, t);
   const goodFor = computeGoodFor(tour);
-  const fromPrice = formatPrice(tour.priceFrom, 'pp') || null;
+  const fromPrice = formatPrice(tour.priceFrom, locale, 'pp') || null;
 
   // ── JSON-LD ──────────────────────────────────────────────────────────────
   const tripSchema = buildTouristTripSchema(

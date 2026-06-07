@@ -76,7 +76,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   // Meta row "from" price (EUR, per person): explicit → first tier. Numeric → formatPrice.
   const tier0 = tour.priceTiers?.[0];
   const fromAmount = typeof tour.priceFrom === 'number' ? tour.priceFrom : tier0?.price;
-  const fromPrice = formatPrice(fromAmount, 'pp');
+  const fromPrice = formatPrice(fromAmount, locale, 'pp');
 
   const metaItems = [
     { label: ts('metaDuration'), value: tour.durationLabel },
@@ -236,7 +236,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                   tiers.map((tier, i) => (
                     <li key={i}>
                       <span className="tn">{tier.name}{tier.sub && <small>{tier.sub}</small>}</span>
-                      <span className="tp">{formatPrice(tier.price)}{tier.unit && <small> {tier.unit}</small>}</span>
+                      <span className="tp">{formatPrice(tier.price, locale)}{tier.unit && <small> {tier.unit}</small>}</span>
                     </li>
                   ))
                 ) : (
