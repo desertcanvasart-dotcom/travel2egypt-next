@@ -13,7 +13,7 @@
 
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
-import { CURRENCY } from './currency';
+import { convertPrice, currencyFor } from './currency';
 import { siteUrlBase } from './path-from-doc';
 
 const SITE_NAME = 'Travel2Egypt';
@@ -305,8 +305,8 @@ export function buildTouristTripSchema(
       ? {
           offers: {
             '@type': 'Offer',
-            price: input.priceFrom,
-            priceCurrency: CURRENCY.code,
+            price: convertPrice(input.priceFrom, locale),
+            priceCurrency: currencyFor(locale).code,
             availability: 'https://schema.org/InStock',
           },
         }

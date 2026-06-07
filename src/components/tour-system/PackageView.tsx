@@ -121,7 +121,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
     : typeof tour.priceFrom === 'number'
       ? tour.priceFrom
       : tour.priceTiers?.[0]?.price;
-  const fromPrice = formatPrice(fromAmount, 'pp');
+  const fromPrice = formatPrice(fromAmount, locale, 'pp');
   const metaItems = (
     isGroup
       ? [
@@ -160,7 +160,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const tiers = (tour.priceTiers ?? []).filter((p) => p.name || typeof p.price === 'number');
   const suppValue =
     typeof tour.singleSupplement === 'number'
-      ? `${ts('pkgSuppFrom')} ${formatPrice(tour.singleSupplement)}`
+      ? `${ts('pkgSuppFrom')} ${formatPrice(tour.singleSupplement, locale)}`
       : '';
   const trustSignals = [ts('trustSignal1'), ts('trustSignal2'), ts('trustSignal3'), ts('trustSignal4')];
 
@@ -274,7 +274,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                         <div className={`dp-status ${statusCls}`}>{r.status ? STATUS_LABEL[r.status] : ''}</div>
                         <div className="dp-places">{typeof r.placesLeft === 'number' ? ts('pkgGrpPlaces', { count: r.placesLeft }) : ''}</div>
                         <div className="dp-price">
-                          {r.price != null ? formatPrice(r.price) : ts('priceOnInquiry')}
+                          {r.price != null ? formatPrice(r.price, locale) : ts('priceOnInquiry')}
                           {r.price != null && <small>{ts('pkgGrpPerPerson')}</small>}
                         </div>
                         <a
@@ -377,7 +377,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                   tiers.map((tier, i) => (
                     <li key={i}>
                       <span className="tn">{tier.name}{tier.sub && <small>{tier.sub}</small>}</span>
-                      <span className="tp">{formatPrice(tier.price)}{tier.unit && <small> {tier.unit}</small>}</span>
+                      <span className="tp">{formatPrice(tier.price, locale)}{tier.unit && <small> {tier.unit}</small>}</span>
                     </li>
                   ))
                 ) : (
