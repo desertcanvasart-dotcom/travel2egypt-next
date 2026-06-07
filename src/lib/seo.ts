@@ -20,6 +20,7 @@ import type { Metadata } from 'next';
 
 import { urlFor } from '@/sanity/lib/image';
 import { routing, type Locale } from '@/i18n/routing';
+import { getPathname } from '@/i18n/navigation';
 import { PRODUCTION_URL } from './site';
 
 const SITE_NAME = 'Travel2Egypt';
@@ -93,8 +94,11 @@ function siteUrl(): string {
 }
 
 function buildAbsoluteUrl(locale: Locale, path: string): string {
-  const localePrefix = locale === 'en' ? '' : `/${locale}`;
-  return `${siteUrl()}${localePrefix}${path}`;
+  // getPathname applies the locale prefix (as-needed) AND the localized
+  // pathname for static routes (e.g. /private-day-tours → /ja/puraibeeto-deitsuaa).
+  // Unknown/dynamic paths (Sanity slugs) are returned with just the prefix.
+  const localizedPath = getPathname({ href: path, locale });
+  return `${siteUrl()}${localizedPath}`;
 }
 
 function buildLanguageAlternates(
