@@ -52,6 +52,21 @@ function absoluteUrl(path: string, locale: Locale): string {
 // Organization (used in the root layout)
 // ─────────────────────────────────────────────────────────
 
+export interface FounderInput {
+  name?: string;
+  jobTitle?: string;
+  description?: string;
+  birthPlace?: string;
+  knowsLanguage?: string[];
+  alumniOf?: Array<{ name?: string; url?: string }>;
+  hasCredential?: Array<{
+    credentialCategory?: string;
+    name?: string;
+    recognizedBy?: { name?: string; url?: string };
+  }>;
+  sameAs?: string[];
+}
+
 export interface OrganizationInput {
   siteName?: string;
   tagline?: string;
@@ -75,6 +90,7 @@ export interface OrganizationInput {
   };
   sisterBrands?: Array<{ name?: string; url?: string }>;
   knowsAbout?: string[];
+  founder?: FounderInput | null;
 }
 
 const ACCREDITATIONS: Array<{ name: string; org: string; url?: string }> = [
@@ -198,6 +214,74 @@ export function buildOrganizationSchema(input: OrganizationInput) {
         url: acc.url,
       },
     })),
+    // Founder is referenced by @id; the Person body is emitted separately
+    // by buildFounderPersonSchema and rendered as a sibling in the root
+    // layout. Splitting the entities lets each have its own @id so
+    // crawlers can join the graph (Person.worksFor → Organization;
+    // Organization.founder → Person).
+    ...(input.founder?.name
+      ? { founder: { '@id': `${SITE_URL}#founder` } }
+      : {}),
+  };
+}
+
+/**
+ * Build the founder Person JSON-LD.
+ *
+ * Returns null if no founder is configured in siteSettings — the operator
+ * must explicitly populate the founder field before the Person markup
+ * appears. We do not fall back to hardcoded values: the founder belongs
+ * in content, not in code, so the operator can edit biography copy
+ * without a redeploy.
+ */
+export function buildFounderPersonSchema(founder: FounderInput | null | undefined) {
+  if (!founder?.name) return null;
+
+  const alumniOf = (founder.alumniOf ?? [])
+    .filter((a) => a.name)
+    .map((a) => ({
+      '@type': 'EducationalOrganization',
+      name: a.name,
+      ...(a.url ? { url: a.url } : {}),
+    }));
+
+  const credentials = (founder.hasCredential ?? [])
+    .filter((c) => c.name && c.recognizedBy?.name)
+    .map((c) => ({
+      '@type': 'EducationalOccupationalCredential',
+      ...(c.credentialCategory ? { credentialCategory: c.credentialCategory } : {}),
+      name: c.name,
+      recognizedBy: {
+        '@type': 'Organization',
+        name: c.recognizedBy!.name,
+        ...(c.recognizedBy!.url ? { url: c.recognizedBy!.url } : {}),
+      },
+    }));
+
+  const sameAs = (founder.sameAs ?? []).filter((u): u is string => Boolean(u));
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': `${SITE_URL}#founder`,
+    name: founder.name,
+    ...(founder.jobTitle ? { jobTitle: founder.jobTitle } : {}),
+    ...(founder.description ? { description: founder.description } : {}),
+    ...(founder.birthPlace
+      ? {
+          birthPlace: {
+            '@type': 'Place',
+            name: founder.birthPlace,
+          },
+        }
+      : {}),
+    ...(founder.knowsLanguage && founder.knowsLanguage.length > 0
+      ? { knowsLanguage: founder.knowsLanguage }
+      : {}),
+    ...(alumniOf.length > 0 ? { alumniOf } : {}),
+    ...(credentials.length > 0 ? { hasCredential: credentials } : {}),
+    ...(sameAs.length > 0 ? { sameAs } : {}),
+    worksFor: { '@id': `${SITE_URL}#organization` },
   };
 }
 

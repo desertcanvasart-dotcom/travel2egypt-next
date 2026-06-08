@@ -1637,6 +1637,20 @@ export const siteSettingsQuery = (locale: Locale) => groq`
     knowsAbout,
     contact,
     socialLinks,
+    founder{
+      name,
+      jobTitle,
+      description,
+      birthPlace,
+      knowsLanguage,
+      alumniOf[]{ name, url },
+      hasCredential[]{
+        credentialCategory,
+        name,
+        recognizedBy{ name, url }
+      },
+      sameAs
+    },
     sisterBrands[]{
       name,
       url,

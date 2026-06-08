@@ -261,6 +261,136 @@ export const siteSettingsSchema = defineType({
       ],
     }),
     defineField({
+      name: 'founder',
+      title: 'Founder',
+      description:
+        'Personal identity of the operator\u2019s founder. Drives Schema.org Person markup linked to the TravelAgency Organization via the founder property. Crawlers and AI agents use this to attribute the operator to a real human, which strengthens credibility and Knowledge Panel association.',
+      type: 'object',
+      group: 'identity',
+      fields: [
+        defineField({
+          name: 'name',
+          title: 'Full name',
+          type: 'string',
+          validation: (Rule) => Rule.required(),
+        }),
+        defineField({
+          name: 'jobTitle',
+          title: 'Job title',
+          type: 'string',
+          validation: (Rule) => Rule.required(),
+        }),
+        defineField({
+          name: 'description',
+          title: 'Description',
+          description:
+            'Short biographical paragraph. Appears as Person.description in JSON-LD.',
+          type: 'text',
+          rows: 4,
+          validation: (Rule) => Rule.required(),
+        }),
+        defineField({
+          name: 'birthPlace',
+          title: 'Birth place',
+          type: 'string',
+        }),
+        defineField({
+          name: 'knowsLanguage',
+          title: 'Languages',
+          description: 'Each language as a separate entry (e.g. "Arabic", "English", "Japanese").',
+          type: 'array',
+          of: [{ type: 'string' }],
+        }),
+        defineField({
+          name: 'alumniOf',
+          title: 'Alma mater',
+          description: 'Universities or other educational institutions attended.',
+          type: 'array',
+          of: [
+            {
+              type: 'object',
+              fields: [
+                defineField({
+                  name: 'name',
+                  title: 'Institution name',
+                  type: 'string',
+                  validation: (Rule) => Rule.required(),
+                }),
+                defineField({
+                  name: 'url',
+                  title: 'URL',
+                  type: 'url',
+                }),
+              ],
+              preview: { select: { title: 'name', subtitle: 'url' } },
+            },
+          ],
+        }),
+        defineField({
+          name: 'hasCredential',
+          title: 'Credentials',
+          description: 'Licenses and degrees. Each credential carries a category, name, and recognizing body.',
+          type: 'array',
+          of: [
+            {
+              type: 'object',
+              fields: [
+                defineField({
+                  name: 'credentialCategory',
+                  title: 'Category',
+                  type: 'string',
+                  options: {
+                    list: [
+                      { title: 'License', value: 'license' },
+                      { title: 'Degree', value: 'degree' },
+                      { title: 'Certification', value: 'certification' },
+                    ],
+                    layout: 'radio',
+                  },
+                  validation: (Rule) => Rule.required(),
+                }),
+                defineField({
+                  name: 'name',
+                  title: 'Credential name',
+                  type: 'string',
+                  validation: (Rule) => Rule.required(),
+                }),
+                defineField({
+                  name: 'recognizedBy',
+                  title: 'Recognised by',
+                  type: 'object',
+                  fields: [
+                    defineField({
+                      name: 'name',
+                      title: 'Organisation name',
+                      type: 'string',
+                      validation: (Rule) => Rule.required(),
+                    }),
+                    defineField({
+                      name: 'url',
+                      title: 'Organisation URL',
+                      type: 'url',
+                    }),
+                  ],
+                  validation: (Rule) => Rule.required(),
+                }),
+              ],
+              preview: {
+                select: { title: 'name', subtitle: 'credentialCategory' },
+              },
+            },
+          ],
+        }),
+        defineField({
+          name: 'sameAs',
+          title: 'Same-as URLs',
+          description: 'Profile URLs for this person (LinkedIn, X, personal site, etc.). Each entry must be an absolute URL.',
+          type: 'array',
+          of: [{ type: 'url' }],
+        }),
+      ],
+    }),
+    defineField({
       name: 'headerNav',
       title: 'Header navigation',
       type: 'array',
