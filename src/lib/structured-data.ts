@@ -13,7 +13,6 @@
 
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
-import { convertPrice, currencyFor } from './currency';
 import { siteUrlBase } from './path-from-doc';
 
 const SITE_NAME = 'Travel2Egypt';
@@ -260,15 +259,44 @@ export function buildArticleSchema(
 export interface TouristTripInput {
   title: string;
   slug: string;
-  type?: string; // 'dayTour' | 'package'
+  /** 'dayTour' | 'package' — drives URL building and additionalType. */
+  type?: string;
+  /** 'private' | 'group' — drives whether to emit `offers` at all. */
+  tourMode?: string;
   summary?: string;
+  /** Total days for packages; 1 for day tours. Emitted as ISO-8601 duration. */
   durationDays?: number;
   durationLabel?: string;
-  priceFrom?: number;
+  /** Per-person base price in EUR. Honest absence: when null, no `offers` is emitted. */
+  basePrice?: number;
+  /** Percent applied to basePrice on peak-flagged departures (group packages). */
+  peakUpliftPct?: number;
+  /** Max scheduled-departure group size (group packages). */
+  maxGroup?: number;
+  /** Origin region for group packages — 'japan-east-asia' | 'usa-canada' | etc. */
+  originRegion?: string;
   heroImage?: ImageField | null;
   cities?: Array<{ name?: string }>;
 }
 
+/**
+ * Build the schema.org/TouristTrip JSON-LD for tour and package pages.
+ *
+ * Pricing exposure follows the decision:
+ *   - Group products → emit Offer (uniform basePrice) or AggregateOffer
+ *     (low = basePrice, high = basePrice * (1 + peakUpliftPct/100)) when
+ *     a peak uplift exists. Currency is always EUR — the canonical
+ *     source-of-truth price, not a locale-converted display price. We do
+ *     not expose USD/JPY conversions in structured data because doing so
+ *     would advertise different prices for the same product depending on
+ *     which language version the crawler hit.
+ *   - Private products → omit `offers` entirely. The brand is
+ *     consultative on private; emitting a fabricated price would be
+ *     worse than honest absence.
+ *   - In all cases the `basePrice` field must be non-null. Today no
+ *     tour has basePrice set, so no `offers` will render. That is the
+ *     intended state until pricing is published.
+ */
 export function buildTouristTripSchema(
   input: TouristTripInput,
   locale: Locale
@@ -276,9 +304,27 @@ export function buildTouristTripSchema(
   const path =
     input.type === 'package' ? `/packages/${input.slug}` : `/tours/${input.slug}`;
   const url = absoluteUrl(path, locale);
+
+  // additionalType — communicates the product variant to crawlers and AI
+  // agents. We use four readable English labels rather than schema.org
+  // enum URIs because there is no exact schema.org TouristTrip subtype
+  // for "private day tour" vs "small-group package" — these are
+  // commercial product shapes, not vocabulary terms.
+  const additionalType =
+    input.type === 'package'
+      ? input.tourMode === 'group'
+        ? 'GroupPackage'
+        : 'PrivatePackage'
+      : input.tourMode === 'group'
+        ? 'GroupDayTour'
+        : 'PrivateDayTour';
+
+  const offers = buildTouristTripOffers(input);
+
   return {
     '@context': 'https://schema.org',
     '@type': 'TouristTrip',
+    additionalType,
     name: input.title,
     description: input.summary,
     url,
@@ -286,6 +332,20 @@ export function buildTouristTripSchema(
       ? { image: imageUrlOrUndefined(input.heroImage, 1600, 900) }
       : {}),
     provider: { '@id': `${SITE_URL}#organization` },
+    ...(typeof input.durationDays === 'number' && input.durationDays > 0
+      ? { duration: `P${input.durationDays}D` }
+      : {}),
+    ...(typeof input.maxGroup === 'number' && input.maxGroup > 0
+      ? { maximumAttendeeCapacity: input.maxGroup }
+      : {}),
+    ...(input.originRegion
+      ? {
+          audience: {
+            '@type': 'Audience',
+            audienceType: input.originRegion,
+          },
+        }
+      : {}),
     ...(input.cities && input.cities.length > 0
       ? {
           itinerary: input.cities
@@ -301,17 +361,44 @@ export function buildTouristTripSchema(
             })),
         }
       : {}),
-    ...(typeof input.priceFrom === 'number'
-      ? {
-          offers: {
-            '@type': 'Offer',
-            price: convertPrice(input.priceFrom, locale),
-            priceCurrency: currencyFor(locale).code,
-            availability: 'https://schema.org/InStock',
-          },
-        }
-      : {}),
+    ...(offers ? { offers } : {}),
     inLanguage: locale,
+  };
+}
+
+/**
+ * Pricing exposure decision (group-only). Returns null for private
+ * products and for any product without a basePrice.
+ *
+ * Group day tours → uniform pricing per the data audit (no peak uplift
+ * variation exists today). Emit a single Offer.
+ * Group packages → emit AggregateOffer when peakUpliftPct is set,
+ * otherwise a single Offer at basePrice.
+ */
+function buildTouristTripOffers(input: TouristTripInput) {
+  if (input.tourMode !== 'group') return null;
+  if (typeof input.basePrice !== 'number' || input.basePrice <= 0) return null;
+
+  const isPackage = input.type === 'package';
+  const peak = input.peakUpliftPct;
+  const hasPeakVariation = isPackage && typeof peak === 'number' && peak > 0;
+
+  if (hasPeakVariation) {
+    const high = Math.round(input.basePrice * (1 + (peak as number) / 100));
+    return {
+      '@type': 'AggregateOffer',
+      lowPrice: input.basePrice,
+      highPrice: high,
+      priceCurrency: 'EUR',
+      availability: 'https://schema.org/InStock',
+    };
+  }
+
+  return {
+    '@type': 'Offer',
+    price: input.basePrice,
+    priceCurrency: 'EUR',
+    availability: 'https://schema.org/InStock',
   };
 }
 
