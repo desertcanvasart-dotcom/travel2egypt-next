@@ -6,6 +6,8 @@ import { client } from '@/sanity/lib/client';
 import { packagesByThemeQuery } from '@/sanity/lib/queries';
 import { PackageCard, type PackageCardData } from '@/components/PackageCard';
 import { buildStaticMetadata } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList } from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -35,13 +37,23 @@ export default async function PackagesLandingPage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('packages');
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
 
   const themes: ThemeWithPackages[] = await client.fetch(
     packagesByThemeQuery(locale as Locale)
   );
 
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: tNav('packages'), path: '/packages' },
+    ],
+    locale as Locale,
+  );
+
   return (
     <div className="mx-auto max-w-7xl px-6 py-16">
+      <JsonLd data={breadcrumbSchema} />
       <header className="mb-16 max-w-3xl">
         <h1 className="mb-4 font-serif text-5xl font-medium leading-tight text-ink md:text-6xl">
           {t('landingTitle')}
