@@ -13,7 +13,10 @@ import { CookieConsent } from '@/components/CookieConsent';
 import { ConsentProvider } from '@/lib/consent';
 import { client } from '@/sanity/lib/client';
 import { siteSettingsQuery } from '@/sanity/lib/queries';
-import { buildOrganizationSchema } from '@/lib/structured-data';
+import {
+  buildOrganizationSchema,
+  buildFounderPersonSchema,
+} from '@/lib/structured-data';
 
 export const metadata: Metadata = {
   title: 'Travel2Egypt',
@@ -41,6 +44,13 @@ export default async function LocaleLayout({
 
   const siteSettings = await client.fetch(siteSettingsQuery(locale as Locale));
   const orgSchema = buildOrganizationSchema(siteSettings ?? {});
+  // Founder Person is emitted as a sibling JSON-LD when configured. Its
+  // @id is referenced from the Organization's `founder` property so
+  // crawlers join the two entities. Returns null when no founder is
+  // configured in siteSettings; we render just the Organization in that
+  // case.
+  const founderSchema = buildFounderPersonSchema(siteSettings?.founder ?? null);
+  const orgGraph = founderSchema ? [orgSchema, founderSchema] : orgSchema;
 
   // Client components (the cookie consent UI) read translations from this
   // provider — server components resolve them directly, so messages must be
@@ -50,7 +60,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={fontVariables}>
       <body>
-        <JsonLd data={orgSchema} />
+        <JsonLd data={orgGraph} />
         <NextIntlClientProvider messages={messages}>
           <ConsentProvider>
             <Header locale={locale as Locale} />

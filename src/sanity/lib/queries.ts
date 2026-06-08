@@ -121,6 +121,10 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
   )][0]{
     _id,
     section,
+    kind,
+    monumentType,
+    preciseLocation,
+    coordinates,
     "title": ${localizedField('title', locale)},
     "slug": ${localizedSlug('slug', locale)},
     "allSlugs": slug[]{ _key, "current": value.current },
@@ -207,6 +211,9 @@ const tourCardProjection = (locale: Locale) => `
   durationDays,
   durationHours,
   originRegion,
+  basePrice,
+  peakUpliftPct,
+  maxGroup,
   "title": ${localizedField('title', locale)},
   "slug": ${localizedSlug('slug', locale)},
   "allSlugs": slug[]{ _key, "current": value.current },
@@ -1630,6 +1637,20 @@ export const siteSettingsQuery = (locale: Locale) => groq`
     knowsAbout,
     contact,
     socialLinks,
+    founder{
+      name,
+      jobTitle,
+      description,
+      birthPlace,
+      knowsLanguage,
+      alumniOf[]{ name, url },
+      hasCredential[]{
+        credentialCategory,
+        name,
+        recognizedBy{ name, url }
+      },
+      sameAs
+    },
     sisterBrands[]{
       name,
       url,

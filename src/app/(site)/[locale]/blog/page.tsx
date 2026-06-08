@@ -11,6 +11,8 @@ import {
 } from '@/sanity/lib/queries';
 import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
 import { buildStaticMetadata } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList } from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -32,6 +34,7 @@ export default async function BlogLandingPage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('blog');
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
   const [articles, categories, lead] = await Promise.all([
     client.fetch<ArticleCardData[]>(articlesByLanguageQuery, { locale }),
     // Primary nav surfaces only the two root buckets (Planning, Destination);
@@ -45,8 +48,17 @@ export default async function BlogLandingPage({ params }: Props) {
   // Filter the lead out of the rest grid to avoid duplication.
   const rest = articles.filter((a) => a._id !== lead?._id);
 
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: tNav('blog'), path: '/blog' },
+    ],
+    locale as Locale,
+  );
+
   return (
     <div className="mx-auto max-w-7xl px-6 py-20">
+      <JsonLd data={breadcrumbSchema} />
       <header className="mb-16 max-w-3xl">
         <h1 className="mb-6 font-serif text-[clamp(2.5rem,5.5vw,4.5rem)] font-normal leading-[1.05] tracking-[-0.02em] text-night">
           {t('landingTitle')}

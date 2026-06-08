@@ -6,7 +6,10 @@ import Image from 'next/image';
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import {
+  buildBreadcrumbList,
+  buildGuideArticleSchema,
+} from '@/lib/structured-data';
 
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -134,9 +137,28 @@ export default async function GuideArticlePage({ params }: Props) {
     locale as Locale
   );
 
+  // `kind === 'attraction'` flips this to TouristAttraction with geo +
+  // containedInPlace; every other kind emits Article. The discriminator
+  // is set in Studio per the guideArticle schema.
+  const guideArticleSchema = buildGuideArticleSchema(
+    {
+      kind: article.kind,
+      title: article.title,
+      slug,
+      citySlug,
+      parentCityName: article.parentCity.name,
+      summary: article.summary,
+      heroImage: article.heroImage,
+      coordinates: article.coordinates,
+      monumentType: article.monumentType,
+      preciseLocation: article.preciseLocation,
+    },
+    locale as Locale,
+  );
+
   return (
     <article>
-      <JsonLd data={[breadcrumbSchema]} />
+      <JsonLd data={[guideArticleSchema, breadcrumbSchema]} />
 
       <div className="mx-auto max-w-7xl px-6 py-12">
         <Breadcrumb items={breadcrumbItems} className="mb-8" />

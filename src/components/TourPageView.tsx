@@ -85,15 +85,23 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
   const fromPrice = formatPrice(tour.priceFrom, locale, 'pp') || null;
 
   // ── JSON-LD ──────────────────────────────────────────────────────────────
+  // Pricing exposure (group-only) is enforced inside the builder via
+  // tourMode + basePrice. priceFrom is not passed: it's a display-rail
+  // value that lives in the L3 meta row, not a canonical commercial
+  // price. structured-data exposes only the group-product basePrice.
   const tripSchema = buildTouristTripSchema(
     {
       title: tour.title,
       slug,
       type: tour.type,
+      tourMode: tour.tourMode,
       summary: tour.summary,
       durationDays: tour.durationDays,
       durationLabel: tour.durationLabel,
-      priceFrom: tour.priceFrom,
+      basePrice: tour.basePrice,
+      peakUpliftPct: tour.peakUpliftPct,
+      maxGroup: tour.maxGroup,
+      originRegion: tour.originRegion,
       heroImage: tour.heroImage,
       cities: tour.cities,
     },

@@ -7,6 +7,8 @@ import { client } from '@/sanity/lib/client';
 import { editorialPageByKindQuery } from '@/sanity/lib/queries';
 import { EditorialPageView, type EditorialDoc } from '@/components/EditorialPageView';
 import { buildStaticMetadata } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList } from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -34,5 +36,19 @@ export default async function Page({ params }: Props) {
   );
   if (!doc) notFound();
 
-  return <EditorialPageView locale={lc} doc={doc} />;
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: tNav('about'), path: '/about' },
+    ],
+    lc,
+  );
+
+  return (
+    <>
+      <JsonLd data={breadcrumbSchema} />
+      <EditorialPageView locale={lc} doc={doc} />
+    </>
+  );
 }

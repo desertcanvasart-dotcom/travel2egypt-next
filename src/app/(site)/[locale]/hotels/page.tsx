@@ -9,6 +9,8 @@ import {
   articlesByLanguageQuery,
 } from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList } from '@/lib/structured-data';
 import { ArchiveTemplate } from '@/components/archive/ArchiveTemplate';
 import type {
   ArchiveItem,
@@ -187,41 +189,51 @@ export default async function HotelsArchivePage({
     { label: tNav('home'), href: '/' },
     { label: t('breadcrumb') },
   ];
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: t('breadcrumb'), path: '/hotels' },
+    ],
+    locale as Locale,
+  );
 
   return (
-    <ArchiveTemplate
-      locale={locale as Locale}
-      breadcrumbItems={breadcrumbItems}
-      header={{
-        kicker: archive?.kicker,
-        title: archive?.title ?? t('landingTitle'),
-        tagline: archive?.tagline ?? t('landingDeck'),
-      }}
-      essay={archive?.essay ? { heading: archive.essayHeading, body: archive.essay } : undefined}
-      featured={featured}
-      collections={collections}
-      index={{
-        items: indexItems,
-        filters,
-        labels: {
-          kicker: tArchive('theIndex'),
-          title: t('indexTitle'),
-          intro: t('indexIntro'),
-          all: tArchive('all'),
-          empty: tArchive('emptyState'),
-        },
-      }}
-      itemNoun={t('itemNoun')}
-      collectionKicker={(n) => tArchive('collectionLabel', { number: n })}
-      conciergeContextLabel={t('conciergeAboutHotels')}
-      footBand={{
-        inSeasonLabel: t('footInSeasonLabel'),
-        inSeasonBody: t('footInSeasonBody'),
-        journalLabel: t('footJournalLabel'),
-        journalItems,
-        practicalLabel: t('footPracticalLabel'),
-        practicalBody: t('footPracticalBody'),
-      }}
-    />
+    <>
+      <JsonLd data={breadcrumbSchema} />
+      <ArchiveTemplate
+        locale={locale as Locale}
+        breadcrumbItems={breadcrumbItems}
+        header={{
+          kicker: archive?.kicker,
+          title: archive?.title ?? t('landingTitle'),
+          tagline: archive?.tagline ?? t('landingDeck'),
+        }}
+        essay={archive?.essay ? { heading: archive.essayHeading, body: archive.essay } : undefined}
+        featured={featured}
+        collections={collections}
+        index={{
+          items: indexItems,
+          filters,
+          labels: {
+            kicker: tArchive('theIndex'),
+            title: t('indexTitle'),
+            intro: t('indexIntro'),
+            all: tArchive('all'),
+            empty: tArchive('emptyState'),
+          },
+        }}
+        itemNoun={t('itemNoun')}
+        collectionKicker={(n) => tArchive('collectionLabel', { number: n })}
+        conciergeContextLabel={t('conciergeAboutHotels')}
+        footBand={{
+          inSeasonLabel: t('footInSeasonLabel'),
+          inSeasonBody: t('footInSeasonBody'),
+          journalLabel: t('footJournalLabel'),
+          journalItems,
+          practicalLabel: t('footPracticalLabel'),
+          practicalBody: t('footPracticalBody'),
+        }}
+      />
+    </>
   );
 }

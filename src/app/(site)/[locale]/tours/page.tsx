@@ -6,6 +6,8 @@ import { client } from '@/sanity/lib/client';
 import { allDayToursQuery } from '@/sanity/lib/queries';
 import { TourCard, type TourCardData } from '@/components/TourCard';
 import { buildStaticMetadata } from '@/lib/seo';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList } from '@/lib/structured-data';
 import { ToursFilter } from './ToursFilter';
 
 export async function generateMetadata({
@@ -34,6 +36,7 @@ export default async function ToursLandingPage({ params, searchParams }: Props) 
   setRequestLocale(locale);
 
   const t = await getTranslations('tours');
+  const tNav = await getTranslations({ locale, namespace: 'nav' });
 
   const tours: TourCardData[] = await client.fetch(allDayToursQuery(locale as Locale));
 
@@ -55,8 +58,17 @@ export default async function ToursLandingPage({ params, searchParams }: Props) 
     return true;
   });
 
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: tNav('tours'), path: '/tours' },
+    ],
+    locale as Locale,
+  );
+
   return (
     <div className="mx-auto max-w-7xl px-6 py-16">
+      <JsonLd data={breadcrumbSchema} />
       <header className="mb-12 max-w-3xl">
         <h1 className="mb-4 font-serif text-5xl font-medium leading-tight text-ink md:text-6xl">
           {t('landingTitle')}
