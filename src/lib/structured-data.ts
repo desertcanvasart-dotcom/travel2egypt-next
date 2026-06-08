@@ -202,6 +202,37 @@ export function buildOrganizationSchema(input: OrganizationInput) {
 }
 
 // ─────────────────────────────────────────────────────────
+// WebSite (homepage only)
+//
+// Identifies the canonical site entity for Knowledge Panel and AI-
+// search purposes. Emitted only on the locale-aware homepage. No
+// SearchAction is emitted: the site has no full-text search surface
+// (per decision 6), and advertising a non-existent SearchAction would
+// be a hallucination for crawlers.
+// ─────────────────────────────────────────────────────────
+
+export interface WebSiteSchemaInput {
+  siteName?: string;
+  tagline?: string;
+}
+
+export function buildWebSiteSchema(
+  input: WebSiteSchemaInput,
+  locale: Locale,
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE_URL}#website`,
+    name: input.siteName ?? SITE_NAME,
+    ...(input.tagline ? { description: input.tagline } : {}),
+    url: SITE_URL,
+    publisher: { '@id': `${SITE_URL}#organization` },
+    inLanguage: locale,
+  };
+}
+
+// ─────────────────────────────────────────────────────────
 // Article (journal posts)
 // ─────────────────────────────────────────────────────────
 
