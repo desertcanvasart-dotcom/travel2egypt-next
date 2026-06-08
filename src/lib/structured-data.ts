@@ -316,6 +316,177 @@ export function buildTouristTripSchema(
 }
 
 // ─────────────────────────────────────────────────────────
+// Hotel (`/hotels/[slug]`)
+//
+// Emits schema.org/Hotel. We deliberately do NOT emit `priceRange`,
+// `amenityFeature`, `numberOfRooms`, or check-in/check-out: the operator
+// neither manages rooms nor publishes nightly rates. The page exists to
+// position the hotel editorially and link to relevant tours, not to act
+// as a booking listing. Emitting placeholder fields would mislead AI
+// agents into treating the page as a bookable inventory item.
+// ─────────────────────────────────────────────────────────
+
+export interface HotelSchemaInput {
+  name: string;
+  slug: string;
+  summary?: string;
+  heroImage?: ImageField | null;
+  /** Free-form Sanity category — standard / deluxe / luxury / boutique. */
+  category?: string;
+  /** 1–5. Emitted only when within range. */
+  starRating?: number;
+  /** Parent city (resolved via Sanity reference). Populates `address.addressLocality`. */
+  city?: { name?: string } | null;
+}
+
+export function buildHotelSchema(input: HotelSchemaInput, locale: Locale) {
+  const url = absoluteUrl(`/hotels/${input.slug}`, locale);
+  const heroUrl = imageUrlOrUndefined(input.heroImage, 1600, 900);
+  const starRating =
+    typeof input.starRating === 'number' &&
+    input.starRating >= 1 &&
+    input.starRating <= 5
+      ? input.starRating
+      : null;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Hotel',
+    name: input.name,
+    description: input.summary,
+    url,
+    ...(heroUrl ? { image: heroUrl } : {}),
+    ...(input.category ? { additionalType: input.category } : {}),
+    ...(starRating !== null
+      ? {
+          starRating: {
+            '@type': 'Rating',
+            ratingValue: starRating,
+            bestRating: 5,
+            worstRating: 1,
+          },
+        }
+      : {}),
+    address: {
+      '@type': 'PostalAddress',
+      addressCountry: 'EG',
+      ...(input.city?.name ? { addressLocality: input.city.name } : {}),
+    },
+    inLanguage: locale,
+  };
+}
+
+// ─────────────────────────────────────────────────────────
+// Nile cruise (`/nile-cruises/[slug]`)
+//
+// schema.org/TouristTrip with `additionalType: 'BoatTrip'` — the
+// TouristTrip parent is well-recognized by tooling; BoatTrip narrows
+// the semantic intent without losing parser compatibility.
+//
+// Itinerary fans out as an ordered Place[] from cruise.itinerary[].
+// Duration uses ISO-8601 (`P{n}D`) derived from durationNights.
+// ─────────────────────────────────────────────────────────
+
+export interface CruiseTouristTripInput {
+  name: string;
+  slug: string;
+  summary?: string;
+  heroImage?: ImageField | null;
+  /** Sanity cruise.type — 'cruise-ship' | 'yacht' | 'dahabiya' | 'felucca'. */
+  vesselType?: string;
+  /** Sanity cruise.tier — 'standard' | 'deluxe' | 'luxury' | 'boutique'. */
+  tier?: string;
+  /** Sanity cruise.capacity — passenger count. */
+  capacity?: number;
+  /** Sanity cruise.durationNights — total nights aboard. */
+  durationNights?: number;
+  /** Sanity cruise.departureCity (resolved) — first stop of the journey. */
+  departureCity?: { name?: string } | null;
+  /** Sanity cruise.returnCity (resolved) — last stop of the journey. */
+  returnCity?: { name?: string } | null;
+  /** Cities visited in order, derived from cruise.itinerary[].cities[]. */
+  itineraryCities?: Array<{ name?: string }>;
+}
+
+export function buildCruiseTouristTripSchema(
+  input: CruiseTouristTripInput,
+  locale: Locale,
+) {
+  const url = absoluteUrl(`/nile-cruises/${input.slug}`, locale);
+  const heroUrl = imageUrlOrUndefined(input.heroImage, 1600, 900);
+
+  // Build the itinerary: departure city + ordered visited cities + return
+  // city, de-duplicating consecutive identical city names so a Luxor →
+  // Luxor framing doesn't produce a 2-element itinerary of [Luxor, Luxor].
+  const orderedCities: Array<{ name?: string }> = [];
+  if (input.departureCity?.name)
+    orderedCities.push({ name: input.departureCity.name });
+  for (const c of input.itineraryCities ?? []) {
+    if (!c?.name) continue;
+    const last = orderedCities[orderedCities.length - 1];
+    if (last?.name === c.name) continue;
+    orderedCities.push(c);
+  }
+  if (input.returnCity?.name) {
+    const last = orderedCities[orderedCities.length - 1];
+    if (last?.name !== input.returnCity.name)
+      orderedCities.push({ name: input.returnCity.name });
+  }
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'TouristTrip',
+    additionalType: 'BoatTrip',
+    name: input.name,
+    description: input.summary,
+    url,
+    ...(heroUrl ? { image: heroUrl } : {}),
+    provider: { '@id': `${SITE_URL}#organization` },
+    ...(typeof input.durationNights === 'number' && input.durationNights > 0
+      ? { duration: `P${input.durationNights}D` }
+      : {}),
+    ...(typeof input.capacity === 'number' && input.capacity > 0
+      ? { maximumAttendeeCapacity: input.capacity }
+      : {}),
+    ...(input.tier
+      ? {
+          audience: {
+            '@type': 'Audience',
+            audienceType: input.tier,
+          },
+        }
+      : {}),
+    ...(input.vesselType
+      ? {
+          // vesselType is the closest semantic value for cruise-ship/yacht/
+          // dahabiya/felucca; expose it as a structured property so AI
+          // agents can answer "what kind of vessel is this" without parsing
+          // editorial prose.
+          additionalProperty: {
+            '@type': 'PropertyValue',
+            name: 'vesselType',
+            value: input.vesselType,
+          },
+        }
+      : {}),
+    ...(orderedCities.length > 0
+      ? {
+          itinerary: orderedCities.map((c) => ({
+            '@type': 'Place',
+            name: c.name,
+            address: {
+              '@type': 'PostalAddress',
+              addressCountry: 'EG',
+              addressLocality: c.name,
+            },
+          })),
+        }
+      : {}),
+    inLanguage: locale,
+  };
+}
+
+// ─────────────────────────────────────────────────────────
 // Place (cities, monuments)
 // ─────────────────────────────────────────────────────────
 

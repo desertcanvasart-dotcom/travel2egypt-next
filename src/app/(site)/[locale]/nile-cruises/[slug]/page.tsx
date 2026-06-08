@@ -5,7 +5,10 @@ import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import {
+  buildBreadcrumbList,
+  buildCruiseTouristTripSchema,
+} from '@/lib/structured-data';
 
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -180,9 +183,35 @@ export default async function CruisePage({ params }: Props) {
     locale as Locale
   );
 
+  // Flatten the per-day cities into an ordered list for the
+  // TouristTrip.itinerary; the schema builder handles de-duplication of
+  // consecutive identical city names (a Luxor → Luxor cruise should
+  // surface Luxor, Edfu, Kom Ombo… not Luxor twice in a row).
+  const itineraryCities = (cruise.itinerary ?? []).flatMap(
+    (day: { cities?: Array<{ name?: string }> | null }) => day.cities ?? [],
+  );
+  const cruiseTripSchema = buildCruiseTouristTripSchema(
+    {
+      name: cruise.name,
+      slug,
+      summary: cruise.summary,
+      heroImage: cruise.heroImage,
+      vesselType: cruise.type,
+      tier: cruise.tier,
+      capacity: cruise.capacity,
+      durationNights: cruise.durationNights,
+      departureCity: cruise.departureCity
+        ? { name: cruise.departureCity.name }
+        : null,
+      returnCity: cruise.returnCity ? { name: cruise.returnCity.name } : null,
+      itineraryCities,
+    },
+    locale as Locale,
+  );
+
   return (
     <article>
-      <JsonLd data={[breadcrumbSchema]} />
+      <JsonLd data={[cruiseTripSchema, breadcrumbSchema]} />
       {/* Hero */}
       <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden bg-cream-deep">
         {heroUrl && (

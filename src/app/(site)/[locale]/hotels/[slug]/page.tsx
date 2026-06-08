@@ -5,7 +5,10 @@ import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import {
+  buildBreadcrumbList,
+  buildHotelSchema,
+} from '@/lib/structured-data';
 
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -120,10 +123,22 @@ export default async function HotelPage({ params }: Props) {
     ],
     locale as Locale
   );
+  const hotelSchema = buildHotelSchema(
+    {
+      name: hotel.name,
+      slug,
+      summary: hotel.summary,
+      heroImage: hotel.heroImage,
+      category: hotel.category,
+      starRating: hotel.starRating,
+      city: hotel.city ? { name: hotel.city.name } : null,
+    },
+    locale as Locale,
+  );
 
   return (
     <article>
-      <JsonLd data={[breadcrumbSchema]} />
+      <JsonLd data={[hotelSchema, breadcrumbSchema]} />
       {/* Hero */}
       <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden bg-cream-deep">
         {heroUrl && (
