@@ -372,6 +372,104 @@ export function buildPlaceSchema(input: PlaceInput, locale: Locale) {
 }
 
 // ─────────────────────────────────────────────────────────
+// Guide article (`/guide/[city]/[slug]`)
+//
+// The `kind` field on guideArticle discriminates between an editorial
+// piece ("article" and all other kinds) and a place-as-content
+// ("attraction"). The former emits Article — same shape as the journal
+// builder but with `articleSection` set to the parent city's name so
+// the article's place in the editorial hierarchy is machine-readable.
+// The latter emits TouristAttraction with `containedInPlace` and
+// (when known) geo coordinates and street address.
+// ─────────────────────────────────────────────────────────
+
+export interface GuideArticleSchemaInput {
+  /** Discriminator from `guideArticle.kind`. 'attraction' → TouristAttraction; everything else → Article. */
+  kind?: string;
+  title: string;
+  /** Article slug under the parent city. */
+  slug: string;
+  /** Parent city slug for URL building. */
+  citySlug: string;
+  /** Parent city name — used as `articleSection` (Article) and `containedInPlace` (Attraction). */
+  parentCityName?: string;
+  summary?: string;
+  heroImage?: ImageField | null;
+  /** Coordinates of the attraction (TouristAttraction kind only). */
+  coordinates?: { lat?: number; lng?: number } | null;
+  /** A more specific subtype label (e.g. "Pyramid", "Temple") — populated from `guideArticle.monumentType`. */
+  monumentType?: string;
+  /** Free-text address (e.g. "El Haram, Al Giza Desert") — `guideArticle.preciseLocation`. */
+  preciseLocation?: string;
+}
+
+export function buildGuideArticleSchema(
+  input: GuideArticleSchemaInput,
+  locale: Locale,
+) {
+  const url = absoluteUrl(`/guide/${input.citySlug}/${input.slug}`, locale);
+  const heroUrl = imageUrlOrUndefined(input.heroImage, 1600, 900);
+
+  if (input.kind === 'attraction') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'TouristAttraction',
+      ...(input.monumentType ? { additionalType: input.monumentType } : {}),
+      name: input.title,
+      description: input.summary,
+      url,
+      ...(heroUrl ? { image: heroUrl } : {}),
+      ...(input.parentCityName
+        ? {
+            containedInPlace: {
+              '@type': 'Place',
+              name: input.parentCityName,
+              address: {
+                '@type': 'PostalAddress',
+                addressLocality: input.parentCityName,
+                addressCountry: 'EG',
+              },
+            },
+          }
+        : {}),
+      ...(input.coordinates?.lat && input.coordinates?.lng
+        ? {
+            geo: {
+              '@type': 'GeoCoordinates',
+              latitude: input.coordinates.lat,
+              longitude: input.coordinates.lng,
+            },
+          }
+        : {}),
+      address: {
+        '@type': 'PostalAddress',
+        addressCountry: 'EG',
+        ...(input.preciseLocation
+          ? { streetAddress: input.preciseLocation }
+          : input.parentCityName
+            ? { addressLocality: input.parentCityName }
+            : {}),
+      },
+      inLanguage: locale,
+    };
+  }
+
+  // Default: Article — same publisher back-reference as journal posts so
+  // the entity graph joins to the TravelAgency Organization.
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    headline: input.title,
+    description: input.summary,
+    ...(heroUrl ? { image: heroUrl } : {}),
+    ...(input.parentCityName ? { articleSection: input.parentCityName } : {}),
+    publisher: { '@id': `${SITE_URL}#organization` },
+    inLanguage: locale,
+  };
+}
+
+// ─────────────────────────────────────────────────────────
 // Person (authors, wiki people)
 // ─────────────────────────────────────────────────────────
 

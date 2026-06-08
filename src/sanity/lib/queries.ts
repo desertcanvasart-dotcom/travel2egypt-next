@@ -121,6 +121,10 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
   )][0]{
     _id,
     section,
+    kind,
+    monumentType,
+    preciseLocation,
+    coordinates,
     "title": ${localizedField('title', locale)},
     "slug": ${localizedSlug('slug', locale)},
     "allSlugs": slug[]{ _key, "current": value.current },
