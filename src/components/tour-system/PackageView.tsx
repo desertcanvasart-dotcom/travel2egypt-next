@@ -4,6 +4,8 @@ import { PortableText } from '@portabletext/react';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { formatPrice } from '@/lib/currency';
+import { JsonLd } from '../JsonLd';
+import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-data';
 
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
@@ -188,8 +190,49 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
     return ts('pkgGrpThen', { dates: ts('pkgGrpAndMore', { dates: shown, count: rest.length - 3 }) });
   })();
 
+  // ── JSON-LD ────────────────────────────────────────────────────────────────
+  // The catch-all router renders private/group packages through this view (not
+  // the legacy TourPageView), so the TouristTrip + BreadcrumbList structured
+  // data must be emitted here. Pricing exposure (group-only, basePrice-gated)
+  // is enforced inside the builder: private packages emit no offers; group
+  // packages emit an AggregateOffer when a peak uplift exists, else an Offer.
+  const tripSchema = buildTouristTripSchema(
+    {
+      title: tour.title,
+      slug: tour.slug,
+      type: tour.type,
+      tourMode: tour.tourMode,
+      summary: tour.summary,
+      durationDays: tour.durationDays,
+      durationLabel: tour.durationLabel,
+      basePrice: tour.basePrice ?? undefined,
+      peakUpliftPct: tour.peakUpliftPct ?? undefined,
+      maxGroup: tour.maxGroup ?? undefined,
+      originRegion: tour.originRegion,
+      heroImage: tour.heroImage,
+      cities: tour.cities,
+    },
+    locale,
+  );
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      ...(isGroup
+        ? [{ name: ts('pkgGroupSubBreadcrumb'), path: '/small-group-travel-packages' }]
+        : [
+            { name: tNav('packages'), path: '/egypt-travel-packages' },
+            ...(tour.theme?.name && tour.themeLanding?.slug
+              ? [{ name: tour.theme.name, path: `/${tour.themeLanding.slug}` }]
+              : []),
+          ]),
+      { name: tour.title, path: `/${tour.slug}` },
+    ],
+    locale,
+  );
+
   return (
     <div className="tour-doc lvl-single">
+      <JsonLd data={[tripSchema, breadcrumbSchema]} />
       <div className="t2e-wrap">
         <nav className="t2e-crumb" aria-label="Breadcrumb">
           <ol>
