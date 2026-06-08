@@ -6,6 +6,8 @@ import { otherTrackLandingSlugQuery } from '@/sanity/lib/queries';
 import type { Locale } from '@/i18n/routing';
 
 import { formatPrice } from '@/lib/currency';
+import { JsonLd } from '../JsonLd';
+import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-data';
 
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
@@ -25,6 +27,13 @@ export interface SingleTour {
   summary?: string;
   durationDays?: number;
   durationLabel?: string;
+  // Pricing/audience fields — fetched via tourCardProjection. Day tours
+  // carry no basePrice today, so the builder emits no offers; kept so a
+  // future group-day-tour price would surface an Offer per decision 1.
+  basePrice?: number | null;
+  peakUpliftPct?: number | null;
+  maxGroup?: number | null;
+  originRegion?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
   cities?: CityRef[];
   body?: unknown;
@@ -120,8 +129,44 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const guideHref = (g: { _type?: string; slug?: string; parentCity?: { slug?: string } | null }) =>
     g._type === 'guideArticle' && g.parentCity?.slug ? `/guide/${g.parentCity.slug}/${g.slug}` : `/guide/${g.slug}`;
 
+  // ── JSON-LD ────────────────────────────────────────────────────────────────
+  // The catch-all router renders day tours through this view (not the legacy
+  // TourPageView), so the TouristTrip + BreadcrumbList structured data must be
+  // emitted here. Pricing exposure (group-only, basePrice-gated) is enforced
+  // inside the builder: private day tours emit no offers.
+  const tripSchema = buildTouristTripSchema(
+    {
+      title: tour.title,
+      slug: tour.slug,
+      type: tour.type,
+      tourMode: tour.tourMode,
+      summary: tour.summary,
+      durationDays: tour.durationDays,
+      durationLabel: tour.durationLabel,
+      basePrice: tour.basePrice ?? undefined,
+      peakUpliftPct: tour.peakUpliftPct ?? undefined,
+      maxGroup: tour.maxGroup ?? undefined,
+      originRegion: tour.originRegion,
+      heroImage: tour.heroImage,
+      cities: tour.cities,
+    },
+    locale,
+  );
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: tSub('breadcrumbDayTours'), path: dayToursPath },
+      ...(cityName && sameLanding?.slug
+        ? [{ name: cityName, path: `/${sameLanding.slug}` }]
+        : []),
+      { name: tour.title, path: `/${tour.slug}` },
+    ],
+    locale,
+  );
+
   return (
     <div className="tour-doc lvl-single">
+      <JsonLd data={[tripSchema, breadcrumbSchema]} />
       <div className="t2e-wrap">
         <nav className="t2e-crumb" aria-label="Breadcrumb">
           <ol>
