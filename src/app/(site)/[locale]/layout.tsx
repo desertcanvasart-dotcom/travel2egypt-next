@@ -23,6 +23,14 @@ export const metadata: Metadata = {
   description: 'Egypt travel, with judgment. An Egyptian operator since 2003.',
 };
 
+// ISR for the whole public site. Pages are statically rendered, then
+// regenerated in the background at most once per this window — so Sanity
+// content edits appear without a redeploy. (`@sanity/client` is a
+// serverExternalPackage, so its reads bypass Next's fetch cache; this
+// segment-level revalidate is what drives refresh.) Inherited by every
+// page under (site)/[locale]. Raise it post-cutover to cut regeneration.
+export const revalidate = 60;
+
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
