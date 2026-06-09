@@ -97,6 +97,7 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
       tourMode: tour.tourMode,
       summary: tour.summary,
       durationDays: tour.durationDays,
+      durationHours: tour.durationHours,
       durationLabel: tour.durationLabel,
       basePrice: tour.basePrice,
       peakUpliftPct: tour.peakUpliftPct,

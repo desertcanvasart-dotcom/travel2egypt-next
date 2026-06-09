@@ -381,6 +381,8 @@ export interface TouristTripInput {
   summary?: string;
   /** Total days for packages; 1 for day tours. Emitted as ISO-8601 duration. */
   durationDays?: number;
+  /** Day-tour length in hours. Preferred over durationDays for day tours → PT{h}H. */
+  durationHours?: number;
   durationLabel?: string;
   /** Per-person base price in EUR. Honest absence: when null, no `offers` is emitted. */
   basePrice?: number;
@@ -447,9 +449,15 @@ export function buildTouristTripSchema(
       ? { image: imageUrlOrUndefined(input.heroImage, 1600, 900) }
       : {}),
     provider: { '@id': `${SITE_URL}#organization` },
-    ...(typeof input.durationDays === 'number' && input.durationDays > 0
-      ? { duration: `P${input.durationDays}D` }
-      : {}),
+    // Day tours read in hours (PT{h}H); packages and multi-day fall back to
+    // whole days (P{d}D). A day tour without hours uses its day count.
+    ...(input.type === 'dayTour' &&
+    typeof input.durationHours === 'number' &&
+    input.durationHours > 0
+      ? { duration: `PT${input.durationHours}H` }
+      : typeof input.durationDays === 'number' && input.durationDays > 0
+        ? { duration: `P${input.durationDays}D` }
+        : {}),
     ...(typeof input.maxGroup === 'number' && input.maxGroup > 0
       ? { maximumAttendeeCapacity: input.maxGroup }
       : {}),

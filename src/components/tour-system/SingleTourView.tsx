@@ -26,6 +26,7 @@ export interface SingleTour {
   slug: string;
   summary?: string;
   durationDays?: number;
+  durationHours?: number;
   durationLabel?: string;
   // Pricing/audience fields — fetched via tourCardProjection. Day tours
   // carry no basePrice today, so the builder emits no offers; kept so a
@@ -142,6 +143,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
       tourMode: tour.tourMode,
       summary: tour.summary,
       durationDays: tour.durationDays,
+      durationHours: tour.durationHours,
       durationLabel: tour.durationLabel,
       basePrice: tour.basePrice ?? undefined,
       peakUpliftPct: tour.peakUpliftPct ?? undefined,
