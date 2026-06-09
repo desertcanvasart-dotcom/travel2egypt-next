@@ -1,0 +1,398 @@
+/**
+ * Concierge — /plan-your-tour static shell (Session 1).
+ *
+ * Visual reference: concierge-page-mockup-v2.html. Layout/spacing are taken
+ * from the mockup, but RECOLORED to the locked brand tokens and rebuilt
+ * SHARP + FLAT (no radius, no shadows) per the brand spec — the mockup's
+ * orange/rounded/shadowed treatment does NOT carry over.
+ *
+ *   mockup orange  → faience  (#1b4965, ultramarine — the accent)
+ *   mockup ink     → navy     (#14243b, primary text/dark)
+ *   mockup gold    → gold     (#b89456, warm accent — badges/connectors)
+ *   Display = Cormorant · Body = Source Serif 4 · UI = DM Sans
+ *
+ * All rules are scoped under `.cnc`. Imported route-scoped by the page, so it
+ * does not ship on other routes.
+ */
+
+.cnc {
+  /* Surfaces */
+  --cnc-paper: var(--color-paper);          /* page canvas (inherited) */
+  --cnc-surface: #ffffff;                   /* chat surface — design spec §8 */
+  --cnc-tint: var(--color-limestone-warm);  /* subtle warm fill */
+  /* Ink — locked navy */
+  --cnc-ink: #14243b;
+  --cnc-ink-soft: #5c6675;
+  --cnc-ink-muted: #8b8579;
+  /* Accent — faience (replaces the mockup's orange) */
+  --cnc-accent: var(--color-faience);
+  --cnc-accent-deep: var(--color-faience-deep);
+  --cnc-accent-tint: var(--color-faience-soft);
+  /* Warm accent — locked gold */
+  --cnc-gold: #b89456;
+  /* Rules */
+  --cnc-line: var(--color-rule);
+  --cnc-line-soft: var(--color-line-soft);
+  /* Type */
+  --cnc-display: var(--font-serif);
+  --cnc-body: var(--font-sans);
+  --cnc-ui: var(--font-dm-sans), 'DM Sans', -apple-system, sans-serif;
+
+  background: var(--cnc-paper);
+  color: var(--cnc-ink);
+}
+
+/* ─────────────── CONCIERGE FRAME ─────────────── */
+.cnc-frame {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-md) var(--space-md);
+  text-align: center;
+}
+.cnc-frame__eyebrow {
+  font-family: var(--cnc-ui);
+  font-size: var(--text-eyebrow);
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--cnc-accent);
+  margin-bottom: var(--space-md);
+}
+.cnc-frame__heading {
+  font-family: var(--cnc-display);
+  font-weight: 400;
+  font-size: var(--text-display-lg);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-display);
+  color: var(--cnc-ink);
+  margin-bottom: var(--space-sm);
+}
+.cnc-frame__heading em {
+  font-style: italic;
+  color: var(--cnc-accent);
+}
+.cnc-frame__subheading {
+  font-family: var(--cnc-body);
+  font-size: var(--text-body-lg);
+  line-height: var(--leading-body);
+  color: var(--cnc-ink-soft);
+  max-width: 34em;
+  margin: 0 auto;
+}
+
+/* ─────────────── JOURNEY INDICATOR ─────────────── */
+.cnc-journey {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: var(--space-md);
+}
+.cnc-journey__inner {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr;
+  align-items: stretch;
+  gap: var(--space-sm);
+}
+.cnc-journey__step {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: var(--space-md);
+  background: var(--cnc-surface);
+  border: 1px solid var(--cnc-line);
+}
+.cnc-journey__num {
+  font-family: var(--cnc-display);
+  font-style: italic;
+  font-size: 0.9375rem;
+  color: var(--cnc-accent);
+}
+.cnc-journey__title {
+  font-family: var(--cnc-ui);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--cnc-ink);
+  line-height: var(--leading-snug);
+}
+.cnc-journey__desc {
+  font-family: var(--cnc-body);
+  font-size: var(--text-body-sm);
+  color: var(--cnc-ink-soft);
+  line-height: var(--leading-base);
+}
+.cnc-journey__connector {
+  align-self: center;
+  width: var(--space-md);
+  height: 1px;
+  background: var(--cnc-gold);
+  opacity: 0.5;
+}
+
+/* ─────────────── TRUST STRIP placement ─────────────── */
+/* The TrustStrip component is self-styled (utilities); this only spaces it. */
+.cnc-trust {
+  margin: var(--space-sm) auto var(--space-xl);
+}
+
+/* ─────────────── CHAT CONTAINER (static) ─────────────── */
+.cnc-chat-shell {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 var(--space-sm) var(--space-2xl);
+}
+.cnc-chat {
+  display: flex;
+  flex-direction: column;
+  height: 640px;
+  max-height: calc(100vh - 180px);
+  background: var(--cnc-surface);
+  border: 1px solid var(--cnc-line);
+}
+.cnc-chat__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--cnc-line-soft);
+  background: var(--cnc-paper);
+}
+.cnc-chat__identity {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.cnc-avatar {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cnc-ink);
+  color: var(--cnc-paper);
+  font-family: var(--cnc-ui);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}
+.cnc-chat__name {
+  font-family: var(--cnc-ui);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--cnc-ink);
+}
+.cnc-chat__status {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--cnc-ui);
+  font-size: 0.75rem;
+  color: var(--cnc-ink-muted);
+}
+.cnc-status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--cnc-accent);
+}
+.cnc-escape {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.875rem;
+  background: none;
+  border: 1px solid var(--cnc-line);
+  font-family: var(--cnc-ui);
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--cnc-ink-soft);
+}
+
+/* Conversation area */
+.cnc-conversation {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+.cnc-msg {
+  display: flex;
+  gap: 0.75rem;
+  max-width: 88%;
+}
+.cnc-msg__avatar {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cnc-ink);
+  color: var(--cnc-paper);
+  font-family: var(--cnc-ui);
+  font-weight: 700;
+  font-size: 10px;
+}
+.cnc-msg__bubble {
+  font-family: var(--cnc-body);
+  font-size: 1rem;
+  line-height: var(--leading-body);
+  color: var(--cnc-ink);
+  background: var(--cnc-tint);
+  border: 1px solid var(--cnc-line-soft);
+  padding: 0.75rem 1rem;
+}
+.cnc-msg__bubble p + p {
+  margin-top: 0.625rem;
+}
+
+/* Starter chips */
+.cnc-starters {
+  padding: 0 var(--space-md) var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.cnc-starters__label {
+  font-family: var(--cnc-ui);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cnc-ink-muted);
+}
+.cnc-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.cnc-chip {
+  font-family: var(--cnc-ui);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--cnc-ink-soft);
+  background: var(--cnc-paper);
+  border: 1px solid var(--cnc-line);
+  padding: 0.625rem 0.875rem;
+  text-align: left;
+}
+
+/* Input bar (disabled placeholder) */
+.cnc-input-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.625rem;
+  padding: var(--space-sm) var(--space-md);
+  border-top: 1px solid var(--cnc-line-soft);
+  background: var(--cnc-surface);
+}
+.cnc-input {
+  flex: 1;
+  resize: none;
+  min-height: 44px;
+  max-height: 120px;
+  padding: 0.75rem 1rem;
+  font-family: var(--cnc-body);
+  font-size: 1rem;
+  line-height: var(--leading-base);
+  color: var(--cnc-ink);
+  background: var(--cnc-paper);
+  border: 1px solid var(--cnc-line);
+}
+.cnc-input::placeholder {
+  color: var(--cnc-ink-muted);
+}
+.cnc-input:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+.cnc-send {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--cnc-accent);
+  color: #fff;
+  border: none;
+}
+.cnc-send:disabled {
+  background: var(--cnc-ink-muted);
+  cursor: not-allowed;
+}
+
+/* ─────────────── FALLBACK ─────────────── */
+.cnc-fallback {
+  max-width: var(--container-text);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-md) var(--space-3xl);
+  text-align: center;
+}
+.cnc-fallback__eyebrow {
+  font-family: var(--cnc-ui);
+  font-size: var(--text-eyebrow);
+  font-weight: 600;
+  letter-spacing: var(--tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--cnc-accent);
+  margin-bottom: var(--space-md);
+}
+.cnc-fallback__heading {
+  font-family: var(--cnc-display);
+  font-weight: 400;
+  font-size: var(--text-display-md);
+  line-height: var(--leading-tight);
+  letter-spacing: var(--tracking-display);
+  color: var(--cnc-ink);
+  margin-bottom: var(--space-sm);
+}
+.cnc-fallback__body {
+  font-family: var(--cnc-body);
+  font-size: var(--text-body-lg);
+  line-height: var(--leading-body);
+  color: var(--cnc-ink-soft);
+  max-width: 36em;
+  margin: 0 auto var(--space-lg);
+}
+.cnc-fallback__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-lg);
+  align-items: center;
+  justify-content: center;
+}
+
+/* ─────────────── RESPONSIVE ─────────────── */
+@media (max-width: 768px) {
+  .cnc-frame {
+    padding: var(--space-lg) var(--space-sm) var(--space-sm);
+  }
+  .cnc-journey__inner {
+    grid-template-columns: 1fr;
+  }
+  .cnc-journey__connector {
+    display: none;
+  }
+  .cnc-chat-shell {
+    padding: 0 0.75rem var(--space-xl);
+  }
+  .cnc-chat {
+    height: calc(100vh - 200px);
+    min-height: 520px;
+  }
+  .cnc-msg {
+    max-width: 100%;
+  }
+  .cnc-chips {
+    flex-direction: column;
+  }
+  .cnc-chip {
+    width: 100%;
+  }
+  .cnc-escape span {
+    display: none;
+  }
+}

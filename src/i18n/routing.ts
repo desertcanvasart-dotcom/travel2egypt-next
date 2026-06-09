@@ -30,6 +30,9 @@ export const routing = defineRouting({
     '/faq': { en: '/faq', es: '/faq', ja: '/yoku-aru-shitsumon' },
     '/about': { en: '/about', es: '/about', ja: '/watashitachi-ni-tsuite' },
     '/contact': { en: '/contact', es: '/contact', ja: '/otoiawase' },
+    // Concierge: shared static path across locales. JA renders the in-site
+    // fallback, so it keeps the English slug rather than a romaji one for now.
+    '/plan-your-tour': { en: '/plan-your-tour', es: '/plan-your-tour', ja: '/plan-your-tour' },
     '/wiki': { en: '/wiki', es: '/wiki', ja: '/ejiputo-hyakka' },
     '/your-name-in-hieroglyphs': { en: '/your-name-in-hieroglyphs', es: '/your-name-in-hieroglyphs', ja: '/hierogurifu-namae' },
     '/distance-between-egyptian-cities': { en: '/distance-between-egyptian-cities', es: '/distance-between-egyptian-cities', ja: '/toshikan-kyori' },

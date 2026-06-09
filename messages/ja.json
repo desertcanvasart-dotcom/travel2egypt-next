@@ -75,6 +75,17 @@
     "ctaTourLabel": "このツアーについてコンシェルジュに相談する",
     "ctaTrailingArrow": "→"
   },
+  "planYourTour": {
+    "metaTitle": "AIコンシェルジュとエジプト旅行を計画する",
+    "metaDescription": "AIコンシェルジュとの会話でエジプト旅行の形を整え、そのあとは私たちのチームが具体的な提案と料金でお引き受けします。30年の実績を持つエジプト現地オペレーター。",
+    "fallbackEyebrow": "エジプト旅行を計画する",
+    "fallbackHeading": "私たちのチームがお手伝いします",
+    "fallbackBodyLocale": "AIコンシェルジュは現在、英語とスペイン語のみに対応しています。それまでの間は、私たちのチームが直接ご相談を承ります。ご希望をお聞かせいただければ、具体的な提案と料金を年中無休でお返しします。",
+    "fallbackBodyDisabled": "AIコンシェルジュは現在、一時的にご利用いただけません。その間は私たちのチームが承ります。ご希望をお聞かせいただければ、具体的な提案と料金を年中無休でお返しします。",
+    "fallbackContactCta": "チームに問い合わせる",
+    "fallbackWhatsappCta": "WhatsAppでメッセージを送る",
+    "fallbackWhatsappText": "Travel2Egyptさん、エジプト旅行を計画したいです。"
+  },
   "nav": {
     "home": "ホーム",
     "tours": "日帰りツアー",

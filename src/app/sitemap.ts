@@ -61,6 +61,7 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   // Top-level company page (session 38) — priority 0.7, a notch above the
   // editorial pages below it.
   { path: '/about', priority: 0.7 },
+  { path: '/plan-your-tour', priority: 0.7 },
   { path: '/contact', priority: 0.5 },
   // Name-in-hieroglyphs translator (session 32). Preserves SEO equity from
   // WP /your-name-in-hieroglyphics/ via a 301 set up at cutover.
