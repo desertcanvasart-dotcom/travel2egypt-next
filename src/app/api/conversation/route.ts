@@ -23,7 +23,7 @@ export async function GET(req: NextRequest) {
     const db = conciergeDb();
     const { data: conversation } = await db
       .from('conversations')
-      .select('id, started_at, last_message_at')
+      .select('id, started_at, last_message_at, tour_slug, tour_title')
       .eq('session_id', session.rowId)
       .eq('archived', false)
       .order('last_message_at', { ascending: false })
@@ -44,6 +44,8 @@ export async function GET(req: NextRequest) {
         id: conversation.id,
         startedAt: conversation.started_at,
         lastMessageAt: conversation.last_message_at,
+        tourSlug: conversation.tour_slug,
+        tourTitle: conversation.tour_title,
       },
       messages: (messages ?? []).map((m) => ({
         id: m.id,

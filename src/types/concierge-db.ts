@@ -60,6 +60,8 @@ export interface ConciergeDatabase {
           started_at: string;
           last_message_at: string;
           prompt_version: string;
+          tour_slug: string | null;
+          tour_title: string | null;
           brief_completed: boolean | null;
           brief_completed_at: string | null;
           brief_payload: Json | null;
@@ -76,6 +78,8 @@ export interface ConciergeDatabase {
           started_at?: string;
           last_message_at?: string;
           prompt_version?: string;
+          tour_slug?: string | null;
+          tour_title?: string | null;
           brief_completed?: boolean | null;
           brief_completed_at?: string | null;
           brief_payload?: Json | null;
@@ -92,6 +96,8 @@ export interface ConciergeDatabase {
           started_at?: string;
           last_message_at?: string;
           prompt_version?: string;
+          tour_slug?: string | null;
+          tour_title?: string | null;
           brief_completed?: boolean | null;
           brief_completed_at?: string | null;
           brief_payload?: Json | null;

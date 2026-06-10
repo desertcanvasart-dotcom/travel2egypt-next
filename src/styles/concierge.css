@@ -396,3 +396,142 @@
     display: none;
   }
 }
+
+/* ── Session 3 — functional chat states ─────────────────────────────── */
+
+/* User messages — right-aligned, faience-tinted (agent keeps warm tint) */
+.cnc-msg--user {
+  flex-direction: row-reverse;
+  align-self: flex-end;
+}
+.cnc-msg--user .cnc-msg__avatar {
+  background: var(--cnc-accent);
+}
+.cnc-msg--user .cnc-msg__bubble {
+  background: var(--cnc-accent-tint);
+  white-space: pre-wrap;
+}
+
+/* Agent links (markdown-rendered) */
+.cnc-msg__bubble a {
+  color: var(--cnc-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.cnc-msg__bubble ul,
+.cnc-msg__bubble ol {
+  margin: 0.625rem 0 0.625rem 1.25rem;
+  display: grid;
+  gap: 0.375rem;
+}
+.cnc-msg__bubble--streaming {
+  white-space: pre-wrap;
+}
+
+/* Typing indicator */
+.cnc-typing {
+  display: inline-flex;
+  gap: 5px;
+  padding: 0.25rem 0;
+}
+.cnc-typing span {
+  width: 6px;
+  height: 6px;
+  background: var(--cnc-ink-muted);
+  animation: cnc-pulse 1.2s ease-in-out infinite;
+}
+.cnc-typing span:nth-child(2) { animation-delay: 0.18s; }
+.cnc-typing span:nth-child(3) { animation-delay: 0.36s; }
+@keyframes cnc-pulse {
+  0%, 60%, 100% { opacity: 0.25; transform: translateY(0); }
+  30% { opacity: 1; transform: translateY(-3px); }
+}
+.cnc-slow {
+  margin-top: 0.5rem;
+  font-family: var(--cnc-ui);
+  font-size: 0.8125rem;
+  color: var(--cnc-ink-soft);
+}
+
+/* Continuing-conversation bar */
+.cnc-continuing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-family: var(--cnc-ui);
+  font-size: 0.8125rem;
+  color: var(--cnc-ink-muted);
+  padding-bottom: var(--space-2xs);
+  border-bottom: 1px solid var(--cnc-line-soft);
+}
+
+/* Small text-button (start new / retry / show suggestions) */
+.cnc-textlink {
+  font-family: var(--cnc-ui);
+  font-size: 0.8125rem;
+  color: var(--cnc-accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.cnc-textlink:hover {
+  color: var(--cnc-accent-deep);
+}
+
+/* Error bubble */
+.cnc-msg--error .cnc-msg__bubble {
+  border-color: #c0766b;
+  background: #faf2f0;
+}
+.cnc-msg--error .cnc-textlink {
+  margin-top: 0.5rem;
+}
+.cnc-error-paths {
+  margin-top: 0.5rem;
+}
+.cnc-error-paths a {
+  color: var(--cnc-accent);
+}
+
+/* Jump-to-latest pill */
+.cnc-chat {
+  position: relative;
+}
+.cnc-jump {
+  position: absolute;
+  left: 50%;
+  bottom: 130px;
+  transform: translateX(-50%);
+  z-index: 2;
+  font-family: var(--cnc-ui);
+  font-size: 0.8125rem;
+  color: var(--cnc-paper);
+  background: var(--cnc-ink);
+  border: 0;
+  padding: 0.375rem 0.875rem;
+  cursor: pointer;
+}
+
+/* Collapsed starters (show-suggestions link) */
+.cnc-starters--collapsed {
+  padding-top: var(--space-2xs);
+  padding-bottom: var(--space-2xs);
+  text-align: center;
+}
+
+/* Disabled input while a turn is in flight */
+.cnc-input:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cnc-typing span {
+    animation: none;
+    opacity: 0.6;
+  }
+}

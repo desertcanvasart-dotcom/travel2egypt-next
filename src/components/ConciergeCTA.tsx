@@ -10,11 +10,14 @@ import { Link } from '@/i18n/navigation';
  * conversion path makes sense (homepage, city detail, tour detail).
  *
  * `tourSlug` (optional): when present, the primary CTA label flips to the
- *   tour-context wording.
+ *   tour-context wording, and (chat enabled) the slug rides along as ?tour=
+ *   so the concierge opens with that tour's context.
  *
- * Stopgap (session 37): the primary CTA points at /contact. It used to
- * target /plan-your-tour, but that AI-concierge route isn't built yet —
- * restore it (and the tour-context query param) when the concierge ships.
+ * `chatEnabled` (S3): the circuit breaker, passed down by server-component
+ *   parents via isChatEnabled() — CHAT_ENABLED must stay server-side, so
+ *   this component never reads env itself. true → /plan-your-tour;
+ *   false/omitted → /contact (fail-safe). One lever flips the chat surface
+ *   and every CTA across the site together.
  */
 
 const WHATSAPP_HREF =
@@ -23,6 +26,8 @@ const WHATSAPP_HREF =
 
 interface ConciergeCTAProps {
   tourSlug?: string;
+  /** Circuit breaker — from a server parent's isChatEnabled(). Defaults to false (CTA → /contact). */
+  chatEnabled?: boolean;
   /** Visual variant — "full" includes the three process steps; "compact" omits them for narrow contexts. */
   variant?: 'full' | 'compact';
   /**
@@ -32,10 +37,19 @@ interface ConciergeCTAProps {
   contextLabel?: string;
 }
 
-export function ConciergeCTA({ tourSlug, variant = 'full', contextLabel }: ConciergeCTAProps) {
+export function ConciergeCTA({
+  tourSlug,
+  chatEnabled = false,
+  variant = 'full',
+  contextLabel,
+}: ConciergeCTAProps) {
   const t = useTranslations('concierge');
 
-  const planHref = '/contact';
+  const planHref = chatEnabled
+    ? tourSlug
+      ? `/plan-your-tour?tour=${encodeURIComponent(tourSlug)}`
+      : '/plan-your-tour'
+    : '/contact';
   const primaryLabel = contextLabel ?? (tourSlug ? t('ctaTourLabel') : t('primaryCta'));
 
   return (

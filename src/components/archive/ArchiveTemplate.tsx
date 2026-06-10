@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 
 import { Breadcrumb, type BreadcrumbCrumb } from '@/components/Breadcrumb';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '@/components/FloatingConcierge';
 import { ArticleFootBand, type FootBandProps } from '@/components/ArticleConnective';
 import type { Locale } from '@/i18n/routing';
@@ -136,7 +137,7 @@ export function ArchiveTemplate({
         </Suspense>
       </div>
 
-      <ConciergeCTA variant="compact" contextLabel={conciergeContextLabel} />
+      <ConciergeCTA chatEnabled={isChatEnabled()} variant="compact" contextLabel={conciergeContextLabel} />
       <ArticleFootBand {...footBand} />
       <FloatingConcierge />
     </>

@@ -14,6 +14,7 @@ import {
 import { Body } from '@/components/Body';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { ArticleFootBand, type WeaveItem } from '@/components/ArticleConnective';
 import { FloatingConcierge } from '@/components/FloatingConcierge';
 import { buildStaticMetadata } from '@/lib/seo';
@@ -297,7 +298,7 @@ export default async function TravelTipsArchivePage({ params }: Props) {
         )}
       </div>
 
-      <ConciergeCTA variant="compact" contextLabel={t('conciergeAboutTips')} />
+      <ConciergeCTA chatEnabled={isChatEnabled()} variant="compact" contextLabel={t('conciergeAboutTips')} />
       <ArticleFootBand
         inSeasonLabel={t('footInSeasonLabel')}
         inSeasonBody={t('footInSeasonBody')}

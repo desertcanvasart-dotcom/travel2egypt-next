@@ -19,6 +19,7 @@ import { cityBySlugQuery, allCitySlugsQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { CityGuideSidebar } from '@/components/CityGuideSidebar';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { SectionHeader } from '@/components/SectionHeader';
 
 interface Props {
@@ -334,7 +335,7 @@ export default async function CityGuidePage({ params }: Props) {
         </div>
       </div>
 
-      <ConciergeCTA />
+      <ConciergeCTA chatEnabled={isChatEnabled()} />
     </article>
   );
 }

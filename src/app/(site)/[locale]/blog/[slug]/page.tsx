@@ -16,6 +16,7 @@ import { Body } from '@/components/Body';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { ArticleSidebar } from '@/components/ArticleSidebar';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '@/components/FloatingConcierge';
 import {
   ArticleRelatedWeave,
@@ -402,6 +403,7 @@ export default async function ArticlePage({ params }: Props) {
 
       {/* ── Concierge CTA (contextual where a city is known) ── */}
       <ConciergeCTA
+        chatEnabled={isChatEnabled()}
         variant="compact"
         contextLabel={cityName ? t('conciergeAboutCity', { city: cityName }) : undefined}
       />

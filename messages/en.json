@@ -109,7 +109,18 @@
     "fallbackBodyDisabled": "Our AI concierge is briefly offline. Our team is here in the meantime — share what you have in mind and we'll come back with specific recommendations and pricing, seven days a week.",
     "fallbackContactCta": "Contact our team",
     "fallbackWhatsappCta": "Message us on WhatsApp",
-    "fallbackWhatsappText": "Hi Travel2Egypt, I'd like to plan an Egypt trip."
+    "fallbackWhatsappText": "Hi Travel2Egypt, I'd like to plan an Egypt trip.",
+    "userAvatar": "YOU",
+    "continuingFrom": "Continuing your conversation from {date}",
+    "startNew": "Start new conversation",
+    "showSuggestions": "Show suggestions",
+    "retryLabel": "Retry",
+    "errorBubble": "That message didn't go through. Please try again.",
+    "errorFallback": "We're having trouble reaching our system. While we sort it out, you can reach our team directly:",
+    "slowResponse": "Working on a thoughtful response…",
+    "jumpToLatest": "Jump to latest",
+    "openingTour1": "Hi — I'm the AI concierge for Travel2Egypt. I see you've been looking at {tourName}.",
+    "openingTour2": "Happy to help you think it through — whether the pace fits your dates, what to combine it with, or anything you'd adjust. What's on your mind?"
   },
   "nav": {
     "home": "Home",

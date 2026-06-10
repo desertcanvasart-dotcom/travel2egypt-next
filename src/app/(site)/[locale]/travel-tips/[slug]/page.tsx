@@ -17,6 +17,7 @@ import { Body } from '@/components/Body';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { ArticleSidebar } from '@/components/ArticleSidebar';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '@/components/FloatingConcierge';
 import {
   ArticleRelatedWeave,
@@ -251,7 +252,7 @@ export default async function TravelTipDetailPage({ params }: Props) {
 
       <ArticleRelatedWeave columns={weaveColumns} />
 
-      <ConciergeCTA variant="compact" contextLabel={t('conciergeAboutTips')} />
+      <ConciergeCTA chatEnabled={isChatEnabled()} variant="compact" contextLabel={t('conciergeAboutTips')} />
       <ArticleFootBand
         inSeasonLabel={t('footInSeasonLabel')}
         inSeasonBody={t('footInSeasonBody')}
