@@ -34,6 +34,9 @@ export const runtime = 'nodejs';
 
 const MAX_MESSAGE_CHARS = 4000;
 
+// Reasonable RFC-ish email match (not draconian) for brief-flow auto-capture.
+const EMAIL_RE = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i;
+
 interface ChatBody {
   message?: unknown;
   conversationId?: unknown;
@@ -139,6 +142,21 @@ export async function POST(req: NextRequest) {
     });
     if (insertError) throw new Error(`user message persist failed: ${insertError.message}`);
 
+    // Brief-flow email auto-capture (S4): the agent asks for an email in
+    // chat (v4.1 L223), so it lands in message content, not sessions.email.
+    // Capture the FIRST valid email from a USER message (never the agent's —
+    // it may quote one back) so Gate 1's session.email check works in the
+    // normal flow. First valid wins; never overwrite an existing value.
+    let sessionEmail = session.email;
+    if (!sessionEmail) {
+      const found = message.match(EMAIL_RE)?.[0];
+      if (found) {
+        sessionEmail = found.toLowerCase();
+        await db.from('sessions').update({ email: sessionEmail }).eq('id', session.rowId);
+        console.info(`[concierge] auto-captured email for session ${session.rowId}`);
+      }
+    }
+
     const apiMessages = [
       ...(history ?? []).map((m) => ({
         role: m.role as 'user' | 'assistant',
@@ -204,7 +222,10 @@ export async function POST(req: NextRequest) {
             .from('conversations')
             .update({ last_message_at: new Date().toISOString() })
             .eq('id', conversationId);
-          send({ type: 'done', briefDetected: detectBriefMarkers(text, locale) });
+          send({
+            type: 'done',
+            briefDetected: detectBriefMarkers(text, locale, { email: sessionEmail }),
+          });
         } catch (err) {
           console.error('[concierge] chat stream failed:', err);
           send({ type: 'error', message: 'stream_failed' });
@@ -221,7 +242,7 @@ export async function POST(req: NextRequest) {
         Connection: 'keep-alive',
       },
     });
-    if (session.isNew) res.cookies.set(sessionCookie(req, session.cookieId));
+    if (session.isNew) res.cookies.set(await sessionCookie(req, session.cookieId));
     return res;
   } catch (err) {
     console.error('[concierge] chat request failed:', err);

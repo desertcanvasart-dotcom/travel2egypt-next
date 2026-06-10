@@ -6,6 +6,8 @@ import { useFormatter, useTranslations } from 'next-intl';
 
 import { renderAgentMarkdown } from '@/lib/concierge/markdown';
 import { Link } from '@/i18n/navigation';
+import type { BriefPayload, BriefResponse } from '@/types/concierge';
+import { BriefPanel } from './BriefPanel';
 
 /**
  * ChatContainer — the functional concierge chat (Session 3).
@@ -42,13 +44,21 @@ interface ChatContainerProps {
   locale: 'en' | 'es';
   tourSlug?: string | null;
   tourTitle?: string | null;
+  /** True when arriving via an invalid/expired resume link (S4). */
+  resumeError?: boolean;
 }
 
 type Phase = 'idle' | 'thinking' | 'streaming';
 
-export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProps) {
+export function ChatContainer({
+  locale,
+  tourSlug,
+  tourTitle,
+  resumeError = false,
+}: ChatContainerProps) {
   const t = useTranslations('planYourTour');
   const format = useFormatter();
+  const [resumeNoticeShown, setResumeNoticeShown] = useState(resumeError);
 
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [phase, setPhase] = useState<Phase>('idle');
@@ -61,6 +71,13 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
   const [showJump, setShowJump] = useState(false);
   const [failed, setFailed] = useState<{ text: string; attempts: number } | null>(null);
   const [announcement, setAnnouncement] = useState('');
+  // Brief flow (S4): the completion panel + Gate-1→Gate-2 client gating.
+  const [brief, setBrief] = useState<BriefPayload | null>(null);
+  const [briefDismissed, setBriefDismissed] = useState(false);
+  // After a Gate-1-true / Gate-2-false result, suppress the next N triggers
+  // so we don't re-run the expensive extraction every turn (S4 decision 3).
+  const suppressRef = useRef(0);
+  const briefFetchingRef = useRef(false);
 
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const convRef = useRef<HTMLDivElement>(null);
@@ -79,12 +96,21 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
         const res = await fetch('/api/conversation');
         if (!res.ok) return;
         const data = (await res.json()) as {
-          conversation: { id: string; lastMessageAt: string } | null;
+          conversation: {
+            id: string;
+            lastMessageAt: string;
+            briefCompleted?: boolean;
+            briefPayload?: BriefPayload | null;
+          } | null;
           messages: Array<{ id: string; role: 'user' | 'assistant'; content: string }>;
         };
         if (cancelled || !data.conversation || data.messages.length === 0) return;
         setConversationId(data.conversation.id);
         setContinuingFrom(data.conversation.lastMessageAt);
+        // A reloaded, already-completed conversation re-shows its panel.
+        if (data.conversation.briefCompleted && data.conversation.briefPayload) {
+          setBrief(data.conversation.briefPayload);
+        }
         const rendered = await Promise.all(
           data.messages.map(async (m) => ({
             key: m.id,
@@ -151,6 +177,8 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
 
     let assembled = '';
     let gotError = false;
+    let briefDetected = false;
+    let doneConversationId: string | null = conversationId;
     try {
       const res = await fetch('/api/chat', {
         method: 'POST',
@@ -183,6 +211,7 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
             briefDetected?: boolean;
           };
           if (event.type === 'start' && event.conversationId) {
+            doneConversationId = event.conversationId;
             setConversationId(event.conversationId);
           } else if (event.type === 'delta' && event.text) {
             clearSlowTimer();
@@ -190,7 +219,7 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
             assembled += event.text;
             setStreamText(assembled);
           } else if (event.type === 'done') {
-            // event.briefDetected is the S4 surface — panel ships there.
+            briefDetected = event.briefDetected === true;
           } else if (event.type === 'error') {
             gotError = true;
           }
@@ -207,6 +236,17 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
       setStreamText('');
       setPhase('idle');
       clearSlowTimer();
+
+      // Gate 1 → Gate 2. Skip if a brief already exists or while suppressed
+      // after a prior Gate-2 rejection (decision 3); Gate 1 itself stays
+      // stateless server-side — this client gating only governs the fetch.
+      if (briefDetected && !brief && doneConversationId) {
+        if (suppressRef.current > 0) {
+          suppressRef.current -= 1;
+        } else {
+          void fetchBrief(doneConversationId);
+        }
+      }
       inputRef.current?.focus();
     } catch {
       clearSlowTimer();
@@ -217,6 +257,40 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
         attempts: (prev && prev.text === trimmed ? prev.attempts : 0) + 1,
       }));
     }
+  }
+
+  // ── Gate 2: confirm + load the brief, or suppress for a few turns ─────
+  async function fetchBrief(convId: string) {
+    if (briefFetchingRef.current) return;
+    briefFetchingRef.current = true;
+    try {
+      const res = await fetch('/api/brief', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ conversationId: convId }),
+      });
+      if (!res.ok) {
+        suppressRef.current = 3;
+        return;
+      }
+      const data = (await res.json()) as BriefResponse;
+      if (data.complete && data.payload) {
+        setBrief(data.payload);
+        setBriefDismissed(false);
+      } else {
+        // Gate 2 rejected a Gate-1 match — quietly continue (decision 3).
+        suppressRef.current = 3;
+      }
+    } catch {
+      suppressRef.current = 3;
+    } finally {
+      briefFetchingRef.current = false;
+    }
+  }
+
+  function continueFromBrief() {
+    setBriefDismissed(true);
+    inputRef.current?.focus();
   }
 
   // ── start a fresh conversation (archives the current one) ─────────────
@@ -239,6 +313,9 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
     setFailed(null);
     setStreamText('');
     setAnnouncement('');
+    setBrief(null);
+    setBriefDismissed(false);
+    suppressRef.current = 0;
     inputRef.current?.focus();
   }
 
@@ -264,6 +341,10 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
   }
 
   const busy = phase !== 'idle';
+  // While the brief panel is the active surface, the chat input is locked
+  // until "Continue conversation" (briefDismissed) re-enables it.
+  const panelActive = brief !== null && !briefDismissed;
+  const inputLocked = busy || panelActive;
   const showOpening = messages.length === 0 && !busy;
   const chips = [t('chip1'), t('chip2'), t('chip3'), t('chip4')];
   const whatsappHref = WHATSAPP_BASE + encodeURIComponent(t('fallbackWhatsappText'));
@@ -298,6 +379,20 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
             <span>{t('escapeTrigger')}</span>
           </button>
         </div>
+
+        {resumeNoticeShown && (
+          <div className="cnc-flash" role="status">
+            <span>{t('resumeErrorFlash')}</span>
+            <button
+              type="button"
+              className="cnc-flash__dismiss"
+              aria-label={t('dismiss')}
+              onClick={() => setResumeNoticeShown(false)}
+            >
+              ✕
+            </button>
+          </div>
+        )}
 
         {/* Conversation */}
         <div className="cnc-conversation" ref={convRef} onScroll={onScroll}>
@@ -356,6 +451,10 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
                 <div className="cnc-msg__bubble">{m.text}</div>
               </div>
             ),
+          )}
+
+          {brief && !briefDismissed && (
+            <BriefPanel payload={brief} locale={locale} onContinue={continueFromBrief} />
           )}
 
           {phase === 'streaming' && streamText && (
@@ -458,7 +557,7 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
             placeholder={t('inputPlaceholder')}
             aria-label={t('inputPlaceholder')}
             value={input}
-            disabled={busy}
+            disabled={inputLocked}
             onChange={(e) => {
               setInput(e.target.value);
               autoResize();
@@ -468,7 +567,7 @@ export function ChatContainer({ locale, tourSlug, tourTitle }: ChatContainerProp
           <button
             type="button"
             className="cnc-send"
-            disabled={busy || !input.trim()}
+            disabled={inputLocked || !input.trim()}
             aria-label={t('sendLabel')}
             onClick={() => void send(input)}
           >

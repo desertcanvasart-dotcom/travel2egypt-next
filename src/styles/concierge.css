@@ -535,3 +535,128 @@
     opacity: 0.6;
   }
 }
+
+/* ── Session 4 — brief completion panel + resume flash ──────────────── */
+
+.cnc-brief {
+  flex: 1;
+  background: var(--cnc-surface);
+  border: 1px solid var(--cnc-accent);
+  border-left: 3px solid var(--cnc-accent);
+  padding: 1.25rem 1.25rem 1rem;
+  animation: cnc-brief-in 0.35s ease;
+}
+@keyframes cnc-brief-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.cnc-brief__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--cnc-accent);
+  color: var(--cnc-paper);
+  margin-bottom: 0.75rem;
+}
+.cnc-brief__heading {
+  font-family: var(--cnc-display);
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: var(--cnc-ink);
+  margin: 0 0 0.5rem;
+}
+.cnc-brief__body {
+  font-family: var(--cnc-body);
+  font-size: 0.9375rem;
+  line-height: var(--leading-body);
+  color: var(--cnc-ink-soft);
+  margin: 0 0 1rem;
+}
+.cnc-brief__summary-label {
+  font-family: var(--cnc-ui);
+  font-size: 0.6875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cnc-ink-muted);
+  margin-bottom: 0.5rem;
+}
+.cnc-brief__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.cnc-brief__chip {
+  font-family: var(--cnc-ui);
+  font-size: 0.8125rem;
+  color: var(--cnc-ink);
+  background: var(--cnc-tint);
+  border: 1px solid var(--cnc-line-soft);
+  padding: 0.3125rem 0.625rem;
+}
+.cnc-brief__chip strong {
+  font-weight: 700;
+}
+.cnc-brief__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+.cnc-brief__dot {
+  color: var(--cnc-ink-muted);
+}
+.cnc-brief__save {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.cnc-brief__save-input {
+  font-family: var(--cnc-body);
+  font-size: 0.875rem;
+  padding: 0.375rem 0.5rem;
+  border: 1px solid var(--cnc-line);
+  background: var(--cnc-surface);
+  color: var(--cnc-ink);
+  min-width: 12rem;
+}
+.cnc-brief__save-ok {
+  font-family: var(--cnc-ui);
+  font-size: 0.8125rem;
+  color: var(--cnc-accent);
+}
+.cnc-brief__save-err {
+  font-family: var(--cnc-ui);
+  font-size: 0.8125rem;
+  color: #c0766b;
+}
+
+/* Resume-link flash */
+.cnc-flash {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  font-family: var(--cnc-ui);
+  font-size: 0.8125rem;
+  color: var(--cnc-ink);
+  background: var(--cnc-accent-tint);
+  border-bottom: 1px solid var(--cnc-line-soft);
+  padding: 0.625rem var(--space-md);
+}
+.cnc-flash__dismiss {
+  background: none;
+  border: 0;
+  color: var(--cnc-ink-muted);
+  cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cnc-brief { animation: none; }
+}
