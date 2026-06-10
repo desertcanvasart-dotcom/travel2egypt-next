@@ -188,7 +188,7 @@ export async function POST(req: NextRequest) {
       async start(controller) {
         const send = (event: Record<string, unknown>) =>
           controller.enqueue(encoder.encode(`data: ${JSON.stringify(event)}\n\n`));
-        send({ type: 'start', conversationId });
+        send({ type: 'start', conversationId, sessionRef: session.cookieId.slice(0, 8) });
         try {
           for await (const event of stream) {
             if (event.type === 'content_block_delta' && event.delta.type === 'text_delta') {

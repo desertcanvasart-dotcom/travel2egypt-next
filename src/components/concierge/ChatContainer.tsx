@@ -5,9 +5,11 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useFormatter, useTranslations } from 'next-intl';
 
 import { renderAgentMarkdown } from '@/lib/concierge/markdown';
+import { whatsappUrl } from '@/lib/concierge/constants';
 import { Link } from '@/i18n/navigation';
 import type { BriefPayload, BriefResponse } from '@/types/concierge';
 import { BriefPanel } from './BriefPanel';
+import { EscapeHatch } from './EscapeHatch';
 
 /**
  * ChatContainer — the functional concierge chat (Session 3).
@@ -28,7 +30,6 @@ import { BriefPanel } from './BriefPanel';
  * conversation from [date]" + "Start new conversation" (archives).
  */
 
-const WHATSAPP_BASE = 'https://wa.me/201158011600?text=';
 const SLOW_RESPONSE_MS = 8000;
 const MAX_RETRIES = 3;
 
@@ -74,6 +75,10 @@ export function ChatContainer({
   // Brief flow (S4): the completion panel + Gate-1→Gate-2 client gating.
   const [brief, setBrief] = useState<BriefPayload | null>(null);
   const [briefDismissed, setBriefDismissed] = useState(false);
+  // Escape hatch (S5).
+  const [escapeOpen, setEscapeOpen] = useState(false);
+  const [sessionRef, setSessionRef] = useState<string | null>(null);
+  const escapeTriggerRef = useRef<HTMLButtonElement>(null);
   // After a Gate-1-true / Gate-2-false result, suppress the next N triggers
   // so we don't re-run the expensive extraction every turn (S4 decision 3).
   const suppressRef = useRef(0);
@@ -103,8 +108,11 @@ export function ChatContainer({
             briefPayload?: BriefPayload | null;
           } | null;
           messages: Array<{ id: string; role: 'user' | 'assistant'; content: string }>;
+          sessionRef?: string | null;
         };
-        if (cancelled || !data.conversation || data.messages.length === 0) return;
+        if (cancelled) return;
+        if (data.sessionRef) setSessionRef(data.sessionRef);
+        if (!data.conversation || data.messages.length === 0) return;
         setConversationId(data.conversation.id);
         setContinuingFrom(data.conversation.lastMessageAt);
         // A reloaded, already-completed conversation re-shows its panel.
@@ -207,12 +215,14 @@ export function ChatContainer({
           const event = JSON.parse(chunk.slice(6)) as {
             type: string;
             conversationId?: string;
+            sessionRef?: string;
             text?: string;
             briefDetected?: boolean;
           };
           if (event.type === 'start' && event.conversationId) {
             doneConversationId = event.conversationId;
             setConversationId(event.conversationId);
+            if (event.sessionRef) setSessionRef(event.sessionRef);
           } else if (event.type === 'delta' && event.text) {
             clearSlowTimer();
             setPhase('streaming');
@@ -347,7 +357,7 @@ export function ChatContainer({
   const inputLocked = busy || panelActive;
   const showOpening = messages.length === 0 && !busy;
   const chips = [t('chip1'), t('chip2'), t('chip3'), t('chip4')];
-  const whatsappHref = WHATSAPP_BASE + encodeURIComponent(t('fallbackWhatsappText'));
+  const whatsappHref = whatsappUrl(t('fallbackWhatsappText'));
 
   return (
     <div className="cnc-chat-shell">
@@ -366,8 +376,15 @@ export function ChatContainer({
               </div>
             </div>
           </div>
-          {/* Escape hatch ships in Session 5 — trigger stays inert. */}
-          <button type="button" className="cnc-escape" disabled aria-label={t('escapeTrigger')}>
+          {/* Escape hatch trigger (S5) — always available. */}
+          <button
+            ref={escapeTriggerRef}
+            type="button"
+            className="cnc-escape"
+            aria-haspopup="dialog"
+            aria-expanded={escapeOpen}
+            onClick={() => setEscapeOpen(true)}
+          >
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
               <path
                 d="M2 4 C 2 2.5, 3.5 2, 5 2 L 9 2 C 10.5 2, 12 2.5, 12 4 L 12 8 C 12 9.5, 10.5 10, 9 10 L 7 10 L 4 12.5 L 4.5 10 C 3 10, 2 9.5, 2 8 Z"
@@ -582,6 +599,15 @@ export function ChatContainer({
       <div aria-live="polite" className="sr-only">
         {announcement}
       </div>
+
+      <EscapeHatch
+        open={escapeOpen}
+        onClose={() => setEscapeOpen(false)}
+        conversationId={conversationId}
+        sessionRef={sessionRef}
+        locale={locale}
+        triggerRef={escapeTriggerRef}
+      />
     </div>
   );
 }
