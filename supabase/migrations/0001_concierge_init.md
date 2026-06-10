@@ -62,9 +62,24 @@ Verified against the Supabase docs ("Using Custom Schemas", checked
    don't need to repeat the grants for altered/new objects (new columns
    inherit table grants anyway).
 
-Runtime confirmation (an actual read/write through the JS client against
-the applied schema) happens in the Session 2 verification pass once this
-migration is applied and `SUPABASE_URL`/`SUPABASE_SERVICE_ROLE_KEY` are set.
+### Runtime confirmation (2026-06-10, after Islam applied the migration)
+
+All four findings above were confirmed against the live project
+(`Travel AI Negotiator`, eu-west-1):
+
+- **Before** the schema was added to Exposed schemas, every `concierge.*`
+  request — service role included — failed exactly as predicted:
+  `PGRST106 "Invalid schema: concierge"` / "Only the following schemas are
+  exposed: public, graphql_public". After adding it: HTTP 200.
+- All five tables reachable through the JS-client wire format
+  (`Accept-Profile: concierge`) with the service role.
+- The **anon key** gets `42501 permission denied for schema concierge` —
+  it fails at the grants layer before RLS is consulted, as designed.
+- Full E2E through `/api/chat`: streaming v4.1 response, user+assistant
+  rows persisted with `response_time_ms` (~2.2–2.5 s), token counts
+  (~13.2k in / per-reply out), `model_version: claude-sonnet-4-6`;
+  conversation continuity via the signed cookie; tampered cookie re-mints;
+  start-new archives. `prompt_version` default `v4.1` populates correctly.
 
 ## Type generation
 
