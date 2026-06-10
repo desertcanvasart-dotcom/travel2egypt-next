@@ -50,7 +50,7 @@ function b64urlEncode(bytes: Uint8Array): string {
   return btoa(bin).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
 }
 
-function b64urlDecode(s: string): Uint8Array | null {
+function b64urlDecode(s: string): Uint8Array<ArrayBuffer> | null {
   try {
     const pad = s.length % 4 === 0 ? '' : '='.repeat(4 - (s.length % 4));
     const bin = atob(s.replace(/-/g, '+').replace(/_/g, '/') + pad);
@@ -60,12 +60,6 @@ function b64urlDecode(s: string): Uint8Array | null {
   } catch {
     return null;
   }
-}
-
-function toArrayBuffer(bytes: Uint8Array): ArrayBuffer {
-  const buf = new ArrayBuffer(bytes.length);
-  new Uint8Array(buf).set(bytes);
-  return buf;
 }
 
 /** Sign a resume token for a session cookie_id (default 30-day expiry). */
@@ -102,12 +96,9 @@ export async function verifyResumeToken(
   const sigBytes = b64urlDecode(token.slice(dot + 1));
   if (!sigBytes) return null;
 
-  const ok = await crypto.subtle.verify(
-    'HMAC',
-    await hmacKey(),
-    toArrayBuffer(sigBytes),
-    encoder.encode(payloadB64),
-  );
+  // Pass the Uint8Array (TypedArray) directly — the Edge runtime's
+  // SubtleCrypto rejects a bare ArrayBuffer constructed in the module realm.
+  const ok = await crypto.subtle.verify('HMAC', await hmacKey(), sigBytes, encoder.encode(payloadB64));
   if (!ok) return null;
 
   const payloadBytes = b64urlDecode(payloadB64);

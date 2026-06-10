@@ -43,14 +43,13 @@ function bytesToHex(buf: ArrayBuffer): string {
     .join('');
 }
 
-function hexToBytes(hex: string): ArrayBuffer | null {
+function hexToBytes(hex: string): Uint8Array<ArrayBuffer> | null {
   if (hex.length === 0 || hex.length % 2 !== 0 || /[^0-9a-f]/i.test(hex)) return null;
-  const buf = new ArrayBuffer(hex.length / 2);
-  const out = new Uint8Array(buf);
+  const out = new Uint8Array(hex.length / 2);
   for (let i = 0; i < out.length; i++) {
     out[i] = parseInt(hex.slice(i * 2, i * 2 + 2), 16);
   }
-  return buf;
+  return out;
 }
 
 async function sign(id: string): Promise<string> {
