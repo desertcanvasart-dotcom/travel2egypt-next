@@ -71,6 +71,9 @@ export interface ConciergeDatabase {
           archived: boolean | null;
           flagged: boolean | null;
           flag_reason: string | null;
+          escape_hatch_used: boolean | null;
+          escape_hatch_action: string | null;
+          escape_hatch_at: string | null;
         };
         Insert: {
           id?: string;
@@ -89,6 +92,9 @@ export interface ConciergeDatabase {
           archived?: boolean | null;
           flagged?: boolean | null;
           flag_reason?: string | null;
+          escape_hatch_used?: boolean | null;
+          escape_hatch_action?: string | null;
+          escape_hatch_at?: string | null;
         };
         Update: {
           id?: string;
@@ -107,6 +113,9 @@ export interface ConciergeDatabase {
           archived?: boolean | null;
           flagged?: boolean | null;
           flag_reason?: string | null;
+          escape_hatch_used?: boolean | null;
+          escape_hatch_action?: string | null;
+          escape_hatch_at?: string | null;
         };
         Relationships: [
           {

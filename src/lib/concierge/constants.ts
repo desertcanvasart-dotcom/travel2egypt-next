@@ -23,3 +23,15 @@ export const SESSION_COOKIE_NAME = 't2e_session_id';
 
 /** 30 days — locked decision; longer continuity is S4 email-resume. */
 export const SESSION_COOKIE_MAX_AGE_SECONDS = 30 * 24 * 60 * 60;
+
+/**
+ * Team WhatsApp number (constant, not env — brief Appendix A). The single
+ * source for every wa.me link: the S1 fallback, the chat error path, and the
+ * S5 escape hatch.
+ */
+export const WHATSAPP_NUMBER = '201158011600';
+
+/** wa.me URL with a prefilled, URL-encoded message. */
+export function whatsappUrl(text: string): string {
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+}

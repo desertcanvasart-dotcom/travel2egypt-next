@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 import { Link } from '@/i18n/navigation';
+import { whatsappUrl } from '@/lib/concierge/constants';
 
 /**
  * ConciergeFallback — the single component served for both circuit-breaker
@@ -11,12 +12,10 @@ import { Link } from '@/i18n/navigation';
  * (Per-IP rate-limit blocking will reuse this component with a third reason in
  * a later session; the two Session-1 reasons share everything but the body.)
  */
-const WHATSAPP_BASE = 'https://wa.me/201158011600?text=';
-
 export function ConciergeFallback({ reason }: { reason: 'locale' | 'disabled' }) {
   const t = useTranslations('planYourTour');
   const body = reason === 'locale' ? t('fallbackBodyLocale') : t('fallbackBodyDisabled');
-  const whatsappHref = WHATSAPP_BASE + encodeURIComponent(t('fallbackWhatsappText'));
+  const whatsappHref = whatsappUrl(t('fallbackWhatsappText'));
 
   return (
     <section className="cnc">

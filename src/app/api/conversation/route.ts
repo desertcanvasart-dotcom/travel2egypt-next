@@ -18,8 +18,11 @@ export async function GET(req: NextRequest) {
   try {
     const session = await ensureSession(req, { createIfMissing: false });
     if (!session) {
-      return NextResponse.json({ conversation: null, messages: [] });
+      return NextResponse.json({ conversation: null, messages: [], sessionRef: null });
     }
+    // 8-char session reference for the escape-hatch WhatsApp prefill +
+    // admin reverse-lookup (first 8 of the session cookie_id / UUID).
+    const sessionRef = session.cookieId.slice(0, 8);
     const db = conciergeDb();
     const { data: conversation } = await db
       .from('conversations')
@@ -30,7 +33,7 @@ export async function GET(req: NextRequest) {
       .limit(1)
       .maybeSingle();
     if (!conversation) {
-      return NextResponse.json({ conversation: null, messages: [] });
+      return NextResponse.json({ conversation: null, messages: [], sessionRef });
     }
     const { data: messages, error } = await db
       .from('messages')
@@ -55,6 +58,7 @@ export async function GET(req: NextRequest) {
         content: m.content,
         createdAt: m.created_at,
       })),
+      sessionRef,
     });
   } catch (err) {
     console.error('[concierge] conversation load failed:', err);

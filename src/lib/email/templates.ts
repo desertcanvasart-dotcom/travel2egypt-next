@@ -40,6 +40,76 @@ function shell(headingHtml: string, bodyHtml: string, buttonLabel: string, url: 
 </body></html>`;
 }
 
+interface TeamHandoffParams {
+  sessionRef: string;
+  conversationId: string;
+  visitorEmail: string | null;
+  locale: string;
+  transcript: Array<{ role: 'user' | 'assistant'; content: string }>;
+}
+
+function esc(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function languageLabel(locale: string): string {
+  return locale === 'es' ? 'Spanish (es)' : 'English (en)';
+}
+
+/**
+ * Team-facing handoff notification (Session 5, "Wait for the team" / forward).
+ * Internal email — plainer than the visitor resume mail. Reply-To is set to
+ * the VISITOR's email by the sender so the team replies straight to the
+ * traveler (corrects the brief's "Reply-To → team Gmail" for team-facing
+ * mail). Includes the conversation language so the team replies in the right
+ * one without scanning the transcript.
+ */
+export function teamHandoffEmail(p: TeamHandoffParams): { subject: string; html: string; text: string } {
+  const subject = `[Concierge — Human Help Requested] — ${p.sessionRef}`;
+
+  const metaRows: Array<[string, string]> = [
+    ['Visitor email', p.visitorEmail ?? '(not provided)'],
+    ['Language', languageLabel(p.locale)],
+    ['Session reference', p.sessionRef],
+    ['Conversation ID', p.conversationId],
+    ['Flag reason', 'escape_hatch_used'],
+  ];
+
+  const transcriptLines = p.transcript.map(
+    (m) => `${m.role === 'assistant' ? 'Concierge' : 'Visitor'}: ${m.content}`,
+  );
+
+  const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
+  <div style="max-width:640px;margin:0 auto;padding:24px;">
+    <h2 style="font-size:18px;margin:0 0 4px;">A visitor asked to speak with the team</h2>
+    <p style="font-size:13px;color:#5c6675;margin:0 0 16px;">Sent from the AI concierge on travel2egypt.org. Reply to this email to reach the visitor directly.</p>
+    <table style="border-collapse:collapse;font-size:14px;margin-bottom:20px;">
+      ${metaRows
+        .map(
+          ([k, v]) =>
+            `<tr><td style="padding:3px 16px 3px 0;color:#5c6675;">${k}</td><td style="padding:3px 0;"><strong>${esc(v)}</strong></td></tr>`,
+        )
+        .join('')}
+    </table>
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Conversation transcript</h3>
+    <div style="font-size:14px;line-height:1.6;white-space:pre-wrap;">${transcriptLines.map(esc).join('\n\n')}</div>
+  </div>
+</body></html>`;
+
+  const text = [
+    'A visitor asked to speak with the team (AI concierge, travel2egypt.org).',
+    'Reply to this email to reach the visitor directly.',
+    '',
+    ...metaRows.map(([k, v]) => `${k}: ${v}`),
+    '',
+    '--- Transcript ---',
+    '',
+    ...transcriptLines,
+  ].join('\n');
+
+  return { subject, html, text };
+}
+
 export function resumeEmail(url: string, locale: string): ResumeEmailContent {
   if (locale === 'es') {
     const heading = 'Retoma tu conversación';
