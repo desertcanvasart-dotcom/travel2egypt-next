@@ -238,6 +238,28 @@ const tourCardProjection = (locale: Locale) => `
 `;
 
 /**
+ * Concierge tour context (Session 3) — the LIGHTWEIGHT sibling of
+ * tourBySlugQuery for /plan-your-tour?tour=<slug>. Same slug-resolution
+ * pattern (locale slug, EN fallback), but projects only what the runtime
+ * context block and the canned opening need. Deliberately NOT the full
+ * detail query: that one drags body/itinerary/related content.
+ */
+export const tourConciergeContextQuery = (locale: Locale) => groq`
+  *[_type == "tour" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    "slug": ${localizedSlug('slug', locale)},
+    "title": ${localizedField('title', locale)},
+    "summary": ${localizedField('summary', locale)},
+    "durationLabel": ${localizedField('durationLabel', locale)},
+    "priceIndication": ${localizedField('priceIndication', locale)},
+    "cities": cities[]->{ "name": ${localizedField('name', locale)} }
+  }
+`;
+
+/**
  * Single tour or package by slug. Pulls everything the detail page needs:
  * body, highlights, inclusions/exclusions, itinerary, related tours,
  * related guide content, traveler stories.

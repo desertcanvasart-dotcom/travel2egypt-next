@@ -49,6 +49,7 @@ import { formatPrice } from '@/lib/currency';
 import { urlFor } from '@/sanity/lib/image';
 import { Body } from '@/components/Body';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 
 export interface TourPageViewProps {
   tour: any;
@@ -233,7 +234,7 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
       </div>
 
       {/* ── Concierge handoff — replaces Book Now ────────────────────────── */}
-      <ConciergeCTA tourSlug={slug} variant="compact" />
+      <ConciergeCTA chatEnabled={isChatEnabled()} tourSlug={slug} variant="compact" />
     </article>
   );
 }

@@ -4,6 +4,7 @@ import { Body } from '@/components/Body';
 import { Breadcrumb, type BreadcrumbCrumb } from '@/components/Breadcrumb';
 import { PlaceHero } from '@/components/PlaceHero';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '@/components/FloatingConcierge';
 import { ArticleFootBand, type FootBandProps } from '@/components/ArticleConnective';
 import { ArchiveCard } from '@/components/archive/ArchiveCard';
@@ -112,7 +113,7 @@ export function SubcategoryTemplate({
         </section>
       )}
 
-      <ConciergeCTA variant="compact" contextLabel={conciergeContextLabel} />
+      <ConciergeCTA chatEnabled={isChatEnabled()} variant="compact" contextLabel={conciergeContextLabel} />
       <ArticleFootBand {...footBand} />
       <FloatingConcierge />
     </article>
