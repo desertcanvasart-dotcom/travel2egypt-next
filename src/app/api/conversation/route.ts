@@ -23,7 +23,7 @@ export async function GET(req: NextRequest) {
     const db = conciergeDb();
     const { data: conversation } = await db
       .from('conversations')
-      .select('id, started_at, last_message_at, tour_slug, tour_title')
+      .select('id, started_at, last_message_at, tour_slug, tour_title, brief_completed, brief_payload')
       .eq('session_id', session.rowId)
       .eq('archived', false)
       .order('last_message_at', { ascending: false })
@@ -46,6 +46,8 @@ export async function GET(req: NextRequest) {
         lastMessageAt: conversation.last_message_at,
         tourSlug: conversation.tour_slug,
         tourTitle: conversation.tour_title,
+        briefCompleted: conversation.brief_completed ?? false,
+        briefPayload: conversation.brief_payload ?? null,
       },
       messages: (messages ?? []).map((m) => ({
         id: m.id,
@@ -88,7 +90,7 @@ export async function POST(req: NextRequest) {
     if (error || !data) throw new Error(`conversation create failed: ${error?.message}`);
 
     const res = NextResponse.json({ conversationId: data.id });
-    if (session.isNew) res.cookies.set(sessionCookie(req, session.cookieId));
+    if (session.isNew) res.cookies.set(await sessionCookie(req, session.cookieId));
     return res;
   } catch (err) {
     console.error('[concierge] conversation start failed:', err);

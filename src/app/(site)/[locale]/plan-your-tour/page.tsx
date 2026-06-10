@@ -14,7 +14,7 @@ import '@/styles/concierge.css';
 
 interface Props {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ tour?: string | string[] }>;
+  searchParams: Promise<{ tour?: string | string[]; resume_error?: string | string[] }>;
 }
 
 /**
@@ -62,9 +62,10 @@ export default async function Page({ params, searchParams }: Props) {
   if (!isChatEnabled()) return <ConciergeFallback reason="disabled" />;
   if (lc !== 'en' && lc !== 'es') return <ConciergeFallback reason="locale" />;
 
-  const { tour } = await searchParams;
+  const { tour, resume_error } = await searchParams;
   const rawTourSlug = typeof tour === 'string' ? tour : null;
   const tourContext = rawTourSlug ? await resolveTourContext(rawTourSlug, lc) : null;
+  const resumeError = resume_error === '1';
 
   const t = await getTranslations({ locale, namespace: 'planYourTour' });
   return (
@@ -78,6 +79,7 @@ export default async function Page({ params, searchParams }: Props) {
         locale={lc as 'en' | 'es'}
         tourSlug={tourContext?.slug ?? null}
         tourTitle={tourContext?.title ?? null}
+        resumeError={resumeError}
       />
     </div>
   );

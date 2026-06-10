@@ -1,19 +1,109 @@
-import { NextResponse } from 'next/server';
+import { NextResponse, type NextRequest } from 'next/server';
+
+import { extractBrief, type ExtractionMessage } from '@/lib/briefExtraction';
+import { ensureSession } from '@/lib/concierge/session';
+import { conciergeDb } from '@/lib/supabase/server';
+import type { Json } from '@/types/concierge-db';
+import type { BriefPayload, BriefResponse } from '@/types/concierge';
 
 /**
- * POST /api/brief — Session 2 skeleton.
+ * POST /api/brief — Gate 2 of brief detection (Session 4).
  *
- * Session 4 implements the real route: two-gate completion detection, the
- * Sonnet extraction call (lib/briefExtraction.ts), persistence to
- * concierge.briefs, and the completion panel contract. Session 9 attaches
- * Autoura delivery. Until then the route exists so the API surface (and
- * robots /api disallow) is final from the start.
+ * Called by the client only after the chat `done` event reported
+ * briefDetected:true (Gate 1). Runs the expensive Sonnet extraction off the
+ * streaming path. If the extraction can assemble a minimum brief
+ * (`complete:true`), it persists to conversations.brief_payload + a
+ * concierge.briefs row and returns the payload for the completion panel.
+ * Otherwise returns { complete:false } and the conversation continues (the
+ * client suppresses re-triggering for a few turns).
+ *
+ * Idempotent: an already-completed conversation returns its stored payload
+ * without re-extracting (so a reload re-shows the panel for free).
+ *
+ * Request:  { conversationId: string }
+ * Response: { complete: boolean, payload?: BriefPayload }
  */
 export const runtime = 'nodejs';
 
-export async function POST() {
-  return NextResponse.json(
-    { error: 'not_implemented', detail: 'Brief extraction ships in Session 4.' },
-    { status: 501 },
-  );
+export async function POST(req: NextRequest) {
+  let conversationId: string | null = null;
+  try {
+    const body = (await req.json()) as { conversationId?: unknown };
+    if (typeof body.conversationId === 'string') conversationId = body.conversationId;
+  } catch {
+    return NextResponse.json({ error: 'invalid_json' }, { status: 400 });
+  }
+  if (!conversationId) {
+    return NextResponse.json({ error: 'conversation_required' }, { status: 400 });
+  }
+
+  try {
+    const db = conciergeDb();
+    const session = await ensureSession(req, { createIfMissing: false });
+    if (!session) {
+      return NextResponse.json({ error: 'no_session' }, { status: 401 });
+    }
+
+    // The conversation must belong to this session.
+    const { data: conversation } = await db
+      .from('conversations')
+      .select('id, brief_completed, brief_payload')
+      .eq('id', conversationId)
+      .eq('session_id', session.rowId)
+      .maybeSingle();
+    if (!conversation) {
+      return NextResponse.json({ error: 'conversation_not_found' }, { status: 404 });
+    }
+
+    // Idempotent: already completed → return stored payload, no re-extract.
+    if (conversation.brief_completed && conversation.brief_payload) {
+      return NextResponse.json({
+        complete: true,
+        payload: conversation.brief_payload as unknown as BriefPayload,
+      } satisfies BriefResponse);
+    }
+
+    const { data: messages, error: msgError } = await db
+      .from('messages')
+      .select('role, content')
+      .eq('conversation_id', conversationId)
+      .in('role', ['user', 'assistant'])
+      .order('created_at', { ascending: true });
+    if (msgError) throw new Error(`message load failed: ${msgError.message}`);
+    if (!messages || messages.length === 0) {
+      return NextResponse.json({ complete: false } satisfies BriefResponse);
+    }
+
+    const transcript: ExtractionMessage[] = messages.map((m) => ({
+      role: m.role as 'user' | 'assistant',
+      content: m.content,
+    }));
+
+    const payload = await extractBrief(transcript);
+
+    if (!payload.complete) {
+      // Gate 2 rejected a Gate-1 phrase match — panel does not fire.
+      return NextResponse.json({ complete: false } satisfies BriefResponse);
+    }
+
+    // Persist: brief state on the conversation + a briefs row (S9 reads this).
+    const nowIso = new Date().toISOString();
+    await db
+      .from('conversations')
+      .update({
+        brief_completed: true,
+        brief_completed_at: nowIso,
+        brief_payload: payload as unknown as Json,
+      })
+      .eq('id', conversationId);
+    await db.from('briefs').insert({
+      conversation_id: conversationId,
+      payload: payload as unknown as Json,
+    });
+
+    return NextResponse.json({ complete: true, payload } satisfies BriefResponse);
+  } catch (err) {
+    console.error('[concierge] brief extraction failed:', err);
+    return NextResponse.json({ error: 'brief_unavailable' }, { status: 500 });
+  }
 }
