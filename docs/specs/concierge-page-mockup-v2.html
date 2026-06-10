@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Plan Your Egypt Trip — Travel2Egypt Concierge</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Public+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    /* Travel2Egypt brand palette */
+    --cream: #FAF6F0;
+    --cream-warm: #F4ECE0;
+    --cream-deep: #EFE5D4;
+    --paper: #FFFFFF;
+
+    --ink: #1F1B16;
+    --ink-soft: #4A413A;
+    --ink-muted: #8B7F73;
+
+    --orange: #E07B3C;
+    --orange-deep: #C4682E;
+    --orange-soft: #F4A574;
+    --orange-pale: #FBE8D7;
+
+    --gold: #B8924A;
+    --sand: #D4B896;
+    --terra: #8B4513;
+
+    --line: #E5DDD0;
+    --line-soft: #F0E8DA;
+
+    --shadow-soft: 0 1px 3px rgba(31, 27, 22, 0.04), 0 4px 16px rgba(31, 27, 22, 0.04);
+    --shadow-lift: 0 2px 6px rgba(31, 27, 22, 0.06), 0 12px 32px rgba(31, 27, 22, 0.06);
+
+    --serif: 'Cormorant Garamond', 'Times New Roman', serif;
+    --sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+    --radius-pill: 999px;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: var(--sans);
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.6;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+  }
+
+  /* ──────────── SITE HEADER ──────────── */
+  .site-header {
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding: 16px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .site-header__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    flex-shrink: 0;
+  }
+
+  .logo__mark {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+  }
+
+  .nav {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+  }
+
+  .nav__link {
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .nav__link:hover { color: var(--orange); }
+
+  .header__right {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+
+  .lang-switch {
+    font-size: 13px;
+    color: var(--ink-soft);
+    background: none;
+    border: 1px solid var(--line);
+    padding: 6px 12px;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-family: var(--sans);
+    transition: all 0.2s;
+  }
+
+  .lang-switch:hover {
+    border-color: var(--orange);
+    color: var(--orange);
+  }
+
+  .cta-button {
+    background: var(--orange);
+    color: white;
+    padding: 10px 20px;
+    border-radius: var(--radius-pill);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.2s;
+    border: none;
+    cursor: pointer;
+    font-family: var(--sans);
+  }
+
+  .cta-button:hover { background: var(--orange-deep); }
+
+  .nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 22px;
+    color: var(--ink);
+  }
+
+  /* ──────────── CONCIERGE FRAME ──────────── */
+  .concierge-frame {
+    padding: 56px 24px 28px;
+    text-align: center;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .concierge-frame__eyebrow {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--orange);
+    margin-bottom: 16px;
+  }
+
+  .concierge-frame__heading {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.1;
+    color: var(--ink);
+    letter-spacing: -0.015em;
+    margin-bottom: 20px;
+  }
+
+  .concierge-frame__heading em {
+    font-style: italic;
+    color: var(--orange-deep);
+    font-weight: 500;
+  }
+
+  .concierge-frame__subheading {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--ink-soft);
+    max-width: 520px;
+    margin: 0 auto;
+  }
+
+  /* ──────────── JOURNEY INDICATOR ──────────── */
+  .journey {
+    padding: 24px 24px 28px;
+    max-width: 920px;
+    margin: 0 auto;
+  }
+
+  .journey__inner {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto 1fr;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .journey__step {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px 18px;
+    background: var(--paper);
+    border: 1px solid var(--line-soft);
+    border-radius: var(--radius-md);
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .journey__step:hover {
+    border-color: var(--orange-soft);
+    transform: translateY(-1px);
+  }
+
+  .journey__num {
+    font-family: var(--serif);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--orange);
+    letter-spacing: 0.05em;
+  }
+
+  .journey__title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.3;
+    margin-bottom: 2px;
+  }
+
+  .journey__desc {
+    font-size: 12px;
+    color: var(--ink-muted);
+    line-height: 1.4;
+  }
+
+  .journey__connector {
+    width: 24px;
+    height: 1px;
+    background: linear-gradient(to right, var(--line), var(--sand), var(--line));
+  }
+
+  /* ──────────── TRUST STRIP LABEL ──────────── */
+  .trust-label {
+    text-align: center;
+    font-family: var(--sans);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 14px;
+  }
+
+  /* ──────────── TRUST STRIP ──────────── */
+  .trust-strip {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 24px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin-bottom: 40px;
+  }
+
+  .trust-strip::-webkit-scrollbar { display: none; }
+
+  .trust-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+    transition: background 0.2s;
+    text-decoration: none;
+    color: var(--ink-soft);
+    min-width: 88px;
+  }
+
+  .trust-item:hover {
+    background: var(--cream-warm);
+  }
+
+  .trust-item__icon {
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ink);
+  }
+
+  .trust-item__label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+  }
+
+  .trust-item__rating {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--ink);
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .trust-item--badge {
+    background: var(--orange-pale);
+    border: 1px solid var(--orange-soft);
+  }
+
+  .trust-item--badge .trust-item__icon {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--orange-deep);
+    line-height: 1;
+  }
+
+  .trust-item--badge .trust-item__label {
+    color: var(--orange-deep);
+  }
+
+  .stars { color: #00B67A; letter-spacing: -1px; font-size: 14px; }
+
+  /* ──────────── CHAT CONTAINER ──────────── */
+  .chat-shell {
+    max-width: 760px;
+    margin: 0 auto 80px;
+    padding: 0 16px;
+  }
+
+  .chat-container {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lift);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 680px;
+    max-height: calc(100vh - 180px);
+  }
+
+  .chat-header {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--line-soft);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    background: var(--cream);
+  }
+
+  .chat-header__identity {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .agent-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    flex-shrink: 0;
+  }
+
+  .agent-info__name {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+
+  .agent-info__status {
+    font-size: 12px;
+    color: var(--ink-muted);
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #00B67A;
+    box-shadow: 0 0 0 2px rgba(0, 182, 122, 0.2);
+  }
+
+  .escape-hatch-trigger {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: 1px solid var(--line);
+    padding: 8px 14px;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-family: var(--sans);
+    font-size: 12px;
+    color: var(--ink-soft);
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+
+  .escape-hatch-trigger:hover {
+    border-color: var(--orange);
+    color: var(--orange);
+    background: var(--orange-pale);
+  }
+
+  /* ──────────── CONVERSATION FLOW ──────────── */
+  .conversation {
+    flex: 1;
+    overflow-y: auto;
+    padding: 24px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    scroll-behavior: smooth;
+  }
+
+  .conversation::-webkit-scrollbar { width: 6px; }
+  .conversation::-webkit-scrollbar-track { background: transparent; }
+  .conversation::-webkit-scrollbar-thumb { background: var(--line); border-radius: 3px; }
+
+  .message {
+    display: flex;
+    gap: 12px;
+    animation: fadeUp 0.4s ease-out;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .message--user {
+    flex-direction: row-reverse;
+  }
+
+  .message__avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--sans);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+  }
+
+  .message--agent .message__avatar {
+    background: var(--ink);
+    color: var(--orange);
+  }
+
+  .message--user .message__avatar {
+    background: var(--orange-pale);
+    color: var(--orange-deep);
+    font-size: 11px;
+  }
+
+  .message__bubble {
+    max-width: 78%;
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink);
+    word-wrap: break-word;
+  }
+
+  .message--agent .message__bubble {
+    background: var(--cream);
+    border: 1px solid var(--line-soft);
+    border-bottom-left-radius: 4px;
+  }
+
+  .message--user .message__bubble {
+    background: var(--orange);
+    color: white;
+    border-bottom-right-radius: 4px;
+  }
+
+  .message__bubble strong { font-weight: 600; }
+  .message__bubble em { font-style: italic; }
+  .message__bubble p + p { margin-top: 10px; }
+  .message__bubble ul {
+    margin: 8px 0;
+    padding-left: 20px;
+  }
+  .message__bubble li { margin: 2px 0; }
+
+  /* ──────────── TYPING INDICATOR ──────────── */
+  .typing-indicator {
+    display: flex;
+    gap: 4px;
+    padding: 14px 16px;
+    align-items: center;
+  }
+
+  .typing-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--ink-muted);
+    animation: typingBounce 1.4s infinite ease-in-out;
+  }
+
+  .typing-dot:nth-child(2) { animation-delay: 0.15s; }
+  .typing-dot:nth-child(3) { animation-delay: 0.3s; }
+
+  @keyframes typingBounce {
+    0%, 60%, 100% { opacity: 0.3; transform: translateY(0); }
+    30% { opacity: 1; transform: translateY(-3px); }
+  }
+
+  /* ──────────── STARTER CHIPS ──────────── */
+  .starter-section {
+    padding: 8px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: opacity 0.3s, max-height 0.3s, padding 0.3s;
+    max-height: 240px;
+    overflow: hidden;
+  }
+
+  .starter-section--hidden {
+    opacity: 0;
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    pointer-events: none;
+  }
+
+  .starter-section__label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 4px;
+  }
+
+  .starter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .starter-chip {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    padding: 10px 14px;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    font-family: var(--sans);
+    font-size: 13px;
+    color: var(--ink-soft);
+    font-weight: 500;
+    transition: all 0.2s;
+    text-align: left;
+  }
+
+  .starter-chip:hover {
+    border-color: var(--orange);
+    color: var(--orange-deep);
+    background: var(--orange-pale);
+    transform: translateY(-1px);
+  }
+
+  /* ──────────── INPUT BAR ──────────── */
+  .input-bar {
+    border-top: 1px solid var(--line-soft);
+    padding: 16px 24px;
+    background: var(--paper);
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+  }
+
+  .input-textarea {
+    flex: 1;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 12px 16px;
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ink);
+    background: var(--cream);
+    resize: none;
+    outline: none;
+    min-height: 44px;
+    max-height: 120px;
+    transition: border-color 0.2s, background 0.2s;
+  }
+
+  .input-textarea:focus {
+    border-color: var(--orange);
+    background: var(--paper);
+  }
+
+  .input-textarea::placeholder {
+    color: var(--ink-muted);
+  }
+
+  .send-button {
+    background: var(--orange);
+    color: white;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, transform 0.2s;
+    flex-shrink: 0;
+  }
+
+  .send-button:hover { background: var(--orange-deep); }
+  .send-button:active { transform: scale(0.95); }
+  .send-button:disabled { background: var(--ink-muted); cursor: not-allowed; }
+
+  /* ──────────── BRIEF COMPLETION PANEL ──────────── */
+  .brief-panel {
+    background: linear-gradient(135deg, var(--orange-pale) 0%, var(--cream-warm) 100%);
+    border: 1px solid var(--orange-soft);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    margin: 8px 0 4px;
+    animation: slideIn 0.5s ease-out;
+  }
+
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .brief-panel__icon {
+    width: 44px;
+    height: 44px;
+    background: var(--orange);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 14px;
+  }
+
+  .brief-panel__heading {
+    font-family: var(--serif);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 8px;
+    letter-spacing: -0.01em;
+  }
+
+  .brief-panel__body {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    margin-bottom: 18px;
+  }
+
+  .brief-panel__body strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  .brief-summary {
+    background: var(--paper);
+    border-radius: var(--radius-md);
+    padding: 14px 16px;
+    margin-bottom: 18px;
+  }
+
+  .brief-summary__label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink-muted);
+    margin-bottom: 10px;
+  }
+
+  .brief-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .brief-chip {
+    background: var(--cream-warm);
+    border: 1px solid var(--line);
+    padding: 6px 12px;
+    border-radius: var(--radius-pill);
+    font-size: 12px;
+    color: var(--ink-soft);
+    font-weight: 500;
+  }
+
+  .brief-chip strong {
+    color: var(--ink);
+  }
+
+  .brief-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .brief-action-link {
+    color: var(--orange-deep);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: var(--sans);
+    padding: 0;
+  }
+
+  .brief-action-link:hover {
+    color: var(--ink);
+  }
+
+  /* ──────────── ESCAPE HATCH MODAL ──────────── */
+  .escape-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(31, 27, 22, 0.4);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    animation: fadeIn 0.25s;
+  }
+
+  .escape-overlay--open {
+    display: flex;
+  }
+
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+  .escape-modal {
+    background: var(--paper);
+    border-radius: var(--radius-lg);
+    max-width: 440px;
+    width: 100%;
+    padding: 28px;
+    animation: slideIn 0.3s;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  }
+
+  .escape-modal__heading {
+    font-family: var(--serif);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .escape-modal__sub {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  .escape-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .escape-option {
+    text-align: left;
+    background: var(--cream);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 16px;
+    cursor: pointer;
+    font-family: var(--sans);
+    transition: all 0.2s;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .escape-option:hover {
+    border-color: var(--orange);
+    background: var(--orange-pale);
+    transform: translateY(-1px);
+  }
+
+  .escape-option__icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: var(--ink);
+  }
+
+  .escape-option--whatsapp .escape-option__icon {
+    background: #25D366;
+    border-color: #25D366;
+    color: white;
+  }
+
+  .escape-option__title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.3;
+    margin-bottom: 2px;
+  }
+
+  .escape-option__desc {
+    font-size: 12px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  .escape-modal__close {
+    margin-top: 16px;
+    background: none;
+    border: none;
+    color: var(--ink-muted);
+    font-size: 13px;
+    cursor: pointer;
+    font-family: var(--sans);
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .escape-modal__close:hover { color: var(--ink); }
+
+  /* ──────────── DEMO CONTROLS (collapsible) ──────────── */
+  .demo-controls {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    z-index: 999;
+  }
+
+  .demo-controls__toggle {
+    background: var(--ink);
+    color: var(--cream);
+    border: none;
+    padding: 8px 14px;
+    border-radius: var(--radius-pill);
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s;
+  }
+
+  .demo-controls__toggle:hover {
+    background: var(--orange);
+    transform: translateY(-1px);
+  }
+
+  .demo-controls__toggle::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--orange);
+    box-shadow: 0 0 6px var(--orange);
+  }
+
+  .demo-controls__panel {
+    background: var(--ink);
+    color: var(--cream);
+    padding: 14px;
+    border-radius: var(--radius-md);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    display: none;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 12px;
+    max-width: 240px;
+    margin-bottom: 8px;
+    animation: slideUp 0.25s ease-out;
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .demo-controls--open .demo-controls__panel {
+    display: flex;
+  }
+
+  .demo-controls--open .demo-controls__toggle {
+    background: var(--orange);
+  }
+
+  .demo-controls__title {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--orange);
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+
+  .demo-controls__btn {
+    background: var(--orange);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: var(--radius-sm);
+    font-family: var(--sans);
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.2s;
+  }
+
+  .demo-controls__btn:hover { background: var(--orange-deep); }
+  .demo-controls__btn--ghost {
+    background: transparent;
+    border: 1px solid var(--ink-muted);
+    color: var(--cream);
+  }
+  .demo-controls__btn--ghost:hover {
+    background: var(--ink-soft);
+  }
+
+  /* ──────────── SITE FOOTER (slim) ──────────── */
+  .site-footer {
+    padding: 32px 24px;
+    background: var(--ink);
+    color: var(--cream);
+    text-align: center;
+    font-size: 13px;
+    color: var(--ink-muted);
+  }
+
+  .site-footer__line {
+    color: var(--cream);
+    margin-bottom: 4px;
+  }
+
+  /* ──────────── RESPONSIVE ──────────── */
+  @media (max-width: 768px) {
+    .nav { display: none; }
+    .nav-toggle { display: block; }
+    .lang-switch { display: none; }
+
+    .site-header__inner { padding: 0 16px; }
+    .cta-button { padding: 8px 16px; font-size: 13px; }
+    .logo { font-size: 18px; }
+    .logo__mark { width: 32px; height: 32px; font-size: 9px; }
+
+    .concierge-frame {
+      padding: 32px 20px 18px;
+    }
+
+    .concierge-frame__heading {
+      font-size: 32px;
+    }
+
+    .concierge-frame__subheading {
+      font-size: 15px;
+    }
+
+    /* Journey indicator stacks vertically on mobile */
+    .journey {
+      padding: 16px 20px 20px;
+    }
+
+    .journey__inner {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    .journey__connector {
+      display: none;
+    }
+
+    .journey__step {
+      padding: 14px 16px;
+    }
+
+    .trust-strip {
+      justify-content: flex-start;
+      padding: 0 20px;
+      gap: 18px;
+      margin-bottom: 28px;
+    }
+
+    .trust-item {
+      padding: 10px 12px;
+      min-width: 76px;
+    }
+
+    .trust-item__icon {
+      height: 30px;
+    }
+
+    .trust-item--badge .trust-item__icon {
+      font-size: 24px;
+    }
+
+    .chat-shell {
+      padding: 0 12px 60px;
+      margin-bottom: 60px;
+    }
+
+    .chat-container {
+      height: calc(100vh - 200px);
+      min-height: 520px;
+      border-radius: var(--radius-md);
+    }
+
+    .chat-header {
+      padding: 12px 16px;
+    }
+
+    .conversation {
+      padding: 16px 16px 8px;
+      gap: 16px;
+    }
+
+    .message__bubble {
+      max-width: 85%;
+      font-size: 14.5px;
+      padding: 10px 14px;
+    }
+
+    .starter-section {
+      padding: 4px 16px 12px;
+    }
+
+    .starter-chips {
+      flex-direction: column;
+    }
+
+    .starter-chip {
+      width: 100%;
+      text-align: left;
+      padding: 12px 14px;
+    }
+
+    .input-bar {
+      padding: 12px 16px;
+    }
+
+    .escape-hatch-trigger span {
+      display: none;
+    }
+
+    .escape-hatch-trigger {
+      padding: 8px 10px;
+      width: 36px;
+      height: 36px;
+      justify-content: center;
+    }
+
+    .brief-panel {
+      padding: 20px;
+    }
+
+    .brief-panel__heading {
+      font-size: 22px;
+    }
+
+    .demo-controls {
+      bottom: 12px;
+      right: 12px;
+    }
+
+    .demo-controls__panel {
+      max-width: 200px;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .concierge-frame__heading {
+      font-size: 28px;
+    }
+  }
+
+</style>
+</head>
+
+<body>
+
+<!-- ──────────── SITE HEADER ──────────── -->
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="#" class="logo">
+      <span class="logo__mark">T2E</span>
+      <span>Travel<span style="color: var(--orange);">2</span>Egypt</span>
+    </a>
+    <nav class="nav">
+      <a href="#" class="nav__link">Day Tours</a>
+      <a href="#" class="nav__link">Travel Packages</a>
+      <a href="#" class="nav__link">Egypt Travel Guide</a>
+      <a href="#" class="nav__link">Blog</a>
+      <a href="#" class="nav__link">Contact Us</a>
+    </nav>
+    <div class="header__right">
+      <button class="lang-switch">EN ▾</button>
+      <a href="#" class="cta-button">Get A Free Quote</a>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ──────────── CONCIERGE FRAME ──────────── -->
+<section class="concierge-frame">
+  <div class="concierge-frame__eyebrow">AI Concierge — Backed by 30 years of operator expertise</div>
+  <h1 class="concierge-frame__heading">Tell us what you want — <em>we'll tell you what actually works</em></h1>
+  <p class="concierge-frame__subheading">
+    Shape your Egypt trip in conversation with our AI concierge. Our team takes it from there.
+  </p>
+</section>
+
+<!-- ──────────── JOURNEY INDICATOR ──────────── -->
+<section class="journey">
+  <div class="journey__inner">
+    <div class="journey__step">
+      <div class="journey__num">01</div>
+      <div class="journey__body">
+        <div class="journey__title">Chat with our AI concierge</div>
+        <div class="journey__desc">Shape your trip in conversation</div>
+      </div>
+    </div>
+    <div class="journey__connector" aria-hidden="true"></div>
+    <div class="journey__step">
+      <div class="journey__num">02</div>
+      <div class="journey__body">
+        <div class="journey__title">We build your brief</div>
+        <div class="journey__desc">Captured in your own words</div>
+      </div>
+    </div>
+    <div class="journey__connector" aria-hidden="true"></div>
+    <div class="journey__step">
+      <div class="journey__num">03</div>
+      <div class="journey__body">
+        <div class="journey__title">Our team delivers</div>
+        <div class="journey__desc">Specific recommendations and pricing within hours</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ──────────── TRUST STRIP LABEL ──────────── -->
+<div class="trust-label">Trusted and recognized by</div>
+
+<!-- ──────────── TRUST STRIP ──────────── -->
+<div class="trust-strip" role="list">
+  <a href="#" class="trust-item" role="listitem">
+    <span class="trust-item__icon">
+      <svg width="28" height="28" viewBox="0 0 22 22" fill="currentColor">
+        <circle cx="11" cy="11" r="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="7.5" cy="11" r="2.5" fill="currentColor"/>
+        <circle cx="14.5" cy="11" r="2.5" fill="currentColor"/>
+      </svg>
+    </span>
+    <span class="trust-item__rating"><span class="stars">●●●●●</span></span>
+    <span class="trust-item__label">TripAdvisor</span>
+  </a>
+
+  <a href="#" class="trust-item" role="listitem">
+    <span class="trust-item__icon">
+      <svg width="28" height="28" viewBox="0 0 22 22" fill="currentColor">
+        <path d="M3 7l4 4 4-4 4 4 4-4M3 13l4 4 4-4 4 4 4-4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </span>
+    <span class="trust-item__label">Kayak</span>
+  </a>
+
+  <a href="#" class="trust-item" role="listitem">
+    <span class="trust-item__icon">
+      <svg width="28" height="28" viewBox="0 0 22 22" fill="currentColor">
+        <rect x="2" y="6" width="18" height="12" rx="1" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M2 9h18" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </span>
+    <span class="trust-item__label">JATA</span>
+  </a>
+
+  <a href="#" class="trust-item" role="listitem">
+    <span class="trust-item__icon">
+      <svg width="28" height="28" viewBox="0 0 22 22" fill="currentColor">
+        <path d="M11 2 L20 11 L11 20 L2 11 Z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+        <circle cx="11" cy="11" r="3" fill="currentColor"/>
+      </svg>
+    </span>
+    <span class="trust-item__label">IATA</span>
+  </a>
+
+  <a href="#" class="trust-item" role="listitem">
+    <span class="trust-item__icon">
+      <svg width="28" height="28" viewBox="0 0 22 22" fill="currentColor">
+        <path d="M2 18 L11 4 L20 18 Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M11 9 L11 14" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+    </span>
+    <span class="trust-item__label">ASTA</span>
+  </a>
+
+  <div class="trust-item trust-item--badge" role="listitem">
+    <span class="trust-item__icon">30+</span>
+    <span class="trust-item__label">Years</span>
+  </div>
+</div>
+
+<!-- ──────────── CHAT SHELL ──────────── -->
+<div class="chat-shell">
+  <div class="chat-container">
+
+    <!-- Chat header -->
+    <div class="chat-header">
+      <div class="chat-header__identity">
+        <div class="agent-avatar">T2E</div>
+        <div class="agent-info">
+          <div class="agent-info__name">Travel2Egypt Concierge</div>
+          <div class="agent-info__status">
+            <span class="status-dot"></span>
+            AI assistant · Available now
+          </div>
+        </div>
+      </div>
+      <button class="escape-hatch-trigger" onclick="openEscapeHatch()" aria-label="Talk to a human">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <path d="M2 4 C 2 2.5, 3.5 2, 5 2 L 9 2 C 10.5 2, 12 2.5, 12 4 L 12 8 C 12 9.5, 10.5 10, 9 10 L 7 10 L 4 12.5 L 4.5 10 C 3 10, 2 9.5, 2 8 Z" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/>
+        </svg>
+        <span>Talk to a human</span>
+      </button>
+    </div>
+
+    <!-- Conversation -->
+    <div class="conversation" id="conversation">
+      <!-- Initial agent message will be injected here -->
+    </div>
+
+    <!-- Starter chips -->
+    <div class="starter-section" id="starterSection">
+      <div class="starter-section__label">Quick start</div>
+      <div class="starter-chips">
+        <button class="starter-chip" onclick="useStarter('Plan a first-time Egypt trip for me')">Plan a first-time Egypt trip</button>
+        <button class="starter-chip" onclick="useStarter('Help me plan Cairo and the Nile')">Help me with Cairo and the Nile</button>
+        <button class="starter-chip" onclick="useStarter('I have a specific itinerary I want to discuss')">I have a specific itinerary already</button>
+        <button class="starter-chip" onclick="useStarter('I am curious about Egypt — explore with me')">I am curious about Egypt — explore with me</button>
+      </div>
+    </div>
+
+    <!-- Input bar -->
+    <div class="input-bar">
+      <textarea
+        id="messageInput"
+        class="input-textarea"
+        placeholder="Type your message…"
+        rows="1"
+        onkeydown="handleKey(event)"
+        oninput="autoResize(this)"></textarea>
+      <button class="send-button" onclick="sendUserMessage()" aria-label="Send message">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor">
+          <path d="M2 9 L16 2 L11 16 L9 10 L2 9 Z"/>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ──────────── ESCAPE HATCH MODAL ──────────── -->
+<div class="escape-overlay" id="escapeOverlay" onclick="closeEscapeHatchOnClickOutside(event)">
+  <div class="escape-modal">
+    <h2 class="escape-modal__heading">Talk to a human</h2>
+    <p class="escape-modal__sub">Three ways to reach our team directly.</p>
+
+    <div class="escape-options">
+      <button class="escape-option escape-option--whatsapp" onclick="alert('Demo: would open WhatsApp with prefilled message to your team')">
+        <span class="escape-option__icon">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor">
+            <path d="M9 1 C 4.5 1, 1 4.5, 1 9 C 1 10.5, 1.5 12, 2 13 L 1 17 L 5 16 C 6 16.5, 7.5 17, 9 17 C 13.5 17, 17 13.5, 17 9 C 17 4.5, 13.5 1, 9 1 Z" fill="white"/>
+          </svg>
+        </span>
+        <div>
+          <div class="escape-option__title">WhatsApp our team directly</div>
+          <div class="escape-option__desc">Chat with our team on WhatsApp now</div>
+        </div>
+      </button>
+
+      <button class="escape-option" onclick="alert('Demo: would capture email and forward conversation transcript to your team inbox')">
+        <span class="escape-option__icon">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round">
+            <rect x="2" y="3" width="14" height="12" rx="1"/>
+            <path d="M2 5 L9 10 L16 5"/>
+          </svg>
+        </span>
+        <div>
+          <div class="escape-option__title">Send your conversation for human review</div>
+          <div class="escape-option__desc">Our team reads the chat and replies by email within our standard timeframe</div>
+        </div>
+      </button>
+
+      <button class="escape-option" onclick="closeEscapeHatch()">
+        <span class="escape-option__icon">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+            <path d="M3 9 L15 9 M11 5 L15 9 L11 13"/>
+          </svg>
+        </span>
+        <div>
+          <div class="escape-option__title">Continue with the AI for now</div>
+          <div class="escape-option__desc">Stay in the conversation — you can always come back here</div>
+        </div>
+      </button>
+    </div>
+
+    <button class="escape-modal__close" onclick="closeEscapeHatch()">Close</button>
+  </div>
+</div>
+
+<!-- ──────────── DEMO CONTROLS (collapsible) ──────────── -->
+<div class="demo-controls" id="demoControls">
+  <div class="demo-controls__panel">
+    <div class="demo-controls__title">Mockup Demo</div>
+    <button class="demo-controls__btn" onclick="runDemoConversation()">▶ Play sample conversation</button>
+    <button class="demo-controls__btn demo-controls__btn--ghost" onclick="showBriefPanel()">Show brief completion</button>
+    <button class="demo-controls__btn demo-controls__btn--ghost" onclick="resetChat()">↻ Reset</button>
+  </div>
+  <button class="demo-controls__toggle" onclick="toggleDemoControls()">Demo mode</button>
+</div>
+
+<!-- ──────────── FOOTER ──────────── -->
+<footer class="site-footer">
+  <div class="site-footer__line">© 2026 Travel2Egypt</div>
+  <div>30 years of crafting unforgettable Egypt journeys</div>
+</footer>
+
+<script>
+  // ──────────── CHAT STATE ────────────
+  const conversation = document.getElementById('conversation');
+  const messageInput = document.getElementById('messageInput');
+  const starterSection = document.getElementById('starterSection');
+  const escapeOverlay = document.getElementById('escapeOverlay');
+
+  let conversationStarted = false;
+
+  // ──────────── INITIAL AGENT MESSAGE ────────────
+  function showInitialMessage() {
+    const msg = `<p>Hi — I'm your Egypt concierge.</p><p>I'll help you shape a trip that actually works, not just looks good on paper.</p><p>What do you already have in mind?</p>`;
+    addAgentMessage(msg);
+  }
+
+  // ──────────── ADD MESSAGES ────────────
+  function addAgentMessage(htmlContent, instant = false) {
+    const messageEl = document.createElement('div');
+    messageEl.className = 'message message--agent';
+    messageEl.innerHTML = `
+      <div class="message__avatar">T2E</div>
+      <div class="message__bubble"></div>
+    `;
+    conversation.appendChild(messageEl);
+    const bubble = messageEl.querySelector('.message__bubble');
+
+    if (instant) {
+      bubble.innerHTML = htmlContent;
+    } else {
+      streamHTML(bubble, htmlContent);
+    }
+    scrollConversation();
+  }
+
+  function addUserMessage(text) {
+    const messageEl = document.createElement('div');
+    messageEl.className = 'message message--user';
+    messageEl.innerHTML = `
+      <div class="message__avatar">YOU</div>
+      <div class="message__bubble"></div>
+    `;
+    conversation.appendChild(messageEl);
+    messageEl.querySelector('.message__bubble').textContent = text;
+    scrollConversation();
+  }
+
+  function showTyping() {
+    const messageEl = document.createElement('div');
+    messageEl.className = 'message message--agent';
+    messageEl.id = 'typingMsg';
+    messageEl.innerHTML = `
+      <div class="message__avatar">T2E</div>
+      <div class="message__bubble">
+        <div class="typing-indicator">
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+          <span class="typing-dot"></span>
+        </div>
+      </div>
+    `;
+    conversation.appendChild(messageEl);
+    scrollConversation();
+  }
+
+  function removeTyping() {
+    const t = document.getElementById('typingMsg');
+    if (t) t.remove();
+  }
+
+  function scrollConversation() {
+    conversation.scrollTop = conversation.scrollHeight;
+  }
+
+  // ──────────── STREAMING TEXT ────────────
+  function streamHTML(element, htmlContent) {
+    // Parse HTML into a temporary element to walk the DOM
+    const temp = document.createElement('div');
+    temp.innerHTML = htmlContent;
+
+    // Recursively stream nodes
+    streamNode(element, temp, 0);
+  }
+
+  function streamNode(target, source, delay) {
+    // Clone children of source into target with timed reveal
+    let currentDelay = delay;
+
+    function processNodes(srcNode, tgtNode) {
+      const nodes = Array.from(srcNode.childNodes);
+      let i = 0;
+
+      function next() {
+        if (i >= nodes.length) return;
+        const node = nodes[i];
+        if (node.nodeType === Node.TEXT_NODE) {
+          // Stream text character by character (chunks of 3)
+          const text = node.textContent;
+          const textNode = document.createTextNode('');
+          tgtNode.appendChild(textNode);
+          let charIdx = 0;
+          const chunkSize = 4;
+          function streamChars() {
+            if (charIdx >= text.length) {
+              i++;
+              setTimeout(next, 20);
+              return;
+            }
+            textNode.textContent = text.substring(0, Math.min(charIdx + chunkSize, text.length));
+            charIdx += chunkSize;
+            scrollConversation();
+            setTimeout(streamChars, 14);
+          }
+          streamChars();
+        } else if (node.nodeType === Node.ELEMENT_NODE) {
+          const newEl = document.createElement(node.tagName);
+          // copy attributes
+          for (const attr of node.attributes) {
+            newEl.setAttribute(attr.name, attr.value);
+          }
+          tgtNode.appendChild(newEl);
+          // Recursively stream children of this element
+          const innerNodes = Array.from(node.childNodes);
+          let j = 0;
+          function nextInner() {
+            if (j >= innerNodes.length) {
+              i++;
+              setTimeout(next, 30);
+              return;
+            }
+            const inner = innerNodes[j];
+            if (inner.nodeType === Node.TEXT_NODE) {
+              const text = inner.textContent;
+              const textNode = document.createTextNode('');
+              newEl.appendChild(textNode);
+              let charIdx = 0;
+              const chunkSize = 4;
+              function streamChars() {
+                if (charIdx >= text.length) {
+                  j++;
+                  setTimeout(nextInner, 15);
+                  return;
+                }
+                textNode.textContent = text.substring(0, Math.min(charIdx + chunkSize, text.length));
+                charIdx += chunkSize;
+                scrollConversation();
+                setTimeout(streamChars, 14);
+              }
+              streamChars();
+            } else {
+              const innerEl = document.createElement(inner.tagName);
+              for (const attr of inner.attributes) {
+                innerEl.setAttribute(attr.name, attr.value);
+              }
+              innerEl.innerHTML = inner.innerHTML;
+              newEl.appendChild(innerEl);
+              j++;
+              setTimeout(nextInner, 30);
+            }
+          }
+          nextInner();
+        } else {
+          i++;
+          setTimeout(next, 5);
+        }
+      }
+      next();
+    }
+
+    processNodes(source, target);
+  }
+
+  // ──────────── INPUT HANDLING ────────────
+  function autoResize(textarea) {
+    textarea.style.height = 'auto';
+    textarea.style.height = Math.min(textarea.scrollHeight, 120) + 'px';
+  }
+
+  function handleKey(e) {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendUserMessage();
+    }
+  }
+
+  function sendUserMessage() {
+    const text = messageInput.value.trim();
+    if (!text) return;
+
+    if (!conversationStarted) {
+      hideStarters();
+      conversationStarted = true;
+    }
+
+    addUserMessage(text);
+    messageInput.value = '';
+    messageInput.style.height = 'auto';
+
+    // Mock agent response
+    setTimeout(() => {
+      showTyping();
+      setTimeout(() => {
+        removeTyping();
+        addAgentMessage(generateMockReply(text));
+      }, 1200);
+    }, 400);
+  }
+
+  function useStarter(text) {
+    messageInput.value = text;
+    messageInput.focus();
+    autoResize(messageInput);
+  }
+
+  function hideStarters() {
+    starterSection.classList.add('starter-section--hidden');
+  }
+
+  function showStarters() {
+    starterSection.classList.remove('starter-section--hidden');
+  }
+
+  // ──────────── MOCK REPLIES ────────────
+  function generateMockReply(userText) {
+    const lower = userText.toLowerCase();
+
+    if (lower.includes('first-time') || lower.includes('first time')) {
+      return `<p>Wonderful — first-time Egypt trips are some of the most rewarding to shape, because the country rewards travelers who plan with intention.</p><p>To get a useful picture, three quick things would help:</p><ul><li>How many of you, and roughly when?</li><li>How long are you thinking — a focused 7-8 days, or something more ambitious?</li><li>What pulls you to Egypt — the ancient sites, the Nile cruise idea, the desert, all of it?</li></ul><p>Once I know, I can sketch the right shape rather than offering a generic "must-see" list.</p>`;
+    }
+
+    if (lower.includes('cairo') || lower.includes('nile')) {
+      return `<p>Good combination — Cairo and the Nile is the spine of a proper Egypt experience.</p><p>The classic shape works like this: <strong>Cairo</strong> first (Pyramids, GEM, Saqqara — 3 nights minimum), then a domestic flight to <strong>Luxor or Aswan</strong>, a <strong>Nile cruise</strong> between them (3-4 nights), and back to Cairo. Eight days does it well, ten does it without rushing.</p><p>Tell me — how many days do you have, and is this a couple, family, or group?</p>`;
+    }
+
+    if (lower.includes('itinerary') || lower.includes('specific')) {
+      return `<p>Even better — paste the itinerary or describe it, and I will read it carefully. I will tell you what works, what is going to feel rushed, and what might be worth reconsidering before you commit to it.</p><p>I'd rather flag the pacing problems now than have them surface on day three of your trip.</p>`;
+    }
+
+    if (lower.includes('curious') || lower.includes('explore')) {
+      return `<p>Exploration first is a good way to start. Egypt is a big idea — most people arrive thinking they know what they want and discover the trip they actually want is something else entirely.</p><p>Tell me what draws you in: the deep history, the river, the desert, food and culture, religious significance, something more specific? No commitment needed — let's just talk about what calls to you.</p>`;
+    }
+
+    return `<p>Tell me a bit more — when are you thinking of going, how many of you, and what's pulling you to Egypt right now? Once I have a basic shape, I can be much more specific.</p>`;
+  }
+
+  // ──────────── ESCAPE HATCH ────────────
+  function openEscapeHatch() {
+    escapeOverlay.classList.add('escape-overlay--open');
+  }
+
+  function closeEscapeHatch() {
+    escapeOverlay.classList.remove('escape-overlay--open');
+  }
+
+  function closeEscapeHatchOnClickOutside(e) {
+    if (e.target === escapeOverlay) closeEscapeHatch();
+  }
+
+  // ──────────── BRIEF COMPLETION PANEL ────────────
+  function showBriefPanel() {
+    if (!conversationStarted) {
+      hideStarters();
+      conversationStarted = true;
+    }
+
+    // Insert a final agent message + brief panel
+    addAgentMessage(`<p>Perfect — I have everything I need. Let me put together the brief for our team.</p>`, true);
+
+    setTimeout(() => {
+      const briefEl = document.createElement('div');
+      briefEl.className = 'message message--agent';
+      briefEl.innerHTML = `
+        <div class="message__avatar">T2E</div>
+        <div class="brief-panel">
+          <div class="brief-panel__icon">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 11 L9.5 15 L17 7"/>
+            </svg>
+          </div>
+          <h3 class="brief-panel__heading">Your brief is ready</h3>
+          <p class="brief-panel__body">
+            We have everything we need. Our team will follow up at <strong>jeff.reynolds@example.com</strong> by <strong>8 p.m. Cairo time today</strong> — that is around <strong>1 p.m. New York</strong>.
+          </p>
+
+          <div class="brief-summary">
+            <div class="brief-summary__label">What we captured</div>
+            <div class="brief-chips">
+              <span class="brief-chip"><strong>2</strong> travelers</span>
+              <span class="brief-chip"><strong>Cairo</strong> only</span>
+              <span class="brief-chip"><strong>Aug 23–26</strong></span>
+              <span class="brief-chip"><strong>4 days</strong></span>
+              <span class="brief-chip"><strong>Boutique 5★</strong> hotels</span>
+            </div>
+          </div>
+
+          <div class="brief-actions">
+            <button class="brief-action-link">Continue conversation</button>
+            <span style="color: var(--ink-muted); font-size: 13px;">·</span>
+            <button class="brief-action-link" onclick="alert('Demo: would prompt for email to send conversation link')">Save my conversation</button>
+          </div>
+        </div>
+      `;
+      conversation.appendChild(briefEl);
+      scrollConversation();
+    }, 600);
+  }
+
+  // ──────────── DEMO PLAYBACK ────────────
+  function runDemoConversation() {
+    resetChat();
+    setTimeout(() => {
+      // User message 1
+      hideStarters();
+      conversationStarted = true;
+      addUserMessage("I'm thinking about Egypt for my wife's 50th. We'd want it special — maybe 10 days?");
+
+      setTimeout(() => {
+        showTyping();
+        setTimeout(() => {
+          removeTyping();
+          addAgentMessage(`<p>What a moment to plan around. Ten days is a generous and intelligent length — enough to do Cairo, the Nile, and Aswan properly without feeling rushed.</p><p>Three things will shape the right trip for you:</p><ul><li>Are you thinking <strong>traditional Nile cruise</strong>, or would a <strong>private dahabiya</strong> (small sailing vessel, 8-16 guests) suit the celebration better?</li><li>Time of year? It changes everything — September through November and February through April are the windows that read well.</li><li>What does "special" look like for her? Quiet luxury, or experiences that get talked about?</li></ul>`);
+
+          setTimeout(() => {
+            addUserMessage("Quiet luxury. She loves history but hates crowds. Thinking late October.");
+
+            setTimeout(() => {
+              showTyping();
+              setTimeout(() => {
+                removeTyping();
+                addAgentMessage(`<p>Late October is perfect — heat is releasing, light is exceptional on the river, and the late-season crowds have not yet arrived.</p><p>For "quiet luxury that takes history seriously," the shape I'd suggest is:</p><ul><li><strong>Cairo</strong> — 3 nights at the Marriott Mena House (Pyramid views from the room, history embedded in the building itself), with a private Egyptologist who can take her into Saqqara and the Tomb of Ti, places groups skip</li><li><strong>Private dahabiya from Luxor to Aswan</strong> — 5 nights, just the two of you on the boat or shared with one or two other quiet couples. The river at her own pace</li><li><strong>Old Cataract Hotel in Aswan</strong> — 2 nights to close the trip. Tea on the terrace, the felucca, the slow Aswan light</li></ul><p>This sits in the premium range. Worth it for the occasion.</p><p>Shall I put this together as a brief for our team?</p>`);
+              }, 1400);
+            }, 1500);
+          }, 2200);
+        }, 1400);
+      }, 600);
+    }, 200);
+  }
+
+  function resetChat() {
+    conversation.innerHTML = '';
+    conversationStarted = false;
+    showStarters();
+    showInitialMessage();
+  }
+
+  // ──────────── DEMO CONTROLS TOGGLE ────────────
+  function toggleDemoControls() {
+    document.getElementById('demoControls').classList.toggle('demo-controls--open');
+  }
+
+  // ──────────── INIT ────────────
+  showInitialMessage();
+</script>
+
+</body>
+</html>
