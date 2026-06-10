@@ -68,75 +68,9 @@ Agent: Thank you Lisa. I'll get this to our team — they'll write to you by 10 
   "preferences": {"comfort_level":null,"interests":["pyramids","Egyptian Museum"],"must_see":["Grand Egyptian Museum"],"must_avoid":["bazaar tours"]},
   "constraints": {"dietary":"father vegetarian","mobility":"mother uses a walker, no heavy walking on uneven ground","religious":null,"medical":null},
   "brief_summary":"3 travelers (adult daughter + parents), Seattle, 2 weeks February. Pyramids and GEM are must-sees; skip bazaar tours. Mother uses a walker, father vegetarian.",
-  "follow_up_window":"by 10 a.m. Cairo time tomorrow" }`;
+  "follow_up_window":"by 10 a.m. Cairo time tomorrow" }
 
-const str = { type: 'string' } as const;
-const strArray = { type: 'array', items: { type: 'string' } } as const;
-
-/**
- * Structured-outputs schema. Optional fields are modeled as
- * optional-by-omission (NOT nullable unions): the API caps union-typed
- * params at 16, and an all-nullable brief exceeds that. The model omits
- * fields it has no data for; `normalizeBrief` fills them with null / [] so
- * the returned object is always a complete BriefPayload. Only `complete`
- * and the four container objects are required.
- */
-const BRIEF_SCHEMA = {
-  type: 'object',
-  additionalProperties: false,
-  required: ['complete', 'visitor', 'trip', 'preferences', 'constraints'],
-  properties: {
-    complete: { type: 'boolean' },
-    visitor: {
-      type: 'object',
-      additionalProperties: false,
-      properties: {
-        name: str,
-        email: str,
-        phone: str,
-        preferred_contact: { type: 'string', enum: ['email', 'phone', 'whatsapp'] },
-        nationality: str,
-        origin_city: str,
-        timezone: str,
-      },
-    },
-    trip: {
-      type: 'object',
-      additionalProperties: false,
-      properties: {
-        travelers_count: { type: 'integer' },
-        travelers_detail: str,
-        dates_specific: str,
-        dates_window: str,
-        length_days: { type: 'integer' },
-        international_flights: { type: 'boolean' },
-        destinations: strArray,
-      },
-    },
-    preferences: {
-      type: 'object',
-      additionalProperties: false,
-      properties: {
-        comfort_level: str,
-        interests: strArray,
-        must_see: strArray,
-        must_avoid: strArray,
-      },
-    },
-    constraints: {
-      type: 'object',
-      additionalProperties: false,
-      properties: {
-        dietary: str,
-        mobility: str,
-        religious: str,
-        medical: str,
-      },
-    },
-    brief_summary: str,
-    follow_up_window: str,
-  },
-} as const;
+Output ONLY the JSON object, exactly in the shape shown above — every field present, real null (not the string "null") where absent, no markdown code fences, and no commentary before or after.`;
 
 type RawBrief = {
   complete?: unknown;
@@ -148,7 +82,10 @@ type RawBrief = {
   follow_up_window?: unknown;
 };
 
-const s = (v: unknown): string | null => (typeof v === 'string' && v ? v : null);
+// Require at least one letter or number — drops model junk like ":" / "—"
+// that occasionally lands in a free-text field, across the whole payload.
+const s = (v: unknown): string | null =>
+  typeof v === 'string' && /[\p{L}\p{N}]/u.test(v) ? v.trim() : null;
 const n = (v: unknown): number | null => (typeof v === 'number' ? v : null);
 const b = (v: unknown): boolean | null => (typeof v === 'boolean' ? v : null);
 const arr = (v: unknown): string[] =>
@@ -218,13 +155,19 @@ function formatTranscript(messages: ExtractionMessage[]): string {
  */
 export async function extractBrief(messages: ExtractionMessage[]): Promise<BriefPayload> {
   const anthropic = new Anthropic(); // ANTHROPIC_API_KEY from env, server-only
+  // NOTE: prompt-constrained JSON, NOT output_config.format/json_schema.
+  // Structured outputs caps union-typed params at 16; an all-nullable brief
+  // exceeds it, so the schema had to type optional fields as plain `string`
+  // (non-null). The model then couldn't emit null for absent fields and
+  // stuffed junk (":", "; null") into them — directly contradicting the
+  // prompt's null-showing examples. Prompt-constrained JSON lets the model
+  // express absence as real null (as the 3 few-shot examples demonstrate);
+  // the try/catch + normalizeBrief are the safety net. (S4 verification.)
   const res = await anthropic.messages.create({
     model: CONCIERGE_MODEL,
     max_tokens: 1024,
     system: [{ type: 'text', text: EXTRACTION_PROMPT, cache_control: { type: 'ephemeral' } }],
     messages: [{ role: 'user', content: formatTranscript(messages) }],
-    // Guarantee the JSON shape; the prompt examples guide field population.
-    output_config: { format: { type: 'json_schema', schema: BRIEF_SCHEMA } },
   });
 
   const text = res.content
@@ -234,11 +177,14 @@ export async function extractBrief(messages: ExtractionMessage[]): Promise<Brief
     .trim();
   if (!text) throw new Error('extraction returned empty content');
 
+  // Strip an optional ```json … ``` fence before parsing.
+  const json = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/i, '').trim();
+
   let raw: RawBrief;
   try {
-    raw = JSON.parse(text) as RawBrief;
+    raw = JSON.parse(json) as RawBrief;
   } catch {
-    throw new Error(`extraction returned non-JSON: ${text.slice(0, 200)}`);
+    throw new Error(`extraction returned non-JSON: ${json.slice(0, 200)}`);
   }
   if (typeof raw.complete !== 'boolean') {
     throw new Error('extraction payload missing complete:boolean');
