@@ -27,9 +27,11 @@ export const runtime = 'nodejs';
 
 export async function POST(req: NextRequest) {
   let conversationId: string | null = null;
+  let locale: 'en' | 'es' = 'en';
   try {
-    const body = (await req.json()) as { conversationId?: unknown };
+    const body = (await req.json()) as { conversationId?: unknown; locale?: unknown };
     if (typeof body.conversationId === 'string') conversationId = body.conversationId;
+    if (body.locale === 'es') locale = 'es';
   } catch {
     return NextResponse.json({ error: 'invalid_json' }, { status: 400 });
   }
@@ -79,7 +81,7 @@ export async function POST(req: NextRequest) {
       content: m.content,
     }));
 
-    const payload = await extractBrief(transcript);
+    const payload = await extractBrief(transcript, locale);
 
     if (!payload.complete) {
       // Gate 2 rejected a Gate-1 phrase match — panel does not fire.

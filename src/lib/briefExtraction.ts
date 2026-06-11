@@ -72,6 +72,17 @@ Agent: Thank you Lisa. I'll get this to our team — they'll write to you by 10 
 
 Output ONLY the JSON object, exactly in the shape shown above — every field present, real null (not the string "null") where absent, no markdown code fences, and no commentary before or after.`;
 
+/**
+ * Locale directive (extraction-locale follow-up). Sent as a SECOND system
+ * block for Spanish conversations so the visitor-shown free-text fields come
+ * back in Spanish instead of being normalized to English (which produced a
+ * code-switched brief panel — "Nile cruise"/"second week of November" under
+ * Spanish chip labels). Only the DISPLAY values change; JSON keys, the
+ * preferred_contact enum, booleans/integers, the controlled comfort_level
+ * tokens, and brief_summary are untouched (team-facing payload shape stable).
+ */
+const ES_DISPLAY_LANGUAGE_DIRECTIVE = `LANGUAGE — the traveler's conversation is in Spanish. Output these visitor-shown free-text fields in Spanish, matching the traveler's own wording: destinations, dates_specific, dates_window, travelers_detail, interests, must_see, must_avoid, and comfort_level WHEN it is a free phrase rather than one of the controlled tokens. For example "crucero por el Nilo" (not "Nile cruise"), "segunda semana de noviembre" (not "second week of November"). Leave everything else exactly as instructed: the JSON keys, the preferred_contact enum values, all boolean/integer fields, the controlled comfort_level tokens (budget, mid-range, boutique, international-5-star, luxury), and brief_summary.`;
+
 type RawBrief = {
   complete?: unknown;
   visitor?: Record<string, unknown>;
@@ -153,7 +164,10 @@ function formatTranscript(messages: ExtractionMessage[]): string {
  * `.complete`). Throws on API/parse failure so the route can 500 cleanly
  * rather than emit a half-formed brief.
  */
-export async function extractBrief(messages: ExtractionMessage[]): Promise<BriefPayload> {
+export async function extractBrief(
+  messages: ExtractionMessage[],
+  locale: 'en' | 'es' = 'en',
+): Promise<BriefPayload> {
   const anthropic = new Anthropic(); // ANTHROPIC_API_KEY from env, server-only
   // NOTE: prompt-constrained JSON, NOT output_config.format/json_schema.
   // Structured outputs caps union-typed params at 16; an all-nullable brief
@@ -163,10 +177,20 @@ export async function extractBrief(messages: ExtractionMessage[]): Promise<Brief
   // prompt's null-showing examples. Prompt-constrained JSON lets the model
   // express absence as real null (as the 3 few-shot examples demonstrate);
   // the try/catch + normalizeBrief are the safety net. (S4 verification.)
+  //
+  // Display-field language (extraction-locale follow-up): the visitor-shown
+  // free-text fields are emitted in the conversation language via a SECOND
+  // system block (after the cache_control breakpoint, so the cached prompt
+  // prefix stays stable). EN needs no directive (English is the default).
+  const system: Anthropic.TextBlockParam[] = [
+    { type: 'text', text: EXTRACTION_PROMPT, cache_control: { type: 'ephemeral' } },
+  ];
+  if (locale === 'es') system.push({ type: 'text', text: ES_DISPLAY_LANGUAGE_DIRECTIVE });
+
   const res = await anthropic.messages.create({
     model: CONCIERGE_MODEL,
     max_tokens: 1024,
-    system: [{ type: 'text', text: EXTRACTION_PROMPT, cache_control: { type: 'ephemeral' } }],
+    system,
     messages: [{ role: 'user', content: formatTranscript(messages) }],
   });
 

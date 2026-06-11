@@ -277,7 +277,7 @@ export function ChatContainer({
       const res = await fetch('/api/brief', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ conversationId: convId }),
+        body: JSON.stringify({ conversationId: convId, locale }),
       });
       if (!res.ok) {
         suppressRef.current = 3;
