@@ -10,6 +10,7 @@ import { Link } from '@/i18n/navigation';
 import type { BriefPayload, BriefResponse } from '@/types/concierge';
 import { BriefPanel } from './BriefPanel';
 import { ConciergeFallback } from './ConciergeFallback';
+import { DataMenu } from './DataMenu';
 import { EscapeHatch } from './EscapeHatch';
 
 /**
@@ -86,6 +87,10 @@ export function ChatContainer({
   const [escapeOpen, setEscapeOpen] = useState(false);
   const [sessionRef, setSessionRef] = useState<string | null>(null);
   const escapeTriggerRef = useRef<HTMLButtonElement>(null);
+  // Your-data menu (S8) — delete (anonymise) + export.
+  const [dataMenuOpen, setDataMenuOpen] = useState(false);
+  const [deletedNoteShown, setDeletedNoteShown] = useState(false);
+  const dataMenuTriggerRef = useRef<HTMLButtonElement>(null);
   // After a Gate-1-true / Gate-2-false result, suppress the next N triggers
   // so we don't re-run the expensive extraction every turn (S4 decision 3).
   const suppressRef = useRef(0);
@@ -358,6 +363,24 @@ export function ChatContainer({
     inputRef.current?.focus();
   }
 
+  // After a successful "Delete my conversation" (S8): the server anonymised the
+  // session and cleared the cookie — reset to a fresh, empty chat.
+  function onDataDeleted() {
+    setMessages([]);
+    setStreamText('');
+    setConversationId(null);
+    setContinuingFrom(null);
+    setBrief(null);
+    setBriefDismissed(false);
+    setSessionRef(null);
+    setChipsHidden(false);
+    setInput('');
+    setFailed(null);
+    suppressRef.current = 0;
+    setDeletedNoteShown(true);
+    inputRef.current?.focus();
+  }
+
   // ── start a fresh conversation (archives the current one) ─────────────
   async function startNew() {
     if (phase !== 'idle') return;
@@ -435,26 +458,50 @@ export function ChatContainer({
               </div>
             </div>
           </div>
-          {/* Escape hatch trigger (S5) — always available. */}
-          <button
-            ref={escapeTriggerRef}
-            type="button"
-            className="cnc-escape"
-            aria-haspopup="dialog"
-            aria-expanded={escapeOpen}
-            onClick={() => setEscapeOpen(true)}
-          >
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
-              <path
-                d="M2 4 C 2 2.5, 3.5 2, 5 2 L 9 2 C 10.5 2, 12 2.5, 12 4 L 12 8 C 12 9.5, 10.5 10, 9 10 L 7 10 L 4 12.5 L 4.5 10 C 3 10, 2 9.5, 2 8 Z"
-                stroke="currentColor"
-                strokeWidth="1.3"
-                strokeLinejoin="round"
-              />
-            </svg>
-            <span>{t('escapeTrigger')}</span>
-          </button>
+          <div className="cnc-chat__actions">
+            {/* Escape hatch trigger (S5) — always available. */}
+            <button
+              ref={escapeTriggerRef}
+              type="button"
+              className="cnc-escape"
+              aria-haspopup="dialog"
+              aria-expanded={escapeOpen}
+              onClick={() => setEscapeOpen(true)}
+            >
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
+                <path
+                  d="M2 4 C 2 2.5, 3.5 2, 5 2 L 9 2 C 10.5 2, 12 2.5, 12 4 L 12 8 C 12 9.5, 10.5 10, 9 10 L 7 10 L 4 12.5 L 4.5 10 C 3 10, 2 9.5, 2 8 Z"
+                  stroke="currentColor"
+                  strokeWidth="1.3"
+                  strokeLinejoin="round"
+                />
+              </svg>
+              <span>{t('escapeTrigger')}</span>
+            </button>
+            {/* Your-data menu (S8) — delete (anonymise) + export. */}
+            <button
+              ref={dataMenuTriggerRef}
+              type="button"
+              className="cnc-icon-btn"
+              aria-haspopup="dialog"
+              aria-expanded={dataMenuOpen}
+              aria-label={t('dataMenuTrigger')}
+              onClick={() => setDataMenuOpen(true)}
+            >
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden>
+                <circle cx="3" cy="8" r="1.4" />
+                <circle cx="8" cy="8" r="1.4" />
+                <circle cx="13" cy="8" r="1.4" />
+              </svg>
+            </button>
+          </div>
         </div>
+
+        {/* Persistent AI disclosure (S8) — never scrolls away (sits above the
+            scrollable conversation). The v4.1 persona self-discloses; this is
+            the always-visible visual layer, using the consistent "AI Concierge"
+            term (matches the page eyebrow + metadata). */}
+        <p className="cnc-ai-disclosure">{t('aiDisclosure')}</p>
 
         {resumeNoticeShown && (
           <div className="cnc-flash" role="status">
@@ -464,6 +511,20 @@ export function ChatContainer({
               className="cnc-flash__dismiss"
               aria-label={t('dismiss')}
               onClick={() => setResumeNoticeShown(false)}
+            >
+              ✕
+            </button>
+          </div>
+        )}
+
+        {deletedNoteShown && (
+          <div className="cnc-flash" role="status">
+            <span>{t('dataDeletedNote')}</span>
+            <button
+              type="button"
+              className="cnc-flash__dismiss"
+              aria-label={t('dismiss')}
+              onClick={() => setDeletedNoteShown(false)}
             >
               ✕
             </button>
@@ -692,6 +753,15 @@ export function ChatContainer({
         sessionRef={sessionRef}
         locale={locale}
         triggerRef={escapeTriggerRef}
+      />
+
+      <DataMenu
+        open={dataMenuOpen}
+        onClose={() => setDataMenuOpen(false)}
+        sessionRef={sessionRef}
+        locale={locale}
+        triggerRef={dataMenuTriggerRef}
+        onDeleted={onDataDeleted}
       />
     </div>
   );

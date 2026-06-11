@@ -338,6 +338,30 @@ alter table concierge.conversations
 
 **Commit.** "Session 8: chat-session disclosure, AI disclosure, data rights."
 
+**Status — CODE-COMPLETE (not launch-complete; legal sign-off is the hard gate).**
+Built + live-verified: consent `v1→v2` re-prompt (v1 record no longer suppresses; v2
+suppresses); EN+ES consent copy discloses `t2e_session_id` + keyed IP/UA hashing (JA
+drafted, flagged for native review); persistent "AI Concierge — backed by our human
+team" disclosure indicator (EN/ES, sits above the scroll area — never scrolls away);
+`/api/data-request {delete}` anonymise verified against real rows (content→`'[deleted]'`,
+`brief_payload`→null, `briefs.payload`→`{}` [NOT NULL → empty, not null], `email`→null,
+`ip_hash`/`user_agent_hash` RETAINED, `archived=true`, cookie cleared); data-export
+mailto. Legal-page EN+ES bodies updated as Sanity **drafts** (published untouched).
+
+**LEGAL-REVIEW CHECKLIST (hard launch gate — lawyer must sign off):**
+- Privacy-policy "The AI concierge" section (EN+ES drafts): collected data, purposes +
+  legal bases, named processors (Anthropic/Supabase/Resend/Railway/Autoura), retention,
+  rights. Confirm the Anthropic "not used to train its models" claim matches current API terms.
+- Cookie-policy `t2e_session_id` section + abuse-hashing note + fingerprinting reconciliation (EN+ES drafts).
+- Governing law = Egypt (Law 151/2020) + GDPR/UK-GDPR "stronger protection on each point" clause.
+- Retention **confirmed at 12 months → anonymise** (Islam-approved; lawyer to ratify).
+- Delete=anonymize RETAINS keyed IP/UA hashes for abuse prevention — confirm this is defensible under erasure rules.
+
+**OPEN ITEMS:** `[DATA-REQUEST SLA — TO CONFIRM]` placeholder (S12 gate); **JA legal-page
+translation** (privacy + cookie — native + legal review; JA bodies currently lag EN/ES on
+concierge disclosures); JA consent banner copy native review; publish the Sanity legal drafts
+after sign-off.
+
 ---
 
 ## Link Map — concierge deep-linking into site content
@@ -508,6 +532,10 @@ Where the code contradicted the integration decisions summary (v1.1) or the orig
 - **Team notification Reply-To direction (Session 5):** team-facing notification emails use `Reply-To` = the **visitor's** email, not the team Gmail. The brief's "Reply-To → team Gmail" pattern applies to *visitor-facing* mail (resume links etc.); for *team-facing* notifications (the escape-hatch "forward to team"), the visitor's email is the right destination so a team member can reply directly to the traveler.
 - **Token-cap measurement under prompt caching (Session 7):** `usage.input_tokens` reports only the **non-cached delta**, not the full context the model processed — the cached prefix lives in `cache_read_input_tokens`/`cache_creation_input_tokens`. Context-size measurement must sum all three; measured naively it read ~36 tokens against a ~13k context, so the 50k/75k caps never fired. The cap must also be **sticky**: the canned-wrap row stores the over-cap context size so subsequent turns don't reset to zero and re-call the model with the full oversized payload. This **failed open** (protection silently inert), which is more dangerous than failing closed — a conversation could grow to 100k+ tokens in production, every turn billing real money, with nothing flagging it. Live testing caught what unit tests masked (cf. the Edge-crypto and schema-vs-prompt findings).
 - **Hashed-IP privacy disclosure (Session 7 → 8):** rate limiting and abuse prevention process a **keyed HMAC-SHA256 of the visitor's IP and User-Agent** (`ip_hash`/`user_agent_hash`, secret `IP_HASH_SECRET`); the raw IP is never stored or logged (verified live: stored hash equals the keyed HMAC; raw IP absent from DB and logs). The privacy policy must disclose hashed-IP/UA processing for abuse prevention **before launch** — fold into the **Session 8** cookie-consent / privacy-disclosure workstream (legal sufficiency is the hard gate). The keyed hash is non-reversible without the secret, which is the privacy-correct posture to disclose.
+- **Legal-page copy lives in Sanity, not the repo (Session 8):** `/cookie-policy` + `/privacy-policy` render via `LegalPageView` → Sanity `legalPage` singletons (dataset `migration-staging`), `body` = an **internationalized array** `[{_key: locale, value: [...PortableText]}]`. So policy refreshes are **CMS content operations, not git commits** — S8 wrote the updated EN+ES bodies as Sanity **drafts** (published untouched) for Studio review + publish. The repo's `next-sanity` write client + `SANITY_STAGING_API_WRITE_TOKEN` patches drafts reliably while preserving each block's `_key`/marks; match anchor blocks by text and splice new blocks for mid-document inserts.
+- **Legal register is usted; chat chrome is tú (Session 8):** the legal pages already carried complete professional ES + JA translations in **formal usted**. New legal-page ES must match that register — mixing the chat's **tú** (S6) into a legal document reads as a translation error. The tú convention is right for the consent *banner* and chat surfaces only. (One consistent register per document beats one global pronoun rule.)
+- **Anonymise vs NOT NULL + retain-the-pseudonyms (Session 8):** delete-my-conversation **anonymises** (not row-delete): `messages.content`→`'[deleted]'`, `conversations.brief_payload`→null + `archived=true`, `sessions.email`→null. `briefs.payload` is **NOT NULL**, so it is emptied to `{}` (same PII removal, satisfies the constraint) rather than nulled. The keyed `ip_hash`/`user_agent_hash` are **RETAINED** — one-way abuse-prevention pseudonyms; stripping them on a delete request would let an abuser reset their rate-limit/abuse standing (this **revises** the brief's original "strip ip_hash/user_agent_hash"; legal-review item). No migration — reuses existing columns.
+- **A new data-collecting feature can silently invalidate the consent notice (Session 8):** the pre-S8 cookie notice still said "a single cookie … no tracking of any kind" after the concierge shipped `t2e_session_id` + IP/UA hashing — a *materially false* live disclosure, not just stale copy. Adding any feature that sets a cookie or processes visitor data must trigger a consent + policy pass in the same launch window.
 
 ## Appendix D — Reusable patterns and operational notes
 
