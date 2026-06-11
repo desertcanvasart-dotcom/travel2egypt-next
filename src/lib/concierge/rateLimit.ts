@@ -66,7 +66,11 @@ export const LIMITS = {
   },
   chatIp: {
     windowMs: HOUR,
-    max: envInt('RL_CHAT_IP_MAX', 100),
+    // 200/hr (not the brief's 100) — approved tuning: a shared NAT (hotel,
+    // office, constrained-IPv4 region) can put many legitimate visitors behind
+    // one IP. Per-session 40/10min already contains single-actor abuse; this
+    // per-IP cap is only the cookie-clearing-evasion backstop, so it runs looser.
+    max: envInt('RL_CHAT_IP_MAX', 200),
     blockSec: 60 * 60,
   },
   brief: { windowMs: HOUR, max: envInt('RL_BRIEF_MAX', 5) },

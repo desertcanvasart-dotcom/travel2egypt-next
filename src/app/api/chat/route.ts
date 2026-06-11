@@ -92,10 +92,12 @@ async function cannedWrapResponse(
     session: ConciergeSession;
     locale: Locale;
     email: string | null;
+    /** The context size that tripped the cap — stored so the cap stays tripped. */
+    contextTokens: number;
     text: string;
   },
 ): Promise<NextResponse> {
-  const { conversationId, session, locale, email, text } = args;
+  const { conversationId, session, locale, email, contextTokens, text } = args;
   const encoder = new TextEncoder();
   const sse = new ReadableStream<Uint8Array>({
     async start(controller) {
@@ -109,6 +111,10 @@ async function cannedWrapResponse(
           role: 'assistant',
           content: text,
           response_time_ms: 0,
+          // Carry the tripping context size forward so the next turn stays
+          // capped (a canned wrap makes no API call, so it has no real count).
+          token_count_input: contextTokens,
+          token_count_output: 0,
           model_version: 'canned-wrap',
         });
         await db
@@ -292,16 +298,25 @@ export async function POST(req: NextRequest) {
     if (contextTokens >= TOKEN_CAPS.hard) {
       // Hard cap: a clean localized wrap toward brief completion — no Anthropic
       // call. Reuses the SSE shape so the client renders it as a normal turn.
+      console.info(
+        `[concierge] token hard-cap conv=${conversationId} contextTokens=${contextTokens} → canned wrap`,
+      );
       const t = await getTranslations({ locale, namespace: 'planYourTour' });
       return cannedWrapResponse(req, db, {
         conversationId,
         session,
         locale,
         email: sessionEmail,
+        contextTokens,
         text: t('tokenCapWrap'),
       });
     }
     const wrapNudge = contextTokens >= TOKEN_CAPS.soft;
+    if (wrapNudge) {
+      console.info(
+        `[concierge] token soft-cap conv=${conversationId} contextTokens=${contextTokens} → wrap nudge`,
+      );
+    }
 
     const apiMessages = [
       ...(history ?? []).map((m) => ({
@@ -358,12 +373,21 @@ export async function POST(req: NextRequest) {
               ` cache_write=${usage.cache_creation_input_tokens ?? 0}` +
               ` cache_read=${usage.cache_read_input_tokens ?? 0}`,
           );
+          // token_count_input stores the FULL input the model processed —
+          // uncached + cache_read + cache_creation. With prompt caching,
+          // usage.input_tokens alone is only the uncached delta (the ~13k v4.1
+          // prefix lives in the cache fields), so it badly understates context
+          // size; the S7 token caps measure conversation size from this column.
+          const totalInputTokens =
+            usage.input_tokens +
+            (usage.cache_read_input_tokens ?? 0) +
+            (usage.cache_creation_input_tokens ?? 0);
           await db.from('messages').insert({
             conversation_id: conversationId,
             role: 'assistant',
             content: text,
             response_time_ms: Date.now() - startedAt,
-            token_count_input: usage.input_tokens,
+            token_count_input: totalInputTokens,
             token_count_output: usage.output_tokens,
             model_version: final.model,
           });
