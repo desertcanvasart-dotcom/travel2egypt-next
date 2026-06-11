@@ -32,7 +32,9 @@ export function BriefPanel({ payload, locale, onContinue }: BriefPanelProps) {
   const t = useTranslations('planYourTour');
   const [saveOpen, setSaveOpen] = useState(false);
   const [email, setEmail] = useState(payload.visitor.email ?? '');
-  const [saveState, setSaveState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+  const [saveState, setSaveState] = useState<
+    'idle' | 'sending' | 'sent' | 'throttled' | 'error'
+  >('idle');
 
   const tf = computeFollowUpTimeframe(locale);
   const dayWord = t(tf.dayKey);
@@ -66,7 +68,9 @@ export function BriefPanel({ payload, locale, onContinue }: BriefPanelProps) {
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ email: email.trim(), locale }),
       });
-      setSaveState(res.ok ? 'sent' : 'error');
+      // S7: a 429 means we already sent a link recently — a benign outcome,
+      // not an error. Show the gentle "already sent" copy instead.
+      setSaveState(res.ok ? 'sent' : res.status === 429 ? 'throttled' : 'error');
     } catch {
       setSaveState('error');
     }
@@ -119,6 +123,8 @@ export function BriefPanel({ payload, locale, onContinue }: BriefPanelProps) {
             </button>
           ) : saveState === 'sent' ? (
             <span className="cnc-brief__save-ok">{t('briefSaveSuccess')}</span>
+          ) : saveState === 'throttled' ? (
+            <span className="cnc-brief__save-ok">{t('resumeThrottled')}</span>
           ) : (
             <span className="cnc-brief__save">
               <input

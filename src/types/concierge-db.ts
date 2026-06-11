@@ -213,6 +213,7 @@ export interface ConciergeDatabase {
         Row: {
           id: string;
           cookie_id: string;
+          action: string;
           ip_hash: string | null;
           window_start: string;
           message_count: number | null;
@@ -221,6 +222,7 @@ export interface ConciergeDatabase {
         Insert: {
           id?: string;
           cookie_id: string;
+          action?: string;
           ip_hash?: string | null;
           window_start?: string;
           message_count?: number | null;
@@ -229,6 +231,7 @@ export interface ConciergeDatabase {
         Update: {
           id?: string;
           cookie_id?: string;
+          action?: string;
           ip_hash?: string | null;
           window_start?: string;
           message_count?: number | null;

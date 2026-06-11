@@ -14,7 +14,9 @@ export { buildCookieValue, verifyCookieValue, sessionCookie } from './cookie';
  *
  * SESSION_COOKIE_SECRET is long-lived; rotating it invalidates every live
  * session. A tampered cookie is treated as ABSENT (fresh session), never an
- * error. ip_hash / user_agent_hash stay NULL until Session 7.
+ * error. ip_hash / user_agent_hash are keyed HMACs (Session 7) — captured on
+ * create and back-filled on the first authenticated turn after S7 ships, never
+ * the raw IP (see ipHash.ts). Callers pass the already-hashed values.
  */
 
 export interface ConciergeSession {
@@ -36,7 +38,13 @@ export interface ConciergeSession {
  */
 export async function ensureSession(
   req: NextRequest,
-  opts: { locale?: string; createIfMissing?: boolean } = {},
+  opts: {
+    locale?: string;
+    createIfMissing?: boolean;
+    /** Keyed HMAC of the IP / UA (Session 7) — already hashed; never raw. */
+    ipHash?: string | null;
+    userAgentHash?: string | null;
+  } = {},
 ): Promise<ConciergeSession | null> {
   const db = conciergeDb();
   const cookieId = await verifyCookieValue(req.cookies.get('t2e_session_id')?.value);
@@ -44,15 +52,21 @@ export async function ensureSession(
   if (cookieId) {
     const { data, error } = await db
       .from('sessions')
-      .select('id, email')
+      .select('id, email, ip_hash')
       .eq('cookie_id', cookieId)
       .maybeSingle();
     if (error) throw new Error(`session lookup failed: ${error.message}`);
     if (data) {
-      await db
-        .from('sessions')
-        .update({ last_active_at: new Date().toISOString() })
-        .eq('id', data.id);
+      // Touch last_active_at; back-fill the keyed hashes the first time we
+      // have them on an existing (pre-S7) session row.
+      const patch: { last_active_at: string; ip_hash?: string; user_agent_hash?: string | null } = {
+        last_active_at: new Date().toISOString(),
+      };
+      if (!data.ip_hash && opts.ipHash) {
+        patch.ip_hash = opts.ipHash;
+        patch.user_agent_hash = opts.userAgentHash ?? null;
+      }
+      await db.from('sessions').update(patch).eq('id', data.id);
       return { rowId: data.id, cookieId, isNew: false, email: data.email };
     }
   }
@@ -62,7 +76,12 @@ export async function ensureSession(
   const freshId = crypto.randomUUID();
   const { data, error } = await db
     .from('sessions')
-    .insert({ cookie_id: freshId, locale: opts.locale ?? 'en' })
+    .insert({
+      cookie_id: freshId,
+      locale: opts.locale ?? 'en',
+      ip_hash: opts.ipHash ?? null,
+      user_agent_hash: opts.userAgentHash ?? null,
+    })
     .select('id')
     .single();
   if (error || !data) {

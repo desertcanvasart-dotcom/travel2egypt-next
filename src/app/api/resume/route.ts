@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession, sessionCookie } from '@/lib/concierge/session';
 import { signResumeToken } from '@/lib/concierge/resumeToken';
 import { sendResumeEmail } from '@/lib/email/resend';
@@ -39,6 +40,16 @@ export async function POST(req: NextRequest) {
     const db = conciergeDb();
     const session = await ensureSession(req, { locale });
     if (!session) throw new Error('unreachable: ensureSession with create');
+
+    // S7: throttle resume-email sends (Resend cost / inbox spam). A legitimate
+    // visitor sends one; repeats hit the per-session hourly/daily cap.
+    const limit = await enforceExpensive(db, 'resume_email', session.cookieId);
+    if (!limit.ok) {
+      return NextResponse.json(
+        { error: 'rate_limited', retryAfter: limit.retryAfterSeconds },
+        { status: 429, headers: { 'Retry-After': String(limit.retryAfterSeconds) } },
+      );
+    }
 
     // Explicit save — set/confirm the email (unlike auto-capture, which is
     // first-wins). Also marks it the verified contact for the resume flow.

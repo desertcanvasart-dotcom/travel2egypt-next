@@ -4,17 +4,23 @@ import { Link } from '@/i18n/navigation';
 import { whatsappUrl } from '@/lib/concierge/constants';
 
 /**
- * ConciergeFallback — the single component served for both circuit-breaker
- * triggers: `reason="locale"` (an unsupported locale, e.g. JA) and
- * `reason="disabled"` (CHAT_ENABLED is off). Renders a localized note plus the
- * two human paths — the existing /contact page and WhatsApp.
+ * ConciergeFallback — the single component served for the chat-unavailable
+ * triggers: `reason="locale"` (an unsupported locale, e.g. JA), `"disabled"`
+ * (CHAT_ENABLED is off), and `"rate_limited"` (the S7 per-IP hard block).
+ * Renders a localized note plus the two human paths — the existing /contact
+ * page and WhatsApp. The reasons share everything but the body.
  *
- * (Per-IP rate-limit blocking will reuse this component with a third reason in
- * a later session; the two Session-1 reasons share everything but the body.)
+ * Server-safe and client-safe (no server-only imports): the page renders it
+ * for locale/disabled; ChatContainer renders it client-side on a per-IP 429.
  */
-export function ConciergeFallback({ reason }: { reason: 'locale' | 'disabled' }) {
+export function ConciergeFallback({ reason }: { reason: 'locale' | 'disabled' | 'rate_limited' }) {
   const t = useTranslations('planYourTour');
-  const body = reason === 'locale' ? t('fallbackBodyLocale') : t('fallbackBodyDisabled');
+  const body =
+    reason === 'locale'
+      ? t('fallbackBodyLocale')
+      : reason === 'rate_limited'
+        ? t('fallbackBodyRateLimited')
+        : t('fallbackBodyDisabled');
   const whatsappHref = whatsappUrl(t('fallbackWhatsappText'));
 
   return (
