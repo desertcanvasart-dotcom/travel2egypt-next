@@ -195,6 +195,11 @@
   border-radius: 50%;
   background: var(--cnc-accent);
 }
+.cnc-chat__actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 .cnc-escape {
   display: inline-flex;
   align-items: center;
@@ -206,6 +211,36 @@
   font-size: 0.75rem;
   font-weight: 500;
   color: var(--cnc-ink-soft);
+}
+/* S8 "Your data" overflow trigger — ghost icon button beside the escape hatch. */
+.cnc-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: none;
+  border: 1px solid transparent;
+  color: var(--cnc-ink-muted);
+  cursor: pointer;
+}
+.cnc-icon-btn:hover {
+  color: var(--cnc-ink-soft);
+  border-color: var(--cnc-line);
+}
+
+/* Persistent AI disclosure (S8) — flat editorial strip, hairline rule, no
+   badge radius. Sits between the fixed header and the scrollable conversation,
+   so it stays visible at all times. */
+.cnc-ai-disclosure {
+  margin: 0;
+  padding: 0.5rem var(--space-md);
+  border-bottom: 1px solid var(--cnc-line-soft);
+  font-family: var(--cnc-ui);
+  font-size: 0.6875rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--cnc-ink-muted);
 }
 
 /* Conversation area */
@@ -803,6 +838,9 @@
 }
 .cnc-escape-send:hover:not(:disabled) { background: var(--cnc-accent-deep); }
 .cnc-escape-send:disabled { opacity: 0.6; cursor: not-allowed; }
+/* S8 destructive confirm (delete my conversation) — restrained, not alarming. */
+.cnc-escape-send--danger { background: #8a2e2e; }
+.cnc-escape-send--danger:hover:not(:disabled) { background: #732424; }
 
 @media (prefers-reduced-motion: reduce) {
   .cnc-escape-overlay { animation: none; }

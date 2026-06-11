@@ -328,7 +328,7 @@ alter table concierge.conversations
 2. **Categorization.** `t2e_session_id` = strictly necessary (ePrivacy/GDPR exemption: strictly necessary for a service explicitly requested by the user). *(Code comment near the decision: "If legal review requires gating: add a category to `ConsentCategories`, bump the consent storage key. The provider already supports granular choice; no restructuring needed.")*
 3. **Policies.** Update `/cookie-policy` and `/privacy-policy` (EN+ES) to cover the chat-session identifier and AI-mediated processing/retention. Claude drafts the disclosure copy; **legal sufficiency is Islam's review workstream and a hard launch gate.** Code links the policy from the notice and chat footer.
 4. **AI disclosure.** Persistent chat-header indicator using the consistent term **"AI Concierge"** ("AI Concierge — backed by our human team," localized), matching the eyebrow, opening message, and metadata. One term, used consistently. Satisfies EU AI Act Art. 50.
-5. **Delete my conversation.** Chat-menu option → confirm → **anonymize** (strip PII: `email`, name, `ip_hash`, `user_agent_hash`; delete `messages` content) and keep a skeleton row (`conversation_id`, timestamps, `brief_completed`, `language`, `prompt_version`) for funnel analytics; clear the `t2e_session_id` cookie. *(Code comment documenting exactly which fields are stripped vs retained, and that the skeleton must be truly non-re-identifiable.)* Not a soft archive.
+5. **Delete my conversation.** Chat-menu option → confirm → **anonymize**. **LOCKED to the published S8 privacy-policy copy (Phase 3 inherits this as spec, not suggestion):** the control is labelled **exactly "Delete my conversation"** (EN) / its S6 tú-voice ES equivalent, and the behaviour matches the policy verbatim. **Strip PII:** `sessions.email` → null; `messages.content` → removed/`'[deleted]'`; the extracted brief in **both** copies (`conversations.brief_payload` AND `briefs.payload`) → null. **Retain a non-identifying record:** `conversation_id`, timestamps, `brief_completed`, language/`locale`, `prompt_version` — for funnel analytics. **Retain the keyed hashes** (`ip_hash`, `user_agent_hash`) — *revises the original "strip ip_hash/user_agent_hash":* they are one-way abuse-prevention pseudonyms that cannot identify the visitor, and stripping them on request would let an abuser reset their rate-limit/abuse standing by deleting (the policy says they are kept; legal-review item flagged). Clear the `t2e_session_id` cookie (UX — detach the now-anonymized session; not a data-retention claim). *(Code comment documenting exactly which fields are stripped vs retained, and that the skeleton must be truly non-re-identifiable.)* Not a soft archive.
 6. **Data export.** Low-emphasis "Request a copy of your conversation data" → emails `TEAM_INBOX_EMAIL` (Resend) for manual fulfilment in v1, with visitor-facing copy stating the acknowledgment SLA (defined with the team before launch).
 7. Plausible stays cookieless; analytics category stays dormant; notice stays informational.
 
@@ -337,6 +337,34 @@ alter table concierge.conversations
 **Verification.** Notice shows updated disclosure (re-shows once after the key bump); no accept/decline gate; AI indicator visible EN/ES; delete truly anonymizes (verify stripped vs retained fields in DB) and clears the cookie; export email arrives; policies reflect chat disclosures in both languages.
 
 **Commit.** "Session 8: chat-session disclosure, AI disclosure, data rights."
+
+**Status — CODE-COMPLETE (not launch-complete; legal sign-off is the hard gate).**
+Built + live-verified: consent `v1→v2` re-prompt (v1 record no longer suppresses; v2
+suppresses); EN+ES consent copy discloses `t2e_session_id` + keyed IP/UA hashing (JA
+drafted, flagged for native review); persistent "AI Concierge — backed by our human
+team" disclosure indicator (EN/ES, sits above the scroll area — never scrolls away);
+`/api/data-request {delete}` anonymise verified against real rows (content→`'[deleted]'`,
+`brief_payload`→null, `briefs.payload`→`{}` [NOT NULL → empty, not null], `email`→null,
+`ip_hash`/`user_agent_hash` RETAINED, `archived=true`, cookie cleared); data-export
+mailto. Legal-page EN+ES bodies updated as Sanity **drafts** (published untouched).
+
+**LEGAL-REVIEW CHECKLIST (hard launch gate — lawyer must sign off):**
+- Privacy-policy "The AI concierge" section (EN+ES drafts): collected data, purposes +
+  legal bases, named processors (Anthropic/Supabase/Resend/Railway/Autoura), retention,
+  rights. Confirm the Anthropic "not used to train its models" claim matches current API terms.
+- Cookie-policy `t2e_session_id` section + abuse-hashing note + fingerprinting reconciliation (EN+ES drafts).
+- Governing law = Egypt (Law 151/2020) + GDPR/UK-GDPR "stronger protection on each point" clause.
+- Retention **confirmed at 12 months → anonymise** (Islam-approved; lawyer to ratify).
+- Delete=anonymize RETAINS keyed IP/UA hashes for abuse prevention — confirm this is defensible under erasure rules.
+
+**OPEN ITEMS:** `[DATA-REQUEST SLA — TO CONFIRM]` placeholder (S12 gate); **JA legal-page
+translation** (privacy + cookie — native + legal review; JA bodies currently lag EN/ES on
+concierge disclosures); JA consent banner copy native review; publish the Sanity legal drafts
+after sign-off; `anonymized_at` timestamp is **S10 migration 0005 (REQUIRED)**.
+
+**S8 CLOSES only when** (a) Islam reviews + **publishes** the two Sanity legal drafts, and
+(b) the lawyer **signs off** the checklist above. Until both: **code-complete, not
+launch-complete** (code merged; disclosures not yet legally ratified or published).
 
 ---
 
@@ -396,8 +424,9 @@ alter table concierge.conversations
 5. **Detail view:** full transcript with timestamps/response-times/token counts; formatted brief payload; Autoura delivery status + attempts + revision history; reviewer controls — 1–5 rating (captures overall quality, incl. "handled well") and structured notes (problem categories only: **prompt drift, factual error, escape hatch used, abuse, language switch issue, other**); mark-reviewed. The S5 forward-email admin link now resolves here (update the email template to include it).
 6. **Daily digest** at 08:00 `Africa/Cairo` via Railway cron → protected `/api/admin/digest` (`CRON_SECRET`): totals, briefs completed (links), flagged needing review (links grouped by `flag_reason`), notable patterns, top response times, token/cost summary.
 7. **Search** across message content via ILIKE (anonymized conversations correctly absent; upgrade to Postgres FTS if it gets slow); **export** transcript to JSON/markdown (admin-only route).
+8. **Migration `0005` — `anonymized_at timestamptz` — REQUIRED (not optional), deferred from S8.** S8's delete-anonymise marks `archived=true` but carries **no timestamp**. Add `anonymized_at` (table TBD — likely `sessions`, since anonymise is session-scoped; surface per-conversation via the join) and set it in the S8 `/api/data-request` delete path once the column exists. Two reasons it's required: (a) **GDPR accountability** — we must be able to evidence *when* an erasure request was honoured; (b) **this panel needs it** — reviewers seeing gutted conversations (`'[deleted]'` content) must distinguish *"visitor exercised deletion on &lt;date&gt;"* from data corruption. S10 already opens migration-friendly, so it folds in cleanly.
 
-**Decisions to flag.** Server-mediated admin + two-factor check (session AND whitelist), RLS deny-all, no permissive policies (locked, revises S2); `/admin` middleware exclusion + robots disallow (locked); Supabase Auth mail via Resend, separate from-address (locked); Railway cron digest at 08:00 Cairo, `CRON_SECRET` long-lived (locked); ILIKE search (locked); reviewer note categories as listed (locked); full-access whitelist, revoke = remove + redeploy, v2 → DB table (locked).
+**Decisions to flag.** Server-mediated admin + two-factor check (session AND whitelist), RLS deny-all, no permissive policies (locked, revises S2); `/admin` middleware exclusion + robots disallow (locked); Supabase Auth mail via Resend, separate from-address (locked); Railway cron digest at 08:00 Cairo, `CRON_SECRET` long-lived (locked); ILIKE search (locked); reviewer note categories as listed (locked); full-access whitelist, revoke = remove + redeploy, v2 → DB table (locked); `anonymized_at` migration 0005 (locked REQUIRED, deferred from S8).
 
 **Verification.** Magic-link login succeeds only for whitelisted emails; non-whitelisted rejected; `/admin` not locale-prefixed and robots-disallowed; filters/sort/stats correct; detail shows transcript + brief + webhook/revision status + flags; rating/notes/mark-reviewed persist; digest arrives at 08:00 Cairo with working links; search returns expected results; export works; service-role key absent from any client bundle.
 
@@ -417,9 +446,12 @@ alter table concierge.conversations
 5. **Sentry** (`SENTRY_DSN`), client + server, **cookieless**, PII-scrubbed in a `beforeSend` hook. **Never capture:** message content (user/agent), emails/names/phones/contact details, brief payload contents, raw IPs. **May capture:** opaque session/conversation IDs, message/token counts, stack traces + code locations, HTTP/API status codes + response times (no content), browser/OS. Assume any field is PII unless explicitly known otherwise. Debugging path is "look up `conversation_id` in the admin panel," not "find it in Sentry." Confirm Sentry sets no cookies.
 6. **Cutover participation:** confirm the route is noindex on the Railway preview host and indexable on production (existing mechanism); canonical/hreflang correct; **verify both `/plan-your-tour` and `/es/plan-your-tour` are actually present in the migration workstream's `redirect-map.csv`** (verify, don't assume — the redirect map is maintained separately and could miss them). No DNS/subdomain work.
 
+**Known issues carried in (clear during this pass):**
+- **`nav.*` MISSING_MESSAGE warnings** — `nav.faqLabel`, `nav.hotelGradeConcept`, `nav.responsibleTravel` (and possibly more) log `MISSING_MESSAGE` at build/render in EN/ES/JA. Pre-existing, **outside the concierge namespaces** (surfaced incidentally during the S8 build, not introduced by it). Add the missing `nav` keys, or remove the dead references, so the build is warning-clean. (Logged here so it is not re-discovered from scratch.)
+
 **Decisions to flag.** Sentry cookieless + absolute no-PII (locked, lists above); cutover reframe replaces DNS/subdomain/WP-redirect (locked); `aria-live` completed-message announcement, dual SR test (locked); Lighthouse 95+/100/95+ held (locked); tailored security checklist incl. Resend-key bundle check + rate-limit load test (locked).
 
-**Verification.** All E2E paths pass in both languages; Lighthouse/a11y targets met; security checklist complete; Sentry captures a test error with scrubbed context and no PII; route indexes only on production host and is covered by the redirect map.
+**Verification.** All E2E paths pass in both languages; Lighthouse/a11y targets met; security checklist complete; Sentry captures a test error with scrubbed context and no PII; route indexes only on production host and is covered by the redirect map; build is warning-clean (no `MISSING_MESSAGE`).
 
 **Commit.** "Session 11: pre-launch hardening."
 
@@ -508,6 +540,10 @@ Where the code contradicted the integration decisions summary (v1.1) or the orig
 - **Team notification Reply-To direction (Session 5):** team-facing notification emails use `Reply-To` = the **visitor's** email, not the team Gmail. The brief's "Reply-To → team Gmail" pattern applies to *visitor-facing* mail (resume links etc.); for *team-facing* notifications (the escape-hatch "forward to team"), the visitor's email is the right destination so a team member can reply directly to the traveler.
 - **Token-cap measurement under prompt caching (Session 7):** `usage.input_tokens` reports only the **non-cached delta**, not the full context the model processed — the cached prefix lives in `cache_read_input_tokens`/`cache_creation_input_tokens`. Context-size measurement must sum all three; measured naively it read ~36 tokens against a ~13k context, so the 50k/75k caps never fired. The cap must also be **sticky**: the canned-wrap row stores the over-cap context size so subsequent turns don't reset to zero and re-call the model with the full oversized payload. This **failed open** (protection silently inert), which is more dangerous than failing closed — a conversation could grow to 100k+ tokens in production, every turn billing real money, with nothing flagging it. Live testing caught what unit tests masked (cf. the Edge-crypto and schema-vs-prompt findings).
 - **Hashed-IP privacy disclosure (Session 7 → 8):** rate limiting and abuse prevention process a **keyed HMAC-SHA256 of the visitor's IP and User-Agent** (`ip_hash`/`user_agent_hash`, secret `IP_HASH_SECRET`); the raw IP is never stored or logged (verified live: stored hash equals the keyed HMAC; raw IP absent from DB and logs). The privacy policy must disclose hashed-IP/UA processing for abuse prevention **before launch** — fold into the **Session 8** cookie-consent / privacy-disclosure workstream (legal sufficiency is the hard gate). The keyed hash is non-reversible without the secret, which is the privacy-correct posture to disclose.
+- **Legal-page copy lives in Sanity, not the repo (Session 8):** `/cookie-policy` + `/privacy-policy` render via `LegalPageView` → Sanity `legalPage` singletons (dataset `migration-staging`), `body` = an **internationalized array** `[{_key: locale, value: [...PortableText]}]`. So policy refreshes are **CMS content operations, not git commits** — S8 wrote the updated EN+ES bodies as Sanity **drafts** (published untouched) for Studio review + publish. The repo's `next-sanity` write client + `SANITY_STAGING_API_WRITE_TOKEN` patches drafts reliably while preserving each block's `_key`/marks; match anchor blocks by text and splice new blocks for mid-document inserts.
+- **Legal register is usted; chat chrome is tú (Session 8):** the legal pages already carried complete professional ES + JA translations in **formal usted**. New legal-page ES must match that register — mixing the chat's **tú** (S6) into a legal document reads as a translation error. The tú convention is right for the consent *banner* and chat surfaces only. (One consistent register per document beats one global pronoun rule.)
+- **Anonymise vs NOT NULL + retain-the-pseudonyms (Session 8):** delete-my-conversation **anonymises** (not row-delete): `messages.content`→`'[deleted]'`, `conversations.brief_payload`→null + `archived=true`, `sessions.email`→null. `briefs.payload` is **NOT NULL**, so it is emptied to `{}` (same PII removal, satisfies the constraint) rather than nulled. The keyed `ip_hash`/`user_agent_hash` are **RETAINED** — one-way abuse-prevention pseudonyms; stripping them on a delete request would let an abuser reset their rate-limit/abuse standing (this **revises** the brief's original "strip ip_hash/user_agent_hash"; legal-review item). No migration — reuses existing columns.
+- **A new data-collecting feature can silently invalidate the consent notice (Session 8):** the pre-S8 cookie notice still said "a single cookie … no tracking of any kind" after the concierge shipped `t2e_session_id` + IP/UA hashing — a *materially false* live disclosure, not just stale copy. Adding any feature that sets a cookie or processes visitor data must trigger a consent + policy pass in the same launch window.
 
 ## Appendix D — Reusable patterns and operational notes
 

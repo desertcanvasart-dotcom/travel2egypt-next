@@ -8,14 +8,15 @@ import { useConsent } from '@/lib/consent';
 import { Dialog } from '@/components/ui/Dialog';
 
 /**
- * Informational cookie notice. The site sets only one essential cookie and
- * runs no tracking, so there is nothing to accept or reject — the notice
- * states that and is dismissed with a single "Got it". It is presented as
- * a non-blocking bottom slide-in panel; the shared `Dialog` primitive
- * (Session 5) supplies `role="dialog"` + the focus trap so a keyboard or
- * screen-reader user is taken to it and must act to dismiss. No behaviour
- * change from the pre-S5 hand-rolled version — Dialog was extracted FROM
- * this component's pattern.
+ * Informational cookie notice. The site sets only strictly-necessary cookies
+ * and runs no tracking, so there is nothing to accept or reject — the notice
+ * discloses what is set (the language cookie, plus the concierge's
+ * `t2e_session_id` and its keyed IP/UA hashing — Session 8) and is dismissed
+ * with a single "Got it". It is presented as a non-blocking bottom slide-in
+ * panel; the shared `Dialog` primitive (Session 5) supplies `role="dialog"` +
+ * the focus trap so a keyboard or screen-reader user is taken to it and must
+ * act to dismiss. No behaviour change from the pre-S5 hand-rolled version —
+ * Dialog was extracted FROM this component's pattern.
  */
 export function CookieConsent() {
   const t = useTranslations('consent');

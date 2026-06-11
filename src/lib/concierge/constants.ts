@@ -35,3 +35,10 @@ export const WHATSAPP_NUMBER = '201158011600';
 export function whatsappUrl(text: string): string {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 }
+
+/**
+ * Public team inbox (constant, not env) — the same address shown in the
+ * footer and legal pages. Client-safe: used for the S8 data-export mailto
+ * link. The server-side TEAM_INBOX_EMAIL env is a separate concern.
+ */
+export const PUBLIC_TEAM_EMAIL = 'info@travel2egypt.org';

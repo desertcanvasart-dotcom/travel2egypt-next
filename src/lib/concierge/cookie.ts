@@ -93,3 +93,23 @@ export async function sessionCookie(req: NextRequest, cookieId: string) {
     ...(onSiteDomain ? { domain: '.travel2egypt.org' } : {}),
   };
 }
+
+/**
+ * Expire the session cookie (Session 8 delete-my-conversation). Same name /
+ * path / domain attributes as `sessionCookie` so the browser actually clears
+ * it (a mismatched domain leaves a stale cookie behind), with `maxAge: 0`.
+ */
+export function expireSessionCookie(req: NextRequest) {
+  const host = req.headers.get('host')?.split(':')[0].toLowerCase() ?? '';
+  const onSiteDomain = host === 'travel2egypt.org' || host.endsWith('.travel2egypt.org');
+  return {
+    name: SESSION_COOKIE_NAME,
+    value: '',
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'lax' as const,
+    path: '/',
+    maxAge: 0,
+    ...(onSiteDomain ? { domain: '.travel2egypt.org' } : {}),
+  };
+}
