@@ -385,6 +385,25 @@ launch-complete** (code merged; disclosures not yet legally ratified or publishe
 
 **Verification.** An agent response mentioning a mapped monument renders a working deep link to its `wikiMonument` page in EN and ES; a mention matching a `wikiDeity` entry is **not** linked; aliases match; no double-wrapping; the sanitizer permits the generated anchors and nothing else; the resolved-map cache invalidates on content change.
 
+**LAUNCH GATE — production dataset.** The runtime reads the `conciergeLinkMap`
+singleton from the **active dataset**: local dev = `migration-staging`, **production
+(Railway) = `production`**. The build session seeds + verifies on `migration-staging`,
+so **the link map ships DARK in production until the singleton is curated in the
+`production` dataset** (Studio curation directly on prod, or a seed at cutover).
+Add to the S12 launch checklist: "Curate `conciergeLinkMap` in the `production`
+dataset (≥ the verified seed set) before launch — otherwise concierge deep-linking
+is dormant." (No code impact; purely content deployment.)
+
+**Status — CODE-COMPLETE.** Built + live-verified on `migration-staging`: loader +
+indexability guard (`lib/linkMap/`, `robotsPolicy.ts` SSOT shared with `robots.ts`);
+post-stream entity-wrap + agent-link allowlist (`lib/concierge/markdown.ts`); 37 unit
+tests (guard/matcher/no-injection). Live: EN + ES deep links render with locale-correct
+localized slugs; agent-emitted URLs stripped; EN-only entry omitted in ES; **dark state**
+(no singleton → `linkMap=[]`) renders chat identically with no links/errors; `cache_read`
+steady; zero `git diff` on v4.1 + chat route; production build green; client bundle free of
+the Sanity client/token. 6 verified seed entries published to `migration-staging` (notes:
+"seed entry — verify before launch"). Remaining = the production-dataset curation gate above.
+
 **Commit.** "Link map: curated deep-linking with indexable-only enforcement."
 
 ---
@@ -471,6 +490,8 @@ launch-complete** (code merged; disclosures not yet legally ratified or publishe
 
 **Spanish tour-title coverage for `?tour=` (added Session 6):** verify all production tours that link to `/es/plan-your-tour?tour=<slug>` have Spanish-localized titles in Sanity — or accept code-switching for tours without translations. The tour-context opening interpolates the resolved tour title (`"Veo que has estado mirando {tourName}"`); a tour that falls back to its English title produces a code-switched Spanish sentence. Content-readiness check, not code.
 
+**Concierge link-map curation in `production` (Link Map session — named gate):** the runtime reads `conciergeLinkMap` from the active dataset (prod = `production`); the build verified it on `migration-staging`, so concierge deep-linking is **dormant in production until the singleton is curated there**. Plan: a **dataset-parameterized seed script** that, for each entry, **re-verifies the target exists with a slug in the *target* dataset before adding it** (slugs differ between datasets — never assume `migration-staging` slugs exist in `production`), run as an explicit pre-launch step against `production`, then further curation in Studio directly on prod. Content-readiness, not code: if missed, deep-linking is simply absent and the chat is unaffected (the loader fails closed to `[]`, live-verified). Sits on this gate list alongside the Supabase Free→Pro upgrade and org-ownership move.
+
 **Launch checklist:** **dry-run the rollback before go-live** — `CHAT_ENABLED=false` → verify chat falls back, CTAs repoint, no Sentry errors; then `CHAT_ENABLED=true` → verify full experience restored (tested rollback is trusted rollback). Final visual review on the production host; a complete real conversation in EN and ES → brief arrives in Autoura; admin panel reachable.
 
 **Rollout:** quiet — internal/partners only. **Timing:** 8–10 PM Cairo time on a Tuesday or Wednesday (low European/Egyptian traffic, full team availability the next day). **Go-live:** set `CHAT_ENABLED=true` on the production host (independent of the broader site cutover). **Monitor 24h:** Sentry (scrubbed), admin panel, Autoura receipt, rate-limit false positives, performance. **Rollback (single lever):** `CHAT_ENABLED=false` reverts chat + CTAs to `/contact` within seconds.
@@ -544,6 +565,8 @@ Where the code contradicted the integration decisions summary (v1.1) or the orig
 - **Legal register is usted; chat chrome is tú (Session 8):** the legal pages already carried complete professional ES + JA translations in **formal usted**. New legal-page ES must match that register — mixing the chat's **tú** (S6) into a legal document reads as a translation error. The tú convention is right for the consent *banner* and chat surfaces only. (One consistent register per document beats one global pronoun rule.)
 - **Anonymise vs NOT NULL + retain-the-pseudonyms (Session 8):** delete-my-conversation **anonymises** (not row-delete): `messages.content`→`'[deleted]'`, `conversations.brief_payload`→null + `archived=true`, `sessions.email`→null. `briefs.payload` is **NOT NULL**, so it is emptied to `{}` (same PII removal, satisfies the constraint) rather than nulled. The keyed `ip_hash`/`user_agent_hash` are **RETAINED** — one-way abuse-prevention pseudonyms; stripping them on a delete request would let an abuser reset their rate-limit/abuse standing (this **revises** the brief's original "strip ip_hash/user_agent_hash"; legal-review item). No migration — reuses existing columns.
 - **A new data-collecting feature can silently invalidate the consent notice (Session 8):** the pre-S8 cookie notice still said "a single cookie … no tracking of any kind" after the concierge shipped `t2e_session_id` + IP/UA hashing — a *materially false* live disclosure, not just stale copy. Adding any feature that sets a cookie or processes visitor data must trigger a consent + policy pass in the same launch window.
+- **When a document's premise changes, re-read every "unchanged" passage (Session 8 → Link Map):** the S8 cookie-policy edit targeted the obvious sections, but **two fossils survived into the live (draft) copy** and were caught only post-merge — passages left untouched whose framing assumed the OLD premise (the "we use one cookie" / "the only effect is…" absolutes that the concierge had quietly falsified). A premise change (here: "we set a second cookie + hash IPs") is a **full re-read**, not a find-and-replace: audit every *unchanged* paragraph and every absolute/conditional claim ("the only…", "we never…", "the only effect is…") against the new reality.
+- **Link map = post-processor, not prompt injection (Link Map session):** the locked model wraps recognized entity *names* in agent responses with deep links in the **post-stream markdown/sanitize pass** — the v4.1 prompt is **never told about links**, so there is zero prompt contact and zero cache exposure (verified: `cache_read` steady across turns; chat-route system array byte-identical by `git diff`). Hallucination guard is two-layer: the agent emits no links by design, **and** a DOMPurify hook neutralizes any agent-emitted `href` not in the resolved map. The post-processor's own anchors are built by **DOM ops** (`createElement` + `setAttribute` + `textContent`, never `innerHTML`), so no map string is ever parsed as markup. Indexability derives dynamically from `robotsPolicy.ts` (shared with `robots.ts`); v1 targets `wikiMonument` + `guideArticle`; no slug in the active locale → the entry is omitted (no dead cross-locale links). **Ships dark in production until the singleton is curated in the `production` dataset** (the runtime reads the active dataset; dev = `migration-staging`, prod = `production`) — an S12 gate.
 
 ## Appendix D — Reusable patterns and operational notes
 

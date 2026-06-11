@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { headers } from 'next/headers';
 
 import { PRODUCTION_URL, isProductionHost } from '@/lib/site';
+import { ROBOTS_DISALLOW_PATHS } from '@/lib/robotsPolicy';
 
 /**
  * Runtime-gated robots.txt.
@@ -47,14 +48,8 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
       {
         userAgent: '*',
         allow: '/',
-        disallow: [
-          '/studio',
-          '/studio/',
-          '/api/',
-          '/wiki/deities',
-          '/wiki/dynasties',
-          '/wiki/people',
-        ],
+        // SSOT — shared with the concierge link-map indexability guard.
+        disallow: [...ROBOTS_DISALLOW_PATHS],
       },
       ...AI_CRAWLERS.map((userAgent) => ({ userAgent, allow: '/' })),
     ],
