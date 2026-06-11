@@ -360,7 +360,11 @@ mailto. Legal-page EN+ES bodies updated as Sanity **drafts** (published untouche
 **OPEN ITEMS:** `[DATA-REQUEST SLA — TO CONFIRM]` placeholder (S12 gate); **JA legal-page
 translation** (privacy + cookie — native + legal review; JA bodies currently lag EN/ES on
 concierge disclosures); JA consent banner copy native review; publish the Sanity legal drafts
-after sign-off.
+after sign-off; `anonymized_at` timestamp is **S10 migration 0005 (REQUIRED)**.
+
+**S8 CLOSES only when** (a) Islam reviews + **publishes** the two Sanity legal drafts, and
+(b) the lawyer **signs off** the checklist above. Until both: **code-complete, not
+launch-complete** (code merged; disclosures not yet legally ratified or published).
 
 ---
 
@@ -420,8 +424,9 @@ after sign-off.
 5. **Detail view:** full transcript with timestamps/response-times/token counts; formatted brief payload; Autoura delivery status + attempts + revision history; reviewer controls — 1–5 rating (captures overall quality, incl. "handled well") and structured notes (problem categories only: **prompt drift, factual error, escape hatch used, abuse, language switch issue, other**); mark-reviewed. The S5 forward-email admin link now resolves here (update the email template to include it).
 6. **Daily digest** at 08:00 `Africa/Cairo` via Railway cron → protected `/api/admin/digest` (`CRON_SECRET`): totals, briefs completed (links), flagged needing review (links grouped by `flag_reason`), notable patterns, top response times, token/cost summary.
 7. **Search** across message content via ILIKE (anonymized conversations correctly absent; upgrade to Postgres FTS if it gets slow); **export** transcript to JSON/markdown (admin-only route).
+8. **Migration `0005` — `anonymized_at timestamptz` — REQUIRED (not optional), deferred from S8.** S8's delete-anonymise marks `archived=true` but carries **no timestamp**. Add `anonymized_at` (table TBD — likely `sessions`, since anonymise is session-scoped; surface per-conversation via the join) and set it in the S8 `/api/data-request` delete path once the column exists. Two reasons it's required: (a) **GDPR accountability** — we must be able to evidence *when* an erasure request was honoured; (b) **this panel needs it** — reviewers seeing gutted conversations (`'[deleted]'` content) must distinguish *"visitor exercised deletion on &lt;date&gt;"* from data corruption. S10 already opens migration-friendly, so it folds in cleanly.
 
-**Decisions to flag.** Server-mediated admin + two-factor check (session AND whitelist), RLS deny-all, no permissive policies (locked, revises S2); `/admin` middleware exclusion + robots disallow (locked); Supabase Auth mail via Resend, separate from-address (locked); Railway cron digest at 08:00 Cairo, `CRON_SECRET` long-lived (locked); ILIKE search (locked); reviewer note categories as listed (locked); full-access whitelist, revoke = remove + redeploy, v2 → DB table (locked).
+**Decisions to flag.** Server-mediated admin + two-factor check (session AND whitelist), RLS deny-all, no permissive policies (locked, revises S2); `/admin` middleware exclusion + robots disallow (locked); Supabase Auth mail via Resend, separate from-address (locked); Railway cron digest at 08:00 Cairo, `CRON_SECRET` long-lived (locked); ILIKE search (locked); reviewer note categories as listed (locked); full-access whitelist, revoke = remove + redeploy, v2 → DB table (locked); `anonymized_at` migration 0005 (locked REQUIRED, deferred from S8).
 
 **Verification.** Magic-link login succeeds only for whitelisted emails; non-whitelisted rejected; `/admin` not locale-prefixed and robots-disallowed; filters/sort/stats correct; detail shows transcript + brief + webhook/revision status + flags; rating/notes/mark-reviewed persist; digest arrives at 08:00 Cairo with working links; search returns expected results; export works; service-role key absent from any client bundle.
 
@@ -441,9 +446,12 @@ after sign-off.
 5. **Sentry** (`SENTRY_DSN`), client + server, **cookieless**, PII-scrubbed in a `beforeSend` hook. **Never capture:** message content (user/agent), emails/names/phones/contact details, brief payload contents, raw IPs. **May capture:** opaque session/conversation IDs, message/token counts, stack traces + code locations, HTTP/API status codes + response times (no content), browser/OS. Assume any field is PII unless explicitly known otherwise. Debugging path is "look up `conversation_id` in the admin panel," not "find it in Sentry." Confirm Sentry sets no cookies.
 6. **Cutover participation:** confirm the route is noindex on the Railway preview host and indexable on production (existing mechanism); canonical/hreflang correct; **verify both `/plan-your-tour` and `/es/plan-your-tour` are actually present in the migration workstream's `redirect-map.csv`** (verify, don't assume — the redirect map is maintained separately and could miss them). No DNS/subdomain work.
 
+**Known issues carried in (clear during this pass):**
+- **`nav.*` MISSING_MESSAGE warnings** — `nav.faqLabel`, `nav.hotelGradeConcept`, `nav.responsibleTravel` (and possibly more) log `MISSING_MESSAGE` at build/render in EN/ES/JA. Pre-existing, **outside the concierge namespaces** (surfaced incidentally during the S8 build, not introduced by it). Add the missing `nav` keys, or remove the dead references, so the build is warning-clean. (Logged here so it is not re-discovered from scratch.)
+
 **Decisions to flag.** Sentry cookieless + absolute no-PII (locked, lists above); cutover reframe replaces DNS/subdomain/WP-redirect (locked); `aria-live` completed-message announcement, dual SR test (locked); Lighthouse 95+/100/95+ held (locked); tailored security checklist incl. Resend-key bundle check + rate-limit load test (locked).
 
-**Verification.** All E2E paths pass in both languages; Lighthouse/a11y targets met; security checklist complete; Sentry captures a test error with scrubbed context and no PII; route indexes only on production host and is covered by the redirect map.
+**Verification.** All E2E paths pass in both languages; Lighthouse/a11y targets met; security checklist complete; Sentry captures a test error with scrubbed context and no PII; route indexes only on production host and is covered by the redirect map; build is warning-clean (no `MISSING_MESSAGE`).
 
 **Commit.** "Session 11: pre-launch hardening."
 
