@@ -8,6 +8,7 @@ import { renderAgentMarkdown } from '@/lib/concierge/markdown';
 import { whatsappUrl } from '@/lib/concierge/constants';
 import { Link } from '@/i18n/navigation';
 import type { BriefPayload, BriefResponse } from '@/types/concierge';
+import type { LinkMapEntry } from '@/lib/linkMap/resolve';
 import { BriefPanel } from './BriefPanel';
 import { ConciergeFallback } from './ConciergeFallback';
 import { DataMenu } from './DataMenu';
@@ -49,6 +50,8 @@ interface ChatContainerProps {
   tourTitle?: string | null;
   /** True when arriving via an invalid/expired resume link (S4). */
   resumeError?: boolean;
+  /** Resolved concierge link map for this locale (deep-link post-processor). */
+  linkMap?: LinkMapEntry[];
 }
 
 type Phase = 'idle' | 'thinking' | 'streaming';
@@ -58,6 +61,7 @@ export function ChatContainer({
   tourSlug,
   tourTitle,
   resumeError = false,
+  linkMap = [],
 }: ChatContainerProps) {
   const t = useTranslations('planYourTour');
   const format = useFormatter();
@@ -136,7 +140,7 @@ export function ChatContainer({
             key: m.id,
             role: m.role,
             text: m.content,
-            html: m.role === 'assistant' ? await renderAgentMarkdown(m.content) : undefined,
+            html: m.role === 'assistant' ? await renderAgentMarkdown(m.content, linkMap) : undefined,
           })),
         );
         if (cancelled) return;
@@ -297,7 +301,7 @@ export function ChatContainer({
       }
       if (gotError || !assembled) throw new Error('stream_failed');
 
-      const html = await renderAgentMarkdown(assembled);
+      const html = await renderAgentMarkdown(assembled, linkMap);
       setMessages((prev) => [
         ...prev,
         { key: nextKey(), role: 'assistant', text: assembled, html },

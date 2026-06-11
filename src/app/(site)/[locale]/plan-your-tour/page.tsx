@@ -3,6 +3,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import type { Locale } from '@/i18n/routing';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
+import { loadResolvedLinkMap } from '@/lib/linkMap/loader';
 import { resolveTourContext } from '@/lib/concierge/tourContext';
 import { buildStaticMetadata } from '@/lib/seo';
 import { TrustStrip } from '@/components/TrustStrip';
@@ -66,6 +67,9 @@ export default async function Page({ params, searchParams }: Props) {
   const rawTourSlug = typeof tour === 'string' ? tour : null;
   const tourContext = rawTourSlug ? await resolveTourContext(rawTourSlug, lc) : null;
   const resumeError = resume_error === '1';
+  // Concierge link map (resolved for this locale) — drives the post-stream
+  // entity-wrapping deep links. Cached; fails closed to [] (no links).
+  const linkMap = await loadResolvedLinkMap(lc);
 
   const t = await getTranslations({ locale, namespace: 'planYourTour' });
   return (
@@ -80,6 +84,7 @@ export default async function Page({ params, searchParams }: Props) {
         tourSlug={tourContext?.slug ?? null}
         tourTitle={tourContext?.title ?? null}
         resumeError={resumeError}
+        linkMap={linkMap}
       />
     </div>
   );

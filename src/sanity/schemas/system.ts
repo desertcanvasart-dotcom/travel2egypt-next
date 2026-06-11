@@ -578,6 +578,12 @@ export const conciergeLinkMapSchema = defineType({
             defineField({
               name: 'aliases',
               title: 'Aliases / alternate spellings',
+              description:
+                'Other phrasings the agent might use (EN and ES go in this one shared list). ' +
+                'AVOID cross-language homographs — a term that is a proper noun in one language ' +
+                'but a common word in the other (e.g. ES "File" = Philae, but "file" is an ' +
+                'everyday English word) would wrongly link ordinary text. Prefer distinctive, ' +
+                'multi-word phrasings.',
               type: 'array',
               of: [{ type: 'string' }],
             }),
