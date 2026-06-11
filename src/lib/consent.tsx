@@ -3,9 +3,15 @@
 /**
  * Cookie-consent state.
  *
- * The site currently sets only one strictly-necessary cookie (NEXT_LOCALE)
- * and loads no analytics or marketing scripts, so there is nothing to gate
- * yet — the visible UI is an informational notice, not a consent choice.
+ * The site sets only strictly-necessary cookies and loads no analytics or
+ * marketing scripts, so there is nothing to gate — the visible UI is an
+ * informational notice, not a consent choice. The cookies are: `NEXT_LOCALE`
+ * (remembers the reading language, set site-wide) and `t2e_session_id` (the
+ * AI concierge's signed session cookie — set ONLY when a visitor engages the
+ * concierge, 30 days, scoped to travel2egypt.org). The concierge additionally
+ * processes a keyed one-way HMAC of the visitor's IP / User-Agent for abuse
+ * prevention; the raw values are never stored or logged. The notice (Session 8)
+ * discloses all of this; full detail is in the cookie + privacy policies.
  *
  * This provider exists for future-proofing: the day a non-essential script
  * is added, a consumer only has to read `useConsent().consent?.categories`
@@ -15,6 +21,8 @@
  *
  * The decision is persisted in localStorage under a versioned key and
  * re-requested after 12 months (ICO / CNIL guidance on consent refresh).
+ * Bumping the version suffix re-prompts every visitor (old records ignored) —
+ * done at S8 (`v1 → v2`) so the updated disclosure is shown once.
  */
 
 import {
@@ -45,7 +53,7 @@ export type ConsentRecord = {
 
 // Versioned key — bump the suffix to cleanly re-prompt every visitor if the
 // cookie policy materially changes (old records are then simply ignored).
-const STORAGE_KEY = 'consent-v1';
+const STORAGE_KEY = 'consent-v2';
 const MAX_AGE_MS = 365 * 24 * 60 * 60 * 1000;
 
 const NO_OPTIONAL: ConsentCategories = { analytics: false, marketing: false };

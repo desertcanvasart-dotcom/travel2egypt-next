@@ -774,10 +774,10 @@
     "bottomCtaLabel": "Talk to us on WhatsApp"
   },
   "consent": {
-    "headline": "We use only essential cookies",
-    "body": "Travel2Egypt sets a single cookie — it remembers the language you are reading the site in. We run no analytics, no advertising, and no visitor tracking of any kind.",
-    "policyLink": "Read our cookie policy",
-    "gotIt": "Got it"
+    "headline": "Solo usamos cookies esenciales",
+    "body": "Travel2Egypt usa una pequeña cookie para recordar el idioma en el que lees la web. Si usas nuestro concierge con IA, también guardamos una cookie de sesión, t2e_session_id, para que tu conversación se mantenga al cambiar de página o al volver — dura 30 días y se limita a travel2egypt.org. Para proteger el concierge frente a usos abusivos, procesamos una versión cifrada de un solo sentido (hash) de tu dirección IP y tu navegador; los datos originales nunca se guardan ni se registran. No usamos analítica, ni publicidad, ni ningún tipo de seguimiento.",
+    "policyLink": "Lee nuestra política de cookies",
+    "gotIt": "Entendido"
   },
   "tourSystem": {
     "mastKicker": "Día a día · Por todo Egipto",
