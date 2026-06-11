@@ -110,6 +110,64 @@ export function teamHandoffEmail(p: TeamHandoffParams): { subject: string; html:
   return { subject, html, text };
 }
 
+interface HostileAlertParams {
+  sessionRef: string;
+  conversationId: string;
+  locale: string;
+  /** The flagged user message (escaped before display). */
+  message: string;
+}
+
+/**
+ * Hostile-content alert (Session 7) — internal, real-time. Goes to
+ * TEAM_INBOX_EMAIL with a distinct subject prefix for Gmail filtering. Not a
+ * handoff: there is no visitor reply expected, so no Reply-To. Prompt-injection
+ * is NOT alerted here (daily review only) — only `hostile_language`.
+ */
+export function hostileContentAlert(p: HostileAlertParams): {
+  subject: string;
+  html: string;
+  text: string;
+} {
+  const subject = `[Concierge — Hostile Content Flagged] — ${p.sessionRef}`;
+  const metaRows: Array<[string, string]> = [
+    ['Flag reason', 'hostile_language'],
+    ['Language', languageLabel(p.locale)],
+    ['Session reference', p.sessionRef],
+    ['Conversation ID', p.conversationId],
+  ];
+
+  const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
+  <div style="max-width:640px;margin:0 auto;padding:24px;">
+    <h2 style="font-size:18px;margin:0 0 4px;">Hostile content flagged in a concierge conversation</h2>
+    <p style="font-size:13px;color:#5c6675;margin:0 0 16px;">Automatic flag from the AI concierge on travel2egypt.org. No action may be needed — the assistant handles the reply; this is for review.</p>
+    <table style="border-collapse:collapse;font-size:14px;margin-bottom:20px;">
+      ${metaRows
+        .map(
+          ([k, v]) =>
+            `<tr><td style="padding:3px 16px 3px 0;color:#5c6675;">${k}</td><td style="padding:3px 0;"><strong>${esc(v)}</strong></td></tr>`,
+        )
+        .join('')}
+    </table>
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Flagged message</h3>
+    <div style="font-size:14px;line-height:1.6;white-space:pre-wrap;">${esc(p.message)}</div>
+  </div>
+</body></html>`;
+
+  const text = [
+    'Hostile content flagged in a concierge conversation (travel2egypt.org).',
+    'For review — the assistant handles the reply.',
+    '',
+    ...metaRows.map(([k, v]) => `${k}: ${v}`),
+    '',
+    '--- Flagged message ---',
+    '',
+    p.message,
+  ].join('\n');
+
+  return { subject, html, text };
+}
+
 export function resumeEmail(url: string, locale: string): ResumeEmailContent {
   if (locale === 'es') {
     const heading = 'Retoma tu conversación';

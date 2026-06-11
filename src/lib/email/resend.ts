@@ -1,6 +1,6 @@
 import { Resend } from 'resend';
 
-import { resumeEmail, teamHandoffEmail } from './templates';
+import { hostileContentAlert, resumeEmail, teamHandoffEmail } from './templates';
 
 /**
  * Resend wrapper (Session 4). The single transactional-mail entry point;
@@ -62,4 +62,28 @@ export async function sendTeamHandoffEmail(args: TeamHandoffArgs): Promise<void>
     ...(args.visitorEmail ? { replyTo: args.visitorEmail } : {}),
   });
   if (error) throw new Error(`resend team handoff failed: ${error.message}`);
+}
+
+interface HostileAlertArgs {
+  sessionRef: string;
+  conversationId: string;
+  locale: string;
+  message: string;
+}
+
+/**
+ * Hostile-content alert (Session 7) → TEAM_INBOX_EMAIL. Best-effort: if the
+ * inbox is unset it silently no-ops (abuse alerting must never break the chat
+ * turn), unlike the handoff which throws so the visitor sees a clear failure.
+ * No Reply-To — internal alert, no visitor reply expected.
+ */
+export async function sendHostileContentAlert(args: HostileAlertArgs): Promise<void> {
+  const to = process.env.TEAM_INBOX_EMAIL;
+  if (!to) {
+    console.warn('[concierge] TEAM_INBOX_EMAIL unset — hostile alert not sent');
+    return;
+  }
+  const { subject, html, text } = hostileContentAlert(args);
+  const { error } = await client().emails.send({ from: FROM, to, subject, html, text });
+  if (error) throw new Error(`resend hostile alert failed: ${error.message}`);
 }

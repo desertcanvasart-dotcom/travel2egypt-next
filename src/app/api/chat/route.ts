@@ -1,13 +1,40 @@
 import Anthropic from '@anthropic-ai/sdk';
+import { getTranslations } from 'next-intl/server';
 import { NextResponse, type NextRequest } from 'next/server';
 
 import type { Locale } from '@/i18n/routing';
+import { detectAbuse, primaryCategory } from '@/lib/abuseDetection';
 import { detectBriefMarkers } from '@/lib/briefDetection';
 import { CONCIERGE_MAX_TOKENS, CONCIERGE_MODEL } from '@/lib/concierge/constants';
-import { ensureSession, sessionCookie } from '@/lib/concierge/session';
+import { hashedIp, hashedUserAgent } from '@/lib/concierge/ipHash';
+import {
+  ABUSE_TERMINATE_AT,
+  abuseSignalCount,
+  enforceChat,
+  recordAbuseSignal,
+  TOKEN_CAPS,
+} from '@/lib/concierge/rateLimit';
+import { ensureSession, sessionCookie, type ConciergeSession } from '@/lib/concierge/session';
 import { buildTourContextBlock, resolveTourContext } from '@/lib/concierge/tourContext';
 import { CONCIERGE_SYSTEM_PROMPT } from '@/lib/conciergePrompt';
+import { sendHostileContentAlert } from '@/lib/email/resend';
 import { conciergeDb } from '@/lib/supabase/server';
+
+/** Best-effort keyed hash — a missing IP_HASH_SECRET degrades to no IP, never a 500. */
+async function safeHash(p: Promise<string | null>): Promise<string | null> {
+  try {
+    return await p;
+  } catch {
+    return null;
+  }
+}
+
+/** A wrap-nudge injected as system block 2 when the soft token cap is reached. */
+const WRAP_NUDGE =
+  'SYSTEM CONTEXT (not from the traveler): this conversation has grown long. ' +
+  'Following your WHEN TO WRAP guidance, look for a natural moment to consolidate ' +
+  'what you have gathered and move toward putting a brief together for the team, ' +
+  'capturing the contact essentials first. Do not mention any system or length limit.';
 
 /**
  * POST /api/chat — the concierge chat turn (S2 backend, S3 wiring).
@@ -44,6 +71,68 @@ interface ChatBody {
   tourSlug?: unknown;
 }
 
+const SSE_HEADERS = {
+  'Content-Type': 'text/event-stream; charset=utf-8',
+  'Cache-Control': 'no-cache, no-transform',
+  Connection: 'keep-alive',
+} as const;
+
+/**
+ * Hard token-cap response (S7): stream a canned, localized clean wrap toward
+ * brief completion instead of another Anthropic call. Same SSE shape as a real
+ * turn, so the client renders it identically; the wrap text carries a Gate-1
+ * handoff marker, so once contact details are present the brief still completes
+ * via Gate 2 (extraction reads the transcript, no chat call needed).
+ */
+async function cannedWrapResponse(
+  req: NextRequest,
+  db: ReturnType<typeof conciergeDb>,
+  args: {
+    conversationId: string;
+    session: ConciergeSession;
+    locale: Locale;
+    email: string | null;
+    /** The context size that tripped the cap — stored so the cap stays tripped. */
+    contextTokens: number;
+    text: string;
+  },
+): Promise<NextResponse> {
+  const { conversationId, session, locale, email, contextTokens, text } = args;
+  const encoder = new TextEncoder();
+  const sse = new ReadableStream<Uint8Array>({
+    async start(controller) {
+      const send = (event: Record<string, unknown>) =>
+        controller.enqueue(encoder.encode(`data: ${JSON.stringify(event)}\n\n`));
+      send({ type: 'start', conversationId, sessionRef: session.cookieId.slice(0, 8) });
+      send({ type: 'delta', text });
+      try {
+        await db.from('messages').insert({
+          conversation_id: conversationId,
+          role: 'assistant',
+          content: text,
+          response_time_ms: 0,
+          // Carry the tripping context size forward so the next turn stays
+          // capped (a canned wrap makes no API call, so it has no real count).
+          token_count_input: contextTokens,
+          token_count_output: 0,
+          model_version: 'canned-wrap',
+        });
+        await db
+          .from('conversations')
+          .update({ last_message_at: new Date().toISOString() })
+          .eq('id', conversationId);
+      } catch (err) {
+        console.error('[concierge] canned wrap persist failed:', err);
+      }
+      send({ type: 'done', briefDetected: detectBriefMarkers(text, locale, { email }) });
+      controller.close();
+    },
+  });
+  const res = new NextResponse(sse, { headers: SSE_HEADERS });
+  if (session.isNew) res.cookies.set(await sessionCookie(req, session.cookieId));
+  return res;
+}
+
 export async function POST(req: NextRequest) {
   let body: ChatBody;
   try {
@@ -66,8 +155,26 @@ export async function POST(req: NextRequest) {
 
   try {
     const db = conciergeDb();
-    const session = await ensureSession(req, { locale });
+    const ipHash = await safeHash(hashedIp(req));
+    const userAgentHash = await safeHash(hashedUserAgent(req));
+    const session = await ensureSession(req, { locale, ipHash, userAgentHash });
     if (!session) throw new Error('unreachable: ensureSession with create');
+
+    // S7 termination: a session past the abuse-signal threshold is shut down
+    // until the abuse window rolls. Checked before any work — no Anthropic call.
+    if ((await abuseSignalCount(db, session.cookieId)) >= ABUSE_TERMINATE_AT) {
+      return NextResponse.json({ error: 'terminated' }, { status: 429 });
+    }
+
+    // S7 rate limiting: per-session soft cooldown + per-IP hard block. Gate
+    // before the Anthropic call so a throttled turn costs nothing.
+    const limit = await enforceChat(db, session.cookieId, ipHash);
+    if (!limit.ok) {
+      return NextResponse.json(
+        { error: 'rate_limited', scope: limit.scope, retryAfter: limit.retryAfterSeconds },
+        { status: 429, headers: { 'Retry-After': String(limit.retryAfterSeconds) } },
+      );
+    }
 
     // Resolve the conversation (carrying its persisted tour ref).
     let conversationId: string;
@@ -126,10 +233,11 @@ export async function POST(req: NextRequest) {
       contextBlock = buildTourContextBlock({ title: storedTour.title });
     }
 
-    // History first, then persist the new user turn.
+    // History first, then persist the new user turn. token_count_* feed the
+    // S7 conversation-size measurement (latest assistant turn ≈ context size).
     const { data: history, error: historyError } = await db
       .from('messages')
-      .select('role, content')
+      .select('role, content, token_count_input, token_count_output')
       .eq('conversation_id', conversationId)
       .in('role', ['user', 'assistant'])
       .order('created_at', { ascending: true });
@@ -157,6 +265,59 @@ export async function POST(req: NextRequest) {
       }
     }
 
+    // S7 abuse detection — FLAG ONLY. v4.1 still writes the reply; we only
+    // categorize, tally toward termination, and (hostile only) alert the team.
+    const recentUserMessages = (history ?? [])
+      .filter((m) => m.role === 'user')
+      .map((m) => m.content);
+    const abuseCategories = detectAbuse(message, recentUserMessages);
+    if (abuseCategories.length > 0) {
+      await db
+        .from('conversations')
+        .update({ flagged: true, flag_reason: primaryCategory(abuseCategories) })
+        .eq('id', conversationId);
+      const signals = await recordAbuseSignal(db, session.cookieId);
+      if (abuseCategories.includes('hostile_language')) {
+        // Real-time team alert; prompt-injection is daily-review only (no email).
+        void sendHostileContentAlert({
+          sessionRef: session.cookieId.slice(0, 8),
+          conversationId,
+          locale,
+          message,
+        }).catch((e) => console.error('[concierge] hostile alert failed:', e));
+      }
+      if (signals >= ABUSE_TERMINATE_AT) {
+        return NextResponse.json({ error: 'terminated' }, { status: 429 });
+      }
+    }
+
+    // S7 token caps — conversation context size = latest assistant turn tokens.
+    const lastAssistant = [...(history ?? [])].reverse().find((m) => m.role === 'assistant');
+    const contextTokens =
+      (lastAssistant?.token_count_input ?? 0) + (lastAssistant?.token_count_output ?? 0);
+    if (contextTokens >= TOKEN_CAPS.hard) {
+      // Hard cap: a clean localized wrap toward brief completion — no Anthropic
+      // call. Reuses the SSE shape so the client renders it as a normal turn.
+      console.info(
+        `[concierge] token hard-cap conv=${conversationId} contextTokens=${contextTokens} → canned wrap`,
+      );
+      const t = await getTranslations({ locale, namespace: 'planYourTour' });
+      return cannedWrapResponse(req, db, {
+        conversationId,
+        session,
+        locale,
+        email: sessionEmail,
+        contextTokens,
+        text: t('tokenCapWrap'),
+      });
+    }
+    const wrapNudge = contextTokens >= TOKEN_CAPS.soft;
+    if (wrapNudge) {
+      console.info(
+        `[concierge] token soft-cap conv=${conversationId} contextTokens=${contextTokens} → wrap nudge`,
+      );
+    }
+
     const apiMessages = [
       ...(history ?? []).map((m) => ({
         role: m.role as 'user' | 'assistant',
@@ -171,7 +332,10 @@ export async function POST(req: NextRequest) {
         text: CONCIERGE_SYSTEM_PROMPT,
         cache_control: { type: 'ephemeral' },
       },
+      // Both runtime blocks sit AFTER the cache breakpoint — their variance
+      // never invalidates the cached v4.1 prefix.
       ...(contextBlock ? [{ type: 'text' as const, text: contextBlock }] : []),
+      ...(wrapNudge ? [{ type: 'text' as const, text: WRAP_NUDGE }] : []),
     ];
 
     const anthropic = new Anthropic(); // ANTHROPIC_API_KEY from env, server-only
@@ -209,12 +373,21 @@ export async function POST(req: NextRequest) {
               ` cache_write=${usage.cache_creation_input_tokens ?? 0}` +
               ` cache_read=${usage.cache_read_input_tokens ?? 0}`,
           );
+          // token_count_input stores the FULL input the model processed —
+          // uncached + cache_read + cache_creation. With prompt caching,
+          // usage.input_tokens alone is only the uncached delta (the ~13k v4.1
+          // prefix lives in the cache fields), so it badly understates context
+          // size; the S7 token caps measure conversation size from this column.
+          const totalInputTokens =
+            usage.input_tokens +
+            (usage.cache_read_input_tokens ?? 0) +
+            (usage.cache_creation_input_tokens ?? 0);
           await db.from('messages').insert({
             conversation_id: conversationId,
             role: 'assistant',
             content: text,
             response_time_ms: Date.now() - startedAt,
-            token_count_input: usage.input_tokens,
+            token_count_input: totalInputTokens,
             token_count_output: usage.output_tokens,
             model_version: final.model,
           });
@@ -235,13 +408,7 @@ export async function POST(req: NextRequest) {
       },
     });
 
-    const res = new NextResponse(sse, {
-      headers: {
-        'Content-Type': 'text/event-stream; charset=utf-8',
-        'Cache-Control': 'no-cache, no-transform',
-        Connection: 'keep-alive',
-      },
-    });
+    const res = new NextResponse(sse, { headers: SSE_HEADERS });
     if (session.isNew) res.cookies.set(await sessionCookie(req, session.cookieId));
     return res;
   } catch (err) {

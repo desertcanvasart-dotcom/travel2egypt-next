@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession } from '@/lib/concierge/session';
 import { sendTeamHandoffEmail } from '@/lib/email/resend';
 import { conciergeDb } from '@/lib/supabase/server';
@@ -86,6 +87,16 @@ export async function POST(req: NextRequest) {
     const sessionRef = session.cookieId.slice(0, 8);
 
     if (action === 'forward') {
+      // S7: throttle the handoff email (Resend cost / inbox spam). The action
+      // is already recorded above; we just decline to send another email.
+      const limit = await enforceExpensive(db, 'escape_hatch', session.cookieId);
+      if (!limit.ok) {
+        return NextResponse.json(
+          { error: 'rate_limited', sessionRef, retryAfter: limit.retryAfterSeconds },
+          { status: 429, headers: { 'Retry-After': String(limit.retryAfterSeconds) } },
+        );
+      }
+
       // Capture the email if newly provided (first-wins, like S4 auto-capture).
       let email = session.email;
       if (!email && providedEmail) {

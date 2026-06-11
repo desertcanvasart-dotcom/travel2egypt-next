@@ -9,6 +9,7 @@ import { whatsappUrl } from '@/lib/concierge/constants';
 import { Link } from '@/i18n/navigation';
 import type { BriefPayload, BriefResponse } from '@/types/concierge';
 import { BriefPanel } from './BriefPanel';
+import { ConciergeFallback } from './ConciergeFallback';
 import { EscapeHatch } from './EscapeHatch';
 
 /**
@@ -72,6 +73,12 @@ export function ChatContainer({
   const [showJump, setShowJump] = useState(false);
   const [failed, setFailed] = useState<{ text: string; attempts: number } | null>(null);
   const [announcement, setAnnouncement] = useState('');
+  // Rate limiting (S7). ipBlocked → swap to the full fallback; terminated →
+  // lock the input with a closing notice; cooldownUntil → soft per-session
+  // pause with the input re-enabling when it elapses.
+  const [ipBlocked, setIpBlocked] = useState(false);
+  const [terminated, setTerminated] = useState(false);
+  const [cooldownUntil, setCooldownUntil] = useState<number | null>(null);
   // Brief flow (S4): the completion panel + Gate-1→Gate-2 client gating.
   const [brief, setBrief] = useState<BriefPayload | null>(null);
   const [briefDismissed, setBriefDismissed] = useState(false);
@@ -145,6 +152,21 @@ export function ChatContainer({
     if (el && stickRef.current) el.scrollTop = el.scrollHeight;
   }, [messages, streamText, phase]);
 
+  // ── S7 soft cooldown: clear the pause when its window elapses ───────────
+  useEffect(() => {
+    if (cooldownUntil === null) return;
+    const ms = cooldownUntil - Date.now();
+    if (ms <= 0) {
+      setCooldownUntil(null);
+      return;
+    }
+    const id = setTimeout(() => {
+      setCooldownUntil(null);
+      inputRef.current?.focus();
+    }, ms);
+    return () => clearTimeout(id);
+  }, [cooldownUntil]);
+
   const onScroll = useCallback(() => {
     const el = convRef.current;
     if (!el) return;
@@ -170,6 +192,8 @@ export function ChatContainer({
   // ── send / retry ───────────────────────────────────────────────────────
   async function send(text: string, isRetry = false) {
     if (phase !== 'idle') return;
+    if (terminated || ipBlocked) return;
+    if (cooldownUntil !== null && cooldownUntil > Date.now()) return;
     const trimmed = text.trim();
     if (!trimmed) return;
 
@@ -198,6 +222,37 @@ export function ChatContainer({
           ...(tourSlug ? { tourSlug } : {}),
         }),
       });
+      // S7 rate limiting — a 429 is a graceful pause, never the error bubble.
+      if (res.status === 429) {
+        const info = (await res.json().catch(() => ({}))) as {
+          error?: string;
+          scope?: 'session' | 'ip';
+          retryAfter?: number;
+        };
+        clearSlowTimer();
+        setStreamText('');
+        setPhase('idle');
+        if (info.error === 'terminated') {
+          setTerminated(true);
+          return;
+        }
+        if (info.scope === 'ip') {
+          setIpBlocked(true);
+          return;
+        }
+        // Per-session soft cooldown: drop the un-sent bubble, restore the
+        // text, and pause the input until the window passes.
+        if (!isRetry) {
+          setMessages((prev) =>
+            prev.length && prev[prev.length - 1].role === 'user' && prev[prev.length - 1].text === trimmed
+              ? prev.slice(0, -1)
+              : prev,
+          );
+          setInput(trimmed);
+        }
+        setCooldownUntil(Date.now() + (info.retryAfter ?? 30) * 1000);
+        return;
+      }
       if (!res.ok || !res.body) throw new Error(`http_${res.status}`);
 
       const reader = res.body.getReader();
@@ -354,10 +409,14 @@ export function ChatContainer({
   // While the brief panel is the active surface, the chat input is locked
   // until "Continue conversation" (briefDismissed) re-enables it.
   const panelActive = brief !== null && !briefDismissed;
-  const inputLocked = busy || panelActive;
+  const cooldownActive = cooldownUntil !== null && cooldownUntil > Date.now();
+  const inputLocked = busy || panelActive || terminated || cooldownActive;
   const showOpening = messages.length === 0 && !busy;
   const chips = [t('chip1'), t('chip2'), t('chip3'), t('chip4')];
   const whatsappHref = whatsappUrl(t('fallbackWhatsappText'));
+
+  // S7 per-IP hard block — replace the whole chat surface with the human paths.
+  if (ipBlocked) return <ConciergeFallback reason="rate_limited" />;
 
   return (
     <div className="cnc-chat-shell">
@@ -531,6 +590,25 @@ export function ChatContainer({
               </div>
             </div>
           )}
+
+          {/* S7 termination — a closing notice with the human paths. */}
+          {terminated && (
+            <div className="cnc-msg cnc-msg--agent cnc-msg--error">
+              <span className="cnc-msg__avatar" aria-hidden>
+                T2E
+              </span>
+              <div className="cnc-msg__bubble">
+                <p>{t('rateLimitTerminated')}</p>
+                <p className="cnc-error-paths">
+                  <a href={whatsappHref} target="_blank" rel="noopener noreferrer">
+                    {t('fallbackWhatsappCta')}
+                  </a>
+                  {' · '}
+                  <Link href="/contact">{t('fallbackContactCta')}</Link>
+                </p>
+              </div>
+            </div>
+          )}
         </div>
 
         {showJump && (
@@ -563,6 +641,13 @@ export function ChatContainer({
               </button>
             </div>
           )
+        )}
+
+        {/* S7 soft cooldown — a gentle pause note while the input is locked. */}
+        {cooldownActive && (
+          <p className="cnc-cooldown" role="status">
+            {t('rateLimitCooldown')}
+          </p>
         )}
 
         {/* Input bar */}

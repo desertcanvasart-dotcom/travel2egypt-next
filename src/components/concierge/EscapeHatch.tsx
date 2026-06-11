@@ -44,12 +44,15 @@ export function EscapeHatch({
   const [email, setEmail] = useState('');
   const [sending, setSending] = useState(false);
   const [error, setError] = useState(false);
+  // S7: a 429 on forward means the handoff is already on its way — benign.
+  const [throttled, setThrottled] = useState(false);
 
   function reset() {
     setView('options');
     setEmail('');
     setSending(false);
     setError(false);
+    setThrottled(false);
   }
 
   function close() {
@@ -96,6 +99,11 @@ export function EscapeHatch({
           ...(email.trim() ? { email: email.trim() } : {}),
         }),
       });
+      if (res.status === 429) {
+        setThrottled(true);
+        setView('forwarded');
+        return;
+      }
       if (!res.ok) {
         setError(true);
         setSending(false);
@@ -192,11 +200,13 @@ export function EscapeHatch({
         <>
           <h2 className="cnc-escape-modal__heading">{t('escapeForwardedHeading')}</h2>
           <p className="cnc-escape-modal__sub">
-            {t('escapeForwardedBody', {
-              cairoTime: tf.cairoTime,
-              localTime: tf.localTime,
-              day: t(tf.dayKey),
-            })}
+            {throttled
+              ? t('escapeThrottled')
+              : t('escapeForwardedBody', {
+                  cairoTime: tf.cairoTime,
+                  localTime: tf.localTime,
+                  day: t(tf.dayKey),
+                })}
           </p>
           <div className="cnc-escape-actions">
             <Link href="/contact" className="cnc-textlink">

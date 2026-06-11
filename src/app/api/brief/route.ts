@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
 import { extractBrief, type ExtractionMessage } from '@/lib/briefExtraction';
+import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession } from '@/lib/concierge/session';
 import { conciergeDb } from '@/lib/supabase/server';
 import type { Json } from '@/types/concierge-db';
@@ -73,6 +74,14 @@ export async function POST(req: NextRequest) {
       .order('created_at', { ascending: true });
     if (msgError) throw new Error(`message load failed: ${msgError.message}`);
     if (!messages || messages.length === 0) {
+      return NextResponse.json({ complete: false } satisfies BriefResponse);
+    }
+
+    // S7: throttle the expensive Sonnet extraction (post-idempotency, so a
+    // cached re-show never counts). Silent to the client — it already
+    // suppresses re-firing; a throttled attempt simply doesn't open the panel.
+    const limit = await enforceExpensive(db, 'brief', session.cookieId);
+    if (!limit.ok) {
       return NextResponse.json({ complete: false } satisfies BriefResponse);
     }
 
