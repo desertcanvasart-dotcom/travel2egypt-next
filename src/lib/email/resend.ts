@@ -1,6 +1,15 @@
 import { Resend } from 'resend';
 
-import { hostileContentAlert, resumeEmail, teamHandoffEmail } from './templates';
+import type { AutouraBriefPayload } from '@/lib/concierge/autoura/types';
+
+import {
+  autouraFailureAlertEmail,
+  briefFallbackEmail,
+  hostileContentAlert,
+  resumeEmail,
+  teamHandoffEmail,
+  type AutouraFailureAlertParams,
+} from './templates';
 
 /**
  * Resend wrapper (Session 4). The single transactional-mail entry point;
@@ -86,4 +95,52 @@ export async function sendHostileContentAlert(args: HostileAlertArgs): Promise<v
   const { subject, html, text } = hostileContentAlert(args);
   const { error } = await client().emails.send({ from: FROM, to, subject, html, text });
   if (error) throw new Error(`resend hostile alert failed: ${error.message}`);
+}
+
+/**
+ * Autoura brief email fallback (Session 9) → TEAM_INBOX_EMAIL with the full
+ * brief + transcript. Reply-To = the VISITOR's email (S5 team-facing lesson) so
+ * the team replies straight to the traveler. Best-effort: if the inbox is unset
+ * it no-ops (delivery must never crash the worker); a Resend error throws and
+ * the caller's `safe()` wrapper swallows it.
+ */
+export async function sendAutouraBriefFallback(args: {
+  sessionRef: string;
+  payload: AutouraBriefPayload;
+}): Promise<void> {
+  const to = process.env.TEAM_INBOX_EMAIL;
+  if (!to) {
+    console.warn('[concierge] TEAM_INBOX_EMAIL unset — Autoura brief fallback not sent');
+    return;
+  }
+  const { subject, html, text } = briefFallbackEmail(args);
+  const replyTo = args.payload.visitor.email;
+  const { error } = await client().emails.send({
+    from: FROM,
+    to,
+    subject,
+    html,
+    text,
+    ...(replyTo ? { replyTo } : {}),
+  });
+  if (error) throw new Error(`resend autoura brief fallback failed: ${error.message}`);
+}
+
+/**
+ * Autoura delivery-failure alert (Session 9) → TEAM_INBOX_EMAIL + optional
+ * ALERT_EMAIL (Islam direct; defaults to just the team inbox). No Reply-To —
+ * internal ops signal. Best-effort like the fallback above.
+ */
+export async function sendAutouraFailureAlert(args: AutouraFailureAlertParams): Promise<void> {
+  const recipients = [process.env.TEAM_INBOX_EMAIL, process.env.ALERT_EMAIL].filter(
+    (x): x is string => !!x,
+  );
+  const to = [...new Set(recipients)]; // dedup if ALERT_EMAIL === TEAM_INBOX_EMAIL
+  if (to.length === 0) {
+    console.warn('[concierge] no TEAM_INBOX_EMAIL/ALERT_EMAIL — Autoura failure alert not sent');
+    return;
+  }
+  const { subject, html, text } = autouraFailureAlertEmail(args);
+  const { error } = await client().emails.send({ from: FROM, to, subject, html, text });
+  if (error) throw new Error(`resend autoura failure alert failed: ${error.message}`);
 }

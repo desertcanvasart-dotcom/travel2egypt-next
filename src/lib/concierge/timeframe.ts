@@ -47,10 +47,16 @@ export interface FollowUpTimeframe {
   dayKey: 'today' | 'tomorrow';
 }
 
-export function computeFollowUpTimeframe(
-  locale: string,
+/**
+ * The concrete instant of the v4.1 follow-up commitment for a given moment:
+ * before 1 p.m. Cairo → today 20:00 Cairo; otherwise → tomorrow 10:00 Cairo.
+ * Extracted so the S9 Autoura payload can reconstruct `committed_response_by`
+ * (and a visitor-zone label) from the brief's `submitted_at` using the SAME
+ * rule the panel renders — single source of the cutoff logic.
+ */
+export function computeFollowUpInstant(
   now: Date = new Date(),
-): FollowUpTimeframe {
+): { instant: Date; beforeCutoff: boolean } {
   // Current Cairo wall-clock parts.
   const parts: Record<string, number> = {};
   for (const p of new Intl.DateTimeFormat('en-US', {
@@ -66,9 +72,18 @@ export function computeFollowUpTimeframe(
 
   const beforeCutoff = parts.hour < 13;
   // before 1pm → today 20:00; otherwise → tomorrow 10:00
-  const target = beforeCutoff
+  const instant = beforeCutoff
     ? cairoWallToInstant(parts.year, parts.month - 1, parts.day, 20)
     : cairoWallToInstant(parts.year, parts.month - 1, parts.day + 1, 10);
+
+  return { instant, beforeCutoff };
+}
+
+export function computeFollowUpTimeframe(
+  locale: string,
+  now: Date = new Date(),
+): FollowUpTimeframe {
+  const { instant: target, beforeCutoff } = computeFollowUpInstant(now);
 
   const cairoTime = new Intl.DateTimeFormat(locale, {
     timeZone: CAIRO,

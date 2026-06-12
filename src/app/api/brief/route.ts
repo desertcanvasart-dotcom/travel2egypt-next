@@ -1,5 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { deliverBrief } from '@/lib/concierge/autoura/deliver';
 import { extractBrief, type ExtractionMessage } from '@/lib/briefExtraction';
 import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession } from '@/lib/concierge/session';
@@ -97,7 +98,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ complete: false } satisfies BriefResponse);
     }
 
-    // Persist: brief state on the conversation + a briefs row (S9 reads this).
+    // Persist: brief state on the conversation + a briefs row (S9 delivers this).
     const nowIso = new Date().toISOString();
     await db
       .from('conversations')
@@ -107,10 +108,44 @@ export async function POST(req: NextRequest) {
         brief_payload: payload as unknown as Json,
       })
       .eq('id', conversationId);
-    await db.from('briefs').insert({
-      conversation_id: conversationId,
-      payload: payload as unknown as Json,
-    });
+
+    // S9: stamp the revision. A first brief for the conversation is revision 1;
+    // a later one (when the S4 material-update trigger is enabled — deferred)
+    // increments. Computed from existing rows so it's correct whenever a second
+    // row is ever inserted. (Column lands in migration 0005.)
+    const { data: prior } = await db
+      .from('briefs')
+      .select('brief_revision')
+      .eq('conversation_id', conversationId)
+      .order('brief_revision', { ascending: false })
+      .limit(1);
+    const briefRevision = (prior?.[0]?.brief_revision ?? 0) + 1;
+
+    const { data: inserted } = await db
+      .from('briefs')
+      .insert({
+        conversation_id: conversationId,
+        payload: payload as unknown as Json,
+        brief_revision: briefRevision,
+      })
+      .select('id')
+      .single();
+
+    // S9: non-blocking Autoura delivery. Fire-and-forget — the visitor's
+    // completion panel must NOT wait on the webhook. `deliverBrief` is designed
+    // never to throw, but we wrap the kickoff (sync guard + promise .catch) so a
+    // synchronous throw or a rejected promise can never reject this request. On
+    // Railway's persistent process the work outlives this response.
+    if (inserted?.id) {
+      const briefRowId = inserted.id;
+      try {
+        void deliverBrief(briefRowId).catch((err) =>
+          console.error('[concierge] autoura delivery worker error:', err),
+        );
+      } catch (err) {
+        console.error('[concierge] autoura delivery kickoff threw:', err);
+      }
+    }
 
     return NextResponse.json({ complete: true, payload } satisfies BriefResponse);
   } catch (err) {

@@ -2,6 +2,7 @@
  * Resume email templates (Session 4). Plain branded HTML — cream surface,
  * serif heading, faience button — no @react-email for v1. EN + ES.
  */
+import type { AutouraBriefPayload } from '@/lib/concierge/autoura/types';
 
 interface ResumeEmailContent {
   subject: string;
@@ -163,6 +164,144 @@ export function hostileContentAlert(p: HostileAlertParams): {
     '--- Flagged message ---',
     '',
     p.message,
+  ].join('\n');
+
+  return { subject, html, text };
+}
+
+interface BriefFallbackParams {
+  sessionRef: string;
+  payload: AutouraBriefPayload;
+}
+
+/**
+ * Autoura email FALLBACK (Session 9) — the full brief + transcript when the
+ * webhook could not be delivered (retries exhausted or config missing). This is
+ * a FULLY HONORED delivery, not a degraded one: the team gets everything they
+ * need to act, in the inbox they already work. Reply-To is set by the sender to
+ * the VISITOR's email (S5 lesson) so a team member replies straight to the
+ * traveler. Distinct subject prefix for Gmail filtering.
+ */
+export function briefFallbackEmail(p: BriefFallbackParams): { subject: string; html: string; text: string } {
+  const pl = p.payload;
+  const v = pl.visitor;
+  const t = pl.trip;
+  const pref = pl.preferences;
+  const subject = `[Concierge — Brief (email fallback)] — ${p.sessionRef}`;
+
+  const metaRows: Array<[string, string]> = [
+    ['Visitor', v.name ?? '(no name)'],
+    ['Email', v.email ?? '(not provided)'],
+    ['Phone', v.phone ?? '(not provided)'],
+    ['Preferred contact', v.preferred_contact ?? '—'],
+    ['Language', languageLabel(pl.language)],
+    ['Travelers', t.travelers_count != null ? String(t.travelers_count) : (t.travelers_detail ?? '—')],
+    ['Dates', t.dates_specific ?? t.dates_window ?? '—'],
+    ['Trip length (days)', t.trip_length_days != null ? String(t.trip_length_days) : '—'],
+    ['Destinations', pref.destinations.length ? pref.destinations.join(', ') : '—'],
+    ['Comfort level', pref.comfort_level ?? '—'],
+    ['Origin / nationality', [t.origin_city, t.nationality].filter(Boolean).join(' / ') || '—'],
+    ['Follow-up commitment', pl.follow_up_window?.cairo_time_label ?? '—'],
+    ['Conversation ID', pl.conversation_id],
+    ['Brief revision', `${pl.brief_revision}${pl.is_update ? ' (update)' : ''}`],
+  ];
+
+  const transcriptLines = pl.full_transcript.map(
+    (m) => `${m.role === 'assistant' ? 'Concierge' : 'Visitor'}: ${m.content}`,
+  );
+
+  const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
+  <div style="max-width:640px;margin:0 auto;padding:24px;">
+    <h2 style="font-size:18px;margin:0 0 4px;">A completed planning brief (delivered by email)</h2>
+    <p style="font-size:13px;color:#5c6675;margin:0 0 16px;">The AI concierge could not reach Autoura, so the full brief is below. Reply to this email to reach the visitor directly.</p>
+    <table style="border-collapse:collapse;font-size:14px;margin-bottom:20px;">
+      ${metaRows
+        .map(
+          ([k, val]) =>
+            `<tr><td style="padding:3px 16px 3px 0;color:#5c6675;vertical-align:top;">${k}</td><td style="padding:3px 0;"><strong>${esc(val)}</strong></td></tr>`,
+        )
+        .join('')}
+    </table>
+    ${
+      pl.brief_summary
+        ? `<h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Brief summary</h3>
+    <div style="font-size:14px;line-height:1.6;margin-bottom:16px;">${esc(pl.brief_summary)}</div>`
+        : ''
+    }
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Conversation transcript</h3>
+    <div style="font-size:14px;line-height:1.6;white-space:pre-wrap;">${transcriptLines.map(esc).join('\n\n')}</div>
+  </div>
+</body></html>`;
+
+  const text = [
+    'A completed planning brief from the AI concierge (delivered by email — Autoura was unreachable).',
+    'Reply to this email to reach the visitor directly.',
+    '',
+    ...metaRows.map(([k, val]) => `${k}: ${val}`),
+    ...(pl.brief_summary ? ['', '--- Brief summary ---', '', pl.brief_summary] : []),
+    '',
+    '--- Transcript ---',
+    '',
+    ...transcriptLines,
+  ].join('\n');
+
+  return { subject, html, text };
+}
+
+export interface AutouraFailureAlertParams {
+  sessionRef: string;
+  conversationId: string;
+  briefRevision: number;
+  attempts: number;
+  /** 'delivery_failed' (retries exhausted) | 'config_missing' (no URL/secret). */
+  reason: string;
+  visitorEmail: string | null;
+  /** Whether the full-brief fallback email was sent to the team inbox. */
+  fallbackEmailed: boolean;
+}
+
+/**
+ * Autoura delivery FAILURE alert (Session 9) — internal ops signal that the
+ * webhook gave up. Goes to TEAM_INBOX_EMAIL + (optional) ALERT_EMAIL (Islam
+ * direct). No Reply-To — no visitor reply is expected; this is "go look at the
+ * endpoint." The brief itself is NOT in here (the fallback email carries it);
+ * this is the distinct, greppable "something broke" prefix.
+ */
+export function autouraFailureAlertEmail(p: AutouraFailureAlertParams): {
+  subject: string;
+  html: string;
+  text: string;
+} {
+  const subject = `[Concierge — Autoura Delivery Failed] — ${p.sessionRef}`;
+  const metaRows: Array<[string, string]> = [
+    ['Reason', p.reason],
+    ['Attempts', String(p.attempts)],
+    ['Conversation ID', p.conversationId],
+    ['Brief revision', String(p.briefRevision)],
+    ['Visitor email', p.visitorEmail ?? '(not provided)'],
+    ['Full brief emailed to team', p.fallbackEmailed ? 'yes — see "[Concierge — Brief (email fallback)]"' : 'NO'],
+  ];
+
+  const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
+  <div style="max-width:640px;margin:0 auto;padding:24px;">
+    <h2 style="font-size:18px;margin:0 0 4px;">Autoura webhook delivery failed</h2>
+    <p style="font-size:13px;color:#5c6675;margin:0 0 16px;">A completed brief could not be delivered to Autoura after retries. The traveler is already served — the full brief went to the team inbox by email. Investigate the Autoura endpoint.</p>
+    <table style="border-collapse:collapse;font-size:14px;margin-bottom:20px;">
+      ${metaRows
+        .map(
+          ([k, val]) =>
+            `<tr><td style="padding:3px 16px 3px 0;color:#5c6675;">${k}</td><td style="padding:3px 0;"><strong>${esc(val)}</strong></td></tr>`,
+        )
+        .join('')}
+    </table>
+  </div>
+</body></html>`;
+
+  const text = [
+    'Autoura webhook delivery failed for a completed brief (travel2egypt.org concierge).',
+    'The traveler is served — the full brief went to the team inbox by email. Investigate the endpoint.',
+    '',
+    ...metaRows.map(([k, val]) => `${k}: ${val}`),
   ].join('\n');
 
   return { subject, html, text };
