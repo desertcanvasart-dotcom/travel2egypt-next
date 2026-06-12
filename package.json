@@ -27,7 +27,7 @@
     "test:media": "tsx scripts/wp-import/__tests__/media.test.ts",
     "test:reconcile": "tsx scripts/wp-import/__tests__/reconcile-places-to-go.test.ts",
     "test:linkmap": "tsx src/lib/linkMap/__tests__/guard.test.ts && tsx src/lib/linkMap/__tests__/match.test.ts && tsx src/lib/linkMap/__tests__/wrap.test.ts",
-    "test:autoura": "tsx src/lib/concierge/autoura/__tests__/sign.test.ts && tsx src/lib/concierge/autoura/__tests__/stateMachine.test.ts && tsx src/lib/concierge/autoura/__tests__/payload.test.ts",
+    "test:autoura": "tsx src/lib/concierge/autoura/__tests__/sign.test.ts && tsx src/lib/concierge/autoura/__tests__/stateMachine.test.ts && tsx src/lib/concierge/autoura/__tests__/payload.test.ts && tsx src/lib/concierge/autoura/__tests__/deliver.test.ts",
     "seed:link-map": "tsx scripts/seed-concierge-link-map.ts"
   },
   "dependencies": {

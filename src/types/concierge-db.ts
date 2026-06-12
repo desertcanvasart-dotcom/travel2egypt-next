@@ -8,8 +8,11 @@
  *
  *   npx supabase gen types typescript --project-id <ref> --schema concierge
  *
- * Columns arriving in later migrations (0002 escape-hatch, 0003
- * brief_revision) are added here alongside those migrations.
+ * Columns arriving in later migrations are added here alongside those
+ * migrations: 0002 tour-context, 0003 escape-hatch, 0004 rate-limit action,
+ * 0005 briefs.brief_revision (Session 9), 0006 anonymized_at (Session 10).
+ * NOTE: 0005 must be applied in the Dashboard before any briefs row is written
+ * with brief_revision (i.e. before live S9 Phase 3) — see the build brief.
  */
 
 export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[];
@@ -179,6 +182,7 @@ export interface ConciergeDatabase {
           autoura_webhook_response: Json | null;
           autoura_attempts: number | null;
           email_fallback_sent: boolean | null;
+          brief_revision: number | null; // migration 0005 (Session 9)
         };
         Insert: {
           id?: string;
@@ -189,6 +193,7 @@ export interface ConciergeDatabase {
           autoura_webhook_response?: Json | null;
           autoura_attempts?: number | null;
           email_fallback_sent?: boolean | null;
+          brief_revision?: number | null;
         };
         Update: {
           id?: string;
@@ -199,6 +204,7 @@ export interface ConciergeDatabase {
           autoura_webhook_response?: Json | null;
           autoura_attempts?: number | null;
           email_fallback_sent?: boolean | null;
+          brief_revision?: number | null;
         };
         Relationships: [
           {

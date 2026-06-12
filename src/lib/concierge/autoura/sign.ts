@@ -18,7 +18,7 @@
  * re-serialize an object body) changes the bytes and the receiver will reject
  * the signature. `deliver.ts` is the only caller and follows this.
  */
-import { createHmac } from 'crypto';
+import { createHmac } from 'node:crypto';
 
 export const SIGNATURE_HEADER = 'X-Autoura-Signature';
 export const TIMESTAMP_HEADER = 'X-Autoura-Timestamp';
