@@ -218,13 +218,30 @@ Use relative paths from the `.md` file:
 ```
 
 ### Image guidelines
-- Format: JPEG for photos, PNG for graphics with transparency, WebP if you have it
-- Dimensions: hero images ≥1920×1080, in-body images ≥1200px wide
+- Format: JPEG for photos, PNG for graphics with transparency. Upload the clean original — the pipeline auto-serves WebP/AVIF at quality 82 and the right size; don't pre-compress.
+- **Dimensions: hero/feature images ~3000×2000 px (3:2 landscape); minimum 2560×1700. In-body images ≥1600 px wide.** See "Sizing & hotspots" below for the why.
 - Naming: `<page-slug>-<descriptor>.<ext>` (lowercase, hyphenated)
 - Alt text: meaningful description in the language of the file (not "image of...")
 - Cross-locale image reuse: the same image filename can appear in EN/ES/JA files; the import tool dedupes
 
 The bulk-import tool uploads images to Sanity's CDN and rewrites references automatically. Don't preflight-upload images yourself.
+
+### Sizing & hotspots — why images get mis-cropped (READ THIS)
+
+One uploaded image is re-cropped to **many aspect ratios** depending on where it appears — from tall portrait **3/4** (category cards) to wide panorama **16/7** (tour hero), plus 4/5, 1/1, 4/3, 3/2, 16/9, and a full-bleed hero up to **2560 px wide**. The crop is done server-side, steered by the image's **hotspot** (full-bleed heroes use `object-position` from the hotspot). Two things decide whether an image looks right:
+
+1. **Resolution — big enough for every crop.**
+   - Target **~3000 × 2000 px (3:2 landscape)**, high-quality JPEG. Minimum **2560 × 1700**.
+   - Covers the widest request (full-bleed hero, 2560 px) *and* leaves enough height for a portrait crop (a 4/5 card needs ~1625 px tall).
+   - No benefit past ~3500 px on the long edge — served width is capped at 2560; extra pixels just bloat the file.
+   - Prefer **landscape** originals; a portrait-only source makes the wide heroes soft or hard-cropped.
+
+2. **Hotspot — set it on EVERY image (the #1 cause of bad crops).**
+   - In Sanity Studio, open the image, **set the hotspot on the main subject**, and tighten the **crop rectangle** to exclude dead space.
+   - If you don't, Sanity crops from the **dead centre** of the file — so any off-centre subject gets chopped in the portrait or panorama crops.
+   - **Compose with the subject roughly centred, with margin on all four sides** — the same image is cropped both tall and wide; only a centred subject survives both. Keep faces / text / logos away from the edges.
+
+(Social-share/OG images are a separate fixed ~1200×630 surface that does **not** use the hotspot crop.)
 
 ---
 
