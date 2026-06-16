@@ -509,17 +509,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/bahariya-oasis-and-white-desert-3-day-tour",
-    "destination": "/the-white-desert-and-djara-cave",
+    "destination": "/3-day-bahariya-white-desert-tour",
     "permanent": true
   },
   {
     "source": "/es/oasis-del-desierto-aventura-de-3-dias-bahariya-desierto-blanco",
-    "destination": "/es/the-white-desert-and-djara-cave",
+    "destination": "/es/3-day-bahariya-white-desert-tour",
     "permanent": true
   },
   {
     "source": "/ja/sabaku-no-oashisu-bahariyaoashisu-to-howaito-dezato-3",
-    "destination": "/ja/the-white-desert-and-djara-cave",
+    "destination": "/ja/3-day-bahariya-white-desert-tour",
     "permanent": true
   },
   {
