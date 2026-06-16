@@ -2,7 +2,10 @@ import { Fragment } from 'react';
 
 /**
  * Tree node shape — the minimum the layout + drawing logic needs. Phase 2's
- * side panel will extend this with the editorial fields.
+ * side panel will extend this with the editorial fields. The optional
+ * `isPlaceholder` marks deities not yet in Sanity — they render muted +
+ * italic with a dotted outline, so the spine structure is visible even
+ * while Shu/Tefnut/Geb/Nut are still to be seeded.
  */
 export interface DeityNode {
   _id: string;
@@ -13,6 +16,7 @@ export interface DeityNode {
   parentIds?: string[] | null;
   spouseId?: string | null;
   childIds?: string[] | null;
+  isPlaceholder?: boolean;
 }
 
 export type TreeRole =
@@ -33,13 +37,13 @@ const VIEW_H = 980;
 const SPINE_X = VIEW_W / 2;
 const SPINE_Y: Record<string, number> = {
   primordial: 90,
-  firstGeneration: 235,
-  secondGeneration: 380,
-  thirdGeneration: 525,
+  firstGeneration: 240,
+  secondGeneration: 390,
+  thirdGeneration: 540,
   fourthGeneration: 720,
 };
 
-const SPINE_SLOTS_X = 180; // horizontal spacing between siblings on the spine
+const SPINE_SLOTS_X = 180;
 const OFF_LEFT_X = 230;
 const OFF_RIGHT_X = 880;
 const SOLAR_Y_START = 200;
@@ -51,8 +55,11 @@ const FOLK_X_START = 200;
 const EXPER_X_START = 660;
 const BOTTOM_SPACING = 150;
 
-const R_SPINE = 38;
-const R_OFF = 30;
+// Unified node radius — spine vs non-spine is signalled by a ring,
+// not by size, so the visual hierarchy is restrained and deliberate
+// rather than scalar.
+const NODE_R = 34;
+const SPINE_RING_OFFSET = 6;
 
 const SPINE_ROLES: TreeRole[] = [
   'primordial',
@@ -62,16 +69,70 @@ const SPINE_ROLES: TreeRole[] = [
   'fourthGeneration',
 ];
 
+/**
+ * Heliopolitan spine placeholders — Shu/Tefnut (1st generation),
+ * Geb/Nut (2nd generation). Rendered in the visualization but NOT in
+ * Sanity, so editors don't see them in Studio and Phase 2's content
+ * pass replaces them with real documents. Relationships link Atum →
+ * Shu+Tefnut → Geb+Nut → the seeded Osiris+Isis so the spine reads as
+ * structurally complete instead of stranded.
+ */
+const PLACEHOLDER_DEITIES: DeityNode[] = [
+  {
+    _id: 'p-shu',
+    name: 'Shu',
+    transliteration: 'Šw',
+    treeRole: 'firstGeneration',
+    isOnSpine: true,
+    parentIds: ['deity-atum'],
+    spouseId: 'p-tefnut',
+    childIds: ['p-geb', 'p-nut'],
+    isPlaceholder: true,
+  },
+  {
+    _id: 'p-tefnut',
+    name: 'Tefnut',
+    transliteration: 'Tfnwt',
+    treeRole: 'firstGeneration',
+    isOnSpine: true,
+    parentIds: ['deity-atum'],
+    spouseId: 'p-shu',
+    childIds: ['p-geb', 'p-nut'],
+    isPlaceholder: true,
+  },
+  {
+    _id: 'p-geb',
+    name: 'Geb',
+    transliteration: 'Gb',
+    treeRole: 'secondGeneration',
+    isOnSpine: true,
+    parentIds: ['p-shu', 'p-tefnut'],
+    spouseId: 'p-nut',
+    childIds: ['deity-osiris', 'deity-isis'],
+    isPlaceholder: true,
+  },
+  {
+    _id: 'p-nut',
+    name: 'Nut',
+    transliteration: 'Nwt',
+    treeRole: 'secondGeneration',
+    isOnSpine: true,
+    parentIds: ['p-shu', 'p-tefnut'],
+    spouseId: 'p-geb',
+    childIds: ['deity-osiris', 'deity-isis'],
+    isPlaceholder: true,
+  },
+];
+
 interface Position {
   x: number;
   y: number;
-  r: number;
 }
 
 /**
- * Deterministic layout — pure function of (treeRole, isOnSpine) plus the
- * count of deities in each role. Adding a new deity to the dataset
- * automatically slots it in; nothing here needs editing.
+ * Deterministic layout — pure function of (treeRole, isOnSpine) plus
+ * the count of deities in each role. Adding a new deity to the dataset
+ * automatically slots it in.
  */
 function layout(deities: DeityNode[]): Map<string, Position> {
   const positions = new Map<string, Position>();
@@ -79,7 +140,7 @@ function layout(deities: DeityNode[]): Map<string, Position> {
   for (const d of deities) {
     (byRole[d.treeRole] ||= []).push(d);
   }
-  // Stable order inside a role: spine first, then alpha by name.
+  // Stable order: spine first, then alpha by name.
   for (const role in byRole) {
     byRole[role].sort((a, b) => {
       if (a.isOnSpine !== b.isOnSpine) return a.isOnSpine ? -1 : 1;
@@ -87,57 +148,43 @@ function layout(deities: DeityNode[]): Map<string, Position> {
     });
   }
 
-  // ── Spine generations — centered on SPINE_X, siblings distributed
   for (const role of SPINE_ROLES) {
     const group = byRole[role] || [];
     const y = SPINE_Y[role];
     if (!group.length) continue;
     if (group.length === 1) {
-      positions.set(group[0]._id, { x: SPINE_X, y, r: R_SPINE });
+      positions.set(group[0]._id, { x: SPINE_X, y });
     } else {
       const total = (group.length - 1) * SPINE_SLOTS_X;
       const startX = SPINE_X - total / 2;
       group.forEach((d, i) => {
-        positions.set(d._id, {
-          x: startX + i * SPINE_SLOTS_X,
-          y,
-          r: d.isOnSpine ? R_SPINE : R_OFF,
-        });
+        positions.set(d._id, { x: startX + i * SPINE_SLOTS_X, y });
       });
     }
   }
 
-  // ── Solar children — right column upper, stacked vertically
   (byRole.solarChild || []).forEach((d, i) =>
-    positions.set(d._id, { x: OFF_RIGHT_X, y: SOLAR_Y_START + i * OFF_SPACING, r: R_OFF })
+    positions.set(d._id, { x: OFF_RIGHT_X, y: SOLAR_Y_START + i * OFF_SPACING })
   );
-
-  // ── Independent — right column lower
   (byRole.independent || []).forEach((d, i) =>
-    positions.set(d._id, { x: OFF_RIGHT_X, y: INDEP_Y_START + i * OFF_SPACING, r: R_OFF })
+    positions.set(d._id, { x: OFF_RIGHT_X, y: INDEP_Y_START + i * OFF_SPACING })
   );
-
-  // ── Alternate creators — left column, parallel to the spine top
   (byRole.alternateCreator || []).forEach((d, i) =>
-    positions.set(d._id, { x: OFF_LEFT_X, y: ALT_Y_START + i * OFF_SPACING, r: R_OFF })
+    positions.set(d._id, { x: OFF_LEFT_X, y: ALT_Y_START + i * OFF_SPACING })
   );
-
-  // ── Folk deities — bottom-left horizontal
   (byRole.folkDeity || []).forEach((d, i) =>
-    positions.set(d._id, { x: FOLK_X_START + i * BOTTOM_SPACING, y: BOTTOM_Y, r: R_OFF })
+    positions.set(d._id, { x: FOLK_X_START + i * BOTTOM_SPACING, y: BOTTOM_Y })
   );
-
-  // ── Experimental — bottom-right horizontal
   (byRole.experimental || []).forEach((d, i) =>
-    positions.set(d._id, { x: EXPER_X_START + i * BOTTOM_SPACING, y: BOTTOM_Y, r: R_OFF })
+    positions.set(d._id, { x: EXPER_X_START + i * BOTTOM_SPACING, y: BOTTOM_Y })
   );
 
   return positions;
 }
 
 /**
- * Where on a circle's edge a line should land — so connectors stop at the
- * portrait outline rather than tunneling through it.
+ * Where on a circle's edge a line should land — so connectors stop at
+ * the portrait outline rather than tunneling through it.
  */
 function edgePoint(from: Position, to: Position, radius: number) {
   const dx = to.x - from.x;
@@ -147,51 +194,49 @@ function edgePoint(from: Position, to: Position, radius: number) {
 }
 
 export function EgyptianGodsTree({ deities }: { deities: DeityNode[] }) {
-  const positions = layout(deities);
+  // Merge real deities with the Heliopolitan spine placeholders so the
+  // tree reads as structurally complete. Placeholders never collide with
+  // real docs (their _ids are `p-*` not `deity-*`).
+  const all = [...deities, ...PLACEHOLDER_DEITIES];
+  const positions = layout(all);
+  const byId = new Map(all.map((d) => [d._id, d] as const));
 
   // ── Lines ──────────────────────────────────────────────────────────
-  const parentLines: Array<{ key: string; x1: number; y1: number; x2: number; y2: number }> = [];
-  const spouseLines: Array<{ key: string; x1: number; y1: number; x2: number; y2: number }> = [];
+  // Walk both directions (parents on the child + children on the parent)
+  // and de-dupe so the placeholder spine pulls in lines the seeded data
+  // can't supply yet (Osiris/Isis have no parentIds in Sanity, but the
+  // placeholder Geb/Nut declare them as children).
+  type Edge = {
+    key: string;
+    a: string;
+    b: string;
+    kind: 'parent' | 'spouse';
+    placeholder: boolean;
+  };
+  const edges: Edge[] = [];
+  const seen = new Set<string>();
 
-  for (const d of deities) {
-    const pos = positions.get(d._id);
-    if (!pos) continue;
+  const addEdge = (a: string, b: string, kind: 'parent' | 'spouse') => {
+    if (!positions.has(a) || !positions.has(b)) return;
+    // For parent lines, order is parent → child and matters; for spouse
+    // lines, order is irrelevant so canonicalise to dedupe.
+    const key =
+      kind === 'spouse'
+        ? `s-${[a, b].sort().join('-')}`
+        : `p-${a}-${b}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    const ph =
+      !!byId.get(a)?.isPlaceholder || !!byId.get(b)?.isPlaceholder;
+    edges.push({ key, a, b, kind, placeholder: ph });
+  };
 
-    // Parent → child solid line. Drawn from the child end so the dataset
-    // doesn't need symmetric children[] on parents.
-    for (const pid of d.parentIds || []) {
-      const ppos = positions.get(pid);
-      if (!ppos) continue;
-      const from = edgePoint(ppos, pos, ppos.r);
-      const to = edgePoint(pos, ppos, pos.r);
-      parentLines.push({
-        key: `p-${pid}-${d._id}`,
-        x1: from.x,
-        y1: from.y,
-        x2: to.x,
-        y2: to.y,
-      });
-    }
-
-    // Spouse dashed line — render once per pair, on the lexicographically
-    // smaller _id end.
-    if (d.spouseId && d._id < d.spouseId) {
-      const spos = positions.get(d.spouseId);
-      if (spos) {
-        const from = edgePoint(pos, spos, pos.r);
-        const to = edgePoint(spos, pos, spos.r);
-        spouseLines.push({
-          key: `s-${d._id}-${d.spouseId}`,
-          x1: from.x,
-          y1: from.y,
-          x2: to.x,
-          y2: to.y,
-        });
-      }
-    }
+  for (const d of all) {
+    for (const pid of d.parentIds || []) addEdge(pid, d._id, 'parent');
+    for (const cid of d.childIds || []) addEdge(d._id, cid, 'parent');
+    if (d.spouseId) addEdge(d._id, d.spouseId, 'spouse');
   }
 
-  // ── Nodes ──────────────────────────────────────────────────────────
   return (
     <div className="egt-shell">
       <svg
@@ -201,65 +246,96 @@ export function EgyptianGodsTree({ deities }: { deities: DeityNode[] }) {
         role="img"
         aria-label="Egyptian gods family tree — Heliopolitan spine with secondary deities placed around it"
       >
-        {/* Connector lines render first so node circles overlay them. */}
         <g className="egt-edges">
-          {parentLines.map((l) => (
-            <line
-              key={l.key}
-              x1={l.x1}
-              y1={l.y1}
-              x2={l.x2}
-              y2={l.y2}
-              stroke="var(--gold)"
-              strokeWidth={1.25}
-              opacity={0.55}
-            />
-          ))}
-          {spouseLines.map((l) => (
-            <line
-              key={l.key}
-              x1={l.x1}
-              y1={l.y1}
-              x2={l.x2}
-              y2={l.y2}
-              stroke="var(--gold)"
-              strokeWidth={1.25}
-              strokeDasharray="5 5"
-              opacity={0.65}
-            />
-          ))}
+          {edges.map((edge) => {
+            const aPos = positions.get(edge.a)!;
+            const bPos = positions.get(edge.b)!;
+            const from = edgePoint(aPos, bPos, NODE_R);
+            const to = edgePoint(bPos, aPos, NODE_R);
+            // Real-deity lines: bold gold, fully visible. Placeholder-
+            // involved lines: muted + dotted so the structure reads as
+            // "scaffolding" rather than as confirmed relationships.
+            const stroke = 'var(--gold)';
+            const strokeWidth = edge.placeholder ? 1 : 1.75;
+            const opacity = edge.placeholder ? 0.42 : 1;
+            const dasharray =
+              edge.kind === 'spouse'
+                ? '6 4'
+                : edge.placeholder
+                  ? '2 5'
+                  : undefined;
+            return (
+              <line
+                key={edge.key}
+                x1={from.x}
+                y1={from.y}
+                x2={to.x}
+                y2={to.y}
+                stroke={stroke}
+                strokeWidth={strokeWidth}
+                opacity={opacity}
+                strokeDasharray={dasharray}
+                strokeLinecap="round"
+              />
+            );
+          })}
         </g>
 
-        {/* Nodes */}
         <g className="egt-nodes">
-          {deities.map((d) => {
+          {all.map((d) => {
             const pos = positions.get(d._id);
             if (!pos) return null;
+            const ph = d.isPlaceholder;
             return (
               <Fragment key={d._id}>
+                {/* Spine ring — drawn first so the node circle covers
+                    the inner edge cleanly. Only on the spine; on
+                    placeholders the ring also dims. */}
+                {d.isOnSpine ? (
+                  <circle
+                    cx={pos.x}
+                    cy={pos.y}
+                    r={NODE_R + SPINE_RING_OFFSET}
+                    fill="none"
+                    stroke="var(--gold)"
+                    strokeWidth={1}
+                    opacity={ph ? 0.32 : 0.85}
+                  />
+                ) : null}
                 <circle
                   cx={pos.x}
                   cy={pos.y}
-                  r={pos.r}
+                  r={NODE_R}
                   fill="var(--paper-warm, #f4eede)"
                   stroke="var(--navy)"
-                  strokeWidth={d.isOnSpine ? 1.5 : 1}
-                  className={d.isOnSpine ? 'egt-node egt-node--spine' : 'egt-node'}
+                  strokeWidth={1}
+                  strokeDasharray={ph ? '2 4' : undefined}
+                  opacity={ph ? 0.45 : 1}
+                  className={ph ? 'egt-node egt-node--placeholder' : 'egt-node'}
                 />
                 <text
                   x={pos.x}
-                  y={pos.y + pos.r + 22}
+                  y={pos.y + NODE_R + 22}
                   textAnchor="middle"
-                  className={d.isOnSpine ? 'egt-name egt-name--spine' : 'egt-name'}
+                  className={
+                    ph
+                      ? 'egt-name egt-name--placeholder'
+                      : d.isOnSpine
+                        ? 'egt-name egt-name--spine'
+                        : 'egt-name'
+                  }
+                  fontStyle={ph ? 'italic' : undefined}
+                  opacity={ph ? 0.55 : 1}
                 >
                   {d.name}
                 </text>
                 {d.transliteration ? (
                   <text
                     x={pos.x}
-                    y={pos.y + pos.r + 38}
+                    y={pos.y + NODE_R + 40}
                     textAnchor="middle"
                     className="egt-translit"
+                    opacity={ph ? 0.55 : 1}
                   >
                     {d.transliteration}
                   </text>
@@ -276,7 +352,7 @@ export function EgyptianGodsTree({ deities }: { deities: DeityNode[] }) {
 /**
  * Mobile fallback — vertical stack grouped by tree role. The spec is
  * explicit: don't shrink the desktop layout, restructure for vertical
- * reading. Used in place of the SVG below the small-screen breakpoint.
+ * reading.
  */
 export function EgyptianGodsTreeMobile({
   deities,
@@ -297,8 +373,13 @@ export function EgyptianGodsTreeMobile({
     'folkDeity',
     'experimental',
   ];
+
+  // Same merge as desktop — placeholder spine deities flesh out the
+  // empty generations so the role headings read as a complete spine
+  // rather than skipping straight from Primordial to Third generation.
+  const all = [...deities, ...PLACEHOLDER_DEITIES];
   const byRole: Record<string, DeityNode[]> = {};
-  for (const d of deities) (byRole[d.treeRole] ||= []).push(d);
+  for (const d of all) (byRole[d.treeRole] ||= []).push(d);
 
   return (
     <div className="egt-stack">
@@ -309,20 +390,29 @@ export function EgyptianGodsTreeMobile({
           <section key={role} className="egt-stack__group">
             <h3 className="egt-stack__label">{roleLabels[role]}</h3>
             <ul className="egt-stack__list">
-              {group.map((d) => (
-                <li
-                  key={d._id}
-                  className={d.isOnSpine ? 'egt-stack__item egt-stack__item--spine' : 'egt-stack__item'}
-                >
-                  <div className="egt-stack__portrait" aria-hidden="true" />
-                  <div className="egt-stack__meta">
-                    <span className="egt-stack__name">{d.name}</span>
-                    {d.transliteration ? (
-                      <span className="egt-stack__translit">{d.transliteration}</span>
-                    ) : null}
-                  </div>
-                </li>
-              ))}
+              {group.map((d) => {
+                const ph = d.isPlaceholder;
+                const cls = [
+                  'egt-stack__item',
+                  d.isOnSpine ? 'egt-stack__item--spine' : '',
+                  ph ? 'egt-stack__item--placeholder' : '',
+                ]
+                  .filter(Boolean)
+                  .join(' ');
+                return (
+                  <li key={d._id} className={cls}>
+                    <div className="egt-stack__portrait" aria-hidden="true" />
+                    <div className="egt-stack__meta">
+                      <span className="egt-stack__name">{d.name}</span>
+                      {d.transliteration ? (
+                        <span className="egt-stack__translit">
+                          {d.transliteration}
+                        </span>
+                      ) : null}
+                    </div>
+                  </li>
+                );
+              })}
             </ul>
           </section>
         );
