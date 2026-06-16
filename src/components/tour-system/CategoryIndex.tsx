@@ -55,6 +55,13 @@ export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant =
     (r) => (!showCityFacet || city == null || r.citySlug === city) && (length == null || r.durKey === length)
   );
 
+  // Length facet is dynamic: only buckets that actually occur in `rows` are
+  // offered, and the whole facet is dropped when fewer than two remain — one
+  // option is nothing to filter by.
+  const presentLengths = new Set(rows.map((r) => r.durKey));
+  const visibleLengthOptions = lengthOptions.filter((o) => presentLengths.has(o.value));
+  const showLengthFacet = visibleLengthOptions.length >= 2;
+
   return (
     <>
       {showCityFacet && (
@@ -79,26 +86,28 @@ export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant =
           ))}
         </div>
       )}
-      <div className="filters">
-        <span className="filter-label">{labels.lengthLabel}</span>
-        <button
-          type="button"
-          className={length == null ? 'filter on' : 'filter'}
-          onClick={() => setLength(null)}
-        >
-          {labels.anyLength}
-        </button>
-        {lengthOptions.map((o) => (
+      {showLengthFacet && (
+        <div className="filters">
+          <span className="filter-label">{labels.lengthLabel}</span>
           <button
-            key={o.value}
             type="button"
-            className={length === o.value ? 'filter on' : 'filter'}
-            onClick={() => setLength(o.value)}
+            className={length == null ? 'filter on' : 'filter'}
+            onClick={() => setLength(null)}
           >
-            {o.label}
+            {labels.anyLength}
           </button>
-        ))}
-      </div>
+          {visibleLengthOptions.map((o) => (
+            <button
+              key={o.value}
+              type="button"
+              className={length === o.value ? 'filter on' : 'filter'}
+              onClick={() => setLength(o.value)}
+            >
+              {o.label}
+            </button>
+          ))}
+        </div>
+      )}
       <p className="range-hint">{labels.lengthHint}</p>
       <div className="rows">
         {filtered.length === 0 ? (
