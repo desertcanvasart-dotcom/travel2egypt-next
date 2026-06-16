@@ -129,7 +129,7 @@ const docs = [
     _type: 'deity',
     name: en('Isis'),
     slug: enSlug('isis'),
-    transliteration: 'Ꜣst',
+    transliteration: 'Ꜣs.t',
     domain: en(
       'Goddess of magic, motherhood, and devotion. Wife and sister of Osiris, mother of Horus. Through the late-period spread of her cult she became the most widely worshipped Egyptian deity outside Egypt — by Roman times her temples ran from Britain to Mesopotamia.'
     ),
