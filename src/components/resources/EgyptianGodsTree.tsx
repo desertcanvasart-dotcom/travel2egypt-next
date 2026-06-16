@@ -193,7 +193,16 @@ function edgePoint(from: Position, to: Position, radius: number) {
   return { x: from.x + (dx / len) * radius, y: from.y + (dy / len) * radius };
 }
 
-export function EgyptianGodsTree({ deities }: { deities: DeityNode[] }) {
+export function EgyptianGodsTree({
+  deities,
+  beyondEnneadLabel,
+}: {
+  deities: DeityNode[];
+  /** Eyebrow label rendered above the non-spine right column to signal it's
+   *  a CATEGORY of gods (Hathor, Sobek, …), not a sequence with implied
+   *  relationships. Localized via the page. */
+  beyondEnneadLabel: string;
+}) {
   // Merge real deities with the Heliopolitan spine placeholders so the
   // tree reads as structurally complete. Placeholders never collide with
   // real docs (their _ids are `p-*` not `deity-*`).
@@ -246,6 +255,19 @@ export function EgyptianGodsTree({ deities }: { deities: DeityNode[] }) {
         role="img"
         aria-label="Egyptian gods family tree — Heliopolitan spine with secondary deities placed around it"
       >
+        {/* Eyebrow over the right column. Tells the reader Hathor +
+            Sobek (+ future Thoth, Ptah, Amun, …) are a CATEGORY of
+            non-spine deities, not a vertical sequence with implied
+            relationships. Centered on OFF_RIGHT_X; sits above Hathor. */}
+        <text
+          x={OFF_RIGHT_X}
+          y={138}
+          textAnchor="middle"
+          className="egt-eyebrow"
+        >
+          {beyondEnneadLabel}
+        </text>
+
         <g className="egt-edges">
           {edges.map((edge) => {
             const aPos = positions.get(edge.a)!;
