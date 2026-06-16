@@ -1171,6 +1171,32 @@
       "colophon1": "Una guía de campo del Bajo Egipto",
       "colophon2": "Alturas tal como se construyeron · todas las fechas aproximadas",
       "colophon3": "Dibujadas por silueta, sin escala absoluta dentro de cada ficha"
+    },
+    "egyptianGods": {
+      "metaTitle": "Los dioses egipcios, en un mapa — Guía de campo de Travel2Egypt",
+      "metaDescription": "La Enéada heliopolitana y las principales deidades a su alrededor — un mapa de partida para viajeros que quieren leer los templos, no solo visitarlos.",
+      "kicker": "Nº 02",
+      "region": "Egipto, de un extremo a otro",
+      "tagSummary": "La Enéada heliopolitana",
+      "titlePrefix": "Los dioses egipcios,",
+      "titleAccent": "en un mapa",
+      "standfirstLead": "Un mapa de partida de los dioses,",
+      "standfirstAccent": "situados donde te los encontrarás sobre el terreno.",
+      "intro": "La teología egipcia se resiste a una genealogía ordenada. Cada ciudad tenía sus propios dioses creadores. Las deidades se fusionaron entre sí a lo largo de los milenios. Un «árbol genealógico» es, en rigor, una ficción. Lo que sigue es la Enéada heliopolitana —el sistema arquitectónicamente más completo y el que se encuentra con mayor frecuencia—, rodeada de las principales deidades secundarias. Es la versión con la que te toparás más a menudo mientras viajas.",
+      "closing": "Este es el mapa de los dioses según una sola tradición. Cada ciudad tenía el suyo. Al viajar descubrirás que algunas de estas deidades se sienten más presentes que otras: Sobek domina Kom Ombo, Horus reina en Edfu, Jnum sostiene Elefantina. El mapa cambia con la geografía.",
+      "colophonNote": "Fase 1 · seis deidades sembradas · el resto está por venir. Las líneas continuas unen padres con hijos; las discontinuas marcan las parejas.",
+      "roles": {
+        "primordial": "Primordial",
+        "firstGeneration": "Primera generación",
+        "secondGeneration": "Segunda generación",
+        "thirdGeneration": "Tercera generación",
+        "fourthGeneration": "Cuarta generación",
+        "solarChild": "Hijos del sol",
+        "alternateCreator": "Creadores alternativos",
+        "independent": "Deidades independientes",
+        "folkDeity": "Dioses populares y domésticos",
+        "experimental": "Cultos experimentales"
+      }
     }
   }
 }

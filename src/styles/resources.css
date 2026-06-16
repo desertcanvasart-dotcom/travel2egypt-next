@@ -281,3 +281,136 @@
   .fg-index__item.fg-reveal { animation: none; }
 }
 .fg-doc :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+/* ============================================================================
+ * Egyptian Gods (egt-*) — /resources/egyptian-gods Phase 1
+ * ========================================================================== */
+
+.egt-intro,
+.egt-outro {
+  margin: 50px auto;
+  max-width: 64ch;
+  font-family: var(--read);
+  font-size: 19px;
+  line-height: 1.55;
+  color: var(--navy);
+}
+.egt-outro { margin-bottom: 24px; }
+
+/* Tree shell — generous whitespace, full width within fg-wrap */
+.egt-shell {
+  margin: 18px 0 36px;
+  padding: 32px 0 20px;
+  border-top: 1px solid var(--fg-rule);
+  border-bottom: 1px solid var(--fg-rule);
+}
+.egt-svg { width: 100%; height: auto; display: block; overflow: visible; }
+
+.egt-node { transition: transform 0.25s ease, filter 0.25s ease; transform-origin: center; transform-box: fill-box; }
+.egt-node:hover { transform: scale(1.03); }
+.egt-node--spine { fill: var(--paper-warm, #f4eede); }
+
+.egt-name {
+  font-family: var(--display);
+  font-size: 18px;
+  font-weight: 500;
+  fill: var(--navy);
+  letter-spacing: 0.005em;
+}
+.egt-name--spine {
+  font-size: 21px;
+  font-weight: 600;
+}
+.egt-translit {
+  font-family: var(--ui);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  fill: var(--fg-ink-soft);
+}
+
+/* Mobile stack — hidden on desktop */
+.egt-mobile { display: none; }
+.egt-desktop { display: block; }
+
+.egt-stack { padding: 16px 0 30px; }
+.egt-stack__group { margin-bottom: 28px; }
+.egt-stack__label {
+  font-family: var(--ui);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border-bottom: 1px solid var(--fg-rule);
+  padding-bottom: 8px;
+  margin-bottom: 14px;
+}
+.egt-stack__list { list-style: none; margin: 0; padding: 0; }
+.egt-stack__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--fg-rule);
+}
+.egt-stack__item:last-child { border-bottom: none; }
+.egt-stack__portrait {
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--paper-warm, #f4eede);
+  border: 1px solid var(--navy);
+}
+.egt-stack__item--spine .egt-stack__portrait {
+  border-width: 1.5px;
+  width: 64px;
+  height: 64px;
+  flex-basis: 64px;
+}
+.egt-stack__meta { display: flex; flex-direction: column; gap: 2px; }
+.egt-stack__name {
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--navy);
+}
+.egt-stack__item--spine .egt-stack__name { font-size: 26px; font-weight: 600; }
+.egt-stack__translit {
+  font-family: var(--ui);
+  font-size: 10.5px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--fg-ink-soft);
+}
+
+/* Colophon at the page foot — small, restrained */
+.egt-colophon {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  padding: 24px 0 60px;
+  border-top: 1.5px solid var(--navy);
+}
+.egt-colophon p {
+  font-family: var(--ui);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--fg-ink-soft);
+  line-height: 1.7;
+  max-width: 56ch;
+  text-align: right;
+}
+
+/* Responsive — swap SVG for vertical stack on small screens. Don't try
+ * to shrink the desktop tree, restructure it (per Phase-1 spec). */
+@media (max-width: 760px) {
+  .egt-desktop { display: none; }
+  .egt-mobile { display: block; }
+  .egt-intro, .egt-outro { font-size: 17px; }
+  .egt-colophon p { text-align: left; }
+}
