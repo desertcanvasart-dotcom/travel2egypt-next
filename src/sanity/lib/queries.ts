@@ -2068,3 +2068,30 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
     }
   }
 `;
+
+// ──────────────────────────────────────────────
+// Resources — Egyptian Gods family tree
+// ──────────────────────────────────────────────
+
+/**
+ * All `deity` documents for /resources/egyptian-gods. Distinct from the
+ * dormant `wikiDeity` long-form articles — these are lean tree-node docs
+ * whose position is derived from treeRole + isOnSpine.
+ *
+ * Parents/spouse/children come back as bare _ids so the page can compute
+ * SVG connector lines without an extra round trip. Locale-aware name
+ * coalesces to EN per the project's i18n pattern.
+ */
+export const allTreeDeitiesQuery = (locale: Locale) => groq`
+  *[_type == "deity"] | order(treeRole asc, name[_key=="en"][0].value asc){
+    _id,
+    "name": ${localizedField('name', locale)},
+    transliteration,
+    treeRole,
+    isOnSpine,
+    "parentIds": parents[]._ref,
+    "spouseId": spouse._ref,
+    "childIds": children[]._ref,
+    "siblingIds": siblings[]._ref
+  }
+`;

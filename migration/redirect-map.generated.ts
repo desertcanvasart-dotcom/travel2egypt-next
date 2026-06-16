@@ -509,17 +509,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/bahariya-oasis-and-white-desert-3-day-tour",
-    "destination": "/the-white-desert-and-djara-cave",
+    "destination": "/3-day-bahariya-white-desert-tour",
     "permanent": true
   },
   {
     "source": "/es/oasis-del-desierto-aventura-de-3-dias-bahariya-desierto-blanco",
-    "destination": "/es/the-white-desert-and-djara-cave",
+    "destination": "/es/3-day-bahariya-white-desert-tour",
     "permanent": true
   },
   {
     "source": "/ja/sabaku-no-oashisu-bahariyaoashisu-to-howaito-dezato-3",
-    "destination": "/ja/the-white-desert-and-djara-cave",
+    "destination": "/ja/3-day-bahariya-white-desert-tour",
     "permanent": true
   },
   {
@@ -15305,6 +15305,21 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/osutoraria-hatsu-11-nichikan-rukusoru-hatsu-kairo-gi-nairu",
     "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "permanent": true
+  },
+  {
+    "source": "/2-day-desert-nature-wildlife-retreat",
+    "destination": "/2-day-nubian-desert-nature-wildlife-retreat",
+    "permanent": true
+  },
+  {
+    "source": "/ja/2-nichikan-no-nubia-sabaku-no-shizen-to-yasei-dobutsu-no",
+    "destination": "/ja/nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no",
+    "permanent": true
+  },
+  {
+    "source": "/3-days-cairo-highlights-for-friends",
+    "destination": "/cairo-weekend-city-break-2-nights-3-days",
     "permanent": true
   }
 ];

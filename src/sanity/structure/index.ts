@@ -11,6 +11,7 @@ import {
   MasterDetailIcon,
   WarningOutlineIcon,
   FilterIcon,
+  StarIcon,
 } from '@sanity/icons';
 
 import {
@@ -474,6 +475,44 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
               // S.documentTypeListItem('wikiDynasty').title('Dynasties'),
               // S.documentTypeListItem('wikiPerson').title('People (Pharaohs, Queens, etc.)'),
               // S.documentTypeListItem('wikiDeity').title('Deities'),
+            ])
+        ),
+
+      // ── Egyptian Gods (Family Tree) ──
+      // Powers /resources/egyptian-gods. Distinct from the dormant
+      // wikiDeity articles above — these are lean tree-node docs whose
+      // position on the visualization is derived from treeRole + isOnSpine.
+      S.listItem()
+        .title('Egyptian Gods (Family Tree)')
+        .icon(StarIcon)
+        .child(
+          S.list()
+            .title('Egyptian Gods (Family Tree)')
+            .items([
+              S.documentTypeListItem('deity').title('All deities'),
+              S.divider(),
+              S.listItem()
+                .title('By tree role')
+                .icon(FilterIcon)
+                .child(
+                  byEnumChild(S, {
+                    schemaType: 'deity',
+                    field: 'treeRole',
+                    values: [
+                      { title: 'Primordial', value: 'primordial' },
+                      { title: '1st generation', value: 'firstGeneration' },
+                      { title: '2nd generation', value: 'secondGeneration' },
+                      { title: '3rd generation', value: 'thirdGeneration' },
+                      { title: '4th generation', value: 'fourthGeneration' },
+                      { title: 'Solar children', value: 'solarChild' },
+                      { title: 'Alternate creators', value: 'alternateCreator' },
+                      { title: 'Independent', value: 'independent' },
+                      { title: 'Folk deities', value: 'folkDeity' },
+                      { title: 'Experimental', value: 'experimental' },
+                    ],
+                    perBucketTitlePrefix: 'Deities',
+                  })
+                ),
             ])
         ),
 

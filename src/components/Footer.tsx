@@ -53,7 +53,13 @@ export function Footer({ locale }: FooterProps) {
         <div className="t2e-foot-top">
           <div className="t2e-foot-brand">
             <Link className="t2e-logo" href="/" aria-label="Travel2Egypt — home">
-              Travel<span className="s">2</span>Egypt
+              <img
+                src="/logo.png"
+                alt="Travel2Egypt"
+                width={202}
+                height={123}
+                style={{ height: '48px', width: 'auto', display: 'block' }}
+              />
             </Link>
             <p>{t('tagline')}</p>
           </div>
@@ -61,23 +67,31 @@ export function Footer({ locale }: FooterProps) {
           <div className="t2e-foot-col">
             <h5>{t('travelLabel')}</h5>
             <ul>
-              {/* The four operational trip-types (moved here from the old
-                  header "Services" dropdown), then hotels / cruises / guide /
-                  tips. Package labels shortened (Egypt prefix dropped). */}
-              <li><Link href="/private-day-tours">{tNav('servicePrivateDayTours')}</Link></li>
-              <li><Link href="/group-day-tours">{tNav('serviceGroupDayTours')}</Link></li>
+              {/* Packages first (private, group), then the day-tour pair, then
+                  hotels / cruises / guide / tips. Moved here from the old
+                  header "Services" dropdown. */}
               <li><Link href="/egypt-travel-packages">{tNav('serviceEgyptPackages')}</Link></li>
               <li><Link href="/small-group-travel-packages">{tNav('serviceGroupPackages')}</Link></li>
+              <li><Link href="/private-day-tours">{tNav('servicePrivateDayTours')}</Link></li>
+              <li><Link href="/group-day-tours">{tNav('serviceGroupDayTours')}</Link></li>
               <li><Link href="/hotels">{tNav('hotels')}</Link></li>
               <li><Link href="/nile-cruises">{tNav('nileCruises')}</Link></li>
-              <li><Link href="/guide">{tNav('guide')}</Link></li>
-              <li><Link href="/travel-tips">{tNav('travelTips')}</Link></li>
             </ul>
           </div>
 
           <div className="t2e-foot-col">
             <h5>{t('resourcesLabel')}</h5>
             <ul>
+              <li><Link href="/resources">{t('resourcesIndex')}</Link></li>
+              <li><Link href="/resources/pyramids-decoded">{t('resourcesPyramids')}</Link></li>
+            </ul>
+          </div>
+
+          <div className="t2e-foot-col">
+            <h5>{t('practicalLabel')}</h5>
+            <ul>
+              <li><Link href="/travel-tips/passport-and-visa">{t('passportVisa')}</Link></li>
+              <li><Link href="/travel-tips/currency-in-egypt">{t('currencyMoney')}</Link></li>
               <li><Link href="/faq">{t('faqLabel')}</Link></li>
               <li><Link href="/hotel-grade-concept">{t('hotelGradeConcept')}</Link></li>
               <li><Link href="/distance-between-egyptian-cities">{t('cityDistances')}</Link></li>

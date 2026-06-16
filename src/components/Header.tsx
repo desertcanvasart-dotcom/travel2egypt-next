@@ -24,7 +24,13 @@ export function Header({ locale }: HeaderProps) {
     <nav className="t2e-nav">
       <div className="t2e-wrap t2e-nav-inner">
         <Link className="t2e-logo" href="/" aria-label="Travel2Egypt — home">
-          Travel<span className="s">2</span>Egypt
+          <img
+            src="/logo.png"
+            alt="Travel2Egypt"
+            width={202}
+            height={123}
+            style={{ height: '40px', width: 'auto', display: 'block' }}
+          />
         </Link>
 
         <ul className="t2e-nav-links">
@@ -32,6 +38,7 @@ export function Header({ locale }: HeaderProps) {
           <li><Link href="/guide">{t('guide')}</Link></li>
           {/* Egypt Wiki nav stays hidden for v1 (session 31 defer). */}
           <li><Link href="/blog">{t('blog')}</Link></li>
+          <li><Link href="/travel-tips">{t('travelTips')}</Link></li>
         </ul>
 
         <div className="t2e-nav-right">
