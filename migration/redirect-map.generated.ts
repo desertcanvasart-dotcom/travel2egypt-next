@@ -15316,5 +15316,10 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/2-nichikan-no-nubia-sabaku-no-shizen-to-yasei-dobutsu-no",
     "destination": "/ja/nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no",
     "permanent": true
+  },
+  {
+    "source": "/3-days-cairo-highlights-for-friends",
+    "destination": "/cairo-weekend-city-break-2-nights-3-days",
+    "permanent": true
   }
 ];
