@@ -130,7 +130,7 @@
 
 /* FOOTER (global) */
 .t2e-footer { padding: 64px 0 48px; border-top: 1px solid var(--rule); background: var(--paper); }
-.t2e-foot-top { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 56px; }
+.t2e-foot-top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 56px; }
 .t2e-foot-brand .t2e-logo { margin-bottom: 16px; }
 .t2e-foot-brand p { font-family: var(--display); font-style: italic; font-size: 16px; color: var(--navy-mute); }
 .t2e-foot-col h5 { font-family: var(--ui); font-size: 11px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 18px; }
