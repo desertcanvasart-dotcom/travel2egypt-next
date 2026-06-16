@@ -15306,5 +15306,15 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/osutoraria-hatsu-11-nichikan-rukusoru-hatsu-kairo-gi-nairu",
     "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
     "permanent": true
+  },
+  {
+    "source": "/2-day-desert-nature-wildlife-retreat",
+    "destination": "/2-day-nubian-desert-nature-wildlife-retreat",
+    "permanent": true
+  },
+  {
+    "source": "/ja/2-nichikan-no-nubia-sabaku-no-shizen-to-yasei-dobutsu-no",
+    "destination": "/ja/nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no",
+    "permanent": true
   }
 ];
