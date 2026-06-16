@@ -15286,5 +15286,25 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/indo-hatsu-8-nichikan-kasutamaizu-kano-na-asuwan-ryoko-puran",
     "destination": "/ja/asuwanteradoritorito-8-nichikan-no-pasonaraizudobakeshon",
     "permanent": true
+  },
+  {
+    "source": "/luxor-to-cairo-egypt-nile-cruise-vacation",
+    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/luxor-to-cairo-egypt-nile-cruise-vacation-from-australia",
+    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/vacaciones-de-11-dias-en-egipto-crucero-por-el-nilo-de-luxor-a-el-cairo-desde-australia",
+    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/osutoraria-hatsu-11-nichikan-rukusoru-hatsu-kairo-gi-nairu",
+    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "permanent": true
   }
 ];
