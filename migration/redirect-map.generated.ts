@@ -15266,5 +15266,25 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/indo-kara-no-18-nichikan-gurando-ejiputo-horide-pakkeji",
     "destination": "/ja/18-nichikan-de-kuni-zentai-o-fa-rao-kara-shinai-e",
     "permanent": true
+  },
+  {
+    "source": "/8-day-customized-aswan-travel-deal",
+    "destination": "/aswan-personalized-vacation",
+    "permanent": true
+  },
+  {
+    "source": "/8-day-customized-aswan-travel-deal-from-india",
+    "destination": "/aswan-personalized-vacation",
+    "permanent": true
+  },
+  {
+    "source": "/es/oferta-personalizada-de-8-dias-en-asuan-desde-la-india",
+    "destination": "/es/asuan-a-medida-retiro-privado-de-8-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/indo-hatsu-8-nichikan-kasutamaizu-kano-na-asuwan-ryoko-puran",
+    "destination": "/ja/asuwanteradoritorito-8-nichikan-no-pasonaraizudobakeshon",
+    "permanent": true
   }
 ];
