@@ -598,21 +598,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/11-day-luxor-to-cairo-egypt-nile-cruise-vacation",
-    "destination": "/egypt-group-tours-from-usa-canada",
-    "permanent": true
-  },
-  {
-    "source": "/es/crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-vacaciones-en-egipto-desde-canada",
-    "destination": "/es/egypt-group-tours-from-usa-canada",
-    "permanent": true
-  },
-  {
-    "source": "/ja/kanada-hatsu-11-nichikan-rukusoru-kairo-ejiputo-nairu-kuruzu",
-    "destination": "/ja/egypt-group-tours-from-usa-canada",
-    "permanent": true
-  },
-  {
     "source": "/12-day-red-sea-desert-friends-escape",
     "destination": "/egypt-and-the-red-sea-paradise",
     "permanent": true
@@ -15065,6 +15050,261 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/guide/kharga-oasis/kharga-unearthed",
     "destination": "/ja/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/9-day-prestigious-egypt-vacation",
+    "destination": "/9-days-egypt-prestigious-vacation",
+    "permanent": true
+  },
+  {
+    "source": "/9-day-prestigious-egypt-vacation-from-india",
+    "destination": "/9-days-egypt-prestigious-vacation",
+    "permanent": true
+  },
+  {
+    "source": "/es/lujo-y-legado-paquete-prestigioso-de-vacaciones-de-9-dias-a-egipto-desde-india",
+    "destination": "/es/egipto-prestigioso-en-9-dias-luxor-el-nilo-asuan-y-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ragujuari-regashi-india-hatsu-9-nichikan-no-ejiputo-kokyu",
+    "destination": "/ja/9-nichikan-pure-suteji-ejiputo-no-kyujitsu-rukusoru-nairu",
+    "permanent": true
+  },
+  {
+    "source": "/8-day-egypt-holiday-package",
+    "destination": "/8-days-ultimate-trip-to-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/8-day-egypt-holiday-package-from-india",
+    "destination": "/8-days-ultimate-trip-to-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-encanto-de-sharm-paquete-de-vacaciones-de-8-dias-en-egipto-desde-india",
+    "destination": "/es/sharm-el-sheij-en-8-dias-mar-rojo-arrecifes-y-costa-desertica",
+    "permanent": true
+  },
+  {
+    "source": "/ja/indo-hatsu-8-nichikan-no-ejiputo-kyujitsu-pakkeji",
+    "destination": "/ja/8-nichikan-sharumuerusheiku-kokai-rifu-soshite-sabaku-no",
+    "permanent": true
+  },
+  {
+    "source": "/8-day-sharm-el-sheikh-holiday-package-from-australia",
+    "destination": "/8-days-ultimate-trip-to-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/delicia-en-sharm-paquete-vacacional-de-8-dias-en-egipto-desde-australia",
+    "destination": "/es/sharm-el-sheij-en-8-dias-mar-rojo-arrecifes-y-costa-desertica",
+    "permanent": true
+  },
+  {
+    "source": "/ja/sharumu-no-yorokobi-osutoraria-hatsu-8-nichikan-no-ejiputo",
+    "destination": "/ja/8-nichikan-sharumuerusheiku-kokai-rifu-soshite-sabaku-no",
+    "permanent": true
+  },
+  {
+    "source": "/10-day-romantic-egypt-travel-deals",
+    "destination": "/the-romantic-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/10-day-romantic-egypt-travel-deals-from-india",
+    "destination": "/the-romantic-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/amor-en-el-nilo-ofertas-de-viaje-romantico-por-egipto-de-10-dias-desde-india",
+    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nairu-gawa-no-koi-indo-hatsu-10-nichikan-no",
+    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "permanent": true
+  },
+  {
+    "source": "/10-day-romantic-egypt-deals-from-spain",
+    "destination": "/the-romantic-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/amor-en-el-nilo-ofertas-de-viaje-romantico-por-egipto-de-10-dias-desde-espana",
+    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nairu-gawa-no-koi-supein-hatsu-10-nichikan-no",
+    "destination": "/ja/nairu-ni-yorisou-10-nichikan-romantikkuejiputotsua",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-nile-cruise-vacation-from-india",
+    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/vacaciones-en-egipto-crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-desde-india",
+    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/indo-hatsu-11-nichikan-rukusoru-kairo-ejiputo-nairu-kuruzu",
+    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "permanent": true
+  },
+  {
+    "source": "/11-day-luxor-to-cairo-egypt-nile-cruise-vacation",
+    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/11-day-luxor-to-cairo-egypt-nile-cruise-vacation-from-canada",
+    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-vacaciones-en-egipto-desde-canada",
+    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kanada-hatsu-11-nichikan-rukusoru-kairo-ejiputo-nairu-kuruzu",
+    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
+    "permanent": true
+  },
+  {
+    "source": "/14-day-egypt-tour-package-for-families",
+    "destination": "/14-day-egypt-luxury-family-holiday",
+    "permanent": true
+  },
+  {
+    "source": "/14-day-egypt-tour-package-from-india-for-families",
+    "destination": "/14-day-egypt-luxury-family-holiday",
+    "permanent": true
+  },
+  {
+    "source": "/es/paquete-de-tour-de-lujo-de-14-dias-por-egipto-desde-india-para-familias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/indo-hatsu-kazoku-de-tanoshimu-ragujuari-na-ejiputo-14",
+    "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
+    "permanent": true
+  },
+  {
+    "source": "/luxury-14-day-egypt-tour-package-from-australia-for-families",
+    "destination": "/14-day-egypt-luxury-family-holiday",
+    "permanent": true
+  },
+  {
+    "source": "/es/paquete-de-tour-de-lujo-de-14-dias-por-egipto-desde-australia-para-familias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kazoku-de-tanoshimu-ragujuari-na-ejiputo-14-nichikan-tsua",
+    "destination": "/ja/14-nichikan-no-ejiputoragujuari-kazoku-kiko-piramiddo-kawa",
+    "permanent": true
+  },
+  {
+    "source": "/4-day-cairo-travel-package",
+    "destination": "/4-days-city-break",
+    "permanent": true
+  },
+  {
+    "source": "/4-day-cairo-travel-package-from-india",
+    "destination": "/4-days-city-break",
+    "permanent": true
+  },
+  {
+    "source": "/es/escape-a-egipto-paquete-de-viaje-de-4-dias-a-el-cairo-desde-india",
+    "destination": "/es/escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/india-hatsu-ejiputo-esukepu-4-nichikan-no-kairo-ryoko",
+    "destination": "/ja/4-nichikan-kairoshitibureiku-piramiddo-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-escape-4-day-cairo-travel-package-from-australia",
+    "destination": "/4-days-city-break",
+    "permanent": true
+  },
+  {
+    "source": "/es/escapada-a-egipto-paquete-de-viaje-a-el-cairo-de-4-dias-desde-australia",
+    "destination": "/es/escapada-de-lujo-a-el-cairo-en-4-dias-piramides-museos-ciudadela-y-bazar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-esukepu-osutoraria-hatsu-4-nichikan-kairo-ryoko",
+    "destination": "/ja/4-nichikan-kairoshitibureiku-piramiddo-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/18-day-grand-egypt-holiday-package",
+    "destination": "/tour-of-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/18-day-grand-egypt-holiday-package-from-india",
+    "destination": "/tour-of-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/paquete-de-vacaciones-de-18-dias-por-el-gran-egipto-desde-india",
+    "destination": "/es/gran-tour-privado-de-egipto-en-18-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/indo-kara-no-18-nichikan-gurando-ejiputo-horide-pakkeji",
+    "destination": "/ja/18-nichikan-de-kuni-zentai-o-fa-rao-kara-shinai-e",
+    "permanent": true
+  },
+  {
+    "source": "/8-day-customized-aswan-travel-deal",
+    "destination": "/aswan-personalized-vacation",
+    "permanent": true
+  },
+  {
+    "source": "/8-day-customized-aswan-travel-deal-from-india",
+    "destination": "/aswan-personalized-vacation",
+    "permanent": true
+  },
+  {
+    "source": "/es/oferta-personalizada-de-8-dias-en-asuan-desde-la-india",
+    "destination": "/es/asuan-a-medida-retiro-privado-de-8-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/indo-hatsu-8-nichikan-kasutamaizu-kano-na-asuwan-ryoko-puran",
+    "destination": "/ja/asuwanteradoritorito-8-nichikan-no-pasonaraizudobakeshon",
+    "permanent": true
+  },
+  {
+    "source": "/luxor-to-cairo-egypt-nile-cruise-vacation",
+    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/luxor-to-cairo-egypt-nile-cruise-vacation-from-australia",
+    "destination": "/11-day-nile-cruise-from-luxor-to-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/vacaciones-de-11-dias-en-egipto-crucero-por-el-nilo-de-luxor-a-el-cairo-desde-australia",
+    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/osutoraria-hatsu-11-nichikan-rukusoru-hatsu-kairo-gi-nairu",
+    "destination": "/ja/gurando-nairu-koro-rukusoru-kara-kairo-e-no-nairu-kuruzu-11",
     "permanent": true
   }
 ];
