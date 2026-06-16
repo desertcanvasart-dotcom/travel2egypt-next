@@ -311,6 +311,18 @@
 .egt-node { transition: transform 0.25s ease, filter 0.25s ease; transform-origin: center; transform-box: fill-box; }
 .egt-node:not(.egt-node--placeholder):hover { transform: scale(1.03); }
 
+/* Right-column category label — matches the masthead's tagSummary
+ * treatment (small, letter-spaced gold caps) so it reads as the same
+ * editorial register, just scoped to the non-spine column. */
+.egt-eyebrow {
+  font-family: var(--ui);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  fill: var(--gold);
+}
+
 .egt-name {
   font-family: var(--display);
   font-size: 19px;
@@ -326,18 +338,19 @@
   font-weight: 500;
   fill: var(--navy-mute);
 }
-/* Egyptological transliteration — sentence-case scholarly convention
- * (Jtm, Wsjr, Ḥr…). Small-caps gives the editorial register without
- * destroying the case; an explicit Unicode fallback stack ensures the
- * aleph (Ꜣ U+A723) and H-with-dot-below (Ḥ U+1E24) render reliably
- * if DM Sans is missing either glyph. */
+/* Egyptological transliteration — scholarly convention is italic with
+ * sentence-case preserved (the capital marks the proper name; the rest
+ * MUST read as lowercase). The Phase-1.5 small-caps pass was visually
+ * undoing that distinction. Plain Cormorant italic carries the editorial
+ * register without flattening the case; Unicode fallback stack keeps the
+ * aleph (Ꜣ U+A723) and H-with-dot-below (Ḥ U+1E24) rendering reliably. */
 .egt-translit {
-  font-family: var(--ui), 'Charis SIL', 'Gentium Plus', system-ui, 'Segoe UI', sans-serif;
-  font-size: 11.5px;
-  letter-spacing: 0.08em;
-  font-variant-caps: small-caps;
-  font-feature-settings: 'smcp' 1;
-  fill: var(--fg-ink-soft);
+  font-family: var(--display), 'Charis SIL', 'Gentium Plus', Georgia, serif;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  fill: var(--navy-mute);
 }
 
 /* Mobile stack — hidden on desktop */
@@ -401,12 +414,12 @@
 }
 .egt-stack__item--spine .egt-stack__name { font-size: 26px; font-weight: 600; }
 .egt-stack__translit {
-  font-family: var(--ui), 'Charis SIL', 'Gentium Plus', system-ui, 'Segoe UI', sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  font-variant-caps: small-caps;
-  font-feature-settings: 'smcp' 1;
-  color: var(--fg-ink-soft);
+  font-family: var(--display), 'Charis SIL', 'Gentium Plus', Georgia, serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--navy-mute);
 }
 
 /* Colophon at the page foot — small, restrained */

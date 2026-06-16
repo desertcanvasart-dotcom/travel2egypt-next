@@ -84,7 +84,10 @@ export default async function EgyptianGodsPage({ params }: Props) {
 
       {/* Desktop SVG — hidden below the small-screen breakpoint */}
       <div className="egt-desktop">
-        <EgyptianGodsTree deities={deities} />
+        <EgyptianGodsTree
+          deities={deities}
+          beyondEnneadLabel={t('beyondEnnead')}
+        />
       </div>
 
       {/* Mobile vertical stack — hidden above the small-screen breakpoint */}
