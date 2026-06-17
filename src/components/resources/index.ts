@@ -6,3 +6,4 @@ export { NumberedGrid } from './NumberedGrid';
 export { SiloCard } from './SiloCard';
 export { ScaleStrip } from './ScaleStrip';
 export { FieldFooter } from './FieldFooter';
+export { PharaohTimelineSvg } from './PharaohTimelineSvg';
