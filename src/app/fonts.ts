@@ -19,6 +19,7 @@ import {
   Noto_Serif_JP,
   Noto_Sans_JP,
   Noto_Sans_Egyptian_Hieroglyphs,
+  Noto_Naskh_Arabic,
 } from 'next/font/google';
 
 export const cormorant = Cormorant_Garamond({
@@ -84,6 +85,19 @@ export const notoSansEgyptianHieroglyphs = Noto_Sans_Egyptian_Hieroglyphs({
   preload: false,
 });
 
+/**
+ * Noto Naskh Arabic — used only on /resources/arabic-lightly (the
+ * Arabic phrase reference Field Guide). preload: false so it doesn't
+ * ship on every page; the CSS variable is still applied site-wide so
+ * any future Arabic content elsewhere will pick it up cleanly.
+ */
+export const notoNaskhArabic = Noto_Naskh_Arabic({
+  weight: ['400', '500', '700'],
+  variable: '--font-noto-naskh-arabic',
+  display: 'swap',
+  preload: false,
+});
+
 export const fontVariables = [
   cormorant.variable,
   sourceSerif4.variable,
@@ -92,4 +106,5 @@ export const fontVariables = [
   notoSerifJp.variable,
   notoSansJp.variable,
   notoSansEgyptianHieroglyphs.variable,
+  notoNaskhArabic.variable,
 ].join(' ');
