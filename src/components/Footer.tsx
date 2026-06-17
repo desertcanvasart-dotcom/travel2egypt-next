@@ -108,10 +108,10 @@ export function Footer({ locale }: FooterProps) {
           <div className="t2e-foot-col">
             <h5>{t('aboutLabel')}</h5>
             <ul>
-              <li><Link href="/blog">{tNav('blog')}</Link></li>
               <li><Link href="/about">{tNav('about')}</Link></li>
-              <li><Link href="/responsible-travel">{t('responsibleTravel')}</Link></li>
               <li><Link href="/contact">{tNav('contact')}</Link></li>
+              <li><Link href="/blog">{tNav('blog')}</Link></li>
+              <li><Link href="/responsible-travel">{t('responsibleTravel')}</Link></li>
             </ul>
           </div>
         </div>
