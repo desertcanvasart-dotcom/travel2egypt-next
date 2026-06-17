@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import { urlFor } from '@/sanity/lib/image';
+import { objectPositionFromHotspot } from '@/lib/hotspot';
 
 /**
  * Image container for the tour-system designs. Renders the reference
@@ -72,11 +73,10 @@ export function JourneyImage({
   const src = builder.url();
 
   // Full-bleed surfaces still rely on CSS cover; steer it toward the hotspot.
-  const hotspot = image?.hotspot;
-  const objectPosition =
-    !ratio && hotspot && typeof hotspot.x === 'number' && typeof hotspot.y === 'number'
-      ? `${(hotspot.x * 100).toFixed(2)}% ${(hotspot.y * 100).toFixed(2)}%`
-      : undefined;
+  // Fixed-ratio surfaces bake the crop server-side, so they skip this.
+  const objectPosition = !ratio
+    ? objectPositionFromHotspot(image?.hotspot)
+    : undefined;
 
   return (
     <div className={cls}>
