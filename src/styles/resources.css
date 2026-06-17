@@ -844,6 +844,32 @@
   max-width: 64ch;
 }
 
+/* Pharaoh-timeline figure (.fg-timeline*) — the static SVG sits as a
+ * single editorial block between the masthead and the prose body. The
+ * figure is full-wrap-width; the SVG inside scales to fit. */
+.fg-timeline-figure {
+  margin: 40px 0 16px;
+  padding: 0;
+}
+.fg-timeline {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.fg-timeline-caption {
+  margin: 12px 0 0;
+  font-family: var(--ui);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg-ink-soft);
+  text-align: right;
+}
+@media (max-width: 760px) {
+  .fg-timeline-figure { margin: 28px 0 8px; }
+  .fg-timeline-caption { font-size: 10px; }
+}
+
 /* Glossary entries (.fg-prose__dish*) — discrete editorial entries used
  * for cuisine-style guides. Each entry: serif name, prose description,
  * optional per-entry operator note. Separated by hairlines. */
@@ -866,6 +892,15 @@
   letter-spacing: -0.005em;
   color: var(--navy);
   margin: 0 0 10px;
+}
+
+.fg-prose__dish-dates {
+  font-family: var(--ui);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--fg-ink-soft);
+  margin: 0 0 8px;
 }
 
 .fg-prose__dish-desc {

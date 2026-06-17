@@ -1092,6 +1092,10 @@
     "cuisineTitle": "Egypt,",
     "cuisineTitleAccent": "On a Plate",
     "cuisineDeck": "A working glossary of Egyptian food — what to seek out, how to eat it properly, and where the good version is found.",
+    "timelineRegion": "Egypt, end to end",
+    "timelineTitle": "Three Thousand Years,",
+    "timelineTitleAccent": "In Order",
+    "timelineDeck": "Cleopatra is closer in time to the iPhone than to the Pyramids. A working chronology of pharaonic Egypt — written so that when you walk into a monument, you know whose monument it is.",
     "pyramids": {
       "metaTitle": "The Pyramids, Decoded — Travel2Egypt Field Guide",
       "metaDescription": "Eight pyramids, a thousand years of trial and error. How to tell them apart at a glance — by their silhouettes, not their signage.",
@@ -1255,6 +1259,141 @@
         "folkDeity": "Folk and household gods",
         "experimental": "Experimental cults"
       }
+    },
+    "timeline": {
+      "metaTitle": "Three Thousand Years, In Order — Travel2Egypt Field Guide",
+      "metaDescription": "Cleopatra is closer in time to the iPhone than to the Pyramids. A working chronology of pharaonic Egypt for travellers walking into the monuments.",
+      "kicker": "No. 05",
+      "region": "Egypt, end to end",
+      "tagSummary": "Pharaoh Timeline",
+      "titlePrefix": "Three Thousand Years,",
+      "titleAccent": "In Order",
+      "standfirstLead": "Cleopatra is closer in time to the iPhone than to the Pyramids.",
+      "standfirstAccent": "Here's how three thousand years of pharaonic Egypt fits together.",
+      "figureCaption": "Era widths drawn to scale — 1 unit ≈ 4 years. Tut omitted from the visual; he sits in the New Kingdom section below.",
+      "intro1": "Most travellers arrive in Egypt with a sense that the pharaohs are a single thing — ancient, robed, monumental. Standing in Karnak or Giza, the temporal scale doesn't quite register: the Old Kingdom pyramid builders are as distant from the New Kingdom temple builders as we are from the Roman Empire. Ramses II ruled when Troy was being besieged. Cleopatra was born closer to our time than to the building of the Great Pyramid.",
+      "intro2": "What follows is a working chronology — the periods, the key rulers, and what each era actually built — written so that when you walk into a monument, you know whose monument it is and where it sits in the larger story.",
+      "eras": {
+        "old": {
+          "label": "Old Kingdom · ~2686–2181 BC",
+          "frame": "The Old Kingdom is the Pyramid Age — the period during which the stone pyramid was invented, perfected, and eventually outgrown. The capital was Memphis. The architecture is restrained and monumental; the surviving art has a frontal, symmetrical formality. This is the Egypt of dressed-stone certainty.",
+          "op": "What travellers see of the Old Kingdom is pyramids and Saqqara. The temples and palaces are mostly gone; what survived are tombs, because they were built to survive. The frontal art style that feels \"Egyptian\" to modern eyes was perfected here."
+        },
+        "inter1": {
+          "label": "First Intermediate Period · ~2181–2055 BC",
+          "frame": "Civil war, decentralised power, regional rulers competing for legitimacy. No major monuments travellers visit; the era's interest is mostly archaeological. Worth knowing only because it explains why the Middle Kingdom afterward felt the need to perform reunification."
+        },
+        "middle": {
+          "label": "Middle Kingdom · ~2055–1650 BC",
+          "frame": "The Middle Kingdom is the literary age — the period that produced Egypt's classical literature, refined administrative systems, and built more modestly than the Old Kingdom. The capital moved to Thebes and then to Itj-tawy. The pyramids returned but smaller, built of mud brick faced with stone.",
+          "op": "Middle Kingdom monuments are harder to find than Old or New Kingdom ones — many are eroded or lost. The Fayoum pyramid trip is the most accessible Middle Kingdom experience for most travellers."
+        },
+        "inter2": {
+          "label": "Second Intermediate Period · ~1650–1550 BC",
+          "frame": "Hyksos rule. The Asiatic Hyksos governed the Delta from Avaris; the rest of Egypt paid tribute or contested the territory. The Hyksos brought the chariot, the composite bow, and the horse to Egypt — innovations the New Kingdom would later turn into an empire."
+        },
+        "new": {
+          "label": "New Kingdom · ~1550–1069 BC",
+          "frame": "The New Kingdom is the empire era — Egypt at its most outward-looking, militarised, theatrical, and rich. The capital was Thebes (modern Luxor); the rulers built temple complexes on a scale never attempted before or since. This is the Egypt of the famous names — Hatshepsut, Akhenaten, Tutankhamun, Ramses II — and the period most travellers spend the most time in.",
+          "op": "The New Kingdom is what most travellers come to Egypt to see. Karnak, Luxor Temple, the Valley of the Kings, Abu Simbel — all New Kingdom. If you have one week in Egypt, this is the era you spend most of it in."
+        },
+        "inter3": {
+          "label": "Third Intermediate Period · ~1069–664 BC",
+          "frame": "Decline and fragmentation. Libyan dynasties ruled the Delta; Nubian pharaohs (the 25th Dynasty) ruled the whole country from the south for a century. The era is undervalued — Nubian kings restored old temples and revived earlier artistic styles — but produced few headline monuments travellers visit on a standard itinerary."
+        },
+        "late": {
+          "label": "Late Period · ~664–332 BC",
+          "frame": "Persian conquests punctuated by brief Egyptian restorations. The Saite (26th) Dynasty revived archaic art deliberately, looking back to the Old Kingdom across two thousand years. Persians twice conquered Egypt; twice were thrown out. Some surviving Late Period temple work blends naturally into what travellers think of as \"classical\" Egyptian — the period is more present in standard sites than visitors realise."
+        },
+        "ptolemaic": {
+          "label": "Ptolemaic Egypt · 332–30 BC",
+          "frame": "After Alexander the Great's conquest in 332 BC, Egypt was ruled by a Greek-Macedonian dynasty for three hundred years. The Ptolemies built in the Egyptian style but as Greeks ruling Egypt — temples that look pharaonic but were built when Rome was already rising. Most of the \"classic\" Egyptian temples travellers visit are actually Ptolemaic.",
+          "op": "Edfu Temple, Kom Ombo, Dendera, Philae — all Ptolemaic. These are the best-preserved temples in Egypt precisely because they're \"newest.\" Travellers often assume they're New Kingdom or earlier; they're not."
+        },
+        "roman": {
+          "label": "Roman Egypt and after · 30 BC onward",
+          "frame": "Rome inherited Egypt with Cleopatra's death. Some pharaonic traditions continued — late-Roman temple work at Philae, Kalabsha, Dendur — but pharaonic Egypt as a self-ruling civilisation ended in 30 BC. The timeline above stops there. Christianisation, the Arab conquest of 641 AD, the Mamluks, the Ottomans, modern Egypt: each is a long story of its own, beyond the chronology this guide covers."
+        }
+      },
+      "pharaohs": {
+        "djoser": {
+          "name": "Djoser",
+          "dates": "~2670 BC · 3rd Dynasty",
+          "body": "Commissioned the Step Pyramid at Saqqara — the world's first large stone building. Designed by Imhotep, the architect who became Egypt's first individual named in history."
+        },
+        "sneferu": {
+          "name": "Sneferu",
+          "dates": "~2613 BC · 4th Dynasty",
+          "body": "Built three pyramids — Meidum, Bent, and Red — figuring out through experimentation how to make a true pyramid stand. The father of Khufu and the unsung hero of Egyptian engineering."
+        },
+        "khufu": {
+          "name": "Khufu",
+          "dates": "~2580 BC · 4th Dynasty",
+          "body": "Built the Great Pyramid at Giza — the largest stone building ever made in antiquity, and the only Wonder of the Ancient World still standing. Almost nothing else about his reign survives."
+        },
+        "khafre": {
+          "name": "Khafre",
+          "dates": "~2550 BC · 4th Dynasty",
+          "body": "Built the second Giza pyramid — slightly shorter than Khufu's but on higher bedrock, so it looks taller. Almost certainly commissioned the Sphinx."
+        },
+        "menkaure": {
+          "name": "Menkaure",
+          "dates": "~2510 BC · 4th Dynasty",
+          "body": "The third and smallest Giza pyramid. Sheathed in red Aswan granite at its base — the lower courses are still visible. The compression of the form after Khufu and Khafre marks the end of the Pyramid Age proper."
+        },
+        "mentuhotep": {
+          "name": "Mentuhotep II",
+          "dates": "~2050 BC · 11th Dynasty",
+          "body": "Reunified Egypt after the First Intermediate Period and founded the Middle Kingdom. His mortuary temple at Deir el-Bahari predates Hatshepsut's — when you visit her three-terraced temple, you're standing next to his, partly demolished but still visible."
+        },
+        "senusret3": {
+          "name": "Senusret III",
+          "dates": "~1870 BC · 12th Dynasty",
+          "body": "A strong administrator who expanded Egypt's reach into Nubia. His surviving statues are striking for their realistic, careworn faces — a sharp break from the idealised faces of earlier kings."
+        },
+        "amenemhat3": {
+          "name": "Amenemhat III",
+          "dates": "~1850 BC · 12th Dynasty",
+          "body": "Built the Hawara pyramid and the famous Labyrinth complex beside it — once one of the wonders of the ancient world, now almost entirely gone. Developed the Fayoum oasis as agricultural land."
+        },
+        "hatshepsut": {
+          "name": "Hatshepsut",
+          "dates": "~1479 BC · 18th Dynasty",
+          "body": "One of Egypt's few female pharaohs and one of the most successful. Her mortuary temple at Deir el-Bahari rises in three terraces against the cliff face — the most architecturally distinctive royal monument in Egypt."
+        },
+        "thutmose3": {
+          "name": "Thutmose III",
+          "dates": "~1479 BC · 18th Dynasty",
+          "body": "Hatshepsut's stepson and eventual successor. Expanded the empire to its largest extent in seventeen military campaigns. After Hatshepsut's death he attempted to erase her name from monuments — partly successfully, partly not."
+        },
+        "akhenaten": {
+          "name": "Akhenaten",
+          "dates": "~1351 BC · 18th Dynasty",
+          "body": "Religious revolutionary. Tried to replace traditional polytheism with worship of a single sun disk (Aten); moved the capital to Amarna and reigned from there. His successors dismantled his city, smashed his statues, and tried to erase him from the record. The art of his reign — naturalistic, elongated, unlike anything before or since — survives."
+        },
+        "tut": {
+          "name": "Tutankhamun",
+          "dates": "~1336 BC · 18th Dynasty",
+          "body": "A minor king famous only because his tomb survived intact — the one royal tomb in the Valley of the Kings that escaped looting in antiquity. His treasure now anchors the Grand Egyptian Museum at Giza, the only place in the world where the entire find is shown together."
+        },
+        "ramses": {
+          "name": "Ramses II",
+          "dates": "~1279 BC · 19th Dynasty",
+          "body": "Reigned 66 years. Egypt's great builder: Abu Simbel cut into the cliff at the southern frontier, the Ramesseum on the Theban west bank, vast additions to Karnak and Luxor, his face carved on statues everywhere from the Delta to Nubia. Most ancient pharaohs you've heard of are him."
+        },
+        "ptolemy1": {
+          "name": "Ptolemy I",
+          "dates": "~305 BC · Ptolemaic Dynasty",
+          "body": "Alexander the Great's Macedonian general. After Alexander's death he took Egypt as his share of the empire and founded a Greek dynasty that ruled the country in pharaonic guise for three hundred years. He also founded the Library of Alexandria."
+        },
+        "cleopatra": {
+          "name": "Cleopatra VII",
+          "dates": "~51 BC · Ptolemaic Dynasty",
+          "body": "The last pharaoh of Egypt. Macedonian Greek by ancestry; spoke Egyptian, unusually for her dynasty. Her alliance and rivalry with Rome ended with her suicide in 30 BC. With her death, pharaonic Egypt ends."
+        }
+      },
+      "closing": "Three thousand years is hard to hold in your head. The point of the chronology above isn't to memorise it — it's to give you a rough map. When you walk into a temple, ask first: which era was this built? Once you can answer that, the temple tells its story. The columns make sense. The reliefs make sense. The scale makes sense. Knowing whose monument it is — and where they sit in the larger sequence — is the difference between sightseeing and reading the country.",
+      "colophonNote": "Field guide · dates approximate · chronology after Shaw, Oxford History of Ancient Egypt"
     }
   }
 }

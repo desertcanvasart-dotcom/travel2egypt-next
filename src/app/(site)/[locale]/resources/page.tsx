@@ -77,18 +77,18 @@ const ENTRIES: IndexEntry[] = [
     deckKey: 'cuisineDeck',
     slug: 'egyptian-cuisine',
   },
-  // Two placeholder slots — surfacing the planned arc without
-  // committing to titles or topics yet. Phase 2 replaces these in
-  // order as guides ship.
   {
     number: '05',
-    status: 'drafting',
-    regionKey: null,
-    titleKey: null,
-    titleAccentKey: null,
-    deckKey: 'inDrafting',
-    slug: null,
+    status: 'open',
+    regionKey: 'timelineRegion',
+    titleKey: 'timelineTitle',
+    titleAccentKey: 'timelineTitleAccent',
+    deckKey: 'timelineDeck',
+    slug: 'pharaoh-timeline',
   },
+  // One placeholder slot — surfacing the planned arc without
+  // committing to titles or topics yet. Phase 2 replaces this as
+  // the next guide ships.
   {
     number: '06',
     status: 'drafting',
