@@ -96,11 +96,10 @@ export function Footer({ locale }: FooterProps) {
           <div className="t2e-foot-col">
             <h5>{t('practicalLabel')}</h5>
             <ul>
-              <li><Link href="/travel-tips/passport-and-visa">{t('passportVisa')}</Link></li>
-              <li><Link href="/travel-tips/currency-in-egypt">{t('currencyMoney')}</Link></li>
+              {/* Sorted alphabetically by the rendered EN label. */}
+              <li><Link href="/distance-between-egyptian-cities">{t('cityDistances')}</Link></li>
               <li><Link href="/faq">{t('faqLabel')}</Link></li>
               <li><Link href="/hotel-grade-concept">{t('hotelGradeConcept')}</Link></li>
-              <li><Link href="/distance-between-egyptian-cities">{t('cityDistances')}</Link></li>
               <li><Link href="/your-name-in-hieroglyphs">{t('nameInHieroglyphs')}</Link></li>
             </ul>
           </div>
