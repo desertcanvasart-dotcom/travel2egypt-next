@@ -34,14 +34,14 @@ export function Header({ locale }: HeaderProps) {
         </Link>
 
         <ul className="t2e-nav-links">
-          {/* Visual order, right-to-left: Journeys, Journal, Travel Guide, Travel Tips.
-              JSX is left-to-right, so the array is reversed. */}
+          {/* Visual order, left-to-right: Travel Tips, Travel Guide, Journal,
+              Journeys, About. About sits at the far right as the fifth tab. */}
           <li><Link href="/travel-tips">{t('travelTips')}</Link></li>
-          <li><Link href="/about">{t('about')}</Link></li>
           <li><Link href="/guide">{t('guide')}</Link></li>
           <li><Link href="/blog">{t('blog')}</Link></li>
           {/* Egypt Wiki nav stays hidden for v1 (session 31 defer). */}
           <li><JourneysMenu /></li>
+          <li><Link href="/about">{t('about')}</Link></li>
         </ul>
 
         <div className="t2e-nav-right">
