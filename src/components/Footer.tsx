@@ -87,7 +87,6 @@ export function Footer({ locale }: FooterProps) {
                   anchor link — new guides slot above it, never below. */}
               <li><Link href="/resources/pyramids-decoded">{t('resourcesPyramids')}</Link></li>
               <li><Link href="/resources/arabic-lightly">{t('resourcesArabic')}</Link></li>
-              <li><Link href="/resources/tipping-honestly">{t('resourcesTipping')}</Link></li>
               <li><Link href="/resources/egyptian-cuisine">{t('resourcesCuisine')}</Link></li>
               <li><Link href="/resources/pharaoh-timeline">{t('resourcesTimeline')}</Link></li>
               <li className="t2e-foot-col__all"><Link href="/resources">{t('resourcesIndex')}</Link></li>
