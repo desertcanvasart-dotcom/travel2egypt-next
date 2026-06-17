@@ -6,38 +6,41 @@ import { defineRouting } from 'next-intl/routing';
  * EN is canonical and lives at the root (no /en prefix).
  * /es and /ja are locale-prefixed.
  *
- * `pathnames` localizes the JA URL for the static (non-Sanity) routes —
- * EN/ES keep the English path; JA gets a romaji slug. Sanity-driven content
- * (tours, packages, guide, …) localizes its slugs via the CMS instead and is
- * not listed here.
+ * `pathnames` declares the static (non-Sanity) routes. All three locales
+ * share the same English-language path — the previous JA romaji-slug
+ * strategy (/ja/jaanaru, /ja/watashitachi-ni-tsuite, …) was retired in
+ * favour of stable URLs that survive sharing, external linking, and
+ * indexing. Legacy romaji paths still resolve via 301 redirects defined
+ * in migration/redirect-map.csv.
+ *
+ * Sanity-driven content (tours, packages, guide, …) localizes its slugs
+ * via the CMS and is not listed here.
  */
 export const routing = defineRouting({
   locales: ['en', 'es', 'ja'],
   defaultLocale: 'en',
   localePrefix: 'as-needed',
   pathnames: {
-    '/private-day-tours': { en: '/private-day-tours', es: '/private-day-tours', ja: '/puraibeeto-deitsuaa' },
-    '/group-day-tours': { en: '/group-day-tours', es: '/group-day-tours', ja: '/shoninzu-guruupu-deitsuaa' },
-    '/egypt-travel-packages': { en: '/egypt-travel-packages', es: '/egypt-travel-packages', ja: '/puraibeeto-pakkeeji' },
-    '/small-group-travel-packages': { en: '/small-group-travel-packages', es: '/small-group-travel-packages', ja: '/shoninzu-guruupu-pakkeeji' },
-    '/packages': { en: '/packages', es: '/packages', ja: '/pakkeeji' },
-    '/tours': { en: '/tours', es: '/tours', ja: '/dei-tsuaa' },
-    '/nile-cruises': { en: '/nile-cruises', es: '/nile-cruises', ja: '/nairu-gawa-kuruuzu' },
-    '/hotels': { en: '/hotels', es: '/hotels', ja: '/hoteru' },
-    '/guide': { en: '/guide', es: '/guide', ja: '/ryokou-gaido' },
-    '/blog': { en: '/blog', es: '/blog', ja: '/jaanaru' },
-    '/travel-tips': { en: '/travel-tips', es: '/travel-tips', ja: '/tabi-no-hinto' },
-    '/faq': { en: '/faq', es: '/faq', ja: '/yoku-aru-shitsumon' },
-    '/about': { en: '/about', es: '/about', ja: '/watashitachi-ni-tsuite' },
-    '/contact': { en: '/contact', es: '/contact', ja: '/otoiawase' },
-    // Concierge: shared static path across locales. JA renders the in-site
-    // fallback, so it keeps the English slug rather than a romaji one for now.
-    '/plan-your-tour': { en: '/plan-your-tour', es: '/plan-your-tour', ja: '/plan-your-tour' },
-    '/wiki': { en: '/wiki', es: '/wiki', ja: '/ejiputo-hyakka' },
-    '/your-name-in-hieroglyphs': { en: '/your-name-in-hieroglyphs', es: '/your-name-in-hieroglyphs', ja: '/hierogurifu-namae' },
-    '/distance-between-egyptian-cities': { en: '/distance-between-egyptian-cities', es: '/distance-between-egyptian-cities', ja: '/toshikan-kyori' },
-    '/hotel-grade-concept': { en: '/hotel-grade-concept', es: '/hotel-grade-concept', ja: '/hoteru-gureedo' },
-    '/responsible-travel': { en: '/responsible-travel', es: '/responsible-travel', ja: '/sekinin-aru-ryokou' },
+    '/private-day-tours': '/private-day-tours',
+    '/group-day-tours': '/group-day-tours',
+    '/egypt-travel-packages': '/egypt-travel-packages',
+    '/small-group-travel-packages': '/small-group-travel-packages',
+    '/packages': '/packages',
+    '/tours': '/tours',
+    '/nile-cruises': '/nile-cruises',
+    '/hotels': '/hotels',
+    '/guide': '/guide',
+    '/blog': '/blog',
+    '/travel-tips': '/travel-tips',
+    '/faq': '/faq',
+    '/about': '/about',
+    '/contact': '/contact',
+    '/plan-your-tour': '/plan-your-tour',
+    '/wiki': '/wiki',
+    '/your-name-in-hieroglyphs': '/your-name-in-hieroglyphs',
+    '/distance-between-egyptian-cities': '/distance-between-egyptian-cities',
+    '/hotel-grade-concept': '/hotel-grade-concept',
+    '/responsible-travel': '/responsible-travel',
   },
 });
 

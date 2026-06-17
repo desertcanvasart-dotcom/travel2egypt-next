@@ -53,6 +53,101 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/ja/puraibeeto-deitsuaa",
+    "destination": "/ja/private-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/shoninzu-guruupu-deitsuaa",
+    "destination": "/ja/group-day-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/puraibeeto-pakkeeji",
+    "destination": "/ja/egypt-travel-packages",
+    "permanent": true
+  },
+  {
+    "source": "/ja/shoninzu-guruupu-pakkeeji",
+    "destination": "/ja/small-group-travel-packages",
+    "permanent": true
+  },
+  {
+    "source": "/ja/pakkeeji",
+    "destination": "/ja/packages",
+    "permanent": true
+  },
+  {
+    "source": "/ja/dei-tsuaa",
+    "destination": "/ja/tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nairu-gawa-kuruuzu",
+    "destination": "/ja/nile-cruises",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hoteru",
+    "destination": "/ja/hotels",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ryokou-gaido",
+    "destination": "/ja/guide",
+    "permanent": true
+  },
+  {
+    "source": "/ja/jaanaru",
+    "destination": "/ja/blog",
+    "permanent": true
+  },
+  {
+    "source": "/ja/tabi-no-hinto",
+    "destination": "/ja/travel-tips",
+    "permanent": true
+  },
+  {
+    "source": "/ja/yoku-aru-shitsumon",
+    "destination": "/ja/faq",
+    "permanent": true
+  },
+  {
+    "source": "/ja/watashitachi-ni-tsuite",
+    "destination": "/ja/about",
+    "permanent": true
+  },
+  {
+    "source": "/ja/otoiawase",
+    "destination": "/ja/contact",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-hyakka",
+    "destination": "/ja/wiki",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hierogurifu-namae",
+    "destination": "/ja/your-name-in-hieroglyphs",
+    "permanent": true
+  },
+  {
+    "source": "/ja/toshikan-kyori",
+    "destination": "/ja/distance-between-egyptian-cities",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hoteru-gureedo",
+    "destination": "/ja/hotel-grade-concept",
+    "permanent": true
+  },
+  {
+    "source": "/ja/sekinin-aru-ryokou",
+    "destination": "/ja/responsible-travel",
+    "permanent": true
+  },
+  {
     "source": "/fi/suuren-gizan-pyramidin-sisaan",
     "destination": "/",
     "permanent": true
