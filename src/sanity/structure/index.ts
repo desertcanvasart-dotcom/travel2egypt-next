@@ -478,6 +478,17 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
             ])
         ),
 
+      // ── Field Guides (prose-driven) ──
+      // Editorial Field Guides at /resources/[slug]. Bespoke-visual
+      // guides (Pyramids silhouettes, Gods tree, Arabic phrase rows)
+      // stay as one-off route components — they're not listed here.
+      S.listItem()
+        .title('Field Guides')
+        .icon(ComposeIcon)
+        .child(
+          S.documentTypeList('fieldGuide').title('Field Guides')
+        ),
+
       // ── Egyptian Gods (Family Tree) ──
       // Powers /resources/egyptian-gods. Distinct from the dormant
       // wikiDeity articles above — these are lean tree-node docs whose
