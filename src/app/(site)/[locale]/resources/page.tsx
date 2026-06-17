@@ -4,11 +4,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { buildStaticMetadata } from '@/lib/seo';
-import {
-  FieldGuideShell,
-  FieldMasthead,
-  FieldReveal,
-} from '@/components/resources';
+import { FieldGuideShell, FieldMasthead } from '@/components/resources';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -26,24 +22,83 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 /**
- * The published guides, in stable issue order. Each guide is its own
- * route under /resources. Add new ones here as they ship; the index
- * auto-renders them in this order. Placeholder slots after the live
- * entries communicate "more coming" with the same editorial register
- * rather than just truncating the grid.
+ * Field Guide table of contents — magazine-style vertical list, NOT a
+ * card grid. Each entry is a substantial editorial block (region eyebrow,
+ * title, deck, status) separated by hairline rules. Live guides link;
+ * drafting entries show an italic "In drafting" label and are inert.
+ *
+ * Add new entries here as they ship. The Egyptian Gods page is
+ * deliberately omitted — it's paused at Phase 1 and not surfaced yet.
  */
-const PUBLISHED_GUIDES = [
+type IndexEntry = {
+  number: string;
+  status: 'open' | 'drafting';
+  regionKey: string | null;
+  titleKey: string | null;
+  titleAccentKey: string | null;
+  deckKey: string;
+  slug: string | null;
+};
+
+const ENTRIES: IndexEntry[] = [
   {
-    slug: 'pyramids-decoded',
     number: '01',
+    status: 'open',
     regionKey: 'pyramidsRegion',
     titleKey: 'pyramidsTitle',
     titleAccentKey: 'pyramidsTitleAccent',
     deckKey: 'pyramidsDeck',
+    slug: 'pyramids-decoded',
   },
-] as const;
-
-const PLACEHOLDER_COUNT = 5;
+  // Five placeholder slots — surfacing the planned arc without
+  // committing to titles or topics yet. Phase 2 replaces these in order
+  // as guides ship.
+  {
+    number: '02',
+    status: 'drafting',
+    regionKey: null,
+    titleKey: null,
+    titleAccentKey: null,
+    deckKey: 'inDrafting',
+    slug: null,
+  },
+  {
+    number: '03',
+    status: 'drafting',
+    regionKey: null,
+    titleKey: null,
+    titleAccentKey: null,
+    deckKey: 'inDrafting',
+    slug: null,
+  },
+  {
+    number: '04',
+    status: 'drafting',
+    regionKey: null,
+    titleKey: null,
+    titleAccentKey: null,
+    deckKey: 'inDrafting',
+    slug: null,
+  },
+  {
+    number: '05',
+    status: 'drafting',
+    regionKey: null,
+    titleKey: null,
+    titleAccentKey: null,
+    deckKey: 'inDrafting',
+    slug: null,
+  },
+  {
+    number: '06',
+    status: 'drafting',
+    regionKey: null,
+    titleKey: null,
+    titleAccentKey: null,
+    deckKey: 'inDrafting',
+    slug: null,
+  },
+];
 
 export default async function ResourcesIndexPage({ params }: Props) {
   const { locale } = await params;
@@ -56,63 +111,73 @@ export default async function ResourcesIndexPage({ params }: Props) {
         number={t('indexNumber')}
         region={t('indexRegion')}
         tagSummary={t('indexTagSummary')}
-        title={
-          <>
-            {t('indexTitlePrefix')} <em>{t('indexTitleAccent')}</em>
-          </>
-        }
-        standfirst={
-          <>
-            {t('indexStandfirst')} <em>{t('indexStandfirstAccent')}</em>
-          </>
-        }
+        wordmarkSuffix={t('wordmarkPlural')}
+        title={t('indexTitle')}
+        standfirst={t('indexStandfirst')}
       />
 
-      <FieldReveal>
-        <section className="fg-index">
-          <div className="fg-index__list">
-            {PUBLISHED_GUIDES.map((g) => {
-              const title = t(g.titleKey);
-              const accent = t(g.titleAccentKey);
-              return (
-                <Link
-                  key={g.slug}
-                  href={`/resources/${g.slug}`}
-                  className="fg-index__item"
-                >
-                  <div className="fg-index__head">
-                    <span className="fg-index__num">{g.number}</span>
-                    <span className="fg-index__region">{t(g.regionKey)}</span>
-                  </div>
-                  <h2 className="fg-index__title">
-                    {title} <em>{accent}</em>
+      <p className="fg-toc__subhead">{t('indexSubhead')}</p>
+
+      <ol className="fg-toc">
+        {ENTRIES.map((entry) => {
+          const isOpen = entry.status === 'open';
+          return (
+            <li
+              key={entry.number}
+              className={
+                isOpen ? 'fg-toc__entry' : 'fg-toc__entry fg-toc__entry--drafting'
+              }
+            >
+              <div className="fg-toc__num">{entry.number}</div>
+              <div className="fg-toc__content">
+                {entry.regionKey ? (
+                  <p className="fg-toc__region">{t(entry.regionKey)}</p>
+                ) : null}
+                {entry.titleKey ? (
+                  <h2 className="fg-toc__title">
+                    {entry.titleAccentKey ? (
+                      <>
+                        {t(entry.titleKey)}{' '}
+                        <em>{t(entry.titleAccentKey)}</em>
+                      </>
+                    ) : (
+                      t(entry.titleKey)
+                    )}
                   </h2>
-                  <p className="fg-index__deck">{t(g.deckKey)}</p>
-                  <span className="fg-index__cta">{t('open')} →</span>
-                </Link>
-              );
-            })}
-            {Array.from({ length: PLACEHOLDER_COUNT }).map((_, i) => {
-              const issueNo = String(
-                PUBLISHED_GUIDES.length + i + 1,
-              ).padStart(2, '0');
-              return (
-                <div
-                  key={`placeholder-${i}`}
-                  className="fg-index__item fg-index__item--coming"
-                  aria-hidden="true"
+                ) : null}
+                <p
+                  className={
+                    isOpen
+                      ? 'fg-toc__deck'
+                      : 'fg-toc__deck fg-toc__deck--drafting'
+                  }
                 >
-                  <div className="fg-index__head">
-                    <span className="fg-index__num">{issueNo}</span>
-                    <span className="fg-index__region">{t('comingSoon')}</span>
-                  </div>
-                  <p className="fg-index__placeholder">{t('inDrafting')}</p>
-                </div>
-              );
-            })}
-          </div>
-        </section>
-      </FieldReveal>
+                  {t(entry.deckKey)}
+                </p>
+              </div>
+              <div className="fg-toc__status">
+                {isOpen && entry.slug ? (
+                  <Link
+                    href={`/resources/${entry.slug}`}
+                    className="fg-toc__open"
+                  >
+                    {t('open')} →
+                  </Link>
+                ) : (
+                  <span className="fg-toc__drafting">{t('drafting')}</span>
+                )}
+              </div>
+            </li>
+          );
+        })}
+      </ol>
+
+      <footer className="fg-toc-colophon">
+        <span className="fg-wordmark">
+          Travel<span>2</span>Egypt
+        </span>
+        <p>{t('indexColophon')}</p>
+      </footer>
     </FieldGuideShell>
   );
 }

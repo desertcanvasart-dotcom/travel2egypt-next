@@ -11,6 +11,10 @@ interface FieldMastheadProps {
   title: ReactNode;
   /** Standfirst paragraph; the optional `em` portion is rendered muted-italic */
   standfirst: ReactNode;
+  /** Wordmark suffix — defaults to "Field Guide" (singular) for individual
+   *  guides. The /resources index passes "Field Guides" (plural) since it
+   *  reads as the volume that contains them. */
+  wordmarkSuffix?: string;
 }
 
 /**
@@ -25,12 +29,13 @@ export function FieldMasthead({
   tagSummary,
   title,
   standfirst,
+  wordmarkSuffix = 'Field Guide',
 }: FieldMastheadProps) {
   return (
     <header className="fg-mast">
       <div className="fg-mast__top">
         <div className="fg-wordmark">
-          Travel<span>2</span>Egypt &nbsp;·&nbsp; Field Guide
+          Travel<span>2</span>Egypt &nbsp;·&nbsp; {wordmarkSuffix}
         </div>
         <div className="fg-mast__meta">
           <span className="fg-label fg-label--soft">{number}</span>

@@ -188,55 +188,129 @@
   letter-spacing: 0.04em; color: var(--fg-ink-soft); line-height: 1.7;
 }
 
-/* ---------- /resources index ---------- */
-.fg-index { padding: 0 0 80px; }
-.fg-index__list {
-  display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: 0; border-top: 1px solid var(--fg-rule);
+/* ---------- /resources — Field Guide table of contents ----------
+ * Magazine TOC, not a card grid. Vertical list of substantial editorial
+ * blocks (number / content / status), separated by hairline rules.
+ * Narrow reading measure (~880px max), generous vertical air, status
+ * column on the right (gold link for open, muted italic for drafting). */
+.fg-toc {
+  max-width: 880px;
+  margin: 96px auto 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: none;
 }
-.fg-index__item {
-  border-bottom: 1px solid var(--fg-rule);
-  border-right: 1px solid var(--fg-rule);
-  padding: 30px 28px 36px;
-  display: flex; flex-direction: column; min-height: 320px;
-  text-decoration: none; color: var(--navy);
-  transition: background 0.35s ease;
+.fg-toc__subhead {
+  max-width: 64ch;
+  margin: 36px 0 0;
+  font-family: var(--read);
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--navy);
 }
-.fg-index__item:nth-child(3n) { border-right: none; }
-.fg-index__item:hover { background: rgba(184, 148, 86, 0.06); }
-.fg-index__item--coming {
-  cursor: default; pointer-events: none;
-  background: rgba(20, 36, 59, 0.02);
+
+.fg-toc__entry {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) 160px;
+  gap: 40px;
+  align-items: baseline;
+  padding: 54px 0;
+  border-top: 1px solid var(--fg-rule);
 }
-.fg-index__head {
-  display: flex; justify-content: space-between; align-items: baseline;
-  gap: 12px; margin-bottom: 16px;
+.fg-toc__entry:last-child { border-bottom: 1px solid var(--fg-rule); }
+.fg-toc__entry--drafting .fg-toc__title,
+.fg-toc__entry--drafting .fg-toc__deck { color: var(--navy-mute); }
+.fg-toc__entry--drafting { opacity: 0.78; }
+
+.fg-toc__num {
+  font-family: var(--ui);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--navy-mute);
+  letter-spacing: 0.02em;
+  padding-top: 2px;
 }
-.fg-index__num {
-  font-family: var(--display); font-size: 34px; font-weight: 600; line-height: 1;
+
+.fg-toc__region {
+  font-family: var(--ui);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
   color: var(--gold);
+  margin: 0 0 14px;
 }
-.fg-index__region {
-  font-family: var(--ui); font-size: 10.5px; font-weight: 600;
-  letter-spacing: 0.14em; text-transform: uppercase; color: var(--fg-ink-soft);
+
+.fg-toc__title {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: clamp(28px, 3.2vw, 36px);
+  line-height: 1.08;
+  letter-spacing: 0;
+  color: var(--navy);
+  margin: 0 0 12px;
 }
-.fg-index__title {
-  font-family: var(--display); font-weight: 600;
-  font-size: 30px; line-height: 1.05; letter-spacing: 0.005em;
-  color: var(--navy); margin-bottom: 8px;
+.fg-toc__title em { font-style: italic; color: var(--gold); font-weight: 500; }
+
+.fg-toc__deck {
+  font-family: var(--read);
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--navy);
+  margin: 0;
+  max-width: 56ch;
 }
-.fg-index__title em { font-style: italic; color: var(--gold); font-weight: 500; }
-.fg-index__deck {
-  font-size: 16px; line-height: 1.46; color: var(--navy); margin-bottom: 18px;
+.fg-toc__deck--drafting {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 19px;
+  color: var(--navy-mute);
 }
-.fg-index__cta {
-  margin-top: auto;
-  font-family: var(--ui); font-size: 11px; font-weight: 600;
-  letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold);
+
+.fg-toc__status { text-align: right; padding-top: 6px; }
+
+.fg-toc__open {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 17px;
+  color: var(--gold);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  white-space: nowrap;
 }
-.fg-index__placeholder {
-  font-family: var(--display); font-style: italic;
-  color: var(--fg-ink-soft); font-size: 18px; margin-top: auto;
+.fg-toc__open:hover { color: var(--gold-dark); }
+
+.fg-toc__drafting {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 15px;
+  color: var(--navy-mute);
+  white-space: nowrap;
+}
+
+/* Colophon strip — matches the egyptian-gods page's .egt-colophon
+ * treatment but scoped to the index. */
+.fg-toc-colophon {
+  max-width: 880px;
+  margin: 24px auto 80px;
+  padding: 22px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  flex-wrap: wrap;
+  border-top: 1.5px solid var(--navy);
+}
+.fg-toc-colophon .fg-wordmark { font-size: 13px; }
+.fg-toc-colophon p {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--navy-mute);
+  text-align: right;
+  max-width: 56ch;
+  margin: 0;
 }
 
 /* ---------- motion ----------
@@ -246,8 +320,7 @@
  * added the item animates from a small translated/transparent start
  * back into place. */
 .fg-card.fg-reveal,
-.fg-scale__box.fg-reveal,
-.fg-index__item.fg-reveal {
+.fg-scale__box.fg-reveal {
   animation: fgRise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
 }
 @keyframes fgRise {
@@ -262,9 +335,17 @@
   .fg-card:nth-child(2n) { border-right: none; }
   .fg-foot { grid-template-columns: 1fr; }
   .fg-colophon { text-align: left; }
-  .fg-index__list { grid-template-columns: repeat(2, 1fr); }
-  .fg-index__item:nth-child(3n) { border-right: 1px solid var(--fg-rule); }
-  .fg-index__item:nth-child(2n) { border-right: none; }
+  .fg-toc { margin-top: 64px; }
+  .fg-toc__entry {
+    grid-template-columns: 48px minmax(0, 1fr);
+    gap: 28px;
+    padding: 40px 0;
+  }
+  .fg-toc__status {
+    grid-column: 2;
+    text-align: left;
+    padding-top: 6px;
+  }
 }
 @media (max-width: 560px) {
   .fg-doc { font-size: 18px; }
@@ -272,13 +353,19 @@
   .fg-grid { grid-template-columns: 1fr; }
   .fg-card { border-right: none !important; }
   .fg-mast__meta { display: none; }
-  .fg-index__list { grid-template-columns: 1fr; }
-  .fg-index__item { border-right: none !important; }
+  .fg-toc__entry {
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 36px 0;
+  }
+  .fg-toc__num { font-size: 14px; padding-top: 0; }
+  .fg-toc__status { grid-column: 1; padding-top: 4px; }
+  .fg-toc-colophon { flex-direction: column; }
+  .fg-toc-colophon p { text-align: left; }
 }
 @media (prefers-reduced-motion: reduce) {
   .fg-card.fg-reveal,
-  .fg-scale__box.fg-reveal,
-  .fg-index__item.fg-reveal { animation: none; }
+  .fg-scale__box.fg-reveal { animation: none; }
 }
 .fg-doc :focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 
