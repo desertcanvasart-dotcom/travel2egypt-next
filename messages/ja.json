@@ -129,7 +129,7 @@
     "resourcesArabic": "アラビア語、軽やかに",
     "resourcesTipping": "チップ、正直に",
     "resourcesCuisine": "エジプト、皿の上に",
-    "resourcesTimeline": "三千年、順番に",
+    "resourcesTimeline": "三千年、順を追って",
     "practicalLabel": "実用情報",
     "passportVisa": "エジプトのビザと入国ガイド",
     "currencyMoney": "エジプトの通貨とお金",
@@ -1160,142 +1160,142 @@
     },
     "timelineRegion": "エジプト全土",
     "timelineTitle": "三千年、",
-    "timelineTitleAccent": "順番に",
-    "timelineDeck": "クレオパトラはピラミッドよりiPhoneに時間的に近い——古代エジプトの実用年表。記念碑に足を踏み入れたとき、誰のものかがわかるように。",
+    "timelineTitleAccent": "順を追って",
+    "timelineDeck": "クレオパトラは時間的に、ピラミッドよりもiPhoneに近い距離にいます——ファラオ時代のエジプトの実用年表。記念碑に足を踏み入れたとき、それが誰のものか分かるように。",
     "timeline": {
-      "metaTitle": "Three Thousand Years, In Order — Travel2Egypt Field Guide",
-      "metaDescription": "Cleopatra is closer in time to the iPhone than to the Pyramids. A working chronology of pharaonic Egypt for travellers walking into the monuments.",
+      "metaTitle": "三千年、順を追って — Travel2Egypt Field Guide",
+      "metaDescription": "クレオパトラは時間的に、ピラミッドよりもiPhoneに近い距離にいます。ファラオ時代のエジプトの三千年が、どう繋がっているのかを、ここに整理します。",
       "kicker": "No. 05",
-      "region": "Egypt, end to end",
-      "tagSummary": "Pharaoh Timeline",
-      "titlePrefix": "Three Thousand Years,",
-      "titleAccent": "In Order",
-      "standfirstLead": "Cleopatra is closer in time to the iPhone than to the Pyramids.",
-      "standfirstAccent": "Here's how three thousand years of pharaonic Egypt fits together.",
-      "figureCaption": "Era widths drawn to scale — 1 unit ≈ 4 years. Tut omitted from the visual; he sits in the New Kingdom section below.",
-      "intro1": "Most travellers arrive in Egypt with a sense that the pharaohs are a single thing — ancient, robed, monumental. Standing in Karnak or Giza, the temporal scale doesn't quite register: the Old Kingdom pyramid builders are as distant from the New Kingdom temple builders as we are from the Roman Empire. Ramses II ruled when Troy was being besieged. Cleopatra was born closer to our time than to the building of the Great Pyramid.",
-      "intro2": "What follows is a working chronology — the periods, the key rulers, and what each era actually built — written so that when you walk into a monument, you know whose monument it is and where it sits in the larger story.",
+      "region": "エジプト全土",
+      "tagSummary": "ファラオの年表",
+      "titlePrefix": "三千年、",
+      "titleAccent": "順を追って",
+      "standfirstLead": "クレオパトラは時間的に、ピラミッドよりもiPhoneに近い距離にいます。",
+      "standfirstAccent": "ファラオ時代のエジプトの三千年が、どう繋がっているのかを、ここに整理します。",
+      "figureCaption": "時代の幅は実比例——1単位は約4年。ツタンカーメンは図には含まれていません——下の新王国の項で扱います。",
+      "intro1": "たいていの旅行者は、ファラオを一つの存在——古代の、衣をまとった、記念碑的なもの——として捉えてエジプトに到着します。カルナックやギザに立っているとき、時間のスケールはなかなか実感されません——古王国のピラミッド建造者たちは、新王国の神殿建造者たちから、わたしたちが今ローマ帝国から隔たっているのと同じだけ遠いところにいるのです。ラムセス2世が即位していたとき、トロイは攻囲されていました。クレオパトラは、大ピラミッドの建造よりも、わたしたちの時代に近いところに生まれています。",
+      "intro2": "以下は、作業用の年表です——時代、主な統治者、そして各時代が実際に何を築いたか。記念碑に足を踏み入れたとき、それが誰の時代のものか、より大きな物語のどこに位置するかが分かるようにまとめてあります。",
       "eras": {
         "old": {
-          "label": "Old Kingdom · ~2686–2181 BC",
-          "frame": "The Old Kingdom is the Pyramid Age — the period during which the stone pyramid was invented, perfected, and eventually outgrown. The capital was Memphis. The architecture is restrained and monumental; the surviving art has a frontal, symmetrical formality. This is the Egypt of dressed-stone certainty.",
-          "op": "What travellers see of the Old Kingdom is pyramids and Saqqara. The temples and palaces are mostly gone; what survived are tombs, because they were built to survive. The frontal art style that feels \"Egyptian\" to modern eyes was perfected here."
+          "label": "古王国 · 紀元前2700年頃〜2200年頃",
+          "frame": "古王国は「ピラミッド時代」です——石のピラミッドが発明され、洗練され、最終的に乗り越えられていった時代。首都はメンフィスでした。建築は抑制されていて記念碑的、現存する芸術は、正面性のある左右対称の様式を持っています。これは、削り出した石の確信に満ちたエジプトです。",
+          "op": "旅行者が古王国から目にするのはピラミッドと玄武岩です。神殿と宮殿はほぼ失われ、残ったのは墓です——墓は、残ることを目的に造られたためです。現代の目には「エジプト的」に映る正面性の芸術様式は、ここで完成しました。"
         },
         "inter1": {
-          "label": "First Intermediate Period · ~2181–2055 BC",
-          "frame": "Civil war, decentralised power, regional rulers competing for legitimacy. No major monuments travellers visit; the era's interest is mostly archaeological. Worth knowing only because it explains why the Middle Kingdom afterward felt the need to perform reunification."
+          "label": "第一中間期 · 紀元前2200年頃〜2050年頃",
+          "frame": "内戦、地方権力の分散、正統性を競う地方の支配者たち。旅行者が訪れる主要な記念碑はなく、この時代の関心は、主として考古学的なものです。知っておく価値があるのは、これが続く中王国がなぜ統一を演じる必要を感じたのかを説明してくれるからです。"
         },
         "middle": {
-          "label": "Middle Kingdom · ~2055–1650 BC",
-          "frame": "The Middle Kingdom is the literary age — the period that produced Egypt's classical literature, refined administrative systems, and built more modestly than the Old Kingdom. The capital moved to Thebes and then to Itj-tawy. The pyramids returned but smaller, built of mud brick faced with stone.",
-          "op": "Middle Kingdom monuments are harder to find than Old or New Kingdom ones — many are eroded or lost. The Fayoum pyramid trip is the most accessible Middle Kingdom experience for most travellers."
+          "label": "中王国 · 紀元前2050年頃〜1650年頃",
+          "frame": "中王国は文学の時代です——エジプトの古典文学を生み、行政制度を洗練させ、古王国よりも質素に建造した時代。首都はテーベへ移り、その後イチタウィへと移りました。ピラミッドは戻ってきましたが、より小さく、石で覆った日干し煉瓦で造られました。",
+          "op": "中王国の記念碑は、古王国や新王国のものよりも見つけにくいものです——多くが浸食されているか、失われています。ファイユームのピラミッドへの遠出が、多くの旅行者にとっては最も訪ねやすい中王国の体験となります。"
         },
         "inter2": {
-          "label": "Second Intermediate Period · ~1650–1550 BC",
-          "frame": "Hyksos rule. The Asiatic Hyksos governed the Delta from Avaris; the rest of Egypt paid tribute or contested the territory. The Hyksos brought the chariot, the composite bow, and the horse to Egypt — innovations the New Kingdom would later turn into an empire."
+          "label": "第二中間期 · 紀元前1650年頃〜1550年頃",
+          "frame": "ヒクソスの支配。アジア系のヒクソスがアヴァリスからデルタを治め、エジプトの他の地域は朝貢するか、領地を争っていました。ヒクソスはエジプトに戦車、複合弓、馬をもたらしました——のちに新王国がこれらを帝国へと転化することになる、技術革新です。"
         },
         "new": {
-          "label": "New Kingdom · ~1550–1069 BC",
-          "frame": "The New Kingdom is the empire era — Egypt at its most outward-looking, militarised, theatrical, and rich. The capital was Thebes (modern Luxor); the rulers built temple complexes on a scale never attempted before or since. This is the Egypt of the famous names — Hatshepsut, Akhenaten, Tutankhamun, Ramses II — and the period most travellers spend the most time in.",
-          "op": "The New Kingdom is what most travellers come to Egypt to see. Karnak, Luxor Temple, the Valley of the Kings, Abu Simbel — all New Kingdom. If you have one week in Egypt, this is the era you spend most of it in."
+          "label": "新王国 · 紀元前1550年頃〜1070年頃",
+          "frame": "新王国は帝国の時代です——エジプトが最も外向きで、軍事化され、劇場的で、富裕だった時期。首都はテーベ（現代のルクソール）。歴代の支配者たちは、それ以前にも以後にも試みられたことのない規模で神殿複合体を建造しました。これは、有名な名前のエジプトです——ハトシェプスト、アクエンアテン、ツタンカーメン、ラムセス2世——そして、たいていの旅行者が最も長く時間を過ごす時代です。",
+          "op": "新王国は、たいていの旅行者がエジプトに見に来るものです——カルナック、ルクソール神殿、王家の谷、アブ・シンベル——すべて新王国のものです。エジプトに一週間あるなら、その大半を過ごすことになるのは、この時代です。"
         },
         "inter3": {
-          "label": "Third Intermediate Period · ~1069–664 BC",
-          "frame": "Decline and fragmentation. Libyan dynasties ruled the Delta; Nubian pharaohs (the 25th Dynasty) ruled the whole country from the south for a century. The era is undervalued — Nubian kings restored old temples and revived earlier artistic styles — but produced few headline monuments travellers visit on a standard itinerary."
+          "label": "第三中間期 · 紀元前1070年頃〜664年頃",
+          "frame": "衰退と分裂。リビアの諸王朝がデルタを治め、ヌビア系のファラオ（第25王朝）が一世紀にわたって南から国全体を治めました。この時代は過小評価されています——ヌビアの王たちは古い神殿を修復し、それ以前の芸術様式を再興しました——とはいえ、標準的な旅程で旅行者が訪れる、主役級の記念碑はあまり生みませんでした。"
         },
         "late": {
-          "label": "Late Period · ~664–332 BC",
-          "frame": "Persian conquests punctuated by brief Egyptian restorations. The Saite (26th) Dynasty revived archaic art deliberately, looking back to the Old Kingdom across two thousand years. Persians twice conquered Egypt; twice were thrown out. Some surviving Late Period temple work blends naturally into what travellers think of as \"classical\" Egyptian — the period is more present in standard sites than visitors realise."
+          "label": "末期王朝 · 紀元前664年頃〜332年",
+          "frame": "ペルシアの征服と、その合間の短いエジプトの復活。第26王朝（サイス朝）は、古代の芸術様式を意図的に復興させ、二千年をさかのぼって古王国を見直しました。ペルシア人は二度エジプトを征服し、二度追い出されました。末期王朝の現存する神殿の仕事の一部は、旅行者が「古典的」エジプトと考えているものに自然に溶け込んでいます——この時代は、訪問者が思っているよりも、標準的な遺跡群のなかにより多く現れているのです。"
         },
         "ptolemaic": {
-          "label": "Ptolemaic Egypt · 332–30 BC",
-          "frame": "After Alexander the Great's conquest in 332 BC, Egypt was ruled by a Greek-Macedonian dynasty for three hundred years. The Ptolemies built in the Egyptian style but as Greeks ruling Egypt — temples that look pharaonic but were built when Rome was already rising. Most of the \"classic\" Egyptian temples travellers visit are actually Ptolemaic.",
-          "op": "Edfu Temple, Kom Ombo, Dendera, Philae — all Ptolemaic. These are the best-preserved temples in Egypt precisely because they're \"newest.\" Travellers often assume they're New Kingdom or earlier; they're not."
+          "label": "プトレマイオス朝 · 紀元前332年〜30年",
+          "frame": "紀元前332年のアレクサンドロス大王の征服のあと、エジプトはギリシア・マケドニア系の王朝に300年間統治されました。プトレマイオス朝はエジプト様式で建造しましたが、ギリシア人が治めるエジプトとして建てました——ファラオ風に見えながら、ローマがすでに台頭しつつあった時代に建てられた神殿群です。旅行者が訪れる「古典的」エジプトの神殿のほとんどは、実際にはプトレマイオス朝のものです。",
+          "op": "エドフ神殿、コム・オンボ、デンデラ、フィラエ——すべてプトレマイオス朝のものです。これらがエジプトで最も保存状態の良い神殿群であるのは、まさにそれらが「より新しい」からです。古代ファラオ風の見た目を持ってはいますが、新王国やそれ以前のものではありません。"
         },
         "roman": {
-          "label": "Roman Egypt and after · 30 BC onward",
-          "frame": "Rome inherited Egypt with Cleopatra's death. Some pharaonic traditions continued — late-Roman temple work at Philae, Kalabsha, Dendur — but pharaonic Egypt as a self-ruling civilisation ended in 30 BC. The timeline above stops there. Christianisation, the Arab conquest of 641 AD, the Mamluks, the Ottomans, modern Egypt: each is a long story of its own, beyond the chronology this guide covers."
+          "label": "ローマ領エジプトとそれ以降 · 紀元前30年から",
+          "frame": "クレオパトラの死とともに、ローマがエジプトを継承しました。一部のファラオの伝統は続きました——フィラエ、カラブシャ、デンドゥールでの後期ローマ期の神殿の仕事——とはいえ、自治の文明としてのファラオ時代のエジプトは、紀元前30年に終わりました。上の年表もそこで止まります。キリスト教化、紀元641年のアラブの征服、マムルーク朝、オスマン朝、現代エジプト——それぞれが、このガイドの扱う年代記の外にある、それ自体で長い物語です。"
         }
       },
       "pharaohs": {
         "djoser": {
-          "name": "Djoser",
-          "dates": "~2670 BC · 3rd Dynasty",
-          "body": "Commissioned the Step Pyramid at Saqqara — the world's first large stone building. Designed by Imhotep, the architect who became Egypt's first individual named in history."
+          "name": "ジェセル王",
+          "dates": "紀元前2670年頃 · 第3王朝",
+          "body": "サッカラの階段ピラミッドを発注しました——世界で最初の大規模な石造建築です。設計したのは、エジプトの歴史上、名前で記録された最初の個人となる建築家、イムホテプです。"
         },
         "sneferu": {
-          "name": "Sneferu",
-          "dates": "~2613 BC · 4th Dynasty",
-          "body": "Built three pyramids — Meidum, Bent, and Red — figuring out through experimentation how to make a true pyramid stand. The father of Khufu and the unsung hero of Egyptian engineering."
+          "name": "スネフェル王",
+          "dates": "紀元前2600年頃 · 第4王朝",
+          "body": "三つのピラミッドを建造しました——メイドゥム、屈折、赤——本物のピラミッドを立たせるための方法を、実験を通じて編み出していきました。クフ王の父であり、エジプト工学の縁の下の功労者です。"
         },
         "khufu": {
-          "name": "Khufu",
-          "dates": "~2580 BC · 4th Dynasty",
-          "body": "Built the Great Pyramid at Giza — the largest stone building ever made in antiquity, and the only Wonder of the Ancient World still standing. Almost nothing else about his reign survives."
+          "name": "クフ王",
+          "dates": "紀元前2570年頃 · 第4王朝",
+          "body": "ギザの大ピラミッドを建造しました——古代に造られた最も大きな石造建築であり、いまも立つ古代世界の七不思議の唯一の建造物です。彼の治世については、ほかにはほとんど何も残っていません。"
         },
         "khafre": {
-          "name": "Khafre",
-          "dates": "~2550 BC · 4th Dynasty",
-          "body": "Built the second Giza pyramid — slightly shorter than Khufu's but on higher bedrock, so it looks taller. Almost certainly commissioned the Sphinx."
+          "name": "カフラー王",
+          "dates": "紀元前2540年頃 · 第4王朝",
+          "body": "ギザの第二のピラミッドを建造しました——クフのものよりわずかに低いものの、より高い岩盤の上にあるため、より高く見えます。スフィンクスを発注したのも、ほぼ間違いなく彼です。"
         },
         "menkaure": {
-          "name": "Menkaure",
-          "dates": "~2510 BC · 4th Dynasty",
-          "body": "The third and smallest Giza pyramid. Sheathed in red Aswan granite at its base — the lower courses are still visible. The compression of the form after Khufu and Khafre marks the end of the Pyramid Age proper."
+          "name": "メンカウラー王",
+          "dates": "紀元前2510年頃 · 第4王朝",
+          "body": "ギザの三つ目で、最も小さなピラミッドです。基部はアスワン産の赤い花崗岩で覆われていました——下層の石は、いまも見えます。クフとカフラーのあとに形が圧縮されたことが、ピラミッド時代そのものの終わりの印です。"
         },
         "mentuhotep": {
-          "name": "Mentuhotep II",
-          "dates": "~2050 BC · 11th Dynasty",
-          "body": "Reunified Egypt after the First Intermediate Period and founded the Middle Kingdom. His mortuary temple at Deir el-Bahari predates Hatshepsut's — when you visit her three-terraced temple, you're standing next to his, partly demolished but still visible."
+          "name": "メンチュヘテプ2世",
+          "dates": "紀元前2050年頃 · 第11王朝",
+          "body": "第一中間期のあとエジプトを再統一し、中王国を創立しました。彼のデイル・エル・バハリの葬祭殿はハトシェプストのものより古いものです——三段の彼女の葬祭殿を訪れるとき、隣には彼の葬祭殿が、部分的に解体されつつも今なお見える状態で立っています。"
         },
         "senusret3": {
-          "name": "Senusret III",
-          "dates": "~1870 BC · 12th Dynasty",
-          "body": "A strong administrator who expanded Egypt's reach into Nubia. His surviving statues are striking for their realistic, careworn faces — a sharp break from the idealised faces of earlier kings."
+          "name": "センウセレト3世",
+          "dates": "紀元前1870年頃 · 第12王朝",
+          "body": "エジプトの版図をヌビアへと押し広げた、強力な行政官です。彼の現存する肖像彫刻は、現実的で、苦悩のにじむ顔立ちで際立っています——それ以前の王たちの理想化された顔立ちからの、はっきりとした断絶です。"
         },
         "amenemhat3": {
-          "name": "Amenemhat III",
-          "dates": "~1850 BC · 12th Dynasty",
-          "body": "Built the Hawara pyramid and the famous Labyrinth complex beside it — once one of the wonders of the ancient world, now almost entirely gone. Developed the Fayoum oasis as agricultural land."
+          "name": "アメンエムハト3世",
+          "dates": "紀元前1830年頃 · 第12王朝",
+          "body": "ハワラのピラミッドと、その傍らの有名な「迷宮（ラビリンス）」複合体を建造しました——かつては古代世界の不思議のひとつでしたが、いまはほぼ完全に失われています。ファイユーム・オアシスを農地として開発しました。"
         },
         "hatshepsut": {
-          "name": "Hatshepsut",
-          "dates": "~1479 BC · 18th Dynasty",
-          "body": "One of Egypt's few female pharaohs and one of the most successful. Her mortuary temple at Deir el-Bahari rises in three terraces against the cliff face — the most architecturally distinctive royal monument in Egypt."
+          "name": "ハトシェプスト",
+          "dates": "紀元前1480年頃 · 第18王朝",
+          "body": "エジプトの数少ない女性ファラオの一人で、最も成功した一人です。デイル・エル・バハリの彼女の葬祭殿は、崖を背に三段のテラスとして立ち上がっています——エジプトで建築的に最も独特な王室の記念碑です。"
         },
         "thutmose3": {
-          "name": "Thutmose III",
-          "dates": "~1479 BC · 18th Dynasty",
-          "body": "Hatshepsut's stepson and eventual successor. Expanded the empire to its largest extent in seventeen military campaigns. After Hatshepsut's death he attempted to erase her name from monuments — partly successfully, partly not."
+          "name": "トトメス3世",
+          "dates": "紀元前1450年頃 · 第18王朝",
+          "body": "ハトシェプストの継子で、のちの後継者です。17回の軍事遠征によって、帝国を史上最大の版図にまで拡げました。ハトシェプストの死後、彼女の名前を記念碑から消そうと試みました——一部は成功し、一部は失敗しました。"
         },
         "akhenaten": {
-          "name": "Akhenaten",
-          "dates": "~1351 BC · 18th Dynasty",
-          "body": "Religious revolutionary. Tried to replace traditional polytheism with worship of a single sun disk (Aten); moved the capital to Amarna and reigned from there. His successors dismantled his city, smashed his statues, and tried to erase him from the record. The art of his reign — naturalistic, elongated, unlike anything before or since — survives."
+          "name": "アクエンアテン",
+          "dates": "紀元前1350年頃 · 第18王朝",
+          "body": "宗教改革者です。伝統的な多神教を、単一の太陽円盤（アテン）の崇拝に置き換えようとし、首都をアマルナへ移して、そこから統治しました。彼の後継者たちは彼の都市を解体し、彼の彫像を破壊し、記録から彼を消そうとしました。彼の治世の芸術——自然主義的で、引き伸ばされた、それ以前にも以後にもないような様式——は、いまに残っています。"
         },
         "tut": {
-          "name": "Tutankhamun",
-          "dates": "~1336 BC · 18th Dynasty",
-          "body": "A minor king famous only because his tomb survived intact — the one royal tomb in the Valley of the Kings that escaped looting in antiquity. His treasure now anchors the Grand Egyptian Museum at Giza, the only place in the world where the entire find is shown together."
+          "name": "ツタンカーメン",
+          "dates": "紀元前1330年頃 · 第18王朝",
+          "body": "その墓が無傷で残ったというただ一点で有名な、地味な王です——王家の谷で、古代に盗掘を逃れた唯一の王室の墓です。彼の埋蔵品はいまや、ギザの大エジプト博物館の中核を担っており、発見された一式が一か所で公開されている、世界で唯一の場所となっています。"
         },
         "ramses": {
-          "name": "Ramses II",
-          "dates": "~1279 BC · 19th Dynasty",
-          "body": "Reigned 66 years. Egypt's great builder: Abu Simbel cut into the cliff at the southern frontier, the Ramesseum on the Theban west bank, vast additions to Karnak and Luxor, his face carved on statues everywhere from the Delta to Nubia. Most ancient pharaohs you've heard of are him."
+          "name": "ラムセス2世",
+          "dates": "紀元前1250年頃 · 第19王朝",
+          "body": "66年間統治しました。エジプトの偉大な建造者です——南の国境の崖に切り込んだアブ・シンベル、テーベの西岸のラメセウム、カルナックとルクソールへの大規模な増築、デルタからヌビアまでいたるところに、自分の顔を刻んだ彫像群。あなたが名前を聞いたことのある古代ファラオのほとんどは、彼です。"
         },
         "ptolemy1": {
-          "name": "Ptolemy I",
-          "dates": "~305 BC · Ptolemaic Dynasty",
-          "body": "Alexander the Great's Macedonian general. After Alexander's death he took Egypt as his share of the empire and founded a Greek dynasty that ruled the country in pharaonic guise for three hundred years. He also founded the Library of Alexandria."
+          "name": "プトレマイオス1世",
+          "dates": "紀元前305年頃 · 王朝の創始者",
+          "body": "アレクサンドロス大王のマケドニア軍の将軍です。アレクサンドロスの死後、彼はエジプトを帝国の自分の分け前として受け取り、ファラオ様式で300年間この国を治めるギリシア系の王朝を創始しました。アレクサンドリア図書館も創立しました。"
         },
         "cleopatra": {
-          "name": "Cleopatra VII",
-          "dates": "~51 BC · Ptolemaic Dynasty",
-          "body": "The last pharaoh of Egypt. Macedonian Greek by ancestry; spoke Egyptian, unusually for her dynasty. Her alliance and rivalry with Rome ended with her suicide in 30 BC. With her death, pharaonic Egypt ends."
+          "name": "クレオパトラ7世",
+          "dates": "紀元前30年没 · 最後のファラオ",
+          "body": "エジプト最後のファラオ。家系はマケドニア・ギリシア系ですが、その王朝の中では珍しく、エジプト語を話しました。ローマとの同盟と対立は、紀元前30年の彼女の自害で幕を閉じました。彼女の死とともに、ファラオ時代のエジプトは終わります。"
         }
       },
-      "closing": "Three thousand years is hard to hold in your head. The point of the chronology above isn't to memorise it — it's to give you a rough map. When you walk into a temple, ask first: which era was this built? Once you can answer that, the temple tells its story. The columns make sense. The reliefs make sense. The scale makes sense. Knowing whose monument it is — and where they sit in the larger sequence — is the difference between sightseeing and reading the country.",
-      "colophonNote": "Field guide · dates approximate · chronology after Shaw, Oxford History of Ancient Egypt"
+      "closing": "三千年は、頭の中に保つには長すぎるものです。上の年表の意義は、それを暗記することにはありません——おおざっぱな地図を提供することにあります。神殿に足を踏み入れたとき、まず尋ねるべきは「これはどの時代のものか」です。それに答えられるようになると、細部の収まりがついてきます。柱に意味が見えてきます。レリーフに意味が見えてきます。祭祀に意味が見えてきます。それが誰の記念碑であるか——そして、より大きな連なりのどこに位置するか——を知ることが、観光と、国を読むこととの違いです。",
+      "colophonNote": "フィールドガイド · 日付は概算 · 年代はShaw, Oxford History of Ancient Egyptに依拠"
     }
   }
 }
