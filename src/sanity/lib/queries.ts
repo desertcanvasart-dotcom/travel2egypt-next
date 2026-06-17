@@ -2129,6 +2129,11 @@ export const fieldGuideBySlugQuery = (locale: Locale) => groq`
         amount,
         "context": ${localizedField('context', locale)}
       },
+      dishes[]{
+        "name": ${localizedField('name', locale)},
+        "description": ${localizedField('description', locale)},
+        "operatorNote": ${localizedField('operatorNote', locale)}
+      },
       "operatorNote": ${localizedField('operatorNote', locale)},
       emphasized
     },

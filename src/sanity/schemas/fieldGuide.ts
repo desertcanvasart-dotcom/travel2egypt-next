@@ -187,6 +187,53 @@ export const fieldGuideSchema = defineType({
               ],
             }),
             defineField({
+              name: 'dishes',
+              title: 'Glossary entries',
+              description:
+                'Optional editorial glossary — each entry has a name (the term/dish), a description, and an optional per-entry operator note. Introduced for the Egyptian Cuisine guide (No. 04); reusable for any glossary-shaped guide.',
+              type: 'array',
+              of: [
+                {
+                  type: 'object',
+                  name: 'dishEntry',
+                  fields: [
+                    defineField({
+                      name: 'name',
+                      title: 'Name',
+                      description:
+                        'The term, dish, or item — rendered in editorial serif at the top of the entry.',
+                      type: 'internationalizedArrayString',
+                      validation: (Rule) => Rule.required(),
+                    }),
+                    defineField({
+                      name: 'description',
+                      title: 'Description',
+                      description:
+                        'The entry body. Paragraphs separated by a blank line.',
+                      type: 'internationalizedArrayText',
+                      validation: (Rule) => Rule.required(),
+                    }),
+                    defineField({
+                      name: 'operatorNote',
+                      title: 'Operator note',
+                      description:
+                        'Italic-gold commentary attached to this specific entry. Optional.',
+                      type: 'internationalizedArrayText',
+                    }),
+                  ],
+                  preview: {
+                    select: { name: 'name' },
+                    prepare({ name }) {
+                      const en = Array.isArray(name)
+                        ? name.find((v: any) => v._key === 'en')?.value
+                        : name;
+                      return { title: en || '(unnamed entry)' };
+                    },
+                  },
+                },
+              ],
+            }),
+            defineField({
               name: 'operatorNote',
               title: 'Operator note',
               description:

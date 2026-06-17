@@ -31,10 +31,17 @@ interface TipRow {
   context: string | null;
 }
 
+interface DishEntry {
+  name: string;
+  description: string;
+  operatorNote: string | null;
+}
+
 interface FieldGuideSection {
   title: string;
   body: string | null;
   tipRows: TipRow[] | null;
+  dishes: DishEntry[] | null;
   operatorNote: string | null;
   emphasized: boolean | null;
 }
@@ -185,6 +192,25 @@ export default async function FieldGuidePage({ params }: Props) {
                       <span className="fg-prose__row-context">
                         {row.context}
                       </span>
+                    ) : null}
+                  </li>
+                ))}
+              </ul>
+            ) : null}
+            {section.dishes && section.dishes.length > 0 ? (
+              <ul className="fg-prose__dishes">
+                {section.dishes.map((dish, di) => (
+                  <li key={di} className="fg-prose__dish">
+                    <h3 className="fg-prose__dish-name">{dish.name}</h3>
+                    {paragraphs(dish.description).map((p, pi) => (
+                      <p key={pi} className="fg-prose__dish-desc">
+                        {p}
+                      </p>
+                    ))}
+                    {dish.operatorNote ? (
+                      <aside className="fg-prose__dish-note">
+                        {dish.operatorNote}
+                      </aside>
                     ) : null}
                   </li>
                 ))}
