@@ -50,18 +50,18 @@ const ENTRIES: IndexEntry[] = [
     deckKey: 'pyramidsDeck',
     slug: 'pyramids-decoded',
   },
-  // Five placeholder slots — surfacing the planned arc without
-  // committing to titles or topics yet. Phase 2 replaces these in order
-  // as guides ship.
   {
     number: '02',
-    status: 'drafting',
-    regionKey: null,
-    titleKey: null,
-    titleAccentKey: null,
-    deckKey: 'inDrafting',
-    slug: null,
+    status: 'open',
+    regionKey: 'arabicRegion',
+    titleKey: 'arabicTitle',
+    titleAccentKey: 'arabicTitleAccent',
+    deckKey: 'arabicDeck',
+    slug: 'arabic-lightly',
   },
+  // Four placeholder slots — surfacing the planned arc without
+  // committing to titles or topics yet. Phase 2 replaces these in
+  // order as guides ship.
   {
     number: '03',
     status: 'drafting',
