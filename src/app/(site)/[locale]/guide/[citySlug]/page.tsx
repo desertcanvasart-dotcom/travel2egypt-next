@@ -15,6 +15,7 @@ import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
+import { objectPositionFromHotspot } from '@/lib/hotspot';
 import { cityBySlugQuery, allCitySlugsQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { CityGuideSidebar } from '@/components/CityGuideSidebar';
@@ -110,9 +111,15 @@ export default async function CityGuidePage({ params }: Props) {
     notFound();
   }
 
+  // Full-bleed viewport-height hero: request width-only (no forced crop)
+  // so the single CSS cover-crop is steered by the Studio hotspot via
+  // object-position — matching JourneyImage's full-bleed behaviour.
+  // (A forced height here would bake a 2:1 crop that the 60vh box then
+  // re-crops centred, defeating the hotspot.)
   const heroUrl = city.heroImage?.asset
-    ? urlFor(city.heroImage).width(2000).height(1000).quality(85).url()
+    ? urlFor(city.heroImage).width(2400).quality(85).auto('format').url()
     : null;
+  const heroObjectPosition = objectPositionFromHotspot(city.heroImage?.hotspot);
 
   // Hide the Key Facts card entirely when no field has content. Per session
   // 5 carryover: an empty card with just the heading reads as a layout
@@ -174,6 +181,7 @@ export default async function CityGuidePage({ params }: Props) {
             fill
             priority
             className="object-cover"
+            style={{ objectPosition: heroObjectPosition }}
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-night/65 via-night/20 to-transparent" />

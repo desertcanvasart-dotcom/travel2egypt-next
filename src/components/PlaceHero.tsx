@@ -2,6 +2,7 @@ import Image from 'next/image';
 
 import { Link } from '@/i18n/navigation';
 import { urlFor } from '@/sanity/lib/image';
+import { objectPositionFromHotspot } from '@/lib/hotspot';
 
 /**
  * Place hero — a full-bleed image with a bottom-aligned title overlay and a
@@ -16,13 +17,22 @@ export function PlaceHero({
   kickerHref,
   title,
 }: {
-  image?: { asset?: unknown; alt?: string } | null;
+  image?: {
+    asset?: unknown;
+    alt?: string;
+    hotspot?: { x?: number; y?: number } | null;
+  } | null;
   alt?: string;
   kicker?: string;
   kickerHref?: string;
   title: string;
 }) {
-  const url = image?.asset ? urlFor(image).width(2000).height(1100).quality(85).url() : null;
+  // Width-only request + hotspot-steered object-position, so the full-bleed
+  // cover-crop favours the editor's focal point (matches JourneyImage).
+  const url = image?.asset
+    ? urlFor(image).width(2400).quality(85).auto('format').url()
+    : null;
+  const objectPosition = objectPositionFromHotspot(image?.hotspot);
 
   const kickerNode = kicker ? (
     kickerHref ? (
@@ -60,6 +70,7 @@ export function PlaceHero({
         priority
         sizes="100vw"
         className="object-cover"
+        style={{ objectPosition }}
       />
       <div
         aria-hidden

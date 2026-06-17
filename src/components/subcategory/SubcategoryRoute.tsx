@@ -28,13 +28,13 @@ export interface SubcategoryLandingDoc {
   summary?: string;
   intro?: unknown;
   ctaContext?: string;
-  heroImage?: { asset?: unknown; alt?: string } | null;
+  heroImage?: { asset?: unknown; alt?: string; hotspot?: { x?: number; y?: number } | null } | null;
   category?: { key?: string; title?: string; slug?: string } | null;
   destinationCity?: {
     _id: string;
     name: string;
     slug: string;
-    heroImage?: { asset?: unknown; alt?: string } | null;
+    heroImage?: { asset?: unknown; alt?: string; hotspot?: { x?: number; y?: number } | null } | null;
   } | null;
   tours?: RawTour[];
 }
