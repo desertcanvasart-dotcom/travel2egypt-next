@@ -63,10 +63,29 @@ export async function HomeView({
   const guideCards = data?.guideCards ?? [];
   const starts = data?.startingPoints ?? [];
 
+  // Inline asset references — the three city heroes that best
+  // illustrate each way to travel (Giza for day tours, Luxor for
+  // packages, Aswan for cruises). Move to Sanity later if editorial
+  // wants per-locale or per-campaign swaps.
   const ways = [
-    { key: 'way1', href: '/private-day-tours' },
-    { key: 'way2', href: '/egypt-travel-packages' },
-    { key: 'way3', href: '/nile-cruises' },
+    {
+      key: 'way1',
+      href: '/private-day-tours',
+      image: { asset: { _ref: 'image-b620522286b15ca9299ed5d862c5ad852f856404-3000x2000-jpg' } },
+      alt: 'The Giza pyramids at the edge of the desert.',
+    },
+    {
+      key: 'way2',
+      href: '/egypt-travel-packages',
+      image: { asset: { _ref: 'image-c9d2ecb97c5987daf1b396405039e67f4d5075cc-3000x1989-jpg' } },
+      alt: 'Luxor Temple, lit at dusk.',
+    },
+    {
+      key: 'way3',
+      href: '/nile-cruises',
+      image: { asset: { _ref: 'image-98352fa19f111d00d5204c1dedcf94487bdc3743-3000x1381-jpg' } },
+      alt: 'A felucca on the Nile at Aswan.',
+    },
   ];
   const steps = ['step1', 'step2', 'step3', 'step4'];
 
@@ -169,9 +188,9 @@ export async function HomeView({
             </div>
           </div>
           <div className="ways">
-            {ways.map(({ key, href }) => (
+            {ways.map(({ key, href, image, alt }) => (
               <Link className="way" href={href} key={key}>
-                <JourneyImage image={null} alt="" className="" sizes="(max-width:980px) 100vw, 380px" widthHint={760} ratio={4 / 3} />
+                <JourneyImage image={image} alt={alt} className="" sizes="(max-width:980px) 100vw, 380px" widthHint={760} ratio={4 / 3} />
                 <h3>{t(`${key}Title`)}</h3>
                 <p>{t(`${key}Dek`)}</p>
                 <span className="go">{t(`${key}Go`)}</span>

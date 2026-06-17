@@ -37,6 +37,7 @@ export function Header({ locale }: HeaderProps) {
           {/* Visual order, right-to-left: Journeys, Journal, Travel Guide, Travel Tips.
               JSX is left-to-right, so the array is reversed. */}
           <li><Link href="/travel-tips">{t('travelTips')}</Link></li>
+          <li><Link href="/about">{t('about')}</Link></li>
           <li><Link href="/guide">{t('guide')}</Link></li>
           <li><Link href="/blog">{t('blog')}</Link></li>
           {/* Egypt Wiki nav stays hidden for v1 (session 31 defer). */}
