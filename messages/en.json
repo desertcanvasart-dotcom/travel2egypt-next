@@ -1078,6 +1078,10 @@
     "pyramidsTitle": "The Pyramids,",
     "pyramidsTitleAccent": "Decoded",
     "pyramidsDeck": "Eight pyramids, a thousand years of trial and error — and how to tell them apart at a glance.",
+    "arabicRegion": "Egypt, end to end",
+    "arabicTitle": "Arabic,",
+    "arabicTitleAccent": "Lightly",
+    "arabicDeck": "Forty Arabic words and phrases that make travel in Egypt warmer — with the operator notes that matter.",
     "pyramids": {
       "metaTitle": "The Pyramids, Decoded — Travel2Egypt Field Guide",
       "metaDescription": "Eight pyramids, a thousand years of trial and error. How to tell them apart at a glance — by their silhouettes, not their signage.",
@@ -1173,6 +1177,47 @@
       "colophon1": "A field guide to Lower Egypt",
       "colophon2": "Heights as built · all dates approximate",
       "colophon3": "Drawn by silhouette, not to absolute scale within cards"
+    },
+    "arabic": {
+      "metaTitle": "Arabic, Lightly — Travel2Egypt Field Guide",
+      "metaDescription": "Forty Arabic words and phrases for travellers in Egypt — with the operator-grade cultural notes that matter.",
+      "kicker": "No. 02",
+      "region": "Egypt, end to end",
+      "tagSummary": "Arabic for Travelers",
+      "titlePrefix": "Arabic,",
+      "titleAccent": "Lightly",
+      "standfirstLead": "Eighty million people speak it.",
+      "standfirstAccent": "Here are forty words that will make your trip warmer.",
+      "intro1": "You don't need fluent Arabic to travel Egypt. English carries you through most hotels, museums, and tourist sites. But a few words used at the right moment shift how Egyptians respond to you — a market vendor smiles wider, a driver relaxes, a waiter remembers you. What follows is the small list that does the most work.",
+      "intro2": "Egyptian Arabic differs from the formal Arabic taught in textbooks. The greetings, the rhythms, the cultural words — these are what you'll actually hear. We've written pronunciation as it sounds, not as it's spelled.",
+      "sections": {
+        "greetings": {
+          "title": "Greetings and warmth",
+          "operatorNote": "As-salāmu ʿalaykum is universal and works in any context — Christian or Muslim, formal or casual. It's the safest opener you can use."
+        },
+        "market": {
+          "title": "At a market or with a taxi",
+          "operatorNote": "Bargaining is expected in markets and on souvenir prices — the first quote is almost always 2-3× what the vendor will accept. Counter at 30-40% and meet in the middle. Tone matters: friendly bargaining is a social ritual, aggressive bargaining is rude."
+        },
+        "restaurant": {
+          "title": "At a restaurant",
+          "operatorNote": "Maʾalaysh deserves its own paragraph. It's the Egyptian word for accepting small inconveniences without escalation — spilled tea, late arrival, mild mishaps. Learning when to say it (and how to take it when said to you) is the cultural shortcut."
+        },
+        "driver": {
+          "title": "With your guide or driver"
+        },
+        "cultural": {
+          "title": "The cultural ones (used by everyone)",
+          "operatorNote": "These five phrases are used by Egyptians of all backgrounds in essentially every conversation. Mā shāʾ Allāh in particular is important — if you compliment someone's child without saying it, you may make the parent uneasy."
+        },
+        "yesNo": {
+          "title": "The polite \"no\"s and \"yes\"es"
+        }
+      },
+      "warningTitle": "What NOT to say",
+      "warning": "A few quick warnings. The word for \"give me\" (hāt) is technically valid Arabic but reads as rude to strangers — use mumkin (may I have…) instead. Pointing with one finger is impolite; gesture with the whole hand. And while in shāʾ Allāh is sincere from Egyptians, foreigners using it can sound dismissive — only say it if you genuinely mean \"if circumstances allow,\" not as a non-answer.",
+      "closing": "Egyptian Arabic carries warmth that English translation flattens. Even broken Arabic, attempted with goodwill, lands differently from good English. A market vendor who hears Lazīz! over a bite of koshari is being told something that \"this is delicious\" can't quite say. The forty words above are a starting point. The rest you learn by listening.",
+      "colophonNote": "Field guide · pronunciation by ear, not by textbook · Egyptian dialect"
     },
     "egyptianGods": {
       "metaTitle": "The Egyptian Gods, Mapped — Travel2Egypt Field Guide",

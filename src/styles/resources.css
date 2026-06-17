@@ -538,3 +538,191 @@
   .egt-intro, .egt-outro { font-size: 17px; }
   .egt-colophon p { text-align: left; }
 }
+
+/* ============================================================================
+ * Arabic, Lightly (afa-*) — /resources/arabic-lightly Field Guide No. 02
+ *
+ * Phrase rows are a three-column grid: Arabic script (RTL) / scholarly
+ * romanization (italic Cormorant) / English meaning. The optional sub-note
+ * spans the right two columns underneath. Operator notes per section
+ * render as a left-bordered sidebar in the brand-gold style.
+ *
+ * The "What NOT to say" warning block carries a hairline-rule above and
+ * below to signal it's the operator's caution, distinct from the phrase
+ * list. The closing reflection is a quiet editorial coda.
+ * ========================================================================== */
+
+.afa-intro {
+  max-width: 64ch;
+  margin: 38px 0 24px;
+}
+.afa-intro p {
+  font-family: var(--read);
+  font-size: 19px;
+  line-height: 1.55;
+  color: var(--navy);
+  margin: 0 0 18px;
+}
+.afa-intro p:last-child { margin-bottom: 0; }
+
+.afa-section {
+  margin: 56px 0;
+}
+
+.afa-section__label {
+  font-family: var(--ui);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0 0 22px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--fg-rule);
+}
+
+.afa-phrases {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.afa-phrase {
+  display: grid;
+  grid-template-columns: minmax(170px, 1.05fr) minmax(190px, 1.25fr) minmax(0, 1.05fr);
+  gap: 36px;
+  align-items: baseline;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--fg-rule);
+}
+.afa-phrase:last-child { border-bottom: none; }
+
+.afa-arabic {
+  font-family: var(--font-noto-naskh-arabic), 'Noto Naskh Arabic', 'Amiri', 'Times New Roman', serif;
+  font-size: 26px;
+  line-height: 1.45;
+  color: var(--navy);
+  direction: rtl;
+  text-align: right;
+  font-weight: 500;
+}
+
+.afa-romanized {
+  font-family: var(--display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--navy);
+  letter-spacing: 0;
+}
+
+.afa-meaning {
+  font-family: var(--read);
+  font-size: 17px;
+  line-height: 1.5;
+  color: var(--navy-mute);
+}
+
+.afa-phrase__note {
+  grid-column: 2 / -1;
+  font-family: var(--read);
+  font-style: italic;
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--navy-mute);
+  margin-top: 6px;
+}
+
+.afa-operator-note {
+  margin: 30px 0 0;
+  padding: 18px 24px;
+  border-left: 2px solid var(--gold);
+  background: rgba(184, 148, 86, 0.05);
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--navy);
+  max-width: 64ch;
+}
+.afa-operator-note em { color: var(--gold); font-weight: 500; }
+
+.afa-warning {
+  margin: 64px 0;
+  padding: 30px 0 32px;
+  border-top: 1.5px solid var(--navy);
+  border-bottom: 1.5px solid var(--navy);
+}
+.afa-warning__label {
+  font-family: var(--ui);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin: 0 0 18px;
+}
+.afa-warning__body {
+  font-family: var(--read);
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--navy);
+  max-width: 70ch;
+  margin: 0;
+}
+.afa-warning__body em { font-style: italic; color: var(--gold); font-weight: 500; }
+
+.afa-closing {
+  margin: 42px 0 20px;
+  max-width: 64ch;
+}
+.afa-closing p {
+  font-family: var(--read);
+  font-size: 18px;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--navy);
+  margin: 0;
+}
+.afa-closing em { color: var(--gold); font-style: italic; font-weight: 500; }
+
+.afa-colophon {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 18px 0 48px;
+  border-top: 1.5px solid var(--navy);
+}
+.afa-colophon p {
+  font-family: var(--ui);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--fg-ink-soft);
+  line-height: 1.7;
+  max-width: 56ch;
+  text-align: right;
+  margin: 0;
+}
+
+/* Mobile — phrase rows collapse to a vertical stack with Arabic primary,
+ * romanization beneath, meaning third. */
+@media (max-width: 700px) {
+  .afa-phrase {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding: 22px 0;
+  }
+  .afa-arabic { font-size: 24px; }
+  .afa-romanized { font-size: 18px; }
+  .afa-meaning { font-size: 16px; }
+  .afa-phrase__note { grid-column: 1; }
+  .afa-intro p { font-size: 17px; }
+  .afa-warning { margin: 48px 0; padding: 26px 0 28px; }
+  .afa-warning__body { font-size: 17px; }
+  .afa-colophon { flex-direction: column; }
+  .afa-colophon p { text-align: left; }
+}

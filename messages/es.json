@@ -1078,6 +1078,10 @@
     "pyramidsTitle": "Las Pirámides,",
     "pyramidsTitleAccent": "descifradas",
     "pyramidsDeck": "Ocho pirámides, mil años de ensayo y error — y cómo distinguirlas de un vistazo.",
+    "arabicRegion": "Egipto, de un extremo a otro",
+    "arabicTitle": "Árabe,",
+    "arabicTitleAccent": "ligero",
+    "arabicDeck": "Cuarenta palabras y frases en árabe que harán tu viaje a Egipto más cálido — con las notas culturales que importan.",
     "pyramids": {
       "metaTitle": "Las Pirámides, descifradas — Guía de campo de Travel2Egypt",
       "metaDescription": "Ocho pirámides, mil años de ensayo y error. Cómo distinguirlas de un vistazo — por su silueta, no por el cartel.",
@@ -1173,6 +1177,47 @@
       "colophon1": "Una guía de campo del Bajo Egipto",
       "colophon2": "Alturas tal como se construyeron · todas las fechas aproximadas",
       "colophon3": "Dibujadas por silueta, sin escala absoluta dentro de cada ficha"
+    },
+    "arabic": {
+      "metaTitle": "Árabe, ligero — Guía de campo de Travel2Egypt",
+      "metaDescription": "Cuarenta palabras y frases en árabe para viajeros en Egipto — con las notas culturales que de verdad importan.",
+      "kicker": "Nº 02",
+      "region": "Egipto, de un extremo a otro",
+      "tagSummary": "Árabe para viajeros",
+      "titlePrefix": "Árabe,",
+      "titleAccent": "ligero",
+      "standfirstLead": "Ochenta millones de personas lo hablan.",
+      "standfirstAccent": "Aquí van cuarenta palabras que harán tu viaje más cálido.",
+      "intro1": "No necesitas hablar árabe con fluidez para viajar por Egipto. El inglés te llevará por casi todos los hoteles, museos y sitios turísticos. Pero unas pocas palabras dichas en el momento justo cambian cómo te responden los egipcios: el vendedor del mercado sonríe más, el conductor se relaja, el camarero te recuerda. Lo que sigue es la lista corta que más trabajo hace.",
+      "intro2": "El árabe egipcio difiere del árabe formal que se enseña en los libros. Los saludos, las cadencias, las palabras culturales: eso es lo que oirás de verdad. Hemos escrito la pronunciación como suena, no como se deletrea.",
+      "sections": {
+        "greetings": {
+          "title": "Saludos y calidez",
+          "operatorNote": "As-salāmu ʿalaykum es universal y funciona en cualquier contexto — cristiano o musulmán, formal o informal. Es el saludo más seguro."
+        },
+        "market": {
+          "title": "En el mercado o con el taxi",
+          "operatorNote": "Regatear es esperado en mercados y precios de recuerdos: la primera oferta suele ser 2-3× lo que el vendedor aceptará. Contraataca al 30-40% y encuéntrate a la mitad. El tono importa: regatear con simpatía es un ritual social; regatear con agresividad es de mala educación."
+        },
+        "restaurant": {
+          "title": "En el restaurante",
+          "operatorNote": "Maʾalaysh merece su propio párrafo. Es la palabra egipcia para aceptar pequeñas molestias sin escalar — té derramado, llegada tarde, contratiempos menores. Saber cuándo decirla (y cómo recibirla cuando te la dicen) es el atajo cultural."
+        },
+        "driver": {
+          "title": "Con tu guía o conductor"
+        },
+        "cultural": {
+          "title": "Las culturales (que todo el mundo usa)",
+          "operatorNote": "Estas cinco frases las usan egipcios de todos los orígenes prácticamente en cada conversación. Mā shāʾ Allāh en particular es importante: si elogias al hijo de alguien sin decirla, puedes incomodar al padre o la madre."
+        },
+        "yesNo": {
+          "title": "Los «noes» y «síes» educados"
+        }
+      },
+      "warningTitle": "Lo que NO hay que decir",
+      "warning": "Algunas advertencias rápidas. La palabra para «dame» (hāt) es árabe válido pero suena grosera con desconocidos — usa mumkin (¿puedo tener…?) en su lugar. Señalar con un dedo es de mala educación; haz el gesto con la mano abierta. Y aunque in shāʾ Allāh es sincero en boca egipcia, en boca extranjera puede sonar a evasiva — dilo solo si de verdad quieres decir «si las circunstancias lo permiten», no como una no-respuesta.",
+      "closing": "El árabe egipcio lleva una calidez que la traducción al inglés aplana. Incluso un árabe roto, intentado con buena voluntad, llega distinto que un inglés impecable. El vendedor del mercado que oye Lazīz! sobre un bocado de koshari recibe algo que «esto está delicioso» no puede decir del todo. Las cuarenta palabras de arriba son un punto de partida. El resto se aprende escuchando.",
+      "colophonNote": "Guía de campo · pronunciación de oído, no de manual · dialecto egipcio"
     },
     "egyptianGods": {
       "metaTitle": "Los dioses egipcios, en un mapa — Guía de campo de Travel2Egypt",
