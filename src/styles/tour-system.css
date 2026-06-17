@@ -138,6 +138,10 @@
 .t2e-foot-col li { margin-bottom: 11px; }
 .t2e-foot-col a { font-family: var(--read); font-size: 15px; color: var(--navy); text-decoration: none; }
 .t2e-foot-col a:hover { color: var(--gold-dark); }
+/* "All field guides" anchor — italic, always rendered at the bottom of
+ * the Resources column with a touch of breathing room above it. */
+.t2e-foot-col__all { margin-top: 8px; }
+.t2e-foot-col__all a { font-family: var(--display); font-style: italic; color: var(--navy-mute); }
 .t2e-foot-brands { padding: 28px 0; border-top: 1px solid var(--rule); display: flex; align-items: baseline; gap: 28px; flex-wrap: wrap; }
 .t2e-foot-brands .t2e-kicker { margin-right: 12px; }
 .t2e-foot-brands .brand { font-family: var(--display); font-size: 18px; color: var(--navy); }

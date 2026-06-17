@@ -82,8 +82,12 @@ export function Footer({ locale }: FooterProps) {
           <div className="t2e-foot-col">
             <h5>{t('resourcesLabel')}</h5>
             <ul>
-              <li><Link href="/resources">{t('resourcesIndex')}</Link></li>
+              {/* Guides listed in series order; the "all field guides"
+                  index always sits at the bottom in italic as the
+                  anchor link — new guides slot above it, never below. */}
               <li><Link href="/resources/pyramids-decoded">{t('resourcesPyramids')}</Link></li>
+              <li><Link href="/resources/arabic-lightly">{t('resourcesArabic')}</Link></li>
+              <li className="t2e-foot-col__all"><Link href="/resources">{t('resourcesIndex')}</Link></li>
             </ul>
           </div>
 
