@@ -26,6 +26,7 @@ import { wikiPersonSchema } from './wikiPerson';
 import { wikiMonumentSchema } from './wikiMonument';
 import { wikiDeitySchema } from './wikiDeity';
 import { deitySchema } from './deity';
+import { fieldGuideSchema } from './fieldGuide';
 import { hotelSchema, nileCruiseSchema } from './hotelAndCruise';
 import { hotelsArchiveSchema } from './hotelsArchive';
 import { dayToursArchiveSchema } from './dayToursArchive';
@@ -77,6 +78,7 @@ export const schemaTypes = [
 
   // ── Resources (field guides) ──
   deitySchema,
+  fieldGuideSchema,
 
   // ── Informational ──
   hotelSchema,

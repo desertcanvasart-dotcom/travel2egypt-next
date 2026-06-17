@@ -59,18 +59,18 @@ const ENTRIES: IndexEntry[] = [
     deckKey: 'arabicDeck',
     slug: 'arabic-lightly',
   },
-  // Four placeholder slots — surfacing the planned arc without
-  // committing to titles or topics yet. Phase 2 replaces these in
-  // order as guides ship.
   {
     number: '03',
-    status: 'drafting',
-    regionKey: null,
-    titleKey: null,
-    titleAccentKey: null,
-    deckKey: 'inDrafting',
-    slug: null,
+    status: 'open',
+    regionKey: 'tippingRegion',
+    titleKey: 'tippingTitle',
+    titleAccentKey: 'tippingTitleAccent',
+    deckKey: 'tippingDeck',
+    slug: 'tipping-honestly',
   },
+  // Three placeholder slots — surfacing the planned arc without
+  // committing to titles or topics yet. Phase 2 replaces these in
+  // order as guides ship.
   {
     number: '04',
     status: 'drafting',

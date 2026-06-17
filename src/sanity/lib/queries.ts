@@ -2095,3 +2095,59 @@ export const allTreeDeitiesQuery = (locale: Locale) => groq`
     "siblingIds": siblings[]._ref
   }
 `;
+
+// ──────────────────────────────────────────────
+// Resources — Field Guide (prose-driven)
+// ──────────────────────────────────────────────
+
+/**
+ * Single Field Guide page query — /resources/[slug]. Returns all the
+ * masthead + body + sections fields needed for the prose-driven
+ * template. Localized fields coalesce to EN.
+ */
+export const fieldGuideBySlugQuery = (locale: Locale) => groq`
+  *[_type == "fieldGuide" && (
+    slug[_key == "${locale}"][0].value.current == $slug ||
+    (slug[_key == "${locale}"][0].value.current == null &&
+     slug[_key == "en"][0].value.current == $slug)
+  )][0]{
+    _id,
+    "slug": ${localizedSlug('slug', locale)},
+    seriesNumber,
+    "title": ${localizedField('title', locale)},
+    "titleAccent": ${localizedField('titleAccent', locale)},
+    "region": ${localizedField('region', locale)},
+    "tagSummary": ${localizedField('tagSummary', locale)},
+    "standfirstLead": ${localizedField('standfirstLead', locale)},
+    "standfirstAccent": ${localizedField('standfirstAccent', locale)},
+    "intro": ${localizedField('intro', locale)},
+    "sections": sections[]{
+      "title": ${localizedField('title', locale)},
+      "body": ${localizedField('body', locale)},
+      tipRows[]{
+        "recipient": ${localizedField('recipient', locale)},
+        amount,
+        "context": ${localizedField('context', locale)}
+      },
+      "operatorNote": ${localizedField('operatorNote', locale)},
+      emphasized
+    },
+    "closing": ${localizedField('closing', locale)},
+    "colophonNote": ${localizedField('colophonNote', locale)},
+    seo{
+      "metaTitle": ${localizedField('metaTitle', locale)},
+      "metaDescription": ${localizedField('metaDescription', locale)},
+      ogImage
+    }
+  }
+`;
+
+/**
+ * All published Field Guide slugs — for generateStaticParams on the
+ * dynamic /resources/[slug] route.
+ */
+export const allFieldGuideSlugsQuery = groq`
+  *[_type == "fieldGuide" && defined(slug[_key=="en"][0].value.current)]{
+    "slug": slug[_key=="en"][0].value.current
+  }
+`;
