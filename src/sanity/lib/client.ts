@@ -3,26 +3,23 @@ import { createClient } from 'next-sanity';
 import { apiVersion, dataset, projectId } from '../env';
 
 /**
- * Read token. The `migration-staging` dataset is private — anonymous reads
- * only see a subset of docs (the original WP imports). Newly-created docs
- * (the May-2026 MD upload's `guideArticle.<city>.<slug>` IDs) require a
- * token to be visible. The token is read server-side only (this file is
- * imported by Server Components and route handlers), so it never reaches
- * the browser. Falls back to the write token in dev; production should
- * have a dedicated `SANITY_API_READ_TOKEN`.
+ * Public read client. The live `production` dataset is public (aclMode:
+ * public), so anonymous reads already see every published document — no
+ * token is required. Omitting the token is deliberate: an authenticated
+ * read is forced to the API origin and silently bypasses `useCdn`, so every
+ * ISR regeneration would pay full origin latency. Token-less + `useCdn`
+ * routes production reads through the Sanity CDN instead.
+ *
+ * (Historical note: an earlier private `migration-staging` dataset did need
+ * a read token to surface newly-imported docs; that constraint went away at
+ * the production cutover.)
  */
-const readToken =
-  process.env.SANITY_API_READ_TOKEN ||
-  process.env.SANITY_STAGING_API_WRITE_TOKEN ||
-  process.env.SANITY_API_WRITE_TOKEN;
-
 export const client = createClient({
   projectId,
   dataset,
   apiVersion,
   useCdn: process.env.NODE_ENV === 'production',
   perspective: 'published',
-  token: readToken,
 });
 
 /**
