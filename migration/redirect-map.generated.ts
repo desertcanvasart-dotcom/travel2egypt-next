@@ -303,6 +303,46 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/guide/sharm-el-sheikh/sharm-el-sheikh-to-mount-sinai",
+    "destination": "/mount-sinai-and-st-catherine-full-day-tour-from-sharm",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/excursion-de-un-dia-completo-de-sharm-el-sheikh-al-monte-sinai-y-san-catalina",
+    "destination": "/es/de-sharm-el-sheij-al-monte-sinai-y-santa-catalina-dia-completo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharm-el-sheikh/sharumuerusheiku-kara-shinai-san-to-sei-katarina-shudoin",
+    "destination": "/ja/shinai-no-yoru-to-asa-chojo-no-hinode-to-sono-shita-de-1-500",
+    "permanent": true
+  },
+  {
+    "source": "/sharm-el-sheikh-to-mount-sinai",
+    "destination": "/mount-sinai-and-st-catherine-full-day-tour-from-sharm",
+    "permanent": true
+  },
+  {
+    "source": "/guide/sharm-el-sheikh/dolphins-in-sharm-el-sheikh",
+    "destination": "/swimming-with-dolphins",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/excursion-nadando-con-delfines",
+    "destination": "/es/nadar-con-delfines-en-sharm-el-sheij",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharm-el-sheikh/dorufinsuimutsua",
+    "destination": "/ja/sharumuerusheiku-de-iruka-to-oyogu-taiken",
+    "permanent": true
+  },
+  {
+    "source": "/dolphins-in-sharm-el-sheikh",
+    "destination": "/swimming-with-dolphins",
+    "permanent": true
+  },
+  {
     "source": "/ja/puraibeeto-deitsuaa",
     "destination": "/ja/private-day-tours",
     "permanent": true
