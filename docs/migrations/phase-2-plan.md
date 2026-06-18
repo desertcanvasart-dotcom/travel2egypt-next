@@ -362,6 +362,15 @@ Effort ≈ **1 session** (the scorer and CSV writer already exist).
 
 ## §6. `wikiMonument` → `guideArticle` consolidation
 
+> **⚠️ AMENDED (post-launch-planning).** The "then remove the `wikiMonument`
+> docs" intent below is **superseded**. The wiki section is postponed, not
+> cancelled, and a monument is meant to live in **both** `/guide/<city>/<slug>`
+> and `/wiki/monuments/<slug>`. **Do not delete `wikiMonument` docs.** The
+> consolidation's redirects + twin guide articles stand; the doc-removal step
+> does not. See [`../wiki-section-launch-checklist.md`](../wiki-section-launch-checklist.md)
+> for the full rationale and the launch-day step (remove the `/wiki/monuments/*
+> → /guide/*` redirects before publishing the wiki section).
+
 ### §6.1 Scope
 
 134 `wikiMonument` docs → 134 new `guideArticle` docs with `kind=attraction`.
