@@ -88,6 +88,221 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/guide/cairo/cairo-weekend-city-break-2-nights-3-days",
+    "destination": "/cairo-weekend-city-break-2-nights-3-days",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/escapada-de-fin-de-semana-en-el-cairo-2-noches-3-dias",
+    "destination": "/es/escapada-de-fin-de-semana-a-el-cairo-3-dias-en-la-capital",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/kairowikuendoshitibureiku-2-haku-3-nichi",
+    "destination": "/ja/kairo-shumatsu-shitibureiku-ejiputo-no-shuto-de-sugosu-3",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/cairo-alexandria-city-break-5-days",
+    "destination": "/cairo-alexandria-city-break-5-days",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/5-dias-a-el-cairo-y-alejandria",
+    "destination": "/es/el-cairo-y-alejandria-en-5-dias-dos-ciudades-dos-costas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/kairo-arekusandoria-shitibureiku-5-nichikan",
+    "destination": "/ja/kairo-arekusandoria-5-nichikan-futatsu-no-to-futatsu-no",
+    "permanent": true
+  },
+  {
+    "source": "/guide/al-gouna/dendera-and-abydos-temples-from-al-gouna",
+    "destination": "/dendera-and-abydos-temples-from-al-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-gouna/dendera-y-abydos-desde-al-gouna",
+    "destination": "/es/templos-de-dendera-y-abidos-tour-privado-de-dia-completo-desde-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/al-gouna/eru-gu-na-hatsu-dendera-to-abidosu-shinden-tsua",
+    "destination": "/ja/dendera-to-abidosu-no-shinden-aru-guna-hatsu-furudeitsua",
+    "permanent": true
+  },
+  {
+    "source": "/guide/sharm-el-sheikh/dolphin-show-sharm-el-sheikh",
+    "destination": "/dolphin-show-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/acrobacias-acuaticas-espectaculo-de-delfines-en-sharm-el-sheikh",
+    "destination": "/es/espectaculo-de-delfines-en-sharm-el-sheij-que-esperar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharm-el-sheikh/akuatikkuakurobatikusu-sharumuerusheiku-no-dorufin-sho",
+    "destination": "/ja/sharumuerusheiku-no-iruka-sho-kitai-dekiru-koto",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/islamic-cairo-day-tour",
+    "destination": "/islamic-cairo-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo",
+    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/kairo-no-seishin-teki-na-kokoro-isuramu-kairo-higaeri-tsua",
+    "destination": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/cairo-dinner-cruise-with-belly-dancing-show",
+    "destination": "/cairo-dinner-cruise-with-belly-dancing-show",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/ritmos-del-nilo-el-cairo-cena-crucero-con-danza-del-vientre",
+    "destination": "/es/cena-crucero-por-el-nilo-en-el-cairo-con-danza-oriental",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/nairu-no-rizumu-kairo-dina-kuruzu-beri-dansu-sho",
+    "destination": "/ja/kairo-dina-kuruzu-nairu-beri-dansu-nama-enso",
+    "permanent": true
+  },
+  {
+    "source": "/guide/luxor/sound-light-show-at-karnak-temple-in-luxor",
+    "destination": "/sound-light-show-at-karnak-temple-in-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/templo-de-karnak-de-luxor",
+    "destination": "/es/luz-y-sonido-en-karnak",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/luxor/rukusorukarunakku-shinden-no-saundo-raito-sho",
+    "destination": "/ja/yoru-no-karunakku-rukusoru-no-hikari-to-oto-no-sho",
+    "permanent": true
+  },
+  {
+    "source": "/guide/hurghada/hurghada-dolphin-show",
+    "destination": "/hurghada-dolphin-show-tickets-and-transfer-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/espectaculo-marino-exhibicion-de-delfines-en-hurghada",
+    "destination": "/es/espectaculo-de-delfines-en-hurgada-entrada-y-traslado-al-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/hurghada/umi-no-supekutakuru-furugadairukasho",
+    "destination": "/ja/furugada-no-iruka-sho-chiketto-to-hoteru-sogei",
+    "permanent": true
+  },
+  {
+    "source": "/hurghada-dolphin-show",
+    "destination": "/hurghada-dolphin-show-tickets-and-transfer-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/guide/hurghada/royal-seascope-submarine-hurghada",
+    "destination": "/royal-sea-scope",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/submarino-hurghada-royal-seascope",
+    "destination": "/es/royal-sea-scope-tour-en-semisubmarino-por-el-mar-rojo-desde-sharm-el-sheij",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/hurghada/furugada-roiyarushisukopu-sensui-kan",
+    "destination": "/ja/roiyaru-shisu-kopu-sharumuerusheiku-hatsu-kokai-no-han",
+    "permanent": true
+  },
+  {
+    "source": "/royal-seascope-submarine-hurghada",
+    "destination": "/royal-sea-scope",
+    "permanent": true
+  },
+  {
+    "source": "/guide/al-fayoum/4-days-white-desert-wadi-al-hittan-exploration",
+    "destination": "/4-days-white-desert-wadi-al-hittan-exploration",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/al-fayoum/el-desierto-blanco-y-wadi-al-hittan",
+    "destination": "/es/desierto-blanco-y-wadi-al-hitan-en-cuatro-dias-del-fayum-a-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/al-fayoum/howaito-dezato-to-wadiaruhittan",
+    "destination": "/ja/kaseki-to-suna-faiyumu-kara-shirasuna-baku-e-no-4-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/guide/hurghada/the-pearl-of-red-sea-hurghada",
+    "destination": "/the-pearl-of-red-sea-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/joya-del-mar-rojo-excursion-de-7-dias-a-la-perla-del-mar-rojo-en-hurghada",
+    "destination": "/es/hurghada-y-el-mar-rojo-en-8-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/hurghada/kokai-no-hoseki-8-nichikan-no-harugadatsua",
+    "destination": "/ja/8-nichikan-kokai-harugada-kokai-no-shinju",
+    "permanent": true
+  },
+  {
+    "source": "/guide/hurghada/giftun-islands",
+    "destination": "/giftun-island-shared-snorkeling-day-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/las-islas-giftun",
+    "destination": "/es/islas-giftun-desde-hurghada-dia-de-snorquel-compartido-en-yate",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/hurghada/gifuton-shoto",
+    "destination": "/ja/gifutun-shoto-no-ichi-nichi-kokai-o-soshoku-nashi-de-ajiwau",
+    "permanent": true
+  },
+  {
+    "source": "/giftun-islands",
+    "destination": "/giftun-island-shared-snorkeling-day-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/guide/giza/the-giza-sound-and-light-show",
+    "destination": "/the-giza-sound-and-light-show-experience",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/el-espectaculo-de-sonido-y-luz-de-guiza",
+    "destination": "/es/el-espectaculo-de-luz-y-sonido-de-guiza-una-velada-en-las-piramides",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/giza/giza-no-oto-to-hikari-no-sho",
+    "destination": "/ja/giza-no-hikari-to-oto-no-sho-piramiddo-de-sugosu-ichiya",
+    "permanent": true
+  },
+  {
+    "source": "/the-giza-sound-and-light-show",
+    "destination": "/the-giza-sound-and-light-show-experience",
+    "permanent": true
+  },
+  {
     "source": "/ja/puraibeeto-deitsuaa",
     "destination": "/ja/private-day-tours",
     "permanent": true
@@ -11075,11 +11290,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/hurghada-aquarium",
     "destination": "/guide/hurghada/hurghada-aquarium",
-    "permanent": true
-  },
-  {
-    "source": "/giftun-islands",
-    "destination": "/guide/hurghada/giftun-islands",
     "permanent": true
   },
   {
