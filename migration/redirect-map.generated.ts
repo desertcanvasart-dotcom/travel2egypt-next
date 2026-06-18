@@ -53,6 +53,21 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/guide/cairo/nmec-royal-mummies-old-cairo",
+    "destination": "/nmec-royal-mummies-old-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/momias-reales-nmec-el-cairo-antiguo",
+    "destination": "/es/dia-patrimonial-en-el-cairo-nmec-momias-reales-y-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/kodai-kairo-no-oshitsu-no-miira",
+    "destination": "/ja/kairo-isan-no-ichi-nichi-oke-no-miira-orudo-kairo-han-hariri",
+    "permanent": true
+  },
+  {
     "source": "/ja/puraibeeto-deitsuaa",
     "destination": "/ja/private-day-tours",
     "permanent": true
