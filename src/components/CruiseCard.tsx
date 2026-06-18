@@ -49,7 +49,7 @@ export function CruiseCard({ cruise }: Props) {
         {heroUrl ? (
           <Image
             src={heroUrl}
-            alt={cruise.heroImage?.alt || cruise.name}
+            alt={cruise.heroImage?.alt ?? ''}
             width={800}
             height={1000}
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"

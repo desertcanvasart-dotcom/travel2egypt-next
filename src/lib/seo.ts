@@ -107,11 +107,18 @@ function buildLanguageAlternates(
   const out: { [key: string]: string } = {};
 
   for (const loc of routing.locales) {
-    const path = options.pathByLocale?.[loc as Locale] ?? options.path ?? '/';
+    const explicit = options.pathByLocale?.[loc as Locale];
+    // When an explicit per-locale map is supplied, a missing locale means
+    // "no version of this doc exists in that language" — so omit it rather
+    // than emit an hreflang pointing at another locale's slug (which would
+    // 404 / mis-signal). Callers that want every locale (the common case)
+    // populate them all via pathByLocaleFromSlugs's EN fallback.
+    if (options.pathByLocale && !explicit) continue;
+    const path = explicit ?? options.path ?? '/';
     out[LOCALE_HREFLANG[loc as Locale]] = buildAbsoluteUrl(loc as Locale, path);
   }
 
-  // x-default: the EN canonical
+  // x-default: the EN canonical (falls back to the bare path if EN-less).
   const enPath = options.pathByLocale?.en ?? options.path ?? '/';
   out['x-default'] = buildAbsoluteUrl('en', enPath);
 

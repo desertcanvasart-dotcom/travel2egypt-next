@@ -126,7 +126,7 @@ export function Body({ value, locale }: BodyProps) {
         const caption = readLocalized(value.caption, locale);
         return (
           <figure className="my-10">
-            <Image src={url} alt={alt} width={1400} height={900} />
+            <Image src={url} alt={alt ?? ''} width={1400} height={900} />
             {caption && (
               <figcaption className="mt-3 font-serif text-sm italic text-night-soft">
                 {caption}
@@ -175,7 +175,7 @@ export function Body({ value, locale }: BodyProps) {
           >
             <Image
               src={url}
-              alt={alt}
+              alt={alt ?? ''}
               width={640}
               height={480}
               sizes="(max-width: 768px) 100vw, 320px"
@@ -206,7 +206,7 @@ export function Body({ value, locale }: BodyProps) {
               const caption = readLocalized(img.caption, locale);
               return (
                 <figure key={img._key ?? i} className="m-0">
-                  <Image src={url} alt={alt} width={800} height={600} sizes="(max-width: 640px) 100vw, 33vw" />
+                  <Image src={url} alt={alt ?? ''} width={800} height={600} sizes="(max-width: 640px) 100vw, 33vw" />
                   {caption && (
                     <figcaption className="mt-2 font-serif text-xs italic text-night-soft">
                       {caption}

@@ -110,7 +110,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
       <Link key={tour._id} className={featured ? 'tour-card featured' : 'tour-card'} href={`/${tour.slug}`}>
         <JourneyImage
           image={tour.heroImage}
-          alt={tour.title}
+          alt=""
           className="tour-img"
           sizes={featured ? '(max-width:980px) 100vw, 649px' : '(max-width:980px) 100vw, 245px'}
           widthHint={featured ? 1300 : 560}
@@ -167,7 +167,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
         <div className="bg">
           <JourneyImage
             image={heroImage}
-            alt={cityName}
+            alt=""
             className=""
             sizes="100vw"
             widthHint={2560}
@@ -237,7 +237,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
                 {moodCards.map((c, i) => (
                   <a className="choice" href="#tours" key={i}>
                     <div>
-                      <JourneyImage image={c.image} alt={c.title} className="choice-visual" sizes="(max-width:980px) 100vw, 370px" widthHint={740} ratio={4 / 3} />
+                      <JourneyImage image={c.image} alt="" className="choice-visual" sizes="(max-width:980px) 100vw, 370px" widthHint={740} ratio={4 / 3} />
                       {c.eyebrow && <span className="t2e-eyebrow">{c.eyebrow}</span>}
                       <h3>{c.title}</h3>
                       {c.body && <p>{c.body}</p>}

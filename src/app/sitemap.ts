@@ -16,6 +16,7 @@
  */
 
 import type { MetadataRoute } from 'next';
+import { groq } from 'next-sanity';
 
 import { client } from '@/sanity/lib/client';
 import { sitemapDocsQuery } from '@/sanity/lib/queries';
@@ -44,6 +45,19 @@ interface ArticleDoc {
 }
 
 const SITE = siteUrlBase();
+
+// Article translation groups (document-level i18n): the translation.metadata
+// doc links each language's article. We read it to emit hreflang alternates on
+// article sitemap entries, mirroring the on-page <link rel="alternate">.
+const articleTranslationGroupsQuery = groq`
+  *[_type == "translation.metadata" && count(translations[value->_type == "article"]) > 0]{
+    "rows": translations[]{ "language": _key, "slug": value->slug.current }
+  }
+`;
+
+interface TranslationGroup {
+  rows: Array<{ language: string | null; slug: string | null }>;
+}
 
 // Static landings that don't come from Sanity.
 const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
@@ -85,8 +99,36 @@ function buildLocaleUrl(path: string, locale: Locale): string {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const data: { localizedDocs: LocalizedDoc[]; articles: ArticleDoc[] } =
-    await client.fetch(sitemapDocsQuery);
+  const [data, translationGroups] = await Promise.all([
+    client.fetch<{ localizedDocs: LocalizedDoc[]; articles: ArticleDoc[] }>(
+      sitemapDocsQuery
+    ),
+    client.fetch<TranslationGroup[]>(articleTranslationGroupsQuery),
+  ]);
+
+  // "language:slug" → { locale → url, x-default → url } for every article that
+  // has at least one translation sibling. Standalone articles aren't indexed
+  // here and fall through to a no-alternates entry below.
+  const articleAlternates = new Map<string, Record<string, string>>();
+  for (const group of translationGroups ?? []) {
+    const valid = (group.rows ?? []).filter(
+      (r): r is { language: string; slug: string } =>
+        Boolean(r.language && r.slug) &&
+        routing.locales.includes(r.language as Locale)
+    );
+    if (valid.length < 2) continue;
+    const languages: Record<string, string> = {};
+    for (const r of valid) {
+      languages[r.language] = buildLocaleUrl(`/blog/${r.slug}`, r.language as Locale);
+    }
+    const enSlug = valid.find((r) => r.language === 'en')?.slug;
+    languages['x-default'] = enSlug
+      ? buildLocaleUrl(`/blog/${enSlug}`, 'en')
+      : Object.values(languages)[0];
+    for (const r of valid) {
+      articleAlternates.set(`${r.language}:${r.slug}`, languages);
+    }
+  }
 
   const entries: MetadataRoute.Sitemap = [];
 
@@ -156,10 +198,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
   // ── Articles (document-level i18n) ──
-  // Group by slug-equivalence across languages — for now we treat each
-  // language doc as standalone. The translation.metadata document links
-  // them in the Studio but isn't queried here; that's a follow-up if we
-  // want article entries to carry hreflang alternates.
+  // Each language doc is its own entry; articles that share a
+  // translation.metadata group additionally carry hreflang alternates
+  // (built above) so search engines join the language versions.
   for (const article of data.articles) {
     if (!article.slug || !article.language) continue;
     if (!routing.locales.includes(article.language as Locale)) continue;
@@ -168,11 +209,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       slug: article.slug,
     });
     if (!path) continue;
+    const languages = articleAlternates.get(
+      `${article.language}:${article.slug}`
+    );
     entries.push({
       url: buildLocaleUrl(path, article.language as Locale),
       lastModified: new Date(article._updatedAt),
       changeFrequency: 'monthly',
       priority: 0.6,
+      ...(languages ? { alternates: { languages } } : {}),
     });
   }
 

@@ -1,3 +1,5 @@
+import { cache } from 'react';
+
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -63,6 +65,17 @@ interface FieldGuideData {
   seo?: { metaTitle?: string; metaDescription?: string } | null;
 }
 
+/**
+ * Per-request memoised fetch of a single field guide. `generateMetadata`
+ * and the page body both need the same doc; wrapping in React `cache()`
+ * collapses the two identical fetches into one per render pass.
+ */
+const getResource = cache((slug: string, locale: string) =>
+  client.fetch<FieldGuideData | null>(fieldGuideBySlugQuery(locale as Locale), {
+    slug,
+  }),
+);
+
 export async function generateStaticParams() {
   const guides = await client.fetch<Array<{ slug: string }>>(
     allFieldGuideSlugsQuery,
@@ -77,10 +90,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  const data = await client.fetch<FieldGuideData | null>(
-    fieldGuideBySlugQuery(locale as Locale),
-    { slug },
-  );
+  const data = await getResource(slug, locale);
   if (!data) return {};
   const tShared = await getTranslations({
     locale,
@@ -115,10 +125,7 @@ export default async function FieldGuidePage({ params }: Props) {
   const { locale, slug } = await params;
   setRequestLocale(locale);
 
-  const data = await client.fetch<FieldGuideData | null>(
-    fieldGuideBySlugQuery(locale as Locale),
-    { slug },
-  );
+  const data = await getResource(slug, locale);
   if (!data) notFound();
 
   return (

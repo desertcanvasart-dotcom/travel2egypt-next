@@ -138,7 +138,7 @@ export async function GuideArchiveView({
     if (lead) {
       return (
         <Link className="region-lead" href={`/guide/${city.slug}`}>
-          <JourneyImage image={city.heroImage} alt={city.name} className="" sizes="(max-width:980px) 100vw, 600px" widthHint={1100} ratio={3 / 2} />
+          <JourneyImage image={city.heroImage} alt="" className="" sizes="(max-width:980px) 100vw, 600px" widthHint={1100} ratio={3 / 2} />
           <div className="gl-body">
             {label && <span className={tierClass(city.guideTier)}>{label}</span>}
             <h3>{city.name}</h3>
@@ -150,7 +150,7 @@ export async function GuideArchiveView({
     }
     return (
       <Link className="gcard" href={`/guide/${city.slug}`}>
-        <JourneyImage image={city.heroImage} alt={city.name} className="" sizes="(max-width:620px) 100vw, (max-width:980px) 50vw, 360px" widthHint={720} ratio={4 / 3} />
+        <JourneyImage image={city.heroImage} alt="" className="" sizes="(max-width:620px) 100vw, (max-width:980px) 50vw, 360px" widthHint={720} ratio={4 / 3} />
         {label && <span className={tierClass(city.guideTier)}>{label}</span>}
         <h4>{city.name}</h4>
         {city.guideDek && <p className="dek">{city.guideDek}</p>}

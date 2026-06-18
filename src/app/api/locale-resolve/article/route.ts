@@ -39,15 +39,32 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: 'unknown locale' }, { status: 400 });
   }
 
-  const articleId = await client.fetch<string | null>(articleIdQuery, {
-    fromLocale,
-    fromSlug,
-  });
+  // Bound the Sanity round-trip so a hung origin can't stall the request,
+  // and never leak an unhandled fetch rejection out of the route handler.
+  // The timeout signal bounds the first hop; a throw from either hop is
+  // caught here and surfaced as a coded error.
+  let articleId: string | null;
+  let slugs: Awaited<ReturnType<typeof fetchTranslationSlugs>>;
+  try {
+    articleId = await client.fetch<string | null>(
+      articleIdQuery,
+      { fromLocale, fromSlug },
+      { signal: AbortSignal.timeout(5000) }
+    );
 
-  if (!articleId) {
-    return NextResponse.json({ slug: null }, { status: 404 });
+    if (!articleId) {
+      return NextResponse.json({ slug: null }, { status: 404 });
+    }
+
+    slugs = await fetchTranslationSlugs(articleId);
+  } catch (err) {
+    console.error('[locale-resolve] article fetch failed:', err);
+    const timedOut = err instanceof Error && err.name === 'TimeoutError';
+    return NextResponse.json(
+      { error: timedOut ? 'resolve_timeout' : 'resolve_failed' },
+      { status: timedOut ? 504 : 502 }
+    );
   }
 
-  const slugs = await fetchTranslationSlugs(articleId);
   return NextResponse.json({ slug: slugs[toLocale] ?? null });
 }

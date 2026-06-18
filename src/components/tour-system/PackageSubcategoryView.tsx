@@ -112,7 +112,7 @@ export async function PackageSubcategoryView({
       <Link key={p._id} className={isFeatured ? 'tour-card featured' : 'tour-card'} href={`/${p.slug}`}>
         <JourneyImage
           image={p.heroImage}
-          alt={p.title}
+          alt=""
           className="tour-img"
           sizes={isFeatured ? '(max-width:980px) 100vw, 649px' : '(max-width:980px) 100vw, 245px'}
           widthHint={isFeatured ? 1300 : 560}
@@ -160,7 +160,7 @@ export async function PackageSubcategoryView({
     <div className="tour-doc lvl-subcategory">
       <header className="hero">
         <div className="bg">
-          <JourneyImage image={heroImage} alt={axisName} className="" sizes="100vw" widthHint={2560} priority />
+          <JourneyImage image={heroImage} alt="" className="" sizes="100vw" widthHint={2560} priority />
         </div>
         <div className="t2e-wrap hero-grid">
           <div>
@@ -225,7 +225,7 @@ export async function PackageSubcategoryView({
                 {moodCards.map((c, i) => (
                   <a className="choice" href="#tours" key={i}>
                     <div>
-                      <JourneyImage image={c.image} alt={c.title} className="choice-visual" sizes="(max-width:980px) 100vw, 370px" widthHint={740} ratio={4 / 3} />
+                      <JourneyImage image={c.image} alt="" className="choice-visual" sizes="(max-width:980px) 100vw, 370px" widthHint={740} ratio={4 / 3} />
                       {c.eyebrow && <span className="t2e-eyebrow">{c.eyebrow}</span>}
                       <h3>{c.title}</h3>
                       {c.body && <p>{c.body}</p>}

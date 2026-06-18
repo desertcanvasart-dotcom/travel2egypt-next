@@ -131,7 +131,7 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
         <header className="relative h-[58vh] min-h-[440px] w-full overflow-hidden bg-limestone-deep">
           <Image
             src={heroUrl}
-            alt={tour.heroImage?.alt || tour.title}
+            alt={tour.heroImage?.alt ?? ''}
             fill
             priority
             className="object-cover"

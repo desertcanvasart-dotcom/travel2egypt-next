@@ -72,7 +72,7 @@ export function FeaturedItem({
           {imageUrl && (
             <Image
               src={imageUrl}
-              alt={item.image?.alt || item.title}
+              alt={item.image?.alt ?? ''}
               fill
               sizes="(max-width: 1024px) 100vw, 560px"
               className="object-cover"

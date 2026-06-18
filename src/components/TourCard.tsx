@@ -36,7 +36,7 @@ export function TourCard({ tour }: Props) {
         {heroUrl ? (
           <Image
             src={heroUrl}
-            alt={tour.heroImage?.alt || tour.title}
+            alt={tour.heroImage?.alt ?? ''}
             width={800}
             height={1000}
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"

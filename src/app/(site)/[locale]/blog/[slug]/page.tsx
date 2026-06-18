@@ -1,3 +1,4 @@
+import { cache } from 'react';
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -25,6 +26,7 @@ import {
   type WeaveItem,
 } from '@/components/ArticleConnective';
 import { extractHeadings, readingTimeMinutes } from '@/lib/portable-text';
+import { fetchTranslationSlugs } from '@/sanity/lib/translations';
 import { buildMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
 import {
@@ -41,10 +43,28 @@ interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
+// Shared per-request fetch: generateMetadata and the page both resolve the
+// same article. cache() collapses them into a single Sanity round-trip.
+const getArticle = cache((locale: string, slug: string) =>
+  client.fetch(articleBySlugQuery, { locale, slug }),
+);
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  const article = await client.fetch(articleBySlugQuery, { locale, slug });
+  const article = await getArticle(locale, slug);
   if (!article) return {};
+
+  // Articles are document-level i18n: each language is a separate doc with its
+  // own slug, so hreflang must point at each sibling's real slug — not assume a
+  // shared slug. fetchTranslationSlugs returns { locale → slug } for the linked
+  // translations; locales without a sibling are omitted (no false hreflang).
+  const siblings = await fetchTranslationSlugs(article._id);
+  const pathByLocale: Partial<Record<Locale, string>> = {};
+  for (const loc of routing.locales) {
+    const sib = loc === locale ? slug : siblings[loc as Locale];
+    if (sib) pathByLocale[loc as Locale] = `/blog/${sib}`;
+  }
+
   return buildMetadata(
     {
       title: article.title,
@@ -55,6 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     {
       locale: locale as Locale,
       path: `/blog/${slug}`,
+      pathByLocale,
     }
   );
 }
@@ -139,10 +160,7 @@ export default async function ArticlePage({ params }: Props) {
 
   const t = await getTranslations('blog');
   const tNav = await getTranslations('nav');
-  const article = (await client.fetch(articleBySlugQuery, {
-    locale,
-    slug,
-  })) as ArticleDoc | null;
+  const article = (await getArticle(locale, slug)) as ArticleDoc | null;
   if (!article) notFound();
 
   const primaryCity = article.primaryCity ?? null;
@@ -310,7 +328,7 @@ export default async function ArticlePage({ params }: Props) {
             <div className="relative aspect-[16/8] overflow-hidden bg-limestone-deep">
               <Image
                 src={featureUrl}
-                alt={article.heroImage?.alt || article.title}
+                alt={article.heroImage?.alt ?? ''}
                 fill
                 sizes="(max-width: 1280px) 100vw, 1216px"
                 className="object-cover"

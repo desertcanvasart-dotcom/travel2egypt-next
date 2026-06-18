@@ -35,7 +35,7 @@ export function PackageCard({ pkg }: Props) {
         {heroUrl ? (
           <Image
             src={heroUrl}
-            alt={pkg.heroImage?.alt || pkg.title}
+            alt={pkg.heroImage?.alt ?? ''}
             width={900}
             height={1125}
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
