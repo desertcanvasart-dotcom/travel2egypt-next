@@ -117,7 +117,7 @@ export async function CategoryView({
       <Link key={tour._id} className={isLead ? 'tour tour--lead' : 'tour'} href={`/${tour.slug}`}>
         <JourneyImage
           image={tour.heroImage}
-          alt={tour.title}
+          alt=""
           className="tour-visual"
           sizes={isLead ? '(max-width:980px) 100vw, 470px' : '(max-width:980px) 100vw, 314px'}
           widthHint={isLead ? 940 : 630}

@@ -69,7 +69,7 @@ export function ArchiveCard({ item, size = 'default' }: Props) {
         {imageUrl && (
           <Image
             src={imageUrl}
-            alt={item.image?.alt || item.title}
+            alt={item.image?.alt ?? ''}
             fill
             sizes={size === 'lead' ? '(max-width: 1024px) 100vw, 640px' : '(max-width: 1024px) 100vw, 380px'}
             className="object-cover transition-transform duration-700 group-hover:scale-[1.03]"

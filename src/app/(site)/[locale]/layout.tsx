@@ -2,7 +2,7 @@ import '../../globals.css';
 import '@/styles/tour-system.css';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { setRequestLocale, getMessages } from 'next-intl/server';
+import { setRequestLocale, getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { fontVariables } from '@/app/fonts';
 import { routing, type Locale } from '@/i18n/routing';
@@ -64,15 +64,19 @@ export default async function LocaleLayout({
   // provider — server components resolve them directly, so messages must be
   // passed explicitly for the client tree to have them.
   const messages = await getMessages();
+  const tNav = await getTranslations('nav');
 
   return (
     <html lang={locale} className={fontVariables}>
       <body>
+        <a href="#main" className="skip-link">
+          {tNav('skipToContent')}
+        </a>
         <JsonLd data={orgGraph} />
         <NextIntlClientProvider messages={messages}>
           <ConsentProvider>
             <Header locale={locale as Locale} />
-            <main>{children}</main>
+            <main id="main">{children}</main>
             <Footer locale={locale as Locale} />
             <CookieConsent />
           </ConsentProvider>

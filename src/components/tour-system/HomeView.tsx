@@ -113,10 +113,11 @@ export async function HomeView({
             <figure className="hero-img">
               <JourneyImage
                 image={data?.heroImage}
-                alt={data?.heroCaption ?? ''}
+                alt=""
                 className=""
                 sizes="(max-width:980px) 100vw, 560px"
                 widthHint={1100}
+                priority
               />
               {data?.heroCaption && <figcaption className="img-cap">{data.heroCaption}</figcaption>}
             </figure>
@@ -241,7 +242,7 @@ export async function HomeView({
                 const href = tourHref(s.tourType, s.tourSlug);
                 const inner = (
                   <>
-                    <JourneyImage image={s.image} alt={s.title ?? ''} className="" sizes="(max-width:620px) 100vw, (max-width:980px) 50vw, 300px" widthHint={620} ratio={3 / 2} />
+                    <JourneyImage image={s.image} alt="" className="" sizes="(max-width:620px) 100vw, (max-width:980px) 50vw, 300px" widthHint={620} ratio={3 / 2} />
                     {s.meta && <div className="meta">{s.meta}</div>}
                     <h3>{s.title}</h3>
                     <p>{s.dek}</p>

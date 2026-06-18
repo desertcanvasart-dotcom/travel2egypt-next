@@ -20,3 +20,17 @@ migration/content/*.csv
 migration/content/*.dmg
 backups/
 .cache/
+
+# Root-level one-off analysis artifacts (image audits, worklists, remaps).
+# These are throwaway exports from ad-hoc sessions, not source — ignore so
+# they stop cluttering `git status`. The reusable scanner scripts under
+# scripts/ are NOT covered by these patterns and remain trackable.
+/*-worklist.csv
+/*-worklist.xlsx
+/*-audit.csv
+/jap166-*
+/images-under-3000px.csv
+/orphan-under-3000.csv
+/tour-image-match.csv
+/untouched-tours.csv
+/giza-audit.csv

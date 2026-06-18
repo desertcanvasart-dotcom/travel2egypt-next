@@ -50,7 +50,7 @@ export function ArticleCard({ article, variant = 'compact', locale }: Props) {
         {heroUrl ? (
           <Image
             src={heroUrl}
-            alt={article.heroImage?.alt || article.title}
+            alt={article.heroImage?.alt ?? ''}
             width={wide ? 1600 : 800}
             height={wide ? 2000 : 1000}
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"

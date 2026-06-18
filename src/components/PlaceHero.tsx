@@ -65,7 +65,7 @@ export function PlaceHero({
     <header className="relative flex min-h-[clamp(380px,52vh,560px)] items-end overflow-hidden bg-night">
       <Image
         src={url}
-        alt={image?.alt || alt || title}
+        alt={image?.alt || alt || ''}
         fill
         priority
         sizes="100vw"

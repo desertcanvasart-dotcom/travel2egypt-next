@@ -187,6 +187,35 @@
 }
 
 /* ============================================================ */
+/*  Focus visibility — keyboard users get a clear ring on every */
+/*  interactive element. (Was absent site-wide.) Faience reads  */
+/*  on the paper/limestone surfaces that cover ~all of the UI;   */
+/*  dark bands override the colour locally (tour-system.css).    */
+/* ============================================================ */
+:focus-visible {
+  outline: 2px solid var(--color-faience);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+
+/* Skip-to-content — visually hidden until focused, then pinned top-left. */
+.skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -3.5rem;
+  z-index: 1000;
+  background: var(--color-night);
+  color: var(--color-paper);
+  padding: 0.6rem 1rem;
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* ============================================================ */
 /*  Locale-specific font overrides — declared OUTSIDE @layer    */
 /*  base so they win against Tailwind utilities (.font-serif    */
 /*  / .font-sans) generated in @layer utilities. Without this,  */

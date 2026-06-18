@@ -418,9 +418,11 @@ export function buildTouristTripSchema(
   input: TouristTripInput,
   locale: Locale
 ) {
-  const path =
-    input.type === 'package' ? `/packages/${input.slug}` : `/tours/${input.slug}`;
-  const url = absoluteUrl(path, locale);
+  // Canonical tour/package URL is the root path `/<slug>` — `/tours/<slug>`
+  // and `/packages/<slug>` are now 301 redirect sources, so emitting them
+  // here would put a redirected URL in the structured data, contradicting the
+  // page's own canonical. Match the canonical instead.
+  const url = absoluteUrl(`/${input.slug}`, locale);
 
   // additionalType — communicates the product variant to crawlers and AI
   // agents. We use four readable English labels rather than schema.org

@@ -43,7 +43,7 @@ export function HotelCard({ hotel }: Props) {
         {heroUrl ? (
           <Image
             src={heroUrl}
-            alt={hotel.heroImage?.alt || hotel.name}
+            alt={hotel.heroImage?.alt ?? ''}
             width={800}
             height={1000}
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"

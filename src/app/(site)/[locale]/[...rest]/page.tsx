@@ -10,6 +10,7 @@
  * Verified zero collisions at s48 build time; the priority clause is
  * defensive against future editorial additions.
  */
+import { cache } from 'react';
 import type { Metadata } from 'next';
 import { notFound, redirect } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
@@ -44,13 +45,33 @@ interface Props {
  * null for any multi-segment path (we only handle single-slug routes
  * here — nested URLs route through their own explicit Next.js segments).
  */
+// Per-request fetch dedup. generateMetadata and the page body resolve the same
+// slug and re-fetch the same doc; React cache() collapses each pair into one
+// Sanity round-trip per request (the @sanity/client reads bypass Next's fetch
+// cache, so this is what de-duplicates them).
+const getHit = cache(
+  (
+    locale: Locale,
+    slug: string,
+  ): Promise<{ _id: string; _type: string } | null> =>
+    client.fetch(slugLookupQuery(locale), { slug }),
+);
+const getTour = cache((locale: Locale, slug: string) =>
+  client.fetch(tourBySlugQuery(locale), { slug }),
+);
+const getTourCategory = cache((locale: Locale, slug: string) =>
+  client.fetch(tourCategoryBySlugQuery(locale), { slug }),
+);
+const getTourLanding = cache((locale: Locale, slug: string) =>
+  client.fetch(tourLandingBySlugQuery(locale), { slug }),
+);
+
 async function resolveSlug(
   locale: Locale,
   rest: string[],
 ): Promise<{ _id: string; _type: string } | null> {
   if (rest.length !== 1) return null;
-  const slug = rest[0];
-  return client.fetch(slugLookupQuery(locale), { slug });
+  return getHit(locale, rest[0]);
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -59,23 +80,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!hit) return {};
 
   if (hit._type === 'tourCategory') {
-    const doc = await client.fetch(tourCategoryBySlugQuery(locale as Locale), { slug: rest[0] });
+    const doc = await getTourCategory(locale as Locale, rest[0]);
     if (!doc) return {};
-    return {
-      title: doc.seo?.metaTitle ?? doc.title,
-      description: doc.seo?.metaDescription ?? doc.summary,
-    };
+    return buildMetadata(doc, {
+      locale: locale as Locale,
+      path: `/${rest[0]}`,
+      ogType: 'website',
+      pathByLocale: pathByLocaleFromSlugs(doc.allSlugs, (s: string) => `/${s}`),
+    });
   }
   if (hit._type === 'tourLanding') {
-    const doc = await client.fetch(tourLandingBySlugQuery(locale as Locale), { slug: rest[0] });
+    const doc = await getTourLanding(locale as Locale, rest[0]);
     if (!doc) return {};
-    return {
-      title: doc.seo?.metaTitle ?? doc.title,
-      description: doc.seo?.metaDescription ?? doc.summary,
-    };
+    return buildMetadata(doc, {
+      locale: locale as Locale,
+      path: `/${rest[0]}`,
+      ogType: 'website',
+      pathByLocale: pathByLocaleFromSlugs(doc.allSlugs, (s: string) => `/${s}`),
+    });
   }
   if (hit._type === 'tour') {
-    const tour = await client.fetch(tourBySlugQuery(locale as Locale), { slug: rest[0] });
+    const tour = await getTour(locale as Locale, rest[0]);
     if (!tour) return {};
     return buildMetadata(tour, {
       locale: locale as Locale,
@@ -99,7 +124,7 @@ export default async function CatchAllPage({ params }: Props) {
   // /tours/[slug] route — that route now redirects here.
   if (hit._type === 'tour') {
     const [tour, siteSettings] = await Promise.all([
-      client.fetch(tourBySlugQuery(locale as Locale), { slug: rest[0] }),
+      getTour(locale as Locale, rest[0]),
       client.fetch(siteSettingsQuery(locale as Locale)),
     ]);
     if (!tour) notFound();
@@ -135,13 +160,13 @@ export default async function CatchAllPage({ params }: Props) {
 
   // tourCategory + tourLanding render inline (their canonical URL IS the root path)
   if (hit._type === 'tourCategory') {
-    const doc = await client.fetch(tourCategoryBySlugQuery(locale as Locale), { slug: rest[0] });
+    const doc = await getTourCategory(locale as Locale, rest[0]);
     if (!doc) notFound();
     return <TourCategoryView doc={doc} locale={locale as Locale} />;
   }
 
   if (hit._type === 'tourLanding') {
-    const doc = await client.fetch(tourLandingBySlugQuery(locale as Locale), { slug: rest[0] });
+    const doc = await getTourLanding(locale as Locale, rest[0]);
     if (!doc) notFound();
     // Day-tour landings (city × track) render through the reconciled
     // SubcategoryView (journey-2). Private/standard package theme landings
@@ -192,7 +217,7 @@ interface TourCategoryDoc {
 
 function TourCategoryView({ doc, locale }: { doc: TourCategoryDoc; locale: Locale }) {
   const heroUrl = doc.heroImage?.asset
-    ? urlFor(doc.heroImage as any).width(1800).height(900).quality(85).url()
+    ? urlFor(doc.heroImage as never).width(1800).height(900).quality(85).url()
     : null;
 
   return (
@@ -282,7 +307,7 @@ interface TourLandingDoc {
 
 function TourLandingView({ doc, locale }: { doc: TourLandingDoc; locale: Locale }) {
   const heroUrl = doc.heroImage?.asset
-    ? urlFor(doc.heroImage as any).width(1800).height(900).quality(85).url()
+    ? urlFor(doc.heroImage as never).width(1800).height(900).quality(85).url()
     : null;
 
   return (
@@ -328,7 +353,7 @@ function TourLandingView({ doc, locale }: { doc: TourLandingDoc; locale: Locale 
         <ul className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
           {doc.tours.map((t) => {
             const tourImg = t.heroImage?.asset
-              ? urlFor(t.heroImage as any).width(600).height(400).quality(85).url()
+              ? urlFor(t.heroImage as never).width(600).height(400).quality(85).url()
               : null;
             return (
             <li key={t._id}>

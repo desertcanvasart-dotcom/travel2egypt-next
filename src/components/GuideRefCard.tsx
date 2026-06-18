@@ -36,7 +36,7 @@ export function GuideRefCard({ item }: Props) {
         {heroUrl ? (
           <Image
             src={heroUrl}
-            alt={item.heroImage?.alt || item.title || ''}
+            alt={item.heroImage?.alt ?? ''}
             width={700}
             height={875}
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"

@@ -270,7 +270,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
 
       <div className="t2e-wrap">
         <figure className="feature">
-          <JourneyImage image={tour.heroImage} alt={tour.title} sizes="(max-width:980px) 100vw, 1168px" widthHint={2336} ratio={3 / 2} priority />
+          <JourneyImage image={tour.heroImage} alt="" sizes="(max-width:980px) 100vw, 1168px" widthHint={2336} ratio={3 / 2} priority />
         </figure>
       </div>
 

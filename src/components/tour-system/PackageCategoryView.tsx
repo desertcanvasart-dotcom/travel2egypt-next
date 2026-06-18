@@ -109,7 +109,7 @@ export async function PackageCategoryView({
       <Link key={pkg._id} className={isLead ? 'tour tour--lead' : 'tour'} href={`/${pkg.slug}`}>
         <JourneyImage
           image={pkg.heroImage}
-          alt={pkg.title}
+          alt=""
           className="tour-visual"
           sizes={isLead ? '(max-width:980px) 100vw, 470px' : '(max-width:980px) 100vw, 314px'}
           widthHint={isLead ? 940 : 630}
