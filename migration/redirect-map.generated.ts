@@ -68,6 +68,26 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/guide/cairo/saladin-citadel-khan-el-khalili-bazaar-cairo",
+    "destination": "/islamic-cairo-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/saladin-citadel-khan-el-khalili-bazaar-cairo",
+    "destination": "/islamic-cairo-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/ciudadela-de-saladino-y-bazar-de-khan-el-khalili-el-cairo",
+    "destination": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/cairo/saradin-josai-kan-eru-kariri-bazaru-kairo",
+    "destination": "/ja/isuramu-chiku-kairodeitsua-josai-mosuku-han-hariri",
+    "permanent": true
+  },
+  {
     "source": "/ja/puraibeeto-deitsuaa",
     "destination": "/ja/private-day-tours",
     "permanent": true
