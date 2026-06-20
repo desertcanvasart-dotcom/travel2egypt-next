@@ -460,7 +460,7 @@ export const siteSettingsSchema = defineType({
     defineField({
       name: 'sisterBrands',
       title: 'Sister brands',
-      description: 'AffordEgypt, Soléi, and any future portfolio brands.',
+      description: 'AffordEgypt, Sillage, Sawa, and any future portfolio brands.',
       type: 'array',
       group: 'sisterBrands',
       of: [
