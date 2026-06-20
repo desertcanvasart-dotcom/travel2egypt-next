@@ -9,23 +9,29 @@ interface FooterProps {
   locale: Locale;
 }
 
+// The Travel2Egypt portfolio — four sites, each for a different traveller.
+// Travel2Egypt is the site you're on; these are the three sister brands.
 const SISTER_BRANDS = [
   { name: 'AffordEgypt', url: 'https://affordegypt.com/', descriptionKey: 'affordegypt' },
-  { name: 'Soléi', url: 'https://xn--soli-dpa.com/', descriptionKey: 'solei' },
+  { name: 'Sillage', url: 'https://sillage-egypte.com/', descriptionKey: 'sillage' },
+  { name: 'Sawa', url: 'https://sawatours.org/', descriptionKey: 'sawa' },
 ];
 
 const SISTER_BRAND_DESCRIPTIONS: Record<Locale, Record<string, string>> = {
   en: {
     affordegypt: 'Egypt for budget-conscious travelers.',
-    solei: 'Boutique luxury, Siwa-rooted.',
+    sillage: 'Boutique luxury, Aswan-rooted.',
+    sawa: 'Group journeys, together.',
   },
   es: {
     affordegypt: 'Egipto para viajeros con presupuesto.',
-    solei: 'Lujo boutique, con raíces en Siwa.',
+    sillage: 'Lujo boutique, con raíces en Asuán.',
+    sawa: 'Viajes en grupo, juntos.',
   },
   ja: {
     affordegypt: '予算重視の旅行者のためのエジプト',
-    solei: 'シーワに根ざしたブティック・ラグジュアリー',
+    sillage: 'アスワンに根ざしたブティック・ラグジュアリー',
+    sawa: 'みんなで一緒に楽しむグループの旅',
   },
 };
 
