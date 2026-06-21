@@ -338,7 +338,9 @@ alter table concierge.conversations
 
 **Commit.** "Session 8: chat-session disclosure, AI disclosure, data rights."
 
-**Status — CODE-COMPLETE (not launch-complete; legal sign-off is the hard gate).**
+**Status — CLOSED 2026-06-21.** Legal sign-off obtained (governing law resolved: Egypt / Law 151/2020, GDPR/UK-GDPR applies in practice). EN+ES policy bodies were already published live (flattened during the 2026-06-12 content cutover); this closeout reconciled them in place — resolved the `[DATA-REQUEST SLA — TO CONFIRM]` placeholder to "within 30 days" (EN+ES), removed a duplicated cookie-policy sentence, and bumped `lastUpdated`→2026-06-21 (cookie + privacy). Patch is reproducible: `scripts/s8-legal-closeout.ts` (dry-run default, rollback log in `backups/`). **Remaining pre-launch gate: JA legal pages** (deferred to a dedicated JA pass — see OPEN ITEMS). `anonymized_at` remains S10 (migration 0006).
+
+**Status (historical) — CODE-COMPLETE at merge (legal sign-off was the hard gate).**
 Built + live-verified: consent `v1→v2` re-prompt (v1 record no longer suppresses; v2
 suppresses); EN+ES consent copy discloses `t2e_session_id` + keyed IP/UA hashing (JA
 drafted, flagged for native review); persistent "AI Concierge — backed by our human
@@ -357,14 +359,16 @@ mailto. Legal-page EN+ES bodies updated as Sanity **drafts** (published untouche
 - Retention **confirmed at 12 months → anonymise** (Islam-approved; lawyer to ratify).
 - Delete=anonymize RETAINS keyed IP/UA hashes for abuse prevention — confirm this is defensible under erasure rules.
 
-**OPEN ITEMS:** `[DATA-REQUEST SLA — TO CONFIRM]` placeholder (S12 gate); **JA legal-page
-translation** (privacy + cookie — native + legal review; JA bodies currently lag EN/ES on
-concierge disclosures); JA consent banner copy native review; publish the Sanity legal drafts
-after sign-off; `anonymized_at` timestamp is **S10 migration 0006 (REQUIRED)** *(renumbered from 0005 → 0006 because S9 took 0005 for `brief_revision`)*.
+**OPEN ITEMS (post-closeout):** ~~`[DATA-REQUEST SLA — TO CONFIRM]`~~ RESOLVED → "within 30 days" (EN+ES, live 2026-06-21). **JA legal-page
+translation** (privacy + cookie) — STILL OPEN, a **pre-launch gate**: the JA cookie policy is
+still the OLD pre-concierge copy (claims "only one cookie: NEXT_LOCALE", references `consent-v1`,
+no concierge/hashing disclosure) and the JA privacy policy has **no "AI concierge" section and no
+Law 151/2020 governing-law clause** — needs native + legal review, then publish to `production`.
+JA consent banner copy native review still open. `anonymized_at` timestamp is **S10 migration 0006 (REQUIRED)** *(renumbered from 0005 → 0006 because S9 took 0005 for `brief_revision`)*.
 
-**S8 CLOSES only when** (a) Islam reviews + **publishes** the two Sanity legal drafts, and
-(b) the lawyer **signs off** the checklist above. Until both: **code-complete, not
-launch-complete** (code merged; disclosures not yet legally ratified or published).
+**S8 CLOSED 2026-06-21:** (a) EN+ES legal bodies published live and reconciled in place; (b) lawyer
+sign-off obtained (governing law = Egypt / Law 151/2020 + GDPR). The JA legal pages are tracked
+separately as a pre-launch gate (above), not a reopening of S8.
 
 ---
 
@@ -563,7 +567,7 @@ Where the code contradicted the integration decisions summary (v1.1) or the orig
 - **Team notification Reply-To direction (Session 5):** team-facing notification emails use `Reply-To` = the **visitor's** email, not the team Gmail. The brief's "Reply-To → team Gmail" pattern applies to *visitor-facing* mail (resume links etc.); for *team-facing* notifications (the escape-hatch "forward to team"), the visitor's email is the right destination so a team member can reply directly to the traveler.
 - **Token-cap measurement under prompt caching (Session 7):** `usage.input_tokens` reports only the **non-cached delta**, not the full context the model processed — the cached prefix lives in `cache_read_input_tokens`/`cache_creation_input_tokens`. Context-size measurement must sum all three; measured naively it read ~36 tokens against a ~13k context, so the 50k/75k caps never fired. The cap must also be **sticky**: the canned-wrap row stores the over-cap context size so subsequent turns don't reset to zero and re-call the model with the full oversized payload. This **failed open** (protection silently inert), which is more dangerous than failing closed — a conversation could grow to 100k+ tokens in production, every turn billing real money, with nothing flagging it. Live testing caught what unit tests masked (cf. the Edge-crypto and schema-vs-prompt findings).
 - **Hashed-IP privacy disclosure (Session 7 → 8):** rate limiting and abuse prevention process a **keyed HMAC-SHA256 of the visitor's IP and User-Agent** (`ip_hash`/`user_agent_hash`, secret `IP_HASH_SECRET`); the raw IP is never stored or logged (verified live: stored hash equals the keyed HMAC; raw IP absent from DB and logs). The privacy policy must disclose hashed-IP/UA processing for abuse prevention **before launch** — fold into the **Session 8** cookie-consent / privacy-disclosure workstream (legal sufficiency is the hard gate). The keyed hash is non-reversible without the secret, which is the privacy-correct posture to disclose.
-- **Legal-page copy lives in Sanity, not the repo (Session 8):** `/cookie-policy` + `/privacy-policy` render via `LegalPageView` → Sanity `legalPage` singletons (dataset `migration-staging`), `body` = an **internationalized array** `[{_key: locale, value: [...PortableText]}]`. So policy refreshes are **CMS content operations, not git commits** — S8 wrote the updated EN+ES bodies as Sanity **drafts** (published untouched) for Studio review + publish. The repo's `next-sanity` write client + `SANITY_STAGING_API_WRITE_TOKEN` patches drafts reliably while preserving each block's `_key`/marks; match anchor blocks by text and splice new blocks for mid-document inserts.
+- **Legal-page copy lives in Sanity, not the repo (Session 8):** `/cookie-policy` + `/privacy-policy` render via `LegalPageView` → Sanity `legalPage` singletons, `body` = an **internationalized array** `[{_key: locale, value: [...PortableText]}]`. So policy refreshes are **CMS content operations, not git commits**. **DATASET CORRECTION (post-cutover, 2026-06-21):** the live site reads **`production`** (`NEXT_PUBLIC_SANITY_DATASET=production`), NOT `migration-staging`. S8 originally wrote drafts to `migration-staging` with `SANITY_STAGING_API_WRITE_TOKEN`; the 2026-06-12 content cutover (export+import) carried those into `production` as **published** docs (no drafts survive there). **Any further legal-copy edit targets `production` and publishes directly** — use `SANITY_PRODUCTION_API_WRITE_TOKEN`, patch by keyed path (`body[_key=="<loc>"].value[_key=="<block>"].children[_key=="<span>"].text`) to preserve each block's `_key`/marks, and back up first (see `scripts/s8-legal-closeout.ts`).
 - **Legal register is usted; chat chrome is tú (Session 8):** the legal pages already carried complete professional ES + JA translations in **formal usted**. New legal-page ES must match that register — mixing the chat's **tú** (S6) into a legal document reads as a translation error. The tú convention is right for the consent *banner* and chat surfaces only. (One consistent register per document beats one global pronoun rule.)
 - **Anonymise vs NOT NULL + retain-the-pseudonyms (Session 8):** delete-my-conversation **anonymises** (not row-delete): `messages.content`→`'[deleted]'`, `conversations.brief_payload`→null + `archived=true`, `sessions.email`→null. `briefs.payload` is **NOT NULL**, so it is emptied to `{}` (same PII removal, satisfies the constraint) rather than nulled. The keyed `ip_hash`/`user_agent_hash` are **RETAINED** — one-way abuse-prevention pseudonyms; stripping them on a delete request would let an abuser reset their rate-limit/abuse standing (this **revises** the brief's original "strip ip_hash/user_agent_hash"; legal-review item). No migration — reuses existing columns.
 - **A new data-collecting feature can silently invalidate the consent notice (Session 8):** the pre-S8 cookie notice still said "a single cookie … no tracking of any kind" after the concierge shipped `t2e_session_id` + IP/UA hashing — a *materially false* live disclosure, not just stale copy. Adding any feature that sets a cookie or processes visitor data must trigger a consent + policy pass in the same launch window.
