@@ -3,6 +3,17 @@
  * serif heading, faience button — no @react-email for v1. EN + ES.
  */
 import type { AutouraBriefPayload } from '@/lib/concierge/autoura/types';
+import { PRODUCTION_URL } from '@/lib/site';
+
+/**
+ * Admin reviewer-panel URL for a given conversation (Session 10). All
+ * team-facing emails embed this so reviewers can jump straight from the
+ * inbox into the panel. Always points at production — the team accesses the
+ * admin from prod, never from a preview host.
+ */
+function adminConversationUrl(conversationId: string): string {
+  return `${PRODUCTION_URL}/admin/conversations/${conversationId}`;
+}
 
 interface ResumeEmailContent {
   subject: string;
@@ -74,6 +85,7 @@ export function teamHandoffEmail(p: TeamHandoffParams): { subject: string; html:
     ['Session reference', p.sessionRef],
     ['Conversation ID', p.conversationId],
     ['Flag reason', 'escape_hatch_used'],
+    ['Admin link', adminConversationUrl(p.conversationId)],
   ];
 
   const transcriptLines = p.transcript.map(
@@ -136,6 +148,7 @@ export function hostileContentAlert(p: HostileAlertParams): {
     ['Language', languageLabel(p.locale)],
     ['Session reference', p.sessionRef],
     ['Conversation ID', p.conversationId],
+    ['Admin link', adminConversationUrl(p.conversationId)],
   ];
 
   const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
@@ -204,6 +217,7 @@ export function briefFallbackEmail(p: BriefFallbackParams): { subject: string; h
     ['Follow-up commitment', pl.follow_up_window?.cairo_time_label ?? '—'],
     ['Conversation ID', pl.conversation_id],
     ['Brief revision', `${pl.brief_revision}${pl.is_update ? ' (update)' : ''}`],
+    ['Admin link', adminConversationUrl(pl.conversation_id)],
   ];
 
   const transcriptLines = pl.full_transcript.map(
@@ -280,6 +294,7 @@ export function autouraFailureAlertEmail(p: AutouraFailureAlertParams): {
     ['Brief revision', String(p.briefRevision)],
     ['Visitor email', p.visitorEmail ?? '(not provided)'],
     ['Full brief emailed to team', p.fallbackEmailed ? 'yes — see "[Concierge — Brief (email fallback)]"' : 'NO'],
+    ['Admin link', adminConversationUrl(p.conversationId)],
   ];
 
   const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
