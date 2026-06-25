@@ -26,6 +26,9 @@ export const FLAG_REASONS = [
 export type FlagReason = (typeof FLAG_REASONS)[number];
 
 export interface ListFilters {
+  /** Free-text ILIKE search over message content. When set, other filters are
+   *  ignored (search is its own mode — see searchConversations). */
+  q: string | null;
   /** ISO calendar date 'YYYY-MM-DD' (inclusive lower bound), or null. */
   from: string | null;
   /** ISO calendar date 'YYYY-MM-DD' (inclusive upper bound), or null. */
@@ -67,8 +70,18 @@ function parsePage(v: string | null): number {
   return Number.isFinite(n) && n >= 1 ? n : 1;
 }
 
+function parseQuery(v: string | null): string | null {
+  if (!v) return null;
+  const trimmed = v.trim();
+  if (!trimmed) return null;
+  // Cap at 200 chars — anything longer is almost certainly junk; the cap also
+  // bounds the size of the ILIKE pattern we send to Postgres.
+  return trimmed.slice(0, 200);
+}
+
 export function parseFilters(sp: URLSearchParams): ListFilters {
   return {
+    q: parseQuery(sp.get('q')),
     from: parseDate(sp.get('from')),
     to: parseDate(sp.get('to')),
     locale: parseLocale(sp.get('locale')),
@@ -84,6 +97,7 @@ export function parseFilters(sp: URLSearchParams): ListFilters {
 /** Encode current filters back into a URLSearchParams (for pagination + filter changes). */
 export function encodeFilters(filters: Partial<ListFilters>): URLSearchParams {
   const sp = new URLSearchParams();
+  if (filters.q) sp.set('q', filters.q);
   if (filters.from) sp.set('from', filters.from);
   if (filters.to) sp.set('to', filters.to);
   if (filters.locale) sp.set('locale', filters.locale);

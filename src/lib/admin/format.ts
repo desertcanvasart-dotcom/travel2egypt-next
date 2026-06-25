@@ -49,3 +49,18 @@ export function cairoTodayStartIso(): string {
   const offset = cairoOffsetAt(now); // "+02:00" or "+03:00"
   return new Date(`${ymd}T00:00:00${offset}`).toISOString();
 }
+
+/**
+ * Cairo "yesterday" window — [start, end) ISO timestamps covering the
+ * previous Cairo calendar day. Used by the 08:00 Cairo daily digest cron
+ * (runs at 08:00 Cairo today → covers yesterday 00:00 → today 00:00 Cairo).
+ *
+ * Naively subtracts 24h from today's Cairo midnight to get yesterday's
+ * midnight. On a DST-transition day the window is technically 23h or 25h
+ * long; the digest's intent (yesterday's activity) is preserved either way.
+ */
+export function cairoYesterdayWindowIso(): { startIso: string; endIso: string } {
+  const endIso = cairoTodayStartIso();
+  const startIso = new Date(new Date(endIso).getTime() - 24 * 60 * 60 * 1000).toISOString();
+  return { startIso, endIso };
+}

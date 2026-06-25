@@ -28,7 +28,7 @@ export default async function ConversationDetailPage({
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-8 font-sans text-night">
-      <Header email={session.email} />
+      <Header email={session.email} conversationId={detail.conversation.id} />
       <MetaStrip detail={detail} />
       <ReviewerPanel detail={detail} />
       <BriefSection detail={detail} />
@@ -38,7 +38,7 @@ export default async function ConversationDetailPage({
   );
 }
 
-function Header({ email }: { email: string }) {
+function Header({ email, conversationId }: { email: string; conversationId: string }) {
   return (
     <header className="mb-6 flex items-baseline justify-between border-b border-night/10 pb-4">
       <div>
@@ -47,19 +47,33 @@ function Header({ email }: { email: string }) {
         </Link>
         <h1 className="mt-1 font-serif text-2xl text-night">Conversation</h1>
       </div>
-      <form
-        method="post"
-        action="/api/admin/auth/logout"
-        className="flex items-center gap-3 text-sm text-night-soft"
-      >
-        <span>{email}</span>
-        <button
-          type="submit"
+      <div className="flex items-center gap-2 text-sm text-night-soft">
+        <a
+          href={`/api/admin/conversations/${conversationId}/export?format=md`}
           className="rounded border border-night/20 px-3 py-1 hover:bg-night/5"
         >
-          Sign out
-        </button>
-      </form>
+          Export .md
+        </a>
+        <a
+          href={`/api/admin/conversations/${conversationId}/export?format=json`}
+          className="rounded border border-night/20 px-3 py-1 hover:bg-night/5"
+        >
+          Export .json
+        </a>
+        <form
+          method="post"
+          action="/api/admin/auth/logout"
+          className="flex items-center gap-3"
+        >
+          <span>{email}</span>
+          <button
+            type="submit"
+            className="rounded border border-night/20 px-3 py-1 hover:bg-night/5"
+          >
+            Sign out
+          </button>
+        </form>
+      </div>
     </header>
   );
 }

@@ -5,6 +5,7 @@ import { getAdminSession } from '@/lib/admin/auth';
 import {
   getDailyStats,
   listConversations,
+  searchConversations,
   type ConversationListRow,
   type DailyStats,
 } from '@/lib/admin/conversations';
@@ -40,17 +41,55 @@ export default async function AdminLanding({
   const sp = await searchParams;
   const filters = parseFilters(toUrlParams(sp));
 
-  const [list, stats] = await Promise.all([listConversations(filters), getDailyStats()]);
-  const totalPages = Math.max(1, Math.ceil(list.total / PAGE_SIZE));
+  const searchMode = filters.q !== null;
+  const [list, stats] = await Promise.all([
+    searchMode ? searchConversations(filters.q ?? '') : listConversations(filters),
+    getDailyStats(),
+  ]);
+  const totalPages = searchMode ? 1 : Math.max(1, Math.ceil(list.total / PAGE_SIZE));
+  const searchCapped = searchMode && 'capped' in list && (list as { capped: boolean }).capped;
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-8 font-sans text-night">
       <Header email={session.email} />
       <StatsStrip stats={stats} />
-      <FilterBar filters={filters} />
-      <ResultsTable rows={list.rows} total={list.total} />
-      <Pagination filters={filters} totalPages={totalPages} />
+      <SearchBar q={filters.q ?? ''} />
+      {!searchMode && <FilterBar filters={filters} />}
+      <ResultsTable rows={list.rows} total={list.total} searchMode={searchMode} searchCapped={searchCapped} q={filters.q} />
+      {!searchMode && <Pagination filters={filters} totalPages={totalPages} />}
     </div>
+  );
+}
+
+function SearchBar({ q }: { q: string }) {
+  return (
+    <form
+      method="get"
+      action="/admin"
+      className="mb-4 flex items-center gap-2 rounded border border-night/10 bg-paper p-3"
+    >
+      <input
+        type="search"
+        name="q"
+        defaultValue={q}
+        placeholder="Search transcript content…"
+        className="flex-1 rounded border border-night/15 px-3 py-1.5 text-sm"
+      />
+      <button
+        type="submit"
+        className="rounded bg-night px-4 py-1.5 text-sm text-paper hover:bg-night/85"
+      >
+        Search
+      </button>
+      {q ? (
+        <Link
+          href="/admin"
+          className="rounded border border-night/20 px-4 py-1.5 text-sm text-night-soft hover:bg-night/5"
+        >
+          Clear
+        </Link>
+      ) : null}
+    </form>
   );
 }
 
@@ -208,13 +247,28 @@ function FilterBar({ filters }: { filters: ListFilters }) {
   );
 }
 
-function ResultsTable({ rows, total }: { rows: ConversationListRow[]; total: number }) {
+function ResultsTable({
+  rows,
+  total,
+  searchMode,
+  searchCapped,
+  q,
+}: {
+  rows: ConversationListRow[];
+  total: number;
+  searchMode: boolean;
+  searchCapped: boolean;
+  q: string | null;
+}) {
+  const countLabel = searchMode
+    ? `${searchCapped ? '≥' : ''}${total} match${total === 1 ? '' : 'es'} for "${q}"`
+    : `${total} conversation${total === 1 ? '' : 's'}`;
   return (
     <section className="mb-4">
-      <div className="mb-2 text-sm text-night-soft">{total} conversation{total === 1 ? '' : 's'}</div>
+      <div className="mb-2 text-sm text-night-soft">{countLabel}</div>
       {rows.length === 0 ? (
         <div className="rounded border border-dashed border-night/15 py-12 text-center text-night-soft">
-          No conversations match.
+          {searchMode ? 'No matches.' : 'No conversations match.'}
         </div>
       ) : (
         <div className="overflow-x-auto rounded border border-night/10">
