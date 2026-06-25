@@ -4,17 +4,24 @@ import { adminAuthClient } from '@/lib/admin/auth';
 import { isAdminEmail } from '@/lib/admin/whitelist';
 
 /**
- * POST /api/admin/auth/login — start a magic-link sign-in (Session 10).
+ * POST /api/admin/auth/login — start an email OTP sign-in (Session 10).
+ *
+ * Switched from PKCE magic-link to OTP because the PKCE verifier cookie was
+ * fragile across the Gmail → Supabase → localhost redirect chain (different
+ * Chrome window/profile between submit and click would lose the verifier).
+ * The OTP flow has no verifier roundtrip — Supabase emails a 6-digit code,
+ * the user types it into the second stage of the same form, server calls
+ * verifyOtp. Same browser not required.
  *
  * Accepts form-urlencoded or JSON `{ email }`. We:
- *   1. Skip the Supabase Auth call entirely for emails not in ADMIN_EMAILS,
- *      so non-admins do not consume email quota.
- *   2. Return the SAME redirect ("?sent=1") regardless of whether the email
- *      is whitelisted, so the response never leaks who can sign in.
+ *   1. Skip the Supabase call entirely for emails not in ADMIN_EMAILS, so
+ *      non-admins do not consume email quota.
+ *   2. Return the SAME redirect ("?sent=1&email=…") regardless of whether
+ *      the email is whitelisted, so the response never leaks who can sign in.
  *
- * The Supabase email link sends the visitor to
- * `${origin}/api/admin/auth/callback?code=…`. That URL must be added to the
- * Supabase Auth "Redirect URLs" allowlist in the Dashboard for each host.
+ * Requires the Supabase Auth "Magic Link" email template to include the
+ * 6-digit `{{ .Token }}` token (the default template only shows the magic
+ * link; update the template in Dashboard → Auth → Email Templates).
  */
 export const runtime = 'nodejs';
 
@@ -34,12 +41,15 @@ async function readEmail(req: NextRequest): Promise<string | null> {
   return typeof raw === 'string' ? raw.trim() : null;
 }
 
+function sentRedirect(req: NextRequest, email: string): NextResponse {
+  const url = new URL('/admin/login', req.url);
+  url.searchParams.set('sent', '1');
+  url.searchParams.set('email', email);
+  return NextResponse.redirect(url, { status: 303 });
+}
+
 export async function POST(req: NextRequest) {
   const email = await readEmail(req);
-
-  const sentRedirect = NextResponse.redirect(new URL('/admin/login?sent=1', req.url), {
-    status: 303,
-  });
 
   if (!email) {
     return NextResponse.redirect(new URL('/admin/login?error=invalid', req.url), {
@@ -50,17 +60,14 @@ export async function POST(req: NextRequest) {
   // Allowlist check happens BEFORE the Supabase call. Non-admins still get
   // the same "sent" response (no enumeration leak), but we never spend the
   // SMTP quota or create an auth.users row for them.
-  if (!isAdminEmail(email)) return sentRedirect;
+  if (!isAdminEmail(email)) return sentRedirect(req, email);
 
   try {
     const supabase = await adminAuthClient();
-    const origin = new URL(req.url).origin;
-    const { error } = await supabase.auth.signInWithOtp({
-      email,
-      options: {
-        emailRedirectTo: `${origin}/api/admin/auth/callback`,
-      },
-    });
+    // No `emailRedirectTo` — the user types the code from the email into the
+    // second stage of /admin/login, not by clicking a link. shouldCreateUser
+    // defaults to true (admin user is created on first sign-in).
+    const { error } = await supabase.auth.signInWithOtp({ email });
     if (error) {
       console.error('[admin auth] signInWithOtp failed:', error.message);
       return NextResponse.redirect(new URL('/admin/login?error=send_failed', req.url), {
@@ -74,5 +81,5 @@ export async function POST(req: NextRequest) {
     });
   }
 
-  return sentRedirect;
+  return sentRedirect(req, email);
 }

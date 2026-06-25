@@ -1,43 +1,19 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
-import { adminAuthClient } from '@/lib/admin/auth';
-import { isAdminEmail } from '@/lib/admin/whitelist';
-
 /**
- * GET /api/admin/auth/callback — complete the magic-link sign-in.
+ * GET /api/admin/auth/callback — graceful degrade for stale magic links.
  *
- * Supabase Auth redirects the visitor here with `?code=…` (PKCE flow). We:
- *   1. Exchange the code for a session — the SSR client sets the auth cookie
- *      via the cookie adapter in `lib/admin/auth.ts`.
- *   2. RE-CHECK the resulting user's email against ADMIN_EMAILS — covers the
- *      edge case where an admin email was removed from the allowlist between
- *      the link being sent and being clicked.
- *   3. If the re-check fails, sign out (clear the cookie) and redirect to
- *      the login page with an unauthorized notice.
+ * The S10 admin sign-in was switched from PKCE magic-link to email OTP after
+ * the PKCE verifier cookie proved fragile across the Gmail → Supabase →
+ * localhost redirect chain. The current sign-in flow does not issue magic
+ * links; this route only exists to redirect a user who clicked a pre-switch
+ * (or template-still-shows-the-link) email link back to /admin/login with a
+ * hint to use the 6-digit code from the email instead.
  */
 export const runtime = 'nodejs';
 
 export async function GET(req: NextRequest) {
-  const code = req.nextUrl.searchParams.get('code');
-
-  if (!code) {
-    return NextResponse.redirect(new URL('/admin/login?error=missing_code', req.url));
-  }
-
-  const supabase = await adminAuthClient();
-  const { error: exchangeError } = await supabase.auth.exchangeCodeForSession(code);
-  if (exchangeError) {
-    console.error('[admin auth] exchangeCodeForSession failed:', exchangeError.message);
-    return NextResponse.redirect(new URL('/admin/login?error=expired', req.url));
-  }
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-  if (!user?.email || !isAdminEmail(user.email)) {
-    await supabase.auth.signOut();
-    return NextResponse.redirect(new URL('/admin/login?error=unauthorized', req.url));
-  }
-
-  return NextResponse.redirect(new URL('/admin', req.url));
+  const url = new URL('/admin/login', req.url);
+  url.searchParams.set('error', 'use_otp');
+  return NextResponse.redirect(url, { status: 307 });
 }
