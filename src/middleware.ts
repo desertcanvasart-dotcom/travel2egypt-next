@@ -67,7 +67,8 @@ export const config = {
   // Match all paths except:
   //  - /api
   //  - /studio (Sanity Studio)
+  //  - /admin  (S10 admin reviewer panel — must not be locale-prefixed)
   //  - Next.js internals (_next, _vercel)
   //  - Files with extensions (favicon.ico, etc.)
-  matcher: ['/((?!api|studio|_next|_vercel|.*\\..*).*)'],
+  matcher: ['/((?!api|studio|admin|_next|_vercel|.*\\..*).*)'],
 };
