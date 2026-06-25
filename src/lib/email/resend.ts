@@ -5,10 +5,12 @@ import type { AutouraBriefPayload } from '@/lib/concierge/autoura/types';
 import {
   autouraFailureAlertEmail,
   briefFallbackEmail,
+  digestEmail,
   hostileContentAlert,
   resumeEmail,
   teamHandoffEmail,
   type AutouraFailureAlertParams,
+  type DigestEmailParams,
 } from './templates';
 
 /**
@@ -124,6 +126,19 @@ export async function sendAutouraBriefFallback(args: {
     ...(replyTo ? { replyTo } : {}),
   });
   if (error) throw new Error(`resend autoura brief fallback failed: ${error.message}`);
+}
+
+/**
+ * Daily digest (Session 10) → DIGEST_EMAIL ?? TEAM_INBOX_EMAIL. No Reply-To —
+ * internal ops summary. Throws on send failure so the cron route can surface
+ * a non-2xx; Railway will retry/alert on its side.
+ */
+export async function sendDigestEmail(args: DigestEmailParams): Promise<void> {
+  const to = process.env.DIGEST_EMAIL || process.env.TEAM_INBOX_EMAIL;
+  if (!to) throw new Error('no DIGEST_EMAIL or TEAM_INBOX_EMAIL set for daily digest');
+  const { subject, html, text } = digestEmail(args);
+  const { error } = await client().emails.send({ from: FROM, to, subject, html, text });
+  if (error) throw new Error(`resend digest failed: ${error.message}`);
 }
 
 /**

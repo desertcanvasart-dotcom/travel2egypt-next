@@ -3,6 +3,17 @@
  * serif heading, faience button — no @react-email for v1. EN + ES.
  */
 import type { AutouraBriefPayload } from '@/lib/concierge/autoura/types';
+import { PRODUCTION_URL } from '@/lib/site';
+
+/**
+ * Admin reviewer-panel URL for a given conversation (Session 10). All
+ * team-facing emails embed this so reviewers can jump straight from the
+ * inbox into the panel. Always points at production — the team accesses the
+ * admin from prod, never from a preview host.
+ */
+function adminConversationUrl(conversationId: string): string {
+  return `${PRODUCTION_URL}/admin/conversations/${conversationId}`;
+}
 
 interface ResumeEmailContent {
   subject: string;
@@ -74,6 +85,7 @@ export function teamHandoffEmail(p: TeamHandoffParams): { subject: string; html:
     ['Session reference', p.sessionRef],
     ['Conversation ID', p.conversationId],
     ['Flag reason', 'escape_hatch_used'],
+    ['Admin link', adminConversationUrl(p.conversationId)],
   ];
 
   const transcriptLines = p.transcript.map(
@@ -136,6 +148,7 @@ export function hostileContentAlert(p: HostileAlertParams): {
     ['Language', languageLabel(p.locale)],
     ['Session reference', p.sessionRef],
     ['Conversation ID', p.conversationId],
+    ['Admin link', adminConversationUrl(p.conversationId)],
   ];
 
   const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
@@ -204,6 +217,7 @@ export function briefFallbackEmail(p: BriefFallbackParams): { subject: string; h
     ['Follow-up commitment', pl.follow_up_window?.cairo_time_label ?? '—'],
     ['Conversation ID', pl.conversation_id],
     ['Brief revision', `${pl.brief_revision}${pl.is_update ? ' (update)' : ''}`],
+    ['Admin link', adminConversationUrl(pl.conversation_id)],
   ];
 
   const transcriptLines = pl.full_transcript.map(
@@ -280,6 +294,7 @@ export function autouraFailureAlertEmail(p: AutouraFailureAlertParams): {
     ['Brief revision', String(p.briefRevision)],
     ['Visitor email', p.visitorEmail ?? '(not provided)'],
     ['Full brief emailed to team', p.fallbackEmailed ? 'yes — see "[Concierge — Brief (email fallback)]"' : 'NO'],
+    ['Admin link', adminConversationUrl(p.conversationId)],
   ];
 
   const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
@@ -302,6 +317,167 @@ export function autouraFailureAlertEmail(p: AutouraFailureAlertParams): {
     'The traveler is served — the full brief went to the team inbox by email. Investigate the endpoint.',
     '',
     ...metaRows.map(([k, val]) => `${k}: ${val}`),
+  ].join('\n');
+
+  return { subject, html, text };
+}
+
+export interface DigestEmailParams {
+  windowStart: string; // ISO; the email formats it locally
+  windowEnd: string;
+  totals: { conversations: number; briefsCompleted: number; flagged: number };
+  briefsCompleted: Array<{
+    id: string;
+    email: string | null;
+    locale: string;
+    brief_completed_at: string;
+  }>;
+  flaggedByReason: Record<
+    string,
+    Array<{ id: string; email: string | null; locale: string; started_at: string }>
+  >;
+  topResponseTimes: Array<{ conversation_id: string; response_time_ms: number; created_at: string }>;
+  tokenSummary: { inputTokens: number; outputTokens: number; messageCount: number };
+}
+
+/**
+ * Daily digest email (Session 10) — sent to TEAM_INBOX_EMAIL by Railway cron
+ * at 08:00 Cairo. Plain HTML + plain text. Covers the previous Cairo day.
+ * Lists are capped (50 briefs / 100 flagged) — overflow links to the admin
+ * filter URL for full review.
+ */
+export function digestEmail(p: DigestEmailParams): {
+  subject: string;
+  html: string;
+  text: string;
+} {
+  const fmtDate = (iso: string) =>
+    new Date(iso).toLocaleDateString('en-GB', {
+      timeZone: 'Africa/Cairo',
+      year: 'numeric',
+      month: 'short',
+      day: '2-digit',
+    });
+
+  const dayLabel = fmtDate(p.windowStart);
+  const subject = `[Concierge — Daily digest] ${dayLabel}`;
+
+  const totalsHtml = `
+    <table style="border-collapse:collapse;font-size:14px;margin-bottom:20px;">
+      <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Conversations</td><td style="padding:3px 0;"><strong>${p.totals.conversations}</strong></td></tr>
+      <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Briefs completed</td><td style="padding:3px 0;"><strong>${p.totals.briefsCompleted}</strong></td></tr>
+      <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Flagged</td><td style="padding:3px 0;"><strong>${p.totals.flagged}</strong></td></tr>
+    </table>`;
+
+  const briefListHtml = p.briefsCompleted.length
+    ? `<ul style="font-size:14px;line-height:1.7;margin:0 0 16px;padding-left:20px;">
+        ${p.briefsCompleted
+          .map(
+            (b) =>
+              `<li><a href="${adminConversationUrl(b.id)}" style="color:#1b4965;">${esc(b.email ?? '(no email)')}</a> · ${esc(b.locale.toUpperCase())} · ${esc(new Date(b.brief_completed_at).toLocaleTimeString('en-GB', { timeZone: 'Africa/Cairo', hour: '2-digit', minute: '2-digit' }))}</li>`,
+          )
+          .join('')}
+      </ul>`
+    : '<p style="font-size:14px;color:#5c6675;margin:0 0 16px;">No briefs completed.</p>';
+
+  const flaggedSections = Object.entries(p.flaggedByReason)
+    .map(
+      ([reason, items]) =>
+        `<h4 style="font-size:13px;margin:12px 0 4px;color:#14243b;">${esc(reason.replaceAll('_', ' '))} · ${items.length}</h4>
+         <ul style="font-size:14px;line-height:1.7;margin:0 0 8px;padding-left:20px;">
+          ${items
+            .map(
+              (it) =>
+                `<li><a href="${adminConversationUrl(it.id)}" style="color:#1b4965;">${esc(it.email ?? '(no email)')}</a> · ${esc(it.locale.toUpperCase())} · ${esc(new Date(it.started_at).toLocaleTimeString('en-GB', { timeZone: 'Africa/Cairo', hour: '2-digit', minute: '2-digit' }))}</li>`,
+            )
+            .join('')}
+         </ul>`,
+    )
+    .join('');
+  const flaggedHtml = flaggedSections
+    ? flaggedSections
+    : '<p style="font-size:14px;color:#5c6675;margin:0 0 16px;">No flagged needing review.</p>';
+
+  const topRtHtml = p.topResponseTimes.length
+    ? `<ul style="font-size:14px;line-height:1.7;margin:0 0 16px;padding-left:20px;">
+        ${p.topResponseTimes
+          .map(
+            (r) =>
+              `<li><a href="${adminConversationUrl(r.conversation_id)}" style="color:#1b4965;">${r.response_time_ms.toLocaleString()}ms</a> · ${esc(new Date(r.created_at).toLocaleTimeString('en-GB', { timeZone: 'Africa/Cairo', hour: '2-digit', minute: '2-digit' }))}</li>`,
+          )
+          .join('')}
+      </ul>`
+    : '<p style="font-size:14px;color:#5c6675;margin:0 0 16px;">No data.</p>';
+
+  const tokensHtml = `
+    <table style="border-collapse:collapse;font-size:14px;margin-bottom:20px;">
+      <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Input tokens</td><td style="padding:3px 0;"><strong>${p.tokenSummary.inputTokens.toLocaleString()}</strong></td></tr>
+      <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Output tokens</td><td style="padding:3px 0;"><strong>${p.tokenSummary.outputTokens.toLocaleString()}</strong></td></tr>
+      <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Messages</td><td style="padding:3px 0;"><strong>${p.tokenSummary.messageCount.toLocaleString()}</strong></td></tr>
+    </table>`;
+
+  const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
+  <div style="max-width:640px;margin:0 auto;padding:24px;">
+    <h2 style="font-size:18px;margin:0 0 4px;">Concierge digest — ${dayLabel}</h2>
+    <p style="font-size:13px;color:#5c6675;margin:0 0 16px;">Previous Cairo day. Click any item to open it in the admin panel.</p>
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Totals</h3>
+    ${totalsHtml}
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Briefs completed (${p.briefsCompleted.length})</h3>
+    ${briefListHtml}
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Flagged · needs review</h3>
+    ${flaggedHtml}
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Top response times</h3>
+    ${topRtHtml}
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Token use</h3>
+    ${tokensHtml}
+    <p style="font-size:12px;color:#5c6675;margin:20px 0 0;">Admin panel: <a href="${PRODUCTION_URL}/admin" style="color:#1b4965;">${PRODUCTION_URL}/admin</a></p>
+  </div>
+</body></html>`;
+
+  const textBriefs = p.briefsCompleted.length
+    ? p.briefsCompleted
+        .map((b) => `  - ${b.email ?? '(no email)'} · ${b.locale} · ${adminConversationUrl(b.id)}`)
+        .join('\n')
+    : '  (none)';
+  const textFlagged = Object.entries(p.flaggedByReason).length
+    ? Object.entries(p.flaggedByReason)
+        .map(
+          ([reason, items]) =>
+            `  ${reason} (${items.length}):\n` +
+            items
+              .map(
+                (it) =>
+                  `    - ${it.email ?? '(no email)'} · ${it.locale} · ${adminConversationUrl(it.id)}`,
+              )
+              .join('\n'),
+        )
+        .join('\n\n')
+    : '  (none)';
+  const textTopRt = p.topResponseTimes.length
+    ? p.topResponseTimes
+        .map((r) => `  - ${r.response_time_ms}ms · ${adminConversationUrl(r.conversation_id)}`)
+        .join('\n')
+    : '  (no data)';
+
+  const text = [
+    `Concierge digest — ${dayLabel}`,
+    `Previous Cairo day. Admin panel: ${PRODUCTION_URL}/admin`,
+    '',
+    'Totals:',
+    `  Conversations: ${p.totals.conversations}`,
+    `  Briefs completed: ${p.totals.briefsCompleted}`,
+    `  Flagged: ${p.totals.flagged}`,
+    '',
+    `Briefs completed (${p.briefsCompleted.length}):`,
+    textBriefs,
+    '',
+    'Flagged · needs review:',
+    textFlagged,
+    '',
+    'Top response times:',
+    textTopRt,
+    '',
+    `Tokens: ${p.tokenSummary.inputTokens.toLocaleString()} in / ${p.tokenSummary.outputTokens.toLocaleString()} out · ${p.tokenSummary.messageCount} messages`,
   ].join('\n');
 
   return { subject, html, text };

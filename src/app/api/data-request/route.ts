@@ -62,7 +62,10 @@ export async function POST(req: NextRequest) {
       .from('conversations')
       .update({ brief_payload: null, archived: true })
       .eq('session_id', session.rowId);
-    await db.from('sessions').update({ email: null }).eq('id', session.rowId);
+    await db
+      .from('sessions')
+      .update({ email: null, anonymized_at: new Date().toISOString() })
+      .eq('id', session.rowId);
 
     const res = NextResponse.json({ ok: true });
     res.cookies.set(expireSessionCookie(req));

@@ -31,6 +31,7 @@ export interface ConciergeDatabase {
           locale: string;
           email: string | null;
           email_verified: boolean | null;
+          anonymized_at: string | null; // migration 0006 (Session 10)
         };
         Insert: {
           id?: string;
@@ -42,6 +43,7 @@ export interface ConciergeDatabase {
           locale?: string;
           email?: string | null;
           email_verified?: boolean | null;
+          anonymized_at?: string | null;
         };
         Update: {
           id?: string;
@@ -53,6 +55,7 @@ export interface ConciergeDatabase {
           locale?: string;
           email?: string | null;
           email_verified?: boolean | null;
+          anonymized_at?: string | null;
         };
         Relationships: [];
       };

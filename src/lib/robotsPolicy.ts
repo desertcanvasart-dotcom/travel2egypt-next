@@ -11,6 +11,8 @@
 export const ROBOTS_DISALLOW_PATHS = [
   '/studio',
   '/studio/',
+  '/admin',
+  '/admin/',
   '/api/',
   '/wiki/deities',
   '/wiki/dynasties',
