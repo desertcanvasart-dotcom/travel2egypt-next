@@ -50,6 +50,8 @@ const brief: BriefPayload = {
   constraints: { dietary: null, mobility: null, religious: null, medical: null },
   brief_summary: 'A honeymoon.',
   follow_up_window: 'by 8 p.m. Cairo time',
+  routed_brand: 'travel2egypt',
+  routing_reason: null,
 };
 
 const context: DeliveryContext = {

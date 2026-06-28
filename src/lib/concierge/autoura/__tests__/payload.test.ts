@@ -49,6 +49,8 @@ const brief: BriefPayload = {
   constraints: { dietary: 'vegetarian', mobility: null, religious: null, medical: null },
   brief_summary: 'A 10-day deluxe history-and-food honeymoon.',
   follow_up_window: 'by 8 p.m. Cairo time',
+  routed_brand: 'travel2egypt',
+  routing_reason: null,
 };
 
 const ctx: AutouraPayloadContext = {

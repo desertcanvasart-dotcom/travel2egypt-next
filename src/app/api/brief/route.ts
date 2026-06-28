@@ -53,7 +53,7 @@ export async function POST(req: NextRequest) {
     // The conversation must belong to this session.
     const { data: conversation } = await db
       .from('conversations')
-      .select('id, brief_completed, brief_payload, routed_brand')
+      .select('id, brief_completed, brief_payload')
       .eq('id', conversationId)
       .eq('session_id', session.rowId)
       .maybeSingle();
@@ -100,6 +100,13 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ complete: false } satisfies BriefResponse);
     }
 
+    // S13: the extraction read back the agent's routing decision (default
+    // 'travel2egypt' — the anchor — when the agent voiced no sister-brand
+    // handoff). It decides what we persist on the conversation AND the Autoura
+    // target below. An admin can later override conversations.routed_brand
+    // (reversible handoff); this first-completion write seeds it.
+    const brand = coerceBrand(payload.routed_brand);
+
     // Persist: brief state on the conversation + a briefs row (S9 delivers this).
     const nowIso = new Date().toISOString();
     await db
@@ -108,6 +115,8 @@ export async function POST(req: NextRequest) {
         brief_completed: true,
         brief_completed_at: nowIso,
         brief_payload: payload as unknown as Json,
+        routed_brand: brand,
+        routing_reason: payload.routing_reason,
       })
       .eq('id', conversationId);
 
@@ -123,13 +132,8 @@ export async function POST(req: NextRequest) {
       .limit(1);
     const briefRevision = (prior?.[0]?.brief_revision ?? 0) + 1;
 
-    // S13: the conversation's CURRENT room decides the Autoura target. Until the
-    // extraction populates routed_brand (deferred — a second approved-prompt
-    // edit), this is the anchor 'travel2egypt' by the column default, so this
-    // stamps + delivers exactly as before. delivered_brand snapshots where THIS
-    // brief was sent (immutable per-brief record; a re-route makes a new revision).
-    const brand = coerceBrand(conversation.routed_brand);
-
+    // delivered_brand snapshots where THIS brief was sent (immutable per-brief
+    // record; a re-route later makes a new revision to the new endpoint).
     const { data: inserted } = await db
       .from('briefs')
       .insert({
