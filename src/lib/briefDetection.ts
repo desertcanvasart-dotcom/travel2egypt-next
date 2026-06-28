@@ -13,13 +13,32 @@ import type { ConciergeSession } from '@/lib/concierge/session';
  * suppression after a Gate-2 rejection is handled client-side.
  *
  * ── MARKER MAINTENANCE ──────────────────────────────────────────────────
- * Each marker maps to v4.1 wrap-up language (file/line cited). The v4.1
- * prompt is LOCKED and English-only; the agent renders Spanish at runtime,
- * so the ES markers are translations of the same concepts and are CALIBRATED
- * against real ES wrap turns during verification (not guessed-and-shipped).
- * When v4.1 → v5: re-read the prompt's "WHEN TO WRAP" / contact-capture /
+ * Each marker maps to wrap-up language (file/line cited). The prompt is
+ * English-authored; the agent renders Spanish at runtime, so the ES markers
+ * are translations of the same concepts and are CALIBRATED against real ES
+ * wrap turns during verification (not guessed-and-shipped).
+ * When the prompt changes: re-read its "WHEN TO WRAP" / contact-capture /
  * commitment language and update BOTH lists. Source:
- * travel-to-egypt-agent-system-prompt-v4.1.md.
+ * travel-to-egypt-agent-system-prompt-v4.2.md.
+ *
+ * ── v4.2 PORTFOLIO-TRIAGE REVIEW (Session 13) ────────────────────────────
+ * The v4.2 prompt edit TRIGGERED this review (per the locked-prompt
+ * contract). Finding: the markers below remain VALID and were left
+ * unchanged, because the v4.2 sub-brand handoff (READING DIRECTION) is
+ * written to PRESERVE the two route-independent signals every wrap carries —
+ * "a proper brief" AND the timed Cairo commitment ("by 8 p.m. cairo" /
+ * "by 10 a.m. cairo", ES "hora de el cairo" / "antes de las 8|10"). Those
+ * fire on a Travel2Egypt close AND on an AffordEgypt/Sawa/Sillage close, so
+ * brief detection does not depend on the brand name appearing.
+ * The brand-specific markers ("brief for our team", "team will come back to
+ * you") MAY NOT fire when the close instead names a sister-brand team — that
+ * is fine; the route-independent markers cover it.
+ *
+ * CALIBRATION GATE (founder's verification, not yet run): confirm the panel
+ * fires on a REAL wrap for EACH route × EACH locale (8 cases) —
+ * Travel2Egypt / AffordEgypt / Sawa / Sillage in EN and ES. If any real
+ * sub-brand close drops BOTH "proper brief" AND the Cairo-time phrase,
+ * recalibrate here the S6 way (add the observed phrasing), never by guessing.
  */
 
 // EN — v4.1-grounded AND calibrated against a real EN wrap (S4 verification).
