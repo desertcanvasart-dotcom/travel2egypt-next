@@ -1,6 +1,8 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
 import { deliverBrief } from '@/lib/concierge/autoura/deliver';
+import { resolveBrandEnv } from '@/lib/concierge/autoura/routing';
+import { coerceBrand } from '@/lib/concierge/brands';
 import { extractBrief, type ExtractionMessage } from '@/lib/briefExtraction';
 import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession } from '@/lib/concierge/session';
@@ -51,7 +53,7 @@ export async function POST(req: NextRequest) {
     // The conversation must belong to this session.
     const { data: conversation } = await db
       .from('conversations')
-      .select('id, brief_completed, brief_payload')
+      .select('id, brief_completed, brief_payload, routed_brand')
       .eq('id', conversationId)
       .eq('session_id', session.rowId)
       .maybeSingle();
@@ -121,12 +123,20 @@ export async function POST(req: NextRequest) {
       .limit(1);
     const briefRevision = (prior?.[0]?.brief_revision ?? 0) + 1;
 
+    // S13: the conversation's CURRENT room decides the Autoura target. Until the
+    // extraction populates routed_brand (deferred — a second approved-prompt
+    // edit), this is the anchor 'travel2egypt' by the column default, so this
+    // stamps + delivers exactly as before. delivered_brand snapshots where THIS
+    // brief was sent (immutable per-brief record; a re-route makes a new revision).
+    const brand = coerceBrand(conversation.routed_brand);
+
     const { data: inserted } = await db
       .from('briefs')
       .insert({
         conversation_id: conversationId,
         payload: payload as unknown as Json,
         brief_revision: briefRevision,
+        delivered_brand: brand,
       })
       .select('id')
       .single();
@@ -139,7 +149,7 @@ export async function POST(req: NextRequest) {
     if (inserted?.id) {
       const briefRowId = inserted.id;
       try {
-        void deliverBrief(briefRowId).catch((err) =>
+        void deliverBrief(briefRowId, { env: resolveBrandEnv(brand) }).catch((err) =>
           console.error('[concierge] autoura delivery worker error:', err),
         );
       } catch (err) {

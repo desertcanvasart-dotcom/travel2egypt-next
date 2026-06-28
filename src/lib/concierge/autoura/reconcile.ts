@@ -14,9 +14,11 @@
  * email (`email_fallback_sent = false`), capped at `limit`, processed serially
  * with a small gap so a backlog can't stampede Autoura or Supabase on boot.
  */
+import { coerceBrand } from '@/lib/concierge/brands';
 import { conciergeDb } from '@/lib/supabase/server';
 
 import { deliverBrief } from './deliver';
+import { resolveBrandEnv } from './routing';
 
 const DEFAULT_LIMIT = 20;
 const GAP_MS = 250;
@@ -26,7 +28,7 @@ export async function reconcileStuckBriefs(limit = DEFAULT_LIMIT): Promise<numbe
 
   const { data, error } = await db
     .from('briefs')
-    .select('id')
+    .select('id, delivered_brand')
     .in('autoura_webhook_status', ['pending', 'retried'])
     .eq('email_fallback_sent', false)
     .order('created_at', { ascending: true })
@@ -41,8 +43,13 @@ export async function reconcileStuckBriefs(limit = DEFAULT_LIMIT): Promise<numbe
   console.log(`[concierge] reconciling ${data.length} stuck Autoura deliver(y/ies)`);
   let done = 0;
   for (const row of data) {
+    // S13: re-target the SAME brand endpoint this brief was sent to (its
+    // delivered_brand snapshot), not the default — else a routed-then-crashed
+    // delivery would reconcile to the anchor. Falls back to the anchor when the
+    // sub-brand pair is unset (resolveBrandEnv), matching live delivery.
+    const env = resolveBrandEnv(coerceBrand(row.delivered_brand));
     // deliverBrief never throws, but guard anyway so one bad row can't halt the sweep.
-    await deliverBrief(row.id).catch((err) =>
+    await deliverBrief(row.id, { env }).catch((err) =>
       console.error('[concierge] reconcile deliver failed for', row.id, err),
     );
     done += 1;
