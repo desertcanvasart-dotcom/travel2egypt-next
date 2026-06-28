@@ -86,6 +86,15 @@ export const travelerStorySchema = defineType({
       description: 'Optional. Used in cards and hero placements.',
       type: 'image',
       options: { hotspot: true },
+      fields: [
+        defineField({
+          name: 'alt',
+          title: 'Alt text',
+          description:
+            'Required for accessibility and SEO. Describe what the image shows, not what it is. Keep under 125 characters per locale.',
+          type: 'internationalizedArrayString',
+        }),
+      ],
     }),
     defineField({
       name: 'sourcePlatform',
