@@ -20,6 +20,15 @@ export const routing = defineRouting({
   locales: ['en', 'es', 'ja'],
   defaultLocale: 'en',
   localePrefix: 'as-needed',
+  // Disable automatic cookie/Accept-Language locale redirects. Sanity content
+  // localizes its SLUGS per locale (a tour's EN slug differs from its JA slug),
+  // so next-intl's default detection — which redirects an unprefixed canonical
+  // URL to /<locale>/<same-slug> based on the NEXT_LOCALE cookie — sends e.g.
+  // /siwa-oasis-adventure-tour → /ja/siwa-oasis-adventure-tour, which 404s
+  // because the JA doc's slug is different. Canonical root URLs always serve
+  // EN; language is chosen via the switcher, which links to the correctly
+  // localized slug.
+  localeDetection: false,
   pathnames: {
     '/private-day-tours': '/private-day-tours',
     '/group-day-tours': '/group-day-tours',
