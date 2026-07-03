@@ -3,13 +3,16 @@
 import { useEffect, useRef, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 
-// The six "Where should your Egypt start?" reader-types. Each links to the
-// matching card anchor on the homepage (kebab-case ids on .lvl-home .tcard).
-// Order matches the homepage card grid (top-left → bottom-right). Labels reuse
-// the same i18n strings as the homepage cards so the two stay literally
-// consistent across locales.
+// The six "Where should your Egypt start?" reader-types. Order matches the
+// homepage card grid (top-left → bottom-right). Labels reuse the same i18n
+// strings as the homepage cards so the two stay literally consistent across
+// locales.
+//
+// "First time in Egypt" now has its own page (/journeys/first-time-in-egypt)
+// and links there directly; the other five still scroll to their homepage card
+// anchor (kebab-case ids on .lvl-home .tcard) until they are promoted too.
 const JOURNEY_LINKS = [
-  { key: 'journeyFirstTime', hash: 'first-time-in-egypt' },
+  { key: 'journeyFirstTime', href: '/journeys/first-time-in-egypt' },
   { key: 'journeyCultural', hash: 'the-cultural-traveller' },
   { key: 'journeyFamily', hash: 'travelling-as-a-family' },
   { key: 'journeyDesert', hash: 'desert-and-quiet' },
@@ -29,6 +32,9 @@ export function JourneysMenu() {
   // card. (App Router's client Link does not reliably scroll to hash targets.)
   const hashHref = (hash: string) =>
     locale === 'en' ? `/#${hash}` : `/${locale}#${hash}`;
+  // A real route (e.g. the first-time page) — locale-prefixed as-needed, same
+  // rule as hashHref so the link stays within the visitor's locale.
+  const routeHref = (path: string) => (locale === 'en' ? path : `/${locale}${path}`);
 
   useEffect(() => {
     if (!open) return;
@@ -82,15 +88,15 @@ export function JourneysMenu() {
             role="menu"
             className="min-w-[16rem] overflow-hidden border border-rule-strong bg-paper"
           >
-            {JOURNEY_LINKS.map(({ key, hash }) => (
-              <li key={key} role="none">
+            {JOURNEY_LINKS.map((item) => (
+              <li key={item.key} role="none">
                 <a
-                  href={hashHref(hash)}
+                  href={'href' in item ? routeHref(item.href) : hashHref(item.hash)}
                   role="menuitem"
                   onClick={() => setOpen(false)}
                   className="block whitespace-nowrap text-night-soft transition-colors hover:bg-limestone hover:text-night"
                 >
-                  {t(key)}
+                  {t(item.key)}
                 </a>
               </li>
             ))}
