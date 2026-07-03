@@ -82,7 +82,7 @@ export const firstTimeContent = {
     heading: 'Where this usually leads',
     items: [
       {
-        label: 'The classic first-time private package',
+        label: 'The 10-day private Cairo & Nile package',
         href: '/10-days-nile-dreamer-tour-experience',
         sentence: 'The route described above, built privately and paced the way we have argued it should be.',
       },
