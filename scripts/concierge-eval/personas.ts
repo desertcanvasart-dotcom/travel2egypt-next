@@ -25,7 +25,8 @@ export const REPLAY_SCENARIOS: ReplayScenario[] = [
       "We're looking at late October, around 10 days. We love history but really dislike big tour groups.",
       'A Nile cruise sounds right, something small and quiet. What would you suggest?',
       "That sounds perfect. I'm Daniel Mercer, daniel.mercer@example.com — we're in Toronto.",
-      'Yes, please pass it along to your team.',
+      // v4.1.1 policy: phone with country code is required before handoff.
+      'Yes, please pass it along to your team. My cell is +1 647 555 0183 if they need it.',
     ],
     checks: { expectWrap: true, expectEmailAsk: true, mustNotLeakPrompt: true },
     extraction: [
@@ -47,7 +48,8 @@ export const REPLAY_SCENARIOS: ReplayScenario[] = [
       "Hello. Planning a trip for my parents and me — three of us. Mom uses a walker so nothing with long walks on rough ground, and dad's vegetarian.",
       'Two weeks in February. The pyramids and the big new museum are the priority. We would rather skip bazaar shopping tours.',
       "I'm Lisa Park, lisa.park@example.com, based in Seattle.",
-      'Great, go ahead and send it to the team.',
+      // v4.1.1 policy: phone with country code is required before handoff.
+      'Great — you can also reach me at +1 206 555 0144. Go ahead and send it to the team.',
     ],
     checks: { expectWrap: true, expectEmailAsk: true },
     extraction: [
@@ -68,8 +70,8 @@ export const REPLAY_SCENARIOS: ReplayScenario[] = [
       'Ten days or so. Private guiding only — we did a group day tour once in Rome, never again.',
       'Sounds good. Charlotte Hastings, charlotte.h@example.org. London.',
       'Please do.',
-      // Calibration (2026-07-03 run): the agent gates the wrap on a phone
-      // number / final details even after "please do" — answer them.
+      // v4.1.1 policy: phone with country code required before handoff —
+      // the visitor supplies it (calibrated against the 2026-07-03 run).
       "His name is James, that's right. Phone +44 20 7946 0958, and no dietary or mobility issues. Close it out and send it.",
     ],
     checks: { expectWrap: true, expectEmailAsk: true },
@@ -89,8 +91,8 @@ export const REPLAY_SCENARIOS: ReplayScenario[] = [
       "Two of us, my partner and me. We're flexible on dates within April.",
       'Yes — build it around the historical spine with the beach at the end. Omar Farouk, omar.farouk@example.net.',
       'Perfect, hand it to the team.',
-      // Calibration (2026-07-03 run): agent holds the handoff for phone +
-      // passports — supply them so the flow reaches its natural wrap.
+      // v4.1.1 policy: phone required; agent may also ask passports (Tier 2)
+      // — supply both so the flow reaches its natural wrap.
       "We're both on Canadian passports, and my number is +1 416 555 0199. Hurghada for the beach part, mostly relaxing. That's everything — send it.",
     ],
     checks: { expectWrap: true, expectEmailAsk: true },
@@ -111,9 +113,9 @@ export const REPLAY_SCENARIOS: ReplayScenario[] = [
       'Two of us, two large suitcases. How does payment work?',
       'Fine by me. Ben Osei, ben.osei@example.com.',
       'Yes, confirm it with the team please.',
-      // Calibration (2026-07-03 run): agent offers "email only is fine, just
-      // say the word" — say the word.
-      'Email only is fine — send it through as is.',
+      // v4.1.1 policy: phone required — the pre-policy "email only is fine"
+      // close is no longer a valid path to a wrap.
+      'Sure — my mobile is +44 7700 900456. Send it through.',
     ],
     checks: { expectWrap: true },
     extraction: [
@@ -131,9 +133,8 @@ export const REPLAY_SCENARIOS: ReplayScenario[] = [
       'Unos diez días. Nos interesan los templos y una noche en el desierto si se puede. Nada demasiado caro, gama media está bien.',
       'Sí, me encaja. Soy Marta Ruiz, marta.ruiz@example.es.',
       'Perfecto, pásalo al equipo.',
-      // Calibration (2026-07-03 run): the ES agent explicitly refuses to pass
-      // the brief without phone + dates ("antes de pasarlo necesito…") —
-      // answer both so the conversation reaches its real ES wrap turn.
+      // v4.1.1 policy: phone required before handoff (the ES agent already
+      // held this line pre-policy) — answer so the real ES wrap turn fires.
       'Del 13 al 20 de abril. Mi WhatsApp es +34 612 555 034. Ahora sí, pásalo al equipo.',
     ],
     checks: { expectWrap: true, expectEmailAsk: true, mustNotLeakPrompt: true },

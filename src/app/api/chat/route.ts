@@ -5,7 +5,11 @@ import { NextResponse, type NextRequest } from 'next/server';
 import type { Locale } from '@/i18n/routing';
 import { detectAbuse, primaryCategory } from '@/lib/abuseDetection';
 import { detectBriefMarkers } from '@/lib/briefDetection';
-import { CONCIERGE_MAX_TOKENS, CONCIERGE_MODEL } from '@/lib/concierge/constants';
+import {
+  CONCIERGE_MAX_TOKENS,
+  CONCIERGE_MODEL,
+  CONCIERGE_PROMPT_VERSION,
+} from '@/lib/concierge/constants';
 import { hashedIp, hashedUserAgent } from '@/lib/concierge/ipHash';
 import {
   ABUSE_TERMINATE_AT,
@@ -206,7 +210,7 @@ export async function POST(req: NextRequest) {
       } else {
         const { data: created, error } = await db
           .from('conversations')
-          .insert({ session_id: session.rowId })
+          .insert({ session_id: session.rowId, prompt_version: CONCIERGE_PROMPT_VERSION })
           .select('id')
           .single();
         if (error || !created) {

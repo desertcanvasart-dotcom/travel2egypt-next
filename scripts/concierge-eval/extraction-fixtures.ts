@@ -23,13 +23,14 @@ export const EXTRACTION_FIXTURES: ExtractionFixture[] = [
       { role: 'assistant', content: 'Congratulations! Early November is a lovely window — warm days, cooler evenings, and the summer crowds gone. Are you drawn more to the temples and the river, or would you want sea days worked in as well?' },
       { role: 'user', content: "Mostly the river and the temples. We'd want it romantic, not a big boat — and we both get seasick easily so nothing choppy. My fiancé is allergic to shellfish." },
       { role: 'assistant', content: 'Then a small dahabiya between Luxor and Aswan is the natural heart of it — river sailing is glassy-calm, nothing like open water. Before I pass this to our team, may I have your names and a good email?' },
-      { role: 'user', content: 'Sofia Andersson and Erik Lund, sofia.andersson@example.se. We fly out of Stockholm.' },
+      { role: 'user', content: 'Sofia Andersson and Erik Lund, sofia.andersson@example.se, and my mobile is +46 70 555 0182. We fly out of Stockholm.' },
       { role: 'assistant', content: 'Perfect, Sofia. I have everything I need — your brief is on its way to the team, and they will come back to you by 8 p.m. Cairo time today.' },
     ],
     expectComplete: true,
     assertions: [
       { path: 'visitor.name', op: 'contains', value: 'sofia' },
       { path: 'visitor.email', op: 'equals', value: 'sofia.andersson@example.se' },
+      { path: 'visitor.phone', op: 'contains', value: '0182' },
       { path: 'visitor.origin_city', op: 'contains', value: 'stockholm' },
       { path: 'trip.travelers_count', op: 'equals', value: 2 },
       { path: 'trip.length_days', op: 'equals', value: 12 },
@@ -90,7 +91,7 @@ export const EXTRACTION_FIXTURES: ExtractionFixture[] = [
       { role: 'assistant', content: 'Agosto con niños funciona mejor de lo que se suele pensar: madrugones, sombra al mediodía y piscina por la tarde. ¿Qué les ilusiona más — las pirámides, el río o el mar Rojo?' },
       { role: 'user', content: 'Las pirámides y bucear en el mar Rojo. Mi hijo mayor es celíaco, eso sí. Nada de mercados con mucha gente, mi mujer los odia.' },
       { role: 'assistant', content: 'Perfecto: El Cairo primero y luego el mar Rojo, con cocina sin gluten avisada en cada hotel. Antes de pasarle el encargo al equipo, ¿me das tu nombre y un correo?' },
-      { role: 'user', content: 'Claro: Andrés Molina, andres.molina@example.mx, escribimos desde Ciudad de México.' },
+      { role: 'user', content: 'Claro: Andrés Molina, andres.molina@example.mx, mi celular es +52 55 5555 0147. Escribimos desde Ciudad de México.' },
       { role: 'assistant', content: 'Gracias, Andrés. El equipo tiene todo lo que necesita — te responderán antes de las 10h, hora de El Cairo, mañana.' },
     ],
     expectComplete: true,
@@ -107,14 +108,10 @@ export const EXTRACTION_FIXTURES: ExtractionFixture[] = [
     id: 'x-contact-no-trip',
     locale: 'en',
     description: 'Email present but zero trip substance — complete must be FALSE.',
-    // Calibration run 2026-07-03 (2/2 reps): the extractor returns
-    // complete:true here — email alone satisfies it even though the prompt's
-    // completeness rule also requires a destination/dates/length. Real
-    // production impact: a near-empty brief reaches the team. Fix belongs in
-    // EXTRACTION_PROMPT (deliberate edit, Islam-approved path); until then
-    // this fixture documents the defect without gating the suite.
-    knownIssue:
-      'Gate-2 marks complete:true on contact-only transcripts (violates its own rule 5)',
+    // Calibration run 2026-07-03 (2/2 reps): the extractor returned
+    // complete:true here despite rule 5. RESOLVED same day (owner decision:
+    // code enforcement) — passesCompletenessRule() in briefExtraction.ts now
+    // forces complete:false deterministically, so this fixture gates again.
     transcript: [
       { role: 'user', content: 'Can you email me a brochure? mark.t@example.com' },
       { role: 'assistant', content: 'We work a little differently — no brochures, but a conversation that ends with a plan shaped to you. What kind of trip is on your mind, and roughly when?' },
@@ -134,7 +131,7 @@ export const EXTRACTION_FIXTURES: ExtractionFixture[] = [
     transcript: [
       { role: 'user', content: 'One week, just me, sometime in March. Mostly Luxor. I want to sketch the temples — I am an illustrator.' },
       { role: 'assistant', content: 'A week of drawing in Luxor is a wonderful brief — quiet corners of Karnak at opening time, Medinet Habu in the late light. Before I pass this to our team, your name and a good email?' },
-      { role: 'user', content: 'Ana Duarte, ana.duarte@example.pt.' },
+      { role: 'user', content: 'Ana Duarte, ana.duarte@example.pt, phone +351 912 555 034.' },
       { role: 'assistant', content: 'Thank you, Ana. I have everything I need — the team will come back to you by 8 p.m. Cairo time.' },
     ],
     expectComplete: true,
@@ -143,7 +140,6 @@ export const EXTRACTION_FIXTURES: ExtractionFixture[] = [
       { path: 'trip.travelers_count', op: 'equals', value: 1 },
       { path: 'trip.length_days', op: 'equals', value: 7 },
       // Nothing was said about any of these — inventing them is the failure mode.
-      { path: 'visitor.phone', op: 'isNull' },
       { path: 'visitor.nationality', op: 'isNull' },
       { path: 'constraints.dietary', op: 'isNull' },
       { path: 'constraints.mobility', op: 'isNull' },
