@@ -11,13 +11,18 @@ import { Link } from '@/i18n/navigation';
  * All copy is data on the `content` object; nothing here is page-specific.
  */
 
-/** An in-essay hash link, e.g. "Desert & quiet" → /#desert-and-quiet. */
+/** An in-essay link to a homepage anchor, e.g. "Desert & quiet" → /#desert-and-quiet. */
 export interface JourneyHashLink {
   text: string;
   hash: string;
 }
-/** An essay paragraph is either plain text or a run of text + inline hash links. */
-export type EssayParagraph = string | Array<string | JourneyHashLink>;
+/** An in-essay link to a real route, e.g. "Coming back" → /journeys/coming-back. */
+export interface JourneyRouteLink {
+  text: string;
+  href: string;
+}
+/** An essay paragraph is either plain text or a run of text + inline links. */
+export type EssayParagraph = string | Array<string | JourneyHashLink | JourneyRouteLink>;
 
 export interface JourneyContent {
   meta: { title: string; description: string };
@@ -51,15 +56,23 @@ export function JourneyPage({
     if (typeof para === 'string') return <p key={key}>{para}</p>;
     return (
       <p key={key}>
-        {para.map((seg, i) =>
-          typeof seg === 'string' ? (
-            seg
-          ) : (
+        {para.map((seg, i) => {
+          if (typeof seg === 'string') return seg;
+          // Route link (e.g. "Coming back") → locale-aware next-intl Link;
+          // hash link (e.g. "Desert & quiet" → #anchor) → native <a> so the
+          // browser scrolls to the anchor.
+          if ('href' in seg)
+            return (
+              <Link key={i} href={seg.href}>
+                {seg.text}
+              </Link>
+            );
+          return (
             <a key={i} href={hashHref(seg.hash)}>
               {seg.text}
             </a>
-          ),
-        )}
+          );
+        })}
       </p>
     );
   };
