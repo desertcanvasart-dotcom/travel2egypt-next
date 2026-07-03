@@ -26,7 +26,8 @@ import type { ConciergeSession } from '@/lib/concierge/session';
 // The live wrap said "I have everything I need," "Your brief is on its way to
 // the team," and "The team will come back to you" (not "our") — so markers
 // are broadened from the literal prompt phrasings to match real output.
-const EN_MARKERS: string[] = [
+// Exported for the marker corpus regression test (src/lib/__tests__/) only.
+export const EN_MARKERS: string[] = [
   'everything i need', //          live wrap "I have everything I need" (final signal)
   'brief is on its way', //        live wrap "Your brief is on its way to the team"
   'brief for our team', //         L567 "Let me put together a proper brief for our team"
@@ -44,7 +45,8 @@ const EN_MARKERS: string[] = [
 // "pasaré esto"), "el equipo tiene todo lo que necesita" (final wrap), and
 // states the commitment as "antes de las 10h hora de El Cairo" (not
 // "10 a. m."). Re-calibrate the same way if v4.1's Spanish rendering shifts.
-const ES_MARKERS: string[] = [
+// Exported for the marker corpus regression test (src/lib/__tests__/) only.
+export const ES_MARKERS: string[] = [
   'el encargo al equipo', //                  "Antes de pasarle el encargo al equipo"
   'el equipo tiene todo lo que necesita', //  final-wrap, parallels EN "everything I need"
   'hora de el cairo', //                      the Cairo-time commitment (always present at final wrap)

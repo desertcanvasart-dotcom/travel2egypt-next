@@ -1,0 +1,36 @@
+# CI (Harness Layer 1) — typecheck + the pure offline test suites.
+#
+# Scope is deliberately what runs with NO env/secrets:
+#  - typecheck: full tsc --noEmit
+#  - test:concierge = test:markers (Gate 1 brief markers + abuse corpus)
+#                   + test:autoura (HMAC keystone, state machine, payload, deliver)
+#  - test:linkmap: concierge link-map guards
+# `next build` is NOT run here (needs Sanity/Supabase env). Lint is not wired
+# because the repo has no migrated ESLint v9 config (next lint is deprecated
+# and drops into interactive setup).
+#
+# The marker suites are the regression net for prompt/model changes: if a
+# v4.1 edit or model upgrade breaks wrap detection, this is what goes red.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Concierge tests (markers + Autoura)
+        run: npm run test:concierge
+      - name: Link-map tests
+        run: npm run test:linkmap
