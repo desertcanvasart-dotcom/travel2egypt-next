@@ -142,6 +142,8 @@ export interface ConciergeDatabase {
           response_time_ms: number | null;
           token_count_input: number | null;
           token_count_output: number | null;
+          /** cache_read_input_tokens per real turn (0008); null = pre-0008 or canned wrap. */
+          token_count_cache_read: number | null;
           model_version: string | null;
         };
         Insert: {
@@ -153,6 +155,7 @@ export interface ConciergeDatabase {
           response_time_ms?: number | null;
           token_count_input?: number | null;
           token_count_output?: number | null;
+          token_count_cache_read?: number | null;
           model_version?: string | null;
         };
         Update: {
@@ -164,6 +167,7 @@ export interface ConciergeDatabase {
           response_time_ms?: number | null;
           token_count_input?: number | null;
           token_count_output?: number | null;
+          token_count_cache_read?: number | null;
           model_version?: string | null;
         };
         Relationships: [
@@ -247,6 +251,50 @@ export interface ConciergeDatabase {
           blocked_until?: string | null;
         };
         Relationships: [];
+      };
+      eval_scores: {
+        Row: {
+          id: string;
+          conversation_id: string;
+          /** Cairo calendar day the sample covered (date, YYYY-MM-DD). */
+          sampled_on: string;
+          judge_model: string;
+          pacing: number;
+          grounding: number;
+          tone: number;
+          notes: string | null;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          conversation_id: string;
+          sampled_on: string;
+          judge_model: string;
+          pacing: number;
+          grounding: number;
+          tone: number;
+          notes?: string | null;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          conversation_id?: string;
+          sampled_on?: string;
+          judge_model?: string;
+          pacing?: number;
+          grounding?: number;
+          tone?: number;
+          notes?: string | null;
+          created_at?: string;
+        };
+        Relationships: [
+          {
+            foreignKeyName: 'eval_scores_conversation_id_fkey';
+            columns: ['conversation_id'];
+            referencedRelation: 'conversations';
+            referencedColumns: ['id'];
+          },
+        ];
       };
     };
     Views: { [_ in never]: never };

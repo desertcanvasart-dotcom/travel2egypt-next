@@ -92,9 +92,8 @@ export interface ExtractionResult {
   score: { passed: number; total: number };
 }
 
-export interface JudgeScore {
-  pacing: number;
-  grounding: number;
-  tone: number;
-  notes: string;
-}
+// The judge rubric lives in src/lib/concierge/qualityJudge.ts (shared with
+// the production sampler) — re-exported here for result typing.
+import type { JudgeScore } from '@/lib/concierge/qualityJudge';
+
+export type { JudgeScore };
