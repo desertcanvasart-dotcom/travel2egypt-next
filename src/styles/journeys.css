@@ -1,0 +1,269 @@
+/* ============================================================================
+ * journeys.css — bespoke editorial styling for the traveller-type pages.
+ * Currently: /journeys/first-time-in-egypt.
+ *
+ * Scoped entirely under .journey-doc so nothing bleeds into the rest of the
+ * site. Reuses the tour-system design tokens (--display / --read / --ui /
+ * --navy / --paper / --rule …), which are defined globally in tour-system.css,
+ * and the global .operator-note block from globals.css. No new tokens.
+ *
+ * HEADLINE: a verbatim match of the homepage hero construction
+ * (.lvl-home .hero h1 in tour-system.css) per the owner's Phase-1 decision —
+ * Cormorant (--display) weight 400, navy (NOT faience), italic second line on
+ * its own line via `em { display:block }`, identical letter-spacing/line-height.
+ * The only adaptation is the font-size clamp max (94px → 72px): the homepage
+ * renders this in a two-column hero; here it sits in a single narrow editorial
+ * measure, so the scale is fit to context while the treatment is unchanged.
+ * ========================================================================== */
+
+.journey-doc {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--read);
+  font-size: 19px;
+  line-height: 1.72;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+.journey-doc a {
+  color: inherit;
+}
+
+/* One reading measure for the whole page; the masthead gets a touch more room.
+ * All blocks are centred, so they share a vertical axis. */
+.journey-doc .wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.journey-doc .masthead .wrap {
+  max-width: 900px;
+}
+
+/* ── § 1 Masthead ───────────────────────────────────────────────────────── */
+.journey-doc .masthead {
+  padding: 96px 0 60px;
+  border-bottom: 1px solid var(--rule);
+}
+.journey-doc .masthead .eyebrow {
+  display: block;
+  font-family: var(--ui);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+  margin-bottom: 30px;
+}
+.journey-doc .masthead h1 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(44px, 6vw, 72px);
+  line-height: 0.97;
+  letter-spacing: -0.018em;
+  color: var(--navy);
+  margin: 0;
+}
+.journey-doc .masthead h1 em {
+  font-style: italic;
+  display: block;
+}
+.journey-doc .masthead .standfirst {
+  max-width: 34em;
+  margin: 34px 0 0;
+  font-family: var(--read);
+  font-size: 21px;
+  line-height: 1.62;
+  color: var(--navy-mute);
+}
+
+/* ── § 2 Essay ──────────────────────────────────────────────────────────── */
+.journey-doc .essay {
+  padding: 64px 0 8px;
+}
+.journey-doc .essay p {
+  margin: 0 0 1.5em;
+  color: var(--ink);
+}
+.journey-doc .essay p:last-child {
+  margin-bottom: 0;
+}
+/* Operator note (global .operator-note styling) — a little breathing room in
+ * this single-column context. */
+.journey-doc .operator-note {
+  margin: 40px 0 0;
+}
+
+/* ── Shared section rhythm ──────────────────────────────────────────────── */
+.journey-doc .section {
+  padding: 64px 0;
+  border-top: 1px solid var(--rule);
+  margin-top: 64px;
+}
+.journey-doc .section h2 {
+  font-family: var(--display);
+  font-weight: 400;
+  font-size: clamp(28px, 3.6vw, 38px);
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  color: var(--navy);
+  margin: 0 0 32px;
+}
+
+/* ── § 3 The shape of the trip (fact spine) ─────────────────────────────── */
+/* Tour fact-box grammar: ruled box on warm paper, sans gold labels, serif
+ * navy values (mirrors .lvl-subcategory .spine in tour-system.css). */
+.journey-doc .spine-box {
+  border: 1px solid var(--rule);
+  background: var(--paper-warm);
+  padding: 8px 40px;
+}
+.journey-doc .spine-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+  padding: 24px 0;
+  border-top: 1px solid var(--rule);
+}
+.journey-doc .spine-row:first-child {
+  border-top: 0;
+}
+.journey-doc .spine-label {
+  font-family: var(--ui);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+}
+.journey-doc .spine-value {
+  font-family: var(--read);
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--navy);
+}
+
+/* ── § 4 Where this usually leads (curated weave) ───────────────────────── */
+.journey-doc .weave-item {
+  padding: 28px 0;
+  border-top: 1px solid var(--rule);
+}
+.journey-doc .weave-item:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+.journey-doc .weave-item a {
+  font-family: var(--display);
+  font-size: clamp(22px, 3vw, 27px);
+  line-height: 1.15;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.journey-doc .weave-item a:hover {
+  color: var(--gold-dark);
+  border-bottom-color: var(--rule);
+}
+.journey-doc .weave-item p {
+  margin: 10px 0 0;
+  color: var(--navy-mute);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ── § 5 One journal thread (single card) ───────────────────────────────── */
+.journey-doc .journal-card {
+  border: 1px solid var(--rule);
+  background: var(--paper-warm);
+  padding: 38px 40px;
+}
+.journey-doc .journal-card a {
+  font-family: var(--display);
+  font-size: clamp(24px, 3.4vw, 32px);
+  line-height: 1.1;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.journey-doc .journal-card a:hover {
+  color: var(--gold-dark);
+  border-bottom-color: var(--rule);
+}
+.journey-doc .journal-card p {
+  margin: 14px 0 0;
+  color: var(--navy-mute);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ── § 6 The concierge close ────────────────────────────────────────────── */
+.journey-doc .close h2 {
+  max-width: 16em;
+}
+.journey-doc .close p {
+  max-width: 32em;
+  margin: 0 0 32px;
+  color: var(--ink);
+}
+.journey-doc .close .cta {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5em;
+  font-family: var(--ui);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-decoration: none;
+  border-bottom: 1px solid var(--navy);
+  padding-bottom: 4px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.journey-doc .close .cta:hover {
+  color: var(--gold-dark);
+  border-bottom-color: var(--gold-dark);
+}
+
+/* ── § 7 The quiet cross-reference ──────────────────────────────────────── */
+.journey-doc .cross-ref {
+  padding: 40px 0 96px;
+  border-top: 1px solid var(--rule);
+  margin-top: 64px;
+  font-family: var(--read);
+  font-size: 16px;
+  color: var(--navy-mute);
+}
+.journey-doc .cross-ref a {
+  color: var(--navy);
+  border-bottom: 1px solid var(--rule);
+  text-decoration: none;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.journey-doc .cross-ref a:hover {
+  color: var(--gold-dark);
+  border-bottom-color: var(--gold-dark);
+}
+
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .journey-doc .wrap {
+    padding: 0 22px;
+  }
+  .journey-doc .masthead {
+    padding: 64px 0 44px;
+  }
+  .journey-doc .section {
+    padding: 48px 0;
+    margin-top: 48px;
+  }
+  .journey-doc .spine-box,
+  .journey-doc .journal-card {
+    padding: 4px 24px;
+  }
+  .journey-doc .journal-card {
+    padding: 28px 24px;
+  }
+}
