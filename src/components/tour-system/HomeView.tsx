@@ -126,8 +126,11 @@ export async function HomeView({
       </header>
 
       {/* ── WHERE TO BEGIN — traveller-type ─────────────────────── */}
+      {/* id="where-to-begin": anchor target for the traveller-type pages'
+          "five other places to start" cross-reference (e.g. the first-time
+          page). Anchor only — the section content is unchanged. */}
       {traveller.length > 0 && (
-        <section className="sec">
+        <section className="sec" id="where-to-begin">
           <div className="wrap">
             <div className="sec-head">
               <div>
