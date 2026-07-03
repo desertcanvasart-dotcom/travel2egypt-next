@@ -8,14 +8,14 @@ import { useLocale, useTranslations } from 'next-intl';
 // strings as the homepage cards so the two stay literally consistent across
 // locales.
 //
-// "First time in Egypt" and "Coming back" now have their own pages and link
-// there directly; the other four still scroll to their homepage card anchor
-// (kebab-case ids on .lvl-home .tcard) until they are promoted too.
+// "First time in Egypt", "Desert & quiet" and "Coming back" now have their own
+// pages and link there directly; the other three still scroll to their homepage
+// card anchor (kebab-case ids on .lvl-home .tcard) until they are promoted too.
 const JOURNEY_LINKS = [
   { key: 'journeyFirstTime', href: '/journeys/first-time-in-egypt' },
   { key: 'journeyCultural', hash: 'the-cultural-traveller' },
   { key: 'journeyFamily', hash: 'travelling-as-a-family' },
-  { key: 'journeyDesert', hash: 'desert-and-quiet' },
+  { key: 'journeyDesert', href: '/journeys/desert-and-quiet' },
   { key: 'journeyStyle', hash: 'travelling-in-style' },
   { key: 'journeyReturning', href: '/journeys/coming-back' },
 ] as const;

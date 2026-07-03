@@ -13,9 +13,9 @@ import type { JourneyContent } from './JourneyPage';
  * later content work.
  *
  * Essay note: the Western Desert paragraph carries an inline cross-reference —
- * "Desert & quiet" links to /#desert-and-quiet for now (implementation note 1;
- * update to /journeys/desert-and-quiet when that page ships), so that
- * paragraph is a segment array rather than a plain string.
+ * "Desert & quiet" links to the live /journeys/desert-and-quiet route (promoted
+ * from /#desert-and-quiet when that page shipped), so that paragraph is a
+ * segment array rather than a plain string.
  */
 export const comingBackContent: JourneyContent = {
   meta: {
@@ -39,7 +39,7 @@ export const comingBackContent: JourneyContent = {
     'The second is Alexandria and the Mediterranean edge, which is less a different region than a different country. Greco-Roman instead of pharaonic, sea light instead of desert light, a corniche instead of a river bank. The catacombs at Kom el-Shoqafa, where Egyptian gods wear Roman armour; the fortress standing on the footprint of the lighthouse; fish restaurants where the menu is whatever the boats brought in. Alexandria is two and a half hours from Cairo by road and a century away in temperament. It pairs naturally with the Delta and the Wadi El Natrun monasteries if you want a northern trip with some quiet in it.',
     [
       'The third is the one we know from the inside: the Western Desert oases. This company was born in Siwa, and we will tell you plainly that it is not on the way to anything — eight hours from Cairo, close to the Libyan border, Berber-speaking, and organised around date gardens, salt lakes and the ruins of an oracle Alexander the Great crossed the desert to consult. That inconvenience is the point. Siwa is what Egypt is like when nothing is arranged for an audience. Beyond it, Dakhla and Kharga carry the old caravan routes south — mud-brick towns, Roman forts, a pace set by wells rather than flights. (If it is the White Desert’s rock formations and a night under the stars you are after, that is its own kind of trip — we plan it under ',
-      { text: 'Desert & quiet', hash: 'desert-and-quiet' },
+      { text: 'Desert & quiet', href: '/journeys/desert-and-quiet' },
       '.)',
     ],
     'Which of the three is yours depends on what the first trip left you wanting — more of ancient Egypt but deeper, a different Egypt entirely, or an older and quieter one. That is a better conversation than a comparison table, and it is the first question our concierge will ask.',
