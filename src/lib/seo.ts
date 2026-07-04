@@ -204,7 +204,19 @@ export function buildStaticMetadata(args: {
   title: string;
   description: string;
   defaultOgImage?: { asset?: unknown; alt?: string } | null;
+  /**
+   * When provided, hreflang alternates are emitted ONLY for these locales
+   * (all sharing `path`, since these routes keep one slug across locales).
+   * Omit to keep the default behavior — an alternate for every locale by
+   * prefix-swap. Journey routes pass the locales their content module
+   * actually defines, so alternates self-heal as ES/JA modules land rather
+   * than advertising translated URLs that still serve the EN fallback.
+   */
+  availableLocales?: readonly Locale[];
 }): Metadata {
+  const pathByLocale = args.availableLocales
+    ? Object.fromEntries(args.availableLocales.map((l) => [l, args.path]))
+    : undefined;
   return buildMetadata(
     { title: args.title, summary: args.description },
     {
@@ -212,6 +224,7 @@ export function buildStaticMetadata(args: {
       path: args.path,
       ogType: 'website',
       defaultOgImage: args.defaultOgImage,
+      pathByLocale,
     }
   );
 }

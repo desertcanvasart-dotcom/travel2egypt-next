@@ -18,11 +18,14 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  const lc = locale as Locale;
+  const c = desertAndQuietContent[lc] ?? desertAndQuietContent.en;
   return buildStaticMetadata({
-    locale: locale as Locale,
+    locale: lc,
     path: PATH,
-    title: desertAndQuietContent.meta.title,
-    description: desertAndQuietContent.meta.description,
+    title: c.meta.title,
+    description: c.meta.description,
+    availableLocales: Object.keys(desertAndQuietContent) as Locale[],
   });
 }
 
@@ -43,7 +46,7 @@ export default async function Page({ params }: Props) {
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
-      <JourneyPage content={desertAndQuietContent} locale={lc} />
+      <JourneyPage content={desertAndQuietContent[lc] ?? desertAndQuietContent.en} locale={lc} />
     </>
   );
 }

@@ -18,11 +18,14 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
+  const lc = locale as Locale;
+  const c = travellingInStyleContent[lc] ?? travellingInStyleContent.en;
   return buildStaticMetadata({
-    locale: locale as Locale,
+    locale: lc,
     path: PATH,
-    title: travellingInStyleContent.meta.title,
-    description: travellingInStyleContent.meta.description,
+    title: c.meta.title,
+    description: c.meta.description,
+    availableLocales: Object.keys(travellingInStyleContent) as Locale[],
   });
 }
 
@@ -43,7 +46,7 @@ export default async function Page({ params }: Props) {
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
-      <JourneyPage content={travellingInStyleContent} locale={lc} />
+      <JourneyPage content={travellingInStyleContent[lc] ?? travellingInStyleContent.en} locale={lc} />
     </>
   );
 }
