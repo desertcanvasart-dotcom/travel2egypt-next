@@ -111,4 +111,101 @@ export const comingBackContent: LocalizedJourney = {
       hash: 'where-to-begin',
     },
   },
+
+  // ES — re-authored per the locked register (journeys-es-coming-back.md v1).
+  // Essay carries one inline route link to /journeys/desert-and-quiet (renders
+  // /es/... via next-intl Link) — reciprocal with desert's link back here.
+  es: {
+    meta: {
+      title: 'Volver a Egipto',
+      description:
+        'El Egipto Medio, Alejandría, Siwa y los oasis lejanos: cómo planificamos un segundo viaje — una región a fondo, al ritmo que el primero no permitía.',
+    },
+
+    masthead: {
+      eyebrow: 'UN PUNTO DE PARTIDA · VOLVER A EGIPTO',
+      headlineLead: 'El segundo viaje es cuando Egipto deja de presentarse.',
+      headlineAccent: 'Y empieza a hablar.',
+      standfirst:
+        'El Egipto Medio, Alejandría, Siwa y los oasis lejanos — el país que espera detrás del famoso. Si ya hiciste El Cairo y el río, el mapa se abre. Así planificamos un regreso: qué te ganó el primer viaje, y dónde gastarlo.',
+    },
+
+    essay: [
+      'En algún momento del primer viaje — probablemente en la orilla oeste de Luxor, quizá en la cubierta de un barco al atardecer — notaste que Egipto era más grande que tu itinerario. Casi todos los viajeros lo notan. Menos actúan en consecuencia. Los que lo hacen son los viajeros para los que más nos gusta planificar, porque el segundo viaje es donde nuestro trabajo se pone interesante.',
+      'Esto es lo que te compró el primer viaje: ya viste la historia esencial, así que ya no la necesitas. Ningún comité en tu cabeza insistiendo en las pirámides, ninguna culpa por saltarte Karnak. El segundo viaje no tiene que inspeccionar nada. Puede ir a fondo en una sola región y quedarse allí — y Egipto guarda al menos tres regiones que merecen un viaje entero.',
+      'La primera es el Egipto Medio, el tramo del valle que los autobuses turísticos sobrevuelan a diez mil metros. Beni Hasan, donde los gobernadores del Imperio Medio tallaron sus tumbas en el acantilado y las pintaron con luchadores y cazadores de aves; Amarna, la capital que Akenatón construyó en cinco años y la historia abandonó en quince; Tuna el-Gebel y sus galerías subterráneas; y en el extremo sur, Abidos y Dendera — el relieve tallado más fino que sobrevive en Egipto y un techo que aún conserva su pintura original. La razón por la que los primeros viajes dejan esto fuera no es la calidad. Es la geometría: los sitios están repartidos a lo largo de doscientos kilómetros de valle con pocos hoteles, así que la región premia exactamente lo que un viajero que vuelve ya tiene — paciencia, y ninguna lista.',
+      'La segunda es Alejandría y el borde mediterráneo, que más que otra región es otro país. Grecorromano en vez de faraónico, luz de mar en vez de luz de desierto, una corniche en vez de una ribera. Las catacumbas de Kom el-Shoqafa, donde los dioses egipcios visten armadura romana; la fortaleza plantada sobre la huella del faro; restaurantes de pescado donde el menú es lo que trajeron los barcos. Alejandría está a dos horas y media de El Cairo por carretera y a un siglo de distancia en temperamento. Combina con naturalidad con el Delta y los monasterios de Wadi El Natrun si quieres un viaje del norte con algo de calma dentro.',
+      [
+        'La tercera es la que conocemos desde dentro: los oasis del Desierto Occidental. Esta casa nació en Siwa, y te diremos sin rodeos que no está de camino a nada — ocho horas desde El Cairo, cerca de la frontera libia, de habla bereber, organizada alrededor de palmerales de dátiles, lagos de sal y las ruinas de un oráculo que Alejandro Magno cruzó el desierto para consultar. Esa incomodidad es el punto. Siwa es cómo es Egipto cuando nada está dispuesto para un público. Más allá, Dajla y Jarga llevan las viejas rutas de caravanas hacia el sur — pueblos de adobe, fuertes romanos, un ritmo marcado por los pozos y no por los vuelos. (Si lo que buscas son las formaciones del Desierto Blanco y una noche bajo las estrellas, ese es su propio tipo de viaje — lo planificamos en ',
+        { text: 'Desierto y calma', href: '/journeys/desert-and-quiet' },
+        '.)',
+      ],
+      'Cuál de las tres es la tuya depende de lo que el primer viaje te dejó queriendo — más Egipto antiguo pero más hondo, un Egipto distinto por completo, o uno más viejo y más callado. Esa es una conversación mejor que cualquier tabla comparativa, y es la primera pregunta que hará nuestro concierge.',
+    ],
+
+    operatorNote: {
+      label: 'Consejo del operador',
+      body: 'Los viajeros que vuelven planifican de más. Ya hiciste la logística de Egipto una vez y sabes que cuesta, así que el instinto es armar el segundo viaje con la misma armadura. Resístelo. Una región, una ruta sin prisa a través de ella, y al menos un día sin nada programado. El segundo viaje es cuando Egipto empieza a tratarte como a un invitado y no como a un público — dale el espacio para hacerlo.',
+    },
+
+    spine: {
+      heading: 'La forma del viaje',
+      rows: [
+        { label: 'Duración', value: 'de 7 a 10 días para una región bien hecha; combinar dos es posible, y te diremos qué cuesta' },
+        { label: 'El arco', value: 'una de tres: el Egipto Medio · Alejandría y el norte · Siwa y los oasis lejanos' },
+        { label: 'El ritmo', value: 'más lento que el primer viaje, a propósito; una visita de peso al día suele bastar' },
+        { label: 'La temporada', value: 'de octubre a abril para el valle y los oasis; Alejandría está en su mejor momento cuando El Cairo aprieta' },
+        { label: 'Para quién', value: 'viajeros que ya hicieron El Cairo y el río y quieren el país detrás del famoso' },
+        { label: 'Cómo empieza', value: 'cuéntale al concierge qué contuvo tu primer viaje; planificamos alrededor de lo que no' },
+      ],
+    },
+
+    weave: {
+      heading: 'A dónde suele llevar',
+      items: [
+        {
+          label: 'El viaje privado de 3 días a Siwa desde Alejandría',
+          href: '/tres-dias-de-alejandria-a-siwa-costa-guerra-del-desierto-oraculo',
+          sentence: 'El oasis del que viene esta casa, planificado por gente que no necesita mapa.',
+        },
+        {
+          label: 'La guía de Alejandría',
+          href: '/guide/alejandria',
+          sentence: 'La ciudad mediterránea que responde a otra historia, y cómo darle más que una excursión de un día.',
+        },
+        {
+          label: 'La guía de Siwa',
+          href: '/guide/siwa',
+          sentence: 'A ocho horas de El Cairo, y vale cada una; qué saber antes de comprometerte.',
+        },
+        {
+          label: 'El templo de Abidos',
+          href: '/guide/sohag/templo-de-abidos',
+          sentence: 'El tallado más fino de Egipto se alza en un templo al que la mayoría de los itinerarios nunca llega.',
+        },
+      ],
+    },
+
+    journal: {
+      heading: 'Un hilo del Diario',
+      card: {
+        title: 'Egipto más allá de las pirámides',
+        deck: 'Fayoum, Siwa, Egipto Medio y los campos de pirámides alrededor de Guiza: lugares que suelen quedar fuera del primer itinerario, pero muestran otras capas del país.',
+        href: '/blog/joyas-ocultas-de-egipto',
+      },
+    },
+
+    close: {
+      heading: 'El segundo viaje empieza en lo que el primero te enseñó.',
+      body: 'Cuéntale al concierge dónde estuviste ya y qué se te quedó — el templo del que no querías irte, la tarde que se hizo corta. Planificará el regreso alrededor de lo que tu primer viaje no contuvo, no repitiendo lo que sí.',
+      ctaLabel: 'Empieza la conversación',
+      ctaHref: '/plan-your-tour',
+    },
+
+    crossRef: {
+      lead: '¿No es lo tuyo? Hay ',
+      linkText: 'otros cinco lugares donde empezar',
+      hash: 'where-to-begin',
+    },
+  },
 };

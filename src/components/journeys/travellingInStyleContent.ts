@@ -122,4 +122,98 @@ export const travellingInStyleContent: LocalizedJourney = {
       hash: 'where-to-begin',
     },
   },
+
+  // ES — re-authored per the locked register (journeys-es-travelling-in-style.md v1).
+  // Essay carries ONE inline external link (Sillage) with the footer's exact
+  // rel/target, per the World B rule. Three weave slots, matching the EN page.
+  es: {
+    meta: {
+      title: 'Viajar con estilo',
+      description:
+        'Dahabiyas a vela, hoteles que son monumentos, un egiptólogo propio y la hora justa en cada sitio: el registro más pleno de Travel2Egypt, explicado en la práctica.',
+    },
+
+    masthead: {
+      eyebrow: 'UN PUNTO DE PARTIDA · VIAJAR CON ESTILO',
+      headlineLead: 'El lujo más raro de Egipto no es una suite.',
+      headlineAccent: 'Es la hora justa.',
+      standfirst:
+        'Dahabiyas a vela, los hoteles legendarios, un egiptólogo privado y la coreografía invisible que hace que un país complicado parezca sin esfuerzo. Este es Travel2Egypt en su registro más pleno — y esto es lo que significa en la práctica, no en adjetivos.',
+    },
+
+    essay: [
+      'Egipto es un país donde la logística se nota. Casi cualquier lugar absorbe un plan mediocre; aquí, la diferencia entre un viaje que se desliza y uno que rechina se decide en cien pequeños arreglos que no deberías ver nunca. Así que cuando decimos viajar con estilo no hablamos ante todo de mármol. Hablamos de la versión de Egipto donde nada es tu problema — y donde el único recurso que el dinero compra de verdad en este país, que es la hora, se ha gastado a manos llenas.',
+      'Empieza por el río, porque aquí es donde más importa la elección. Los cruceros de cinco estrellas son cómodos y usamos los mejores, pero la versión más plena del Nilo es una dahabiya: un velero de poco calado, de ocho o diez camarotes o fletado entero, que avanza a vela al ritmo del propio río. Una dahabiya amarra donde los grandes barcos no pueden — en islas, en templos pequeños sin cola porque no hay muelle, en un banco de arena para cenar en tierra — y cruza el agua con algo que los cruceros no ofrecen nunca: silencio. Los barcos no son intercambiables, sus tripulaciones menos, y saber cuál es cuál es exactamente el tipo de cosa para la que servimos.',
+      'Después los hoteles, que en Egipto incluyen una categoría que casi ningún país tiene: hoteles que son en sí mismos monumentos. Mena House con las pirámides llenando las ventanas del jardín; el Old Cataract sobre la primera catarata de Asuán, viviendo aún de la luz de tarde con la que escribía Agatha Christie; el Winter Palace de Luxor — en restauración mientras esto se escribe — con un siglo de llegadas en los pasillos. Alojarse en ellos no es una mejora de habitación: es un monumento más en el itinerario — y guardan pocas habitaciones frente a aquello a lo que viniste, razón por la que estos viajes son los que planificamos antes que ningún otro.',
+      'El guiado, en este registro, significa un egiptólogo que es tuyo todo el viaje — la misma persona en Guiza y en Filae, construyendo sobre lo que viste ayer en vez de reiniciar la presentación. Y significa acceso gastado donde cuenta: el sitio a la apertura, cuando la luz va baja y los autobuses no han llegado; la tumba a la hora tranquila; la puerta ocasional que abre antes o cierra después. Egipto no anda corto de momentos de acceso privado en venta; el oficio está en saber cuáles valen y cuáles son teatro.',
+      'Debajo de todo corre la coreografía que no deberías notar: recibido en la puerta del avión, un equipaje que migra solo, un coche ya fresco, gente nuestra en cada ciudad en vez de la promesa de un subcontratista. Veinte años operando el terreno de este país son el activo sin glamur sobre el que descansa toda esta página, y la parte que ninguna fotografía puede enseñar.',
+      [
+        'Una cosa más, dicha con claridad porque la arquitectura de esta casa debe estar a la vista. Existe un registro por encima incluso de esto — viajes construidos alrededor de un puñado de lugares y casi nada más, a un coste que deja de ser una consideración. Para esos, nuestra familia tiene una casa dedicada: ',
+        { text: 'Sillage', url: 'https://sillage-egypte.com/' },
+        ', arraigada en Asuán, más pequeña y más lenta que nosotros. Cuando un plan pertenece allí, lo decimos y te entregamos en mano. Todo lo que queda por debajo de esa línea — que es casi todo — es nuestro, y lo hacemos muy bien.',
+      ],
+    ],
+
+    operatorNote: {
+      label: 'Opinión honesta',
+      body: 'Lo que el dinero no puede comprar en Egipto: un agosto más fresco, un Valle de los Reyes privado a las diez de la mañana o una meseta de Guiza sin la ciudad al lado. Lo que sí compra, soberbiamente, es la hora — el templo con la primera luz, el amarre de la dahabiya al que los cruceros no llegan, la mesa de la terraza donde de verdad ocurre el atardecer. Cuando el presupuesto está de verdad abierto, ponemos el dinero en el guía y en la hora antes que en la suite. La suite es donde duermes; la hora es lo que recuerdas.',
+    },
+
+    spine: {
+      heading: 'La forma del viaje',
+      rows: [
+        { label: 'Duración', value: 'de 10 a 14 días, sin prisa por diseño' },
+        { label: 'El arco', value: 'a medida, pero su columna suele ser El Cairo · el Nilo a vela · Asuán, con el desierto o la costa según pida el viaje' },
+        { label: 'El ritmo', value: 'los sitios a su mejor hora, y tan vacíos como el reloj lo permita' },
+        { label: 'La temporada', value: 'de octubre a abril; las dahabiyas y las mejores habitaciones de los hoteles legendarios se agotan primero: estos planes empiezan antes que ninguno' },
+        { label: 'Para quién', value: 'viajeros que miden un viaje por lo poco que tuvieron que pensar en él' },
+        { label: 'Cómo empieza', value: 'descríbele al concierge un día perfecto; construimos el viaje hacia atrás desde ahí' },
+      ],
+    },
+
+    weave: {
+      heading: 'A dónde suele llevar',
+      items: [
+        {
+          label: 'El itinerario privado de 9 días: El Cairo, el río y el Old Cataract',
+          href: '/egipto-prestigioso-en-9-dias-luxor-el-nilo-asuan-y-el-cairo',
+          sentence: 'El itinerario más pleno del catálogo hoy — el río, y noches en un hotel que es en sí mismo un monumento.',
+        },
+        {
+          label: 'Dahabiyas: el Nilo a vela',
+          href: '/blog/dahabiya-nile-cruises-wind-powered-journey',
+          sentence: 'Por qué los barcos más pequeños del río son los mejores, y en qué se diferencian los pocos en los que confiamos.',
+        },
+        {
+          // Owner amendment: label changed to "Los hoteles legendarios" for parity
+          // with EN "The landmark hotels" and the page's own standfirst/spine.
+          label: 'Los hoteles legendarios',
+          href: '/hotels',
+          sentence: 'Los hoteles que cuentan como monumentos, y qué habitaciones miran a aquello a lo que viniste.',
+        },
+      ],
+    },
+
+    journal: {
+      heading: 'Un hilo del Diario',
+      card: {
+        title: 'Hoteles históricos en Egipto',
+        deck: 'Mena House, Old Cataract, Winter Palace, Le Metropole y Windsor: cómo elegir hoteles históricos en Egipto cuando la historia forma parte real de la estancia.',
+        href: '/blog/hoteles-historicos-en-egipto-donde-la-historia-se-encuentra-con-el-lujo',
+      },
+    },
+
+    close: {
+      heading: 'La conversación es la misma. Las respuestas se alargan.',
+      body: 'Descríbele al concierge el día perfecto — la hora a la que te gusta despertar, el punto en el que un sitio es tuyo, cómo es la cena cuando sale bien — y el viaje se construye hacia atrás desde la respuesta. Las fechas, los barcos y las habitaciones vienen después; el día va primero.',
+      ctaLabel: 'Empieza la conversación',
+      ctaHref: '/plan-your-tour',
+    },
+
+    crossRef: {
+      lead: '¿No es lo tuyo? Hay ',
+      linkText: 'otros cinco lugares donde empezar',
+      hash: 'where-to-begin',
+    },
+  },
 };

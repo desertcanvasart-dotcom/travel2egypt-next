@@ -111,4 +111,100 @@ export const desertAndQuietContent: LocalizedJourney = {
       hash: 'where-to-begin',
     },
   },
+
+  // ES — re-authored per the locked register (journeys-es-desert-and-quiet.md v1).
+  // Essay carries one inline route link to /journeys/coming-back — reciprocal
+  // with coming-back's link here.
+  es: {
+    meta: {
+      title: 'Desierto y calma',
+      description:
+        'Bahariya, el Desierto Blanco y Fayum: una noche entre la caliza, el desierto amable con cama de hotel, y cómo dos días de silencio cambian el resto de Egipto.',
+    },
+
+    masthead: {
+      eyebrow: 'UN PUNTO DE PARTIDA · DESIERTO Y CALMA',
+      headlineLead: 'No todo en Egipto se construyó.',
+      headlineAccent: 'Una parte se dejó en paz.',
+      standfirst:
+        'Bahariya, el Desierto Blanco y Fayum — el silencio occidental del país, a cuatro horas del ruido de El Cairo. Dos días allí cambian cómo suena el resto de Egipto. Así los planificamos: qué implica de verdad una noche entre la caliza, y el desierto más amable para quien quiere un techo.',
+    },
+
+    essay: [
+      'Todo itinerario que armamos es, al final, una secuencia de lugares ruidosos. Los templos tienen multitudes, las multitudes tienen guías, los guías tienen micrófonos, y El Cairo debajo de todo hace girar su motor permanente. Nada de esto es una queja — el ruido es parte de lo que Egipto es. Pero cuando los viajeros nos cuentan, meses después, a qué parte del viaje vuelven en los momentos sueltos, un número sorprendente nombra lo mismo: la noche en que el itinerario se quedó en silencio.',
+      'Esa noche suele ocurrir en el Desierto Blanco. El viaje es sencillo de describir. Sales de El Cairo por la mañana y conduces al suroeste — cuatro horas hasta Bahariya, un oasis de palmeras datileras y aguas termales donde ocurre el almuerzo y se acaba la carretera. Desde allí, todoterrenos: por las colinas de cima oscura del Desierto Negro, junto a la cresta de cuarzo de la Montaña de Cristal, y hasta el Desierto Blanco a media tarde, cuando el sol bajo empieza a hacerle cosas a la caliza. Lo que el viento ha tallado allí — setas, agujas, formas que los guías han bautizado y formas que no — se fotografía como otro planeta y se comporta como tal. El campamento se monta entre las formaciones. La cena se cocina al fuego. Un zorro fénec muy probablemente hará su visita, porque han aprendido lo que significan los campamentos. Y luego el plato fuerte, que es nada en absoluto: ninguna luz en ningún horizonte, la Vía Láctea a plena potencia, y un silencio tan completo que la mayoría descubre que nunca había oído uno de verdad.',
+      'El amanecer en la caliza es la otra mitad del argumento. Las formaciones pasan del gris al blanco al dorado en unos veinte minutos, y las tienes para ti, porque no hay puerta, no hay cola y no hay con quién compartirlas más allá de tu propio campamento.',
+      'Luego está el desierto amable. Fayum queda a apenas dos horas de El Cairo y guarda una cantidad asombrosa en poco espacio: las cascadas de Wadi El Rayan, el lago Qarun que atrae a los cairotas desde los faraones, el pueblo alfarero de Tunis y — la razón por la que mandamos allí a casi todo el mundo — Wadi El Hitan, el Valle de las Ballenas, donde esqueletos de cuarenta millones de años yacen a cielo abierto: ballenas con los últimos rastros de las patas que estaban en proceso de perder. La evolución, escrita donde puedes acercarte a leerla. Fayum funciona como un día largo desde El Cairo o, mejor, como una noche suave en Tunis con cama de hotel, lo que lo convierte en el desierto para quien quiere el silencio sin el saco de dormir.',
+      [
+        '¿Cuánto viaje debería ser esto? Hay dos respuestas honestas. Para la mayoría de las primeras visitas, el desierto es el contrapeso: dos días plegados dentro del itinerario clásico, puestos donde el cansancio de templos empezaría a asomar, haciendo por el viaje lo que un silencio hace por la música. Pero para algunos viajeros el desierto resulta ser el punto — y entonces el Desierto Blanco es el principio de una carretera más larga, y Siwa y los oasis lejanos la continúan. Esos los planificamos en ',
+        { text: 'Volver a Egipto', href: '/journeys/coming-back' },
+        '; los dos viajes son primos.',
+      ],
+    ],
+
+    operatorNote: {
+      label: 'Cuidado',
+      body: 'Acampar con comodidad sigue siendo acampar. La cena se cocina, los colchones son gruesos, las mantas pesan — y la pared más cercana está a cuarenta kilómetros. Las noches de diciembre y enero rozan el cero, y las instalaciones son el propio desierto. Si este párrafo te ilusiona, este viaje es tuyo. Si te hace dudar, toma Fayum y la noche en Tunis — el silencio es casi igual de bueno, y viene con ducha.',
+    },
+
+    spine: {
+      heading: 'La forma del viaje',
+      rows: [
+        { label: 'Duración', value: 'dos días y una noche para el Desierto Blanco; un día largo o una noche suave para Fayum; de 4 a 5 días si el desierto es el viaje' },
+        { label: 'El arco', value: 'El Cairo · Bahariya · el Desierto Blanco — o El Cairo · Fayum para la versión con techo' },
+        { label: 'El ritmo', value: 'un trayecto largo de ida y, después, casi nada programado; ese es el producto' },
+        { label: 'La temporada', value: 'de octubre a abril; las noches de invierno rozan el cero: prepárate para un mediodía caliente y una medianoche fría en la misma bolsa' },
+        { label: 'Para quién', value: 'viajeros que quieren el contrapeso de los templos, y duermen mejor bajo estrellas que bajo plazos' },
+        { label: 'Cómo empieza', value: 'dile una cosa primero al concierge: estrellas encima, o techo' },
+      ],
+    },
+
+    weave: {
+      heading: 'A dónde suele llevar',
+      items: [
+        {
+          label: 'El campamento privado de 3 días en el Desierto Blanco',
+          href: '/3-day-bahariya-white-desert-tour',
+          sentence: 'Los dos días y la noche que esta página describe, planificados por gente que sabe qué campamento atrapa el amanecer.',
+        },
+        {
+          label: 'La guía de Bahariya',
+          href: '/guide/bahariya',
+          sentence: 'El oasis donde se acaba la carretera y empiezan los todoterrenos — manantiales, palmeras y el último almuerzo caliente antes de la caliza.',
+        },
+        {
+          label: 'La guía de Fayum',
+          href: '/guide/al-fayoum',
+          sentence: 'El desierto amable a dos horas de El Cairo, y cómo darle más que la excursión estándar.',
+        },
+        {
+          label: 'El Valle de las Ballenas',
+          href: '/guide/al-fayoum/wadi-al-hitan',
+          sentence: 'Ballenas que aún recuerdan haber tenido patas, tendidas en una arena abierta que se puede pisar.',
+        },
+      ],
+    },
+
+    journal: {
+      heading: 'Un hilo del Diario',
+      card: {
+        title: 'El Desierto Occidental de Egipto',
+        deck: 'Oasis, Desierto Blanco, Desierto Negro, rutas caravaneras, templos romanos y pueblos de adobe. Qué ver en el Desierto Occidental y qué revisar antes de viajar.',
+        href: '/blog/el-desierto-occidental-en-egipto',
+      },
+    },
+
+    close: {
+      heading: 'El desierto hace una pregunta antes que cualquier itinerario.',
+      body: 'Estrellas encima, o techo — todo lo demás se deriva de eso. Dile al concierge qué viajero eres, y si el desierto es el contrapeso de tu viaje o su punto entero. El plan tomará forma alrededor de la respuesta.',
+      ctaLabel: 'Empieza la conversación',
+      ctaHref: '/plan-your-tour',
+    },
+
+    crossRef: {
+      lead: '¿No es lo tuyo? Hay ',
+      linkText: 'otros cinco lugares donde empezar',
+      hash: 'where-to-begin',
+    },
+  },
 };
