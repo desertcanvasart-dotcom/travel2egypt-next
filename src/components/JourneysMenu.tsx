@@ -3,6 +3,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 
+import { getPathname } from '@/i18n/navigation';
+import type { Locale } from '@/i18n/routing';
+
 // The six "Where should your Egypt start?" reader-types. Order matches the
 // homepage card grid (top-left → bottom-right). Labels reuse the same i18n
 // strings as the homepage cards so the two stay literally consistent across
@@ -27,7 +30,7 @@ const JOURNEY_LINKS: readonly JourneyLink[] = [
 
 export function JourneysMenu() {
   const t = useTranslations('nav');
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const [open, setOpen] = useState(false);
   const wrapRef = useRef<HTMLDivElement | null>(null);
 
@@ -35,11 +38,13 @@ export function JourneysMenu() {
   // handles the anchor natively: on the homepage it scrolls without a reload;
   // from any other page it navigates to the locale home and scrolls to the
   // card. (App Router's client Link does not reliably scroll to hash targets.)
-  const hashHref = (hash: string) =>
-    locale === 'en' ? `/#${hash}` : `/${locale}#${hash}`;
-  // A real route (e.g. the first-time page) — locale-prefixed as-needed, same
+  // Built via getPathname (not a hand-rolled prefix) so localized pathnames —
+  // the journey leaves in routing.ts — resolve per locale; identical output
+  // for identity-mapped and unknown paths.
+  const hashHref = (hash: string) => `${getPathname({ href: '/', locale })}#${hash}`;
+  // A real route (e.g. the first-time page) — localized via getPathname, same
   // rule as hashHref so the link stays within the visitor's locale.
-  const routeHref = (path: string) => (locale === 'en' ? path : `/${locale}${path}`);
+  const routeHref = (path: string) => getPathname({ href: path, locale });
 
   useEffect(() => {
     if (!open) return;

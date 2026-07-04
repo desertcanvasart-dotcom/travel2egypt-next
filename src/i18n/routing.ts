@@ -41,6 +41,44 @@ export const routing = defineRouting({
     '/distance-between-egyptian-cities': '/distance-between-egyptian-cities',
     '/hotel-grade-concept': '/hotel-grade-concept',
     '/responsible-travel': '/responsible-travel',
+    // Journey (traveller-type) pages — the ONE deliberate exception to the
+    // shared-English-path chrome policy above. These are content pages that
+    // happened to be code routes, so the leaf localizes per the site's own
+    // content pattern (translated ES, Hepburn-romaji JA) while the /journeys/
+    // segment stays English, matching /es/guide/el-cairo, /es/blog/<es-slug>.
+    // The June-17 chrome policy stands for every other static route.
+    // Legacy /es|/ja + <en-leaf> URLs: middleware 308 + explicit 301 rows in
+    // migration/redirect-map.csv.
+    '/journeys/first-time-in-egypt': {
+      en: '/journeys/first-time-in-egypt',
+      es: '/journeys/primera-vez-en-egipto',
+      ja: '/journeys/hajimete-no-ejiputo',
+    },
+    '/journeys/the-cultural-traveller': {
+      en: '/journeys/the-cultural-traveller',
+      es: '/journeys/el-viajero-cultural',
+      ja: '/journeys/bunka-o-tabisuru-hito-e',
+    },
+    '/journeys/travelling-as-a-family': {
+      en: '/journeys/travelling-as-a-family',
+      es: '/journeys/viajar-en-familia',
+      ja: '/journeys/kazoku-de-tabisuru',
+    },
+    '/journeys/desert-and-quiet': {
+      en: '/journeys/desert-and-quiet',
+      es: '/journeys/desierto-y-calma',
+      ja: '/journeys/sabaku-to-shizukesa',
+    },
+    '/journeys/travelling-in-style': {
+      en: '/journeys/travelling-in-style',
+      es: '/journeys/viajar-con-estilo',
+      ja: '/journeys/joshitsu-ni-tabisuru',
+    },
+    '/journeys/coming-back': {
+      en: '/journeys/coming-back',
+      es: '/journeys/volver-a-egipto',
+      ja: '/journeys/futatabi-no-ejiputo',
+    },
   },
 });
 
