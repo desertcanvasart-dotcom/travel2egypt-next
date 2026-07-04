@@ -267,3 +267,38 @@
     padding: 28px 24px;
   }
 }
+
+/* ── JAPANESE (html[lang=ja]) — locale type adaptation ──────────────────────
+ * Port of the html[lang='ja'] .tour-doc block in tour-system.css (which does
+ * not reach .journey-doc — journey pages render outside the .tour-doc tier).
+ * Same rationale: the reference faces carry no CJK glyphs, and CJK has no
+ * true italic (the browser synthesises an ugly slant on the masthead <em>).
+ * Scope is html[lang='ja'] .journey-doc only — EN/ES render exactly as before.
+ *
+ *   1. Re-point the design tokens to the already-loaded Noto JP faces
+ *      (serif display + serif body = Mincho, sans UI = Gothic).
+ *   2. Suppress every synthesised italic — the masthead <em> renders UPRIGHT,
+ *      same weight/color/size, still display:block on its own line.
+ *   3. Drop the Latin display's negative tracking and give CJK headings the
+ *      line-height they need to wrap without crowding.
+ *   4. Ease the wide Latin label tracking (.eyebrow 0.2em, .spine-label
+ *      0.16em) for kana/kanji; .operator-note__label is already 0.06em.
+ * ─────────────────────────────────────────────────────────────────────────── */
+html[lang='ja'] .journey-doc {
+  --display: var(--font-jp-serif);
+  --read: var(--font-jp-serif);
+  --ui: var(--font-jp-sans);
+}
+/* CJK has no true italic — kill all synthesised obliques across the tier. */
+html[lang='ja'] .journey-doc,
+html[lang='ja'] .journey-doc * { font-style: normal !important; }
+/* Negative tracking is a Latin-display device; CJK is already tight. Give
+   multi-line CJK headings room to breathe. */
+html[lang='ja'] .journey-doc :is(h1, h2, h3, h4) {
+  letter-spacing: normal;
+  line-height: 1.34;
+}
+/* Ease the wide Latin label tracking for kana / kanji. */
+html[lang='ja'] .journey-doc :is(.eyebrow, .spine-label) {
+  letter-spacing: 0.06em;
+}
