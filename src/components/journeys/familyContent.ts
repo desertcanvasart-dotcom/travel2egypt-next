@@ -110,4 +110,95 @@ export const familyContent: LocalizedJourney = {
       hash: 'where-to-begin',
     },
   },
+
+  // ES — re-authored per the locked register (journeys-es-travelling-as-a-family.md v1).
+  es: {
+    meta: {
+      title: 'Viajar en familia',
+      description:
+        'El Cairo en golpes breves, un crucero por el Nilo donde la maleta se deshace una vez y el mar Rojo para exhalar: cómo armamos Egipto al ritmo de los niños.',
+    },
+
+    masthead: {
+      eyebrow: 'UN PUNTO DE PARTIDA · VIAJAR EN FAMILIA',
+      headlineLead: 'Egipto se diseñó prácticamente para niños.',
+      headlineAccent: 'Los itinerarios, rara vez.',
+      standfirst:
+        'Momias, pirámides por dentro, un hotel que navega — ningún destino que conozcamos sostiene la atención de un niño como este. El oficio está en el ritmo: mañanas cortas en los sitios, tardes que son de la piscina, y un viaje que termina en el mar Rojo y no en la cola de un aeropuerto. Así construimos Egipto para familias.',
+    },
+
+    essay: [
+      'Las familias llegan a nosotros cargando una de dos preocupaciones, y son opuestas. La primera: que Egipto sea demasiado para los niños — el calor, las multitudes, las distancias. La segunda: que viajar con niños signifique un Egipto diluido, el viaje de verdad aplazado hasta que crezcan. Dos décadas de salidas familiares nos han convencido de que ambas están equivocadas, y por la misma razón. Egipto es extraordinario con niños. Solo que no puede ser el itinerario de adultos con niños adjuntos.',
+      'Piensa en lo que este país le ofrece a un niño de ocho años: una momia de verdad, no una foto de una. Una pirámide con un pasadizo por el que está permitido bajar. Tumbas pintadas con serpientes y dioses cocodrilo. Un barco que además es el hotel. Los niños no necesitan que les expliquen Egipto; necesitan que se lo pongan a su ritmo. La atención que se evapora en la tercera sala de museo es infinita en la barandilla de un barco viendo pasar la orilla.',
+      'Así que el viaje familiar que armamos tiene tres movimientos. Primero El Cairo, tomado en golpes breves y vívidos: la meseta de Guiza temprano, el interior de una pirámide mientras aún refresca, las galerías de Tutankamón al paso de un niño — que es rápido en unas salas y absorto en otras — y la tarde en la piscina del hotel, a propósito. Dos visitas de peso al día es nuestra regla con adultos; con niños es una, y ocurre por la mañana.',
+      'Después el Nilo, que es donde Egipto resuelve el viaje familiar casi por sí solo. Un crucero significa deshacer la maleta una vez. Significa que la piscina está a treinta metros de la pasarela del templo, que la cocina ya sabe qué comen tus hijos y que las distancias entre sitios se cruzan solas mientras todos duermen. Los templos llegan de uno en uno por la mañana — los cocodrilos de Kom Ombo y el halcón de Edfu son éxitos fiables — y la cubierta hace el resto. Elegimos el barco deliberadamente para familias: tamaño de la piscina, configuración de los camarotes y si la tripulación es de la que recuerda nombres. No todos son iguales, y sabemos cuál es cuál.',
+      'Al final, el mar Rojo — y el orden importa. Terminar allí, en lugar de empezar, le da al viaje un sitio donde exhalar. Tres o cuatro noches de arrecife y piscina cuando los sitios ya están hechos, los madrugones ya se ganaron y nadie tiene que poner alarma. Los niños recuerdan Egipto como el lugar de las momias y los peces, que es mejor recuerdo del que cualquier itinerario puede imprimir.',
+      'Dos verdades prácticas, dichas claras. La edad importa: el viaje de arriba está hecho para niños en edad escolar, de unos seis en adelante, capaces de caminar un sitio con el calor de la mañana y de dejarse sobornar los últimos veinte minutos. Puede armarse con niños más pequeños, pero se vuelve otro viaje — mañanas más cortas, más Cairo, menos desierto — y te lo diremos en vez de venderte el estándar. Y la temporada importa dos veces para las familias: de octubre a abril es Egipto en su versión más amable, pero las semanas de Navidad y Semana Santa son cuando media Europa tiene la misma idea, así que esas salidas son las que se cierran antes.',
+    ],
+
+    operatorNote: {
+      label: 'Opinión honesta',
+      body: 'Un niño que pasó la mañana dentro de una pirámide no necesita la tarde en un museo. Las familias que más disfrutan Egipto son las que aceptan, desde el primer día, que la piscina a las cuatro es parte del itinerario y no un fracaso del plan. Planifica una visita de peso al día para el Egipto de los adultos. El Egipto de los niños — la barandilla del barco, los gatos del hotel, el zumo de mango — se cuida solo.',
+    },
+
+    spine: {
+      heading: 'La forma del viaje',
+      rows: [
+        { label: 'Duración', value: 'de 10 a 12 días con el cierre en el mar Rojo; 8 sin él, y te diremos qué noches proteger' },
+        { label: 'El arco', value: 'El Cairo · el Nilo en barco · el mar Rojo' },
+        { label: 'El ritmo', value: 'una visita de peso por mañana; las tardes son de la piscina' },
+        { label: 'La temporada', value: 'de octubre a abril; las semanas de Navidad y Semana Santa se agotan primero: esos planes empiezan antes' },
+        { label: 'Para quién', value: 'familias con niños en edad escolar; viajar con niños pequeños cambia el viaje, y te diremos cómo' },
+        { label: 'Cómo empieza', value: 'dile al concierge las edades; todo lo demás se deriva de ellas' },
+      ],
+    },
+
+    weave: {
+      heading: 'A dónde suele llevar',
+      items: [
+        {
+          label: 'El viaje familiar privado de 11 días: El Cairo, el Nilo y el mar Rojo',
+          href: '/el-esplendor-de-egipto-en-11-dias',
+          sentence: 'Los tres movimientos que esta página describe, construidos en privado y al ritmo del más pequeño a bordo.',
+        },
+        {
+          label: 'La guía de Hurgada',
+          href: '/guide/hurghada',
+          sentence: 'Donde el viaje exhala — el arrecife, la piscina y qué tramo de costa conviene más a las familias.',
+        },
+        {
+          label: 'Cruceros por el Nilo',
+          href: '/nile-cruises',
+          sentence: 'No todos los barcos son iguales con niños a bordo; piscina, camarotes y el carácter de la tripulación, y cómo elegimos entre ellos.',
+        },
+        {
+          label: 'La Gran Pirámide de Keops',
+          href: '/guide/guiza/la-gran-piramide-de-keops',
+          sentence: 'El golpe de la primera mañana que arranca todo el viaje, y cómo elegir su hora.',
+        },
+      ],
+    },
+
+    journal: {
+      heading: 'Un hilo del Diario',
+      card: {
+        title: 'Egipto con niños',
+        deck: 'Guía práctica para organizar un viaje familiar por Egipto: edades, calor, monumentos, crucero por el Nilo, mar Rojo, desierto, salud y ritmo realista.',
+        href: '/blog/aventuras-familiares-en-egipto',
+      },
+    },
+
+    close: {
+      heading: 'Cada viaje familiar que construimos empieza con la misma pregunta.',
+      body: 'Las edades. Dile al concierge quién viene — seis y nueve viajan distinto que trece y quince — y el ritmo, el barco, los hoteles y lo que conviene saltarse se derivan de la respuesta.',
+      ctaLabel: 'Empieza la conversación',
+      ctaHref: '/plan-your-tour',
+    },
+
+    crossRef: {
+      lead: '¿No es lo tuyo? Hay ',
+      linkText: 'otros cinco lugares donde empezar',
+      hash: 'where-to-begin',
+    },
+  },
 };

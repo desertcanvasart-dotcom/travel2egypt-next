@@ -115,4 +115,95 @@ export const culturalTravellerContent: LocalizedJourney = {
       hash: 'where-to-begin',
     },
   },
+
+  // ES — re-authored per the locked register (journeys-es-the-cultural-traveller.md v1).
+  es: {
+    meta: {
+      title: 'El viajero cultural',
+      description:
+        'El Cairo islámico y copto, los monasterios donde empezó el monacato, la Asuán nubia y los sitios antiguos leídos de cerca: el Egipto de cinco civilizaciones, con el guía como pieza central.',
+    },
+
+    masthead: {
+      eyebrow: 'UN PUNTO DE PARTIDA · EL VIAJERO CULTURAL',
+      headlineLead: 'Egipto tiene cinco civilizaciones de fondo.',
+      headlineAccent: 'La mayoría de los viajes visita una.',
+      standfirst:
+        'El Cairo islámico y copto, los monasterios del desierto donde se inventó el monacato, la Asuán nubia, y los sitios antiguos leídos en vez de fotografiados. Este es el viaje para quien quiere las capas — y se construye, más que ningún otro que planifiquemos, alrededor de quién está a tu lado explicándolas.',
+    },
+
+    essay: [
+      'Egipto tiene un problema extraño para un país tan rico: su civilización más famosa eclipsa a las otras cuatro. Los faraones son la razón por la que viene casi todo el mundo, y es comprensible — pero son el primer capítulo de un libro que siguió escribiéndose. La Alejandría grecorromana, el Egipto cristiano inventando el monacato en sus desiertos, mil años de Cairo islámico, y Nubia corriendo por debajo de todo como un segundo río. El viajero cultural es el que quiere el libro entero. Esta página es para ti, y conviene decirlo desde el principio: estos son los viajes que nuestros mejores guías piden que les asignen.',
+      'Empieza donde las capas son más gruesas. En una sola manzana de El Cairo — el Cairo copto, dentro de los muros de una fortaleza romana — hay una sinagoga que fue iglesia, iglesias construidas sobre las puertas de la fortaleza, y bajo una de ellas una cripta donde la tradición sitúa el refugio de la Sagrada Familia. Esa manzana es el argumento entero de este viaje en miniatura: en Egipto nada reemplazó lo que había antes; todo se mudó al piso de arriba. A veinte minutos en coche, el Cairo islámico lo prolonga otro milenio — la calma del siglo nueve de Ibn Tulun, la audacia de ingeniería de Sultán Hasán, la calle al-Muizz corriendo entre seiscientos años de fachadas que no son piezas de museo sino direcciones. La caminamos con guías que leen las inscripciones sobre las puertas, porque en esta ciudad los edificios siguen hablando.',
+      'Después el desierto, para el capítulo que casi todos los itinerarios se saltan entero. El monacato — la idea misma — empezó en el desierto egipcio, y las comunidades que lo empezaron siguen allí. Los monasterios de Wadi El Natrun entre El Cairo y Alejandría; San Antonio junto a las colinas del mar Rojo, posiblemente el monasterio en activo más antiguo de la tierra. No son museos con horario. Son casas vivas que reciben visitantes, lo que cambia cómo conviene llegar: con tiempo, con algo de paciencia por el ritmo del lugar, e idealmente con nuestro guía, que sabe a qué monje le gusta hablar de historia.',
+      'Los sitios antiguos siguen en este viaje — pero leídos, no recorridos. Abidos por los relieves de Seti I, tallados tan finos y tan someros que los pintores apenas tuvieron que ayudar; Karnak tomado como archivo y no como decorado; el Valle de los Reyes con un guía capaz de pararse frente a una pared de texto y decirte qué dice, que resulta ser la diferencia entre visitar el Egipto antiguo y conocerlo. Si ya estuviste en Luxor, este es el viaje en el que se convierte en otro lugar.',
+      'Y Asuán por la cultura viva que los itinerarios aplanan en una parada de fotos: Nubia. Una aldea nubia visitada como es debido — con tiempo, con té de por medio, a través de alguien que pertenece allí — más las ruinas estratificadas de Elefantina y el Museo Nubio, que es la historia mejor contada de cualquier museo egipcio y está criminalmente poco visitado. La Asuán nubia es además, sencillamente, el lugar más amable de este itinerario, y por eso lo dejamos para el final.',
+      'Un viaje así se sostiene o se cae por una sola cosa, y no es el hotel. Es el guía. Todo lo que promete esta página — inscripciones leídas, monjes que se animan a contar, capas separadas — ocurre a través de una persona, y los guías formados en egiptología capaces de pasar de los jeroglíficos a la arquitectura mameluca y a la liturgia copta no son intercambiables. Los asignamos a estos viajes por nombre. Es la línea más importante del plan de este viaje, y la primera que protegemos.',
+    ],
+
+    operatorNote: {
+      label: 'Consejo del operador',
+      body: 'Si tu viaje toca Ramadán, no esquives el Cairo islámico — reordena tus días. Los horarios de los sitios se acortan, pero las noches se convierten en el acontecimiento: las calles alrededor de al-Muizz se llenan después del atardecer como ningún otro mes puede enseñarte, y un iftar tomado en serio vale cualquier monumento. Movemos estos itinerarios hacia mañanas tardías y noches largas, y los viajeros que nos hicieron caso ponen esas noches a la altura de las tumbas.',
+    },
+
+    spine: {
+      heading: 'La forma del viaje',
+      rows: [
+        { label: 'Duración', value: 'de 9 a 12 días; las capas no se comprimen bien, y te diremos qué capítulo cortar si no hay más remedio' },
+        { label: 'El arco', value: 'El Cairo en capas · los monasterios del desierto · Luxor y Abidos, leídos de cerca · la Asuán nubia' },
+        { label: 'El ritmo', value: 'menos sitios, más tiempo en cada uno; el guía marca la profundidad' },
+        { label: 'La temporada', value: 'de octubre a abril; Ramadán reordena el ritmo del Cairo islámico en vez de cerrarlo — ver la nota' },
+        { label: 'Para quién', value: 'viajeros que leen antes de viajar y quieren un guía que se salga del guion' },
+        { label: 'Cómo empieza', value: 'dile al concierge qué siglos te tiran; el itinerario se deriva de la respuesta' },
+      ],
+    },
+
+    weave: {
+      heading: 'A dónde suele llevar',
+      items: [
+        {
+          label: 'La ruta privada de 10 días por las capas de la historia',
+          href: '/patrimonio-egipcio-descubrimiento-cultural-de-10-dias',
+          sentence: 'La ruta del catálogo más cercana al viaje que esta página describe — estratificada, sin prisa, y terminada donde la mayoría empieza.',
+        },
+        {
+          label: 'El Cairo islámico, a pie',
+          href: '/guide/el-cairo/de-al-azhar-a-la-ciudadela-recorrido-a-pie-por-el-cairo-islamico',
+          sentence: 'Mil años de arquitectura que todavía tiene direcciones, y cómo caminarla en el orden correcto.',
+        },
+        {
+          label: 'El monasterio de San Macario',
+          href: '/guide/wadi-al-natron/monasterio-de-san-macario-el-grande',
+          sentence: 'Las casas del desierto donde empezó el monacato — aún vivas, aún recibiendo, y esta es por la que solemos empezar.',
+        },
+        {
+          label: 'El Museo Nubio',
+          href: '/guide/asuan/el-museo-nubio',
+          sentence: 'La cultura viva en el final amable del itinerario, y cómo visitarla con el tiempo que merece.',
+        },
+      ],
+    },
+
+    journal: {
+      heading: 'Un hilo del Diario',
+      card: {
+        title: 'El Cairo para amantes de la historia',
+        deck: 'El Cairo no pertenece a una sola época: Guiza, el barrio copto, la ciudad islámica, la Ciudadela y el Cairo moderno se superponen en una misma capital.',
+        href: '/blog/guia-de-el-cairo-para-aficionados-a-la-historia',
+      },
+    },
+
+    close: {
+      heading: 'Este viaje empieza por una pregunta distinta.',
+      body: 'No a dónde quieres ir — qué Egipto quieres. Dile al concierge los siglos que te tiran, lo último que leíste sobre este país, el sitio que cambiarías por otros tres con tal de verlo bien. El itinerario, y sobre todo el guía, se derivan de eso.',
+      ctaLabel: 'Empieza la conversación',
+      ctaHref: '/plan-your-tour',
+    },
+
+    crossRef: {
+      lead: '¿No es lo tuyo? Hay ',
+      linkText: 'otros cinco lugares donde empezar',
+      hash: 'where-to-begin',
+    },
+  },
 };
