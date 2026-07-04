@@ -1,5 +1,5 @@
 import type { Locale } from '@/i18n/routing';
-import { Link } from '@/i18n/navigation';
+import { Link, getPathname } from '@/i18n/navigation';
 
 /**
  * Shared layout for the traveller-type "journeys" pages.
@@ -71,7 +71,9 @@ export function JourneyPage({
 }) {
   // Locale-aware homepage hash — native <a> so the browser scrolls to the
   // anchor (App Router Link is unreliable for hashes), mirroring JourneysMenu.
-  const hashHref = (hash: string) => (locale === 'en' ? `/#${hash}` : `/${locale}#${hash}`);
+  // Built via getPathname (not a hand-rolled prefix) so it stays aligned with
+  // next-intl's pathname localization; identical output for the home path.
+  const hashHref = (hash: string) => `${getPathname({ href: '/', locale })}#${hash}`;
 
   const renderParagraph = (para: EssayParagraph, key: number) => {
     if (typeof para === 'string') return <p key={key}>{para}</p>;

@@ -89,6 +89,16 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   // Responsible Travel editorial (session 36). Slug preserved exactly
   // from legacy WP URL — captures ~1814 sessions of historical SEO equity.
   { path: '/responsible-travel', priority: 0.6 },
+  // Journey (traveller-type) pages — six editorial pages in EN/ES/JA.
+  // Paths are the EN pathnames keys; buildLocaleUrl → getPathname emits the
+  // localized ES/JA leaves declared in routing.ts (audit fix: these pages
+  // were absent from the sitemap in all locales).
+  { path: '/journeys/first-time-in-egypt', priority: 0.7 },
+  { path: '/journeys/the-cultural-traveller', priority: 0.7 },
+  { path: '/journeys/travelling-as-a-family', priority: 0.7 },
+  { path: '/journeys/desert-and-quiet', priority: 0.7 },
+  { path: '/journeys/travelling-in-style', priority: 0.7 },
+  { path: '/journeys/coming-back', priority: 0.7 },
 ];
 
 function buildLocaleUrl(path: string, locale: Locale): string {
