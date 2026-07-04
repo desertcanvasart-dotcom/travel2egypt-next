@@ -54,6 +54,14 @@ export interface JourneyContent {
   crossRef: { lead: string; linkText: string; hash: string };
 }
 
+/**
+ * A journey page's copy across locales. EN is always present (it is the
+ * canonical source and the fallback); ES/JA are added as their re-authored
+ * modules land. Routes select `content[locale] ?? content.en`, so a locale
+ * without its own module renders the EN fallback rather than 404ing.
+ */
+export type LocalizedJourney = { en: JourneyContent } & Partial<Record<Locale, JourneyContent>>;
+
 export function JourneyPage({
   content: c,
   locale,

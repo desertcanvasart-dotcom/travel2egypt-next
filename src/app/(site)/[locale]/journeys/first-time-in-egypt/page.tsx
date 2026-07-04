@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import type { Locale } from '@/i18n/routing';
-import { FirstTimeInEgypt } from '@/components/journeys/FirstTimeInEgypt';
+import { JourneyPage } from '@/components/journeys/JourneyPage';
 import { firstTimeContent } from '@/components/journeys/firstTimeContent';
 import { JsonLd } from '@/components/JsonLd';
 import { buildStaticMetadata } from '@/lib/seo';
@@ -18,14 +18,14 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  // EN copy for all locales this phase (ES/JA content deferred); the route is
-  // i18n-wired, so buildStaticMetadata still emits correct per-locale canonical
-  // + hreflang alternates.
+  const lc = locale as Locale;
+  const c = firstTimeContent[lc] ?? firstTimeContent.en;
   return buildStaticMetadata({
-    locale: locale as Locale,
+    locale: lc,
     path: PATH,
-    title: firstTimeContent.meta.title,
-    description: firstTimeContent.meta.description,
+    title: c.meta.title,
+    description: c.meta.description,
+    availableLocales: Object.keys(firstTimeContent) as Locale[],
   });
 }
 
@@ -46,7 +46,7 @@ export default async function Page({ params }: Props) {
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
-      <FirstTimeInEgypt locale={lc} />
+      <JourneyPage content={firstTimeContent[lc] ?? firstTimeContent.en} locale={lc} />
     </>
   );
 }
