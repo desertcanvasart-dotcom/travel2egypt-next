@@ -438,6 +438,66 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/es/journeys/first-time-in-egypt",
+    "destination": "/es/journeys/primera-vez-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/journeys/the-cultural-traveller",
+    "destination": "/es/journeys/el-viajero-cultural",
+    "permanent": true
+  },
+  {
+    "source": "/es/journeys/travelling-as-a-family",
+    "destination": "/es/journeys/viajar-en-familia",
+    "permanent": true
+  },
+  {
+    "source": "/es/journeys/desert-and-quiet",
+    "destination": "/es/journeys/desierto-y-calma",
+    "permanent": true
+  },
+  {
+    "source": "/es/journeys/travelling-in-style",
+    "destination": "/es/journeys/viajar-con-estilo",
+    "permanent": true
+  },
+  {
+    "source": "/es/journeys/coming-back",
+    "destination": "/es/journeys/volver-a-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/journeys/first-time-in-egypt",
+    "destination": "/ja/journeys/hajimete-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/journeys/the-cultural-traveller",
+    "destination": "/ja/journeys/bunka-o-tabisuru-hito-e",
+    "permanent": true
+  },
+  {
+    "source": "/ja/journeys/travelling-as-a-family",
+    "destination": "/ja/journeys/kazoku-de-tabisuru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/journeys/desert-and-quiet",
+    "destination": "/ja/journeys/sabaku-to-shizukesa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/journeys/travelling-in-style",
+    "destination": "/ja/journeys/joshitsu-ni-tabisuru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/journeys/coming-back",
+    "destination": "/ja/journeys/futatabi-no-ejiputo",
+    "permanent": true
+  },
+  {
     "source": "/fi/suuren-gizan-pyramidin-sisaan",
     "destination": "/",
     "permanent": true
