@@ -135,4 +135,103 @@ export const firstTimeContent: LocalizedJourney = {
       hash: 'where-to-begin',
     },
   },
+
+  // ES — re-authored per the corpus conventions (not translated), owner-locked
+  // (journeys-es-first-time-in-egypt.md v1). Route keeps the English slug; weave
+  // + journal hrefs carry the ES Sanity slugs (next-intl Link adds the /es
+  // prefix). Section headings ("La forma del viaje", "A dónde suele llevar",
+  // "Un hilo del Diario") are per-locale content, reused verbatim across the six
+  // ES modules. operatorNote.label is the ES literal (JourneyPage renders it
+  // directly — no OPERATOR_NOTE_LABELS lookup on this tier).
+  es: {
+    meta: {
+      title: 'Primera vez en Egipto',
+      description:
+        'Cómo planificamos un primer Egipto: El Cairo, el río entre Asuán y Luxor, qué debe entrar, qué puede esperar al segundo viaje y por qué el orden importa más que la lista.',
+    },
+
+    masthead: {
+      eyebrow: 'UN PUNTO DE PARTIDA · PRIMERA VEZ EN EGIPTO',
+      headlineLead: 'Egipto lleva cinco mil años ensayando esta presentación.',
+      headlineAccent: 'Puedes permitirte ir despacio.',
+      standfirst:
+        'El Cairo, el Nilo, Luxor y Asuán — el arco que casi todo primer viaje debería seguir, y el ritmo en el que casi todos se equivocan. Así planificamos un primer Egipto: qué debe entrar, qué puede esperar al segundo, y por qué el orden importa más que la lista.',
+    },
+
+    essay: [
+      'Hay una versión del primer viaje a Egipto que nos piden armar varias veces por semana. Tiene una noche en El Cairo, un vuelo al sur al amanecer, cuatro templos al día en el río y Abu Simbel encajado como un recado de media jornada. Sobre el papel lo ve todo. En la práctica experimenta muy poco, y su dueño vuelve a casa con un cansancio que no tiene nada que ver con el calor.',
+      'Así que, antes de nada, un principio de trabajo: el primer viaje no es un inventario. Egipto contiene más de lo que ninguna visita puede abarcar — eso es sencillamente cierto, y fingir lo contrario es la manera en que los itinerarios se tuercen. El primer viaje tiene un solo trabajo, y es bueno: la historia esencial, contada en orden, a una velocidad que permita que cale.',
+      'La historia esencial corre a lo largo del río. El Cairo para el principio — la meseta de Guiza, las salas del museo donde viven los objetos de las tumbas que están por visitarse, y una primera noche aprendiendo cómo suena la ciudad. Después, el Alto Egipto: el tramo de Nilo entre Asuán y Luxor, que reúne Filae, Kom Ombo, Edfu, Karnak y el Valle de los Reyes en unos pocos días sin prisa. Ese arco — El Cairo y el río — es el primer viaje. Necesita de ocho a diez días para contarse como es debido. Puede comprimirse en seis, y te diremos con claridad qué cuesta la compresión.',
+      'Dos decisiones dan forma a todo lo demás.',
+      'La primera es El Cairo. La mayoría de los itinerarios le concede un solo día, porque las pirámides se fotografían como el trabajo de una mañana. No lo son. La meseta merece media jornada sin prisa para ella sola, el museo otra, y la ciudad — la razón por la que diecisiete millones de personas viven junto a estos monumentos — una noche como mínimo. Planificamos dos días completos en El Cairo y rara vez hemos conocido a un viajero que lamentara el segundo.',
+      'La segunda es el orden. La ruta convencional aterriza en El Cairo, lo despacha deprisa y vuela a Luxor. Nosotros solemos invertirla: los días iniciales de El Cairo y, después, un vuelo a Asuán — la ciudad más amable del Nilo egipcio — antes de que el barco te lleve río abajo hasta la densidad de Luxor. Asuán regala el río en su versión más serena cuando todavía estás aterrizando: islas de granito, aldeas nubias, falucas que se mueven sin motor. Luxor, que concentra más Egipto antiguo por kilómetro cuadrado que ningún otro lugar de la tierra, se recibe mejor cuando ya has aprendido a leer un templo en vez de fotografiarlo. Terminar allí, en lugar de empezar, cambia lo que ves en él.',
+      'Entre las dos, toma el barco. Una navegación de tres o cuatro noches entre Asuán y Luxor sigue siendo la mejor respuesta a los capítulos centrales de un primer viaje — no por las tumbonas, sino porque los templos de este tramo se construyeron para que se llegara a ellos desde el agua, y llegar como fueron pensados para recibirte es una diferencia que se siente más de lo que se nota.',
+      'Y luego, la mitad más difícil de planificar: qué dejar fuera. Alejandría, el Desierto Blanco, el Sinaí, los monasterios, las tumbas pintadas del Egipto Medio — todo eso es real, y nada de eso cabe en un primer viaje de duración normal. No porque no merezca tu tiempo, sino porque merece más tiempo del que un primer viaje puede darle. Egipto recompensa al viajero que vuelve; hemos construido toda una manera de viajar alrededor de ese hecho. Deja algo para la persona que serás cuando vuelvas.',
+    ],
+
+    operatorNote: {
+      label: 'Opinión honesta',
+      body: 'La mayoría de los primeros itinerarios que nos piden reparar comparte el mismo defecto: un día de menos en El Cairo y una visita de más en todas partes. Si tu borrador te tiene viendo tres templos después de comer, el plan está firmando cheques que tu atención no puede pagar. Dos visitas de peso al día. La tarde es de la piscina, de la cubierta o del zoco — no es tiempo perdido: es donde asienta la mañana.',
+    },
+
+    spine: {
+      heading: 'La forma del viaje',
+      rows: [
+        { label: 'Duración', value: 'de 8 a 10 días contados como es debido; 7 si se aprieta, y te diremos qué cuesta apretar' },
+        { label: 'El arco', value: 'El Cairo · Asuán · el río · Luxor' },
+        { label: 'El ritmo', value: 'dos visitas de peso al día; las tardes, sin programar a propósito' },
+        { label: 'La temporada', value: 'de octubre a abril, Egipto en su versión más amable; el verano es viable en el río, con madrugones y planificación honesta' },
+        { label: 'Para quién', value: 'viajeros que quieren la historia esencial bien contada, no una lista tachada' },
+        { label: 'Cómo empieza', value: 'con una conversación con nuestro concierge en El Cairo, no con una pasarela de pago' },
+      ],
+    },
+
+    weave: {
+      heading: 'A dónde suele llevar',
+      items: [
+        {
+          label: 'El paquete privado de 10 días por El Cairo y el Nilo',
+          href: '/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje',
+          sentence: 'La ruta que describe esta página, construida en privado y al ritmo que hemos defendido.',
+        },
+        {
+          label: 'La guía de El Cairo',
+          href: '/guide/el-cairo',
+          sentence: 'Dos días es nuestro mínimo; esto es lo que contienen, y lo que la ciudad te pide más allá de la meseta.',
+        },
+        {
+          label: 'La guía de Luxor',
+          href: '/guide/luxor',
+          sentence: 'El paisaje antiguo más denso de la tierra, y cómo recibirlo sin quedarte insensible en la tercera tumba.',
+        },
+        {
+          label: 'Cruceros por el Nilo',
+          href: '/nile-cruises',
+          sentence: 'Los barcos en los que de verdad embarcamos a nuestros viajeros, de las dahabiyas a vela a los grandes cruceros, y cómo elegir entre ellos.',
+        },
+      ],
+    },
+
+    journal: {
+      heading: 'Un hilo del Diario',
+      card: {
+        title: 'La meseta de Guiza antes de las multitudes',
+        deck: 'Guía para visitar las pirámides de Guiza con más calma: primera hora, entradas interiores, Esfinge, GEM y qué significa realmente un acceso especial autorizado.',
+        href: '/blog/acceso-exclusivo-a-la-piramide-de-guiza-una-experiencia-unica-en-la-vida',
+      },
+    },
+
+    close: {
+      heading: 'Cada primer viaje que planificamos empieza igual.',
+      body: 'No con fechas ni con un depósito — con una conversación sobre lo que quieres que Egipto sea. Dile al concierge que es tu primera vez. Te hará las preguntas que importan, en el orden que te convenga, y de las respuestas empezará a tomar forma un plan.',
+      ctaLabel: 'Empieza la conversación',
+      ctaHref: '/plan-your-tour',
+    },
+
+    crossRef: {
+      lead: '¿No es lo tuyo? Hay ',
+      linkText: 'otros cinco lugares donde empezar',
+      hash: 'where-to-begin',
+    },
+  },
 };
