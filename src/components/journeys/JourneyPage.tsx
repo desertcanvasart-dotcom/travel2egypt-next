@@ -21,8 +21,21 @@ export interface JourneyRouteLink {
   text: string;
   href: string;
 }
+/**
+ * An in-essay link to an external site, e.g. "Sillage" → https://sillage-egypte.com/.
+ * Rendered as a native <a target="_blank" rel="noopener noreferrer">, matching the
+ * sister-brand strip in Footer.tsx. Added for /journeys/travelling-in-style (the only
+ * page with an outbound sister-brand mention); the five earlier pages carry no external
+ * segments, so their rendering is unchanged.
+ */
+export interface JourneyExternalLink {
+  text: string;
+  url: string;
+}
 /** An essay paragraph is either plain text or a run of text + inline links. */
-export type EssayParagraph = string | Array<string | JourneyHashLink | JourneyRouteLink>;
+export type EssayParagraph =
+  | string
+  | Array<string | JourneyHashLink | JourneyRouteLink | JourneyExternalLink>;
 
 export interface JourneyContent {
   meta: { title: string; description: string };
@@ -58,6 +71,15 @@ export function JourneyPage({
       <p key={key}>
         {para.map((seg, i) => {
           if (typeof seg === 'string') return seg;
+          // External link (e.g. "Sillage") → native <a> opening in a new tab,
+          // matching the sister-brand strip in Footer.tsx. Checked first so it
+          // wins over the route/hash branches below.
+          if ('url' in seg)
+            return (
+              <a key={i} href={seg.url} target="_blank" rel="noopener noreferrer">
+                {seg.text}
+              </a>
+            );
           // Route link (e.g. "Coming back") → locale-aware next-intl Link;
           // hash link (e.g. "Desert & quiet" → #anchor) → native <a> so the
           // browser scrolls to the anchor.

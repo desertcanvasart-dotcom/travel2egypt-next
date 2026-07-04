@@ -8,17 +8,22 @@ import { useLocale, useTranslations } from 'next-intl';
 // strings as the homepage cards so the two stay literally consistent across
 // locales.
 //
-// Five of the six traveller-types now have their own pages and link there
-// directly; only "Travelling in style" still scrolls to its homepage card
-// anchor (kebab-case id on .lvl-home .tcard) until it is promoted too.
-const JOURNEY_LINKS = [
+// All six traveller-types now have their own pages and link there directly.
+// The item shape stays a route-or-hash union so the render's hashHref branch
+// remains valid (no entry uses it now that "Travelling in style" is a route,
+// but the branch is left intact rather than refactored away).
+type JourneyLink =
+  | { readonly key: string; readonly href: string }
+  | { readonly key: string; readonly hash: string };
+
+const JOURNEY_LINKS: readonly JourneyLink[] = [
   { key: 'journeyFirstTime', href: '/journeys/first-time-in-egypt' },
   { key: 'journeyCultural', href: '/journeys/the-cultural-traveller' },
   { key: 'journeyFamily', href: '/journeys/travelling-as-a-family' },
   { key: 'journeyDesert', href: '/journeys/desert-and-quiet' },
-  { key: 'journeyStyle', hash: 'travelling-in-style' },
+  { key: 'journeyStyle', href: '/journeys/travelling-in-style' },
   { key: 'journeyReturning', href: '/journeys/coming-back' },
-] as const;
+];
 
 export function JourneysMenu() {
   const t = useTranslations('nav');
