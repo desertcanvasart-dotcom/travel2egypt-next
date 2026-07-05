@@ -120,7 +120,8 @@ async function fetchCities(): Promise<Map<string, { oldCity: string; newCity: st
 }
 
 async function main() {
-  if (process.env.NEXT_PUBLIC_SANITY_DATASET !== 'migration-staging') {
+  // post-cutover: production is the canonical dataset holding the final slugs
+  if (process.env.NEXT_PUBLIC_SANITY_DATASET !== 'production') {
     throw new Error(`Refusing to run against dataset "${process.env.NEXT_PUBLIC_SANITY_DATASET}".`);
   }
   const existing = existingSources();
