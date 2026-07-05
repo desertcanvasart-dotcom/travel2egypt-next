@@ -1,6 +1,7 @@
 import { defineField } from 'sanity';
 
 import { SUPPORTED_LANGUAGES } from '../lib/languages';
+import { linkAnnotations } from './portableText';
 
 /**
  * Field group used by the WP migration tooling. Add this to the `groups` array
@@ -225,7 +226,10 @@ export function localizedPortableTextField(
             title: 'Body',
             type: 'array',
             of: [
-              { type: 'block' },
+              // Declare the link annotations the body data already carries
+              // (internalLink/externalLink markDefs from the WP import and the
+              // mention-linker) so Studio renders and edits them.
+              { type: 'block', marks: { annotations: linkAnnotations } },
               {
                 type: 'image',
                 options: { hotspot: true },
