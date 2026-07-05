@@ -87,6 +87,7 @@ type Entity = {
   title: string; // canonical title for the CSV
   url: string;
   kind?: string; // guideArticle editorial kind (attraction, food, …)
+  city?: string; // EN parent-city slug (guideArticle targets) — cross-city guard
 };
 
 async function buildEntityIndex(): Promise<Record<Locale, Entity[]>> {
@@ -131,6 +132,7 @@ async function buildEntityIndex(): Promise<Record<Locale, Entity[]>> {
         title: name,
         url: `${prefix(locale)}/guide/${citySlug}/${slug}`,
         kind: g.kind,
+        city: locSlug(g.citySlug, 'en'),
       });
     }
     for (const a of articles) {
@@ -298,10 +300,19 @@ function scanBlocks(
   blocks: PTBlock[],
   entities: Entity[],
   locale: Locale,
-  source: { id: string; type: string; title: string; url: string }
+  source: { id: string; type: string; title: string; url: string; city?: string }
 ): Row[] {
   const rows: Row[] = [];
+  // Seed with targets ALREADY linked anywhere in this locale's body so a
+  // page never accumulates two links to the same document across publish
+  // cycles (first "Aswan" is linked+published → don't suggest the second).
   const seenTargets = new Set<string>();
+  for (const block of blocks) {
+    for (const md of block.markDefs ?? []) {
+      const ref = (md as any).reference?._ref;
+      if (md._type === 'internalLink' && ref) seenTargets.add(ref);
+    }
+  }
   for (let bi = 0; bi < blocks.length; bi++) {
     const block = blocks[bi];
     if (block._type !== 'block') continue;
@@ -312,6 +323,17 @@ function scanBlocks(
     const cands = resolveOverlaps(findCandidates(text, textLower, applicable, locale));
     for (const c of cands) {
       if (seenTargets.has(c.entity.id)) continue;
+      // Cross-city guard: a guide page mentioning an attraction that lives
+      // under ANOTHER city is often talking about a same-named local feature
+      // (Philae's own Temple of Hathor vs Dendera's). Needs human review.
+      if (
+        source.city &&
+        c.entity.type === 'guideArticle' &&
+        c.entity.city &&
+        c.entity.city !== source.city &&
+        !c.flags.includes('cross-city-attraction')
+      )
+        c.flags.push('cross-city-attraction');
       // skip anything overlapping an existing link mark
       let isLinked = false;
       for (let i = c.start; i < c.end; i++) if (linked[i]) { isLinked = true; break; }
@@ -393,6 +415,7 @@ async function main() {
           type: 'guideArticle',
           title: locValue(g.title, locale) ?? locValue(g.title, 'en') ?? '',
           url: `${prefix(locale)}/guide/${citySlug}/${slug}`,
+          city: locSlug(g.citySlug, 'en'),
         })
       );
     }
