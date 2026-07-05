@@ -60,6 +60,7 @@ const CITY = arg('city');
 const LOCALE = arg('locale');
 const TIER = arg('tier') ?? 'A';
 const SOURCE_ID = arg('source-id');
+const SOURCE_TYPE = arg('source-type');
 const LIMIT = arg('limit') ? Number(arg('limit')) : Infinity;
 if (!CSV_PATH) {
   console.error('Missing --csv <path>');
@@ -172,6 +173,7 @@ async function main() {
   let rows = all.filter((r) => r.tier === TIER);
   if (LOCALE) rows = rows.filter((r) => r.locale === LOCALE);
   if (SOURCE_ID) rows = rows.filter((r) => r.source_id === SOURCE_ID);
+  if (SOURCE_TYPE) rows = rows.filter((r) => r.source_type === SOURCE_TYPE);
   if (CITY) {
     // comma-separated localized slugs (e.g. aswan,asuan,asuwan) so one doc's
     // EN/ES/JA rows all land in the same draft write
