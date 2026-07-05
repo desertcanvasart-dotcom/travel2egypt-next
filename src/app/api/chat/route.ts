@@ -382,15 +382,31 @@ export async function POST(req: NextRequest) {
             usage.input_tokens +
             (usage.cache_read_input_tokens ?? 0) +
             (usage.cache_creation_input_tokens ?? 0);
-          await db.from('messages').insert({
+          // token_count_cache_read (0008): the cached share of the input, so
+          // the digest can compute the daily cache-hit rate and flag a v4.1
+          // prefix invalidation. Fail-soft until the migration is applied:
+          // retry the insert without the column rather than losing the turn.
+          const assistantRow = {
             conversation_id: conversationId,
-            role: 'assistant',
+            role: 'assistant' as const,
             content: text,
             response_time_ms: Date.now() - startedAt,
             token_count_input: totalInputTokens,
             token_count_output: usage.output_tokens,
+            token_count_cache_read: usage.cache_read_input_tokens ?? 0,
             model_version: final.model,
-          });
+          };
+          let insertRes = await db.from('messages').insert(assistantRow);
+          if (insertRes.error && /token_count_cache_read/.test(insertRes.error.message)) {
+            console.warn(
+              '[concierge] messages.token_count_cache_read missing — apply migration 0008',
+            );
+            const { token_count_cache_read: _drop, ...withoutCache } = assistantRow;
+            insertRes = await db.from('messages').insert(withoutCache);
+          }
+          if (insertRes.error) {
+            console.error('[concierge] assistant message persist failed:', insertRes.error);
+          }
           await db
             .from('conversations')
             .update({ last_message_at: new Date().toISOString() })

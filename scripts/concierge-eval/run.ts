@@ -36,6 +36,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import { detectBriefMarkers } from '@/lib/briefDetection';
 import { extractBrief, type ExtractionMessage } from '@/lib/briefExtraction';
 import { CONCIERGE_MAX_TOKENS, CONCIERGE_MODEL } from '@/lib/concierge/constants';
+import { judgeTranscript } from '@/lib/concierge/qualityJudge';
 import { buildTourContextBlock } from '@/lib/concierge/tourContext';
 import { CONCIERGE_SYSTEM_PROMPT } from '@/lib/conciergePrompt';
 import type { BriefPayload } from '@/types/concierge';
@@ -46,12 +47,10 @@ import type {
   BriefAssertion,
   CheckResult,
   ExtractionResult,
-  JudgeScore,
   ReplayResult,
   ReplayScenario,
 } from './types';
 
-const JUDGE_MODEL = 'claude-opus-4-8';
 /** Same auto-capture regex as /api/chat — Gate 1 parity. */
 const EMAIL_RE = /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}/i;
 /** Probe email isolates marker EMISSION from the session-email gate. */
@@ -277,58 +276,16 @@ async function runReplay(
 }
 
 // ── judge ────────────────────────────────────────────────────────────────────
+// Shared with the production sampler (/api/admin/quality-sample) via
+// @/lib/concierge/qualityJudge — one rubric, one scale, offline and live.
 
-const JUDGE_INSTRUCTIONS = `You are auditing a single conversation between Travel2Egypt's AI concierge (the "agent") and a visitor. The agent's full system prompt is provided above as your rubric source. Score the AGENT only, 1-5 each (5 = exemplary):
-
-- pacing: one thing at a time, no interrogation walls of questions, wraps neither prematurely nor never (per the prompt's pacing discipline and WHEN TO WRAP guidance).
-- grounding: no invented facts, prices only as rough ranges per the prompt's budget guidance, no promises the prompt does not authorize.
-- tone: matches the prompt's voice; calibrated to the visitor's register and language; composed under hostility; no pushiness (anti-persuasion principle).
-
-Output ONLY a JSON object: {"pacing": n, "grounding": n, "tone": n, "notes": "<one or two sentences, the most important observation>"} — no markdown fences, no commentary.`;
-
-async function judgeConversation(
-  anthropic: Anthropic,
-  result: ReplayResult,
-): Promise<JudgeScore | null> {
-  const transcript = result.turns
-    .map((t) => `Visitor: ${t.user}\n\nAgent: ${t.assistant}`)
-    .join('\n\n');
-  try {
-    const res = await anthropic.messages.create({
-      model: JUDGE_MODEL,
-      max_tokens: 1024,
-      system: [
-        // v4.1 as the rubric source, cached across judge calls.
-        { type: 'text', text: CONCIERGE_SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } },
-        { type: 'text', text: JUDGE_INSTRUCTIONS },
-      ],
-      messages: [{ role: 'user', content: `Conversation to audit:\n\n${transcript}` }],
-    });
-    const text = res.content
-      .filter((b): b is Anthropic.TextBlock => b.type === 'text')
-      .map((b) => b.text)
-      .join('')
-      .trim()
-      .replace(/^```(?:json)?\s*/i, '')
-      .replace(/\s*```$/i, '');
-    const raw = JSON.parse(text) as Partial<JudgeScore>;
-    if (
-      typeof raw.pacing !== 'number' ||
-      typeof raw.grounding !== 'number' ||
-      typeof raw.tone !== 'number'
-    ) {
-      throw new Error('judge payload missing numeric scores');
-    }
-    return {
-      pacing: raw.pacing,
-      grounding: raw.grounding,
-      tone: raw.tone,
-      notes: typeof raw.notes === 'string' ? raw.notes : '',
-    };
-  } catch (err) {
-    console.error(`  judge failed for ${result.scenarioId}: ${err}`);
-    return null;
-  }
+async function judgeConversation(result: ReplayResult) {
+  return judgeTranscript(
+    result.turns.flatMap((t) => [
+      { role: 'user' as const, content: t.user },
+      { role: 'assistant' as const, content: t.assistant },
+    ]),
+  );
 }
 
 // ── extraction suite ─────────────────────────────────────────────────────────
@@ -389,7 +346,7 @@ async function main() {
         console.log(`\n▸ ${scenario.id} — ${scenario.description}`);
         result = await runReplay(anthropic, scenario);
         if (args.judge && scenario.judge) {
-          result.judge = (await judgeConversation(anthropic, result)) ?? undefined;
+          result.judge = (await judgeConversation(result)) ?? undefined;
         }
         writeFileSync(file, JSON.stringify(result, null, 2));
       }
