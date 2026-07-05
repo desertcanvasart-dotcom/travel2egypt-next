@@ -13,6 +13,16 @@
 export const CONCIERGE_MODEL = 'claude-sonnet-4-6';
 
 /**
+ * The prompt version stamped on each new conversation (conversations.
+ * prompt_version — the DB default 'v4.1' remains as a fallback for rows
+ * created outside the chat route). Bump this alongside any owner-approved
+ * amendment in conciergePrompt.ts so briefs/exports attribute behavior to
+ * the exact prompt that produced it.
+ *  - v4.1.1 (2026-07-03): contact capture requires name + email + phone.
+ */
+export const CONCIERGE_PROMPT_VERSION = 'v4.1.1';
+
+/**
  * Per-response output ceiling. v4.1 responses are conversational prose —
  * a few paragraphs at most — so 2048 leaves generous headroom without
  * letting a runaway turn burn tokens. Conversation-level caps are S7.

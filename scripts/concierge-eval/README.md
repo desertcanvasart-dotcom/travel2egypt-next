@@ -56,18 +56,25 @@ npm run eval:concierge -- --run candidate --judge --force
 
 ## Findings log
 
-**2026-07-03 calibration run** (baseline, Sonnet 4.6 × v4.1):
+**2026-07-03 calibration run** (baseline, Sonnet 4.6 × v4.1) — both findings
+resolved by owner decision the same day:
 
-1. **The agent gates the wrap on a phone number.** When a visitor with name +
-   email says "hand it to the team", the agent asks for phone (and in ES
-   refuses outright: *"antes de pasarlo necesito al menos un teléfono"*).
-   Handoff lands 1–2 turns later than the visitor requested. Personas now
-   script that extra turn (realistic), but the friction is a product
-   decision worth revisiting in v4.1's contact-capture language.
-2. **Gate-2 marks `complete:true` on contact-only transcripts** — violates
-   the extraction prompt's own completeness rule (2/2 reps). Tracked by the
-   `x-contact-no-trip` fixture as a `knownIssue` (non-gating) until
-   EXTRACTION_PROMPT is deliberately amended.
+1. **The agent gates the wrap on a phone number.** v4.1 contradicted itself
+   (Tier-1 "non-negotiable" phone vs "email alone is acceptable"), and the
+   agent leaned phone-required. **Decision (Islam): phone-required is the
+   policy.** → v4.1.1 amendment makes full name + email + phone with country
+   code required before any handoff, and rewrites the hesitancy passage to
+   explain-once-then-hold instead of waiving. Personas supply phone in their
+   closing turns accordingly.
+2. **Gate-2 marked `complete:true` on contact-only transcripts** (2/2 reps),
+   violating extraction rule 5. **Decision (Islam): code enforcement — and
+   the v4.1.1 contact trio (name AND email AND phone) enforced "at both
+   layers"** (agent wrap + Gate 2). → `passesCompletenessRule()` in
+   briefExtraction.ts deterministically forces `complete:false` (tighten-only
+   guard, stricter than rule 5's name-or-email by design); the
+   `x-contact-no-trip` fixture gates again (knownIssue flag removed), and
+   complete-lead fixtures carry phones. Pure test:
+   `src/lib/__tests__/briefCompleteness.test.ts`.
 
 ## Cost
 
