@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
+import WeatherInQenaHero from '@/components/WeatherInQenaHero';
 import {
   buildBreadcrumbList,
   buildGuideArticleSchema,
@@ -163,17 +164,25 @@ export default async function GuideArticlePage({ params }: Props) {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <Breadcrumb items={breadcrumbItems} className="mb-8" />
 
-        {heroUrl && (
-          <div className="relative mb-10 aspect-[2/1] w-full overflow-hidden rounded-lg bg-cream-deep">
-            <Image
-              src={heroUrl}
-              alt={article.heroImage?.alt || article.title}
-              fill
-              priority
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 1200px"
-            />
+        {/* One-off animated typographic hero (owner design handoff 2026-07-05).
+            EN only — the wordmark is English; ES/JA keep the photo hero. */}
+        {article._id === 'wp-page-60321' && locale === 'en' ? (
+          <div className="mb-10">
+            <WeatherInQenaHero />
           </div>
+        ) : (
+          heroUrl && (
+            <div className="relative mb-10 aspect-[2/1] w-full overflow-hidden rounded-lg bg-cream-deep">
+              <Image
+                src={heroUrl}
+                alt={article.heroImage?.alt || article.title}
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 1200px"
+              />
+            </div>
+          )
         )}
 
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_320px]">
