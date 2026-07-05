@@ -33,6 +33,9 @@ const FIRST_COMMIT_CSV: Record<string, string> = {
   nileCruise: 'migration/.cache/ja-slug-nileCruise-2026-05-30T01-33-10-706Z.csv',
   hotel: 'migration/.cache/ja-slug-hotel-2026-05-30T01-40-05-268Z.csv',
   travelTip: 'migration/.cache/ja-slug-travelTip-2026-05-30T01-40-29-744Z.csv',
+  city: 'migration/.cache/ja-slug-city-2026-05-30T01-25-53-548Z.csv',
+  // June-03 run: articles were the holdout (159 docs re-slugged from title romaji)
+  article: 'migration/.cache/ja-slug-article-2026-06-03T23-35-46-244Z.csv',
 };
 
 // URL builders per type. `s` = slug, `city` = parent-city JA slug.
@@ -42,6 +45,8 @@ const URL_FOR: Record<string, (s: string, city?: string) => string> = {
   hotel: (s) => `/ja/hotels/${s}`,
   travelTip: (s) => `/ja/travel-tips/${s}`,
   guideArticle: (s, city) => `/ja/guide/${city}/${s}`,
+  city: (s) => `/ja/guide/${s}`,
+  article: (s) => `/ja/blog/${s}`,
 };
 
 const client = createClient({
@@ -118,6 +123,13 @@ async function fetchFinal(type: string): Promise<Map<string, { s: string; city?:
          "cityEn": parentCity->slug[_key=="en"][0].value.current
        }`
     );
+  } else if (type === 'article') {
+    // document-level i18n: the JA article is its own doc with a plain slug
+    rows = await client.fetch(
+      `*[_type == "article" && language == "ja" && !(_id in path("drafts.**"))]{
+         _id, "s": slug.current
+       }`
+    );
   } else {
     rows = await client.fetch(
       `*[_type == $t && !(_id in path("drafts.**"))]{
@@ -134,7 +146,8 @@ async function fetchFinal(type: string): Promise<Map<string, { s: string; city?:
 }
 
 async function main() {
-  if (process.env.NEXT_PUBLIC_SANITY_DATASET !== 'migration-staging') {
+  // post-cutover: production is the canonical dataset holding the final slugs
+  if (process.env.NEXT_PUBLIC_SANITY_DATASET !== 'production') {
     throw new Error(`Refusing to run against dataset "${process.env.NEXT_PUBLIC_SANITY_DATASET}".`);
   }
   const existing = existingSources();

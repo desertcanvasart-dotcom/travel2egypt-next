@@ -10293,6 +10293,816 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/ja/guide/suezu/suez-canal-house",
+    "destination": "/ja/guide/suezu/isumairia-no-suezu-unga-chosha",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/korona-uirusu-jidai-no-ejiputo-ryoko",
+    "destination": "/ja/blog/pandemikku-go-no-ejiputo-ryoko-de-shitte-oku-koto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-horide-puran",
+    "destination": "/ja/blog/ejiputo-no-horide-puran",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-no-besuto-hoteru-tansaku",
+    "destination": "/ja/blog/kairo-no-doko-ni-tomaru-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kokai-de-no-daibingu-ji-no-anzen-taisaku",
+    "destination": "/ja/blog/kokai-de-anzen-ni-daibingu-suru-tame-ni",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-miira-wa-kokyo-ni-modosu-beki-ka",
+    "destination": "/ja/blog/ejiputo-no-miira-wa-henkan-sa-reru-beki-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/sekai-hatsu-no-rodo-sutoraiki",
+    "destination": "/ja/blog/kiroku-ni-nokoru-saiko-kyu-no-rodo-sutoraiki",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/wasure-rare-nai-ejiputo-ryoko-zettai-ni-otozureru-beki",
+    "destination": "/ja/blog/ejiputo-de-kyuka-o-sugosu-nara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-orimono-hakubutsukan",
+    "destination": "/ja/blog/ejiputo-no-orimono-o-kairo-de-miru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-sakeru-beki-shitsurei-na-kodo",
+    "destination": "/ja/blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/oberoizahara-go-de-tanoshimu-ejiputo-no-gokujo-taiken",
+    "destination": "/ja/blog/oberoizafura-de-nairu-o-tabi-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/hariuddo-vs-rekishi-eiga-niokeru-ejiputo",
+    "destination": "/ja/blog/eiga-no-ejiputo-to-honto-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-nishi-sabaku",
+    "destination": "/ja/blog/ejiputo-no-seibu-sabaku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-arukoru",
+    "destination": "/ja/blog/ejiputo-no-sake",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-eiga-satsuei-chi-e-no-eiga-gaido",
+    "destination": "/ja/blog/eiga-no-naka-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-nairu-kuruzu-kanzen-gaido",
+    "destination": "/ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/asuwan-de-otozureru-beki-gensen-9-supotto",
+    "destination": "/ja/blog/asuwan-de-otozureru-beki-basho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/asuwan-de-taiken-shi-tai-wasure-rare-nai-7-tsu-no-koto",
+    "destination": "/ja/blog/asuwan-de-nani-o-suru-beki-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-ryoko-dairi-ten",
+    "destination": "/ja/blog/ejiputo-de-ryoko-dairi-ten-o-erabu-ni-wa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-no-haneruhariribazaru-homon",
+    "destination": "/ja/blog/han-eru-hariri-o-aruku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/koputokairo-no-tansaku",
+    "destination": "/ja/blog/koputokairo-o-aruku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-rekishi-teki-meisho-toki-o-koe-ta-tabi",
+    "destination": "/ja/blog/ejiputo-de-otozureru-beki-rekishi-teki-na-basho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-hakubutsukan-kodai-no-hiho-to-ibutsu-o-hakken",
+    "destination": "/ja/blog/ejiputo-de-otozureru-beki-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/dahabiyanairukuruzu-kaze-no-chikara-de-susumu-tabi-o-erabu",
+    "destination": "/ja/blog/dahabiya-no-nairu-kuruzu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-no-kazoku-boken-wasure-rare-nai-taiken-ga-matte-i",
+    "destination": "/ja/blog/kodomo-to-iku-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-butikku-hoteru-yuniku-na-ragujuari-shukuhaku",
+    "destination": "/ja/blog/ejiputo-no-butikku-hoteru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/zeitaku-no-kaimei-ragujuarinairukuruzugaido",
+    "destination": "/ja/blog/ragujuarinairukuruzu-no-erabikata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/dahabiyanairukuruzu-ryoko-ni-motte-iku-beki-mono",
+    "destination": "/ja/blog/dahabiyanairukuruzu-no-nizukuri",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shinai-sabaku-safari-ejiputo-no-yasei-no-furontia-no-nazo-o",
+    "destination": "/ja/blog/shinai-no-sabaku-o-aruku-hashiru-koeru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shiwa-oashisu-toki-o-koe-ta-sodai-na-boken",
+    "destination": "/ja/blog/shiwa-oashisu-no-rekishi-to-fukei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/boken-ryoko-gaido-kyukyoku-no-suriringu-na-boken",
+    "destination": "/ja/blog/ejiputo-no-adobencha-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/nairu-gawa-kuruzu-no-besuto-taimu-sodai-na-kuruzu-boken-o",
+    "destination": "/ja/blog/nairu-kuruzu-ni-saiteki-na-jiki",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-goka-ryoko-no-kyukyoku-gaido",
+    "destination": "/ja/blog/ejiputo-no-ragujuari-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shinai-boken-no-kaiho-ejiputo-no-araarashii-rakuen-de",
+    "destination": "/ja/blog/shinaihanto-o-tabi-suru-mae-ni",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/toki-o-koe-te-kokai-suru-dahabiyaboto-no-shurui-o-hakken",
+    "destination": "/ja/blog/dahabiya-no-shurui-to-erabikata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kodai-kara-gendai-e-nairu-kuruzu-de-otozureru-rekishi-teki",
+    "destination": "/ja/blog/nairu-kuruzu-de-otozureru-rekishi-iseki",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kagayakashiki-zeitaku-nairu-gawa-zoi-no-ejiputo-no",
+    "destination": "/ja/blog/ejiputo-no-ragujuaririzoto-o-do-erabu-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/wasure-rare-nai-boken-ejiputo-hatsu-homon-no-famiri-muke",
+    "destination": "/ja/blog/hajimete-no-kazoku-ryoko-de-ejiputo-o-otozureru-mae-ni",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/rakuen-e-no-kagi-ejiputo-no-besuto-famiri-rizoto-o-hakken",
+    "destination": "/ja/blog/ejiputo-no-famiri-rizoto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/wadifeiran-shinai-no-kodai-no-tani-o-meguru-tabi",
+    "destination": "/ja/blog/wadifeiran-shinai-no-tani-ni-nokoru-mizu-shinko-junrei-no",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/minamiafurika-kara-no-ejiputo-ryoko-toki-o-koe-ta-kyoi-e-no",
+    "destination": "/ja/blog/minamiafurika-kara-iku-ejiputo-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/nippon-kara-ejiputo-e-no-kyuka",
+    "destination": "/ja/blog/nippon-kara-iku-ejiputo-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/puraibeto-furaito-ni-saiteki-na-ejiputo-no-kuko-no-erabikata",
+    "destination": "/ja/blog/ejiputo-e-puraibeto-ki-de-hairu-kuko-no-erabikata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shiwa-shio-mizuumi-o-hakken-ejiputo-de-no-werunesu-to-boken",
+    "destination": "/ja/blog/shiwa-no-shio-mizuumi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/piramiddo-chikaku-no-yosan-hoteru-ejiputo-no-jimoto-gaido",
+    "destination": "/ja/blog/giza-no-piramiddo-chikaku-no-kakuyasu-hoteru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/sukubabueruruku-kairo-no-shinsen-shijo",
+    "destination": "/ja/blog/sukubabueruruku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-saidai-no-shijo-ataba-no-kyoi-o-hakken",
+    "destination": "/ja/blog/kairo-no-ataba-shijo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-pakkeji-tsua-gurupu-ryoko-no-shin-jidai",
+    "destination": "/ja/blog/ejiputo-ryoko-pakkeji-no-erabikata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/giza-no-ejiputoshawaruma-semusemaresutoran",
+    "destination": "/ja/blog/ejiputo-no-shawaruma",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-jimoto-byoin-hiyo-to-kea",
+    "destination": "/ja/blog/ejiputo-de-byoin-ni-iku-koto-ni-nattara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairozamareku-no-nairubyu-no-resutoran",
+    "destination": "/ja/blog/zamareku-de-shokuji-o-suru-nara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-de-no-shotobureiku-4-nichikan-de-maho-o-hakken",
+    "destination": "/ja/blog/kairo-o-yon-nichikan-de-tabi-suru-nara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shiwa-no-rekishi-teki-meisho",
+    "destination": "/ja/blog/shiwa-oashisu-no-rekishi-teki-rando-maku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/chu-okoku-no-fa-rao-seiko-to-isan",
+    "destination": "/ja/blog/chu-okoku-no-fa-rao-tachi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-wasure-rare-nai-kazoku-muke-bichi-kyuka-gaido",
+    "destination": "/ja/blog/ejiputo-no-kazoku-bichi-kyuka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/naseru-ko-kuruzu-o-erabu-riyu",
+    "destination": "/ja/blog/naseru-ko-kuruzu-to-wa-nani-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/naseru-ko-ejiputo-no-kakure-ta-boken-to-shizukesa-no-hoseki",
+    "destination": "/ja/blog/naseru-ko-kuruzu-no-erabikata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/gurupu-tsua-to-puraibeto-tsua-tsugi-no-boken-ni-saiteki-na",
+    "destination": "/ja/blog/ejiputo-no-dantai-tsua-to-puraibeto-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-to-arekusandoria-no-toshi-kan-ryoko-ejiputo-no-homotsu",
+    "destination": "/ja/blog/kairo-to-arekusandoria-no-go-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-no-dokutsu-kyokai-tambo-mokattamu-san-no-kakure-ta",
+    "destination": "/ja/blog/kairo-no-dokutsu-kyokai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-ryoko-ni-saiteki-na-sim-kado-no-erabikata",
+    "destination": "/ja/blog/ejiputo-ryoko-no-sim-kado",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kodai-ejiputo-no-o-tachi-ejiputo-no-fa-rao-tachi-no-sodai-na",
+    "destination": "/ja/blog/kodai-ejiputo-no-o-tachi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kodai-no-kyoi-akiraka-ni-sa-re-ta-ejiputo-no-piramiddo",
+    "destination": "/ja/blog/ejiputo-no-piramiddo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/sharumuerusheiku-de-no-toppu-adobencha-yaru-beki-koto",
+    "destination": "/ja/blog/sharumuerusheiku-de-taiken-shi-tai-koto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/rukusoru-no-netsu-kikyu-taiken-kodai-no-kyoi-o-sora-kara",
+    "destination": "/ja/blog/rukusoru-no-netsu-kikyu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/rukusoru-de-no-osusume-akutibiti-ejiputo",
+    "destination": "/ja/blog/rukusoru-de-miru-beki-basho-to-sugoshi-kata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/nairu-gawa-kuruzu-pakkeji-ni-fukuma-reru-mono",
+    "destination": "/ja/blog/nairu-kuruzu-no-pakkeji-ni-wa-nani-ga-fukuma-reru-no-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-maho-o-hakken-suru-otozureru-beki-saiteki-na-jiki",
+    "destination": "/ja/blog/ejiputo-o-otozureru-sairyo-no-jiki",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/toki-no-shugo-sha-giza-no-dai-sufinkusu-o-tansaku-suru",
+    "destination": "/ja/blog/giza-no-dai-sufinkusu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/nairu-gawa-ni-wani-wa-i-masu-ka",
+    "destination": "/ja/blog/nairu-gawa-ni-wani-wa-iru-no-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/bichi-o-koe-te-marusaaramu-no-wasure-rare-nai-kanko-chi",
+    "destination": "/ja/blog/marusaaramu-de-miru-beki-mono",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/1-nichi-gizapiramiddotsua-kodai-ejiputo-no-kyoi-o-tanoshimu",
+    "destination": "/ja/blog/giza-no-piramiddo-de-sugosu-ichi-nichi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/amerika-kara-ejiputo-e-no-koku-ken-komi-ryoko-pakkeji",
+    "destination": "/ja/blog/amerika-hatsu-ejiputo-ryoko-pakkeji-no-erabikata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/rekishi-aiko-sha-no-tame-no-kairo-gaido",
+    "destination": "/ja/blog/rekishi-suki-no-tame-no-kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-ninki-takai-rodo-tsua",
+    "destination": "/ja/blog/ejiputo-o-meguru-kuruma-no-tabi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/igirisu-kara-ejiputo-e-no-kyuka",
+    "destination": "/ja/blog/eikoku-kara-iku-ejiputo-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-wa-anzen-desu-ka",
+    "destination": "/ja/blog/ejiputo-wa-anzen-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kanada-hatsu-no-ejiputo-ryoko-jiku-to-tairiku-o-koeru-tabi",
+    "destination": "/ja/blog/kanada-kara-iku-ejiputo-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-fuyuyasumi",
+    "destination": "/ja/blog/fuyu-no-ejiputo-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/giza-no-piramiddo-de-sagi-o-sakeru-hoho",
+    "destination": "/ja/blog/giza-no-piramiddo-de-komara-nai-tame-ni",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-no-isuramu-chiku-to-sono-shukyo-teki-igi",
+    "destination": "/ja/blog/isuramu-kairo-no-shukyo-teki-na-imi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/bahariyaoashisu-to-burakku-dezato-ejiputo-no-hime-rare-ta",
+    "destination": "/ja/blog/bahariyaoashisu-to-kuro-sabaku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-rekishi-teki-hoteru-rekishi-to-zeitaku-ga-yugo",
+    "destination": "/ja/blog/ejiputo-no-rekishi-aru-hoteru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kappuru-muke-ejiputo-gurupu-ryoko",
+    "destination": "/ja/blog/ni-nin-de-iku-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-shinia-muke-gurupu-ryoko",
+    "destination": "/ja/blog/shinia-ryoko-sha-no-tame-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-o-9-nichikan-de-hakken-kyukyoku-no-ryoko-nittei",
+    "destination": "/ja/blog/kyu-nichikan-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shiwa-oashisu-o-hakken-ejiputo-no-sabaku-no-rakuen-de-no",
+    "destination": "/ja/blog/shiwa-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/fayumu-no-besuto-eko-rojji",
+    "destination": "/ja/blog/faiyumu-no-eko-rojji",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/eien-no-kodama-ko-okoku-no-fa-rao-tachi-no-monumental-sodai",
+    "destination": "/ja/blog/ko-okoku-no-fa-rao-tachi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-gurume-dainingu-ragujuarihoteru-to-gokujo-ryori",
+    "destination": "/ja/blog/ejiputo-de-oishiku-taberu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-ragujuaribichirizoto-o-hakken-kyukyoku-no",
+    "destination": "/ja/blog/ejiputo-no-kokyu-bichi-rizoto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kazoku-muke-no-rekishi-teki-ejiputo-ryoko",
+    "destination": "/ja/blog/kodomo-to-iku-rekishi-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/9-tsuki-no-ejiputo-tambo-natsu-no-owari-no-boken",
+    "destination": "/ja/blog/9-tsuki-no-ejiputo-o-tabi-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kako-no-hibiki-rekishi-o-meguru-ejiputo-ryoko",
+    "destination": "/ja/blog/rekishi-no-ejiputo-o-do-tabi-suru-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-bunka-ryoko-gaido",
+    "destination": "/ja/blog/ejiputo-bunka-no-taiken-ho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/fa-rao-kara-faraferu-e-ejiputo-no-shoku-bunka-no-shinka-o",
+    "destination": "/ja/blog/ejiputo-ryori-no-henka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/6-tsuki-no-tabi-shoka-no-ejiputo-tambo",
+    "destination": "/ja/blog/rokugatsu-no-ejiputo-o-do-tabi-suru-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/2025-nen-gurando-ejiputo-hakubutsukan-o-tambo-naibu-gaido",
+    "destination": "/ja/blog/dai-ejiputo-hakubutsukan-no-kengaku-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-no-hikken-isuramukyo-no-meisho",
+    "destination": "/ja/blog/isuramu-kairo-de-otozureru-beki-basho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/10-tsuki-no-tohiko-aki-no-ejiputo-o-hakken",
+    "destination": "/ja/blog/10-tsuki-no-ejiputo-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-kami-ejiputo-shinwa-de-mottomo-juyo-na-kami",
+    "destination": "/ja/blog/ejiputo-no-kami-o-tabisaki-de-yomu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/5-tsuki-no-ejiputo-no-maho-o-taiken",
+    "destination": "/ja/blog/5-tsuki-no-ejiputo-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/7-tsuki-ni-ejiputo-o-otozureru",
+    "destination": "/ja/blog/7-tsuki-ni-ejiputo-o-otozureru-nara",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-miwaku-teki-na-mizuumi",
+    "destination": "/ja/blog/ejiputo-no-mizuumi-o-yomu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/nairu-gawa-no-hotori-de-nemuru-asuwan-no-saiko-no-nubia-fu",
+    "destination": "/ja/blog/asuwan-to-abu-shin-beru-no-nubia-kei-rojji",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-werunesu-to-iryo-tsurizumu-kodai-no-dento-to",
+    "destination": "/ja/blog/ejiputo-no-werunesu-to-iryo-tsurizumu-o-kangaeru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-o-meguru-tabi-saiko-no-ejiputo-tsua-taiken",
+    "destination": "/ja/blog/hajimete-ejiputo-o-tabi-suru-hito-e",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/11-tsuki-ni-iku-ejiputo-no-tabi-shimpi-to-rekishi-ga-ikizuku",
+    "destination": "/ja/blog/11-tsuki-no-ejiputo-o-tabi-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/yoru-no-kairo-de-otozure-tai-osusume-supotto",
+    "destination": "/ja/blog/yoru-no-kairo-de-iku-beki-basho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-esukoto-ruru-ruto-sekyuriti",
+    "destination": "/ja/blog/ejiputo-no-kanko-keisatsu-esukoto-to-komboi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/tsutankamen-o-wa-piramiddo-ni-maiso-sa-re-ta-no-ka",
+    "destination": "/ja/blog/tsutankamen-wa-piramiddo-ni-homura-re-ta-no-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/giza-no-dai-piramiddo-naibu",
+    "destination": "/ja/blog/giza-no-dai-piramiddo-no-naibu-de-jissai-ni-miru-mono",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/tsutankamen-o-no-haka-no-monogatari-naze-kore-hodo-yumei-ni",
+    "destination": "/ja/blog/tsutankamen-no-haka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/tsutankamen-wa-ima-doko-ni-iru-rukusoru-to-kairo-no-chigai",
+    "destination": "/ja/blog/tsutankamen-wa-ima-doko-ni-iru-no-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kv-bango-no-shikumi-oke-no-tani-no-kantan-na-gaido",
+    "destination": "/ja/blog/oke-no-tani-no-kv-bango-o-rikai-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/no-tsutankamen-o-haka-no-hakken-to-sono-juyo-sei",
+    "destination": "/ja/blog/tsutankamen-no-haka-no-hakken",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/2026-nen-iko-ni-ejiputo-de-tenkai-suru-butikkunairukuruzu",
+    "destination": "/ja/blog/butikku-nairu-kuruzu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-boken-o-jibun-rashiku-kasutamaizu-suru-hoho-oda",
+    "destination": "/ja/blog/jibun-ni-au-ejiputo-ryoko-no-kumikata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kigo-kara-bunsho-e-ejiputo-no-shokei-moji-o-rikai-suru",
+    "destination": "/ja/blog/ejiputo-no-hierogurifu-o-rikai-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/sufinkusu-to-oberisuku-ejiputo-no-chimmoku-no-kyojin-tachi",
+    "destination": "/ja/blog/sufinkusu-to-oberisuku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-kokuritsu-ejiputo-bummei-hakubutsukan-nmec-kyukyoku",
+    "destination": "/ja/blog/kairo-kokuritsu-ejiputo-bummei-hakubutsukan-nmec",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/piramiddo-to-nairu-gawa-o-meguru-herikoputa-adobencha",
+    "destination": "/ja/blog/sora-kara-miru-kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/furugada-de-taiken-su-beki-33-no-odoroku-beki-koto",
+    "destination": "/ja/blog/harugada-de-nani-o-suru-beki-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/tsutankamen-o-no-haka-no-noroi",
+    "destination": "/ja/blog/tsutankamen-no-haka-no-noroi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/gurando-ejiputo-hakubutsukan-ejiputo-no-kako-e-no-sodai-na",
+    "destination": "/ja/blog/dai-ejiputo-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-josei-fa-rao-no-taito-shinden-to-haka-soshite-o",
+    "destination": "/ja/blog/kodai-ejiputo-no-joo-tachi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/piramiddo-o-kizui-ta-hitobito-to-deau-kodai-ejiputo-o-meguru",
+    "destination": "/ja/blog/piramiddo-o-kizui-ta-hitobito",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-ryoko-sha-muke-anzen-gaido-2025-2026-nen",
+    "destination": "/ja/blog/ejiputo-ryoko-no-anzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/giza-no-piramiddo-e-no-tokubetsu-nyujo-issho-ni-ichi-do-no",
+    "destination": "/ja/blog/hitonami-ga-kuru-mae-no-giza-daichi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-ido-shudan-arayuru-yosan-no-ryoko-sha-no-tame-no",
+    "destination": "/ja/blog/ejiputo-kokunai-no-ido-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kokai-niokeru-suichu-kokogaku-to-sen-daibingu",
+    "destination": "/ja/blog/kokai-no-sen-daibingu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-kakusa-re-ta-hoseki-shio-no-shimajima-to",
+    "destination": "/ja/blog/piramiddo-no-muko-ni-aru-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/remaruerurayangurampu-faiyumu-no-ragujuaridezatoritorito",
+    "destination": "/ja/blog/remaruerurayangurampu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-sagi-to-nedan-kosho-no-kotsu-han-eru-hariri-shijo",
+    "destination": "/ja/blog/ejiputo-no-nedan-kosho-to-toraburu-kaihi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-ryoko-de-wa-nani-o-kire-ba-ii-fukuso-gaido",
+    "destination": "/ja/blog/ejiputo-de-nani-o-kiru-beki-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/babuzuwaira-no-monogatari-isuramu-kairo-ni-nokoru-densetsu",
+    "destination": "/ja/blog/babuzuweira",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-no-antiku-shijo-dianamaketto",
+    "destination": "/ja/blog/kairo-no-daiana-maketto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-isuramu-kenchiku-isan-sogo-gaido",
+    "destination": "/ja/blog/ejiputo-no-isuramu-kenchiku-o-do-miru-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/seijaku-e-to-ho-o-age-te-ejiputo-no-feruka-sen-o-meguru-tabi",
+    "destination": "/ja/blog/ejiputo-de-ferukka-ni-noru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/gakusei-muke-ejiputo-gurupu-horide",
+    "destination": "/ja/blog/gakusei-gurupu-no-tame-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/10-nichikan-de-meguru-ejiputo-hikken-supotto-o-mora-shi-ta",
+    "destination": "/ja/blog/ejiputo-o-10-nichikan-de-tabi-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-otozureru-beki-saiko-no-kanko-chi",
+    "destination": "/ja/blog/ejiputo-de-otozureru-beki-basho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-seichi-otozureru-beki-shinden-mosuku-shukyo-teki",
+    "destination": "/ja/blog/ejiputo-no-seinaru-basho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shinai-no-rekishi-teki-iseki-o-meguru-tabi-toki-to-shinko-o",
+    "destination": "/ja/blog/shinai-no-rekishi-isan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/naze-4-tsuki-ni-ejiputo-o-otozureru-beki-ka",
+    "destination": "/ja/blog/4-tsuki-ni-ejiputo-o-otozureru-nara-shitte-oki-tai-koto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/karunakku-shinden-o-otozureru-129-no-riyu",
+    "destination": "/ja/blog/karunakku-shinden-to-wa-nani-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/2-tsuki-no-ejiputo-no-miryoku-o-hakken-suru",
+    "destination": "/ja/blog/nigatsu-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/sodai-na-4-nichikan-ejiputo-ryoko-puran-fa-rao-no-kuni-o",
+    "destination": "/ja/blog/ejiputo-yon-nichikan-no-ryotei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/naze-1-tsuki-ga-ejiputo-ryoko-ni-saiteki-na-no-ka",
+    "destination": "/ja/blog/1-tsuki-ni-ejiputo-o-otozureru-nara-shitte-oki-tai-koto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/8-tsuki-ni-ejiputo-e-ryoko-suru",
+    "destination": "/ja/blog/8-tsuki-no-ejiputo-ryoko-de-shitte-oku-beki-koto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/oke-no-tani-no-hikken-no-haka-2025-nemban-kakure-ta-meisho",
+    "destination": "/ja/blog/oke-no-tani-de-miru-beki-haka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kodai-ejiputo-nimatsuwaru-14-no-shinwa-to-shinjitsu",
+    "destination": "/ja/blog/kodai-ejiputo-nitsuite-no-zokusetsu-to-jijitsu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/besuto-12-nichikan-ejiputo-ryoko-puran",
+    "destination": "/ja/blog/12-nichikan-no-ejiputo-ryotei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-koputo-kyoto-kodai-shinko-no-shugo-sha-tachi",
+    "destination": "/ja/blog/ejiputo-no-koputo-kyoto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/harugada-hatsu-higaeri-ryoko-kakusa-re-ta-takara-o-motome-te",
+    "destination": "/ja/blog/harugada-kara-no-higaeri",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-o-7-nichikan-de-taiken-suru-tabi-riso-no-7-nichikan",
+    "destination": "/ja/blog/ejiputo-o-7-nichikan-de-tabi-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/2-shukan-ejiputo-ryoko-puran-ejiputo-no-midokoro-o-meguru",
+    "destination": "/ja/blog/ejiputo-ni-shukan-no-ryotei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kyukyoku-no-8-nichikan-ejiputo-tsua-ryotei-toki-o-koeru-tabi",
+    "destination": "/ja/blog/ejiputo-hachi-nichikan-no-ryotei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/saiko-no-ejiputo-ryoko-puran",
+    "destination": "/ja/blog/ejiputo-ryoko-no-nissu-betsu-moderu-kosu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/kairo-shumatsu-esukepu-wasure-rare-nai-3-nichikan",
+    "destination": "/ja/blog/san-nichikan-no-kairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/suez/suez-canal-house",
+    "destination": "/es/guide/suez/la-casa-de-la-autoridad-del-canal-de-suez",
+    "permanent": true
+  },
+  {
+    "source": "/blog/escorts-in-egypt",
+    "destination": "/blog/police-escorts-in-egypt",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
