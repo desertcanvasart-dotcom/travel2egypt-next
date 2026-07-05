@@ -104,7 +104,7 @@ async function main() {
   for (const a of articles) collect(a.body, a.language ?? 'en', { id: a._id, type: 'article', title: a.title ?? '' });
 
   const targetIds = [...new Set(links.map((l) => l.target_id))];
-  const targets = await client.fetch(`*[_id in $ids]{_id, _type, title, name}`, { ids: targetIds });
+  const targets = await client.fetch(`*[_id in $ids]{_id, _type, title, name, language}`, { ids: targetIds });
   const byId = new Map(targets.map((t: any) => [t._id, t]));
 
   const rows = links.map((l) => {
@@ -112,13 +112,13 @@ async function main() {
     const titles = target ? titleOf(target) : [];
     const score = titles.length ? Math.max(...titles.map((t) => similarity(l.anchor, t))) : -1;
     const severity = !target ? 'dangling-target' : score === 0 ? 'no-overlap' : score < 0.5 ? 'low' : 'ok';
-    return { ...l, target_type: target?._type ?? '?', target_title: titles[0] ?? '', score: score.toFixed(2), severity,
+    return { ...l, target_type: target?._type ?? '?', target_title: titles[0] ?? '', target_language: target?.language ?? '', score: score.toFixed(2), severity,
       key_style: /^0+\d{1,4}$/.test(l.key) ? 'wp-import' : 'other' };
   });
 
   rows.sort((a, b) => Number(a.score) - Number(b.score));
   const esc = (v: string | number) => (/[",\n]/.test(String(v)) ? `"${String(v).replace(/"/g, '""')}"` : String(v));
-  const cols = ['severity','score','key_style','locale','source_type','source_id','source_title','anchor','target_type','target_id','target_title','context'] as const;
+  const cols = ['severity','score','key_style','locale','source_type','source_id','source_title','anchor','target_type','target_id','target_title','target_language','key','context'] as const;
   const date = process.env.RUN_DATE || new Date().toISOString().slice(0, 10);
   const out = resolve(process.cwd(), `docs/imported-link-audit-${date}.csv`);
   writeFileSync(out, [cols.join(','), ...rows.map((r) => cols.map((c) => esc((r as any)[c])).join(','))].join('\n') + '\n');
