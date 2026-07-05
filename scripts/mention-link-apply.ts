@@ -223,6 +223,14 @@ async function main() {
       const bi = blocks.findIndex((b) => b._key === s.block_key);
       if (bi === -1) { skipRow('block-missing'); continue; }
 
+      // never add a second link to a target already linked in this locale
+      const existingRefs = new Set<string>();
+      for (const b of blocks)
+        for (const md of b.markDefs ?? [])
+          if (md._type === 'internalLink' && (md as any).reference?._ref)
+            existingRefs.add((md as any).reference._ref);
+      if (existingRefs.has(s.target_id)) { skipRow('target-already-linked'); continue; }
+
       // drift check: anchor still at offset? else re-find first unlinked occurrence
       const { text, linked } = flatten(blocks[bi]);
       let start = Number(s.offset);
