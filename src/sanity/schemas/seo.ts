@@ -27,6 +27,15 @@ export const seoSchema = defineType({
         'Image used when this page is shared on social media. Optional — defaults to the hero image.',
       type: 'image',
       options: { hotspot: true },
+      fields: [
+        defineField({
+          name: 'alt',
+          title: 'Alt text',
+          description:
+            'Describes the image for accessibility and social cards (og:image:alt). Keep under 125 characters per locale.',
+          type: 'internationalizedArrayString',
+        }),
+      ],
     }),
     defineField({
       name: 'noIndex',
