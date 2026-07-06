@@ -68,14 +68,21 @@ async function main() {
       skipped.push(`${g._id}: ${g.error ?? 'incomplete locales'}`);
       continue;
     }
-    const ids = [g._id, `drafts.${g._id}`];
+    // A gen row may target a draft-only doc directly (its _id starts with
+    // "drafts.") — patch just that draft; otherwise published + sibling.
+    const baseId = g._id.replace(/^drafts\./, '');
+    const ids = [baseId, `drafts.${baseId}`];
     const docs: Array<{ _id: string; alt: unknown; cap: unknown }> = await client.fetch(
       `*[_id in $ids]{ _id, "alt": heroImage.alt, "cap": heroImage.caption }`,
       { ids },
     );
     const published = docs.find((d) => !d._id.startsWith('drafts.'));
     const draft = docs.find((d) => d._id.startsWith('drafts.'));
-    if (!published) {
+    if (!published && !draft) {
+      skipped.push(`${g._id}: doc missing entirely`);
+      continue;
+    }
+    if (!published && !g._id.startsWith('drafts.')) {
       skipped.push(`${g._id}: published doc missing`);
       continue;
     }
@@ -84,14 +91,14 @@ async function main() {
       'heroImage.caption': loc(g.cap_en!, g.cap_es!, g.cap_ja!),
     };
     if (APPLY) {
-      await client.patch(published._id).set(patch).commit();
+      if (published) await client.patch(published._id).set(patch).commit();
       if (draft) await client.patch(draft._id).set(patch).commit();
     }
     rollback.push({
-      docId: published._id,
+      docId: published?._id ?? draft!._id,
       draftId: draft?._id ?? null,
-      oldAlt: published.alt ?? null,
-      oldCap: published.cap ?? null,
+      oldAlt: (published ?? draft)!.alt ?? null,
+      oldCap: (published ?? draft)!.cap ?? null,
     });
     written += 1;
     console.log(`${APPLY ? 'set ' : 'ok  '} ${g._id}${draft ? ' (+draft)' : ''}  "${g.alt_en!.slice(0, 60)}…"`);
@@ -101,7 +108,11 @@ async function main() {
   for (const s of skipped) console.log('  SKIP ' + s);
 
   if (APPLY) {
-    const logPath = path.join(process.cwd(), 'backups', 'hero-swaps-2026-07-06', 'alt-rollback.json');
+    // One log per gen dir so successive batches don't overwrite each other.
+    const logPath = path.join(
+      process.cwd(), 'backups', 'hero-swaps-2026-07-06',
+      `alt-rollback-${path.basename(genDir)}.json`,
+    );
     writeFileSync(logPath, JSON.stringify(rollback, null, 2));
     console.log(`Rollback log: ${logPath}`);
   }

@@ -34,9 +34,19 @@ const PROJECT_ID = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID || 'ufallvd2';
 const TOKEN =
   process.env.SANITY_PRODUCTION_API_WRITE_TOKEN ||
   process.env.SANITY_API_WRITE_TOKEN;
-const DIR = '/Users/islamhussein/Desktop/00';
+// Image folder: first non-flag argv, defaulting to the batch-1 folder.
+// Filenames must be <en-slug>.<ext> — normalize before pointing here.
+const DIR =
+  process.argv.slice(2).find((a) => !a.startsWith('--')) ||
+  '/Users/islamhussein/Desktop/00';
 const CSV = 'docs/journey-hero-swaps-needed-2026-07-04.csv';
 const APPLY = process.argv.includes('--apply');
+const CONTENT_TYPES: Record<string, string> = {
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.png': 'image/png',
+  '.webp': 'image/webp',
+};
 
 const WEATHER =
   /weather|climate|seasonal|temperature|when-to-go|when-to-explore/i;
@@ -146,7 +156,10 @@ async function main() {
       const asset = await client.assets.upload(
         'image',
         readFileSync(path.join(DIR, file)),
-        { filename: file, contentType: 'image/jpeg' },
+        {
+          filename: file,
+          contentType: CONTENT_TYPES[path.extname(file).toLowerCase()] ?? 'image/jpeg',
+        },
       );
       newAssetId = asset._id;
       const heroImage = {
@@ -186,7 +199,8 @@ async function main() {
   if (APPLY) {
     const dir = path.join(process.cwd(), 'backups', 'hero-swaps-2026-07-06');
     if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
-    const logPath = path.join(dir, 'rollback.json');
+    // One log per source folder so successive batches don't overwrite.
+    const logPath = path.join(dir, `rollback-${path.basename(DIR)}.json`);
     writeFileSync(logPath, JSON.stringify(rollback, null, 2));
     console.log(`\nRollback log written: ${logPath}`);
   }
