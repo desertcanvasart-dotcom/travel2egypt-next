@@ -588,9 +588,16 @@ html[lang='ja'] h4 {
   }
 }
 
-/* Smooth in-page anchor scrolling (TOC), only when motion is welcome. */
+/* Smooth in-page anchor scrolling (TOC), only when motion is welcome.
+ *
+ * Scoped to :focus-within (the standard fix): clicking an in-page anchor
+ * focuses the link, so TOC jumps still glide — but browser BACK/FORWARD
+ * scroll restoration happens with nothing focused, so history restores
+ * stay instant. A bare `html { scroll-behavior: smooth }` makes browsers
+ * ANIMATE the restore on back-navigation (page visibly scrolls from top
+ * to the old offset), which reads as jumpy, broken restoration. */
 @media (prefers-reduced-motion: no-preference) {
-  html {
+  html:focus-within {
     scroll-behavior: smooth;
   }
 }
