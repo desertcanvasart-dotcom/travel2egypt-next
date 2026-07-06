@@ -1,0 +1,119 @@
+/* ============================================================
+ * climate-signature.css — the weather-page hero "climate signature".
+ *
+ * Everything is scoped under .climate-signature so nothing bleeds into
+ * the rest of the guide-article template (which uses Tailwind + the
+ * prose-editorial scope). Palette is taken VERBATIM from the approved
+ * design mock (climate-signature-mock-v2) — navy #14243B, gold #A08A52,
+ * cream #F4EFE3, paper #EFE8D6. These differ from the deprecated legacy
+ * --color-gold (#c9a961, brighter); the mock is authoritative for this
+ * component, so the values are pinned locally rather than pulled from
+ * the global tokens.
+ * ============================================================ */
+
+.climate-signature {
+  --cs-cream: #f4efe3;
+  --cs-paper: #efe8d6;
+  --cs-navy: #14243b;
+  --cs-gold: #a08a52;
+  --cs-display: var(--font-cormorant), Georgia, 'Times New Roman', serif;
+  --cs-ui: var(--font-source-serif-4), -apple-system, 'Helvetica Neue', sans-serif;
+
+  background: var(--cs-paper);
+  border: 1px solid rgba(20, 36, 59, 0.12);
+  padding: 40px 44px 30px;
+  color: var(--cs-navy);
+  font-family: var(--cs-display);
+}
+
+.climate-signature__eyebrow {
+  font-family: var(--cs-ui);
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  color: var(--cs-gold);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.climate-signature__title {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1.05;
+  font-family: var(--cs-display);
+  color: var(--cs-navy);
+}
+.climate-signature__title em {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.climate-signature__descriptors {
+  font-family: var(--cs-ui);
+  font-size: 10.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(20, 36, 59, 0.55);
+  margin-top: 10px;
+}
+.climate-signature__descriptors b {
+  color: var(--cs-gold);
+  font-weight: 500;
+}
+
+.climate-signature__chart {
+  margin-top: 16px;
+}
+.climate-signature__chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.climate-signature__caption {
+  font-style: italic;
+  font-size: 16.5px;
+  line-height: 1.5;
+  color: rgba(20, 36, 59, 0.82);
+  margin-top: 14px;
+  border-top: 1px solid rgba(20, 36, 59, 0.12);
+  padding-top: 12px;
+}
+
+@media (max-width: 640px) {
+  .climate-signature {
+    padding: 26px 20px 20px;
+  }
+  .climate-signature__title {
+    font-size: 32px;
+  }
+  .climate-signature__descriptors {
+    letter-spacing: 0.14em;
+  }
+}
+
+/* ── JAPANESE (html[lang=ja]) — locale type adaptation ─────────────────
+ * The guide-article template does NOT sit under .journey-doc / .tour-doc,
+ * so the global italic-kill that those scopes carry never reaches this
+ * component. The global html[lang='ja'] rules in globals.css re-point
+ * body/.font-serif/h1–h4 to Noto but leave bare SVG <text> and this
+ * card's own italic runs untouched. So we repeat the type-pass here:
+ * re-point to the already-loaded Noto JP faces and force upright.
+ *
+ * (Weather pages are EN-only at launch — this locale is gated off in the
+ * template — but the rules ship now so the later ES/JA editorial batch
+ * inherits correct Japanese type with no follow-up build.)
+ * ------------------------------------------------------------------- */
+html[lang='ja'] .climate-signature {
+  --cs-display: var(--font-noto-serif-jp), var(--font-cormorant), serif;
+  --cs-ui: var(--font-noto-sans-jp), var(--font-source-serif-4), sans-serif;
+}
+html[lang='ja'] .climate-signature,
+html[lang='ja'] .climate-signature * {
+  font-style: normal !important;
+}
+/* SVG annotation text carries its font-family as a presentation attribute,
+ * which CSS on the <text> element still overrides. Force the JP serif so
+ * Japanese gap/trough strings render upright Noto, not slanted Latin. */
+html[lang='ja'] .climate-signature__chart text {
+  font-family: var(--font-noto-serif-jp), var(--font-cormorant), serif !important;
+}
