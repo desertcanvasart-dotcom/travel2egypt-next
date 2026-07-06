@@ -11103,6 +11103,21 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/grand-islamic-cairo-day-tour",
+    "destination": "/the-grand-islamic-day-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/perspectivas-islamicas-el-gran-recorrido-islamico-de-un-dia-por-el-cairo",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/ja/isuramu-no-dosatsu-gurandoisuramukairodeitsua",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
