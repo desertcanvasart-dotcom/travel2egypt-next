@@ -3,10 +3,12 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
+import '@/styles/climate-signature.css';
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
-import WeatherInQenaHero from '@/components/WeatherInQenaHero';
+import ClimateSignature from '@/components/climate/ClimateSignature';
+import { climateData } from '@/data/climate';
 import {
   buildBreadcrumbList,
   buildGuideArticleSchema,
@@ -100,6 +102,16 @@ export default async function GuideArticlePage({ params }: Props) {
     ? urlFor(article.heroImage).width(1800).height(900).quality(85).url()
     : null;
 
+  // Weather-page hero: the climate signature. Gated on the structural
+  // `kind === 'climate'` discriminator AND an existing per-city data entry
+  // AND locale === 'en' (ES/JA keep their current hero until the localized
+  // editorial batch lands). A city with no data entry falls through to the
+  // existing photo-hero branch unchanged; non-weather articles never match.
+  const climate =
+    article.kind === 'climate' && locale === 'en'
+      ? climateData[citySlug]
+      : undefined;
+
   const sectionLabel = article.section
     ? tSections(SECTION_LABEL_KEYS[article.section] ?? 'others')
     : null;
@@ -164,11 +176,16 @@ export default async function GuideArticlePage({ params }: Props) {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <Breadcrumb items={breadcrumbItems} className="mb-8" />
 
-        {/* One-off animated typographic hero (owner design handoff 2026-07-05).
-            EN only — the wordmark is English; ES/JA keep the photo hero. */}
-        {article._id === 'wp-page-60321' && locale === 'en' ? (
+        {/* Weather pages (EN): climate signature. Otherwise the photo hero. */}
+        {climate ? (
           <div className="mb-10">
-            <WeatherInQenaHero />
+            <ClimateSignature
+              title={article.title}
+              cityName={article.parentCity.name}
+              record={climate}
+              copy={{ ...climate.editorial.en, rainLabel: 'RAIN DAYS' }}
+              locale={locale}
+            />
           </div>
         ) : (
           heroUrl && (
