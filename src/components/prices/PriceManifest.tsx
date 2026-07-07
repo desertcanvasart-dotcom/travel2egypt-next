@@ -4,15 +4,18 @@ import type { PricePage } from '@/data/prices';
  * PriceManifest — the attraction ticket table on the price-page series.
  *
  * Replaces the flattened WP-migration bullet lists (rendered elsewhere via
- * splitPriceRegion) with the designed table per the approved mock
- * (price-manifest-mock): serif site names, tabular numerals, hours in the UI
- * face, governorate kickers, a verification stamp, and the two fixed
- * footnote paragraphs. Server-rendered, no client JS, no sorting/filtering/
- * currency machinery — by design.
+ * splitPriceRegion) with the designed table per the authoritative v2 mock
+ * (price-manifest-mock-v2-integrated — surfaceless, ruled; supersedes v1's
+ * card treatment): no surface, no border, no component title. A 2px navy
+ * rule with the right-aligned CHECKED stamp opens the manifest; governorate
+ * kickers, serif site names, tabular numerals, hours in the UI face; a
+ * second 2px rule closes it above the two footnote paragraphs. The page's
+ * existing section headings do the introducing. Server-rendered, no client
+ * JS, no sorting/filtering/currency machinery — by design.
  *
- * COPY: the title, stamp pattern, and footnote paragraphs are OWNER-LOCKED
- * strings from the mock — do not edit. Per-row notes are owner-authored in
- * the data map. The `checked` date is owner-supplied with the verified data.
+ * COPY: the stamp pattern and footnote paragraphs are OWNER-LOCKED strings
+ * from the mock — do not edit. Per-row notes are owner-authored in the data
+ * map. The `checked` date is owner-supplied with the verified data.
  *
  * DATA: prices/names are owner-verified; hours are legacy-sourced and
  * unverified (owner's explicit call) — rows without hours render an em dash.
@@ -25,8 +28,7 @@ interface Props {
 export default function PriceManifest({ page }: Props) {
   return (
     <div className="price-manifest">
-      <div className="price-manifest__head">
-        <div className="price-manifest__title">Tickets &amp; opening hours</div>
+      <div className="price-manifest__top">
         <div className="price-manifest__checked">
           Checked <b>{page.checked}</b>
         </div>
@@ -59,7 +61,9 @@ export default function PriceManifest({ page }: Props) {
                     <span className="cur">EGP</span>
                     {row.student}
                   </td>
-                  <td className="hours">{row.hours ?? '—'}</td>
+                  <td className="hours">
+                    {row.hours ?? <span className="dash">—</span>}
+                  </td>
                 </tr>
               ))}
             </tbody>
@@ -67,7 +71,7 @@ export default function PriceManifest({ page }: Props) {
         </div>
       ))}
 
-      <div className="price-manifest__foot">
+      <div className="price-manifest__bottom">
         <p>
           Egypt revises its antiquities fees often, usually ahead of the
           winter season — treat these as accurate at the date above, and
