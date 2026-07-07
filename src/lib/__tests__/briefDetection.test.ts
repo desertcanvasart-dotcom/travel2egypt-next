@@ -42,6 +42,10 @@ const EN_WRAPS: string[] = [
   'Before I pass this to our team, a few practical details.',
   // v4.1 L143 next-morning commitment (matches "the team" and "our team").
   'The team will come back to you by 10 a.m. Cairo time tomorrow morning.',
+  // v4.2 calibration — real wrap from the 2026-07-07 v42-reconcile eval run
+  // (en-luxury-cues): the commitment with "be" instead of "come", and the
+  // Cairo-time figures restructured onto the cutoff rather than the promise.
+  "The team will be back to you by this evening if you're reading this before 1 p.m. Cairo time, or first thing tomorrow morning if not.",
 ];
 for (const [i, text] of EN_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), true, `EN wrap #${i + 1} fires`);

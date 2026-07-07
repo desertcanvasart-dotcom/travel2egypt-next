@@ -54,6 +54,9 @@ export const EN_MARKERS: string[] = [
   'pass this to our team', //      L223 "Before I pass this to our team, a few practical details"
   'before i pass this', //         L223 (variant)
   'team will come back to you', // L143 commitment turn (matches "the"/"our team")
+  'team will be back to you', //   v4.2 calibration (2026-07-07 eval run v42-reconcile,
+  //                               en-luxury-cues live wrap: "The team will be back to
+  //                               you by this evening" — same commitment, "be" for "come")
   'by 8 p.m. cairo', //            L143 same-day commitment ("answered the same day by 8 p.m.")
   'by 10 a.m. cairo', //           L143 next-morning commitment
 ];
