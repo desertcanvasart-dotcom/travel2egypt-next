@@ -70,7 +70,7 @@ export interface DeliverDeps {
   newRequestId(): string;
   sendFallback(c: DeliveryContext, payload: AutouraBriefPayload): Promise<void>;
   sendAlert(c: DeliveryContext, reason: string, attempts: number, payload: AutouraBriefPayload): Promise<void>;
-  env: { url: string | undefined; secret: string | undefined };
+  env: { url: string | undefined; secret: string | undefined; routingTag?: string };
 }
 
 /** Run an effect, swallowing+logging any throw — the worker stays best-effort. */
@@ -115,6 +115,16 @@ export async function deliverBrief(
   if (!context) return; // already gone / not found
 
   const payload = toAutouraPayload(context.payload, context.ctx, context.transcript);
+
+  // Anchor-fallback routing tag (see BrandEnv.routingTag): a sub-brand brief
+  // arriving in the shared Travel2Egypt inbox announces its routing in the
+  // summary, since the wire payload carries no brand field. Applied BEFORE
+  // serialization so the HMAC covers the transmitted bytes.
+  if (deps.env.routingTag) {
+    payload.brief_summary = payload.brief_summary
+      ? `[ROUTED: ${deps.env.routingTag}] ${payload.brief_summary}`
+      : `[ROUTED: ${deps.env.routingTag}]`;
+  }
 
   // ── SERIALIZE ONCE ────────────────────────────────────────────────────────
   // `rawBody` is the single source of truth for both the signature AND the POST

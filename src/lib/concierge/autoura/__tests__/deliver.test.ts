@@ -209,6 +209,43 @@ async function main() {
   eq(body.preferences.comfort_level, 'international-5-star', 'comfort_level verbatim on the wire');
 }
 
+// ── anchor-fallback routing tag: shared inbox sees "[ROUTED: X]" ────────────
+{
+  const { deps, calls } = makeDeps(() => ({ httpStatus: 201, responseJson: {} }));
+  deps.env = { ...deps.env!, routingTag: 'SILLAGE' };
+  await deliverBrief('b9', deps);
+  const sent = calls.posts[0];
+  const body = JSON.parse(sent.rawBody);
+  eq(body.brief_summary, '[ROUTED: SILLAGE] A honeymoon.', 'routingTag prefixes brief_summary on the wire');
+  const sig = sent.headers['X-Autoura-Signature'].split('v1=')[1];
+  eq(sig, signConciergePayload(SECRET, sent.headers['X-Autoura-Timestamp'], sent.rawBody), 'signature covers the TAGGED bytes');
+  eq(lastStatus(calls), 'sent', 'tagged delivery still sends');
+}
+{
+  const { deps, calls } = makeDeps(() => ({ httpStatus: 201, responseJson: {} }));
+  await deliverBrief('b10', deps);
+  const body = JSON.parse(calls.posts[0].rawBody);
+  eq(body.brief_summary, 'A honeymoon.', 'no routingTag → summary untouched');
+}
+
+// ── resolveBrandEnv: tag only on sub-brand fallback ─────────────────────────
+{
+  const { resolveBrandEnv } = await import('../routing');
+  process.env.AUTOURA_WEBHOOK_URL = 'https://anchor.example/hook';
+  process.env.AUTOURA_WEBHOOK_SECRET = 'whsec_anchor';
+  delete process.env.AUTOURA_SILLAGE_WEBHOOK_URL;
+  delete process.env.AUTOURA_SILLAGE_WEBHOOK_SECRET;
+  const fb = resolveBrandEnv('sillage');
+  eq(fb.url, 'https://anchor.example/hook', 'sillage unset → anchor url');
+  eq(fb.routingTag, 'SILLAGE', 'sillage unset → tagged for the shared inbox');
+  eq(resolveBrandEnv('travel2egypt').routingTag, undefined, 'anchor brand → never tagged');
+  process.env.AUTOURA_SILLAGE_WEBHOOK_URL = 'https://sillage.example/hook';
+  process.env.AUTOURA_SILLAGE_WEBHOOK_SECRET = 'whsec_sillage';
+  const own = resolveBrandEnv('sillage');
+  eq(own.url, 'https://sillage.example/hook', 'sillage provisioned → own endpoint');
+  eq(own.routingTag, undefined, 'sillage provisioned → tag disappears');
+}
+
   console.log(`\nautoura deliver: ${pass} passed, ${fail} failed`);
   if (fail) process.exit(1);
 }

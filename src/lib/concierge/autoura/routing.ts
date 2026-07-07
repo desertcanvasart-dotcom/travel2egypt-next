@@ -26,6 +26,15 @@ const SUBBRAND_ENV_PREFIX: Record<Exclude<RoutedBrand, 'travel2egypt'>, string> 
 export interface BrandEnv {
   url: string | undefined;
   secret: string | undefined;
+  /**
+   * Set ONLY when a sub-brand brief is delivered via the anchor fallback:
+   * the shared inbox can't otherwise distinguish routed briefs (the wire
+   * payload deliberately carries no brand field), so the deliverer prefixes
+   * brief_summary with "[ROUTED: <TAG>]" for the team. Owner-approved
+   * 2026-07-07. Disappears automatically once the brand's own env pair is
+   * set (no fallback -> no tag), keeping real sub-brand endpoints clean.
+   */
+  routingTag?: string;
 }
 
 /** The default (anchor) Autoura endpoint — the original S9 env pair. */
@@ -44,5 +53,6 @@ export function resolveBrandEnv(brand: RoutedBrand): BrandEnv {
   const url = process.env[`${prefix}_WEBHOOK_URL`];
   const secret = process.env[`${prefix}_WEBHOOK_SECRET`];
   if (url && secret) return { url, secret };
-  return defaultEnv(); // not yet provisioned → deliver to the anchor for now
+  // Not yet provisioned → deliver to the anchor, tagged for the shared inbox.
+  return { ...defaultEnv(), routingTag: brand.toUpperCase() };
 }
