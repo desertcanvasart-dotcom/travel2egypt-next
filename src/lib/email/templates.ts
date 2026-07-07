@@ -338,6 +338,15 @@ export interface DigestEmailParams {
   >;
   topResponseTimes: Array<{ conversation_id: string; response_time_ms: number; created_at: string }>;
   tokenSummary: { inputTokens: number; outputTokens: number; messageCount: number };
+  /** Layer 3 — null until migration 0008 is applied (sections then say so). */
+  qualityScores: {
+    count: number;
+    avgPacing: number;
+    avgGrounding: number;
+    avgTone: number;
+    worstNote: string | null;
+  } | null;
+  cacheHit: { rate: number; turnsMeasured: number; alert: boolean } | null;
 }
 
 /**
@@ -416,6 +425,31 @@ export function digestEmail(p: DigestEmailParams): {
       <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Messages</td><td style="padding:3px 0;"><strong>${p.tokenSummary.messageCount.toLocaleString()}</strong></td></tr>
     </table>`;
 
+  const qualityHtml = !p.qualityScores
+    ? '<p style="font-size:14px;color:#5c6675;margin:0 0 16px;">Telemetry not enabled yet (migration 0008).</p>'
+    : p.qualityScores.count === 0
+      ? '<p style="font-size:14px;color:#5c6675;margin:0 0 16px;">No conversations sampled for this window.</p>'
+      : `<table style="border-collapse:collapse;font-size:14px;margin-bottom:8px;">
+          <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Sampled</td><td style="padding:3px 0;"><strong>${p.qualityScores.count}</strong></td></tr>
+          <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Pacing</td><td style="padding:3px 0;"><strong>${p.qualityScores.avgPacing}</strong> / 5</td></tr>
+          <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Grounding</td><td style="padding:3px 0;"><strong>${p.qualityScores.avgGrounding}</strong> / 5</td></tr>
+          <tr><td style="padding:3px 16px 3px 0;color:#5c6675;">Tone</td><td style="padding:3px 0;"><strong>${p.qualityScores.avgTone}</strong> / 5</td></tr>
+        </table>${
+          p.qualityScores.worstNote
+            ? `<p style="font-size:13px;color:#5c6675;margin:0 0 16px;">Lowest-scored note: ${esc(p.qualityScores.worstNote)}</p>`
+            : ''
+        }`;
+
+  const cacheHtml = !p.cacheHit
+    ? '<p style="font-size:14px;color:#5c6675;margin:0 0 16px;">Telemetry not enabled yet (migration 0008).</p>'
+    : `<p style="font-size:14px;margin:0 0 16px;">
+        Hit rate <strong>${(p.cacheHit.rate * 100).toFixed(1)}%</strong> across ${p.cacheHit.turnsMeasured} turns.${
+          p.cacheHit.alert
+            ? ' <strong style="color:#b3261e;">⚠ Below 50% — the cached v4.1 prefix may be invalidated (cost/latency spike). Check the deploy diff and usage logs.</strong>'
+            : ''
+        }
+      </p>`;
+
   const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
   <div style="max-width:640px;margin:0 auto;padding:24px;">
     <h2 style="font-size:18px;margin:0 0 4px;">Concierge digest — ${dayLabel}</h2>
@@ -430,6 +464,10 @@ export function digestEmail(p: DigestEmailParams): {
     ${topRtHtml}
     <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Token use</h3>
     ${tokensHtml}
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Quality sample (LLM judge)</h3>
+    ${qualityHtml}
+    <h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Prompt cache</h3>
+    ${cacheHtml}
     <p style="font-size:12px;color:#5c6675;margin:20px 0 0;">Admin panel: <a href="${PRODUCTION_URL}/admin" style="color:#1b4965;">${PRODUCTION_URL}/admin</a></p>
   </div>
 </body></html>`;
@@ -478,6 +516,18 @@ export function digestEmail(p: DigestEmailParams): {
     textTopRt,
     '',
     `Tokens: ${p.tokenSummary.inputTokens.toLocaleString()} in / ${p.tokenSummary.outputTokens.toLocaleString()} out · ${p.tokenSummary.messageCount} messages`,
+    '',
+    'Quality sample (LLM judge):',
+    !p.qualityScores
+      ? '  (telemetry not enabled — migration 0008)'
+      : p.qualityScores.count === 0
+        ? '  (none sampled)'
+        : `  ${p.qualityScores.count} sampled · pacing ${p.qualityScores.avgPacing}/5 · grounding ${p.qualityScores.avgGrounding}/5 · tone ${p.qualityScores.avgTone}/5${p.qualityScores.worstNote ? `\n  lowest-scored note: ${p.qualityScores.worstNote}` : ''}`,
+    '',
+    'Prompt cache:',
+    !p.cacheHit
+      ? '  (telemetry not enabled — migration 0008)'
+      : `  hit rate ${(p.cacheHit.rate * 100).toFixed(1)}% across ${p.cacheHit.turnsMeasured} turns${p.cacheHit.alert ? '\n  ⚠ BELOW 50% — cached v4.1 prefix may be invalidated; check deploy diff + usage logs' : ''}`,
   ].join('\n');
 
   return { subject, html, text };

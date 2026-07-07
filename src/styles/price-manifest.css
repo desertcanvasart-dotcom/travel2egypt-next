@@ -1,0 +1,180 @@
+/* ============================================================
+ * price-manifest.css — the attraction ticket table ("price manifest")
+ * on the ticket-price guide pages.
+ *
+ * v2 — surfaceless, ruled (price-manifest-mock-v2-integrated, the
+ * authoritative spec; supersedes v1's card treatment): no background
+ * fill, no outline, no component title. The manifest reads as a
+ * passage of the article — a 2px navy rule with the CHECKED stamp
+ * opens it, a second 2px rule closes it above the footnote prose.
+ *
+ * Scoped under .price-manifest; navy/gold pinned from the mock.
+ * ============================================================ */
+
+.price-manifest {
+  --pm-navy: #14243b;
+  --pm-gold: #a08a52;
+  --pm-display: var(--font-cormorant), Georgia, 'Times New Roman', serif;
+  --pm-ui: var(--font-source-serif-4), -apple-system, 'Helvetica Neue', sans-serif;
+
+  margin: 34px 0 38px;
+  color: var(--pm-navy);
+  font-family: var(--pm-display);
+}
+
+.price-manifest__top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  border-top: 2px solid var(--pm-navy);
+  padding-top: 8px;
+}
+.price-manifest__checked {
+  font-family: var(--pm-ui);
+  font-size: 9.5px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--pm-gold);
+}
+.price-manifest__checked b {
+  font-weight: 500;
+}
+
+.price-manifest__gov {
+  font-family: var(--pm-ui);
+  font-size: 10.5px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--pm-gold);
+  margin: 20px 0 2px;
+}
+
+.price-manifest table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.price-manifest thead th {
+  font-family: var(--pm-ui);
+  font-size: 9px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: rgba(20, 36, 59, 0.45);
+  font-weight: 500;
+  text-align: right;
+  padding: 9px 0 7px;
+  border-bottom: 1px solid rgba(20, 36, 59, 0.16);
+}
+.price-manifest thead th:first-child {
+  text-align: left;
+}
+.price-manifest tbody td {
+  padding: 11px 0 10px;
+  border-bottom: 1px solid rgba(20, 36, 59, 0.09);
+  vertical-align: baseline;
+}
+.price-manifest tbody tr:last-child td {
+  border-bottom: none;
+}
+.price-manifest .site {
+  font-size: 18px;
+  text-align: left;
+  padding-right: 16px;
+}
+.price-manifest .site .note {
+  display: block;
+  font-style: italic;
+  font-size: 13.5px;
+  color: rgba(20, 36, 59, 0.6);
+  margin-top: 1px;
+}
+.price-manifest .num {
+  font-size: 16.5px;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  padding-left: 18px;
+}
+.price-manifest .num .cur {
+  font-family: var(--pm-ui);
+  font-size: 9.5px;
+  letter-spacing: 0.06em;
+  color: rgba(20, 36, 59, 0.42);
+  margin-right: 3px;
+}
+.price-manifest .student {
+  color: rgba(20, 36, 59, 0.6);
+}
+.price-manifest .hours {
+  font-family: var(--pm-ui);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: rgba(20, 36, 59, 0.68);
+  text-align: right;
+  white-space: nowrap;
+  padding-left: 18px;
+}
+.price-manifest .dash {
+  color: rgba(20, 36, 59, 0.35);
+}
+
+.price-manifest__bottom {
+  border-top: 2px solid var(--pm-navy);
+  margin-top: 20px;
+  padding-top: 13px;
+}
+.price-manifest__bottom p {
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.55;
+  color: rgba(20, 36, 59, 0.72);
+  max-width: 64ch;
+  margin-bottom: 8px;
+}
+
+/* mobile: table collapses to stacked rows */
+@media (max-width: 560px) {
+  .price-manifest thead {
+    display: none;
+  }
+  .price-manifest tbody td {
+    display: block;
+    padding: 0;
+    border: none;
+    text-align: left;
+  }
+  .price-manifest tbody tr {
+    display: block;
+    padding: 11px 0;
+    border-bottom: 1px solid rgba(20, 36, 59, 0.09);
+  }
+  .price-manifest tbody tr:last-child {
+    border-bottom: none;
+  }
+  .price-manifest .site {
+    padding-right: 0;
+  }
+  .price-manifest .num,
+  .price-manifest .hours {
+    display: inline-block;
+    text-align: left;
+    padding: 4px 14px 0 0;
+  }
+  .price-manifest .num::before {
+    content: attr(data-label);
+    font-family: var(--pm-ui);
+    font-size: 8.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(20, 36, 59, 0.42);
+    display: block;
+  }
+  .price-manifest .hours::before {
+    content: 'Hours';
+    font-family: var(--pm-ui);
+    font-size: 8.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(20, 36, 59, 0.42);
+    display: block;
+  }
+}

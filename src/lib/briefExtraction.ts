@@ -126,6 +126,36 @@ const b = (v: unknown): boolean | null => (typeof v === 'boolean' ? v : null);
 const arr = (v: unknown): string[] =>
   Array.isArray(v) ? v.filter((x): x is string => typeof x === 'string') : [];
 
+/**
+ * Deterministic completeness enforcement (owner decisions, 2026-07-03).
+ *
+ * Two layers, both tighten-only (can flip true→false, never false→true, so
+ * this can never create a brief the model rejected):
+ *  1. The extraction prompt's rule 5 — trip substance (a destination, a
+ *     dates expression, or a trip length) must be present. The model
+ *     occasionally marked contact-only transcripts complete (harness
+ *     finding, 2/2 reps — eval fixture x-contact-no-trip).
+ *  2. The v4.1.1 contact policy — full name AND email AND phone are all
+ *     required ("at both layers" per Islam): the agent enforces it at the
+ *     wrap, and this guard enforces it at Gate 2. DELIBERATELY STRICTER
+ *     than rule 5's "name or email" — the prompt text stays untouched;
+ *     policy lives here. Consequence: if the extractor ever misses a phone
+ *     the visitor did give, the brief is held back (panel suppressed) —
+ *     accepted trade-off, chosen over near-empty leads reaching the team.
+ *
+ * Exported for the pure unit test (briefCompleteness.test.ts).
+ */
+export function passesCompletenessRule(b: BriefPayload): boolean {
+  const hasFullContact =
+    b.visitor.name !== null && b.visitor.email !== null && b.visitor.phone !== null;
+  const hasTripSubstance =
+    b.trip.destinations.length > 0 ||
+    b.trip.dates_specific !== null ||
+    b.trip.dates_window !== null ||
+    b.trip.length_days !== null;
+  return hasFullContact && hasTripSubstance;
+}
+
 /** Fill omitted fields so the result is always a complete BriefPayload. */
 function normalizeBrief(raw: RawBrief): BriefPayload {
   const v = raw.visitor ?? {};
@@ -133,7 +163,7 @@ function normalizeBrief(raw: RawBrief): BriefPayload {
   const p = raw.preferences ?? {};
   const c = raw.constraints ?? {};
   const pc = s(v.preferred_contact);
-  return {
+  const brief: BriefPayload = {
     complete: raw.complete === true,
     visitor: {
       name: s(v.name),
@@ -173,6 +203,13 @@ function normalizeBrief(raw: RawBrief): BriefPayload {
     routed_brand: coerceBrand(raw.routed_brand),
     routing_reason: s(raw.routing_reason),
   };
+  if (brief.complete && !passesCompletenessRule(brief)) {
+    console.warn(
+      '[concierge] extraction marked complete but completeness guard fails (rule 5 / v4.1.1 contact trio) — forcing false',
+    );
+    brief.complete = false;
+  }
+  return brief;
 }
 
 export interface ExtractionMessage {

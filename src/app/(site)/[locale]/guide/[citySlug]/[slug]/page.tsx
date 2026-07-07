@@ -3,9 +3,16 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
+import '@/styles/climate-signature.css';
+import '@/styles/price-manifest.css';
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
+import ClimateSignature from '@/components/climate/ClimateSignature';
+import { climateData } from '@/data/climate';
+import PriceManifest from '@/components/prices/PriceManifest';
+import { splitPriceRegion } from '@/components/prices/splitPriceRegion';
+import { priceData } from '@/data/prices';
 import {
   buildBreadcrumbList,
   buildGuideArticleSchema,
@@ -99,6 +106,16 @@ export default async function GuideArticlePage({ params }: Props) {
     ? urlFor(article.heroImage).width(1800).height(900).quality(85).url()
     : null;
 
+  // Weather-page hero: the climate signature. Gated on the structural
+  // `kind === 'climate'` discriminator AND an existing per-city data entry
+  // AND locale === 'en' (ES/JA keep their current hero until the localized
+  // editorial batch lands). A city with no data entry falls through to the
+  // existing photo-hero branch unchanged; non-weather articles never match.
+  const climate =
+    article.kind === 'climate' && locale === 'en'
+      ? climateData[citySlug]
+      : undefined;
+
   const sectionLabel = article.section
     ? tSections(SECTION_LABEL_KEYS[article.section] ?? 'others')
     : null;
@@ -163,17 +180,30 @@ export default async function GuideArticlePage({ params }: Props) {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <Breadcrumb items={breadcrumbItems} className="mb-8" />
 
-        {heroUrl && (
-          <div className="relative mb-10 aspect-[2/1] w-full overflow-hidden rounded-lg bg-cream-deep">
-            <Image
-              src={heroUrl}
-              alt={article.heroImage?.alt || article.title}
-              fill
-              priority
-              className="object-cover"
-              sizes="(max-width: 1024px) 100vw, 1200px"
+        {/* Weather pages (EN): climate signature. Otherwise the photo hero. */}
+        {climate ? (
+          <div className="mb-10">
+            <ClimateSignature
+              title={article.title}
+              cityName={article.parentCity.name}
+              record={climate}
+              copy={{ ...climate.editorial.en, rainLabel: 'RAIN DAYS' }}
+              locale={locale}
             />
           </div>
+        ) : (
+          heroUrl && (
+            <div className="relative mb-10 aspect-[2/1] w-full overflow-hidden rounded-lg bg-cream-deep">
+              <Image
+                src={heroUrl}
+                alt={article.heroImage?.alt || article.title}
+                fill
+                priority
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 1200px"
+              />
+            </div>
+          )
         )}
 
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_320px]">
@@ -200,11 +230,51 @@ export default async function GuideArticlePage({ params }: Props) {
                 {article.summary}
               </p>
             )}
-            {article.body && (
-              <div className="prose-editorial max-w-none">
-                <Body value={article.body} locale={locale as Locale} />
-              </div>
-            )}
+            {(() => {
+              // Ticket-price pages (verified data present): suppress the
+              // legacy flattened price bullets at RENDER time and put the
+              // PriceManifest in their place. No Sanity content is touched;
+              // pages without a priceData entry render exactly as before.
+              // Locale gate: 'en' for legacy pages (ES/JA keep bullets until
+              // their batch); 'all' for pages created for the manifest.
+              const candidate = priceData[article._id];
+              const pricePage =
+                candidate &&
+                (candidate.localeGate === 'all' || locale === 'en')
+                  ? candidate
+                  : undefined;
+              const split =
+                pricePage && article.body
+                  ? splitPriceRegion(article.body)
+                  : null;
+              if (pricePage && split?.found) {
+                return (
+                  <div className="prose-editorial max-w-none">
+                    <Body value={split.before} locale={locale as Locale} />
+                    <PriceManifest page={pricePage} />
+                    <Body value={split.after} locale={locale as Locale} />
+                  </div>
+                );
+              }
+              if (pricePage) {
+                // No legacy bullet region (a page created for the manifest,
+                // or a locale whose body lacks the bullets): body first if
+                // any, manifest after.
+                return (
+                  <div className="prose-editorial max-w-none">
+                    {article.body && (
+                      <Body value={article.body} locale={locale as Locale} />
+                    )}
+                    <PriceManifest page={pricePage} />
+                  </div>
+                );
+              }
+              return article.body ? (
+                <div className="prose-editorial max-w-none">
+                  <Body value={article.body} locale={locale as Locale} />
+                </div>
+              ) : null;
+            })()}
           </div>
 
           <aside className="lg:sticky lg:top-24 lg:self-start">

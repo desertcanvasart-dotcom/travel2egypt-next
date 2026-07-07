@@ -55,6 +55,8 @@ export async function GET(req: NextRequest) {
       ),
       topResponseTimesCount: stats.topResponseTimes.length,
       tokens: stats.tokenSummary,
+      qualityScores: stats.qualityScores,
+      cacheHit: stats.cacheHit,
     });
   } catch (err) {
     console.error('[admin] digest failed:', err);

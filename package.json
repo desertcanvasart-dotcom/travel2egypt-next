@@ -28,6 +28,9 @@
     "test:reconcile": "tsx scripts/wp-import/__tests__/reconcile-places-to-go.test.ts",
     "test:linkmap": "tsx src/lib/linkMap/__tests__/guard.test.ts && tsx src/lib/linkMap/__tests__/match.test.ts && tsx src/lib/linkMap/__tests__/wrap.test.ts",
     "test:autoura": "tsx src/lib/concierge/autoura/__tests__/sign.test.ts && tsx src/lib/concierge/autoura/__tests__/stateMachine.test.ts && tsx src/lib/concierge/autoura/__tests__/payload.test.ts && tsx src/lib/concierge/autoura/__tests__/deliver.test.ts",
+    "test:markers": "tsx src/lib/__tests__/briefDetection.test.ts && tsx src/lib/__tests__/abuseDetection.test.ts && tsx src/lib/__tests__/briefCompleteness.test.ts",
+    "test:concierge": "npm run test:markers && npm run test:autoura",
+    "eval:concierge": "tsx scripts/concierge-eval/run.ts",
     "seed:link-map": "tsx scripts/seed-concierge-link-map.ts"
   },
   "dependencies": {

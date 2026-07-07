@@ -17,6 +17,62 @@ import { BlockContentIcon, ImageIcon, LinkIcon } from '@sanity/icons';
  * enhancement: allow embedding wikiPerson / wikiMonument cards inline so
  * editors can drop "see more on Hatshepsut" inline references.
  */
+/**
+ * Inline link annotations shared by every rich-text body. Also used by
+ * `localizedPortableTextField` in _helpers.ts: guide-article body DATA has
+ * carried internalLink/externalLink markDefs since the WP import, but that
+ * field's schema never declared them, so Studio rendered the text without
+ * any link styling and editors could not see or edit the links.
+ */
+export const linkAnnotations = [
+  {
+    name: 'externalLink',
+    title: 'External link',
+    type: 'object',
+    icon: LinkIcon,
+    fields: [
+      defineField({
+        name: 'href',
+        title: 'URL',
+        type: 'url',
+        validation: (Rule) => Rule.uri({ scheme: ['http', 'https', 'mailto', 'tel'] }),
+      }),
+      defineField({
+        name: 'newTab',
+        title: 'Open in new tab',
+        type: 'boolean',
+        initialValue: true,
+      }),
+    ],
+  },
+  {
+    name: 'internalLink',
+    title: 'Internal link',
+    type: 'object',
+    icon: LinkIcon,
+    fields: [
+      defineField({
+        name: 'reference',
+        title: 'Linked document',
+        type: 'reference',
+        to: [
+          { type: 'city' },
+          { type: 'guideArticle' },
+          { type: 'tour' },
+          { type: 'travelTip' },
+          { type: 'article' },
+          { type: 'wikiPerson' },
+          { type: 'wikiMonument' },
+          { type: 'wikiDynasty' },
+          { type: 'wikiDeity' },
+          { type: 'hotel' },
+          { type: 'nileCruise' },
+        ],
+      }),
+    ],
+  },
+];
+
 export const portableTextBlocks = defineField({
   name: 'body',
   title: 'Body',
@@ -41,55 +97,7 @@ export const portableTextBlocks = defineField({
           { title: 'Italic', value: 'em' },
           { title: 'Underline', value: 'underline' },
         ],
-        annotations: [
-          {
-            name: 'externalLink',
-            title: 'External link',
-            type: 'object',
-            icon: LinkIcon,
-            fields: [
-              defineField({
-                name: 'href',
-                title: 'URL',
-                type: 'url',
-                validation: (Rule) =>
-                  Rule.uri({ scheme: ['http', 'https', 'mailto', 'tel'] }),
-              }),
-              defineField({
-                name: 'newTab',
-                title: 'Open in new tab',
-                type: 'boolean',
-                initialValue: true,
-              }),
-            ],
-          },
-          {
-            name: 'internalLink',
-            title: 'Internal link',
-            type: 'object',
-            icon: LinkIcon,
-            fields: [
-              defineField({
-                name: 'reference',
-                title: 'Linked document',
-                type: 'reference',
-                to: [
-                  { type: 'city' },
-                  { type: 'guideArticle' },
-                  { type: 'tour' },
-                  { type: 'travelTip' },
-                  { type: 'article' },
-                  { type: 'wikiPerson' },
-                  { type: 'wikiMonument' },
-                  { type: 'wikiDynasty' },
-                  { type: 'wikiDeity' },
-                  { type: 'hotel' },
-                  { type: 'nileCruise' },
-                ],
-              }),
-            ],
-          },
-        ],
+        annotations: linkAnnotations,
       },
     }),
     defineArrayMember({

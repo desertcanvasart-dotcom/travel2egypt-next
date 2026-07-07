@@ -13,6 +13,7 @@
 
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
+import { getPathname } from '@/i18n/navigation';
 import { siteUrlBase } from './path-from-doc';
 
 const SITE_NAME = 'Travel2Egypt';
@@ -44,8 +45,14 @@ function imageUrlOrUndefined(
 }
 
 function absoluteUrl(path: string, locale: Locale): string {
-  const localePrefix = locale === 'en' ? '' : `/${locale}`;
-  return `${SITE_URL}${localePrefix}${path}`;
+  // getPathname applies the locale prefix (as-needed) AND localized pathnames
+  // (the journey leaves in routing.ts), aligning JSON-LD URLs with the
+  // canonical tag and sitemap, which already build through getPathname.
+  // Byte-identical to the previous prefix+path construction for
+  // identity-mapped and unknown (Sanity-slug) paths; the home path now emits
+  // /es and /ja without the trailing slash, matching canonical/sitemap
+  // (owner-accepted correction — breadcrumbs were the one disagreeing signal).
+  return `${SITE_URL}${getPathname({ href: path, locale })}`;
 }
 
 // ─────────────────────────────────────────────────────────
