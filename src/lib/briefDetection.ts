@@ -57,6 +57,13 @@ export const EN_MARKERS: string[] = [
   'team will be back to you', //   v4.2 calibration (2026-07-07 eval run v42-reconcile,
   //                               en-luxury-cues live wrap: "The team will be back to
   //                               you by this evening" — same commitment, "be" for "come")
+  'before 1 p.m. cairo', //        v4.2 calibration (2026-07-07 runs v42-reconcile+rev2,
+  //                               3 personas): the model recites the cutoff — "Requests
+  //                               received before 1 p.m. Cairo time are answered the
+  //                               same day by 8 p.m." — attaching "Cairo" to the cutoff,
+  //                               not the promise, so the by-8/by-10 markers miss.
+  'get this to the team', //       v4.2 calibration (run v42-rev2, 3 personas): "I'll
+  //                               get this to the team immediately" — pass-to-team variant.
   'by 8 p.m. cairo', //            L143 same-day commitment ("answered the same day by 8 p.m.")
   'by 10 a.m. cairo', //           L143 next-morning commitment
 ];

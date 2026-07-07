@@ -46,6 +46,11 @@ const EN_WRAPS: string[] = [
   // (en-luxury-cues): the commitment with "be" instead of "come", and the
   // Cairo-time figures restructured onto the cutoff rather than the promise.
   "The team will be back to you by this evening if you're reading this before 1 p.m. Cairo time, or first thing tomorrow morning if not.",
+  // v4.2 calibration — real commitment recital (runs v42-reconcile + v42-rev2,
+  // en-simple-transfer wrap): "Cairo time" rides the cutoff, not the promise.
+  'Requests received before 1 p.m. Cairo time are answered the same day by 8 p.m. Since it\'s coming in now, the team will confirm timing when they respond.',
+  // v4.2 calibration — real pass-to-team variant (run v42-rev2, en-multi-destination).
+  "Almost there — just your partner's name and I'll get this to the team immediately.",
 ];
 for (const [i, text] of EN_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), true, `EN wrap #${i + 1} fires`);
