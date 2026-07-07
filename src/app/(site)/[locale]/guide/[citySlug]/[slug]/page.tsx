@@ -4,11 +4,15 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
 import '@/styles/climate-signature.css';
+import '@/styles/price-manifest.css';
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
 import ClimateSignature from '@/components/climate/ClimateSignature';
 import { climateData } from '@/data/climate';
+import PriceManifest from '@/components/prices/PriceManifest';
+import { splitPriceRegion } from '@/components/prices/splitPriceRegion';
+import { priceData } from '@/data/prices';
 import {
   buildBreadcrumbList,
   buildGuideArticleSchema,
@@ -226,11 +230,32 @@ export default async function GuideArticlePage({ params }: Props) {
                 {article.summary}
               </p>
             )}
-            {article.body && (
-              <div className="prose-editorial max-w-none">
-                <Body value={article.body} locale={locale as Locale} />
-              </div>
-            )}
+            {article.body &&
+              (() => {
+                // Ticket-price pages (EN, verified data present): suppress the
+                // legacy flattened price bullets at RENDER time and put the
+                // PriceManifest in their place. No Sanity content is touched;
+                // pages without a priceData entry render exactly as before.
+                const pricePage =
+                  locale === 'en' ? priceData[article._id] : undefined;
+                const split = pricePage
+                  ? splitPriceRegion(article.body)
+                  : null;
+                if (pricePage && split?.found) {
+                  return (
+                    <div className="prose-editorial max-w-none">
+                      <Body value={split.before} locale={locale as Locale} />
+                      <PriceManifest page={pricePage} />
+                      <Body value={split.after} locale={locale as Locale} />
+                    </div>
+                  );
+                }
+                return (
+                  <div className="prose-editorial max-w-none">
+                    <Body value={article.body} locale={locale as Locale} />
+                  </div>
+                );
+              })()}
           </div>
 
           <aside className="lg:sticky lg:top-24 lg:self-start">
