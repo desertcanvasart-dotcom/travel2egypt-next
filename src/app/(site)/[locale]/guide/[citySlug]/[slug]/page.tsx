@@ -230,32 +230,51 @@ export default async function GuideArticlePage({ params }: Props) {
                 {article.summary}
               </p>
             )}
-            {article.body &&
-              (() => {
-                // Ticket-price pages (EN, verified data present): suppress the
-                // legacy flattened price bullets at RENDER time and put the
-                // PriceManifest in their place. No Sanity content is touched;
-                // pages without a priceData entry render exactly as before.
-                const pricePage =
-                  locale === 'en' ? priceData[article._id] : undefined;
-                const split = pricePage
+            {(() => {
+              // Ticket-price pages (verified data present): suppress the
+              // legacy flattened price bullets at RENDER time and put the
+              // PriceManifest in their place. No Sanity content is touched;
+              // pages without a priceData entry render exactly as before.
+              // Locale gate: 'en' for legacy pages (ES/JA keep bullets until
+              // their batch); 'all' for pages created for the manifest.
+              const candidate = priceData[article._id];
+              const pricePage =
+                candidate &&
+                (candidate.localeGate === 'all' || locale === 'en')
+                  ? candidate
+                  : undefined;
+              const split =
+                pricePage && article.body
                   ? splitPriceRegion(article.body)
                   : null;
-                if (pricePage && split?.found) {
-                  return (
-                    <div className="prose-editorial max-w-none">
-                      <Body value={split.before} locale={locale as Locale} />
-                      <PriceManifest page={pricePage} />
-                      <Body value={split.after} locale={locale as Locale} />
-                    </div>
-                  );
-                }
+              if (pricePage && split?.found) {
                 return (
                   <div className="prose-editorial max-w-none">
-                    <Body value={article.body} locale={locale as Locale} />
+                    <Body value={split.before} locale={locale as Locale} />
+                    <PriceManifest page={pricePage} />
+                    <Body value={split.after} locale={locale as Locale} />
                   </div>
                 );
-              })()}
+              }
+              if (pricePage) {
+                // No legacy bullet region (a page created for the manifest,
+                // or a locale whose body lacks the bullets): body first if
+                // any, manifest after.
+                return (
+                  <div className="prose-editorial max-w-none">
+                    {article.body && (
+                      <Body value={article.body} locale={locale as Locale} />
+                    )}
+                    <PriceManifest page={pricePage} />
+                  </div>
+                );
+              }
+              return article.body ? (
+                <div className="prose-editorial max-w-none">
+                  <Body value={article.body} locale={locale as Locale} />
+                </div>
+              ) : null;
+            })()}
           </div>
 
           <aside className="lg:sticky lg:top-24 lg:self-start">

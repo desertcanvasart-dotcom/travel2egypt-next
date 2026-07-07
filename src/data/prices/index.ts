@@ -28,6 +28,13 @@ export interface PricePage {
   /** The verification stamp value — owner-supplied. */
   checked: string;
   sections: Array<{ kicker: string; rows: PriceRow[] }>;
+  /**
+   * 'en' (default): manifest renders on EN only — legacy pages keep their
+   * ES/JA bullet rendering until the localized editorial batch.
+   * 'all': pages CREATED for the manifest (no legacy body in any locale) —
+   * an EN-chrome table beats a blank page; chrome localizes with the batch.
+   */
+  localeGate?: 'en' | 'all';
 }
 
 export const priceData: Record<string, PricePage> = {
@@ -198,6 +205,37 @@ export const priceData: Record<string, PricePage> = {
       ] },
     ],
   },
+  // ── Pages created FOR the manifest 2026-07-07 (no legacy body; owner
+  //    instruction "let's add Esna, Edfu & Siwa only"). Kickers name the
+  //    sites' actual governorates. localeGate 'all' — see PricePage docs. ──
+  'guideArticle.esna.ticket-prices-for-attractions-in-esna': {
+    checked: 'July 2026',
+    localeGate: 'all',
+    sections: [
+      { kicker: 'Luxor Governorate', rows: [
+        { site: 'Esna Temple', adult: '250', student: '150' },
+      ] },
+    ],
+  },
+  'guideArticle.edfu.ticket-prices-for-attractions-in-edfu': {
+    checked: 'July 2026',
+    localeGate: 'all',
+    sections: [
+      { kicker: 'Aswan Governorate', rows: [
+        { site: 'The Temple Of Horus', adult: '600', student: '325' },
+      ] },
+    ],
+  },
+  'guideArticle.siwa-oasis.ticket-prices-for-attractions-in-siwa': {
+    checked: 'July 2026',
+    localeGate: 'all',
+    sections: [
+      { kicker: 'Matrouh Governorate', rows: [
+        { site: 'Temple of Aghurmi in Siwa', adult: '170', student: '110' },
+        { site: 'Tombs of Gabal al-Mawta', adult: '170', student: '110' },
+      ] },
+    ],
+  },
 };
 
 /* Verified rows for cities with NO price page yet (kept for the record —
@@ -206,12 +244,8 @@ export const priceData: Record<string, PricePage> = {
 export const unplacedRows: Array<PriceRow & { city: string }> = [
   { site: 'Sharm El Sheikh Museum', adult: '250', student: '150', city: 'sharm-el-sheikh' },
   { site: 'Hurghada Museum', adult: '350', student: '200', city: 'hurghada' },
-  { site: 'Esna Temple', adult: '250', student: '150', city: 'esna' },
-  { site: 'The Temple Of Horus', adult: '600', student: '325', city: 'edfu' },
   { site: 'Suez canal Museum', adult: '350', student: '200', city: 'ismailia' },
   { site: 'Rosetta City Monuments', adult: '170', student: '110', city: 'rossetta' },
   { site: 'Kafr al-Sheikh Museum', adult: '270', student: '160', city: 'kafr el-shiekh' },
   { site: 'Tanis (San al-Hagar)', adult: '170', student: '110', city: 'al-sharqia' },
-  { site: 'Temple of Aghurmi in Siwa', adult: '170', student: '110', city: 'siwa' },
-  { site: 'Tombs of Gabal al-Mawta', adult: '170', student: '110', city: 'siwa' },
 ];
