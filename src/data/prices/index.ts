@@ -50,6 +50,7 @@ export const priceData: Record<string, PricePage> = {
         { site: 'Ancient Roman Theatre', adult: '250', student: '150', hours: '09:00 – 16:00' },
         { site: 'Royal Jewellery Museum', adult: '270', student: '160', hours: '09:00 – 16:00' },
         { site: 'Graeco-Roman Museum', adult: '450', student: '250', hours: '09:00 – 16:00' },
+        { site: 'Bibliotheca Alexandrina', adult: '300', student: '120', hours: 'Sat & Sun 10:00 – 13:30 · Mon–Thu 10:00 – 17:00', note: 'Closed Fridays.' },
       ] },
     ],
   },
@@ -66,8 +67,8 @@ export const priceData: Record<string, PricePage> = {
         { site: 'Tuna el-Gebel', adult: '250', student: '150', hours: '08:00 – 16:00' },
       ] },
       { kicker: 'Asyut Governorate', rows: [
-        { site: 'Meir Monumental Tombs', adult: '150', student: '100' },
-        { site: 'Alhammamya Tombs', adult: '150', student: '100', hours: '07:00 – 17:00' },
+        { site: 'Meir Monumental Tombs', adult: '150', student: '100', hours: '08:00 – 16:00' },
+        { site: 'Alhammamya Tombs', adult: '150', student: '100', hours: '08:00 – 16:00' },
       ] },
     ],
   },
