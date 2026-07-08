@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import '@/styles/climate-signature.css';
 import '@/styles/price-manifest.css';
-import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromParentAndSlug } from '@/lib/seo';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
 import ClimateSignature from '@/components/climate/ClimateSignature';
@@ -43,9 +43,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return buildMetadata(article, {
     locale: locale as Locale,
     path: `/guide/${citySlug}/${slug}`,
-    pathByLocale: pathByLocaleFromSlugs(
+    // Each locale's alternate uses that locale's city slug AND article slug —
+    // the parent /guide/<citySlug> segment is localized too, so it must not be
+    // pinned to the current request's citySlug.
+    pathByLocale: pathByLocaleFromParentAndSlug(
+      article.parentCity?.allSlugs,
       article.allSlugs,
-      (s: string) => `/guide/${citySlug}/${s}`
+      (city: string, s: string) => `/guide/${city}/${s}`
     ),
   });
 }
