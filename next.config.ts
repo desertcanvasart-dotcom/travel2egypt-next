@@ -1,3 +1,4 @@
+import { withSentryConfig } from '@sentry/nextjs';
 import type { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
 
@@ -40,4 +41,20 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withNextIntl(nextConfig);
+// Sentry (Session 11). The build-time plugin is intentionally conservative and
+// dormant: source-map upload only runs when SENTRY_AUTH_TOKEN + org/project are
+// set (owner supplies at launch), telemetry is off, and logging is quiet. With
+// no auth token the wrap is effectively inert, so the build stays warning-clean.
+// Runtime error capture is driven separately by the Sentry.init configs
+// (instrumentation.ts / instrumentation-client.ts) and needs only SENTRY_DSN.
+export default withSentryConfig(withNextIntl(nextConfig), {
+  org: process.env.SENTRY_ORG,
+  project: process.env.SENTRY_PROJECT,
+  // Quiet build logs; no Sentry build telemetry.
+  silent: !process.env.CI,
+  telemetry: false,
+  // Tree-shake Sentry's internal debug-logging out of the client bundle.
+  bundleSizeOptimizations: { excludeDebugStatements: true },
+  // Do not widen client file upload (keeps upload scope minimal when enabled).
+  widenClientFileUpload: false,
+});

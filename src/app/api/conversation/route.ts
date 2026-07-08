@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { assertSameOrigin } from '@/lib/http/sameOrigin';
+
 import { ensureSession, sessionCookie } from '@/lib/concierge/session';
 import { conciergeDb } from '@/lib/supabase/server';
 
@@ -67,6 +69,9 @@ export async function GET(req: NextRequest) {
 }
 
 export async function POST(req: NextRequest) {
+  const crossOrigin = assertSameOrigin(req);
+  if (crossOrigin) return crossOrigin;
+
   let locale: string | undefined;
   try {
     const body = (await req.json()) as { locale?: unknown };
