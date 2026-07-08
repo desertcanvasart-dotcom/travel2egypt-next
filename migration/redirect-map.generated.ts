@@ -11118,6 +11118,21 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/wiki/monuments/madrassa-mausoleum-of-qalawun",
+    "destination": "/guide/cairo/madrassa-mausoleum-of-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/wiki/monuments/madraza-y-mausoleo-de-qalawun",
+    "destination": "/es/guide/el-cairo/madraza-y-mausoleo-de-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/カラーウーンのマドラサと霊廟",
+    "destination": "/ja/guide/kairo/karaun-no-madorasa-to-reibyo",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
@@ -13980,21 +13995,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/wiki/monuments/サーリフ・ナジュム・エッディーン・アイユーブ",
     "destination": "/ja/guide/cairo/サーリフ・ナジュム・エッディーン・アイユーブ",
-    "permanent": true
-  },
-  {
-    "source": "/wiki/monuments/madrassa-mausoleum-of-qalawun",
-    "destination": "/guide/cairo/madrassa-mausoleum-of-qalawun",
-    "permanent": true
-  },
-  {
-    "source": "/es/wiki/monuments/madraza-y-mausoleo-de-qalawun",
-    "destination": "/es/guide/cairo/madraza-y-mausoleo-de-qalawun",
-    "permanent": true
-  },
-  {
-    "source": "/ja/wiki/monuments/カラーウーンのマドラサと霊廟",
-    "destination": "/ja/guide/cairo/カラーウーンのマドラサと霊廟",
     "permanent": true
   },
   {
