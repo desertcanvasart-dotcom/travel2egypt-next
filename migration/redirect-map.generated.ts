@@ -11138,6 +11138,21 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/ticket-prices-for-attractions-in-al-sharqia",
+    "destination": "/guide/cairo/ticket-prices-for-attractions-in-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ticket-prices-for-attractions-in-western-desert",
+    "destination": "/guide/siwa-oasis/ticket-prices-for-attractions-in-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/ticket-prices-for-attractions-in-red-sea-sinai",
+    "destination": "/guide/cairo/ticket-prices-for-attractions-in-cairo",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
