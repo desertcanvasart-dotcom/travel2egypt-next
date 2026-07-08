@@ -248,3 +248,28 @@ export function pathByLocaleFromSlugs(
   }
   return out;
 }
+
+/**
+ * Like `pathByLocaleFromSlugs`, but for routes with a LOCALIZED PARENT segment
+ * — e.g. guide articles at `/guide/<citySlug>/<slug>`. Each locale's alternate
+ * must use THAT locale's city slug AND that locale's article slug (both falling
+ * back to `en`), not the current request's city slug. Passing only the article
+ * slugs (as `pathByLocaleFromSlugs` does) pins the parent segment to the current
+ * locale, so every hreflang alternate points at the wrong city path.
+ */
+export function pathByLocaleFromParentAndSlug(
+  parentSlugs: Array<{ _key: string; current: string }> | null | undefined,
+  childSlugs: Array<{ _key: string; current: string }> | null | undefined,
+  buildPath: (parentSlug: string, childSlug: string) => string
+): Partial<Record<Locale, string>> {
+  if (!parentSlugs || !childSlugs) return {};
+  const enParent = parentSlugs.find((s) => s._key === 'en')?.current;
+  const enChild = childSlugs.find((s) => s._key === 'en')?.current;
+  const out: Partial<Record<Locale, string>> = {};
+  for (const loc of routing.locales) {
+    const parent = parentSlugs.find((s) => s._key === loc)?.current ?? enParent;
+    const child = childSlugs.find((s) => s._key === loc)?.current ?? enChild;
+    if (parent && child) out[loc as Locale] = buildPath(parent, child);
+  }
+  return out;
+}
