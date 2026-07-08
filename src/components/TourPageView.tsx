@@ -127,58 +127,41 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
       <JsonLd data={[tripSchema, breadcrumbSchema]} />
 
       {/* ── Hero ────────────────────────────────────────────────────────── */}
-      {heroUrl ? (
-        <header className="relative h-[58vh] min-h-[440px] w-full overflow-hidden bg-limestone-deep">
-          <Image
-            src={heroUrl}
-            alt={tour.heroImage?.alt ?? ''}
-            fill
-            priority
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-night/55 via-night/15 to-transparent" />
-          <div className="absolute inset-x-0 bottom-0">
-            <div className="mx-auto max-w-[820px] px-6 pb-14 md:pb-20">
-              {eyebrow && (
-                <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand">
-                  <Link href={eyebrow.href} className="hover:text-paper">
-                    {eyebrow.label}
-                  </Link>
-                </p>
-              )}
-              <h1 className="max-w-[20ch] font-serif text-[clamp(2.5rem,5.5vw,4.5rem)] font-normal leading-[1.05] tracking-[-0.01em] text-paper">
-                {tour.title}
-              </h1>
-              {tour.summary && (
-                <p className="mt-6 max-w-[36em] font-serif text-[1.25rem] italic leading-[1.5] text-paper/85 md:text-[1.4rem]">
-                  {tour.summary}
-                </p>
-              )}
-            </div>
+      {/* Hero: contained 2:1 rounded image (matches the guide-article hero),
+          title + summary below it — not overlaid. */}
+      {heroUrl && (
+        <div className="mx-auto max-w-7xl px-6 pt-12">
+          <div className="relative aspect-[2/1] w-full overflow-hidden rounded-lg bg-limestone-deep">
+            <Image
+              src={heroUrl}
+              alt={tour.heroImage?.alt ?? ''}
+              fill
+              priority
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 1200px"
+            />
           </div>
-        </header>
-      ) : (
-        <header className="border-b border-rule">
-          <div className="mx-auto max-w-[820px] px-6 pb-12 pt-24 md:pt-32">
-            {eyebrow && (
-              <p className="mb-5 font-sans text-xs font-medium uppercase tracking-[0.18em] text-night-soft">
-                <Link href={eyebrow.href} className="hover:text-ink">
-                  {eyebrow.label}
-                </Link>
-              </p>
-            )}
-            <h1 className="max-w-[20ch] font-serif text-[clamp(2.5rem,5.5vw,4.5rem)] font-normal leading-[1.05] tracking-[-0.01em] text-ink">
-              {tour.title}
-            </h1>
-            {tour.summary && (
-              <p className="mt-6 max-w-[36em] font-serif text-[1.25rem] italic leading-[1.5] text-night-soft md:text-[1.4rem]">
-                {tour.summary}
-              </p>
-            )}
-          </div>
-        </header>
+        </div>
       )}
+      <header className={heroUrl ? '' : 'border-b border-rule'}>
+        <div className={`mx-auto max-w-[820px] px-6 ${heroUrl ? 'pb-2 pt-10' : 'pb-12 pt-24 md:pt-32'}`}>
+          {eyebrow && (
+            <p className="mb-5 font-sans text-xs font-medium uppercase tracking-[0.18em] text-night-soft">
+              <Link href={eyebrow.href} className="hover:text-ink">
+                {eyebrow.label}
+              </Link>
+            </p>
+          )}
+          <h1 className="max-w-[20ch] font-serif text-[clamp(2.5rem,5.5vw,4.5rem)] font-normal leading-[1.05] tracking-[-0.01em] text-ink">
+            {tour.title}
+          </h1>
+          {tour.summary && (
+            <p className="mt-6 max-w-[36em] font-serif text-[1.25rem] italic leading-[1.5] text-night-soft md:text-[1.4rem]">
+              {tour.summary}
+            </p>
+          )}
+        </div>
+      </header>
 
       {/* ── Body — single editorial column ──────────────────────────────── */}
       <div className="mx-auto max-w-[820px] px-6 py-16 md:py-24">

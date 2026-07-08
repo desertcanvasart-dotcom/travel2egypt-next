@@ -436,7 +436,7 @@
 .lvl-single .head-meta .m { display: flex; flex-direction: column; gap: 4px; }
 .lvl-single .head-meta small { font-family: var(--ui); font-size: 10px; letter-spacing: .14em; text-transform: uppercase; color: var(--navy-mute); }
 .lvl-single .head-meta strong { font-family: var(--display); font-size: 19px; font-weight: 400; color: var(--navy); }
-.lvl-single .feature { margin: 40px 0 0; aspect-ratio: 3/2; position: relative; }
+.lvl-single .feature { margin: 40px 0 0; aspect-ratio: 2/1; position: relative; border-radius: 8px; overflow: hidden; }
 /* The feature figure carries the aspect box; its JourneyImage child fills it
    (otherwise the inner .t2e-visual collapses to 0 height and the image/placeholder
    never shows). */
