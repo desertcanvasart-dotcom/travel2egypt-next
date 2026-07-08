@@ -11118,6 +11118,26 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/ja/9-day-egypt-group-tour-cairo-abu-simbel-nile",
+    "destination": "/ja/9-nichikan-ejiputo-gurupu-tsua-kairo-abu-shin-beru-nairu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/10-day-egypt-group-tour-cairo-nile-red-sea",
+    "destination": "/ja/10-nichikan-ejiputo-gurupu-tsua-kairo-nairu-kokai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/11-day-egypt-group-tour-cairo-red-sea-nile",
+    "destination": "/ja/11-nichikan-ejiputo-gurupu-tsua-kairo-kokai-nairu",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-tours",
+    "destination": "/es/viajes-a-egipto-desde-el-reino-unido",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
