@@ -2,6 +2,8 @@ import Anthropic from '@anthropic-ai/sdk';
 import { getTranslations } from 'next-intl/server';
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { assertSameOrigin } from '@/lib/http/sameOrigin';
+
 import type { Locale } from '@/i18n/routing';
 import { detectAbuse, primaryCategory } from '@/lib/abuseDetection';
 import { detectBriefMarkers } from '@/lib/briefDetection';
@@ -138,6 +140,9 @@ async function cannedWrapResponse(
 }
 
 export async function POST(req: NextRequest) {
+  const crossOrigin = assertSameOrigin(req);
+  if (crossOrigin) return crossOrigin;
+
   let body: ChatBody;
   try {
     body = (await req.json()) as ChatBody;

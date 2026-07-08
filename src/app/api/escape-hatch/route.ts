@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { assertSameOrigin } from '@/lib/http/sameOrigin';
+
 import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession } from '@/lib/concierge/session';
 import { sendTeamHandoffEmail } from '@/lib/email/resend';
@@ -28,6 +30,9 @@ type Action = (typeof ACTIONS)[number];
 const EMAIL_RE = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
 
 export async function POST(req: NextRequest) {
+  const crossOrigin = assertSameOrigin(req);
+  if (crossOrigin) return crossOrigin;
+
   let conversationId = '';
   let action: Action | null = null;
   let providedEmail: string | null = null;

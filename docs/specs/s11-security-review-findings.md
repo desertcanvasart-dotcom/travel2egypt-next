@@ -16,18 +16,19 @@ were already implemented across S2–S10; this documents the verification.
 | 5 | Link map cannot emit a link to a noindex/disallowed target | ✅ PASS | `src/lib/linkMap/resolve.ts:51` returns `null` when `isRobotsDisallowed(path)` (robots SSOT `src/lib/robotsPolicy.ts`). Seed script additionally re-verifies robots-indexability at write time. |
 | 6 | IP/UA stored only as keyed HMAC; no raw IP in logs | ✅ PASS | `src/lib/concierge/ipHash.ts`: `clientIp()` is consumed only inside `hashedIp()` in the same file — the raw IP never leaves the module; callers receive only the keyed HMAC. Grep of `console.*` across `api/**` + `lib/concierge/**` shows zero raw-IP logging. |
 | 7 | Tampered session cookie rejected | ✅ PASS | `verifyCookieValue()` returns null on HMAC mismatch → `ensureSession` treats it as absent (fresh session for minting routes, `401`/empty for non-minting) — never an error. |
-| 8 | CSRF / same-origin on mutating routes | ⚠️ MITIGATED (see rec.) | Session cookie is `HttpOnly; Secure; SameSite=Lax` (`src/lib/concierge/cookie.ts:88-91`). `SameSite=Lax` withholds the cookie on cross-site `POST`/`fetch`, so a forged mutation lands with no session → `401`/fresh session. All mutating routes are `POST` and parse JSON-only bodies (`req.json()`), rejecting form-encoded CSRF payloads. **No explicit `Origin`/`Sec-Fetch-Site` assertion** — the defense is `SameSite=Lax` alone. |
+| 8 | CSRF / same-origin on mutating routes | ✅ PASS (hardened) | Session cookie is `HttpOnly; Secure; SameSite=Lax` (`src/lib/concierge/cookie.ts:88-91`) — the primary defense (Lax withholds the cookie on cross-site `POST`, and routes parse JSON-only bodies). **Now also enforced explicitly**: `assertSameOrigin(req)` (`src/lib/http/sameOrigin.ts`) is the first statement in every mutating handler (`chat`, `brief`, `escape-hatch`, `resume`, `data-request`, `conversation` POST + admin `review` POST) — rejects `Sec-Fetch-Site: cross-site` (else Origin-host ≠ Host) with `403`, allows same-origin, and no-ops for non-browser callers with no origin signal (SameSite=Lax remains the guard). 8/8 unit assertions pass. |
 | — | Secrets never reach the client | ⏳ deferred to bundle grep (task #4) | Verified after production build completes. |
 | — | Rate limiting triggers under load | ⏳ deferred to load test | S7 built + unit-verified; the S11 "under load" exercise is a runtime task (needs running server). |
 
-## Recommendation (low severity, optional defense-in-depth)
+## Recommendation (low severity, optional defense-in-depth) — ✅ IMPLEMENTED 2026-07-08
 
-Add an explicit same-origin assertion on the mutating concierge routes
-(`chat`, `brief`, `escape-hatch`, `resume`, `data-request`, `conversation` POST) and the
-admin `review` POST — reject when `Origin`/`Sec-Fetch-Site` is cross-site. `SameSite=Lax`
-is the primary, sufficient defense today; an explicit check is belt-and-suspenders against
-future cookie-attribute regressions or a same-site subdomain foothold. A small shared helper
-(`assertSameOrigin(req)`) called at the top of each mutating handler would cover it.
+Added `src/lib/http/sameOrigin.ts` (`assertSameOrigin(req)`) and called it as the first
+statement in every mutating handler (`chat`, `brief`, `escape-hatch`, `resume`,
+`data-request`, `conversation` POST + admin `review` POST). Policy: trust the browser's
+`Sec-Fetch-Site` (reject only `cross-site`); else compare `Origin` host to `Host`; else
+(no signal) allow, leaving `SameSite=Lax` as the guard for non-browser callers. Belt-and-
+suspenders against a future cookie-attribute regression or a same-site subdomain foothold.
+Verified with 8/8 runtime assertions; `tsc` clean.
 
 ## Not a finding (intentional design, recorded to prevent re-discovery)
 

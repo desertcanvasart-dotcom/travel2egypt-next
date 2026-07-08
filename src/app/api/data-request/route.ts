@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { assertSameOrigin } from '@/lib/http/sameOrigin';
+
 import { expireSessionCookie } from '@/lib/concierge/cookie';
 import { ensureSession } from '@/lib/concierge/session';
 import { conciergeDb } from '@/lib/supabase/server';
@@ -24,6 +26,9 @@ import { conciergeDb } from '@/lib/supabase/server';
 export const runtime = 'nodejs';
 
 export async function POST(req: NextRequest) {
+  const crossOrigin = assertSameOrigin(req);
+  if (crossOrigin) return crossOrigin;
+
   let action = '';
   try {
     const body = (await req.json()) as { action?: unknown };

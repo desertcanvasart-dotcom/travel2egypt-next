@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
 import { requireAdminSession } from '@/lib/admin/guard';
+import { assertSameOrigin } from '@/lib/http/sameOrigin';
 import {
   REVIEW_NOTE_CATEGORIES,
   type ReviewNoteCategory,
@@ -78,6 +79,9 @@ export async function POST(
   req: NextRequest,
   context: { params: Promise<{ id: string }> },
 ) {
+  const crossOrigin = assertSameOrigin(req);
+  if (crossOrigin) return crossOrigin;
+
   const gate = await requireAdminSession();
   if (gate instanceof NextResponse) return gate;
 

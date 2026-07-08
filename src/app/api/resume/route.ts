@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { assertSameOrigin } from '@/lib/http/sameOrigin';
+
 import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession, sessionCookie } from '@/lib/concierge/session';
 import { signResumeToken } from '@/lib/concierge/resumeToken';
@@ -23,6 +25,9 @@ export const runtime = 'nodejs';
 const EMAIL_RE = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
 
 export async function POST(req: NextRequest) {
+  const crossOrigin = assertSameOrigin(req);
+  if (crossOrigin) return crossOrigin;
+
   let email = '';
   let locale = 'en';
   try {

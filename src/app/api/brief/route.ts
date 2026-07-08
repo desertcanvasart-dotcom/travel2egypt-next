@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { assertSameOrigin } from '@/lib/http/sameOrigin';
+
 import { deliverBrief } from '@/lib/concierge/autoura/deliver';
 import { extractBrief, type ExtractionMessage } from '@/lib/briefExtraction';
 import { enforceExpensive } from '@/lib/concierge/rateLimit';
@@ -28,6 +30,9 @@ import type { BriefPayload, BriefResponse } from '@/types/concierge';
 export const runtime = 'nodejs';
 
 export async function POST(req: NextRequest) {
+  const crossOrigin = assertSameOrigin(req);
+  if (crossOrigin) return crossOrigin;
+
   let conversationId: string | null = null;
   let locale: 'en' | 'es' = 'en';
   try {
