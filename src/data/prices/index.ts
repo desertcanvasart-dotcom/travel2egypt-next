@@ -159,7 +159,7 @@ export const priceData: Record<string, PricePage> = {
         { site: 'Valley Of Kings', adult: '800', student: '425', hours: '06:00 – 17:00' },
         { site: 'Luxor Museum', adult: '450', student: '250', hours: '09:00 – 14:00, 17:00 – 21:00' },
         { site: 'Medinet Habu', adult: '270', student: '160', hours: '06:00 – 17:00' },
-        { site: 'Mummification museum', adult: '270', student: '160', hours: '06:00 – 17:00' },
+        { site: 'Mummification museum', adult: '270', student: '160', hours: '09:00 – 17:00' },
         { site: 'Ramesseum', adult: '270', student: '160', hours: '06:00 – 17:00' },
         { site: 'Tombs Of The Nobles – Rekhmire & Senn', adult: '170', student: '110', hours: '06:00 – 17:00', note: 'Sub-ticket of Tombs of the Nobles — sold per tomb on booking page.' },
         { site: 'Tombs Of The Nobles – Nakht & Menna', adult: '250', student: '150', hours: '06:00 – 17:00', note: 'Sub-ticket of Tombs of the Nobles — sold per tomb on booking page.' },
