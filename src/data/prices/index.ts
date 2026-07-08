@@ -100,7 +100,7 @@ export const priceData: Record<string, PricePage> = {
     checked: 'July 2026',
     sections: [
       { kicker: 'Beni Suef Governorate', rows: [
-        { site: 'The Pyramids of Meidum', adult: '200', student: '125' },
+        { site: 'The Pyramids of Meidum', adult: '200', student: '125', hours: '08:30 – 16:00' },
       ] },
     ],
   },
