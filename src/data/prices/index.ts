@@ -50,7 +50,6 @@ export const priceData: Record<string, PricePage> = {
         { site: 'Ancient Roman Theatre', adult: '250', student: '150', hours: '09:00 – 16:00' },
         { site: 'Royal Jewellery Museum', adult: '270', student: '160', hours: '09:00 – 16:00' },
         { site: 'Graeco-Roman Museum', adult: '450', student: '250', hours: '09:00 – 16:00' },
-        { site: 'Bibliotheca Alexandrina', adult: '200', student: '100', hours: 'Sat & Sun 10:00 – 13:30 · Mon–Thu 10:00 – 17:00', note: 'Closed Fridays.' },
       ] },
     ],
   },
@@ -88,7 +87,7 @@ export const priceData: Record<string, PricePage> = {
         { site: 'Elkab Tombs', adult: '250', student: '150', hours: '07:00 – 16:00' },
         { site: 'Samaan Monastery', adult: '150', student: '100', hours: '07:00 – 16:00' },
         { site: 'Air Dome', adult: '250', student: '150', hours: '07:00 – 16:00' },
-        { site: 'High Dam', adult: '300', student: '150', hours: '07:00 – 17:00' },
+        { site: 'High Dam', adult: '200', student: '100', hours: '07:00 – 17:00' },
         { site: 'Elephantine Island', adult: '250', student: '150', hours: '07:00 – 16:00' },
         { site: 'Sehel Island', adult: '150', student: '100', hours: '07:00 – 16:00' },
         { site: 'Gebel al-Silsila', adult: '150', student: '100', hours: '07:00 – 16:00' },
@@ -215,7 +214,7 @@ export const priceData: Record<string, PricePage> = {
     localeGate: 'all',
     sections: [
       { kicker: 'Luxor Governorate', rows: [
-        { site: 'Esna Temple', adult: '250', student: '150' },
+        { site: 'Esna Temple', adult: '250', student: '150', hours: '07:00 – 17:00' },
       ] },
     ],
   },
@@ -224,7 +223,7 @@ export const priceData: Record<string, PricePage> = {
     localeGate: 'all',
     sections: [
       { kicker: 'Aswan Governorate', rows: [
-        { site: 'The Temple Of Horus', adult: '600', student: '325' },
+        { site: 'The Temple Of Horus', adult: '600', student: '325', hours: '07:00 – 17:00' },
       ] },
     ],
   },
@@ -233,8 +232,8 @@ export const priceData: Record<string, PricePage> = {
     localeGate: 'all',
     sections: [
       { kicker: 'Matrouh Governorate', rows: [
-        { site: 'Temple of Aghurmi in Siwa', adult: '170', student: '110' },
-        { site: 'Tombs of Gabal al-Mawta', adult: '170', student: '110' },
+        { site: 'Temple of Aghurmi in Siwa', adult: '170', student: '110', hours: '09:00 – 16:00' },
+        { site: 'Tombs of Gabal al-Mawta', adult: '170', student: '110', hours: '09:00 – 16:00' },
       ] },
     ],
   },
