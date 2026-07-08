@@ -43,11 +43,11 @@ export const priceData: Record<string, PricePage> = {
     checked: 'July 2026',
     sections: [
       { kicker: 'Alexandria Governorate', rows: [
-        { site: 'Serapeum of Alexandria', adult: '250', student: '150' },
-        { site: 'Catacombs', adult: '250', student: '150' },
+        { site: 'Serapeum of Alexandria', adult: '250', student: '150', hours: '09:00 – 17:00' },
+        { site: 'Catacombs', adult: '250', student: '150', hours: '09:00 – 17:00' },
         { site: 'Alexandria National Museum', adult: '270', student: '160', hours: '09:00 – 17:00' },
         { site: 'Qaitbay Citadel', adult: '250', student: '150', hours: '09:00 – 17:00' },
-        { site: 'Ancient Roman Theatre', adult: '250', student: '150' },
+        { site: 'Ancient Roman Theatre', adult: '250', student: '150', hours: '09:00 – 17:00' },
         { site: 'Royal Jewellery Museum', adult: '270', student: '160', hours: '09:00 – 17:00' },
         { site: 'Graeco-Roman Museum', adult: '450', student: '250', hours: '09:00 – 17:00' },
       ] },
@@ -58,12 +58,12 @@ export const priceData: Record<string, PricePage> = {
     checked: 'July 2026',
     sections: [
       { kicker: 'Minya Governorate', rows: [
-        { site: 'Fraser Tombs', adult: '150', student: '100', hours: '08:00 – 17:00' },
-        { site: 'Zawyet Sultan', adult: '150', student: '100' },
-        { site: 'Amarna', adult: '250', student: '150' },
-        { site: 'Malawy Museum', adult: '170', student: '110', hours: '08:00 – 17:00' },
-        { site: 'Beni Hassan Tomb', adult: '250', student: '150', hours: '08:00 – 17:00' },
-        { site: 'Tuna el-Gebel', adult: '250', student: '150' },
+        { site: 'Fraser Tombs', adult: '150', student: '100', hours: '08:00 – 16:00' },
+        { site: 'Zawyet Sultan', adult: '150', student: '100', hours: '08:00 – 16:00' },
+        { site: 'Amarna', adult: '250', student: '150', hours: '08:00 – 16:00' },
+        { site: 'Malawy Museum', adult: '170', student: '110', hours: '08:00 – 16:00' },
+        { site: 'Beni Hassan Tomb', adult: '250', student: '150', hours: '08:00 – 16:00' },
+        { site: 'Tuna el-Gebel', adult: '250', student: '150', hours: '08:00 – 16:00' },
       ] },
       { kicker: 'Asyut Governorate', rows: [
         { site: 'Meir Monumental Tombs', adult: '150', student: '100' },
@@ -138,11 +138,11 @@ export const priceData: Record<string, PricePage> = {
     checked: 'July 2026',
     sections: [
       { kicker: 'Giza Governorate', rows: [
-        { site: 'Giza plateau', adult: '750', student: '400' },
-        { site: 'Saqqara Monuments', adult: '650', student: '350' },
+        { site: 'Giza plateau', adult: '750', student: '400', hours: '08:00 – 17:00' },
+        { site: 'Saqqara Monuments', adult: '650', student: '350', hours: '08:00 – 17:00' },
         { site: 'Dahshur', adult: '250', student: '150', hours: '08:00 – 17:00' },
-        { site: 'grand egyptian museum (GEM)', adult: '1,640', student: '850' },
-        { site: 'Memphis', adult: '250', student: '150' },
+        { site: 'grand egyptian museum (GEM)', adult: '1,640', student: '850', hours: '09:00 – 17:00' },
+        { site: 'Memphis', adult: '250', student: '150', hours: '08:00 – 17:00' },
       ] },
     ],
   },
