@@ -1,5 +1,6 @@
 'use client';
 
+import * as Sentry from '@sentry/nextjs';
 import { useEffect } from 'react';
 
 interface Props {
@@ -9,8 +10,9 @@ interface Props {
 
 export default function LocaleError({ error, reset }: Props) {
   useEffect(() => {
-    // Surfaces in the dev console; production should wire this to Sentry
-    // or whichever error reporter ships in Phase 2.
+    // Report to Sentry (Session 11; no-op until SENTRY_DSN is set, PII scrubbed
+    // in beforeSend) and surface in the dev console.
+    Sentry.captureException(error);
     console.error('Page error:', error);
   }, [error]);
 
