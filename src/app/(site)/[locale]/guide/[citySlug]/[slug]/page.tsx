@@ -110,15 +110,27 @@ export default async function GuideArticlePage({ params }: Props) {
     ? urlFor(article.heroImage).width(1800).height(900).quality(85).url()
     : null;
 
-  // Weather-page hero: the climate signature. Gated on the structural
-  // `kind === 'climate'` discriminator AND an existing per-city data entry
-  // AND locale === 'en' (ES/JA keep their current hero until the localized
-  // editorial batch lands). A city with no data entry falls through to the
+  // Weather-page hero: the climate signature. `climateData` is keyed by the
+  // EN city slug, but the URL's `citySlug` param is locale-specific (e.g.
+  // "el-cairo" for es) — resolve the EN slug via parentCity.allSlugs first,
+  // same pattern as the hreflang fix in seo.ts. Gated on the structural
+  // `kind === 'climate'` discriminator, an existing per-city data entry, AND
+  // that entry having editorial copy for the current locale — per-locale
+  // graceful degradation: a city missing es/ja copy falls through to the
   // existing photo-hero branch unchanged; non-weather articles never match.
-  const climate =
-    article.kind === 'climate' && locale === 'en'
-      ? climateData[citySlug]
-      : undefined;
+  const enCitySlug =
+    article.parentCity.allSlugs?.find((s: { _key: string; current: string }) => s._key === 'en')
+      ?.current ?? citySlug;
+  const climateRecord =
+    article.kind === 'climate' ? climateData[enCitySlug] : undefined;
+  const climateEditorial = climateRecord?.editorial[locale as 'en' | 'es' | 'ja'];
+  const climate = climateEditorial ? climateRecord : undefined;
+
+  const RAIN_DAYS_LABEL: Record<string, string> = {
+    en: 'RAIN DAYS',
+    es: 'DÍAS DE LLUVIA',
+    ja: '降雨日数',
+  };
 
   const sectionLabel = article.section
     ? tSections(SECTION_LABEL_KEYS[article.section] ?? 'others')
@@ -184,14 +196,17 @@ export default async function GuideArticlePage({ params }: Props) {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <Breadcrumb items={breadcrumbItems} className="mb-8" />
 
-        {/* Weather pages (EN): climate signature. Otherwise the photo hero. */}
+        {/* Weather pages: climate signature (per-locale copy). Otherwise the photo hero. */}
         {climate ? (
           <div className="mb-10">
             <ClimateSignature
               title={article.title}
               cityName={article.parentCity.name}
               record={climate}
-              copy={{ ...climate.editorial.en, rainLabel: 'RAIN DAYS' }}
+              copy={{
+                ...climate.editorial[locale as 'en' | 'es' | 'ja'],
+                rainLabel: RAIN_DAYS_LABEL[locale] ?? RAIN_DAYS_LABEL.en,
+              }}
               locale={locale}
             />
           </div>

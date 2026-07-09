@@ -13,14 +13,12 @@
  * EDITORIAL COPY: the `en` slots are owner-authored and LOCKED, wired verbatim
  * from climate-signature-copy-en-v1.csv — never redraft those.
  *
- * ⚠️  `es`/`ja` slots are CLAUDE-DRAFTED MACHINE TRANSLATIONS staged
- * 2026-07-09 (docs/climate-esja-draft-translations.json,
- * scripts/climate-esja-draft-fill.ts), UNREVIEWED — the owner explicitly
- * authorized this as a starting point, same as the JA legal-page draft. Do
- * not treat as authoritative. Needs a native-speaker pass (ES + JA) before
- * publish. The render gate stays EN-only (`locale=='en'`) in the weather
- * page until that review + the locale gate is explicitly flipped — see the
- * master to-do (project_master_todo memory) item C3.
+ * `es`/`ja` slots are CLAUDE-DRAFTED MACHINE TRANSLATIONS (staged 2026-07-09,
+ * docs/climate-esja-draft-translations.json + scripts/climate-esja-draft-fill.ts;
+ * owner explicitly authorized this as a starting point, same as the JA
+ * legal-page draft). Owner reviewed and approved 2026-07-09 — the weather
+ * page's render gate now includes es/ja (per-locale: a city missing copy for
+ * a locale falls back to the photo hero automatically).
  *
  * Keyed by city slug (EN). The three deduplicated cities (farafra-oasis,
  * rosetta-rasheed, siwa-oasis) have two live docs each; keying by city slug
