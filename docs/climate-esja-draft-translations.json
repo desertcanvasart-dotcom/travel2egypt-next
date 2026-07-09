@@ -1,0 +1,289 @@
+{
+  "cairo": {
+    "descriptors": {"es": "Calor seco, templado por la ciudad · Inviernos luminosos · Lluvia escasa", "ja": "乾いた暑さ、都市に和らげられて · 明るい冬 · めったに降らない雨"},
+    "gapText": {"es": "14° entre el mediodía y la medianoche", "ja": "正午から真夜中まで14℃差"},
+    "troughText": {"es": "9° — noches de enero", "ja": "9℃ — 1月の夜"},
+    "caption": {"es": "Calurosa y luminosa de mayo a septiembre, templada y de cielos azules todo el invierno — la lluvia llega apenas unos días al año, y la ciudad convierte cada uno en un acontecimiento.", "ja": "5月から9月は暑く明るく、冬は一年を通じて穏やかで青空が広がる — 雨が降るのは年にほんの数日だけで、街はその一日一日を特別な出来事として迎える。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "giza": {
+    "descriptors": {"es": "Borde desértico de la capital · Mañanas despejadas · Lluvia escasa", "ja": "首都の砂漠の縁 · 澄んだ朝 · めったに降らない雨"},
+    "gapText": {"es": "14° entre el mediodía y la medianoche", "ja": "正午から真夜中まで14℃差"},
+    "troughText": {"es": "8° — amaneceres de enero", "ja": "8℃ — 1月の明け方"},
+    "caption": {"es": "La meseta es un grado más calurosa y algo más polvorienta que la ciudad vecina — por eso, de mayo a septiembre, las pirámides son una cita matutina.", "ja": "この台地は隣接する街より1度ほど暑く、いくらか埃っぽい — だからこそ5月から9月は、ピラミッドは朝のうちに訪れるべき場所となる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "ismailia": {
+    "descriptors": {"es": "Aire de canal · Verde para lo que es Egipto · Inviernos suaves", "ja": "運河の空気 · エジプトにしては緑豊か · 穏やかな冬"},
+    "gapText": {"es": "12° entre el día y la noche", "ja": "昼と夜で12℃差"},
+    "troughText": {"es": "9° — noches de enero", "ja": "9℃ — 1月の夜"},
+    "caption": {"es": "La más suave de las ciudades del canal — templada por el agua y los árboles, y en su mejor momento durante el largo tramo templado que rodea el invierno.", "ja": "運河沿いの街の中でもっとも穏やかな場所 — 水と木々に和らげられ、冬を挟む長く温暖な期間に最も心地よくなる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A MAYO", "ja": "ベストシーズン — 10月〜5月"}
+  },
+  "rosetta-rasheed": {
+    "descriptors": {"es": "Aire del Delta · Lluvia invernal · Veranos suavizados por el mar", "ja": "デルタの空気 · 冬の雨 · 海が和らげる夏"},
+    "gapText": {"es": "8° — el Delta retiene la noche", "ja": "8℃ — デルタが夜の気温を保つ"},
+    "troughText": {"es": "9° — un enero lluvioso", "ja": "9℃ — 雨がちな1月"},
+    "caption": {"es": "Donde el Nilo se encuentra con el mar, el clima se vuelve mediterráneo: lluvia invernal de verdad, veranos suaves y una luz por la que los fotógrafos cruzan el Delta.", "ja": "ナイル川が海と出会う場所では、気候は地中海性に変わる。本格的な冬の雨、穏やかな夏、そして写真家たちがデルタを越えてまで求める光がある。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE ABRIL A NOVIEMBRE", "ja": "ベストシーズン — 4月〜11月"}
+  },
+  "wadi-el-natrun": {
+    "descriptors": {"es": "Silencio desértico · Luminoso y seco · Mañanas frescas de monasterio", "ja": "砂漠の静けさ · 明るく乾燥 · 修道院の涼しい朝"},
+    "gapText": {"es": "13° entre el mediodía y la medianoche", "ja": "正午から真夜中まで13℃差"},
+    "troughText": {"es": "7° — noches de enero", "ja": "7℃ — 1月の夜"},
+    "caption": {"es": "Clima de monasterio: seco, luminoso e inmóvil — las mañanas de invierno aquí son lo bastante frías como para explicar los hábitos de lana, y las visitas de verano deben hacerse antes del mediodía.", "ja": "修道院にふさわしい気候——乾いて明るく、静か。ここの冬の朝は、修道士たちがウールの修道服をまとう理由がわかるほど冷え込み、夏の訪問は正午前が鉄則だ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "alexandria": {
+    "descriptors": {"es": "Aire marino · Un invierno de verdad · Lluvia invernal · El refugio veraniego de El Cairo", "ja": "海風 · 本物の冬 · 冬の雨 · カイロの夏の避暑地"},
+    "gapText": {"es": "solo 8° — el mar retiene la noche", "ja": "わずか8℃ — 海が夜の気温を保つ"},
+    "troughText": {"es": "9° — un invierno de verdad", "ja": "9℃ — 本物の冬"},
+    "caption": {"es": "La única ciudad egipcia con un invierno de verdad — gris, húmedo, mediterráneo — y la costa a la que El Cairo escapa cuando llega el verano. Su temporada es la inversa de la del valle.", "ja": "本物の冬を持つエジプトで唯一の街——曇りがちで雨が多く、地中海性の気候。夏が訪れるとカイロの人々が逃げ込む海岸でもある。ここのベストシーズンは、ナイル渓谷とはちょうど逆になる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE MAYO A OCTUBRE", "ja": "ベストシーズン — 5月〜10月"}
+  },
+  "marsa-matruh": {
+    "descriptors": {"es": "Aguas turquesa · La costa veraniega de Egipto · Inviernos tormentosos", "ja": "ターコイズブルーの海 · エジプトの夏の海岸 · 荒れる冬"},
+    "gapText": {"es": "7° — templado por el mar", "ja": "7℃ — 海が和らげる"},
+    "troughText": {"es": "8° — un enero de temporada baja", "ja": "8℃ — 閉季の1月"},
+    "caption": {"es": "Matruh vive de una sola temporada: los meses de verano, cuando sus lagunas simulan el Egeo — el invierno es ventoso, húmedo y mayormente cerrado, y lo decimos sin rodeos.", "ja": "マトルーは一つの季節だけで成り立つ街——ラグーンがエーゲ海さながらの表情を見せる夏の数か月だ。冬は風が強く雨がちで、ほとんどの施設が閉まる——それを正直に伝えておく。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE JUNIO A SEPTIEMBRE", "ja": "ベストシーズン — 6月〜9月"}
+  },
+  "port-said": {
+    "descriptors": {"es": "Canal y mar · Veranos húmedos · Inviernos suaves y lluviosos", "ja": "運河と海 · 湿度の高い夏 · 穏やかでにわか雨の多い冬"},
+    "gapText": {"es": "7° entre el día y la noche", "ja": "昼と夜で7℃差"},
+    "troughText": {"es": "10° — noches de enero", "ja": "10℃ — 1月の夜"},
+    "caption": {"es": "Más puerto activo que centro turístico: templado la mayor parte del año, húmedo en pleno verano, y en su mejor momento cuando la luz se alarga — primavera y otoño.", "ja": "リゾートというより現役の港町——一年の大半は穏やかで、真夏は湿度が高く、日が長く伸びる春と秋に最も心地よい。"},
+    "seasonLabel": {"es": "LA TEMPORADA — PRIMAVERA Y OTOÑO", "ja": "ベストシーズン — 春と秋"}
+  },
+  "al-gouna": {
+    "descriptors": {"es": "Sol todo el año · Brisas de laguna · Un mar cálido", "ja": "一年中降り注ぐ太陽 · ラグーンのそよ風 · 温かい海"},
+    "gapText": {"es": "9° — el mar retiene la noche", "ja": "9℃ — 海が夜の気温を保つ"},
+    "troughText": {"es": "11° — noches de enero", "ja": "11℃ — 1月の夜"},
+    "caption": {"es": "Las lagunas apenas tienen temporada baja: el invierno es soleado y con brisa, el verano es caluroso pero el mar lo compensa — aquí la pregunta del calendario es la temperatura del agua, no el clima.", "ja": "このラグーンにオフシーズンはほとんどない——冬は晴れて風があり、夏は暑いが海がそれを補ってくれる。ここでカレンダーを左右するのは天候ではなく水温だ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A MAYO", "ja": "ベストシーズン — 9月〜5月"}
+  },
+  "al-quseir": {
+    "descriptors": {"es": "La calma de la costa antigua · Sol constante · Un mar cálido", "ja": "古き海岸の静けさ · 安定した日照 · 温かい海"},
+    "gapText": {"es": "9° entre el día y la noche", "ja": "昼と夜で9℃差"},
+    "troughText": {"es": "11° — noches de enero", "ja": "11℃ — 1月の夜"},
+    "caption": {"es": "El puerto más antiguo de esta costa conserva su costumbre más amable: sol casi todos los días del año, con el mar un grado más cálido que el aire en la mayoría de las mañanas de invierno.", "ja": "この海岸で最も古い港は、この土地らしい穏やかな習慣を守り続けている——一年のほぼ毎日が晴れ、冬の朝の多くは海水温が気温より1度ほど高い。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A MAYO", "ja": "ベストシーズン — 9月〜5月"}
+  },
+  "hurghada": {
+    "descriptors": {"es": "Sol casi todos los días · Un mar templado para nadar en invierno · Viento constante", "ja": "ほぼ毎日晴れる · 冬でも泳げる海 · 安定した風"},
+    "gapText": {"es": "9° — el mar retiene la noche", "ja": "9℃ — 海が夜の気温を保つ"},
+    "troughText": {"es": "11° — noches de enero", "ja": "11℃ — 1月の夜"},
+    "caption": {"es": "El clima de Hurghada es más una promesa que un pronóstico: sol casi todos los días, un mar que sigue siendo apto para nadar durante todo el invierno, y un viento en torno al cual se organizan las escuelas de kitesurf.", "ja": "ハルガダの天気は予報というより約束のようなものだ——ほぼ毎日晴れ、冬を通して泳げる海があり、カイトスクールがスケジュールを組むほど安定した風が吹く。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A MAYO", "ja": "ベストシーズン — 9月〜5月"}
+  },
+  "marsa-alam": {
+    "descriptors": {"es": "El extremo sur · El mar más cálido en invierno · Arrecifes respaldados por el desierto", "ja": "最南端の地 · 冬でも最も温かい海 · 砂漠を背にしたサンゴ礁"},
+    "gapText": {"es": "10° entre el día y la noche", "ja": "昼と夜で10℃差"},
+    "troughText": {"es": "12° — el enero más suave de la costa", "ja": "12℃ — この海岸で最も穏やかな1月"},
+    "caption": {"es": "El punto más al sur al que enviamos a los viajeros de playa, y la razón es enero: el agua invernal más cálida de Egipto, sobre unos arrecifes que no necesitan más presentación.", "ja": "ビーチ目的の旅行者を案内する最南端の地——その理由は1月にある。エジプトで最も温かい冬の海水温を誇り、その下に広がるサンゴ礁については、もはや多くを語る必要もない。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A MAYO", "ja": "ベストシーズン — 9月〜5月"}
+  },
+  "safaga": {
+    "descriptors": {"es": "Un puerto activo · Viento serio · Inviernos luminosos", "ja": "現役の港 · 本格的な風 · 明るい冬"},
+    "gapText": {"es": "9° entre el día y la noche", "ja": "昼と夜で9℃差"},
+    "troughText": {"es": "11° — noches de enero", "ja": "11℃ — 1月の夜"},
+    "caption": {"es": "Safaga es donde la costa trabaja de verdad — muelles de fosfatos, barcos de buceo y un viento por el que los windsurfistas cruzan continentes; el clima es el de Hurghada, pero con menos sombrillas en la arena.", "ja": "サファーガはこの海岸の「仕事場」だ——リン鉱石の埠頭、ダイビングボート、そしてウィンドサーファーが大陸を越えてでも求める風がある。気候的にはハルガダと同じだが、砂浜のパラソルはずっと少ない。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A MAYO", "ja": "ベストシーズン — 9月〜5月"}
+  },
+  "suez": {
+    "descriptors": {"es": "Boca del canal · Seco y luminoso · Tardes ventosas", "ja": "運河の入り口 · 乾燥して明るい · 風の強い午後"},
+    "gapText": {"es": "11° entre el día y la noche", "ja": "昼と夜で11℃差"},
+    "troughText": {"es": "10° — noches de enero", "ja": "10℃ — 1月の夜"},
+    "caption": {"es": "Una ciudad de paso con un clima de paso: seco, luminoso y ventoso donde el canal se encuentra con el golfo — agradable en los meses intermedios, y sin disimular julio.", "ja": "通過点の街には、それにふさわしい気候がある——運河が湾と出会う場所は乾燥し、明るく、風が強い。中間シーズンは快適だが、7月についてはごまかさない。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A MAYO", "ja": "ベストシーズン — 10月〜5月"}
+  },
+  "al-arish": {
+    "descriptors": {"es": "El Sinaí mediterráneo · Costa bordeada de palmeras · Lluvia invernal", "ja": "地中海に面したシナイ · ヤシ並木の海岸 · 冬の雨"},
+    "gapText": {"es": "8° — templado por el mar", "ja": "8℃ — 海が和らげる"},
+    "troughText": {"es": "9° — un enero con chubascos", "ja": "9℃ — にわか雨の多い1月"},
+    "caption": {"es": "El rostro mediterráneo del Sinaí: palmerales, chubascos invernales y un largo verano templado — un clima distinto al de los complejos turísticos dos horas al sur, y más tranquilo.", "ja": "シナイ半島の地中海的な一面——ヤシの林、冬のにわか雨、そして穏やかで長い夏。南へ2時間のリゾート地とはまったく異なる、より静かな気候だ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE MAYO A OCTUBRE", "ja": "ベストシーズン — 5月〜10月"}
+  },
+  "dahab": {
+    "descriptors": {"es": "Mar cálido, viento fresco · Telón de fondo de montañas · Una temporada larga", "ja": "温かい海、涼しい風 · 山を背景に · 長く続くシーズン"},
+    "gapText": {"es": "10° entre el día y la noche", "ja": "昼と夜で10℃差"},
+    "troughText": {"es": "12° — noches de enero", "ja": "12℃ — 1月の夜"},
+    "caption": {"es": "El truco de Dahab es el viento que baja de las montañas: suaviza el verano y mantiene la laguna fiel a sí misma — aquí la temporada dura casi todo el año.", "ja": "ダハブの秘密は山から吹き下ろす風にある——夏の暑さを和らげ、ラグーンの表情を保ってくれる。ここでは一年のほとんどがベストシーズンといえる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A MAYO", "ja": "ベストシーズン — 9月〜5月"}
+  },
+  "nuweiba": {
+    "descriptors": {"es": "La calma del golfo · Agua cálida · Amaneceres de montaña", "ja": "湾の静けさ · 温かい水 · 山の夜明け"},
+    "gapText": {"es": "10° entre el día y la noche", "ja": "昼と夜で10℃差"},
+    "troughText": {"es": "11° — noches de enero", "ja": "11℃ — 1月の夜"},
+    "caption": {"es": "El tramo tranquilo del golfo: campamentos de playa, sombra de montaña al caer la tarde, y un mar que sigue cálido mucho después de que la multitud se disperse.", "ja": "湾の中でも静かな一角——ビーチキャンプ、夕方には山の影が落ち、人出が減った後も海はいつまでも温かいままだ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A MAYO", "ja": "ベストシーズン — 9月〜5月"}
+  },
+  "ras-sudr": {
+    "descriptors": {"es": "Hecha para el viento · Agua plana y cálida · Costa de fin de semana", "ja": "風のために生まれた地 · 穏やかで温かい水 · 週末の海岸"},
+    "gapText": {"es": "9° entre el día y la noche", "ja": "昼と夜で9℃差"},
+    "troughText": {"es": "11° — noches de enero", "ja": "11℃ — 1月の夜"},
+    "caption": {"es": "Ras Sudr vende una sola cosa y el clima la entrega a diario: viento — constante, de costado, y lo bastante fuerte como para que la temporada de kite apenas se cierre.", "ja": "ラス・スドルが売りにするものはただ一つ、そして気候はそれを毎日届けてくれる——風だ。安定していて、サイドショアで、キトシーズンがほとんど途切れないほど強い。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A JUNIO", "ja": "ベストシーズン — 9月〜6月"}
+  },
+  "saint-catherine": {
+    "descriptors": {"es": "A 1600 metros de altitud · Noches de invierno bajo cero · Alguna que otra nevada", "ja": "標高1,600メートル · 氷点下になる冬の夜 · 時折の降雪"},
+    "gapText": {"es": "15° de aire de montaña", "ja": "山の空気による15℃差"},
+    "troughText": {"es": "−2° — enero, y hace frío de verdad", "ja": "−2℃ — 1月、正真正銘の寒さ"},
+    "caption": {"es": "La única página del clima egipcio con nieve: a 1600 metros, las noches de invierno se congelan, los días de verano se mantienen templados como en la montaña, y el amanecer en la cumbre exige hasta la última capa de ropa que llevaste.", "ja": "雪が登場するエジプトで唯一の天気ページ——標高1,600メートルでは冬の夜は氷点下になり、夏の日中は山らしく穏やかなまま。山頂の日の出を見るなら、持ってきた重ね着すべてが必要になる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — PRIMAVERA Y OTOÑO", "ja": "ベストシーズン — 春と秋"}
+  },
+  "sharm-el-sheikh": {
+    "descriptors": {"es": "La capital del sol invernal · Un mar cálido · Sin lluvias", "ja": "冬の陽光の首都 · 温かい海 · ほとんど雨が降らない"},
+    "gapText": {"es": "10° entre el día y la noche", "ja": "昼と夜で10℃差"},
+    "troughText": {"es": "13° — las noches de enero más cálidas de Egipto", "ja": "13℃ — エジプトで最も温かい1月の夜"},
+    "caption": {"es": "Sharm existe gracias a su invierno: sol en pleno enero europeo, un mar todavía apto para nadar, y una lluvia tan rara que el aeropuerto la trata como noticia.", "ja": "シャルムはその冬のためにこそ存在する——ヨーロッパが真冬の1月にも太陽が降り注ぎ、海は今なお泳げるほど温かく、雨は空港がニュースとして扱うほど珍しい。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A MAYO", "ja": "ベストシーズン — 9月〜5月"}
+  },
+  "taba": {
+    "descriptors": {"es": "Vistas a cuatro países · La calma del golfo · Inviernos luminosos", "ja": "4か国を望む景色 · 穏やかな湾 · 明るい冬"},
+    "gapText": {"es": "10° entre el día y la noche", "ja": "昼と夜で10℃差"},
+    "troughText": {"es": "11° — noches de enero", "ja": "11℃ — 1月の夜"},
+    "caption": {"es": "El golfo en su punto más estrecho y calmado — días de invierno hechos para el agua, tardes de verano hechas para la piscina, y las montañas de Jordania tiñéndose de rosa al otro lado del estrecho al anochecer.", "ja": "湾がもっとも狭く、もっとも穏やかになる場所——冬の日は海にふさわしく、夏の午後はプールにふさわしい。そして夕暮れには海峡の向こうにヨルダンの山々がピンク色に染まる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE SEPTIEMBRE A MAYO", "ja": "ベストシーズン — 9月〜5月"}
+  },
+  "abu-simbel": {
+    "descriptors": {"es": "El extremo sur de Egipto · Un verano de 43° · Perfección invernal", "ja": "エジプト最南の地 · 43℃の夏 · 完璧な冬"},
+    "gapText": {"es": "16° entre el mediodía y la medianoche", "ja": "正午から真夜中まで16℃差"},
+    "troughText": {"es": "10° — noches de enero", "ja": "10℃ — 1月の夜"},
+    "caption": {"es": "La entrada más «caliente» de Egipto en todos los sentidos: tardes de verano que superan los 43°, razón por la cual los templos se visitan al amanecer — y por la que el invierno aquí es sencillamente perfecto.", "ja": "あらゆる意味でエジプト最も「熱い」観光地——夏の午後は43℃を超え、だからこそ神殿は夜明けに訪れるべき場所となる。そして、だからこそここの冬はまさに完璧だ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "akhmim": {
+    "descriptors": {"es": "La luz del Egipto Medio · Calor seco · Noches frescas junto al río", "ja": "中部エジプトの光 · 乾いた暑さ · 涼しい川辺の夜"},
+    "gapText": {"es": "16° entre el mediodía y la medianoche", "ja": "正午から真夜中まで16℃差"},
+    "troughText": {"es": "7° — noches de enero", "ja": "7℃ — 1月の夜"},
+    "caption": {"es": "Clima de ciudad tejedora: seco, luminoso y sin adornos — visítala junto con Sohag y Abidos en los meses de invierno, cuando la luz hace justicia a los tapices.", "ja": "織物の街にふさわしい気候——乾いていて明るく、実直そのもの。ソハーグやアビドスと合わせて冬の間に訪れれば、光が織物の美しさを最も引き立ててくれる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "al-fayoum": {
+    "descriptors": {"es": "Lagos del desierto · El campo de El Cairo · Amaneceres invernales fríos", "ja": "砂漠の湖 · カイロの田園地帯 · 冷え込む冬の夜明け"},
+    "gapText": {"es": "15° entre el mediodía y la medianoche", "ja": "正午から真夜中まで15℃差"},
+    "troughText": {"es": "6° — amaneceres de enero junto al lago", "ja": "6℃ — 湖畔の1月の夜明け"},
+    "caption": {"es": "Fayum es el clima de El Cairo sin la ciudad: más claro, más silencioso, algo más frío al amanecer — y el Valle de las Ballenas es una caminata de invierno, no de verano.", "ja": "ファイユームはカイロと同じ気候から街だけを取り除いたような場所——より澄んでいて、より静かで、夜明けはいくらか冷え込む。そして「クジラの谷」は夏ではなく冬に歩くべき場所だ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "al-minya": {
+    "descriptors": {"es": "El norte del Alto Egipto · Luminoso y seco · Noches de invierno frías", "ja": "上エジプト北部 · 明るく乾燥 · 肌寒い冬の夜"},
+    "gapText": {"es": "15° entre el mediodía y la medianoche", "ja": "正午から真夜中まで15℃差"},
+    "troughText": {"es": "5° — las noches de enero más frías del valle", "ja": "5℃ — ナイル渓谷で最も冷え込む1月の夜"},
+    "caption": {"es": "El Egipto Medio es un grado más fresco que el extremo sur — Amarna y Beni Hasan se disfrutan mejor en las mañanas de invierno, con una chaqueta para la travesía en barca.", "ja": "中部エジプトは最南部より1度ほど涼しい——アマルナやベニ・ハサンを訪れるなら冬の朝が一番で、渡し舟に乗るときはジャケットを一枚。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "al-wadi-al-gadid": {
+    "descriptors": {"es": "El Nuevo Valle · Sequedad de desierto profundo · Cielos inmensos", "ja": "ニューバレー県 · 深い砂漠の乾燥 · 広大な空"},
+    "gapText": {"es": "18° — la oscilación del desierto profundo", "ja": "18℃ — 深い砂漠特有の寒暖差"},
+    "troughText": {"es": "4° — noches de enero en el desierto", "ja": "4℃ — 砂漠の1月の夜"},
+    "caption": {"es": "La gobernación que reúne a Kharga, Dakhla y Baris en una calma inmensa: clima de desierto profundo genuino — sin lluvias, de cielos enormes, y frío en cuanto el sol se retira.", "ja": "ハルガ、ダーヒラ、バリスを一つの広大な静寂の中に抱える県——真の深砂漠気候だ。雨は降らず、空は途方もなく広く、太陽が沈んだ瞬間に冷え込む。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "aswan": {
+    "descriptors": {"es": "El lugar más seco del Nilo · Inviernos cálidos · Una meseta de verano", "ja": "ナイル川流域で最も乾燥した地 · 温暖な冬 · 灼熱の夏"},
+    "gapText": {"es": "una meseta de 42°, 16° más fresca por la noche", "ja": "42℃の酷暑、夜は16℃涼しくなる"},
+    "troughText": {"es": "9° — noches de enero", "ja": "9℃ — 1月の夜"},
+    "caption": {"es": "El tramo habitado más caluroso del río, y el más seco — aquí la lluvia es noticia. Las tardes de invierno son cuando Asuán se muestra más generosa: cálida, seca y hecha para el agua.", "ja": "この川沿いで人が暮らす区間の中でもっとも暑く、もっとも乾燥した場所——ここでは雨が降るとニュースになる。アスワンが最も気前よく感じられるのは冬の午後だ。温暖で乾いていて、水辺で過ごすのにうってつけになる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "asyut": {
+    "descriptors": {"es": "La capital del Egipto Medio · Calor seco · Noches frescas", "ja": "中部エジプトの中心都市 · 乾いた暑さ · 涼しい夜"},
+    "gapText": {"es": "16° entre el mediodía y la medianoche", "ja": "正午から真夜中まで16℃差"},
+    "troughText": {"es": "6° — noches de enero", "ja": "6℃ — 1月の夜"},
+    "caption": {"es": "Clima de ciudad universitaria en pleno centro del valle: caluroso y seco, con el desierto cerca por ambos lados — el invierno es la temporada, y los monasterios sobre la ciudad son su recompensa.", "ja": "ナイル渓谷のちょうど真ん中に位置する大学都市の気候——両側から砂漠が迫り、暑く乾いている。ベストシーズンは冬で、街を見下ろす丘の修道院群がその褒美となる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "beni-suef": {
+    "descriptors": {"es": "Puerta de entrada al valle · Seco y luminoso · Inviernos suaves", "ja": "渓谷への玄関口 · 乾燥して明るい · 穏やかな冬"},
+    "gapText": {"es": "14° entre el mediodía y la medianoche", "ja": "正午から真夜中まで14℃差"},
+    "troughText": {"es": "6° — noches de enero", "ja": "6℃ — 1月の夜"},
+    "caption": {"es": "El primer soplo del Alto Egipto al sur de El Cairo: un grado más cálido, notablemente más seco, y de camino a la pirámide de Meidum — una parada de mañana de invierno donde las haya.", "ja": "カイロの南、上エジプトの最初の息吹を感じる街——1度ほど暖かく、明らかに乾燥していて、メイドゥームのピラミッドへ向かう途中にある。まさに冬の朝に立ち寄るべき場所だ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "edfu": {
+    "descriptors": {"es": "Clima de mañana de crucero · Calor seco · Cielos despejados", "ja": "クルーズの朝にふさわしい気候 · 乾いた暑さ · 澄んだ空"},
+    "gapText": {"es": "16° entre el mediodía y la medianoche", "ja": "正午から真夜中まで16℃差"},
+    "troughText": {"es": "8° — noches de enero", "ja": "8℃ — 1月の夜"},
+    "caption": {"es": "Edfu se visita a las nueve de la mañana al bajar del barco, y es justo lo correcto: los patios del templo retienen el calor hacia el mediodía, y los carruajes de caballos lo saben bien.", "ja": "エドフは船を降りた朝9時に訪れるのが正解だ——神殿の中庭は正午までに熱がこもるようになり、それは馬車の御者たちが一番よく知っている。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "esna": {
+    "descriptors": {"es": "La luz de la ciudad de la esclusa · Calor seco · Tardes frescas junto al río", "ja": "水門の街の光 · 乾いた暑さ · 涼しい川辺の夕べ"},
+    "gapText": {"es": "16° entre el mediodía y la medianoche", "ja": "正午から真夜中まで16℃差"},
+    "troughText": {"es": "8° — noches de enero", "ja": "8℃ — 1月の夜"},
+    "caption": {"es": "Esna sucede mientras los barcos hacen cola para la esclusa — un templo matutino con un techo restaurado que merece cada minuto de espera, en un clima que aconseja ir antes del almuerzo.", "ja": "エスナは船が水門の順番待ちをしている間に訪れる街だ——修復された天井を持つ朝の神殿は、待ち時間に見合う価値がある。そしてこの気候は、昼食前に行けと教えてくれる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "kom-ombo": {
+    "descriptors": {"es": "Templo a orillas del río · Calor seco · Citas con el atardecer", "ja": "川岸の神殿 · 乾いた暑さ · 夕暮れの呼び声"},
+    "gapText": {"es": "16° entre el mediodía y la medianoche", "ja": "正午から真夜中まで16℃差"},
+    "troughText": {"es": "9° — noches de enero", "ja": "9℃ — 1月の夜"},
+    "caption": {"es": "El único templo que los barcos visitan a la hora dorada — Kom Ombo al atardecer es la cita mejor iluminada del crucero, y el aire vespertino del río es la recompensa al calor del día.", "ja": "船がゴールデンアワーに訪れる唯一の神殿——夕暮れのコム・オンボはクルーズの中で最も美しく照らされる瞬間であり、川から吹く夜の空気は、一日の暑さに対する何よりの褒美となる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "luxor": {
+    "descriptors": {"es": "El mayor yacimiento al aire libre del planeta · Calor seco · Tardes cálidas en las tumbas", "ja": "地球最大の野外遺跡 · 乾いた暑さ · 墓室が温まる午後"},
+    "gapText": {"es": "17° entre el mediodía y la medianoche", "ja": "正午から真夜中まで17℃差"},
+    "troughText": {"es": "7° — noches de enero", "ja": "7℃ — 1月の夜"},
+    "caption": {"es": "El clima de Luxor escribe el itinerario: las tumbas de la Orilla Occidental a las ocho, Karnak antes del mediodía, felucca a las cinco — de mayo a septiembre, ese orden no es un consejo, es supervivencia.", "ja": "ルクソールの気候が旅程そのものを決めてしまう——西岸の墓群は8時、カルナックは正午前、ファルーカ(帆船)は5時。5月から9月にかけて、この順番は単なるアドバイスではなく、生き延びるための鉄則だ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "qena": {
+    "descriptors": {"es": "Calor seco · Cielos despejados · Noches frescas · Casi sin lluvia", "ja": "乾いた暑さ · 澄んだ空 · 涼しい夜 · ほとんど雨が降らない"},
+    "gapText": {"es": "17° entre el mediodía y la medianoche", "ja": "正午から真夜中まで17℃差"},
+    "troughText": {"es": "6° — noches de enero", "ja": "6℃ — 1月の夜"},
+    "caption": {"es": "El clima de Qena no es complicado. Es honesto: sin lluvias, luminoso, y diecisiete grados más fresco cada noche que la tarde que la precedió — aquí la decisión de la temporada es el calor, y nada más.", "ja": "ケナの気候は複雑ではない。ただ正直なだけだ——雨は降らず、明るく、そして夜はその日の午後より17度も涼しくなる。ここで季節を決めるのは暑さ、それだけだ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "sohag": {
+    "descriptors": {"es": "Tierra de Abidos · Seco y luminoso · Amaneceres invernales fríos", "ja": "アビドスの地 · 乾燥して明るい · 冷え込む冬の夜明け"},
+    "gapText": {"es": "16° entre el mediodía y la medianoche", "ja": "正午から真夜中まで16℃差"},
+    "troughText": {"es": "5° — amaneceres de enero", "ja": "5℃ — 1月の夜明け"},
+    "caption": {"es": "La base para Abidos y el Monasterio Blanco, y una propuesta de mañana de invierno: despejado, fresco temprano, caluroso hacia las dos — programa las tallas para la luz rasante.", "ja": "アビドスと白の修道院を訪れる拠点であり、冬の朝にふさわしい提案がある——澄んだ空、早朝は涼しく、午後2時には暑くなる。彫刻を鑑賞するなら、斜めから差す柔らかな光の時間帯に合わせよう。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "bahariya-oasis": {
+    "descriptors": {"es": "Manantiales de oasis · Noches de desierto profundo · Puerta de entrada a la caliza", "ja": "オアシスの温泉 · 深い砂漠の夜 · 白亜の大地への玄関口"},
+    "gapText": {"es": "18° — la oscilación del desierto", "ja": "18℃ — 砂漠特有の寒暖差"},
+    "troughText": {"es": "3° — noches de invierno cercanas a la congelación", "ja": "3℃ — 氷点近くまで下がる冬の夜"},
+    "caption": {"es": "El clima de Bahariya importa sobre todo después de que oscurece: los manantiales siguen cálidos, el desierto no — las noches de acampada de diciembre en el Desierto Blanco rozan el cero, y eso forma parte de la experiencia.", "ja": "バハレイヤの気候が本領を発揮するのは日が沈んだ後だ——温泉は温かいままだが、砂漠はそうはいかない。12月に白砂漠でキャンプすれば夜は氷点近くまで下がるが、それもまた醍醐味の一つだ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "baris": {
+    "descriptors": {"es": "El extremo sur de los oasis · Veranos feroces · Quietud invernal", "ja": "オアシス地帯最南の地 · 猛烈な夏 · 静寂の冬"},
+    "gapText": {"es": "18° — la oscilación del desierto profundo", "ja": "18℃ — 深い砂漠特有の寒暖差"},
+    "troughText": {"es": "5° — noches de enero", "ja": "5℃ — 1月の夜"},
+    "caption": {"es": "El último oasis antes de que la arena lo domine todo: los veranos aquí son los más calurosos del Nuevo Valle, los inviernos son quietos e impecables, y las antiguas rutas de caravanas se explican por sí solas.", "ja": "砂がすべてを覆い尽くす前の最後のオアシス——夏はニューバレー県で最も暑く、冬は静かで申し分ない。古いキャラバンルートが、その理由を物語っている。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A MARZO", "ja": "ベストシーズン — 10月〜3月"}
+  },
+  "dakhla-oasis": {
+    "descriptors": {"es": "Acantilados rosados · Sombra de adobe · Sequedad de desierto profundo", "ja": "ピンク色の断崖 · 日干しレンガの日陰 · 深い砂漠の乾燥"},
+    "gapText": {"es": "18° — la oscilación del desierto", "ja": "18℃ — 砂漠特有の寒暖差"},
+    "troughText": {"es": "4° — noches de invierno", "ja": "4℃ — 冬の夜"},
+    "caption": {"es": "Dakhla está construida para su propio clima: los pasadizos cubiertos de Al Qasr eran el aire acondicionado medieval, y todavía funcionan — los días de invierno son impecables, las noches de invierno piden encender el fuego.", "ja": "ダーヒラは、この土地の気候そのもののために築かれた街だ。アル・カスルの屋根付き路地は中世の「空調」であり、今も機能している——冬の日中は申し分なく、冬の夜には暖炉に火を灯したくなる。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "farafra-oasis": {
+    "descriptors": {"es": "El oasis más pequeño · La puerta del Desierto Blanco · Noches de acampada bajo cero", "ja": "最も小さなオアシス · 白砂漠への入り口 · 凍える夜のキャンプ"},
+    "gapText": {"es": "19° — la mayor oscilación de Egipto", "ja": "19℃ — エジプトで最も大きな寒暖差"},
+    "troughText": {"es": "2° — noches de invierno en el desierto", "ja": "2℃ — 砂漠の冬の夜"},
+    "caption": {"es": "Farafra da la cara al Desierto Blanco, y su clima es el resumen de la acampada: días de invierno impecables, noches que rozan la congelación entre la caliza, y un silencio que el termómetro no puede medir.", "ja": "ファラフラは白砂漠の玄関に位置し、その気候はまさにキャンプの案内書のようなもの——冬の日中は申し分なく、白亜の岩の間で夜は氷点に迫り、そして温度計では測れない静寂がある。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "kharga-oasis": {
+    "descriptors": {"es": "Capital del Nuevo Valle · Sin lluvias · El calor de las rutas de caravanas", "ja": "ニューバレー県の県都 · 雨が降らない · キャラバン路の熱"},
+    "gapText": {"es": "18° — la oscilación del desierto profundo", "ja": "18℃ — 深い砂漠特有の寒暖差"},
+    "troughText": {"es": "5° — noches de enero", "ja": "5℃ — 1月の夜"},
+    "caption": {"es": "La capital del Nuevo Valle conserva el clima de las caravanas: sin lluvias, de cielos inmensos, y ferozmente calurosa hacia mayo — los fuertes romanos a lo largo de la ruta de los cuarenta días se guarnecían en invierno, y por una buena razón.", "ja": "ニューバレー県の県都は、今もキャラバン時代さながらの気候を保っている——雨は降らず、空は途方もなく広く、5月には猛烈に暑くなる。「40日の道」沿いのローマ時代の砦が冬に守備隊を置いていたのには理由があったのだ。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  },
+  "siwa-oasis": {
+    "descriptors": {"es": "Lagos de sal · Otoños de cosecha de dátiles · Sombra construida por los bereberes", "ja": "塩湖 · ナツメヤシ収穫の秋 · ベルベル人が築いた日陰"},
+    "gapText": {"es": "17° entre el mediodía y la medianoche", "ja": "正午から真夜中まで17℃差"},
+    "troughText": {"es": "4° — noches de invierno", "ja": "4℃ — 冬の夜"},
+    "caption": {"es": "El calendario de Siwa es único: la cosecha de dátiles perfuma octubre, los lagos de sal siguen siendo aptos para nadar mucho después del verano, y las noches de invierno son lo bastante frías como para justificar los muros de kershef.", "ja": "シワ・オアシスのカレンダーはこの土地だけのものだ——10月はナツメヤシの収穫の香りに包まれ、塩湖は夏が終わってもずっと泳げるままで、冬の夜はケルシェフの壁が必要になるほど冷え込む。"},
+    "seasonLabel": {"es": "LA TEMPORADA — DE OCTUBRE A ABRIL", "ja": "ベストシーズン — 10月〜4月"}
+  }
+}
