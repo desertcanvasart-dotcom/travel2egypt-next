@@ -270,7 +270,7 @@ export default async function GuideArticlePage({ params }: Props) {
                 return (
                   <div className="prose-editorial max-w-none">
                     <Body value={split.before} locale={locale as Locale} />
-                    <PriceManifest page={pricePage} />
+                    <PriceManifest page={pricePage} locale={locale} />
                     <Body value={split.after} locale={locale as Locale} />
                   </div>
                 );
@@ -284,7 +284,7 @@ export default async function GuideArticlePage({ params }: Props) {
                     {article.body && (
                       <Body value={article.body} locale={locale as Locale} />
                     )}
-                    <PriceManifest page={pricePage} />
+                    <PriceManifest page={pricePage} locale={locale} />
                   </div>
                 );
               }
