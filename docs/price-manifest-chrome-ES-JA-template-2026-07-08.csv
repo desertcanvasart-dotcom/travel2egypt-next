@@ -1,9 +1,9 @@
 key,en,es,ja,note
-stamp_label,Checked,,,Stamp label; the date follows in bold.
-stamp_date,July 2026,,,"The `checked` value per page (es: ""julio de 2026"", ja: ""2026年7月""). Currently one date across pages."
-header_site,Site,,,Table header.
-header_adult,Adult,,,Table header.
-header_student,Student,,,Table header.
-header_hours,Hours,,,Table header.
-footnote_1,"Egypt revises its antiquities fees often, usually ahead of the winter season — treat these as accurate at the date above, and expect the direction of change to be upward. Student prices need an ISIC card, and ""hours"" means the gate: last entry is generally 45 minutes before it.",,,Owner-locked footnote ¶1 (verbatim from mock).
-footnote_2,"On our private tours, this table is our problem rather than yours — tickets are arranged and included as listed on each itinerary.",,,Owner-locked footnote ¶2 (verbatim from mock).
+stamp_label,Checked,Verificado,確認日,Stamp label; the date follows in bold.
+stamp_date,July 2026,julio de 2026,2026年7月,"The `checked` value per page (es: ""julio de 2026"", ja: ""2026年7月""). Currently one date across pages."
+header_site,Site,Lugar,場所,Table header.
+header_adult,Adult,Adulto,大人,Table header.
+header_student,Student,Estudiante,学生,Table header.
+header_hours,Hours,Horario,営業時間,Table header.
+footnote_1,"Egypt revises its antiquities fees often, usually ahead of the winter season — treat these as accurate at the date above, and expect the direction of change to be upward. Student prices need an ISIC card, and ""hours"" means the gate: last entry is generally 45 minutes before it.","Egipto revisa con frecuencia las tarifas de sus sitios arqueológicos, normalmente antes de la temporada de invierno — considera estos precios exactos en la fecha indicada arriba, y espera que cualquier cambio sea al alza. Los precios de estudiante requieren un carné ISIC, y «horario» se refiere a la puerta: la última entrada suele ser 45 minutos antes del cierre.",エジプトでは古代遺跡の入場料がしばしば改定されます。通常は冬のシーズンを前にした時期です——これらの価格は上記の日付時点で正確なものとしてお考えください。また、値上げの方向で変わることが多い点にもご留意ください。学生料金にはISICカード(国際学生証)が必要です。また「営業時間」はゲートの時間を指し、通常は閉門の45分前が最終入場となります。,Owner-locked footnote ¶1 (verbatim from mock).
+footnote_2,"On our private tours, this table is our problem rather than yours — tickets are arranged and included as listed on each itinerary.","En nuestros tours privados, esta tabla es cosa nuestra y no tuya — las entradas se gestionan y se incluyen tal como se indica en cada itinerario.",当社のプライベートツアーでは、この表の内容はお客様ではなく私たちが対応するものです——チケットの手配は各旅程に記載の通り、すべて含まれています。,Owner-locked footnote ¶2 (verbatim from mock).
