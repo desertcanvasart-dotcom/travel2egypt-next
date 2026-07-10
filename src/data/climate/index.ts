@@ -438,7 +438,7 @@ export const climateData: Record<string, ClimateRecord> = {
   },
   'marsa-alam': {
     highs: [23, 24, 26, 29, 32, 35, 36, 36, 34, 31, 28, 24],
-    lows: [12, 13, 15, 19, 23, 25, 27, 27, 26, 23, 19, 15],
+    lows: [14, 13, 15, 19, 23, 25, 27, 27, 26, 23, 19, 15],
     rain: null,
     season: { spans: [[8, 11], [0, 4]] },
     gapMonth: 5,
@@ -448,7 +448,7 @@ export const climateData: Record<string, ClimateRecord> = {
         descriptors:
           'The far south · The warmest winter sea · Desert-backed reefs',
         gapText: '10° between day and night',
-        troughText: '12° — the mildest January on the coast',
+        troughText: '14° — the mildest January on the coast',
         caption:
           'The furthest south we send beach travellers, and the reason is January: the warmest winter water in Egypt, over reefs that need nothing else said for them.',
         seasonLabel: 'THE SEASON — SEPTEMBER TO MAY',
@@ -723,7 +723,7 @@ export const climateData: Record<string, ClimateRecord> = {
       en: {
         descriptors: 'Winter-sun capital · A warm sea · Rainless',
         gapText: '10° between day and night',
-        troughText: '13° — the warmest January nights in Egypt',
+        troughText: '13° — among the warmest winter nights on the Red Sea',
         caption:
           'Sharm exists because of its winter: sun in the middle of a European January, a sea still fit for swimming, and rain so rare the airport treats it as news.',
         seasonLabel: 'THE SEASON — SEPTEMBER TO MAY',
@@ -1375,7 +1375,7 @@ export const climateData: Record<string, ClimateRecord> = {
       en: {
         descriptors:
           "The smallest oasis · The White Desert's doorstep · Freezing camp nights",
-        gapText: '19° — the widest swing in Egypt',
+        gapText: '19° — among the widest swings in Egypt',
         troughText: '2° — desert winter nights',
         caption:
           "Farafra fronts the White Desert, and its climate is the camping brief: flawless winter days, nights that touch freezing among the chalk, and a silence the thermometer can't measure.",
