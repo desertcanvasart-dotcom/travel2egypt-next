@@ -15524,7 +15524,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/guide/sharm-el-sheikh/sharm-el-sheikh-private-day-tours",
-    "destination": "/sharm-el-sheikh-private-day-tours",
+    "destination": "/guide/sharm-el-sheikh/tours-in-sharm-el-sheikh",
     "permanent": true
   },
   {
@@ -16635,6 +16635,166 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/guide/kharga-oasis/kharga-unearthed",
     "destination": "/ja/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/el-pasado-de-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/rosetta-rashid-historia",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rashido/rashido-no-rekishi",
+    "destination": "/ja/guide/rashido/rozetta-rashido-no-rekishi",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/como-viajar-a-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/como-llegar-a-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rashido/rashido-e-no-iki-kata",
+    "destination": "/ja/guide/rashido/rozetta-rashido-e-no-iki-kata",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/mejores-hoteles-en-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/donde-alojarse-en-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rashido/rashido-no-shukuhaku-shisetsu",
+    "destination": "/ja/guide/rashido/rozetta-rashido-no-shukuhaku",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/como-moverse-en-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/como-moverse-por-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rashido/rashido-de-no-ido-hoho",
+    "destination": "/ja/guide/rashido/rozetta-rashido-shinai-no-ido",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/tours-destacados-en-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/excursiones-en-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rashido/rashido-no-osusume-tsua",
+    "destination": "/ja/guide/rashido/rozetta-rashido-no-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/sabor-a-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/donde-comer-en-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rashido/rozetta-no-aji",
+    "destination": "/ja/guide/rashido/rozetta-rashido-no-shoku",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra/opciones-de-hospedaje-el-oasis-de-farafra",
+    "destination": "/es/guide/farafra/donde-alojarse-en-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafura-oashisu/farafura-oashisu-no-shukuhaku-joho",
+    "destination": "/ja/guide/farafura-oashisu/farafuraoashisu-no-shukuhaku-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra/como-moverse-en-oasis-de-farafra",
+    "destination": "/es/guide/farafra/como-moverse-por-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafura-oashisu/farafura-oashisu-no-kotsu-shudan-matome",
+    "destination": "/ja/guide/farafura-oashisu/farafuraoashisu-nai-no-ido",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra/cosas-que-hacer-en-farafra",
+    "destination": "/es/guide/farafra/que-hacer-en-el-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafura-oashisu/farafura-oashisu-no-akutibiti",
+    "destination": "/ja/guide/farafura-oashisu/farafuraoashisu-de-yari-tai-koto",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra/como-ir-al-oasis-de-farafra",
+    "destination": "/es/guide/farafra/como-llegar-al-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/farafura-oashisu/farafura-oashisu-e-no-akusesu-no-hinto",
+    "destination": "/ja/guide/farafura-oashisu/farafuraoashisu-e-no-iki-kata",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa/guia-de-hoteles-de-siwa",
+    "destination": "/es/guide/siwa/guia-de-alojamiento-en-siwa-donde-alojarse",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/shiwa-oashisu/shiwa-oashisu-no-shukuhaku-opushon",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-oashisu-no-shukuhaku",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa/fiestas-en-el-oasis-de-siwa",
+    "destination": "/es/guide/siwa/eventos-en-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/shiwa-oashisu/shiwa-oashisu-no-o-matsuri",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-no-matsuri-to-kisetsu-gyoji",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa/lo-mejor-del-oasis-de-siwa",
+    "destination": "/es/guide/siwa/solo-aqui-la-medicina-tradicional-en-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/shiwa-oashisu/shiwa-oashisu-koko-dake-no-taiken",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-dake-no-mono-dento-iryo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-al-natron/cosas-que-hacer-en-wadi-al-natron",
+    "destination": "/es/guide/wadi-al-natron/que-hacer-en-wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/wadi-aru-natoron/wadi-aru-natoron-no-akutibiti",
+    "destination": "/ja/guide/wadi-aru-natoron/wadiarunatorun-de-yaru-beki-koto",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-al-natron/solo-en-wadi-al-natron",
+    "destination": "/es/guide/wadi-al-natron/solo-en-wadi-al-natron-2",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/wadi-aru-natoron/wadi-aru-natoron-koko-dake-no-taiken",
+    "destination": "/ja/guide/wadi-aru-natoron/wadiarunatorun-dake-no-mono",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/sharm-el-sheikh-excursiones-privadas-de-un-dia",
+    "destination": "/es/guide/sharm-el-sheikh/tours-y-excursiones-en-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharumu-eru-sheiku/sharumu-eru-sheiku-puraibeto-dei-tsua",
+    "destination": "/ja/guide/sharumu-eru-sheiku/sharumuerusheiku-hatsu-no-tsua",
     "permanent": true
   }
 ];
