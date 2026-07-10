@@ -82,6 +82,13 @@ interface Props {
   copy: ClimateCopy;
   locale: string;
   cityName: string;
+  /**
+   * 'hero' (default) — the boxed card used at the top of every un-rewritten
+   * weather page; unchanged. 'inline' — surfaceless, top/bottom-ruled variant
+   * (PriceManifest v2 pattern) for placement inside a rewritten weather-page
+   * body. Defaulting to 'hero' keeps all existing callers byte-identical.
+   */
+  variant?: 'hero' | 'inline';
 }
 
 export default function ClimateSignature({
@@ -90,6 +97,7 @@ export default function ClimateSignature({
   copy,
   locale,
   cityName,
+  variant = 'hero',
 }: Props) {
   const { highs, lows, rain, season, gapMonth, troughMonth } = record;
   const hasRain = Array.isArray(rain);
@@ -137,7 +145,7 @@ export default function ClimateSignature({
   const ariaLabel = `Monthly day and night temperatures in ${cityName}`;
 
   return (
-    <div className="climate-signature">
+    <div className={variant === 'inline' ? 'climate-signature climate-signature--inline' : 'climate-signature'}>
       <div className="climate-signature__title" aria-hidden="true">
         {title}
       </div>

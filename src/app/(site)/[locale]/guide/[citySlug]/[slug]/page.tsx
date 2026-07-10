@@ -9,6 +9,7 @@ import { buildMetadata, pathByLocaleFromParentAndSlug } from '@/lib/seo';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
 import ClimateSignature from '@/components/climate/ClimateSignature';
+import { splitClimateRegion } from '@/components/climate/splitClimateRegion';
 import { climateData } from '@/data/climate';
 import PriceManifest from '@/components/prices/PriceManifest';
 import { splitPriceRegion } from '@/components/prices/splitPriceRegion';
@@ -126,6 +127,15 @@ export default async function GuideArticlePage({ params }: Props) {
   const climateEditorial = climateRecord?.editorial[locale as 'en' | 'es' | 'ja'];
   const climate = climateEditorial ? climateRecord : undefined;
 
+  // Per-page rewrite gate. A rewritten weather page carries the inline
+  // climate-signature marker in its body: it swaps the boxed-card hero for a
+  // full-bleed PHOTO hero and injects the ruled signature inline at the marker.
+  // Every un-rewritten weather page has no marker → found:false → boxed hero +
+  // untouched body, byte-identical to before this mechanism existed.
+  const climateSplit =
+    climate && article.body ? splitClimateRegion(article.body) : null;
+  const isRewrittenWeather = Boolean(climate && climateSplit?.found);
+
   const RAIN_DAYS_LABEL: Record<string, string> = {
     en: 'RAIN DAYS',
     es: 'DÍAS DE LLUVIA',
@@ -197,7 +207,7 @@ export default async function GuideArticlePage({ params }: Props) {
         <Breadcrumb items={breadcrumbItems} className="mb-8" />
 
         {/* Weather pages: climate signature (per-locale copy). Otherwise the photo hero. */}
-        {climate ? (
+        {climate && !isRewrittenWeather ? (
           <div className="mb-10">
             <ClimateSignature
               title={article.title}
@@ -250,6 +260,31 @@ export default async function GuideArticlePage({ params }: Props) {
               </p>
             )}
             {(() => {
+              // Rewritten weather page: inject the ruled inline climate
+              // signature at the marker's position, dropping the marker block.
+              // Gated on the per-page marker (isRewrittenWeather), so no
+              // un-rewritten weather page reaches this branch.
+              if (isRewrittenWeather && climate && climateSplit) {
+                return (
+                  <div className="prose-editorial max-w-none">
+                    <Body value={climateSplit.before} locale={locale as Locale} />
+                    <div className="my-10">
+                      <ClimateSignature
+                        title={article.title}
+                        cityName={article.parentCity.name}
+                        record={climate}
+                        copy={{
+                          ...climate.editorial[locale as 'en' | 'es' | 'ja'],
+                          rainLabel: RAIN_DAYS_LABEL[locale] ?? RAIN_DAYS_LABEL.en,
+                        }}
+                        locale={locale}
+                        variant="inline"
+                      />
+                    </div>
+                    <Body value={climateSplit.after} locale={locale as Locale} />
+                  </div>
+                );
+              }
               // Ticket-price pages (verified data present): suppress the
               // legacy flattened price bullets at RENDER time and put the
               // PriceManifest in their place. No Sanity content is touched;

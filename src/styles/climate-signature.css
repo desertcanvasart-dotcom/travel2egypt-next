@@ -117,3 +117,22 @@ html[lang='ja'] .climate-signature * {
 html[lang='ja'] .climate-signature__chart text {
   font-family: var(--font-noto-serif-jp), var(--font-cormorant), serif !important;
 }
+
+/* ── Inline variant ──────────────────────────────────────────────────────
+ * Surfaceless, top/bottom-ruled treatment (PriceManifest v2 pattern) for the
+ * chart when it sits INSIDE a rewritten weather-page body rather than as the
+ * boxed top-of-page hero. Additive only — the default .climate-signature
+ * (boxed) is untouched, so every un-rewritten weather page renders identically.
+ */
+.climate-signature--inline {
+  background: none;
+  border: none;
+  border-top: 2px solid var(--cs-navy);
+  border-bottom: 2px solid var(--cs-navy);
+  padding: 32px 0 24px;
+}
+@media (max-width: 640px) {
+  .climate-signature--inline {
+    padding: 24px 0 18px;
+  }
+}
