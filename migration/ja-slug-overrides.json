@@ -1,4 +1,8 @@
 {
+  "wp-page-59731": {
+    "slug": "haruga-oashisu-no-kiko",
+    "reason": "Wrong-city bug fix: the JA slug was harugada-no-tenki-yoho (ハルガダ = Hurghada, 'Hurghada's weather forecast') on the Kharga Oasis weather page — a live wrong-city URL. Corrected to haruga-oashisu-no-kiko (ハルガ・オアシス = Kharga Oasis, -no-kiko = climate), matching the established Kharga-cluster 'haruga-oashisu' convention and the -no-kiko suffix used by bahariya-oashisu-no-kiko. Old URL 301-redirected via redirect-map.csv. Pin here so a future migrate-ja-romaji-slugs re-run keeps it (title romaji would otherwise yield -no-kiko-gaido)."
+  },
   "wp-page-60948": {
     "slug": "shogai-no-aru-kata-no-ryoko",
     "reason": "Kuromoji parse glitch on 障がい (modern hiragana-mixed spelling of shōgai / 'disability'): algorithm produced 'sawa-gai' (mis-reading 障 as 'sawa', the reading typically used in 障る/sawaru). Also mis-read 方 in polite context as 'ho' instead of 'kata'. Corrected to faithful Hepburn: shogai-no-aru-kata-no-ryoko. Topic is accessibility/disability content where slug fidelity matters for credibility with Japanese-speaking visitors."
