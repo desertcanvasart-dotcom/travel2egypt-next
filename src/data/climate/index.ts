@@ -1170,7 +1170,7 @@ export const climateData: Record<string, ClimateRecord> = {
         gapText: '17° between noon and midnight',
         troughText: '7° — January nights',
         caption:
-          "Luxor's weather writes the itinerary: West Bank tombs at eight, Karnak before noon, felucca at five — from May to September that order isn't advice, it's survival.",
+          "Luxor’s weather writes the itinerary: West Bank tombs at eight, Karnak before noon, felucca at five — from May to September that order isn’t advice, it’s survival.",
         seasonLabel: 'THE SEASON — OCTOBER TO APRIL',
       },
       es: {
