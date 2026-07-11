@@ -11168,6 +11168,11 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/ja/guide/haruga/harugada-no-tenki-yoho",
+    "destination": "/ja/guide/haruga/haruga-oashisu-no-kiko",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
