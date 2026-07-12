@@ -11173,6 +11173,16 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/ja/guide/haruga/harugada-e-no-kotsu-shudan",
+    "destination": "/ja/guide/haruga/haruga-e-no-kotsu-shudan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/haruga/harugada-no-rekishi-o-tadoru-tabi",
+    "destination": "/ja/guide/haruga/haruga-no-rekishi-o-tadoru-tabi",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
