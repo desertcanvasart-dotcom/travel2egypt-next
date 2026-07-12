@@ -414,6 +414,14 @@ html[lang='ja'] h4 {
     margin-top: 1.5em;
     margin-bottom: 0.4em;
   }
+  /* h4 was previously unstyled, so any h4 heading collapsed to body size
+     (17px) and read as plain paragraph text — e.g. hotel names on the
+     accommodation guide pages. Step it cleanly below h3. */
+  .prose-editorial h4 {
+    font-size: 1.25rem;
+    margin-top: 1.25em;
+    margin-bottom: 0.35em;
+  }
   .prose-editorial blockquote {
     border-left: 3px solid var(--color-faience);
     padding-left: 1.25em;
