@@ -1135,7 +1135,7 @@ export const climateData: Record<string, ClimateRecord> = {
         gapText: '16° between noon and midnight',
         troughText: '9° — January nights',
         caption:
-          "The one temple the boats visit at golden hour — Kom Ombo at sunset is the cruise's best-lit appointment, and the evening air off the river is the reward for the day's heat.",
+          "The one temple the boats visit at golden hour — Kom Ombo at sunset is the cruise’s best-lit appointment, and the evening air off the river is the reward for the day’s heat.",
         seasonLabel: 'THE SEASON — OCTOBER TO APRIL',
       },
       es: {
