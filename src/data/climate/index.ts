@@ -310,7 +310,7 @@ export const climateData: Record<string, ClimateRecord> = {
         gapText: '7° between day and night',
         troughText: '10° — January nights',
         caption:
-          'A working harbour more than a resort: mild most of the year, humid in high summer, and best when the light is long — spring and autumn.',
+          'Port Said is a working harbour more than a resort: mild most of the year, humid in high summer, and best when the light is long — spring and autumn.',
         seasonLabel: 'THE SEASON — SPRING AND AUTUMN',
       },
       es: {
