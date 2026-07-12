@@ -276,7 +276,7 @@ export const climateData: Record<string, ClimateRecord> = {
         gapText: '7° — sea-tempered',
         troughText: '8° — a closed-season January',
         caption:
-          'Matruh runs on one season: the summer months when its lagoons do their Aegean impression — winter is windy, wet and largely shuttered, and we say so.',
+          'Marsa Matruh runs on one season: the summer months when its lagoons do their Aegean impression — winter is windy, wet, and largely shuttered, and we say so.',
         seasonLabel: 'THE SEASON — JUNE TO SEPTEMBER',
       },
       es: {
