@@ -518,7 +518,7 @@ export const climateData: Record<string, ClimateRecord> = {
         gapText: '11° between day and night',
         troughText: '10° — January nights',
         caption:
-          'A transit city with transit weather: dry, bright and windy where the canal meets the gulf — comfortable in the shoulder months, honest about July.',
+          'Suez is a transit city with transit weather: dry, bright and windy where the canal meets the gulf, comfortable in the shoulder months and honest about July.',
         seasonLabel: 'THE SEASON — OCTOBER TO MAY',
       },
       es: {
