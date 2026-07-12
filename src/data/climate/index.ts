@@ -200,27 +200,27 @@ export const climateData: Record<string, ClimateRecord> = {
     editorial: {
       en: {
         descriptors:
-          'Desert quiet · Bright and dry · Cool monastery mornings',
+          'Desert quiet · Bright and dry · Cool desert mornings',
         gapText: '13° between noon and midnight',
         troughText: '7° — January nights',
         caption:
-          'Monastery weather: dry, bright and still — winter mornings here are cold enough to explain the wool habits, and summer visits belong before noon.',
+          'A desert depression between Cairo and Alexandria, cooler and calmer than the deep south — a comfortable day out from either city almost any time of year.',
         seasonLabel: 'THE SEASON — OCTOBER TO APRIL',
       },
       es: {
-        descriptors: 'Silencio desértico · Luminoso y seco · Mañanas frescas de monasterio',
+        descriptors: 'Silencio desértico · Luminoso y seco · Mañanas frescas en el desierto',
         gapText: '13° entre el mediodía y la medianoche',
         troughText: '7° — noches de enero',
         caption:
-          'Clima de monasterio: seco, luminoso e inmóvil — las mañanas de invierno aquí son lo bastante frías como para explicar los hábitos de lana, y las visitas de verano deben hacerse antes del mediodía.',
+          'Una depresión desértica entre El Cairo y Alejandría, más fresca y tranquila que el sur profundo — una salida de un día cómoda desde cualquiera de las dos ciudades casi en cualquier época del año.',
         seasonLabel: 'LA TEMPORADA — DE OCTUBRE A ABRIL',
       },
       ja: {
-        descriptors: '砂漠の静けさ · 明るく乾燥 · 修道院の涼しい朝',
+        descriptors: '砂漠の静けさ · 明るく乾燥 · 涼しい砂漠の朝',
         gapText: '正午から真夜中まで13℃差',
         troughText: '7℃ — 1月の夜',
         caption:
-          '修道院にふさわしい気候——乾いて明るく、静か。ここの冬の朝は、修道士たちがウールの修道服をまとう理由がわかるほど冷え込み、夏の訪問は正午前が鉄則だ。',
+          'カイロとアレクサンドリアのあいだに広がる砂漠のくぼ地で、はるか南よりも涼しく穏やかです——ほぼ一年を通して、どちらの街からも快適な日帰り旅ができます。',
         seasonLabel: 'ベストシーズン — 10月〜4月',
       },
     },
