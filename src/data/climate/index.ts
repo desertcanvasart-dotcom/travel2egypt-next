@@ -456,7 +456,7 @@ export const climateData: Record<string, ClimateRecord> = {
       es: {
         descriptors: 'El extremo sur · El mar más cálido en invierno · Arrecifes respaldados por el desierto',
         gapText: '10° entre el día y la noche',
-        troughText: '12° — el enero más suave de la costa',
+        troughText: '14° — el enero más suave de la costa',
         caption:
           'El punto más al sur al que enviamos a los viajeros de playa, y la razón es enero: el agua invernal más cálida de Egipto, sobre unos arrecifes que no necesitan más presentación.',
         seasonLabel: 'LA TEMPORADA — DE SEPTIEMBRE A MAYO',
@@ -464,7 +464,7 @@ export const climateData: Record<string, ClimateRecord> = {
       ja: {
         descriptors: '最南端の地 · 冬でも最も温かい海 · 砂漠を背にしたサンゴ礁',
         gapText: '昼と夜で10℃差',
-        troughText: '12℃ — この海岸で最も穏やかな1月',
+        troughText: '14℃ — この海岸で最も穏やかな1月',
         caption:
           'ビーチ目的の旅行者を案内する最南端の地——その理由は1月にある。エジプトで最も温かい冬の海水温を誇り、その下に広がるサンゴ礁については、もはや多くを語る必要もない。',
         seasonLabel: 'ベストシーズン — 9月〜5月',
@@ -731,7 +731,7 @@ export const climateData: Record<string, ClimateRecord> = {
       es: {
         descriptors: 'La capital del sol invernal · Un mar cálido · Sin lluvias',
         gapText: '10° entre el día y la noche',
-        troughText: '13° — las noches de enero más cálidas de Egipto',
+        troughText: '13° — entre las noches de invierno más cálidas del mar Rojo',
         caption:
           'Sharm existe gracias a su invierno: sol en pleno enero europeo, un mar todavía apto para nadar, y una lluvia tan rara que el aeropuerto la trata como noticia.',
         seasonLabel: 'LA TEMPORADA — DE SEPTIEMBRE A MAYO',
@@ -739,7 +739,7 @@ export const climateData: Record<string, ClimateRecord> = {
       ja: {
         descriptors: '冬の陽光の首都 · 温かい海 · ほとんど雨が降らない',
         gapText: '昼と夜で10℃差',
-        troughText: '13℃ — エジプトで最も温かい1月の夜',
+        troughText: '13℃ — 紅海で有数の温かさを誇る冬の夜',
         caption:
           'シャルムはその冬のためにこそ存在する——ヨーロッパが真冬の1月にも太陽が降り注ぎ、海は今なお泳げるほど温かく、雨は空港がニュースとして扱うほど珍しい。',
         seasonLabel: 'ベストシーズン — 9月〜5月',
@@ -1383,7 +1383,7 @@ export const climateData: Record<string, ClimateRecord> = {
       },
       es: {
         descriptors: 'El oasis más pequeño · La puerta del Desierto Blanco · Noches de acampada bajo cero',
-        gapText: '19° — la mayor oscilación de Egipto',
+        gapText: '19° — una de las oscilaciones más amplias de Egipto',
         troughText: '2° — noches de invierno en el desierto',
         caption:
           'Farafra da la cara al Desierto Blanco, y su clima es el resumen de la acampada: días de invierno impecables, noches que rozan la congelación entre la caliza, y un silencio que el termómetro no puede medir.',
@@ -1391,7 +1391,7 @@ export const climateData: Record<string, ClimateRecord> = {
       },
       ja: {
         descriptors: '最も小さなオアシス · 白砂漠への入り口 · 凍える夜のキャンプ',
-        gapText: '19℃ — エジプトで最も大きな寒暖差',
+        gapText: '19℃ — エジプトでも有数の寒暖差',
         troughText: '2℃ — 砂漠の冬の夜',
         caption:
           'ファラフラは白砂漠の玄関に位置し、その気候はまさにキャンプの案内書のようなもの——冬の日中は申し分なく、白亜の岩の間で夜は氷点に迫り、そして温度計では測れない静寂がある。',
