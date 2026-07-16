@@ -508,11 +508,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/es/abu-simbel-en-avion-desde-asuan",
-    "destination": "/es/abu-simble-by-plane-from-aswan",
-    "permanent": true
-  },
-  {
     "source": "/ja/asuwan-kara-hikoki-de-iku-abu-shin-beru",
     "destination": "/ja/abu-simble-by-plane-from-aswan",
     "permanent": true
