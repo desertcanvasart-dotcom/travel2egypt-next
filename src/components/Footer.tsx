@@ -71,7 +71,7 @@ export function Footer({ locale }: FooterProps) {
           </div>
 
           <div className="t2e-foot-col">
-            <h5>{t('travelLabel')}</h5>
+            <h2>{t('travelLabel')}</h2>
             <ul>
               {/* Packages first (private, group), then the day-tour pair, then
                   hotels / cruises / guide / tips. Moved here from the old
@@ -86,7 +86,7 @@ export function Footer({ locale }: FooterProps) {
           </div>
 
           <div className="t2e-foot-col">
-            <h5>{t('resourcesLabel')}</h5>
+            <h2>{t('resourcesLabel')}</h2>
             <ul>
               {/* Guides listed in series order; the "all field guides"
                   index always sits at the bottom in italic as the
@@ -100,7 +100,7 @@ export function Footer({ locale }: FooterProps) {
           </div>
 
           <div className="t2e-foot-col">
-            <h5>{t('practicalLabel')}</h5>
+            <h2>{t('practicalLabel')}</h2>
             <ul>
               {/* Sorted alphabetically by the rendered EN label. */}
               <li><Link href="/distance-between-egyptian-cities">{t('cityDistances')}</Link></li>
@@ -111,7 +111,7 @@ export function Footer({ locale }: FooterProps) {
           </div>
 
           <div className="t2e-foot-col">
-            <h5>{t('aboutLabel')}</h5>
+            <h2>{t('aboutLabel')}</h2>
             <ul>
               <li><Link href="/about">{tNav('about')}</Link></li>
               <li><Link href="/contact">{tNav('contact')}</Link></li>

@@ -178,7 +178,7 @@ export default async function TravelTipDetailPage({ params }: Props) {
 
         <header className="max-w-[820px] pt-12">
           {tip.category?.name && categoryHref && (
-            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
               <Link href={categoryHref} className="transition-colors hover:text-night">
                 {tip.category.name}
               </Link>

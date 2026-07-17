@@ -57,7 +57,7 @@ export function ArchiveIndexView({ items, filters, labels, selected, onSelect }:
   return (
     <section className="border-t border-rule py-20 md:py-24">
       <div className="mb-10 border-b border-rule pb-7">
-        <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+        <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
           {labels.kicker}
         </p>
         <h2 className="font-serif text-[clamp(2.25rem,4vw,2.75rem)] font-normal leading-none text-faience">

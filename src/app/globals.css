@@ -38,6 +38,10 @@
   /* Sand — Western Desert gold (dark-bg accent only) */
   --color-sand: #c9a961;
   --color-sand-warm: #b8924d;
+  /* Gold-ink — the LIGHT-BG counterpart of sand: same gold family, darkened
+   * to clear WCAG AA 4.5:1 on paper (5.48:1). Use for gold text on cream;
+   * sand stays dark-bg only. (2026-07-17 a11y.) */
+  --color-gold-ink: #7d5f31;
 
   /* Night — primary text on paper */
   --color-night: #13110a;

@@ -147,7 +147,7 @@ export default async function TravelTipsArchivePage({ params }: Props) {
         {/* Type-led header */}
         <header className="border-b border-rule py-14 md:py-16">
           {archive?.kicker && (
-            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
               {archive.kicker}
             </p>
           )}
@@ -178,7 +178,7 @@ export default async function TravelTipsArchivePage({ params }: Props) {
         {/* Cornerstone "Start here" */}
         {cornerstoneTip && (
           <section className="border-b border-rule py-16 md:py-20">
-            <p className="mb-8 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+            <p className="mb-8 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
               {t('cornerstoneKicker')}
             </p>
             <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1fr_1fr] lg:gap-16">
@@ -193,7 +193,7 @@ export default async function TravelTipsArchivePage({ params }: Props) {
                 )}
                 <Link
                   href={`/travel-tips/${cornerstoneTip.slug}`}
-                  className="group mt-7 inline-flex items-center gap-2.5 border-b border-night pb-1 font-sans text-sm text-night transition-colors hover:border-sand hover:text-sand-warm"
+                  className="group mt-7 inline-flex items-center gap-2.5 border-b border-night pb-1 font-sans text-sm text-night transition-colors hover:border-sand hover:text-gold-ink"
                 >
                   {t('cornerstoneLink')}
                   <span aria-hidden className="transition-transform duration-200 group-hover:translate-x-1">→</span>
@@ -263,7 +263,7 @@ export default async function TravelTipsArchivePage({ params }: Props) {
         {indexCategories.length > 0 && (
           <section className="border-t border-rule py-16 md:py-20">
             <div className="mb-10">
-              <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+              <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
                 {t('contentsKicker')}
               </p>
               <h2 className="font-serif text-[clamp(2rem,4vw,2.75rem)] font-normal leading-none text-faience">

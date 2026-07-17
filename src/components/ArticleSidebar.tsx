@@ -100,7 +100,7 @@ export function ArticleSidebar({ headings, filedUnder, labels, shareTitle }: Pro
           aria-label={labels.toc}
           className="mb-9 border-b border-rule pb-9"
         >
-          <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand-warm">
+          <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-gold-ink">
             {labels.toc}
           </p>
           <ul className="space-y-3">
@@ -134,7 +134,7 @@ export function ArticleSidebar({ headings, filedUnder, labels, shareTitle }: Pro
           <button
             type="button"
             onClick={openConcierge}
-            className="font-sans text-xs uppercase tracking-[0.06em] text-sand-warm transition-colors hover:text-night"
+            className="font-sans text-xs uppercase tracking-[0.06em] text-gold-ink transition-colors hover:text-night"
           >
             {labels.conciergeCta} <span aria-hidden>→</span>
           </button>
@@ -143,7 +143,7 @@ export function ArticleSidebar({ headings, filedUnder, labels, shareTitle }: Pro
 
       {filedUnder.length > 0 && (
         <div className="mb-9 border-b border-rule pb-9">
-          <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand-warm">
+          <p className="mb-3 font-sans text-xs font-medium uppercase tracking-[0.18em] text-gold-ink">
             {labels.filedUnder}
           </p>
           <p className="font-sans text-sm leading-relaxed text-night-soft">
