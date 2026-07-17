@@ -24,7 +24,7 @@ export function FacetBadgeLine({
       {facets.map((f) => {
         if (f.render === 'stars') {
           return (
-            <span key={f.key} className="tracking-[0.1em] text-sand">
+            <span key={f.key} className="tracking-[0.1em] text-gold-ink">
               {f.label}
             </span>
           );
@@ -32,7 +32,7 @@ export function FacetBadgeLine({
         if (f.render === 'text') {
           return (
             <span key={f.key} className="font-serif text-sm normal-case italic tracking-normal text-night-soft">
-              <span aria-hidden className="mr-2 text-sand">·</span>
+              <span aria-hidden className="mr-2 text-gold-ink">·</span>
               {f.label}
             </span>
           );
