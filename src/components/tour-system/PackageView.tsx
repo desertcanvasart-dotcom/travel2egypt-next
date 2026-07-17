@@ -336,13 +336,6 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               </section>
             )}
 
-            {tour.conciergeNote && (
-              <div className="note">
-                <span className="t2e-kicker">{ts('conciergeNoteLabel')}</span>
-                <p>{tour.conciergeNote}</p>
-              </div>
-            )}
-
             {hasIncl && (
               <>
                 <h2>{ts('includedTitle')}</h2>
@@ -365,12 +358,27 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                 <p>{tour.accessNote}</p>
               </>
             )}
+
+            {/* "Good for" — audience fit, demoted from a section heading to a
+                compact kicker aside and placed just above the closing
+                concierge note (orientation → tailoring → CTA). */}
             {tour.audienceNote && (
-              <>
-                <h2>{tour.audienceNoteTitle ?? ts('audienceTitle')}</h2>
+              <div className="audience">
+                <span className="t2e-kicker">{tour.audienceNoteTitle ?? ts('audienceTitle')}</span>
                 <p>{tour.audienceNote}</p>
-              </>
+              </div>
             )}
+
+            {tour.conciergeNote && (
+              <div className="note">
+                <span className="t2e-kicker">{ts('conciergeNoteLabel')}</span>
+                <p>{tour.conciergeNote}</p>
+              </div>
+            )}
+
+            <p className="body-cta">
+              <Link href={`/plan-your-tour?tour=${encodeURIComponent(tour.slug)}`}>{ts('planThis')} →</Link>
+            </p>
           </article>
 
           <aside className="rail">
