@@ -691,7 +691,7 @@ export const climateData: Record<string, ClimateRecord> = {
         gapText: '15° of mountain air',
         troughText: '−2° — January, and honestly cold',
         caption:
-          'The one Egyptian weather page with snow on it: at 1,600 metres the winter nights freeze, the summer days stay mountain-mild, and the summit sunrise wants every layer you brought.',
+          'The one Egyptian weather page with snow on it: at 1,600 metres, winter nights here freeze in earnest, the summer days stay mountain-mild, and the summit sunrise wants every layer you brought.',
         seasonLabel: 'THE SEASON — SPRING AND AUTUMN',
       },
       es: {
