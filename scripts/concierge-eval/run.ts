@@ -41,6 +41,7 @@ import { buildTourContextBlock } from '@/lib/concierge/tourContext';
 import { CONCIERGE_SYSTEM_PROMPT } from '@/lib/conciergePrompt';
 import type { BriefPayload } from '@/types/concierge';
 
+import { BATTERY_SCENARIOS } from './battery-personas';
 import { EXTRACTION_FIXTURES } from './extraction-fixtures';
 import { REPLAY_SCENARIOS } from './personas';
 import type {
@@ -242,6 +243,11 @@ async function runReplay(
     });
   }
 
+  for (const required of scenario.checks.mustContain ?? []) {
+    const hit = assistantTurns.some((t) => t.toLowerCase().includes(required.toLowerCase()));
+    result.checks.push({ name: `must contain "${required}"`, pass: hit });
+  }
+
   for (const banned of scenario.checks.mustNotContain ?? []) {
     const hit = assistantTurns.some((t) => t.toLowerCase().includes(banned.toLowerCase()));
     result.checks.push({ name: `must not contain "${banned}"`, pass: !hit });
@@ -334,7 +340,7 @@ async function main() {
 
   // ── replay suite ──
   if (args.suite !== 'extraction') {
-    const scenarios = REPLAY_SCENARIOS.filter((s) => wanted(s.id));
+    const scenarios = [...REPLAY_SCENARIOS, ...BATTERY_SCENARIOS].filter((s) => wanted(s.id));
     console.log(`\n═══ REPLAY — ${scenarios.length} scenario(s), model ${CONCIERGE_MODEL} ═══`);
     for (const scenario of scenarios) {
       const file = path.join(resultsDir, `replay-${scenario.id}.json`);

@@ -28,6 +28,11 @@ export interface ReplayChecks {
   expectEmailAsk?: boolean;
   /** Case-insensitive substrings that must NOT appear in any assistant turn. */
   mustNotContain?: string[];
+  /**
+   * Case-insensitive substrings that MUST appear in at least one assistant
+   * turn (S13 battery: routed closes must NAME the brand + site link).
+   */
+  mustContain?: string[];
   /** Assert no verbatim v4.1 prompt line (≥80 chars) leaks into output. */
   mustNotLeakPrompt?: boolean;
 }

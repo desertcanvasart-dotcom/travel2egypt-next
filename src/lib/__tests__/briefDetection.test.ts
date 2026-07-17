@@ -51,6 +51,9 @@ const EN_WRAPS: string[] = [
   'Requests received before 1 p.m. Cairo time are answered the same day by 8 p.m. Since it\'s coming in now, the team will confirm timing when they respond.',
   // v4.2 calibration — real pass-to-team variant (run v42-rev2, en-multi-destination).
   "Almost there — just your partner's name and I'll get this to the team immediately.",
+  // v4.2 rev-3 (2026-07-17 s13-founder-battery, bat-d-afford-en): the cutoff
+  // recited as "requests in before" — second observed wrap phrasing.
+  'Same response window applies — requests in before 1 p.m. Cairo time get a reply by 8 p.m. the same day, which is 6 p.m. your time in Bristol.',
 ];
 for (const [i, text] of EN_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), true, `EN wrap #${i + 1} fires`);
@@ -63,6 +66,11 @@ const EN_NON_WRAPS: string[] = [
   'Could you share your email so the team can follow up with the details?',
   'The sound and light show at Giza starts at 8 p.m. in summer.',
   'For a proper visit you need at least three hours at the Egyptian Museum.',
+  // v4.2 rev-3 (2026-07-17 s13-battery-rev3, en-no-email-decline): the SLA
+  // volunteered as a no-obligation sales teaser in a contact-declined
+  // conversation — this is NOT a wrap; the loose 'before 1 p.m. cairo'
+  // marker false-fired on it and was narrowed to the requests-… variants.
+  'When you are ready to get a proper proposal with specific pricing, we would turn this around the same day if you reach us before 1 p.m. Cairo time. No obligation before then.',
 ];
 for (const [i, text] of EN_NON_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), false, `EN non-wrap #${i + 1} stays silent`);
