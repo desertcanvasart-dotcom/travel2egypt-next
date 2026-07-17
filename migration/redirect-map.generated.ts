@@ -343,23 +343,48 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/ja/puraibeeto-deitsuaa",
-    "destination": "/ja/private-day-tours",
+    "source": "/ja/private-day-tours",
+    "destination": "/ja/puraibeeto-deitsuaa",
     "permanent": true
   },
   {
-    "source": "/ja/shoninzu-guruupu-deitsuaa",
-    "destination": "/ja/group-day-tours",
+    "source": "/ja/group-day-tours",
+    "destination": "/ja/shoninzu-guruupu-deitsuaa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-travel-packages",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
     "permanent": true
   },
   {
     "source": "/ja/puraibeeto-pakkeeji",
-    "destination": "/ja/egypt-travel-packages",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
     "permanent": true
   },
   {
-    "source": "/ja/shoninzu-guruupu-pakkeeji",
-    "destination": "/ja/small-group-travel-packages",
+    "source": "/ja/small-group-travel-packages",
+    "destination": "/ja/shoninzu-guruupu-pakkeeji",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/small-group-travel-packages",
+    "destination": "/es/paquetes-en-grupo-reducido",
+    "permanent": true
+  },
+  {
+    "source": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/es/group-day-tours",
+    "destination": "/es/excursiones-en-grupo-de-un-dia",
     "permanent": true
   },
   {
