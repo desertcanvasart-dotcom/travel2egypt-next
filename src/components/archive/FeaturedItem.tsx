@@ -38,7 +38,7 @@ export function FeaturedItem({
   return (
     <section className="border-b border-rule py-20 md:py-24">
       {kicker && (
-        <p className="mb-8 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+        <p className="mb-8 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
           {kicker}
         </p>
       )}
@@ -60,7 +60,7 @@ export function FeaturedItem({
           )}
           <Link
             href={item.href}
-            className="group mt-8 inline-flex items-center gap-2.5 border-b border-night pb-1 font-sans text-sm text-night transition-colors hover:border-sand hover:text-sand-warm"
+            className="group mt-8 inline-flex items-center gap-2.5 border-b border-night pb-1 font-sans text-sm text-night transition-colors hover:border-sand hover:text-gold-ink"
           >
             {linkLabel}
             <span aria-hidden className="transition-transform duration-200 group-hover:translate-x-1">

@@ -49,7 +49,7 @@ export function PlaceHero({
       <header className="border-b border-rule">
         <div className="mx-auto max-w-7xl px-6 pb-10 pt-20">
           {kickerNode && (
-            <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+            <p className="mb-4 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
               {kickerNode}
             </p>
           )}

@@ -14,7 +14,7 @@ export function ArchiveHeader({
   return (
     <header className="border-b border-rule py-14 md:py-16">
       {kicker && (
-        <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+        <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
           {kicker}
         </p>
       )}

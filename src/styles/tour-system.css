@@ -25,7 +25,11 @@
   --navy: #14243b;
   --navy-mute: #5c6675;
   --gold: #b89456;
-  --gold-dark: #8c6b38;
+  /* Text-gold on light paper. Darkened #8c6b38 -> #7d5f31 (2026-07-17 a11y)
+   * so small gold text (kickers, labels, links) clears WCAG AA 4.5:1 on all
+   * three paper shades (5.48 / 5.10 / 4.66). --gold stays the decorative
+   * brand gold for borders and dark-section accents (good contrast on black). */
+  --gold-dark: #7d5f31;
   --rule: rgba(22, 32, 46, 0.14);
   --rule-soft: rgba(22, 32, 46, 0.07);
   --black: #14110a;
@@ -85,7 +89,9 @@
 .t2e-nav-links { display: flex; align-items: center; gap: 36px; list-style: none; }
 .t2e-nav-links { margin: 0; padding: 0; }
 .t2e-nav-links a,
-.t2e-nav-links button { text-decoration: none; font-family: var(--ui); font-size: 14px; color: var(--navy); background: transparent; border: 0; padding: 0; cursor: pointer; }
+.t2e-nav-links button { text-decoration: none; font-family: var(--ui); font-size: 14px; color: var(--navy); background: transparent; border: 0; padding: 0; cursor: pointer;
+  /* WCAG 2.2 target-size ≥24px (2026-07-17 a11y). */
+  display: inline-flex; align-items: center; min-height: 24px; }
 .t2e-nav-links a.active, .t2e-nav-links a:hover,
 .t2e-nav-links button:hover { color: var(--gold-dark); }
 
@@ -104,9 +110,9 @@
   font-family: var(--ui); font-size: 13px; line-height: 1.6; padding: 9px 22px; gap: 40px;
 }
 .t2e-nav-right { display: flex; align-items: center; gap: 26px; font-family: var(--ui); font-size: 13px; }
-.t2e-nav-right button { font-family: var(--ui); font-size: 13px; color: var(--navy); background: transparent; border: 0; padding: 0; cursor: pointer; display: flex; align-items: center; gap: 6px; }
+.t2e-nav-right button { font-family: var(--ui); font-size: 13px; color: var(--navy); background: transparent; border: 0; padding: 0; cursor: pointer; display: flex; align-items: center; gap: 6px; min-height: 24px; }
 .t2e-nav-right button:hover { color: var(--gold-dark); }
-.t2e-nav-cta { text-decoration: none; border-bottom: 1px solid var(--navy); padding-bottom: 3px; color: var(--navy); }
+.t2e-nav-cta { text-decoration: none; border-bottom: 1px solid var(--navy); padding-bottom: 3px; color: var(--navy); display: inline-flex; align-items: center; min-height: 24px; }
 .t2e-nav-cta:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
 
 /* CRUMB (global) */
@@ -133,7 +139,7 @@
 .t2e-foot-top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 56px; }
 .t2e-foot-brand .t2e-logo { margin-bottom: 16px; }
 .t2e-foot-brand p { font-family: var(--display); font-style: italic; font-size: 16px; color: var(--navy-mute); }
-.t2e-foot-col h5 { font-family: var(--ui); font-size: 11px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 18px; }
+.t2e-foot-col h2 { font-family: var(--ui); font-size: 11px; font-weight: 500; letter-spacing: .16em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 18px; }
 .t2e-foot-col ul { list-style: none; }
 .t2e-foot-col li { margin-bottom: 11px; }
 .t2e-foot-col a { font-family: var(--read); font-size: 15px; color: var(--navy); text-decoration: none; }
@@ -148,7 +154,9 @@
 .t2e-foot-brands .brand span { font-family: var(--display); font-style: italic; font-size: 14px; color: var(--navy-mute); margin-left: 8px; }
 .t2e-foot-legal { padding-top: 24px; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; font-family: var(--ui); font-size: 12px; color: var(--navy-mute); flex-wrap: wrap; gap: 16px; }
 .t2e-foot-legal a,
-.t2e-foot-legal button { color: var(--navy-mute); text-decoration: none; margin-left: 20px; font-family: var(--ui); font-size: 12px; background: transparent; border: 0; padding: 0; cursor: pointer; }
+.t2e-foot-legal button { color: var(--navy-mute); text-decoration: none; margin-left: 20px; font-family: var(--ui); font-size: 12px; background: transparent; border: 0; padding: 0; cursor: pointer;
+  /* WCAG 2.2 target-size: ≥24px touch targets (2026-07-17 a11y). */
+  display: inline-flex; align-items: center; min-height: 24px; }
 .t2e-foot-legal a:hover, .t2e-foot-legal button:hover { color: var(--gold-dark); }
 .t2e-foot-legal .legal-links { display: flex; flex-wrap: wrap; align-items: baseline; }
 
@@ -783,7 +791,7 @@ html[lang='ja'] .lvl-single .dep-row .dp-price { font-size: 16px; white-space: n
 .lvl-home .gfeat-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
 .lvl-home .gfc { background: var(--paper-warm); padding: 28px 26px; text-decoration: none; color: inherit; transition: background .2s; }
 .lvl-home .gfc:hover { background: var(--paper-deep); }
-.lvl-home .gfc .ix { font-family: var(--read); font-style: italic; font-size: 14px; color: var(--gold); margin-bottom: 11px; }
+.lvl-home .gfc .ix { font-family: var(--read); font-style: italic; font-size: 14px; color: var(--gold-dark); margin-bottom: 11px; }
 .lvl-home .gfc h3 { font-family: var(--display); font-weight: 400; font-size: 23px; line-height: 1.05; color: var(--navy); margin-bottom: 8px; }
 .lvl-home .gfc p { font-size: 14.5px; line-height: 1.5; color: var(--navy-mute); }
 
@@ -804,7 +812,7 @@ html[lang='ja'] .lvl-single .dep-row .dp-price { font-size: 16px; white-space: n
 .lvl-home .plan .sub { max-width: 540px; margin-top: 24px; font-size: 18px; line-height: 1.6; color: var(--on-dark-mute); }
 .lvl-home .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 34px; margin-top: 58px; padding-top: 40px; border-top: 1px solid var(--rule-dark); }
 .lvl-home .step .n { font-family: var(--read); font-style: italic; font-size: 15px; color: var(--gold); margin-bottom: 13px; }
-.lvl-home .step h4 { font-family: var(--display); font-weight: 400; font-size: 23px; line-height: 1.05; color: var(--on-dark); margin-bottom: 9px; }
+.lvl-home .step h3 { font-family: var(--display); font-weight: 400; font-size: 23px; line-height: 1.05; color: var(--on-dark); margin-bottom: 9px; }
 .lvl-home .step p { font-size: 14.5px; line-height: 1.52; color: var(--on-dark-mute); }
 .lvl-home .plan-cta { display: flex; gap: 22px; margin-top: 52px; padding-top: 40px; border-top: 1px solid var(--rule-dark); flex-wrap: wrap; align-items: center; }
 .lvl-home .btn { font-family: var(--ui); font-size: 13px; letter-spacing: .06em; text-decoration: none; padding: 15px 26px; display: inline-flex; align-items: center; gap: 12px; }

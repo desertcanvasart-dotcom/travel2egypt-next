@@ -34,7 +34,7 @@ const COLS_CLASS: Record<number, string> = {
 function WeaveColumnView({ column }: { column: WeaveColumn }) {
   return (
     <div>
-      <h3 className="mb-6 border-b border-rule pb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand-warm">
+      <h3 className="mb-6 border-b border-rule pb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-gold-ink">
         {column.heading}
       </h3>
       <div>
@@ -111,7 +111,7 @@ function LinkList({ items }: { items: WeaveItem[] }) {
     <ul>
       {items.map((item) => (
         <li key={item.id} className="border-b border-rule last:border-0">
-          <Link href={item.href} className="block py-3.5 transition-colors hover:text-sand-warm">
+          <Link href={item.href} className="block py-3.5 transition-colors hover:text-gold-ink">
             <span className="block font-serif text-lg leading-snug text-night">{item.title}</span>
             {item.kicker && (
               <span className="mt-0.5 block font-sans text-[0.625rem] uppercase tracking-[0.1em] text-night-soft">
@@ -128,7 +128,7 @@ function LinkList({ items }: { items: WeaveItem[] }) {
 function FootColumn({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div>
-      <h4 className="mb-6 border-b border-rule pb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-sand-warm">
+      <h4 className="mb-6 border-b border-rule pb-4 font-sans text-xs font-medium uppercase tracking-[0.18em] text-gold-ink">
         {label}
       </h4>
       {children}

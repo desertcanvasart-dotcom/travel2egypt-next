@@ -39,7 +39,7 @@ export function ArchiveNavigator({ config }: { config: NavigatorConfig }) {
                   </span>
                 )}
               </span>
-              <span className="shrink-0 whitespace-nowrap font-sans text-xs tracking-[0.06em] text-sand-warm">
+              <span className="shrink-0 whitespace-nowrap font-sans text-xs tracking-[0.06em] text-gold-ink">
                 {item.countLabel}
               </span>
             </Link>

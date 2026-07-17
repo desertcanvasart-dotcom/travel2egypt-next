@@ -47,7 +47,7 @@ export function ThemedCollection({
     <div className="mb-24 md:mb-28">
       <div className="mb-12 grid grid-cols-1 items-end gap-8 lg:grid-cols-[1fr_1.6fr] lg:gap-16">
         <div>
-          <p className="font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+          <p className="font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
             {kicker}
           </p>
           <h3 className="mt-4 font-serif text-[clamp(2rem,3.6vw,3.125rem)] font-normal leading-[1.02] tracking-[-0.01em] text-faience">

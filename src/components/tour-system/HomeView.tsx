@@ -274,7 +274,7 @@ export async function HomeView({
             {steps.map((key, i) => (
               <div className="step" key={key}>
                 <div className="n">{ROMAN[i]}</div>
-                <h4>{t(`${key}Title`)}</h4>
+                <h3>{t(`${key}Title`)}</h3>
                 <p>{t(`${key}Body`)}</p>
               </div>
             ))}

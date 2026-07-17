@@ -290,7 +290,7 @@ export default async function ArticlePage({ params }: Props) {
 
         <header className="max-w-[820px] pt-12">
           {article.categoryTrail && (
-            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-sand-warm">
+            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
               <Link
                 href={`/blog/category/${article.categoryTrail.slug}`}
                 className="transition-colors hover:text-night"

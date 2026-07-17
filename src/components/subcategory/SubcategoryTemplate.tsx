@@ -98,7 +98,7 @@ export function SubcategoryTemplate({
               {allLink && (
                 <Link
                   href={allLink.href}
-                  className="shrink-0 whitespace-nowrap border-b border-sand pb-1 font-sans text-sm text-night transition-colors hover:text-sand-warm"
+                  className="shrink-0 whitespace-nowrap border-b border-sand pb-1 font-sans text-sm text-night transition-colors hover:text-gold-ink"
                 >
                   {allLink.label} <span aria-hidden>→</span>
                 </Link>
