@@ -30,10 +30,35 @@ export const routing = defineRouting({
   // localized slug.
   localeDetection: false,
   pathnames: {
-    '/private-day-tours': '/private-day-tours',
-    '/group-day-tours': '/group-day-tours',
-    '/egypt-travel-packages': '/egypt-travel-packages',
-    '/small-group-travel-packages': '/small-group-travel-packages',
+    // Commercial category landings — localized leaves (2026-07-18, owner call).
+    // Deliberate exception to the shared-English-path chrome policy above: these
+    // four are marketing/index pages where a translated (ES) / Egypt-branded
+    // Hepburn-romaji (JA) leaf was reinstated. The JA romaji slugs had been
+    // retired on Jun 17 and 301'd to the English leaf; that direction is now
+    // reversed in migration/redirect-map.csv (English leaf → localized), and
+    // the JA `egypt-travel-packages` leaf was rebranded from the old
+    // `puraibeeto-pakkeeji` to `ejiputo-ryoko-pakkeeji`. The shared-English
+    // policy still stands for every OTHER static route.
+    '/private-day-tours': {
+      en: '/private-day-tours',
+      es: '/excursiones-privadas-de-un-dia',
+      ja: '/puraibeeto-deitsuaa',
+    },
+    '/group-day-tours': {
+      en: '/group-day-tours',
+      es: '/excursiones-en-grupo-de-un-dia',
+      ja: '/shoninzu-guruupu-deitsuaa',
+    },
+    '/egypt-travel-packages': {
+      en: '/egypt-travel-packages',
+      es: '/paquetes-de-viaje-a-egipto',
+      ja: '/ejiputo-ryoko-pakkeeji',
+    },
+    '/small-group-travel-packages': {
+      en: '/small-group-travel-packages',
+      es: '/paquetes-en-grupo-reducido',
+      ja: '/shoninzu-guruupu-pakkeeji',
+    },
     '/packages': '/packages',
     '/tours': '/tours',
     '/nile-cruises': '/nile-cruises',
