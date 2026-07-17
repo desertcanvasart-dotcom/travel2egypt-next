@@ -12398,6 +12398,11 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/es/guide/edfu/donde-alojarse-2",
+    "destination": "/es/guide/edfu/donde-alojarse-en-edfu",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
