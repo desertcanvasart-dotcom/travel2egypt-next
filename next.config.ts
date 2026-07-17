@@ -37,7 +37,16 @@ const nextConfig: NextConfig = {
     // Sourced from migration/redirect-map.csv via the Phase 3b regenerator
     // (scripts/wp-import/redirect-map-regenerate.ts). CSV is canonical;
     // the .generated.ts module is the build-time-importable artifact.
-    return generatedRedirects;
+    //
+    // Non-ASCII sources (Japanese-script legacy slugs) must be percent-encoded:
+    // Next matches redirect sources against the percent-encoded request path,
+    // so raw-unicode sources never fire. CSV stays human-readable; encode here.
+    const encodePath = (p: string) => (/[^\x20-\x7e]/.test(p) ? encodeURI(p) : p);
+    return generatedRedirects.map((r) => ({
+      ...r,
+      source: encodePath(r.source),
+      destination: encodePath(r.destination),
+    }));
   },
 };
 
