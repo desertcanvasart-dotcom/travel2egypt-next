@@ -64,6 +64,14 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   { path: '/', priority: 1.0 },
   { path: '/tours', priority: 0.9 },
   { path: '/packages', priority: 0.9 },
+  // Commercial category landings. Paths are the EN pathnames keys;
+  // buildLocaleUrl → getPathname emits the localized ES/JA leaves declared in
+  // routing.ts (e.g. /es/paquetes-de-viaje-a-egipto, /ja/ejiputo-ryoko-pakkeeji).
+  // These four were previously absent from the sitemap in every locale.
+  { path: '/egypt-travel-packages', priority: 0.9 },
+  { path: '/small-group-travel-packages', priority: 0.9 },
+  { path: '/private-day-tours', priority: 0.9 },
+  { path: '/group-day-tours', priority: 0.9 },
   { path: '/guide', priority: 0.9 },
   // /wiki redirects to /wiki/monuments in v1 (session 31 surgical defer);
   // surface the live landing directly so search engines index that URL.
