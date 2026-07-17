@@ -2634,7 +2634,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/kairo/madrassa-mausoleum-of-qalawun",
-    "destination": "/ja/guide/kairo/karaun-no-madorasa-to-reibyo",
+    "destination": "/ja/guide/kairo/surutan-karaun-fukugotai",
     "permanent": true
   },
   {
@@ -11149,17 +11149,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/wiki/monuments/madrassa-mausoleum-of-qalawun",
-    "destination": "/guide/cairo/madrassa-mausoleum-of-qalawun",
+    "destination": "/guide/cairo/complex-of-sultan-al-mansur-qalawun",
     "permanent": true
   },
   {
     "source": "/es/wiki/monuments/madraza-y-mausoleo-de-qalawun",
-    "destination": "/es/guide/el-cairo/madraza-y-mausoleo-de-qalawun",
+    "destination": "/es/guide/el-cairo/complejo-del-sultan-qalawun",
     "permanent": true
   },
   {
     "source": "/ja/wiki/monuments/カラーウーンのマドラサと霊廟",
-    "destination": "/ja/guide/kairo/karaun-no-madorasa-to-reibyo",
+    "destination": "/ja/guide/kairo/surutan-karaun-fukugotai",
     "permanent": true
   },
   {
@@ -12395,6 +12395,21 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/category/luxury-stay",
     "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/guide/cairo/madrassa-mausoleum-of-qalawun",
+    "destination": "/guide/cairo/complex-of-sultan-al-mansur-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/el-cairo/madraza-y-mausoleo-de-qalawun",
+    "destination": "/es/guide/el-cairo/complejo-del-sultan-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/kairo/karaun-no-madorasa-to-reibyo",
+    "destination": "/ja/guide/kairo/surutan-karaun-fukugotai",
     "permanent": true
   },
   {
