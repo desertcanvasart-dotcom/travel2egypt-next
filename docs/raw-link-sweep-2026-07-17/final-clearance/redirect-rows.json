@@ -1,0 +1,1272 @@
+[
+  {
+    "from": "/es/guia-de-viaje-de-al-minya/actividades",
+    "to": "/es/guide/al-minya/que-hacer-en-al-minya",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-beni-suef/actividades-explorar",
+    "to": "/es/guide/beni-suef/que-hacer-en-beni-suef",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-esna/el-tiempo",
+    "to": "/es/guide/esna/es-clima-en-esna",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-alejandria/actividades",
+    "to": "/es/guide/alejandria/que-hacer-en-alejandria",
+    "klass": "kind"
+  },
+  {
+    "from": "/ismailia-travel-guide/best-times-visit",
+    "to": "/guide/ismailia/ismailia-weather-guide",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-alejandria/alojamientos-diversos",
+    "to": "/es/guide/alejandria/donde-alojarse-en-alejandria",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/historia-de-cairo",
+    "to": "/es/guide/el-cairo/historia-de-el-cairo-de-la-antiguedad-hasta-hoy",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/como-moverse-en-cairo",
+    "to": "/es/guide/el-cairo/como-moverse-por-el-cairo",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/mejores-hoteles-en-abu-simbel",
+    "to": "/es/guide/abu-simbel/donde-alojarse-en-abu-simbel",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/como-moverse-en-abu-simbel",
+    "to": "/es/guide/abu-simbel/como-moverse-por-abu-simbel",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/cosas-que-hacer-en-abu-simbel",
+    "to": "/es/guide/abu-simbel/que-hacer-en-abu-simbel",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/mejores-tours-en-abu-simbel",
+    "to": "/es/guide/abu-simbel/tours-y-excursiones-a-abu-simbel",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/solo-abu-simbel",
+    "to": "/es/guide/abu-simbel/solo-en-abu-simbel",
+    "klass": "kind"
+  },
+  {
+    "from": "/es/las-orillas-del-tiempo-excursion-de-un-dia-a-esna-y-el-kab-desde-luxor",
+    "to": "/es/esna-y-el-kab-desde-luxor",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/llegada-sin-contratiempos-traslado-del-aeropuerto-de-el-cairo-al-hotel",
+    "to": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/arenas-de-la-historia-descubrimiento-del-grupo-de-templos-de-dendera-y-abydos-desde-hurghada",
+    "to": "/es/templos-de-dendera-y-abidos-desde-hurghada",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-minya/explorando",
+    "to": "/es/guide/al-minya",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-del-oasis-de-kharga/navegar-por",
+    "to": "/es/guide/kharga",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-dahab/experiencias",
+    "to": "/es/guide/dahab",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-minya/aventuras",
+    "to": "/es/guide/al-minya",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-arish/calendario-cultural",
+    "to": "/es/guide/al-arish",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/siwa-oasis-travel-guide/unveiled-mysteries",
+    "to": "/guide/siwa-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/al-wadi-al-gadid-travel-guide/journey-heart",
+    "to": "/guide/al-wadi-al-gadid",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/nuweiba-travel-guide/exploring",
+    "to": "/guide/nuweiba",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/al-fayoum-travel-guide/approach-roads",
+    "to": "/guide/al-fayoum",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/beni-suef-travel-guide/travel-accessing",
+    "to": "/guide/beni-suef",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-esna/viaje",
+    "to": "/es/guide/esna",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/ras-sudr-travel-guide/exploration-ideas",
+    "to": "/guide/ras-sudr",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/kharga-oasis-travel-guide/safaris",
+    "to": "/guide/kharga-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/kom-ombo-travel-guide/excursion",
+    "to": "/guide/kom-ombo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-marsa-alam/experiencias-unicas",
+    "to": "/es/guide/marsa-alam",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-marsa-alam/puerto-deportivo-de-port-ghalib",
+    "to": "/es/guide/marsa-alam",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/kom-ombo-travel-guide/ancient-temples",
+    "to": "/guide/kom-ombo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-suez/destacados",
+    "to": "/es/guide/suez",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/edfu-travel-guide/expeditions",
+    "to": "/guide/edfu",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/baris-travel-guide/events",
+    "to": "/guide/baris",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/wadi-al-natron-travel-guide/exploration-guide",
+    "to": "/guide/wadi-el-natrun",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-gouna/mas-alla-de-las-playas",
+    "to": "/es/guide/el-gouna",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-arish/mas-alla-de-lo-ordinario-en-al-arish-aventuras-unicas",
+    "to": "/es/guide/al-arish",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/suez-travel-guide/highlights",
+    "to": "/guide/suez",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-kom-ombo/excursion",
+    "to": "/es/guide/kom-ombo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/qena-travel-guide/the-pure-place",
+    "to": "/guide/qena",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-qena/techo-hipostilo",
+    "to": "/es/guide/qena",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viajes-de-baris/mas-alla-del-espejismo-en-baris",
+    "to": "/es/guide/baris",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-el-cairo/muros-y-puertas-del-norte",
+    "to": "/es/guide/el-cairo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/dakhla-oasis-travel-guide/past-narratives",
+    "to": "/guide/dakhla-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-edfu/expediciones",
+    "to": "/es/guide/edfu",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-akhmim/planificacion-del-viaje",
+    "to": "/es/guide/akhmim",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-arish/guia-de-movimiento",
+    "to": "/es/guide/al-arish",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-del-oasis-de-farafra/experiencias-unicas",
+    "to": "/es/guide/farafra",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-qena/descubre-qena",
+    "to": "/es/guide/qena",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-guiza/menfis-la-ciudad-antigua",
+    "to": "/es/guide/guiza",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-gouna/playa-de-zeytouna",
+    "to": "/es/guide/el-gouna",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-safaga/actividades-para-probar",
+    "to": "/es/guide/safaga",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/rosetta-rasheed-travel-guide/journey-through-time",
+    "to": "/guide/rosetta-rasheed",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/al-fayoum-travel-guide/stay-traditional-modern",
+    "to": "/guide/al-fayoum",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/ismailia-travel-guide/discovering-ismailia",
+    "to": "/guide/ismailia",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/siwa-oasis-travel-guide/journey-adventure",
+    "to": "/guide/siwa-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-del-oasis-de-bahariya/aventuras-en-el-oasis-de-bahariya-desvelando-las-gemas-del-desierto",
+    "to": "/es/guide/bahariya",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-taba/aventuras-mas-alla",
+    "to": "/es/guide/taba",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-port-said/joyas-ocultas",
+    "to": "/es/guide/port-said",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-el-cairo/el-museo-egipcio",
+    "to": "/es/guide/el-cairo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-santa-catalina/montana-de-moises",
+    "to": "/es/guide/santa-catalina",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-taba/lista-de-cosas-que-hacer-antes-de-morir",
+    "to": "/es/guide/taba",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/giza-travel-guide/tours",
+    "to": "/guide/giza",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/aswan-travel-guide/travel-embarking",
+    "to": "/guide/aswan",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-quseir/experiencias-exclusivas",
+    "to": "/es/guide/al-quseir",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-kom-ombo/mas-alla-de-los-templos",
+    "to": "/es/guide/kom-ombo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-esna/templo-de-khnum",
+    "to": "/es/guide/esna",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/al-minya-travel-guide/travel-guide-efficient-travel",
+    "to": "/guide/al-minya",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/esna-travel-guide/legacy-details",
+    "to": "/guide/esna",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/al-minya-travel-guide/comfort-local-stays",
+    "to": "/guide/al-minya",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/siwa-oasis-travel-guide/historical-tapestry",
+    "to": "/guide/siwa-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/rosetta-rasheed-travel-guide/wandering-through",
+    "to": "/guide/rosetta-rasheed",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-del-oasis-de-farafra/el-desierto-blanco",
+    "to": "/es/guide/farafra",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-hurghada/islas-giftun",
+    "to": "/es/guide/hurghada",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/sohag-travel-guide/beyond-nile",
+    "to": "/guide/sohag",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/sharm-el-sheikh-travel-guide/naama-bay",
+    "to": "/guide/sharm-el-sheikh",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-quseir/navega-por-los-viajes",
+    "to": "/es/guide/al-quseir",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/dahab-travel-guide/dahab-exclusives",
+    "to": "/guide/dahab",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/dahab-travel-guide/tours",
+    "to": "/guide/dahab",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-minya/beni-hassan",
+    "to": "/es/guide/al-minya",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-minya/tal-el-amarna",
+    "to": "/es/guide/al-minya",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-santa-catalina/consejos-para-visitar",
+    "to": "/es/guide/santa-catalina",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-alejandria/catacumbas-de-kom-el-shuqafa",
+    "to": "/es/guide/alejandria",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-alejandria/pilar-de-pompeyo",
+    "to": "/es/guide/alejandria",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-alejandria/fuerte-de-qaitbey",
+    "to": "/es/guide/alejandria",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/cairo-travel-guide/the-egyptian-museum",
+    "to": "/guide/cairo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-el-cairo/mezquita-de-mohammed-ali",
+    "to": "/es/guide/el-cairo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/farafra-oasis-travel-guide/activities-adventures",
+    "to": "/guide/farafra-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-fayoum/sigue-siendo-tradicional-moderno",
+    "to": "/es/guide/al-fayoum",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-gouna/playa-de-mangroovy",
+    "to": "/es/guide/el-gouna",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-esna/detalles-del-legado",
+    "to": "/es/guide/esna",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/bahariya-oasis-travel-guide/experiences-unlocked",
+    "to": "/guide/bahariya-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-santa-catalina/explorando-mas-alla",
+    "to": "/es/guide/santa-catalina",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/taba-travel-guide/expedition-guides",
+    "to": "/guide/taba",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-dahab/eventos",
+    "to": "/es/guide/dahab",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/farafra-oasis-travel-guide/the-white-desert",
+    "to": "/guide/farafra-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/cairo-travel-guide/the-egyptian-museum",
+    "to": "/guide/cairo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/farafra-oasis-travel-guide/the-road-to-dakhla",
+    "to": "/guide/farafra-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-arish/la-antigua-ciudad-de-pelusium",
+    "to": "/es/guide/al-arish",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-guiza/el-museo-del-barco-solar",
+    "to": "/es/guide/guiza",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/sharm-el-sheikh-travel-guide/tours",
+    "to": "/guide/sharm-el-sheikh",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-al-minya/tal-el-amarna",
+    "to": "/es/guide/al-minya",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/al-wadi-al-gadid-travel-guide/activities-essential",
+    "to": "/guide/al-wadi-al-gadid",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/kharga-oasis-travel-guide/navigating-through",
+    "to": "/guide/kharga-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/nuweiba-travel-guide/serene-getaway",
+    "to": "/guide/nuweiba",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/kharga-oasis-travel-guide/events",
+    "to": "/guide/kharga-oasis",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-luxor/expedicion",
+    "to": "/es/guide/luxor",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/saint-catherine-travel-guide/saint-catherines-monastery-and-mount-sinai",
+    "to": "/guide/saint-catherine",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-asyut/los-vibrantes-actos-y-festivales-de-asyut",
+    "to": "/es/guide/asyut",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/cairo-travel-guide/wikala-of-al-ghouri",
+    "to": "/guide/cairo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-edfu/templo-de-edfu",
+    "to": "/es/guide/edfu",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/saint-catherine-travel-guide/visiting-tips",
+    "to": "/guide/saint-catherine",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-hurghada/mantente-con-estilo",
+    "to": "/es/guide/hurghada",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/al-fayoum-travel-guide/rich-past",
+    "to": "/guide/al-fayoum",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-guiza/saqqara-sakkara",
+    "to": "/es/guide/guiza",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-qena/descubre-qena",
+    "to": "/es/guide/qena",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-santa-catalina/monasterio-de-santa-catalina-y-monte-sinai",
+    "to": "/es/guide/santa-catalina",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-taba/alturas-de-tabaalturas-de-tabaalturas-de-taba",
+    "to": "/es/guide/taba",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-sohag/templo-de-abydos",
+    "to": "/es/guide/sohag",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/cairo-travel-guide/ibn-tulun-citadel",
+    "to": "/guide/cairo",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/sohag-travel-guide/ancient-civilizations",
+    "to": "/guide/sohag",
+    "klass": "cityFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-abu-simble/el-pequeno-templo-de-abu-simbel",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-abu-simble",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-de-abu-simble",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-del-oasis-de-dajla",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-del-oasis-de-dajla/cosas-que-explorar",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-de-viaje-del-oasis-de-dajla/cuando-explorar",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/vista-de-las-piramides-excursion-de-un-dia-a-el-cairo-en-avion-desde-sharm-el-sheikh",
+    "to": "/es/dia-completo-a-el-cairo-en-avion-desde-sharm-el-sheij",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/el-nil-elegance-crucero-de-7-dias-dahabiya-por-el-nilo",
+    "to": "/es/el-nil-elegance-siete-dias-de-luxor-a-asuan",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/patrimonio-mediterraneo-excursion-privada-de-2-dias-a-alejandria-desde-el-cairo",
+    "to": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/tours-por-egipto-desde-alemania",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/dinastias-del-desierto-excursion-de-6-dias-a-los-grandes-faraones-y-el-desierto-blanco",
+    "to": "/es/faraones-y-desierto-blanco-viaje-privado-de-seis-dias-de-el-cairo-al-sahara",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/la-epopeya-de-los-faraones-paquete-de-exploracion-de-18-dias-por-el-gran-egipto",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/tours-destacados-en-el-cairo",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo",
+    "to": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/egipto-los-mejores-hoteles-y-cruceros-por-el-nilo",
+    "to": "/es/nile-cruises",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/viaje-de-10-dias-a-egipto-inolvidable",
+    "to": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/crucero-integral-de-13-dias-por-el-nilo-de-el-cairo-a-luxor",
+    "to": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/los-secretos-de-minya-excursion-de-2-dias-a-minya-desde-el-cairo",
+    "to": "/es/minia-en-dos-dias-desde-el-cairo",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/salida-elegante-traslado-al-aeropuerto-internacional-de-el-cairo",
+    "to": "/es/traslado-privado-del-hotel-al-aeropuerto-de-el-cairo",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/safari-taziry-ecolodge-siwa",
+    "to": "/es/hotels/taziry-ecolodge-siwa-safari",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/majestad-de-los-templos-excursion-privada-a-los-templos-de-karnak-y-luxor",
+    "to": "/es/karnak-templo-de-luxor-y-museo-de-luxor",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/horario-y-dias-festivos",
+    "to": "/es/travel-tips/horarios-y-dias-festivos-en-egipto",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/nilo-elegance-crucero-de-ida-y-vuelta-de-11-dias-por-el-cairo-y-el-nilo",
+    "to": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/del-desierto-al-mar-traslado-aeropuerto-sharm-el-sheikh",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/carretera-de-la-costa-traslado-en-coche-privado-de-luxor-a-marsa-alam",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/vacaciones-en-egipto-crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-desde-espana",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/los-secretos-de-asuan-excursion-de-un-dia-al-museo-nubio-y-al-mercado-local",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/paquetes-de-viaje-para-grupos-pequenos",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/grupo-de-danza-de-los-delfines-excursion-de-snorkel-de-un-dia-en-mares-compartidos",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/aventura-en-el-desierto-de-fayoum-una-odisea-de-2-dias",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/patrimonio-mediterraneo-excursion-privada-de-2-dias-a-alejandria-desde-el-cairo",
+    "to": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/excursion-nadando-con-delfines",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/egipto-los-mejores-hoteles-y-cruceros-por-el-nilo",
+    "to": "/es/nile-cruises",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/puerta-al-pasado-traslado-al-aeropuerto-de-luxor",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/puerta-al-pasado-traslado-al-aeropuerto-de-luxor-2",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/vida-nubia-excursion-privada-por-la-aldea-nubia-y-el-nilo-en-barco-a-motor",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/excursion-de-un-dia-en-avion-de-luxor-a-el-cairo",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/el-viaje-definitivo-a-sharm-el-sheij",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/safari-de-5-dias-por-las-cuevas-de-obeiyed",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/que-incluyen-los-paquetes-de-crucero-por-el-nilo",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/ritmos-del-nilo-el-cairo-cena-crucero-con-danza-del-vientre",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/aventura-de-snorkel-en-sharm-el-luli-desde-marsa-alam",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/rios-del-desierto-paquete-de-10-dias-por-el-nilo-y-el-desierto-occidental",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/10-dias-por-egipto-y-el-nilo",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/the-elegant-cairo-tour",
+    "to": "/the-elegant-cairo-4-days-tour",
+    "klass": "curated"
+  },
+  {
+    "from": "/luxor-group-day-tour-adventure-from-hurghada",
+    "to": "/luxor-highlights-group-day-tour-from-hurghada",
+    "klass": "curated"
+  },
+  {
+    "from": "/9-day-prestigious-egypt-vacation-from-turkey",
+    "to": "/9-days-egypt-prestigious-vacation",
+    "klass": "curated"
+  },
+  {
+    "from": "/9-day-prestigious-egypt-vacation-from-australia",
+    "to": "/9-days-egypt-prestigious-vacation",
+    "klass": "curated"
+  },
+  {
+    "from": "/ancient-egypt-and-the-red-sea-tour",
+    "to": "/egypt-and-the-red-sea",
+    "klass": "curated"
+  },
+  {
+    "from": "/luxor-and-nile-cruise-vacation-15-day",
+    "to": "/15-day-luxor-nile-cruise-vacation",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/guia-de-viajes-de-sharm-el-sheij",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/ja/カイロ旅行ガイド/アル＝グーリー・ウィカラ",
+    "to": "/ja/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/ja/カイロ旅行ガイド/観光ルート",
+    "to": "/ja/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/ja/カイロ旅行ガイド/カイロの真実：千のミナレットの街",
+    "to": "/ja/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/ja/アブ・シンベル旅行ガイド/アブ・シンベル：ユニークな発見と隠れた宝石",
+    "to": "/ja/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/abu-simble-travel-guide/the-small-temple-of-abu-simble",
+    "to": "/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/abu-simble-travel-guide/great-temple-of-abu-simble",
+    "to": "/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/abu-simble-travel-guide/the-small-temple-of-abu-simble",
+    "to": "/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/egypt-travel-guide",
+    "to": "/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/abu-simble-travel-guide/the-great-temple-of-abu-simble",
+    "to": "/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-de-viajes-de-sharm-el-sheij/parque-nacional-de-ras-mohamed",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-de-viajes-de-sharm-el-sheij/parque-nacional-de-nabq",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/abu-simble-travel-guide/weather-insights",
+    "to": "/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-de-viajes-de-sharm-el-sheij",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-de-viajes-de-egipto",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/abu-simble-travel-guide/flavors-local",
+    "to": "/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/guia-mensual-de-egipto",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/el-tiempo-en-egipto",
+    "to": "/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/los-mejores-lugares-historicos-de-egipto-un-viaje-en-el-tiempo",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/precios-de-las-entradas-para-las-atracciones-del-desierto-occidental",
+    "to": "/es/guide/siwa/ticket-prices-for-attractions-in-siwa",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/mujer-viajera-sola-en-egipto",
+    "to": "/es/travel-tips/viajar-sola-a-egipto-el-panorama-real",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/velas-del-nilo-explora-egipto-con-una-feluca-tradicional",
+    "to": "/es/velas-en-el-nilo-viaje-privado-de-diez-dias-en-faluca-de-asuan-a-luxor",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/beit-zeinab-al-jatun",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/muros-y-puertas-del-norte",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/wikala-al-bazara",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/wikala-de-al-ghouri",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/lo-mejor-de-el-cairo",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/ja/カイロの天気と気温",
+    "to": "/ja/guide/kairo/kairo-no-tenki-to-kion",
+    "klass": "curated"
+  },
+  {
+    "from": "/ja/カイロの移動手段ガイド",
+    "to": "/ja/guide/kairo/kairo-shinai-no-ido-gaido",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/clima-en-abu-simble",
+    "to": "/es/guide/abu-simbel/clima-y-mejor-epoca-para-visitar-abu-simbel",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/el-pequeno-templo-de-abu-simbel",
+    "to": "/es/guide/abu-simbel/el-templo-pequeno-de-abu-simbel",
+    "klass": "curated"
+  },
+  {
+    "from": "/ja/アブ・シンベルの天気予報",
+    "to": "/ja/guide/abu-shinberu/abu-shin-beru-no-tenki-to-besuto-shizun",
+    "klass": "curated"
+  },
+  {
+    "from": "/ja/アブ・シンベルへの交通手段",
+    "to": "/ja/guide/abu-shinberu/abu-shin-beru-e-no-iki-kata",
+    "klass": "curated"
+  },
+  {
+    "from": "/ja/アブ・シンベルの宿泊オプション",
+    "to": "/ja/guide/abu-shinberu/abu-shin-beru-no-hoteru-to-shukuhaku",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/abu-simble-y-el-antiguo-egipto",
+    "to": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/consejos-para-viajar-a-egipto",
+    "to": "/es/travel-tips",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/egipto-con-una-feluca-tradicional",
+    "to": "/es/velas-en-el-nilo-viaje-privado-de-diez-dias-en-faluca-de-asuan-a-luxor",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/la-experiencia-del-espectaculo-de-luz-y-sonido-de-giza",
+    "to": "/es/el-espectaculo-de-luz-y-sonido-de-guiza-una-velada-en-las-piramides",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/grand-nile-tower-hotel-el-cairo",
+    "to": "/es/hotels/hilton-cairo-grand-nile",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/lo-mejor-que-hacer-en-luxor-egipto",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/consejos-para-las-familias",
+    "to": "/es/travel-tips/viajar-a-egipto-con-ninos-el-dia-a-dia-practico",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/precios-de-las-entradas-para-las-atracciones-en-el-mar-rojo-y-el-sinai",
+    "to": "/es/guide/el-cairo/precios-de-las-entradas-a-las-atracciones-de-el-cairo",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/egipto-y-el-mar-rojo",
+    "to": "/es/egypt-and-the-red-sea",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/iconos",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/planifica-tu-viaje",
+    "to": "/es/plan-your-tour",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/vacaciones-de-lujo-en-egipto",
+    "to": "/es/egypt-luxury-holidays",
+    "klass": "curated"
+  },
+  {
+    "from": "/ja/エジプト・ラグジュアリーホリデー",
+    "to": "/ja/egypt-luxury-holidays",
+    "klass": "curated"
+  },
+  {
+    "from": "/ja/エスナの天候情報",
+    "to": "/ja/guide/esuna/esuna-no-tenko-joho",
+    "klass": "curated"
+  },
+  {
+    "from": "/ja/エスナの宿泊先",
+    "to": "/ja/guide/esuna/esuna-no-shukuhaku-saki",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/coche-privado-y-guia-personal-por-un-dia",
+    "to": "/es/private-day-tours",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/33-cosas-increibles-que-hacer-en-hurghada",
+    "to": "/es/guide/hurghada/actividades-en-hurghada",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/consejos-para-viajar-a-egipto",
+    "to": "/es/travel-tips",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/programas-de-viaje-por-egipto",
+    "to": "/es/egypt-travel-packages",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/inmersiones-culturales",
+    "to": "/es/journeys/el-viajero-cultural",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/escapada-a-el-cairo",
+    "to": "/es/escapada-de-fin-de-semana-a-el-cairo-3-dias-en-la-capital",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/el-elegante-recorrido-por-el-cairo",
+    "to": "/es/el-cairo-elegante-4-dias-entre-la-ciudad-antigua-y-la-ciudad-viva",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/egipto-para-observar-aves",
+    "to": "/es/corredor-egipcio-viaje-privado-de-observacion-de-aves-de-nueve-dias-de-el-cairo-a-las-cataratas",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/programas-de-viaje-por-egipto",
+    "to": "/es/egypt-travel-packages",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/oasis-de-fayoum-con-las-piramides-de-meydum-y-hawara",
+    "to": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/espectaculo-de-luz-y-sonido-en-el-templo-de-karnak-de-luxor",
+    "to": "/es/luz-y-sonido-en-karnak",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/de-safaga-a-luxor-exploracion-de-un-dia-de-la-ciudad-antigua",
+    "to": "/es/de-safaga-a-luxor-dia-completo-entre-templos-tumbas-y-colosos",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/negociacion-en-egipto",
+    "to": "/es/travel-tips/el-regateo-en-egipto-la-cultura-que-hay-detras-del-trato",
+    "klass": "curated"
+  },
+  {
+    "from": "/ja/エジプトと紅海",
+    "to": "/ja/egypt-and-the-red-sea",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/la-antigua-ciudad-de-pelusium",
+    "to": "/es/guide/al-arish/la-antigua-ciudad-de-pelusio",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/oasis-misteriosos-y-el-nilo",
+    "to": "/es/oasis-y-nilo-en-13-dias",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/vacaciones-en-familia-en-egipto",
+    "to": "/es/egypt-family-holidays",
+    "klass": "curated"
+  },
+  {
+    "from": "/es/viajes-rapidos-en-egipto",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/gran-egipto",
+    "to": "/es/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/es/espectaculo-de-luz-y-sonido-en-el-templo-de-philae-de-asuan",
+    "to": "/es/luz-y-sonido-en-el-templo-de-philae",
+    "klass": "curated"
+  },
+  {
+    "from": "/cairo-city-break",
+    "to": "/cairo-weekend-city-break-2-nights-3-days",
+    "klass": "curated"
+  },
+  {
+    "from": "/egypt-travel-faqs",
+    "to": "/faq",
+    "klass": "curated"
+  },
+  {
+    "from": "/marriott-mena-house-stay-of-distinction",
+    "to": "/hotels/marriott-mena-house-hotel-cairo",
+    "klass": "curated"
+  },
+  {
+    "from": "/grand-nile-tower-hotel-cairo",
+    "to": "/hotels/hilton-cairo-grand-nile",
+    "klass": "curated"
+  },
+  {
+    "from": "/enchanting-expeditions",
+    "to": "/egypt-travel-packages",
+    "klass": "tourFallback"
+  },
+  {
+    "from": "/al-tabuna-camp-el-dakhla-oasis",
+    "to": "/hotels/al-tabuna-camp-dakhla-oasis",
+    "klass": "curated"
+  },
+  {
+    "from": "/month-by-month-guide-to-egypt",
+    "to": "/travel-tips/egypt-weather-guide",
+    "klass": "curated"
+  },
+  {
+    "from": "/cultural-immersions",
+    "to": "/journeys/the-cultural-traveller",
+    "klass": "curated"
+  },
+  {
+    "from": "/trip-request",
+    "to": "/plan-your-tour",
+    "klass": "curated"
+  },
+  {
+    "from": "/best-of-egypt-2",
+    "to": "/8-days-best-of-egypt-tour-package",
+    "klass": "curated"
+  },
+  {
+    "from": "/category/lifestyle",
+    "to": "/blog",
+    "klass": "category"
+  },
+  {
+    "from": "/category/luxury-stay",
+    "to": "/blog",
+    "klass": "category"
+  }
+]

@@ -80,3 +80,28 @@ Cairo guideArticles (`mosque-madrasa-of-al-ghouri` vs
 - `scripts/audit-raw-links-2026-07-17.cjs` — read-only recount
 - `scripts/resolve-raw-links-2026-07-17.cjs` — resolver, emits resolution-plan.json
 - `scripts/apply-raw-link-repoint-2026-07-17.cjs` — dry-run by default, `--apply` to patch
+
+## Final clearance (2026-07-17, interactive session with owner)
+
+Owner-approved policy: kind-mapping, hand-curation of every big flat URL,
+and redirect-map rows as the safety net for the ambiguous long tail.
+
+- **255 more body re-points / 128 docs** (all targets live-validated 200):
+  ~70 hand-curated renamed tours/hotels/travel-tips/journeys + kind-mapped
+  city topics (historia/clima/como-moverse/hoteles → the city's kind page).
+- **8 more strips** (/es/mi-cuenta, /my-account, /es/home/experiencias).
+- **244 redirect-map rows added** (3,608 total; test 3635/0; 0 cycles, 0 new
+  multi-hop chains): curated + kind targets, city-guide fallback for ambiguous
+  topics, packages/day-tours index for unmatched tours, /category/* → /blog.
+- **Latent bug fixed in next.config.ts**: Japanese-script redirect sources
+  never fired (Next matches the percent-encoded path; raw-unicode sources
+  can't match). All JA rows — including the pre-existing wiki-monument 301s —
+  now percent-encoded at consumption and verified firing on dev.
+- The 'mailto' audit hit was a false positive (a legitimate mailto: whose
+  address contains the domain) — excluded.
+
+**End state: 171 distinct URLs / 374 visible raw-link instances remain in
+body content, and every one of them now 301s to a sensible page after DNS
+cutover (rows verified on dev across all classes). Zero user-facing breakage
+remains from raw legacy links.** Body-link cleanup of the fallback class is
+cosmetic post-launch work; the CSV marks each URL's redirect coverage.

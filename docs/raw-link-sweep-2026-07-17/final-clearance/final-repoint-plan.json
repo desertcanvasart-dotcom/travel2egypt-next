@@ -1,0 +1,618 @@
+[
+  {
+    "url": "https://travel2egypt.org/es/guia-de-viaje-de-al-minya/actividades/",
+    "path": "/es/guia-de-viaje-de-al-minya/actividades",
+    "count": 4,
+    "to": "/es/guide/al-minya/que-hacer-en-al-minya",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/actividades-explorar/",
+    "path": "/es/guia-de-viaje-de-beni-suef/actividades-explorar",
+    "count": 7,
+    "to": "/es/guide/beni-suef/que-hacer-en-beni-suef",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/guia-de-viaje-de-esna/el-tiempo/",
+    "path": "/es/guia-de-viaje-de-esna/el-tiempo",
+    "count": 3,
+    "to": "/es/guide/esna/es-clima-en-esna",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/actividades/",
+    "path": "/es/guia-de-viaje-de-alejandria/actividades",
+    "count": 1,
+    "to": "/es/guide/alejandria/que-hacer-en-alejandria",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/ismailia-travel-guide/best-times-visit/",
+    "path": "/ismailia-travel-guide/best-times-visit",
+    "count": 9,
+    "to": "/guide/ismailia/ismailia-weather-guide",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/alojamientos-diversos/",
+    "path": "/es/guia-de-viaje-de-alejandria/alojamientos-diversos",
+    "count": 1,
+    "to": "/es/guide/alejandria/donde-alojarse-en-alejandria",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/historia-de-cairo/",
+    "path": "/es/historia-de-cairo",
+    "count": 1,
+    "to": "/es/guide/el-cairo/historia-de-el-cairo-de-la-antiguedad-hasta-hoy",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/como-moverse-en-cairo/",
+    "path": "/es/como-moverse-en-cairo",
+    "count": 1,
+    "to": "/es/guide/el-cairo/como-moverse-por-el-cairo",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/mejores-hoteles-en-abu-simbel/",
+    "path": "/es/mejores-hoteles-en-abu-simbel",
+    "count": 1,
+    "to": "/es/guide/abu-simbel/donde-alojarse-en-abu-simbel",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/como-moverse-en-abu-simbel/",
+    "path": "/es/como-moverse-en-abu-simbel",
+    "count": 1,
+    "to": "/es/guide/abu-simbel/como-moverse-por-abu-simbel",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/cosas-que-hacer-en-abu-simbel/",
+    "path": "/es/cosas-que-hacer-en-abu-simbel",
+    "count": 1,
+    "to": "/es/guide/abu-simbel/que-hacer-en-abu-simbel",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/mejores-tours-en-abu-simbel/",
+    "path": "/es/mejores-tours-en-abu-simbel",
+    "count": 1,
+    "to": "/es/guide/abu-simbel/tours-y-excursiones-a-abu-simbel",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/solo-abu-simbel/",
+    "path": "/es/solo-abu-simbel",
+    "count": 1,
+    "to": "/es/guide/abu-simbel/solo-en-abu-simbel",
+    "method": "kind"
+  },
+  {
+    "url": "https://travel2egypt.org/es/las-orillas-del-tiempo-excursion-de-un-dia-a-esna-y-el-kab-desde-luxor/",
+    "path": "/es/las-orillas-del-tiempo-excursion-de-un-dia-a-esna-y-el-kab-desde-luxor",
+    "count": 6,
+    "to": "/es/esna-y-el-kab-desde-luxor",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/llegada-sin-contratiempos-traslado-del-aeropuerto-de-el-cairo-al-hotel/",
+    "path": "/es/llegada-sin-contratiempos-traslado-del-aeropuerto-de-el-cairo-al-hotel",
+    "count": 2,
+    "to": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/arenas-de-la-historia-descubrimiento-del-grupo-de-templos-de-dendera-y-abydos-desde-hurghada/",
+    "path": "/es/arenas-de-la-historia-descubrimiento-del-grupo-de-templos-de-dendera-y-abydos-desde-hurghada",
+    "count": 1,
+    "to": "/es/templos-de-dendera-y-abidos-desde-hurghada",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/vista-de-las-piramides-excursion-de-un-dia-a-el-cairo-en-avion-desde-sharm-el-sheikh/",
+    "path": "/es/vista-de-las-piramides-excursion-de-un-dia-a-el-cairo-en-avion-desde-sharm-el-sheikh",
+    "count": 25,
+    "to": "/es/dia-completo-a-el-cairo-en-avion-desde-sharm-el-sheij",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/el-nil-elegance-crucero-de-7-dias-dahabiya-por-el-nilo/",
+    "path": "/es/el-nil-elegance-crucero-de-7-dias-dahabiya-por-el-nilo",
+    "count": 12,
+    "to": "/es/el-nil-elegance-siete-dias-de-luxor-a-asuan",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/patrimonio-mediterraneo-excursion-privada-de-2-dias-a-alejandria-desde-el-cairo/",
+    "path": "/es/patrimonio-mediterraneo-excursion-privada-de-2-dias-a-alejandria-desde-el-cairo",
+    "count": 8,
+    "to": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/dinastias-del-desierto-excursion-de-6-dias-a-los-grandes-faraones-y-el-desierto-blanco/",
+    "path": "/es/dinastias-del-desierto-excursion-de-6-dias-a-los-grandes-faraones-y-el-desierto-blanco",
+    "count": 3,
+    "to": "/es/faraones-y-desierto-blanco-viaje-privado-de-seis-dias-de-el-cairo-al-sahara",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo/",
+    "path": "/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo",
+    "count": 16,
+    "to": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/egipto-los-mejores-hoteles-y-cruceros-por-el-nilo/",
+    "path": "/es/egipto-los-mejores-hoteles-y-cruceros-por-el-nilo",
+    "count": 6,
+    "to": "/es/nile-cruises",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/viaje-de-10-dias-a-egipto-inolvidable/",
+    "path": "/es/viaje-de-10-dias-a-egipto-inolvidable",
+    "count": 2,
+    "to": "/es/egipto-en-10-dias-el-cairo-alejandria-luxor-asuan-y-el-nilo",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/crucero-integral-de-13-dias-por-el-nilo-de-el-cairo-a-luxor/",
+    "path": "/es/crucero-integral-de-13-dias-por-el-nilo-de-el-cairo-a-luxor",
+    "count": 1,
+    "to": "/es/pasaje-real-del-nilo-crucero-de-13-dias-de-el-cairo-a-luxor",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/los-secretos-de-minya-excursion-de-2-dias-a-minya-desde-el-cairo/",
+    "path": "/es/los-secretos-de-minya-excursion-de-2-dias-a-minya-desde-el-cairo",
+    "count": 1,
+    "to": "/es/minia-en-dos-dias-desde-el-cairo",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/salida-elegante-traslado-al-aeropuerto-internacional-de-el-cairo/",
+    "path": "/es/salida-elegante-traslado-al-aeropuerto-internacional-de-el-cairo",
+    "count": 1,
+    "to": "/es/traslado-privado-del-hotel-al-aeropuerto-de-el-cairo",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/safari-taziry-ecolodge-siwa/",
+    "path": "/es/safari-taziry-ecolodge-siwa",
+    "count": 2,
+    "to": "/es/hotels/taziry-ecolodge-siwa-safari",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/majestad-de-los-templos-excursion-privada-a-los-templos-de-karnak-y-luxor/",
+    "path": "/es/majestad-de-los-templos-excursion-privada-a-los-templos-de-karnak-y-luxor",
+    "count": 3,
+    "to": "/es/karnak-templo-de-luxor-y-museo-de-luxor",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/horario-y-dias-festivos/",
+    "path": "/es/horario-y-dias-festivos",
+    "count": 3,
+    "to": "/es/travel-tips/horarios-y-dias-festivos-en-egipto",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/nilo-elegance-crucero-de-ida-y-vuelta-de-11-dias-por-el-cairo-y-el-nilo/",
+    "path": "/es/nilo-elegance-crucero-de-ida-y-vuelta-de-11-dias-por-el-cairo-y-el-nilo",
+    "count": 1,
+    "to": "/es/el-cairo-y-el-nilo-en-11-dias-ida-y-vuelta-piramides-rio-luxor",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/patrimonio-mediterraneo-excursion-privada-de-2-dias-a-alejandria-desde-el-cairo/",
+    "path": "/es/patrimonio-mediterraneo-excursion-privada-de-2-dias-a-alejandria-desde-el-cairo",
+    "count": 1,
+    "to": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/egipto-los-mejores-hoteles-y-cruceros-por-el-nilo/",
+    "path": "/es/egipto-los-mejores-hoteles-y-cruceros-por-el-nilo",
+    "count": 2,
+    "to": "/es/nile-cruises",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/the-elegant-cairo-tour/",
+    "path": "/the-elegant-cairo-tour",
+    "count": 3,
+    "to": "/the-elegant-cairo-4-days-tour",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/luxor-group-day-tour-adventure-from-hurghada/",
+    "path": "/luxor-group-day-tour-adventure-from-hurghada",
+    "count": 1,
+    "to": "/luxor-highlights-group-day-tour-from-hurghada",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/9-day-prestigious-egypt-vacation-from-turkey/",
+    "path": "/9-day-prestigious-egypt-vacation-from-turkey",
+    "count": 1,
+    "to": "/9-days-egypt-prestigious-vacation",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/9-day-prestigious-egypt-vacation-from-australia/",
+    "path": "/9-day-prestigious-egypt-vacation-from-australia",
+    "count": 1,
+    "to": "/9-days-egypt-prestigious-vacation",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/ancient-egypt-and-the-red-sea-tour/",
+    "path": "/ancient-egypt-and-the-red-sea-tour",
+    "count": 1,
+    "to": "/egypt-and-the-red-sea",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/luxor-and-nile-cruise-vacation-15-day/",
+    "path": "/luxor-and-nile-cruise-vacation-15-day",
+    "count": 1,
+    "to": "/15-day-luxor-nile-cruise-vacation",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/el-tiempo-en-egipto/",
+    "path": "/es/el-tiempo-en-egipto",
+    "count": 5,
+    "to": "/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/precios-de-las-entradas-para-las-atracciones-del-desierto-occidental/",
+    "path": "/es/precios-de-las-entradas-para-las-atracciones-del-desierto-occidental",
+    "count": 7,
+    "to": "/es/guide/siwa/ticket-prices-for-attractions-in-siwa",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/mujer-viajera-sola-en-egipto/",
+    "path": "/es/mujer-viajera-sola-en-egipto",
+    "count": 3,
+    "to": "/es/travel-tips/viajar-sola-a-egipto-el-panorama-real",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/velas-del-nilo-explora-egipto-con-una-feluca-tradicional/",
+    "path": "/es/velas-del-nilo-explora-egipto-con-una-feluca-tradicional",
+    "count": 3,
+    "to": "/es/velas-en-el-nilo-viaje-privado-de-diez-dias-en-faluca-de-asuan-a-luxor",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/ja/%e3%82%ab%e3%82%a4%e3%83%ad%e3%81%ae%e5%a4%a9%e6%b0%97%e3%81%a8%e6%b0%97%e6%b8%a9/",
+    "path": "/ja/カイロの天気と気温",
+    "count": 1,
+    "to": "/ja/guide/kairo/kairo-no-tenki-to-kion",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/ja/カイロの移動手段ガイド/",
+    "path": "/ja/カイロの移動手段ガイド",
+    "count": 1,
+    "to": "/ja/guide/kairo/kairo-shinai-no-ido-gaido",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/clima-en-abu-simble/",
+    "path": "/es/clima-en-abu-simble",
+    "count": 1,
+    "to": "/es/guide/abu-simbel/clima-y-mejor-epoca-para-visitar-abu-simbel",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/el-pequeno-templo-de-abu-simbel/",
+    "path": "/es/el-pequeno-templo-de-abu-simbel",
+    "count": 1,
+    "to": "/es/guide/abu-simbel/el-templo-pequeno-de-abu-simbel",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%96%e3%83%bb%e3%82%b7%e3%83%b3%e3%83%99%e3%83%ab%e3%81%ae%e5%a4%a9%e6%b0%97%e4%ba%88%e5%a0%b1/",
+    "path": "/ja/アブ・シンベルの天気予報",
+    "count": 1,
+    "to": "/ja/guide/abu-shinberu/abu-shin-beru-no-tenki-to-besuto-shizun",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%96%e3%83%bb%e3%82%b7%e3%83%b3%e3%83%99%e3%83%ab%e3%81%b8%e3%81%ae%e4%ba%a4%e9%80%9a%e6%89%8b%e6%ae%b5/",
+    "path": "/ja/アブ・シンベルへの交通手段",
+    "count": 1,
+    "to": "/ja/guide/abu-shinberu/abu-shin-beru-e-no-iki-kata",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/ja/アブ・シンベルの宿泊オプション/",
+    "path": "/ja/アブ・シンベルの宿泊オプション",
+    "count": 1,
+    "to": "/ja/guide/abu-shinberu/abu-shin-beru-no-hoteru-to-shukuhaku",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/abu-simble-y-el-antiguo-egipto/",
+    "path": "/es/abu-simble-y-el-antiguo-egipto",
+    "count": 3,
+    "to": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/consejos-para-viajar-a-egipto/",
+    "path": "/es/consejos-para-viajar-a-egipto",
+    "count": 1,
+    "to": "/es/travel-tips",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/egipto-con-una-feluca-tradicional/",
+    "path": "/es/egipto-con-una-feluca-tradicional",
+    "count": 23,
+    "to": "/es/velas-en-el-nilo-viaje-privado-de-diez-dias-en-faluca-de-asuan-a-luxor",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/la-experiencia-del-espectaculo-de-luz-y-sonido-de-giza/",
+    "path": "/es/la-experiencia-del-espectaculo-de-luz-y-sonido-de-giza",
+    "count": 4,
+    "to": "/es/el-espectaculo-de-luz-y-sonido-de-guiza-una-velada-en-las-piramides",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/grand-nile-tower-hotel-el-cairo/",
+    "path": "/es/grand-nile-tower-hotel-el-cairo",
+    "count": 1,
+    "to": "/es/hotels/hilton-cairo-grand-nile",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/consejos-para-las-familias/",
+    "path": "/es/consejos-para-las-familias",
+    "count": 12,
+    "to": "/es/travel-tips/viajar-a-egipto-con-ninos-el-dia-a-dia-practico",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/precios-de-las-entradas-para-las-atracciones-en-el-mar-rojo-y-el-sinai/",
+    "path": "/es/precios-de-las-entradas-para-las-atracciones-en-el-mar-rojo-y-el-sinai",
+    "count": 2,
+    "to": "/es/guide/el-cairo/precios-de-las-entradas-a-las-atracciones-de-el-cairo",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/egipto-y-el-mar-rojo/",
+    "path": "/es/egipto-y-el-mar-rojo",
+    "count": 1,
+    "to": "/es/egypt-and-the-red-sea",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/planifica-tu-viaje/",
+    "path": "/es/planifica-tu-viaje",
+    "count": 3,
+    "to": "/es/plan-your-tour",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/vacaciones-de-lujo-en-egipto/",
+    "path": "/es/vacaciones-de-lujo-en-egipto",
+    "count": 1,
+    "to": "/es/egypt-luxury-holidays",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/ja/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e3%83%bb%e3%83%a9%e3%82%b0%e3%82%b8%e3%83%a5%e3%82%a2%e3%83%aa%e3%83%bc%e3%83%9b%e3%83%aa%e3%83%87%e3%83%bc/",
+    "path": "/ja/エジプト・ラグジュアリーホリデー",
+    "count": 1,
+    "to": "/ja/egypt-luxury-holidays",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/ja/エスナの天候情報/",
+    "path": "/ja/エスナの天候情報",
+    "count": 1,
+    "to": "/ja/guide/esuna/esuna-no-tenko-joho",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/ja/エスナの宿泊先/",
+    "path": "/ja/エスナの宿泊先",
+    "count": 1,
+    "to": "/ja/guide/esuna/esuna-no-shukuhaku-saki",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/33-cosas-increibles-que-hacer-en-hurghada/",
+    "path": "/es/33-cosas-increibles-que-hacer-en-hurghada",
+    "count": 1,
+    "to": "/es/guide/hurghada/actividades-en-hurghada",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/consejos-para-viajar-a-egipto/",
+    "path": "/es/consejos-para-viajar-a-egipto",
+    "count": 1,
+    "to": "/es/travel-tips",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/programas-de-viaje-por-egipto/",
+    "path": "/es/programas-de-viaje-por-egipto",
+    "count": 4,
+    "to": "/es/egypt-travel-packages",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/inmersiones-culturales/",
+    "path": "/es/inmersiones-culturales",
+    "count": 1,
+    "to": "/es/journeys/el-viajero-cultural",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/escapada-a-el-cairo/",
+    "path": "/es/escapada-a-el-cairo",
+    "count": 1,
+    "to": "/es/escapada-de-fin-de-semana-a-el-cairo-3-dias-en-la-capital",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/el-elegante-recorrido-por-el-cairo/",
+    "path": "/es/el-elegante-recorrido-por-el-cairo",
+    "count": 1,
+    "to": "/es/el-cairo-elegante-4-dias-entre-la-ciudad-antigua-y-la-ciudad-viva",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/egipto-para-observar-aves/",
+    "path": "/es/egipto-para-observar-aves",
+    "count": 2,
+    "to": "/es/corredor-egipcio-viaje-privado-de-observacion-de-aves-de-nueve-dias-de-el-cairo-a-las-cataratas",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/programas-de-viaje-por-egipto/",
+    "path": "/es/programas-de-viaje-por-egipto",
+    "count": 3,
+    "to": "/es/egypt-travel-packages",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/oasis-de-fayoum-con-las-piramides-de-meydum-y-hawara/",
+    "path": "/es/oasis-de-fayoum-con-las-piramides-de-meydum-y-hawara",
+    "count": 1,
+    "to": "/es/oasis-de-fayoum-piramides-de-meidum-y-hawara-jornada-completa",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/espectaculo-de-luz-y-sonido-en-el-templo-de-karnak-de-luxor/",
+    "path": "/es/espectaculo-de-luz-y-sonido-en-el-templo-de-karnak-de-luxor",
+    "count": 2,
+    "to": "/es/luz-y-sonido-en-karnak",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/de-safaga-a-luxor-exploracion-de-un-dia-de-la-ciudad-antigua/",
+    "path": "/es/de-safaga-a-luxor-exploracion-de-un-dia-de-la-ciudad-antigua",
+    "count": 1,
+    "to": "/es/de-safaga-a-luxor-dia-completo-entre-templos-tumbas-y-colosos",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/negociacion-en-egipto/",
+    "path": "/es/negociacion-en-egipto",
+    "count": 1,
+    "to": "/es/travel-tips/el-regateo-en-egipto-la-cultura-que-hay-detras-del-trato",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/ja/%e3%82%a8%e3%82%b8%e3%83%97%e3%83%88%e3%81%a8%e7%b4%85%e6%b5%b7/",
+    "path": "/ja/エジプトと紅海",
+    "count": 1,
+    "to": "/ja/egypt-and-the-red-sea",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/la-antigua-ciudad-de-pelusium/",
+    "path": "/es/la-antigua-ciudad-de-pelusium",
+    "count": 1,
+    "to": "/es/guide/al-arish/la-antigua-ciudad-de-pelusio",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/oasis-misteriosos-y-el-nilo/",
+    "path": "/es/oasis-misteriosos-y-el-nilo",
+    "count": 1,
+    "to": "/es/oasis-y-nilo-en-13-dias",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/es/vacaciones-en-familia-en-egipto/",
+    "path": "/es/vacaciones-en-familia-en-egipto",
+    "count": 1,
+    "to": "/es/egypt-family-holidays",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/es/espectaculo-de-luz-y-sonido-en-el-templo-de-philae-de-asuan/",
+    "path": "/es/espectaculo-de-luz-y-sonido-en-el-templo-de-philae-de-asuan",
+    "count": 1,
+    "to": "/es/luz-y-sonido-en-el-templo-de-philae",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/cairo-city-break/",
+    "path": "/cairo-city-break",
+    "count": 3,
+    "to": "/cairo-weekend-city-break-2-nights-3-days",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/egypt-travel-faqs/",
+    "path": "/egypt-travel-faqs",
+    "count": 2,
+    "to": "/faq",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/marriott-mena-house-stay-of-distinction/",
+    "path": "/marriott-mena-house-stay-of-distinction",
+    "count": 3,
+    "to": "/hotels/marriott-mena-house-hotel-cairo",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/grand-nile-tower-hotel-cairo/",
+    "path": "/grand-nile-tower-hotel-cairo",
+    "count": 1,
+    "to": "/hotels/hilton-cairo-grand-nile",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/al-tabuna-camp-el-dakhla-oasis/",
+    "path": "/al-tabuna-camp-el-dakhla-oasis",
+    "count": 1,
+    "to": "/hotels/al-tabuna-camp-dakhla-oasis",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/month-by-month-guide-to-egypt/",
+    "path": "/month-by-month-guide-to-egypt",
+    "count": 1,
+    "to": "/travel-tips/egypt-weather-guide",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/cultural-immersions/",
+    "path": "/cultural-immersions",
+    "count": 3,
+    "to": "/journeys/the-cultural-traveller",
+    "method": "curated"
+  },
+  {
+    "url": "http://travel2egypt.org/trip-request/",
+    "path": "/trip-request",
+    "count": 1,
+    "to": "/plan-your-tour",
+    "method": "curated"
+  },
+  {
+    "url": "https://travel2egypt.org/best-of-egypt-2/",
+    "path": "/best-of-egypt-2",
+    "count": 1,
+    "to": "/8-days-best-of-egypt-tour-package",
+    "method": "curated"
+  }
+]
