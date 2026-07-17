@@ -502,6 +502,16 @@
 .lvl-single .note .t2e-kicker::before { content: ""; width: 6px; height: 6px; background: var(--gold); border-radius: 50%; }
 .lvl-single .note p { font-family: var(--display); font-style: italic; font-size: 20px; line-height: 1.45; color: var(--navy); margin: 0; }
 
+/* "Good for" audience note — a compact kicker aside (was an oversized h2). */
+.lvl-single .body .audience { margin: 38px 0; }
+.lvl-single .body .audience .t2e-kicker { display: block; margin-bottom: 10px; }
+.lvl-single .body .audience p { margin: 0; }
+
+/* Standard inline CTA to the concierge (/plan-your-tour). */
+.lvl-single .body .body-cta { margin: 44px 0 0; }
+.lvl-single .body .body-cta a { font-family: var(--ui); font-size: 14px; letter-spacing: .04em; color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--navy); padding-bottom: 3px; transition: color .2s, border-color .2s; }
+.lvl-single .body .body-cta a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
 .lvl-single .rail { position: sticky; top: 104px; display: flex; flex-direction: column; gap: 20px; }
 .lvl-single .card { border: 1px solid var(--rule); background: var(--paper); padding: 26px; }
 .lvl-single .card .ck { font-family: var(--ui); font-size: 11px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 16px; display: block; }
