@@ -13,6 +13,7 @@ import {
 } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { EditorialHeroStats } from '@/components/EditorialHeroStats';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { ArticleFootBand, type WeaveItem } from '@/components/ArticleConnective';
@@ -40,6 +41,7 @@ interface ArchiveDoc {
   kicker?: string;
   title?: string;
   tagline?: string;
+  updatedAt?: string;
   essayHeading?: string;
   essay?: unknown;
   cornerstone?: {
@@ -114,6 +116,21 @@ export default async function TravelTipsArchivePage({ params }: Props) {
     }))
     .filter((d) => d.tips.length > 0);
 
+  // Hero stat anchor — a light freshness/credibility block (edition already
+  // lives in the kicker, so this leads with answer count, department count, and
+  // the archive's last-updated month).
+  const updatedLabel = archive?.updatedAt
+    ? new Intl.DateTimeFormat(locale === 'ja' ? 'ja-JP' : locale === 'es' ? 'es-ES' : 'en-GB', {
+        month: 'short',
+        year: 'numeric',
+      }).format(new Date(archive.updatedAt))
+    : '';
+  const tipStats = [
+    { label: t('statAnswers'), value: tips.length },
+    { label: t('statDepartments'), value: departments.length },
+    { label: t('statUpdated'), value: updatedLabel },
+  ];
+
   // Contents index: every category that has tips, departments first then any
   // not listed in the doc (orphan-safe). Includes the cornerstone tip.
   const deptCatIds = new Set(departments.map((d) => d.category._id));
@@ -145,18 +162,21 @@ export default async function TravelTipsArchivePage({ params }: Props) {
         />
 
         {/* Type-led header */}
-        <header className="border-b border-rule py-14 md:py-16">
-          {archive?.kicker && (
-            <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
-              {archive.kicker}
+        <header className="flex flex-col gap-10 border-b border-rule py-14 md:flex-row md:items-end md:justify-between md:gap-12 md:py-16">
+          <div className="min-w-0">
+            {archive?.kicker && (
+              <p className="mb-6 font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
+                {archive.kicker}
+              </p>
+            )}
+            <h1 className="max-w-[16ch] font-serif text-[clamp(2.75rem,6vw,5rem)] font-normal leading-[1.0] tracking-[-0.01em] text-faience">
+              {archive?.title ?? t('landingTitle')}
+            </h1>
+            <p className="mt-7 max-w-[680px] font-serif text-[clamp(1.375rem,2.3vw,1.8rem)] italic leading-snug text-night-soft">
+              {archive?.tagline ?? t('landingDeck')}
             </p>
-          )}
-          <h1 className="max-w-[16ch] font-serif text-[clamp(2.75rem,6vw,5rem)] font-normal leading-[1.0] tracking-[-0.01em] text-faience">
-            {archive?.title ?? t('landingTitle')}
-          </h1>
-          <p className="mt-7 max-w-[680px] font-serif text-[clamp(1.375rem,2.3vw,1.8rem)] italic leading-snug text-night-soft">
-            {archive?.tagline ?? t('landingDeck')}
-          </p>
+          </div>
+          <EditorialHeroStats stats={tipStats} />
         </header>
 
         {/* Essay */}

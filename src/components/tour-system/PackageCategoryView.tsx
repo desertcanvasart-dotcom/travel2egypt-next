@@ -7,6 +7,7 @@ import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { packageBucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
+import { MastheadStats } from './MastheadStats';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { FloatingConcierge } from '../FloatingConcierge';
 
@@ -160,6 +161,18 @@ export async function PackageCategoryView({
     { value: '15plus', label: ts('pkgCatLen15plus') },
   ];
 
+  // Hero stat anchor — distinct axis values (themes / regions) + journey count,
+  // both derived from the mode-scoped list so they always match what's below,
+  // plus the operating-since constant.
+  const axisCount = isGroup
+    ? new Set(packages.map((p) => p.originRegion).filter(Boolean)).size
+    : new Set(packages.map((p) => p.theme?._id).filter(Boolean)).size;
+  const heroStats = [
+    { label: k('StatAxis'), value: axisCount },
+    { label: k('StatCount'), value: packages.length },
+    { label: ts('catStatSince'), value: 2003 },
+  ];
+
   const bylineKicker = archive?.editorByline?.kicker ?? k('WhyKicker');
   const bylineHeading = archive?.editorByline?.heading ?? k('WhyHeading');
   const bylineNote = archive?.editorByline?.intro ?? k('WhyNote');
@@ -176,9 +189,12 @@ export async function PackageCategoryView({
         </nav>
 
         <header className="masthead">
-          <span className="t2e-kicker">{k('MastKicker')}</span>
-          <h1 className="mast-title">{archive?.title ?? k('Title')}</h1>
-          {archive?.tagline && <p className="mast-tag">{archive.tagline}</p>}
+          <div className="mast-lead">
+            <span className="t2e-kicker">{k('MastKicker')}</span>
+            <h1 className="mast-title">{archive?.title ?? k('Title')}</h1>
+            {archive?.tagline && <p className="mast-tag">{archive.tagline}</p>}
+          </div>
+          <MastheadStats stats={heroStats} />
         </header>
       </div>
 
