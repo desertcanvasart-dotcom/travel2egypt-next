@@ -52,23 +52,11 @@ export default async function BlogLandingPage({ params }: Props) {
     client.fetch<ArticleCardData | null>(featuredLeadArticleQuery, { locale }),
   ]);
 
-  // Hero stat anchor. "Updated" reflects the most recent article's date.
-  const latestDate = articles.reduce((m, a) => {
-    const d = a.updatedAt ?? a.publishedAt;
-    return d && (!m || d > m) ? d : m;
-  }, '');
+  // Hero stat anchor.
   const heroStats = [
     { label: t('statArticles'), value: articles.length },
     { label: t('statCategories'), value: new Set(articles.map((a) => a.category?.slug).filter(Boolean)).size },
-    {
-      label: t('statUpdated'),
-      value: latestDate
-        ? new Intl.DateTimeFormat(locale === 'ja' ? 'ja-JP' : locale === 'es' ? 'es-ES' : 'en-GB', {
-            month: 'short',
-            year: 'numeric',
-          }).format(new Date(latestDate))
-        : '',
-    },
+    { label: t('statSince'), value: 2003 },
   ];
 
   // Filter the lead out of the rest grid to avoid duplication.
