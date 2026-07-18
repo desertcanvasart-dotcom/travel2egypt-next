@@ -1,0 +1,3233 @@
+{
+  "createdAt": "2026-07-19T09:00:00Z",
+  "docs": [
+    {
+      "_id": "author.travel2egypt-editorial",
+      "_type": "author",
+      "name": "Travel2Egypt Editorial",
+      "slug": {
+        "_type": "slug",
+        "current": "travel2egypt-editorial"
+      },
+      "role": [
+        {
+          "_key": "en",
+          "_type": "internationalizedArrayStringValue",
+          "value": "Editorial Team"
+        },
+        {
+          "_key": "es",
+          "_type": "internationalizedArrayStringValue",
+          "value": "Equipo editorial"
+        },
+        {
+          "_key": "ja",
+          "_type": "internationalizedArrayStringValue",
+          "value": "編集チーム"
+        }
+      ],
+      "bio": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "b0",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "s1",
+                  "_type": "span",
+                  "text": "Travel2Egypt's editorial team writes the journal — practical, first-hand guidance to travelling in Egypt, drawn from more than two decades arranging journeys along the Nile and across the deserts.",
+                  "marks": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "b2",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "s3",
+                  "_type": "span",
+                  "text": "El equipo editorial de Travel2Egypt escribe el diario: orientación práctica y de primera mano para viajar por Egipto, fruto de más de dos décadas organizando viajes por el Nilo y los desiertos.",
+                  "marks": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "b4",
+              "_type": "block",
+              "style": "normal",
+              "markDefs": [],
+              "children": [
+                {
+                  "_key": "s5",
+                  "_type": "span",
+                  "text": "Travel2Egyptの編集チームがこのジャーナルを綴っています。ナイル川と砂漠をめぐる旅を二十年以上にわたって手がけてきた経験にもとづく、エジプト旅行の実践的で確かな案内です。",
+                  "marks": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "yearsInOperation": 23
+    },
+    {
+      "_id": "article.total-solar-eclipse-egypt-2027-en",
+      "_type": "article",
+      "language": "en",
+      "title": "The 2027 Total Solar Eclipse: Six Minutes of Night Over Luxor",
+      "slug": {
+        "_type": "slug",
+        "current": "total-solar-eclipse-egypt-2027"
+      },
+      "deck": "On 2 August 2027, the longest total solar eclipse on accessible land this century passes directly over Upper Egypt. Here is what will happen, and how to be under it.",
+      "category": {
+        "_ref": "category-destination-depth",
+        "_type": "reference"
+      },
+      "author": {
+        "_ref": "author.travel2egypt-editorial",
+        "_type": "reference"
+      },
+      "publishedAt": "2026-07-19T09:00:00Z",
+      "featured": false,
+      "body": [
+        {
+          "_key": "b6",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7",
+              "_type": "span",
+              "text": "The Sun Will Go Out Over Thebes",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_key": "m3q",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "children": [
+            {
+              "_key": "s3s",
+              "_type": "span",
+              "text": "At around five minutes past one in the afternoon on 2 August 2027, the sun above ",
+              "marks": []
+            },
+            {
+              "_key": "s3r",
+              "_type": "span",
+              "text": "Luxor",
+              "marks": [
+                "m3q"
+              ]
+            },
+            {
+              "_key": "s3t",
+              "_type": "span",
+              "text": " will disappear.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "ba",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sb",
+              "_type": "span",
+              "text": "This is not a figure of speech. The moon will move completely across the solar disc, day will collapse into a deep twilight, the temperature will drop, planets will appear in the afternoon sky, and the sun's corona — the pale outer atmosphere visible to the naked eye only during totality — will hang above the Nile for six minutes and twenty-three seconds.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bc",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sd",
+              "_type": "span",
+              "text": "Six minutes and twenty-three seconds is an extraordinary figure. Most total eclipses offer totality of two or three minutes; the celebrated North American eclipse of April 2024 peaked at under four and a half. The 2027 eclipse will be the longest totality on accessible land in the twenty-first century. Nothing longer will occur anywhere on Earth until 2114. For anyone alive today, this is the deepest, longest darkness the sky will offer — and its point of maximum duration falls in Upper Egypt, a short distance southeast of Luxor.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "be",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sf",
+              "_type": "span",
+              "text": "The ancient Egyptians organised an entire cosmology around the sun's daily death and rebirth. The temples of Karnak were aligned to its movements. The tombs on the west bank narrate, corridor by corridor, the sun god's passage through the twelve hours of the night. On this one afternoon, the night will arrive at midday, directly above the monuments built to explain it.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bg",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sh",
+              "_type": "span",
+              "text": "There are events worth planning a trip around. This is one of the few worth planning years around.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bi",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sj",
+              "_type": "span",
+              "text": "What Happens on 2 August 2027",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bk",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sl",
+              "_type": "span",
+              "text": "The mechanics are simple and the coincidence behind them is not.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bm",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sn",
+              "_type": "span",
+              "text": "A total solar eclipse occurs when the moon passes precisely between the Earth and the sun, casting its shadow onto the planet's surface. The shadow's dark core — the umbra, the zone within which the sun is completely hidden — traces a narrow corridor across the Earth as the bodies move. Only inside that corridor does totality occur. Outside it, observers see a partial eclipse: interesting, but a different order of experience entirely.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bo",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sp",
+              "_type": "span",
+              "text": "The 2027 corridor begins over the Atlantic, makes landfall in southern Spain, crosses the Strait of Gibraltar, and runs the length of North Africa — northern Morocco, Algeria, Tunisia, Libya — before entering Egypt from the northwest. It crosses the Western Desert, passes over the Nile Valley in the region of Luxor and Qena, continues across the Red Sea to Jeddah and Mecca in Saudi Arabia, and exits through Yemen and the Horn of Africa.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bq",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sr",
+              "_type": "span",
+              "text": "Egypt is where the eclipse reaches its fullest expression. Two orbital details explain why. On that date the moon is near perigee, its closest approach to Earth, so it appears slightly larger than average; and the Earth is near aphelion, its farthest point from the sun, so the sun appears slightly smaller. A larger moon covering a smaller sun stays in front of it longer. The alignment reaches its optimum over Upper Egypt, where the shadow's path is at its widest — roughly 250 kilometres across — and totality at its longest. The point of maximum duration lies in the desert southeast of Luxor.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bs",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "st",
+              "_type": "span",
+              "text": "Luxor itself sits close enough to the centreline for the difference to be academic. In the city, the partial eclipse begins at about 11:40 in the morning, as the moon takes its first bite from the sun's edge. Totality begins at approximately 1:02 pm, reaches maximum at about 1:05, and ends at roughly 1:08. The remaining partial phases run through the early afternoon. At maximum, the sun stands 82 degrees above the horizon — very nearly overhead — which means no rooftop, ridge, or riverbank is required to see it. Any open patch of sky in Luxor will do.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bu",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sv",
+              "_type": "span",
+              "text": "Why Egypt Is the Place to Watch It",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bw",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sx",
+              "_type": "span",
+              "text": "Every country along the path will market this eclipse. The case for Egypt rests on three facts that no marketing can manufacture.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "by",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sz",
+              "_type": "span",
+              "text": "The first is duration. Totality shortens toward the ends of the eclipse path. Spain will see under three minutes in most locations; Morocco and Algeria progressively more; Egypt the maximum. A traveller choosing between Cádiz and Luxor is choosing between roughly half the darkness and all of it.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b10",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s11",
+              "_type": "span",
+              "text": "The second is weather. An eclipse is an appointment that cannot be rescheduled, and cloud is the only thing that can break it. August in Upper Egypt is one of the most meteorologically predictable environments on the planet. Historical cloud cover over Luxor in high summer is close to zero, and the statistical likelihood of clear skies on eclipse day in this region is generally put at eighty per cent or better — far stronger odds than the Mediterranean coast of Spain, where summer haze and coastal cloud are real risks. Eclipse chasers, a community that studies climatology the way other travellers study hotel reviews, identified Egypt as the premium viewing territory for this event years ago.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b12",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s13",
+              "_type": "span",
+              "text": "The third is setting, and it is the one that belongs to Egypt alone. The path of totality passes over Karnak, over Luxor Temple, over the Theban necropolis and the Valley of the Kings. The shadow will cross monuments raised by a civilisation that worshipped the sun as the source of created order, that measured its year by the solar calendar, and that carved the solar barque's nightly voyage into royal tombs. Watching the sun vanish and return above the pylons of Karnak is not simply a good photograph. It is the rarest possible convergence of astronomy and human history, and it will not repeat in any living person's time.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b14",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s15",
+              "_type": "span",
+              "text": "The Six Minutes, Described",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b16",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s17",
+              "_type": "span",
+              "text": "Most accounts of totality fail because the experience does not resemble its photographs.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b18",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s19",
+              "_type": "span",
+              "text": "The first hour is quiet. The moon's advance across the sun is invisible without eclipse glasses; through them, the sun becomes a shrinking crescent. The light changes slowly and then, in the final quarter hour, strangely — thin, silvery, wrong in a way that is difficult to articulate. Shadows sharpen. The temperature begins to fall, a genuine relief in the Luxor summer. Birds react before people do.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1a",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1b",
+              "_type": "span",
+              "text": "In the last seconds before totality, the remaining sliver of sun breaks into beads of light along the moon's edge, then collapses to a single point — the diamond ring — and then it is gone. This is the moment the glasses come off. The sky is a deep twilight blue-black. Venus and Jupiter appear. Around the black disc of the moon spreads the corona, white and structured, streaming outward along magnetic lines invisible at every other moment of human life. On the horizon, in every direction, glows the light of the world outside the shadow — a 360-degree sunset.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1c",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1d",
+              "_type": "span",
+              "text": "Six minutes is long enough to stop photographing and simply stand in it. This is worth stating plainly, because at shorter eclipses the advice to put the camera down carries a cost. Here it does not. There is time to watch the corona, find the planets, look at the faces around you, and still take the photograph.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1e",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1f",
+              "_type": "span",
+              "text": "Then the diamond ring reappears on the opposite edge, the glasses go back on, and daylight returns with disorienting speed. The partial phases play out in reverse to an audience that has largely stopped watching. Nobody forgets their first totality. Very few people adequately anticipate it.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1g",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1h",
+              "_type": "span",
+              "text": "Where to Stand",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1i",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1j",
+              "_type": "span",
+              "text": "Within the path, the practical question is not whether you will see the eclipse but what you want beneath it.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1k",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1l",
+              "_type": "span",
+              "text": "Luxor is the obvious answer and the correct one for most travellers. It sits close to the centreline, holds the region's hotel capacity and its airport, and offers the temples. The east bank corniche, hotel rooftops and gardens, the open courts of Karnak, the fields of the west bank, and the river itself — from a felucca or a cruise deck — will all serve. It is reasonable to expect the Egyptian authorities and local operators to organise viewing events at or near the major sites; the details will resolve closer to the date, but the geometry will not change. With the sun nearly overhead at maximum, anywhere in greater Luxor with open sky receives the full duration, give or take seconds.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1m",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_key": "m42",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58758",
+                "_type": "reference"
+              }
+            }
+          ],
+          "children": [
+            {
+              "_key": "s44",
+              "_type": "span",
+              "text": "The city's hotel landscape is itself in motion, and eclipse travellers should know it. The Winter Palace — opened in 1907, the hotel of Howard Carter's Luxor, and for decades the most atmospheric address in Upper Egypt — closed in early 2026 for a complete restoration under new management. It is scheduled to reopen in July 2027 as the Mandarin Oriental Winter Palace, Luxor: weeks before eclipse day, repositioned firmly in the luxury bracket, and, if the renovation holds its schedule, offering its palm-shaded gardens to eclipse watchers for the first time under the new flag. Anyone building plans around it should watch the reopening timeline closely and hold an alternative; grand restorations are not famous for finishing early. The same group is launching a luxury Nile cruise between Luxor and ",
+              "marks": []
+            },
+            {
+              "_key": "s43",
+              "_type": "span",
+              "text": "Aswan",
+              "marks": [
+                "m42"
+              ]
+            },
+            {
+              "_key": "s45",
+              "_type": "span",
+              "text": " in the same period — a signal, if one were needed, of where the international travel industry expects attention to be that summer.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1o",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1p",
+              "_type": "span",
+              "text": "For independent travellers, the practical question is less where to watch than how to secure a position. Luxor's infrastructure will be strained by the influx, and the variables that matter on the day are shade, water, and the ability to sit out the late morning somewhere tolerable before the partial phases begin. The west bank deserves particular thought. Its guesthouses and small hotels offer desert-edge settings and open horizons, but the crossing is the constraint: on eclipse day, the public ferries and motorboats will be overwhelmed. Arrange private boat transport in advance, or cross early and stay on the west bank until the afternoon crowds thin.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1q",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1r",
+              "_type": "span",
+              "text": "Qena and the Nile Valley towns north of Luxor sit similarly deep in the path, and they hold what may be the most thematically perfect secondary venue in the country: the temple of Hathor at Dendera, whose ceilings are among the most complete astronomical decorations to survive from the ancient world. The great ceiling of the outer hall shows the sky goddess Nut arched over the earth, swallowing the sun each evening and giving birth to it each dawn; the temple also produced the famous circular zodiac, carved in the Ptolemaic period around the middle of the first century BC, whose original now hangs in the Louvre. Watching the sun disappear beneath a roof that already maps the heavens is a convergence that requires no embellishment.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1s",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1t",
+              "_type": "span",
+              "text": "The Red Sea coast enters the conversation for travellers combining the eclipse with diving or a beach stay. Marsa Alam and points nearby fall within the path, with the sea breeze taking some edge off the August heat, though the maritime air brings haze that the desert interior does not have. Hurghada lies at the path's northern margin; anyone basing there should plan to travel south or inland on the day, since a site near the path's edge trades minutes of totality for convenience — a poor exchange, given what the minutes are.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1u",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_key": "m3u",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-112945",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "m3y",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "children": [
+            {
+              "_key": "s40",
+              "_type": "span",
+              "text": "For the purist — the eclipse chaser who values sky above all else — the Western Desert offers the most extreme atmospheric clarity in the path. Bahariya Oasis lies close to the corridor's heart and will experience totality approaching the full maximum; Siwa, far to the northwest near the path's entry into Egypt, receives a somewhat shorter but still exceptional duration, in air of almost guaranteed transparency. The trade-off is remoteness. Siwa is a long day's drive from ",
+              "marks": []
+            },
+            {
+              "_key": "s3z",
+              "_type": "span",
+              "text": "Cairo",
+              "marks": [
+                "m3y"
+              ]
+            },
+            {
+              "_key": "s41",
+              "_type": "span",
+              "text": ", Bahariya closer but still a serious undertaking, and August in the open desert demands the logistics, water discipline, and experienced operators described in our ",
+              "marks": []
+            },
+            {
+              "_key": "s3v",
+              "_type": "span",
+              "text": "adventure travel guide",
+              "marks": [
+                "m3u"
+              ]
+            },
+            {
+              "_key": "s3x",
+              "_type": "span",
+              "text": ". These are not destinations for the casual visitor. They are for the committed, the prepared, and the self-sufficient — and for them, the desert may offer the purest version of the event anywhere on Earth.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1w",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1x",
+              "_type": "span",
+              "text": "Cairo does not see totality. The capital experiences a deep partial eclipse — dramatic in its own right, but a partial eclipse of any depth is categorically not the event. The honest advice for anyone in Egypt that week is to be inside the path, full stop. The difference between 99 per cent and 100 per cent is the difference between reading about a place and standing in it.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b1y",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s1z",
+              "_type": "span",
+              "text": "The Heat, Addressed Honestly",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b20",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s21",
+              "_type": "span",
+              "text": "The second of August is high summer in Upper Egypt, and no serious guide to this event should slide past that fact.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b22",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s23",
+              "_type": "span",
+              "text": "Daytime temperatures in Luxor in early August routinely exceed 40 degrees Celsius. This is the reason the classical Egyptian travel season runs October to April, and it is the reason eclipse travellers should structure the trip differently from a winter itinerary. The temple and tomb visits belong to the early mornings, when the west bank is at its most beautiful in any case. The middle hours belong to shade, pools, and air conditioning — with the great exception of eclipse day itself, when the middle hours belong to the sky, and when the eclipse provides its own strange mercy: the temperature drops noticeably as the light fails, and totality arrives as a moment of physical as well as visual relief.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b24",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s25",
+              "_type": "span",
+              "text": "Hydration in these conditions is a discipline, not a suggestion. Viewing plans should include shade for the waiting hours, water in quantity, and, for anyone with health concerns, honesty about the demands of standing outdoors at midday in the Egyptian summer. None of this is a reason to stay away. It is a reason to plan the day like someone who knows where they are.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b26",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s27",
+              "_type": "span",
+              "text": "Watching Safely",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b28",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s29",
+              "_type": "span",
+              "text": "The rules are few and absolute.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2a",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2b",
+              "_type": "span",
+              "text": "At every moment except totality itself, looking at the sun requires certified eclipse glasses meeting the ISO 12312-2 standard — not sunglasses, not exposed film, not improvisation. The partial phases, however deep, can cause permanent retinal damage to the unprotected eye, and the eye has no pain response to warn of it. Glasses should be bought in advance from reputable suppliers; a sensible operator will provide them.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2c",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2d",
+              "_type": "span",
+              "text": "During totality — and only during totality — the glasses come off. The fully eclipsed sun is safe and meant to be seen directly; observing it through filters would in fact show nothing. The discipline is at the edges: glasses off at the second diamond ring, back on at the third. In a group, someone should own the timekeeping.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2e",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2f",
+              "_type": "span",
+              "text": "Cameras and phones pointed at the partial phases need solar filters for the same reason eyes do. During the six minutes of totality, ordinary photography is safe. The better plan, for anyone not travelling specifically to photograph, is to arrange the camera in advance, let it run, and spend the six minutes looking up.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2g",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2h",
+              "_type": "span",
+              "text": "Planning Now Rather Than Later",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2i",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2j",
+              "_type": "span",
+              "text": "The arithmetic of this event is unforgiving, and it is the reason this article exists years ahead of the date.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2k",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2l",
+              "_type": "span",
+              "text": "Luxor is a city whose hotel stock was built for a winter season. The eclipse will bring an international influx against fixed capacity, into a single week of the low summer. Specialist astronomy operators in Europe and North America began selling Luxor eclipse tours years in advance, and the pattern from previous major eclipses is consistent: accommodation inside the path sells out long before the general travelling public begins to think about it, and what remains reprices accordingly. Nile cruises operating that week, hotel rooftops with clear sky, west bank guesthouses — all of it will go early. The Winter Palace's reopening as a Mandarin Oriental the month before the eclipse only sharpens the point: the top of the market has already been claimed.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2m",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2n",
+              "_type": "span",
+              "text": "The travellers who do this well will treat the eclipse as the fixed point of a larger Egyptian itinerary: Cairo and the Grand Egyptian Museum before, the eclipse at Luxor at the centre, the river south to Aswan after, in the quiet and heat-softened rhythm of the summer Nile. The Grand Egyptian Museum at Giza, fully open since November 2025, now houses the complete Tutankhamun collection — the mask, the nested coffins, the chariots, the throne — in purpose-built galleries that finally give the assemblage the space it deserves, and it has replaced the old museum on Tahrir as the essential starting point for the New Kingdom.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2o",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2p",
+              "_type": "span",
+              "text": "Egypt in August has its own character — emptier sites, slower afternoons, evenings on the water — and the eclipse gives that season, for one year only, an anchor no other destination on Earth can offer.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2q",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2r",
+              "_type": "span",
+              "text": "The sun has been rising over Thebes for a very long time. On one afternoon in August 2027, it will go out, and the corridor of land beneath that darkness runs through Egypt. Being under it is a decision best made now.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2s",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2t",
+              "_type": "span",
+              "text": "FAQ",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2u",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2v",
+              "_type": "span",
+              "text": "When exactly does the 2027 total solar eclipse happen in Luxor?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2w",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2x",
+              "_type": "span",
+              "text": "On Monday 2 August 2027. In Luxor the partial eclipse begins at approximately 11:40 am local time, totality runs from about 1:02 pm to 1:08 pm with maximum at roughly 1:05 pm, and the final partial phases end in the mid-afternoon. Timings shift by seconds to a couple of minutes across the region, and precise local circumstances should be confirmed closer to the date.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b2y",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s2z",
+              "_type": "span",
+              "text": "How long does totality last, and why is this eclipse special?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b30",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s31",
+              "_type": "span",
+              "text": "Totality near Luxor lasts six minutes and twenty-three seconds — the longest of any eclipse on accessible land in the twenty-first century. No longer totality will occur anywhere until 2114. The duration results from a rare combination: the moon near its closest point to Earth and the sun near its farthest, at the moment the shadow crosses Upper Egypt.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b32",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s33",
+              "_type": "span",
+              "text": "Can the eclipse be seen from Cairo, Hurghada, or Sharm el-Sheikh?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b34",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s35",
+              "_type": "span",
+              "text": "Cairo and Sharm el-Sheikh see only a partial eclipse — the sun is never fully covered, and the defining experience of totality does not occur. Hurghada sits at the northern edge of the path; travellers based there should move south toward Marsa Alam or inland toward the Luxor–Qena stretch of the Nile Valley on the day. The full experience requires being inside the path of totality, and Luxor is the best-served base within it.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b36",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s37",
+              "_type": "span",
+              "text": "Will the Winter Palace be open for the eclipse?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b38",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s39",
+              "_type": "span",
+              "text": "That is the plan, under a new name. The hotel closed in early 2026 for complete restoration and is scheduled to reopen in July 2027 as the Mandarin Oriental Winter Palace, Luxor — weeks before eclipse day, and repositioned at the top of the luxury market. Travellers hoping to stay there for the eclipse should monitor the reopening timeline and hold an alternative booking, since major restorations can slip.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b3a",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s3b",
+              "_type": "span",
+              "text": "Is it safe to look at the eclipse?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b3c",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s3d",
+              "_type": "span",
+              "text": "Only during the total phase. Throughout every partial phase, certified eclipse glasses meeting the ISO 12312-2 standard are mandatory for looking at the sun; ordinary sunglasses are not protection. During the six minutes of totality itself, the eclipsed sun is safe — and intended — to view with the naked eye.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b3e",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s3f",
+              "_type": "span",
+              "text": "How hot will Luxor be in August, and is the trip manageable?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b3g",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s3h",
+              "_type": "span",
+              "text": "Genuinely hot: daytime highs regularly exceed 40°C. The trip is entirely manageable with summer discipline — sightseeing in the early mornings, shade and rest through midday, serious hydration, and an eclipse-day plan that includes shelter for the waiting hours. The eclipse itself briefly cools the air as the light fades.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b3i",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s3j",
+              "_type": "span",
+              "text": "How early should accommodation be booked?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b3k",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s3l",
+              "_type": "span",
+              "text": "As early as possible, measured in years rather than months. Luxor's capacity is finite, international eclipse tours have been reserving space well in advance, and the week around 2 August 2027 will be the most oversubscribed the city has seen. Travellers wanting a specific hotel, a rooftop view, or a Nile cruise that week should regard booking as urgent from the moment their plans firm up.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b3m",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s3n",
+              "_type": "span",
+              "text": "What else should I see in Egypt while I'm there for the eclipse?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b3o",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s3p",
+              "_type": "span",
+              "text": "In Luxor, the east bank temples of Karnak and Luxor, the Valley of the Kings and Valley of the Queens, and the mortuary temples of Hatshepsut and the Ramesside kings are all within easy reach. A Nile cruise between Luxor and Aswan, calling at Edfu, Kom Ombo, and Philae, remains one of the great travel experiences. In Cairo, the Grand Egyptian Museum at Giza houses the complete Tutankhamun collection and is now the essential starting point for understanding New Kingdom Egypt.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "heroImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0f24d97dccc38badb5798d997665ebef5fe80ea4-2000x1078-jpg",
+          "_type": "reference"
+        },
+        "alt": "Luxor Temple floodlit gold against a black night sky, its pylon and colonnade rising beside the minaret of the Abu al-Haggag mosque.",
+        "caption": "Night over Luxor Temple — the darkness the 2027 eclipse will bring to Upper Egypt at midday."
+      },
+      "relatedCities": [
+        {
+          "_key": "rc46",
+          "_ref": "wp-page-58877",
+          "_type": "reference"
+        }
+      ],
+      "seo": {
+        "metaTitle": "The 2027 Total Solar Eclipse: Six Minutes of Night Over Luxor",
+        "metaDescription": "On 2 August 2027, the longest total solar eclipse on accessible land this century passes directly over Upper Egypt. Here is what will happen, and how to be under it."
+      }
+    },
+    {
+      "_id": "article.total-solar-eclipse-egypt-2027-es",
+      "_type": "article",
+      "language": "es",
+      "title": "El eclipse solar total de 2027: seis minutos de noche sobre Luxor",
+      "slug": {
+        "_type": "slug",
+        "current": "eclipse-solar-total-egipto-2027"
+      },
+      "deck": "El 2 de agosto de 2027, el eclipse solar total más largo del siglo en tierra accesible pasará directamente sobre el Alto Egipto. Esto es lo que va a ocurrir, y cómo estar debajo.",
+      "category": {
+        "_ref": "category-destination-depth",
+        "_type": "reference"
+      },
+      "author": {
+        "_ref": "author.travel2egypt-editorial",
+        "_type": "reference"
+      },
+      "publishedAt": "2026-07-19T09:00:00Z",
+      "featured": false,
+      "body": [
+        {
+          "_key": "b47",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s48",
+              "_type": "span",
+              "text": "El sol se apagará sobre Tebas",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b49",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_key": "m7r",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "children": [
+            {
+              "_key": "s7t",
+              "_type": "span",
+              "text": "Hacia la una y cinco de la tarde del 2 de agosto de 2027, el sol desaparecerá sobre ",
+              "marks": []
+            },
+            {
+              "_key": "s7s",
+              "_type": "span",
+              "text": "Luxor",
+              "marks": [
+                "m7r"
+              ]
+            },
+            {
+              "_key": "s7u",
+              "_type": "span",
+              "text": ".",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4b",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4c",
+              "_type": "span",
+              "text": "No es una figura retórica. La luna cruzará por completo el disco solar, el día se hundirá en un crepúsculo profundo, la temperatura bajará, los planetas aparecerán en el cielo de la tarde y la corona solar —la atmósfera exterior del sol, visible a simple vista únicamente durante la totalidad— quedará suspendida sobre el Nilo durante seis minutos y veintitrés segundos.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4d",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4e",
+              "_type": "span",
+              "text": "Seis minutos y veintitrés segundos es una cifra extraordinaria. La mayoría de los eclipses totales ofrece totalidades de dos o tres minutos; el celebrado eclipse norteamericano de abril de 2024 alcanzó un máximo por debajo de los cuatro minutos y medio. El eclipse de 2027 será la totalidad más larga en tierra accesible de todo el siglo XXI. Nada más largo ocurrirá en ningún lugar de la Tierra hasta 2114. Para cualquier persona viva hoy, esta es la oscuridad más profunda y prolongada que el cielo va a ofrecer, y su punto de duración máxima cae en el Alto Egipto, a poca distancia al sureste de Luxor.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4f",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4g",
+              "_type": "span",
+              "text": "Los antiguos egipcios organizaron toda una cosmología alrededor de la muerte y el renacimiento diarios del sol. Los templos de Karnak se alinearon con sus movimientos. Las tumbas de la orilla occidental narran, corredor a corredor, el paso del dios solar por las doce horas de la noche. En esta única tarde, la noche llegará al mediodía, directamente sobre los monumentos construidos para explicarla.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4h",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4i",
+              "_type": "span",
+              "text": "Hay acontecimientos que justifican planear un viaje. Este es uno de los pocos que justifican planear con años.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4j",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4k",
+              "_type": "span",
+              "text": "Qué ocurre el 2 de agosto de 2027",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4l",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4m",
+              "_type": "span",
+              "text": "La mecánica es simple; la coincidencia que hay detrás, no.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4n",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4o",
+              "_type": "span",
+              "text": "Un eclipse solar total ocurre cuando la luna pasa exactamente entre la Tierra y el sol y proyecta su sombra sobre la superficie del planeta. El núcleo oscuro de esa sombra —la umbra, la zona dentro de la cual el sol queda completamente oculto— traza un corredor estrecho sobre la Tierra a medida que los cuerpos se desplazan. Solo dentro de ese corredor se produce la totalidad. Fuera de él, los observadores ven un eclipse parcial: interesante, pero una experiencia de otro orden por completo.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4p",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4q",
+              "_type": "span",
+              "text": "El corredor de 2027 comienza sobre el Atlántico, toca tierra en el sur de España, cruza el estrecho de Gibraltar y recorre el norte de África —el norte de Marruecos, Argelia, Túnez, Libia— antes de entrar en Egipto por el noroeste. Atraviesa el desierto Occidental, pasa sobre el valle del Nilo a la altura de Luxor y Qena, continúa sobre el mar Rojo hacia Yeda y La Meca en Arabia Saudí, y sale por Yemen y el Cuerno de África.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4r",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4s",
+              "_type": "span",
+              "text": "Egipto es donde el eclipse alcanza su expresión más plena. Dos detalles orbitales lo explican. En esa fecha, la luna está cerca del perigeo, su punto de mayor aproximación a la Tierra, por lo que se ve ligeramente más grande de lo habitual; y la Tierra está cerca del afelio, su punto más alejado del sol, por lo que el sol se ve ligeramente más pequeño. Una luna mayor cubriendo un sol menor permanece delante de él más tiempo. La alineación alcanza su óptimo sobre el Alto Egipto, donde la franja de sombra llega a su máxima anchura —unos 250 kilómetros— y la totalidad a su máxima duración. El punto de duración máxima está en el desierto, al sureste de Luxor.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4t",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4u",
+              "_type": "span",
+              "text": "Luxor queda tan cerca de la línea central que la diferencia es académica. En la ciudad, el eclipse parcial comienza hacia las 11:40 de la mañana, cuando la luna da el primer mordisco al borde del sol. La totalidad empieza aproximadamente a las 13:02, alcanza su máximo hacia las 13:05 y termina alrededor de las 13:08. Las fases parciales restantes se prolongan durante la primera parte de la tarde. En el máximo, el sol está a 82 grados sobre el horizonte —prácticamente en el cénit—, lo que significa que no hace falta azotea, colina ni orilla despejada para verlo. Cualquier trozo de cielo abierto en Luxor sirve.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4v",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4w",
+              "_type": "span",
+              "text": "Por qué Egipto es el lugar para verlo",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4x",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s4y",
+              "_type": "span",
+              "text": "Todos los países de la franja van a promocionar este eclipse. El argumento de Egipto descansa sobre tres hechos que ninguna promoción puede fabricar.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b4z",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s50",
+              "_type": "span",
+              "text": "El primero es la duración. La totalidad se acorta hacia los extremos de la trayectoria. España verá menos de tres minutos en la mayoría de sus localizaciones; Marruecos y Argelia progresivamente más; Egipto, el máximo. Un viajero que elige entre Cádiz y Luxor está eligiendo entre aproximadamente la mitad de la oscuridad y toda ella.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b51",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s52",
+              "_type": "span",
+              "text": "El segundo es el clima. Un eclipse es una cita que no puede reprogramarse, y las nubes son lo único capaz de arruinarla. Agosto en el Alto Egipto es uno de los entornos meteorológicos más predecibles del planeta. La nubosidad histórica sobre Luxor en pleno verano es cercana a cero, y la probabilidad estadística de cielos despejados el día del eclipse en esta región se estima, en general, en un ochenta por ciento o más: probabilidades muy superiores a las de la costa mediterránea española, donde la calima estival y la nube costera son riesgos reales. Los cazadores de eclipses —una comunidad que estudia la climatología como otros viajeros estudian las reseñas de hoteles— identificaron Egipto como el territorio de observación de referencia para este acontecimiento hace años.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b53",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s54",
+              "_type": "span",
+              "text": "El tercero es el escenario, y es el que pertenece solo a Egipto. La franja de totalidad pasa sobre Karnak, sobre el templo de Luxor, sobre la necrópolis tebana y el Valle de los Reyes. La sombra cruzará monumentos levantados por una civilización que adoraba al sol como fuente del orden creado, que medía su año por el calendario solar y que talló el viaje nocturno de la barca solar en las tumbas reales. Ver el sol desaparecer y regresar sobre los pilonos de Karnak no es simplemente una buena fotografía. Es la convergencia más rara posible entre astronomía e historia humana, y no se repetirá en el tiempo de ninguna persona viva.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b55",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s56",
+              "_type": "span",
+              "text": "Los seis minutos, descritos",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b57",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s58",
+              "_type": "span",
+              "text": "La mayoría de los relatos sobre la totalidad fracasa porque la experiencia no se parece a sus fotografías.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b59",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5a",
+              "_type": "span",
+              "text": "La primera hora es tranquila. El avance de la luna sobre el sol es invisible sin gafas de eclipse; a través de ellas, el sol se convierte en un creciente cada vez más fino. La luz cambia despacio y luego, en el último cuarto de hora, de forma extraña: delgada, plateada, incorrecta de una manera difícil de articular. Las sombras se afilan. La temperatura empieza a bajar, un alivio genuino en el verano de Luxor. Los pájaros reaccionan antes que las personas.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5b",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5c",
+              "_type": "span",
+              "text": "En los últimos segundos antes de la totalidad, la franja restante de sol se rompe en cuentas de luz a lo largo del borde lunar, se contrae hasta un único punto —el anillo de diamante— y desaparece. Ese es el momento en que las gafas se quitan. El cielo es de un azul crepuscular casi negro. Aparecen Venus y Júpiter. Alrededor del disco negro de la luna se despliega la corona, blanca y estructurada, fluyendo hacia el exterior a lo largo de líneas magnéticas invisibles en cualquier otro momento de la vida humana. En el horizonte, en todas direcciones, brilla la luz del mundo que queda fuera de la sombra: un atardecer de 360 grados.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5d",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5e",
+              "_type": "span",
+              "text": "Seis minutos es tiempo suficiente para dejar de fotografiar y simplemente quedarse dentro. Merece decirse con claridad, porque en los eclipses más cortos el consejo de soltar la cámara tiene un coste. Aquí no lo tiene. Hay tiempo para mirar la corona, encontrar los planetas, observar los rostros alrededor y aun así hacer la fotografía.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5f",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5g",
+              "_type": "span",
+              "text": "Después, el anillo de diamante reaparece en el borde opuesto, las gafas vuelven a ponerse y la luz del día regresa con una rapidez desconcertante. Las fases parciales se repiten en orden inverso ante un público que, en su mayoría, ha dejado de mirar. Nadie olvida su primera totalidad. Muy pocos la anticipan adecuadamente.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5h",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5i",
+              "_type": "span",
+              "text": "Dónde situarse",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5j",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5k",
+              "_type": "span",
+              "text": "Dentro de la franja, la pregunta práctica no es si se verá el eclipse, sino qué se quiere tener debajo.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5l",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5m",
+              "_type": "span",
+              "text": "Luxor es la respuesta obvia y la correcta para la mayoría de los viajeros. Está cerca de la línea central, concentra la capacidad hotelera de la región y su aeropuerto, y ofrece los templos. La corniche de la orilla oriental, las azoteas y jardines de los hoteles, los patios abiertos de Karnak, los campos de la orilla occidental y el propio río —desde una faluca o la cubierta de un crucero— servirán todos. Es razonable esperar que las autoridades egipcias y los operadores locales organicen eventos de observación en los grandes sitios o cerca de ellos; los detalles se resolverán más cerca de la fecha, pero la geometría no va a cambiar. Con el sol casi en el cénit durante el máximo, cualquier punto del área de Luxor con cielo abierto recibe la duración completa, con diferencias de segundos.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5n",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_key": "m83",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58758",
+                "_type": "reference"
+              }
+            }
+          ],
+          "children": [
+            {
+              "_key": "s85",
+              "_type": "span",
+              "text": "El propio panorama hotelero de la ciudad está en movimiento, y los viajeros del eclipse deben saberlo. El Winter Palace —inaugurado en 1907, el hotel del Luxor de Howard Carter y durante décadas la dirección con más atmósfera del Alto Egipto— cerró a comienzos de 2026 para una restauración completa bajo nueva gestión. Su reapertura está prevista para julio de 2027 como Mandarin Oriental Winter Palace, Luxor: semanas antes del día del eclipse, reposicionado con firmeza en el segmento de lujo y, si la renovación cumple el calendario, ofreciendo sus jardines de palmeras a los observadores del eclipse por primera vez bajo la nueva bandera. Quien construya sus planes alrededor del hotel debería seguir de cerca el calendario de reapertura y mantener una alternativa; las grandes restauraciones no son famosas por terminar antes de tiempo. El mismo grupo lanza en ese periodo un crucero de lujo por el Nilo entre Luxor y ",
+              "marks": []
+            },
+            {
+              "_key": "s84",
+              "_type": "span",
+              "text": "Asuán",
+              "marks": [
+                "m83"
+              ]
+            },
+            {
+              "_key": "s86",
+              "_type": "span",
+              "text": ": una señal, por si hiciera falta, de dónde espera la industria internacional del viaje que esté la atención ese verano.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5p",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5q",
+              "_type": "span",
+              "text": "Para el viajero independiente, la cuestión práctica no es tanto dónde mirar como cómo asegurarse una posición. La infraestructura de Luxor estará tensionada por la afluencia, y las variables que importan ese día son la sombra, el agua y la posibilidad de pasar la última parte de la mañana en algún lugar tolerable antes de que comiencen las fases parciales. La orilla occidental merece una reflexión aparte. Sus casas de huéspedes y pequeños hoteles ofrecen entornos al borde del desierto y horizontes abiertos, pero el cruce del río es la limitación: el día del eclipse, los transbordadores públicos y las lanchas estarán desbordados. Conviene organizar transporte privado en barco con antelación, o cruzar temprano y permanecer en la orilla occidental hasta que las multitudes de la tarde se disuelvan.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5r",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5s",
+              "_type": "span",
+              "text": "Qena y las ciudades del valle del Nilo al norte de Luxor están igual de adentradas en la franja, y albergan lo que quizá sea el escenario secundario más perfecto temáticamente de todo el país: el templo de Hathor en Dendera, cuyos techos figuran entre las decoraciones astronómicas más completas que sobreviven del mundo antiguo. El gran techo de la sala exterior muestra a la diosa del cielo Nut arqueada sobre la tierra, tragándose el sol cada atardecer y dándolo a luz cada amanecer; el templo produjo además el famoso zodiaco circular, tallado en época ptolemaica hacia mediados del siglo I a. C., cuyo original cuelga hoy en el Louvre. Ver desaparecer el sol bajo un techo que ya es un mapa del cielo es una convergencia que no necesita adornos.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5t",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5u",
+              "_type": "span",
+              "text": "La costa del mar Rojo entra en la conversación para quienes combinan el eclipse con buceo o con una estancia de playa. Marsa Alam y sus alrededores caen dentro de la franja, y la brisa marina suaviza algo el calor de agosto, aunque el aire marítimo trae una calima que el interior desértico no tiene. Hurghada queda en el margen norte de la trayectoria; quien tenga allí su base debería desplazarse hacia el sur o hacia el interior ese día, porque una posición cerca del borde de la franja intercambia minutos de totalidad por comodidad: un mal negocio, considerando lo que valen esos minutos.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5v",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_key": "m7v",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-112945",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "m7z",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "children": [
+            {
+              "_key": "s81",
+              "_type": "span",
+              "text": "Para el purista —el cazador de eclipses que valora el cielo por encima de todo—, el desierto Occidental ofrece la mayor transparencia atmosférica de toda la franja. El oasis de Bahariya está cerca del corazón del corredor y vivirá una totalidad próxima al máximo absoluto; Siwa, mucho más al noroeste, cerca de la entrada de la trayectoria en Egipto, recibe una duración algo menor pero todavía excepcional, en un aire de transparencia casi garantizada. La contrapartida es el aislamiento. Siwa está a un día largo de carretera desde ",
+              "marks": []
+            },
+            {
+              "_key": "s80",
+              "_type": "span",
+              "text": "El Cairo",
+              "marks": [
+                "m7z"
+              ]
+            },
+            {
+              "_key": "s82",
+              "_type": "span",
+              "text": "; Bahariya, más cerca, pero aún como empresa seria, y agosto en el desierto abierto exige la logística, la disciplina de agua y los operadores experimentados que describe nuestra ",
+              "marks": []
+            },
+            {
+              "_key": "s7w",
+              "_type": "span",
+              "text": "guía de viaje de aventura",
+              "marks": [
+                "m7v"
+              ]
+            },
+            {
+              "_key": "s7y",
+              "_type": "span",
+              "text": ". No son destinos para el visitante casual. Son para los comprometidos, los preparados y los autosuficientes; y para ellos, el desierto puede ofrecer la versión más pura del acontecimiento en cualquier punto de la Tierra.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5x",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s5y",
+              "_type": "span",
+              "text": "El Cairo no verá la totalidad. La capital experimentará un eclipse parcial profundo: dramático por derecho propio, pero un eclipse parcial de cualquier profundidad no es, categóricamente, el acontecimiento. El consejo honesto para cualquiera que esté en Egipto esa semana es estar dentro de la franja, sin matices. La diferencia entre el 99 y el 100 por ciento es la diferencia entre leer sobre un lugar y estar en él.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b5z",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s60",
+              "_type": "span",
+              "text": "El calor, dicho con honestidad",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b61",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s62",
+              "_type": "span",
+              "text": "El 2 de agosto es pleno verano en el Alto Egipto, y ninguna guía seria sobre este acontecimiento debería pasar de puntillas sobre ese hecho.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b63",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s64",
+              "_type": "span",
+              "text": "Las temperaturas diurnas en Luxor a comienzos de agosto superan con regularidad los 40 °C. Esa es la razón por la que la temporada clásica de viaje a Egipto va de octubre a abril, y la razón por la que los viajeros del eclipse deben estructurar el viaje de otra manera que un itinerario de invierno. Las visitas a templos y tumbas pertenecen a las primeras horas de la mañana, cuando la orilla occidental está, en cualquier caso, en su momento más hermoso. Las horas centrales pertenecen a la sombra, las piscinas y el aire acondicionado, con la gran excepción del propio día del eclipse, cuando las horas centrales pertenecen al cielo, y cuando el eclipse aporta su propia y extraña clemencia: la temperatura desciende de forma perceptible a medida que la luz se apaga, y la totalidad llega como un alivio tanto físico como visual.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b65",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s66",
+              "_type": "span",
+              "text": "La hidratación en estas condiciones es una disciplina, no una sugerencia. Los planes de observación deben incluir sombra para las horas de espera, agua en cantidad y, para cualquier persona con problemas de salud, honestidad sobre lo que exige permanecer al aire libre al mediodía del verano egipcio. Nada de esto es una razón para no venir. Es una razón para planear el día como alguien que sabe dónde está.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b67",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s68",
+              "_type": "span",
+              "text": "Cómo mirar sin riesgo",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b69",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6a",
+              "_type": "span",
+              "text": "Las reglas son pocas y absolutas.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6b",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6c",
+              "_type": "span",
+              "text": "En todo momento salvo durante la propia totalidad, mirar al sol exige gafas de eclipse certificadas conforme a la norma ISO 12312-2: ni gafas de sol, ni película velada, ni improvisaciones. Las fases parciales, por profundas que sean, pueden causar daños permanentes en la retina del ojo desprotegido, y el ojo no tiene respuesta de dolor que avise de ello. Las gafas deben comprarse con antelación a proveedores fiables; un operador sensato las proporcionará.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6d",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6e",
+              "_type": "span",
+              "text": "Durante la totalidad —y solo durante la totalidad— las gafas se quitan. El sol completamente eclipsado es seguro de mirar directamente, y está hecho para ser mirado; observarlo a través de filtros no mostraría, de hecho, nada. La disciplina está en los bordes: gafas fuera en el segundo anillo de diamante, gafas puestas en el tercero. En grupo, alguien debe encargarse del cronometraje.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6f",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6g",
+              "_type": "span",
+              "text": "Las cámaras y los teléfonos apuntados a las fases parciales necesitan filtros solares por la misma razón que los ojos. Durante los seis minutos de totalidad, la fotografía ordinaria es segura. El mejor plan, para quien no viaje específicamente a fotografiar, es dejar la cámara preparada de antemano, dejarla trabajar y pasar los seis minutos mirando hacia arriba.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6h",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6i",
+              "_type": "span",
+              "text": "Planear ahora, no después",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6j",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6k",
+              "_type": "span",
+              "text": "La aritmética de este acontecimiento no perdona, y es la razón por la que este artículo existe años antes de la fecha.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6l",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6m",
+              "_type": "span",
+              "text": "Luxor es una ciudad cuyo parque hotelero se construyó para una temporada de invierno. El eclipse traerá una afluencia internacional contra una capacidad fija, concentrada en una sola semana del verano bajo. Los operadores especializados en astronomía de Europa y Norteamérica empezaron a vender viajes del eclipse a Luxor con años de antelación, y el patrón de los grandes eclipses anteriores es consistente: el alojamiento dentro de la franja se agota mucho antes de que el público viajero general empiece a pensar en ello, y lo que queda se reajusta de precio en consecuencia. Los cruceros por el Nilo que operen esa semana, las azoteas de hotel con cielo despejado, las casas de huéspedes de la orilla occidental: todo se irá pronto. La reapertura del Winter Palace como Mandarin Oriental el mes anterior al eclipse no hace más que afilar el argumento: la cima del mercado ya está reclamada.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6n",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6o",
+              "_type": "span",
+              "text": "Los viajeros que hagan esto bien tratarán el eclipse como el punto fijo de un itinerario egipcio más amplio: El Cairo y el Gran Museo Egipcio antes, el eclipse en Luxor en el centro, el río hacia el sur hasta Asuán después, en el ritmo tranquilo y suavizado por el calor del Nilo en verano. El Gran Museo Egipcio de Guiza, plenamente abierto desde noviembre de 2025, alberga hoy la colección completa de Tutankamón —la máscara, los ataúdes anidados, los carros, el trono— en galerías construidas expresamente que por fin dan al conjunto el espacio que merece, y ha sustituido al viejo museo de Tahrir como punto de partida esencial para el Imperio Nuevo.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6p",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6q",
+              "_type": "span",
+              "text": "Egipto en agosto tiene su propio carácter —sitios más vacíos, tardes más lentas, atardeceres sobre el agua—, y el eclipse da a esa estación, por un solo año, un ancla que ningún otro destino de la Tierra puede ofrecer.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6r",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6s",
+              "_type": "span",
+              "text": "El sol lleva mucho tiempo saliendo sobre Tebas. Una tarde de agosto de 2027 se apagará, y el corredor de tierra bajo esa oscuridad atraviesa Egipto. Estar debajo es una decisión que conviene tomar ahora.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6t",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6u",
+              "_type": "span",
+              "text": "FAQ",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6v",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6w",
+              "_type": "span",
+              "text": "¿Cuándo ocurre exactamente el eclipse solar total de 2027 en Luxor?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6x",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s6y",
+              "_type": "span",
+              "text": "El lunes 2 de agosto de 2027. En Luxor, el eclipse parcial comienza aproximadamente a las 11:40 hora local, la totalidad va de las 13:02 a las 13:08 con el máximo hacia las 13:05, y las últimas fases parciales terminan a media tarde. Los horarios varían entre segundos y un par de minutos según el punto de la región, y las circunstancias locales precisas deben confirmarse más cerca de la fecha.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b6z",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s70",
+              "_type": "span",
+              "text": "¿Cuánto dura la totalidad y por qué es especial este eclipse?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b71",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s72",
+              "_type": "span",
+              "text": "La totalidad cerca de Luxor dura seis minutos y veintitrés segundos: la más larga de cualquier eclipse en tierra accesible del siglo XXI. Ninguna totalidad más larga ocurrirá en ningún lugar hasta 2114. La duración resulta de una combinación rara: la luna cerca de su punto más próximo a la Tierra y el sol cerca de su punto más lejano, en el momento en que la sombra cruza el Alto Egipto.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b73",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s74",
+              "_type": "span",
+              "text": "¿Puede verse el eclipse desde El Cairo, Hurghada o Sharm el-Sheikh?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b75",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s76",
+              "_type": "span",
+              "text": "El Cairo y Sharm el-Sheikh solo verán un eclipse parcial: el sol nunca queda completamente cubierto, y la experiencia definitoria de la totalidad no se produce. Hurghada está en el borde norte de la franja; quien tenga allí su base debería desplazarse ese día hacia el sur, en dirección a Marsa Alam, o hacia el interior, al tramo del valle del Nilo entre Luxor y Qena. La experiencia completa exige estar dentro de la franja de totalidad, y Luxor es la base mejor servida dentro de ella.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b77",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s78",
+              "_type": "span",
+              "text": "¿Estará abierto el Winter Palace para el eclipse?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b79",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7a",
+              "_type": "span",
+              "text": "Ese es el plan, con nombre nuevo. El hotel cerró a comienzos de 2026 para una restauración completa y su reapertura está prevista para julio de 2027 como Mandarin Oriental Winter Palace, Luxor: semanas antes del día del eclipse, y reposicionado en lo más alto del mercado de lujo. Quien espere alojarse allí para el eclipse debería vigilar el calendario de reapertura y mantener una reserva alternativa, porque las grandes restauraciones pueden retrasarse.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b7b",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7c",
+              "_type": "span",
+              "text": "¿Es seguro mirar el eclipse?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b7d",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7e",
+              "_type": "span",
+              "text": "Solo durante la fase total. Durante todas las fases parciales, las gafas de eclipse certificadas conforme a la norma ISO 12312-2 son obligatorias para mirar al sol; las gafas de sol ordinarias no son protección. Durante los seis minutos de la totalidad, el sol eclipsado es seguro —y está pensado— para verse a simple vista.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b7f",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7g",
+              "_type": "span",
+              "text": "¿Cuánto calor hará en Luxor en agosto? ¿Es manejable el viaje?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b7h",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7i",
+              "_type": "span",
+              "text": "Un calor genuino: las máximas diurnas superan con regularidad los 40 °C. El viaje es perfectamente manejable con disciplina de verano: visitas a primera hora de la mañana, sombra y descanso en las horas centrales, hidratación seria y un plan para el día del eclipse que incluya refugio durante las horas de espera. El propio eclipse enfría brevemente el aire a medida que la luz se apaga.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b7j",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7k",
+              "_type": "span",
+              "text": "¿Con cuánta antelación conviene reservar alojamiento?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b7l",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7m",
+              "_type": "span",
+              "text": "Con toda la posible, medida en años y no en meses. La capacidad de Luxor es finita, los viajes internacionales del eclipse llevan tiempo reservando espacio y la semana en torno al 2 de agosto de 2027 será la más solicitada que la ciudad haya visto. Quien quiera un hotel concreto, una azotea con vistas o un crucero por el Nilo esa semana debería considerar la reserva como urgente desde el momento en que sus planes se concreten.",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b7n",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7o",
+              "_type": "span",
+              "text": "¿Qué más conviene ver en Egipto durante el viaje del eclipse?",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b7p",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s7q",
+              "_type": "span",
+              "text": "En Luxor, los templos de la orilla oriental —Karnak y el templo de Luxor—, el Valle de los Reyes y el Valle de las Reinas, y los templos funerarios de Hatshepsut y de los reyes ramésidas quedan todos a poca distancia. Un crucero por el Nilo entre Luxor y Asuán, con escalas en Edfu, Kom Ombo y File, sigue siendo una de las grandes experiencias de viaje. En El Cairo, el Gran Museo Egipcio de Guiza alberga la colección completa de Tutankamón y es hoy el punto de partida esencial para entender el Imperio Nuevo.",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "heroImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0f24d97dccc38badb5798d997665ebef5fe80ea4-2000x1078-jpg",
+          "_type": "reference"
+        },
+        "alt": "El templo de Luxor iluminado en dorado contra un cielo nocturno negro, con su pilono y su columnata junto al minarete de la mezquita de Abu al-Haggag.",
+        "caption": "La noche sobre el templo de Luxor: la oscuridad que el eclipse de 2027 traerá al Alto Egipto al mediodía."
+      },
+      "relatedCities": [
+        {
+          "_key": "rc87",
+          "_ref": "wp-page-58877",
+          "_type": "reference"
+        }
+      ],
+      "seo": {
+        "metaTitle": "El eclipse solar total de 2027: seis minutos de noche sobre Luxor",
+        "metaDescription": "El 2 de agosto de 2027, el eclipse solar total más largo del siglo en tierra accesible pasará directamente sobre el Alto Egipto. Esto es lo que va a ocurrir, y cómo estar debajo."
+      }
+    },
+    {
+      "_id": "article.total-solar-eclipse-egypt-2027-ja",
+      "_type": "article",
+      "language": "ja",
+      "title": "2027年皆既日食：ルクソールの上の、六分間の夜",
+      "slug": {
+        "_type": "slug",
+        "current": "kaiki-nisshoku-rukusoru-2027"
+      },
+      "deck": "2027年8月2日、今世紀、到達可能な陸地で最も長い皆既日食が上エジプトの真上を通ります。何が起こるのか——そして、その下に立つ方法をご案内します。",
+      "category": {
+        "_ref": "category-destination-depth",
+        "_type": "reference"
+      },
+      "author": {
+        "_ref": "author.travel2egypt-editorial",
+        "_type": "reference"
+      },
+      "publishedAt": "2026-07-19T09:00:00Z",
+      "featured": false,
+      "body": [
+        {
+          "_key": "b88",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s89",
+              "_type": "span",
+              "text": "太陽はテーベの上で消える",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8a",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_key": "mbu",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "children": [
+            {
+              "_key": "sbw",
+              "_type": "span",
+              "text": "2027年8月2日の午後1時5分ごろ、",
+              "marks": []
+            },
+            {
+              "_key": "sbv",
+              "_type": "span",
+              "text": "ルクソール",
+              "marks": [
+                "mbu"
+              ]
+            },
+            {
+              "_key": "sbx",
+              "_type": "span",
+              "text": "の上空で太陽が消えます。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8c",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8d",
+              "_type": "span",
+              "text": "比喩ではありません。月が太陽の円盤を完全に横切り、昼は深い薄明へと沈み、気温は下がり、午後の空に惑星が現れ、太陽コロナ——皆既のあいだにだけ肉眼で見える、太陽の淡い外層の大気——が、六分二十三秒のあいだ、ナイルの上に懸かります。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8e",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8f",
+              "_type": "span",
+              "text": "六分二十三秒というのは、並外れた数字です。ほとんどの皆既日食が差し出す皆既は二分か三分。あの2024年4月の北米の皆既日食でさえ、最大で四分半に届きませんでした。2027年の日食は、二十一世紀を通じて、到達可能な陸地で最も長い皆既になります。これより長いものは、2114年まで地球上のどこにも起こりません。いま生きているすべての人にとって、これは空が差し出す、最も深く、最も長い闇です——そしてその最大継続時間の地点は、ルクソールの南東すぐの、上エジプトに落ちるのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8g",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8h",
+              "_type": "span",
+              "text": "古代エジプト人は、太陽の日々の死と再生のまわりに、宇宙観の全体を組み立てました。カルナックの神殿群は太陽の動きに合わせて配置されました。西岸の墓は、回廊ごとに、夜の十二の時間を渡る太陽神の旅を語ります。この一日の午後、夜は正午にやって来ます——それを説明するために建てられた記念建造物の、真上に。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8i",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8j",
+              "_type": "span",
+              "text": "旅を計画する価値のある出来事があります。これは、年単位で計画する価値のある、数少ないもののひとつです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8k",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8l",
+              "_type": "span",
+              "text": "2027年8月2日に何が起こるか",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8m",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8n",
+              "_type": "span",
+              "text": "仕組みは単純で、その背後の偶然は単純ではありません。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8o",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8p",
+              "_type": "span",
+              "text": "皆既日食は、月が地球と太陽のあいだを正確に通過し、その影を地表に落とすときに起こります。影の暗い中心——本影、太陽が完全に隠される領域——は、天体が動くにつれて、地上に細い回廊を描きます。皆既が起こるのはその回廊の内側だけです。外側の観測者が見るのは部分食——興味深くはあっても、まったく別の次元の体験です。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8q",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8r",
+              "_type": "span",
+              "text": "2027年の回廊は大西洋上に始まり、スペイン南部に上陸し、ジブラルタル海峡を渡り、北アフリカ——モロッコ北部、アルジェリア、チュニジア、リビア——を縦断して、北西からエジプトに入ります。西方砂漠を横切り、ルクソールとケナのあたりでナイル河谷の上を通り、紅海を越えてサウジアラビアのジッダとメッカへ続き、イエメンとアフリカの角から抜けていきます。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8s",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8t",
+              "_type": "span",
+              "text": "エジプトは、この日食が最も完全な姿に達する場所です。二つの軌道上の事情がそれを説明します。この日、月は近地点——地球への最接近点——の近くにあり、ふだんよりわずかに大きく見えます。そして地球は遠日点——太陽から最も遠い点——の近くにあり、太陽はわずかに小さく見えます。大きな月が小さな太陽を覆えば、その前に留まる時間は長くなります。この配置は上エジプトの上空で最適に達し、影の帯はその最大幅——およそ250km——に、皆既はその最長に届きます。最大継続時間の地点は、ルクソールの南東の砂漠にあります。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8u",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8v",
+              "_type": "span",
+              "text": "ルクソール自体は中心線に十分近く、その差は学術的なものにすぎません。市内では、部分食は午前11時40分ごろ、月が太陽の縁を最初にかじるところから始まります。皆既はおよそ午後1時2分に始まり、1時5分ごろに最大に達し、1時8分ごろに終わります。残りの部分食は午後の早い時間まで続きます。最大のとき、太陽は地平線から82度——ほぼ天頂——にあります。つまり、屋上も、尾根も、開けた川岸も要らないということです。ルクソールで空の開けた場所なら、どこでも足ります。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8w",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8x",
+              "_type": "span",
+              "text": "なぜエジプトが見るべき場所なのか",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b8y",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s8z",
+              "_type": "span",
+              "text": "皆既帯のすべての国が、この日食を売り込むでしょう。エジプトの論拠は、どんな宣伝にも作れない三つの事実の上に立っています。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b90",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s91",
+              "_type": "span",
+              "text": "第一は、継続時間です。皆既は経路の両端に向かって短くなります。スペインの大半の地点では三分未満。モロッコとアルジェリアは次第に長く。エジプトが最大です。カディスとルクソールのあいだで選ぶ旅行者は、闇のおよそ半分と、そのすべてとのあいだで選んでいるのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b92",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s93",
+              "_type": "span",
+              "text": "第二は、天候です。日食は日程を変更できない約束であり、それを壊せるのは雲だけです。上エジプトの8月は、地球上で最も気象の予測しやすい環境のひとつです。真夏のルクソール上空の雲量は、統計的にほぼゼロに近く、この地域で日食当日に晴れる確率は、一般に八割以上と見積もられています——夏の靄と海岸の雲が現実のリスクであるスペインの地中海岸より、はるかに強い勝算です。日食を追う人々——ほかの旅行者がホテルのレビューを研究するように気候学を研究する共同体——は、何年も前から、この日食の観測地の本命としてエジプトを特定してきました。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b94",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s95",
+              "_type": "span",
+              "text": "第三は舞台であり、これはエジプトだけのものです。皆既帯はカルナックの上を、ルクソール神殿の上を、テーベの墓地遺跡と王家の谷の上を通ります。影が横切るのは、太陽を創造された秩序の源として崇め、太陽暦で一年を測り、太陽の聖船の夜ごとの航海を王墓に刻んだ文明の建てた記念建造物です。カルナックの塔門の上で太陽が消え、戻るのを見ることは、単によい写真ではありません。天文学と人類の歴史との、考えうる最も稀な合流であり、いま生きているどの人の時間のなかでも、二度と繰り返されないのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b96",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s97",
+              "_type": "span",
+              "text": "六分間の記述",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b98",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s99",
+              "_type": "span",
+              "text": "皆既についてのほとんどの記述が失敗するのは、体験がその写真に似ていないからです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9a",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9b",
+              "_type": "span",
+              "text": "最初の一時間は静かです。月の太陽への侵入は、日食グラスなしには見えません。グラスを通すと、太陽は痩せていく三日月になります。光はゆっくり変わり、そして最後の十五分ほどで、奇妙に変わります——薄く、銀色で、言葉にしにくい仕方で正しくないのです。影の輪郭が鋭くなります。気温が下がり始めます——ルクソールの夏には、それ自体が本物の安らぎです。人より先に、鳥が反応します。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9c",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9d",
+              "_type": "span",
+              "text": "皆既の直前の数秒、残った太陽の細い弧は月の縁に沿って光の粒に砕け、ひとつの点——ダイヤモンドリング——に縮み、そして消えます。ここが、グラスを外す瞬間です。空は深い、ほとんど黒に近い薄明の青。金星と木星が現れます。月の黒い円盤のまわりにコロナが広がります——白く、構造をもち、人生のほかのどの瞬間にも見えない磁力線に沿って外へ流れながら。そして地平線には、全方位に、影の外の世界の光が輝きます——360度の夕焼けです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9e",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9f",
+              "_type": "span",
+              "text": "六分間は、写真をやめて、ただその中に立つのに足りる長さです。これははっきり言っておく価値があります。より短い日食では、カメラを置けという助言には代償が伴うからです。ここでは伴いません。コロナを見て、惑星を探し、まわりの顔を眺めて、それでも写真を撮る時間があるのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9g",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9h",
+              "_type": "span",
+              "text": "やがてダイヤモンドリングが反対側の縁に再び現れ、グラスは戻り、昼の光は戸惑うほどの速さで帰ってきます。部分食は逆の順で繰り返されますが、観客の大半はもう見ていません。最初の皆既を忘れる人はいません。それを十分に予期できる人は、ごくわずかです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9i",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9j",
+              "_type": "span",
+              "text": "どこに立つか",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9k",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9l",
+              "_type": "span",
+              "text": "皆既帯の内側では、実際的な問いは日食が見えるかどうかではなく、その下に何を置きたいか、です。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9m",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9n",
+              "_type": "span",
+              "text": "ルクソールは自明の答えであり、ほとんどの旅行者にとって正しい答えです。中心線に近く、この地域のホテルの収容力と空港を擁し、そして神殿があります。東岸のコルニーシュ、ホテルの屋上と庭、カルナックの開かれた中庭、西岸の畑、そして川そのもの——フェルッカから、あるいはクルーズ船の甲板から——のどれもが役に立ちます。エジプト当局と地元の事業者が、主要な遺跡やその近くで観測イベントを組織すると見込むのは合理的です。詳細は日が近づけば固まりますが、幾何学は変わりません。最大のとき太陽はほぼ天頂にあり、空の開けたルクソール圏内のどこであれ、秒の差を除いて完全な継続時間を受け取るのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9o",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_key": "mc6",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58758",
+                "_type": "reference"
+              }
+            }
+          ],
+          "children": [
+            {
+              "_key": "sc8",
+              "_type": "span",
+              "text": "この街のホテルの風景そのものが動いており、日食の旅行者はそれを知っておくべきです。ウィンター・パレス——1907年開業、ハワード・カーターのルクソールの宿であり、何十年ものあいだ上エジプトで最も空気をまとった住所——は、新たな運営のもとでの全面修復のため、2026年初めに閉じました。再開は2027年7月、「マンダリン・オリエンタル・ウィンター・パレス・ルクソール」として予定されています。日食当日の数週間前、高級の帯へとはっきり位置を変え、修復が予定を守れば、そのヤシの木陰の庭を、新しい旗のもとで初めて日食の観測者に差し出すことになります。この宿のまわりに計画を組む人は、再開の日程を注意深く見守り、代わりの選択肢を確保しておくべきです。大規模な修復は、早く終わることで有名ではありません。同じグループは同じ時期に、ルクソールと",
+              "marks": []
+            },
+            {
+              "_key": "sc7",
+              "_type": "span",
+              "text": "アスワン",
+              "marks": [
+                "mc6"
+              ]
+            },
+            {
+              "_key": "sc9",
+              "_type": "span",
+              "text": "のあいだの高級ナイルクルーズも始めます——その夏、国際的な旅の産業がどこに視線を向けているかの、必要とあらば、ひとつの合図です。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9q",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9r",
+              "_type": "span",
+              "text": "個人の旅行者にとって、実際的な問いは、どこで見るかよりも、どうやって場所を確保するか、です。ルクソールの基盤はこの人出に張り詰めるはずで、当日ものを言う変数は、日陰と、水と、部分食が始まる前の午前の残りを、耐えられる場所で過ごせるかどうかです。西岸は、別に考える価値があります。その小さな宿とゲストハウスは砂漠の縁の環境と開けた地平線を差し出しますが、制約は川の横断です。日食の当日、公共のフェリーとモーターボートはあふれ返るでしょう。事前に貸切の船を手配するか、早くに渡って、午後の人波が引くまで西岸に留まる計画を立ててください。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9s",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9t",
+              "_type": "span",
+              "text": "ケナと、ルクソールの北のナイル河谷の町々も、同じくらい帯の深くにあります。そしてそこには、国じゅうで主題的に最も完全な第二の舞台と呼べるものがあります——デンデラのハトホル神殿です。その天井は、古代世界から残る天文装飾のうち、最も完全なもののひとつに数えられます。外側の広間の大天井には、天の女神ヌトが大地の上に弓なりに架かり、夕べごとに太陽を呑み、暁ごとにそれを産む姿が描かれています。この神殿はまた、有名な円形の黄道帯——プトレマイオス朝時代、紀元前1世紀半ばごろに刻まれ、原品はいまルーヴルに掛かる——を生みました。すでに天を写した天井の下で太陽が消えるのを見ることは、飾り立てを要しない合流です。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9u",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9v",
+              "_type": "span",
+              "text": "紅海岸は、日食をダイビングや浜の滞在と組み合わせる旅行者の選択肢に入ります。マルサ・アラムとその周辺は帯の内側に落ち、海風が8月の暑さの角を多少取ります——ただし海の空気は、砂漠の内陸にはない靄を連れてきます。ハルガダは経路の北の縁にあります。そこを拠点にする人は、当日、南へ、あるいは内陸へ移動する計画を立てるべきです。帯の縁に近い地点は、便利さと引き換えに皆既の分を差し出します——その分の価値を考えれば、割に合わない交換です。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9w",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [
+            {
+              "_key": "mby",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-112945",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "mc2",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "children": [
+            {
+              "_key": "sc4",
+              "_type": "span",
+              "text": "純粋主義者——何よりも空を重んじる、日食を追う人——にとっては、西方砂漠が帯じゅうで最も澄んだ大気を差し出します。バハレイヤ・オアシスは回廊の心臓部に近く、最大にほぼ迫る皆既を体験します。スィーワは、経路がエジプトに入るあたり、ずっと北西にあり、いくぶん短いながらなお並外れた継続時間を、ほぼ保証された透明の空気のなかで受け取ります。引き換えは、遠さです。スィーワは",
+              "marks": []
+            },
+            {
+              "_key": "sc3",
+              "_type": "span",
+              "text": "カイロ",
+              "marks": [
+                "mc2"
+              ]
+            },
+            {
+              "_key": "sc5",
+              "_type": "span",
+              "text": "から丸一日の道のり、バハレイヤはより近いものの、なお本格的な企てであり、開けた砂漠の8月は、当サイトの",
+              "marks": []
+            },
+            {
+              "_key": "sbz",
+              "_type": "span",
+              "text": "アドベンチャー・トラベルのガイド",
+              "marks": [
+                "mby"
+              ]
+            },
+            {
+              "_key": "sc1",
+              "_type": "span",
+              "text": "が記す段取りと、水の規律と、経験ある事業者を要します。気軽な訪問者のための行き先ではありません。覚悟のある者、備えのある者、自足できる者のための場所です——そして彼らにとって、砂漠は、地球上のどこよりも純粋な形のこの出来事を差し出すかもしれないのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "b9y",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "s9z",
+              "_type": "span",
+              "text": "カイロでは皆既は見えません。首都が体験するのは深い部分食——それ自体は劇的でも、どれほど深い部分食であれ、断じてあの出来事ではありません。その週にエジプトにいるすべての人への正直な助言は、帯の内側にいること、それだけです。99パーセントと100パーセントの違いは、ある場所について読むことと、そこに立つことの違いなのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "ba0",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sa1",
+              "_type": "span",
+              "text": "暑さについて、正直に",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "ba2",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sa3",
+              "_type": "span",
+              "text": "8月2日は上エジプトの真夏であり、この出来事についてのまともな案内が、その事実を素通りしてよいはずがありません。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "ba4",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sa5",
+              "_type": "span",
+              "text": "8月初めのルクソールの日中の気温は、40℃を常のように超えます。エジプトの旅の古典的な季節が十月から四月である理由がこれであり、日食の旅行者が冬の行程とは違う組み立てをすべき理由もこれです。神殿と墓の訪問は早朝のものです——西岸がいずれにせよ最も美しい時間帯でもあります。日中の中心の時間は、日陰と、プールと、冷房のものです。ただし大きな例外がひとつ——日食の当日、その中心の時間は空のものになります。そして日食は、それ自身の奇妙な慈悲を連れてきます。光が衰えるにつれて気温は目に見えて下がり、皆既は、視覚のみならず身体の安らぎとして訪れるのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "ba6",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sa7",
+              "_type": "span",
+              "text": "この条件下での水分補給は、規律であって、提案ではありません。観測の計画には、待ち時間のための日陰と、十分な量の水と、そして健康に不安のある人には、エジプトの夏の正午に屋外に立つことの要求への正直さが含まれるべきです。これらのどれも、来ない理由ではありません。自分がどこにいるかを知る者として、その日を計画する理由です。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "ba8",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sa9",
+              "_type": "span",
+              "text": "安全な観測のために",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "baa",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sab",
+              "_type": "span",
+              "text": "規則は少なく、絶対です。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bac",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sad",
+              "_type": "span",
+              "text": "皆既そのもの以外のすべての瞬間、太陽を見るには、ISO 12312-2規格に適合した認証済みの日食グラスが必要です——サングラスでも、感光したフィルムでも、その場しのぎでもなく。部分食は、どれほど深くても、保護のない眼の網膜に恒久的な損傷を与えうるうえ、眼にはそれを警告する痛みの反応がありません。グラスは信頼できる供給元から事前に買っておくべきで、まともな事業者なら用意しています。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bae",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "saf",
+              "_type": "span",
+              "text": "皆既のあいだ——そして皆既のあいだだけ——グラスは外します。完全に食された太陽は、直接見ても安全であり、見られるためにあります。フィルター越しに観察しても、実のところ何も見えません。規律は縁にあります——二度目のダイヤモンドリングでグラスを外し、三度目で戻すこと。グループでは、誰かが時間の管理を引き受けるべきです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bag",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sah",
+              "_type": "span",
+              "text": "部分食に向けたカメラと携帯電話にも、眼と同じ理由で太陽フィルターが要ります。皆既の六分間は、ふつうの撮影で安全です。撮影を目的に旅するのでない人にとっての、よりよい計画はこうです——カメラは前もって据え、勝手に働かせて、六分間は上を見て過ごすこと。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bai",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "saj",
+              "_type": "span",
+              "text": "いま計画する、あとではなく",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bak",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sal",
+              "_type": "span",
+              "text": "この出来事の算術は容赦がなく、この記事が日付の何年も前に存在する理由がそれです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bam",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "san",
+              "_type": "span",
+              "text": "ルクソールは、冬の季節のためにホテルの供給が造られた街です。日食は、固定された収容力に向かって、夏の閑散期のたった一週間に、国際的な人出を連れてきます。ヨーロッパと北米の天文専門の事業者は、何年も前からルクソールの日食ツアーを売り始めており、過去の大きな日食の型は一貫しています——帯の内側の宿は、一般の旅行者が考え始めるずっと前に売り切れ、残ったものはそれに応じて値を変えるのです。その週に運航するナイルクルーズ、空の開けたホテルの屋上、西岸のゲストハウス——そのすべてが早くに埋まります。日食のひと月前のウィンター・パレスのマンダリン・オリエンタルとしての再開は、この論点を研ぐだけです。市場の頂点は、すでに取られているのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bao",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sap",
+              "_type": "span",
+              "text": "これをうまくやる旅行者は、日食を、より大きなエジプトの行程の固定点として扱うでしょう。前にカイロと大エジプト博物館、中心にルクソールの日食、後に川を南へアスワンまで——夏のナイルの、静かで、暑さにやわらげられたリズムのなかで。ギザの大エジプト博物館は、2025年11月から全面的に開き、いまツタンカーメンの完全なコレクション——マスク、入れ子の棺、戦車、玉座——を、この集成にようやくふさわしい空間を与える専用の展示室に収めています。そして新王国への欠かせない出発点として、タハリールの旧博物館に取って代わりました。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "baq",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sar",
+              "_type": "span",
+              "text": "8月のエジプトには、それ自身の性格があります——より空いた遺跡、より遅い午後、水の上の夕べ。そして日食はその季節に、ただ一年だけ、地上のほかのどの行き先にも差し出せない錨を与えるのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bas",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sat",
+              "_type": "span",
+              "text": "太陽は、とても長いあいだ、テーベの上に昇ってきました。2027年8月のある午後、それは消えます。そしてその闇の下の陸の回廊は、エジプトを貫いているのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bau",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sav",
+              "_type": "span",
+              "text": "その下に立つことは、いま決めるのがよい決断です。",
+              "marks": [
+                "em"
+              ]
+            }
+          ]
+        },
+        {
+          "_key": "baw",
+          "_type": "block",
+          "style": "h2",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sax",
+              "_type": "span",
+              "text": "よくある質問",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bay",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "saz",
+              "_type": "span",
+              "text": "2027年の皆既日食は、ルクソールで正確にはいつ起こりますか？",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bb0",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sb1",
+              "_type": "span",
+              "text": "2027年8月2日、月曜日です。ルクソールでは、部分食が現地時間の午前11時40分ごろに始まり、皆既は午後1時2分ごろから1時8分ごろまで、最大は1時5分ごろ。最後の部分食は午後の半ばに終わります。時刻は地域内の地点によって数秒から二分ほど変わるため、正確な現地の状況は日が近づいてから確認してください。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bb2",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sb3",
+              "_type": "span",
+              "text": "皆既はどのくらい続きますか？　この日食はなぜ特別なのですか？",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bb4",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sb5",
+              "_type": "span",
+              "text": "ルクソール近くの皆既は六分二十三秒——二十一世紀の、到達可能な陸地でのどの日食よりも長い皆既です。これより長い皆既は、2114年までどこにも起こりません。この長さは、稀な組み合わせの結果です——月が地球への最接近点の近くに、太陽が最遠点の近くにあるまさにそのとき、影が上エジプトを横切るのです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bb6",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sb7",
+              "_type": "span",
+              "text": "カイロ、ハルガダ、シャルム・エル・シェイクから日食は見えますか？",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bb8",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sb9",
+              "_type": "span",
+              "text": "カイロとシャルム・エル・シェイクで見えるのは部分食だけです——太陽が完全に覆われることはなく、皆既という決定的な体験は起こりません。ハルガダは帯の北の縁にあります。そこを拠点にする人は、当日、南のマルサ・アラム方面へ、あるいは内陸のルクソールとケナのあいだのナイル河谷へ移動すべきです。完全な体験には皆既帯の内側にいることが必要で、ルクソールはその中で最も設備の整った拠点です。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bba",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbb",
+              "_type": "span",
+              "text": "ウィンター・パレスは日食のとき開いていますか？",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bbc",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbd",
+              "_type": "span",
+              "text": "それが計画です——新しい名前で。ホテルは2026年初めに全面修復のため閉じ、2027年7月に「マンダリン・オリエンタル・ウィンター・パレス・ルクソール」として再開する予定です。日食当日の数週間前で、高級市場の頂点に位置を変えます。日食のためにここへの滞在を望む旅行者は、再開の日程を見守り、代わりの予約を確保しておくべきです。大規模な修復は遅れうるからです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bbe",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbf",
+              "_type": "span",
+              "text": "日食を見るのは安全ですか？",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bbg",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbh",
+              "_type": "span",
+              "text": "皆既の局面だけです。すべての部分食のあいだ、太陽を見るにはISO 12312-2規格に適合した認証済みの日食グラスが必須です。ふつうのサングラスは保護になりません。皆既の六分間だけ、食された太陽は肉眼で安全に——そして、そのために——見ることができます。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bbi",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbj",
+              "_type": "span",
+              "text": "8月のルクソールはどれほど暑いですか？　旅は成り立ちますか？",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bbk",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbl",
+              "_type": "span",
+              "text": "本物の暑さです。日中の最高気温は40℃を常のように超えます。旅は、夏の規律があれば十分に成り立ちます——早朝の観光、日中の日陰と休息、真剣な水分補給、そして待ち時間の避難場所を含む日食当日の計画です。日食そのものが、光の衰えとともに、束の間、空気を冷やしてくれます。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bbm",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbn",
+              "_type": "span",
+              "text": "宿はどのくらい前に予約すべきですか？",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bbo",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbp",
+              "_type": "span",
+              "text": "可能なかぎり早く——月ではなく、年で測って。ルクソールの収容力は有限で、国際的な日食ツアーは何年も前から場所を押さえており、2027年8月2日をはさむ週は、この街が経験したことのない需要になります。その週に特定のホテル、眺めのよい屋上、ナイルクルーズを望む人は、計画が固まった瞬間から、予約を急ぎの用件と考えるべきです。",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bbq",
+          "_type": "block",
+          "style": "h3",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbr",
+              "_type": "span",
+              "text": "日食の旅のあいだ、エジプトでほかに何を見るべきですか？",
+              "marks": []
+            }
+          ]
+        },
+        {
+          "_key": "bbs",
+          "_type": "block",
+          "style": "normal",
+          "markDefs": [],
+          "children": [
+            {
+              "_key": "sbt",
+              "_type": "span",
+              "text": "ルクソールでは、東岸の神殿——カルナックとルクソール神殿——、王家の谷と王妃の谷、そしてハトシェプストとラメセス朝の王たちの葬祭殿が、すべて近くにあります。エドフ、コム・オンボ、フィラエに寄港するルクソールとアスワンのあいだのナイルクルーズは、いまも旅の偉大な体験のひとつです。カイロでは、ギザの大エジプト博物館がツタンカーメンの完全なコレクションを収め、新王国を理解するための欠かせない出発点になっています。",
+              "marks": []
+            }
+          ]
+        }
+      ],
+      "heroImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-0f24d97dccc38badb5798d997665ebef5fe80ea4-2000x1078-jpg",
+          "_type": "reference"
+        },
+        "alt": "夜の黒い空を背に金色にライトアップされたルクソール神殿。塔門と列柱、そしてアブー・アル＝ハッガーグ・モスクの尖塔が並ぶ。",
+        "caption": "ルクソール神殿の夜——2027年の日食が真昼の上エジプトにもたらす闇。"
+      },
+      "relatedCities": [
+        {
+          "_key": "rcca",
+          "_ref": "wp-page-58877",
+          "_type": "reference"
+        }
+      ],
+      "seo": {
+        "metaTitle": "2027年皆既日食：ルクソールの上の、六分間の夜",
+        "metaDescription": "2027年8月2日、今世紀、到達可能な陸地で最も長い皆既日食が上エジプトの真上を通ります。何が起こるのか——そして、その下に立つ方法をご案内します。"
+      }
+    },
+    {
+      "_id": "tmeta.total-solar-eclipse-egypt-2027",
+      "_type": "translation.metadata",
+      "schemaTypes": [
+        "article"
+      ],
+      "translations": [
+        {
+          "_key": "en",
+          "_type": "internationalizedArrayReferenceValue",
+          "value": {
+            "_ref": "article.total-solar-eclipse-egypt-2027-en",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "es",
+          "_type": "internationalizedArrayReferenceValue",
+          "value": {
+            "_ref": "article.total-solar-eclipse-egypt-2027-es",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "ja",
+          "_type": "internationalizedArrayReferenceValue",
+          "value": {
+            "_ref": "article.total-solar-eclipse-egypt-2027-ja",
+            "_type": "reference"
+          }
+        }
+      ]
+    }
+  ]
+}
