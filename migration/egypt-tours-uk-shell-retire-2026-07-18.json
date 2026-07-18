@@ -1,0 +1,32 @@
+{
+  "operation": "Retire empty 'from-{country}' WP-import shell 'Egypt Tours from the UK' (wp-page-158052) — unpublish + 301 to the real UK & Europe group-tours landing.",
+  "date": "2026-07-18",
+  "reason": "Empty shell (no body/summary), placeholder Cairo city + 7-day duration; duplicates the curated tourLanding.egypt-group-tours-from-uk-europe. Squats the generic /egypt-tours slug.",
+  "unpublishedDoc": {
+    "_id": "wp-page-158052",
+    "_type": "tour",
+    "type": "package",
+    "tourMode": "private",
+    "enSlug": "egypt-tours",
+    "esSlug": "viajes-a-egipto-desde-el-reino-unido",
+    "jaSlug": "igirisu-hatsu-ejiputo-tsua",
+    "enTitle": "Egypt Tours from the UK",
+    "note": "Full document snapshot was read in-session; restore by re-publishing the (still-present) draft or re-creating from Sanity history rev delYuNKn6SJx0B11ZfhCPu."
+  },
+  "clearedInboundRelatedToursRefs": [
+    { "_id": "tour.8-days-best-of-egypt-tour-package", "removedKey": "rel_wp_page_158052", "removedRef": "wp-page-158052" },
+    { "_id": "wp-page-160129", "removedKey": "rel_wp_page_158052", "removedRef": "wp-page-158052" },
+    { "_id": "wp-page-89558", "removedKey": "rel_wp_page_158052", "removedRef": "wp-page-158052" }
+  ],
+  "redirects": {
+    "target": "egypt-group-tours-from-uk-europe (tourLanding, live, hero+intro+1 group pkg)",
+    "added": [
+      { "source": "/egypt-tours", "destination": "/egypt-group-tours-from-uk-europe", "locale": "en", "status": 301 },
+      { "source": "/es/viajes-a-egipto-desde-el-reino-unido", "destination": "/es/egypt-group-tours-from-uk-europe", "locale": "es", "status": 301 },
+      { "source": "/ja/igirisu-hatsu-ejiputo-tsua", "destination": "/ja/egypt-group-tours-from-uk-europe", "locale": "ja", "status": 301 }
+    ],
+    "retargeted": [
+      { "source": "/es/egypt-tours", "oldDestination": "/es/viajes-a-egipto-desde-el-reino-unido", "newDestination": "/es/egypt-group-tours-from-uk-europe", "locale": "es", "status": 301, "reason": "avoid 301-chain into the now-dead ES page" }
+    ]
+  }
+}

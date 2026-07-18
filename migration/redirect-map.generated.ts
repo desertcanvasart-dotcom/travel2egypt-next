@@ -11154,7 +11154,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/egypt-tours",
-    "destination": "/es/viajes-a-egipto-desde-el-reino-unido",
+    "destination": "/es/egypt-group-tours-from-uk-europe",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-tours",
+    "destination": "/egypt-group-tours-from-uk-europe",
+    "permanent": true
+  },
+  {
+    "source": "/es/viajes-a-egipto-desde-el-reino-unido",
+    "destination": "/es/egypt-group-tours-from-uk-europe",
+    "permanent": true
+  },
+  {
+    "source": "/ja/igirisu-hatsu-ejiputo-tsua",
+    "destination": "/ja/egypt-group-tours-from-uk-europe",
     "permanent": true
   },
   {
