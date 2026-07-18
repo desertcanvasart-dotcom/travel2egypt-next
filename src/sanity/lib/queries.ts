@@ -1556,6 +1556,7 @@ export const travelTipsArchiveQuery = (locale: Locale) => groq`
     "kicker": ${localizedField('kicker', locale)},
     "title": ${localizedField('mastTitle', locale)},
     "tagline": ${localizedField('tagline', locale)},
+    "updatedAt": _updatedAt,
     "essayHeading": ${localizedField('essayHeading', locale)},
     "essay": ${portableTextBodyProjection('essay', locale)},
     "cornerstone": cornerstone{

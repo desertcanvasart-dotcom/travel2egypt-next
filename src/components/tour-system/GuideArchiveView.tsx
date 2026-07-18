@@ -5,6 +5,7 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
 import { JourneyImage } from './JourneyImage';
+import { MastheadStats } from './MastheadStats';
 import { FloatingConcierge } from '../FloatingConcierge';
 
 export interface GuideCity {
@@ -74,10 +75,12 @@ function linkCities(text: string, links: Map<string, string>, locale: Locale): R
 export async function GuideArchiveView({
   settings,
   cities,
+  guideCount,
   locale,
 }: {
   settings: GuideArchiveSettings | null;
   cities: GuideCity[];
+  guideCount?: number;
   locale: Locale;
 }) {
   const t = await getTranslations('guide');
@@ -94,6 +97,14 @@ export async function GuideArchiveView({
 
   const lead = paras(settings?.guideLead);
   const regions = settings?.guideRegions ?? [];
+
+  // Hero stat anchor — city / region breadth and the full guide-article depth.
+  const regionCount = new Set(cities.map((c) => c.guideRegion).filter(Boolean)).size;
+  const heroStats = [
+    { label: t('statCities'), value: cities.length },
+    { label: t('statRegions'), value: regionCount },
+    { label: t('statGuides'), value: guideCount ?? 0 },
+  ];
   const manifesto = (settings?.guideManifesto ?? []).filter((m) => m.bold || m.text);
   const signoff = paras(settings?.guideSignoff);
 
@@ -170,8 +181,13 @@ export async function GuideArchiveView({
         </nav>
 
         <header className="masthead">
-          <h1>{t('landingTitle')}</h1>
-          <p className="dek">{t('landingDeck')}</p>
+          <div className="mast-head-row">
+            <div className="mast-lead">
+              <h1>{t('landingTitle')}</h1>
+              <p className="dek">{t('landingDeck')}</p>
+            </div>
+            <MastheadStats stats={heroStats} />
+          </div>
           {lead.length > 0 && (
             <div className="lead">
               {lead.map((para, i) => (

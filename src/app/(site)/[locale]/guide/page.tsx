@@ -33,10 +33,13 @@ export default async function GuideLandingPage({ params }: Props) {
   setRequestLocale(locale);
 
   const tNav = await getTranslations('nav');
-  const { settings, cities } = await client.fetch<{
-    settings: GuideArchiveSettings | null;
-    cities: GuideCity[];
-  }>(guideArchiveQuery(locale as Locale));
+  const [{ settings, cities }, guideCount] = await Promise.all([
+    client.fetch<{
+      settings: GuideArchiveSettings | null;
+      cities: GuideCity[];
+    }>(guideArchiveQuery(locale as Locale)),
+    client.fetch<number>(`count(*[_type=="guideArticle" && !(_id in path("drafts.**"))])`),
+  ]);
 
   const breadcrumbSchema = buildBreadcrumbList(
     [
@@ -49,7 +52,7 @@ export default async function GuideLandingPage({ params }: Props) {
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
-      <GuideArchiveView settings={settings} cities={cities ?? []} locale={locale as Locale} />
+      <GuideArchiveView settings={settings} cities={cities ?? []} guideCount={guideCount} locale={locale as Locale} />
     </>
   );
 }

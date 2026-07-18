@@ -7,6 +7,7 @@ import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { bucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
+import { MastheadStats } from './MastheadStats';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { FloatingConcierge } from '../FloatingConcierge';
 
@@ -212,6 +213,8 @@ export async function CategoryView({
         ctaBody: ts('grpDayCatCtaBody'),
         footSeasonLabel: ts('grpDayCatFootSeasonLabel'),
         footSeasonBody: ts('grpDayCatFootSeasonBody'),
+        statAxis: ts('dayCatStatCities'),
+        statCount: ts('grpDayCatStatTours'),
       }
     : {
         crumb: archive?.title ?? t('landingTitle'),
@@ -235,7 +238,14 @@ export async function CategoryView({
         ctaBody: ts('ctaBodyL1'),
         footSeasonLabel: t('footInSeasonLabel'),
         footSeasonBody: t('footInSeasonBody'),
+        statAxis: ts('dayCatStatCities'),
+        statCount: ts('dayCatStatTours'),
       };
+  const heroStats = [
+    { label: c.statAxis, value: navItems.length },
+    { label: c.statCount, value: tours.length },
+    { label: ts('catStatSince'), value: 2003 },
+  ];
   // The editorial section always renders: the byline always has content, and the
   // essay shows when present.
   const hasEditorial = true;
@@ -252,9 +262,12 @@ export async function CategoryView({
         </nav>
 
         <header className="masthead">
-          <span className="t2e-kicker">{c.mastKicker}</span>
-          <h1 className="mast-title">{c.mastTitle}</h1>
-          <p className="mast-tag">{c.mastTag}</p>
+          <div className="mast-lead">
+            <span className="t2e-kicker">{c.mastKicker}</span>
+            <h1 className="mast-title">{c.mastTitle}</h1>
+            <p className="mast-tag">{c.mastTag}</p>
+          </div>
+          <MastheadStats stats={heroStats} />
         </header>
       </div>
 

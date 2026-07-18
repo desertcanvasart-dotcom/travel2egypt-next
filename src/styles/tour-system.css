@@ -212,7 +212,20 @@
 /* ===========================================================================
  * LEVEL 1 — CATEGORY (journey-1-category.html)
  * ========================================================================= */
+.lvl-category .masthead, .lvl-guide .mast-head-row { display: flex; justify-content: space-between; align-items: flex-end; gap: 48px; flex-wrap: wrap; }
 .lvl-category .masthead { padding: 58px 0 70px; border-bottom: 1px solid var(--rule); }
+.lvl-guide .mast-head-row { margin-bottom: 34px; }
+.lvl-guide .masthead h1 { max-width: 15ch; }
+.mast-lead { min-width: 0; }
+.mast-stats { flex-shrink: 0; width: 240px; margin: 0 0 6px; }
+.mast-stats .stat-row { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; border-top: 0.5px solid var(--rule); padding: 10px 0; }
+.mast-stats .stat-row:last-child { border-bottom: 0.5px solid var(--rule); }
+.mast-stats dt { font-family: var(--ui); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--navy-mute); margin: 0; }
+.mast-stats dd { font-family: var(--display); font-weight: 400; font-size: 23px; color: var(--navy); line-height: 1; margin: 0; }
+@media (max-width: 760px) {
+  .lvl-category .masthead, .lvl-guide .mast-head-row { flex-direction: column; align-items: flex-start; gap: 0; }
+  .mast-stats { width: 100%; max-width: 320px; margin-top: 28px; }
+}
 .lvl-category .masthead .t2e-kicker { display: inline-block; margin-bottom: 26px; }
 .lvl-category .mast-title { font-family: var(--display); font-weight: 400; font-size: clamp(52px, 7vw, 98px); line-height: .96; letter-spacing: -.015em; color: var(--navy); max-width: 15ch; }
 .lvl-category .mast-tag { font-family: var(--display); font-style: italic; font-size: clamp(22px, 2.4vw, 31px); line-height: 1.38; color: var(--navy-mute); margin-top: 28px; max-width: 760px; }
