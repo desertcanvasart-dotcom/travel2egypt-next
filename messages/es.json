@@ -544,6 +544,9 @@
     "concierge": "Habla con nuestro concierge"
   },
   "hotels": {
+    "statHotels": "Hoteles",
+    "statCities": "Ciudades",
+    "statGrades": "Categorías",
     "landingTitle": "Hoteles que recomendamos en Egipto",
     "landingDeck": "Establecimientos concretos con los que trabajamos — elegidos porque encajan con un tipo de viajero y un tipo de viaje, no por pago publicitario.",
     "filterCity": "Ciudad",
@@ -599,6 +602,9 @@
     "footPracticalBody": "El día viene por niveles — vehículo y guía, luego las entradas, luego el almuerzo — para que pagues solo lo que quieras.\n\nSi no sabes qué día encaja con el viaje, pregúntanos. Dar forma al día adecuado es justo el sentido de ir en privado."
   },
   "nileCruises": {
+    "statCruises": "Cruceros",
+    "statVessels": "Embarcaciones",
+    "statRoutes": "Rutas",
     "landingTitle": "Cruceros por el Nilo",
     "landingDeck": "El río es la espina dorsal del país. La verdadera elección no es la ruta, sino la embarcación desde la que lo lees.",
     "breadcrumb": "Cruceros por el Nilo",

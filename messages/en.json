@@ -544,6 +544,9 @@
     "concierge": "Talk to our concierge"
   },
   "hotels": {
+    "statHotels": "Hotels",
+    "statCities": "Cities",
+    "statGrades": "Grades",
     "landingTitle": "Hotels we recommend in Egypt",
     "landingDeck": "Specific properties we work with — chosen because they suit a kind of traveler and a kind of trip, not because anyone paid for placement.",
     "filterCity": "City",
@@ -599,6 +602,9 @@
     "footPracticalBody": "The day comes in tiers — vehicle and guide, then entrance fees, then lunch — so you only pay for what you want.\n\nIf you're unsure which day suits the trip, ask us. Shaping the right day is the whole point of going private."
   },
   "nileCruises": {
+    "statCruises": "Cruises",
+    "statVessels": "Vessels",
+    "statRoutes": "Routes",
     "landingTitle": "Nile Cruises",
     "landingDeck": "The river is the spine of the country. The real choice isn't the route — it's the vessel you read it from.",
     "breadcrumb": "Nile Cruises",

@@ -207,6 +207,11 @@ export default async function NileCruisesArchivePage({
           kicker: archive?.kicker,
           title: archive?.title ?? t('landingTitle'),
           tagline: archive?.tagline ?? t('landingDeck'),
+          stats: [
+            { label: t('statCruises'), value: cruises.length },
+            { label: t('statVessels'), value: presentVessels.length },
+            { label: t('statRoutes'), value: presentRoutes.length },
+          ],
         }}
         essay={archive?.essay ? { heading: archive.essayHeading, body: archive.essay } : undefined}
         featured={featured}

@@ -207,6 +207,11 @@ export default async function HotelsArchivePage({
           kicker: archive?.kicker,
           title: archive?.title ?? t('landingTitle'),
           tagline: archive?.tagline ?? t('landingDeck'),
+          stats: [
+            { label: t('statHotels'), value: hotels.length },
+            { label: t('statCities'), value: cityMap.size },
+            { label: t('statGrades'), value: presentGrades.length },
+          ],
         }}
         essay={archive?.essay ? { heading: archive.essayHeading, body: archive.essay } : undefined}
         featured={featured}
