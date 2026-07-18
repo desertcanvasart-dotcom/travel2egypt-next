@@ -12,6 +12,7 @@ import {
 import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { EditorialHeroStats } from '@/components/EditorialHeroStats';
+import { BlogIndex } from '@/components/BlogIndex';
 import { buildStaticMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbList } from '@/lib/structured-data';
@@ -59,8 +60,25 @@ export default async function BlogLandingPage({ params }: Props) {
     { label: t('statSince'), value: 2003 },
   ];
 
-  // Filter the lead out of the rest grid to avoid duplication.
-  const rest = articles.filter((a) => a._id !== lead?._id);
+  // Curated landing: featured lead + a short "Latest" row of cards + a compact,
+  // searchable index for the back catalogue (instead of every article as a
+  // full-size card, which ran to ~100 screens).
+  const dateOf = (a: ArticleCardData) => a.updatedAt ?? a.publishedAt ?? '';
+  const rest = articles
+    .filter((a) => a._id !== lead?._id)
+    .sort((a, b) => dateOf(b).localeCompare(dateOf(a)));
+  const latest = rest.slice(0, 9);
+  const indexFmt = new Intl.DateTimeFormat(
+    locale === 'ja' ? 'ja-JP' : locale === 'es' ? 'es-ES' : 'en-GB',
+    { month: 'short', year: 'numeric' }
+  );
+  const indexItems = rest.slice(9).map((a) => ({
+    _id: a._id,
+    title: a.title,
+    slug: a.slug,
+    category: a.category?.name,
+    date: dateOf(a) ? indexFmt.format(new Date(dateOf(a))) : undefined,
+  }));
 
   // Same builder as the category + article routes, so the visible
   // breadcrumb and JSON-LD stay aligned. The landing itself is the
@@ -116,20 +134,33 @@ export default async function BlogLandingPage({ params }: Props) {
           {t('noArticlesYet')}
         </p>
       ) : (
-        <div className="space-y-20">
+        <div className="space-y-24">
           {lead && (
             <ArticleCard article={lead} variant="lead" locale={locale} />
           )}
-          {rest.length > 0 && (
-            <div className="grid grid-cols-1 gap-x-10 gap-y-16 border-t border-rule-strong pt-16 md:grid-cols-2 lg:grid-cols-3">
-              {rest.map((article) => (
-                <ArticleCard
-                  key={article._id}
-                  article={article}
-                  locale={locale}
-                />
-              ))}
-            </div>
+          {latest.length > 0 && (
+            <section>
+              <h2 className="mb-10 border-t border-rule-strong pt-8 font-serif text-3xl font-normal text-night md:text-4xl">
+                {t('latestHeading')}
+              </h2>
+              <div className="grid grid-cols-1 gap-x-10 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+                {latest.map((article) => (
+                  <ArticleCard key={article._id} article={article} locale={locale} />
+                ))}
+              </div>
+            </section>
+          )}
+          {indexItems.length > 0 && (
+            <section>
+              <h2 className="mb-8 border-t border-rule-strong pt-8 font-serif text-3xl font-normal text-night md:text-4xl">
+                {t('archiveHeading')}
+              </h2>
+              <BlogIndex
+                items={indexItems}
+                searchLabel={t('searchPlaceholder')}
+                emptyLabel={t('searchEmpty')}
+              />
+            </section>
           )}
         </div>
       )}
