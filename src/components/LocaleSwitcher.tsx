@@ -160,9 +160,32 @@ async function resolveLocalizedPathname(
     }
   }
 
+  // Journal category: /blog/category/[slug]. Root buckets carry localized
+  // slugs (planning → es "planificacion"), so a plain prefix-swap 404s.
+  // Resolve the target-locale category slug; on miss / fetch failure, fall
+  // back to the target locale's /blog archive. Matched BEFORE the article
+  // case below.
+  const categoryMatch = pathname.match(/^\/blog\/category\/([^/]+)\/?$/);
+  if (categoryMatch) {
+    const fromSlug = categoryMatch[1];
+    try {
+      const res = await fetch(
+        `/api/locale-resolve/blogCategory?fromLocale=${fromLocale}&fromSlug=${encodeURIComponent(fromSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { slug } = (await res.json()) as { slug: string | null };
+        if (slug) return `/blog/category/${slug}`;
+      }
+    } catch {
+      // fall through to /blog archive
+    }
+    return '/blog';
+  }
+
   // Article detail: /blog/[slug]. Explicitly NOT /blog (archive) or
-  // /blog/category/[slug] — those listing/index routes locale-swap via
-  // simple prefix. Look up the locale-specific article slug via the
+  // /blog/category/[slug] — the category index resolves its localized slug
+  // just above; the /blog archive locale-swaps via simple prefix. Look up
+  // the locale-specific article slug via the
   // article API route. On miss or fetch failure, fall back to the
   // target locale's /blog archive — keeps the reader in the journal,
   // different locale, instead of a 404.
