@@ -11,6 +11,7 @@ import {
 } from '@/sanity/lib/queries';
 import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { EditorialHeroStats } from '@/components/EditorialHeroStats';
 import { buildStaticMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbList } from '@/lib/structured-data';
@@ -51,6 +52,25 @@ export default async function BlogLandingPage({ params }: Props) {
     client.fetch<ArticleCardData | null>(featuredLeadArticleQuery, { locale }),
   ]);
 
+  // Hero stat anchor. "Updated" reflects the most recent article's date.
+  const latestDate = articles.reduce((m, a) => {
+    const d = a.updatedAt ?? a.publishedAt;
+    return d && (!m || d > m) ? d : m;
+  }, '');
+  const heroStats = [
+    { label: t('statArticles'), value: articles.length },
+    { label: t('statCategories'), value: new Set(articles.map((a) => a.category?.slug).filter(Boolean)).size },
+    {
+      label: t('statUpdated'),
+      value: latestDate
+        ? new Intl.DateTimeFormat(locale === 'ja' ? 'ja-JP' : locale === 'es' ? 'es-ES' : 'en-GB', {
+            month: 'short',
+            year: 'numeric',
+          }).format(new Date(latestDate))
+        : '',
+    },
+  ];
+
   // Filter the lead out of the rest grid to avoid duplication.
   const rest = articles.filter((a) => a._id !== lead?._id);
 
@@ -68,13 +88,16 @@ export default async function BlogLandingPage({ params }: Props) {
     <div className="mx-auto max-w-7xl px-6 py-20">
       <JsonLd data={breadcrumbSchema} />
       <Breadcrumb items={breadcrumbItems} className="mb-8" />
-      <header className="mb-16 max-w-3xl">
-        <h1 className="mb-6 font-serif text-[clamp(2.5rem,5.5vw,4.5rem)] font-normal leading-[1.05] tracking-[-0.02em] text-night">
-          {t('landingTitle')}
-        </h1>
-        <p className="font-serif text-[clamp(1.25rem,2vw,1.5rem)] italic leading-[1.45] text-night-soft">
-          {t('landingDeck')}
-        </p>
+      <header className="mb-16 flex flex-col gap-10 md:flex-row md:items-end md:justify-between md:gap-12">
+        <div className="max-w-3xl">
+          <h1 className="mb-6 font-serif text-[clamp(2.5rem,5.5vw,4.5rem)] font-normal leading-[1.05] tracking-[-0.02em] text-night">
+            {t('landingTitle')}
+          </h1>
+          <p className="font-serif text-[clamp(1.25rem,2vw,1.5rem)] italic leading-[1.45] text-night-soft">
+            {t('landingDeck')}
+          </p>
+        </div>
+        <EditorialHeroStats stats={heroStats} />
       </header>
 
       {categories.length > 0 && (
