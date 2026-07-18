@@ -25,7 +25,7 @@ const CONTAINER = 'mx-auto max-w-7xl px-6';
 export interface ArchiveTemplateProps {
   locale: Locale;
   breadcrumbItems: BreadcrumbCrumb[];
-  header: { kicker?: string; title: string; tagline?: string };
+  header: { kicker?: string; title: string; tagline?: string; stats?: Array<{ label: string; value: string | number }> };
   essay?: { heading?: string; body: unknown };
   featured?: {
     kicker?: string;
@@ -77,7 +77,7 @@ export function ArchiveTemplate({
     <>
       <div className={CONTAINER}>
         <Breadcrumb items={breadcrumbItems} className="pt-8" />
-        <ArchiveHeader kicker={header.kicker} title={header.title} tagline={header.tagline} />
+        <ArchiveHeader kicker={header.kicker} title={header.title} tagline={header.tagline} stats={header.stats} />
       </div>
 
       {hasEssay && (

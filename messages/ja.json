@@ -444,6 +444,9 @@
     "concierge": "コンシェルジュに相談する"
   },
   "hotels": {
+    "statHotels": "ホテル",
+    "statCities": "都市",
+    "statGrades": "グレード",
     "landingTitle": "私たちが薦めるエジプトのホテル",
     "landingDeck": "提携先のホテルを厳選。広告料ではなく、旅人と旅のスタイルに合うかどうかで選んでいます。",
     "filterCity": "都市",
@@ -499,6 +502,9 @@
     "footPracticalBody": "一日は段階制です — 車両とガイド、次に入場料、次に昼食 — 必要なものにだけお支払いいただけます。\n\nどの一日が旅に合うか迷ったら、ぜひご相談を。最適な一日を組み立てることこそ、プライベートで巡る意味です。"
   },
   "nileCruises": {
+    "statCruises": "クルーズ",
+    "statVessels": "船種",
+    "statRoutes": "ルート",
     "landingTitle": "ナイル川クルーズ",
     "landingDeck": "川はこの国の背骨です。本当の選択はルートではなく、どの船からそれを眺めるかです。",
     "breadcrumb": "ナイル川クルーズ",
