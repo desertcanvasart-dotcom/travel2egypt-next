@@ -11,6 +11,8 @@ import { Footer } from '@/components/Footer';
 import { JsonLd } from '@/components/JsonLd';
 import { CookieConsent } from '@/components/CookieConsent';
 import { ConsentProvider } from '@/lib/consent';
+import { CurrencyProvider } from '@/lib/currency-context';
+import { defaultCurrencyForLocale } from '@/lib/currency';
 import { client } from '@/sanity/lib/client';
 import { siteSettingsQuery } from '@/sanity/lib/queries';
 import {
@@ -75,10 +77,12 @@ export default async function LocaleLayout({
         <JsonLd data={orgGraph} />
         <NextIntlClientProvider messages={messages}>
           <ConsentProvider>
-            <Header locale={locale as Locale} />
-            <main id="main">{children}</main>
-            <Footer locale={locale as Locale} />
-            <CookieConsent />
+            <CurrencyProvider defaultCurrency={defaultCurrencyForLocale(locale)}>
+              <Header locale={locale as Locale} />
+              <main id="main">{children}</main>
+              <Footer locale={locale as Locale} />
+              <CookieConsent />
+            </CurrencyProvider>
           </ConsentProvider>
         </NextIntlClientProvider>
       </body>

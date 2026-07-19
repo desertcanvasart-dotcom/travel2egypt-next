@@ -3,7 +3,8 @@ import { PortableText } from '@portabletext/react';
 
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
-import { formatPrice } from '@/lib/currency';
+import { Price } from '../Price';
+import { CurrencyNote } from '../CurrencyNote';
 import { JsonLd } from '../JsonLd';
 import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-data';
 
@@ -125,7 +126,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
     : typeof tour.priceFrom === 'number'
       ? tour.priceFrom
       : tour.priceTiers?.[0]?.price;
-  const fromPrice = formatPrice(fromAmount, locale, 'pp');
+  const fromEl = typeof fromAmount === 'number' ? <Price eur={fromAmount} unit="pp" /> : null;
   const metaItems = (
     isGroup
       ? [
@@ -133,13 +134,13 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
           { label: ts('metaRoute'), value: route },
           { label: ts('pkgGrpGroupLabel'), value: typeof tour.maxGroup === 'number' ? ts('pkgGrpMaxGroup', { n: tour.maxGroup }) : '' },
           { label: ts('pkgGrpDeparturesLabel'), value: dep && dep.count > 0 ? ts('pkgGrpPerYear', { count: dep.count }) : '' },
-          { label: ts('metaFrom'), value: fromPrice || ts('priceOnInquiry') },
+          { label: ts('metaFrom'), value: fromEl ?? ts('priceOnInquiry') },
         ]
       : [
           { label: ts('metaDuration'), value: durationMeta },
           { label: ts('metaRoute'), value: route },
           { label: ts('metaStyle'), value: styleLabel },
-          { label: ts('metaFrom'), value: fromPrice },
+          { label: ts('metaFrom'), value: fromEl ?? '' },
         ]
   ).filter((m) => m.value);
 
@@ -164,8 +165,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const tiers = (tour.priceTiers ?? []).filter((p) => p.name || typeof p.price === 'number');
   const suppValue =
     typeof tour.singleSupplement === 'number'
-      ? `${ts('pkgSuppFrom')} ${formatPrice(tour.singleSupplement, locale)}`
-      : '';
+      ? <>{ts('pkgSuppFrom')} <Price eur={tour.singleSupplement} /></>
+      : null;
   const trustSignals = [ts('trustSignal1'), ts('trustSignal2'), ts('trustSignal3'), ts('trustSignal4')];
 
   const included = tour.includedItems ?? [];
@@ -319,7 +320,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                         <div className={`dp-status ${statusCls}`}>{r.status ? STATUS_LABEL[r.status] : ''}</div>
                         <div className="dp-places">{typeof r.placesLeft === 'number' ? ts('pkgGrpPlaces', { count: r.placesLeft }) : ''}</div>
                         <div className="dp-price">
-                          {r.price != null ? formatPrice(r.price, locale) : ts('priceOnInquiry')}
+                          {r.price != null ? <Price eur={r.price} /> : ts('priceOnInquiry')}
                           {r.price != null && <small>{ts('pkgGrpPerPerson')}</small>}
                         </div>
                         <a
@@ -430,13 +431,13 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                   tiers.map((tier, i) => (
                     <li key={i}>
                       <span className="tn">{tier.name}{tier.sub && <small>{tier.sub}</small>}</span>
-                      <span className="tp">{formatPrice(tier.price, locale)}{tier.unit && <small> {tier.unit}</small>}</span>
+                      <span className="tp"><Price eur={tier.price} />{tier.unit && <small> {tier.unit}</small>}</span>
                     </li>
                   ))
                 ) : (
                   <li>
                     <span className="tn">{ts('priceFromLabel')}</span>
-                    <span className="tp">{fromPrice || ts('priceOnInquiry')}</span>
+                    <span className="tp">{fromEl ?? ts('priceOnInquiry')}</span>
                   </li>
                 )}
               </ul>
@@ -444,6 +445,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                 <div className="supp"><span>{ts('pkgSingleSupp')}</span><span>{suppValue}</span></div>
               )}
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
+              <CurrencyNote note={ts('priceCurrencyNote')} />
               <ConciergeOpenButton className="rail-cta">{ts('pkgPlanThis')} →</ConciergeOpenButton>
               <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
             </div>
