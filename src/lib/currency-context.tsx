@@ -2,7 +2,7 @@
 
 import { createContext, useCallback, useContext, useEffect, useState } from 'react';
 
-import { CURRENCIES, DEFAULT_CURRENCY } from './currency';
+import { CURRENCIES, CURRENCY_COOKIE, DEFAULT_CURRENCY } from './currency';
 
 /**
  * Viewer-selected display currency, persisted to the `t2e_ccy` cookie.
@@ -11,7 +11,7 @@ import { CURRENCIES, DEFAULT_CURRENCY } from './currency';
  * is deterministic — no cookie is read on the server, so pages stay cacheable.
  * On mount the client reads the cookie and swaps if a valid currency is stored.
  */
-const COOKIE = 't2e_ccy';
+const COOKIE = CURRENCY_COOKIE;
 
 interface Ctx {
   currency: string;

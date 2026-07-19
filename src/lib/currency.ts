@@ -42,6 +42,9 @@ export const CURRENCY_ORDER = ['EUR', 'USD', 'GBP', 'AUD', 'CAD', 'JPY'];
 /** EUR base — the fallback when no/unknown currency is supplied. */
 export const DEFAULT_CURRENCY = 'EUR';
 
+/** Cookie the viewer's chosen (or geo-defaulted) currency is stored under. */
+export const CURRENCY_COOKIE = 't2e_ccy';
+
 /** Initial display currency per locale (matches the pre-selector behaviour). */
 const LOCALE_DEFAULT: Record<string, string> = { en: 'USD', es: 'EUR', ja: 'JPY' };
 export function defaultCurrencyForLocale(locale?: string | null): string {
