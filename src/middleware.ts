@@ -3,6 +3,8 @@ import { NextResponse, type NextRequest } from 'next/server';
 
 import { routing } from './i18n/routing';
 import { isProductionHost } from './lib/site';
+import { CURRENCY_COOKIE } from './lib/currency';
+import { currencyForCountry } from './lib/geo-currency';
 import { buildCookieValue } from './lib/concierge/cookie';
 import { SESSION_COOKIE_NAME, SESSION_COOKIE_MAX_AGE_SECONDS } from './lib/concierge/constants';
 import { verifyResumeToken } from './lib/concierge/resumeToken';
@@ -52,6 +54,25 @@ export default async function middleware(request: NextRequest) {
   if (resumeResponse) return resumeResponse;
 
   const response = intlMiddleware(request);
+
+  // Geo currency default (Phase 2, cache-safe). On first visit only — never
+  // overriding a manual selection — set the display-currency cookie from
+  // Cloudflare's `cf-ipcountry` header. The SSR HTML still renders the per-locale
+  // default (deterministic/cacheable); the client CurrencyProvider reads this
+  // cookie and swaps after hydration. No-op when the header is absent (e.g. the
+  // Railway URL not yet behind Cloudflare), so behaviour is unchanged until then.
+  if (!request.cookies.get(CURRENCY_COOKIE)) {
+    const ccy = currencyForCountry(request.headers.get('cf-ipcountry'));
+    if (ccy) {
+      response.cookies.set({
+        name: CURRENCY_COOKIE,
+        value: ccy,
+        path: '/',
+        maxAge: 31536000,
+        sameSite: 'lax',
+      });
+    }
+  }
 
   // Keep non-production hosts (the Railway deployment URL pre-cutover)
   // out of search results. Runtime host check — lifts automatically once
