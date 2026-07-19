@@ -1,0 +1,4213 @@
+{
+  "tourDoc": {
+    "_id": "tour.12-day-egypt-group-tour-cairo-dahabiya-red-sea",
+    "_type": "tour",
+    "type": "package",
+    "tourMode": "group",
+    "originRegion": "australia-oceania",
+    "durationDays": 12,
+    "priceFrom": 2765,
+    "theme": {
+      "_ref": "theme-egypt-in-depth",
+      "_type": "reference"
+    },
+    "cities": [
+      {
+        "_key": "cet",
+        "_ref": "wp-page-83284",
+        "_type": "reference"
+      },
+      {
+        "_key": "ceu",
+        "_ref": "wp-page-58758",
+        "_type": "reference"
+      },
+      {
+        "_key": "cev",
+        "_ref": "wp-page-58877",
+        "_type": "reference"
+      },
+      {
+        "_key": "cew",
+        "_ref": "wp-page-58859",
+        "_type": "reference"
+      }
+    ],
+    "title": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "12-Day Egypt Group Tour: Cairo, the Nile by Dahabiya & the Red Sea"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Egipto en plenitud: El Cairo, el Nilo en dahabeya y el mar Rojo en 12 días"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "まるごとのエジプト12日間——カイロ、ダハビーヤのナイル、そして紅海へ"
+      }
+    ],
+    "slug": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": {
+          "_type": "slug",
+          "current": "12-day-egypt-group-tour-cairo-dahabiya-red-sea"
+        }
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": {
+          "_type": "slug",
+          "current": "egipto-en-plenitud-el-cairo-el-nilo-en-dahabeya-y-el-mar-rojo-en-12-dias"
+        }
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": {
+          "_type": "slug",
+          "current": "12-nichikan-ejiputo-gurupu-tsua-kairo-dahabiya-kokai"
+        }
+      }
+    ],
+    "summary": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A full twelve-day group journey — Cairo's two great museums, Abu Simbel, three nights sailing the Nile aboard a five-star Dahabiya, the temples of Luxor, and three all-inclusive nights on the Red Sea."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Viaje en grupo completo de doce días —los dos grandes museos de El Cairo, Abu Simbel, tres noches navegando el Nilo a bordo de una dahabeya de cinco estrellas, los templos de Luxor y tres noches todo incluido en el mar Rojo."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "二大博物館とアブ・シンベル、帆走のダハビーヤ3泊、紅海オールインクルーシブ3泊。何も追加料金にしない、まるごとのエジプト12日間。"
+      }
+    ],
+    "body": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": [
+          {
+            "_key": "b0",
+            "_type": "block",
+            "style": "h2",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1",
+                "_type": "span",
+                "text": "Egypt in Full: Cairo, the Nile by Dahabiya and the Red Sea in Twelve Days",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3",
+                "_type": "span",
+                "text": "Twelve days can become crowded very quickly in Egypt. Cairo alone can absorb a week. Luxor can do the same. Add Aswan, Abu Simbel, a Nile journey, and enough time by the Red Sea for the coast to feel like more than an afterthought, and the temptation is to compress everything — one flight after another, monuments arriving faster than they can be understood.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b4",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5",
+                "_type": "span",
+                "text": "This itinerary is built against that temptation, and it is the fullest of our group journeys. Cairo receives three nights and two complete days: one for Giza and the Grand Egyptian Museum, the other for the Egyptian Museum on Tahrir and the older Christian quarter of the city. A flight south opens the river chapter at Aswan, where the High Dam, the granite quarries, Philae, and Abu Simbel lead into the journey's defining feature — three nights aboard a five-star Dahabiya, the small traditional sailing vessel that most group tours never offer. The sail north pauses at Kom Ombo and Edfu before reaching Luxor, where the West Bank gets its own morning. The final three nights cross the desert to Hurghada: one day on and beneath the Red Sea, one day between a submarine journey and the Eastern Desert, and enough resort time around both for the pace to change properly.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7",
+                "_type": "span",
+                "text": "The Dahabiya is worth dwelling on, because it is what separates this departure from every conventional cruise itinerary. A Dahabiya carries a small group rather than hundreds of passengers, moves quietly under sail, and can stop at islands, villages, and riverbanks the big ships pass. On a group journey it changes the social register too: one shared table, one deck, the river close on either side. It is the difference between travelling on the Nile and travelling with it.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9",
+                "_type": "span",
+                "text": "Nothing described here is held back as an extra. The Grand Egyptian Museum, Abu Simbel, the Dahabiya, the Giftun Islands boat, snorkelling, diving, wind and kite activities, the submarine journey, and the desert safari are all part of the route.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "ba",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sb",
+                "_type": "span",
+                "text": "This is a group journey: a scheduled departure travelling together as one party, with a shared, licensed Egyptologist guide and private air-conditioned transport throughout, plus domestic flights, entrances, and airport assistance from arrival to departure. The pace is full but deliberate — dense culture early, the slow rhythm of the river in the middle, and the sea before the close. It suits travellers who want the complete Egypt — monuments, river, reef, and desert — with the Nile taken at the speed it deserves.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bc",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sd",
+                "_type": "span",
+                "text": "What follows is the journey day by day.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "be",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sf",
+                "_type": "span",
+                "text": "Day 1 — Arrival in Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bg",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sh",
+                "_type": "span",
+                "text": "The group is met at Cairo International Airport, assisted through arrival formalities, and transferred directly to the hotel.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bi",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sj",
+                "_type": "span",
+                "text": "Nothing else is scheduled, by design — check in, settle, and rest before the first full day. Egypt begins the next morning. Dinner is included or not depending on the arrival time.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bk",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sl",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "sm",
+                "_type": "span",
+                "text": " Dinner, depending on arrival time",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bn",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "so",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "sp",
+                "_type": "span",
+                "text": " Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bq",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sr",
+                "_type": "span",
+                "text": "Day 2 — The Pyramids of Giza and the Grand Egyptian Museum",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bs",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "st",
+                "_type": "span",
+                "text": "After breakfast, the day goes directly to the Giza plateau. The sequence is familiar before you arrive — Khufu, Khafre, Menkaure, the Great Sphinx — but familiarity does little to prepare you for the mass of the buildings or the space between them. The Great Pyramid of Khufu, completed around 2560 BC, remained the tallest human-made structure on earth for nearly four thousand years. Khafre's pyramid still carries a section of its original limestone casing near the summit; below it, the Valley Temple and the Sphinx bind the funerary complex to the edge of the cultivated land.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bu",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sv",
+                "_type": "span",
+                "text": "The afternoon moves not away from Giza but deeper into it. The Grand Egyptian Museum, which opened fully on 1 November 2025, stands beside the plateau because the relationship matters: the objects are shown within sight of the landscape that produced them. The complete Tutankhamun collection brings together the five thousand objects removed from the king's tomb in 1922. The gold is the immediate attraction; the smaller things — sandals, food vessels, gaming pieces, furniture made for daily and ritual life — are what make the collection human. Lunch during the tour; return to the hotel for dinner.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bw",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sx",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "sy",
+                "_type": "span",
+                "text": " Breakfast, Lunch, Dinner",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bz",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s10",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s11",
+                "_type": "span",
+                "text": " Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b12",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s13",
+                "_type": "span",
+                "text": "Day 3 — The Egyptian Museum and Old Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b14",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s15",
+                "_type": "span",
+                "text": "After breakfast, the day begins at the Egyptian Museum on Tahrir Square. The building opened in 1902 and belongs to an earlier idea of the museum: high rooms, dense cases, colossal sculpture below, smaller objects accumulating above. Much of the Tutankhamun material has moved to Giza, but the museum remains valuable precisely because it is not empty of history — it holds the record of more than a century of excavation, and its collection still ranges across the full pharaonic period.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b16",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s17",
+                "_type": "span",
+                "text": "From Tahrir, the day moves south into Old Cairo and the Roman fortress of Babylon. The Hanging Church is built above the fortress gatehouse, its nave suspended over the passage below. The Church of Saint George rises nearby, and Abu Serga — associated in Christian tradition with the Holy Family's stay in Egypt — keeps its crypt below the present church level. The significance of the quarter lies partly in proximity: Roman walls, Coptic churches, a synagogue, and Islamic Cairo beyond, in a city that built around what came before it rather than replacing it. Lunch at a local restaurant; the evening is free — the last night before the journey turns south.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b18",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s19",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s1a",
+                "_type": "span",
+                "text": " Breakfast, Lunch, Dinner",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1b",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1c",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s1d",
+                "_type": "span",
+                "text": " Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1e",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1f",
+                "_type": "span",
+                "text": "Day 4 — Fly to Aswan, Philae, and the Dahabiya",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1g",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1h",
+                "_type": "span",
+                "text": "After breakfast, transfer to Cairo Airport for the domestic flight south to Aswan, the city below the first cataract where the Nile runs through granite and the landscape begins to feel Nubian.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1i",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1j",
+                "_type": "span",
+                "text": "The day's visits explain different versions of the same relationship with stone and water. The High Dam, completed in 1970, controlled the annual flood and created Lake Nasser — the project that set off the international campaign to rescue the monuments of Lower Nubia. The Unfinished Obelisk, still attached to its quarry floor, would have been the largest ever raised had a crack not forced its abandonment. Philae completes the sequence: the Temple of Isis, dismantled and reassembled on Agilkia Island above the new waterline, one of the last centres of ancient Egyptian religion to remain active.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1k",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1l",
+                "_type": "span",
+                "text": "The group then boards the five-star Dahabiya, home for the next three nights. Dinner is prepared on board and served as the lights of Aswan gather along the water, with the city's market and a Nubian programme in the evening before the sail north begins.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1m",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1n",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s1o",
+                "_type": "span",
+                "text": " Breakfast, Lunch, Dinner",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1p",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1q",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s1r",
+                "_type": "span",
+                "text": " Dahabiya",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1s",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1t",
+                "_type": "span",
+                "text": "Day 5 — Abu Simbel, and the Sail to Kom Ombo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1u",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1v",
+                "_type": "span",
+                "text": "An early start for the journey's longest reach: the road runs south through the desert for roughly three and a half hours, following Lake Nasser to Abu Simbel near the Sudanese border.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1w",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1x",
+                "_type": "span",
+                "text": "Ramses II cut two temples into the sandstone cliff here in the thirteenth century BC — the Great Temple fronted by four seated colossi of the king, each around twenty metres high, and the smaller temple of Hathor and Queen Nefertari. Their placement at Egypt's southern frontier was deliberate: sacred architecture and a statement of royal power directed toward Nubia. The modern story is inseparable from the ancient one. Between 1964 and 1968 the temples were cut into more than two thousand blocks and rebuilt 65 metres higher before Lake Nasser's waters reached them, preserving the alignment by which sunlight penetrates the sanctuary on two mornings each year, around 22 February and 22 October.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b1y",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s1z",
+                "_type": "span",
+                "text": "The group returns to Aswan and rejoins the Dahabiya for lunch. The vessel sails north to Kom Ombo, where a double temple faces the river — its plan divided in near-perfect symmetry between Sobek the crocodile deity and Horus the Elder, with mummified crocodiles in the adjoining museum. The sail continues toward Edfu in the evening.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b20",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s21",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s22",
+                "_type": "span",
+                "text": " Breakfast, Lunch, Dinner",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b23",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s24",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s25",
+                "_type": "span",
+                "text": " Dahabiya",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b26",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s27",
+                "_type": "span",
+                "text": "Day 6 — Edfu, and the East Bank of Luxor",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b28",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s29",
+                "_type": "span",
+                "text": "After breakfast, the Temple of Horus at Edfu — built in the Ptolemaic period between 237 and 57 BC and the most completely preserved temple of its scale in Egypt, its roof, enclosure walls, pylons, and sanctuary intact enough for the building's ritual sequence to be read clearly.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2a",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2b",
+                "_type": "span",
+                "text": "Back aboard, the Dahabiya continues through the landscape around Esna toward Luxor, and the afternoon is given to the East Bank. Karnak is not one temple but a city of them, enlarged by successive rulers over more than a thousand years; its Great Hypostyle Hall contains 134 columns, the tallest rising 21 metres. Luxor Temple, smaller and more coherent, is linked to Karnak by the re-excavated Avenue of Sphinxes. Seeing the two on the same afternoon reveals their relationship: Karnak as the great state sanctuary of Amun, Luxor Temple as the focus of the Opet festival that renewed royal and divine power.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2c",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2d",
+                "_type": "span",
+                "text": "The final evening aboard brings a performance of Egyptian music, tanoura, and dance — on a small vessel, a cultural evening rather than a big-ship stage show.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2e",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2f",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s2g",
+                "_type": "span",
+                "text": " Breakfast, Lunch, Dinner",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2h",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2i",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s2j",
+                "_type": "span",
+                "text": " Dahabiya",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2k",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2l",
+                "_type": "span",
+                "text": "Day 7 — The West Bank of Luxor",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2m",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2n",
+                "_type": "span",
+                "text": "After breakfast and disembarkation, the morning crosses to the West Bank — the land ancient Thebes reserved for its dead.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2o",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2p",
+                "_type": "span",
+                "text": "The Valley of the Kings holds more than sixty known tombs cut into the limestone; the included entrance covers the standard open royal tombs, with additional access arranged for Tutankhamun and one of the valley's larger decorated tombs when open. The Mortuary Temple of Hatshepsut follows, its three colonnaded terraces rising against the cliffs of Deir el-Bahari, built for the woman who ruled Egypt for roughly two decades in the fifteenth century BC. The Colossi of Memnon — two seated figures of Amenhotep III — close the morning, the most visible remains of a mortuary temple once larger than Karnak.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2q",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2r",
+                "_type": "span",
+                "text": "The group checks into a Luxor hotel after the visit, and the afternoon remains free — not because Luxor lacks further monuments, but because the West Bank benefits from space after it.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2s",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2t",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s2u",
+                "_type": "span",
+                "text": " Breakfast, Lunch",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2v",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2w",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s2x",
+                "_type": "span",
+                "text": " Luxor",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b2y",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s2z",
+                "_type": "span",
+                "text": "Day 8 — The Drive to the Red Sea",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b30",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s31",
+                "_type": "span",
+                "text": "After breakfast, the group leaves the Nile Valley and drives east through the Eastern Desert to Hurghada — roughly three and a half to four hours. The change is immediate: the agricultural strip falls away, the mountains close around the road, and the journey ends at a five-star all-inclusive beachfront resort on the Red Sea.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b32",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s33",
+                "_type": "span",
+                "text": "The afternoon belongs to the resort — beach, pool, and the all-inclusive facilities. After the density of Cairo and the sequence of early starts in Upper Egypt, the lack of a monument is intentional.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b34",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s35",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s36",
+                "_type": "span",
+                "text": " Breakfast, then all meals per the resort's all-inclusive plan",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b37",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s38",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s39",
+                "_type": "span",
+                "text": " Hurghada",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3a",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3b",
+                "_type": "span",
+                "text": "Day 9 — The Giftun Islands: On the Water",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3c",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3d",
+                "_type": "span",
+                "text": "The marine day. The group's yacht leaves for the Giftun Islands, crossing water whose clarity is the Red Sea's defining feature. The programme includes swimming, guided snorkelling over the coral gardens, and a supervised introductory dive for first-time divers; certified divers can be matched with an appropriate guided dive instead. Lunch is served on board.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3e",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3f",
+                "_type": "span",
+                "text": "The afternoon allows time for the coast's wind sports — windsurfing and kitesurfing sessions, included and adapted to experience, confidence, and weather. No traveller is pushed into an activity that does not suit them: the point is that the options belong to the day without appearing later as a list of surcharges. Return to the resort in time for the evening meal.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3g",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3h",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s3i",
+                "_type": "span",
+                "text": " All meals, per the all-inclusive plan and yacht lunch",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3j",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3k",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s3l",
+                "_type": "span",
+                "text": " Hurghada",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3m",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3n",
+                "_type": "span",
+                "text": "Day 10 — Beneath the Sea, Then Into the Desert",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3o",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3p",
+                "_type": "span",
+                "text": "The day looks at the Red Sea from two directions.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3q",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3r",
+                "_type": "span",
+                "text": "The morning begins with a submarine or semi-submarine journey, descending below the waterline for views of coral and reef life without the need to dive — slower and enclosed, a different encounter from yesterday's snorkelling. In the afternoon, the route turns inland for a desert safari: four-wheel-drive vehicles cross the gravel plains and wadis of the Eastern Desert toward a Bedouin settlement, with time in the village, tea, a simple dinner, and sunset against the mountains. Hurghada is often presented only as a coast; the desert immediately behind it is the other half of the landscape.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3s",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3t",
+                "_type": "span",
+                "text": "The evening returns to the resort for the final Red Sea night.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3u",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3v",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s3w",
+                "_type": "span",
+                "text": " All meals, per the all-inclusive plan and safari dinner",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b3x",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s3y",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s3z",
+                "_type": "span",
+                "text": " Hurghada",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b40",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s41",
+                "_type": "span",
+                "text": "Day 11 — Fly to Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b42",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s43",
+                "_type": "span",
+                "text": "After breakfast, transfer to Hurghada Airport for the flight back to Cairo, where the group is met and transferred to the hotel.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b44",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s45",
+                "_type": "span",
+                "text": "The afternoon is deliberately unstructured — rest, a final walk through the city, or shopping and a meal according to interest. After eleven days of movement, the journey does not need another major monument added merely to fill the page.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b46",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s47",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s48",
+                "_type": "span",
+                "text": " Breakfast, Dinner",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b49",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4a",
+                "_type": "span",
+                "text": "Overnight:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s4b",
+                "_type": "span",
+                "text": " Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b4c",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4d",
+                "_type": "span",
+                "text": "Day 12 — Departure",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b4e",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4f",
+                "_type": "span",
+                "text": "After breakfast and check-out, transfer to Cairo International Airport for the onward flight.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b4g",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4h",
+                "_type": "span",
+                "text": "Meals:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s4i",
+                "_type": "span",
+                "text": " Breakfast",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b4j",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4k",
+                "_type": "span",
+                "text": "Twelve days cannot contain every Egypt — Alexandria, the Western Desert, and the Sinai remain outside the frame. What this journey gives instead is three complete versions of the country: the monumental capital, the inhabited river, and the Red Sea coast, connected without empty travel days.",
+                "marks": [
+                  "em"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "b4l",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4m",
+                "_type": "span",
+                "text": "And it gives the Nile the vessel it deserves. Three nights under sail on a Dahabiya, Abu Simbel reached from the river, the reef and the desert at the end, and nothing described above arriving later as an extra. The full country, at the river's own speed.",
+                "marks": [
+                  "em"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "b4n",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4o",
+                "_type": "span",
+                "text": "The shape of the journey",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b4p",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4q",
+                "_type": "span",
+                "text": "Where",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s4r",
+                "_type": "span",
+                "text": " — Cairo (Giza / GEM / Tahrir / Old Cairo) → Aswan (Philae / High Dam) → Abu Simbel → Dahabiya 3 nights (Kom Ombo / Edfu) → Luxor → Hurghada (Giftun Islands / Eastern Desert) → Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b4s",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4t",
+                "_type": "span",
+                "text": "Duration",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s4u",
+                "_type": "span",
+                "text": " — 12 days / 11 nights — fixed group departure",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b4v",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4w",
+                "_type": "span",
+                "text": "Character",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s4x",
+                "_type": "span",
+                "text": " — Scheduled group departure · shared licensed Egyptologist guide · 3 nights under sail on a five-star Dahabiya (rare on a group tour) · 3 all-inclusive nights on the Red Sea · Giftun Islands yacht with snorkelling and diving · submarine journey · desert safari with Bedouin village evening · domestic flights, entrances, and airport assistance included",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b4y",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s4z",
+                "_type": "span",
+                "text": "Good for",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s50",
+                "_type": "span",
+                "text": " — Travellers who want the complete Egypt — monuments, river, reef, and desert — in one journey; anyone who prefers a small sailing vessel to a big cruise ship; groups who want everything included rather than sold back later as extras",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b51",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s52",
+                "_type": "span",
+                "text": "This is a fixed-date group departure. Pre- and post-tour extensions, additional Cairo or Luxor nights, a flight rather than the road to Abu Simbel, and any questions about how the journey works are arranged with us.",
+                "marks": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": [
+          {
+            "_key": "b53",
+            "_type": "block",
+            "style": "h2",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s54",
+                "_type": "span",
+                "text": "Egipto en plenitud: El Cairo, el Nilo en dahabeya y el mar Rojo en doce días",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b55",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s56",
+                "_type": "span",
+                "text": "El más completo de nuestros viajes en grupo: los monumentos, el río a vela y el arrecife, sin que nada de lo descrito se venda después como extra.",
+                "marks": [
+                  "em"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "b57",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s58",
+                "_type": "span",
+                "text": "Doce días pueden saturarse muy rápido en Egipto. El Cairo por sí solo puede absorber una semana. Luxor puede hacer lo mismo. Si se añaden Asuán, Abu Simbel, una travesía por el Nilo y tiempo suficiente junto al mar Rojo para que la costa sea algo más que una posdata, la tentación es comprimirlo todo: un vuelo tras otro, monumentos que llegan más deprisa de lo que pueden entenderse.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b59",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5a",
+                "_type": "span",
+                "text": "Este itinerario está construido contra esa tentación, y es el más completo de nuestras salidas en grupo. El Cairo recibe tres noches y dos días enteros: uno para Guiza y el Gran Museo Egipcio, el otro para el Museo Egipcio de Tahrir y el barrio cristiano más antiguo de la ciudad. Un vuelo al sur abre el capítulo del río en Asuán, donde la Presa Alta, las canteras de granito, File y Abu Simbel conducen al rasgo que define este viaje: tres noches a bordo de una dahabeya de cinco estrellas, la pequeña embarcación tradicional a vela que casi ningún circuito en grupo ofrece. La navegación al norte se detiene en Kom Ombo y Edfu antes de llegar a Luxor, donde la orilla occidental recibe su propia mañana. Las tres noches finales cruzan el desierto hasta Hurghada: un día sobre el mar Rojo y bajo su superficie, un día entre un viaje en submarino y el Desierto Oriental, y suficiente tiempo de resort alrededor de ambos para que el ritmo cambie de verdad.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5b",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5c",
+                "_type": "span",
+                "text": "La dahabeya merece detenerse en ella, porque es lo que separa esta salida de cualquier itinerario de crucero convencional. Una dahabeya lleva un grupo pequeño en lugar de cientos de pasajeros, avanza en silencio a vela y puede detenerse en islas, aldeas y orillas que los grandes barcos pasan de largo. En un viaje en grupo cambia también el registro social: una sola mesa compartida, una sola cubierta, el río cerca a ambos lados. Es la diferencia entre viajar por el Nilo y viajar con él.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5d",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5e",
+                "_type": "span",
+                "text": "Nada de lo aquí descrito se reserva como extra. El Gran Museo Egipcio, Abu Simbel, la dahabeya, la embarcación a las islas Giftun, el esnórquel, el buceo, las actividades de viento y cometa, el viaje en submarino y el safari por el desierto forman parte de la ruta.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5f",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5g",
+                "_type": "span",
+                "text": "Esto es un viaje en grupo: una salida programada que se desplaza junta como un solo grupo, con un guía egiptólogo licenciado compartido y transporte privado climatizado durante todo el recorrido, además de vuelos internos, entradas y asistencia en el aeropuerto desde la llegada hasta la salida. El ritmo es pleno pero deliberado: cultura densa al principio, la cadencia lenta del río en el centro y el mar antes del cierre. Es un viaje pensado para quien quiere el Egipto completo —monumentos, río, arrecife y desierto— con el Nilo tomado a la velocidad que merece.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5h",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5i",
+                "_type": "span",
+                "text": "A continuación, el viaje día a día.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5j",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5k",
+                "_type": "span",
+                "text": "Día 1 — Llegada a El Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5l",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5m",
+                "_type": "span",
+                "text": "El grupo es recibido en el Aeropuerto Internacional de El Cairo, asistido en los trámites de llegada y trasladado directamente al hotel.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5n",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5o",
+                "_type": "span",
+                "text": "No hay nada más previsto, por diseño: registro, instalarse y descansar antes del primer día completo. Egipto empieza a la mañana siguiente. La cena se incluye o no en función de la hora de llegada.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5p",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5q",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s5r",
+                "_type": "span",
+                "text": " Cena, según la hora de llegada",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5s",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5t",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s5u",
+                "_type": "span",
+                "text": " El Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5v",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5w",
+                "_type": "span",
+                "text": "Día 2 — Las pirámides de Guiza y el Gran Museo Egipcio",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5x",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s5y",
+                "_type": "span",
+                "text": "Tras el desayuno, el día va directamente a la meseta de Guiza. La secuencia resulta familiar antes de llegar —Keops, Kefrén, Micerinos, la Gran Esfinge—, pero la familiaridad prepara poco para la masa de las construcciones o el espacio entre ellas. La Gran Pirámide de Keops, completada hacia 2560 a. C., siguió siendo la estructura más alta levantada por el ser humano durante casi cuatro mil años. La pirámide de Kefrén conserva todavía un tramo de su revestimiento original de caliza cerca de la cima; debajo, el templo del Valle y la Esfinge ligan el complejo funerario al borde de la tierra cultivada.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b5z",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s60",
+                "_type": "span",
+                "text": "La tarde no se aleja de Guiza, sino que se adentra en ella. El Gran Museo Egipcio, abierto completamente desde el 1 de noviembre de 2025, se levanta junto a la meseta porque la relación importa: los objetos se muestran a la vista del paisaje que los produjo. La colección íntegra de Tutankamón reúne los cinco mil objetos extraídos de la tumba del rey en 1922. El oro es la atracción inmediata; las cosas pequeñas —sandalias, vasijas, piezas de juego, mobiliario hecho para la vida diaria y ritual— son lo que vuelve humana la colección. Almuerzo durante la visita; regreso al hotel para cenar.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b61",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s62",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s63",
+                "_type": "span",
+                "text": " Desayuno, Almuerzo, Cena",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b64",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s65",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s66",
+                "_type": "span",
+                "text": " El Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b67",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s68",
+                "_type": "span",
+                "text": "Día 3 — El Museo Egipcio y El Cairo antiguo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b69",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6a",
+                "_type": "span",
+                "text": "Tras el desayuno, la jornada empieza en el Museo Egipcio de la plaza Tahrir. El edificio abrió en 1902 y pertenece a una idea anterior del museo: salas altas, vitrinas densas, escultura colosal abajo, objetos menores acumulándose arriba. Buena parte del material de Tutankamón se ha trasladado a Guiza, pero el museo sigue siendo valioso precisamente porque no está vacío de historia: guarda el registro de más de un siglo de excavación y su colección sigue abarcando todo el período faraónico.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6b",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6c",
+                "_type": "span",
+                "text": "Desde Tahrir, el día baja hacia El Cairo antiguo y la fortaleza romana de Babilonia. La Iglesia Colgante está construida sobre la portería de la fortaleza, con la nave suspendida sobre el paso inferior. Cerca se alza la iglesia de San Jorge, y Abu Serga —asociada en la tradición cristiana a la estancia de la Sagrada Familia en Egipto— conserva su cripta por debajo del nivel actual del templo. La importancia del barrio reside en parte en la proximidad: murallas romanas, iglesias coptas, una sinagoga y, más allá, El Cairo islámico, en una ciudad que construyó alrededor de lo que la precedió en lugar de sustituirlo. Almuerzo en un restaurante local; la tarde queda libre —la última noche antes de que el viaje gire al sur.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6d",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6e",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s6f",
+                "_type": "span",
+                "text": " Desayuno, Almuerzo, Cena",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6g",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6h",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s6i",
+                "_type": "span",
+                "text": " El Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6j",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6k",
+                "_type": "span",
+                "text": "Día 4 — Vuelo a Asuán, File y la dahabeya",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6l",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6m",
+                "_type": "span",
+                "text": "Tras el desayuno, traslado al aeropuerto de El Cairo para el vuelo doméstico al sur, a Asuán —la ciudad bajo la primera catarata, donde el Nilo corre entre granito y el paisaje empieza a sentirse nubio.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6n",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6o",
+                "_type": "span",
+                "text": "Las visitas del día explican versiones distintas de la misma relación con la piedra y el agua. La Presa Alta, completada en 1970, controló la crecida anual y creó el lago Nasser —el proyecto que desencadenó la campaña internacional para rescatar los monumentos de la Baja Nubia. El obelisco inacabado, todavía unido al suelo de su cantera, habría sido el mayor jamás erigido si una grieta no hubiera forzado su abandono. File completa la secuencia: el templo de Isis, desmontado y reensamblado en la isla de Agilkia por encima de la nueva cota del agua, uno de los últimos centros de la religión del antiguo Egipto que permanecieron activos.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6p",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6q",
+                "_type": "span",
+                "text": "El grupo embarca después en la dahabeya de cinco estrellas, hogar durante las tres noches siguientes. La cena se prepara a bordo y se sirve mientras las luces de Asuán se van reuniendo sobre el agua, con el mercado de la ciudad y un programa nubio por la tarde antes de que empiece la navegación al norte.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6r",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6s",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s6t",
+                "_type": "span",
+                "text": " Desayuno, Almuerzo, Cena",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6u",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6v",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s6w",
+                "_type": "span",
+                "text": " Dahabeya",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6x",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s6y",
+                "_type": "span",
+                "text": "Día 5 — Abu Simbel y navegación a Kom Ombo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b6z",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s70",
+                "_type": "span",
+                "text": "Salida temprana para el alcance más largo del viaje: la carretera corre al sur por el desierto durante unas tres horas y media, siguiendo el lago Nasser hasta Abu Simbel, cerca de la frontera con Sudán.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b71",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s72",
+                "_type": "span",
+                "text": "Ramsés II mandó tallar aquí dos templos en el acantilado de arenisca en el siglo XIII a. C.: el Gran Templo, precedido por cuatro colosos sedentes del rey de unos veinte metros cada uno, y el templo menor de Hathor y la reina Nefertari. Su emplazamiento en la frontera sur de Egipto fue deliberado: arquitectura sagrada y declaración de poder real dirigida hacia Nubia. La historia moderna es inseparable de la antigua. Entre 1964 y 1968, los templos se cortaron en más de dos mil bloques y se reconstruyeron 65 metros más arriba antes de que las aguas del lago Nasser los alcanzaran, conservando la alineación por la que la luz solar penetra hasta el santuario dos mañanas al año, hacia el 22 de febrero y el 22 de octubre.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b73",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s74",
+                "_type": "span",
+                "text": "El grupo regresa a Asuán y se reincorpora a la dahabeya para el almuerzo. La embarcación navega al norte hasta Kom Ombo, donde un templo doble mira al río —su planta dividida en simetría casi perfecta entre Sobek, el dios cocodrilo, y Horus el Viejo, con cocodrilos momificados en el museo contiguo. La navegación continúa hacia Edfu al caer la tarde.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b75",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s76",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s77",
+                "_type": "span",
+                "text": " Desayuno, Almuerzo, Cena",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b78",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s79",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s7a",
+                "_type": "span",
+                "text": " Dahabeya",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7b",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7c",
+                "_type": "span",
+                "text": "Día 6 — Edfu y la orilla oriental de Luxor",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7d",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7e",
+                "_type": "span",
+                "text": "Tras el desayuno, el Templo de Horus en Edfu —construido en el período ptolemaico entre 237 y 57 a. C. y el templo más completamente conservado de su escala en Egipto, con el techo, los muros de recinto, los pilonos y el santuario lo bastante intactos para que la secuencia ritual del edificio pueda leerse con claridad.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7f",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7g",
+                "_type": "span",
+                "text": "De vuelta a bordo, la dahabeya continúa por el paisaje en torno a Esna hacia Luxor, y la tarde se entrega a la orilla oriental. Karnak no es un templo, sino una ciudad de templos, ampliada por gobernantes sucesivos durante más de mil años; su gran sala hipóstila contiene 134 columnas, las más altas de 21 metros. El templo de Luxor, más pequeño y más coherente, está unido a Karnak por la avenida de las esfinges reexcavada. Ver los dos en la misma tarde revela su relación: Karnak como gran santuario de Estado de Amón, el templo de Luxor como foco del festival de Opet que renovaba el poder real y divino.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7h",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7i",
+                "_type": "span",
+                "text": "La última tarde a bordo trae una actuación de música egipcia, tanoura y danza —en una embarcación pequeña, una velada cultural y no el espectáculo de escenario de un gran barco.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7j",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7k",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s7l",
+                "_type": "span",
+                "text": " Desayuno, Almuerzo, Cena",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7m",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7n",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s7o",
+                "_type": "span",
+                "text": " Dahabeya",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7p",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7q",
+                "_type": "span",
+                "text": "Día 7 — La orilla occidental de Luxor",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7r",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7s",
+                "_type": "span",
+                "text": "Tras el desayuno y el desembarque, la mañana cruza a la orilla occidental —la tierra que la antigua Tebas reservó a sus muertos.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7t",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7u",
+                "_type": "span",
+                "text": "El Valle de los Reyes guarda más de sesenta tumbas conocidas excavadas en la caliza; la entrada incluida cubre las tumbas reales abiertas del circuito estándar, con acceso adicional organizado a la de Tutankamón y a una de las grandes tumbas decoradas del valle cuando esté abierta. Sigue el templo funerario de Hatshepsut, con sus tres terrazas porticadas ascendiendo contra los acantilados de Deir el-Bahari, construido para la mujer que gobernó Egipto durante unas dos décadas en el siglo XV a. C. Los Colosos de Memnón —dos figuras sedentes de Amenhotep III— cierran la mañana, los restos más visibles de un templo funerario que fue mayor que Karnak.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7v",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7w",
+                "_type": "span",
+                "text": "El grupo se registra después en un hotel de Luxor, y la tarde queda libre —no porque Luxor carezca de más monumentos, sino porque la orilla occidental agradece espacio después.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b7x",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s7y",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s7z",
+                "_type": "span",
+                "text": " Desayuno, Almuerzo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b80",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s81",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s82",
+                "_type": "span",
+                "text": " Luxor",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b83",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s84",
+                "_type": "span",
+                "text": "Día 8 — Trayecto al mar Rojo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b85",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s86",
+                "_type": "span",
+                "text": "Tras el desayuno, el grupo deja el valle del Nilo y conduce al este por el Desierto Oriental hasta Hurghada —unas tres horas y media a cuatro horas. El cambio es inmediato: la franja agrícola se desvanece, las montañas se cierran en torno a la carretera y el trayecto termina en un resort de cinco estrellas con todo incluido frente al mar Rojo.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b87",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s88",
+                "_type": "span",
+                "text": "La tarde pertenece al resort —playa, piscina y las instalaciones del régimen todo incluido. Después de la densidad de El Cairo y la secuencia de madrugones del Alto Egipto, la ausencia de un monumento es intencional.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b89",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8a",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s8b",
+                "_type": "span",
+                "text": " Desayuno, y después todas las comidas según el régimen todo incluido del resort",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8c",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8d",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s8e",
+                "_type": "span",
+                "text": " Hurghada",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8f",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8g",
+                "_type": "span",
+                "text": "Día 9 — Las islas Giftun: sobre el agua",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8h",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8i",
+                "_type": "span",
+                "text": "La jornada marina. El yate del grupo sale hacia las islas Giftun, cruzando aguas cuya claridad es el rasgo definitorio del mar Rojo. El programa incluye baño, esnórquel guiado sobre los jardines de coral y una inmersión introductoria supervisada para quienes bucean por primera vez; los buceadores certificados pueden emparejarse en su lugar con una inmersión guiada apropiada. El almuerzo se sirve a bordo.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8j",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8k",
+                "_type": "span",
+                "text": "La tarde deja tiempo para los deportes de viento de la costa —sesiones de windsurf y kitesurf, incluidas y adaptadas a la experiencia, la confianza y el tiempo. A ningún viajero se le empuja a una actividad que no le convenga: la idea es que las opciones pertenezcan al día sin aparecer después como una lista de suplementos. Regreso al resort a tiempo para la cena.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8l",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8m",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s8n",
+                "_type": "span",
+                "text": " Todas las comidas, según el régimen todo incluido y almuerzo en el yate",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8o",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8p",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s8q",
+                "_type": "span",
+                "text": " Hurghada",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8r",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8s",
+                "_type": "span",
+                "text": "Día 10 — Bajo el mar, y luego al desierto",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8t",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8u",
+                "_type": "span",
+                "text": "La jornada mira el mar Rojo desde dos direcciones.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8v",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8w",
+                "_type": "span",
+                "text": "La mañana empieza con un viaje en submarino o semisubmarino, descendiendo bajo la línea de flotación para ver el coral y la vida del arrecife sin necesidad de bucear —más lento y cerrado, un encuentro distinto del esnórquel de ayer. Por la tarde, la ruta gira al interior para un safari por el desierto: vehículos todoterreno cruzan las llanuras de grava y los uadis del Desierto Oriental hacia un asentamiento beduino, con tiempo en el poblado, té, una cena sencilla y el atardecer contra las montañas. Hurghada suele presentarse solo como costa; el desierto inmediatamente detrás es la otra mitad del paisaje.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8x",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s8y",
+                "_type": "span",
+                "text": "La noche devuelve al grupo al resort para la última velada en el mar Rojo.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b8z",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s90",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s91",
+                "_type": "span",
+                "text": " Todas las comidas, según el régimen todo incluido y cena del safari",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b92",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s93",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s94",
+                "_type": "span",
+                "text": " Hurghada",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b95",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s96",
+                "_type": "span",
+                "text": "Día 11 — Vuelo a El Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b97",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s98",
+                "_type": "span",
+                "text": "Tras el desayuno, traslado al aeropuerto de Hurghada para el vuelo de regreso a El Cairo, donde el grupo es recibido y trasladado al hotel.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b99",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9a",
+                "_type": "span",
+                "text": "La tarde es deliberadamente no estructurada —descanso, un último paseo por la ciudad, o compras y una comida según el interés de cada uno. Después de once días de movimiento, el viaje no necesita otro gran monumento añadido solo para llenar la página.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b9b",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9c",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s9d",
+                "_type": "span",
+                "text": " Desayuno, Cena",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b9e",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9f",
+                "_type": "span",
+                "text": "Alojamiento:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s9g",
+                "_type": "span",
+                "text": " El Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b9h",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9i",
+                "_type": "span",
+                "text": "Día 12 — Salida",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b9j",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9k",
+                "_type": "span",
+                "text": "Tras el desayuno y la salida del hotel, traslado al Aeropuerto Internacional de El Cairo para el vuelo de regreso.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b9l",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9m",
+                "_type": "span",
+                "text": "Comidas:",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s9n",
+                "_type": "span",
+                "text": " Desayuno",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b9o",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9p",
+                "_type": "span",
+                "text": "Doce días no pueden contener todos los Egiptos —Alejandría, el Desierto Occidental y el Sinaí quedan fuera del marco. Lo que este viaje da en su lugar son tres versiones completas del país: la capital monumental, el río habitado y la costa del mar Rojo, conectadas sin días vacíos de traslado.",
+                "marks": [
+                  "em"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "b9q",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9r",
+                "_type": "span",
+                "text": "Y le da al Nilo la embarcación que merece. Tres noches a vela en una dahabeya, Abu Simbel alcanzado desde el río, el arrecife y el desierto al final, y nada de lo descrito arriba llegando después como un extra. El país completo, a la velocidad propia del río.",
+                "marks": [
+                  "em"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "b9s",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9t",
+                "_type": "span",
+                "text": "La forma del viaje",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b9u",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9v",
+                "_type": "span",
+                "text": "Dónde",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s9w",
+                "_type": "span",
+                "text": " — El Cairo (Guiza / GEM / Tahrir / El Cairo antiguo) → Asuán (File / Presa Alta) → Abu Simbel → Dahabeya 3 noches (Kom Ombo / Edfu) → Luxor → Hurghada (islas Giftun / Desierto Oriental) → El Cairo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "b9x",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "s9y",
+                "_type": "span",
+                "text": "Duración",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "s9z",
+                "_type": "span",
+                "text": " — 12 días / 11 noches — salida fija en grupo",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "ba0",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sa1",
+                "_type": "span",
+                "text": "Carácter",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "sa2",
+                "_type": "span",
+                "text": " — Salida programada en grupo · guía egiptólogo licenciado compartido · 3 noches a vela en una dahabeya de cinco estrellas (poco habitual en un viaje en grupo) · 3 noches todo incluido en el mar Rojo · yate a las islas Giftun con esnórquel y buceo · viaje en submarino · safari por el desierto con velada en poblado beduino · vuelos internos, entradas y asistencia en el aeropuerto incluidos",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "ba3",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sa4",
+                "_type": "span",
+                "text": "Bueno para",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "sa5",
+                "_type": "span",
+                "text": " — Viajeros que quieren el Egipto completo —monumentos, río, arrecife y desierto— en un solo viaje; quien prefiere una pequeña embarcación a vela a un gran crucero; grupos que quieren todo incluido en lugar de comprarlo después como extras",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "ba6",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sa7",
+                "_type": "span",
+                "text": "Es una salida de fecha fija en grupo. Las extensiones previas y posteriores, las noches adicionales en El Cairo o Luxor, la alternativa de vuelo en lugar de carretera a Abu Simbel y cualquier duda sobre cómo se articula el viaje se gestionan con nosotros.",
+                "marks": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": [
+          {
+            "_key": "ba8",
+            "_type": "block",
+            "style": "h2",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sa9",
+                "_type": "span",
+                "text": "まるごとのエジプト12日間——カイロ、ダハビーヤのナイル、そして紅海へ",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "baa",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sab",
+                "_type": "span",
+                "text": "エジプトでは、12日間はあっという間に詰め込みすぎになります。カイロだけで一週間を呑み込めます。ルクソールも同じです。そこにアスワン、アブ・シンベル、ナイルの川旅、そして海岸が「おまけ」以上のものに感じられるだけの紅海の時間を加えれば、誘惑はすべてを圧縮することです——次から次への飛行機、理解される速さを超えて到着する記念碑。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bac",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sad",
+                "_type": "span",
+                "text": "この旅程は、その誘惑に逆らって組み立てました。そして、私たちのグループ旅程のなかで、もっとも中身の詰まった旅です。カイロには3泊と丸二日——一日はギザと大エジプト博物館に、もう一日はタハリールのエジプト考古学博物館と、街の最も古いキリスト教地区に。南への飛行がアスワンで川の章を開き、ハイダム、花崗岩の石切場、フィラエ、アブ・シンベルが、この旅を定義する特徴へと続きます——五つ星ダハビーヤでの3泊。グループツアーでこれを組み込む例は、ほとんどありません。北への帆走はコム・オンボとエドフに立ち寄ってからルクソールに達し、西岸には専用の午前をあてます。最後の3泊は砂漠を越えて紅海のハルガダへ——一日は海の上と下で、一日は潜水艇と東方砂漠のあいだで、そしてその両方のまわりに、旅の調子が本当に切り替わるだけのリゾートの時間を残しています。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bae",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "saf",
+                "_type": "span",
+                "text": "ダハビーヤについては、少し立ち止まってお伝えする価値があります。これこそが、この出発をあらゆる通常のクルーズ旅程から分けるものだからです。ダハビーヤは何百人もの乗客ではなく、小さなグループを乗せ、帆の力で静かに進み、大型船が通り過ぎる島や村や川岸に立ち寄ることができます。グループの旅では、それは旅の空気そのものも変えてくれます——ひとつの食卓、ひとつのデッキ、両岸に近いナイル。ナイルの「上を」旅するのと、ナイルと「ともに」旅するのとの違いです。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bag",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sah",
+                "_type": "span",
+                "text": "ここに記したどれも、あとから追加料金として現れることはありません。大エジプト博物館、アブ・シンベル、ダハビーヤ、ギフトゥン諸島への船、シュノーケリング、ダイビング、ウィンドサーフィンとカイトサーフィン、潜水艇の旅、砂漠のサファリ——すべてがルートの一部です。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bai",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "saj",
+                "_type": "span",
+                "text": "これはグループの旅です。決まった出発日に、ひとつのグループとして一緒に旅をします。専属の公認エジプト学ガイドが同行し、移動はすべて専用のエアコン付き車両で行い、国内線、入場料、到着から出発までの空港でのアシスタンスが含まれます。ペースは充実しつつも意図的です——序盤に濃密な文化を、中盤に川のゆるやかなリズムを、締めくくりの前に海を。記念碑も、川も、サンゴ礁も、砂漠も——エジプトを丸ごと、しかもナイルをそれにふさわしい速さで味わいたい方に向いた旅です。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bak",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sal",
+                "_type": "span",
+                "text": "ここからは、日ごとの行程をご紹介します。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bam",
+            "_type": "block",
+            "style": "h2",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "san",
+                "_type": "span",
+                "text": "旅程——日ごとの行程",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bao",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sap",
+                "_type": "span",
+                "text": "1日目——カイロ到着",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "baq",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sar",
+                "_type": "span",
+                "text": "カイロ国際空港でお出迎えし、入国手続きをお手伝いしたのち、ホテルへ直接お送りします。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bas",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sat",
+                "_type": "span",
+                "text": "ほかには何も組みません——意図してそうしています。チェックインして落ち着き、最初の丸一日に備えて休んでください。エジプトは翌朝に始まります。夕食は到着時間によって含まれる場合があります。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bau",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sav",
+                "_type": "span",
+                "text": "食事：到着時間により夕食",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "baw",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sax",
+                "_type": "span",
+                "text": "宿泊：カイロ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bay",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "saz",
+                "_type": "span",
+                "text": "2日目——ギザのピラミッドと大エジプト博物館",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bb0",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sb1",
+                "_type": "span",
+                "text": "朝食後、まっすぐギザの台地へ向かいます。到着する前から、その並びはよく知られています——クフ王、カフラー王、メンカウラー王、大スフィンクス。けれどもその馴染みは、建造物の量塊にも、それらのあいだの空間にも、ほとんど備えさせてくれません。紀元前2560年ごろに完成したクフ王の大ピラミッドは、四千年近くにわたって、地上で人の手になる最も高い構造物であり続けました。カフラー王のピラミッドは頂上近くに元の石灰岩の化粧板の一部をいまも残し、その下では、河岸神殿とスフィンクスが葬祭複合体を耕地の縁に結びつけています。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bb2",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sb3",
+                "_type": "span",
+                "text": "午後はギザから離れるのではなく、より深く入ります。2025年11月1日に全面開館した大エジプト博物館（GEM）が台地のかたわらに立つのは、その関係が大切だからです——品々は、それらを生んだ風景の見えるところで展示されています。ツタンカーメンのコレクション一式は、1922年に王の墓から運び出された五千点の品々をひとつに集めています。黄金は直接の呼び物ですが、小さなものたち——サンダル、食器、遊戯の駒、日常と儀礼のための家具——こそが、このコレクションを人間的にしています。昼食はツアー中に。ホテルに戻って夕食を。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bb4",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sb5",
+                "_type": "span",
+                "text": "食事：朝食・昼食・夕食",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bb6",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sb7",
+                "_type": "span",
+                "text": "宿泊：カイロ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bb8",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sb9",
+                "_type": "span",
+                "text": "3日目——エジプト考古学博物館と旧カイロ",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bba",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbb",
+                "_type": "span",
+                "text": "朝食後、タハリール広場のエジプト考古学博物館から一日を始めます。1902年に開館したこの建物は、博物館というものの、より古い理念に属しています——高い天井の部屋、密な陳列、階下の巨像、上階に積み重なる小さな品々。ツタンカーメンの資料の多くはギザへ移りましたが、この博物館が価値を保つのは、まさに歴史が空になっていないからです。一世紀を超える発掘の記録を収め、その所蔵はいまもファラオ時代の全体にわたっています。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bbc",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbd",
+                "_type": "span",
+                "text": "タハリールから、一日は南の旧カイロと、ローマ時代の要塞バビロンへ。ハンギング・チャーチは要塞の門楼の上に建てられ、身廊が下の通路の上に吊られています。近くには聖ゲオルギオス教会が立ち、アブ・セルガ——キリスト教の伝承のなかで聖家族のエジプト滞在と結びつけられた教会——は、現在の床面より下にその地下聖堂を保っています。この地区の意味は、ひとつには近さにあります——ローマの城壁、コプトの教会、シナゴーグ、そしてその先のイスラムのカイロが、先にあったものを置き換えるのではなく、そのまわりに築いてきた街のなかに、ともに存在しているのです。昼食は地元のレストランで。夕方は自由です——旅が南へ転じる前の、最後の夜です。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bbe",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbf",
+                "_type": "span",
+                "text": "食事：朝食・昼食・夕食",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bbg",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbh",
+                "_type": "span",
+                "text": "宿泊：カイロ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bbi",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbj",
+                "_type": "span",
+                "text": "4日目——アスワンへ飛び、フィラエ、そしてダハビーヤへ",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bbk",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbl",
+                "_type": "span",
+                "text": "朝食後、カイロ空港へ移動し、空路で南のアスワンへ——第一急湍の下手、ナイルが花崗岩のあいだを流れ、風景がヌビアの気配を帯び始める街です。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bbm",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbn",
+                "_type": "span",
+                "text": "この日の見学は、石と水との同じ関係の、異なる姿を見せてくれます。1970年に完成したハイダムは、毎年の氾濫を制御してナセル湖を生み、下ヌビアの記念碑を救う国際的な活動の引き金となった事業です。未完のオベリスクは、いまも石切場の床につながったまま——亀裂がその放棄を強いなければ、史上最大のオベリスクになっていたはずのものです。フィラエが締めくくりです。イシス神殿は解体され、新しい水位の上、アギルキア島に組み直されました。古代エジプトの宗教が活動を続けた、最後の中心のひとつです。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bbo",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbp",
+                "_type": "span",
+                "text": "そのあと、これから3泊の住まいとなる五つ星ダハビーヤに乗船します。夕食は船上で用意され、アスワンの灯りが水面に集まるころに供されます。夕べには街の市場と、船上のヌビアのプログラムを。そのあとに、北への帆走が始まります。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bbq",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbr",
+                "_type": "span",
+                "text": "食事：朝食・昼食・夕食",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bbs",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbt",
+                "_type": "span",
+                "text": "宿泊：ダハビーヤ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bbu",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbv",
+                "_type": "span",
+                "text": "5日目——アブ・シンベルと、コム・オンボへの帆走",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bbw",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbx",
+                "_type": "span",
+                "text": "早朝、旅でもっとも遠くへ届く一日が始まります。道は砂漠を南へ約3時間半、ナセル湖に沿って、スーダン国境に近いアブ・シンベルへ。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bby",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sbz",
+                "_type": "span",
+                "text": "ラムセス2世は、紀元前13世紀、ここで砂岩の崖に二つの神殿を直接刻ませました——それぞれ高さおよそ20メートルの王の座像4体を正面に擁する大神殿と、ハトホル女神と王妃ネフェルタリの小神殿です。エジプトの南の国境というその配置は、意図されたものでした。聖なる建築であると同時に、ヌビアへ向けられた王権の宣言でもあったのです。現代の物語は、古代の物語と切り離せません。1964年から1968年にかけて、神殿は二千を超えるブロックに切り分けられ、ナセル湖の水が達する前に65メートル高い場所へ再建されました。年に二度の朝——2月22日と10月22日ごろ——陽光が奥の聖所まで届く配置は、いまも保たれています。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bc0",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sc1",
+                "_type": "span",
+                "text": "アスワンへ戻り、ダハビーヤで昼食に合流します。船は北へ帆走してコム・オンボへ——川に面した二重の神殿で、ワニの神セベクと大ホルス（ハロエリス）のあいだで、ほぼ完全な左右対称に分けられています。隣接する博物館には、ワニのミイラが収められています。帆走は夕べ、エドフへと続きます。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bc2",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sc3",
+                "_type": "span",
+                "text": "食事：朝食・昼食・夕食",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bc4",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sc5",
+                "_type": "span",
+                "text": "宿泊：ダハビーヤ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bc6",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sc7",
+                "_type": "span",
+                "text": "6日目——エドフと、ルクソール東岸",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bc8",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sc9",
+                "_type": "span",
+                "text": "朝食後、エドフのホルス神殿へ。プトレマイオス朝期、紀元前237年から57年のあいだに築かれ、その規模でエジプトに最も完全に保存された神殿です。屋根、周壁、塔門、聖所が、建物の儀礼の流れをはっきり読み取れるほどに残っています。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bca",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scb",
+                "_type": "span",
+                "text": "ふたたび船上へ。ダハビーヤはエスナのあたりの風景を抜けてルクソールへ向かい、午後は東岸にあてます。カルナックはひとつの神殿ではなく、千年を超えて歴代の統治者に拡張された神殿の街です。その大列柱室には134本の柱があり、最も高いものは21メートルに達します。より小さく、より首尾一貫したルクソール神殿は、再発掘されたスフィンクスの参道でカルナックと結ばれています。二つを同じ午後に見ることが、その関係を明かしてくれます——アムンの大いなる国家の聖域としてのカルナック、そして王権と神性を年ごとに新たにしたオペト祭の焦点としてのルクソール神殿を。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bcc",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scd",
+                "_type": "span",
+                "text": "船上最後の夕べには、エジプト音楽とタンヌーラと舞踊の演目を。小さな船の上ですから、大型船の舞台ショーではなく、川旅の規模に寄り添う文化の夕べです。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bce",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scf",
+                "_type": "span",
+                "text": "食事：朝食・昼食・夕食",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bcg",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sch",
+                "_type": "span",
+                "text": "宿泊：ダハビーヤ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bci",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scj",
+                "_type": "span",
+                "text": "7日目——ルクソール西岸",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bck",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scl",
+                "_type": "span",
+                "text": "朝食と下船ののち、午前は西岸へ渡ります——古代のテーベが死者のために取り分けた土地です。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bcm",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scn",
+                "_type": "span",
+                "text": "王家の谷には、石灰岩に刻まれた六十を超える既知の墓があります。含まれる入場は公開中の標準の王墓を覆い、ツタンカーメンの墓と、谷の大きな装飾墓のひとつへの追加のアクセスを、公開時に手配します。続いてハトシェプスト女王の葬祭殿へ——三段の列柱のテラスがデイル・エル・バハリの崖を背に立ち上がる、紀元前15世紀におよそ二十年エジプトを統治した女性の記念碑です。メムノンの巨像——アメンホテプ3世の2体の座像——が午前を締めくくります。かつてカルナックより大きかった葬祭殿の、最も目に見える名残です。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bco",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scp",
+                "_type": "span",
+                "text": "見学後、ルクソールのホテルにチェックインします。午後は自由のままです——ルクソールにこれ以上の記念碑がないからではなく、西岸のあとには、余白がよく効くからです。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bcq",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scr",
+                "_type": "span",
+                "text": "食事：朝食・昼食",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bcs",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sct",
+                "_type": "span",
+                "text": "宿泊：ルクソール",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bcu",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scv",
+                "_type": "span",
+                "text": "8日目——紅海への移動",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bcw",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scx",
+                "_type": "span",
+                "text": "朝食後、ナイル渓谷を離れ、東方砂漠を越えてハルガダへ——約3時間半〜4時間の道のりです。変化はすぐに訪れます。農耕の帯が消え、山々が道を囲み、旅は紅海に面した五つ星オールインクルーシブのビーチリゾートで終わります。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bcy",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "scz",
+                "_type": "span",
+                "text": "午後はリゾートのものです——ビーチ、プール、オールインクルーシブの施設。カイロの密度と、上エジプトの早朝出発の連続のあとですから、この日に記念碑がないことこそが、意図なのです。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bd0",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sd1",
+                "_type": "span",
+                "text": "食事：朝食、以後はリゾートのオールインクルーシブ・プランによる全食事",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bd2",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sd3",
+                "_type": "span",
+                "text": "宿泊：ハルガダ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bd4",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sd5",
+                "_type": "span",
+                "text": "9日目——ギフトゥン諸島：海の上で",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bd6",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sd7",
+                "_type": "span",
+                "text": "海の一日です。グループのヨットがギフトゥン諸島へ発ち、紅海を定義する透明さの水を渡ります。プログラムには、遊泳、サンゴの庭の上でのガイド付きシュノーケリング、初めての方のための監督付き体験ダイビングが含まれます。ライセンスをお持ちの方には、代わりに適切なガイド付きダイビングをご用意できます。昼食は船上で。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bd8",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sd9",
+                "_type": "span",
+                "text": "午後は、この海岸の風のスポーツに時間があります——ウィンドサーフィンとカイトサーフィンのセッションが含まれ、経験と自信と天候に合わせて調整されます。合わない活動を強いられることはありません。要は、選択肢が一日のものとしてそこにあり、あとから追加料金の一覧として現れないことです。夕食に間に合うようにリゾートへ戻ります。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bda",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdb",
+                "_type": "span",
+                "text": "食事：オールインクルーシブ・プランによる全食事（昼食はヨットで）",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bdc",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdd",
+                "_type": "span",
+                "text": "宿泊：ハルガダ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bde",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdf",
+                "_type": "span",
+                "text": "10日目——海の下へ、それから砂漠へ",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bdg",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdh",
+                "_type": "span",
+                "text": "この日は、紅海を二つの方向から眺めます。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bdi",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdj",
+                "_type": "span",
+                "text": "朝は潜水艇またはセミサブマリンの旅から。水面の下へ降り、潜らずにサンゴと礁の生きものを眺めます——昨日のシュノーケリングとは別の、より遅く、囲われた出会いです。午後、ルートは内陸へ転じ、砂漠のサファリへ——四輪駆動車が東方砂漠の砂利の平原とワディを渡り、ベドウィンの集落へ向かいます。村での時間、お茶、素朴な夕食、山々を背にした日没。ハルガダはしばしば海岸としてだけ紹介されますが、そのすぐ背後の砂漠が、この風景のもう半分です。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bdk",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdl",
+                "_type": "span",
+                "text": "夜はオールインクルーシブのリゾートへ戻り、紅海最後の一泊です。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bdm",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdn",
+                "_type": "span",
+                "text": "食事：オールインクルーシブ・プランによる全食事（夕食は砂漠のサファリで）",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bdo",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdp",
+                "_type": "span",
+                "text": "宿泊：ハルガダ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bdq",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdr",
+                "_type": "span",
+                "text": "11日目——カイロへ戻る",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bds",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdt",
+                "_type": "span",
+                "text": "朝食後、ハルガダ空港へ移動し、空路でカイロへ。到着後、お出迎えのうえホテルへお送りします。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bdu",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdv",
+                "_type": "span",
+                "text": "午後は、意図的に予定を置きません——休息にあてるもよし、街の最後の散歩にあてるもよし、フライトの時刻とご関心に合わせて買い物と食事を楽しむもよし。十一日の移動のあとで、この旅は、ページを埋めるためだけの大きな記念碑をもうひとつ必要とはしないのです。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bdw",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdx",
+                "_type": "span",
+                "text": "食事：朝食・夕食",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bdy",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sdz",
+                "_type": "span",
+                "text": "宿泊：カイロ",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "be0",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "se1",
+                "_type": "span",
+                "text": "12日目——ご出発",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "be2",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "se3",
+                "_type": "span",
+                "text": "朝食とチェックアウトののち、カイロ国際空港へお送りします。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "be4",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "se5",
+                "_type": "span",
+                "text": "食事：朝食",
+                "marks": [
+                  "strong"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "be6",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "se7",
+                "_type": "span",
+                "text": "12日間で、すべてのエジプトを収めることはできません——アレクサンドリア、西方砂漠、シナイは枠の外に残ります。この旅が代わりに差し上げるのは、国の三つの完全な姿です。記念碑の都、暮らしの息づく川、そして紅海の海岸——空虚な移動日に変えることなく、それらを結んで。",
+                "marks": [
+                  "em"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "be8",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "se9",
+                "_type": "span",
+                "text": "そしてこの旅は、ナイルにふさわしい船を与えます。帆の下でのダハビーヤ3泊、川から訪ねるアブ・シンベル、終盤のサンゴ礁と砂漠、そして上に記した何ひとつ、あとから追加料金として現れないこと。まるごとの国を、川そのものの速さで。",
+                "marks": [
+                  "em"
+                ]
+              }
+            ]
+          },
+          {
+            "_key": "bea",
+            "_type": "block",
+            "style": "h3",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "seb",
+                "_type": "span",
+                "text": "旅の輪郭",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bec",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sed",
+                "_type": "span",
+                "text": "ルート",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "see",
+                "_type": "span",
+                "text": " — カイロ（ギザ／GEM／タハリール／旧カイロ） → アスワン（フィラエ／ハイダム） → アブ・シンベル → ダハビーヤ3泊（コム・オンボ／エドフ） → ルクソール → ハルガダ（ギフトゥン諸島／東方砂漠） → カイロ",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bef",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "seg",
+                "_type": "span",
+                "text": "日数",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "seh",
+                "_type": "span",
+                "text": " — 12日間／11泊",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bei",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sej",
+                "_type": "span",
+                "text": "性格",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "sek",
+                "_type": "span",
+                "text": " — グループ出発・固定日程 · 公認エジプト学ガイド · 五つ星ダハビーヤで帆走の3泊（グループツアーではほとんど例のない構成） · 紅海オールインクルーシブ3泊 · ギフトゥン諸島ヨット（シュノーケリング・ダイビング） · 潜水艇の旅 · 砂漠のサファリとベドウィン村の夕べ · 国内線・入場料・空港アシスタンス込み",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bel",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sem",
+                "_type": "span",
+                "text": "向いている方",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "sen",
+                "_type": "span",
+                "text": " — 記念碑・川・サンゴ礁・砂漠——エジプトを丸ごと、ひとつの旅で味わいたい方。大型クルーズ船より小さな帆の船を好む方。あとから追加料金を買い足すのではなく、すべて込みの旅を望む方",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "beo",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sep",
+                "_type": "span",
+                "text": "目安",
+                "marks": [
+                  "strong"
+                ]
+              },
+              {
+                "_key": "seq",
+                "_type": "span",
+                "text": " — お一人様 €X〜（季節・出発日・ホテル等級・人数により変動）",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "ber",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "ses",
+                "_type": "span",
+                "text": "固定日程のグループ催行ですが、出発前後の延泊、カイロやルクソールでの追加の宿泊、アブ・シンベルへの陸路から空路への切り替えのご相談につきましては個別にお伺いいたします。",
+                "marks": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "heroImage": {
+      "_type": "image",
+      "asset": {
+        "_ref": "image-1394fe0d9e739e7ad2c5de8240a29e58d81a7819-3000x2000-jpg",
+        "_type": "reference"
+      },
+      "alt": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": "A traditional Dahabiya with red-and-white lateen sails glides down the Nile at sunset, past a palm-lined bank."
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": "Una dahabeya tradicional de velas latinas rojas y blancas navega por el Nilo al atardecer, ante una orilla de palmeras."
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": "赤と白の三角帆を張った伝統的なダハビーヤが、ヤシの並ぶ岸辺を背に、夕暮れのナイル川を進む。"
+        }
+      ],
+      "caption": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": "Three nights under sail: the five-star Dahabiya on the Nile — the journey’s defining stretch."
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": "Tres noches a vela: la dahabeya de cinco estrellas en el Nilo, el tramo que define el viaje."
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": "帆走の3泊——ナイルを行く五つ星ダハビーヤ。この旅を定義する時間。"
+        }
+      ]
+    }
+  },
+  "landingPatch": {
+    "summary": [
+      {
+        "_key": "en",
+        "_type": "internationalizedArrayTextValue",
+        "value": "Shared-departure Egypt itineraries built for travellers from Australia and New Zealand — fixed dates worth planning a long journey around, generous itineraries, and trusted operators."
+      },
+      {
+        "_key": "es",
+        "_type": "internationalizedArrayTextValue",
+        "value": "Itinerarios de salida compartida por Egipto, pensados para viajeros de Australia y Nueva Zelanda: fechas fijas en torno a las que planear un viaje largo, itinerarios generosos y operadores de confianza."
+      },
+      {
+        "_key": "ja",
+        "_type": "internationalizedArrayTextValue",
+        "value": "オーストラリアとニュージーランドからの旅行者のために組んだ、乗合出発のエジプト旅程——長い旅を計画する軸になる固定日程、ゆとりある行程、信頼できる催行体制。"
+      }
+    ],
+    "editorByline": {
+      "heading": [
+        {
+          "_key": "en",
+          "_type": "internationalizedArrayStringValue",
+          "value": "Egypt on a schedule built for travellers from Australia and New Zealand."
+        },
+        {
+          "_key": "es",
+          "_type": "internationalizedArrayStringValue",
+          "value": "Egipto con un calendario pensado para viajeros de Australia y Nueva Zelanda."
+        },
+        {
+          "_key": "ja",
+          "_type": "internationalizedArrayStringValue",
+          "value": "オーストラリアとニュージーランドからの旅行者のための日程で巡るエジプト。"
+        }
+      ],
+      "intro": [
+        {
+          "_key": "en",
+          "_type": "internationalizedArrayStringValue",
+          "value": "Use this page to find the fixed-date group departures that make sense of the long flight from Sydney, Melbourne, Auckland or Perth — then pick the one that fits your dates."
+        },
+        {
+          "_key": "es",
+          "_type": "internationalizedArrayStringValue",
+          "value": "Use esta página para encontrar las salidas en grupo de fecha fija que dan sentido al largo vuelo desde Sídney, Melbourne, Auckland o Perth, y elija la que encaje con sus fechas."
+        },
+        {
+          "_key": "ja",
+          "_type": "internationalizedArrayStringValue",
+          "value": "シドニー、メルボルン、オークランド、パースからの長いフライトに意味を与える、固定日程のグループ出発をこのページからお探しください。あとは、ご都合に合う日程を選ぶだけです。"
+        }
+      ]
+    },
+    "intro": [
+      {
+        "_key": "en",
+        "value": [
+          {
+            "_key": "bex",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sey",
+                "_type": "span",
+                "text": "These are scheduled small-group journeys built for travellers coming from Australia and New Zealand. There is no non-stop flight from Oceania to Egypt — the journey runs through Dubai, Doha, Abu Dhabi or Singapore and takes the better part of a day — so a trip this far deserves a plan that is settled before you board. Departure dates are set well in advance, the itineraries run long enough to justify the distance, and you travel with a small group rather than a full coach.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bez",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sf0",
+                "_type": "span",
+                "text": "A group departure sits between a private tour and travelling alone. You share the cost and the company of a handful of fellow travellers while keeping a properly guided, sensibly paced route through Egypt’s essentials — the Pyramids, the Nile, Luxor and Aswan — with every transfer, hotel and ticket arranged before you arrive. The pacing matters more from this far away: after twenty hours of flying and an eight-to-nine-hour time change, the first days are built to give without exhausting.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bf1",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sf2",
+                "_type": "span",
+                "text": "It suits first-time visitors who would rather join a ready-made departure than assemble a trip from scratch, travellers folding Egypt into a longer arc through Europe or the Middle East, and anyone whose dates are set by the calendar at home — school terms, the long summer break, the northern escape from an Australian winter. If you would prefer your own dates and your own party, a private journey fits better — tell us and we will point you there.",
+                "marks": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_key": "es",
+        "value": [
+          {
+            "_key": "bf3",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sf4",
+                "_type": "span",
+                "text": "Estos son viajes programados en grupos reducidos, construidos para viajeros que llegan desde Australia y Nueva Zelanda. No existe un vuelo sin escalas entre Oceanía y Egipto —el trayecto pasa por Dubái, Doha, Abu Dabi o Singapur y ocupa la mayor parte de un día—, de modo que un viaje desde tan lejos merece un plan cerrado antes de embarcar. Las fechas de salida se fijan con mucha antelación, los itinerarios son lo bastante largos para justificar la distancia, y se viaja en un grupo reducido en lugar de un autocar lleno.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bf5",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sf6",
+                "_type": "span",
+                "text": "Una salida en grupo se sitúa entre un tour privado y viajar solo. Se comparte el coste y la compañía de un puñado de compañeros de viaje, manteniendo una ruta bien guiada y de ritmo sensato por lo esencial de Egipto —las pirámides, el Nilo, Luxor y Asuán—, con cada traslado, hotel y entrada organizados antes de llegar. El ritmo importa más cuando se viene de tan lejos: tras veinte horas de vuelo y un cambio horario de ocho a nueve horas, los primeros días están construidos para dar sin agotar.",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bf7",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sf8",
+                "_type": "span",
+                "text": "Es un formato que conviene a quien visita Egipto por primera vez y prefiere sumarse a una salida ya armada antes que montar un viaje desde cero; a quien encaja Egipto dentro de un arco más largo por Europa u Oriente Medio; y a cualquiera cuyas fechas las marca el calendario de casa —los períodos escolares, las largas vacaciones de verano, la escapada al norte durante el invierno australiano. Si prefiere sus propias fechas y su propio grupo, un viaje privado encaja mejor: díganoslo y le orientaremos.",
+                "marks": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "_key": "ja",
+        "value": [
+          {
+            "_key": "bf9",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sfa",
+                "_type": "span",
+                "text": "これらは、オーストラリアとニュージーランドから訪れる旅行者のために組んだ、催行日の決まった少人数グループの旅です。オセアニアとエジプトを結ぶ直行便はありません——旅路はドバイ、ドーハ、アブダビ、あるいはシンガポールを経由し、ほぼ丸一日を要します。だからこそ、これほど遠くからの旅には、搭乗する前にすべてが定まった計画がふさわしいのです。出発日は十分な余裕をもって確定し、旅程はその距離に見合うだけの長さで組まれ、そして満員の大型バスではなく、少人数のグループで旅をします。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bfb",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sfc",
+                "_type": "span",
+                "text": "グループ出発は、プライベートツアーと一人旅のあいだに位置します。数名の旅の仲間と費用と時間を分かち合いながら、エジプトの本質——ピラミッド、ナイル、ルクソール、アスワン——を、きちんとガイドされた無理のないペースの行程で巡り、送迎もホテルも入場券も、到着前にすべて手配されています。これほど遠くから来るときこそ、ペースはいっそう大切です。二十時間の飛行と八〜九時間の時差のあとの最初の数日は、与えはするが疲れさせないように組んであります。",
+                "marks": []
+              }
+            ]
+          },
+          {
+            "_key": "bfd",
+            "_type": "block",
+            "style": "normal",
+            "markDefs": [],
+            "children": [
+              {
+                "_key": "sfe",
+                "_type": "span",
+                "text": "初めてのエジプトで、一から旅を組み立てるよりも出来上がった出発に加わりたい方。ヨーロッパや中東を巡る長い旅の弧のなかにエジプトを組み込む方。そして、学期や長い夏休み、オーストラリアの冬の北への脱出など、日程が家のカレンダーで決まっている方。この形式は、そうした方々に向いています。ご自身の日程とご自身のご一行を望まれるなら、プライベートの旅のほうが合っています——お知らせいただければ、そちらへご案内します。",
+                "marks": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "relatedTours": [
+      {
+        "_key": "rtff",
+        "_ref": "tour.12-day-egypt-group-tour-cairo-dahabiya-red-sea",
+        "_type": "reference"
+      }
+    ]
+  }
+}
