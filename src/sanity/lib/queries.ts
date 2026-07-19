@@ -1192,14 +1192,14 @@ const articleCardProjection = `
   heroImage{ ..., "alt": alt },
   "category": category->{
     _id,
-    "name": coalesce(name[_key==language][0].value, name[_key=="en"][0].value),
-    "slug": coalesce(slug[_key==language][0].value.current, slug[_key=="en"][0].value.current)
+    "name": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value),
+    "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
   },
   "author": author->{
     _id,
     name,
     slug,
-    "role": coalesce(role[_key==language][0].value, role[_key=="en"][0].value),
+    "role": coalesce(role[_key==$locale][0].value, role[_key=="en"][0].value),
     photo
   }
 `;
@@ -1295,26 +1295,26 @@ export const articleBySlugQuery = groq`
       }
     },
     "categoryDescription": category->{
-      "description": coalesce(description[_key==^.language][0].value, description[_key=="en"][0].value)
+      "description": coalesce(description[_key==$locale][0].value, description[_key=="en"][0].value)
     },
     "authorBio": author->{
-      "bio": coalesce(bio[_key==^.^.language][0].value, bio[_key=="en"][0].value)
+      "bio": coalesce(bio[_key==$locale][0].value, bio[_key=="en"][0].value)
     },
     "relatedArticles": relatedArticles[]->{
       ${articleCardProjection}
     },
     "relatedTours": relatedTours[]->{
       _id, type,
-      "title": coalesce(title[_key==^.language][0].value, title[_key=="en"][0].value),
-      "slug": coalesce(slug[_key==^.language][0].value.current, slug[_key=="en"][0].value.current),
-      "summary": coalesce(summary[_key==^.language][0].value, summary[_key=="en"][0].value),
-      "durationLabel": coalesce(durationLabel[_key==^.language][0].value, durationLabel[_key=="en"][0].value),
+      "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
+      "summary": coalesce(summary[_key==$locale][0].value, summary[_key=="en"][0].value),
+      "durationLabel": coalesce(durationLabel[_key==$locale][0].value, durationLabel[_key=="en"][0].value),
       heroImage
     },
     "relatedCities": relatedCities[]->{
       _id,
-      "name": coalesce(name[_key==^.language][0].value, name[_key=="en"][0].value),
-      "slug": coalesce(slug[_key==^.language][0].value.current, slug[_key=="en"][0].value.current),
+      "name": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
       heroImage
     },
     "categoryId": category._ref,
@@ -1328,8 +1328,8 @@ export const articleBySlugQuery = groq`
     },
     "primaryCity": relatedCities[0]->{
       _id,
-      "name": coalesce(name[_key==^.language][0].value, name[_key=="en"][0].value),
-      "slug": coalesce(slug[_key==^.language][0].value.current, slug[_key=="en"][0].value.current)
+      "name": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
     },
     seo
   }
