@@ -239,7 +239,7 @@ interface FactualSpineProps {
 function FactualSpine({
   where, duration, character, goodFor, fromPrice, shapeLabel,
 }: FactualSpineProps) {
-  const rows: Array<{ k: string; v: string }> = [];
+  const rows: Array<{ k: string; v: ReactNode }> = [];
   if (where)     rows.push({ k: 'Where', v: where });
   if (duration)  rows.push({ k: 'Duration', v: duration });
   if (character) rows.push({ k: 'Character', v: character });
