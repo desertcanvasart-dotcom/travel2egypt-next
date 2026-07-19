@@ -35,6 +35,7 @@
  *   - empty group days[]     : renders a warning placeholder rather than
  *                              silently collapsing — group needs the grid.
  */
+import type { ReactNode } from 'react';
 import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 
@@ -45,7 +46,7 @@ import {
 } from '@/lib/structured-data';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
-import { formatPrice } from '@/lib/currency';
+import { Price } from './Price';
 import { urlFor } from '@/sanity/lib/image';
 import { Body } from '@/components/Body';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
@@ -83,7 +84,7 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
   const duration = computeDurationLabel(tour, t);
   const character = computeCharacter(tour, t);
   const goodFor = computeGoodFor(tour);
-  const fromPrice = formatPrice(tour.priceFrom, locale, 'pp') || null;
+  const fromEl = typeof tour.priceFrom === 'number' ? <Price eur={tour.priceFrom} unit="pp" /> : null;
 
   // ── JSON-LD ──────────────────────────────────────────────────────────────
   // Pricing exposure (group-only) is enforced inside the builder via
@@ -184,7 +185,7 @@ export async function TourPageView({ tour, locale, slug }: TourPageViewProps) {
           duration={duration}
           character={character}
           goodFor={goodFor}
-          fromPrice={fromPrice}
+          fromPrice={fromEl}
           shapeLabel={
             isGroupPackage || tour.type === 'package'
               ? 'The shape of the journey'
@@ -231,7 +232,7 @@ interface FactualSpineProps {
   duration: string | null;
   character: string | null;
   goodFor: string | null;
-  fromPrice: string | null;
+  fromPrice: ReactNode;
   shapeLabel: string;
 }
 

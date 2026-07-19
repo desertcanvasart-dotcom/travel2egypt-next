@@ -5,7 +5,8 @@ import { client } from '@/sanity/lib/client';
 import { otherTrackLandingSlugQuery } from '@/sanity/lib/queries';
 import type { Locale } from '@/i18n/routing';
 
-import { formatPrice } from '@/lib/currency';
+import { Price } from '../Price';
+import { CurrencyNote } from '../CurrencyNote';
 import { JsonLd } from '../JsonLd';
 import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-data';
 
@@ -86,14 +87,14 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   // Meta row "from" price (EUR, per person): explicit → first tier. Numeric → formatPrice.
   const tier0 = tour.priceTiers?.[0];
   const fromAmount = typeof tour.priceFrom === 'number' ? tour.priceFrom : tier0?.price;
-  const fromPrice = formatPrice(fromAmount, locale, 'pp');
+  const fromEl = typeof fromAmount === 'number' ? <Price eur={fromAmount} unit="pp" /> : null;
 
   const metaItems = [
     { label: ts('metaDuration'), value: tour.durationLabel },
     { label: ts('metaGroup'), value: tour.groupSize },
     { label: ts('metaEffort'), value: tour.effortLevel },
     { label: ts('metaDeparts'), value: tour.departsFrom },
-    { label: ts('metaFrom'), value: fromPrice },
+    { label: ts('metaFrom'), value: fromEl ?? '' },
   ].filter((m) => m.value);
 
   const timeline = (tour.timeline ?? []).filter((s) => s.time || s.description);
@@ -290,7 +291,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                   tiers.map((tier, i) => (
                     <li key={i}>
                       <span className="tn">{tier.name}{tier.sub && <small>{tier.sub}</small>}</span>
-                      <span className="tp">{formatPrice(tier.price, locale)}{tier.unit && <small> {tier.unit}</small>}</span>
+                      <span className="tp"><Price eur={tier.price} />{tier.unit && <small> {tier.unit}</small>}</span>
                     </li>
                   ))
                 ) : (
@@ -301,6 +302,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                 )}
               </ul>
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
+              <CurrencyNote note={ts('priceCurrencyNote')} />
               <ConciergeOpenButton className="rail-cta">{ts('planThis')} →</ConciergeOpenButton>
               <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
             </div>

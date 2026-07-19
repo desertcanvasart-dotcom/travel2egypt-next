@@ -4,6 +4,7 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
 import { LocaleSwitcher } from './LocaleSwitcher';
+import { CurrencySwitcher } from './CurrencySwitcher';
 import { JourneysMenu } from './JourneysMenu';
 import { NavLink } from './NavLink';
 import { MobileNav } from './MobileNav';
@@ -48,6 +49,7 @@ export function Header({ locale }: HeaderProps) {
           </ul>
 
           <div className="t2e-nav-right">
+            <CurrencySwitcher />
             <LocaleSwitcher currentLocale={locale} />
             {/* /plan-your-tour not built yet — point at /contact (session 37 stopgap). */}
             <Link className="t2e-nav-cta" href="/contact">
