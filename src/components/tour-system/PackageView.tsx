@@ -119,7 +119,9 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const fromAmount = isGroup
     ? typeof tour.basePrice === 'number'
       ? tour.basePrice
-      : undefined
+      : typeof tour.priceFrom === 'number'
+        ? tour.priceFrom
+        : undefined
     : typeof tour.priceFrom === 'number'
       ? tour.priceFrom
       : tour.priceTiers?.[0]?.price;
