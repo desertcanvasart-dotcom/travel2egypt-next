@@ -20,11 +20,11 @@
  *    corrected on owner review — dukkah → デュカ (established JA food-media form;
  *    ドッカ read as invented; stricter alt ドゥッカ), tagella → タゲッラ (Amazigh
  *    hard "g"; earlier タジェッラ added a "j").
- *  - Batch 2 (16 terms, from the research field guide, 2026-07-20): katakana are
- *    PROPOSALS, `jaConfirmed: false` — awaiting owner sign-off, then the same
- *    native-reviewer pass as batch 1 before first JA publish.
- * A native reviewer gives all forms a final pass before the first JA article
- * publishes, but the confirmed ones are good to build against now.
+ *  - Batch 2 (16 terms, from the research field guide): owner-approved 2026-07-20,
+ *    `jaConfirmed: true`. Amended on review: kahk カフク→カハク (pharyngeal ḥ → ハ).
+ *    fesikh カ carries a native-review note (シ vs スィ for the middle s).
+ * A native reviewer gives all 29 forms a final pass before the first JA article
+ * publishes, but all are good to build against now.
  */
 
 export interface FoodTerm {
@@ -66,26 +66,30 @@ export const FOOD_GLOSSARY = {
   zarb: { romanization: 'zarb', ja: 'ザルブ', jaConfirmed: true },
   tagella: { romanization: 'tagella', ja: 'タゲッラ', jaConfirmed: true },
 
-  // ── Batch 2 — from the research field guide, 2026-07-20. Katakana PROPOSED,
-  //    jaConfirmed: false, awaiting owner sign-off. ──
-  taliya: { romanization: "ta'liya", ja: 'タリーヤ', jaConfirmed: false },
-  tasbeeka: { romanization: 'tasbeeka', ja: 'タスビーカ', jaConfirmed: false },
-  mahshi: { romanization: 'mahshi', ja: 'マハシ', jaConfirmed: false },
-  fatta: { romanization: 'fatta', ja: 'ファッタ', jaConfirmed: false },
-  torshi: { romanization: 'torshi', ja: 'トルシー', jaConfirmed: false },
-  shatta: { romanization: 'shatta', ja: 'シャッタ', jaConfirmed: false },
-  mish: { romanization: 'mish', ja: 'ミシュ', jaConfirmed: false },
-  karkadeh: { romanization: 'karkadeh', ja: 'カルカデ', jaConfirmed: false },
-  wika: { romanization: 'wika', ja: 'ウィーカ', jaConfirmed: false },
-  'eish-shamsi': { romanization: "'eish shamsi", ja: 'エーシュ・シャムシ', jaConfirmed: false },
-  fesikh: { romanization: 'fesikh', ja: 'フェシーフ', jaConfirmed: false, aliases: ['feseekh'] },
-  termis: { romanization: 'termis', ja: 'テルミス', jaConfirmed: false },
-  kahk: { romanization: 'kahk', ja: 'カフク', jaConfirmed: false },
-  qatayef: { romanization: 'qatayef', ja: 'カタイフ', jaConfirmed: false },
-  kunafa: { romanization: 'kunafa', ja: 'クナーファ', jaConfirmed: false },
+  // ── Batch 2 — from the research field guide. Owner-approved 2026-07-20
+  //    (jaConfirmed: true). Amended on review: kahk カフク→カハク. The full-glossary
+  //    native-reviewer pass still happens before the first JA article publishes. ──
+  taliya: { romanization: "ta'liya", ja: 'タリーヤ', jaConfirmed: true },
+  tasbeeka: { romanization: 'tasbeeka', ja: 'タスビーカ', jaConfirmed: true },
+  mahshi: { romanization: 'mahshi', ja: 'マハシ', jaConfirmed: true },
+  fatta: { romanization: 'fatta', ja: 'ファッタ', jaConfirmed: true },
+  torshi: { romanization: 'torshi', ja: 'トルシー', jaConfirmed: true },
+  shatta: { romanization: 'shatta', ja: 'シャッタ', jaConfirmed: true },
+  mish: { romanization: 'mish', ja: 'ミシュ', jaConfirmed: true },
+  karkadeh: { romanization: 'karkadeh', ja: 'カルカデ', jaConfirmed: true },
+  wika: { romanization: 'wika', ja: 'ウィーカ', jaConfirmed: true },
+  'eish-shamsi': { romanization: "'eish shamsi", ja: 'エーシュ・シャムシ', jaConfirmed: true },
+  // native review: シ vs スィ for the s (フェスィーフ / フェセーフ possible). The フ-final for خ is correct.
+  fesikh: { romanization: 'fesikh', ja: 'フェシーフ', jaConfirmed: true, aliases: ['feseekh'] },
+  termis: { romanization: 'termis', ja: 'テルミス', jaConfirmed: true },
+  // kahk: كحك carries pharyngeal ḥ → ハ (not フ, which is the خ convention as in シャイフ).
+  kahk: { romanization: 'kahk', ja: 'カハク', jaConfirmed: true },
+  qatayef: { romanization: 'qatayef', ja: 'カタイフ', jaConfirmed: true },
+  kunafa: { romanization: 'kunafa', ja: 'クナーファ', jaConfirmed: true },
   // dakka = the koshari garlic-vinegar SAUCE. NOT `dukkah` above (the dry
   // nut-and-spice condiment). Different things; the glossary keeps them apart.
-  dakka: { romanization: 'dakka', ja: 'ダッカ', jaConfirmed: false },
+  // (ダッカ is also JA for Dhaka — the first-mention romanization gloss disambiguates.)
+  dakka: { romanization: 'dakka', ja: 'ダッカ', jaConfirmed: true },
 } satisfies Record<string, FoodTerm>;
 
 export type FoodGlossaryKey = keyof typeof FOOD_GLOSSARY;

@@ -65,13 +65,36 @@ nut-and-spice condiment) are different things — don't conflate them.
 
 ## Research base
 
-The section's canonical research — a sourced historical/regional field guide —
-lives at [`content/food/_research/egyptian_food_and_cooking_field_guide.md`](_research/egyptian_food_and_cooking_field_guide.md).
-Every food article draws on it. It is **reference only**: it is excluded from the
-import pipeline (no `.<locale>.md` segment, and it sits in `_research/`), and no
-article content is generated from it wholesale. The research is strong, but
-**spot-verify any claim you source from it against its cited links at writing
-time** — citations get re-checked per article, not trusted wholesale.
+Two research documents underpin the section. Both are **reference only** —
+excluded from the import pipeline (no `.<locale>.md` segment; they sit in
+`_research/`, which the importer's non-recursive scan never descends into) and
+never turned into article content wholesale. Sourced claims are **spot-verified
+against their cited links at writing time** — re-checked per article, not trusted
+wholesale.
+
+**Doc 1 — canonical.** [`_research/egyptian_food_and_cooking_field_guide.md`](_research/egyptian_food_and_cooking_field_guide.md)
+— the sourced historical/regional field guide; the section's primary reference.
+
+**Doc 2 — supplementary, verify per claim.** [`_research/deep-dive/Food_and_Cooking_in_Egypt_A_Deep_Dive.md`](_research/deep-dive/Food_and_Cooking_in_Egypt_A_Deep_Dive.md)
+— broader, but a tier weaker in sourcing (Wikipedia/blog citations).
+**Exception:** section 7 (bread politics) is solidly sourced (IFPRI / USDA / WHO)
+and usable with normal spot-verification. The house rule applies *doubly* here:
+any claim taken from Doc 2 is **re-sourced, or downgraded to "Origin story,"** at
+writing time.
+
+**Images caveat.** The charts bundled with Doc 2 (`deep-dive/images/fig_bread`,
+`fig_wheat`, `fig_obesity`, `fig_timeline`, `fig_regions`, `cover`) are **research
+artifacts, not site assets** — never publish them without a provenance check and
+a restyle to the site's design language. The no-AI-food-imagery rule is
+unaffected and absolute.
+
+**TODO — reconcile conflicting figures (editorial · owner: Islam).** Settle a
+single canonical number for each; until resolved, articles cite **neither** value
+without checking here first:
+
+- subsidy beneficiaries — **71M** (Doc 1) vs **73M** (Doc 2)
+- bread price-freeze start year — **1988** vs **1989**
+- al-Hakim molokhia-ban date — **1004** vs **~1005**
 
 ## Editorial conventions
 
