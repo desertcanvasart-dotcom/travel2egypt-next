@@ -82,7 +82,7 @@ export function Hero() {
             The Egypt Journal — cover story
           </motion.p>
 
-          <h1 className="max-w-[13ch] font-serif text-[clamp(2.9rem,8.4vw,7.5rem)] font-light leading-[0.98] tracking-[-0.01em]">
+          <h1 className="max-w-[13ch] font-serif text-[clamp(2.9rem,8.4vw,7.5rem)] font-light leading-[0.98] tracking-[-0.01em] text-paper">
             <HeadlineLine delay={0.55}>Egypt asks more</HeadlineLine>
             <HeadlineLine delay={0.68}>of you than its</HeadlineLine>
             <HeadlineLine delay={0.81}>
