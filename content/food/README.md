@@ -55,7 +55,36 @@ canonical keys (single source of truth: `src/data/food-glossary.ts`):
 ```
 koshari · taameya · molokhia · sayadeya · feteer · ful · om-ali · hawawshi
 dukkah · samna-baladi · kebda-eskandarani · zarb · tagella
+taliya · tasbeeka · mahshi · fatta · torshi · shatta · mish · karkadeh
+wika · eish-shamsi · fesikh · termis · kahk · qatayef · kunafa · dakka
 ```
 
 Add a new dish to `src/data/food-glossary.ts` first; only then may an article
-reference it.
+reference it. Note `dakka` (koshari garlic-vinegar sauce) and `dukkah` (dry
+nut-and-spice condiment) are different things — don't conflate them.
+
+## Research base
+
+The section's canonical research — a sourced historical/regional field guide —
+lives at [`content/food/_research/egyptian_food_and_cooking_field_guide.md`](_research/egyptian_food_and_cooking_field_guide.md).
+Every food article draws on it. It is **reference only**: it is excluded from the
+import pipeline (no `.<locale>.md` segment, and it sits in `_research/`), and no
+article content is generated from it wholesale. The research is strong, but
+**spot-verify any claim you source from it against its cited links at writing
+time** — citations get re-checked per article, not trusted wholesale.
+
+## Editorial conventions
+
+**Confidence vocabulary** (adopted verbatim from the research base; use it in
+briefs and prose framing):
+
+- **Documented** — evidence exists.
+- **Plausible lineage** — ingredients or techniques align, but the named dish
+  can't be traced continuously.
+- **Origin story** — memorable folklore, weak paperwork.
+
+House rule: **origin stories are told as stories, never asserted as history.**
+
+**Naming exception — Koshary/koshari.** UNESCO's 2025 inscription title spells it
+"**Koshary**". Site copy uses the canonical **`koshari`**; you may quote the
+official "Koshary" title where the inscription itself is discussed.
