@@ -20,6 +20,8 @@ import {
 import { faqCategorySchema, faqEntrySchema } from './faq';
 import { authorSchema, editorialCategorySchema } from './editorial';
 import { articleSchema } from './article';
+import { foodArticleSchema } from './foodArticle';
+import { foodHubSchema } from './foodHub';
 import { travelerStorySchema } from './travelerStory';
 import { wikiDynastySchema } from './wikiDynasty';
 import { wikiPersonSchema } from './wikiPerson';
@@ -53,6 +55,10 @@ export const schemaTypes = [
   editorialCategorySchema,
   authorSchema,
   travelerStorySchema,
+
+  // ── Food ──
+  foodArticleSchema,
+  foodHubSchema,
 
   // ── Tours ──
   tourSchema,

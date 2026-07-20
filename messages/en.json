@@ -217,7 +217,8 @@
     "closeMenu": "Close menu",
     "faqLabel": "FAQ",
     "hotelGradeConcept": "Hotel Grade Concept",
-    "responsibleTravel": "Responsible Travel"
+    "responsibleTravel": "Responsible Travel",
+    "food": "Food"
   },
   "footer": {
     "sisterBrandsLabel": "Other Travel2Egypt brands",
@@ -1433,5 +1434,37 @@
       "closing": "Three thousand years is hard to hold in your head. The point of the chronology above isn't to memorise it — it's to give you a rough map. When you walk into a temple, ask first: which era was this built? Once you can answer that, the temple tells its story. The columns make sense. The reliefs make sense. The scale makes sense. Knowing whose monument it is — and where they sit in the larger sequence — is the difference between sightseeing and reading the country.",
       "colophonNote": "Field guide · dates approximate · chronology after Shaw, Oxford History of Ancient Egypt"
     }
+  },
+  "food": {
+    "breadcrumb": "Food",
+    "hubKicker": "The Food Section",
+    "hubTitle": "Eat Your Way Down the Nile",
+    "hubTagline": "Egypt told through what it cooks — dish by dish, city by city, from Cairo to the coast to the far oases.",
+    "regions": {
+      "cairo": "Cairo",
+      "alexandria-coast": "Alexandria, the Coast & the Canal",
+      "nile-south": "The Nile South",
+      "oases-sinai": "The Oases & Sinai",
+      "all-egypt": "Anywhere in Egypt: the practical guides"
+    },
+    "sectionEyebrow": "Down the Nile",
+    "practicalEyebrow": "Wherever you are",
+    "formatBiography": "Biography",
+    "formatGenerations": "Generations",
+    "formatRoute": "Food route",
+    "formatPractical": "Practical",
+    "planThis": "Plan this food day with us",
+    "planThisBody": "This route is the editorial twin of a private food day our Cairo team runs. We shape it around your pace.",
+    "viewTour": "See the day tour",
+    "lastVerifiedLabel": "Venues last verified",
+    "byLabel": "By",
+    "readingTime": "{count} min read",
+    "enFallbackNote": "Not yet available in your language — showing the English edition.",
+    "conciergeAboutFood": "Ask the concierge about eating in Egypt",
+    "footInSeasonLabel": "In season",
+    "footInSeasonBody": "Seafood peaks as the coast cools; citrus and greens through winter. We cook the calendar.",
+    "footJournalLabel": "More from the Food section",
+    "footPracticalLabel": "Before you go",
+    "footPracticalBody": "Read the street-food safety guide first, then eat with confidence."
   }
 }

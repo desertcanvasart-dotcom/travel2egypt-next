@@ -59,12 +59,14 @@ interface BodyProps {
   locale: 'en' | 'es' | 'ja';
 }
 
-export function Body({ value, locale }: BodyProps) {
-  if (!value) return null;
-
-  // h2s get stable, de-duplicated ids so the in-article TOC can anchor to
-  // them. Must mirror extractHeadings()'s order/dedupe — both walk blocks in
-  // document order and call the generator once per h2.
+/**
+ * The shared PortableText component set. Extracted so specialized renderers
+ * (e.g. the Food section's JA treatment) can reuse the exact same block/mark
+ * handling and only override or extend what they need. A fresh heading-id
+ * generator is created per call, so each render gets stable, de-duplicated
+ * anchor ids that mirror extractHeadings().
+ */
+export function getBodyComponents(locale: 'en' | 'es' | 'ja'): PortableTextComponents {
   const nextHeadingId = createHeadingIdGenerator();
 
   const components: PortableTextComponents = {
@@ -270,7 +272,12 @@ export function Body({ value, locale }: BodyProps) {
     },
   };
 
-  return <PortableText value={value} components={components} />;
+  return components;
+}
+
+export function Body({ value, locale }: BodyProps) {
+  if (!value) return null;
+  return <PortableText value={value} components={getBodyComponents(locale)} />;
 }
 
 const baseComponents: PortableTextComponents = {

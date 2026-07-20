@@ -37,10 +37,10 @@ const sharedPlugins = [
     fieldTypes: ['string', 'text'],
   }),
 
-  // Document-level i18n (articles only)
+  // Document-level i18n (articles + food articles)
   documentInternationalization({
     supportedLanguages: SUPPORTED_LANGUAGES.map((l) => ({ id: l.id, title: l.title })),
-    schemaTypes: ['article'],
+    schemaTypes: ['article', 'foodArticle'],
   }),
 ];
 

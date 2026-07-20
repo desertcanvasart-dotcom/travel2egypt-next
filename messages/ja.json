@@ -117,7 +117,8 @@
     "closeMenu": "メニューを閉じる",
     "faqLabel": "よくある質問",
     "hotelGradeConcept": "ホテルグレード",
-    "responsibleTravel": "責任ある旅行"
+    "responsibleTravel": "責任ある旅行",
+    "food": "食事"
   },
   "footer": {
     "sisterBrandsLabel": "Travel2Egyptの他ブランド",
@@ -1333,5 +1334,37 @@
       "closing": "三千年は、頭の中に保つには長すぎるものです。上の年表の意義は、それを暗記することにはありません——おおざっぱな地図を提供することにあります。神殿に足を踏み入れたとき、まず尋ねるべきは「これはどの時代のものか」です。それに答えられるようになると、細部の収まりがついてきます。柱に意味が見えてきます。レリーフに意味が見えてきます。祭祀に意味が見えてきます。それが誰の記念碑であるか——そして、より大きな連なりのどこに位置するか——を知ることが、観光と、国を読むこととの違いです。",
       "colophonNote": "フィールドガイド · 日付は概算 · 年代はShaw, Oxford History of Ancient Egyptに依拠"
     }
+  },
+  "food": {
+    "breadcrumb": "食事",
+    "hubKicker": "フードセクション",
+    "hubTitle": "ナイルを下る食の旅",
+    "hubTagline": "料理から見るエジプト — 一皿ずつ、街ごとに、カイロから海岸、そして遠いオアシスまで。",
+    "regions": {
+      "cairo": "カイロ",
+      "alexandria-coast": "アレクサンドリア、海岸と運河沿い",
+      "nile-south": "ナイル上流（ルクソール・アスワン・ヌビア）",
+      "oases-sinai": "オアシスとシナイ",
+      "all-egypt": "エジプトのどこでも：実用ガイド"
+    },
+    "sectionEyebrow": "ナイルを下って",
+    "practicalEyebrow": "どこにいても",
+    "formatBiography": "評伝",
+    "formatGenerations": "世代の物語",
+    "formatRoute": "フードルート",
+    "formatPractical": "実用",
+    "planThis": "この食の一日を一緒に計画する",
+    "planThisBody": "このルートは、カイロのチームが手配するプライベートな食の一日と対をなす記事です。あなたのペースに合わせて組み立てます。",
+    "viewTour": "日帰りツアーを見る",
+    "lastVerifiedLabel": "店舗の最終確認",
+    "byLabel": "文・",
+    "readingTime": "約{count}分",
+    "enFallbackNote": "この言語ではまだご利用いただけません — 英語版を表示しています。",
+    "conciergeAboutFood": "エジプトの食についてコンシェルジュに相談する",
+    "footInSeasonLabel": "旬のもの",
+    "footInSeasonBody": "海岸が涼しくなると魚介が旬に。冬は柑橘と青菜。季節を料理します。",
+    "footJournalLabel": "フードセクションの他の記事",
+    "footPracticalLabel": "出かける前に",
+    "footPracticalBody": "まず屋台の安全ガイドを読んでから、安心して味わってください。"
   }
 }

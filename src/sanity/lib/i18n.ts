@@ -167,6 +167,8 @@ export function resolveInternalLinkHref(ref: ResolvableRef | null | undefined): 
         : `/tours/${ref.slug}`;
     case 'article':
       return `/blog/${ref.slug}`;
+    case 'foodArticle':
+      return `/food/${ref.slug}`;
     case 'wikiPerson':
       return `/wiki/people/${ref.slug}`;
     case 'wikiMonument':
