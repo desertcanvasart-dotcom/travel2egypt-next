@@ -27,14 +27,8 @@ export function Header({ locale }: HeaderProps) {
     <header>
       <nav className="t2e-nav" aria-label={t('primaryNavLabel')}>
         <div className="t2e-wrap t2e-nav-inner">
-          <Link className="t2e-logo" href="/" aria-label="Travel2Egypt — home">
-            <img
-              src="/logo.png"
-              alt="Travel2Egypt"
-              width={202}
-              height={123}
-              style={{ height: '40px', width: 'auto', display: 'block' }}
-            />
+          <Link className="t2e-logo t2e-logo--wordmark" href="/" aria-label="Travel2Egypt — home">
+            Travel<span className="t2e-logo-2">2</span>Egypt
           </Link>
 
           <ul className="t2e-nav-links">
