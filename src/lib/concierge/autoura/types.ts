@@ -74,6 +74,13 @@ export interface AutouraBriefPayload {
   language: string; // "en" | "es"
   brief_revision: number;
   is_update: boolean;
+  /**
+   * Tenant routing key (S13 multi-tenant pivot). The getAutoura platform is ONE
+   * endpoint for the whole family; the receiver maps this string to a tenant via
+   * its `concierge_brand_mappings` table (lowercase, trimmed; unmapped → 422).
+   * Values = our RoutedBrand vocabulary: travel2egypt|affordegypt|sawa|sillage.
+   */
+  brand: string;
   visitor: AutouraVisitor;
   trip: AutouraTrip;
   preferences: AutouraPreferences;

@@ -1,7 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
 import { deliverBrief } from '@/lib/concierge/autoura/deliver';
-import { resolveBrandEnv } from '@/lib/concierge/autoura/routing';
 import { coerceBrand } from '@/lib/concierge/brands';
 import { extractBrief, type ExtractionMessage } from '@/lib/briefExtraction';
 import { enforceExpensive } from '@/lib/concierge/rateLimit';
@@ -153,7 +152,10 @@ export async function POST(req: NextRequest) {
     if (inserted?.id) {
       const briefRowId = inserted.id;
       try {
-        void deliverBrief(briefRowId, { env: resolveBrandEnv(brand) }).catch((err) =>
+        // S13 multi-tenant pivot: no per-brand endpoint override — the worker
+        // loads the brief row's delivered_brand snapshot and puts it on the
+        // wire as `brand`; the single getAutoura endpoint routes by it.
+        void deliverBrief(briefRowId).catch((err) =>
           console.error('[concierge] autoura delivery worker error:', err),
         );
       } catch (err) {

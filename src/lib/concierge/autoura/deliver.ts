@@ -25,6 +25,7 @@
  */
 import { conciergeDb } from '@/lib/supabase/server';
 import { sendAutouraBriefFallback, sendAutouraFailureAlert } from '@/lib/email/resend';
+import { coerceBrand } from '@/lib/concierge/brands';
 import type { BriefPayload } from '@/types/concierge';
 
 import { toAutouraPayload, type AutouraPayloadContext } from './payload';
@@ -70,7 +71,7 @@ export interface DeliverDeps {
   newRequestId(): string;
   sendFallback(c: DeliveryContext, payload: AutouraBriefPayload): Promise<void>;
   sendAlert(c: DeliveryContext, reason: string, attempts: number, payload: AutouraBriefPayload): Promise<void>;
-  env: { url: string | undefined; secret: string | undefined; routingTag?: string };
+  env: { url: string | undefined; secret: string | undefined };
 }
 
 /** Run an effect, swallowing+logging any throw — the worker stays best-effort. */
@@ -115,16 +116,6 @@ export async function deliverBrief(
   if (!context) return; // already gone / not found
 
   const payload = toAutouraPayload(context.payload, context.ctx, context.transcript);
-
-  // Anchor-fallback routing tag (see BrandEnv.routingTag): a sub-brand brief
-  // arriving in the shared Travel2Egypt inbox announces its routing in the
-  // summary, since the wire payload carries no brand field. Applied BEFORE
-  // serialization so the HMAC covers the transmitted bytes.
-  if (deps.env.routingTag) {
-    payload.brief_summary = payload.brief_summary
-      ? `[ROUTED: ${deps.env.routingTag}] ${payload.brief_summary}`
-      : `[ROUTED: ${deps.env.routingTag}]`;
-  }
 
   // ── SERIALIZE ONCE ────────────────────────────────────────────────────────
   // `rawBody` is the single source of truth for both the signature AND the POST
@@ -259,7 +250,7 @@ async function loadDeliveryContext(briefId: string): Promise<DeliveryContext | n
 
   const { data: brief } = await db
     .from('briefs')
-    .select('id, conversation_id, payload, brief_revision, created_at')
+    .select('id, conversation_id, payload, brief_revision, created_at, delivered_brand')
     .eq('id', briefId)
     .maybeSingle();
   if (!brief) return null;
@@ -308,6 +299,9 @@ async function loadDeliveryContext(briefId: string): Promise<DeliveryContext | n
       language: locale,
       briefRevision,
       isUpdate: briefRevision > 1,
+      // Immutable per-brief snapshot (migration 0007) → the wire `brand` field.
+      // Unknown/null floors to the anchor, which the platform always accepts.
+      brand: coerceBrand(brief.delivered_brand),
     },
   };
 }

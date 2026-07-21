@@ -528,12 +528,11 @@ Daily review by Islam: read flagged conversations (grouped by `flag_reason`), ra
 **Secrets (long-lived; rotate only on genuine compromise — rotation consequences noted):**
 - `SESSION_COOKIE_SECRET` — HMAC for the session cookie. Rotation invalidates all sessions (mid-conversation visitors lose state).
 - `IP_HASH_SECRET` — keyed HMAC for IP/UA. Rotation resets rate-limit/abuse continuity.
-- `AUTOURA_WEBHOOK_SECRET` — HMAC signing for the Travel2Egypt (anchor) Autoura account.
-- `AUTOURA_AFFORDEGYPT_WEBHOOK_SECRET`, `AUTOURA_SAWA_WEBHOOK_SECRET`, `AUTOURA_SILLAGE_WEBHOOK_SECRET` — per-brand signing secrets (Session 13). **Optional until provisioned:** a sub-brand whose URL+secret pair is unset falls back to the anchor endpoint, so leaving these empty keeps every route delivering to Travel2Egypt's Autoura as today.
+- `AUTOURA_WEBHOOK_SECRET` — HMAC signing for the getAutoura platform's single multi-tenant concierge endpoint (its `CONCIERGE_WEBHOOK_SECRET`). **S13 multi-tenant pivot (2026-07-21, owner decision):** the per-brand secret trio (`AUTOURA_{AFFORDEGYPT,SAWA,SILLAGE}_WEBHOOK_SECRET`) was REMOVED — the platform is one endpoint for the whole family; the wire payload's top-level `brand` field is the tenant routing key (mapped receiver-side in `concierge_brand_mappings`).
 - `CRON_SECRET` — protects `/api/admin/digest`.
 - `SUPABASE_SERVICE_ROLE_KEY`, `ANTHROPIC_API_KEY`, `RESEND_API_KEY` — provider keys; server-only, never bundled.
 
-**Other env:** `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `AUTOURA_WEBHOOK_URL`, `AUTOURA_AFFORDEGYPT_WEBHOOK_URL`, `AUTOURA_SAWA_WEBHOOK_URL`, `AUTOURA_SILLAGE_WEBHOOK_URL` (Session 13 — per-brand targets; each pairs with its `_SECRET` above and falls back to the anchor when unset), `TEAM_INBOX_EMAIL`, `ADMIN_EMAILS`, `SENTRY_DSN`, `CHAT_ENABLED`. Rate-limit thresholds (per-session, per-IP, token soft/hard) are **code-default with optional env override** — they need only be set to deviate from defaults.
+**Other env:** `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `AUTOURA_WEBHOOK_URL` (the ONE getAutoura endpoint, `https://getautoura.net/api/webhooks/concierge` — the per-brand URL trio was removed with the S13 multi-tenant pivot; brand travels in the payload), `TEAM_INBOX_EMAIL`, `ADMIN_EMAILS`, `SENTRY_DSN`, `CHAT_ENABLED`. Rate-limit thresholds (per-session, per-IP, token soft/hard) are **code-default with optional env override** — they need only be set to deviate from defaults.
 
 **Constants (not env):** WhatsApp number (`wa.me/201158011600`), pinned Sonnet 4.6 model string.
 

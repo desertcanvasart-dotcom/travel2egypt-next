@@ -113,6 +113,8 @@ export async function GET(req: NextRequest) {
     language: 'en',
     briefRevision: 1,
     isUpdate: false,
+    // Canary probes the anchor tenant — the platform always accepts it.
+    brand: 'travel2egypt',
   }, transcript);
 
   // Sign-once contract: these exact bytes are signed AND transmitted.
