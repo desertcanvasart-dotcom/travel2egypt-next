@@ -134,7 +134,11 @@ export default async function FoodArticlePage({ params }: Props) {
   const minutes = readingTimeMinutes(doc.body, locale as Locale);
   const dateLabel = formatDate(doc.updatedAt ?? doc.publishedAt, locale);
   const dropCap = minutes >= 2;
-  const featureUrl = doc.heroImage?.asset ? urlFor(doc.heroImage).width(1600).quality(85).url() : null;
+  // Bake the 16:8 crop through Sanity so the image's hotspot/crop drive the
+  // framing (width-only would ignore them and leave a CSS centre-crop).
+  const featureUrl = doc.heroImage?.asset
+    ? urlFor(doc.heroImage).width(1600).height(800).fit('crop').quality(85).url()
+    : null;
 
   const formatLabel = (f: string): string =>
     ({
