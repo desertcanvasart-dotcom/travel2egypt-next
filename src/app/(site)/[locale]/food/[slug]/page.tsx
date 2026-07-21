@@ -239,9 +239,16 @@ export default async function FoodArticlePage({ params }: Props) {
                 priority
               />
             </div>
-            {doc.heroImage?.caption && (
-              <figcaption className="mt-3 font-sans text-xs uppercase tracking-[0.08em] text-night-soft">
-                {doc.heroImage.caption}
+            {(doc.heroImage?.caption || doc.heroImage?.credit) && (
+              <figcaption className="mt-3 font-sans text-xs text-night-soft">
+                {doc.heroImage?.caption && (
+                  <span className="uppercase tracking-[0.08em]">{doc.heroImage.caption}</span>
+                )}
+                {doc.heroImage?.credit && (
+                  <span className="mt-1 block text-[0.7rem] tracking-[0.04em] text-night-soft/70">
+                    {doc.heroImage.credit}
+                  </span>
+                )}
               </figcaption>
             )}
           </figure>

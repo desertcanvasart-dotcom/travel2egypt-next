@@ -6,13 +6,10 @@ publishedAt: 2026-09-01
 deck: "Egypt's fisherman's rice is one dish with several passports. Follow it from Alexandria along the canal to Suez, and you are reading the history of the country's northern waters."
 dishes:
   - sayadeya
-# TODO: hero held — images/sayadeya-hero.jpg was not delivered with the .md (2026-07-21).
-# When the image file arrives, drop it in content/food/images/, uncomment these
-# three lines, and re-run `npm run import:food -- --dir content/food --commit`
-# (idempotent upsert — the hero attaches to the existing draft).
-# heroImage: images/sayadeya-hero.jpg
-# heroAlt: "A whole grilled fish served over dark, onion-browned sayadeya rice, with lemon and baladi bread at the edge of the plate"
-# heroCaption: "Sayadeya: the day's catch over rice stained deep with browned onion."
+heroImage: images/sayadeya-hero.jpg
+heroAlt: "A whole fried fish on a white plate beside a mound of dark, onion-browned rice topped with crisp fried onions, toasted slivered almonds, and chopped parsley"
+heroCaption: "Sayadeya: the day's catch over rice stained deep with browned onion."
+heroCredit: "young shanahan / Flickr, CC BY 2.0"
 metaTitle: "One Country, Three Plates of Sayadeya"
 metaDescription: "Sayadeya — fish over rice cooked dark with browned onion — belongs to Egypt's whole northern coast. What the Alexandrian, Port Said, and Suez tables share, where they differ, and how to eat it well."
 ---

@@ -7,12 +7,10 @@ updatedAt: 2026-09-15
 deck: "エジプトの「漁師の飯」は、一つの料理でありながら、いくつもの旅券を持っています。アレクサンドリアから運河沿いにスエズまでたどれば、それはこの国の北の水辺の歴史を読むことになるのです。"
 dishes:
   - sayadeya
-# TODO: hero held — images/sayadeya-hero.jpg not yet sourced (2026-07-21). See the
-# EN file for the restore steps; uncomment all three and re-run the importer once
-# the image lands (idempotent upsert — hero attaches to this draft).
-# heroImage: images/sayadeya-hero.jpg
-# heroAlt: "玉ねぎで深く色づいたサヤディーヤの米の上に置かれた焼き魚一尾。皿の縁にレモンとバラディ・パン"
-# heroCaption: "サヤディーヤ——濃く炒めた玉ねぎに染まった米の上に、その日の魚を。"
+heroImage: images/sayadeya-hero.jpg
+heroAlt: "白い皿の上、玉ねぎで濃く色づいた米の山の隣に、揚げた魚が一尾。米にはカリカリの揚げ玉ねぎ、ローストしたスライスアーモンド、刻んだパセリ"
+heroCaption: "サヤディーヤ——濃く炒めた玉ねぎに染まった米の上に、その日の魚を。"
+heroCredit: "young shanahan / Flickr, CC BY 2.0"
 metaTitle: "一つの国、三つのサヤディーヤ"
 metaDescription: "サヤディーヤ——深く炒めた玉ねぎで色づけた米に魚をのせる、エジプト北岸の料理。アレクサンドリア、ポートサイド、スエズの食卓が共有するもの、分かれるもの、そして美味しく食べる方法をご案内します。"
 ---

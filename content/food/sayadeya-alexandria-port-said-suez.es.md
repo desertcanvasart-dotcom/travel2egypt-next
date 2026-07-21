@@ -6,12 +6,10 @@ publishedAt: 2026-09-22
 deck: "El arroz del pescador egipcio es un solo plato con varios pasaportes. Seguirlo desde Alejandría, por el canal, hasta Suez es leer la historia de las aguas del norte del país."
 dishes:
   - sayadeya
-# TODO: hero held — images/sayadeya-hero.jpg not yet sourced (2026-07-21). See the
-# EN file for the restore steps; uncomment all three and re-run the importer once
-# the image lands (idempotent upsert — hero attaches to this draft).
-# heroImage: images/sayadeya-hero.jpg
-# heroAlt: "Un pescado entero a la parrilla servido sobre arroz de sayadeya oscurecido con cebolla, con limón y pan baladi al borde del plato"
-# heroCaption: "Sayadeya: la pesca del día sobre un arroz teñido de cebolla dorada hasta el límite."
+heroImage: images/sayadeya-hero.jpg
+heroAlt: "Un pescado entero frito en un plato blanco, junto a un montículo de arroz oscurecido con cebolla, coronado con cebolla frita crujiente, almendras fileteadas tostadas y perejil picado"
+heroCaption: "Sayadeya: la pesca del día sobre un arroz teñido de cebolla dorada hasta el límite."
+heroCredit: "young shanahan / Flickr, CC BY 2.0"
 metaTitle: "Un país, tres platos de sayadeya"
 metaDescription: "La sayadeya —pescado sobre arroz cocido con cebolla muy dorada— pertenece a toda la costa norte de Egipto. Lo que comparten las mesas de Alejandría, Port Said y Suez, en qué se separan y cómo comerla bien."
 ---
