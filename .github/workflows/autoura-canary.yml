@@ -1,0 +1,32 @@
+# Weekly Autoura delivery canary (Harness L1).
+#
+# Fires the deployed dry-run contract probe — GET /api/admin/autoura-canary on
+# the production Railway service. The endpoint signs ONE synthetic brief with
+# the deployed env's secret and sends it to the live getAutoura receiver with
+# X-Autoura-Dry-Run (signature verified + payload validated + tenant routing
+# previewed, NOTHING written). Catches contract drift — rotated secret, URL
+# change, schema tightening, tenant/feature misconfig — on a schedule instead
+# of on the next real lead.
+#
+# Failure is doubly loud: the endpoint itself emails the team inbox, and this
+# job goes red. Secret: repo Actions secret CRON_SECRET (same bearer the
+# /api/admin/digest cron uses).
+name: Autoura canary
+
+on:
+  schedule:
+    - cron: '0 5 * * 1' # Mondays 05:00 UTC ≈ 07:00 Cairo
+  workflow_dispatch: {}
+
+jobs:
+  canary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Fire the deployed dry-run canary
+        run: |
+          resp=$(curl -fsS -m 45 \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            https://travel2egypt-next-production.up.railway.app/api/admin/autoura-canary)
+          echo "$resp"
+          echo "$resp" | grep -q '"ok":true'
