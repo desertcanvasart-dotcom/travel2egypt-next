@@ -119,11 +119,6 @@ export function MobileNav() {
               </Link>
             </li>
             <li>
-              <Link href="/travel-tips" aria-current={cur('/travel-tips')}>
-                {t('travelTips')}
-              </Link>
-            </li>
-            <li>
               <span className="ms-heading">{t('journeys')}</span>
               <ul className="ms-sub">
                 {JOURNEY_LINKS.map(({ key, hash }) => (

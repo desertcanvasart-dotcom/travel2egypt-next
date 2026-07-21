@@ -38,10 +38,9 @@ export function Header({ locale }: HeaderProps) {
           </Link>
 
           <ul className="t2e-nav-links">
-            {/* Visual order, left-to-right: Travel Guide, Travel Tips,
-                Journeys, Journal, About. */}
+            {/* Visual order, left-to-right: Travel Guide, Journeys, Journal,
+                About. (Travel Tips moved to the footer's Practical column.) */}
             <li><NavLink href="/guide">{t('guide')}</NavLink></li>
-            <li><NavLink href="/travel-tips">{t('travelTips')}</NavLink></li>
             {/* Egypt Wiki nav stays hidden for v1 (session 31 defer). */}
             <li><JourneysMenu /></li>
             <li><NavLink href="/blog">{t('blog')}</NavLink></li>

@@ -103,9 +103,9 @@ export function Footer({ locale }: FooterProps) {
             <h2>{t('practicalLabel')}</h2>
             <ul>
               {/* Sorted alphabetically by the rendered EN label. */}
-              <li><Link href="/distance-between-egyptian-cities">{t('cityDistances')}</Link></li>
               <li><Link href="/faq">{t('faqLabel')}</Link></li>
               <li><Link href="/hotel-grade-concept">{t('hotelGradeConcept')}</Link></li>
+              <li><Link href="/travel-tips">{tNav('travelTips')}</Link></li>
               <li><Link href="/your-name-in-hieroglyphs">{t('nameInHieroglyphs')}</Link></li>
             </ul>
           </div>
