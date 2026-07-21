@@ -170,7 +170,17 @@ async function upsertTmeta(client: SanityClient, slug: string) {
     .map(([loc, ref]) => ({
       _key: loc,
       _type: 'internationalizedArrayReferenceValue',
-      value: { _type: 'reference', _ref: ref },
+      // Weak reference: the joiner points at the PUBLISHED base id, but the
+      // importer only ever writes drafts, so that target may not exist yet. A
+      // strong ref would fail Sanity's referential-integrity check. `_weak`
+      // lets the metadata reference a draft-only translation; the
+      // document-internationalization plugin strengthens it on publish.
+      value: {
+        _type: 'reference',
+        _ref: ref,
+        _weak: true,
+        _strengthenOnPublish: { type: 'foodArticle' },
+      },
     }));
   const tmeta = { _id: `tmeta.${slug}`, _type: 'translation.metadata', schemaTypes: ['foodArticle'], translations };
   if (!dryRun) await client.createOrReplace(tmeta);
