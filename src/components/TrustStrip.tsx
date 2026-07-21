@@ -7,14 +7,17 @@
  * are passed in for i18n; the marks themselves are the site's real
  * accreditations (cf. the footer "JATA, IATA, ASTA … accredited").
  *
- * Session 1: ships with glyph/star treatment only — no partner-logo assets,
- * and the items are non-linked (the TripAdvisor URL is a pending soft-gate
- * dependency; wire links when the assets/URL land).
+ * Session 1: ships with glyph/star treatment only — no partner-logo assets.
+ * The TripAdvisor mark links to our review page (opens in a new tab); the
+ * accreditation marks stay non-linked (no per-mark URLs).
  */
 
 import type { ReactNode } from 'react';
 
 const DM = 'font-[family-name:var(--font-dm-sans)]';
+
+const TRIPADVISOR_URL =
+  'https://www.tripadvisor.com/Attraction_Review-g294201-d17406742-Reviews-Travel2Egypt-Cairo_Cairo_Governorate.html';
 
 function Mark({ glyph, label }: { glyph: ReactNode; label: string }) {
   return (
@@ -53,9 +56,13 @@ export function TrustStrip({
         className="flex items-stretch justify-center gap-5 overflow-x-auto px-6 [scrollbar-width:none] md:gap-7 [&::-webkit-scrollbar]:hidden"
       >
         {/* TripAdvisor — rating + brand-green stars (kept green; it is the mark) */}
-        <div
+        <a
           role="listitem"
-          className="flex min-w-[80px] shrink-0 flex-col items-center gap-1.5 px-3 py-2"
+          href={TRIPADVISOR_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Read our reviews on TripAdvisor (opens in a new tab)"
+          className="flex min-w-[80px] shrink-0 flex-col items-center gap-1.5 px-3 py-2 no-underline transition-opacity hover:opacity-70"
         >
           <span className="flex h-9 items-center justify-center text-night">
             <svg width="28" height="28" viewBox="0 0 22 22" fill="currentColor" aria-hidden>
@@ -72,7 +79,7 @@ export function TrustStrip({
           >
             TripAdvisor
           </span>
-        </div>
+        </a>
 
         <Mark
           label="Kayak"
