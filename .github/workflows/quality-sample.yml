@@ -1,0 +1,31 @@
+# Daily concierge quality sampling (Harness L3).
+#
+# Fires GET /api/admin/quality-sample on the production Railway service: it
+# samples up to QUALITY_SAMPLE_SIZE of yesterday's conversations and scores
+# them (pacing / grounding / tone) with the shared quality judge, persisting
+# eval_scores rows that the daily digest reports on. Idempotent per day
+# (already-scored conversations are skipped; double fires are benign).
+#
+# Quiet-day/judge-failure behavior: an empty window returns ok:true with no
+# judge calls; judge failures are counted in `skipped.judgeFailed`, not thrown
+# — so this job only goes red on real endpoint/auth/migration failures.
+# Secret: repo Actions secret CRON_SECRET (same as the Autoura canary).
+name: Quality sample
+
+on:
+  schedule:
+    - cron: '15 4 * * *' # daily 04:15 UTC ≈ 06:15 Cairo, before the digest
+  workflow_dispatch: {}
+
+jobs:
+  quality-sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fire the deployed quality sampler
+        run: |
+          resp=$(curl -fsS -m 120 \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            https://travel2egypt-next-production.up.railway.app/api/admin/quality-sample)
+          echo "$resp"
+          echo "$resp" | grep -q '"ok":true'
