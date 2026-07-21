@@ -17,9 +17,17 @@ a human act in Studio** — the importer never publishes.
   locale come from the filename.** All locales of one piece share the EN slug.
 - Images: reference by relative path (e.g. `images/hero.jpg`); put them in a
   sibling `images/` folder. They upload at import time, content-hash deduped.
-- The body (everything after the frontmatter) is literary prose with plain `##`
-  / `###` headers. JA presentation (■ headings, `· · ·`, katakana glosses,
+- The body (everything after the frontmatter) is literary prose with plain
+  markdown headers. JA presentation (■ headings, `· · ·`, katakana glosses,
   `最終更新`) is applied at render — author plain markdown.
+- **Top-level section heads are `##` (h2).** The JA render layer keys strictly
+  off h2: it inserts the `· · ·` dividers before each h2 after the first, and
+  the scoped CSS draws the gold `■` prefix on h2 only. A section head written as
+  `###` (h3) renders **unornamented in JA** — no divider, no ■ — so use `##` for
+  the article's main sections. `###` stays legal for a genuine *sub*-section
+  nested inside a section (it just renders plainly in JA, which is acceptable).
+  All locales of one piece must use the same heading levels so they stay
+  structurally parallel (shared TOC anchors, matching section rhythm).
 
 ## Frontmatter contract
 
