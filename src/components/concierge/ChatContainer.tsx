@@ -110,7 +110,10 @@ export function ChatContainer({
 
   // ── mount: focus + reload any prior conversation ──────────────────────
   useEffect(() => {
-    inputRef.current?.focus();
+    // preventScroll: on the full /plan-your-tour page the input sits below the
+    // intro; a plain focus() would yank the viewport down to it on load. Keep
+    // the page at the top so the reader sees the intro, then scrolls to chat.
+    inputRef.current?.focus({ preventScroll: true });
     let cancelled = false;
     (async () => {
       try {
