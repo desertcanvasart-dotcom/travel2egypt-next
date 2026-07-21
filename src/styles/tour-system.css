@@ -89,7 +89,9 @@
 /* One-line text wordmark: "Travel2Egypt" in the display serif, the "2" an
    italic gold accent (adapted from the redesign Wordmark, our fonts/colours). */
 .t2e-logo--wordmark { display: inline-block; gap: 0; font-size: 27px; letter-spacing: -0.01em; line-height: 1; white-space: nowrap; }
-.t2e-logo--wordmark .t2e-logo-2 { font-style: italic; color: var(--gold); }
+/* The "2" takes --black (the dark ground of the home "What we do differently"
+   band) — a warm near-black accent against the cool navy of the wordmark. */
+.t2e-logo--wordmark .t2e-logo-2 { font-style: italic; color: var(--black); }
 @media (max-width: 620px) { .t2e-logo--wordmark { font-size: 21px; } }
 .t2e-nav-links { display: flex; align-items: center; gap: 36px; list-style: none; }
 .t2e-nav-links { margin: 0; padding: 0; }

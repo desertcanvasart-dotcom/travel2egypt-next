@@ -58,14 +58,8 @@ export function Footer({ locale }: FooterProps) {
       <div className="t2e-wrap">
         <div className="t2e-foot-top">
           <div className="t2e-foot-brand">
-            <Link className="t2e-logo" href="/" aria-label="Travel2Egypt — home">
-              <img
-                src="/logo.png"
-                alt="Travel2Egypt"
-                width={202}
-                height={123}
-                style={{ height: '48px', width: 'auto', display: 'block' }}
-              />
+            <Link className="t2e-logo t2e-logo--wordmark" href="/" aria-label="Travel2Egypt — home">
+              Travel<span className="t2e-logo-2">2</span>Egypt
             </Link>
             <p>{t('tagline')}</p>
           </div>
