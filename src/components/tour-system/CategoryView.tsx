@@ -8,7 +8,7 @@ import { TourProse } from './TourProse';
 import { bucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
 import { MastheadStats } from './MastheadStats';
-import { ConciergeOpenButton } from './ConciergeOpenButton';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '../FloatingConcierge';
 
 const WHATSAPP = 'https://wa.me/201158011600';
@@ -72,6 +72,9 @@ export async function CategoryView({
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
   const isGroup = mode === 'group';
+
+  // Concierge CTA rides the site's one lever (CHAT_ENABLED).
+  const conciergeHref = isChatEnabled() ? '/plan-your-tour' : '/contact';
 
   const bucketLabel = (key: string) =>
     key === 'half' ? t('lengthHalf') : key === 'extended' ? t('lengthExtended') : t('lengthFull');
@@ -376,9 +379,9 @@ export async function CategoryView({
             <h2>{c.ctaTitle} <em>{c.ctaTitleEm}</em></h2>
             <p>{c.ctaBody}</p>
             <div className="cta-buttons">
-              <ConciergeOpenButton className="cta-btn cta-btn--primary">
+              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>
                 {ts('ctaPrimary')} →
-              </ConciergeOpenButton>
+              </Link>
               <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">
                 {ts('ctaWhatsapp')} →
               </a>

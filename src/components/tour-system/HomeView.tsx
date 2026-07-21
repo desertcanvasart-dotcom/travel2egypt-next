@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 
 import { JourneyImage } from './JourneyImage';
 
@@ -58,6 +59,10 @@ export async function HomeView({
   locale: Locale;
 }) {
   const t = await getTranslations('home');
+
+  // Concierge CTA destination rides the site's one lever (CHAT_ENABLED):
+  // → /plan-your-tour when chat is live, → /contact fail-safe otherwise.
+  const conciergeHref = isChatEnabled() ? '/plan-your-tour' : '/contact';
 
   const traveller = data?.travellerCards ?? [];
   const guideCards = data?.guideCards ?? [];
@@ -280,7 +285,7 @@ export async function HomeView({
             ))}
           </div>
           <div className="plan-cta">
-            <Link className="btn solid" href="/contact">
+            <Link className="btn solid" href={conciergeHref}>
               {t('planCtaPrimary')}
             </Link>
             <a className="btn ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">

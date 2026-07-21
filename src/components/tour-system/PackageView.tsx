@@ -11,6 +11,7 @@ import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-da
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '../FloatingConcierge';
 import { buildDepartures, type RawDeparture } from './departures';
 
@@ -69,6 +70,12 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const tNav = await getTranslations('nav');
   const tSub = await getTranslations('subcategory');
   const ts = await getTranslations('tourSystem');
+
+  // Concierge CTAs ride the site's one lever (CHAT_ENABLED): → /plan-your-tour
+  // with this package's context when chat is live, → /contact fail-safe otherwise.
+  const conciergeHref = isChatEnabled()
+    ? `/plan-your-tour?tour=${encodeURIComponent(tour.slug)}`
+    : '/contact';
 
   const cityNames = (tour.cities ?? []).map((c) => c.name).filter(Boolean);
   const route = cityNames.join(' · ');
@@ -380,7 +387,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
             )}
 
             <p className="body-cta">
-              <Link href={`/plan-your-tour?tour=${encodeURIComponent(tour.slug)}`}>{ts('planThis')} →</Link>
+              <Link href={conciergeHref}>{ts('planThis')} →</Link>
             </p>
           </article>
 
@@ -446,7 +453,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               )}
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
               <CurrencyNote note={ts('priceCurrencyNote')} />
-              <ConciergeOpenButton className="rail-cta">{ts('pkgPlanThis')} →</ConciergeOpenButton>
+              <Link className="rail-cta" href={conciergeHref}>{ts('pkgPlanThis')} →</Link>
               <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
             </div>
 
@@ -466,7 +473,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
             <h2>{ts('pkgCtaTitle')} <em>{ts('pkgCtaTitleEm')}</em></h2>
             <p>{ts('pkgCtaBody')}</p>
             <div className="cta-buttons">
-              <ConciergeOpenButton className="cta-btn cta-btn--primary">{ts('pkgCtaAbout')} →</ConciergeOpenButton>
+              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('pkgCtaAbout')} →</Link>
               <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
             </div>
           </div>

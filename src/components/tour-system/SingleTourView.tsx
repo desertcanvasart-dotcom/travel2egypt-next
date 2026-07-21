@@ -12,8 +12,8 @@ import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-da
 
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
-import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { FloatingConcierge } from '../FloatingConcierge';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 
 const WHATSAPP = 'https://wa.me/201158011600';
 
@@ -67,6 +67,12 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const tSub = await getTranslations('subcategory');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+
+  // Concierge CTAs ride the site's one lever (CHAT_ENABLED): → /plan-your-tour
+  // with this tour's context when chat is live, → /contact fail-safe otherwise.
+  const conciergeHref = isChatEnabled()
+    ? `/plan-your-tour?tour=${encodeURIComponent(tour.slug)}`
+    : '/contact';
 
   const isGroup = tour.tourMode === 'group';
   const trackLabel = isGroup ? tSub('trackGroup') : tSub('trackPrivate');
@@ -266,7 +272,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             )}
 
             <p className="body-cta">
-              <Link href={`/plan-your-tour?tour=${encodeURIComponent(tour.slug)}`}>{ts('planThis')} →</Link>
+              <Link href={conciergeHref}>{ts('planThis')} →</Link>
             </p>
           </article>
 
@@ -303,7 +309,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               </ul>
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
               <CurrencyNote note={ts('priceCurrencyNote')} />
-              <ConciergeOpenButton className="rail-cta">{ts('planThis')} →</ConciergeOpenButton>
+              <Link className="rail-cta" href={conciergeHref}>{ts('planThis')} →</Link>
               <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
             </div>
 
@@ -323,7 +329,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             <h2>{ts('ctaTitleL3')} <em>{ts('ctaTitleL3Em')}</em></h2>
             <p>{ts('ctaBodyL3')}</p>
             <div className="cta-buttons">
-              <ConciergeOpenButton className="cta-btn cta-btn--primary">{ts('ctaAboutTour')} →</ConciergeOpenButton>
+              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('ctaAboutTour')} →</Link>
               <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
             </div>
           </div>

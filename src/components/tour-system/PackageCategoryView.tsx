@@ -8,7 +8,7 @@ import { TourProse } from './TourProse';
 import { packageBucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
 import { MastheadStats } from './MastheadStats';
-import { ConciergeOpenButton } from './ConciergeOpenButton';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '../FloatingConcierge';
 
 const WHATSAPP = 'https://wa.me/201158011600';
@@ -62,6 +62,9 @@ export async function PackageCategoryView({
   const tArchive = await getTranslations('archive');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+
+  // Concierge CTA rides the site's one lever (CHAT_ENABLED).
+  const conciergeHref = isChatEnabled() ? '/plan-your-tour' : '/contact';
 
   // Copy switches by bucket; length-bucket + count labels are shared.
   const P = mode === 'group' ? 'pkgGroupCat' : 'pkgCat';
@@ -247,15 +250,16 @@ export async function PackageCategoryView({
               {(() => {
                 const fillerSpan = (3 - (navItems.length % 3)) % 3;
                 return fillerSpan > 0 ? (
-                  <ConciergeOpenButton
+                  <Link
                     className="city city--cta"
                     style={{ gridColumn: `span ${fillerSpan}` }}
+                    href={conciergeHref}
                   >
                     <span>
                       <span className="c-name">{ts('navConciergeTitle')}</span>
                       <span className="c-cta-action">{ts('ctaPrimary')} →</span>
                     </span>
-                  </ConciergeOpenButton>
+                  </Link>
                 ) : null;
               })()}
             </div>
@@ -311,9 +315,9 @@ export async function PackageCategoryView({
             <h2>{k('CtaTitle')} <em>{k('CtaTitleEm')}</em></h2>
             <p>{k('CtaBody')}</p>
             <div className="cta-buttons">
-              <ConciergeOpenButton className="cta-btn cta-btn--primary">
+              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>
                 {ts('ctaPrimary')} →
-              </ConciergeOpenButton>
+              </Link>
               <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">
                 {ts('ctaWhatsapp')} →
               </a>
