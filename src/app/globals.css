@@ -453,6 +453,25 @@ html[lang='ja'] h4 {
   .prose-editorial img {
     margin: 1.5em 0;
   }
+
+  /* Food section — Japanese heading treatment. Scoped to .food-body-ja (set by
+     the food article page for JA only), so it never touches the rest of the JA
+     corpus, which carries its own ■/· · · as literal body text. The ■ is a
+     render-time prefix; the plain markdown headings stay unmarked. */
+  .prose-editorial.food-body-ja h2::before {
+    content: '■';
+    margin-right: 0.4em;
+    color: var(--color-gold-ink);
+    font-weight: 400;
+  }
+  .prose-editorial.food-body-ja .food-section-divider {
+    margin: 2.75em 0;
+    text-align: center;
+    letter-spacing: 0.6em;
+    color: var(--color-gold-ink);
+    font-size: var(--text-body-lg);
+    user-select: none;
+  }
 }
 
 /* ============================================================ */

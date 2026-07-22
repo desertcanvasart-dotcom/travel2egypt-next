@@ -217,7 +217,8 @@
     "closeMenu": "Cerrar menú",
     "faqLabel": "Preguntas frecuentes",
     "hotelGradeConcept": "Categoría hotelera",
-    "responsibleTravel": "Viajes responsables"
+    "responsibleTravel": "Viajes responsables",
+    "food": "Gastronomía"
   },
   "footer": {
     "sisterBrandsLabel": "Otras marcas de Travel2Egypt",
@@ -1433,5 +1434,37 @@
       "closing": "Tres mil años es difícil de retener en la cabeza. El sentido de la cronología arriba no es memorizarla —es ofrecer un mapa aproximado. Al entrar en un templo, lo primero que conviene preguntarse es: ¿en qué era se construyó esto? Una vez que se puede responder, los detalles se ordenan. Las columnas tienen sentido. Los relieves tienen sentido. El culto tiene sentido. Saber de quién es el monumento —y dónde se sitúa en la secuencia más amplia— es la diferencia entre hacer turismo y leer el país.",
       "colophonNote": "Guía de campo · fechas aproximadas · cronología basada en Shaw, Oxford History of Ancient Egypt"
     }
+  },
+  "food": {
+    "breadcrumb": "Gastronomía",
+    "hubKicker": "La sección de gastronomía",
+    "hubTitle": "Come a lo largo del Nilo",
+    "hubTagline": "Egipto contado a través de su cocina — plato a plato, ciudad a ciudad, desde El Cairo hasta la costa y los oasis más lejanos.",
+    "regions": {
+      "cairo": "El Cairo",
+      "alexandria-coast": "Alejandría, la costa y el canal",
+      "nile-south": "El sur del Nilo",
+      "oases-sinai": "Los oasis y el Sinaí",
+      "all-egypt": "En cualquier parte de Egipto: las guías prácticas"
+    },
+    "sectionEyebrow": "A lo largo del Nilo",
+    "practicalEyebrow": "Estés donde estés",
+    "formatBiography": "Biografía",
+    "formatGenerations": "Generaciones",
+    "formatRoute": "Ruta gastronómica",
+    "formatPractical": "Práctica",
+    "planThis": "Planifica este día gastronómico con nosotros",
+    "planThisBody": "Esta ruta es el reflejo editorial de un día gastronómico privado que organiza nuestro equipo de El Cairo. Lo adaptamos a tu ritmo.",
+    "viewTour": "Ver la excursión de un día",
+    "lastVerifiedLabel": "Locales verificados por última vez",
+    "byLabel": "Por",
+    "readingTime": "{count} min de lectura",
+    "enFallbackNote": "Aún no disponible en tu idioma — mostrando la edición en inglés.",
+    "conciergeAboutFood": "Pregunta al conserje sobre la gastronomía de Egipto",
+    "footInSeasonLabel": "De temporada",
+    "footInSeasonBody": "El marisco alcanza su punto álgido cuando la costa refresca; cítricos y verduras en invierno. Cocinamos el calendario.",
+    "footJournalLabel": "Más de la sección de gastronomía",
+    "footPracticalLabel": "Antes de ir",
+    "footPracticalBody": "Lee primero la guía de seguridad de la comida callejera y luego come con confianza."
   }
 }

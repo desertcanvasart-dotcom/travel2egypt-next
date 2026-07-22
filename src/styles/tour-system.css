@@ -86,6 +86,13 @@
 .t2e-nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 22px 0; }
 .t2e-logo { font-family: var(--display); font-size: 24px; font-weight: 500; color: var(--navy); text-decoration: none; display: flex; align-items: baseline; gap: 1px; }
 .t2e-logo .s { font-size: 15px; color: var(--gold); }
+/* One-line text wordmark: "Travel2Egypt" in the display serif, the "2" an
+   italic gold accent (adapted from the redesign Wordmark, our fonts/colours). */
+.t2e-logo--wordmark { display: inline-block; gap: 0; font-size: 27px; letter-spacing: -0.01em; line-height: 1; white-space: nowrap; }
+/* The "2" takes --black (the dark ground of the home "What we do differently"
+   band) — a warm near-black accent against the cool navy of the wordmark. */
+.t2e-logo--wordmark .t2e-logo-2 { font-style: italic; color: var(--black); }
+@media (max-width: 620px) { .t2e-logo--wordmark { font-size: 21px; } }
 .t2e-nav-links { display: flex; align-items: center; gap: 36px; list-style: none; }
 .t2e-nav-links { margin: 0; padding: 0; }
 .t2e-nav-links a,
@@ -94,6 +101,10 @@
   display: inline-flex; align-items: center; min-height: 24px; }
 .t2e-nav-links a.active, .t2e-nav-links a:hover,
 .t2e-nav-links button:hover { color: var(--gold-dark); }
+/* Decorative hairline under each top-level nav item (not the dropdown items,
+   which are nested deeper than `> li`). Warms to gold on hover. */
+.t2e-nav-links > li { padding-bottom: 5px; border-bottom: 1px solid var(--rule); transition: border-color .18s ease; }
+.t2e-nav-links > li:hover { border-bottom-color: var(--gold); }
 
 /* ---- Header dropdown panels (Journeys menu + locale switcher) ----
    The .t2e-nav-* link rules reset padding to 0 and force --ui on their
@@ -189,7 +200,9 @@
 /* ---- MOBILE NAV (hamburger + sheet) — revealed below the 980px breakpoint
    where .t2e-nav-links is hidden. Button lives in .t2e-nav-right; the sheet is
    absolutely positioned under the sticky .t2e-nav bar. ---- */
-.t2e-burger { display: none; align-items: center; justify-content: center; width: 42px; height: 42px; margin-left: 2px; background: transparent; border: 0; color: var(--navy); cursor: pointer; }
+/* Scoped so `.t2e-nav-right button { display:flex }` (higher specificity) can't
+   force the burger visible on desktop — it must stay hidden above 980px. */
+.t2e-nav-right .t2e-burger { display: none; align-items: center; justify-content: center; width: 42px; height: 42px; margin-left: 2px; background: transparent; border: 0; color: var(--navy); cursor: pointer; }
 .t2e-burger:hover { color: var(--gold-dark); }
 .t2e-burger svg { display: block; }
 .t2e-mobile-sheet { position: absolute; top: 100%; left: 0; right: 0; background: var(--paper); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); box-shadow: 0 24px 50px rgba(20, 36, 59, .12); padding: 10px 0 22px; max-height: calc(100dvh - 84px); overflow-y: auto; }
@@ -204,7 +217,7 @@
 @media (max-width: 980px) {
   .t2e-wrap { padding: 0 24px; }
   .t2e-nav-links { display: none; }
-  .t2e-burger { display: inline-flex; }
+  .t2e-nav-right .t2e-burger { display: inline-flex; }
   .t2e-section-head, .t2e-footband-grid, .t2e-foot-top { grid-template-columns: 1fr; gap: 36px; }
   .t2e-conc-panel { width: calc(100vw - 32px); right: 16px; }
 }

@@ -1393,6 +1393,124 @@ export const allArticleSlugsQuery = groq`
   }
 `;
 
+// ─────────────────────────────────────────────────────────────────────────
+// Food section (foodArticle: document-per-locale, like article; foodHub:
+// field-i18n singleton, like the archives). Slugs are plain slug.current.
+// ─────────────────────────────────────────────────────────────────────────
+
+const foodArticleCardProjection = `
+  _id,
+  language,
+  title,
+  "slug": slug.current,
+  deck,
+  format,
+  region,
+  publishedAt,
+  updatedAt,
+  heroImage{ ..., "alt": alt }
+`;
+
+/** Hub index cards for a locale (published perspective excludes drafts). */
+export const foodArticlesForHubQuery = groq`
+  *[_type == "foodArticle" && language == $locale && defined(slug.current)]{
+    ${foodArticleCardProjection}
+  } | order(publishedAt desc)
+`;
+
+/** Recent food pieces for an article's foot band. */
+export const recentFoodQuery = groq`
+  *[_type == "foodArticle" && language == $locale && defined(slug.current) && slug.current != $excludeSlug]
+    | order(publishedAt desc)[0...3]{
+      _id, title, "slug": slug.current, format
+    }
+`;
+
+/** Static params (drafts explicitly excluded so stubs never generate routes). */
+export const allFoodArticleSlugsQuery = groq`
+  *[_type == "foodArticle" && !(_id in path("drafts.**"))]{
+    _id,
+    language,
+    "slug": slug.current
+  }
+`;
+
+/** The /food hub settings singleton, localized. */
+export const foodHubQuery = groq`
+  *[_type == "foodHub"][0]{
+    "kicker": coalesce(kicker[_key==$locale][0].value, kicker[_key=="en"][0].value),
+    "title": coalesce(mastTitle[_key==$locale][0].value, mastTitle[_key=="en"][0].value),
+    "tagline": coalesce(tagline[_key==$locale][0].value, tagline[_key=="en"][0].value),
+    "essayHeading": coalesce(essayHeading[_key==$locale][0].value, essayHeading[_key=="en"][0].value),
+    "essay": coalesce(essay[_key==$locale][0].value, essay[_key=="en"][0].value),
+    publishedLocales,
+    "featured": featured{
+      "dek": coalesce(dek[_key==$locale][0].value, dek[_key=="en"][0].value),
+      "article": article->{ ${foodArticleCardProjection} }
+    },
+    seo
+  }
+`;
+
+/** A single food article by (locale, slug), with body internal-links resolved. */
+export const foodArticleBySlugQuery = groq`
+  *[_type == "foodArticle" && slug.current == $slug && language == $locale][0]{
+    ${foodArticleCardProjection},
+    lastVerified,
+    "author": author->{
+      _id, name, slug,
+      "role": coalesce(role[_key==$locale][0].value, role[_key=="en"][0].value),
+      photo
+    },
+    "tour": tour->{
+      _id, type,
+      "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
+      "summary": coalesce(summary[_key==$locale][0].value, summary[_key=="en"][0].value),
+      heroImage
+    },
+    "body": body[]{
+      ...,
+      markDefs[]{
+        ...,
+        _type == "internalLink" => {
+          ...,
+          "ref": reference->{
+            _type,
+            "tourType": select(_type == "tour" => type, null),
+            "slug": select(
+              _type == "article" => slug.current,
+              _type == "foodArticle" => slug.current,
+              coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
+            ),
+            "parentCitySlug": select(
+              _type == "guideArticle" => coalesce(
+                parentCity->slug[_key==$locale][0].value.current,
+                parentCity->slug[_key=="en"][0].value.current
+              ),
+              null
+            )
+          }
+        }
+      }
+    },
+    "relatedFood": relatedFood[]->{ ${foodArticleCardProjection} },
+    "relatedTours": relatedTours[]->{
+      _id, type,
+      "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
+      "summary": coalesce(summary[_key==$locale][0].value, summary[_key=="en"][0].value),
+      heroImage
+    },
+    "relatedCities": relatedCities[]->{
+      _id,
+      "name": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value),
+      "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
+    },
+    seo
+  }
+`;
+
 export const allCategorySlugsQuery = groq`
   *[_type == "editorialCategory"]{
     _id,

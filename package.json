@@ -18,6 +18,7 @@
     "wp-import-diff": "tsx scripts/wp-import-diff.ts",
     "redirect-map:regenerate": "tsx scripts/wp-import/redirect-map-regenerate.ts",
     "import:content": "tsx scripts/wp-import-md.ts",
+    "import:food": "tsx scripts/import-food.ts",
     "test:merge": "tsx scripts/wp-import/__tests__/merge.test.ts",
     "test:redirect-map-regenerate": "tsx scripts/wp-import/__tests__/redirect-map-regenerate.test.ts",
     "test:import-md": "tsx scripts/wp-import-md/__tests__/run-all.ts",

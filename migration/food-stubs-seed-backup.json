@@ -1,0 +1,158 @@
+{
+  "createdAt": "2026-07-20T15:46:25.751Z",
+  "docs": [
+    {
+      "_id": "drafts.foodArticle.sayadeya-alexandria-port-said-suez.en",
+      "_type": "foodArticle",
+      "language": "en",
+      "title": "One Country, Three Plates of Sayadeya",
+      "slug": {
+        "_type": "slug",
+        "current": "sayadeya-alexandria-port-said-suez"
+      },
+      "format": "biography",
+      "region": "alexandria-coast",
+      "migration": {
+        "source": "seed-food-stubs",
+        "reviewFlag": "stub-awaiting-content",
+        "migratedAt": "2026-07-20T15:46:25.751Z"
+      }
+    },
+    {
+      "_id": "drafts.foodArticle.cairo-one-day-food-journey.en",
+      "_type": "foodArticle",
+      "language": "en",
+      "title": "A One-Day Food Journey Through Cairo",
+      "slug": {
+        "_type": "slug",
+        "current": "cairo-one-day-food-journey"
+      },
+      "format": "route",
+      "region": "cairo",
+      "migration": {
+        "source": "seed-food-stubs",
+        "reviewFlag": "stub-awaiting-content",
+        "migratedAt": "2026-07-20T15:46:25.751Z"
+      }
+    },
+    {
+      "_id": "drafts.foodArticle.is-street-food-safe-in-egypt.en",
+      "_type": "foodArticle",
+      "language": "en",
+      "title": "Is Street Food in Egypt Safe? An Honest Answer",
+      "slug": {
+        "_type": "slug",
+        "current": "is-street-food-safe-in-egypt"
+      },
+      "format": "practical",
+      "region": "all-egypt",
+      "migration": {
+        "source": "seed-food-stubs",
+        "reviewFlag": "stub-awaiting-content",
+        "migratedAt": "2026-07-20T15:46:25.751Z"
+      }
+    },
+    {
+      "_id": "drafts.foodArticle.alexandria-one-day-food-journey.en",
+      "_type": "foodArticle",
+      "language": "en",
+      "title": "A One-Day Food Journey Through Alexandria",
+      "slug": {
+        "_type": "slug",
+        "current": "alexandria-one-day-food-journey"
+      },
+      "format": "route",
+      "region": "alexandria-coast",
+      "migration": {
+        "source": "seed-food-stubs",
+        "reviewFlag": "stub-awaiting-content",
+        "migratedAt": "2026-07-20T15:46:25.751Z"
+      }
+    },
+    {
+      "_id": "drafts.foodArticle.siwa-salt.en",
+      "_type": "foodArticle",
+      "language": "en",
+      "title": "The Salt of Siwa",
+      "slug": {
+        "_type": "slug",
+        "current": "siwa-salt"
+      },
+      "format": "biography",
+      "region": "oases-sinai",
+      "migration": {
+        "source": "seed-food-stubs",
+        "reviewFlag": "stub-awaiting-content",
+        "migratedAt": "2026-07-20T15:46:25.751Z"
+      }
+    },
+    {
+      "_id": "drafts.foodArticle.koshari-biography.en",
+      "_type": "foodArticle",
+      "language": "en",
+      "title": "Koshari: A Biography",
+      "slug": {
+        "_type": "slug",
+        "current": "koshari-biography"
+      },
+      "format": "biography",
+      "region": "cairo",
+      "migration": {
+        "source": "seed-food-stubs",
+        "reviewFlag": "stub-awaiting-content",
+        "migratedAt": "2026-07-20T15:46:25.751Z"
+      }
+    },
+    {
+      "_id": "drafts.foodArticle.three-generations-molokhia.en",
+      "_type": "foodArticle",
+      "language": "en",
+      "title": "Three Generations, One Pot of Molokhia",
+      "slug": {
+        "_type": "slug",
+        "current": "three-generations-molokhia"
+      },
+      "format": "generations",
+      "region": "cairo",
+      "migration": {
+        "source": "seed-food-stubs",
+        "reviewFlag": "stub-awaiting-content",
+        "migratedAt": "2026-07-20T15:46:25.751Z"
+      }
+    },
+    {
+      "_id": "drafts.foodArticle.luxor-aswan-nubian-food.en",
+      "_type": "foodArticle",
+      "language": "en",
+      "title": "Eating the Nile: Food Between Luxor and Aswan",
+      "slug": {
+        "_type": "slug",
+        "current": "luxor-aswan-nubian-food"
+      },
+      "format": "route",
+      "region": "nile-south",
+      "migration": {
+        "source": "seed-food-stubs",
+        "reviewFlag": "stub-awaiting-content",
+        "migratedAt": "2026-07-20T15:46:25.751Z"
+      }
+    },
+    {
+      "_id": "drafts.foodArticle.vegetarian-food-egypt.en",
+      "_type": "foodArticle",
+      "language": "en",
+      "title": "What Vegetarians Actually Eat in Egypt",
+      "slug": {
+        "_type": "slug",
+        "current": "vegetarian-food-egypt"
+      },
+      "format": "practical",
+      "region": "all-egypt",
+      "migration": {
+        "source": "seed-food-stubs",
+        "reviewFlag": "stub-awaiting-content",
+        "migratedAt": "2026-07-20T15:46:25.751Z"
+      }
+    }
+  ]
+}

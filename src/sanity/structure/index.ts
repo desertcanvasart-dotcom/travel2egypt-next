@@ -12,6 +12,7 @@ import {
   WarningOutlineIcon,
   FilterIcon,
   StarIcon,
+  BasketIcon,
 } from '@sanity/icons';
 
 import {
@@ -95,6 +96,27 @@ export const structure: StructureResolver = (S: StructureBuilder, context) =>
               S.documentTypeListItem('article').title('Articles'),
               S.documentTypeListItem('editorialCategory').title('Categories'),
               S.documentTypeListItem('author').title('Authors'),
+            ])
+        ),
+
+      // ── Food ──
+      S.listItem()
+        .title('Food')
+        .icon(BasketIcon)
+        .child(
+          S.list()
+            .title('Food')
+            .items([
+              S.documentTypeListItem('foodArticle').title('Food articles'),
+              S.listItem()
+                .title('Food hub (page)')
+                .icon(BasketIcon)
+                .child(
+                  S.editor()
+                    .id('foodHub')
+                    .schemaType('foodHub')
+                    .documentId('foodHub')
+                ),
             ])
         ),
 
