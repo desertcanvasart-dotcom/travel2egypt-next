@@ -473,8 +473,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
             <h2>{ts('pkgCtaTitle')} <em>{ts('pkgCtaTitleEm')}</em></h2>
             <p>{ts('pkgCtaBody')}</p>
             <div className="cta-buttons">
-              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('pkgCtaAbout')} →</Link>
-              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
+              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('pkgCtaAbout')} <span className="cta-arrow" aria-hidden>→</span></Link>
+              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
           </div>
         </div>

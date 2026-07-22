@@ -332,8 +332,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             <h2>{ts('ctaTitleL3')} <em>{ts('ctaTitleL3Em')}</em></h2>
             <p>{ts('ctaBodyL3')}</p>
             <div className="cta-buttons">
-              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('ctaAboutTour')} →</Link>
-              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
+              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('ctaAboutTour')} <span className="cta-arrow" aria-hidden>→</span></Link>
+              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
           </div>
         </div>

@@ -364,8 +364,8 @@ export async function PackageSubcategoryView({
               <h2>{ts('pkgCatCtaTitle')} <em>{ts('pkgCatCtaTitleEm')}</em></h2>
               <p>{ts('pkgCatCtaBody')}</p>
               <div className="cta-actions">
-                <Link className="btn btn-primary" href={conciergeHref}>{doc.ctaContext || ts('ctaAskConcierge')} →</Link>
-                <a className="btn btn-ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
+                <Link className="btn btn-primary" href={conciergeHref}>{doc.ctaContext || ts('ctaAskConcierge')} <span className="cta-arrow" aria-hidden>→</span></Link>
+                <a className="btn btn-ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
               </div>
             </div>
             <div className="quiz">

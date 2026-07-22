@@ -316,10 +316,10 @@ export async function PackageCategoryView({
             <p>{k('CtaBody')}</p>
             <div className="cta-buttons">
               <Link className="cta-btn cta-btn--primary" href={conciergeHref}>
-                {ts('ctaPrimary')} →
+                {ts('ctaPrimary')} <span className="cta-arrow" aria-hidden>→</span>
               </Link>
               <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">
-                {ts('ctaWhatsapp')} →
+                {ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span>
               </a>
             </div>
           </div>

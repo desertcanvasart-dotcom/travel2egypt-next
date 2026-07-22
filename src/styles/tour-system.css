@@ -558,11 +558,18 @@
 .lvl-single .rail-cta:hover { background: var(--black); }
 .lvl-single .rail-cta.ghost { background: transparent; color: var(--navy); border: 1px solid var(--rule); margin-top: 10px; }
 .lvl-single .rail-cta.ghost:hover { border-color: var(--navy); background: transparent; color: var(--gold-dark); }
-/* Desktop hover life for the rail CTAs: the arrow slides, the ghost warms.
-   Hover-capable pointers only — touch devices keep the plain tap state. */
-.lvl-single .rail-cta .cta-arrow { display: inline-block; transition: transform .18s ease; }
+/* Desktop hover life for the rail CTAs and the bottom-band CTAs: the arrow
+   slides, the rail ghost warms. Colour transitions already exist per button;
+   hover-capable pointers only — touch devices keep the plain tap state. */
+.lvl-single .rail-cta .cta-arrow,
+.lvl-single .cta-btn .cta-arrow,
+.lvl-category .cta-btn .cta-arrow,
+.lvl-subcategory .btn .cta-arrow { display: inline-block; transition: transform .18s ease; }
 @media (hover: hover) {
-  .lvl-single .rail-cta:hover .cta-arrow { transform: translateX(4px); }
+  .lvl-single .rail-cta:hover .cta-arrow,
+  .lvl-single .cta-btn:hover .cta-arrow,
+  .lvl-category .cta-btn:hover .cta-arrow,
+  .lvl-subcategory .btn:hover .cta-arrow { transform: translateX(4px); }
   .lvl-single .rail-cta.ghost:hover { background: var(--paper-warm); }
 }
 .lvl-single .trust { list-style: none; }
