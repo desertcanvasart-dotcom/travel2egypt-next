@@ -453,8 +453,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               )}
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
               <CurrencyNote note={ts('priceCurrencyNote')} />
-              <Link className="rail-cta" href={conciergeHref}>{ts('pkgPlanThis')} →</Link>
-              <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} →</a>
+              <Link className="rail-cta" href={conciergeHref}>{ts('pkgPlanThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
+              <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
 
             <div className="card">

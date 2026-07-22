@@ -558,6 +558,13 @@
 .lvl-single .rail-cta:hover { background: var(--black); }
 .lvl-single .rail-cta.ghost { background: transparent; color: var(--navy); border: 1px solid var(--rule); margin-top: 10px; }
 .lvl-single .rail-cta.ghost:hover { border-color: var(--navy); background: transparent; color: var(--gold-dark); }
+/* Desktop hover life for the rail CTAs: the arrow slides, the ghost warms.
+   Hover-capable pointers only — touch devices keep the plain tap state. */
+.lvl-single .rail-cta .cta-arrow { display: inline-block; transition: transform .18s ease; }
+@media (hover: hover) {
+  .lvl-single .rail-cta:hover .cta-arrow { transform: translateX(4px); }
+  .lvl-single .rail-cta.ghost:hover { background: var(--paper-warm); }
+}
 .lvl-single .trust { list-style: none; }
 .lvl-single .trust li { font-family: var(--ui); font-size: 12px; line-height: 1.4; color: var(--navy-mute); padding: 9px 0 9px 22px; position: relative; border-top: 1px solid var(--rule-soft); }
 .lvl-single .trust li:first-child { border-top: 0; }
