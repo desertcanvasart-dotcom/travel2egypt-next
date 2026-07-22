@@ -99,7 +99,8 @@ export async function PackageSubcategoryView({
   const presById = new Map((doc.tourPresentation ?? []).filter((p) => p.tourId).map((p) => [p.tourId!, p]));
   const packages = doc.tours ?? [];
   const featured = packages.find((p) => presById.get(p._id)?.featured) ?? packages[0];
-  const sides = packages.filter((p) => p._id !== featured?._id).slice(0, 4);
+  // 3 pieces total: the featured lead + 2 stacked side cards (site-wide cap).
+  const sides = packages.filter((p) => p._id !== featured?._id).slice(0, 2);
 
   // Sparse path: a thin catalogue (< 3) leads with the single featured piece
   // and drops the side-grid + the whole index — no empty frames.
@@ -118,9 +119,9 @@ export async function PackageSubcategoryView({
           image={p.heroImage}
           alt=""
           className="tour-img"
-          sizes={isFeatured ? '(max-width:980px) 100vw, 649px' : '(max-width:980px) 100vw, 245px'}
-          widthHint={isFeatured ? 1300 : 560}
-          ratio={isFeatured ? (isSparse ? 16 / 9 : 4 / 5) : 1}
+          sizes={isFeatured ? '(max-width:980px) 100vw, 649px' : '(max-width:980px) 100vw, 520px'}
+          widthHint={isFeatured ? 1300 : 1040}
+          ratio={isFeatured ? (isSparse ? 16 / 9 : 4 / 5) : 16 / 9}
         />
         <div className="tour-content">
           {pres?.label && <span className="label">{pres.label}</span>}
@@ -294,7 +295,7 @@ export async function PackageSubcategoryView({
                 <p>{ts('pkgSubToursIntro')}</p>
               </div>
               {/* Sparse (< 3): the featured piece stands alone, full-width — no
-                  empty side column. >= 3: featured + the 2×2 side-grid. */}
+                  empty side column. >= 3: featured + the two stacked side cards. */}
               <div className={isSparse ? 'tour-layout solo' : 'tour-layout'}>
                 {tourCard(featured, true)}
                 {!isSparse && (

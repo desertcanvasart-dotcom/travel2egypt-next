@@ -123,9 +123,9 @@ export async function CategoryView({
           image={tour.heroImage}
           alt=""
           className="tour-visual"
-          sizes={isLead ? '(max-width:980px) 100vw, 470px' : '(max-width:980px) 100vw, 314px'}
-          widthHint={isLead ? 940 : 630}
-          ratio={isLead ? 3 / 4 : 4 / 5}
+          sizes={isLead ? '(max-width:980px) 100vw, 470px' : '(max-width:980px) 100vw, 474px'}
+          widthHint={isLead ? 940 : 950}
+          ratio={isLead ? 3 / 4 : 4 / 3}
         />
         <div className="tour-badge">
           <span className="dur">{durLabel}</span>

@@ -275,10 +275,13 @@
 .lvl-category .city--cta .c-cta-action { display: block; margin-top: 8px; font-family: var(--ui); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--gold-dark); }
 
 .lvl-category .picks { padding: 84px 0; border-bottom: 1px solid var(--rule); }
-.lvl-category .grid-lead { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 36px; }
+/* Lead story left, two landscape secondaries stacked right — the lead spans
+   both rows so the pair reads as one editorial spread. */
+.lvl-category .grid-lead { display: grid; grid-template-columns: 1.5fr 1fr; gap: 36px; }
+.lvl-category .tour--lead { grid-row: 1 / 3; }
 .lvl-category .tour { text-decoration: none; color: inherit; display: block; transition: opacity .25s; }
 .lvl-category .tour:hover { opacity: .84; }
-.lvl-category .tour-visual { width: 100%; aspect-ratio: 4/5; margin-bottom: 18px; }
+.lvl-category .tour-visual { width: 100%; aspect-ratio: 4/3; margin-bottom: 18px; }
 .lvl-category .tour--lead .tour-visual { aspect-ratio: 3/4; }
 .lvl-category .tour-badge { display: flex; align-items: center; gap: 10px; margin-bottom: 9px; font-family: var(--ui); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--navy-mute); }
 .lvl-category .tour-badge .dur { color: var(--gold-dark); }
@@ -323,6 +326,7 @@
 
 @media (max-width: 980px) {
   .lvl-category .intro-grid, .lvl-category .grid-lead, .lvl-category .city-grid { grid-template-columns: 1fr; gap: 36px; }
+  .lvl-category .tour--lead { grid-row: auto; }
   .lvl-category .byline { position: static; }
   .lvl-category .trow, .lvl-subcategory .trow { grid-template-columns: 1fr 40px; gap: 12px; }
   .lvl-category .trow .tr-dur, .lvl-category .trow .tr-city,
@@ -396,7 +400,9 @@
 .lvl-subcategory .effort span { font-family: var(--display); font-size: 20px; line-height: 1.2; color: var(--navy); }
 
 .lvl-subcategory .tours { padding: 88px 0 94px; border-top: 1px solid var(--rule); }
-.lvl-subcategory .tour-layout { display: grid; grid-template-columns: 1.25fr 1fr; gap: 28px; align-items: start; }
+/* Featured lead left, two landscape cards stacked right; the columns stretch
+   so the stacked pair matches the lead's height. */
+.lvl-subcategory .tour-layout { display: grid; grid-template-columns: 1.25fr 1fr; gap: 28px; align-items: stretch; }
 /* Sparse path (< 3 journeys): the single featured piece stands alone as a
    wide hero feature — no empty side column, a landscape image rather than the
    tall 4:5 portrait used inside the grid. */
@@ -404,13 +410,13 @@
 .lvl-subcategory .tour-layout.solo .tour-card.featured .tour-img { aspect-ratio: 16 / 9; }
 .lvl-subcategory .tour-card { display: grid; grid-template-rows: auto 1fr; background: var(--paper); border: 1px solid var(--rule); text-decoration: none; transition: .25s; }
 .lvl-subcategory .tour-card:hover { transform: translateY(-3px); box-shadow: 0 18px 50px rgba(20, 36, 59, .08); }
-.lvl-subcategory .tour-card .tour-img { aspect-ratio: 1/1; }
+.lvl-subcategory .tour-card .tour-img { aspect-ratio: 16/9; }
 .lvl-subcategory .tour-card.featured .tour-img { aspect-ratio: 4/5; }
 .lvl-subcategory .tour-content { padding: 26px; }
 .lvl-subcategory .label { display: inline-flex; margin-bottom: 14px; font-family: var(--ui); font-size: 10px; letter-spacing: .16em; text-transform: uppercase; color: var(--paper); background: var(--navy); padding: 7px 9px; }
 .lvl-subcategory .meta { font-family: var(--ui); font-size: 11px; letter-spacing: .13em; text-transform: uppercase; color: var(--navy-mute); margin-bottom: 10px; }
 .lvl-subcategory .tour-card h3 { font-family: var(--display); font-size: clamp(27px, 3.2vw, 42px); font-weight: 400; line-height: 1.03; color: var(--navy); margin-bottom: 12px; }
-.lvl-subcategory .side-tours { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.lvl-subcategory .side-tours { display: grid; grid-template-rows: 1fr 1fr; gap: 28px; }
 .lvl-subcategory .side-tours .tour-card h3 { font-size: 26px; }
 .lvl-subcategory .tour-card p { font-size: 15px; line-height: 1.55; color: var(--navy-mute); }
 .lvl-subcategory .why { margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--rule-soft); font-family: var(--display); font-style: italic; color: var(--navy) !important; }
@@ -447,6 +453,8 @@
   .lvl-subcategory .hero-card { max-width: 520px; }
   .lvl-subcategory .byline { position: static; }
   .lvl-subcategory .choice-grid, .lvl-subcategory .side-tours, .lvl-subcategory .journal-grid { grid-template-columns: 1fr; }
+  /* Single column: content-sized rows, no equal-height stretching. */
+  .lvl-subcategory .side-tours { grid-template-rows: none; }
   .lvl-subcategory .facts { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 620px) {

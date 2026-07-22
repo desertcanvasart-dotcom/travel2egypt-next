@@ -105,7 +105,9 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
   const presById = new Map((doc.tourPresentation ?? []).filter((p) => p.tourId).map((p) => [p.tourId!, p]));
   const tours = doc.tours ?? [];
   const featuredTour = tours.find((tr) => presById.get(tr._id)?.featured) ?? tours[0];
-  const sideTours = tours.filter((tr) => tr._id !== featuredTour?._id).slice(0, 4);
+  // 3 tours total: the featured lead + 2 stacked side cards. The full catalogue
+  // lives in the "Every {city} day" index right below, so the cap loses nothing.
+  const sideTours = tours.filter((tr) => tr._id !== featuredTour?._id).slice(0, 2);
 
   const tourCard = (tour: RawTour, featured: boolean) => {
     const pres = presById.get(tour._id);
@@ -116,9 +118,9 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
           image={tour.heroImage}
           alt=""
           className="tour-img"
-          sizes={featured ? '(max-width:980px) 100vw, 649px' : '(max-width:980px) 100vw, 245px'}
-          widthHint={featured ? 1300 : 560}
-          ratio={featured ? 4 / 5 : 1}
+          sizes={featured ? '(max-width:980px) 100vw, 649px' : '(max-width:980px) 100vw, 520px'}
+          widthHint={featured ? 1300 : 1040}
+          ratio={featured ? 4 / 5 : 16 / 9}
         />
         <div className="tour-content">
           {pres?.label && <span className="label">{pres.label}</span>}
