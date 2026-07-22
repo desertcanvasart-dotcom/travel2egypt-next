@@ -303,7 +303,10 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                 ) : (
                   <li>
                     <span className="tn">{ts('priceFromLabel')}</span>
-                    <span className="tp">{ts('priceOnInquiry')}</span>
+                    {/* No tiers → fall back to the structured priceFrom (same
+                        rule as the masthead and PackageView) before the
+                        "On inquiry" honesty label. */}
+                    <span className="tp">{fromEl ?? ts('priceOnInquiry')}</span>
                   </li>
                 )}
               </ul>
