@@ -12458,6 +12458,11 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/tours/private-tour-dendera-and-abydos-by-bus",
+    "destination": "/dendera-and-abydos-temples-from-luxor",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
