@@ -105,3 +105,30 @@ body content, and every one of them now 301s to a sensible page after DNS
 cutover (rows verified on dev across all classes). Zero user-facing breakage
 remains from raw legacy links.** Body-link cleanup of the fallback class is
 cosmetic post-launch work; the CSV marks each URL's redirect coverage.
+
+## Re-verification (2026-07-29)
+
+Fresh full recount + cutover-safety classification
+(`scripts/raw-link-recheck-2026-07-29.cjs`): 10,990 raw instances across 354
+published docs, of which only **364 sat on pages that render** (165 docs) —
+the rest are wikiMonument redirect-away (8,619) and hidden docs (2,007).
+Of the visible instances: 3 resolve natively, 359 are redirect-map covered
+(301 correctly at cutover, cosmetic only), 1 is the legitimate contact-page
+`mailto:info@travel2egypt.org` (MX unaffected by cutover — not a breakage),
+and **1 was genuinely broken**:
+
+- `wp-page-59571` (guide/edfu/edfu-historical-guide, EN body) →
+  `http://travel2egypt.org/tours/private-tour-dendera-and-abydos-by-bus/`.
+  No doc answers to that slug and no redirect row covered it (the new-site
+  `/tours/[slug]` legacy route forwards to `/<slug>`, which 404s). The old WP
+  site 301s it to `/dendera-and-abydos-temples-from-luxor/` — a live tour
+  (wp-page-88178) — giving an authoritative 1:1 target.
+  **Fixed 2026-07-29** via `scripts/fix-edfu-dendera-raw-link-2026-07-29.cjs`
+  (href-only, _key-addressed, patched published + the owner's heroImage-only
+  draft identically; rollback `backups/edfu-dendera-raw-link-rollback-2026-07-29.json`)
+  plus a redirect row for external backlinks. Redirect test 3648/0.
+
+**Post-fix state: 0 broken user-visible raw links. The cutover-blocking
+portion of this sweep is CLOSED.** Still owed (cosmetic only): the 2
+draft-held hotel docs (`wp-page-63523`, `wp-page-131814` — drafts still
+pending as of 2026-07-29) and the redirect-covered residue.
