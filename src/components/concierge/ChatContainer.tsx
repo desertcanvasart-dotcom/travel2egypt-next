@@ -317,7 +317,9 @@ export function ChatContainer({
       // Gate 1 → Gate 2. Skip if a brief already exists or while suppressed
       // after a prior Gate-2 rejection (decision 3); Gate 1 itself stays
       // stateless server-side — this client gating only governs the fetch.
-      if (briefDetected && !brief && doneConversationId) {
+      // A dismissed panel ("Continue conversation") re-arms the gate so a
+      // fresh wrap sends a REVISION — delivery is idempotent per revision.
+      if (briefDetected && (!brief || briefDismissed) && doneConversationId) {
         if (suppressRef.current > 0) {
           suppressRef.current -= 1;
         } else {
@@ -473,6 +475,7 @@ export function ChatContainer({
               className="cnc-escape"
               aria-haspopup="dialog"
               aria-expanded={escapeOpen}
+              aria-label={t('escapeTrigger')}
               onClick={() => setEscapeOpen(true)}
             >
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>

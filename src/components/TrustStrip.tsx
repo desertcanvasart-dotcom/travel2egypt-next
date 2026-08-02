@@ -56,13 +56,14 @@ export function TrustStrip({
         className="flex items-stretch justify-center gap-5 overflow-x-auto px-6 [scrollbar-width:none] md:gap-7 [&::-webkit-scrollbar]:hidden"
       >
         {/* TripAdvisor — rating + brand-green stars (kept green; it is the mark) */}
+        {/* role=listitem lives on the wrapper — ARIA disallows it on a[href] */}
+        <div role="listitem" className="flex min-w-[80px] shrink-0">
         <a
-          role="listitem"
           href={TRIPADVISOR_URL}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Read our reviews on TripAdvisor (opens in a new tab)"
-          className="flex min-w-[80px] shrink-0 flex-col items-center gap-1.5 px-3 py-2 no-underline transition-opacity hover:opacity-70"
+          className="flex w-full flex-col items-center gap-1.5 px-3 py-2 no-underline transition-opacity hover:opacity-70"
         >
           <span className="flex h-9 items-center justify-center text-night">
             <svg width="28" height="28" viewBox="0 0 22 22" fill="currentColor" aria-hidden>
@@ -80,6 +81,7 @@ export function TrustStrip({
             TripAdvisor
           </span>
         </a>
+        </div>
 
         <Mark
           label="Kayak"
