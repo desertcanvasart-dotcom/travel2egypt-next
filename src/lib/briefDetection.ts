@@ -72,6 +72,12 @@ export const EN_MARKERS: string[] = [
   //                               get this to the team immediately" — pass-to-team variant.
   'by 8 p.m. cairo', //            L143 same-day commitment ("answered the same day by 8 p.m.")
   'by 10 a.m. cairo', //           L143 next-morning commitment
+  // 2026-08-03 calibration — the v4.2 routed close converts the commitment to
+  // the TRAVELER'S timezone ("by 10 a.m. London time"), so the cairo-anchored
+  // markers miss it; its wrap state-phrase is "Your brief is with them now"
+  // (bat-b-sillage-en, run s13-final-pre2). Same family observed live in the
+  // S11 revision wrap: "brief is with the team". Substring covers both.
+  'brief is with', //              observed 2x live: "with them now" / "with the team"
 ];
 
 // ES — CALIBRATED against real agent wraps (S4 verification, 2 live ES
@@ -82,7 +88,7 @@ export const EN_MARKERS: string[] = [
 // "10 a. m."). Re-calibrate the same way if v4.1's Spanish rendering shifts.
 // Exported for the marker corpus regression test (src/lib/__tests__/) only.
 export const ES_MARKERS: string[] = [
-  'el encargo al equipo', //                  "Antes de pasarle el encargo al equipo"
+  'pasarle el encargo', // narrowed 2026-08-03 (was 'el encargo al equipo': false-fired on the aspirational "lo incluimos en el encargo al equipo", bat-g-sillage-es turn 0) —                  "Antes de pasarle el encargo al equipo"
   'el equipo tiene todo lo que necesita', //  final-wrap, parallels EN "everything I need"
   'hora de el cairo', //                      the Cairo-time commitment (always present at final wrap)
   'antes de las 8', //                        "antes de las 8h" same-day commitment

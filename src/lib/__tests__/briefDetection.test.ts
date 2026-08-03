@@ -54,6 +54,12 @@ const EN_WRAPS: string[] = [
   // v4.2 rev-3 (2026-07-17 s13-founder-battery, bat-d-afford-en): the cutoff
   // recited as "requests in before" — second observed wrap phrasing.
   'Same response window applies — requests in before 1 p.m. Cairo time get a reply by 8 p.m. the same day, which is 6 p.m. your time in Bristol.',
+  // 2026-08-03 (run s13-final-pre2, bat-b-sillage-en): routed close converts
+  // the commitment to the traveler's timezone — no Cairo mention at all; the
+  // wrap state-phrase is "brief is with them now".
+  "Your brief is with them now. Given your timezone, you'll hear back by 10 a.m. London time tomorrow morning at the latest — they work seven days.",
+  // 2026-08-03 (S11 E2E live revision wrap): the terse revision-wrap variant.
+  'No matter — brief is with the team. You will hear back within the timeframe I mentioned.',
 ];
 for (const [i, text] of EN_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), true, `EN wrap #${i + 1} fires`);
@@ -96,6 +102,11 @@ const ES_NON_WRAPS: string[] = [
   'El equipo de guías estará en Asuán toda la semana.',
   'Las pirámides abren a las 8 de la mañana, así que conviene madrugar.',
   'El encargado del hotel puede organizar el traslado al aeropuerto.',
+  // 2026-08-03 (run s13-final-pre2, bat-g-sillage-es turn 0): aspirational
+  // mid-conversation mention of the future brief — NOT a wrap; the bare
+  // 'el encargo al equipo' marker false-fired here and was narrowed to
+  // 'pasarle el encargo'.
+  'No son productos de catálogo; requieren coordinación anticipada. Si esto resuena, lo incluimos en el encargo al equipo.',
 ];
 for (const [i, text] of ES_NON_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'es', withEmail), false, `ES non-wrap #${i + 1} stays silent`);
