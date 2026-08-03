@@ -107,6 +107,14 @@ EN_WRAPS.push(
   'Their team will be in touch with a specific quote. Requests before 1 p.m. Cairo time are answered the same day by 8 p.m. — following morning by 10 a.m. if it lands after that.',
 );
 eq(detectBriefMarkers(EN_WRAPS[EN_WRAPS.length - 1], 'en', withEmail), true, 'EN wrap (bare requests-cutoff) fires');
+
+// 2026-08-03 (run s13-final-v8, en-anniversary-couple): present-progressive
+// send confirmation with the optional question after — discipline-correct
+// close, fourth novel wrap paraphrase in four gates.
+EN_WRAPS.push(
+  "The brief is going to the team now. Before I send it complete, just your wife's name — and whether you'd like the team to suggest the Cairo/dahabiya split?",
+);
+eq(detectBriefMarkers(EN_WRAPS[EN_WRAPS.length - 1], 'en', withEmail), true, 'EN wrap (brief is going to the team) fires');
 for (const [i, text] of EN_NON_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), false, `EN non-wrap #${i + 1} stays silent`);
 }

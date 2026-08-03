@@ -94,6 +94,10 @@ export const EN_MARKERS: string[] = [
   // (bat-b-sillage-en, run s13-final-pre2). Same family observed live in the
   // S11 revision wrap: "brief is with the team". Substring covers both.
   'brief is with', //              observed 2x live: "with them now" / "with the team"
+  'brief is going to the team', // 2026-08-03 (run s13-final-v8, en-anniversary-couple):
+  //                               present-progressive send — "The brief is going to the
+  //                               team now." Wrap-only phrasing (aspirational forms use
+  //                               "will go"/"would go").
 ];
 
 // ES — CALIBRATED against real agent wraps (S4 verification, 2 live ES
