@@ -254,10 +254,17 @@ export async function extractBrief(
 
   const res = await anthropic.messages.create({
     model: CONCIERGE_MODEL,
-    max_tokens: 1024,
+    // 2048, was 1024: a rich v4.2 brief (routing read-back + long summary)
+    // overflowed 1024 and truncated mid-JSON (run s13-final-v6,
+    // bat-b-sillage-en) — parse failed on structurally valid but cut-off
+    // output. Output cost is negligible; headroom is cheap insurance.
+    max_tokens: 2048,
     system,
     messages: [{ role: 'user', content: formatTranscript(messages) }],
   });
+  if (res.stop_reason === 'max_tokens') {
+    throw new Error('extraction truncated at max_tokens — raise the cap');
+  }
 
   const text = res.content
     .filter((b): b is Anthropic.TextBlock => b.type === 'text')
