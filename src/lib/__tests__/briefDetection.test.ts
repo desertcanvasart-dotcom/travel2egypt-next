@@ -100,6 +100,13 @@ const EN_NON_WRAPS: string[] = [
   // 'have everything i need'.
   "That tells me everything I need to know about the level you're operating at — and it maps directly to what you're describing at Giza.",
 ];
+
+// 2026-08-03 (run s13-final-v7, bat-d-afford-en): the bare requests-cutoff
+// variant — third member of the family (received/in/bare).
+EN_WRAPS.push(
+  'Their team will be in touch with a specific quote. Requests before 1 p.m. Cairo time are answered the same day by 8 p.m. — following morning by 10 a.m. if it lands after that.',
+);
+eq(detectBriefMarkers(EN_WRAPS[EN_WRAPS.length - 1], 'en', withEmail), true, 'EN wrap (bare requests-cutoff) fires');
 for (const [i, text] of EN_NON_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), false, `EN non-wrap #${i + 1} stays silent`);
 }

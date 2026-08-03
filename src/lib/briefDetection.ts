@@ -72,6 +72,10 @@ export const EN_MARKERS: string[] = [
   'requests received before 1 p.m. cairo', // "Requests received before 1 p.m. Cairo time
   //                               are answered the same day by 8 p.m." (bat-c-sawa-en)
   'requests in before 1 p.m. cairo', //       "requests in before 1 p.m. Cairo time get a
+  'requests before 1 p.m. cairo', //          bare variant — "Requests before 1 p.m. Cairo
+  //                               time are answered the same day" (run s13-final-v7,
+  //                               bat-d-afford-en). Safe: the rev-3 SLA-teaser false-fire
+  //                               ("if you reach us before 1 p.m. Cairo") has no "requests".
   'request in before 1 p.m. cairo', //        singular variant — "Request in before 1 p.m.
   //                               Cairo time means a response by 8 p.m." (run s13-final-v3,
   //                               bat-d-afford-en real close missed by one letter)
