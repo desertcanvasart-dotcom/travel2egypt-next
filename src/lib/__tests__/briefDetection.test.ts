@@ -77,6 +77,12 @@ const EN_NON_WRAPS: string[] = [
   // conversation — this is NOT a wrap; the loose 'before 1 p.m. cairo'
   // marker false-fired on it and was narrowed to the requests-… variants.
   'When you are ready to get a proper proposal with specific pricing, we would turn this around the same day if you reach us before 1 p.m. Cairo time. No obligation before then.',
+  // 2026-08-03 (run s13-final, bat-b-sillage-en turns 0-1): aspirational
+  // brief-narration before any contact exists — the loose 'proper brief' /
+  // 'brief for our team' fired here and were narrowed to the committed
+  // "let me put together a proper brief".
+  'That helps me understand what a proper brief for our team would look like, and whether the proposals you have already seen are actually structured correctly.',
+  'Once I have that shape, I can put together a proper brief — and flag to the team the specific access arrangements to pursue alongside it.',
 ];
 for (const [i, text] of EN_NON_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), false, `EN non-wrap #${i + 1} stays silent`);
@@ -87,6 +93,9 @@ const ES_WRAPS: string[] = [
   'Antes de pasarle el encargo al equipo, un par de detalles prácticos.',
   'El equipo tiene todo lo que necesita y te responderá antes de las 10h, hora de El Cairo.',
   'Te responderemos hoy mismo, antes de las 8h, hora de El Cairo.',
+  // 2026-08-03 (run s13-final, es-full-lead turn 4): the real v4.2 ES close —
+  // cutoff + both converted times.
+  'Si la solicitud llega antes de la 1 p.m. hora de El Cairo, tendréis respuesta ese mismo día antes de las 8 p.m. — que en Madrid son las 7 p.m. Si llega después, a la mañana siguiente antes de las 10 a.m. hora de El Cairo.',
 ];
 for (const [i, text] of ES_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'es', withEmail), true, `ES wrap #${i + 1} fires`);
@@ -107,6 +116,10 @@ const ES_NON_WRAPS: string[] = [
   // 'el encargo al equipo' marker false-fired here and was narrowed to
   // 'pasarle el encargo'.
   'No son productos de catálogo; requieren coordinación anticipada. Si esto resuena, lo incluimos en el encargo al equipo.',
+  // 2026-08-03 (run s13-final, es-full-lead turn 1): temple VISITING HOURS —
+  // the documented 'antes de las 8|10' limitation observed live; markers
+  // anchored to the commitment time formats (8h / 10h / 8 p.m / 10 a.m).
+  'Los templos hay que visitarlos temprano, antes de las 10. ¿Eso os cuadra con vuestro ritmo de viaje?',
 ];
 for (const [i, text] of ES_NON_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'es', withEmail), false, `ES non-wrap #${i + 1} stays silent`);

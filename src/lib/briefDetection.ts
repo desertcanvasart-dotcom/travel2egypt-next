@@ -49,8 +49,13 @@ import type { ConciergeSession } from '@/lib/concierge/session';
 export const EN_MARKERS: string[] = [
   'everything i need', //          live wrap "I have everything I need" (final signal)
   'brief is on its way', //        live wrap "Your brief is on its way to the team"
-  'brief for our team', //         L567 "Let me put together a proper brief for our team"
-  'proper brief', //               L567 (variant phrasing)
+  // 2026-08-03 narrowing (run s13-final, bat-b-sillage-en turns 0-1): the
+  // loose 'proper brief' / 'brief for our team' fired on ASPIRATIONAL
+  // narration ("what a proper brief for our team would look like", "Once I
+  // have that shape, I can put together a proper brief") turns before any
+  // contact existed. Narrowed to the committed-action phrasing of the real
+  // L567 wrap; the commitment-time markers below carry the rest.
+  'let me put together a proper brief', // L567 "Let me put together a proper brief for our team"
   'pass this to our team', //      L223 "Before I pass this to our team, a few practical details"
   'before i pass this', //         L223 (variant)
   'team will come back to you', // L143 commitment turn (matches "the"/"our team")
@@ -91,8 +96,14 @@ export const ES_MARKERS: string[] = [
   'pasarle el encargo', // narrowed 2026-08-03 (was 'el encargo al equipo': false-fired on the aspirational "lo incluimos en el encargo al equipo", bat-g-sillage-es turn 0) —                  "Antes de pasarle el encargo al equipo"
   'el equipo tiene todo lo que necesita', //  final-wrap, parallels EN "everything I need"
   'hora de el cairo', //                      the Cairo-time commitment (always present at final wrap)
-  'antes de las 8', //                        "antes de las 8h" same-day commitment
-  'antes de las 10', //                       "antes de las 10h" next-morning commitment
+  // 2026-08-03 narrowing (run s13-final, es-full-lead turn 1): bare
+  // 'antes de las 10' fired on temple VISITING HOURS ("hay que visitarlos
+  // temprano, antes de las 10") — the exact limitation the corpus had
+  // documented. Anchored to the commitment's time formats.
+  'antes de las 8h', //                       "antes de las 8h, hora de El Cairo"
+  'antes de las 10h', //                      "antes de las 10h, hora de El Cairo"
+  'antes de las 8 p.m', //                    "antes de las 8 p.m. — que en Madrid…" (s13 closes)
+  'antes de las 10 a.m', //                   "antes de las 10 a.m. hora de El Cairo"
 ];
 
 function hasMarker(text: string, markers: string[]): boolean {
