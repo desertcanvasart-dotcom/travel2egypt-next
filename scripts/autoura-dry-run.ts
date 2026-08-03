@@ -37,6 +37,7 @@ const SECRET = process.env.AUTOURA_WEBHOOK_SECRET;
 
 function syntheticBrief(): BriefPayload {
   return {
+    complete: true,
     visitor: {
       name: '[dry-run] Verification Probe',
       email: null,
