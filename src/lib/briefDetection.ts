@@ -72,6 +72,13 @@ export const EN_MARKERS: string[] = [
   'requests received before 1 p.m. cairo', // "Requests received before 1 p.m. Cairo time
   //                               are answered the same day by 8 p.m." (bat-c-sawa-en)
   'requests in before 1 p.m. cairo', //       "requests in before 1 p.m. Cairo time get a
+  'request in before 1 p.m. cairo', //        singular variant — "Request in before 1 p.m.
+  //                               Cairo time means a response by 8 p.m." (run s13-final-v3,
+  //                               bat-d-afford-en real close missed by one letter)
+  'team will reach out at', //     2026-08-03 (s13-final-v3, en-multi-destination): the
+  //                               telegraphic close restates the visitor's address —
+  //                               "The team will reach out at omar@…" — structurally
+  //                               wrap-only (no address exists before capture).
   //                               reply by 8 p.m. the same day" (bat-d-afford-en)
   'get this to the team', //       v4.2 calibration (run v42-rev2, 3 personas): "I'll
   //                               get this to the team immediately" — pass-to-team variant.

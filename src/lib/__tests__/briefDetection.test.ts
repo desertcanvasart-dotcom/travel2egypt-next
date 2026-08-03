@@ -60,6 +60,12 @@ const EN_WRAPS: string[] = [
   "Your brief is with them now. Given your timezone, you'll hear back by 10 a.m. London time tomorrow morning at the latest — they work seven days.",
   // 2026-08-03 (S11 E2E live revision wrap): the terse revision-wrap variant.
   'No matter — brief is with the team. You will hear back within the timeframe I mentioned.',
+  // 2026-08-03 (run s13-final-v3, bat-d-afford-en): singular "Request in".
+  "The AffordEgypt team (affordegypt.com) will come back to you with specific pricing. Request in before 1 p.m. Cairo time means a response by 8 p.m. today — that's around 6 p.m. your time in Bristol.",
+  // 2026-08-03 (run s13-final-v3, en-multi-destination): telegraphic close —
+  // the commitment recital drops every prose marker; the address restatement
+  // is the reliable signal.
+  "Response commitment: The team will reach out at omar.farouk@example.net. Before 1 p.m. Cairo time — same day by 8 p.m. After 1 p.m. — following morning by 10 a.m.",
 ];
 for (const [i, text] of EN_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), true, `EN wrap #${i + 1} fires`);
@@ -83,6 +89,9 @@ const EN_NON_WRAPS: string[] = [
   // "let me put together a proper brief".
   'That helps me understand what a proper brief for our team would look like, and whether the proposals you have already seen are actually structured correctly.',
   'Once I have that shape, I can put together a proper brief — and flag to the team the specific access arrangements to pursue alongside it.',
+  // 2026-08-03 (run s13-final-v3, en-anniversary-couple): the close-stall turn
+  // (a discipline violation, but correctly NOT a wrap for Gate 1).
+  "Before I send this, two quick things still missing: Your wife's name — the team will want it for the booking. Once I have those I'll close the brief and give you the response timeframe.",
 ];
 for (const [i, text] of EN_NON_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), false, `EN non-wrap #${i + 1} stays silent`);
