@@ -95,6 +95,10 @@ const EN_NON_WRAPS: string[] = [
   // 2026-08-03 (run s13-final-v3, en-anniversary-couple): the close-stall turn
   // (a discipline violation, but correctly NOT a wrap for Gate 1).
   "Before I send this, two quick things still missing: Your wife's name — the team will want it for the booking. Once I have those I'll close the brief and give you the response timeframe.",
+  // 2026-08-03 (run s13-final-v5, bat-b-sillage-en turn 1): conversational
+  // acknowledgment — bare 'everything i need' false-fired; narrowed to
+  // 'have everything i need'.
+  "That tells me everything I need to know about the level you're operating at — and it maps directly to what you're describing at Giza.",
 ];
 for (const [i, text] of EN_NON_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), false, `EN non-wrap #${i + 1} stays silent`);

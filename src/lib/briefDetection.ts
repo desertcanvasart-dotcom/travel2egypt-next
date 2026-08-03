@@ -47,7 +47,7 @@ import type { ConciergeSession } from '@/lib/concierge/session';
 // are broadened from the literal prompt phrasings to match real output.
 // Exported for the marker corpus regression test (src/lib/__tests__/) only.
 export const EN_MARKERS: string[] = [
-  'everything i need', //          live wrap "I have everything I need" (final signal)
+  'have everything i need', //     live wrap "I have everything I need" (final signal) — narrowed 2026-08-03: bare 'everything i need' fired on the acknowledgment "That tells me everything I need to know" (s13-final-v5, bat-b-sillage-en turn 1)
   'brief is on its way', //        live wrap "Your brief is on its way to the team"
   // 2026-08-03 narrowing (run s13-final, bat-b-sillage-en turns 0-1): the
   // loose 'proper brief' / 'brief for our team' fired on ASPIRATIONAL
