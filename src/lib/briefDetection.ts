@@ -114,7 +114,12 @@ export const ES_MARKERS: string[] = [
 ];
 
 function hasMarker(text: string, markers: string[]): boolean {
-  const haystack = text.toLowerCase();
+  // Strip markdown emphasis before matching: the agent bolds commitment
+  // times ("by **8 p.m. Cairo time**"), and the asterisks break a plain
+  // substring match. Observed live 2026-08-03 (run s13-cal3,
+  // en-multi-destination) — a structural miss class, fixed here once
+  // rather than per-marker.
+  const haystack = text.toLowerCase().replace(/[*_]/g, '');
   return markers.some((m) => haystack.includes(m));
 }
 

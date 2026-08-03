@@ -66,6 +66,9 @@ const EN_WRAPS: string[] = [
   // the commitment recital drops every prose marker; the address restatement
   // is the reliable signal.
   "Response commitment: The team will reach out at omar.farouk@example.net. Before 1 p.m. Cairo time — same day by 8 p.m. After 1 p.m. — following morning by 10 a.m.",
+  // 2026-08-03 (run s13-cal3, en-multi-destination): the agent BOLDS the
+  // commitment times — markdown emphasis must not break the marker match.
+  'Omar, the team will have a proper proposal back to you by **8 p.m. Cairo time** the same day if your message arrives before 1 p.m. Cairo time — or by **10 a.m. the following morning** if after.',
 ];
 for (const [i, text] of EN_WRAPS.entries()) {
   eq(detectBriefMarkers(text, 'en', withEmail), true, `EN wrap #${i + 1} fires`);
