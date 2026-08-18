@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { whatsappUrl } from '@/lib/concierge/constants';
 
 /**
  * Persistent floating concierge — reconciled to the approved tour-system
@@ -14,11 +15,7 @@ import { useTranslations } from 'next-intl';
  * to the trigger on close.
  */
 
-const WHATSAPP_BASE = 'https://wa.me/201158011600?text=';
 
-function whatsappHref(message: string) {
-  return WHATSAPP_BASE + encodeURIComponent(message);
-}
 
 export function FloatingConcierge() {
   const t = useTranslations('floatingConcierge');
@@ -120,7 +117,7 @@ export function FloatingConcierge() {
                 <button
                   type="button"
                   onClick={() =>
-                    window.open(whatsappHref(prompt), '_blank', 'noopener,noreferrer')
+                    window.open(whatsappUrl(prompt), '_blank', 'noopener,noreferrer')
                   }
                 >
                   {prompt}
@@ -134,7 +131,7 @@ export function FloatingConcierge() {
             e.preventDefault();
             const message = draft.trim();
             if (!message) return;
-            window.open(whatsappHref(message), '_blank', 'noopener,noreferrer');
+            window.open(whatsappUrl(message), '_blank', 'noopener,noreferrer');
           }}
         >
           <input

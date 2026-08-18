@@ -1,6 +1,6 @@
 /**
  * TrustStrip — a horizontal row of credibility marks (TripAdvisor rating,
- * Kayak / JATA / IATA / ASTA accreditations, and a "30+ years" badge).
+ * JATA / IATA / ASTA accreditations, and a "30+ years" badge).
  *
  * Self-contained (Tailwind utilities + brand tokens, sharp/flat) so it can be
  * dropped onto any page — the concierge shell now, the homepage later. Labels
@@ -83,21 +83,6 @@ export function TrustStrip({
         </a>
         </div>
 
-        <Mark
-          label="Kayak"
-          glyph={
-            <svg width="28" height="28" viewBox="0 0 22 22" aria-hidden>
-              <path
-                d="M3 7l4 4 4-4 4 4 4-4M3 13l4 4 4-4 4 4 4-4"
-                stroke="currentColor"
-                strokeWidth="2"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          }
-        />
         <Mark
           label="JATA"
           glyph={

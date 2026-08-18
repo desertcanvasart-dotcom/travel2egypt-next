@@ -65,20 +65,35 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
 9. **About-page meta description diverges by locale** (`messages/*` key 819):
    EN has the 1993/2003 frame + a "≈130 customized trips a year" claim absent
    from ES/JA — verify the number, then align the three.
-10. **`siteSettings.defaultOgImage` is dead wiring** — projected and accepted
-    by `buildMetadata`, but no route passes it; every static page falls to
-    `/og-default.png`. Either wire it through the layout or remove the field
-    so editors aren't misled.
-11. **WhatsApp number hardcoded 11×** (value consistent: `201158011600`) —
-    consolidate onto `src/lib/concierge/constants.ts` on next refactor.
-12. **Footer has no public email** — the comment in
-    `src/lib/concierge/constants.ts:52` claims `info@travel2egypt.org` shows
-    in the footer; it doesn't. Intentional?
-13. **Structure the landing `faq` fields** — currently free-form Portable
-    Text, so no `FAQPage` schema can be emitted for the commercial landings
-    (this PR added BreadcrumbList + ItemList; FAQPage needs structured Q/A).
-14. **In-chat privacy-policy link** — the concierge DataMenu offers
-    delete/export but never links the policy; an in-chat link better satisfies
-    GDPR Art. 13 timing.
-15. **Trust badges** — `TrustStrip.tsx` doc comment mentions Kayak; no other
-    accreditation list does. Align or drop.
+10. ~~**`siteSettings.defaultOgImage` is dead wiring**~~ ✅ **DONE 2026-08-18:**
+    `buildMetadata`/`buildStaticMetadata` are now async and self-resolve
+    `siteSettings.defaultOgImage` (React-cached, fetched only when the doc
+    has no seo/hero image; failure falls through to `/og-default.png`). The
+    CMS field is currently null, so behavior is unchanged until an editor
+    uploads one — but the knob is real now.
+11. ~~**WhatsApp number hardcoded 11×**~~ ✅ **DONE 2026-08-18:** all 10
+    call sites (7 tour-system views, FloatingConcierge, ConciergeCTA,
+    FaqPage) now import `WHATSAPP_LINK`/`whatsappUrl` from
+    `src/lib/concierge/constants.ts` — the number lives in exactly one file.
+12. **Footer has no public email** — ✅ the stale comment in
+    `src/lib/concierge/constants.ts` (claimed the address shows in the
+    footer) is fixed 2026-08-18. STILL OPEN (owner): should the footer
+    carry `info@travel2egypt.org`, or is WhatsApp-primary intentional?
+13. ~~**Structure the landing `faq` fields**~~ ✅ **DONE 2026-08-18** (the
+    corpus had ZERO faq content and no live renderer, so no migration was
+    needed): `tourLanding.faq`/`tourCategory.faq` are now arrays of the new
+    `landingFaqItem` object (question ×3 locales + PT answer, mirroring
+    `faqEntry`); one shared `LandingFaq` component renders the section AND
+    emits `FAQPage` JSON-LD from the same items across all four landing
+    views (SubcategoryView, PackageSubcategoryView, and the two inline
+    wrappers). Dormant until an editor authors items; filled path
+    live-verified on al-gouna (transient test item, since removed).
+14. ~~**In-chat privacy-policy link**~~ ✅ **DONE 2026-08-18:** DataMenu
+    now links `/privacy-policy` (localized Link, new tab) beneath the
+    delete/export options; strings EN+ES (concierge locales).
+15. ~~**Trust badges**~~ ✅ **DROPPED 2026-08-18:** TrustStrip rendered an
+    actual Kayak accreditation MARK (not just a comment) — Kayak is a
+    metasearch engine, not an accreditation body, and the footer lists only
+    JATA/IATA/ASTA. Mark + comment removed; strip now reads TripAdvisor /
+    JATA / IATA / ASTA / 30+ years. Revert if there is a real Kayak
+    relationship I don't know about.

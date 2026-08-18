@@ -5,6 +5,7 @@ import type { Locale } from '@/i18n/routing';
 import { Body } from '@/components/Body';
 
 import { FaqHashOpener } from './FaqHashOpener';
+import { whatsappUrl } from '@/lib/concierge/constants';
 
 interface FaqEntry {
   _id: string;
@@ -24,9 +25,7 @@ interface Props {
   categories: FaqCategory[];
 }
 
-const WHATSAPP_HREF =
-  'https://wa.me/201158011600?text=' +
-  encodeURIComponent('Hi Travel2Egypt, I have a question about planning a trip.');
+const WHATSAPP_HREF = whatsappUrl('Hi Travel2Egypt, I have a question about planning a trip.');
 
 /** Derive a stable anchor id from question text — faqEntry has no slug field. */
 function anchorId(text: string): string {

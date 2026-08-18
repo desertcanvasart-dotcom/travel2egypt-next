@@ -16,7 +16,7 @@ import { FloatingConcierge } from '../FloatingConcierge';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import '@/styles/tour-system.css';
 
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
 
 interface CityRef { _id: string; name: string; slug: string }
 
