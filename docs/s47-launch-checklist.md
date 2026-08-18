@@ -27,14 +27,14 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
    three phrases from the `legal-privacy-policy` doc (×3 locales). The 26-month
    line is GA-template boilerplate.
 
-3. **`t2e_ccy` currency cookie is set without disclosure.**
-   `src/middleware.ts:64-76` sets a 1-year currency cookie from Cloudflare
-   geo-IP on first visit, with no user action. The banner says "only
-   essential cookies" and the cookie policy's exhaustive list omits it.
-   Options: (a) add it to the cookie policy + banner body ×3 locales (CMS +
-   one i18n string), or (b) I change the code to only persist the cookie when
-   the visitor explicitly picks a currency (geo default stays per-request).
-   Recommend (b) + a one-line policy mention of the switcher cookie.
+3. ~~**`t2e_ccy` currency cookie is set without disclosure.**~~ ✅ **CODE HALF
+   DONE (owner chose defer, 2026-08-18):** the middleware no longer persists
+   the geo-derived cookie; the suggestion flows cookie-free via
+   `/api/geo-currency` (no-store, in-memory apply), and `t2e_ccy` is written
+   only on an explicit currency pick. REMAINING (CMS, one line): mention the
+   switcher-set currency cookie in the cookie policy's list — it is now a
+   genuinely "explicitly requested" preference cookie, but the policy's
+   exhaustive list should still name it.
 
 ## B. Before DNS cutover (owner/counsel)
 

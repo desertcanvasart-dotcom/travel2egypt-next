@@ -3,8 +3,6 @@ import { NextResponse, type NextRequest } from 'next/server';
 
 import { routing } from './i18n/routing';
 import { isProductionHost } from './lib/site';
-import { CURRENCY_COOKIE } from './lib/currency';
-import { currencyForCountry } from './lib/geo-currency';
 import { buildCookieValue } from './lib/concierge/cookie';
 import { SESSION_COOKIE_NAME, SESSION_COOKIE_MAX_AGE_SECONDS } from './lib/concierge/constants';
 import { verifyResumeToken } from './lib/concierge/resumeToken';
@@ -55,24 +53,16 @@ export default async function middleware(request: NextRequest) {
 
   const response = intlMiddleware(request);
 
-  // Geo currency default (Phase 2, cache-safe). On first visit only — never
-  // overriding a manual selection — set the display-currency cookie from
-  // Cloudflare's `cf-ipcountry` header. The SSR HTML still renders the per-locale
-  // default (deterministic/cacheable); the client CurrencyProvider reads this
-  // cookie and swaps after hydration. No-op when the header is absent (e.g. the
-  // Railway URL not yet behind Cloudflare), so behaviour is unchanged until then.
-  if (!request.cookies.get(CURRENCY_COOKIE)) {
-    const ccy = currencyForCountry(request.headers.get('cf-ipcountry'));
-    if (ccy) {
-      response.cookies.set({
-        name: CURRENCY_COOKIE,
-        value: ccy,
-        path: '/',
-        maxAge: 31536000,
-        sameSite: 'lax',
-      });
-    }
-  }
+  // Geo currency default: NO COOKIE IS SET HERE anymore (owner decision,
+  // s47 compliance audit 2026-08-18). The previous behaviour — persisting
+  // `t2e_ccy` for a year from Cloudflare's `cf-ipcountry` on first visit,
+  // before any user action — contradicted the consent banner's "only
+  // essential cookies" and the cookie policy's exhaustive list (ePrivacy
+  // Art. 5(3): a geo-derived preference is not "explicitly requested").
+  // The geo suggestion now flows cookie-free: the client CurrencyProvider
+  // fetches /api/geo-currency once per load and applies it IN MEMORY; the
+  // cookie is written only when the visitor explicitly picks a currency
+  // (CurrencyProvider.setCurrency).
 
   // Keep non-production hosts (the Railway deployment URL pre-cutover)
   // out of search results. Runtime host check — lifts automatically once
