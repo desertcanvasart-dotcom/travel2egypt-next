@@ -42,6 +42,19 @@ entries, the 7 original category names, the /faq page chrome
 the 16 overlap ES/JA renderings, which stay parked until the overlap
 upgrade decisions (they render the MIGRATION answers, not the live ones).
 
+## Mention-linker weave (2026-08-19) — DONE
+
+Pipeline extended to faqEntry sources (FIND scoped to the migration set via
+the ledger; APPLY/PUBLISH now address the `answer` field). 236 suggestions
+found; full review: 218 Tier A clean, 12 Tier B accepted (city names beside
+kanji, 3 GEM-blog links, San Sergio church), 6 rejected (generic 食事/料理
+title collisions, ギザ inside ギザ複合遺跡, カイロ inside 旧カイロ). 230
+links applied and published across 34 entries — EN 82 / ES 73 / JA 75,
+browser-verified with correct per-locale hrefs. Curated CSV:
+docs/mention-link-suggestions-faq-curated-2026-08-19.csv. Rollback
+snapshots: backups/mention-links-published-2026-08-18/. The 9 VERIFY holds
+were out of scope (unpublished) — weave them after they publish.
+
 ## ⚠ Fact-check, then publish (9 drafts still held)
 
 (Two of these — drone rules, alcohol rules — were missing from this report's
