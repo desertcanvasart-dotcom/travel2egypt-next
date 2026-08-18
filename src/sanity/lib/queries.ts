@@ -2049,7 +2049,11 @@ export const tourCategoryBySlugQuery = (locale: Locale) => groq`
     "slug": ${localizedSlug('slug', locale)},
     "summary": ${localizedField('summary', locale)},
     "intro": ${portableTextBodyProjection('intro', locale)},
-    "faq": ${portableTextBodyProjection('faq', locale)},
+    "faq": faq[]{
+      _key,
+      "question": ${localizedField('question', locale)},
+      "answer": ${portableTextBodyProjection('answer', locale)},
+    },
     heroImage{
       ...,
       "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
@@ -2092,7 +2096,11 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
     "slug": ${localizedSlug('slug', locale)},
     "summary": ${localizedField('summary', locale)},
     "intro": ${portableTextBodyProjection('intro', locale)},
-    "faq": ${portableTextBodyProjection('faq', locale)},
+    "faq": faq[]{
+      _key,
+      "question": ${localizedField('question', locale)},
+      "answer": ${portableTextBodyProjection('answer', locale)},
+    },
     heroImage{
       ...,
       "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)

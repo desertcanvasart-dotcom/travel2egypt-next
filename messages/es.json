@@ -184,7 +184,8 @@
     "dataExportTitle": "Solicitar una copia de tus datos",
     "dataExportDesc": "Te enviaremos por correo una copia de tu conversación.",
     "dataExportSubject": "Solicitud de datos — {ref}",
-    "dataExportBody": "Me gustaría recibir una copia de los datos de mi conversación con el concierge. Mi referencia es {ref}."
+    "dataExportBody": "Me gustaría recibir una copia de los datos de mi conversación con el concierge. Mi referencia es {ref}.",
+    "dataPrivacyLink": "Cómo tratamos tus datos — lee nuestra política de privacidad"
   },
   "nav": {
     "home": "Inicio",
@@ -829,6 +830,9 @@
     "heroSubhead": "Quick answers to questions we hear most often.",
     "bottomCtaPretext": "Still have a question?",
     "bottomCtaLabel": "Talk to us on WhatsApp"
+  },
+  "landingFaq": {
+    "heading": "Preguntas frecuentes"
   },
   "consent": {
     "headline": "Solo usamos cookies esenciales",

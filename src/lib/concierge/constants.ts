@@ -42,14 +42,18 @@ export const SESSION_COOKIE_MAX_AGE_SECONDS = 30 * 24 * 60 * 60;
  */
 export const WHATSAPP_NUMBER = '201158011600';
 
+/** Bare wa.me link (no prefilled message) — for "chat with us" buttons. */
+export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
+
 /** wa.me URL with a prefilled, URL-encoded message. */
 export function whatsappUrl(text: string): string {
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+  return `${WHATSAPP_LINK}?text=${encodeURIComponent(text)}`;
 }
 
 /**
- * Public team inbox (constant, not env) — the same address shown in the
- * footer and legal pages. Client-safe: used for the S8 data-export mailto
+ * Public team inbox (constant, not env) — the same address shown on the
+ * legal pages (the footer carries no email; WhatsApp is the primary
+ * channel there). Client-safe: used for the S8 data-export mailto
  * link. The server-side TEAM_INBOX_EMAIL env is a separate concern.
  */
 export const PUBLIC_TEAM_EMAIL = 'info@travel2egypt.org';

@@ -184,7 +184,8 @@
     "dataExportTitle": "Request a copy of your data",
     "dataExportDesc": "We'll email you a copy of your conversation.",
     "dataExportSubject": "Data request — {ref}",
-    "dataExportBody": "I'd like a copy of my concierge conversation data. My reference is {ref}."
+    "dataExportBody": "I'd like a copy of my concierge conversation data. My reference is {ref}.",
+    "dataPrivacyLink": "How we handle your data — read our privacy policy"
   },
   "nav": {
     "home": "Home",
@@ -829,6 +830,9 @@
     "heroSubhead": "Quick answers to questions we hear most often.",
     "bottomCtaPretext": "Still have a question?",
     "bottomCtaLabel": "Talk to us on WhatsApp"
+  },
+  "landingFaq": {
+    "heading": "FAQ"
   },
   "consent": {
     "headline": "We use only essential cookies",

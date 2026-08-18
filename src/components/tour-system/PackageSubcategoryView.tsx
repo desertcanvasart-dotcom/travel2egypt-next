@@ -11,10 +11,11 @@ import { packageBucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
+import { LandingFaq, type LandingFaqItem } from './LandingFaq';
 import { FloatingConcierge } from '../FloatingConcierge';
 import '@/styles/tour-system.css';
 
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
 
 // Below this many journeys, the page takes the sparse path: lead with the
 // single journey as the featured piece and OMIT the side-grid + the index
@@ -42,6 +43,7 @@ interface MoodCard {
 }
 
 export interface PackageSubcategoryDoc {
+  faq?: LandingFaqItem[];
   _id: string;
   title: string;
   slug: string;
@@ -411,6 +413,8 @@ export async function PackageSubcategoryView({
             </div>
           </div>
         </section>
+
+        <LandingFaq items={doc.faq} locale={locale} />
       </main>
 
       <FloatingConcierge />

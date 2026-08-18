@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 import { Link } from '@/i18n/navigation';
+import { whatsappUrl } from '@/lib/concierge/constants';
 
 /**
  * Concierge CTA section — dark band with sand-color accents.
@@ -20,9 +21,7 @@ import { Link } from '@/i18n/navigation';
  *   and every CTA across the site together.
  */
 
-const WHATSAPP_HREF =
-  'https://wa.me/201158011600?text=' +
-  encodeURIComponent("Hi Travel2Egypt, I'd like to talk about planning a trip.");
+const WHATSAPP_HREF = whatsappUrl("Hi Travel2Egypt, I'd like to talk about planning a trip.");
 
 interface ConciergeCTAProps {
   tourSlug?: string;

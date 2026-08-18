@@ -13,10 +13,11 @@ import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
+import { LandingFaq, type LandingFaqItem } from './LandingFaq';
 import { FloatingConcierge } from '../FloatingConcierge';
 import '@/styles/tour-system.css';
 
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
 
 interface RawTour {
   _id: string;
@@ -39,6 +40,7 @@ interface MoodCard {
 }
 
 export interface SubcategoryDoc {
+  faq?: LandingFaqItem[];
   _id: string;
   title: string;
   slug: string;
@@ -421,6 +423,8 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
             </div>
           </div>
         </section>
+
+        <LandingFaq items={doc.faq} locale={locale} />
       </main>
 
       <FloatingConcierge />

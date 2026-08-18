@@ -35,6 +35,7 @@ import { TourPageView } from '@/components/TourPageView';
 import { SingleTourView } from '@/components/tour-system/SingleTourView';
 import { PackageView } from '@/components/tour-system/PackageView';
 import { SubcategoryView } from '@/components/tour-system/SubcategoryView';
+import { LandingFaq, type LandingFaqItem } from '@/components/tour-system/LandingFaq';
 import { PackageSubcategoryView } from '@/components/tour-system/PackageSubcategoryView';
 import { TourCloseRhythm } from '@/components/subcategory/TourCloseRhythm';
 
@@ -203,7 +204,7 @@ interface TourCategoryDoc {
   slug: string;
   summary?: string;
   intro?: any[];
-  faq?: any[];
+  faq?: LandingFaqItem[];
   heroImage?: { asset?: unknown; alt?: string };
   landings: Array<{
     _id: string;
@@ -281,14 +282,7 @@ async function TourCategoryView({ doc, locale }: { doc: TourCategoryDoc; locale:
           ))}
         </ul>
 
-        {doc.faq && (
-          <section className="mt-16">
-            <h2 className="mb-6 font-serif text-3xl font-medium text-ink">FAQ</h2>
-            <div className="prose-editorial max-w-3xl">
-              <Body value={doc.faq} locale={locale} />
-            </div>
-          </section>
-        )}
+        <LandingFaq items={doc.faq} locale={locale} />
       </div>
     </article>
   );
@@ -300,7 +294,7 @@ interface TourLandingDoc {
   slug: string;
   summary?: string;
   intro?: any[];
-  faq?: any[];
+  faq?: LandingFaqItem[];
   heroImage?: { asset?: unknown; alt?: string };
   category: { _id: string; key: string; title: string; slug: string };
   destinationCity?: { _id: string; name: string; slug: string };
@@ -408,14 +402,7 @@ async function TourLandingView({ doc, locale }: { doc: TourLandingDoc; locale: L
           })}
         </ul>
 
-        {doc.faq && (
-          <section className="mt-16">
-            <h2 className="mb-6 font-serif text-3xl font-medium text-ink">FAQ</h2>
-            <div className="prose-editorial max-w-3xl">
-              <Body value={doc.faq} locale={locale} />
-            </div>
-          </section>
-        )}
+        <LandingFaq items={doc.faq} locale={locale} />
       </div>
     </article>
   );

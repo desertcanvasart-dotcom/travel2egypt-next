@@ -35,7 +35,7 @@ function tourHref(type?: string, slug?: string): string | null {
 }
 
 const ROMAN = ['i.', 'ii.', 'iii.', 'iv.'];
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
 
 /**
  * Stable, locale-independent anchor ids for the six "Where to begin" cards, in

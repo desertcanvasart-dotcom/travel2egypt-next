@@ -16,8 +16,11 @@
  * alternates by prefixing each locale.
  */
 
+import { cache } from 'react';
+
 import type { Metadata } from 'next';
 
+import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
 import { routing, type Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
@@ -80,12 +83,28 @@ interface Options {
    */
   pathByLocale?: Partial<Record<Locale, string>>;
   /**
-   * When set, used as the absolute final OG image fallback after
-   * seo.ogImage and doc.heroImage. Editors override this via
-   * siteSettings.defaultOgImage.
+   * OG image fallback after seo.ogImage and doc.heroImage. When OMITTED,
+   * the helper resolves `siteSettings.defaultOgImage` itself (cached per
+   * render pass); pass an image to override that lookup, or `null` to
+   * skip straight to the static /og-default.png.
    */
   defaultOgImage?: { asset?: unknown; alt?: string } | null;
 }
+
+/**
+ * Site-wide OG fallback (siteSettings.defaultOgImage), fetched once per
+ * render pass via React cache. Failure falls through to /og-default.png —
+ * metadata must never take a page down.
+ */
+const getSiteDefaultOgImage = cache(
+  async (): Promise<{ asset?: unknown; alt?: string } | null> => {
+    try {
+      return await client.fetch(`*[_type == "siteSettings"][0].defaultOgImage`);
+    } catch {
+      return null;
+    }
+  }
+);
 
 function siteUrl(): string {
   // Always the production origin — canonical URLs must be host-independent
@@ -125,7 +144,7 @@ function buildLanguageAlternates(
   return out;
 }
 
-export function buildMetadata(doc: SourceDoc, options: Options): Metadata {
+export async function buildMetadata(doc: SourceDoc, options: Options): Promise<Metadata> {
   const { locale, path = '/', brandSuffix = true, ogType = 'article' } = options;
 
   const rawTitle =
@@ -141,13 +160,20 @@ export function buildMetadata(doc: SourceDoc, options: Options): Metadata {
     SITE_TAGLINE;
 
   // OG image fallback chain: editor-set → doc hero → site default → static.
-  const ogSource = doc.seo?.ogImage?.asset
+  // The site default (siteSettings.defaultOgImage) is fetched only when the
+  // doc supplies nothing and the caller didn't pass an explicit override.
+  let ogSource = doc.seo?.ogImage?.asset
     ? doc.seo.ogImage
     : doc.heroImage?.asset
       ? doc.heroImage
-      : options.defaultOgImage?.asset
+      : null;
+  if (!ogSource) {
+    const siteDefault =
+      options.defaultOgImage !== undefined
         ? options.defaultOgImage
-        : null;
+        : await getSiteDefaultOgImage();
+    ogSource = siteDefault?.asset ? siteDefault : null;
+  }
   const ogUrlFromSanity = ogSource
     ? urlFor(ogSource).width(1200).height(630).quality(85).url()
     : null;
@@ -198,7 +224,7 @@ export function buildMetadata(doc: SourceDoc, options: Options): Metadata {
  * For pure listing pages (no Sanity doc behind them) — uses translation
  * strings directly, still emits OG/Twitter so cards render correctly.
  */
-export function buildStaticMetadata(args: {
+export async function buildStaticMetadata(args: {
   locale: Locale;
   path: string;
   title: string;
@@ -213,7 +239,7 @@ export function buildStaticMetadata(args: {
    * than advertising translated URLs that still serve the EN fallback.
    */
   availableLocales?: readonly Locale[];
-}): Metadata {
+}): Promise<Metadata> {
   const pathByLocale = args.availableLocales
     ? Object.fromEntries(args.availableLocales.map((l) => [l, args.path]))
     : undefined;
