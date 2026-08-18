@@ -23,7 +23,12 @@ export type SitemapDocType =
   | 'hotel'
   | 'nileCruise'
   | 'page'
-  | 'legalPage';
+  | 'legalPage'
+  | 'tourCategory'
+  | 'tourLanding'
+  | 'editorialCategory'
+  | 'fieldGuide'
+  | 'foodArticle';
 
 export interface PathFromDocInput {
   type: SitemapDocType;
@@ -69,15 +74,32 @@ export function pathFromDoc({
     case 'travelTip':
       return `/travel-tips/${slug}`;
     case 'faqEntry':
-      return `/faq#${slug}`;
+      // s47 audit (2026-08-18): fragment URLs are deduped by crawlers and
+      // inflated the sitemap with duplicates of /faq (a STATIC_PATHS entry).
+      return null;
     case 'hotel':
       return `/hotels/${slug}`;
     case 'nileCruise':
       return `/nile-cruises/${slug}`;
     case 'page':
-      return `/${slug}`;
+      // s47 audit (2026-08-18): the root catch-all resolver does not accept
+      // the legacy `page` type, so a root mapping emitted 404 sitemap URLs.
+      return null;
     case 'legalPage':
-      return `/legal/${slug}`;
+      // s47 audit (2026-08-18): there is no /legal/[slug] route — the four
+      // legal docs render at kind-based static routes (/terms, /privacy-policy,
+      // /cookie-policy, /disclaimer), which are STATIC_PATHS sitemap entries.
+      return null;
+    case 'tourCategory':
+    case 'tourLanding':
+      // Commercial landings — canonical at the site root like tours.
+      return `/${slug}`;
+    case 'editorialCategory':
+      return `/blog/category/${slug}`;
+    case 'fieldGuide':
+      return `/resources/${slug}`;
+    case 'foodArticle':
+      return `/food/${slug}`;
     default:
       return null;
   }

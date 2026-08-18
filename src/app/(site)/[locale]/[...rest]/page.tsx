@@ -13,7 +13,7 @@
 import { cache } from 'react';
 import type { Metadata } from 'next';
 import { notFound, redirect } from 'next/navigation';
-import { setRequestLocale } from 'next-intl/server';
+import { setRequestLocale, getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
@@ -29,6 +29,8 @@ import {
   siteSettingsQuery,
 } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
 import { TourPageView } from '@/components/TourPageView';
 import { SingleTourView } from '@/components/tour-system/SingleTourView';
 import { PackageView } from '@/components/tour-system/PackageView';
@@ -215,13 +217,25 @@ interface TourCategoryDoc {
   }>;
 }
 
-function TourCategoryView({ doc, locale }: { doc: TourCategoryDoc; locale: Locale }) {
+
+async function TourCategoryView({ doc, locale }: { doc: TourCategoryDoc; locale: Locale }) {
+  const tNav = await getTranslations('nav');
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: doc.title, path: `/${doc.slug}` },
+    ],
+    locale,
+  );
+  const itemListSchema = buildItemListSchema(doc.landings ?? [], locale);
   const heroUrl = doc.heroImage?.asset
     ? urlFor(doc.heroImage as never).width(1800).height(900).quality(85).url()
     : null;
 
   return (
     <article>
+      <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={itemListSchema} />
       {heroUrl ? (
         <div className="relative h-[50vh] min-h-[360px] w-full overflow-hidden bg-limestone-deep">
           <Image src={heroUrl} alt={doc.heroImage?.alt || doc.title} fill priority className="object-cover" sizes="100vw" />
@@ -305,13 +319,25 @@ interface TourLandingDoc {
   }>;
 }
 
-function TourLandingView({ doc, locale }: { doc: TourLandingDoc; locale: Locale }) {
+async function TourLandingView({ doc, locale }: { doc: TourLandingDoc; locale: Locale }) {
+  const tNav = await getTranslations('nav');
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: doc.category.title, path: `/${doc.category.slug}` },
+      { name: doc.title, path: `/${doc.slug}` },
+    ],
+    locale,
+  );
+  const itemListSchema = buildItemListSchema(doc.tours ?? [], locale);
   const heroUrl = doc.heroImage?.asset
     ? urlFor(doc.heroImage as never).width(1800).height(900).quality(85).url()
     : null;
 
   return (
     <article>
+      <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={itemListSchema} />
       {heroUrl ? (
         <div className="relative h-[45vh] min-h-[320px] w-full overflow-hidden bg-limestone-deep">
           <Image src={heroUrl} alt={doc.heroImage?.alt || doc.title} fill priority className="object-cover" sizes="100vw" />

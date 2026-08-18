@@ -11,6 +11,8 @@ import { bucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
 import { FloatingConcierge } from '../FloatingConcierge';
 import '@/styles/tour-system.css';
 
@@ -89,6 +91,18 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
   const trackLabel = isGroup ? t('trackGroup') : t('trackPrivate');
   const heroKicker = isGroup ? t('heroKickerGroup') : t('heroKickerPrivate');
   const cityName = doc.destinationCity?.name ?? '';
+  // s47 audit (2026-08-18): the city×track landings had no structured data.
+  // Breadcrumb mirrors the visible crumb (hub level linked to the track hub).
+  const hubPath = isGroup ? '/group-day-tours' : '/private-day-tours';
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: trackLabel, path: hubPath },
+      { name: doc.title, path: `/${doc.slug}` },
+    ],
+    locale,
+  );
+  const itemListSchema = buildItemListSchema(doc.tours ?? [], locale);
   const citySlug = doc.destinationCity?.slug ?? '';
   const heroImage = doc.heroImage ?? doc.destinationCity?.heroImage ?? null;
 
@@ -170,6 +184,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
 
   return (
     <div className="tour-doc lvl-subcategory">
+      <JsonLd data={[breadcrumbSchema, itemListSchema]} />
       <header className="hero">
         <div className="bg">
           <JourneyImage

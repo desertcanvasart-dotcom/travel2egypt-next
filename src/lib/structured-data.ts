@@ -19,14 +19,11 @@ import { siteUrlBase } from './path-from-doc';
 const SITE_NAME = 'Travel2Egypt';
 
 /**
- * IMPORTANT: SITE_URL reads from process.env.NEXT_PUBLIC_SITE_URL at
- * build/render time. On localhost it will resolve to
- * http://localhost:3000 — that's expected during dev. In production this
- * env var MUST be set to https://travel2egypt.org (Vercel project
- * settings → Environment Variables → NEXT_PUBLIC_SITE_URL). If it isn't,
- * the Organization JSON-LD's `url` and `@id` fields will point at
- * localhost and Google will not be able to associate the schema with
- * the live domain.
+ * SITE_URL is ALWAYS the production origin (siteUrlBase() returns the
+ * hardcoded PRODUCTION_URL) — the same source seo.ts canonicals use, so
+ * JSON-LD @id/url and canonical tags can never disagree, and no env var
+ * is involved. (An earlier version read NEXT_PUBLIC_SITE_URL here; this
+ * comment previously described that and was stale — s47 audit 2026-08-18.)
  */
 const SITE_URL = siteUrlBase();
 
@@ -929,6 +926,27 @@ export function buildBreadcrumbList(items: BreadcrumbItem[], locale: Locale) {
 export interface FAQItem {
   question: string;
   answer: string;
+}
+
+/**
+ * ItemList for landing/category grids (s47 audit 2026-08-18): name+url per
+ * item, urls absolute on the production origin with locale prefix.
+ */
+export function buildItemListSchema(
+  items: Array<{ title: string; slug: string }>,
+  locale: Locale,
+) {
+  const prefix = locale === 'en' ? '' : `/${locale}`;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.title,
+      url: `${SITE_URL}${prefix}/${item.slug}`,
+    })),
+  };
 }
 
 export function buildFAQSchema(items: FAQItem[]) {

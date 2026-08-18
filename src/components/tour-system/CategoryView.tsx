@@ -7,6 +7,8 @@ import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { bucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
 import { MastheadStats } from './MastheadStats';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '../FloatingConcierge';
@@ -256,6 +258,20 @@ export async function CategoryView({
 
   return (
     <div className="tour-doc lvl-category">
+      <JsonLd
+        data={[
+          // s47 audit (2026-08-18): the hub category pages were the only
+          // landing type without BreadcrumbList; grid gets an ItemList.
+          buildBreadcrumbList(
+            [
+              { name: tNav('home'), path: '/' },
+              { name: c.crumb, path: mode === 'group' ? '/group-day-tours' : '/private-day-tours' },
+            ],
+            locale,
+          ),
+          buildItemListSchema(tours, locale),
+        ]}
+      />
       <div className="t2e-wrap">
         <nav className="t2e-crumb" aria-label="Breadcrumb">
           <ol>
