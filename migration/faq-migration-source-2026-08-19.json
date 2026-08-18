@@ -1,0 +1,648 @@
+{
+  "_type": "faqPage",
+  "title": "Egypt Travel FAQs",
+  "slug": {
+    "_type": "slug",
+    "current": "egypt-travel-faqs"
+  },
+  "language": "en",
+  "legacyUrl": "https://travel2egypt.org/egypt-travel-faqs/",
+  "extractedAt": "2026-08-19",
+  "questionCount": 71,
+  "waves": [
+    {
+      "wave": 1,
+      "title": "Wave 1 — Core practical FAQ (migrate first)",
+      "categories": [
+        {
+          "title": "Planning and entry",
+          "slug": "planning-and-entry",
+          "faqs": [
+            {
+              "_key": "when-is-the-best-time-to-visit-egypt",
+              "question": "When is the best time to visit Egypt?",
+              "internalLink": "/best-time-to-visit-egypt/",
+              "status": "Rewritten — legacy version had all temperature figures missing",
+              "answer": "October through April is the comfortable window. Between November and February, daytime highs in Cairo and Luxor typically sit around 19–25°C (66–77°F), which makes long days at open, unshaded sites manageable rather than punishing. That window is also peak season, so expect fuller sites and higher rates. October and April are the useful compromise — warm but bearable, with noticeably thinner crowds. Summer works if the Red Sea is your focus, since the sea moderates the heat, but Upper Egypt in July regularly clears 40°C (104°F).",
+              "needsReview": false
+            },
+            {
+              "_key": "do-i-need-a-visa-to-travel-to-egypt",
+              "question": "Do I need a visa to travel to Egypt?",
+              "internalLink": "/passport-and-visa/",
+              "status": "VERIFY — eligibility lists and fees change; consider a \"last checked\" date stamp on this one",
+              "answer": "Most visitors do. Egypt operates an e-Visa portal, and visa on arrival is available at major airports for a large number of nationalities. Your passport needs at least six months' validity from your date of entry. Eligibility, fees, and processing times vary by nationality and change without much notice, so confirm against the official Egyptian e-Visa portal or your nearest Egyptian consulate rather than a travel blog.",
+              "needsReview": true
+            },
+            {
+              "_key": "what-is-the-weather-like-across-the-year",
+              "question": "What is the weather like across the year?",
+              "internalLink": "/egypt-weather-guide/",
+              "status": "Merged from two thin legacy entries",
+              "answer": "Hot and dry from May to October; mild and pleasant from November to March. Cairo and the Delta get occasional light winter rain. Upper Egypt and the Western Desert are effectively rainless. Desert nights drop sharply year-round — a 35°C afternoon in Siwa can be followed by a 15°C night. Khamsin winds carrying sand and dust can blow through between March and May.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-should-i-pack-for-egypt",
+              "question": "What should I pack for Egypt?",
+              "internalLink": "/egypt-travel-tips/",
+              "status": "Rewritten — legacy version linked to a Dahabiya cruise packing page, which is the wrong scope",
+              "answer": "Light, loose, breathable clothing that covers shoulders and knees. Closed walking shoes with grip — temple and tomb floors are uneven and often polished smooth. A brimmed hat, sunglasses, and high-factor sunscreen. A scarf, which does triple duty as sun cover, dust filter, and mosque headcovering. A refillable bottle. A European two-pin adapter (Type C/F, 220V). And one warm layer, because desert evenings and over-air-conditioned interiors both catch people out.",
+              "needsReview": false
+            },
+            {
+              "_key": "how-much-should-i-budget-per-day",
+              "question": "How much should I budget per day?",
+              "internalLink": "AffordEgypt day rates + `/attractions-entrance-fees/`",
+              "status": "REWRITE REQUIRED — legacy figures were stripped in extraction, and pre-2024 EGP figures would be misleading anyway",
+              "answer": "Costs in Egypt move with the exchange rate, so a fixed dollar figure goes stale within months. Rather than quote one, point at your current dated day rates and published entrance fees.",
+              "needsReview": true
+            }
+          ]
+        },
+        {
+          "title": "Money, connectivity and practicalities",
+          "slug": "money-connectivity-and-practicalities",
+          "faqs": [
+            {
+              "_key": "what-currency-is-used-in-egypt",
+              "question": "What currency is used in Egypt?",
+              "internalLink": "/currency-in-egypt/",
+              "status": "Rewritten — add a note that the rate has moved substantially since the March 2024 float",
+              "answer": "The Egyptian Pound (EGP), divided into 100 piastres. Cash still matters more than visitors expect — in markets, small restaurants, taxis, tipping, and anywhere rural. ATMs are common in cities and resort towns. Change money at banks, licensed exchange bureaux, or your hotel; not with anyone who approaches you on the street.",
+              "needsReview": false
+            },
+            {
+              "_key": "can-i-use-credit-cards-throughout-egypt",
+              "question": "Can I use credit cards throughout Egypt?",
+              "internalLink": "/currency-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "In hotels, larger restaurants, and established shops in cities and resort areas, yes. In bazaars, local eateries, taxis, and rural areas, no. Carry small denomination notes — getting change for a large note is a routine friction point, and it affects tipping more than anything else.",
+              "needsReview": false
+            },
+            {
+              "_key": "how-does-tipping-work-in-egypt",
+              "question": "How does tipping work in Egypt?",
+              "internalLink": null,
+              "status": "NEW — the legacy page had no tipping question at all, which is a significant gap for a booking site",
+              "answer": "Tipping (*baksheesh*) is woven into daily service culture and expected in more situations than most visitors anticipate: hotel staff, drivers, guides, restaurant service, site attendants, and anyone who assists you. Small notes, given directly, are the practical approach.",
+              "needsReview": true
+            },
+            {
+              "_key": "can-i-get-a-local-sim-card-easily",
+              "question": "Can I get a local SIM card easily?",
+              "internalLink": "/telephones-in-egypt/",
+              "status": "VERIFY registration requirements",
+              "answer": "Yes. SIM cards are sold at airport arrivals halls and at operator shops and kiosks throughout cities. You need your passport for registration. Data is inexpensive by international standards. eSIM is increasingly available if your handset supports it.",
+              "needsReview": true
+            },
+            {
+              "_key": "what-time-zone-is-egypt-in",
+              "question": "What time zone is Egypt in?",
+              "internalLink": "/time-in-egypt/",
+              "status": "CORRECTION — the legacy answer states Egypt has no daylight saving adjustment. That has been wrong since April 2023.",
+              "answer": "Egypt is on Eastern European Time, UTC+2. Since 2023 it also observes daylight saving, moving to UTC+3 from the last Friday of April to the last Friday of October.",
+              "needsReview": true
+            }
+          ]
+        },
+        {
+          "title": "Safety and health",
+          "slug": "safety-and-health",
+          "faqs": [
+            {
+              "_key": "is-it-safe-to-travel-to-egypt-right-now",
+              "question": "Is it safe to travel to Egypt right now?",
+              "internalLink": "/health-and-safety/",
+              "status": "VERIFY — consider making this one dynamic, or dated. A hardcoded safety claim is the single riskiest sentence on a travel site.",
+              "answer": "The main tourist corridor — Cairo, Giza, Luxor, Aswan, the Nile valley, and the Red Sea resorts — is heavily policed and continuously visited. Ordinary precautions against petty theft and overcharging apply, as in any major destination. Government travel advisories consistently draw a distinction between these areas and parts of North Sinai and certain border regions, which carry restrictions. Because advisories change, check your own government's current guidance before booking rather than relying on a static page.",
+              "needsReview": true
+            },
+            {
+              "_key": "are-there-health-concerns-before-travelling-to-egypt",
+              "question": "Are there health concerns before travelling to Egypt?",
+              "internalLink": "/health-and-safety/",
+              "status": "migrate-as-is",
+              "answer": "Speak to a travel health clinic or your GP well before departure so routine vaccinations can be reviewed. Stomach upset is the most common traveller complaint — stick to bottled or filtered water, be cautious with raw salads and unpeeled fruit outside established restaurants, and pack a basic remedy. Heat and dehydration cause more problems than anything exotic; the sun at midday on an open site is stronger than most visitors expect.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-vaccinations-do-i-need-for-egypt",
+              "question": "What vaccinations do I need for Egypt?",
+              "internalLink": "/health-and-safety/",
+              "status": "Merged — the legacy page asked this twice with slightly different answers",
+              "answer": "There are generally no mandatory vaccination requirements for entry from most countries. Hepatitis A and B and typhoid are commonly recommended because they're food- and water-borne, and routine cover (tetanus, diphtheria, MMR, polio) should be current. This is a conversation for a travel health professional, not a website.",
+              "needsReview": false
+            },
+            {
+              "_key": "can-i-drink-the-tap-water-in-egypt",
+              "question": "Can I drink the tap water in Egypt?",
+              "internalLink": "/water-safety-in-egypt-advice-for-travelers/",
+              "status": "Rewritten — legacy answer opened by saying the water \"should be safe to drink\" and then told readers not to drink it",
+              "answer": "Egyptian tap water is treated and chlorinated, but it isn't recommended for drinking by visitors — the chlorination is heavy and older pipework can reintroduce sediment. Use sealed bottled or filtered water for drinking, and for brushing teeth if you have a sensitive stomach. Check the seal is intact when you buy. Ice served at established hotels and restaurants is normally made from filtered water; ice from street vendors is not.",
+              "needsReview": false
+            },
+            {
+              "_key": "how-do-i-avoid-tourist-scams-in-egypt",
+              "question": "How do I avoid tourist scams in Egypt?",
+              "internalLink": "/health-and-safety/",
+              "status": "migrate-as-is",
+              "answer": "The common patterns are consistent and easy to recognise once you know them: unsolicited \"help\" that turns into a fee, a site being described as closed so you're diverted to a shop, a camel or carriage ride quoted at one price and settled at another, and taxi fares that are never mentioned until you arrive. Agree every price before the service starts, not after. Book guides and excursions through licensed operators rather than someone who approaches you at the gate.",
+              "needsReview": false
+            },
+            {
+              "_key": "are-there-restrictions-on-photography",
+              "question": "Are there restrictions on photography?",
+              "internalLink": null,
+              "status": "Rewritten — legacy answer had no internal link at all",
+              "answer": "Yes, and they're taken seriously. Photography of military sites and personnel is prohibited, and that can extend to bridges, checkpoints, and some transport infrastructure that looks innocuous. Many museums and tombs charge a separate photography ticket or prohibit it entirely — the Valley of the Kings has its own rules. Always ask before photographing people.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-are-the-rules-on-flying-a-drone-in-egypt",
+              "question": "What are the rules on flying a drone in Egypt?",
+              "internalLink": "/health-and-safety/",
+              "status": "VERIFY current customs procedure",
+              "answer": "Drones are tightly regulated. Bringing one into the country without prior authorisation risks confiscation at customs, and flying without a permit — particularly near archaeological sites, military areas, or infrastructure — carries serious legal consequences. Permits are difficult for visitors to obtain.",
+              "needsReview": true
+            }
+          ]
+        },
+        {
+          "title": "Culture and etiquette",
+          "slug": "culture-and-etiquette",
+          "faqs": [
+            {
+              "_key": "how-should-i-dress-when-visiting-egypt",
+              "question": "How should I dress when visiting Egypt?",
+              "internalLink": "/cultural-etiquette-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Modest dress is the norm and reads as respect. For both men and women, covering shoulders and knees works everywhere and avoids unwanted attention. Loose, lightweight fabric is more comfortable in the heat than close-fitting clothing. Beach and pool areas at resorts are relaxed; the rest of the resort, and everywhere outside it, is not.",
+              "needsReview": false
+            },
+            {
+              "_key": "whats-the-dress-code-for-mosques-and-religious-sites",
+              "question": "What's the dress code for mosques and religious sites?",
+              "internalLink": "/visiting-a-religious-site/",
+              "status": "Merged from two near-identical legacy entries",
+              "answer": "Conservative. Arms and legs covered, nothing tight or sheer. Women should carry a scarf for hair covering in mosques. Men should wear long trousers rather than shorts. Shoes come off before entering prayer areas. These aren't suggestions — they're often conditions of entry.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-customs-and-traditions-should-i-be-aware-of",
+              "question": "What customs and traditions should I be aware of?",
+              "internalLink": "/cultural-etiquette-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Egypt is predominantly Muslim, with a significant Coptic Christian minority, and religious observance is part of ordinary public life. Greet people before getting to business — the abruptness that reads as efficient elsewhere reads as rude here. The right hand is used for eating and giving. Hospitality is offered generously and refusing outright can cause offence; accepting a small amount is the graceful move. Religion and domestic politics are handled carefully in conversation.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-should-i-know-about-travelling-during-ramadan",
+              "question": "What should I know about travelling during Ramadan?",
+              "internalLink": "/ramadan-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Muslims fast from dawn to sunset, so eating, drinking, and smoking in public during daylight is avoided out of respect. Many restaurants outside hotels close or shorten hours during the day and come alive after sunset. Sites and offices often run reduced hours. Against that, the atmosphere after iftar is genuinely one of the best things about visiting Egypt — cities stay awake and social deep into the night.",
+              "needsReview": false
+            },
+            {
+              "_key": "is-english-widely-spoken-in-egypt",
+              "question": "Is English widely spoken in Egypt?",
+              "internalLink": "/language-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "In Cairo, the resort towns, and anywhere serving tourism — hotels, guides, drivers, larger shops — yes, commonly. Away from those, less so, and in the countryside barely at all. A handful of Arabic phrases goes a disproportionately long way.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-arabic-phrases-are-worth-knowing",
+              "question": "What Arabic phrases are worth knowing?",
+              "internalLink": "/language-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "*As-salamu alaykum* (peace be upon you) as a universal greeting, answered with *wa alaykum as-salam*. *Shukran* for thank you. *Min fadlak* (to a man) or *min fadlik* (to a woman) for please. *La shukran* — no, thank you — is the single most useful phrase in a bazaar. *Yalla* means let's go and you will hear it constantly.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-are-the-rules-around-alcohol-in-egypt",
+              "question": "What are the rules around alcohol in Egypt?",
+              "internalLink": "/alcohol-in-egypt/",
+              "status": "CORRECTION — legacy answer had the age missing entirely",
+              "answer": "The legal drinking age is 21. Alcohol is served in licensed hotels, bars, restaurants, and resorts, and sold at licensed shops. It is not part of ordinary public life, and drinking in public spaces or being visibly drunk outside a venue is poorly received. During Ramadan, availability narrows considerably.",
+              "needsReview": true
+            },
+            {
+              "_key": "what-festivals-might-i-encounter",
+              "question": "What festivals might I encounter?",
+              "internalLink": null,
+              "status": "Rewritten and expanded — legacy answer had the Coptic Christmas date stripped and omitted Sham El-Nessim and Abu Simbel entirely, which are the two most visitor-relevant events on the list",
+              "answer": "Ramadan and the two Eids (al-Fitr and al-Adha) reshape the calendar and shift each year against the Gregorian date. Moulid al-Nabi marks the Prophet's birthday. Coptic Christmas falls on 7 January. Sham El-Nessim, a spring festival with pharaonic roots, is celebrated by Egyptians of all faiths on the Monday after Coptic Easter. The Abu Simbel Sun Festival, when sunlight reaches the temple's inner sanctuary, draws crowds on 22 February and 22 October.",
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "title": "Getting around",
+          "slug": "getting-around",
+          "faqs": [
+            {
+              "_key": "what-transport-options-are-available-for-tourists",
+              "question": "What transport options are available for tourists?",
+              "internalLink": "/transportation-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Domestic flights connect Cairo with Luxor, Aswan, Abu Simbel, and the Red Sea, and save a lot of time. Sleeper trains run Cairo–Luxor–Aswan. Long-distance coaches cover most intercity routes. Within cities, ride-hailing apps are the simplest option for visitors. Nile cruise boats and feluccas cover the Luxor–Aswan stretch as an experience rather than pure transport.",
+              "needsReview": false
+            },
+            {
+              "_key": "how-do-i-get-around-cairo",
+              "question": "How do I get around Cairo?",
+              "internalLink": "/transportation-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "The Metro is fast, cheap, and genuinely the best way to cross the city during the day — it bypasses the traffic entirely. Ride-hailing apps are widely used and remove the fare negotiation problem that comes with street taxis. Street taxis work if you agree the fare before setting off. City buses are difficult to navigate without Arabic.",
+              "needsReview": false
+            },
+            {
+              "_key": "can-i-take-a-nile-cruise",
+              "question": "Can I take a Nile cruise?",
+              "internalLink": "/the-definitive-guide-to-egypt-nile-cruise/",
+              "status": "migrate-as-is",
+              "answer": "Yes, and it remains one of the best ways to see Upper Egypt. Standard itineraries run between Luxor and Aswan over three to seven nights, stopping at Edfu, Kom Ombo, and Esna. Options range from large cruise vessels to small dahabiyas under sail to Lake Nasser cruises reaching Abu Simbel by water.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-are-the-best-day-trips-from-cairo",
+              "question": "What are the best day trips from Cairo?",
+              "internalLink": "/private-day-tours/",
+              "status": "Rewritten — legacy answer referenced the Library of Alexandria as a historical site to visit; the ancient library no longer exists, and the Bibliotheca Alexandrina is a modern building",
+              "answer": "Giza and Saqqara together, which shows you the whole arc of pyramid development in a single day. Dahshur, for the Bent and Red Pyramids without the crowds. Alexandria, reachable by train, for the catacombs, the Mediterranean corniche, and a completely different urban character. Fayoum, for Wadi El Rayan and the whale fossils at Wadi El Hitan.",
+              "needsReview": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "title": "Wave 2 — Sites, museums and experiences",
+      "categories": [
+        {
+          "title": "Museums",
+          "slug": "museums",
+          "faqs": [
+            {
+              "_key": "should-i-visit-the-grand-egyptian-museum",
+              "question": "Should I visit the Grand Egyptian Museum?",
+              "internalLink": null,
+              "status": "NEW — the legacy page predates the opening and does not mention GEM anywhere. This is now the most important museum question on the site and it is entirely absent.",
+              "answer": "The Grand Egyptian Museum opened fully on 1 November 2025 and to the public on 4 November, standing beside the Giza plateau. It holds the complete Tutankhamun collection displayed together for the first time since Howard Carter's 1922 discovery — more than 5,000 objects, including the gold funerary mask — across twelve permanent galleries covering prehistory to the Graeco-Roman period. Allow considerably more time than you think.",
+              "needsReview": true
+            },
+            {
+              "_key": "whats-at-the-egyptian-museum-in-tahrir-square",
+              "question": "What's at the Egyptian Museum in Tahrir Square?",
+              "internalLink": "/must-visit-museums-in-egypt/",
+              "status": "CORRECTION — the legacy answer credits Tahrir with both the royal mummies and the Tutankhamun treasures. Neither has been true since 2021 and 2025 respectively.",
+              "answer": "The original 1902 museum in Tahrir Square still holds an enormous collection, but its two headline draws have moved: the Tutankhamun treasures went to the Grand Egyptian Museum, and the royal mummies went to the National Museum of Egyptian Civilization in Fustat. What remains is a dense, old-fashioned, and rewarding collection for anyone who wants depth rather than highlights.",
+              "needsReview": true
+            },
+            {
+              "_key": "where-are-the-royal-mummies",
+              "question": "Where are the royal mummies?",
+              "internalLink": null,
+              "status": "NEW",
+              "answer": "At the National Museum of Egyptian Civilization in Fustat, since the 2021 Pharaohs' Golden Parade moved them from Tahrir Square. They're displayed in a purpose-built, low-lit hall.",
+              "needsReview": true
+            },
+            {
+              "_key": "are-there-good-collections-outside-cairo",
+              "question": "Are there good collections outside Cairo?",
+              "internalLink": "/must-visit-museums-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "The Luxor Museum is smaller, better lit, and better curated than its size suggests — many people prefer it to Cairo's larger institutions. The Nubian Museum in Aswan covers a culture and a history that the Cairo museums barely touch.",
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "title": "Ancient sites",
+          "slug": "ancient-sites",
+          "faqs": [
+            {
+              "_key": "can-i-go-inside-the-pyramids-of-giza",
+              "question": "Can I go inside the Pyramids of Giza?",
+              "internalLink": "/the-pyramids-of-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Yes, within limits. The exteriors and the plateau are freely accessible with a site ticket. Interior access to the Great Pyramid of Khufu requires a separate ticket, issued in limited daily numbers, so arrive early or book ahead. The interior is a steep, narrow, unventilated climb, which is worth knowing before you commit.",
+              "needsReview": false
+            },
+            {
+              "_key": "can-i-see-the-sphinx-up-close",
+              "question": "Can I see the Sphinx up close?",
+              "internalLink": "/exploring-the-great-sphinx-of-giza/",
+              "status": "migrate-as-is",
+              "answer": "You can get close enough for detail and photography from the viewing terrace and the enclosure approach, though direct access to the Sphinx itself is restricted. It sits within the Giza complex, so it's covered by the same ticket.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-are-the-must-see-historical-sites-in-egypt",
+              "question": "What are the must-see historical sites in Egypt?",
+              "internalLink": "/historical-egypt-travel/",
+              "status": "migrate-as-is",
+              "answer": "Giza for the pyramids and the Sphinx. Saqqara for the Step Pyramid. Karnak and Luxor Temple. The Valley of the Kings. Abu Simbel. Philae. Edfu and Kom Ombo. That list covers roughly two and a half thousand years of building and is the spine of most itineraries.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-should-i-know-about-the-valley-of-the-kings",
+              "question": "What should I know about the Valley of the Kings?",
+              "internalLink": "/must-see-tombs-in-the-valley-of-the-kings/",
+              "status": "migrate-as-is",
+              "answer": "The standard ticket admits you to three tombs from a rotating open list. Tutankhamun, Seti I, and Ramesses V/VI each require separate tickets. Photography rules vary by tomb. The site is hot and almost entirely unshaded, so early morning is the only comfortable option.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-is-karnak-temple",
+              "question": "What is Karnak Temple?",
+              "internalLink": "/half-day-tour-of-luxor-karnak-temples/",
+              "status": "Legacy version linked this to an Aswan page. Karnak is in Luxor.",
+              "answer": "A vast temple complex on the east bank at Luxor, built and rebuilt over roughly two thousand years. The Great Hypostyle Hall — 134 columns, some over twenty metres — is the reason most people remember it. Allow at least two hours.",
+              "needsReview": false
+            },
+            {
+              "_key": "how-do-i-get-to-the-temple-of-philae",
+              "question": "How do I get to the Temple of Philae?",
+              "internalLink": "/places-to-visit-in-aswan/",
+              "status": "migrate-as-is",
+              "answer": "Philae sits on Agilkia Island near Aswan and is reached by motorboat from the Marina jetty. The temple, dedicated to Isis, was relocated stone by stone when Lake Nasser rose behind the High Dam. The setting on the water is a large part of the appeal.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-about-the-temple-of-edfu",
+              "question": "What about the Temple of Edfu?",
+              "internalLink": "/historical-sites-visited-by-a-nile-cruise/",
+              "status": "Legacy version linked to an Aswan page",
+              "answer": "Dedicated to Horus and among the best-preserved temples in Egypt, largely because it was buried in sand for centuries. It's a standard Nile cruise stop between Luxor and Aswan, traditionally approached by horse-drawn carriage from the mooring.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-is-the-dendera-temple-complex",
+              "question": "What is the Dendera Temple Complex?",
+              "internalLink": "/historical-sites-visited-by-a-nile-cruise/",
+              "status": "migrate-as-is",
+              "answer": "A remarkably intact temple to Hathor, north of Luxor, known for its painted ceiling and the astronomical reliefs. It sees a fraction of Karnak's visitors, which is much of its appeal. Reached by road from Luxor, often paired with Abydos in a long day.",
+              "needsReview": false
+            },
+            {
+              "_key": "why-visit-abydos",
+              "question": "Why visit Abydos?",
+              "internalLink": "/historical-sites-visited-by-a-nile-cruise/",
+              "status": "migrate-as-is",
+              "answer": "The Temple of Seti I holds some of the finest surviving relief carving in Egypt, and the Abydos King List — a carved sequence of pharaohs — is one of the most cited objects in Egyptology. Usually combined with Dendera as a full-day trip from Luxor.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-is-medinet-habu",
+              "question": "What is Medinet Habu?",
+              "internalLink": "/places-to-visit-in-luxor/",
+              "status": "Legacy version linked to an Aswan page",
+              "answer": "The mortuary temple of Ramesses III on the Luxor west bank. The reliefs retain more original colour than almost anywhere else, and the battle scenes on the outer walls are extraordinary. Quiet compared to the Valley of the Kings, which is a strong argument for going.",
+              "needsReview": false
+            },
+            {
+              "_key": "why-visit-the-step-pyramid-of-djoser",
+              "question": "Why visit the Step Pyramid of Djoser?",
+              "internalLink": "/the-pyramids-of-egypt/",
+              "status": "Legacy version linked to a museums page",
+              "answer": "It's the oldest large stone structure of its kind in Egypt, at Saqqara, and marks the architectural step between mastaba tombs and true pyramids. The reopened interior and the surrounding funerary complex reward more time than the standard coach stop allows.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-are-the-lesser-known-ancient-sites",
+              "question": "What are the lesser-known ancient sites?",
+              "internalLink": "/historical-egypt-travel/",
+              "status": "migrate-as-is",
+              "answer": "Dahshur, for the Bent Pyramid and the Red Pyramid — Sneferu's experiments, and far quieter than Giza. Memphis, the Old Kingdom capital, now an open-air site. Beni Hasan and Tuna el-Gebel in Middle Egypt. Kom Ombo's double temple, which most cruise passengers see but few plan for.",
+              "needsReview": false
+            },
+            {
+              "_key": "can-i-take-a-hot-air-balloon-ride-in-luxor",
+              "question": "Can I take a hot air balloon ride in Luxor?",
+              "internalLink": "/hot-air-balloons-ride-in-luxor-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Yes, over the west bank at sunrise. Flights lift before dawn and give you the Valley of the Kings, the mortuary temples, and the green strip of the Nile against the desert edge. Flights are weather-dependent and cancellations are common in winter.",
+              "needsReview": false
+            },
+            {
+              "_key": "where-can-i-learn-about-hieroglyphs",
+              "question": "Where can I learn about hieroglyphs?",
+              "internalLink": "/ancient-egyptian-kings/",
+              "status": "migrate-as-is",
+              "answer": "The Grand Egyptian Museum and the Egyptian Museum both run programming. In practice, the best learning happens on site with a good Egyptologist guide at Karnak, Medinet Habu, or the Valley of the Kings, where the carving is at reading distance.",
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "title": "Red Sea and outdoors",
+          "slug": "red-sea-and-outdoors",
+          "faqs": [
+            {
+              "_key": "where-are-the-best-beaches-in-egypt",
+              "question": "Where are the best beaches in Egypt?",
+              "internalLink": "/top-adventures-things-to-do-in-sharm-el-sheikh/",
+              "status": "migrate-as-is",
+              "answer": "Sharm El Sheikh for reef access straight off the shore. Hurghada for a long sandy stretch and the widest range of resorts. Dahab for a slower, low-rise atmosphere. Marsa Alam for quieter water and better marine encounters. The north coast and Marsa Matrouh have Mediterranean beaches with a different character and a short summer season.",
+              "needsReview": false
+            },
+            {
+              "_key": "is-egypt-good-for-diving-and-snorkelling",
+              "question": "Is Egypt good for diving and snorkelling?",
+              "internalLink": "/top-adventures-things-to-do-in-sharm-el-sheikh/",
+              "status": "migrate-as-is",
+              "answer": "The Red Sea is one of the world's serious diving destinations — high visibility, healthy hard coral, and reef systems reachable from shore. Ras Muhammad National Park near Sharm El Sheikh, the Straits of Tiran, and the offshore reefs from Hurghada and Marsa Alam are the headline sites. Courses run year-round at every level.",
+              "needsReview": false
+            },
+            {
+              "_key": "is-there-wreck-diving-in-the-red-sea",
+              "question": "Is there wreck diving in the Red Sea?",
+              "internalLink": "/safety-tips-while-diving-in-the-red-sea/",
+              "status": "CORRECTION — the legacy page renders this as \"This telegram wreck,\" which appears twice. It is the SS Thistlegorm.",
+              "answer": "Yes — the SS Thistlegorm, a British merchant vessel sunk in 1941 with its cargo still in the holds, is among the most dived wrecks in the world. Abu Nuhas reef holds several more.",
+              "needsReview": true
+            },
+            {
+              "_key": "where-can-i-windsurf-or-kitesurf",
+              "question": "Where can I windsurf or kitesurf?",
+              "internalLink": "/top-adventures-things-to-do-in-sharm-el-sheikh/",
+              "status": "migrate-as-is",
+              "answer": "Dahab and Hurghada both have reliable wind. Dahab's lagoon is shallow and forgiving, which makes it a standard beginner location. Hurghada, Soma Bay, and El Gouna suit progression and higher wind.",
+              "needsReview": false
+            },
+            {
+              "_key": "where-can-i-hike-in-egypt",
+              "question": "Where can I hike in Egypt?",
+              "internalLink": "/the-western-desert-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Sinai is the main hiking region — Mount Sinai itself, and the wider Bedouin-led trail networks through the interior. The Red Sea Mountains offer harder routes. Hiking in Sinai is done with local Bedouin guides, which is both a permit matter and the reason the walking is good.",
+              "needsReview": false
+            },
+            {
+              "_key": "how-do-i-get-to-mount-sinai",
+              "question": "How do I get to Mount Sinai?",
+              "internalLink": "/sinai-historical-sites/",
+              "status": "migrate-as-is",
+              "answer": "From Dahab, Sharm El Sheikh, or St Catherine village. The standard approach is a night ascent timed for sunrise, either by the camel path or the steeper Steps of Repentance. It's cold at the summit before dawn regardless of season.",
+              "needsReview": false
+            },
+            {
+              "_key": "can-i-visit-st-catherines-monastery",
+              "question": "Can I visit St Catherine's Monastery?",
+              "internalLink": "/sinai-historical-sites/",
+              "status": "VERIFY opening days before publishing",
+              "answer": "Yes. It sits at the foot of Mount Sinai and is among the oldest continuously operating Christian monasteries in the world, a UNESCO World Heritage Site holding an exceptional icon and manuscript collection. Opening hours are short and it closes to visitors on Fridays, Sundays, and feast days.",
+              "needsReview": true
+            },
+            {
+              "_key": "can-i-do-a-camel-safari",
+              "question": "Can I do a camel safari?",
+              "internalLink": "/sinai-desert-safaris/",
+              "status": "migrate-as-is",
+              "answer": "Short rides operate on the Giza plateau, which give you the pyramids from the desert side rather than the road. Longer multi-day treks run in Sinai with Bedouin guides, and in the Western Desert around the oases.",
+              "needsReview": false
+            },
+            {
+              "_key": "how-do-i-get-to-the-bahariya-oasis-and-the-white-desert",
+              "question": "How do I get to the Bahariya Oasis and the White Desert?",
+              "internalLink": "/the-western-desert-in-egypt/",
+              "status": "CORRECTION — legacy answer had the drive time stripped and linked to a Lake Nasser cruise page",
+              "answer": "Bahariya is roughly a four-hour drive from Cairo into the Western Desert and is the usual base for the Black and White Deserts. Overnight camping among the chalk formations of the White Desert is the reason most people go.",
+              "needsReview": true
+            },
+            {
+              "_key": "what-is-there-at-siwa-oasis",
+              "question": "What is there at Siwa Oasis?",
+              "internalLink": "/siwa-oasis-a-timeless-epic-adventure/",
+              "status": "migrate-as-is",
+              "answer": "Siwa sits near the Libyan border, about eight to ten hours from Cairo, and has a distinct Berber culture and language. The Oracle Temple of Amun, the mud-brick Shali fortress, salt lakes, hot springs, and the Great Sand Sea are the draws. It is a commitment to reach and that keeps it quiet.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-national-parks-and-reserves-are-worth-visiting",
+              "question": "What national parks and reserves are worth visiting?",
+              "internalLink": "/best-ecolodges-in-fayoum/",
+              "status": "migrate-as-is",
+              "answer": "Ras Muhammad National Park at the southern tip of Sinai, for reef and mangrove. Wadi El Rayan and Wadi El Hitan in Fayoum — the latter a UNESCO site holding fossil skeletons of early whales. Wadi El Gemal on the southern Red Sea coast.",
+              "needsReview": false
+            },
+            {
+              "_key": "where-can-i-go-birdwatching-in-egypt",
+              "question": "Where can I go birdwatching in Egypt?",
+              "internalLink": "/best-ecolodges-in-fayoum/",
+              "status": "migrate-as-is",
+              "answer": "Egypt sits on a major migration flyway. Lake Nasser and the Aswan stretch of the Nile, the Delta lakes, Wadi El Rayan in Fayoum, and the Red Sea coast during spring and autumn passage are the productive areas.",
+              "needsReview": false
+            },
+            {
+              "_key": "are-there-eco-lodges-and-sustainable-options",
+              "question": "Are there eco-lodges and sustainable options?",
+              "internalLink": "/eco-lodges-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Yes — off-grid lodges in Siwa, Fayoum, and along the southern Red Sea coast, several of which are built from local materials and staffed locally. Some operators run itineraries built around low impact and community benefit.",
+              "needsReview": false
+            }
+          ]
+        },
+        {
+          "title": "Food, markets and living culture",
+          "slug": "food-markets-and-living-culture",
+          "faqs": [
+            {
+              "_key": "what-egyptian-dishes-should-i-try",
+              "question": "What Egyptian dishes should I try?",
+              "internalLink": "/the-evolution-of-food-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Koshari — rice, lentils, macaroni, chickpeas, tomato sauce, fried onions — is the national dish and the best cheap meal in the country. Ful medames, slow-cooked fava beans, is breakfast. Ta'ameya is Egypt's falafel, made with fava rather than chickpeas and greener inside than you expect. Molokhia, a jute-leaf soup with a distinctive texture, served over rice with chicken or rabbit. Hawawshi, spiced minced meat baked into bread. Om Ali for dessert.",
+              "needsReview": false
+            },
+            {
+              "_key": "can-i-do-a-food-tour-or-cooking-class",
+              "question": "Can I do a food tour or cooking class?",
+              "internalLink": "/culinary-journey-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "Yes, in Cairo, Alexandria, Luxor, and Aswan. Cooking classes typically cover koshari, ta'ameya, and stuffed vegetables. Food walks through Downtown Cairo or Khan El Khalili cover street food you would otherwise walk past.",
+              "needsReview": false
+            },
+            {
+              "_key": "which-markets-are-worth-visiting",
+              "question": "Which markets are worth visiting?",
+              "internalLink": "/a-visit-to-cairos-khan-el-khalili-bazaar/",
+              "status": "migrate-as-is",
+              "answer": "Khan El Khalili in Cairo, running since the fourteenth century, for metalwork, glass, spices, and the coffee houses in its side lanes. Aswan's souk for Nubian crafts, spices, and hibiscus. Luxor's souk for alabaster. Haggling is expected in all three and is a social exchange rather than a confrontation.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-are-the-best-souvenirs-from-egypt",
+              "question": "What are the best souvenirs from Egypt?",
+              "internalLink": null,
+              "status": "NEW ANSWER — the legacy page has this question with **no answer at all** beneath it. It has been sitting empty on a live page.",
+              "answer": "Hand-blown Muski glass, inlaid mother-of-pearl boxes, cotton and linen textiles, papyrus from a workshop that can show you the process, alabaster from Luxor, spices and dried hibiscus, Siwan silver, and Nubian basketry. Avoid anything presented as a genuine antiquity — exporting antiquities is illegal and the items on offer are not what they're described as.",
+              "needsReview": true
+            },
+            {
+              "_key": "can-i-visit-a-nubian-village",
+              "question": "Can I visit a Nubian village?",
+              "internalLink": "/things-to-do-in-aswan/",
+              "status": "migrate-as-is",
+              "answer": "Yes. Gharb Soheil and the villages on Elephantine Island near Aswan receive visitors, with brightly painted houses, distinct architecture, and a culture and language separate from the rest of Egypt. Going with a Nubian-run operator makes the difference between a visit and a photo stop.",
+              "needsReview": false
+            },
+            {
+              "_key": "where-can-i-see-coptic-christian-heritage",
+              "question": "Where can I see Coptic Christian heritage?",
+              "internalLink": "/exploring-coptic-cairo/",
+              "status": "migrate-as-is",
+              "answer": "Old Cairo, principally — the Hanging Church, the Church of St Sergius and Bacchus, the Coptic Museum, and the Ben Ezra Synagogue in the same compound. Together they cover a religious history most visitors to Egypt never encounter.",
+              "needsReview": false
+            },
+            {
+              "_key": "where-can-i-see-islamic-architecture",
+              "question": "Where can I see Islamic architecture?",
+              "internalLink": "/must-visit-islamic-places-in-cairo/",
+              "status": "Merged from two near-identical legacy entries",
+              "answer": "Historic Cairo is a UNESCO World Heritage Site in its own right. The Mosque of Ibn Tulun, the Sultan Hassan and Al-Rifa'i mosques facing each other beneath the Citadel, Al-Azhar, and the Mosque of Amr ibn al-As — the first mosque built in Egypt and in Africa. Al-Muizz Street runs through the densest concentration of medieval Islamic architecture anywhere.",
+              "needsReview": false
+            },
+            {
+              "_key": "where-is-the-nightlife-in-egypt",
+              "question": "Where is the nightlife in Egypt?",
+              "internalLink": "/places-to-visit-in-cairo-at-night/",
+              "status": "migrate-as-is",
+              "answer": "Cairo's Zamalek and Downtown have the bar and restaurant density, with rooftop venues along the Nile. Sharm El Sheikh and Hurghada have resort-driven nightlife. Outside these, evenings are more about coffee houses, shisha, and staying out very late than about clubs.",
+              "needsReview": false
+            },
+            {
+              "_key": "what-cultural-performances-can-i-see",
+              "question": "What cultural performances can I see?",
+              "internalLink": "/cultural-travel-guides-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "The Sound and Light shows at Giza, Karnak, and Philae. Tanoura, the Egyptian Sufi whirling performance, at Wekalet El Ghouri in Cairo. The Cairo Opera House programmes classical Arabic and Western music. Traditional music venues in Downtown Cairo run late.",
+              "needsReview": false
+            },
+            {
+              "_key": "should-i-hire-a-local-guide",
+              "question": "Should I hire a local guide?",
+              "internalLink": "/cultural-travel-guides-in-egypt/",
+              "status": "migrate-as-is",
+              "answer": "For the major sites, a licensed Egyptologist guide changes the experience substantially — the carving on a temple wall is a text, and without someone to read it you're looking at decoration. Book through a licensed operator rather than at the gate.",
+              "needsReview": false
+            },
+            {
+              "_key": "is-egypt-good-for-a-family-trip",
+              "question": "Is Egypt good for a family trip?",
+              "internalLink": "/historical-egypt-trips-for-families/",
+              "status": "migrate-as-is",
+              "answer": "It works well. Cairo and Giza carry their own appeal for children who arrive already interested in pyramids. The Red Sea resorts handle the beach and downtime half of a trip. Nile cruises suit families because the travel happens while everyone is asleep or eating. Pacing matters more than anywhere — heat and long site days wear children down fast.",
+              "needsReview": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

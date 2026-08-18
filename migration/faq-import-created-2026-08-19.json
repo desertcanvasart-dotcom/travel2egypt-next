@@ -1,0 +1,400 @@
+{
+  "created": [
+    "drafts.faq-category-ancient-sites",
+    "drafts.faq-category-food-markets-and-living-culture",
+    "drafts.faq-category-getting-around",
+    "drafts.faq-category-museums",
+    "drafts.faq-category-red-sea-and-outdoors",
+    "drafts.faq-entry-are-there-eco-lodges-and-sustainable-options",
+    "drafts.faq-entry-are-there-good-collections-outside-cairo",
+    "drafts.faq-entry-are-there-health-concerns-before-travelling-to-egypt",
+    "drafts.faq-entry-can-i-do-a-camel-safari",
+    "drafts.faq-entry-can-i-do-a-food-tour-or-cooking-class",
+    "drafts.faq-entry-can-i-go-inside-the-pyramids-of-giza",
+    "drafts.faq-entry-can-i-see-the-sphinx-up-close",
+    "drafts.faq-entry-can-i-take-a-hot-air-balloon-ride-in-luxor",
+    "drafts.faq-entry-can-i-take-a-nile-cruise",
+    "drafts.faq-entry-can-i-visit-a-nubian-village",
+    "drafts.faq-entry-can-i-visit-st-catherines-monastery",
+    "drafts.faq-entry-how-do-i-get-around-cairo",
+    "drafts.faq-entry-how-do-i-get-to-mount-sinai",
+    "drafts.faq-entry-how-do-i-get-to-the-bahariya-oasis-and-the-white-desert",
+    "drafts.faq-entry-how-do-i-get-to-the-temple-of-philae",
+    "drafts.faq-entry-how-should-i-dress-when-visiting-egypt",
+    "drafts.faq-entry-is-egypt-good-for-a-family-trip",
+    "drafts.faq-entry-is-egypt-good-for-diving-and-snorkelling",
+    "drafts.faq-entry-is-there-wreck-diving-in-the-red-sea",
+    "drafts.faq-entry-should-i-hire-a-local-guide",
+    "drafts.faq-entry-should-i-visit-the-grand-egyptian-museum",
+    "drafts.faq-entry-what-about-the-temple-of-edfu",
+    "drafts.faq-entry-what-are-the-best-day-trips-from-cairo",
+    "drafts.faq-entry-what-are-the-best-souvenirs-from-egypt",
+    "drafts.faq-entry-what-are-the-lesser-known-ancient-sites",
+    "drafts.faq-entry-what-are-the-must-see-historical-sites-in-egypt",
+    "drafts.faq-entry-what-are-the-rules-around-alcohol-in-egypt",
+    "drafts.faq-entry-what-are-the-rules-on-flying-a-drone-in-egypt",
+    "drafts.faq-entry-what-cultural-performances-can-i-see",
+    "drafts.faq-entry-what-customs-and-traditions-should-i-be-aware-of",
+    "drafts.faq-entry-what-egyptian-dishes-should-i-try",
+    "drafts.faq-entry-what-festivals-might-i-encounter",
+    "drafts.faq-entry-what-is-karnak-temple",
+    "drafts.faq-entry-what-is-medinet-habu",
+    "drafts.faq-entry-what-is-the-dendera-temple-complex",
+    "drafts.faq-entry-what-is-the-weather-like-across-the-year",
+    "drafts.faq-entry-what-is-there-at-siwa-oasis",
+    "drafts.faq-entry-what-national-parks-and-reserves-are-worth-visiting",
+    "drafts.faq-entry-what-should-i-know-about-the-valley-of-the-kings",
+    "drafts.faq-entry-what-should-i-know-about-travelling-during-ramadan",
+    "drafts.faq-entry-what-should-i-pack-for-egypt",
+    "drafts.faq-entry-what-transport-options-are-available-for-tourists",
+    "drafts.faq-entry-whats-at-the-egyptian-museum-in-tahrir-square",
+    "drafts.faq-entry-where-are-the-best-beaches-in-egypt",
+    "drafts.faq-entry-where-are-the-royal-mummies",
+    "drafts.faq-entry-where-can-i-go-birdwatching-in-egypt",
+    "drafts.faq-entry-where-can-i-hike-in-egypt",
+    "drafts.faq-entry-where-can-i-learn-about-hieroglyphs",
+    "drafts.faq-entry-where-can-i-see-coptic-christian-heritage",
+    "drafts.faq-entry-where-can-i-see-islamic-architecture",
+    "drafts.faq-entry-where-can-i-windsurf-or-kitesurf",
+    "drafts.faq-entry-where-is-the-nightlife-in-egypt",
+    "drafts.faq-entry-which-markets-are-worth-visiting",
+    "drafts.faq-entry-why-visit-abydos",
+    "drafts.faq-entry-why-visit-the-step-pyramid-of-djoser"
+  ],
+  "skippedOverlap": [
+    {
+      "key": "when-is-the-best-time-to-visit-egypt",
+      "liveId": "faq-entry-when-is-the-best-time-to-visit-egypt",
+      "question": "When is the best time to visit Egypt?"
+    },
+    {
+      "key": "do-i-need-a-visa-to-travel-to-egypt",
+      "liveId": "faq-entry-do-i-need-a-visa-for-egypt",
+      "question": "Do I need a visa to travel to Egypt?"
+    },
+    {
+      "key": "how-much-should-i-budget-per-day",
+      "liveId": "faq-entry-how-much-should-i-budget-per-day",
+      "question": "How much should I budget per day?"
+    },
+    {
+      "key": "what-currency-is-used-in-egypt",
+      "liveId": "faq-entry-what-currency-does-egypt-use",
+      "question": "What currency is used in Egypt?"
+    },
+    {
+      "key": "can-i-use-credit-cards-throughout-egypt",
+      "liveId": "faq-entry-are-credit-cards-accepted-everywhere",
+      "question": "Can I use credit cards throughout Egypt?"
+    },
+    {
+      "key": "how-does-tipping-work-in-egypt",
+      "liveId": "faq-entry-how-does-tipping-work-in-egypt",
+      "question": "How does tipping work in Egypt?"
+    },
+    {
+      "key": "can-i-get-a-local-sim-card-easily",
+      "liveId": "faq-entry-can-i-get-a-sim-card-in-egypt",
+      "question": "Can I get a local SIM card easily?"
+    },
+    {
+      "key": "what-time-zone-is-egypt-in",
+      "liveId": "faq-entry-what-time-zone-is-egypt",
+      "question": "What time zone is Egypt in?"
+    },
+    {
+      "key": "is-it-safe-to-travel-to-egypt-right-now",
+      "liveId": "faq-entry-is-egypt-safe-to-travel-right-now",
+      "question": "Is it safe to travel to Egypt right now?"
+    },
+    {
+      "key": "what-vaccinations-do-i-need-for-egypt",
+      "liveId": "faq-entry-what-vaccinations-do-i-need-for-egypt",
+      "question": "What vaccinations do I need for Egypt?"
+    },
+    {
+      "key": "can-i-drink-the-tap-water-in-egypt",
+      "liveId": "faq-entry-can-i-drink-the-tap-water-in-egypt",
+      "question": "Can I drink the tap water in Egypt?"
+    },
+    {
+      "key": "how-do-i-avoid-tourist-scams-in-egypt",
+      "liveId": "faq-entry-how-do-i-avoid-tourist-scams",
+      "question": "How do I avoid tourist scams in Egypt?"
+    },
+    {
+      "key": "are-there-restrictions-on-photography",
+      "liveId": "faq-entry-are-there-restrictions-on-photography",
+      "question": "Are there restrictions on photography?"
+    },
+    {
+      "key": "whats-the-dress-code-for-mosques-and-religious-sites",
+      "liveId": "faq-entry-whats-the-dress-code",
+      "question": "What's the dress code for mosques and religious sites?"
+    },
+    {
+      "key": "is-english-widely-spoken-in-egypt",
+      "liveId": "faq-entry-how-widely-is-english-spoken",
+      "question": "Is English widely spoken in Egypt?"
+    },
+    {
+      "key": "what-arabic-phrases-are-worth-knowing",
+      "liveId": "faq-entry-what-are-some-useful-arabic-phrases",
+      "question": "What Arabic phrases are worth knowing?"
+    }
+  ],
+  "needsReview": [
+    {
+      "id": "faq-entry-should-i-visit-the-grand-egyptian-museum",
+      "question": "Should I visit the Grand Egyptian Museum?",
+      "status": "NEW — the legacy page predates the opening and does not mention GEM anywhere. This is now the most important museum question on the site and it is entirely absent."
+    },
+    {
+      "id": "faq-entry-whats-at-the-egyptian-museum-in-tahrir-square",
+      "question": "What's at the Egyptian Museum in Tahrir Square?",
+      "status": "CORRECTION — the legacy answer credits Tahrir with both the royal mummies and the Tutankhamun treasures. Neither has been true since 2021 and 2025 respectively."
+    },
+    {
+      "id": "faq-entry-where-are-the-royal-mummies",
+      "question": "Where are the royal mummies?",
+      "status": "NEW"
+    },
+    {
+      "id": "faq-entry-is-there-wreck-diving-in-the-red-sea",
+      "question": "Is there wreck diving in the Red Sea?",
+      "status": "CORRECTION — the legacy page renders this as \"This telegram wreck,\" which appears twice. It is the SS Thistlegorm."
+    },
+    {
+      "id": "faq-entry-can-i-visit-st-catherines-monastery",
+      "question": "Can I visit St Catherine's Monastery?",
+      "status": "VERIFY opening days before publishing"
+    },
+    {
+      "id": "faq-entry-how-do-i-get-to-the-bahariya-oasis-and-the-white-desert",
+      "question": "How do I get to the Bahariya Oasis and the White Desert?",
+      "status": "CORRECTION — legacy answer had the drive time stripped and linked to a Lake Nasser cruise page"
+    },
+    {
+      "id": "faq-entry-what-are-the-best-souvenirs-from-egypt",
+      "question": "What are the best souvenirs from Egypt?",
+      "status": "NEW ANSWER — the legacy page has this question with **no answer at all** beneath it. It has been sitting empty on a live page."
+    }
+  ],
+  "linkHints": [
+    {
+      "id": "faq-entry-what-transport-options-are-available-for-tourists",
+      "question": "What transport options are available for tourists?",
+      "hint": "/transportation-in-egypt/"
+    },
+    {
+      "id": "faq-entry-how-do-i-get-around-cairo",
+      "question": "How do I get around Cairo?",
+      "hint": "/transportation-in-egypt/"
+    },
+    {
+      "id": "faq-entry-can-i-take-a-nile-cruise",
+      "question": "Can I take a Nile cruise?",
+      "hint": "/the-definitive-guide-to-egypt-nile-cruise/"
+    },
+    {
+      "id": "faq-entry-what-are-the-best-day-trips-from-cairo",
+      "question": "What are the best day trips from Cairo?",
+      "hint": "/private-day-tours/"
+    },
+    {
+      "id": "faq-entry-whats-at-the-egyptian-museum-in-tahrir-square",
+      "question": "What's at the Egyptian Museum in Tahrir Square?",
+      "hint": "/must-visit-museums-in-egypt/"
+    },
+    {
+      "id": "faq-entry-are-there-good-collections-outside-cairo",
+      "question": "Are there good collections outside Cairo?",
+      "hint": "/must-visit-museums-in-egypt/"
+    },
+    {
+      "id": "faq-entry-can-i-go-inside-the-pyramids-of-giza",
+      "question": "Can I go inside the Pyramids of Giza?",
+      "hint": "/the-pyramids-of-egypt/"
+    },
+    {
+      "id": "faq-entry-can-i-see-the-sphinx-up-close",
+      "question": "Can I see the Sphinx up close?",
+      "hint": "/exploring-the-great-sphinx-of-giza/"
+    },
+    {
+      "id": "faq-entry-what-are-the-must-see-historical-sites-in-egypt",
+      "question": "What are the must-see historical sites in Egypt?",
+      "hint": "/historical-egypt-travel/"
+    },
+    {
+      "id": "faq-entry-what-should-i-know-about-the-valley-of-the-kings",
+      "question": "What should I know about the Valley of the Kings?",
+      "hint": "/must-see-tombs-in-the-valley-of-the-kings/"
+    },
+    {
+      "id": "faq-entry-what-is-karnak-temple",
+      "question": "What is Karnak Temple?",
+      "hint": "/half-day-tour-of-luxor-karnak-temples/"
+    },
+    {
+      "id": "faq-entry-how-do-i-get-to-the-temple-of-philae",
+      "question": "How do I get to the Temple of Philae?",
+      "hint": "/places-to-visit-in-aswan/"
+    },
+    {
+      "id": "faq-entry-what-about-the-temple-of-edfu",
+      "question": "What about the Temple of Edfu?",
+      "hint": "/historical-sites-visited-by-a-nile-cruise/"
+    },
+    {
+      "id": "faq-entry-what-is-the-dendera-temple-complex",
+      "question": "What is the Dendera Temple Complex?",
+      "hint": "/historical-sites-visited-by-a-nile-cruise/"
+    },
+    {
+      "id": "faq-entry-why-visit-abydos",
+      "question": "Why visit Abydos?",
+      "hint": "/historical-sites-visited-by-a-nile-cruise/"
+    },
+    {
+      "id": "faq-entry-what-is-medinet-habu",
+      "question": "What is Medinet Habu?",
+      "hint": "/places-to-visit-in-luxor/"
+    },
+    {
+      "id": "faq-entry-why-visit-the-step-pyramid-of-djoser",
+      "question": "Why visit the Step Pyramid of Djoser?",
+      "hint": "/the-pyramids-of-egypt/"
+    },
+    {
+      "id": "faq-entry-what-are-the-lesser-known-ancient-sites",
+      "question": "What are the lesser-known ancient sites?",
+      "hint": "/historical-egypt-travel/"
+    },
+    {
+      "id": "faq-entry-can-i-take-a-hot-air-balloon-ride-in-luxor",
+      "question": "Can I take a hot air balloon ride in Luxor?",
+      "hint": "/hot-air-balloons-ride-in-luxor-egypt/"
+    },
+    {
+      "id": "faq-entry-where-can-i-learn-about-hieroglyphs",
+      "question": "Where can I learn about hieroglyphs?",
+      "hint": "/ancient-egyptian-kings/"
+    },
+    {
+      "id": "faq-entry-where-are-the-best-beaches-in-egypt",
+      "question": "Where are the best beaches in Egypt?",
+      "hint": "/top-adventures-things-to-do-in-sharm-el-sheikh/"
+    },
+    {
+      "id": "faq-entry-is-egypt-good-for-diving-and-snorkelling",
+      "question": "Is Egypt good for diving and snorkelling?",
+      "hint": "/top-adventures-things-to-do-in-sharm-el-sheikh/"
+    },
+    {
+      "id": "faq-entry-is-there-wreck-diving-in-the-red-sea",
+      "question": "Is there wreck diving in the Red Sea?",
+      "hint": "/safety-tips-while-diving-in-the-red-sea/"
+    },
+    {
+      "id": "faq-entry-where-can-i-windsurf-or-kitesurf",
+      "question": "Where can I windsurf or kitesurf?",
+      "hint": "/top-adventures-things-to-do-in-sharm-el-sheikh/"
+    },
+    {
+      "id": "faq-entry-where-can-i-hike-in-egypt",
+      "question": "Where can I hike in Egypt?",
+      "hint": "/the-western-desert-in-egypt/"
+    },
+    {
+      "id": "faq-entry-how-do-i-get-to-mount-sinai",
+      "question": "How do I get to Mount Sinai?",
+      "hint": "/sinai-historical-sites/"
+    },
+    {
+      "id": "faq-entry-can-i-visit-st-catherines-monastery",
+      "question": "Can I visit St Catherine's Monastery?",
+      "hint": "/sinai-historical-sites/"
+    },
+    {
+      "id": "faq-entry-can-i-do-a-camel-safari",
+      "question": "Can I do a camel safari?",
+      "hint": "/sinai-desert-safaris/"
+    },
+    {
+      "id": "faq-entry-how-do-i-get-to-the-bahariya-oasis-and-the-white-desert",
+      "question": "How do I get to the Bahariya Oasis and the White Desert?",
+      "hint": "/the-western-desert-in-egypt/"
+    },
+    {
+      "id": "faq-entry-what-is-there-at-siwa-oasis",
+      "question": "What is there at Siwa Oasis?",
+      "hint": "/siwa-oasis-a-timeless-epic-adventure/"
+    },
+    {
+      "id": "faq-entry-what-national-parks-and-reserves-are-worth-visiting",
+      "question": "What national parks and reserves are worth visiting?",
+      "hint": "/best-ecolodges-in-fayoum/"
+    },
+    {
+      "id": "faq-entry-where-can-i-go-birdwatching-in-egypt",
+      "question": "Where can I go birdwatching in Egypt?",
+      "hint": "/best-ecolodges-in-fayoum/"
+    },
+    {
+      "id": "faq-entry-are-there-eco-lodges-and-sustainable-options",
+      "question": "Are there eco-lodges and sustainable options?",
+      "hint": "/eco-lodges-in-egypt/"
+    },
+    {
+      "id": "faq-entry-what-egyptian-dishes-should-i-try",
+      "question": "What Egyptian dishes should I try?",
+      "hint": "/the-evolution-of-food-in-egypt/"
+    },
+    {
+      "id": "faq-entry-can-i-do-a-food-tour-or-cooking-class",
+      "question": "Can I do a food tour or cooking class?",
+      "hint": "/culinary-journey-in-egypt/"
+    },
+    {
+      "id": "faq-entry-which-markets-are-worth-visiting",
+      "question": "Which markets are worth visiting?",
+      "hint": "/a-visit-to-cairos-khan-el-khalili-bazaar/"
+    },
+    {
+      "id": "faq-entry-can-i-visit-a-nubian-village",
+      "question": "Can I visit a Nubian village?",
+      "hint": "/things-to-do-in-aswan/"
+    },
+    {
+      "id": "faq-entry-where-can-i-see-coptic-christian-heritage",
+      "question": "Where can I see Coptic Christian heritage?",
+      "hint": "/exploring-coptic-cairo/"
+    },
+    {
+      "id": "faq-entry-where-can-i-see-islamic-architecture",
+      "question": "Where can I see Islamic architecture?",
+      "hint": "/must-visit-islamic-places-in-cairo/"
+    },
+    {
+      "id": "faq-entry-where-is-the-nightlife-in-egypt",
+      "question": "Where is the nightlife in Egypt?",
+      "hint": "/places-to-visit-in-cairo-at-night/"
+    },
+    {
+      "id": "faq-entry-what-cultural-performances-can-i-see",
+      "question": "What cultural performances can I see?",
+      "hint": "/cultural-travel-guides-in-egypt/"
+    },
+    {
+      "id": "faq-entry-should-i-hire-a-local-guide",
+      "question": "Should I hire a local guide?",
+      "hint": "/cultural-travel-guides-in-egypt/"
+    },
+    {
+      "id": "faq-entry-is-egypt-good-for-a-family-trip",
+      "question": "Is Egypt good for a family trip?",
+      "hint": "/historical-egypt-trips-for-families/"
+    }
+  ]
+}
