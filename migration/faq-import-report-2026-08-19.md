@@ -27,6 +27,21 @@ Owner instructed: publish categories + safe drafts. DONE — all 5 categories
 and the 46 safe entries are live (70 published Q&As on /faq, FAQPage schema
 verified at 70). ONLY the 9 VERIFY drafts below remain unpublished.
 
+## Localization status (2026-08-19, later the same day)
+
+Owner supplied ES + JA renderings (same `_key`s; ES impersonal register per
+its notes; market-specific divergences flagged in-source). Applied to all 55
+imported entries (46 published + 9 held drafts) and the 5 new categories —
+/es/faq and /ja/faq verified: 46 localized Q&As each, localized category
+headings, no °F on JA. Numeric-claim gate ran clean (all diffs = EN
+word-numbers vs digits, locale separators, or flagged market additions).
+
+Still EN-only (pre-existing backlog, NOT touched today): the original 24
+entries, the 7 original category names, the /faq page chrome
+(`messages/*.json` faq namespace — ES/JA hold untranslated EN copies), and
+the 16 overlap ES/JA renderings, which stay parked until the overlap
+upgrade decisions (they render the MIGRATION answers, not the live ones).
+
 ## ⚠ Fact-check, then publish (9 drafts still held)
 
 (Two of these — drone rules, alcohol rules — were missing from this report's
