@@ -145,14 +145,24 @@
   ],
   "needsReview": [
     {
+      "id": "faq-entry-what-are-the-rules-on-flying-a-drone-in-egypt",
+      "question": "What are the rules on flying a drone in Egypt?",
+      "status": "VERIFY current customs procedure"
+    },
+    {
+      "id": "faq-entry-what-are-the-rules-around-alcohol-in-egypt",
+      "question": "What are the rules around alcohol in Egypt?",
+      "status": "CORRECTION \u2014 legacy answer had the age missing entirely"
+    },
+    {
       "id": "faq-entry-should-i-visit-the-grand-egyptian-museum",
       "question": "Should I visit the Grand Egyptian Museum?",
-      "status": "NEW — the legacy page predates the opening and does not mention GEM anywhere. This is now the most important museum question on the site and it is entirely absent."
+      "status": "NEW \u2014 the legacy page predates the opening and does not mention GEM anywhere. This is now the most important museum question on the site and it is entirely absent."
     },
     {
       "id": "faq-entry-whats-at-the-egyptian-museum-in-tahrir-square",
       "question": "What's at the Egyptian Museum in Tahrir Square?",
-      "status": "CORRECTION — the legacy answer credits Tahrir with both the royal mummies and the Tutankhamun treasures. Neither has been true since 2021 and 2025 respectively."
+      "status": "CORRECTION \u2014 the legacy answer credits Tahrir with both the royal mummies and the Tutankhamun treasures. Neither has been true since 2021 and 2025 respectively."
     },
     {
       "id": "faq-entry-where-are-the-royal-mummies",
@@ -162,7 +172,7 @@
     {
       "id": "faq-entry-is-there-wreck-diving-in-the-red-sea",
       "question": "Is there wreck diving in the Red Sea?",
-      "status": "CORRECTION — the legacy page renders this as \"This telegram wreck,\" which appears twice. It is the SS Thistlegorm."
+      "status": "CORRECTION \u2014 the legacy page renders this as \"This telegram wreck,\" which appears twice. It is the SS Thistlegorm."
     },
     {
       "id": "faq-entry-can-i-visit-st-catherines-monastery",
@@ -172,12 +182,12 @@
     {
       "id": "faq-entry-how-do-i-get-to-the-bahariya-oasis-and-the-white-desert",
       "question": "How do I get to the Bahariya Oasis and the White Desert?",
-      "status": "CORRECTION — legacy answer had the drive time stripped and linked to a Lake Nasser cruise page"
+      "status": "CORRECTION \u2014 legacy answer had the drive time stripped and linked to a Lake Nasser cruise page"
     },
     {
       "id": "faq-entry-what-are-the-best-souvenirs-from-egypt",
       "question": "What are the best souvenirs from Egypt?",
-      "status": "NEW ANSWER — the legacy page has this question with **no answer at all** beneath it. It has been sitting empty on a live page."
+      "status": "NEW ANSWER \u2014 the legacy page has this question with **no answer at all** beneath it. It has been sitting empty on a live page."
     }
   ],
   "linkHints": [
@@ -396,5 +406,20 @@
       "question": "Is Egypt good for a family trip?",
       "hint": "/historical-egypt-trips-for-families/"
     }
-  ]
+  ],
+  "publishState": {
+    "publishedAt": "2026-08-19",
+    "published": "5 categories + 46 safe entries (scripts/publish-faq-import.ts)",
+    "heldAsDrafts": [
+      "faq-entry-what-are-the-rules-on-flying-a-drone-in-egypt",
+      "faq-entry-what-are-the-rules-around-alcohol-in-egypt",
+      "faq-entry-should-i-visit-the-grand-egyptian-museum",
+      "faq-entry-whats-at-the-egyptian-museum-in-tahrir-square",
+      "faq-entry-where-are-the-royal-mummies",
+      "faq-entry-is-there-wreck-diving-in-the-red-sea",
+      "faq-entry-can-i-visit-st-catherines-monastery",
+      "faq-entry-how-do-i-get-to-the-bahariya-oasis-and-the-white-desert",
+      "faq-entry-what-are-the-best-souvenirs-from-egypt"
+    ]
+  }
 }
