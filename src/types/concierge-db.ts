@@ -10,9 +10,12 @@
  *
  * Columns arriving in later migrations are added here alongside those
  * migrations: 0002 tour-context, 0003 escape-hatch, 0004 rate-limit action,
- * 0005 briefs.brief_revision (Session 9), 0006 anonymized_at (Session 10).
+ * 0005 briefs.brief_revision (Session 9), 0006 anonymized_at (Session 10),
+ * 0007 conversations.routed_brand/routing_reason + briefs.delivered_brand
+ * (Session 13 — portfolio triage routing).
  * NOTE: 0005 must be applied in the Dashboard before any briefs row is written
  * with brief_revision (i.e. before live S9 Phase 3) — see the build brief.
+ * Likewise 0007 must be applied before the v4.2 prompt + routing wiring ship.
  */
 
 export type Json = string | number | boolean | null | { [key: string]: Json | undefined } | Json[];
@@ -80,6 +83,8 @@ export interface ConciergeDatabase {
           escape_hatch_used: boolean | null;
           escape_hatch_action: string | null;
           escape_hatch_at: string | null;
+          routed_brand: string; // migration 0007 (Session 13) — NOT NULL, default 'travel2egypt'
+          routing_reason: string | null; // migration 0007 (Session 13)
         };
         Insert: {
           id?: string;
@@ -101,6 +106,8 @@ export interface ConciergeDatabase {
           escape_hatch_used?: boolean | null;
           escape_hatch_action?: string | null;
           escape_hatch_at?: string | null;
+          routed_brand?: string; // migration 0007 (Session 13)
+          routing_reason?: string | null; // migration 0007 (Session 13)
         };
         Update: {
           id?: string;
@@ -122,6 +129,8 @@ export interface ConciergeDatabase {
           escape_hatch_used?: boolean | null;
           escape_hatch_action?: string | null;
           escape_hatch_at?: string | null;
+          routed_brand?: string; // migration 0007 (Session 13)
+          routing_reason?: string | null; // migration 0007 (Session 13)
         };
         Relationships: [
           {
@@ -190,6 +199,7 @@ export interface ConciergeDatabase {
           autoura_attempts: number | null;
           email_fallback_sent: boolean | null;
           brief_revision: number | null; // migration 0005 (Session 9)
+          delivered_brand: string | null; // migration 0007 (Session 13)
         };
         Insert: {
           id?: string;
@@ -201,6 +211,7 @@ export interface ConciergeDatabase {
           autoura_attempts?: number | null;
           email_fallback_sent?: boolean | null;
           brief_revision?: number | null;
+          delivered_brand?: string | null; // migration 0007 (Session 13)
         };
         Update: {
           id?: string;
@@ -212,6 +223,7 @@ export interface ConciergeDatabase {
           autoura_attempts?: number | null;
           email_fallback_sent?: boolean | null;
           brief_revision?: number | null;
+          delivered_brand?: string | null; // migration 0007 (Session 13)
         };
         Relationships: [
           {

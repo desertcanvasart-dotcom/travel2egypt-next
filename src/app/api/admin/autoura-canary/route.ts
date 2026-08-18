@@ -73,6 +73,8 @@ function buildCanaryBrief(): BriefPayload {
     brief_summary:
       'SYNTHETIC CANARY — scheduled dry-run contract probe from travel2egypt.org. Not a real lead; write nothing.',
     follow_up_window: null,
+    routed_brand: 'travel2egypt',
+    routing_reason: null,
   };
 }
 
@@ -111,6 +113,8 @@ export async function GET(req: NextRequest) {
     language: 'en',
     briefRevision: 1,
     isUpdate: false,
+    // Canary probes the anchor tenant — the platform always accepts it.
+    brand: 'travel2egypt',
   }, transcript);
 
   // Sign-once contract: these exact bytes are signed AND transmitted.

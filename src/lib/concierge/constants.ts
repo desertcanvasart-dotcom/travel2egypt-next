@@ -19,8 +19,9 @@ export const CONCIERGE_MODEL = 'claude-sonnet-4-6';
  * amendment in conciergePrompt.ts so briefs/exports attribute behavior to
  * the exact prompt that produced it.
  *  - v4.1.1 (2026-07-03): contact capture requires name + email + phone.
+ *  - v4.2 (S13, reconciled 2026-07-07): portfolio triage on the v4.1.1 base.
  */
-export const CONCIERGE_PROMPT_VERSION = 'v4.1.1';
+export const CONCIERGE_PROMPT_VERSION = 'v4.2';
 
 /**
  * Per-response output ceiling. v4.1 responses are conversational prose —

@@ -3,6 +3,7 @@ import { NextResponse, type NextRequest } from 'next/server';
 import { assertSameOrigin } from '@/lib/http/sameOrigin';
 
 import { deliverBrief } from '@/lib/concierge/autoura/deliver';
+import { coerceBrand } from '@/lib/concierge/brands';
 import { extractBrief, type ExtractionMessage } from '@/lib/briefExtraction';
 import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession } from '@/lib/concierge/session';
@@ -103,6 +104,13 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ complete: false } satisfies BriefResponse);
     }
 
+    // S13: the extraction read back the agent's routing decision (default
+    // 'travel2egypt' — the anchor — when the agent voiced no sister-brand
+    // handoff). It decides what we persist on the conversation AND the Autoura
+    // target below. An admin can later override conversations.routed_brand
+    // (reversible handoff); this first-completion write seeds it.
+    const brand = coerceBrand(payload.routed_brand);
+
     // Persist: brief state on the conversation + a briefs row (S9 delivers this).
     const nowIso = new Date().toISOString();
     await db
@@ -111,6 +119,8 @@ export async function POST(req: NextRequest) {
         brief_completed: true,
         brief_completed_at: nowIso,
         brief_payload: payload as unknown as Json,
+        routed_brand: brand,
+        routing_reason: payload.routing_reason,
       })
       .eq('id', conversationId);
 
@@ -126,12 +136,15 @@ export async function POST(req: NextRequest) {
       .limit(1);
     const briefRevision = (prior?.[0]?.brief_revision ?? 0) + 1;
 
+    // delivered_brand snapshots where THIS brief was sent (immutable per-brief
+    // record; a re-route later makes a new revision to the new endpoint).
     const { data: inserted } = await db
       .from('briefs')
       .insert({
         conversation_id: conversationId,
         payload: payload as unknown as Json,
         brief_revision: briefRevision,
+        delivered_brand: brand,
       })
       .select('id')
       .single();
@@ -144,6 +157,9 @@ export async function POST(req: NextRequest) {
     if (inserted?.id) {
       const briefRowId = inserted.id;
       try {
+        // S13 multi-tenant pivot: no per-brand endpoint override — the worker
+        // loads the brief row's delivered_brand snapshot and puts it on the
+        // wire as `brand`; the single getAutoura endpoint routes by it.
         void deliverBrief(briefRowId).catch((err) =>
           console.error('[concierge] autoura delivery worker error:', err),
         );

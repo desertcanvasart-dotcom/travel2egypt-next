@@ -11,8 +11,13 @@
  *
  * Markers are intentionally specific phrases, not loose keywords, to avoid
  * catching ordinary travel talk ("this trip is going to be sick", "ignore the
- * touristy spots"). They are tied to the v4.1 prompt's threat model and should
+ * touristy spots"). They are tied to the prompt's threat model and should
  * be reviewed whenever that prompt's decline/jailbreak handling changes.
+ *
+ * v4.2 review (Session 13): reviewed under the locked-prompt-edit contract.
+ * UNAFFECTED — these markers key on the VISITOR's input (injection/hostility),
+ * while v4.2 changes only the AGENT's routing/handoff output. No threat-model
+ * change, no edits.
  *
  * Categories mirror conversations.flag_reason's controlled vocab:
  *   prompt_injection_attempt | hostile_language | off_topic_persistent | repeated_identical

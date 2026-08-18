@@ -41,6 +41,9 @@ export async function reconcileStuckBriefs(limit = DEFAULT_LIMIT): Promise<numbe
   console.log(`[concierge] reconciling ${data.length} stuck Autoura deliver(y/ies)`);
   let done = 0;
   for (const row of data) {
+    // S13 multi-tenant pivot: brand rides in the payload (the worker loads the
+    // row's delivered_brand snapshot itself), so a routed-then-crashed delivery
+    // reconciles with the SAME brand automatically — no per-brand endpoint.
     // deliverBrief never throws, but guard anyway so one bad row can't halt the sweep.
     await deliverBrief(row.id).catch((err) =>
       console.error('[concierge] reconcile deliver failed for', row.id, err),

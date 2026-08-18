@@ -19,6 +19,7 @@
  * the Autoura owner, not patched on the wire (Phase 0 decision #4).
  */
 import type { BriefPayload } from '@/types/concierge';
+import type { RoutedBrand } from '@/lib/concierge/brands';
 
 import { computeFollowUpInstant } from '../timeframe';
 import type {
@@ -39,6 +40,12 @@ export interface AutouraPayloadContext {
   language: 'en' | 'es';
   briefRevision: number;
   isUpdate: boolean;
+  /**
+   * Tenant routing key on the wire (S13 multi-tenant pivot) — the brief row's
+   * immutable `delivered_brand` snapshot. The single getAutoura endpoint maps
+   * it to a tenant; see AutouraBriefPayload.brand.
+   */
+  brand: RoutedBrand;
 }
 
 /**
@@ -102,6 +109,7 @@ export function toAutouraPayload(
     language: ctx.language,
     brief_revision: ctx.briefRevision,
     is_update: ctx.isUpdate,
+    brand: ctx.brand,
 
     visitor: {
       name: visitor.name,

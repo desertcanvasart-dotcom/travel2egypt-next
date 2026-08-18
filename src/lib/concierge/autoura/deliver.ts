@@ -25,6 +25,7 @@
  */
 import { conciergeDb } from '@/lib/supabase/server';
 import { sendAutouraBriefFallback, sendAutouraFailureAlert } from '@/lib/email/resend';
+import { coerceBrand } from '@/lib/concierge/brands';
 import type { BriefPayload } from '@/types/concierge';
 
 import { toAutouraPayload, type AutouraPayloadContext } from './payload';
@@ -249,7 +250,7 @@ async function loadDeliveryContext(briefId: string): Promise<DeliveryContext | n
 
   const { data: brief } = await db
     .from('briefs')
-    .select('id, conversation_id, payload, brief_revision, created_at')
+    .select('id, conversation_id, payload, brief_revision, created_at, delivered_brand')
     .eq('id', briefId)
     .maybeSingle();
   if (!brief) return null;
@@ -298,6 +299,9 @@ async function loadDeliveryContext(briefId: string): Promise<DeliveryContext | n
       language: locale,
       briefRevision,
       isUpdate: briefRevision > 1,
+      // Immutable per-brief snapshot (migration 0007) → the wire `brand` field.
+      // Unknown/null floors to the anchor, which the platform always accepts.
+      brand: coerceBrand(brief.delivered_brand),
     },
   };
 }

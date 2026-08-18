@@ -49,6 +49,8 @@ const brief: BriefPayload = {
   constraints: { dietary: 'vegetarian', mobility: null, religious: null, medical: null },
   brief_summary: 'A 10-day deluxe history-and-food honeymoon.',
   follow_up_window: 'by 8 p.m. Cairo time',
+  routed_brand: 'travel2egypt',
+  routing_reason: null,
 };
 
 const ctx: AutouraPayloadContext = {
@@ -59,6 +61,7 @@ const ctx: AutouraPayloadContext = {
   language: 'en',
   briefRevision: 1,
   isUpdate: false,
+  brand: 'sillage',
 };
 
 const transcript: AutouraTranscriptMessage[] = [
@@ -74,6 +77,8 @@ eq(out.trip.origin_city, 'New York', '(2) visitor.origin_city → trip.origin_ci
 eq(out.trip.trip_length_days, 10, '(3) trip.length_days → trip.trip_length_days');
 eq(out.preferences.destinations, ['Cairo', 'Luxor', 'Aswan'], '(4) trip.destinations → preferences.destinations');
 eq(typeof out.follow_up_window, 'object', '(5) follow_up_window string → object');
+// S13 multi-tenant pivot: the tenant routing key rides top-level on the wire.
+eq(out.brand, 'sillage', 'brand: ctx brand emitted as the top-level tenant routing key');
 
 // visitor object carries ONLY Autoura's visitor fields (no nationality/origin_city leak)
 eq(
