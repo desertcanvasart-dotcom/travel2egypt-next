@@ -832,7 +832,7 @@
   },
   "consent": {
     "headline": "Solo usamos cookies esenciales",
-    "body": "Travel2Egypt usa una pequeña cookie para recordar el idioma en el que lees la web. Si usas nuestro concierge con IA, también guardamos una cookie de sesión, t2e_session_id, para que tu conversación se mantenga al cambiar de página o al volver — dura 30 días y se limita a travel2egypt.org. Para proteger el concierge frente a usos abusivos, procesamos una versión cifrada de un solo sentido (hash) de tu dirección IP y tu navegador; los datos originales nunca se guardan ni se registran. No usamos analítica, ni publicidad, ni ningún tipo de seguimiento.",
+    "body": "Travel2Egypt usa una pequeña cookie para recordar el idioma en el que lees la web. Si usas nuestro concierge con IA, también guardamos una cookie de sesión, t2e_session_id, para que tu conversación se mantenga al cambiar de página o al volver — dura 30 días y se limita a travel2egypt.org. Si eliges una moneda para los precios, también guardamos esa elección en una cookie, t2e_ccy, para que los precios sigan en tu moneda — dura un año y solo se establece cuando tú la eliges. Para proteger el concierge frente a usos abusivos, procesamos una versión cifrada de un solo sentido (hash) de tu dirección IP y tu navegador; los datos originales nunca se guardan ni se registran. No usamos analítica, ni publicidad, ni ningún tipo de seguimiento.",
     "policyLink": "Lee nuestra política de cookies",
     "gotIt": "Entendido"
   },

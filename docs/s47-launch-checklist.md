@@ -20,21 +20,22 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
    72, 80-81, 500; `src/components/TrustStrip.tsx:3` ("30+ years" badge);
    `src/lib/conciergePrompt.ts:50,158`; `journeys/travellingInStyleContent.ts:51`.
 
-2. **Privacy policy contradicts the cookie policy on analytics (CMS edit).**
-   The privacy policy claims "operate and analyse", a "Website analytics: up
-   to 26 months" retention row, and "IT and analytics providers" — no
-   analytics exist, and the cookie policy says so explicitly. Remove all
-   three phrases from the `legal-privacy-policy` doc (×3 locales). The 26-month
-   line is GA-template boilerplate.
+2. ~~**Privacy policy contradicts the cookie policy on analytics (CMS edit).**~~
+   ✅ **DONE (owner-approved, applied 2026-08-18):** all three analytics
+   claims removed from `legal-privacy-policy` ×3 locales via
+   `scripts/s47-legal-a2-a3.ts` (guarded, idempotent; rollback in
+   `backups/s47-legal-a2-a3-rollback-*.json`). Browser-verified ×3 locales.
 
-3. ~~**`t2e_ccy` currency cookie is set without disclosure.**~~ ✅ **CODE HALF
-   DONE (owner chose defer, 2026-08-18):** the middleware no longer persists
-   the geo-derived cookie; the suggestion flows cookie-free via
-   `/api/geo-currency` (no-store, in-memory apply), and `t2e_ccy` is written
-   only on an explicit currency pick. REMAINING (CMS, one line): mention the
-   switcher-set currency cookie in the cookie policy's list — it is now a
-   genuinely "explicitly requested" preference cookie, but the policy's
-   exhaustive list should still name it.
+3. ~~**`t2e_ccy` currency cookie is set without disclosure.**~~ ✅ **FULLY
+   DONE 2026-08-18:** code half merged (middleware cookie removed,
+   `/api/geo-currency` in-memory suggestion; cookie written only on an
+   explicit pick). CMS half applied via the same script: dedicated
+   "currency cookie: t2e_ccy" section ×3 locales, "Change your currency"
+   choices bullet, clear/block-cookies mentions — plus consistency fixes the
+   pass surfaced (JA "only one cookie" claims, JA consent-v1→v2, drifted ES
+   block-cookies bullet, stale "second cookie" ordinals, future-proofed
+   changes clause). Consent-banner body (`messages/*.json` `consent.body`)
+   now names t2e_ccy too. Both docs' lastUpdated → 2026-08-18.
 
 ## B. Before DNS cutover (owner/counsel)
 
