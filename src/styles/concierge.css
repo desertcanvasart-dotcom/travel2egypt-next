@@ -23,7 +23,7 @@
   /* Ink — locked navy */
   --cnc-ink: #14243b;
   --cnc-ink-soft: #5c6675;
-  --cnc-ink-muted: #8b8579;
+  --cnc-ink-muted: #6f695e; /* AA (≥4.5:1) on white + paper for small text */
   /* Accent — faience (replaces the mockup's orange) */
   --cnc-accent: var(--color-faience);
   --cnc-accent-deep: var(--color-faience-deep);

@@ -4,6 +4,7 @@ import { assertSameOrigin } from '@/lib/http/sameOrigin';
 
 import { deliverBrief } from '@/lib/concierge/autoura/deliver';
 import { coerceBrand } from '@/lib/concierge/brands';
+import { detectBriefMarkers } from '@/lib/briefDetection';
 import { extractBrief, type ExtractionMessage } from '@/lib/briefExtraction';
 import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession } from '@/lib/concierge/session';
@@ -57,7 +58,7 @@ export async function POST(req: NextRequest) {
     // The conversation must belong to this session.
     const { data: conversation } = await db
       .from('conversations')
-      .select('id, brief_completed, brief_payload')
+      .select('id, brief_completed, brief_completed_at, brief_payload')
       .eq('id', conversationId)
       .eq('session_id', session.rowId)
       .maybeSingle();
@@ -65,12 +66,31 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'conversation_not_found' }, { status: 404 });
     }
 
-    // Idempotent: already completed → return stored payload, no re-extract.
+    // Idempotent: already completed → return stored payload, no re-extract —
+    // UNLESS a fresh Gate-1 wrap arrived after completion. That is the
+    // revision path (S4 material-update): the visitor continued, changed
+    // something, and the agent wrapped again. Falling through re-extracts and
+    // inserts the next brief_revision; delivery is idempotent per revision.
     if (conversation.brief_completed && conversation.brief_payload) {
-      return NextResponse.json({
-        complete: true,
-        payload: conversation.brief_payload as unknown as BriefPayload,
-      } satisfies BriefResponse);
+      const { data: lastAssistant } = await db
+        .from('messages')
+        .select('content, created_at')
+        .eq('conversation_id', conversationId)
+        .eq('role', 'assistant')
+        .order('created_at', { ascending: false })
+        .limit(1)
+        .maybeSingle();
+      const wrapAfterCompletion =
+        lastAssistant != null &&
+        conversation.brief_completed_at != null &&
+        lastAssistant.created_at > conversation.brief_completed_at &&
+        detectBriefMarkers(lastAssistant.content, locale, session);
+      if (!wrapAfterCompletion) {
+        return NextResponse.json({
+          complete: true,
+          payload: conversation.brief_payload as unknown as BriefPayload,
+        } satisfies BriefResponse);
+      }
     }
 
     const { data: messages, error: msgError } = await db
