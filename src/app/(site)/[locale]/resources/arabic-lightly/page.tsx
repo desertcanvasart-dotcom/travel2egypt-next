@@ -1,9 +1,24 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
+import { Noto_Naskh_Arabic } from 'next/font/google';
+
 import type { Locale } from '@/i18n/routing';
 import { buildStaticMetadata } from '@/lib/seo';
 import { FieldGuideShell, FieldMasthead } from '@/components/resources';
+
+/**
+ * Page-scoped (perf session 2026-08-18): declared HERE instead of app/fonts.ts
+ * so its @font-face CSS ships only with this route. The variable class on the
+ * wrapper puts --font-noto-naskh-arabic in scope for the Arabic-script rule
+ * in resources.css.
+ */
+const notoNaskhArabic = Noto_Naskh_Arabic({
+  weight: ['400', '500', '700'],
+  variable: '--font-noto-naskh-arabic',
+  display: 'swap',
+  preload: false,
+});
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -225,7 +240,8 @@ export default async function ArabicLightlyPage({ params }: Props) {
   const t = await getTranslations('resources.arabic');
 
   return (
-    <FieldGuideShell>
+    <div className={notoNaskhArabic.variable}>
+      <FieldGuideShell>
       <FieldMasthead
         number={t('kicker')}
         region={t('region')}
@@ -290,5 +306,6 @@ export default async function ArabicLightlyPage({ params }: Props) {
         <p>{t('colophonNote')}</p>
       </footer>
     </FieldGuideShell>
+    </div>
   );
 }

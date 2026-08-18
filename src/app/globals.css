@@ -89,7 +89,14 @@
   --font-jp-serif: var(--font-noto-serif-jp), var(--font-cormorant), serif;
   --font-jp-sans: var(--font-noto-sans-jp), var(--font-source-serif-4), sans-serif;
   /* Hieroglyph face — loaded by the name-in-hieroglyphs page only.
-     Falls through to system Egyptian Hieroglyphs fonts where available. */
+     Falls through to system Egyptian Hieroglyphs fonts where available.
+     NOTE (perf session 2026-08-18): --font-noto-sans-egyptian-hieroglyphs is
+     now page-scoped (set by a wrapper class on that page, not on <html>), and
+     a :root alias resolves its var() refs AT :root — where that variable no
+     longer exists — so this alias computes empty on its own. The
+     .hieroglyph-font-scope class below re-defines it on the wrapper, where
+     the reference resolves. This @theme entry stays so Tailwind still
+     generates the font-hieroglyph utility. */
   --font-hieroglyph: var(--font-noto-sans-egyptian-hieroglyphs),
     'Aegyptus', 'Egyptian Hieroglyphs', serif;
 
@@ -217,6 +224,21 @@
 }
 .skip-link:focus {
   top: 1rem;
+}
+
+/* ============================================================ */
+/*  Page-scoped font re-anchor (perf session 2026-08-18).       */
+/*  The hieroglyph font variable is set by a wrapper class on   */
+/*  its one page, not on <html>; the @theme :root alias above   */
+/*  resolves var() refs AT :root and therefore computes empty.  */
+/*  Applied on the same wrapper as the font's variable class,   */
+/*  this re-definition resolves where the variable exists, and  */
+/*  the font-hieroglyph utility picks it up by inheritance.     */
+/* ============================================================ */
+
+.hieroglyph-font-scope {
+  --font-hieroglyph: var(--font-noto-sans-egyptian-hieroglyphs),
+    'Aegyptus', 'Egyptian Hieroglyphs', serif;
 }
 
 /* ============================================================ */

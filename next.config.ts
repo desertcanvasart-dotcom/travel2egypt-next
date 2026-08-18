@@ -19,6 +19,13 @@ const nextConfig: NextConfig = {
       dynamic: 30,
       static: 180,
     },
+    // Perf session 2026-08-18: with the default merge-friendly chunking,
+    // Next reused the homepage's combined chrome+pages CSS chunk (~79KB) to
+    // satisfy every page that only imports tour-chrome.css (~17KB), which
+    // defeated the tour-system.css split — non-tour pages kept shipping the
+    // 62KB of lvl-* styles render-blocking. 'strict' preserves the import
+    // boundaries so each page loads only the CSS halves it imports.
+    cssChunking: 'strict',
   },
   images: {
     formats: ['image/avif', 'image/webp'],
