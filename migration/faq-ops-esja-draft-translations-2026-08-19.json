@@ -1,0 +1,85 @@
+{
+  "_comment": "ES/JA renderings of the 8 ops/policy FAQ entries that had no migration-set counterpart. Authored 2026-08-19 per Content Canon (EN is source of truth; natural-prose reworkings; numeric-claim gate absolute; ES impersonal register matching the owner's FAQ migration register; JA formal, no italics, full-width punctuation). STAGED AS DRAFTS for owner review — see scripts/stage-faq-ops-esja-drafts.ts.",
+  "entries": {
+    "faq-entry-how-and-when-do-i-pay": {
+      "es": {
+        "question": "¿Cómo y cuándo se paga?",
+        "answer": "Depósito: el 20% por persona para confirmar la reserva. Algunos componentes pueden requerir depósitos mayores; se indica en la propuesta.\n\nSaldo: se abona 31 días antes de la salida. Si la reserva se hace a menos de 30 días de la salida, el pago completo se realiza al reservar.\n\nFormas de pago: transferencia bancaria (preferible para importes grandes), tarjeta de crédito (Visa, Mastercard, Amex, mediante un enlace de pago seguro) o giro bancario. Se aceptan libras egipcias, USD, EUR y GBP.\n\nMoneda: los precios de los viajes se cotizan en USD por defecto. Es posible convertirlos a la moneda que se prefiera; el tipo de cambio se fija en el momento del depósito, de modo que sus variaciones no afectan al coste final.\n\nSin cargos ocultos. El precio de la propuesta es definitivo y completo, e incluye todos los costes operativos que están bajo nuestro control. Lo que queda fuera de nuestro control (tasas de visado, propinas al personal, compras opcionales) se detalla por separado, para que quede claro qué está incluido y qué no."
+      },
+      "ja": {
+        "question": "支払いはいつ、どのように行いますか？",
+        "answer": "お預かり金（デポジット）：ご予約の確定には、お一人につき料金の20%をお支払いいただきます。一部の手配内容では、これより高いデポジットが必要になる場合があります——その場合はご提案書に明記いたします。\n\n残金：ご出発の31日前までにお支払いください。ご出発まで30日を切ってからのご予約の場合は、ご予約時に全額をお支払いいただきます。\n\nお支払い方法：銀行振込（高額のお支払いに適しています）、クレジットカード（Visa、Mastercard、Amex——安全な決済リンクをお送りします）、または国際送金がご利用いただけます。エジプトポンド、USD、EUR、GBPに対応しています。\n\n通貨：料金は原則としてUSD建てでご提示します。ご希望の通貨への換算も可能です。為替レートはデポジットのお支払い時点で固定するため、その後の変動が最終的な費用に影響することはありません。\n\n隠れた費用はありません。ご提案書の料金は最終確定額であり、当社の管理下にある運営費用をすべて含みます。当社の管理外のもの（ビザ料金、スタッフへのチップ、任意のお買い物など）は別途明記し、何が含まれ何が含まれないかを明確にしています。"
+      }
+    },
+    "faq-entry-how-does-booking-with-travel2egypt-work": {
+      "es": {
+        "question": "¿Cómo funciona la reserva con Travel2Egypt?",
+        "answer": "El modelo es de asesoramiento, no de comercio electrónico: no hay «añadir al carrito» ni reserva instantánea.\n\nEl proceso:\n\nPrimero, contarnos qué se busca, a través de la conversación de planificación, WhatsApp o correo electrónico. Cuanta más sinceridad haya sobre presupuesto, ritmo e intereses, mejor será la propuesta.\n\nNosotros proponemos: un itinerario a medida con hoteles concretos, operadores locales y precios. Normalmente antes de las 8 de la tarde (hora de El Cairo) del mismo día si el mensaje llega antes de la 1 de la tarde, o antes de las 10 de la mañana del día siguiente en caso contrario. Los siete días de la semana.\n\nAjustamos juntos: normalmente entre 1 y 3 rondas de cambios hasta que el viaje encaja.\n\nLa confirmación se hace con un depósito del 20%, que asegura la reserva y los cupos con los proveedores.\n\nEl saldo final se abona 31 días antes de la salida (o el pago completo si la reserva se hace a menos de 30 días).\n\nY lo entregamos: preparación previa al viaje, asistencia sobre el terreno y seguimiento posterior.\n\nSe trata con la misma persona desde la primera consulta hasta el final del viaje, sin pasar por manos de un agente junior."
+      },
+      "ja": {
+        "question": "Travel2Egyptでの予約はどのような流れですか？",
+        "answer": "当社の予約は、Eコマース型ではなくコンサルテーション型です。「カートに入れる」ボタンやその場での即時予約はありません。\n\n流れは次のとおりです。\n\nまず、ご希望をお聞かせください——プランニングチャット、WhatsApp、またはメールで承ります。ご予算、旅のペース、ご興味について率直にお聞かせいただくほど、より的確なご提案ができます。\n\n次に、当社からご提案します——具体的なホテル、現地手配、料金を盛り込んだオーダーメイドの旅程です。カイロ時間の午後1時までにご連絡いただいた場合は同日の午後8時までに、それ以降の場合は翌朝10時（カイロ時間）までにお送りします。年中無休です。\n\nその後、ご一緒に調整します——通常1〜3回のやり取りで、旅程がしっくりくるまで練り上げます。\n\nご納得いただけましたら、料金の20%のデポジットでご予約とサプライヤーの手配を確定します。\n\n残金はご出発の31日前まで（ご出発まで30日を切ってのご予約の場合は全額をご予約時）にお支払いください。\n\nあとは当社にお任せください——出発前の準備、現地でのサポート、ご帰国後のフォローアップまで担当します。\n\n最初のお問い合わせからご旅行の終わりまで、担当者は同じ一人です。途中で経験の浅い担当者に引き継がれることはありません。"
+      }
+    },
+    "faq-entry-whats-the-basic-cultural-etiquette": {
+      "es": {
+        "question": "¿Cuál es la etiqueta cultural básica?",
+        "answer": "Una lista breve de lo que de verdad importa:\n\nSaludar con calidez: apretones de manos entre hombres, entre mujeres o entre amigos del mismo sexo. Entre hombres y mujeres, solo si la otra persona lo inicia.\n\nUsar la mano derecha para comer, dar y recibir; la izquierda se considera impura en contextos tradicionales.\n\nDescalzarse al entrar en las casas y en todas las mezquitas. También en algunas iglesias coptas.\n\nNo fotografiar a nadie sin pedir permiso, especialmente a mujeres y niños.\n\nLas muestras de afecto en público son comedidas: ir de la mano está bien para parejas casadas; besarse y abrazarse en público, no.\n\nDurante el Ramadán, comer, beber o fumar en público durante las horas de luz resulta descortés. Los restaurantes permanecen abiertos para los turistas, pero conviene ser discreto.\n\nLa gratitud cuenta: un shukran y una sonrisa abren puertas."
+      },
+      "ja": {
+        "question": "基本的なマナーには何がありますか？",
+        "answer": "大切なポイントを簡潔にまとめます。\n\n挨拶は温かく——握手は男性同士、女性同士、または同性の友人同士で交わします。異性との握手は、相手から手を差し出された場合のみにしてください。\n\n食事や物の受け渡しには右手を使います——伝統的な文脈では、左手は不浄とされています。\n\n家庭やモスクに入るときは靴を脱ぎます。一部のコプト教会でも同様です。\n\n許可なく人を撮影しないでください。特に女性と子どもには配慮が必要です。\n\n人前での愛情表現は控えめに——夫婦が手をつなぐのは問題ありませんが、人前でのキスや抱擁は避けてください。\n\nラマダン期間中、日中に公共の場で飲食や喫煙をするのは失礼にあたります。レストランは観光客向けに営業していますが、控えめな振る舞いを心がけてください。\n\n感謝の気持ちは大切です——「シュクラン」のひと言と笑顔が、扉を開いてくれます。"
+      }
+    },
+    "faq-entry-whats-the-cancellation-policy": {
+      "es": {
+        "question": "¿Cuál es la política de cancelación?",
+        "answer": "Las cancelaciones deben comunicarse por escrito y quedar confirmadas por nosotros. El depósito no es reembolsable desde el momento en que se paga.\n\nEn caso de cancelar después del depósito:\n\n46 días o más antes de la salida: se retiene únicamente el depósito.\n\nEntre 30 y 45 días antes de la salida: se retiene el 50% del coste total de la reserva o el depósito, la cantidad que sea mayor.\n\nMenos de 30 días antes de la salida: se retiene el 100% de las cantidades pagadas.\n\nAlgunos componentes —vuelos, ciertos camarotes de crucero por el Nilo, experiencias de gestión especial— pueden ser 100% no reembolsables desde el momento de su emisión. Se señala con claridad en la propuesta, para saber qué es recuperable y qué no antes de comprometerse.\n\nSe recomienda encarecidamente un seguro de viaje que cubra la cancelación. La mayoría de las pólizas cubren emergencias médicas, meteorológicas y personales. Podemos recomendar proveedores.\n\nSi somos nosotros quienes cancelamos un viaje (poco frecuente, pero posible por causas de fuerza mayor), se reembolsa íntegramente el importe recuperable o se transfiere el crédito a una nueva fecha. No nos hacemos responsables de los gastos contratados por separado —vuelos a Egipto, tasas de visado, seguro—, de modo que el seguro cubre ambos frentes."
+      },
+      "ja": {
+        "question": "キャンセルポリシーはどうなっていますか？",
+        "answer": "キャンセルは書面でお申し出いただき、当社からの確認をもって成立します。デポジットは、お支払いの時点から返金不可となります。\n\nデポジットのお支払い後にキャンセルされる場合：\n\nご出発の46日以上前——デポジットのみを申し受けます。\n\nご出発の30〜45日前——ご予約総額の50%またはデポジットのいずれか高い方を申し受けます。\n\nご出発まで30日未満——お支払い済みの全額（100%）を申し受けます。\n\n航空券、ナイル川クルーズの一部キャビン、特別手配の体験など、発券・手配の時点から100%返金不可となるものもあります。ご提案書に明記しますので、確定前にどこまでが返金可能かをご確認いただけます。\n\nキャンセル補償のある旅行保険への加入を強くおすすめします。多くの保険は、医療、天候、個人的な緊急事態をカバーしています。保険会社のご紹介も可能です。\n\n当社側でツアーを中止する場合（まれですが、不可抗力により起こり得ます）は、回収可能な金額の全額返金、または新しい日程への振替をいたします。エジプトまでの航空券、ビザ料金、保険料など、別途手配された費用については責任を負いかねますので、保険は双方の備えとしてご活用ください。"
+      }
+    },
+    "faq-entry-whats-the-legal-drinking-age": {
+      "es": {
+        "question": "¿Cuál es la edad legal para beber alcohol?",
+        "answer": "21 años para la compra y el consumo en público. El alcohol está ampliamente disponible en hoteles, restaurantes con licencia y tiendas especializadas (Drinkies, Cheers) en las ciudades.\n\nDurante el Ramadán, la venta de alcohol se restringe a los no musulmanes en hoteles y establecimientos con licencia. Fuera de hoteles y resorts, el consumo de alcohol en público es poco habitual y es mejor evitarlo."
+      },
+      "ja": {
+        "question": "法定飲酒年齢は何歳ですか？",
+        "answer": "購入・公共の場での飲酒ともに21歳からです。都市部では、ホテル、酒類提供の認可を受けたレストラン、酒類専門店（Drinkies、Cheers）で広く入手できます。\n\nラマダン期間中は、酒類の販売はホテルおよび認可店舗での非ムスリムに限定されます。ホテルやリゾートの外で公然と飲酒する習慣はなく、避けるのが賢明です。"
+      }
+    },
+    "faq-entry-when-does-your-team-respond-to-inquiries": {
+      "es": {
+        "question": "¿Cuándo responde el equipo a las consultas?",
+        "answer": "Las consultas recibidas antes de la 1 de la tarde (hora de El Cairo) reciben una propuesta antes de las 8 de la tarde del mismo día.\n\nLas recibidas después de la 1 de la tarde reciben la propuesta antes de las 10 de la mañana (hora de El Cairo) del día siguiente.\n\nEste compromiso se mantiene los siete días de la semana, festivos incluidos. Y se cumple.\n\nSi hace falta hablar de algo complejo, conviene mencionarlo en la consulta: a menudo organizamos una llamada de WhatsApp o una videollamada en lugar de pasar directamente a la propuesta escrita, sobre todo en viajes con logística complicada."
+      },
+      "ja": {
+        "question": "お問い合わせへの返信はいつ届きますか？",
+        "answer": "カイロ時間の午後1時までにいただいたお問い合わせには、同日の午後8時（カイロ時間）までにご提案をお送りします。\n\n午後1時以降にいただいた場合は、翌朝10時（カイロ時間）までにお送りします。\n\nこの約束は、祝日を含め年中無休で守っています。\n\n複雑なご相談の場合は、その旨をお問い合わせにお書き添えください。特に行程が入り組んだご旅行では、書面のご提案に先立って、WhatsAppやビデオ通話でお話しする機会を設けることがよくあります。"
+      }
+    },
+    "faq-entry-why-dont-you-publish-prices-on-your-website": {
+      "es": {
+        "question": "¿Por qué no publican precios en la web?",
+        "answer": "Porque cada viaje que organizamos es genuinamente distinto.\n\nUn «tour de 10 días por Egipto» puede ir desde 1.500 USD por persona (económico, en grupo, hoteles básicos) hasta 25.000 USD por persona (dahabiya privada, hoteles de primer nivel, accesos exclusivos). Publicar un único precio por plantilla de itinerario supondría engañar al viajero o construir horquillas tan amplias que no sirven para nada.\n\nEn su lugar, basta con contarnos qué se busca de verdad —ritmo, nivel de confort, intereses, tamaño del grupo, fechas— y cotizamos un precio concreto para ese viaje. Normalmente en 24 horas, a menudo antes. Sin presión comercial ni extras escondidos en la letra pequeña.\n\nPara tener un orden de magnitud aproximado antes de pedir una propuesta completa, basta con preguntar: daremos una horquilla según lo descrito."
+      },
+      "ja": {
+        "question": "なぜウェブサイトに料金を掲載していないのですか？",
+        "answer": "当社が手配する旅は、一つひとつ本当に異なるからです。\n\n「エジプト10日間ツアー」といっても、お一人1,500 USD（エコノミー、グループ、ベーシックなホテル）から25,000 USD（プライベートのダハビーヤ、最高級ホテル、特別入場）まで幅があります。旅程テンプレートごとに1つの料金を掲載すれば、旅行者に誤解を与えるか、意味をなさないほど幅の広い料金帯を並べることになってしまいます。\n\nその代わりに、ご希望——ペース、快適さの水準、ご興味、人数、日程——をお聞かせいただければ、その旅に見合った具体的な料金をお見積もりします。通常24時間以内、多くの場合はそれより早くお返事します。アップセルの圧力も、細かい字に隠れた追加料金もありません。\n\n正式なご提案の前におおよその目安を知りたい場合は、お気軽にお尋ねください。お伺いした内容をもとに、概算の幅をお伝えします。"
+      }
+    },
+    "faq-entry-can-i-bring-a-drone-to-egypt": {
+      "es": {
+        "question": "¿Se puede llevar un dron a Egipto?",
+        "answer": "En general, no. El uso de drones en Egipto requiere permisos que resultan casi imposibles de obtener para un turista. La aduana puede confiscar el dron a la llegada.\n\nIncluso donde volar está técnicamente permitido, nunca se debe operar un dron cerca de:\n\nYacimientos históricos\n\nInstalaciones militares\n\nEdificios gubernamentales\n\nAglomeraciones\n\nEl uso no autorizado de drones puede acarrear multas, la incautación del equipo o la detención. Salvo que se cuente con un permiso explícito tramitado de antemano por canales oficiales (con la documentación en mano), lo mejor es dejar el dron en casa."
+      },
+      "ja": {
+        "question": "ドローンをエジプトに持ち込むことはできますか？",
+        "answer": "原則として持ち込めません。エジプトでのドローンの使用には許可が必要ですが、観光客が取得するのはほぼ不可能です。到着時に税関で没収されることもあります。\n\n技術的に飛行が認められている場所でも、次の付近では決して飛ばさないでください。\n\n歴史的な遺跡\n\n軍事施設\n\n政府の建物\n\n人混み\n\n無許可のドローン使用は、罰金、機材の没収、逮捕につながるおそれがあります。公式なルートで事前に明確な許可を得ている（証明書類を携行している）場合を除き、ドローンは自宅に置いていくのが賢明です。"
+      }
+    }
+  }
+}

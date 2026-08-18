@@ -383,6 +383,13 @@ async function main() {
   const faqScope: string[] = faqLedger.created
     .filter((id: string) => id.includes('faq-entry-'))
     .map((id: string) => id.replace(/^drafts\./, ''));
+  // Overlap-swapped entries (2026-08-19) carry migration text too — weave them.
+  try {
+    const swapLedger = JSON.parse(
+      readFileSync(resolve(process.cwd(), 'migration/faq-overlap-swap-2026-08-19.json'), 'utf8')
+    );
+    faqScope.push(...swapLedger.swapped);
+  } catch { /* ledger absent before the swap ran */ }
   const [articles, guides, faqs] = await Promise.all([
     FAQ_ONLY
       ? []
