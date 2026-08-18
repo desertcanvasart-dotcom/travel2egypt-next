@@ -7,6 +7,7 @@ import type { Locale } from '@/i18n/routing';
 import { JourneyImage } from './JourneyImage';
 import { MastheadStats } from './MastheadStats';
 import { FloatingConcierge } from '../FloatingConcierge';
+import '@/styles/tour-system.css';
 
 export interface GuideCity {
   _id: string;

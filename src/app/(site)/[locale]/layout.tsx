@@ -1,10 +1,11 @@
 import '../../globals.css';
-import '@/styles/tour-system.css';
+import '@/styles/tour-chrome.css';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale, getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { fontVariables } from '@/app/fonts';
+import { JaFontGate } from '@/components/JaFontGate';
 import { routing, type Locale } from '@/i18n/routing';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -71,6 +72,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={fontVariables}>
       <body>
+        <JaFontGate active={locale === 'ja'} />
         <a href="#main" className="skip-link">
           {tNav('skipToContent')}
         </a>

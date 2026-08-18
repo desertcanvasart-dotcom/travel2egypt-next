@@ -5,6 +5,7 @@ import type { Locale } from '@/i18n/routing';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 
 import { JourneyImage } from './JourneyImage';
+import '@/styles/tour-system.css';
 
 interface HomeCard {
   title?: string;
