@@ -722,7 +722,11 @@
     "weekday_sun": "Dom"
   },
   "legal": {
-    "lastUpdatedPrefix": "Última actualización"
+    "lastUpdatedPrefix": "Última actualización",
+    "metaTerms": "Las condiciones que rigen las reservas y el uso de los servicios de Travel2Egypt.",
+    "metaPrivacy": "Cómo Travel2Egypt recopila, utiliza y protege sus datos personales.",
+    "metaCookies": "Las cookies que utiliza Travel2Egypt, su función y las opciones disponibles.",
+    "metaDisclaimer": "El alcance y los límites de la información publicada en Travel2Egypt."
   },
   "wikiComingSoon": {
     "eyebrow": "Próximamente",
@@ -921,7 +925,7 @@
     "trustSignal2": "Grupo reducido o privado — nunca un autocar lleno",
     "trustSignal3": "Precios escalonados y transparentes — sin costes ocultos",
     "trustSignal4": "Te diremos con honestidad si otro día te conviene más",
-    "trustAccred": "ETAA · IATA · ASTA — operador egipcio desde 2003",
+    "trustAccred": "JATA · ETAA · IATA · ASTA — operador egipcio desde 2003",
     "shapeDaysCount": "{count, plural, one {# día} other {# días}}",
     "priceFromLabel": "Desde",
     "priceOnInquiry": "A consultar",

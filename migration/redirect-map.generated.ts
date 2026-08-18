@@ -12458,6 +12458,21 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/contact-us",
+    "destination": "/contact",
+    "permanent": true
+  },
+  {
+    "source": "/es/contact-us",
+    "destination": "/es/contact",
+    "permanent": true
+  },
+  {
+    "source": "/ja/contact-us",
+    "destination": "/ja/contact",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true

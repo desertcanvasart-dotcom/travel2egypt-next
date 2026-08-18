@@ -1527,6 +1527,7 @@ export const categoryBySlugQuery = (locale: Locale) => groq`
     _id,
     "name": ${localizedField('name', locale)},
     "slug": ${localizedSlug('slug', locale)},
+    "allSlugs": slug[]{ _key, "current": value.current },
     "description": ${localizedField('description', locale)},
     heroImage,
     "parent": parent->{
@@ -1735,12 +1736,21 @@ export const siblingTravelTipsQuery = (locale: Locale) => groq`
 export const sitemapDocsQuery = groq`
   {
     "localizedDocs": *[_type in [
-      "city", "guideArticle", "tour", "travelTip", "faqEntry",
+      "city", "guideArticle", "tour", "travelTip",
       // wikiDeity / wikiDynasty / wikiPerson deferred to v2 (session 31):
       // those routes render Coming Soon and shouldn't appear in sitemap.
       // wikiMonument ships in v1.
       "wikiMonument",
-      "hotel", "nileCruise", "page", "legalPage"
+      "hotel", "nileCruise",
+      // s47 audit (2026-08-18): faqEntry (fragment dupes of /faq), page (no
+      // route accepts the type) and legalPage (renders at kind-based static
+      // routes, now STATIC_PATHS entries) REMOVED — they emitted 404/duplicate
+      // URLs. ADDED: tourLanding (29 city×track commercial landings),
+      // editorialCategory (blog categories) and fieldGuide, which had live
+      // routes but zero sitemap presence. tourCategory deliberately NOT
+      // added: its four docs share slugs with the four STATIC_PATHS code
+      // routes (/private-day-tours etc.) and would duplicate them.
+      "tourLanding", "editorialCategory", "fieldGuide"
     ] && !(_id in path("drafts.**"))
       // Exclude soft-archived/hidden guideArticles (e.g. de-duplicated legacy
       // pages) so they drop out of the sitemap; their slugs 301 elsewhere.
@@ -1755,8 +1765,9 @@ export const sitemapDocsQuery = groq`
         null
       )
     },
-    "articles": *[_type == "article" && !(_id in path("drafts.**"))]{
+    "articles": *[_type in ["article", "foodArticle"] && !(_id in path("drafts.**"))]{
       _id,
+      _type,
       language,
       "slug": slug.current,
       _updatedAt

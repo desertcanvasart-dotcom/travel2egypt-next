@@ -4,6 +4,8 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
 import { JourneyImage } from './JourneyImage';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
 import { TourProse } from './TourProse';
 import { packageBucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
@@ -94,6 +96,17 @@ export async function PackageSubcategoryView({
     : doc.themeRef?.name ?? doc.title;
   const heroKicker = isGroup ? ts('pkgGroupSubHeroKicker') : ts('pkgSubHeroKicker');
   const breadcrumb = isGroup ? ts('pkgGroupSubBreadcrumb') : ts('pkgSubBreadcrumb');
+  // s47 audit (2026-08-18): package theme/origin landings had no structured
+  // data. Breadcrumb mirrors the visible crumb (hub linked, axis terminal).
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: breadcrumb, path: hub },
+      { name: doc.title, path: `/${doc.slug}` },
+    ],
+    locale,
+  );
+  const itemListSchema = buildItemListSchema(doc.tours ?? [], locale);
   const trackLabel = isGroup ? ts('pkgGroupSubTrackLabel') : ts('pkgSubTrackLabel');
   const heroImage = doc.heroImage ?? null;
 
@@ -164,6 +177,7 @@ export async function PackageSubcategoryView({
 
   return (
     <div className="tour-doc lvl-subcategory">
+      <JsonLd data={[breadcrumbSchema, itemListSchema]} />
       <header className="hero">
         <div className="bg">
           <JourneyImage image={heroImage} alt="" className="" sizes="100vw" widthHint={2560} priority />

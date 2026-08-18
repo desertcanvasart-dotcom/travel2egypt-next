@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import type { Locale } from '@/i18n/routing';
+import { buildStaticMetadata } from '@/lib/seo';
 import { client } from '@/sanity/lib/client';
 import { legalPageByKindQuery } from '@/sanity/lib/queries';
 import { Body } from '@/components/Body';
@@ -56,11 +57,29 @@ export async function LegalPageView({ locale, kind }: Props) {
   );
 }
 
+const META_DESCRIPTION_KEY: Record<LegalKind, string> = {
+  terms: 'metaTerms',
+  privacy: 'metaPrivacy',
+  cookies: 'metaCookies',
+  disclaimer: 'metaDisclaimer',
+};
+
+/**
+ * s47 launch-polish fix (2026-08-18): previously returned a bare
+ * { title, alternates: { canonical: path } } with a locale-PREFIXED path and
+ * no metadataBase anywhere in the chain — Next resolved the relative
+ * canonical against http://localhost:<port> in production, and the pages
+ * shipped no description, OG, or hreflang. buildStaticMetadata supplies all
+ * of that; callers must pass the UNPREFIXED path (e.g. '/terms').
+ */
 export async function legalMetadata(locale: Locale, kind: LegalKind, path: string) {
   const doc: LegalDoc | null = await client.fetch(legalPageByKindQuery(locale), { kind });
   if (!doc) return {};
-  return {
+  const t = await getTranslations({ locale, namespace: 'legal' });
+  return buildStaticMetadata({
+    locale,
+    path,
     title: doc.title,
-    alternates: { canonical: path },
-  };
+    description: t(META_DESCRIPTION_KEY[kind]),
+  });
 }

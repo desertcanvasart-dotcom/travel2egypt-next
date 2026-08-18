@@ -622,7 +622,11 @@
     "weekday_sun": "日"
   },
   "legal": {
-    "lastUpdatedPrefix": "最終更新"
+    "lastUpdatedPrefix": "最終更新",
+    "metaTerms": "Travel2Egyptのご予約およびサービス利用に適用される利用規約です。",
+    "metaPrivacy": "Travel2Egyptによる個人データの収集・利用・保護についてのご案内です。",
+    "metaCookies": "Travel2Egyptが使用するクッキーとその目的、選択肢についてのご案内です。",
+    "metaDisclaimer": "Travel2Egyptに掲載される情報の範囲と免責事項についてのご案内です。"
   },
   "wikiComingSoon": {
     "eyebrow": "近日公開",
@@ -821,7 +825,7 @@
     "trustSignal2": "少人数または貸切——大型バスの相乗りではありません",
     "trustSignal3": "段階制の透明な料金——隠れた費用なし",
     "trustSignal4": "別の一日のほうが向いていれば、正直にお伝えします",
-    "trustAccred": "ETAA · IATA · ASTA — 2003年以来のエジプト現地オペレーター",
+    "trustAccred": "JATA · ETAA · IATA · ASTA — 2003年以来のエジプト現地オペレーター",
     "shapeDaysCount": "{count, plural, other {#日間}}",
     "priceFromLabel": "料金",
     "priceOnInquiry": "お問い合わせ",

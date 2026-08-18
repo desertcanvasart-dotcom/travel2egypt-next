@@ -15,7 +15,7 @@ import {
 import { ArticleCard, type ArticleCardData } from '@/components/ArticleCard';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
-import { buildMetadata } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
 import { buildBreadcrumbList } from '@/lib/structured-data';
 import {
   buildBlogTrail,
@@ -34,6 +34,7 @@ interface CategoryDoc {
   description?: string;
   heroImage?: any;
   seo?: any;
+  allSlugs?: Array<{ _key: string; current: string }>;
   parent: { _id: string; name: string; slug: string } | null;
 }
 
@@ -52,7 +53,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!cat) return {};
   return buildMetadata(
     { title: cat.name, summary: cat.description, heroImage: cat.heroImage, seo: cat.seo },
-    { locale: locale as Locale, path: `/blog/category/${slug}` }
+    {
+      locale: locale as Locale,
+      path: `/blog/category/${slug}`,
+      // Category slugs localize (see generateStaticParams) — without this,
+      // hreflang alternates prefix-swapped the CURRENT locale's slug and
+      // advertised es/ja URLs that 404 (s47 audit fix, 2026-08-18).
+      pathByLocale: pathByLocaleFromSlugs(cat.allSlugs, (s) => `/blog/category/${s}`),
+    }
   );
 }
 

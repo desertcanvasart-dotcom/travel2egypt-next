@@ -8,7 +8,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return legalMetadata(locale as Locale, 'cookies', `/${locale}/cookie-policy`);
+  return legalMetadata(locale as Locale, 'cookies', '/cookie-policy');
 }
 
 export default async function CookiePolicyPage({ params }: Props) {

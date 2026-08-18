@@ -39,6 +39,7 @@ interface LocalizedDoc {
 
 interface ArticleDoc {
   _id: string;
+  _type: 'article' | 'foodArticle';
   language: string;
   slug: string;
   _updatedAt: string;
@@ -50,13 +51,13 @@ const SITE = siteUrlBase();
 // doc links each language's article. We read it to emit hreflang alternates on
 // article sitemap entries, mirroring the on-page <link rel="alternate">.
 const articleTranslationGroupsQuery = groq`
-  *[_type == "translation.metadata" && count(translations[value->_type == "article"]) > 0]{
-    "rows": translations[]{ "language": _key, "slug": value->slug.current }
+  *[_type == "translation.metadata" && count(translations[value->_type in ["article", "foodArticle"]]) > 0]{
+    "rows": translations[]{ "language": _key, "slug": value->slug.current, "type": value->_type }
   }
 `;
 
 interface TranslationGroup {
-  rows: Array<{ language: string | null; slug: string | null }>;
+  rows: Array<{ language: string | null; slug: string | null; type?: string | null }>;
 }
 
 // Static landings that don't come from Sanity.
@@ -85,6 +86,22 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   { path: '/about', priority: 0.7 },
   { path: '/plan-your-tour', priority: 0.7 },
   { path: '/contact', priority: 0.5 },
+  // s47 audit additions (2026-08-18) — live listings/pages that had zero
+  // sitemap presence:
+  { path: '/hotels', priority: 0.7 },
+  { path: '/nile-cruises', priority: 0.7 },
+  { path: '/food', priority: 0.7 },
+  { path: '/resources', priority: 0.6 },
+  { path: '/resources/pyramids-decoded', priority: 0.6 },
+  { path: '/resources/pharaoh-timeline', priority: 0.6 },
+  { path: '/resources/arabic-lightly', priority: 0.6 },
+  { path: '/resources/egyptian-gods', priority: 0.6 },
+  // Legal pages (kind-based static routes; their Sanity docs deliberately
+  // emit no per-doc sitemap entry — see pathFromDoc legalPage).
+  { path: '/privacy-policy', priority: 0.3 },
+  { path: '/terms', priority: 0.3 },
+  { path: '/cookie-policy', priority: 0.3 },
+  { path: '/disclaimer', priority: 0.3 },
   // Name-in-hieroglyphs translator (session 32). Preserves SEO equity from
   // WP /your-name-in-hieroglyphics/ via a 301 set up at cutover.
   { path: '/your-name-in-hieroglyphs', priority: 0.8 },
@@ -135,13 +152,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         routing.locales.includes(r.language as Locale)
     );
     if (valid.length < 2) continue;
+    // article → /blog/<slug>; foodArticle → /food/<slug> (s47: food joined
+    // the document-per-locale family).
+    const base = group.rows?.find((r) => r.type)?.type === 'foodArticle' ? '/food' : '/blog';
     const languages: Record<string, string> = {};
     for (const r of valid) {
-      languages[r.language] = buildLocaleUrl(`/blog/${r.slug}`, r.language as Locale);
+      languages[r.language] = buildLocaleUrl(`${base}/${r.slug}`, r.language as Locale);
     }
     const enSlug = valid.find((r) => r.language === 'en')?.slug;
     languages['x-default'] = enSlug
-      ? buildLocaleUrl(`/blog/${enSlug}`, 'en')
+      ? buildLocaleUrl(`${base}/${enSlug}`, 'en')
       : Object.values(languages)[0];
     for (const r of valid) {
       articleAlternates.set(`${r.language}:${r.slug}`, languages);
@@ -223,7 +243,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     if (!article.slug || !article.language) continue;
     if (!routing.locales.includes(article.language as Locale)) continue;
     const path = pathFromDoc({
-      type: 'article',
+      type: article._type ?? 'article',
       slug: article.slug,
     });
     if (!path) continue;
