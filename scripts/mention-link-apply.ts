@@ -221,6 +221,8 @@ async function main() {
       if (s.source_type === 'article') blocks = doc.body;
       else if (s.source_type === 'guideArticle')
         blocks = (doc.body ?? []).find((e: any) => e._key === s.locale)?.value;
+      else if (s.source_type === 'faqEntry')
+        blocks = (doc.answer ?? []).find((e: any) => e._key === s.locale)?.value;
       if (!Array.isArray(blocks)) { skipRow('body-missing'); continue; }
       const bi = blocks.findIndex((b) => b._key === s.block_key);
       if (bi === -1) { skipRow('block-missing'); continue; }

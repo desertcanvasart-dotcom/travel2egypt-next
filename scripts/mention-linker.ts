@@ -33,7 +33,7 @@
  */
 import { createClient } from '@sanity/client';
 import { config as loadEnv } from 'dotenv';
-import { writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 loadEnv();
@@ -373,15 +373,33 @@ async function main() {
   for (const l of LOCALES) console.log(`  ${l}: ${index[l].length} entities`);
 
   console.log('Fetching source bodies…');
-  const [articles, guides] = await Promise.all([
+  // FAQ_ONLY=1 (2026-08-19): scan ONLY the FAQ-migration entries — the
+  // article/guide corpus is already woven; a full re-scan would just re-emit
+  // the never-approved residual Tier B rows into a fresh CSV.
+  const FAQ_ONLY = process.env.FAQ_ONLY === '1';
+  const faqLedger = JSON.parse(
+    readFileSync(resolve(process.cwd(), 'migration/faq-import-created-2026-08-19.json'), 'utf8')
+  );
+  const faqScope: string[] = faqLedger.created
+    .filter((id: string) => id.includes('faq-entry-'))
+    .map((id: string) => id.replace(/^drafts\./, ''));
+  const [articles, guides, faqs] = await Promise.all([
+    FAQ_ONLY
+      ? []
+      : client.fetch(
+          `*[_type=='article' && !(_id in path('drafts.**')) && defined(slug.current) && defined(body)]{_id, title, 'slug': slug.current, language, body}`
+        ),
+    FAQ_ONLY
+      ? []
+      : client.fetch(
+          `*[_type=='guideArticle' && !(_id in path('drafts.**')) && defined(slug) && defined(body)]{_id, title, slug, body, 'citySlug': parentCity->slug}`
+        ),
     client.fetch(
-      `*[_type=='article' && !(_id in path('drafts.**')) && defined(slug.current) && defined(body)]{_id, title, 'slug': slug.current, language, body}`
-    ),
-    client.fetch(
-      `*[_type=='guideArticle' && !(_id in path('drafts.**')) && defined(slug) && defined(body)]{_id, title, slug, body, 'citySlug': parentCity->slug}`
+      `*[_type=='faqEntry' && !(_id in path('drafts.**')) && _id in $ids && defined(answer)]{_id, question, answer}`,
+      { ids: faqScope }
     ),
   ]);
-  console.log(`  ${articles.length} articles, ${guides.length} guideArticles`);
+  console.log(`  ${articles.length} articles, ${guides.length} guideArticles, ${faqs.length} faqEntries`);
 
   const rows: Row[] = [];
   let bodies = 0;
@@ -416,6 +434,23 @@ async function main() {
           title: locValue(g.title, locale) ?? locValue(g.title, 'en') ?? '',
           url: `${prefix(locale)}/guide/${citySlug}/${slug}`,
           city: locSlug(g.citySlug, 'en'),
+        })
+      );
+    }
+  }
+
+  for (const f of faqs) {
+    if (!Array.isArray(f.answer)) continue;
+    for (const entry of f.answer) {
+      const locale = entry._key as Locale;
+      if (!LOCALES.includes(locale) || !Array.isArray(entry.value)) continue;
+      bodies++;
+      rows.push(
+        ...scanBlocks(entry.value, index[locale], locale, {
+          id: f._id,
+          type: 'faqEntry',
+          title: locValue(f.question, locale) ?? locValue(f.question, 'en') ?? '',
+          url: `${prefix(locale)}/faq`,
         })
       );
     }
