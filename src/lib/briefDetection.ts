@@ -48,7 +48,13 @@ import type { ConciergeSession } from '@/lib/concierge/session';
 // Exported for the marker corpus regression test (src/lib/__tests__/) only.
 export const EN_MARKERS: string[] = [
   'have everything i need', //     live wrap "I have everything I need" (final signal) — narrowed 2026-08-03: bare 'everything i need' fired on the acknowledgment "That tells me everything I need to know" (s13-final-v5, bat-b-sillage-en turn 1)
-  'brief is on its way', //        live wrap "Your brief is on its way to the team"
+  'brief is on its way', //        ⭐ CANONICAL since v4.2 rev 13 (Option B,
+  //                               2026-08-18): the prompt's "send line" fixes
+  //                               "Your brief is on its way to the [brand ]team"
+  //                               verbatim as the opening sentence of every
+  //                               close, so Gate 1 EN is deterministic by
+  //                               construction. (Originally an S4 live-wrap
+  //                               observation; now prompt-mandated.)
   // 2026-08-03 narrowing (run s13-final, bat-b-sillage-en turns 0-1): the
   // loose 'proper brief' / 'brief for our team' fired on ASPIRATIONAL
   // narration ("what a proper brief for our team would look like", "Once I
@@ -108,6 +114,14 @@ export const EN_MARKERS: string[] = [
 // "10 a. m."). Re-calibrate the same way if v4.1's Spanish rendering shifts.
 // Exported for the marker corpus regression test (src/lib/__tests__/) only.
 export const ES_MARKERS: string[] = [
+  // ⭐ CANONICAL since v4.2 rev 13 (Option B, 2026-08-18): the prompt's "send
+  // line" fixes "Su encargo ya está en camino al equipo[ de <brand>]." verbatim
+  // as the opening sentence of every ES close — Gate 1 ES is deterministic by
+  // construction. Accented + unaccented variants both listed (substring match
+  // does not normalize diacritics). Present-tense "ya está" cannot appear in
+  // the aspirational future "estará en camino" ("tará en" ≠ "stá en").
+  'ya está en camino al equipo',
+  'ya esta en camino al equipo',
   'pasarle el encargo', // narrowed 2026-08-03 (was 'el encargo al equipo': false-fired on the aspirational "lo incluimos en el encargo al equipo", bat-g-sillage-es turn 0) —                  "Antes de pasarle el encargo al equipo"
   'el equipo tiene todo lo que necesita', //  final-wrap, parallels EN "everything I need"
   'hora de el cairo', //                      the Cairo-time commitment (always present at final wrap)
