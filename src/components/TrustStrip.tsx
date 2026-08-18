@@ -1,6 +1,9 @@
 /**
  * TrustStrip — a horizontal row of credibility marks (TripAdvisor rating,
- * JATA / IATA / ASTA accreditations, and a "30+ years" badge).
+ * Kayak partner mark, JATA / IATA / ASTA accreditations, and a "30+ years"
+ * badge). Kayak links to their Hurghada destination guide (owner-confirmed
+ * relationship, 2026-08-19); TripAdvisor links to our review page; the
+ * accreditation marks stay non-linked.
  *
  * Self-contained (Tailwind utilities + brand tokens, sharp/flat) so it can be
  * dropped onto any page — the concierge shell now, the homepage later. Labels
@@ -18,6 +21,8 @@ const DM = 'font-[family-name:var(--font-dm-sans)]';
 
 const TRIPADVISOR_URL =
   'https://www.tripadvisor.com/Attraction_Review-g294201-d17406742-Reviews-Travel2Egypt-Cairo_Cairo_Governorate.html';
+
+const KAYAK_URL = 'https://www.kayak.co.uk/Hurghada.34001.guide';
 
 function Mark({ glyph, label }: { glyph: ReactNode; label: string }) {
   return (
@@ -79,6 +84,35 @@ export function TrustStrip({
             className={`${DM} text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-ink-muted`}
           >
             TripAdvisor
+          </span>
+        </a>
+        </div>
+
+        {/* Kayak — linked partner mark (their Hurghada destination guide) */}
+        <div role="listitem" className="flex min-w-[80px] shrink-0">
+        <a
+          href={KAYAK_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Kayak's Hurghada travel guide (opens in a new tab)"
+          className="flex w-full flex-col items-center gap-1.5 px-3 py-2 no-underline transition-opacity hover:opacity-70"
+        >
+          <span className="flex h-9 items-center justify-center text-night">
+            <svg width="28" height="28" viewBox="0 0 22 22" aria-hidden>
+              <path
+                d="M3 7l4 4 4-4 4 4 4-4M3 13l4 4 4-4 4 4 4-4"
+                stroke="currentColor"
+                strokeWidth="2"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </span>
+          <span
+            className={`${DM} text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-ink-muted`}
+          >
+            Kayak
           </span>
         </a>
         </div>

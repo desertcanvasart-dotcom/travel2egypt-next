@@ -91,9 +91,9 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
 14. ~~**In-chat privacy-policy link**~~ ✅ **DONE 2026-08-18:** DataMenu
     now links `/privacy-policy` (localized Link, new tab) beneath the
     delete/export options; strings EN+ES (concierge locales).
-15. ~~**Trust badges**~~ ✅ **DROPPED 2026-08-18:** TrustStrip rendered an
-    actual Kayak accreditation MARK (not just a comment) — Kayak is a
-    metasearch engine, not an accreditation body, and the footer lists only
-    JATA/IATA/ASTA. Mark + comment removed; strip now reads TripAdvisor /
-    JATA / IATA / ASTA / 30+ years. Revert if there is a real Kayak
-    relationship I don't know about.
+15. ~~**Trust badges**~~ ✅ **RESOLVED 2026-08-19:** briefly dropped
+    2026-08-18 (looked like a phantom accreditation), then owner confirmed a
+    real Kayak relationship — restored as a LINKED partner mark pointing at
+    Kayak's Hurghada guide (kayak.co.uk/Hurghada.34001.guide, new tab),
+    mirroring the TripAdvisor linked-mark pattern. Strip: TripAdvisor /
+    Kayak / JATA / IATA / ASTA / 30+ years.
