@@ -21,10 +21,21 @@ categories. Full ID list: `migration/faq-import-created-2026-08-19.json`.
    mention-linker weave after publishing; per-question link hints below are
    preserved in the ledger JSON.
 
-## ⚠ Fact-check BEFORE publishing (7 drafts)
+## Publish status (2026-08-19)
 
-The source doc flags these as VERIFY — true at some point, need a current source:
+Owner instructed: publish categories + safe drafts. DONE — all 5 categories
+and the 46 safe entries are live (70 published Q&As on /faq, FAQPage schema
+verified at 70). ONLY the 9 VERIFY drafts below remain unpublished.
 
+## ⚠ Fact-check, then publish (9 drafts still held)
+
+(Two of these — drone rules, alcohol rules — were missing from this report's
+first version due to a ledger gap on a partial re-run; list is now complete.)
+
+- **What are the rules on flying a drone in Egypt?** (`faq-entry-what-are-the-rules-on-flying-a-drone-in-egypt`)
+  - VERIFY current customs procedure
+- **What are the rules around alcohol in Egypt?** (`faq-entry-what-are-the-rules-around-alcohol-in-egypt`)
+  - CORRECTION — legacy answer had the age missing entirely
 - **Should I visit the Grand Egyptian Museum?** (`faq-entry-should-i-visit-the-grand-egyptian-museum`)
   - NEW — the legacy page predates the opening and does not mention GEM anywhere. This is now the most important museum question on the site and it is entirely absent.
 - **What's at the Egyptian Museum in Tahrir Square?** (`faq-entry-whats-at-the-egyptian-museum-in-tahrir-square`)
