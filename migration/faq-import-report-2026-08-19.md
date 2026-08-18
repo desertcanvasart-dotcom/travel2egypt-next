@@ -55,6 +55,25 @@ docs/mention-link-suggestions-faq-curated-2026-08-19.csv. Rollback
 snapshots: backups/mention-links-published-2026-08-18/. The 9 VERIFY holds
 were out of scope (unpublished) — weave them after they publish.
 
+## JA/ES page mixed-language fix (2026-08-19, owner-directed)
+
+Owner flagged English content on /ja/faq. Diagnosis: the 24 pre-migration
+EN-only entries rendering their designed EN fallback. Resolution per owner:
+
+- **10 clean overlaps SWAPPED** (scripts/swap-faq-overlaps.ts): live EN
+  answer replaced by the audited migration rewrite + parked ES/JA attached
+  (live EN question wording kept — it drives the anchors). Then woven:
+  13 more internal links published across 3 of them. Rollback:
+  backups/faq-overlap-swap-rollback-2026-08-19.json.
+- **8 ops/policy entries** (no migration counterpart): ES/JA renderings
+  authored fresh from the live EN (Canon: figures identical — gate ran
+  clean; ES impersonal register; JA formal). STAGED AS DRAFTS for owner
+  review: migration/faq-ops-esja-draft-translations-2026-08-19.json via
+  scripts/stage-faq-ops-esja-drafts.ts. Publish from Studio after review.
+- English remaining on /ja/faq after the above: the 6 VERIFY-flagged
+  overlaps (visa, budget, tipping, SIM, time zone, safety) — they join the
+  fact-check pass — plus the 8 above until their drafts are approved.
+
 ## ⚠ Fact-check, then publish (9 drafts still held)
 
 (Two of these — drone rules, alcohol rules — were missing from this report's
