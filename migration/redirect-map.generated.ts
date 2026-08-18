@@ -12473,6 +12473,16 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/es/preguntas-frecuentes-sobre-viajes-a-egipto",
+    "destination": "/es/faq",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エジプト旅行faq",
+    "destination": "/ja/faq",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
