@@ -65,17 +65,18 @@ export function FaqPage({ locale, categories }: Props) {
       {/* Intro */}
       <section className="mx-auto max-w-3xl px-6 pt-12">
         <p className="text-base leading-relaxed text-ink-soft">
-          For deeper guidance on specific topics — transportation, regional
-          itineraries, what to eat — see our{' '}
-          <Link href="/travel-tips" className="text-orange underline underline-offset-2">
-            Travel Tips
-          </Link>{' '}
-          and{' '}
-          <Link href="/guide" className="text-orange underline underline-offset-2">
-            Travel Guide
-          </Link>{' '}
-          sections. For questions about your own trip, the fastest path is to
-          write us directly — we respond within hours, seven days a week.
+          {t.rich('intro', {
+            tipsLink: (chunks) => (
+              <Link href="/travel-tips" className="text-orange underline underline-offset-2">
+                {chunks}
+              </Link>
+            ),
+            guideLink: (chunks) => (
+              <Link href="/guide" className="text-orange underline underline-offset-2">
+                {chunks}
+              </Link>
+            ),
+          })}
         </p>
       </section>
 
