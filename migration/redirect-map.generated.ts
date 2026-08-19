@@ -5739,7 +5739,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/hotels/hyatt-regency-sharm-el-sheikh",
-    "destination": "/ja/hotels/pakurijenshisharumuerusheikurizoto",
+    "destination": "/ja/hotels/park-regency-sharm-el-sheikh-resort",
     "permanent": true
   },
   {
@@ -12480,6 +12480,11 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/エジプト旅行faq",
     "destination": "/ja/faq",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hotels/pakurijenshisharumuerusheikurizoto",
+    "destination": "/ja/hotels/park-regency-sharm-el-sheikh-resort",
     "permanent": true
   },
   {
