@@ -74,6 +74,21 @@ EN-only entries rendering their designed EN fallback. Resolution per owner:
   overlaps (visa, budget, tipping, SIM, time zone, safety) — they join the
   fact-check pass — plus the 8 above until their drafts are approved.
 
+## Flagged-6 + category names — ES/JA staged (2026-08-19, later)
+
+Owner flagged remaining English on /ja/faq (the 6 fact-check overlaps +
+the 7 EN-only original category headings). Decoupling move: the 6 were
+translated from their LIVE EN answers (approved content), not the
+VERIFY-flagged migration rewrites — localization no longer waits on the
+fact-check; corrections later apply ×3. Plus ES/JA names for all 7
+original categories. 13 DRAFTS staged
+(migration/faq-flagged-esja-draft-translations-2026-08-19.json via
+scripts/stage-faq-flagged-esja-drafts.ts; numeric gate clean — JA
+extras are month-names/word-numbers as digits; bullet structure mirrors
+EN). On approval, publish → /ja/faq and /es/faq become fully localized
+except site chrome strings. The parked migration rewrites for these 6
+remain available for the eventual fact-check swap.
+
 ## ⚠ Fact-check, then publish (9 drafts still held)
 
 (Two of these — drone rules, alcohol rules — were missing from this report's
