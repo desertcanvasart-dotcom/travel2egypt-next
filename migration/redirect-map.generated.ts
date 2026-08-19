@@ -12488,6 +12488,26 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/es/guide/rosetta-rasheed/unicamente-en-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/solo-en-rosetta-el-lugar-detras-de-la-piedra",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rashido/rashido-koko-dake-no-taiken",
+    "destination": "/ja/guide/rashido/rozetta-dake-no-mono",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/rosetta-rasheed/lugares-para-visitar-en-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/lugares-de-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/rashido/rashido-no-kanko-meisho",
+    "destination": "/ja/guide/rashido/rashido-no-midokoro",
+    "permanent": true
+  },
+  {
     "source": "/m-s-amwaj-livingstone-nile-cruise",
     "destination": "/nile-cruises/m-s-amwaj-livingstone-nile-cruise",
     "permanent": true
