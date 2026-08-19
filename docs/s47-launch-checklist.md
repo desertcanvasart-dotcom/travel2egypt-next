@@ -43,9 +43,11 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
    policy** before setting `SENTRY_DSN` in production. Also soften the cookie
    policy's absolute "no traffic measurement of any kind" (Sentry ships
    `tracesSampleRate: 0.1` performance tracing when the DSN goes live).
-5. **Fix `/contact-us` inside the privacy-policy body** (CMS) — the stated
-   rights channel. A 301 redirect now covers it site-side (this PR), but the
-   text should link `/contact` directly.
+5. ~~**Fix `/contact-us` inside the privacy-policy body**~~ ✅ **DONE
+   2026-08-19** (owner: "do what you can"): the rights-channel line now
+   reads `…travel2egypt.org/contact` ×3 locales
+   (`scripts/content-hygiene-2026-08-19.ts`; EN was a split-span variant,
+   patched by span key). Verified rendered on all three privacy pages.
 6. **EU/UK Art. 27 representative + transfer basis** — counsel: the policy's
    "consent by use" for the Egypt transfer doesn't meet Art. 49; SCC wording
    is hedged ("where required"). Both are hard requirements for an Egyptian
