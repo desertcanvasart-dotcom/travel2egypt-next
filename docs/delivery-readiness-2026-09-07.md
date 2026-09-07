@@ -88,7 +88,7 @@ after a further 90 days. Log in to the hello@autoura.net dashboard and check.
 - ~~**B4** Sentry named as processor + cookie policy softened~~ ✅ DONE
   2026-09-07 ×3 locales (`scripts/s47-legal-b4-sentry.ts`). Cloudinary not
   used. `SENTRY_DSN` / `NEXT_PUBLIC_SENTRY_DSN` may now be set on Railway.
-- **B6** EU/UK Art. 27 representative + transfer basis wording — counsel.
+- ~~**B6** EU/UK Art. 27 representative + transfer basis~~ ✅ CLOSED 2026-09-07 — counsel: OK as is.
 - ~~**B7** Imprint / 特定商取引法 page~~ ✅ CLOSED 2026-09-07 — owner: not needed.
 - **C9** About-page meta description: verify the "≈130 trips a year" figure,
   then align ES/JA to EN.

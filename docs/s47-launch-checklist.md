@@ -57,10 +57,9 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
    reads `…travel2egypt.org/contact` ×3 locales
    (`scripts/content-hygiene-2026-08-19.ts`; EN was a split-span variant,
    patched by span key). Verified rendered on all three privacy pages.
-6. **EU/UK Art. 27 representative + transfer basis** — counsel: the policy's
-   "consent by use" for the Egypt transfer doesn't meet Art. 49; SCC wording
-   is hedged ("where required"). Both are hard requirements for an Egyptian
-   controller serving EU customers.
+6. ~~**EU/UK Art. 27 representative + transfer basis**~~ ✅ **CLOSED
+   2026-09-07 — counsel reviewed and confirmed the policy is acceptable as
+   written** (owner relayed). No text change.
 7. ~~**Imprint / 特定商取引法 page**~~ ✅ **CLOSED 2026-09-07 — owner decision:
    no dedicated page needed.** Operator identity/address stays where it is
    (cookie policy contact block + terms).
