@@ -91,8 +91,9 @@ after a further 90 days. Log in to the hello@autoura.net dashboard and check.
 - ~~**B6** EU/UK Art. 27 representative + transfer basis~~ ✅ CLOSED 2026-09-07 — counsel: OK as is.
 - ~~**B7** Imprint / 特定商取引法 page~~ ✅ CLOSED 2026-09-07 — owner: not needed.
 - ~~**C9** About-page meta description~~ ✅ CLOSED 2026-09-07 — owner: fine as is.
-- **C12** Footer public email: WhatsApp-primary by design, or add
-  `info@travel2egypt.org`?
+- ~~**C12** Footer public email~~ ✅ CLOSED 2026-09-07 — owner: WhatsApp-first
+  stays. ⏳ New WhatsApp number to come: one constant in
+  `src/lib/concierge/constants.ts` + the two legal pages' contact lines ×3.
 - **S11 owner gates:** VoiceOver + NVDA pass on `/plan-your-tour`; Sentry
   DSN live test (confirm PII scrubbed, no cookies); delete the 4 test client
   records in the getAutoura UI; one-word sign-off on redirect absence.

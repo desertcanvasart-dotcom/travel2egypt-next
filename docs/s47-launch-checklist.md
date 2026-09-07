@@ -85,10 +85,13 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
     call sites (7 tour-system views, FloatingConcierge, ConciergeCTA,
     FaqPage) now import `WHATSAPP_LINK`/`whatsappUrl` from
     `src/lib/concierge/constants.ts` — the number lives in exactly one file.
-12. **Footer has no public email** — ✅ the stale comment in
-    `src/lib/concierge/constants.ts` (claimed the address shows in the
-    footer) is fixed 2026-08-18. STILL OPEN (owner): should the footer
-    carry `info@travel2egypt.org`, or is WhatsApp-primary intentional?
+12. ~~**Footer has no public email**~~ ✅ **CLOSED 2026-09-07 — owner:
+    WhatsApp-primary is intentional; footer stays as is.** ⏳ Owner will
+    supply a (new) WhatsApp number later — swap is one pass:
+    `src/lib/concierge/constants.ts` `WHATSAPP_NUMBER` (single source for all
+    10 UI call sites) + the two legal pages' contact blocks in Sanity
+    (`legal-cookie-policy` "WhatsApp: wa.me/…", `legal-privacy-policy`
+    "Phone: +20 …") ×3 locales.
 13. ~~**Structure the landing `faq` fields**~~ ✅ **DONE 2026-08-18** (the
     corpus had ZERO faq content and no live renderer, so no migration was
     needed): `tourLanding.faq`/`tourCategory.faq` are now arrays of the new
