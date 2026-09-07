@@ -61,9 +61,9 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
    "consent by use" for the Egypt transfer doesn't meet Art. 49; SCC wording
    is hedged ("where required"). Both are hard requirements for an Egyptian
    controller serving EU customers.
-7. **Imprint / 特定商取引法 page** — operator identity/address currently only
-   inside the cookie policy + terms. Decide whether a dedicated page is
-   needed for the Japanese (and German-marketing) exposure.
+7. ~~**Imprint / 特定商取引法 page**~~ ✅ **CLOSED 2026-09-07 — owner decision:
+   no dedicated page needed.** Operator identity/address stays where it is
+   (cookie policy contact block + terms).
 8. **Cutover-day header check (runbook):** the entire noindex lift hinges on
    the origin seeing `Host: travel2egypt.org`. On cutover day run
    `curl -sI https://travel2egypt.org/ | grep -i x-robots` (must be empty)

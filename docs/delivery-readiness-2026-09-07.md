@@ -89,7 +89,7 @@ after a further 90 days. Log in to the hello@autoura.net dashboard and check.
   2026-09-07 ×3 locales (`scripts/s47-legal-b4-sentry.ts`). Cloudinary not
   used. `SENTRY_DSN` / `NEXT_PUBLIC_SENTRY_DSN` may now be set on Railway.
 - **B6** EU/UK Art. 27 representative + transfer basis wording — counsel.
-- **B7** Imprint / 特定商取引法 page — decide if a dedicated page is needed.
+- ~~**B7** Imprint / 特定商取引法 page~~ ✅ CLOSED 2026-09-07 — owner: not needed.
 - **C9** About-page meta description: verify the "≈130 trips a year" figure,
   then align ES/JA to EN.
 - **C12** Footer public email: WhatsApp-primary by design, or add
