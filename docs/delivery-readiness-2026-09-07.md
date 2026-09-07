@@ -90,8 +90,7 @@ after a further 90 days. Log in to the hello@autoura.net dashboard and check.
   used. `SENTRY_DSN` / `NEXT_PUBLIC_SENTRY_DSN` may now be set on Railway.
 - ~~**B6** EU/UK Art. 27 representative + transfer basis~~ ✅ CLOSED 2026-09-07 — counsel: OK as is.
 - ~~**B7** Imprint / 特定商取引法 page~~ ✅ CLOSED 2026-09-07 — owner: not needed.
-- **C9** About-page meta description: verify the "≈130 trips a year" figure,
-  then align ES/JA to EN.
+- ~~**C9** About-page meta description~~ ✅ CLOSED 2026-09-07 — owner: fine as is.
 - **C12** Footer public email: WhatsApp-primary by design, or add
   `info@travel2egypt.org`?
 - **S11 owner gates:** VoiceOver + NVDA pass on `/plan-your-tour`; Sentry

@@ -72,9 +72,9 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
 
 ## C. Post-launch hygiene (non-blocking)
 
-9. **About-page meta description diverges by locale** (`messages/*` key 819):
-   EN has the 1993/2003 frame + a "≈130 customized trips a year" claim absent
-   from ES/JA — verify the number, then align the three.
+9. ~~**About-page meta description diverges by locale**~~ ✅ **CLOSED
+   2026-09-07 — owner: fine as is** (EN keeps the ≈130-trips figure; ES/JA
+   left without it). No change.
 10. ~~**`siteSettings.defaultOgImage` is dead wiring**~~ ✅ **DONE 2026-08-18:**
     `buildMetadata`/`buildStaticMetadata` are now async and self-resolve
     `siteSettings.defaultOgImage` (React-cached, fetched only when the doc
