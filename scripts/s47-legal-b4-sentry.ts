@@ -56,13 +56,13 @@ const block = (key: string, style: 'h2' | 'normal', text: string, extra: Record<
 const ANALYTICS_CHILDREN: Record<L, unknown[]> = {
   en: [
     span('19f180e269fd', 'Analytics platforms', ['strong']),
-    span('566e7cb5a6d7', ' — no Google Analytics, no Hotjar, no session-recording tool, and no audience or marketing measurement of any kind, named or unnamed. (The one technical monitoring tool we run is described under “Error monitoring” below — it is not an analytics platform and cannot be used to follow you.)'),
+    span('566e7cb5a6d7', ' — no Google Analytics, no Hotjar, no session-recording tool, and no audience or marketing measurement of any kind, named or unnamed. (The one technical monitoring tool we run is described under “Error monitoring” above — it is not an analytics platform and cannot be used to follow you.)'),
   ],
   es: [
-    span('a862d3aab5ff0', 'Plataformas de analítica: ni Google Analytics, ni Hotjar, ni herramientas de grabación de sesiones, ni ninguna medición de audiencia o de marketing, sea cual sea, identificada o no. (La única herramienta técnica de supervisión que utilizamos se describe más abajo, en «Supervisión de errores»: no es una plataforma de analítica y no puede utilizarse para seguirle.)'),
+    span('a862d3aab5ff0', 'Plataformas de analítica: ni Google Analytics, ni Hotjar, ni herramientas de grabación de sesiones, ni ninguna medición de audiencia o de marketing, sea cual sea, identificada o no. (La única herramienta técnica de supervisión que utilizamos se describe más arriba, en «Supervisión de errores»: no es una plataforma de analítica y no puede utilizarse para seguirle.)'),
   ],
   ja: [
-    span('a862d3aab5ff0', 'アナリティクスプラットフォーム：Google Analytics も Hotjar も、セッション記録ツールも、名称の有無を問わず、いかなる種類のオーディエンス測定・マーケティング測定ツールも使用いたしません。（当社が使用する唯一の技術的な監視ツールについては、下記の「エラー監視」で説明しております。これはアナリティクスプラットフォームではなく、お客さまを追跡するために使用することはできません。）'),
+    span('a862d3aab5ff0', 'アナリティクスプラットフォーム：Google Analytics も Hotjar も、セッション記録ツールも、名称の有無を問わず、いかなる種類のオーディエンス測定・マーケティング測定ツールも使用いたしません。（当社が使用する唯一の技術的な監視ツールについては、上記の「エラー監視」で説明しております。これはアナリティクスプラットフォームではなく、お客さまを追跡するために使用することはできません。）'),
   ],
 };
 
