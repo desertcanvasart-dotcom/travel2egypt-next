@@ -6,7 +6,11 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
 
 ## A. Ship-blockers (owner wording / CMS edits)
 
-1. **Years-in-business contradiction — three numbers live at once.**
+1. ~~**Years-in-business contradiction — three numbers live at once.**~~
+   ✅ **DONE 2026-08-18 (owner chose the 1993 canon; propagated ×3 locales,
+   commit 889f9bc):** hero now reads "Egyptian operator since 2003" +
+   "Since 1993"; concierge eyebrow "backed by 30 years on the ground";
+   footer/trust strip "Egyptian-operated since 2003". Original finding kept below.
    The homepage hero pairs "Egyptian operator since 2003" with "30 years
    operating in Egypt" (adjacent, all 3 locales — `messages/*.json` keys
    `home.heroEyebrow` vs `home.heroMetaYears`); the concierge page says both
