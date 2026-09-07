@@ -95,8 +95,10 @@ after a further 90 days. Log in to the hello@autoura.net dashboard and check.
   stays. ⏳ New WhatsApp number to come: one constant in
   `src/lib/concierge/constants.ts` + the two legal pages' contact lines ×3.
 - **S11 owner gates:** VoiceOver + NVDA pass on `/plan-your-tour`; Sentry
-  DSN live test (confirm PII scrubbed, no cookies); delete the 4 test client
-  records in the getAutoura UI; one-word sign-off on redirect absence.
+  DSN live test — step-by-step in `docs/go-live-steps-sentry-dns-2026-09-07.md`
+  Part A. ~~delete the 4 test client records in getAutoura~~ ✅ CLOSED
+  2026-09-07: owner says they are real tenants with their own content — keep.
+  Redirect-absence sign-off: moot.
 - ~~**Standalone Studio deploy**~~ ✅ DONE 2026-09-07 — `npm run studio:deploy`
   succeeded (2/2 schemas deployed, https://travel2egypt.sanity.studio/ → 200).
 - ~~**Two heroes with a third-party watermark**~~ ✅ CLOSED 2026-09-07 — both
@@ -110,6 +112,9 @@ after a further 90 days. Log in to the hello@autoura.net dashboard and check.
   host in EN/ES/JA. Script + rollback: `scripts/asyut-history-hero-swap-2026-09-07.ts`.
 
 ## 3. Cutover day (Step 6 — own sitting)
+
+> Full step-by-step (Cloudflare records, Railway domain setup, SSL mode, WP
+> rule cleanup, verification, rollback): `docs/go-live-steps-sentry-dns-2026-09-07.md` Part B.
 
 1. B1 + B2 done and verified. Sentry DSN set (after B4).
 2. Point travel2egypt.org (Cloudflare / registrar) at the Railway service;
