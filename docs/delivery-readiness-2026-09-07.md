@@ -97,12 +97,17 @@ after a further 90 days. Log in to the hello@autoura.net dashboard and check.
 - **S11 owner gates:** VoiceOver + NVDA pass on `/plan-your-tour`; Sentry
   DSN live test (confirm PII scrubbed, no cookies); delete the 4 test client
   records in the getAutoura UI; one-word sign-off on redirect absence.
-- **Standalone Studio deploy:** `npm run studio:deploy` so
-  travel2egypt.sanity.studio gets the schema additions (australia-oceania
-  originRegion, ogImage/travelerStory alt fields).
-- **Two heroes with a third-party watermark** (`gotellitonthemountain.net`) —
-  licensing exposure; swap before launch. IDs were noted during the
-  2026-07-05 alt pass; re-find with a visual sweep if the note is lost.
+- ~~**Standalone Studio deploy**~~ ✅ DONE 2026-09-07 — `npm run studio:deploy`
+  succeeded (2/2 schemas deployed, https://travel2egypt.sanity.studio/ → 200).
+- ~~**Two heroes with a third-party watermark**~~ ✅ CLOSED 2026-09-07 — both
+  found by asset filename. (1) Port Said weather hero: already re-imaged
+  2026-07-12; the watermarked asset is now an unreferenced orphan
+  (`El-Ahmar-Sinai-Go-tell-it-on-the-mountain_result-1.jpg`) — owner may
+  delete it from the Studio asset library. (2) History of Asyut
+  (wp-page-59260): a watermarked *Sinai* photo — swapped to the Asyut city's
+  own 8090px Nile-shore panorama, alt+caption ×3 rewritten; the city doc's
+  wrong alt ("mosque at dusk") corrected at the same time. Verified on the
+  host in EN/ES/JA. Script + rollback: `scripts/asyut-history-hero-swap-2026-09-07.ts`.
 
 ## 3. Cutover day (Step 6 — own sitting)
 
