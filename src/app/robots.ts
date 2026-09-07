@@ -3,6 +3,7 @@ import { headers } from 'next/headers';
 
 import { PRODUCTION_URL, isProductionHost } from '@/lib/site';
 import { ROBOTS_DISALLOW_PATHS } from '@/lib/robotsPolicy';
+import { routing } from '@/i18n/routing';
 
 /**
  * Runtime-gated robots.txt.
@@ -11,11 +12,9 @@ import { ROBOTS_DISALLOW_PATHS } from '@/lib/robotsPolicy';
  * blocked — every crawler, AI crawlers included, since that host is
  * preview-only and must never be indexed or scraped.
  *
- * On the production host the full crawl policy applies. The AI-crawler
- * groups are ALLOW by deliberate brand decision: editorial content is a
- * strategic asset and LLM citation is a distribution channel we want
- * (see public/llms.txt). To opt out of AI training later, switch the
- * AI-crawler `allow` entries to `disallow`.
+ * Production allows search indexing and user-requested AI retrieval,
+ * with the same private/deferred-path exclusions for every allowed bot.
+ * Training crawlers are disallowed, matching the Cloudflare policy.
  *
  * The host check lifts the block automatically at DNS cutover — no
  * redeploy or env-var change needed.
@@ -24,14 +23,29 @@ import { ROBOTS_DISALLOW_PATHS } from '@/lib/robotsPolicy';
  * could not host-gate (it served `Allow: /` on every host).
  */
 
-const AI_CRAWLERS = [
+const AI_SEARCH_AND_ASSISTANTS = [
+  'OAI-SearchBot',
+  'ChatGPT-User',
+  'Claude-SearchBot',
+  'Claude-User',
+  'PerplexityBot',
+  'Perplexity-User',
+];
+
+const AI_TRAINING_CRAWLERS = [
   'anthropic-ai',
   'ClaudeBot',
   'GPTBot',
-  'ChatGPT-User',
   'Google-Extended',
-  'PerplexityBot',
   'CCBot',
+];
+
+// Keep locale-prefixed routes under the same policy as their EN originals.
+const disallowPaths = [
+  ...ROBOTS_DISALLOW_PATHS,
+  ...routing.locales
+    .filter((locale) => locale !== routing.defaultLocale)
+    .flatMap((locale) => ROBOTS_DISALLOW_PATHS.map((path) => `/${locale}${path}`)),
 ];
 
 export default async function robots(): Promise<MetadataRoute.Robots> {
@@ -46,12 +60,13 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
   return {
     rules: [
       {
-        userAgent: '*',
+        // Specific groups do not inherit '*'; share one rule set instead.
+        userAgent: ['*', ...AI_SEARCH_AND_ASSISTANTS],
         allow: '/',
         // SSOT — shared with the concierge link-map indexability guard.
-        disallow: [...ROBOTS_DISALLOW_PATHS],
+        disallow: disallowPaths,
       },
-      ...AI_CRAWLERS.map((userAgent) => ({ userAgent, allow: '/' })),
+      { userAgent: AI_TRAINING_CRAWLERS, disallow: '/' },
     ],
     sitemap: `${PRODUCTION_URL}/sitemap.xml`,
   };
