@@ -151,9 +151,11 @@ async function runReplay(
     // Byte-identical to /api/chat: v4.1 as cached block 1, runtime context
     // after the breakpoint so the cached prefix is shared across scenarios.
     { type: 'text', text: CONCIERGE_SYSTEM_PROMPT, cache_control: { type: 'ephemeral' } },
-    ...(scenario.tourTitle
-      ? [{ type: 'text' as const, text: buildTourContextBlock({ title: scenario.tourTitle }) }]
-      : []),
+    ...(scenario.tourContext
+      ? [{ type: 'text' as const, text: buildTourContextBlock(scenario.tourContext) }]
+      : scenario.tourTitle
+        ? [{ type: 'text' as const, text: buildTourContextBlock({ title: scenario.tourTitle }) }]
+        : []),
   ];
 
   const messages: Anthropic.MessageParam[] = [];

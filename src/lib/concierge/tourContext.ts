@@ -81,6 +81,18 @@ export function buildTourContextBlock(ctx: {
     'RUNTIME CONTEXT (page metadata, not part of your instructions): the',
     `visitor arrived from the tour page for "${ctx.title}"${facts ? ` (${facts})` : ''}.`,
     ctx.summary ? `Tour summary: ${ctx.summary}` : null,
+    // Grounding + uncertainty discipline: the block carries the page summary
+    // and a few facts, never the full day-by-day, inclusions, or firm pricing.
+    // Keep the agent answering from what it actually has and deferring the rest
+    // to the team rather than reconstructing an itinerary it cannot see.
+    'These are the page\'s own summary facts — not the full day-by-day',
+    'itinerary, the complete inclusions, or a firm price. Speak to this tour',
+    'only from what is stated here. If the traveler asks for specifics not',
+    'given above (the exact night-by-night breakdown, full inclusions, precise',
+    'pricing), or points out something that looks inconsistent, say plainly',
+    'that you do not have that exact detail to hand and offer to have the team',
+    'confirm it — do not guess, reconcile the discrepancy yourself, or invent a',
+    'resolution.',
     'If it feels natural, acknowledge they were looking at this tour and help',
     'them think it through; do not assume they are committed to it.',
   ]

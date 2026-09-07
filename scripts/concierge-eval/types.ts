@@ -43,6 +43,19 @@ export interface ReplayScenario {
   description: string;
   /** Optional tour-context block title (mirrors ?tour= landing entry). */
   tourTitle?: string;
+  /**
+   * Full tour-context facts, mirroring production's per-turn injection
+   * (route.ts re-resolves the stored tour every turn). Takes precedence over
+   * tourTitle when present, so a persona can exercise the grounded block the
+   * live agent actually sees mid-conversation, not just the bare title.
+   */
+  tourContext?: {
+    title: string;
+    summary?: string | null;
+    durationLabel?: string | null;
+    priceIndication?: string | null;
+    cityNames?: string[];
+  };
   /** Scripted user turns, sent in order regardless of agent replies. */
   turns: string[];
   checks: ReplayChecks;
