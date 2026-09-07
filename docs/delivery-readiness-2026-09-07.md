@@ -85,9 +85,9 @@ after a further 90 days. Log in to the hello@autoura.net dashboard and check.
 
 ## 2. Pre-cutover (owner / counsel, from `docs/s47-launch-checklist.md`)
 
-- **B4** Name Sentry (and Cloudinary if still used) as processors in the
-  privacy policy before `SENTRY_DSN` is set in production; soften the cookie
-  policy's "no traffic measurement of any kind" (Sentry tracing samples 10%).
+- ~~**B4** Sentry named as processor + cookie policy softened~~ ✅ DONE
+  2026-09-07 ×3 locales (`scripts/s47-legal-b4-sentry.ts`). Cloudinary not
+  used. `SENTRY_DSN` / `NEXT_PUBLIC_SENTRY_DSN` may now be set on Railway.
 - **B6** EU/UK Art. 27 representative + transfer basis wording — counsel.
 - **B7** Imprint / 特定商取引法 page — decide if a dedicated page is needed.
 - **C9** About-page meta description: verify the "≈130 trips a year" figure,

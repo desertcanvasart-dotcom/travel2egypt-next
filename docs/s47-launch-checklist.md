@@ -43,10 +43,15 @@ an owner decision, a CMS edit, or counsel. Ordered by severity.
 
 ## B. Before DNS cutover (owner/counsel)
 
-4. **Name Sentry (and Cloudinary, if still used) as processors in the privacy
-   policy** before setting `SENTRY_DSN` in production. Also soften the cookie
-   policy's absolute "no traffic measurement of any kind" (Sentry ships
-   `tracesSampleRate: 0.1` performance tracing when the DSN goes live).
+4. ~~**Name Sentry (and Cloudinary, if still used) as processors in the privacy
+   policy**~~ ✅ **DONE 2026-09-07** (owner: Cloudinary NOT used — not named).
+   Applied to production ×3 locales via `scripts/s47-legal-b4-sentry.ts`
+   (guarded, idempotent; rollback `backups/s47-legal-b4-rollback-2026-09-07.json`):
+   cookie policy — analytics bullet softened, new "Error monitoring: Sentry"
+   section (h2 + 2¶), lost EN/ES "What a cookie is" definition restored;
+   privacy policy — "Error monitoring." paragraph under Usage data naming
+   Sentry as processor + outside-Egypt storage. Both lastUpdated 2026-09-07.
+   Host-verified ×6 pages. `SENTRY_DSN` may now go live.
 5. ~~**Fix `/contact-us` inside the privacy-policy body**~~ ✅ **DONE
    2026-08-19** (owner: "do what you can"): the rights-channel line now
    reads `…travel2egypt.org/contact` ×3 locales
