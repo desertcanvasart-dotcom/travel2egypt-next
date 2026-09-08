@@ -583,6 +583,13 @@ html[lang='ja'] .lvl-single .dep-row .dp-price { font-size: 16px; white-space: n
 .lvl-home .hero h1 { font-family: var(--display); font-weight: 400; font-size: clamp(54px, 6.6vw, 94px); line-height: .97; letter-spacing: -.018em; color: var(--navy); }
 .lvl-home .hero h1 em { font-style: italic; display: block; }
 .lvl-home .hero .sub { max-width: 440px; margin-top: 30px; font-size: 19px; line-height: 1.6; color: var(--navy-mute); }
+.lvl-home .hero .hero-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 18px 30px; margin-top: 36px; }
+.lvl-home .hero .btn.primary { background: var(--navy); color: var(--paper); padding: 16px 30px; }
+.lvl-home .hero .btn.primary:hover { background: var(--gold-dark); color: var(--paper); }
+.lvl-home .hero .btn.text { color: var(--navy); border-bottom: 1px solid var(--rule); padding: 4px 0; }
+.lvl-home .hero .btn.text:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+.lvl-home .hero .btn .cta-arrow { display: inline-block; transition: transform .18s ease; }
+.lvl-home .hero .btn.primary:hover .cta-arrow { transform: translateX(4px); }
 .lvl-home .hero .stats { display: flex; gap: 52px; margin-top: 40px; padding-top: 26px; border-top: 1px solid var(--rule); font-family: var(--ui); font-size: 14px; color: var(--navy-mute); }
 .lvl-home .hero .stats b { color: var(--navy); font-weight: 600; }
 .lvl-home .hero-img { position: relative; aspect-ratio: 4/5; width: 100%; }

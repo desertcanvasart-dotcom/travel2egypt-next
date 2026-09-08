@@ -107,6 +107,14 @@ export async function HomeView({
                 {t('heroFirstLine')} <em>{t('heroAccent')}</em>
               </h1>
               <p className="sub">{t('heroLede')}</p>
+              <div className="hero-cta">
+                <Link className="btn primary" href={conciergeHref}>
+                  {t('heroCtaPrimary')} <span className="cta-arrow" aria-hidden>→</span>
+                </Link>
+                <a className="btn text" href="#where-to-begin">
+                  {t('heroCtaSecondary')}
+                </a>
+              </div>
               <div className="stats">
                 <span>
                   <b>{t('heroMetaYears')}</b> {t('heroMetaYearsLabel')}
