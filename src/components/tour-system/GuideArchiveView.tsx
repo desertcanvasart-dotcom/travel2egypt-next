@@ -120,6 +120,15 @@ export async function GuideArchiveView({
     list.sort((a, b) => rank(a) - rank(b) || (a.guideOrder ?? 100) - (b.guideOrder ?? 100));
   }
 
+  // Region jump-bar targets — only regions that actually have cities, in the
+  // authored order. Gives the 41-city archive the category-jump controls it
+  // lacked; the region section ids are also the anchor destinations the
+  // homepage guide cards point at.
+  const jumpRegions = regions.filter(
+    (r): r is GuideRegionDef & { key: string; name: string } =>
+      !!r.key && !!r.name && (byRegion.get(r.key)?.length ?? 0) > 0,
+  );
+
   // First-trip pointer links — the essential cities. Match on the LOCALIZED
   // name, since the ways[0] body is localized too (the names in the prose are
   // the localized forms — e.g. "El Cairo" / "カイロ").
@@ -199,7 +208,7 @@ export async function GuideArchiveView({
         </header>
 
         {(settings?.guideWays ?? []).length > 0 && (
-          <section className="ways">
+          <section className="ways" id="first-trip">
             <div className="ways-head">
               <span className="t2e-kicker">{t('waysKicker')}</span>
               <h2>{t('waysTitle')}</h2>
@@ -217,6 +226,19 @@ export async function GuideArchiveView({
             </div>
           </section>
         )}
+
+        {jumpRegions.length > 0 && (
+          <nav className="guide-jump" id="regions" aria-label={t('jumpAria')}>
+            <span className="gj-label">{t('jumpTo')}</span>
+            <ul>
+              {jumpRegions.map((r) => (
+                <li key={r.key}>
+                  <a href={`#${r.key}`}>{r.name}</a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
       </div>
 
       {regions.map((region) => {
@@ -224,7 +246,7 @@ export async function GuideArchiveView({
         if (list.length === 0) return null;
         const [anchor, ...rest] = list;
         return (
-          <section className="region" key={region.key}>
+          <section className="region" id={region.key} key={region.key}>
             <div className="t2e-wrap">
               <div className="region-head">
                 <h2>{region.name}</h2>

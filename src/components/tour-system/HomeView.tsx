@@ -69,6 +69,17 @@ export async function HomeView({
   const guideCards = data?.guideCards ?? [];
   const starts = data?.startingPoints ?? [];
 
+  // Guide cards can deep-link to a section of /guide (e.g. /guide#cairo-giza),
+  // so each of the four lands on the topic it names rather than all on the
+  // landing top. A native, locale-aware anchor — the App Router Link does not
+  // reliably scroll to a hash on another page (same rule as JourneysMenu). The
+  // /guide path is identity-mapped across locales, so a locale prefix is all
+  // that's needed.
+  const guideCardHref = (href?: string) => {
+    const h = href && href.startsWith('/') ? href : '/guide';
+    return locale === 'en' ? h : `/${locale}${h}`;
+  };
+
   // Inline asset references — the three city heroes that best
   // illustrate each way to travel (Giza for day tours, Luxor for
   // packages, Aswan for cruises). Move to Sanity later if editorial
@@ -232,11 +243,11 @@ export async function HomeView({
             </div>
             <div className="gfeat-cards">
               {guideCards.map((c, i) => (
-                <Link className="gfc" href={c.href || '/guide'} key={i}>
+                <a className="gfc" href={guideCardHref(c.href)} key={i}>
                   <div className="ix">{ROMAN[i] ?? ''}</div>
                   <h3>{c.title}</h3>
                   <p>{c.dek}</p>
-                </Link>
+                </a>
               ))}
             </div>
           </div>
