@@ -227,7 +227,18 @@
   .t2e-wrap { padding: 0 24px; }
   .t2e-nav-links { display: none; }
   .t2e-nav-right .t2e-burger { display: inline-flex; }
+  /* De-crowd the mobile bar: the Contact CTA (which wrapped its arrow and
+     pushed against the currency control) moves into the sheet, and the
+     remaining controls — currency, locale, burger — sit on a tighter gap. */
+  .t2e-nav-cta { display: none; }
+  .t2e-nav-right { gap: 16px; }
   .t2e-section-head, .t2e-footband-grid, .t2e-foot-top { grid-template-columns: 1fr; gap: 36px; }
   .t2e-conc-panel { width: calc(100vw - 32px); right: 16px; }
+}
+
+@media (max-width: 380px) {
+  /* Smallest phones: trim the gap further so logo + currency + locale + burger
+     never collide. */
+  .t2e-nav-right { gap: 12px; }
 }
 

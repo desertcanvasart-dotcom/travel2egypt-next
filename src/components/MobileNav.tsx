@@ -1,20 +1,22 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 import { Link, usePathname } from '@/i18n/navigation';
 
 // Same six "Where should your Egypt start?" journeys as the desktop dropdown
 // (JourneysMenu). Surfaced inline in the mobile sheet because the desktop
-// hover-dropdown has no touch equivalent.
+// hover-dropdown has no touch equivalent. These link straight to each
+// traveller-type's own page — matching the desktop menu — rather than to a
+// homepage card that would cost the reader a second tap.
 const JOURNEY_LINKS = [
-  { key: 'journeyFirstTime', hash: 'first-time-in-egypt' },
-  { key: 'journeyCultural', hash: 'the-cultural-traveller' },
-  { key: 'journeyFamily', hash: 'travelling-as-a-family' },
-  { key: 'journeyDesert', hash: 'desert-and-quiet' },
-  { key: 'journeyStyle', hash: 'travelling-in-style' },
-  { key: 'journeyReturning', hash: 'coming-back' },
+  { key: 'journeyFirstTime', href: '/journeys/first-time-in-egypt' },
+  { key: 'journeyCultural', href: '/journeys/the-cultural-traveller' },
+  { key: 'journeyFamily', href: '/journeys/travelling-as-a-family' },
+  { key: 'journeyDesert', href: '/journeys/desert-and-quiet' },
+  { key: 'journeyStyle', href: '/journeys/travelling-in-style' },
+  { key: 'journeyReturning', href: '/journeys/coming-back' },
 ] as const;
 
 /**
@@ -27,7 +29,6 @@ const JOURNEY_LINKS = [
  */
 export function MobileNav() {
   const t = useTranslations('nav');
-  const locale = useLocale();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const panelRef = useRef<HTMLDivElement | null>(null);
@@ -73,8 +74,6 @@ export function MobileNav() {
     return () => mq.removeEventListener('change', onChange);
   }, []);
 
-  const hashHref = (hash: string) =>
-    locale === 'en' ? `/#${hash}` : `/${locale}#${hash}`;
   const isActive = (href: string) =>
     pathname === href || pathname.startsWith(`${href}/`);
   const cur = (href: string) => (isActive(href) ? 'page' : undefined);
@@ -121,9 +120,11 @@ export function MobileNav() {
             <li>
               <span className="ms-heading">{t('journeys')}</span>
               <ul className="ms-sub">
-                {JOURNEY_LINKS.map(({ key, hash }) => (
+                {JOURNEY_LINKS.map(({ key, href }) => (
                   <li key={key}>
-                    <a href={hashHref(hash)}>{t(key)}</a>
+                    <Link href={href} aria-current={cur(href)}>
+                      {t(key)}
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -136,6 +137,13 @@ export function MobileNav() {
             <li>
               <Link href="/about" aria-current={cur('/about')}>
                 {t('about')}
+              </Link>
+            </li>
+            {/* Contact lives here on mobile — the header CTA is hidden below
+                980px (it wrapped and crowded the currency control). */}
+            <li>
+              <Link href="/contact" aria-current={cur('/contact')}>
+                {t('contact')}
               </Link>
             </li>
           </ul>
