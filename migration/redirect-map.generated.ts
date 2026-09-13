@@ -13,11 +13,6 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
-    "source": "/fi/egyptin-hieroglyfien-ymmartaminen",
-    "destination": "/",
-    "permanent": true
-  },
-  {
     "source": "/es/vacaciones-en-un-crucero-por-el-nilo",
     "destination": "/es/nile-cruises/vacaciones-en-un-crucero-por-el-nilo",
     "permanent": true
@@ -25,16 +20,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/ナイルクルーズの休日",
     "destination": "/ja/nile-cruises/ナイルクルーズの休日",
-    "permanent": true
-  },
-  {
-    "source": "/fi/boutique-niilin-risteilyt",
-    "destination": "/",
-    "permanent": true
-  },
-  {
-    "source": "/fi/kuinka-valita-sim-kortti-egyptin-matkalle",
-    "destination": "/",
     "permanent": true
   },
   {
@@ -520,11 +505,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/journeys/coming-back",
     "destination": "/ja/journeys/futatabi-no-ejiputo",
-    "permanent": true
-  },
-  {
-    "source": "/fi/suuren-gizan-pyramidin-sisaan",
-    "destination": "/",
     "permanent": true
   },
   {
@@ -12558,11 +12538,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/fi/kuinka-pukeutua-vieraillessa-egyptissa",
-    "destination": "/",
-    "permanent": true
-  },
-  {
     "source": "/ms-esplanade-nile-cruise",
     "destination": "/nile-cruises/ms-esplanade-nile-cruise",
     "permanent": true
@@ -12643,11 +12618,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/fi/liikkuminen-egyptissa",
-    "destination": "/",
-    "permanent": true
-  },
-  {
     "source": "/roman-dahabiya",
     "destination": "/nile-cruises/roman-dahabiya",
     "permanent": true
@@ -12718,11 +12688,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/fi/sphinxes-and-obelisks-how-egypts-silent-giants-still-speak-today",
-    "destination": "/",
-    "permanent": true
-  },
-  {
     "source": "/m-s-sonesta-st-george-nile-cruise",
     "destination": "/nile-cruises/m-s-sonesta-st-george-nile-cruise",
     "permanent": true
@@ -12750,21 +12715,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/es/nour-el-nil-meroe-dahabiya",
     "destination": "/es/nile-cruises/nour-el-nil-meroe-dahabiya",
-    "permanent": true
-  },
-  {
-    "source": "/fi/taydellinen-opas-kairon-nmeciin-egyptilaisen-sivilisaation-kansallismuseo",
-    "destination": "/",
-    "permanent": true
-  },
-  {
-    "source": "/fi/paikalliset-sairaalat-egyptissa",
-    "destination": "/",
-    "permanent": true
-  },
-  {
-    "source": "/fi/missa-tutankhamun-on-nyt",
-    "destination": "/",
     "permanent": true
   },
   {

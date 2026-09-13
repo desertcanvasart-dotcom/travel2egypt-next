@@ -48,6 +48,21 @@ async function handleResume(request: NextRequest): Promise<NextResponse | null> 
 }
 
 export default async function middleware(request: NextRequest) {
+  const { pathname, searchParams } = request.nextUrl;
+  const retiredFinnish = pathname === '/fi' || pathname.startsWith('/fi/');
+  // WordPress search used the locale homepage with ?s=. The new site has
+  // no such search endpoint; otherwise these URLs silently serve a homepage.
+  const retiredSearch = /^\/(?:en\/?|es\/?|ja\/?)?$/.test(pathname) && searchParams.has('s');
+  if (retiredFinnish || retiredSearch) {
+    return new NextResponse(
+      '<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Page removed | Travel2Egypt</title></head><body><main><h1>This page has been removed</h1><p>This content is no longer available.</p><p><a href="/">English</a> · <a href="/es">Español</a> · <a href="/ja">日本語</a></p></main></body></html>',
+      {
+        status: 410,
+        headers: { 'Content-Type': 'text/html; charset=utf-8' },
+      },
+    );
+  }
+
   const resumeResponse = await handleResume(request);
   if (resumeResponse) return resumeResponse;
 
@@ -81,5 +96,6 @@ export const config = {
   //  - /admin  (S10 admin reviewer panel — must not be locale-prefixed)
   //  - Next.js internals (_next, _vercel)
   //  - Files with extensions (favicon.ico, etc.)
-  matcher: ['/((?!api|studio|admin|_next|_vercel|.*\\..*).*)'],
+  // Retired Finnish paths must also match when a legacy slug has a dot.
+  matcher: ['/fi/:path*', '/((?!api|studio|admin|_next|_vercel|.*\\..*).*)'],
 };
