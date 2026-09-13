@@ -22,8 +22,23 @@ interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
+/**
+ * JA monument slugs are Japanese script (e.g. ファトナス島). Next hands the
+ * dynamic param to the page percent-encoded for non-ASCII paths, so the
+ * exact-match GROQ lookup missed every JA monument and prerendered a 404.
+ * Decode defensively: an already-decoded slug is returned unchanged.
+ */
+function decodeSlug(raw: string): string {
+  try {
+    return decodeURIComponent(raw);
+  } catch {
+    return raw;
+  }
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale, slug } = await params;
+  const { locale, slug: rawSlug } = await params;
+  const slug = decodeSlug(rawSlug);
   const m = await client.fetch(monumentBySlugQuery(locale as Locale), { slug });
   if (!m) return {};
   return buildMetadata(
@@ -62,7 +77,8 @@ export async function generateStaticParams() {
 }
 
 export default async function MonumentPage({ params }: Props) {
-  const { locale, slug } = await params;
+  const { locale, slug: rawSlug } = await params;
+  const slug = decodeSlug(rawSlug);
   setRequestLocale(locale);
 
   const t = await getTranslations('wiki');

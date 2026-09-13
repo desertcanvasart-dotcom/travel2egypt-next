@@ -32,6 +32,8 @@ jobs:
         run: npm run typecheck
       - name: Retired content routing
         run: npm run test:retired-content
+      - name: No streaming boundary above notFound/redirect pages
+        run: npm run test:no-streaming-boundary
       - name: Concierge tests (markers + Autoura)
         run: npm run test:concierge
       - name: Link-map tests
