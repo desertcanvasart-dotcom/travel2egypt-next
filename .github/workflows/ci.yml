@@ -30,6 +30,8 @@ jobs:
       - run: npm ci
       - name: Typecheck
         run: npm run typecheck
+      - name: Retired content routing
+        run: npm run test:retired-content
       - name: Concierge tests (markers + Autoura)
         run: npm run test:concierge
       - name: Link-map tests

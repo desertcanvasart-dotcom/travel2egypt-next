@@ -21,6 +21,7 @@
     "import:food": "tsx scripts/import-food.ts",
     "test:merge": "tsx scripts/wp-import/__tests__/merge.test.ts",
     "test:redirect-map-regenerate": "tsx scripts/wp-import/__tests__/redirect-map-regenerate.test.ts",
+    "test:retired-content": "tsx src/lib/__tests__/retired-content.test.ts",
     "test:import-md": "tsx scripts/wp-import-md/__tests__/run-all.ts",
     "test:merge-dispatch": "tsx scripts/wp-import/__tests__/merge-dispatch.test.ts",
     "test:scope": "tsx scripts/wp-import/__tests__/scope.test.ts",
