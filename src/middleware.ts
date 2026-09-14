@@ -75,6 +75,13 @@ export const RETIRED_PATH = new RegExp(
     '|/wp-(?:admin|json|content|includes)(?:/.*)?' +
     '|/(?:category|tag|author)(?:/.*)?' +
     '|/\\d{4}/\\d{2}(?:/\\d{2})?(?:/.*)?' +
+    // Junk-suffix crawl artefacts: 350 GSC "Not found" URLs are real old
+    // paths with `/844-1755-44411` appended (a WP-era tracking fragment);
+    // the base paths are themselves retired, so the suffixed form never
+    // had a successor.
+    '|/.+/844-1755-44411' +
+    // Spam HLS playlists planted under the old WP install (45 GSC rows).
+    '|/upload(?:/.*)?' +
   ')/?$',
 );
 
@@ -136,6 +143,8 @@ export const config = {
     '/:locale(es|ja)?/:dir(wp-admin|wp-json|wp-content|wp-includes)/:path*',
     '/:locale(es|ja)?/:archive(category|tag|author)/:path*',
     '/:locale(es|ja)?/:year(\\d{4})/:month(\\d{2})/:path*',
+    '/:locale(es|ja)?/upload/:path*',
+    '/:path*/844-1755-44411',
     '/((?!api|studio|admin|_next|_vercel|.*\\..*).*)',
   ],
 };
