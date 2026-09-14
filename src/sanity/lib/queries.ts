@@ -110,7 +110,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
  * leaf page can render the same nav widget the city page does.
  */
 export const guideArticleBySlugQuery = (locale: Locale) => groq`
-  *[_type == "guideArticle" && (
+  *[_type == "guideArticle" && hidden != true && (
     slug[_key == "${locale}"][0].value.current == $slug ||
     (slug[_key == "${locale}"][0].value.current == null &&
      slug[_key == "en"][0].value.current == $slug)
@@ -174,7 +174,7 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
 `;
 
 export const allGuideArticleSlugsQuery = groq`
-  *[_type == "guideArticle"]{
+  *[_type == "guideArticle" && hidden != true]{
     _id,
     "slugs": slug[]{ _key, "current": value.current },
     "parentCitySlugs": parentCity->slug[]{ _key, "current": value.current }
