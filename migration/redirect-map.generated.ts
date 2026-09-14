@@ -17201,5 +17201,10 @@ export const redirects: RedirectRule[] = [
     "source": "/es/guia-de-viaje-de-luxor",
     "destination": "/es/guide/luxor",
     "permanent": true
+  },
+  {
+    "source": "/es/como-llegar-2",
+    "destination": "/es/travel-tips/como-llegar-a-egipto-vuelos-ferris-y-pasos-fronterizos",
+    "permanent": true
   }
 ];
