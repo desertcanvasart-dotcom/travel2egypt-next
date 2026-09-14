@@ -639,7 +639,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/excursion-de-un-dia-en-grupo-piramides-de-guiza-y-esfinge",
-    "destination": "/es/pyramids-of-giza-and-sphinx-group-day-tour",
+    "destination": "/es/piramides-de-guiza-y-esfinge-excursion-en-grupo",
     "permanent": true
   },
   {
@@ -17175,6 +17175,31 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/safaga-travel-guide/activities-to-try",
     "destination": "/guide/safaga/things-to-do-in-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-tips",
+    "destination": "/travel-tips",
+    "permanent": true
+  },
+  {
+    "source": "/islamic-architectural-heritage-in-egypt",
+    "destination": "/blog/islamic-architectural-heritage-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-gouna",
+    "destination": "/es/guide/el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/viaje-culinario-a-egipto",
+    "destination": "/es/travel-tips/comer-en-egipto-un-viaje-culinario-por-el-pais",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-luxor",
+    "destination": "/es/guide/luxor",
     "permanent": true
   }
 ];
