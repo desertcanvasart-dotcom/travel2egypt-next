@@ -47,6 +47,10 @@ interface ArticleDoc {
 
 const SITE = siteUrlBase();
 
+// Re-generate hourly so content-only Sanity changes (new docs, slug fixes,
+// retired duplicates) reach the sitemap without waiting for a redeploy.
+export const revalidate = 3600;
+
 // Article translation groups (document-level i18n): the translation.metadata
 // doc links each language's article. We read it to emit hreflang alternates on
 // article sitemap entries, mirroring the on-page <link rel="alternate">.
