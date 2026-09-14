@@ -12393,16 +12393,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/category/lifestyle",
-    "destination": "/blog",
-    "permanent": true
-  },
-  {
-    "source": "/category/luxury-stay",
-    "destination": "/blog",
-    "permanent": true
-  },
-  {
     "source": "/guide/cairo/madrassa-mausoleum-of-qalawun",
     "destination": "/guide/cairo/complex-of-sultan-al-mansur-qalawun",
     "permanent": true
