@@ -11954,7 +11954,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/safari-de-5-dias-por-las-cuevas-de-obeiyed",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/el-desierto-occidental-en-sus-propios-terminos-safari-privado-de-cinco-dias-a-la-cueva-de-el-obeiyed",
     "permanent": true
   },
   {
@@ -17145,6 +17145,36 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/egypt-travel-guide/hurghada/while-you-are-there/places-to-go/giftun-islands",
     "destination": "/guide/hurghada/giftun-islands",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ナイル川クルーズパッケージに含まれるもの",
+    "destination": "/ja/blog/nairu-kuruzu-no-pakkeji-ni-wa-nani-ga-fukuma-reru-no-ka",
+    "permanent": true
+  },
+  {
+    "source": "/es/comida-en-el-oasis-de-bahariya",
+    "destination": "/es/guide/bahariya/gastronomia-en-el-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/15-dias-de-el-cairo-a-asuan",
+    "destination": "/es/grandeza-del-nilo-en-15-dias-de-el-cairo-a-asuan-por-el-rio",
+    "permanent": true
+  },
+  {
+    "source": "/dahab-historical-guide-3",
+    "destination": "/guide/dahab/dahab-historical-guide",
+    "permanent": true
+  },
+  {
+    "source": "/dakhla-oasis-travel-guide/getting-around",
+    "destination": "/guide/dakhla-oasis/getting-around-in-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/safaga-travel-guide/activities-to-try",
+    "destination": "/guide/safaga/things-to-do-in-safaga",
     "permanent": true
   }
 ];
