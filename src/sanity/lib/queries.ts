@@ -81,6 +81,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
       "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
       monumentType,
       placesToGoGroup,
+      orderRank,
       heroImage{
         ...,
         "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
@@ -154,7 +155,8 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
         "summary": ${localizedField('summary', locale)},
         "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
         monumentType,
-        placesToGoGroup
+        placesToGoGroup,
+        orderRank
       }
     },
     "relatedTours": relatedTours[]->{
