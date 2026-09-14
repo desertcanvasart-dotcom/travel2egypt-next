@@ -12,12 +12,12 @@
  */
 import { cache } from 'react';
 import type { Metadata } from 'next';
-import { notFound, permanentRedirect } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
-import { Link } from '@/i18n/navigation';
+import { Link, permanentRedirect } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
@@ -156,11 +156,14 @@ export default async function CatchAllPage({ params }: Props) {
   // page with a single PERMANENT (308) hop. A temporary 307 here left Google
   // treating the old WP URL as the live one ("Crawled – currently not
   // indexed") instead of consolidating signals onto the successor.
+  // Must be the next-intl (locale-aware) redirect: the plain next/navigation
+  // one dropped the /es and /ja prefix, so a Spanish legacy slug landed on
+  // the English route and 404'd (the resolved doc is locale-specific).
   if (hit._type === 'article') {
-    permanentRedirect(`/blog/${rest[0]}`);
+    permanentRedirect({ href: `/blog/${rest[0]}`, locale: locale as Locale });
   }
   if (hit._type === 'wikiMonument') {
-    permanentRedirect(`/wiki/monuments/${rest[0]}`);
+    permanentRedirect({ href: `/wiki/monuments/${rest[0]}`, locale: locale as Locale });
   }
 
   // tourCategory + tourLanding render inline (their canonical URL IS the root path)
