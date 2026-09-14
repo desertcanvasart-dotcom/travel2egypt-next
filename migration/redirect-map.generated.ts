@@ -10009,7 +10009,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/travel-tips/distance-between-egyptian-cities",
-    "destination": "/es/travel-tips/distancias-entre-las-ciudades-de-egipto-una-guia-practica",
+    "destination": "/es/distance-between-egyptian-cities",
     "permanent": true
   },
   {
@@ -17674,12 +17674,27 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/distancias-entre-las-ciudades-de-egipto-una-guia-practica",
-    "destination": "/es/travel-tips/distancias-entre-las-ciudades-de-egipto-una-guia-practica",
+    "destination": "/es/distance-between-egyptian-cities",
     "permanent": true
   },
   {
     "source": "/ja/ejiputo-toshikan-no-kyori",
-    "destination": "/ja/travel-tips/ejiputo-toshikan-no-kyori",
+    "destination": "/ja/distance-between-egyptian-cities",
+    "permanent": true
+  },
+  {
+    "source": "/travel-tips/distance-between-egyptian-cities",
+    "destination": "/distance-between-egyptian-cities",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/distancias-entre-las-ciudades-de-egipto-una-guia-practica",
+    "destination": "/es/distance-between-egyptian-cities",
+    "permanent": true
+  },
+  {
+    "source": "/ja/travel-tips/ejiputo-toshikan-no-kyori",
+    "destination": "/ja/distance-between-egyptian-cities",
     "permanent": true
   }
 ];
