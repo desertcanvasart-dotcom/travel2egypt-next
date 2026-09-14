@@ -47,13 +47,44 @@ async function handleResume(request: NextRequest): Promise<NextResponse | null> 
   return response;
 }
 
+/**
+ * Retired WordPress-era URL families → 410 Gone.
+ *
+ * These paths existed only on the old WordPress site and have no successor
+ * on the Next.js site, so a 410 (not a 404) tells Google to drop them from
+ * its index faster. Search Console's "Blocked by robots.txt" (701 URLs) and
+ * "Excluded by noindex" (877 URLs) reports as of 2026-09-13 were entirely
+ * made of these families, all last crawled pre-cutover:
+ *   /fi/*                              Finnish site (PR #112)
+ *   /wp-login.php, /xmlrpc.php,        WP core endpoints (776 + 122 hits were
+ *   /wp-admin, /wp-json, /wp-content,  ?action=lostpassword&redirect_to=…)
+ *   /wp-includes
+ *   /category/*, /tag/*, /author/*     WP taxonomy + author archives (the blog
+ *                                      lives at /blog/category/* — untouched)
+ *   /YYYY/MM[/DD][/…]                  WP date archives + date permalinks
+ * Each family may carry a WordPress locale prefix (/es, /ja).
+ *
+ * next.config redirects run BEFORE middleware, so a redirect row for one of
+ * these paths would win — the retired-content test asserts none exists.
+ */
+export const RETIRED_PATH = new RegExp(
+  '^(?:/(?:en|es|ja))?(?:' +
+    '/fi(?:/.*)?' +
+    '|/wp-login\\.php' +
+    '|/xmlrpc\\.php' +
+    '|/wp-(?:admin|json|content|includes)(?:/.*)?' +
+    '|/(?:category|tag|author)(?:/.*)?' +
+    '|/\\d{4}/\\d{2}(?:/\\d{2})?(?:/.*)?' +
+  ')/?$',
+);
+
 export default async function middleware(request: NextRequest) {
   const { pathname, searchParams } = request.nextUrl;
-  const retiredFinnish = pathname === '/fi' || pathname.startsWith('/fi/');
+  const retiredPath = RETIRED_PATH.test(pathname);
   // WordPress search used the locale homepage with ?s=. The new site has
   // no such search endpoint; otherwise these URLs silently serve a homepage.
   const retiredSearch = /^\/(?:en\/?|es\/?|ja\/?)?$/.test(pathname) && searchParams.has('s');
-  if (retiredFinnish || retiredSearch) {
+  if (retiredPath || retiredSearch) {
     return new NextResponse(
       '<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Page removed | Travel2Egypt</title></head><body><main><h1>This page has been removed</h1><p>This content is no longer available.</p><p><a href="/">English</a> · <a href="/es">Español</a> · <a href="/ja">日本語</a></p></main></body></html>',
       {
@@ -96,6 +127,15 @@ export const config = {
   //  - /admin  (S10 admin reviewer panel — must not be locale-prefixed)
   //  - Next.js internals (_next, _vercel)
   //  - Files with extensions (favicon.ico, etc.)
-  // Retired Finnish paths must also match when a legacy slug has a dot.
-  matcher: ['/fi/:path*', '/((?!api|studio|admin|_next|_vercel|.*\\..*).*)'],
+  // Retired WordPress families must match even when the path has a dot
+  // (wp-login.php, xmlrpc.php, /wp-content/…/file.jpg, dotted legacy slugs).
+  matcher: [
+    '/fi/:path*',
+    '/:locale(es|ja)?/wp-login.php',
+    '/:locale(es|ja)?/xmlrpc.php',
+    '/:locale(es|ja)?/:dir(wp-admin|wp-json|wp-content|wp-includes)/:path*',
+    '/:locale(es|ja)?/:archive(category|tag|author)/:path*',
+    '/:locale(es|ja)?/:year(\\d{4})/:month(\\d{2})/:path*',
+    '/((?!api|studio|admin|_next|_vercel|.*\\..*).*)',
+  ],
 };
