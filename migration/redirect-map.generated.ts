@@ -248,13 +248,8 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/guide/hurghada/giftun-islands",
-    "destination": "/giftun-island-shared-snorkeling-day-from-hurghada",
-    "permanent": true
-  },
-  {
     "source": "/es/guide/hurghada/las-islas-giftun",
-    "destination": "/es/islas-giftun-desde-hurghada-dia-de-snorquel-compartido-en-yate",
+    "destination": "/es/guide/hurghada/islas-giftun",
     "permanent": true
   },
   {
@@ -264,7 +259,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/giftun-islands",
-    "destination": "/giftun-island-shared-snorkeling-day-from-hurghada",
+    "destination": "/guide/hurghada/giftun-islands",
     "permanent": true
   },
   {
@@ -3099,7 +3094,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/harugada/giftun-islands",
-    "destination": "/ja/guide/harugada/gifuton-shoto",
+    "destination": "/ja/guide/harugada/gifutun-shoto",
     "permanent": true
   },
   {
@@ -7714,7 +7709,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/hurghada/giftun-islands",
-    "destination": "/es/guide/hurghada/las-islas-giftun",
+    "destination": "/es/guide/hurghada/islas-giftun",
     "permanent": true
   },
   {
@@ -11559,7 +11554,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-de-viaje-de-hurghada/islas-giftun",
-    "destination": "/es/guide/hurghada",
+    "destination": "/es/guide/hurghada/islas-giftun",
     "permanent": true
   },
   {
@@ -17145,6 +17140,11 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/ダフラ・オアシス旅行ガイド/料理",
     "destination": "/ja/guide/dafura-oashisu/ryori",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/hurghada/while-you-are-there/places-to-go/giftun-islands",
+    "destination": "/guide/hurghada/giftun-islands",
     "permanent": true
   }
 ];
