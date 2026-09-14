@@ -6,7 +6,7 @@ locale: es
 title: "Islas Giftun"
 description: "Dos islas y un parque marino a unos 12 km de Hurghada: qué ofrecen de verdad el arrecife, Mahmya y Orange Bay, y cómo funciona la jornada en barco."
 excerpt: "Giftun es la jornada de mar habitual de Hurghada: un arrecife protegido a una hora de la costa, compartido con muchos barcos, y que merece la pena por el coral, no por la soledad."
-placesToGoGroup: "Reefs and Beaches"
+placesToGoGroup: ""
 heroAlt: "Embarcadero de madera sobre la laguna turquesa y poco profunda de Orange Bay, islas Giftun, con dunas desérticas pálidas al fondo"
 heroCaption: "El embarcadero de Orange Bay: el banco de arena entre las dos islas Giftun, a una hora aproximada en barco desde Hurghada."
 ---

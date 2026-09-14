@@ -6,7 +6,7 @@ locale: en
 title: "The Giftun Islands"
 description: "Two islands, one marine park, about 12 km off Hurghada: what the reef, Mahmya and Orange Bay actually offer, and how the standard boat day works."
 excerpt: "Giftun is Hurghada’s standard day at sea: a protected reef an hour offshore, shared with many boats, and worth it for the coral rather than the solitude."
-placesToGoGroup: "Reefs and Beaches"
+placesToGoGroup: ""
 heroAlt: "Timber jetty over the shallow turquoise lagoon at Orange Bay, Giftun Islands, with pale desert dunes behind"
 heroCaption: "Orange Bay’s jetty: the sand bar between the two Giftun islands, about an hour by boat from Hurghada."
 ---

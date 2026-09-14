@@ -100,7 +100,7 @@ function preflight(lang: Lang, blocks: Block[], md: string) {
 const parsed = LANGS.map((lang) => {
   const raw = readFileSync(SRC(lang), 'utf8');
   const { data: fm, content } = matter(raw);
-  for (const f of ['slug', 'title', 'description', 'excerpt', 'heroAlt', 'heroCaption', 'placesToGoGroup']) if (!fm[f]) throw new Error(`[${lang}] frontmatter missing ${f}`);
+  for (const f of ['slug', 'title', 'description', 'excerpt', 'heroAlt', 'heroCaption']) if (!fm[f]) throw new Error(`[${lang}] frontmatter missing ${f}`);
   if (fm.locale !== lang || fm.city !== 'hurghada' || fm.kind !== 'attraction') throw new Error(`[${lang}] frontmatter locale/city/kind mismatch`);
   const body = parseBody(content);
   preflight(lang, body, content);
@@ -110,8 +110,10 @@ const parsed = LANGS.map((lang) => {
   const words = body.reduce((n, b) => n + b.children.map((s) => s.text).join('').split(/\s+/).length, 0);
   return { lang, fm, body, linked, words };
 });
-const group = parsed[0].fm.placesToGoGroup as string;
-if (parsed.some((p) => p.fm.placesToGoGroup !== group)) throw new Error('placesToGoGroup must be identical across locales (controlled token)');
+// placesToGoGroup: empty by founder decision 2026-09-14 — untagged places render in the
+// sidebar's trailing 'Other sites' list next to Hurghada Marina (alphabetical), where the owner wants it.
+const group = ((parsed[0].fm.placesToGoGroup as string | undefined) ?? '').trim();
+if (parsed.some((p) => ((p.fm.placesToGoGroup as string | undefined) ?? '').trim() !== group)) throw new Error('placesToGoGroup must be identical across locales (controlled token)');
 
 const i18n = <T,>(pick: (p: typeof parsed[number]) => T) => parsed.map((p) => ({ _key: p.lang, value: pick(p) }));
 const i18nObj = <T,>(pick: (p: typeof parsed[number]) => T) => parsed.map((p) => ({ _key: p.lang, _type: 'object' as const, value: pick(p) }));
@@ -121,7 +123,7 @@ const doc = {
   parentCity: { _ref: CITY_ID, _type: 'reference' },
   kind: 'attraction',
   section: 'places-to-go',
-  placesToGoGroup: group,
+  ...(group ? { placesToGoGroup: group } : {}),
   title: i18n((p) => p.fm.title as string),
   slug: i18n((p) => ({ _type: 'slug', current: p.fm.slug as string })),
   summary: i18n((p) => p.fm.excerpt as string),
