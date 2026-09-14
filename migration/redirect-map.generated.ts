@@ -16966,5 +16966,185 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/ダハブの歴史的遺産を巡る",
     "destination": "/ja/guide/dahabu/dahabu-no-rekishi-teki-isan-o-meguru",
     "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-bahariya/oasis-de-bahariya-desbloqueado-te-esperan-descubrimientos-unicos",
+    "destination": "/es/guide/bahariya/solo-aqui-en-el-oasis-de-bahariya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-dajla/opciones-de-alojamiento",
+    "destination": "/es/guide/dakhla/hoteles-en-el-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/es/por-que-nos-eligen",
+    "destination": "/es/about",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル旅行ガイド/地元の味覚",
+    "destination": "/ja/guide/abu-shinberu/abu-shin-beru-jimoto-no-mikaku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/ギザ-ツアー",
+    "destination": "/ja/guide/giza/giza-no-osusume-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/es/politia-de-cookies",
+    "destination": "/es/cookie-policy",
+    "permanent": true
+  },
+  {
+    "source": "/ja/フルガダ旅行ガイド/活動予定表",
+    "destination": "/ja/guide/harugada/harugada-no-ibento",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アル・グーナ旅行ガイド/ビーチを超えて",
+    "destination": "/ja/guide/eru-gu-na/eru-gu-na-de-no-akutibitigaido",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/dakhla-oasis/tours",
+    "destination": "/guide/dakhla-oasis/dakhla-oasis-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/遠足プラン",
+    "destination": "/ja/guide/asuwan/asuwan-no-tsua-to-ensoku",
+    "permanent": true
+  },
+  {
+    "source": "/es/moverse-en-hurghada",
+    "destination": "/es/guide/hurghada/como-moverse-por-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/nuweiba-tour-packages",
+    "destination": "/guide/nuweiba/tours-in-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/tours/cairo--sharm-el-shiekh/golf-lovers-8422_89",
+    "destination": "/8-day-egypt-golf-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/avents-paisaje",
+    "destination": "/es/guide/alejandria/eventos-en-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/underwater-archaeology-and-wreck-diving-in-the-red-sea",
+    "destination": "/blog/diving-in-the-red-sea",
+    "permanent": true
+  },
+  {
+    "source": "/nile-cruise-hurghada-stay-15-day-tour",
+    "destination": "/15-day-nile-cruise-and-hurghada-tour",
+    "permanent": true
+  },
+  {
+    "source": "/private-tour-abu-simbel-by-bus-from-aswan",
+    "destination": "/abu-simbel-temples-day-tour-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-hotels",
+    "destination": "/hotels",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/rutas-por-guiza",
+    "destination": "/es/guide/guiza/como-moverse-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ダフラ・オアシス旅行ガイド/ディール・エル＝ハガル",
+    "destination": "/ja/guide/dafura-oashisu/deirueruhagaru",
+    "permanent": true
+  },
+  {
+    "source": "/es/resumen-historico-de-wadi-al-natron",
+    "destination": "/es/guide/wadi-al-natron/historia-de-wadi-el-natrun",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/wadi-al-natron/while-you-are-there/getting-around",
+    "destination": "/guide/wadi-el-natrun/how-to-get-around-wadi-el-natrun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-farafra/portal-de-historia",
+    "destination": "/es/guide/farafra/resumen-historico-de-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/ismailia/introducing-ismailia/weather",
+    "destination": "/guide/ismailia/ismailia-weather-guide",
+    "permanent": true
+  },
+  {
+    "source": "/things-to-do-in-ras-suder",
+    "destination": "/guide/ras-sudr/things-to-do-in-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/qena-local-cuisine",
+    "destination": "/guide/qena/food-in-qena",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/aswan/while-you-are-there/places-to-go/elephantine-island",
+    "destination": "/guide/aswan/elephantine-island",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ルクソール旅行ガイド/移動手段あれこれ",
+    "destination": "/ja/guide/rukusoru/rukusoru-no-ido-shudan-arekore",
+    "permanent": true
+  },
+  {
+    "source": "/ja/コム・オンボ-旅行ガイド/ナイルのお祭り",
+    "destination": "/ja/guide/komu-ombo/komu-ombo-no-o-matsuri",
+    "permanent": true
+  },
+  {
+    "source": "/14-myths-and-facts-about-ancient-egypt",
+    "destination": "/blog/myths-and-facts-about",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/giza-travel-guide/while-you-are-there/places-to-go/abusir-necropolis/the-mastaba-of-ptahshepses-at-abusir",
+    "destination": "/guide/giza/mastaba-of-ptahshepses-at-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/giza-travel-guide/while-you-are-there/places-to-go/the-giza-plateau/pyramid-of-menkaure",
+    "destination": "/guide/giza/pyramid-of-menkaure",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/saint-catherine/while-you-are-there/food",
+    "destination": "/guide/saint-catherine/food-in-saint-catherine",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル旅行ガイド/太陽の祭り",
+    "destination": "/ja/guide/abu-shinberu/abu-shin-beru-taiyo-no-matsuri",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/luxor/while-you-are-there/events",
+    "destination": "/guide/luxor/cultural-events-in-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ダフラ・オアシス旅行ガイド/料理",
+    "destination": "/ja/guide/dafura-oashisu/ryori",
+    "permanent": true
   }
 ];
