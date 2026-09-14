@@ -17201,5 +17201,485 @@ export const redirects: RedirectRule[] = [
     "source": "/es/guia-de-viaje-de-luxor",
     "destination": "/es/guide/luxor",
     "permanent": true
+  },
+  {
+    "source": "/es/como-llegar-2",
+    "destination": "/es/travel-tips/como-llegar-a-egipto-vuelos-ferris-y-pasos-fronterizos",
+    "permanent": true
+  },
+  {
+    "source": "/about-egypt",
+    "destination": "/travel-tips/about-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/sobre-egipto-entender-el-pais-antes-de-llegar",
+    "destination": "/es/travel-tips/sobre-egipto-entender-el-pais-antes-de-llegar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-toyuu-kuni",
+    "destination": "/ja/travel-tips/ejiputo-toyuu-kuni",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-weather-guide",
+    "destination": "/travel-tips/egypt-weather-guide",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+    "destination": "/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-tenko-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-tenko-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/staying-connected-in-egypt",
+    "destination": "/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/airports-in-egypt",
+    "destination": "/travel-tips/airports-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/aeropuertos-de-egipto-una-guia-de-las-puertas-de-entrada-del-pais",
+    "destination": "/es/travel-tips/aeropuertos-de-egipto-una-guia-de-las-puertas-de-entrada-del-pais",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-kuko",
+    "destination": "/ja/travel-tips/ejiputo-no-kuko",
+    "permanent": true
+  },
+  {
+    "source": "/visiting-a-religious-site",
+    "destination": "/travel-tips/visiting-a-religious-site",
+    "permanent": true
+  },
+  {
+    "source": "/es/visitar-lugares-de-culto-en-egipto-una-guia-respetuosa",
+    "destination": "/es/travel-tips/visitar-lugares-de-culto-en-egipto-una-guia-respetuosa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-seichi-o-otozureru",
+    "destination": "/ja/travel-tips/ejiputo-no-seichi-o-otozureru",
+    "permanent": true
+  },
+  {
+    "source": "/bargaining-in-egypt",
+    "destination": "/travel-tips/bargaining-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-regateo-en-egipto-la-cultura-que-hay-detras-del-trato",
+    "destination": "/es/travel-tips/el-regateo-en-egipto-la-cultura-que-hay-detras-del-trato",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-nedan-kosho-jutsu",
+    "destination": "/ja/travel-tips/ejiputo-no-nedan-kosho-jutsu",
+    "permanent": true
+  },
+  {
+    "source": "/currency-in-egypt",
+    "destination": "/travel-tips/currency-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/la-moneda-en-egipto-la-libra-egipcia-el-efectivo-y-las-tarjetas",
+    "destination": "/es/travel-tips/la-moneda-en-egipto-la-libra-egipcia-el-efectivo-y-las-tarjetas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-tsuka-ryogae-okane-no-kanri-kanzen-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-tsuka-ryogae-okane-no-kanri-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/water-safety-in-egypt-advice-for-travelers",
+    "destination": "/travel-tips/water-safety-in-egypt-advice-for-travelers",
+    "permanent": true
+  },
+  {
+    "source": "/es/seguridad-del-agua-en-egipto-agua-de-beber-bano-y-bilharziasis",
+    "destination": "/es/travel-tips/seguridad-del-agua-en-egipto-agua-de-beber-bano-y-bilharziasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-ryoko-to-mizu-no-anzen",
+    "destination": "/ja/travel-tips/ejiputo-ryoko-to-mizu-no-anzen",
+    "permanent": true
+  },
+  {
+    "source": "/getting-there",
+    "destination": "/travel-tips/getting-there",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-llegar-a-egipto-vuelos-ferris-y-pasos-fronterizos",
+    "destination": "/es/travel-tips/como-llegar-a-egipto-vuelos-ferris-y-pasos-fronterizos",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-e-no-iki-kata",
+    "destination": "/ja/travel-tips/ejiputo-e-no-iki-kata",
+    "permanent": true
+  },
+  {
+    "source": "/health-and-safety",
+    "destination": "/travel-tips/health-and-safety",
+    "permanent": true
+  },
+  {
+    "source": "/es/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero",
+    "destination": "/es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-kenko-to-anzen",
+    "destination": "/ja/travel-tips/ejiputo-no-kenko-to-anzen",
+    "permanent": true
+  },
+  {
+    "source": "/language-in-egypt",
+    "destination": "/travel-tips/language-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/la-lengua-en-egipto-de-los-jeroglificos-al-arabe-de-la-calle",
+    "destination": "/es/travel-tips/la-lengua-en-egipto-de-los-jeroglificos-al-arabe-de-la-calle",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-gengo-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-gengo-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/opening-hours-and-public-holidays",
+    "destination": "/travel-tips/opening-hours-and-public-holidays",
+    "permanent": true
+  },
+  {
+    "source": "/es/horarios-y-dias-festivos-en-egipto",
+    "destination": "/es/travel-tips/horarios-y-dias-festivos-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-eigyo-jikan-to-kokyu-bi-kanzen-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-eigyo-jikan-to-kokyu-bi-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/passport-and-visa",
+    "destination": "/travel-tips/passport-and-visa",
+    "permanent": true
+  },
+  {
+    "source": "/es/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas",
+    "destination": "/es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-nyukoku-gaido",
+    "destination": "/ja/travel-tips/ejiputo-nyukoku-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/ramadan-in-egypt",
+    "destination": "/travel-tips/ramadan-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-ramadan-en-egipto-como-el-pais-cambia-de-ritmo",
+    "destination": "/es/travel-tips/el-ramadan-en-egipto-como-el-pais-cambia-de-ritmo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-ramadan",
+    "destination": "/ja/travel-tips/ejiputo-no-ramadan",
+    "permanent": true
+  },
+  {
+    "source": "/student-travelers",
+    "destination": "/travel-tips/student-travelers",
+    "permanent": true
+  },
+  {
+    "source": "/es/viajar-a-egipto-como-estudiante-descuentos-albergues-y-trenes",
+    "destination": "/es/travel-tips/viajar-a-egipto-como-estudiante-descuentos-albergues-y-trenes",
+    "permanent": true
+  },
+  {
+    "source": "/ja/gakusei-no-tame-no-ejiputo-ryoko-gaido",
+    "destination": "/ja/travel-tips/gakusei-no-tame-no-ejiputo-ryoko-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/telephones-in-egypt",
+    "destination": "/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/telefonos-en-egipto",
+    "destination": "/es/travel-tips/telefonos-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-de-no-denwa-riyo-nitsuite",
+    "destination": "/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite",
+    "permanent": true
+  },
+  {
+    "source": "/time-in-egypt",
+    "destination": "/travel-tips/time-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/la-hora-en-egipto-husos-horarios-calendarios-y-el-ritmo-de-las-oraciones",
+    "destination": "/es/travel-tips/la-hora-en-egipto-husos-horarios-calendarios-y-el-ritmo-de-las-oraciones",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-jisa-to-jikan-no-kanzen-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-jisa-to-jikan-no-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/solo-woman-traveler-in-egypt",
+    "destination": "/travel-tips/solo-woman-traveler-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/viajar-sola-a-egipto-el-panorama-real",
+    "destination": "/es/travel-tips/viajar-sola-a-egipto-el-panorama-real",
+    "permanent": true
+  },
+  {
+    "source": "/ja/josei-no-tame-no-ejiputo-ryoko-gaido",
+    "destination": "/ja/travel-tips/josei-no-tame-no-ejiputo-ryoko-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/tips-on-accommodations",
+    "destination": "/travel-tips/tips-on-accommodations",
+    "permanent": true
+  },
+  {
+    "source": "/es/donde-alojarse-en-egipto-hoteles-resorts-y-mucho-mas",
+    "destination": "/es/travel-tips/donde-alojarse-en-egipto-hoteles-resorts-y-mucho-mas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-shukuhaku-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-shukuhaku-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/tipping-in-egypt",
+    "destination": "/travel-tips/tipping-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/propinas-en-egipto-como-funciona-de-verdad-el-baksheesh",
+    "destination": "/es/travel-tips/propinas-en-egipto-como-funciona-de-verdad-el-baksheesh",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-chippu-bunka-bakushishi-kanzen-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-chippu-bunka-bakushishi-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/transportation-in-egypt",
+    "destination": "/travel-tips/transportation-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-moverse-por-egipto-trenes-vuelos-autobuses-y-taxis",
+    "destination": "/es/travel-tips/como-moverse-por-egipto-trenes-vuelos-autobuses-y-taxis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-kotsu-shudan-kanzen-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-kotsu-shudan-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/travel-insurance",
+    "destination": "/travel-tips/travel-insurance",
+    "permanent": true
+  },
+  {
+    "source": "/es/seguro-de-viaje-para-egipto-lo-que-de-verdad-hace-falta",
+    "destination": "/es/travel-tips/seguro-de-viaje-para-egipto-lo-que-de-verdad-hace-falta",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-ryoko-no-tame-no-ryoko-hoken-gaido",
+    "destination": "/ja/travel-tips/ejiputo-ryoko-no-tame-no-ryoko-hoken-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/traveling-with-kids",
+    "destination": "/travel-tips/traveling-with-kids",
+    "permanent": true
+  },
+  {
+    "source": "/es/viajar-a-egipto-con-ninos-el-dia-a-dia-practico",
+    "destination": "/es/travel-tips/viajar-a-egipto-con-ninos-el-dia-a-dia-practico",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kazoku-de-tabi-suru-ejiputo-kozure-ryoko-kanzen-gaido",
+    "destination": "/ja/travel-tips/kazoku-de-tabi-suru-ejiputo-kozure-ryoko-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/travel-with-disabilities",
+    "destination": "/travel-tips/travel-with-disabilities",
+    "permanent": true
+  },
+  {
+    "source": "/es/viajar-a-egipto-con-discapacidad-que-encontrara-sobre-el-terreno",
+    "destination": "/es/travel-tips/viajar-a-egipto-con-discapacidad-que-encontrara-sobre-el-terreno",
+    "permanent": true
+  },
+  {
+    "source": "/ja/shogai-no-aru-kata-no-ryoko",
+    "destination": "/ja/travel-tips/shogai-no-aru-kata-no-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/toilets-in-egypt",
+    "destination": "/travel-tips/toilets-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/los-aseos-en-egipto-una-guia-practica-para-el-viajero",
+    "destination": "/es/travel-tips/los-aseos-en-egipto-una-guia-practica-para-el-viajero",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-toire-jijo-kanzen-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-toire-jijo-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/touts-in-egypt",
+    "destination": "/travel-tips/touts-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/los-buscavidas-en-egipto-como-manejarlos-y-donde-se-concentran",
+    "destination": "/es/travel-tips/los-buscavidas-en-egipto-como-manejarlos-y-donde-se-concentran",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-kyakuhiki-touts-e-no-taisho-ho",
+    "destination": "/ja/travel-tips/ejiputo-no-kyakuhiki-touts-e-no-taisho-ho",
+    "permanent": true
+  },
+  {
+    "source": "/vegetarian-travelers-to-egypt",
+    "destination": "/travel-tips/vegetarian-travelers-to-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/viajar-a-egipto-siendo-vegetariano-una-guia-practica-de-comida",
+    "destination": "/es/travel-tips/viajar-a-egipto-siendo-vegetariano-una-guia-practica-de-comida",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-bejitarianvigan-shokuji-gaido",
+    "destination": "/ja/travel-tips/ejiputo-bejitarianvigan-shokuji-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/electricity-in-egypt",
+    "destination": "/travel-tips/electricity-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/la-electricidad-en-egipto-enchufes-voltaje-y-adaptadores",
+    "destination": "/es/travel-tips/la-electricidad-en-egipto-enchufes-voltaje-y-adaptadores",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-denki-juden-puragu-kanzen-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-denki-juden-puragu-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/attractions-entrance-fees",
+    "destination": "/travel-tips/attractions-entrance-fees",
+    "permanent": true
+  },
+  {
+    "source": "/es/entradas-a-los-monumentos-de-egipto-que-presupuestar-y-que-priorizar",
+    "destination": "/es/travel-tips/entradas-a-los-monumentos-de-egipto-que-presupuestar-y-que-priorizar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-tabi-no-keikaku-nyujo-ryo-2026",
+    "destination": "/ja/travel-tips/ejiputo-tabi-no-keikaku-nyujo-ryo-2026",
+    "permanent": true
+  },
+  {
+    "source": "/culinary-journey-in-egypt",
+    "destination": "/travel-tips/culinary-journey-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/comer-en-egipto-un-viaje-culinario-por-el-pais",
+    "destination": "/es/travel-tips/comer-en-egipto-un-viaje-culinario-por-el-pais",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-shoku-o-tabi-suru",
+    "destination": "/ja/travel-tips/ejiputo-no-shoku-o-tabi-suru",
+    "permanent": true
+  },
+  {
+    "source": "/cultural-etiquette-in-egypt",
+    "destination": "/travel-tips/cultural-etiquette-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria",
+    "destination": "/es/travel-tips/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-no-bunka-mana",
+    "destination": "/ja/travel-tips/ejiputo-no-bunka-mana",
+    "permanent": true
+  },
+  {
+    "source": "/es/distancias-entre-las-ciudades-de-egipto-una-guia-practica",
+    "destination": "/es/travel-tips/distancias-entre-las-ciudades-de-egipto-una-guia-practica",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ejiputo-toshikan-no-kyori",
+    "destination": "/ja/travel-tips/ejiputo-toshikan-no-kyori",
+    "permanent": true
   }
 ];
