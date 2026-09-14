@@ -509,7 +509,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/asuwan-kara-hikoki-de-iku-abu-shin-beru",
-    "destination": "/ja/abu-simble-by-plane-from-aswan",
+    "destination": "/ja/asuwan-kara-hikoki-de-iku-abu-shin-beru-ramusesu-2-sei-to",
     "permanent": true
   },
   {
@@ -519,12 +519,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/ruta-templos-autobus-abu-simbel-desde-asuan",
-    "destination": "/es/private-tour-abu-simble-by-bus-from-aswan",
+    "destination": "/es/abu-simbel-por-carretera-desde-asuan",
     "permanent": true
   },
   {
     "source": "/ja/shinden-no-michi-asuwan-hatsu-abu-shin-beru-shinden-higaeri",
-    "destination": "/ja/private-tour-abu-simble-by-bus-from-aswan",
+    "destination": "/ja/asuwan-kara-kuruma-de-iku-abu-shin-beru-shujitsu-no-shinden",
     "permanent": true
   },
   {
@@ -534,12 +534,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/catacumba-columna-de-pompeyo-museo-nacional-y-anfiteatro",
-    "destination": "/es/alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+    "destination": "/es/alejandria-desde-el-cairo-catacumbas-columna-y-ciudad-grecorromana",
     "permanent": true
   },
   {
     "source": "/ja/katakombe-pompei-no-hashira-kokuritsu-hakubutsukan-enkei",
-    "destination": "/ja/alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+    "destination": "/ja/arekusandoria-no-ichi-nichi-ushinawa-re-ta-to-ga-nokoshi-ta",
     "permanent": true
   },
   {
@@ -549,12 +549,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/visita-a-la-ciudad-de-asuan-desde-marsa-alam",
-    "destination": "/es/aswan-city-tour-from-marsa-alam",
+    "destination": "/es/excursion-a-asuan-desde-marsa-alam-obelisco-inacabado-presa-alta-y-templo-de-file",
     "permanent": true
   },
   {
     "source": "/ja/marusaaramu-hatsu-asuwan-shi-tsua",
-    "destination": "/ja/aswan-city-tour-from-marsa-alam",
+    "destination": "/ja/marusaaramu-hatsu-asuwan-shinai-tsua-mikan-no-oberisuku-hai",
     "permanent": true
   },
   {
@@ -564,12 +564,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/de-alejandria-a-el-cairo-piramides-y-museo",
-    "destination": "/es/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "destination": "/es/tour-de-dia-desde-alejandria-a-el-cairo-piramides-museo-y-jan-el-jalili",
     "permanent": true
   },
   {
     "source": "/ja/arekusandoria-hatsu-kairo-e-no-puraibeto-higaeri-tsua-giza",
-    "destination": "/ja/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "destination": "/ja/arekusandoria-hatsu-kairo-higaeri-tsua-piramiddo",
     "permanent": true
   },
   {
@@ -579,12 +579,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/esplendores-de-la-capital-excursion-en-grupo-de-un-dia-a-el-cairo-en-autobus-desde-hurghada",
-    "destination": "/es/cairo-by-bus-group-day-tour-from-hurghada",
+    "destination": "/es/el-cairo-en-autobus-desde-hurghada",
     "permanent": true
   },
   {
     "source": "/ja/shuto-no-kagayaki-furugada-hatsu-kairo-e-no-basu-de-iku",
-    "destination": "/ja/cairo-by-bus-group-day-tour-from-hurghada",
+    "destination": "/ja/basu-de-iku-kairo-kokai-ni-ne-o-hatta-mama-no-ichi-nichi",
     "permanent": true
   },
   {
@@ -594,12 +594,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/companeros-de-coral-dia-compartido-de-snorkel-en-la-isla-giftun",
-    "destination": "/es/giftun-island-shared-snorkeling-day-from-hurghada",
+    "destination": "/es/islas-giftun-desde-hurghada-dia-de-snorquel-compartido-en-yate",
     "permanent": true
   },
   {
     "source": "/ja/sango-no-nakama-tachi-gifutun-to-shunokeringu-kyoyu-tsua",
-    "destination": "/ja/giftun-island-shared-snorkeling-day-from-hurghada",
+    "destination": "/ja/gifutun-shoto-no-ichi-nichi-kokai-o-soshoku-nashi-de-ajiwau",
     "permanent": true
   },
   {
@@ -609,12 +609,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/safaga-a-santuarios-excursion-de-un-dia-a-los-templos-de-dendera-y-abydos",
-    "destination": "/es/dendera-and-abydos-temples-day-tour",
+    "destination": "/es/tour-de-dia-por-los-templos-de-dendera-y-abidos-desde-safaga",
     "permanent": true
   },
   {
     "source": "/ja/safaga-kara-meguru-seiiki-no-tabi-dendera-abidosu-shinden",
-    "destination": "/ja/dendera-and-abydos-temples-day-tour",
+    "destination": "/ja/safaga-hatsu-dendera-abidosu-shinden-higaeri-tsua",
     "permanent": true
   },
   {
@@ -624,12 +624,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/emocionante-emocion-en-el-desierto-safari-en-quad-a-un-pueblo-beduino",
-    "destination": "/es/desert-quad-bike-safari-to-bedouin-village-from-hurghada",
+    "destination": "/es/safari-en-quad-a-una-aldea-beduina-desde-hurgada",
     "permanent": true
   },
   {
     "source": "/ja/kofun-no-sabaku-adobencha-bedowin-no-mura-e-no",
-    "destination": "/ja/desert-quad-bike-safari-to-bedouin-village-from-hurghada",
+    "destination": "/ja/furugada-hatsu-bedowin-no-mura-e-no-kuaddobaikusafari",
     "permanent": true
   },
   {
@@ -644,7 +644,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/gurupu-higaeri-tsua-giza-no-piramiddo-to-sufinkusu",
-    "destination": "/ja/pyramids-of-giza-and-sphinx-group-day-tour",
+    "destination": "/ja/giza-no-itcho-shashin-de-wa-nai-gawa-no-piramiddo-e",
     "permanent": true
   },
   {
@@ -654,12 +654,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/reyes-y-columnas-visita-de-un-dia-a-los-templos-y-museo-de-karnak-y-luxor",
-    "destination": "/es/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "destination": "/es/karnak-templo-de-luxor-y-museo-de-luxor",
     "permanent": true
   },
   {
     "source": "/ja/o-tachi-to-hashira-karunakku-shinden-rukusoru-shinden",
-    "destination": "/ja/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "destination": "/ja/karunakku-rukusoru-shinden-soshite-rukusoru-hakubutsukan",
     "permanent": true
   },
   {
@@ -669,12 +669,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/de-hurghada-a-luxor-descubrimiento-de-la-ciudad-antigua-en-dia-completo",
-    "destination": "/es/luxor-day-tour-from-hurghadafull-day",
+    "destination": "/es/luxor-dia-completo-desde-hurgada-templos-tumbas-y-la-orilla-occidental",
     "permanent": true
   },
   {
     "source": "/ja/furugada-hatsu-rukusoru-kodai-toshi-1-nichi-tambo-tsua",
-    "destination": "/ja/luxor-day-tour-from-hurghadafull-day",
+    "destination": "/ja/furugada-hatsu-rukusoru-shujitsu-tsua-shinden-haka-soshite",
     "permanent": true
   },
   {
@@ -684,12 +684,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/destacados-de-luxor-tour-en-grupo-de-un-dia-desde-hurghada",
-    "destination": "/es/luxor-highlights-group-day-tour-from-hurghada",
+    "destination": "/es/lo-esencial-de-luxor-desde-hurghada",
     "permanent": true
   },
   {
     "source": "/ja/rukusoru-hairaito-furugada-hatsu-higaeri-gurupu-tsua",
-    "destination": "/ja/luxor-highlights-group-day-tour-from-hurghada",
+    "destination": "/ja/rukusoru-no-ichi-nichi-togan-no-shoja-seigan-no-shisha-tebe",
     "permanent": true
   },
   {
@@ -699,12 +699,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/excursion-de-un-dia-a-los-majestuosos-templos-de-abu-simble",
-    "destination": "/es/abu-simbel-temples-day-tour-from-aswan",
+    "destination": "/es/excursion-en-grupo-a-abu-simbel-desde-asuan",
     "permanent": true
   },
   {
     "source": "/ja/yudai-na-abu-shin-beru-shinden-higaeri-tsua",
-    "destination": "/ja/abu-simbel-temples-day-tour-from-aswan",
+    "destination": "/ja/abu-shin-beru-no-ichi-nichi-ni-do-kizama-re-ta-shinden-e",
     "permanent": true
   },
   {
@@ -714,12 +714,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/aventura-privada-de-snorkel-en-marsa-alam",
-    "destination": "/es/group-snorkeling-adventure-in-marsa-alam",
+    "destination": "/es/dia-de-snorkel-privado-en-marsa-alam-arrecifes-del-mar-rojo-en-yate",
     "permanent": true
   },
   {
     "source": "/ja/umi-no-kyoi-marusaaramu-de-no-puraibetoshunokeringuadobencha",
-    "destination": "/ja/group-snorkeling-adventure-in-marsa-alam",
+    "destination": "/ja/marusaaramu-no-puraibetoshunokeringu-ichi-nichi-yotto-de",
     "permanent": true
   },
   {
@@ -729,12 +729,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/excursion-de-un-dia-en-avion-de-marsa-alam-a-el-cairo",
-    "destination": "/es/marsa-alam-to-cairo-full-day-tour-by-plane",
+    "destination": "/es/el-cairo-en-avion-desde-marsa-alam-dia-completo",
     "permanent": true
   },
   {
     "source": "/ja/marusaaramu-hatsu-kairo-higaeri-tsua-hikoki-riyo",
-    "destination": "/ja/marsa-alam-to-cairo-full-day-tour-by-plane",
+    "destination": "/ja/marusaaramu-hatsu-kairo-shujitsu-tsua-hikoki-riyo",
     "permanent": true
   },
   {
@@ -744,12 +744,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/excursion-privada-de-un-dia-a-menfis-saqqara-y-dahshur-desde-alejandria",
-    "destination": "/es/private-day-trip-to-memphis-saqqara-and-dahshur-from-alexandria",
+    "destination": "/es/menfis-saqqara-y-dahshur-una-jornada-completa-desde-alejandria",
     "permanent": true
   },
   {
     "source": "/ja/arekusandoria-hatsu-menfisu-sakkara-dahashuru-no-puraibeto",
-    "destination": "/ja/private-day-trip-to-memphis-saqqara-and-dahshur-from-alexandria",
+    "destination": "/ja/menfisu-sakkara-dahashuru-arekusandoria-hatsu-furudei",
     "permanent": true
   },
   {
@@ -759,12 +759,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/ascenso-al-amanecer-del-monte-sinai",
-    "destination": "/es/mount-sinai-sunrise-trek-group-day-tour",
+    "destination": "/es/ascenso-al-amanecer-al-monte-sinai-y-monasterio-de-santa-catalina",
     "permanent": true
   },
   {
     "source": "/ja/shinai-san-sanraizutorekku",
-    "destination": "/ja/mount-sinai-sunrise-trek-group-day-tour",
+    "destination": "/ja/shinai-san-sanraizutorekkingu-sen-go-hyaku-nen-tsuzuku",
     "permanent": true
   },
   {
@@ -774,12 +774,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/nilo-link-traslado-en-autobus-privado-de-asuan-a-luxor",
-    "destination": "/es/private-tour-transfer-from-aswan-to-luxor-by-bus",
+    "destination": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
     "permanent": true
   },
   {
     "source": "/ja/nairu-rinku-asuwan-kara-rukusoru-e-no-puraibeto-basu-sogei",
-    "destination": "/ja/private-tour-transfer-from-aswan-to-luxor-by-bus",
+    "destination": "/ja/puraibeto-sogei-asuwan-kara-rukusoru-e-rikuro-de-tochu-gesha",
     "permanent": true
   },
   {
@@ -789,12 +789,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/visita-a-esna-edfu-y-kom-ombo",
-    "destination": "/es/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "destination": "/es/templos-de-esna-edfu-y-kom-ombo-desde-luxor",
     "permanent": true
   },
   {
     "source": "/ja/esuna-edofu-komuombo-homon",
-    "destination": "/ja/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "destination": "/ja/nairu-o-kudaru-mittsu-no-shinden-ejiputo-shinden-kenchiku-no",
     "permanent": true
   },
   {
@@ -804,12 +804,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/trio-del-reino-antiguo-excursion-en-grupo-de-un-dia-a-menfis-saqqara-y-dahshur",
-    "destination": "/es/memphis-saqqara-and-dahshur-group-day-tour",
+    "destination": "/es/menfis-saqqara-y-dahshur-en-grupo-desde-el-cairo",
     "permanent": true
   },
   {
     "source": "/ja/ko-okoku-no-san-dai-iseki-menfisu-sakkara-dahashuru-no",
-    "destination": "/ja/memphis-saqqara-and-dahshur-group-day-tour",
+    "destination": "/ja/menfisusakkaradahashuru-piramiddo-ga-kansei-e-mukatta-ichi",
     "permanent": true
   },
   {
@@ -819,12 +819,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/excursion-privada-templos-de-dendera-y-abydos-desde-hurghada",
-    "destination": "/es/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "destination": "/es/templos-de-dendera-y-abidos-desde-hurghada",
     "permanent": true
   },
   {
     "source": "/ja/puraibeto-tsua-furugada-kara-shuppatsu-suru-dendera-to",
-    "destination": "/ja/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "destination": "/ja/dendera-to-abidosu-ejiputo-ni-tsugi-no-ichidan-o-nozomu-ho",
     "permanent": true
   },
   {
@@ -834,12 +834,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/excursion-privada-traslado-de-luxor-a-hurghada-en-autobus",
-    "destination": "/es/private-tour-transfer-from-luxor-to-hurghada-by-bus",
+    "destination": "/es/traslado-privado-de-luxor-a-hurghada",
     "permanent": true
   },
   {
     "source": "/ja/puraibeto-tsua-rukusoru-kara-furugada-made-no-basu-sogei",
-    "destination": "/ja/private-tour-transfer-from-luxor-to-hurghada-by-bus",
+    "destination": "/ja/puraibeto-sogei-rukusoru-kara-furugada-e-kuruma-de",
     "permanent": true
   },
   {
@@ -849,12 +849,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/piramides-de-guiza-esfinge-menfis-y-saqqara",
-    "destination": "/es/private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+    "destination": "/es/guiza-menfis-y-saqqara-las-millas-mas-antiguas-de-egipto-en-un-dia",
     "permanent": true
   },
   {
     "source": "/ja/giza-no-piramiddo-sufinkusu-menfisu-sakkara",
-    "destination": "/ja/private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+    "destination": "/ja/giza-menfisu-sakkara-ejiputo-saiko-no-michinori-o-ichi-nichi",
     "permanent": true
   },
   {
@@ -864,12 +864,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/piramides-de-guiza-y-esfinge-museo-egipcio-y-khan-el-khalili",
-    "destination": "/es/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "destination": "/es/piramides-esfinge-museo-egipcio-y-jan-el-jalili-un-dia-en-el-cairo",
     "permanent": true
   },
   {
     "source": "/ja/giza-no-piramiddo-sufinkusu-ejiputo-kokogaku-hakubutsukan",
-    "destination": "/ja/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "destination": "/ja/piramiddo-sufinkusu-ejiputo-hakubutsukan-hanhariri-kairo-no",
     "permanent": true
   },
   {
@@ -879,12 +879,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/escapada-exclusiva-excursion-privada-de-snorkel-en-el-mar-en-sharm-el-sheikh",
-    "destination": "/es/diving-sea-trip-in-sharm-el-sheikh",
+    "destination": "/es/dia-de-snorkel-privado-en-sharm-el-sheij-arrecifes-del-mar-rojo",
     "permanent": true
   },
   {
     "source": "/ja/ekusukurushibuesukepu-sharumuerusheiku-de-tanoshimu",
-    "destination": "/ja/diving-sea-trip-in-sharm-el-sheikh",
+    "destination": "/ja/sharumuerusheiku-puraibetoshunokeringu-higaeri-tsua-kokai-no",
     "permanent": true
   },
   {
@@ -894,12 +894,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/templos-del-tiempo-excursion-de-un-dia-a-los-templos-nubios-desde-asuan",
-    "destination": "/es/nubian-temples-day-tour-from-aswan",
+    "destination": "/es/templos-nubios-desde-asuan-kalabsha-beit-el-wali-y-kertassi",
     "permanent": true
   },
   {
     "source": "/ja/toki-o-koeru-shinden-asuwan-hatsu-nubia-shinden-higaeri-tsua",
-    "destination": "/ja/nubian-temples-day-tour-from-aswan",
+    "destination": "/ja/shin-karabusha-no-ichi-nichi-hito-ga-tsukutta-shima-de-yomu",
     "permanent": true
   },
   {
@@ -909,12 +909,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/emocionantes-paseos-por-el-desierto-aventura-en-quad-en-hurghada",
-    "destination": "/es/hurghada-quad-bike-tour",
+    "destination": "/es/safari-por-el-desierto-de-hurgada-quads-camellos-y-estrellas-con-beduinos",
     "permanent": true
   },
   {
     "source": "/ja/suriringu-na-sabaku-no-raido-furugadakuwaddobaikuadobencha",
-    "destination": "/ja/hurghada-quad-bike-tour",
+    "destination": "/ja/furugada-no-sabaku-safari-kuaddobaiku-rakuda-bedowin-no",
     "permanent": true
   },
   {
@@ -924,12 +924,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/maravillas-de-la-orilla-oeste-de-luxor-recorrido-completo",
-    "destination": "/es/grand-west-bank-group-day-tour-luxor",
+    "destination": "/es/la-gran-orilla-occidental-de-luxor-excursion-en-grupo",
     "permanent": true
   },
   {
     "source": "/ja/seigan-no-kiseki-gurandouesutobankutsua",
-    "destination": "/ja/grand-west-bank-group-day-tour-luxor",
+    "destination": "/ja/gurando-seigan-no-ichi-nichi-neferutari-no-haka-o-hazusa-nai",
     "permanent": true
   },
   {
@@ -939,12 +939,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/tour-en-grupo-por-el-cairo-piramides-museo-y-khan-el-khalili",
-    "destination": "/es/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "destination": "/es/piramides-esfinge-museo-egipcio-y-jan-el-jalili-un-dia-en-el-cairo",
     "permanent": true
   },
   {
     "source": "/ja/kairo-gurupu-tsua-piramiddo-hakubutsukan-kanerukariri",
-    "destination": "/ja/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+    "destination": "/ja/piramiddo-sufinkusu-ejiputo-hakubutsukan-hanhariri-kairo-no",
     "permanent": true
   },
   {
@@ -954,12 +954,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/excursion-de-un-dia-para-visitar-el-cairo-desde-alejandria",
-    "destination": "/es/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "destination": "/es/tour-de-dia-desde-alejandria-a-el-cairo-piramides-museo-y-jan-el-jalili",
     "permanent": true
   },
   {
     "source": "/ja/arekusandoria-kara-kairo-e-no-higaeri-tsua",
-    "destination": "/ja/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+    "destination": "/ja/arekusandoria-hatsu-kairo-higaeri-tsua-piramiddo",
     "permanent": true
   },
   {
@@ -984,12 +984,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/patrimonio-de-medio-dia-excursion-a-luxor-y-los-templos-de-karnak",
-    "destination": "/es/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "destination": "/es/karnak-templo-de-luxor-y-museo-de-luxor",
     "permanent": true
   },
   {
     "source": "/ja/hannichi-isan-tsua-rukusoru-to-karunakku-shinden-tsua",
-    "destination": "/ja/day-tour-to-karnak-luxor-temples-luxor-museum",
+    "destination": "/ja/karunakku-rukusoru-shinden-soshite-rukusoru-hakubutsukan",
     "permanent": true
   },
   {
@@ -999,12 +999,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/leyendas-de-los-oasis-excursion-al-oasis-de-fayoum-y-las-piramides-de-beni-suef",
-    "destination": "/es/fayoum-meidum-hawara-pyramids-group-day-tour",
+    "destination": "/es/fayoum-meidum-y-hawara-desde-el-cairo",
     "permanent": true
   },
   {
     "source": "/ja/oashisu-no-densetsu-fayumuoashisu-to-benisuefu-no-piramiddo",
-    "destination": "/ja/fayoum-meidum-hawara-pyramids-group-day-tour",
+    "destination": "/ja/faiyumu-no-ichi-nichi-piramiddo-no-monogatari-ga-shizuka-ni",
     "permanent": true
   },
   {
@@ -1014,12 +1014,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/arenas-de-la-historia-tour-de-los-templos-de-dendera-y-abydos-desde-hurghada",
-    "destination": "/es/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "destination": "/es/templos-de-dendera-y-abidos-desde-hurghada",
     "permanent": true
   },
   {
     "source": "/ja/rekishi-no-sakyu-furugada-hatsu-dendera-abidosu-shinden-tsua",
-    "destination": "/ja/dendera-and-abydos-temple-day-tour-from-hurghada",
+    "destination": "/ja/dendera-to-abidosu-ejiputo-ni-tsugi-no-ichidan-o-nozomu-ho",
     "permanent": true
   },
   {
@@ -1029,12 +1029,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/alineaciones-de-templos-excursion-de-un-dia-a-los-templos-de-kom-ombo-y-edfu",
-    "destination": "/es/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "destination": "/es/templos-de-esna-edfu-y-kom-ombo-desde-luxor",
     "permanent": true
   },
   {
     "source": "/ja/shinden-no-seiretsu-komuombo-jiin-to-edofu-jiin-no-higaeri",
-    "destination": "/ja/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+    "destination": "/ja/nairu-o-kudaru-mittsu-no-shinden-ejiputo-shinden-kenchiku-no",
     "permanent": true
   },
   {
@@ -1044,12 +1044,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/excursion-de-un-dia-al-valle-de-los-reyes-y-los-templos",
-    "destination": "/es/grand-west-bank-group-day-tour-luxor",
+    "destination": "/es/la-gran-orilla-occidental-de-luxor-excursion-en-grupo",
     "permanent": true
   },
   {
     "source": "/ja/oke-no-tani-to-shinden-higaeri-tsua",
-    "destination": "/ja/grand-west-bank-group-day-tour-luxor",
+    "destination": "/ja/gurando-seigan-no-ichi-nichi-neferutari-no-haka-o-hazusa-nai",
     "permanent": true
   },
   {
@@ -1119,12 +1119,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/nilo-en-5-dias-luxor-y-asuan-viajero-solo",
-    "destination": "/es/5-day-river-cruise-from-luxor",
+    "destination": "/es/crucero-fluvial-de-5-dias-por-el-nilo-de-luxor-a-asuan",
     "permanent": true
   },
   {
     "source": "/ja/5-nichikan-no-nairu-rukusoru-to-asuwan-o-ichi-nin-sama-ryoko",
-    "destination": "/ja/5-day-river-cruise-from-luxor",
+    "destination": "/ja/5-nichikan-nairu-gawa-kuruzu-rukusoru-kara-asuwan-e",
     "permanent": true
   },
   {
@@ -1154,12 +1154,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/vida-nubia-aldea-y-nilo-barco-motor",
-    "destination": "/es/nubian-life-private-nubian-village-and-nile-tour-with-motor-boat",
+    "destination": "/es/vida-nubia-visita-privada-en-lancha-a-un-pueblo-nubio-desde-asuan",
     "permanent": true
   },
   {
     "source": "/ja/nubia-no-kurashi-motaboto-de-meguru-nubia-mura-nairu-gawa",
-    "destination": "/ja/nubian-life-private-nubian-village-and-nile-tour-with-motor-boat",
+    "destination": "/ja/nubia-no-kurashi-asuwan-hatsu-puraibeto-motaboto-de-nubia",
     "permanent": true
   },
   {
@@ -2984,7 +2984,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/giza/pyramid-of-khentkaus-ii-at-abusir",
-    "destination": "/ja/guide/giza/abu-shiru-no-kentokausu-2-sei-no-piramiddo",
+    "destination": "/ja/guide/giza/kenetokausu-2-sei-no-piramiddo",
     "permanent": true
   },
   {
@@ -2994,12 +2994,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/giza/pyramid-of-neferirkare-at-abusir",
-    "destination": "/ja/guide/giza/abu-shiru-no-neferuirukara-o-no-piramiddo",
+    "destination": "/ja/guide/giza/neferuirukara-o-no-piramiddo",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/pyramid-of-sahure-at-abusir",
-    "destination": "/ja/guide/giza/abu-shiru-no-safura-o-no-piramiddo",
+    "destination": "/ja/guide/giza/safura-o-no-piramiddo",
     "permanent": true
   },
   {
@@ -5224,7 +5224,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/giza/the-giza-sound-and-light-show",
-    "destination": "/ja/guide/giza/giza-no-oto-to-hikari-no-sho",
+    "destination": "/ja/giza-no-hikari-to-oto-no-sho-piramiddo-de-sugosu-ichiya",
     "permanent": true
   },
   {
@@ -6559,7 +6559,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/2-day-desert-nature-wildlife-retreat",
-    "destination": "/es/2-day-nubian-desert-nature-wildlife-retreat",
+    "destination": "/es/dos-dias-en-el-desierto-nubio-un-retiro-silencioso-cerca-del-lago-nasser",
     "permanent": true
   },
   {
@@ -9499,7 +9499,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/siwa-oasis/things-to-do-in-siwa-oasis",
-    "destination": "/es/guide/siwa/que-hacer-en-el-oasis-de-siwa",
+    "destination": "/es/guide/siwa/cosas-que-hacer-en-el-oasis-de-siwa",
     "permanent": true
   },
   {
@@ -11779,27 +11779,27 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-de-viaje-de-abu-simble/el-pequeno-templo-de-abu-simbel",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viaje-de-abu-simble",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viaje-del-oasis-de-dajla",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viaje-del-oasis-de-dajla/cosas-que-explorar",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viaje-del-oasis-de-dajla/cuando-explorar",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -11819,7 +11819,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/tours-por-egipto-desde-alemania",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -11829,12 +11829,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/la-epopeya-de-los-faraones-paquete-de-exploracion-de-18-dias-por-el-gran-egipto",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/tours-destacados-en-el-cairo",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -11889,67 +11889,67 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/del-desierto-al-mar-traslado-aeropuerto-sharm-el-sheikh",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/carretera-de-la-costa-traslado-en-coche-privado-de-luxor-a-marsa-alam",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/vacaciones-en-egipto-crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-desde-espana",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/los-secretos-de-asuan-excursion-de-un-dia-al-museo-nubio-y-al-mercado-local",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/paquetes-de-viaje-para-grupos-pequenos",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/grupo-de-danza-de-los-delfines-excursion-de-snorkel-de-un-dia-en-mares-compartidos",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/aventura-en-el-desierto-de-fayoum-una-odisea-de-2-dias",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/excursion-nadando-con-delfines",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/puerta-al-pasado-traslado-al-aeropuerto-de-luxor",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/puerta-al-pasado-traslado-al-aeropuerto-de-luxor-2",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/vida-nubia-excursion-privada-por-la-aldea-nubia-y-el-nilo-en-barco-a-motor",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/excursion-de-un-dia-en-avion-de-luxor-a-el-cairo",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/el-viaje-definitivo-a-sharm-el-sheij",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -11959,27 +11959,27 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/que-incluyen-los-paquetes-de-crucero-por-el-nilo",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/ritmos-del-nilo-el-cairo-cena-crucero-con-danza-del-vientre",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/aventura-de-snorkel-en-sharm-el-luli-desde-marsa-alam",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
     "source": "/es/rios-del-desierto-paquete-de-10-dias-por-el-nilo-y-el-desierto-occidental",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/10-dias-por-egipto-y-el-nilo",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -12014,27 +12014,27 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-de-viajes-de-sharm-el-sheij",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/ja/カイロ旅行ガイド/アル＝グーリー・ウィカラ",
-    "destination": "/ja/egypt-travel-packages",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
     "permanent": true
   },
   {
     "source": "/ja/カイロ旅行ガイド/観光ルート",
-    "destination": "/ja/egypt-travel-packages",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
     "permanent": true
   },
   {
     "source": "/ja/カイロ旅行ガイド/カイロの真実：千のミナレットの街",
-    "destination": "/ja/egypt-travel-packages",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
     "permanent": true
   },
   {
     "source": "/ja/アブ・シンベル旅行ガイド/アブ・シンベル：ユニークな発見と隠れた宝石",
-    "destination": "/ja/egypt-travel-packages",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
     "permanent": true
   },
   {
@@ -12059,12 +12059,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-de-viajes-de-sharm-el-sheij/parque-nacional-de-ras-mohamed",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viajes-de-sharm-el-sheij/parque-nacional-de-nabq",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -12074,7 +12074,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-de-viajes-de-egipto",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -12084,7 +12084,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-mensual-de-egipto",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -12094,7 +12094,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/los-mejores-lugares-historicos-de-egipto-un-viaje-en-el-tiempo",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -12114,27 +12114,27 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/beit-zeinab-al-jatun",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/muros-y-puertas-del-norte",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/wikala-al-bazara",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/wikala-de-al-ghouri",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/lo-mejor-de-el-cairo",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -12199,7 +12199,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/lo-mejor-que-hacer-en-luxor-egipto",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -12219,7 +12219,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/iconos",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -12249,7 +12249,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/coche-privado-y-guia-personal-por-un-dia",
-    "destination": "/es/private-day-tours",
+    "destination": "/es/excursiones-privadas-de-un-dia",
     "permanent": true
   },
   {
@@ -12259,7 +12259,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/programas-de-viaje-por-egipto",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -12324,12 +12324,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/viajes-rapidos-en-egipto",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
     "source": "/es/gran-egipto",
-    "destination": "/es/egypt-travel-packages",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
@@ -13389,7 +13389,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/weather-in-dakhla-oasis",
-    "destination": "/guide/dakhla-oasis/weather-in-dakhla-oasis",
+    "destination": "/guide/dakhla-oasis/when-to-explore-dakhla-oasis",
     "permanent": true
   },
   {
@@ -13479,7 +13479,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/accommodations-in-farafra",
-    "destination": "/guide/farafra-oasis/accommodations-in-farafra",
+    "destination": "/guide/farafra-oasis/top-hotels-in-farafra-oasis",
     "permanent": true
   },
   {
@@ -13609,7 +13609,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/luxor-off-the-beaten-path",
-    "destination": "/guide/luxor/luxor-off-the-beaten-path",
+    "destination": "/guide/luxor/only-in-luxor",
     "permanent": true
   },
   {
@@ -13694,7 +13694,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/wadi-el-gamal-national-park",
-    "destination": "/guide/marsa-alam/wadi-el-gamal-national-park",
+    "destination": "/guide/marsa-alam/wadi-el-gemal-national-park",
     "permanent": true
   },
   {
@@ -13709,7 +13709,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/places-to-go-in-marsa-matruh",
-    "destination": "/guide/marsa-matruh/places-to-go-in-marsa-matruh",
+    "destination": "/guide/marsa-matruh",
     "permanent": true
   },
   {
@@ -13839,7 +13839,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/places-to-visit-in-ras-sudr",
-    "destination": "/guide/ras-sudr/places-to-visit-in-ras-sudr",
+    "destination": "/guide/ras-sudr/places-in-ras-sudr",
     "permanent": true
   },
   {
@@ -13869,17 +13869,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/only-in-rosetta",
-    "destination": "/guide/rosetta-rasheed/only-in-rosetta",
+    "destination": "/guide/rosetta-rasheed/only-in-rosetta-rasheed",
     "permanent": true
   },
   {
     "source": "/taste-of-rosetta",
-    "destination": "/guide/rosetta-rasheed/taste-of-rosetta",
+    "destination": "/guide/rosetta-rasheed/food-in-rosetta-rasheed",
     "permanent": true
   },
   {
     "source": "/places-to-go-in-safaga",
-    "destination": "/guide/safaga/places-to-go-in-safaga",
+    "destination": "/guide/safaga",
     "permanent": true
   },
   {
@@ -13944,7 +13944,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/siwa-hotel-guide",
-    "destination": "/guide/siwa-oasis/siwa-hotel-guide",
+    "destination": "/guide/siwa-oasis/top-hotels-in-siwa-oasis",
     "permanent": true
   },
   {
@@ -14114,7 +14114,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/luxor/luxor-off-the-beaten-path",
-    "destination": "/es/guide/luxor/only-in-luxor",
+    "destination": "/es/guide/luxor/solo-en-luxor",
     "permanent": true
   },
   {
@@ -14189,7 +14189,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/dakhla-oasis/weather-in-dakhla-oasis",
-    "destination": "/es/guide/dakhla-oasis/when-to-explore-dakhla-oasis",
+    "destination": "/es/guide/dakhla/clima-del-oasis-de-dakhla-y-mejor-epoca-para-visitarlo",
     "permanent": true
   },
   {
@@ -14204,12 +14204,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/abu-rawash-pyramid-of-djedefre",
-    "destination": "/es/guide/giza/pyramid-of-djedefre-at-abu-rawash",
+    "destination": "/es/guide/guiza/la-piramide-de-dyedefra-en-abu-rawash",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/abu-rawash-pyramid-of-djedefre",
-    "destination": "/ja/guide/giza/pyramid-of-djedefre-at-abu-rawash",
+    "destination": "/ja/guide/giza/aburoashu-no-jedoefura-o-no-piramiddo",
     "permanent": true
   },
   {
@@ -14219,12 +14219,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/abusir-pyramid-of-khentkawes",
-    "destination": "/es/guide/giza/pyramid-of-khentkaus-ii-at-abusir",
+    "destination": "/es/guide/guiza/la-piramide-de-khentkaus-ii-en-abusir",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/abusir-pyramid-of-khentkawes",
-    "destination": "/ja/guide/giza/pyramid-of-khentkaus-ii-at-abusir",
+    "destination": "/ja/guide/giza/kenetokausu-2-sei-no-piramiddo",
     "permanent": true
   },
   {
@@ -14234,12 +14234,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/abusir-pyramid-of-neferirkare",
-    "destination": "/es/guide/giza/pyramid-of-neferirkare-at-abusir",
+    "destination": "/es/guide/guiza/la-piramide-de-neferirkara-en-abusir",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/abusir-pyramid-of-neferirkare",
-    "destination": "/ja/guide/giza/pyramid-of-neferirkare-at-abusir",
+    "destination": "/ja/guide/giza/neferuirukara-o-no-piramiddo",
     "permanent": true
   },
   {
@@ -14249,12 +14249,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/abusir-pyramid-of-sahure",
-    "destination": "/es/guide/giza/pyramid-of-sahure-at-abusir",
+    "destination": "/es/guide/guiza/la-piramide-de-sahura-en-abusir",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/abusir-pyramid-of-sahure",
-    "destination": "/ja/guide/giza/pyramid-of-sahure-at-abusir",
+    "destination": "/ja/guide/giza/safura-o-no-piramiddo",
     "permanent": true
   },
   {
@@ -14264,12 +14264,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/the-bent-pyramid",
-    "destination": "/es/guide/giza/the-bent-pyramid-of-sneferu",
+    "destination": "/es/guide/guiza/la-piramide-acodada-de-snefru",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/the-bent-pyramid",
-    "destination": "/ja/guide/giza/the-bent-pyramid-of-sneferu",
+    "destination": "/ja/guide/giza/suneferu-o-no-kussetsu-piramiddo",
     "permanent": true
   },
   {
@@ -14279,12 +14279,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/the-red-pyramid",
-    "destination": "/es/guide/giza/the-red-pyramid-of-sneferu",
+    "destination": "/es/guide/guiza/la-piramide-roja-de-snefru",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/the-red-pyramid",
-    "destination": "/ja/guide/giza/the-red-pyramid-of-sneferu",
+    "destination": "/ja/guide/giza/suneferu-o-no-akai-piramiddo",
     "permanent": true
   },
   {
@@ -14294,12 +14294,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/the-northern-pyramid",
-    "destination": "/es/guide/giza/the-red-pyramid-of-sneferu",
+    "destination": "/es/guide/guiza/la-piramide-roja-de-snefru",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/the-northern-pyramid",
-    "destination": "/ja/guide/giza/the-red-pyramid-of-sneferu",
+    "destination": "/ja/guide/giza/suneferu-o-no-akai-piramiddo",
     "permanent": true
   },
   {
@@ -14309,12 +14309,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/the-white-pyramid",
-    "destination": "/es/guide/giza/the-white-pyramid-of-amenemhat-ii",
+    "destination": "/es/guide/guiza/la-piramide-blanca-de-amenemhat-ii",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/the-white-pyramid",
-    "destination": "/ja/guide/giza/the-white-pyramid-of-amenemhat-ii",
+    "destination": "/ja/guide/giza/amenemuhato-2-sei-no-shiroi-piramiddo",
     "permanent": true
   },
   {
@@ -14324,12 +14324,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/pyramid-of-khufu",
-    "destination": "/es/guide/giza/the-great-pyramid-of-khufu",
+    "destination": "/es/guide/guiza/la-gran-piramide-de-keops",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/pyramid-of-khufu",
-    "destination": "/ja/guide/giza/the-great-pyramid-of-khufu",
+    "destination": "/ja/guide/giza/kufuo-no-dai-piramiddo",
     "permanent": true
   },
   {
@@ -14339,12 +14339,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/the-solar-boat-museum",
-    "destination": "/es/guide/giza/the-solar-boat-of-khufu",
+    "destination": "/es/guide/guiza/la-barca-solar-de-keops",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/the-solar-boat-museum",
-    "destination": "/ja/guide/giza/the-solar-boat-of-khufu",
+    "destination": "/ja/guide/giza/kufuo-no-taiyo-no-fune",
     "permanent": true
   },
   {
@@ -14354,12 +14354,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/memphis-mit-rahina-museum",
-    "destination": "/es/guide/giza/mit-rahina-museum",
+    "destination": "/es/guide/guiza/el-museo-de-mit-rahina",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/memphis-mit-rahina-museum",
-    "destination": "/ja/guide/giza/mit-rahina-museum",
+    "destination": "/ja/guide/giza/mitorahina-hakubutsukan",
     "permanent": true
   },
   {
@@ -14369,12 +14369,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/imhotep-museum",
-    "destination": "/es/guide/giza/imhotep-museum-at-saqqara",
+    "destination": "/es/guide/guiza/el-museo-imhotep-en-saqqara",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/imhotep-museum",
-    "destination": "/ja/guide/giza/imhotep-museum-at-saqqara",
+    "destination": "/ja/guide/giza/sakkara-no-imuhotepu-hakubutsukan",
     "permanent": true
   },
   {
@@ -14384,12 +14384,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/tomb-of-general-horemheb",
-    "destination": "/es/guide/giza/tomb-of-general-horemheb-at-saqqara",
+    "destination": "/es/guide/guiza/la-tumba-del-general-horemheb-en-saqqara",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/tomb-of-general-horemheb",
-    "destination": "/ja/guide/giza/tomb-of-general-horemheb-at-saqqara",
+    "destination": "/ja/guide/giza/sakkara-no-shogun-horuemuhebu-no-haka",
     "permanent": true
   },
   {
@@ -14399,12 +14399,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/tomb-of-mereruka",
-    "destination": "/es/guide/giza/tomb-of-mereruka-at-saqqara",
+    "destination": "/es/guide/guiza/la-tumba-de-mereruka-en-saqqara",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/tomb-of-mereruka",
-    "destination": "/ja/guide/giza/tomb-of-mereruka-at-saqqara",
+    "destination": "/ja/guide/giza/sakkara-no-mereruka-no-haka",
     "permanent": true
   },
   {
@@ -14414,12 +14414,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/saqqara",
-    "destination": "/es/guide/giza/the-saqqara-necropolis",
+    "destination": "/es/guide/guiza/la-necropolis-de-saqqara",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/saqqara",
-    "destination": "/ja/guide/giza/the-saqqara-necropolis",
+    "destination": "/ja/guide/giza/sakkara-bochi",
     "permanent": true
   },
   {
@@ -14429,12 +14429,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/giza/the-pyramid-of-khaba",
-    "destination": "/es/guide/giza/the-layer-pyramid-of-khaba-at-zawyet-el-aryan",
+    "destination": "/es/guide/guiza/la-piramide-de-capas-de-khaba-en-zawyet-el-aryan",
     "permanent": true
   },
   {
     "source": "/ja/guide/giza/the-pyramid-of-khaba",
-    "destination": "/ja/guide/giza/the-layer-pyramid-of-khaba-at-zawyet-el-aryan",
+    "destination": "/ja/guide/giza/zawietoeruariyan-no-kaba-o-sojo-piramiddo",
     "permanent": true
   },
   {
@@ -14444,7 +14444,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/mosque-of-al-muayyad-shaykh",
-    "destination": "/es/guide/cairo/mosque-of-al-mu-ayyad-shaykh",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-al-mu-ayyad-shaykh",
     "permanent": true
   },
   {
@@ -14459,7 +14459,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/mosque-of-mohammed-ali",
-    "destination": "/es/guide/cairo/mosque-of-muhammad-ali",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-mohamed-ali",
     "permanent": true
   },
   {
@@ -14474,7 +14474,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/sabil-of-muhammed-ali-pasha",
-    "destination": "/es/guide/cairo/sabil-of-muhammad-ali-pasha",
+    "destination": "/es/guide/el-cairo/el-sabil-de-mohamed-ali-pacha",
     "permanent": true
   },
   {
@@ -14489,7 +14489,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/the-egyptian-museum",
-    "destination": "/es/guide/cairo/egyptian-museum-of-antiquities",
+    "destination": "/es/guide/el-cairo/el-museo-egipcio-de-antiguedades",
     "permanent": true
   },
   {
@@ -14504,7 +14504,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/farafra-oasis/badrs-museum",
-    "destination": "/es/guide/farafra-oasis/badr-museum",
+    "destination": "/es/guide/farafra/el-museo-de-badr",
     "permanent": true
   },
   {
@@ -14519,7 +14519,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/farafra-oasis/white-desert",
-    "destination": "/es/guide/farafra-oasis/white-desert-national-park",
+    "destination": "/es/guide/farafra/parque-nacional-del-desierto-blanco",
     "permanent": true
   },
   {
@@ -14549,7 +14549,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/marsa-alam/wadi-el-gamal-national-park",
-    "destination": "/es/guide/marsa-alam/wadi-el-gemal-national-park",
+    "destination": "/es/guide/marsa-alam/parque-nacional-wadi-el-gemal",
     "permanent": true
   },
   {
@@ -14564,7 +14564,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/aswan/st-simeon-monastery",
-    "destination": "/es/guide/aswan/saint-simeon-monastery",
+    "destination": "/es/guide/asuan/el-monasterio-de-san-simeon",
     "permanent": true
   },
   {
@@ -14579,7 +14579,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/sharm-el-sheikh/nabq-managed-resource-protected-area",
-    "destination": "/es/guide/sharm-el-sheikh/nabq-national-park",
+    "destination": "/es/guide/sharm-el-sheikh/area-protegida-de-nabq",
     "permanent": true
   },
   {
@@ -14594,7 +14594,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/sharm-el-sheikh/naama-bay-promenade-resort",
-    "destination": "/es/guide/sharm-el-sheikh/naama-bay-sharm-el-sheikh-guide",
+    "destination": "/es/guide/sharm-el-sheikh/naama-bahia-de",
     "permanent": true
   },
   {
@@ -14624,7 +14624,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/aswan/kitcheners-island",
-    "destination": "/es/guide/aswan/botanical-garden",
+    "destination": "/es/guide/asuan/el-jardin-botanico",
     "permanent": true
   },
   {
@@ -14639,7 +14639,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/wadi-el-natrun/monastery-of-st-pishoy",
-    "destination": "/es/guide/wadi-el-natrun/monastery-of-saint-pishoy",
+    "destination": "/es/guide/wadi-al-natron/monasterio-de-san-pisoy",
     "permanent": true
   },
   {
@@ -14654,7 +14654,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/dahab/colored-canyon",
-    "destination": "/es/guide/dahab/coloured-canyon",
+    "destination": "/es/guide/dahab/el-canon-de-los-colores",
     "permanent": true
   },
   {
@@ -14909,12 +14909,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/travel-tips/telephones-in-egypt",
-    "destination": "/es/travel-tips/staying-connected-in-egypt",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
     "permanent": true
   },
   {
     "source": "/ja/travel-tips/telephones-in-egypt",
-    "destination": "/ja/travel-tips/staying-connected-in-egypt",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -14924,12 +14924,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/travel-tips/wifi-in-egypt",
-    "destination": "/es/travel-tips/staying-connected-in-egypt",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
     "permanent": true
   },
   {
     "source": "/ja/travel-tips/wifi-in-egypt",
-    "destination": "/ja/travel-tips/staying-connected-in-egypt",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -14939,12 +14939,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/travel-tips/telephones",
-    "destination": "/es/travel-tips/staying-connected-in-egypt",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
     "permanent": true
   },
   {
     "source": "/ja/travel-tips/telephones",
-    "destination": "/ja/travel-tips/staying-connected-in-egypt",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -14954,12 +14954,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/travel-tips/wifi",
-    "destination": "/es/travel-tips/staying-connected-in-egypt",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
     "permanent": true
   },
   {
     "source": "/ja/travel-tips/wifi",
-    "destination": "/ja/travel-tips/staying-connected-in-egypt",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -14969,12 +14969,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/travel-tips/tips-for-families",
-    "destination": "/es/travel-tips/traveling-with-kids",
+    "destination": "/es/travel-tips/viajar-a-egipto-con-ninos-el-dia-a-dia-practico",
     "permanent": true
   },
   {
     "source": "/ja/travel-tips/tips-for-families",
-    "destination": "/ja/travel-tips/traveling-with-kids",
+    "destination": "/ja/travel-tips/kazoku-de-tabi-suru-ejiputo-kozure-ryoko-kanzen-gaido",
     "permanent": true
   },
   {
@@ -14989,7 +14989,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/hotels/sofitel-legend-old-cataract",
-    "destination": "/ja/hotels/mandarin-oriental-old-cataract-aswan",
+    "destination": "/ja/hotels/orudokatarakuto-asuwan",
     "permanent": true
   },
   {
@@ -15004,7 +15004,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/hotels/sofitel-pavillon-winter-luxor",
-    "destination": "/ja/hotels/mandarin-oriental-winter-palace-luxor",
+    "destination": "/ja/hotels/paviyonwintarukusoru",
     "permanent": true
   },
   {
@@ -15019,7 +15019,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/hotels/grand-nile-tower-hotel-cairo",
-    "destination": "/ja/hotels/hilton-cairo-grand-nile",
+    "destination": "/ja/hotels/hiruton-kairo-gurando-nairu",
     "permanent": true
   },
   {
@@ -15034,7 +15034,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/hotels/sharm-dreams-resort-sharm-el-sheikh",
-    "destination": "/ja/hotels/jaz-sharm-dreams-resort",
+    "destination": "/ja/hotels/jaz-sharumudorimusurizoto",
     "permanent": true
   },
   {
@@ -15049,7 +15049,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/hotels/four-seasons-resort-sharm-alsheikh",
-    "destination": "/ja/hotels/the-four-seasons-at-sharm",
+    "destination": "/ja/hotels/foshizunzurizotosharumuerusheiku",
     "permanent": true
   },
   {
@@ -15064,7 +15064,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/cairo/dusit-thani-lake-view-cairo",
-    "destination": "/ja/hotels/dusit-thani-lake-view",
+    "destination": "/ja/hotels/dushitanireikubyukairo",
     "permanent": true
   },
   {
@@ -15079,7 +15079,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/siwa-oasis/ghaliet-ecolodge-siwa",
-    "destination": "/ja/hotels/ghaliet-siwa-ecolodge",
+    "destination": "/ja/hotels/garietoekorojji-shiwa",
     "permanent": true
   },
   {
@@ -15094,7 +15094,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/dakhla-oasis/shamsiya-camp-dakhla-oasis",
-    "destination": "/ja/hotels/shamsiya-camp-dakhla-oasis",
+    "destination": "/ja/hotels/shamushiyakyampu-dafuraoashisu",
     "permanent": true
   },
   {
@@ -15109,7 +15109,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/dakhla-oasis/al-tabuna-camp-el-dakhla-oasis",
-    "destination": "/ja/hotels/al-tabuna-camp-dakhla-oasis",
+    "destination": "/ja/hotels/aru-tabunakyampu-dafuraoashisu",
     "permanent": true
   },
   {
@@ -15124,7 +15124,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/al-gouna/la-maison-bleue-el-gouna",
-    "destination": "/ja/hotels/la-maison-bleue-el-gouna",
+    "destination": "/ja/hotels/ramezonburu",
     "permanent": true
   },
   {
@@ -15174,7 +15174,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/al-azhar-to-the-citadel",
-    "destination": "/es/guide/cairo/from-al-azhar-to-the-citadel-walking-islamic-cairo",
+    "destination": "/es/guide/el-cairo/de-al-azhar-a-la-ciudadela-recorrido-a-pie-por-el-cairo-islamico",
     "permanent": true
   },
   {
@@ -15189,7 +15189,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/aqsunur-mosque",
-    "destination": "/es/guide/cairo/aqsunqur-mosque-the-blue-mosque",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-aqsunqur-la-mezquita-azul",
     "permanent": true
   },
   {
@@ -15204,7 +15204,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/church-of-st-barbara",
-    "destination": "/es/guide/cairo/church-of-saint-barbara",
+    "destination": "/es/guide/el-cairo/la-iglesia-de-santa-barbara",
     "permanent": true
   },
   {
@@ -15219,7 +15219,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/church-of-st-sergius-bacchus",
-    "destination": "/es/guide/cairo/church-of-saint-sergius-and-bacchus-abu-serga",
+    "destination": "/es/guide/el-cairo/la-iglesia-de-san-sergio-y-san-baco-abu-serga",
     "permanent": true
   },
   {
@@ -15234,7 +15234,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/ibn-tulun-citadel",
-    "destination": "/es/guide/cairo/mosque-of-ibn-tulun",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-ibn-tulun",
     "permanent": true
   },
   {
@@ -15264,7 +15264,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/khanqah-mausoleum-of-sultan-baybars-al-gashankir",
-    "destination": "/es/guide/cairo/khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+    "destination": "/es/guide/el-cairo/la-khanqah-y-mausoleo-del-sultan-baybars-al-jashnagir",
     "permanent": true
   },
   {
@@ -15279,7 +15279,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/madrassa-and-mausoleum-of-barquq",
-    "destination": "/es/guide/cairo/madrasa-and-khanqah-of-sultan-barquq",
+    "destination": "/es/guide/el-cairo/la-madrasa-y-khanqah-del-sultan-barquq",
     "permanent": true
   },
   {
@@ -15294,7 +15294,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/madrassa-mausoleum-of-as-salih-negm-el-din-ayyub",
-    "destination": "/es/guide/cairo/madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+    "destination": "/es/guide/el-cairo/la-madrasa-y-mausoleo-de-as-salih-najm-al-din-ayyub",
     "permanent": true
   },
   {
@@ -15309,7 +15309,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/mosque-madrassa-of-al-ghouri",
-    "destination": "/es/guide/cairo/mosque-madrasa-of-al-ghouri",
+    "destination": "/es/guide/el-cairo/la-mezquita-madrasa-de-al-ghouri",
     "permanent": true
   },
   {
@@ -15324,7 +15324,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/mosque-madrassa-of-umm-sultan-shaaban",
-    "destination": "/es/guide/cairo/mosque-madrassa-of-umm-sultan-sha-aban",
+    "destination": "/es/guide/el-cairo/la-mezquita-madrasa-de-umm-sultan-sha-aban",
     "permanent": true
   },
   {
@@ -15339,7 +15339,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/sabil-and-kuttab-of-abdel-rahman-katkhuda",
-    "destination": "/es/guide/cairo/sabil-kuttab-of-abd-al-rahman-katkhuda",
+    "destination": "/es/guide/el-cairo/el-sabil-kuttab-de-abd-al-rahman-katkhuda",
     "permanent": true
   },
   {
@@ -15354,7 +15354,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/the-hanging-church",
-    "destination": "/es/guide/cairo/hanging-church-al-mu-allaqa",
+    "destination": "/es/guide/el-cairo/la-iglesia-colgante-al-muallaqah",
     "permanent": true
   },
   {
@@ -15369,7 +15369,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/cairo/the-mosque-of-sultan-qaitbey",
-    "destination": "/es/guide/cairo/mausoleum-complex-of-sultan-qaytbay",
+    "destination": "/es/guide/el-cairo/el-complejo-mausoleo-del-sultan-qaytbay",
     "permanent": true
   },
   {
@@ -15384,7 +15384,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/farafra-oasis/accommodations-in-farafra",
-    "destination": "/es/guide/farafra-oasis/top-hotels-in-farafra-oasis",
+    "destination": "/es/guide/farafra/donde-alojarse-en-el-oasis-de-farafra",
     "permanent": true
   },
   {
@@ -15399,7 +15399,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/farafra-oasis/getting-around-in-farafra",
-    "destination": "/es/guide/farafra-oasis/getting-around-in-farafra-oasis",
+    "destination": "/es/guide/farafra/como-moverse-por-el-oasis-de-farafra",
     "permanent": true
   },
   {
@@ -15414,7 +15414,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/farafra-oasis/how-to-go-to-farafra",
-    "destination": "/es/guide/farafra-oasis/how-to-go-in-farafra-oasis",
+    "destination": "/es/guide/farafra/como-llegar-al-oasis-de-farafra",
     "permanent": true
   },
   {
@@ -15429,7 +15429,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/farafra-oasis/things-to-do-in-farafra",
-    "destination": "/es/guide/farafra-oasis/things-to-do-in-farafra-oasis",
+    "destination": "/es/guide/farafra/que-hacer-en-el-oasis-de-farafra",
     "permanent": true
   },
   {
@@ -15444,7 +15444,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/farafra-oasis/weather-in-farafra",
-    "destination": "/es/guide/farafra-oasis/weather-in-farafra-oasis",
+    "destination": "/es/guide/farafra/el-clima-en-farafra-y-la-mejor-epoca-para-visitar",
     "permanent": true
   },
   {
@@ -15459,7 +15459,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/best-rosetta-tours",
-    "destination": "/es/guide/rosetta-rasheed/tours-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/excursiones-en-rosetta-rashid",
     "permanent": true
   },
   {
@@ -15474,7 +15474,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/getting-around-rosetta",
-    "destination": "/es/guide/rosetta-rasheed/getting-around-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/como-moverse-por-rosetta-rashid",
     "permanent": true
   },
   {
@@ -15489,7 +15489,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/only-in-rosetta",
-    "destination": "/es/guide/rosetta-rasheed/only-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/solo-en-rosetta-el-lugar-detras-de-la-piedra",
     "permanent": true
   },
   {
@@ -15504,7 +15504,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/past-and-present-rosetta",
-    "destination": "/es/guide/rosetta-rasheed/rosetta-rasheed-historical-overview",
+    "destination": "/es/guide/rosetta-rasheed/rosetta-rashid-historia",
     "permanent": true
   },
   {
@@ -15519,7 +15519,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/places-to-go-in-rosetta",
-    "destination": "/es/guide/rosetta-rasheed/places-in-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/lugares-de-rasheed",
     "permanent": true
   },
   {
@@ -15534,7 +15534,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/rosetta-arrival-guide",
-    "destination": "/es/guide/rosetta-rasheed/how-to-go-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/como-llegar-a-rosetta-rashid",
     "permanent": true
   },
   {
@@ -15549,7 +15549,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/stay-in-rosetta",
-    "destination": "/es/guide/rosetta-rasheed/top-hotels-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/donde-alojarse-en-rosetta-rashid",
     "permanent": true
   },
   {
@@ -15564,7 +15564,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/taste-of-rosetta",
-    "destination": "/es/guide/rosetta-rasheed/food-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/donde-comer-en-rosetta-rashid",
     "permanent": true
   },
   {
@@ -15579,7 +15579,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/things-to-do-in-rosetta",
-    "destination": "/es/guide/rosetta-rasheed/things-to-do-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/que-hacer-en-rosetta-rashid",
     "permanent": true
   },
   {
@@ -15594,7 +15594,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/rosetta-rasheed/when-to-go-rosetta",
-    "destination": "/es/guide/rosetta-rasheed/weather-in-rosetta-rasheed",
+    "destination": "/es/guide/rosetta-rasheed/el-tiempo-en-rosetta-rashid-y-la-mejor-epoca-para-visitarla",
     "permanent": true
   },
   {
@@ -15609,7 +15609,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/siwa-oasis/adventure-activities-in-siwa-oasis",
-    "destination": "/es/guide/siwa-oasis/things-to-do-in-siwa-oasis",
+    "destination": "/es/guide/siwa/cosas-que-hacer-en-el-oasis-de-siwa",
     "permanent": true
   },
   {
@@ -15624,7 +15624,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/siwa-oasis/events-in-siwa",
-    "destination": "/es/guide/siwa-oasis/upcoming-events-in-siwa-oasis",
+    "destination": "/es/guide/siwa/eventos-en-siwa",
     "permanent": true
   },
   {
@@ -15639,7 +15639,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/siwa-oasis/getting-around-siwa",
-    "destination": "/es/guide/siwa-oasis/getting-around-in-siwa-oasis",
+    "destination": "/es/guide/siwa/como-moverse-por-siwa",
     "permanent": true
   },
   {
@@ -15654,7 +15654,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/siwa-oasis/siwa-dining-experiences",
-    "destination": "/es/guide/siwa-oasis/food-in-siwa-oasis",
+    "destination": "/es/guide/siwa/gastronomia-en-siwa",
     "permanent": true
   },
   {
@@ -15669,7 +15669,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/siwa-oasis/siwa-hotel-guide",
-    "destination": "/es/guide/siwa-oasis/top-hotels-in-siwa-oasis",
+    "destination": "/es/guide/siwa/guia-de-alojamiento-en-siwa-donde-alojarse",
     "permanent": true
   },
   {
@@ -15684,7 +15684,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/siwa-oasis/siwa-only-here",
-    "destination": "/es/guide/siwa-oasis/only-in-siwa-oasis",
+    "destination": "/es/guide/siwa/solo-aqui-la-medicina-tradicional-en-siwa",
     "permanent": true
   },
   {
@@ -15699,7 +15699,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/siwa-oasis/siwa-weather-guide",
-    "destination": "/es/guide/siwa-oasis/weather-in-siwa-oasis",
+    "destination": "/es/guide/siwa/guia-del-tiempo-en-el-oasis-de-siwa",
     "permanent": true
   },
   {
@@ -15714,7 +15714,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/wadi-el-natrun/only-in-wadi-al-natron",
-    "destination": "/es/guide/wadi-el-natrun/only-in-wadi-el-natrun",
+    "destination": "/es/guide/wadi-al-natron/solo-en-wadi-al-natron-2",
     "permanent": true
   },
   {
@@ -15729,7 +15729,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/wadi-el-natrun/things-to-do-in-wadi-al-natron",
-    "destination": "/es/guide/wadi-el-natrun/things-to-do-in-wadi-el-natrun",
+    "destination": "/es/guide/wadi-al-natron/que-hacer-en-wadi-al-natron",
     "permanent": true
   },
   {
@@ -15744,7 +15744,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/al-wadi-al-gadid/el-wadi-el-gedid-museum",
-    "destination": "/es/guide/al-wadi-al-gadid/kharga-museum-of-antiquities",
+    "destination": "/es/guide/al-wadi-al-gadid/el-museo-de-antiguedades-de-kharga",
     "permanent": true
   },
   {
@@ -15759,7 +15759,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/alexandria/the-national-museum",
-    "destination": "/es/guide/alexandria/alexandria-national-museum",
+    "destination": "/es/guide/alejandria/museo-nacional-de-alejandria",
     "permanent": true
   },
   {
@@ -15774,7 +15774,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/ras-sudr/places-to-visit-in-ras-sudr",
-    "destination": "/es/guide/ras-sudr/places-in-ras-sudr",
+    "destination": "/es/guide/ras-sudr/lugares-de-ras-sudr",
     "permanent": true
   },
   {
@@ -15789,7 +15789,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guide/saint-catherine/mosque-of-al-hakim-be-amr-allah",
-    "destination": "/es/guide/saint-catherine/fatimid-mosque",
+    "destination": "/es/guide/santa-catalina/la-mezquita-fatimi-del-monasterio-de-santa-catalina",
     "permanent": true
   },
   {
