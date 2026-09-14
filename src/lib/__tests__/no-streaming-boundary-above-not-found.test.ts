@@ -1,7 +1,8 @@
 /**
  * Regression guard for soft 404s.
  *
- * A `loading.tsx` above a page that calls `notFound()` (or `redirect()`) makes
+ * A `loading.tsx` above a page that calls `notFound()` (or `redirect()` /
+ * `permanentRedirect()`) makes
  * Next.js flush the layout shell first; the not-found UI then streams into the
  * boundary and the response carries HTTP 200 (a redirect degrades to a
  * client-side hop). Search engines file those as "Soft 404". Every route that
@@ -29,7 +30,7 @@ const offenders: string[] = [];
 let checked = 0;
 for (const page of walk(APP)) {
   const src = readFileSync(page, 'utf8');
-  if (!/\bnotFound\(\)|\bredirect\(/.test(src)) continue;
+  if (!/\bnotFound\(\)|\b(?:permanentR|r)edirect\(/.test(src)) continue;
   checked += 1;
   let dir = dirname(page);
   while (dir.startsWith(APP)) {
