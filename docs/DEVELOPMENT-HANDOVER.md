@@ -258,7 +258,7 @@ A large, still-active effort under `scripts/` and `migration/`:
 
 ### Key routing mechanics
 
-- **Root catch-all dispatch** (`(site)/[locale]/[...rest]/page.tsx`): tours live at the site root (`/<slug>`). The catch-all resolves a slug against Sanity and dispatches to `SingleTourView`, `PackageView`, `SubcategoryView`, or `TourCategoryView`. Legacy `/tours/…` and `/packages/…` prefixes 307 to canonical root URLs.
+- **Root catch-all dispatch** (`(site)/[locale]/[...rest]/page.tsx`): tours live at the site root (`/<slug>`). The catch-all resolves a slug against Sanity and dispatches to `SingleTourView`, `PackageView`, `SubcategoryView`, or `TourCategoryView`. Legacy `/tours/…` and `/packages/…` prefixes 308 (permanent) to canonical root URLs; legacy WP root article/monument slugs 308 to `/blog/…` and `/wiki/monuments/…`.
 - **Static generation:** `generateStaticParams` pre-builds ~thousands of routes (blog, guide cities + articles, hotels, cruises, travel tips, monuments, resources).
 - **Rendering strategy:** the whole `(site)` group carries `revalidate = 60` (ISR). The catch-all and homepage are server-rendered then cached; `/plan-your-tour` and everything under `/admin` and `/api` are `force-dynamic`.
 

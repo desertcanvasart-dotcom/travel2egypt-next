@@ -12,7 +12,7 @@
  */
 import { cache } from 'react';
 import type { Metadata } from 'next';
-import { notFound, redirect } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 
@@ -152,13 +152,15 @@ export default async function CatchAllPage({ params }: Props) {
     );
   }
   // Articles + wikiMonuments still live under their explicit named routes —
-  // redirect from root preserves legacy WP URLs at a single 307 hop until
-  // those renderers are extracted into shared components as well.
+  // the root slug is the legacy WordPress URL, so send it to the canonical
+  // page with a single PERMANENT (308) hop. A temporary 307 here left Google
+  // treating the old WP URL as the live one ("Crawled – currently not
+  // indexed") instead of consolidating signals onto the successor.
   if (hit._type === 'article') {
-    redirect(`/blog/${rest[0]}`);
+    permanentRedirect(`/blog/${rest[0]}`);
   }
   if (hit._type === 'wikiMonument') {
-    redirect(`/wiki/monuments/${rest[0]}`);
+    permanentRedirect(`/wiki/monuments/${rest[0]}`);
   }
 
   // tourCategory + tourLanding render inline (their canonical URL IS the root path)

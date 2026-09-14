@@ -38,6 +38,11 @@ export const redirect = nav.redirect as unknown as (
   args: string | { href: string; locale?: Locale },
 ) => never;
 
+/** 308 variant — use for legacy URLs whose canonical home has moved for good. */
+export const permanentRedirect = nav.permanentRedirect as unknown as (
+  args: string | { href: string; locale?: Locale },
+) => never;
+
 export const getPathname = nav.getPathname as unknown as (args: {
   href: string;
   locale: Locale;
