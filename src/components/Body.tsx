@@ -9,6 +9,7 @@ import {
   type ResolvableRef,
 } from '@/sanity/lib/i18n';
 import { createHeadingIdGenerator } from '@/lib/portable-text';
+import { canonicalContentHref } from '@/lib/canonical-content-href';
 import type { Locale } from '@/i18n/routing';
 
 /**
@@ -240,7 +241,7 @@ export function getBodyComponents(locale: 'en' | 'es' | 'ja'): PortableTextCompo
     marks: {
       externalLink: ({ children, value }) => (
         <a
-          href={value?.href}
+          href={canonicalContentHref(value?.href)}
           target={value?.newTab ? '_blank' : undefined}
           rel={value?.newTab ? 'noopener noreferrer' : undefined}
         >
@@ -258,6 +259,15 @@ export function getBodyComponents(locale: 'en' | 'es' | 'ja'): PortableTextCompo
         if (!href) {
           return (
             <span className="border-b border-rule-strong">{children}</span>
+          );
+        }
+        const localizedHref = locale === 'en' ? href : `/${locale}${href}`;
+        const canonicalHref = canonicalContentHref(localizedHref);
+        if (canonicalHref !== localizedHref) {
+          return (
+            <a href={canonicalHref} className="border-b border-rule-strong text-faience transition-colors hover:border-faience">
+              {children}
+            </a>
           );
         }
         return (
@@ -283,7 +293,7 @@ export function Body({ value, locale }: BodyProps) {
 const baseComponents: PortableTextComponents = {
   marks: {
     externalLink: ({ children, value }) => (
-      <a href={value?.href} target="_blank" rel="noopener noreferrer">
+      <a href={canonicalContentHref(value?.href)} target="_blank" rel="noopener noreferrer">
         {children}
       </a>
     ),

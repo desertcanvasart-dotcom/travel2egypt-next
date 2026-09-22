@@ -1753,7 +1753,7 @@ export const sitemapDocsQuery = groq`
       // added: its four docs share slugs with the four STATIC_PATHS code
       // routes (/private-day-tours etc.) and would duplicate them.
       "tourLanding", "editorialCategory", "fieldGuide"
-    ] && !(_id in path("drafts.**"))
+    ] && !(_id in path("drafts.**")) && seo.noIndex != true
       // Exclude soft-archived/hidden guideArticles (e.g. de-duplicated legacy
       // pages) so they drop out of the sitemap; their slugs 301 elsewhere.
       && !(_type == "guideArticle" && hidden == true)]{
@@ -1767,7 +1767,7 @@ export const sitemapDocsQuery = groq`
         null
       )
     },
-    "articles": *[_type in ["article", "foodArticle"] && !(_id in path("drafts.**"))]{
+    "articles": *[_type in ["article", "foodArticle"] && !(_id in path("drafts.**")) && seo.noIndex != true]{
       _id,
       _type,
       language,
@@ -2023,9 +2023,11 @@ export const slugLookupQuery = (locale: Locale) => groq`
   *[
     !(_id in path("drafts.**")) &&
     _type in ["tourCategory","tourLanding","tour","article","wikiMonument"] &&
-    (slug[_key == "${locale}"][0].value.current == $slug ||
-     (slug[_key == "${locale}"][0].value.current == null &&
-      slug[_key == "en"][0].value.current == $slug))
+    ((_type == "article" && language == "${locale}" && slug.current == $slug) ||
+     (_type != "article" && (
+       slug[_key == "${locale}"][0].value.current == $slug ||
+       (slug[_key == "${locale}"][0].value.current == null &&
+        slug[_key == "en"][0].value.current == $slug))))
   ] | order(select(
       _type == "tourCategory" => 1,
       _type == "tourLanding"  => 2,

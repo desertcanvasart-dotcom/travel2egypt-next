@@ -36,6 +36,8 @@ jobs:
         run: npm run test:no-streaming-boundary
       - name: Redirect-map integrity (no chains, duplicates or self-loops)
         run: npm run test:redirect-map-integrity
+      - name: Migration routing and canonical content links
+        run: npm run test:migration-routing
       - name: Concierge tests (markers + Autoura)
         run: npm run test:concierge
       - name: Link-map tests
