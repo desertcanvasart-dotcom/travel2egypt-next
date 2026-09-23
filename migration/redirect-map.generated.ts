@@ -12919,7 +12919,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/カスル・イブリム・クルーズ・シップ",
-    "destination": "/ja/nile-cruises/カスル・イブリム・クルーズ・シップ",
+    "destination": "/ja/nile-cruises/kasuruiburimu",
     "permanent": true
   },
   {
