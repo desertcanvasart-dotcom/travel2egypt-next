@@ -12639,7 +12639,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/m-s-sonesta-st",
-    "destination": "/es/nile-cruises/m-s-sonesta-st",
+    "destination": "/es/nile-cruises/m-s-sonesta-st-george-nile-cruise",
     "permanent": true
   },
   {
@@ -12919,7 +12919,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/カスル・イブリム・クルーズ・シップ",
-    "destination": "/ja/nile-cruises/カスル・イブリム・クルーズ・シップ",
+    "destination": "/ja/nile-cruises/kasuruiburimu",
     "permanent": true
   },
   {
