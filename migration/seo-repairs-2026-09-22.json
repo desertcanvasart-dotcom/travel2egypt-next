@@ -1,0 +1,4296 @@
+{
+  "checkedAt": "2026-09-22",
+  "restoredRoutes": [
+    "/adelaide-dahabiya-nile-cruise",
+    "/agatha-dahabiya-journey-along-the-nile",
+    "/es/guide/suez/getting-around-suez",
+    "/ja/guide/suezu/getting-around-suez",
+    "/es/guide/dahab/dahab-restaurants",
+    "/es/guide/marsa-matruh/how-to-go-to-marsa-matruh",
+    "/ja/guide/dafura-oashisu/dafura-e-no-michi"
+  ],
+  "redirects": [
+    {
+      "source": "/es/guide/aswan/aswan-local-market",
+      "destination": "/es/guide/asuan/mercado-local-de-asuan",
+      "previousDestination": "/es/guide/asuan/el-mercado-local-de-asuan",
+      "evidence": {
+        "source": "/es/guide/aswan/aswan-local-market",
+        "destination": "/es/guide/asuan/mercado-local-de-asuan",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-59253",
+        "legacyUrl": "https://travel2egypt.org/aswan-local-market/",
+        "documentType": "guideArticle",
+        "title": "Mercado local de Asuán — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/hurghada/hurghada-aquarium",
+      "destination": "/es/guide/hurghada/acuario-de-hurghada",
+      "previousDestination": "/es/guide/hurghada/hurghada-grand-aquarium",
+      "evidence": {
+        "source": "/es/guide/hurghada/hurghada-aquarium",
+        "destination": "/es/guide/hurghada/acuario-de-hurghada",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-59711",
+        "legacyUrl": "https://travel2egypt.org/hurghada-aquarium/",
+        "documentType": "guideArticle",
+        "title": "Acuario de Hurghada — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/sohag/sohag-weather-guide",
+      "destination": "/es/guide/sohag/pronostico-del-tiempo-para-sohag",
+      "previousDestination": "/es/guide/sohag/clima-y-mejor-epoca-para-visitar-sohag",
+      "evidence": {
+        "source": "/es/guide/sohag/sohag-weather-guide",
+        "destination": "/es/guide/sohag/pronostico-del-tiempo-para-sohag",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-60533",
+        "legacyUrl": "https://travel2egypt.org/sohag-weather-guide/",
+        "documentType": "guideArticle",
+        "title": "El Clima en Sohag — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/suez/suez-temperature-trends",
+      "destination": "/es/guide/suez/clima-en-suez",
+      "previousDestination": "/es/guide/suez/el-clima-de-suez-y-mejor-epoca-para-visitar",
+      "evidence": {
+        "source": "/es/guide/suez/suez-temperature-trends",
+        "destination": "/es/guide/suez/clima-en-suez",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-60557",
+        "legacyUrl": "https://travel2egypt.org/suez-temperature-trends/",
+        "documentType": "guideArticle",
+        "title": "El Clima en Suez — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/taba/story-of-taba",
+      "destination": "/es/guide/taba/la-rica-historia-de-taba",
+      "previousDestination": "/es/guide/taba/historia-de-taba",
+      "evidence": {
+        "source": "/es/guide/taba/story-of-taba",
+        "destination": "/es/guide/taba/la-rica-historia-de-taba",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-60577",
+        "legacyUrl": "https://travel2egypt.org/story-of-taba/",
+        "documentType": "guideArticle",
+        "title": "La Rica Historia De Taba — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/marsa-alam/getting-around-in-marsa-alam",
+      "destination": "/es/guide/marsa-alam/como-moverse-en-marsa-alam",
+      "previousDestination": "/es/guide/marsa-alam/como-moverse-por-marsa-alam",
+      "evidence": {
+        "source": "/es/guide/marsa-alam/getting-around-in-marsa-alam",
+        "destination": "/es/guide/marsa-alam/como-moverse-en-marsa-alam",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-78399",
+        "legacyUrl": "https://travel2egypt.org/getting-around-in-marsa-alam/",
+        "documentType": "guideArticle",
+        "title": "Cómo moverse en Marsa Alam — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/オベロイ・ザフラ・ナイル・クルーズ（oberoi-zahra-nile-cruise）",
+      "destination": "/ja/nile-cruises/oberoizafura",
+      "previousDestination": "/ja/nile-cruises/オベロイ・ザフラ・ナイル・クルーズ（oberoi-zahra-nile-cruise）",
+      "evidence": {
+        "source": "/ja/オベロイ・ザフラ・ナイル・クルーズ（oberoi-zahra-nile-cruise）",
+        "destination": "/ja/nile-cruises/oberoizafura",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-64250",
+        "legacyUrl": "https://travel2egypt.org/oberoi-zahra-nile-cruise/",
+        "documentType": "nileCruise",
+        "title": "オベロイ・ザフラ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/meroe-dahabiya",
+      "destination": "/nile-cruises/nour-el-nil-meroe-dahabiya",
+      "previousDestination": "/nile-cruises/meroe-dahabiya",
+      "evidence": {
+        "source": "/meroe-dahabiya",
+        "destination": "/nile-cruises/nour-el-nil-meroe-dahabiya",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-64190",
+        "legacyUrl": "https://travel2egypt.org/nour-el-nil-meroe-dahabiya/",
+        "documentType": "nileCruise",
+        "title": "Meroe Dahabiya: Named for the Nubian Capital — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/m-s-アル・カヒラ・ナイル・クルーズ（m-s-al-kahila-nile-cruise）",
+      "destination": "/ja/nile-cruises/m-s-aru-kahira",
+      "previousDestination": "/ja/nile-cruises/m-s-アル・カヒラ・ナイル・クルーズ（m-s-al-kahila-nile-cruise）",
+      "evidence": {
+        "source": "/ja/m-s-アル・カヒラ・ナイル・クルーズ（m-s-al-kahila-nile-cruise）",
+        "destination": "/ja/nile-cruises/m-s-aru-kahira",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-64459",
+        "legacyUrl": "https://travel2egypt.org/m-s-al-kahila-nile-cruise/",
+        "documentType": "nileCruise",
+        "title": "M/S アル・カヒラ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/m-s-ソネスタ・スター・ゴッデス（m-s-sonesta-star-goddess）",
+      "destination": "/ja/nile-cruises/m-s-sonesutasutagoddesu",
+      "previousDestination": "/ja/nile-cruises/m-s-ソネスタ・スター・ゴッデス（m-s-sonesta-star-goddess）",
+      "evidence": {
+        "source": "/ja/m-s-ソネスタ・スター・ゴッデス（m-s-sonesta-star-goddess）",
+        "destination": "/ja/nile-cruises/m-s-sonesutasutagoddesu",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-64426",
+        "legacyUrl": "https://travel2egypt.org/m-s-sonesta-star-goddess-nile-cruise/",
+        "documentType": "nileCruise",
+        "title": "M/S ソネスタ・スター・ゴッデス — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/アデライド・ダハビヤ（adelaide-dahabiya）",
+      "destination": "/ja/nile-cruises/aderaidodahabiya",
+      "previousDestination": "/ja/nile-cruises/アデライド・ダハビヤ（adelaide-dahabiya）",
+      "evidence": {
+        "source": "/ja/アデライド・ダハビヤ（adelaide-dahabiya）",
+        "destination": "/ja/nile-cruises/aderaidodahabiya",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-83685",
+        "legacyUrl": "https://travel2egypt.org/adelaide-dahabiya/",
+        "documentType": "nileCruise",
+        "title": "アデライード・ダハビーヤ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/m-s-mayfair-crucero-por-el-nilo",
+      "destination": "/es/nile-cruises/m-s-mayfair",
+      "previousDestination": "/es/nile-cruises/m-s-mayfair-crucero-por-el-nilo",
+      "evidence": {
+        "source": "/es/m-s-mayfair-crucero-por-el-nilo",
+        "destination": "/es/nile-cruises/m-s-mayfair",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-65210",
+        "legacyUrl": "https://travel2egypt.org/m-s-mayfair/",
+        "documentType": "nileCruise",
+        "title": "M/S Mayfair: art déco y egiptomanía entre Luxor y Asuán — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/how-to-get-around-wadi-el-natrun",
+      "destination": "/guide/wadi-el-natrun/how-to-get-around-wadi-el-natrun",
+      "previousDestination": "/guide/wadi-al-natron",
+      "evidence": {
+        "source": "/how-to-get-around-wadi-el-natrun",
+        "destination": "/guide/wadi-el-natrun/how-to-get-around-wadi-el-natrun",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-60600",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Getting Around Wadi Al-Natron — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/where-to-eat-in-wadi-el-natrun",
+      "destination": "/guide/wadi-el-natrun/where-to-eat-in-wadi-el-natrun",
+      "previousDestination": "/guide/wadi-al-natron",
+      "evidence": {
+        "source": "/where-to-eat-in-wadi-el-natrun",
+        "destination": "/guide/wadi-el-natrun/where-to-eat-in-wadi-el-natrun",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-60603",
+        "legacyUrl": "https://travel2egypt.org/where-to-eat-in-wadi-el-natrun/",
+        "documentType": "guideArticle",
+        "title": "Where to Eat in Wadi El Natrun — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/marsa-matruh/places-to-go-in-marsa-matruh",
+      "destination": "/ja/guide/marusa-matorufu",
+      "previousDestination": "/ja/guide/marsa-matruh",
+      "evidence": {
+        "reason": "Flatten existing redirect through a verified repaired alias"
+      }
+    },
+    {
+      "source": "/ja/guide/cairo/madrassa-mausoleum-of-as-salih-negm-el-din-ayyub",
+      "destination": "/ja/guide/kairo/atsu-sarifunajumuatsu-dinaiyubu-no-madorasa-to-reibyo",
+      "previousDestination": "/ja/guide/cairo/madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+      "evidence": {
+        "reason": "Flatten existing redirect through a verified repaired alias"
+      }
+    },
+    {
+      "source": "/ja/wiki/monuments/mosque-of-al-muayyad-shaykh",
+      "destination": "/ja/wiki/monuments/アル・ムアイヤド・シャイフ・モスク",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/wiki/monuments/mosque-of-al-muayyad-shaykh",
+        "destination": "/ja/wiki/monuments/アル・ムアイヤド・シャイフ・モスク",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "アル・ムアイヤド・シャイフ・モスク — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/explorando-la-iglesia-de-la-cueva-de-el-cairo-una-joya-escondida-en-la-montana-mokattam",
+      "destination": "/es/blog/explorando-la-iglesia-de-la-cueva-de-el-cairo-una-joya-escondida-en-la-montana-mokattam",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/explorando-la-iglesia-de-la-cueva-de-el-cairo-una-joya-escondida-en-la-montana-mokattam",
+        "destination": "/es/blog/explorando-la-iglesia-de-la-cueva-de-el-cairo-una-joya-escondida-en-la-montana-mokattam",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-154951-es",
+        "legacyUrl": "https://travel2egypt.org/cave-church-cairo/",
+        "documentType": "article",
+        "title": "La Iglesia de la Cueva en El Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/marsa-alam-travel-guide/when-to-go-marsa-alam",
+      "destination": "/guide/marsa-alam/when-to-go-marsa-alam",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/marsa-alam-travel-guide/when-to-go-marsa-alam",
+        "destination": "/guide/marsa-alam/when-to-go-marsa-alam",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-78394",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Marsa Alam Weather and Best Time to Visit — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/restaurants-in-zamalek",
+      "destination": "/blog/restaurants-in-zamalek",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/restaurants-in-zamalek",
+        "destination": "/blog/restaurants-in-zamalek",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-153217-en",
+        "legacyUrl": "https://travel2egypt.org/restaurants-in-zamalek/",
+        "documentType": "article",
+        "title": "Eating in Zamalek — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/wiki/monuments/tomb-of-mereruka",
+      "destination": "/ja/wiki/monuments/メルエルカの墓",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/wiki/monuments/tomb-of-mereruka",
+        "destination": "/ja/wiki/monuments/メルエルカの墓",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "メルエルカの墓 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/la-historia-de-bab-zuweila-la-legendaria-puerta-de-la-ciudad-en-el-cairo-islamico",
+      "destination": "/es/blog/la-historia-de-bab-zuweila-la-legendaria-puerta-de-la-ciudad-en-el-cairo-islamico",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/la-historia-de-bab-zuweila-la-legendaria-puerta-de-la-ciudad-en-el-cairo-islamico",
+        "destination": "/es/blog/la-historia-de-bab-zuweila-la-legendaria-puerta-de-la-ciudad-en-el-cairo-islamico",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-249446-es",
+        "legacyUrl": "https://travel2egypt.org/the-story-of-bab-zuweila/",
+        "documentType": "article",
+        "title": "Bab Zuweila — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/聖カタリナ修道院図書館",
+      "destination": "/ja/wiki/monuments/聖カタリナ修道院図書館",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/聖カタリナ修道院図書館",
+        "destination": "/ja/wiki/monuments/聖カタリナ修道院図書館",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60748",
+        "legacyUrl": "https://travel2egypt.org/library-of-the-monastery/",
+        "documentType": "wikiMonument",
+        "title": "聖カタリナ修道院図書館 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/temples-tombs-and-the-queens",
+      "destination": "/blog/temples-tombs-and-the-queens",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/temples-tombs-and-the-queens",
+        "destination": "/blog/temples-tombs-and-the-queens",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-216364-en",
+        "legacyUrl": "https://travel2egypt.org/temples-tombs-and-the-queens/",
+        "documentType": "article",
+        "title": "The Queens of Ancient Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/places-to-stay-in-al-minya",
+      "destination": "/guide/al-minya/places-to-stay-in-al-minya",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/places-to-stay-in-al-minya",
+        "destination": "/guide/al-minya/places-to-stay-in-al-minya",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58642",
+        "legacyUrl": "https://travel2egypt.org/places-to-stay-in-al-minya/",
+        "documentType": "guideArticle",
+        "title": "Places to Stay in Al Minya — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/historia-de-marsa-matruh",
+      "destination": "/es/guide/marsa-matruh/historia-de-marsa-matruh",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/historia-de-marsa-matruh",
+        "destination": "/es/guide/marsa-matruh/historia-de-marsa-matruh",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60223",
+        "legacyUrl": "https://travel2egypt.org/history-of-marsa-matruh/",
+        "documentType": "guideArticle",
+        "title": "Historia de Marsa Matruh — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/was-king-tut-buried-in-a-pyramid",
+      "destination": "/blog/was-king-tut-buried-in-a-pyramid",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/was-king-tut-buried-in-a-pyramid",
+        "destination": "/blog/was-king-tut-buried-in-a-pyramid",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-235270-en",
+        "legacyUrl": "https://travel2egypt.org/was-king-tut-buried-in-a-pyramid/",
+        "documentType": "article",
+        "title": "Was King Tut Buried in a Pyramid? New Kingdom Burial Explained — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/weather-in-al-fayoum",
+      "destination": "/guide/al-fayoum/weather-in-al-fayoum",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/weather-in-al-fayoum",
+        "destination": "/guide/al-fayoum/weather-in-al-fayoum",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58573",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Al Fayoum Weather and Best Time to Visit — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/al-gouna-weather",
+      "destination": "/guide/al-gouna/al-gouna-weather",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/al-gouna-weather",
+        "destination": "/guide/al-gouna/al-gouna-weather",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58795",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "El Gouna Weather and Best Time to Visit — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/clima-en-santa-catalina",
+      "destination": "/es/guide/santa-catalina/clima-en-santa-catalina",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/clima-en-santa-catalina",
+        "destination": "/es/guide/santa-catalina/clima-en-santa-catalina",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60457",
+        "legacyUrl": "https://travel2egypt.org/weather-in-saint-catherine/",
+        "documentType": "guideArticle",
+        "title": "El Clima en Santa Catalina — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/dioses-egipcios",
+      "destination": "/es/blog/dioses-egipcios",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/dioses-egipcios",
+        "destination": "/es/blog/dioses-egipcios",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144406-es",
+        "legacyUrl": "https://travel2egypt.org/egyptian-gods/",
+        "documentType": "article",
+        "title": "Cómo leer a los dioses egipcios durante el viaje — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/マディナット・ハブ神殿",
+      "destination": "/ja/wiki/monuments/マディナット・ハブ神殿",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/マディナット・ハブ神殿",
+        "destination": "/ja/wiki/monuments/マディナット・ハブ神殿",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60671",
+        "legacyUrl": "https://travel2egypt.org/madinat-habu-temple/",
+        "documentType": "wikiMonument",
+        "title": "マディナット・ハブ神殿 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/are-there-crocodiles-in-the-nile-river",
+      "destination": "/blog/are-there-crocodiles-in-the-nile-river",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/are-there-crocodiles-in-the-nile-river",
+        "destination": "/blog/are-there-crocodiles-in-the-nile-river",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-129653-en",
+        "legacyUrl": "https://travel2egypt.org/are-there-crocodiles-in-the-nile-river/",
+        "documentType": "article",
+        "title": "Are There Crocodiles in the Nile? — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/home/getting-around-dahab",
+      "destination": "/guide/dahab/getting-around-dahab",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/home/getting-around-dahab",
+        "destination": "/guide/dahab/getting-around-dahab",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59423",
+        "legacyUrl": "https://travel2egypt.org/home/getting-around-dahab/",
+        "documentType": "guideArticle",
+        "title": "Getting Around Dahab — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/el-cairo/mejores-hoteles-en-el-cairo",
+      "destination": "/ja/guide/kairo/kairo-de-no-shukuhaku-ni-saiteki-na-basho",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/el-cairo/mejores-hoteles-en-el-cairo",
+        "destination": "/ja/guide/kairo/kairo-de-no-shukuhaku-ni-saiteki-na-basho",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "カイロでの宿泊に最適な場所 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/sohag-travel-guide",
+      "destination": "/guide/sohag",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/sohag-travel-guide",
+        "destination": "/guide/sohag",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58937",
+        "legacyUrl": "https://travel2egypt.org/sohag-travel-guide/",
+        "documentType": "city",
+        "title": "Sohag — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/history-of-hurghada",
+      "destination": "/guide/hurghada/history-of-hurghada",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/history-of-hurghada",
+        "destination": "/guide/hurghada/history-of-hurghada",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59687",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "History of Hurghada — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/getting-around-in-aswan",
+      "destination": "/guide/aswan/getting-around-in-aswan",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/getting-around-in-aswan",
+        "destination": "/guide/aswan/getting-around-in-aswan",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59210",
+        "legacyUrl": "https://travel2egypt.org/getting-around-in-aswan/",
+        "documentType": "guideArticle",
+        "title": "Getting Around in Aswan — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/hitos-historicos-de-siwa",
+      "destination": "/es/blog/hitos-historicos-de-siwa",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/hitos-historicos-de-siwa",
+        "destination": "/es/blog/hitos-historicos-de-siwa",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144349-es",
+        "legacyUrl": "https://travel2egypt.org/siwas-historical-landmarks/",
+        "documentType": "article",
+        "title": "Lugares históricos de Siwa — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/descubriendo-egipto-a-bordo-del-oberoi-zahra",
+      "destination": "/es/blog/descubriendo-egipto-a-bordo-del-oberoi-zahra",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/descubriendo-egipto-a-bordo-del-oberoi-zahra",
+        "destination": "/es/blog/descubriendo-egipto-a-bordo-del-oberoi-zahra",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144336-es",
+        "legacyUrl": "https://travel2egypt.org/experiencing-egypt-aboard-the-oberoi-zahra/",
+        "documentType": "article",
+        "title": "Viajar por el Nilo a bordo del Oberoi Zahra — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/local-hospitals-in-egypt",
+      "destination": "/blog/local-hospitals-in-egypt",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/local-hospitals-in-egypt",
+        "destination": "/blog/local-hospitals-in-egypt",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-153089-en",
+        "legacyUrl": "https://travel2egypt.org/local-hospitals-in-egypt/",
+        "documentType": "article",
+        "title": "When You Need a Hospital in Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/best-ecolodges-in-fayoum",
+      "destination": "/blog/best-ecolodges-in-fayoum",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/best-ecolodges-in-fayoum",
+        "destination": "/blog/best-ecolodges-in-fayoum",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-135204-en",
+        "legacyUrl": "https://travel2egypt.org/best-ecolodges-in-fayoum/",
+        "documentType": "article",
+        "title": "Ecolodges in Fayoum — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/la-presa-alta-de-asuan",
+      "destination": "/es/guide/asuan/la-presa-alta-de-asuan",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/la-presa-alta-de-asuan",
+        "destination": "/es/guide/asuan/la-presa-alta-de-asuan",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59236",
+        "legacyUrl": "https://travel2egypt.org/aswan-high-dam/",
+        "documentType": "guideArticle",
+        "title": "La presa alta de Asuán — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/the-western-desert-in-egypt",
+      "destination": "/blog/the-western-desert-in-egypt",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/the-western-desert-in-egypt",
+        "destination": "/blog/the-western-desert-in-egypt",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-52003-en",
+        "legacyUrl": "https://travel2egypt.org/the-western-desert-in-egypt/",
+        "documentType": "article",
+        "title": "The Western Desert In Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/how-to-go-to-saint-catherine",
+      "destination": "/guide/saint-catherine/how-to-go-to-saint-catherine",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/how-to-go-to-saint-catherine",
+        "destination": "/guide/saint-catherine/how-to-go-to-saint-catherine",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-60458",
+        "legacyUrl": "https://travel2egypt.org/how-to-go-to-saint-catherine/",
+        "documentType": "guideArticle",
+        "title": "How To Go to Saint Catherine — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/エレファンティネ島",
+      "destination": "/ja/wiki/monuments/エレファンティネ島",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/エレファンティネ島",
+        "destination": "/ja/wiki/monuments/エレファンティネ島",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59227",
+        "legacyUrl": "https://travel2egypt.org/elephantine-island/",
+        "documentType": "wikiMonument",
+        "title": "エレファンティネ島 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/hurghada-marriott-red-sea-resort",
+      "destination": "/hotels/hurghada-marriott-red-sea-resort",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/hurghada-marriott-red-sea-resort",
+        "destination": "/hotels/hurghada-marriott-red-sea-resort",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-63630",
+        "legacyUrl": "https://travel2egypt.org/hurghada-marriott-red-sea-resort/",
+        "documentType": "hotel",
+        "title": "Hurghada Marriott Beach Resort: Central Red Sea Base — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/the-pyramids-of-egypt",
+      "destination": "/blog/the-pyramids-of-egypt",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/the-pyramids-of-egypt",
+        "destination": "/blog/the-pyramids-of-egypt",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-133840-en",
+        "legacyUrl": "https://travel2egypt.org/the-pyramids-of-egypt/",
+        "documentType": "article",
+        "title": "The Pyramids of Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/al-fayoum-tours",
+      "destination": "/guide/al-fayoum/al-fayoum-tours",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/al-fayoum-tours",
+        "destination": "/guide/al-fayoum/al-fayoum-tours",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58536",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Tours and Excursions in Al Fayoum — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ギザ旅行ガイド/カフラー王のピラミッド",
+      "destination": "/ja/wiki/monuments/カフラー王のピラミッド",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ギザ旅行ガイド/カフラー王のピラミッド",
+        "destination": "/ja/wiki/monuments/カフラー王のピラミッド",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69923",
+        "legacyUrl": "https://travel2egypt.org/pyramid-of-khafre/",
+        "documentType": "wikiMonument",
+        "title": "カフラー王のピラミッド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/patrimonio-arquitectonico-islamico-en-egipto-una-guia-completa",
+      "destination": "/es/blog/patrimonio-arquitectonico-islamico-en-egipto-una-guia-completa",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/patrimonio-arquitectonico-islamico-en-egipto-una-guia-completa",
+        "destination": "/es/blog/patrimonio-arquitectonico-islamico-en-egipto-una-guia-completa",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-249372-es",
+        "legacyUrl": "https://travel2egypt.org/islamic-architectural-heritage-in-egypt/",
+        "documentType": "article",
+        "title": "Cómo mirar la arquitectura islámica de Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/al-fayoum/medinet-madi",
+      "destination": "/ja/guide/aru-faiyumu/medinetomadi",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/al-fayoum/medinet-madi",
+        "destination": "/ja/guide/aru-faiyumu/medinetomadi",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "メディネト・マディ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/未完成のオベリスク",
+      "destination": "/ja/wiki/monuments/未完成のオベリスク",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/未完成のオベリスク",
+        "destination": "/ja/wiki/monuments/未完成のオベリスク",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59234",
+        "legacyUrl": "https://travel2egypt.org/the-unfinished-obelisk/",
+        "documentType": "wikiMonument",
+        "title": "未完成のオベリスク — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/getting-around-nuweiba",
+      "destination": "/guide/nuweiba/getting-around-nuweiba",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/getting-around-nuweiba",
+        "destination": "/guide/nuweiba/getting-around-nuweiba",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-60300",
+        "legacyUrl": "https://travel2egypt.org/getting-around-nuweiba/",
+        "documentType": "guideArticle",
+        "title": "Getting Around Nuweiba — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/hurghada/los-pecios-de-abu-nuhas",
+      "destination": "/ja/guide/harugada/abunuhasu-sen-saito",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/hurghada/los-pecios-de-abu-nuhas",
+        "destination": "/ja/guide/harugada/abunuhasu-sen-saito",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "アブ・ヌハス沈船サイト — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/group-tours-vs-private-tours",
+      "destination": "/blog/group-tours-vs-private-tours",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/group-tours-vs-private-tours",
+        "destination": "/blog/group-tours-vs-private-tours",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144145-en",
+        "legacyUrl": "https://travel2egypt.org/group-tours-vs-private-tours/",
+        "documentType": "article",
+        "title": "Group Tours vs Private Tours in Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/las-piramides-de-egipto",
+      "destination": "/es/blog/las-piramides-de-egipto",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/las-piramides-de-egipto",
+        "destination": "/es/blog/las-piramides-de-egipto",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144426-es",
+        "legacyUrl": "https://travel2egypt.org/the-pyramids-of-egypt/",
+        "documentType": "article",
+        "title": "Las pirámides de Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/history-of-asyut",
+      "destination": "/guide/asyut/history-of-asyut",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/history-of-asyut",
+        "destination": "/guide/asyut/history-of-asyut",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59260",
+        "legacyUrl": "https://travel2egypt.org/history-of-asyut/",
+        "documentType": "guideArticle",
+        "title": "History Of Asyut — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/safaris-por-el-desierto-del-sinai-desvelando-los-misterios-de-la-frontera-salvaje-de-egipto",
+      "destination": "/es/blog/safaris-por-el-desierto-del-sinai-desvelando-los-misterios-de-la-frontera-salvaje-de-egipto",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/safaris-por-el-desierto-del-sinai-desvelando-los-misterios-de-la-frontera-salvaje-de-egipto",
+        "destination": "/es/blog/safaris-por-el-desierto-del-sinai-desvelando-los-misterios-de-la-frontera-salvaje-de-egipto",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144348-es",
+        "legacyUrl": "https://travel2egypt.org/sinai-desert-safaris/",
+        "documentType": "article",
+        "title": "Safaris por el desierto del Sinaí — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/hurghada-travel-weather",
+      "destination": "/guide/hurghada/hurghada-travel-weather",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/hurghada-travel-weather",
+        "destination": "/guide/hurghada/hurghada-travel-weather",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59689",
+        "legacyUrl": "https://travel2egypt.org/hurghada-travel-weather/",
+        "documentType": "guideArticle",
+        "title": "Weather in Hurghada — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/the-curse-of-king-tuts-tomb",
+      "destination": "/blog/the-curse-of-king-tuts-tomb",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/the-curse-of-king-tuts-tomb",
+        "destination": "/blog/the-curse-of-king-tuts-tomb",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-243401-en",
+        "legacyUrl": "https://travel2egypt.org/the-curse-of-king-tuts-tomb/",
+        "documentType": "article",
+        "title": "The Curse of King Tut's Tomb — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/kempinski-soma-bay-hurghada",
+      "destination": "/es/hotels/kempinski-soma-bay-hurghada",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/kempinski-soma-bay-hurghada",
+        "destination": "/es/hotels/kempinski-soma-bay-hurghada",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63635",
+        "legacyUrl": "https://travel2egypt.org/kempinski-soma-bay-hurghada/",
+        "documentType": "hotel",
+        "title": "Kempinski Hotel Soma Bay: lagunas, playa y arrecife — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/guide/el-cairo/el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo",
+      "destination": "/guide/cairo/things-to-do-in-cairo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/guide/el-cairo/el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo",
+        "destination": "/guide/cairo/things-to-do-in-cairo",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "Things To Do in Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/explore-al-minya-tours",
+      "destination": "/guide/al-minya/explore-al-minya-tours",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/explore-al-minya-tours",
+        "destination": "/guide/al-minya/explore-al-minya-tours",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58650",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Planning Your Visit to Al-Minya — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/vacaciones-en-grupo-en-egipto-para-mayores",
+      "destination": "/es/blog/vacaciones-en-grupo-en-egipto-para-mayores",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/vacaciones-en-grupo-en-egipto-para-mayores",
+        "destination": "/es/blog/vacaciones-en-grupo-en-egipto-para-mayores",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144705-es",
+        "legacyUrl": "https://travel2egypt.org/egypt-group-holidays-for-seniors/",
+        "documentType": "article",
+        "title": "Egipto para viajeros sénior — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/saint-catherine-travel-guide",
+      "destination": "/guide/saint-catherine",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/saint-catherine-travel-guide",
+        "destination": "/guide/saint-catherine",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58925",
+        "legacyUrl": "https://travel2egypt.org/saint-catherine-travel-guide/",
+        "documentType": "city",
+        "title": "Saint Catherine — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/how-to-dress-when-visiting-egypt",
+      "destination": "/blog/how-to-dress-when-visiting-egypt",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/how-to-dress-when-visiting-egypt",
+        "destination": "/blog/how-to-dress-when-visiting-egypt",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-205417-en",
+        "legacyUrl": "https://travel2egypt.org/how-to-dress-when-visiting-egypt/",
+        "documentType": "article",
+        "title": "What to Wear in Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/デール神殿",
+      "destination": "/ja/wiki/monuments/デール神殿",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/デール神殿",
+        "destination": "/ja/wiki/monuments/デール神殿",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-57886",
+        "legacyUrl": "https://travel2egypt.org/the-temple-of-derr/",
+        "documentType": "wikiMonument",
+        "title": "デール神殿 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/ras-sudr-y-su-clima",
+      "destination": "/es/guide/ras-sudr/ras-sudr-y-su-clima",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/ras-sudr-y-su-clima",
+        "destination": "/es/guide/ras-sudr/ras-sudr-y-su-clima",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60380",
+        "legacyUrl": "https://travel2egypt.org/ras-sudr-climate/",
+        "documentType": "guideArticle",
+        "title": "El Clima en Ras Sudr — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/history-of-farafra-oasis",
+      "destination": "/guide/farafra-oasis/history-of-farafra-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/history-of-farafra-oasis",
+        "destination": "/guide/farafra-oasis/history-of-farafra-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59629",
+        "legacyUrl": "https://travel2egypt.org/history-of-farafra-oasis/",
+        "documentType": "guideArticle",
+        "title": "History of Farafra Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/lugares-sagrados-de-egipto",
+      "destination": "/es/blog/lugares-sagrados-de-egipto",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/lugares-sagrados-de-egipto",
+        "destination": "/es/blog/lugares-sagrados-de-egipto",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144342-es",
+        "legacyUrl": "https://travel2egypt.org/sacred-places-in-egypt-temples-mosques-and-religious-sites-to-explore/",
+        "documentType": "article",
+        "title": "Lugares sagrados de Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/guide/asuan/la-presa-alta-de-asuan",
+      "destination": "/guide/aswan/aswan-high-dam",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/guide/asuan/la-presa-alta-de-asuan",
+        "destination": "/guide/aswan/aswan-high-dam",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "Aswan High Dam — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/visiting-egypt-in-july",
+      "destination": "/blog/visiting-egypt-in-july",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/visiting-egypt-in-july",
+        "destination": "/blog/visiting-egypt-in-july",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-134663-en",
+        "legacyUrl": "https://travel2egypt.org/visiting-egypt-in-july/",
+        "documentType": "article",
+        "title": "Visiting Egypt in July — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ハンギング・チャーチ",
+      "destination": "/ja/wiki/monuments/ハンギング・チャーチ",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ハンギング・チャーチ",
+        "destination": "/ja/wiki/monuments/ハンギング・チャーチ",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63613",
+        "legacyUrl": "https://travel2egypt.org/the-hanging-church/",
+        "documentType": "wikiMonument",
+        "title": "ハンギング・チャーチ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/alcohol-in-egypt",
+      "destination": "/blog/alcohol-in-egypt",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/alcohol-in-egypt",
+        "destination": "/blog/alcohol-in-egypt",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-69273-en",
+        "legacyUrl": "https://travel2egypt.org/alcohol-in-egypt/",
+        "documentType": "article",
+        "title": "Alcohol in Egypt: A Guide for Travelers — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/pronostico-del-tiempo-para-luxor",
+      "destination": "/es/guide/luxor/pronostico-del-tiempo-para-luxor",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/pronostico-del-tiempo-para-luxor",
+        "destination": "/es/guide/luxor/pronostico-del-tiempo-para-luxor",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60647",
+        "legacyUrl": "https://travel2egypt.org/luxor-climate/",
+        "documentType": "guideArticle",
+        "title": "El Clima en Luxor — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/clima-en-suez",
+      "destination": "/es/guide/suez/clima-en-suez",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/clima-en-suez",
+        "destination": "/es/guide/suez/clima-en-suez",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60557",
+        "legacyUrl": "https://travel2egypt.org/suez-temperature-trends/",
+        "documentType": "guideArticle",
+        "title": "El Clima en Suez — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/where-to-eat-in-alexandria",
+      "destination": "/guide/alexandria/where-to-eat-in-alexandria",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/where-to-eat-in-alexandria",
+        "destination": "/guide/alexandria/where-to-eat-in-alexandria",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59171",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Where to Eat in Alexandria — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guia-de-viaje-de-el-cairo/mezquita-de-al-nasir-mohammed-ben-qalawoon",
+      "destination": "/es/wiki/monuments/mezquita-de-al-nasir-mohammed-ben-qalawoon",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guia-de-viaje-de-el-cairo/mezquita-de-al-nasir-mohammed-ben-qalawoon",
+        "destination": "/es/wiki/monuments/mezquita-de-al-nasir-mohammed-ben-qalawoon",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63487",
+        "legacyUrl": "https://travel2egypt.org/mosque-of-al-nasir-mohammed-ben-qalawoon/",
+        "documentType": "wikiMonument",
+        "title": "Mezquita de Al-Nasir Mohammed Ben Qalawoon — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ザウィエト・エル・アリアンのピラミッド",
+      "destination": "/ja/wiki/monuments/ザウィエト・エル・アリアンのピラミッド",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ザウィエト・エル・アリアンのピラミッド",
+        "destination": "/ja/wiki/monuments/ザウィエト・エル・アリアンのピラミッド",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69953",
+        "legacyUrl": "https://travel2egypt.org/pyramids-of-zawyet-el-aryan/",
+        "documentType": "wikiMonument",
+        "title": "ザウィエト・エル・アリアンのピラミッド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/egypt-group-holidays-for-students",
+      "destination": "/blog/egypt-group-holidays-for-students",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/egypt-group-holidays-for-students",
+        "destination": "/blog/egypt-group-holidays-for-students",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144121-en",
+        "legacyUrl": "https://travel2egypt.org/egypt-group-holidays-for-students/",
+        "documentType": "article",
+        "title": "Egypt for Student Groups — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/home/como-moverse-en-dahab",
+      "destination": "/es/guide/dahab/como-moverse-en-dahab",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/home/como-moverse-en-dahab",
+        "destination": "/es/guide/dahab/como-moverse-en-dahab",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59423",
+        "legacyUrl": "https://travel2egypt.org/home/getting-around-dahab/",
+        "documentType": "guideArticle",
+        "title": "Cómo Moverse en Dahab — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/places-to-visit-in-cairo-at-night",
+      "destination": "/blog/places-to-visit-in-cairo-at-night",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/places-to-visit-in-cairo-at-night",
+        "destination": "/blog/places-to-visit-in-cairo-at-night",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-134564-en",
+        "legacyUrl": "https://travel2egypt.org/places-to-visit-in-cairo-at-night/",
+        "documentType": "article",
+        "title": "Places to Go in Cairo at Night — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/comida-en-asuan",
+      "destination": "/es/guide/asuan/comida-en-asuan",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/comida-en-asuan",
+        "destination": "/es/guide/asuan/comida-en-asuan",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59209",
+        "legacyUrl": "https://travel2egypt.org/traditional-food-in-aswan/",
+        "documentType": "guideArticle",
+        "title": "Comida en Asuán — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/dahab-seasonal-guide",
+      "destination": "/guide/dahab/dahab-seasonal-guide",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/dahab-seasonal-guide",
+        "destination": "/guide/dahab/dahab-seasonal-guide",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59429",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Dahab Weather and Best Time to Visit — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/unicamente-en-al-minya",
+      "destination": "/es/guide/al-minya/unicamente-en-al-minya",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/unicamente-en-al-minya",
+        "destination": "/es/guide/al-minya/unicamente-en-al-minya",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58655",
+        "legacyUrl": "https://travel2egypt.org/only-here-in-al-minya/",
+        "documentType": "guideArticle",
+        "title": "Únicamente en Al Minya — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/egyptian-gods",
+      "destination": "/blog/egyptian-gods",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/egyptian-gods",
+        "destination": "/blog/egyptian-gods",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-115456-en",
+        "legacyUrl": "https://travel2egypt.org/egyptian-gods/",
+        "documentType": "article",
+        "title": "Reading the Egyptian Gods on the Trip — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/how-to-choose-a-sim-card-for-your-trip-to-egypt",
+      "destination": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/how-to-choose-a-sim-card-for-your-trip-to-egypt",
+        "destination": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-152484-en",
+        "legacyUrl": "https://travel2egypt.org/how-to-choose-a-sim-card-for-your-trip-to-egypt/",
+        "documentType": "article",
+        "title": "SIM Cards for Your Egypt Trip — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/steigenberger-cecil-hotel-alexandria",
+      "destination": "/hotels/steigenberger-cecil-hotel-alexandria",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/steigenberger-cecil-hotel-alexandria",
+        "destination": "/hotels/steigenberger-cecil-hotel-alexandria",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-64287",
+        "legacyUrl": "https://travel2egypt.org/steigenberger-cecil-hotel-alexandria/",
+        "documentType": "hotel",
+        "title": "Steigenberger Cecil Hotel Alexandria: A Hotel That Is History — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/alcohol-en-egipto",
+      "destination": "/es/blog/alcohol-en-egipto",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/alcohol-en-egipto",
+        "destination": "/es/blog/alcohol-en-egipto",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144323-es",
+        "legacyUrl": "https://travel2egypt.org/alcohol-in-egypt/",
+        "documentType": "article",
+        "title": "Alcohol en Egipto: Una guía para viajeros — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/wadi-al-natron-travel-guide/paromeos-monastery",
+      "destination": "/wiki/monuments/paromeos-monastery",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/wadi-al-natron-travel-guide/paromeos-monastery",
+        "destination": "/wiki/monuments/paromeos-monastery",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60797",
+        "legacyUrl": "https://travel2egypt.org/paromeos-monastery/",
+        "documentType": "wikiMonument",
+        "title": "Paromeos Monastery — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/where-is-tutankhamun-now",
+      "destination": "/blog/where-is-tutankhamun-now",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/where-is-tutankhamun-now",
+        "destination": "/blog/where-is-tutankhamun-now",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-235673-en",
+        "legacyUrl": "https://travel2egypt.org/where-is-tutankhamun-now/",
+        "documentType": "article",
+        "title": "Where Is Tutankhamun Now? What’s in Luxor vs What’s in Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/hay-cocodrilos-en-el-rio-nilo",
+      "destination": "/es/blog/hay-cocodrilos-en-el-rio-nilo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/hay-cocodrilos-en-el-rio-nilo",
+        "destination": "/es/blog/hay-cocodrilos-en-el-rio-nilo",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144412-es",
+        "legacyUrl": "https://travel2egypt.org/are-there-crocodiles-in-the-nile-river/",
+        "documentType": "article",
+        "title": "¿Hay cocodrilos en el Nilo? — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/antique-market-in-cairo-the-diana-market",
+      "destination": "/blog/antique-market-in-cairo-the-diana-market",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/antique-market-in-cairo-the-diana-market",
+        "destination": "/blog/antique-market-in-cairo-the-diana-market",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-205297-en",
+        "legacyUrl": "https://travel2egypt.org/antique-market-in-cairo-the-diana-market/",
+        "documentType": "article",
+        "title": "Cairo's Diana Market — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/wiki/monuments/monasterio-de-paromeos",
+      "destination": "/wiki/monuments/paromeos-monastery",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/wiki/monuments/monasterio-de-paromeos",
+        "destination": "/wiki/monuments/paromeos-monastery",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "Paromeos Monastery — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/escoltas-en-egipto-normas-rutas-y-seguridad",
+      "destination": "/es/blog/escoltas-en-egipto-normas-rutas-y-seguridad",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/escoltas-en-egipto-normas-rutas-y-seguridad",
+        "destination": "/es/blog/escoltas-en-egipto-normas-rutas-y-seguridad",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-248734-es",
+        "legacyUrl": "https://travel2egypt.org/escorts-in-egypt/",
+        "documentType": "article",
+        "title": "Escoltas turísticas, convoyes y asistencia en Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/beni-suef-weather",
+      "destination": "/guide/beni-suef/beni-suef-weather",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/beni-suef-weather",
+        "destination": "/guide/beni-suef/beni-suef-weather",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59356",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Beni Suef Weather and Best Time to Visit — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/weather-in-al-quseir",
+      "destination": "/guide/al-quseir/weather-in-al-quseir",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/weather-in-al-quseir",
+        "destination": "/guide/al-quseir/weather-in-al-quseir",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58691",
+        "legacyUrl": "https://travel2egypt.org/weather-in-al-quseir/",
+        "documentType": "guideArticle",
+        "title": "Weather in Al-Quseir — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/como-evitar-estafas-en-las-piramides-de-giza",
+      "destination": "/es/blog/como-evitar-estafas-en-las-piramides-de-giza",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/como-evitar-estafas-en-las-piramides-de-giza",
+        "destination": "/es/blog/como-evitar-estafas-en-las-piramides-de-giza",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-155592-es",
+        "legacyUrl": "https://travel2egypt.org/how-to-avoid-scams-at-giza-pyramids/",
+        "documentType": "article",
+        "title": "Cómo evitar problemas en las pirámides de Guiza — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/faraones-del-reino-medio-logros-y-legado",
+      "destination": "/es/blog/faraones-del-reino-medio-logros-y-legado",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/faraones-del-reino-medio-logros-y-legado",
+        "destination": "/es/blog/faraones-del-reino-medio-logros-y-legado",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144345-es",
+        "legacyUrl": "https://travel2egypt.org/middle-kingdom-pharaohs/",
+        "documentType": "article",
+        "title": "Los faraones del Imperio Medio — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ベン・エズラ・シナゴーグ",
+      "destination": "/ja/wiki/monuments/ベン・エズラ・シナゴーグ",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ベン・エズラ・シナゴーグ",
+        "destination": "/ja/wiki/monuments/ベン・エズラ・シナゴーグ",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-96611",
+        "legacyUrl": "https://travel2egypt.org/ben-ezra-synagogue/",
+        "documentType": "wikiMonument",
+        "title": "ベン・エズラ・シナゴーグ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/wiki/monuments/sabil-de-muhammed-ali-pacha",
+      "destination": "/ja/wiki/monuments/ムハンマド・アリー・パシャのサビール",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/wiki/monuments/sabil-de-muhammed-ali-pacha",
+        "destination": "/ja/wiki/monuments/ムハンマド・アリー・パシャのサビール",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "ムハンマド・アリー・パシャのサビール — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/farafra-oasis-travel-guide",
+      "destination": "/guide/farafra-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/farafra-oasis-travel-guide",
+        "destination": "/guide/farafra-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58849",
+        "legacyUrl": "https://travel2egypt.org/farafra-oasis-travel-guide/",
+        "documentType": "city",
+        "title": "Farafra Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/four-seasons-hotel-cairo-first-residence",
+      "destination": "/hotels/four-seasons-hotel-cairo-first-residence",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/four-seasons-hotel-cairo-first-residence",
+        "destination": "/hotels/four-seasons-hotel-cairo-first-residence",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-63826",
+        "legacyUrl": "https://travel2egypt.org/four-seasons-hotel-cairo-first-residence/",
+        "documentType": "hotel",
+        "title": "Four Seasons Cairo at The First Residence, Giza — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/wadi-al-natron-travel-guide/monastery-of-st-pishoy",
+      "destination": "/wiki/monuments/monastery-of-st-pishoy",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/wadi-al-natron-travel-guide/monastery-of-st-pishoy",
+        "destination": "/wiki/monuments/monastery-of-st-pishoy",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60796",
+        "legacyUrl": "https://travel2egypt.org/monastery-of-st-pishoy/",
+        "documentType": "wikiMonument",
+        "title": "Monastery of St. Pishoy — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/eventos-en-el-cairo",
+      "destination": "/es/guide/el-cairo/eventos-en-el-cairo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/eventos-en-el-cairo",
+        "destination": "/es/guide/el-cairo/eventos-en-el-cairo",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59407",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Eventos en El Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/things-to-do-in-marsa-matruh",
+      "destination": "/guide/marsa-matruh/things-to-do-in-marsa-matruh",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/things-to-do-in-marsa-matruh",
+        "destination": "/guide/marsa-matruh/things-to-do-in-marsa-matruh",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-60230",
+        "legacyUrl": "https://travel2egypt.org/things-to-do-in-marsa-matruh/",
+        "documentType": "guideArticle",
+        "title": "Things to Do in Marsa Matruh — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/tips-for-first-time-family-visitors-to-egypt",
+      "destination": "/blog/tips-for-first-time-family-visitors-to-egypt",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/tips-for-first-time-family-visitors-to-egypt",
+        "destination": "/blog/tips-for-first-time-family-visitors-to-egypt",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-112208-en",
+        "legacyUrl": "https://travel2egypt.org/tips-for-first-time-family-visitors-to-egypt/",
+        "documentType": "article",
+        "title": "Before a First Family Trip to Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/historia-de-abu-simbel",
+      "destination": "/es/guide/abu-simbel/historia-de-abu-simbel",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/historia-de-abu-simbel",
+        "destination": "/es/guide/abu-simbel/historia-de-abu-simbel",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-56930",
+        "legacyUrl": "https://travel2egypt.org/abu-simbel-historical-overview/",
+        "documentType": "guideArticle",
+        "title": "Historia de Abu Simbel — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/how-to-go-to-nuweiba",
+      "destination": "/guide/nuweiba/how-to-go-to-nuweiba",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/how-to-go-to-nuweiba",
+        "destination": "/guide/nuweiba/how-to-go-to-nuweiba",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-225555",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Getting to Nuweiba — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/アスワンのフィラエ神殿",
+      "destination": "/ja/wiki/monuments/アスワンのフィラエ神殿",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/アスワンのフィラエ神殿",
+        "destination": "/ja/wiki/monuments/アスワンのフィラエ神殿",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-64915",
+        "legacyUrl": "https://travel2egypt.org/the-philae-temple/",
+        "documentType": "wikiMonument",
+        "title": "アスワンのフィラエ神殿 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/middle-kingdom-pharaohs",
+      "destination": "/blog/middle-kingdom-pharaohs",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/middle-kingdom-pharaohs",
+        "destination": "/blog/middle-kingdom-pharaohs",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-116015-en",
+        "legacyUrl": "https://travel2egypt.org/middle-kingdom-pharaohs/",
+        "documentType": "article",
+        "title": "The Middle Kingdom Pharaohs — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/cairo-largest-market-ataba",
+      "destination": "/es/blog/cairo-largest-market-ataba",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/cairo-largest-market-ataba",
+        "destination": "/es/blog/cairo-largest-market-ataba",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-154201-es",
+        "legacyUrl": "https://travel2egypt.org/cairo-largest-market-ataba/",
+        "documentType": "article",
+        "title": "El mercado de Ataba en El Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/メイドゥムのピラミッド",
+      "destination": "/ja/wiki/monuments/メイドゥムのピラミッド",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/メイドゥムのピラミッド",
+        "destination": "/ja/wiki/monuments/メイドゥムのピラミッド",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59381",
+        "legacyUrl": "https://travel2egypt.org/pyramid-of-meidum/",
+        "documentType": "wikiMonument",
+        "title": "メイドゥムのピラミッド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/la-historia-de-esna",
+      "destination": "/es/guide/esna/la-historia-de-esna",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/la-historia-de-esna",
+        "destination": "/es/guide/esna/la-historia-de-esna",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59603",
+        "legacyUrl": "https://travel2egypt.org/history-of-esna/",
+        "documentType": "guideArticle",
+        "title": "La Historia De Esna — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/hollywood-vs-history-egypt-in-the-movies",
+      "destination": "/blog/hollywood-vs-history-egypt-in-the-movies",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/hollywood-vs-history-egypt-in-the-movies",
+        "destination": "/blog/hollywood-vs-history-egypt-in-the-movies",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-1481-en",
+        "legacyUrl": "https://travel2egypt.org/hollywood-vs-history-egypt-in-the-movies/",
+        "documentType": "article",
+        "title": "Hollywood vs History - Egypt In The Movies — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/clima-en-el-oasis-de-bahariya",
+      "destination": "/es/guide/bahariya/clima-en-el-oasis-de-bahariya",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/clima-en-el-oasis-de-bahariya",
+        "destination": "/es/guide/bahariya/clima-en-el-oasis-de-bahariya",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58727",
+        "legacyUrl": "https://travel2egypt.org/weather-in-bahariya-oasis/",
+        "documentType": "guideArticle",
+        "title": "El Clima en el Oasis de Bahariya — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/como-moverse-en-dahab",
+      "destination": "/es/guide/dahab/como-moverse-en-dahab",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/como-moverse-en-dahab",
+        "destination": "/es/guide/dahab/como-moverse-en-dahab",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59423",
+        "legacyUrl": "https://travel2egypt.org/home/getting-around-dahab/",
+        "documentType": "guideArticle",
+        "title": "Cómo Moverse en Dahab — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/eventos-en-alejandria",
+      "destination": "/es/guide/alejandria/eventos-en-alejandria",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/eventos-en-alejandria",
+        "destination": "/es/guide/alejandria/eventos-en-alejandria",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59180",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Eventos en Alejandría — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/history-of-bahariya-oasis",
+      "destination": "/guide/bahariya-oasis/history-of-bahariya-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/history-of-bahariya-oasis",
+        "destination": "/guide/bahariya-oasis/history-of-bahariya-oasis",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59286",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "History of Bahariya Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/グレコ・ローマン博物館",
+      "destination": "/ja/wiki/monuments/グレコ・ローマン博物館",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/グレコ・ローマン博物館",
+        "destination": "/ja/wiki/monuments/グレコ・ローマン博物館",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59197",
+        "legacyUrl": "https://travel2egypt.org/the-greco-roman-museum/",
+        "documentType": "wikiMonument",
+        "title": "グレコ・ローマン博物館 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/faux-pas-to-avoid-in-egypt",
+      "destination": "/blog/faux-pas-to-avoid-in-egypt",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/faux-pas-to-avoid-in-egypt",
+        "destination": "/blog/faux-pas-to-avoid-in-egypt",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-1470-en",
+        "legacyUrl": "https://travel2egypt.org/faux-pas-to-avoid-in-egypt/",
+        "documentType": "article",
+        "title": "Avoiding Faux Pas in Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ケナ旅行ガイド/デンデラの神殿",
+      "destination": "/ja/wiki/monuments/デンデラの神殿",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ケナ旅行ガイド/デンデラの神殿",
+        "destination": "/ja/wiki/monuments/デンデラの神殿",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60683",
+        "legacyUrl": "https://travel2egypt.org/qena-travel-guide/the-temple-of-dendera/",
+        "documentType": "wikiMonument",
+        "title": "デンデラの神殿 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/clima-y-estaciones-en-kom-ombo",
+      "destination": "/es/guide/kom-ombo/clima-y-estaciones-en-kom-ombo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/clima-y-estaciones-en-kom-ombo",
+        "destination": "/es/guide/kom-ombo/clima-y-estaciones-en-kom-ombo",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-78374",
+        "legacyUrl": "https://travel2egypt.org/kom-ombo-travel-weather/",
+        "documentType": "guideArticle",
+        "title": "El Clima en Kom Ombo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/renaissance-sharm-el-sheikh-resort",
+      "destination": "/es/hotels/renaissance-sharm-el-sheikh-resort",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/renaissance-sharm-el-sheikh-resort",
+        "destination": "/es/hotels/renaissance-sharm-el-sheikh-resort",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-62469",
+        "legacyUrl": "https://travel2egypt.org/renaissance-sharm-el-sheikh-resort/",
+        "documentType": "hotel",
+        "title": "Renaissance Sharm El Sheikh Golden View Beach Resort — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/discover-beni-suef-history",
+      "destination": "/guide/beni-suef/discover-beni-suef-history",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/discover-beni-suef-history",
+        "destination": "/guide/beni-suef/discover-beni-suef-history",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59346",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Beni Suef History — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/egypt-transportation-tips",
+      "destination": "/blog/egypt-transportation-tips",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/egypt-transportation-tips",
+        "destination": "/blog/egypt-transportation-tips",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-206205-en",
+        "legacyUrl": "https://travel2egypt.org/egypt-transportation-tips/",
+        "documentType": "article",
+        "title": "Getting Around Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/donde-alojarse-en-kom-ombo",
+      "destination": "/es/guide/kom-ombo/donde-alojarse-en-kom-ombo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/donde-alojarse-en-kom-ombo",
+        "destination": "/es/guide/kom-ombo/donde-alojarse-en-kom-ombo",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-78376",
+        "legacyUrl": "https://travel2egypt.org/where-to-sleep-in-kom-ombo/",
+        "documentType": "guideArticle",
+        "title": "Dónde Alojarse en Kom Ombo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/remal-el-rayan-glamp-retiro-de-lujo-en-el-desierto-de-fayoum",
+      "destination": "/es/blog/remal-el-rayan-glamp-retiro-de-lujo-en-el-desierto-de-fayoum",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/remal-el-rayan-glamp-retiro-de-lujo-en-el-desierto-de-fayoum",
+        "destination": "/es/blog/remal-el-rayan-glamp-retiro-de-lujo-en-el-desierto-de-fayoum",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-248796-es",
+        "legacyUrl": "https://travel2egypt.org/remal-el-rayan-glamp/",
+        "documentType": "article",
+        "title": "Remal El Rayan Glamp — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/bahariya-and-siwa-oasis-vacation-from-india",
+      "destination": "/bahariya-and-siwa-oasis-vacation",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/bahariya-and-siwa-oasis-vacation-from-india",
+        "destination": "/bahariya-and-siwa-oasis-vacation",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-160129",
+        "legacyUrl": "https://travel2egypt.org/bahariya-and-siwa-oasis-vacation-from-india/",
+        "documentType": "tour",
+        "title": "7-Day Bahariya & Siwa Oasis Tour: Egypt's Western Desert — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/sinai-historical-sites",
+      "destination": "/blog/sinai-historical-sites",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/sinai-historical-sites",
+        "destination": "/blog/sinai-historical-sites",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-115504-en",
+        "legacyUrl": "https://travel2egypt.org/sinai-historical-sites/",
+        "documentType": "article",
+        "title": "Sinai Historical Sites — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/suez/como-moverse-en-suez",
+      "destination": "/ja/guide/suezu/suezu-e-no-iki-kata",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/suez/como-moverse-en-suez",
+        "destination": "/ja/guide/suezu/suezu-e-no-iki-kata",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "スエズへの行き方 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/discover-al-gouna-history",
+      "destination": "/guide/al-gouna/discover-al-gouna-history",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/discover-al-gouna-history",
+        "destination": "/guide/al-gouna/discover-al-gouna-history",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58793",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "El Gouna History — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/スルタン・カイトベイのモスク",
+      "destination": "/ja/wiki/monuments/スルタン・カイトベイのモスク",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/スルタン・カイトベイのモスク",
+        "destination": "/ja/wiki/monuments/スルタン・カイトベイのモスク",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-95558",
+        "legacyUrl": "https://travel2egypt.org/the-mosque-of-sultan-qaitbey/",
+        "documentType": "wikiMonument",
+        "title": "スルタン・カイトベイのモスク — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/大スフィンクス",
+      "destination": "/ja/wiki/monuments/大スフィンクス",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/大スフィンクス",
+        "destination": "/ja/wiki/monuments/大スフィンクス",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69925",
+        "legacyUrl": "https://travel2egypt.org/the-great-sphinx/",
+        "documentType": "wikiMonument",
+        "title": "大スフィンクス — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/egypt-package-deals",
+      "destination": "/blog/egypt-package-deals",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/egypt-package-deals",
+        "destination": "/blog/egypt-package-deals",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-153058-en",
+        "legacyUrl": "https://travel2egypt.org/egypt-package-deals/",
+        "documentType": "article",
+        "title": "How to Choose an Egypt Travel Package — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guia-de-seguridad-para-viajeros-en-egipto-2025-2026",
+      "destination": "/es/blog/guia-de-seguridad-para-viajeros-en-egipto-2025-2026",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guia-de-seguridad-para-viajeros-en-egipto-2025-2026",
+        "destination": "/es/blog/guia-de-seguridad-para-viajeros-en-egipto-2025-2026",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-249325-es",
+        "legacyUrl": "https://travel2egypt.org/safety-guide-for-travelers-to-egypt/",
+        "documentType": "article",
+        "title": "Guía de seguridad para viajar a Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/fue-enterrado-el-rey-tut-en-una-piramide",
+      "destination": "/es/blog/fue-enterrado-el-rey-tut-en-una-piramide",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/fue-enterrado-el-rey-tut-en-una-piramide",
+        "destination": "/es/blog/fue-enterrado-el-rey-tut-en-una-piramide",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-236063-es",
+        "legacyUrl": "https://travel2egypt.org/was-king-tut-buried-in-a-pyramid/",
+        "documentType": "article",
+        "title": "¿Fue enterrado el rey Tut en una pirámide? — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/al-arish-travel-guide",
+      "destination": "/guide/al-arish",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/al-arish-travel-guide",
+        "destination": "/guide/al-arish",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58567",
+        "legacyUrl": "https://travel2egypt.org/al-arish-travel-guide/",
+        "documentType": "city",
+        "title": "Al Arish — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/el-cairo/mezquita-de-aqsunur",
+      "destination": "/es/wiki/monuments/mezquita-de-aqsunur",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guide/el-cairo/mezquita-de-aqsunur",
+        "destination": "/es/wiki/monuments/mezquita-de-aqsunur",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63517",
+        "legacyUrl": "https://travel2egypt.org/aqsunur-mosque/",
+        "documentType": "wikiMonument",
+        "title": "Mezquita de Aqsunur — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ギザ旅行ガイド/屈折ピラミッド",
+      "destination": "/ja/wiki/monuments/屈折ピラミッド",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ギザ旅行ガイド/屈折ピラミッド",
+        "destination": "/ja/wiki/monuments/屈折ピラミッド",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69917",
+        "legacyUrl": "https://travel2egypt.org/the-bent-pyramid/",
+        "documentType": "wikiMonument",
+        "title": "屈折ピラミッド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/where-to-stay-in-suez",
+      "destination": "/guide/suez/where-to-stay-in-suez",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/where-to-stay-in-suez",
+        "destination": "/guide/suez/where-to-stay-in-suez",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-60559",
+        "legacyUrl": "https://travel2egypt.org/where-to-stay-in-suez/",
+        "documentType": "guideArticle",
+        "title": "Where To Stay In Suez — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/discover-siwa-oasis",
+      "destination": "/blog/discover-siwa-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/discover-siwa-oasis",
+        "destination": "/blog/discover-siwa-oasis",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-137052-en",
+        "legacyUrl": "https://travel2egypt.org/discover-siwa-oasis/",
+        "documentType": "article",
+        "title": "Discover Siwa Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/festin-en-luxor",
+      "destination": "/es/guide/luxor/festin-en-luxor",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/festin-en-luxor",
+        "destination": "/es/guide/luxor/festin-en-luxor",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60657",
+        "legacyUrl": "https://travel2egypt.org/top-restaurants-in-luxor/",
+        "documentType": "guideArticle",
+        "title": "Festín en Luxor — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/things-to-do-in-port-said",
+      "destination": "/guide/port-said/things-to-do-in-port-said",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/things-to-do-in-port-said",
+        "destination": "/guide/port-said/things-to-do-in-port-said",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-60351",
+        "legacyUrl": "https://travel2egypt.org/things-to-do-in-port-said/",
+        "documentType": "guideArticle",
+        "title": "Things to Do in Port Said — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/cairo-weekend-escape-3-days-to-remember",
+      "destination": "/blog/cairo-weekend-escape-3-days-to-remember",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/cairo-weekend-escape-3-days-to-remember",
+        "destination": "/blog/cairo-weekend-escape-3-days-to-remember",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-257597-en",
+        "legacyUrl": "https://travel2egypt.org/cairo-weekend-escape-3-days-to-remember/",
+        "documentType": "article",
+        "title": "Three Days in Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/aswan-travel-guide/only-here-in-aswan",
+      "destination": "/guide/aswan/only-here-in-aswan",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/aswan-travel-guide/only-here-in-aswan",
+        "destination": "/guide/aswan/only-here-in-aswan",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59213",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Only in Aswan — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/siwa-salt-lakes",
+      "destination": "/blog/siwa-salt-lakes",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/siwa-salt-lakes",
+        "destination": "/blog/siwa-salt-lakes",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-153508-en",
+        "legacyUrl": "https://travel2egypt.org/siwa-salt-lakes/",
+        "documentType": "article",
+        "title": "Siwa's Salt Lakes — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/things-to-do-in-abu-simbel",
+      "destination": "/guide/abu-simbel/things-to-do-in-abu-simbel",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/things-to-do-in-abu-simbel",
+        "destination": "/guide/abu-simbel/things-to-do-in-abu-simbel",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-57828",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Things to Do in Abu Simbel — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/weather-in-saint-catherine",
+      "destination": "/guide/saint-catherine/weather-in-saint-catherine",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/weather-in-saint-catherine",
+        "destination": "/guide/saint-catherine/weather-in-saint-catherine",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-60457",
+        "legacyUrl": "https://travel2egypt.org/weather-in-saint-catherine/",
+        "documentType": "guideArticle",
+        "title": "Weather in Saint Catherine — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/best-time-to-cruise-the-nile",
+      "destination": "/blog/best-time-to-cruise-the-nile",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/best-time-to-cruise-the-nile",
+        "destination": "/blog/best-time-to-cruise-the-nile",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-112770-en",
+        "legacyUrl": "https://travel2egypt.org/best-time-to-cruise-the-nile/",
+        "documentType": "article",
+        "title": "The Best Time to Cruise the Nile — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/アレクサンドリア旅行ガイド/グレコ・ローマン博物館",
+      "destination": "/ja/wiki/monuments/グレコ・ローマン博物館",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/アレクサンドリア旅行ガイド/グレコ・ローマン博物館",
+        "destination": "/ja/wiki/monuments/グレコ・ローマン博物館",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59197",
+        "legacyUrl": "https://travel2egypt.org/the-greco-roman-museum/",
+        "documentType": "wikiMonument",
+        "title": "グレコ・ローマン博物館 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/viajes-de-juni",
+      "destination": "/es/blog/viajes-de-juni",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/viajes-de-juni",
+        "destination": "/es/blog/viajes-de-juni",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144434-es",
+        "legacyUrl": "https://travel2egypt.org/june-journeys-exploring-egypt-in-early-summer/",
+        "documentType": "article",
+        "title": "Cómo viajar por Egipto en junio — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/バドル博物館",
+      "destination": "/ja/wiki/monuments/バドル博物館",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/バドル博物館",
+        "destination": "/ja/wiki/monuments/バドル博物館",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59652",
+        "legacyUrl": "https://travel2egypt.org/badrs-museum/",
+        "documentType": "wikiMonument",
+        "title": "バドル博物館 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/suez/story-of-suez",
+      "destination": "/ja/guide/suezu/rekishi-ni-irodora-re-ta-suezu-no-machi-nami",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/suez/story-of-suez",
+        "destination": "/ja/guide/suezu/rekishi-ni-irodora-re-ta-suezu-no-machi-nami",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "歴史に彩られたスエズの街並み — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/food-in-saint-catherine",
+      "destination": "/guide/saint-catherine/food-in-saint-catherine",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/food-in-saint-catherine",
+        "destination": "/guide/saint-catherine/food-in-saint-catherine",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-60463",
+        "legacyUrl": "https://travel2egypt.org/food-in-saint-catherine/",
+        "documentType": "guideArticle",
+        "title": "Food in Saint Catherine — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/getting-around-in-al-gouna",
+      "destination": "/guide/al-gouna/getting-around-in-al-gouna",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/getting-around-in-al-gouna",
+        "destination": "/guide/al-gouna/getting-around-in-al-gouna",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58802",
+        "legacyUrl": "https://travel2egypt.org/getting-around-in-al-gouna/",
+        "documentType": "guideArticle",
+        "title": "Getting Around in Al Gouna — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/food-in-al-quseir",
+      "destination": "/guide/al-quseir/food-in-al-quseir",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/food-in-al-quseir",
+        "destination": "/guide/al-quseir/food-in-al-quseir",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58703",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Where to Eat in Al Quseir — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/wiki/monuments/tomb-of-mereruka",
+      "destination": "/es/wiki/monuments/tumba-de-mereruka",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/wiki/monuments/tomb-of-mereruka",
+        "destination": "/es/wiki/monuments/tumba-de-mereruka",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "Tumba de Mereruka — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/hurghada",
+      "destination": "/ja/guide/harugada",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/hurghada",
+        "destination": "/ja/guide/harugada",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "ハルガダ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/getting-around-in-marsa-alam",
+      "destination": "/guide/marsa-alam/getting-around-in-marsa-alam",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/getting-around-in-marsa-alam",
+        "destination": "/guide/marsa-alam/getting-around-in-marsa-alam",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-78399",
+        "legacyUrl": "https://travel2egypt.org/getting-around-in-marsa-alam/",
+        "documentType": "guideArticle",
+        "title": "Getting Around In Marsa Alam — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/como-ir-a-esna",
+      "destination": "/es/guide/esna/como-ir-a-esna",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/como-ir-a-esna",
+        "destination": "/es/guide/esna/como-ir-a-esna",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-68016",
+        "legacyUrl": "https://travel2egypt.org/how-to-go-to-esna/",
+        "documentType": "guideArticle",
+        "title": "Cómo ir a Esna — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/historicos-de-egipto",
+      "destination": "/es/blog/historicos-de-egipto",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/historicos-de-egipto",
+        "destination": "/es/blog/historicos-de-egipto",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144341-es",
+        "legacyUrl": "https://travel2egypt.org/places-in-egypt/",
+        "documentType": "article",
+        "title": "Lugares históricos que ver en Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/wiki/monuments/アスワン博物館",
+      "destination": "/es/wiki/monuments/el-museo-de-asuan",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/wiki/monuments/アスワン博物館",
+        "destination": "/es/wiki/monuments/el-museo-de-asuan",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "El Museo de Asuán — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/getting-around-in-kharga-oasis",
+      "destination": "/guide/kharga-oasis/getting-around-in-kharga-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/getting-around-in-kharga-oasis",
+        "destination": "/guide/kharga-oasis/getting-around-in-kharga-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59733",
+        "legacyUrl": "https://travel2egypt.org/getting-around-in-kharga-oasis/",
+        "documentType": "guideArticle",
+        "title": "Getting Around In Kharga Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/tolip-aswan-hotel",
+      "destination": "/hotels/tolip-aswan-hotel",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/tolip-aswan-hotel",
+        "destination": "/hotels/tolip-aswan-hotel",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-64016",
+        "legacyUrl": "https://travel2egypt.org/tolip-aswan-hotel/",
+        "documentType": "hotel",
+        "title": "Tolip Aswan Hotel (formerly Helnan Aswan) — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/things-to-do-in-nuweiba",
+      "destination": "/guide/nuweiba/things-to-do-in-nuweiba",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/things-to-do-in-nuweiba",
+        "destination": "/guide/nuweiba/things-to-do-in-nuweiba",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-60301",
+        "legacyUrl": "https://travel2egypt.org/things-to-do-in-nuweiba/",
+        "documentType": "guideArticle",
+        "title": "Things to Do in Nuweiba — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guia-de-viaje-de-el-cairo/iglesia-de-san-sergio-y-baco",
+      "destination": "/es/wiki/monuments/iglesia-de-san-sergio-y-baco",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guia-de-viaje-de-el-cairo/iglesia-de-san-sergio-y-baco",
+        "destination": "/es/wiki/monuments/iglesia-de-san-sergio-y-baco",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63610",
+        "legacyUrl": "https://travel2egypt.org/church-of-st-sergius-bacchus/",
+        "documentType": "wikiMonument",
+        "title": "Iglesia de San Sergio y Baco — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/sohag/guia-de-hoteles-de-sohag",
+      "destination": "/ja/guide/sohagu/sohagu-no-taizai-saki-gaido",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/sohag/guia-de-hoteles-de-sohag",
+        "destination": "/ja/guide/sohagu/sohagu-no-taizai-saki-gaido",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "ソハーグの滞在先ガイド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/only-here-in-aswan",
+      "destination": "/guide/aswan/only-here-in-aswan",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/only-here-in-aswan",
+        "destination": "/guide/aswan/only-here-in-aswan",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59213",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Only in Aswan — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/la-historia-del-oasis-de-kharga",
+      "destination": "/es/guide/kharga/la-historia-del-oasis-de-kharga",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/la-historia-del-oasis-de-kharga",
+        "destination": "/es/guide/kharga/la-historia-del-oasis-de-kharga",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-78361",
+        "legacyUrl": "https://travel2egypt.org/kharga-oasis-history/",
+        "documentType": "guideArticle",
+        "title": "La Historia del Oasis de Kharga — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/hilton-alexandria-green-plaza",
+      "destination": "/es/hotels/hilton-alexandria-green-plaza",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/hilton-alexandria-green-plaza",
+        "destination": "/es/hotels/hilton-alexandria-green-plaza",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-61923",
+        "legacyUrl": "https://travel2egypt.org/hilton-alexandria-green-plaza/",
+        "documentType": "hotel",
+        "title": "Hilton Alexandria Green Plaza: el hotel de negocios y eventos — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto",
+      "destination": "/es/blog/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto",
+        "destination": "/es/blog/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144451-es",
+        "legacyUrl": "https://travel2egypt.org/2-weeks-egypt-tour-itinerary/",
+        "documentType": "article",
+        "title": "Itinerario de dos semanas por Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ソハーグ旅行ガイド/アビドス神殿",
+      "destination": "/ja/wiki/monuments/アビドス神殿",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ソハーグ旅行ガイド/アビドス神殿",
+        "destination": "/ja/wiki/monuments/アビドス神殿",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60788",
+        "legacyUrl": "https://travel2egypt.org/abydos-temple/",
+        "documentType": "wikiMonument",
+        "title": "アビドス神殿 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/sohag/sohag-weather-guide",
+      "destination": "/ja/guide/sohagu/sohagu-no-tenko-joho",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/sohag/sohag-weather-guide",
+        "destination": "/ja/guide/sohagu/sohagu-no-tenko-joho",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "ソハーグの気候ガイド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/hilton-luxor-resort-spa",
+      "destination": "/hotels/hilton-luxor-resort-spa",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/hilton-luxor-resort-spa",
+        "destination": "/hotels/hilton-luxor-resort-spa",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-63552",
+        "legacyUrl": "https://travel2egypt.org/hilton-luxor-resort-spa/",
+        "documentType": "hotel",
+        "title": "Hilton Luxor Resort & Spa: The Largest Nile Frontage — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/デイル・アル・スリアーニ-シリア修道院",
+      "destination": "/ja/wiki/monuments/デイル・アル・スリアーニ-シリア修道院",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/デイル・アル・スリアーニ-シリア修道院",
+        "destination": "/ja/wiki/monuments/デイル・アル・スリアーニ-シリア修道院",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60798",
+        "legacyUrl": "https://travel2egypt.org/syrian-monastery/",
+        "documentType": "wikiMonument",
+        "title": "デイル・アル・スリアーニ（シリア修道院） — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/upcoming-events-in-abu-simbel",
+      "destination": "/guide/abu-simbel/upcoming-events-in-abu-simbel",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/upcoming-events-in-abu-simbel",
+        "destination": "/guide/abu-simbel/upcoming-events-in-abu-simbel",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-57848",
+        "legacyUrl": "https://travel2egypt.org/upcoming-events-in-abu-simbel/",
+        "documentType": "guideArticle",
+        "title": "Upcoming Events In Abu Simbel — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/カイロ旅行ガイド/ガイヤー・アンダーソン博物館",
+      "destination": "/ja/wiki/monuments/ガイヤー・アンダーソン博物館",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/カイロ旅行ガイド/ガイヤー・アンダーソン博物館",
+        "destination": "/ja/wiki/monuments/ガイヤー・アンダーソン博物館",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63476",
+        "legacyUrl": "https://travel2egypt.org/gayer-anderson-museum/",
+        "documentType": "wikiMonument",
+        "title": "ガイヤー・アンダーソン博物館 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/アルファイユーム旅行ガイド/ハワラのピラミッド",
+      "destination": "/ja/wiki/monuments/ハワラのピラミッド",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/アルファイユーム旅行ガイド/ハワラのピラミッド",
+        "destination": "/ja/wiki/monuments/ハワラのピラミッド",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-61545",
+        "legacyUrl": "https://travel2egypt.org/the-pyramid-of-hawara/",
+        "documentType": "wikiMonument",
+        "title": "ハワラのピラミッド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/catherine-plaza-hotel",
+      "destination": "/es/hotels/catherine-plaza-hotel",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/catherine-plaza-hotel",
+        "destination": "/es/hotels/catherine-plaza-hotel",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-62455",
+        "legacyUrl": "https://travel2egypt.org/catherine-plaza-hotel/",
+        "documentType": "hotel",
+        "title": "Catherine Plaza Hotel, Santa Catalina, Sinaí del Sur — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/hurghada",
+      "destination": "/guide/hurghada",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/hurghada",
+        "destination": "/guide/hurghada",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58859",
+        "legacyUrl": "https://travel2egypt.org/hurghada-travel-guide/",
+        "documentType": "city",
+        "title": "Hurghada — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/guide/marusa-aramu/marusaaramu-de-no-ido-hoho",
+      "destination": "/guide/marsa-alam/getting-around-in-marsa-alam",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/guide/marusa-aramu/marusaaramu-de-no-ido-hoho",
+        "destination": "/guide/marsa-alam/getting-around-in-marsa-alam",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "Getting Around In Marsa Alam — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/meraki-resort-sharm-el-sheikh-adults-only",
+      "destination": "/hotels/meraki-resort-sharm-el-sheikh-adults-only",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/meraki-resort-sharm-el-sheikh-adults-only",
+        "destination": "/hotels/meraki-resort-sharm-el-sheikh-adults-only",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-63589",
+        "legacyUrl": "https://travel2egypt.org/meraki-resort-sharm-el-sheikh-adults-only/",
+        "documentType": "hotel",
+        "title": "Meraki Resort Sharm El Sheikh: Adults-Only at Ras Nasrani — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/marsa-matruh",
+      "destination": "/ja/guide/marusa-matorufu",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/marsa-matruh",
+        "destination": "/ja/guide/marusa-matorufu",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "マルサ・マトルーフ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/giza-travel-guide/abusir-pyramid-of-neferirkare",
+      "destination": "/wiki/monuments/abusir-pyramid-of-neferirkare",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/giza-travel-guide/abusir-pyramid-of-neferirkare",
+        "destination": "/wiki/monuments/abusir-pyramid-of-neferirkare",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69929",
+        "legacyUrl": "https://travel2egypt.org/abusir-pyramid-of-neferirkare/",
+        "documentType": "wikiMonument",
+        "title": "Abusir Pyramid Of Neferirkare — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/saint-catherine",
+      "destination": "/ja/guide/sei-katarina",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/saint-catherine",
+        "destination": "/ja/guide/sei-katarina",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "聖カタリナ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/ras-sudr/lugares-de-ras-sudr",
+      "destination": "/ja/guide/rasu-sedoru/rasusudoru-no-midokoro",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/ras-sudr/lugares-de-ras-sudr",
+        "destination": "/ja/guide/rasu-sedoru/rasusudoru-no-midokoro",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "ラス・スドルの見どころ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/el-cairo/el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo",
+      "destination": "/ja/guide/kairo/ejiputo-no-kokoro-kairo-de-no-hikken-akutibiti",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/el-cairo/el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo",
+        "destination": "/ja/guide/kairo/ejiputo-no-kokoro-kairo-de-no-hikken-akutibiti",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "エジプトの心：カイロでの必見アクティビティ — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/黒いピラミッド",
+      "destination": "/ja/wiki/monuments/黒いピラミッド",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/黒いピラミッド",
+        "destination": "/ja/wiki/monuments/黒いピラミッド",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69919",
+        "legacyUrl": "https://travel2egypt.org/the-black-pyramid/",
+        "documentType": "wikiMonument",
+        "title": "黒いピラミッド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/donde-esta-tutankamon-ahora",
+      "destination": "/es/blog/donde-esta-tutankamon-ahora",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/donde-esta-tutankamon-ahora",
+        "destination": "/es/blog/donde-esta-tutankamon-ahora",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-236149-es",
+        "legacyUrl": "https://travel2egypt.org/where-is-tutankhamun-now/",
+        "documentType": "article",
+        "title": "¿Dónde está Tutankamón ahora? ¿Qué hay en Luxor y qué hay en El Cairo? — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/gastronomia-de-kom-ombo",
+      "destination": "/es/guide/kom-ombo/gastronomia-de-kom-ombo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/gastronomia-de-kom-ombo",
+        "destination": "/es/guide/kom-ombo/gastronomia-de-kom-ombo",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-78380",
+        "legacyUrl": "https://travel2egypt.org/what-to-eat-in-kom-ombo/",
+        "documentType": "guideArticle",
+        "title": "Gastronomía de Kom Ombo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/wiki/monuments/mezquita-de-sayyidna-al-hussein",
+      "destination": "/wiki/monuments/mosque-of-sayyidna-al-hussein",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/wiki/monuments/mezquita-de-sayyidna-al-hussein",
+        "destination": "/wiki/monuments/mosque-of-sayyidna-al-hussein",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "Mosque of Sayyidna al-Hussein — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/egypt-best-hotels-and-nile-cruises/ramses-hilton-cairo-hotel",
+      "destination": "/hotels/ramses-hilton-cairo-hotel",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/egypt-best-hotels-and-nile-cruises/ramses-hilton-cairo-hotel",
+        "destination": "/hotels/ramses-hilton-cairo-hotel",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63678",
+        "legacyUrl": "https://travel2egypt.org/ramses-hilton-cairo-hotel/",
+        "documentType": "hotel",
+        "title": "Ramses Hilton Cairo: Closest Hotel to the Egyptian Museum — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guia-de-viaje-de-asuan/isla-elefantina",
+      "destination": "/es/wiki/monuments/isla-elefantina",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guia-de-viaje-de-asuan/isla-elefantina",
+        "destination": "/es/wiki/monuments/isla-elefantina",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59227",
+        "legacyUrl": "https://travel2egypt.org/elephantine-island/",
+        "documentType": "wikiMonument",
+        "title": "Isla Elefantina — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/como-moverse-por-egipto",
+      "destination": "/es/blog/como-moverse-por-egipto",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/como-moverse-por-egipto",
+        "destination": "/es/blog/como-moverse-por-egipto",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-236796-es",
+        "legacyUrl": "https://travel2egypt.org/egypt-transportation-tips/",
+        "documentType": "article",
+        "title": "Cómo moverse por Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/egypt-travel-guide/saint-catherine",
+      "destination": "/guide/saint-catherine",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/egypt-travel-guide/saint-catherine",
+        "destination": "/guide/saint-catherine",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58925",
+        "legacyUrl": "https://travel2egypt.org/saint-catherine-travel-guide/",
+        "documentType": "city",
+        "title": "Saint Catherine — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/hospitales-locales-en-egipto-costos-y-atencion-medica",
+      "destination": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/hospitales-locales-en-egipto-costos-y-atencion-medica",
+        "destination": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-154663-es",
+        "legacyUrl": "https://travel2egypt.org/local-hospitals-in-egypt/",
+        "documentType": "article",
+        "title": "Qué hacer si necesitas un hospital en Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ticket-prices-for-attractions-in-alexandria",
+      "destination": "/guide/alexandria/ticket-prices-for-attractions-in-alexandria",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ticket-prices-for-attractions-in-alexandria",
+        "destination": "/guide/alexandria/ticket-prices-for-attractions-in-alexandria",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-72292",
+        "legacyUrl": "https://travel2egypt.org/ticket-prices-for-attractions-in-alexandria/",
+        "documentType": "guideArticle",
+        "title": "Ticket Prices for Attractions in Alexandria — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/guide/alejandria/faro-de-alejandria",
+      "destination": "/guide/alexandria/pharos-lighthouse",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/guide/alejandria/faro-de-alejandria",
+        "destination": "/guide/alexandria/pharos-lighthouse",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "The Pharos Lighthouse — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/camino-a-kom-ombo",
+      "destination": "/es/guide/kom-ombo/camino-a-kom-ombo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/camino-a-kom-ombo",
+        "destination": "/es/guide/kom-ombo/camino-a-kom-ombo",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60624",
+        "legacyUrl": "https://travel2egypt.org/arrival-in-kom-ombo/",
+        "documentType": "guideArticle",
+        "title": "Camino a Kom Ombo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/pack-for-a-dahabiya-nile-cruise-journey",
+      "destination": "/blog/pack-for-a-dahabiya-nile-cruise-journey",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/pack-for-a-dahabiya-nile-cruise-journey",
+        "destination": "/blog/pack-for-a-dahabiya-nile-cruise-journey",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-114388-en",
+        "legacyUrl": "https://travel2egypt.org/pack-for-a-dahabiya-nile-cruise-journey/",
+        "documentType": "article",
+        "title": "Packing for a Dahabiya Nile Cruise — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/experience-egypt-in-7-days",
+      "destination": "/blog/experience-egypt-in-7-days",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/experience-egypt-in-7-days",
+        "destination": "/blog/experience-egypt-in-7-days",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-136621-en",
+        "legacyUrl": "https://travel2egypt.org/experience-egypt-in-7-days/",
+        "documentType": "article",
+        "title": "Seven Days in Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/7-cosas-inolvidables-que-hacer-en-aswan",
+      "destination": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/7-cosas-inolvidables-que-hacer-en-aswan",
+        "destination": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144324-es",
+        "legacyUrl": "https://travel2egypt.org/7-unforgettable-to-do-in-aswan/",
+        "documentType": "article",
+        "title": "7 Cosas inolvidables que hacer en Aswan — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/beni-suef-travel-guide",
+      "destination": "/guide/beni-suef",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/beni-suef-travel-guide",
+        "destination": "/guide/beni-suef",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58776",
+        "legacyUrl": "https://travel2egypt.org/beni-suef-travel-guide/",
+        "documentType": "city",
+        "title": "Beni Suef — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/edfu-travel-guide",
+      "destination": "/guide/edfu",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/edfu-travel-guide",
+        "destination": "/guide/edfu",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58841",
+        "legacyUrl": "https://travel2egypt.org/edfu-travel-guide/",
+        "documentType": "city",
+        "title": "Edfu — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/kairo/kairo-no-tenki-to-kion",
+      "destination": "/es/guide/el-cairo/clima-en-el-cairo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guide/kairo/kairo-no-tenki-to-kion",
+        "destination": "/es/guide/el-cairo/clima-en-el-cairo",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "El Clima en El Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/クフ王のピラミッド",
+      "destination": "/ja/wiki/monuments/クフ王のピラミッド",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/クフ王のピラミッド",
+        "destination": "/ja/wiki/monuments/クフ王のピラミッド",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69922",
+        "legacyUrl": "https://travel2egypt.org/pyramid-of-khufu/",
+        "documentType": "wikiMonument",
+        "title": "クフ王のピラミッド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/how-to-go-to-dakhla-oasis",
+      "destination": "/guide/dakhla-oasis/how-to-go-to-dakhla-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/how-to-go-to-dakhla-oasis",
+        "destination": "/guide/dakhla-oasis/how-to-go-to-dakhla-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59506",
+        "legacyUrl": "https://travel2egypt.org/how-to-go-to-dakhla-oasis/",
+        "documentType": "guideArticle",
+        "title": "How To Go To Dakhla Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/hurghada-travel-guide/hurghada-travel-weather",
+      "destination": "/guide/hurghada/hurghada-travel-weather",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/hurghada-travel-guide/hurghada-travel-weather",
+        "destination": "/guide/hurghada/hurghada-travel-weather",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59689",
+        "legacyUrl": "https://travel2egypt.org/hurghada-travel-weather/",
+        "documentType": "guideArticle",
+        "title": "Weather in Hurghada — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ファラオ島",
+      "destination": "/ja/wiki/monuments/ファラオ島",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ファラオ島",
+        "destination": "/ja/wiki/monuments/ファラオ島",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-64735",
+        "legacyUrl": "https://travel2egypt.org/pharaoh-island/",
+        "documentType": "wikiMonument",
+        "title": "ファラオ島 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/weather-in-aswan",
+      "destination": "/guide/aswan/weather-in-aswan",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/weather-in-aswan",
+        "destination": "/guide/aswan/weather-in-aswan",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59983",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Aswan Weather and Best Time to Visit — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/tours/hurghada/private-tour-transfer-from-hurghada-to-luxor",
+      "destination": "/private-tour-transfer-from-hurghada-to-luxor",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/tours/hurghada/private-tour-transfer-from-hurghada-to-luxor",
+        "destination": "/private-tour-transfer-from-hurghada-to-luxor",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-88561",
+        "legacyUrl": "https://travel2egypt.org/private-tour-transfer-from-hurghada-to-luxor/",
+        "documentType": "tour",
+        "title": "Private Transfer from Hurghada to Luxor — Two Cities, One Road — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/el-cairo-3-dias-para-recordar",
+      "destination": "/es/blog/el-cairo-3-dias-para-recordar",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/el-cairo-3-dias-para-recordar",
+        "destination": "/es/blog/el-cairo-3-dias-para-recordar",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-154945-es",
+        "legacyUrl": "https://travel2egypt.org/cairo-weekend-escape-3-days-to-remember/",
+        "documentType": "article",
+        "title": "Tres días en El Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/national-museum-of-egyptian",
+      "destination": "/blog/national-museum-of-egyptian",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/national-museum-of-egyptian",
+        "destination": "/blog/national-museum-of-egyptian",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-239081-en",
+        "legacyUrl": "https://travel2egypt.org/national-museum-of-egyptian/",
+        "documentType": "article",
+        "title": "The National Museum of Egyptian Civilization (NMEC), Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/アブシールにあるサフラ王のピラミッド",
+      "destination": "/ja/wiki/monuments/アブシールにあるサフラ王のピラミッド",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/アブシールにあるサフラ王のピラミッド",
+        "destination": "/ja/wiki/monuments/アブシールにあるサフラ王のピラミッド",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69932",
+        "legacyUrl": "https://travel2egypt.org/abusir-pyramid-of-sahure/",
+        "documentType": "wikiMonument",
+        "title": "アブシールにあるサフラ王のピラミッド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/guide/kom-ombo/el-templo-de-kom-ombo-el-templo-doble-del-nilo",
+      "destination": "/guide/kom-ombo/the-temple-of-kom-ombo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/guide/kom-ombo/el-templo-de-kom-ombo-el-templo-doble-del-nilo",
+        "destination": "/guide/kom-ombo/the-temple-of-kom-ombo",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "The Temple Of Kom Ombo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guias-de-viajes-de-aventura",
+      "destination": "/es/blog/guias-de-viajes-de-aventura",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guias-de-viajes-de-aventura",
+        "destination": "/es/blog/guias-de-viajes-de-aventura",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-209810-es",
+        "legacyUrl": "https://travel2egypt.org/adventure-travel-guides/",
+        "documentType": "article",
+        "title": "7 Consejos de Guías de Viajes de Aventura para una Expedición Emocionante — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/egypt-winter-holidays",
+      "destination": "/blog/egypt-winter-holidays",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/egypt-winter-holidays",
+        "destination": "/blog/egypt-winter-holidays",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-154927-en",
+        "legacyUrl": "https://travel2egypt.org/egypt-winter-holidays/",
+        "documentType": "article",
+        "title": "Egypt in Winter — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/getting-around-in-dakhla-oasis",
+      "destination": "/guide/dakhla-oasis/getting-around-in-dakhla-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/getting-around-in-dakhla-oasis",
+        "destination": "/guide/dakhla-oasis/getting-around-in-dakhla-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59481",
+        "legacyUrl": "https://travel2egypt.org/getting-around-in-dakhla-oasis/",
+        "documentType": "guideArticle",
+        "title": "Getting Around In Dakhla Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/kom-ombo/el-templo-de-kom-ombo-el-templo-doble-del-nilo",
+      "destination": "/ja/guide/komu-ombo/komuombo-shinden",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/kom-ombo/el-templo-de-kom-ombo-el-templo-doble-del-nilo",
+        "destination": "/ja/guide/komu-ombo/komuombo-shinden",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "コム・オンボ神殿 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/shiwa-oashisu/dakururu-san",
+      "destination": "/es/guide/siwa/montana-dakrour",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guide/shiwa-oashisu/dakururu-san",
+        "destination": "/es/guide/siwa/montana-dakrour",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "montaña Dakrour — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/カイロ旅行ガイド/サラディンの城塞",
+      "destination": "/ja/wiki/monuments/サラディンの城塞",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/カイロ旅行ガイド/サラディンの城塞",
+        "destination": "/ja/wiki/monuments/サラディンの城塞",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63491",
+        "legacyUrl": "https://travel2egypt.org/the-citadel-of-saladin/",
+        "documentType": "wikiMonument",
+        "title": "サラディンの城塞 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/guide/esna/comida-en-esna",
+      "destination": "/guide/esna/food-in-esna",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/guide/esna/comida-en-esna",
+        "destination": "/guide/esna/food-in-esna",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "Food in Esna — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/wadi-feiran-un-viaje-por-el-antiguo-valle-del-sinai",
+      "destination": "/es/blog/wadi-feiran-un-viaje-por-el-antiguo-valle-del-sinai",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/wadi-feiran-un-viaje-por-el-antiguo-valle-del-sinai",
+        "destination": "/es/blog/wadi-feiran-un-viaje-por-el-antiguo-valle-del-sinai",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-249391-es",
+        "legacyUrl": "https://travel2egypt.org/wadi-feiran/",
+        "documentType": "article",
+        "title": "Wadi Feiran: agua, fe y memoria en el Sinaí — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/アブ・ロアシュ：ジェデフラー王のピラミッド",
+      "destination": "/ja/wiki/monuments/アブ・ロアシュ：ジェデフラー王のピラミッド",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/アブ・ロアシュ：ジェデフラー王のピラミッド",
+        "destination": "/ja/wiki/monuments/アブ・ロアシュ：ジェデフラー王のピラミッド",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69954",
+        "legacyUrl": "https://travel2egypt.org/abu-rawash-pyramid-of-djedefre/",
+        "documentType": "wikiMonument",
+        "title": "アブ・ロアシュ：ジェデフラー王のピラミッド — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/royal-maxim-palace-kempinski-cairo",
+      "destination": "/hotels/royal-maxim-palace-kempinski-cairo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/royal-maxim-palace-kempinski-cairo",
+        "destination": "/hotels/royal-maxim-palace-kempinski-cairo",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-63683",
+        "legacyUrl": "https://travel2egypt.org/royal-maxim-palace-kempinski-cairo/",
+        "documentType": "hotel",
+        "title": "Royal Maxim Palace Kempinski Cairo: New Cairo Luxury — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/egypt-travel-guide/beni-suef/while-you-are-there/places-to-go/pyramid-of-meidum",
+      "destination": "/wiki/monuments/pyramid-of-meidum",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/egypt-travel-guide/beni-suef/while-you-are-there/places-to-go/pyramid-of-meidum",
+        "destination": "/wiki/monuments/pyramid-of-meidum",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59381",
+        "legacyUrl": "https://travel2egypt.org/pyramid-of-meidum/",
+        "documentType": "wikiMonument",
+        "title": "Pyramid of Meidum — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/como-es-el-clima-en-al-wadi-al-gadid",
+      "destination": "/es/guide/al-wadi-al-gadid/como-es-el-clima-en-al-wadi-al-gadid",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/como-es-el-clima-en-al-wadi-al-gadid",
+        "destination": "/es/guide/al-wadi-al-gadid/como-es-el-clima-en-al-wadi-al-gadid",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58730",
+        "legacyUrl": "https://travel2egypt.org/weather-in-al-wadi-al-gadid/",
+        "documentType": "guideArticle",
+        "title": "El Clima en Al Wadi Al Gadid — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/el-cairo/madraza-y-mausoleo-de-barquq",
+      "destination": "/es/wiki/monuments/madraza-y-mausoleo-de-barquq",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guide/el-cairo/madraza-y-mausoleo-de-barquq",
+        "destination": "/es/wiki/monuments/madraza-y-mausoleo-de-barquq",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63578",
+        "legacyUrl": "https://travel2egypt.org/madrassa-and-mausoleum-of-barquq/",
+        "documentType": "wikiMonument",
+        "title": "Madraza y mausoleo de Barquq — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/where-to-stay-in-cairo",
+      "destination": "/guide/cairo/where-to-stay-in-cairo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/where-to-stay-in-cairo",
+        "destination": "/guide/cairo/where-to-stay-in-cairo",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59393",
+        "legacyUrl": "https://travel2egypt.org/where-to-stay-in-cairo/",
+        "documentType": "guideArticle",
+        "title": "Where to Stay in Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/dakhla-oasis-travel-guide",
+      "destination": "/guide/dakhla-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/dakhla-oasis-travel-guide",
+        "destination": "/guide/dakhla-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58783",
+        "legacyUrl": "https://travel2egypt.org/dakhla-oasis-travel-guide/",
+        "documentType": "city",
+        "title": "Dakhla Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/guide/santa-catalina",
+      "destination": "/guide/saint-catherine",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/guide/santa-catalina",
+        "destination": "/guide/saint-catherine",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "Saint Catherine — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/things-to-do-in-beni-suef",
+      "destination": "/guide/beni-suef/things-to-do-in-beni-suef",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/things-to-do-in-beni-suef",
+        "destination": "/guide/beni-suef/things-to-do-in-beni-suef",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59349",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Things To Do In Beni Suef — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/historia-de-sharm-el-sheikh",
+      "destination": "/es/guide/sharm-el-sheikh/historia-de-sharm-el-sheikh",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/historia-de-sharm-el-sheikh",
+        "destination": "/es/guide/sharm-el-sheikh/historia-de-sharm-el-sheikh",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60481",
+        "legacyUrl": "https://travel2egypt.org/sharm-el-sheikh-historical-overview/",
+        "documentType": "guideArticle",
+        "title": "Historia De Sharm El Sheikh — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/badawiya-hotel-el-dakhla-oasis",
+      "destination": "/hotels/badawiya-hotel-el-dakhla-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/badawiya-hotel-el-dakhla-oasis",
+        "destination": "/hotels/badawiya-hotel-el-dakhla-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-64066",
+        "legacyUrl": "https://travel2egypt.org/badawiya-hotel-el-dakhla-oasis/",
+        "documentType": "hotel",
+        "title": "Badawiya Dakhla Hotel: The Oasis's Mid-Tier Base — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/the-story-of-king-tutankhamun-tomb",
+      "destination": "/blog/the-story-of-king-tutankhamun-tomb",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/the-story-of-king-tutankhamun-tomb",
+        "destination": "/blog/the-story-of-king-tutankhamun-tomb",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-235766-en",
+        "legacyUrl": "https://travel2egypt.org/the-story-of-king-tutankhamun-tomb/",
+        "documentType": "article",
+        "title": "The Story of King Tutankhamun Tomb: Why It Became So Famous — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/gourmet-dining-in-egypt",
+      "destination": "/blog/gourmet-dining-in-egypt",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/gourmet-dining-in-egypt",
+        "destination": "/blog/gourmet-dining-in-egypt",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-121356-en",
+        "legacyUrl": "https://travel2egypt.org/gourmet-dining-in-egypt/",
+        "documentType": "article",
+        "title": "Eating Well in Egypt — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/shawarma-egipcio-en-giza-restaurante-semsema",
+      "destination": "/es/blog/shawarma-egipcio-en-giza-restaurante-semsema",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/shawarma-egipcio-en-giza-restaurante-semsema",
+        "destination": "/es/blog/shawarma-egipcio-en-giza-restaurante-semsema",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-155073-es",
+        "legacyUrl": "https://travel2egypt.org/egyptian-shawarma/",
+        "documentType": "article",
+        "title": "El shawarma egipcio — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/itinerario-definitivo-de-8-dias-por-egipto-un-viaje-en-el-tiempo",
+      "destination": "/es/blog/itinerario-definitivo-de-8-dias-por-egipto-un-viaje-en-el-tiempo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/itinerario-definitivo-de-8-dias-por-egipto-un-viaje-en-el-tiempo",
+        "destination": "/es/blog/itinerario-definitivo-de-8-dias-por-egipto-un-viaje-en-el-tiempo",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144445-es",
+        "legacyUrl": "https://travel2egypt.org/8-day-egypt-tour-itinerary/",
+        "documentType": "article",
+        "title": "Itinerario de ocho días por Egipto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/el-camino-a-dajla",
+      "destination": "/es/guide/dakhla/el-camino-a-dajla",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/el-camino-a-dajla",
+        "destination": "/es/guide/dakhla/el-camino-a-dajla",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59655",
+        "legacyUrl": "https://travel2egypt.org/road-to-dakhla/",
+        "documentType": "guideArticle",
+        "title": "El camino a Dajla — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ギザ旅行ガイド/メルエルカの墓",
+      "destination": "/ja/wiki/monuments/メルエルカの墓",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ギザ旅行ガイド/メルエルカの墓",
+        "destination": "/ja/wiki/monuments/メルエルカの墓",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69958",
+        "legacyUrl": "https://travel2egypt.org/tomb-of-mereruka/",
+        "documentType": "wikiMonument",
+        "title": "メルエルカの墓 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/ギザ旅行ガイド/サッカラ・ネクロポリス（サッカラの墓地遺跡）",
+      "destination": "/ja/wiki/monuments/サッカラ・ネクロポリス（サッカラの墓地遺跡）",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/ギザ旅行ガイド/サッカラ・ネクロポリス（サッカラの墓地遺跡）",
+        "destination": "/ja/wiki/monuments/サッカラ・ネクロポリス（サッカラの墓地遺跡）",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-69956",
+        "legacyUrl": "https://travel2egypt.org/the-saqqara-necropolis/",
+        "documentType": "wikiMonument",
+        "title": "サッカラ・ネクロポリス（サッカラの墓地遺跡） — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/esuna/esuna-no-tenko-joho",
+      "destination": "/es/guide/esna/es-clima-en-esna",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guide/esuna/esuna-no-tenko-joho",
+        "destination": "/es/guide/esna/es-clima-en-esna",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "El Clima en Esna — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/how-to-go-to-edfu",
+      "destination": "/guide/edfu/how-to-go-to-edfu",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/how-to-go-to-edfu",
+        "destination": "/guide/edfu/how-to-go-to-edfu",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59585",
+        "legacyUrl": "https://travel2egypt.org/how-to-go-to-edfu/",
+        "documentType": "guideArticle",
+        "title": "How To Go To Edfu — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/デンデラ神殿敷地",
+      "destination": "/ja/wiki/monuments/デンデラ神殿敷地",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/デンデラ神殿敷地",
+        "destination": "/ja/wiki/monuments/デンデラ神殿敷地",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-76526",
+        "legacyUrl": "https://travel2egypt.org/the-temple-precinct/",
+        "documentType": "wikiMonument",
+        "title": "デンデラ神殿敷地 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/beni-suef-travel-guide/things-to-do-in-beni-suef",
+      "destination": "/guide/beni-suef/things-to-do-in-beni-suef",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/beni-suef-travel-guide/things-to-do-in-beni-suef",
+        "destination": "/guide/beni-suef/things-to-do-in-beni-suef",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59349",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Things To Do In Beni Suef — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/wiki/monuments/palacio-amir-taz",
+      "destination": "/ja/wiki/monuments/アミール・タズ宮殿",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/wiki/monuments/palacio-amir-taz",
+        "destination": "/ja/wiki/monuments/アミール・タズ宮殿",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "アミール・タズ宮殿 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/como-desplazarse-por-beni-suef",
+      "destination": "/es/guide/beni-suef/como-desplazarse-por-beni-suef",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/como-desplazarse-por-beni-suef",
+        "destination": "/es/guide/beni-suef/como-desplazarse-por-beni-suef",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59345",
+        "legacyUrl": "https://travel2egypt.org/getting-around-beni-suef/",
+        "documentType": "guideArticle",
+        "title": "Cómo desplazarse por Beni Suef — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guide/el-cairo/bazar-khan-al-khalili",
+      "destination": "/es/wiki/monuments/bazar-khan-al-khalili",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guide/el-cairo/bazar-khan-al-khalili",
+        "destination": "/es/wiki/monuments/bazar-khan-al-khalili",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-95439",
+        "legacyUrl": "https://travel2egypt.org/khan-al-khalili-bazaar/",
+        "documentType": "wikiMonument",
+        "title": "Bazar Khan Al-Khalili — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/descubrir-beni-suef-ideas-y-experiencias-unicas",
+      "destination": "/es/guide/beni-suef/descubrir-beni-suef-ideas-y-experiencias-unicas",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/descubrir-beni-suef-ideas-y-experiencias-unicas",
+        "destination": "/es/guide/beni-suef/descubrir-beni-suef-ideas-y-experiencias-unicas",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59348",
+        "legacyUrl": "https://travel2egypt.org/only-here-in-beni-suef/",
+        "documentType": "guideArticle",
+        "title": "Descubrir Beni Suef: Ideas y experiencias únicas — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/bedouin-castle-hotel",
+      "destination": "/hotels/bedouin-castle-hotel",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/bedouin-castle-hotel",
+        "destination": "/hotels/bedouin-castle-hotel",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-83680",
+        "legacyUrl": "https://travel2egypt.org/bedouin-castle-hotel/",
+        "documentType": "hotel",
+        "title": "Bedouin Castle Hotel, Bahariya Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/how-to-go-to-al-quseir",
+      "destination": "/guide/al-quseir/how-to-go-to-al-quseir",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/how-to-go-to-al-quseir",
+        "destination": "/guide/al-quseir/how-to-go-to-al-quseir",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58693",
+        "legacyUrl": "https://travel2egypt.org/how-to-go-to-al-quseir/",
+        "documentType": "guideArticle",
+        "title": "How To Go To Al Quseir — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/guide/ras-sudr/lugares-de-ras-sudr",
+      "destination": "/guide/ras-sudr/places-in-ras-sudr",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/guide/ras-sudr/lugares-de-ras-sudr",
+        "destination": "/guide/ras-sudr/places-in-ras-sudr",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "Places in Ras Sudr — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guia-de-viaje-de-el-cairo/el-cairo-copto",
+      "destination": "/es/guide/el-cairo/el-cairo-copto",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guia-de-viaje-de-el-cairo/el-cairo-copto",
+        "destination": "/es/guide/el-cairo/el-cairo-copto",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-63606",
+        "legacyUrl": "https://travel2egypt.org/coptic-cairo/",
+        "documentType": "guideArticle",
+        "title": "El Cairo copto — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/things-to-do-in-akhmim",
+      "destination": "/guide/akhmim/things-to-do-in-akhmim",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/things-to-do-in-akhmim",
+        "destination": "/guide/akhmim/things-to-do-in-akhmim",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58419",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Things to Do in Akhmim — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/cosas-que-hacer-en-ismailia",
+      "destination": "/es/guide/ismailia/cosas-que-hacer-en-ismailia",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/cosas-que-hacer-en-ismailia",
+        "destination": "/es/guide/ismailia/cosas-que-hacer-en-ismailia",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60128",
+        "legacyUrl": "https://travel2egypt.org/things-to-do-in-ismailia/",
+        "documentType": "guideArticle",
+        "title": "Cosas que hacer en Ismailia — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/カイロ旅行ガイド/アズハル・モスク",
+      "destination": "/ja/wiki/monuments/アズハル・モスク",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/カイロ旅行ガイド/アズハル・モスク",
+        "destination": "/ja/wiki/monuments/アズハル・モスク",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-76255",
+        "legacyUrl": "https://travel2egypt.org/al-azhar-mosque/",
+        "documentType": "wikiMonument",
+        "title": "アズハル・モスク — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/things-to-do-in-dakhla-oasis",
+      "destination": "/guide/dakhla-oasis/things-to-do-in-dakhla-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/things-to-do-in-dakhla-oasis",
+        "destination": "/guide/dakhla-oasis/things-to-do-in-dakhla-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-59494",
+        "legacyUrl": "https://travel2egypt.org/things-to-do-in-dakhla-oasis/",
+        "documentType": "guideArticle",
+        "title": "Things To Do In Dakhla Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/dahab-travel-guide/dahab-seasonal-guide",
+      "destination": "/guide/dahab/dahab-seasonal-guide",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/dahab-travel-guide/dahab-seasonal-guide",
+        "destination": "/guide/dahab/dahab-seasonal-guide",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59429",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Dahab Weather and Best Time to Visit — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/al-quseir-travel-guide/weather-in-al-quseir",
+      "destination": "/guide/al-quseir/weather-in-al-quseir",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/al-quseir-travel-guide/weather-in-al-quseir",
+        "destination": "/guide/al-quseir/weather-in-al-quseir",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-58691",
+        "legacyUrl": "https://travel2egypt.org/weather-in-al-quseir/",
+        "documentType": "guideArticle",
+        "title": "Weather in Al-Quseir — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/cosas-que-hacer-en-guiza",
+      "destination": "/es/guide/guiza/cosas-que-hacer-en-guiza",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/cosas-que-hacer-en-guiza",
+        "destination": "/es/guide/guiza/cosas-que-hacer-en-guiza",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60076",
+        "legacyUrl": "https://travel2egypt.org/things-to-do-in-giza/",
+        "documentType": "guideArticle",
+        "title": "Cosas que hacer en Guiza — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/weather-in-bahariya-oasis",
+      "destination": "/guide/bahariya-oasis/weather-in-bahariya-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/weather-in-bahariya-oasis",
+        "destination": "/guide/bahariya-oasis/weather-in-bahariya-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58727",
+        "legacyUrl": "https://travel2egypt.org/weather-in-bahariya-oasis/",
+        "documentType": "guideArticle",
+        "title": "Weather in Bahariya Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/explora-egipto-en-10-dias-tu-itinerario-esencial-para-viajar-a-egipto-en-10-dias",
+      "destination": "/es/blog/explora-egipto-en-10-dias-tu-itinerario-esencial-para-viajar-a-egipto-en-10-dias",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/explora-egipto-en-10-dias-tu-itinerario-esencial-para-viajar-a-egipto-en-10-dias",
+        "destination": "/es/blog/explora-egipto-en-10-dias-tu-itinerario-esencial-para-viajar-a-egipto-en-10-dias",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-post-144444-es",
+        "legacyUrl": "https://travel2egypt.org/explore-egypt-in-10-days/",
+        "documentType": "article",
+        "title": "Viajar por Egipto en 10 días — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/bahariya-oasis-travel-guide",
+      "destination": "/guide/bahariya-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/bahariya-oasis-travel-guide",
+        "destination": "/guide/bahariya-oasis",
+        "reason": "Exact WordPress URL recorded on the CMS document",
+        "documentId": "wp-page-58769",
+        "legacyUrl": "https://travel2egypt.org/bahariya-oasis-travel-guide/",
+        "documentType": "city",
+        "title": "Bahariya Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/como-moverse-en-ras-sudr",
+      "destination": "/es/guide/ras-sudr/como-moverse-en-ras-sudr",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/como-moverse-en-ras-sudr",
+        "destination": "/es/guide/ras-sudr/como-moverse-en-ras-sudr",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-60383",
+        "legacyUrl": "https://travel2egypt.org/ras-sudr-local-transport-guide/",
+        "documentType": "guideArticle",
+        "title": "Cómo Moverse en Ras Sudr — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/カイロ旅行ガイド/アミール・タズ宮殿",
+      "destination": "/ja/wiki/monuments/アミール・タズ宮殿",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/カイロ旅行ガイド/アミール・タズ宮殿",
+        "destination": "/ja/wiki/monuments/アミール・タズ宮殿",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-95563",
+        "legacyUrl": "https://travel2egypt.org/amir-taz-palace/",
+        "documentType": "wikiMonument",
+        "title": "アミール・タズ宮殿 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/es/guia-de-viaje-de-asuan/isla-de-kitchener",
+      "destination": "/es/wiki/monuments/isla-de-kitchener",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/es/guia-de-viaje-de-asuan/isla-de-kitchener",
+        "destination": "/es/wiki/monuments/isla-de-kitchener",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59237",
+        "legacyUrl": "https://travel2egypt.org/kitcheners-island/",
+        "documentType": "wikiMonument",
+        "title": "Isla de Kitchener — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/カイロ旅行ガイド/北墓地",
+      "destination": "/ja/wiki/monuments/北墓地",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/カイロ旅行ガイド/北墓地",
+        "destination": "/ja/wiki/monuments/北墓地",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-95548",
+        "legacyUrl": "https://travel2egypt.org/northern-cemetery/",
+        "documentType": "wikiMonument",
+        "title": "北墓地 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/kom-ombo/what-to-eat-in-kom-ombo",
+      "destination": "/ja/guide/komu-ombo/komu-ombo-no-ryori",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/kom-ombo/what-to-eat-in-kom-ombo",
+        "destination": "/ja/guide/komu-ombo/komu-ombo-no-ryori",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "コム・オンボの料理 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/food-in-bahariya-oasis",
+      "destination": "/guide/bahariya-oasis/food-in-bahariya-oasis",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/food-in-bahariya-oasis",
+        "destination": "/guide/bahariya-oasis/food-in-bahariya-oasis",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59284",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Food in Bahariya Oasis — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/home/dahab-historical-guide",
+      "destination": "/guide/dahab/dahab-historical-guide",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/home/dahab-historical-guide",
+        "destination": "/guide/dahab/dahab-historical-guide",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-83360",
+        "legacyUrl": "https://travel2egypt.org/dahab-historical-guide/",
+        "documentType": "guideArticle",
+        "title": "Dahab Historical Guide — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/stay-in-aswan",
+      "destination": "/guide/aswan/stay-in-aswan",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/stay-in-aswan",
+        "destination": "/guide/aswan/stay-in-aswan",
+        "reason": "Unique same-language CMS slug and matching live canonical page",
+        "documentId": "wp-page-59215",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "Where to Stay in Aswan — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/ja/guide/cairo/madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+      "destination": "/ja/guide/kairo/atsu-sarifunajumuatsu-dinaiyubu-no-madorasa-to-reibyo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/ja/guide/cairo/madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+        "destination": "/ja/guide/kairo/atsu-sarifunajumuatsu-dinaiyubu-no-madorasa-to-reibyo",
+        "reason": "Same document language alternate from the published sitemap",
+        "title": "アッ＝サーリフ・ナジュム・アッ＝ディーン・アイユーブのマドラサと霊廟 — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "source": "/cairo-travel-guide/history-chronicles",
+      "destination": "/guide/cairo/history-of-cairo",
+      "previousDestination": null,
+      "evidence": {
+        "source": "/cairo-travel-guide/history-chronicles",
+        "destination": "/guide/cairo/history-of-cairo",
+        "reason": "Reviewed topic/ship and current same-language canonical route",
+        "documentId": "wp-page-59389",
+        "legacyUrl": null,
+        "documentType": "guideArticle",
+        "title": "History Of Cairo — Travel2Egypt",
+        "verifiedStatus": 200,
+        "verifiedAt": "2026-09-22"
+      }
+    }
+  ]
+}

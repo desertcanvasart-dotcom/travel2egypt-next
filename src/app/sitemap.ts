@@ -22,6 +22,7 @@ import { client } from '@/sanity/lib/client';
 import { sitemapDocsQuery } from '@/sanity/lib/queries';
 import { routing, type Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
+import { finalizeSitemap } from '@/lib/sitemap-policy';
 import {
   pathFromDoc,
   siteUrlBase,
@@ -263,5 +264,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     });
   }
 
-  return entries;
+  return finalizeSitemap(entries);
 }

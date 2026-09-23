@@ -111,12 +111,30 @@ export function LocaleSwitcher({ currentLocale }: Props) {
   );
 }
 
-async function resolveLocalizedPathname(
+export async function resolveLocalizedPathname(
   pathname: string,
   fromLocale: Locale,
   toLocale: Locale
 ): Promise<string> {
   if (fromLocale === toLocale) return pathname;
+
+  // Monuments also translate their slugs; prefix swapping makes a 404.
+  const monumentMatch = pathname.match(/^\/wiki\/monuments\/([^/]+)\/?$/);
+  if (monumentMatch) {
+    try {
+      const fromSlug = decodeURIComponent(monumentMatch[1]);
+      const res = await fetch(
+        `/api/locale-resolve/monument?fromLocale=${fromLocale}&fromSlug=${encodeURIComponent(fromSlug)}&toLocale=${toLocale}`
+      );
+      if (res.ok) {
+        const { slug } = (await res.json()) as { slug: string | null };
+        if (slug) return `/wiki/monuments/${slug}`;
+      }
+    } catch {
+      // Keep the visitor in the requested language when no match is available.
+    }
+    return '/wiki/monuments';
+  }
 
   // Guide article detail: /guide/[citySlug]/[articleSlug]. Two-segment URL;
   // both slugs vary by locale. Single API call resolves both. Matched BEFORE
