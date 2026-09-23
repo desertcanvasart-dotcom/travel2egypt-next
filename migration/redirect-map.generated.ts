@@ -12639,7 +12639,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/m-s-sonesta-st",
-    "destination": "/es/nile-cruises/m-s-sonesta-st",
+    "destination": "/es/nile-cruises/m-s-sonesta-st-george-nile-cruise",
     "permanent": true
   },
   {
