@@ -20831,5 +20831,195 @@ export const redirects: RedirectRule[] = [
     "source": "/the-khayrbek-complex",
     "destination": "/guide/cairo/khayrbek-complex",
     "permanent": true
+  },
+  {
+    "source": "/blog/nairu-kuruzu-de-otozureru-rekishi-iseki",
+    "destination": "/blog/historical-sites-visited-by-a-nile-cruise",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/el-cairo/la-iglesia-colgante",
+    "destination": "/es/wiki/monuments/la-iglesia-colgante",
+    "permanent": true
+  },
+  {
+    "source": "/es/pyramisa-isis-island-hotel",
+    "destination": "/es/hotels/pyramisa-isis-island-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/nuweiba-dining-experiences",
+    "destination": "/guide/nuweiba/nuweiba-dining-experiences",
+    "permanent": true
+  },
+  {
+    "source": "/es/comidas-y-restaurantes-en-nuweiba",
+    "destination": "/es/guide/nuweiba/comidas-y-restaurantes-en-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-moverse-en-marsa-alam",
+    "destination": "/es/guide/marsa-alam/como-moverse-en-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-hayz",
+    "destination": "/es/guide/bahariya/el-hayz",
+    "permanent": true
+  },
+  {
+    "source": "/where-to-stay-in-dahab",
+    "destination": "/guide/dahab/where-to-stay-in-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/condiciones-climaticas-de-nuweiba",
+    "destination": "/es/guide/nuweiba/condiciones-climaticas-de-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/alexandria-history-overview",
+    "destination": "/guide/alexandria/alexandria-history-overview",
+    "permanent": true
+  },
+  {
+    "source": "/es/mejores-tours-en-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/mejores-tours-en-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/things-to-do-in-al-arish",
+    "destination": "/guide/al-arish/things-to-do-in-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/sharm-el-sheikh-local-cuisine",
+    "destination": "/guide/sharm-el-sheikh/sharm-el-sheikh-local-cuisine",
+    "permanent": true
+  },
+  {
+    "source": "/es/hathor-y-bes",
+    "destination": "/es/guide/qena/hathor-y-bes",
+    "permanent": true
+  },
+  {
+    "source": "/es/mejores-hoteles-en-el-cairo",
+    "destination": "/es/guide/el-cairo/mejores-hoteles-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-puerto-de-myos-hormos",
+    "destination": "/es/guide/al-quseir/el-puerto-de-myos-hormos",
+    "permanent": true
+  },
+  {
+    "source": "/casa-cook-el-gouna",
+    "destination": "/hotels/casa-cook-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/gastronomia-de-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh/gastronomia-de-marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/discover-kom-ombo-with-tours",
+    "destination": "/guide/kom-ombo/discover-kom-ombo-with-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ハンギング・モスク",
+    "destination": "/ja/wiki/monuments/ハンギング・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ワディ・アル・ライアン",
+    "destination": "/ja/wiki/monuments/ワディ・アル・ライアン",
+    "permanent": true
+  },
+  {
+    "source": "/ja/what-is-included-in-nile-cruise-packages",
+    "destination": "/ja/blog/nairu-kuruzu-no-pakkeji-ni-wa-nani-ga-fukuma-reru-no-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ラス・スドルの気候",
+    "destination": "/ja/guide/rasu-sedoru/rasu-sedoru-no-kiko",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ダフラ・オアシスの宿泊施設",
+    "destination": "/ja/guide/dafura-oashisu/dafura-oashisu-no-shukuhaku-shisetsu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アル・ミンヤへのアクセスのヒント",
+    "destination": "/ja/guide/aru-minya/aru-minya-e-no-akusesu-no-hinto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シャルム・エル・ルリ",
+    "destination": "/ja/guide/marusa-aramu/sharumuerururi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/トロピテル・ナーマ・ベイ・シャルム（tropitel-naama-bay-sharm）",
+    "destination": "/ja/guide/sharumu-eru-sheiku/toropiteru-nama-bei-sharumu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エスナ旅行ガイド/食事",
+    "destination": "/ja/guide/esuna/shokuji",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viajes-de-marsa-matruh",
+    "destination": "/es/guide/marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/qena-travel-guide/getting-around",
+    "destination": "/guide/qena/transport-to-qena",
+    "permanent": true
+  },
+  {
+    "source": "/ismailia-travel-guide/where-to-stay",
+    "destination": "/guide/ismailia/accommodation-options-ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/hurghada-travel-guide",
+    "destination": "/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/port-said-travel-guide/dining-voyage",
+    "destination": "/guide/port-said/port-said-food-and-drink",
+    "permanent": true
+  },
+  {
+    "source": "/farafra-oasis-travel-guide/getting-around",
+    "destination": "/guide/farafra-oasis/getting-around-in-farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ハルガダ旅行ガイド",
+    "destination": "/ja/guide/harugada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ケナ旅行ガイド",
+    "destination": "/ja/guide/kena",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/al-wadi-al-gadid/plan-your-trip-2/how-to-go",
+    "destination": "/guide/al-wadi-al-gadid/how-to-go-in-al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/baris/while-you-are-there/getting-around",
+    "destination": "/guide/baris/getting-around-in-baris",
+    "permanent": true
   }
 ];
