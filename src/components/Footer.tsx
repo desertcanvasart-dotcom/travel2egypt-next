@@ -14,7 +14,7 @@ interface FooterProps {
 const SISTER_BRANDS = [
   { name: 'AffordEgypt', url: 'https://affordegypt.com/', descriptionKey: 'affordegypt' },
   { name: 'Sillage', url: 'https://sillage-egypte.com/', descriptionKey: 'sillage' },
-  { name: 'Sawa', url: 'https://sawatours.org/', descriptionKey: 'sawa' },
+  { name: 'Sawa', url: 'https://sawa.tours/', descriptionKey: 'sawa' },
 ];
 
 const SISTER_BRAND_DESCRIPTIONS: Record<Locale, Record<string, string>> = {

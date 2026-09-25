@@ -250,7 +250,7 @@ export async function CategoryView({
   const heroStats = [
     { label: c.statAxis, value: navItems.length },
     { label: c.statCount, value: tours.length },
-    { label: ts('catStatSince'), value: 2003 },
+    { label: ts('catStatSince'), value: 1993 },
   ];
   // The editorial section always renders: the byline always has content, and the
   // essay shows when present.

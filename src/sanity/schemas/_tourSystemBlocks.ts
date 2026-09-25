@@ -307,7 +307,7 @@ export const tourSingleSupplementField = defineField({
 
 export const tourTrustFields = [
   localizedStringListField('trustSignals', { title: 'Trust signals', group: 'related', description: 'Why-book-with-us bullets in the rail.' }),
-  defineField({ name: 'accreditations', title: 'Accreditations line', type: 'internationalizedArrayString', group: 'related', description: 'e.g. "ETAA · IATA · ASTA — Egyptian-operated since 2003".' }),
+  defineField({ name: 'accreditations', title: 'Accreditations line', type: 'internationalizedArrayString', group: 'related', description: 'e.g. "ETAA · IATA · ASTA — Egyptian-operated since 1993".' }),
 ];
 
 /** L3 related weave — "From the Journal" column. */

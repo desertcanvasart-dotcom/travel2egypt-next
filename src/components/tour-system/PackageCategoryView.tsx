@@ -176,7 +176,7 @@ export async function PackageCategoryView({
   const heroStats = [
     { label: k('StatAxis'), value: axisCount },
     { label: k('StatCount'), value: packages.length },
-    { label: ts('catStatSince'), value: 2003 },
+    { label: ts('catStatSince'), value: 1993 },
   ];
 
   const bylineKicker = archive?.editorByline?.kicker ?? k('WhyKicker');

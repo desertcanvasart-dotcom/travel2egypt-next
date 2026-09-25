@@ -61,7 +61,7 @@ Two things make this codebase unusual:
 
 **The positioning line** (homepage standfirst):
 
-> "Most travel sites treat Egypt as a checklist of monuments. We treat it as a country with eighty million people, four major dialects, and several thousand years of opinions about itself. *The difference shows up in the details.*"
+> "Most travel sites treat Egypt as a checklist of monuments. We treat it as a country with more than a hundred million people, four major dialects, and several thousand years of opinions about itself. *The difference shows up in the details.*"
 
 ### The strategic shift
 
