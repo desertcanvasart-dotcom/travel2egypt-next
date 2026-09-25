@@ -10,10 +10,20 @@ export function canonicalContentHref(href: string | undefined): string | undefin
     if (!['travel2egypt.org', 'www.travel2egypt.org'].includes(url.hostname)) return href;
     if (url.username || url.password || url.port) return href;
     const path = decodeURIComponent(url.pathname).replace(/\/$/, '') || '/';
-    const destination = destinations.get(path);
+    const destination = destinations.get(path) ?? legacyTourPath(path);
     if (!destination) return href;
     return `${destination}${url.search}${url.hash}`;
   } catch {
     return href;
   }
+}
+
+/**
+ * /tours/<slug> and /packages/<slug> (any locale) are legacy route prefixes
+ * that only 308 to the root, where tours and packages are canonical (see
+ * pathFromDoc). Structural, so safe to rewrite without an audit row.
+ */
+function legacyTourPath(path: string): string | undefined {
+  const match = /^((?:\/(?:es|ja))?)\/(?:tours|packages)\/([^/]+)$/.exec(path);
+  return match ? `${match[1]}/${match[2]}` : undefined;
 }

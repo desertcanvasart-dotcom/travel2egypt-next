@@ -28,10 +28,12 @@ export interface HomePageData {
   startingPoints?: StartingPoint[];
 }
 
-/** Build the journey path from a referenced tour's type + slug. */
-function tourHref(type?: string, slug?: string): string | null {
+/** Build the journey path from a referenced tour's slug. Tours and packages
+ *  are canonical at the site root (see pathFromDoc); /tours/* and
+ *  /packages/* only 308 there. */
+function tourHref(_type?: string, slug?: string): string | null {
   if (!slug) return null;
-  return type === 'package' ? `/packages/${slug}` : `/tours/${slug}`;
+  return `/${slug}`;
 }
 
 const ROMAN = ['i.', 'ii.', 'iii.', 'iv.'];
