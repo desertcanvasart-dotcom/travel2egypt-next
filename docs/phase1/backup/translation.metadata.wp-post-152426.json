@@ -1,0 +1,36 @@
+{
+  "_createdAt": "2026-04-27T19:04:31Z",
+  "_id": "translation.metadata.wp-post-152426",
+  "_rev": "SrWEF6KlCh2Hm5VWf8XKjE",
+  "_type": "translation.metadata",
+  "_updatedAt": "2026-06-12T17:14:07Z",
+  "schemaTypes": [
+    "article"
+  ],
+  "translations": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayReferenceValue",
+      "value": {
+        "_ref": "wp-post-152426-en",
+        "_type": "reference"
+      }
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayReferenceValue",
+      "value": {
+        "_ref": "wp-post-155592-es",
+        "_type": "reference"
+      }
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayReferenceValue",
+      "value": {
+        "_ref": "wp-post-172237-ja",
+        "_type": "reference"
+      }
+    }
+  ]
+}

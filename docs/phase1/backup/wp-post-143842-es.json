@@ -1,0 +1,777 @@
+{
+  "_createdAt": "2026-05-04T22:45:00Z",
+  "_id": "wp-post-143842-es",
+  "_rev": "PUXUI6sshIht1BONycqM5f",
+  "_type": "article",
+  "_updatedAt": "2026-07-16T22:46:12Z",
+  "author": {
+    "_ref": "author-legacy-archive",
+    "_type": "reference"
+  },
+  "body": [
+    {
+      "_key": "000000000001",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000000",
+          "_type": "span",
+          "marks": [],
+          "text": "Guía del tiempo en Egipto"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000003",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000002",
+          "_type": "span",
+          "marks": [],
+          "text": "Comprender el clima de Egipto"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000009",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000005",
+          "_type": "span",
+          "marks": [
+            "000000000004"
+          ],
+          "text": "El clima de Egipto"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "span",
+          "marks": [],
+          "text": " es predominantemente árido, con veranos calurosos, inviernos suaves y muy pocas precipitaciones a lo largo del año."
+        },
+        {
+          "_key": "000000000007",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "span",
+          "marks": [],
+          "text": "Sin embargo, el tiempo puede variar significativamente entre las regiones costeras, el delta del Nilo y las zonas desérticas."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "000000000004",
+          "_type": "externalLink",
+          "href": "https://www.egiptoexclusivo.com/informacion-practica/clima/",
+          "newTab": true
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000000b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000000a",
+          "_type": "span",
+          "marks": [],
+          "text": "Zonas Costeras (Costa Mediterránea)"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "00000000000d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000000c",
+          "_type": "span",
+          "marks": [],
+          "text": "Verano (de junio a agosto)"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "000000000011",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000000e",
+          "_type": "span",
+          "marks": [],
+          "text": "Cálido, con temperaturas que oscilan entre los 22°C (72°F) y los 30°C (86°F)."
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "span",
+          "marks": [],
+          "text": "La brisa marina hace que las zonas costeras sean más confortables que el interior."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000013",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000012",
+          "_type": "span",
+          "marks": [],
+          "text": "Invierno (de diciembre a febrero)"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "000000000017",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000014",
+          "_type": "span",
+          "marks": [],
+          "text": "Suave y lluviosa, con temperaturas que oscilan entre los 10°C (50°F) y los 18°C (64°F)."
+        },
+        {
+          "_key": "000000000015",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "gpkjbdzpwcrq",
+          "_type": "span",
+          "marks": [],
+          "text": "Es la estación más lluviosa en lugares como "
+        },
+        {
+          "_key": "7v6lb6ekwf98",
+          "_type": "span",
+          "marks": [
+            "kw7vgn9nujdm"
+          ],
+          "text": "Alejandría"
+        },
+        {
+          "_key": "y0z126asdw4x",
+          "_type": "span",
+          "marks": [],
+          "text": ", pero sigue siendo relativamente seca en comparación con otras partes del mundo."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "kw7vgn9nujdm",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-58750",
+            "_type": "reference"
+          }
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000019",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "8lhlzuodbapu",
+          "_type": "span",
+          "marks": [
+            "vikcivffpyn7"
+          ],
+          "text": "El Cairo"
+        },
+        {
+          "_key": "s258rspwrvlb",
+          "_type": "span",
+          "marks": [],
+          "text": " y el Delta del Nilo"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "vikcivffpyn7",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-83284",
+            "_type": "reference"
+          }
+        }
+      ],
+      "style": "h2"
+    },
+    {
+      "_key": "00000000001b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000001a",
+          "_type": "span",
+          "marks": [],
+          "text": "Verano"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "00000000001f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000001c",
+          "_type": "span",
+          "marks": [],
+          "text": "Caluroso y seco, con temperaturas que a menudo superan los 35°C durante el día."
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "span",
+          "marks": [],
+          "text": "Las noches son más frescas, lo que proporciona cierto alivio."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000021",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000020",
+          "_type": "span",
+          "marks": [],
+          "text": "Invierno"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "000000000025",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000022",
+          "_type": "span",
+          "marks": [],
+          "text": "Suave y algo más fresco, con temperaturas diurnas de unos 18°C (64°F) a 22°C (72°F)."
+        },
+        {
+          "_key": "000000000023",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "span",
+          "marks": [],
+          "text": "Las noches pueden ser frescas y requerir una chaqueta ligera."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000027",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "z30c5hbjvf51",
+          "_type": "span",
+          "marks": [],
+          "text": "Sur de Egipto y Valle del Nilo ("
+        },
+        {
+          "_key": "e29dhnblsmcy",
+          "_type": "span",
+          "marks": [
+            "buezybcg2mco"
+          ],
+          "text": "Luxor"
+        },
+        {
+          "_key": "i2c0zssg4y0g",
+          "_type": "span",
+          "marks": [],
+          "text": ", "
+        },
+        {
+          "_key": "vppocrhoxo4j",
+          "_type": "span",
+          "marks": [
+            "0c4povknzfid"
+          ],
+          "text": "Asuán"
+        },
+        {
+          "_key": "bu2w934by53r",
+          "_type": "span",
+          "marks": [],
+          "text": ")"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "buezybcg2mco",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-58877",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "0c4povknzfid",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-58758",
+            "_type": "reference"
+          }
+        }
+      ],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000029",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000028",
+          "_type": "span",
+          "marks": [],
+          "text": "Verano"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "00000000002d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000002a",
+          "_type": "span",
+          "marks": [],
+          "text": "Extremadamente caluroso, con temperaturas diurnas que alcanzan los 40°C (104°F) o más."
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "span",
+          "marks": [],
+          "text": "Es esencial mantenerse hidratado y evitar las actividades al aire libre durante las horas de más sol."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000002f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000002e",
+          "_type": "span",
+          "marks": [],
+          "text": "Invierno"
+        }
+      ],
+      "markDefs": [],
+      "style": "h3"
+    },
+    {
+      "_key": "000000000031",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000030",
+          "_type": "span",
+          "marks": [],
+          "text": "Cálida y agradable, con temperaturas que oscilan entre los 14°C (57°F) y los 26°C (79°F), por lo que es la época ideal para visitar lugares antiguos."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000033",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000032",
+          "_type": "span",
+          "marks": [],
+          "text": "Zonas Desérticas (Desierto Occidental, Península del Sinaí)"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000036",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000034",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Durante el día:"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "span",
+          "marks": [],
+          "text": " Puede ser extremadamente caluroso en verano, con temperaturas que superan los 40°C (104°F)."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000039",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000037",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Por la noche:"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "span",
+          "marks": [],
+          "text": " Las temperaturas descienden considerablemente, sobre todo en invierno, que puede ser sorprendentemente frío, a veces rozando el punto de congelación."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000003b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000003a",
+          "_type": "span",
+          "marks": [],
+          "text": "Mejor época para visitar"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000041",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000003c",
+          "_type": "span",
+          "marks": [],
+          "text": "La mejor época para visitar Egipto es durante los meses más fríos, de octubre a abril."
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "span",
+          "marks": [],
+          "text": "El tiempo es agradable en todo el país, por lo que es ideal para explorar monumentos antiguos y disfrutar de los balnearios del Mar Rojo."
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "span",
+          "marks": [],
+          "text": "De diciembre a febrero es la temporada turística alta, sobre todo en Luxor y Asuán, donde el tiempo es cálido y soleado, perfecto para los cruceros por el Nilo."
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000043",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000042",
+          "_type": "span",
+          "marks": [],
+          "text": "Consejos para viajar según el tiempo"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000048",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000044",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visitas de verano:"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "span",
+          "marks": [],
+          "text": " Empieza el día temprano para combatir el calor."
+        },
+        {
+          "_key": "000000000046",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "span",
+          "marks": [],
+          "text": "Lleva ropa ligera y transpirable, sombrero de ala ancha, gafas de sol y aplícate crema solar con regularidad."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000004f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000049",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Visitas de invierno:"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "span",
+          "marks": [],
+          "text": " Lleva ropa variada."
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "span",
+          "marks": [],
+          "text": "Los días son cálidos, pero las noches pueden ser frescas, sobre todo en el desierto."
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "span",
+          "marks": [],
+          "text": "Será necesario llevar una chaqueta ligera o un jersey."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000052",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000050",
+          "_type": "span",
+          "marks": [
+            "strong"
+          ],
+          "text": "Mantente hidratado:"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "span",
+          "marks": [],
+          "text": " Independientemente de la estación, mantente hidratado bebiendo mucha agua, sobre todo cuando visites lugares al aire libre."
+        }
+      ],
+      "level": 1,
+      "listItem": "bullet",
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000054",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000053",
+          "_type": "span",
+          "marks": [],
+          "text": "Conclusión"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "00000000005d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000055",
+          "_type": "span",
+          "marks": [],
+          "text": "El clima de Egipto influye significativamente en la experiencia del viaje, desde decidir cuándo visitarlo hasta elegir qué meter en la maleta."
+        },
+        {
+          "_key": "000000000056",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "span",
+          "marks": [],
+          "text": "Si conoces los patrones climáticos y te preparas en consecuencia, puedes asegurarte un viaje cómodo y agradable a esta encantadora tierra de maravillas antiguas y belleza natural."
+        },
+        {
+          "_key": "000000000058",
+          "_type": "span",
+          "marks": [],
+          "text": "\n"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "span",
+          "marks": [],
+          "text": "Ya sea tomando el sol junto al Mediterráneo, explorando las majestuosas "
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "span",
+          "marks": [
+            "00000000005a"
+          ],
+          "text": "pirámides de Giza"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "span",
+          "marks": [],
+          "text": " o navegando por el Nilo, el clima de Egipto es un compañero clave en tu viaje a través del tiempo y la cultura."
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "00000000005a",
+          "_type": "externalLink",
+          "href": "/es/guide/guiza/la-meseta-de-guiza",
+          "newTab": true
+        }
+      ],
+      "style": "normal"
+    }
+  ],
+  "category": {
+    "_ref": "category-destination-depth",
+    "_type": "reference"
+  },
+  "deck": "Guía del tiempo en Egipto Comprender el clima de Egipto El clima de Egipto es predominantemente árido, con veranos calurosos, inviernos suaves y muy pocas precipitaciones a lo largo del año.Sin embargo, el tiempo puede variar significativamente entre las regiones costeras, el del...",
+  "heroImage": {
+    "alt": "Visitantes en silueta, uno señalando, ante un muro iluminado con jeroglíficos tallados",
+    "asset": {
+      "_ref": "image-25fb10dcdf2078043fc90bb480e0a3f51fb46b38-3000x2000-jpg",
+      "_type": "reference"
+    },
+    "caption": "Visitantes en silueta observan un muro iluminado de jeroglíficos dentro de un templo egipcio."
+  },
+  "language": "es",
+  "migration": {
+    "deckNeedsReview": true,
+    "migratedAt": "2026-05-04T23:05:02.596Z",
+    "reviewFlag": "category-orphan",
+    "source": "wp-import",
+    "wpAuthorId": 2,
+    "wpId": 73355,
+    "wpModifiedAt": "2025-05-15T11:43:04",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/egypt-weather-guide/"
+  },
+  "publishedAt": "2024-01-25T13:57:54",
+  "seo": {
+    "metaDescription": "Conviértete en un maestro del regateo en Egipto con nuestra guía 2024.\nAprende a negociar con respeto, comprendiendo la cultura local y asegurándote los mejores tratos.\nSumérgete en la vida mercantil de Egipto con confianza.\n¡Lee ahora nuestros consejos!   ",
+    "metaTitle": ""
+  },
+  "slug": {
+    "_type": "slug",
+    "current": "guia-del-tiempo-en-egipto"
+  },
+  "title": "Guía del tiempo en Egipto"
+}

@@ -2,7 +2,11 @@
 
 Branch: `content/phase1-consolidation` (from `main` at a468d88). Written 2026-09-26.
 
-> **Blocker for everything past Step 0.** This environment cannot reach Sanity
+> **Update 2026-09-25:** the blocker below is resolved. Sanity and the live
+> site are reachable, and Step 1 (backups plus the verified inventory) is done.
+> See `step1-backup.md`, which also corrects findings 1 and 2 below.
+>
+> **Blocker for everything past Step 0 (original note).** This environment cannot reach Sanity
 > (`ufallvd2.api.sanity.io`, `ufallvd2.apicdn.sanity.io`) or `travel2egypt.org`:
 > the network proxy answers 403, and no Sanity token is configured. Everything
 > below comes from the code, the redirect map, and
@@ -71,8 +75,8 @@ See `docs/phase1/inventory.csv` (180 rows: every URL in the brief × en/es/ja). 
 
 ### Findings already visible from the repo
 
-1. **`/travel-tips/telephones-in-egypt` is already redirected** (EN → `/travel-tips/staying-connected-in-egypt`, plus ES and JA rows) and was deleted from the staging dataset by `scripts/bulk-import-travel-tips-md.ts`. If you still see a Telephones stub, it is either the ES/JA page (the map also sends `/es/telefonos-en-egipto` → `/es/travel-tips/telefonos-en-egipto` and `/ja/travel-tips/telefonos-en-egipto` → `/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite`, both apparently live) or a production document the staging clean-up never reached. Task 7 needs a Sanity read to tell which.
-2. **`/blog/egypt-weather-guide` (Task 17 source) is not in the upload log.** It may not exist as a blog post at all.
+1. **`/travel-tips/telephones-in-egypt` is already redirected** (EN → `/travel-tips/staying-connected-in-egypt`, plus ES and JA rows) and was deleted from the staging dataset by `scripts/bulk-import-travel-tips-md.ts`. If you still see a Telephones stub, it is either the ES/JA page (the map also sends `/es/telefonos-en-egipto` → `/es/travel-tips/telefonos-en-egipto` and `/ja/travel-tips/telefonos-en-egipto` → `/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite`, both apparently live) or a production document the staging clean-up never reached. Task 7 needs a Sanity read to tell which. **Resolved:** the production document `wp-page-60914` is still published, and ES/JA serve 200 (see `step1-backup.md`).
+2. **`/blog/egypt-weather-guide` (Task 17 source) is not in the upload log.** ~~It may not exist as a blog post at all.~~ It exists (`wp-post-73355-en`, with ES and JA versions); see `step1-backup.md`.
 3. **11 existing redirect rows point at Phase 1 source URLs.** Once those sources redirect, each would become a chain, so they must be repointed to the final target in the same commit. The integrity test would catch them anyway.
    - `/touring-egypt` → `/blog/touring-egypt`
    - `/siwa-oasis-culture-and-adventure` → `/blog/siwa-oasis-culture-and-adventure`

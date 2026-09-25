@@ -1,0 +1,4444 @@
+{
+  "_createdAt": "2026-04-29T12:14:48Z",
+  "_id": "wp-page-58927",
+  "_rev": "u771oJL7tQyayKi2DWqzSn",
+  "_system": {
+    "base": {
+      "id": "wp-page-58927",
+      "rev": "dJ4ZpMyfIFtQ0D7lymg2Gt"
+    }
+  },
+  "_type": "city",
+  "_updatedAt": "2026-07-19T17:41:52Z",
+  "coordinates": {
+    "_type": "coordinates",
+    "lat": 27.9158,
+    "lng": 34.3299
+  },
+  "guideBestFor": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "Ras Mohammed & Tiran reefs, desert access"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "los arrecifes de Ras Mohammed y Tirán, acceso al desierto"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "ラス・ムハンマドとティランのサンゴ礁、砂漠への入口"
+    }
+  ],
+  "guideDek": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "Sinai’s dive capital and the easiest base for the reefs of Ras Mohammed and Tiran — and the launch point for the desert interior behind it."
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayTextValue",
+      "value": "La capital del buceo del Sinaí y la base más fácil para los arrecifes de Ras Mohammed y Tirán, y el punto de partida hacia el interior desértico que tiene detrás."
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayTextValue",
+      "value": "シナイのダイビングの中心地で、ラス・ムハンマドとティラン島のサンゴ礁への最も楽な拠点。背後の砂漠内陸への出発点でもある。"
+    }
+  ],
+  "guideHonestNote": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "A resort town — go for the water and the interior, not the strip."
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayTextValue",
+      "value": "Una ciudad de resort: ve por el agua y el interior, no por el paseo de bares."
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayTextValue",
+      "value": "リゾートの町。目当ては海と内陸であって、繁華街ではない。"
+    }
+  ],
+  "guideOrder": 1,
+  "guideRegion": "sinai",
+  "guideTier": "worth",
+  "guideTierLabel": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "For the right traveller"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "Para el viajero adecuado"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "人を選ぶ"
+    }
+  ],
+  "guideTime": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "three nights or more"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "tres noches o más"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "三泊以上"
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Al Sahaba Mosque illuminated at night in the Old Market square of Sharm El Sheikh."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "La mezquita Al Sahaba iluminada de noche en la plaza del Mercado Viejo de Sharm El Sheij."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "夜、シャルム・エル・シェイクの旧市場広場に照らし出されるアル・サハバ・モスク。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-b98f5604205f0e81c275d55cb42d70c317105929-3500x984-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Al Sahaba Mosque glows over Sharm El Sheikh's Old Market by night."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "La mezquita Al Sahaba brilla de noche sobre el Mercado Viejo de Sharm El Sheij."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "夜のシャルム・エル・シェイク旧市場に輝くアル・サハバ・モスク。"
+      }
+    ]
+  },
+  "migration": {
+    "migratedAt": "2026-04-29T12:14:48.115Z",
+    "reviewFlag": "keyfacts-mining-failed",
+    "source": "wp-import",
+    "wpId": 58927,
+    "wpModifiedAt": "2026-04-12T16:01:17",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/sharm-el-sheikh-travel-guide/"
+  },
+  "name": [
+    {
+      "_key": "en",
+      "value": "Sharm El Sheikh"
+    },
+    {
+      "_key": "es",
+      "value": "Sharm El Sheikh"
+    },
+    {
+      "_key": "ja",
+      "value": "シャルム・エル・シェイク"
+    }
+  ],
+  "overview": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm El Sheikh is Egypt's resort city at the edge of two seas."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "It sits at the southern tip of the Sinai Peninsula, where the Gulf of Suez and the Gulf of Aqaba meet the Red Sea through the narrow Straits of Tiran. Desert mountains rise behind it. Coral reefs begin almost at the shore. Hotels, dive centres, beach clubs, promenades, marinas, and resort districts stretch along a coastline that was, within living memory, little more than a strategic anchorage and fishing settlement."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm is not ancient Egypt in the Luxor sense."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "It is not a city of temples, tombs, old quarters, and layered urban memory."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "It is modern, purpose-built, international, sunny, controlled, and sometimes artificial. That is part of its appeal and part of its limitation. Visitors come for warm water, coral reefs, diving, snorkelling, beaches, hotels, nightlife, and easy winter sun."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "The best version of Sharm is not found by pretending it is something else."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "It is found by understanding what it does exceptionally well."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "The sea."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Where Sharm Is"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm El Sheikh lies in South Sinai, near the southernmost point of the peninsula."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Its position gives it a geography unlike any Nile Valley destination. Cairo, Luxor, Aswan, and Alexandria face inward toward the river or the Mediterranean. Sharm faces outward: toward the Red Sea, the Gulf of Aqaba, Saudi Arabia across the water, the Sinai mountains, and the strategic sea passage of Tiran."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "That position shaped its history."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "The Straits of Tiran control access to the Gulf of Aqaba and Israel's southern port of Eilat. Long before Sharm became a resort, this made the area militarily important in the Arab–Israeli conflict. After the return of Sinai to Egypt in 1982, the same coastline was remade as a tourism zone."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "The city you see today is the result: part beach resort, part dive capital, part diplomatic conference city, part security-managed enclave at the edge of Sinai."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "The Sea"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "The Red Sea is why Sharm matters."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Its coral reefs are among the richest accessible reef systems in the world, with extraordinary fish life, clear water, steep drop-offs, coral gardens, wrecks, currents, and shore-access snorkelling. The waters at Sharm host more than 1,000 species of fish and more than 250 species of coral. For many visitors, Sharm is the easiest place in Egypt to experience world-class marine life without needing to join a liveaboard or travel far from a hotel."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "Snorkellers can see coral and reef fish from beaches and jetties."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Divers can choose from dozens of centres, certification courses, daily boat trips, shore dives, wreck dives, and advanced sites. Ras Mohammed National Park, twelve kilometres south at the actual tip of Sinai where the two gulfs meet, is regarded as one of the finest dive destinations in the world. The Straits of Tiran offer dramatic reef walls and strong-current dives. The SS Thistlegorm, a British WWII supply ship sunk in 1941 and lying at thirty metres, is considered among the finest wreck dives globally."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "This marine abundance comes with responsibility."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Do not stand on coral."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Do not touch marine life."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Use reef-safe sunscreen or cover up."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "Choose operators who brief properly and respect protected areas. The Sharm El Sheikh Hyperbaric Medical Centre, founded in 1993 with USAID support, provides specialist treatment for diving-related medical conditions — a reassuring presence given the daily volume of divers in the water."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm's economy depends on reefs that are far easier to damage than to restore."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "The Resort Areas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm is not one single beach."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "It is a collection of resort districts, each with its own character."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "Naama Bay is the historic tourist centre. It has the promenade, restaurants, cafes, bars, dive centres, shops, and the most familiar resort-nightlife atmosphere. It suits first-time visitors who want to walk out of their hotel and find everything nearby."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm El Maya and Old Market sit farther south, closer to the old harbour and original settlement area. This is where visitors go for the old market, Al Sahaba Mosque, local shopping, and a less polished but more Egyptian-feeling evening."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Hadaba and Ras Um Sid occupy higher ground and reef-facing areas south of Naama. They suit repeat visitors, snorkellers, and travellers who want quieter hotels with access to good reef edges."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharks Bay and White Knight Bay sit closer to the airport and SOHO Square. They offer resort convenience, coral access, and a more controlled entertainment environment."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Nabq Bay, north of the airport, is newer, flatter, windier, and more spread out. It has large resorts, family hotels, and access toward Nabq protected area, but it is farther from the older Sharm centres."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "Choosing the right area matters more in Sharm than choosing the right street."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "The city is spread out, and most visitors spend much of their time inside or around their hotel."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Beyond the Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "The desert begins immediately behind Sharm."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "This gives the city a second landscape: rocky Sinai mountains, wadis, Bedouin camps, quad-bike routes, camel rides, stargazing trips, and longer excursions toward Saint Catherine's Monastery and Mount Sinai."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "Some of these experiences are excellent."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "Some are formulaic."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "The difference depends heavily on operator quality and expectations. A short quad-bike outing from a resort strip is not the same as understanding Bedouin Sinai. A sunrise climb of Mount Sinai is not a casual evening activity. Saint Catherine's Monastery is one of the most important religious sites in the region and deserves more than being treated as an add-on to a beach holiday."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm can open the door to Sinai."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "It does not automatically explain it."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "Old Market and Al Sahaba Mosque"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "Old Market, in Sharm El Maya, is the easiest place to feel a little distance from the resort strip."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "It is still tourist-oriented, with souvenir shops, restaurants, spices, lamps, perfumes, T-shirts, and bargaining. But compared with the hotel malls and promenades, it has more texture and evening life."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": "Al Sahaba Mosque dominates the area visually."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "Completed in the twenty-first century, it is not old, but it is one of Sharm's most recognisable landmarks. Its minarets and domes create a dramatic skyline above the market, especially after dark."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "Dress respectfully around the mosque and ask about visitor access before entering."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "SOHO Square and Nightlife"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "SOHO Square is Sharm's most polished entertainment complex."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "It offers restaurants, cafes, shops, bars, fountains, family attractions, and resort-style evening activity in a clean, controlled environment near Sharks Bay."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": "Naama Bay remains the more classic nightlife area, with restaurants, clubs, bars, shisha cafes, and beach promenades."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm's nightlife is not Cairo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "It is resort nightlife: international, seasonal, hotel-driven, and shaped by package tourism. That can be exactly what some travellers want. Others may find it too manufactured."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "Again, the key is honesty."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm is very good at being a resort."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": "It is less convincing when asked to be an old city."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "History in Brief"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm's modern history is compressed and strategic."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": "For most of recorded history, there was no major city here. Its importance came from controlling the Straits of Tiran. Egypt held the area, Israel occupied it in 1956 and returned it in 1957, then occupied it again after the 1967 Six-Day War. Under Israeli administration it was developed as a small resort settlement called Ofira, with early tourism infrastructure around Naama Bay."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": "After the 1979 Egypt–Israel Peace Treaty, Sinai was returned to Egypt in stages, and Sharm came back under Egyptian sovereignty in 1982."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": "Egypt expanded it rapidly."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": "President Hosni Mubarak promoted it as the \"City of Peace,\" and Sharm hosted international summits, diplomatic meetings, and later major conferences including COP27 in November 2022."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": "This history explains the city."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": "It is young, strategic, planned, and built around tourism more than organic urban life."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000085",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": "Security Context"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": "Any serious guide to Sharm should acknowledge security without sensationalising it."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": "The city has experienced major incidents, including the July 2005 resort bombings, which killed 88 people, and the October 2015 downing of Metrojet Flight 9268 after departure from Sharm El Sheikh airport, which killed all 224 people on board. Those events reshaped aviation security, tourism flows, and international travel advisories for years."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": "Today, Sharm operates with extensive security around the airport, hotels, roads, and tourist areas. Most government advisories distinguish between Sharm El Sheikh in the South Sinai Governorate (which has been significantly more stable) and other parts of Sinai including the north (treated separately and more restricted)."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": "Travellers should check their own government's current advice before departure."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": "The practical conclusion is not fear."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000091",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": "It is awareness."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": "Stay within permitted routes, use reputable transport, avoid restricted areas, and follow current local guidance."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000095",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": "When to Go"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000097",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm is sunny almost all year, with more than 330 days of sunshine and annual rainfall of around 1 millimetre."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000099",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [],
+              "text": "The main question is heat."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [],
+              "text": "October to April is the most comfortable period for most visitors. Days are warm, evenings are pleasant or cool, and desert trips are manageable. November, February, March, and April often offer the best balance."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009c",
+              "_type": "span",
+              "marks": [],
+              "text": "Summer brings intense heat, with daytime temperatures often above 35°C and sometimes above 40°C. The sea is warm, resorts are active, and beach holidays continue, but desert excursions and outdoor wandering become harder."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": "Divers often favour autumn, especially October and November, when the water retains summer warmth and air temperatures are more comfortable. Water temperatures run from around 21°C in winter to around 30°C in summer."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [],
+              "text": "Winter has cooler water but excellent visibility and easier sightseeing."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": "How Long to Stay"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000a5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [],
+              "text": "Three nights is enough for a short resort break."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [],
+              "text": "Five to seven nights is better if you want a proper beach and diving holiday, with time for Ras Mohammed, Tiran, Old Market, and one desert or Saint Catherine's excursion."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a8",
+              "_type": "span",
+              "marks": [],
+              "text": "Divers can easily spend a week or more."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ab",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000aa",
+              "_type": "span",
+              "marks": [],
+              "text": "Travellers using Sharm as part of a wider Egypt trip should be clear about what role it plays: rest after Cairo and Luxor, diving focus, family resort time, or Sinai extension."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm works best when it has a purpose."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000af",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [],
+              "text": "Visas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000b1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b0",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm has a special visa situation."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitors who intend to stay within the Sharm El Sheikh resort zone (including Ras Mohammed by boat) may enter without a full Egyptian visa, receiving a free Sinai-only stamp on arrival valid for 14 days. Visitors planning to travel beyond the resort zone — to Cairo, Luxor, Saint Catherine's, or elsewhere in Egypt — require a full Egyptian visa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b4",
+              "_type": "span",
+              "marks": [],
+              "text": "If you are unsure, get the full visa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b6",
+              "_type": "span",
+              "marks": [],
+              "text": "Final Word"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000b9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b8",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm El Sheikh is not Egypt's deepest city."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [],
+              "text": "It is one of Egypt's clearest propositions."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000bc",
+              "_type": "span",
+              "marks": [],
+              "text": "Come for the Red Sea."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bf",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000be",
+              "_type": "span",
+              "marks": [],
+              "text": "Come for coral, warm water, winter sun, easy resort life, and the strange geography of a modern tourist city built where desert mountains meet strategic sea lanes."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c0",
+              "_type": "span",
+              "marks": [],
+              "text": "Look honestly and Sharm becomes more interesting, not less."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c2",
+              "_type": "span",
+              "marks": [],
+              "text": "It is not ancient in the way Luxor is ancient."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c4",
+              "_type": "span",
+              "marks": [],
+              "text": "It is not urban in the way Cairo is urban."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c6",
+              "_type": "span",
+              "marks": [],
+              "text": "It is a resort city on a geopolitical edge, wrapped around some of the most beautiful water in Egypt."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [],
+              "text": "That is enough, if you let it be what it is."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm El Sheikh es la ciudad turística de Egipto en el borde de dos mares."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Se asienta en el extremo más meridional de la península del Sinaí, donde el golfo de Suez y el golfo de Aqaba se encuentran con el mar Rojo a través del estrecho paso de Tirán. Las montañas del desierto se levantan tras ella. Los arrecifes de coral comienzan casi en la orilla. Hoteles, centros de buceo, clubes de playa, paseos marítimos, puertos deportivos y distritos de resort se extienden a lo largo de un litoral que, en la memoria de los vivos, era poco más que un fondeadero estratégico y un pequeño asentamiento de pescadores."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm no es el Egipto antiguo en el sentido de Luxor."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "No es una ciudad de templos, tumbas, barrios antiguos y memoria urbana estratificada."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "Es moderna, construida con un propósito, internacional, soleada, controlada y a veces artificial. Eso forma parte de su atractivo y parte de su limitación. Los visitantes vienen por las aguas cálidas, los arrecifes de coral, el buceo, el esnórquel, las playas, los hoteles, la vida nocturna y el sol fácil de invierno."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "La mejor versión de Sharm no se encuentra fingiendo que es otra cosa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Se encuentra entendiendo lo que hace excepcionalmente bien."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "El mar."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Dónde está Sharm"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm El Sheikh se asienta en el sur del Sinaí, cerca del punto más meridional de la península."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "Su posición le da una geografía distinta a la de cualquier destino del valle del Nilo. El Cairo, Luxor, Asuán y Alejandría miran hacia el interior, hacia el río o el Mediterráneo. Sharm mira hacia afuera: hacia el mar Rojo, el golfo de Aqaba, Arabia Saudí al otro lado del agua, las montañas del Sinaí y el paso marítimo estratégico de Tirán."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "Esa posición moldeó su historia."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "El estrecho de Tirán controla el acceso al golfo de Aqaba y al puerto meridional israelí de Eilat. Mucho antes de que Sharm se convirtiera en una ciudad turística, eso hizo que la zona fuera militarmente importante en el conflicto árabe-israelí. Tras la devolución del Sinaí a Egipto en 1982, el mismo litoral fue rehecho como zona turística."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "La ciudad que se ve hoy es el resultado: en parte resort de playa, en parte capital del buceo, en parte ciudad de conferencias diplomáticas, en parte enclave gestionado en términos de seguridad al borde del Sinaí."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ El mar"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "El mar Rojo es la razón por la que Sharm importa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Sus arrecifes de coral están entre los sistemas de arrecife accesibles más ricos del mundo, con una vida íctica extraordinaria, agua cristalina, paredes vertiginosas, jardines de coral, pecios, corrientes y esnórquel desde la orilla. Las aguas de Sharm albergan más de 1000 especies de peces y más de 250 especies de coral. Para muchos visitantes, Sharm es el lugar más fácil de Egipto para experimentar vida marina de nivel mundial sin tener que unirse a un crucero de buceo ni viajar lejos del hotel."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Los esnorquelistas pueden ver coral y peces de arrecife desde las playas y los pantalanes."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Los buceadores pueden elegir entre decenas de centros, cursos de certificación, salidas diarias en barco, buceos desde la orilla, buceos a pecios y lugares avanzados. El Parque Nacional Ras Mohammed, a doce kilómetros al sur en la propia punta del Sinaí donde se encuentran los dos golfos, está considerado como uno de los mejores destinos de buceo del mundo. El estrecho de Tirán ofrece dramáticas paredes de arrecife y buceos de corriente fuerte. El SS Thistlegorm, un buque de suministros británico de la Segunda Guerra Mundial hundido en 1941 y que reposa a treinta metros, está considerado entre los mejores buceos a pecios del mundo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Esta abundancia marina conlleva responsabilidad."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "No te pongas de pie sobre el coral."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "No toques la vida marina."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Usa protector solar respetuoso con los arrecifes o cúbrete."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Elige operadores que informen adecuadamente y respeten las zonas protegidas. El Centro Médico Hiperbárico de Sharm El Sheikh, fundado en 1993 con apoyo de la USAID, ofrece tratamiento especializado para las afecciones médicas relacionadas con el buceo: una presencia tranquilizadora dado el volumen diario de buceadores en el agua."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "La economía de Sharm depende de unos arrecifes que son mucho más fáciles de dañar que de restaurar."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Las zonas de resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm no es una única playa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Es un conjunto de distritos de resort, cada uno con su propio carácter."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "Naama (bahía de) es el centro turístico histórico. Tiene el paseo marítimo, los restaurantes, las cafeterías, los bares, los centros de buceo, las tiendas y el ambiente de vida nocturna de resort más reconocible. Es adecuada para los visitantes que llegan por primera vez y quieren salir del hotel y encontrarlo todo cerca."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm El Maya y el Mercado Antiguo (Old Market) se sitúan más al sur, cerca del antiguo puerto y la zona del asentamiento original. Aquí es donde van los visitantes para el mercado antiguo, la Mezquita Al Sahaba, las compras locales y una tarde menos pulida pero con más sabor egipcio."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "Hadaba y Ras Um Sid ocupan los terrenos más altos y las zonas frente al arrecife al sur de Naama. Son adecuadas para los visitantes habituales, los esnorquelistas y los viajeros que quieren hoteles más tranquilos con acceso a buenos bordes de arrecife."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharks Bay y White Knight Bay se sitúan más cerca del aeropuerto y de SOHO Square. Ofrecen comodidad de resort, acceso al coral y un entorno de entretenimiento más controlado."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Nabq Bay, al norte del aeropuerto, es más reciente, más plana, más ventosa y está más extendida. Tiene grandes resorts, hoteles familiares y acceso hacia la zona protegida de Nabq, pero queda más lejos de los antiguos núcleos de Sharm."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "Elegir la zona adecuada importa más en Sharm que elegir la calle adecuada."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "La ciudad está dispersa y la mayoría de los visitantes pasan gran parte de su tiempo dentro de su hotel o en sus inmediaciones."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Más allá del resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "El desierto comienza inmediatamente detrás de Sharm."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "Eso da a la ciudad un segundo paisaje: las montañas rocosas del Sinaí, los wadis, los campamentos beduinos, las rutas en quad, los paseos en camello, las salidas para observar las estrellas y las excursiones más largas hacia el Monasterio de Santa Catalina y el Monte Sinaí."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "Algunas de estas experiencias son excelentes."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "Otras son formularias."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "La diferencia depende en buena medida de la calidad del operador y de las expectativas. Una breve salida en quad desde la franja del resort no es lo mismo que entender el Sinaí beduino. Una subida al amanecer al Monte Sinaí no es una actividad casual de tarde. El Monasterio de Santa Catalina es uno de los lugares religiosos más importantes de la región y merece más que ser tratado como un complemento de unas vacaciones de playa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm puede abrir la puerta al Sinaí."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": "No lo explica automáticamente."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ El Mercado Antiguo y la Mezquita Al Sahaba"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "El Mercado Antiguo, en Sharm El Maya, es el lugar más fácil para sentir cierta distancia respecto de la franja del resort."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "Sigue estando orientado al turismo, con tiendas de recuerdos, restaurantes, especias, lámparas, perfumes, camisetas y regateo. Pero comparado con los centros comerciales y los paseos marítimos de los hoteles, tiene más textura y vida vespertina."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "La Mezquita Al Sahaba domina la zona visualmente."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": "Terminada en el siglo XXI, no es antigua, pero es uno de los monumentos más reconocibles de Sharm. Sus minaretes y cúpulas crean un dramático perfil urbano sobre el mercado, especialmente al caer la noche."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": "Vístete con respeto en los alrededores de la mezquita y pregunta sobre el acceso para visitantes antes de entrar."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ SOHO Square y vida nocturna"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": "SOHO Square es el complejo de entretenimiento más pulido de Sharm."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": "Ofrece restaurantes, cafeterías, tiendas, bares, fuentes, atracciones familiares y actividad vespertina de estilo resort en un entorno limpio y controlado cerca de Sharks Bay."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "Naama (bahía de) sigue siendo la zona de vida nocturna más clásica, con restaurantes, clubes, bares, cafeterías de shisha y paseos marítimos de playa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": "La vida nocturna de Sharm no es la de El Cairo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": "Es vida nocturna de resort: internacional, estacional, movida por los hoteles y moldeada por el turismo de paquete. Eso puede ser exactamente lo que algunos viajeros quieren. Otros pueden encontrarla demasiado manufacturada."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": "De nuevo, la clave es la honestidad."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm es muy buena siendo un resort."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": "Es menos convincente cuando se le pide ser una ciudad antigua."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ La historia en breve"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000085",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": "La historia moderna de Sharm es comprimida y estratégica."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": "Durante la mayor parte de la historia registrada, no hubo aquí ninguna ciudad importante. Su relevancia provenía del control del estrecho de Tirán. Egipto controlaba la zona, Israel la ocupó en 1956 y la devolvió en 1957, y volvió a ocuparla tras la Guerra de los Seis Días de 1967. Bajo administración israelí fue desarrollada como un pequeño asentamiento turístico llamado Ofira, con una infraestructura turística temprana alrededor de Naama (bahía de)."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": "Tras el Tratado de Paz Egipto-Israel de 1979, el Sinaí fue devuelto a Egipto por etapas, y Sharm regresó a la soberanía egipcia en 1982."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": "Egipto la amplió rápidamente."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": "El presidente Hosni Mubarak la promovió como la «Ciudad de la Paz», y Sharm acogió cumbres internacionales, reuniones diplomáticas y, más tarde, grandes conferencias, incluida la COP27 en noviembre de 2022."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": "Esta historia explica la ciudad."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000091",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": "Es joven, estratégica, planificada y construida en torno al turismo más que a una vida urbana orgánica."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000095",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Contexto de seguridad"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000097",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [],
+              "text": "Cualquier guía seria sobre Sharm debe reconocer la cuestión de la seguridad sin sensacionalismos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000099",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [],
+              "text": "La ciudad ha experimentado incidentes graves, entre ellos los atentados contra la zona turística de julio de 2005, que mataron a 88 personas, y el derribo en octubre de 2015 del vuelo 9268 de Metrojet tras su despegue del aeropuerto de Sharm El Sheikh, que mató a las 224 personas a bordo. Esos sucesos remodelaron la seguridad aeronáutica, los flujos turísticos y los consejos de viaje internacionales durante años."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [],
+              "text": "Hoy, Sharm opera con una seguridad extensa alrededor del aeropuerto, los hoteles, las carreteras y las zonas turísticas. La mayoría de los avisos de los gobiernos distinguen entre Sharm El Sheikh, en la gobernación del Sinaí del Sur (que ha sido significativamente más estable), y otras partes del Sinaí, incluido el norte (tratadas por separado y con más restricciones)."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009c",
+              "_type": "span",
+              "marks": [],
+              "text": "Los viajeros deben consultar los consejos vigentes de su propio gobierno antes de la salida."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": "La conclusión práctica no es el miedo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [],
+              "text": "Es la atención."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": "Mantente dentro de las rutas permitidas, usa transporte de reputación, evita las zonas restringidas y sigue las indicaciones locales vigentes."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Cuándo ir"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000a9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a8",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm es soleado casi todo el año, con más de 330 días de sol y una precipitación anual de alrededor de 1 mm."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ab",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000aa",
+              "_type": "span",
+              "marks": [],
+              "text": "La cuestión principal es el calor."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [],
+              "text": "De octubre a abril es el periodo más cómodo para la mayoría de los visitantes. Los días son cálidos, las tardes son agradables o frescas y las salidas al desierto son manejables. Noviembre, febrero, marzo y abril suelen ofrecer el mejor equilibrio."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000af",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [],
+              "text": "El verano trae un calor intenso, con temperaturas diurnas a menudo por encima de 35 °C y a veces por encima de 40 °C. El mar está cálido, los resorts están activos y las vacaciones de playa continúan, pero las excursiones al desierto y los paseos al aire libre se vuelven más difíciles."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b0",
+              "_type": "span",
+              "marks": [],
+              "text": "Los buceadores suelen preferir el otoño, sobre todo octubre y noviembre, cuando el agua conserva el calor del verano y las temperaturas del aire son más cómodas. La temperatura del agua va de unos 21 °C en invierno a unos 30 °C en verano."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [],
+              "text": "El invierno tiene aguas más frescas pero una visibilidad excelente y un turismo cultural más fácil."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b6",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Cuánto tiempo quedarse"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000b9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b8",
+              "_type": "span",
+              "marks": [],
+              "text": "Tres noches son suficientes para una escapada corta de resort."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [],
+              "text": "Cinco a siete noches son mejores si quieres unas vacaciones propias de playa y buceo, con tiempo para Ras Mohammed, Tirán, el Mercado Antiguo y una excursión al desierto o a Santa Catalina."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000bc",
+              "_type": "span",
+              "marks": [],
+              "text": "Los buceadores pueden pasar fácilmente una semana o más."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bf",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000be",
+              "_type": "span",
+              "marks": [],
+              "text": "Los viajeros que usen Sharm como parte de un viaje más amplio por Egipto deben tener claro qué papel desempeña: descanso después de El Cairo y Luxor, foco en el buceo, tiempo familiar en el resort o extensión al Sinaí."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c0",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm funciona mejor cuando tiene un propósito."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c4",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Visados"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000c7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c6",
+              "_type": "span",
+              "marks": [],
+              "text": "Sharm tiene una situación especial de visado."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [],
+              "text": "Los visitantes que tengan intención de quedarse dentro de la zona de resorts de Sharm El Sheikh (incluido Ras Mohammed en barco) pueden entrar sin un visado egipcio completo, recibiendo a la llegada un sello gratuito solo para el Sinaí, válido por 14 días. Los visitantes que planeen viajar más allá de la zona de resorts —a El Cairo, Luxor, Santa Catalina o cualquier otro lugar de Egipto— necesitan un visado egipcio completo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000cb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ca",
+              "_type": "span",
+              "marks": [],
+              "text": "Si tienes dudas, obtén el visado completo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000cd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000cc",
+              "_type": "span",
+              "marks": [],
+              "text": "Última actualización: mayo de 2026"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "— 砂漠の山と紅海の珊瑚礁が出会う、シナイ南端のリゾート都市 —"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ シャルムを正しく見る"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルム・エル・シェイクは、二つの海の端にあるエジプトのリゾート都市です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "シナイ半島の南端、スエズ湾とアカバ湾が狭いティラン海峡を通じて紅海へつながる場所にあります。背後には乾いた山が立ち上がり、海岸のすぐ近くから珊瑚礁が始まります。ホテル、ダイビングセンター、ビーチクラブ、遊歩道、マリーナ、リゾート地区が海岸沿いに連なりますが、ほんの少し前まで、この場所は戦略上の停泊地と漁村に近い存在でした。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムは、ルクソールのような古代エジプトではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "神殿、墓、旧市街、都市の長い記憶を探す場所でもありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "ここは、現代的で、計画的で、国際的で、陽光に満ち、管理され、時に人工的です。そのことは魅力でもあり、限界でもあります。訪れる人は、温かい海、珊瑚礁、ダイビング、シュノーケリング、ビーチ、ホテル、夜のリゾート時間、冬の太陽を求めてやって来ます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムの最良の姿は、別の何かに見せようとすると見失われます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "ここが得意なことを理解した時に、はっきり見えてきます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "海です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ シャルムの位置"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルム・エル・シェイクは、南シナイ、半島のほぼ最南端にあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロ、ルクソール、アスワン、アレクサンドリアがナイルや地中海へ向かう都市だとすれば、シャルムは外へ向いています。紅海、アカバ湾、対岸のサウジアラビア、シナイの山々、そして戦略的な海峡へ向かう都市です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "この位置が、歴史を決めました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "ティラン海峡は、アカバ湾とイスラエル南部の港エイラートへの海上アクセスを左右します。リゾートになる前から、この海岸はアラブ・イスラエル紛争の中で軍事的に重要な場所でした。1982年にシナイ半島がエジプトへ返還された後、同じ海岸は観光地としてつくり替えられていきます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "今日のシャルムは、その結果です。ビーチリゾートであり、ダイビング拠点であり、国際会議都市であり、シナイの端にある安全管理されたリゾート空間でもあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 海"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "紅海こそ、シャルムが重要な理由です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "この周辺の珊瑚礁は、世界でもアクセスしやすい豊かなリーフ環境のひとつです。透明度の高い水、急なドロップオフ、珊瑚の庭、沈船、潮流、岸から入れるシュノーケリング。シャルム周辺の海には、1,000種を超える魚類と250種を超える珊瑚が生息するとされます。多くの旅行者にとって、シャルムはリブアボードに乗ったりホテルから遠く離れたりせずに、世界級の海洋生物に出会える、エジプトで最も手軽な場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "シュノーケラーは、ホテルのビーチや桟橋から珊瑚と魚を見ることができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "ダイバーは、数多くのダイビングセンター、講習、日帰りボート、岸からのダイブ、沈船ダイブ、上級者向けポイントから選べます。二つの湾が出会うシナイ最南端、街の南約12kmにあるラス・モハメッド国立公園は、世界有数のダイビングエリアと見なされています。ティラン海峡は、劇的なリーフウォールと潮流のあるダイブで知られます。1941年に沈み、水深約30mに横たわる英国の第二次世界大戦期の補給船SS Thistlegormは、世界屈指の沈船ダイブとして名高い場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "この豊かさには責任が伴います。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "珊瑚の上に立たない。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "海洋生物に触れない。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "リーフに優しい日焼け止めを使うか、肌を覆う。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "きちんと説明し、保護区を尊重するオペレーターを選ぶ。1993年にUSAIDの支援で設立されたシャルム・エル・シェイク高気圧治療センターは、ダイビング関連の医療に対応する専門施設であり、毎日多くのダイバーが海に入るこの街では心強い存在です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムの経済は、壊すのは簡単で、戻すのは難しいリーフに支えられています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ リゾートエリア"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムは、ひとつのビーチではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "それぞれ性格の異なるリゾート地区の連なりです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "エリア · 特徴"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "ナアマ・ベイ · 伝統的な観光中心地。遊歩道、レストラン、バー、ダイブセンターが集まり、ホテルから歩いてすべてに届く"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルム・エル・マヤ／オールド・マーケット · 古い港と元の集落に近い南側。市場、アル・サハバ・モスク、地元感のある夕方に向く"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "ハダバ／ラス・ウム・シド · ナアマの南、高台とリーフアクセス。静かな滞在やシュノーケリング向き"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "シャークス・ベイ／ホワイトナイト・ベイ · 空港に近く、リーフとSOHO Squareにアクセスしやすい管理されたエリア"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "ナブク・ベイ · 空港の北。新しく、平坦で、広い。大型リゾートと家族向けホテル。風が強いこともある"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムでは、ホテル選びはエリア選びでもあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "地図上の距離より、実際の移動感が旅を左右します。多くの旅行者は、滞在時間の多くをホテルの中か周辺で過ごします。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ リゾートの外へ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムの背後には、すぐにシナイの砂漠が始まります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "ワディ、岩山、ベドウィン・キャンプ、クアッドバイク、ラクダ、星空観賞、そしてセント・カトリーナ修道院やシナイ山への長い日帰り旅。リゾート都市でありながら、シャルムはシナイの内側へ向かう入口にもなります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": "ただし、すべての砂漠体験が同じ質ではありません。短いクアッドバイク体験は、ベドウィンのシナイを理解することとは違います。シナイ山の日の出登山は、気軽な夜遊びの延長ではありません。セント・カトリーナ修道院は、この地域で最も重要な宗教遺産のひとつであり、ビーチ休暇のおまけとして扱うには重すぎる場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムは、シナイへの扉を開けることができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "しかし、シナイを自動的に説明してくれるわけではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ オールド・マーケットとアル・サハバ・モスク"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルム・エル・マヤにあるオールド・マーケットは、リゾートストリップから少し距離を感じられる、最も手軽な場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": "今も観光向けで、土産物店、レストラン、スパイス、ランプ、香水、Tシャツ、値段交渉があります。けれど、ホテルのモールや遊歩道と比べると、手触りと夜の生活感があります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": "アル・サハバ・モスクは、このエリアを視覚的に支配しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "21世紀に完成したもので、古くはありませんが、シャルムで最も分かりやすいランドマークのひとつです。ミナレットとドームは、特に日没後、市場の上に劇的なスカイラインをつくります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "モスク周辺では敬意を持った服装で、入る前に見学が可能か確認してください。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ SOHO Squareとナイトライフ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "SOHO Squareは、シャルムで最も整ったエンターテインメント複合施設です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": "シャークス・ベイ近くにあり、レストラン、カフェ、ショップ、バー、噴水、家族向けアトラクション、リゾート風の夜の活動を、清潔で管理された環境で提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": "ナアマ・ベイは、より古典的なナイトライフのエリアであり続けています。レストラン、クラブ、バー、シーシャカフェ、ビーチプロムナードがあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムのナイトライフは、カイロではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": "それはリゾートのナイトライフです。国際的で、季節的で、ホテル主導で、パッケージ観光に形づくられています。それを求める旅行者には、まさにそれが正解です。つくられすぎだと感じる人もいるでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": "ここでも、鍵は正直さです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムは、リゾートであることがとても得意です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": "旧市街であることを求められると、説得力が下がります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 歴史を短く見る"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムの都市史は短く、戦略的です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": "長い間、ここに大きな都市はありませんでした。重要だったのは、ティラン海峡を押さえる位置でした。エジプトがこの地を保持し、1956年にイスラエルが占領、1957年に返還。1967年の第三次中東戦争後には再びイスラエルの支配下に入り、Ofiraという小さなリゾート集落として、ナアマ・ベイ周辺に初期観光インフラが整えられました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": "1979年のエジプト・イスラエル平和条約を経て、シナイ半島は段階的にエジプトへ返還され、シャルムは1982年にエジプト主権へ戻ります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": "その後、エジプトはこの地を急速に拡張しました。ホスニー・ムバラク大統領はシャルムを「平和の都市」として打ち出し、国際会議や外交会合の舞台にもなりました。2022年11月にはCOP27も開催されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000091",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": "この歴史は、都市の性格を説明します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": "若く、戦略的で、計画的で、自然発生的な都市生活より観光を中心につくられた場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000097",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 安全と意識"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000099",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムを真面目に案内するなら、過度に煽ることなく安全面にも触れる必要があります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [],
+              "text": "この街は大きな事件を経験しました。88人が死亡した2005年7月のリゾート爆破事件、そしてシャルム・エル・シェイク空港を離陸した直後に乗員乗客224人全員が死亡した2015年10月のMetrojet 9268便墜落事件です。これらの出来事は、航空保安、観光客の流れ、各国の渡航勧告に長く影響しました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009c",
+              "_type": "span",
+              "marks": [],
+              "text": "現在のシャルムは、空港、ホテル、道路、観光エリアで強い安全管理のもとに運営されています。多くの政府勧告は、より安定している南シナイ県のシャルム・エル・シェイクと、別扱いでより制限の強い北シナイなどを区別しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行前には、自国政府の最新情報を確認するべきです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [],
+              "text": "結論は、恐れることではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": "意識して旅することです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [],
+              "text": "許可されたルートを使い、信頼できる交通を選び、制限地域へ入らず、現地の最新案内に従うこと。シャルムでは、それが旅の基本です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a8",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ いつ行くか"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000ab",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000aa",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムは年間330日を超える日照があり、年間降水量は約1mmと、雨はほとんどありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [],
+              "text": "主な問題は暑さです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000af",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [],
+              "text": "多くの旅行者にとって最も快適なのは、10月から4月です。昼は暖かく、夜は心地よいか涼しく、砂漠や町歩きも楽になります。11月、2月、3月、4月は特にバランスがよい時期です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b0",
+              "_type": "span",
+              "marks": [],
+              "text": "夏は本格的に暑く、日中は35度を超え、時に40度を超えることもあります。海は温かく、リゾートは動いていますが、砂漠ツアーや午後の街歩きは厳しくなります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [],
+              "text": "ダイバーには秋、とくに10月と11月が人気です。水温は夏の温かさを残し、気温は落ち着き、海況も旅しやすくなります。水温は冬の約21度から夏の約30度の間で動きます。冬は水が冷たい一方、透明度はよく、観光もしやすくなります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b6",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ どのくらい滞在するか"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000b9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b8",
+              "_type": "span",
+              "marks": [],
+              "text": "短いリゾート休暇なら、3泊で十分です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [],
+              "text": "ビーチとダイビングをしっかり楽しみたいなら、5〜7泊がよく、ラス・モハメッド、ティラン、オールド・マーケット、そして砂漠かセント・カトリーナのツアーを一つ組む余裕が生まれます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000bc",
+              "_type": "span",
+              "marks": [],
+              "text": "ダイバーは、一週間以上でも簡単に過ごせます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bf",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000be",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプト周遊の一部としてシャルムを使う旅行者は、その役割をはっきりさせておくべきです。カイロやルクソールの後の休息、ダイビング中心、家族のリゾート時間、シナイ延長のどれか。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c0",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムは、目的があるときに最もよく機能します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c4",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ ビザ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000c7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c6",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムには、シナイ限定スタンプという特殊な入国扱いがあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルムのリゾート地域内（ボートで行くラス・モハメッドを含む）だけに滞在する予定の旅行者は、フルのエジプトビザなしで入国でき、到着時に14日間有効の無料シナイ限定スタンプを受け取れることがあります。カイロ、ルクソール、セント・カトリーナ、その他エジプト国内のリゾートゾーン外へ行く予定なら、フルのエジプトビザが必要です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000cb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ca",
+              "_type": "span",
+              "marks": [],
+              "text": "少しでも迷うなら、フルのエジプトビザを用意するほうが安全です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000cf",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ce",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Final Word"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000d1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d0",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "シャルム・エル・シェイクは、エジプトで最も深い都市ではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d2",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "けれど、最も分かりやすい約束を持つ都市のひとつです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d4",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "紅海のために来る。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d6",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "珊瑚、温かい海、冬の太陽、リゾートの気楽さ、砂漠の山と戦略的な海路が出会う奇妙な地理のために来る。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d8",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "正直に見るほど、シャルムはつまらなくなるのではなく、むしろ興味深くなります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000db",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000da",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "ルクソールのように古くはありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000dd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000dc",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "カイロのように都市的でもありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000df",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000de",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "ここは、エジプトで最も美しい水のひとつを抱えた、地政学的な端にあるリゾート都市です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e0",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "それで十分です。ここがそのままの自分でいることを許すなら。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e2",
+              "_type": "span",
+              "marks": [],
+              "text": "最終更新：2026年5月"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "placesToGo": [
+    {
+      "_key": "sharm-el-sheikh-1",
+      "_ref": "wp-page-60771",
+      "_type": "reference"
+    },
+    {
+      "_key": "sharm-el-sheikh-5",
+      "_ref": "guideArticle.sharm-el-sheikh.the-heavenly-cathedral",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-nabq-national-park",
+      "_ref": "guideArticle.sharm-el-sheikh.nabq-national-park",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-ras-mohammed-national-park",
+      "_ref": "guideArticle.sharm-el-sheikh.ras-mohammed-national-park",
+      "_type": "reference"
+    }
+  ],
+  "region": "sinai",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "sharm-el-sheikh"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "sharm-el-sheikh"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "sharumu-eru-sheiku"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Sharm El-Sheikh, a jewel nestled at the southern tip of Egypt’s Sinai Peninsula, beckons travelers from across the globe with its enchanting allure. Renowned for its sun-kissed sandy beaches and balmy weather, this city is a haven for those seeking a blend of relaxation and adventure.…"
+    },
+    {
+      "_key": "es",
+      "value": "Sharm el Sheikh, una joya enclavada en el extremo sur de la península egipcia del Sinaí, atrae a viajeros de todo el mundo con su encantador encanto. Conocida por sus playas de arena bañadas por el sol y su clima templado, esta ciudad es un paraíso para quienes buscan una mezcla de relajación y aventura.…"
+    },
+    {
+      "_key": "ja",
+      "value": "シャルム・エル・シェイクは、エジプトのシナイ半島の南端に位置する宝石のような町で、その魅力で世界中の旅行者を魅了しています。 太陽を浴びた砂浜と温暖な気候で知られるこの都市は、リラックスと冒険の両方を求める人々にとっての楽園です。…"
+    }
+  ]
+}
