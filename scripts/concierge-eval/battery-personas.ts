@@ -71,7 +71,7 @@ export const BATTERY_SCENARIOS: ReplayScenario[] = [
     ],
     checks: {
       expectWrap: true,
-      mustContain: ['Sawa', 'sawatours.org'],
+      mustContain: ['Sawa', 'sawa.tours'],
       mustNotContain: ['affordegypt'],
     },
     extraction: [
@@ -91,7 +91,7 @@ export const BATTERY_SCENARIOS: ReplayScenario[] = [
     ],
     checks: {
       expectWrap: true,
-      mustContain: ['Sawa', 'sawatours.org'],
+      mustContain: ['Sawa', 'sawa.tours'],
     },
     extraction: [
       { path: 'complete', op: 'equals', value: true },

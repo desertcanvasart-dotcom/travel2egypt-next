@@ -6,7 +6,7 @@
  * Cities handled:
  *   - cairo:  Coptic Cairo | Islamic Cairo | Pharaonic Cairo
  *   - giza:   Giza Plateau | Saqqara | Dahshur | Abusir | Abu Rawash |
- *             Zawyet el-Aryan | Memphis | Hawara | Tanis | Bubastis | Other
+ *             Zawyet el-Aryan | Memphis | Hawara | Other
  *
  * Easy to extend with more cities by adding rule blocks below.
  *
@@ -96,8 +96,7 @@ const RULES: Record<string, Classifier> = {
     // Dahshur: bent/red/black/northern/white pyramids of Sneferu + Amenemhat II
     if (/dahshur|bent-pyramid|red-pyramid|black-pyramid|northern-pyramid|white-pyramid|sneferu|amenemhat/.test(s)) return 'Dahshur';
     if (/memphis|mit-rahina/.test(s)) return 'Memphis';
-    if (/tanis|san-al-hagar/.test(s)) return 'Tanis';
-    if (/bubastis|tell-basta/.test(s)) return 'Bubastis';
+    // Tanis and Bubastis are Delta sites (Sharqia), not Giza — never group them here.
     if (/giza-plateau|giza-sound|great-pyramid|solar-boat|khufu|khafre|menkaure|sphinx/.test(s)) return 'Giza Plateau';
     return null;
   },

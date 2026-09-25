@@ -23,7 +23,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'Travel2Egypt',
-  description: 'Egypt travel, with judgment. An Egyptian operator since 2003.',
+  description: 'Egypt travel, with judgment. An Egyptian operator since 1993.',
 };
 
 // ISR for the whole public site. Pages are statically rendered, then

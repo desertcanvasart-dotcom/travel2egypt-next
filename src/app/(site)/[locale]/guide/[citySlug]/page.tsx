@@ -129,7 +129,11 @@ export default async function CityGuidePage({ params }: Props) {
     !!keyFacts &&
     (keyFacts.bestSeason || keyFacts.gettingThere || keyFacts.daysNeeded);
 
-  const regionLabel = await resolveRegionLabel(city.region as string | undefined, locale as Locale);
+  // Hero eyebrow: the guide-hub region name, so it matches the breadcrumb;
+  // cities outside the archive keep the legacy region label.
+  const regionLabel =
+    (city.guideRegionName as string | undefined) ??
+    (await resolveRegionLabel(city.region as string | undefined, locale as Locale));
   const tNav = await getTranslations({ locale, namespace: 'nav' });
 
   const placeSchema = buildPlaceSchema(
@@ -144,17 +148,21 @@ export default async function CityGuidePage({ params }: Props) {
     locale as Locale
   );
   // Breadcrumb structure: Home › Travel Guide › [Region (anchor)] › City.
-  // Region link goes to /guide#<region-slug> — anchors to the H2 on the hub.
+  // Region link goes to /guide#<guideRegion> — the hub's section ids are the
+  // siteSettings.guideRegions keys (cairo-giza, delta-north-coast, …), not the
+  // legacy `region` enum. Cities outside the archive (no guideRegion) get no
+  // region crumb rather than a dead anchor.
+  const guideRegion = city.guideRegion as string | undefined;
+  const guideRegionName = city.guideRegionName as string | undefined;
+  const regionCrumb =
+    guideRegion && guideRegionName
+      ? { label: guideRegionName, href: `/guide#${guideRegion}` }
+      : null;
   const cityCrumbsBase = [
     { label: tNav('home'), href: '/' },
     { label: tNav('guide'), href: '/guide' },
+    ...(regionCrumb ? [regionCrumb] : []),
   ];
-  if (regionLabel && city.region) {
-    cityCrumbsBase.push({
-      label: regionLabel,
-      href: `/guide#${city.region}`,
-    });
-  }
   const cityCrumbs = [
     ...cityCrumbsBase,
     { label: city.name, href: undefined as unknown as string },
@@ -162,9 +170,7 @@ export default async function CityGuidePage({ params }: Props) {
   const schemaCrumbs = [
     { name: tNav('home'), path: '/' },
     { name: tNav('guide'), path: '/guide' },
-    ...(regionLabel && city.region
-      ? [{ name: regionLabel, path: `/guide#${city.region}` }]
-      : []),
+    ...(regionCrumb ? [{ name: regionCrumb.label, path: regionCrumb.href }] : []),
     { name: city.name, path: `/guide/${citySlug}` },
   ];
   const breadcrumbSchema = buildBreadcrumbList(schemaCrumbs, locale as Locale);
@@ -272,7 +278,7 @@ export default async function CityGuidePage({ params }: Props) {
                           {tourImageUrl && (
                             <Image
                               src={tourImageUrl}
-                              alt={tour.heroImage?.alt || tour.title}
+                              alt={tour.heroImage?.alt || tour.title || ''}
                               width={800}
                               height={1000}
                               className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
