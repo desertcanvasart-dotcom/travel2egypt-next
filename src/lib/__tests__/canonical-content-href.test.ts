@@ -5,6 +5,10 @@ import { redirects } from '../../../migration/redirect-map.generated';
 
 assert.equal(canonicalContentHref('https://travel2egypt.org/restaurants-in-zamalek/?utm_source=guide#dinner'), '/blog/restaurants-in-zamalek?utm_source=guide#dinner');
 assert.equal(canonicalContentHref('/es/guide/suez/suez-temperature-trends'), '/es/guide/suez/clima-en-suez');
+assert.equal(canonicalContentHref('/tours/the-grand-islamic-day-tour/'), '/the-grand-islamic-day-tour');
+assert.equal(canonicalContentHref('https://travel2egypt.org/es/packages/crucero-por-el-nilo?x=1#dia-2'), '/es/crucero-por-el-nilo?x=1#dia-2');
+assert.equal(canonicalContentHref('/tours'), '/tours', 'bare /tours is not a legacy tour URL');
+assert.equal(canonicalContentHref('/tours/a/b'), '/tours/a/b', 'nested paths are not tour slugs');
 for (const href of [undefined, '', '#section', 'mailto:team@example.com', '/not-reviewed', 'https://example.com/restaurants-in-zamalek/', '//example.com/restaurants-in-zamalek/', 'https://travel2egypt.org.example.com/restaurants-in-zamalek/', '/%invalid']) {
   assert.equal(canonicalContentHref(href), href, `leave unreviewed URL unchanged: ${href}`);
 }

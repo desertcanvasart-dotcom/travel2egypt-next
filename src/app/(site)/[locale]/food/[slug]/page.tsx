@@ -155,7 +155,7 @@ export default async function FoodArticlePage({ params }: Props) {
 
   const isRoute = doc.format === 'route';
   const tour = doc.tour ?? null;
-  const tourHref = tour?.slug ? (tour.type === 'package' ? `/packages/${tour.slug}` : `/${tour.slug}`) : null;
+  const tourHref = tour?.slug ? `/${tour.slug}` : null;
 
   // ── Structured data (Article + BreadcrumbList) ──
   const articleSchema = buildArticleSchema(

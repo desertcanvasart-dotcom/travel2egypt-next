@@ -162,9 +162,9 @@ export function resolveInternalLinkHref(ref: ResolvableRef | null | undefined): 
         ? `/guide/${ref.parentCitySlug}/${ref.slug}`
         : null;
     case 'tour':
-      return ref.tourType === 'package'
-        ? `/packages/${ref.slug}`
-        : `/tours/${ref.slug}`;
+      // Tours and packages are canonical at the site root (see pathFromDoc);
+      // /tours/* and /packages/* only 308 there.
+      return `/${ref.slug}`;
     case 'article':
       return `/blog/${ref.slug}`;
     case 'foodArticle':

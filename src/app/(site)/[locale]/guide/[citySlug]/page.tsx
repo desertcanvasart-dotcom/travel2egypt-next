@@ -263,15 +263,10 @@ export default async function CityGuidePage({ params }: Props) {
                     const tourImageUrl = tour.heroImage?.asset
                       ? urlFor(tour.heroImage).width(800).height(1000).quality(82).url()
                       : null;
-                    const isPackage = tour.type === 'package';
                     return (
                       <Link
                         key={tour._id}
-                        href={
-                          isPackage
-                            ? `/packages/${tour.slug}`
-                            : `/tours/${tour.slug}`
-                        }
+                        href={`/${tour.slug}`}
                         className="group block transition-transform duration-500 hover:-translate-y-0.5"
                       >
                         <div className="mb-5 aspect-[4/5] overflow-hidden bg-limestone-deep">
