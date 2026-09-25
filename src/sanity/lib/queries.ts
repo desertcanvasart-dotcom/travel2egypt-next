@@ -49,6 +49,13 @@ export const cityBySlugQuery = (locale: Locale) => groq`
   )][0]{
     _id,
     region,
+    guideRegion,
+    // The /guide hub renders one section per siteSettings.guideRegions key
+    // (id = key), so the breadcrumb anchors to that — not the legacy
+    // region enum, whose values (lower-egypt, …) are not ids on the hub.
+    "guideRegionName": *[_type == "siteSettings"][0].guideRegions[key == ^.guideRegion][0]{
+      "name": ${localizedField('name', locale)}
+    }.name,
     coordinates,
     "name": ${localizedField('name', locale)},
     "slug": ${localizedSlug('slug', locale)},
@@ -95,7 +102,10 @@ export const cityBySlugQuery = (locale: Locale) => groq`
       "slug": ${localizedSlug('slug', locale)},
       "summary": ${localizedField('summary', locale)},
       "durationLabel": ${localizedField('durationLabel', locale)},
-      heroImage
+      heroImage{
+        ...,
+        "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+      }
     },
     seo{
       "metaTitle": ${localizedField('metaTitle', locale)},
@@ -138,6 +148,10 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
     "parentCity": parentCity->{
       _id,
       region,
+      guideRegion,
+      "guideRegionName": *[_type == "siteSettings"][0].guideRegions[key == ^.guideRegion][0]{
+        "name": ${localizedField('name', locale)}
+      }.name,
       "name": ${localizedField('name', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "allSlugs": slug[]{ _key, "current": value.current },
