@@ -193,6 +193,9 @@ def main():
     a = ap.parse_args()
     site = ptmd.Site()
     plan = json.load(open(PLAN))
+    only = os.environ.get("PHASE1_TASKS")
+    if only:
+        plan = [p for p in plan if p["task"] in only.split(",")]
     rows, notes = build_rows(plan, site)
     for n in notes:
         print("note:", n)
