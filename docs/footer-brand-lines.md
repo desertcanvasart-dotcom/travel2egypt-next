@@ -9,7 +9,13 @@ Branch `fix/footer-brand-lines`, from `main` at `a468d88`. Not deployed. Written
 | `src/components/Footer.tsx`: `SISTER_BRANDS` (name and URL) and `SISTER_BRAND_DESCRIPTIONS` (one line per brand, keyed by locale) | The footer's "Other Travel2Egypt brands" block. The block heading comes from `messages/{en,es,ja}.json` `footer.sisterBrandsLabel`. | **Yes.** This is the source of the footer text. |
 | Sanity `siteSettings.sisterBrands[]` (`name`, `url`, localized `description`) | A second copy of the same three brands. `siteSettingsQuery` fetches it. | Not in the footer. Only `name` and `url` are used, in the Organization JSON-LD (`src/lib/structured-data.ts`, `subOrganization`). The `description` is not rendered anywhere. |
 
-The change is made in `Footer.tsx`, the rendering source. The Sanity copy is **not changed**: writing it would be a live data change, and the brief says not to deploy. The Sanity copy still says "Boutique luxury, Aswan-rooted." in EN/ES/JA. It has no effect on the page, but it should be brought in line (or the footer switched to read from Sanity) so there is only one source.
+The change is made in `Footer.tsx`, the rendering source.
+
+**Sanity copy, updated on owner request (2026-09-26):** `siteSettings.sisterBrands[_key=="sillage"].description` now holds the same EN/ES/JA lines as the footer.
+- It was patched on the published document (there was no draft), guarded by `ifRevisionID`. Transaction `NJsxBtjT76F83W19ifUdfX`.
+- The previous values are backed up in `docs/backup/siteSettings-sillage-2026-09-26.json`.
+- The description isn't rendered anywhere, so no page changes.
+- The two copies still have to be kept in step by hand, unless the footer is later switched to read from Sanity.
 
 ## Sillage line
 
