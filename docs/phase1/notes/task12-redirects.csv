@@ -1,0 +1,64 @@
+from_url,to_url,locale,note
+/blog/egypt-luxury-travel,https://sillage-egypte.com/journal/is-luxury-egypt-worth-it,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/egypt-luxury-travel,https://sillage-egypte.com/journal/is-luxury-egypt-worth-it,en,legacy WP root slug (today 308s to /blog/egypt-luxury-travel via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/the-luxurious-egyptian-vacation,https://sillage-egypte.com/journal/is-luxury-egypt-worth-it,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/the-luxurious-egyptian-vacation,https://sillage-egypte.com/journal/is-luxury-egypt-worth-it,en,legacy WP root slug (today 308s to /blog/the-luxurious-egyptian-vacation via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/luxury-resorts-in-egypt,https://sillage-egypte.com/journal/best-luxury-resorts-red-sea,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/luxury-resorts-in-egypt,https://sillage-egypte.com/journal/best-luxury-resorts-red-sea,en,legacy WP root slug (today 308s to /blog/luxury-resorts-in-egypt via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/egypt-luxury-beach-resorts,https://sillage-egypte.com/journal/best-luxury-resorts-red-sea,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/egypt-luxury-beach-resorts,https://sillage-egypte.com/journal/best-luxury-resorts-red-sea,en,legacy WP root slug (today 308s to /blog/egypt-luxury-beach-resorts via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/luxury-nile-cruise,https://sillage-egypte.com/journal/best-luxury-nile-cruises,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/luxury-nile-cruise,https://sillage-egypte.com/journal/best-luxury-nile-cruises,en,legacy WP root slug (today 308s to /blog/luxury-nile-cruise via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/boutique-nile-cruises-in-egypt,https://sillage-egypte.com/journal/best-luxury-nile-cruises,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/boutique-nile-cruises-in-egypt,https://sillage-egypte.com/journal/best-luxury-nile-cruises,en,legacy WP root slug (today 308s to /blog/boutique-nile-cruises-in-egypt via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/experiencing-egypt-aboard-the-oberoi-zahra,https://sillage-egypte.com/journal/best-luxury-nile-cruises,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/experiencing-egypt-aboard-the-oberoi-zahra,https://sillage-egypte.com/journal/best-luxury-nile-cruises,en,legacy WP root slug (today 308s to /blog/experiencing-egypt-aboard-the-oberoi-zahra via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/historical-hotels-in-egypt,https://sillage-egypte.com/journal/historic-hotels-of-egypt,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/historical-hotels-in-egypt,https://sillage-egypte.com/journal/historic-hotels-of-egypt,en,legacy WP root slug (today 308s to /blog/historical-hotels-in-egypt via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/boutique-hotels-in-egypt,https://sillage-egypte.com/journal/luxury-villas-egypt,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/boutique-hotels-in-egypt,https://sillage-egypte.com/journal/luxury-villas-egypt,en,legacy WP root slug (today 308s to /blog/boutique-hotels-in-egypt via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/how-to-choose-the-right-egyptian-airport-for-your-private-flight,https://sillage-egypte.com/journal/private-jet-and-helicopter-egypt,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/how-to-choose-the-right-egyptian-airport-for-your-private-flight,https://sillage-egypte.com/journal/private-jet-and-helicopter-egypt,en,legacy WP root slug (today 308s to /blog/how-to-choose-the-right-egyptian-airport-for-your-private-flight via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+https://travel2egypt.org/how-to-choose-the-right-egyptian-airport-for-your-private-flight/,https://sillage-egypte.com/journal/private-jet-and-helicopter-egypt,en,REPOINT existing redirect-map row (was -> /blog/how-to-choose-the-right-egyptian-airport-for-your-private-flight) to avoid a chain
+/blog/a-helicopter-adventure-over-the-pyramids-and-nile,https://sillage-egypte.com/journal/private-jet-and-helicopter-egypt,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/a-helicopter-adventure-over-the-pyramids-and-nile,https://sillage-egypte.com/journal/private-jet-and-helicopter-egypt,en,legacy WP root slug (today 308s to /blog/a-helicopter-adventure-over-the-pyramids-and-nile via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/blog/exclusive-access-to-the-giza-pyramid,https://sillage-egypte.com/journal/pyramids-without-crowds,en,ship only when the Sillage URL returns 200; needs Sillage URL live
+/exclusive-access-to-the-giza-pyramid,https://sillage-egypte.com/journal/pyramids-without-crowds,en,legacy WP root slug (today 308s to /blog/exclusive-access-to-the-giza-pyramid via the [...rest] catch-all; after unpublish it would 404). Add only if not already covered
+/es/blog/viajes-de-lujo-a-egipto,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/is-luxury-egypt-worth-it not known; do not send ES to the EN Sillage page
+/es/blog/vacaciones-en-egipto,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/is-luxury-egypt-worth-it not known; do not send ES to the EN Sillage page
+/es/blog/centros-turisticos-de-lujo-en-egipto-junto-al-nilo,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/best-luxury-resorts-red-sea not known; do not send ES to the EN Sillage page
+/es/blog/resorts-de-playa-de-lujo-de-egipto,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/best-luxury-resorts-red-sea not known; do not send ES to the EN Sillage page
+/es/blog/guia-de-cruceros-de-lujo-por-el-nilo,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/best-luxury-nile-cruises not known; do not send ES to the EN Sillage page
+/es/blog/cruceros-boutique-por-el-nilo-en-egipto-para-2026-y-anos-posteriores,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/best-luxury-nile-cruises not known; do not send ES to the EN Sillage page
+/es/blog/descubriendo-egipto-a-bordo-del-oberoi-zahra,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/best-luxury-nile-cruises not known; do not send ES to the EN Sillage page
+/es/descubriendo-egipto-a-bordo-del-oberoi-zahra,,es,existing row (-> /es/blog/descubriendo-egipto-a-bordo-del-oberoi-zahra): repoint to the same ES destination once chosen
+/es/blog/hoteles-historicos-en-egipto-donde-la-historia-se-encuentra-con-el-lujo,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/historic-hotels-of-egypt not known; do not send ES to the EN Sillage page
+/es/blog/hoteles-boutique-en-egipto-de-lujo-unicos,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/luxury-villas-egypt not known; do not send ES to the EN Sillage page
+/es/blog/como-elegir-el-aeropuerto-egipcio-adecuado-para-tu-vuelo-privado,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/private-jet-and-helicopter-egypt not known; do not send ES to the EN Sillage page
+/es/como-elegir-el-aeropuerto-egipcio-adecuado-para-tu-vuelo-privado,,es,existing row (-> /es/blog/como-elegir-el-aeropuerto-egipcio-adecuado-para-tu-vuelo-privado): repoint to the same ES destination once chosen
+/es/blog/una-aventura-en-helicoptero-sobre-las-piramides-y-el-nilo,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/private-jet-and-helicopter-egypt not known; do not send ES to the EN Sillage page
+https://travel2egypt.org/es/una-aventura-en-helicoptero-sobre-las-piramides-y-el-nilo/,,es,existing row (-> /es/blog/una-aventura-en-helicoptero-sobre-las-piramides-y-el-nilo): repoint to the same ES destination once chosen
+/es/blog/acceso-exclusivo-a-la-piramide-de-guiza-una-experiencia-unica-en-la-vida,,es,DECISION: Sillage ES URL for https://sillage-egypte.com/journal/pyramids-without-crowds not known; do not send ES to the EN Sillage page
+/ja/blog/ejiputo-no-ragujuari-ryoko,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/ejiputo-goka-ryoko-no-kyukyoku-gaido,,ja,"existing row (-> /ja/blog/ejiputo-no-ragujuari-ryoko): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/ejiputo-no-ragujuari-na-bakeshon,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/ejiputo-no-ragujuaririzoto-o-do-erabu-ka,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/kagayakashiki-zeitaku-nairu-gawa-zoi-no-ejiputo-no,,ja,"existing row (-> /ja/blog/ejiputo-no-ragujuaririzoto-o-do-erabu-ka): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/ejiputo-no-kokyu-bichi-rizoto,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/ejiputo-no-ragujuaribichirizoto-o-hakken-kyukyoku-no,,ja,"existing row (-> /ja/blog/ejiputo-no-kokyu-bichi-rizoto): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/ragujuarinairukuruzu-no-erabikata,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/zeitaku-no-kaimei-ragujuarinairukuruzugaido,,ja,"existing row (-> /ja/blog/ragujuarinairukuruzu-no-erabikata): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/butikku-nairu-kuruzu,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/2026-nen-iko-ni-ejiputo-de-tenkai-suru-butikkunairukuruzu,,ja,"existing row (-> /ja/blog/butikku-nairu-kuruzu): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/oberoizafura-de-nairu-o-tabi-suru,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/oberoizahara-go-de-tanoshimu-ejiputo-no-gokujo-taiken,,ja,"existing row (-> /ja/blog/oberoizafura-de-nairu-o-tabi-suru): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/ejiputo-no-rekishi-aru-hoteru,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/ejiputo-no-rekishi-teki-hoteru-rekishi-to-zeitaku-ga-yugo,,ja,"existing row (-> /ja/blog/ejiputo-no-rekishi-aru-hoteru): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/ejiputo-no-butikku-hoteru,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/ejiputo-no-butikku-hoteru-yuniku-na-ragujuari-shukuhaku,,ja,"existing row (-> /ja/blog/ejiputo-no-butikku-hoteru): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/ejiputo-e-puraibeto-ki-de-hairu-kuko-no-erabikata,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/puraibeto-furaito-ni-saiteki-na-ejiputo-no-kuko-no-erabikata,,ja,"existing row (-> /ja/blog/ejiputo-e-puraibeto-ki-de-hairu-kuko-no-erabikata): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/sora-kara-miru-kairo,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/piramiddo-to-nairu-gawa-o-meguru-herikoputa-adobencha,,ja,"existing row (-> /ja/blog/sora-kara-miru-kairo): repoint to the JA decision target, or leave if the JA post stays"
+/ja/blog/hitonami-ga-kuru-mae-no-giza-daichi,,ja,DECISION: Sillage has no Japanese; see task12.md options. Do not redirect JA to English
+/ja/blog/giza-no-piramiddo-e-no-tokubetsu-nyujo-issho-ni-ichi-do-no,,ja,"existing row (-> /ja/blog/hitonami-ga-kuru-mae-no-giza-daichi): repoint to the JA decision target, or leave if the JA post stays"
