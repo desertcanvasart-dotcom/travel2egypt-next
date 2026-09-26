@@ -16,7 +16,7 @@ The feeling of being very far from the centre of things.
 
 Siwa sits in Matrouh Governorate, in a desert depression west of the Nile Valley and south of the Mediterranean coast.
 
-The closest major coastal city is Marsa Matruh, reached by road across the desert. Cairo is much farther, usually an eight-to-ten-hour journey depending on route, stops, traffic, and security procedures. There is no airport and no railway. The oasis covers around 1,018 square kilometres and reaches roughly 18 to 20 metres below sea level at its lowest points.
+The closest major coastal city is Marsa Matruh, reached by road across the desert. Cairo is much farther: around eight to ten hours by private car and 10 to 12 hours on the overnight bus, depending on route, stops, traffic and security procedures. There is no airport and no railway. The oasis covers around 1,018 square kilometres and reaches roughly 18 to 20 metres below sea level at its lowest points.
 
 Most travellers come by road via Marsa Matruh, by public bus or private car, and some break the journey with a night on the coast. Routes, timings and the options from Cairo and Alexandria are in [How to Get to Siwa Oasis](/guide/siwa-oasis/how-to-go-in-siwa-oasis).
 
