@@ -12,25 +12,9 @@ Hiding them did not solve the problem. Many were still robbed in antiquity; even
 
 Against that background, finding Tutankhamun's tomb with so much of its burial equipment still in place was very rare. There are traces of ancient intrusion, but the tomb was never emptied.
 
-## Howard Carter's search
+## How the tomb was found
 
-Howard Carter first came to Egypt as a painter. He began by copying wall paintings, and through long years on the Theban west bank he became an excavator who knew the Valley of the Kings exceptionally well.
-
-He believed Tutankhamun's tomb had not yet been found. Small objects bearing the king's name and fragments linked to his burial supported that belief. Earlier excavators thought the valley had nothing major left to give; Carter didn't accept it.
-
-With Lord Carnarvon's funding, he searched for years. With no results, there was talk of stopping. In what was treated as a final chance, re-examining a corner of the valley that many believed exhausted, his workers found a step in November 1922. It was the top of a stairway leading down to a sealed entrance, with another blocked entrance further in.
-
-Weeks later, Carter and Carnarvon looked through a small hole in the sealed doorway. Candlelight fell on gilded couches, boxes, chariots, guardian figures and vessels. Carnarvon asked whether he could see anything, and Carter is said to have answered, "Yes, wonderful things."
-
-The discovery was dramatic; the work that followed was longer and more mundane. Recording, photographing, conserving and removing the contents took roughly ten years.
-
-## Records that changed archaeology
-
-What matters about Carter's excavation isn't only the richness of the find. Before removing anything, his team photographed it, numbered it, recorded its position and noted its condition. That is standard practice now; for the time, it was very thorough.
-
-Thanks to that record, KV62 is not simply "a tomb where treasure came out" but a tomb whose burial can be reconstructed. The objects survived, and so did the relationship between the objects and the space.
-
-The tomb showed the public, in a form anyone could follow, archaeology moving from treasure hunting to a discipline built on recording.
+Howard Carter, working with Lord Carnarvon's funding, had searched the valley for years when his workers found a step in November 1922, in a corner many believed exhausted. It led down to a sealed entrance. Recording, photographing, conserving and removing the contents took roughly ten years, and that record is why the burial can still be reconstructed room by room. We tell the full story of the search, the opening, the curse legend and why the find changed archaeology in [Howard Carter and the 1922 discovery of Tutankhamun's tomb](/blog/the-1922-discovery-of-tutankhamuns-tomb-why-it-matters-the-ultimate-guide).
 
 ## The tomb's structure
 
@@ -74,28 +58,6 @@ As a boy king, his political decisions were probably shaped heavily by powerful 
 
 The cause of his death (illness, fracture, infection, inherited health problems) is still debated. Assassination has been suggested, but there is no decisive evidence. For travellers, it is enough to know that he died young and that his burial was probably arranged in a hurry.
 
-## Egypt and the question of ownership
-
-1922 mattered for Egyptian politics too. Egypt was moving from British influence towards formal independence, and who owned antiquities was not only an academic question. The era when foreign excavators took their finds abroad was changing.
-
-Tutankhamun's grave goods stayed in Egypt. It was a clear expression of the idea that Egypt's cultural heritage belongs to Egypt.
-
-## The curse, and what it isn't
-
-The story of "the pharaoh's curse" is bound up with this tomb. One trigger was Lord Carnarvon's death soon after the opening; newspapers made it a sensation, and the idea spread that a curse fell on those who disturbed the tomb.
-
-No famous curse text was written in the tomb. Carnarvon's death is thought to have been caused by an infection, at a time before antibiotics were widely available, when such infections could be fatal. Old tombs do carry real health risks (dust, mould, poor ventilation), but they are physical, not supernatural. We look at the legend in more detail in [the curse of King Tut's tomb](/blog/the-curse-of-king-tuts-tomb).
-
-The curse is part of the tomb's modern reception, not its archaeology. What matters is how the tomb survived, how it was recorded and how the world received it.
-
-## Worldwide Egypt fever
-
-The discovery set off a worldwide wave of Egyptomania. Fashion, jewellery, architecture, film and advertising in the 1920s took up Egyptian-style design; the golden mask, cobras, wings, geometric patterns and pharaonic imagery merged with the Art Deco aesthetic.
-
-The press made it possible. The find was covered at length in the newspapers and reached a world audience through photographs and stories. For the first time, an archaeological excavation became a mass-media event.
-
-Tutankhamun's fame wasn't made by ancient greatness alone. The timing of the discovery, the way it was reported, the visual power of the gold and the story of an "almost intact royal tomb" all layered on top of each other.
-
 ## Where the tomb's contents are now
 
 Most of Tutankhamun's grave goods were displayed and stored for decades at the old Egyptian Museum in [Cairo](/guide/cairo). The main collection is now shown at [the Grand Egyptian Museum](/blog/the-grand-egyptian-museum) in [Giza](/guide/giza), where official ticket information checked in May 2026 included the Tutankhamun Galleries in the visit. [VERIFY: Tutankhamun Galleries still included in the standard GEM ticket; current hours and display scope]
@@ -126,6 +88,6 @@ The order works either way. See the museum first, and the smallness of the tomb 
 
 Tutankhamun wasn't Egypt's most powerful king, and his tomb is neither the largest nor the most lavishly decorated. What it did, in a form no other tomb has, was show what a New Kingdom royal burial looked like before looters reached it. Without it, our understanding of royal burial would be far more fragmentary.
 
-The discovery shaped archaeology, museums, the debate over cultural ownership, popular culture and tourism. And it was chance: a small tomb, a hidden entrance, an excavator who didn't give up and twentieth-century media that carried the story round the world.
+That it survived was partly chance: a small tomb, an entrance buried under later debris, and a king whose name later rulers preferred to forget.
 
-When you visit KV62, there is no need to be disappointed by its scale. That small space made Tutankhamun the most famous pharaoh in the world. Seeing it isn't only seeing ancient Egypt; it is also seeing how the modern world discovered, recorded, owned and imagined it.
+When you visit KV62, there is no need to be disappointed by its scale. That small space made Tutankhamun the most famous pharaoh in the world.

@@ -62,6 +62,9 @@ def build_rows(plan, site):
     srcs = source_urls()
     rows, notes = [], []
     for p in plan:
+        if p.get("activated"):
+            notes.append(f"task {p['task']}: {p['source']} already live ({p['activated']})")
+            continue
         by_loc = srcs.get(p["source"])
         if not by_loc and p["mode"] == "cross-domain":
             by_loc = {"en": p["source"]}

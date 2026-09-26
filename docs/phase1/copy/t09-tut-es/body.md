@@ -12,25 +12,9 @@ La intención era proteger los enterramientos reales de los saqueos. Pero la ocu
 
 Por eso el hallazgo de KV62 fue tan excepcional. La tumba había sufrido intrusiones antiguas, pero no fue completamente vaciada.
 
-## La búsqueda de Howard Carter
+## Cómo se encontró la tumba
 
-Howard Carter no llegó a Egipto como gran académico. Empezó como dibujante, copiando relieves y pinturas, y con los años su conocimiento de la orilla occidental de Luxor y del Valle de los Reyes se volvió muy profundo.
-
-Carter creía que la tumba de Tutankamón todavía no había sido encontrada. Esa intuición se apoyaba en pequeños indicios: objetos con el nombre del rey y restos asociados a su enterramiento. Otros pensaban que en el valle ya quedaba poco por descubrir; él no lo aceptó.
-
-Con el apoyo financiero de lord Carnarvon, buscó durante años. Los resultados fueron escasos, y hubo momentos en que el proyecto pareció a punto de terminar. En lo que se planteó como una última oportunidad, al revisar de nuevo una zona que muchos consideraban agotada, un trabajador encontró un escalón en noviembre de 1922. Era el inicio de una escalera que descendía hacia una entrada sellada, con otra puerta bloqueada más adentro.
-
-Semanas después, Carter y Carnarvon abrieron un pequeño hueco en la entrada y miraron al interior con la luz de una vela. Vieron camas doradas, cofres, carros, estatuas guardianas y objetos apilados. Cuando Carnarvon le preguntó si veía algo, Carter respondió, según la versión famosa, que veía "cosas maravillosas".
-
-El descubrimiento fue dramático. Pero el trabajo que siguió fue más lento y más importante: registrar, fotografiar, conservar y trasladar el contenido llevó unos diez años.
-
-## Cómo cambió la arqueología
-
-La importancia de Carter no está solo en haber encontrado oro. Su equipo documentó los objetos antes de retirarlos: se fotografiaron las salas, se numeraron las piezas, se registró su posición y se anotó su estado. Hoy parece evidente, pero para la época era un trabajo muy riguroso.
-
-Gracias a esa documentación, KV62 no se convirtió solo en una colección de tesoros. Siguió siendo un contexto arqueológico: los objetos podían estudiarse junto con el lugar que ocupaban dentro de la tumba.
-
-El hallazgo ayudó a mostrar al público que la arqueología no debía ser una búsqueda de piezas bonitas, sino un trabajo de registro, conservación e interpretación.
+Howard Carter, con la financiación de lord Carnarvon, llevaba años buscando en el valle cuando sus trabajadores encontraron un escalón en noviembre de 1922, en una zona que muchos consideraban agotada. Conducía a una entrada sellada. Registrar, fotografiar, conservar y trasladar el contenido llevó unos diez años, y gracias a ese registro el enterramiento todavía puede reconstruirse sala por sala. Contamos la historia completa de la búsqueda, la apertura, la leyenda de la maldición y por qué el hallazgo cambió la arqueología en [Howard Carter y el descubrimiento de la tumba de Tutankamón en 1922](/blog/the-1922-discovery-of-tutankhamuns-tomb-why-it-matters-the-ultimate-guide).
 
 ## Cómo era la tumba
 
@@ -74,28 +58,6 @@ Por su edad, es probable que figuras poderosas de la corte y la administración 
 
 Su muerte temprana sigue generando debate. Se han propuesto enfermedad, infecciones, una fractura y factores hereditarios. La teoría del asesinato fue popular, pero no cuenta con una prueba concluyente. Para el viajero, basta retener que murió joven y que su entierro probablemente tuvo que organizarse con rapidez.
 
-## Egipto, patrimonio y propiedad
-
-El año 1922 también fue importante para Egipto como país moderno. Egipto avanzaba hacia una independencia formal respecto a la influencia británica, y el control del patrimonio antiguo formaba parte de una conversación más amplia sobre soberanía, identidad y poder cultural.
-
-Durante mucho tiempo, las excavaciones extranjeras habían podido dividir hallazgos o sacar piezas del país. El caso de Tutankamón marcó un cambio: el ajuar de la tumba permaneció en Egipto. La tumba no solo cambió la arqueología por lo que contenía, sino también por lo que dijo sobre a quién pertenecen los restos materiales de una civilización.
-
-## La maldición, y lo que no es
-
-La tumba de Tutankamón quedó asociada muy pronto a la llamada "maldición del faraón". La muerte de lord Carnarvon, poco después de la apertura, alimentó titulares y rumores, y la prensa convirtió una infección en una historia sobrenatural.
-
-Pero no había una inscripción famosa en la tumba que anunciara esa condena. La muerte de Carnarvon se explica de forma médica, en un tiempo anterior al uso común de antibióticos. Las tumbas antiguas sí tienen riesgos reales (polvo, moho, mala ventilación), pero pertenecen al mundo físico, no al sobrenatural. Contamos la leyenda con más detalle en [la maldición de la tumba de Tutankamón](/blog/the-curse-of-king-tuts-tomb).
-
-La maldición es parte de la historia mediática de Tutankamón, no el centro de la historia arqueológica. Lo importante es cómo sobrevivió la tumba, cómo se documentó y cómo la recibió el mundo.
-
-## Egiptomanía y cultura popular
-
-El descubrimiento desató una nueva ola de egiptomanía. En la década de 1920, motivos egipcios aparecieron en moda, joyería, cine, publicidad y arquitectura. La máscara de oro, las cobras, las alas, las formas geométricas y los símbolos faraónicos encajaron bien con el lenguaje visual del art déco.
-
-La prensa tuvo un papel decisivo. El hallazgo se convirtió en una historia global a través de periódicos, fotografías y relatos. La arqueología entró en la cultura de masas con una fuerza que rara vez había tenido.
-
-La fama de Tutankamón no nació solo del antiguo Egipto. Nació también del siglo XX: de la prensa, la imagen, el deseo de misterio y el impacto visual de una tumba casi intacta.
-
 ## Dónde están hoy los objetos
 
 Durante mucho tiempo, los objetos de Tutankamón estuvieron asociados al Museo Egipcio de la plaza Tahrir, en [El Cairo](/guide/cairo). Hoy la colección principal se muestra en [el Gran Museo Egipcio](/blog/the-grand-egyptian-museum) de [Guiza](/guide/giza), donde la información oficial de entradas consultada en mayo de 2026 incluía las galerías de Tutankamón en la visita. [VERIFY: Tutankhamun Galleries still included in the standard GEM ticket; current hours and display scope]
@@ -126,6 +88,6 @@ El orden puede variar. Si ve primero el museo, la tumba parece aún más pequeñ
 
 Tutankamón no fue el rey más poderoso de Egipto, y su tumba no es la más grande ni la más lujosa en decoración. Pero mostró, como casi ninguna otra podía hacerlo, cómo era un entierro real del Reino Nuevo antes de ser destruido por los saqueos. Sin KV62, nuestra imagen del ajuar funerario real sería mucho más fragmentaria.
 
-El hallazgo transformó la arqueología, los museos, el debate sobre la propiedad cultural, la cultura popular y el turismo. Y fue también azar: una tumba pequeña, una entrada oculta, un excavador que no se rindió y una prensa del siglo XX que llevó la historia a todo el mundo.
+Que sobreviviera fue en parte azar: una tumba pequeña, una entrada cubierta por escombros posteriores y un rey cuyo nombre los gobernantes posteriores prefirieron olvidar.
 
-Al visitar la tumba, su tamaño reducido no debería decepcionar. Precisamente ese espacio pequeño convirtió a Tutankamón en el faraón más famoso del mundo. Visitarla no es solo mirar el antiguo Egipto; es mirar cómo el mundo moderno lo encontró, lo registró, lo poseyó y lo imaginó.
+Al visitar la tumba, su tamaño reducido no debería decepcionar. Precisamente ese espacio pequeño convirtió a Tutankamón en el faraón más famoso del mundo.

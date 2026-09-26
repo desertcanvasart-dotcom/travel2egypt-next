@@ -9,13 +9,13 @@
   "task": "7",
   "source": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
   "target": "/travel-tips/staying-connected-in-egypt",
-  "mode": "live"
+  "mode": "after-publish"
  },
  {
   "task": "7",
   "source": "/travel-tips/telephones-in-egypt",
   "target": "/travel-tips/staying-connected-in-egypt",
-  "mode": "live"
+  "mode": "after-publish"
  },
  {
   "task": "14",
@@ -51,7 +51,7 @@
   "task": "16",
   "source": "/blog/7-unforgettable-to-do-in-aswan",
   "target": "/guide/aswan/things-to-do-in-aswan",
-  "mode": "live"
+  "mode": "after-publish"
  },
  {
   "task": "16",
@@ -63,19 +63,19 @@
   "task": "16",
   "source": "/blog/top-things-to-do-in-luxor-egypt",
   "target": "/guide/luxor/what-to-do-in-luxor",
-  "mode": "live"
+  "mode": "after-publish"
  },
  {
   "task": "16",
   "source": "/blog/33-amazing-things-to-do-in-hurghada",
   "target": "/guide/hurghada/activities-in-hurghada",
-  "mode": "live"
+  "mode": "after-publish"
  },
  {
   "task": "16",
   "source": "/blog/top-adventures-things-to-do-in-sharm-el-sheikh",
   "target": "/guide/sharm-el-sheikh/things-to-do-in-sharm-el-sheikh",
-  "mode": "live"
+  "mode": "after-publish"
  },
  {
   "task": "17",
@@ -93,7 +93,7 @@
   "task": "17",
   "source": "/blog/local-hospitals-in-egypt",
   "target": "/travel-tips/health-and-safety",
-  "mode": "live"
+  "mode": "after-publish"
  },
  {
   "task": "1",
@@ -138,16 +138,10 @@
   "mode": "after-publish"
  },
  {
-  "task": "9",
-  "source": "/blog/the-1922-discovery-of-tutankhamuns-tomb-why-it-matters-the-ultimate-guide",
-  "target": "/blog/the-story-of-king-tutankhamun-tomb",
-  "mode": "after-publish"
- },
- {
   "task": "10",
   "source": "/blog/historical-sites-visited-by-a-nile-cruise",
   "target": "/blog/the-definitive-guide-to-egypt-nile-cruise",
-  "mode": "after-publish"
+  "mode": "live"
  },
  {
   "task": "11",
@@ -242,7 +236,8 @@
  {
   "task": "18",
   "source": "/blog/budget-hotels-near-the-pyramids",
-  "target": "https://affordegypt.com/VERIFY-destination-url",
-  "mode": "cross-domain"
+  "target": "https://affordegypt.com/",
+  "mode": "cross-domain",
+  "activated": "2026-09-26 (owner: affordEgypt.com homepage; EN row + legacy root slug written by hand)"
  }
 ]

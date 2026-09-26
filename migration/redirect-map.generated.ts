@@ -10439,7 +10439,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/kodai-kara-gendai-e-nairu-kuruzu-de-otozureru-rekishi-teki",
-    "destination": "/ja/blog/nairu-kuruzu-de-otozureru-rekishi-iseki",
+    "destination": "/ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido",
     "permanent": true
   },
   {
@@ -16039,7 +16039,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/historicos-visitados-en-un-crucero-por-el-nilo",
-    "destination": "/es/blog/historicos-visitados-en-un-crucero-por-el-nilo",
+    "destination": "/es/blog/crucero-por-el-nilo-en-egipto",
     "permanent": true
   },
   {
@@ -20834,7 +20834,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/blog/nairu-kuruzu-de-otozureru-rekishi-iseki",
-    "destination": "/blog/historical-sites-visited-by-a-nile-cruise",
+    "destination": "/ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido",
     "permanent": true
   },
   {
@@ -21038,31 +21038,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
-    "destination": "/travel-tips/staying-connected-in-egypt",
-    "permanent": true
-  },
-  {
-    "source": "/es/blog/sim-para-viajar-a-egipto",
-    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
-    "permanent": true
-  },
-  {
-    "source": "/ja/blog/ejiputo-ryoko-no-sim-kado",
-    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
-    "permanent": true
-  },
-  {
-    "source": "/es/travel-tips/telefonos-en-egipto",
-    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
-    "permanent": true
-  },
-  {
-    "source": "/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite",
-    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
-    "permanent": true
-  },
-  {
     "source": "/blog/egypt-holiday-deals",
     "destination": "/egypt-travel-packages",
     "permanent": true
@@ -21138,21 +21113,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/blog/7-unforgettable-to-do-in-aswan",
-    "destination": "/guide/aswan/things-to-do-in-aswan",
-    "permanent": true
-  },
-  {
-    "source": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
-    "destination": "/es/guide/asuan/que-hacer-en-asuan",
-    "permanent": true
-  },
-  {
-    "source": "/ja/blog/asuwan-de-nani-o-suru-beki-ka",
-    "destination": "/ja/guide/asuwan/asuwan-de-yaru-beki-koto",
-    "permanent": true
-  },
-  {
     "source": "/blog/places-to-visit-in-aswan",
     "destination": "/guide/aswan",
     "permanent": true
@@ -21165,51 +21125,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/blog/asuwan-de-otozureru-beki-basho",
     "destination": "/ja/guide/asuwan",
-    "permanent": true
-  },
-  {
-    "source": "/blog/top-things-to-do-in-luxor-egypt",
-    "destination": "/guide/luxor/what-to-do-in-luxor",
-    "permanent": true
-  },
-  {
-    "source": "/es/blog/lo-mejor-que-hacer-en-luxor",
-    "destination": "/es/guide/luxor/que-hacer-en-luxor",
-    "permanent": true
-  },
-  {
-    "source": "/ja/blog/rukusoru-de-miru-beki-basho-to-sugoshi-kata",
-    "destination": "/ja/guide/rukusoru/rukusoru-no-akutibiti",
-    "permanent": true
-  },
-  {
-    "source": "/blog/33-amazing-things-to-do-in-hurghada",
-    "destination": "/guide/hurghada/activities-in-hurghada",
-    "permanent": true
-  },
-  {
-    "source": "/es/blog/cosas-increibles-que-hacer-en-hurghada",
-    "destination": "/es/guide/hurghada/actividades-en-hurghada",
-    "permanent": true
-  },
-  {
-    "source": "/ja/blog/harugada-de-nani-o-suru-beki-ka",
-    "destination": "/ja/guide/harugada/harugada-no-akutibiti",
-    "permanent": true
-  },
-  {
-    "source": "/blog/top-adventures-things-to-do-in-sharm-el-sheikh",
-    "destination": "/guide/sharm-el-sheikh/things-to-do-in-sharm-el-sheikh",
-    "permanent": true
-  },
-  {
-    "source": "/es/blog/cosas-que-hacer-en-sharm-el-sheikh",
-    "destination": "/es/guide/sharm-el-sheikh/actividades-en-sharm-el-sheikh",
-    "permanent": true
-  },
-  {
-    "source": "/ja/blog/sharumuerusheiku-de-taiken-shi-tai-koto",
-    "destination": "/ja/guide/sharumu-eru-sheiku/sharumuerusheiku-no-akutibiti",
     "permanent": true
   },
   {
@@ -21243,18 +21158,28 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/blog/local-hospitals-in-egypt",
-    "destination": "/travel-tips/health-and-safety",
+    "source": "/blog/budget-hotels-near-the-pyramids",
+    "destination": "https://affordegypt.com",
     "permanent": true
   },
   {
-    "source": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
-    "destination": "/es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero",
+    "source": "/budget-hotels-near-the-pyramids",
+    "destination": "https://affordegypt.com",
     "permanent": true
   },
   {
-    "source": "/ja/blog/ejiputo-de-byoin-ni-iku-koto-ni-nattara",
-    "destination": "/ja/travel-tips/ejiputo-no-kenko-to-anzen",
+    "source": "/blog/historical-sites-visited-by-a-nile-cruise",
+    "destination": "/blog/the-definitive-guide-to-egypt-nile-cruise",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/historicos-visitados-en-un-crucero-por-el-nilo",
+    "destination": "/es/blog/crucero-por-el-nilo-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/nairu-kuruzu-de-otozureru-rekishi-iseki",
+    "destination": "/ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido",
     "permanent": true
   }
 ];
