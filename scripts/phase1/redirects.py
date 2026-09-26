@@ -216,6 +216,32 @@ def main():
     new = apply_rows(load_csv(), rows)
     write_csv(new)
     print("written", CSV)
+    update_audit(rows)
+
+
+AUDIT = os.path.join(ROOT, "migration/seo-repairs-2026-09-22.json")
+
+
+def update_audit(rows):
+    """Audited aliases (test:migration-routing) whose destination is now a live
+    Phase 1 source move to the final target; the old one is kept as previousDestination."""
+    live = {r["source"]: r for r in rows if r["mode"] == "live"}
+    d = json.load(open(AUDIT))
+    n = 0
+    for e in d["redirects"]:
+        r = live.get(e["destination"])
+        if r:
+            final = r["target"]
+            e["previousDestination"] = e["destination"]
+            e["destination"] = final
+            e["phase1"] = {"task": r["task"], "reason": "previous destination retired in Phase 1; "
+                           "repointed to its final target to avoid a chain", "date": "2026-09-26"}
+            n += 1
+    if n:
+        with open(AUDIT, "w") as f:
+            json.dump(d, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        print(f"updated {n} audited aliases in {os.path.relpath(AUDIT, ROOT)}")
 
 
 if __name__ == "__main__":
