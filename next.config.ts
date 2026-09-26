@@ -26,6 +26,12 @@ const nextConfig: NextConfig = {
     // 62KB of lvl-* styles render-blocking. 'strict' preserves the import
     // boundaries so each page loads only the CSS halves it imports.
     cssChunking: 'strict',
+    // Prerendering reads Sanity for every page. At the default concurrency the
+    // Railway build tripped Sanity's in-flight limit (429) on 2026-09-26, and
+    // one failed page fails the whole build. Fewer pages in flight per worker,
+    // and a retry for a page that still fails, keep the build deterministic.
+    staticGenerationMaxConcurrency: 4,
+    staticGenerationRetryCount: 3,
   },
   images: {
     formats: ['image/avif', 'image/webp'],
