@@ -183,6 +183,14 @@ class Site:
             return ("href", pre or "/")
         raise KeyError(f"unknown path {path}")
 
+    def static_en(self, href, locale):
+        """EN route path whose localized form in `locale` is exactly href, else None."""
+        pre = "" if locale == "en" else "/" + locale
+        for en, leaves in self.static.items():
+            if pre + leaves[locale] == href or (href == (pre or "/") and en == "/"):
+                return en
+        return None
+
     def _as_link(self, doc_id, locale):
         if self.type.get(doc_id) in INTERNAL_TYPES:
             return ("ref", doc_id)
@@ -259,7 +267,15 @@ def _link_target(md, site, locale):
     elif md["_type"] == "externalLink":
         target = md.get("href") or ""
         if target.startswith("/"):
-            target = "href:" + target
+            en = site.static_en(target, locale) if site else None
+            plain = set(md) <= {"_key", "_type", "href", "newTab"} and md.get("newTab") is False
+            try:
+                ok = en and plain and site.resolve(en, locale) == ("href", target)
+            except KeyError:
+                ok = False
+            target = en if ok else "href:" + target
+            if ok:
+                return target
         extras = {k: v for k, v in md.items() if k not in ("_key", "_type", "href")}
         if extras.get("newTab") is (not target.startswith("href:")) and len(extras) == 1:
             extras = {}
