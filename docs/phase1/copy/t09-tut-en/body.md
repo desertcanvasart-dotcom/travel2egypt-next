@@ -106,11 +106,11 @@ The old Egyptian Museum is still worth a visit for the history of Egyptology bef
 
 ## Visiting KV62 today
 
-Tutankhamun's tomb needs a supplementary ticket in the Valley of the Kings. [VERIFY: whether KV62 still needs a separate ticket, current price, opening status and photography rules] Ticketing, opening status and photography rules change, so confirm on site.
+Tutankhamun's tomb may need a supplementary ticket in the Valley of the Kings. [VERIFY: whether KV62 still needs a separate ticket, current price, opening status and photography rules] Ticketing, opening status and photography rules change, so confirm on site.
 
-Know before you go that KV62 is small and not the most visually impressive tomb in the valley. For decorative richness, the tombs of Seti I (KV17) or Ramesses V and VI (KV9) leave a stronger impression. [A guide to the Valley of the Kings' KV numbers](/blog/a-simple-guide-to-the-valley-of-the-kings) explains how the tombs are numbered and how to choose between them, and [our Valley of the Kings guide page](/guide/luxor/valley-of-the-kings) covers the site as a whole.
+Know before you go that KV62 is small and not the most visually impressive tomb in the valley. For decorative richness, the tombs of Ramesses V and VI or Seti I leave a stronger impression. [A guide to the Valley of the Kings' KV numbers](/blog/a-simple-guide-to-the-valley-of-the-kings) explains how the tombs are numbered and how to choose between them, and [our Valley of the Kings guide page](/guide/luxor/valley-of-the-kings) covers the site as a whole.
 
-KV62 holds a meaning the others don't. It is the place Carter found in 1922, and where the young king's mummy has lain ever since. Go in expecting the site of a discovery, not a room of gold: a small burial chamber, wall paintings, a sarcophagus and a mummy, at the centre of a find that changed how the world saw ancient Egypt.
+KV62 holds a meaning the others don't. It is the place Carter found in 1922, and where the young king's mummy long lay. Go in expecting the site of a discovery, not a room of gold: a small burial chamber, wall paintings, a sarcophagus and a mummy, at the centre of a find that changed how the world saw ancient Egypt.
 
 ## Fitting it into an itinerary
 

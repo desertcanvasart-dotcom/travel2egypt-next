@@ -10,6 +10,8 @@ The Egyptian cultural framework is broadly Arab Muslim Mediterranean, with subst
 
 This generosity sometimes surprises foreign visitors. Strangers will offer directions before being asked. A taxi driver will spend ten minutes practising English. A shopkeeper will press tea on a customer mid-bargain. A neighbour at a café will start a conversation. The foreign-visitor anxiety that someone is angling for something is often misplaced — many of these interactions are simply Egyptian. Some are commercial; some are not; learning to tell the difference takes a few days and is covered in the touts-in-egypt guide.
 
+When an approach is commercial and you are not interested, the courteous form is brief: "la, shokran" (no, thank you), said once with a smile, and keep walking. A long conversation with no intention of buying reads as the opening of a negotiation, and visible irritation spoils the exchange for both sides. Bargain only for things you mean to buy, and settle the price, duration, route, and any tip before a camel or carriage ride; for a taxi, agree the fare or confirm the meter before setting off.
+
 The other side of generosity is the expectation that visitors will reciprocate small social gestures. Returning a greeting, accepting a glass of tea when offered, removing shoes at a doorway, using the right hand for everyday actions, dressing reasonably modestly — these matter less because of explicit rules and more because they read as the standard signals of someone who has paid attention. Egyptians are extraordinarily forgiving of genuine mistakes. They are warmer toward visitors who clearly try.
 
 The deeper cultural framework — the layered Coptic, Islamic, and pre-modern Egyptian inheritances — is covered in the about-egypt and time-in-egypt pages. This piece focuses on the operational daily etiquette.
@@ -34,7 +36,7 @@ Egyptian hospitality is one of the country's most visible cultural strengths and
 
 If invited to a home — a relatively common occurrence after a few days of friendly conversation with shopkeepers, café staff, or accommodation hosts — several conventions apply.
 
-Bring a small gift. The standard is sweets or pastries (a box of kunafa, basbousa, or similar from a known sweet shop); for some hosts, flowers; for hosts with children, a small toy or sweets is appropriate. Avoid bringing alcohol unless certain the host drinks. Avoid expensive gifts that create unwanted obligation; the gesture matters more than the value.
+Bring a small gift. The standard is sweets or pastries (a box of kunafa, basbousa, or similar from a known sweet shop); for some hosts, flowers; for hosts with children, a small toy or sweets is appropriate. Avoid bringing alcohol unless certain the host drinks. Avoid expensive gifts that create unwanted obligation; the gesture matters more than the value. Fruit is another good choice. Flowers are the less certain one: depending on the context, they can carry associations with hospitals or mourning, so sweets or fruit are the safer default.
 
 Remove shoes at the door. Most Egyptian homes are removed-shoe households; observe what the host does and follow. In urban upscale homes, this convention is sometimes relaxed; the host's lead is the guide.
 
@@ -63,6 +65,8 @@ For dress, the practical guideline outside religious sites is shoulders-covered 
 - Cairo Downtown, older Islamic Cairo, smaller cities and rural areas — more conservative dress reduces friction<sp>
 - Mosques and churches — covered shoulders, covered knees, scarf for hair in mosques (visiting-a-religious-site guide)<sp>
 
+The guideline applies to men as much as to women. Walking through town shirtless, or into a religious site in short shorts, reads badly almost everywhere outside the resort grounds. Dress here is less a moral test than a way of reducing friction, and in the heat, thin long sleeves, linen, and loose cuts do both jobs.
+
 The Egypt's-weather guide covers the practical clothing implications by season; the religious-site dress code is covered in visiting-a-religious-site.
 
 Photography requires its own etiquette. Photographing buildings, landscapes, food, and street scenes is generally welcome and unremarkable. Photographing people requires more care:
@@ -73,8 +77,11 @@ Photography requires its own etiquette. Photographing buildings, landscapes, foo
 - Religious settings — particularly mosques during prayer — restricted (visiting-a-religious-site guide)<sp>
 - Government buildings, military installations, police — do not photograph; this can result in equipment confiscation<sp>
 - Bridges, transit infrastructure — restricted in some cases<sp>
+- People who pose for photographs at tourist sites — often expect a tip; agree before taking the picture, not after
 
 A small reciprocal note: Egyptian children and teenagers will sometimes want to be in photographs with visitors and may ask. Egyptian families on day-trips will occasionally request photographs with foreign visitors at major sites. This is usually friendly curiosity rather than commercial intent; agree or decline as comfortable.
+
+Sites and museums set their own rules on flash, tripods, and photography tickets, and some areas allow no photography at all. Check at each, particularly in the tombs of the [Valley of the Kings](/guide/luxor/valley-of-the-kings) and in museums. When in doubt, don't shoot.
 
 Smoking is widespread in Egypt and acceptable in most outdoor and many indoor settings. Smoke-free venues are increasing but not yet universal. Alcohol consumption is restricted to licensed venues — bars, licensed restaurants, hotels, dive shops. Drinking in public, in cafés that do not serve alcohol, or visibly carrying open alcohol is not acceptable. During Ramadan, alcohol service in public-facing venues is restricted; the Ramadan-in-Egypt guide covers the broader Ramadan etiquette.
 
@@ -88,18 +95,31 @@ Egyptian business and professional culture has its own conventions. Punctuality 
 
 Ramadan adds its own cultural overlay. During the daylight hours of the holy month (the Ramadan-in-Egypt guide covers specifics), the practical etiquette is to avoid eating, drinking, and smoking visibly in public; these are not legally restricted for non-Muslim visitors but doing so visibly in front of fasting Egyptians is considered insensitive. Restaurants and cafés open for non-fasters do exist, often with screens or limited street-facing seating. Iftar — the moment the fast breaks at sunset — is one of the most extraordinary social experiences in Egypt; an invitation to an Iftar table is a significant gesture of welcome and worth accepting if offered.
 
+## Conversation
+
+Most Egyptians enjoy conversation, and the easy openings are the obvious ones: where you are from, family, work, food, football, Egyptian history. Praising the food, asking about places a person knows, or asking for a recommendation brings a conversation to life quickly.
+
+Politics calls for care. Modern Egyptian politics is complex, and views divide even within families and groups of friends. If an Egyptian raises the subject, listen; a visitor has no need to arrive with conclusions.
+
+Religion is similar. Questions asked with genuine interest are usually welcome; argument is not. Conversations about Islam, the Coptic Church, fasting, or prayer go best when the visitor is mainly listening.
+
+Football is a serious subject: the Al Ahly–Zamalek rivalry, the national team, Mohamed Salah. Without an interest in it, avoid being dismissive; "which team do you support?" is enough to keep things going.
+
 ## Phrases That Open Doors
 
 The language-in-egypt guide covers the broader Arabic linguistic landscape. For etiquette specifically, a small number of phrases function as social currency.
 
 - As-salamu alaikum (peace be upon you) — the universal greeting; reply with wa alaikum as-salam (and peace upon you also)<sp>
+- Ahlan (hello, welcome) — the warmer, more informal greeting
 - Sabah el-kheir (good morning) — reply with sabah el-noor (morning of light)<sp>
 - Masaa el-kheir (good evening) — reply with masaa el-noor<sp>
 - Shokran (thank you) — used liberally and welcomed<sp>
+- La, shokran (no, thank you) — the most useful phrase for declining touts and sales pitches
 - Afwan (you're welcome / pardon)<sp>
 - Min fadlak / min fadlik (please, masculine/feminine)<sp>
 - Mish mushkila (no problem)<sp>
 - Inshallah (God willing) — used after any future intention; "we'll meet tomorrow, inshallah"<sp>
+- Alhamdulillah (thanks be to God) — the everyday answer to "how are you?", in the sense of "well, thankfully"
 - Maa'as-salama (goodbye / "go in peace")<sp>
 - Habibi / habibti (my dear, masculine/feminine) — used affectionately with close acquaintances<sp>
 

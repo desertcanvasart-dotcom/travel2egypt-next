@@ -99,3 +99,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# ── Report helper (used to build task12-inbound-links.md) ───────────────────
+def locale_of(doc, path):
+    """Locale of the field a hit sits in: the _key of the localized array element, else the doc language."""
+    cur = doc
+    loc = doc.get("language")
+    for part in re.findall(r"\.([A-Za-z_]+)|\[(\d+)\]", path.split(" = ")[0]):
+        name, idx = part
+        try:
+            cur = cur[name] if name else cur[int(idx)]
+        except (KeyError, IndexError, TypeError):
+            break
+        if isinstance(cur, dict) and cur.get("_key") in ("en", "es", "ja") and "value" in cur:
+            loc = cur["_key"]
+    return loc

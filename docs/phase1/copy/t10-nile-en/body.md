@@ -1,20 +1,20 @@
-The Nile cruise holds a special position in Egypt travel. Lodging while moving and looking from the river at temples, villages, fields, and desert cliffs gives a sense completely different from land transfer.
+The Nile cruise holds a special place in Egypt travel. Sleeping on board while you move, and watching temples, villages, fields and desert cliffs from the river, feels completely different from travelling by road.
 
 The Nile isn't Egypt's background. Ancient Egyptian cities, temples, agriculture, trade, and religious worldview can't be separated from the river. The boat trip from [Luxor](/guide/luxor) to [Aswan](/guide/aswan) is more than a way to connect sights — it is one way to understand this country from the river axis.
 
-"Nile cruise" doesn't cover one content. Large motor cruises, small dahabiyas, simple feluccas, and Lake Nasser trips greatly differ in experience character. Choosing the right boat sets trip satisfaction.
+"Nile cruise" doesn't mean one thing. Large motor cruises, small dahabiyas, simple feluccas and Lake Nasser trips are very different experiences, and choosing the right boat does more for the trip than anything else.
 
 This guide is the starting point for everything we have written on the Nile. Each section below gives the essentials and links to the fuller article.
 
 ## The basic route: Luxor to Aswan
 
-Most Nile cruises run between Luxor and Aswan. This stretch holds especially important Egyptian sites concentrated.
+Most Nile cruises run between Luxor and Aswan, the stretch where Egypt's most important sites are most densely concentrated.
 
 Luxor centres on east-bank Karnak and [Luxor Temple](/guide/luxor/the-luxor-temple), west-bank [Valley of the Kings](/guide/luxor/valley-of-the-kings), Hatshepsut, and Colossi of Memnon. The boat then heads via [Esna](/guide/esna), [Edfu](/guide/edfu), and [Kom Ombo](/guide/kom-ombo) to Aswan.
 
 At Edfu the Temple of Horus, at Kom Ombo the double-structure temple tied to Sobek and Horus, at Aswan Philae, Nubian Museum, and Elephantine are candidates. [Abu Simbel](/guide/abu-simbel) often builds in as a separate day trip or additional segment from Aswan.
 
-The route is standard for clear reasons. Realistic transfer distance, high site density, and first travellers can feel the large flow of ancient Egypt.
+The route is standard for clear reasons: the distances are realistic, the sites are dense, and first-time travellers can feel the large flow of ancient Egypt.
 
 ## How many nights
 
@@ -24,7 +24,7 @@ Standard motor cruises commonly run 3, 4, or 7 nights. Origin and direction vary
 
 Around 7 nights softens transfer pace, giving more on-river time. Long doesn't always mean denser content. Distinguish itineraries that see the same sites slowly from ones that just have more on-board time.
 
-When choosing nights, beyond facilities, confirm visited sites, guide quality, port-stop time, and morning-evening movement. Less likely to fail.
+When choosing the number of nights, look beyond the facilities: confirm the sites visited, the guide, the time at each stop, and whether the boat moves in the morning or the evening. That is how to avoid a disappointing choice.
 
 ## Motor cruises
 
@@ -108,7 +108,7 @@ The crocodile mummies tied to Sobek worship, shown in the small crocodile museum
 
 ### Aswan
 
-Arrive in Aswan and the Nile changes air. The lead here is the river, islands, granite, Nubian culture and the southern border. Philae, the temple of Isis, is Aswan's most important ancient site. It now stands on Agilkia Island: to save it from rising water after the [Aswan High Dam](/guide/aswan/aswan-high-dam), it was moved stone by stone in the 1970s. Crossing to the island by boat works very well within a cruise schedule.
+Arrive in Aswan and the Nile changes air. The lead here is the river, islands, granite, Nubian culture and the southern border. [Philae](/guide/aswan/the-philae-temple), the temple of Isis, is Aswan's most important ancient site. It now stands on Agilkia Island: to save it from rising water after the [Aswan High Dam](/guide/aswan/aswan-high-dam), it was moved stone by stone in the 1970s. Crossing to the island by boat works very well within a cruise schedule.
 
 [The Unfinished Obelisk](/guide/aswan/the-unfinished-obelisk) is worth seeing if possible. The huge granite block split mid-extraction and was left in place, which shows ancient stone-cutting better than any finished monument. Aswan is a waste to rush from cruise end to airport; even one night's margin lets Philae, the river, Nubian villages and an evening felucca change the trip.
 

@@ -10,7 +10,7 @@ Egypt operates under generally favourable conditions for foreign tourism. The to
 
 For health, the country has a tiered medical system. The top-tier private hospitals in Cairo, Alexandria, and the Red Sea cities — covered in the travel-insurance guide — operate at international standards and handle foreign visitors regularly. Pharmacies are widespread and inexpensive. The major Egyptian pharmacy chains (El Ezaby, Roshdi, Misr Pharmacies) operate across the country, with 24-hour locations in Cairo, Alexandria, and the major tourist cities. Most medications that require prescriptions in Western countries are available over the counter in Egypt, which simplifies the routine "minor ailment" question substantially.
 
-For safety, the country has been generally safe for international tourists since the security stabilisation following the 2011 revolution and the subsequent 2013-2017 period. The North Sinai counter-insurgency operations against ISIS-affiliated militant groups have been geographically contained to the north of the Sinai peninsula and have not directly affected the Sinai resort areas (Sharm El Sheikh, Dahab, Saint Catherine's, Taba); the broader tourism corridors are operationally normal. The Egyptian Tourist Police number is 126 for non-emergency tourism-related contacts; the general police number is 122; the ambulance number is 123; the fire-and-rescue number is 180.
+For safety, the country has been generally safe for international tourists since the security stabilisation following the 2011 revolution and the subsequent 2013-2017 period. The North Sinai counter-insurgency operations against ISIS-affiliated militant groups have been geographically contained to the north of the Sinai peninsula and have not directly affected the Sinai resort areas (Sharm El Sheikh, Dahab, Saint Catherine's, Taba); the broader tourism corridors are operationally normal. The Egyptian Tourist Police number is 126 for non-emergency tourism-related contacts; the general police number is 122; the ambulance number is 123; the fire-and-rescue number is 180. [VERIFY: emergency numbers 122, 123, 126 and 180 still current]
 
 The deeper context — Egypt's overall security architecture, the country's regulatory framework around tourism, the broader geopolitical considerations — sits outside the scope of a practical traveller guide. The standard pragmatic position is that Egypt is safer for foreign visitors than the country's reputation often suggests, while still requiring the geographic awareness covered later in this piece.
 
@@ -56,9 +56,9 @@ Food-borne illness beyond traveller's diarrhoea is uncommon at hotels and major 
 
 ## Medical Care if You Need It
 
-The Egyptian medical care system is tiered. The top-tier private hospitals in Cairo (Cleopatra Hospital Group, Dar Al Fouad, Saudi German Hospital Cairo, As-Salam International), Alexandria (Saudi German Hospital Alexandria, Smouha International), Luxor (International Hospital Luxor), Aswan, Hurghada (Hurghada International Hospital, Red Sea Hospital), and Sharm El Sheikh (Sharm International Hospital) — all named in the travel-insurance guide — operate at international standards. English-speaking staff, modern equipment, accepting international insurance directly in many cases.
+The Egyptian medical care system is tiered. The top-tier private hospitals in Cairo (Cleopatra Hospital Group, Dar Al Fouad, Saudi German Hospital Cairo, As-Salam International), Alexandria (Saudi German Hospital Alexandria, Smouha International), Luxor (International Hospital Luxor), Aswan, Hurghada (Hurghada International Hospital, Red Sea Hospital), and Sharm El Sheikh (Sharm International Hospital) — all named in the travel-insurance guide — operate at international standards. English-speaking staff, modern equipment, accepting international insurance directly in many cases. [VERIFY: hospital names, locations and which accept international insurance directly]
 
-For routine non-urgent care, private clinics in Cairo, Alexandria, and the major tourism cities offer consultations at modest cost. The equivalent of 30-60 US dollars for a standard doctor consultation; specialised services and tests at proportionally higher rates. Many private clinics accept walk-in patients without appointments during business hours.
+For routine non-urgent care, private clinics in Cairo, Alexandria, and the major tourism cities offer consultations at modest cost. The equivalent of 30-60 US dollars for a standard doctor consultation [VERIFY: current cost of a standard private consultation]; specialised services and tests at proportionally higher rates. Many private clinics accept walk-in patients without appointments during business hours.
 
 For prescription pharmaceuticals, the major Egyptian pharmacy chains (El Ezaby, Roshdi, Misr Pharmacies) stock a wide range of medications. Many medications that require prescriptions in Western countries are available over the counter or with a quick pharmacist consultation in Egypt. The pharmacist consultation is free; medications are typically inexpensive — common items run the equivalent of a few US dollars.
 
@@ -66,9 +66,31 @@ For emergency medical care, the major private hospital emergency rooms are the s
 
 For the bilharzia question specifically, treatment is straightforward with the antiparasitic medication praziquantel; cluster-consistent with the water-safety-in-egypt guide.
 
-For diving-related medical emergencies (decompression sickness, the hyperbaric chamber question), the dedicated hyperbaric chambers at Sharm El Sheikh and Dahab handle the Red Sea region. The travel-insurance guide covers the DAN (Divers Alert Network) insurance framework.
+For diving-related medical emergencies (decompression sickness, the hyperbaric chamber question), the dedicated hyperbaric chambers at Sharm El Sheikh and Dahab handle the Red Sea region [VERIFY: current recompression chamber locations and emergency contacts on the Red Sea coast]. The travel-insurance guide covers the DAN (Divers Alert Network) insurance framework.
 
 For mental health emergencies, the major private hospital networks in Cairo have psychiatric and psychological services; access varies by facility. Crisis hotlines in Arabic exist but English-language services are limited.
+
+## Hospitals and What to Expect
+
+The useful skill is not memorising hospital names. It is knowing which kind of care to head for from where you are, and how serious the problem is.
+
+Egypt has public and private hospitals. Public hospitals are numerous and inexpensive, and they do essential work in first-line emergency response and basic treatment; for a foreign traveller, though, crowding, older facilities, limited English, unfamiliar paperwork, and variable cleanliness can make them hard going. Private hospitals cost more but are usually easier to navigate, with English-speaking staff, faster diagnostics, private rooms, and direct dealings with insurers. In Cairo, Alexandria, Luxor, Aswan, Hurghada, and Sharm El Sheikh, a private facility used to foreign patients is the realistic first choice when there is a choice. When life is at risk, the nearest capable facility comes first.
+
+Cairo has the widest range of care in the country — large private hospitals, university hospitals, specialist clinics, and diagnostic centres — and the best odds of an English-speaking doctor. It is also big enough that the nearest good hospital depends on where you are staying: Zamalek, Garden City, Maadi, New Cairo, Giza, and 6th of October City each have different options and travel times. Ask the hotel on arrival which trusted private hospital is closest, and save its location.
+
+Luxor and Aswan handle the common travel problems: gastroenteritis, dehydration and heat illness, minor injuries, IV fluids, basic tests. For a heart or neurological problem, serious trauma, or complex surgery, the usual course is to stabilise locally and transfer to Cairo.
+
+On the Red Sea, diving medicine is the particular concern. After a dive, unusual fatigue, numbness or tingling, dizziness, joint pain, breathlessness, weakness, or changes in vision can indicate decompression sickness; they are not a sign that you simply need a rest. Contact the dive centre and a hyperbaric facility immediately, before going to an ordinary hospital. Before diving in Hurghada, Marsa Alam, Sharm El Sheikh, or Dahab, ask where the nearest chamber is and what the emergency procedure is.
+
+Ambulance response is uneven. The number is 123, but Cairo traffic can slow an ambulance considerably, and in the provinces, in the desert, and away from the resorts, help takes longer to arrive. Some mobiles also route 112 as a general emergency number [VERIFY: whether 112 reaches emergency services from Egyptian and foreign mobiles]. In practice, the people nearby — hotel staff, guide, driver, tour operator, dive centre — often do the most useful work in an emergency: organising transport, explaining the situation in Arabic, and deciding where to go first.
+
+Call the insurer's emergency line early, as soon as a problem looks serious rather than after admission. The insurer can recommend a hospital, issue a guarantee of payment, arrange a transfer, and decide whether evacuation is needed, and waiting can complicate all four. A basic consultation in Egypt may cost less than at home; the real financial exposure is admission, surgery, a transfer from Luxor or Aswan to Cairo, or medical evacuation home. Save the insurer's emergency number in your phone and on paper.
+
+Take your passport, insurance details, a card, cash, your regular medication, and any relevant medical notes to the hospital. If possible, go with someone who speaks Arabic, or with hotel or agency staff, to handle the paperwork.
+
+Pharmacies solve a great deal, but not everything. Being able to buy medicines over the counter that need a prescription elsewhere is not a reason to self-medicate, particularly with antibiotics. High fever, blood in the stool, severe pain, difficulty breathing, signs of dehydration, or rapid worsening need a doctor, as does any illness in pregnancy, in young children, in older travellers, or alongside a serious chronic condition. Carry a note of your regular medicines with their generic names, doses, and what they are for; photos of the boxes and prescriptions help too.
+
+When a problem is not urgent but you are unsure what to do, a sensible order is: a pharmacy for mild symptoms, a private clinic or hospital for symptoms that persist or worry you, and an emergency department for symptoms that are severe or developing fast.
 
 ## Personal Safety: The Honest Picture
 

@@ -8,6 +8,8 @@ El marco cultural egipcio es, en términos amplios, árabe, musulmán y mediterr
 
 Esa generosidad a veces sorprende al visitante extranjero. Un desconocido ofrecerá indicaciones antes de que se las pidan. Un taxista pasará diez minutos practicando inglés. Un tendero insistirá en servir té a un cliente en plena negociación. Un vecino de café entablará conversación. La inquietud del visitante extranjero de que alguien busca algo a cambio suele estar fuera de lugar: muchas de estas interacciones son sencillamente egipcias. Algunas son comerciales; otras no; aprender a distinguirlas lleva unos días y se aborda en la guía de los buscavidas en Egipto.
 
+Cuando el acercamiento es comercial y no interesa, la forma cortés es breve: «la, shokran» (no, gracias), dicho una vez y con una sonrisa, y seguir caminando. Una conversación larga sin intención de comprar se entiende como el inicio de una negociación, y la irritación visible estropea el intercambio para ambas partes. Conviene regatear solo lo que de verdad se piensa comprar y, antes de subir a un camello o a un coche de caballos, acordar precio, duración, recorrido y propina; en un taxi, acordar la tarifa o confirmar el taxímetro antes de arrancar.
+
 La otra cara de la generosidad es la expectativa de que el visitante corresponda a los pequeños gestos sociales. Devolver un saludo, aceptar un vaso de té cuando se ofrece, descalzarse en una puerta, usar la mano derecha en las acciones cotidianas, vestir con una modestia razonable: estas cosas importan menos por reglas explícitas que porque se leen como las señales estándar de quien ha estado atento. Los egipcios son extraordinariamente indulgentes con los errores genuinos. Y son más cálidos con el visitante que claramente lo intenta.
 
 El marco cultural más profundo —las herencias superpuestas copta, islámica y del Egipto premoderno— se aborda en las páginas sobre Egipto y sobre el tiempo en Egipto. Este artículo se centra en la etiqueta operativa de cada día.
@@ -32,7 +34,7 @@ La hospitalidad egipcia es una de las fortalezas culturales más visibles del pa
 
 Si a uno lo invitan a una casa —algo relativamente frecuente tras unos días de conversación cordial con tenderos, personal de café o anfitriones de alojamiento—, se aplican varias convenciones.
 
-Conviene llevar un pequeño regalo. Lo habitual son dulces o repostería (una caja de kunafa, basbousa o similar de una confitería conocida); para algunos anfitriones, flores; para anfitriones con hijos, un juguete pequeño o dulces son apropiados. Conviene evitar llevar alcohol, salvo que se tenga la certeza de que el anfitrión bebe. Y evitar los regalos caros que generan una obligación no deseada: importa más el gesto que el valor.
+Conviene llevar un pequeño regalo. Lo habitual son dulces o repostería (una caja de kunafa, basbousa o similar de una confitería conocida); para algunos anfitriones, flores; para anfitriones con hijos, un juguete pequeño o dulces son apropiados. Conviene evitar llevar alcohol, salvo que se tenga la certeza de que el anfitrión bebe. Y evitar los regalos caros que generan una obligación no deseada: importa más el gesto que el valor. La fruta es otra buena opción. Las flores son la menos segura: según el contexto, pueden asociarse con hospitales o con el luto, así que los dulces o la fruta son la elección más prudente.
 
 Conviene descalzarse en la puerta. La mayoría de los hogares egipcios son casas de zapatos fuera; lo prudente es observar lo que hace el anfitrión y seguirlo. En las casas urbanas de gama alta, a veces esta convención se relaja; la pauta es la iniciativa del anfitrión.
 
@@ -61,6 +63,8 @@ En cuanto a la vestimenta, la pauta práctica fuera de los lugares de culto es h
 - Centro de El Cairo, el Cairo islámico antiguo, ciudades más pequeñas y zonas rurales: una vestimenta más conservadora reduce las fricciones<sp>
 - Mezquitas e iglesias: hombros cubiertos, rodillas cubiertas, pañuelo para el cabello en las mezquitas (guía de visita a un lugar de culto)<sp>
 
+La pauta vale tanto para los hombres como para las mujeres. Pasear por la ciudad sin camiseta, o entrar en un lugar de culto con pantalón muy corto, cae mal casi en cualquier sitio fuera de los recintos turísticos. La ropa aquí no es un examen moral, sino una forma de reducir fricciones, y con calor las mangas largas finas, el lino y los cortes holgados cumplen las dos funciones.
+
 La guía del clima de Egipto aborda las implicaciones prácticas de la ropa según la estación; el código de vestimenta de los lugares de culto se trata en la guía de visita a un lugar de culto.
 
 La fotografía requiere su propia etiqueta. Fotografiar edificios, paisajes, comida y escenas de calle suele ser bien recibido y nada llamativo. Fotografiar personas exige más cuidado:
@@ -71,8 +75,11 @@ La fotografía requiere su propia etiqueta. Fotografiar edificios, paisajes, com
 - Entornos religiosos, en particular las mezquitas durante la oración: restringido (guía de visita a un lugar de culto)<sp>
 - Edificios oficiales, instalaciones militares, policía: no fotografiar; puede acarrear la confiscación del equipo<sp>
 - Puentes, infraestructura de transporte: restringido en algunos casos<sp>
+- Personas que posan para fotos en los sitios turísticos: a menudo esperan propina; conviene acordarlo antes de hacer la foto, no después
 
 Una pequeña nota recíproca: los niños y adolescentes egipcios a veces querrán salir en fotografías con los visitantes y pueden pedirlo. Las familias egipcias de excursión solicitarán de vez en cuando fotografías con visitantes extranjeros en los grandes sitios. Suele ser curiosidad amistosa más que intención comercial; cabe acceder o declinar según la comodidad de cada uno.
+
+Los yacimientos y los museos fijan sus propias normas sobre el flash, los trípodes y las entradas de fotografía, y en algunas zonas no se permite fotografiar en absoluto. Conviene comprobarlo en cada lugar, sobre todo en las tumbas del [Valle de los Reyes](/guide/luxor/valley-of-the-kings) y en los museos. Ante la duda, mejor no disparar.
 
 Fumar está muy extendido en Egipto y se acepta en la mayoría de los entornos al aire libre y en muchos interiores. Los espacios sin humo aumentan, pero aún no son universales. El consumo de alcohol se limita a los locales con licencia: bares, restaurantes con licencia, hoteles, centros de buceo. Beber en público, en cafés que no sirven alcohol, o llevar alcohol abierto a la vista no es aceptable. Durante el Ramadán, el servicio de alcohol en los locales de cara al público está restringido; la guía del Ramadán en Egipto aborda la etiqueta más amplia del Ramadán.
 
@@ -86,18 +93,31 @@ La cultura egipcia de los negocios y la vida profesional tiene sus propias conve
 
 El Ramadán añade su propia capa cultural. Durante las horas de luz del mes sagrado (la guía del Ramadán en Egipto cubre los detalles), la etiqueta práctica es evitar comer, beber y fumar de forma visible en público; no están restringidos por ley para los visitantes no musulmanes, pero hacerlo a la vista de egipcios que ayunan se considera insensible. Existen restaurantes y cafés abiertos para quienes no ayunan, a menudo con mamparas o con asientos limitados de cara a la calle. El iftar —el momento en que se rompe el ayuno al atardecer— es una de las experiencias sociales más extraordinarias de Egipto; una invitación a una mesa de iftar es un gesto importante de acogida y merece aceptarse si se ofrece.
 
+## **Conversación**
+
+A la mayoría de los egipcios les gusta conversar, y las entradas fáciles son las evidentes: de dónde es uno, la familia, el trabajo, la comida, el fútbol, la historia de Egipto. Elogiar la comida, preguntar por lugares que la otra persona conoce o pedir una recomendación anima la conversación enseguida.
+
+La política pide cuidado. La política egipcia actual es compleja y las opiniones se dividen incluso dentro de las familias y los grupos de amigos. Si un egipcio saca el tema, lo sensato es escuchar; el visitante no necesita llegar con conclusiones.
+
+Con la religión ocurre algo parecido. Las preguntas hechas con interés sincero suelen ser bien recibidas; la discusión, no. Las conversaciones sobre el islam, la Iglesia copta, el ayuno o la oración van mejor cuando el visitante, sobre todo, escucha.
+
+El fútbol es un asunto serio: la rivalidad entre Al Ahly y Zamalek, la selección, Mohamed Salah. Sin interés por el tema, conviene no despreciarlo; «¿de qué equipo eres?» basta para que la conversación siga.
+
 ## **Frases que abren puertas**
 
 La guía de la lengua en Egipto aborda el panorama lingüístico árabe más amplio. En lo que respecta a la etiqueta, un pequeño número de frases funciona como moneda social.
 
 - As-salamu alaikum (la paz sea contigo): el saludo universal; se responde con wa alaikum as-salam (y contigo la paz)<sp>
+- Ahlan (hola, bienvenido): el saludo más cálido e informal
 - Sabah el-kheir (buenos días): se responde con sabah el-noor (mañana de luz)<sp>
 - Masaa el-kheir (buenas tardes): se responde con masaa el-noor<sp>
 - Shokran (gracias): se usa con liberalidad y se agradece<sp>
+- La, shokran (no, gracias): la frase más útil para rechazar a buscavidas y vendedores
 - Afwan (de nada / perdón)<sp>
 - Min fadlak / min fadlik (por favor, en masculino y femenino)<sp>
 - Mish mushkila (no hay problema)<sp>
 - Inshallah (si Dios quiere): se usa tras cualquier intención futura; «nos vemos mañana, inshallah»<sp>
+- Alhamdulillah (gracias a Dios): la respuesta cotidiana a «¿qué tal?», en el sentido de «bien, gracias a Dios»
 - Maa'as-salama (adiós / «ve en paz»)<sp>
 - Habibi / habibti (querido mío / querida mía): se usa con afecto entre conocidos cercanos<sp>
 
