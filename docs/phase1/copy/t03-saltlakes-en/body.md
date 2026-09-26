@@ -1,92 +1,91 @@
-In photos, white salt fringe and blue-green water stand out. Entering, the body floats naturally. Sometimes introduced as a small Dead Sea in the desert.
+In photographs it is the colours that stand out: a white fringe of salt around blue-green water. Step in and your body floats without any effort, which is why the lakes are sometimes sold as a small Dead Sea in the desert.
 
-Siwa's salt lakes aren't only photo spots. A place where oasis landform, water, salt, agriculture, and tourism layer. Beautiful, with sharp ground and skin-strong salt; environment delicate. Knowing what to see and how to enter before going makes the experience much better.
+Siwa's salt lakes are more than a photo stop, though. They are where the oasis's landform, its water, its salt, its farming and its tourism all overlap. They are beautiful, but the ground can be sharp, the salt is hard on skin, and the environment is fragile. Knowing what you are looking at, and how to get in and out of the water, makes the visit much better.
 
-## Why salt lakes exist in Siwa
+## Why Siwa has salt lakes
 
-Siwa is an oasis in a Western Desert depression.
+Siwa is an oasis in a depression in the Western Desert.
 
-Below-surrounding land, groundwater gathers and surfaces as springs. In dry climate, water evaporates, leaving dissolved salt and minerals. Long accumulation produced high-salinity lakes and pools and white salt crust.
+Because the land sits lower than its surroundings, groundwater collects here and rises as springs. In the dry climate the water evaporates and leaves its dissolved salt and minerals behind. Over a long time this has built up high-salinity lakes and pools, and crusts of white salt.
 
-Siwa's salt lakes don't mean one big lake. Beyond major lakes like Birket Siwa, smaller pools tie to salt extraction and water management. Some of the blue pools travellers visit are less pure nature and more shaped by salt extraction.
+"The salt lakes" does not mean one big lake. Besides the main lakes, such as Birket Siwa, there are smaller pools linked to salt extraction and water management. Some of the blue pools that travellers visit owe less to nature than to salt extraction.
 
-So this isn't fully pristine nature. A landscape of geology, water's work, human labour, and tourism layering.
+So this is not pristine wilderness. It is a landscape made by geology, by water, by human labour and by tourism, all at once. The lakes one by one, and how they fit into the oasis, are covered in our [guide to the Siwa salt lakes](/guide/siwa-oasis/salt-lakes).
 
-## What the experience is
+## What it feels like
 
-High salinity floats the body naturally when you commit weight to the water. Closer to being supported than swimming. Strange at first; the body relaxes with use.
+The water is so salty that once you let it take your weight, you float. It feels less like swimming than like being held up. It is strange at first, and your body relaxes as you get used to it.
 
-Water colour varies by time and pool. Midday with white salt and strong sun is bright in photos and a little harsh on the body. Morning and evening softens the light, with calmer lake colour.
+The colour of the water changes with the time of day and from pool to pool. At midday, with white salt and strong sun, everything looks bright in photos but is hard on the body. Morning and evening soften the light and calm the colour of the lake.
 
-Don't stay in long. High-salinity water stimulates skin and eyes. Cuts, scrapes, and post-sunburn skin sting. Don't put your face in; if water enters eyes, rinse immediately with freshwater.
+Don't stay in for long. The salty water irritates skin and eyes, and cuts, scrapes and sunburn will sting. Keep your face out of the water; if any gets in your eyes, rinse them straight away with fresh water.
 
 ## What to bring
 
-For salt lakes, always bring freshwater.
+For the salt lakes, always bring fresh water.
 
-To rinse salt off skin after the water. On-site shower isn't always available. Carry plenty of bottled water.
+You will need it to rinse the salt off your skin when you come out, because there is not always a shower on site. Carry plenty of bottled water.
 
-Foot protection matters. Salt crystals and ground can be sharp. Barefoot hurts in places; sandals or water shoes that can get wet help.
+Protect your feet. Salt crystals and the ground around the pools can be sharp, and walking barefoot hurts in places. Sandals or water shoes that can get wet make a real difference.
 
-Useful items: freshwater, towel, sandals, hat, sunglasses, sunscreen, bag for wet items. Smartphones and cameras don't like saltwater — use waterproof cases or bags.
+Also useful: a towel, a hat, sunglasses, sunscreen and a bag for wet things. Phones and cameras do not like salt water, so use a waterproof case or bag.
 
-Salt lakes aren't beaches. Rather than sitting long, think of them as places to briefly enter, rinse off, and see the surrounding scenery.
+The salt lakes are not a beach. Rather than settling in for the afternoon, think of them as a place to get in briefly, rinse off, and look at the landscape around you.
 
-## On health effects
+## Health claims
 
-Siwa's salt lakes are sometimes tied to healing or health claims.
+The salt lakes are sometimes described as healing or good for your health.
 
-High-salinity water and mineral-bearing mud are sometimes told as good for skin or joints. Some salt lakes and hot springs worldwide have been researched for mineral bathing.
+The salty water and the mineral-rich mud are said to be good for the skin or the joints, and some salt lakes and hot springs elsewhere in the world have been studied for mineral bathing.
 
-Don't treat Siwa's salt lakes as places curing specific diseases. For travellers, receive them as natural floating experience, not medicine.
+Don't treat Siwa's salt lakes as a cure for any particular illness. For a traveller they are a natural floating experience, not a medicine.
 
-People with skin conditions, open wounds, strong sunburn, eye issues, or chronic conditions shouldn't push entering. With concerns, consult a doctor in advance.
+If you have a skin condition, an open wound, bad sunburn, an eye problem or a chronic illness, don't push yourself to go in. If you have concerns, ask a doctor before you travel.
 
-## Different from the Spring of Cleopatra
+## How they differ from Cleopatra's Spring
 
-In Siwa, salt lakes and the Spring of Cleopatra are sometimes spoken of together; characters differ.
+In Siwa the salt lakes and Cleopatra's Spring are often mentioned together, but they are quite different.
 
-The Spring of Cleopatra is a freshwater spring. Relatively close to town, springwater flows into a round stone-rimmed pool. The name spread through tourism; no firm evidence Cleopatra visited.
+Cleopatra's Spring is fresh water. Fairly close to town, spring water flows into a round, stone-edged pool. The name spread through tourism; there is no firm evidence that Cleopatra ever went there.
 
-Salt lakes are high-salinity water. Float-experience capable; not for long. Some travellers combine the spring as a freshwater rinse after the salt lake; consider crowd and local use.
+The salt lakes are highly saline. You can float in them, but not for long. Some travellers use the spring as a freshwater rinse after the salt lakes; if you do, be mindful of the crowds and of the local people using it.
 
-Even at water places, Siwa is a conservative community. Avoid walking through town in swimwear; for transit, wear covering clothes.
+Even at the water, remember that Siwa is a conservative community. Don't walk through town in swimwear; cover up when you are on the way there and back.
 
 ## When to go
 
-October to April is the most workable season.
+October to April is the easiest time.
 
-Comparatively gentle heat; walking around the lake taxes less. Winter is comfortable by day; morning and evening cool. After entering water, you can feel cold; carry a layer.
+The heat is milder, so walking around the lakes takes less out of you. Winter days are comfortable, but mornings and evenings are cool, and you can feel cold after getting out of the water, so bring a layer.
 
-Summer is very hot, and midday salt lakes are a tough environment. White-salt reflection is strong, sun exposure heavy. In summer, narrow to early morning or evening.
+Summer is very hot, and at midday the salt lakes are a harsh place to be. The glare off the white salt is strong and the sun is intense. In summer, limit your visit to early morning or evening.
 
-For photography, morning or evening fits. Light softens; water colour reads cleanly.
+For photography, morning and evening work best: the light is softer and the colour of the water comes through clearly.
 
 ## Getting there
 
-To salt lakes, car or tuk-tuk from Siwa town is standard.
+Most people reach the salt lakes by car or tuk-tuk from Siwa town.
 
-Bike works for some places; consider heat, road condition, and return stamina. After entering, the body feels salt-sticky — riding back long can feel unpleasant.
+You can cycle to some of them, but think about the heat, the state of the road and whether you will have the energy to ride back. After a swim your skin feels sticky with salt, and a long ride home can be unpleasant.
 
-For first time, having the inn or local guide arrange it is easy. Confirm which pool, where to rinse, what time, on the ground.
+On a first visit, it is easiest to have your hotel or a local guide arrange it. Confirm on the spot which pool you are going to, where you can rinse off, and what time you are going.
 
-To see only salt lakes, short time works; for understanding all Siwa, combine with Shali ruins, the Oracle Temple, Gebel el-Mawta, springs, and [the Great Sand Sea](/guide/siwa-oasis/the-great-sand-sea).
+If you only want to see the salt lakes, a short visit is enough. To understand Siwa as a whole, combine them with the ruins of Shali, the Oracle Temple, Gebel el-Mawta, the springs and [the Great Sand Sea](/guide/siwa-oasis/the-great-sand-sea).
 
-## Environmental care
+## Looking after the lakes
 
-Salt lakes are more delicate than they look.
+The salt lakes are more fragile than they look.
 
-Salt crust breaks easily; some water edges tie to extraction or local use. Walkable areas, drivable areas, and photographable range — follow local guidance.
+The salt crust breaks easily, and some of the water's edge is tied to salt extraction or local use. Follow local guidance on where you can walk, where vehicles can go and where you can take photographs.
 
-Leaving no trash is obvious; also avoid taking salt crystals home. If many take a little each, landscape suffers.
+Taking your rubbish with you goes without saying, but also avoid taking salt crystals home. If every visitor takes a little, the landscape suffers.
 
-Siwa's water isn't infinite. Springs, agriculture, salt lakes, and tourism share one water system. A place travellers enjoy for a few hours is, locally, a life-and-environment issue.
+Siwa's water is not unlimited. The springs, the farms, the salt lakes and tourism all draw on one water system. A place that a traveller enjoys for a few hours is, for the people who live here, a question of livelihood and environment.
 
-## Should salt lakes alone be the purpose
+## Are the salt lakes worth the trip on their own?
 
-Long transfer just for salt lakes brings less satisfaction than visiting them as part of all of Siwa. Salt lakes are a place to feel Siwa's water-and-salt world with the body. Seeing date-palm fields, Shali, springs, and desert before and after makes clear why this landscape exists here.
+A long transfer just for the salt lakes is less satisfying than seeing them as part of Siwa as a whole. The salt lakes are where you feel Siwa's world of water and salt with your own body. Seeing the date-palm groves, Shali, the springs and the desert before and after makes it clear why this landscape exists here.
 
-In a two-night stay, salt lakes and major sights fit. Three nights add desert sunset, museum, and town walking without strain. Our [Siwa Oasis guide](/guide/siwa-oasis) covers how to plan the rest of the oasis around them.
+In a two-night stay you can fit in the salt lakes and the main sights. A third night adds a desert sunset, the museum and time to walk around town without rushing. Our [Siwa Oasis guide](/guide/siwa-oasis) covers how to plan the rest of the oasis around them.
 
-Don't consume Siwa's salt lakes hurriedly. Enter quietly, float briefly, rinse off salt, see the surrounding white ground and distant palms. That pace fits this place.
-
+Don't rush the salt lakes. Get in quietly, float for a little while, rinse off the salt, and look at the white ground and the distant palms around you. That is the pace this place suits.
