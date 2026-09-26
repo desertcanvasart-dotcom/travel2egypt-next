@@ -49,15 +49,16 @@ def main():
             continue
         c = line.strip().split(",")
         redirect[(c[0].replace("https://travel2egypt.org", "").rstrip("/"), c[2])] = c[1]
-    problems, mutations = [], []
+    problems, skipped, weaken, unpublish = [], [], [], []
     for r in rows:
         doc_id = r["sanity_id"]
         want = redirect.get((r["url"], r["locale"]))
         if not want:
-            problems.append(f"{r['url']}: no live row in migration/redirect-map.csv")
+            # held (ship-after-publish) or undecided locale: the post stays published
+            skipped.append(f"{r['url']}: no live redirect row; left published")
             continue
         code, loc = live_location(r["url"])
-        if code not in ("301", "308") or loc != want:
+        if code not in ("301", "308") or loc.rstrip("/") != want.rstrip("/"):
             problems.append(f"{r['url']}: production answers {code} {loc or ''}, expected a redirect to {want}")
             continue
         refs = ptmd.groq('*[references($id) && !(_id in path("drafts.**"))]{_id,_type}', id=doc_id)
@@ -69,28 +70,41 @@ def main():
             full = ptmd.groq("*[_id == $id][0]", id=m["_id"])
             for t in full.get("translations") or []:
                 if t["value"].get("_ref") == doc_id and not t["value"].get("_weak"):
-                    mutations.append({"patch": {"id": m["_id"], "set": {
+                    weaken.append({"patch": {"id": m["_id"], "set": {
                         f'translations[_key=="{t["_key"]}"].value._weak': True}}})
         pub = ptmd.groq("*[_id == $id][0]", id=doc_id)
         draft = ptmd.groq("*[_id == $id][0]", id="drafts." + doc_id)
         if not pub:
-            problems.append(f"{doc_id}: already unpublished")
+            skipped.append(f"{doc_id}: already unpublished")
             continue
         if not draft:
             keep = {k: v for k, v in pub.items() if k not in ("_rev", "_updatedAt", "_createdAt")}
             keep["_id"] = "drafts." + doc_id
-            mutations.append({"createIfNotExists": keep})
-        mutations.append({"delete": {"id": doc_id}})
+            unpublish.append({"createIfNotExists": keep})
+        unpublish.append({"delete": {"id": doc_id}})
+    for p in skipped:
+        print("–", p)
     for p in problems:
         print("✗", p)
     if problems:
         sys.exit("refused: fix the problems above first (nothing written)")
-    for m in mutations:
+    if not unpublish:
+        print("nothing to unpublish")
+        return
+    for m in weaken + unpublish:
         k = next(iter(m))
         print("·", k, m[k].get("id") or m[k].get("_id"))
-    res = ptmd.mutate(mutations, dry_run=(a.cmd == "check"))
-    print("dry run ok" if a.cmd == "check" else "done", res.get("transactionId"))
-
+    if a.cmd == "check":
+        # the delete can only be validated once the references are weak, so the
+        # dry run checks the weakening; write commits it before unpublishing
+        res = ptmd.mutate(weaken, dry_run=True) if weaken else {}
+        print("dry run ok (weakening);", len(unpublish), "unpublish mutations queued")
+        return
+    # Strong translation.metadata references block the delete, so weaken them in
+    # their own committed transaction first (harmless: the grouping is kept).
+    if weaken:
+        print("weakened", ptmd.mutate(weaken, dry_run=False).get("transactionId"))
+    print("done", ptmd.mutate(unpublish, dry_run=False).get("transactionId"))
 
 if __name__ == "__main__":
     main()
