@@ -20,17 +20,17 @@ const SISTER_BRANDS = [
 const SISTER_BRAND_DESCRIPTIONS: Record<Locale, Record<string, string>> = {
   en: {
     affordegypt: 'Egypt for budget-conscious travelers.',
-    sillage: 'Boutique luxury, Aswan-rooted.',
+    sillage: 'Private journeys with Egyptologists.',
     sawa: 'Group journeys, together.',
   },
   es: {
     affordegypt: 'Egipto para viajeros con presupuesto.',
-    sillage: 'Lujo boutique, con raíces en Asuán.',
+    sillage: 'Viajes privados con egiptólogos.',
     sawa: 'Viajes en grupo, juntos.',
   },
   ja: {
     affordegypt: '予算重視の旅行者のためのエジプト',
-    sillage: 'アスワンに根ざしたブティック・ラグジュアリー',
+    sillage: 'エジプト学者と巡るプライベートな旅',
     sawa: 'みんなで一緒に楽しむグループの旅',
   },
 };
