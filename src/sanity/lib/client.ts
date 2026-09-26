@@ -24,6 +24,16 @@ const readToken =
   process.env.SANITY_PRODUCTION_API_WRITE_TOKEN ||
   process.env.SANITY_API_WRITE_TOKEN;
 
+/**
+ * `next build` prerenders ~3,700 pages in parallel and every one reads from the
+ * API origin (see above), which can trip Sanity's in-flight request limit
+ * (HTTP 429 "Too many in-flight requests"). The client already retries 429s on
+ * queries; give it more attempts with a jittered backoff so a busy moment
+ * drains instead of failing the whole build.
+ */
+const readRetryDelay = (attempt: number) =>
+  Math.min(250 * 2 ** attempt, 8000) + Math.floor(Math.random() * 250);
+
 export const client = createClient({
   projectId,
   dataset,
@@ -31,6 +41,8 @@ export const client = createClient({
   useCdn: false,
   perspective: 'published',
   token: readToken,
+  maxRetries: 8,
+  retryDelay: readRetryDelay,
 });
 
 /**
