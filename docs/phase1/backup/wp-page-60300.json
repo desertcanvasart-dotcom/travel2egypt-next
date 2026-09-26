@@ -1,0 +1,1636 @@
+{
+  "_createdAt": "2026-05-04T20:38:46Z",
+  "_id": "wp-page-60300",
+  "_rev": "D69bOyJuIWnktHyzOY5LoH",
+  "_system": {
+    "base": {
+      "id": "wp-page-60300",
+      "rev": "foUqbMWmQeVyxrmYihaIuR"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-13T15:47:16Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "3ikibm6nphob",
+              "_type": "span",
+              "marks": [],
+              "text": "Getting Around "
+            },
+            {
+              "_key": "b217nnh5uxnk",
+              "_type": "span",
+              "marks": [
+                "ggac5yed3azp"
+              ],
+              "text": "Nuweiba"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "ggac5yed3azp",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58892",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Nestled between the rugged mountains of the"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": " Sinai Peninsula"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " and the serene waters of the Gulf of Aqaba, Nuweiba is a hidden gem in Egypt, offering a tranquil escape from the bustle of more crowded tourist destinations. For those looking to explore this serene coastal town, navigating Nuweiba is both a journey and an adventure in itself."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Sinai_Peninsula",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "By Taxi: The Local Way to Traverse"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Taxis in Nuweiba are plentiful and provide a convenient way to get around. They’re perfect for short trips within the town or for venturing to nearby attractions. Always agree on the fare before starting your journey, as meters are not commonly used here. Taxis offer a personal and direct way to explore, with "
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "00000000000a"
+              ],
+              "text": "local"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": " drivers often willing to share insights into the best spots to visit."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/things-to-do-in-aswan/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/aswan/things-to-do-in-aswan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Renting a Car: For the Independent Explorer"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "For those who prefer to explore at their own pace, "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "000000000011"
+              ],
+              "text": "renting a car"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " is an excellent option. Nuweiba’s roads are generally straightforward and less crowded, making for a pleasant driving "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "experience"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ". Car rental can be arranged in the town or pre-booked from larger cities like "
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "000000000017"
+              ],
+              "text": "Sharm El-Sheikh"
+            },
+            {
+              "_key": "ecxtzuglzmd0",
+              "_type": "span",
+              "marks": [],
+              "text": " or "
+            },
+            {
+              "_key": "8kjtcn9a1lit",
+              "_type": "span",
+              "marks": [
+                "b1mxxagtppfg"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "y85regqiais7",
+              "_type": "span",
+              "marks": [],
+              "text": ". Having your own vehicle allows for spontaneous detours to hidden beaches or desert "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "excursions"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": ", providing a sense of freedom and adventure."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000011",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/aswan-private-car-and-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/aswan-private-car-and-guide",
+              "newTab": false
+            },
+            {
+              "_key": "000000000014",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/home/dahab-historical-guide-8/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/dahab/dahab-historical-guide",
+              "newTab": false
+            },
+            {
+              "_key": "000000000017",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/sharm-el-sheikh-historical-overview/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/sharm-el-sheikh/sharm-el-sheikh-historical-overview",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/kom-ombo-travel-guide/excursion/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/kom-ombo-travel-guide/excursion/",
+              "newTab": false
+            },
+            {
+              "_key": "b1mxxagtppfg",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "Microbuses: An Economical and Authentic Experience"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Microbuses are a common sight in Nuweiba and are an economical way to travel. They operate on fixed routes and are a popular choice among locals. Riding a microbus offers an authentic glimpse into the everyday life of "
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "000000000021"
+              ],
+              "text": "Nuweiba’s residents and is perfect for travelers"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": " on a budget."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000021",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/things-to-do-in-nuweiba/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/nuweiba/things-to-do-in-nuweiba",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "Biking: A Scenic and Healthy Alternative"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "For the more active traveler, bicycles are a great way to explore Nuweiba. The town’s relatively flat terrain and scenic landscapes make it ideal for cycling. Biking allows you to take in the views at your own pace, stop for impromptu swims, and access areas that are off the beaten path."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "Walking: Immerse in the Town’s Charm"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "Finally, Nuweiba is a town that lends itself beautifully to exploration on foot, especially the market area and the beachfront. Walking through the town, you’ll discover small cafes, local markets, and friendly faces, offering an intimate experience of Nuweiba’s laid-back "
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "00000000002c"
+              ],
+              "text": "lifestyle"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/vacation-in-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/ejiputo-de-kyuka-o-sugosu-nara",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/ahmad-ajmi-lhEhrBdMgfg-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up of a heavily burdened camel with colorful textiles in a rocky desert setting"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "A camel carries the vibrant essentials of nomadic life through the stark beauty of the desert"
+            }
+          ]
+        },
+        {
+          "_key": "000000000031",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/ahmad-ajmi-75ClavX2SDU-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A close-up image of a towering rock formation against a clear blue sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Nature's artwork - a rock formation sculpted into a silent sentinel by time and the elements"
+            }
+          ]
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Essential Egypt Travel Tips: Your Guide to a Seamless Journey"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Navigate your Egyptian "
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "000000000035"
+              ],
+              "text": "adventure"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " with confidence using our essential travel tips. From navigating local customs to selecting the best times to visit "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "iconic"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " sites, our guide ensures you make the most of your trip. Click for insider advice on experiencing "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " like a pro!"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000035",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/are-there-crocodiles-in-the-nile-river/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/nairu-gawa-ni-wani-wa-iru-no-ka",
+              "newTab": false
+            },
+            {
+              "_key": "00000000003b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/qasr-ibrim/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/abu-simbel/qasr-ibrim",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "kxp8xxhxbcyo",
+              "_type": "span",
+              "marks": [],
+              "text": "Moverse por "
+            },
+            {
+              "_key": "ts3ue463c5ho",
+              "_type": "span",
+              "marks": [
+                "erhy56pwf43l"
+              ],
+              "text": "Nuweiba"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "erhy56pwf43l",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58892",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Enclavada entre las escarpadas montañas de la península del Sinaí y las serenas aguas "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "del golfo de Aqaba,"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " Nuweiba es una joya oculta en Egipto, que ofrece una tranquila escapada del bullicio de los destinos turísticos más concurridos."
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Para quienes deseen explorar esta serena ciudad costera, la "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Guía de transporte local en Nuweiba"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": " convierte el simple hecho de moverse por la ciudad en un verdadero viaje y una aventura en sí misma."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://www.ecured.cu/Golfo_de_%C3%81caba",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "En Taxi: La forma local de viajar"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "En Nuweiba abundan los taxis y son una forma cómoda de desplazarse."
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": " Son perfectos para viajes cortos dentro de la ciudad o para aventurarse a visitar lugares de interés cercanos."
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": " Acuerda siempre la tarifa antes de iniciar el viaje, ya que aquí no se suelen utilizar taxímetros."
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " Los taxis ofrecen una forma personal y directa de explorar, y los conductores locales suelen estar dispuestos a compartir sus ideas sobre los mejores lugares para visitar. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Alquilar un coche: Para el Explorador Independiente"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Para quienes prefieran explorar a su propio ritmo, alquilar un coche es una excelente opción."
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Las carreteras de Nuweiba suelen ser sencillas y menos concurridas, por lo que la experiencia de conducir es agradable."
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "Puedes alquilar un coche en la ciudad o reservarlo con antelación desde ciudades más grandes como "
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "00000000001c"
+              ],
+              "text": "Sharm El-Sheikh"
+            },
+            {
+              "_key": "yewr9xkgtj80",
+              "_type": "span",
+              "marks": [],
+              "text": " o "
+            },
+            {
+              "_key": "62bcffxssu37",
+              "_type": "span",
+              "marks": [
+                "p6uirqhoyfpo"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "r2tobx2yju1x",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Disponer de tu propio vehículo te permite hacer desvíos espontáneos a playas escondidas o excursiones por el desierto, proporcionándote una sensación de libertad y aventura."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viajes-de-sharm-el-sheij/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viajes-de-sharm-el-sheij/",
+              "newTab": false
+            },
+            {
+              "_key": "p6uirqhoyfpo",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "Microbuses: Una experiencia económica y auténtica"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Los microbuses son habituales en Nuweiba y constituyen una forma económica de viajar."
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": " Funcionan en rutas fijas y son una opción popular entre los lugareños."
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": " Viajar en microbús ofrece una visión auténtica de la vida cotidiana de los habitantes de Nuweiba y es perfecto para los viajeros con poco presupuesto. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Ir en bici: Una alternativa paisajística y saludable"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Para los viajeros más activos, la bicicleta es una forma estupenda de explorar Nuweiba."
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": " El terreno relativamente llano de la ciudad y sus paisajes pintorescos la hacen ideal para el ciclismo."
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " La bicicleta te permite disfrutar de las vistas a tu propio ritmo, parar para nadar improvisadamente y acceder a zonas que están fuera de los caminos trillados. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Paseando: Sumérgete en el encanto de la ciudad"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Por último, Nuweiba es una ciudad que se presta maravillosamente a la exploración a pie, especialmente la zona del mercado y el paseo marítimo."
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": " Paseando por la ciudad, descubrirás pequeños cafés, mercados locales y rostros amables, que ofrecen una experiencia íntima del relajado estilo de vida de Nuweiba. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "ヌエバでの移動手段"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "シナイ半島の険しい山々と、アカバ湾の穏やかな海に挟まれたヌエバは、エジプトの隠れた宝石のような存在。"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": " 人混みを離れ、静寂と自然の美しさに包まれたこの海辺の町は、心休まる逃避先として魅力にあふれています。"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": " そんなヌエバを巡る旅は、ただの移動ではなく、まさに“冒険”そのものです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "タクシーでの移動：ローカルスタイルで巡るヌエバ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "ヌエバのタクシーは台数も多く、市内の移動にとても便利な手段です。町の中の短距離移動はもちろん、近隣の観光地へのアクセスにも最適です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "この地域ではメーター制が一般的ではないため、"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "乗車前に料金を交渉・確認"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "するのがルール。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "タクシーは個別で移動できる快適な手段であり、運転手たちは地元の見どころについての情報を気さくに教えてくれることも多く、ちょっとしたローカルガイドのような存在です。旅行者にとって、ヌエバを深く知るきっかけにもなります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "レンタカーで巡る：自由を楽しむ冒険者のために"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "自分のペースで自由に旅を楽しみたい方には、レンタカーがおすすめです。ヌエバの道路は比較的シンプルで交通量も少なく、運転しやすい環境が整っています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "gcwii3kbo76v",
+              "_type": "span",
+              "marks": [],
+              "text": "レンタカーはヌエバの町中でも手配可能ですが、"
+            },
+            {
+              "_key": "ds4hwg021pqi",
+              "_type": "span",
+              "marks": [
+                "jld0yoxptbix"
+              ],
+              "text": "シャルム・エル・シェイク"
+            },
+            {
+              "_key": "3ukhzvio86jh",
+              "_type": "span",
+              "marks": [],
+              "text": "や"
+            },
+            {
+              "_key": "5mrlor2d4tg2",
+              "_type": "span",
+              "marks": [
+                "1uurt1000hc2"
+              ],
+              "text": "カイロ"
+            },
+            {
+              "_key": "rg5ufcw4jxtc",
+              "_type": "span",
+              "marks": [],
+              "text": "といった大都市からの事前予約も可能です。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "jld0yoxptbix",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58927",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "1uurt1000hc2",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "車があれば、人里離れたビーチや砂漠の奥地へも気ままに立ち寄ることができ、旅の自由度がぐんと広がります。"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " スケジュールに縛られず、自分だけの冒険を楽しめる、まさに“自由を運ぶ移動手段”です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "マイクロバス：経済的でローカル感あふれる移動体験"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "ヌエバではマイクロバスがよく利用されており、"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "非常に経済的な移動手段"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "として親しまれています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "決まったルートを走るため、主要なエリアへのアクセスに便利で、"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "地元の人々の日常に触れられる貴重な体験"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "となります。"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": " 乗車はシンプルで、車内で運賃を支払うスタイル。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "特に予算を抑えたい旅行者にとっては、"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "リーズナブルでローカル感あふれる移動手段"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "として理想的です。"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": " ヌエバの素朴で親しみやすい一面を感じながら、旅をより深く味わえる方法のひとつです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "自転車で巡るヌエバ：景色と健康を楽しむアクティブな選択肢"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "アクティブな旅行者にとって、自転車はヌエバを探索する素晴らしい手段です。町全体は比較的フラットで、風景も美しく、サイクリングに最適な環境が整っています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "自転車なら、自分のペースで風景を楽しみながら移動でき、途中で気ままに海に立ち寄ったり、人の少ない静かなスポットへもアクセス可能です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "自然との一体感を味わいながら、"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "自由で開放的な旅をしたい方にぴったりの選択肢"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "徒歩で巡るヌエバ：街の魅力にじっくり浸る旅"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "最後に、ヌエバは徒歩での散策にぴったりの町です。特にマーケット周辺やビーチ沿いは、歩いてこそ味わえる魅力にあふれています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "街を歩けば、小さなカフェやローカルマーケット、そして温かく迎えてくれる地元の人々に出会えるでしょう。"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " ゆったりとしたヌエバのライフスタイルを、肌で感じられる"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "親密で心地よい体験"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "が、あなたを待っています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " 更新日：2025年3月27日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A man in a pale robe and cap walks with arms raised beside a resting saddled camel on stony desert ground below rugged mountains"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Un hombre con túnica y gorra claras camina con los brazos en alto junto a un camello ensillado que descansa en un terreno desértico pedregoso bajo montañas escarpadas"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "険しい山々の下、石だらけの砂漠で鞍を載せて休む一頭のラクダの傍らを、両腕を上げて歩く淡い長衣と帽子の男性"
+      }
+    ],
+    "asset": {
+      "_ref": "image-5efc8c7a9b1239abbdcdf1957e46740997d116ec-2752x1536-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A guide throws up his arms beside a resting camel, framed by the jagged Sinai mountains under a deep blue sky."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Un guía levanta los brazos junto a un camello en reposo, enmarcado por las escarpadas montañas del Sinaí bajo un cielo azul intenso."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ガイドが休むラクダの傍らで両腕を掲げ、深い青空の下、ぎざぎざのシナイ山脈を背にする。"
+      }
+    ]
+  },
+  "kind": "transport-around",
+  "migration": {
+    "migratedAt": "2026-05-05T12:58:56.109Z",
+    "source": "wp-import",
+    "wpId": 60300,
+    "wpModifiedAt": "2026-04-15T00:51:36",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/getting-around-nuweiba/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58892",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "getting-around-nuweiba"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "guia-de-transporte-local-en-nuweiba"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "nuweiba-de-no-ido-hoho"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Getting Around Nuweiba Nestled between the rugged mountains of the Sinai Peninsula and the serene waters of the Gulf of Aqaba, Nuweiba is a hidden gem in Egypt, offering a tranquil escape from the bustle of more crowded tourist destinations"
+    },
+    {
+      "_key": "es",
+      "value": "Moverse por Nuweiba Enclavada entre las escarpadas montañas de la península del Sinaí y las serenas aguas del golfo de Aqaba, Nuweiba es una joya oculta en Egipto, que ofrece una tranquila escapada del bullicio de los destinos turísticos má"
+    },
+    {
+      "_key": "ja",
+      "value": "ヌエバでの移動手段 シナイ半島の険しい山々と、アカバ湾の穏やかな海に挟まれたヌエバは、エジプトの隠れた宝石のような存在。 人混みを離れ、静寂と自然の美しさに包まれたこの海辺の町は、心休まる逃避先として魅力にあふれています。 そんなヌエバを巡る旅は、ただの移動ではなく、まさに“冒険”そのものです。 タクシーでの移動：ローカルスタイルで巡るヌエバ ヌエバのタクシーは台数も多く、市内の移動にとても便利な手段です。町の中の短距離移動はもちろん、近隣の観光地へのアクセスにも最適です。 "
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Getting Around Nuweiba"
+    },
+    {
+      "_key": "es",
+      "value": "Guía de transporte local en Nuweiba"
+    },
+    {
+      "_key": "ja",
+      "value": "ヌウェイバでの移動方法"
+    }
+  ]
+}

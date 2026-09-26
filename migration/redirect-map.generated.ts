@@ -10269,12 +10269,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/korona-uirusu-jidai-no-ejiputo-ryoko",
-    "destination": "/ja/blog/pandemikku-go-no-ejiputo-ryoko-de-shitte-oku-koto",
+    "destination": "/ja/travel-tips/ejiputo-nyukoku-gaido",
     "permanent": true
   },
   {
     "source": "/ja/blog/ejiputo-horide-puran",
-    "destination": "/ja/blog/ejiputo-no-horide-puran",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
     "permanent": true
   },
   {
@@ -10299,7 +10299,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/wasure-rare-nai-ejiputo-ryoko-zettai-ni-otozureru-beki",
-    "destination": "/ja/blog/ejiputo-de-kyuka-o-sugosu-nara",
+    "destination": "/ja/journeys/hajimete-no-ejiputo",
     "permanent": true
   },
   {
@@ -10309,7 +10309,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-de-sakeru-beki-shitsurei-na-kodo",
-    "destination": "/ja/blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni",
+    "destination": "/ja/travel-tips/ejiputo-no-bunka-mana",
     "permanent": true
   },
   {
@@ -10344,12 +10344,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/asuwan-de-otozureru-beki-gensen-9-supotto",
-    "destination": "/ja/blog/asuwan-de-otozureru-beki-basho",
+    "destination": "/ja/guide/asuwan",
     "permanent": true
   },
   {
     "source": "/ja/blog/asuwan-de-taiken-shi-tai-wasure-rare-nai-7-tsu-no-koto",
-    "destination": "/ja/blog/asuwan-de-nani-o-suru-beki-ka",
+    "destination": "/ja/guide/asuwan/asuwan-de-yaru-beki-koto",
     "permanent": true
   },
   {
@@ -10369,7 +10369,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-no-rekishi-teki-meisho-toki-o-koe-ta-tabi",
-    "destination": "/ja/blog/ejiputo-de-otozureru-beki-rekishi-teki-na-basho",
+    "destination": "/ja/guide",
     "permanent": true
   },
   {
@@ -10439,7 +10439,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/kodai-kara-gendai-e-nairu-kuruzu-de-otozureru-rekishi-teki",
-    "destination": "/ja/blog/nairu-kuruzu-de-otozureru-rekishi-iseki",
+    "destination": "/ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido",
     "permanent": true
   },
   {
@@ -10509,7 +10509,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-no-jimoto-byoin-hiyo-to-kea",
-    "destination": "/ja/blog/ejiputo-de-byoin-ni-iku-koto-ni-nattara",
+    "destination": "/ja/travel-tips/ejiputo-no-kenko-to-anzen",
     "permanent": true
   },
   {
@@ -10564,7 +10564,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-ryoko-ni-saiteki-na-sim-kado-no-erabikata",
-    "destination": "/ja/blog/ejiputo-ryoko-no-sim-kado",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -10579,7 +10579,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/sharumuerusheiku-de-no-toppu-adobencha-yaru-beki-koto",
-    "destination": "/ja/blog/sharumuerusheiku-de-taiken-shi-tai-koto",
+    "destination": "/ja/guide/sharumu-eru-sheiku/sharumuerusheiku-no-akutibiti",
     "permanent": true
   },
   {
@@ -10589,7 +10589,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/rukusoru-de-no-osusume-akutibiti-ejiputo",
-    "destination": "/ja/blog/rukusoru-de-miru-beki-basho-to-sugoshi-kata",
+    "destination": "/ja/guide/rukusoru/rukusoru-no-akutibiti",
     "permanent": true
   },
   {
@@ -10794,7 +10794,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-o-meguru-tabi-saiko-no-ejiputo-tsua-taiken",
-    "destination": "/ja/blog/hajimete-ejiputo-o-tabi-suru-hito-e",
+    "destination": "/ja/journeys/hajimete-no-ejiputo",
     "permanent": true
   },
   {
@@ -10874,7 +10874,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/furugada-de-taiken-su-beki-33-no-odoroku-beki-koto",
-    "destination": "/ja/blog/harugada-de-nani-o-suru-beki-ka",
+    "destination": "/ja/guide/harugada/harugada-no-akutibiti",
     "permanent": true
   },
   {
@@ -10969,7 +10969,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-de-otozureru-beki-saiko-no-kanko-chi",
-    "destination": "/ja/blog/ejiputo-de-otozureru-beki-basho",
+    "destination": "/ja/guide",
     "permanent": true
   },
   {
@@ -16039,7 +16039,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/historicos-visitados-en-un-crucero-por-el-nilo",
-    "destination": "/es/blog/historicos-visitados-en-un-crucero-por-el-nilo",
+    "destination": "/es/blog/crucero-por-el-nilo-en-egipto",
     "permanent": true
   },
   {
@@ -16064,7 +16064,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/la-mejor-experiencia-en-tours-por-egipto",
-    "destination": "/es/blog/la-mejor-experiencia-en-tours-por-egipto",
+    "destination": "/es/journeys/primera-vez-en-egipto",
     "permanent": true
   },
   {
@@ -16089,7 +16089,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/cosas-que-hacer-en-sharm-el-sheikh",
-    "destination": "/es/blog/cosas-que-hacer-en-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/actividades-en-sharm-el-sheikh",
     "permanent": true
   },
   {
@@ -16184,7 +16184,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/vacaciones-inolvidables-en-egipto",
-    "destination": "/es/blog/vacaciones-inolvidables-en-egipto",
+    "destination": "/es/journeys/primera-vez-en-egipto",
     "permanent": true
   },
   {
@@ -16214,7 +16214,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/touring-egypt",
-    "destination": "/blog/touring-egypt",
+    "destination": "/journeys/first-time-in-egypt",
     "permanent": true
   },
   {
@@ -17404,12 +17404,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/telefonos-en-egipto",
-    "destination": "/es/travel-tips/telefonos-en-egipto",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
     "permanent": true
   },
   {
     "source": "/ja/ejiputo-de-no-denwa-riyo-nitsuite",
-    "destination": "/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -17784,7 +17784,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/local-hospitals-in-egypt",
-    "destination": "/blog/local-hospitals-in-egypt",
+    "destination": "/travel-tips/health-and-safety",
     "permanent": true
   },
   {
@@ -18019,7 +18019,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/how-to-choose-a-sim-card-for-your-trip-to-egypt",
-    "destination": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
+    "destination": "/travel-tips/staying-connected-in-egypt",
     "permanent": true
   },
   {
@@ -18189,7 +18189,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/faux-pas-to-avoid-in-egypt",
-    "destination": "/blog/faux-pas-to-avoid-in-egypt",
+    "destination": "/travel-tips/cultural-etiquette-in-egypt",
     "permanent": true
   },
   {
@@ -18394,7 +18394,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/historicos-de-egipto",
-    "destination": "/es/blog/historicos-de-egipto",
+    "destination": "/es/guide",
     "permanent": true
   },
   {
@@ -18569,7 +18569,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/hospitales-locales-en-egipto-costos-y-atencion-medica",
-    "destination": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
+    "destination": "/es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero",
     "permanent": true
   },
   {
@@ -18599,7 +18599,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/7-cosas-inolvidables-que-hacer-en-aswan",
-    "destination": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+    "destination": "/es/guide/asuan/que-hacer-en-asuan",
     "permanent": true
   },
   {
@@ -19109,7 +19109,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/blog/vacaciones-inolvidables-en-egipto",
-    "destination": "/blog/vacation-in-egypt",
+    "destination": "/es/journeys/primera-vez-en-egipto",
     "permanent": true
   },
   {
@@ -19919,7 +19919,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/travel-tips/telefonos-en-egipto",
-    "destination": "/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -20164,7 +20164,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/top-things-to-do-in-luxor-egypt",
-    "destination": "/blog/top-things-to-do-in-luxor-egypt",
+    "destination": "/guide/luxor/what-to-do-in-luxor",
     "permanent": true
   },
   {
@@ -20834,7 +20834,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/blog/nairu-kuruzu-de-otozureru-rekishi-iseki",
-    "destination": "/blog/historical-sites-visited-by-a-nile-cruise",
+    "destination": "/ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido",
     "permanent": true
   },
   {
@@ -21020,6 +21020,166 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/egypt-travel-guide/baris/while-you-are-there/getting-around",
     "destination": "/guide/baris/getting-around-in-baris",
+    "permanent": true
+  },
+  {
+    "source": "/blog/traveling-to-egypt-in-the-time-of-coronavirus",
+    "destination": "/travel-tips/passport-and-visa",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/viajar-a-egipto-en-tiempos-del-coronavirus",
+    "destination": "/es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/pandemikku-go-no-ejiputo-ryoko-de-shitte-oku-koto",
+    "destination": "/ja/travel-tips/ejiputo-nyukoku-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/blog/egypt-holiday-deals",
+    "destination": "/egypt-travel-packages",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/ofertas-de-vacaciones-en-egipto",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-horide-puran",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
+    "permanent": true
+  },
+  {
+    "source": "/blog/vacation-in-egypt",
+    "destination": "/journeys/first-time-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/vacaciones-inolvidables-en-egipto",
+    "destination": "/es/journeys/primera-vez-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-kyuka-o-sugosu-nara",
+    "destination": "/ja/journeys/hajimete-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/blog/best-places-to-visit-in-egypt",
+    "destination": "/guide",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/los-mejores-lugares-que-visitar-en-egipto",
+    "destination": "/es/guide",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-otozureru-beki-basho",
+    "destination": "/ja/guide",
+    "permanent": true
+  },
+  {
+    "source": "/blog/places-in-egypt",
+    "destination": "/guide",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/historicos-de-egipto",
+    "destination": "/es/guide",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-otozureru-beki-rekishi-teki-na-basho",
+    "destination": "/ja/guide",
+    "permanent": true
+  },
+  {
+    "source": "/blog/touring-egypt",
+    "destination": "/journeys/first-time-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/la-mejor-experiencia-en-tours-por-egipto",
+    "destination": "/es/journeys/primera-vez-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/hajimete-ejiputo-o-tabi-suru-hito-e",
+    "destination": "/ja/journeys/hajimete-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/blog/places-to-visit-in-aswan",
+    "destination": "/guide/aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/categoria-para-visitar-en-aswan",
+    "destination": "/es/guide/asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/asuwan-de-otozureru-beki-basho",
+    "destination": "/ja/guide/asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/blog/egypt-weather-guide",
+    "destination": "/travel-tips/egypt-weather-guide",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/guia-del-tiempo-en-egipto",
+    "destination": "/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-tenko-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-tenko-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/blog/faux-pas-to-avoid-in-egypt",
+    "destination": "/travel-tips/cultural-etiquette-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/pasos-en-falso-que-debes-evitar-en-egipto",
+    "destination": "/es/travel-tips/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni",
+    "destination": "/ja/travel-tips/ejiputo-no-bunka-mana",
+    "permanent": true
+  },
+  {
+    "source": "/blog/budget-hotels-near-the-pyramids",
+    "destination": "https://affordegypt.com",
+    "permanent": true
+  },
+  {
+    "source": "/budget-hotels-near-the-pyramids",
+    "destination": "https://affordegypt.com",
+    "permanent": true
+  },
+  {
+    "source": "/blog/historical-sites-visited-by-a-nile-cruise",
+    "destination": "/blog/the-definitive-guide-to-egypt-nile-cruise",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/historicos-visitados-en-un-crucero-por-el-nilo",
+    "destination": "/es/blog/crucero-por-el-nilo-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/nairu-kuruzu-de-otozureru-rekishi-iseki",
+    "destination": "/ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido",
     "permanent": true
   }
 ];

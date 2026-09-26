@@ -1,0 +1,3092 @@
+{
+  "_createdAt": "2026-05-20T15:13:16Z",
+  "_id": "drafts.guideArticle.alexandria.the-national-museum",
+  "_rev": "83495bf6-cef9-4a78-bf6a-3f1719c91e19",
+  "_system": {
+    "base": {
+      "id": "guideArticle.alexandria.the-national-museum",
+      "rev": "N4vlep4zaFW3sITcYPATDF"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-25T04:35:59Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "The National Museum"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "hmewik3updxx",
+              "_type": "span",
+              "marks": [],
+              "text": "The "
+            },
+            {
+              "_key": "ewqg8hx92a9g",
+              "_type": "span",
+              "marks": [
+                "2dvlvbzf7chr"
+              ],
+              "text": "Alexandria National Museum"
+            },
+            {
+              "_key": "zd5bcrkun17f",
+              "_type": "span",
+              "marks": [],
+              "text": " stands as a testament to the rich history and diverse cultural heritage of Egypt. Here’s a detailed look:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "2dvlvbzf7chr",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.alexandria-national-museum",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Overview of the Museum"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Opening"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": ": Inaugurated in 2003."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Location"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Housed in a beautifully restored Italian-style palace, which previously served as the American Consulate."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Architecture"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": ": A three-story building, renovated to accommodate the "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "museum’s extensive collection"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "Collection and Exhibits"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Artefacts"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": ": The museum boasts a collection of around 2,000 artefacts."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Historical Coverage"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": ": Encompasses key periods in Egyptian "
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "history"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": ", including the Ancient Egyptian, Greco-Roman, Coptic, and Islamic eras."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Diverse Objects"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Features a range of items such as weapons, regalia, tools, ornaments, royal jewels, and ancient coins, "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "providing a comprehensive narrative of Alexandria’s historical"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " evolution."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "Significance"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cultural Importance"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": ": The "
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "museum serves as a focal point"
+            },
+            {
+              "_key": "r37bjtgvn47p",
+              "_type": "span",
+              "marks": [],
+              "text": " for understanding "
+            },
+            {
+              "_key": "5i3gc62yg3l6",
+              "_type": "span",
+              "marks": [
+                "tmgjtxktqha0"
+              ],
+              "text": "Alexandria"
+            },
+            {
+              "_key": "312w5i709dg6",
+              "_type": "span",
+              "marks": [],
+              "text": "’s multifaceted history, from ancient times to more contemporary periods."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "tmgjtxktqha0",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58750",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Educational Value"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": ": Offers insights into various civilizations that have left their imprint on Alexandria and "
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "00000000002d"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": " as a whole."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000002d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/contact-us/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Tourist Attraction"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": ": An essential "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "visit for history enthusiasts and tourists"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": ", offering a deeper appreciation of Alexandria’s past and its role in shaping Egyptian culture."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitor Experience"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Camera Permit"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Visitors are encouraged to obtain a camera permit to capture the unique and valuable displays."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Layout"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": ": Artfully arranged exhibits across three floors, each dedicated to different historical periods, allow for a chronological "
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "00000000003e"
+              ],
+              "text": "journey through time"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000003e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/rosetta-rasheed-travel-guide/journey-through-time/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "The Alexandria National Museum, with its rich and varied collection, serves not only as a repository of artefacts but also as a bridge connecting the present with the past, enabling visitors to "
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [
+                "000000000043"
+              ],
+              "text": "explore"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": " the tapestry of Alexandria’s storied history."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000043",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/nuweiba-travel-guide/exploring/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/shutterstock_71593240-1-800x512-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "The ancient Qaitbay Citadel in Alexandria, Egypt, standing against a clear blue sky."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Qaitbay Citadel - Alexandria's seaside fortress marking centuries of history"
+            }
+          ]
+        },
+        {
+          "_key": "000000000048",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/alexandria.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A tranquil beach setting with a distinctive dual-towered gatehouse leading to a pier, under clear skies."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Twin Towers Guarding the Azure Shores"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo Nacional"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "p96ygh4zzo8c",
+              "_type": "span",
+              "marks": [],
+              "text": "El "
+            },
+            {
+              "_key": "1ns9juj8sh6r",
+              "_type": "span",
+              "marks": [
+                "b08ihks8j1lo"
+              ],
+              "text": "Museo Nacional de Alejandría"
+            },
+            {
+              "_key": "qnoz8xjzlylz",
+              "_type": "span",
+              "marks": [],
+              "text": " es un testimonio de la rica historia y el variado patrimonio cultural de "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "He aquí una mirada detallada:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/acerca-de-egipto/",
+              "newTab": false
+            },
+            {
+              "_key": "b08ihks8j1lo",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.alexandria-national-museum",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Visión general del Museo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Apertura"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": ": Inaugurado en 2003."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ubicación"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": ": Ubicado en un palacio de estilo italiano bellamente restaurado, "
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "000000000010"
+              ],
+              "text": "que anteriormente sirvió como"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " Consulado Americano."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000010",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-electricidad-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Arquitectura"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": ": Un edificio de tres plantas, renovado "
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "000000000016"
+              ],
+              "text": "para albergar la extensa colección del"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": " museo."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000016",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/ventajas-del-clima-mediterraneo-la-mejor-epoca-para-visitar-alejandria/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "Colección y Exposiciones"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Objetos"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": ": El museo "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "00000000001e"
+              ],
+              "text": "cuenta"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": " con una colección de unos 2.000 objetos."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/mi-cuenta/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cobertura histórica"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": ": Abarca periodos clave de la historia egipcia, incluidas las épocas egipcia antigua, grecorromana, copta e "
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "islámica"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Objetos diversos"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": ": Presenta una serie de objetos como armas, regalia, herramientas, ornamentos, joyas reales y monedas antiguas, que proporcionan una narración completa de la evolución histórica de "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "00000000002a"
+              ],
+              "text": "Alejandría"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000002a",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-87976",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "Significado"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Importancia cultural"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": ": El museo sirve de punto focal "
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "000000000032"
+              ],
+              "text": "para comprender la polifacética historia"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " de Alejandría, desde la Antigüedad hasta periodos más contemporáneos."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000032",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/paquete-para-un-viaje-en-crucero-por-el-nilo-en-dahabiya/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Valor educativo"
+            },
+            {
+              "_key": "r5vgehc4lnq6",
+              "_type": "span",
+              "marks": [],
+              "text": ": Ofrece una visión de las diversas civilizaciones que han dejado su huella en "
+            },
+            {
+              "_key": "uaep8366htaa",
+              "_type": "span",
+              "marks": [
+                "nhe7iiz2mc88"
+              ],
+              "text": "Alejandría"
+            },
+            {
+              "_key": "4bd0u5cza5fa",
+              "_type": "span",
+              "marks": [],
+              "text": " y en Egipto en su conjunto."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "nhe7iiz2mc88",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58750",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Atracción turística"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Una visita esencial para los entusiastas de la historia y los turistas, que ofrece una apreciación más profunda del pasado de Alejandría y de su papel "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "en la configuración de la cultura"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " egipcia."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000003b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "Experiencia del visitante"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Permiso de cámara"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": ": Se anima a los "
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "visitantes a obtener un permiso de"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": " cámara para captar las singulares y valiosas exposiciones."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Disposición"
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": ": Exposiciones artísticamente dispuestas en tres plantas, cada una dedicada a distintos periodos históricos, permiten un "
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [
+                "000000000049"
+              ],
+              "text": "viaje"
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": " cronológico a través del tiempo."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000049",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-dajla/viajes/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo Nacional de Alejandría, con su rica y variada colección, no sólo sirve como depósito de artefactos, sino también como puente que conecta el presente con el pasado, permitiendo a los visitantes "
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [
+                "00000000004e"
+              ],
+              "text": "explorar el tapiz de la rica historia"
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": " de Alejandría."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "PRESENTACIÓN DE ALEJANDRÍA"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [
+                "000000000058"
+              ],
+              "text": "Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000058",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/historia-de-alejandria/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [
+                "00000000005b"
+              ],
+              "text": "El tiempo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-cima-en-alejandria/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "PLANIFICA TU VIAJE"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [
+                "000000000060"
+              ],
+              "text": "Cómo ir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000060",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/rutas-de-viaje-por-alejandria/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [
+                "000000000063"
+              ],
+              "text": "Dónde alojarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000063",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/alojamientos-diversos/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "MIENTRAS ESTÉS ALLÍ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [
+                "000000000068"
+              ],
+              "text": "Cómo desplazarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000068",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-llegar-a-alejandria/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [
+                "00000000006b"
+              ],
+              "text": "Cosas que hacer"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/experiencias-unicas-en-alejandria/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "LUGARES DONDE IR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000072",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [
+                "000000000070"
+              ],
+              "text": "Necrópolis de Anfushi"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000070",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/necropolis-de-anfushi/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [
+                "000000000073"
+              ],
+              "text": "Faro de Pharos"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000073",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/el-faro-de-pharos/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [
+                "000000000076"
+              ],
+              "text": "Los Palacios Reales"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000076",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/los-palacios-reales/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "000000000079"
+              ],
+              "text": "El Templo del Serapeum"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000079",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/el-templo-del-serapeum/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [
+                "00000000007c"
+              ],
+              "text": "Museo de Joyas de la Familia Real"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007c",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/museo-de-joyas-de-la-familia-real/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [
+                "00000000007f"
+              ],
+              "text": "Catacumbas de Kom El Shuqafa"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007f",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/catacumbas-de-kom-el-shuqafa/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000084",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [
+                "000000000082"
+              ],
+              "text": "Pilar de Pompeyo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000082",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/pilar-de-pompeyo/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [
+                "000000000085"
+              ],
+              "text": "El anfiteatro romano"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000085",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/el-anfiteatro-romano/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [
+                "000000000088"
+              ],
+              "text": "El Museo Grecorromano"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000088",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/el-museo-grecorromano/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [
+                "00000000008b"
+              ],
+              "text": "Fuerte de Qaitbey"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008b",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/fuerte-de-qaitbey/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000090",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [
+                "00000000008e"
+              ],
+              "text": "Biografía de Al-Mursi Abu Al-Abbas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008e",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/mezquita-al-mursi-abu-al-abbas/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [
+                "000000000091"
+              ],
+              "text": "Biblioteca de Alejandría"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000091",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/biblioteca-de-alejandria/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000096",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [
+                "000000000094"
+              ],
+              "text": "El Museo Nacional"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000094",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/el-museo-nacional/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000098",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [],
+              "text": "OTROS"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [
+                "000000000099"
+              ],
+              "text": "Visitas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000099",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/principales-tours-en-alejandria/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009d",
+              "_type": "span",
+              "marks": [
+                "00000000009c"
+              ],
+              "text": "Alimentación"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/donde-comer-en-alejandria/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [
+                "00000000009f"
+              ],
+              "text": "Sólo aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/lo-mejor-de-alejandria/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a3",
+              "_type": "span",
+              "marks": [
+                "0000000000a2"
+              ],
+              "text": "Eventos"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a2",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/avents-paisaje/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a5",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/shutterstock_71593240-1-800x512-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "The ancient Qaitbay Citadel in Alexandria, Egypt, standing against a clear blue sky."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Ciudadela de Qaitbay: la fortaleza junto al mar de Alejandría que ha sido testigo de siglos de historia"
+            }
+          ]
+        },
+        {
+          "_key": "0000000000a6",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/alexandria.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A tranquil beach setting with a distinctive dual-towered gatehouse leading to a pier, under clear skies."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Torres gemelas que custodian las costas azuladas"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "国立博物館"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "3fkolgw6amc0",
+              "_type": "span",
+              "marks": [
+                "tvz52moz4y1w"
+              ],
+              "text": "アレクサンドリア国立博物館"
+            },
+            {
+              "_key": "rf5bxpk2q36r",
+              "_type": "span",
+              "marks": [],
+              "text": "は、エジプトの豊かな歴史と多様な文化的遺産を物語る存在です。以下に詳細をご紹介します。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "tvz52moz4y1w",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.alexandria-national-museum",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "博物館の概要"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "開館:"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": " 2003年に開館。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "場所:"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": " かつてアメリカ領事館として使用されていた、美しく修復されたイタリア風の宮殿内に位置しています。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "建築:"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": " 3階建ての建物で、博物館の広範なコレクションを収容するために改装されました。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "コレクションと展示"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "遺物:"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " 約2,000点の遺物を所蔵しています。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "歴史的範囲:"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " 古代エジプト、グレコ・ローマ、コプト、イスラム時代など、エジプトの主要な歴史的時代を網羅しています。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "多様な品々:"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": " 武器、王権の象徴、道具、装飾品、王室の宝石、古代コインなど、アレクサンドリアの歴史的変遷を包括的に伝える品々が展示されています。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "意義"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "文化的重要性:"
+            },
+            {
+              "_key": "781qc2l01tdg",
+              "_type": "span",
+              "marks": [],
+              "text": " 古代から現代に至るまで、"
+            },
+            {
+              "_key": "bwr09ukc6a7e",
+              "_type": "span",
+              "marks": [
+                "cc4cuxwovd00"
+              ],
+              "text": "アレクサンドリア"
+            },
+            {
+              "_key": "0rezgunu5vj2",
+              "_type": "span",
+              "marks": [],
+              "text": "の多面的な歴史を理解するための重要な拠点です。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "cc4cuxwovd00",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58750",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "教育的価値:"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": " アレクサンドリアやエジプト全体に影響を与えたさまざまな文明についての洞察を提供します。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "観光名所:"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": " 歴史愛好家や観光客にとって必須の訪問地であり、アレクサンドリアの過去とエジプト文化形成における役割を深く理解する機会を提供します。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "訪問者体験"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "カメラ許可:"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": " ユニークで貴重な展示を撮影するために、カメラ許可の取得が推奨されています。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "レイアウト:"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": " 3階にわたって芸術的に配置された展示は、それぞれ異なる歴史的時代に焦点を当てており、時間を遡るような旅を可能にします。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "アレクサンドリア国立博物館は、その豊かで多様なコレクションを通じて、単なる遺物の保管場所ではなく、現在と過去をつなぐ架け橋としての役割を果たしています。訪問者は、アレクサンドリアの歴史の織りなすタペストリーを探求し、その深みを感じ取ることができるでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "作成日：2020年3月18日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "更新日：2025年3月10日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "アレクサンドリアの紹介"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "000000000035"
+              ],
+              "text": "歴史"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000035",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/歴史に彩られたアレクサンドリアの街並み/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "天気"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000038",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e3%81%ae%e6%b0%97%e5%80%99/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行の計画"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "00000000003d"
+              ],
+              "text": "行き方"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e3%81%b8%e3%81%ae%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e6%96%b9%e6%b3%95/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000042",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "000000000040"
+              ],
+              "text": "宿泊先"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000040",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ja-%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e3%81%ae%e3%81%8a%e3%81%99%e3%81%99%e3%82%81%e5%ae%bf%e6%b3%8a%e5%85%88/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "滞在中に"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "000000000045"
+              ],
+              "text": "現地での移動方法"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000045",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/アレクサンドリアの移動方法/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [
+                "000000000048"
+              ],
+              "text": "おすすめのアクティビティ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000048",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "00000000004d"
+              ],
+              "text": "アンフーシのネクロポリス"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%b3%e3%83%95%e3%83%bc%e3%82%b7%e3%81%ae%e3%83%8d%e3%82%af%e3%83%ad%e3%83%9d%e3%83%aa%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000052",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [
+                "000000000050"
+              ],
+              "text": "ファロス灯台"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000050",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%95%e3%82%a1%e3%83%ad%e3%82%b9%e7%81%af%e5%8f%b0/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [
+                "000000000053"
+              ],
+              "text": "王宮群"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000053",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%8e%8b%e5%ae%ae%e7%be%a4/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000058",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "000000000056"
+              ],
+              "text": "セラペウム神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000056",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%bb%e3%83%a9%e3%83%94%e3%82%b9%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [
+                "000000000059"
+              ],
+              "text": "王室宝飾品博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000059",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%8e%8b%e5%ae%a4%e5%ae%9d%e7%9f%b3%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [
+                "00000000005c"
+              ],
+              "text": "コム・エル・シュカファの地下墓地"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b3%e3%83%a0%e3%83%bb%e3%82%a8%e3%83%ab%e3%83%bb%e3%82%b7%e3%83%a7%e3%82%ab%e3%83%95%e3%82%a1%e3%81%ae%e3%82%ab%e3%82%bf%e3%82%b3%e3%83%b3%e3%83%99/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": "ポンペイの柱"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%9d%e3%83%b3%e3%83%9a%e3%82%a4%e3%81%ae%e6%9f%b1/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [
+                "000000000062"
+              ],
+              "text": "ローマ劇場"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000062",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%ad%e3%83%bc%e3%83%9e%e5%86%86%e5%bd%a2%e5%8a%87%e5%a0%b4/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [
+                "000000000065"
+              ],
+              "text": "グレコ・ローマン博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000065",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b0%e3%83%ac%e3%82%b3%e3%83%bb%e3%83%ad%e3%83%bc%e3%83%9e%e3%83%b3%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [
+                "000000000068"
+              ],
+              "text": "カイトベイ要塞"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000068",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%82%a4%e3%83%88%e3%83%99%e3%82%a4%e3%81%ae%e8%a6%81%e5%a1%9e/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [
+                "00000000006b"
+              ],
+              "text": "アル＝ムルシー・アブー・アル＝アッバース伝記"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ab%e3%83%bb%e3%83%a2%e3%83%ab%e3%82%b7%e3%83%bb%e3%82%a2%e3%83%96%e3%83%bc%e3%83%bb%e3%82%a2%e3%83%ab%ef%bc%9d%e3%82%a2%e3%83%83%e3%83%90%e3%83%bc%e3%82%b9%e3%83%bb%e3%83%a2%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [
+                "00000000006e"
+              ],
+              "text": "アレクサンドリア図書館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e5%9b%b3%e6%9b%b8%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "国立博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000071",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%9b%bd%e7%ab%8b%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "その他"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [
+                "000000000076"
+              ],
+              "text": "ツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000076",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%88%e3%83%a9%e3%83%99%e3%83%ab%e3%83%88%e3%83%ac%e3%83%83%e3%82%af%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "000000000079"
+              ],
+              "text": "食べ物"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000079",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/アレクサンドリアの食事ガイド/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [
+                "00000000007c"
+              ],
+              "text": "ここだけ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/experiences-unveiling/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [
+                "00000000007f"
+              ],
+              "text": "イベント"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%ac%e3%82%af%e3%82%b5%e3%83%b3%e3%83%89%e3%83%aa%e3%82%a2%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%81%ae%e9%a2%a8%e6%99%af/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000082",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/shutterstock_71593240-1-800x512-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "The ancient Qaitbay Citadel in Alexandria, Egypt, standing against a clear blue sky."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "カイトベイ要塞 - アレクサンドリアの海岸沿いに建つこの要塞は、何世紀にもわたる歴史を物語っています。"
+            }
+          ]
+        },
+        {
+          "_key": "000000000083",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/alexandria.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A tranquil beach setting with a distinctive dual-towered gatehouse leading to a pier, under clear skies."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "紺碧の海岸を守る双塔"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "featured": null,
+  "heroImage": {
+    "_type": "image",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Aerial view of Alexandria's Eastern Harbour with boats, the Qaitbay Citadel on its spit and the city beyond"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Vista aérea del Puerto Este de Alejandría con barcas, la Ciudadela de Qaitbay y la ciudad al fondo"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "アレクサンドリアの東港を空から望む。多数の船、岬に建つカイトベイ要塞、その先に広がる街。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-9bbf6a74eef479274a52d76e88a7291c3fd7b781-2752x1536-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Boats fill Alexandria's Eastern Harbour below the Qaitbay Citadel."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Las barcas llenan el Puerto Este de Alejandría bajo la Ciudadela de Qaitbay."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "カイトベイ要塞の下、船で埋まるアレクサンドリアの東港。"
+      }
+    ]
+  },
+  "hidden": true,
+  "kind": "attraction",
+  "migration": {
+    "migratedAt": "2026-05-20T15:13:15.888Z",
+    "reviewFlag": "superseded-duplicate",
+    "source": "wp-import-monument-consolidation",
+    "supersededBy": "guideArticle.alexandria.alexandria-national-museum",
+    "wpId": 59201,
+    "wpModifiedAt": "2025-07-13T03:19:04",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/the-national-museum/"
+  },
+  "monumentType": "museum",
+  "parentCity": {
+    "_ref": "wp-page-58750",
+    "_type": "reference"
+  },
+  "placesToGoGroup": "Modern",
+  "section": "places-to-go",
+  "seo": {
+    "metaDescription": [
+      {
+        "_key": "en",
+        "_type": "internationalizedArrayTextValue",
+        "value": "The Alexandria National Museum stands as a testament to the rich history and diverse cultural heritage of Egypt."
+      },
+      {
+        "_key": "es",
+        "_type": "internationalizedArrayTextValue",
+        "value": "El Museo Nacional de Alejandría es un testimonio de la rica historia y el variado patrimonio cultural de Egipto."
+      },
+      {
+        "_key": "ja",
+        "_type": "internationalizedArrayTextValue",
+        "value": "アレクサンドリア国立博物館は、エジプトの豊かな歴史と多様な文化的遺産を物語る存在です。"
+      }
+    ]
+  },
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "the-national-museum"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "el-museo-nacional"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "kokuritsu-hakubutsukan"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "Alexandria's National Museum condenses four different eras of the city — Pharaonic, Greco-Roman, Coptic, Islamic — into one restored consulate building."
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "The National Museum"
+    },
+    {
+      "_key": "es",
+      "value": "El Museo Nacional"
+    },
+    {
+      "_key": "ja",
+      "value": "アレクサンドリア国立博物館"
+    }
+  ]
+}

@@ -1,0 +1,4491 @@
+{
+  "_createdAt": "2026-05-04T20:33:50Z",
+  "_id": "wp-page-87070",
+  "_rev": "D69bOyJuIWnktHyzOZBRvN",
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-13T22:11:58Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Alexandria Private Day Tours "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Embark on an Unforgettable Journey to the Pearl of the Mediterranean"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Discover the enchanting city of "
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "000000000005"
+              ],
+              "text": "Alexandria"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": ", a treasure trove of history and culture, with our bespoke"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Alexandria Private Day Tours."
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": " Nestled along the sparkling Mediterranean coast, Alexandria invites travelers to explore its rich tapestry of Greek, Roman, and Egyptian heritage, all woven together in this vibrant metropolis."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000005",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58750",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Our private day tours are meticulously designed to offer you an intimate glimpse into the heart of Alexandria. With a personal guide at your side, you’ll delve into the stories and secrets of ancient civilizations, marveling at architectural wonders and the serene "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "00000000000c"
+              ],
+              "text": "Mediterranean"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": " seascape that has captivated visitors for centuries."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000c",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Mediterranean_Sea",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Highlights of Alexandria Private Day Tours"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "The Majestic "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Library of Alexandria"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": ": Stand in awe of the modern reincarnation of the ancient world’s center of learning, blending historical grandeur with cutting-edge architecture."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000017"
+              ],
+              "text": "The Fort of Qaitbay"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": ":"
+            },
+            {
+              "_key": "ju7d5eg1uk1l",
+              "_type": "span",
+              "marks": [],
+              "text": " Journey through time at this 15th-century fortress, built on the ancient site of "
+            },
+            {
+              "_key": "pc8kr2myi9a2",
+              "_type": "span",
+              "marks": [
+                "3iet8oeucf79"
+              ],
+              "text": "the Pharos Lighthouse"
+            },
+            {
+              "_key": "a1i7ey33wiml",
+              "_type": "span",
+              "marks": [],
+              "text": ", one of the Seven Wonders of the Ancient World."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000017",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.qaitbey-fort",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "3iet8oeucf79",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.pharos-lighthouse",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "The "
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000001d"
+              ],
+              "text": "Roman Amphitheatre"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": ":"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": " Uncover the layers of Alexandria’s Roman past at this well-preserved site, offering a unique window into ancient entertainment and social life."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/alexandria-travel-guide/the-roman-amphitheater/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Montazah Palace Gardens:"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": " Stroll through lush, royal gardens by the sea, where the elegance of European design meets the natural beauty of the Mediterranean landscape."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "The Catacombs of Kom el Shoqafa:"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": " Descend into the depths of one of the Seven Wonders of the Middle Ages, an ancient necropolis that blends Egyptian, Greek, and Roman art and architecture."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000028"
+              ],
+              "text": "The Royal Jewelry Museum"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " in Alexandria is a dazzling journey through Egypt’s royal history, housed in a stunning architectural blend of Islamic and European styles. It showcases an exquisite collection of jewels and artifacts from the Muhammad Ali Dynasty, offering a glimpse into the opulence and artistry of Egypt’s royal past."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000028",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.royal-family-jewellery-museum",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Pompey’s Pillar"
+            },
+            {
+              "_key": "6cc2gk1olf6p",
+              "_type": "span",
+              "marks": [],
+              "text": " stands as a majestic monument of Roman triumph in Alexandria, towering at over 26 meters high. This ancient column, made of red "
+            },
+            {
+              "_key": "dfu38x34ks2c",
+              "_type": "span",
+              "marks": [
+                "t9xw5wpbbuj4"
+              ],
+              "text": "Aswan"
+            },
+            {
+              "_key": "x9tprcvwz99s",
+              "_type": "span",
+              "marks": [],
+              "text": " granite, is the sole survivor of a once grand Serapeum, marking a celebrated piece of Egypt’s rich tapestry of history."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "t9xw5wpbbuj4",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58758",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "Customized Just for You"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "Our"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Alexandria "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000033"
+              ],
+              "text": "Private Day Tours"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": " are more than just sightseeing—they’re personalized experiences designed to match your interests and pace. Whether you’re a history buff, a lover of art, or simply in search of breathtaking views, we tailor your journey to ensure it’s as unique as you are."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000033",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/giza-travel-guide/tours/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "An Expert Guide by Your Side"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "Our guides are not only knowledgeable but passionate about sharing the stories of Alexandria. They’ll bring the city’s history to life, from its ancient roots to its modern-day charm, ensuring your day is both informative and immensely enjoyable."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "Experience Alexandria Like Never Before "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": "With our "
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "Alexandria Private Day Tours"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": ", you’re not just visiting; you’re immersing yourself in the essence of this timeless city. It’s an intimate exploration designed to leave you with memories that will last a lifetime."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000042",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "Join us on a private day tour of Alexandria and uncover the secrets of this ancient city, where history and modernity dance by the sea, offering an experience unlike any other."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "Help Me Plan My Trip"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "4"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " Tours"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "Sort by"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "8"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "3"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [
+                "000000000057"
+              ],
+              "text": "Alexandrian Echoes: Full Day Private Tour in Alexandria"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000057",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-87309",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "Discover Alexandria’s wonders: Catacombs, Pompey’s Pillar, "
+            },
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [
+                "00000000005b"
+              ],
+              "text": "Greco-Roman Museum"
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": ", with transportation, guide, lunch, and entrance fees included…."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005b",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.the-greco-roman-museum",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": " From "
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": " €18 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000066",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": "Explore"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": "8"
+            },
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": "3"
+            },
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [
+                "000000000074"
+              ],
+              "text": "Private Day Trip to Memphis, Saqqara, and Dahshur from Alexandria​"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000074",
+              "_type": "externalLink",
+              "href": "/private-day-trip-to-memphis-saqqara-and-dahshur-from-alexandria",
+              "newTab": false
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [],
+              "text": "Explore ancient Egypt on the “Eternal Wonders” day trip from Alexandria, visiting Memphis, Saqqara, and Dahshur. Discover temple ruins, the first pyramid, and architectural marvels in a personal and historical journey."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": " From "
+            },
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [],
+              "text": " €21 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000080",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [],
+              "text": "Explore"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000086",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": "8"
+            },
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [],
+              "text": "3"
+            },
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000090",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [
+                "00000000008e"
+              ],
+              "text": "Private Day Tour of Giza Pyramids, Sphinx, Egyptian Museum & Khan El Khalili from Alexandria"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008e",
+              "_type": "externalLink",
+              "href": "/alexandria-to-cairo-private-day-tour-of-giza-pyramids-sphinx-egyptian-museum-khan-el-khalili",
+              "newTab": false
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000092",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "38re2z5flabl",
+              "_type": "span",
+              "marks": [],
+              "text": "Discover Egypt’s iconic landmarks on a private day tour from Alexandria to "
+            },
+            {
+              "_key": "788014q70nvu",
+              "_type": "span",
+              "marks": [
+                "2ge644q53sjf"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "drxnm0xy1ipa",
+              "_type": "span",
+              "marks": [],
+              "text": ", featuring the Pyramids of "
+            },
+            {
+              "_key": "m8wpxv3z0zt2",
+              "_type": "span",
+              "marks": [
+                "suvje9d7zlp7"
+              ],
+              "text": "Giza"
+            },
+            {
+              "_key": "h3faftqnyyfk",
+              "_type": "span",
+              "marks": [],
+              "text": ", the Sphinx, the Egyptian Museum, and Khan El Khalili bazaar."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "2ge644q53sjf",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "suvje9d7zlp7",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58854",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000096",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000093",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": " From "
+            },
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000098",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [],
+              "text": " €21 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000099",
+              "_type": "span",
+              "marks": [],
+              "text": "Explore"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009b",
+              "_type": "span",
+              "marks": [],
+              "text": "Real Reviews From Real People"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000009e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009d",
+              "_type": "span",
+              "marks": [],
+              "text": "The organization that managed our tour was really careful. Everything was meticulously organized, including bookings for meals and transportation."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009f",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/07/Egyptian.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "The Great Sphinx of Giza with the Pyramids in the background under a clear blue sky"
+            }
+          ]
+        },
+        {
+          "_key": "0000000000a1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [],
+              "text": "Danial Romero"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": "Canada"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [],
+              "text": "My trip down the Nile in Egypt was the height of luxury. The magnificent landscape of the Nile banks going by, the beauty of the ship, and the attentiveness of the crew all captured my attention. Every day revealed something new, from historic temples to thriving local culture. The knowledgeable tour guides were excellent; their fervent narration brought ancient Egypt to life. It was a unique fusion of exploration and leisure."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a6",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/07/Why-January-is-the-Perfect-Month-to-Visit-Egypt-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Why January is the Perfect Month to Visit Egypt"
+            }
+          ]
+        },
+        {
+          "_key": "0000000000a8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a7",
+              "_type": "span",
+              "marks": [],
+              "text": "Yoana Marin"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000aa",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [],
+              "text": "Canada"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ac",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ab",
+              "_type": "span",
+              "marks": [],
+              "text": "Discover the Magic of Aswan with Private Day Tours! "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000b0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ad",
+              "_type": "span",
+              "marks": [],
+              "text": "Eager to explore the beauty and history of Aswan? Our "
+            },
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Aswan Private Day Tours"
+            },
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [],
+              "text": " provide a personalized and in-depth experience of this enchanting city. From the majestic Philae Temple to the vibrant Nubian villages, enjoy a day filled with culture, history, and stunning scenery with a private guide. Click here to plan your exclusive day tour and uncover the wonders of Aswan!"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b1",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "9jk63calehpf",
+              "_type": "span",
+              "marks": [],
+              "text": "Excursiones privadas de un día por "
+            },
+            {
+              "_key": "lm85lbhel9u1",
+              "_type": "span",
+              "marks": [
+                "y0o4jpnu7axm"
+              ],
+              "text": "Alejandría"
+            },
+            {
+              "_key": "beefbyjm0mo5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "y0o4jpnu7axm",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58750",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Embárcate en un viaje inolvidable a la Perla del Mediterráneo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Descubre la encantadora ciudad de "
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "000000000005"
+              ],
+              "text": "Alejandría"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": ", un tesoro de historia y cultura, con nuestras"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Visitas Privadas de un Día a Alejandría"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": " hechas a medida"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "."
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": " Enclavada en la resplandeciente costa mediterránea, Alejandría invita a los viajeros a explorar su rico tapiz de herencia griega, romana y egipcia, todo ello entretejido en esta vibrante metrópolis."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000005",
+              "_type": "externalLink",
+              "href": "/es/guide/alejandria",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Nuestras excursiones privadas de un día están meticulosamente diseñadas para ofrecerte una visión íntima del corazón de Alejandría."
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "Con un guía personal a tu lado, te adentrarás en las historias y secretos de las antiguas civilizaciones, maravillándote ante las maravillas arquitectónicas y el sereno paisaje marino "
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "000000000010"
+              ],
+              "text": "mediterráneo"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " que ha cautivado a los visitantes durante siglos."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000010",
+              "_type": "externalLink",
+              "href": "https://es.wikipedia.org/wiki/Mar_Mediterr%C3%A1neo",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Lo más destacado de Alejandría Visitas Privadas de un Día"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "La Majestuosa "
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000017"
+              ],
+              "text": "Biblioteca de Alejandría"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": ": Asómbrate ante la moderna reencarnación del centro de aprendizaje del mundo antiguo, que combina la grandeza histórica con la arquitectura de vanguardia."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000017",
+              "_type": "externalLink",
+              "href": "/es/guide/alejandria/biblioteca-de-alejandria",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000001b"
+              ],
+              "text": "El Fuerte de Qaitbay"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": ":"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": " Viaja en el tiempo en esta fortaleza del siglo XV, construida en el antiguo emplazamiento del Faro de Faros, una de las Siete Maravillas del Mundo Antiguo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001b",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-alejandria/fuerte-de-qaitbey/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "El Anfiteatro Romano:"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " Descubre las capas del pasado romano de Alejandría en este yacimiento bien conservado, que ofrece una ventana única al entretenimiento y la vida social de la Antigüedad."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Jardines "
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "000000000024"
+              ],
+              "text": "del Palacio de Montazah: Pasea por los"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": " exuberantes jardines reales junto al mar, donde la elegancia del diseño europeo se une a la belleza natural del paisaje mediterráneo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000024",
+              "_type": "externalLink",
+              "href": "/es/blog/safaris-por-el-desierto-del-sinai-desvelando-los-misterios-de-la-frontera-salvaje-de-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Las Catacumbas de Kom el Shoqafa:"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": " Desciende a las profundidades de una de las Siete Maravillas de la Edad Media, una antigua necrópolis que mezcla arte y arquitectura egipcios, griegos y romanos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "El Museo Real "
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "de Joyas de Alejandría es un deslumbrante viaje a través de la historia real de Egipto, albergado en una impresionante mezcla arquitectónica de estilos islámico y europeo."
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "Exhibe una exquisita colección de joyas y artefactos de la dinastía de Muhammad Ali, que ofrece una visión de la opulencia y el arte "
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "00000000002f"
+              ],
+              "text": "del pasado"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " real de Egipto."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002f",
+              "_type": "externalLink",
+              "href": "/es/blog/viajes-al-egipto-historico",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "jp8bvp9a29e9",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "La "
+            },
+            {
+              "_key": "36lc8p3e0fhp",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "h8kl4c4ysxj6"
+              ],
+              "text": "Columna de Pompeyo"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " se alza como un majestuoso monumento del triunfo romano en Alejandría, con más de 26 metros de altura."
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "Esta antigua columna, de granito rojo de "
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "000000000037"
+              ],
+              "text": "Asuán"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": ", es la única superviviente de lo que fue un gran Serapeum, y constituye una célebre pieza del rico tapiz de la historia de Egipto."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000037",
+              "_type": "externalLink",
+              "href": "/es/guide/asuan",
+              "newTab": false
+            },
+            {
+              "_key": "h8kl4c4ysxj6",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.pompeys-pillar",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "A tu medida"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": "Nuestras"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Excursiones Privadas de un Día por Alejandría"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": " son algo más que hacer turismo: son "
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "000000000040"
+              ],
+              "text": "experiencias"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": " personalizadas diseñadas para adaptarse a tus intereses y ritmo."
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " Tanto si eres un aficionado a la historia, un amante del arte o simplemente buscas unas vistas impresionantes, adaptamos tu "
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "000000000045"
+              ],
+              "text": "viaje"
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": " para asegurarnos de que sea tan único como tú. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000040",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-dahab/experiencias/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000045",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-dajla/viajes/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "Una guía experta a tu lado"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "Nuestros guías no sólo son expertos, sino también apasionados por compartir las historias de Alejandría."
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "Darán vida a la "
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [
+                "00000000004e"
+              ],
+              "text": "historia"
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": " de la ciudad, desde sus antiguas raíces hasta su encanto actual, asegurándose de que tu día sea a la vez informativo e inmensamente agradable."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004e",
+              "_type": "externalLink",
+              "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "Vive Alejandría como nunca antes "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "Con nuestras "
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [
+                "em",
+                "000000000055"
+              ],
+              "text": "Visitas"
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": " Privadas de un Día a Alejandría"
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": ", no te limitarás a visitar, sino que te sumergirás en la esencia de esta ciudad atemporal."
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": " Es una "
+            },
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [
+                "00000000005b"
+              ],
+              "text": "exploración"
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": " íntima diseñada para dejarte recuerdos que durarán toda la vida. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000055",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000005b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-al-minya/explorando/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": "Acompáñanos en una excursión privada de un día por Alejandría y descubre los secretos de esta antigua ciudad, donde "
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [
+                "000000000060"
+              ],
+              "text": "la historia y"
+            },
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": " la modernidad bailan junto al mar, ofreciendo una experiencia sin igual."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000060",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-156550",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "Ayúdame a planificar mi viaje"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "4"
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": " Recorridos"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": "Ordenar por"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "8"
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "3"
+            },
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [],
+              "text": "Ecos de Alejandría: Visita privada de un día en Alejandría"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": "Descubre las maravillas"
+            },
+            {
+              "_key": "7dmxrkpdu1do",
+              "_type": "span",
+              "marks": [],
+              "text": " de Alejandría: Catacumbas, Columna de Pompeyo, "
+            },
+            {
+              "_key": "9b4kiisogifm",
+              "_type": "span",
+              "marks": [
+                "stu0kdkscirp"
+              ],
+              "text": "Museo Grecorromano"
+            },
+            {
+              "_key": "m3d69ju7du8v",
+              "_type": "span",
+              "marks": [],
+              "text": ", con transporte, guía, almuerzo y entradas incluidos…."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "stu0kdkscirp",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.the-greco-roman-museum",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000082",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": " En "
+            },
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000084",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [],
+              "text": " €19 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000086",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [],
+              "text": "Explora"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": "8"
+            },
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000091",
+              "_type": "span",
+              "marks": [],
+              "text": "3"
+            },
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000096",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [
+                "000000000094"
+              ],
+              "text": "Excursión privada de un día a Menfis, Saqqara y Dahshur desde Alejandría"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000094",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.private-day-trip-to-memphis-saqqara-and-dahshur-from-alexandria",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000a0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [],
+              "text": "Explora el antiguo Egipto en la excursión de un día «Maravillas Eternas» desde Alejandría, visitando Menfis, "
+            },
+            {
+              "_key": "000000000099",
+              "_type": "span",
+              "marks": [
+                "000000000098"
+              ],
+              "text": "Saqqara y Dahshur"
+            },
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000009b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000009c",
+              "_type": "span",
+              "marks": [],
+              "text": " Descubre ruinas de templos, la primera pirámide y maravillas arquitectónicas en un "
+            },
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [
+                "00000000009d"
+              ],
+              "text": "viaje"
+            },
+            {
+              "_key": "00000000009f",
+              "_type": "span",
+              "marks": [],
+              "text": " personal e histórico. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000098",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-87756",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "00000000009d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-hurghada/viajes/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": " En "
+            },
+            {
+              "_key": "0000000000a3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000a6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a5",
+              "_type": "span",
+              "marks": [],
+              "text": " €22 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a7",
+              "_type": "span",
+              "marks": [],
+              "text": "Explora"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ae",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000aa",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ab",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [],
+              "text": "8"
+            },
+            {
+              "_key": "0000000000ad",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b3",
+              "_type": "span",
+              "marks": [],
+              "text": "3"
+            },
+            {
+              "_key": "0000000000b4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b7",
+              "_type": "span",
+              "marks": [
+                "0000000000b6"
+              ],
+              "text": "Excursión Privada de un Día a las Pirámides de Guiza, la Esfinge, el Museo Egipcio y Khan El Khalili desde Alejandría"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b6",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/de-alejandria-a-el-cairo-excursion-privada-de-un-dia-a-las-piramides-de-guiza-la-esfinge-el-museo-egipcio-y-khan-el-khalili/",
+              "newTab": false
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000bd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "ozlzxnqrg5q8",
+              "_type": "span",
+              "marks": [],
+              "text": "Descubre los lugares emblemáticos de Egipto en una excursión privada de un día de Alejandría a "
+            },
+            {
+              "_key": "fz2yaemkod98",
+              "_type": "span",
+              "marks": [
+                "xpkz77z5w9x9"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "6uiw6ka663h1",
+              "_type": "span",
+              "marks": [],
+              "text": ", que incluye las "
+            },
+            {
+              "_key": "0000000000bb",
+              "_type": "span",
+              "marks": [
+                "0000000000ba"
+              ],
+              "text": "Pirámides de Guiza"
+            },
+            {
+              "_key": "0000000000bc",
+              "_type": "span",
+              "marks": [],
+              "text": ", la Esfinge, el Museo Egipcio y el bazar de Khan El Khalili."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000ba",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "xpkz77z5w9x9",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000be",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000bf",
+              "_type": "span",
+              "marks": [],
+              "text": " En "
+            },
+            {
+              "_key": "0000000000c0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000c3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c2",
+              "_type": "span",
+              "marks": [],
+              "text": " €22 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c4",
+              "_type": "span",
+              "marks": [],
+              "text": "Explora"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c6",
+              "_type": "span",
+              "marks": [],
+              "text": "Opiniones reales de gente real"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000ce",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [],
+              "text": "La organización que gestionó nuestro viaje fue realmente cuidadosa."
+            },
+            {
+              "_key": "0000000000c9",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "0000000000ca",
+              "_type": "span",
+              "marks": [],
+              "text": " Todo estaba meticulosamente organizado, incluidas las reservas "
+            },
+            {
+              "_key": "0000000000cc",
+              "_type": "span",
+              "marks": [
+                "0000000000cb"
+              ],
+              "text": "para las comidas"
+            },
+            {
+              "_key": "0000000000cd",
+              "_type": "span",
+              "marks": [],
+              "text": " y el transporte. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000cb",
+              "_type": "externalLink",
+              "href": "/es/guide/rosetta-rasheed/el-tiempo-en-rosetta-rashid-y-la-mejor-epoca-para-visitarla",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000cf",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/07/Egyptian.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "The Great Sphinx of Giza with the Pyramids in the background under a clear blue sky"
+            }
+          ]
+        },
+        {
+          "_key": "0000000000d1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d0",
+              "_type": "span",
+              "marks": [],
+              "text": "Danial Romero"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d2",
+              "_type": "span",
+              "marks": [],
+              "text": "Canadá"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ec",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d4",
+              "_type": "span",
+              "marks": [],
+              "text": "Mi "
+            },
+            {
+              "_key": "0000000000d6",
+              "_type": "span",
+              "marks": [
+                "0000000000d5"
+              ],
+              "text": "viaje por el Nilo en Egipto"
+            },
+            {
+              "_key": "0000000000d7",
+              "_type": "span",
+              "marks": [],
+              "text": " fue el colmo del lujo."
+            },
+            {
+              "_key": "0000000000d8",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "0000000000d9",
+              "_type": "span",
+              "marks": [],
+              "text": " El magnífico paisaje de "
+            },
+            {
+              "_key": "0000000000db",
+              "_type": "span",
+              "marks": [],
+              "text": "las orillas del"
+            },
+            {
+              "_key": "0000000000dc",
+              "_type": "span",
+              "marks": [],
+              "text": " Nilo al pasar, la belleza del barco y la atención de la tripulación captaron mi atención."
+            },
+            {
+              "_key": "0000000000dd",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "0000000000de",
+              "_type": "span",
+              "marks": [],
+              "text": " Cada día revelaba algo nuevo, desde templos históricos hasta la próspera "
+            },
+            {
+              "_key": "0000000000e0",
+              "_type": "span",
+              "marks": [
+                "0000000000df"
+              ],
+              "text": "cultura local"
+            },
+            {
+              "_key": "0000000000e1",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "0000000000e2",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "0000000000e3",
+              "_type": "span",
+              "marks": [],
+              "text": " Los expertos guías turísticos eran excelentes; su ferviente narración daba "
+            },
+            {
+              "_key": "0000000000e5",
+              "_type": "span",
+              "marks": [
+                "0000000000e4"
+              ],
+              "text": "vida al antiguo Egipto"
+            },
+            {
+              "_key": "0000000000e6",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "0000000000e7",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "0000000000e8",
+              "_type": "span",
+              "marks": [],
+              "text": " Fue una fusión única de "
+            },
+            {
+              "_key": "0000000000ea",
+              "_type": "span",
+              "marks": [
+                "0000000000e9"
+              ],
+              "text": "exploración"
+            },
+            {
+              "_key": "0000000000eb",
+              "_type": "span",
+              "marks": [],
+              "text": " y ocio. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000d5",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-90376",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "0000000000df",
+              "_type": "externalLink",
+              "href": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+              "newTab": false
+            },
+            {
+              "_key": "0000000000e4",
+              "_type": "externalLink",
+              "href": "/es/blog/cine-de-egipto",
+              "newTab": false
+            },
+            {
+              "_key": "0000000000e9",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-sohag/explora/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ed",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/07/Why-January-is-the-Perfect-Month-to-Visit-Egypt-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Why January is the Perfect Month to Visit Egypt"
+            }
+          ]
+        },
+        {
+          "_key": "0000000000ef",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ee",
+              "_type": "span",
+              "marks": [],
+              "text": "Yoana Marín"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f0",
+              "_type": "span",
+              "marks": [],
+              "text": "Canadá"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "11pvcphw5f5i",
+              "_type": "span",
+              "marks": [],
+              "text": "¡Descubre la Magia de "
+            },
+            {
+              "_key": "0ll3hqdsc895",
+              "_type": "span",
+              "marks": [
+                "bet49va06xu5"
+              ],
+              "text": "Asuán"
+            },
+            {
+              "_key": "cjepalf7k5w8",
+              "_type": "span",
+              "marks": [],
+              "text": " con las Visitas Privadas de un Día! "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "bet49va06xu5",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58758",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000fc",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f4",
+              "_type": "span",
+              "marks": [],
+              "text": "¿."
+            },
+            {
+              "_key": "0000000000f5",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "0000000000f6",
+              "_type": "span",
+              "marks": [],
+              "text": " Desde el majestuoso "
+            },
+            {
+              "_key": "0000000000f8",
+              "_type": "span",
+              "marks": [
+                "0000000000f7"
+              ],
+              "text": "Templo de Philae"
+            },
+            {
+              "_key": "0000000000f9",
+              "_type": "span",
+              "marks": [],
+              "text": " hasta los vibrantes pueblos nubios, disfruta de un día lleno de cultura, historia e impresionantes paisajes con un guía privado."
+            },
+            {
+              "_key": "0000000000fa",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "0000000000fb",
+              "_type": "span",
+              "marks": [],
+              "text": " ¡ "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000f7",
+              "_type": "externalLink",
+              "href": "/es/guide/aswan/el-templo-de-filae",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000fe",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000fd",
+              "_type": "span",
+              "marks": [],
+              "text": "Saber más"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "アレキサンドリアプライベートデイツアー "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "地中海の真珠へ忘れられない旅に出発"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "3m0d0sfh62sj",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "ejhjvjga3lv9"
+              ],
+              "text": "アレクサンドリア"
+            },
+            {
+              "_key": "o0jxof55ol50",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "の魅力的な街を発見"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": " 私たちの特別なアレクサンドリアプライベートデイトゥアーで、歴史と文化の宝庫であるアレクサンドリアを探索しましょう。きらめく地中海沿いに位置するアレクサンドリアは、ギリシャ、ローマ、エジプトの遺産が織り交ざった豊かな文化を旅人に提供し、この活気あふれる大都市を深く体験できます。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "ejhjvjga3lv9",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58750",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "アレクサンドリアプライベートデイトゥアーのハイライト"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "アレクサンドリアプライベートデイトゥアーのハイライト"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "アレクサンドリア図書館"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": ": 古代の学問の中心地であるアレクサンドリア図書館の現代版を目の当たりにし、歴史的な壮大さと最先端の建築が融合する様子に感動します。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "カイトベイ城塞"
+            },
+            {
+              "_key": "len595mux2hi",
+              "_type": "span",
+              "marks": [],
+              "text": ": 古代世界の七不思議のひとつであった"
+            },
+            {
+              "_key": "e6k9g9vmgs9r",
+              "_type": "span",
+              "marks": [
+                "n9277sne3lag"
+              ],
+              "text": "ファロス灯台"
+            },
+            {
+              "_key": "oyy5plcpquqv",
+              "_type": "span",
+              "marks": [],
+              "text": "の跡地に建てられた15世紀の城塞で、歴史の旅を楽しみます。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "n9277sne3lag",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.pharos-lighthouse",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ローマ劇場"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": アレクサンドリアのローマ時代の遺跡を発見できるこの保存状態の良い場所で、古代の娯楽と社交生活の一面を垣間見ることができます。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "モンタザ宮殿庭園"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ": 地中海の自然美とヨーロッパのデザインのエレガンスが融合する王室庭園を散策し、王族の気品を感じます。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "コム・エル・ショカファのカタコンブ"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": ": 中世の七不思議のひとつである古代の地下墓地に降り立ち、エジプト、ギリシャ、ローマの芸術と建築が交錯する壮大な空間を探ります。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "アレクサンドリア王室ジュエリーミュージアム"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": ": イスラムとヨーロッパの建築様式が融合した美しい建物に収められたエジプト王室の歴史を彩る豪華な宝石と遺物のコレクションを堪能します。ムハンマド・アリ王朝の贅沢と芸術性に触れることができます。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "cokd7ue9896n",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "h2npqceaa3h1"
+              ],
+              "text": "ポンペイの柱"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": ": 高さ26メートル以上の赤いアスワン花崗岩で作られたローマ時代の勝利の記念碑。かつての壮大なセラペウムの唯一の遺物であり、エジプトの豊かな歴史の中で祝福された遺産です。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "h2npqceaa3h1",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.alexandria.pompeys-pillar",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "あなたのためにカスタマイズされた"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "私たちのアレクサンドリアプライベートデイトゥアーは、単なる観光以上のものです。あなたの興味やペースに合わせてカスタマイズされた体験です。歴史好きな方、アートを愛する方、または単に息を呑むような景色を求める方、あなたの旅をユニークなものにするために調整し、完璧な体験を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "専門ガイドがあなたのそばに"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "私たちのガイドは知識豊富であるだけでなく、アレクサンドリアの物語を共有することに情熱を持っています。彼らは、古代の起源から現代の魅力まで、都市の歴史を生き生きと伝え、あなたの一日が情報豊かでありながら、非常に楽しいものになるようサポートします。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "今までにないアレクサンドリアの体験"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "私たちのアレクサンドリアプライベートデイトゥアーでは、ただ訪れるだけではなく、この永遠の都市の本質に浸ることができます。あなたのためにデザインされた親密な探検で、人生で忘れられない思い出を作りましょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "詳しくはこちらへ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "４ツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "並べ替え"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "8"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": "3"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000042",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "アレクサンドリアのこだま: アレクサンドリアのフルデイプライベートツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "アレクサンドリアの魅力を発見：カタコンブ、ポンペイの柱、ギリシャ・ローマ博物館を訪れ、交通手段、ガイド、ランチ、入場料が含まれています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " 料金 "
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": " €21 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "詳しくはこちらへ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000052",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "8"
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": "3"
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": "アレクサンドリア発メンフィス、サッカラ、ダシュールへのプライベート日帰り旅行"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": "アレクサンドリアからの「永遠の奇跡」日帰りツアーで古代エジプトを探訪し、メンフィス、サッカラ、ダシュールを訪れます。寺院の遺跡、最初のピラミッド、建築の驚異を個人的かつ歴史的な旅で発見しましょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": " 料金 "
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": " €24 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000066",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": "詳しくはこちらへ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": "8"
+            },
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": "3"
+            },
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "アレクサンドリア発ギザのピラミッド、スフィンクス、エジプト考古学博物館＆カーン・エル・カリリ市場のプライベート日帰りツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "99ep4spj3u8h",
+              "_type": "span",
+              "marks": [],
+              "text": "アレクサンドリアから"
+            },
+            {
+              "_key": "8x2tyzai6fcu",
+              "_type": "span",
+              "marks": [
+                "p68y4hoay1qc"
+              ],
+              "text": "カイロ"
+            },
+            {
+              "_key": "que6ac8qqvr6",
+              "_type": "span",
+              "marks": [],
+              "text": "へ、エジプトの象徴的な名所を巡るプライベート日帰りツアー。"
+            },
+            {
+              "_key": "li0pnzvh2p87",
+              "_type": "span",
+              "marks": [
+                "gct9vorvgcon"
+              ],
+              "text": "ギザ"
+            },
+            {
+              "_key": "wljimy3m91ac",
+              "_type": "span",
+              "marks": [],
+              "text": "のピラミッド、スフィンクス、エジプト考古学博物館、カーン・エル・カリリ市場をお楽しみください。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "p68y4hoay1qc",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "gct9vorvgcon",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58854",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": " 料金 "
+            },
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [],
+              "text": " €24 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000080",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [],
+              "text": "詳しくはこちらへ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000082",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [],
+              "text": "実際の人々からのリアルなレビュー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000084",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [],
+              "text": "私たちのツアーを担当した組織は非常に丁寧でした。食事や交通機関の予約を含むすべてが綿密に整理されており、安心して旅行を楽しむことができました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000085",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/07/Egyptian.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "The Great Sphinx of Giza with the Pyramids in the background under a clear blue sky"
+            }
+          ]
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": "ダニエル・ロメロ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": "カナダ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプトでのナイル川クルーズは、贅沢の極みでした。ナイル川の岸辺を進む壮大な風景、船の美しさ、そして乗組員の細やかな配慮がすべて私の心を捉えました。毎日が新たな発見で、歴史的な寺院から活気ある地元の文化まで、次々と素晴らしいものが広がりました。知識豊富なツアーガイドは素晴らしく、その情熱的な語り口で古代エジプトを生き生きと描き出してくれました。探検とリラックスのユニークな融合を体験しました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008c",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/07/Why-January-is-the-Perfect-Month-to-Visit-Egypt-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Why January is the Perfect Month to Visit Egypt"
+            }
+          ]
+        },
+        {
+          "_key": "00000000008e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008d",
+              "_type": "span",
+              "marks": [],
+              "text": "ヨアナ・マリン"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000090",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [],
+              "text": "カナダ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000092",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000091",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンの魅力をプライベートデイトゥアーで発見！"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000094",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000093",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンの美しさと歴史を探求したいですか？私たちのアスワンプライベートデイトゥアーでは、この魅力的な街を個別に深く体験できます。壮大なフィラエ神殿から活気あふれるヌビアの村々まで、文化、歴史、そして絶景に満ちた一日をプライベートガイドと共にお楽しみください。こちらをクリックして、アスワンの不思議を解き明かすための特別なデイトゥアーを計画しましょう！"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000096",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [],
+              "text": "詳しくはこちらへ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Gentle wave breaking on a sandy Mediterranean beach under a cloud-flecked sky near Alexandria"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Ola suave rompiendo en una playa mediterránea de arena bajo un cielo con nubes cerca de Alejandría"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "雲の浮かぶ空の下、アレクサンドリア近郊の地中海の砂浜に寄せる波"
+      }
+    ],
+    "asset": {
+      "_ref": "image-27a2a7f7b3e898fc6d3996f475ad23d1a38f1a1e-1020x765-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Turquoise Mediterranean surf rolls onto an empty Alexandrian shore."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "El oleaje turquesa del Mediterráneo llega a una orilla desierta de Alejandría."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ターコイズ色の地中海の波が、人けのないアレクサンドリアの浜に打ち寄せる。"
+      }
+    ]
+  },
+  "hidden": true,
+  "kind": "tours",
+  "migration": {
+    "migratedAt": "2026-05-05T12:54:54.855Z",
+    "reviewFlag": "superseded-duplicate",
+    "source": "wp-import",
+    "supersededBy": "wp-page-59178",
+    "wpId": 87070,
+    "wpModifiedAt": "2025-08-27T17:59:11",
+    "wpTemplate": "",
+    "wpUrl": "https://travel2egypt.org/alexandria-private-day-tours/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58750",
+    "_type": "reference"
+  },
+  "section": "others",
+  "seo": {
+    "metaDescription": [
+      {
+        "_key": "en",
+        "_type": "internationalizedArrayTextValue",
+        "value": "Discover the enchanting city of Alexandria, a treasure trove of history and culture, with our bespoke Alexandria Private Day Tours."
+      },
+      {
+        "_key": "es",
+        "_type": "internationalizedArrayTextValue",
+        "value": "Descubre la encantadora ciudad de Alejandría, un tesoro de historia y cultura, con nuestras Visitas Privadas de un Día a Alejandría hechas a medida."
+      },
+      {
+        "_key": "ja",
+        "_type": "internationalizedArrayTextValue",
+        "value": "アレクサンドリアの魅力的な街を発見\n 私たちの特別なアレクサンドリアプライベートデイトゥアーで、歴史と文化の宝庫であるアレクサンドリアを探索しましょう。"
+      }
+    ]
+  },
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "alexandria-private-day-tours"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "excursiones-privadas-de-un-dia-por-alejandria"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "arekisandoria-puraibeto-dei-tsua"
+      }
+    }
+  ],
+  "summary": [],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Alexandria Private Day Tours"
+    },
+    {
+      "_key": "es",
+      "value": "Excursiones privadas de un día por Alejandría"
+    },
+    {
+      "_key": "ja",
+      "value": "アレキサンドリアプライベートデイツアー"
+    }
+  ]
+}

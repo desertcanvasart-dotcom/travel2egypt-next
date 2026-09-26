@@ -1,0 +1,243 @@
+[
+ {
+  "task": "6",
+  "source": "/blog/traveling-to-egypt-in-the-time-of-coronavirus",
+  "target": "/travel-tips/passport-and-visa",
+  "mode": "live"
+ },
+ {
+  "task": "7",
+  "source": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
+  "target": "/travel-tips/staying-connected-in-egypt",
+  "mode": "after-publish"
+ },
+ {
+  "task": "7",
+  "source": "/travel-tips/telephones-in-egypt",
+  "target": "/travel-tips/staying-connected-in-egypt",
+  "mode": "after-publish"
+ },
+ {
+  "task": "14",
+  "source": "/blog/egypt-holiday-deals",
+  "target": "/egypt-travel-packages",
+  "mode": "live"
+ },
+ {
+  "task": "14",
+  "source": "/blog/vacation-in-egypt",
+  "target": "/journeys/first-time-in-egypt",
+  "mode": "live"
+ },
+ {
+  "task": "14",
+  "source": "/blog/best-places-to-visit-in-egypt",
+  "target": "/guide",
+  "mode": "live"
+ },
+ {
+  "task": "14",
+  "source": "/blog/places-in-egypt",
+  "target": "/guide",
+  "mode": "live"
+ },
+ {
+  "task": "14",
+  "source": "/blog/touring-egypt",
+  "target": "/journeys/first-time-in-egypt",
+  "mode": "live"
+ },
+ {
+  "task": "16",
+  "source": "/blog/7-unforgettable-to-do-in-aswan",
+  "target": "/guide/aswan/things-to-do-in-aswan",
+  "mode": "after-publish"
+ },
+ {
+  "task": "16",
+  "source": "/blog/places-to-visit-in-aswan",
+  "target": "/guide/aswan",
+  "mode": "live"
+ },
+ {
+  "task": "16",
+  "source": "/blog/top-things-to-do-in-luxor-egypt",
+  "target": "/guide/luxor/what-to-do-in-luxor",
+  "mode": "after-publish"
+ },
+ {
+  "task": "16",
+  "source": "/blog/33-amazing-things-to-do-in-hurghada",
+  "target": "/guide/hurghada/activities-in-hurghada",
+  "mode": "after-publish"
+ },
+ {
+  "task": "16",
+  "source": "/blog/top-adventures-things-to-do-in-sharm-el-sheikh",
+  "target": "/guide/sharm-el-sheikh/things-to-do-in-sharm-el-sheikh",
+  "mode": "after-publish"
+ },
+ {
+  "task": "17",
+  "source": "/blog/egypt-weather-guide",
+  "target": "/travel-tips/egypt-weather-guide",
+  "mode": "live"
+ },
+ {
+  "task": "17",
+  "source": "/blog/faux-pas-to-avoid-in-egypt",
+  "target": "/travel-tips/cultural-etiquette-in-egypt",
+  "mode": "live"
+ },
+ {
+  "task": "17",
+  "source": "/blog/local-hospitals-in-egypt",
+  "target": "/travel-tips/health-and-safety",
+  "mode": "after-publish"
+ },
+ {
+  "task": "1",
+  "source": "/blog/the-grand-egyptian-museum-2024-insider-guide",
+  "target": "/blog/the-grand-egyptian-museum",
+  "mode": "after-publish"
+ },
+ {
+  "task": "2",
+  "source": "/blog/safety-guide-for-travelers-to-egypt",
+  "target": "/blog/is-egypt-safe",
+  "mode": "after-publish"
+ },
+ {
+  "task": "3",
+  "source": "/blog/discover-siwa-oasis",
+  "target": "/guide/siwa-oasis",
+  "mode": "after-publish"
+ },
+ {
+  "task": "3",
+  "source": "/blog/siwa-oasis-culture-and-adventure",
+  "target": "/guide/siwa-oasis",
+  "mode": "after-publish"
+ },
+ {
+  "task": "3",
+  "source": "/blog/siwas-historical-landmarks",
+  "target": "/guide/siwa-oasis",
+  "mode": "after-publish"
+ },
+ {
+  "task": "3",
+  "source": "/blog/siwa-oasis-a-timeless-epic-adventure",
+  "target": "/guide/siwa-oasis",
+  "mode": "after-publish"
+ },
+ {
+  "task": "5",
+  "source": "/blog/best-time-to-cruise-the-nile",
+  "target": "/blog/best-time-to-visit-egypt",
+  "mode": "after-publish"
+ },
+ {
+  "task": "10",
+  "source": "/blog/historical-sites-visited-by-a-nile-cruise",
+  "target": "/blog/the-definitive-guide-to-egypt-nile-cruise",
+  "mode": "live"
+ },
+ {
+  "task": "11",
+  "source": "/blog/family-beach-holidays-in-egypt",
+  "target": "/blog/best-family-resorts-in-egypt",
+  "mode": "after-publish"
+ },
+ {
+  "task": "13",
+  "source": "/blog/sinai-adventure",
+  "target": "/blog/sinai-desert-safaris",
+  "mode": "after-publish"
+ },
+ {
+  "task": "15",
+  "source": "/blog/travel-packages-from-the-usa-to-egypt",
+  "target": "/blog/egypt-package-deals",
+  "mode": "after-publish"
+ },
+ {
+  "task": "12",
+  "source": "/blog/egypt-luxury-travel",
+  "target": "https://sillage-egypte.com/journal/is-luxury-egypt-worth-it",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/the-luxurious-egyptian-vacation",
+  "target": "https://sillage-egypte.com/journal/is-luxury-egypt-worth-it",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/luxury-resorts-in-egypt",
+  "target": "https://sillage-egypte.com/journal/best-luxury-resorts-red-sea",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/egypt-luxury-beach-resorts",
+  "target": "https://sillage-egypte.com/journal/best-luxury-resorts-red-sea",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/luxury-nile-cruise",
+  "target": "https://sillage-egypte.com/journal/best-luxury-nile-cruises",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/boutique-nile-cruises-in-egypt",
+  "target": "https://sillage-egypte.com/journal/best-luxury-nile-cruises",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/experiencing-egypt-aboard-the-oberoi-zahra",
+  "target": "https://sillage-egypte.com/journal/best-luxury-nile-cruises",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/historical-hotels-in-egypt",
+  "target": "https://sillage-egypte.com/journal/historic-hotels-of-egypt",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/boutique-hotels-in-egypt",
+  "target": "https://sillage-egypte.com/journal/luxury-villas-egypt",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/how-to-choose-the-right-egyptian-airport-for-your-private-flight",
+  "target": "https://sillage-egypte.com/journal/private-jet-and-helicopter-egypt",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/a-helicopter-adventure-over-the-pyramids-and-nile",
+  "target": "https://sillage-egypte.com/journal/private-jet-and-helicopter-egypt",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "12",
+  "source": "/blog/exclusive-access-to-the-giza-pyramid",
+  "target": "https://sillage-egypte.com/journal/pyramids-without-crowds",
+  "mode": "cross-domain"
+ },
+ {
+  "task": "18",
+  "source": "/blog/budget-hotels-near-the-pyramids",
+  "target": "https://affordegypt.com/",
+  "mode": "cross-domain",
+  "activated": "2026-09-26 (owner: affordEgypt.com homepage; EN row + legacy root slug written by hand)"
+ }
+]

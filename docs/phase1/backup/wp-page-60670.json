@@ -1,0 +1,3056 @@
+{
+  "_createdAt": "2026-05-06T23:04:41Z",
+  "_id": "wp-page-60670",
+  "_rev": "37hNSegHf4NtjSKr1hMtye",
+  "_type": "wikiMonument",
+  "_updatedAt": "2026-07-01T13:32:00Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor Museum Overview"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "The Luxor Museum, renowned for its collection of ancient "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Egyptian"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " artifacts, offers a tranquil and educational experience, distinct from the larger and more crowded Egyptian Museum in "
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "000000000006"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": ". Located between the "
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "000000000009"
+              ],
+              "text": "Karnak"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": " and "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "00000000000c"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": " Temples, it provides an ideal stop for those exploring Luxor’s rich historical landscape."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/egypt-travel-packages/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000006",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Cairo",
+              "newTab": true
+            },
+            {
+              "_key": "000000000009",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-karnak-temple",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-133058-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Location"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Situated"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": Overlooking the Nile, strategically positioned between Karnak and Luxor Temples."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ambiance"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ": Offers a serene environment with a modern architectural design that enhances the viewing experience."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "Collections and Exhibits"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Artifacts"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": ": Houses an array of artifacts from the Theban temples and surrounding necropolises."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Highlights"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Includes objects from the tomb of Tutankhamun, notably the gilded cow head, and a collection of well-preserved statues from the ‘Luxor Cachette’ discovered in Luxor Temple."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Akhenaten’s Wall"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": ": Features a reconstructed wall from Amenhotep IV’s (Akhenaten) temple, showcasing the unique art style of the Amarna period."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Statuary"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": ": Displays an impressive array of granite statues of pharaohs, queens, and high officials."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Tutankhamun Exhibits"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": ": Showcases funerary bed and model barques of the famous king."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Upper Floor Exhibits"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Houses smaller objects such as jewelry, funerary items, and everyday artifacts."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Special Features"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Luxor Cachette"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": ": An important collection of statues unearthed during Luxor Temple’s renovation, now a central exhibit."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Military Section"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": ": A new extension focusing on Egypt’s military history, including weaponry and Tutankhamun’s hunting chariot."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Royal Mummies"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": ": Hosts the mummies of Ahmose, founder of the New Kingdom, and Rameses I."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Visitor Amenities"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": ": Includes a visitor center, bookshop, and cafeteria for enhanced guest comfort."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Architectural Design"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Modern Building"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": ": Spacious and elegantly designed, with thoughtful lighting and temperature control for artifact preservation."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "Educational Value"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Insightful Exhibits"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": ": Provides a comprehensive understanding of ancient Egyptian art, culture, and history in a manageable format."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusion"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "The "
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "000000000047"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": " Museum stands out as a testament to Egypt’s enduring legacy, presenting a curated selection of artifacts in a tranquil and educational setting. Its strategic location and well-thought-out displays make it a must-visit for those seeking a deeper understanding of Luxor’s historical treasures."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000047",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Luxor",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/seif-amr-AQ48EEILu_s-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Silhouette of a hot air balloon against a golden sunset sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Floating on twilight's embrace, a lone balloon captures the day's last light"
+            }
+          ]
+        },
+        {
+          "_key": "00000000004c",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/artem-bryzgalov-YHXomDoU5r4-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "An obelisk with hieroglyphic engravings against a twilight sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Timeless Scripts - The enduring legacy of Egyptian hieroglyphs etched onto an obelisk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Visión general del Museo de Luxor"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo de Luxor, famoso por su colección de artefactos del antiguo Egipto, ofrece una experiencia tranquila y educativa, distinta del "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Museo Egipcio"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " de El Cairo, más grande y concurrido."
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Situado entre los templos de "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "Karnak"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": " y "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "00000000000b"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": ", constituye una parada ideal para quienes exploran el rico paisaje histórico de Luxor. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/acerca-de-egipto/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000008",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-karnak-temple",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "Ubicación"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Situación"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": ": Con vistas al Nilo, estratégicamente situado entre los templos de Karnak y Luxor."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ambiente"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": ": Ofrece un entorno sereno con un diseño arquitectónico moderno que mejora la experiencia visual."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Colecciones y exposiciones"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Artefactos"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Alberga un conjunto de artefactos procedentes de "
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "00000000001b"
+              ],
+              "text": "los templos tebanos y las"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": " necrópolis circundantes."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/el-valle-de-las-reinas/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Lo más "
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000020"
+              ],
+              "text": "de"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "stacado"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": ": Incluye objetos de la tumba de Tutankamón, en particular la cabeza de vaca dorada, y una colección de estatuas bien conservadas de la «Cachette de Luxor» descubierta en el templo de Luxor."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000020",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/el-templo-de-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Muro de Akenatón"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": ": Presenta un muro reconstruido del templo de Amenhotep IV (Akenatón), "
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "000000000027"
+              ],
+              "text": "que muestra el estilo artístico único del"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": " periodo de Amarna."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000027",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/el-templo-del-serapeum/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Estatuaria"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": ": Muestra un impresionante conjunto de estatuas de granito de "
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "00000000002d"
+              ],
+              "text": "faraones"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": ", reinas y altos funcionarios."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000002d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/faraones-del-reino-medio-logros-y-legado/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Exposiciones de Tutankamón"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": ": Muestra el lecho funerario y las maquetas de las barcas "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "000000000033"
+              ],
+              "text": "del famoso rey"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000033",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/reyes-del-antiguo-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Exposiciones de la planta superior"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": ": Alberga objetos más pequeños, como joyas, objetos funerarios y artefactos cotidianos."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Características especiales"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Caché de Luxor"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": ": Una importante colección de estatuas desenterradas durante la renovación del Templo de"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "00000000003e"
+              ],
+              "text": " Luxor"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": ", ahora una exposición central."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000003e",
+              "_type": "externalLink",
+              "href": "https://es.wikipedia.org/wiki/Luxor",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Sección Militar"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": ": Una nueva extensión centrada en la historia militar de "
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "000000000044"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": ", que incluye armamento y el carro de caza de Tutankamón."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000044",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-farafra/el-camino-a-dajla/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Momias reales"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": ": Alberga las momias de Ahmose, fundador del Reino Nuevo, y de Ramsés I."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Servicios para "
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000004c"
+              ],
+              "text": "visitantes"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Incluye un centro de visitantes, una librería y una cafetería para mayor comodidad de los visitantes."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000004c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "Diseño arquitectónico"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Edificio mo"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000053"
+              ],
+              "text": "de"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "rno"
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": ": Espacioso y elegantemente diseñado, con una cuidada iluminación y control de la temperatura para la conservación de los artefactos."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000053",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-88557",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "Valor educativo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Exposiciones perspicaces"
+            },
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": ": Proporciona una comprensión exhaustiva del arte, la "
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [
+                "00000000005c"
+              ],
+              "text": "cultura y la historia del"
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " antiguo Egipto en un formato manejable."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000005c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusión"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo de Luxor destaca como testimonio del perdurable legado de Egipto, presentando una cuidada selección de artefactos en un entorno tranquilo y educativo."
+            },
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "Su ubicación estratégica y sus bien pensadas exposiciones lo convierten en una "
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [
+                "000000000065"
+              ],
+              "text": "visita obligada para"
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": " quienes buscan un conocimiento más profundo de los tesoros históricos de Luxor."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000065",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/islamicos-de-visita-obligada-en-el-cairo/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 23 de Séptiembre, 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": "PRESENTACIÓN DE LUXOR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [
+                "00000000006f"
+              ],
+              "text": "Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/historia-de-luxor/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000074",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [
+                "000000000072"
+              ],
+              "text": "El tiempo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000072",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/pronostico-del-tiempo-para-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "PLANIFICA TU VIAJE"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [
+                "000000000077"
+              ],
+              "text": "Cómo ir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000077",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/maneras-de-llegar-a-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [
+                "00000000007a"
+              ],
+              "text": "Dónde alojarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/mejores-hoteles-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [],
+              "text": "MIENTRAS ESTÉS ALLÍ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [
+                "00000000007f"
+              ],
+              "text": "Cómo desplazarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-moverse-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000084",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [
+                "000000000082"
+              ],
+              "text": "Cosas que hacer"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000082",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/que-hacer-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000086",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [],
+              "text": "LUGARES DONDE IR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [
+                "000000000087"
+              ],
+              "text": "El templo de Luxor"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000087",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-60663",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [
+                "00000000008a"
+              ],
+              "text": "El Valle de las Reinas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-valle-de-las-reinas/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [
+                "00000000008d"
+              ],
+              "text": "Los Colosos de Memnon"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-colossi-of-memnon",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000092",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000091",
+              "_type": "span",
+              "marks": [
+                "000000000090"
+              ],
+              "text": "Deir El-Madina"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000090",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.deir-el-madina",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000095",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [
+                "000000000093"
+              ],
+              "text": "Museo de Luxor"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000093",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-60670",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000098",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [
+                "000000000096"
+              ],
+              "text": "Templo de Madinat Habu"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000096",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-60671",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [
+                "000000000099"
+              ],
+              "text": "El Templo de Karnak"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000099",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-karnak-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009d",
+              "_type": "span",
+              "marks": [
+                "00000000009c"
+              ],
+              "text": "El Valle de los Reyes"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-valle-de-los-reyes/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009f",
+              "_type": "span",
+              "marks": [],
+              "text": "OTROS"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [
+                "0000000000a1"
+              ],
+              "text": "Visitas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a1",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/mejores-tours-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a5",
+              "_type": "span",
+              "marks": [
+                "0000000000a4"
+              ],
+              "text": "Alimentación"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a4",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/festin-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a8",
+              "_type": "span",
+              "marks": [
+                "0000000000a7"
+              ],
+              "text": "Sólo aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a7",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/solo-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ac",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ab",
+              "_type": "span",
+              "marks": [
+                "0000000000aa"
+              ],
+              "text": "Evento"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000aa",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/fiestas-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/seif-amr-AQ48EEILu_s-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Silhouette of a hot air balloon against a golden sunset sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Flotando en el abrazo del crepúsculo, un globo solitario captura la última luz del día"
+            }
+          ]
+        },
+        {
+          "_key": "0000000000ae",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/artem-bryzgalov-YHXomDoU5r4-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "An obelisk with hieroglyphic engravings against a twilight sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "El legado duradero de los jeroglíficos egipcios grabados en un obelisco"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソール博物館"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ルクソール博物館の概要"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソール博物館は、古代エジプトの遺物コレクションで名高い博物館で、カイロのエジプト博物館とは異なる静かで教育的な体験を提供します。カルナック神殿とルクソール神殿の間に位置し、ルクソールの豊かな歴史的景観を探索する際に理想的な立ち寄りスポットです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "位置"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "所在地"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": ": ナイル川を見渡し、カルナック神殿とルクソール神殿の間に戦略的に位置しています。"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "雰囲気"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": ": 静かな環境で、視覚的な体験を高める現代的な建築デザインが施されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "コレクションと展示"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "遺物"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": ": テーベの神殿や周辺の墓地から集められた遺物が展示されています。"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ハイライト"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": ": ツタンカーメンの墓から出土した金メッキの牛頭像や、ルクソール神殿で発見された「ルクソールの隠し場所」の保存状態の良い彫像などが含まれています。"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "アクエナテンの壁"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": ": アメンホテプ4世（アクエナテン）の神殿から再建された壁が展示され、アマルナ時代の独特の芸術様式が紹介されています。"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "彫像"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": ": ファラオや女王、高官のグラニット彫像が印象的に展示されています。"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ツタンカーメン展示"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": ": 有名な王の葬祭用ベッドや模型の船などが展示されています。"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "上階の展示"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": ": ジュエリーや葬祭品、日常的な遺物など、小さな物品が展示されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "特徴"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ルクソールの隠し場所"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": ": ルクソール神殿の修復中に発見された重要な彫像コレクションで、現在は中心的な展示となっています。"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "軍事セクション"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": ": エジプトの軍事歴史に焦点を当てた新しい拡張展示で、武器やツタンカーメンの狩猟用戦車などが展示されています。"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "王家のミイラ"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": ": 新王国の創設者アムホセとラメセス1世のミイラが展示されています。"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "来館者施設"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": ": 来館者センター、書店、カフェテリアなど、快適なゲスト体験を提供する施設があります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "建築デザイン"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "現代的な建物"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": ": 広々とした優雅なデザインで、遺物の保存に配慮した照明と温度管理が施されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "教育的価値"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "洞察に満ちた展示"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": ": 古代エジプトの芸術、文化、歴史を包括的に理解できる展示が、管理しやすい形で提供されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "結論"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソール博物館は、エジプトの永続的な遺産を象徴する場所として、静かで教育的な環境で厳選された遺物を展示しています。その戦略的な立地と考え抜かれた展示は、ルクソールの歴史的宝物をより深く理解したい人々にとって、必見の目的地となっています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日：2025年3月23日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールのご紹介"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "000000000044"
+              ],
+              "text": "歴史"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000044",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ルクソールの歴史的遺産を巡る/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "000000000047"
+              ],
+              "text": "天気"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000047",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e6%b0%97%e5%80%99%e3%81%a8%e5%ad%a3%e7%af%80/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行の計画"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [
+                "00000000004c"
+              ],
+              "text": "行き方"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%b8%e3%81%ae%e8%a1%8c%e3%81%8d%e6%96%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "00000000004f"
+              ],
+              "text": "宿泊先"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ルクソールの宿泊施設/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "滞在中に"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [
+                "000000000054"
+              ],
+              "text": "現地での移動方法"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000054",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ルクソールの移動手段あれこれ/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [
+                "000000000057"
+              ],
+              "text": "おすすめのアクティビティ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000057",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [
+                "00000000005c"
+              ],
+              "text": "カルナック神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%83%ab%e3%83%8a%e3%83%83%e3%82%af%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": "ルクソール神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [
+                "000000000062"
+              ],
+              "text": "ルクソール博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000062",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [
+                "000000000065"
+              ],
+              "text": "王家の谷"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000065",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e7%8e%8b%e5%ae%b6%e3%81%ae%e8%b0%b7/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [
+                "000000000068"
+              ],
+              "text": "王妃の谷"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000068",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e7%8e%8b%e5%a6%83%e3%81%ae%e8%b0%b7/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [
+                "00000000006b"
+              ],
+              "text": "デイル・エル・マディーナ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%87%e3%82%a4%e3%83%ab%e3%83%bb%e3%82%a8%e3%83%ab%e3%83%bb%e3%83%9e%e3%83%87%e3%82%a3%e3%83%bc%e3%83%8a/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [
+                "00000000006e"
+              ],
+              "text": "マディナ・ハブ神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%9e%e3%83%87%e3%82%a3%e3%83%8a%e3%83%83%e3%83%88%e3%83%bb%e3%83%8f%e3%83%96%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "メムノンの巨像"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000071",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%a1%e3%83%a0%e3%83%8e%e3%83%b3%e3%81%ae%e5%b7%a8%e5%83%8f/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "その他"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [
+                "000000000076"
+              ],
+              "text": "ツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000076",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e3%81%8a%e3%81%99%e3%81%99%e3%82%81%e3%83%84%e3%82%a2%e3%83%bc",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "000000000079"
+              ],
+              "text": "食べ物"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000079",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e3%83%ac%e3%82%b9%e3%83%88%e3%83%a9%e3%83%b3%ef%bc%86%e3%82%b0%e3%83%ab%e3%83%a1/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [
+                "00000000007c"
+              ],
+              "text": "ここだけ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%93%e3%81%93%e3%81%a0%e3%81%91%e3%81%ae%e4%bd%93%e9%a8%93/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [
+                "00000000007f"
+              ],
+              "text": "イベント"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e3%81%8a%e7%a5%ad%e3%82%8a/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000082",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/sean-wang-ZmsTWtUc03w-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A serene river with lush greenery on the bank and a small boat moored near the shore"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "水上の静寂 – 川辺の自然の抱擁"
+            }
+          ]
+        },
+        {
+          "_key": "000000000083",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/ahmed-shabana-ADa9bb3tqR4-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up of an ancient Egyptian pharaoh statue carved in stone"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "永遠の石の番人であるファラオの顔は、揺るぎない威厳をもって時の経過を観察している。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "city": {
+    "_ref": "wp-page-58877",
+    "_type": "reference"
+  },
+  "heroImage": {
+    "_type": "image",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The modern façade of the Luxor Museum with pharaonic statues on its lawn."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "La fachada moderna del Museo de Luxor con estatuas faraónicas en su jardín."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "芝生にファラオ像が並ぶ、ルクソール博物館の近代的なファサード。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-beb3e4f4a2eec15e654bc1381db9401ab30cd072-1200x675-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Royal statues stand on the lawn before the angular Luxor Museum."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Estatuas reales se alzan en el césped ante el anguloso Museo de Luxor."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "角ばったルクソール博物館の前の芝生に立つ王の彫像。"
+      }
+    ]
+  },
+  "migration": {
+    "migratedAt": "2026-05-07T11:15:04.245Z",
+    "reviewFlag": "superseded-by-guideArticle",
+    "source": "wp-import",
+    "supersededAt": "2026-05-20T15:23:40.818Z",
+    "supersededBy": "guideArticle.luxor.the-luxor-museum",
+    "wpId": 60670,
+    "wpModifiedAt": "2025-07-24T16:01:14",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/the-luxor-museum/"
+  },
+  "monumentType": "museum",
+  "name": [
+    {
+      "_key": "en",
+      "value": "The Luxor Museum"
+    },
+    {
+      "_key": "es",
+      "value": "Museo de Luxor"
+    },
+    {
+      "_key": "ja",
+      "value": "ルクソール博物館"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "the-luxor-museum"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "museo-de-luxor"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "ルクソール博物館"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Luxor Museum Overview The Luxor Museum, renowned for its collection of ancient Egyptian artifacts, offers a tranquil and educational experience, distinct from the larger and more crowded Egyptian Museum in Cairo. Located between the Karnak "
+    },
+    {
+      "_key": "es",
+      "value": "Visión general del Museo de Luxor El Museo de Luxor, famoso por su colección de artefactos del antiguo Egipto, ofrece una experiencia tranquila y educativa, distinta del Museo Egipcio de El Cairo, más grande y concurrido. Situado entre los "
+    },
+    {
+      "_key": "ja",
+      "value": "ルクソール博物館 ルクソール博物館の概要 ルクソール博物館は、古代エジプトの遺物コレクションで名高い博物館で、カイロのエジプト博物館とは異なる静かで教育的な体験を提供します。カルナック神殿とルクソール神殿の間に位置し、ルクソールの豊かな歴史的景観を探索する際に理想的な立ち寄りスポットです。 位置 所在地: ナイル川を見渡し、カルナック神殿とルクソール神殿の間に戦略的に位置しています。雰囲気: 静かな環境で、視覚的な体験を高める現代的な建築デザインが施されています。 コレクショ"
+    }
+  ]
+}

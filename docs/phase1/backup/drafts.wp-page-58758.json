@@ -1,0 +1,1687 @@
+{
+  "_createdAt": "2026-04-29T12:15:35Z",
+  "_id": "drafts.wp-page-58758",
+  "_rev": "7cc5ea53-8e08-4d74-a293-cb45c5aacf0d",
+  "_system": {
+    "base": {
+      "id": "wp-page-58758",
+      "rev": "PUXUI6sshIht1BONylZT4q"
+    }
+  },
+  "_type": "city",
+  "_updatedAt": "2026-07-19T21:20:13Z",
+  "coordinates": {
+    "_type": "coordinates",
+    "lat": 24.0889,
+    "lng": 32.8998
+  },
+  "guideBestFor": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "Philae, feluccas, Nubian culture"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "Filé, las falúas, la cultura nubia"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "フィラエ、ファルーカ、ヌビアの文化"
+    }
+  ],
+  "guideDek": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "Egypt’s gentlest city, where the Nile changes character and Nubia begins."
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayTextValue",
+      "value": "La ciudad más apacible de Egipto, donde el Nilo cambia de carácter y empieza Nubia."
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayTextValue",
+      "value": "エジプトで最も穏やかな街。ここでナイルは表情を変え、ヌビアが始まる。"
+    }
+  ],
+  "guideHonestNote": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "The south’s slow pace is the point — don’t rush it."
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayTextValue",
+      "value": "El ritmo lento del sur es lo que importa: no lo apresures."
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayTextValue",
+      "value": "南部のゆったりした時間こそが眼目だ。急いではいけない。"
+    }
+  ],
+  "guideOrder": 2,
+  "guideRegion": "upper-egypt",
+  "guideTier": "essential",
+  "guideTime": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "two nights"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "dos noches"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "二泊"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Aerial view of Aswan on the Nile, with a riverside hotel on a green island, feluccas under sail and the city beyond"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Vista aérea de Asuán sobre el Nilo, con un hotel ribereño en una isla verde, faluchos navegando y la ciudad al fondo"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ナイル川沿いのアスワンを空から望む。緑の島に建つ川辺のホテル、帆を張ったフェルッカ、その先の街。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-f85334cd048faeccf7d99a9d21a46069e7ba031b-4911x2161-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Aswan spreads along the Nile, its islands and feluccas in view."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Asuán se extiende junto al Nilo, con sus islas y faluchos."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ナイル沿いに広がるアスワン。島々とフェルッカが見える。"
+      }
+    ]
+  },
+  "migration": {
+    "migratedAt": "2026-04-29T12:15:35.238Z",
+    "reviewFlag": "keyfacts-mining-failed",
+    "source": "wp-import",
+    "wpId": 58758,
+    "wpModifiedAt": "2026-04-12T15:12:21",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/aswan-travel-guide/"
+  },
+  "name": [
+    {
+      "_key": "en",
+      "value": "Aswan"
+    },
+    {
+      "_key": "es",
+      "value": "Asuán"
+    },
+    {
+      "_key": "ja",
+      "value": "アスワン"
+    }
+  ],
+  "overview": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan is where Egypt softens and sharpens at the same time."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "The Nile narrows around granite islands. Desert hills rise almost directly from the water. Feluccas move slowly across a river that feels calmer here than in Cairo or Luxor. Yet this quietness is deceptive. For most of ancient history, Aswan was one of Egypt's most strategic places: the southern gate of the country, the frontier with Nubia, the customs post of the First Cataract, and the quarry that supplied stone for some of Egypt's most ambitious monuments."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "It sits about 880 kilometres south of Cairo, on the east bank of the Nile, where the old river route met granite outcrops and cataract water. The ancient city was called Swenett, later Syene in Greek, and its identity was always double. It was a border. It was also a market. Today's city has a population of around 350,000."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan rewards a slower pace. It is not a city to rush through between flights and cruises. Its monuments are scattered across islands, riverbanks, quarries, desert hills, and relocated temple sites. Its history belongs as much to Nubia as to Egypt. Its best moments often happen on water."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "Why Aswan Matters"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan was Egypt's southern threshold."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Goods from Nubia and deeper Africa entered Egypt here: gold, ivory, incense, exotic animals, stone, and stories of lands beyond the cataracts. Soldiers marched south from here. Governors watched the frontier from here. Priests measured the flood from here. Stonecutters quarried granite here, and that granite — a distinctive pink-red stone that takes its geological name "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "syenite"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": " from the Greek Syene — travelled north as obelisks, statues, sarcophagi, and temple elements."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "The city's ancient name itself records the doubleness. One reading links Swenett to an Egyptian deity associated with opening and beginning — the idea that Egypt began here at its southern boundary. The other ties it directly to the hieroglyphic symbol for trade or market. The two readings are not incompatible: a city that was both the opener of Egypt and its southern trading hub could reasonably give rise to both."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan was also a place of scientific imagination. Around 240 BC, the Greek mathematician Eratosthenes used observations at Syene and Alexandria — Syene's near-Tropic-of-Cancer position meant a vertical staff cast almost no shadow there at noon on the summer solstice — to calculate the circumference of the earth with remarkable accuracy. A city known for stone and trade also helped measure the planet."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "In 2005, Aswan became a UNESCO Creative City of Crafts and Folk Art, one of the first cities designated in that category and reflecting its living craft traditions and stone-carving inheritance."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "The Nile and the Islands"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "The river is Aswan's central experience."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "Elephantine Island sits directly opposite the Corniche and holds the ruins of ancient Abu — the name means both elephant and ivory in ancient Egyptian — together with Nilometers, the Aswan Museum, Nubian houses, and the layered remains of one of Egypt's oldest frontier towns. Kitchener's Island, given to Lord Kitchener during his Sudan campaigns in the 1890s, was transformed by him into a botanical garden and remains one of the city's easiest escapes. Philae, relocated to Agilkia Island during the international salvage campaign of the 1960s and 1970s, is reached by motorboat and remains one of Egypt's most atmospheric temple arrivals."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "A felucca at sunset is not a decorative extra in Aswan. It is one of the clearest ways to understand the city."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "Nubia and Memory"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan is the Egyptian city where Nubian culture is most visible to travellers."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "This visibility carries joy, colour, music, food, hospitality, and pain. The construction of the Aswan High Dam, completed in 1970 under President Nasser, displaced around ninety thousand Egyptian and Sudanese Nubians from villages submerged beneath Lake Nasser. The Nubian Museum, opened in 1997, exists partly because of that rupture: to preserve, interpret, and honour a civilisation whose material and living landscapes were dramatically altered by modern engineering."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "To visit Aswan only for temples is to miss the human story closest to the surface."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "What to See"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Five of Aswan's sites sit within the UNESCO World Heritage inscription covering the Nubian Monuments from Abu Simbel to Philae."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Philae is the essential temple. The Unfinished Obelisk — around forty-two metres long and an estimated twelve hundred tonnes had it been raised — is the essential quarry. The Nubian Museum is the essential museum. Elephantine is the essential island. The Tombs of the Nobles at Qubbet el-Hawa give the best west bank views. The High Dam explains modern Egypt and modern Nubian displacement in one structure."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Kalabsha, relocated fifty kilometres north of its original site during the Lake Nasser salvage campaign; the Aga Khan Mausoleum on the west bank, built in pink limestone for Aga Khan III in 1960 and the resting place of Aga Khan IV since early 2025; the Isis Temple within Aswan town; Sehel Island; the Botanical Garden; and the local market all add depth for visitors staying longer."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "Abu Simbel is the major excursion from Aswan. It is not in the city, but Aswan is the natural base for visiting it."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "How Long to Stay"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Two days gives the core: Philae, High Dam, Unfinished Obelisk, Nubian Museum, a felucca, and the Corniche."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Three days is much better. It allows Elephantine, Qubbet el-Hawa, Kitchener's Island, the market, and a slower rhythm."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "Four days or more gives space for Abu Simbel, Kalabsha, Nubian village stays, Sehel Island, and time on the river without turning every day into a transfer."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "Final Word"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan is quieter than Luxor, but not less important."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor shows Egypt at its ceremonial height. Aswan shows Egypt at its edge: where the river meets stone, where Egypt meets Nubia, where ancient engineering meets modern dams, and where sunlight, water, and desert make time feel unusually visible."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Asuán es el lugar donde Egipto se suaviza y se afila al mismo tiempo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "El Nilo se estrecha alrededor de islas de granito. Las colinas del desierto se alzan casi directamente desde el agua. Las felucas se desplazan lentamente sobre un río que aquí se siente más tranquilo que en El Cairo o Luxor. Sin embargo, esa quietud es engañosa. Durante la mayor parte de la historia antigua, Asuán fue uno de los lugares más estratégicos de Egipto: la puerta meridional del país, la frontera con Nubia, la aduana de la Primera Catarata y la cantera que abasteció de piedra algunos de los monumentos más ambiciosos de Egipto."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Se asienta a unos 880 kilómetros al sur de El Cairo, en la orilla oriental del Nilo, donde la antigua ruta fluvial se encontraba con los afloramientos de granito y las aguas de la catarata. La ciudad antigua se llamaba Swenett, más tarde Syene en griego, y su identidad fue siempre doble. Era una frontera. Era también un mercado. La ciudad de hoy tiene una población de unos 350 000 habitantes."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Asuán recompensa un ritmo más pausado. No es una ciudad para atravesar a la carrera entre vuelos y cruceros. Sus monumentos están dispersos por islas, riberas, canteras, colinas desérticas y emplazamientos de templos reubicados. Su historia pertenece tanto a Nubia como a Egipto. Sus mejores momentos suceden a menudo sobre el agua."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Por qué importa Asuán"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Asuán era el umbral meridional de Egipto."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Las mercancías de Nubia y del África profunda entraban en Egipto por aquí: oro, marfil, incienso, animales exóticos, piedra y relatos de tierras más allá de las cataratas. Los soldados marchaban hacia el sur desde aquí. Los gobernadores vigilaban la frontera desde aquí. Los sacerdotes medían la crecida desde aquí. Los canteros extraían granito aquí, y ese granito —una piedra distintiva de color rosa-rojo que toma su nombre geológico, "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "sienita"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": ", del griego Syene— viajaba hacia el norte como obeliscos, estatuas, sarcófagos y elementos de templos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "El propio nombre antiguo de la ciudad registra esa doblez. Una lectura vincula Swenett a una deidad egipcia asociada a la apertura y al comienzo —la idea de que Egipto empezaba aquí, en su frontera meridional—. La otra lo relaciona directamente con el símbolo jeroglífico del comercio o del mercado. Las dos lecturas no son incompatibles: una ciudad que era a la vez la apertura de Egipto y su nudo comercial meridional bien podría dar lugar a ambas."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Asuán fue también un lugar de imaginación científica. Hacia el 240 a. C., el matemático griego Eratóstenes empleó observaciones en Syene y Alejandría —la posición de Syene, casi sobre el Trópico de Cáncer, hacía que un palo vertical no proyectara casi ninguna sombra al mediodía del solsticio de verano— para calcular la circunferencia de la Tierra con notable precisión. Una ciudad conocida por la piedra y el comercio ayudó también a medir el planeta."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "En 2005, Asuán se convirtió en Ciudad Creativa de la UNESCO en Artesanía y Arte Popular, una de las primeras ciudades designadas en esa categoría, reflejo de sus tradiciones artesanales vivas y de su herencia de talla en piedra."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ El Nilo y las islas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "El río es la experiencia central de Asuán."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "La isla Elefantina se sitúa justo enfrente del Corniche y conserva las ruinas de la antigua Abu —el nombre significa a la vez «elefante» y «marfil» en el antiguo egipcio—, junto con nilómetros, el Museo de Asuán, casas nubias y los restos superpuestos de una de las ciudades fronterizas más antiguas de Egipto. La isla de Kitchener, cedida a lord Kitchener durante sus campañas en Sudán en la década de 1890, fue transformada por él en un jardín botánico y sigue siendo una de las escapadas más fáciles de la ciudad. File, reubicada en la isla de Agilkia durante la campaña internacional de rescate de las décadas de 1960 y 1970, se alcanza en lancha motora y sigue siendo una de las llegadas a un templo más cargadas de atmósfera de Egipto."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Una feluca al atardecer no es un complemento decorativo en Asuán. Es una de las formas más claras de entender la ciudad."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Nubia y la memoria"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Asuán es la ciudad egipcia donde la cultura nubia es más visible para los viajeros."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Esa visibilidad lleva consigo alegría, color, música, comida, hospitalidad y dolor. La construcción de la presa Alta de Asuán, completada en 1970 bajo el presidente Nasser, desplazó a unos noventa mil nubios egipcios y sudaneses de aldeas sumergidas bajo el lago Nasser. El Museo Nubio, inaugurado en 1997, existe en parte por esa ruptura: para preservar, interpretar y honrar una civilización cuyos paisajes materiales y vivos fueron drásticamente alterados por la ingeniería moderna."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar Asuán solo por sus templos es perderse la historia humana más cercana a la superficie."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Qué ver"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Cinco de los yacimientos de Asuán se encuentran dentro de la inscripción del Patrimonio Mundial de la UNESCO que cubre los Monumentos nubios de Abu Simbel a File."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "File es el templo esencial. El Obelisco Inacabado —unos cuarenta y dos metros de largo y unas mil doscientas toneladas estimadas de haberse erigido— es la cantera esencial. El Museo Nubio es el museo esencial. Elefantina es la isla esencial. Las Tumbas de los Nobles en Qubbet el-Hawa ofrecen las mejores vistas de la orilla occidental. La presa Alta explica el Egipto moderno y el desplazamiento nubio moderno en una sola estructura."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Kalabsha, reubicado cincuenta kilómetros al norte de su emplazamiento original durante la campaña de rescate del lago Nasser; el Mausoleo del Aga Khan en la orilla occidental, construido en piedra caliza rosa para el Aga Khan III en 1960 y lugar de descanso del Aga Khan IV desde comienzos de 2025; el Templo de Isis dentro de la ciudad de Asuán; la isla de Sehel; el Jardín Botánico; y el mercado local añaden todos profundidad para quienes se quedan más tiempo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "Abu Simbel es la gran excursión desde Asuán. No está en la ciudad, pero Asuán es la base natural para visitarlo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Cuántos días quedarse"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Dos días dan lo esencial: File, la presa Alta, el Obelisco Inacabado, el Museo Nubio, una feluca y el Corniche."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "Tres días es mucho mejor. Permite añadir Elefantina, Qubbet el-Hawa, la isla de Kitchener, el mercado y un ritmo más pausado."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Cuatro días o más dejan espacio para Abu Simbel, Kalabsha, estancias en aldeas nubias, la isla de Sehel y tiempo sobre el río sin convertir cada jornada en un traslado."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Asuán frente a Luxor"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Asuán es más tranquila que Luxor, pero no menos importante."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor muestra a Egipto en su apogeo ceremonial. Asuán muestra a Egipto en su borde: donde el río se encuentra con la piedra, donde Egipto se encuentra con Nubia, donde la ingeniería antigua se encuentra con las presas modernas, y donde la luz del sol, el agua y el desierto hacen que el tiempo se sienta inusualmente visible."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "Última actualización: mayo de 2026"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "— 川がやわらぎ、また鋭くなり、ヌビアが始まり、花崗岩とフェルッカの光が一つの画面に収まるエジプト南の境界 —"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ エジプト南端の入口"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンは、エジプトが同時にやわらぎ、鋭くなる場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "ナイルは花崗岩の島々のまわりで細くなります。砂漠の丘がほとんど水際から直接立ち上がります。フェルッカは、カイロやルクソールよりもここで穏やかに感じられる川面をゆっくりと進みます。しかし、この静けさは人を欺きます。古代史の大半において、アスワンはエジプトで最も戦略的な場所のひとつでした。国の南の門、ヌビアとの国境、第一急湍の税関、そしてエジプトで最も野心的な記念物のいくつかに石を供給した採石場です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロから南へ約880キロ、ナイルの東岸、古い川の道が花崗岩の露頭と急湍の水に出会う場所に位置します。古代の都市はスウェネトと呼ばれ、のちにギリシア語でシュエネとなり、その性格はつねに二重でした。それは国境でした。同時に市場でもありました。今日の町の人口はおよそ35万人です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンは、ゆっくりとしたペースに報いてくれます。フライトとクルーズのあいだに駆け抜ける町ではありません。その記念物は、島、川岸、採石場、砂漠の丘、移設された神殿の場所に散らばっています。その歴史は、エジプトと同じくらいヌビアに属しています。その最良の瞬間は、しばしば水上で起こります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ なぜアスワンは重要なのか"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンは、エジプトの南のしきいでした。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "ヌビアとさらに奥のアフリカからの品々がここでエジプトに入りました。金、象牙、香、珍しい動物、石、そして急湍の向こうの地の物語です。兵士はここから南へ行軍しました。総督はここから国境を見張りました。神官はここで洪水を測りました。石工はここで花崗岩を切り出し、その花崗岩、ギリシア語のシュエネからその地質学上の名"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "シエナイト"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "を取る独特のピンクがかった赤い石は、オベリスク、彫像、石棺、神殿の部材として北へ運ばれていきました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "町の古代名そのものが、その二重性を記録しています。ある読みは、スウェネトを開くことと始まることに結びつくエジプトの神に関連づけます。エジプトはここ、その南の境界で始まったという考えです。もう一つの読みは、それを交易または市場を表すヒエログリフの記号に直接結びつけます。二つの読みは両立しないものではありません。エジプトの開く者であり、かつその南の交易の中心でもあった町なら、その両方を生み出してもおかしくないのです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンは科学的想像力の場でもありました。紀元前240年頃、ギリシアの数学者エラトステネスは、シュエネとアレクサンドリアでの観測を用いて、地球の円周を驚くべき正確さで計算しました。シュエネが北回帰線にほぼ位置していたことは、夏至の正午にここでは垂直に立てた棒がほとんど影を落とさないことを意味していました。石と交易で知られた町は、惑星を測ることにも一役買ったのです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "2005年、アスワンはUNESCOの工芸と民俗芸術の創造都市となりました。この区分で最初に指定された都市のひとつで、その生きた工芸の伝統と石彫の遺産を映しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ ナイルと島々"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "川がアスワンの中心の体験です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "エレファンティネ島はコルニッシュのちょうど正面に位置し、古代都市アブ（その名は古代エジプト語で象と象牙の両方を意味します）の廃墟を、ナイルメーター、アスワン博物館、ヌビアの家々、そしてエジプト最古の国境の町のひとつの重層的な遺構とともに抱えています。1890年代のスーダン遠征の際にキッチナー卿に贈られたキッチナー島は、彼によって植物園に変えられ、いまも町で最も容易な避難場所のひとつです。1960年代と1970年代の国際救済事業の際にアギルキア島へ移されたフィラエは、モーターボートで近づき、いまもエジプトで最も情趣ある神殿への到着のひとつです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "夕暮れのフェルッカは、アスワンでは装飾的な付け足しではありません。この町を理解する最も澄んだ方法のひとつです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ ヌビアと記憶"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンは、ヌビア文化が旅人に最もよく見えるエジプトの町です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "この可視性は、喜び、色、音楽、食、もてなし、そして痛みを伴います。1970年にナセル大統領のもとで完成したアスワン・ハイダムの建設は、約9万人のエジプトとスーダンのヌビア人を、ナセル湖の下に沈んだ村々から追いました。1997年に開館したヌビア博物館は、一部にはその断絶ゆえに存在します。物質的にも生きられた風景としても近代の工学によって劇的に変えられた文明を、保存し、解釈し、敬うためにです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "神殿のためだけにアスワンを訪れることは、表面に最も近い人間の物語を見逃すことです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 何を見るか"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンの五つの場所が、アブ・シンベルからフィラエに及ぶヌビア記念物を対象とするUNESCO世界遺産の登録に含まれています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "フィラエは欠かせない神殿です。未完成のオベリスク（立てられていれば長さ約42メートル、推定1,200トン）は欠かせない採石場です。ヌビア博物館は欠かせない博物館です。エレファンティネは欠かせない島です。クベット・エル・ハワの貴族の墓は、最良の西岸の眺めを与えてくれます。ハイダムは、近代エジプトと近代ヌビアの移住を一つの構造物のなかに説明します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "ナセル湖の救済事業の際に元の場所から北へ50キロ移設されたカラブシャ、1960年にアーガー・ハーン3世のためにピンクの石灰岩で建てられ2025年初めからアーガー・ハーン4世の安息の地となった西岸のアーガー・ハーン廟、アスワンの町なかのイシス神殿、セヘル島、植物園、そして地元の市場は、いずれも長く滞在する訪問者に深みを加えてくれます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "アブ・シンベルは、アスワンからの主要な遠足です。市内ではありませんが、アスワンはそれを訪れるための自然な拠点です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 滞在日数の目安"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "二日あれば核心がつかめます。フィラエ、ハイダム、未完成のオベリスク、ヌビア博物館、フェルッカ、そしてコルニッシュです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "三日あればずっと良くなります。エレファンティネ、クベット・エル・ハワ、キッチナー島、市場、そしてより緩やかなリズムが可能になります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "四日以上あれば、アブ・シンベル、カラブシャ、ヌビアの村での滞在、セヘル島、そして毎日を移動に変えずに川で過ごす時間に余裕が生まれます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Final Word"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "アスワンはルクソールより静かですが、重要性が低いわけではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "ルクソールが儀式の頂点のエジプトを見せるなら、アスワンはその端のエジプトを見せます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "川が石に出会い、エジプトがヌビアに出会い、古代の工学が近代のダムに出会い、日の光と水と砂漠が時間を異例にはっきり見えるものにする場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "最終更新：2026年5月"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "placesToGo": [
+    {
+      "_key": "aswan-0",
+      "_ref": "wp-page-59236",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-1",
+      "_ref": "guideArticle.aswan.aswan-isis-temple",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-2",
+      "_ref": "wp-page-59253",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-3",
+      "_ref": "guideArticle.aswan.elephantine-island",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-5",
+      "_ref": "guideArticle.aswan.sehel-island",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-7",
+      "_ref": "guideArticle.aswan.the-aga-khan-mausoleum",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-8",
+      "_ref": "guideArticle.aswan.the-aswan-museum",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-9",
+      "_ref": "guideArticle.aswan.the-kalabsha-temple",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-10",
+      "_ref": "guideArticle.aswan.the-nubian-museum",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-11",
+      "_ref": "guideArticle.aswan.the-philae-temple",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-12",
+      "_ref": "guideArticle.aswan.the-unfinished-obelisk",
+      "_type": "reference"
+    },
+    {
+      "_key": "aswan-13",
+      "_ref": "wp-page-59229",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-botanical-garden",
+      "_ref": "guideArticle.aswan.botanical-garden",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-saint-simeon-monastery",
+      "_ref": "guideArticle.aswan.saint-simeon-monastery",
+      "_type": "reference"
+    }
+  ],
+  "region": "upper-egypt",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "aswan"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "asuan"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "asuwan"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Aswan, a city steeped in history and rich in cultural heritage, is a captivating destination for travelers seeking both relaxation and exploration. Situated at the southern tip of Egypt, Aswan has long been a place of strategic and cultural significance."
+    },
+    {
+      "_key": "es",
+      "value": "Asuán, ciudad cargada de historia y rica en patrimonio cultural, es un destino cautivador para los viajeros que buscan tanto relax como exploración. Situada en el extremo sur de Egipto, Asuán ha sido durante mucho tiempo un lugar de importancia estratégica y cultural."
+    },
+    {
+      "_key": "ja",
+      "value": "アスワンは、歴史と豊かな文化遺産に彩られた都市であり、リラックスと探検の両方を求める旅行者にとって魅力的な目的地です。エジプト最南端に位置し、古くから戦略的かつ文化的に重要な地として知られています。"
+    }
+  ]
+}

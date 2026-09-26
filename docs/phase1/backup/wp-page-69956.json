@@ -1,0 +1,3171 @@
+{
+  "_createdAt": "2026-05-06T23:01:57Z",
+  "_id": "wp-page-69956",
+  "_rev": "SrWEF6KlCh2Hm5VWf8XQDs",
+  "_type": "wikiMonument",
+  "_updatedAt": "2026-06-12T17:14:09Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "The Saqqara Necropolis: Egypt's Timeless Gateway to the Afterlife"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "The Saqqara Necropolis"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "span",
+              "marks": [],
+              "text": " is one of the most significant and expansive burial grounds in ancient Egypt, serving as the royal and elite cemetery for the ancient city of "
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [
+                "000000000004",
+                "strong"
+              ],
+              "text": "Memphis"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": ", Egypt’s capital during the Old Kingdom. This sprawling necropolis stretches across several kilometers and encapsulates more than 3,000 years of Egyptian history, from the earliest dynasties to the Greco-Roman period. Saqqara is most famously home to the "
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Step Pyramid of Djoser"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": ", the world’s first monumental stone building, but it is also a treasure trove of tombs, pyramids, and artifacts that provide a window into Egypt’s evolving religious and cultural practices."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000004",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-87840",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "The most iconic structure in Saqqara is the "
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Step Pyramid of Djoser"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": ", built around 2670 BCE for Pharaoh "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Djoser"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": " by his brilliant architect "
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "00000000000f",
+                "strong"
+              ],
+              "text": "Imhotep"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": ". This six-tiered pyramid represents a significant shift in royal tomb design, moving away from the traditional flat-topped "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "mastabas"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " to a more ambitious "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "form"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": " that would become the prototype for all future pyramids in Egypt. Surrounding the Step Pyramid is a vast "
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "mortuary complex"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": " featuring courtyards, temples, and altars, reflecting the importance of religious rituals in securing the pharaoh’s journey to the afterlife."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000f",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Imhotep",
+              "newTab": true
+            },
+            {
+              "_key": "000000000014",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/form/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "Beyond Djoser’s pyramid, Saqqara is home to several other royal pyramids, including the pyramids of "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Unas"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": ", "
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Teti"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": ", and "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Pepi I"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": ", each of which holds unique historical significance. The Pyramid of "
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Unas"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " is particularly famous for its "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Pyramid Texts"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": ", the oldest collection of religious writings found in any Egyptian pyramid, inscribed on the walls of the burial chamber to help guide the pharaoh’s soul in the afterlife. These texts are some of the earliest religious literature in the world and would later influence funerary practices throughout the Old Kingdom."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "The necropolis also features an array of "
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "mastaba tombs"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": ", which were used by high officials and nobility. These tombs, such as the "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Tomb of Mereruka"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " and the "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Tomb of Ti"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": ", offer beautifully preserved reliefs and paintings that depict scenes of everyday life in ancient Egypt, from farming and fishing to elaborate banquets and religious rituals. These tombs provide invaluable insights into the lives of Egypt’s elite and their beliefs about the afterlife."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "One of the most intriguing structures within Saqqara is the "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Serapeum"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": ", a grand underground burial complex for the sacred "
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Apis bulls"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": ", which were worshiped as earthly manifestations of the god Ptah. The Apis bulls were mummified and laid to rest in enormous stone sarcophagi, some weighing up to 70 tons, within this vast subterranean labyrinth. Discovered in the 19th century by French archaeologist "
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Auguste Mariette"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": ", the Serapeum highlights the religious and cultural importance of animal worship in ancient Egypt."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "In addition to its ancient monuments, Saqqara continues to be a site of active archaeological discovery. In recent years, excavations have revealed incredible finds, including "
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "well-preserved mummies, tombs, and statues"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": " that offer new insights into Egypt’s religious practices, burial customs, and daily life."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "The Saqqara Necropolis, with its wealth of historical and architectural treasures, remains one of the most important and captivating archaeological sites in Egypt. From the groundbreaking Step Pyramid of Djoser to the rich array of tombs, pyramids, and burial complexes, Saqqara encapsulates the grandeur and mystery of ancient Egyptian civilization. It stands as a timeless testament to "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": "’s enduring legacy, drawing visitors and scholars alike to uncover its secrets."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003b",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-144683-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/32.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Three ancient pyramids rising from the desert sands under a clear blue sky in Giza, Egypt"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "The Great Pyramids of Giza: A Testament to Ancient Wonders"
+            }
+          ]
+        },
+        {
+          "_key": "000000000040",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/History-of-the-Red-Pyramid-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up view of the Red Pyramid's textured stone surface under a clear blue sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "The Red Pyramid  a testament to ancient engineering, standing resilient since circa 2600 BCE"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "La Necrópolis de Saqqara: La Puerta Atemporal de Egipto hacia el Más Allá"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "La Necrópolis de Saqqara es uno de los cementerios más significativos y extensos del antiguo Egipto, que sirvió como el cementerio real y de élite para la antigua ciudad de "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Menfis"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", la capital de Egipto durante el Reino Antiguo. Esta vasta necrópolis se extiende a lo largo de varios kilómetros y encapsula más de 3,000 años de historia egipcia, desde las primeras dinastías hasta el período grecorromano. Saqqara es mundialmente conocida por albergar la Pirámide Escalonada de Djoser, la primera estructura monumental de piedra del mundo, pero también es un tesoro de tumbas, pirámides y artefactos que ofrecen una ventana a las prácticas religiosas y culturales en constante evolución de Egipto."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-87840",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "La estructura más icónica en Saqqara es la Pirámide Escalonada de Djoser, construida alrededor del 2670 a.C. para el faraón Djoser por su brillante arquitecto "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "Imhotep"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ". Esta pirámide de seis niveles representa un cambio significativo en el diseño de las tumbas reales, alejándose "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "00000000000b"
+              ],
+              "text": "de las mastabas"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": " de techo plano tradicionales hacia una forma más ambiciosa que se convertiría en el prototipo de todas las futuras pirámides de Egipto. Alrededor de la Pirámide Escalonada hay un vasto complejo mortuorio que incluye patios, templos y altares, lo que refleja la importancia de los rituales religiosos para asegurar el viaje "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "del faraón"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": " hacia el más allá."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000008",
+              "_type": "externalLink",
+              "href": "https://es.wikipedia.org/wiki/Imhotep",
+              "newTab": true
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-guiza/la-mastaba-de-ptahshepses-en-abusir/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/faraones-del-reino-medio-logros-y-legado/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "Más allá de la pirámide de Djoser, Saqqara alberga varias otras pirámides reales, incluidas "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "000000000013"
+              ],
+              "text": "las pirámides"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " de Unas, Teti y Pepi I, cada una con una importancia histórica única. La Pirámide de Unas es especialmente famosa por sus Textos de las Pirámides, la colección de escritos religiosos más antigua encontrada en cualquier pirámide egipcia, inscritos en las paredes de la cámara funeraria para ayudar a guiar el alma "
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "000000000016"
+              ],
+              "text": "del faraón en el más allá"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": ". Estos textos son algunas de las primeras literaturas religiosas del mundo y más tarde influirían en las prácticas funerarias durante todo "
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "000000000019"
+              ],
+              "text": "el Reino"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": " Antiguo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000013",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-88093",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000016",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viajes-de-baris/mas-alla-del-espejismo-en-baris/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000019",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/reyes-del-antiguo-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "La necrópolis también cuenta con una amplia gama "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "00000000001e"
+              ],
+              "text": "de tumbas mastabas"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": ", que eran utilizadas por altos funcionarios y la nobleza. Estas tumbas, como la Tumba de Mereruka y la Tumba de Ti, presentan relieves y pinturas bellamente conservados que representan escenas de la vida cotidiana en "
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "000000000021"
+              ],
+              "text": "el antiguo Egipto"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": ", desde la agricultura y la pesca hasta banquetes elaborados y rituales religiosos. Estas tumbas proporcionan conocimientos invaluables sobre "
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "000000000024"
+              ],
+              "text": "la vida de"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": " la élite egipcia y sus creencias sobre el más allá."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/necropolis-de-meidum/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000021",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/hoteles-historicos-en-egipto-donde-la-historia-se-encuentra-con-el-lujo/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000024",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.asyut.the-necropolis-of-meir",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Uno de los edificios más intrigantes dentro de Saqqara es el Serapeum, un grandioso complejo subterráneo de enterramiento para los toros sagrados Apis, adorados "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "000000000029"
+              ],
+              "text": "como manifestaciones terrenales del"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": " dios Ptah. Los toros Apis eran momificados y enterrados en enormes sarcófagos de piedra, algunos de los cuales pesan hasta 70 toneladas, dentro de este vasto laberinto subterráneo. Descubierto en el siglo XIX por el arqueólogo francés Auguste Mariette, el "
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "00000000002c"
+              ],
+              "text": "Serapeum"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": " destaca la importancia religiosa y cultural del culto a los animales en el antiguo Egipto."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000029",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-hurghada/ideas-para-llegar/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/el-templo-del-serapeum/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Además de sus monumentos antiguos, Saqqara sigue siendo un sitio de "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "000000000031"
+              ],
+              "text": "descubrimiento"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " arqueológico activo. En los últimos años, las excavaciones han revelado hallazgos increíbles, incluidas momias bien conservadas, tumbas y estatuas que ofrecen nuevas perspectivas sobre las prácticas religiosas, los rituales funerarios y la vida cotidiana en el antiguo "
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [
+                "000000000034"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000031",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-rosetta-rasheed/descubrimientos/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000034",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/propinas-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "La Necrópolis de Saqqara, con su abundancia de tesoros históricos y arquitectónicos, sigue siendo uno de los sitios arqueológicos más importantes "
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [
+                "000000000039"
+              ],
+              "text": "y cautivadores de Egipto"
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": ". Desde la innovadora Pirámide Escalonada de Djoser hasta la rica variedad de tumbas, pirámides y complejos funerarios, Saqqara encapsula la grandeza y el misterio de la civilización egipcia. Se erige como un testimonio atemporal del legado perdurable de Egipto, atrayendo tanto a "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "00000000003c"
+              ],
+              "text": "visitantes"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " como a académicos a descubrir sus secretos."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000039",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/10-dias-por-egipto-y-el-nilo/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "PRESENTACIÓN DE GIZA"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [
+                "000000000042"
+              ],
+              "text": "Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000042",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-historia-de-guiza/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "000000000045"
+              ],
+              "text": "El tiempo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000045",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guiza-y-su-clima/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "PLANIFICA TU VIAJE"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [
+                "00000000004a"
+              ],
+              "text": "Cómo ir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-llegar-a-giza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "00000000004d"
+              ],
+              "text": "Dónde alojarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/donde-dormir-en-de-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "MIENTRAS ESTÉS ALLÍ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [
+                "000000000052"
+              ],
+              "text": "Cómo desplazarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000052",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-moverse-en-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [
+                "000000000055"
+              ],
+              "text": "Cosas que hacer"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000055",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/cosas-que-hacer-en-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "LUGARES DONDE IR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [
+                "00000000005a"
+              ],
+              "text": "Necrópolis de Dahshur"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/necropolis-de-dahshur/dahshur-necropolis-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [
+                "00000000005d"
+              ],
+              "text": "La Pirámide del Norte"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-piramide-del-norte/the-northern-pyramid-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [
+                "000000000060"
+              ],
+              "text": "La pirámide de Khaba"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000060",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-piramide-de-khaba/the-pyramid-of-khaba-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [
+                "000000000063"
+              ],
+              "text": "La pirámide doblada"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000063",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/home/the-bent-pyramid-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [
+                "000000000066"
+              ],
+              "text": "La Pirámide Roja"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000066",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-69918",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [
+                "000000000069"
+              ],
+              "text": "La Pirámide Negra"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000069",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-piramide-negra/the-black-pyramid-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [
+                "00000000006c"
+              ],
+              "text": "La Pirámide Blanca"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-piramide-blanca/the-white-pyramid-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [
+                "00000000006f"
+              ],
+              "text": "La meseta de Guiza"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-meseta-de-guiza/the-giza-plateau-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000074",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [
+                "000000000072"
+              ],
+              "text": "Pirámide de Jufu"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000072",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/piramide-de-jufu/pyramid-of-khufu-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [
+                "000000000075"
+              ],
+              "text": "Pirámide de Jafre"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000075",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/piramide-de-jafre/pyramid-of-khafre-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [
+                "000000000078"
+              ],
+              "text": "Pirámide de Menkaure"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000078",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/piramide-de-menkaure/pyramid-of-menkaure-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [
+                "00000000007b"
+              ],
+              "text": "La Gran Esfinge"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-gran-esfinge/the-great-sphinx-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000080",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [
+                "00000000007e"
+              ],
+              "text": "El Museo del Barco Solar"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-museo-del-barco-solar/the-solar-boat-museum-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [
+                "000000000081"
+              ],
+              "text": "Espectáculo de Luz y Sonido de Giza"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000081",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/espectaculo-de-luz-y-sonido-de-giza/the-giza-sound-and-light-show-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000086",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [
+                "000000000084"
+              ],
+              "text": "Necrópolis de Abusir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000084",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/necropolis-de-abusir/abusir-necropolis-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [
+                "000000000087"
+              ],
+              "text": "Pirámide Abusir de Neferirkare"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000087",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/piramide-abusir-de-neferirkare/abusir-pyramid-of-neferirkare-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [
+                "00000000008a"
+              ],
+              "text": "Pyramid Of Niuserre"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/piramide-abusir-de-niuserre/abusir-pyramid-of-niuserre-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [
+                "00000000008d"
+              ],
+              "text": "Pyramid Of Khentkawes"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-69931",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000092",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000091",
+              "_type": "span",
+              "marks": [
+                "000000000090"
+              ],
+              "text": "Pyramid Of Sahure"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000090",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/piramide-abusir-de-sahure/abusir-pyramid-of-sahure-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000095",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [
+                "000000000093"
+              ],
+              "text": "The Mastaba Of Ptahshepses "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000093",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-mastaba-de-ptahshepses-en-abusir/the-mastaba-of-ptahshepses-at-abusir-3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000098",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [
+                "000000000096"
+              ],
+              "text": "Pirámides de Zawyet El-Aryan"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000096",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/piramides-de-zawyet-el-aryan/pyramids-of-zawyet-el-aryan-3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [
+                "000000000099"
+              ],
+              "text": "Pyramid Of Djedefre"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000099",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-69954",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009d",
+              "_type": "span",
+              "marks": [
+                "00000000009c"
+              ],
+              "text": "Saqqara {Sakkara}"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/giza-travel-guide/saqqara-sakkara/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [
+                "00000000009f"
+              ],
+              "text": "La necrópolis de Saqqara"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-necropolis-de-saqqara/the-saqqara-necropolis-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a3",
+              "_type": "span",
+              "marks": [
+                "0000000000a2"
+              ],
+              "text": "Tumba del general Horemheb"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a2",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/tumba-del-general-horemheb/tomb-of-general-horemheb-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [
+                "0000000000a5"
+              ],
+              "text": "Tumba de Mereruka"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a5",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/tumba-de-mereruka/tomb-of-mereruka-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000aa",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [
+                "0000000000a8"
+              ],
+              "text": "Museo Imhotep"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a8",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/museo-imhotep/imhotep-museum-3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [
+                "0000000000ab"
+              ],
+              "text": "Menfis – La Ciudad Antigua"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000ab",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/menfis-la-ciudad-antigua/memphis-the-ancient-city-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [
+                "0000000000ae"
+              ],
+              "text": "Memphis {Museo Mit Rahina}"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000ae",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/memphis-museo-mit-rahina/memphis-mit-rahina-museum-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b1",
+              "_type": "span",
+              "marks": [],
+              "text": "OTROS"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b4",
+              "_type": "span",
+              "marks": [
+                "0000000000b3"
+              ],
+              "text": "Visitas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b3",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/los-mejores-recorridos-en-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b7",
+              "_type": "span",
+              "marks": [
+                "0000000000b6"
+              ],
+              "text": "Alimentación"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b6",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/comer-en-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [
+                "0000000000b9"
+              ],
+              "text": "Sólo aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b9",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/solo-en-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bc",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/32.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Three ancient pyramids rising from the desert sands under a clear blue sky in Giza, Egypt"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Las grandes pirámides de Giza: un testamento a las maravillas antiguas"
+            }
+          ]
+        },
+        {
+          "_key": "0000000000bd",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/History-of-the-Red-Pyramid-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up view of the Red Pyramid's textured stone surface under a clear blue sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "La pirámide roja - un testamento de ingeniería antigua, que se mantiene resistente desde alrededor del 2600 aC"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "サッカラ・ネクロポリス：エジプトが誇る時を超えた死後の世界への門"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "サッカラ・ネクロポリス：エジプトが誇る時を超えた死後の世界への門"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "サッカラ・ネクロポリスは、古代エジプトにおいて最も重要かつ広大な埋葬地の一つであり、古王国時代の首都メンフィスに仕えた王族や高官たちの墓所として機能していました。この広大な遺跡は数キロにわたって広がり、初期王朝時代からグレコ・ローマ時代に至るまで、3,000年以上にわたるエジプトの歴史を今に伝えています。なかでも最も有名なのが、世界最古の石造建築物であるジョセル王の階段ピラミッドですが、それだけでなく、数々の墓やピラミッド、出土品が、エジプトの宗教・文化の変遷を物語る貴重な証拠となっています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "階段ピラミッド：建築の革命"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "サッカラで最も象徴的な建造物は、紀元前2670年頃にジョセル王のために築かれた階段ピラミッドです。この六段構造のピラミッドは、天才建築家イムホテプによって設計され、古代エジプトにおける王墓の設計に革命をもたらしました。従来の平坦なマスタバ（台状墓）から、より高く天を目指す階層構造への移行は、後のすべてのピラミッド建設の原型となったのです。ピラミッドを囲む広大な葬祭複合体には、中庭や神殿、祭壇が設けられ、ファラオの死後の旅を支える宗教儀式の重要性を示しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "王のピラミッド群とピラミッド・テキスト"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "ジョセルのピラミッドのほかにも、ウナス王、テティ王、ペピ1世などの王たちのピラミッドがサッカラに存在します。なかでもウナス王のピラミッドは、ピラミッド・テキスト（世界最古の宗教文書）が壁面に刻まれていることで知られています。これらのテキストはファラオの魂を来世へ導くための呪文であり、古王国時代の葬送信仰に大きな影響を与えました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "貴族のマスタバ墓：日常生活の記録"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "サッカラには王族だけでなく、高官や貴族たちのマスタバ墓も数多く存在します。たとえば、メルエルカやティの墓は、驚くほど保存状態の良い浮彫や彩色画で有名です。そこには、農作業、漁業、宴会、儀式など古代エジプトの日常が生き生きと描かれており、当時の社会構造や信仰、文化についての貴重な洞察を与えてくれます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "セラペウム：神聖なるアピス牛の眠る場所"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "サッカラでも特に興味深い遺構の一つがセラペウムです。ここは、神プタハの化身とされた神聖なアピス牛のための地下埋葬施設で、巨大な石棺に包まれたミイラ化された牛が安置されていました。19世紀にフランスの考古学者オーギュスト・マリエットによって発見されたこの場所は、古代エジプトにおける動物崇拝の宗教的重要性を物語っています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "現代に続く発見と研究"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "サッカラは現在でも活発な発掘が行われている遺跡であり、近年では保存状態の良いミイラや彩色された木棺、像、葬祭用品などの新たな出土品が相次いで発見されています。これらの成果は、古代エジプトの宗教観、埋葬習慣、社会生活についての理解をさらに深めています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "サッカラ・ネクロポリスは、古代エジプト文明の壮麗さと神秘を今に伝える時の宝庫です。"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "階段ピラミッドをはじめとする建築遺産、王や高官の墓、神聖な動物の埋葬施設などが一堂に会し、訪れる者を遥かなる過去へと誘います。サッカラは、ただの遺跡ではなく、エジプトが築き上げた偉大なる文化遺産そのものであり、その静けさの中に数千年の歴史が息づいているのです。歴史愛好家、学者、旅人にとって、サッカラは決して見逃せない場所であり、エジプト文明の核心に触れる特別な旅へと導いてくれるでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "ギザの紹介"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "000000000020"
+              ],
+              "text": "歴史"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000020",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/歴史に彩られたギザの街並み/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "000000000023"
+              ],
+              "text": "天気"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000023",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e3%81%ae%e5%a4%a9%e6%b0%97%e3%81%af%e4%bb%8a%e3%81%a9%e3%81%86/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行の計画"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "000000000028"
+              ],
+              "text": "行き方"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000028",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e3%81%b8%e3%81%ae%e8%a1%8c%e3%81%8d%e6%96%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "00000000002b"
+              ],
+              "text": "宿泊先"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ギザの宿泊エリアを紹介/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "滞在中に"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "000000000030"
+              ],
+              "text": "現地での移動方法"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000030",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ギザへの交通ルート/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "000000000033"
+              ],
+              "text": "おすすめのアクティビティ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000033",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/その先のアクティビティ/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "ダハシュールのネクロポリス"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000038",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%80%e3%83%8f%e3%82%b7%e3%83%a5%e3%83%bc%e3%83%ab%e3%81%ae%e3%83%8d%e3%82%af%e3%83%ad%e3%83%9d%e3%83%aa%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "北のピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8c%97%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "00000000003e"
+              ],
+              "text": "カバのピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8f%e3%83%90%e7%8e%8b%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "000000000041"
+              ],
+              "text": "屈曲ピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000041",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%b1%88%e6%8a%98%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "000000000044"
+              ],
+              "text": "赤いピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000044",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%b5%a4%e3%81%84%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "000000000047"
+              ],
+              "text": "黒いピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000047",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e9%bb%92%e3%81%84%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [
+                "00000000004a"
+              ],
+              "text": "白いピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%99%bd%e3%81%84%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "00000000004d"
+              ],
+              "text": "ギザ台地"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ae%e3%82%b6%e9%ab%98%e5%8e%9f/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000052",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [
+                "000000000050"
+              ],
+              "text": "クフ王のピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000050",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%af%e3%83%95%e7%8e%8b%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [
+                "000000000053"
+              ],
+              "text": "カフラー王のピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000053",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%83%95%e3%83%a9%e3%83%bc%e7%8e%8b%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000058",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "000000000056"
+              ],
+              "text": "メンカウラー王のピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000056",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a1%e3%83%b3%e3%82%ab%e3%82%a6%e3%83%a9%e3%83%bc%e7%8e%8b%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [
+                "000000000059"
+              ],
+              "text": "大スフィンクス"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000059",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%a4%a7%e3%82%b9%e3%83%95%e3%82%a3%e3%83%b3%e3%82%af%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [
+                "00000000005c"
+              ],
+              "text": "太陽の船博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%a4%aa%e9%99%bd%e3%81%ae%e8%88%b9%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": "ギザの音と光のショー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ae%e3%82%b6%e3%81%ae%e9%9f%b3%e3%81%a8%e5%85%89%e3%81%ae%e3%82%b7%e3%83%a7%e3%83%bc/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [
+                "000000000062"
+              ],
+              "text": "ネフェリルカレのピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000062",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%82%b7%e3%83%bc%e3%83%ab%e3%81%ae%e3%83%8d%e3%82%af%e3%83%ad%e3%83%9d%e3%83%aa%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [
+                "000000000065"
+              ],
+              "text": "ニウセルラーのピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000065",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%82%b7%e3%83%bc%e3%83%ab%e3%81%ab%e3%81%82%e3%82%8b%e3%83%8d%e3%83%95%e3%82%a7%e3%83%aa%e3%83%ab%e3%82%ab%e3%83%a9%e3%83%bc%e7%8e%8b%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [
+                "000000000068"
+              ],
+              "text": "ケントカウェスのピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000068",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%82%b7%e3%83%bc%e3%83%ab%e3%81%ab%e3%81%82%e3%82%8b%e3%83%8b%e3%82%a6%e3%82%bb%e3%83%ab%e3%83%a9%e3%83%bc%e7%8e%8b%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [
+                "00000000006b"
+              ],
+              "text": "サフラーのピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%82%b7%e3%83%bc%e3%83%ab%e3%81%ab%e3%81%82%e3%82%8b%e3%83%8b%e3%82%a6%e3%82%bb%e3%83%ab%e3%83%a9%e3%83%bc%e7%8e%8b%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [
+                "00000000006e"
+              ],
+              "text": "プタハシェプセスのマスタバ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%82%b7%e3%83%bc%e3%83%ab%e3%81%ab%e3%81%82%e3%82%8b%e3%82%b1%e3%83%b3%e3%83%88%e3%82%ab%e3%82%a6%e3%82%a8%e3%82%b9%e7%8e%8b%e5%a6%83%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "ザウィエト・エル・アリアン"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000071",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b6%e3%82%a6%e3%82%a3%e3%82%a8%e3%83%88%e3%83%bb%e3%82%a8%e3%83%ab%e3%83%bb%e3%82%a2%e3%83%aa%e3%82%a2%e3%83%b3%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [
+                "000000000074"
+              ],
+              "text": "ジェドエフラーのピラミッド"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000074",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%83%bb%e3%83%ad%e3%82%a2%e3%82%b7%e3%83%a5%ef%bc%9a%e3%82%b8%e3%82%a7%e3%83%87%e3%83%95%e3%83%a9%e3%83%bc%e7%8e%8b%e3%81%ae%e3%83%94%e3%83%a9%e3%83%9f%e3%83%83%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [
+                "000000000077"
+              ],
+              "text": "サッカラ{サッカラ}"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000077",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%83%e3%82%ab%e3%83%a9%ef%bc%88%e3%82%b5%e3%83%83%e3%82%ab%e3%83%a9%e9%81%ba%e8%b7%a1%ef%bc%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [
+                "00000000007a"
+              ],
+              "text": "サッカラのネクロポリス"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b5%e3%83%83%e3%82%ab%e3%83%a9%e3%83%bb%e3%83%8d%e3%82%af%e3%83%ad%e3%83%9d%e3%83%aa%e3%82%b9%ef%bc%88%e3%82%b5%e3%83%83%e3%82%ab%e3%83%a9%e3%81%ae%e5%a2%93%e5%9c%b0%e9%81%ba%e8%b7%a1%ef%bc%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [
+                "00000000007d"
+              ],
+              "text": "ホルレムヘブ将軍の墓"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%9b%e3%83%ab%e3%82%a8%e3%83%a0%e3%83%98%e3%83%96%e5%b0%86%e8%bb%8d%e3%81%ae%e5%a2%93/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000082",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [
+                "000000000080"
+              ],
+              "text": "メレルカの墓"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000080",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a1%e3%83%ab%e3%82%a8%e3%83%ab%e3%82%ab%e3%81%ae%e5%a2%93/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000085",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [
+                "000000000083"
+              ],
+              "text": "イムホテプ博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000083",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%a0%e3%83%9b%e3%83%86%e3%83%97%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000088",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [
+                "000000000086"
+              ],
+              "text": "メンフィス – 古代都市"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000086",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%8f%a4%e4%bb%a3%e9%83%bd%e5%b8%82%e3%83%a1%e3%83%b3%e3%83%95%e3%82%a3%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [
+                "000000000089"
+              ],
+              "text": "メンフィス {ミット・ラヒナ博物館}"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000089",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%a1%e3%83%b3%e3%83%95%e3%82%a3%e3%82%b9-%e3%83%9f%e3%83%88%e3%83%a9%e3%83%92%e3%83%8a%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": "その他"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000090",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [
+                "00000000008e"
+              ],
+              "text": "ツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ae%e3%82%b6-%e3%83%84%e3%82%a2%e3%83%bc/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [
+                "000000000091"
+              ],
+              "text": "食べ物"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000091",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%b0%e3%83%ab%e3%83%a1%e3%83%80%e3%82%a4%e3%83%8b%e3%83%b3%e3%82%b0/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000096",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [
+                "000000000094"
+              ],
+              "text": "ここだけ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000094",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ae%e3%82%b6%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e6%96%b0%e3%81%9f%e3%81%aa%e4%bd%93%e9%a8%93%e3%81%ae%e6%89%89%e3%82%92%e9%96%8b%e3%81%8f/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000097",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Giza-City-Trips-in-Egypt-2.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Image of the Great Sphinx of Giza with the Pyramids in the background under a clear blue sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "「謎に包まれたスフィンクス、古代エジプトの永遠の守護者。」"
+            }
+          ]
+        },
+        {
+          "_key": "000000000098",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/32.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Three ancient pyramids rising from the desert sands under a clear blue sky in Giza, Egypt"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "「ギザの大ピラミッド：古代の驚異の証」"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "city": {
+    "_ref": "wp-page-58854",
+    "_type": "reference"
+  },
+  "migration": {
+    "migratedAt": "2026-05-07T11:13:12.637Z",
+    "reviewFlag": "superseded-by-guideArticle",
+    "source": "wp-import",
+    "supersededAt": "2026-05-20T15:23:40.818Z",
+    "supersededBy": "guideArticle.giza.the-saqqara-necropolis",
+    "wpId": 69956,
+    "wpModifiedAt": "2025-07-24T09:17:28",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/the-saqqara-necropolis/"
+  },
+  "monumentType": "archaeological-site",
+  "name": [
+    {
+      "_key": "en",
+      "value": "The Saqqara Necropolis"
+    },
+    {
+      "_key": "es",
+      "value": "La necrópolis de Saqqara"
+    },
+    {
+      "_key": "ja",
+      "value": "サッカラ・ネクロポリス（サッカラの墓地遺跡）"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "the-saqqara-necropolis"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "la-necropolis-de-saqqara"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "サッカラ・ネクロポリス（サッカラの墓地遺跡）"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "The Saqqara Necropolis: Egypt s Timeless Gateway to the Afterlife The Saqqara Necropolis is one of the most significant and expansive burial grounds in ancient Egypt, serving as the royal and elite cemetery for the ancient city of Memphis, "
+    },
+    {
+      "_key": "es",
+      "value": "La Necrópolis de Saqqara: La Puerta Atemporal de Egipto hacia el Más Allá La Necrópolis de Saqqara es uno de los cementerios más significativos y extensos del antiguo Egipto, que sirvió como el cementerio real y de élite para la antigua ciu"
+    },
+    {
+      "_key": "ja",
+      "value": "サッカラ・ネクロポリス：エジプトが誇る時を超えた死後の世界への門 サッカラ・ネクロポリス：エジプトが誇る時を超えた死後の世界への門 サッカラ・ネクロポリスは、古代エジプトにおいて最も重要かつ広大な埋葬地の一つであり、古王国時代の首都メンフィスに仕えた王族や高官たちの墓所として機能していました。この広大な遺跡は数キロにわたって広がり、初期王朝時代からグレコ・ローマ時代に至るまで、3,000年以上にわたるエジプトの歴史を今に伝えています。なかでも最も有名なのが、世界最古の石造建築"
+    }
+  ]
+}

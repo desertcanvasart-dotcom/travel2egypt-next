@@ -1,0 +1,181 @@
+task,role,brief_url,locale,url,sanity_id,exists,draft_exists,status_code,redirects_to,notes
+6,source,/blog/traveling-to-egypt-in-the-time-of-coronavirus,en,/blog/traveling-to-egypt-in-the-time-of-coronavirus,wp-post-56116-en,published,no,200,,"translation.metadata: tmeta-wp-post-56116, translation.metadata.wp-post-56116"
+6,source,/blog/traveling-to-egypt-in-the-time-of-coronavirus,es,/es/blog/viajar-a-egipto-en-tiempos-del-coronavirus,wp-post-144335-es,published,no,200,,"translation.metadata: tmeta-wp-post-56116, translation.metadata.wp-post-56116"
+6,source,/blog/traveling-to-egypt-in-the-time-of-coronavirus,ja,/ja/blog/pandemikku-go-no-ejiputo-ryoko-de-shitte-oku-koto,wp-post-161800-ja,published,no,200,,"translation.metadata: tmeta-wp-post-56116, translation.metadata.wp-post-56116"
+6,target,/travel-tips/passport-and-visa,en,/travel-tips/passport-and-visa,wp-page-60911,published,no,200,,
+6,target,/travel-tips/passport-and-visa,es,/es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas,wp-page-60911,published,no,200,,
+6,target,/travel-tips/passport-and-visa,ja,/ja/travel-tips/ejiputo-nyukoku-gaido,wp-page-60911,published,no,200,,
+7,source,/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt,en,/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt,wp-post-152484-en,published,no,200,,"translation.metadata: tmeta-wp-post-152484, translation.metadata.wp-post-152484"
+7,source,/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt,es,/es/blog/sim-para-viajar-a-egipto,wp-post-154956-es,published,no,200,,"translation.metadata: tmeta-wp-post-152484, translation.metadata.wp-post-152484"
+7,source,/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt,ja,/ja/blog/ejiputo-ryoko-no-sim-kado,wp-post-170205-ja,published,no,200,,"translation.metadata: tmeta-wp-post-152484, translation.metadata.wp-post-152484"
+7,source,/travel-tips/telephones-in-egypt,en,/travel-tips/telephones-in-egypt,wp-page-60914,published,no,308,/travel-tips/staying-connected-in-egypt,
+7,source,/travel-tips/telephones-in-egypt,es,/es/travel-tips/telefonos-en-egipto,wp-page-60914,published,no,200,,
+7,source,/travel-tips/telephones-in-egypt,ja,/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite,wp-page-60914,published,no,200,,
+7,target,/travel-tips/staying-connected-in-egypt,en,/travel-tips/staying-connected-in-egypt,travelTip.staying-connected-in-egypt,published,no,200,,
+7,target,/travel-tips/staying-connected-in-egypt,es,/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas,travelTip.staying-connected-in-egypt,published,no,200,,
+7,target,/travel-tips/staying-connected-in-egypt,ja,/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido,travelTip.staying-connected-in-egypt,published,no,200,,
+14,source,/blog/egypt-holiday-deals,en,/blog/egypt-holiday-deals,wp-post-1463-en,published,no,200,,"translation.metadata: tmeta-wp-post-1463, translation.metadata.wp-post-1463"
+14,source,/blog/egypt-holiday-deals,es,/es/blog/ofertas-de-vacaciones-en-egipto,wp-post-144317-es,published,no,200,,"translation.metadata: tmeta-wp-post-1463, translation.metadata.wp-post-1463"
+14,source,/blog/egypt-holiday-deals,ja,/ja/blog/ejiputo-no-horide-puran,wp-post-161806-ja,published,no,200,,"translation.metadata: tmeta-wp-post-1463, translation.metadata.wp-post-1463"
+14,target,/egypt-travel-packages,en,/egypt-travel-packages,,code route,,200,,static route (src/i18n/routing.ts)
+14,target,/egypt-travel-packages,es,/es/paquetes-de-viaje-a-egipto,,code route,,200,,static route (src/i18n/routing.ts)
+14,target,/egypt-travel-packages,ja,/ja/ejiputo-ryoko-pakkeeji,,code route,,200,,static route (src/i18n/routing.ts)
+14,source,/blog/vacation-in-egypt,en,/blog/vacation-in-egypt,wp-post-1425-en,published,no,200,,"translation.metadata: tmeta-wp-post-1425, translation.metadata.wp-post-1425"
+14,source,/blog/vacation-in-egypt,es,/es/blog/vacaciones-inolvidables-en-egipto,wp-post-144328-es,published,no,200,,"translation.metadata: tmeta-wp-post-1425, translation.metadata.wp-post-1425"
+14,source,/blog/vacation-in-egypt,ja,/ja/blog/ejiputo-de-kyuka-o-sugosu-nara,wp-post-162340-ja,published,no,200,,"translation.metadata: tmeta-wp-post-1425, translation.metadata.wp-post-1425"
+14,target,/journeys/first-time-in-egypt,en,/journeys/first-time-in-egypt,,code route,,200,,static route (src/i18n/routing.ts)
+14,target,/journeys/first-time-in-egypt,es,/es/journeys/primera-vez-en-egipto,,code route,,200,,static route (src/i18n/routing.ts)
+14,target,/journeys/first-time-in-egypt,ja,/ja/journeys/hajimete-no-ejiputo,,code route,,200,,static route (src/i18n/routing.ts)
+14,source,/blog/best-places-to-visit-in-egypt,en,/blog/best-places-to-visit-in-egypt,wp-post-1465-en,published,no,200,,"translation.metadata: tmeta-wp-post-1465, translation.metadata.wp-post-1465"
+14,source,/blog/best-places-to-visit-in-egypt,es,/es/blog/los-mejores-lugares-que-visitar-en-egipto,wp-post-144331-es,published,no,200,,"translation.metadata: tmeta-wp-post-1465, translation.metadata.wp-post-1465"
+14,source,/blog/best-places-to-visit-in-egypt,ja,/ja/blog/ejiputo-de-otozureru-beki-basho,wp-post-249409-ja,published,no,200,,"translation.metadata: tmeta-wp-post-1465, translation.metadata.wp-post-1465"
+14,target,/guide,en,/guide,,code route,,200,,static route (src/i18n/routing.ts)
+14,target,/guide,es,/es/guide,,code route,,200,,static route (src/i18n/routing.ts)
+14,target,/guide,ja,/ja/guide,,code route,,200,,static route (src/i18n/routing.ts)
+14,source,/blog/places-in-egypt,en,/blog/places-in-egypt,wp-post-102748-en,published,no,200,,"translation.metadata: tmeta-wp-post-102748, translation.metadata.wp-post-102748"
+14,source,/blog/places-in-egypt,es,/es/blog/historicos-de-egipto,wp-post-144341-es,published,no,200,,"translation.metadata: tmeta-wp-post-102748, translation.metadata.wp-post-102748"
+14,source,/blog/places-in-egypt,ja,/ja/blog/ejiputo-de-otozureru-beki-rekishi-teki-na-basho,wp-post-164405-ja,published,no,200,,"translation.metadata: tmeta-wp-post-102748, translation.metadata.wp-post-102748"
+14,source,/blog/touring-egypt,en,/blog/touring-egypt,wp-post-1409-en,published,no,200,,"translation.metadata: tmeta-wp-post-1409, translation.metadata.wp-post-1409"
+14,source,/blog/touring-egypt,es,/es/blog/la-mejor-experiencia-en-tours-por-egipto,wp-post-144315-es,published,no,200,,"translation.metadata: tmeta-wp-post-1409, translation.metadata.wp-post-1409"
+14,source,/blog/touring-egypt,ja,/ja/blog/hajimete-ejiputo-o-tabi-suru-hito-e,wp-post-209531-ja,published,no,200,,"translation.metadata: tmeta-wp-post-1409, translation.metadata.wp-post-1409"
+16,source,/blog/7-unforgettable-to-do-in-aswan,en,/blog/7-unforgettable-to-do-in-aswan,wp-post-98766-en,published,no,200,,"translation.metadata: tmeta-wp-post-98766, translation.metadata.wp-post-98766"
+16,source,/blog/7-unforgettable-to-do-in-aswan,es,/es/blog/7-cosas-inolvidables-que-hacer-en-aswan,wp-post-144324-es,published,no,200,,"translation.metadata: tmeta-wp-post-98766, translation.metadata.wp-post-98766"
+16,source,/blog/7-unforgettable-to-do-in-aswan,ja,/ja/blog/asuwan-de-nani-o-suru-beki-ka,wp-post-164347-ja,published,no,200,,"translation.metadata: tmeta-wp-post-98766, translation.metadata.wp-post-98766"
+16,target,/guide/aswan,en,/guide/aswan,wp-page-58758,published,yes,200,,
+16,target,/guide/aswan,es,/es/guide/asuan,wp-page-58758,published,yes,200,,
+16,target,/guide/aswan,ja,/ja/guide/asuwan,wp-page-58758,published,yes,200,,
+16,source,/blog/places-to-visit-in-aswan,en,/blog/places-to-visit-in-aswan,wp-post-98344-en,published,no,200,,"translation.metadata: tmeta-wp-post-98344, translation.metadata.wp-post-98344"
+16,source,/blog/places-to-visit-in-aswan,es,/es/blog/categoria-para-visitar-en-aswan,wp-post-144339-es,published,no,200,,"translation.metadata: tmeta-wp-post-98344, translation.metadata.wp-post-98344"
+16,source,/blog/places-to-visit-in-aswan,ja,/ja/blog/asuwan-de-otozureru-beki-basho,wp-post-164328-ja,published,no,200,,"translation.metadata: tmeta-wp-post-98344, translation.metadata.wp-post-98344"
+16,source,/blog/top-things-to-do-in-luxor-egypt,en,/blog/top-things-to-do-in-luxor-egypt,wp-post-133058-en,published,no,200,,"translation.metadata: tmeta-wp-post-133058, translation.metadata.wp-post-133058"
+16,source,/blog/top-things-to-do-in-luxor-egypt,es,/es/blog/lo-mejor-que-hacer-en-luxor,wp-post-144455-es,published,no,200,,"translation.metadata: tmeta-wp-post-133058, translation.metadata.wp-post-133058"
+16,source,/blog/top-things-to-do-in-luxor-egypt,ja,/ja/blog/rukusoru-de-miru-beki-basho-to-sugoshi-kata,wp-post-170277-ja,published,no,200,,"translation.metadata: tmeta-wp-post-133058, translation.metadata.wp-post-133058"
+16,target,/guide/luxor/what-to-do-in-luxor,en,/guide/luxor/what-to-do-in-luxor,wp-page-60648,published,no,200,,
+16,target,/guide/luxor/what-to-do-in-luxor,es,/es/guide/luxor/que-hacer-en-luxor,wp-page-60648,published,no,200,,
+16,target,/guide/luxor/what-to-do-in-luxor,ja,/ja/guide/rukusoru/rukusoru-no-akutibiti,wp-page-60648,published,no,200,,
+16,source,/blog/33-amazing-things-to-do-in-hurghada,en,/blog/33-amazing-things-to-do-in-hurghada,wp-post-103645-en,published,no,200,,"translation.metadata: tmeta-wp-post-103645, translation.metadata.wp-post-103645"
+16,source,/blog/33-amazing-things-to-do-in-hurghada,es,/es/blog/cosas-increibles-que-hacer-en-hurghada,wp-post-144340-es,published,no,200,,"translation.metadata: tmeta-wp-post-103645, translation.metadata.wp-post-103645"
+16,source,/blog/33-amazing-things-to-do-in-hurghada,ja,/ja/blog/harugada-de-nani-o-suru-beki-ka,wp-post-245129-ja,published,no,200,,"translation.metadata: tmeta-wp-post-103645, translation.metadata.wp-post-103645"
+16,target,/guide/hurghada,en,/guide/hurghada,wp-page-58859,published,no,200,,
+16,target,/guide/hurghada,es,/es/guide/hurghada,wp-page-58859,published,no,200,,
+16,target,/guide/hurghada,ja,/ja/guide/harugada,wp-page-58859,published,no,200,,
+16,source,/blog/top-adventures-things-to-do-in-sharm-el-sheikh,en,/blog/top-adventures-things-to-do-in-sharm-el-sheikh,wp-post-132479-en,published,no,200,,"translation.metadata: tmeta-wp-post-132479, translation.metadata.wp-post-132479"
+16,source,/blog/top-adventures-things-to-do-in-sharm-el-sheikh,es,/es/blog/cosas-que-hacer-en-sharm-el-sheikh,wp-post-144425-es,published,no,200,,"translation.metadata: tmeta-wp-post-132479, translation.metadata.wp-post-132479"
+16,source,/blog/top-adventures-things-to-do-in-sharm-el-sheikh,ja,/ja/blog/sharumuerusheiku-de-taiken-shi-tai-koto,wp-post-170243-ja,published,no,200,,"translation.metadata: tmeta-wp-post-132479, translation.metadata.wp-post-132479"
+16,target,/guide/sharm-el-sheikh,en,/guide/sharm-el-sheikh,wp-page-58927,published,no,200,,
+16,target,/guide/sharm-el-sheikh,es,/es/guide/sharm-el-sheikh,wp-page-58927,published,no,200,,
+16,target,/guide/sharm-el-sheikh,ja,/ja/guide/sharumu-eru-sheiku,wp-page-58927,published,no,200,,
+17,source,/blog/egypt-weather-guide,en,/blog/egypt-weather-guide,wp-post-73355-en,published,no,200,,"translation.metadata: tmeta-wp-post-73355, translation.metadata.wp-post-73355"
+17,source,/blog/egypt-weather-guide,es,/es/blog/guia-del-tiempo-en-egipto,wp-post-143842-es,published,no,200,,"translation.metadata: tmeta-wp-post-73355, translation.metadata.wp-post-73355"
+17,source,/blog/egypt-weather-guide,ja,/ja/blog/ejiputo-no-tenko-gaido,wp-post-162707-ja,published,no,200,,"translation.metadata: tmeta-wp-post-73355, translation.metadata.wp-post-73355"
+17,target,/travel-tips/egypt-weather-guide,en,/travel-tips/egypt-weather-guide,travelTip.egypt-weather-guide,published,no,200,,
+17,target,/travel-tips/egypt-weather-guide,es,/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar,travelTip.egypt-weather-guide,published,no,200,,
+17,target,/travel-tips/egypt-weather-guide,ja,/ja/travel-tips/ejiputo-no-tenko-gaido,travelTip.egypt-weather-guide,published,no,200,,
+17,source,/blog/faux-pas-to-avoid-in-egypt,en,/blog/faux-pas-to-avoid-in-egypt,wp-post-1470-en,published,no,200,,"translation.metadata: tmeta-wp-post-1470, translation.metadata.wp-post-1470"
+17,source,/blog/faux-pas-to-avoid-in-egypt,es,/es/blog/pasos-en-falso-que-debes-evitar-en-egipto,wp-post-144334-es,published,no,200,,"translation.metadata: tmeta-wp-post-1470, translation.metadata.wp-post-1470"
+17,source,/blog/faux-pas-to-avoid-in-egypt,ja,/ja/blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni,wp-post-162348-ja,published,no,200,,"translation.metadata: tmeta-wp-post-1470, translation.metadata.wp-post-1470"
+17,target,/travel-tips/cultural-etiquette-in-egypt,en,/travel-tips/cultural-etiquette-in-egypt,wp-page-73387,published,yes,200,,
+17,target,/travel-tips/cultural-etiquette-in-egypt,es,/es/travel-tips/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria,wp-page-73387,published,yes,200,,
+17,target,/travel-tips/cultural-etiquette-in-egypt,ja,/ja/travel-tips/ejiputo-no-bunka-mana,wp-page-73387,published,yes,200,,
+17,source,/blog/local-hospitals-in-egypt,en,/blog/local-hospitals-in-egypt,wp-post-153089-en,published,no,200,,"translation.metadata: tmeta-wp-post-153089, translation.metadata.wp-post-153089"
+17,source,/blog/local-hospitals-in-egypt,es,/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica,wp-post-154663-es,published,no,200,,"translation.metadata: tmeta-wp-post-153089, translation.metadata.wp-post-153089"
+17,source,/blog/local-hospitals-in-egypt,ja,/ja/blog/ejiputo-de-byoin-ni-iku-koto-ni-nattara,wp-post-167203-ja,published,no,200,,"translation.metadata: tmeta-wp-post-153089, translation.metadata.wp-post-153089"
+17,target,/travel-tips/health-and-safety,en,/travel-tips/health-and-safety,wp-page-60908,published,no,200,,
+17,target,/travel-tips/health-and-safety,es,/es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero,wp-page-60908,published,no,200,,
+17,target,/travel-tips/health-and-safety,ja,/ja/travel-tips/ejiputo-no-kenko-to-anzen,wp-page-60908,published,no,200,,
+1,target,/blog/the-grand-egyptian-museum,en,/blog/the-grand-egyptian-museum,wp-post-216669-en,published,no,200,,"translation.metadata: tmeta-wp-post-216669, translation.metadata.wp-post-216669"
+1,target,/blog/the-grand-egyptian-museum,es,/es/blog/el-gran-museo-egipcio-la-puerta-monumental-de-egipto-al-pasado,wp-post-249194-es,published,no,200,,"translation.metadata: tmeta-wp-post-216669, translation.metadata.wp-post-216669"
+1,target,/blog/the-grand-egyptian-museum,ja,/ja/blog/dai-ejiputo-hakubutsukan,wp-post-249210-ja,published,no,200,,"translation.metadata: tmeta-wp-post-216669, translation.metadata.wp-post-216669"
+1,source,/blog/the-grand-egyptian-museum-2024-insider-guide,en,/blog/the-grand-egyptian-museum-2024-insider-guide,wp-post-131153-en,published,no,200,,"translation.metadata: tmeta-wp-post-131153, translation.metadata.wp-post-131153"
+1,source,/blog/the-grand-egyptian-museum-2024-insider-guide,es,/es/blog/gran-museo-egipcio,wp-post-144420-es,published,no,200,,"translation.metadata: tmeta-wp-post-131153, translation.metadata.wp-post-131153"
+1,source,/blog/the-grand-egyptian-museum-2024-insider-guide,ja,/ja/blog/dai-ejiputo-hakubutsukan-no-kengaku-gaido,wp-post-178100-ja,published,no,200,,"translation.metadata: tmeta-wp-post-131153, translation.metadata.wp-post-131153"
+1,target,/guide/cairo,en,/guide/cairo,wp-page-83284,published,no,200,,
+1,target,/guide/cairo,es,/es/guide/el-cairo,wp-page-83284,published,no,200,,
+1,target,/guide/cairo,ja,/ja/guide/kairo,wp-page-83284,published,no,200,,
+2,target,/blog/is-egypt-safe,en,/blog/is-egypt-safe,wp-post-136702-en,published,no,200,,"translation.metadata: tmeta-wp-post-136702, translation.metadata.wp-post-136702"
+2,target,/blog/is-egypt-safe,es,/es/blog/es-seguro-viajar-a-egipto,wp-post-158013-es,published,no,200,,"translation.metadata: tmeta-wp-post-136702, translation.metadata.wp-post-136702"
+2,target,/blog/is-egypt-safe,ja,/ja/blog/ejiputo-wa-anzen-ka,wp-post-172216-ja,published,no,200,,"translation.metadata: tmeta-wp-post-136702, translation.metadata.wp-post-136702"
+2,source,/blog/safety-guide-for-travelers-to-egypt,en,/blog/safety-guide-for-travelers-to-egypt,wp-post-205894-en,published,no,200,,"translation.metadata: tmeta-wp-post-205894, translation.metadata.wp-post-205894"
+2,source,/blog/safety-guide-for-travelers-to-egypt,es,/es/blog/guia-de-seguridad-para-viajeros-en-egipto-2025-2026,wp-post-249325-es,published,no,200,,"translation.metadata: tmeta-wp-post-205894, translation.metadata.wp-post-205894"
+2,source,/blog/safety-guide-for-travelers-to-egypt,ja,/ja/blog/ejiputo-ryoko-no-anzen-gaido,wp-post-249237-ja,published,no,200,,"translation.metadata: tmeta-wp-post-205894, translation.metadata.wp-post-205894"
+3,target,/guide/siwa-oasis,en,/guide/siwa-oasis,wp-page-58932,published,no,200,,
+3,target,/guide/siwa-oasis,es,/es/guide/siwa,wp-page-58932,published,no,200,,
+3,target,/guide/siwa-oasis,ja,/ja/guide/shiwa-oashisu,wp-page-58932,published,no,200,,
+3,source,/blog/discover-siwa-oasis,en,/blog/discover-siwa-oasis,wp-post-137052-en,published,no,200,,"translation.metadata: tmeta-wp-post-137052, translation.metadata.wp-post-137052"
+3,source,/blog/discover-siwa-oasis,es,/es/blog/descubre-el-oasis-de-siwa,wp-post-144118-es,published,no,200,,"translation.metadata: tmeta-wp-post-137052, translation.metadata.wp-post-137052"
+3,source,/blog/discover-siwa-oasis,ja,/ja/blog/shiwa-oashisu,wp-post-172464-ja,published,no,200,,"translation.metadata: tmeta-wp-post-137052, translation.metadata.wp-post-137052"
+3,source,/blog/siwa-oasis-culture-and-adventure,en,/blog/siwa-oasis-culture-and-adventure,wp-post-205954-en,published,no,200,,"translation.metadata: tmeta-wp-post-205954, translation.metadata.wp-post-205954"
+3,source,/blog/siwa-oasis-culture-and-adventure,es,/es/blog/cultura-y-aventura-en-el-oasis-de-siwa,wp-post-249336-es,published,no,200,,"translation.metadata: tmeta-wp-post-205954, translation.metadata.wp-post-205954"
+3,source,/blog/siwa-oasis-culture-and-adventure,ja,/ja/blog/shiwa-oashisu-no-bunka-to-boken,wp-post-249281-ja,published,no,200,,"translation.metadata: tmeta-wp-post-205954, translation.metadata.wp-post-205954"
+3,source,/blog/siwas-historical-landmarks,en,/blog/siwas-historical-landmarks,wp-post-115042-en,published,no,200,,"translation.metadata: tmeta-wp-post-115042, translation.metadata.wp-post-115042"
+3,source,/blog/siwas-historical-landmarks,es,/es/blog/hitos-historicos-de-siwa,wp-post-144349-es,published,no,200,,"translation.metadata: tmeta-wp-post-115042, translation.metadata.wp-post-115042"
+3,source,/blog/siwas-historical-landmarks,ja,/ja/blog/shiwa-oashisu-no-rekishi-teki-rando-maku,wp-post-169934-ja,published,no,200,,"translation.metadata: tmeta-wp-post-115042, translation.metadata.wp-post-115042"
+3,source,/blog/siwa-oasis-a-timeless-epic-adventure,en,/blog/siwa-oasis-a-timeless-epic-adventure,wp-post-112933-en,published,no,200,,"translation.metadata: tmeta-wp-post-112933, translation.metadata.wp-post-112933"
+3,source,/blog/siwa-oasis-a-timeless-epic-adventure,es,/es/blog/oasis-de-siwa-una-aventura-epica-eterna,wp-post-144357-es,published,no,200,,"translation.metadata: tmeta-wp-post-112933, translation.metadata.wp-post-112933"
+3,source,/blog/siwa-oasis-a-timeless-epic-adventure,ja,/ja/blog/shiwa-oashisu-no-rekishi-to-fukei,wp-post-167049-ja,published,no,200,,"translation.metadata: tmeta-wp-post-112933, translation.metadata.wp-post-112933"
+3,keep,/blog/siwa-salt-lakes,en,/blog/siwa-salt-lakes,wp-post-153508-en,published,no,200,,"translation.metadata: tmeta-wp-post-153508, translation.metadata.wp-post-153508"
+3,keep,/blog/siwa-salt-lakes,es,/es/blog/descubre-los-lagos-salados-de-siwa-bienestar-y-aventura-en-egipto,wp-post-155586-es,published,no,200,,"translation.metadata: tmeta-wp-post-153508, translation.metadata.wp-post-153508"
+3,keep,/blog/siwa-salt-lakes,ja,/ja/blog/shiwa-no-shio-mizuumi,wp-post-167162-ja,published,no,200,,"translation.metadata: tmeta-wp-post-153508, translation.metadata.wp-post-153508"
+5,target,/blog/best-time-to-visit-egypt,en,/blog/best-time-to-visit-egypt,wp-post-132475-en,published,no,200,,"translation.metadata: tmeta-wp-post-132475, translation.metadata.wp-post-132475"
+5,target,/blog/best-time-to-visit-egypt,es,/es/blog/mejor-epoca-para-visitar-egipto,wp-post-144401-es,published,no,200,,"translation.metadata: tmeta-wp-post-132475, translation.metadata.wp-post-132475"
+5,target,/blog/best-time-to-visit-egypt,ja,/ja/blog/ejiputo-o-otozureru-sairyo-no-jiki,wp-post-170579-ja,published,no,200,,"translation.metadata: tmeta-wp-post-132475, translation.metadata.wp-post-132475"
+5,source,/blog/best-time-to-cruise-the-nile,en,/blog/best-time-to-cruise-the-nile,wp-post-112770-en,published,no,200,,"translation.metadata: tmeta-wp-post-112770, translation.metadata.wp-post-112770"
+5,source,/blog/best-time-to-cruise-the-nile,es,/es/blog/para-navegar-por-el-nilo,wp-post-144355-es,published,no,200,,"translation.metadata: tmeta-wp-post-112770, translation.metadata.wp-post-112770"
+5,source,/blog/best-time-to-cruise-the-nile,ja,/ja/blog/nairu-kuruzu-ni-saiteki-na-jiki,wp-post-167055-ja,published,no,200,,"translation.metadata: tmeta-wp-post-112770, translation.metadata.wp-post-112770"
+9,target,/blog/the-story-of-king-tutankhamun-tomb,en,/blog/the-story-of-king-tutankhamun-tomb,wp-post-235766-en,published,no,200,,"translation.metadata: tmeta-wp-post-235766, translation.metadata.wp-post-235766"
+9,target,/blog/the-story-of-king-tutankhamun-tomb,es,/es/blog/la-historia-de-la-tumba-de-tutankhamun,wp-post-236110-es,published,no,200,,"translation.metadata: tmeta-wp-post-235766, translation.metadata.wp-post-235766"
+9,target,/blog/the-story-of-king-tutankhamun-tomb,ja,/ja/blog/tsutankamen-no-haka,wp-post-238735-ja,published,no,200,,"translation.metadata: tmeta-wp-post-235766, translation.metadata.wp-post-235766"
+9,source,/blog/the-1922-discovery-of-tutankhamuns-tomb-why-it-matters-the-ultimate-guide,en,/blog/the-1922-discovery-of-tutankhamuns-tomb-why-it-matters-the-ultimate-guide,wp-post-235225-en,published,no,200,,"translation.metadata: tmeta-wp-post-235225, translation.metadata.wp-post-235225"
+9,source,/blog/the-1922-discovery-of-tutankhamuns-tomb-why-it-matters-the-ultimate-guide,es,/es/blog/descubrimiento-de-la-tumba-de-tutankhamun,wp-post-236211-es,published,no,200,,"translation.metadata: tmeta-wp-post-235225, translation.metadata.wp-post-235225"
+9,source,/blog/the-1922-discovery-of-tutankhamuns-tomb-why-it-matters-the-ultimate-guide,ja,/ja/blog/tsutankamen-no-haka-no-hakken,wp-post-238800-ja,published,no,200,,"translation.metadata: tmeta-wp-post-235225, translation.metadata.wp-post-235225"
+10,target,/blog/the-definitive-guide-to-egypt-nile-cruise,en,/blog/the-definitive-guide-to-egypt-nile-cruise,wp-post-97294-en,published,no,200,,"translation.metadata: tmeta-wp-post-97294, translation.metadata.wp-post-97294"
+10,target,/blog/the-definitive-guide-to-egypt-nile-cruise,es,/es/blog/crucero-por-el-nilo-en-egipto,wp-post-144338-es,published,no,200,,"translation.metadata: tmeta-wp-post-97294, translation.metadata.wp-post-97294"
+10,target,/blog/the-definitive-guide-to-egypt-nile-cruise,ja,/ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido,wp-post-164256-ja,published,no,200,,"translation.metadata: tmeta-wp-post-97294, translation.metadata.wp-post-97294"
+10,source,/blog/historical-sites-visited-by-a-nile-cruise,en,/blog/historical-sites-visited-by-a-nile-cruise,wp-post-112663-en,published,no,200,,"translation.metadata: tmeta-wp-post-112663, translation.metadata.wp-post-112663"
+10,source,/blog/historical-sites-visited-by-a-nile-cruise,es,/es/blog/historicos-visitados-en-un-crucero-por-el-nilo,wp-post-144356-es,published,no,200,,"translation.metadata: tmeta-wp-post-112663, translation.metadata.wp-post-112663"
+10,source,/blog/historical-sites-visited-by-a-nile-cruise,ja,/ja/blog/nairu-kuruzu-de-otozureru-rekishi-iseki,wp-post-167131-ja,published,no,200,,"translation.metadata: tmeta-wp-post-112663, translation.metadata.wp-post-112663"
+11,target,/blog/best-family-resorts-in-egypt,en,/blog/best-family-resorts-in-egypt,wp-post-112120-en,published,no,200,,"translation.metadata: tmeta-wp-post-112120, translation.metadata.wp-post-112120"
+11,target,/blog/best-family-resorts-in-egypt,es,/es/blog/complejos-turisticos-familiares-de-egipto,wp-post-144350-es,published,no,200,,"translation.metadata: tmeta-wp-post-112120, translation.metadata.wp-post-112120"
+11,target,/blog/best-family-resorts-in-egypt,ja,/ja/blog/ejiputo-no-famiri-rizoto,wp-post-167140-ja,published,no,200,,"translation.metadata: tmeta-wp-post-112120, translation.metadata.wp-post-112120"
+11,source,/blog/family-beach-holidays-in-egypt,en,/blog/family-beach-holidays-in-egypt,wp-post-115491-en,published,no,200,,"translation.metadata: tmeta-wp-post-115491, translation.metadata.wp-post-115491"
+11,source,/blog/family-beach-holidays-in-egypt,es,/es/blog/familiares-en-la-playa-en-egipto,wp-post-144404-es,published,no,200,,"translation.metadata: tmeta-wp-post-115491, translation.metadata.wp-post-115491"
+11,source,/blog/family-beach-holidays-in-egypt,ja,/ja/blog/ejiputo-no-kazoku-bichi-kyuka,wp-post-170179-ja,published,no,200,,"translation.metadata: tmeta-wp-post-115491, translation.metadata.wp-post-115491"
+12,target,/blog/egypt-luxury-travel,en,/blog/egypt-luxury-travel,wp-post-112730-en,published,no,200,,"translation.metadata: tmeta-wp-post-112730, translation.metadata.wp-post-112730"
+12,target,/blog/egypt-luxury-travel,es,/es/blog/viajes-de-lujo-a-egipto,wp-post-144353-es,published,no,200,,"translation.metadata: tmeta-wp-post-112730, translation.metadata.wp-post-112730"
+12,target,/blog/egypt-luxury-travel,ja,/ja/blog/ejiputo-no-ragujuari-ryoko,wp-post-167058-ja,published,no,200,,"translation.metadata: tmeta-wp-post-112730, translation.metadata.wp-post-112730"
+12,source,/blog/the-luxurious-egyptian-vacation,en,/blog/the-luxurious-egyptian-vacation,wp-post-1460-en,published,no,200,,"translation.metadata: tmeta-wp-post-1460, translation.metadata.wp-post-1460"
+12,source,/blog/the-luxurious-egyptian-vacation,es,/es/blog/vacaciones-en-egipto,wp-post-144319-es,published,no,200,,"translation.metadata: tmeta-wp-post-1460, translation.metadata.wp-post-1460"
+12,source,/blog/the-luxurious-egyptian-vacation,ja,/ja/blog/ejiputo-no-ragujuari-na-bakeshon,wp-post-161810-ja,published,no,200,,"translation.metadata: tmeta-wp-post-1460, translation.metadata.wp-post-1460"
+12,source,/blog/luxury-resorts-in-egypt,en,/blog/luxury-resorts-in-egypt,wp-post-112604-en,published,no,200,,"translation.metadata: tmeta-wp-post-112604, translation.metadata.wp-post-112604"
+12,source,/blog/luxury-resorts-in-egypt,es,/es/blog/centros-turisticos-de-lujo-en-egipto-junto-al-nilo,wp-post-144354-es,published,no,200,,"translation.metadata: tmeta-wp-post-112604, translation.metadata.wp-post-112604"
+12,source,/blog/luxury-resorts-in-egypt,ja,/ja/blog/ejiputo-no-ragujuaririzoto-o-do-erabu-ka,wp-post-167134-ja,published,no,200,,"translation.metadata: tmeta-wp-post-112604, translation.metadata.wp-post-112604"
+12,source,/blog/egypt-luxury-beach-resorts,en,/blog/egypt-luxury-beach-resorts,wp-post-127829-en,published,no,200,,"translation.metadata: tmeta-wp-post-127829, translation.metadata.wp-post-127829"
+12,source,/blog/egypt-luxury-beach-resorts,es,/es/blog/resorts-de-playa-de-lujo-de-egipto,wp-post-144415-es,published,no,200,,"translation.metadata: tmeta-wp-post-127829, translation.metadata.wp-post-127829"
+12,source,/blog/egypt-luxury-beach-resorts,ja,/ja/blog/ejiputo-no-kokyu-bichi-rizoto,wp-post-178066-ja,published,no,200,,"translation.metadata: tmeta-wp-post-127829, translation.metadata.wp-post-127829"
+13,target,/blog/sinai-desert-safaris,en,/blog/sinai-desert-safaris,wp-post-115066-en,published,no,200,,"translation.metadata: tmeta-wp-post-115066, translation.metadata.wp-post-115066"
+13,target,/blog/sinai-desert-safaris,es,/es/blog/safaris-por-el-desierto-del-sinai-desvelando-los-misterios-de-la-frontera-salvaje-de-egipto,wp-post-144348-es,published,no,200,,"translation.metadata: tmeta-wp-post-115066, translation.metadata.wp-post-115066"
+13,target,/blog/sinai-desert-safaris,ja,/ja/blog/shinai-no-sabaku-o-aruku-hashiru-koeru,wp-post-167046-ja,published,no,200,,"translation.metadata: tmeta-wp-post-115066, translation.metadata.wp-post-115066"
+13,source,/blog/sinai-adventure,en,/blog/sinai-adventure,wp-post-112700-en,published,no,200,,"translation.metadata: tmeta-wp-post-112700, translation.metadata.wp-post-112700"
+13,source,/blog/sinai-adventure,es,/es/blog/aventura-desencadenada-en-el-sinai,wp-post-144351-es,published,no,200,,"translation.metadata: tmeta-wp-post-112700, translation.metadata.wp-post-112700"
+13,source,/blog/sinai-adventure,ja,/ja/blog/shinaihanto-o-tabi-suru-mae-ni,wp-post-167061-ja,published,no,200,,"translation.metadata: tmeta-wp-post-112700, translation.metadata.wp-post-112700"
+15,target,/blog/egypt-package-deals,en,/blog/egypt-package-deals,wp-post-153058-en,published,no,200,,"translation.metadata: tmeta-wp-post-153058, translation.metadata.wp-post-153058"
+15,target,/blog/egypt-package-deals,es,/es/blog/paquetes-a-egipto-una-nueva-era-de-viajes-en-grupo,wp-post-154308-es,published,no,200,,"translation.metadata: tmeta-wp-post-153058, translation.metadata.wp-post-153058"
+15,target,/blog/egypt-package-deals,ja,/ja/blog/ejiputo-ryoko-pakkeji-no-erabikata,wp-post-167192-ja,published,no,200,,"translation.metadata: tmeta-wp-post-153058, translation.metadata.wp-post-153058"
+15,source,/blog/travel-packages-from-the-usa-to-egypt,en,/blog/travel-packages-from-the-usa-to-egypt,wp-post-135096-en,published,no,200,,"translation.metadata: tmeta-wp-post-135096, translation.metadata.wp-post-135096"
+15,source,/blog/travel-packages-from-the-usa-to-egypt,es,/es/blog/paquetes-de-viaje-con-vuelo-incluido-de-ee-uu,wp-post-144452-es,published,no,200,,"translation.metadata: tmeta-wp-post-135096, translation.metadata.wp-post-135096"
+15,source,/blog/travel-packages-from-the-usa-to-egypt,ja,/ja/blog/amerika-hatsu-ejiputo-ryoko-pakkeji-no-erabikata,wp-post-170610-ja,published,no,200,,"translation.metadata: tmeta-wp-post-135096, translation.metadata.wp-post-135096"
+4,update,/blog/must-see-tombs-in-the-valley-of-the-kings,en,/blog/must-see-tombs-in-the-valley-of-the-kings,wp-post-134167-en,published,no,200,,"translation.metadata: tmeta-wp-post-134167, translation.metadata.wp-post-134167"
+4,update,/blog/must-see-tombs-in-the-valley-of-the-kings,es,/es/blog/tumbas-imprescindibles-del-valle-de-los-reyes,wp-post-144430-es,published,no,200,,"translation.metadata: tmeta-wp-post-134167, translation.metadata.wp-post-134167"
+4,update,/blog/must-see-tombs-in-the-valley-of-the-kings,ja,/ja/blog/oke-no-tani-de-miru-beki-haka,wp-post-249591-ja,published,no,200,,"translation.metadata: tmeta-wp-post-134167, translation.metadata.wp-post-134167"
+8,update,/blog/how-to-avoid-scams-at-giza-pyramids,en,/blog/how-to-avoid-scams-at-giza-pyramids,wp-post-152426-en,published,no,200,,"translation.metadata: tmeta-wp-post-152426, translation.metadata.wp-post-152426"
+8,update,/blog/how-to-avoid-scams-at-giza-pyramids,es,/es/blog/como-evitar-estafas-en-las-piramides-de-giza,wp-post-155592-es,published,no,200,,"translation.metadata: tmeta-wp-post-152426, translation.metadata.wp-post-152426"
+8,update,/blog/how-to-avoid-scams-at-giza-pyramids,ja,/ja/blog/giza-no-piramiddo-de-komara-nai-tame-ni,wp-post-172237-ja,published,no,200,,"translation.metadata: tmeta-wp-post-152426, translation.metadata.wp-post-152426"
+18,source,/blog/budget-hotels-near-the-pyramids,en,/blog/budget-hotels-near-the-pyramids,wp-post-152394-en,published,no,200,,"translation.metadata: tmeta-wp-post-152394, translation.metadata.wp-post-152394"
+18,source,/blog/budget-hotels-near-the-pyramids,es,/es/blog/hoteles-economicos-cerca-de-las-piramides,wp-post-153543-es,published,no,200,,"translation.metadata: tmeta-wp-post-152394, translation.metadata.wp-post-152394"
+18,source,/blog/budget-hotels-near-the-pyramids,ja,/ja/blog/giza-no-piramiddo-chikaku-no-kakuyasu-hoteru,wp-post-167171-ja,published,no,200,,"translation.metadata: tmeta-wp-post-152394, translation.metadata.wp-post-152394"
+20,compare,/travel-tips/tipping-in-egypt,en,/travel-tips/tipping-in-egypt,wp-page-60933,published,no,200,,
+20,compare,/travel-tips/tipping-in-egypt,es,/es/travel-tips/propinas-en-egipto-como-funciona-de-verdad-el-baksheesh,wp-page-60933,published,no,200,,
+20,compare,/travel-tips/tipping-in-egypt,ja,/ja/travel-tips/ejiputo-no-chippu-bunka-bakushishi-kanzen-gaido,wp-page-60933,published,no,200,,
+20,compare,/resources/tipping-honestly,en,/resources/tipping-honestly,fieldGuide-tipping-honestly,published,no,200,,
+20,compare,/resources/tipping-honestly,es,/es/resources/tipping-honestly,fieldGuide-tipping-honestly,published,no,200,,slug falls back to EN
+20,compare,/resources/tipping-honestly,ja,/ja/resources/tipping-honestly,fieldGuide-tipping-honestly,published,no,200,,slug falls back to EN

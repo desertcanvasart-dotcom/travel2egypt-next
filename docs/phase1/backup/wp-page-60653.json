@@ -1,0 +1,3231 @@
+{
+  "_createdAt": "2026-05-04T20:36:35Z",
+  "_id": "wp-page-60653",
+  "_rev": "u771oJL7tQyayKi2DUTmq9",
+  "_system": {
+    "base": {
+      "id": "wp-page-60653",
+      "rev": "iPsARNKARC3Pl1oe0HTjmH"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:02:21Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "rvdfj2d286w8",
+              "_type": "span",
+              "marks": [],
+              "text": "Explore "
+            },
+            {
+              "_key": "v2f417ejqohg",
+              "_type": "span",
+              "marks": [
+                "s4b7pwwxs8ss"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "j3wxjjbatdia",
+              "_type": "span",
+              "marks": [],
+              "text": " Tours"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "s4b7pwwxs8ss",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor offers a diverse range of tours that cater to different interests and preferences. Here’s a list of some of the most intriguing tours available:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Luxor Airport Transfer"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Description"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": ": Comfortable transfer from Luxor International Airport to your hotel, or vice versa, in an air-conditioned car."
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book this tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Luxor "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000000b"
+              ],
+              "text": "Private Car and Guide"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Features"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Customizable 8-hour tour with an English-speaking Egyptology guide and air-conditioned car."
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Highlights"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": ": Flexibility in choosing pickup and drop points."
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000000b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/cairo-travel-guide/the-khayrbek-complex/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/cairo/khayrbek-complex",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Private Transfer from "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000015"
+              ],
+              "text": "Luxor to Marsa Alam"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Experience"
+            },
+            {
+              "_key": "97unm5fgf65f",
+              "_type": "span",
+              "marks": [],
+              "text": ": Travel from Luxor to the Red Sea town of "
+            },
+            {
+              "_key": "ugw7layqfyml",
+              "_type": "span",
+              "marks": [
+                "dwfm9dv428nv"
+              ],
+              "text": "Marsa Alam"
+            },
+            {
+              "_key": "cwjojq6sak2n",
+              "_type": "span",
+              "marks": [],
+              "text": ", known for resorts and diving centers."
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000015",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/private-tour-transfer-from-luxor-to-marsa-alam-by-car/"
+              },
+              "_type": "externalLink",
+              "href": "/private-tour-transfer-from-luxor-to-marsa-alam-by-car",
+              "newTab": false
+            },
+            {
+              "_key": "dwfm9dv428nv",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Karnak and Luxor Temples Private Tour"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Details"
+            },
+            {
+              "_key": "vvov64e4576f",
+              "_type": "span",
+              "marks": [],
+              "text": ": Explore the Temple of Luxor and "
+            },
+            {
+              "_key": "66o87p99b132",
+              "_type": "span",
+              "marks": [
+                "3x4tr2953gs5"
+              ],
+              "text": "the Karnak Temple complex"
+            },
+            {
+              "_key": "kzv49diwbrbz",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "3x4tr2953gs5",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-karnak-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "All of The East Bank Tour"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Coverage"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": ": Comprehensive tour of East Bank highlights including "
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "000000000025"
+              ],
+              "text": "Karnak"
+            },
+            {
+              "_key": "azb79qgmwtb4",
+              "_type": "span",
+              "marks": [],
+              "text": " Temple, "
+            },
+            {
+              "_key": "k35o2i0awcsf",
+              "_type": "span",
+              "marks": [
+                "5q7kew3kygvq"
+              ],
+              "text": "Luxor Temple"
+            },
+            {
+              "_key": "gbp3a3bpa9hi",
+              "_type": "span",
+              "marks": [],
+              "text": ", and Luxor Museum."
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000025",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Karnak",
+              "newTab": true
+            },
+            {
+              "_key": "5q7kew3kygvq",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-luxor-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Private West Bank Tour"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Includes"
+            },
+            {
+              "_key": "sx9p3se90vwp",
+              "_type": "span",
+              "marks": [],
+              "text": ": "
+            },
+            {
+              "_key": "bl445w0sz6nh",
+              "_type": "span",
+              "marks": [
+                "lyvuiqr4djuv"
+              ],
+              "text": "Valley of the Kings"
+            },
+            {
+              "_key": "r5r5qkvkj2pd",
+              "_type": "span",
+              "marks": [],
+              "text": ", "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "Mortuary Temple of Hatshepsut"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": ", and Colossi of Memnon."
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000002e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-mortuary-temple-of-queen-hatshepsut/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/luxor/the-mortuary-temple-of-queen-hatshepsut",
+              "newTab": false
+            },
+            {
+              "_key": "lyvuiqr4djuv",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.valley-of-the-kings",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000034"
+              ],
+              "text": "Grand West Bank"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Tour"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Attractions"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": ": Visit well-preserved tombs, El Deir el Bahari, and Colossi of Memnon."
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000034",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/the-egypt-royal-vacation-tour/"
+              },
+              "_type": "externalLink",
+              "href": "/the-egypt-royal-vacation-tour",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "The Tale of Greco-Roman Palaces"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Journey"
+            },
+            {
+              "_key": "p8986vlxuyms",
+              "_type": "span",
+              "marks": [],
+              "text": ": Explore "
+            },
+            {
+              "_key": "5ei1o8rgvruz",
+              "_type": "span",
+              "marks": [
+                "od5j6d256i71"
+              ],
+              "text": "Aswan"
+            },
+            {
+              "_key": "bds330rqcy2g",
+              "_type": "span",
+              "marks": [],
+              "text": " and the Temples of "
+            },
+            {
+              "_key": "44nlwel2ajoe",
+              "_type": "span",
+              "marks": [
+                "tw5atzkn92t9"
+              ],
+              "text": "Edfu"
+            },
+            {
+              "_key": "45x5zib4vob4",
+              "_type": "span",
+              "marks": [],
+              "text": " and Kom-Ombo."
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "od5j6d256i71",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58758",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "tw5atzkn92t9",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58841",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Transfer from Luxor to Aswan"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Service"
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": ": Convenient transfer to explore Aswan’s rich Pharaonic monuments."
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Transfer from Luxor to Hurghada"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Purpose"
+            },
+            {
+              "_key": "5k6fk7ikshbg",
+              "_type": "span",
+              "marks": [],
+              "text": ": After exploring Upper Egypt, enjoy the Red Sea resorts in "
+            },
+            {
+              "_key": "b49wnuzvjo4w",
+              "_type": "span",
+              "marks": [
+                "7qa2wkcnteev"
+              ],
+              "text": "Hurghada"
+            },
+            {
+              "_key": "90wtfuutnmmm",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "7qa2wkcnteev",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Sound & Light Show at Karnak Temple"
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Experience"
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": ": Immerse in Egyptian history and mythology with a sound and light show."
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Local Market Tour with Horse Carriage"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Adventure"
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": ": Horse carriage ride along the Nile and a visit to Luxor’s vibrant local market."
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Booking"
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": ": Book your tour here"
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "These tours offer a blend of cultural, historical, and scenic experiences, making Luxor a memorable destination for any traveler."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/2h-media-2xLp14xk4iI-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up of an ancient Egyptian bas-relief profile"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Eternal Profile - A snapshot of history etched in stone"
+            }
+          ]
+        },
+        {
+          "_key": "00000000005d",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/seif-amr-AQ48EEILu_s-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Silhouette of a hot air balloon against a golden sunset sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Floating on twilight's embrace, a lone balloon captures the day's last light"
+            }
+          ]
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": " "
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": "Riverbanks"
+            },
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": " of Time: Esna and El Kab Day Tour from Luxor "
+            },
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/esna-temple-and-el-kab-day-tour-from-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/esna-temple-and-el-kab-day-tour-from-luxor",
+              "newTab": false
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [
+                "000000000066"
+              ],
+              "text": " "
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [
+                "000000000066"
+              ],
+              "text": "Valley"
+            },
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [
+                "000000000066"
+              ],
+              "text": " of Nobles: Full Day to Grand West Bank Private Tour "
+            },
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000066",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/private-tour-full-day-to-grand-west-bank/"
+              },
+              "_type": "externalLink",
+              "href": "/private-tour-full-day-to-grand-west-bank",
+              "newTab": false
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000072",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [
+                "00000000006d"
+              ],
+              "text": " "
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [
+                "00000000006d"
+              ],
+              "text": "Private"
+            },
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [
+                "00000000006d"
+              ],
+              "text": " Exploration of Dendera and Abydos by Bus "
+            },
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/dendera-and-abydos-temples-from-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/dendera-and-abydos-temples-from-luxor",
+              "newTab": false
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [
+                "000000000074"
+              ],
+              "text": " "
+            },
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [
+                "000000000074"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [
+                "000000000074"
+              ],
+              "text": " Group Day Tour Adventure from Hurghada "
+            },
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000074",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/luxor-group-day-tour-adventure-from-hurghada/"
+              },
+              "_type": "externalLink",
+              "href": "/luxor-highlights-group-day-tour-from-hurghada",
+              "newTab": false
+            }
+          ],
+          "style": "h2"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "vt0npkse43x5",
+              "_type": "span",
+              "marks": [],
+              "text": "Mejores Tours en "
+            },
+            {
+              "_key": "hy48uf2uzr1a",
+              "_type": "span",
+              "marks": [
+                "t0lsdtvuevk8"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "wroch834guqz",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "t0lsdtvuevk8",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor ofrece una variada gama de recorridos que responden a distintos intereses y preferencias."
+            },
+            {
+              "_key": "000000000003",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "He aquí una lista de algunos de los recorridos más intrigantes disponibles: "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Traslado al aeropuerto de Luxor"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Descripción"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": ": Cómodo traslado del Aeropuerto Internacional de Luxor a tu hotel, o viceversa, en un coche con aire acondicionado."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000000a"
+              ],
+              "text": "Luxor Coche Privado y Guía"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Características"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": ": Excursión personalizable "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "de"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": " 8 horas con guía egiptólogo de habla inglesa y coche con aire acondicionado."
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Lo más "
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000012"
+              ],
+              "text": "destacado"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": ": Flexibilidad para elegir los puntos de recogida y entrega."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000000a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/explora-luxor-coche-privado-y-servicio-de-guia/"
+              },
+              "_type": "externalLink",
+              "href": "/es/coche-privado-y-guia-en-luxor",
+              "newTab": false
+            },
+            {
+              "_key": "000000000012",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "000000000016",
+                "strong"
+              ],
+              "text": "Traslado Privado de Luxor a Marsa Alam"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Experiencia"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": ": "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "Viaja desde Luxor"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " a la ciudad de Marsa Alam, en el Mar Rojo, conocida por sus complejos turísticos y centros de buceo."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000016",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/carretera-de-la-costa-traslado-en-coche-privado-de-luxor-a-marsa-alam/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/carretera-de-la-costa-traslado-en-coche-privado-de-luxor-a-marsa-alam/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-en-egipto-crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-desde-espana/"
+              },
+              "_type": "externalLink",
+              "href": "/es/vacaciones-de-15-dias-en-luxor-y-crucero-por-el-nilo-luxor-el-nilo-y-el-cairo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Visita Privada a "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "00000000001f"
+              ],
+              "text": "los Templos de Karnak y Luxor"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Detalles"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": ": Explora "
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "000000000023"
+              ],
+              "text": "el Templo de Luxor"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " y el complejo del Templo de Karnak."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000001f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/reyes-y-columnas-visita-de-un-dia-a-los-templos-y-museo-de-karnak-y-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/es/day-tour-to-karnak-luxor-temples-luxor-museum",
+              "newTab": false
+            },
+            {
+              "_key": "000000000023",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/el-templo-de-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/luxor/el-templo-de-luxor",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Recorrido por toda la orilla este"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cobertura"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": ": Recorrido completo por los lugares más destacados de la Ribera Oriental, incluidos "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "00000000002a"
+              ],
+              "text": "el Templo de Karnak"
+            },
+            {
+              "_key": "yetxo6e3tsr9",
+              "_type": "span",
+              "marks": [],
+              "text": ", "
+            },
+            {
+              "_key": "kswivdz1q1e7",
+              "_type": "span",
+              "marks": [
+                "ta95m6mews6s"
+              ],
+              "text": "el Templo de Luxor"
+            },
+            {
+              "_key": "5jnjkerpf3mp",
+              "_type": "span",
+              "marks": [],
+              "text": " y "
+            },
+            {
+              "_key": "i1cersmj01o4",
+              "_type": "span",
+              "marks": [
+                "ubv49veksftv"
+              ],
+              "text": "el Museo de Luxor"
+            },
+            {
+              "_key": "ndgau8gtdutn",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000002a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/129-razones-para-visitar-el-templo-de-karnak/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/129-razones-para-visitar-el-templo-de-karnak",
+              "newTab": false
+            },
+            {
+              "_key": "ta95m6mews6s",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-luxor-temple",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "ubv49veksftv",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-luxor-museum",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Visita privada a Cisjordania"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Incluye"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": ": "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "000000000031"
+              ],
+              "text": "Valle de los Reyes"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": ", Templo Mortuorio de Hatshepsut y Colosos de Memnon."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000031",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/el-valle-de-los-reyes/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/luxor/el-valle-de-los-reyes",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Gran Recorrido por Cisjordania"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Atracciones"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": ": Visita las tumbas bien conservadas, El Deir el Bahari y "
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [
+                "000000000039"
+              ],
+              "text": "los Colosos de Memnon"
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000039",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/los-colosos-de-memnon/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/luxor/los-colosos-de-memnon",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "La "
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000003e"
+              ],
+              "text": "historia"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " de los palacios grecorromanos"
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Viaje"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": ": Explora "
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [
+                "000000000043"
+              ],
+              "text": "Asuán"
+            },
+            {
+              "_key": "i73faqyrvzl3",
+              "_type": "span",
+              "marks": [],
+              "text": " y los Templos de "
+            },
+            {
+              "_key": "sfmmp4wsuxds",
+              "_type": "span",
+              "marks": [
+                "3iq036fgy3l6"
+              ],
+              "text": "Edfu"
+            },
+            {
+              "_key": "nebxr79t50do",
+              "_type": "span",
+              "marks": [],
+              "text": " y Kom-Ombo."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000003e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+              "newTab": false
+            },
+            {
+              "_key": "000000000043",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/asuan",
+              "newTab": false
+            },
+            {
+              "_key": "3iq036fgy3l6",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58841",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "000000000047",
+                "strong"
+              ],
+              "text": "Traslado de Luxor a Asuán"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Servicio"
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Cómodo traslado para explorar los ricos monumentos faraónicos de "
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [
+                "00000000004b"
+              ],
+              "text": "Asuán"
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000047",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/traslado-de-luxor-a-asuan-en-autobus/"
+              },
+              "_type": "externalLink",
+              "href": "/es/traslado-privado-de-asuan-a-luxor-con-paradas",
+              "newTab": false
+            },
+            {
+              "_key": "00000000004b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/el-mausoleo-de-agha-khan/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/asuan/el-mausoleo-de-aga-khan-en-asuan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "00000000004f",
+                "strong"
+              ],
+              "text": "Traslado de Luxor a Hurghada"
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Propósito"
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": ": Tras explorar el Alto "
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [
+                "000000000053"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "e2rb9zu9osar",
+              "_type": "span",
+              "marks": [],
+              "text": ", disfruta de los balnearios del Mar Rojo en "
+            },
+            {
+              "_key": "l08eovirno1s",
+              "_type": "span",
+              "marks": [
+                "ay30ngmtfghc"
+              ],
+              "text": "Hurghada"
+            },
+            {
+              "_key": "icc5ub5h17f4",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000004f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/excursion-privada-traslado-de-luxor-a-hurghada-en-autobus/"
+              },
+              "_type": "externalLink",
+              "href": "/es/private-tour-transfer-from-luxor-to-hurghada-by-bus",
+              "newTab": false
+            },
+            {
+              "_key": "000000000053",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-farafra/el-camino-a-dajla/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/dakhla/el-camino-a-dajla",
+              "newTab": false
+            },
+            {
+              "_key": "ay30ngmtfghc",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000057"
+              ],
+              "text": "Espectáculo de Luz y Sonido en el"
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Templo de Karnak"
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Experimenta"
+            },
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": ": Sumérgete en la "
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [
+                "00000000005c"
+              ],
+              "text": "historia y mitología egipcias"
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " con un espectáculo de luz y sonido."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000057",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/templo-de-karnak-de-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/es/karnak-templo-de-luxor-y-museo-de-luxor",
+              "newTab": false
+            },
+            {
+              "_key": "00000000005c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/egipto-en-el-cine/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/egipto-en-el-cine",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Visita al "
+            },
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000061"
+              ],
+              "text": "mercado local"
+            },
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " en coche de caballos"
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Aventura"
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": ": Paseo en coche de caballos "
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [
+                "000000000066"
+              ],
+              "text": "por el Nilo"
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": " y visita al vibrante mercado local de Luxor."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000061",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+              "newTab": false
+            },
+            {
+              "_key": "000000000066",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-nil-elegance-crucero-de-7-dias-dahabiya-por-el-nilo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/el-nil-elegance-siete-dias-de-luxor-a-asuan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos recorridos ofrecen una mezcla de experiencias culturales, históricas y paisajísticas, "
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [
+                "00000000006b"
+              ],
+              "text": "que hacen de Luxor"
+            },
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": " un destino memorable para cualquier viajero."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/lo-mejor-que-hacer-en-luxor",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000072",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 3 de Ago, 2025"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000074",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "koqo18hkvwq2",
+              "_type": "span",
+              "marks": [
+                "niald7ovovlc"
+              ],
+              "text": "FARAFRA"
+            },
+            {
+              "_key": "tb2dsl9uzsx4",
+              "_type": "span",
+              "marks": [],
+              "text": " OASIS Guía"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "niald7ovovlc",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58849",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "de viaje"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "w4bmn2bc5iok",
+              "_type": "span",
+              "marks": [
+                "vc5b7n4hke1r"
+              ],
+              "text": "ルクソール"
+            },
+            {
+              "_key": "20c2nazn1q7g",
+              "_type": "span",
+              "marks": [],
+              "text": "のベストツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "vc5b7n4hke1r",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールでは、さまざまな興味や好みに対応するツアーが多数用意されています。以下は、最も興味深いツアーの一部をリストアップしています："
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソール空港トランスファー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "説明：ルクソール国際空港からホテルまで、またはその逆の快適な移動を、エアコン付きの車で。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソール プライベートカーとガイド"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "特徴：カスタマイズ可能な8時間のツアーで、英語を話すエジプト学のガイドとエアコン付きの車が提供されます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "ハイライト：ピックアップとドロップポイントの選択の柔軟性。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：あなたのツアーを"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールからマルサアラムへのプライベートトランスファー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "経験：リゾートやダイビングセンターで知られる紅海の町マルサアラムへの移動。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "カルナックとルクソール寺院プライベートツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "詳細：ルクソールの寺院とカルナック寺院コンプレックスを探索。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "イーストバンク全域ツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "gl6b3e66pztl",
+              "_type": "span",
+              "marks": [],
+              "text": "カバレッジ：カルナック寺院、ルクソール寺院、"
+            },
+            {
+              "_key": "5h4cpwg1tf5n",
+              "_type": "span",
+              "marks": [
+                "9zgoye8qva5k"
+              ],
+              "text": "ルクソール博物館"
+            },
+            {
+              "_key": "woosrp3df9m4",
+              "_type": "span",
+              "marks": [],
+              "text": "など、イーストバンクのハイライトを網羅したツアー。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "9zgoye8qva5k",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-luxor-museum",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "プライベートウエストバンクツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "zcc0z4m29bzd",
+              "_type": "span",
+              "marks": [],
+              "text": "含まれるもの："
+            },
+            {
+              "_key": "iy26vikjklk7",
+              "_type": "span",
+              "marks": [
+                "tsb7jxk6c13a"
+              ],
+              "text": "王家の谷"
+            },
+            {
+              "_key": "p4t48f1p7u5l",
+              "_type": "span",
+              "marks": [],
+              "text": "、ハトシェプスト女王の葬祭殿、"
+            },
+            {
+              "_key": "wpahy3lx8dhx",
+              "_type": "span",
+              "marks": [
+                "jph6rqxnu3xo"
+              ],
+              "text": "メムノンの巨像"
+            },
+            {
+              "_key": "160muvefc9p7",
+              "_type": "span",
+              "marks": [],
+              "text": "。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "tsb7jxk6c13a",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.valley-of-the-kings",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "jph6rqxnu3xo",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-colossi-of-memnon",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "グランドウェストバンクツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "アトラクション：よく保存された墓、エルディールバハリ、メムノンの巨像を訪れます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "グレコローマン宮殿の物語"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "4s0p7rtvtf7l",
+              "_type": "span",
+              "marks": [],
+              "text": "ジャーニー："
+            },
+            {
+              "_key": "fh4ec7oz7aj2",
+              "_type": "span",
+              "marks": [
+                "sh1g91aersv4"
+              ],
+              "text": "アスワン"
+            },
+            {
+              "_key": "omglavp818mt",
+              "_type": "span",
+              "marks": [],
+              "text": "とエドフ寺院、コムオンボ寺院を探索。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "sh1g91aersv4",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58758",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールからアスワンへの移動"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "サービス：アスワンの豊かなファラオニック記念碑を探索するための便利な移動。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000058",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "af7cm3gv4y9k",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールから"
+            },
+            {
+              "_key": "aw5lpyu1ppwi",
+              "_type": "span",
+              "marks": [
+                "e98z7xb0h2dc"
+              ],
+              "text": "ハルガダ"
+            },
+            {
+              "_key": "lkqwffx9d1wh",
+              "_type": "span",
+              "marks": [],
+              "text": "への移動"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "e98z7xb0h2dc",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000005a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": "目的：上エジプトを探索した後、ハルガダの紅海リゾートで楽しむ。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "カルナック神殿でのサウンド＆ライトショー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "経験：音と光のショーで、エジプトの歴史と神話に浸る。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": "馬車によるローカルマーケットツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000006c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "冒険：ナイル沿いの馬車に乗り、ルクソールの活気あるローカルマーケットを訪れる。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": "予約：このツアーを"
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": "こちら"
+            },
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": "で予約"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": "これらのツアーは文化的、歴史的、景観的な体験を組み合わせており、ルクソールを訪れるどんな旅行者にとっても記憶に残る目的地となります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日：2025年6月3日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Towering carved columns of the Great Hypostyle Hall at Karnak seen from below against a blue sky"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Imponentes columnas talladas de la sala hipóstila de Karnak vistas desde abajo contra un cielo azul"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "青空を背景に下から見上げたカルナック神殿の大列柱室のそびえ立つ彫刻柱"
+      }
+    ],
+    "asset": {
+      "_ref": "image-19b1514039ab1cc98acc821b404671343f8f7ee7-1200x800-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The colossal columns of Karnak's Great Hypostyle Hall soar towards a bright blue sky"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Las colosales columnas de la sala hipóstila de Karnak se elevan hacia un cielo azul brillante"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "カルナック神殿の大列柱室の巨大な柱が、澄んだ青空へとそびえ立つ"
+      }
+    ]
+  },
+  "kind": "tours",
+  "migration": {
+    "migratedAt": "2026-05-05T12:56:36.328Z",
+    "source": "wp-import",
+    "wpId": 60653,
+    "wpModifiedAt": "2026-03-05T19:35:29",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/explore-luxor-tours/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58877",
+    "_type": "reference"
+  },
+  "section": "others",
+  "seo": {
+    "metaDescription": [
+      {
+        "_key": "es",
+        "_type": "internationalizedArrayTextValue",
+        "value": "Traslado al aeropuerto de LuxorDescripción: Cómodo traslado del Aeropuerto Internacional de Luxor a tu hotel, o viceversa, en un coche con aire acondicionado."
+      }
+    ]
+  },
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "explore-luxor-tours"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "mejores-tours-en-luxor"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "rukusoru-no-osusume-tsua"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Explore Luxor Tours Luxor offers a diverse range of tours that cater to different interests and preferences. Here s a list of some of the most intriguing tours available: Luxor Airport Transfer Description: Comfortable transfer from Luxor I"
+    },
+    {
+      "_key": "ja",
+      "value": "ルクソールのベストツアー ルクソールでは、さまざまな興味や好みに対応するツアーが多数用意されています。以下は、最も興味深いツアーの一部をリストアップしています： ルクソール空港トランスファー 説明：ルクソール国際空港からホテルまで、またはその逆の快適な移動を、エアコン付きの車で。 予約：このツアーをこちらで予約 ルクソール プライベートカーとガイド 特徴：カスタマイズ可能な8時間のツアーで、英語を話すエジプト学のガイドとエアコン付きの車が提供されます。 ハイライト：ピックアッ"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Explore Luxor Tours"
+    },
+    {
+      "_key": "es",
+      "value": "Mejores Tours en Luxor"
+    },
+    {
+      "_key": "ja",
+      "value": "ルクソールのおすすめツアー"
+    }
+  ]
+}

@@ -1,0 +1,1299 @@
+{
+  "_createdAt": "2026-05-04T20:36:29Z",
+  "_id": "wp-page-60661",
+  "_rev": "D69bOyJuIWnktHyzOZBSld",
+  "_system": {
+    "base": {
+      "id": "wp-page-60661",
+      "rev": "foUqbMWmQeVyxrmYihZSaV"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-13T22:12:08Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "p6x5mg4e9u8x",
+              "_type": "span",
+              "marks": [],
+              "text": "Cultural Events In "
+            },
+            {
+              "_key": "pvjxmh8o5h31",
+              "_type": "span",
+              "marks": [
+                "9ixqd8rcaecu"
+              ],
+              "text": "Luxor"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "9ixqd8rcaecu",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor, with its rich historical and cultural landscape, also celebrates various events and festivals that add color and vibrancy to the city. Here are some notable events in "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ":"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Luxor",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Moulid of Abu al-Haggag"
+            },
+            {
+              "_key": "8d3b2nfps9pb",
+              "_type": "span",
+              "marks": [],
+              "text": ": Celebrated in honor of Luxor’s patron saint, Yousef Abu al-Haggag, this festival is one of Egypt’s largest. It takes place around the Mosque of Abu al-Haggag, built atop "
+            },
+            {
+              "_key": "ay9zqn3mc99n",
+              "_type": "span",
+              "marks": [
+                "raovtxm7dlhh"
+              ],
+              "text": "Luxor Temple"
+            },
+            {
+              "_key": "xqg8pl8yhaqz",
+              "_type": "span",
+              "marks": [],
+              "text": ". Occurring in the third week before Ramadan, this five-day carnival features traditional music, dancing, and various "
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "000000000009"
+              ],
+              "text": "cultural"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": " activities, reflecting the rich heritage of the region."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000009",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/are-there-crocodiles-in-the-nile-river/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/nairu-gawa-ni-wani-wa-iru-no-ka",
+              "newTab": false
+            },
+            {
+              "_key": "raovtxm7dlhh",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-luxor-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Luxor Marathon"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Usually held in late January or early February, this marathon is a significant athletic "
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "00000000000f"
+              ],
+              "text": "event"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": ". The race course winds through the West Bank, starting and finishing at Deir al-Bahri, and encompasses major archaeological sites. It attracts runners from around the world, providing a unique backdrop of ancient monuments."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000000f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/home/dahab-historical-guide-4/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/dahab/dahab-historical-guide",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Local Moulids"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": ": Several smaller moulids (celebrations of saints) occur around Luxor, each with its unique charm. These include the moulids of Abu’l Gumsan near Tariff, Sheikh Musa and Abu al-Jud in Karnak, Sheikh Hamid, and Sheikh Hussein. These events offer an authentic glimpse into local religious and cultural practices."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Moulid of Mar Girgis (St George)"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": ": This week-long "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "Coptic"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " festival is held at the Mar Girgis Monastery in Razagat, culminating on November 11. Despite being in a restricted area for foreigners, it draws large crowds for its religious significance and cultural festivities."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000018",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/the-copts-of-egypt-guardians-of-an-ancient-faith/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/ejiputo-no-koputo-kyoto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusion"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "These events in Luxor not only provide entertainment but also a deeper understanding of the local customs, religious beliefs, and communal spirit. They offer an excellent opportunity for visitors to engage with the local community and "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "00000000001f"
+              ],
+              "text": "experience"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " the true essence of Luxor beyond its ancient ruins and temples."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/home/dahab-historical-guide-8/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/dahab/dahab-historical-guide",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/ahmed-shabana-ADa9bb3tqR4-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up of an ancient Egyptian pharaoh statue carved in stone"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "An eternal stone sentinel, the pharaoh's countenance surveys the passage of time with unwavering dignity"
+            }
+          ]
+        },
+        {
+          "_key": "000000000024",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/seif-amr-AQ48EEILu_s-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Silhouette of a hot air balloon against a golden sunset sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Floating on twilight's embrace, a lone balloon captures the day's last light"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "hid91z79irfb",
+              "_type": "span",
+              "marks": [],
+              "text": "Eventos en "
+            },
+            {
+              "_key": "s2wv4z9wxb21",
+              "_type": "span",
+              "marks": [
+                "zkwjsm97b81c"
+              ],
+              "text": "Luxor"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "zkwjsm97b81c",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000003",
+              "_type": "span",
+              "marks": [
+                "000000000002"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": ", con su rico paisaje histórico y cultural, también celebra diversos acontecimientos y festivales que añaden color y vitalidad a la ciudad."
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "He aquí algunos acontecimientos notables en Luxor:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000002",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Moulid de Abu al-Haggag"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": ": Celebrado en honor del santo patrón de Luxor, Yousef Abu al-Haggag, este festival es uno de los más importantes de Egipto."
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Tiene lugar en torno a la "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "00000000000c"
+              ],
+              "text": "Mezquita de Abu"
+            },
+            {
+              "_key": "6py3uehv67xx",
+              "_type": "span",
+              "marks": [],
+              "text": " al-Haggag, construida sobre "
+            },
+            {
+              "_key": "ke4b60nh78pl",
+              "_type": "span",
+              "marks": [
+                "xpvs07dlhu55"
+              ],
+              "text": "el Templo de Luxor"
+            },
+            {
+              "_key": "1quqvtkk22vg",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Este carnaval de cinco días, que tiene "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "000000000011"
+              ],
+              "text": "lugar la"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " tercera semana antes del Ramadán, presenta música tradicional, danzas y diversas actividades culturales, que reflejan el rico patrimonio de la región."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000000c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/mezquita-al-mursi-abu-al-abbas/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/alexandria/mezquita-al-mursi-abu-al-abbas",
+              "newTab": false
+            },
+            {
+              "_key": "000000000011",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/lugares-historicos-del-sinai/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/lugares-historicos-del-sinai",
+              "newTab": false
+            },
+            {
+              "_key": "xpvs07dlhu55",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-luxor-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Maratón de Luxor"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ": Este maratón, "
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "000000000017"
+              ],
+              "text": "que suele celebrarse a finales de enero"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": " o principios de febrero, es un importante acontecimiento atlético."
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "El "
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "recorrido de la carrera serpentea por Cisjordania"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": ", con salida y llegada en Deir al-Bahri, y abarca importantes yacimientos arqueológicos."
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Atrae a corredores de todo el mundo y ofrece un telón de fondo único de monumentos antiguos."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000017",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/por-que-enero-es-el-mes-perfecto-para-visitar-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/por-que-enero-es-el-mes-perfecto-para-visitar-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Moulids "
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000023"
+              ],
+              "text": "locales"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": ": En los alrededores de Luxor se celebran varias moulids (celebraciones de santos) más pequeñas, cada una con un encanto único."
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "Entre ellas están las moulids de Abu’l Gumsan cerca de Tariff, del jeque Musa y Abu al-Jud en "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "000000000028"
+              ],
+              "text": "Karnak"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": ", del jeque Hamid y del jeque Hussein."
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos actos ofrecen una visión auténtica "
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "00000000002d"
+              ],
+              "text": "de las prácticas religiosas y"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": " culturales locales."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000023",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+              "newTab": false
+            },
+            {
+              "_key": "000000000028",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/el-templo-de-karnak/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/luxor/el-templo-de-karnak",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asyut/los-vibrantes-actos-y-festivales-de-asyut/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-asyut/los-vibrantes-actos-y-festivales-de-asyut/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Moulid de Mar Girgis (San Jorge)"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": ": Este festival "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "000000000033"
+              ],
+              "text": "copto de una"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": " semana de duración se celebra en el monasterio de Mar Girgis, en Razagat, y culmina el 11 de noviembre."
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "A pesar de estar en "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "una zona restringida para los"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " extranjeros, atrae a grandes multitudes por su significado religioso y sus festividades culturales."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000033",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/los-coptos-de-egipto-guardianes-de-una-antigua-fe/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/los-coptos-de-egipto-guardianes-de-una-antigua-fe",
+              "newTab": false
+            },
+            {
+              "_key": "000000000038",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-tiempo-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/rosetta-rasheed/el-tiempo-en-rosetta-rashid-y-la-mejor-epoca-para-visitarla",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusión"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos actos en Luxor no sólo proporcionan entretenimiento, sino también "
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [
+                "00000000003f"
+              ],
+              "text": "una comprensión más profunda de las"
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": " costumbres locales, las creencias religiosas y el espíritu comunitario."
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "Ofrecen una excelente oportunidad para que los visitantes se relacionen con la comunidad local y experimenten la verdadera esencia de Luxor más allá de sus antiguas ruinas y templos."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/hoteles-economicos-cerca-de-las-piramides/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/hoteles-economicos-cerca-de-las-piramides",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 23 de Séptiembre, 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "3ph9nl8aq42a",
+              "_type": "span",
+              "marks": [
+                "jd30fnd4u6fz"
+              ],
+              "text": "ルクソール"
+            },
+            {
+              "_key": "2pisaft59hco",
+              "_type": "span",
+              "marks": [],
+              "text": "でのイベント"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "jd30fnd4u6fz",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールは、豊かな歴史と文化的背景を持つ都市であるだけでなく、街に彩りと活気を加えるさまざまなイベントやフェスティバルも開催されています。以下に、ルクソールで注目すべきイベントをいくつかご紹介します："
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "アブ・アル＝ハッガグのムーリド祭"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "am3qd585qvie",
+              "_type": "span",
+              "marks": [],
+              "text": " ルクソールの守護聖人であるユセフ・アブ・アル＝ハッガグを讃えるこの祭りは、エジプト最大のムーリド祭のひとつです。"
+            },
+            {
+              "_key": "gqirdwvrumn6",
+              "_type": "span",
+              "marks": [
+                "o19003vbo12n"
+              ],
+              "text": "ルクソール神殿"
+            },
+            {
+              "_key": "b9lynj51esln",
+              "_type": "span",
+              "marks": [],
+              "text": "の上に建てられたアブ・アル＝ハッガグモスク周辺で行われ、ラマダンの約3週間前に開催されます。この5日間にわたるカーニバルでは、伝統音楽や踊り、様々な文化活動が楽しめ、地域の豊かな遺産を映し出します。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "o19003vbo12n",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-luxor-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ルクソールマラソン"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": " 例年1月末から2月初めに開催されるこのマラソンは、スポーツイベントとして重要な役割を果たしています。コースは西岸を通り、デイル・アル＝バハリでスタートとゴールを迎え、主要な考古学遺跡を巡ります。世界中からランナーを引き寄せ、古代の記念碑が背景に広がるユニークな体験を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "地元のムーリド祭"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": " ルクソール周辺では、いくつかの小規模なムーリド祭も行われ、それぞれ独自の魅力を持っています。これには、タリフ近郊のアブ・アル＝グムサン、カルナックのシェイク・ムーサとアブ・アル＝ジュド、シェイク・ハミード、シェイク・フセインのムーリドが含まれます。これらのイベントは、地元の宗教的・文化的な慣習を本物の形で垣間見ることができる貴重な機会を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "マル・ギルギス（聖ジョージ）のムーリド祭"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " 11月11日に終わるこの一週間のコプト祭は、ラザガットのマル・ギルギス修道院で開催されます。外国人にとって制限区域内にありますが、その宗教的な意義と文化的な祝祭のため、多くの人々を引き寄せます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "まとめ"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": " これらのイベントは、単なるエンターテイメントではなく、地元の習慣、宗教的信念、共同体の精神をより深く理解するための貴重な体験を提供します。訪問者にとって、古代の遺跡や神殿を超えたルクソールの真髄を体験し、地元のコミュニティと触れ合う素晴らしい機会となるでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " 更新日：2025年3月23日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The two seated Colossi of Memnon rising from the plain on Luxor's west bank, with hills behind"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Los dos colosos de Memnón sentados en la llanura de la orilla occidental de Luxor, con colinas detrás"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "背後に丘陵を望むルクソール西岸の平原にそびえる、メムノンの巨像2体"
+      }
+    ],
+    "asset": {
+      "_ref": "image-c5de45249906a1db20d53064649386ae7299e851-1200x800-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The Colossi of Memnon are the west bank's first landmark, met before the temples and tombs."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Los colosos de Memnón son el primer hito de la orilla occidental, antes de los templos y las tumbas."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "メムノンの巨像は、神殿や墓群よりも先に旅人を迎える西岸最初の目印です。"
+      }
+    ]
+  },
+  "kind": "events",
+  "migration": {
+    "migratedAt": "2026-05-05T12:56:30.872Z",
+    "reviewFlag": "section-needs-assignment",
+    "source": "wp-import",
+    "wpId": 60661,
+    "wpModifiedAt": "2025-07-24T16:37:49",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/cultural-events-in-luxor/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58877",
+    "_type": "reference"
+  },
+  "section": "others",
+  "seo": {
+    "metaDescription": [
+      {
+        "_key": "es",
+        "_type": "internationalizedArrayTextValue",
+        "value": "Luxor, con su rico paisaje histórico y cultural, también celebra diversos acontecimientos y festivales que añaden color y vitalidad a la ciudad."
+      }
+    ]
+  },
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "cultural-events-in-luxor"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "fiestas-en-luxor"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "rukusoru-no-o-matsuri"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Cultural Events In Luxor Luxor, with its rich historical and cultural landscape, also celebrates various events and festivals that add color and vibrancy to the city. Here are some notable events in Luxor: Moulid of Abu al-Haggag: Celebrate"
+    },
+    {
+      "_key": "ja",
+      "value": "ルクソールでのイベント ルクソールは、豊かな歴史と文化的背景を持つ都市であるだけでなく、街に彩りと活気を加えるさまざまなイベントやフェスティバルも開催されています。以下に、ルクソールで注目すべきイベントをいくつかご紹介します： アブ・アル＝ハッガグのムーリド祭 ルクソールの守護聖人であるユセフ・アブ・アル＝ハッガグを讃えるこの祭りは、エジプト最大のムーリド祭のひとつです。ルクソール神殿の上に建てられたアブ・アル＝ハッガグモスク周辺で行われ、ラマダンの約3週間前に開催されます。"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Cultural Events In Luxor"
+    },
+    {
+      "_key": "es",
+      "value": "Fiestas en Luxor"
+    },
+    {
+      "_key": "ja",
+      "value": "ルクソールのお祭り"
+    }
+  ]
+}

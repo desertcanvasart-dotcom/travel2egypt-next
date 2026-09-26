@@ -1,0 +1,2479 @@
+{
+  "_createdAt": "2026-05-04T20:39:08Z",
+  "_id": "wp-page-60130",
+  "_rev": "djgbgtoqo7PDAdGRj9MOQu",
+  "_system": {
+    "base": {
+      "id": "wp-page-60130",
+      "rev": "foUqbMWmQeVyxrmYihZYR9"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T00:05:42Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "3we06cjcuv45",
+              "_type": "span",
+              "marks": [],
+              "text": "Discover "
+            },
+            {
+              "_key": "sdk8qmxr5tkh",
+              "_type": "span",
+              "marks": [
+                "na6s1mlo45xu"
+              ],
+              "text": "Ismailia"
+            },
+            {
+              "_key": "qgi3t978529p",
+              "_type": "span",
+              "marks": [],
+              "text": " Flavors"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "na6s1mlo45xu",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58868",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "rzff12nysz0y",
+              "_type": "span",
+              "marks": [],
+              "text": "Ismailia, with its unique geographical location by the "
+            },
+            {
+              "_key": "2uj78ytdgdxv",
+              "_type": "span",
+              "marks": [
+                "gxzw5h5s0s0d"
+              ],
+              "text": "Suez"
+            },
+            {
+              "_key": "krd75bgn1k6n",
+              "_type": "span",
+              "marks": [],
+              "text": " Canal and Lake Timsah, offers a culinary landscape that’s as diverse and inviting as its scenery. The city’s food scene combines traditional Egyptian flavors with Mediterranean and Middle Eastern influences, offering dining options for every palate—from elegant lakefront restaurants to local street food stalls. Here’s your guide to savoring the best of Ismailia."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "gxzw5h5s0s0d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58938",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Traditional Egyptian Cuisine"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "When in Ismailia, indulging in traditional "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "000000000007"
+              ],
+              "text": "Egyptian dishes is a must"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": ". The city’s restaurants and food stalls serve a variety of authentic meals that are flavorful, comforting, and rich in "
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "00000000000a"
+              ],
+              "text": "culture"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": ". Key dishes to try include:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000007",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/egypt-and-the-red-sea/"
+              },
+              "_type": "externalLink",
+              "href": "/egypt-and-the-red-sea",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/animals-in-ancient-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/animales-en-el-antiguo-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ful Medames"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "A classic "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "000000000011"
+              ],
+              "text": "Egyptian breakfast dish"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " made from slow-cooked fava beans, olive oil, lemon juice, and a mix of herbs and spices like cumin, garlic, and chili. Often served with fresh baladi bread, it’s a hearty and nutritious start to the day."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000011",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/vegetarian-travelers-to-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/travel-tips/vegetarian-travelers-to-egypt",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Koshary"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Considered "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "Egypt’s"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " national dish, Koshary is a beloved mix of lentils, pasta, rice, chickpeas, and crispy onions topped with a spicy tomato-vinegar sauce. It’s a must-try for its unique "
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "00000000001b"
+              ],
+              "text": "flavor and local"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": " popularity."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000018",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/contact-us/"
+              },
+              "_type": "externalLink",
+              "href": "/contact",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/abu-simble-travel-guide/flavors-local/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/abu-simble-travel-guide/flavors-local/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Grilled Fish and Seafood"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "With Ismailia’s proximity to Lake Timsah and the Suez Canal, seafood is a local specialty. Expect to find fresh mullet, shrimp, calamari, and more, often grilled or fried and served with tahini, rice, and salads."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "Top Restaurants in Ismailia"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "Ismailia’s dining scene caters to all tastes, offering a mix of cozy eateries, elegant establishments, and casual bistros. Here are some standout spots:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "El Forsan (Mercure Forsan Island Hotel)"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "Located on a quiet island in Lake Timsah, this "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "00000000002a"
+              ],
+              "text": "restaurant offers a serene setting with views"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": " of the water and lush gardens. It’s "
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "00000000002d"
+              ],
+              "text": "known for its Mediterranean and Egyptian"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": " cuisine, especially its well-prepared seafood and grilled meats."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/restaurants-in-zamalek/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/zamareku-de-shokuji-o-suru-nara",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/egyptian-gods/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/ejiputo-no-kami-o-tabisaki-de-yomu",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Morgan’s Grill"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "This hidden gem offers authentic Egyptian grills in a warm, rustic setting. From kofta and kebabs to stuffed vegetables, it’s a go-to for hearty local fare and relaxed ambiance."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "La Pêche"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "Situated near Lake Timsah, La Pêche is perfect for seafood lovers. The menu focuses on fresh daily catches cooked with a Mediterranean flair. Whether you’re dining indoors or on the terrace, the atmosphere is breezy and relaxed."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Tito Ristorante"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "For something different, Tito’s offers wood-fired pizzas, fresh pastas, and Italian-inspired dishes with a local twist. The staff are friendly, and the setting is both "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "00000000003c"
+              ],
+              "text": "modern and inviting—ideal for families and travelers"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " looking for international comfort food."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/aswan-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/aswan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Street Food and Local Delicacies"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "For a more immersive experience, explore Ismailia’s street food scene. Vendors and small stalls serve some of the most authentic and affordable eats:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ta’ameya"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "The Egyptian version of falafel, made from fava beans rather than chickpeas, is green on the inside and wonderfully crunchy outside. Often served in pita with salad and tahini."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Shawarma"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "Spit-roasted beef or chicken wrapped in warm bread with pickled vegetables and garlic sauce. Found across the city, it’s a filling and flavorful street snack."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Sweet Treats"
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "Try local desserts such as "
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "basbousa"
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": " (a semolina cake with syrup), "
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "kunafa"
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": " (shredded pastry with cream or cheese), and "
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "baklava"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": ". Many local bakeries offer these fresh daily."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "Tips for Foodies"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [
+                "000000000058"
+              ],
+              "text": "Local Markets: Visit"
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": " markets like Souq El-Gomaa to sample seasonal fruits, dried dates, local nuts, and traditional snacks."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000058",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/egyptian-museum-and-bazaar-tour/"
+              },
+              "_type": "externalLink",
+              "href": "/egyptian-museum-and-bazaar-tour",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Beverages:"
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": " Don’t miss traditional drinks such as "
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "karkadeh"
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": " (hibiscus tea), "
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "sugarcane juice"
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": ", and "
+            },
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "mint tea"
+            },
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": "—refreshing and widely available."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Dining Etiquette:"
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": " Sharing is a big part of "
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [
+                "000000000067"
+              ],
+              "text": "Egyptian food"
+            },
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": " culture. Don’t hesitate to order several dishes to split with your group. Hospitality is key here—you may even be offered a complimentary tea or dessert at the end of your meal."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000067",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/egyptian-shawarma/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/ejiputo-no-shawaruma",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "Embarking on a culinary journey through Ismailia is about more than food—it’s a chance to experience the city’s warmth, history, and the deep traditions that flavor every bite. Whether you’re enjoying a slow dinner by the lake, grabbing a quick falafel sandwich, or chatting with a baker in the local souq, Ismailia’s cuisine will leave a lasting impression."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/ismailia_desk.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Colorful mosaic art installation in the foreground with a lush green park and desert landscape in the background"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Art meets oasis in this striking juxtaposition of mosaic beauty and arid desert"
+            }
+          ]
+        },
+        {
+          "_key": "00000000006e",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/pic-ismailia-1.jpeg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "An illuminated Tulip Hotel against a dusky blue sky, as seen from a balustraded viewpoint"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Evening falls on the grand Tulip Hotel, where lights begin to mirror the night's allure"
+            }
+          ]
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": "Culinary Journey Through Egypt: A Taste of Tradition and Innovation"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": "Savor the flavors of "
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [
+                "000000000072"
+              ],
+              "text": "Egypt on a culinary adventure"
+            },
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": " that spans traditional dishes to contemporary cuisine. From aromatic street food in bustling markets to gourmet dining along the Nile, our guide invites you to feast on the rich tastes of "
+            },
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [
+                "000000000075"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [],
+              "text": ". Click here to "
+            },
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [
+                "000000000078"
+              ],
+              "text": "embark on your delicious journey"
+            },
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": "!"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000072",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/siwa-oasis-a-timeless-epic-adventure/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/shiwa-oashisu-no-rekishi-to-fukei",
+              "newTab": false
+            },
+            {
+              "_key": "000000000075",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/al-arish-travel-guide/movement-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/al-arish/getting-around-al-arish",
+              "newTab": false
+            },
+            {
+              "_key": "000000000078",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/asyut-travel-guide/weather-climate/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/asyut/weather-in-asyut",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "fc4ob9kk23gz",
+              "_type": "span",
+              "marks": [],
+              "text": "Saboreando "
+            },
+            {
+              "_key": "7a9hyp15iyaq",
+              "_type": "span",
+              "marks": [
+                "wxtltc4b1xuu"
+              ],
+              "text": "Ismailia"
+            },
+            {
+              "_key": "ps61xsv6216a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Un viaje culinario por la ciudad"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "wxtltc4b1xuu",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58868",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "x7rx99jekjbb",
+              "_type": "span",
+              "marks": [],
+              "text": "Ismailia, con su singular situación geográfica junto al Canal de "
+            },
+            {
+              "_key": "r3drhze2sbsv",
+              "_type": "span",
+              "marks": [
+                "vgc64r5c73oq"
+              ],
+              "text": "Suez"
+            },
+            {
+              "_key": "cjmnpwvlczuj",
+              "_type": "span",
+              "marks": [],
+              "text": ", ofrece un paisaje culinario tan diverso y atractivo como su paisaje."
+            },
+            {
+              "_key": "000000000003",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "La escena culinaria de la ciudad combina los sabores tradicionales egipcios con influencias de las cocinas mediterránea y de Oriente Medio, proporcionando una gran variedad de opciones gastronómicas para todos los paladares."
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "He aquí una guía que te ayudará a embarcarte en un "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "000000000007"
+              ],
+              "text": "viaje culinario"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": " por Ismailia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000007",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/viaje-culinario/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/alejandria/donde-comer-en-alejandria",
+              "newTab": false
+            },
+            {
+              "_key": "vgc64r5c73oq",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58938",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Cocina tradicional egipcia"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Cuando estés en Ismailia, no puedes dejar de probar "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "los platos tradicionales egipcios"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "Los restaurantes y puestos de comida local "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "000000000013"
+              ],
+              "text": "de la"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " ciudad ofrecen una gran variedad de auténtica comida egipcia, sabrosa y abundante."
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "Los platos clave que debes probar son"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-mensual-de-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-mensual-de-egipto/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000013",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/alimentacion-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/alimentacion-en-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "**Ful medames:**"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": " Plato "
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "00000000001c"
+              ],
+              "text": "egipcio básico para"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": " el desayuno, hecho con habas, aceite de oliva, zumo de limón y aderezado con comino, perejil, cebolla, ajo y guindilla."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/entradas-a-las-atracciones/"
+              },
+              "_type": "externalLink",
+              "href": "/es/travel-tips/entradas-a-los-monumentos-de-egipto-que-presupuestar-y-que-priorizar",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "**Koshary:**"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " Considerado el plato nacional de "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": ", el Koshary es una deliciosa mezcla de pasta, arroz, lentejas, garbanzos, cebollas fritas y una salsa de tomate picante."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "**Pescado y marisco a la parrilla:**"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": " Dada su proximidad tanto al Mar Mediterráneo como al Mar Rojo, los restaurantes de Ismailia sirven platos de marisco fresco y deliciosamente preparado."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "Los mejores restaurantes de Ismailia"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "La escena gastronómica de Ismailia ofrece algo para todos los gustos, desde restaurantes informales hasta restaurantes de lujo."
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Aquí tienes algunas de "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "las mejores opciones"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": ":"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/sim-para-viajar-a-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/sim-para-viajar-a-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "**El Forsan:**"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " Situado en la isla de Forsan, este restaurante ofrece una deliciosa experiencia gastronómica con vistas al Canal de Suez."
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "Es conocido por su amplia selección de platos mediterráneos y egipcios, especialmente de marisco."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "**Morgan’s:**"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": " Si te apetecen carnes a la parrilla y cocina tradicional egipcia, Morgan’s es el lugar al que debes ir."
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Su ambiente acogedor y sus sabrosos platos lo convierten en uno de los favoritos tanto de los "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "lugareños como de los turistas"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/historicos-de-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/historicos-de-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "**La Pêche:**"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": " Para los que tienen antojo de marisco, La Pêche ofrece platos de pescado fresco y marisco preparados con un toque mediterráneo."
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "El entorno del restaurante, cerca del lago Timsah, contribuye a la experiencia gastronómica."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "Comida callejera y delicias locales"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Para experimentar realmente la "
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "000000000047"
+              ],
+              "text": "cultura"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": " gastronómica de Ismailia, debes probar la comida callejera."
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "Las calles y "
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [
+                "00000000004c"
+              ],
+              "text": "mercados de"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": " la ciudad están llenos de vendedores que sirven deliciosos aperitivos y delicias locales."
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "Busca:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000047",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/souq-bab-el-louk-el-mercado-fresco-de-el-cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/souq-bab-el-louk-el-mercado-fresco-de-el-cairo",
+              "newTab": false
+            },
+            {
+              "_key": "00000000004c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/mercado-local-de-asuan/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/asuan/mercado-local-de-asuan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ta’ameya:"
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " (falafel egipcio)"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "Hechas con habas y hierbas, estas empanadillas fritas son crujientes por fuera y blandas por dentro."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Shawarma:"
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": " Lonchas de ternera o pollo marinado, asadas en un espetón y servidas en un pan de pita con verduras y salsa de tahini."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Dulces:"
+            },
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": " No dejes de probar los dulces tradicionales egipcios, como el baklava, la basbousa y el kunafa, sobre todo en las pastelerías locales."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": "Consejos para gourmets"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": "Mercados locales"
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": " Visita los mercados locales para probar frutas frescas, frutos secos y aperitivos tradicionales egipcios"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Bebidas"
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": ": Complementa tus "
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [
+                "000000000065"
+              ],
+              "text": "comidas con bebidas tradicionales egipcias"
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": ", como té de menta, té de hibisco o un refrescante vaso de zumo de caña de azúcar."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000065",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-tiempo-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/rosetta-rasheed/el-tiempo-en-rosetta-rashid-y-la-mejor-epoca-para-visitarla",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Etiqueta cultural"
+            },
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Cuando se cena en Ismailia, es habitual compartir los platos con los demás comensales."
+            },
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "Adopta esta tradición para experimentar plenamente "
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [
+                "00000000006d"
+              ],
+              "text": "el aspecto comunitario de"
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": " la comida egipcia."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/precios-de-las-entradas-a-las-atracciones-de-el-cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/el-cairo/precios-de-las-entradas-a-las-atracciones-de-el-cairo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": "Embarcarse en un "
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [
+                "000000000072"
+              ],
+              "text": "viaje"
+            },
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": " culinario por Ismailia no consiste sólo en disfrutar de deliciosas comidas; es una exploración de la cultura de la ciudad, sus tradiciones y la calidez de sus gentes."
+            },
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": "Tanto si saboreas un plato en un buen restaurante, como si disfrutas de un bocado rápido de un vendedor callejero o exploras los mercados locales, el paisaje culinario de Ismailia te dejará, sin duda, sabores y experiencias memorables."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000072",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/viaje/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/alejandria/como-llegar-a-alejandria",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "イスマイリアを味わう：街を巡る食の旅"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "スエズ運河沿いという地理的特性を持つイスマイリアでは、その風景と同じく多彩で魅力的な食文化を楽しむことができます。この街の食のシーンは、伝統的なエジプト料理の風味に加え、地中海や中東料理の影響が融合しており、あらゆる味覚に応える多彩なダイニングオプションを提供します。ここでは、イスマイリアを巡る食の旅に出るためのガイドをご紹介します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "伝統的なエジプト料理"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "スマイリアにいるなら、伝統的なエジプト料理を楽しむのは外せません。この街のレストランや地元の屋台では、風味豊かで満足感のある本格的なエジプト料理を味わうことができます。おすすめの代表的な料理は以下の通りです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "フール・メダメス (Ful medames):"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "ファヴァ豆をオリーブオイルやレモンジュースとともに調理し、クミン、パセリ、玉ねぎ、ニンニク、チリペッパーで仕上げたエジプトの定番朝食料理です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "コシャリ (Koshary):"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプトの国民食とも言われるコシャリは、パスタ、ご飯、レンズ豆、ヒヨコ豆、揚げ玉ねぎ、スパイシーなトマトソースを混ぜ合わせた、ボリューム満点の一皿です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "焼き魚とシーフード (Grilled fish and seafood):"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "地中海と紅海の近さから、イスマイリアのレストランでは新鮮で美味しいシーフード料理を堪能することができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "イスマイリアのおすすめレストラン"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "イスマイリアの食シーンは、カジュアルな食堂から高級レストランまで、多彩な選択肢を提供します。以下はおすすめのレストランです："
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "El Forsan:"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "フォルサン島に位置するこのレストランは、スエズ運河を眺めながら楽しめる素晴らしいダイニング体験を提供します。特に地中海料理やエジプト料理、そしてシーフードの品揃えが豊富で評判です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Morgan’s:"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "グリル料理や伝統的なエジプト料理が食べたいなら、モーガンズが最適です。その居心地の良い雰囲気と美味しい料理で、地元の人々や観光客の間で人気を集めています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "La Pêche:"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "シーフードが恋しい方には、地中海風に仕上げた新鮮な魚料理と海鮮料理を提供するラ・ペシュがおすすめです。ティムサ湖の近くに位置するこのレストランのロケーションも、食事の楽しみをさらに引き立てます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "ストリートフードと地元の名物料理"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "イスマイリアの食文化を堪能するなら、ストリートフードを味わわずにはいられません。街中や市場には、おいしいスナックや地元の名物料理を提供する屋台が並んでいます。特に注目すべきは以下のメニューです："
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ターメイヤ（エジプト風ファラフェル）:"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "ファヴァ豆とハーブで作られたこれらの揚げ物は、外はサクサク、中はふんわりとした食感が魅力です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "シャワルマ:"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "スパイスに漬け込んだ牛肉や鶏肉を回転式のグリルで焼き、ピタパンに野菜とタヒニソースと共に包んで提供されます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "甘いお菓子:"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "地元のベーカリーで、バクラヴァやバスブーサ、クナーファといった伝統的なエジプトのお菓子を味わうのもお忘れなく。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "フード愛好家へのヒント"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "地元の市場： 地元の市場を訪れて、新鮮な果物、ナッツ、伝統的なエジプトのおやつを味わいましょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "飲み物： ミントティー、ハイビスカスティー、またはサトウキビジュースのような伝統的なエジプトの飲み物で食事を引き立ててください。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "文化的エチケット： イスマイリアでの食事では、テーブルの他の人と料理をシェアするのが一般的です。この伝統を受け入れて、エジプトの食文化の共有の精神を最大限に体験してみてください。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "イスマイリアでの食の旅は、ただおいしい食事を楽しむだけでなく、街の文化、伝統、そして地元の人々の温かさを探ることでもあります。高級レストランで一皿を堪能するにせよ、屋台で手軽な一品を楽しむにせよ、地元の市場を散策するにせよ、イスマイリアの食文化は、忘れられない味と経験を残してくれることでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Chef in whites behind a seafood counter with a whole fish on ice, shells and trays of skewered bites under brass lamps"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Chef de blanco tras un mostrador de mariscos con un pescado entero sobre hielo, conchas y bandejas de brochetas"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "真鍮のランプの下、氷にのせた丸ごとの魚や貝、串料理のトレーが並ぶカウンターに立つ白衣のシェフ。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-18196894314d831ba89035a2828750b8ed9979c6-5875x3917-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Fresh fish takes centre stage at the seafood counter."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "El pescado fresco es el protagonista en el mostrador de mariscos."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "シーフードカウンターの主役は、氷の上の新鮮な魚。"
+      }
+    ]
+  },
+  "kind": "food",
+  "migration": {
+    "migratedAt": "2026-05-05T12:59:13.427Z",
+    "reviewFlag": "section-needs-assignment",
+    "source": "wp-import",
+    "wpId": 60130,
+    "wpModifiedAt": "2026-04-14T23:43:10",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/ismailia-flavors/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58868",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "ismailia-flavors"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "sabor-de-ismailia"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "isumairia-no-aji"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Discover Ismailia Flavors Ismailia, with its unique geographical location by the Suez Canal and Lake Timsah, offers a culinary landscape that’s as diverse and inviting as its scenery. The city’s food scene combines traditional Egyptian flav"
+    },
+    {
+      "_key": "es",
+      "value": "Saboreando Ismailia: Un viaje culinario por la ciudad Ismailia, con su singular situación geográfica junto al Canal de Suez, ofrece un paisaje culinario tan diverso y atractivo como su paisaje.La escena culinaria de la ciudad combina los sa"
+    },
+    {
+      "_key": "ja",
+      "value": "イスマイリアを味わう：街を巡る食の旅 スエズ運河沿いという地理的特性を持つイスマイリアでは、その風景と同じく多彩で魅力的な食文化を楽しむことができます。この街の食のシーンは、伝統的なエジプト料理の風味に加え、地中海や中東料理の影響が融合しており、あらゆる味覚に応える多彩なダイニングオプションを提供します。ここでは、イスマイリアを巡る食の旅に出るためのガイドをご紹介します。 伝統的なエジプト料理 スマイリアにいるなら、伝統的なエジプト料理を楽しむのは外せません。この街のレストラ"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Discover Ismailia Flavors"
+    },
+    {
+      "_key": "es",
+      "value": "Sabor de Ismailia"
+    },
+    {
+      "_key": "ja",
+      "value": "イスマイリアの味"
+    }
+  ]
+}

@@ -70,7 +70,23 @@ export function readRedirectMapCsv(path: string): RedirectEntry[] {
   });
 }
 
-export function writeRedirectMapCsv(path: string, entries: RedirectEntry[]): void {
+/**
+ * The `#` comment lines of the CSV, in file order. They document rows that are
+ * intentionally not live yet (e.g. Phase 1 "ship after publish" redirects and
+ * cross-domain moves waiting on the destination site); a regenerate must not
+ * drop them.
+ */
+export function readRedirectMapComments(path: string): string[] {
+  return readFileSync(path, 'utf8')
+    .split(/\r?\n/)
+    .filter((l) => l.startsWith('#'));
+}
+
+export function writeRedirectMapCsv(
+  path: string,
+  entries: RedirectEntry[],
+  comments: string[] = []
+): void {
   const rows = entries.map((e) =>
     [
       e.from_url,
@@ -81,7 +97,8 @@ export function writeRedirectMapCsv(path: string, entries: RedirectEntry[]): voi
       e.priority_score.toFixed(2),
     ].join(',')
   );
-  writeFileSync(path, CSV_HEADER + '\n' + rows.join('\n') + '\n');
+  const tail = comments.length ? comments.join('\n') + '\n' : '';
+  writeFileSync(path, CSV_HEADER + '\n' + rows.join('\n') + '\n' + tail);
 }
 
 // ─── Inventory schema ─────────────────────────────────────────────────────────
@@ -449,7 +466,7 @@ async function main(argv: string[]): Promise<void> {
   if (args.dryRun) {
     process.stdout.write(`[regenerate] DRY RUN — no files written.\n`);
   } else {
-    writeRedirectMapCsv(REDIRECT_MAP_CSV, final);
+    writeRedirectMapCsv(REDIRECT_MAP_CSV, final, readRedirectMapComments(REDIRECT_MAP_CSV));
     writeFileSync(REDIRECT_MAP_GENERATED_TS, emitGeneratedTs(final));
     process.stdout.write(
       `[regenerate] wrote ${rel(REDIRECT_MAP_CSV)} (${final.length} rows)\n` +

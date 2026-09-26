@@ -1,0 +1,3977 @@
+{
+  "_createdAt": "2026-05-14T16:06:52Z",
+  "_id": "wp-page-64340",
+  "_rev": "dJ4ZpMyfIFtQ0D7lymg7F1",
+  "_system": {
+    "base": {
+      "id": "wp-page-64340",
+      "rev": "hfH9i9C1WObc0VBSF06clH"
+    }
+  },
+  "_type": "nileCruise",
+  "_updatedAt": "2026-07-01T13:32:11Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Sonesta Moon Goddess"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "About The Hotel "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Hotel Profile: Sonesta Moon Goddess Nile Cruise Ship"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Embark on a journey of luxury and discovery aboard the "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "000000000007",
+                "strong"
+              ],
+              "text": "Sonesta Moon Goddess Nile Cruise Ship"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": ". Renowned for its impeccable service and elegant design, this cruise ship presents an unparalleled way to explore the mystical Nile River’s treasures."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000007",
+              "_type": "externalLink",
+              "href": "https://www.sonesta.com/sonesta-moon-goddess-nile-cruise-ship",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Accommodations"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "The Sonesta Moon Goddess features 49 luxurious cabins and 4 exclusive presidential suites, each designed to offer the utmost comfort and style. Every cabin boasts sleek, modern furnishings and is equipped with sliding glass doors that open to private balconies. These balconies serve as your personal viewing platform to the Nile’s enchanting landscapes, ensuring every moment on board is nothing short of spectacular."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "The four presidential suites elevate the experience further, offering expansive spaces that include a private lounge area. Decorated with sophisticated décor and top-of-the-line amenities, these suites provide a home away from home with the added allure of river views and serene privacy."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "Prime Docking Locations"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "Strategically docked at prime locations, the Sonesta Moon Goddess offers guests direct access to some of Egypt’s most iconic sites. In "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ", the ship positions itself majestically in front of the"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "000000000017"
+              ],
+              "text": " Luxor Temple"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": " and just before the Luxor Bridge, allowing guests to disembark right into the heart of ancient history. Meanwhile, in Aswan, the ship docks at the Nile Dream Dock, located directly opposite the Aswan Sport Club. These prime docking spots ensure that guests enjoy convenient access to local attractions, shopping, and more, making exploration both effortless and exciting."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000014",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-133058-en",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000017",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-luxor-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "Onboard Amenities and Services"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "Onboard, guests are treated to a range of top-tier amenities. From fine dining that features international and local cuisine to a variety of entertainment options that enrich your nights on the Nile, every detail is carefully curated to enhance your experience. The ship also offers wellness facilities, including a spacious sundeck with a swimming pool, a perfect spot to unwind after a day of adventure or simply soak in the panoramic river views.."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "Cultural and Scenic Tours "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "The cruise itinerary is thoughtfully designed to include guided tours to some of Egypt’s most revered historical landmarks. Explore ancient temples, tombs, and monuments with knowledgeable guides who bring the rich history of the region to life. Each excursion is planned to offer deep insights into the culture and history of "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "000000000022"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": " while ensuring plenty of time to enjoy the scenic beauty and leisurely pace of Nile River cruising."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000022",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-132475-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Whether you’re seeking a peaceful retreat into history and luxury or an adventurous exploration of Egypt’s ancient wonders, the "
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Sonesta Moon "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000028"
+              ],
+              "text": "Goddess Nile"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Cruise Ship"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": " promises an unforgettable voyage set against the backdrop of the world’s longest river. With its blend of luxury, location, and thoughtful amenities, this cruise ship stands out as a premier choice for discerning travelers."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000028",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-64129",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Cruise Itinerary"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor - Aswan 4 Nights on Mondays"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor - Luxor 7 Nights on Mondays"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan - Luxor 3 Nights on Fridays​"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan - Aswan 7 Nights on Fridays​"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": "Cabin Amenities"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": " Satellite TV"
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " Individually controlled air condition"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": " Telephone"
+            },
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": " Bath tub & Shower"
+            },
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": "Private veranda / French window"
+            },
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": " Wi-fi"
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": " Hair Dryer"
+            },
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": " Safety deposit box"
+            },
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000085",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [],
+              "text": " Tea & Coffee tray"
+            },
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": "Services & Facilities"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [],
+              "text": "Swimming pool and Jacuzzi"
+            },
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000091",
+              "_type": "span",
+              "marks": [],
+              "text": "Spa & Massage center "
+            },
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000099",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [],
+              "text": "Swimming pool bar"
+            },
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009d",
+              "_type": "span",
+              "marks": [],
+              "text": "Nile Avenue Restaurant"
+            },
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a3",
+              "_type": "span",
+              "marks": [],
+              "text": "Bel Air Lounge bar"
+            },
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ab",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [],
+              "text": "Library, table games and business corner"
+            },
+            {
+              "_key": "0000000000aa",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ad",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [],
+              "text": "Boutique, gift shop and hairdresser"
+            },
+            {
+              "_key": "0000000000b0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b5",
+              "_type": "span",
+              "marks": [],
+              "text": "Individually controlled air-conditioned system"
+            },
+            {
+              "_key": "0000000000b6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000bb",
+              "_type": "span",
+              "marks": [],
+              "text": "All bathrooms feature bath tubs and hair dryers"
+            },
+            {
+              "_key": "0000000000bc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000be",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000bf",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c1",
+              "_type": "span",
+              "marks": [],
+              "text": "All cabins have French balconies"
+            },
+            {
+              "_key": "0000000000c2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c7",
+              "_type": "span",
+              "marks": [],
+              "text": "220V Electricity"
+            },
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000cf",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ca",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cd",
+              "_type": "span",
+              "marks": [],
+              "text": "Free Steam & Sauna "
+            },
+            {
+              "_key": "0000000000ce",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d3",
+              "_type": "span",
+              "marks": [],
+              "text": "First-aid clinic with medical service on call"
+            },
+            {
+              "_key": "0000000000d4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000db",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d9",
+              "_type": "span",
+              "marks": [],
+              "text": "Laundry and dry cleaning"
+            },
+            {
+              "_key": "0000000000da",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000dc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000dd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000de",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000df",
+              "_type": "span",
+              "marks": [],
+              "text": "LCD televisions sets & satellite channels"
+            },
+            {
+              "_key": "0000000000e0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e5",
+              "_type": "span",
+              "marks": [],
+              "text": "Tea & coffee making facilities"
+            },
+            {
+              "_key": "0000000000e6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ed",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ea",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000eb",
+              "_type": "span",
+              "marks": [],
+              "text": "In-room safe & mini bar"
+            },
+            {
+              "_key": "0000000000ec",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ee",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ef",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f1",
+              "_type": "span",
+              "marks": [],
+              "text": "In-house movie program & music system"
+            },
+            {
+              "_key": "0000000000f2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f7",
+              "_type": "span",
+              "marks": [],
+              "text": "Internet connection"
+            },
+            {
+              "_key": "0000000000f8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ff",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000fa",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fd",
+              "_type": "span",
+              "marks": [],
+              "text": "Telephones with international direct dial"
+            },
+            {
+              "_key": "0000000000fe",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000105",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000100",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000101",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000102",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000103",
+              "_type": "span",
+              "marks": [],
+              "text": "Connected cabins are available"
+            },
+            {
+              "_key": "000000000104",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Sonesta Diosa de la Luna"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Sobre el Hotel "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Perfil del hotel: Crucero por el Nilo Sonesta Moon Goddess"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Embárcate en un viaje de lujo y descubrimientos a bordo del "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "000000000007",
+                "strong"
+              ],
+              "text": "Crucero por el Nilo Sonesta Diosa de la Luna"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": " Conocido por su impecable servicio y elegante diseño, este crucero presenta una forma inigualable de explorar los místicos tesoros del río Nilo. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000007",
+              "_type": "externalLink",
+              "href": "https://www.sonesta.com/sonesta-moon-goddess-nile-cruise-ship",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Alojamientos"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "El Sonesta Moon Goddess cuenta con 49 lujosos camarotes y 4 exclusivas suites presidenciales, cada uno de ellos diseñado para ofrecer el máximo confort y estilo."
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": " Cada camarote cuenta con un mobiliario elegante y moderno y está equipado con puertas correderas de cristal que se abren a balcones privados."
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " Estos balcones sirven como plataforma de observación personal de los encantadores paisajes del Nilo, garantizando que cada momento a bordo sea espectacular. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Las cuatro suites presidenciales elevan aún más la experiencia, ofreciendo amplios espacios que incluyen un salón privado."
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " Decoradas con una sofisticada decoración y comodidades de alta gama, estas suites proporcionan un hogar lejos del hogar con el atractivo añadido de las vistas al río y una serena intimidad. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Puntos de atraque principales"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "Atracado estratégicamente en lugares privilegiados, el Sonesta Moon Goddess ofrece a los huéspedes acceso directo a algunos de los lugares más emblemáticos de Egipto."
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": " En "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "00000000001e"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": ", el barco se sitúa majestuosamente frente al"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "000000000021"
+              ],
+              "text": " Templo de Luxor"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": " y justo antes del Puente de Luxor, lo que permite a los huéspedes desembarcar directamente en el corazón de la historia antigua."
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " Mientras tanto, en Asuán, el barco atraca en el Muelle del Sueño del Nilo, situado justo enfrente del Club Deportivo de Asuán."
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": " Estos puntos de atraque de primera garantizan que los huéspedes disfruten de un cómodo acceso a las atracciones locales, las tiendas y mucho más, haciendo que la exploración sea a la vez fácil y emocionante. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001e",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-133058-en",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000021",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-luxor-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "Comodidades y servicios a bordo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "A bordo, los huéspedes disfrutan de una serie de servicios de primer nivel."
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": " Desde restaurantes de alta cocina internacional y local hasta una variedad de opciones de entretenimiento que enriquecerán tus noches en el Nilo, cada detalle está cuidadosamente pensado para mejorar tu experiencia."
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": " El barco también ofrece instalaciones de bienestar, incluida una amplia cubierta con piscina, un lugar perfecto para relajarse tras un día de aventuras o simplemente disfrutar de las vistas panorámicas del río… "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "Recorridos culturales y paisajísticos "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "El itinerario del crucero está cuidadosamente diseñado para incluir visitas guiadas a algunos de los monumentos históricos más venerados de Egipto."
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": " Explora antiguos templos, tumbas y monumentos con guías expertos que dan vida a la rica historia de la región."
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " Cada excursión está planeada para ofrecer una visión profunda de la cultura y la historia de "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": ", garantizando al mismo tiempo tiempo tiempo suficiente para disfrutar de la belleza escénica y el ritmo pausado del crucero por el río Nilo. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000038",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-132475-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Tanto si buscas un apacible retiro en la historia y el lujo como una exploración aventurera de las antiguas maravillas de Egipto, el "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "crucero Sonesta Moon Goddess Nile Cruise Ship"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " promete un viaje inolvidable con el río más largo del mundo como telón de fondo."
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": " Con su mezcla de lujo, ubicación y esmeradas comodidades, este crucero destaca como la mejor opción para los viajeros más exigentes. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "Cruise Itinerary"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor - Aswan 4 Nights on Mondays"
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxor - Luxor 7 Nights on Mondays"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan - Luxor 3 Nights on Fridays​"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": "Aswan - Aswan 7 Nights on Fridays​"
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": "Servicios de la cabaña"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": " Televisión por satélite"
+            },
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": " Aire acondicionado con control individual"
+            },
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": " Teléfono"
+            },
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": " Bañera y ducha"
+            },
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [],
+              "text": "Veranda privada / ventana francesa"
+            },
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000085",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [],
+              "text": " Wi-fi"
+            },
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": " Secador de pelo"
+            },
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000091",
+              "_type": "span",
+              "marks": [],
+              "text": " Caja fuerte"
+            },
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [],
+              "text": " Bandeja de té y café"
+            },
+            {
+              "_key": "000000000099",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009b",
+              "_type": "span",
+              "marks": [],
+              "text": "Servicios e instalaciones"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000a2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [],
+              "text": "Piscina y jacuzzi"
+            },
+            {
+              "_key": "0000000000a1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [],
+              "text": "Spa y centro de masajes "
+            },
+            {
+              "_key": "0000000000a7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ae",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000aa",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ab",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [],
+              "text": "Bar de la piscina"
+            },
+            {
+              "_key": "0000000000ad",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [],
+              "text": "Restaurante Avenida del Nilo"
+            },
+            {
+              "_key": "0000000000b3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ba",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b8",
+              "_type": "span",
+              "marks": [],
+              "text": "Bar Bel Air Lounge"
+            },
+            {
+              "_key": "0000000000b9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000bb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000bc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000bd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000be",
+              "_type": "span",
+              "marks": [],
+              "text": "Biblioteca, juegos de mesa y rincón de negocios"
+            },
+            {
+              "_key": "0000000000bf",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c4",
+              "_type": "span",
+              "marks": [],
+              "text": "Boutique, tienda de regalos y peluquería"
+            },
+            {
+              "_key": "0000000000c5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000cc",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ca",
+              "_type": "span",
+              "marks": [],
+              "text": "Sistema de aire acondicionado controlado individualmente"
+            },
+            {
+              "_key": "0000000000cb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000cd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ce",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cf",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d0",
+              "_type": "span",
+              "marks": [],
+              "text": "Todos los cuartos de baño disponen de bañera y secador de pelo"
+            },
+            {
+              "_key": "0000000000d1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d6",
+              "_type": "span",
+              "marks": [],
+              "text": "Todos los camarotes tienen balcones franceses"
+            },
+            {
+              "_key": "0000000000d7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000de",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000da",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000db",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000dc",
+              "_type": "span",
+              "marks": [],
+              "text": "Electricidad 220V"
+            },
+            {
+              "_key": "0000000000dd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000df",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e2",
+              "_type": "span",
+              "marks": [],
+              "text": "Vapor y sauna gratuitos "
+            },
+            {
+              "_key": "0000000000e3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ea",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e8",
+              "_type": "span",
+              "marks": [],
+              "text": "Clínica de primeros auxilios con servicio médico de guardia"
+            },
+            {
+              "_key": "0000000000e9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000eb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ec",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ed",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ee",
+              "_type": "span",
+              "marks": [],
+              "text": "Lavandería y limpieza en seco"
+            },
+            {
+              "_key": "0000000000ef",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f4",
+              "_type": "span",
+              "marks": [],
+              "text": "Televisores LCD y canales vía satélite"
+            },
+            {
+              "_key": "0000000000f5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000fc",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fa",
+              "_type": "span",
+              "marks": [],
+              "text": "Menaje para preparar té y café"
+            },
+            {
+              "_key": "0000000000fb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000102",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000fd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fe",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ff",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000100",
+              "_type": "span",
+              "marks": [],
+              "text": "Caja fuerte y minibar en la habitación"
+            },
+            {
+              "_key": "000000000101",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000108",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000103",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000104",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000105",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000106",
+              "_type": "span",
+              "marks": [],
+              "text": "Programa de cine y equipo de música internos"
+            },
+            {
+              "_key": "000000000107",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000010e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000109",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010c",
+              "_type": "span",
+              "marks": [],
+              "text": "Conexión a Internet"
+            },
+            {
+              "_key": "00000000010d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000114",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000010f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000110",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000111",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000112",
+              "_type": "span",
+              "marks": [],
+              "text": "Teléfonos con marcación directa internacional"
+            },
+            {
+              "_key": "000000000113",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000011a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000115",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000116",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000117",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000118",
+              "_type": "span",
+              "marks": [],
+              "text": "Hay camarotes conectados"
+            },
+            {
+              "_key": "000000000119",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "ソネスタ月の女神"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "ホテルについて"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "ホテルプロフィール：ソネスタ ムーン ゴッデス ナイル クルーズ シップ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "ホテルプロフィール: ソネスタ・ムーン・ゴッデス号ナイルクルーズ船 ソネスタ・ムーン・ゴッデス号ナイルクルーズ船に乗り、贅沢と発見の旅に出ましょう。その完璧なサービスとエレガントなデザインで名高いこのクルーズ船は、神秘的なナイル川の宝物を探る比類のない方法を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "宿泊施設"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "ソネスタ・ムーン・ゴッデス号には、49室の豪華キャビンと4室の専用大統領スイートがあり、それぞれが最高の快適さとスタイルを提供するようにデザインされています。各キャビンは洗練されたモダンな家具が備え付けられ、スライディングガラスドアがあり、プライベートバルコニーに直接アクセスできます。これらのバルコニーはナイル川の魅惑的な景色を楽しむための個人的な観覧プラットフォームとして機能し、船内での瞬間がいずれも壮観であることを保証します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "4室の大統領スイートは、さらに体験を高め、プライベートラウンジエリアを含む広々とした空間を提供します。洗練された装飾と最上級のアメニティが施され、これらのスイートは川の景色と静かなプライバシーを楽しむことができる「我が家」を感じさせる特別な空間です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "主要なドッキング場所"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "戦略的に最適な場所に停泊するソネスタ・ムーン・ゴッデス号は、エジプトの最も象徴的な観光地への直接アクセスを提供します。ルクソールでは、船はルクソール神殿の前に堂々と停泊し、ルクソール橋の手前に位置し、ゲストは古代の歴史の中心地に直接上陸することができます。一方、アスワンでは、船はナイル・ドリーム・ドックに停泊し、アスワン・スポーツ・クラブの正面に位置します。これらの prime docking spots（主要な停泊地）は、ゲストが地元の観光地、ショッピングなどへの便利なアクセスを楽しめることを保証し、探索を簡単で楽しいものにしています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "機内アメニティとサービス"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "船内では、ゲストに最高級のアメニティが提供されます。国際的な料理や地元料理を楽しめる高級レストランから、ナイル川での夜を豊かにするさまざまなエンターテイメントまで、すべてのディテールがあなたの体験を向上させるように慎重に整えられています。船には、広々としたサンデッキやプールを備えたウェルネス施設も完備しており、冒険の一日の後にリラックスしたり、単にパノラマの川の景色を楽しんだりするのに最適な場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "文化と景観のツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "このクルーズの旅程は、エジプトで最も尊敬される歴史的な名所を訪れるガイド付きツアーを含むように慎重に設計されています。知識豊富なガイドとともに、古代の寺院、墓、記念碑を探訪し、この地域の豊かな歴史を生き生きと感じることができます。各エクスカーションは、エジプトの文化と歴史について深い洞察を提供しながら、ナイル川のクルーズの美しい景色と穏やかなペースを楽しむ時間もしっかりと確保されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "capacity": 53,
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The Sonesta Star Goddess Nile cruiser passing a palm-lined riverbank at dusk."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "El crucero Sonesta Star Goddess pasando una ribera de palmeras del Nilo al anochecer."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "夕暮れにヤシ並木の岸辺を進むソネスタ・スター・ゴッデス号。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-e3bf72ac9d529099d94befee5a436b36107be9aa-3000x2000-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The Sonesta Star Goddess glides past palm groves in the fading evening light."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "El Sonesta Star Goddess se desliza junto a palmerales al atardecer."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "夕暮れの光のなか、ヤシ林の岸辺を進むソネスタ・スター・ゴッデス号。"
+      }
+    ]
+  },
+  "migration": {
+    "migratedAt": "2026-05-14T16:06:52.128Z",
+    "source": "wp-import",
+    "typeInference": "default-cruise-ship",
+    "wpId": 64340,
+    "wpModifiedAt": "2025-04-09T06:53:25",
+    "wpTemplate": "",
+    "wpUrl": "https://travel2egypt.org/m-s-moon-goddess-nile-cruise/"
+  },
+  "name": [
+    {
+      "_key": "en",
+      "value": "M/S Sonesta Moon Goddess"
+    },
+    {
+      "_key": "es",
+      "value": "M/S Sonesta Diosa de la Luna"
+    },
+    {
+      "_key": "ja",
+      "value": "M/S ソネスタ・ムーン・ゴッデス"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "m-s-moon-goddess-nile-cruise"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "m-s-sonesta-diosa-de-la-luna"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "m-s-sonesutamungoddesu"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Home Sonesta Moon Goddess About The Hotel Hotel Profile: Sonesta Moon Goddess Nile Cruise Ship Embark on a journey of luxury and discovery aboard the Sonesta Moon Goddess Nile Cruise Ship. Renowned for its impeccable service and elegant des"
+    },
+    {
+      "_key": "es",
+      "value": "Home Sonesta Diosa de la Luna Sobre el Hotel Perfil del hotel: Crucero por el Nilo Sonesta Moon Goddess Embárcate en un viaje de lujo y descubrimientos a bordo del Crucero por el Nilo Sonesta Diosa de la Luna. Conocido por su impecable serv"
+    },
+    {
+      "_key": "ja",
+      "value": "ソネスタ月の女神 ホテルについて ホテルプロフィール：ソネスタ ムーン ゴッデス ナイル クルーズ シップ ホテルプロフィール: ソネスタ・ムーン・ゴッデス号ナイルクルーズ船 ソネスタ・ムーン・ゴッデス号ナイルクルーズ船に乗り、贅沢と発見の旅に出ましょう。その完璧なサービスとエレガントなデザインで名高いこのクルーズ船は、神秘的なナイル川の宝物を探る比類のない方法を提供します。 宿泊施設 ソネスタ・ムーン・ゴッデス号には、49室の豪華キャビンと4室の専用大統領スイートがあり、そ"
+    }
+  ],
+  "tier": "deluxe",
+  "type": "cruise-ship"
+}
