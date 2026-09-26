@@ -10344,12 +10344,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/asuwan-de-otozureru-beki-gensen-9-supotto",
-    "destination": "/ja/blog/asuwan-de-otozureru-beki-basho",
+    "destination": "/ja/guide/asuwan",
     "permanent": true
   },
   {
     "source": "/ja/blog/asuwan-de-taiken-shi-tai-wasure-rare-nai-7-tsu-no-koto",
-    "destination": "/ja/blog/asuwan-de-nani-o-suru-beki-ka",
+    "destination": "/ja/guide/asuwan/asuwan-de-yaru-beki-koto",
     "permanent": true
   },
   {
@@ -10579,7 +10579,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/sharumuerusheiku-de-no-toppu-adobencha-yaru-beki-koto",
-    "destination": "/ja/blog/sharumuerusheiku-de-taiken-shi-tai-koto",
+    "destination": "/ja/guide/sharumu-eru-sheiku/sharumuerusheiku-no-akutibiti",
     "permanent": true
   },
   {
@@ -10589,7 +10589,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/rukusoru-de-no-osusume-akutibiti-ejiputo",
-    "destination": "/ja/blog/rukusoru-de-miru-beki-basho-to-sugoshi-kata",
+    "destination": "/ja/guide/rukusoru/rukusoru-no-akutibiti",
     "permanent": true
   },
   {
@@ -10874,7 +10874,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/furugada-de-taiken-su-beki-33-no-odoroku-beki-koto",
-    "destination": "/ja/blog/harugada-de-nani-o-suru-beki-ka",
+    "destination": "/ja/guide/harugada/harugada-no-akutibiti",
     "permanent": true
   },
   {
@@ -16089,7 +16089,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/cosas-que-hacer-en-sharm-el-sheikh",
-    "destination": "/es/blog/cosas-que-hacer-en-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/actividades-en-sharm-el-sheikh",
     "permanent": true
   },
   {
@@ -18599,7 +18599,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/7-cosas-inolvidables-que-hacer-en-aswan",
-    "destination": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+    "destination": "/es/guide/asuan/que-hacer-en-asuan",
     "permanent": true
   },
   {
@@ -20164,7 +20164,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/top-things-to-do-in-luxor-egypt",
-    "destination": "/blog/top-things-to-do-in-luxor-egypt",
+    "destination": "/guide/luxor/what-to-do-in-luxor",
     "permanent": true
   },
   {
@@ -21135,6 +21135,81 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/blog/hajimete-ejiputo-o-tabi-suru-hito-e",
     "destination": "/ja/journeys/hajimete-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/blog/7-unforgettable-to-do-in-aswan",
+    "destination": "/guide/aswan/things-to-do-in-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+    "destination": "/es/guide/asuan/que-hacer-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/asuwan-de-nani-o-suru-beki-ka",
+    "destination": "/ja/guide/asuwan/asuwan-de-yaru-beki-koto",
+    "permanent": true
+  },
+  {
+    "source": "/blog/places-to-visit-in-aswan",
+    "destination": "/guide/aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/categoria-para-visitar-en-aswan",
+    "destination": "/es/guide/asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/asuwan-de-otozureru-beki-basho",
+    "destination": "/ja/guide/asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/blog/top-things-to-do-in-luxor-egypt",
+    "destination": "/guide/luxor/what-to-do-in-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/lo-mejor-que-hacer-en-luxor",
+    "destination": "/es/guide/luxor/que-hacer-en-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/rukusoru-de-miru-beki-basho-to-sugoshi-kata",
+    "destination": "/ja/guide/rukusoru/rukusoru-no-akutibiti",
+    "permanent": true
+  },
+  {
+    "source": "/blog/33-amazing-things-to-do-in-hurghada",
+    "destination": "/guide/hurghada/activities-in-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/cosas-increibles-que-hacer-en-hurghada",
+    "destination": "/es/guide/hurghada/actividades-en-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/harugada-de-nani-o-suru-beki-ka",
+    "destination": "/ja/guide/harugada/harugada-no-akutibiti",
+    "permanent": true
+  },
+  {
+    "source": "/blog/top-adventures-things-to-do-in-sharm-el-sheikh",
+    "destination": "/guide/sharm-el-sheikh/things-to-do-in-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/cosas-que-hacer-en-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/actividades-en-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/sharumuerusheiku-de-taiken-shi-tai-koto",
+    "destination": "/ja/guide/sharumu-eru-sheiku/sharumuerusheiku-no-akutibiti",
     "permanent": true
   }
 ];

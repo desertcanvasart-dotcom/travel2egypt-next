@@ -3185,8 +3185,8 @@
     },
     {
       "source": "/es/7-cosas-inolvidables-que-hacer-en-aswan",
-      "destination": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
-      "previousDestination": null,
+      "destination": "/es/guide/asuan/que-hacer-en-asuan",
+      "previousDestination": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
       "evidence": {
         "source": "/es/7-cosas-inolvidables-que-hacer-en-aswan",
         "destination": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
@@ -3197,6 +3197,11 @@
         "title": "7 Cosas inolvidables que hacer en Aswan — Travel2Egypt",
         "verifiedStatus": 200,
         "verifiedAt": "2026-09-22"
+      },
+      "phase1": {
+        "task": "16",
+        "reason": "previous destination retired in Phase 1; repointed to its final target to avoid a chain",
+        "date": "2026-09-26"
       }
     },
     {
