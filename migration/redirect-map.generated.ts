@@ -10269,7 +10269,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/korona-uirusu-jidai-no-ejiputo-ryoko",
-    "destination": "/ja/blog/pandemikku-go-no-ejiputo-ryoko-de-shitte-oku-koto",
+    "destination": "/ja/travel-tips/ejiputo-nyukoku-gaido",
     "permanent": true
   },
   {
@@ -21020,6 +21020,21 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/egypt-travel-guide/baris/while-you-are-there/getting-around",
     "destination": "/guide/baris/getting-around-in-baris",
+    "permanent": true
+  },
+  {
+    "source": "/blog/traveling-to-egypt-in-the-time-of-coronavirus",
+    "destination": "/travel-tips/passport-and-visa",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/viajar-a-egipto-en-tiempos-del-coronavirus",
+    "destination": "/es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/pandemikku-go-no-ejiputo-ryoko-de-shitte-oku-koto",
+    "destination": "/ja/travel-tips/ejiputo-nyukoku-gaido",
     "permanent": true
   }
 ];
