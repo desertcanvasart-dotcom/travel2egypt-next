@@ -239,5 +239,15 @@
   "target": "https://affordegypt.com/",
   "mode": "cross-domain",
   "activated": "2026-09-26 (owner: affordEgypt.com homepage; EN row + legacy root slug written by hand)"
+ },
+ {
+  "task": "18",
+  "source": "/blog/budget-hotels-near-the-pyramids",
+  "target": "/guide/giza",
+  "mode": "live",
+  "targets": {
+   "en": null
+  },
+  "note": "ES/JA -> Giza guide in their own language (owner, 2026-09-26); EN goes to affordegypt.com (entry above)"
  }
 ]

@@ -10484,7 +10484,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/piramiddo-chikaku-no-yosan-hoteru-ejiputo-no-jimoto-gaido",
-    "destination": "/ja/blog/giza-no-piramiddo-chikaku-no-kakuyasu-hoteru",
+    "destination": "/ja/guide/giza",
     "permanent": true
   },
   {
@@ -21240,6 +21240,16 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/blog/shiwa-oashisu-no-rekishi-to-fukei",
     "destination": "/ja/guide/shiwa-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/hoteles-economicos-cerca-de-las-piramides",
+    "destination": "/es/guide/guiza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/giza-no-piramiddo-chikaku-no-kakuyasu-hoteru",
+    "destination": "/ja/guide/giza",
     "permanent": true
   }
 ];
