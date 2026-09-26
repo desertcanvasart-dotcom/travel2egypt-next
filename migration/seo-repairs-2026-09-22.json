@@ -1367,8 +1367,8 @@
     },
     {
       "source": "/how-to-choose-a-sim-card-for-your-trip-to-egypt",
-      "destination": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
-      "previousDestination": null,
+      "destination": "/travel-tips/staying-connected-in-egypt",
+      "previousDestination": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
       "evidence": {
         "source": "/how-to-choose-a-sim-card-for-your-trip-to-egypt",
         "destination": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
@@ -1379,6 +1379,11 @@
         "title": "SIM Cards for Your Egypt Trip — Travel2Egypt",
         "verifiedStatus": 200,
         "verifiedAt": "2026-09-22"
+      },
+      "phase1": {
+        "task": "7",
+        "reason": "previous destination retired in Phase 1; repointed to its final target to avoid a chain",
+        "date": "2026-09-26"
       }
     },
     {

@@ -10564,7 +10564,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-ryoko-ni-saiteki-na-sim-kado-no-erabikata",
-    "destination": "/ja/blog/ejiputo-ryoko-no-sim-kado",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -17404,12 +17404,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/telefonos-en-egipto",
-    "destination": "/es/travel-tips/telefonos-en-egipto",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
     "permanent": true
   },
   {
     "source": "/ja/ejiputo-de-no-denwa-riyo-nitsuite",
-    "destination": "/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -18019,7 +18019,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/how-to-choose-a-sim-card-for-your-trip-to-egypt",
-    "destination": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
+    "destination": "/travel-tips/staying-connected-in-egypt",
     "permanent": true
   },
   {
@@ -19919,7 +19919,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/travel-tips/telefonos-en-egipto",
-    "destination": "/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   },
   {
@@ -21035,6 +21035,31 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/blog/pandemikku-go-no-ejiputo-ryoko-de-shitte-oku-koto",
     "destination": "/ja/travel-tips/ejiputo-nyukoku-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/blog/how-to-choose-a-sim-card-for-your-trip-to-egypt",
+    "destination": "/travel-tips/staying-connected-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/sim-para-viajar-a-egipto",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-ryoko-no-sim-kado",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/es/travel-tips/telefonos-en-egipto",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
     "permanent": true
   }
 ];
