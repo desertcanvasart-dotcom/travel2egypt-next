@@ -4,7 +4,7 @@ The [Giza](/guide/giza) pyramids, [Luxor](/guide/luxor)'s temples, [Aswan](/guid
 
 A good package does not list sights. It orders the transfers, sets the nights, holds rest time, sources good guides, and chooses boats and hotels well. A package that is only cheap loses time and stamina on the ground.
 
-In Egypt, the design of the itinerary is itself the value. This guide is about reading any package that way, ours included; our own routes are on [Egypt travel packages](href:/egypt-travel-packages).
+In Egypt, the design of the itinerary is itself the value. This guide is about reading any package that way, ours included; our own routes are on [Egypt travel packages](/egypt-travel-packages).
 
 ## The basic route
 
@@ -107,7 +107,7 @@ You can do Egypt independently. With flights, hotels, domestic flights and ride-
 
 Explanation matters greatly for the sites, though. At the Valley of the Kings, Karnak, Saqqara, Abu Simbel and the GEM, what you can read without a guide is limited. Wall paintings, gods, royal names, the orientation of architecture, the difference between tomb and temple don't read off the ground naturally.
 
-The best middle is putting a specialist guide on the important visits while spending evenings and free time on your own. You don't need to do everything in a group. You don't need to do everything alone either. How that plays out between a shared tour and a private one is covered in [group tours vs private tours](/blog/group-tours-vs-private-tours); if you want company without a coach-sized group, see our [small-group travel packages](href:/small-group-travel-packages).
+The best middle is putting a specialist guide on the important visits while spending evenings and free time on your own. You don't need to do everything in a group. You don't need to do everything alone either. How that plays out between a shared tour and a private one is covered in [group tours vs private tours](/blog/group-tours-vs-private-tours); if you want company without a coach-sized group, see our [small-group travel packages](/small-group-travel-packages).
 
 A good package balances this. Use specialisation where sightseeing needs it; leave free time open. The trip doesn't go rigid.
 

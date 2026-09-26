@@ -4,7 +4,7 @@ Pirámides de [Guiza](/guide/giza), templos de [Luxor](/guide/luxor), [Asuán](/
 
 Un buen paquete no es el que acumula más nombres. Es el que ordena bien la ruta, deja noches suficientes en cada lugar, reserva tiempo de descanso, usa buenos guías y elige bien barcos y hoteles. Un paquete que solo es barato se paga en tiempo y energía sobre el terreno.
 
-En Egipto, el diseño del itinerario es parte del valor. Esta guía sirve para leer así cualquier paquete, también los nuestros; nuestras rutas están en [paquetes de viaje a Egipto](href:/es/paquetes-de-viaje-a-egipto).
+En Egipto, el diseño del itinerario es parte del valor. Esta guía sirve para leer así cualquier paquete, también los nuestros; nuestras rutas están en [paquetes de viaje a Egipto](/egypt-travel-packages).
 
 ## La ruta básica que funciona
 
@@ -107,7 +107,7 @@ Egipto se puede viajar por libre. Con vuelos, hoteles, vuelos internos y aplicac
 
 Pero la explicación importa mucho en los sitios. En el Valle de los Reyes, Karnak, Saqqara, Abu Simbel o el GEM, lo que se puede leer sin guía es limitado. Pinturas murales, dioses, nombres reales, la orientación de la arquitectura, la diferencia entre tumba y templo no se leen solos sobre el terreno.
 
-La mejor fórmula intermedia es tener guía especializado en las visitas importantes y dejar libres las noches y algunos ratos. No todo tiene que hacerse en grupo. Tampoco todo tiene que resolverse sin ayuda. Cómo se traduce eso entre un circuito compartido y uno privado lo explicamos en [circuitos en grupo o privados](/blog/group-tours-vs-private-tours); si quieres compañía sin un grupo de autobús, mira nuestros [paquetes en grupo reducido](href:/es/paquetes-en-grupo-reducido).
+La mejor fórmula intermedia es tener guía especializado en las visitas importantes y dejar libres las noches y algunos ratos. No todo tiene que hacerse en grupo. Tampoco todo tiene que resolverse sin ayuda. Cómo se traduce eso entre un circuito compartido y uno privado lo explicamos en [circuitos en grupo o privados](/blog/group-tours-vs-private-tours); si quieres compañía sin un grupo de autobús, mira nuestros [paquetes en grupo reducido](/small-group-travel-packages).
 
 Un buen paquete equilibra las dos cosas: especialización donde la visita la necesita, tiempo libre donde suma. Así el viaje no se vuelve rígido.
 
