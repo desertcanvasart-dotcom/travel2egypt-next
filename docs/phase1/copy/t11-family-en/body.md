@@ -4,7 +4,7 @@ There are three main shapes of family travel in Egypt. One is a Red Sea resort s
 
 Inside the same "Egypt trip," these are quite different in substance. With small children, where you prize daily meals, naps, the pool and short transfers, an all-inclusive on the Red Sea is a strong option. With children who can swim and respond to the underwater world, Sharm or Marsa Alam works well. With children eight and older who can engage with pyramids, mummies and temples, the value of Cairo and Luxor goes up sharply.
 
-So there is no single best family resort. The answer turns on the family's ages, stamina, interests, and how much itinerary the parents want to build. For the wider picture of what Egypt does with children, see [family adventures in Egypt](/blog/family-adventures-in-egypt) and our notes on [travelling as a family](href:/journeys/travelling-as-a-family).
+So there is no single best family resort. The answer turns on the family's ages, stamina, interests, and how much itinerary the parents want to build. For the wider picture of what Egypt does with children, see [family adventures in Egypt](/blog/family-adventures-in-egypt) and our notes on [travelling as a family](/journeys/travelling-as-a-family).
 
 ## Check the beach before the star rating
 

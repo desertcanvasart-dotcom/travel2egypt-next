@@ -4,7 +4,7 @@ Hay tres viajes familiares bastante distintos. Uno es el descanso en el mar Rojo
 
 Dentro del mismo “viaje a Egipto”, no sirven para la misma familia ni para la misma edad. Si viajas con niños pequeños y necesitas comidas fáciles, piscina, siestas y traslados cortos, un todo incluido del mar Rojo suele ser la opción más cómoda. Si los niños ya nadan bien y se interesan por peces y coral, Sharm o Marsa Alam tienen más sentido. Si tienen ocho años o más y reaccionan ante pirámides, momias y templos, El Cairo y Luxor ganan muchísimo valor.
 
-El “mejor” resort familiar no existe en abstracto. Depende de la edad, la energía y los intereses de la familia, y de cuánto itinerario quieren construir los padres. Para una visión más amplia de Egipto con niños, consulta [aventuras en familia en Egipto](/blog/family-adventures-in-egypt) y nuestras notas sobre [viajar en familia](href:/es/journeys/viajar-en-familia).
+El “mejor” resort familiar no existe en abstracto. Depende de la edad, la energía y los intereses de la familia, y de cuánto itinerario quieren construir los padres. Para una visión más amplia de Egipto con niños, consulta [aventuras en familia en Egipto](/blog/family-adventures-in-egypt) y nuestras notas sobre [viajar en familia](/journeys/travelling-as-a-family).
 
 ## Mira la playa antes que las estrellas
 
