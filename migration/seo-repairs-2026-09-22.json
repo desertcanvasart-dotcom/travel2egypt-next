@@ -2554,8 +2554,8 @@
     },
     {
       "source": "/es/historicos-de-egipto",
-      "destination": "/es/blog/historicos-de-egipto",
-      "previousDestination": null,
+      "destination": "/es/guide",
+      "previousDestination": "/es/blog/historicos-de-egipto",
       "evidence": {
         "source": "/es/historicos-de-egipto",
         "destination": "/es/blog/historicos-de-egipto",
@@ -2566,6 +2566,11 @@
         "title": "Lugares históricos que ver en Egipto — Travel2Egypt",
         "verifiedStatus": 200,
         "verifiedAt": "2026-09-22"
+      },
+      "phase1": {
+        "task": "14",
+        "reason": "previous destination retired in Phase 1; repointed to its final target to avoid a chain",
+        "date": "2026-09-26"
       }
     },
     {

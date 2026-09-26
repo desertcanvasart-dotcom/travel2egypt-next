@@ -10274,7 +10274,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-horide-puran",
-    "destination": "/ja/blog/ejiputo-no-horide-puran",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
     "permanent": true
   },
   {
@@ -10299,7 +10299,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/wasure-rare-nai-ejiputo-ryoko-zettai-ni-otozureru-beki",
-    "destination": "/ja/blog/ejiputo-de-kyuka-o-sugosu-nara",
+    "destination": "/ja/journeys/hajimete-no-ejiputo",
     "permanent": true
   },
   {
@@ -10369,7 +10369,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-no-rekishi-teki-meisho-toki-o-koe-ta-tabi",
-    "destination": "/ja/blog/ejiputo-de-otozureru-beki-rekishi-teki-na-basho",
+    "destination": "/ja/guide",
     "permanent": true
   },
   {
@@ -10794,7 +10794,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-o-meguru-tabi-saiko-no-ejiputo-tsua-taiken",
-    "destination": "/ja/blog/hajimete-ejiputo-o-tabi-suru-hito-e",
+    "destination": "/ja/journeys/hajimete-no-ejiputo",
     "permanent": true
   },
   {
@@ -10969,7 +10969,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-de-otozureru-beki-saiko-no-kanko-chi",
-    "destination": "/ja/blog/ejiputo-de-otozureru-beki-basho",
+    "destination": "/ja/guide",
     "permanent": true
   },
   {
@@ -16064,7 +16064,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/la-mejor-experiencia-en-tours-por-egipto",
-    "destination": "/es/blog/la-mejor-experiencia-en-tours-por-egipto",
+    "destination": "/es/journeys/primera-vez-en-egipto",
     "permanent": true
   },
   {
@@ -16184,7 +16184,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/vacaciones-inolvidables-en-egipto",
-    "destination": "/es/blog/vacaciones-inolvidables-en-egipto",
+    "destination": "/es/journeys/primera-vez-en-egipto",
     "permanent": true
   },
   {
@@ -16214,7 +16214,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/touring-egypt",
-    "destination": "/blog/touring-egypt",
+    "destination": "/journeys/first-time-in-egypt",
     "permanent": true
   },
   {
@@ -18394,7 +18394,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/historicos-de-egipto",
-    "destination": "/es/blog/historicos-de-egipto",
+    "destination": "/es/guide",
     "permanent": true
   },
   {
@@ -19109,7 +19109,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/blog/vacaciones-inolvidables-en-egipto",
-    "destination": "/blog/vacation-in-egypt",
+    "destination": "/es/journeys/primera-vez-en-egipto",
     "permanent": true
   },
   {
@@ -21060,6 +21060,81 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite",
     "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/blog/egypt-holiday-deals",
+    "destination": "/egypt-travel-packages",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/ofertas-de-vacaciones-en-egipto",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-horide-puran",
+    "destination": "/ja/ejiputo-ryoko-pakkeeji",
+    "permanent": true
+  },
+  {
+    "source": "/blog/vacation-in-egypt",
+    "destination": "/journeys/first-time-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/vacaciones-inolvidables-en-egipto",
+    "destination": "/es/journeys/primera-vez-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-kyuka-o-sugosu-nara",
+    "destination": "/ja/journeys/hajimete-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/blog/best-places-to-visit-in-egypt",
+    "destination": "/guide",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/los-mejores-lugares-que-visitar-en-egipto",
+    "destination": "/es/guide",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-otozureru-beki-basho",
+    "destination": "/ja/guide",
+    "permanent": true
+  },
+  {
+    "source": "/blog/places-in-egypt",
+    "destination": "/guide",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/historicos-de-egipto",
+    "destination": "/es/guide",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-otozureru-beki-rekishi-teki-na-basho",
+    "destination": "/ja/guide",
+    "permanent": true
+  },
+  {
+    "source": "/blog/touring-egypt",
+    "destination": "/journeys/first-time-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/la-mejor-experiencia-en-tours-por-egipto",
+    "destination": "/es/journeys/primera-vez-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/hajimete-ejiputo-o-tabi-suru-hito-e",
+    "destination": "/ja/journeys/hajimete-no-ejiputo",
     "permanent": true
   }
 ];
