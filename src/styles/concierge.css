@@ -779,6 +779,7 @@
   background: var(--cnc-accent-tint);
 }
 .cnc-escape-option:disabled { opacity: 0.5; cursor: not-allowed; }
+a.cnc-escape-option { text-decoration: none; color: inherit; }
 .cnc-escape-option__title {
   font-family: var(--cnc-ui);
   font-size: 0.9375rem;

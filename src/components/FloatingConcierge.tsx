@@ -114,14 +114,9 @@ export function FloatingConcierge() {
           <ul className="t2e-conc-list">
             {prompts.map((prompt) => (
               <li key={prompt}>
-                <button
-                  type="button"
-                  onClick={() =>
-                    window.open(whatsappUrl(prompt), '_blank', 'noopener,noreferrer')
-                  }
-                >
+                <a href={whatsappUrl(prompt)} target="_blank" rel="noopener noreferrer">
                   {prompt}
-                </button>
+                </a>
               </li>
             ))}
           </ul>
@@ -131,7 +126,13 @@ export function FloatingConcierge() {
             e.preventDefault();
             const message = draft.trim();
             if (!message) return;
-            window.open(whatsappUrl(message), '_blank', 'noopener,noreferrer');
+            // Enter follows a real link (see the list above) rather than
+            // window.open, which popup blockers intercept.
+            const link = document.createElement('a');
+            link.href = whatsappUrl(message);
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.click();
           }}
         >
           <input
