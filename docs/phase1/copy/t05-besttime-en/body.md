@@ -94,7 +94,7 @@ A summer trip has to be designed differently. Concentrate sites in the early mor
 
 Beyond the season, the time of day matters. At the Valley of the Kings, Karnak, Edfu and Philae especially, getting in close to opening time changes the visit. To avoid the worst crowds, skip late December into early January, and skip Easter. November, February, early March, late April and late October tend to balance conditions and crowd.
 
-For the boats, routes and what to check before booking, see [our guide to a Nile cruise in Egypt](/blog/the-definitive-guide-to-egypt-nile-cruise) and our [Nile cruise itineraries](href:/nile-cruises).
+For the boats, routes and what to check before booking, see [our guide to a Nile cruise in Egypt](/blog/the-definitive-guide-to-egypt-nile-cruise) and our [Nile cruise itineraries](/nile-cruises).
 
 ## On Ramadan
 

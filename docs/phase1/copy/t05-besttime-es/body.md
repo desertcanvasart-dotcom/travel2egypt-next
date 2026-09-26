@@ -92,7 +92,7 @@ Pero un viaje de verano debe diseñarse de otra manera. Las visitas se concentra
 
 Además de la temporada, importa la hora. En el Valle de los Reyes, Karnak, Edfu y File, entrar cerca de la apertura cambia por completo la visita. Para reducir la presión de visitantes, conviene evitar la segunda mitad de diciembre, los primeros días de enero y Semana Santa. Noviembre, febrero, la primera mitad de marzo, finales de abril y finales de octubre suelen ofrecer el mejor equilibrio entre clima y afluencia.
 
-Para elegir barco, ruta y qué revisar antes de reservar, consulte [nuestra guía del crucero por el Nilo en Egipto](/blog/the-definitive-guide-to-egypt-nile-cruise) y nuestros [itinerarios de crucero por el Nilo](href:/es/nile-cruises).
+Para elegir barco, ruta y qué revisar antes de reservar, consulte [nuestra guía del crucero por el Nilo en Egipto](/blog/the-definitive-guide-to-egypt-nile-cruise) y nuestros [itinerarios de crucero por el Nilo](/nile-cruises).
 
 ## Viajar durante Ramadán
 
