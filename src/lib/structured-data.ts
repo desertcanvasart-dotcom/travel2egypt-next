@@ -14,6 +14,7 @@
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
+import { ETAA_LICENCE_URL, LEGAL_NAME } from './company';
 import { siteUrlBase } from './path-from-doc';
 
 const SITE_NAME = 'Travel2Egypt';
@@ -114,9 +115,9 @@ const ACCREDITATIONS: Array<{ name: string; org: string; url?: string }> = [
     url: 'https://www.asta.org/',
   },
   {
-    name: 'ETAA accredited',
+    name: 'ETAA licensed travel agency (licence no. 2179)',
     org: 'Egyptian Travel Agents Association',
-    url: 'https://www.etaa-egypt.org/',
+    url: ETAA_LICENCE_URL,
   },
 ];
 
@@ -178,6 +179,7 @@ export function buildOrganizationSchema(input: OrganizationInput) {
     description: input.tagline ?? 'Egyptian travel operator since 1993.',
     slogan: input.tagline,
     url: SITE_URL,
+    legalName: LEGAL_NAME,
     foundingDate: '1993',
     ...(logoUrl
       ? {

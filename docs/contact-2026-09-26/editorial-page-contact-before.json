@@ -1,0 +1,538 @@
+{
+ "_createdAt": "2026-05-16T18:24:38Z",
+ "_id": "editorial-page-contact",
+ "_rev": "u771oJL7tQyayKi2DUTzjF",
+ "_type": "editorialPage",
+ "_updatedAt": "2026-05-16T18:24:38Z",
+ "bottomCtaBody": [
+  {
+   "_key": "en",
+   "value": "Tell us what you're thinking — a rough idea is enough to start. We'll take it from there."
+  }
+ ],
+ "bottomCtaHeading": [
+  {
+   "_key": "en",
+   "value": "Ready when you are"
+  }
+ ],
+ "bottomCtaPrimary": {
+  "href": "https://wa.me/201158011600?text=Hi%20Travel2Egypt%2C%20I'd%20like%20to%20talk%20about%20planning%20a%20trip.",
+  "label": [
+   {
+    "_key": "en",
+    "value": "Talk to us on WhatsApp"
+   }
+  ]
+ },
+ "heroHeading": [
+  {
+   "_key": "en",
+   "value": "Get in touch"
+  }
+ ],
+ "heroPrimaryCta": {
+  "href": "https://wa.me/201158011600?text=Hi%20Travel2Egypt%2C%20I'd%20like%20to%20talk%20about%20planning%20a%20trip.",
+  "label": [
+   {
+    "_key": "en",
+    "value": "Talk to us on WhatsApp"
+   }
+  ]
+ },
+ "heroSubhead": [
+  {
+   "_key": "en",
+   "value": "Direct lines to the team. Real responses, fast."
+  }
+ ],
+ "kind": "contact",
+ "lastUpdated": "2026-05-16",
+ "sections": [
+  {
+   "_key": "470ed0c89c8e",
+   "_type": "section",
+   "body": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "2cbf273a6e8c",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "24b81b95f832",
+         "_type": "span",
+         "marks": [],
+         "text": "We're a small, founder-led team and we answer our own messages. Pick whatever's easiest for you."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "faabb3f8cfab",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "0897eeb82a4a",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "WhatsApp"
+        },
+        {
+         "_key": "5a1e51de9e85",
+         "_type": "span",
+         "marks": [],
+         "text": " — "
+        },
+        {
+         "_key": "a83e82a93541",
+         "_type": "span",
+         "marks": [
+          "b4baf6781bc4"
+         ],
+         "text": "+20 115 801 1600"
+        },
+        {
+         "_key": "7a8d92230452",
+         "_type": "span",
+         "marks": [],
+         "text": ". The fastest way to reach us, and the one we recommend."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [
+        {
+         "_key": "b4baf6781bc4",
+         "_type": "externalLink",
+         "href": "https://wa.me/201158011600",
+         "newTab": true
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "299525d505d9",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "fa40697eacaf",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Email"
+        },
+        {
+         "_key": "c46c4ead1cbb",
+         "_type": "span",
+         "marks": [],
+         "text": " — "
+        },
+        {
+         "_key": "9d5a1c06dec7",
+         "_type": "span",
+         "marks": [
+          "4e9a34e61870"
+         ],
+         "text": "info@travel2egypt.org"
+        },
+        {
+         "_key": "0d9b0292de80",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [
+        {
+         "_key": "4e9a34e61870",
+         "_type": "externalLink",
+         "href": "mailto:info@travel2egypt.org",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      },
+      {
+       "_key": "2dd1195e1bc2",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "a286dd556708",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "Phone"
+        },
+        {
+         "_key": "9bfeb85f301e",
+         "_type": "span",
+         "marks": [],
+         "text": " — "
+        },
+        {
+         "_key": "a1a6ca09a738",
+         "_type": "span",
+         "marks": [
+          "34c71c8e1deb"
+         ],
+         "text": "+20 115 801 1600"
+        },
+        {
+         "_key": "10a55b7ac527",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [
+        {
+         "_key": "34c71c8e1deb",
+         "_type": "externalLink",
+         "href": "tel:+201158011600",
+         "newTab": false
+        }
+       ],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "heading": [
+    {
+     "_key": "en",
+     "value": "How to reach us"
+    }
+   ]
+  },
+  {
+   "_key": "2262ae9116be",
+   "_type": "section",
+   "body": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "3771794d31cf",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "a2067063c02c",
+         "_type": "span",
+         "marks": [],
+         "text": "We answer fast, and we hold ourselves to it:"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "fb791fc8fba2",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "7872a287633a",
+         "_type": "span",
+         "marks": [],
+         "text": "Send an inquiry "
+        },
+        {
+         "_key": "602e8a74c9b8",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "before 1 PM Cairo time"
+        },
+        {
+         "_key": "eaba472713d6",
+         "_type": "span",
+         "marks": [],
+         "text": ", and you’ll have a reply by "
+        },
+        {
+         "_key": "e815e23c1dfa",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "8 PM Cairo time the same day"
+        },
+        {
+         "_key": "54533e1a7913",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "3a6e472a5941",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "3098b44ba129",
+         "_type": "span",
+         "marks": [],
+         "text": "Send it "
+        },
+        {
+         "_key": "fc7a09ffb939",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "after 1 PM"
+        },
+        {
+         "_key": "94536ef6ad64",
+         "_type": "span",
+         "marks": [],
+         "text": ", and you’ll hear back by "
+        },
+        {
+         "_key": "3aad1d605ff4",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "10 AM Cairo time the next morning"
+        },
+        {
+         "_key": "bd09ace8b992",
+         "_type": "span",
+         "marks": [],
+         "text": "."
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "f2668c1bc108",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "0af9a402e665",
+         "_type": "span",
+         "marks": [],
+         "text": "This commitment runs seven days a week, holidays included. It’s a promise, not an aspiration — we honor it."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "heading": [
+    {
+     "_key": "en",
+     "value": "When you'll hear back"
+    }
+   ]
+  },
+  {
+   "_key": "bf7aca1f37f6",
+   "_type": "section",
+   "body": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "9718446d407f",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "e876841762d4",
+         "_type": "span",
+         "marks": [],
+         "text": "Cairo, Egypt."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "45a34bf8dff6",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "040357c31b7d",
+         "_type": "span",
+         "marks": [],
+         "text": "We’re Egyptian-run, founder-led, and online-focused. Islam has worked in Egyptian travel since 1993, and Travel2Egypt has been a registered company since 2003. We work in English, Spanish, Japanese, Finnish, and Arabic."
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "heading": [
+    {
+     "_key": "en",
+     "value": "Where we're based"
+    }
+   ]
+  },
+  {
+   "_key": "b977c08f393c",
+   "_type": "section",
+   "body": [
+    {
+     "_key": "en",
+     "_type": "object",
+     "value": [
+      {
+       "_key": "aa2af0fe927a",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "19c1aa6b91ff",
+         "_type": "span",
+         "marks": [],
+         "text": "We’re members of the travel industry’s established bodies:"
+        }
+       ],
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "fc41014c810b",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "e404502d95c1",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "JATA"
+        },
+        {
+         "_key": "5f2fcf03cc9c",
+         "_type": "span",
+         "marks": [],
+         "text": " — Japan Association of Travel Agents"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "51c9ba8fc291",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "3658acbeca03",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "IATA"
+        },
+        {
+         "_key": "d32535846bac",
+         "_type": "span",
+         "marks": [],
+         "text": " — International Air Transport Association"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "2cb2dc393fb4",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "79a519498c57",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ASTA"
+        },
+        {
+         "_key": "b63bc7e4ca4c",
+         "_type": "span",
+         "marks": [],
+         "text": " — American Society of Travel Advisors"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      },
+      {
+       "_key": "e3ae29717463",
+       "_type": "block",
+       "children": [
+        {
+         "_key": "6d1c30f13ac4",
+         "_type": "span",
+         "marks": [
+          "strong"
+         ],
+         "text": "ETAA"
+        },
+        {
+         "_key": "dbd3f4613073",
+         "_type": "span",
+         "marks": [],
+         "text": " — Egyptian Travel Agents Association"
+        }
+       ],
+       "level": 1,
+       "listItem": "bullet",
+       "markDefs": [],
+       "style": "normal"
+      }
+     ]
+    }
+   ],
+   "heading": [
+    {
+     "_key": "en",
+     "value": "Accreditations"
+    }
+   ]
+  }
+ ],
+ "slug": [
+  {
+   "_key": "en",
+   "value": {
+    "_type": "slug",
+    "current": "contact"
+   }
+  }
+ ],
+ "title": "Contact"
+}
