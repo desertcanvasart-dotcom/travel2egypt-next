@@ -36,7 +36,7 @@ La desventaja es la menor flexibilidad. Los barcos grandes siguen horarios fijos
 
 No conviene decidir solo por el número de estrellas. El estado del camarote, la comida, el guía, el tamaño del grupo, el tiempo real en tierra, el punto de atraque y la forma en que se organizan las excursiones influyen mucho más en la experiencia que una categoría comercial tomada de manera aislada.
 
-Para comparar rutas y barcos actuales, consulte nuestros [itinerarios de crucero por el Nilo](href:/es/nile-cruises).
+Para comparar rutas y barcos actuales, consulte nuestros [itinerarios de crucero por el Nilo](/nile-cruises).
 
 ## Dahabiyas
 

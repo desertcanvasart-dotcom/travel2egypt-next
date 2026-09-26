@@ -36,7 +36,7 @@ Large ships move on set schedules, with limited port-stop freedom. Multiple ship
 
 Choosing motor cruises, don't judge by star count alone. Cabin condition, food, guide, passenger count, port-stop time, and which bank the ship moors — many factors shape experience.
 
-To compare current routes and boats, see our [Nile cruise itineraries](href:/nile-cruises).
+To compare current routes and boats, see our [Nile cruise itineraries](/nile-cruises).
 
 ## Dahabiyas
 
