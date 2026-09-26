@@ -47,6 +47,7 @@ Branch: `claude/brave-mayer-p92z0s` (built on `content/phase1-consolidation`; th
   - Each link goes to the target **in the language of the body it sits in**.
   - Absolute travel2egypt.org links become relative, per the canon.
 - **Existing drafts kept:** documents that already had a draft were edited on top of it, so pending work is kept.
+- **One overwrite, found and reverted.** The first relink run overwrote one existing draft, the Task 16 Sharm "Things to Do" draft (`wp-page-60487`), with an edit of the published page. The script only picked up drafts that themselves contained a stale link. The Phase 1 draft was re-staged from its locked copy; it is identical to the pre-relink draft, checked against a dataset export taken beforehand. `relink.py` now always builds on an existing draft. A re-run plans 0 further changes, and no other document was affected (all 243 checked against the export).
 - **Task 12/18 links:** listed in `notes/task12-inbound-links.md` and `notes/task18.md`, not changed, as the brief asks.
 - **Hard-coded links in `src/`:** none point at a redirected Phase 1 source. Two point at Task 12 posts (see Decisions).
 - **Sitemap:** `src/app/sitemap.ts` reads published documents only, and `finalizeSitemap` drops every redirect-map source. Redirected and unpublished URLs therefore drop out without further work. `test:migration-routing` covers this (sitemap-policy passed).

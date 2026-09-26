@@ -206,6 +206,11 @@ def main():
     docs = [x for x in docs if not (x["_id"] in seen or seen.add(x["_id"]))]
     pubs = {d["_id"]: d for d in docs if not d["_id"].startswith("drafts.")}
     drafts = {d["_id"][7:]: d for d in docs if d["_id"].startswith("drafts.")}
+    # Always build on an existing draft, even one that itself holds no stale link
+    # (otherwise a published-based edit would overwrite it).
+    ids = sorted(set(pubs) | set(drafts))
+    for d in ptmd.groq("*[_id in $ids]", ids=["drafts." + i for i in ids]):
+        drafts[d["_id"][7:]] = d
     # documents that reference only via draft still count: include their published versions
     for i in drafts:
         if i not in pubs:

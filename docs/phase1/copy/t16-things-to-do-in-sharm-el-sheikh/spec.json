@@ -2,5 +2,12 @@
   "doc": "wp-page-60487",
   "task": "16",
   "base": "published",
-  "bodies": {"body": {"en": "body.en.md", "es": "body.es.md", "ja": "body.ja.md"}}
+  "bodies": {
+    "body": {
+      "en": "body.en.md",
+      "es": "body.es.md",
+      "ja": "body.ja.md"
+    }
+  },
+  "existing_draft": "replace-ok: restores the Phase 1 draft after relink.py overwrote it with a published-based edit (2026-09-26); the prior Phase 1 draft equals this copy"
 }
