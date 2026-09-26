@@ -70,13 +70,17 @@ export function EscapeHatch({
     }).catch(() => {});
   }
 
+  const whatsappText = sessionRef
+    ? t('escapeWhatsappText', { ref: sessionRef })
+    : t('escapeWhatsappTextNoRef');
+
+  // A real link, not window.open: the browser follows target=_blank itself,
+  // so popup blockers (Chrome's and extension-based) don't intercept it — the
+  // window.open version was blocked on /plan-your-tour (2026-09-26).
   function onWhatsApp() {
-    const ref = sessionRef ?? '';
-    const text = ref ? t('escapeWhatsappText', { ref }) : t('escapeWhatsappTextNoRef');
-    // Open synchronously on the click (avoids popup blockers); record after.
-    window.open(whatsappUrl(text), '_blank', 'noopener,noreferrer');
     record('whatsapp');
-    close();
+    // Close after the browser has followed the link.
+    setTimeout(close, 0);
   }
 
   function onContinue() {
@@ -142,10 +146,16 @@ export function EscapeHatch({
           <h2 className="cnc-escape-modal__heading">{t('escapeHeading')}</h2>
           <p className="cnc-escape-modal__sub">{t('escapeSub')}</p>
           <div className="cnc-escape-options">
-            <button type="button" className="cnc-escape-option" onClick={onWhatsApp}>
+            <a
+              className="cnc-escape-option"
+              href={whatsappUrl(whatsappText)}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={onWhatsApp}
+            >
               <span className="cnc-escape-option__title">{t('escapeWhatsappTitle')}</span>
               <span className="cnc-escape-option__desc">{t('escapeWhatsappDesc')}</span>
-            </button>
+            </a>
             <button
               type="button"
               className="cnc-escape-option"

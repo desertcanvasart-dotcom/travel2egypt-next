@@ -195,8 +195,8 @@
 .t2e-conc-list { list-style: none; margin-bottom: 22px; }
 .t2e-conc-list li { padding: 11px 0; border-bottom: 1px solid var(--rule-soft); }
 .t2e-conc-list li:last-child { border-bottom: 0; }
-.t2e-conc-list button { background: transparent; border: 0; text-align: left; width: 100%; cursor: pointer; font-family: var(--ui); font-size: 13px; color: var(--navy); line-height: 1.4; display: flex; gap: 9px; padding: 0; }
-.t2e-conc-list button::before { content: "→"; color: var(--gold); font-family: var(--display); }
+.t2e-conc-list button, .t2e-conc-list a { background: transparent; border: 0; text-align: left; width: 100%; cursor: pointer; font-family: var(--ui); font-size: 13px; color: var(--navy); line-height: 1.4; display: flex; gap: 9px; padding: 0; text-decoration: none; }
+.t2e-conc-list button::before, .t2e-conc-list a::before { content: "→"; color: var(--gold); font-family: var(--display); }
 .t2e-conc-input { border: 1px solid var(--rule); background: var(--paper-warm); padding: 12px 14px; width: 100%; font-family: var(--ui); font-size: 13px; color: var(--navy); }
 .t2e-conc-input:focus { border-color: var(--gold); }
 .t2e-conc-close { position: absolute; top: 16px; right: 16px; background: transparent; border: 0; cursor: pointer; color: var(--navy-mute); font-size: 17px; font-family: var(--display); }
