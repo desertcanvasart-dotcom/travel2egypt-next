@@ -1,0 +1,1486 @@
+{
+  "_createdAt": "2026-05-04T20:34:50Z",
+  "_id": "wp-page-78448",
+  "_rev": "u771oJL7tQyayKi2DUTrUz",
+  "_system": {
+    "base": {
+      "id": "wp-page-78448",
+      "rev": "iPsARNKARC3Pl1oe0HTwYr"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:03:26Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "dqhw0dvf9yvg",
+              "_type": "span",
+              "marks": [],
+              "text": "Arrival in "
+            },
+            {
+              "_key": "gy0oe6l4uegc",
+              "_type": "span",
+              "marks": [
+                "al1mrar022lg"
+              ],
+              "text": "Hurghada"
+            },
+            {
+              "_key": "gtx81s03sq9u",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "al1mrar022lg",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1) Arrival by Air"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "For those journeying from Europe, the skies offer the most direct path to Hurghada. The city is served by an International Airport, providing direct flights to major hubs across Europe and the Middle East. These flights typically range from 4 to 5 hours, presenting a swift and comfortable travel experience."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Alternatively, you can opt for a "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "000000000007"
+              ],
+              "text": "flight to Cairo"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": " followed by a short, one-hour domestic flight to Hurghada via "
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "00000000000a"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": " Air. This two-leg journey offers an opportunity to briefly experience "
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "00000000000d"
+              ],
+              "text": "Egypt’s"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": " capital before heading to the coastal city."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000007",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/full-day-trip-to-cairo-by-plane-from-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/full-day-trip-to-cairo-by-plane-from-luxor",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Egypt",
+              "newTab": true
+            },
+            {
+              "_key": "00000000000d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/contact-us/"
+              },
+              "_type": "externalLink",
+              "href": "/contact",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "Upon arrival at Hurghada Airport, a 30-minute taxi ride is all that separates you from the soothing embrace of the Red Sea at your beachside "
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "hotel"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "2) Traveling by Road"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "2wwwcryez066",
+              "_type": "span",
+              "marks": [],
+              "text": "For those who prefer a road adventure, various transportation companies operate public bus services from "
+            },
+            {
+              "_key": "2gx0xh3nz4jx",
+              "_type": "span",
+              "marks": [
+                "v2mibsqghu7i"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "9kpz0eumcr62",
+              "_type": "span",
+              "marks": [],
+              "text": " to Hurghada. Ticket prices vary slightly between companies, typically ranging from $10 to $20, depending on the bus type. These buses offer a comfortable journey, complete with air-conditioning and on-board "
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "000000000019"
+              ],
+              "text": "toilet"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": " facilities."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000019",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/toilets-in-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/travel-tips/toilets-in-egypt",
+              "newTab": false
+            },
+            {
+              "_key": "v2mibsqghu7i",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "Among these, Blue Bus is highly recommended for its commitment to "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "00000000001e"
+              ],
+              "text": "safety"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": " and maintenance standards. This newer company provides regular, reliable "
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "000000000021"
+              ],
+              "text": "service and allows for convenient online booking"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/safety-guide-for-travelers-to-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/guia-de-seguridad-para-viajeros-en-egipto-2025-2026",
+              "newTab": false
+            },
+            {
+              "_key": "000000000021",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/the-egypt-panorama-tour-8-days/"
+              },
+              "_type": "externalLink",
+              "href": "/8-days-egypt-panorama-tour",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "You can book online "
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "000000000026"
+              ],
+              "text": "here"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000026",
+              "_type": "externalLink",
+              "href": "https://bluebus.com.eg/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "3) Voyage by Sea"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "For a scenic alternative, consider the fast boat service from "
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "00000000002c"
+              ],
+              "text": "Sharm El Sheikh"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": " to Hurghada. This approximately 1 hour and 30-minute "
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "00000000002f"
+              ],
+              "text": "journey across"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " the Red Sea costs around \\$50 for a one-way ticket. Operated by International Fast Ferries, this route "
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "000000000032"
+              ],
+              "text": "offers a unique"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " perspective of Egypt’s stunning coastal landscape."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/sharm-el-sheikh-travel-guide/resort-city/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/sharm-el-sheikh/sharm-el-sheikh-historical-overview",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/qena-travel-guide/journeying-across/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/qena/navigating-qena",
+              "newTab": false
+            },
+            {
+              "_key": "000000000032",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/nour-el-nil-assouan-dahabiya/"
+              },
+              "_type": "externalLink",
+              "href": "/nile-cruises/nour-el-nil-assouan-dahabiya",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "Each of these "
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "000000000037"
+              ],
+              "text": "travel methods to Hurghada"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": " offers its own unique charm, whether you’re soaring above the clouds, traversing the scenic Egyptian landscape, or gliding across the crystal-clear waters of the Red Sea."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000037",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/hurghada-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/hurghada",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Hurghada-Marina.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A person walking on a wooden pier at Hurghada Marina with clear turquoise waters on either side, leading to a rustic shoreline establishment under a bright blue sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Embracing the calmness of Hurghada Marina, where the sea whispers to the shore"
+            }
+          ]
+        },
+        {
+          "_key": "00000000003c",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/07e6bd85-city-34001-164d30f2374.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Palm trees lining a tranquil beach resort with straw-covered sunshades and a clear blue sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Sunshine and serenity at a picturesque beach resort"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "dywsxj63i0g6",
+              "_type": "span",
+              "marks": [],
+              "text": "Cómo ir a "
+            },
+            {
+              "_key": "k4gf7j85vlt6",
+              "_type": "span",
+              "marks": [
+                "295wnofppili"
+              ],
+              "text": "Hurghada"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "295wnofppili",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1) Llegada por avión"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Para los que viajan desde Europa, el cielo ofrece la ruta más directa a Hurghada."
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": " La ciudad cuenta con un aeropuerto internacional que ofrece vuelos directos a los principales centros de Europa y Oriente Medio."
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": " Estos vuelos suelen durar entre 4 y 5 horas, lo que supone una experiencia de "
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "000000000009"
+              ],
+              "text": "viaje"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": " rápida y cómoda. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000009",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/viaje/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/alejandria/como-llegar-a-alejandria",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Alternativamente, puedes optar "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "por un vuelo a El Cairo"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": " seguido de un corto vuelo nacional de una hora a Hurghada vía Egypt Air."
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " Este viaje de dos etapas te ofrece la oportunidad de conocer brevemente la capital de "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "000000000013"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " antes de dirigirte a la ciudad costera. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+              "newTab": false
+            },
+            {
+              "_key": "000000000013",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/el-templo-de-amada",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "A tu llegada al "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "aeropuerto de Hurghada"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": ", un trayecto de 30 minutos en taxi es todo lo que te separa del relajante abrazo del Mar Rojo en tu hotel junto a la playa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "2) Viajar por carretera"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "00000000001e"
+              ],
+              "text": "Para quienes prefieran una aventura por"
+            },
+            {
+              "_key": "1s4b7tnr8dhv",
+              "_type": "span",
+              "marks": [],
+              "text": " carretera, varias empresas de transporte operan servicios públicos de autobús de "
+            },
+            {
+              "_key": "25mi2s0jcw61",
+              "_type": "span",
+              "marks": [
+                "b0q1fv4v0iuq"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "3ke27swutjld",
+              "_type": "span",
+              "marks": [],
+              "text": " a Hurghada."
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " Los precios de "
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "000000000023"
+              ],
+              "text": "los billetes varían ligeramente de una"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " compañía a otra, oscilando normalmente entre 10 y 20 \\$, según el tipo de autobús."
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": " Estos autobuses ofrecen un viaje cómodo, con aire acondicionado y aseos a bordo. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/lago-nasser/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/lago-nasser",
+              "newTab": false
+            },
+            {
+              "_key": "000000000023",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/los-coptos-de-egipto-guardianes-de-una-antigua-fe/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/los-coptos-de-egipto-guardianes-de-una-antigua-fe",
+              "newTab": false
+            },
+            {
+              "_key": "b0q1fv4v0iuq",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "Entre ellas, Blue Bus es muy recomendable por su compromiso con "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "00000000002a"
+              ],
+              "text": "las normas de seguridad"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": " y mantenimiento."
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": " Esta empresa más reciente ofrece un servicio regular y fiable, y permite hacer cómodas reservas online. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/como-evitar-estafas-en-las-piramides-de-giza/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/como-evitar-estafas-en-las-piramides-de-giza",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Puedes reservar en línea "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "000000000031"
+              ],
+              "text": "aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000031",
+              "_type": "externalLink",
+              "href": "https://bluebus.com.eg/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "3) Viaje por mar"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "Para una alternativa panorámica, considera el servicio de barco rápido de "
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "000000000037"
+              ],
+              "text": "Sharm El Sheikh"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": " a Hurghada."
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": " Este viaje de aproximadamente 1 hora "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "00000000003c"
+              ],
+              "text": "y 30 minutos por el Mar Rojo"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " cuesta unos 90 \\$ el billete de ida."
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": " Operada por International Fast Ferries, esta ruta ofrece una perspectiva única del "
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "000000000041"
+              ],
+              "text": "impresionante paisaje costero de Egipto"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": ". "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000037",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viajes-de-sharm-el-sheij/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viajes-de-sharm-el-sheij/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000003c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/excursion-al-antiguo-egipto-y-el-mar-rojo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/egypt-and-the-red-sea",
+              "newTab": false
+            },
+            {
+              "_key": "000000000041",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/impresionante-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/egipto-impresionante-en-13-dias-el-cairo-el-nilo-luxor-sinai-y-el-mar-rojo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "Cada uno de estos métodos de viaje a Hurghada ofrece su propio encanto, tanto si vuelas por encima de las nubes como si atraviesas el pintoresco "
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [
+                "000000000046"
+              ],
+              "text": "paisaje egipcio"
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": " o te deslizas por las cristalinas aguas del Mar Rojo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000046",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-en-egipto-desde-sudafrica-un-viaje-a-traves-de-maravillas-atemporales/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/vacaciones-en-egipto-desde-sudafrica-un-viaje-a-traves-de-maravillas-atemporales",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "txgyy87y6fci",
+              "_type": "span",
+              "marks": [
+                "zbqyjui85i75"
+              ],
+              "text": "ハルガダ"
+            },
+            {
+              "_key": "w619vtn7cd21",
+              "_type": "span",
+              "marks": [],
+              "text": "へどうやって行く "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "zbqyjui85i75",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1) 空路での到着"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "ヨーロッパからの旅行者にとって、空路がハルガダへの最も直行的なルートを提供します。この都市には国際空港があり、ヨーロッパや中東の主要な拠点からの直行便が運航されています。これらの便は通常4～5時間の所要時間で、迅速で快適な旅行体験を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "oibv3axjpaf7",
+              "_type": "span",
+              "marks": [],
+              "text": "また、"
+            },
+            {
+              "_key": "59f0aumvqod6",
+              "_type": "span",
+              "marks": [
+                "btsr3v9jps2g"
+              ],
+              "text": "カイロ"
+            },
+            {
+              "_key": "gitvh5i3g75n",
+              "_type": "span",
+              "marks": [],
+              "text": "へのフライトを選び、その後エジプト航空でハルガダへの1時間の国内便に乗り継ぐ方法もあります。この二つの便を利用することで、エジプトの首都を短時間体験してから海沿いの都市へ向かうことができます。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "btsr3v9jps2g",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガダ空港に到着した後、30分のタクシーで、紅海の穏やかな海辺のホテルに到着します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "2) 陸路での移動"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "道路の冒険を好む方々には、カイロからハルガダへの公共バスサービスを運行するさまざまな交通会社があります。チケットの価格は会社によって若干異なりますが、通常$10～$20の範囲で、バスの種類によって異なります。これらのバスはエアコンと車内トイレを完備しており、快適な旅を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "その中でも、ブルーバスは安全性とメンテナンス基準へのこだわりから特にお勧めです。この新しい会社は定期的で信頼性のあるサービスを提供しており、便利なオンライン予約も可能です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "オンライン予約はこちらから行えます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "3) 海路での移動"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "景色を楽しみながらの移動をお望みなら、シャーム・エル・シェイクからハルガダへの高速ボートサービスを検討してみてください。この約1時間30分の紅海を横断する旅は、片道約$90で提供されています。インターナショナル・ファスト・フェリーズが運航しており、このルートではエジプトの美しい沿岸の風景をユニークな視点で楽しむことができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガダへのこれらの移動方法は、それぞれに独自の魅力があります。雲の上を飛ぶも良し、美しいエジプトの風景を横断するも良し、紅海の透き通った水面を滑るも良し、それぞれが特別な体験を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日：2025年7月31日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Aerial view of white salt deposits meeting rippled orange desert sand"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Vista aérea de depósitos de sal blanca junto a la arena ondulada y anaranjada del desierto"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "白い塩の堆積と風紋の刻まれたオレンジ色の砂漠が接する空撮風景"
+      }
+    ],
+    "asset": {
+      "_ref": "image-2d6cb326a62ae264b16019faa7b7a9d3b3438279-1200x774-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "From above, the boundary between salt crust and wind-rippled sand reads like brushwork."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Desde el aire, el límite entre la costra de sal y la arena ondulada por el viento parece una pincelada."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "上空から見ると、塩の層と風紋の砂が描く境界線はまるで筆致のようだ。"
+      }
+    ]
+  },
+  "kind": "transport-to",
+  "migration": {
+    "migratedAt": "2026-05-05T12:55:19.696Z",
+    "source": "wp-import",
+    "wpId": 78448,
+    "wpModifiedAt": "2026-04-14T23:07:34",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/arrival-in-hurghada/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58859",
+    "_type": "reference"
+  },
+  "section": "plan-your-trip",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "arrival-in-hurghada"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "como-llegar-a-hurghada"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "harugada-e-no-iki-kata"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Arrival in Hurghada 1) Arrival by Air For those journeying from Europe, the skies offer the most direct path to Hurghada. The city is served by an International Airport, providing direct flights to major hubs across Europe and the Middle Ea"
+    },
+    {
+      "_key": "es",
+      "value": "Cómo ir a Hurghada 1) Llegada por avión Para los que viajan desde Europa, el cielo ofrece la ruta más directa a Hurghada. La ciudad cuenta con un aeropuerto internacional que ofrece vuelos directos a los principales centros de Europa y Orie"
+    },
+    {
+      "_key": "ja",
+      "value": "ハルガダへどうやって行く 1) 空路での到着 ヨーロッパからの旅行者にとって、空路がハルガダへの最も直行的なルートを提供します。この都市には国際空港があり、ヨーロッパや中東の主要な拠点からの直行便が運航されています。これらの便は通常4～5時間の所要時間で、迅速で快適な旅行体験を提供します。 また、カイロへのフライトを選び、その後エジプト航空でハルガダへの1時間の国内便に乗り継ぐ方法もあります。この二つの便を利用することで、エジプトの首都を短時間体験してから海沿いの都市へ向かう"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Arrival in Hurghada"
+    },
+    {
+      "_key": "es",
+      "value": "Cómo llegar a Hurghada"
+    },
+    {
+      "_key": "ja",
+      "value": "ハルガダへの行き方"
+    }
+  ]
+}

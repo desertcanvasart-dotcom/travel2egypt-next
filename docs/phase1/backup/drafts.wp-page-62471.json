@@ -1,0 +1,3004 @@
+{
+  "_createdAt": "2026-05-14T16:01:20Z",
+  "_id": "drafts.wp-page-62471",
+  "_rev": "M7jW0P75zoi0pv5XFSLyI9",
+  "_system": {
+    "base": {
+      "id": "wp-page-62471",
+      "rev": "gJFhYeKqhyqkoLZU3cWLpu"
+    }
+  },
+  "_type": "hotel",
+  "_updatedAt": "2026-06-28T14:20:55Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Facts"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "About The Hotel "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Step into History and Luxury"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Imagine stepping into a palace built for royalty – that’s exactly what you get at the"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "Cairo Marriott Hotel & Omar Khayyam Casino"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ". Originally constructed in 1869 by Khedive Ismail to welcome European dignitaries for the inauguration of the"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Suez Canal"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": ", this majestic 5-star hotel is more than just a place to stay; it’s a journey back in time."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxurious Accommodations"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "From the moment you enter the grand lobby, you’re enveloped in the opulence of 19th-century "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "000000000013"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": ", perfectly blended with contemporary comforts. Our modern guestrooms feature luxury bedding, complimentary Wi-Fi, and 24-hour room service. Many rooms come with balconies offering breathtaking views of the Nile, the hotel’s lush gardens, or the vibrant cityscape of Cairo. For an extra touch of elegance, our suites provide spacious layouts, kitchenettes, and cozy fireplaces, along with exclusive perks like free breakfast, afternoon tea, and dessert."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000013",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/egypt-travel-packages/"
+              },
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/egypt-travel-packages/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Culinary Delights"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Our hotel is a paradise for food lovers, boasting 14 dining options, many of which are nestled within our picturesque gardens. Savor a diverse array of cuisines from around the world:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Japanese Cuisine"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": ": Experience authentic flavors at our Japanese restaurant."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Italian Delicacies"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": ": Enjoy classic Italian dishes in an elegant setting."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Middle Eastern Specialties"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": ": Taste the rich and aromatic dishes of the Middle East."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "International Fare"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": ": Delight in a global menu that caters to every palate"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "With six additional cafes and bars, you can enjoy light refreshments and drinks in a variety of settings, whether indoors or al fresco."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "Events and Conferences"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "Our hotel is a preferred venue for weddings and conferences, offering versatile and unique event spaces. Whether you’re planning a grand celebration or a corporate gathering, our professional planners and prime location near the Pyramids, the Sphinx, and the Cairo Tower make us an ideal choice."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusion"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "At Cairo Marriott Hotel & Omar Khayyam Casino, we don’t just offer a place to stay; we offer an experience. From our luxurious rooms and world-class amenities to our rich history and unbeatable location, every aspect of your visit is designed to make you feel like royalty. Book your stay with us and embark on an unforgettable Egyptian adventure."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "Location"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "To Cairo International Airport"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Egyptian Museum"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "Old Cairo"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "Khan El- Khalili Bazaar"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000050",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "Giza Pyramids"
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "Saladin Citadel"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "Cairo Tower"
+            },
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "Grand Egyptian Museum"
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": "25 min "
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "20 min"
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "10 min"
+            },
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": "30 min"
+            },
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000084",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": "40 min"
+            },
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [],
+              "text": "25 min"
+            },
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000091",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [],
+              "text": "15 min"
+            },
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000098",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000093",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [],
+              "text": "45 min"
+            },
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000099",
+              "_type": "span",
+              "marks": [],
+              "text": "Room Amenities"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000a0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": "Telephone with bathroom extension"
+            },
+            {
+              "_key": "00000000009f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [],
+              "text": "Flat screen LCD TV"
+            },
+            {
+              "_key": "0000000000a5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000aa",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ab",
+              "_type": "span",
+              "marks": [],
+              "text": "Electronics keycard lock"
+            },
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [],
+              "text": "Mini Bar, Coffee/Tea Making Facilities"
+            },
+            {
+              "_key": "0000000000b3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b9",
+              "_type": "span",
+              "marks": [],
+              "text": "In Room compact size safe"
+            },
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000bc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000bd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000be",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000bf",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c0",
+              "_type": "span",
+              "marks": [],
+              "text": "Message Signal"
+            },
+            {
+              "_key": "0000000000c1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c7",
+              "_type": "span",
+              "marks": [],
+              "text": "Hair Dryer"
+            },
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000cf",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ca",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cd",
+              "_type": "span",
+              "marks": [],
+              "text": "Air-conditioning with individual control"
+            },
+            {
+              "_key": "0000000000ce",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d3",
+              "_type": "span",
+              "marks": [],
+              "text": "Long bath with shower"
+            },
+            {
+              "_key": "0000000000d4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000db",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d9",
+              "_type": "span",
+              "marks": [],
+              "text": "WIFI"
+            },
+            {
+              "_key": "0000000000da",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000dc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000dd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000de",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000df",
+              "_type": "span",
+              "marks": [],
+              "text": "Room shoes with supporting amenities"
+            },
+            {
+              "_key": "0000000000e0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e2",
+              "_type": "span",
+              "marks": [],
+              "text": "Services & Facilities"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000e9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e7",
+              "_type": "span",
+              "marks": [],
+              "text": "Room Service (7.00am-12:00am)"
+            },
+            {
+              "_key": "0000000000e8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ef",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ea",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000eb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ec",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ed",
+              "_type": "span",
+              "marks": [],
+              "text": "Laundry, pressing & dry cleaning"
+            },
+            {
+              "_key": "0000000000ee",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f3",
+              "_type": "span",
+              "marks": [],
+              "text": "Concierge & baggage room"
+            },
+            {
+              "_key": "0000000000f4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000fb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f9",
+              "_type": "span",
+              "marks": [],
+              "text": "24 hours security"
+            },
+            {
+              "_key": "0000000000fa",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000101",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000fc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fe",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ff",
+              "_type": "span",
+              "marks": [],
+              "text": "Message desk"
+            },
+            {
+              "_key": "000000000100",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000107",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000102",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000103",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000104",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000105",
+              "_type": "span",
+              "marks": [],
+              "text": "Wake up call"
+            },
+            {
+              "_key": "000000000106",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000010d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000108",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000109",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010b",
+              "_type": "span",
+              "marks": [],
+              "text": "Transportation arrangement​"
+            },
+            {
+              "_key": "00000000010c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000010f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000010e",
+              "_type": "span",
+              "marks": [],
+              "text": "Restaurant & Lounge"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000115",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000110",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000111",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000112",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000113",
+              "_type": "span",
+              "marks": [],
+              "text": "JW's Steakhouse"
+            },
+            {
+              "_key": "000000000114",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000011b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000116",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000117",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000118",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000119",
+              "_type": "span",
+              "marks": [],
+              "text": "Saraya Gallery Restaurant Hotel Saraya Gallery"
+            },
+            {
+              "_key": "00000000011a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000121",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000011c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000011d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000011e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000011f",
+              "_type": "span",
+              "marks": [],
+              "text": "Ristorante Tuscany Marriott Cairo Hotel Ristorante Tuscany "
+            },
+            {
+              "_key": "000000000120",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000129",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000122",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000123",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000124",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000126",
+              "_type": "span",
+              "marks": [
+                "000000000125"
+              ],
+              "text": "Cairo Egypt"
+            },
+            {
+              "_key": "000000000127",
+              "_type": "span",
+              "marks": [],
+              "text": " restaurants Egyptian Nights"
+            },
+            {
+              "_key": "000000000128",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000125",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/faux-pas-to-avoid-in-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/faux-pas-to-avoid-in-egypt/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000012b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000012a",
+              "_type": "span",
+              "marks": [],
+              "text": "Recreational Activities"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000131",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000012c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000012d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000012e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000012f",
+              "_type": "span",
+              "marks": [],
+              "text": "Outdoor swimming pool"
+            },
+            {
+              "_key": "000000000130",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000137",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000132",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000133",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000134",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000135",
+              "_type": "span",
+              "marks": [],
+              "text": "Shopping parade (within walking distance)"
+            },
+            {
+              "_key": "000000000136",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000013d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000138",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000139",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000013a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000013b",
+              "_type": "span",
+              "marks": [],
+              "text": "Gymnasium"
+            },
+            {
+              "_key": "00000000013c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000143",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000013e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000013f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000140",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000141",
+              "_type": "span",
+              "marks": [],
+              "text": "Jungle trekking"
+            },
+            {
+              "_key": "000000000142",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Hechos"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Acerca del Hotel "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Adéntrese en la Historia y el Lujo "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Imagine entrar en un palacio construido para la realeza, eso es exactamente lo que experimentará en el Cairo Marriott Hotel & Omar Khayyam Casino. Originalmente construido en 1869 por el Jedive Ismail para recibir a dignatarios europeos durante la inauguración del "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "000000000007"
+              ],
+              "text": "Canal de Suez"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": ", este majestuoso hotel de 5 estrellas es más que un simple lugar para hospedarse; es un viaje al pasado."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000007",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/es/guia-de-viaje-de-ismailia/encantos-del-canal-de-suez/"
+              },
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-ismailia/encantos-del-canal-de-suez/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Alojamiento de Lujo "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Desde el momento en que entra en el grandioso lobby, se verá envuelto en la opulencia del Egipto del siglo XIX, perfectamente combinada con las comodidades contemporáneas. Nuestras modernas habitaciones cuentan con ropa de cama de lujo, Wi-Fi de cortesía y servicio a la habitación las 24 horas. Muchas habitaciones tienen balcones que ofrecen impresionantes vistas del Nilo, los exuberantes jardines del hotel o el vibrante paisaje urbano de El Cairo. Para un toque extra de elegancia, nuestras suites ofrecen amplios espacios, cocinas y acogedoras chimeneas, junto con beneficios exclusivos como desayuno gratuito, té por la tarde y postres."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "Delicias Culinarias "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "Nuestro hotel es un paraíso para los amantes de la comida, con 14 opciones gastronómicas, muchas de ellas ubicadas en nuestros pintorescos jardines. Disfrute de una diversa variedad de cocinas de todo el mundo:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cocina Japonesa"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": ": Experimente sabores auténticos en nuestro restaurante japonés."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Delicias Italianas"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": ": Disfrute de platos italianos clásicos en un entorno elegante."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Especialidades del Medio Oriente"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Saboree los ricos y aromáticos platos del Medio Oriente."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Gastronomía Internacional"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": ": Deléitese con un menú global que satisface todos los paladares."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "Con seis cafés y bares adicionales, puede disfrutar de refrigerios ligeros y bebidas en una variedad de ambientes, ya sea en interiores o al aire libre."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "Eventos y Conferencias "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "Nuestro hotel es un lugar preferido para bodas y conferencias, ofreciendo espacios versátiles y únicos para eventos. Ya sea que esté planeando una gran celebración o una reunión corporativa, nuestros planificadores profesionales y la ubicación privilegiada cerca de las Pirámides, la Esfinge y la Torre de El Cairo nos convierten en la opción ideal."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusión "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "En el Cairo Marriott Hotel & Omar Khayyam Casino, no solo ofrecemos un lugar para hospedarse; ofrecemos una experiencia. Desde nuestras lujosas habitaciones y comodidades de clase mundial hasta nuestra rica historia y ubicación inmejorable, cada aspecto de su visita está diseñado para hacerle sentir como la realeza. Reserve su estancia con nosotros y embarque en una inolvidable aventura egipcia."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "事実"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "ホテルについて"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "歴史と贅沢に足を踏み入れる"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "まるで王族のために建てられた宮殿に足を踏み入れるかのような体験――それが、カイロ・マリオット・ホテル＆オマール・ハイヤーム・カジノです。1869年、スエズ運河の開通を記念して、ヨーロッパの賓客を迎えるためにケディーヴ・イスマイールによって建設されたこの壮麗な5つ星ホテルは、単なる宿泊施設ではなく、時を遡る旅そのものです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "豪華な宿泊施設"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "壮麗なロビーに一歩足を踏み入れた瞬間、19世紀エジプトの華やかさと現代の快適さが見事に融合した空間に包まれます。"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": " 当ホテルのモダンな客室には、ラグジュアリーな寝具、無料Wi-Fi、24時間対応のルームサービスを完備。多くのお部屋にはバルコニーがあり、ナイル川、ホテルの緑豊かな庭園、または活気あふれるカイロの街並みを一望できます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "より洗練された滞在をご希望の方には、広々とした間取り、簡易キッチン、暖炉を備えたスイートがおすすめ。無料朝食、アフタヌーンティー、デザートといった特別なサービスもご利用いただけます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "美食の楽しみ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "当ホテルは、食を愛するすべての方にとってまさに楽園です。絵のように美しいガーデン内に点在するレストランを含め、14の多彩なダイニングオプションをご用意しております。世界各国の味をお楽しみください："
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "和食"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "：本格的な味わいを堪能できる日本料理レストラン"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "イタリア料理"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "：上品な空間で楽しむクラシックなイタリアン"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "中東料理"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "：豊かな香りと風味が魅力の中東のスペシャルディッシュ"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "インターナショナル料理"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "：あらゆる味覚に対応するグローバルメニュー"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "さらに、6つのカフェ＆バーでは、屋内外問わず、軽食やドリンクをさまざまなスタイルでお楽しみいただけます。風を感じるテラス席から落ち着いたラウンジまで、気分に合わせたひとときをどうぞ。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "イベントと会議"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "当ホテルは、ウェディングやカンファレンスの会場としても高い評価を受けており、多目的で個性あふれるイベントスペースをご用意しています。華やかな祝宴からビジネスミーティングまで、あらゆるシーンに対応。ギザのピラミッド、スフィンクス、カイロタワーといった名所にも近く、ロケーションの良さも魅力の一つです。経験豊富なイベントプランナーが、お客様の理想を形にするお手伝いをいたします。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "結論"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロ・マリオット・ホテル＆オマール・ハイヤーム・カジノでは、単なる宿泊ではなく、心に残る“体験”をご提供します。ラグジュアリーな客室、世界水準の設備、豊かな歴史、そして比類なきロケーション――そのすべてが、まるで王族のようなひとときを演出します。"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": " 今すぐご予約いただき、忘れられないエジプトの旅を始めましょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "category": "deluxe",
+  "city": {
+    "_ref": "wp-page-83284",
+    "_type": "reference"
+  },
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Cairo Marriott tower and Nile-side buildings with moored boats on the river."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Torre del Cairo Marriott y edificios junto al Nilo con barcos amarrados en el río."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ナイル川沿いに係留された船とカイロ・マリオットのタワー。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-0e475fb48f0ada1df43c6e5fb688871f306481cf-3000x2000-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The Cairo Marriott tower rises above the Nile, with boats moored along the bank."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "La torre del Cairo Marriott se alza sobre el Nilo, con barcos amarrados en la orilla."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ナイル川のほとりに船が並び、カイロ・マリオットのタワーがそびえる。"
+      }
+    ]
+  },
+  "migration": {
+    "categoryResolution": "default-standard",
+    "cityResolution": "full-slug-scan",
+    "migratedAt": "2026-05-14T16:01:20.540Z",
+    "source": "wp-import",
+    "wpId": 62471,
+    "wpModifiedAt": "2025-04-12T14:42:15",
+    "wpTemplate": "",
+    "wpUrl": "https://travel2egypt.org/cairo-marriott-hotel-and-omar-khayyam-casino/"
+  },
+  "name": [
+    {
+      "_key": "en",
+      "value": "Cairo Marriott Hotel & Casino"
+    },
+    {
+      "_key": "es",
+      "value": "Marriott Hotel Omar Khayyam Casino."
+    },
+    {
+      "_key": "ja",
+      "value": "カイロ・マリオット・ホテル＆カジノ（Cairo Marriott Hotel Casino）"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "cairo-marriott-hotel-and-omar-khayyam-casino"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "marriott-hotel-omar-khayyam-casino"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "kairomariottohoteru-kajino-cairo-marriott-hotel-casino"
+      }
+    }
+  ],
+  "starRating": 5,
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Facts About The Hotel Step into History and Luxury Imagine stepping into a palace built for royalty – that s exactly what you get at the Cairo Marriott Hotel & Omar Khayyam Casino. Originally constructed in 1869 by Khedive Ismail to welcome"
+    },
+    {
+      "_key": "es",
+      "value": "Home Hechos Acerca del Hotel Adéntrese en la Historia y el Lujo Imagine entrar en un palacio construido para la realeza, eso es exactamente lo que experimentará en el Cairo Marriott Hotel & Omar Khayyam Casino. Originalmente construido en 1"
+    },
+    {
+      "_key": "ja",
+      "value": "事実 ホテルについて 歴史と贅沢に足を踏み入れる まるで王族のために建てられた宮殿に足を踏み入れるかのような体験――それが、カイロ・マリオット・ホテル＆オマール・ハイヤーム・カジノです。1869年、スエズ運河の開通を記念して、ヨーロッパの賓客を迎えるためにケディーヴ・イスマイールによって建設されたこの壮麗な5つ星ホテルは、単なる宿泊施設ではなく、時を遡る旅そのものです。 豪華な宿泊施設 壮麗なロビーに一歩足を踏み入れた瞬間、19世紀エジプトの華やかさと現代の快適さが見事に融合"
+    }
+  ]
+}

@@ -1,0 +1,1875 @@
+{
+  "documents": {
+    "guideArticle.al-wadi-al-gadid.el-wadi-el-gedid-museum": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “culturas”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "guideArticle.alexandria.the-national-museum": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “en la configuración de la cultura”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "guideArticle.cairo.an-nasir-mohammed-bin-qalawoon-mosque": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “importancia espiritual de este lugar”: https://travel2egypt.org/es/historicos-de-egipto/ → /es/guide"
+      ]
+    },
+    "guideArticle.cairo.church-of-st-barbara": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que la visitan”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "guideArticle.cairo.church-of-st-sergius-bacchus": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes de todo el mundo pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "guideArticle.cairo.ibn-tulun-citadel": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "guideArticle.cairo.madrassa-and-mausoleum-of-barquq": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “Sin dejarse intimidar por los”: https://travel2egypt.org/es/historicos-visitados-en-un-crucero-por-el-nilo/ → /es/blog/crucero-por-el-nilo-en-egipto"
+      ]
+    },
+    "guideArticle.cairo.mosque-madrassa-of-al-ghouri": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "guideArticle.cairo.mosque-madrassa-of-umm-sultan-shaaban": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “vivo del legado perdurable de una”: https://travel2egypt.org/es/para-navegar-por-el-nilo/ → /es/blog/mejor-epoca-para-visitar-egipto"
+      ]
+    },
+    "guideArticle.kom-ombo.khnum-temple": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “culturas”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "guideArticle.luxor.the-mortuary-temple-of-queen-hatshepsut": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[en] “attraction in Luxor”: wp-post-133058-en → wp-page-60648"
+      ]
+    },
+    "guideArticle.saint-catherine.mosque-of-al-hakim-be-amr-allah": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes una experiencia profunda que”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-114934": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que visitas”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “cultura local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-114936": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que visitaba Egipto”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “los lugares que visitamos”: /es/blog/los-mejores-lugares-que-visitar-en-egipto → /es/guide",
+        "body[es] “que se inspira en la cultura”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-114938": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales que”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “estilos de vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-133412": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Luxor”: /blog/rukusoru-de-miru-beki-basho-to-sugoshi-kata → /guide/luxor/what-to-do-in-luxor"
+      ]
+    },
+    "wp-page-155767": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “una obra maestra viva”: /es/blog/para-navegar-por-el-nilo → /es/blog/mejor-epoca-para-visitar-egipto",
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-156421": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "body[es] “Aswan enquanto visita”: /es/blog/categoria-para-visitar-en-aswan → /es/guide/asuan"
+      ]
+    },
+    "wp-page-254140": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis"
+      ]
+    },
+    "wp-page-57838": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “local flavors and hospitality”: /blog/ejiputo-de-byoin-ni-iku-koto-ni-nattara → /travel-tips/health-and-safety",
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “hospitalidad locales”: /es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica → /es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero"
+      ]
+    },
+    "wp-page-57848": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[en] “event took place”: /blog/dai-ejiputo-hakubutsukan-no-kengaku-gaido → /blog/the-grand-egyptian-museum",
+        "body[en] “see the sun illuminate the temple’s”: /blog/rukusoru-de-miru-beki-basho-to-sugoshi-kata → /guide/luxor/what-to-do-in-luxor",
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-57881": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que permite a los visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-58576": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que se cobró 305 vidas”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-58642": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales lo convierte en”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-58693": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Traveling from Cairo”: /blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni → /travel-tips/cultural-etiquette-in-egypt",
+        "body[en] “local culture but also provides”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[es] “cultura local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-58714": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “de las”: https://travel2egypt.org/es/sim-para-viajar-a-egipto/ → /es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas"
+      ]
+    },
+    "wp-page-58729": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “cultural evolution of Egypt”: /blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni → /travel-tips/cultural-etiquette-in-egypt"
+      ]
+    },
+    "wp-page-58752": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis"
+      ]
+    },
+    "wp-page-58798": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “provides year-round golfing opportunities”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise"
+      ]
+    },
+    "wp-page-58799": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “culturas”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-58802": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales de Al Gouna es famoso por”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “visitantes puedan”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-58803": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “todo en un entorno bohemio con”: /es/blog/paquetes-de-viaje-con-vuelo-incluido-de-ee-uu → /es/blog/paquetes-a-egipto-una-nueva-era-de-viajes-en-grupo"
+      ]
+    },
+    "wp-page-59186": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt’s cultural”: wp-post-144334-es → wp-page-73387 (was a cross-language link)",
+        "body[es] “estilo de vida”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59197": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “puede visitar”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59199": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “site for educational visits”: wp-post-112663-en → wp-post-97294-en"
+      ]
+    },
+    "wp-page-59201": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “providing a comprehensive narrative of Alexandria’s historical”: wp-post-112663-en → wp-post-97294-en",
+        "body[en] “visit for history enthusiasts and tourists”: wp-post-144339-es → wp-page-58758 (was a cross-language link)",
+        "body[es] “en la configuración de la cultura”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59209": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “saludables”: /es/blog/viajar-a-egipto-en-tiempos-del-coronavirus → /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas",
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59212": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “noches”: /es/blog/lo-mejor-que-hacer-en-luxor → /es/guide/luxor/que-hacer-en-luxor",
+        "body[es] “y ofrecen una”: /es/blog/para-navegar-por-el-nilo → /es/blog/mejor-epoca-para-visitar-egipto"
+      ]
+    },
+    "wp-page-59228": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “cultural syncretism of the region”: wp-post-112663-en → wp-post-97294-en",
+        "body[es] “que atrae a visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59229": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes pueden”: /blog/ejiputo-de-kyuka-o-sugosu-nara → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59230": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59233": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59234": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que permite a los visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59238": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “historical challenges faced by ancient”: wp-post-112663-en → wp-post-97294-en",
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59253": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “region’s rich botanical knowledge”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “estilo de vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59254": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes y lugareños”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59257": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “Crucero por el Nilo: El recorrido suele incluir un relajante viaje en un crucero por el Nilo”: /es/blog/para-navegar-por-el-nilo → /es/blog/mejor-epoca-para-visitar-egipto",
+        "body[es] “que estos recorridos implican la visita”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59259": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Safety Tip”: /blog/guia-de-seguridad-para-viajeros-en-egipto-2025-2026 → /blog/is-egypt-safe",
+        "body[es] “Consejo de seguridad”: /es/blog/guia-de-seguridad-para-viajeros-en-egipto-2025-2026 → /es/blog/es-seguro-viajar-a-egipto"
+      ]
+    },
+    "wp-page-59260": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que evidencia la influencia de las culturas”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59261": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “local que”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59262": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “historiador”: /es/blog/cultura-y-aventura-en-el-oasis-de-siwa → /es/guide/siwa",
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59276": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59277": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “estilo de vida”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59316": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes sumergirse en”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59345": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “destinations or for short-distance journeys”: /blog/ejiputo-de-otozureru-beki-rekishi-teki-na-basho → /guide",
+        "body[en] “local authorities might impose restrictions on access”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[en] “safety of all travelers”: /blog/guia-de-seguridad-para-viajeros-en-egipto-2025-2026 → /blog/is-egypt-safe",
+        "body[es] “local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “experiencia”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “los viajeros sumergirse plenamente en el”: /es/blog/historicos-de-egipto → /es/guide"
+      ]
+    },
+    "wp-page-59381": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59387": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “lugareños como los turistas”: /es/blog/historicos-de-egipto → /es/guide",
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59392": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “para medir el flujo y”: /es/blog/para-navegar-por-el-nilo → /es/blog/mejor-epoca-para-visitar-egipto",
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59427": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “Para vivir una aventura”: /es/blog/para-navegar-por-el-nilo → /es/blog/mejor-epoca-para-visitar-egipto",
+        "body[es] “por los administradores locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59458": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes a presenciar un paisaje que”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59478": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “local que”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59480": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “hacen que valga la pena visitarla”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “locales y es conocido por”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59481": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que deseen visitar”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “hospital local”: /es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica → /es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero",
+        "body[es] “local que”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59493": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “por artesanos locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59494": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “culturas”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59496": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes para que”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59571": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[en] “offers a captivating glimpse into ancient”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[es] “visitantes sin”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “los visitantes son recibidos por”: /es/blog/historicos-visitados-en-un-crucero-por-el-nilo → /es/blog/crucero-por-el-nilo-en-egipto"
+      ]
+    },
+    "wp-page-59585": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “crucero por el Nilo”: /es/blog/para-navegar-por-el-nilo → /es/blog/mejor-epoca-para-visitar-egipto",
+        "body[es] “que los visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59587": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “mercados rebosantes de productos locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59590": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Along the scenic”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “por esta encantadora localidad”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59603": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “mercado local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59615": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “cultura cafetera local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59624": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “culturas”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59629": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “de 50.000 hombres desapareció sin dejar rastro en una tormenta de arena cuando se dirigía de Tebas a Siwa”: /es/blog/oasis-de-siwa-una-aventura-epica-eterna → /es/guide/siwa"
+      ]
+    },
+    "wp-page-59634": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[en] “adventure”: https://travel2egypt.org/siwa-oasis-a-timeless-epic-adventure/ → /guide/siwa-oasis",
+        "body[es] “visitarlo”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “mercados locales”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59642": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “oasis’s history and culture”: /blog/cultura-y-aventura-en-el-oasis-de-siwa → /guide/siwa-oasis",
+        "body[en] “region’s ancient history”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[en] “experience”: /blog/hajimete-ejiputo-o-tabi-suru-hito-e → /journeys/first-time-in-egypt",
+        "body[en] “desert adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “cultura local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “estilo de vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59645": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “local and regional”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “locales en un entorno que”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59652": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59653": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “safety”: wp-post-205894-en → wp-post-136702-en",
+        "body[es] “mejor que otras los”: https://travel2egypt.org/es/los-mejores-lugares-que-visitar-en-egipto/ → /es/guide",
+        "body[es] “un bastión de seguridad en tiempos”: https://travel2egypt.org/es/historicos-de-egipto/ → /es/guide"
+      ]
+    },
+    "wp-page-59654": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “mercado locales”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “Para los que”: https://travel2egypt.org/es/categoria-para-visitar-en-aswan/ → /es/guide/asuan"
+      ]
+    },
+    "wp-page-59704": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “desert adventures”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “cultura”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59706": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis"
+      ]
+    },
+    "wp-page-59711": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “offers a diverse range of educational”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[es] “visitantes de todas las edades para que”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59712": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “experiencia sin contratiempos a los viajeros por”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59718": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “discovered in the Western Desert”: wp-post-137052-en → wp-page-58932",
+        "body[es] “visitante”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59729": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “que refleja las influencias artísticas locales”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59733": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “safety by choosing reputable transportation providers”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[es] “visitan”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-59734": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “cultura local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-59742": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “local muy recomendado por”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “lugareños y los visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60075": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “los visitantes por”: /es/blog/historicos-visitados-en-un-crucero-por-el-nilo → /es/blog/crucero-por-el-nilo-en-egipto",
+        "body[es] “puede salvarte la vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60076": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “El Gran Museo Egipcio”: /es/blog/gran-museo-egipcio → /es/blog/el-gran-museo-egipcio-la-puerta-monumental-de-egipto-al-pasado",
+        "body[es] “visitantes pueden retroceder en”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60081": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “cultura y los logros de Egipto”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “increíbles hazañas de ingeniería y arquitectura que”: /es/blog/cosas-increibles-que-hacer-en-hurghada → /es/guide/hurghada/actividades-en-hurghada"
+      ]
+    },
+    "wp-page-60121": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “providing a scenic”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[ja] “providing a scenic”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido"
+      ]
+    },
+    "wp-page-60122": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que buscan sumergirse en la cultura local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60123": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “las mejores opciones”: /es/blog/sim-para-viajar-a-egipto → /es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+        "body[es] “hace que desplazarse por”: /es/blog/lo-mejor-que-hacer-en-luxor → /es/guide/luxor/que-hacer-en-luxor"
+      ]
+    },
+    "wp-page-60130": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “las mejores opciones”: /es/blog/sim-para-viajar-a-egipto → /es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+        "body[es] “lugareños como de los turistas”: /es/blog/historicos-de-egipto → /es/guide",
+        "body[es] “Mercados locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60133": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que pasan por”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60207": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales que”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “estilo de vida pastoril que”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60229": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Siwa Oasis”: /blog/shiwa-oashisu → /guide/siwa-oasis",
+        "body[es] “opción económica para”: /es/blog/sim-para-viajar-a-egipto → /es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+        "body[es] “locales u operadores turísticos que ofrecen paseos”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60230": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “cultura local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60231": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “tour provides an opportunity”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise"
+      ]
+    },
+    "wp-page-60237": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visita”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “que mejora la experiencia”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “sino una experiencia que”: /es/blog/oasis-de-siwa-una-aventura-epica-eterna → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60300": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “lifestyle”: /blog/ejiputo-de-kyuka-o-sugosu-nara → /journeys/first-time-in-egypt"
+      ]
+    },
+    "wp-page-60303": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “offers endless opportunities”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise"
+      ]
+    },
+    "wp-page-60320": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt”: /blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni → /travel-tips/cultural-etiquette-in-egypt"
+      ]
+    },
+    "wp-page-60322": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “aventura”: /es/blog/cultura-y-aventura-en-el-oasis-de-siwa → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60323": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “cultural tours”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[es] “por alojarse en Luxor”: /es/blog/lo-mejor-que-hacer-en-luxor → /es/guide/luxor/que-hacer-en-luxor",
+        "body[es] “hace posible que los visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60324": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60333": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “mercados locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60370": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60383": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “mercados locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60388": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “estilo de vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60421": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “por un chef local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60423": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “visita”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60424": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que hace de esta visita”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60425": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que satisface tanto a los paladares locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60439": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que los visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60442": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “salud”: /es/blog/viajar-a-egipto-en-tiempos-del-coronavirus → /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas",
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “que cada visitante”: /es/blog/los-mejores-lugares-que-visitar-en-egipto → /es/guide"
+      ]
+    },
+    "wp-page-60445": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “salud”: /es/blog/viajar-a-egipto-en-tiempos-del-coronavirus → /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas"
+      ]
+    },
+    "wp-page-60459": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “los paisajes desérticos lo convierte en un”: /es/blog/historicos-de-egipto → /es/guide",
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60460": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “cultura locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “sino que también te ofrece una”: /es/blog/oasis-de-siwa-una-aventura-epica-eterna → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60461": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que incluye aprender artesanía local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60463": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “aventuras”: /es/blog/cultura-y-aventura-en-el-oasis-de-siwa → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60464": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “una hoguera que”: /es/blog/oasis-de-siwa-una-aventura-epica-eterna → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60484": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitar”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60487": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “para vivir una”: /es/blog/para-navegar-por-el-nilo → /es/blog/mejor-epoca-para-visitar-egipto"
+      ]
+    },
+    "wp-page-60489": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “por locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60490": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “visitantes en”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60508": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Siwa”: /blog/cultura-y-aventura-en-el-oasis-de-siwa → /guide/siwa-oasis",
+        "body[es] “de Siwa”: /es/blog/hitos-historicos-de-siwa → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60509": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “Para una mejor”: /es/blog/para-navegar-por-el-nilo → /es/blog/mejor-epoca-para-visitar-egipto",
+        "body[es] “Oasis de Siwa”: /es/blog/hitos-historicos-de-siwa → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60511": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “Siwan”: /es/blog/hitos-historicos-de-siwa → /es/guide/siwa",
+        "body[es] “siwan”: /es/blog/oasis-de-siwa-una-aventura-epica-eterna → /es/guide/siwa",
+        "body[es] “visitantes que”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “de las prácticas sufíes en Siwa”: /es/blog/descubre-el-oasis-de-siwa → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60512": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60513": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “que caracteriza las prácticas curativas de Siwan”: /es/blog/hitos-historicos-de-siwa → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60535": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60536": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes que deseen participar en”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60537": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “estilo de vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60539": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “las mejores opciones para”: /es/blog/sim-para-viajar-a-egipto → /es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+        "body[es] “que combinan cocina local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60558": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “los viajes en”: /es/blog/historicos-de-egipto → /es/guide"
+      ]
+    },
+    "wp-page-60564": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “mercados locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60582": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “hacen que visitar”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60598": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60601": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “visitantes pueden”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60603": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “cultura culinaria local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60604": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que ofrece a los visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “que convierte la visita”: /es/blog/los-mejores-lugares-que-visitar-en-egipto → /es/guide"
+      ]
+    },
+    "wp-page-60628": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “parada que complementa tu visita”: /es/blog/categoria-para-visitar-en-aswan → /es/guide/asuan",
+        "body[es] “estilo de vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60639": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “culturas”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60643": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60653": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “mercado local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “que hacen de Luxor”: /es/blog/lo-mejor-que-hacer-en-luxor → /es/guide/luxor/que-hacer-en-luxor"
+      ]
+    },
+    "wp-page-60658": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60661": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-60665": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que atrae a visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60667": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “attraction in Luxor”: wp-post-133058-en → wp-page-60648"
+      ]
+    },
+    "wp-page-60668": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “vívida instantánea de la”: https://travel2egypt.org/es/para-navegar-por-el-nilo/ → /es/blog/mejor-epoca-para-visitar-egipto",
+        "body[es] “visitantes a retroceder a un mundo en”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60670": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Luxor”: wp-post-133058-en → wp-page-60648",
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60689": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “local”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “visita”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “los lugares históricos”: https://travel2egypt.org/es/historicos-de-egipto/ → /es/guide"
+      ]
+    },
+    "wp-page-60695": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “lugareños hacia los visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60719": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “lugareños como entre los turistas”: /es/blog/historicos-de-egipto → /es/guide"
+      ]
+    },
+    "wp-page-60745": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “por una inmensa mesa”: https://travel2egypt.org/es/para-navegar-por-el-nilo/ → /es/blog/mejor-epoca-para-visitar-egipto"
+      ]
+    },
+    "wp-page-60747": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes una experiencia profunda que”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60770": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “Importancia ecológica: Los”: https://travel2egypt.org/es/historicos-de-egipto/ → /es/guide"
+      ]
+    },
+    "wp-page-60776": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “sino que también evoca una”: https://travel2egypt.org/es/oasis-de-siwa-una-aventura-epica-eterna/ → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60778": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “aventuran”: https://travel2egypt.org/es/cultura-y-aventura-en-el-oasis-de-siwa/ → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60779": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “de Siwan”: https://travel2egypt.org/es/descubre-el-oasis-de-siwa/ → /es/guide/siwa",
+        "body[es] “de Siwan”: https://travel2egypt.org/es/hitos-historicos-de-siwa/ → /es/guide/siwa",
+        "body[es] “cultura”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “de Siwan”: https://travel2egypt.org/es/oasis-de-siwa-una-aventura-epica-eterna/ → /es/guide/siwa",
+        "body[es] “estilo de vida”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60781": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “siwan”: https://travel2egypt.org/es/oasis-de-siwa-una-aventura-epica-eterna/ → /es/guide/siwa",
+        "body[es] “del Oasis de Siwa”: https://travel2egypt.org/es/descubre-el-oasis-de-siwa/ → /es/guide/siwa"
+      ]
+    },
+    "wp-page-60782": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “viaje a Egipto”: https://travel2egypt.org/es/viajar-a-egipto-en-tiempos-del-coronavirus/ → /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas",
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-60789": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes entran por una puerta que”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “visitantes y estudiosos por su importancia histórica”: https://travel2egypt.org/es/historicos-visitados-en-un-crucero-por-el-nilo/ → /es/blog/crucero-por-el-nilo-en-egipto"
+      ]
+    },
+    "wp-page-60799": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “con diversos monasterios de todo”: https://travel2egypt.org/es/paquetes-de-viaje-con-vuelo-incluido-de-ee-uu/ → /es/blog/paquetes-a-egipto-una-nueva-era-de-viajes-en-grupo"
+      ]
+    },
+    "wp-page-61216": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “importante monumento histórico”: https://travel2egypt.org/es/historicos-de-egipto/ → /es/guide"
+      ]
+    },
+    "wp-page-61528": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “locales”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-61551": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-61657": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “cultural and historical richness that Egypt”: wp-post-144334-es → wp-page-73387 (was a cross-language link)"
+      ]
+    },
+    "wp-page-61658": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que está situada en una”: https://travel2egypt.org/es/oasis-de-siwa-una-aventura-epica-eterna/ → /es/guide/siwa",
+        "body[es] “sino que también hace”: https://travel2egypt.org/es/la-mejor-experiencia-en-tours-por-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-62471": {
+      "type": "hotel",
+      "built_on": "existing draft",
+      "changes": [
+        "body[en] “Cairo Egypt”: https://travel2egypt.org/faux-pas-to-avoid-in-egypt/ → /travel-tips/cultural-etiquette-in-egypt"
+      ]
+    },
+    "wp-page-63506": {
+      "type": "hotel",
+      "built_on": "existing draft",
+      "changes": [
+        "body[en] “Egypt”: http://travel2egypt.org/top-things-to-do-in-luxor-egypt/ → /guide/luxor/what-to-do-in-luxor",
+        "body[es] “Egipto”: https://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor/ → /es/guide/luxor/que-hacer-en-luxor"
+      ]
+    },
+    "wp-page-63513": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que invita a los visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-63515": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-63537": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-63538": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-63555": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que transporta a los visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-63577": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “importancia espiritual de este lugar”: https://travel2egypt.org/es/historicos-de-egipto/ → /es/guide"
+      ]
+    },
+    "wp-page-63578": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “Sin dejarse intimidar por los”: https://travel2egypt.org/es/historicos-visitados-en-un-crucero-por-el-nilo/ → /es/blog/crucero-por-el-nilo-en-egipto"
+      ]
+    },
+    "wp-page-63582": {
+      "type": "wikiMonument",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “del compromiso con la salud”: https://travel2egypt.org/es/viajar-a-egipto-en-tiempos-del-coronavirus/ → /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas"
+      ]
+    },
+    "wp-page-63583": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que no hace sino”: https://travel2egypt.org/es/la-mejor-experiencia-en-tours-por-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-63610": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes de todo el mundo pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-63635": {
+      "type": "hotel",
+      "built_on": "existing draft",
+      "changes": [
+        "body[en] “Hurghada”: http://travel2egypt.org/33-amazing-things-to-do-in-hurghada/ → /guide/hurghada/activities-in-hurghada",
+        "body[es] “Hurghada”: https://travel2egypt1.wpenginepowered.com/33-amazing-things-to-do-in-hurghada/ → /es/guide/hurghada/actividades-en-hurghada"
+      ]
+    },
+    "wp-page-64340": {
+      "type": "nileCruise",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Luxor”: wp-post-133058-en → wp-page-60648",
+        "body[es] “Luxor”: wp-post-133058-en → wp-page-60648 (was a cross-language link)"
+      ]
+    },
+    "wp-page-64915": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “scenic Nile River”: wp-post-112663-en → wp-post-97294-en"
+      ]
+    },
+    "wp-page-68016": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “offers a glimpse into the local”: /blog/nairu-kuruzu-de-otozureru-rekishi-iseki → /blog/the-definitive-guide-to-egypt-nile-cruise",
+        "body[es] “local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-69922": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “saludo”: https://travel2egypt.org/es/viajar-a-egipto-en-tiempos-del-coronavirus/ → /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas"
+      ]
+    },
+    "wp-page-69926": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-69928": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que conecta a los visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-69930": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “local”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-69931": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-69954": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “de tanta importancia histórica”: https://travel2egypt.org/es/historicos-de-egipto/ → /es/guide"
+      ]
+    },
+    "wp-page-69956": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-69957": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitas”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-69959": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-72256": {
+      "type": "travelTip",
+      "built_on": "existing draft",
+      "changes": [
+        "body[en] “   Corona Virus Update ”: https://travel2egypt.org/traveling-to-egypt-in-the-time-of-coronavirus/ → /travel-tips/passport-and-visa"
+      ]
+    },
+    "wp-page-73707": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “culturas”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-75694": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “la basura y el”: https://travel2egypt.org/es/para-navegar-por-el-nilo/ → /es/blog/mejor-epoca-para-visitar-egipto",
+        "body[es] “una rotonda adornada con llamativas esculturas de delfines, se bifurca una carretera que conduce a los aventureros”: https://travel2egypt.org/es/oasis-de-siwa-una-aventura-epica-eterna/ → /es/guide/siwa"
+      ]
+    },
+    "wp-page-75745": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “cultura”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “vida y cada visitante”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-75799": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes pueden”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-76469": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que las palabras apenas pueden hacer”: /es/blog/cosas-que-hacer-en-sharm-el-sheikh → /es/guide/sharm-el-sheikh/actividades-en-sharm-el-sheikh",
+        "body[es] “salud”: /es/blog/viajar-a-egipto-en-tiempos-del-coronavirus → /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas"
+      ]
+    },
+    "wp-page-77873": {
+      "type": "guideArticle",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “Oasis de Siwa aporta una”: https://travel2egypt.org/es/oasis-de-siwa-una-aventura-epica-eterna/ → /es/guide/siwa",
+        "body[es] “local, sumérgete en los bulliciosos mercados”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-78152": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “sino que crea experiencias”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-78276": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “place where time”: wp-post-102748-en → /guide"
+      ]
+    },
+    "wp-page-78361": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “adventure through Kharga Oasis”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “por los administradores locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “de todo el mundo que intentaban dejar una”: /es/blog/oasis-de-siwa-una-aventura-epica-eterna → /es/guide/siwa"
+      ]
+    },
+    "wp-page-78375": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales dan gracias por”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “lugareños son especialmente acogedores con los visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-78380": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-78396": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Dolphin Reef”: /blog/sharumuerusheiku-de-taiken-shi-tai-koto → /guide/sharm-el-sheikh/things-to-do-in-sharm-el-sheikh"
+      ]
+    },
+    "wp-page-78399": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-78403": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt on a culinary adventure”: /blog/shiwa-oashisu-no-rekishi-to-fukei → /guide/siwa-oasis",
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-78448": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[en] “safety”: /blog/guia-de-seguridad-para-viajeros-en-egipto-2025-2026 → /blog/is-egypt-safe"
+      ]
+    },
+    "wp-page-78784": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “hacer paradas en mercados locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “mejorar tu experiencia”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-83360": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-86790": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt's”: wp-post-144334-es → wp-page-73387 (was a cross-language link)"
+      ]
+    },
+    "wp-page-86841": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “por Luxor”: /es/blog/lo-mejor-que-hacer-en-luxor → /es/guide/luxor/que-hacer-en-luxor",
+        "body[es] “que mejorar las”: /es/blog/cosas-que-hacer-en-sharm-el-sheikh → /es/guide/sharm-el-sheikh/actividades-en-sharm-el-sheikh"
+      ]
+    },
+    "wp-page-86853": {
+      "type": "hotel",
+      "built_on": "existing draft",
+      "changes": [
+        "body[es] “egipcia en el Gran Museo”: https://travel2egypt.org/es/gran-museo-egipcio/ → /es/blog/el-gran-museo-egipcio-la-puerta-monumental-de-egipto-al-pasado",
+        "body[es] “visita”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-86858": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “viaje a Egipto”: /es/blog/viajar-a-egipto-en-tiempos-del-coronavirus → /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas"
+      ]
+    },
+    "wp-page-86911": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que visitaba Egipto”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “que se inspira en la cultura”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-86936": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “viajar a Egipto”: /es/blog/viajar-a-egipto-en-tiempos-del-coronavirus → /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas"
+      ]
+    },
+    "wp-page-87001": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “cultura local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “estilo de vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-87070": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “cultura local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-87387": {
+      "type": "guideArticle",
+      "built_on": "published",
+      "changes": [
+        "body[es] “en la rica historia de Luxor”: /es/blog/lo-mejor-que-hacer-en-luxor → /es/guide/luxor/que-hacer-en-luxor",
+        "body[es] “visitantes”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-87637": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "journalRefs: wp-post-132479-en → wp-page-60487",
+        "journalRefs: removed wp-post-112700-en (target /blog/sinai-desert-safaris already listed)"
+      ]
+    },
+    "wp-page-87729": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "days[en] “explore exhibits that bring Egypt’s”: /blog/the-grand-egyptian-museum-2024-insider-guide → /blog/the-grand-egyptian-museum",
+        "days[en] “Cairo’s cultural”: /blog/faux-pas-to-avoid-in-egypt → /travel-tips/cultural-etiquette-in-egypt"
+      ]
+    },
+    "wp-page-88170": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "days[es] “Descubre el”: /es/blog/descubre-el-oasis-de-siwa → /es/guide/siwa"
+      ]
+    },
+    "wp-page-88178": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "days[es] “antigua ciudad de suma importancia”: /es/blog/historicos-de-egipto → /es/guide"
+      ]
+    },
+    "wp-page-88412": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "days[es] “Luxor por”: /es/blog/lo-mejor-que-hacer-en-luxor → /es/guide/luxor/que-hacer-en-luxor",
+        "days[es] “estilo de vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "days[es] “mercado + Café local”: /es/blog/7-cosas-inolvidables-que-hacer-en-aswan → /es/guide/asuan/que-hacer-en-asuan"
+      ]
+    },
+    "wp-page-88555": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "days[es] “estilo de vida”: /es/blog/vacaciones-inolvidables-en-egipto → /es/journeys/primera-vez-en-egipto",
+        "days[es] “en”: /es/blog/descubre-el-oasis-de-siwa → /es/guide/siwa"
+      ]
+    },
+    "wp-page-88556": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "days[es] “mejorar tu experiencia”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-88604": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "days[es] “de la grandeza histórica”: /es/blog/hitos-historicos-de-siwa → /es/guide/siwa"
+      ]
+    },
+    "wp-page-88609": {
+      "type": "tour",
+      "built_on": "published",
+      "changes": [
+        "days[es] “mejorando tu experiencia”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-89619": {
+      "type": "tour",
+      "built_on": "existing draft",
+      "changes": [
+        "days[es] “increíble historia y cultura que”: /es/blog/cosas-increibles-que-hacer-en-hurghada → /es/guide/hurghada/actividades-en-hurghada",
+        "days[es] “para relajarte o disfrutar de unas”: /es/blog/familiares-en-la-playa-en-egipto → /es/blog/complejos-turisticos-familiares-de-egipto"
+      ]
+    },
+    "wp-page-94643": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[en] “Egypt’s”: wp-post-144334-es → wp-page-73387 (was a cross-language link)",
+        "body[es] “sino que también es una”: https://travel2egypt.org/es/oasis-de-siwa-una-aventura-epica-eterna/ → /es/guide/siwa"
+      ]
+    },
+    "wp-page-95548": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “locales”: https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/ → /es/guide/asuan/que-hacer-en-asuan",
+        "body[es] “En el Cementerio del Norte, cada callejón y cada monumento cuentan una historia, mezclando los ecos del pasado con el vibrante pulso de la vida contemporánea, lo que lo convierte en un destino de visita”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-95579": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes que”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-95581": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “una época”: https://travel2egypt.org/es/para-navegar-por-el-nilo/ → /es/blog/mejor-epoca-para-visitar-egipto"
+      ]
+    },
+    "wp-page-96604": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “que la visitan”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto"
+      ]
+    },
+    "wp-page-96626": {
+      "type": "wikiMonument",
+      "built_on": "published",
+      "changes": [
+        "body[es] “visitantes”: https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/ → /es/journeys/primera-vez-en-egipto",
+        "body[es] “vivo del legado perdurable de una”: https://travel2egypt.org/es/para-navegar-por-el-nilo/ → /es/blog/mejor-epoca-para-visitar-egipto"
+      ]
+    },
+    "wp-post-144441-es": {
+      "type": "article",
+      "built_on": "published",
+      "changes": [
+        "body[es] “por Egipto de forma eficiente mejorará”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /es/journeys/primera-vez-en-egipto",
+        "body[es] “las multitudes y disfrutar de la mejor”: /es/blog/sim-para-viajar-a-egipto → /es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+        "body[es] “del Desierto Occidental, como los del Oasis de Siwa”: /es/blog/descubre-el-oasis-de-siwa → /es/guide/siwa",
+        "body[es] “hace que todas las actividades”: /es/blog/cosas-increibles-que-hacer-en-hurghada → /es/guide/hurghada/actividades-en-hurghada"
+      ]
+    },
+    "wp-post-257609-en": {
+      "type": "article",
+      "built_on": "published",
+      "changes": [
+        "body[en] “por Egipto de forma eficiente mejorará”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /journeys/first-time-in-egypt",
+        "body[en] “las multitudes y disfrutar de la mejor”: /es/blog/sim-para-viajar-a-egipto → /travel-tips/staying-connected-in-egypt",
+        "body[en] “del Desierto Occidental, como los del Oasis de Siwa”: /es/blog/descubre-el-oasis-de-siwa → /guide/siwa-oasis",
+        "body[en] “hace que todas las actividades”: /es/blog/cosas-increibles-que-hacer-en-hurghada → /guide/hurghada/activities-in-hurghada"
+      ]
+    },
+    "wp-post-257611-ja": {
+      "type": "article",
+      "built_on": "published",
+      "changes": [
+        "body[ja] “por Egipto de forma eficiente mejorará”: /es/blog/la-mejor-experiencia-en-tours-por-egipto → /ja/journeys/hajimete-no-ejiputo",
+        "body[ja] “las multitudes y disfrutar de la mejor”: /es/blog/sim-para-viajar-a-egipto → /ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
+        "body[ja] “del Desierto Occidental, como los del Oasis de Siwa”: /es/blog/descubre-el-oasis-de-siwa → /ja/guide/shiwa-oashisu",
+        "body[ja] “hace que todas las actividades”: /es/blog/cosas-increibles-que-hacer-en-hurghada → /ja/guide/harugada/harugada-no-akutibiti"
+      ]
+    }
+  },
+  "notes": [],
+  "listed_not_changed": [
+    "wp-page-59186 (wikiMonument) links to wp-post-1427-en (task 12): not changed",
+    "wp-page-59718 (wikiMonument) links to wp-post-113047-en (task 12): not changed",
+    "wp-page-61545 (wikiMonument) links to wp-post-112604-en (task 12): not changed",
+    "wp-page-61658 (wikiMonument) links to wp-post-112604-en (task 12): not changed",
+    "wp-page-63890 (hotel) links to wp-post-127829-en (task 12): not changed",
+    "wp-page-69956 (wikiMonument) links to wp-post-144683-en (task 12): not changed"
+  ]
+}

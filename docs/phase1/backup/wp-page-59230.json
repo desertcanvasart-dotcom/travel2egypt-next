@@ -1,0 +1,3188 @@
+{
+  "_createdAt": "2026-05-06T23:05:38Z",
+  "_id": "wp-page-59230",
+  "_rev": "RXaEis6GwtqqeghmdLpkii",
+  "_type": "wikiMonument",
+  "_updatedAt": "2026-06-18T13:06:41Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "The Aswan Museum"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "The Aswan Museum, located on "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Elephantine Island"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", is a significant cultural and historical landmark that showcases an extensive collection of artifacts and antiquities from "
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "000000000006"
+              ],
+              "text": "Aswan"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": ", Nubia, and the surrounding regions. Set in the villa of Sir William Willcocks, the architect of the old Aswan Dam, the museum was first established in 1912, with a newer extension added in 1998."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.aswan.elephantine-island",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000006",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/aswan-2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000a",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/02/Aswan-Museum.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "View of Aswan Museum by the Nile, amidst lush greenery and calm waters."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Cultural oasis: The serene Aswan Museum by the Nile."
+            }
+          ]
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Collection and Exhibits:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "00000000000d"
+              ],
+              "text": "The Aswan Museum"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": " houses a diverse range of objects dating from pre-dynastic times to the late Roman era. These include statues, pottery, utensils, weapons, mummified remains, and sarcophagi. While many Nubian artifacts were transferred to the Museum of Nubia due to the formation of "
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "000000000010"
+              ],
+              "text": "Lake Nasser"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": ", the Aswan Museum still possesses a rich collection, offering insights into various aspects of ancient life on Elephantine Island, such as religion, trade, artistry, and daily activities."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-59235",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000010",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-144896-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/02/abu-remains.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A solitary ancient pillar stands against the desert backdrop in Aswan."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Sole sentinel: The last pillar of Abu's temple ruins."
+            }
+          ]
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Key exhibits include:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "A sacred ram associated with the god "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "Khnum"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000018",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.kom-ombo.khnum-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "A mummy and sarcophagus located "
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "00000000001d"
+              ],
+              "text": "near the museum’s"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " entrance."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "Artifacts illustrating the historical progression of Elephantine Island from around 3000 BC to the 14th century AD."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "Khnum Temple:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "The museum includes the "
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "000000000026"
+              ],
+              "text": "Khnum Temple"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": ", dedicated to the god of the flood. This temple, originally from "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "000000000029"
+              ],
+              "text": "the Old Kingdom"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": ", underwent reconstruction in Ptolemaic times and showcases over 1500 years of religious devotion."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000026",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/esna-travel-guide/temple-of-khnum/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000029",
+              "_type": "externalLink",
+              "href": "https://www.ducksters.com/history/ancient_egypt/old_kingdom.php",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Nilometers:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "The museum also features two significant Nilometers, "
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "000000000030"
+              ],
+              "text": "ancient devices used to measure the Nile’s"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": " water level, which were crucial for predicting the agricultural yield and managing the economy:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000030",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/explore-egypt-with-a-felucca/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "The Khnum Temple Nilometer, dating back to the 26th century BC, includes a stone staircase leading to a basin for measuring the Nile’s maximum level."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "The Nilometer of the Satet Temple, from the late Ptolemaic to early Roman period, features a roofed staircase with fireplaces for oil lamps and carved names of Roman emperors."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "Additional Highlights:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "A small Ptolemaic chapel and a 4th-dynasty "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "pyramid"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": ", believed to have been built by Sneferu."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000003b",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-133840-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "Remnants of an Aramaic Jewish settlement from the 5th century BC."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000042",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "A graveyard for sacred rams linked to Khnum."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "The Aswan Museum not only provides a window into the ancient world but also reflects the cultural and historical evolution of the region. Visitors can "
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "000000000044"
+              ],
+              "text": "explore"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " these rich collections and the ruins of Abu, delving into the past and gaining a deeper understanding of the area’s heritage."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000044",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/nuweiba-travel-guide/exploring/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000048",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Aswan-City-Egypt-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Traditional felucca sailboats on the blue waters of the Nile River with Aswan cityscape in the background."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Feluccas navigating the timeless flow of the Nile in Aswan, Egypt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo de Asuán"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo de Asuán, situado en "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "la isla Elefantina"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", es un importante hito cultural e histórico que exhibe una extensa colección de artefactos y antigüedades de "
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "000000000006"
+              ],
+              "text": "Asuán"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": ", Nubia y las regiones circundantes."
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "Ubicado en la villa de Sir William Willcocks, arquitecto de la antigua presa de Asuán, el museo se fundó en 1912 y se amplió en 1998."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/isla-elefantina/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000006",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/excursiones-privadas-de-un-dia/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/02/Aswan-Museum.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "View of Aswan Museum by the Nile, amidst lush greenery and calm waters."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Oasis cultural: el sereno Museo de Aswan junto al Nilo"
+            }
+          ]
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Colección y Exposiciones:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo de Asuán alberga una gran variedad de objetos que datan desde la época predinástica hasta finales de la época romana."
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": " Entre ellos se incluyen estatuas, cerámica, utensilios, armas, restos momificados y sarcófagos."
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " Aunque muchos artefactos "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "nubios fueron trasladados al Museo de"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": " Nubia debido a la formación del lago Nasser, el Museo de Asuán sigue poseyendo una rica colección, que ofrece información sobre diversos aspectos de la vida antigua en la isla Elefantina, como la religión, el comercio, el arte y las actividades cotidianas. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000014",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/el-museo-nubio/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/02/abu-remains.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A solitary ancient pillar stands against the desert backdrop in Aswan."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Único centinela: El último pilar de las ruinas del templo de Abu"
+            }
+          ]
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Las exposiciones clave incluyen:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "Un carnero sagrado asociado al dios "
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "00000000001c"
+              ],
+              "text": "Khnum"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001c",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-kom-ombo/templo-de-khnum/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Una momia y un sarcófago situados "
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "000000000021"
+              ],
+              "text": "cerca de la entrada del"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": " museo."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000021",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/alojamientos-diversos/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "Artefactos que ilustran "
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "000000000026"
+              ],
+              "text": "la progresión histórica de"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": " la Isla Elefantina desde alrededor del año 3000 a.C. hasta el siglo XIV d.C."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000026",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.al-fayoum.the-pyramid-of-al-lahun",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Templo de Khnum:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "El museo incluye el Templo de Khnum, "
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "00000000002d"
+              ],
+              "text": "dedicado al dios"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": " de la inundación."
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "Este templo, originario "
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "000000000032"
+              ],
+              "text": "del Reino Antiguo"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": ", fue reconstruido en época ptolemaica y muestra más de 1.500 años de devoción religiosa."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000032",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.memphis-saqqara-and-dahshur-group-day-tour",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "Nilómetros:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "El museo también cuenta con dos importantes Nilómetros, antiguos dispositivos utilizados para medir el nivel del agua "
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [
+                "000000000039"
+              ],
+              "text": "del Nilo"
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": ", que eran cruciales para predecir el rendimiento agrícola y gestionar la economía:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000039",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.cairo-dinner-cruise-with-belly-dancing-show",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "00000000003d"
+              ],
+              "text": "El Nilómetro del Templo de Khnum, que data del siglo XXVI a.C., incluye una escalera de piedra que conduce a una pila para medir el nivel máximo del Nilo"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000003d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/que-incluyen-los-paquetes-de-crucero-por-el-nilo/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "El Nilómetro del Templo de Satet, de época ptolemaica tardía a romana temprana, presenta "
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [
+                "000000000042"
+              ],
+              "text": "una escalera cubierta con chimeneas para"
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " lámparas de aceite y nombres tallados de emperadores romanos."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000042",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-tiempo-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Aspectos destacados adicionales:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "Una pequeña capilla ptolemaica y una "
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [
+                "000000000049"
+              ],
+              "text": "pirámide"
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": " de la IV dinastía, que se cree que fue construida por Sneferu."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000049",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-88093",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "Restos de un asentamiento judío arameo del siglo V a.C."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000050",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": "Un cementerio de carneros sagrados vinculados a Khnum."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo de Asuán no sólo ofrece una ventana al mundo antiguo, "
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [
+                "000000000052"
+              ],
+              "text": "sino que también refleja la evolución cultural"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": " e histórica de la región."
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": " Los "
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [
+                "000000000057"
+              ],
+              "text": "visitantes pueden"
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": " explorar estas ricas colecciones y las ruinas de Abu, adentrándose en el pasado y adquiriendo un conocimiento más profundo del patrimonio de la zona. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000052",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/faraones-del-reino-antiguo/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000057",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000060",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": "presentación de asuán"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [
+                "000000000061"
+              ],
+              "text": "Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000061",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/historia-de-asuan/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000066",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [
+                "000000000064"
+              ],
+              "text": "El tiempo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000064",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/clima-de-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": "PLANIFICA TU VIAJE"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [
+                "000000000069"
+              ],
+              "text": "Cómo ir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000069",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-llegar-a-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [
+                "00000000006c"
+              ],
+              "text": "Dónde alojarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/alojamiento-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": "MIENTRAS ESTÉS ALLÍ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "Cómo desplazarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000071",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/embarque-en-viajes/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [
+                "000000000074"
+              ],
+              "text": "Cosas que hacer"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000074",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/tesoro-escondido-de-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [],
+              "text": "LUGARES DONDE IR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "000000000079"
+              ],
+              "text": "Isla Elefantina"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000079",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/isla-elefantina/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [
+                "00000000007c"
+              ],
+              "text": "El templo de Kalabsha"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007c",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-templo-de-kalabsha/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [
+                "00000000007f"
+              ],
+              "text": "Tumbas de los Nobles en Asuán"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007f",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/tumbas-de-los-nobles-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000084",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [
+                "000000000082"
+              ],
+              "text": "El Museo de Asuán"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000082",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-museo-de-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [
+                "000000000085"
+              ],
+              "text": "Templo de Isis de Asuán – Pompeya"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000085",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/templo-de-isis-de-asuan-pompeya/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [
+                "000000000088"
+              ],
+              "text": "El templo de Filae"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000088",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-templo-de-filae/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [
+                "00000000008b"
+              ],
+              "text": "El Museo Nubio"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008b",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-museo-nubio/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000090",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [
+                "00000000008e"
+              ],
+              "text": "El Obelisco Inacabado "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008e",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-obelisco-inacabado/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [
+                "000000000091"
+              ],
+              "text": "Monasterio de San Simeón "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000091",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/monasterio-de-san-simeon/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000096",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [
+                "000000000094"
+              ],
+              "text": "La Presa Alta"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000094",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/la-presa-alta/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000099",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [
+                "000000000097"
+              ],
+              "text": "Isla de Kitchener"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000097",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/isla-de-kitchener/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009b",
+              "_type": "span",
+              "marks": [
+                "00000000009a"
+              ],
+              "text": "Isla de Sehel"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009a",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/isla-de-sehel/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [
+                "00000000009d"
+              ],
+              "text": "El Jardín Botánico"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009d",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-jardin-botanico/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a1",
+              "_type": "span",
+              "marks": [
+                "0000000000a0"
+              ],
+              "text": "Mercado local de Asuán"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a0",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/mercado-local-de-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [
+                "0000000000a3"
+              ],
+              "text": "El Mausoleo de Agha Khan"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a3",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-mausoleo-de-agha-khan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [],
+              "text": "OTROS"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000aa",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [
+                "0000000000a8"
+              ],
+              "text": "Visitas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a8",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/tours-destacados-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [
+                "0000000000ab"
+              ],
+              "text": "Alimentación"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000ab",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/festin-culinario/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [
+                "0000000000ae"
+              ],
+              "text": "Sólo aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000ae",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/unicamente-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [
+                "0000000000b1"
+              ],
+              "text": "Eventos"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b1",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/eventos-festivales/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b4",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Aswan-City-Egypt-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Traditional felucca sailboats on the blue waters of the Nile River with Aswan cityscape in the background."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Feluccas navegando el intemporal flujo del Nilo en Aswan, Egipto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワン博物館"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワン博物館はエレファンティネ島に位置し、アスワン、ヌビア、そしてその周辺地域からの遺物や古代の遺産を展示する重要な文化的・歴史的なランドマークです。この博物館は、"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "旧アスワンダム"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "の設計者であるサー・ウィリアム・ウィルコックスの別荘を利用しており、1912年に初めて設立され、1998年には新たな拡張が加えられました。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%B9%E3%83%AF%E3%83%B3%E3%83%BB%E3%83%AD%E3%82%A6%E3%83%BB%E3%83%80%E3%83%A0",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/02/Aswan-Museum.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "View of Aswan Museum by the Nile, amidst lush greenery and calm waters."
+            }
+          ]
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "コレクションと展示品:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワン博物館には、王朝以前の時代からローマ時代末期までのさまざまな時代の遺物が収蔵されています。展示されているものには、像、陶器、器具、武器、ミイラの遺体、石棺などがあります。ナセル湖の形成に伴い多くのヌビアの遺物は"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "00000000000b"
+              ],
+              "text": "ヌビア博物館"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "に移されましたが、アスワン博物館は依然として豊かなコレクションを有しており、エレファンティネ島での古代の生活、宗教、貿易、芸術、日常活動に関するさまざまな側面を知る貴重な洞察を提供しています。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8c%e3%83%93%e3%82%a2%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/02/abu-remains.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A solitary ancient pillar stands against the desert backdrop in Aswan."
+            }
+          ]
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "主な展示品には次のものがあります:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "神殿の神クヌムに関連する聖なる羊"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": クヌム神に捧げられた羊の像が展示されており、神殿での祭礼や儀式の一端を垣間見ることができます。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "博物館入り口近くにあるミイラと石棺"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ": 入り口近くには、保存状態の良いミイラとその石棺が展示されており、エジプトの埋葬習慣と死後の世界への信念を知ることができます。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "エレファンティネ島の歴史的な変遷を示す遺物"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": ": 紀元前3000年から14世紀ADに至るまでのエレファンティネ島の歴史的進展を示す遺物が展示されており、島の重要な役割と文化的変遷を理解する手助けとなります。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "クヌム神殿"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "博物館には、"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "洪水の神"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "クヌムに捧げられた"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "000000000020",
+                "strong"
+              ],
+              "text": "クヌム神殿"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "も含まれています。この神殿は元々古王国時代に建てられ、プトレマイオス時代に再建されました。1500年以上にわたる宗教的奉仕を示すこの神殿は、古代エジプトの信仰と建築技術を伝える貴重な遺産です。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000020",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a8%e3%82%b9%e3%83%8a%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%af%e3%83%8c%e3%83%a0%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "ニロメーター"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "博物館には、ナイル川の水位を測定するために使用された2つの重要な"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ニロメーター"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "が展示されています。これらの装置は、農業生産量を予測し、経済を管理するために重要な役割を果たしていました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "クヌム神殿のニロメーター"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": ": 紀元前26世紀に遡るこのニロメーターは、ナイル川の最大水位を測定するための石段を備えた構造で、測定のための池へと続いています。"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "サティト神殿のニロメーター"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": ": プトレマイオス時代後期からローマ時代初期にかけてのもので、屋根付きの階段とオイルランプ用の暖炉、さらにはローマ皇帝の名前が彫られた装飾が特徴です。"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "追加の見どころ:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "小さなプトレマイオス時代の礼拝堂と第4王朝のピラミッド"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": ": スネフェル王によって建てられたと考えられているこのピラミッドは、古代エジプトの建築技術と王朝の歴史を物語っています。"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "紀元前5世紀のアラマイ語のユダヤ人集落の遺跡"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": ": この遺跡は、エジプトにおけるユダヤ人の歴史的存在を示す貴重な証拠です。"
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "クヌム神に関連する聖なる羊の墓地"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": ": ナイル川の神、クヌムに捧げられた聖なる羊たちの墓地は、エジプトの宗教儀式と動物の神聖視を反映しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワン博物館は、古代世界への窓を提供するだけでなく、この地域の文化的および歴史的な進化を反映しています。訪問者は、これらの豊かなコレクションとアブの遺跡を探索し、過去に触れるとともに、この地域の遺産についてより深く理解することができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000042",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日: 2020年3月18日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日: 2025年3月11日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンの紹介"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "000000000047"
+              ],
+              "text": "歴史"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000047",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/歴史に彩られたアスワンの街並み/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [
+                "00000000004a"
+              ],
+              "text": "天気"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e4%bb%8a%e6%97%a5%e3%81%ae%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%81%ae%e5%a4%a9%e6%b0%97/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行の計画"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "00000000004f"
+              ],
+              "text": "行き方"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%82%ac%e3%82%a4%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [
+                "000000000052"
+              ],
+              "text": "宿泊先"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000052",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%E3%82%A2%E3%82%B9%E3%83%AF%E3%83%B3%E3%81%AE%E5%AE%BF%E6%B3%8A%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "滞在中に"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [
+                "000000000057",
+                "strong"
+              ],
+              "text": "現地での移動方法"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000057",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/アスワン交通手段まとめ/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [
+                "00000000005a",
+                "strong"
+              ],
+              "text": "おすすめのアクティビティ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3%e3%81%ae%e5%ae%9d%e5%ba%ab/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": "エレファンティネ島"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%83%ac%e3%83%95%e3%82%a1%e3%83%b3%e3%83%86%e3%82%a3%e3%83%8d%e5%b3%b6/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [
+                "000000000062"
+              ],
+              "text": "カラブシャ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000062",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%83%a9%e3%83%96%e3%82%b7%e3%83%a3%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [
+                "000000000065"
+              ],
+              "text": "アスワンの貴族の墓"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000065",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%81%ae%e8%b2%b4%e6%97%8f%e3%81%ae%e5%a2%93/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [
+                "000000000068"
+              ],
+              "text": "アスワン博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000068",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [
+                "00000000006b"
+              ],
+              "text": "アスワン・イシス神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%83%bb%e3%82%a4%e3%82%b7%e3%82%b9%e7%a5%9e%e6%ae%bf-%e3%83%9d%e3%83%b3%e3%83%9a%e3%82%a4/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [
+                "00000000006e"
+              ],
+              "text": "フィラエ神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%81%ae%e3%83%95%e3%82%a3%e3%83%a9%e3%82%a8%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "ヌビア博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000071",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8c%e3%83%93%e3%82%a2%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [
+                "000000000074"
+              ],
+              "text": "未完成のオベリスク"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000074",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e6%9c%aa%e5%ae%8c%e3%81%ae%e3%82%aa%e3%83%99%e3%83%aa%e3%82%b9%e3%82%af/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [
+                "000000000077"
+              ],
+              "text": "聖シメオン修道院"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000077",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%82%b7%e3%83%a1%e3%82%aa%e3%83%b3%e4%bf%ae%e9%81%93%e9%99%a2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [
+                "00000000007a"
+              ],
+              "text": "ハイダム"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%83%bb%e3%83%8f%e3%82%a4%e3%83%bb%e3%83%80%e3%83%a0/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [
+                "00000000007d"
+              ],
+              "text": "キッチナー島"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ad%e3%83%83%e3%83%81%e3%83%8a%e3%83%bc%e5%b3%b6/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000082",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [
+                "000000000080"
+              ],
+              "text": "セヘル島"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000080",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%bb%e3%83%98%e3%83%ab%e5%b3%b6/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000085",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [
+                "000000000083"
+              ],
+              "text": "植物園"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000083",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%9c%e3%82%bf%e3%83%8b%e3%82%ab%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%bc%e3%83%87%e3%83%b3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000088",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [
+                "000000000086"
+              ],
+              "text": "アスワン ローカル マーケット"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000086",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%81%ae%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [
+                "000000000089"
+              ],
+              "text": "アーガー・ハーン廟"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000089",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%bc%e3%82%ac%e3%83%bc%e3%83%bb%e3%83%8f%e3%83%bc%e3%83%b3%e5%bb%9f/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": "その他"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000090",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [
+                "00000000008e"
+              ],
+              "text": "ツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e9%81%a0%e8%b6%b3%e3%83%97%e3%83%a9%e3%83%b3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [
+                "000000000091"
+              ],
+              "text": "食べ物"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000091",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%be%8e%e9%a3%9f%e3%81%ae%e9%a5%97%e5%ae%b4/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000096",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [
+                "000000000094"
+              ],
+              "text": "ここだけ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000094",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e6%98%8e%e3%81%8b%e3%81%95%e3%82%8c%e3%82%8b%e4%bd%93%e9%a8%93/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000099",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [
+                "000000000097"
+              ],
+              "text": "イベント"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000097",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%83%bb%e3%83%95%e3%82%a7%e3%82%b9%e3%83%86%e3%82%a3%e3%83%90%e3%83%ab/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009a",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Aswan-City-Egypt-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Traditional felucca sailboats on the blue waters of the Nile River with Aswan cityscape in the background."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "エジプト・アスワン、悠久の流れをたどるナイルを航行するファルーカたち。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "city": {
+    "_ref": "wp-page-58758",
+    "_type": "reference"
+  },
+  "migration": {
+    "migratedAt": "2026-05-07T11:15:38.356Z",
+    "reviewFlag": "superseded-by-guideArticle",
+    "source": "wp-import",
+    "supersededAt": "2026-05-20T15:23:40.818Z",
+    "supersededBy": "guideArticle.aswan.the-aswan-museum",
+    "wpId": 59230,
+    "wpModifiedAt": "2025-07-13T00:03:50",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/the-aswan-museum/"
+  },
+  "monumentType": "museum",
+  "name": [
+    {
+      "_key": "en",
+      "value": "The Aswan Museum"
+    },
+    {
+      "_key": "es",
+      "value": "El Museo de Asuán"
+    },
+    {
+      "_key": "ja",
+      "value": "アスワン博物館"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "the-aswan-museum"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "el-museo-de-asuan"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "アスワン博物館"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "The Aswan Museum The Aswan Museum, located on Elephantine Island, is a significant cultural and historical landmark that showcases an extensive collection of artifacts and antiquities from Aswan, Nubia, and the surrounding regions. Set in t"
+    },
+    {
+      "_key": "es",
+      "value": "El Museo de Asuán El Museo de Asuán, situado en la isla Elefantina, es un importante hito cultural e histórico que exhibe una extensa colección de artefactos y antigüedades de Asuán, Nubia y las regiones circundantes.Ubicado en la villa de "
+    },
+    {
+      "_key": "ja",
+      "value": "アスワン博物館 アスワン博物館はエレファンティネ島に位置し、アスワン、ヌビア、そしてその周辺地域からの遺物や古代の遺産を展示する重要な文化的・歴史的なランドマークです。この博物館は、旧アスワンダムの設計者であるサー・ウィリアム・ウィルコックスの別荘を利用しており、1912年に初めて設立され、1998年には新たな拡張が加えられました。 コレクションと展示品: アスワン博物館には、王朝以前の時代からローマ時代末期までのさまざまな時代の遺物が収蔵されています。展示されているものには"
+    }
+  ]
+}

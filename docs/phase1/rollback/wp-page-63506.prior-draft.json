@@ -1,0 +1,4653 @@
+{
+  "_createdAt": "2026-05-14T16:01:19Z",
+  "_id": "drafts.wp-page-63506",
+  "_rev": "rjICwLwW7mKJi68SW8vvd1",
+  "_system": {
+    "base": {
+      "id": "wp-page-63506",
+      "rev": "gJFhYeKqhyqkoLZU3cW8gk"
+    }
+  },
+  "_type": "hotel",
+  "_updatedAt": "2026-06-28T14:20:57Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Palm Terrace"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "About The Hotel"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": " Premier Le Reve Hotel: Your Dream Destination in Hurghada"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Nestled in the enchanting realm of Sahl Hasheesh, along the mesmerizing shoreline of Egypt’s "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000007"
+              ],
+              "text": "Red Sea"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": ", "
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000000a"
+              ],
+              "text": "the Premier Le Reve Hotel offers"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " an "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "unparalleled escape into luxury and natural beauty. This majestic haven is globally renowned for its captivating blend of crystal-clear skies, the deep blue of the sea, and the dramatic backdrop of desert mountains, creating a perfect canvas for an unforgettable getaway."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000007",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/ancient-egypt-and-the-red-sea-tour/"
+              },
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/ancient-egypt-and-the-red-sea-tour/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "externalLink",
+              "href": "https://premieregypthotels.com/en/premier-le-r%c3%aave/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "A Sanctuary of Elegance and Comfort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "The Premier Le Reve Hotel is not just a place to stay; it’s a destination of its own. Each room and suite is a testament to luxury, designed with an eye for elegance and comfort. Floor-to-ceiling windows offer guests panoramic views of the azure waters or the serene desert landscapes. The interiors are crafted with premium materials and adorned with subtle, chic decor that echoes the natural beauty surrounding the hotel."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "Events and Celebrations"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Premier Le Reve is also a prime location for hosting events. Whether it’s a fairy-tale wedding by the sea, a corporate retreat, or a "
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "000000000016"
+              ],
+              "text": "family"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": " celebration, the hotel offers bespoke services to ensure every event is as stunning as its setting. The experienced event planning team works closely with guests to tailor every detail, from decorations to menus, ensuring each occasion is both seamless and special."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000016",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/14-day-egypt-luxury-family-holiday/"
+              },
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/14-day-egypt-luxury-family-holiday/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "A Gateway to Adventure and Discovery"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "The location of Premier Le Reve in Sahl Hasheesh opens up a world of adventure and discovery. From exploring the ancient ruins scattered across the desert to embarking on a"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "00000000001d"
+              ],
+              "text": " safari,"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " or simply taking a day trip to nearby islands, the hotel serves as the perfect base for experiencing all that "
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "000000000020"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " has to offer. The concierge can arrange excursions and provide insights into hidden local gems, making every outing an adventure"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/3-day-nubian-fishing-safari/"
+              },
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/3-day-nubian-fishing-safari/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000020",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/top-things-to-do-in-luxor-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/top-things-to-do-in-luxor-egypt/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusion "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "remier Le Reve Hotel in Hurghada is more than just a luxury hotel; it is a gateway to a magical blend of sun, sea, and sand. Its world-class service, exquisite amenities, and the stunning natural environment make it the ideal choice for travelers seeking an extraordinary escape into Egypt’s enchanting landscapes. Here, every stay is not just a vacation, but a collection of moments that will turn into lifelong memories. What more could you want in a dream destination?"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Location"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Sand City Hurghada"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "Jungle Aqua Park"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Sahl Hashees"
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000042",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "El Dahar (Downtown) "
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Hurghada Marina"
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "Hurghada International Airport"
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "Makadi Bay"
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "20 min"
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": "20 min"
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "10 min"
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "45 min"
+            },
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000074",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": "40 min"
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": "35 min"
+            },
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000080",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": "20 min"
+            },
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000082",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [],
+              "text": "Room Amenities"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000088",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": "Telephone with bathroom extension"
+            },
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": "Flat screen LCD TV"
+            },
+            {
+              "_key": "00000000008d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000095",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000091",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000093",
+              "_type": "span",
+              "marks": [],
+              "text": "Electronics keycard lock"
+            },
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000099",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [],
+              "text": "Mini Bar, Coffee/Tea Making Facilities"
+            },
+            {
+              "_key": "00000000009b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a1",
+              "_type": "span",
+              "marks": [],
+              "text": "In Room compact size safe"
+            },
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000aa",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a8",
+              "_type": "span",
+              "marks": [],
+              "text": "Message Signal"
+            },
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ab",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ad",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [],
+              "text": "Hair Dryer"
+            },
+            {
+              "_key": "0000000000b0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b5",
+              "_type": "span",
+              "marks": [],
+              "text": "Air-conditioning with individual control"
+            },
+            {
+              "_key": "0000000000b6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000bb",
+              "_type": "span",
+              "marks": [],
+              "text": "Long bath with shower"
+            },
+            {
+              "_key": "0000000000bc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000be",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000bf",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c1",
+              "_type": "span",
+              "marks": [],
+              "text": "WIFI"
+            },
+            {
+              "_key": "0000000000c2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c7",
+              "_type": "span",
+              "marks": [],
+              "text": "Room shoes with supporting amenities"
+            },
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000cb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ca",
+              "_type": "span",
+              "marks": [],
+              "text": "Services & Facilities"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000d1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000cc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ce",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cf",
+              "_type": "span",
+              "marks": [],
+              "text": "Room Service (7.00am-12:00am)"
+            },
+            {
+              "_key": "0000000000d0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d5",
+              "_type": "span",
+              "marks": [],
+              "text": "Laundry, pressing & dry cleaning"
+            },
+            {
+              "_key": "0000000000d6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000dd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000da",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000db",
+              "_type": "span",
+              "marks": [],
+              "text": "Concierge & baggage room"
+            },
+            {
+              "_key": "0000000000dc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000de",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000df",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e1",
+              "_type": "span",
+              "marks": [],
+              "text": "24 hours security"
+            },
+            {
+              "_key": "0000000000e2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e7",
+              "_type": "span",
+              "marks": [],
+              "text": "Message desk"
+            },
+            {
+              "_key": "0000000000e8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ef",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ea",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000eb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ec",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ed",
+              "_type": "span",
+              "marks": [],
+              "text": "Wake up call"
+            },
+            {
+              "_key": "0000000000ee",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f3",
+              "_type": "span",
+              "marks": [],
+              "text": "Transportation arrangement​"
+            },
+            {
+              "_key": "0000000000f4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f6",
+              "_type": "span",
+              "marks": [],
+              "text": "Restaurant & Lounge"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000fd",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fa",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fb",
+              "_type": "span",
+              "marks": [],
+              "text": "Zaafran."
+            },
+            {
+              "_key": "0000000000fc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000103",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000fe",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ff",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000100",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000101",
+              "_type": "span",
+              "marks": [],
+              "text": "Blue Mirage Bistro"
+            },
+            {
+              "_key": "000000000102",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000109",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000104",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000105",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000106",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000107",
+              "_type": "span",
+              "marks": [],
+              "text": "Desert Oasis Dining"
+            },
+            {
+              "_key": "000000000108",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000010f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000010a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010d",
+              "_type": "span",
+              "marks": [],
+              "text": "Nile's Bounty"
+            },
+            {
+              "_key": "00000000010e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000115",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000110",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000111",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000112",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000113",
+              "_type": "span",
+              "marks": [],
+              "text": "Red Sea Rendezvous"
+            },
+            {
+              "_key": "000000000114",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000011b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000116",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000117",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000118",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000119",
+              "_type": "span",
+              "marks": [],
+              "text": "Pharaoh’s Feast"
+            },
+            {
+              "_key": "00000000011a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000121",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000011c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000011d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000011e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000011f",
+              "_type": "span",
+              "marks": [],
+              "text": "Marina Grill"
+            },
+            {
+              "_key": "000000000120",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000127",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000122",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000123",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000124",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000125",
+              "_type": "span",
+              "marks": [],
+              "text": "Lotus Elegance"
+            },
+            {
+              "_key": "000000000126",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000012d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000128",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000129",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000012a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000012b",
+              "_type": "span",
+              "marks": [],
+              "text": "Cleopatra’s Table"
+            },
+            {
+              "_key": "00000000012c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000133",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000012e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000012f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000130",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000131",
+              "_type": "span",
+              "marks": [],
+              "text": "Bedouin’s Delight"
+            },
+            {
+              "_key": "000000000132",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000135",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000134",
+              "_type": "span",
+              "marks": [],
+              "text": "Recreational Activities"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000013b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000136",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000137",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000138",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000139",
+              "_type": "span",
+              "marks": [],
+              "text": "Outdoor swimming pool"
+            },
+            {
+              "_key": "00000000013a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000141",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000013c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000013d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000013e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000013f",
+              "_type": "span",
+              "marks": [],
+              "text": "Shopping parade (within walking distance)"
+            },
+            {
+              "_key": "000000000140",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000147",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000142",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000143",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000144",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000145",
+              "_type": "span",
+              "marks": [],
+              "text": "Gymnasium"
+            },
+            {
+              "_key": "000000000146",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000014d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000148",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000149",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000014a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000014b",
+              "_type": "span",
+              "marks": [],
+              "text": "Jungle trekking"
+            },
+            {
+              "_key": "00000000014c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Palm Terrace"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Acerca del hotel "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Hotel Premier Le Reve: el destino de tus sueños en Hurghada "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Enclavado en el encantador enclave de Sahl Hasheesh, a lo largo de la fascinante costa del Mar Rojo de Egipto, el Premier Le Reve Hotel ofrece una escapada incomparable hacia el lujo y la belleza natural. Este majestuoso refugio es reconocido a nivel mundial por su cautivadora combinación de cielos cristalinos, el intenso azul del mar y el imponente telón de fondo de las montañas del desierto, creando el escenario perfecto para una escapada verdaderamente inolvidable."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "Un santuario de elegancia y comodidad"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "El Premier Le Reve Hotel no es simplemente un lugar donde alojarse; es un destino en sí mismo. Cada habitación y suite es una auténtica expresión de lujo, diseñada con un exquisito sentido de la elegancia y el confort. Sus ventanales de suelo a techo ofrecen a los huéspedes impresionantes vistas panorámicas de las aguas color turquesa o de los serenos paisajes del desierto. Los interiores han sido creados con materiales de primera calidad y decorados con un estilo sutil y sofisticado que refleja la belleza natural que rodea al hotel."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Eventos y celebraciones"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Premier Le Reve también es un lugar privilegiado para celebrar eventos. Ya sea una boda de ensueño junto al mar, un retiro corporativo o una celebración familiar, el hotel ofrece servicios a medida para garantizar que cada evento sea tan espectacular como su entorno. El experimentado equipo de planificación de eventos trabaja en estrecha colaboración con los huéspedes para personalizar cada detalle, desde la decoración hasta los menús, garantizando que cada ocasión sea perfecta y especial."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Una puerta de entrada a la aventura y el descubrimiento"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "La ubicación del Premier Le Reve en Sahl Hasheesh abre un mundo de aventuras y descubrimientos. Desde explorar las antiguas ruinas diseminadas por el desierto hasta embarcarse en un safari de pesca de 3 días en Nubia o simplemente hacer una excursión de un día a las islas cercanas, el hotel es la base perfecta para experimentar todo lo que "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "000000000013"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " tiene para ofrecer. El conserje puede organizar excursiones y proporcionar información sobre las joyas ocultas de la zona, convirtiendo cada salida en una aventura."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000013",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " Conclusión"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "El Hotel Remier Le Reve en Hurghada es más que un hotel de lujo; es la puerta de entrada a una mágica combinación de sol, mar y arena. Su servicio de primera clase, sus exquisitas comodidades y su impresionante entorno natural lo convierten en la opción ideal para quienes buscan una escapada extraordinaria a los encantadores paisajes de Egipto. Aquí, cada estancia no es solo unas vacaciones, sino una colección de momentos que se convertirán en recuerdos para toda la vida. ¿Qué más se puede pedir a un destino de ensueño?"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "Ubicación"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Ciudad de arena Hurghada"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Parque acuático de la selva"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Sahl Hasheesh"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "El Dahar (Centro)"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "Puerto deportivo de Hurgada"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "Aeropuerto Internacional de Hurgada"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "Bahía de Makadi"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "20 min"
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "20 min"
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": "10 min"
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": "45 min"
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": "40 min"
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "35 min"
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": "20 min"
+            },
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "Servicios de la habitación"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [],
+              "text": "Telephone with bathroom extension"
+            },
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [],
+              "text": "Televisor LCD de pantalla plana"
+            },
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000088",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": "Cerradura electrónica con tarjeta de acceso"
+            },
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000008d",
+              "_type": "span",
+              "marks": [],
+              "text": "Minibar, set de té y café"
+            },
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000096",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000091",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000093",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": "Caja fuerte de tamaño compacto en la habitación"
+            },
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000099",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009b",
+              "_type": "span",
+              "marks": [],
+              "text": "Señal de mensaje"
+            },
+            {
+              "_key": "00000000009c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000009f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": "Secador de pelo"
+            },
+            {
+              "_key": "0000000000a3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000aa",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000a8",
+              "_type": "span",
+              "marks": [],
+              "text": "Aire acondicionado con control individual"
+            },
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ab",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ad",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [],
+              "text": "Long bath with shower"
+            },
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b4",
+              "_type": "span",
+              "marks": [],
+              "text": "WIFI"
+            },
+            {
+              "_key": "0000000000b5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bc",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000b9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [],
+              "text": "Zapatos de habitación con comodidades de apoyo."
+            },
+            {
+              "_key": "0000000000bb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000be",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000bd",
+              "_type": "span",
+              "marks": [],
+              "text": "Servicios e instalaciones"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000c4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000bf",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c0",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c2",
+              "_type": "span",
+              "marks": [],
+              "text": "Servicio de habitaciones (7:00 a. m. a 12:00 a. m.)"
+            },
+            {
+              "_key": "0000000000c3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ca",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c6",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [],
+              "text": "Lavandería, planchado y limpieza en seco"
+            },
+            {
+              "_key": "0000000000c9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000cb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cc",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000cd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ce",
+              "_type": "span",
+              "marks": [],
+              "text": "Conserjería y sala de equipajes"
+            },
+            {
+              "_key": "0000000000cf",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000d6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d4",
+              "_type": "span",
+              "marks": [],
+              "text": "Seguridad las 24 horas"
+            },
+            {
+              "_key": "0000000000d5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000dc",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000d7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000d9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000da",
+              "_type": "span",
+              "marks": [],
+              "text": "Escritorio de mensajes"
+            },
+            {
+              "_key": "0000000000db",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000dd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000de",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000df",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e0",
+              "_type": "span",
+              "marks": [],
+              "text": "Llamada de atención"
+            },
+            {
+              "_key": "0000000000e1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000e8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e4",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000e6",
+              "_type": "span",
+              "marks": [],
+              "text": "Arreglo de transporte"
+            },
+            {
+              "_key": "0000000000e7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ea",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000e9",
+              "_type": "span",
+              "marks": [],
+              "text": "Restaurante y salón"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "0000000000f0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000eb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ec",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ed",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ee",
+              "_type": "span",
+              "marks": [],
+              "text": "Zaafran."
+            },
+            {
+              "_key": "0000000000ef",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000f6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f1",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f2",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f3",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f4",
+              "_type": "span",
+              "marks": [],
+              "text": "Blue Mirage Bistro"
+            },
+            {
+              "_key": "0000000000f5",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000fc",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000f7",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f8",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000f9",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fa",
+              "_type": "span",
+              "marks": [],
+              "text": "Desert Oasis Dining"
+            },
+            {
+              "_key": "0000000000fb",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000102",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000fd",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000fe",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "0000000000ff",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000100",
+              "_type": "span",
+              "marks": [],
+              "text": "Nile's Bounty"
+            },
+            {
+              "_key": "000000000101",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000108",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000103",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000104",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000105",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000106",
+              "_type": "span",
+              "marks": [],
+              "text": "Red Sea Rendezvous"
+            },
+            {
+              "_key": "000000000107",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000010e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000109",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000010c",
+              "_type": "span",
+              "marks": [],
+              "text": "Pharaoh's Feast"
+            },
+            {
+              "_key": "00000000010d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000114",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000010f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000110",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000111",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000112",
+              "_type": "span",
+              "marks": [],
+              "text": "Marina Grill"
+            },
+            {
+              "_key": "000000000113",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000011a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000115",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000116",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000117",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000118",
+              "_type": "span",
+              "marks": [],
+              "text": "Lotus Elegance"
+            },
+            {
+              "_key": "000000000119",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000011c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000011b",
+              "_type": "span",
+              "marks": [],
+              "text": "Actividades recreativas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000122",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000011d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000011e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000011f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000120",
+              "_type": "span",
+              "marks": [],
+              "text": "Piscina al aire libre"
+            },
+            {
+              "_key": "000000000121",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000128",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000123",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000124",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000125",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000126",
+              "_type": "span",
+              "marks": [],
+              "text": "Desfile de compras (a poca distancia)"
+            },
+            {
+              "_key": "000000000127",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000012e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000129",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000012a",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000012b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000012c",
+              "_type": "span",
+              "marks": [],
+              "text": "Gimnasio"
+            },
+            {
+              "_key": "00000000012d",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000134",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000012f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000130",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000131",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000132",
+              "_type": "span",
+              "marks": [],
+              "text": "Senderismo por la jungla"
+            },
+            {
+              "_key": "000000000133",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "パーム・テラス"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "ホテルについて"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "プレミア・レ・レヴ・ホテル：ハルガダの夢の目的地"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "エジプトの紅海沿岸、サール・ハシーシュの魅力的な地に位置するプレミア・レ・レヴ・ホテルは、贅沢と自然の美しさの中で比類のない逃避行を提供します。この壮大な隠れ家は、透き通るような青空、深い青色の海、そして壮大な砂漠の山々という劇的な背景が融合した魅力的な景観で、世界的に有名です。忘れられない休暇のための完璧なキャンバスを提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "優雅さと快適さの聖域"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "プレミア・レ・レヴ・ホテルは、ただの宿泊施設ではありません。それ自体が目的地です。各客室とスイートは贅沢の証であり、優雅さと快適さを追求してデザインされています。床から天井までの窓からは、青い海の景色や静かな砂漠の風景をパノラマビューで楽しむことができます。インテリアは高級素材で作られ、ホテルを囲む自然の美しさを反映した控えめでシックな装飾が施されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "イベントとお祝い"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "プレミア・レ・レヴは、イベント開催に最適な場所でもあります。海辺での夢のような結婚式、企業のリトリート、または家族の祝い事など、ホテルはそれぞれのイベントがその場所にふさわしい素晴らしさを持つように特別なサービスを提供します。経験豊富なイベントプランニングチームは、装飾からメニューに至るまで、ゲストと密に連携して、すべての詳細を調整し、イベントがスムーズで特別なものになるようにします。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "冒険と発見への入り口"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "プレミア・レ・レヴのサール・ハシーシュに位置するこのリゾートは、冒険と発見の世界への扉を開きます。砂漠に散らばる古代の遺跡を探索したり、サファリに出かけたり、近くの島々への日帰り旅行を楽しんだり、ホテルはエジプトのすべての魅力を体験するための完璧な拠点です。コンシェルジュは、遠足の手配や隠れた地元の名所についての洞察を提供し、すべての外出を冒険へと変えます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "結論"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ハルガダのプレミア・レ・レヴ・ホテルは、単なる贅沢なホテルではありません。それは、太陽、海、砂の魔法のような融合への扉です。世界クラスのサービス、絶妙なアメニティ、そして素晴らしい自然環境が、エジプトの魅力的な風景に向かう特別な逃避を求める旅行者にとって理想的な選択肢となります。ここでは、すべての滞在が単なる休暇ではなく、生涯の思い出に変わる瞬間の集まりです。夢のような目的地で、他に何を求めることができるでしょうか？"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "category": "deluxe",
+  "city": {
+    "_ref": "wp-page-58859",
+    "_type": "reference"
+  },
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Balcony view over resort pools and parasols toward the Red Sea horizon."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Vista desde un balcón sobre piscinas y sombrillas hacia el horizonte del Mar Rojo."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "バルコニーから望むリゾートのプールとパラソル、紅海の水平線。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-5aceb4ea07d846367c6be34f7565632608d38601-3000x2000-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "From a shaded balcony, the resort's pools stretch toward the open Red Sea."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Desde un balcón sombreado, las piscinas se extienden hacia el Mar Rojo."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "日陰のバルコニーから、プールが紅海の彼方へと広がる。"
+      }
+    ]
+  },
+  "migration": {
+    "categoryResolution": "default-standard",
+    "cityResolution": "full-slug-scan",
+    "migratedAt": "2026-05-14T16:01:19.076Z",
+    "source": "wp-import",
+    "wpId": 63506,
+    "wpModifiedAt": "2025-04-12T14:29:39",
+    "wpTemplate": "",
+    "wpUrl": "https://travel2egypt.org/premier-le-reve-hotel-hurghada/"
+  },
+  "name": [
+    {
+      "_key": "en",
+      "value": "Premier Le Reve Hotel Hurghada"
+    },
+    {
+      "_key": "es",
+      "value": "Premier Le Reve Hotel Hurghada"
+    },
+    {
+      "_key": "ja",
+      "value": "プレミア・ル・レヴ・ホテル・ハルガダ（Premier Le Reve Hotel Hurghada）"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "premier-le-reve-hotel-hurghada"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "premier-le-reve-hotel-hurghada"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "puremiarurevuhoterufurugada-premier-le-reve-hotel-hurghada"
+      }
+    }
+  ],
+  "starRating": 5,
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Palm Terrace About The Hotel Premier Le Reve Hotel: Your Dream Destination in Hurghada Nestled in the enchanting realm of Sahl Hasheesh, along the mesmerizing shoreline of Egypt s Red Sea, the Premier Le Reve Hotel offers an unparalleled es"
+    },
+    {
+      "_key": "es",
+      "value": "Palm Terrace Acerca del hotel Hotel Premier Le Reve: el destino de tus sueños en Hurghada Enclavado en el encantador enclave de Sahl Hasheesh, a lo largo de la fascinante costa del Mar Rojo de Egipto, el Premier Le Reve Hotel ofrece una esc"
+    },
+    {
+      "_key": "ja",
+      "value": "パーム・テラス ホテルについて プレミア・レ・レヴ・ホテル：ハルガダの夢の目的地 エジプトの紅海沿岸、サール・ハシーシュの魅力的な地に位置するプレミア・レ・レヴ・ホテルは、贅沢と自然の美しさの中で比類のない逃避行を提供します。この壮大な隠れ家は、透き通るような青空、深い青色の海、そして壮大な砂漠の山々という劇的な背景が融合した魅力的な景観で、世界的に有名です。忘れられない休暇のための完璧なキャンバスを提供します。 優雅さと快適さの聖域 プレミア・レ・レヴ・ホテルは、ただの宿泊"
+    }
+  ]
+}

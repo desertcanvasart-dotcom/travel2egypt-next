@@ -36,7 +36,7 @@ function readMap(): Map<string, Row> {
     let body = line;
     let task: string | undefined;
     if (line.startsWith('#')) {
-      const m = line.match(/^# PHASE1-(SHIP-AFTER-PUBLISH|CROSS-DOMAIN) task=(\d+)[^:]*: (.*)$/);
+      const m = line.match(/^# PHASE1-(SHIP-AFTER-PUBLISH|CROSS-DOMAIN) task=(\d+)(?: \([^)]*\))?: (.*)$/);
       if (!m) continue;
       state = m[1] === 'CROSS-DOMAIN' ? 'cross-domain' : 'after-publish';
       task = m[2];
@@ -82,7 +82,7 @@ async function main() {
     const row = map.get(key);
     const tag = `task ${s.task.padEnd(2)} ${s.locale}  ${s.url}`;
     if (!row) {
-      out.push(`?    ${tag}  no redirect row (not planned in-site)`);
+      out.push(`?    ${tag}  no redirect row (cross-domain move: this locale needs a decision)`);
       continue;
     }
     const src = await head(s.url);

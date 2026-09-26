@@ -1,0 +1,1711 @@
+{
+  "_createdAt": "2026-05-04T20:34:51Z",
+  "_id": "wp-page-78403",
+  "_rev": "4nTJteTrgF1Sbu2YQK3v8e",
+  "_system": {
+    "base": {
+      "id": "wp-page-78403",
+      "rev": "4jxboK94xJN5bUSrjkRTJJ"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T00:05:26Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "8irxfyr5gs4b",
+              "_type": "span",
+              "marks": [],
+              "text": "Dining & Restaurants in "
+            },
+            {
+              "_key": "xgab2q71b95u",
+              "_type": "span",
+              "marks": [
+                "yfislv8wpi58"
+              ],
+              "text": "Marsa Alam"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "yfislv8wpi58",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Nestled along the serene coast of the "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Red Sea,"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " Marsa Alam has evolved into a hidden gem for culinary enthusiasts. The town’s dining scene offers an exciting mix of Egyptian and international cuisines, catering to every taste and craving."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Red_Sea",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "South Lagoon"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Located near the Fishing Club, South Lagoon offers fresh seafood dishes like shrimp with sesame, paired with a relaxing lagoon-side setting and lounge area."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Cacio e Pepe"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "A cozy restaurant in central "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "Marsa Alam"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": ", serving classic Italian pasta, Greek salad, mushroom soup, and seafood pizza with a focus on fresh ingredients and traditional techniques."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/marsa-alam-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/marsa-alam",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "pz77wk3vxb5l",
+              "_type": "span",
+              "marks": [],
+              "text": "Divino "
+            },
+            {
+              "_key": "87k7btobsixc",
+              "_type": "span",
+              "marks": [
+                "256thavpdi3j"
+              ],
+              "text": "Port Ghalib Marina"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "256thavpdi3j",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.marsa-alam.port-ghalib-marina",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Situated in "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "000000000015"
+              ],
+              "text": "Port Ghalib"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " Marina, Divino is renowned for authentic Italian dishes and fresh seafood including camel steak, all in an elegant setting with live music and DJ parties."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000015",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/marsa-alam-travel-guide/port-ghalib-marina/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/marsa-alam/port-ghalib-marina",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Principessa Ristorante Pizzeria"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "This charming seaside restaurant offers wood-fired pizzas and homemade pastas in a warm and welcoming Italian atmosphere."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "Hakuna Matata"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "A fun and vibrant dining spot serving a fusion of international and Mediterranean dishes including seafood and grilled meats, popular with both locals and tourists."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "Tondoba Seafood Restaurant & Cafe"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "A must-visit for seafood lovers, Tondoba offers fresh catch-of-the-day dishes with spectacular views over the Red Sea."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "El Mashrabya 2"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "Famed for its authentic Egyptian cuisine, El Mashrabya 2 offers "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "000000000028"
+              ],
+              "text": "traditional dishes in a scenic setting along"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " the Marsa Alam coast."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000028",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/types-of-dahabiya-boats/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/dahabiya-no-shurui-to-erabikata",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Alandalusia Restaurant"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "Specializing in Egyptian grilled meats and barbecue, this restaurant delivers bold, authentic flavors and hearty portions in a relaxed setting."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Moments – Restaurant and Café"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Set in a peaceful garden atmosphere, Moments serves a variety of international and Egyptian dishes perfect for a relaxing meal after "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "000000000033"
+              ],
+              "text": "exploring"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": " Marsa Alam."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000033",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/nuweiba-travel-guide/exploring/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/nuweiba-travel-guide/exploring/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "Soprano Restaurant"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "Known for its buffet-style international cuisine, Soprano offers a wide selection of dishes in a casual, welcoming atmosphere."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "Created on 18 March 2020"
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": "Updated on July 24 , 2025"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/geoff-trodd-tEnERdl4_Nk-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A blurry image of a blue fish swimming underwater"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Underwater grace, a moment with a blue fish in its natural habitat"
+            }
+          ]
+        },
+        {
+          "_key": "000000000040",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/emile-schilders-I1rHkCRuWyI-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up of coral and sea anemone under water, showcasing marine life textures"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Intertwined marine life in their natural aquatic habitat"
+            }
+          ]
+        },
+        {
+          "_key": "000000000042",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "Culinary Journey Through Egypt: A Taste of Tradition and Innovation"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "Savor the flavors of "
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "000000000044"
+              ],
+              "text": "Egypt on a culinary adventure"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " that spans traditional dishes to contemporary cuisine. From aromatic street food in bustling markets to gourmet dining along the Nile, our guide invites you to feast on the rich tastes of "
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "000000000047"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": ". Click here to "
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [
+                "00000000004a"
+              ],
+              "text": "embark on your delicious journey"
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "!"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000044",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/siwa-oasis-a-timeless-epic-adventure/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/shiwa-oashisu-no-rekishi-to-fukei",
+              "newTab": false
+            },
+            {
+              "_key": "000000000047",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/al-arish-travel-guide/movement-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/al-arish/getting-around-al-arish",
+              "newTab": false
+            },
+            {
+              "_key": "00000000004a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/asyut-travel-guide/weather-climate/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/asyut/weather-in-asyut",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "<!DOCTYPE html>"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "5cuxhl0714hm",
+              "_type": "span",
+              "marks": [],
+              "text": "Gastronomía y Restaurantes en "
+            },
+            {
+              "_key": "u1t36qr779o6",
+              "_type": "span",
+              "marks": [
+                "yip0hu2l8j91"
+              ],
+              "text": "Marsa Alam"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "yip0hu2l8j91",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Gastronomía y Restaurantes en Marsa Alam"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Ubicada a lo largo de la serena costa del Mar Rojo, Marsa Alam se ha convertido en una joya escondida para los amantes de la buena mesa. Su escena gastronómica ofrece una emocionante mezcla de cocinas egipcia e internacional, con opciones para todos los gustos y antojos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "South Lagoon"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "00000000000a"
+              ],
+              "text": "Ubicado cerca del"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": " Club de Pesca, South Lagoon ofrece platos de mariscos frescos como camarones con sésamo, todo en un entorno relajante junto a la laguna y con zona lounge."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-suez/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/suez",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Cacio e Pepe"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Un restaurante acogedor en el centro de "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "000000000011"
+              ],
+              "text": "Marsa Alam"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " que sirve pastas italianas clásicas, ensalada griega, sopa de champiñones y pizza de mariscos, con énfasis en ingredientes frescos y técnicas tradicionales."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000011",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/maravillas-marinas-aventura-de-snorkel-en-grupo-en-marsa-alam/"
+              },
+              "_type": "externalLink",
+              "href": "/es/dia-de-snorkel-privado-en-marsa-alam-arrecifes-del-mar-rojo-en-yate",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Divino Port Ghalib Marina"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "ua665z4u8aau",
+              "_type": "span",
+              "marks": [],
+              "text": "Situado en la "
+            },
+            {
+              "_key": "nlxwthtx7sa8",
+              "_type": "span",
+              "marks": [
+                "xrnklg8yz3za"
+              ],
+              "text": "Marina de Port Ghalib"
+            },
+            {
+              "_key": "0b65avcxdlzp",
+              "_type": "span",
+              "marks": [],
+              "text": ", Divino es famoso por sus auténticos platos italianos y mariscos frescos, incluyendo filete de camello, en un entorno elegante con música en vivo y fiestas con DJ."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "xrnklg8yz3za",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.marsa-alam.port-ghalib-marina",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Principessa Ristorante Pizzeria"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "Este "
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "00000000001c"
+              ],
+              "text": "en"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "cantador restaurante frente al mar ofrece pizzas al horno de leña y pastas caseras en un ambiente italiano cálido y acogedor."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-dahab/donde-alojarse-en-dahab-desde-acogedores-albergues-a-lujosos-complejos-turisticos/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/dahab/donde-alojarse-en-dahab",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Hakuna Matata"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "Un lugar animado y divertido que sirve una fusión de platos internacionales y mediterráneos, incluyendo mariscos y carnes a la parrilla, muy popular entre "
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "000000000023"
+              ],
+              "text": "locales"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " y turistas."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000023",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "Tondoba Seafood Restaurant & Café"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "Una parada obligada para los amantes del marisco, Tondoba ofrece platos del día con pesca fresca "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "00000000002a"
+              ],
+              "text": "y vistas espectaculares al Mar Rojo"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/egipto-y-el-paraiso-del-mar-rojo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/egypt-and-the-red-sea",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "El Mashrabya 2"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Conocido por su auténtica cocina egipcia, El Mashrabya 2 sirve platos tradicionales en un entorno escénico frente a la "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "000000000031"
+              ],
+              "text": "costa de Marsa Alam"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000031",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/carretera-de-la-costa-traslado-en-coche-privado-de-luxor-a-marsa-alam/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/carretera-de-la-costa-traslado-en-coche-privado-de-luxor-a-marsa-alam/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "Alandalusia Restaurant"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "Especializado en carnes egipcias a la parrilla y barbacoa, este restaurante ofrece sabores intensos y porciones generosas en un ambiente relajado."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "Moments - Restaurante y Café"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "Situado en un jardín tranquilo, Moments sirve una variedad de platos internacionales y egipcios, ideal para una comida relajada tras "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "00000000003c"
+              ],
+              "text": "explorar"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " Marsa Alam."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-nuweiba/explorando/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Soprano Restaurant"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "Famoso por su cocina internacional tipo buffet, Soprano ofrece una amplia selección de platos en un ambiente casual y acogedor."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado el 5 de mayo de 2025"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "<!DOCTYPE html>"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサアラムのレストラン＆グルメガイド"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサアラムのレストラン＆グルメガイド"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "紅海の穏やかな海岸沿いに佇むマルサアラムは、グルメ好きにとっての隠れた宝石。町のダイニングシーンは、エジプト料理と国際色豊かな料理が融合し、あらゆる味覚を満たしてくれます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "サウス・ラグーン（South Lagoon）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "フィッシングクラブの近くにあるサウス・ラグーンでは、セサミソースのエビなどの新鮮なシーフードを、ラグーン沿いの落ち着いた雰囲気とラウンジエリアで楽しめます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "カーチョ・エ・ペペ（Cacio e Pepe）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサアラム中心部にあるこぢんまりとしたイタリアンレストラン。クラシックなパスタ、ギリシャ風サラダ、マッシュルームスープ、シーフードピザなどが、新鮮な食材と伝統的な技術で提供されます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "ディヴィーノ・ポート・ガリブ・マリーナ（Divino Port Ghalib Marina）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "ポート・ガリブ・マリーナ内にあるディヴィーノは、本格イタリアンと新鮮なシーフード（キャメルステーキなど）が人気。ライブミュージックやDJパーティーも楽しめるエレガントな空間です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "プリンチペッサ・リストランテ・ピッツェリア（Principessa Ristorante Pizzeria）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "海辺にあるこの魅力的なレストランでは、薪窯で焼いたピザや手作りパスタを、温かく親しみやすいイタリアの雰囲気の中で堪能できます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "ハクナ・マタタ（Hakuna Matata）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "明るく楽しい雰囲気の中で、国際料理と地中海料理（シーフードやグリル肉など）を提供。地元の人々や観光客の間で人気のスポットです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "トンドバ・シーフード・レストラン＆カフェ（Tondoba Seafood Restaurant & Cafe）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "シーフード好きには見逃せないレストラン。新鮮な日替わりの魚料理を、紅海の絶景とともに楽しめます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "エル・マシュラビーヤ 2（El Mashrabya 2）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "本格的なエジプト家庭料理が評判のレストラン。マルサアラムの海岸沿いに位置し、美しい景色を眺めながら食事が楽しめます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "アランダルシア・レストラン（Alandalusia Restaurant）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプト風のグリルやバーベキュー料理が中心。力強く風味豊かな味わいとボリューム満点の料理が、リラックスした空間で楽しめます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "モーメンツ・レストラン＆カフェ（Moments - Restaurant and Café）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "静かなガーデンの中にあり、国際料理とエジプト料理の両方を提供。観光後のリラックスした食事にぴったりのスポットです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "ソプラノ・レストラン（Soprano Restaurant）"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "ビュッフェスタイルの国際料理を提供するカジュアルなレストラン。種類豊富な料理が揃い、誰でも気軽に楽しめる雰囲気が魅力です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "最終更新日：2025年5月5日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Overhead spread of white plates with grilled prawns, salads, spiced rice and tomatoes on a floral tablecloth"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Vista cenital de platos blancos con langostinos a la parrilla, ensaladas, arroz especiado y tomates sobre un mantel floreado"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "花柄のテーブルクロスの上に、焼きエビ、サラダ、スパイスライス、トマトを盛った白い皿が俯瞰で並ぶ"
+      }
+    ],
+    "asset": {
+      "_ref": "image-059162bec03a1a80aa2ed839afa6aad01f0d2284-2752x1536-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A shared seafood feast of grilled prawns, rice and fresh salads crowds a brightly patterned table."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Un festin marinero compartido de langostinos, arroz y ensaladas frescas llena una mesa de vivos estampados."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "焼きエビと米、新鮮なサラダのシーフードの饗宴が、鮮やかな柄のテーブルを埋め尽くす。"
+      }
+    ]
+  },
+  "kind": "food",
+  "migration": {
+    "migratedAt": "2026-05-05T12:55:21.179Z",
+    "reviewFlag": "section-needs-assignment",
+    "source": "wp-import",
+    "wpId": 78403,
+    "wpModifiedAt": "2025-07-24T18:43:17",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/marsa-alam-flavors/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58885",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "marsa-alam-flavors"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "gastronomia-de-marsa-alam"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "marusaaramu-no-ryori"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Dining & Restaurants in Marsa Alam Nestled along the serene coast of the Red Sea, Marsa Alam has evolved into a hidden gem for culinary enthusiasts. The town’s dining scene offers an exciting mix of Egyptian and international cuisines, cate"
+    },
+    {
+      "_key": "es",
+      "value": "Gastronomía y Restaurantes en Marsa Alam Ubicada a lo largo de la serena costa del Mar Rojo, Marsa Alam se ha convertido en una joya escondida para los amantes de la buena mesa. Su escena gastronómica ofrece una emocionante mezcla de cocina"
+    },
+    {
+      "_key": "ja",
+      "value": "マルサアラムのレストラン＆グルメガイド マルサアラムのレストラン＆グルメガイド 紅海の穏やかな海岸沿いに佇むマルサアラムは、グルメ好きにとっての隠れた宝石。町のダイニングシーンは、エジプト料理と国際色豊かな料理が融合し、あらゆる味覚を満たしてくれます。 サウス・ラグーン（South Lagoon） フィッシングクラブの近くにあるサウス・ラグーンでは、セサミソースのエビなどの新鮮なシーフードを、ラグーン沿いの落ち着いた雰囲気とラウンジエリアで楽しめます。 カーチョ・エ・ペペ（C"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Marsa alam flavors"
+    },
+    {
+      "_key": "es",
+      "value": "Gastronomía de Marsa Alam"
+    },
+    {
+      "_key": "ja",
+      "value": "マルサ・アラムの料理"
+    }
+  ]
+}

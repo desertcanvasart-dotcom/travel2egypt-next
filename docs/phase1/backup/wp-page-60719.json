@@ -1,0 +1,1286 @@
+{
+  "_createdAt": "2026-05-04T20:36:24Z",
+  "_id": "wp-page-60719",
+  "_rev": "PUXUI6sshIht1BONydQRA2",
+  "_system": {
+    "base": {
+      "id": "wp-page-60719",
+      "rev": "foUqbMWmQeVyxrmYihaWqp"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:03:19Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "kf7vpiiihmik",
+              "_type": "span",
+              "marks": [
+                "bi8v85v65nix"
+              ],
+              "text": "Marsa Alam"
+            },
+            {
+              "_key": "661iwvu2umni",
+              "_type": "span",
+              "marks": [],
+              "text": " Arrival Guide "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "bi8v85v65nix",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1) By Air "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Marsa Alam International Airport, situated 67 kilometers north of the city along the "
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "000000000005"
+              ],
+              "text": "Al-Quseir"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": " road, is your aerial gateway to this serene destination. Given the absence of public transport from the airport, arranging a transfer with your hotel in advance is essential for a smooth arrival."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000005",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/El_Qoseir",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "EgyptAir, the national carrier, operates "
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "00000000000a"
+              ],
+              "text": "flights to Cairo"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": " five times a week. Be aware that flight prices can vary significantly with the season and ticket availability. Additionally, the airport caters to various charter flights, predominantly from the UK and Europe, broadening your "
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "00000000000d"
+              ],
+              "text": "options for reaching this picturesque Red Sea"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": " town."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/full-day-trip-to-cairo-by-plane-from-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/full-day-trip-to-cairo-by-plane-from-luxor",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/the-pearl-of-red-sea-hurghada/"
+              },
+              "_type": "externalLink",
+              "href": "/the-pearl-of-red-sea-hurghada",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "2) By Bus "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "81fgq2pivuem",
+              "_type": "span",
+              "marks": [],
+              "text": "The Marsa Alam bus station, located just beyond the T-junction on the "
+            },
+            {
+              "_key": "9ozc3jabknbm",
+              "_type": "span",
+              "marks": [
+                "t33l6mt6wihv"
+              ],
+              "text": "Edfu"
+            },
+            {
+              "_key": "rx2hfhfzph4c",
+              "_type": "span",
+              "marks": [],
+              "text": " road, offers a more grounded approach to traveling. Buses to "
+            },
+            {
+              "_key": "7lp3hv8ohsmf",
+              "_type": "span",
+              "marks": [
+                "a4mcvaofrapa"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "xhb2wklqwe21",
+              "_type": "span",
+              "marks": [],
+              "text": ", priced between E£140 to E£280 for a journey of 10 to 11 hours, run via Al-Quseir (E£50 to E£80, two hours) and "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "Hurghada"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": " (E£60 to E£120, four hours). Departures are scheduled for 1.30pm and 8.30pm, but it’s advisable to check the latest timetables as they tend to change frequently."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000014",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/group-tour-luxor-hurghada/"
+              },
+              "_type": "externalLink",
+              "href": "/luxor-highlights-group-day-tour-from-hurghada",
+              "newTab": false
+            },
+            {
+              "_key": "t33l6mt6wihv",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58841",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "a4mcvaofrapa",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "Additionally, there are a few "
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "000000000019"
+              ],
+              "text": "services each day"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": " heading to Shalatein, with a travel time of about four hours and costing between E£50 to E£75."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000019",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/the-egypt-panorama-tour-8-days/"
+              },
+              "_type": "externalLink",
+              "href": "/8-days-egypt-panorama-tour",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "3) Servees “Min-Van” "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "For a more local mode of transport, the servees (minivan) station adjacent to the "
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "000000000020"
+              ],
+              "text": "bus"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " station offers regular services to Al-Quseir. The journey, lasting approximately two hours, costs about E£60. The servees provide an authentic and often lively travel experience, popular among both locals and adventurous tourists."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000020",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/cairo-travel-guide/guide-to-arrival/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/cairo/how-to-go-to-cairo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "These various modes of transportation to Marsa Alam offer a range of experiences, whether you prefer the speed and convenience of air travel, the scenic "
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "000000000025"
+              ],
+              "text": "route by bus"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": ", or the bustling local life of a minivan journey. Each option "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "000000000028"
+              ],
+              "text": "provides its own unique"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " window into the beauty and culture of Egypt as you journey towards the tranquil shores of Marsa Alam."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000025",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/saint-catherine-travel-guide/pilgrims-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/saint-catherine/how-to-go-to-saint-catherine",
+              "newTab": false
+            },
+            {
+              "_key": "000000000028",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/nour-el-nil-assouan-dahabiya/"
+              },
+              "_type": "externalLink",
+              "href": "/nile-cruises/nour-el-nil-assouan-dahabiya",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/ella-brk-aC2vAOyIOgc-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A black and white fish swims above vibrant coral in clear blue water"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Life beneath the waves: a lone fish glides over a coral haven"
+            }
+          ]
+        },
+        {
+          "_key": "00000000002d",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/sandro-gautier-zr5XphbVS3k-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A serene expanse of blue water with gentle ripples"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "The calm before the ripple"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "vou67posjj4h",
+              "_type": "span",
+              "marks": [],
+              "text": "Cómo ir a "
+            },
+            {
+              "_key": "ovdfg4sznvp7",
+              "_type": "span",
+              "marks": [
+                "kdzneru904sl"
+              ],
+              "text": "Marsa Alam"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "kdzneru904sl",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1) Por aire "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "El Aeropuerto Internacional de "
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "000000000005"
+              ],
+              "text": "Marsa Alam"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": ", situado a 67 kilómetros al norte de la ciudad por la carretera de Al-Quseir, es tu puerta de entrada aérea a este sereno destino."
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Dada la ausencia de transporte público desde el aeropuerto, organizar con antelación un traslado con tu hotel es esencial para llegar sin problemas."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000005",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/es/excursiones-de-un-dia-en-grupo-reducido-a-marsa-alam/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/marsa-alam/excursiones-de-un-dia-en-grupo-reducido-a-marsa-alam",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "EgyptAir, la compañía aérea nacional, opera vuelos a "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "00000000000c"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": " cinco veces por semana."
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Ten en cuenta que los precios de los vuelos pueden variar significativamente según la temporada y la disponibilidad de billetes."
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "Además, el aeropuerto recibe varios vuelos chárter, principalmente desde el Reino Unido y Europa, lo que amplía tus opciones para llegar a esta pintoresca ciudad del Mar Rojo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/es/guia-de-el-cairo-para-aficionados-a-la-historia/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/guia-de-el-cairo-para-aficionados-a-la-historia",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "2) En autobús "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "La estación de autobuses de Marsa Alam, situada un poco más allá del cruce en T de la carretera de "
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "000000000017"
+              ],
+              "text": "Edfu"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": ", ofrece una forma más sencilla de viajar."
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "6w5non2v78pi",
+              "_type": "span",
+              "marks": [],
+              "text": "Los autobuses a "
+            },
+            {
+              "_key": "j2c9ypv7au2p",
+              "_type": "span",
+              "marks": [
+                "lbfhakyyejb6"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "fqvoo6bt7iuk",
+              "_type": "span",
+              "marks": [],
+              "text": ", cuyo precio oscila entre 140 y 280 "
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "00000000001c"
+              ],
+              "text": "libras egipcias"
+            },
+            {
+              "_key": "opkjzacnx061",
+              "_type": "span",
+              "marks": [],
+              "text": " por un viaje de 10 a 11 horas, pasan por Al-Quseir (50 a 80 libras egipcias, dos horas) y "
+            },
+            {
+              "_key": "vd65843wpne7",
+              "_type": "span",
+              "marks": [
+                "au20o58aundt"
+              ],
+              "text": "Hurghada"
+            },
+            {
+              "_key": "r4195fl1wd7i",
+              "_type": "span",
+              "marks": [],
+              "text": " (60 a 120 libras egipcias, cuatro horas)."
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "000000000020"
+              ],
+              "text": "Las salidas están programadas para"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " las 13.30 y las 20.30 horas, pero es aconsejable comprobar los horarios más recientes, ya que suelen cambiar con frecuencia."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000017",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-edfu/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/edfu",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/moneda-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/travel-tips/la-moneda-en-egipto-la-libra-egipcia-el-efectivo-y-las-tarjetas",
+              "newTab": false
+            },
+            {
+              "_key": "000000000020",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/consejos-para-las-familias/"
+              },
+              "_type": "externalLink",
+              "href": "/es/travel-tips/viajar-a-egipto-con-ninos-el-dia-a-dia-practico",
+              "newTab": false
+            },
+            {
+              "_key": "lbfhakyyejb6",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "au20o58aundt",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Además, hay unos cuantos servicios diarios que se dirigen a Shalatein, "
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "000000000025"
+              ],
+              "text": "con una duración del"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": " viaje de unas cuatro horas y un coste de entre 50 y 75 libras."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000025",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/egipto-con-una-feluca-tradicional/"
+              },
+              "_type": "externalLink",
+              "href": "/es/velas-en-el-nilo-viaje-privado-de-diez-dias-en-faluca-de-asuan-a-luxor",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "3) Sirve \"Min-Van\" "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "Para un medio de transporte más local, la estación de servees (minivans) adyacente a la estación de autobuses ofrece servicios regulares a Al-Quseir."
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "El viaje, de unas dos horas de duración, cuesta unos 60¤."
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "Los servees proporcionan una experiencia de viaje auténtica y a menudo animada, popular tanto entre los "
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "000000000030"
+              ],
+              "text": "lugareños como entre los turistas"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": " aventureros."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000030",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/historicos-de-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/historicos-de-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos diversos modos de transporte a Marsa Alam ofrecen una amplia gama de experiencias, tanto si prefieres la rapidez y comodidad del viaje en avión, la "
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "ruta panorámica en autobús"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " o la bulliciosa vida local de un viaje en minivan."
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "Cada opción ofrece su propia ventana única a la belleza y la "
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [
+                "00000000003a"
+              ],
+              "text": "cultura de Egipto"
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": " mientras viajas hacia las tranquilas costas de Marsa Alam."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/etiqueta-cultural-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/travel-tips/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 23 de Séptiembre, 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサアラムに行くにはどうする "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1) 飛行機で"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサ・アラム国際空港は、市内からアル・クセイル道路沿いに67キロ北に位置し、この静かな目的地への空の入り口となります。空港から公共交通機関がないため、スムーズな到着のために事前にホテルとの送迎を手配することが重要です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプト航空は、週に5回カイロへの便を運航しています。フライト料金は季節やチケットの空き状況によって大きく異なることがありますので、注意が必要です。さらに、空港は主にイギリスとヨーロッパからのチャーター便を取り扱っており、この美しい紅海の町へのアクセス方法が広がります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "2) バスで"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "lqzcjla39fwo",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサ・アラムのバスステーションは、エドフ道路のT字路を越えた場所に位置しており、陸路での移動方法を提供しています。カイロ行きのバスは、10〜11時間の移動でE£140〜E£280の料金がかかり、アル・クセイル（E£50〜E£80、2時間）や"
+            },
+            {
+              "_key": "8ut2ywaddkdi",
+              "_type": "span",
+              "marks": [
+                "o1mqvfhg7vij"
+              ],
+              "text": "ハルガダ"
+            },
+            {
+              "_key": "d10dka3nr8em",
+              "_type": "span",
+              "marks": [],
+              "text": "（E£60〜E£120、4時間）を経由します。出発時間は午後1時30分と午後8時30分に設定されていますが、時刻表は頻繁に変更されるため、最新の時刻表を確認することをお勧めします。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "o1mqvfhg7vij",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "さらに、シャラティン行きのバスも数便あり、移動時間は約4時間で、料金はE£50〜E£75です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "3) サーブ「ミンバン」"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "よりローカルな移動手段を選ぶなら、バスステーションに隣接するセルヴィース（ミニバン）ステーションからアル・クセイル行きの定期便があります。所要時間は約2時間で、料金は約E£60です。セルヴィースは、地元の人々や冒険的な旅行者に人気があり、実際のエジプトの生活を感じることができる、賑やかな移動体験を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサ・アラムへの様々な交通手段は、エアトラベルの速さと便利さ、バスでの景色を楽しむルート、ミニバンでの活気ある地元の生活など、さまざまな体験を提供します。それぞれの選択肢は、マルサ・アラムの静かな海岸に向かう旅の中で、エジプトの美しさと文化を異なる視点から感じさせてくれることでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日: 2020年3月18日"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日: 2024年7月31日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "An empty asphalt road lined with wind-bent palms, manicured shrubs and pink bougainvillea under a clear blue sky"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Una carretera de asfalto vacia flanqueada por palmeras inclinadas por el viento, arbustos recortados y buganvillas rosas bajo un cielo azul despejado"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "風になびくヤシの木と刈り込まれた低木、ピンクのブーゲンビリアが並ぶ、澄んだ青空の下の無人のアスファルト道路"
+      }
+    ],
+    "asset": {
+      "_ref": "image-5c28e32890c51fb52bafe2c215e13459dc793380-2752x1536-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A palm-lined resort road runs arrow-straight toward the coast beneath a cloudless desert sky."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Una carretera bordeada de palmeras avanza recta hacia la costa bajo un cielo desertico sin nubes."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ヤシ並木のリゾート道路が、雲一つない砂漠の空の下、海岸へ一直線に伸びる。"
+      }
+    ]
+  },
+  "kind": "transport-to",
+  "migration": {
+    "migratedAt": "2026-05-05T12:56:23.805Z",
+    "source": "wp-import",
+    "wpId": 60719,
+    "wpModifiedAt": "2026-03-06T18:07:41",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/marsa-alam-arrival-guide/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58885",
+    "_type": "reference"
+  },
+  "section": "plan-your-trip",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "marsa-alam-arrival-guide"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "como-llegar-a-marsa-alam"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "marusaaramu-e-no-iki-kata"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Marsa Alam Arrival Guide 1) By Air Marsa Alam International Airport, situated 67 kilometers north of the city along the Al-Quseir road, is your aerial gateway to this serene destination. Given the absence of public transport from the airpor"
+    },
+    {
+      "_key": "es",
+      "value": "Cómo ir a Marsa Alam 1) Por aire El Aeropuerto Internacional de Marsa Alam, situado a 67 kilómetros al norte de la ciudad por la carretera de Al-Quseir, es tu puerta de entrada aérea a este sereno destino.Dada la ausencia de transporte públ"
+    },
+    {
+      "_key": "ja",
+      "value": "マルサアラムに行くにはどうする 1) 飛行機で マルサ・アラム国際空港は、市内からアル・クセイル道路沿いに67キロ北に位置し、この静かな目的地への空の入り口となります。空港から公共交通機関がないため、スムーズな到着のために事前にホテルとの送迎を手配することが重要です。 エジプト航空は、週に5回カイロへの便を運航しています。フライト料金は季節やチケットの空き状況によって大きく異なることがありますので、注意が必要です。さらに、空港は主にイギリスとヨーロッパからのチャーター便を取り"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Marsa Alam Arrival Guide"
+    },
+    {
+      "_key": "es",
+      "value": "Cómo llegar a Marsa Alam"
+    },
+    {
+      "_key": "ja",
+      "value": "マルサ・アラムへの行き方"
+    }
+  ]
+}
