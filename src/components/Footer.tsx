@@ -3,6 +3,9 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
+import { WHATSAPP_DISPLAY, WHATSAPP_LINK } from '@/lib/concierge/constants';
+import { ETAA_LICENCE_NUMBER, ETAA_LICENCE_URL, LEGAL_NAME } from '@/lib/company';
+
 import { CookiePreferencesButton } from './CookiePreferencesButton';
 
 interface FooterProps {
@@ -109,6 +112,11 @@ export function Footer({ locale }: FooterProps) {
             <ul>
               <li><Link href="/about">{tNav('about')}</Link></li>
               <li><Link href="/contact">{tNav('contact')}</Link></li>
+              <li>
+                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                  {t('whatsapp', { number: WHATSAPP_DISPLAY })}
+                </a>
+              </li>
               <li><Link href="/blog">{tNav('blog')}</Link></li>
               <li><Link href="/responsible-travel">{t('responsibleTravel')}</Link></li>
             </ul>
@@ -132,7 +140,12 @@ export function Footer({ locale }: FooterProps) {
         </div>
 
         <div className="t2e-foot-legal">
-          <span>{t('rights', { year })}</span>
+          <span className="legal-owner">
+            {t('rights', { year })} {LEGAL_NAME} ·{' '}
+            <a href={ETAA_LICENCE_URL} target="_blank" rel="noopener noreferrer">
+              ETAA {ETAA_LICENCE_NUMBER}
+            </a>
+          </span>
           <span className="legal-links">
             {LEGAL_LINKS.map((link) => (
               <Link key={link.href} href={link.href}>

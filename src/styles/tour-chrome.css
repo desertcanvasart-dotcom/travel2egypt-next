@@ -179,6 +179,7 @@
   display: inline-flex; align-items: center; min-height: 24px; }
 .t2e-foot-legal a:hover, .t2e-foot-legal button:hover { color: var(--gold-dark); }
 .t2e-foot-legal .legal-links { display: flex; flex-wrap: wrap; align-items: baseline; }
+.t2e-foot-legal .legal-owner a { margin-left: 0; }
 
 /* FLOATING CONCIERGE (global) */
 .t2e-conc { position: fixed; bottom: 28px; right: 28px; z-index: 200; }
