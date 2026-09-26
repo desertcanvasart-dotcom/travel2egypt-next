@@ -10409,7 +10409,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/shiwa-oashisu-toki-o-koe-ta-sodai-na-boken",
-    "destination": "/ja/blog/shiwa-oashisu-no-rekishi-to-fukei",
+    "destination": "/ja/guide/shiwa-oashisu",
     "permanent": true
   },
   {
@@ -10524,7 +10524,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/shiwa-no-rekishi-teki-meisho",
-    "destination": "/ja/blog/shiwa-oashisu-no-rekishi-teki-rando-maku",
+    "destination": "/ja/guide/shiwa-oashisu",
     "permanent": true
   },
   {
@@ -10694,7 +10694,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/shiwa-oashisu-o-hakken-ejiputo-no-sabaku-no-rakuen-de-no",
-    "destination": "/ja/blog/shiwa-oashisu",
+    "destination": "/ja/guide/shiwa-oashisu",
     "permanent": true
   },
   {
@@ -16289,7 +16289,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/siwa-oasis-culture-and-adventure",
-    "destination": "/blog/siwa-oasis-culture-and-adventure",
+    "destination": "/guide/siwa-oasis",
     "permanent": true
   },
   {
@@ -16439,7 +16439,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/cultura-y-aventura-en-el-oasis-de-siwa",
-    "destination": "/es/blog/cultura-y-aventura-en-el-oasis-de-siwa",
+    "destination": "/es/guide/siwa",
     "permanent": true
   },
   {
@@ -17774,7 +17774,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/hitos-historicos-de-siwa",
-    "destination": "/es/blog/hitos-historicos-de-siwa",
+    "destination": "/es/guide/siwa",
     "permanent": true
   },
   {
@@ -18294,7 +18294,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/discover-siwa-oasis",
-    "destination": "/blog/discover-siwa-oasis",
+    "destination": "/guide/siwa-oasis",
     "permanent": true
   },
   {
@@ -20649,7 +20649,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/シワ・オアシスの文化と冒険",
-    "destination": "/ja/blog/shiwa-oashisu-no-bunka-to-boken",
+    "destination": "/ja/guide/shiwa-oashisu",
     "permanent": true
   },
   {
@@ -21180,6 +21180,66 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/blog/nairu-kuruzu-de-otozureru-rekishi-iseki",
     "destination": "/ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/blog/discover-siwa-oasis",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/descubre-el-oasis-de-siwa",
+    "destination": "/es/guide/siwa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shiwa-oashisu",
+    "destination": "/ja/guide/shiwa-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/blog/siwa-oasis-culture-and-adventure",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/cultura-y-aventura-en-el-oasis-de-siwa",
+    "destination": "/es/guide/siwa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shiwa-oashisu-no-bunka-to-boken",
+    "destination": "/ja/guide/shiwa-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/blog/siwas-historical-landmarks",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/hitos-historicos-de-siwa",
+    "destination": "/es/guide/siwa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shiwa-oashisu-no-rekishi-teki-rando-maku",
+    "destination": "/ja/guide/shiwa-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/blog/siwa-oasis-a-timeless-epic-adventure",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/oasis-de-siwa-una-aventura-epica-eterna",
+    "destination": "/es/guide/siwa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/shiwa-oashisu-no-rekishi-to-fukei",
+    "destination": "/ja/guide/shiwa-oashisu",
     "permanent": true
   }
 ];

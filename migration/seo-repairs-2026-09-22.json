@@ -595,8 +595,8 @@
     },
     {
       "source": "/es/hitos-historicos-de-siwa",
-      "destination": "/es/blog/hitos-historicos-de-siwa",
-      "previousDestination": null,
+      "destination": "/es/guide/siwa",
+      "previousDestination": "/es/blog/hitos-historicos-de-siwa",
       "evidence": {
         "source": "/es/hitos-historicos-de-siwa",
         "destination": "/es/blog/hitos-historicos-de-siwa",
@@ -607,6 +607,11 @@
         "title": "Lugares históricos de Siwa — Travel2Egypt",
         "verifiedStatus": 200,
         "verifiedAt": "2026-09-22"
+      },
+      "phase1": {
+        "task": "3",
+        "reason": "previous destination retired in Phase 1; repointed to its final target to avoid a chain",
+        "date": "2026-09-26"
       }
     },
     {
@@ -2253,8 +2258,8 @@
     },
     {
       "source": "/discover-siwa-oasis",
-      "destination": "/blog/discover-siwa-oasis",
-      "previousDestination": null,
+      "destination": "/guide/siwa-oasis",
+      "previousDestination": "/blog/discover-siwa-oasis",
       "evidence": {
         "source": "/discover-siwa-oasis",
         "destination": "/blog/discover-siwa-oasis",
@@ -2265,6 +2270,11 @@
         "title": "Discover Siwa Oasis — Travel2Egypt",
         "verifiedStatus": 200,
         "verifiedAt": "2026-09-22"
+      },
+      "phase1": {
+        "task": "3",
+        "reason": "previous destination retired in Phase 1; repointed to its final target to avoid a chain",
+        "date": "2026-09-26"
       }
     },
     {
