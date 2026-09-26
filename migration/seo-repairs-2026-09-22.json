@@ -627,8 +627,8 @@
     },
     {
       "source": "/local-hospitals-in-egypt",
-      "destination": "/blog/local-hospitals-in-egypt",
-      "previousDestination": null,
+      "destination": "/travel-tips/health-and-safety",
+      "previousDestination": "/blog/local-hospitals-in-egypt",
       "evidence": {
         "source": "/local-hospitals-in-egypt",
         "destination": "/blog/local-hospitals-in-egypt",
@@ -639,6 +639,11 @@
         "title": "When You Need a Hospital in Egypt — Travel2Egypt",
         "verifiedStatus": 200,
         "verifiedAt": "2026-09-22"
+      },
+      "phase1": {
+        "task": "17",
+        "reason": "previous destination retired in Phase 1; repointed to its final target to avoid a chain",
+        "date": "2026-09-26"
       }
     },
     {
@@ -1910,8 +1915,8 @@
     },
     {
       "source": "/faux-pas-to-avoid-in-egypt",
-      "destination": "/blog/faux-pas-to-avoid-in-egypt",
-      "previousDestination": null,
+      "destination": "/travel-tips/cultural-etiquette-in-egypt",
+      "previousDestination": "/blog/faux-pas-to-avoid-in-egypt",
       "evidence": {
         "source": "/faux-pas-to-avoid-in-egypt",
         "destination": "/blog/faux-pas-to-avoid-in-egypt",
@@ -1922,6 +1927,11 @@
         "title": "Avoiding Faux Pas in Egypt — Travel2Egypt",
         "verifiedStatus": 200,
         "verifiedAt": "2026-09-22"
+      },
+      "phase1": {
+        "task": "17",
+        "reason": "previous destination retired in Phase 1; repointed to its final target to avoid a chain",
+        "date": "2026-09-26"
       }
     },
     {
@@ -3092,8 +3102,8 @@
     },
     {
       "source": "/es/hospitales-locales-en-egipto-costos-y-atencion-medica",
-      "destination": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
-      "previousDestination": null,
+      "destination": "/es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero",
+      "previousDestination": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
       "evidence": {
         "source": "/es/hospitales-locales-en-egipto-costos-y-atencion-medica",
         "destination": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
@@ -3104,6 +3114,11 @@
         "title": "Qué hacer si necesitas un hospital en Egipto — Travel2Egypt",
         "verifiedStatus": 200,
         "verifiedAt": "2026-09-22"
+      },
+      "phase1": {
+        "task": "17",
+        "reason": "previous destination retired in Phase 1; repointed to its final target to avoid a chain",
+        "date": "2026-09-26"
       }
     },
     {

@@ -10309,7 +10309,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-de-sakeru-beki-shitsurei-na-kodo",
-    "destination": "/ja/blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni",
+    "destination": "/ja/travel-tips/ejiputo-no-bunka-mana",
     "permanent": true
   },
   {
@@ -10509,7 +10509,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/ejiputo-no-jimoto-byoin-hiyo-to-kea",
-    "destination": "/ja/blog/ejiputo-de-byoin-ni-iku-koto-ni-nattara",
+    "destination": "/ja/travel-tips/ejiputo-no-kenko-to-anzen",
     "permanent": true
   },
   {
@@ -17784,7 +17784,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/local-hospitals-in-egypt",
-    "destination": "/blog/local-hospitals-in-egypt",
+    "destination": "/travel-tips/health-and-safety",
     "permanent": true
   },
   {
@@ -18189,7 +18189,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/faux-pas-to-avoid-in-egypt",
-    "destination": "/blog/faux-pas-to-avoid-in-egypt",
+    "destination": "/travel-tips/cultural-etiquette-in-egypt",
     "permanent": true
   },
   {
@@ -18569,7 +18569,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/hospitales-locales-en-egipto-costos-y-atencion-medica",
-    "destination": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
+    "destination": "/es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero",
     "permanent": true
   },
   {
@@ -21210,6 +21210,51 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/blog/sharumuerusheiku-de-taiken-shi-tai-koto",
     "destination": "/ja/guide/sharumu-eru-sheiku/sharumuerusheiku-no-akutibiti",
+    "permanent": true
+  },
+  {
+    "source": "/blog/egypt-weather-guide",
+    "destination": "/travel-tips/egypt-weather-guide",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/guia-del-tiempo-en-egipto",
+    "destination": "/es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-no-tenko-gaido",
+    "destination": "/ja/travel-tips/ejiputo-no-tenko-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/blog/faux-pas-to-avoid-in-egypt",
+    "destination": "/travel-tips/cultural-etiquette-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/pasos-en-falso-que-debes-evitar-en-egipto",
+    "destination": "/es/travel-tips/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni",
+    "destination": "/ja/travel-tips/ejiputo-no-bunka-mana",
+    "permanent": true
+  },
+  {
+    "source": "/blog/local-hospitals-in-egypt",
+    "destination": "/travel-tips/health-and-safety",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
+    "destination": "/es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/ejiputo-de-byoin-ni-iku-koto-ni-nattara",
+    "destination": "/ja/travel-tips/ejiputo-no-kenko-to-anzen",
     "permanent": true
   }
 ];
