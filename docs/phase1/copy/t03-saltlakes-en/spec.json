@@ -1,6 +1,13 @@
 {
   "doc": "wp-post-153508-en",
-  "task": "3",
+  "task": "en-copy-pass",
   "base": "published",
-  "bodies": {"body": "body.md"}
+  "fields": {
+    "deck": "Siwa's salt lakes are high-salinity pools in a Western Desert depression. What floating feels like, what to bring, when to go and how to visit with care.",
+    "seo.metaDescription": "Siwa's salt lakes: why they form, what floating in them feels like, what to bring, when to go, how to get there and how to visit without harming them.",
+    "updatedAt": "2026-09-26T00:00:00Z"
+  },
+  "bodies": {
+    "body": "body.md"
+  }
 }
