@@ -17,8 +17,8 @@ import { urlFor } from '@/sanity/lib/image';
 import {
   hotelBySlugQuery,
   allHotelSlugsQuery,
-  siteSettingsQuery,
 } from '@/sanity/lib/queries';
+import { whatsappUrl } from '@/lib/concierge/constants';
 import { Body } from '@/components/Body';
 import { TourCard, type TourCardData } from '@/components/TourCard';
 import type { HotelCardData } from '@/components/HotelCard';
@@ -91,10 +91,7 @@ export default async function HotelPage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('hotel');
-  const [hotel, siteSettings] = await Promise.all([
-    client.fetch<HotelDetail | null>(hotelBySlugQuery(locale as Locale), { slug }),
-    client.fetch(siteSettingsQuery(locale as Locale)),
-  ]);
+  const hotel = await client.fetch<HotelDetail | null>(hotelBySlugQuery(locale as Locale), { slug });
 
   if (!hotel) notFound();
 
@@ -102,12 +99,7 @@ export default async function HotelPage({ params }: Props) {
     ? urlFor(hotel.heroImage).width(2400).height(1200).quality(85).url()
     : null;
 
-  const whatsappNumber: string | undefined = siteSettings?.contact?.whatsapp;
-  const whatsappHref = whatsappNumber
-    ? `https://wa.me/${whatsappNumber.replace(/[^\d]/g, '')}?text=${encodeURIComponent(
-        `Hi — I'd like to ask about staying at "${hotel.name}"`
-      )}`
-    : null;
+  const whatsappHref = whatsappUrl(`Hi — I'd like to ask about staying at "${hotel.name}"`);
 
   const categoryLabel = hotel.category ? CATEGORY_LABEL[hotel.category] : null;
   const stars =

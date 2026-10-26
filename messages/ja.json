@@ -59,7 +59,8 @@
     "step4Title": "私たちが運営します",
     "step4Body": "現地でのプライベートガイド、移動、ホテル。そして旅の間も、人によるサポートを。",
     "planCtaPrimary": "コンシェルジュに相談する →",
-    "planCtaWhatsApp": "WhatsAppで気軽に問い合わせ →"
+    "planCtaWhatsApp": "WhatsAppで気軽に問い合わせ →",
+    "planWhatsAppText": "Travel2Egyptさん、こんにちは。エジプト旅行を計画したいです。"
   },
   "concierge": {
     "eyebrow": "旅の計画を立てる",
@@ -976,6 +977,8 @@
     "pkgGrpEnquire": "問い合わせ",
     "pkgGrpDepNote": "「催行確定」は出発が確定していることを示します。料金はお一人様・相部屋・陸上手配のみ。シングル追加料金はご請求時にご案内します。ご希望の日程がない場合、ご家族・ご友人だけのプライベート出発を設定できることもあります。",
     "pkgGrpReserveText": "こんにちは。{title}（出発：{date}）の予約を希望します。",
+    "waTourText": "こんにちは。「{title}」に興味があります。",
+    "waLandingText": "こんにちは。「{title}」に興味があります。",
     "pkgGrpNextKicker": "次の出発",
     "pkgGrpThen": "以降 {dates}",
     "pkgGrpAndMore": "{dates} · 他{count}本",

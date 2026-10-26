@@ -82,6 +82,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
   const t = await getTranslations('subcategory');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+  const waHref = `${WHATSAPP}?text=${encodeURIComponent(ts('waLandingText', { title: doc.title }))}`;
 
   // Concierge CTA rides the site's one lever (CHAT_ENABLED).
   const conciergeHref = isChatEnabled() ? '/plan-your-tour' : '/contact';
@@ -386,7 +387,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
               <p>{ts('ctaBodyL2')}</p>
               <div className="cta-actions">
                 <Link className="btn btn-primary" href={conciergeHref}>{doc.ctaContext || ts('ctaAskConcierge')} <span className="cta-arrow" aria-hidden>→</span></Link>
-                <a className="btn btn-ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
+                <a className="btn btn-ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
               </div>
             </div>
             <div className="quiz">

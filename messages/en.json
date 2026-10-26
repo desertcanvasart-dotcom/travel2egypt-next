@@ -59,7 +59,8 @@
     "step4Title": "We operate it",
     "step4Body": "Private guides, transport and hotels on the ground — and human support while you travel.",
     "planCtaPrimary": "Talk to our concierge →",
-    "planCtaWhatsApp": "Quick WhatsApp enquiry →"
+    "planCtaWhatsApp": "Quick WhatsApp enquiry →",
+    "planWhatsAppText": "Hi Travel2Egypt, I'd like to plan a trip to Egypt."
   },
   "concierge": {
     "eyebrow": "Plan your trip",
@@ -1077,6 +1078,8 @@
     "pkgGrpEnquire": "Enquire",
     "pkgGrpDepNote": "“Guaranteed” means the departure is confirmed to run. Prices are per person sharing, land only; the single supplement is shown on request. Don't see a date that works? We can sometimes open a private departure for your own party.",
     "pkgGrpReserveText": "Hi — I'd like to reserve a place on {title}, departure {date}.",
+    "waTourText": "Hi, I'm interested in the {title}",
+    "waLandingText": "Hi, I'm interested in your {title}",
     "pkgGrpNextKicker": "Next departure",
     "pkgGrpThen": "Then {dates}",
     "pkgGrpAndMore": "{dates} · and {count} more",

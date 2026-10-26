@@ -59,7 +59,8 @@
     "step4Title": "Lo operamos",
     "step4Body": "Guías privados, transporte y hoteles sobre el terreno, y apoyo humano mientras viajas.",
     "planCtaPrimary": "Habla con nuestro concierge →",
-    "planCtaWhatsApp": "Consulta rápida por WhatsApp →"
+    "planCtaWhatsApp": "Consulta rápida por WhatsApp →",
+    "planWhatsAppText": "Hola, Travel2Egypt: me gustaría planificar un viaje a Egipto."
   },
   "concierge": {
     "eyebrow": "Planifica tu viaje",
@@ -1077,6 +1078,8 @@
     "pkgGrpEnquire": "Consultar",
     "pkgGrpDepNote": "«Garantizada» significa que la salida está confirmada. Los precios son por persona en habitación compartida, solo servicios en tierra; el suplemento individual se indica bajo petición. ¿No encuentras una fecha que te encaje? A veces podemos abrir una salida privada para tu propio grupo.",
     "pkgGrpReserveText": "Hola: me gustaría reservar una plaza en {title}, salida {date}.",
+    "waTourText": "Hola, me interesa «{title}»",
+    "waLandingText": "Hola, me interesa «{title}»",
     "pkgGrpNextKicker": "Próxima salida",
     "pkgGrpThen": "Después {dates}",
     "pkgGrpAndMore": "{dates} · y {count} más",

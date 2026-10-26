@@ -310,7 +310,7 @@ export async function HomeView({
             <Link className="btn solid" href={conciergeHref}>
               {t('planCtaPrimary')}
             </Link>
-            <a className="btn ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">
+            <a className="btn ghost" href={`${WHATSAPP}?text=${encodeURIComponent(t('planWhatsAppText'))}`} target="_blank" rel="noopener noreferrer">
               {t('planCtaWhatsApp')}
             </a>
           </div>

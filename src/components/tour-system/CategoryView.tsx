@@ -399,7 +399,7 @@ export async function CategoryView({
               <Link className="cta-btn cta-btn--primary" href={conciergeHref}>
                 {ts('ctaPrimary')} <span className="cta-arrow" aria-hidden>→</span>
               </Link>
-              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">
+              <a className="cta-btn cta-btn--ghost" href={`${WHATSAPP}?text=${encodeURIComponent(ts('waLandingText', { title: c.mastTitle }))}`} target="_blank" rel="noopener noreferrer">
                 {ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span>
               </a>
             </div>

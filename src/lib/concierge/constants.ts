@@ -38,14 +38,15 @@ export const SESSION_COOKIE_MAX_AGE_SECONDS = 30 * 24 * 60 * 60;
 /**
  * Team WhatsApp number (constant, not env — brief Appendix A). The single
  * source for every wa.me link: the S1 fallback, the chat error path, the
- * S5 escape hatch, the tour-system CTAs and the footer. Changed 2026-09-26
- * (owner) from +20 115 801 1600; siteSettings.contact and the Sanity contact
- * page carry the same number.
+ * S5 escape hatch, the tour-system CTAs, hotel/cruise pages and the footer.
+ * Changed 2026-10-27 (owner) from +20 108 091 6066 (and 2026-09-26 from
+ * +20 115 801 1600); siteSettings.contact and the Sanity contact page carry
+ * the same number.
  */
-export const WHATSAPP_NUMBER = '201080916066';
+export const WHATSAPP_NUMBER = '201551772258';
 
 /** Human-readable form of WHATSAPP_NUMBER, for visible link text. */
-export const WHATSAPP_DISPLAY = '+20 108 091 6066';
+export const WHATSAPP_DISPLAY = '+20 155 177 2258';
 
 /** Bare wa.me link (no prefilled message) — for "chat with us" buttons. */
 export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
@@ -62,3 +63,12 @@ export function whatsappUrl(text: string): string {
  * link. The server-side TEAM_INBOX_EMAIL env is a separate concern.
  */
 export const PUBLIC_TEAM_EMAIL = 'info@travel2egypt.org';
+
+/**
+ * Title as it reads after "interested in the …" in the tour WhatsApp prefill:
+ * drops a leading English "The" so "The Giza Sound & Light Show" doesn't
+ * become "the The Giza…". ES/JA titles never start with it.
+ */
+export function waTourTitle(title: string): string {
+  return title.replace(/^the\s+/i, '');
+}

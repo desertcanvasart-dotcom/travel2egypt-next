@@ -16,7 +16,7 @@ import { FloatingConcierge } from '../FloatingConcierge';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import '@/styles/tour-system.css';
 
-import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
+import { WHATSAPP_LINK as WHATSAPP, waTourTitle } from '@/lib/concierge/constants';
 
 interface CityRef { _id: string; name: string; slug: string }
 
@@ -68,6 +68,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const tSub = await getTranslations('subcategory');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+  const waHref = `${WHATSAPP}?text=${encodeURIComponent(ts('waTourText', { title: waTourTitle(tour.title) }))}`;
 
   // Concierge CTAs ride the site's one lever (CHAT_ENABLED): → /plan-your-tour
   // with this tour's context when chat is live, → /contact fail-safe otherwise.
@@ -314,7 +315,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
               <CurrencyNote note={ts('priceCurrencyNote')} />
               <Link className="rail-cta" href={conciergeHref}>{ts('planThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
-              <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
+              <a className="rail-cta ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
 
             <div className="card">
@@ -334,7 +335,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             <p>{ts('ctaBodyL3')}</p>
             <div className="cta-buttons">
               <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('ctaAboutTour')} <span className="cta-arrow" aria-hidden>→</span></Link>
-              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
+              <a className="cta-btn cta-btn--ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
           </div>
         </div>
