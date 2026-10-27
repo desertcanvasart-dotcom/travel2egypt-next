@@ -17,8 +17,8 @@ import { urlFor } from '@/sanity/lib/image';
 import {
   cruiseBySlugQuery,
   allCruiseSlugsQuery,
-  siteSettingsQuery,
 } from '@/sanity/lib/queries';
+import { whatsappUrl } from '@/lib/concierge/constants';
 import { Body } from '@/components/Body';
 import { TourCard, type TourCardData } from '@/components/TourCard';
 import type { CruiseCardData } from '@/components/CruiseCard';
@@ -123,10 +123,7 @@ export default async function CruisePage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('cruise');
-  const [cruise, siteSettings] = await Promise.all([
-    client.fetch<CruiseDetail | null>(cruiseBySlugQuery(locale as Locale), { slug }),
-    client.fetch(siteSettingsQuery(locale as Locale)),
-  ]);
+  const cruise = await client.fetch<CruiseDetail | null>(cruiseBySlugQuery(locale as Locale), { slug });
 
   if (!cruise) notFound();
 
@@ -134,12 +131,7 @@ export default async function CruisePage({ params }: Props) {
     ? urlFor(cruise.heroImage).width(2400).height(1200).quality(85).url()
     : null;
 
-  const whatsappNumber: string | undefined = siteSettings?.contact?.whatsapp;
-  const whatsappHref = whatsappNumber
-    ? `https://wa.me/${whatsappNumber.replace(/[^\d]/g, '')}?text=${encodeURIComponent(
-        `Hi — I'd like to ask about sailing on "${cruise.name}"`
-      )}`
-    : null;
+  const whatsappHref = whatsappUrl(`Hi — I'd like to ask about sailing on "${cruise.name}"`);
 
   const typeLabel = cruise.type ? TYPE_LABEL[cruise.type] : null;
   const tierLabel = cruise.tier ? TIER_LABEL[cruise.tier] : null;
