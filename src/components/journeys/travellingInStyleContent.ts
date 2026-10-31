@@ -181,7 +181,7 @@ export const travellingInStyleContent: LocalizedJourney = {
         },
         {
           label: 'Dahabiyas: el Nilo a vela',
-          href: '/blog/dahabiya-nile-cruises-wind-powered-journey',
+          href: '/blog/cruceros-dahabiya-por-el-nilo',
           sentence: 'Por qué los barcos más pequeños del río son los mejores, y en qué se diferencian los pocos en los que confiamos.',
         },
         {

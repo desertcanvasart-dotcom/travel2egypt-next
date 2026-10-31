@@ -2192,13 +2192,30 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
       "featured": featured,
       "why": ${localizedField('why', locale)}
     },
+    // Same per-type resolution as the tour query's journalRefs: guide refs
+    // need their parentCity; articles resolve the locale sibling (or drop).
     "journalRefs": journalRefs[]->{
       _id,
       "_type": _type,
-      "title": coalesce(${localizedField('title', locale)}, title),
-      "slug": coalesce(${localizedSlug('slug', locale)}, slug.current),
-      "summary": coalesce(${localizedField('summary', locale)}, excerpt),
-      "kicker": ${localizedField('section', locale)}
+      "kicker": ${localizedField('section', locale)},
+      _type == "guideArticle" => {
+        "title": ${localizedField('title', locale)},
+        "slug": ${localizedSlug('slug', locale)},
+        "summary": ${localizedField('summary', locale)},
+        "parentCity": parentCity->{
+          "slug": ${localizedSlug('slug', locale)}
+        }
+      },
+      _type == "article" && language == "${locale}" => {
+        title,
+        "slug": slug.current,
+        "summary": excerpt
+      },
+      _type == "article" && language != "${locale}" => *[_type == "translation.metadata" && references(^._id)][0].translations[_key == "${locale}"][0].value->{
+        title,
+        "slug": slug.current,
+        "summary": excerpt
+      }
     },
     // Build the tours list from the discriminator: this landing lists tours
     // sharing the same parent-category (type × tourMode) AND the same axis value.
