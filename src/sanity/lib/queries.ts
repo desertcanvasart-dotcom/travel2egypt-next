@@ -350,7 +350,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     },
     "relatedGuideArticles": *[
       _type == "guideArticle" &&
-      parentCity._ref in ^.cities[]._ref
+      parentCity._ref in ^.cities[]._ref &&
+      hidden != true
     ] | order(orderRank asc)[0...4]{
       _id,
       "_type": "guideArticle",
@@ -373,10 +374,27 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       authorName,
       authorOrigin
     },
+    // journalRefs accepts article and guideArticle refs. Articles are one doc
+    // per language, so resolve the locale's sibling via translation.metadata;
+    // with no sibling the item has no title and the view drops it.
     "journalRefs": journalRefs[]->{
       _id,
-      "title": title,
-      "slug": slug.current
+      _type,
+      _type == "guideArticle" => {
+        "title": ${localizedField('title', locale)},
+        "slug": ${localizedSlug('slug', locale)},
+        "parentCity": parentCity->{
+          "slug": ${localizedSlug('slug', locale)}
+        }
+      },
+      _type == "article" && language == "${locale}" => {
+        title,
+        "slug": slug.current
+      },
+      _type == "article" && language != "${locale}" => *[_type == "translation.metadata" && references(^._id)][0].translations[_key == "${locale}"][0].value->{
+        title,
+        "slug": slug.current
+      }
     },
     "groupSize": ${localizedField('groupSize', locale)},
     "effortLevel": ${localizedField('effortLevel', locale)},
