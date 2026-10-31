@@ -16839,7 +16839,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ダハブ限定",
-    "destination": "/ja/guide/dahabu/dahabu-gentei",
+    "destination": "/ja/guide/dahabu/buru-horu",
     "permanent": true
   },
   {
@@ -26690,6 +26690,11 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/qena-travel-guide/sacred-lake",
     "destination": "/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/dahabu/dahabu-gentei",
+    "destination": "/ja/guide/dahabu/buru-horu",
     "permanent": true
   }
 ];
