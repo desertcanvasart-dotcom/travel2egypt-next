@@ -69,7 +69,7 @@ export interface SubcategoryDoc {
     effort?: Array<{ label?: string; value?: string }>;
   } | null;
   tourPresentation?: Array<{ tourId?: string; label?: string; featured?: boolean; why?: string }> | null;
-  journalRefs?: Array<{ _id: string; _type?: string; title?: string; slug?: string; summary?: string; kicker?: string }> | null;
+  journalRefs?: Array<{ _id: string; _type?: string; title?: string; slug?: string; summary?: string; kicker?: string; parentCity?: { slug?: string } | null }> | null;
   tours?: RawTour[];
 }
 
@@ -365,7 +365,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
               </div>
               <div className="journal-grid">
                 {journal.slice(0, 3).map((j) => {
-                  const href = j._type === 'guideArticle' ? `/guide/${j.slug}` : `/blog/${j.slug}`;
+                  const href = j._type === 'guideArticle' ? (j.parentCity?.slug ? `/guide/${j.parentCity.slug}/${j.slug}` : `/guide/${j.slug}`) : `/blog/${j.slug}`;
                   return (
                     <Link key={j._id} href={href}>
                       {j.kicker && <small>{j.kicker}</small>}
