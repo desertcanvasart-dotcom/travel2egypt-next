@@ -60,7 +60,7 @@ export interface SingleTour {
   relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[] }> | null;
   relatedGuides?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   relatedGuideArticles?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
-  journalRefs?: Array<{ _id: string; title?: string; slug?: string }> | null;
+  journalRefs?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
 }
 
 export async function SingleTourView({ tour, locale }: { tour: SingleTour; locale: Locale }) {
@@ -370,7 +370,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                 <div className="related-col">
                   <h3>{ts('fromJournal')}</h3>
                   {journal.slice(0, 3).map((j) => (
-                    <Link key={j._id} className="ritem" href={`/blog/${j.slug}`}>
+                    <Link key={j._id} className="ritem" href={j._type === 'guideArticle' ? guideHref(j) : `/blog/${j.slug}`}>
                       <span className="rt">{j.title}</span>
                     </Link>
                   ))}
