@@ -12663,11 +12663,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/es/guide/dahab/blue-hole",
-    "destination": "/es/guide/dahab",
-    "permanent": true
-  },
-  {
     "source": "/es/el-agatha-dahabiya-descubriendo-el-rio-eterno-de-egipto",
     "destination": "/es/la-agatha-siete-dias-en-el-nilo-de-luxor-a-asuan",
     "permanent": true
@@ -14050,26 +14045,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/private-tours-in-dahab",
     "destination": "/guide/dahab",
-    "permanent": true
-  },
-  {
-    "source": "/es/guide/nuweiba/fiestas-en-nuweiba",
-    "destination": "/es/guide/nuweiba",
-    "permanent": true
-  },
-  {
-    "source": "/ja/guide/nuweiba/nuweiba-no-o-matsuri",
-    "destination": "/ja/guide/nuweiba",
-    "permanent": true
-  },
-  {
-    "source": "/es/guide/safaga/celebracion-en-safaga",
-    "destination": "/es/guide/safaga",
-    "permanent": true
-  },
-  {
-    "source": "/ja/guide/safaga/safaga-de-no-oiwai",
-    "destination": "/ja/guide/safaga",
     "permanent": true
   },
   {
@@ -15823,11 +15798,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/guide/dahab/blue-hole",
-    "destination": "/guide/dahab",
-    "permanent": true
-  },
-  {
     "source": "/ja/guide/dahab/blue-hole",
     "destination": "/ja/guide/dahabu",
     "permanent": true
@@ -15860,11 +15830,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/guide/cairo/mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
     "destination": "/ja/guide/kairo/mosque-of-al-nasir-muhammad-ibn-qalawun",
-    "permanent": true
-  },
-  {
-    "source": "/guide/kharga-oasis/kharga-unearthed",
-    "destination": "/guide/kharga-oasis",
     "permanent": true
   },
   {
@@ -23824,7 +23789,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/celebracion-en-safaga",
-    "destination": "/es/guide/safaga",
+    "destination": "/es/guide/safaga/celebracion-en-safaga",
     "permanent": true
   },
   {
