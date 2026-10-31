@@ -24081,5 +24081,2650 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/ソネスタ・セント・ジョージ-ナイルクルーズ",
     "destination": "/ja/nile-cruises/m-s-sonesutasentojoji-i",
     "permanent": true
+  },
+  {
+    "source": "/egypt-best-hotels-and-nile-cruises/sonesta-st-george-luxor",
+    "destination": "/hotels/sonesta-st-george-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/viaje",
+    "destination": "/es/guide/alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-port-said/cuando-visitar",
+    "destination": "/es/guide/port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-ismailia/mejor-momento-para-visitar",
+    "destination": "/es/guide/ismailia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-suez",
+    "destination": "/es/guide/suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/guia-de-viaje-sobre-el-clima-de-el-cairo-navegando-por-las-estaciones",
+    "destination": "/es/guide/el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/propinas-en-egipto",
+    "destination": "/es/travel-tips/propinas-en-egipto-como-funciona-de-verdad-el-baksheesh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-safaga/lugares",
+    "destination": "/es/guide/safaga/lugares-de-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/la-mastaba-de-ptahshepses-en-abusir",
+    "destination": "/es/guide/guiza/la-mastaba-de-ptahshepses-en-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viajes-de-marsa-matruh/exploraciones",
+    "destination": "/es/guide/marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-kom-ombo/sabores-para-comer",
+    "destination": "/es/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-beni-suef/descubrir-beni-suef-ideas-y-experiencias-unicas",
+    "destination": "/es/guide/beni-suef/descubrir-beni-suef-ideas-y-experiencias-unicas",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-nuweiba/escena-culinaria",
+    "destination": "/es/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-kom-ombo/fiestas-nilo",
+    "destination": "/es/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/madrasa-y-mausoleo-de-an-nasir-mohammed-sultan",
+    "destination": "/es/guide/el-cairo/madrasa-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/el-cairo-al-descubierto-en-la-ciudad-de-los-mil-minaretes",
+    "destination": "/es/guide/el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-ir-a-el-cairo",
+    "destination": "/es/guide/el-cairo/como-ir-a-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-el-cairo__trashed/el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo",
+    "destination": "/es/guide/el-cairo/el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-cairo-copto",
+    "destination": "/es/guide/el-cairo/el-cairo-copto",
+    "permanent": true
+  },
+  {
+    "source": "/es/museo-mevlevi",
+    "destination": "/es/guide/el-cairo/el-museo-mevlevi-museo-mawlawiyya",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/エジプトの心：カイロでの必見アクティビティ",
+    "destination": "/ja/guide/kairo/ejiputo-no-kokoro-kairo-de-no-hikken-akutibiti",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/エジプト考古学博物館",
+    "destination": "/ja/guide/kairo/ejiputo-kokogaku-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/スルタン・アシュラフ・バルスベイの複合施設",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ファラグ・イブン・バルクークのハンカーと霊廟",
+    "destination": "/ja/wiki/monuments/ファラグ・イブン・バルクークのハンカーと霊廟",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/スルタン・カイトベイのモスク",
+    "destination": "/ja/guide/kairo/surutan-kaito-bei-no-reibyo-fukugo-tai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/イブン・トゥールーン・モスク",
+    "destination": "/ja/guide/kairo/ibunturunmosuku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/メヴレヴィ博物館",
+    "destination": "/ja/guide/kairo/mevurevi-hakubutsukan-maurawiya-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アル＝アズハルから城塞（シタデル）へ",
+    "destination": "/ja/wiki/monuments/アル＝アズハルから城塞（シタデル）へ",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/スルタン・ハサン・モスクとマドラサ",
+    "destination": "/ja/wiki/monuments/スルタン・ハサン・モスクとマドラサ",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/北の囲郭（ノーザン・エンクロージャー）",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ガウハラ・テラス",
+    "destination": "/ja/guide/kairo/gauharaterasu-to-kyuden",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アル＝ナースィル・ムハンマド・イブン・カラウ",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ムハンマド・アリー・モスク",
+    "destination": "/ja/guide/kairo/muhammadoarimosuku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/イブン・トゥールーン城塞",
+    "destination": "/ja/guide/kairo/ibunturunmosuku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ハイールベイ・コンプレックス",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アクスヌール・モスク",
+    "destination": "/ja/guide/kairo/akusunkurumosuku-buru-mosuku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ウム・スルタン・シャアバーンのモスクとマドラ",
+    "destination": "/ja/wiki/monuments/ウム・スルタン・シャアバーンのモスクとマドラ",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アスラム・アル・シラフダル・モスク",
+    "destination": "/ja/wiki/monuments/アスラム・アル・シラフダル・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/イスラム美術館",
+    "destination": "/ja/guide/kairo/isuramu-bijutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アル＝ムアイヤド・シャイフ・モスク",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/バブ・ズウェイラ",
+    "destination": "/ja/guide/kairo/babuzuweira",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ムハンマド・アリー・パシャのサビール",
+    "destination": "/ja/guide/kairo/muhammadoaripasha-no-sabiru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アル＝グーリー・モスク兼マドラサ",
+    "destination": "/ja/guide/kairo/aruguri-no-mosukumadorasa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アル・グーリ廟",
+    "destination": "/ja/wiki/monuments/アル・グーリ廟",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ベイト・アル・ハラウィ",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ベイト・ゼイナブ・アル＝カトゥーン",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/シャーリア・アル＝ムイッズ・リッディーン・ア",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アル＝アクマル・モスク",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ベイト・アル＝スハイミ（アル＝スハイミ邸）",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アル・ハキム・モスク",
+    "destination": "/ja/guide/kairo/aru-ha-kimu-mosuku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/北側の壁と門",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ウィカラ・アル＝バザーラ",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/スルタン・バイバルス・アル＝ガシャンキールの",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/エジプト織物博物館",
+    "destination": "/ja/guide/kairo/ejiputo-orimono-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アブドル・ラーマン・カトフダーのサビールとク",
+    "destination": "/ja/wiki/monuments/アブドル・ラーマン・カトフダーのサビールとク",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アン＝ナースィル・ムハンマド・スルタンのマド",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/バルクークのマドラサと霊廟",
+    "destination": "/ja/guide/kairo/surutanbarukuku-no-madorasa-to-han-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/サーリフ・ナジュム・エッディーン・アイユーブ",
+    "destination": "/ja/wiki/monuments/サーリフ・ナジュム・エッディーン・アイユーブ",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ベイン・アル＝カスレイン通り",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/カラーウーンのマドラサと霊廟",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/シェイドナ・アル＝フセインのモスク",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ミダン・アル＝フセイン（シェイドナ・アル＝フ",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ハーン・アル・ハリリ-バザール",
+    "destination": "/ja/guide/kairo/han-eru-hariri",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/コプト・カイロ",
+    "destination": "/ja/guide/kairo/koputokairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/アムル・イブン・アル・アースのモスク",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ベン・エズラ・シナゴーグ",
+    "destination": "/ja/guide/kairo/ben-ezurashinagogu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/ローマの塔",
+    "destination": "/ja/guide/kairo/roma-no-to",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/聖セルギウスとバッカス教会",
+    "destination": "/ja/guide/kairo/sei-serugiusu-to-bakkasu-kyokai-abuseruga",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/コプト博物館",
+    "destination": "/ja/guide/kairo/koputo-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/聖バルバラ教会",
+    "destination": "/ja/guide/kairo/sei-baru-bara-kyokai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/カイロの美食探訪：エジプト首都の味わい",
+    "destination": "/ja/guide/kairo/kairo-no-bishoku-tambo-ejiputo-shuto-no-ajiwai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/カイロのイベントホライズン：文化的祭りの旅行",
+    "destination": "/ja/guide/kairo",
+    "permanent": true
+  },
+  {
+    "source": "/luxor-travel-guide",
+    "destination": "/guide/luxor",
+    "permanent": true
+  },
+  {
+    "source": "/kom-ombo-travel-guide/khnum-temple",
+    "destination": "/guide/kom-ombo/khnum-temple",
+    "permanent": true
+  },
+  {
+    "source": "/alexandria-travel-guide/the-national-museum",
+    "destination": "/guide/alexandria/alexandria-national-museum",
+    "permanent": true
+  },
+  {
+    "source": "/kom-ombo-travel-guide/the-speos-of-horemheb",
+    "destination": "/guide/kom-ombo/speos-of-horemheb",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-esna",
+    "destination": "/es/guide/esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-edfu",
+    "destination": "/es/guide/edfu",
+    "permanent": true
+  },
+  {
+    "source": "/sharm-el-sheikh-travel-guide/events",
+    "destination": "/guide/sharm-el-sheikh/upcoming-events-in-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/hurghada-travel-guide/sunny-weather",
+    "destination": "/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/alexandria-travel-guide/activities-must-visit",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/nuweiba-travel-guide/best-time-visit-nuweiba",
+    "destination": "/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-travel-guide/events-festivals",
+    "destination": "/guide/aswan",
+    "permanent": true
+  },
+  {
+    "source": "/al-wadi-al-gadid-travel-guide/accommodations-where",
+    "destination": "/guide/al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/edfu-travel-guide/weather-planning",
+    "destination": "/guide/edfu",
+    "permanent": true
+  },
+  {
+    "source": "/rosetta-rasheed-travel-guide/taste-of-rosetta",
+    "destination": "/guide/rosetta-rasheed/food-in-rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/dahab-travel-guide/bohemian-paradise",
+    "destination": "/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-rosetta-rasheed/sabor-a-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/donde-comer-en-rosetta-rashid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-dahab/dahab-el-paraiso-bohemio-del-mar-rojo",
+    "destination": "/es/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-travel-guide",
+    "destination": "/guide/aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan",
+    "destination": "/es/guide/asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/templo-del-oraculo",
+    "destination": "/es/wiki/monuments/templo-del-oraculo",
+    "permanent": true
+  },
+  {
+    "source": "/hurghada-travel-guide/journeys",
+    "destination": "/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-travel-guide/aswan-local-market",
+    "destination": "/guide/aswan/aswan-local-market",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/casa-museo-siwa",
+    "destination": "/es/wiki/monuments/casa-museo-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-taba/guia-de-viaje-estacional-de-taba-como-encontrar-el-momento-perfecto-para-visitarla",
+    "destination": "/es/guide/taba",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-travel-guide",
+    "destination": "/guide/cairo",
+    "permanent": true
+  },
+  {
+    "source": "/giza-travel-guide/the-solar-boat-museum",
+    "destination": "/wiki/monuments/the-solar-boat-museum",
+    "permanent": true
+  },
+  {
+    "source": "/weather-in-giza",
+    "destination": "/guide/giza/weather-in-giza",
+    "permanent": true
+  },
+  {
+    "source": "/alexandria-travel-guide/royal-family-jewellery-museum",
+    "destination": "/guide/alexandria/royal-family-jewellery-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo",
+    "destination": "/es/guide/el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-hurghada/delicias-culinarias",
+    "destination": "/es/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-rosetta-rasheed/descubrimientos",
+    "destination": "/es/guide/rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-hurghada/viajes",
+    "destination": "/es/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/etiqueta-cultural-en-egipto",
+    "destination": "/es/travel-tips/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-abu-simble/fiestas-del-sol",
+    "destination": "/es/guide/abu-simbel/fiestas-del-sol",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-safaga/explorando-maravillas",
+    "destination": "/es/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-wadi-al-gadid/el-sabor-del-desierto-las-delicias-culinarias-de-al-wadi-al-gadid",
+    "destination": "/es/guide/al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/el-museo-grecorromano",
+    "destination": "/es/guide/alejandria/el-museo-grecorromano",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-port-said/crisol",
+    "destination": "/es/guide/port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/el-anfiteatro-romano",
+    "destination": "/es/guide/alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/ventajas-del-clima-mediterraneo-la-mejor-epoca-para-visitar-alejandria",
+    "destination": "/es/guide/alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/museo-de-joyas-de-la-familia-real",
+    "destination": "/es/wiki/monuments/museo-de-joyas-de-la-familia-real",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-dahab/como-llegar-a-dahab-tu-companero-de-viaje-definitivo",
+    "destination": "/es/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/sharm-el-sheikh-travel-guide/the-heavenly-cathedral",
+    "destination": "/guide/sharm-el-sheikh/the-heavenly-cathedral",
+    "permanent": true
+  },
+  {
+    "source": "/alexandria-travel-guide/the-greco-roman-museum",
+    "destination": "/guide/alexandria/the-greco-roman-museum",
+    "permanent": true
+  },
+  {
+    "source": "/alexandria-travel-guide/qaitbey-fort",
+    "destination": "/guide/alexandria/qaitbey-fort",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viajes-de-dahab",
+    "destination": "/es/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-rosetta-rasheed/puntos-del-orden-del-dia",
+    "destination": "/es/guide/rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-edfu/experiencias-a-tener",
+    "destination": "/es/guide/edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/el-templo-del-serapeum",
+    "destination": "/es/guide/alejandria/el-templo-del-serapeum",
+    "permanent": true
+  },
+  {
+    "source": "/safaga-travel-guide/divers-paradise",
+    "destination": "/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-fayoum/la-piramide-de-al-lahun",
+    "destination": "/es/guide/al-fayoum/la-piramide-de-al-lahun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ルクソール旅行ガイド",
+    "destination": "/ja/guide/rukusoru",
+    "permanent": true
+  },
+  {
+    "source": "/kharga-oasis-travel-guide/kharga-unearthed",
+    "destination": "/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/the-palm-groves",
+    "destination": "/guide/farafra-oasis/palm-groves",
+    "permanent": true
+  },
+  {
+    "source": "/ras-sudr-travel-guide/journey-travel-guide",
+    "destination": "/guide/ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-el-cairo",
+    "destination": "/es/blog/guia-de-el-cairo-para-aficionados-a-la-historia",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-wadi-al-gadid/wadi-al-natron-viaje-al-corazon-del-monacato-copto",
+    "destination": "/es/guide/al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/ciudadela-de-ibn-tulun",
+    "destination": "/es/guide/el-cairo/la-mezquita-de-ibn-tulun",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-abu-simble/el-templo-de-amada",
+    "destination": "/es/guide/abu-simbel/el-templo-de-amada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/madraza-y-mausoleo-de-qalawun",
+    "destination": "/es/guide/el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/mezquita-de-al-azhar",
+    "destination": "/es/wiki/monuments/mezquita-de-al-azhar",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/madraza-y-mausoleo-de-barquq",
+    "destination": "/es/guide/el-cairo/la-madrasa-y-khanqah-del-sultan-barquq",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-travel-guide/experiences-unveiled",
+    "destination": "/guide/cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/la-presa-alta",
+    "destination": "/es/guide/asuan/la-presa-alta-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-llegar-a-abu-simbel",
+    "destination": "/es/guide/abu-simbel/como-llegar-a-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/アスワン・ハイ・ダム",
+    "destination": "/ja/guide/asuwan/asuwan-hai-damu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベルの移動ガイド",
+    "destination": "/ja/guide/abu-shinberu/abu-shin-beru-no-ido-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル旅行ガイド/訪問者ガイド",
+    "destination": "/ja/guide/abu-shinberu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル旅行ガイド/アブ・シンベル大寺院",
+    "destination": "/ja/guide/abu-shinberu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル旅行ガイド/アブ・シンベルの小神殿",
+    "destination": "/ja/guide/abu-shinberu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル旅行ガイド/カスル・イブリム",
+    "destination": "/ja/guide/abu-shinberu/kasuruiburimu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル旅行ガイド/デール神殿",
+    "destination": "/ja/guide/abu-shinberu/deru-shinden",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル旅行ガイド/冒険を探訪する",
+    "destination": "/ja/guide/abu-shinberu",
+    "permanent": true
+  },
+  {
+    "source": "/es/historia-de-alejandria",
+    "destination": "/es/guide/alejandria/historia-de-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-llegar-a-alejandria",
+    "destination": "/es/guide/alejandria/como-llegar-a-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/necropolis-de-anfushi",
+    "destination": "/es/guide/alejandria/necropolis-de-anfushi",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/el-faro-de-pharos",
+    "destination": "/es/guide/alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/mezquita-al-mursi-abu-al-abbas",
+    "destination": "/es/wiki/monuments/mezquita-al-mursi-abu-al-abbas",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/biblioteca-de-alejandria",
+    "destination": "/es/guide/alejandria/biblioteca-de-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria/el-museo-nacional",
+    "destination": "/es/guide/alejandria/museo-nacional-de-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/donde-comer-en-alejandria",
+    "destination": "/es/guide/alejandria/donde-comer-en-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/アンフーシのネクロポリス",
+    "destination": "/ja/guide/arekusandoria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/ファロス灯台",
+    "destination": "/ja/guide/arekusandoria/fa-rosu-todai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/王宮群",
+    "destination": "/ja/guide/arekusandoria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/セラピス神殿",
+    "destination": "/ja/wiki/monuments/セラピス神殿",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/王室宝石博物館",
+    "destination": "/ja/wiki/monuments/王室宝石博物館",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/コム・エル・ショカファのカタコンベ",
+    "destination": "/ja/guide/arekusandoria/komuerushokafa-no-katakombe",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/ポンペイの柱",
+    "destination": "/ja/guide/arekusandoria/pompei-no-hashira",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/ローマ円形劇場",
+    "destination": "/ja/guide/arekusandoria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/カイトベイの要塞",
+    "destination": "/ja/guide/arekusandoria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/アル・モルシ・アブー・アル＝アッバース・モス",
+    "destination": "/ja/guide/arekusandoria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/アレクサンドリア図書館",
+    "destination": "/ja/guide/arekusandoria/bibliotheca-alexandrina-shin-arekusandoria-toshokan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/国立博物館",
+    "destination": "/ja/guide/arekusandoria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/トラベルトレックス",
+    "destination": "/ja/guide/arekusandoria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/experiences-unveiling",
+    "destination": "/ja/guide/arekusandoria",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア旅行ガイド/イベントの風景",
+    "destination": "/ja/guide/arekusandoria",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/pueblo-de-dendera",
+    "destination": "/es/wiki/monuments/pueblo-de-dendera",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/edfu/templo-de-edfu",
+    "destination": "/es/wiki/monuments/templo-de-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/qena/el-templo-de-dendera",
+    "destination": "/es/guide/qena/el-recinto-del-templo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/el-templo-del-serapeum",
+    "destination": "/es/guide/alejandria/el-templo-del-serapeum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エジプトのラマダン",
+    "destination": "/ja/travel-tips/ejiputo-no-ramadan",
+    "permanent": true
+  },
+  {
+    "source": "/sharm-el-sheikh-travel-guide/ras-mohamed-national-park",
+    "destination": "/guide/sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/qena-travel-guide/the-temple-of-dendera",
+    "destination": "/guide/qena/the-temple-precinct",
+    "permanent": true
+  },
+  {
+    "source": "/marsa-alam-travel-guide",
+    "destination": "/guide/marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/alexandria-travel-guide",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/marsa-matruh-travel-guide",
+    "destination": "/guide/marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/al-arish-travel-guide/the-protected-area-of-zaranik",
+    "destination": "/guide/al-arish/protected-area-of-zaranik",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/abu-simble",
+    "destination": "/abu-simble-by-plane-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/kharga-oasis",
+    "destination": "/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/kharga-oasis-travel-guide",
+    "destination": "/guide/kharga-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/dakhla-oasis-travel-guide/when-to-explore-dakhla-oasis",
+    "destination": "/guide/dakhla-oasis/when-to-explore-dakhla-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-hurghada",
+    "destination": "/es/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-marsa-alam",
+    "destination": "/es/guide/marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-alejandria",
+    "destination": "/es/guide/alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/kharga-oasis",
+    "destination": "/es/guide/kharga",
+    "permanent": true
+  },
+  {
+    "source": "/kharga-oasis-travel-guide/kharga-cultural-museum",
+    "destination": "/guide/kharga-oasis/kharga-cultural-museum",
+    "permanent": true
+  },
+  {
+    "source": "/qena-travel-guide/journeying-across",
+    "destination": "/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/hurghada-travel-guide/diving-adventures",
+    "destination": "/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-hurghada/aventuras-de-buceo",
+    "destination": "/es/guide/hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/giza-travel-guide",
+    "destination": "/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza",
+    "destination": "/es/guide/guiza",
+    "permanent": true
+  },
+  {
+    "source": "/saint-catherine-travel-guide/saint-catherine-monastery",
+    "destination": "/guide/saint-catherine/saint-catherine-monastery",
+    "permanent": true
+  },
+  {
+    "source": "/saint-catherine-travel-guide/moses-mountain",
+    "destination": "/guide/saint-catherine",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-ras-sudr/delicias-culinarias",
+    "destination": "/es/guide/ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/nuweiba-travel-guide/culinary-scene",
+    "destination": "/guide/nuweiba/nuweiba-dining-experiences",
+    "permanent": true
+  },
+  {
+    "source": "/al-arish-travel-guide/ideal-stay",
+    "destination": "/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-qena/capilla-del-disco",
+    "destination": "/es/guide/qena/la-capilla-del-disco",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/tumbas-de-los-nobles-en-asuan",
+    "destination": "/es/guide/asuan/tumbas-de-los-nobles-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-wadi-al-gadid/reliquias-del-reinado-de-los-faraones",
+    "destination": "/es/guide/al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-rosetta-rasheed/los-secretos-mejor-guardados",
+    "destination": "/es/guide/rosetta-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-santa-catalina/historia-sagrada",
+    "destination": "/es/guide/santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-kharga/fortaleza-y-templo-de-nadura",
+    "destination": "/es/guide/kharga/fortaleza-y-templo-de-nadura",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-beni-suef/visitas",
+    "destination": "/es/guide/beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/embarque-en-viajes",
+    "destination": "/es/guide/asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/el-templo-de-kalabsha",
+    "destination": "/es/guide/asuan/el-templo-de-kalabsha",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/el-museo-de-asuan",
+    "destination": "/es/guide/asuan/el-museo-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/templo-de-isis-de-asuan-pompeya",
+    "destination": "/es/guide/asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/el-templo-de-filae",
+    "destination": "/es/guide/asuan/el-templo-de-filae",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/el-museo-nubio",
+    "destination": "/es/guide/asuan/el-museo-nubio",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/el-obelisco-inacabado",
+    "destination": "/es/guide/asuan/el-obelisco-inacabado",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/isla-de-sehel",
+    "destination": "/es/wiki/monuments/isla-de-sehel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/el-jardin-botanico",
+    "destination": "/es/guide/asuan/el-jardin-botanico",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/el-mausoleo-de-agha-khan",
+    "destination": "/es/guide/asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/festin-culinario",
+    "destination": "/es/guide/asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/eventos-festivales",
+    "destination": "/es/guide/asuan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワンアクセスガイド",
+    "destination": "/ja/guide/asuwan/asuwanakusesugaido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン交通手段まとめ",
+    "destination": "/ja/guide/asuwan/asuwan-kotsu-shudan-matome",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/アクティビティの宝庫",
+    "destination": "/ja/guide/asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/エレファンティネ島",
+    "destination": "/ja/guide/asuwan/erefantine-to",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/カラブシャ神殿",
+    "destination": "/ja/guide/asuwan/karabusha-shinden",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/アスワン博物館",
+    "destination": "/ja/guide/asuwan/asuwan-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/アスワン・イシス神殿-ポンペイ",
+    "destination": "/ja/guide/asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/アスワンのフィラエ神殿",
+    "destination": "/ja/wiki/monuments/アスワンのフィラエ神殿",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/ヌビア博物館",
+    "destination": "/ja/guide/asuwan/nubia-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/未完のオベリスク",
+    "destination": "/ja/guide/asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/聖シメオン修道院",
+    "destination": "/ja/guide/asuwan/sei-shimeon-shudoin",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/キッチナー島",
+    "destination": "/ja/wiki/monuments/キッチナー島",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/ボタニカル・ガーデン",
+    "destination": "/ja/guide/asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/アーガー・ハーン廟",
+    "destination": "/ja/guide/asuwan/agahan-byo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/美食の饗宴",
+    "destination": "/ja/guide/asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/明かされる体験",
+    "destination": "/ja/guide/asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワン旅行ガイド/イベント・フェスティバル",
+    "destination": "/ja/guide/asuwan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/saint-catherine/monasterio-de-santa-catalina",
+    "destination": "/es/wiki/monuments/monasterio-de-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/mezquita-de-al-hakim",
+    "destination": "/es/wiki/monuments/mezquita-de-al-hakim",
+    "permanent": true
+  },
+  {
+    "source": "/es/donde-alojarse-en-santa-catalina",
+    "destination": "/es/guide/santa-catalina/donde-alojarse-en-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-moverse-en-santa-catalina",
+    "destination": "/es/guide/santa-catalina/como-moverse-en-santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-santa-catalina/biblioteca-del-monasterio",
+    "destination": "/es/wiki/monuments/biblioteca-del-monasterio",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-santa-catalina/montana-de-santa-catalina",
+    "destination": "/es/guide/santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/ja/聖カタリナ旅行ガイド",
+    "destination": "/ja/guide/sei-katarina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/el-museo-copto",
+    "destination": "/es/guide/el-cairo/el-museo-copto",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-santa-catalina/viajando-a-traves-de",
+    "destination": "/es/guide/santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/resumen-historico-de-oasis-de-farafra",
+    "destination": "/es/guide/farafra/resumen-historico-de-oasis-de-farafra",
+    "permanent": true
+  },
+  {
+    "source": "/es/parque-nacional-del-desierto-blanco",
+    "destination": "/es/guide/farafra/parque-nacional-del-desierto-blanco",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシスの宿泊情報",
+    "destination": "/ja/guide/farafura-oashisu/farafuraoashisu-no-shukuhaku-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシスの交通手段まとめ",
+    "destination": "/ja/guide/farafura-oashisu/farafuraoashisu-nai-no-ido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/アクティビティと冒険",
+    "destination": "/ja/guide/farafura-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/隠された谷と新しいホワイトデザート",
+    "destination": "/ja/guide/farafura-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/白砂漠国立公園",
+    "destination": "/ja/guide/farafura-oashisu/shirasuna-baku-kokuritsu-koen",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/エル・カフ",
+    "destination": "/ja/guide/farafura-oashisu/eru-kafu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/バドル博物館",
+    "destination": "/ja/guide/farafura-oashisu/badoru-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/クリスタルマウンテンとアガバット",
+    "destination": "/ja/guide/farafura-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/ファラフラからダフラへのオフロード",
+    "destination": "/ja/guide/farafura-oashisu/farafura-kara-dafura-e-no-ofurodo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/ヤシの木々",
+    "destination": "/ja/guide/farafura-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/白砂漠",
+    "destination": "/ja/guide/farafura-oashisu/shirasuna-baku-kokuritsu-koen",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/要塞",
+    "destination": "/ja/wiki/monuments/要塞",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/ガルド・アブ・ムハリクと砂の火山",
+    "destination": "/ja/guide/farafura-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/冒険の概要",
+    "destination": "/ja/guide/farafura-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラフラ・オアシス旅行ガイド/料理の味",
+    "destination": "/ja/guide/farafura-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/the-definitive-guide-to-egypt-nile-cruise",
+    "destination": "/es/blog/crucero-por-el-nilo-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-2/the-botanical-garden",
+    "destination": "/guide/aswan/botanical-garden",
+    "permanent": true
+  },
+  {
+    "source": "/akhmim-travel-guide/tours",
+    "destination": "/blog/category/tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/el-complejo-del-sultan-ashraf-barsbey",
+    "destination": "/es/guide/el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-kom-ombo/los-speos-de-horemheb",
+    "destination": "/es/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/edfu-a-traves-de-la-historia",
+    "destination": "/es/guide/edfu/edfu-a-traves-de-la-historia",
+    "permanent": true
+  },
+  {
+    "source": "/es/clima-en-edfu",
+    "destination": "/es/guide/edfu/clima-en-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/cosas-que-hacer-en-edfu",
+    "destination": "/es/guide/edfu/cosas-que-hacer-en-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/comida-y-bebida-de-edfu",
+    "destination": "/es/guide/edfu/comida-y-bebida-de-edfu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エドフ旅行ガイド/エドフ神殿",
+    "destination": "/ja/wiki/monuments/エドフ神殿",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-es-el-clima-en-qena",
+    "destination": "/es/guide/qena/como-es-el-clima-en-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-qena/no-te-pierdas",
+    "destination": "/es/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-qena/pueblo-de-dendera",
+    "destination": "/es/wiki/monuments/pueblo-de-dendera",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-qena/el-lugar-puro",
+    "destination": "/es/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-qena/lago-sagrado",
+    "destination": "/es/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-qena/hathor-y-bes",
+    "destination": "/es/guide/qena/hathor-y-bes",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-qena/sabor-a-qena",
+    "destination": "/es/guide/qena/sabor-a-qena",
+    "permanent": true
+  },
+  {
+    "source": "/es/solo-en-qena",
+    "destination": "/es/guide/qena/solo-en-qena",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ケナ宿泊ガイド",
+    "destination": "/ja/guide/kena/kena-shukuhaku-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/円盤の礼拝堂",
+    "destination": "/ja/guide/kena/emban-no-reihai-do",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ケナを発見",
+    "destination": "/ja/guide/kena/kena-o-hakken",
+    "permanent": true
+  },
+  {
+    "source": "/edfu-travel-guide/historical-timeline",
+    "destination": "/guide/edfu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/piramides-de-zawyet-el-aryan",
+    "destination": "/es/wiki/monuments/piramides-de-zawyet-el-aryan",
+    "permanent": true
+  },
+  {
+    "source": "/es/historia-de-luxor",
+    "destination": "/es/guide/luxor/historia-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/mejores-hoteles-en-luxor",
+    "destination": "/es/guide/luxor/mejores-hoteles-en-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-valle-de-las-reinas",
+    "destination": "/es/guide/luxor/el-valle-de-las-reinas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ルクソールの歴史的遺産を巡る",
+    "destination": "/ja/guide/rukusoru/rukusoru-no-rekishi-teki-isan-o-meguru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ルクソールへの行き方",
+    "destination": "/ja/guide/rukusoru/rukusoru-e-no-iki-kata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ルクソール神殿",
+    "destination": "/ja/wiki/monuments/ルクソール神殿",
+    "permanent": true
+  },
+  {
+    "source": "/ja/王家の谷",
+    "destination": "/ja/guide/rukusoru/oke-no-tani",
+    "permanent": true
+  },
+  {
+    "source": "/ja/メムノンの巨像",
+    "destination": "/ja/wiki/monuments/メムノンの巨像",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/kharga-oasis/templo-de-hibis",
+    "destination": "/es/guide/kharga/templo-de-hibis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/excursiones-de-un-dia-en-grupo-reducido-a-sharm-el-sheij",
+    "destination": "/es/excursiones-de-un-dia-en-grupo-reducido-a-sharm-el-sheij",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-santa-catalina",
+    "destination": "/es/guide/santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/el-museo-nubio",
+    "destination": "/es/guide/asuan/el-museo-nubio",
+    "permanent": true
+  },
+  {
+    "source": "/farafra-oasis-travel-guide/crystal-mountain-and-agabat",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/siwa-oasis-travel-guide/taste-oasis",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa/desata-la-emocion-las-mejores-actividades-de-aventura-en-el-oasis-de-siwa",
+    "destination": "/es/guide/siwa/cosas-que-hacer-en-el-oasis-de-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/farafra-oasis/museo-badr",
+    "destination": "/es/wiki/monuments/museo-badr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-abu-simble/sabores-locales",
+    "destination": "/es/guide/abu-simbel/sabores-locales-en-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viajes-de-sharm-el-sheij/alimentacion",
+    "destination": "/es/blog/alimentacion-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/luxor/luxor-excursiones-privadas-de-un-dia",
+    "destination": "/es/luxor-excursiones-privadas-de-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/luxor/カルナック神殿",
+    "destination": "/ja/wiki/monuments/カルナック神殿",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/bazar-khan-al-khalili",
+    "destination": "/es/guide/el-cairo/khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/alexandria/mezquita-al-mursi-abu-al-abbas",
+    "destination": "/es/wiki/monuments/mezquita-al-mursi-abu-al-abbas",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/memphis-museo-mit-rahina",
+    "destination": "/es/wiki/monuments/memphis-museo-mit-rahina",
+    "permanent": true
+  },
+  {
+    "source": "/es/donde-dormir-en-esna",
+    "destination": "/es/guide/esna/donde-dormir-en-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-moverse-en-esna",
+    "destination": "/es/guide/esna/como-moverse-en-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/cosas-que-hacer-en-esna",
+    "destination": "/es/guide/esna/cosas-que-hacer-en-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/mejores-tours-en-esna",
+    "destination": "/es/guide/esna/mejores-tours-en-esna",
+    "permanent": true
+  },
+  {
+    "source": "/ja/食事",
+    "destination": "/ja/guide/esuna/shokuji",
+    "permanent": true
+  },
+  {
+    "source": "/es/resumen-historico-de-asyut",
+    "destination": "/es/guide/asyut/resumen-historico-de-asyut",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-llegar-a-asyut",
+    "destination": "/es/guide/asyut/como-llegar-a-asyut",
+    "permanent": true
+  },
+  {
+    "source": "/es/los-mejores-recorridos-en-asyut",
+    "destination": "/es/guide/asyut/los-mejores-recorridos-en-asyut",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アシュート旅行ガイド/アスユート旅行のゲートウェイ",
+    "destination": "/ja/guide/asuyuto/asuyuto-ryoko-no-geto-wei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスユートでの移動方法",
+    "destination": "/ja/guide/asuyuto/asuyuto-de-no-ido-hoho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスユートだけの体験",
+    "destination": "/ja/guide/asuyuto/asuyuto-dake-no-taiken",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/madrasa-y-mausoleo-de-as-salih-negm-el-din-ayyub",
+    "destination": "/es/guide/el-cairo/la-madrasa-y-mausoleo-de-as-salih-najm-al-din-ayyub",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mezquita-del-sheij-al-muayyad",
+    "destination": "/es/wiki/monuments/mezquita-del-sheij-al-muayyad",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-luxor/el-templo-de-luxor",
+    "destination": "/es/guide/luxor/el-templo-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-farafra/parque-nacional-del-desierto-blanco",
+    "destination": "/es/guide/farafra/parque-nacional-del-desierto-blanco",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ルクソール旅行ガイド/ルクソール神殿",
+    "destination": "/ja/guide/rukusoru/rukusoru-shinden",
+    "permanent": true
+  },
+  {
+    "source": "/siwa-oasis-travel-guide/climate-and-geographical-features",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-travel-guide/the-high-dam",
+    "destination": "/guide/aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/el-gran-mar-de-arena",
+    "destination": "/es/guide/siwa/el-gran-mar-de-arena",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-travel-guide/the-agha-khan-mausoleum",
+    "destination": "/guide/aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/midan-al-husseinplaza-sayedna-al-hussein",
+    "destination": "/es/guide/el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/cementerio-del-norte",
+    "destination": "/es/wiki/monuments/cementerio-del-norte",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-beni-suef/necropolis-de-meidum",
+    "destination": "/es/wiki/monuments/necropolis-de-meidum",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-llegar-al-oasis-de-kharga",
+    "destination": "/es/guide/kharga/como-llegar-al-oasis-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/es/donde-dormir-en-el-oasis-de-kharga",
+    "destination": "/es/guide/kharga/donde-dormir-en-el-oasis-de-kharga",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ハルガ・オアシスへの行き方",
+    "destination": "/ja/guide/haruga/haruga-oashisu-e-no-iki-kata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ハルガ旅行ガイド/快適のオアシス",
+    "destination": "/ja/guide/haruga/kaiteki-no-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ハルガ旅行ガイド/砂漠の冒険",
+    "destination": "/ja/guide/haruga",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ハルガ旅行ガイド/レジャーアクティビティ",
+    "destination": "/ja/guide/haruga",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ナドゥーラの砦と神殿",
+    "destination": "/ja/wiki/monuments/ナドゥーラの砦と神殿",
+    "permanent": true
+  },
+  {
+    "source": "/ja/オアシスを味わう",
+    "destination": "/ja/guide/haruga/oashisu-o-ajiwau",
+    "permanent": true
+  },
+  {
+    "source": "/al-minya-travel-guide/seasonal-climate-guide",
+    "destination": "/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/al-fayoum-travel-guide/points-of-interest",
+    "destination": "/guide/al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/al-wadi-al-gadid-travel-guide/relics-from-the-reign-of-the-pharaohs",
+    "destination": "/guide/al-wadi-al-gadid",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-arish/lago-de-bardawil",
+    "destination": "/es/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viajes-de-baris/abrazar-el-clima-de-baris-una-guia-de-viaje-para-cada-estacion",
+    "destination": "/es/guide/baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-siwa/el-gran-mar-de-arena",
+    "destination": "/es/guide/siwa/el-gran-mar-de-arena",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-fayoum/aventuras-naturaleza-cultura",
+    "destination": "/es/guide/al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/giza-travel-guide/saqqara-sakkara",
+    "destination": "/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/es/solo-en-guiza",
+    "destination": "/es/guide/guiza/solo-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザの宿泊エリアを紹介",
+    "destination": "/ja/guide/giza/giza-no-shukuhaku-eria-o-shokai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザへの交通ルート",
+    "destination": "/ja/guide/giza/giza-e-no-kotsu-ruto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/ダハシュールのネクロポリス",
+    "destination": "/ja/wiki/monuments/ダハシュールのネクロポリス",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/北のピラミッド",
+    "destination": "/ja/wiki/monuments/北のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/ハバ王のピラミッド",
+    "destination": "/ja/wiki/monuments/ハバ王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/赤いピラミッド",
+    "destination": "/ja/wiki/monuments/赤いピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/白いピラミッド",
+    "destination": "/ja/wiki/monuments/白いピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/ギザ高原",
+    "destination": "/ja/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/クフ王のピラミッド",
+    "destination": "/ja/wiki/monuments/クフ王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/メンカウラー王のピラミッド",
+    "destination": "/ja/guide/giza/menkaura-o-no-piramiddo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/太陽の船博物館",
+    "destination": "/ja/wiki/monuments/太陽の船博物館",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/ギザの音と光のショー",
+    "destination": "/ja/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/アブシールのネクロポリス",
+    "destination": "/ja/wiki/monuments/アブシールのネクロポリス",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/アブシールにあるネフェリルカラー王のピラミッ",
+    "destination": "/ja/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/アブシールにあるニウセルラー王のピラミッド",
+    "destination": "/ja/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/アブシールにあるケントカウエス王妃のピラミッ",
+    "destination": "/ja/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/ザウィエト・エル・アリアンのピラミッド",
+    "destination": "/ja/wiki/monuments/ザウィエト・エル・アリアンのピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/アブ・ロアシュ：ジェデフラー王のピラミッド",
+    "destination": "/ja/wiki/monuments/アブ・ロアシュ：ジェデフラー王のピラミッド",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/サッカラ（サッカラ遺跡）",
+    "destination": "/ja/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/ホルエムヘブ将軍の墓",
+    "destination": "/ja/wiki/monuments/ホルエムヘブ将軍の墓",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/イムホテプ博物館",
+    "destination": "/ja/wiki/monuments/イムホテプ博物館",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/古代都市メンフィス",
+    "destination": "/ja/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/メンフィス-ミトラヒナ博物館",
+    "destination": "/ja/wiki/monuments/メンフィス-ミトラヒナ博物館",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/グルメダイニング",
+    "destination": "/ja/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ギザ旅行ガイド/新たな体験の扉を開く",
+    "destination": "/ja/guide/giza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/mezquita-de-al-nasir-mohammed-ben-qalawoon",
+    "destination": "/es/guide/el-cairo/mosque-of-al-nasir-muhammad-ibn-qalawun",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/abu-simbel/アブ・シンベル大神殿",
+    "destination": "/ja/guide/abu-shinberu/abushimberu-dai-shinden",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-rosetta-rasheed/lugares",
+    "destination": "/es/guide/rosetta-rasheed/lugares-de-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/taba-travel-guide/paradise-corner",
+    "destination": "/guide/taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-safaga/fuera-del-camino-trillado",
+    "destination": "/es/guide/safaga",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-beni-suef/viajes-gastronomicos-explorando-la-escena-culinaria-de-beni-suef",
+    "destination": "/es/guide/beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ツアー",
+    "destination": "/ja/blog/category/tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/el-templo-de-filae",
+    "destination": "/es/guide/asuan/el-templo-de-filae",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/isla-elefantina",
+    "destination": "/es/wiki/monuments/isla-elefantina",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/aswan/エレファンティネ島",
+    "destination": "/ja/guide/asuwan/erefantine-to",
+    "permanent": true
+  },
+  {
+    "source": "/esna-travel-guide/temple-of-khnum",
+    "destination": "/guide/esna/the-temple-of-khnum-at-esna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-kom-ombo/templo-de-khnum",
+    "destination": "/es/guide/kom-ombo/templo-de-khnum-2",
+    "permanent": true
+  },
+  {
+    "source": "/es/montana-dakrour",
+    "destination": "/es/guide/siwa/montana-dakrour",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシスの歴史",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-oashisu-no-rekishi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシスの宿泊オプション",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-oashisu-no-shukuhaku",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシスでの移動方法",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-oashisu-nai-no-ido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシスのアクティビティ",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-oashisu-no-akutibiti",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシス旅行ガイド/シーワ・ハウス博物館",
+    "destination": "/ja/wiki/monuments/シーワ・ハウス博物館",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシス旅行ガイド/神託の神殿",
+    "destination": "/ja/wiki/monuments/神託の神殿",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシス旅行ガイド/シャリの砦",
+    "destination": "/ja/wiki/monuments/シャリの砦",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシス旅行ガイド/シワ・オアシスのツアー",
+    "destination": "/ja/guide/shiwa-oashisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシスの料理",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-oashisu-no-shokuji",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシスここだけの体験",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-dake-no-mono-dento-iryo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シワ・オアシスのお祭り",
+    "destination": "/ja/guide/shiwa-oashisu/shiwa-no-matsuri-to-kisetsu-gyoji",
+    "permanent": true
+  },
+  {
+    "source": "/es/los-mejores-recorridos-en-kom-ombo",
+    "destination": "/es/guide/kom-ombo/los-mejores-recorridos-en-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/コム・オンボの歴史的背景",
+    "destination": "/ja/guide/komu-ombo/komu-ombo-no-rekishi-teki-haikei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/コム・オンボ-旅行ガイド/移動方法",
+    "destination": "/ja/guide/komu-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/コム・オンボ神殿",
+    "destination": "/ja/wiki/monuments/コム・オンボ神殿",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ゲベル・エル・シルシラ",
+    "destination": "/ja/guide/komu-ombo/geberuerushirushira",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/aswan/el-templo-de-kalabsha",
+    "destination": "/es/guide/asuan/el-templo-de-kalabsha",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-marsa-alam/gema-del-mar-rojo",
+    "destination": "/es/guide/marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/giza/tours",
+    "destination": "/blog/category/tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-akhmim/excursiones-en-akmim",
+    "destination": "/es/guide/akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/la-piramide-roja",
+    "destination": "/es/wiki/monuments/la-piramide-roja",
+    "permanent": true
+  },
+  {
+    "source": "/safaga-travel-guide/places",
+    "destination": "/guide/safaga/places-in-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/port-said-travel-guide/melting-pot",
+    "destination": "/guide/port-said",
+    "permanent": true
+  },
+  {
+    "source": "/esna/temple-of-khnum",
+    "destination": "/guide/esna/the-temple-of-khnum-at-esna",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-travel-guide/history-echoes",
+    "destination": "/guide/aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-sohag/explora",
+    "destination": "/es/guide/sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/nile-cruises/m-s-omar-el-khayam",
+    "destination": "/es/nile-cruises/m-s-steigenberger-omar-el-khayam",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-farafra/la-fortaleza",
+    "destination": "/es/wiki/monuments/la-fortaleza",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エル・クセイル旅行ガイド/スルタン・セリム要塞",
+    "destination": "/ja/guide/aru-kuseiru/surutan-se-rimu-yosai",
+    "permanent": true
+  },
+  {
+    "source": "/al-minya-travel-guide/tal-el-amarna",
+    "destination": "/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/sinagoga-ben-ezra",
+    "destination": "/es/wiki/monuments/sinagoga-ben-ezra",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/la-piramide-doblada",
+    "destination": "/es/wiki/monuments/la-piramide-doblada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sohag/templo-de-abydos",
+    "destination": "/es/wiki/monuments/templo-de-abydos",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/piramide-de-menkaure",
+    "destination": "/es/wiki/monuments/piramide-de-menkaure",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル旅行ガイド/アブ・シンベル大神殿",
+    "destination": "/ja/guide/abu-shinberu/abushimberu-dai-shinden",
+    "permanent": true
+  },
+  {
+    "source": "/beni-suef-travel-guide/experiences-discovering",
+    "destination": "/guide/beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/museo-imhotep",
+    "destination": "/es/wiki/monuments/museo-imhotep",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/luxor/ルクソール博物館",
+    "destination": "/ja/guide/rukusoru/rukusoru-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/farafra-oasis-travel-guide/history-portal",
+    "destination": "/guide/farafra-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/al-gouna-travel-guide/sunny-weather",
+    "destination": "/guide/al-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa-oasis/fortaleza-de-shali",
+    "destination": "/es/wiki/monuments/fortaleza-de-shali",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/hurghada/visitas-privadas-de-un-dia-a-hurghada",
+    "destination": "/es/guide/hurghada/tours-destacados-en-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/wadi-el-natrun/monasterio-de-san-macario-el-grande",
+    "destination": "/es/guide/wadi-al-natron/monasterio-de-san-macario-el-grande",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-wadi-al-natron/los-tesoros-ocultos-de-wadi-al-natron-explorando-mas-alla-de-los-monasterios",
+    "destination": "/es/guide/wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-llegar-a-al-fayoum",
+    "destination": "/es/guide/al-fayoum/como-llegar-a-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-fayoum/la-mezquita-de-qaitbey",
+    "destination": "/es/wiki/monuments/la-mezquita-de-qaitbey",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-fayoum/viaje-gastronomico",
+    "destination": "/es/guide/al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-fayoum/festivales-locales",
+    "destination": "/es/guide/al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アルファイユーム旅行ガイド/ラフンのピラミッド",
+    "destination": "/ja/guide/aru-faiyumu/rafun-no-piramiddo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アルファイユーム旅行ガイド/カイトベイ・モスク",
+    "destination": "/ja/wiki/monuments/カイトベイ・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アルファイユーム旅行ガイド/ハンギング・モスク",
+    "destination": "/ja/wiki/monuments/ハンギング・モスク",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アルファイユーム旅行ガイド/コム・ウシーム（カラニス）",
+    "destination": "/ja/guide/aru-faiyumu/komuushimu-kara-nisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アルファイユーム旅行ガイド/メディネット・マーディ",
+    "destination": "/ja/guide/aru-faiyumu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アルファイユーム旅行ガイド/アル・ファイユームの水車",
+    "destination": "/ja/guide/aru-faiyumu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ビアフム",
+    "destination": "/ja/guide/aru-faiyumu/biafumu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アルファイユーム旅行ガイド/探検スクリプト",
+    "destination": "/ja/guide/aru-faiyumu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アルファイユーム旅行ガイド/隠された宝物",
+    "destination": "/ja/guide/aru-faiyumu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アルファイユーム旅行ガイド/地元の祭り",
+    "destination": "/ja/guide/aru-faiyumu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/la-necropolis-de-saqqara",
+    "destination": "/es/guide/guiza/la-necropolis-de-saqqara",
+    "permanent": true
+  },
+  {
+    "source": "/es/clima-en-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh/clima-en-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viajes-de-sharm-el-sheij/la-catedral-celestial",
+    "destination": "/es/guide/sharm-el-sheikh/la-catedral-celestial",
+    "permanent": true
+  },
+  {
+    "source": "/wadi-al-natron-travel-guide/hidden-treasures",
+    "destination": "/guide/wadi-el-natrun",
+    "permanent": true
+  },
+  {
+    "source": "/suez-travel-guide/history-modernity",
+    "destination": "/guide/suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/la-meseta-de-guiza",
+    "destination": "/es/guide/guiza/la-meseta-de-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/piramide-de-jufu",
+    "destination": "/es/wiki/monuments/piramide-de-jufu",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-travel-guide/northern-walls-and-gates",
+    "destination": "/guide/cairo/northern-walls-and-gates-of-fatimid-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-kharga/templo-de-hibis",
+    "destination": "/es/guide/kharga/templo-de-hibis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-santa-catalina/encontrar-la-paz",
+    "destination": "/es/guide/santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-santa-catalina/senderos-de-aventura",
+    "destination": "/es/guide/santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-santa-catalina/sabores-de-tranquilidad",
+    "destination": "/es/guide/santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-santa-catalina/calendario-reuniones",
+    "destination": "/es/guide/santa-catalina",
+    "permanent": true
+  },
+  {
+    "source": "/es/pronostico-del-tiempo-para-sohag",
+    "destination": "/es/guide/sohag/pronostico-del-tiempo-para-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-moverse-en-sohag",
+    "destination": "/es/guide/sohag/como-moverse-en-sohag",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ソハーグ旅行ガイド/ホワイト・モナステリー（白の修道院）",
+    "destination": "/ja/wiki/monuments/ホワイト・モナステリー（白の修道院）",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-pishoy",
+    "destination": "/es/wiki/monuments/monasterio-de-san-pishoy",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-paromeos",
+    "destination": "/es/wiki/monuments/monasterio-de-paromeos",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-wadi-al-natron/monasterio-de-san-macario-el-grande",
+    "destination": "/es/guide/wadi-al-natron/monasterio-de-san-macario-el-grande",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-wadi-al-natron/monasterio-sirio",
+    "destination": "/es/wiki/monuments/monasterio-sirio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/聖マカリオス大修道院",
+    "destination": "/ja/wiki/monuments/聖マカリオス大修道院",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ワディ・アル・ナトロンのおすすめツアー",
+    "destination": "/ja/guide/wadi-aru-natoron/wadi-aru-natoron-no-osusume-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/wikala-de-al-ghouri",
+    "destination": "/es/guide/el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/cairo/la-ciudadela-de-saladino",
+    "destination": "/es/guide/el-cairo/la-ciudadela-de-saladino",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/piramide-abusir-de-neferirkare",
+    "destination": "/es/wiki/monuments/piramide-abusir-de-neferirkare",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-luxor/el-valle-de-los-reyes",
+    "destination": "/es/guide/luxor/el-valle-de-los-reyes",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/necropolis-de-abusir",
+    "destination": "/es/wiki/monuments/necropolis-de-abusir",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/piramide-abusir-de-niuserre",
+    "destination": "/es/guide/guiza/piramide-abusir-de-niuserre",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/piramide-abusir-de-sahure",
+    "destination": "/es/wiki/monuments/piramide-abusir-de-sahure",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-akhmim/sitios-unicos",
+    "destination": "/es/guide/akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viajes-de-sharm-el-sheij/atracciones",
+    "destination": "/es/blog/atracciones-inolvidables-en-marsa-alam",
+    "permanent": true
+  },
+  {
+    "source": "/qena-travel-guide/gateway-temples",
+    "destination": "/guide/qena",
+    "permanent": true
+  },
+  {
+    "source": "/siwa-oasis-travel-guide/discoveries",
+    "destination": "/guide/siwa-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viajes-de-baris/la-fortaleza-romana-de-dush",
+    "destination": "/es/guide/baris/la-fortaleza-romana-de-dush",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-destacados-en-baris",
+    "destination": "/es/guide/baris/tours-destacados-en-baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viajes-de-baris/sabores-de-baris-un-viaje-culinario-por-el-desierto",
+    "destination": "/es/guide/baris",
+    "permanent": true
+  },
+  {
+    "source": "/ja/バリスまでの行き方",
+    "destination": "/ja/guide/barisu/barisu-made-no-iki-kata",
+    "permanent": true
+  },
+  {
+    "source": "/ja/バリス旅行ガイド/蜃気楼の彼方へ：バリスにて",
+    "destination": "/ja/guide/barisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/バリス旅行ガイド/バリスの砂漠アクティビティ：ここでしか味わえ",
+    "destination": "/ja/guide/barisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/バリス旅行ガイド/ドゥシュのローマ要塞",
+    "destination": "/ja/guide/barisu/dushu-no-roma-yosai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/バリス旅行ガイド/アドベンチャーシリーズ",
+    "destination": "/ja/guide/barisu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/バリス旅行ガイド/バリスの味覚：砂漠を巡る美食の旅",
+    "destination": "/ja/guide/barisu",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-llegar-a-taba",
+    "destination": "/es/guide/taba/como-llegar-a-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/los-mejores-lugares-para-alojarse-en-taba",
+    "destination": "/es/guide/taba/los-mejores-lugares-para-alojarse-en-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/como-moverse-por-taba",
+    "destination": "/es/guide/taba/como-moverse-por-taba",
+    "permanent": true
+  },
+  {
+    "source": "/es/solo-en-taba",
+    "destination": "/es/guide/taba/solo-en-taba",
+    "permanent": true
+  },
+  {
+    "source": "/ja/タバの歴史をたどる旅",
+    "destination": "/ja/guide/taba/taba-no-rekishi-o-tadoru-tabi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/タバ周辺の移動",
+    "destination": "/ja/guide/taba/taba-shuhen-no-ido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/タバのアクティビティ",
+    "destination": "/ja/guide/taba/taba-no-akutibiti",
+    "permanent": true
+  },
+  {
+    "source": "/ja/タバ旅行ガイド/ファラオ島",
+    "destination": "/ja/guide/taba/farao-to",
+    "permanent": true
+  },
+  {
+    "source": "/ja/タバここだけの体験",
+    "destination": "/ja/guide/taba/taba-koko-dake-no-taiken",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/piramide-de-jafre",
+    "destination": "/es/wiki/monuments/piramide-de-jafre",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/piramide-de-abu-rawash-de-djedefre",
+    "destination": "/es/wiki/monuments/piramide-de-abu-rawash-de-djedefre",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-wadi-al-natron/rutas-por-wadi-al-natron",
+    "destination": "/es/guide/wadi-al-natron",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-arish/perspectiva-de-las-edades",
+    "destination": "/es/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/tumba-del-general-horemheb",
+    "destination": "/es/wiki/monuments/tumba-del-general-horemheb",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-nuweiba/los-acontecimientos-se-desarrollan",
+    "destination": "/es/guide/nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/la-mezquita-del-sultan-qaitbey",
+    "destination": "/es/guide/el-cairo/el-complejo-mausoleo-del-sultan-qaytbay",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/navegar-por-el-clima-de-asuan-guia-de-viaje-estacional",
+    "destination": "/es/guide/asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-suez/historia-modernidad",
+    "destination": "/es/guide/suez",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-guiza/la-piramide-doblada",
+    "destination": "/es/wiki/monuments/la-piramide-doblada",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-bahariya/valle-de-las-momias-doradas",
+    "destination": "/es/guide/bahariya/valle-de-las-momias-doradas",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-arish/planificacion-climatica-cuando-visitar",
+    "destination": "/es/guide/al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/special-interest",
+    "destination": "/special-interest-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ras-sudr-travel-guide/journey-sketches",
+    "destination": "/guide/ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/giza/piramide-de-jufu",
+    "destination": "/es/wiki/monuments/piramide-de-jufu",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asyut/la-brujula-climatica-de-asyut-cuando-emprender-el-viaje",
+    "destination": "/es/guide/asyut",
+    "permanent": true
+  },
+  {
+    "source": "/dahab-travel-guide/the-colored-canyon",
+    "destination": "/guide/dahab/coloured-canyon",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-dahab/el-canon-coloreado",
+    "destination": "/es/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/iglesia-de-santa-barbara",
+    "destination": "/es/guide/el-cairo/la-iglesia-de-santa-barbara",
+    "permanent": true
+  },
+  {
+    "source": "/al-minya-travel-guide/adventures",
+    "destination": "/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/beni-suef-travel-guide/tours",
+    "destination": "/blog/category/tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/clima-y-estaciones-en-port-said",
+    "destination": "/es/guide/port-said/clima-y-estaciones-en-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/mejores-hoteles-en-port-said",
+    "destination": "/es/guide/port-said/mejores-hoteles-en-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/es/cosas-que-hacer-en-port-said",
+    "destination": "/es/guide/port-said/cosas-que-hacer-en-port-said",
+    "permanent": true
+  },
+  {
+    "source": "/ja/時代を超えるポートサイドの物語",
+    "destination": "/ja/guide/potosaido/jidai-o-koeru-potosaido-no-monogatari",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ポートサイドの宿泊エリアを紹介",
+    "destination": "/ja/guide/potosaido/potosaido-no-shukuhaku-eria-o-shokai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ウォーターフロント・クォーター",
+    "destination": "/ja/guide/potosaido/wota-furonto-kwota",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-gouna/vias-de-viaje",
+    "destination": "/es/guide/el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-gouna/guia-de-actividades",
+    "destination": "/es/guide/el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エル・グーナの行き方と交通情報",
+    "destination": "/ja/guide/eru-gu-na/eru-gu-na-no-iki-kata-to-kotsu-joho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エル・グーナで泊まる場所まとめ",
+    "destination": "/ja/guide/eru-gu-na/eru-gu-na-de-tomaru-basho-matome",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アル・グーナ旅行ガイド/タウィラ島",
+    "destination": "/ja/guide/eru-gu-na/tawira-to",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アル・グーナ旅行ガイド/マングルービー・ビーチ",
+    "destination": "/ja/guide/eru-gu-na/mangurubibichi",
+    "permanent": true
+  },
+  {
+    "source": "/alexandria-travel-guide/the-roman-amphitheater",
+    "destination": "/guide/alexandria",
+    "permanent": true
+  },
+  {
+    "source": "/aswan-travel-guide/the-botanical-garden",
+    "destination": "/guide/aswan/botanical-garden",
+    "permanent": true
+  },
+  {
+    "source": "/qena-travel-guide/sacred-lake",
+    "destination": "/guide/qena",
+    "permanent": true
   }
 ];
