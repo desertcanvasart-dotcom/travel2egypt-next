@@ -19,6 +19,7 @@ import {
   localizedSlug,
   portableTextBodyProjection,
   articleBodyMarkProjection,
+  internalRefSlugFields,
 } from './i18n';
 
 /**
@@ -1313,10 +1314,7 @@ export const articleBySlugQuery = groq`
           "ref": reference->{
             _type,
             "tourType": select(_type == "tour" => type, null),
-            "slug": select(
-              _type == "article" => slug.current,
-              coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
-            ),
+            ${internalRefSlugFields('$locale')},
             "parentCitySlug": select(
               _type == "guideArticle" => coalesce(
                 parentCity->slug[_key==$locale][0].value.current,
@@ -1512,11 +1510,7 @@ export const foodArticleBySlugQuery = groq`
           "ref": reference->{
             _type,
             "tourType": select(_type == "tour" => type, null),
-            "slug": select(
-              _type == "article" => slug.current,
-              _type == "foodArticle" => slug.current,
-              coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
-            ),
+            ${internalRefSlugFields('$locale')},
             "parentCitySlug": select(
               _type == "guideArticle" => coalesce(
                 parentCity->slug[_key==$locale][0].value.current,

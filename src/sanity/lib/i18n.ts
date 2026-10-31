@@ -67,6 +67,31 @@ export const localizedSlug = (field: string, locale: Locale) =>
   `coalesce(${field}[_key=="${locale}"][0].value.current, ${field}[_key=="${DEFAULT_LOCALE}"][0].value.current)`;
 
 /**
+ * `slug` + `language` for an internalLink target, inside `reference->{}`.
+ * `loc` is a GROQ expression (`"es"` or `$locale`). Articles and food
+ * articles are one doc per language: link the page locale's sibling via
+ * translation.metadata, else the referenced doc in its own language — the
+ * renderer prefixes `language` instead of the page locale.
+ */
+export const internalRefSlugFields = (loc: string) => `
+  "slug": select(
+    _type in ["article", "foodArticle"] => coalesce(
+      select(language == ${loc} => slug.current),
+      *[_type == "translation.metadata" && references(^._id)][0].translations[_key == ${loc}][0].value->slug.current,
+      slug.current
+    ),
+    coalesce(slug[_key==${loc}][0].value.current, slug[_key=="en"][0].value.current)
+  ),
+  "language": select(
+    _type in ["article", "foodArticle"] => select(
+      language == ${loc} => language,
+      defined(*[_type == "translation.metadata" && references(^._id)][0].translations[_key == ${loc}][0].value->slug.current) => ${loc},
+      language
+    ),
+    null
+  )`;
+
+/**
  * Portable-text body projection that also resolves `internalLink` markDefs
  * to a small payload (`_type` + `slug` + auxiliary fields needed for URL
  * construction). Apply this in any body GROQ where editors might use
@@ -90,10 +115,7 @@ export const portableTextBodyProjection = (field: string, locale: Locale) => `
         "ref": reference->{
           _type,
           "tourType": select(_type == "tour" => type, null),
-          "slug": select(
-            _type == "article" => slug.current,
-            coalesce(slug[_key=="${locale}"][0].value.current, slug[_key=="en"][0].value.current)
-          ),
+          ${internalRefSlugFields(`"${locale}"`)},
           "parentCitySlug": select(
             _type == "guideArticle" => coalesce(
               parentCity->slug[_key=="${locale}"][0].value.current,
@@ -120,10 +142,7 @@ export const articleBodyMarkProjection = (locale: Locale) => `
       "ref": reference->{
         _type,
         "tourType": select(_type == "tour" => type, null),
-        "slug": select(
-          _type == "article" => slug.current,
-          coalesce(slug[_key=="${locale}"][0].value.current, slug[_key=="en"][0].value.current)
-        ),
+        ${internalRefSlugFields(`"${locale}"`)},
         "parentCitySlug": select(
           _type == "guideArticle" => coalesce(
             parentCity->slug[_key=="${locale}"][0].value.current,
@@ -148,6 +167,8 @@ export const articleBodyMarkProjection = (locale: Locale) => `
 export interface ResolvableRef {
   _type: string;
   slug?: string;
+  /** Articles only: the language of the linked doc (may differ from the page). */
+  language?: string | null;
   tourType?: 'dayTour' | 'package' | null;
   parentCitySlug?: string | null;
 }

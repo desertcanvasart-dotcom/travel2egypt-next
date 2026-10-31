@@ -261,9 +261,10 @@ export function getBodyComponents(locale: 'en' | 'es' | 'ja'): PortableTextCompo
             <span className="border-b border-rule-strong">{children}</span>
           );
         }
-        const localizedHref = locale === 'en' ? href : `/${locale}${href}`;
+        const linkLocale = ref?.language ?? locale;
+        const localizedHref = linkLocale === 'en' ? href : `/${linkLocale}${href}`;
         const canonicalHref = canonicalContentHref(localizedHref);
-        if (canonicalHref !== localizedHref) {
+        if (canonicalHref !== localizedHref || linkLocale !== locale) {
           return (
             <a href={canonicalHref} className="border-b border-rule-strong text-faience transition-colors hover:border-faience">
               {children}
