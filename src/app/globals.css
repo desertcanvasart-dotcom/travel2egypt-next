@@ -266,6 +266,12 @@ html[lang='ja'] h3,
 html[lang='ja'] h4 {
   font-weight: 500;
 }
+/* CJK has no true italic — the `italic` utility (e.g. guide-page summary
+   deks) would only get a synthesized slant. Same rule the tour-system,
+   journeys and climate-signature JA blocks apply within their scopes. */
+html[lang='ja'] .italic {
+  font-style: normal;
+}
 
 /* ============================================================ */
 /*  Brand utility classes                                       */
