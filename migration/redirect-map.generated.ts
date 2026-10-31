@@ -4019,7 +4019,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/arekusandoria/things-to-do-in-alexandria",
-    "destination": "/ja/guide/arekusandoria/aru-minya-no-akutibiti",
+    "destination": "/ja/guide/arekusandoria/arekusandoria-de-miru-beki-koto",
     "permanent": true
   },
   {
@@ -23740,6 +23740,11 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/sharm-el-sheikh-travel-guide",
     "destination": "/guide/sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/arekusandoria/aru-minya-no-akutibiti",
+    "destination": "/ja/guide/arekusandoria/arekusandoria-de-miru-beki-koto",
     "permanent": true
   }
 ];
