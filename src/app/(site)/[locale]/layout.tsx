@@ -31,8 +31,10 @@ export const metadata: Metadata = {
 // content edits appear without a redeploy. (`@sanity/client` is a
 // serverExternalPackage, so its reads bypass Next's fetch cache; this
 // segment-level revalidate is what drives refresh.) Inherited by every
-// page under (site)/[locale]. Raise it post-cutover to cut regeneration.
-export const revalidate = 60;
+// page under (site)/[locale]. At 60s, crawler traffic regenerated nearly
+// every hit and drove Sanity API overage (Oct 2026); an hour keeps edits
+// reasonably fresh without that cost.
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
