@@ -15,9 +15,13 @@ import { apiVersion, dataset, projectId } from '../env';
  * ~83 tour pages on the live site. Do NOT re-drop it without first confirming,
  * against the live dataset, that anonymous reads see every published doc.)
  *
- * An authenticated read is forced to the API origin (it bypasses `useCdn`), so
- * the CDN-latency win is given up here in exchange for correctness. Prefer a
- * dedicated read token; fall back to the production write token, then generic.
+ * Reads go through the API CDN (`useCdn: true`). The CDN caches authenticated
+ * queries too (segmented per token) and is invalidated on publish, so the token
+ * costs nothing in caching. Before this, every ISR regeneration hit the uncached
+ * API: ~100k requests/day, 3.4M in Oct 2026 against a 250k/month plan quota.
+ * Verified 2026-11-02 that the CDN + token returns the full tour set (incl.
+ * `tour.<slug>` docs). Prefer a dedicated read token; fall back to the
+ * production write token, then generic.
  */
 const readToken =
   process.env.SANITY_API_READ_TOKEN ||
@@ -38,7 +42,7 @@ export const client = createClient({
   projectId,
   dataset,
   apiVersion,
-  useCdn: false,
+  useCdn: true,
   perspective: 'published',
   token: readToken,
   maxRetries: 8,
