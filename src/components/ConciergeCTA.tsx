@@ -88,7 +88,11 @@ export function ConciergeCTA({
         )}
 
         <div className="flex flex-wrap items-center gap-x-8 gap-y-4">
-          <Link href={planHref} className="btn-primary">
+          <Link
+            href={planHref}
+            rel={chatEnabled && tourSlug ? 'nofollow' : undefined}
+            className="btn-primary"
+          >
             <span>{primaryLabel}</span>
             <span aria-hidden>{t('ctaTrailingArrow')}</span>
           </Link>

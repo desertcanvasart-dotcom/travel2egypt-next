@@ -283,6 +283,7 @@ export default async function FoodArticlePage({ params }: Props) {
               <div className="mt-5 flex flex-wrap items-center gap-6">
                 <Link
                   href={`/plan-your-tour?tour=${encodeURIComponent(tour.slug ?? '')}`}
+                  rel="nofollow"
                   className="inline-flex items-center gap-2 bg-night px-6 py-3 font-sans text-xs font-medium uppercase tracking-[0.16em] text-paper transition-colors hover:bg-night-soft"
                 >
                   {t('planThis')} →
