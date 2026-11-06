@@ -78,6 +78,9 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const conciergeHref = isChatEnabled()
     ? `/plan-your-tour?tour=${encodeURIComponent(tour.slug)}`
     : '/contact';
+  // The ?tour= variants all canonicalise to /plan-your-tour; keep crawlers from
+  // following one per tour × locale (GSC "Alternate page with proper canonical").
+  const conciergeRel = isChatEnabled() ? 'nofollow' : undefined;
 
   const cityNames = (tour.cities ?? []).map((c) => c.name).filter(Boolean);
   const route = cityNames.join(' · ');
@@ -389,7 +392,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
             )}
 
             <p className="body-cta">
-              <Link href={conciergeHref}>{ts('planThis')} →</Link>
+              <Link href={conciergeHref} rel={conciergeRel}>{ts('planThis')} →</Link>
             </p>
           </article>
 
@@ -455,7 +458,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               )}
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
               <CurrencyNote note={ts('priceCurrencyNote')} />
-              <Link className="rail-cta" href={conciergeHref}>{ts('pkgPlanThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
+              <Link className="rail-cta" href={conciergeHref} rel={conciergeRel}>{ts('pkgPlanThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
               <a className="rail-cta ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
 
@@ -475,7 +478,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
             <h2>{ts('pkgCtaTitle')} <em>{ts('pkgCtaTitleEm')}</em></h2>
             <p>{ts('pkgCtaBody')}</p>
             <div className="cta-buttons">
-              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('pkgCtaAbout')} <span className="cta-arrow" aria-hidden>→</span></Link>
+              <Link className="cta-btn cta-btn--primary" href={conciergeHref} rel={conciergeRel}>{ts('pkgCtaAbout')} <span className="cta-arrow" aria-hidden>→</span></Link>
               <a className="cta-btn cta-btn--ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
           </div>
