@@ -26701,5 +26701,15 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/gurando-seigan-no-ichi-nichi-neferutari-no-haka-o-hazusa-nai",
     "destination": "/ja/gurando-seigan-no-ichi-nichi-itsutsu-no-shuyo-iseki-o-meguru",
     "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-un-dia-a-luxor-desde-hurghada-unete-a-nuestro-recorrido-en-grupo-por-los-sitios-antiguos",
+    "destination": "/es/excursion-de-un-dia-a-luxor-desde-safaga-unete-a-nuestro-recorrido-en-grupo-por-los-sitios-antiguos",
+    "permanent": true
+  },
+  {
+    "source": "/ja/furugada-hatsu-rukusoru-higaeri-tsua-kodai-iseki-o-meguru",
+    "destination": "/ja/safaga-hatsu-rukusoru-higaeri-tsua-kodai-iseki-o-meguru",
+    "permanent": true
   }
 ];
