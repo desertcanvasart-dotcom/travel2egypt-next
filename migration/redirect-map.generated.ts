@@ -929,7 +929,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/seigan-no-kiseki-gurandouesutobankutsua",
-    "destination": "/ja/gurando-seigan-no-ichi-nichi-neferutari-no-haka-o-hazusa-nai",
+    "destination": "/ja/gurando-seigan-no-ichi-nichi-itsutsu-no-shuyo-iseki-o-meguru",
     "permanent": true
   },
   {
@@ -1049,7 +1049,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/oke-no-tani-to-shinden-higaeri-tsua",
-    "destination": "/ja/gurando-seigan-no-ichi-nichi-neferutari-no-haka-o-hazusa-nai",
+    "destination": "/ja/gurando-seigan-no-ichi-nichi-itsutsu-no-shuyo-iseki-o-meguru",
     "permanent": true
   },
   {
@@ -1379,7 +1379,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/grand-west-bank-group-day-tour-luxor",
-    "destination": "/ja/gurando-seigan-no-ichi-nichi-neferutari-no-haka-o-hazusa-nai",
+    "destination": "/ja/gurando-seigan-no-ichi-nichi-itsutsu-no-shuyo-iseki-o-meguru",
     "permanent": true
   },
   {
@@ -26695,6 +26695,11 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/guide/dahabu/dahabu-gentei",
     "destination": "/ja/guide/dahabu/buru-horu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/gurando-seigan-no-ichi-nichi-neferutari-no-haka-o-hazusa-nai",
+    "destination": "/ja/gurando-seigan-no-ichi-nichi-itsutsu-no-shuyo-iseki-o-meguru",
     "permanent": true
   }
 ];
