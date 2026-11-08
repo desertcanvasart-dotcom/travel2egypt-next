@@ -1,4 +1,6 @@
 import { getTranslations } from 'next-intl/server';
+import { StickyBarProduct } from '@/components/leads/LeadProvider';
+import { accreditationItems, getAccreditations } from '@/lib/accreditations';
 
 import { Link } from '@/i18n/navigation';
 import { client } from '@/sanity/lib/client';
@@ -324,7 +326,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             <div className="card">
               <span className="ck">{ts('whyBook')}</span>
               <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
-              <div className="accred">{ts('trustAccred')}</div>
+              <div className="accred">{[accreditationItems(await getAccreditations(), locale).join(' · '), ts('trustAccred')].filter(Boolean).join(' — ')}</div>
             </div>
           </aside>
         </div>
@@ -410,6 +412,15 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         </div>
       </section>
 
+      <StickyBarProduct
+        product={{
+          slug: tour.slug,
+          title: tour.title,
+          type: tour.type ?? 'dayTour',
+          durationDays: tour.durationDays ?? null,
+          priceFromEur: typeof tour.priceFrom === 'number' ? tour.priceFrom : null,
+        }}
+      />
       <FloatingConcierge />
     </div>
   );

@@ -261,6 +261,10 @@
 }
 @media (max-width: 980px) {
   .t2e-nav-right .t2e-nav-lead, .t2e-nav-wa { display: none; }
+}
+/* Sticky bar — phones only (< 768px). Rendered only while it should show;
+   <body> gets .has-leadbar at the same time to keep content clear of it. */
+@media (max-width: 767px) {
   .t2e-leadbar {
     display: grid; grid-template-columns: 1fr 1fr; position: fixed; left: 0; right: 0; bottom: 0; z-index: 150;
     background: var(--paper); border-top: 1px solid var(--rule); box-shadow: 0 -8px 24px rgba(20, 36, 59, .1);
@@ -272,7 +276,7 @@
   }
   .t2e-leadbar-wa { background: #128c7e; color: #fff; }
   .t2e-leadbar-cta { background: var(--navy); color: var(--paper); }
-  /* Keep content and the floating concierge clear of the bar. */
-  body:has(.t2e-leadbar) { padding-bottom: calc(62px + env(safe-area-inset-bottom)); }
-  body:has(.t2e-leadbar) .t2e-conc { bottom: calc(76px + env(safe-area-inset-bottom)); }
+  body.has-leadbar { padding-bottom: calc(62px + env(safe-area-inset-bottom)); }
+  body.has-leadbar .t2e-conc { bottom: calc(76px + env(safe-area-inset-bottom)); }
 }
+

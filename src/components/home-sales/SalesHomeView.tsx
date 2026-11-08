@@ -5,8 +5,8 @@ import { LeadButton } from '@/components/leads/LeadProvider';
 import { LeadForm } from '@/components/leads/LeadForm';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { WHATSAPP_LINK } from '@/lib/concierge/constants';
+import { primaryCredential } from '@/lib/accreditations';
 import {
-  MINISTRY_LICENCE_NUMBER,
   TRIPADVISOR_RATING,
   TRIPADVISOR_REVIEW_COUNT,
   TRIPADVISOR_URL,
@@ -109,7 +109,7 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
                     <span aria-hidden>★</span> {TRIPADVISOR_RATING} on Tripadvisor ({TRIPADVISOR_REVIEW_COUNT} reviews)
                   </a>
                 </li>
-                <li>Ministry of Tourism licence {MINISTRY_LICENCE_NUMBER}</li>
+                {primaryCredential(data.accreditations, 'en') && <li>{primaryCredential(data.accreditations, 'en')}</li>}
                 <li>We reply the same day, 7 days a week</li>
                 <li>About 130 private trips a year</li>
               </ul>
@@ -182,7 +182,7 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
                       </TrackedLink>
                       <LeadButton
                         source="tour_card"
-                        prefill={{ kind: 'trip', tourSlug: slug, tourTitle: p.title }}
+                        prefill={{ kind: 'trip', tourSlug: slug, tourTitle: p.title, durationDays: p.durationDays }}
                         itemListName="home_egypt_tours"
                         className="btn-outline"
                       >
@@ -245,8 +245,8 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
                 <h2 id="h-day-tours">Day tours in Cairo, Luxor and Aswan</h2>
               </div>
               <p className="lede">
-                Private or small-group, with an Egyptologist guide, hotel pickup, entry fees, lunch and water. Pick a date
-                and we confirm it.
+                Private or small-group, with a licensed Egyptologist guide. Every tour lists exactly what&rsquo;s included.
+                Pick a date and we confirm it.
               </p>
             </div>
             <DayToursTabs
@@ -289,9 +289,16 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
                                 <span className="price-basis">Price on request</span>
                               )}
                             </p>
+                            {p.included && p.included.length > 0 && (
+                              <ul className="incl">
+                                {p.included.slice(0, 3).map((x) => (
+                                  <li key={x}>{x}</li>
+                                ))}
+                              </ul>
+                            )}
                             <LeadButton
                               source="day_tour_card"
-                              prefill={{ kind: 'day_tour', tourSlug: slug, tourTitle: p.title }}
+                              prefill={{ kind: 'day_tour', tourSlug: slug, tourTitle: p.title, priceFromEur: p.priceFrom }}
                               itemListName={`home_day_${c.key}`}
                               className="btn-outline"
                             >
@@ -345,7 +352,7 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
                   </dd>
                 </div>
               </dl>
-              <Link className="btn-outline" href="/nile-cruises">
+              <Link className="btn-outline" href="/nile-cruises?vessel=ship#cruise-ships">
                 Compare cruise ships →
               </Link>
             </article>
@@ -358,9 +365,12 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
                 <div>
                   <dt>Starting at</dt>
                   <dd>
-                    {data.dahabiyaFromEur ? (
+                    {data.dahabiya ? (
                       <>
-                        <strong><From eur={data.dahabiyaFromEur} /></strong>, 7 days
+                        <TrackedLink href={`/${data.dahabiya.slug}`} listName="home_cruises" itemId={data.dahabiya.slug}>
+                          <strong><From eur={data.dahabiya.priceFrom} /></strong>
+                          {data.dahabiya.durationDays ? `, ${data.dahabiya.durationDays} days` : ''}
+                        </TrackedLink>
                       </>
                     ) : (
                       'Price on request'
@@ -368,7 +378,7 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
                   </dd>
                 </div>
               </dl>
-              <Link className="btn-outline" href="/nile-cruises">
+              <Link className="btn-outline" href="/nile-cruises?vessel=dahabiya#dahabiyas">
                 Compare dahabiyas →
               </Link>
             </article>

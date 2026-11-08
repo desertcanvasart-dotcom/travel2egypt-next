@@ -88,7 +88,14 @@ export default async function LocaleLayout({
               <LeadProvider locale={locale}>
                 <Header locale={locale as Locale} />
                 <main id="main">{children}</main>
-                <Footer locale={locale as Locale} />
+                <Footer
+                  locale={locale as Locale}
+                  accreditations={{
+                    ministryLicenceNumber: siteSettings?.ministryLicenceNumber,
+                    etaaNumber: siteSettings?.etaaNumber,
+                    iataNumber: siteSettings?.iataNumber,
+                  }}
+                />
                 {/* English-first: the itinerary bar ships with the EN sales nav. */}
                 {locale === 'en' && <MobileLeadBar />}
                 <CookieConsent />

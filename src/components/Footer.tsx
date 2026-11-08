@@ -4,7 +4,8 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
 import { WHATSAPP_DISPLAY, WHATSAPP_LINK } from '@/lib/concierge/constants';
-import { ETAA_LICENCE_NUMBER, ETAA_LICENCE_URL, LEGAL_NAME } from '@/lib/company';
+import { LEGAL_NAME } from '@/lib/company';
+import { accreditationItems, etaaUrl, type Accreditations } from '@/lib/accreditations';
 
 import { CookiePreferencesButton } from './CookiePreferencesButton';
 
@@ -50,8 +51,12 @@ const LEGAL_LINKS = [
  * (journey-1/2/3). Accreditation now lives in the brand tagline (matching the
  * reference), so the previous standalone trust-links strip is folded in.
  */
-export function Footer({ locale }: FooterProps) {
+export function Footer({ locale, accreditations }: FooterProps & { accreditations?: Accreditations | null }) {
   const t = useTranslations('footer');
+  // Licence/accreditation items come only from Sanity siteSettings; each
+  // renders only when set (homepage fix round 1, 2026-11-08).
+  const accItems = accreditationItems(accreditations, locale);
+  const etaaHref = etaaUrl(accreditations);
   const tNav = useTranslations('nav');
   const year = new Date().getFullYear();
   const descriptions = SISTER_BRAND_DESCRIPTIONS[locale];
@@ -64,7 +69,10 @@ export function Footer({ locale }: FooterProps) {
             <Link className="t2e-logo t2e-logo--wordmark" href="/" aria-label="Travel2Egypt — home">
               Travel<span className="t2e-logo-2">2</span>Egypt
             </Link>
-            <p>{t('tagline')}</p>
+            <p>
+              {t('tagline')}
+              {accItems.length > 0 && <> {accItems.join(' · ')}.</>}
+            </p>
           </div>
 
           <div className="t2e-foot-col">
@@ -141,10 +149,15 @@ export function Footer({ locale }: FooterProps) {
 
         <div className="t2e-foot-legal">
           <span className="legal-owner">
-            {t('rights', { year })} {LEGAL_NAME} ·{' '}
-            <a href={ETAA_LICENCE_URL} target="_blank" rel="noopener noreferrer">
-              ETAA {ETAA_LICENCE_NUMBER}
-            </a>
+            {t('rights', { year })} {LEGAL_NAME}
+            {etaaHref && accreditations?.etaaNumber && (
+              <>
+                {' · '}
+                <a href={etaaHref} target="_blank" rel="noopener noreferrer">
+                  ETAA {accreditations.etaaNumber.trim()}
+                </a>
+              </>
+            )}
           </span>
           <span className="legal-links">
             {LEGAL_LINKS.map((link) => (

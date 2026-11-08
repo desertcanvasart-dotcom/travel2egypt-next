@@ -90,6 +90,8 @@
 .lead-form textarea:focus-visible { outline: 2px solid var(--gold, #b89456); outline-offset: 1px; }
 .lead-check { display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 14px; cursor: pointer; }
 .lead-check input { width: 18px; height: 18px; }
+.lead-estimate { margin: 0; font-size: 15px; padding: 10px 12px; background: var(--paper-warm, #f4eede); }
+.lead-dark .lead-estimate { background: rgba(255, 255, 255, 0.08); color: var(--on-dark, #ede6d4); }
 .lead-tour { font-size: 14px; margin: 0; padding: 10px 12px; background: var(--paper-warm, #f4eede); }
 .lead-hp { position: absolute !important; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
 
