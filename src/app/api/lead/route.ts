@@ -94,6 +94,7 @@ export async function POST(req: NextRequest) {
       pagePath: lead.pagePath,
       utm: lead.utm,
       estimatedTotal: lead.estimatedTotal,
+      estimatedCurrency: lead.estimatedCurrency,
     });
     emailed = true;
   } catch (err) {

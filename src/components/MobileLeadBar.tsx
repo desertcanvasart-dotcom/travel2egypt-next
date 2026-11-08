@@ -2,16 +2,19 @@
 
 import { useEffect, useState } from 'react';
 
+import { useLocale } from 'next-intl';
+
 import { usePathname } from '@/i18n/navigation';
 import { track } from '@/lib/analytics';
 import { useConsent } from '@/lib/consent';
 import { whatsappUrl } from '@/lib/concierge/constants';
 
 import { prefillFor, useLead } from './leads/LeadProvider';
+import { LEAD_COPY, leadLocale } from './leads/copy';
 
 /**
  * Sticky two-button bar on phones (< 768px, CSS) — homepage fix round 1,
- * item 5. English pages only (the form is English-first).
+ * item 5. All three languages (ES/JA copy added 2026-11-08).
  *
  * Shown on the homepage and on any page that registered a product via
  * <StickyBarProduct> (tour, day-tour and cruise pages). Hidden while: a
@@ -21,6 +24,8 @@ import { prefillFor, useLead } from './leads/LeadProvider';
  */
 export function MobileLeadBar() {
   const pathname = usePathname();
+  const locale = leadLocale(useLocale());
+  const c = LEAD_COPY[locale];
   const { open, isOpen: dialogOpen, product } = useLead();
   const { isOpen: cookieOpen } = useConsent();
   const [formInView, setFormInView] = useState(false);
@@ -63,11 +68,11 @@ export function MobileLeadBar() {
   if (!visible) return null;
 
   const waText = product
-    ? `Hi, I'm interested in "${product.title}" (travel2egypt.org/${product.slug}).`
-    : "Hi, I'd like help planning a trip to Egypt.";
+    ? c.barWaProduct(product.title, `travel2egypt.org${locale === 'en' ? '' : `/${locale}`}/${product.slug}`)
+    : c.barWaGeneric;
 
   return (
-    <div className="t2e-leadbar" role="region" aria-label="Contact us">
+    <div className="t2e-leadbar" role="region" aria-label={c.barLabel}>
       <a
         href={whatsappUrl(waText)}
         target="_blank"
@@ -88,7 +93,7 @@ export function MobileLeadBar() {
           open({ source: 'mobile_bar', ...(product ? prefillFor(product) : {}) });
         }}
       >
-        Get itinerary
+        {c.barCta}
       </button>
     </div>
   );
