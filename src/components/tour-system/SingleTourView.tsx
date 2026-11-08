@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { StickyBarProduct } from '@/components/leads/LeadProvider';
-import { accreditationItems, getAccreditations } from '@/lib/accreditations';
+import { getAccreditations, iataItem, licenceShort } from '@/lib/accreditations';
 
 import { Link } from '@/i18n/navigation';
 import { client } from '@/sanity/lib/client';
@@ -66,6 +66,9 @@ export interface SingleTour {
 }
 
 export async function SingleTourView({ tour, locale }: { tour: SingleTour; locale: Locale }) {
+  // Trust line: approved Short licence string + IATA item (fix round 2).
+  const accreditations = await getAccreditations();
+  const trustCreds = [licenceShort(accreditations, locale), iataItem(accreditations)].filter(Boolean).join(' · ');
   const t = await getTranslations('tour');
   const tSub = await getTranslations('subcategory');
   const tNav = await getTranslations('nav');
@@ -326,7 +329,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             <div className="card">
               <span className="ck">{ts('whyBook')}</span>
               <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
-              <div className="accred">{[accreditationItems(await getAccreditations(), locale).join(' · '), ts('trustAccred')].filter(Boolean).join(' — ')}</div>
+              <div className="accred">{[trustCreds, ts('trustAccred')].filter(Boolean).join(' — ')}</div>
             </div>
           </aside>
         </div>

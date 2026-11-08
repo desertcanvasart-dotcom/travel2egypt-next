@@ -506,11 +506,12 @@ export const siteSettingsSchema = defineType({
       description: 'Leave empty until confirmed — the item is then hidden everywhere.',
     }),
     defineField({
-      name: 'etaaNumber',
-      title: 'ETAA number',
-      type: 'string',
+      name: 'etaaMember',
+      title: 'ETAA member',
+      type: 'boolean',
       group: 'trust',
-      description: 'Egyptian Travel Agents Association number. Also builds the ETAA verification link.',
+      description:
+        'Every Ministry-licensed company is automatically a member of the Egyptian Travel Agents Association. A membership, not a second number — the site shows "ETAA member", never "ETAA <number>".',
     }),
     defineField({
       name: 'iataNumber',

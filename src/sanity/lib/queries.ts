@@ -1811,7 +1811,7 @@ export const siteSettingsQuery = (locale: Locale) => groq`
   *[_type == "siteSettings"][0]{
     "siteName": ${localizedField('siteName', locale)},
     ministryLicenceNumber,
-    etaaNumber,
+    etaaMember,
     iataNumber,
     "tagline": ${localizedField('tagline', locale)},
     defaultOgImage,

@@ -5,7 +5,7 @@ import { LeadButton } from '@/components/leads/LeadProvider';
 import { LeadForm } from '@/components/leads/LeadForm';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { WHATSAPP_LINK } from '@/lib/concierge/constants';
-import { primaryCredential } from '@/lib/accreditations';
+import { licenceShort } from '@/lib/accreditations';
 import {
   TRIPADVISOR_RATING,
   TRIPADVISOR_REVIEW_COUNT,
@@ -109,9 +109,9 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
                     <span aria-hidden>★</span> {TRIPADVISOR_RATING} on Tripadvisor ({TRIPADVISOR_REVIEW_COUNT} reviews)
                   </a>
                 </li>
-                {primaryCredential(data.accreditations, 'en') && <li>{primaryCredential(data.accreditations, 'en')}</li>}
+                {licenceShort(data.accreditations, 'en') && <li>{licenceShort(data.accreditations, 'en')}</li>}
                 <li>We reply the same day, 7 days a week</li>
-                <li>About 130 private trips a year</li>
+                <li>About 230 private trips a year</li>
               </ul>
             </div>
             <figure className="hero-img">

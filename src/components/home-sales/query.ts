@@ -16,7 +16,7 @@ export const salesHomeQuery = groq`{
     "included": includedItems[_key=="en"][0].value[0...3],
     heroImage{ ..., "alt": coalesce(alt[_key=="en"][0].value, "") }
   },
-  "accreditations": *[_type == "siteSettings"][0]{ ministryLicenceNumber, etaaNumber, iataNumber },
+  "accreditations": *[_type == "siteSettings"][0]{ ministryLicenceNumber, etaaMember, iataNumber },
   // The cheapest PRICED 7-day dahabiya product. The panel shows its price and
   // duration and links to it, so the figure always equals the landing page.
   "dahabiya": *[_type == "tour" && !(_id in path("drafts.**")) && type == "package"
@@ -44,5 +44,5 @@ export interface SalesHomeData {
   home: { heroImage?: { asset?: unknown; alt?: string } | null; heroCaption?: string } | null;
   products: SalesProduct[];
   dahabiya: { slug: string; title: string; priceFrom: number; durationDays?: number | null } | null;
-  accreditations?: { ministryLicenceNumber?: string | null; etaaNumber?: string | null; iataNumber?: string | null } | null;
+  accreditations?: { ministryLicenceNumber?: string | null; etaaMember?: boolean | null; iataNumber?: string | null } | null;
 }

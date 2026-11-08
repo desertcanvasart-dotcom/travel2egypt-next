@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { applyAccreditationTokens, getAccreditations } from '@/lib/accreditations';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import type { Locale } from '@/i18n/routing';
@@ -27,7 +28,9 @@ interface Props {
 export async function LegalPageView({ locale, kind }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations('legal');
-  const doc: LegalDoc | null = await client.fetch(legalPageByKindQuery(locale), { kind });
+  const raw: LegalDoc | null = await client.fetch(legalPageByKindQuery(locale), { kind });
+  // Licence wording in legal text is {tokens} filled from siteSettings (fix round 2).
+  const doc = raw ? applyAccreditationTokens(raw, await getAccreditations(), locale) : null;
   if (!doc) notFound();
 
   const formattedDate = doc.lastUpdated

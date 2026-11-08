@@ -15,7 +15,7 @@ import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
 import { LEGAL_NAME } from './company';
-import { etaaUrl, type Accreditations } from './accreditations';
+import { type Accreditations } from './accreditations';
 import { siteUrlBase } from './path-from-doc';
 
 const SITE_NAME = 'Travel2Egypt';
@@ -98,22 +98,29 @@ export interface OrganizationInput {
   knowsAbout?: string[];
   founder?: FounderInput | null;
   ministryLicenceNumber?: string | null;
-  etaaNumber?: string | null;
+  etaaMember?: boolean | null;
   iataNumber?: string | null;
 }
 
-// Credentials come from Sanity siteSettings (ministryLicenceNumber,
-// etaaNumber, iataNumber); an empty value emits nothing. Never hard-code a
-// number here (homepage fix round 1, 2026-11-08).
+// Licence identity from Sanity siteSettings (fix round 2, 2026-11-08):
+// the Ministry licence is an `identifier`, ETAA is `memberOf` (automatic
+// membership — never a number). Only IATA remains a hasCredential entry.
+// Never hard-code a number here.
 function accreditationCredentials(a: Accreditations): Array<{ name: string; org: string; url?: string }> {
-  const out: Array<{ name: string; org: string; url?: string }> = [];
-  const m = a.ministryLicenceNumber?.trim();
-  const e = a.etaaNumber?.trim();
   const i = a.iataNumber?.trim();
-  if (m) out.push({ name: `Licensed travel agency, Ministry of Tourism (licence no. ${m})`, org: 'Ministry of Tourism and Antiquities, Egypt' });
-  if (e) out.push({ name: `ETAA member (no. ${e})`, org: 'Egyptian Travel Agents Association', url: etaaUrl(a) ?? undefined });
-  if (i) out.push({ name: `IATA accredited agency (IATA no. ${i})`, org: 'International Air Transport Association', url: 'https://www.iata.org/' });
-  return out;
+  return i ? [{ name: `IATA accredited agency (IATA no. ${i})`, org: 'International Air Transport Association', url: 'https://www.iata.org/' }] : [];
+}
+
+function licenceIdentity(a: Accreditations) {
+  const n = a.ministryLicenceNumber?.trim();
+  return {
+    ...(n
+      ? { identifier: { '@type': 'PropertyValue', propertyID: 'Egyptian Ministry of Tourism licence', value: n } }
+      : {}),
+    ...(a.etaaMember === true
+      ? { memberOf: { '@type': 'Organization', name: 'Egyptian Travel Agents Association (ETAA)' } }
+      : {}),
+  };
 }
 
 export function buildOrganizationSchema(input: OrganizationInput) {
@@ -206,6 +213,7 @@ export function buildOrganizationSchema(input: OrganizationInput) {
             })),
         }
       : {}),
+    ...licenceIdentity(input),
     hasCredential: accreditationCredentials(input).map((acc) => ({
       '@type': 'EducationalOccupationalCredential',
       name: acc.name,

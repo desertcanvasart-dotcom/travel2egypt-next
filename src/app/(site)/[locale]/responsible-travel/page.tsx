@@ -6,6 +6,7 @@ import type { Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import { editorialPageByKindQuery } from '@/sanity/lib/queries';
 import { EditorialPageView, type EditorialDoc } from '@/components/EditorialPageView';
+import { applyAccreditationTokens, getAccreditations } from '@/lib/accreditations';
 import { buildStaticMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbList } from '@/lib/structured-data';
@@ -48,7 +49,8 @@ export default async function Page({ params }: Props) {
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
-      <EditorialPageView locale={lc} doc={doc} />
+      {/* Licence wording in the body is {tokens} filled from siteSettings. */}
+      <EditorialPageView locale={lc} doc={applyAccreditationTokens(doc, await getAccreditations(), lc)} />
     </>
   );
 }
