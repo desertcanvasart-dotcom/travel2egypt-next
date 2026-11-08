@@ -1,6 +1,6 @@
 /**
  * TrustStrip — a horizontal row of credibility marks (TripAdvisor rating,
- * Kayak partner mark, JATA / IATA / ASTA accreditations, and a "30+ years"
+ * Kayak partner mark, the IATA accreditation, and a "30+ years"
  * badge). Kayak links to their Hurghada destination guide (owner-confirmed
  * relationship, 2026-08-19); TripAdvisor links to our review page; the
  * accreditation marks stay non-linked.
@@ -8,7 +8,8 @@
  * Self-contained (Tailwind utilities + brand tokens, sharp/flat) so it can be
  * dropped onto any page — the concierge shell now, the homepage later. Labels
  * are passed in for i18n; the marks themselves are the site's real
- * accreditations (cf. the footer "JATA, IATA, ASTA … accredited").
+ * accreditations (cf. the footer licence line). ASTA and JATA were removed on
+ * the owner's instruction (2026-11-08): no mark without a member number.
  *
  * Session 1: ships with glyph/star treatment only — no partner-logo assets.
  * The TripAdvisor mark links to our review page (opens in a new tab); the
@@ -17,10 +18,9 @@
 
 import type { ReactNode } from 'react';
 
-const DM = 'font-[family-name:var(--font-dm-sans)]';
+import { TRIPADVISOR_URL } from '@/lib/company';
 
-const TRIPADVISOR_URL =
-  'https://www.tripadvisor.com/Attraction_Review-g294201-d17406742-Reviews-Travel2Egypt-Cairo_Cairo_Governorate.html';
+const DM = 'font-[family-name:var(--font-dm-sans)]';
 
 const KAYAK_URL = 'https://www.kayak.co.uk/Hurghada.34001.guide';
 
@@ -116,31 +116,12 @@ export function TrustStrip({
           </span>
         </a>
         </div>
-
-        <Mark
-          label="JATA"
-          glyph={
-            <svg width="28" height="28" viewBox="0 0 22 22" aria-hidden>
-              <rect x="2" y="6" width="18" height="12" rx="0" fill="none" stroke="currentColor" strokeWidth="1.5" />
-              <path d="M2 9h18" stroke="currentColor" strokeWidth="1.5" />
-            </svg>
-          }
-        />
         <Mark
           label="IATA"
           glyph={
             <svg width="28" height="28" viewBox="0 0 22 22" aria-hidden>
               <path d="M11 2 L20 11 L11 20 L2 11 Z" fill="none" stroke="currentColor" strokeWidth="1.5" />
               <circle cx="11" cy="11" r="3" fill="currentColor" />
-            </svg>
-          }
-        />
-        <Mark
-          label="ASTA"
-          glyph={
-            <svg width="28" height="28" viewBox="0 0 22 22" aria-hidden>
-              <path d="M2 18 L11 4 L20 18 Z" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
-              <path d="M11 9 L11 14" stroke="currentColor" strokeWidth="1.5" />
             </svg>
           }
         />
