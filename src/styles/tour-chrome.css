@@ -243,3 +243,36 @@
   .t2e-nav-right { gap: 12px; }
 }
 
+
+/* ---- ENGLISH SALES NAV (2026-11-08): "Get a free itinerary" button,
+   WhatsApp icon, and the phone-only sticky bar (WhatsApp + Get itinerary). */
+.t2e-nav--sales .t2e-nav-links { gap: 28px; }
+.t2e-nav-right .t2e-nav-lead {
+  background: var(--navy); color: var(--paper); padding: 10px 16px; min-height: 40px;
+  font-family: var(--ui); font-size: 13px; letter-spacing: .03em; white-space: nowrap;
+}
+.t2e-nav-right .t2e-nav-lead:hover { background: var(--gold-dark); color: var(--paper); }
+.t2e-nav-wa { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; color: #128c7e; }
+.t2e-nav-wa:hover { color: var(--gold-dark); }
+.t2e-leadbar { display: none; }
+@media (max-width: 1180px) {
+  .t2e-nav--sales .t2e-nav-links { gap: 20px; }
+  .t2e-nav--sales .t2e-nav-links a, .t2e-nav--sales .t2e-nav-links button { font-size: 13.5px; }
+}
+@media (max-width: 980px) {
+  .t2e-nav-right .t2e-nav-lead, .t2e-nav-wa { display: none; }
+  .t2e-leadbar {
+    display: grid; grid-template-columns: 1fr 1fr; position: fixed; left: 0; right: 0; bottom: 0; z-index: 150;
+    background: var(--paper); border-top: 1px solid var(--rule); box-shadow: 0 -8px 24px rgba(20, 36, 59, .1);
+    padding: 8px 10px calc(8px + env(safe-area-inset-bottom)); gap: 8px;
+  }
+  .t2e-leadbar a, .t2e-leadbar button {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px;
+    font-family: var(--ui); font-size: 14px; font-weight: 500; text-decoration: none; border: 0; cursor: pointer;
+  }
+  .t2e-leadbar-wa { background: #128c7e; color: #fff; }
+  .t2e-leadbar-cta { background: var(--navy); color: var(--paper); }
+  /* Keep content and the floating concierge clear of the bar. */
+  body:has(.t2e-leadbar) { padding-bottom: calc(62px + env(safe-area-inset-bottom)); }
+  body:has(.t2e-leadbar) .t2e-conc { bottom: calc(76px + env(safe-area-inset-bottom)); }
+}

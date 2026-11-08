@@ -9,6 +9,8 @@ import {
   hostileContentAlert,
   resumeEmail,
   teamHandoffEmail,
+  leadTeamEmail,
+  type LeadEmailParams,
   type AutouraFailureAlertParams,
   type DigestEmailParams,
 } from './templates';
@@ -158,4 +160,25 @@ export async function sendAutouraFailureAlert(args: AutouraFailureAlertParams): 
   const { subject, html, text } = autouraFailureAlertEmail(args);
   const { error } = await client().emails.send({ from: FROM, to, subject, html, text });
   if (error) throw new Error(`resend autoura failure alert failed: ${error.message}`);
+}
+
+/**
+ * Website lead (homepage itinerary form / day-tour date request) →
+ * TEAM_INBOX_EMAIL, Reply-To = the visitor. Throws when the inbox is unset or
+ * Resend fails, so /api/lead can tell the visitor to use WhatsApp instead of
+ * silently losing the request.
+ */
+export async function sendLeadEmail(args: LeadEmailParams): Promise<void> {
+  const to = process.env.TEAM_INBOX_EMAIL;
+  if (!to) throw new Error('TEAM_INBOX_EMAIL must be set for website leads');
+  const { subject, html, text } = leadTeamEmail(args);
+  const { error } = await client().emails.send({
+    from: FROM,
+    to,
+    subject,
+    html,
+    text,
+    replyTo: args.email,
+  });
+  if (error) throw new Error(`resend lead email failed: ${error.message}`);
 }

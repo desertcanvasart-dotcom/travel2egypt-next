@@ -27,7 +27,17 @@ const JOURNEY_LINKS = [
  * desktop. Focus moves into the sheet on open and returns to the button on
  * Escape.
  */
-export function MobileNav() {
+interface MobileGroup {
+  label: string;
+  href?: string;
+  items?: Array<{ label: string; href: string }>;
+}
+
+/**
+ * `groups` (English sales nav, 2026-11-08) replaces the editorial link list
+ * when given; ES/JA call it without props and keep the original sheet.
+ */
+export function MobileNav({ groups }: { groups?: MobileGroup[] } = {}) {
   const t = useTranslations('nav');
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -109,7 +119,41 @@ export function MobileNav() {
         </svg>
       </button>
 
-      {open && (
+      {open && groups && (
+        <div id="t2e-mobile-nav" ref={panelRef} className="t2e-mobile-sheet">
+          <ul>
+            {groups.map((g) =>
+              g.items ? (
+                <li key={g.label}>
+                  <span className="ms-heading">{g.label}</span>
+                  <ul className="ms-sub">
+                    {g.items.map((item) => (
+                      <li key={item.href + item.label}>
+                        <Link href={item.href} aria-current={cur(item.href)}>
+                          {item.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </li>
+              ) : (
+                <li key={g.label}>
+                  <Link href={g.href ?? '/'} aria-current={cur(g.href ?? '/')}>
+                    {g.label}
+                  </Link>
+                </li>
+              ),
+            )}
+            <li>
+              <Link href="/contact" aria-current={cur('/contact')}>
+                {t('contact')}
+              </Link>
+            </li>
+          </ul>
+        </div>
+      )}
+
+      {open && !groups && (
         <div id="t2e-mobile-nav" ref={panelRef} className="t2e-mobile-sheet">
           <ul>
             <li>

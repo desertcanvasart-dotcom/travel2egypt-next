@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import { Link } from '@/i18n/navigation';
 
@@ -62,8 +62,24 @@ export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant =
   const visibleLengthOptions = lengthOptions.filter((o) => presentLengths.has(o.value));
   const showLengthFacet = visibleLengthOptions.length >= 2;
 
+  // Deep link from the homepage quick finder / "Short breaks" nav item:
+  // ?length=3-5 | 6-9 | 10-14 | 15+ preselects the matching bucket and
+  // scrolls the index into view. Read from window.location (not
+  // useSearchParams) so the static page needs no Suspense boundary.
+  const rootRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    const raw = new URLSearchParams(window.location.search).get('length');
+    if (!raw) return;
+    const key = ({ '3-5': 'le5', '6-9': '6to9', '10-14': '10to14', '15+': '15plus', '15 ': '15plus' } as Record<string, string>)[raw];
+    if (key && presentLengths.has(key)) {
+      setLength(key);
+      rootRef.current?.scrollIntoView({ block: 'start' });
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
-    <>
+    <div ref={rootRef} className="category-index" style={{ scrollMarginTop: 96 }}>
       {showCityFacet && (
         <div className="filters">
           <span className="filter-label">{labels.cityLabel}</span>
@@ -126,6 +142,6 @@ export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant =
           ))
         )}
       </div>
-    </>
+    </div>
   );
 }

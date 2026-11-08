@@ -42,3 +42,5 @@ jobs:
         run: npm run test:concierge
       - name: Link-map tests
         run: npm run test:linkmap
+      - name: Analytics + lead form tests
+        run: npm run test:analytics
