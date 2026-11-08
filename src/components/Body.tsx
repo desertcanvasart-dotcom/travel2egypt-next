@@ -102,6 +102,9 @@ export function getBodyComponents(locale: 'en' | 'es' | 'ja'): PortableTextCompo
             {items.map((row: any, i: number) => {
               const term = readLocalized(row?.term, locale);
               const desc = readLocalized(row?.description, locale);
+              const note = readLocalized(row?.note, locale);
+              // In-page anchors only (e.g. "#dahabiyas") — never an outbound URL.
+              const href = typeof row?.href === 'string' && /^#[a-z0-9-]+$/i.test(row.href) ? row.href : null;
               if (!term && !desc) return null;
               return (
                 <div
@@ -109,7 +112,18 @@ export function getBodyComponents(locale: 'en' | 'es' | 'ja'): PortableTextCompo
                   className="grid grid-cols-1 gap-2 border-b border-rule py-3.5 sm:grid-cols-[130px_1fr] sm:gap-6"
                 >
                   <dt className="pt-1 font-sans text-xs uppercase tracking-[0.14em] text-gold-ink">
-                    {term}
+                    {href ? (
+                      <a href={href} className="text-gold-ink underline-offset-4 hover:underline">
+                        {term}
+                      </a>
+                    ) : (
+                      term
+                    )}
+                    {note && (
+                      <span className="mt-1 block font-serif text-sm normal-case italic tracking-normal text-night-soft">
+                        {note}
+                      </span>
+                    )}
                   </dt>
                   <dd className="font-sans text-[0.9375rem] leading-relaxed text-night-soft">
                     {desc}

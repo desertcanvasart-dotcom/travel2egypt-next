@@ -6,7 +6,7 @@ import { Link, useRouter, usePathname } from '@/i18n/navigation';
 
 import type { ArchiveItem, FacetFilterGroup } from './types';
 import { bucketKeyForValue } from './types';
-import { FacetBadgeLine } from './ArchiveCard';
+import { FacetBadgeLine, ItemDetail } from './ArchiveCard';
 
 interface Labels {
   kicker: string;
@@ -116,7 +116,10 @@ export function ArchiveIndexView({ items, filters, labels, selected, onSelect }:
               <span className="min-w-[55%] flex-1 font-serif text-xl font-normal leading-tight text-night sm:min-w-0">
                 {item.title}
               </span>
-              <FacetBadgeLine facets={item.facets} className="shrink-0" />
+              <span className="flex shrink-0 flex-col gap-1">
+                <FacetBadgeLine facets={item.facets} />
+                {item.detail && <ItemDetail detail={item.detail} />}
+              </span>
               <span
                 aria-hidden
                 className="ml-auto font-serif text-xl text-night-soft transition-transform duration-200 group-hover:translate-x-1.5 group-hover:text-night"

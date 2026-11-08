@@ -20,6 +20,9 @@ import type {
   CollectionVariant,
 } from '@/components/archive/types';
 import type { WeaveItem } from '@/components/ArticleConnective';
+import { NileCruisePlanBlock } from '@/components/nile-cruises/NileCruisePlanBlock';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
+import { whatsappUrl } from '@/lib/concierge/constants';
 
 export async function generateMetadata({
   params,
@@ -31,8 +34,8 @@ export async function generateMetadata({
   return buildStaticMetadata({
     locale: locale as Locale,
     path: '/nile-cruises',
-    title: t('landingTitle'),
-    description: t('landingDeck'),
+    title: t('metaTitle'),
+    description: t('metaDescription'),
   });
 }
 
@@ -43,6 +46,10 @@ interface RawCruise {
   summary?: string;
   type?: string;
   cruiseRoute?: string;
+  poweredBy?: string[] | null;
+  durationNights?: number | null;
+  departureCityName?: string | null;
+  returnCityName?: string | null;
   heroImage?: { asset?: unknown; alt?: string } | null;
 }
 
@@ -63,23 +70,32 @@ interface ArchiveDoc {
 }
 
 /**
- * Vessel + route are derived (the schema has clean `type` but no direction
- * fields). Lake Nasser is treated as a ROUTE, not a vessel, so cards read
- * "Ship · Lake Nasser" rather than duplicating. Nights are intentionally not a
- * facet here — durationNights is unpopulated and these docs are vessel
- * profiles, not fixed-length sailings (see archive README).
+ * Nile Cruises rebuild (2026-11-08): this page covers only the three kinds of
+ * Nile boat. Everything is data-driven:
+ *  - Lake Nasser = cruiseRoute "lake-nasser" → excluded everywhere (counters,
+ *    collections, featured, index, filters). The product pages stay live.
+ *  - Steamer = poweredBy includes "steam"; dahabiya = type "dahabiya"; every
+ *    other engine boat (cruise ship, yacht) counts as a cruise ship.
+ * There is no route filter: with Lake Nasser gone every boat is "Nile", and
+ * no product carries a sailing stretch yet (departure/return city are empty).
  */
 function isLakeNasser(c: RawCruise): boolean {
-  return c.cruiseRoute === 'lake-nasser' || /nasser/i.test(c.name ?? '');
+  return c.cruiseRoute === 'lake-nasser';
 }
-function deriveVessel(c: RawCruise): string {
-  if (/steam|sudan/i.test(c.name ?? '')) return 'steamer';
+function deriveVessel(c: RawCruise): Vessel {
+  if (c.poweredBy?.includes('steam')) return 'steamer';
   if (c.type === 'dahabiya') return 'dahabiya';
   return 'ship';
 }
 
 const VESSEL_ORDER = ['dahabiya', 'ship', 'steamer'] as const;
-const ROUTE_ORDER = ['nile', 'lake-nasser'] as const;
+type Vessel = (typeof VESSEL_ORDER)[number];
+/** Section ids: #dahabiyas and #cruise-ships are linked from the homepage. */
+const VESSEL_ANCHOR: Record<Vessel, string> = {
+  dahabiya: 'dahabiyas',
+  ship: 'cruise-ships',
+  steamer: 'steamers',
+};
 
 export default async function NileCruisesArchivePage({
   params,
@@ -92,6 +108,7 @@ export default async function NileCruisesArchivePage({
   const t = await getTranslations('nileCruises');
   const tArchive = await getTranslations('archive');
   const tNav = await getTranslations('nav');
+  const tConcierge = await getTranslations('concierge');
 
   const [archive, cruises, recentArticles] = await Promise.all([
     client.fetch<ArchiveDoc | null>(nileCruisesArchiveQuery(locale as Locale)),
@@ -111,15 +128,25 @@ export default async function NileCruisesArchivePage({
         return t('vesselShip');
     }
   };
-  const routeLabel = (key: string): string =>
-    key === 'lake-nasser' ? t('routeLakeNasser') : t('routeNile');
+  // "3 nights · Aswan → Luxor" — product data only; missing parts are
+  // dropped with their separator. Nile cruise products have no price field,
+  // so no "from $…" part can be shown until one exists.
+  const detailFor = (c: RawCruise): string | undefined => {
+    const parts: string[] = [];
+    if (typeof c.durationNights === 'number' && c.durationNights > 0) {
+      parts.push(t('nights', { count: c.durationNights }));
+    }
+    if (c.departureCityName && c.returnCityName && c.departureCityName !== c.returnCityName) {
+      parts.push(`${c.departureCityName} → ${c.returnCityName}`);
+    }
+    return parts.length ? parts.join(' · ') : undefined;
+  };
 
   const toItem = (c: RawCruise): ArchiveItem => {
     const vessel = deriveVessel(c);
-    const route = isLakeNasser(c) ? 'lake-nasser' : 'nile';
     const facets: ItemFacet[] = [
       { key: 'vessel', value: vessel, label: vesselLabel(vessel), render: 'badge' },
-      { key: 'route', value: route, label: routeLabel(route), render: 'text' },
+      { key: 'route', value: 'nile', label: t('routeNile'), render: 'text' },
     ];
     return {
       _id: c._id,
@@ -128,16 +155,16 @@ export default async function NileCruisesArchivePage({
       summary: c.summary,
       image: c.heroImage ?? null,
       facets,
+      detail: detailFor(c),
     };
   };
 
-  const indexItems = cruises.map(toItem);
+  const nileCruises = cruises.filter((c) => !isLakeNasser(c));
+  const indexItems = nileCruises.map(toItem);
+  const countOf = (v: Vessel) => nileCruises.filter((c) => deriveVessel(c) === v).length;
 
-  // ── Facets: vessel + route, both exact (present values only) ──
-  const presentVessels = VESSEL_ORDER.filter((v) => cruises.some((c) => deriveVessel(c) === v));
-  const presentRoutes = ROUTE_ORDER.filter((r) =>
-    cruises.some((c) => (isLakeNasser(c) ? 'lake-nasser' : 'nile') === r)
-  );
+  // ── Facet: kind of boat (?vessel=dahabiya|ship|steamer) ──
+  const presentVessels = VESSEL_ORDER.filter((v) => countOf(v) > 0);
   const filters: FacetFilterGroup[] = [
     {
       key: 'vessel',
@@ -145,16 +172,10 @@ export default async function NileCruisesArchivePage({
       label: t('filterVessel'),
       options: presentVessels.map((v) => ({ value: v, label: vesselLabel(v) })),
     },
-    {
-      key: 'route',
-      paramKey: 'route',
-      label: t('filterRoute'),
-      options: presentRoutes.map((r) => ({ value: r, label: routeLabel(r) })),
-    },
   ];
 
   // ── Featured ──
-  const featured = archive?.featured?.cruise
+  const featured = archive?.featured?.cruise && !isLakeNasser(archive.featured.cruise)
     ? {
         kicker: t('featuredKicker'),
         item: toItem(archive.featured.cruise),
@@ -174,9 +195,22 @@ export default async function NileCruisesArchivePage({
       variant: (VARIANTS.includes(c.variant as CollectionVariant)
         ? c.variant
         : 'trio') as CollectionVariant,
-      items: (c.cruises ?? []).map(toItem),
+      items: (c.cruises ?? []).filter((x) => x && !isLakeNasser(x)).map(toItem),
+      // A single-kind collection carries that kind's anchor (#dahabiyas …).
+      anchorId: (() => {
+        const kinds = new Set((c.cruises ?? []).filter((x) => x && !isLakeNasser(x)).map(deriveVessel));
+        return kinds.size === 1 ? VESSEL_ANCHOR[[...kinds][0]] : undefined;
+      })(),
     }))
     .filter((c) => c.title && c.items.length > 0);
+  // An id may appear once: only the first collection of a kind keeps it.
+  const seenAnchors = new Set<string>();
+  for (const c of collections) {
+    if (c.anchorId && seenAnchors.has(c.anchorId)) c.anchorId = undefined;
+    else if (c.anchorId) seenAnchors.add(c.anchorId);
+  }
+  // Any kind without a collection still gets its id, just above the index.
+  const indexAnchors = presentVessels.map((v) => VESSEL_ANCHOR[v]).filter((id) => !seenAnchors.has(id));
 
   const journalItems: WeaveItem[] = recentArticles.slice(0, 3).map((a) => ({
     id: a._id,
@@ -202,17 +236,18 @@ export default async function NileCruisesArchivePage({
       <JsonLd data={breadcrumbSchema} />
       <ArchiveTemplate
         locale={locale as Locale}
-        // Homepage "Compare cruise ships / dahabiyas" land here with ?vessel=…
-        indexAnchors={['cruise-ships', 'dahabiyas']}
+        // #dahabiyas / #cruise-ships / #steamers sit on their collections;
+        // homepage links add ?vessel=… so the index below is pre-filtered.
+        indexAnchors={indexAnchors}
         breadcrumbItems={breadcrumbItems}
         header={{
           kicker: archive?.kicker,
           title: archive?.title ?? t('landingTitle'),
           tagline: archive?.tagline ?? t('landingDeck'),
           stats: [
-            { label: t('statCruises'), value: cruises.length },
-            { label: t('statVessels'), value: presentVessels.length },
-            { label: t('statRoutes'), value: presentRoutes.length },
+            { label: t('statShips'), value: countOf('ship') },
+            { label: t('statDahabiyas'), value: countOf('dahabiya') },
+            { label: t('statSteamers'), value: countOf('steamer') },
           ],
         }}
         essay={archive?.essay ? { heading: archive.essayHeading, body: archive.essay } : undefined}
@@ -230,8 +265,23 @@ export default async function NileCruisesArchivePage({
           },
         }}
         itemNoun={t('itemNoun')}
+        itemCountLabel={(n) => t('itemCount', { count: n })}
         collectionKicker={(n) => tArchive('collectionLabel', { number: n })}
         conciergeContextLabel={t('conciergeAboutCruise')}
+        closing={
+          <NileCruisePlanBlock
+            eyebrow={tConcierge('eyebrow')}
+            heading={t('planHeading')}
+            bodyLead={t('planBodyLead')}
+            primaryLabel={t('planPrimary')}
+            secondaryLabel={t('planSecondary')}
+            whatsappHref={whatsappUrl(t('planWhatsapp'))}
+            conciergeLabel={t('planConcierge')}
+            conciergeHref={isChatEnabled() ? '/plan-your-tour' : '/contact'}
+            note={t('planNote')}
+            vesselLabels={{ dahabiya: vesselLabel('dahabiya'), ship: vesselLabel('ship'), steamer: vesselLabel('steamer') }}
+          />
+        }
         footBand={{
           inSeasonLabel: t('footInSeasonLabel'),
           inSeasonBody: t('footInSeasonBody'),

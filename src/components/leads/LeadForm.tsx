@@ -29,6 +29,8 @@ export interface LeadPrefill {
   durationDays?: number | null;
   /** Product "from" price (EUR, as stored) — drives the day-tour estimate (item 8). */
   priceFromEur?: number | null;
+  /** Pre-filled "Anything we should know?" text, e.g. "Interested in: Nile cruise". */
+  notes?: string;
 }
 
 
@@ -360,6 +362,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           name="notes"
           rows={3}
           maxLength={2000}
+          defaultValue={prefill?.notes}
           placeholder={isDay ? 'Hotel, pickup time, anything else' : 'Interests, must-sees, mobility'}
         />
       </div>

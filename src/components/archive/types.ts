@@ -34,6 +34,11 @@ export interface ArchiveItem {
   image?: { asset?: unknown; alt?: string } | null;
   /** Ordered facets rendered generically on cards and rows. */
   facets: ItemFacet[];
+  /**
+   * Optional one-line comparison detail under the facet line, prebuilt from
+   * product data only (e.g. "3 nights · Aswan → Luxor · from $630").
+   */
+  detail?: string;
 }
 
 export interface FacetFilterOption {
@@ -104,6 +109,8 @@ export interface ArchiveCollection {
   intro?: string;
   variant: CollectionVariant;
   items: ArchiveItem[];
+  /** Optional section id for in-page links (e.g. "dahabiyas"). */
+  anchorId?: string;
 }
 
 /** Find a facet by key on an item. */

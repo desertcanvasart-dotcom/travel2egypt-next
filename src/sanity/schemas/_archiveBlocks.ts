@@ -38,6 +38,19 @@ export const DEFINITION_LIST_BLOCK = {
               type: 'internationalizedArrayText',
               validation: (Rule: any) => Rule.required(),
             }),
+            defineField({
+              name: 'note',
+              title: 'Second line (optional)',
+              description: 'Small line under the term, e.g. "Wind-powered".',
+              type: 'internationalizedArrayString',
+            }),
+            defineField({
+              name: 'href',
+              title: 'Links to (optional)',
+              description: 'An in-page anchor such as #dahabiyas.',
+              type: 'string',
+              validation: (Rule: any) => Rule.regex(/^#[a-z0-9-]+$/i, { name: 'anchor' }),
+            }),
           ],
           preview: {
             select: { term: 'term.0.value', desc: 'description.0.value' },
