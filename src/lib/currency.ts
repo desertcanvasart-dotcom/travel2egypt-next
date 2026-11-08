@@ -69,18 +69,28 @@ export function convertPrice(amountEur: number, currency?: string | null): numbe
 
 /**
  * Format a stored EUR price in the given currency code.
- *   formatPrice(2350, 'USD')        → "$2,540"
- *   formatPrice(2350, 'JPY')        → "¥400,000"
- *   formatPrice(2350, 'AUD', 'pp')  → "A$3,880 pp"
+ *   formatPrice(2350, 'USD')              → "$2,540"
+ *   formatPrice(2350, 'JPY')              → "¥400,000"
+ *   formatPrice(2350, 'AUD', 'pp')        → "A$3,880 pp"
+ *   formatPrice(1290, 'EUR', null, 'es')  → "1290 €"   (Spanish convention:
+ *     symbol after the number, "." grouping from five digits — "12.900 €")
  * Returns '' for non-finite input so callers can omit empty prices cleanly.
  */
 export function formatPrice(
   amount: number | null | undefined,
   currency?: string | null,
   unit?: string | null,
+  locale?: string | null,
 ): string {
   if (typeof amount !== 'number' || !Number.isFinite(amount)) return '';
-  const c = currencyConf(currency);
-  const figure = `${c.symbol}${convertPrice(amount, currency).toLocaleString('en-US')}`;
+  const figure = formatConverted(convertPrice(amount, currency), currency, locale);
   return unit ? `${figure} ${unit}` : figure;
+}
+
+/** Format an amount ALREADY in `currency` (no conversion) — e.g. an estimate total. */
+export function formatConverted(n: number, currency?: string | null, locale?: string | null): string {
+  const c = currencyConf(currency);
+  return locale === 'es'
+    ? `${new Intl.NumberFormat('es-ES', { maximumFractionDigits: 0 }).format(n)}\u00a0${c.symbol}`
+    : `${c.symbol}${n.toLocaleString('en-US')}`;
 }

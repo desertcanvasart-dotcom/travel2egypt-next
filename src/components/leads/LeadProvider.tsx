@@ -7,6 +7,7 @@ import { track } from '@/lib/analytics';
 import type { LeadSource } from '@/lib/leads/schema';
 
 import { LeadForm, type LeadPrefill } from './LeadForm';
+import { LEAD_COPY, leadLocale } from './copy';
 import { captureUtm } from './utm';
 import '@/styles/lead-form.css';
 
@@ -87,6 +88,7 @@ export function LeadProvider({
     [open, current, product, rt],
   );
   const isDay = current?.kind === 'day_tour';
+  const c = LEAD_COPY[leadLocale(locale)];
 
   return (
     <LeadContext.Provider value={value}>
@@ -99,16 +101,14 @@ export function LeadProvider({
         className="lead-modal"
         ariaLabelledby={headingId}
       >
-        <button type="button" className="lead-close" onClick={() => setCurrent(null)} aria-label="Close">
+        <button type="button" className="lead-close" onClick={() => setCurrent(null)} aria-label={c.close}>
           ×
         </button>
         <h2 id={headingId} className="lead-modal-title">
-          {isDay ? 'Check a date' : 'Get your free itinerary'}
+          {isDay ? c.dayTitle : c.tripTitle}
         </h2>
         <p className="lead-modal-sub">
-          {isDay
-            ? 'Tell us the day and how many of you. We confirm availability and the price by email, by 8 PM Cairo time the same day or by 10 AM the next morning.'
-            : 'Tell us your dates. We send back a day-by-day plan and a firm price, free and with no obligation.'}
+          {isDay ? c.dayIntro : c.tripIntro}
         </p>
         {current && (
           <LeadForm

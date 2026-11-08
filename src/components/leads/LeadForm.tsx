@@ -3,12 +3,14 @@
 import { useId, useMemo, useState, type FormEvent } from 'react';
 
 import { track } from '@/lib/analytics';
-import { convertPrice } from '@/lib/currency';
+import { convertPrice, formatConverted } from '@/lib/currency';
+import { useCurrency } from '@/lib/currency-context';
 import { WHATSAPP_LINK } from '@/lib/concierge/constants';
-import { BUDGET_BANDS, BUDGET_LABELS, DAY_BANDS, dayBandFor, type LeadSource } from '@/lib/leads/schema';
+import { BUDGET_BANDS, DAY_BANDS, dayBandFor, type LeadSource } from '@/lib/leads/schema';
 
 import { readUtm } from './utm';
 import { useLead } from './LeadProvider';
+import { LEAD_COPY, leadLocale, type LeadCopy } from './copy';
 
 /**
  * The short itinerary form (homepage rebuild, spec §9) — and, with
@@ -45,13 +47,13 @@ interface Props {
 
 type State = { phase: 'idle' | 'sending' } | { phase: 'done'; reference: string } | { phase: 'error'; message: string };
 
-function nextMonths(count: number): Array<{ value: string; label: string }> {
+function nextMonths(count: number, c: LeadCopy): Array<{ value: string; label: string }> {
   const out: Array<{ value: string; label: string }> = [];
   const d = new Date();
   d.setDate(1);
   for (let i = 0; i < count; i++) {
     const value = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}`;
-    out.push({ value, label: d.toLocaleString('en-GB', { month: 'long', year: 'numeric' }) });
+    out.push({ value, label: c.monthLabel(d) });
     d.setMonth(d.getMonth() + 1);
   }
   return out;
@@ -67,20 +69,24 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
   const isDay = kind === 'day_tour';
   const uid = useId();
   const id = (n: string) => `${uid}-${n}`;
-  const months = useMemo(() => nextMonths(18), []);
+  const L = leadLocale(locale);
+  const c = LEAD_COPY[L];
+  const months = useMemo(() => nextMonths(18, c), [c]);
+  const { currency } = useCurrency();
 
   const { responseTime } = useLead();
   const full = responseTime.full;
   const [exact, setExact] = useState(false);
   const [children, setChildren] = useState(0);
   const [adults, setAdults] = useState(2);
-  // Day-tour estimate: the product's own "from" price, converted to USD the
-  // same way the cards render it (convertPrice), times adults.
-  const unitUsd =
+  // Day-tour estimate: the product's own "from" price in the viewer's
+  // currency, converted the same way the cards render it, times adults.
+  const unitPrice =
     isDay && typeof prefill?.priceFromEur === 'number' && prefill.priceFromEur > 0
-      ? convertPrice(prefill.priceFromEur, 'USD')
+      ? convertPrice(prefill.priceFromEur, currency)
       : null;
-  const estimatedTotal = unitUsd ? unitUsd * adults : null;
+  const estimatedTotal = unitPrice ? unitPrice * adults : null;
+  const estimateLabel = estimatedTotal !== null ? formatConverted(estimatedTotal, currency, L) : '';
   const [state, setState] = useState<State>({ phase: 'idle' });
   const [fieldError, setFieldError] = useState<string | null>(null);
 
@@ -112,7 +118,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           children: get('children'),
           childAges: get('childAges'),
           estimatedTotal: estimatedTotal ?? undefined,
-          estimatedCurrency: estimatedTotal ? 'USD' : undefined,
+          estimatedCurrency: estimatedTotal ? currency : undefined,
           budget: isDay ? undefined : get('budget'),
           notes: get('notes'),
           tourSlug: prefill?.tourSlug,
@@ -139,26 +145,24 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           phase: 'error',
           message:
             data.field === 'email'
-              ? 'Please check your email address.'
+              ? c.errEmail
               : data.field === 'whatsapp'
-                ? 'Please check the WhatsApp number (digits, spaces and + only).'
+                ? c.errWhatsapp
                 : data.field === 'startDate'
-                  ? 'Please choose a date.'
-                  : 'Please check the dates.',
+                  ? c.errDate
+                  : c.errDates,
         });
         return;
       }
       setState({
         phase: 'error',
         message:
-          res.status === 429
-            ? 'We have already received several requests from this connection. Please message us on WhatsApp instead.'
-            : `Something went wrong sending your request. Please message us on WhatsApp. ${full}`.trim(),
+          res.status === 429 ? c.errRate : c.errGeneric(full),
       });
     } catch {
       setState({
         phase: 'error',
-        message: `We could not reach our server. Please message us on WhatsApp. ${full}`.trim(),
+        message: c.errNetwork(full),
       });
     }
   }
@@ -166,18 +170,17 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
   if (state.phase === 'done') {
     return (
       <div className={`lead-done lead-${tone}`} role="status">
-        <p className="lead-done-title">Thank you, we have your request.</p>
+        <p className="lead-done-title">{c.doneTitle}</p>
         <p>
-          A member of our Cairo planning team will reply by email
-          {isDay ? ' to confirm the date.' : ' with a day-by-day plan and a firm price.'} {full} Your reference is{' '}
-          <strong>{state.reference}</strong>.
+          {c.doneBody(isDay, full)} {c.doneRef} <strong>{state.reference}</strong>
+          {L === 'ja' ? '' : '.'}
         </p>
         <p>
-          Anything urgent?{' '}
+          {c.doneUrgent}{' '}
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
-            Message us on WhatsApp
-          </a>{' '}
-          and quote your reference.
+            {c.doneWhatsapp}
+          </a>{L === 'ja' ? '' : ' '}
+          {c.doneQuote}
         </p>
       </div>
     );
@@ -189,18 +192,20 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
     <form className={`lead-form lead-${tone}`} onSubmit={onSubmit} noValidate={false} aria-labelledby={headingId}>
       {prefill?.tourTitle && (
         <p className="lead-tour">
-          {isDay ? 'Day tour' : 'Starting from'}: <strong>{prefill.tourTitle}</strong>
+          {isDay ? c.tourLineDay(prefill.tourTitle) : c.tourLineTrip(prefill.tourTitle)}
+          {L === 'ja' ? '：' : ': '}
+          <strong>{prefill.tourTitle}</strong>
         </p>
       )}
 
       {isDay ? (
         <div className="lead-row">
           <div className="lead-field">
-            <label htmlFor={id('startDate')}>Date</label>
+            <label htmlFor={id('startDate')}>{c.date}</label>
             <input id={id('startDate')} name="startDate" type="date" required min={todayIso()} aria-invalid={invalid('startDate')} />
           </div>
           <div className="lead-field">
-            <label htmlFor={id('adults')}>Adults</label>
+            <label htmlFor={id('adults')}>{c.adults}</label>
             <select id={id('adults')} name="adults" value={adults} onChange={(e) => setAdults(Number(e.target.value))}>
               {Array.from({ length: 12 }, (_, i) => i + 1).map((n) => (
                 <option key={n} value={n}>
@@ -210,7 +215,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
             </select>
           </div>
           <div className="lead-field">
-            <label htmlFor={id('children')}>Children</label>
+            <label htmlFor={id('children')}>{c.children}</label>
             <select id={id('children')} name="children" value={children} onChange={(e) => setChildren(Number(e.target.value))}>
               {Array.from({ length: 7 }, (_, i) => i).map((n) => (
                 <option key={n} value={n}>
@@ -221,29 +226,29 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           </div>
           {children > 0 && (
             <div className="lead-field">
-              <label htmlFor={id('childAges')}>Ages</label>
-              <input id={id('childAges')} name="childAges" type="text" placeholder="e.g. 6, 11" maxLength={80} />
+              <label htmlFor={id('childAges')}>{c.childAges}</label>
+              <input id={id('childAges')} name="childAges" type="text" placeholder={c.childAgesPlaceholder} maxLength={80} />
             </div>
           )}
         </div>
       ) : (
         <>
           <fieldset className="lead-field">
-            <legend>When are you travelling?</legend>
+            <legend>{c.when}</legend>
             {exact ? (
               <div className="lead-row">
                 <div className="lead-field">
-                  <label htmlFor={id('startDate')}>Arrive</label>
+                  <label htmlFor={id('startDate')}>{c.arrive}</label>
                   <input id={id('startDate')} name="startDate" type="date" required min={todayIso()} />
                 </div>
                 <div className="lead-field">
-                  <label htmlFor={id('endDate')}>Leave</label>
+                  <label htmlFor={id('endDate')}>{c.leave}</label>
                   <input id={id('endDate')} name="endDate" type="date" min={todayIso()} aria-invalid={invalid('endDate')} />
                 </div>
               </div>
             ) : (
-              <select name="travelMonth" aria-label="Month" defaultValue={prefill?.travelMonth ?? ''}>
-                <option value="">Not decided yet</option>
+              <select name="travelMonth" aria-label={c.month} defaultValue={prefill?.travelMonth ?? ''}>
+                <option value="">{c.notDecided}</option>
                 {months.map((m) => (
                   <option key={m.value} value={m.value}>
                     {m.label}
@@ -252,39 +257,39 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
               </select>
             )}
             <label className="lead-check">
-              <input type="checkbox" checked={exact} onChange={(e) => setExact(e.target.checked)} /> I have exact dates
+              <input type="checkbox" checked={exact} onChange={(e) => setExact(e.target.checked)} /> {c.exactDates}
             </label>
           </fieldset>
 
           <div className="lead-row">
             <div className="lead-field">
-              <label htmlFor={id('days')}>How many days?</label>
+              <label htmlFor={id('days')}>{c.howManyDays}</label>
               <select id={id('days')} name="days" defaultValue={prefill?.days ?? dayBandFor(prefill?.durationDays)}>
-                <option value="">Not sure</option>
+                <option value="">{c.notSure}</option>
                 {DAY_BANDS.map((b) => (
                   <option key={b} value={b}>
-                    {b} days
+                    {c.dayBand[b]}
                   </option>
                 ))}
               </select>
             </div>
             <div className="lead-field">
-              <label htmlFor={id('budget')}>Budget per person</label>
+              <label htmlFor={id('budget')}>{c.budget}</label>
               <select id={id('budget')} name="budget" defaultValue="">
-                <option value="">Prefer not to say</option>
+                <option value="">{c.budgetNone}</option>
                 {BUDGET_BANDS.map((b) => (
                   <option key={b} value={b}>
-                    {BUDGET_LABELS[b]}
+                    {c.budgetBand[b]}
                   </option>
                 ))}
               </select>
-              <span className="lead-hint">Excluding international flights</span>
+              <span className="lead-hint">{c.budgetHint}</span>
             </div>
           </div>
 
           <div className="lead-row">
             <div className="lead-field">
-              <label htmlFor={id('adults')}>Adults</label>
+              <label htmlFor={id('adults')}>{c.adults}</label>
               <select id={id('adults')} name="adults" defaultValue="2">
                 {Array.from({ length: 12 }, (_, i) => i + 1).map((n) => (
                   <option key={n} value={n}>
@@ -294,7 +299,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
               </select>
             </div>
             <div className="lead-field">
-              <label htmlFor={id('children')}>Children</label>
+              <label htmlFor={id('children')}>{c.children}</label>
               <select
                 id={id('children')}
                 name="children"
@@ -310,8 +315,8 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
             </div>
             {children > 0 && (
               <div className="lead-field">
-                <label htmlFor={id('childAges')}>Their ages</label>
-                <input id={id('childAges')} name="childAges" type="text" placeholder="e.g. 6, 11" maxLength={80} />
+                <label htmlFor={id('childAges')}>{c.childAges}</label>
+                <input id={id('childAges')} name="childAges" type="text" placeholder={c.childAgesPlaceholder} maxLength={80} />
               </div>
             )}
           </div>
@@ -320,14 +325,14 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
 
       {isDay && estimatedTotal !== null && (
         <p className="lead-estimate" aria-live="polite">
-          Estimated: <strong>{'$' + estimatedTotal.toLocaleString('en-US')}</strong> for {adults} adult{adults === 1 ? '' : 's'}.
-          {children > 0 && " Children's prices are confirmed in our reply."}
+          <EstimateLine text={c.estimate('\u0000', adults)} total={estimateLabel} />
+          {children > 0 && ` ${c.childrenNote}`}
         </p>
       )}
 
       <div className="lead-row">
         <div className="lead-field">
-          <label htmlFor={id('email')}>Email</label>
+          <label htmlFor={id('email')}>{c.email}</label>
           <input
             id={id('email')}
             name="email"
@@ -339,7 +344,9 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
         </div>
         <div className="lead-field">
           <label htmlFor={id('whatsapp')}>
-            WhatsApp <span className="lead-optional">(optional)</span>
+            {c.whatsapp}
+            {L === 'ja' ? '' : ' '}
+            <span className="lead-optional">{c.optional}</span>
           </label>
           <input
             id={id('whatsapp')}
@@ -347,7 +354,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
             type="tel"
             autoComplete="tel"
             inputMode="tel"
-            placeholder="+44 7700 900123"
+            placeholder={c.whatsappPlaceholder}
             aria-invalid={invalid('whatsapp')}
           />
         </div>
@@ -355,7 +362,9 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
 
       <div className="lead-field">
         <label htmlFor={id('notes')}>
-          Anything we should know? <span className="lead-optional">(optional)</span>
+          {c.notes}
+          {L === 'ja' ? '' : ' '}
+          <span className="lead-optional">{c.optional}</span>
         </label>
         <textarea
           id={id('notes')}
@@ -363,7 +372,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           rows={3}
           maxLength={2000}
           defaultValue={prefill?.notes}
-          placeholder={isDay ? 'Hotel, pickup time, anything else' : 'Interests, must-sees, mobility'}
+          placeholder={isDay ? c.notesPlaceholderDay : c.notesPlaceholderTrip}
         />
       </div>
 
@@ -386,11 +395,21 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
       )}
 
       <button type="submit" className="lead-submit" disabled={state.phase === 'sending'}>
-        {state.phase === 'sending' ? 'Sending…' : isDay ? 'Check this date' : 'Send me my itinerary'}
+        {state.phase === 'sending' ? c.sending : isDay ? c.submitDay : c.submitTrip}
       </button>
-      <p className="lead-fine">
-        Free, no obligation. {full} We use your details only to answer this request.
-      </p>
+      <p className="lead-fine">{c.fine(full)}</p>
     </form>
+  );
+}
+
+/** "Estimated: <strong>$240</strong> for 2 adults." — the total is bolded wherever the language puts it. */
+function EstimateLine({ text, total }: { text: string; total: string }) {
+  const [before, after = ''] = text.split('\u0000');
+  return (
+    <>
+      {before}
+      <strong>{total}</strong>
+      {after}
+    </>
   );
 }

@@ -19,6 +19,7 @@ import {
   GUIDE_LINKS,
   STYLE_CARDS,
 } from './config';
+import { HOME_COPY, localHref, type HomeLocale } from './copy';
 import { DayToursTabs } from './DayToursTabs';
 import { QuickFinder } from './QuickFinder';
 import { TrackedLink } from './TrackedLink';
@@ -28,17 +29,15 @@ import '@/styles/tour-system.css';
 import '@/styles/home-sales.css';
 
 /**
- * English sales homepage (owner spec "Travel2Egypt homepage: proposed
- * rebuild", 2026-11-08). Jobs, in order: (1) a multi-day buyer finds a priced
- * trip and asks to customise it; (2) a day-tour buyer picks a city, sees
- * prices and requests a date; (3) a planner enters the guide and is pulled
- * back toward products.
+ * Sales homepage (owner spec "Travel2Egypt homepage: proposed rebuild",
+ * 2026-11-08; ES/JA from the owner's translations the same day). Jobs, in
+ * order: (1) a multi-day buyer finds a priced trip and asks to customise it;
+ * (2) a day-tour buyer picks a city, sees prices and requests a date; (3) a
+ * planner enters the guide and is pulled back toward products.
  *
- * English-first: ES/JA keep the editorial HomeView until two weeks of data
- * are in (spec build notes). Copy is in this file for that reason.
+ * Words come from ./copy.tsx, structure from ./config.ts, prices live from
+ * product data via <Price> (formatted per language and display currency).
  */
-
-const PRICE_BASIS = 'per person, 2 sharing, 4★/5★ hotels';
 
 function minEur(products: Array<SalesProduct | undefined>): number | null {
   const prices = products
@@ -47,71 +46,57 @@ function minEur(products: Array<SalesProduct | undefined>): number | null {
   return prices.length ? Math.min(...prices) : null;
 }
 
-function From({ eur, suffix }: { eur: number | null | undefined; suffix?: string }) {
-  if (!eur) return null;
-  return (
-    <>
-      from <Price eur={eur} />
-      {suffix ? ` ${suffix}` : ''}
-    </>
-  );
-}
+const price = (eur: number | null | undefined) => (eur ? <Price eur={eur} /> : null);
 
-function durationLabel(p: SalesProduct): string | null {
-  if (p.type === 'dayTour') {
-    if (!p.durationHours) return null;
-    return `${p.durationHours} hours`;
-  }
-  return p.durationDays ? `${p.durationDays} days` : null;
-}
-
-export function SalesHomeView({ data }: { data: SalesHomeData }) {
+export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: HomeLocale }) {
+  const c = HOME_COPY[locale];
   const bySlug = new Map(data.products.map((p) => [p.slug, p]));
   const featured = FEATURED_TOURS.map((f) => ({ ...f, p: bySlug.get(f.slug) })).filter(
     (f): f is typeof f & { p: SalesProduct } => Boolean(f.p),
   );
-  const cities = DAY_TOUR_CITIES.map((c) => {
-    const tours = c.tours
+  const cities = DAY_TOUR_CITIES.map((city) => {
+    const tours = city.tours
       .map((t) => ({ ...t, p: bySlug.get(t.slug) }))
       .filter((t): t is typeof t & { p: SalesProduct } => Boolean(t.p));
-    return { ...c, tours, fromEur: minEur(tours.map((t) => t.p)) };
-  }).filter((c) => c.tours.length > 0);
+    return { ...city, tours, fromEur: minEur(tours.map((t) => t.p)) };
+  }).filter((city) => city.tours.length > 0);
 
   const multiDayFrom = minEur(featured.map((f) => f.p));
-  const dayFrom = minEur(cities.map((c) => (c.fromEur ? ({ priceFrom: c.fromEur } as SalesProduct) : undefined)));
+  const dayFrom = minEur(cities.map((city) => (city.fromEur ? ({ priceFrom: city.fromEur } as SalesProduct) : undefined)));
   const cruise = bySlug.get(CRUISE_SLUG);
   const conciergeHref = isChatEnabled() ? '/plan-your-tour' : '/contact';
+  const durationLabel = (p: SalesProduct): string | null =>
+    p.type === 'dayTour' ? (p.durationHours ? c.hours(p.durationHours) : null) : p.durationDays ? c.days(p.durationDays) : null;
+  const formatLabel = (f: 'private' | 'group' | null) =>
+    f === 'private' ? c.dayTours.private : f === 'group' ? c.dayTours.smallGroup : null;
 
   return (
-    <div className="tour-doc lvl-home lvl-sales" lang="en">
+    <div className="tour-doc lvl-home lvl-sales" lang={locale}>
       {/* ── 1. HERO ─────────────────────────────────────────────── */}
       <header className="hero sales-hero">
         <div className="wrap">
           <div className="hero-grid">
             <div className="hero-copy">
-              <span className="kicker">Licensed Egyptian operator · Guiding since 1993</span>
-              <h1>Private Egypt tours, planned by the people who guide them.</h1>
-              <p className="sub">
-                Multi-day tours <From eur={multiDayFrom} /> and day tours <From eur={dayFrom} />, priced openly, built
-                around your dates, and run on the ground by our own Cairo team.
-              </p>
+              <span className="kicker">{c.hero.eyebrow}</span>
+              <h1>{c.hero.h1}</h1>
+              <p className="sub">{c.hero.sub(price(multiDayFrom), price(dayFrom))}</p>
               <div className="hero-cta">
                 <LeadButton source="home_hero" className="btn primary">
-                  Get my free itinerary <span className="cta-arrow" aria-hidden>→</span>
+                  {c.hero.primary} <span className="cta-arrow" aria-hidden>→</span>
                 </LeadButton>
                 <Link className="btn text" href="/egypt-travel-packages">
-                  Browse Egypt tours →
+                  {c.hero.secondary}
                 </Link>
               </div>
               <ul className="proof">
                 <li>
                   <a href={TRIPADVISOR_URL} target="_blank" rel="noopener noreferrer">
-                    <span aria-hidden>★</span> {TRIPADVISOR_RATING} on Tripadvisor ({TRIPADVISOR_REVIEW_COUNT} reviews)
+                    <span aria-hidden>★</span> {c.hero.tripadvisor(TRIPADVISOR_RATING, TRIPADVISOR_REVIEW_COUNT)}
                   </a>
                 </li>
-                {licenceShort(data.accreditations, 'en') && <li>{licenceShort(data.accreditations, 'en')}</li>}
+                {licenceShort(data.accreditations, locale) && <li>{licenceShort(data.accreditations, locale)}</li>}
                 {data.responseTime?.short && <li>{data.responseTime.short}</li>}
-                <li>About 230 private trips a year</li>
+                <li>{c.hero.trips}</li>
               </ul>
             </div>
             <figure className="hero-img">
@@ -126,7 +111,7 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
               {data.home?.heroCaption && <figcaption className="img-cap">{data.home.heroCaption}</figcaption>}
             </figure>
           </div>
-          <QuickFinder />
+          <QuickFinder locale={locale} />
         </div>
       </header>
 
@@ -136,69 +121,71 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
           <div className="wrap">
             <div className="sec-head">
               <div>
-                <span className="kicker">Egypt tours</span>
-                <h2 id="h-egypt-tours">Egypt tours to start with</h2>
+                <span className="kicker">{c.tours.eyebrow}</span>
+                <h2 id="h-egypt-tours">{c.tours.h2}</h2>
               </div>
-              <p className="lede">Every tour is private and can be changed: dates, hotels, pace and sites.</p>
+              <p className="lede">{c.tours.intro}</p>
             </div>
             <ul className="pcards">
-              {featured.map(({ slug, badge, route, p }) => (
-                <li className="pcard" key={slug}>
-                  <TrackedLink href={`/${slug}`} listName="home_egypt_tours" itemId={slug} className="pcard-img">
-                    <JourneyImage
-                      image={p.heroImage}
-                      alt={p.heroImage?.alt || p.title}
-                      className=""
-                      sizes="(max-width:620px) 85vw, (max-width:980px) 45vw, 380px"
-                      widthHint={760}
-                      ratio={3 / 2}
-                    />
-                    <span className="badge">{badge}</span>
-                  </TrackedLink>
-                  <div className="pcard-body">
-                    <h3>
-                      <TrackedLink href={`/${slug}`} listName="home_egypt_tours" itemId={slug}>
-                        {p.title}
-                      </TrackedLink>
-                    </h3>
-                    <p className="route">
-                      {durationLabel(p) && <span className="dur">{durationLabel(p)}</span>} {route}
-                    </p>
-                    {p.priceFrom ? (
-                      <p className="price">
-                        <span className="price-from">
-                          <From eur={p.priceFrom} />
-                        </span>
-                        <span className="price-basis">{PRICE_BASIS}</span>
+              {featured.map(({ slug, p }) => {
+                const card = c.tours.cards[slug];
+                const href = `/${p.href}`;
+                return (
+                  <li className="pcard" key={slug}>
+                    <TrackedLink href={href} listName="home_egypt_tours" itemId={slug} className="pcard-img">
+                      <JourneyImage
+                        image={p.heroImage}
+                        alt={p.heroImage?.alt || p.title}
+                        className=""
+                        sizes="(max-width:620px) 85vw, (max-width:980px) 45vw, 380px"
+                        widthHint={760}
+                        ratio={3 / 2}
+                      />
+                      {card?.badge && <span className="badge">{card.badge}</span>}
+                    </TrackedLink>
+                    <div className="pcard-body">
+                      <h3>
+                        <TrackedLink href={href} listName="home_egypt_tours" itemId={slug}>
+                          {p.title}
+                        </TrackedLink>
+                      </h3>
+                      <p className="route">
+                        {durationLabel(p) && <span className="dur">{durationLabel(p)}</span>} {card?.route}
                       </p>
-                    ) : (
-                      <p className="price">
-                        <span className="price-basis">Price on request</span>
-                      </p>
-                    )}
-                    <div className="pcard-actions">
-                      <TrackedLink href={`/${slug}`} listName="home_egypt_tours" itemId={slug} className="link">
-                        View tour
-                      </TrackedLink>
-                      <LeadButton
-                        source="tour_card"
-                        prefill={{ kind: 'trip', tourSlug: slug, tourTitle: p.title, durationDays: p.durationDays }}
-                        itemListName="home_egypt_tours"
-                        className="btn-outline"
-                      >
-                        Customise
-                      </LeadButton>
+                      {p.priceFrom ? (
+                        <p className="price">
+                          <span className="price-from">{c.from(price(p.priceFrom))}</span>
+                          <span className="price-basis">{c.tours.basis}</span>
+                        </p>
+                      ) : (
+                        <p className="price">
+                          <span className="price-basis">{c.priceOnRequest}</span>
+                        </p>
+                      )}
+                      <div className="pcard-actions">
+                        <TrackedLink href={href} listName="home_egypt_tours" itemId={slug} className="link">
+                          {c.tours.view}
+                        </TrackedLink>
+                        <LeadButton
+                          source="tour_card"
+                          prefill={{ kind: 'trip', tourSlug: slug, tourTitle: p.title, durationDays: p.durationDays }}
+                          itemListName="home_egypt_tours"
+                          className="btn-outline"
+                        >
+                          {c.tours.customise}
+                        </LeadButton>
+                      </div>
                     </div>
-                  </div>
-                </li>
-              ))}
+                  </li>
+                );
+              })}
             </ul>
             <p className="sec-more">
               <Link className="more" href="/egypt-travel-packages">
-                See all Egypt tours →
+                {c.tours.seeAll}
               </Link>
               <Link className="more" href="/small-group-travel-packages">
-                Small-group departures →
+                {c.tours.smallGroup}
               </Link>
             </p>
           </div>
@@ -209,31 +196,15 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
       <section className="sec warm promises" aria-labelledby="h-promises">
         <div className="wrap">
           <h2 id="h-promises" className="promises-title">
-            What you can count on
+            {c.promises.h2}
           </h2>
           <ul className="promise-grid">
-            <li>
-              <h3>The price before the conversation</h3>
-              <p>Every tour shows its starting price. Your quote lists every inclusion, with no surprises on arrival.</p>
-            </li>
-            <li>
-              <h3>A plan back by the next morning</h3>
-              <p>
-                Send your dates and we reply by 8 PM Cairo time the same day, or by 10 AM the next morning, seven days a
-                week, with a day-by-day itinerary and a firm price.
-              </p>
-            </li>
-            <li>
-              <h3>Licensed Egyptologist guides</h3>
-              <p>
-                Every private and small-group tour is guided by an Egyptologist licensed by the Ministry of Tourism, and
-                the team that plans your trip is the team that runs it.
-              </p>
-            </li>
-            <li>
-              <h3>People on the ground while you travel</h3>
-              <p>A Cairo team on WhatsApp from arrival to departure. If something goes wrong, we fix it the same day.</p>
-            </li>
+            {c.promises.items.map((item) => (
+              <li key={item.h3}>
+                <h3>{item.h3}</h3>
+                <p>{item.p}</p>
+              </li>
+            ))}
           </ul>
         </div>
       </section>
@@ -244,76 +215,76 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
           <div className="wrap">
             <div className="sec-head">
               <div>
-                <span className="kicker">Day tours</span>
-                <h2 id="h-day-tours">Day tours in Cairo, Luxor and Aswan</h2>
+                <span className="kicker">{c.dayTours.eyebrow}</span>
+                <h2 id="h-day-tours">{c.dayTours.h2}</h2>
               </div>
-              <p className="lede">
-                Private or small-group, with a licensed Egyptologist guide. Every tour lists exactly what&rsquo;s included.
-                Pick a date and we confirm it.
-              </p>
+              <p className="lede">{c.dayTours.intro}</p>
             </div>
             <DayToursTabs
-              tabs={cities.map((c) => ({
-                key: c.key,
-                label: c.label,
-                from: <From eur={c.fromEur} />,
+              label={c.dayTours.tabsLabel}
+              tabs={cities.map((city) => ({
+                key: city.key,
+                label: c.dayTours.cities[city.key]?.label ?? city.key,
+                from: c.from(price(city.fromEur)),
                 panel: (
                   <>
                     <ul className="dcards">
-                      {c.tours.map(({ slug, label, format, p }) => (
-                        <li className="dcard" key={slug}>
-                          <TrackedLink href={`/${slug}`} listName={`home_day_${c.key}`} itemId={slug} className="dcard-img">
-                            <JourneyImage
-                              image={p.heroImage}
-                              alt={p.heroImage?.alt || label}
-                              className=""
-                              sizes="(max-width:980px) 90vw, 380px"
-                              widthHint={700}
-                              ratio={16 / 10}
-                            />
-                          </TrackedLink>
-                          <div className="dcard-body">
-                            <p className="meta">
-                              {[format, p.type === 'dayTour' && p.durationHours ? `${p.durationHours} hours` : null]
-                                .filter(Boolean)
-                                .join(' · ')}
-                            </p>
-                            <h3>
-                              <TrackedLink href={`/${slug}`} listName={`home_day_${c.key}`} itemId={slug}>
-                                {label}
-                              </TrackedLink>
-                            </h3>
-                            <p className="price">
-                              {p.priceFrom ? (
-                                <span className="price-from">
-                                  <From eur={p.priceFrom} suffix="per person" />
-                                </span>
-                              ) : (
-                                <span className="price-basis">Price on request</span>
+                      {city.tours.map(({ slug, format, p }) => {
+                        const label = c.dayTours.labels[slug] ?? p.title;
+                        const href = `/${p.href}`;
+                        return (
+                          <li className="dcard" key={slug}>
+                            <TrackedLink href={href} listName={`home_day_${city.key}`} itemId={slug} className="dcard-img">
+                              <JourneyImage
+                                image={p.heroImage}
+                                alt={p.heroImage?.alt || label}
+                                className=""
+                                sizes="(max-width:980px) 90vw, 380px"
+                                widthHint={700}
+                                ratio={16 / 10}
+                              />
+                            </TrackedLink>
+                            <div className="dcard-body">
+                              <p className="meta">
+                                {[formatLabel(format), p.type === 'dayTour' && p.durationHours ? c.hours(p.durationHours) : null]
+                                  .filter(Boolean)
+                                  .join(' · ')}
+                              </p>
+                              <h3>
+                                <TrackedLink href={href} listName={`home_day_${city.key}`} itemId={slug}>
+                                  {label}
+                                </TrackedLink>
+                              </h3>
+                              <p className="price">
+                                {p.priceFrom ? (
+                                  <span className="price-from">{c.fromPerPerson(price(p.priceFrom))}</span>
+                                ) : (
+                                  <span className="price-basis">{c.priceOnRequest}</span>
+                                )}
+                              </p>
+                              {p.included && p.included.length > 0 && (
+                                <ul className="incl">
+                                  {p.included.slice(0, 3).map((x) => (
+                                    <li key={x}>{x}</li>
+                                  ))}
+                                </ul>
                               )}
-                            </p>
-                            {p.included && p.included.length > 0 && (
-                              <ul className="incl">
-                                {p.included.slice(0, 3).map((x) => (
-                                  <li key={x}>{x}</li>
-                                ))}
-                              </ul>
-                            )}
-                            <LeadButton
-                              source="day_tour_card"
-                              prefill={{ kind: 'day_tour', tourSlug: slug, tourTitle: p.title, priceFromEur: p.priceFrom }}
-                              itemListName={`home_day_${c.key}`}
-                              className="btn-outline"
-                            >
-                              Check this date
-                            </LeadButton>
-                          </div>
-                        </li>
-                      ))}
+                              <LeadButton
+                                source="day_tour_card"
+                                prefill={{ kind: 'day_tour', tourSlug: slug, tourTitle: p.title, priceFromEur: p.priceFrom }}
+                                itemListName={`home_day_${city.key}`}
+                                className="btn-outline"
+                              >
+                                {c.dayTours.check}
+                              </LeadButton>
+                            </div>
+                          </li>
+                        );
+                      })}
                     </ul>
                     <p className="sec-more">
-                      <Link className="more" href={c.href}>
-                        See all {c.label} day tours →
+                      <Link className="more" href={localHref(c, city.href)}>
+                        {c.dayTours.cities[city.key]?.seeAll}
                       </Link>
                     </p>
                   </>
@@ -329,60 +300,52 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
         <div className="wrap">
           <div className="sec-head">
             <div>
-              <span className="kicker">On the Nile</span>
-              <h2 id="h-cruises">Sail the Nile between Luxor and Aswan</h2>
+              <span className="kicker">{c.nile.eyebrow}</span>
+              <h2 id="h-cruises">{c.nile.h2}</h2>
             </div>
-            <p className="lede">Five-star cruise ships or small sailing dahabiyas. We only sell the boats we would put our own families on.</p>
+            <p className="lede">{c.nile.intro}</p>
           </div>
           <div className="boats">
             <article className="boat">
-              <h3>Nile cruise</h3>
+              <h3>{c.nile.ship.name}</h3>
               <dl>
-                <div><dt>What it is</dt><dd>A five-star ship with a pool</dd></div>
-                <div><dt>Nights</dt><dd>3 or 4</dd></div>
-                <div><dt>Best for</dt><dd>A first visit, families, value</dd></div>
+                <div><dt>{c.nile.rows.what}</dt><dd>{c.nile.ship.what}</dd></div>
+                <div><dt>{c.nile.rows.nights}</dt><dd>{c.nile.ship.nights}</dd></div>
+                <div><dt>{c.nile.rows.bestFor}</dt><dd>{c.nile.ship.bestFor}</dd></div>
                 <div>
-                  <dt>Starting at</dt>
+                  <dt>{c.nile.rows.from}</dt>
                   <dd>
-                    {cruise?.priceFrom ? (
-                      <>
-                        <strong><From eur={cruise.priceFrom} /></strong>
-                        {cruise.durationDays ? `, ${cruise.durationDays} days Aswan to Luxor` : ''}
-                      </>
-                    ) : (
-                      'Price on request'
-                    )}
+                    {cruise?.priceFrom
+                      ? c.nile.shipFrom(price(cruise.priceFrom), cruise.durationDays ?? null)
+                      : c.priceOnRequest}
                   </dd>
                 </div>
               </dl>
               <Link className="btn-outline" href="/nile-cruises?vessel=ship#cruise-ships">
-                Compare cruise ships →
+                {c.nile.ship.compare}
               </Link>
             </article>
             <article className="boat">
-              <h3>Dahabiya</h3>
+              <h3>{c.nile.dahabiya.name}</h3>
               <dl>
-                <div><dt>What it is</dt><dd>A small sailing boat with only a few cabins</dd></div>
-                <div><dt>Nights</dt><dd>4 to 7</dd></div>
-                <div><dt>Best for</dt><dd>Quiet, slow travel, couples</dd></div>
+                <div><dt>{c.nile.rows.what}</dt><dd>{c.nile.dahabiya.what}</dd></div>
+                <div><dt>{c.nile.rows.nights}</dt><dd>{c.nile.dahabiya.nights}</dd></div>
+                <div><dt>{c.nile.rows.bestFor}</dt><dd>{c.nile.dahabiya.bestFor}</dd></div>
                 <div>
-                  <dt>Starting at</dt>
+                  <dt>{c.nile.rows.from}</dt>
                   <dd>
                     {data.dahabiya ? (
-                      <>
-                        <TrackedLink href={`/${data.dahabiya.slug}`} listName="home_cruises" itemId={data.dahabiya.slug}>
-                          <strong><From eur={data.dahabiya.priceFrom} /></strong>
-                          {data.dahabiya.durationDays ? `, ${data.dahabiya.durationDays} days` : ''}
-                        </TrackedLink>
-                      </>
+                      <TrackedLink href={`/${data.dahabiya.href}`} listName="home_cruises" itemId={data.dahabiya.slug}>
+                        {c.nile.dahabiyaFrom(price(data.dahabiya.priceFrom), data.dahabiya.durationDays ?? null)}
+                      </TrackedLink>
                     ) : (
-                      'Price on request'
+                      c.priceOnRequest
                     )}
                   </dd>
                 </div>
               </dl>
               <Link className="btn-outline" href="/nile-cruises?vessel=dahabiya#dahabiyas">
-                Compare dahabiyas →
+                {c.nile.dahabiya.compare}
               </Link>
             </article>
           </div>
@@ -397,23 +360,21 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
         <div className="wrap">
           <div className="sec-head">
             <div>
-              <span className="kicker">Travel styles</span>
-              <h2 id="h-styles">Not sure which tour? Start with how you travel.</h2>
+              <span className="kicker">{c.styles.eyebrow}</span>
+              <h2 id="h-styles">{c.styles.h2}</h2>
             </div>
           </div>
           <ul className="styles">
             {STYLE_CARDS.map((s) => {
               const eur = s.priceSlug ? bySlug.get(s.priceSlug)?.priceFrom : s.ownerFromEur;
+              const card = c.styles.cards[s.href];
+              const href = localHref(c, s.href);
               return (
                 <li key={s.href}>
-                  <TrackedLink href={s.href} listName="home_styles" itemId={s.href} className="style">
-                    <h3>{s.title}</h3>
-                    <p>{s.line}</p>
-                    {eur ? (
-                      <span className="style-from">
-                        <From eur={eur} />
-                      </span>
-                    ) : null}
+                  <TrackedLink href={href} listName="home_styles" itemId={s.href} className="style">
+                    <h3>{card?.title}</h3>
+                    <p>{card?.line}</p>
+                    {eur ? <span className="style-from">{c.from(price(eur))}</span> : null}
                   </TrackedLink>
                 </li>
               );
@@ -426,17 +387,17 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
       <section className="sec warm" aria-labelledby="h-guide">
         <div className="wrap guide-teaser">
           <div>
-            <span className="kicker">Planning</span>
-            <h2 id="h-guide">Planning your Egypt trip</h2>
-            <p className="lede">Straight answers from the people who run the trips.</p>
+            <span className="kicker">{c.planning.eyebrow}</span>
+            <h2 id="h-guide">{c.planning.h2}</h2>
+            <p className="lede">{c.planning.intro}</p>
             <Link className="more" href="/guide">
-              Read the full Egypt travel guide →
+              {c.planning.readAll}
             </Link>
           </div>
           <ul className="guide-links">
             {GUIDE_LINKS.map((g) => (
               <li key={g.href}>
-                <Link href={g.href}>{g.title}</Link>
+                <Link href={localHref(c, g.href)}>{c.planning.links[g.href]}</Link>
               </li>
             ))}
           </ul>
@@ -447,22 +408,27 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
       <section className="plan sales-close" id="itinerary" aria-labelledby="h-close">
         <div className="wrap close-grid">
           <div>
-            <span className="kicker">Free itinerary</span>
-            <h2 id="h-close">Tell us your dates. We&rsquo;ll send a plan and a price.</h2>
-            <p className="sub">Free, with no obligation. {data.responseTime?.full}</p>
+            <span className="kicker">{c.close.eyebrow}</span>
+            <h2 id="h-close">{c.close.h2}</h2>
+            <p className="sub">
+              {c.close.free}
+              {locale === 'ja' ? '' : ' '}
+              {data.responseTime?.full}
+            </p>
             <ul className="close-alt">
               <li>
-                Prefer to chat?{' '}
+                {c.close.preferChat}
+                {locale === 'ja' ? '' : ' '}
                 <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
                   WhatsApp +20 155 177 2258
                 </a>
               </li>
               <li>
-                Still exploring? <Link href={conciergeHref}>Talk it through with our AI concierge →</Link>
+                {c.close.stillExploring} <Link href={conciergeHref}>{c.close.concierge}</Link>
               </li>
             </ul>
           </div>
-          <LeadForm source="home_footer" tone="dark" headingId="h-close" />
+          <LeadForm source="home_footer" tone="dark" headingId="h-close" locale={locale} />
         </div>
       </section>
     </div>

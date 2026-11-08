@@ -1,5 +1,7 @@
 'use client';
 
+import { useLocale } from 'next-intl';
+
 import { formatPrice } from '@/lib/currency';
 import { useCurrency } from '@/lib/currency-context';
 
@@ -10,6 +12,7 @@ import { useCurrency } from '@/lib/currency-context';
  */
 export function Price({ eur, unit }: { eur: number | null | undefined; unit?: string }) {
   const { currency } = useCurrency();
-  const s = formatPrice(eur, currency, unit);
+  const locale = useLocale();
+  const s = formatPrice(eur, currency, unit, locale);
   return s ? <>{s}</> : null;
 }

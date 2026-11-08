@@ -27,15 +27,15 @@ const COPY = {
   es: {
     private: 'Tour privado de un día', group: 'Tour de un día en grupo reducido', multi: 'Viaje de varios días',
     hours: (n: number) => `${n} horas`, days: (n: number) => `${n} días`,
-    from: 'desde', perPerson: 'por persona', basis: 'por persona, en habitación doble, hoteles 4★/5★',
-    check: 'Consultar fecha', customise: 'Personalizar', view: 'Ver el tour',
-    concierge: '¿Aún no lo tiene claro? Háblelo con nuestro concierge →',
+    from: 'desde', perPerson: 'por persona', basis: 'por persona, en habitación doble, hoteles de 4★/5★',
+    check: 'Consultar esta fecha', customise: 'Personalizar', view: 'Ver viaje',
+    concierge: '¿Aún no lo tienes claro? Háblalo con nuestro concierge →',
   },
   ja: {
     private: 'プライベート日帰りツアー', group: '少人数グループ日帰りツアー', multi: '周遊ツアー',
     hours: (n: number) => `${n}時間`, days: (n: number) => `${n}日間`,
-    from: '', perPerson: 'お一人様', basis: 'お一人様・2名1室・4★/5★ホテル',
-    check: '日程を確認', customise: 'カスタマイズ', view: 'ツアーを見る',
+    from: '', perPerson: '1名様あたり', basis: '2名1室利用時の1名様料金・4つ星／5つ星ホテル',
+    check: 'この日付で確認', customise: 'カスタマイズ', view: '詳細を見る',
     concierge: 'まだ迷っていますか？コンシェルジュに相談する →',
   },
 } as const;

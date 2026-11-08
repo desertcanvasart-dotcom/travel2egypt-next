@@ -100,7 +100,7 @@ export default async function LocaleLayout({
                   }}
                 />
                 {/* English-first: the itinerary bar ships with the EN sales nav. */}
-                {locale === 'en' && <MobileLeadBar />}
+                <MobileLeadBar />
                 <CookieConsent />
                 <Analytics locale={locale} />
               </LeadProvider>

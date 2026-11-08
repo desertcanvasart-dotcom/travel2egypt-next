@@ -10,8 +10,11 @@ import { useId, useRef, useState, type KeyboardEvent, type ReactNode } from 'rea
  */
 export function DayToursTabs({
   tabs,
+  label,
 }: {
   tabs: Array<{ key: string; label: string; from: ReactNode; panel: ReactNode }>;
+  /** Accessible name of the tab list ("Day tours by city"). */
+  label: string;
 }) {
   const [active, setActive] = useState(0);
   const base = useId();
@@ -31,7 +34,7 @@ export function DayToursTabs({
 
   return (
     <div className="dt-tabs">
-      <div role="tablist" aria-label="Day tours by city" className="dt-tablist">
+      <div role="tablist" aria-label={label} className="dt-tablist">
         {tabs.map((t, i) => (
           <button
             key={t.key}

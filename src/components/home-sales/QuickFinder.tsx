@@ -5,6 +5,8 @@ import { useState, type FormEvent } from 'react';
 import { useRouter } from '@/i18n/navigation';
 import { track } from '@/lib/analytics';
 
+import { HOME_COPY, localHref, type HomeLocale } from './copy';
+
 /**
  * Hero quick finder (spec §1): pure URL routing to existing listing pages —
  * no search backend. Multi-day + length → the packages page, which filters
@@ -19,7 +21,9 @@ const CITY_PATHS: Record<string, string> = {
   alexandria: '/alexandria-private-day-tours',
 };
 
-export function QuickFinder() {
+export function QuickFinder({ locale }: { locale: HomeLocale }) {
+  const c = HOME_COPY[locale];
+  const f = c.finder;
   const router = useRouter();
   const [what, setWhat] = useState<'tour' | 'day' | 'cruise'>('tour');
 
@@ -37,44 +41,46 @@ export function QuickFinder() {
       href = '/nile-cruises';
     }
     track('select_item', { item_list_name: 'quick_finder', item_id: href });
-    router.push(href);
+    router.push(localHref(c, href));
   }
 
   return (
-    <form className="qf" onSubmit={onSubmit} aria-label="Find a tour">
+    <form className="qf" onSubmit={onSubmit} aria-label={f.label}>
       <label className="qf-field">
-        <span>I want</span>
+        <span>{f.want}</span>
         <select value={what} onChange={(e) => setWhat(e.target.value as typeof what)}>
-          <option value="tour">A multi-day tour</option>
-          <option value="day">A day tour</option>
-          <option value="cruise">A Nile cruise</option>
+          <option value="tour">{f.tour}</option>
+          <option value="day">{f.day}</option>
+          <option value="cruise">{f.cruise}</option>
         </select>
       </label>
       {what === 'tour' && (
         <label className="qf-field">
-          <span>for</span>
+          <span>{f.lengthLabel}</span>
           <select name="length" defaultValue="6-9">
-            <option value="">Any length</option>
-            <option value="3-5">3–5 days</option>
-            <option value="6-9">6–9 days</option>
-            <option value="10-14">10–14 days</option>
-            <option value="15+">15+ days</option>
+            <option value="">{f.anyLength}</option>
+            {(['3-5', '6-9', '10-14', '15+'] as const).map((b) => (
+              <option key={b} value={b}>
+                {f.lengths[b]}
+              </option>
+            ))}
           </select>
         </label>
       )}
       {what === 'day' && (
         <label className="qf-field">
-          <span>in</span>
+          <span>{f.cityLabel}</span>
           <select name="city" defaultValue="cairo">
-            <option value="cairo">Cairo &amp; Giza</option>
-            <option value="luxor">Luxor</option>
-            <option value="aswan">Aswan &amp; Abu Simbel</option>
-            <option value="alexandria">Alexandria</option>
+            {(['cairo', 'luxor', 'aswan', 'alexandria'] as const).map((k) => (
+              <option key={k} value={k}>
+                {c.dayTours.cities[k].label}
+              </option>
+            ))}
           </select>
         </label>
       )}
       <button type="submit" className="qf-go">
-        Show tours
+        {f.go}
       </button>
     </form>
   );

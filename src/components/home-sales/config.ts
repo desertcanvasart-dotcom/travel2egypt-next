@@ -1,6 +1,7 @@
 /**
- * English sales homepage (owner spec, 2026-11-08) — which products appear,
- * in what order, with what badge and route line.
+ * Sales homepage (owner spec, 2026-11-08) — which products appear and in what
+ * order, shared by EN/ES/JA. The words (badges, route lines, card names) are
+ * per language in ./copy.tsx, keyed by the EN slug / EN href used here.
  *
  * PRICES ARE NEVER TYPED HERE. Every "from" price is read live from the
  * product document (`priceFrom`, EUR, rendered by <Price>), per Content
@@ -15,68 +16,62 @@
  */
 
 export interface FeaturedTour {
+  /** EN slug — the product's stable key. */
   slug: string;
-  badge: string;
-  route: string;
 }
 
 export const FEATURED_TOURS: FeaturedTour[] = [
-  { slug: 'epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs', badge: 'First visit', route: 'Cairo · Nile cruise · Luxor · Aswan' },
-  { slug: '10-days-nile-dreamer-tour-experience', badge: 'The full Nile', route: 'Cairo · sleeper train · 3-night cruise · Luxor' },
-  { slug: '10-day-egypt-travel-journey-through-history', badge: 'With Abu Simbel & Alexandria', route: 'Cairo · Alexandria · Luxor · Aswan · Abu Simbel' },
-  { slug: '9-day-classic-egypt-family-adventure', badge: 'Families', route: 'Cairo · Nile cruise · Aswan, paced for children' },
-  { slug: '10-day-nile-and-western-desert-tour', badge: 'Nile & desert', route: 'Cairo · Bahariya · White Desert · the Nile' },
-  { slug: '4-day-history-culture-escape', badge: 'Short on time', route: 'Pyramids · Grand Egyptian Museum · Old Cairo' },
+  { slug: 'epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs' },
+  { slug: '10-days-nile-dreamer-tour-experience' },
+  { slug: '10-day-egypt-travel-journey-through-history' },
+  { slug: '9-day-classic-egypt-family-adventure' },
+  { slug: '10-day-nile-and-western-desert-tour' },
+  { slug: '4-day-history-culture-escape' },
 ];
 
 export interface DayTourCity {
   key: string;
-  label: string;
-  /** City landing ("See all … day tours →"). */
+  /** City landing ("See all … day tours →"), EN path; copy.hrefs localizes it. */
   href: string;
-  tours: Array<{ slug: string; label: string; format: 'Private' | 'Small group' | null }>;
+  tours: Array<{ slug: string; format: 'private' | 'group' | null }>;
 }
 
 export const DAY_TOUR_CITIES: DayTourCity[] = [
   {
     key: 'cairo',
-    label: 'Cairo & Giza',
     href: '/cairo-private-day-tours',
     tours: [
-      { slug: 'pyramids-of-giza-and-grand-egyptian-museum', label: 'Giza Pyramids & the Grand Egyptian Museum', format: 'Private' },
-      { slug: 'private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara', label: 'Giza, Memphis & Saqqara', format: 'Private' },
-      { slug: 'pyramids-of-giza-and-sphinx-group-day-tour', label: 'The Pyramids & the Sphinx', format: 'Small group' },
+      { slug: 'pyramids-of-giza-and-grand-egyptian-museum', format: 'private' },
+      { slug: 'private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara', format: 'private' },
+      { slug: 'pyramids-of-giza-and-sphinx-group-day-tour', format: 'group' },
     ],
   },
   {
     key: 'luxor',
-    label: 'Luxor',
     href: '/luxor-private-day-tours',
     tours: [
-      { slug: 'day-tour-to-karnak-luxor-temples-luxor-museum', label: 'Karnak, Luxor Temple & the Luxor Museum', format: 'Private' },
-      { slug: 'grand-west-bank-group-day-tour-luxor', label: 'The Grand West Bank', format: 'Small group' },
-      { slug: 'skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience', label: 'Luxor sunrise balloon', format: null },
+      { slug: 'day-tour-to-karnak-luxor-temples-luxor-museum', format: 'private' },
+      { slug: 'grand-west-bank-group-day-tour-luxor', format: 'group' },
+      { slug: 'skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience', format: null },
     ],
   },
   {
     key: 'aswan',
-    label: 'Aswan & Abu Simbel',
     href: '/aswan-private-day-tours',
     tours: [
-      { slug: 'private-tour-abu-simble-by-bus-from-aswan', label: 'Abu Simbel by car from Aswan', format: 'Private' },
-      { slug: 'nubian-temples-day-tour-from-aswan', label: 'Nubian temples: Kalabsha & Beit el-Wali', format: null },
-      { slug: 'aswan-felucca-adventure', label: 'Felucca sail with a Nile-side lunch', format: null },
+      { slug: 'private-tour-abu-simble-by-bus-from-aswan', format: 'private' },
+      { slug: 'nubian-temples-day-tour-from-aswan', format: null },
+      { slug: 'aswan-felucca-adventure', format: null },
     ],
   },
   {
     key: 'alexandria',
-    label: 'Alexandria',
     href: '/alexandria-private-day-tours',
     tours: [
       // Stored as a 2-day package (slug says 2-day; the page is one day) — the
       // card shows no duration until the product data is corrected.
-      { slug: '2-day-pyramids-mediterranean-tour', label: 'Alexandria in a day: catacombs & the coast', format: 'Private' },
-      { slug: 'alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo', label: 'Alexandria from Cairo', format: 'Small group' },
+      { slug: '2-day-pyramids-mediterranean-tour', format: 'private' },
+      { slug: 'alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo', format: 'group' },
     ],
   },
 ];
@@ -85,8 +80,7 @@ export const DAY_TOUR_CITIES: DayTourCity[] = [
 export const CRUISE_SLUG = '4-days-cruise-from-aswan-to-luxor';
 
 export interface StyleCard {
-  title: string;
-  line: string;
+  /** EN journey path — the card's key in copy.tsx; copy.hrefs localizes it. */
   href: string;
   /** Product whose live price is the card's "from"… */
   priceSlug?: string;
@@ -98,19 +92,20 @@ export interface StyleCard {
 export const OWNER_FROM_EUR = { cultural: 1200, comingBack: 1200 } as const;
 
 export const STYLE_CARDS: StyleCard[] = [
-  { title: 'First time in Egypt', line: 'Cairo, a Nile cruise, Luxor and Aswan: the essential story without rushing.', href: '/journeys/first-time-in-egypt', priceSlug: 'epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs' },
-  { title: 'The cultural traveller', line: 'Islamic and Coptic Cairo, Abydos, Nubian Aswan, the monasteries.', href: '/journeys/the-cultural-traveller', ownerFromEur: OWNER_FROM_EUR.cultural },
-  { title: 'Travelling as a family', line: 'Hotels with pools, shorter days, guides who know children.', href: '/journeys/travelling-as-a-family', priceSlug: 'cairo-and-alexandria-4-days-family-package' },
-  { title: 'Desert & quiet', line: 'Bahariya, the White Desert and Fayoum.', href: '/journeys/desert-and-quiet', priceSlug: '4-days-white-desert-wadi-al-hittan-exploration' },
-  { title: 'Luxury hotels & boats', line: 'Mena House, top-tier Nile ships and dahabiyas, private throughout.', href: '/journeys/travelling-in-style', priceSlug: 'marriott-mena-house-4-days-stay' },
-  { title: 'Coming back', line: 'Middle Egypt, Alexandria, the oases: the sites a first trip leaves out.', href: '/journeys/coming-back', ownerFromEur: OWNER_FROM_EUR.comingBack },
+  { href: '/journeys/first-time-in-egypt', priceSlug: 'epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs' },
+  { href: '/journeys/the-cultural-traveller', ownerFromEur: OWNER_FROM_EUR.cultural },
+  { href: '/journeys/travelling-as-a-family', priceSlug: 'cairo-and-alexandria-4-days-family-package' },
+  { href: '/journeys/desert-and-quiet', priceSlug: '4-days-white-desert-wadi-al-hittan-exploration' },
+  { href: '/journeys/travelling-in-style', priceSlug: 'marriott-mena-house-4-days-stay' },
+  { href: '/journeys/coming-back', ownerFromEur: OWNER_FROM_EUR.comingBack },
 ];
 
-export const GUIDE_LINKS: Array<{ title: string; href: string }> = [
-  { title: 'How many days do you need in Egypt?', href: '/blog/the-best-egypt-travel-itineraries' },
-  { title: 'Best time to visit Egypt, month by month', href: '/travel-tips/egypt-weather-guide' },
-  { title: 'What the sites cost to enter', href: '/travel-tips/attractions-entrance-fees' },
-  { title: 'Cruise ship or dahabiya: which is for you?', href: '/nile-cruises' },
+/** EN paths; titles per language in copy.tsx, localized paths in copy.hrefs. */
+export const GUIDE_LINKS: Array<{ href: string }> = [
+  { href: '/blog/the-best-egypt-travel-itineraries' },
+  { href: '/travel-tips/egypt-weather-guide' },
+  { href: '/travel-tips/attractions-entrance-fees' },
+  { href: '/nile-cruises' },
 ];
 
 /** Every product slug the page needs, for one batched query. */

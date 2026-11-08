@@ -64,8 +64,10 @@ export interface LeadInput {
   tourTitle: string | null;
   pagePath: string | null;
   utm: Record<string, string>;
-  /** Day-tour estimate shown to the visitor (USD), if any. */
+  /** Day-tour estimate shown to the visitor, if any, in `estimatedCurrency`. */
   estimatedTotal: number | null;
+  /** ISO code of the estimate (the viewer's display currency); USD when absent. */
+  estimatedCurrency: string | null;
 }
 
 export type LeadValidation =
@@ -170,8 +172,12 @@ export function normalizeLead(body: unknown): LeadValidation {
       pagePath: pagePath && pagePath.startsWith('/') ? pagePath : null,
       utm,
       estimatedTotal:
-        typeof b.estimatedTotal === 'number' && Number.isFinite(b.estimatedTotal) && b.estimatedTotal > 0 && b.estimatedTotal < 1_000_000
+        typeof b.estimatedTotal === 'number' && Number.isFinite(b.estimatedTotal) && b.estimatedTotal > 0 && b.estimatedTotal < 100_000_000
           ? Math.round(b.estimatedTotal)
+          : null,
+      estimatedCurrency:
+        typeof b.estimatedCurrency === 'string' && /^(EUR|USD|GBP|AUD|CAD|JPY)$/.test(b.estimatedCurrency)
+          ? b.estimatedCurrency
           : null,
     },
   };

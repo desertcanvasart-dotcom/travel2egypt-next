@@ -154,3 +154,7 @@
   .lvl-sales .boat dl > div { grid-template-columns: 1fr; gap: 4px; }
   .lvl-sales .proof { gap: 8px 18px; font-size: 13.5px; }
 }
+
+/* JA (2026-11-08): the Latin hero size sets a 30-character CJK headline in
+   five lines on a phone; CJK glyphs are wider per character, so step it down. */
+html[lang='ja'] .lvl-sales .sales-hero h1 { font-size: clamp(30px, 3.6vw, 50px); }
