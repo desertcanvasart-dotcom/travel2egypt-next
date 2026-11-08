@@ -3,6 +3,7 @@
 import { useState } from 'react';
 
 import { useTranslations } from 'next-intl';
+import { track } from '@/lib/analytics';
 
 import { Link } from '@/i18n/navigation';
 import { whatsappUrl } from '@/lib/concierge/constants';
@@ -113,6 +114,7 @@ export function EscapeHatch({
         setSending(false);
         return;
       }
+      track('concierge_handoff_sent', { locale, with_email: Boolean(email.trim()) });
       setView('forwarded');
     } catch {
       setError(true);

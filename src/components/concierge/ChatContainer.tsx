@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 import { useFormatter, useTranslations } from 'next-intl';
+import { track } from '@/lib/analytics';
 
 import { renderAgentMarkdown } from '@/lib/concierge/markdown';
 import { whatsappUrl } from '@/lib/concierge/constants';
@@ -287,6 +288,9 @@ export function ChatContainer({
             briefDetected?: boolean;
           };
           if (event.type === 'start' && event.conversationId) {
+            if (!conversationId) {
+              track('concierge_chat_start', { locale, ...(tourSlug ? { tour: tourSlug } : {}) });
+            }
             doneConversationId = event.conversationId;
             setConversationId(event.conversationId);
             if (event.sessionRef) setSessionRef(event.sessionRef);
@@ -339,6 +343,8 @@ export function ChatContainer({
   }
 
   // ── Gate 2: confirm + load the brief, or suppress for a few turns ─────
+  // One brief_complete per conversation — revisions re-confirm, not re-convert.
+  const briefTrackedRef = useRef<Set<string>>(new Set());
   async function fetchBrief(convId: string) {
     if (briefFetchingRef.current) return;
     briefFetchingRef.current = true;
@@ -354,6 +360,10 @@ export function ChatContainer({
       }
       const data = (await res.json()) as BriefResponse;
       if (data.complete && data.payload) {
+        if (!briefTrackedRef.current.has(convId)) {
+          briefTrackedRef.current.add(convId);
+          track('concierge_brief_complete', { locale, ...(tourSlug ? { tour: tourSlug } : {}) });
+        }
         setBrief(data.payload);
         setBriefDismissed(false);
       } else {
