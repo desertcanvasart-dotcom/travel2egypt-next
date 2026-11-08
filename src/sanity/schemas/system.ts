@@ -12,7 +12,7 @@ export const trustBadgeSchema = defineType({
   title: 'Trust badge',
   type: 'document',
   icon: StarIcon,
-  description: 'JATA, IATA, ASTA, TripAdvisor, Kayak, "30+ Years" — the badges that anchor trust strips.',
+  description: 'IATA, ETAA, TripAdvisor, Kayak, "30+ Years" — the badges that anchor trust strips.',
   fields: [
     defineField({
       name: 'name',
