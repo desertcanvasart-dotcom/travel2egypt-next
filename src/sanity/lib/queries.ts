@@ -821,6 +821,8 @@ const cruiseCardProjection = (locale: Locale) => `
   poweredBy,
   durationNights,
   cruiseRoute,
+  "departureCityName": departureCity->{ "n": ${localizedField('name', locale)} }.n,
+  "returnCityName": returnCity->{ "n": ${localizedField('name', locale)} }.n,
   "name": ${localizedField('name', locale)},
   "slug": ${localizedSlug('slug', locale)},
   "allSlugs": slug[]{ _key, "current": value.current },

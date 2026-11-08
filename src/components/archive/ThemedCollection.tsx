@@ -13,13 +13,16 @@ export function ThemedCollection({
   kicker,
   collection,
   itemNoun,
+  countLabel,
 }: {
   kicker: string;
   collection: ArchiveCollection;
   /** Pluralized noun for the meta line, e.g. "properties" / "tours". */
   itemNoun: string;
+  /** Preformatted count ("1 cruise"); falls back to `${count} ${itemNoun}`. */
+  countLabel?: string;
 }) {
-  const { title, intro, variant, items } = collection;
+  const { title, intro, variant, items, anchorId } = collection;
   if (items.length === 0) return null;
 
   const places = Array.from(
@@ -44,7 +47,7 @@ export function ThemedCollection({
   };
 
   return (
-    <div className="mb-24 md:mb-28">
+    <div id={anchorId} className="mb-24 md:mb-28" style={anchorId ? { scrollMarginTop: 96 } : undefined}>
       <div className="mb-12 grid grid-cols-1 items-end gap-8 lg:grid-cols-[1fr_1.6fr] lg:gap-16">
         <div>
           <p className="font-sans text-xs font-medium uppercase tracking-[0.2em] text-gold-ink">
@@ -62,7 +65,7 @@ export function ThemedCollection({
           )}
           <p className="mt-4 flex flex-wrap gap-x-5 gap-y-1 font-sans text-[0.6875rem] uppercase tracking-[0.14em] text-night-soft">
             <span>
-              {items.length} {itemNoun}
+              {countLabel ?? `${items.length} ${itemNoun}`}
             </span>
             {places.length > 0 && <span>{places.join(' · ')}</span>}
           </p>

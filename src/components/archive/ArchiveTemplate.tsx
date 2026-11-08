@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import { Suspense, type ReactNode } from 'react';
 
 import { Breadcrumb, type BreadcrumbCrumb } from '@/components/Breadcrumb';
 import { ConciergeCTA } from '@/components/ConciergeCTA';
@@ -44,12 +44,16 @@ export interface ArchiveTemplateProps {
   };
   /** Pluralized item noun for collection meta lines, e.g. "properties". */
   itemNoun: string;
+  /** Optional count-aware meta label, e.g. (n) => "1 cruise" / "3 cruises". Overrides `${n} ${itemNoun}`. */
+  itemCountLabel?: (n: number) => string;
   /** Fallback kicker for a collection with no kicker set, given its 1-based index. */
   collectionKicker: (n: number) => string;
   conciergeContextLabel: string;
   footBand: FootBandProps;
   /** Optional ids placed just above the index, for deep links into it. */
   indexAnchors?: string[];
+  /** Replaces the shared ConciergeCTA band (e.g. the Nile Cruises plan block). */
+  closing?: ReactNode;
 }
 
 /**
@@ -69,10 +73,12 @@ export function ArchiveTemplate({
   navigator,
   index,
   itemNoun,
+  itemCountLabel,
   collectionKicker,
   conciergeContextLabel,
   footBand,
   indexAnchors,
+  closing,
 }: ArchiveTemplateProps) {
   const hasEssay = essay?.body && (!Array.isArray(essay.body) || essay.body.length > 0);
 
@@ -110,6 +116,7 @@ export function ArchiveTemplate({
               kicker={collection.kicker || collectionKicker(i + 1)}
               collection={collection}
               itemNoun={itemNoun}
+              countLabel={itemCountLabel?.(collection.items.length)}
             />
           ))}
         </div>
@@ -145,7 +152,9 @@ export function ArchiveTemplate({
         </Suspense>
       </div>
 
-      <ConciergeCTA chatEnabled={isChatEnabled()} variant="compact" contextLabel={conciergeContextLabel} />
+      {closing ?? (
+        <ConciergeCTA chatEnabled={isChatEnabled()} variant="compact" contextLabel={conciergeContextLabel} />
+      )}
       <ArticleFootBand {...footBand} />
       <FloatingConcierge />
     </>

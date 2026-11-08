@@ -43,6 +43,11 @@ export function FacetBadgeLine({
   );
 }
 
+/** The one-line comparison detail (nights · stretch · price) under the facets. */
+export function ItemDetail({ detail, className = '' }: { detail: string; className?: string }) {
+  return <p className={`font-sans text-[0.8125rem] text-night-soft ${className}`}>{detail}</p>;
+}
+
 interface Props {
   item: ArchiveItem;
   /** Card scale within a collection grid. */
@@ -77,6 +82,7 @@ export function ArchiveCard({ item, size = 'default' }: Props) {
         )}
       </div>
       <FacetBadgeLine facets={item.facets} className="mb-2.5" />
+      {item.detail && <ItemDetail detail={item.detail} className="-mt-1 mb-2.5" />}
       <h4
         className={`mb-2 font-serif font-normal leading-tight text-night ${
           size === 'lead' ? 'text-3xl' : 'text-2xl'

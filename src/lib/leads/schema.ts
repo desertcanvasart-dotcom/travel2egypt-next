@@ -16,6 +16,7 @@ export const LEAD_SOURCES = [
   'tour_card',
   'day_tour_card',
   'quick_finder',
+  'nile_cruises',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];
 
