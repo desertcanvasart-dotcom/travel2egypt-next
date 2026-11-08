@@ -55,7 +55,12 @@ export type AnalyticsEvent =
   | 'select_item'
   // Sticky bar (fix round 1): contact {method, location}, form_open {location}
   | 'contact'
-  | 'form_open';
+  | 'form_open'
+  // Plan page rebuild (2026-11-08): view_plan_page {entry_tour, default_view},
+  // select_plan_option {option}, concierge_open (first time card 3 is chosen)
+  | 'view_plan_page'
+  | 'select_plan_option'
+  | 'concierge_open';
 
 type Params = Record<string, string | number | boolean | undefined>;
 

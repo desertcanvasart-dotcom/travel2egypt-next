@@ -28,10 +28,15 @@ export function MobileLeadBar() {
   const c = LEAD_COPY[locale];
   const { open, isOpen: dialogOpen, product } = useLead();
   const { isOpen: cookieOpen } = useConsent();
-  const [formInView, setFormInView] = useState(false);
+  // Start hidden; the first check (after layout) decides.
+  const [formInView, setFormInView] = useState(true);
 
   const isHome = pathname === '/';
-  const eligible = isHome || product !== null;
+  const isPlan = pathname === '/plan-your-tour';
+  // The inline form the bar must not cover: the homepage's #itinerary, the
+  // plan page's #plan-form.
+  const inlineFormId = isHome ? 'itinerary' : isPlan ? 'plan-form' : null;
+  const eligible = isHome || isPlan || product !== null;
 
   // Hide while the homepage's inline form (#itinerary) is on screen. A plain
   // passive scroll/resize check (one getBoundingClientRect per event) rather
@@ -39,24 +44,34 @@ export function MobileLeadBar() {
   // by a throttled or backgrounded renderer. React bails out of re-renders
   // when the boolean doesn't change.
   useEffect(() => {
-    if (!isHome) {
+    if (!inlineFormId) {
       setFormInView(false);
       return;
     }
     const check = () => {
-      const el = document.getElementById('itinerary');
-      if (!el) return;
+      const el = document.getElementById(inlineFormId);
+      if (!el || el.hidden) {
+        // Plan page with the concierge open: keep the bar off its input.
+        setFormInView(isPlan);
+        return;
+      }
       const r = el.getBoundingClientRect();
       setFormInView(r.top < window.innerHeight && r.bottom > 0);
     };
     check();
+    // Layout (fonts, images, the plan page's client view) settles after mount.
+    const late = window.setTimeout(check, 400);
     window.addEventListener('scroll', check, { passive: true });
     window.addEventListener('resize', check);
+    // The plan page swaps form/concierge without scrolling.
+    window.addEventListener('t2e:plan-view', check);
     return () => {
       window.removeEventListener('scroll', check);
       window.removeEventListener('resize', check);
+      window.removeEventListener('t2e:plan-view', check);
+      window.clearTimeout(late);
     };
-  }, [isHome]);
+  }, [inlineFormId, isPlan]);
 
   const visible = eligible && !dialogOpen && !formInView && !cookieOpen;
 

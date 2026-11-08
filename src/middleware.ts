@@ -24,6 +24,9 @@ async function handleResume(request: NextRequest): Promise<NextResponse | null> 
 
   const clean = request.nextUrl.clone();
   clean.searchParams.delete('resume');
+  // The plan page opens on the itinerary form; a resume link belongs to the
+  // concierge, so land on that option (2026-11-08 plan page rebuild).
+  clean.hash = 'concierge';
 
   const cookieId = await verifyResumeToken(token);
   if (!cookieId) {
