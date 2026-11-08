@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { RelatedToursBlock } from '@/components/related-tours/RelatedToursBlock';
+import { fallbackTours, splitAfterSection, type ArticleTour } from '@/lib/articleTours';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
@@ -41,7 +43,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     slug,
   });
   if (!article) return {};
-  return buildMetadata(article, {
+  // Round 3, Task B: meta = seoDescription → seo.metaDescription → summary.
+  return buildMetadata({ ...article, seo: { ...(article.seo ?? {}), metaDescription: article.seoDescription || article.seo?.metaDescription || undefined } }, {
     locale: locale as Locale,
     path: `/guide/${citySlug}/${slug}`,
     // Each locale's alternate uses that locale's city slug AND article slug —
@@ -199,6 +202,18 @@ export default async function GuideArticlePage({ params }: Props) {
     locale as Locale,
   );
 
+  // Round 3, Task C: priced tour blocks (inline only when hand-set).
+  const inlineTours: ArticleTour[] = article.inlineTours ?? [];
+  const endTours: ArticleTour[] =
+    article.endTours && article.endTours.length > 0
+      ? article.endTours
+      : await fallbackTours({
+          cityIds: article.parentCity?._id ? [article.parentCity._id] : [],
+          locale,
+          articleTopic: `${article.title ?? ''} ${article.slug ?? ''}`,
+          excludeIds: inlineTours.map((t) => t._id),
+        });
+
   return (
     <article>
       <JsonLd data={[guideArticleSchema, breadcrumbSchema]} />
@@ -254,9 +269,9 @@ export default async function GuideArticlePage({ params }: Props) {
             <h1 className="mb-6 font-serif text-5xl font-medium leading-tight text-ink md:text-6xl">
               {article.title}
             </h1>
-            {article.summary && (
+            {(article.dek || article.summary) && (
               <p className="mb-10 font-serif text-2xl italic leading-relaxed text-ink-soft">
-                {article.summary}
+                {article.dek || article.summary}
               </p>
             )}
             {(() => {
@@ -323,6 +338,23 @@ export default async function GuideArticlePage({ params }: Props) {
                   </div>
                 );
               }
+              const inlineSplit =
+                inlineTours.length > 0 ? splitAfterSection(article.body, article.inlineAfterHeading) : null;
+              if (inlineSplit) {
+                return (
+                  <div className="prose-editorial max-w-none">
+                    <Body value={inlineSplit[0]} locale={locale as Locale} />
+                    <RelatedToursBlock
+                      variant="inline"
+                      heading={article.inlineHeading || ''}
+                      products={inlineTours}
+                      locale={locale}
+                      articleSlug={`guide/${citySlug}/${article.slug}`}
+                    />
+                    <Body value={inlineSplit[1]} locale={locale as Locale} />
+                  </div>
+                );
+              }
               return article.body ? (
                 <div className="prose-editorial max-w-none">
                   <Body value={article.body} locale={locale as Locale} />
@@ -342,6 +374,21 @@ export default async function GuideArticlePage({ params }: Props) {
           </aside>
         </div>
       </div>
+      {endTours.length >= 2 && (
+        <RelatedToursBlock
+          variant="end"
+          heading={article.endHeading || guideEndHeading(locale, article.parentCity.name)}
+          products={endTours}
+          locale={locale}
+          articleSlug={`guide/${citySlug}/${article.slug}`}
+        />
+      )}
     </article>
   );
+}
+
+function guideEndHeading(locale: string, city: string): string {
+  if (locale === 'es') return `Tours en ${city}`;
+  if (locale === 'ja') return `${city}のツアー`;
+  return `Tours in ${city}`;
 }

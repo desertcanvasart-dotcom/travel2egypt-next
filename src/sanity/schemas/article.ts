@@ -1,4 +1,5 @@
 import { defineField, defineType } from 'sanity';
+import { relatedToursFields } from './_relatedTours';
 import { ComposeIcon } from '@sanity/icons';
 
 import { MIGRATION_GROUP, migrationField } from './_helpers';
@@ -29,6 +30,7 @@ export const articleSchema = defineType({
   description:
     'Editorial article (journal post). One document per language. Use the language switcher in the document header to navigate or create translations.',
   groups: [
+    { name: 'tours', title: 'Tours' },
     { name: 'content', title: 'Content', default: true },
     { name: 'related', title: 'Related' },
     { name: 'media', title: 'Media' },
@@ -236,6 +238,7 @@ export const articleSchema = defineType({
         }),
       ],
     }),
+    ...relatedToursFields({ localized: false, group: 'tours' }),
     migrationField(),
   ],
   preview: {

@@ -8,6 +8,7 @@ import { WHATSAPP_LINK } from '@/lib/concierge/constants';
 import { BUDGET_BANDS, BUDGET_LABELS, DAY_BANDS, dayBandFor, type LeadSource } from '@/lib/leads/schema';
 
 import { readUtm } from './utm';
+import { useLead } from './LeadProvider';
 
 /**
  * The short itinerary form (homepage rebuild, spec §9) — and, with
@@ -66,6 +67,8 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
   const id = (n: string) => `${uid}-${n}`;
   const months = useMemo(() => nextMonths(18), []);
 
+  const { responseTime } = useLead();
+  const full = responseTime.full;
   const [exact, setExact] = useState(false);
   const [children, setChildren] = useState(0);
   const [adults, setAdults] = useState(2);
@@ -148,12 +151,12 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
         message:
           res.status === 429
             ? 'We have already received several requests from this connection. Please message us on WhatsApp instead.'
-            : 'Something went wrong sending your request. Please message us on WhatsApp and we will reply the same day.',
+            : `Something went wrong sending your request. Please message us on WhatsApp. ${full}`.trim(),
       });
     } catch {
       setState({
         phase: 'error',
-        message: 'We could not reach our server. Please message us on WhatsApp and we will reply the same day.',
+        message: `We could not reach our server. Please message us on WhatsApp. ${full}`.trim(),
       });
     }
   }
@@ -163,8 +166,8 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
       <div className={`lead-done lead-${tone}`} role="status">
         <p className="lead-done-title">Thank you, we have your request.</p>
         <p>
-          A member of our Cairo planning team will reply by email the same day
-          {isDay ? ' to confirm the date.' : ' with a day-by-day plan and a firm price.'} Your reference is{' '}
+          A member of our Cairo planning team will reply by email
+          {isDay ? ' to confirm the date.' : ' with a day-by-day plan and a firm price.'} {full} Your reference is{' '}
           <strong>{state.reference}</strong>.
         </p>
         <p>
@@ -383,8 +386,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
         {state.phase === 'sending' ? 'Sending…' : isDay ? 'Check this date' : 'Send me my itinerary'}
       </button>
       <p className="lead-fine">
-        Free, no obligation. We reply the same day, seven days a week. We use your details only to answer this
-        request.
+        Free, no obligation. {full} We use your details only to answer this request.
       </p>
     </form>
   );

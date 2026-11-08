@@ -520,6 +520,22 @@ export const siteSettingsSchema = defineType({
       group: 'trust',
       description: 'Full IATA agency code (normally 8 digits). Leave empty until confirmed.',
     }),
+    // Response-time promise (fix round 3, 2026-11-08). The ONLY wording the
+    // site uses for how fast we answer enquiries.
+    defineField({
+      name: 'responseTimeShort',
+      title: 'Response time — short',
+      type: 'internationalizedArrayString',
+      group: 'trust',
+      description: 'Hero proof row and badges, e.g. "Reply by 8 PM Cairo time or 10 AM next day".',
+    }),
+    defineField({
+      name: 'responseTimeFull',
+      title: 'Response time — full',
+      type: 'internationalizedArrayString',
+      group: 'trust',
+      description: 'Forms, dialogs, contact and planning pages, thank-you states.',
+    }),
     defineField({
       name: 'contact',
       title: 'Contact',

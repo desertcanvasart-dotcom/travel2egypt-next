@@ -85,7 +85,10 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <ConsentProvider>
             <CurrencyProvider defaultCurrency={defaultCurrencyForLocale(locale)}>
-              <LeadProvider locale={locale}>
+              <LeadProvider
+                locale={locale}
+                responseTime={{ short: siteSettings?.responseTimeShort ?? '', full: siteSettings?.responseTimeFull ?? '' }}
+              >
                 <Header locale={locale as Locale} />
                 <main id="main">{children}</main>
                 <Footer

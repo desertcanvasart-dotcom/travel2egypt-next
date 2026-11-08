@@ -10,6 +10,7 @@
  */
 
 import { groq } from 'next-sanity';
+import { pickedToursProjection, pickedToursProjectionParam } from '@/lib/articleTours';
 
 import type { Locale } from '@/i18n/routing';
 
@@ -62,6 +63,19 @@ export const cityBySlugQuery = (locale: Locale) => groq`
     "slug": ${localizedSlug('slug', locale)},
     "allSlugs": slug[]{ _key, "current": value.current },
     "summary": ${localizedField('summary', locale)},
+    // Task B (round 3): meta and visible intro are separate fields.
+    "seoDescription": ${localizedField('seoDescription', locale)},
+    "dek": ${localizedField('dek', locale)},
+    "seo": {
+      "metaTitle": ${localizedField('seo.metaTitle', locale)},
+      "metaDescription": ${localizedField('seo.metaDescription', locale)}
+    },
+    // Task C (round 3): priced tour blocks.
+    ${pickedToursProjection('inlineTours', locale)},
+    ${pickedToursProjection('endTours', locale)},
+    "inlineAfterHeading": ${localizedField('inlineAfterHeading', locale)},
+    "inlineHeading": ${localizedField('inlineHeading', locale)},
+    "endHeading": ${localizedField('endHeading', locale)},
     "overview": ${portableTextBodyProjection('overview', locale)},
     "keyFacts": {
       "bestSeason": ${localizedField('keyFacts.bestSeason', locale)},
@@ -141,6 +155,14 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
     "slug": ${localizedSlug('slug', locale)},
     "allSlugs": slug[]{ _key, "current": value.current },
     "summary": ${localizedField('summary', locale)},
+    // Round 3: separate meta (Task B) + priced tour blocks (Task C).
+    "seoDescription": ${localizedField('seoDescription', locale)},
+    "dek": ${localizedField('dek', locale)},
+    ${pickedToursProjection('inlineTours', locale)},
+    ${pickedToursProjection('endTours', locale)},
+    "inlineAfterHeading": ${localizedField('inlineAfterHeading', locale)},
+    "inlineHeading": ${localizedField('inlineHeading', locale)},
+    "endHeading": ${localizedField('endHeading', locale)},
     "body": ${portableTextBodyProjection('body', locale)},
     heroImage{
       ...,
@@ -1111,6 +1133,13 @@ export const monumentBySlugQuery = (locale: Locale) => groq`
     "allSlugs": slug[]{ _key, "current": value.current },
     coordinates,
     "body": ${portableTextBodyProjection('body', locale)},
+    // Round 3, Task C: priced tour blocks.
+    ${pickedToursProjection('inlineTours', locale)},
+    ${pickedToursProjection('endTours', locale)},
+    "inlineAfterHeading": ${localizedField('inlineAfterHeading', locale)},
+    "inlineHeading": ${localizedField('inlineHeading', locale)},
+    "endHeading": ${localizedField('endHeading', locale)},
+    "cityId": city._ref,
     "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
     "builtBy": builtBy[]->{ ${wikiCardProjection(locale)} },
     "builtDuring": builtDuring->{ ${wikiCardProjection(locale)} },
@@ -1305,6 +1334,13 @@ export const articlesByCategorySlugQuery = groq`
 export const articleBySlugQuery = groq`
   *[_type == "article" && slug.current == $slug && language == $locale][0]{
     ${articleCardProjection},
+    // Task C (round 3): priced tour blocks (per-language doc → plain strings).
+    ${pickedToursProjectionParam('inlineTours')},
+    ${pickedToursProjectionParam('endTours')},
+    inlineAfterHeading,
+    inlineHeading,
+    endHeading,
+    "relatedCityIds": relatedCities[]._ref,
     "body": body[]{
       ...,
       markDefs[]{
@@ -1810,6 +1846,8 @@ export const sitemapDocsQuery = groq`
 export const siteSettingsQuery = (locale: Locale) => groq`
   *[_type == "siteSettings"][0]{
     "siteName": ${localizedField('siteName', locale)},
+    "responseTimeShort": ${localizedField('responseTimeShort', locale)},
+    "responseTimeFull": ${localizedField('responseTimeFull', locale)},
     ministryLicenceNumber,
     etaaMember,
     iataNumber,

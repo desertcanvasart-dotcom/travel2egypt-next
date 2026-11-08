@@ -1,4 +1,6 @@
 import { cache } from 'react';
+import { RelatedToursBlock } from '@/components/related-tours/RelatedToursBlock';
+import { fallbackTours, splitAfterSection, type ArticleTour } from '@/lib/articleTours';
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -105,6 +107,12 @@ interface ArticleDoc {
   slug: string;
   deck?: string;
   body?: unknown;
+  inlineTours?: ArticleTour[];
+  endTours?: ArticleTour[];
+  inlineAfterHeading?: string;
+  inlineHeading?: string;
+  endHeading?: string;
+  relatedCityIds?: string[];
   publishedAt?: string;
   updatedAt?: string;
   heroImage?: {
@@ -280,6 +288,20 @@ export default async function ArticlePage({ params }: Props) {
   const breadcrumbItems = toVisibleCrumbs(trail);
   const breadcrumbSchema = buildBreadcrumbList(toSchemaCrumbs(trail), locale as Locale);
 
+  // Task C (round 3): hand-picked inline/end tours; end falls back to priced
+  // products tagged with the article's cities.
+  const inlineTours: ArticleTour[] = article.inlineTours ?? [];
+  const inlineSplit = splitAfterSection(article.body as Parameters<typeof splitAfterSection>[0], article.inlineAfterHeading);
+  const endTours: ArticleTour[] =
+    article.endTours && article.endTours.length > 0
+      ? article.endTours
+      : await fallbackTours({
+          cityIds: article.relatedCityIds ?? [],
+          locale,
+          articleTopic: `${article.title ?? ''} ${slug}`,
+          excludeIds: inlineTours.map((t) => t._id),
+        });
+
   return (
     <article>
       <JsonLd data={[articleSchema, breadcrumbSchema]} />
@@ -368,7 +390,21 @@ export default async function ArticlePage({ params }: Props) {
               <div
                 className={`prose-editorial max-w-[680px] ${dropCap ? 'article-dropcap' : ''}`}
               >
-                <Body value={article.body} locale={locale as Locale} />
+                {inlineSplit && inlineTours.length > 0 ? (
+                  <>
+                    <Body value={inlineSplit[0]} locale={locale as Locale} />
+                    <RelatedToursBlock
+                      variant="inline"
+                      heading={article.inlineHeading || ''}
+                      products={inlineTours}
+                      locale={locale}
+                      articleSlug={`blog/${slug}`}
+                    />
+                    <Body value={inlineSplit[1]} locale={locale as Locale} />
+                  </>
+                ) : (
+                  <Body value={article.body} locale={locale as Locale} />
+                )}
               </div>
             ) : null}
 
@@ -419,12 +455,22 @@ export default async function ArticlePage({ params }: Props) {
       {/* ── Related weave ── */}
       <ArticleRelatedWeave columns={weaveColumns} />
 
-      {/* ── Concierge CTA (contextual where a city is known) ── */}
-      <ConciergeCTA
-        chatEnabled={isChatEnabled()}
-        variant="compact"
-        contextLabel={cityName ? t('conciergeAboutCity', { city: cityName }) : undefined}
-      />
+      {/* ── Priced tours (round 3) — replaces the concierge CTA when shown ── */}
+      {endTours.length >= 2 ? (
+        <RelatedToursBlock
+          variant="end"
+          heading={article.endHeading || endHeadingFallback(locale)}
+          products={endTours}
+          locale={locale}
+          articleSlug={`blog/${slug}`}
+        />
+      ) : (
+        <ConciergeCTA
+          chatEnabled={isChatEnabled()}
+          variant="compact"
+          contextLabel={cityName ? t('conciergeAboutCity', { city: cityName }) : undefined}
+        />
+      )}
 
       {/* ── Foot connective band ── */}
       <ArticleFootBand
@@ -440,4 +486,10 @@ export default async function ArticlePage({ params }: Props) {
       <FloatingConcierge />
     </article>
   );
+}
+
+function endHeadingFallback(locale: string): string {
+  if (locale === 'es') return 'Tours relacionados';
+  if (locale === 'ja') return '関連ツアー';
+  return 'Tours to go with this';
 }

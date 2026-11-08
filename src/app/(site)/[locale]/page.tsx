@@ -26,6 +26,7 @@ async function fetchSalesHome(): Promise<SalesHomeData> {
     products: data?.products ?? [],
     dahabiya: data?.dahabiya ?? null,
     accreditations: data?.accreditations ?? null,
+    responseTime: data?.responseTime ?? null,
   };
 }
 
@@ -50,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: 'en',
       path: '/',
       title: 'Egypt Tours & Nile Cruises — Private, Priced Openly | Travel2Egypt',
-      description: `${prices}run by a Cairo operator guiding since 1993. Cairo, the Nile, Luxor, Aswan and Abu Simbel, customised to your dates. We reply the same day.`,
+      description: `${prices}run by a Cairo operator guiding since 1993. Cairo, the Nile, Luxor, Aswan and Abu Simbel, customised to your dates.`,
     });
   }
   // ES/JA keep the editorial homepage until the translation pass.

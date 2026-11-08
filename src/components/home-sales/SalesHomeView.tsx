@@ -110,7 +110,7 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
                   </a>
                 </li>
                 {licenceShort(data.accreditations, 'en') && <li>{licenceShort(data.accreditations, 'en')}</li>}
-                <li>We reply the same day, 7 days a week</li>
+                {data.responseTime?.short && <li>{data.responseTime.short}</li>}
                 <li>About 230 private trips a year</li>
               </ul>
             </div>
@@ -217,8 +217,11 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
               <p>Every tour shows its starting price. Your quote lists every inclusion, with no surprises on arrival.</p>
             </li>
             <li>
-              <h3>A reply the same day</h3>
-              <p>Send your dates and we answer the same day, seven days a week, with a day-by-day itinerary and a firm price.</p>
+              <h3>A plan back by the next morning</h3>
+              <p>
+                Send your dates and we reply by 8 PM Cairo time the same day, or by 10 AM the next morning, seven days a
+                week, with a day-by-day itinerary and a firm price.
+              </p>
             </li>
             <li>
               <h3>Licensed Egyptologist guides</h3>
@@ -446,7 +449,7 @@ export function SalesHomeView({ data }: { data: SalesHomeData }) {
           <div>
             <span className="kicker">Free itinerary</span>
             <h2 id="h-close">Tell us your dates. We&rsquo;ll send a plan and a price.</h2>
-            <p className="sub">Free, with no obligation. We reply the same day, seven days a week.</p>
+            <p className="sub">Free, with no obligation. {data.responseTime?.full}</p>
             <ul className="close-alt">
               <li>
                 Prefer to chat?{' '}

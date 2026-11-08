@@ -1,4 +1,5 @@
 import { defineField, defineType } from 'sanity';
+import { relatedToursFields } from './_relatedTours';
 import { EarthGlobeIcon } from '@sanity/icons';
 
 import { MIGRATION_GROUP, migrationField } from './_helpers';
@@ -32,6 +33,7 @@ export const citySchema = defineType({
   type: 'document',
   icon: EarthGlobeIcon,
   groups: [
+    { name: 'tours', title: 'Tours' },
     { name: 'content', title: 'Content', default: true },
     { name: 'guide', title: 'Guide content' },
     { name: 'media', title: 'Media' },
@@ -276,6 +278,24 @@ export const citySchema = defineType({
       type: 'seo',
       group: 'meta',
     }),
+    // Task B (fix round 3): the meta description and the visible intro are
+    // separate. Meta = seoDescription → seo.metaDescription → summary;
+    // visible intro = dek → summary.
+    defineField({
+      name: 'seoDescription',
+      title: 'SEO description (meta)',
+      type: 'internationalizedArrayText',
+      group: 'meta',
+      description: 'Search-result description, 70–160 characters. Not shown on the page.',
+    }),
+    defineField({
+      name: 'dek',
+      title: 'Intro line (visible)',
+      type: 'internationalizedArrayText',
+      group: 'content',
+      description: 'The one-line intro under the H1. Falls back to the summary when empty.',
+    }),
+    ...relatedToursFields({ localized: true, group: 'tours' }),
     migrationField(),
   ],
   preview: {

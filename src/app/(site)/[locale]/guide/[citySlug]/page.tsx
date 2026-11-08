@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { RelatedToursBlock } from '@/components/related-tours/RelatedToursBlock';
+import { fallbackTours, splitAfterSection, type ArticleTour } from '@/lib/articleTours';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
@@ -67,7 +69,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   // City schema uses `name` instead of `title`; normalize for the shared builder.
   return buildMetadata(
-    { ...city, title: city.name },
+    {
+      ...city,
+      title: city.name,
+      seo: {
+        ...(city.seo ?? {}),
+        metaDescription: city.seoDescription || city.seo?.metaDescription || undefined,
+      },
+    },
     {
       locale: locale as Locale,
       path: `/guide/${citySlug}`,
@@ -175,6 +184,20 @@ export default async function CityGuidePage({ params }: Props) {
   ];
   const breadcrumbSchema = buildBreadcrumbList(schemaCrumbs, locale as Locale);
 
+  // Task C (round 3): hand-picked inline/end tours; end falls back to
+  // priced, city-tagged products (no transfers / shows / group holidays).
+  const inlineTours: ArticleTour[] = city.inlineTours ?? [];
+  const inlineSplit = splitAfterSection(city.overview, city.inlineAfterHeading);
+  const endTours: ArticleTour[] =
+    city.endTours && city.endTours.length > 0
+      ? city.endTours
+      : await fallbackTours({
+          cityIds: [city._id],
+          locale,
+          articleTopic: `${city.name}`,
+          excludeIds: inlineTours.map((t) => t._id),
+        });
+
   return (
     <article>
       <JsonLd data={[placeSchema, breadcrumbSchema]} />
@@ -236,67 +259,30 @@ export default async function CityGuidePage({ params }: Props) {
           <div>
             {/* Summary / lede */}
             <p className="mb-12 font-serif text-2xl italic leading-snug text-night-soft md:text-[1.625rem]">
-              {city.summary}
+              {city.dek || city.summary}
             </p>
 
             {/* Body */}
-            {city.overview && (
+            {city.overview && inlineSplit && inlineTours.length > 0 ? (
               <div className="prose-editorial max-w-none">
-                <Body value={city.overview} locale={locale as Locale} />
+                <Body value={inlineSplit[0]} locale={locale as Locale} />
+                <RelatedToursBlock
+                  variant="inline"
+                  heading={city.inlineHeading || ''}
+                  products={inlineTours}
+                  locale={locale}
+                  articleSlug={`guide/${citySlug}`}
+                />
+                <Body value={inlineSplit[1]} locale={locale as Locale} />
               </div>
+            ) : (
+              city.overview && (
+                <div className="prose-editorial max-w-none">
+                  <Body value={city.overview} locale={locale as Locale} />
+                </div>
+              )
             )}
 
-            {/* Related tours */}
-            {city.relatedTours && city.relatedTours.length > 0 && (
-              <section className="mt-20">
-                <SectionHeader
-                  num="i"
-                  title={
-                    <>
-                      Tours from <em>{city.name}</em>
-                    </>
-                  }
-                />
-                <h2 className="sr-only">{t('relatedToursLabel')}</h2>
-                <div className="grid grid-cols-1 gap-10 sm:grid-cols-2">
-                  {city.relatedTours.map((tour: any) => {
-                    const tourImageUrl = tour.heroImage?.asset
-                      ? urlFor(tour.heroImage).width(800).height(1000).quality(82).url()
-                      : null;
-                    return (
-                      <Link
-                        key={tour._id}
-                        href={`/${tour.slug}`}
-                        className="group block transition-transform duration-500 hover:-translate-y-0.5"
-                      >
-                        <div className="mb-5 aspect-[4/5] overflow-hidden bg-limestone-deep">
-                          {tourImageUrl && (
-                            <Image
-                              src={tourImageUrl}
-                              alt={tour.heroImage?.alt || tour.title || ''}
-                              width={800}
-                              height={1000}
-                              className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]"
-                            />
-                          )}
-                        </div>
-                        <p className="mb-2 font-sans text-xs font-medium uppercase tracking-[0.12em] text-night-soft">
-                          {tour.durationLabel || `${tour.durationDays} days`}
-                        </p>
-                        <h3 className="mb-2 font-serif text-2xl font-medium leading-tight text-night transition-colors group-hover:text-faience">
-                          {tour.title}
-                        </h3>
-                        {tour.summary && (
-                          <p className="line-clamp-3 text-[0.9375rem] leading-relaxed text-night-soft">
-                            {tour.summary}
-                          </p>
-                        )}
-                      </Link>
-                    );
-                  })}
-                </div>
-              </section>
-            )}
           </div>
 
           {/* Sidebar — guide nav + key facts (two distinct widgets). */}
@@ -344,7 +330,23 @@ export default async function CityGuidePage({ params }: Props) {
         </div>
       </div>
 
-      <ConciergeCTA chatEnabled={isChatEnabled()} />
+      {endTours.length >= 2 ? (
+        <RelatedToursBlock
+          variant="end"
+          heading={city.endHeading || defaultEndHeading(locale, city.name)}
+          products={endTours}
+          locale={locale}
+          articleSlug={`guide/${citySlug}`}
+        />
+      ) : (
+        <ConciergeCTA chatEnabled={isChatEnabled()} />
+      )}
     </article>
   );
+}
+
+function defaultEndHeading(locale: string, city: string): string {
+  if (locale === 'es') return `Tours en ${city}`;
+  if (locale === 'ja') return `${city}のツアー`;
+  return `Tours in ${city}`;
 }

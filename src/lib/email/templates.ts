@@ -598,7 +598,7 @@ export function leadTeamEmail(p: LeadEmailParams): { subject: string; html: stri
   const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
   <div style="max-width:640px;margin:0 auto;padding:24px;">
     <h2 style="font-size:18px;margin:0 0 4px;">${esc(what)} from travel2egypt.org</h2>
-    <p style="font-size:13px;color:#5c6675;margin:0 0 16px;">Reply to this email to reach the traveller directly. The site promised a reply the same day.</p>
+    <p style="font-size:13px;color:#5c6675;margin:0 0 16px;">Reply to this email to reach the traveller directly. The site promised a reply by 8 PM Cairo time the same day, or by 10 AM the next morning.</p>
     <table style="border-collapse:collapse;font-size:14px;margin-bottom:20px;">
       ${rows
         .map(
