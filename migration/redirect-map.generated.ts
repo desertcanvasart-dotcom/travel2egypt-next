@@ -13,6 +13,11 @@ export interface RedirectRule {
 
 export const redirects: RedirectRule[] = [
   {
+    "source": "/tours/private-tour-dendera-and-abydos-by-bus",
+    "destination": "/dendera-and-abydos-temples-from-luxor",
+    "permanent": true
+  },
+  {
     "source": "/es/vacaciones-en-un-crucero-por-el-nilo",
     "destination": "/es/nile-cruises",
     "permanent": true
