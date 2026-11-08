@@ -19,6 +19,7 @@ import {
   localizedSlug,
   portableTextBodyProjection,
   articleBodyMarkProjection,
+  internalRefSlugFields,
 } from './i18n';
 
 /**
@@ -49,6 +50,13 @@ export const cityBySlugQuery = (locale: Locale) => groq`
   )][0]{
     _id,
     region,
+    guideRegion,
+    // The /guide hub renders one section per siteSettings.guideRegions key
+    // (id = key), so the breadcrumb anchors to that — not the legacy
+    // region enum, whose values (lower-egypt, …) are not ids on the hub.
+    "guideRegionName": *[_type == "siteSettings"][0].guideRegions[key == ^.guideRegion][0]{
+      "name": ${localizedField('name', locale)}
+    }.name,
     coordinates,
     "name": ${localizedField('name', locale)},
     "slug": ${localizedSlug('slug', locale)},
@@ -81,6 +89,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
       "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
       monumentType,
       placesToGoGroup,
+      orderRank,
       heroImage{
         ...,
         "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
@@ -94,7 +103,10 @@ export const cityBySlugQuery = (locale: Locale) => groq`
       "slug": ${localizedSlug('slug', locale)},
       "summary": ${localizedField('summary', locale)},
       "durationLabel": ${localizedField('durationLabel', locale)},
-      heroImage
+      heroImage{
+        ...,
+        "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+      }
     },
     seo{
       "metaTitle": ${localizedField('metaTitle', locale)},
@@ -110,7 +122,7 @@ export const cityBySlugQuery = (locale: Locale) => groq`
  * leaf page can render the same nav widget the city page does.
  */
 export const guideArticleBySlugQuery = (locale: Locale) => groq`
-  *[_type == "guideArticle" && (
+  *[_type == "guideArticle" && hidden != true && (
     slug[_key == "${locale}"][0].value.current == $slug ||
     (slug[_key == "${locale}"][0].value.current == null &&
      slug[_key == "en"][0].value.current == $slug)
@@ -137,6 +149,10 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
     "parentCity": parentCity->{
       _id,
       region,
+      guideRegion,
+      "guideRegionName": *[_type == "siteSettings"][0].guideRegions[key == ^.guideRegion][0]{
+        "name": ${localizedField('name', locale)}
+      }.name,
       "name": ${localizedField('name', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "allSlugs": slug[]{ _key, "current": value.current },
@@ -154,7 +170,8 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
         "summary": ${localizedField('summary', locale)},
         "visitorInfo": ${portableTextBodyProjection('visitorInfo', locale)},
         monumentType,
-        placesToGoGroup
+        placesToGoGroup,
+        orderRank
       }
     },
     "relatedTours": relatedTours[]->{
@@ -174,7 +191,7 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
 `;
 
 export const allGuideArticleSlugsQuery = groq`
-  *[_type == "guideArticle"]{
+  *[_type == "guideArticle" && hidden != true]{
     _id,
     "slugs": slug[]{ _key, "current": value.current },
     "parentCitySlugs": parentCity->slug[]{ _key, "current": value.current }
@@ -334,7 +351,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     },
     "relatedGuideArticles": *[
       _type == "guideArticle" &&
-      parentCity._ref in ^.cities[]._ref
+      parentCity._ref in ^.cities[]._ref &&
+      hidden != true
     ] | order(orderRank asc)[0...4]{
       _id,
       "_type": "guideArticle",
@@ -357,10 +375,27 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       authorName,
       authorOrigin
     },
+    // journalRefs accepts article and guideArticle refs. Articles are one doc
+    // per language, so resolve the locale's sibling via translation.metadata;
+    // with no sibling the item has no title and the view drops it.
     "journalRefs": journalRefs[]->{
       _id,
-      "title": title,
-      "slug": slug.current
+      _type,
+      _type == "guideArticle" => {
+        "title": ${localizedField('title', locale)},
+        "slug": ${localizedSlug('slug', locale)},
+        "parentCity": parentCity->{
+          "slug": ${localizedSlug('slug', locale)}
+        }
+      },
+      _type == "article" && language == "${locale}" => {
+        title,
+        "slug": slug.current
+      },
+      _type == "article" && language != "${locale}" => *[_type == "translation.metadata" && references(^._id)][0].translations[_key == "${locale}"][0].value->{
+        title,
+        "slug": slug.current
+      }
     },
     "groupSize": ${localizedField('groupSize', locale)},
     "effortLevel": ${localizedField('effortLevel', locale)},
@@ -1279,10 +1314,7 @@ export const articleBySlugQuery = groq`
           "ref": reference->{
             _type,
             "tourType": select(_type == "tour" => type, null),
-            "slug": select(
-              _type == "article" => slug.current,
-              coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
-            ),
+            ${internalRefSlugFields('$locale')},
             "parentCitySlug": select(
               _type == "guideArticle" => coalesce(
                 parentCity->slug[_key==$locale][0].value.current,
@@ -1478,11 +1510,7 @@ export const foodArticleBySlugQuery = groq`
           "ref": reference->{
             _type,
             "tourType": select(_type == "tour" => type, null),
-            "slug": select(
-              _type == "article" => slug.current,
-              _type == "foodArticle" => slug.current,
-              coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current)
-            ),
+            ${internalRefSlugFields('$locale')},
             "parentCitySlug": select(
               _type == "guideArticle" => coalesce(
                 parentCity->slug[_key==$locale][0].value.current,
@@ -1527,6 +1555,7 @@ export const categoryBySlugQuery = (locale: Locale) => groq`
     _id,
     "name": ${localizedField('name', locale)},
     "slug": ${localizedSlug('slug', locale)},
+    "allSlugs": slug[]{ _key, "current": value.current },
     "description": ${localizedField('description', locale)},
     heroImage,
     "parent": parent->{
@@ -1735,13 +1764,22 @@ export const siblingTravelTipsQuery = (locale: Locale) => groq`
 export const sitemapDocsQuery = groq`
   {
     "localizedDocs": *[_type in [
-      "city", "guideArticle", "tour", "travelTip", "faqEntry",
+      "city", "guideArticle", "tour", "travelTip",
       // wikiDeity / wikiDynasty / wikiPerson deferred to v2 (session 31):
       // those routes render Coming Soon and shouldn't appear in sitemap.
       // wikiMonument ships in v1.
       "wikiMonument",
-      "hotel", "nileCruise", "page", "legalPage"
-    ] && !(_id in path("drafts.**"))
+      "hotel", "nileCruise",
+      // s47 audit (2026-08-18): faqEntry (fragment dupes of /faq), page (no
+      // route accepts the type) and legalPage (renders at kind-based static
+      // routes, now STATIC_PATHS entries) REMOVED — they emitted 404/duplicate
+      // URLs. ADDED: tourLanding (29 city×track commercial landings),
+      // editorialCategory (blog categories) and fieldGuide, which had live
+      // routes but zero sitemap presence. tourCategory deliberately NOT
+      // added: its four docs share slugs with the four STATIC_PATHS code
+      // routes (/private-day-tours etc.) and would duplicate them.
+      "tourLanding", "editorialCategory", "fieldGuide"
+    ] && !(_id in path("drafts.**")) && seo.noIndex != true
       // Exclude soft-archived/hidden guideArticles (e.g. de-duplicated legacy
       // pages) so they drop out of the sitemap; their slugs 301 elsewhere.
       && !(_type == "guideArticle" && hidden == true)]{
@@ -1755,8 +1793,9 @@ export const sitemapDocsQuery = groq`
         null
       )
     },
-    "articles": *[_type == "article" && !(_id in path("drafts.**"))]{
+    "articles": *[_type in ["article", "foodArticle"] && !(_id in path("drafts.**")) && seo.noIndex != true]{
       _id,
+      _type,
       language,
       "slug": slug.current,
       _updatedAt
@@ -1771,6 +1810,9 @@ export const sitemapDocsQuery = groq`
 export const siteSettingsQuery = (locale: Locale) => groq`
   *[_type == "siteSettings"][0]{
     "siteName": ${localizedField('siteName', locale)},
+    ministryLicenceNumber,
+    etaaNumber,
+    iataNumber,
     "tagline": ${localizedField('tagline', locale)},
     defaultOgImage,
     logo,
@@ -2010,9 +2052,11 @@ export const slugLookupQuery = (locale: Locale) => groq`
   *[
     !(_id in path("drafts.**")) &&
     _type in ["tourCategory","tourLanding","tour","article","wikiMonument"] &&
-    (slug[_key == "${locale}"][0].value.current == $slug ||
-     (slug[_key == "${locale}"][0].value.current == null &&
-      slug[_key == "en"][0].value.current == $slug))
+    ((_type == "article" && language == "${locale}" && slug.current == $slug) ||
+     (_type != "article" && (
+       slug[_key == "${locale}"][0].value.current == $slug ||
+       (slug[_key == "${locale}"][0].value.current == null &&
+        slug[_key == "en"][0].value.current == $slug))))
   ] | order(select(
       _type == "tourCategory" => 1,
       _type == "tourLanding"  => 2,
@@ -2038,7 +2082,11 @@ export const tourCategoryBySlugQuery = (locale: Locale) => groq`
     "slug": ${localizedSlug('slug', locale)},
     "summary": ${localizedField('summary', locale)},
     "intro": ${portableTextBodyProjection('intro', locale)},
-    "faq": ${portableTextBodyProjection('faq', locale)},
+    "faq": faq[]{
+      _key,
+      "question": ${localizedField('question', locale)},
+      "answer": ${portableTextBodyProjection('answer', locale)},
+    },
     heroImage{
       ...,
       "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
@@ -2081,7 +2129,11 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
     "slug": ${localizedSlug('slug', locale)},
     "summary": ${localizedField('summary', locale)},
     "intro": ${portableTextBodyProjection('intro', locale)},
-    "faq": ${portableTextBodyProjection('faq', locale)},
+    "faq": faq[]{
+      _key,
+      "question": ${localizedField('question', locale)},
+      "answer": ${portableTextBodyProjection('answer', locale)},
+    },
     heroImage{
       ...,
       "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
@@ -2143,13 +2195,30 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
       "featured": featured,
       "why": ${localizedField('why', locale)}
     },
+    // Same per-type resolution as the tour query's journalRefs: guide refs
+    // need their parentCity; articles resolve the locale sibling (or drop).
     "journalRefs": journalRefs[]->{
       _id,
       "_type": _type,
-      "title": coalesce(${localizedField('title', locale)}, title),
-      "slug": coalesce(${localizedSlug('slug', locale)}, slug.current),
-      "summary": coalesce(${localizedField('summary', locale)}, excerpt),
-      "kicker": ${localizedField('section', locale)}
+      "kicker": ${localizedField('section', locale)},
+      _type == "guideArticle" => {
+        "title": ${localizedField('title', locale)},
+        "slug": ${localizedSlug('slug', locale)},
+        "summary": ${localizedField('summary', locale)},
+        "parentCity": parentCity->{
+          "slug": ${localizedSlug('slug', locale)}
+        }
+      },
+      _type == "article" && language == "${locale}" => {
+        title,
+        "slug": slug.current,
+        "summary": excerpt
+      },
+      _type == "article" && language != "${locale}" => *[_type == "translation.metadata" && references(^._id)][0].translations[_key == "${locale}"][0].value->{
+        title,
+        "slug": slug.current,
+        "summary": excerpt
+      }
     },
     // Build the tours list from the discriminator: this landing lists tours
     // sharing the same parent-category (type × tourMode) AND the same axis value.

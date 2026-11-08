@@ -1,0 +1,938 @@
+{
+  "_createdAt": "2026-04-27T18:41:03Z",
+  "_id": "wp-post-170205-ja",
+  "_rev": "37hNSegHf4NtjSKr1qi56m",
+  "_type": "article",
+  "_updatedAt": "2026-07-05T14:27:10Z",
+  "author": {
+    "_ref": "author-legacy-archive",
+    "_type": "reference"
+  },
+  "body": [
+    {
+      "_key": "000000000001",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000000",
+          "_type": "span",
+          "marks": [],
+          "text": "エジプトで通信に困るかどうかは、旅の組み方でかなり変わります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000003",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "nk3bck8o41ww",
+          "_type": "span",
+          "marks": [
+            "o4hw59tn543o"
+          ],
+          "text": "カイロ"
+        },
+        {
+          "_key": "20gvcmpkle8r",
+          "_type": "span",
+          "marks": [],
+          "text": "、"
+        },
+        {
+          "_key": "hzd74ycc7xr0",
+          "_type": "span",
+          "marks": [
+            "4rlv2se43xgf"
+          ],
+          "text": "ギザ"
+        },
+        {
+          "_key": "rf4hmmlgqgns",
+          "_type": "span",
+          "marks": [],
+          "text": "、"
+        },
+        {
+          "_key": "8rjd4lflrynd",
+          "_type": "span",
+          "marks": [
+            "b24qrrdwsfok"
+          ],
+          "text": "ルクソール"
+        },
+        {
+          "_key": "a7b8v9ve0la3",
+          "_type": "span",
+          "marks": [],
+          "text": "、"
+        },
+        {
+          "_key": "rbfqk6pb1zqa",
+          "_type": "span",
+          "marks": [
+            "2f4sefc99o9v"
+          ],
+          "text": "アスワン"
+        },
+        {
+          "_key": "ruc9noepzqjk",
+          "_type": "span",
+          "marks": [],
+          "text": "、"
+        },
+        {
+          "_key": "o7fx7n7ba976",
+          "_type": "span",
+          "marks": [
+            "l3j17gyjepfn"
+          ],
+          "text": "アレクサンドリア"
+        },
+        {
+          "_key": "a0fo0br93ng5",
+          "_type": "span",
+          "marks": [],
+          "text": "、紅海リゾートを回る一般的な旅行なら、現地SIMかeSIMがあればほとんどの場面で十分です。配車アプリ、地図、WhatsApp、ホテルとの連絡、航空券やチケットの確認に使えます。"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "o4hw59tn543o",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-83284",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "4rlv2se43xgf",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-58854",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "b24qrrdwsfok",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-58877",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "2f4sefc99o9v",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-58758",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "l3j17gyjepfn",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-58750",
+            "_type": "reference"
+          }
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000005",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000004",
+          "_type": "span",
+          "marks": [],
+          "text": "一方、シワや西方砂漠、東方砂漠の長い道路、シナイ内陸へ行く場合は、通信が途切れる前提で考える必要があります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000007",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000006",
+          "_type": "span",
+          "marks": [],
+          "text": "大切なのは、どの会社が絶対に一番かではありません。自分の旅に、物理SIM、eSIM、ローミングのどれが合うかを先に決めることです。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000009",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000008",
+          "_type": "span",
+          "marks": [],
+          "text": "エジプトの主な通信会社"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "00000000000b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000000a",
+          "_type": "span",
+          "marks": [],
+          "text": "エジプトには、主に四つの携帯通信会社があります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000000d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000000c",
+          "_type": "span",
+          "marks": [],
+          "text": "Vodafone Egypt、Orange Egypt、e& Egypt、WEです。e& Egyptは、以前のEtisalatとして今も呼ばれることがあります。WEはTelecom Egyptのモバイルブランドです。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000000f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "t0aw778m5blp",
+          "_type": "span",
+          "marks": [],
+          "text": "主要都市と観光地では、どの会社でもおおむね使えます。カイロ、ギザ、ルクソール、アスワン、"
+        },
+        {
+          "_key": "xuk0jvhd94g6",
+          "_type": "span",
+          "marks": [
+            "e0maymdd00oe"
+          ],
+          "text": "ハルガダ"
+        },
+        {
+          "_key": "ak4huxrj9rs5",
+          "_type": "span",
+          "marks": [],
+          "text": "、"
+        },
+        {
+          "_key": "mu4rsady4dyb",
+          "_type": "span",
+          "marks": [
+            "wwoo11kqec54"
+          ],
+          "text": "シャルム・エル・シェイク"
+        },
+        {
+          "_key": "57anhlnsz3mw",
+          "_type": "span",
+          "marks": [],
+          "text": "、"
+        },
+        {
+          "_key": "fmpsrt8a8vtp",
+          "_type": "span",
+          "marks": [
+            "7dw4k89to7ei"
+          ],
+          "text": "ダハブ"
+        },
+        {
+          "_key": "aewzm9ympyrx",
+          "_type": "span",
+          "marks": [],
+          "text": "などでは、通信に大きく困ることは少ないはずです。"
+        }
+      ],
+      "markDefs": [
+        {
+          "_key": "e0maymdd00oe",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-58859",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "wwoo11kqec54",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-58927",
+            "_type": "reference"
+          }
+        },
+        {
+          "_key": "7dw4k89to7ei",
+          "_type": "internalLink",
+          "reference": {
+            "_ref": "wp-page-59436",
+            "_type": "reference"
+          }
+        }
+      ],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000011",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000010",
+          "_type": "span",
+          "marks": [],
+          "text": "ただし、砂漠道や人里離れた地域では差が出ます。都市内の速度よりも、地方や移動中の安定性を重視するなら、一般にはVodafoneを選ぶ旅行者が多いです。価格やデータ量で選ぶなら、e&やWEが合うこともあります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000013",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000012",
+          "_type": "span",
+          "marks": [],
+          "text": "2025年にエジプトでは5Gサービスも始まりました。ただ、旅行者にとっては、5G対応かどうかより、まず4Gで安定して使えるかのほうが重要です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000015",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000014",
+          "_type": "span",
+          "marks": [],
+          "text": "一番現実的なのは現地SIM"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000017",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000016",
+          "_type": "span",
+          "marks": [],
+          "text": "多くの旅行者にとって、一番実用的なのは空港や市内の公式店舗で買う現地SIMです。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000019",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000018",
+          "_type": "span",
+          "marks": [],
+          "text": "理由は単純です。安く、データ量が多く、現地番号も持てるからです。配車アプリや一部の現地サービスで番号認証が必要になる場合にも便利です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000001b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000001a",
+          "_type": "span",
+          "marks": [],
+          "text": "カイロ国際空港では、主要通信会社のカウンターで旅行者向けSIMを買えます。到着後、荷物を受け取ったあとに見つけやすい場所に店舗があることが多く、スタッフも観光客対応に慣れています。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000001d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000001c",
+          "_type": "span",
+          "marks": [],
+          "text": "必要なのは、通常パスポートです。エジプトではSIMの登録に身分証明が必要です。これは観光客だけへの特別な扱いではなく、通信契約の登録制度です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000001f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000001e",
+          "_type": "span",
+          "marks": [],
+          "text": "買ったら、その場で必ず通信確認をしてください。SIMを入れる。端末を再起動する。地図かブラウザを開く。データ通信が動くところまで確認してからカウンターを離れる。ここを省くと、あとで市内店舗へ行く必要が出ることがあります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000021",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000020",
+          "_type": "span",
+          "marks": [],
+          "text": "eSIMは便利だが高くなりやすい"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000023",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000022",
+          "_type": "span",
+          "marks": [],
+          "text": "eSIMは、到着前に準備できるのが利点です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000025",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000024",
+          "_type": "span",
+          "marks": [],
+          "text": "空港でSIMカウンターに並びたくない人、短期滞在の人、深夜到着でそのままホテルへ移動したい人には便利です。着陸後すぐに配車アプリやWhatsAppを使える安心感があります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000027",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000026",
+          "_type": "span",
+          "marks": [],
+          "text": "ただし、費用は現地SIMより高くなりがちです。同じデータ量なら、国際eSIMのほうが割高になることが多い。数日だけなら問題になりませんが、一週間以上で地図やSNSをよく使うなら、現地SIMのほうが費用対効果は高いです。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000029",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000028",
+          "_type": "span",
+          "marks": [],
+          "text": "また、端末がeSIMに対応していること、SIMロックがないことを出発前に確認してください。対応端末でも、通信会社のロックが残っていると使えない場合があります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000002b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000002a",
+          "_type": "span",
+          "marks": [],
+          "text": "現地通信会社のeSIMも広がっていますが、旅行者にはまだ物理SIMのほうがわかりやすい場面が多いです。国際eSIMを使うなら、出発前にアクティベーション方法を読んでおき、QRコードやアプリの情報をオフラインでも見られるようにしておくと安心です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000002d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000002c",
+          "_type": "span",
+          "marks": [],
+          "text": "ローミングは予備として考える"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "00000000002f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000002e",
+          "_type": "span",
+          "marks": [],
+          "text": "自国の携帯会社の国際ローミングも使えます。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000031",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000030",
+          "_type": "span",
+          "marks": [],
+          "text": "ただし、料金は高くなりやすいです。一日ごとの定額制、低速データ、追加料金など、契約によって条件がかなり違います。短い出張や、費用より手間を避けたい人には選択肢になりますが、一般的な旅行では現地SIMかeSIMのほうが合理的です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000033",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000032",
+          "_type": "span",
+          "marks": [],
+          "text": "ローミングは、到着直後の予備として使うと便利です。空港でSIMを買うまで、ホテルに着くまで、配車アプリを開くまで。そのあとの主な通信は現地SIMやeSIMに任せるほうが、費用を管理しやすくなります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000035",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000034",
+          "_type": "span",
+          "marks": [],
+          "text": "どれを選ぶべきか"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000037",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000036",
+          "_type": "span",
+          "marks": [],
+          "text": "一週間以上の旅行なら、現地SIMが最も使いやすいです。カイロ到着なら空港で買い、その場で開通確認をします。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000039",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000038",
+          "_type": "span",
+          "marks": [],
+          "text": "二、三日の短い滞在なら、eSIMでも十分です。価格差より、到着してすぐ使えることのほうが重要になることがあります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000003b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000003a",
+          "_type": "span",
+          "marks": [],
+          "text": "仕事で常に番号を維持したい人、自国番号への着信を受けたい人は、ローミングと現地データSIMを併用する方法もあります。最近のスマートフォンなら、物理SIMとeSIMを組み合わせられる端末も多いです。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000003d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000003c",
+          "_type": "span",
+          "marks": [],
+          "text": "砂漠や遠隔地へ行く人は、通信会社選びだけで安全を解決しようとしないほうがいいです。圏外になる場所はあります。重要な地図はオフライン保存し、移動は信頼できる運転手や手配で行い、必要なら衛星通信機器も検討します。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000003f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000003e",
+          "_type": "span",
+          "marks": [],
+          "text": "買うときに確認すること"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000041",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000040",
+          "_type": "span",
+          "marks": [],
+          "text": "SIMを買うときは、次の点をその場で確認してください。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000043",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000042",
+          "_type": "span",
+          "marks": [],
+          "text": "データ量。有効期間。国内通話が含まれるか。国際通話は別料金か。料金は税込みか。テザリングができるか。追加チャージはどうするか。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000045",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000044",
+          "_type": "span",
+          "marks": [],
+          "text": "また、旅行者向けSIMは「たくさんデータがある」と説明されても、実際にはSNS用、動画用、通常データ用などに分かれていることがあります。細かい条件が気になる場合は、どのアプリでも使える通常データ量がどれだけあるかを聞くとよいです。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000047",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000046",
+          "_type": "span",
+          "marks": [],
+          "text": "支払い後は、レシートやSIM台紙を保管してください。番号や問い合わせに必要になることがあります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000049",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000048",
+          "_type": "span",
+          "marks": [],
+          "text": "通信が弱くなる場所"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "00000000004b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000004a",
+          "_type": "span",
+          "marks": [],
+          "text": "カイロ、ギザ、ルクソール、アスワン、アレクサンドリア、紅海沿岸では、多くの旅行者は問題なく使えます。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000004d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000004c",
+          "_type": "span",
+          "marks": [],
+          "text": "弱くなりやすいのは、長い砂漠道路です。ルクソールからハルガダへの道路、オアシス間の移動、シワへ向かう道、シナイ内陸などでは、通信が途切れることがあります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000004f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000004e",
+          "_type": "span",
+          "marks": [],
+          "text": "クルーズ中も、川沿いの都市や町では使えますが、場所によって速度は変わります。船のWi-Fiは当てにしすぎないほうがいいです。船内Wi-Fiがあると書かれていても、安定性は船と区間によります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000051",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000050",
+          "_type": "span",
+          "marks": [],
+          "text": "ホテルWi-Fiも同じです。高級ホテルでも部屋の位置によって弱いことがあります。仕事や重要な通話があるなら、ホテルWi-Fiだけでなく、自分のモバイルデータも用意しておくほうが安全です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000053",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000052",
+          "_type": "span",
+          "marks": [],
+          "text": "日本から行く場合"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "000000000055",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000054",
+          "_type": "span",
+          "marks": [],
+          "text": "日本の携帯会社の海外ローミングは便利ですが、長めの旅行では高くなりやすいです。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000057",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000056",
+          "_type": "span",
+          "marks": [],
+          "text": "日本の番号を維持したい場合は、日本のSIMを通話やSMS受信用に残し、データはエジプトのSIMやeSIMを使う方法が現実的です。銀行認証や二段階認証で日本のSMSが必要な人は、出発前に自分の端末でデュアルSIM設定ができるか確認してください。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000059",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000058",
+          "_type": "span",
+          "marks": [],
+          "text": "エジプトで現地SIMを使うには、スマートフォンがSIMフリーである必要があります。古い端末やキャリア購入端末では、出発前にSIMロック解除の状態を確認しておくと安心です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000005b",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000005a",
+          "_type": "span",
+          "marks": [],
+          "text": "結論"
+        }
+      ],
+      "markDefs": [],
+      "style": "h2"
+    },
+    {
+      "_key": "00000000005d",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000005c",
+          "_type": "span",
+          "marks": [],
+          "text": "エジプト旅行の通信は、難しく考えすぎなくて大丈夫です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "00000000005f",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "00000000005e",
+          "_type": "span",
+          "marks": [],
+          "text": "一般的な旅行なら、カイロ空港か市内の公式店舗で現地SIMを買い、その場で開通確認する。短期滞在や深夜到着なら、事前にeSIMを用意する。ローミングは予備として使う。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000061",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000060",
+          "_type": "span",
+          "marks": [],
+          "text": "この三つの考え方で、ほとんどの旅行者は十分です。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000063",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000062",
+          "_type": "span",
+          "marks": [],
+          "text": "重要なのは、到着してから慌てないことです。パスポートを持って公式店舗で買う。通信確認をしてから離れる。砂漠では圏外になる前提で考える。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    },
+    {
+      "_key": "000000000065",
+      "_type": "block",
+      "children": [
+        {
+          "_key": "000000000064",
+          "_type": "span",
+          "marks": [],
+          "text": "それだけで、エジプトでの移動、連絡、地図、予約確認はかなり楽になります。"
+        }
+      ],
+      "markDefs": [],
+      "style": "normal"
+    }
+  ],
+  "category": {
+    "_ref": "wp-category-21",
+    "_type": "reference"
+  },
+  "deck": "エジプトで現地SIM、eSIM、国際ローミングのどれを選ぶべきか。主要通信会社、空港での購入、パスポート登録、砂漠での通信圏外まで整理します。",
+  "heroImage": {
+    "_type": "image",
+    "alt": "灰色の台に並べた標準・マイクロ・ナノの3種類のSIMカード",
+    "asset": {
+      "_ref": "image-b69882d04828482f3086748db5118cde4105d69e-3264x2448-jpg",
+      "_type": "reference"
+    },
+    "caption": "標準・マイクロ・ナノの各SIMカードを並べて比べたところ。"
+  },
+  "language": "ja",
+  "migration": {
+    "deckNeedsReview": true,
+    "migratedAt": "2026-05-11T22:55:59.150Z",
+    "source": "wp-import",
+    "wpAuthorId": 2,
+    "wpAuthorSlug": "islam",
+    "wpCategorySlugs": [
+      "tips-tricks"
+    ],
+    "wpId": 152484,
+    "wpModifiedAt": "2025-05-29T12:10:07",
+    "wpTemplate": "",
+    "wpUrl": "https://travel2egypt.org/how-to-choose-a-sim-card-for-your-trip-to-egypt/"
+  },
+  "publishedAt": "2024-12-10T12:07:36",
+  "seo": {
+    "metaDescription": "エジプト旅行に最適なSIMカードを発見しましょう。カバレッジ、料金、提供者についてのアドバイスを通じて、旅の間に接続を保つ方法をご紹介します。手軽にコミュニケーションを楽しむための、お手頃な選択肢を探ってみましょう。\r\n\r\n",
+    "metaTitle": ""
+  },
+  "slug": {
+    "_type": "slug",
+    "current": "ejiputo-ryoko-no-sim-kado"
+  },
+  "title": "エジプト旅行のSIMカード"
+}

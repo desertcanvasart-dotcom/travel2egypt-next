@@ -4,17 +4,19 @@
     "tagline": "判断のあるエジプト旅行"
   },
   "home": {
-    "eyebrow": "2003年創業のエジプト現地オペレーター",
+    "eyebrow": "1993年から続くエジプト現地オペレーター",
     "heroFirstLine": "エジプトは絵葉書では",
     "heroAccent": "語りきれないものを求めてくる。",
     "heroLede": "オペレーター水準のガイド、プライベートな旅、そしてカイロを拠点とするコンシェルジュ。テンプレートの寄せ集めではなく、丁寧に練り上げたエジプトを求める旅行者のために。",
-    "heroMetaYears": "30年",
-    "heroMetaYearsLabel": "エジプトでの運営実績",
+    "heroCtaPrimary": "エジプト旅行を計画する",
+    "heroCtaSecondary": "または、どこから始めるかを見る",
+    "heroMetaYears": "1993年から",
+    "heroMetaYearsLabel": "エジプトの現場で",
     "heroMetaTrips": "数千回",
     "heroMetaTripsLabel": "のツアー手配",
     "standfirstEyebrow": "私たちの違い",
     "standfirstLine1": "多くの旅行サイトはエジプトを観光地のチェックリストとして扱います。",
-    "standfirstLine2": "私たちは八千万人の住む、四つの主要方言と数千年の自意識を持つ国として扱います。",
+    "standfirstLine2": "私たちは一億人を超える人々が住む、四つの主要方言と数千年の自意識を持つ国として扱います。",
     "standfirstAccent": "違いは細部に宿ります。",
     "whereKicker": "どこから始めるか",
     "whereTitle": "あなたのエジプトは、どこから始めますか？",
@@ -57,7 +59,8 @@
     "step4Title": "私たちが運営します",
     "step4Body": "現地でのプライベートガイド、移動、ホテル。そして旅の間も、人によるサポートを。",
     "planCtaPrimary": "コンシェルジュに相談する →",
-    "planCtaWhatsApp": "WhatsAppで気軽に問い合わせ →"
+    "planCtaWhatsApp": "WhatsAppで気軽に問い合わせ →",
+    "planWhatsAppText": "Travel2Egyptさん、こんにちは。エジプト旅行を計画したいです。"
   },
   "concierge": {
     "eyebrow": "旅の計画を立てる",
@@ -69,15 +72,16 @@
     "step2Title": "オーダーメイド",
     "step2Text": "テンプレートではなく、具体的な都市・ホテル・現地手配先を盛り込んだ実際の旅程をお作りします。",
     "step3Title": "現地サポート",
-    "step3Text": "旅行中も近くで支えます。30年の運営経験に裏打ちされた現地サポート。",
+    "step3Text": "旅行中も近くで支えます。30年の現場経験に裏打ちされた現地サポート。",
     "primaryCta": "コンシェルジュに相談する",
+    "midInvite": "ここまでで、ご自身に重なるところはありましたか。カイロのコンシェルジュが、その感覚を具体的な計画へと変えていきます——気軽に、テンプレートに頼らず。",
     "secondaryCta": "WhatsAppでサクッと相談",
     "ctaTourLabel": "このツアーについてコンシェルジュに相談する",
     "ctaTrailingArrow": "→"
   },
   "planYourTour": {
     "metaTitle": "AIコンシェルジュとエジプト旅行を計画する",
-    "metaDescription": "AIコンシェルジュとの会話でエジプト旅行の形を整え、そのあとは私たちのチームが具体的な提案と料金でお引き受けします。30年の実績を持つエジプト現地オペレーター。",
+    "metaDescription": "AIコンシェルジュとの会話でエジプト旅行の形を整え、そのあとは私たちのチームが具体的な提案と料金でお引き受けします。30年の現場経験を持つエジプト現地オペレーター。",
     "fallbackEyebrow": "エジプト旅行を計画する",
     "fallbackHeading": "私たちのチームがお手伝いします",
     "fallbackBodyLocale": "AIコンシェルジュは現在、英語とスペイン語のみに対応しています。それまでの間は、私たちのチームが直接ご相談を承ります。ご希望をお聞かせいただければ、具体的な提案と料金を年中無休でお返しします。",
@@ -123,7 +127,7 @@
   "footer": {
     "sisterBrandsLabel": "Travel2Egyptの他ブランド",
     "trustLabel": "認定・レビュー",
-    "tagline": "2003年創業のエジプト現地オペレーター。JATA・IATA・ASTA・ETAA認定。",
+    "tagline": "1993年からガイド、2003年から認可オペレーター。",
     "rights": "© {year} Travel2Egypt. 無断転載を禁じます。",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
@@ -146,10 +150,13 @@
     "nameInHieroglyphs": "あなたの名前をヒエログリフで",
     "responsibleTravel": "責任ある旅行",
     "faqLabel": "FAQ",
+    "whatsapp": "WhatsApp {number}",
     "cookiePreferences": "Cookie設定"
   },
   "guide": {
     "landingTitle": "エジプト旅行ガイド",
+    "jumpTo": "地域から探す",
+    "jumpAria": "エジプトの地域へ移動",
     "landingDeck": "毎週現地でツアーを運営するオペレーターによる、都市別の実践的なガイド。",
     "regionOther": "その他の目的地",
     "subArticlesLabel": "このガイドの内容",
@@ -397,7 +404,7 @@
     "trigger": "コンシェルジュ",
     "eyebrow": "コンシェルジュ",
     "title": "この件について何でもどうぞ。",
-    "sub": "チャットボットではありません。20年以上エジプトで旅を手がけてきた経験からお答えします。",
+    "sub": "チャットボットではありません。30年以上エジプトで旅を手がけてきた経験からお答えします。",
     "inputPlaceholder": "ご自身の質問を入力…",
     "contactCta": "コンシェルジュに相談する",
     "close": "閉じる",
@@ -622,7 +629,11 @@
     "weekday_sun": "日"
   },
   "legal": {
-    "lastUpdatedPrefix": "最終更新"
+    "lastUpdatedPrefix": "最終更新",
+    "metaTerms": "Travel2Egyptのご予約およびサービス利用に適用される利用規約です。",
+    "metaPrivacy": "Travel2Egyptによる個人データの収集・利用・保護についてのご案内です。",
+    "metaCookies": "Travel2Egyptが使用するクッキーとその目的、選択肢についてのご案内です。",
+    "metaDisclaimer": "Travel2Egyptに掲載される情報の範囲と免責事項についてのご案内です。"
   },
   "wikiComingSoon": {
     "eyebrow": "近日公開",
@@ -719,18 +730,28 @@
     "metaDescription": "Travel2Egyptの歩み——アスワンでの子供時代から、エジプト観光業での三十年間まで——を、創業者イスラム・フセインがお伝えします。意図的に小さな規模で、創業者みずから手がけるオンライン運営。"
   },
   "faq": {
-    "metaTitle": "FAQ | Egypt Travel Questions Answered | Travel2Egypt",
-    "metaDescription": "Frequently asked questions about traveling in Egypt: visa, best time to visit, budget, safety, tipping, booking with Travel2Egypt. Quick answers from a Cairo-based operator.",
-    "heroHeading": "Frequently Asked Questions",
-    "heroSubhead": "Quick answers to questions we hear most often.",
-    "bottomCtaPretext": "Still have a question?",
-    "bottomCtaLabel": "Talk to us on WhatsApp"
+    "metaTitle": "エジプト旅行 よくあるご質問 | Travel2Egypt",
+    "metaDescription": "エジプト旅行に関するよくあるご質問：ビザ、ベストシーズン、予算、治安、チップ、Travel2Egyptでの予約について。カイロを拠点とするオペレーターが簡潔にお答えします。",
+    "heroHeading": "よくあるご質問",
+    "heroSubhead": "よくお寄せいただくご質問への簡潔な回答です。",
+    "intro": "交通手段、地域ごとの旅程、食事など、特定のテーマをさらに詳しく知りたい方は、<tipsLink>旅のヒント</tipsLink>と<guideLink>旅行ガイド</guideLink>のセクションをご覧ください。ご自身のご旅行に関するご質問は、直接ご連絡いただくのが最短です——年中無休で、数時間以内にお返事します。",
+    "bottomCtaPretext": "ほかにご質問はありますか？",
+    "bottomCtaLabel": "WhatsAppで相談する"
+  },
+  "landingFaq": {
+    "heading": "よくある質問"
   },
   "consent": {
     "headline": "必要不可欠なクッキーのみを使用しています",
-    "body": "Travel2Egyptは、表示している言語を記憶するための小さなクッキーを使用します。AIコンシェルジュをご利用になる場合は、会話がページ間や再訪問時にも継続するよう、セッションクッキー（t2e_session_id）も保存します。有効期間は30日間で、travel2egypt.org に限定されます。コンシェルジュを不正利用から保護するため、IPアドレスとブラウザ情報を一方向ハッシュ化して処理します。元のデータが保存・記録されることはありません。アクセス解析、広告、訪問者の追跡は一切行いません。",
+    "body": "Travel2Egyptは、表示している言語を記憶するための小さなクッキーを使用します。AIコンシェルジュをご利用になる場合は、会話がページ間や再訪問時にも継続するよう、セッションクッキー（t2e_session_id）も保存します。有効期間は30日間で、travel2egypt.org に限定されます。料金の表示通貨を選択した場合は、その選択もクッキー（t2e_ccy）に保存します。有効期間は1年間で、通貨を選んだ場合にのみ保存されます。コンシェルジュを不正利用から保護するため、IPアドレスとブラウザ情報を一方向ハッシュ化して処理します。元のデータが保存・記録されることはありません。アクセス解析、広告、訪問者の追跡は一切行いません。",
     "policyLink": "クッキーポリシーを読む",
-    "gotIt": "了解しました"
+    "gotIt": "了解しました",
+    "headlineAnalytics": "クッキーの設定について",
+    "bodyAnalytics": "表示言語、料金の表示通貨、AIコンシェルジュのために、必要不可欠なクッキーを常に使用しています（コンシェルジュでは不正利用防止のため、IPアドレスとブラウザ情報を一方向ハッシュ化して処理します）。同意いただいた場合のみ、旅の計画に役立っているページを把握するためGoogleアナリティクスを使用し、_gaクッキーを保存します。広告は行わず、広告目的でデータを共有することもありません。「必須のみ」を選ぶと、アクセス解析用のクッキーは保存されません。設定はフッターの「Cookie設定」からいつでも変更できます。",
+    "accept": "アクセス解析を許可",
+    "decline": "必須のみ",
+    "currentAccepted": "現在の設定：アクセス解析を許可しています。",
+    "currentDeclined": "現在の設定：必須クッキーのみ。"
   },
   "tourSystem": {
     "mastKicker": "一日ごとに · エジプト全土へ",
@@ -821,11 +842,11 @@
     "trustSignal2": "少人数または貸切——大型バスの相乗りではありません",
     "trustSignal3": "段階制の透明な料金——隠れた費用なし",
     "trustSignal4": "別の一日のほうが向いていれば、正直にお伝えします",
-    "trustAccred": "ETAA · IATA · ASTA — 2003年以来のエジプト現地オペレーター",
+    "trustAccred": "1993年からガイド",
     "shapeDaysCount": "{count, plural, other {#日間}}",
     "priceFromLabel": "料金",
     "priceOnInquiry": "お問い合わせ",
-    "priceNoteOnInquiry": "最終料金は人数・季節・選択内容により異なります——お問い合わせ時に確定します。隠れた費用はありません。",
+    "priceNoteOnInquiry": "「〜から」の価格は、お一人あたりの目安の出発点です——正確なお見積りは季節・快適さのレベル・人数・選択内容により異なり、お問い合わせ時に確定します。国際線航空券・ビザ・個人的な支出は含まれません。含まれる内容はご提案書で明記します。隠れた費用はありません。",
     "pkgKicker": "エジプト旅行パッケージ",
     "metaRoute": "ルート",
     "metaStyle": "スタイル",
@@ -962,6 +983,8 @@
     "pkgGrpEnquire": "問い合わせ",
     "pkgGrpDepNote": "「催行確定」は出発が確定していることを示します。料金はお一人様・相部屋・陸上手配のみ。シングル追加料金はご請求時にご案内します。ご希望の日程がない場合、ご家族・ご友人だけのプライベート出発を設定できることもあります。",
     "pkgGrpReserveText": "こんにちは。{title}（出発：{date}）の予約を希望します。",
+    "waTourText": "こんにちは。「{title}」に興味があります。",
+    "waLandingText": "こんにちは。「{title}」に興味があります。",
     "pkgGrpNextKicker": "次の出発",
     "pkgGrpThen": "以降 {dates}",
     "pkgGrpAndMore": "{dates} · 他{count}本",
@@ -1135,7 +1158,7 @@
       "tagSummary": "旅行者のためのアラビア語",
       "titlePrefix": "アラビア語、",
       "titleAccent": "軽やかに",
-      "standfirstLead": "八千万人が話す言葉。",
+      "standfirstLead": "一億人を超える人々が話す言葉。",
       "standfirstAccent": "旅をあたたかくする四十語をここに。",
       "intro1": "エジプトを旅するのに、流暢なアラビア語は必要ありません。英語さえあれば、ホテル、博物館、観光地のほとんどは何とかなります。しかし、しかるべき場面で発するわずか数語が、エジプト人の反応を変えます——市場の店主はより広く微笑み、運転手はくつろぎ、ウェイターはあなたを覚えます。以下に挙げるのは、最も働く小さなリストです。",
       "intro2": "エジプトのアラビア語は、教科書で習う正則アラビア語とは異なります。挨拶、リズム、文化的な言葉——これらこそ、実際に耳にする言葉です。発音は綴り通りではなく、聞こえたままに表記しました。",

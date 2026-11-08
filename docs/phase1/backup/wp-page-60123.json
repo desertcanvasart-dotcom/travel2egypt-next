@@ -1,0 +1,1200 @@
+{
+  "_createdAt": "2026-05-04T20:39:10Z",
+  "_id": "wp-page-60123",
+  "_rev": "djgbgtoqo7PDAdGRj9aurO",
+  "_system": {
+    "base": {
+      "id": "wp-page-60123",
+      "rev": "4jxboK94xJN5bUSrjkSFJN"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:03:44Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "xth1a01bbbs3",
+              "_type": "span",
+              "marks": [],
+              "text": "Getting around "
+            },
+            {
+              "_key": "mzd37bcscj4r",
+              "_type": "span",
+              "marks": [
+                "mxhycr4aw9i2"
+              ],
+              "text": "Ismailia"
+            },
+            {
+              "_key": "um11xumlb6xb",
+              "_type": "span",
+              "marks": [],
+              "text": " is easy to Navigating the City "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "mxhycr4aw9i2",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58868",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Certainly! Exploring Ismailia and finding the perfect place to stay can enhance your travel experience, making your journey through this serene city even more memorable. Here’s a guide to help you navigate your way around Ismailia and select the best accommodation options:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Ismailia is a relatively small city, which makes "
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "000000000005"
+              ],
+              "text": "getting around"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": " quite convenient and straightforward. Here are the primary modes of "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "transportation within the city"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ":"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000005",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/kom-ombo-travel-guide/getting-around/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/kom-ombo/public-transport-in-kom-ombo",
+              "newTab": false
+            },
+            {
+              "_key": "000000000008",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/aswan-travel-guide/transportation-tips/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/aswan/how-to-reach-aswan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Walking:"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": " Given its compact size and scenic beauty, walking is one of the best ways to explore Ismailia, especially the areas around the "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "Suez Canal and the city’s"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": " parks and gardens."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000000e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/suez-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/suez",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Taxi:"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " Taxis are readily available and provide a flexible "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "way to move around"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": " the city. They are relatively inexpensive, but it’s advisable to agree on the fare with the driver before starting your journey."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000014",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/taba-travel-guide/the-best-way-to-get-around/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/taba/getting-around-taba",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Bicycles:"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": " Some "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "hotels"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " and guesthouses offer bicycles for rent. Biking is a pleasant way to see the city, given the flat terrain and beautiful landscapes."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/the-definitive-guide-to-egypt-nile-cruise/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/the-definitive-guide-to-egypt-nile-cruise",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Public Transport:"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " While Ismailia’s public transport system is not as extensive as in larger "
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "000000000020"
+              ],
+              "text": "Egyptian"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " cities, there are minibuses that run through the main areas of the city. They are an affordable option for longer distances within Ismailia."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000020",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Egypt",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/30-facts-about-ismailia-1689482249.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "View of a bustling cityscape by the river with buildings in the background and boats on the water"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Where City Meets River: The Pulse of Urban Life by the Water's Edge"
+            }
+          ]
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "Essential Egypt Travel Tips: Your Guide to a Seamless Journey"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "Navigate your Egyptian "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "adventure"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " with confidence using our essential travel tips. From navigating local customs to selecting the best "
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "00000000002b"
+              ],
+              "text": "times to visit"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": " iconic sites, our guide ensures you make the most of your trip. Click for insider advice on experiencing "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " like a pro!"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/ismailia-travel-guide/best-times-visit/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/ismailia/ismailia-weather-guide",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/contact-us/"
+              },
+              "_type": "externalLink",
+              "href": "/contact",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "zt99v6oxk0h3",
+              "_type": "span",
+              "marks": [],
+              "text": "Explorando "
+            },
+            {
+              "_key": "ik7hnk16h5ci",
+              "_type": "span",
+              "marks": [
+                "1teliu5822ed"
+              ],
+              "text": "Ismailia"
+            },
+            {
+              "_key": "d39ld06laajr",
+              "_type": "span",
+              "marks": [],
+              "text": ": Guía para navegar por la ciudad "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "1teliu5822ed",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58868",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Moverse por Ismailia es fácil, con varias opciones de transporte disponibles puede mejorar tu experiencia de viaje, haciendo que tu recorrido por esta serena ciudad sea aún más memorable."
+            },
+            {
+              "_key": "000000000003",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "He aquí una guía que te ayudará a orientarte por Ismailia y a seleccionar "
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "000000000005"
+              ],
+              "text": "las mejores opciones"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": " de alojamiento:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000005",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/sim-para-viajar-a-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/sim-para-viajar-a-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Ismailia es una ciudad relativamente pequeña, lo que "
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "00000000000a"
+              ],
+              "text": "hace que desplazarse por"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": " ella sea bastante cómodo y sencillo."
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Éstos son los principales medios de transporte dentro de la ciudad: "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/lo-mejor-que-hacer-en-luxor",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Caminando:"
+            },
+            {
+              "_key": "usbkm7vjp55g",
+              "_type": "span",
+              "marks": [],
+              "text": " Dado su tamaño compacto y su belleza paisajística, caminar es una de las mejores formas de explorar Ismailia, especialmente las zonas que rodean el Canal de "
+            },
+            {
+              "_key": "u7o4pnaow2h6",
+              "_type": "span",
+              "marks": [
+                "n3vnsa84a3u7"
+              ],
+              "text": "Suez"
+            },
+            {
+              "_key": "llbdn6gboggs",
+              "_type": "span",
+              "marks": [],
+              "text": " y los parques y jardines de la ciudad."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "n3vnsa84a3u7",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58938",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "El taxi:"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "Los taxis son"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " fáciles de conseguir y constituyen una forma flexible de moverse por la ciudad."
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Son relativamente baratos, pero es aconsejable acordar la tarifa con el conductor antes de "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "iniciar el viaje"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Bicicletas:"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " Algunos "
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "000000000020"
+              ],
+              "text": "hoteles"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " y pensiones ofrecen bicicletas de alquiler."
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Ir en bicicleta es una forma agradable de ver la ciudad, dado el terreno llano y los bellos paisajes."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000020",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/hoteles-economicos-cerca-de-las-piramides/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/hoteles-economicos-cerca-de-las-piramides",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Transporte público:"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": " Aunque el sistema de transporte público de Ismailia no es tan amplio como el de las grandes "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "000000000028"
+              ],
+              "text": "ciudades egipcias"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": ", hay minibuses que recorren las principales zonas de la ciudad."
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Son "
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "00000000002d"
+              ],
+              "text": "una opción asequible para las"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": " distancias más largas dentro de Ismailia."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000028",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/distancia-entre-ciudades-egipcias/"
+              },
+              "_type": "externalLink",
+              "href": "/es/travel-tips/distancias-entre-las-ciudades-de-egipto-una-guia-practica",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-tiempo-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/rosetta-rasheed/el-tiempo-en-rosetta-rashid-y-la-mejor-epoca-para-visitarla",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "イスマイリアを探索する：都市の移動ガイド"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "確かに！イスマイリアを探索し、完璧な宿泊先を見つけることは、旅行体験をさらに豊かにし、この静かな都市での旅をより記憶に残るものにします。こちらは、イスマイリアを移動するためのガイドと、最適な宿泊施設を選ぶためのヒントです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "イスマイリアは比較的小さな都市で、移動が非常に便利で簡単です。都市内の主な交通手段は以下の通りです："
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "徒歩"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "：イスマイリアはそのコンパクトなサイズと風光明媚な美しさから、徒歩での探索が最良の方法の一つです。特にスエズ運河周辺や市内の公園や庭園を歩いて回るのに最適です。"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "タクシー"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "：タクシーはすぐに利用でき、都市内を移動する柔軟な手段を提供します。比較的安価ですが、乗車前に運転手と運賃を確認することをお勧めします。"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "自転車"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "：いくつかのホテルやゲストハウスでは自転車をレンタルしています。平坦な地形と美しい景観を楽しみながら、自転車で市内を巡るのは楽しい方法です。"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "公共交通機関"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "：イスマイリアの公共交通機関は、エジプトの大都市ほど広範ではありませんが、市内の主要な地域を走るミニバスがあります。長距離移動には手頃な選択肢です。"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日：2024年8月"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Quiet tree-lined avenue in Ismailia with rows of trimmed trees, parked cars and low apartment blocks under a hazy sky"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Avenida tranquila de Ismailía con hileras de árboles podados, coches aparcados y edificios bajos bajo un cielo brumoso"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "イスマイリアの静かな並木道。刈り込まれた街路樹が並び、車が停まり、霞んだ空の下に低層の建物が続く。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-44193e5591abe35c01eab64da7b914584cd78dbe-6000x4000-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Trimmed trees shade the quiet avenues of central Ismailia."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Los árboles podados dan sombra a las tranquilas avenidas del centro de Ismailía."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "刈り込まれた街路樹が木陰をつくる、イスマイリア中心部の静かな並木道。"
+      }
+    ]
+  },
+  "kind": "transport-around",
+  "migration": {
+    "migratedAt": "2026-05-05T12:59:16.347Z",
+    "reviewFlag": "section-needs-assignment",
+    "source": "wp-import",
+    "wpId": 60123,
+    "wpModifiedAt": "2026-04-14T23:39:43",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/navigating-ismailia/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58868",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "navigating-ismailia"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "navegar-por-ismailia"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "isumairia-no-ido-hoho"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Getting around Ismailia is easy to Navigating the City Certainly! Exploring Ismailia and finding the perfect place to stay can enhance your travel experience, making your journey through this serene city even more memorable. Here’s a guide "
+    },
+    {
+      "_key": "es",
+      "value": "Explorando Ismailia: Guía para navegar por la ciudad Moverse por Ismailia es fácil, con varias opciones de transporte disponibles puede mejorar tu experiencia de viaje, haciendo que tu recorrido por esta serena ciudad sea aún más memorable."
+    },
+    {
+      "_key": "ja",
+      "value": "イスマイリアを探索する：都市の移動ガイド 確かに！イスマイリアを探索し、完璧な宿泊先を見つけることは、旅行体験をさらに豊かにし、この静かな都市での旅をより記憶に残るものにします。こちらは、イスマイリアを移動するためのガイドと、最適な宿泊施設を選ぶためのヒントです。 イスマイリアは比較的小さな都市で、移動が非常に便利で簡単です。都市内の主な交通手段は以下の通りです： 徒歩：イスマイリアはそのコンパクトなサイズと風光明媚な美しさから、徒歩での探索が最良の方法の一つです。特にスエズ"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Navigating Ismailia"
+    },
+    {
+      "_key": "es",
+      "value": "Navegar por Ismailia"
+    },
+    {
+      "_key": "ja",
+      "value": "イスマイリアの移動方法"
+    }
+  ]
+}

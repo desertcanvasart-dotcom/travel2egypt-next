@@ -1,11 +1,15 @@
 /**
  * TrustStrip — a horizontal row of credibility marks (TripAdvisor rating,
- * Kayak / JATA / IATA / ASTA accreditations, and a "30+ years" badge).
+ * Kayak partner mark, the IATA accreditation, and a "30+ years"
+ * badge). Kayak links to their Hurghada destination guide (owner-confirmed
+ * relationship, 2026-08-19); TripAdvisor links to our review page; the
+ * accreditation marks stay non-linked.
  *
  * Self-contained (Tailwind utilities + brand tokens, sharp/flat) so it can be
  * dropped onto any page — the concierge shell now, the homepage later. Labels
  * are passed in for i18n; the marks themselves are the site's real
- * accreditations (cf. the footer "JATA, IATA, ASTA … accredited").
+ * accreditations (cf. the footer licence line). ASTA and JATA were removed on
+ * the owner's instruction (2026-11-08): no mark without a member number.
  *
  * Session 1: ships with glyph/star treatment only — no partner-logo assets.
  * The TripAdvisor mark links to our review page (opens in a new tab); the
@@ -14,10 +18,11 @@
 
 import type { ReactNode } from 'react';
 
+import { TRIPADVISOR_URL } from '@/lib/company';
+
 const DM = 'font-[family-name:var(--font-dm-sans)]';
 
-const TRIPADVISOR_URL =
-  'https://www.tripadvisor.com/Attraction_Review-g294201-d17406742-Reviews-Travel2Egypt-Cairo_Cairo_Governorate.html';
+const KAYAK_URL = 'https://www.kayak.co.uk/Hurghada.34001.guide';
 
 function Mark({ glyph, label }: { glyph: ReactNode; label: string }) {
   return (
@@ -56,13 +61,14 @@ export function TrustStrip({
         className="flex items-stretch justify-center gap-5 overflow-x-auto px-6 [scrollbar-width:none] md:gap-7 [&::-webkit-scrollbar]:hidden"
       >
         {/* TripAdvisor — rating + brand-green stars (kept green; it is the mark) */}
+        {/* role=listitem lives on the wrapper — ARIA disallows it on a[href] */}
+        <div role="listitem" className="flex min-w-[80px] shrink-0">
         <a
-          role="listitem"
           href={TRIPADVISOR_URL}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Read our reviews on TripAdvisor (opens in a new tab)"
-          className="flex min-w-[80px] shrink-0 flex-col items-center gap-1.5 px-3 py-2 no-underline transition-opacity hover:opacity-70"
+          className="flex w-full flex-col items-center gap-1.5 px-3 py-2 no-underline transition-opacity hover:opacity-70"
         >
           <span className="flex h-9 items-center justify-center text-night">
             <svg width="28" height="28" viewBox="0 0 22 22" fill="currentColor" aria-hidden>
@@ -80,10 +86,18 @@ export function TrustStrip({
             TripAdvisor
           </span>
         </a>
+        </div>
 
-        <Mark
-          label="Kayak"
-          glyph={
+        {/* Kayak — linked partner mark (their Hurghada destination guide) */}
+        <div role="listitem" className="flex min-w-[80px] shrink-0">
+        <a
+          href={KAYAK_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Kayak's Hurghada travel guide (opens in a new tab)"
+          className="flex w-full flex-col items-center gap-1.5 px-3 py-2 no-underline transition-opacity hover:opacity-70"
+        >
+          <span className="flex h-9 items-center justify-center text-night">
             <svg width="28" height="28" viewBox="0 0 22 22" aria-hidden>
               <path
                 d="M3 7l4 4 4-4 4 4 4-4M3 13l4 4 4-4 4 4 4-4"
@@ -94,32 +108,20 @@ export function TrustStrip({
                 strokeLinejoin="round"
               />
             </svg>
-          }
-        />
-        <Mark
-          label="JATA"
-          glyph={
-            <svg width="28" height="28" viewBox="0 0 22 22" aria-hidden>
-              <rect x="2" y="6" width="18" height="12" rx="0" fill="none" stroke="currentColor" strokeWidth="1.5" />
-              <path d="M2 9h18" stroke="currentColor" strokeWidth="1.5" />
-            </svg>
-          }
-        />
+          </span>
+          <span
+            className={`${DM} text-[0.6875rem] font-semibold uppercase tracking-[0.1em] text-ink-muted`}
+          >
+            Kayak
+          </span>
+        </a>
+        </div>
         <Mark
           label="IATA"
           glyph={
             <svg width="28" height="28" viewBox="0 0 22 22" aria-hidden>
               <path d="M11 2 L20 11 L11 20 L2 11 Z" fill="none" stroke="currentColor" strokeWidth="1.5" />
               <circle cx="11" cy="11" r="3" fill="currentColor" />
-            </svg>
-          }
-        />
-        <Mark
-          label="ASTA"
-          glyph={
-            <svg width="28" height="28" viewBox="0 0 22 22" aria-hidden>
-              <path d="M2 18 L11 4 L20 18 Z" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
-              <path d="M11 9 L11 14" stroke="currentColor" strokeWidth="1.5" />
             </svg>
           }
         />

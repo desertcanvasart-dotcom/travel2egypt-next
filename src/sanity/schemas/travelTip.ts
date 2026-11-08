@@ -2,6 +2,7 @@ import { defineField, defineType } from 'sanity';
 import { HelpCircleIcon, TagIcon } from '@sanity/icons';
 
 import { localizedSlugField, localizedPortableTextField } from './_helpers';
+import { DEFINITION_LIST_BLOCK } from './_archiveBlocks';
 
 export const travelTipCategorySchema = defineType({
   name: 'travelTipCategory',
@@ -81,6 +82,9 @@ export const travelTipSchema = defineType({
       localizedPortableTextField('body', {
         title: 'Body',
         group: 'content',
+        // Provider comparison rows (staying-connected-in-egypt) use the shared
+        // definitionList block; declare it so Studio can render and edit it.
+        extraBlocks: [DEFINITION_LIST_BLOCK],
       }) as any
     ),
     defineField({

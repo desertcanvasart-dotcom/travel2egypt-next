@@ -7,11 +7,14 @@ import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { bucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
 import { MastheadStats } from './MastheadStats';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '../FloatingConcierge';
+import '@/styles/tour-system.css';
 
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
 
 interface RawTour {
   _id: string;
@@ -247,7 +250,7 @@ export async function CategoryView({
   const heroStats = [
     { label: c.statAxis, value: navItems.length },
     { label: c.statCount, value: tours.length },
-    { label: ts('catStatSince'), value: 2003 },
+    { label: ts('catStatSince'), value: 1993 },
   ];
   // The editorial section always renders: the byline always has content, and the
   // essay shows when present.
@@ -255,6 +258,20 @@ export async function CategoryView({
 
   return (
     <div className="tour-doc lvl-category">
+      <JsonLd
+        data={[
+          // s47 audit (2026-08-18): the hub category pages were the only
+          // landing type without BreadcrumbList; grid gets an ItemList.
+          buildBreadcrumbList(
+            [
+              { name: tNav('home'), path: '/' },
+              { name: c.crumb, path: mode === 'group' ? '/group-day-tours' : '/private-day-tours' },
+            ],
+            locale,
+          ),
+          buildItemListSchema(tours, locale),
+        ]}
+      />
       <div className="t2e-wrap">
         <nav className="t2e-crumb" aria-label="Breadcrumb">
           <ol>
@@ -382,7 +399,7 @@ export async function CategoryView({
               <Link className="cta-btn cta-btn--primary" href={conciergeHref}>
                 {ts('ctaPrimary')} <span className="cta-arrow" aria-hidden>→</span>
               </Link>
-              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">
+              <a className="cta-btn cta-btn--ghost" href={`${WHATSAPP}?text=${encodeURIComponent(ts('waLandingText', { title: c.mastTitle }))}`} target="_blank" rel="noopener noreferrer">
                 {ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span>
               </a>
             </div>

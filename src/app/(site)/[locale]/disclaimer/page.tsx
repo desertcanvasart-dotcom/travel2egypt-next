@@ -8,7 +8,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
-  return legalMetadata(locale as Locale, 'disclaimer', `/${locale}/disclaimer`);
+  return legalMetadata(locale as Locale, 'disclaimer', '/disclaimer');
 }
 
 export default async function DisclaimerPage({ params }: Props) {

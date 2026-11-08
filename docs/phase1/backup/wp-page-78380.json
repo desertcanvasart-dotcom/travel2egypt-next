@@ -1,0 +1,1635 @@
+{
+  "_createdAt": "2026-05-04T20:35:01Z",
+  "_id": "wp-page-78380",
+  "_rev": "4nTJteTrgF1Sbu2YQK46Hc",
+  "_system": {
+    "base": {
+      "id": "wp-page-78380",
+      "rev": "foUqbMWmQeVyxrmYihZbOx"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T00:06:36Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "08a85y4veal1",
+              "_type": "span",
+              "marks": [],
+              "text": "Flavours of "
+            },
+            {
+              "_key": "hxrfh94q31dh",
+              "_type": "span",
+              "marks": [
+                "fqt3x2ubhy8j"
+              ],
+              "text": "Kom Ombo"
+            },
+            {
+              "_key": "49ugyeivcjr0",
+              "_type": "span",
+              "marks": [],
+              "text": ": A Culinary Journey Through Egypt’s Heartland"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "fqt3x2ubhy8j",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58875",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Kom Ombo, situated in southern "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", is renowned not just for its ancient temple dedicated to the gods Sobek and Horus, but also for its vibrant food scene that mirrors the confluence of cultures and histories in this region. Dining in Kom Ombo offers a palette of flavours that are both deeply traditional and uniquely reflective of Nubian influences prevalent in Upper Egypt."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Egypt",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Traditional Dishes to Try"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ta’meya (Egyptian Falafel):"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": " Made from fava beans rather than chickpeas, this southern-style falafel is greener, fluffier, and bursting with herbs. Often served for breakfast or as a snack, it’s a fresh and flavourful twist on the regional favourite."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ful Medames:"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": " A beloved Egyptian staple, ful in Kom Ombo is slow-cooked with garlic, olive oil, and warming spices. Sometimes topped with fresh tomatoes or eggs, it’s a hearty and satisfying way to start the day."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Molokhia:"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": " This rich, leafy green soup is a national favourite. In Kom Ombo, it’s typically served with chicken or rabbit and accompanied by rice or flatbread. Its unique texture and earthy flavour make it a local comfort dish."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Grilled Fish and "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "000000000013"
+              ],
+              "text": "Nile Seafood: Thanks to Kom Ombo’s"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " riverside location, fresh fish is abundant. Grilled and seasoned with local herbs, Nile perch and tilapia dishes here are light, healthy, and full of flavour."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000013",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/annual-events-in-kom-ombo/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/kom-ombo/annual-events-in-kom-ombo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Dining and Restaurants"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Local Eateries:"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " For a truly authentic "
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "00000000001b"
+              ],
+              "text": "experience"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": ", explore small cafes and street vendors offering dishes like "
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "koshary"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " (a mix of rice, lentils, pasta, and fried onions) and "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "shawarma"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": ". These spots are perfect for tasting everyday "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "000000000022"
+              ],
+              "text": "Egyptian cuisine and connecting with local culture"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/home/dahab-historical-guide-8/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/dahab/dahab-historical-guide",
+              "newTab": false
+            },
+            {
+              "_key": "000000000022",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/the-evolution-of-food-in-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/ejiputo-ryori-no-henka",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nile-Side Dining:"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": " Some Kom Ombo restaurants boast beautiful views of the Nile. Dining at sunset offers a magical setting, especially after a "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "000000000028"
+              ],
+              "text": "day exploring the temple"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": ". Enjoy your meal as "
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "00000000002b"
+              ],
+              "text": "feluccas"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": " drift silently by on the water."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000028",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/7-days-in-egypt-pyramids-temples-and-timeless-wonders/"
+              },
+              "_type": "externalLink",
+              "href": "/7-days-in-egypt-pyramids-temples-and-timeless-wonders",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/explore-egypt-with-a-felucca/"
+              },
+              "_type": "externalLink",
+              "href": "/10-days-felucca-journey-through-egypt",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nubian Cuisine:"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " Kom Ombo’s proximity to Nubia means visitors can explore a culinary tradition distinct from mainstream Egyptian fare. Look for dishes featuring dried okra, hibiscus, spicy stews, and desert truffles—ingredients that tell stories of desert trade and ancient heritage."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "000000000032"
+              ],
+              "text": "Dining in Kom Ombo"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " offers a delightful journey through Egypt’s culinary heritage, with each dish telling a story of its rich culture and history. Whether you’re exploring the ancient ruins or enjoying the scenic beauty of the Nile, the flavors of Kom Ombo are sure to make your visit even more memorable."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000032",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/history-of-kom-ombo/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/kom-ombo/history-of-kom-ombo",
+              "newTab": false
+            }
+          ],
+          "style": "blockquote"
+        },
+        {
+          "_key": "000000000036",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GettyImages-157675568-5c3ee84246e0fb00016e5151.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Ancient Pillars of Kom Omb"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Twilight at Kom Ombo  The Hieroglyphs' Silent Stories Unveiled"
+            }
+          ]
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "Culinary Journey Through Egypt: A Taste of Tradition and Innovation"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "Savor the flavors of Egypt on a culinary adventure that spans traditional dishes to contemporary cuisine. From aromatic street food in bustling markets to gourmet dining along the Nile, our guide invites you to feast on the rich tastes of Egypt. Click here to embark on your delicious journey!"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "1ftf3siwytr6",
+              "_type": "span",
+              "marks": [],
+              "text": "Sabores de "
+            },
+            {
+              "_key": "bd7bc8yj5rbm",
+              "_type": "span",
+              "marks": [
+                "fapahxijf8l4"
+              ],
+              "text": "Kom Ombo"
+            },
+            {
+              "_key": "so2uf8x81zpw",
+              "_type": "span",
+              "marks": [],
+              "text": ": Un viaje culinario por el corazón de Egipto"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "fapahxijf8l4",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58875",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Kom Ombo, situada en el sur de "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", es famosa no sólo por su antiguo templo dedicado a los dioses Sobek y Horus, sino también por su vibrante escena gastronómica que refleja la confluencia de culturas e historias en esta región."
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Cuando cenes en Kom Ombo, disfrutarás de una paleta de sabores que son a la vez tradicionales y reflejo de las influencias nubias que prevalecen en el sur de Egipto."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Platos tradicionales que debes probar"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ta’meya (Falafel egipcio): "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Hecho con habas en lugar de garbanzos, esta versión del falafel es más verde, esponjosa y con hierbas, ofreciendo un giro fresco al clásico bocadillo de Oriente Medio."
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Es imprescindible probarlo en el desayuno o como tentempié en los restaurantes "
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "00000000000f"
+              ],
+              "text": "locales"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": ". "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ful Medames: "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Plato básico del desayuno en todo Egipto, el Ful Medames de Kom Ombo se cocina con una mezcla de especias, aceite de oliva y, a veces, con verduras añadidas, lo que lo convierte en "
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "000000000016"
+              ],
+              "text": "un abundante y"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": " sabroso comienzo del día."
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000016",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/lugares-historicos-del-sinai/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/lugares-historicos-del-sinai",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Molokhia:"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " Esta sopa de hojas verdes es un plato tradicional egipcio que encontrarás en muchos hogares y restaurantes de Kom Ombo."
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "Suele servirse con conejo o pollo, junto con arroz o pan, y es conocida "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "00000000001f"
+              ],
+              "text": "por su textura y sabor"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " característicos. "
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Pescado"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": " y "
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " marisco a la parrilla:"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": " Al estar cerca del Nilo, Kom Ombo ofrece opciones de pescado y marisco fresco."
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Asado a la perfección y sazonado "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "con hierbas y especias locales"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": ", es una opción gastronómica ligera, deliciosa y nutritiva."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viajes-de-baris/sabores-de-baris-un-viaje-culinario-por-el-desierto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/baris/gastronomia-en-baris",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Comedores y Restaurantes"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "El panorama gastronómico de Kom Ombo abarca desde cafés egipcios tradicionales y vendedores ambulantes de comida hasta restaurantes que ofrecen un menú más amplio, con platos internacionales."
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "Aquí tienes algunos consejos para salir a cenar en Kom Ombo:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "**"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Restaurantes locales:**"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": " Para vivir una experiencia auténtica, dirígete a los restaurantes y cafés locales, donde podrás probar platos tradicionales como el Koshary (un plato rico en carbohidratos hecho de arroz, pasta, lentejas y cubierto con una salsa de tomate picante) y el "
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "000000000036"
+              ],
+              "text": "Shawarma"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos lugares ofrecen una visión de "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "las prácticas culinarias cotidianas de los"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " lugareños."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000036",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/shawarma-egipcio-en-giza-restaurante-semsema/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/shawarma-egipcio-en-giza-restaurante-semsema",
+              "newTab": false
+            },
+            {
+              "_key": "00000000003b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/precios-de-las-entradas-a-las-atracciones-de-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/luxor/precios-de-las-entradas-a-las-atracciones-de-luxor",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "**"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cenar junto al Nilo:**"
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": " Algunos restaurantes y cafés de Kom Ombo tienen unas vistas impresionantes del Nilo."
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "Cenar aquí por la noche es una experiencia fascinante, ya que disfrutarás de tu comida "
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "000000000044"
+              ],
+              "text": "con la puesta de sol del Nilo"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " como telón de fondo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000044",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/ritmos-del-nilo-el-cairo-cena-crucero-con-danza-del-vientre/"
+              },
+              "_type": "externalLink",
+              "href": "/es/cena-crucero-por-el-nilo-en-el-cairo-con-danza-oriental",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "**Restaurantes nubios:**"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": " Dada su proximidad a Nubia, Kom Ombo "
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "cuenta"
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": " con varios restaurantes especializados en cocina nubia, conocida por su uso de especias e ingredientes únicos como el quingombó seco y las trufas del desierto."
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos platos ofrecen un paladar diferente de sabores y son de obligada degustación para quienes deseen explorar la diversidad culinaria de Egipto."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "Cenar en Kom Ombo ofrece un delicioso viaje a través del patrimonio culinario de Egipto, en el que cada plato cuenta una "
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [
+                "000000000051"
+              ],
+              "text": "historia de su rica cultura"
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " e historia."
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "Tanto si estás explorando las antiguas ruinas como disfrutando de la belleza paisajística del Nilo, los sabores de "
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "000000000056"
+              ],
+              "text": "Kom Ombo"
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": " harán que tu visita sea aún más memorable."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000051",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+              "newTab": false
+            },
+            {
+              "_key": "000000000056",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/visita-a-esna-edfu-y-kom-ombo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+              "newTab": false
+            }
+          ],
+          "style": "blockquote"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 23 de Séptiembre , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "xp58vcks02zz",
+              "_type": "span",
+              "marks": [
+                "17m995agm4lf"
+              ],
+              "text": "コム・オンボ"
+            },
+            {
+              "_key": "2dq7ehh0j9o6",
+              "_type": "span",
+              "marks": [],
+              "text": "の風味：エジプトの中心地を巡る美食の旅"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "17m995agm4lf",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58875",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプト南部に位置するコム・オンボは、ワニ神ソベクと隼の神ホルスに捧げられた古代神殿で知られるだけでなく、この地域に息づく文化や歴史が交わる活気あふれる食文化でも有名です。コム・オンボでの食事は、伝統的な味わいに、エジプト南部に広く根付くヌビアの影響が加わり、豊かな風味のパレットを堪能できます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "ぜひ試してみたい伝統的な料理"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ターメイヤ（エジプト風ファラフェル）："
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "ヒヨコ豆ではなくファヴァ豆を使ったこのファラフェルは、緑が濃く、ふんわりとしてハーブの風味が特徴です。中東の定番スナックに新鮮なひねりを加えた一品で、地元の食堂で朝食や軽食としてぜひ試してみてください。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "フール・メダメス："
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプト全土で定番の朝食メニューであるフール・メダメスは、スパイスとオリーブオイルを使い、時には野菜を加えて調理されます。コム・オンボで味わうフール・メダメスは、1日の始まりにぴったりの、満足感のある風味豊かな料理です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "モロヘイヤ："
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "この葉野菜スープはエジプトの伝統料理の一つで、コム・オンボの多くの家庭やレストランで提供されています。ウサギ肉や鶏肉と一緒に、またはご飯やパンとともに出されることが多く、独特の食感と風味が魅力です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "グリルした魚やシーフード："
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "ナイル川に近いコム・オンボでは、新鮮な魚介料理を楽しめます。地元のハーブやスパイスで調味し、完璧にグリルされたこれらの料理は、軽めの食事としてヘルシーで美味しいオプションです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "ダイニング＆レストラン"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "コム・オンボの食文化は、伝統的なエジプトのカフェやストリートフードの屋台から、国際料理を含む豊富なメニューを提供するレストランまで、多岐にわたります。以下はコム・オンボで外食を楽しむ際のポイントです："
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "地元の食堂："
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "本格的な体験を求めるなら、地元の食堂やカフェへ足を運んでみてください。コシャリ（米、パスタ、レンズ豆を合わせ、スパイシーなトマトソースをかけた炭水化物たっぷりの料理）やシャワルマを試してみましょう。これらの場所では、地元の日常的な食文化を垣間見ることができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ナイル川沿いのダイニング："
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "コム・オンボにはナイル川の美しい眺めを楽しめるレストランやカフェがあります。夕方にはナイル川の夕日を背景に食事を楽しむことで、忘れられないひとときを過ごせます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ヌビア料理のレストラン："
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "ヌビアに近い地理的な利点を生かし、コム・オンボには独特なスパイスや乾燥オクラ、砂漠のトリュフといった食材を使ったヌビア料理を専門とするレストランがいくつかあります。これらの料理は、エジプトの食文化の多様性を探るうえで見逃せない一品です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "コム・オンボでの食事は、エジプトの豊かな文化と歴史が息づく料理を通じた素晴らしい旅を提供してくれます。古代遺跡を巡る合間にも、ナイル川の美しい景色を楽しむひとときにも、コム・オンボの風味は訪れる人々の体験を一層特別なものにしてくれることでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " 更新日：2025年3月23日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Rustic earthenware bowl of chickpea and bean stew in golden broth, topped with chopped parsley, flatbread alongside"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Cuenco rústico de barro con guiso de garbanzos y alubias en caldo dorado, coronado con perejil picado y pan plano al lado"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "刻んだパセリを散らした黄金色のヒヨコ豆と豆の煮込みが入った素朴な土鍋と、脇に添えられた平焼きパン。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-7bcb7449d05db5d5d699957a98efbfcd82b1cf5e-9520x6336-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Slow-cooked beans and chickpeas are everyday comfort food along the Nile."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Las legumbres cocinadas a fuego lento son el plato casero de todos los días junto al Nilo."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "じっくり煮込んだ豆料理は、ナイル河畔の日常の味。"
+      }
+    ]
+  },
+  "kind": "food",
+  "migration": {
+    "migratedAt": "2026-05-05T12:55:26.522Z",
+    "reviewFlag": "section-needs-assignment",
+    "source": "wp-import",
+    "wpId": 78380,
+    "wpModifiedAt": "2026-04-15T00:11:12",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/what-to-eat-in-kom-ombo/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58875",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "what-to-eat-in-kom-ombo"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "gastronomia-de-kom-ombo"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "komu-ombo-no-ryori"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Flavours of Kom Ombo: A Culinary Journey Through Egypt s Heartland Kom Ombo, situated in southern Egypt, is renowned not just for its ancient temple dedicated to the gods Sobek and Horus, but also for its vibrant food scene that mirrors the"
+    },
+    {
+      "_key": "es",
+      "value": "Sabores de Kom Ombo: Un viaje culinario por el corazón de Egipto Kom Ombo, situada en el sur de Egipto, es famosa no sólo por su antiguo templo dedicado a los dioses Sobek y Horus, sino también por su vibrante escena gastronómica que reflej"
+    },
+    {
+      "_key": "ja",
+      "value": "コム・オンボの風味：エジプトの中心地を巡る美食の旅 エジプト南部に位置するコム・オンボは、ワニ神ソベクと隼の神ホルスに捧げられた古代神殿で知られるだけでなく、この地域に息づく文化や歴史が交わる活気あふれる食文化でも有名です。コム・オンボでの食事は、伝統的な味わいに、エジプト南部に広く根付くヌビアの影響が加わり、豊かな風味のパレットを堪能できます。 ぜひ試してみたい伝統的な料理 ターメイヤ（エジプト風ファラフェル）：ヒヨコ豆ではなくファヴァ豆を使ったこのファラフェルは、緑が濃く"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "What To Eat In Kom Ombo"
+    },
+    {
+      "_key": "es",
+      "value": "Gastronomía de Kom Ombo"
+    },
+    {
+      "_key": "ja",
+      "value": "コム・オンボの料理"
+    }
+  ]
+}

@@ -12,7 +12,7 @@ export const trustBadgeSchema = defineType({
   title: 'Trust badge',
   type: 'document',
   icon: StarIcon,
-  description: 'JATA, IATA, ASTA, TripAdvisor, Kayak, "30+ Years" — the badges that anchor trust strips.',
+  description: 'IATA, ETAA, TripAdvisor, Kayak, "30+ Years" — the badges that anchor trust strips.',
   fields: [
     defineField({
       name: 'name',
@@ -493,6 +493,31 @@ export const siteSettingsSchema = defineType({
       type: 'array',
       group: 'trust',
       of: [{ type: 'reference', to: [{ type: 'trustBadge' }] }],
+    }),
+    // Licence + accreditation numbers (homepage fix round 1, 2026-11-08).
+    // The ONLY source for these numbers anywhere on the site: footer, hero
+    // proof row, tour/package trust line and Organization JSON-LD all read
+    // them here. An empty field means that item is not shown at all.
+    defineField({
+      name: 'ministryLicenceNumber',
+      title: 'Ministry of Tourism licence number',
+      type: 'string',
+      group: 'trust',
+      description: 'Leave empty until confirmed — the item is then hidden everywhere.',
+    }),
+    defineField({
+      name: 'etaaNumber',
+      title: 'ETAA number',
+      type: 'string',
+      group: 'trust',
+      description: 'Egyptian Travel Agents Association number. Also builds the ETAA verification link.',
+    }),
+    defineField({
+      name: 'iataNumber',
+      title: 'IATA code',
+      type: 'string',
+      group: 'trust',
+      description: 'Full IATA agency code (normally 8 digits). Leave empty until confirmed.',
     }),
     defineField({
       name: 'contact',

@@ -1,0 +1,2714 @@
+{
+  "_createdAt": "2026-05-20T15:14:56Z",
+  "_id": "guideArticle.luxor.the-mortuary-temple-of-queen-hatshepsut",
+  "_rev": "PUXUI6sshIht1BONydPxJ4",
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:01:26Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "The Mortuary Temple of Queen Hatshepsut at El-Deir el-Bahri"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Historical Context"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Pharaoh"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ": Queen Hatshepsut, one of the few female pharaohs of ancient Egypt, ruling in the 18th Dynasty."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Location"
+            },
+            {
+              "_key": "l98hlsnszsic",
+              "_type": "span",
+              "marks": [],
+              "text": ": Situated in the bay of cliffs known as Deir el-Bahri on the West Bank of "
+            },
+            {
+              "_key": "19yg1krrq2v0",
+              "_type": "span",
+              "marks": [
+                "5i0jtyngbjdq"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "lkgetici0xbo",
+              "_type": "span",
+              "marks": [],
+              "text": ", near the "
+            },
+            {
+              "_key": "ijk0ujdwzi3s",
+              "_type": "span",
+              "marks": [
+                "pviqta6b5zue"
+              ],
+              "text": "Valley of the Kings"
+            },
+            {
+              "_key": "scp1h9jaaxen",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "5i0jtyngbjdq",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "pviqta6b5zue",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.valley-of-the-kings",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Construction Era"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": ": 18th Dynasty, New Kingdom period."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Architectural Significance"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Design"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": ": The temple, known as Djeser-Djeseru (the ‘sacred of sacred’), is renowned for its grand architecture, terraced structure, and alignment with the Karnak Temple."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Influence"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": Reflects architectural elements from the Middle Kingdom temple of Mentuhotep Nebhepetre in the same area."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Features and Artistic Elements"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Terraces"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": ": Built on three levels with a connecting causeway, previously linked to a Valley Temple and the Nile."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Gardens"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": ": The lower courtyard originally featured exotic gardens with trees."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Reliefs"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": ": The temple’s walls are adorned with intricate and colorful reliefs."
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Expedition to Punt"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": ": Famous scenes depicting the journey to the mysterious land of Punt, showcasing exotic animals, plants, and the local people, including the depiction of the ‘Queen of Punt’."
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Divine Birth and Coronation"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": ": Illustrations of Hatshepsut’s divine birth narrative and her coronation ceremonies, affirming her right to rule."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Restoration and Alterations"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Damage and Restoration"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": ": Over time, parts of the temple were damaged and defaced, notably by Hatshepsut’s successor, Thutmose III. Restoration efforts have been ongoing to preserve its original splendor."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Current State"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": ": The temple stands as a testament to Hatshepsut’s reign and architectural vision, attracting scholars and tourists alike."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Significance in Egyptian Culture"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cultural and Religious Importance"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": ": The temple served as both a commemorative monument for Hatshepsut and a religious center for the worship of Amun and other deities."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Archaeological Value"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": ": Provides insights into the religious beliefs, artistic styles, and trade expeditions of the New Kingdom era."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitor Experience"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Tourism"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": ": A key "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "attraction in Luxor"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": ", offering a unique glimpse into the life and legacy of one of Egypt’s most intriguing pharaohs."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000038",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-133058-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Educational Value"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": ": The temple’s reliefs and structure offer a rich educational experience for those interested in ancient Egyptian history and mythology."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusion"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "The Mortuary Temple of Queen Hatshepsut"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": " at El-Deir el-Bahri is a monumental tribute to one of Egypt’s most extraordinary rulers. Its architectural elegance, richly detailed reliefs, and historical significance make it a crown jewel of ancient Egyptian heritage in Luxor."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2023/12/Abu_Simbel-front-image.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "abu simble travel guide"
+            }
+          ]
+        },
+        {
+          "_key": "000000000046",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2023/12/abu-simble-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "abu simble travel guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "El templo funerario de la reina Hatshepsut en El-Deir el-Bahri"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Contexto histórico"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Faraona"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ": La reina Hatshepsut, una de las pocas faraonas del antiguo Egipto, que gobernó en la XVIII Dinastía."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Localización"
+            },
+            {
+              "_key": "o4q9ma83jyg1",
+              "_type": "span",
+              "marks": [],
+              "text": ": Situada en la bahía de acantilados conocida como Deir el-Bahri, en la orilla oeste de "
+            },
+            {
+              "_key": "34fd8oepl9gt",
+              "_type": "span",
+              "marks": [
+                "qozelgum9yqj"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "4qfjn73peha4",
+              "_type": "span",
+              "marks": [],
+              "text": ", cerca del Valle de los Reyes."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "qozelgum9yqj",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Época de construcción"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": ": Dinastía XVIII, periodo del Reino Nuevo."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Importancia arquitectónica"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Diseño"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": ": El templo, conocido como Djeser-Djeseru (lo «sagrado de lo sagrado»), es famoso por su grandiosa arquitectura, su estructura en terrazas y su alineación con el templo de Karnak."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Influencia"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": Refleja elementos arquitectónicos del templo del Reino Medio de Mentuhotep Nebhepetre, situado en la misma zona."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Características y elementos artísticos"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Terrazas"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": ": Construidas en tres niveles con una calzada de conexión, anteriormente unidas a un Templo del Valle y al Nilo."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Jardines"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": ": El patio inferior contaba originalmente con jardines exóticos con árboles."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Relieves"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Las paredes del templo están adornadas con intrincados y coloridos relieves. "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Expedición a Punt"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": ": Famosas escenas que representan el viaje a la misteriosa tierra de Punt, mostrando animales exóticos, plantas y la población local, incluida la representación de la «Reina de Punt»."
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nacimiento divino y coronación"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": ": Ilustraciones de la narración del nacimiento divino de Hatshepsut y de sus ceremonias de coronación, que afirman su derecho a gobernar."
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Restauración y reformas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Daños y restauración"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": ": Con el tiempo, algunas partes del templo sufrieron daños y desfiguraciones, sobre todo a manos del sucesor de Hatshepsut, Tutmosis III."
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": " Se han llevado a cabo trabajos de restauración para preservar su esplendor original. "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Estado actual"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": ": El templo se erige como testimonio del reinado y la visión arquitectónica de Hatshepsut, atrayendo a estudiosos y turistas por igual."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Importancia en la cultura egipcia"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Importancia cultural y religiosa"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": ": El templo sirvió tanto de monumento conmemorativo de Hatshepsut como de centro religioso para el culto a Amón y otras divinidades."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Valor arqueológico"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": ": Proporciona información sobre las creencias religiosas, los estilos artísticos y las expediciones comerciales de la época del Nuevo Reino."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Experiencia del visitante"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Turismo"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": ": Una atracción clave en Luxor, que ofrece una visión única de la vida y el legado de uno de los faraones más intrigantes de Egipto."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Valor educativo"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": ": Los relieves y la estructura del templo ofrecen una rica experiencia educativa para los interesados en la historia y la mitología del antiguo Egipto."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusión"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "El Templo Mortuorio de la reina Hatshepsut en El-Deir el-Bahri es un homenaje monumental a una de las soberanas más extraordinarias de Egipto."
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " Su elegancia arquitectónica, sus relieves ricamente detallados y su importancia histórica lo convierten en una joya de la corona del patrimonio del antiguo Egipto en Luxor. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "ctrwogdq91de",
+              "_type": "span",
+              "marks": [],
+              "text": "PRESENTACIÓN DE "
+            },
+            {
+              "_key": "okpuat5agi85",
+              "_type": "span",
+              "marks": [
+                "obv5ev0mv3lo"
+              ],
+              "text": "Abu Simbel"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "obv5ev0mv3lo",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-56813",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [
+                "00000000004a"
+              ],
+              "text": "Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004a",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/historia-de-abu-simbel",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "00000000004d"
+              ],
+              "text": "El tiempo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004d",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/clima-y-mejor-epoca-para-visitar-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "PLANIFICA TU VIAJE"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [
+                "000000000052"
+              ],
+              "text": "Cómo ir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000052",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/como-llegar-a-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [
+                "000000000055"
+              ],
+              "text": "Dónde alojarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000055",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/donde-alojarse-en-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "MIENTRAS ESTÉS ALLÍ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [
+                "00000000005a"
+              ],
+              "text": "Cómo desplazarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005a",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/como-moverse-por-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [
+                "00000000005d"
+              ],
+              "text": "Cosas que hacer"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005d",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/que-hacer-en-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "LUGARES DONDE IR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [
+                "000000000062"
+              ],
+              "text": "El Gran Templo de Abu Simble"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000062",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/el-gran-templo-de-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [
+                "000000000065"
+              ],
+              "text": "El Pequeño Templo de Abu Simble"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000065",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/el-templo-pequeno-de-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [
+                "000000000068"
+              ],
+              "text": "Qasr Ibrim"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000068",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.abu-simbel.qasr-ibrim",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [
+                "00000000006b"
+              ],
+              "text": "El Templo de Amada"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006b",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.abu-simbel.the-temple-of-amada",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [
+                "00000000006e"
+              ],
+              "text": "El Templo de Derr"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006e",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.abu-simbel.the-temple-of-derr",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000072",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [],
+              "text": "OTROS"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [
+                "000000000073"
+              ],
+              "text": "Visitas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000073",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/tours-y-excursiones-a-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [
+                "000000000076"
+              ],
+              "text": "Alimentación"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000076",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/sabores-locales-en-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "000000000079"
+              ],
+              "text": "Sólo aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000079",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/solo-en-abu-simbel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [
+                "00000000007c"
+              ],
+              "text": "Evento"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007c",
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/fiestas-del-sol",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2023/12/Abu_Simbel-front-image.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "abu simble travel guide"
+            }
+          ]
+        },
+        {
+          "_key": "000000000080",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2023/12/abu-simble-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "abu simble travel guide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "エル・デイル・エル・バハリにあるハトシェプスト女王葬祭殿"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ハトシェプスト女王葬祭殿（エル・デイル・エル・バハリ）"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "歴史的背景"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ファラオ："
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": " ハトシェプスト女王は、古代エジプトで数少ない女性ファラオのひとりであり、第18王朝に君臨しました。"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "場所："
+            },
+            {
+              "_key": "colzgoug3cw4",
+              "_type": "span",
+              "marks": [],
+              "text": " ルクソール西岸、"
+            },
+            {
+              "_key": "tn0pl1taha5e",
+              "_type": "span",
+              "marks": [
+                "82i0jejxofls"
+              ],
+              "text": "王家の谷"
+            },
+            {
+              "_key": "26fh4lhmnzst",
+              "_type": "span",
+              "marks": [],
+              "text": "の近く、デイル・エル・バハリと呼ばれる断崖の湾に位置しています。"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "建設時代："
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": " 新王国時代、第18王朝。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "82i0jejxofls",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.valley-of-the-kings",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "建築的意義"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "設計："
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " この神殿は「ジェセル・ジェセルウ（聖なる聖所）」として知られ、壮麗な建築様式と段状の構造、カルナック神殿と正確に調和した配置で高く評価されています。"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "影響："
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " 同じ地域にある中王国時代のメンチュヘテプ2世の神殿から多くの建築的影響を受けています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "構造と芸術的要素"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "テラス："
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " 三層構造の段々状のテラスにより構成され、それぞれの層はスロープでつながれており、かつては谷の神殿やナイル川と連結していました。"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "庭園："
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": " 下層の中庭には、かつて異国の樹木が植えられた庭園が広がっていました。"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "浮彫："
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": " 神殿の壁面には、精緻で色彩豊かなレリーフが施されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "特筆すべき場面"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "プント遠征："
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": " 神秘の地プントへの航海を描いた有名な場面で、異国の動植物や現地の人々、そして「プントの女王」の姿が描かれています。"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "神聖な誕生と戴冠式："
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": " ハトシェプストの神格化された誕生の物語や、彼女の統治権を正当化する戴冠式の場面も見どころです。"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "修復と変遷"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "破壊と修復："
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " 時を経て、神殿の一部は損壊・破壊されました。特に後継者であるトトメス3世による破損が顕著です。現在も元の壮麗さを蘇らせるための修復作業が進められています。"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "現状："
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " 神殿はハトシェプストの統治と建築的ビジョンを象徴する存在として、学者や観光客を魅了し続けています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプト文化における意義"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "宗教的・文化的役割："
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": " この神殿は、ハトシェプストを記念する記念碑であると同時に、アメン神をはじめとする神々への信仰の場でもありました。"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "考古学的価値："
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": " 新王国時代の宗教観、美術様式、そして海外貿易についての貴重な手がかりを提供しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "訪問者体験"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "観光："
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": " ルクソールでも屈指の人気観光地の一つであり、エジプトでも特に魅力的なファラオの生涯と遺産を垣間見ることができます。"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "教育的価値："
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " 神殿の構造とレリーフは、古代エジプトの歴史と神話に興味を持つ人々にとって学びの宝庫です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "結びに"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "エル・デイル・エル・バハリにそびえるハトシェプスト女王葬祭殿は、エジプトの歴史の中でも類いまれな支配者のひとりに捧げられた壮大な記念碑です。その建築美、豊かな装飾、そして歴史的意義は、ルクソールにおける古代エジプト遺産の中でもまさに至宝といえるでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "lw3dd6ct8f77",
+              "_type": "span",
+              "marks": [
+                "9ltsw26ju3ll"
+              ],
+              "text": "アブ・シンベル"
+            },
+            {
+              "_key": "ixs8tk4ndm8u",
+              "_type": "span",
+              "marks": [],
+              "text": "の紹介"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "9ltsw26ju3ll",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-56813",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [
+                "00000000004c"
+              ],
+              "text": "歴史"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004c",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abu-shin-beru-no-rekishi-nitsuite",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "00000000004f"
+              ],
+              "text": "天気"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004f",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abu-shin-beru-no-tenki-to-besuto-shizun",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行の計画"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [
+                "000000000054"
+              ],
+              "text": "行き方"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000054",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abu-shin-beru-e-no-iki-kata",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [
+                "000000000057"
+              ],
+              "text": "宿泊先"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000057",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abu-shin-beru-no-hoteru-to-shukuhaku",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "滞在中に"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [
+                "00000000005c"
+              ],
+              "text": "現地での移動方法"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005c",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abu-shin-beru-no-ido-gaido",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": "おすすめのアクティビテ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005f",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000066",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [
+                "000000000064"
+              ],
+              "text": "アブ・シンベル大神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000064",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abushimberu-dai-shinden",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [
+                "000000000067"
+              ],
+              "text": "アブ・シンベル小"
+            },
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [
+                "000000000069"
+              ],
+              "text": "神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000067",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abushimberu-sho-shinden",
+              "newTab": false
+            },
+            {
+              "_key": "000000000069",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abushimberu-dai-shinden",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [
+                "00000000006c"
+              ],
+              "text": "カスル・イブリム"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006c",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/kasuruiburimu",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [
+                "00000000006f"
+              ],
+              "text": "アマダの神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006f",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/amada-shinden",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000074",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [
+                "000000000072"
+              ],
+              "text": "デールの神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000072",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/deru-shinden",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "その他"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": "ツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [
+                "00000000007a"
+              ],
+              "text": "食事"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007a",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abu-shin-beru-jimoto-no-mikaku",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [
+                "00000000007d"
+              ],
+              "text": "ここだけ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%83%96%e3%83%bb%e3%82%b7%e3%83%b3%e3%83%99%e3%83%ab%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%96%e3%83%bb%e3%82%b7%e3%83%b3%e3%83%99%e3%83%ab%ef%bc%9a%e3%83%a6%e3%83%8b%e3%83%bc%e3%82%af%e3%81%aa%e7%99%ba%e8%a6%8b%e3%81%a8%e9%9a%a0%e3%82%8c%e3%81%9f%e5%ae%9d%e7%9f%b3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000082",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [
+                "000000000080"
+              ],
+              "text": "イベント"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000080",
+              "_type": "externalLink",
+              "href": "/ja/guide/abu-shinberu/abu-shin-beru-taiyo-no-matsuri",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2023/12/Abu_Simbel-front-image.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "abu simble travel guide"
+            }
+          ]
+        },
+        {
+          "_key": "000000000084",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2023/12/abu-simble-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "abu simble travel guide"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "featured": null,
+  "kind": "attraction",
+  "migration": {
+    "migratedAt": "2026-05-20T15:14:55.902Z",
+    "source": "wp-import-monument-consolidation",
+    "wpId": 60667,
+    "wpModifiedAt": "2025-04-08T15:10:01",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-mortuary-temple-of-queen-hatshepsut/"
+  },
+  "monumentType": "mortuary-temple",
+  "parentCity": {
+    "_ref": "wp-page-58877",
+    "_type": "reference"
+  },
+  "placesToGoGroup": "West Bank",
+  "section": "places-to-go",
+  "seo": {
+    "metaDescription": [
+      {
+        "_key": "en",
+        "_type": "internationalizedArrayTextValue",
+        "value": "Historical Context…"
+      },
+      {
+        "_key": "ja",
+        "_type": "internationalizedArrayTextValue",
+        "value": "ハトシェプスト女王葬祭殿（エル・デイル・エル・バハリ）…"
+      }
+    ]
+  },
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "the-mortuary-temple-of-queen-hatshepsut"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "el-templo-mortuorio-de-la-reina-hatshepsut"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "joo-hatoshepusuto-so-saiden"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "es",
+      "value": "Home El templo funerario de la reina Hatshepsut en El-Deir el-Bahri Contexto histórico Faraona: La reina Hatshepsut, una de las pocas faraonas del antiguo Egipto, que gobernó en la XVIII Dinastía. Localización: Situada en la bahía de acanti"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "The Mortuary Temple of Queen Hatshepsut"
+    },
+    {
+      "_key": "es",
+      "value": "El Templo Mortuorio de la Reina Hatshepsut"
+    },
+    {
+      "_key": "ja",
+      "value": "女王ハトシェプスト葬祭殿"
+    }
+  ]
+}

@@ -6,6 +6,7 @@
  * — the filters object is a closed enumeration; we never echo arbitrary
  * strings from the URL straight into the DB query.
  */
+import { ROUTED_BRANDS, type RoutedBrand } from '@/lib/concierge/brands';
 
 export const PAGE_SIZE = 20;
 
@@ -38,6 +39,8 @@ export interface ListFilters {
   flagged: boolean | null;
   flagReason: FlagReason | null;
   reviewed: boolean | null;
+  /** routed_brand controlled vocab (Session 13) — oversight filter by room. */
+  brand: RoutedBrand | null;
   sort: SortKey;
   /** 1-indexed page number. */
   page: number;
@@ -45,6 +48,7 @@ export interface ListFilters {
 
 const LOCALES = new Set<LocaleKey>(['en', 'es', 'ja']);
 const FLAG_REASON_SET = new Set<FlagReason>(FLAG_REASONS);
+const BRAND_SET = new Set<RoutedBrand>(ROUTED_BRANDS);
 
 function parseBool(v: string | null): boolean | null {
   if (v === 'true') return true;
@@ -58,6 +62,10 @@ function parseLocale(v: string | null): LocaleKey | null {
 
 function parseFlagReason(v: string | null): FlagReason | null {
   return v && FLAG_REASON_SET.has(v as FlagReason) ? (v as FlagReason) : null;
+}
+
+function parseBrand(v: string | null): RoutedBrand | null {
+  return v && BRAND_SET.has(v as RoutedBrand) ? (v as RoutedBrand) : null;
 }
 
 function parseDate(v: string | null): string | null {
@@ -89,6 +97,7 @@ export function parseFilters(sp: URLSearchParams): ListFilters {
     flagged: parseBool(sp.get('flagged')),
     flagReason: parseFlagReason(sp.get('flagReason')),
     reviewed: parseBool(sp.get('reviewed')),
+    brand: parseBrand(sp.get('brand')),
     sort: 'recent', // v1: length/tokens sort follows the admin views migration
     page: parsePage(sp.get('page')),
   };
@@ -111,6 +120,7 @@ export function encodeFilters(filters: Partial<ListFilters>): URLSearchParams {
   if (filters.reviewed !== null && filters.reviewed !== undefined) {
     sp.set('reviewed', String(filters.reviewed));
   }
+  if (filters.brand) sp.set('brand', filters.brand);
   if (filters.page && filters.page > 1) sp.set('page', String(filters.page));
   return sp;
 }

@@ -51,17 +51,22 @@ if (argIdx === -1 || !process.argv[argIdx + 1]) {
 }
 const ids = [...new Set(readFileSync(resolve(process.cwd(), process.argv[argIdx + 1]), 'utf8').trim().split('\n').filter(Boolean))];
 
-/** Concatenated body span text per locale entry — link edits never change this. */
+/**
+ * Concatenated span text per locale entry — link edits never change this.
+ * Covers both linked-field shapes: `body` (article/guideArticle) and
+ * `answer` (faqEntry, 2026-08-19 FAQ weave).
+ */
 function bodyText(doc: any): string {
+  const field = doc?.body ?? doc?.answer ?? [];
   return JSON.stringify(
-    (doc?.body ?? []).map((e: any) =>
+    field.map((e: any) =>
       (Array.isArray(e.value) ? e.value : [e]).map((b: any) => (b.children ?? []).map((s: any) => s.text ?? '').join('')).join('|')
     )
   );
 }
-/** Everything except body and volatile system fields. */
+/** Everything except the linked field(s) and volatile system fields. */
 function nonBody(doc: any): string {
-  const { body, _rev, _updatedAt, _id, ...rest } = doc ?? {};
+  const { body, answer, _rev, _updatedAt, _id, ...rest } = doc ?? {};
   return JSON.stringify(rest, Object.keys(rest).sort());
 }
 

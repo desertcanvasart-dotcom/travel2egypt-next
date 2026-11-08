@@ -34,7 +34,27 @@ export function CurrencyProvider({
   useEffect(() => {
     const m = document.cookie.match(new RegExp(`(?:^|; )${COOKIE}=([^;]+)`));
     const stored = m && decodeURIComponent(m[1]);
-    if (stored && CURRENCIES[stored] && stored !== currency) setCur(stored);
+    if (stored && CURRENCIES[stored]) {
+      if (stored !== currency) setCur(stored);
+      return;
+    }
+    // No explicit pick stored → ask for the cookie-free geo suggestion and
+    // apply it IN MEMORY only (s47 compliance, 2026-08-18: the middleware no
+    // longer persists a geo-derived t2e_ccy before any user action; the
+    // cookie is written solely in setCurrency below). Fire-and-forget — on
+    // failure or `{ currency: null }` (no cf-ipcountry, e.g. local dev) the
+    // per-locale SSR default simply stands.
+    let cancelled = false;
+    fetch('/api/geo-currency')
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d: { currency?: string | null } | null) => {
+        const geo = d?.currency;
+        if (!cancelled && geo && CURRENCIES[geo]) setCur(geo);
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
     // read once on mount; selection thereafter drives state
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

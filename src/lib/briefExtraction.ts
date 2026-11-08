@@ -1,5 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 
+import { coerceBrand } from '@/lib/concierge/brands';
 import { CONCIERGE_MODEL } from '@/lib/concierge/constants';
 import type { BriefPayload } from '@/types/concierge';
 
@@ -28,6 +29,7 @@ Rules:
 - comfort_level vocabulary: 'budget' | 'mid-range' | 'boutique' | 'international-5-star' | 'luxury', or a short specific phrase the traveler used; null if no signal.
 - timezone: only if explicitly stated or unambiguous from origin city; else null.
 - follow_up_window: the Cairo-time commitment the agent made for the team's response (e.g. "by 8 p.m. Cairo time," "by 10 a.m. Cairo time tomorrow"), as a string, or null if no commitment was made.
+- routed_brand + routing_reason: READ BACK the agent's routing decision — do not classify on your own. Travel2Egypt is the main brand and the default. The agent may instead hand the traveler to a sister brand IN ITS OWN WORDS near the end (some version of "the right people in our family are the [brand] team", or "our sister company [brand] fits this best — we are sending your request to their team", possibly with the brand's website link). When it clearly does, set routed_brand to that brand: 'affordegypt' | 'sawa' | 'sillage'. If the agent did NOT explicitly hand off to a sister brand, routed_brand is 'travel2egypt'. Never infer a sister brand the agent did not actually voice — when unsure, 'travel2egypt'. routing_reason: a short team-facing phrase for WHY the agent routed there (e.g. "price-first, comparing car-and-guide quotes"; "solo traveler wanting to join a group"; "discerning luxury, books own hotel, wants private GEM"), or null when routed_brand is 'travel2egypt' or no reason is evident. The agent speaking in a luxury register, promising exclusive access itself, or otherwise sounding like a sister brand is NOT a handoff — routed_brand stays 'travel2egypt' unless the agent explicitly names the sister brand as the team receiving the request. Register is never routing.
 
 Example 1 — complete with wrap turn:
 User: It'd be me and my husband, celebrating our anniversary. Late October maybe, around 10 days. We love history but hate crowds.
@@ -41,7 +43,8 @@ Agent: Lovely. I'll pass this to our team — Sara will write to you by 8 p.m. C
   "preferences": {"comfort_level":"boutique","interests":["history"],"must_see":[],"must_avoid":["crowds"]},
   "constraints": {"dietary":null,"mobility":null,"religious":null,"medical":null},
   "brief_summary":"2 travelers (anniversary), Manchester UK, ~10 days late October, history-focused but crowd-averse; private dahabiya Luxor–Aswan discussed.",
-  "follow_up_window":"by 8 p.m. Cairo time" }
+  "follow_up_window":"by 8 p.m. Cairo time",
+  "routed_brand":"travel2egypt","routing_reason":null }
 
 Example 2 — not complete (no contact, vague):
 User: Just curious about Egypt, maybe next year. What's the Nile like?
@@ -54,7 +57,8 @@ User: Probably the temples. Not sure on timing yet.
   "preferences": {"comfort_level":null,"interests":["temples","ancient sites"],"must_see":[],"must_avoid":[]},
   "constraints": {"dietary":null,"mobility":null,"religious":null,"medical":null},
   "brief_summary":"Early-stage explorer interested in temples; tentative timing next year; no contact or firm trip context yet.",
-  "follow_up_window":null }
+  "follow_up_window":null,
+  "routed_brand":"travel2egypt","routing_reason":null }
 
 Example 3 — complete with constraints and mobility:
 User: Three of us — my parents and me. Mom uses a walker, so nothing with heavy walking on uneven ground. Dad's vegetarian. Two weeks in February. We want to see the pyramids and the Egyptian Museum, but skip the bazaar tours.
@@ -68,9 +72,27 @@ Agent: Thank you Lisa. I'll get this to our team — they'll write to you by 10 
   "preferences": {"comfort_level":null,"interests":["pyramids","Egyptian Museum"],"must_see":["Grand Egyptian Museum"],"must_avoid":["bazaar tours"]},
   "constraints": {"dietary":"father vegetarian","mobility":"mother uses a walker, no heavy walking on uneven ground","religious":null,"medical":null},
   "brief_summary":"3 travelers (adult daughter + parents), Seattle, 2 weeks February. Pyramids and GEM are must-sees; skip bazaar tours. Mother uses a walker, father vegetarian.",
-  "follow_up_window":"by 10 a.m. Cairo time tomorrow" }
+  "follow_up_window":"by 10 a.m. Cairo time tomorrow",
+  "routed_brand":"travel2egypt","routing_reason":null }
 
-Output ONLY the JSON object, exactly in the shape shown above — every field present, real null (not the string "null") where absent, no markdown code fences, and no commentary before or after.`;
+Example 4 — complete, agent handed off to a sister brand (read it back):
+User: I just need a car and a guide in Cairo for a couple of days.
+Agent: Happy to help. Are you thinking the Giza plateau and the Egyptian Museum, or something more particular?
+User: The pyramids — but ideally a private visit. We've booked the Four Seasons on points, so just the touring, and we care a lot about getting a genuinely top Egyptologist.
+Agent: Understood — a private, early-access pyramids morning with a senior Egyptologist is exactly the kind of thing to get right. For a trip of this sensibility the right people in our family are the Sillage team, and we'll make sure you're looked after. Before I put a proper brief together for them — your name and a good email?
+User: David Aubert, david.aubert@example.com.
+Agent: Thank you David. I'll get this to the Sillage team, who'll come back to you by 8 p.m. Cairo time with private-access options and guide profiles.
+→
+{ "complete": true,
+  "visitor": {"name":"David Aubert","email":"david.aubert@example.com","phone":null,"preferred_contact":null,"nationality":null,"origin_city":null,"timezone":null},
+  "trip": {"travelers_count":null,"travelers_detail":null,"dates_specific":null,"dates_window":null,"length_days":2,"international_flights":null,"destinations":["Cairo","Giza"]},
+  "preferences": {"comfort_level":"luxury","interests":["private pyramids access"],"must_see":["Giza pyramids"],"must_avoid":[]},
+  "constraints": {"dietary":null,"mobility":null,"religious":null,"medical":null},
+  "brief_summary":"Books own luxury hotel (Four Seasons on points); wants private touring only — early-access pyramids with a top Egyptologist.",
+  "follow_up_window":"by 8 p.m. Cairo time",
+  "routed_brand":"sillage","routing_reason":"discerning luxury — books own hotel on points, wants private pyramids access and a top-tier Egyptologist" }
+
+Output ONLY the JSON object, exactly in the shape shown above — every field present (routed_brand defaults to "travel2egypt"), real null (not the string "null") where absent, no markdown code fences, and no commentary before or after.`;
 
 /**
  * Locale directive (extraction-locale follow-up). Sent as a SECOND system
@@ -81,7 +103,7 @@ Output ONLY the JSON object, exactly in the shape shown above — every field pr
  * preferred_contact enum, booleans/integers, the controlled comfort_level
  * tokens, and brief_summary are untouched (team-facing payload shape stable).
  */
-const ES_DISPLAY_LANGUAGE_DIRECTIVE = `LANGUAGE — the traveler's conversation is in Spanish. Output these visitor-shown free-text fields in Spanish, matching the traveler's own wording: destinations, dates_specific, dates_window, travelers_detail, interests, must_see, must_avoid, and comfort_level WHEN it is a free phrase rather than one of the controlled tokens. For example "crucero por el Nilo" (not "Nile cruise"), "segunda semana de noviembre" (not "second week of November"). Leave everything else exactly as instructed: the JSON keys, the preferred_contact enum values, all boolean/integer fields, the controlled comfort_level tokens (budget, mid-range, boutique, international-5-star, luxury), and brief_summary.`;
+const ES_DISPLAY_LANGUAGE_DIRECTIVE = `LANGUAGE — the traveler's conversation is in Spanish. Output these visitor-shown free-text fields in Spanish, matching the traveler's own wording: destinations, dates_specific, dates_window, travelers_detail, interests, must_see, must_avoid, and comfort_level WHEN it is a free phrase rather than one of the controlled tokens. For example "crucero por el Nilo" (not "Nile cruise"), "segunda semana de noviembre" (not "second week of November"). Leave everything else exactly as instructed: the JSON keys, the preferred_contact enum values, all boolean/integer fields, the controlled comfort_level tokens (budget, mid-range, boutique, international-5-star, luxury), brief_summary, routed_brand (a controlled token — never translate), and routing_reason (team-facing, like brief_summary).`;
 
 type RawBrief = {
   complete?: unknown;
@@ -91,6 +113,8 @@ type RawBrief = {
   constraints?: Record<string, unknown>;
   brief_summary?: unknown;
   follow_up_window?: unknown;
+  routed_brand?: unknown;
+  routing_reason?: unknown;
 };
 
 // Require at least one letter or number — drops model junk like ":" / "—"
@@ -174,6 +198,10 @@ function normalizeBrief(raw: RawBrief): BriefPayload {
     },
     brief_summary: s(raw.brief_summary),
     follow_up_window: s(raw.follow_up_window),
+    // coerceBrand defaults anything unrecognized (incl. null / a re-classification
+    // the agent never actually voiced) to the anchor — the safe, never-wrong room.
+    routed_brand: coerceBrand(raw.routed_brand),
+    routing_reason: s(raw.routing_reason),
   };
   if (brief.complete && !passesCompletenessRule(brief)) {
     console.warn(
@@ -226,10 +254,17 @@ export async function extractBrief(
 
   const res = await anthropic.messages.create({
     model: CONCIERGE_MODEL,
-    max_tokens: 1024,
+    // 2048, was 1024: a rich v4.2 brief (routing read-back + long summary)
+    // overflowed 1024 and truncated mid-JSON (run s13-final-v6,
+    // bat-b-sillage-en) — parse failed on structurally valid but cut-off
+    // output. Output cost is negligible; headroom is cheap insurance.
+    max_tokens: 2048,
     system,
     messages: [{ role: 'user', content: formatTranscript(messages) }],
   });
+  if (res.stop_reason === 'max_tokens') {
+    throw new Error('extraction truncated at max_tokens — raise the cap');
+  }
 
   const text = res.content
     .filter((b): b is Anthropic.TextBlock => b.type === 'text')

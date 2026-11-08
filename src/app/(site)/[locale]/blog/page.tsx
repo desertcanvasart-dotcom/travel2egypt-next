@@ -57,7 +57,7 @@ export default async function BlogLandingPage({ params }: Props) {
   const heroStats = [
     { label: t('statArticles'), value: articles.length },
     { label: t('statCategories'), value: new Set(articles.map((a) => a.category?.slug).filter(Boolean)).size },
-    { label: t('statSince'), value: 2003 },
+    { label: t('statSince'), value: 1993 },
   ];
 
   // Curated landing: featured lead + a short "Latest" row of cards + a compact,

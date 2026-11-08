@@ -551,3 +551,69 @@ export function resumeEmail(url: string, locale: string): ResumeEmailContent {
     text: `Continue your conversation with the Travel2Egypt concierge (valid 30 days):\n${url}\n\n— The Travel2Egypt team`,
   };
 }
+
+/**
+ * Itinerary-request lead (homepage rebuild, 2026-11-08) → TEAM_INBOX_EMAIL.
+ * Reply-To is the visitor (set by the sender) so the team answers directly.
+ */
+export interface LeadEmailParams {
+  reference: string;
+  kind: 'trip' | 'day_tour';
+  source: string;
+  locale: string;
+  email: string;
+  whatsapp: string | null;
+  when: string;
+  days: string | null;
+  party: string;
+  budget: string | null;
+  tour: string | null;
+  tourUrl: string | null;
+  notes: string | null;
+  pagePath: string | null;
+  utm: Record<string, string>;
+  estimatedTotal?: number | null;
+}
+
+export function leadTeamEmail(p: LeadEmailParams): { subject: string; html: string; text: string } {
+  const what = p.kind === 'day_tour' ? 'Day-tour date request' : 'Itinerary request';
+  const subject = `[Website lead — ${what}] ${p.reference}${p.tour ? ` — ${p.tour}` : ''}`;
+  const rows: Array<[string, string]> = [
+    ['Reference', p.reference],
+    ['Email', p.email],
+    ['WhatsApp', p.whatsapp ?? '(not given)'],
+    [p.kind === 'day_tour' ? 'Tour date' : 'When', p.when],
+    ...(p.days ? ([['Trip length', `${p.days} days`]] as Array<[string, string]>) : []),
+    ['Travellers', p.party],
+    ...(p.estimatedTotal
+      ? ([['Estimate shown to traveller', 'USD ' + p.estimatedTotal.toLocaleString('en-US') + ' (adults x from price; children to confirm)']] as Array<[string, string]>)
+      : []),
+    ...(p.budget ? ([['Budget per person (excl. flights)', p.budget]] as Array<[string, string]>) : []),
+    ...(p.tour ? ([['Tour', p.tourUrl ? `${p.tour} — ${p.tourUrl}` : p.tour]] as Array<[string, string]>) : []),
+    ['Form', p.source],
+    ['Page', p.pagePath ?? '(unknown)'],
+    ['Language', p.locale],
+    ...Object.entries(p.utm).map(([k, v]) => [k, v] as [string, string]),
+  ];
+  const html = `<!doctype html><html><body style="margin:0;font-family:Arial,Helvetica,sans-serif;color:#14243b;">
+  <div style="max-width:640px;margin:0 auto;padding:24px;">
+    <h2 style="font-size:18px;margin:0 0 4px;">${esc(what)} from travel2egypt.org</h2>
+    <p style="font-size:13px;color:#5c6675;margin:0 0 16px;">Reply to this email to reach the traveller directly. The site promised a reply the same day.</p>
+    <table style="border-collapse:collapse;font-size:14px;margin-bottom:20px;">
+      ${rows
+        .map(
+          ([k, v]) =>
+            `<tr><td style="padding:3px 16px 3px 0;color:#5c6675;vertical-align:top;">${esc(k)}</td><td style="padding:3px 0;"><strong>${esc(v)}</strong></td></tr>`,
+        )
+        .join('')}
+    </table>
+    ${p.notes ? `<h3 style="font-size:14px;margin:0 0 8px;border-top:1px solid #e7e0d5;padding-top:16px;">Notes from the traveller</h3><div style="font-size:14px;line-height:1.6;white-space:pre-wrap;">${esc(p.notes)}</div>` : ''}
+  </div></body></html>`;
+  const text = [
+    `${what} from travel2egypt.org`,
+    '',
+    ...rows.map(([k, v]) => `${k}: ${v}`),
+    ...(p.notes ? ['', 'Notes:', p.notes] : []),
+  ].join('\n');
+  return { subject, html, text };
+}

@@ -27,6 +27,8 @@ export interface ConversationListRow {
   flag_reason: string | null;
   archived: boolean | null;
   escape_hatch_used: boolean | null;
+  routed_brand: string; // migration 0007 (Session 13)
+  routing_reason: string | null;
   anonymized_at: string | null;
   msg_count: number;
   total_tokens: number;
@@ -58,6 +60,7 @@ export async function listConversations(filters: ListFilters): Promise<ListResul
   if (filters.flagged !== null) q = q.eq('flagged', filters.flagged);
   if (filters.flagReason) q = q.eq('flag_reason', filters.flagReason);
   if (filters.reviewed !== null) q = q.eq('reviewed', filters.reviewed);
+  if (filters.brand) q = q.eq('routed_brand', filters.brand);
 
   const offset = (filters.page - 1) * PAGE_SIZE;
   q = q.order('started_at', { ascending: false }).range(offset, offset + PAGE_SIZE - 1);
@@ -82,6 +85,8 @@ export async function listConversations(filters: ListFilters): Promise<ListResul
       flag_reason: string | null;
       archived: boolean | null;
       escape_hatch_used: boolean | null;
+      routed_brand: string;
+      routing_reason: string | null;
       sessions: { locale: string; anonymized_at: string | null } | null;
     }
   >;
@@ -122,6 +127,8 @@ export async function listConversations(filters: ListFilters): Promise<ListResul
       flag_reason: c.flag_reason,
       archived: c.archived,
       escape_hatch_used: c.escape_hatch_used,
+      routed_brand: c.routed_brand,
+      routing_reason: c.routing_reason,
       anonymized_at: c.sessions?.anonymized_at ?? null,
       msg_count: agg.msg_count,
       total_tokens: agg.total_tokens,
@@ -204,6 +211,8 @@ export async function searchConversations(q: string): Promise<ListResult & { cap
       flag_reason: string | null;
       archived: boolean | null;
       escape_hatch_used: boolean | null;
+      routed_brand: string;
+      routing_reason: string | null;
       sessions: { locale: string; anonymized_at: string | null } | null;
     }
   >;
@@ -239,6 +248,8 @@ export async function searchConversations(q: string): Promise<ListResult & { cap
       flag_reason: c.flag_reason,
       archived: c.archived,
       escape_hatch_used: c.escape_hatch_used,
+      routed_brand: c.routed_brand,
+      routing_reason: c.routing_reason,
       anonymized_at: c.sessions?.anonymized_at ?? null,
       msg_count: agg.msg_count,
       total_tokens: agg.total_tokens,

@@ -1,0 +1,2674 @@
+{
+  "_createdAt": "2026-05-04T20:34:49Z",
+  "_id": "wp-page-78396",
+  "_rev": "PUXUI6sshIht1BONyd7KZa",
+  "_system": {
+    "base": {
+      "id": "wp-page-78396",
+      "rev": "iPsARNKARC3Pl1oe0HTLcV"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-16T23:46:30Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "s1fnxvnwf2ct",
+              "_type": "span",
+              "marks": [],
+              "text": "Top Hotels in "
+            },
+            {
+              "_key": "pbjfowxh23u0",
+              "_type": "span",
+              "marks": [
+                "3mp6lkqi83cm"
+              ],
+              "text": "Marsa Alam"
+            },
+            {
+              "_key": "k3rw3azsvetf",
+              "_type": "span",
+              "marks": [],
+              "text": ": Where to Stay Near the Temples"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "3mp6lkqi83cm",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Looking for the best hotels in Marsa Alam? This tranquil Red Sea destination is not only a haven for divers and beach lovers, but also a perfect base for those seeking serenity, nature, and cultural immersion. From luxury retreats to eco-friendly lodges, our curated list blends international standards with warm Egyptian hospitality—handpicked to match the refined expectations of "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Travel2Egypt.org"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " guests."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/why-choose-us/"
+              },
+              "_type": "externalLink",
+              "href": "/about",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Luxury Hotels in Marsa Alam"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Royal Tulip Beach Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Perched elegantly along the Red Sea coast, "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Royal Tulip Beach Resort"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": " delivers an idyllic escape with spacious pools, a pristine private beach, a full-service spa, and a kitesurfing center. Tucked within a tranquil lagoon, just 6 km from the airport, it blends seclusion with accessibility. Guests often comment on the attentive service and lush landscaped surroundings—ideal for both couples and adventure-seekers."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nearby:"
+            },
+            {
+              "_key": "kacxioszuqiv",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "9p825z9o1u8t",
+              "_type": "span",
+              "marks": [
+                "jqrg323r1hia"
+              ],
+              "text": "Abu Dabbab Beach"
+            },
+            {
+              "_key": "07h8htjaslge",
+              "_type": "span",
+              "marks": [],
+              "text": ", Marsa Mubarak Dive Site, "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "000000000011"
+              ],
+              "text": "Port Ghalib Marina"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000011",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/marsa-alam-travel-guide/port-ghalib-marina/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/marsa-alam/port-ghalib-marina",
+              "newTab": false
+            },
+            {
+              "_key": "jqrg323r1hia",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.marsa-alam.abu-dabbab-beach",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Jaz Solaya"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "Located in the upscale enclave of Madinat Coraya, "
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Jaz Solaya"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": " is just minutes from Marsa Alam International Airport. With its private beach, elegant architecture, boutique shops, and serene dining areas, this property offers a refined yet relaxed take on Red Sea luxury. The resort’s coral reef is just offshore—perfect for morning snorkels straight from the sand."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nearby:"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": " Coraya Bay, Water World Aquapark, El Quseir Old Town"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "Concorde Moreen Beach Resort & Spa"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "Overlooking the azure waters of Abu Dabur Bay, "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Concorde Moreen"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " charms with its lush gardens, elegant interiors, and a peaceful stretch of beach framed by vibrant coral reefs. Ideal for couples and wellness travellers, this resort combines natural beauty with premium services including a spa, diving center, and gourmet dining."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nearby:"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": " Abu Dabur Reef, Marsa Alam Desert Safari"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Mid-Range Hotels in Marsa Alam"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "The Three Corners Fayrouz Plaza Beach Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "89rpc02ec6f6",
+              "_type": "span",
+              "marks": [],
+              "text": "Just steps from "
+            },
+            {
+              "_key": "wxjp4pqb04e9",
+              "_type": "span",
+              "marks": [
+                "yrikionku84r"
+              ],
+              "text": "Port Ghalib Marina"
+            },
+            {
+              "_key": "aimqenjejj8j",
+              "_type": "span",
+              "marks": [],
+              "text": ", "
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000002b"
+              ],
+              "text": "Fayrouz"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Plaza"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": " combines Red Sea charm with convenience. Guests can enjoy ocean-facing rooms, multiple pools, Jacuzzis, and well-maintained gardens. The house reef is perfect for snorkeling, and families appreciate the children’s play areas and laid-back vibe."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/sharm-el-sheikh-fayrouz-resort/"
+              },
+              "_type": "externalLink",
+              "href": "/hotels/sharm-el-sheikh-fayrouz-resort",
+              "newTab": false
+            },
+            {
+              "_key": "yrikionku84r",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.marsa-alam.port-ghalib-marina",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nearby:"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " Dolphin House Reef, Marsa Shouna snorkeling site"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "The Three Corners Equinox Beach Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "A top choice for marine life lovers, "
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Equinox Beach Resort"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " offers direct access to renowned snorkeling and diving locations. The resort embraces traditional Nubian design, and the Italian à la carte restaurant adds a delicious twist. Staff are known for their warmth and 24-hour attentiveness, often going the extra mile for returning guests."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nearby:"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " El Qulan Mangroves, Samadai "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "Dolphin Reef"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000003b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/top-adventures-things-to-do-in-sharm-el-sheikh/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/sharumuerusheiku-de-taiken-shi-tai-koto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "Brayka Bay Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Set in a calm bay with a natural coral lagoon, "
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Brayka Bay Resort"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": " is ideal for those seeking a peaceful environment. Guests can enjoy direct reef access, a spacious pool area, and sea-view rooms surrounded by tropical gardens. It’s popular among couples, small diving groups, and solo travellers looking for calm beauty."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nearby:"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": " Brayka Bay House Reef, Elphinstone Reef"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": "Authentic & Eco-Friendly Stays"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "Abu Dabbab Diving Lodge"
+            }
+          ],
+          "markDefs": [],
+          "style": "h4"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "For eco-conscious travellers and nature lovers, "
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000004c"
+              ],
+              "text": "Abu Dabbab"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Diving Lodge"
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": " offers a simple yet soulful experience. Located close to the renowned sea turtle habitat at"
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [
+                "000000000050"
+              ],
+              "text": " Abu Dabbab"
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": " Bay, the lodge promotes sustainability and minimal-impact tourism. The vibe is rustic but comfortable—perfect for those who value authenticity over "
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "luxury"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/marsa-alam-travel-guide/abu-dabbab-beach/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/marsa-alam/abu-dabbab-beach",
+              "newTab": false
+            },
+            {
+              "_key": "000000000050",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Marsa_Alam",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nearby:"
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": " Abu Dabbab Bay, "
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [
+                "000000000059"
+              ],
+              "text": "Sharm El Luli Beach"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000059",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/marsa-alam-travel-guide/sharm-el-luli/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/marsa-alam/sharm-el-luli",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": "Practical Tips for Booking Hotels in Marsa Alam"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000066",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Airport Transfers:"
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": " Most high-end hotels offer private or shared shut"
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Created:"
+            },
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": " March 18, 2020"
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Updated:"
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": " July 24, 2025"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/pascal-van-de-vendel-CNdMGaVEozQ-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Colorful fish swimming among coral and anemones on a reef"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Nature's underwater mosaic in brilliant colors"
+            }
+          ]
+        },
+        {
+          "_key": "000000000068",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/geoff-trodd-tEnERdl4_Nk-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A blurry image of a blue fish swimming underwater"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Underwater grace, a moment with a blue fish in its natural habitat"
+            }
+          ]
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": "Egypt's Finest Stays & Nile Cruises: Luxurious Retreats Await"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000006c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "Indulge in unparalleled comfort with our curated guide to Egypt’s best hotels and Nile cruises. Experience luxurious accommodations and majestic river journeys that blend modern amenities with enchanting views. Ready for an exquisite escape? Click to discover your perfect Egyptian retreat!"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "<!DOCTYPE html>"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "scyklw6eg945",
+              "_type": "span",
+              "marks": [],
+              "text": "Mejores Hoteles en "
+            },
+            {
+              "_key": "le3wp0kovf5c",
+              "_type": "span",
+              "marks": [
+                "jrq9101hfff2"
+              ],
+              "text": "Marsa Alam"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "jrq9101hfff2",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Mejores Hoteles en Marsa Alam"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Descubre la belleza del Mar Rojo con alojamientos que combinan comodidad, estilo y el auténtico encanto egipcio."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "Royal Tulip Beach Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": " Situado elegantemente a lo largo de la costa del Mar Rojo, el Royal Tulip Beach Resort ofrece una escapada idílica con amplias piscinas al aire libre, una playa privada tranquila, spa de servicio completo y un centro dedicado al kitesurf. Su ubicación frente a una laguna serena, a solo 6 km del aeropuerto, lo convierte en una combinación ideal de exclusividad y accesibilidad. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Atracciones cercanas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "Playa de Abu Dabbab"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000000e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/playa-de-abu-dabbab/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/marsa-alam/playa-de-abu-dabbab",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "Sitio de buceo Marsa Mubarak"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "viss4ffaoulh",
+              "_type": "span",
+              "marks": [
+                "pac5keoa287j"
+              ],
+              "text": "Marina de Port Ghalib"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "pac5keoa287j",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.marsa-alam.port-ghalib-marina",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar sitio web del resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Jaz Solaya"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": " A solo unos minutos del Aeropuerto Internacional de Marsa Alam, el Jaz Solaya se encuentra en la exclusiva zona de Madinat Coraya. Los huéspedes pueden disfrutar de una playa privada, tiendas boutique y una amplia oferta gastronómica, todo diseñado para ofrecer una experiencia refinada y relajante frente al mar en la \"Riviera "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "del Mar Rojo\""
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": ". "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/egipto-y-el-paraiso-del-mar-rojo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/egypt-and-the-red-sea",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "Atracciones cercanas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Bahía de Coraya"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "Parque acuático Madinat Coraya Water World"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "El Quseir (a corta distancia en coche)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar sitio web del resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "The Three Corners Fayrouz Plaza Beach Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " Ubicado cerca de la Marina Internacional de Port Ghalib, este resort ofrece piscinas en cascada, vistas panorámicas al Mar Rojo y acceso directo a la playa. Ideal para buceadores y amantes del océano, cuenta con excelentes oportunidades para hacer snorkel y disfrutar de aventuras submarinas, así como áreas familiares con jacuzzis y zonas de juego para niños. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Atracciones cercanas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "Marina de Port Ghalib"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Arrecife Dolphin House"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Sitio de snorkel Marsa Shouna"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar sitio web del resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "Brayka Bay Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": " Un santuario de paz ideal para escapadas románticas o descansos en total serenidad, el Brayka Bay Resort cuenta con 320 habitaciones elegantes con vistas al jardín o al mar. Los huéspedes pueden relajarse con tratamientos de spa o sumergirse en aventuras submarinas gracias a su centro de buceo propio. Perfecto para quienes buscan tranquilidad en medio de la naturaleza. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Atracciones cercanas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Arrecife Brayka Bay House"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "Arrecife Elphinstone (excursiones de buceo)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar sitio web del resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "The Three Corners Equinox Beach Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " Muy apreciado por los amantes de la vida marina, este resort ofrece acceso directo a algunos de los mejores sitios para snorkel y buceo de Marsa Alam. Los huéspedes disfrutan de una estética "
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "000000000045"
+              ],
+              "text": "nubia"
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": " tradicional, varias opciones gastronómicas que incluyen un restaurante italiano a la carta, y un servicio amable disponible las 24 horas. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000045",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-museo-nubio/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/aswan/el-museo-nubio",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "Atracciones cercanas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "Manglares de El Qulan"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "Arrecife Samadai (Dolphin House)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000050",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar sitio web del resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000052",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": "Concorde Moreen Beach Resort & Spa"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " Ubicado en las costas vírgenes de la Bahía de Abu Dabur, este lujoso resort ofrece impresionantes vistas al Mar Rojo, arrecifes de coral vibrantes y una playa de arena blanca perfectamente cuidada. Sus jardines exuberantes y ambiente tranquilo lo convierten en un refugio ideal para el descanso y la renovación. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "Atracciones cercanas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000058",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": "Arrecife Abu Dabur"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": "Safari por el desierto de Marsa Alam"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar sitio web del resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": "Abu Dabbab Diving Lodge"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000060",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": " Para los viajeros ecológicos y amantes del buceo, el Abu Dabbab Diving Lodge ofrece una experiencia inmersiva en plena naturaleza. Reconocido por su compromiso con la sostenibilidad, el lodge brinda una estancia sencilla pero confortable, muy cerca de uno de los hábitats más famosos de tortugas marinas en Marsa Alam. "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": "Atracciones cercanas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": "Bahía de Abu Dabbab (hogar de tortugas marinas)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": "Playa "
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [
+                "000000000066"
+              ],
+              "text": "Sharm El Luli"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000066",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/aventura-de-snorkel-en-sharm-el-luli-desde-marsa-alam/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/aventura-de-snorkel-en-sharm-el-luli-desde-marsa-alam/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar sitio web del lodge"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado el 5 de mayo de 2025"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "<!DOCTYPE html>"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサアラムのおすすめホテル"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサアラムのおすすめホテル"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "紅海の美しさを、快適さ・洗練されたデザイン・本格的なエジプトの魅力とともに堪能できる宿泊体験をご紹介します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "ロイヤル・チューリップ・ビーチ・リゾート"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": " 紅海沿いの美しいラグーンに建つこのリゾートは、広々とした屋外プール、静かなプライベートビーチ、スパ、カイトサーフィンセンターを備えています。空港からわずか6kmの立地で、静けさとアクセスの良さを兼ね備えた理想の隠れ家です。 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "周辺の見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "アブ・ダッバブ・ビーチ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサ・ムバラクのダイビングスポット"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "awnize2u5njs",
+              "_type": "span",
+              "marks": [
+                "bt9bw1yex66w"
+              ],
+              "text": "ポート・ガリブ・マリーナ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "bt9bw1yex66w",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.marsa-alam.port-ghalib-marina",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "リゾート公式サイトを見る"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "ジャズ・ソラヤ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": " マルサアラム国際空港からすぐの高級リゾートエリア「マディナト・コラヤ」に位置する"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ジャズ・ソラヤ"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "は、プライベートビーチやブティック、レストランを併設し、洗練されつつもリラックスした海辺の体験を提供します。 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "周辺の見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "コラヤ湾"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "マディナト・コラヤ・ウォーターワールドでのマリンアクティビティ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "エル・クセイル旧市街（車ですぐ）"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "リゾート公式サイトを見る"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "スリーコーナーズ・ファイルーズ・プラザ・ビーチリゾート"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": " ポート・ガリブ・マリーナの近くにあるこのリゾートでは、段々に広がるプールや紅海の絶景、ビーチ直結のアクセスが魅力。シュノーケリングやダイビングを楽しむ方や家族連れに最適で、ジャグジーや子供用プレイエリアも完備しています。 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "周辺の見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "ポート・ガリブ・マリーナ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "ドルフィン・ハウス・リーフ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサ・シュオナのシュノーケリングポイント"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "リゾート公式サイトを見る"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "ブライカ・ベイ・リゾート"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": " 恋人同士や静けさを求める旅行者に最適な隠れ家リゾート。320室の客室は庭または海の眺望付き。スパやダイビングセンターも完備しており、自然に囲まれながらゆったりと過ごせます。 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "周辺の見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "ブライカ・ベイ・ハウス・リーフ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "エルフィンストーン・リーフ（ダイビングツアー）"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "リゾート公式サイトを見る"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "スリーコーナーズ・イクイノックス・ビーチリゾート"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": " 海の生き物に魅了される方に人気のこのリゾートは、マルサアラム随一のダイビング＆シュノーケリングスポットへ直結。ヌビア風の建築とイタリアンのアラカルトレストラン、24時間対応のサービスも魅力です。 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "周辺の見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "エル・クラン・マングローブ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "サマダイ・ドルフィン・リーフ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "リゾート公式サイトを見る"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "コンコルド・モリーン・ビーチリゾート＆スパ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": " アブ・ダブール湾の静かな海岸沿いに位置し、紅海のパノラマと色とりどりのサンゴ礁、美しい砂浜を堪能できます。手入れの行き届いた庭園と穏やかな空気が、癒しの時間を演出してくれます。 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "周辺の見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "アブ・ダブール・リーフ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサアラム・砂漠サファリ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "リゾート公式サイトを見る"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "アブ・ダッバブ・ダイビング・ロッジ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": " サステナビリティに配慮した旅を求める方にぴったりのエコ・ロッジ。素朴ながら快適な宿泊施設で、マルサアラム屈指のウミガメ生息地「アブ・ダッバブ湾」へのアクセスも抜群です。 "
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": "周辺の見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "アブ・ダッバブ湾（ウミガメの楽園）"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "シャルム・エル・ルリ・ビーチ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "ロッジ公式サイトを見る"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "最終更新日：2025年5月5日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Aerial view of a transparent kayak on turquoise shallows beside a sandbar"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Vista aérea de un kayak transparente sobre aguas turquesas junto a un banco de arena"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "砂州のそばのターコイズ色の浅瀬に浮かぶ透明なカヤックの空撮"
+      }
+    ],
+    "asset": {
+      "_ref": "image-197a3391516d0c2582fbfd153d10683af9edd06e-1200x800-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A clear kayak drifts over turquoise shallows beside a pale sandbar."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Un kayak transparente se desliza sobre aguas turquesas junto a un banco de arena."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "淡い砂州のそば、ターコイズ色の浅瀬を進む透明なカヤックの空撮。"
+      }
+    ]
+  },
+  "kind": "accommodation",
+  "migration": {
+    "migratedAt": "2026-05-05T12:55:17.973Z",
+    "reviewFlag": "section-needs-assignment",
+    "source": "wp-import",
+    "wpId": 78396,
+    "wpModifiedAt": "2025-07-27T16:34:35",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/accommodation-options-marsa-alam/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58885",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "accommodation-options-marsa-alam"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "mejores-hoteles-en-marsa-alam"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "marusaaramu-no-shukuhaku-shisetsu"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Top Hotels in Marsa Alam: Where to Stay Near the Temples Looking for the best hotels in Marsa Alam? This tranquil Red Sea destination is not only a haven for divers and beach lovers, but also a perfect base for those seeking serenity, natur"
+    },
+    {
+      "_key": "es",
+      "value": "Mejores Hoteles en Marsa Alam Mejores Hoteles en Marsa Alam Descubre la belleza del Mar Rojo con alojamientos que combinan comodidad, estilo y el auténtico encanto egipcio. Royal Tulip Beach Resort Situado elegantemente a lo largo de la cos"
+    },
+    {
+      "_key": "ja",
+      "value": "マルサアラムのおすすめホテル マルサアラムのおすすめホテル 紅海の美しさを、快適さ・洗練されたデザイン・本格的なエジプトの魅力とともに堪能できる宿泊体験をご紹介します。 ロイヤル・チューリップ・ビーチ・リゾート 紅海沿いの美しいラグーンに建つこのリゾートは、広々とした屋外プール、静かなプライベートビーチ、スパ、カイトサーフィンセンターを備えています。空港からわずか6kmの立地で、静けさとアクセスの良さを兼ね備えた理想の隠れ家です。 周辺の見どころ アブ・ダッバブ・ビーチ マル"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Accommodation Options Marsa Alam"
+    },
+    {
+      "_key": "es",
+      "value": "Mejores hoteles en Marsa Alam"
+    },
+    {
+      "_key": "ja",
+      "value": "マルサ・アラムの宿泊施設"
+    }
+  ]
+}

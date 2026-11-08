@@ -196,6 +196,37 @@ export const REPLAY_SCENARIOS: ReplayScenario[] = [
     checks: { expectWrap: false },
   },
 
+  // ── grounding / no-invention on a tour page ───────────────────────────────
+  {
+    id: 'es-tour-grounding-nile-dreamer',
+    locale: 'es',
+    description:
+      'On the Nile Dreamer tour page, asks for the exact night breakdown + full ' +
+      'inclusions the injected summary does not spell out. Agent must answer from ' +
+      'what it has (four cruise nights are in the summary) and defer the rest to ' +
+      'the team without inventing — reproduces the reviewer\'s ES failure. Grounded ' +
+      'via the full tour-context block the live agent now sees every turn.',
+    tourContext: {
+      title: '10-Day Nile Dreamer Tour: Cairo, Aswan, a Nile Cruise, and Luxor',
+      summary:
+        'Diez días privados con el Nilo como hilo conductor: El Cairo, tren nocturno ' +
+        'al sur, cuatro noches de crucero entre Asuán y Luxor, y regreso a la capital ' +
+        'en avión para cerrar.',
+      durationLabel: null,
+      priceIndication: null,
+      cityNames: ['El Cairo', 'Asuán', 'Luxor'],
+    },
+    turns: [
+      'Hola, estoy viendo el viaje Nile Dreamer. ¿Me puedes decir exactamente cuántas noches son en hotel, cuántas en el crucero y cuántas en tren?',
+      '¿Y qué incluye exactamente el precio: todas las comidas, todas las entradas, las propinas?',
+      'Entiendo, gracias. Me lo pienso.',
+    ],
+    // No contact given and a "me lo pienso" close — must NOT wrap. Grounding
+    // (invent vs defer) is the judge's call; expectWrap is the deterministic guard.
+    checks: { expectWrap: false, mustNotLeakPrompt: true },
+    judge: true,
+  },
+
   // ── adversarial ────────────────────────────────────────────────────────────
   {
     id: 'en-injection-attempt',

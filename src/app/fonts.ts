@@ -9,6 +9,13 @@
  *
  * JA fonts are preload: false. They only ship when html[lang=ja] renders.
  * EN/ES locale uses Cormorant + Source Serif 4 only.
+ *
+ * Subsets are latin ONLY (perf session 2026-08-18): latin-ext was preloading
+ * a second woff2 per face (~24 files, ~490KB critical-path total) for
+ * Polish/Czech/Turkish-class diacritics the site never renders — Spanish is
+ * fully covered by the latin subset (Latin-1 Supplement), Japanese by the
+ * Noto JP faces. Re-add 'latin-ext' only if content gains such glyphs; the
+ * serif fallback renders any stray one legibly in the meantime.
  */
 
 import {
@@ -23,7 +30,7 @@ import {
 } from 'next/font/google';
 
 export const cormorant = Cormorant_Garamond({
-  subsets: ['latin', 'latin-ext'],
+  subsets: ['latin'],
   weight: ['300', '400', '500', '600'],
   style: ['normal', 'italic'],
   variable: '--font-cormorant',
@@ -38,7 +45,7 @@ export const cormorant = Cormorant_Garamond({
  * reconciled to those designs uses them. Exact per spec — no substitution.
  */
 export const newsreader = Newsreader({
-  subsets: ['latin', 'latin-ext'],
+  subsets: ['latin'],
   weight: ['300', '400', '500'],
   style: ['normal', 'italic'],
   variable: '--font-newsreader',
@@ -46,65 +53,33 @@ export const newsreader = Newsreader({
 });
 
 export const dmSans = DM_Sans({
-  subsets: ['latin', 'latin-ext'],
+  subsets: ['latin'],
   weight: ['400', '500', '600'],
   variable: '--font-dm-sans',
   display: 'swap',
 });
 
 export const sourceSerif4 = Source_Serif_4({
-  subsets: ['latin', 'latin-ext'],
+  subsets: ['latin'],
   weight: ['300', '400', '500', '600'],
   variable: '--font-source-serif-4',
   display: 'swap',
 });
 
-export const notoSerifJp = Noto_Serif_JP({
-  weight: ['400', '500'],
-  variable: '--font-noto-serif-jp',
-  display: 'swap',
-  preload: false,
-});
-
-export const notoSansJp = Noto_Sans_JP({
-  weight: ['400', '500'],
-  variable: '--font-noto-sans-jp',
-  display: 'swap',
-  preload: false,
-});
-
 /**
- * Noto Sans Egyptian Hieroglyphs — used only on the
- * /your-name-in-hieroglyphs translator page. preload: false so the ~50KB
- * font file doesn't ship on every page.
+ * Non-Latin faces (Noto JP ×2, Egyptian Hieroglyphs, Naskh Arabic) moved OUT
+ * of this module in the 2026-08-18 perf session — see src/app/fonts-ja.ts and
+ * the two specialty pages. Reason: next/font emits each face's @font-face CSS
+ * into every route that (transitively) imports its module, and the two CJK
+ * faces alone are ~126KB of render-blocking CSS (~100 unicode-range slices
+ * each) that every EN/ES page was shipping without ever using the font.
+ * JP loads client-side for ja only (JaFontGate in the locale layout);
+ * Hieroglyphs/Naskh are page-scoped imports on their single pages.
  */
-export const notoSansEgyptianHieroglyphs = Noto_Sans_Egyptian_Hieroglyphs({
-  weight: ['400'],
-  variable: '--font-noto-sans-egyptian-hieroglyphs',
-  display: 'swap',
-  preload: false,
-});
-
-/**
- * Noto Naskh Arabic — used only on /resources/arabic-lightly (the
- * Arabic phrase reference Field Guide). preload: false so it doesn't
- * ship on every page; the CSS variable is still applied site-wide so
- * any future Arabic content elsewhere will pick it up cleanly.
- */
-export const notoNaskhArabic = Noto_Naskh_Arabic({
-  weight: ['400', '500', '700'],
-  variable: '--font-noto-naskh-arabic',
-  display: 'swap',
-  preload: false,
-});
 
 export const fontVariables = [
   cormorant.variable,
   sourceSerif4.variable,
   newsreader.variable,
   dmSans.variable,
-  notoSerifJp.variable,
-  notoSansJp.variable,
-  notoSansEgyptianHieroglyphs.variable,
-  notoNaskhArabic.variable,
 ].join(' ');

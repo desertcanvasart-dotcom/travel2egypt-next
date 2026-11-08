@@ -1,0 +1,1557 @@
+{
+  "_createdAt": "2026-05-04T20:36:31Z",
+  "_id": "drafts.wp-page-60658",
+  "_rev": "dJ4ZpMyfIFtQ0D7lyw9qjX",
+  "_system": {
+    "base": {
+      "id": "wp-page-60658",
+      "rev": "iPsARNKARC3Pl1oe0HTd5h"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-04T17:34:55Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Only In Luxor"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "The Mummification"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": " Museum in Luxor"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " is an enthralling destination for those interested in ancient Egyptian culture, especially their funeral practices and beliefs regarding the afterlife. It offers a unique insight into the mummification process, a central aspect of Egyptian funerary customs."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Luxor_Museum",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Key Highlights of the Mummification Museum:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Understanding Mummification"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ": The museum educates visitors about the ancient Egyptians’ belief in the preservation of the body for the afterlife, emphasizing the process of mummification and its cultural significance."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Exhibits"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": ": It houses a diverse collection, including mummies, tools used in mummification, canopic jars, and various substances employed in the process, like natron. The "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "museum also features visual depictions from tombs"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": ", illustrating the mummification steps."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000000e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/imhotep-museum/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/imhotep-museum/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Animal Mummies"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": One of the intriguing aspects is its display of "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "animal mummies,"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": " highlighting the Egyptians’ practice of mummifying animals, which were often associated with gods."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000014",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Animal_mummy",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Mummies and Coffins"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": ": "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "Visitors can see"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " mummies from different periods, including the beautifully crafted coffin of Padi-Amun. The exhibit of Masaharti’s coffin, a high priest, is particularly notable."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/must-see-tombs-in-the-valley-of-the-kings/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/must-see-tombs-in-the-valley-of-the-kings/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Funerary Beliefs"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": ": The museum delves into the Egyptians’ belief in the afterlife, showcasing how they viewed the survival of the body as essential for the soul’s journey. This is reflected in their elaborate funerary practices."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Interactive Learning"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": ": The museum’s layout and informative displays make it an engaging learning experience, especially for those fascinated by ancient Egyptian history and culture."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Architectural Setting"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": ": Located underground by the Nile, it provides a unique ambiance that resonates with the theme of the underworld and afterlife in Egyptian mythology."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cultural Importance"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": ": The museum is not just about death and mummification; it’s a gateway to "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "000000000029"
+              ],
+              "text": "understanding the ancient Egyptians"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "‘ worldview, their rituals, and their profound respect for life and the journey beyond."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000029",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/understanding-egyptian-hieroglyphs/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/understanding-egyptian-hieroglyphs/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusion:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "Visiting the Mummification Museum in "
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "000000000030"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": " is more than just a tour; it’s an exploration into the depths of one of the world’s oldest civilizations. It offers a comprehensive look at the meticulous processes and deep-rooted beliefs associated with death and the afterlife in "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "000000000033"
+              ],
+              "text": "ancient Egypt"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000030",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/luxor-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/luxor-travel-guide/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000033",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/temples-tombs-and-the-queens/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/temples-tombs-and-the-queens/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/artem-bryzgalov-YHXomDoU5r4-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "An obelisk with hieroglyphic engravings against a twilight sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Timeless Scripts - The enduring legacy of Egyptian hieroglyphs etched onto an obelisk"
+            }
+          ]
+        },
+        {
+          "_key": "000000000038",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/kristina-tamasauskaite-pvfS65ySVXY-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up of an ancient Egyptian hieroglyphic carving on a sandstone wall"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Ancient wisdom etched in stone, the hieroglyphs of Egypt speak across millennia"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Sólo en Luxor"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo de la Momificación de "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " es un destino apasionante para los interesados en la antigua cultura egipcia, especialmente en sus prácticas funerarias y creencias sobre el más allá."
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Ofrece una visión única del proceso de momificación, un aspecto central de las costumbres funerarias egipcias."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/lo-mejor-que-hacer-en-luxor-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Lo más destacado del Museo de la Momificación:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Comprender la momificación"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": ": El museo educa a los visitantes sobre la creencia de los antiguos egipcios en la conservación del cuerpo para la otra vida, haciendo hincapié en el proceso de momificación y su importancia cultural."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Exposiciones"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": ": Alberga una colección variada, que incluye momias, herramientas utilizadas en la momificación, tarros canopos y diversas sustancias empleadas en el proceso, como el natrón."
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "El museo también presenta representaciones visuales de las tumbas, "
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [
+                "000000000012"
+              ],
+              "text": "que ilustran los"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": " pasos de la momificación."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000012",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-fayoum/la-piramide-de-al-lahun/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-al-fayoum/la-piramide-de-al-lahun/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Momias de animales"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": ": Uno de los aspectos más intrigantes es su exposición de "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "momias de animales,"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " que pone de relieve la práctica de los egipcios de momificar animales, que a menudo se asociaban con los dioses."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000018",
+              "_type": "externalLink",
+              "href": "https://es.wikipedia.org/wiki/Momificaci%C3%B3n_de_animales",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Momias y ataúdes"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": ": Los "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "00000000001e"
+              ],
+              "text": "visitantes pueden"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": " ver momias de distintas épocas, incluido el ataúd de Padi-Amun, bellamente elaborado."
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "La exposición del ataúd de Masaharti, un sumo sacerdote, es especialmente notable."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000001e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Creencias funerarias"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": ": El museo profundiza en la creencia de los egipcios en el más allá, mostrando cómo consideraban que la supervivencia del cuerpo era esencial para el "
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "000000000026"
+              ],
+              "text": "viaje"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": " del alma."
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Esto se refleja en sus elaboradas prácticas funerarias."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000026",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/viaje/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/viaje/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Aprendizaje interactivo"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": ": La disposición del museo y sus exposiciones informativas lo convierten en una atractiva experiencia de aprendizaje, especialmente para los fascinados por la "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "historia y la cultura del"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " antiguo Egipto."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000002e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Entorno arquitectónico"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": ": Situado bajo tierra junto al Nilo, proporciona un ambiente único que resuena con el tema del inframundo y "
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [
+                "000000000034"
+              ],
+              "text": "la vida de"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "spués de la muerte de la mitología egipcia."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000034",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/alimentacion-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/alimentacion-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Importancia cultural"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": ": El museo no trata sólo de la muerte y la momificación; es una puerta a la comprensión de la visión "
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [
+                "00000000003a"
+              ],
+              "text": "del mundo de los antiguos egipcios"
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": ", sus rituales y su profundo respeto por la vida y el viaje al más allá."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000003a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/reyes-del-antiguo-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/reyes-del-antiguo-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusión:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar el Museo de la Momificación de "
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "000000000041"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": " es algo más que una visita; es una exploración de las profundidades de una de las civilizaciones más antiguas del mundo."
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "Ofrece una visión exhaustiva de los meticulosos procesos y las arraigadas creencias asociadas con la muerte y el más allá en el antiguo "
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [
+                "000000000046"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000041",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000046",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-farafra/el-camino-a-dajla/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-farafra/el-camino-a-dajla/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 4 de Ago, 2025"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールのミイラ博物館"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "古代エジプト文化に関心がある人々にとって魅力的な場所です。特にエジプトの葬儀慣行や来世への信仰について学ぶことができます。エジプトの葬儀習慣の中核を成すミイラ化のプロセスについて、ユニークな洞察を提供してくれる施設です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "ミイラ博物館の主要な見どころ："
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "ミイラ化の理解"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "博物館は、古代エジプト人がいかにして来世における身体の保存を重要視していたかを来館者に伝え、ミイラ化のプロセスとその文化的な意義を詳しく解説しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "展示物"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "ミイラやミイラ化に使用された道具、"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "00000000000d"
+              ],
+              "text": "カノプス壺"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "、そしてナトロンなどのミイラ化に使用された物質を含む多様なコレクションが収蔵されています。また、墓に描かれたミイラ化のステップを示す視覚的な展示もあります。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000d",
+              "_type": "externalLink",
+              "href": "http://www.moonover.jp/bekkan/sisya/sisya-canope.htm",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "動物のミイラ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "興味深い点として、動物のミイラの展示があります。これにより、神々と関連付けられることが多かった動物をミイラ化するエジプト人の習慣が浮き彫りにされます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "ミイラと棺"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "異なる時代のミイラを見ることができるだけでなく、美しい作りのパディアムンの棺も展示されています。特に注目すべきは高僧マサハルティの棺の展示です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "葬儀に関する信仰"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "博物館は、古代エジプト人がいかに来世を信じ、身体の保存を魂の旅に欠かせないものと考えていたかを深く掘り下げています。この信仰は彼らの手の込んだ葬儀慣行にも反映されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "インタラクティブな学び"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "博物館のレイアウトや詳細な展示は、特に古代エジプトの歴史や文化に興味を持つ人々にとって、魅力的な学びの場を提供しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "建築的な雰囲気"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "ナイル川沿いの地下に位置するこの博物館は、エジプト神話における冥界や来世のテーマと共鳴する独特な雰囲気を備えています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "文化的な重要性"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "博物館は単なる死やミイラ化に関する場所ではなく、古代エジプト人の世界観、儀式、そして生とその後の旅に対する深い敬意を理解するための入り口となっています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "まとめ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "00000000002b"
+              ],
+              "text": "ルクソール"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "のミイラ博物館を訪れることは、単なる観光ではありません。それは世界最古の文明のひとつの深淵に迫る探求です。この博物館では、古代エジプトの死や来世に関する綿密なプロセスや深く根付いた信念について包括的に知ることができる貴重な機会が提供されます。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/ja/ルクソール旅行ガイド/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ルクソール旅行ガイド/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " 更新日：2025年3月23日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Entrance pylon of Luxor Temple with the standing obelisk and colossal statues of Ramesses II"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Pilono de entrada del Templo de Luxor con el obelisco en pie y los colosos de Ramsés II"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "立つオベリスクとラムセス2世の巨像を備えたルクソール神殿の入口塔門"
+      }
+    ],
+    "asset": {
+      "_ref": "image-37159f2a764c942a535398331aa194be3dd4d5a4-1200x800-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The great pylon of Luxor Temple, flanked by colossi of Ramesses II and its lone obelisk"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "El gran pilono del Templo de Luxor, flanqueado por los colosos de Ramsés II y su obelisco"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ラムセス2世の巨像と一本のオベリスクが並ぶ、ルクソール神殿の壮大な塔門"
+      }
+    ]
+  },
+  "kind": "heritage",
+  "migration": {
+    "migratedAt": "2026-05-05T12:56:32.282Z",
+    "reviewFlag": "section-needs-assignment",
+    "source": "wp-import",
+    "wpId": 60658,
+    "wpModifiedAt": "2025-07-24T16:30:33",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/luxor-off-the-beaten-path/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58877",
+    "_type": "reference"
+  },
+  "section": "introducing",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "luxor-off-the-beaten-path"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "solo-en-luxor"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "rukusoru-koko-dake-no-taiken"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Only In Luxor The Mummification Museum in Luxor is an enthralling destination for those interested in ancient Egyptian culture, especially their funeral practices and beliefs regarding the afterlife. It offers a unique insight into the mumm"
+    },
+    {
+      "_key": "es",
+      "value": "Sólo en Luxor El Museo de la Momificación de Luxor es un destino apasionante para los interesados en la antigua cultura egipcia, especialmente en sus prácticas funerarias y creencias sobre el más allá.Ofrece una visión única del proceso de "
+    },
+    {
+      "_key": "ja",
+      "value": "ルクソールのミイラ博物館 古代エジプト文化に関心がある人々にとって魅力的な場所です。特にエジプトの葬儀慣行や来世への信仰について学ぶことができます。エジプトの葬儀習慣の中核を成すミイラ化のプロセスについて、ユニークな洞察を提供してくれる施設です。 ミイラ博物館の主要な見どころ： ミイラ化の理解 博物館は、古代エジプト人がいかにして来世における身体の保存を重要視していたかを来館者に伝え、ミイラ化のプロセスとその文化的な意義を詳しく解説しています。 展示物 ミイラやミイラ化に使用"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Luxor Off The Beaten Path"
+    },
+    {
+      "_key": "es",
+      "value": "Experiencias descubiertas"
+    },
+    {
+      "_key": "ja",
+      "value": "ルクソールここだけの体験"
+    }
+  ]
+}

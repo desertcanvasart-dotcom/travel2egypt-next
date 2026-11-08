@@ -1,0 +1,2642 @@
+{
+  "_createdAt": "2026-05-04T20:43:26Z",
+  "_id": "wp-page-59257",
+  "_rev": "PUXUI6sshIht1BONydQ734",
+  "_system": {
+    "base": {
+      "id": "wp-page-59257",
+      "rev": "iPsARNKARC3Pl1oe0HTipL"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:02:05Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "6jtmvxerg4wm",
+              "_type": "span",
+              "marks": [],
+              "text": "Discover "
+            },
+            {
+              "_key": "xzmrwn5fuul3",
+              "_type": "span",
+              "marks": [
+                "7f5k34yc1kou"
+              ],
+              "text": "Asyut"
+            },
+            {
+              "_key": "1zv4ta53kd1m",
+              "_type": "span",
+              "marks": [],
+              "text": " With Tours "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "7f5k34yc1kou",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58764",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1. 11-Day Long Nile Cruise"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Duration"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ": 10 Nights"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Highlights"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": ":"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Luxurious Experience"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Enjoy the comfort of a luxurious Nile cruise with private balcony views."
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cultural Immersion"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": ": Visit small villages, interact with locals, and learn about traditional crafts like cotton-spinning and carpet-making in towns like "
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "00000000000d"
+              ],
+              "text": "Beni Suef"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Historical Exploration"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": ": Explore ancient burial grounds, pyramids, and temple complexes."
+            },
+            {
+              "_key": "vhlshj86dexz",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "h7vghzsv8e3x"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "9nv1ol50ro97",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Visit"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": Discover the grandeur of the "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "Karnak"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": " and Luxor temples, key highlights of ancient Egyptian civilization."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000000d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/beni-suef-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/beni-suef",
+              "newTab": false
+            },
+            {
+              "_key": "000000000014",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/abu-simble-travel-guide/the-temple-of-amada/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/abu-simbel/the-temple-of-amada",
+              "newTab": false
+            },
+            {
+              "_key": "h7vghzsv8e3x",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000018"
+              ],
+              "text": "Booking"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000018",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/tours/11-day-nile-cruise-luxor-cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/14-day-egypt-luxury-family-holiday",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "2. The Holy Family Trip in Egypt"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Duration"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Varies (usually around 7-10 days)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Highlights"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": ":"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Spiritual Journey"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": ": Follow the trail of the Holy Family in Egypt, visiting significant monasteries and religious sites."
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ancient Ruins and Monasteries"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": ": Visit less-explored ruins in Farma and engage with monks in the monasteries of Wadi El Natroun."
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Felucca Ride"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": ": Experience a serene sail on a traditional Egyptian sailboat, the Felucca, offering breathtaking views."
+            },
+            {
+              "_key": "tnwd2lbyz3aj",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "hcptnol6i2ef"
+              ],
+              "text": "Abu Simbel"
+            },
+            {
+              "_key": "6jsc99o4cl63",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " Visit"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": ": Witness the awe-inspiring temples of Abu Simbel, a testament to ancient Egyptian architecture and engineering."
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000002a"
+              ],
+              "text": "Dendera Temple"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": ": Marvel at the exquisite reliefs and architectural beauty of the Dendera Temple."
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nile Cruise"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": ": The tour often includes a relaxing journey on a Nile cruise, adding a luxurious element to the spiritual exploration."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000002a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/qena-travel-guide/the-temple-of-dendera/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/qena/the-temple-of-dendera",
+              "newTab": false
+            },
+            {
+              "_key": "hcptnol6i2ef",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-56813",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000030"
+              ],
+              "text": "Booking"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000030",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/tours/the-holy-family-trip-in-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/the-holy-family-trip-in-egypt",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "Tips for Booking and Participating in Tours:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Advance Booking"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": ": Due to the unique nature of these tours, it’s advisable to book well in advance."
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Customization"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": ": Ask your tour operator if they can tailor the itinerary to your interests and preferences."
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cultural Sensitivity"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": ": As these tours involve visiting religious sites, dressing modestly and respecting local customs is recommended."
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Physical Requirements"
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": ": Some tours may involve walking in rural or uneven terrain, so it’s important to be prepared for mild physical activity."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "These tours in Asyut not only offer a glimpse into Egypt’s ancient past but also provide an opportunity to connect with the spiritual and cultural traditions that have shaped the region over millennia."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000042",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Updated On:"
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": " July 24, 2025"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/asyut-egypt-005-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "View of a bridge over the Nile River with residential buildings in the background in Asyut, Egypt."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Asyut's connection across the waters – a bridge over the Nile with the city's urban landscape behind"
+            }
+          ]
+        },
+        {
+          "_key": "000000000044",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/المعهد_الديني_-_أسيوط_-_مصر_-_The_Religious_Institute_-_Assiut_-_Egypt.jpeg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "White architectural building with a minaret near the Nile River in Assiut, Egypt."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "The Religious Institute in Assiut, Egypt, standing elegantly by the Nile."
+            }
+          ]
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "000000000045"
+              ],
+              "text": "Discover Your Perfect Egypt Travel Packages"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000045",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/egypt-travel-packages/"
+              },
+              "_type": "externalLink",
+              "href": "/egypt-travel-packages",
+              "newTab": false
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "Dive into our "
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [
+                "000000000049"
+              ],
+              "text": "Egypt Travel Packages"
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": " for the ultimate adventure. Whether you’re dreaming of a Nile cruise, exploring ancient pyramids, or relaxing by the Red Sea, we’ve curated the best experiences for you. Connect your journey seamlessly with our comprehensive travel guide, ensuring every moment is unforgettable."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000049",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/egypt-holidays-from-japan/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/nippon-kara-iku-ejiputo-ryoko",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "effo3ofr72l4",
+              "_type": "span",
+              "marks": [],
+              "text": "Los Mejores Recorridos en "
+            },
+            {
+              "_key": "7s26vtgdlzat",
+              "_type": "span",
+              "marks": [
+                "5pw5zjs59dea"
+              ],
+              "text": "Asyut"
+            },
+            {
+              "_key": "ecy48gprw4rg",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "5pw5zjs59dea",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58764",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1. Crucero de 11 días por el Nilo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Duración"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ": 10 Noches"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Lo más "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000008"
+              ],
+              "text": "destacado"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ":"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Experiencia"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": " de lujo: Disfruta de la comodidad de un "
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "00000000000d"
+              ],
+              "text": "lujoso crucero por el Nilo con"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": " vistas a balcones privados."
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Inmersión cultural"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": ": Visita pequeñas aldeas, interactúa con los lugareños y "
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [
+                "000000000012"
+              ],
+              "text": "aprende oficios tradicionales como el hilado del algodón y la fabricación de alfombras en ciudades como Beni Suef"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Exploración histórica"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ": Explora antiguos cementerios, pirámides y complejos de templos."
+            },
+            {
+              "_key": "3y0xg2u7qrsj",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Visita "
+            },
+            {
+              "_key": "s8flyhccanc5",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "85siw7sodvy1"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": ": Descubre la grandeza de "
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "000000000019"
+              ],
+              "text": "los templos de Karnak y Luxor"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": ", hitos clave de la antigua civilización egipcia."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000008",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/que-incluyen-los-paquetes-de-crucero-por-el-nilo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/que-incluyen-los-paquetes-de-crucero-por-el-nilo",
+              "newTab": false
+            },
+            {
+              "_key": "000000000012",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/capas-de-la-historia/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/beni-suef/historia-de-beni-suef",
+              "newTab": false
+            },
+            {
+              "_key": "000000000019",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/majestad-de-los-templos-excursion-privada-a-los-templos-de-karnak-y-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/es/karnak-templo-de-luxor-y-museo-de-luxor",
+              "newTab": false
+            },
+            {
+              "_key": "85siw7sodvy1",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58877",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000001d"
+              ],
+              "text": "Reserva"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/es/crucero-de-11-dias-por-el-nilo-de-luxor-a-el-cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/egipto-en-7-dias-el-cairo-crucero-por-el-nilo-luxor-y-asuan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "2. El viaje de la Sagrada Familia a Egipto"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Duración"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": ": Varía (normalmente entre 7 y 10 días)"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Lo más destacado"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": ":"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Viaje Espiritual"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": ": Sigue el rastro de la "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "000000000029"
+              ],
+              "text": "Sagrada Familia en Egipto"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": ", visitando importantes monasterios y lugares religiosos."
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Ruinas "
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "antiguas y monasterios"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Visita ruinas menos "
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "00000000002f"
+              ],
+              "text": "exploradas"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " en Farma y entra en contacto con monjes en los monasterios de Wadi El Natroun."
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Paseo en Felucca:"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " Experimenta una serena navegación en un velero "
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [
+                "000000000034"
+              ],
+              "text": "tradicional"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": " egipcio, la Felucca, que ofrece unas vistas impresionantes."
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Visita a"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [
+                "000000000039"
+              ],
+              "text": "Abu Simbel: Contempla los sobrecogedores templos de"
+            },
+            {
+              "_key": "2qozvvd3dlue",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "ezpyqufvkqjd",
+              "_type": "span",
+              "marks": [
+                "uppcsrh08xja"
+              ],
+              "text": "Abu Simbel"
+            },
+            {
+              "_key": "h1fjxdttibat",
+              "_type": "span",
+              "marks": [],
+              "text": ", testimonio de la arquitectura y la ingeniería del antiguo Egipto."
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000003c"
+              ],
+              "text": "Templo de Dendera"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": ":"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": " Maravíllate ante los exquisitos relieves y la belleza arquitectónica del Templo de Dendera."
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "000000000040",
+                "strong"
+              ],
+              "text": "Crucero por el Nilo:"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "000000000040"
+              ],
+              "text": " El recorrido suele incluir un relajante viaje en un crucero por el Nilo"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": ", lo que añade un elemento de lujo a la exploración espiritual."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000029",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/sagrada-familia-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/la-ruta-de-la-sagrada-familia-quince-dias-por-el-egipto-copto-y-el-nilo-antiguo",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-sohag/explora/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/explora-egipto-en-10-dias-tu-itinerario-esencial-para-viajar-a-egipto-en-10-dias",
+              "newTab": false
+            },
+            {
+              "_key": "000000000034",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/egipto-con-una-feluca-tradicional/"
+              },
+              "_type": "externalLink",
+              "href": "/es/velas-en-el-nilo-viaje-privado-de-diez-dias-en-faluca-de-asuan-a-luxor",
+              "newTab": false
+            },
+            {
+              "_key": "000000000039",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-pequeno-templo-de-abu-simbel/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-pequeno-templo-de-abu-simbel/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000003c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-qena/el-templo-de-dendera/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/qena/el-templo-de-dendera",
+              "newTab": false
+            },
+            {
+              "_key": "000000000040",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/para-navegar-por-el-nilo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/para-navegar-por-el-nilo",
+              "newTab": false
+            },
+            {
+              "_key": "uppcsrh08xja",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-56813",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "Consejos para reservar y participar en visitas guiadas:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "Reserva "
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "con an"
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "telación: Debido a la naturaleza única de estos recorridos, es aconsejable reservar con bastante antelación."
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Personalización"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Pregunta a tu operador turístico si puede adaptar el itinerario a tus intereses y preferencias."
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Sensibilidad cultural"
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": ": Dado "
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [
+                "000000000052"
+              ],
+              "text": "que estos recorridos implican la visita"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": " a lugares religiosos, se recomienda vestir con modestia y respetar las costumbres locales."
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Requisitos físicos"
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": ": Algunas "
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [
+                "000000000058"
+              ],
+              "text": "excursiones pueden implicar caminar por"
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": " terrenos rurales o accidentados, por lo que es importante estar preparado para una actividad física leve."
+            },
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000052",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/vacaciones-inolvidables-en-egipto",
+              "newTab": false
+            },
+            {
+              "_key": "000000000058",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/itinerario-de-2-semanas-por-egipto-explora-lo-mejor-de-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos recorridos por "
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [
+                "00000000005f"
+              ],
+              "text": "Asyut"
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": " no sólo ofrecen una visión del antiguo pasado de Egipto, sino que también brindan la oportunidad de conectar con las tradiciones espirituales y culturales que han dado forma a la región durante milenios."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asyut/la-tumba-de-khety-ii-en-asyut/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/asyut/la-tumba-de-khety-ii-en-asyut",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000064",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000066",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2025"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "1t09v9xbqf8s",
+              "_type": "span",
+              "marks": [
+                "xy6zikjxov5c"
+              ],
+              "text": "アスユート"
+            },
+            {
+              "_key": "bbliok5om7qz",
+              "_type": "span",
+              "marks": [],
+              "text": "で楽しめるおすすめツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "xy6zikjxov5c",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58764",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1. 11日間のナイル川ロングクルーズ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "11日間（10泊）のナイル川ロングクルーズ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "期間"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "：10泊 / 11日"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ツアータイプ"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "：ラグジュアリー・ナイルクルーズ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ハイライト"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ラグジュアリーな体験"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": " ナイル川をゆったりと巡る豪華クルーズ"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " プライベートバルコニー付きの客室で、壮大なナイルの景色を満喫"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " 一流の食事とスパ施設で、快適な船旅を楽しむ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "文化体験"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": " 小さな村を訪れ、地元の人々と交流"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "msk358wd7gsy",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "kev71v8fhlvt",
+              "_type": "span",
+              "marks": [
+                "veuhwt3oocti"
+              ],
+              "text": "ベニ・スエフ"
+            },
+            {
+              "_key": "5eekr39rs19m",
+              "_type": "span",
+              "marks": [],
+              "text": "などの町で、伝統工芸（綿紡ぎやカーペット織り）を学ぶ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "veuhwt3oocti",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58776",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "歴史探索"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " 古代の埋葬地、ピラミッド、神殿遺跡を巡る"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " ナイル渓谷の知られざる遺跡を訪問"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ルクソール訪問"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " カルナック神殿やルクソール神殿を探検し、古代エジプト文明の壮大さを体感"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "予約情報"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": " ご希望の日程や料金の詳細は、旅行代理店または公式サイトでご確認ください。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "2. エジプトへの聖家族の旅"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "聖家族のエジプト巡礼ツアー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "期間"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "：7～10日間（カスタマイズ可能）"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ツアータイプ"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "：宗教・歴史・文化体験"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ハイライト"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "スピリチュアルな巡礼の旅"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " 聖家族の足跡をたどり、エジプト各地の重要な宗教遺跡を訪問"
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": " コプト教の修道院や教会を巡り、古代から続く信仰の歴史に触れる"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "古代遺跡と修道院巡り"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": " ファルマ：エジプト北部のあまり知られていない聖地を探訪"
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": " ワディ・エル・ナトルン：歴史ある修道院を訪れ、修道士と交流"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ナイル川フェルーカ体験"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": " 伝統的なエジプトの帆船「フェルーカ」に乗り、ナイル川の絶景を満喫"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "アブ・シンベル神殿訪問"
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": " ラムセス2世が建設した壮大なアブ・シンベル神殿で、古代エジプトの建築技術に感動"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "デンデラ神殿探訪"
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": " デンデラ神殿の美しいレリーフや、天井に描かれた星座の装飾を鑑賞"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ナイルクルーズ"
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": " 巡礼の旅にラグジュアリーなひとときをプラスし、快適なナイル川クルーズを楽しむ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "予約情報"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": " ご希望の日程やカスタマイズ可能なプランについては、旅行代理店または公式サイトでご確認ください。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "ブックとパロディ用のチップはtorsにあります: "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "予約と旅行のポイント"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "事前予約"
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " このツアーは特別な体験が含まれるため、"
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "早めの予約がおすすめ"
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "。特に巡礼祭や人気の観光シーズン（冬・春）は、予約が埋まりやすいので計画的に手配を。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "カスタマイズ可能"
+            },
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": " ツアーオペレーターに相談し、"
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "自分の興味やスケジュールに合わせた旅程を組む"
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "ことが可能。修道院訪問を増やしたり、ナイルクルーズを含めたりと、希望に応じたアレンジができる。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "文化的配慮"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "宗教的な場所を訪問するため、服装には注意"
+            },
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "（肩や膝を隠す服装が推奨される）。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "現地の習慣や儀式を尊重し、静かに見学"
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "することが大切。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "体力的な準備"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": "一部のツアーでは、"
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "田舎道や遺跡内を歩くことが多い"
+            },
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "ため、歩きやすい靴で参加を。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": "日差しが強い季節は、"
+            },
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "帽子やサングラス、水分補給を忘れずに"
+            },
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": "。"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "旅の魅力"
+            },
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": " アスユートのツアーは、エジプトの古代遺跡や信仰の歴史を深く知るだけでなく、"
+            },
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "何千年にもわたって受け継がれてきた文化と精神的な伝統に触れる貴重な機会"
+            },
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": "となる。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": "2020年3月18日作成"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": "2025年8月更新"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Red velvet-draped shrine embroidered with a saint in a brick-vaulted crypt with arched niches and a gilded icon"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Santuario cubierto de terciopelo rojo bordado con un santo, en una cripta abovedada de ladrillo con hornacinas y un icono dorado"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "煉瓦造りのヴォールト天井の地下聖堂で、聖人の刺繍が施された赤いビロードに覆われた聖櫃。奥にはイコンが飾られている。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-ae16d177dd02349145c04b0dad07886147a5d5cf-3074x2046-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A velvet-draped shrine rests in the brick crypt of a Coptic church."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Un santuario cubierto de terciopelo reposa en la cripta de ladrillo de una iglesia copta."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "コプト教会の煉瓦造りの地下聖堂に安置された、ビロードに覆われた聖櫃。"
+      }
+    ]
+  },
+  "kind": "tours",
+  "migration": {
+    "migratedAt": "2026-05-05T13:01:31.310Z",
+    "source": "wp-import",
+    "wpId": 59257,
+    "wpModifiedAt": "2025-07-24T05:36:59",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/discover-asyut-with-tours/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58764",
+    "_type": "reference"
+  },
+  "section": "others",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "discover-asyut-with-tours"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "los-mejores-recorridos-en-asyut"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "asuyuto-no-osusume-tsua"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Discover Asyut With Tours 1. 11-Day Long Nile Cruise Duration: 10 Nights Highlights: Luxurious Experience: Enjoy the comfort of a luxurious Nile cruise with private balcony views. Cultural Immersion: Visit small villages, interact with loca"
+    },
+    {
+      "_key": "es",
+      "value": "Los Mejores Recorridos en Asyut 1. Crucero de 11 días por el Nilo Duración: 10 Noches Lo más destacado: Experiencia de lujo: Disfruta de la comodidad de un lujoso crucero por el Nilo con vistas a balcones privados. Inmersión cultural: Visit"
+    },
+    {
+      "_key": "ja",
+      "value": "アシュートで楽しめるおすすめツアー 1. 11日間のナイル川ロングクルーズ 11日間（10泊）のナイル川ロングクルーズ 期間：10泊 / 11日 ツアータイプ：ラグジュアリー・ナイルクルーズ ハイライト ラグジュアリーな体験 ナイル川をゆったりと巡る豪華クルーズ プライベートバルコニー付きの客室で、壮大なナイルの景色を満喫 一流の食事とスパ施設で、快適な船旅を楽しむ 文化体験 小さな村を訪れ、地元の人々と交流 ベニ・スエフなどの町で、伝統工芸（綿紡ぎやカーペット織り）を学ぶ "
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Discover Asyut With Tours"
+    },
+    {
+      "_key": "es",
+      "value": "Los Mejores Recorridos en Asyut"
+    },
+    {
+      "_key": "ja",
+      "value": "アスユートのおすすめツアー"
+    }
+  ]
+}

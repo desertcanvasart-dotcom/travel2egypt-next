@@ -4,17 +4,19 @@
     "tagline": "Egipto, con criterio."
   },
   "home": {
-    "eyebrow": "Operador egipcio desde 2003",
+    "eyebrow": "Operador egipcio desde 1993",
     "heroFirstLine": "Egipto pide más de ti",
     "heroAccent": "de lo que sus postales admiten.",
     "heroLede": "Guías al nivel de un operador, viajes privados y un concierge con base en El Cairo, para quienes quieren un Egipto planificado con cuidado, no copiado de una plantilla.",
-    "heroMetaYears": "30 años",
-    "heroMetaYearsLabel": "operando en Egipto",
+    "heroCtaPrimary": "Planifica mi viaje a Egipto",
+    "heroCtaSecondary": "O mira por dónde empezar",
+    "heroMetaYears": "Desde 1993",
+    "heroMetaYearsLabel": "sobre el terreno en Egipto",
     "heroMetaTrips": "Miles",
     "heroMetaTripsLabel": "de viajes organizados",
     "standfirstEyebrow": "Lo que hacemos distinto",
     "standfirstLine1": "La mayoría de las webs tratan Egipto como una lista de monumentos.",
-    "standfirstLine2": "Nosotros lo tratamos como un país de ochenta millones de personas, cuatro dialectos mayores y varios milenios de opiniones sobre sí mismo.",
+    "standfirstLine2": "Nosotros lo tratamos como un país de más de cien millones de personas, cuatro dialectos mayores y varios milenios de opiniones sobre sí mismo.",
     "standfirstAccent": "La diferencia aparece en los detalles.",
     "whereKicker": "Por dónde empezar",
     "whereTitle": "¿Por dónde debería empezar tu Egipto?",
@@ -57,7 +59,8 @@
     "step4Title": "Lo operamos",
     "step4Body": "Guías privados, transporte y hoteles sobre el terreno, y apoyo humano mientras viajas.",
     "planCtaPrimary": "Habla con nuestro concierge →",
-    "planCtaWhatsApp": "Consulta rápida por WhatsApp →"
+    "planCtaWhatsApp": "Consulta rápida por WhatsApp →",
+    "planWhatsAppText": "Hola, Travel2Egypt: me gustaría planificar un viaje a Egipto."
   },
   "concierge": {
     "eyebrow": "Planifica tu viaje",
@@ -69,8 +72,9 @@
     "step2Title": "Plan a medida",
     "step2Text": "Un itinerario real con ciudades, hoteles y operadores concretos — nunca una plantilla.",
     "step3Title": "Acompañamiento",
-    "step3Text": "Cuando viajas, estamos cerca. Apoyo sobre el terreno con treinta años de operaciones.",
+    "step3Text": "Cuando viajas, estamos cerca. Apoyo sobre el terreno con treinta años de experiencia.",
     "primaryCta": "Habla con nuestro concierge",
+    "midInvite": "¿Te reconoces en algo de esto? Nuestro concierge en El Cairo lo convierte de una intuición en un plan — sin compromiso y sin plantillas.",
     "secondaryCta": "Consulta rápida por WhatsApp",
     "ctaTourLabel": "Habla con nuestro concierge sobre este viaje",
     "ctaTrailingArrow": "→"
@@ -78,7 +82,7 @@
   "planYourTour": {
     "metaTitle": "Planifica tu viaje a Egipto con nuestro concierge IA",
     "metaDescription": "Da forma a tu viaje a Egipto conversando con nuestro concierge — un asistente con IA; después, nuestro equipo se encarga del resto con recomendaciones y precios concretos. Un operador egipcio con 30 años sobre el terreno.",
-    "eyebrow": "Concierge con IA — 30 años de experiencia como operador en Egipto",
+    "eyebrow": "Concierge con IA — 30 años sobre el terreno en Egipto",
     "headingLead": "Dinos lo que quieres —",
     "headingAccent": "te diremos lo que de verdad funciona",
     "subheading": "Da forma a tu viaje a Egipto conversando con nuestro concierge — un asistente con IA. Nuestro equipo se encarga del resto.",
@@ -89,7 +93,7 @@
     "journey3Title": "Nuestro equipo responde",
     "journey3Desc": "Recomendaciones y precios concretos en pocas horas",
     "trustLabel": "Reconocidos y avalados por",
-    "trustYearsLabel": "Años",
+    "trustYearsLabel": "Años sobre el terreno",
     "chatAgentName": "Concierge de Travel2Egypt",
     "chatAgentStatus": "Disponible ahora",
     "aiDisclosure": "Concierge con IA — con el respaldo de nuestro equipo humano",
@@ -184,7 +188,8 @@
     "dataExportTitle": "Solicitar una copia de tus datos",
     "dataExportDesc": "Te enviaremos por correo una copia de tu conversación.",
     "dataExportSubject": "Solicitud de datos — {ref}",
-    "dataExportBody": "Me gustaría recibir una copia de los datos de mi conversación con el concierge. Mi referencia es {ref}."
+    "dataExportBody": "Me gustaría recibir una copia de los datos de mi conversación con el concierge. Mi referencia es {ref}.",
+    "dataPrivacyLink": "Cómo tratamos tus datos — lee nuestra política de privacidad"
   },
   "nav": {
     "home": "Inicio",
@@ -223,7 +228,7 @@
   "footer": {
     "sisterBrandsLabel": "Otras marcas de Travel2Egypt",
     "trustLabel": "Acreditaciones y reseñas",
-    "tagline": "Operador egipcio desde 2003. Acreditados por JATA, IATA, ASTA y ETAA.",
+    "tagline": "Guías desde 1993, operador con licencia desde 2003.",
     "rights": "© {year} Travel2Egypt. Todos los derechos reservados.",
     "privacy": "Política de Privacidad",
     "terms": "Términos y Condiciones",
@@ -246,10 +251,13 @@
     "nameInHieroglyphs": "Tu nombre en jeroglíficos",
     "responsibleTravel": "Viajes responsables",
     "faqLabel": "FAQ",
+    "whatsapp": "WhatsApp {number}",
     "cookiePreferences": "Preferencias de cookies"
   },
   "guide": {
     "landingTitle": "Guía de viaje a Egipto",
+    "jumpTo": "Ir a una región",
+    "jumpAria": "Ir a una región de Egipto",
     "landingDeck": "Guías de las ciudades de Egipto al nivel de un operador, escritas por quienes operamos viajes aquí cada semana.",
     "regionOther": "Otros destinos",
     "subArticlesLabel": "En esta guía",
@@ -497,7 +505,7 @@
     "trigger": "Concierge",
     "eyebrow": "Concierge",
     "title": "Pregunta lo que quieras sobre esto.",
-    "sub": "No es un chatbot. Te responde quien lleva más de veinte años organizando viajes en Egipto.",
+    "sub": "No es un chatbot. Te responde quien lleva más de treinta años organizando viajes en Egipto.",
     "inputPlaceholder": "O escribe tu propia pregunta…",
     "contactCta": "Habla con nuestro concierge",
     "close": "Cerrar",
@@ -722,7 +730,11 @@
     "weekday_sun": "Dom"
   },
   "legal": {
-    "lastUpdatedPrefix": "Última actualización"
+    "lastUpdatedPrefix": "Última actualización",
+    "metaTerms": "Las condiciones que rigen las reservas y el uso de los servicios de Travel2Egypt.",
+    "metaPrivacy": "Cómo Travel2Egypt recopila, utiliza y protege sus datos personales.",
+    "metaCookies": "Las cookies que utiliza Travel2Egypt, su función y las opciones disponibles.",
+    "metaDisclaimer": "El alcance y los límites de la información publicada en Travel2Egypt."
   },
   "wikiComingSoon": {
     "eyebrow": "Próximamente",
@@ -819,18 +831,28 @@
     "metaDescription": "La historia de Travel2Egypt, contada por su fundador, Islam Hussein — de una infancia en Asuán a treinta años de trabajo en el turismo egipcio. Pequeña operación en línea, dirigida por el fundador."
   },
   "faq": {
-    "metaTitle": "FAQ | Egypt Travel Questions Answered | Travel2Egypt",
-    "metaDescription": "Frequently asked questions about traveling in Egypt: visa, best time to visit, budget, safety, tipping, booking with Travel2Egypt. Quick answers from a Cairo-based operator.",
-    "heroHeading": "Frequently Asked Questions",
-    "heroSubhead": "Quick answers to questions we hear most often.",
-    "bottomCtaPretext": "Still have a question?",
-    "bottomCtaLabel": "Talk to us on WhatsApp"
+    "metaTitle": "Preguntas frecuentes sobre viajes a Egipto | Travel2Egypt",
+    "metaDescription": "Preguntas frecuentes sobre viajar a Egipto: visado, mejor época, presupuesto, seguridad, propinas y cómo reservar con Travel2Egypt. Respuestas claras de un operador con base en El Cairo.",
+    "heroHeading": "Preguntas frecuentes",
+    "heroSubhead": "Respuestas claras a las preguntas que más nos hacen.",
+    "intro": "Para profundizar en temas concretos —transporte, itinerarios por regiones, qué comer—, están las secciones de <tipsLink>Consejos de viaje</tipsLink> y la <guideLink>Guía de viaje</guideLink>. Para preguntas sobre tu propio viaje, lo más rápido es escribirnos directamente: respondemos en cuestión de horas, los siete días de la semana.",
+    "bottomCtaPretext": "¿Te queda alguna duda?",
+    "bottomCtaLabel": "Escríbenos por WhatsApp"
+  },
+  "landingFaq": {
+    "heading": "Preguntas frecuentes"
   },
   "consent": {
     "headline": "Solo usamos cookies esenciales",
-    "body": "Travel2Egypt usa una pequeña cookie para recordar el idioma en el que lees la web. Si usas nuestro concierge con IA, también guardamos una cookie de sesión, t2e_session_id, para que tu conversación se mantenga al cambiar de página o al volver — dura 30 días y se limita a travel2egypt.org. Para proteger el concierge frente a usos abusivos, procesamos una versión cifrada de un solo sentido (hash) de tu dirección IP y tu navegador; los datos originales nunca se guardan ni se registran. No usamos analítica, ni publicidad, ni ningún tipo de seguimiento.",
+    "body": "Travel2Egypt usa una pequeña cookie para recordar el idioma en el que lees la web. Si usas nuestro concierge con IA, también guardamos una cookie de sesión, t2e_session_id, para que tu conversación se mantenga al cambiar de página o al volver — dura 30 días y se limita a travel2egypt.org. Si eliges una moneda para los precios, también guardamos esa elección en una cookie, t2e_ccy, para que los precios sigan en tu moneda — dura un año y solo se establece cuando tú la eliges. Para proteger el concierge frente a usos abusivos, procesamos una versión cifrada de un solo sentido (hash) de tu dirección IP y tu navegador; los datos originales nunca se guardan ni se registran. No usamos analítica, ni publicidad, ni ningún tipo de seguimiento.",
     "policyLink": "Lee nuestra política de cookies",
-    "gotIt": "Entendido"
+    "gotIt": "Entendido",
+    "headlineAnalytics": "Cookies: tú eliges",
+    "bodyAnalytics": "Siempre usamos algunas cookies esenciales: para el idioma, la moneda de los precios y el concierge con IA (que además procesa un hash de un solo sentido de tu IP y tu navegador para evitar abusos). Si nos das permiso, también usamos Google Analytics para saber qué páginas ayudan a planificar un viaje; instala cookies _ga. No hacemos publicidad ni compartimos nada con fines publicitarios. Si eliges solo las esenciales, no se instala ninguna cookie de analítica. Puedes cambiarlo cuando quieras en «Preferencias de cookies», en el pie de página.",
+    "accept": "Aceptar analítica",
+    "decline": "Solo esenciales",
+    "currentAccepted": "Tu elección actual: analítica aceptada.",
+    "currentDeclined": "Tu elección actual: solo cookies esenciales."
   },
   "tourSystem": {
     "mastKicker": "Día a día · Por todo Egipto",
@@ -921,11 +943,11 @@
     "trustSignal2": "Grupo reducido o privado — nunca un autocar lleno",
     "trustSignal3": "Precios escalonados y transparentes — sin costes ocultos",
     "trustSignal4": "Te diremos con honestidad si otro día te conviene más",
-    "trustAccred": "ETAA · IATA · ASTA — operador egipcio desde 2003",
+    "trustAccred": "guías desde 1993",
     "shapeDaysCount": "{count, plural, one {# día} other {# días}}",
     "priceFromLabel": "Desde",
     "priceOnInquiry": "A consultar",
-    "priceNoteOnInquiry": "El precio final depende del tamaño del grupo, la temporada y las opciones que elijas — se confirma al consultar. Sin costes ocultos.",
+    "priceNoteOnInquiry": "El precio «desde» es una estimación de partida, por persona — tu precio exacto depende de la temporada, el nivel de confort, el tamaño del grupo y las opciones que elijas, y se confirma al consultar. Los vuelos internacionales, el visado y los gastos personales quedan fuera; tu propuesta detalla todo lo incluido. Sin costes ocultos.",
     "pkgKicker": "Paquete de viaje a Egipto",
     "metaRoute": "Ruta",
     "metaStyle": "Estilo",
@@ -1062,6 +1084,8 @@
     "pkgGrpEnquire": "Consultar",
     "pkgGrpDepNote": "«Garantizada» significa que la salida está confirmada. Los precios son por persona en habitación compartida, solo servicios en tierra; el suplemento individual se indica bajo petición. ¿No encuentras una fecha que te encaje? A veces podemos abrir una salida privada para tu propio grupo.",
     "pkgGrpReserveText": "Hola: me gustaría reservar una plaza en {title}, salida {date}.",
+    "waTourText": "Hola, me interesa «{title}»",
+    "waLandingText": "Hola, me interesa «{title}»",
     "pkgGrpNextKicker": "Próxima salida",
     "pkgGrpThen": "Después {dates}",
     "pkgGrpAndMore": "{dates} · y {count} más",
@@ -1235,7 +1259,7 @@
       "tagSummary": "Árabe para viajeros",
       "titlePrefix": "Árabe,",
       "titleAccent": "ligero",
-      "standfirstLead": "Ochenta millones de personas lo hablan.",
+      "standfirstLead": "Más de cien millones de personas lo hablan.",
       "standfirstAccent": "Aquí van cuarenta palabras que harán tu viaje más cálido.",
       "intro1": "No necesitas hablar árabe con fluidez para viajar por Egipto. El inglés te llevará por casi todos los hoteles, museos y sitios turísticos. Pero unas pocas palabras dichas en el momento justo cambian cómo te responden los egipcios: el vendedor del mercado sonríe más, el conductor se relaja, el camarero te recuerda. Lo que sigue es la lista corta que más trabajo hace.",
       "intro2": "El árabe egipcio difiere del árabe formal que se enseña en los libros. Los saludos, las cadencias, las palabras culturales: eso es lo que oirás de verdad. Hemos escrito la pronunciación como suena, no como se deletrea.",

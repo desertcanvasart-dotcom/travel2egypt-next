@@ -1,0 +1,3082 @@
+{
+  "_createdAt": "2026-04-29T12:14:45Z",
+  "_id": "wp-page-58932",
+  "_rev": "s3lwKhJpiG0MMv92XpfSei",
+  "_system": {
+    "base": {
+      "id": "wp-page-58932",
+      "rev": "37hNSegHf4NtjSKr1hMtye"
+    }
+  },
+  "_type": "city",
+  "_updatedAt": "2026-07-30T17:30:14Z",
+  "coordinates": {
+    "_type": "coordinates",
+    "lat": 29.2041,
+    "lng": 25.5195
+  },
+  "guideBestFor": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "Siwi Berber culture, the Oracle temple, salt lakes and sand sea"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "la cultura bereber siwi, el templo del Oráculo, lagos salados y mar de arena"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "シーワのベルベル文化、神託の神殿、塩湖と砂の海"
+    }
+  ],
+  "guideDek": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "Berber Egypt near the Libyan frontier — springs, salt lakes, and the oracle Alexander crossed the desert to consult."
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayTextValue",
+      "value": "El Egipto bereber cerca de la frontera libia: manantiales, lagos salados y el oráculo que Alejandro cruzó el desierto para consultar."
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayTextValue",
+      "value": "リビア国境に近いベルベルのエジプト——泉と塩湖、そしてアレクサンドロスが砂漠を越えて訪ねた神託の地。"
+    }
+  ],
+  "guideHonestNote": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "No airport and a long road in — which is exactly why it is still itself."
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayTextValue",
+      "value": "Sin aeropuerto y con una larga carretera de entrada: por eso sigue siendo lo que es."
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayTextValue",
+      "value": "空港はなく、入るには長い道のり——だからこそ、今も昔のままでいられる。"
+    }
+  ],
+  "guideRegion": "western-desert",
+  "guideTime": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "three nights, plus the drive"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "tres noches, más el viaje por carretera"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "三泊、加えて道中の時間"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Ruined mudbrick remains of the Temple of the Oracle above palm groves at Siwa Oasis."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Ruinas de adobe del Templo del Oráculo sobre los palmerales del Oasis de Siwa."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "シワ・オアシスのヤシ林を見下ろす、日干しレンガの神託の神殿の廃墟。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-8facb16f0510e5e5fd021ba11ad7186d46abfd83-4096x1460-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The crumbling Oracle temple of Aghurmi watches over Siwa's palm groves."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "El ruinoso templo del Oráculo de Aghurmi vela sobre los palmerales de Siwa."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "シワのヤシ林を見守る、崩れゆくアグルミの神託神殿。"
+      }
+    ]
+  },
+  "migration": {
+    "migratedAt": "2026-04-29T12:14:44.933Z",
+    "reviewFlag": "keyfacts-mining-failed",
+    "source": "wp-import",
+    "wpId": 58932,
+    "wpModifiedAt": "2026-04-12T15:52:01",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/siwa-oasis-travel-guide/"
+  },
+  "name": [
+    {
+      "_key": "en",
+      "value": "Siwa Oasis"
+    },
+    {
+      "_key": "es",
+      "value": "Siwa"
+    },
+    {
+      "_key": "ja",
+      "value": "シワ・オアシス"
+    }
+  ],
+  "overview": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa feels less like a place you reach than a place the desert allows you to find."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "It lies deep in Egypt's Western Desert, roughly 560 kilometres west of Cairo and about 50 kilometres from the Libyan border. For most of the journey there is only road, stone, sand, sky, and distance. Then the desert drops into a depression below sea level, and the oasis appears: palms, olives, salt lakes, springs, mud-brick ruins, and the pale edge of the Great Sand Sea."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa is not simply another Egyptian oasis."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "It is a Berber-speaking community of around 25,000 to 36,000 people with its own language, architecture, customs, embroidery, silverwork, wedding traditions, and social codes. It is Egyptian, but not Nile Valley Egyptian. It is desert, but not empty. It is ancient, but not frozen. Its isolation shaped a culture unlike anywhere else in the country."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "People come for the Oracle of Amun, Alexander the Great, the ruins of Shali, the salt lakes, Cleopatra's Spring, desert safaris, and palm-framed sunsets."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "They often remember something quieter."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "The feeling of being very far from the centre of things."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Where Siwa Is"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa sits in Matrouh Governorate, in a desert depression west of the Nile Valley and south of the Mediterranean coast."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "The closest major coastal city is Marsa Matruh, reached by road across the desert. Cairo is much farther, usually an eight-to-ten-hour journey depending on route, stops, traffic, and security procedures. There is no airport and no railway. The oasis covers around 1,018 square kilometres and reaches roughly 18 to 20 metres below sea level at its lowest points."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "This distance matters."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa should not be treated as a quick side trip. The journey is part of the destination, and the oasis rewards travellers who stay long enough for the road fatigue to fade."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "Two full nights are the minimum. Three or four are much better."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "Shali Fortress"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "Shali is the visual heart of Siwa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "Its ruined walls rise in the centre of town, built from kershef, the traditional Siwan material made from salt-rich mud, clay, and local earth. Shali was founded in 1203 as a fortified settlement, not merely a castle. It was the town itself: houses, mosques, granaries, wells, lanes, courtyards, and defensive walls all compressed into a dense protected structure."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Kershef is perfectly suited to desert heat."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "It is also vulnerable to rain."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "In 1926, three days of heavy rainfall severely damaged Shali and accelerated its abandonment as families moved into newer houses outside the walls. The ruins have since become Siwa's most recognisable landmark, partly restored and stabilised through a 2018–2020 conservation project and reopened in 2020."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Climb toward the upper levels near sunset if access is safe."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "From above, the oasis opens out: palms, salt lakes, low mountains, desert, and the modern town wrapped around its old core."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "The Oracle of Amun"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "The Temple of the Oracle stands at Aghurmi, a short distance from Siwa town."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "It was one of the most famous oracles of the ancient Mediterranean. Built and developed around the cult of Amun, it drew rulers, generals, travellers, and seekers of legitimacy from far beyond the oasis. The temple was built during the reign of Amasis of the 26th Dynasty (570 to 526 BC)."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Its most famous visitor was Alexander the Great."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "In 331 BC, after conquering Egypt, Alexander travelled across the desert to consult the oracle. Ancient sources say he was recognised as the son of Zeus-Ammon, the Greek-Egyptian form of Amun. This was not merely a spiritual moment. It gave Alexander religious and political legitimacy as ruler of Egypt and allowed him to present himself in pharaonic terms."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "The surviving temple is worn but powerful."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "Its position above Aghurmi, the remains of reliefs, and the memory of its ancient authority make it the most historically significant site in Siwa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "Cleopatra's Spring"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Cleopatra's Spring is one of Siwa's best-known gathering places."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "The circular stone pool is fed by natural spring water at a constant 29 to 30°C and has been used for generations. Cafes and juice stands cluster nearby, and visitors often combine it with the Oracle, which lies close by."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "The name is more romantic than certain."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "There is no firm evidence that Cleopatra VII bathed here. The spring is genuinely ancient, known in classical antiquity, and may correspond to what Herodotus called the \"Fountain of the Sun,\" but the queen's name belongs more to later storytelling and tourism than documented history."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "That does not make the place less worth visiting."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "It only means you should enjoy the water without needing the legend to do all the work."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Mountain of the Dead"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "Gebel al-Mawta, the Mountain of the Dead, is a limestone hill covered with rock-cut tombs."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "The tombs date from the 26th Dynasty through the Roman period, when Siwa was part of broader Egyptian, Greek, and Roman religious worlds. Several retain painted decoration, including the Tomb of Si-Amun, known for its vivid Ptolemaic-period scenes and vine-and-grape ceiling."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "During the Second World War, local people used some of these tombs as shelters during Italian bombing raids."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "That layering is typical of Siwa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "Ancient burial chambers become wartime refuge. Sacred landscapes become everyday geography."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "The Great Sand Sea"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "South of the oasis lies the Great Sand Sea."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "This is one of the largest dune fields on earth — approximately 72,000 square kilometres of erg stretching west into Libya — with immense waves of sand, ridges, bowls, and horizons that shift with the light. Desert safaris from Siwa usually head here by 4x4 with local drivers."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "Typical excursions include dune driving, sandboarding, sunset, desert tea, and sometimes overnight camping."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "Bir Wahed, a hot sulphurous spring near the edge of the dunes, is one of the classic stops. Soaking in warm water in the desert after sunset is one of Siwa's strongest experiences when done responsibly."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": "Do not enter the Great Sand Sea independently."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "Use experienced local drivers and follow current security and permit guidance."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "Salt Lakes and Fatnas Island"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa's salt lakes have become some of the oasis's most photographed places."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "Their hypersaline water makes floating effortless, and the lakes can appear turquoise, white, mirror-like, or surreal depending on light, salt crust, and season. The lakes are visually beautiful but also fragile and industrial in places, shaped by salt extraction as much as natural scenery."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "Fatnas Island, also known as Fantasy Island, sits on Birket Siwa and is a classic sunset point."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": "Palms, still water, and low desert light make it one of the easiest places to understand why Siwa captures people."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwan Culture"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa is culturally distinct from most of Egypt."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "Many residents speak Siwi, a Berber language UNESCO classifies as definitely endangered. Traditional crafts include embroidery, basketry, pottery, and silver jewellery. Siwan dress, especially bridal clothing and women's jewellery, has its own visual language of black fabric, dense colour, geometric pattern, amber, coral, and silver."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": "The Siwa House Museum, opened in 1990 with Canadian aid funding, is the best small introduction to this material culture."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": "It is not large, but it helps visitors see the oasis as a living community rather than only a landscape of ruins and springs."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "Respect matters here."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa is conservative, and its social codes around dress, photography, gender, and public behaviour are more reserved than in Cairo, Alexandria, or Red Sea resorts."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": "How Long to Stay"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": "Two nights is the minimum."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": "That gives one full day for Shali, the Oracle, Cleopatra's Spring, the Mountain of the Dead, and a sunset at Fatnas, with little room to breathe."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": "Three nights is better."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": "It allows a full desert safari, more time in the palm groves, slower mornings, and less pressure on the long arrival and departure days."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": "Four nights or more suit travellers who want to rest, write, photograph, cycle, visit springs, explore craft traditions, or simply let the oasis stop feeling like a list."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000085",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa is not a place to rush."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": "The whole point is that it is far away."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": "Final Word"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000008b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa is one of Egypt's great distances."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [],
+              "text": "Not only in kilometres."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": "It is distant in language, architecture, rhythm, memory, and landscape. It belongs to the Western Desert, to Berber North Africa, to the cult of Amun, to Alexander's ambition, to salt and palms, to springs and dunes, to a community that has spent centuries negotiating isolation and change."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000091",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": "Come for the oracle, the lakes, or the sand."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": "Stay long enough to feel the oasis itself."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000095",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa is not Egypt's edge because it is empty."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000097",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [],
+              "text": "It is Egypt's edge because it is full of a different world."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa es uno de los destinos más remotos y distintivos de Egipto: un oasis aislado en lo profundo del desierto occidental, a unos 560 km al oeste de El Cairo y a solo 50 km de la frontera con Libia. Se asienta en una depresión por debajo del nivel del mar, rodeada de lagos salados y dunas de arena, y alberga una población de unas 30 000 personas, en su mayoría de habla bereber y con tradiciones culturales marcadamente diferentes del resto de Egipto. La lengua siwaní (siwi, un dialecto bereber) sigue siendo ampliamente hablada; Siwa ha mantenido un grado de aislamiento cultural que ha preservado costumbres —bordados, trabajo en plata, arquitectura, ceremonias nupciales— que no se encuentran en ningún otro lugar."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "El paisaje al acercarse a Siwa por carretera es abrupto y llamativo: cientos de kilómetros de desierto llano y luego, de repente, una amplia depresión de verde: palmares, huertos de olivos, pozas alimentadas por manantiales y lagos salados. El contraste es genuinamente dramático."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ La fortaleza de Shali"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "El centro de la ciudad de Siwa está dominado por las ruinas de Shali —en siwi, la palabra simplemente significa «la ciudad»—. Shali fue fundada en 1203 por un pequeño grupo de familias fundadoras como asentamiento fortificado para protegerse de las incursiones de las tribus beduinas. No era solo una fortaleza sino un asentamiento urbano amurallado completo: casas de varios pisos, mezquitas, graneros, pozos y patios comunitarios, todo dentro de gruesas murallas: esencialmente una ciudad fortificada en miniatura."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "Shali está construida con kershef, el material de construcción tradicional siwaní hecho de sal extraída de los lagos salados locales mezclada con barro y arcilla. El kershef es un excelente aislante contra el calor del desierto, pero es catastróficamente vulnerable al agua. Una fuerte tormenta de lluvia en 1926 causó daños significativos a las estructuras de kershef, lo que llevó al gradual abandono de la fortaleza por sus habitantes. La mayoría de los residentes se trasladaron fuera de las murallas en los años siguientes. Las ruinas han sido parcialmente estabilizadas mediante trabajos de conservación iniciados en 2018."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "Subir a lo alto ofrece vistas panorámicas sobre el oasis: palmares, lagos salados y las dunas del Gran Mar de Arena en el horizonte. El camino hacia arriba pasa por una escuela de cerámica y secciones restauradas en las que ahora operan pequeñas tiendas de artesanía."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ templo del Oráculo (Aghurmi)"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "El templo del Oráculo de Amón está situado en el pueblo de Aghurmi, a poca distancia del centro de la ciudad de Siwa (accesible en bicicleta o transporte local). Se asienta sobre un afloramiento rocoso sobre el pueblo y es el lugar históricamente más significativo del oasis. A veces se describe como estando en el centro de Siwa: no es así; Aghurmi es un pueblo separado, parcialmente abandonado."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "El templo fue construido durante el reinado de Amasis (dinastía 26, 570–526 a. C.) y se convirtió en uno de los oráculos más famosos del Mediterráneo antiguo. Alejandro Magno visitó en 331 a. C. buscando confirmación de que era el hijo de Zeus-Amón, legitimando su dominio sobre Egipto. Los sacerdotes lo declararon exactamente eso, y desde entonces Alejandro se presentó a sí mismo como hijo de Amón, representado en las monedas con los cuernos del dios carnero. El propósito de su visita no era principalmente la búsqueda de «sabiduría» filosófica como sugieren algunas descripciones antiguas, sino la legitimidad política y religiosa: un acto faraónico estándar."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "El Oráculo de Amón atraía visitantes de todo el Mediterráneo: Cambises, Aníbal, el romano Catón y varios gobernantes griegos y ptolemaicos buscaron su consejo. El templo entró en declive en el período romano y fue en gran medida abandonado tras la difusión del cristianismo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "Lo que se conserva es sustancial aunque deteriorado. Las paredes del santuario interior conservan relieves tallados. Un segundo templo de Amón en Umm Ubaydah, a unos 350 metros de distancia, fue construido en la Dinastía 30 y conectado a Aghurmi por una ruta procesional; está ahora en gran parte en ruinas."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Manantial de Cleopatra (Ain Juba / Ain Guba)"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "Un gran manantial natural encerrado en una poza circular de paredes de piedra, alimentado por acuíferos subterráneos a una temperatura constante de unos 29–30 °C. Está situado cerca del templo del Oráculo, alcanzable por la misma ruta desde la ciudad. Se permite el baño; hay cafeterías sencillas y puestos de zumos cercanos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "El manantial se llama popularmente piscina de Cleopatra o Baño de Cleopatra. La tradición local afirma que la reina Cleopatra VII se bañaba aquí durante sus visitas al oasis, pero no hay evidencia histórica sólida que lo confirme. El nombre es una adición mercadotécnica de la era turística; el manantial en sí es genuinamente antiguo y era conocido en la antigüedad clásica: Heródoto hace referencia a un manantial en esta zona como la «Fuente del Sol». Tanto si Cleopatra vino aquí como si no, el manantial ha sido un punto de reunión central y fuente de agua para los siwanos durante milenios."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "El nombre alternativo Ain Juba puede hacer referencia al rey Juba II de Numidia, quien estuvo casado con Cleopatra Selene, hija de Cleopatra VII: una conexión histórica, aunque aún no una confirmación de que la propia reina visitara el lugar."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ montaña de los Muertos (Gebel al-Mawta)"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Una colina de caliza a unos 3 km del centro de Siwa cubierta de tumbas rupestres que abarcan desde la dinastía 26 hasta el período romano. Varias tienen relieves pintados bien conservados, incluida la Tumba de Mesu-Isis y la Tumba de Si-Amun con su famoso techo pintado de vid y uvas. Durante la Segunda Guerra Mundial, los siwanos se refugiaron de los bombardeos dentro de estas tumbas antiguas. Entrada de pago; abierta a los visitantes."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ El Gran Mar de Arena"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Al este y al sur del oasis, el Gran Mar de Arena es una de las mayores áreas de erg (mar de arena) del mundo: aproximadamente 72 000 kilómetros cuadrados de dunas que se extienden hacia Libia. Este es el principal destino de los safaris del desierto desde Siwa, típicamente en vehículos 4×4 acompañados de guías locales. Los atractivos incluyen el vasto paisaje de dunas, la posibilidad de hacer sandboarding y el atardecer sobre las dunas. El camping nocturno en el desierto es popular."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "Los manantiales de azufre caliente en el desierto (Bir Wahed, a unos 35–40 °C) se alcanzan en estas excursiones, ofreciendo un baño al aire libre bajo el cielo abierto. Son genuinamente calientes y terapéuticos: muy diferentes del agua fresca del Manantial de Cleopatra en la ciudad."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Lagos salados"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "El oasis está rodeado de lagos salados —lago Siwa, lago Zeitun y otros— demasiado salinos para los peces o la mayor parte de la vida acuática. La alta concentración de sal hace que flotar sea facilísimo. La isla Fatnas (también llamada isla Fantasía), un promontorio con palmeras en el lago Siwa accesible por una calzada, es un popular punto de observación del atardecer."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "Los lagos salados se han convertido en los últimos años en un atractivo de las redes sociales por sus superficies reflectantes y colores etéreos, contribuyendo a un aumento significativo del número de visitantes del turismo doméstico egipcio."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Cultura y artesanía siwana"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa tiene una cultura material distintiva que la distingue del turismo egipcio convencional. El bordado (especialmente las prendas nupciales, características por ser negras con densos patrones geométricos de colores), la joyería de plata (pesadas pulseras y collares con incrustaciones de ámbar y coral) y la cestería son tradiciones locales genuinas antes que importaciones para el consumo turístico."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo de la Casa de Siwa en el centro de la ciudad es un edificio tradicional de kershef que alberga exhibiciones sobre vestimenta local, herramientas, joyería e instrumentos agrícolas. Es pequeño pero informativo, y es uno de los pocos lugares donde se puede obtener una introducción estructurada a la cultura material siwana."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Agricultura y entorno natural"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "Siwa alberga unas 300 000 palmeras datileras y extensos olivares: el cultivo del olivo se practica aquí desde milenios, y el aceite de oliva siwano tiene un carácter distintivo por las variedades particulares cultivadas en el oasis. La cosecha de dátiles (octubre–noviembre) es el evento agrícola más importante del año. Los bosquecillos y huertos son el corazón visual del oasis y proporcionan hábitat para las aves migratorias; halcones, codornices y varios rapaces se ven con regularidad."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ ¿Cuántas noches quedarse?"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "Dos noches son el mínimo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "Eso da un día entero para Shali, el Oráculo, el Manantial de Cleopatra, la montaña de los Muertos y un atardecer en Fatnas, sin mucho margen para respirar. Tres noches son mejor: permiten un safari completo al desierto, más tiempo en los palmares, mañanas más lentas y menos presión sobre los largos días de llegada y salida. Cuatro noches o más se adaptan a quienes deseen descansar, escribir, fotografiar, pedalear, visitar manantiales, explorar tradiciones artesanales o, sencillamente, dejar que el oasis deje de sentirse como una lista. Siwa no es un lugar para ir con prisa. La cuestión es precisamente que está lejos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Notas prácticas"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Temporada:"
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": " De octubre a abril es el período de visita recomendado. Las temperaturas de verano superan regularmente los 40 °C; el oasis se vuelve muy caluroso y la mayoría de los visitantes lo evitan. La primavera (marzo–abril) y el otoño (octubre–noviembre) son los más agradables."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cómo llegar:"
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": " Siwa está servida por autobuses directos desde El Cairo (aproximadamente 9 horas por la autopista del desierto) y desde Alejandría y Marsa Matruh. Sin aeropuerto. La carretera desde El Cairo pasa por el oasis de Bahariya; la carretera desde Marsa Matruh es la ruta del desierto más corta (unas 3 horas desde Marsa Matruh). En varias ocasiones ha regido un sistema de permisos en la zona; comprueba los requisitos actuales antes de viajar."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "Cómo moverse: La ciudad de Siwa se explora mejor a pie o en bicicleta (ampliamente disponible para alquilar). Para el Gran Mar de Arena, la isla Fatnas, Bir Wahed y otros lugares alejados, las excursiones en 4×4 organizadas localmente son el estándar. Las motocicletas y los carros de burros también son transporte local habitual."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "Notas culturales: Siwa es una comunidad bereber musulmana conservadora. La vestimenta modesta es estándar fuera de los resorts y los manantiales. Siwa ha tenido históricamente sus propias normas sobre el género y la interacción social que difieren tanto de las expectativas egipcias convencionales como de las occidentales; el respeto local es importante. Las viajeras deben saber que el manantial puede estar concurrido con hombres locales; algunas prefieren las visitas de madrugada."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [],
+              "text": "Última actualización: mayo de 2026"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "— 砂漠が見つけることを許してくれる、エジプト西端の別世界 —"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ シワという場所"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "シワは、到着する場所というより、砂漠がようやく姿を見せてくれる場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロの西約560km、リビア国境から約50km。長い道のりのほとんどは、石、砂、空、そして距離です。やがて地形が海面下の窪地へ沈み、ヤシ、オリーブ、塩湖、泉、泥レンガの廃墟、そしてグレート・サンド・シーの淡い縁が現れます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "シワは、単なるエジプトのオアシスではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "ベルベル系のシワ語を話す共同体であり、独自の建築、刺繍、銀細工、婚礼文化、社会規範を持つ場所です。エジプトでありながら、ナイル渓谷のエジプトとは違います。砂漠でありながら、空白ではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "人々は、アメン神託所、アレクサンドロス大王、シャリ要塞、塩湖、クレオパトラの泉、砂漠サファリ、ヤシ越しの夕日を目指して来ます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "そして、もっと静かなものを覚えて帰ります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "世界の中心から、とても遠くにいる感覚です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ シワはどこにあるのか"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "シワはマトルーフ県に属し、ナイル渓谷の西、地中海沿岸の南にある西部砂漠の窪地にあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "最も近い大きな海岸都市はマルサ・マトルーフです。カイロからは通常8〜10時間の長い道路移動になります。空港も鉄道もありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "この距離は重要です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "シワは、気軽な寄り道として扱う場所ではありません。移動そのものが旅の一部であり、到着後も道路の疲れが抜けるだけの時間を置くほど、よく見えてきます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "最低でも2泊。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "できれば3泊から4泊。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "シワは急ぐ場所ではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ シャリ要塞"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "シャリは、シワの視覚的な中心です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "町の中心に立ち上がる廃墟は、塩分を含む泥、粘土、地元の土でつくられる伝統素材「ケルシェフ」で築かれました。1203年に成立したシャリは、単なる城ではなく、町そのものでした。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "家、モスク、穀物庫、井戸、路地、中庭、防御壁。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "すべてが密集した構造の中に収められていました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "ケルシェフは砂漠の暑さにはよく合いますが、雨には弱い素材です。1926年、3日間の大雨がシャリを大きく損傷し、人々は壁の外の新しい家へ移っていきました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "2018〜2020年の保存修復事業を経て、シャリは再び訪れやすい場所になっています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "夕方、安全に上れる範囲で高い場所へ向かうと、ヤシ、塩湖、低い山、砂漠、そして現代の町が旧市街を囲む様子が見えてきます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ アメン神託所"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "アメン神託所は、シワを古代地中海世界に知らしめた場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "神殿は町の東、アグルミにあります。第26王朝のアマシス王の時代に整えられたアメン信仰の聖域で、王、将軍、旅人、正統性を求める者たちが遠い砂漠を越えて訪れました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "最も有名な訪問者は、アレクサンドロス大王です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "紀元前331年、エジプトを征服した後、彼はこの神託所を訪れます。古代の記録では、彼はゼウス＝アモンの子として認められたとされます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "これは単なる宗教的体験ではありませんでした。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "外国の征服者であった彼が、エジプトの王として神聖な正統性を得るための政治的な瞬間でもありました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "今日の遺構は大きく崩れています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "それでも、アグルミの丘の上に立ち、ヤシと泉と塩湖を見下ろすと、この場所がなぜ「世界の端で神が語る場所」と感じられたのかが分かります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ クレオパトラの泉"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "クレオパトラの泉は、シワで最も知られた水場のひとつです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "円形の石造りの池には、年間を通じて約29〜30度の湧き水が流れ込みます。周囲にはカフェやジューススタンドがあり、アグルミや神託所と組み合わせて訪れる人が多い場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "ただし、名前は慎重に受け止めたいところです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "クレオパトラ7世がここで入浴した確かな証拠はありません。古代から知られた泉であり、ヘロドトスが記した「太陽の泉」と関係づけられることはありますが、女王の名前は後世の物語と観光の響きが強いものです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "それでも、泉の価値は変わりません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "砂漠の中で水が湧き続けてきたこと自体が、十分に美しい事実です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 死者の山"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "ゲベル・アル・マウタ、死者の山は、町の北にある石灰岩の丘です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "丘の斜面には岩窟墓が無数に刻まれており、第26王朝からプトレマイオス・ローマ時代にかけて使われました。シ・アムンの墓、ワニの墓、メス・イシスの墓など、彩色が残る墓もあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "第二次世界大戦中には、イタリア軍の空襲から逃れるため、地元の人々が一部の墓を避難所として使いました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "古代の墓が、近代戦争の避難場所になる。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": "その重なり方は、シワらしい歴史の残り方です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ グレート・サンド・シー"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000006f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "オアシスの南には、グレート・サンド・シーが広がります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000071",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": "約72,000平方kmに及ぶ巨大な砂丘地帯で、エジプト西部からリビア側へ続く世界有数の砂の海です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [],
+              "text": "シワからの砂漠サファリは、通常4WDと地元ドライバーでこの北端へ向かいます。砂丘走行、サンドボード、夕日、砂漠のお茶、そしてビル・ワヘドの温かい硫黄泉が定番です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "ただし、ここは遊び場ではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": "グレート・サンド・シーへ個人で入るべきではありません。経験ある地元ドライバー、許可、現在の安全情報が必要です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": "砂漠は美しいからこそ、真剣です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 塩湖とファトナス島"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": "シワの塩湖は、近年とても写真映えする場所として知られるようになりました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": "高濃度の塩水は体を楽に浮かせ、光や深さ、塩の結晶によって、水面はトルコブルー、銀色、白、鏡のような色に変わります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": "ただし、塩湖は単なる自然のプールではありません。塩の採掘、作業道、鋭い結晶、壊れやすい地形が関わる場所もあります。地元の人が現在安全で適切な池を知っています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000085",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": "ファトナス島は、ビルケット・シワにある夕日の名所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": "ヤシ、水面、低い光、砂漠の稜線。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": "シワが人の記憶に残る理由を、最も簡単に見せてくれる場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ シワ文化"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [],
+              "text": "シワは、エジプトの中でも文化的に特に独自性の強い場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000091",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": "多くの住民は、アラビア語とともにベルベル系のシワ語を話します。シワ語はUNESCOによって危機にある言語として分類されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": "刺繍、かご細工、陶器、銀細工、伝統衣装、婚礼文化、日常の作法。これらは、シワを単なる「美しいオアシス」ではなく、生きている共同体として理解する手がかりです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000095",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": "シワ・ハウス・ミュージアムは、その入口として最もよい小さな博物館です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000097",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [],
+              "text": "そして、敬意が必要です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000099",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [],
+              "text": "シワは保守的な町です。服装、写真、男女の距離感、公共での振る舞いは、カイロや紅海リゾートより控えめに考えましょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 滞在日数"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000009f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": "日数 · おすすめの過ごし方"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [],
+              "text": "2泊 · シャリ、神託所、泉、死者の山、ファトナスの夕日を急ぎ気味に回る最低ライン"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a2",
+              "_type": "span",
+              "marks": [],
+              "text": "3泊 · 砂漠サファリを入れ、到着・出発日の疲れを少し逃がせる"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [],
+              "text": "4泊以上 · 泉、塩湖、工芸、写真、読書、休息まで含めてシワらしく過ごせる"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a8",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Final Word"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "0000000000ab",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000aa",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "シワは、エジプトの大きな距離のひとつです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "それは、キロメートルだけの距離ではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000af",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "言語、建築、リズム、記憶、風景の距離でもあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b0",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "アメン神、アレクサンドロス、塩とヤシ、泉と砂丘、孤立と変化を生きてきた共同体。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "神託所や湖や砂を目指して来てもかまいません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b4",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "けれど、できればオアシスそのものを感じるまで滞在してください。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b6",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "シワがエジプトの端であるのは、空っぽだからではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b8",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "別の世界で満ちているからです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [],
+              "text": "最終更新：2026年5月"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "placesToGo": [
+    {
+      "_key": "siwa-oasis-0",
+      "_ref": "guideArticle.siwa-oasis.fatnas-island",
+      "_type": "reference"
+    },
+    {
+      "_key": "siwa-oasis-1",
+      "_ref": "guideArticle.siwa-oasis.shali-fortress",
+      "_type": "reference"
+    },
+    {
+      "_key": "siwa-oasis-2",
+      "_ref": "guideArticle.siwa-oasis.siwa-house-museum",
+      "_type": "reference"
+    },
+    {
+      "_key": "siwa-oasis-3",
+      "_ref": "guideArticle.siwa-oasis.temple-of-the-oracle",
+      "_type": "reference"
+    },
+    {
+      "_key": "siwa-oasis-4",
+      "_ref": "guideArticle.siwa-oasis.the-great-sand-sea",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-cleopatra-s-pool",
+      "_ref": "guideArticle.siwa-oasis.cleopatra-s-pool",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-dakrour-mountain",
+      "_ref": "guideArticle.siwa-oasis.dakrour-mountain",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-mountain-of-the-dead",
+      "_ref": "guideArticle.siwa-oasis.mountain-of-the-dead",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-salt-lakes",
+      "_ref": "guideArticle.siwa-oasis.salt-lakes",
+      "_type": "reference"
+    }
+  ],
+  "region": "western-desert",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "siwa-oasis"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "siwa"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "shiwa-oashisu"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Emerging like a mirage from the vast expanse of Egypt’s Western Desert, Siwa Oasis is a verdant jewel that defies the barrenness surrounding it. As you approach, the sight of this Edenic island, replete with mineral springs, salt lakes, and a sea of olive and palm groves, is nothing short of miraculous."
+    },
+    {
+      "_key": "es",
+      "value": "Emergiendo como un espejismo de la vasta extensión del Desierto Occidental de Egipto, el Oasis de Siwa es una joya verde que desafía la esterilidad que lo rodea. A medida que te acercas, la visión de esta isla edénica, repleta de manantiales minerales, lagos salados y un mar de olivares y palmerales, es poco menos que milagrosa."
+    },
+    {
+      "_key": "ja",
+      "value": "エジプトの広大な西砂漠から蜃気楼のように現れるシワ・オアシスは、その周囲の荒涼とした風景に反して、緑豊かな宝石のような存在です。近づくにつれて、鉱泉、塩湖、オリーブとヤシの木々の海に囲まれたこのエデンの島の光景は、まさに奇跡的なものです。"
+    }
+  ]
+}

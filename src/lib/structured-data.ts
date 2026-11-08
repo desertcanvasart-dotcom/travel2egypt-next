@@ -14,19 +14,18 @@
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
+import { LEGAL_NAME } from './company';
+import { etaaUrl, type Accreditations } from './accreditations';
 import { siteUrlBase } from './path-from-doc';
 
 const SITE_NAME = 'Travel2Egypt';
 
 /**
- * IMPORTANT: SITE_URL reads from process.env.NEXT_PUBLIC_SITE_URL at
- * build/render time. On localhost it will resolve to
- * http://localhost:3000 — that's expected during dev. In production this
- * env var MUST be set to https://travel2egypt.org (Vercel project
- * settings → Environment Variables → NEXT_PUBLIC_SITE_URL). If it isn't,
- * the Organization JSON-LD's `url` and `@id` fields will point at
- * localhost and Google will not be able to associate the schema with
- * the live domain.
+ * SITE_URL is ALWAYS the production origin (siteUrlBase() returns the
+ * hardcoded PRODUCTION_URL) — the same source seo.ts canonicals use, so
+ * JSON-LD @id/url and canonical tags can never disagree, and no env var
+ * is involved. (An earlier version read NEXT_PUBLIC_SITE_URL here; this
+ * comment previously described that and was stale — s47 audit 2026-08-18.)
  */
 const SITE_URL = siteUrlBase();
 
@@ -98,30 +97,24 @@ export interface OrganizationInput {
   sisterBrands?: Array<{ name?: string; url?: string }>;
   knowsAbout?: string[];
   founder?: FounderInput | null;
+  ministryLicenceNumber?: string | null;
+  etaaNumber?: string | null;
+  iataNumber?: string | null;
 }
 
-const ACCREDITATIONS: Array<{ name: string; org: string; url?: string }> = [
-  {
-    name: 'JATA accredited',
-    org: 'Japan Association of Travel Agents',
-    url: 'https://www.jata-net.or.jp/english/',
-  },
-  {
-    name: 'IATA accredited',
-    org: 'International Air Transport Association',
-    url: 'https://www.iata.org/',
-  },
-  {
-    name: 'ASTA accredited',
-    org: 'American Society of Travel Advisors',
-    url: 'https://www.asta.org/',
-  },
-  {
-    name: 'ETAA accredited',
-    org: 'Egyptian Travel Agents Association',
-    url: 'https://www.etaa-egypt.org/',
-  },
-];
+// Credentials come from Sanity siteSettings (ministryLicenceNumber,
+// etaaNumber, iataNumber); an empty value emits nothing. Never hard-code a
+// number here (homepage fix round 1, 2026-11-08).
+function accreditationCredentials(a: Accreditations): Array<{ name: string; org: string; url?: string }> {
+  const out: Array<{ name: string; org: string; url?: string }> = [];
+  const m = a.ministryLicenceNumber?.trim();
+  const e = a.etaaNumber?.trim();
+  const i = a.iataNumber?.trim();
+  if (m) out.push({ name: `Licensed travel agency, Ministry of Tourism (licence no. ${m})`, org: 'Ministry of Tourism and Antiquities, Egypt' });
+  if (e) out.push({ name: `ETAA member (no. ${e})`, org: 'Egyptian Travel Agents Association', url: etaaUrl(a) ?? undefined });
+  if (i) out.push({ name: `IATA accredited agency (IATA no. ${i})`, org: 'International Air Transport Association', url: 'https://www.iata.org/' });
+  return out;
+}
 
 export function buildOrganizationSchema(input: OrganizationInput) {
   // Logo and image are kept distinct: logo for Knowledge Panel
@@ -178,10 +171,11 @@ export function buildOrganizationSchema(input: OrganizationInput) {
     '@type': 'TravelAgency',
     '@id': `${SITE_URL}#organization`,
     name: input.siteName ?? SITE_NAME,
-    description: input.tagline ?? 'Egyptian travel operator since 2003.',
+    description: input.tagline ?? 'Egyptian travel operator since 1993.',
     slogan: input.tagline,
     url: SITE_URL,
-    foundingDate: '2003',
+    legalName: LEGAL_NAME,
+    foundingDate: '1993',
     ...(logoUrl
       ? {
           logo: {
@@ -212,7 +206,7 @@ export function buildOrganizationSchema(input: OrganizationInput) {
             })),
         }
       : {}),
-    hasCredential: ACCREDITATIONS.map((acc) => ({
+    hasCredential: accreditationCredentials(input).map((acc) => ({
       '@type': 'EducationalOccupationalCredential',
       name: acc.name,
       recognizedBy: {
@@ -929,6 +923,27 @@ export function buildBreadcrumbList(items: BreadcrumbItem[], locale: Locale) {
 export interface FAQItem {
   question: string;
   answer: string;
+}
+
+/**
+ * ItemList for landing/category grids (s47 audit 2026-08-18): name+url per
+ * item, urls absolute on the production origin with locale prefix.
+ */
+export function buildItemListSchema(
+  items: Array<{ title: string; slug: string }>,
+  locale: Locale,
+) {
+  const prefix = locale === 'en' ? '' : `/${locale}`;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.title,
+      url: `${SITE_URL}${prefix}/${item.slug}`,
+    })),
+  };
 }
 
 export function buildFAQSchema(items: FAQItem[]) {

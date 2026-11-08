@@ -1,0 +1,27 @@
+{
+ "_id": "siteSettings",
+ "_rev": "3Z5g0lEb8iIuaVsgpp4Vet",
+ "sillage": {
+  "_key": "sillage",
+  "_type": "object",
+  "description": [
+   {
+    "_key": "en",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Boutique luxury, Aswan-rooted."
+   },
+   {
+    "_key": "es",
+    "_type": "internationalizedArrayStringValue",
+    "value": "Lujo boutique, con raíces en Asuán."
+   },
+   {
+    "_key": "ja",
+    "_type": "internationalizedArrayStringValue",
+    "value": "アスワンに根ざしたブティック・ラグジュアリー"
+   }
+  ],
+  "name": "Sillage",
+  "url": "https://sillage-egypte.com/"
+ }
+}

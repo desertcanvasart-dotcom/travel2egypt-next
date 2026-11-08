@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { whatsappUrl } from '@/lib/concierge/constants';
 
 /**
  * Persistent floating concierge — reconciled to the approved tour-system
@@ -14,11 +15,7 @@ import { useTranslations } from 'next-intl';
  * to the trigger on close.
  */
 
-const WHATSAPP_BASE = 'https://wa.me/201158011600?text=';
 
-function whatsappHref(message: string) {
-  return WHATSAPP_BASE + encodeURIComponent(message);
-}
 
 export function FloatingConcierge() {
   const t = useTranslations('floatingConcierge');
@@ -117,14 +114,9 @@ export function FloatingConcierge() {
           <ul className="t2e-conc-list">
             {prompts.map((prompt) => (
               <li key={prompt}>
-                <button
-                  type="button"
-                  onClick={() =>
-                    window.open(whatsappHref(prompt), '_blank', 'noopener,noreferrer')
-                  }
-                >
+                <a href={whatsappUrl(prompt)} target="_blank" rel="noopener noreferrer">
                   {prompt}
-                </button>
+                </a>
               </li>
             ))}
           </ul>
@@ -134,7 +126,13 @@ export function FloatingConcierge() {
             e.preventDefault();
             const message = draft.trim();
             if (!message) return;
-            window.open(whatsappHref(message), '_blank', 'noopener,noreferrer');
+            // Enter follows a real link (see the list above) rather than
+            // window.open, which popup blockers intercept.
+            const link = document.createElement('a');
+            link.href = whatsappUrl(message);
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.click();
           }}
         >
           <input

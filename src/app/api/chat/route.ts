@@ -226,7 +226,12 @@ export async function POST(req: NextRequest) {
     }
 
     // Tour context: a fresh ?tour= attaches/overwrites (most recent wins);
-    // otherwise the conversation's stored ref keeps the block stable.
+    // otherwise the conversation's stored ref is re-resolved each turn so the
+    // full package facts (summary, duration, price, cities) stay in front of
+    // the agent on turn 2+, not just the title. The conversation row keeps only
+    // slug + title, so without this the block silently degraded to the bare
+    // title mid-conversation — which is exactly what let the agent invent
+    // itinerary detail it could no longer see.
     let contextBlock: string | null = null;
     if (rawTourSlug && rawTourSlug !== storedTour.slug) {
       const resolved = await resolveTourContext(rawTourSlug, locale);
@@ -238,8 +243,15 @@ export async function POST(req: NextRequest) {
         contextBlock = buildTourContextBlock(resolved);
       }
     }
-    if (!contextBlock && storedTour.title) {
-      contextBlock = buildTourContextBlock({ title: storedTour.title });
+    if (!contextBlock && storedTour.slug) {
+      const restored = await resolveTourContext(storedTour.slug, locale);
+      // A resolution miss degrades to the title-only block (today's behavior)
+      // rather than dropping tour context entirely.
+      contextBlock = restored
+        ? buildTourContextBlock(restored)
+        : storedTour.title
+          ? buildTourContextBlock({ title: storedTour.title })
+          : null;
     }
 
     // History first, then persist the new user turn. token_count_* feed the

@@ -1,0 +1,1066 @@
+{
+  "_createdAt": "2026-05-04T20:41:01Z",
+  "_id": "wp-page-59481",
+  "_rev": "djgbgtoqo7PDAdGRj9MTgp",
+  "_system": {
+    "base": {
+      "id": "wp-page-59481",
+      "rev": "4jxboK94xJN5bUSrjkSBYa"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T00:06:18Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "zmc9whe00dqw",
+              "_type": "span",
+              "marks": [],
+              "text": "Exploring the "
+            },
+            {
+              "_key": "lio8gdbbws8o",
+              "_type": "span",
+              "marks": [
+                "p9tghk8lsi0v"
+              ],
+              "text": "Dakhla Oasis"
+            },
+            {
+              "_key": "b14c71v38402",
+              "_type": "span",
+              "marks": [],
+              "text": ": A Journey Through the Heart of Egypt "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "p9tghk8lsi0v",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58783",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "In the captivating Dakhla Oasis, nestled in "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Egypt’s Western Desert"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", transportation weaves a unique tapestry of local life, connecting the myriad of small settlements and historic sites. The primary modes of transit here are crowded pick-ups and microbuses, each a tiny universe bustling with activity. However, newcomers might find the routes and destinations of these vehicles somewhat enigmatic."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Category:Western_Desert_(Egypt)",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "For those adventurous souls aiming to visit the ancient town of "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "Al Qasr"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ", known for its well-preserved mudbrick architecture, your journey begins at Sharia As Sawra Al Khadra. Here, amidst the lively hum of daily life, you’ll find pick-ups ready to transport you into the past. Likewise, journeys to Balat, with its impressive "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "00000000000b"
+              ],
+              "text": "necropolis"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": ", and Bashendi, a gateway to stunning landscapes, commence from the bustling area in front of the local hospital."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000008",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/al-qasr-village/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/bahariya-oasis/al-qasr-village",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/necropolis-of-anfushi/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/alexandria/necropolis-of-anfushi",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "Most microbuses, the lifeline of local transport, radiate from the servees station located on Sharia Tamir. These are the veins through which the daily rhythm of "
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "000000000010"
+              ],
+              "text": "Dakhla"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " pulses. On occasion, you might find it more convenient to negotiate a ‘special’ pick-up. This option allows for a more personalized journey, tailored to your itinerary and pace."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000010",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/deir-el-hagar/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/dakhla-oasis/deir-el-hagar",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "However, there’s an alternative that marries convenience with the thrill of exploration: hiring a taxi to Al Qasr. This choice offers a blend of comfort and flexibility, with the added benefit of having a local driver who knows the landscape intimately. Expect to pay around LE100 for this service, which generally includes waiting time, giving you the freedom to "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "000000000015"
+              ],
+              "text": "wander"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " through Al Qasr’s maze of history before returning to the present."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000015",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/rosetta-rasheed-travel-guide/wandering-through/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/rosetta-rasheed-travel-guide/wandering-through/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "In updating this travel narrative, any outdated information has been revised to reflect the current state of transportation in "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "Dakhla Oasis"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": ". As you embark on your journey through this enchanting part of "
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "00000000001d"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": ", each mode of transport offers not just a ride, but a window into the everyday life and rich history of this remarkable region."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/history-of-dakhla-oasis/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/dakhla-oasis/history-of-dakhla-oasis",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/qasr-ibrim/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/abu-simbel/qasr-ibrim",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "Dakhla Oasis Travel Guide"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Dakhla-e1554945660393-1200x900-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "dakhla oasis travel guide"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Weathered elegance: a balcony stands defiantly amidst the crumbling relics of a bygone era"
+            }
+          ]
+        },
+        {
+          "_key": "000000000024",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/dakhla-oasis-trips-in-egypt.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "dakhla oasis travel guide"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "The historic minaret of the Nasr El Din Mosque rises over the Dakhla Oasis, embodying the enduring spirit of Egypt's heartland deserts"
+            }
+          ]
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "Essential Egypt Travel Tips: Your Guide to a Seamless Journey"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "Navigate your Egyptian "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "000000000028"
+              ],
+              "text": "adventure"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " with confidence using our essential travel tips. From navigating local customs to selecting the best times to visit iconic sites, our guide ensures you make the most of your trip. Click for insider advice on experiencing Egypt like a pro!"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000028",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/are-there-crocodiles-in-the-nile-river/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/nairu-gawa-ni-wani-wa-iru-no-ka",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "lkve620qrqzb",
+              "_type": "span",
+              "marks": [],
+              "text": "Explorando el Oasis de "
+            },
+            {
+              "_key": "r3ajz8y7g3q0",
+              "_type": "span",
+              "marks": [
+                "pw87dd7zra3e"
+              ],
+              "text": "Dakhla"
+            },
+            {
+              "_key": "pdnq4cku2czp",
+              "_type": "span",
+              "marks": [],
+              "text": ": Un viaje por el corazón de Egipto "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "pw87dd7zra3e",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58783",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "En el cautivador Oasis de Dajla, enclavado en el desierto occidental de "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", el transporte teje un tapiz único de vida local, conectando la miríada de pequeños asentamientos y lugares históricos. Los principales modos de transporte aquí son las atestadas camionetas y los microbuses, cada uno de los cuales es un universo diminuto lleno de actividad. Sin embargo, los recién llegados pueden encontrar las rutas y destinos de estos vehículos algo enigmáticos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Para las almas aventureras "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "que deseen visitar"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": " la antigua ciudad de Al Qasr, conocida por su bien conservada arquitectura de adobe, su viaje comienza en Sharia As Sawra Al Khadra. Aquí, en medio del animado zumbido de la vida cotidiana, encontrarás camionetas dispuestas a transportarte al pasado. Asimismo, los viajes a Balat, con su impresionante necrópolis, y a Bashendi, puerta de acceso a paisajes impresionantes, parten de la bulliciosa zona situada frente al "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "00000000000b"
+              ],
+              "text": "hospital local"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000008",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/vacaciones-inolvidables-en-egipto",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/hospitales-locales-en-egipto-costos-y-atencion-medica/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "La mayoría de los microbuses, el sustento del transporte local, parten de la estación de servees situada en Sharia Tamir. Éstas son las venas "
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "por las que"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " late el ritmo diario de Dajla. En ocasiones, puede que te resulte más cómodo negociar una recogida «especial». Esta opción permite un viaje más personalizado, adaptado a tu itinerario y ritmo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Sin embargo, hay una alternativa que combina la comodidad con la emoción de la "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "000000000015"
+              ],
+              "text": "exploración"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": ": contratar un taxi hasta Al Qasr. Esta opción ofrece una mezcla de comodidad y flexibilidad, con la ventaja añadida de contar con un conductor "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "local que"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " conoce íntimamente el paisaje. Prepárate para pagar unas 100 LE por este servicio, que suele incluir "
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "00000000001b"
+              ],
+              "text": "el tiempo"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": " de espera, lo que te da libertad para deambular por el laberinto de historia de Al Qasr antes de volver al presente."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000015",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-nuweiba/explorando/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+              "newTab": false
+            },
+            {
+              "_key": "000000000018",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-esna/el-tiempo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/esna/es-clima-en-esna",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "Al actualizar este relato de viaje, se ha revisado cualquier información obsoleta para reflejar el estado actual "
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "000000000020"
+              ],
+              "text": "del transporte en el Oasis"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " de Dajla. Al embarcarte en tu viaje por esta encantadora parte de Egipto, cada medio de transporte te ofrece no sólo un viaje, sino una ventana a la vida cotidiana y a "
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "000000000023"
+              ],
+              "text": "la rica historia"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " de esta extraordinaria región."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000020",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-bahariya/sabores-del-oasis-degustacion-del-patrimonio-culinario-del-oasis-de-bahariya/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/bahariya/gastronomia-en-el-oasis-de-bahariya",
+              "newTab": false
+            },
+            {
+              "_key": "000000000023",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "ダフラ・オアシス探訪：エジプトの心を巡る旅"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプト西部砂漠に抱かれた魅惑の地・ダフラ・オアシスでは、交通手段が地元の暮らしをつなぐ独自の風景を形作っています。点在する小さな集落や歴史的遺跡を結ぶ移動手段は、主に混雑したピックアップ車とマイクロバス。どちらも活気に満ちた小さな世界そのものでありながら、初めて訪れる旅行者にとってはそのルートや目的地が少し謎めいているかもしれません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "古代の泥レンガ建築が今も残る町・アル・カスルを訪れたい冒険心あふれる旅人には、旅の出発点は"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "シャリア・アッ＝サウラ・アル＝ハドラ通り"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "。ここでは、日常のざわめきの中で過去へと誘うピックアップ車が待っています。"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "また、壮大なネクロポリス（墓地遺跡）がある"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "バラット"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "や、美しい風景の入り口である"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "バシェンディ"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "へ向かうには、"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "地元病院前の賑やかな一角"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "からの出発となります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "地元の交通の生命線ともいえるマイクロバスの多くは、"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "シャリア・ターミル通りにあるセルヴィース駅"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "を起点に運行されています。まさに、ダフラの日常の鼓動が流れる大動脈です。時には、より柔軟な移動を求めて「スペシャル（貸切）」ピックアップを交渉するのも一つの方法です。これは、旅程や希望に合わせて移動をカスタマイズできる利便性をもたらします。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "また、快適さと冒険心の両方を満たすもう一つの選択肢が、"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "アル・カスルまでタクシーをチャーターする"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "こと。土地を熟知した地元ドライバーとの旅は、安心感と自由度の高い移動体験を提供してくれます。料金の目安は約100エジプトポンド（LE）で、現地での観光中の待機時間も含まれるのが一般的です。アル・カスルの迷路のような歴史的街並みを心ゆくまで歩き回った後、現代へと戻るひとときをお楽しみいただけます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "本旅行ガイドの情報は最新の交通事情を反映して更新されており、ダフラ・オアシスの旅をより快適に、そして現地の暮らしと歴史により深く触れる機会へと導いてくれます。交通手段の一つひとつが、単なる移動ではなく、この素晴らしい地域の物語と日常を体感できる“旅の一部”となることでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日：2024年8月"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Two handlers leading saddled camels across desert sand at sunset"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Dos guías conducen camellos ensillados por la arena del desierto al atardecer"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "夕暮れの砂漠で、鞍を付けたラクダを引く二人の案内人"
+      }
+    ],
+    "asset": {
+      "_ref": "image-07615af824a9edc35043baec44a2907f127aa3c5-400x265-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Handlers lead saddled camels across the dunes as the sun sinks over the desert horizon."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Unos guías conducen camellos ensillados por las dunas mientras el sol se pone en el desierto."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "砂漠の地平線に日が沈むなか、案内人が鞍を付けたラクダを砂丘へと導く。"
+      }
+    ]
+  },
+  "kind": "transport-around",
+  "migration": {
+    "migratedAt": "2026-05-05T13:00:26.444Z",
+    "source": "wp-import",
+    "wpId": 59481,
+    "wpModifiedAt": "2025-07-23T17:00:16",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/getting-around-in-dakhla-oasis/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58783",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "getting-around-in-dakhla-oasis"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "como-moverse-en-el-oasis-de-dakhla"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "dafura-oashisu-de-no-ido-hoho"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Exploring the Dakhla Oasis: A Journey Through the Heart of Egypt In the captivating Dakhla Oasis, nestled in Egypt s Western Desert, transportation weaves a unique tapestry of local life, connecting the myriad of small settlements and histo"
+    },
+    {
+      "_key": "es",
+      "value": "Explorando el Oasis de Dakhla: Un viaje por el corazón de Egipto En el cautivador Oasis de Dajla, enclavado en el desierto occidental de Egipto, el transporte teje un tapiz único de vida local, conectando la miríada de pequeños asentamiento"
+    },
+    {
+      "_key": "ja",
+      "value": "ダフラ・オアシス探訪：エジプトの心を巡る旅 エジプト西部砂漠に抱かれた魅惑の地・ダフラ・オアシスでは、交通手段が地元の暮らしをつなぐ独自の風景を形作っています。点在する小さな集落や歴史的遺跡を結ぶ移動手段は、主に混雑したピックアップ車とマイクロバス。どちらも活気に満ちた小さな世界そのものでありながら、初めて訪れる旅行者にとってはそのルートや目的地が少し謎めいているかもしれません。 古代の泥レンガ建築が今も残る町・アル・カスルを訪れたい冒険心あふれる旅人には、旅の出発点はシャリ"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Getting Around In Dakhla Oasis"
+    },
+    {
+      "_key": "es",
+      "value": "Cómo moverse en el Oasis de Dakhla"
+    },
+    {
+      "_key": "ja",
+      "value": "ダフラ・オアシスでの移動方法"
+    }
+  ]
+}

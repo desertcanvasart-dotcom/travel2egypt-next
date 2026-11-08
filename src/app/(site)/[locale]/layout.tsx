@@ -1,15 +1,19 @@
 import '../../globals.css';
-import '@/styles/tour-system.css';
+import '@/styles/tour-chrome.css';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale, getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { fontVariables } from '@/app/fonts';
+import { JaFontGate } from '@/components/JaFontGate';
 import { routing, type Locale } from '@/i18n/routing';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { JsonLd } from '@/components/JsonLd';
 import { CookieConsent } from '@/components/CookieConsent';
+import { Analytics } from '@/components/Analytics';
+import { LeadProvider } from '@/components/leads/LeadProvider';
+import { MobileLeadBar } from '@/components/MobileLeadBar';
 import { ConsentProvider } from '@/lib/consent';
 import { CurrencyProvider } from '@/lib/currency-context';
 import { defaultCurrencyForLocale } from '@/lib/currency';
@@ -22,7 +26,7 @@ import {
 
 export const metadata: Metadata = {
   title: 'Travel2Egypt',
-  description: 'Egypt travel, with judgment. An Egyptian operator since 2003.',
+  description: 'Egypt travel, with judgment. An Egyptian operator since 1993.',
 };
 
 // ISR for the whole public site. Pages are statically rendered, then
@@ -30,8 +34,10 @@ export const metadata: Metadata = {
 // content edits appear without a redeploy. (`@sanity/client` is a
 // serverExternalPackage, so its reads bypass Next's fetch cache; this
 // segment-level revalidate is what drives refresh.) Inherited by every
-// page under (site)/[locale]. Raise it post-cutover to cut regeneration.
-export const revalidate = 60;
+// page under (site)/[locale]. At 60s, crawler traffic regenerated nearly
+// every hit and drove Sanity API overage (Oct 2026); an hour keeps edits
+// reasonably fresh without that cost.
+export const revalidate = 3600;
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -71,6 +77,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={fontVariables}>
       <body>
+        <JaFontGate active={locale === 'ja'} />
         <a href="#main" className="skip-link">
           {tNav('skipToContent')}
         </a>
@@ -78,10 +85,22 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <ConsentProvider>
             <CurrencyProvider defaultCurrency={defaultCurrencyForLocale(locale)}>
-              <Header locale={locale as Locale} />
-              <main id="main">{children}</main>
-              <Footer locale={locale as Locale} />
-              <CookieConsent />
+              <LeadProvider locale={locale}>
+                <Header locale={locale as Locale} />
+                <main id="main">{children}</main>
+                <Footer
+                  locale={locale as Locale}
+                  accreditations={{
+                    ministryLicenceNumber: siteSettings?.ministryLicenceNumber,
+                    etaaNumber: siteSettings?.etaaNumber,
+                    iataNumber: siteSettings?.iataNumber,
+                  }}
+                />
+                {/* English-first: the itinerary bar ships with the EN sales nav. */}
+                {locale === 'en' && <MobileLeadBar />}
+                <CookieConsent />
+                <Analytics locale={locale} />
+              </LeadProvider>
             </CurrencyProvider>
           </ConsentProvider>
         </NextIntlClientProvider>

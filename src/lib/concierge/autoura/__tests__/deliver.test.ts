@@ -50,6 +50,8 @@ const brief: BriefPayload = {
   constraints: { dietary: null, mobility: null, religious: null, medical: null },
   brief_summary: 'A honeymoon.',
   follow_up_window: 'by 8 p.m. Cairo time',
+  routed_brand: 'travel2egypt',
+  routing_reason: null,
 };
 
 const context: DeliveryContext = {
@@ -62,6 +64,7 @@ const context: DeliveryContext = {
     language: 'en',
     briefRevision: 1,
     isUpdate: false,
+    brand: 'travel2egypt',
   },
   transcript: [{ role: 'user', content: 'hi', timestamp: '2026-06-08T07:50:00Z' }],
   sessionRef: 'conv-abc',
@@ -205,6 +208,32 @@ async function main() {
   // transform applied (spot-check one remapping survives serialization)
   eq(body.trip.trip_length_days, 10, 'transform on the wire: length_days → trip_length_days');
   eq(body.preferences.comfort_level, 'international-5-star', 'comfort_level verbatim on the wire');
+}
+
+// ── S13 multi-tenant pivot: brand rides top-level on the wire ───────────────
+// The single getAutoura endpoint routes by the payload `brand` field (mapped to
+// a tenant via concierge_brand_mappings) — there is no per-brand endpoint and
+// no summary tag; the summary reaches the tenant untouched.
+{
+  const { deps, calls } = makeDeps(() => ({ httpStatus: 201, responseJson: {} }));
+  deps.loadContext = async () => ({
+    ...context,
+    ctx: { ...context.ctx, brand: 'sillage' },
+  });
+  await deliverBrief('b9', deps);
+  const sent = calls.posts[0];
+  const body = JSON.parse(sent.rawBody);
+  eq(body.brand, 'sillage', 'routed brand on the wire as the tenant routing key');
+  eq(body.brief_summary, 'A honeymoon.', 'summary untouched — no [ROUTED] tag in the multi-tenant world');
+  const sig = sent.headers['X-Autoura-Signature'].split('v1=')[1];
+  eq(sig, signConciergePayload(SECRET, sent.headers['X-Autoura-Timestamp'], sent.rawBody), 'signature covers the brand-bearing bytes');
+  eq(lastStatus(calls), 'sent', 'routed delivery sends');
+}
+{
+  const { deps, calls } = makeDeps(() => ({ httpStatus: 201, responseJson: {} }));
+  await deliverBrief('b10', deps);
+  const body = JSON.parse(calls.posts[0].rawBody);
+  eq(body.brand, 'travel2egypt', 'anchor brief carries the anchor brand key');
 }
 
   console.log(`\nautoura deliver: ${pass} passed, ${fail} failed`);

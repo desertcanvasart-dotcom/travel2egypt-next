@@ -17,7 +17,7 @@ import {
   travelTipCategorySchema,
   travelTipSchema,
 } from './travelTip';
-import { faqCategorySchema, faqEntrySchema } from './faq';
+import { faqCategorySchema, faqEntrySchema, landingFaqItemSchema } from './faq';
 import { authorSchema, editorialCategorySchema } from './editorial';
 import { articleSchema } from './article';
 import { foodArticleSchema } from './foodArticle';
@@ -75,6 +75,7 @@ export const schemaTypes = [
   travelTipCategorySchema,
   faqEntrySchema,
   faqCategorySchema,
+  landingFaqItemSchema,
 
   // ── Wiki ──
   wikiDynastySchema,

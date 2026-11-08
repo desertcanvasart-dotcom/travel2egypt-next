@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 
 import { PUBLIC_TEAM_EMAIL } from '@/lib/concierge/constants';
+import { Link } from '@/i18n/navigation';
 import { Dialog } from '@/components/ui/Dialog';
 
 /**
@@ -111,6 +112,12 @@ export function DataMenu({ open, onClose, sessionRef, locale, triggerRef, onDele
               <span className="cnc-escape-option__desc">{t('dataExportDesc')}</span>
             </a>
           </div>
+          {/* GDPR Art. 13 — the policy itself, reachable where the data actions are. */}
+          <p className="cnc-escape-modal__sub">
+            <Link className="cnc-textlink" href="/privacy-policy" target="_blank">
+              {t('dataPrivacyLink')}
+            </Link>
+          </p>
         </>
       ) : (
         <>

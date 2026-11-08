@@ -1,0 +1,2011 @@
+{
+  "_createdAt": "2026-04-29T12:15:13Z",
+  "_id": "wp-page-58859",
+  "_rev": "mNk1q5uT3x3LfxRz0tg8BK",
+  "_system": {
+    "base": {
+      "id": "wp-page-58859",
+      "rev": "dJ4ZpMyfIFtQ0D7lymg2Gt"
+    }
+  },
+  "_type": "city",
+  "_updatedAt": "2026-09-14T15:10:49Z",
+  "coordinates": {
+    "_type": "coordinates",
+    "lat": 27.2579,
+    "lng": 33.8116
+  },
+  "guideBestFor": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "reliable reefs, easy flights, families"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "arrecifes fiables, vuelos cómodos, familias"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "安定したサンゴ礁、便利な空路、家族連れ"
+    }
+  ],
+  "guideDek": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "The Red Sea’s workhorse — the most reefs, the easiest logistics, the shortest transfer. Not pretty, but it works, and the diving is the point."
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayTextValue",
+      "value": "El caballo de batalla del mar Rojo: más arrecifes, la logística más fácil, el traslado más corto. No es bonita, pero funciona, y lo que importa es el buceo."
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayTextValue",
+      "value": "紅海の働き者——サンゴ礁が最も多く、手配が最も楽で、移動が最も短い。美しくはないが、役に立つ。眼目はダイビングだ。"
+    }
+  ],
+  "guideHonestNote": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "Functional, not beautiful — you’re here for the water."
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayTextValue",
+      "value": "Funcional, no bonita: vienes por el agua."
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayTextValue",
+      "value": "美しさではなく機能。来る理由は海の中にある。"
+    }
+  ],
+  "guideOrder": 1,
+  "guideRegion": "red-sea-coast",
+  "guideTier": "worth",
+  "guideTierLabel": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "For the right traveller"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "Para el viajero adecuado"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "人を選ぶ"
+    }
+  ],
+  "guideTime": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayStringValue",
+      "value": "three nights or more to dive"
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayStringValue",
+      "value": "tres noches o más para bucear"
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayStringValue",
+      "value": "ダイビングなら三泊以上"
+    }
+  ],
+  "heroImage": {
+    "_type": "image",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A waterfront mosque with twin minarets beside a canal in an Egyptian port town"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Mezquita junto al agua con dos minaretes al borde de un canal en una ciudad portuaria egipcia"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "エジプトの港町で運河沿いに建つ、二本のミナレットを持つモスク"
+      }
+    ],
+    "asset": {
+      "_ref": "image-1b5fe61497e8682fd4fc6a1126aa9f1ad88e232b-14456x4273-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A domed mosque and twin minarets rise above the waterfront of a Suez Canal city."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Una mezquita con cúpula y dos minaretes se alza sobre el paseo marítimo de una ciudad del Canal de Suez."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ドームと二本のミナレットを持つモスクが、スエズ運河沿いの街の水辺にそびえる。"
+      }
+    ]
+  },
+  "migration": {
+    "migratedAt": "2026-04-29T12:15:13.323Z",
+    "reviewFlag": "keyfacts-mining-failed",
+    "source": "wp-import",
+    "wpId": 58859,
+    "wpModifiedAt": "2026-04-13T00:38:25",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/hurghada-travel-guide/"
+  },
+  "name": [
+    {
+      "_key": "en",
+      "value": "Hurghada"
+    },
+    {
+      "_key": "es",
+      "value": "Hurghada"
+    },
+    {
+      "_key": "ja",
+      "value": "ハルガダ"
+    }
+  ],
+  "overview": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "There is a particular kind of magic that happens the first time you step into the Red Sea."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "The water is impossibly clear, warm against the skin, and alive with colour. Beneath the surface, coral gardens stretch out in every direction — parrotfish grazing along the reef walls, schools of glassfish catching the light, butterflyfish moving in pairs, and, if you are lucky, the silhouette of a reef shark passing silently through the blue. Above you, the sky is wide and almost cloudless. Behind you, the beach is golden and long. And it is sunny — as it is on approximately 360 days of every year."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "This is Hurghada. And once it gets under your skin, it tends to stay there."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "Egypt's Red Sea Capital"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "Hurghada — known in Arabic as Al-Ghardaqah — is the capital of Egypt's Red Sea Governorate, a long and dramatic stretch of coastline running from the Gulf of Suez in the north all the way south toward the borders near Sudan."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Not so long ago, it was a small fishing village clinging to the desert shore. Today, it is one of the most visited cities in Egypt and one of the world's most popular Red Sea beach destinations, with over 300 hotels and resorts, a busy international airport, and a coastal strip that extends more than 40 kilometres along the sea."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "But Hurghada is more than a resort city. It is the gateway to some of the richest marine life on the planet, a launchpad for Egypt's greatest ancient monuments, and a place where the extremes of the Egyptian landscape — turquoise sea, golden desert, starlit mountain valleys — are all within effortless reach."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "A City of Three Characters"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "One of the most surprising things about Hurghada is its variety. Visitors who expect a single, uniform resort strip quickly discover a city with genuine layers."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "El Dahar, the old town in the north, is Hurghada at its most authentically Egyptian. Its narrow streets are lined with local cafés, spice merchants, fish markets, and bazaars selling handmade silver jewellery, shisha pipes, and woven carpets. This is where the city's residents actually live — and where a morning wandering the souq feels far removed from the manicured resort world a few kilometres south."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "Sakkala (or El Sekala) is the lively middle zone, where local life and tourist life blend comfortably together. The marina here is the departure point for dive boats, snorkelling excursions, and island trips. The seafront promenade fills with families and couples each evening, and the restaurants range from hole-in-the-wall Egyptian kitchens to buzzing international bistros with marina views."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "Village Road is the long southern strip that most package travellers will recognise — a continuous run of five-star resorts, beachfront hotels, water parks, shopping malls, and restaurants stretching for over 20 kilometres along the coast. This is where Hurghada's reputation as a world-class beach destination was built, and it delivers on every expectation."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "Beyond the city itself, a constellation of upscale enclaves extends further along the coast: El Gouna, the elegant lagoon town of canals and marinas 25 kilometres north; Sahl Hasheesh, a boutique bay of calm turquoise water and romantic seclusion; and Soma Bay, a peninsula prized by divers, kitesurfers, and travellers seeking five-star resort living with fewer crowds."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "Which of these you choose will shape almost everything else about your trip. We go deeper into each in the area guides that follow."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "Where Sea Meets Desert"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "What truly sets Hurghada apart from other Red Sea destinations is the sheer range of landscapes it places within reach."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "The sea is the star. The Red Sea is consistently ranked among the top dive destinations in the world, and Hurghada sits at its heart. Whether you are a certified diver, a first-timer taking your open-water course, or a snorkeller drawn to the colour and life of the shallow reefs, the underwater world here will exceed expectations. The wreck sites of the Straits of Gubal, the pristine beaches of Giftun Island National Park, and the teeming reefs of the offshore shallows are all within easy reach of the city."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "But step off your resort beach and within minutes you can also be in the Eastern Desert — a vast, ancient wilderness of rust-red mountains, hidden Bedouin valleys, and sand dunes that glow amber at sunset. Jeep safaris, quad bike excursions, and camel treks into this terrain are among the most memorable experiences available in the region."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "That is the rhythm of Hurghada at its best. In the morning, you can be floating above coral. By late afternoon, you can be watching the mountains turn rose and amber in the fading light. Few destinations make such extremes feel so close."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "A Base for All of Egypt"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Hurghada's geographical position makes it one of the best-connected leisure destinations in the country."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "The ancient city of Luxor — home to the Valley of the Kings, the Karnak Temple Complex, and some of the greatest monuments of the ancient world — lies just four hours south by road, making it feasible as a long day trip. In practice, we generally recommend an overnight stay for travellers who want to do Luxor justice. Cairo and the Giza Pyramids are reachable by a 45-minute domestic flight or a scenic overnight drive."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "For travellers who want to combine beach relaxation with serious archaeological exploration, Hurghada offers a balance that few destinations anywhere can match. A natural route through Egypt might begin in Cairo, continue south through Luxor, and end in Hurghada — closing the trip with coral, sunlight, and stillness after the intensity of the temples."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Built for Every Kind of Traveller"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Hurghada has refined the art of the inclusive holiday without losing sight of everything that makes Egypt itself extraordinary."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Families arrive for the all-inclusive resorts, the water parks, and the gentle, safe beaches. Divers come from around the world for the reefs and wrecks. Adventure travellers are drawn by the desert, the kitesurfing, and the deep-sea fishing. Couples seeking a warm, romantic getaway find it in the boutique resorts of Sahl Hasheesh and El Gouna. And cultural travellers use Hurghada as a comfortable base from which to explore the Nile Valley, the Eastern Desert monasteries, and the ancient Coptic and Islamic heritage of the region."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "The city can be as simple or as layered as you want it to be. You can swim, rest, eat, and sleep — and have an excellent holiday. Or you can fill every day with boats, reefs, islands, temples, markets, and desert tracks. Hurghada does not demand one style of travel. It adapts."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "Egypt's Great Red Sea Gateway"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Hurghada began as a fishing village beside the Red Sea."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Today, it is one of Egypt's great travel gateways — to coral, to desert, to ancient history, and to the kind of sunlight that makes time slow down. Whatever brings you here, it tends to offer more than you arrived expecting."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "The rest of this guide goes deeper: when to visit, where to stay, what to see and do, how to combine Hurghada with the rest of Egypt, and how to make the most of your days on the Red Sea."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Hay una magia particular que ocurre la primera vez que se entra al mar Rojo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "El agua es de una claridad asombrosa, cálida sobre la piel y rebosante de color. Bajo la superficie, los jardines de coral se extienden en todas direcciones: peces loro ramoneando las paredes del arrecife, bancos de peces de cristal capturando la luz, peces mariposa moviéndose en pareja y, con un poco de suerte, la silueta de un tiburón de arrecife deslizándose en silencio por el azul. Sobre la cabeza, el cielo es amplio y casi sin nubes. A la espalda, la playa es dorada y larga. Y hace sol — aproximadamente 360 días al año."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Esto es Hurghada. Y una vez que se instala bajo la piel, allí tiende a quedarse."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ La capital egipcia del mar Rojo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "Hurghada —conocida en árabe como Al-Ghardaqah— es la capital de la Gobernación del mar Rojo de Egipto, una franja de costa larga y espectacular que se extiende desde el golfo de Suez en el norte hasta las cercanías de la frontera con Sudán en el sur."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "No hace tanto tiempo, era un pequeño pueblo de pescadores aferrado a la orilla del desierto. Hoy es una de las ciudades más visitadas de Egipto y uno de los destinos de playa más populares del mar Rojo en todo el mundo, con más de 300 hoteles y complejos turísticos, un aeropuerto internacional muy activo y una franja costera que se prolonga más de 40 kilómetros junto al mar."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Pero Hurghada es mucho más que una ciudad de resorts. Es la puerta de entrada a algunos de los fondos marinos más extraordinarios del planeta, el punto de partida para acceder a los grandes monumentos de la Antigüedad egipcia, y un lugar donde los extremos del paisaje egipcio —mar turquesa, desierto dorado, valles de montaña bajo cielos estrellados— quedan al alcance sin esfuerzo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Una ciudad con tres caras"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Una de las cosas que más sorprende de Hurghada es su variedad. Los visitantes que esperan encontrar una única franja de resort uniforme descubren pronto una ciudad con capas auténticas."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "El Dahar, el casco antiguo en el norte, es Hurghada en su faceta más auténticamente egipcia. Sus calles estrechas están flanqueadas de cafés locales, comercios de especias, mercados de pescado y bazares donde se vende joyería de plata artesanal, pipas de shisha y alfombras tejidas. Aquí es donde viven los habitantes de la ciudad —y donde una mañana paseando por el zoco transporta lejos del mundo pulido de los resorts, que quedan a apenas unos kilómetros al sur."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "Sakkala (o El Sekala) es la animada zona intermedia, donde la vida local y la turística conviven sin fricciones. El puerto deportivo es el punto de salida de los barcos de buceo, las excursiones de esnórquel y los viajes a las islas. El paseo marítimo se llena de familias y parejas cada tarde, y los restaurantes van desde cocinas egipcias de toda la vida hasta animados bistrós internacionales con vistas a la marina."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "Village Road es la larga franja sur que reconocerán la mayoría de los turistas de paquete: una sucesión continua de complejos de cinco estrellas, hoteles en primera línea de playa, parques acuáticos, centros comerciales y restaurantes que se extiende por más de 20 kilómetros de costa. Aquí es donde Hurghada forjó su reputación como destino de playa de primer nivel mundial, y está a la altura de todas las expectativas."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "Más allá de la ciudad propiamente dicha, una constelación de enclaves exclusivos se prolonga a lo largo de la costa: El Gouna, la elegante ciudad-laguna de canales y marinas, a 25 kilómetros al norte; Sahl Hasheesh, una bahía boutique de aguas turquesas en calma y recogimiento romántico; y Soma Bay, una península apreciada por buceadores, kitesurfistas y viajeros que buscan los cinco estrellas con menos aglomeración."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "La elección entre una y otra condicionará casi todo lo demás del viaje. Profundizamos en cada una de ellas en las guías de zona que siguen."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Donde el mar encuentra el desierto"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Lo que verdaderamente distingue a Hurghada de otros destinos del mar Rojo es la amplitud absoluta de paisajes a los que da acceso."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "El mar es el protagonista. El mar Rojo figura de forma constante entre los mejores destinos de buceo del mundo, y Hurghada se encuentra en su corazón. Tanto para el buceador con brevet como para el principiante que hace por primera vez el curso de aguas abiertas, o para quien practica esnórquel atraído por el color y la vida de los arrecifes someros, el mundo submarino aquí supera las expectativas. Los pecios del estrecho de Gubal, las playas prístinas del parque nacional de la isla de Giftun y los prolíficos arrecifes de las aguas poco profundas de la costa quedan todos al alcance con facilidad desde la ciudad."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Pero basta con salir de la playa del resort y, en cuestión de minutos, también se entra en el desierto Oriental: una inmensidad antigua y vasta de montañas color herrumbre, valles beduinos ocultos y dunas que se tiñen de ámbar al atardecer. Los safaris en jeep, las excursiones en quad y los paseos en camello por este territorio están entre las experiencias más memorables que ofrece la región."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Ese es el ritmo de Hurghada en su mejor versión. Por la mañana se puede estar flotando sobre el coral. A última hora de la tarde se puede estar contemplando cómo las montañas se vuelven rosadas y ámbar bajo la luz que se apaga. Pocos destinos hacen que los extremos se sientan tan cerca."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Una base para todo Egipto"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "La posición geográfica de Hurghada la convierte en uno de los destinos de ocio mejor conectados de Egipto."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "La antigua ciudad de Luxor —con el Valle de los Reyes, el complejo del templo de Karnak y algunos de los monumentos más grandiosos del mundo antiguo— se encuentra a solo cuatro horas al sur por carretera, lo que la hace viable como excursión larga de un día. En la práctica, en general recomendamos una noche allí a los viajeros que quieran hacer justicia a Luxor. El Cairo y las pirámides de Guiza son accesibles en un vuelo nacional de 45 minutos o en un cómodo trayecto nocturno por carretera."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "Para los viajeros que quieran combinar descanso en la playa con exploración arqueológica seria, Hurghada ofrece un equilibrio que pocos destinos en el mundo pueden igualar. Una ruta natural por Egipto puede empezar en El Cairo, continuar hacia el sur por Luxor y terminar en Hurghada, cerrando el viaje con coral, sol y quietud después de la intensidad de los templos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Un destino para cualquier tipo de viajero"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Hurghada ha perfeccionado el arte de las vacaciones todo incluido sin perder de vista todo aquello que hace a Egipto extraordinario."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Las familias llegan por los resorts con todo incluido, los parques acuáticos y las playas tranquilas y seguras. Los buceadores viajan desde todos los rincones del mundo por sus arrecifes y pecios. Los viajeros de aventura se sienten atraídos por el desierto, el kitesurf y la pesca de altura. Las parejas en busca de una escapada cálida y romántica la encuentran en los resorts boutique de Sahl Hasheesh y El Gouna. Y los viajeros culturales utilizan Hurghada como base cómoda desde la que explorar el valle del Nilo, los monasterios del desierto Oriental y el patrimonio copto e islámico de la región."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "La ciudad puede ser tan sencilla o tan compleja como uno quiera. Se puede nadar, descansar, comer y dormir —y disfrutar de unas vacaciones excelentes—. O se puede llenar cada día con barcos, arrecifes, islas, templos, mercados y pistas del desierto. Hurghada no exige un único estilo de viaje. Se adapta."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ La gran puerta egipcia del mar Rojo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "Hurghada nació como un pueblo de pescadores junto al mar Rojo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Hoy es una de las grandes puertas de viaje de Egipto: al coral, al desierto, a la historia antigua y a esa clase de luz que hace que el tiempo se ralentice. Sea cual sea el motivo del viaje, suele ofrecer más de lo que se esperaba encontrar al llegar."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "El resto de esta guía profundiza: cuándo visitar, dónde alojarse, qué ver y hacer, cómo combinar Hurghada con el resto de Egipto, y cómo aprovechar al máximo los días en el mar Rojo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "Última actualización: mayo de 2026"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "— 紅海の青と砂漠の光が、エジプトの旅をほどいていく場所 —"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 紅海に入る瞬間"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガダの魅力は、最初に紅海へ入った瞬間によくわかります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "水は驚くほど澄み、肌にあたたかく、色に満ちています。水面の下にはサンゴの庭が広がり、ブダイ、チョウチョウウオ、ガラスフィッシュ、時にはリーフシャークの影が青の中を静かに横切ります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "空は広く、雲は少なく、背後には金色の砂漠。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "これがハルガダです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "そして一度その感覚が身体に入ると、なかなか抜けません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ エジプトの紅海の首都"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガダは、アラビア語でアル・ガルダカと呼ばれる、エジプト紅海県の中心都市です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "かつては砂漠の海岸に寄り添う小さな漁村でした。現在では、300を超えるホテルとリゾート、忙しい国際空港、40km以上にわたる海岸線を持つ、エジプト有数のリゾート都市です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "けれど、ハルガダは単なるビーチ都市ではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "世界屈指の海洋生物への入口であり、東部砂漠への入口であり、ルクソールやカイロへつながる実用的な旅の拠点でもあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "ターコイズの海、金色の砂漠、星空の山谷。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "その極端な風景が、ここでは驚くほど近くにあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 三つの顔を持つ町"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガダは、一枚岩のリゾート地ではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "エリア · 雰囲気"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "エル・ダハール · 旧市街。市場、カフェ、魚市場、地元の生活"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "サッカラ／シェラトン通り · マリーナ、飲食、船の出発点、観光と日常の中間"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "ヴィレッジ・ロード · 大型リゾート、家族向けホテル、ウォーターパーク、ビーチ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "さらに北には、潟とマリーナの町エル・グーナがあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "南には、静かな高級リゾートのサール・ハシーシュ、家族向けのマカディ・ベイ、ダイビングやカイトサーフィンで知られるソマ・ベイがあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "どこに泊まるかで、ハルガダの印象は大きく変わります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 海と砂漠が出会う場所"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガダを特別にしているのは、海だけではありません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "海は主役です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "紅海は世界有数のダイビングエリアであり、ハルガダはその中心にあります。認定ダイバーも、初めてオープンウォーターを取る人も、浅いリーフを泳ぎたいシュノーケラーも、ここでは十分な理由を見つけられます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "ギフトン諸島、アブ・ヌハスの沈船群、グバール海峡、沖合のリーフ。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "どれもハルガダから現実的に届きます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "そして、ホテルを出て数分走れば東部砂漠です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "赤褐色の山、ベドウィンの谷、夕方に琥珀色へ変わる砂。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "朝はサンゴの上を漂い、夕方は砂漠の山が赤くなるのを見る。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "この近さが、ハルガダのリズムです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ エジプト全体への拠点"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガダは、ビーチだけで終わらせるには便利すぎる場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールまでは車で約4時間。カルナック神殿、王家の谷、ハトシェプスト女王葬祭殿など、古代エジプトの最重要地へ日帰りも可能です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "ただし、深く味わいたいならルクソール1泊をおすすめします。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロへは国内線で短くつながります。ピラミッド、博物館、イスラム地区を見た後に紅海へ移動することも、逆に紅海で旅を締めくくることもできます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロ、ルクソール、ハルガダ。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "この組み合わせは、エジプトの濃さと休息をよく両立させます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ 誰に向いているか"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガダは、旅の形に合わせて変わる町です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "家族はオールインクルーシブ、ウォーターパーク、穏やかなビーチを求めて来ます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "ダイバーは、リーフと沈船を求めて来ます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "冒険好きは、砂漠、カイトサーフィン、ボート、四輪駆動車のツアーを選びます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000067",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "カップルは、サール・ハシーシュやエル・グーナで静かな海辺を見つけます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": "文化を重視する旅行者は、ここをルクソールやナイル渓谷へつなぐ拠点として使います。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": "泳いで、休んで、食べて、眠るだけでもよい旅になります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "毎日を船、リーフ、島、神殿、市場、砂漠で埋めることもできます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガダは、一つの旅の形を押しつけません。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "■ Final Word"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "ハルガダは、紅海沿いの漁村から始まりました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000077",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "今では、エジプトを代表する旅の入口のひとつです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "サンゴへ。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "砂漠へ。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "古代史へ。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "そして、時間が少しゆっくりになる光へ。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [
+                "em"
+              ],
+              "text": "何を求めて来ても、ハルガダはたいてい、到着前に想像していたより多くのものを差し出してくれます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": "最終更新：2026年5月"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "placesToGo": [
+    {
+      "_key": "hurghada-0",
+      "_ref": "wp-page-59711",
+      "_type": "reference"
+    },
+    {
+      "_key": "hurghada-1",
+      "_ref": "wp-page-59712",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-abu-nuhas-shipwreck-sites",
+      "_ref": "guideArticle.hurghada.abu-nuhas-shipwreck-sites",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-straits-of-gubal",
+      "_ref": "guideArticle.hurghada.straits-of-gubal",
+      "_type": "reference"
+    },
+    {
+      "_key": "auto-giftun-islands",
+      "_ref": "guideArticle.hurghada.giftun-islands",
+      "_type": "reference"
+    }
+  ],
+  "region": "red-sea",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "hurghada"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "hurghada"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "harugada"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "In the grand tapestry of Egypt’s coastal cities, Hurghada shines as the Red Sea’s radiant gem, standing in contrast to the historical elegance of Alexandria along the Mediterranean. While Alexandria tells stories of empires and scholars, Hurghada offers a different kind of allure—one defined by light, water, and the rhythm of the sea.…"
+    },
+    {
+      "_key": "es",
+      "value": "En el gran tapiz de las ciudades costeras de Egipto, Hurgada brilla como la joya radiante del Mar Rojo, en contraste con la elegancia histórica de Alejandría en el Mediterráneo. Mientras Alejandría cuenta historias de imperios y eruditos, Hurgada ofrece un tipo de encanto diferente—uno definido por la luz, el agua y el ritmo del mar.…"
+    },
+    {
+      "_key": "ja",
+      "value": "エジプトの沿岸都市の壮大な織物の中で、ハルガダは紅海の輝く宝石として際立ち、地中海に面した歴史的優雅さを誇るアレクサンドリアとは対照的な存在です。 アレクサンドリアが帝国や学者たちの物語を語る一方で、ハルガダは光、水、そして海のリズムによって形作られた別の魅力を提供します。…"
+    }
+  ]
+}

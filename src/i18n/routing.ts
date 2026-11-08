@@ -29,6 +29,9 @@ export const routing = defineRouting({
   // EN; language is chosen via the switcher, which links to the correctly
   // localized slug.
   localeDetection: false,
+  // Sanity translates dynamic slugs. Prefix-only HTTP alternates invent 404s
+  // and conflict with the document-aware metadata and sitemap alternates.
+  alternateLinks: false,
   pathnames: {
     // Commercial category landings — localized leaves (2026-07-18, owner call).
     // Deliberate exception to the shared-English-path chrome policy above: these

@@ -1,3 +1,5 @@
+import { getTranslations } from 'next-intl/server';
+
 import type { Locale } from '@/i18n/routing';
 import { Link, getPathname } from '@/i18n/navigation';
 
@@ -62,13 +64,18 @@ export interface JourneyContent {
  */
 export type LocalizedJourney = { en: JourneyContent } & Partial<Record<Locale, JourneyContent>>;
 
-export function JourneyPage({
+export async function JourneyPage({
   content: c,
   locale,
 }: {
   content: JourneyContent;
   locale: Locale;
 }) {
+  // Shared, already-localized concierge copy for the mid-page invite (§2.5).
+  // Reused across all six journey pages so a reader who does not scroll to the
+  // §6 close still meets the concierge partway through the essay.
+  const tc = await getTranslations({ locale, namespace: 'concierge' });
+
   // Locale-aware homepage hash — native <a> so the browser scrolls to the
   // anchor (App Router Link is unreliable for hashes), mirroring JourneysMenu.
   // Built via getPathname (not a hand-rolled prefix) so it stays aligned with
@@ -132,6 +139,23 @@ export function JourneyPage({
               <p>{c.operatorNote.body}</p>
             </div>
           </aside>
+        </div>
+      </section>
+
+      {/* § 2.5 — Mid-page concierge invite. The essay above is a long read; this
+          is a light touchpoint so an engaged reader can move to planning without
+          scrolling to the §6 close. Same destination as the close (the page's own
+          concierge href); shared, localized copy. */}
+      <section className="section mid-invite-sec">
+        <div className="wrap">
+          <div className="mid-invite">
+            <span className="mid-invite__eyebrow">{tc('eyebrow')}</span>
+            <p className="mid-invite__prompt">{tc('midInvite')}</p>
+            <Link href={c.close.ctaHref} className="cta">
+              <span>{tc('primaryCta')}</span>
+              <span aria-hidden>→</span>
+            </Link>
+          </div>
         </div>
       </section>
 

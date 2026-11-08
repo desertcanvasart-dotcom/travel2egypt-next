@@ -1,0 +1,1386 @@
+{
+  "_createdAt": "2026-05-04T20:38:42Z",
+  "_id": "wp-page-60320",
+  "_rev": "u771oJL7tQyayKi2DUTqLJ",
+  "_system": {
+    "base": {
+      "id": "wp-page-60320",
+      "rev": "4jxboK94xJN5bUSrjkRdAx"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:03:09Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "ugt5boiok8cx",
+              "_type": "span",
+              "marks": [],
+              "text": "The Rich Historical Tapestry of "
+            },
+            {
+              "_key": "5txbo8wbzemn",
+              "_type": "span",
+              "marks": [
+                "2gnrhfvsip92"
+              ],
+              "text": "Qena"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "2gnrhfvsip92",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58902",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Qena, a town steeped in a blend of ancient and Islamic heritage, holds a significant place in Egypt’s historical narrative. Here’s an exploration of its storied past:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Ancient Beginnings and Greek Influence"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "Originally named Caene (New Town) by the ancient Greeks, distinguishing it from the nearby "
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "000000000006"
+              ],
+              "text": "Coptos"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": " (now Qifṭ)."
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Located 23 km north of Coptos, it gradually took over the latter’s significant trade with Arabia, India, and China."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000006",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/the-copts-of-egypt-guardians-of-an-ancient-faith/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/ejiputo-no-koputo-kyoto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Trade and Route Changes"
+            },
+            {
+              "_key": "lws0zgzxblsy",
+              "_type": "span",
+              "marks": [],
+              "text": "The shift in trade prominence was due to a new northern route across the Eastern Desert to the ports of "
+            },
+            {
+              "_key": "tfhj43pjs4cj",
+              "_type": "span",
+              "marks": [
+                "tqkvj5g0vbge"
+              ],
+              "text": "Safaga"
+            },
+            {
+              "_key": "056gx78kyruq",
+              "_type": "span",
+              "marks": [],
+              "text": " and Al-Quṣier."
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Post-Mamlūk period (after 1517) archaeological findings at Al-Quṣier suggest the change in trade routes."
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Although trade diminished in the Ottoman period, this northern route persisted, especially for Upper Egyptians embarking on the hajj pilgrimage to Mecca."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "tqkvj5g0vbge",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58920",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Islamic Influence and Religious Significance"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "Qena is not just an ancient trade hub but also a center of Islamic heritage."
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "The Maghrebi Abd el-Rahim, upon returning from Mecca, established a Sufi center in Qena."
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "His death in 1195 led to the construction of a mosque over his tomb, turning it into a pilgrimage site."
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "The large modern mosque of Sheikh el-Qenawi in the town’s main square highlights his enduring influence."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Modern Developments and Infrastructure"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "The town experienced a revival during and after World War II."
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "Its strategic location as a terminus for the road to the Red Sea coast and its status as a governorate capital spurred growth."
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "The construction of a bridge across the Nile and the upgrading of the Upper "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " highway, passing through Qena, enhanced its importance."
+            },
+            {
+              "_key": "idwubaxyldnw",
+              "_type": "span",
+              "marks": [],
+              "text": "Qena is well-connected, served by the "
+            },
+            {
+              "_key": "suohlwymbs3v",
+              "_type": "span",
+              "marks": [
+                "nybsthobojiv"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "o5d1lha3hfr6",
+              "_type": "span",
+              "marks": [],
+              "text": "–"
+            },
+            {
+              "_key": "xwev0ztip5hk",
+              "_type": "span",
+              "marks": [
+                "4xfy91ojtxf3"
+              ],
+              "text": "Aswan"
+            },
+            {
+              "_key": "p8xnyl2hybro",
+              "_type": "span",
+              "marks": [],
+              "text": " railway and a nearby military air base."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/faux-pas-to-avoid-in-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni",
+              "newTab": false
+            },
+            {
+              "_key": "nybsthobojiv",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "4xfy91ojtxf3",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58758",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Economic and Cultural Hub"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Today, Qena is a bustling market town and a service center for road vehicles."
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "Traditionally noted for producing porous clay water vessels, a craft that continues to this day."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "Qena’s rich tapestry of history, from its Greek roots and Islamic heritage to its modern-day significance, makes it a city of multifaceted cultural and historical importance. It’s a testament to the enduring legacy of civilizations and cultures that have contributed to its development over the centuries."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/m-abnodey-lXAfEKBgAr8-unsplash-2-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up of an ancient stone carving depicting a human face."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "A weathered visage from the past, etched in stone"
+            }
+          ]
+        },
+        {
+          "_key": "000000000026",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/mohamad-sameh-8KqfnA727bY-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Tranquil water beside a grassy shore."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Nature's calm - where water meets grass."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "1ypi2239bqkt",
+              "_type": "span",
+              "marks": [
+                "247doa4v7tm4"
+              ],
+              "text": "Qena"
+            },
+            {
+              "_key": "o55taz6xzd4k",
+              "_type": "span",
+              "marks": [],
+              "text": " A Través De La Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "247doa4v7tm4",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58902",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Qena, ciudad impregnada de una mezcla de patrimonio antiguo e islámico, ocupa un lugar importante en la narrativa histórica de "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "He aquí una exploración de su rico pasado:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/es/descubre-egipto-en-9-dias-tu-itinerario-de-viaje-definitivo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/descubre-egipto-en-9-dias-tu-itinerario-de-viaje-definitivo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Antiguos comienzos e influencia griega"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "Originalmente llamada Caene (Ciudad Nueva) por los antiguos griegos, distinguiéndola de la cercana "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "00000000000b"
+              ],
+              "text": "Coptos"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": " (actual Qifṭ)."
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Situada a 23 km al norte de Coptos, poco a poco se hizo cargo "
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "00000000000f"
+              ],
+              "text": "del importante comercio de esta"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": " última con Arabia, India y China."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000000b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/los-coptos-de-egipto-guardianes-de-una-antigua-fe/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/los-coptos-de-egipto-guardianes-de-una-antigua-fe",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-suez/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/suez",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cambios "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000014"
+              ],
+              "text": "comerciales y de ruta"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "El cambio en el protagonismo del comercio se debió a una nueva ruta septentrional a través del Desierto Oriental hacia "
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "000000000017"
+              ],
+              "text": "los puertos de Safaga"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": " y Al-Quṣier."
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "Los hallazgos arqueológicos del"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " periodo posterior a Mamlūk (después de 1517) en Al-Quṣier sugieren el cambio de las rutas comerciales."
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "Aunque el comercio disminuyó en el periodo otomano, esta ruta septentrional persistió, sobre todo para los habitantes del Alto Egipto que emprendían la peregrinación del hajj a La Meca."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000014",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-quseir/el-puerto-de-myos-hormos/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/al-quseir/el-puerto-de-myos-hormos",
+              "newTab": false
+            },
+            {
+              "_key": "000000000017",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/safaga-a-santuarios-excursion-de-un-dia-a-los-templos-de-dendera-y-abydos/"
+              },
+              "_type": "externalLink",
+              "href": "/es/dendera-and-abydos-temples-day-tour",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-fayoum/la-piramide-de-al-lahun/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/al-fayoum/la-piramide-de-al-lahun",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Influencia "
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000020"
+              ],
+              "text": "islámica"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " y significado religioso"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "000000000023"
+              ],
+              "text": "Qena"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " no es sólo un antiguo centro comercial, sino también un centro del patrimonio islámico."
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "El magrebí Abd el-Rahim, a su regreso de La Meca, estableció un centro sufí en Qena."
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "Su muerte en 1195 condujo a la construcción de una mezquita sobre su tumba, convirtiéndola en lugar de peregrinación."
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "La gran "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "000000000029"
+              ],
+              "text": "mezquita moderna del"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": " jeque el-Qenawi, en la plaza principal de la ciudad, pone de manifiesto su perdurable influencia."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000020",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-corazon-espiritual-de-el-cairo-excursion-islamica-de-un-dia-por-el-cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/tour-privado-por-el-cairo-islamico-ciudadela-mezquitas-y-jan-el-jalili",
+              "newTab": false
+            },
+            {
+              "_key": "000000000023",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/es/precios-de-las-entradas-a-las-atracciones-de-qena/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/qena/precios-de-las-entradas-a-las-atracciones-de-qena",
+              "newTab": false
+            },
+            {
+              "_key": "000000000029",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/mezquita-del-sheij-al-muayyad/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/cairo/mezquita-del-sheij-al-muayyad",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Desarrollos modernos e infraestructuras"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "La ciudad experimentó un renacimiento durante y después de la Segunda Guerra Mundial."
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "Su situación estratégica como terminal de la carretera a la costa del Mar Rojo y su condición de capital de la gobernación estimularon el crecimiento."
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "La construcción de un puente sobre el Nilo y la mejora de la carretera del Alto Egipto, que pasa por Qena, aumentaron su importancia."
+            },
+            {
+              "_key": "l5q0uuhhqw66",
+              "_type": "span",
+              "marks": [],
+              "text": "Qena está bien comunicada, gracias al ferrocarril "
+            },
+            {
+              "_key": "rvvv04g94tkn",
+              "_type": "span",
+              "marks": [
+                "n07ubrfpb8sb"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "b84ynpwpgpad",
+              "_type": "span",
+              "marks": [],
+              "text": "-Aswán y a una base aérea militar cercana."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "n07ubrfpb8sb",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Eje económico y cultural"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [
+                "000000000034"
+              ],
+              "text": "Hoy en día"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": ", Qena es una bulliciosa ciudad-mercado y un centro de servicio para vehículos de carretera."
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "Tradicionalmente conocido por fabricar vasijas de barro poroso "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "para el agua"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": ", un oficio que continúa en la actualidad."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000034",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/horario-y-dias-festivos/"
+              },
+              "_type": "externalLink",
+              "href": "/es/travel-tips/horarios-y-dias-festivos-en-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "El rico tapiz de "
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "00000000003d"
+              ],
+              "text": "historia"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": " de Qena, desde sus raíces griegas y su herencia islámica hasta su importancia actual, la convierte en una ciudad de polifacética importancia cultural e histórica."
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "Es un testimonio "
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [
+                "000000000042"
+              ],
+              "text": "del perdurable legado de civilizaciones y culturas"
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " que han contribuido a su desarrollo a lo largo de los siglos."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+              "newTab": false
+            },
+            {
+              "_key": "000000000042",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/souq-bab-el-louk-el-mercado-fresco-de-el-cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/souq-bab-el-louk-el-mercado-fresco-de-el-cairo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en julio 27, 2025"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "hyizr9t4d9zc",
+              "_type": "span",
+              "marks": [
+                "8ndt54gb66c5"
+              ],
+              "text": "ケナ"
+            },
+            {
+              "_key": "8qah73i4c0bf",
+              "_type": "span",
+              "marks": [],
+              "text": "の豊かな歴史の織り成す物語"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "8ndt54gb66c5",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58902",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "ケナは、古代とイスラムの遺産が融合した町で、エジプトの歴史的物語において重要な位置を占めています。ここでは、その豊かな歴史を探ります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "古代の始まりとギリシャの影響"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "元々、古代ギリシャ人によって「カエネ（新しい町）」と名付けられ、近くのコプトス（現在のキフト）とは区別されていました。\r\nコプトスから北へ23kmの場所に位置し、徐々にアラビア、インド、中国との貿易を引き継ぎました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "貿易と交易路の変化"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "gftggvs2j62w",
+              "_type": "span",
+              "marks": [],
+              "text": "貿易の重要性の移行は、東部砂漠を横断し、"
+            },
+            {
+              "_key": "1ktm8ylu1jfp",
+              "_type": "span",
+              "marks": [
+                "x3panv67iw8l"
+              ],
+              "text": "サファガ"
+            },
+            {
+              "_key": "8szuvcgmf4hq",
+              "_type": "span",
+              "marks": [],
+              "text": "やアル・クシールの港に至る新しい北方ルートによるものでした。\r\n1517年のマムルーク時代後の発掘で、アル・クシールの交易路の変化が確認されています。\r\nオスマン時代に貿易が減少しましたが、この北方ルートは、特に上エジプトの人々がメッカへのハッジ巡礼に出発するために引き続き利用されました。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "x3panv67iw8l",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58920",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "イスラムの影響と宗教的意義"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "ケナは単なる古代の貿易拠点ではなく、イスラム遺産の中心地でもあります。\r\nマグレブのアブド・エル・ラヒムはメッカから帰還後、ケナにスーフィーのセンターを設立しました。\r\n彼の1195年の死後、彼の墓の上にモスクが建設され、巡礼地となりました。\r\n町の中心広場にあるシェイフ・エル・ケナウィの大きな現代モスクは、彼の影響力が続いていることを象徴しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "現代の発展とインフラ整備"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "vav4a65623m5",
+              "_type": "span",
+              "marks": [],
+              "text": "ケナは第二次世界大戦中およびその後に復興を遂げました。\r\n紅海沿岸への道の終点としての戦略的な立地と、州都としての地位が成長を促しました。\r\nナイル川に架かる橋の建設と、ケナを通る上エジプト高速道路の改良により、その重要性が増しました。\r\nケナは、"
+            },
+            {
+              "_key": "vx7i372wsyod",
+              "_type": "span",
+              "marks": [
+                "34yiwsub4evo"
+              ],
+              "text": "カイロ"
+            },
+            {
+              "_key": "beaz5zmymi8i",
+              "_type": "span",
+              "marks": [],
+              "text": "–アスワン鉄道と近隣の軍用空軍基地によってよく接続されています。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "34yiwsub4evo",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "経済と文化の中心地"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "今日、ケナは賑やかな市場町であり、道路車両のサービスセンターとしても機能しています。\r\n伝統的に多孔質の粘土製の水差しを生産する町として知られており、この工芸は現在も続いています。\r\n\r\nギリシャの起源とイスラムの遺産、現代の重要性に至るまで、ケナの豊かな歴史は、多面的な文化的・歴史的な重要性を持つ都市であることを示しています。数世紀にわたってその発展に貢献してきた文明と文化の永続的な遺産を象徴しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2019年5月1日"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " 更新日：2025年3月26日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Ancient Egyptian relief of winged falcons, ankhs and hieroglyphs carved in sandstone"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Relieve egipcio antiguo de halcones alados, anjs y jeroglíficos tallados en arenisca"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "砂岩に刻まれた翼を広げた鷹、アンク、ヒエログリフの古代エジプトのレリーフ"
+      }
+    ],
+    "asset": {
+      "_ref": "image-e5a5a517644b7ff67e99f606eb8bd1a50f592d43-680x452-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Carved winged falcons and hieroglyphs glow across an ancient Egyptian temple wall."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Halcones alados y jeroglíficos tallados recorren un antiguo muro de templo egipcio."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "翼を広げた鷹とヒエログリフの彫刻が、古代エジプトの神殿の壁を彩る。"
+      }
+    ]
+  },
+  "kind": "heritage",
+  "migration": {
+    "migratedAt": "2026-05-05T12:58:50.738Z",
+    "source": "wp-import",
+    "wpId": 60320,
+    "wpModifiedAt": "2025-08-11T10:50:50",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/qena-historical-overview/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58902",
+    "_type": "reference"
+  },
+  "section": "introducing",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "qena-historical-overview"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "qena-a-traves-de-la-historia"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "kena-no-rekishi-teki-isan-o-meguru"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "The Rich Historical Tapestry of Qena Qena, a town steeped in a blend of ancient and Islamic heritage, holds a significant place in Egypt s historical narrative. Here s an exploration of its storied past: Ancient Beginnings and Greek Influen"
+    },
+    {
+      "_key": "es",
+      "value": "Qena A Través De La Historia Qena, ciudad impregnada de una mezcla de patrimonio antiguo e islámico, ocupa un lugar importante en la narrativa histórica de Egipto.He aquí una exploración de su rico pasado: Antiguos comienzos e influencia gr"
+    },
+    {
+      "_key": "ja",
+      "value": "ケナの豊かな歴史の織り成す物語 ケナは、古代とイスラムの遺産が融合した町で、エジプトの歴史的物語において重要な位置を占めています。ここでは、その豊かな歴史を探ります。 古代の始まりとギリシャの影響 元々、古代ギリシャ人によって「カエネ（新しい町）」と名付けられ、近くのコプトス（現在のキフト）とは区別されていました。 コプトスから北へ23kmの場所に位置し、徐々にアラビア、インド、中国との貿易を引き継ぎました。 貿易と交易路の変化 貿易の重要性の移行は、東部砂漠を横断し、サファ"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Qena Historical Overview"
+    },
+    {
+      "_key": "es",
+      "value": "Qena A Través De La Historia"
+    },
+    {
+      "_key": "ja",
+      "value": "ケナの歴史的遺産を巡る"
+    }
+  ]
+}

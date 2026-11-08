@@ -4,7 +4,21 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { HieroglyphTranslator } from '@/components/HieroglyphTranslator';
+import { Noto_Sans_Egyptian_Hieroglyphs } from 'next/font/google';
 import { buildStaticMetadata } from '@/lib/seo';
+
+/**
+ * Page-scoped (perf session 2026-08-18): declared HERE instead of app/fonts.ts
+ * so its @font-face CSS ships only with this route. The variable class on the
+ * page wrapper puts --font-noto-sans-egyptian-hieroglyphs in scope for the
+ * --font-hieroglyph fallback chain in globals.css.
+ */
+const notoSansEgyptianHieroglyphs = Noto_Sans_Egyptian_Hieroglyphs({
+  weight: ['400'],
+  variable: '--font-noto-sans-egyptian-hieroglyphs',
+  display: 'swap',
+  preload: false,
+});
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -27,7 +41,9 @@ export default async function NameInHieroglyphsPage({ params }: Props) {
   const t = await getTranslations('hieroglyphs');
 
   return (
-    <div className="mx-auto max-w-3xl px-6 py-16">
+    <div
+      className={`hieroglyph-font-scope mx-auto max-w-3xl px-6 py-16 ${notoSansEgyptianHieroglyphs.variable}`}
+    >
       <header className="mb-12 text-center">
         <p className="mb-3 font-sans text-xs font-semibold uppercase tracking-[0.18em] text-orange-deep">
           {t('eyebrow')}

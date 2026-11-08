@@ -27,7 +27,7 @@ import type { ConciergeDatabase } from '@/types/concierge-db';
 
 type Db = SupabaseClient<ConciergeDatabase, 'concierge'>;
 
-export type LimitAction = 'chat' | 'brief' | 'resume_email' | 'escape_hatch';
+export type LimitAction = 'chat' | 'brief' | 'resume_email' | 'escape_hatch' | 'lead';
 
 /** Counter actions stored in rate_limits — the rate limits plus the abuse tally. */
 type CounterAction = LimitAction | 'abuse';
@@ -83,6 +83,13 @@ export const LIMITS = {
     windowMs: HOUR,
     max: envInt('RL_ESCAPE_HOURLY_MAX', 3),
     dailyMax: envInt('RL_ESCAPE_DAILY_MAX', 5),
+  },
+  // Website lead form (homepage rebuild). Keyed by the hashed IP — the form
+  // has no session cookie. Loose enough for a family sharing a hotel NAT.
+  lead: {
+    windowMs: HOUR,
+    max: envInt('RL_LEAD_HOURLY_MAX', 5),
+    dailyMax: envInt('RL_LEAD_DAILY_MAX', 12),
   },
 } as const;
 
@@ -245,7 +252,7 @@ export async function enforceChat(
  */
 export async function enforceExpensive(
   db: Db,
-  action: 'brief' | 'resume_email' | 'escape_hatch',
+  action: 'brief' | 'resume_email' | 'escape_hatch' | 'lead',
   cookieId: string,
 ): Promise<LimitDecision> {
   const now = Date.now();

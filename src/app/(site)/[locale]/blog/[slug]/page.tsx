@@ -211,7 +211,7 @@ export default async function ArticlePage({ params }: Props) {
       kicker: tour.type === 'package' ? t('weavePackageKicker') : t('weaveTourKicker'),
       title: tour.title,
       note: tour.summary,
-      href: tour.type === 'package' ? `/packages/${tour.slug}` : `/${tour.slug}`,
+      href: `/${tour.slug}`,
     }));
 
   const guideItems: WeaveItem[] = [

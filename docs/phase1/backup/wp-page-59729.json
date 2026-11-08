@@ -1,0 +1,2541 @@
+{
+  "_createdAt": "2026-05-06T23:04:52Z",
+  "_id": "wp-page-59729",
+  "_rev": "37hNSegHf4NtjSKr1hMtye",
+  "_type": "wikiMonument",
+  "_updatedAt": "2026-07-01T13:32:00Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "About The Temple "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Hibis Temple, once a part of the ancient capital Hebet in Kharga Oasis, "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", is situated amid a palm grove about 2 kilometers north of El-Kharga. This temple is renowned as the largest and best-preserved temple of its era in the oasis, offering a glimpse into the historical significance of the region."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Egyptian",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "The ancient town of Hebet, covering approximately 1 square kilometer, now lies mostly buried beneath modern cultivation. However, early 20th-century excavations, led by Herbert Winlock of the Metropolitan "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "Museum of Art"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ", uncovered a few mudbrick houses with vaulted ceilings and fresco paintings at the town’s outskirts."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000008",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.cairo.museum-of-islamic-art",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "The exact duration of Hebet’s status as the oasis’s capital remains unclear. Recent "
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "00000000000d"
+              ],
+              "text": "explorations"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": " have unearthed a cemetery at the site, dating back to the Second Intermediate Period and New Kingdom, indicating a long period of occupation. Additionally, investigations south of the "
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "000000000010"
+              ],
+              "text": "temple revealed that buildings from the Christian"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " era, dating to around AD 350, were destroyed by a significant fire."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/nuweiba-travel-guide/exploring/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000010",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-109929-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "The earliest surviving sections of Hibis Temple trace back to the reign of the Persian ruler Darius I. However, it is likely that the temple’s construction began during the "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "000000000015"
+              ],
+              "text": "reigns of Dynasty XXVI pharaohs"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " Psamtek II, Apries, and Amasis II or on the site of an even earlier structure whose foundations were discovered by Winlock."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000015",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/al-wadi-al-gadid-travel-guide/relics-from-the-reign-of-the-pharaohs/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Hibis Temple, dedicated to the Theban triad of Amun-Re, Mut, and Khons, was embellished by Darius I, and possibly Darius II, with later additions by Nectanebo II and the Ptolemies. During the 4th century AD, a Christian church was "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "constructed on the temple’s"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " northern side."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001a",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.qena.the-temple-of-hathor",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "Nectanebo I and Nectanebo II enclosed the temple within a stone enclosure wall, and visitors now approach it through a series of gateways leading to the inner sections. A sphinx-lined avenue ran west from a quay on the lake’s edge along a paved processional route, which was attributed to an official named Hermeias during the 3rd century AD."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "A massive sandstone gateway, part of an outer enclosure wall, stands nearly 5 meters tall and dates to the Ptolemaic or Roman periods. It bears numerous inscriptions and decrees, providing insights into Roman governance in the oasis. Inside the gateway are the bases of two obelisks or colossal statues."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "The inner enclosure wall, constructed during Dynasty XXX, encloses a monumental kiosk or colonnade with eight columns, facing the main part of the temple. The wide span of the kiosk (7.4 meters) required wooden beams to support the roof, and the composite capitals on the columns are the earliest known examples in "
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "000000000023"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": ". Although believed to be built by Nectanebo I, only Nectanebo II’s cartouches remain on the decoration."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000023",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/contact-us/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "Hakor (Achoris) of Dynasty XXIX added a larger hypostyle hall to the original temple, replacing the traditional pillared courtyard. This expansion led to reinforcement of the foundations and buttressing of the west wall, as the original structure had faced a collapse soon after construction."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "The hypostyle hall houses 12 palm-columns of an early composite type, with the columns at the front opening onto a narrow courtyard. Beyond the hypostyle hall is an early-style pronaos with four smooth papyrus columns and screen walls, likely similar in style to the temple of Shoshenq I at el-Hiba. Behind it lies the earlier hypostyle hall, containing four columns, an offering chamber, sanctuary, and a chapel dedicated to the deified king at the rear. Stairs lead to the roof, which contains a complex of cult chambers devoted to Osiris."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "Hibis Temple stands out as a remarkable example of a Persian Period temple in Egypt, with its well-preserved reliefs, thanks to centuries of burial in sand. The temple features rich religious iconography and theological texts, often depicted in a unique style that reflects local artistic influences."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "One notable and unique wall relief portrays a winged figure of Seth, the god of the "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "desert"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " oases, with a falcon’s head, painted blue—an unusual color typically reserved for air deities. In this depiction, Seth battles the serpent Apophis. The sanctuary also honors numerous deities, including Min, another desert god."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002e",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-144332-es",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "A complete wooden codex from Hibis, dating to around AD 246-249, was discovered and is now held at the Ashmolean Museum, Oxford. The codex, written in Greek, contains a list of names and "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "000000000033"
+              ],
+              "text": "accounts"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": " and a report by a government official detailing a survey of water sources in the oasis."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000033",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/my-account/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "Throughout the 20th century, Hibis Temple underwent sporadic excavation and restoration efforts. The rising subterranean water level, caused by nearby irrigation projects, threatened the temple’s structural integrity, leading to the declaration of its closure to the public in 1989. In 2000, a large-scale salvage operation was initiated but proved unsatisfactory, and it was postponed. Instead, ongoing "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "restoration efforts at the temple’s current location"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " aim to protect and preserve this invaluable historical site."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000038",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-colossi-of-memnon",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Scholars have conducted extensive studies of the temple’s texts and graffiti, shedding light on its historical and religious significance. These efforts continue to contribute to our understanding of Hibis Temple and its place in Egypt’s rich history."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003e",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/08/Natural-salt-pools-in-Siwa-Oasis-1024x683.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Traveler sitting in natural salt pool at Siwa Oasis with clear turquoise water"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Visitor enjoying the healing waters of Siwa salt pools"
+            }
+          ]
+        },
+        {
+          "_key": "00000000003f",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/08/siwa-salt-pools-aerial-view-1024x683.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "turquoise salt pools in siwa oasis egypt"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "striking turquoise salt pools in siwa oasis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Sobre el Templo "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "El Templo de Hibis, que formó parte de la antigua capital Hebet en el Oasis de Kharga, "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", está situado en medio de un palmeral a unos 2 kilómetros al norte de El-Kharga."
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Este templo tiene fama de ser el mayor y mejor conservado de su época en el oasis, y ofrece una visión de la importancia histórica de la región."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/vacaciones-en-grupo-en-egipto-para-mayores/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "La antigua ciudad de Hebet, de aproximadamente un kilómetro cuadrado, yace ahora enterrada en su mayor parte bajo los cultivos modernos."
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Sin embargo, las excavaciones de principios del siglo XX, dirigidas por Herbert Winlock, del Museo Metropolitano de Arte, descubrieron algunas casas de adobe con techos abovedados y pinturas al fresco "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "00000000000c"
+              ],
+              "text": "en"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": " las afueras de la ciudad."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-tiempo-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "La duración exacta de la condición de Hebet como capital del oasis sigue sin estar clara."
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "Exploraciones recientes han desenterrado un cementerio en el lugar, "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "000000000013"
+              ],
+              "text": "que data del"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " Segundo Periodo Intermedio y del Reino Nuevo, lo que indica un largo periodo de ocupación."
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Además, las investigaciones al sur "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "del templo revelaron que"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " los edificios de la época cristiana, que datan de alrededor del año 350 d.C., fueron destruidos por un importante incendio."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000013",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-siwa/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000018",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/el-templo-del-serapeum/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "Las primeras secciones que se conservan del templo de Hibis se remontan al reinado del gobernante persa Darío I. Sin embargo, es probable que la construcción del templo comenzara durante los "
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "00000000001d"
+              ],
+              "text": "reinados de los faraones"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " de la dinastía XXVI Psamtek II, Apries y Amasis II o en el emplazamiento de una estructura aún más antigua cuyos cimientos fueron descubiertos por Winlock."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/reyes-del-antiguo-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "El templo de Hibis, dedicado a la tríada tebana de Amón-Re, Mut y Khons, fue embellecido por Darío I y posiblemente Darío II, con añadidos posteriores de Nectanebo II y los Ptolomeos."
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "En el siglo IV d.C. se construyó una iglesia cristiana en el lado norte del templo."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "Nectanebo I y Nectanebo II encerraron el templo dentro de una muralla de piedra, y actualmente los "
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "000000000026"
+              ],
+              "text": "visitantes"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": " se acercan a él a través de una serie de puertas que conducen a las secciones interiores."
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Una avenida bordeada de "
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "00000000002b"
+              ],
+              "text": "esfinges"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": " discurría hacia el oeste desde un muelle en la orilla del lago a lo largo de una ruta procesional pavimentada, atribuida a un funcionario llamado Hermeias durante el siglo III d.C."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000026",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "Una maciza puerta de piedra arenisca, parte de un muro de recinto exterior, mide casi 5 metros de altura y data de los periodos ptolemaico o romano."
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "Contiene numerosas inscripciones y decretos, que proporcionan información sobre el gobierno romano en el oasis."
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "Dentro de la puerta están las bases de dos obeliscos o estatuas colosales."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "El muro del recinto interior, construido durante la dinastía XXX, encierra un quiosco monumental o columnata con ocho columnas, orientado hacia la parte principal del templo."
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "La gran envergadura del quiosco (7,4 metros) requería vigas de madera para sostener el tejado, y los capiteles compuestos de las columnas son los primeros ejemplos conocidos en "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Aunque se cree "
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "00000000003d"
+              ],
+              "text": "que fue construido por"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": " Nectanebo I, sólo se conservan los cartuchos de Nectanebo II en la decoración."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000038",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/acerca-de-egipto/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/cruceros-dahabiya-por-el-nilo-por-que-elegir-los-viajes-impulsados-por-el-viento/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "Hakor (Achoris), de la dinastía XXIX, añadió una sala "
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [
+                "000000000042"
+              ],
+              "text": "hipóstila"
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " más grande al templo original, en sustitución del tradicional patio con pilares."
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Esta ampliación obligó a reforzar los cimientos y a apuntalar el muro oeste, ya que la estructura original se había derrumbado poco después de su construcción."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000042",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-qena/techo-hipostilo/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000052",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "La sala hipóstila alberga 12 columnas de palma de un tipo compuesto primitivo, y las columnas de la parte delantera dan a un patio estrecho."
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "Más allá de la sala hipóstila hay un pronaos de "
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [
+                "00000000004b"
+              ],
+              "text": "estilo primitivo con"
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": " cuatro columnas lisas de papiro y muros pantalla, probablemente de estilo similar al del templo de Shoshenq I en el-Hiba."
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": "Detrás se encuentra la sala hipóstila anterior, con cuatro columnas, una cámara de ofrendas, un santuario y una capilla dedicada al rey divinizado en la parte posterior."
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": "Unas escaleras conducen al tejado, que contiene un complejo de cámaras de culto dedicadas a Osiris."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-hurghada/mantente-con-estilo/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": "El templo de Hibis destaca como ejemplo notable de templo del periodo persa en Egipto, con sus relieves bien conservados, gracias a siglos de enterramiento en la arena."
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "El templo presenta una rica iconografía religiosa y textos teológicos, a menudo representados en un estilo único "
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "000000000056"
+              ],
+              "text": "que refleja las influencias artísticas locales"
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000056",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/7-cosas-inolvidables-que-hacer-en-aswan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "Un relieve mural notable y único representa una figura alada de Seth, el dios de los "
+            },
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [
+                "00000000005b"
+              ],
+              "text": "oasis del desierto"
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": ", con cabeza de halcón, pintada de azul, un color inusual reservado normalmente a las deidades del aire."
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": "En esta representación, Seth lucha contra la serpiente Apofis."
+            },
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [],
+              "text": "El santuario también honra a numerosas deidades, entre ellas Min, otro dios del desierto."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/oasis-del-desierto-excursion-privada-de-2-dias-al-oasis-de-bahariya/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": "Se descubrió un códice de madera completo procedente de Hibis, fechado en torno a 246-249 d.C., que ahora se conserva en el Museo Ashmolean de Oxford."
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": "El códice, escrito en griego, contiene una lista de nombres y "
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [
+                "000000000066"
+              ],
+              "text": "cuentas"
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [],
+              "text": " y un informe de un funcionario del gobierno en el que se detalla un estudio de las fuentes de agua del oasis."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000066",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/mi-cuenta/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000074",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": "A lo largo del siglo XX, el templo de Hibis fue objeto de excavaciones y restauraciones esporádicas."
+            },
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "El aumento del nivel de las aguas subterráneas, causado por los proyectos de irrigación cercanos, amenazó la integridad estructural del templo, lo que llevó a declarar su cierre al público en 1989."
+            },
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "En 2000 se inició una operación de salvamento a gran escala, pero resultó insatisfactoria y se pospuso."
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": "En su lugar, los esfuerzos de restauración en curso "
+            },
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "en la ubicación actual del"
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [],
+              "text": " templo pretenden proteger y preservar este inestimable lugar histórico."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000071",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/10-dias-en-la-ruta-de-los-sonadores-del-nilo/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "Los eruditos han realizado amplios estudios de "
+            },
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [
+                "000000000076"
+              ],
+              "text": "los textos y graffiti del templo"
+            },
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": ", arrojando luz sobre su significado histórico y religioso."
+            },
+            {
+              "_key": "000000000079",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos esfuerzos siguen contribuyendo a nuestra comprensión del templo de Hibis y de su lugar en la rica historia de Egipto."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000076",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.dendera-and-abydos-temples-from-al-gouna",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 26 de Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [],
+              "text": "PRESENTACIÓN DEL OASIS DE KHARGA"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000084",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000083",
+              "_type": "span",
+              "marks": [
+                "000000000082"
+              ],
+              "text": "Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000082",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-historia-de-oasis-de-kharga/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000087",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [
+                "000000000085"
+              ],
+              "text": "El tiempo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000085",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/kharga-oasis-y-su-clima/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": "PLANIFICA TU VIAJE"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [
+                "00000000008a"
+              ],
+              "text": "Cómo ir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-llegar-al-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [
+                "00000000008d"
+              ],
+              "text": "Dónde alojarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/donde-dormir-en-el-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000091",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": "MIENTRAS ESTÉS ALLÍ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000094",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000093",
+              "_type": "span",
+              "marks": [
+                "000000000092"
+              ],
+              "text": "Cómo desplazarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000092",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-moverse-en-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000097",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [
+                "000000000095"
+              ],
+              "text": "Cosas que hacer"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000095",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/es-que-hacer-en-el-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000099",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000098",
+              "_type": "span",
+              "marks": [],
+              "text": "LUGARES DONDE IR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009b",
+              "_type": "span",
+              "marks": [
+                "00000000009a"
+              ],
+              "text": "Cementerio de El-Bagawat"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/cementerio-de-el-bagawat/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [
+                "00000000009d"
+              ],
+              "text": "Qasr El-Ghueita"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.kharga-oasis.qasr-el-ghueita",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a1",
+              "_type": "span",
+              "marks": [
+                "0000000000a0"
+              ],
+              "text": "Fortaleza y Templo de Nadura"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a0",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-59722",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [
+                "0000000000a3"
+              ],
+              "text": "Templo de Hibis"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a3",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-59729",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a7",
+              "_type": "span",
+              "marks": [
+                "0000000000a6"
+              ],
+              "text": "Museo Cultural Kharga"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a6",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-59718",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000aa",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [],
+              "text": "OTROS"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [
+                "0000000000ab"
+              ],
+              "text": "Visitas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000ab",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/mejores-tours-en-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000af",
+              "_type": "span",
+              "marks": [
+                "0000000000ae"
+              ],
+              "text": "Alimentación"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000ae",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/gastronomia-del-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b2",
+              "_type": "span",
+              "marks": [
+                "0000000000b1"
+              ],
+              "text": "Solo Aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b1",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/oasis-de-kharga-solo-aqui/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "神殿について"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "ヒビス神殿は、かつてカーラ・オアシスに存在した古代都市ヘベトの一部であり、エジプト・エル・カーラの北約2キロのヤシの木立の中に位置しています。この神殿は、オアシスにおけるその時代最大かつ最も保存状態の良い神殿として知られ、この地域の歴史的重要性を垣間見ることができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "かつて1平方キロメートルに及んだ古代都市ヘベトは、現在では大部分が近代的な耕作地の下に埋もれていますが、20世紀初頭、メトロポリタン美術館のハーバート・ウィンロックによる発掘により、街の外縁部からアーチ型天井の泥レンガ建築やフレスコ画のある住居が発見されました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "ヘベトがオアシスの首都であった正確な期間は不明ですが、近年の調査では、第2中間期から新王国時代にかけての墓地が発見されており、長期間にわたる居住があったことが示唆されています。さらに神殿南部の調査では、紀元350年頃のキリスト教時代の建造物が大火によって破壊された痕跡も確認されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "ヒビス神殿の現存する最古の部分は、ペルシャの王ダレイオス1世の治世に遡ります。ただし、その建設は第26王朝のファラオ、プサメティク2世、アプリエス、アマシス2世の時代、またはさらに古い建造物の跡地で始まった可能性があります。ウィンロックはその基礎を発見しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "この神殿は、テーベ三神（アメン＝ラー、ムト、コンス）に奉献され、ダレイオス1世およびおそらくダレイオス2世によって装飾されました。その後もネクタネボ2世やプトレマイオス朝による増築が行われ、4世紀には神殿北側にキリスト教会が建設されました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "ネクタネボ1世と2世は神殿を石造りの囲壁で囲み、現在ではいくつかの門を通って内部へとアクセスすることができます。神殿の西側には湖岸の船着場からスフィンクスの並ぶ舗装された参道が延びており、これは3世紀に役人ヘルメイアスによって整備されたとされています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "神殿の外側には、高さ約5メートルの巨大な砂岩製の門がそびえ、プトレマイオスまたはローマ時代に建てられたと考えられています。多くの碑文や勅令が刻まれており、当時のオアシスにおけるローマ統治の様子が伺えます。門の内側には、オベリスクまたは巨像の基壇が2つ残っています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "第30王朝期に建てられた内壁に囲まれた神殿中央部には、8本の柱を持つ記念的なキオスク（列柱ホール）があり、幅7.4メートルという広さのため、木製梁で屋根が支えられていました。柱の複合型柱頭はエジプト最古の例とされ、ネクタネボ1世の建設と考えられていますが、装飾に残るのはネクタネボ2世のカルトゥーシュのみです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "第29王朝のハコル（アコリス）は、従来の列柱中庭に代わってより大きな列柱ホールを増築しました。この拡張により、基礎の補強や西壁の控え壁が追加され、当初の構造が建設直後に倒壊しそうになったことが示されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "この列柱ホールには12本の複合型パーム柱が並び、前方は狭い中庭に面しています。その先には、初期様式の前室があり、4本の滑らかなパピルス柱と腰壁で構成されています。この様式はエル・ヒバのショシェンク1世の神殿と類似しています。その奥には、初期の列柱ホール、奉納室、至聖所、そして神格化された王に捧げられた礼拝堂があり、屋上へと続く階段があります。屋上にはオシリス神に捧げられた祭儀室が複数設けられています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "ヒビス神殿は、ペルシャ時代のエジプト神殿の中でも特に保存状態が良く、長年にわたり砂に埋もれていたため、壁面の浮彫や彩色が良好に保たれています。宗教的な象徴や神学的文献が豊富に残されており、地元の芸術様式を反映した独特な表現が特徴です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "中でも特筆すべきは、砂漠とオアシスの神セトを描いた翼を持つ浮彫で、青く彩色されたハヤブサの頭部を持つ姿でアポピス蛇と戦う様子が描かれています。青は本来空気の神々に使われる色であり、この表現は極めて珍しいものです。また、聖域にはミン神など多くの砂漠の神々も祀られています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "さらに、紀元246〜249年頃の木製コーデックス（冊子）がヒビスから発見され、現在はオックスフォードのアシュモレアン博物館に所蔵されています。このギリシア語で書かれた文書には、名前の一覧、会計記録、そして役人によるオアシスの水源調査報告書が含まれています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "20世紀を通じて、ヒビス神殿では断続的に発掘と修復作業が行われてきましたが、近隣の灌漑事業に伴って地下水位が上昇し、神殿の構造に深刻な影響を及ぼすようになったため、1989年に一般公開が停止されました。2000年には大規模な移転保存計画が開始されましたが、結果が芳しくなく中断されました。その代わりに、現在の場所で神殿を保護・保存するための修復作業が継続的に行われています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "神殿に刻まれた碑文や落書きの学術的研究も進められており、その歴史的・宗教的意義を明らかにする手がかりとして貴重な情報を提供し続けています。ヒビス神殿は、エジプトの豊かな歴史を今に伝える、重要な文化遺産なのです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " 更新日：2025年3月23日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガオアシスの紹介"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "000000000026"
+              ],
+              "text": "歴史"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000026",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ハルガダの歴史をたどる旅/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "000000000029"
+              ],
+              "text": "天気"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000029",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%E3%83%8F%E3%83%AB%E3%82%AC%E3%83%80%E3%81%AE%E5%A4%A9%E6%B0%97%E4%BA%88%E5%A0%B1/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行の計画"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "行き方"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%ab%e3%82%ac%e3%83%bb%e3%82%aa%e3%82%a2%e3%82%b7%e3%82%b9%e3%81%b8%e3%81%ae%e8%a1%8c%e3%81%8d%e6%96%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000033",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "000000000031"
+              ],
+              "text": "宿泊先"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000031",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%ab%e3%82%ac%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%bf%ab%e9%81%a9%e3%81%ae%e3%82%aa%e3%82%a2%e3%82%b7%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "滞在中に"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "000000000036"
+              ],
+              "text": "現地での移動方法"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000036",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%ab%e3%82%ac%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%a0%82%e6%bc%a0%e3%81%ae%e5%86%92%e9%99%ba/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [
+                "000000000039"
+              ],
+              "text": "おすすめのアクティビティ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000039",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%ab%e3%82%ac%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%ac%e3%82%b8%e3%83%a3%e3%83%bc%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "00000000003e"
+              ],
+              "text": "エル・バガワット墓地"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a8%e3%83%ab%e3%83%bb%e3%83%90%e3%82%ac%e3%83%af%e3%83%83%e3%83%88%e3%81%ae%e5%a2%93%e5%9c%b0/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "000000000041"
+              ],
+              "text": "カスル・エル・ゲイタ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000041",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/カスル・エル・グウェイタ/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "000000000044"
+              ],
+              "text": "ナドゥラの要塞と寺院"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000044",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8a%e3%83%89%e3%82%a5%e3%83%bc%e3%83%a9%e3%81%ae%e7%a0%a6%e3%81%a8%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "000000000047"
+              ],
+              "text": "ヒビス神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000047",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%92%e3%83%93%e3%82%b9%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [
+                "00000000004a"
+              ],
+              "text": "カルガ文化博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%83%ab%e3%82%ac%e6%96%87%e5%8c%96%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "その他"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "00000000004f"
+              ],
+              "text": "ツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%b5%e3%83%95%e3%82%a1%e3%83%aa/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [
+                "000000000052"
+              ],
+              "text": "食べ物"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000052",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%aa%e3%82%a2%e3%82%b7%e3%82%b9%e3%82%92%e5%91%b3%e3%82%8f%e3%81%86/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [
+                "000000000055"
+              ],
+              "text": "ここだけ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000055",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%81%93%e3%81%93%e3%81%a0%e3%81%91-%e3%83%8f%e3%83%ab%e3%82%ac%e3%83%bb%e3%82%aa%e3%82%a2%e3%82%b7%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000058",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/08/Natural-salt-pools-in-Siwa-Oasis-1024x683.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Traveler sitting in natural salt pool at Siwa Oasis with clear turquoise water"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "シワの塩湖の癒しの水を楽しむ訪問者。"
+            }
+          ]
+        },
+        {
+          "_key": "000000000059",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/08/Siwa-Oasis-salt-lake-Egypt-1024x512.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Crystal blue salt lake in Siwa Oasis with wooden chairs on the shore"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "シワの静かな塩湖――くつろぎのために並べられた椅子が湖畔を彩る。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "city": {
+    "_ref": "wp-page-58873",
+    "_type": "reference"
+  },
+  "heroImage": {
+    "_type": "image",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The sandstone columns and capitals of the Hibis Temple in Kharga Oasis."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Las columnas y capiteles de arenisca del templo de Hibis en el oasis de Jarga."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "カルガ・オアシスのヒビス神殿の砂岩の列柱と柱頭。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-a0307389c4d8a63e1af168f67e2c4962626d732e-500x500-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Lotus-capped columns of the Hibis Temple survive in the Kharga Oasis."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Las columnas con capiteles de loto del templo de Hibis perduran en el oasis de Jarga."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "カルガ・オアシスに残る、ロータス柱頭を持つヒビス神殿の列柱。"
+      }
+    ]
+  },
+  "migration": {
+    "migratedAt": "2026-05-07T11:15:12.062Z",
+    "reviewFlag": "superseded-by-guideArticle",
+    "source": "wp-import",
+    "supersededAt": "2026-05-20T15:23:40.818Z",
+    "supersededBy": "guideArticle.kharga-oasis.hibis-temple",
+    "wpId": 59729,
+    "wpModifiedAt": "2025-09-08T14:40:54",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/hibis-temple/"
+  },
+  "monumentType": "temple",
+  "name": [
+    {
+      "_key": "en",
+      "value": "Hibis Temple"
+    },
+    {
+      "_key": "es",
+      "value": "Templo de Hibis"
+    },
+    {
+      "_key": "ja",
+      "value": "ヒビス神殿"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "hibis-temple"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "templo-de-hibis"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "ヒビス神殿"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "About The Temple Hibis Temple, once a part of the ancient capital Hebet in Kharga Oasis, Egypt, is situated amid a palm grove about 2 kilometers north of El-Kharga. This temple is renowned as the largest and best-preserved temple of its era"
+    },
+    {
+      "_key": "es",
+      "value": "Sobre el Templo El Templo de Hibis, que formó parte de la antigua capital Hebet en el Oasis de Kharga, Egipto, está situado en medio de un palmeral a unos 2 kilómetros al norte de El-Kharga.Este templo tiene fama de ser el mayor y mejor con"
+    },
+    {
+      "_key": "ja",
+      "value": "神殿について ヒビス神殿は、かつてカーラ・オアシスに存在した古代都市ヘベトの一部であり、エジプト・エル・カーラの北約2キロのヤシの木立の中に位置しています。この神殿は、オアシスにおけるその時代最大かつ最も保存状態の良い神殿として知られ、この地域の歴史的重要性を垣間見ることができます。 かつて1平方キロメートルに及んだ古代都市ヘベトは、現在では大部分が近代的な耕作地の下に埋もれていますが、20世紀初頭、メトロポリタン美術館のハーバート・ウィンロックによる発掘により、街の外縁部か"
+    }
+  ]
+}

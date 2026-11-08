@@ -1,4 +1,6 @@
 import { getTranslations } from 'next-intl/server';
+import { StickyBarProduct } from '@/components/leads/LeadProvider';
+import { accreditationItems, getAccreditations } from '@/lib/accreditations';
 
 import { Link } from '@/i18n/navigation';
 import { client } from '@/sanity/lib/client';
@@ -14,8 +16,9 @@ import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { FloatingConcierge } from '../FloatingConcierge';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
+import '@/styles/tour-system.css';
 
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP, waTourTitle } from '@/lib/concierge/constants';
 
 interface CityRef { _id: string; name: string; slug: string }
 
@@ -59,7 +62,7 @@ export interface SingleTour {
   relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[] }> | null;
   relatedGuides?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   relatedGuideArticles?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
-  journalRefs?: Array<{ _id: string; title?: string; slug?: string }> | null;
+  journalRefs?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
 }
 
 export async function SingleTourView({ tour, locale }: { tour: SingleTour; locale: Locale }) {
@@ -67,12 +70,16 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const tSub = await getTranslations('subcategory');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+  const waHref = `${WHATSAPP}?text=${encodeURIComponent(ts('waTourText', { title: waTourTitle(tour.title) }))}`;
 
   // Concierge CTAs ride the site's one lever (CHAT_ENABLED): → /plan-your-tour
   // with this tour's context when chat is live, → /contact fail-safe otherwise.
   const conciergeHref = isChatEnabled()
     ? `/plan-your-tour?tour=${encodeURIComponent(tour.slug)}`
     : '/contact';
+  // The ?tour= variants all canonicalise to /plan-your-tour; keep crawlers from
+  // following one per tour × locale (GSC "Alternate page with proper canonical").
+  const conciergeRel = isChatEnabled() ? 'nofollow' : undefined;
 
   const isGroup = tour.tourMode === 'group';
   const trackLabel = isGroup ? tSub('trackGroup') : tSub('trackPrivate');
@@ -272,7 +279,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             )}
 
             <p className="body-cta">
-              <Link href={conciergeHref}>{ts('planThis')} →</Link>
+              <Link href={conciergeHref} rel={conciergeRel}>{ts('planThis')} →</Link>
             </p>
           </article>
 
@@ -312,14 +319,14 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               </ul>
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
               <CurrencyNote note={ts('priceCurrencyNote')} />
-              <Link className="rail-cta" href={conciergeHref}>{ts('planThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
-              <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
+              <Link className="rail-cta" href={conciergeHref} rel={conciergeRel}>{ts('planThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
+              <a className="rail-cta ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
 
             <div className="card">
               <span className="ck">{ts('whyBook')}</span>
               <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
-              <div className="accred">{ts('trustAccred')}</div>
+              <div className="accred">{[accreditationItems(await getAccreditations(), locale).join(' · '), ts('trustAccred')].filter(Boolean).join(' — ')}</div>
             </div>
           </aside>
         </div>
@@ -332,8 +339,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             <h2>{ts('ctaTitleL3')} <em>{ts('ctaTitleL3Em')}</em></h2>
             <p>{ts('ctaBodyL3')}</p>
             <div className="cta-buttons">
-              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('ctaAboutTour')} <span className="cta-arrow" aria-hidden>→</span></Link>
-              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
+              <Link className="cta-btn cta-btn--primary" href={conciergeHref} rel={conciergeRel}>{ts('ctaAboutTour')} <span className="cta-arrow" aria-hidden>→</span></Link>
+              <a className="cta-btn cta-btn--ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
           </div>
         </div>
@@ -368,7 +375,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                 <div className="related-col">
                   <h3>{ts('fromJournal')}</h3>
                   {journal.slice(0, 3).map((j) => (
-                    <Link key={j._id} className="ritem" href={`/blog/${j.slug}`}>
+                    <Link key={j._id} className="ritem" href={j._type === 'guideArticle' ? guideHref(j) : `/blog/${j.slug}`}>
                       <span className="rt">{j.title}</span>
                     </Link>
                   ))}
@@ -405,6 +412,15 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         </div>
       </section>
 
+      <StickyBarProduct
+        product={{
+          slug: tour.slug,
+          title: tour.title,
+          type: tour.type ?? 'dayTour',
+          durationDays: tour.durationDays ?? null,
+          priceFromEur: typeof tour.priceFrom === 'number' ? tour.priceFrom : null,
+        }}
+      />
       <FloatingConcierge />
     </div>
   );

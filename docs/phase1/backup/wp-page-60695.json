@@ -1,0 +1,1304 @@
+{
+  "_createdAt": "2026-05-04T20:36:27Z",
+  "_id": "wp-page-60695",
+  "_rev": "djgbgtoqo7PDAdGRj9ag5a",
+  "_system": {
+    "base": {
+      "id": "wp-page-60695",
+      "rev": "4jxboK94xJN5bUSrjkQX9L"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:02:52Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "i4ww1iyje6sx",
+              "_type": "span",
+              "marks": [],
+              "text": "The Town Of "
+            },
+            {
+              "_key": "434g5cl0q8jk",
+              "_type": "span",
+              "marks": [
+                "yg4fl367kj4p"
+              ],
+              "text": "Marsa Alam"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "yg4fl367kj4p",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "1k2ecmuqjg33",
+              "_type": "span",
+              "marks": [],
+              "text": "Perched at the pivotal junction where the ancient road from "
+            },
+            {
+              "_key": "3m0qzmf2p2m0",
+              "_type": "span",
+              "marks": [
+                "1nxofdzxcx10"
+              ],
+              "text": "Edfu"
+            },
+            {
+              "_key": "xm7228fm14x4",
+              "_type": "span",
+              "marks": [],
+              "text": " converges with the Red Sea coast, Marsa Alam is a town steeped in history. Constructed during the Greek period under "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Ptolemy II"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", this route traverses through the Eastern Desert, past sites where the ancient Egyptians mined gold. The area is also celebrated for its intriguing rock inscriptions, dating back to the pre-dynastic era. These ancient graffiti, depicting ostrich hunting and various animals such as giraffes and cattle, offer a fascinating glimpse into "
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "000000000006"
+              ],
+              "text": "Egypt’s"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": " distant past."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://www.livius.org/articles/person/ptolemy-ii-philadelphus/",
+              "newTab": true
+            },
+            {
+              "_key": "000000000006",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/contact-us/"
+              },
+              "_type": "externalLink",
+              "href": "/contact",
+              "newTab": false
+            },
+            {
+              "_key": "1nxofdzxcx10",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58841",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "From Sleepy Village to Bustling Resort"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Once a tranquil fishing village, Marsa Alam has undergone a remarkable transformation. The advent of the Marsa Alam International Airport catalyzed a tourism boom, propelling this serene town into the limelight as one of "
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "00000000000d"
+              ],
+              "text": "Egypt’s"
+            },
+            {
+              "_key": "py1fffzx568e",
+              "_type": "span",
+              "marks": [],
+              "text": " fastest-growing holiday destinations. Poised to rival the popularity of famed resorts like "
+            },
+            {
+              "_key": "t49kuyk31q6v",
+              "_type": "span",
+              "marks": [
+                "e4lrwu7cvq1c"
+              ],
+              "text": "Sharm el Sheikh"
+            },
+            {
+              "_key": "wbemw1znlq0g",
+              "_type": "span",
+              "marks": [],
+              "text": " and "
+            },
+            {
+              "_key": "w3nuox8kbw68",
+              "_type": "span",
+              "marks": [
+                "wwptd2mkf798"
+              ],
+              "text": "Hurghada"
+            },
+            {
+              "_key": "lmtukjfbmmt5",
+              "_type": "span",
+              "marks": [],
+              "text": ", Marsa Alam owes much of its allure to its status as the gateway to some of the southern Red Sea’s most breathtaking dive sites. This has made it a magnet for diving and snorkeling enthusiasts from around the globe."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/abu-simble-travel-guide/qasr-ibrim/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/abu-simbel/qasr-ibrim",
+              "newTab": false
+            },
+            {
+              "_key": "e4lrwu7cvq1c",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58927",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "wwptd2mkf798",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "The Underrated Charm of Marsa Alam"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "Despite its growing popularity, Marsa Alam remains one of the region’s most underrated destinations. It is a "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "melting pot"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": " of cultures, home to hotel workers from across Egypt, local Bedouins, miners from nearby gold mines, and traders providing essential services. The town, conveniently located "
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "000000000017"
+              ],
+              "text": "near many regional hotels"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": ", offers a variety of shops selling both necessities and souvenirs, a reasonably priced market, and a selection of modest yet clean restaurants and cafes. The warmth and genuine friendliness of the "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "locals towards visitors"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " add to the town’s inviting atmosphere."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000014",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/port-said-travel-guide/melting-pot/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/port-said/port-said-historical-guide",
+              "newTab": false
+            },
+            {
+              "_key": "000000000017",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/sinai-desert-safaris/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/shinai-no-sabaku-o-aruku-hashiru-koeru",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/egyptian-museum-and-bazaar-tour/"
+              },
+              "_type": "externalLink",
+              "href": "/egyptian-museum-and-bazaar-tour",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "A Modern Town with a Lively Evening Pulse "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "While Marsa Alam may lack the architectural charm of more ancient Egyptian towns, it possesses a modern, functional beauty. During the heat of midday, the town often takes on the quietude of a ghost town, but as evening approaches and the temperature cools, it transforms. The streets come alive with the returning working population, creating a vibrant, lively atmosphere that contrasts with its daytime serenity."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/pascal-van-de-vendel-CNdMGaVEozQ-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Colorful fish swimming among coral and anemones on a reef"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Nature's underwater mosaic in brilliant colors"
+            }
+          ]
+        },
+        {
+          "_key": "000000000023",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/geoff-trodd-7lsPi2Znk_M-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up image of a colorful underwater reef with tiny fish and marine life"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Marine tapestry - where life thrives in a mosaic of coral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "9g0rzc8vh9qs",
+              "_type": "span",
+              "marks": [],
+              "text": "La ciudad de "
+            },
+            {
+              "_key": "24c005lw1acf",
+              "_type": "span",
+              "marks": [
+                "vsl64a3jmn1g"
+              ],
+              "text": "Marsa Alam"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "vsl64a3jmn1g",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "33go9cf90q7p",
+              "_type": "span",
+              "marks": [],
+              "text": "Enclavada en el cruce donde la antigua carretera de "
+            },
+            {
+              "_key": "2aiz0x9jt1gt",
+              "_type": "span",
+              "marks": [
+                "g5fpdlr6or0z"
+              ],
+              "text": "Edfu"
+            },
+            {
+              "_key": "y6aphyha86vm",
+              "_type": "span",
+              "marks": [],
+              "text": " converge con la costa del Mar Rojo, Marsa Alam es una ciudad cargada de historia."
+            },
+            {
+              "_key": "000000000003",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Construida durante el periodo griego bajo "
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "000000000005"
+              ],
+              "text": "Ptolomeo II"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": ", esta ruta atraviesa el Desierto Oriental, pasando por lugares donde los antiguos egipcios extraían oro."
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "La zona también es célebre por sus intrigantes inscripciones rupestres, que se remontan a la época predinástica."
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos antiguos graffiti, que representan la caza del avestruz y diversos animales como jirafas y ganado, ofrecen una fascinante visión del pasado remoto de "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "00000000000c"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000005",
+              "_type": "externalLink",
+              "href": "https://es.wikipedia.org/wiki/Ptolomeo_II",
+              "newTab": true
+            },
+            {
+              "_key": "00000000000c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/el-templo-de-amada",
+              "newTab": false
+            },
+            {
+              "_key": "g5fpdlr6or0z",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58841",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "De pueblo dormido a centro turístico bullicioso"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "Antaño un tranquilo pueblo de pescadores, "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "000000000013"
+              ],
+              "text": "Marsa Alam"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": " ha experimentado una notable transformación."
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "La "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "llegada del Aeropuerto"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " Internacional de Marsa Alam catalizó un auge del turismo, impulsando a esta serena ciudad hacia el centro de atención como uno de los destinos vacacionales egipcios de más rápido crecimiento."
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "A punto de rivalizar con la popularidad de famosos centros turísticos como "
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "00000000001d"
+              ],
+              "text": "Sharm el Sheij"
+            },
+            {
+              "_key": "yqstwen8kaip",
+              "_type": "span",
+              "marks": [],
+              "text": " y "
+            },
+            {
+              "_key": "bt64fne06084",
+              "_type": "span",
+              "marks": [
+                "x9gzjji4bhno"
+              ],
+              "text": "Hurghada"
+            },
+            {
+              "_key": "7vc2hkacz34x",
+              "_type": "span",
+              "marks": [],
+              "text": ", Marsa Alam debe gran parte de su atractivo a su condición de puerta de entrada a algunos de los lugares de buceo más impresionantes del sur del Mar Rojo."
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "Esto la ha convertido en un imán para los entusiastas del buceo y "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "el submarinismo de"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": " todo el mundo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000013",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/maravillas-marinas-aventura-de-snorkel-en-grupo-en-marsa-alam/"
+              },
+              "_type": "externalLink",
+              "href": "/es/dia-de-snorkel-privado-en-marsa-alam-arrecifes-del-mar-rojo-en-yate",
+              "newTab": false
+            },
+            {
+              "_key": "000000000018",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/llegada-sin-contratiempos-traslado-del-aeropuerto-de-el-cairo-al-hotel/"
+              },
+              "_type": "externalLink",
+              "href": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viajes-de-sharm-el-sheij/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viajes-de-sharm-el-sheij/",
+              "newTab": false
+            },
+            {
+              "_key": "x9gzjji4bhno",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "El subestimado encanto de Marsa Alam"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "A pesar de su creciente popularidad, Marsa Alam sigue siendo uno de "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "000000000029"
+              ],
+              "text": "los destinos más"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": " infravalorados de la región."
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Es un crisol de culturas, hogar de trabajadores de hoteles de todo Egipto, beduinos locales, mineros de las cercanas minas de oro y comerciantes que prestan servicios esenciales."
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "La ciudad, convenientemente situada "
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [
+                "000000000030"
+              ],
+              "text": "cerca de muchos hoteles"
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": " regionales, ofrece una variedad de tiendas que venden tanto artículos de primera necesidad como recuerdos, un mercado a precios razonables y una selección de restaurantes y cafés modestos pero limpios."
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "La calidez y genuina amabilidad de los "
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "000000000035"
+              ],
+              "text": "lugareños hacia los visitantes"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": " contribuyen a la atmósfera acogedora de la ciudad."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000029",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-kom-ombo/mas-alla-de-los-templos/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-kom-ombo/mas-alla-de-los-templos/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000030",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/alojamientos-diversos/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/alejandria/donde-alojarse-en-alejandria",
+              "newTab": false
+            },
+            {
+              "_key": "000000000035",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/vacaciones-inolvidables-en-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "Una ciudad moderna con un animado pulso nocturno "
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "Aunque Marsa Alam carezca del encanto arquitectónico de otras "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "00000000003c"
+              ],
+              "text": "ciudades egipcias"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " más antiguas, posee una belleza moderna y funcional."
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "Durante el calor del mediodía, la ciudad adquiere a menudo la quietud de un pueblo fantasma, pero cuando se acerca la noche y la temperatura se enfría, se transforma."
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "Las calles cobran vida con el regreso de la población trabajadora, creando un ambiente vibrante y animado que contrasta con su serenidad diurna."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/distancia-entre-ciudades-egipcias/"
+              },
+              "_type": "externalLink",
+              "href": "/es/travel-tips/distancias-entre-las-ciudades-de-egipto-una-guia-practica",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 23 de Séptiembre, 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "x00f5u8k8k6c",
+              "_type": "span",
+              "marks": [
+                "bkp9iio02yvw"
+              ],
+              "text": "マルサ・アラム"
+            },
+            {
+              "_key": "p2rpkayq3eca",
+              "_type": "span",
+              "marks": [],
+              "text": "の町"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "bkp9iio02yvw",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58885",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "438lpm2kxmy1",
+              "_type": "span",
+              "marks": [
+                "v8qphh30xkda"
+              ],
+              "text": "エドフ"
+            },
+            {
+              "_key": "ne8dnn0g4qvm",
+              "_type": "span",
+              "marks": [],
+              "text": "から紅海沿岸へと続く古代の道の要所に位置するマルサ・アラム。この町は、歴史が息づく特別な場所です。プトレマイオス2世の時代、ギリシャ期に建設されたこのルートは、東部砂漠を横断し、古代エジプト人が金を採掘した場所を通り抜けます。また、この地域は先王朝時代にまで遡る興味深い岩面刻文でも有名です。これらの古代の落書きには、ダチョウ狩りやキリン、ウシといった動物が描かれており、エジプトの遥かなる過去を垣間見る貴重な手掛かりとなっています。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "v8qphh30xkda",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58841",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "静かな村から賑やかなリゾートへ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "pdaw9m3ort5g",
+              "_type": "span",
+              "marks": [],
+              "text": "かつて穏やかな漁村だったマルサ・アラムは、驚くべき変貌を遂げました。マルサ・アラム国際空港の開設が観光ブームを引き起こし、この静かな町はエジプトで最も成長著しい観光地の一つとして脚光を浴びることとなりました。"
+            },
+            {
+              "_key": "7fzd9f0y99di",
+              "_type": "span",
+              "marks": [
+                "m3g6tz5fn9je"
+              ],
+              "text": "シャルム・エル・シェイク"
+            },
+            {
+              "_key": "m6swm5s3k1bf",
+              "_type": "span",
+              "marks": [],
+              "text": "や"
+            },
+            {
+              "_key": "6gxyeb1vlug8",
+              "_type": "span",
+              "marks": [
+                "6blry2xjfs7g"
+              ],
+              "text": "ハルガダ"
+            },
+            {
+              "_key": "ku685ts2u5f3",
+              "_type": "span",
+              "marks": [],
+              "text": "といった有名リゾートに匹敵する人気を誇るマルサ・アラム。その魅力の多くは、南部紅海の息を呑むようなダイビングスポットへの玄関口という地位にあります。これにより、世界中のダイビング愛好者やシュノーケリング愛好者を惹きつける一大拠点となっています。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "m3g6tz5fn9je",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58927",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "6blry2xjfs7g",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58859",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサ・アラムの秘められた魅力"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサ・アラムは、その人気が高まりつつある一方で、今もなお地域で最も過小評価されている目的地の一つです。この町は、エジプト各地から集まったホテルスタッフ、地元のベドウィン族、近隣の金鉱で働く鉱夫、そして必要なサービスを提供する商人たちが共存する文化の交差点です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "地域の多くのホテルに近接する便利なロケーションに位置するマルサ・アラムの町は、日用品からお土産までを取り扱うさまざまなショップ、手頃な価格の市場、そして質素ながら清潔なレストランやカフェが揃っています。訪れる人々に対する地元の人々の温かさと真心のこもった親しみやすさが、この町の魅力を一層引き立てています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "活気あふれる夜の顔を持つ現代的な町"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "マルサ・アラムには古代エジプトの町のような歴史的建築美はないものの、現代的で実用的な美しさが備わっています。真昼の暑さの中では、町全体がまるでゴーストタウンのような静けさをまといますが、夕方になると状況は一変します。気温が下がるにつれ、仕事を終えた人々が次々と戻り、街路が活気に満ちた賑やかな空間へと変わります。このように、昼間の静寂とは対照的な、躍動感あふれる雰囲気を体感することができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": " 更新日：2025年3月23日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A Red Sea coral reef with orange anthias fish and a butterflyfish among hard and soft corals"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Un arrecife de coral del mar Rojo con peces anthias naranjas y un pez mariposa entre corales"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "オレンジ色のハナダイやチョウチョウウオが泳ぐ紅海のサンゴ礁"
+      }
+    ],
+    "asset": {
+      "_ref": "image-a382d7c939cdd681d5f006e1cb6bb5e9bab1be1d-1400x930-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Shoals of orange anthias flit over a vivid Red Sea coral reef in sunlit blue water."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Bancos de anthias naranjas revolotean sobre un vivo arrecife del mar Rojo iluminado por el sol."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "陽光の差す青い海で、オレンジ色のハナダイの群れが色鮮やかな紅海のサンゴ礁を舞う。"
+      }
+    ]
+  },
+  "kind": "attraction",
+  "migration": {
+    "migratedAt": "2026-05-05T12:56:27.873Z",
+    "reviewFlag": "section-needs-assignment",
+    "source": "wp-import",
+    "wpId": 60695,
+    "wpModifiedAt": "2026-03-06T23:26:49",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/the-town-of-marsa-alam/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58885",
+    "_type": "reference"
+  },
+  "section": "places-to-go",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "the-town-of-marsa-alam"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "la-ciudad-de-marsa-alam"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "marusaaramu-no-machi"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "The Town Of Marsa Alam Perched at the pivotal junction where the ancient road from Edfu converges with the Red Sea coast, Marsa Alam is a town steeped in history. Constructed during the Greek period under Ptolemy II, this route traverses th"
+    },
+    {
+      "_key": "es",
+      "value": "La ciudad de Marsa Alam Enclavada en el cruce donde la antigua carretera de Edfu converge con la costa del Mar Rojo, Marsa Alam es una ciudad cargada de historia.Construida durante el periodo griego bajo Ptolomeo II, esta ruta atraviesa el "
+    },
+    {
+      "_key": "ja",
+      "value": "マルサ・アラムの町 エドフから紅海沿岸へと続く古代の道の要所に位置するマルサ・アラム。この町は、歴史が息づく特別な場所です。プトレマイオス2世の時代、ギリシャ期に建設されたこのルートは、東部砂漠を横断し、古代エジプト人が金を採掘した場所を通り抜けます。また、この地域は先王朝時代にまで遡る興味深い岩面刻文でも有名です。これらの古代の落書きには、ダチョウ狩りやキリン、ウシといった動物が描かれており、エジプトの遥かなる過去を垣間見る貴重な手掛かりとなっています。 静かな村から賑やか"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "The Town of Marsa Alam"
+    },
+    {
+      "_key": "es",
+      "value": "La ciudad de Marsa Alam"
+    },
+    {
+      "_key": "ja",
+      "value": "マルサ・アラムの町"
+    }
+  ]
+}

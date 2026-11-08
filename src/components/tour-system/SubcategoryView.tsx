@@ -11,9 +11,13 @@ import { bucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
 import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
+import { LandingFaq, type LandingFaqItem } from './LandingFaq';
 import { FloatingConcierge } from '../FloatingConcierge';
+import '@/styles/tour-system.css';
 
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
 
 interface RawTour {
   _id: string;
@@ -36,6 +40,7 @@ interface MoodCard {
 }
 
 export interface SubcategoryDoc {
+  faq?: LandingFaqItem[];
   _id: string;
   title: string;
   slug: string;
@@ -64,7 +69,7 @@ export interface SubcategoryDoc {
     effort?: Array<{ label?: string; value?: string }>;
   } | null;
   tourPresentation?: Array<{ tourId?: string; label?: string; featured?: boolean; why?: string }> | null;
-  journalRefs?: Array<{ _id: string; _type?: string; title?: string; slug?: string; summary?: string; kicker?: string }> | null;
+  journalRefs?: Array<{ _id: string; _type?: string; title?: string; slug?: string; summary?: string; kicker?: string; parentCity?: { slug?: string } | null }> | null;
   tours?: RawTour[];
 }
 
@@ -77,6 +82,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
   const t = await getTranslations('subcategory');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+  const waHref = `${WHATSAPP}?text=${encodeURIComponent(ts('waLandingText', { title: doc.title }))}`;
 
   // Concierge CTA rides the site's one lever (CHAT_ENABLED).
   const conciergeHref = isChatEnabled() ? '/plan-your-tour' : '/contact';
@@ -88,6 +94,18 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
   const trackLabel = isGroup ? t('trackGroup') : t('trackPrivate');
   const heroKicker = isGroup ? t('heroKickerGroup') : t('heroKickerPrivate');
   const cityName = doc.destinationCity?.name ?? '';
+  // s47 audit (2026-08-18): the city×track landings had no structured data.
+  // Breadcrumb mirrors the visible crumb (hub level linked to the track hub).
+  const hubPath = isGroup ? '/group-day-tours' : '/private-day-tours';
+  const breadcrumbSchema = buildBreadcrumbList(
+    [
+      { name: tNav('home'), path: '/' },
+      { name: trackLabel, path: hubPath },
+      { name: doc.title, path: `/${doc.slug}` },
+    ],
+    locale,
+  );
+  const itemListSchema = buildItemListSchema(doc.tours ?? [], locale);
   const citySlug = doc.destinationCity?.slug ?? '';
   const heroImage = doc.heroImage ?? doc.destinationCity?.heroImage ?? null;
 
@@ -169,6 +187,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
 
   return (
     <div className="tour-doc lvl-subcategory">
+      <JsonLd data={[breadcrumbSchema, itemListSchema]} />
       <header className="hero">
         <div className="bg">
           <JourneyImage
@@ -346,7 +365,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
               </div>
               <div className="journal-grid">
                 {journal.slice(0, 3).map((j) => {
-                  const href = j._type === 'guideArticle' ? `/guide/${j.slug}` : `/blog/${j.slug}`;
+                  const href = j._type === 'guideArticle' ? (j.parentCity?.slug ? `/guide/${j.parentCity.slug}/${j.slug}` : `/guide/${j.slug}`) : `/blog/${j.slug}`;
                   return (
                     <Link key={j._id} href={href}>
                       {j.kicker && <small>{j.kicker}</small>}
@@ -368,7 +387,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
               <p>{ts('ctaBodyL2')}</p>
               <div className="cta-actions">
                 <Link className="btn btn-primary" href={conciergeHref}>{doc.ctaContext || ts('ctaAskConcierge')} <span className="cta-arrow" aria-hidden>→</span></Link>
-                <a className="btn btn-ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
+                <a className="btn btn-ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
               </div>
             </div>
             <div className="quiz">
@@ -405,6 +424,8 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
             </div>
           </div>
         </section>
+
+        <LandingFaq items={doc.faq} locale={locale} />
       </main>
 
       <FloatingConcierge />

@@ -1,0 +1,1445 @@
+{
+  "_createdAt": "2026-05-04T20:37:16Z",
+  "_id": "wp-page-60536",
+  "_rev": "PUXUI6sshIht1BONydQBDE",
+  "_system": {
+    "base": {
+      "id": "wp-page-60536",
+      "rev": "foUqbMWmQeVyxrmYihaB8Z"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:02:20Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "15414jwg3cqe",
+              "_type": "span",
+              "marks": [],
+              "text": "Discovering "
+            },
+            {
+              "_key": "e8duarhm4uvm",
+              "_type": "span",
+              "marks": [
+                "8pkymgyxhnzv"
+              ],
+              "text": "the White Monastery"
+            },
+            {
+              "_key": "idp1nn5vz4w1",
+              "_type": "span",
+              "marks": [],
+              "text": ": A Historical Jewel Near "
+            },
+            {
+              "_key": "cz0p93whooaf",
+              "_type": "span",
+              "marks": [
+                "yl475gcibda0"
+              ],
+              "text": "Sohag"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "8pkymgyxhnzv",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.sohag.the-white-monastery",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "yl475gcibda0",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58937",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "For those visiting Sohag, a trip to the White Monastery is an essential experience, showcasing a significant chapter in Egypt’s Christian heritage."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Location and Historical Significance"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Situated 12km Northwest of Sohag"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": ": The "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "White Monastery"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ", perched on rocky terrain above the old flood level of the Nile, is a site of immense historical and spiritual significance."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000008",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/sohag-travel-guide/the-white-monastery/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/sohag/the-white-monastery",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Founded Around AD 400"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": ": Established by St. Shenouda, the monastery was dedicated to his mentor, St. Bigol. It’s a symbol of the transition from Egypt’s pagan past to its Christian era."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "Architectural Marvel with Ancient Echoes"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Reuse of Pharaonic Materials"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": ": The monastery is notable for its use of white limestone, repurposed from Pharaonic temples. This unique feature allows visitors to glimpse ancient gods and hieroglyphs on some of the blocks, creating a fascinating blend of ancient Egyptian and Christian symbolism."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Once a Thriving Monastic Community"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": ": In its heyday, the monastery was the center of a vast monastic community and housed Egypt’s largest library. Today, the manuscripts are dispersed globally, and the monastery serves as a home to 23 monks."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Structural Features and Artistic Treasures"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Fortress-like Walls and Ruined Interiors"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Despite its fortress-like walls, much of the monastery’s interior lies in ruins. However, the church’s basic structure, following a basilica plan with a nave, two side aisles, and a triple apse, is still discernible."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Intact Nave and Apse"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": ": The intact nave and apses are adorned with beautiful domes, featuring artistic representations of the Dormition of the Virgin and Christ Pantocrator."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Columns with a Story"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": ": Nineteen columns, sourced from an earlier structure, gracefully separate the side chapels from the nave, each telling a story of the monastery’s evolution through time."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "A Living Place of Worship"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Early Morning Services"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": ": Visitors with a desire to participate in religious services can arrive as early as 4 am. This early start offers a serene and profound experience, connecting guests with the monastery’s spiritual rhythm."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "Visiting the White Monastery near Sohag is more than just a tour; it’s a journey through time, where the echoes of ancient Egypt and the early Christian era converge in a remarkable architectural and spiritual legacy."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/sohag.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Sohag city skyline with modern buildings and traditional architecture under clear sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "A blend of contemporary structures and classic Egyptian design in a bustling city center"
+            }
+          ]
+        },
+        {
+          "_key": "00000000002a",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/14cf450467039575de2cd264e1e4648d.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Shafts of sunlight illuminating the vibrant ancient hieroglyphs and carvings on the stone walls between large columns in an Egyptian temple"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Sunlight bridges millennia, casting a serene glow over the enduring legacy of Egyptian hieroglyphics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "708ihgbe145a",
+              "_type": "span",
+              "marks": [],
+              "text": "Descubrir "
+            },
+            {
+              "_key": "b0b0iv8gklum",
+              "_type": "span",
+              "marks": [
+                "jeqkrxze22nb"
+              ],
+              "text": "el Monasterio Blanco"
+            },
+            {
+              "_key": "a6omquw0l0jb",
+              "_type": "span",
+              "marks": [],
+              "text": ": Una joya histórica cerca de "
+            },
+            {
+              "_key": "7ogcs00o3zej",
+              "_type": "span",
+              "marks": [
+                "7htej6meckqm"
+              ],
+              "text": "Sohag"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "jeqkrxze22nb",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.sohag.the-white-monastery",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "7htej6meckqm",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58937",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Para quienes visiten Sohag, un viaje al Monasterio Blanco es una experiencia esencial, que muestra un capítulo significativo del patrimonio cristiano de "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/es/programas-de-viaje-por-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/egypt-travel-packages",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Localización y significado histórico"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Situado a 12 km al noroeste de Sohag"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ": el Monasterio Blanco, encaramado en un terreno rocoso sobre el antiguo nivel de inundación del Nilo, es un lugar de inmenso significado histórico y espiritual."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Fundado hacia el año 400 d.C"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": ".: Fundado por San Shenouda, el monasterio se dedicó a su mentor, San Bigol."
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": " Es un símbolo de la transición del pasado pagano de Egipto a su era cristiana. "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "Maravilla arquitectónica con ecos antiguos"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Reutilización de materiales faraónicos"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": ": El monasterio "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "000000000015"
+              ],
+              "text": "destaca"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " por su uso de piedra caliza blanca, reutilizada de templos faraónicos."
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Esta característica única permite a los visitantes vislumbrar antiguos dioses y jeroglíficos en algunos de los bloques, creando una fascinante mezcla de antiguo simbolismo egipcio y cristiano."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000015",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "En otro "
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000001c"
+              ],
+              "text": "tiempo fue una"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " próspera comunidad monástica"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": ": En su apogeo, el monasterio fue el centro de una vasta comunidad monástica y albergó la mayor biblioteca de Egipto."
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "Hoy, "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "000000000022"
+              ],
+              "text": "los manuscritos están dispersos por"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": " todo el mundo, y el monasterio sirve de hogar a 23 monjes."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-tiempo-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/rosetta-rasheed/el-tiempo-en-rosetta-rashid-y-la-mejor-epoca-para-visitarla",
+              "newTab": false
+            },
+            {
+              "_key": "000000000022",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-al-quseir/navega-por-los-viajes/"
+              },
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-al-quseir/navega-por-los-viajes/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Características estructurales y tesoros artísticos"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Muros parecidos a los de una fortaleza e interiores en ruinas"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": ": A pesar de sus muros en forma de fortaleza, gran parte del interior "
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "00000000002a"
+              ],
+              "text": "del monasterio está"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": " en ruinas."
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "Sin embargo, la estructura básica de la iglesia, "
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "00000000002f"
+              ],
+              "text": "que sigue un plan"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " basilical con una nave, dos naves laterales y un ábside triple, sigue siendo discernible."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000002a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-suez/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/suez",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/planifica-tu-viaje/"
+              },
+              "_type": "externalLink",
+              "href": "/es/plan-your-tour",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nave y ábside intactos"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": ": La nave y los ábsides intactos están adornados con bellas cúpulas, con representaciones artísticas de la Dormición de la Virgen y Cristo Pantocrátor."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Columnas con historia"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": ": Diecinueve columnas, procedentes de una estructura anterior, separan con gracia las capillas laterales de la nave, y cada una cuenta una "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "historia de la evolución del"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " monasterio a lo largo del tiempo."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000038",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Un lugar de culto vivo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Servicios matutinos"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": ": Los "
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "000000000040"
+              ],
+              "text": "visitantes que deseen participar en"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": " los servicios religiosos pueden llegar a partir de las 4 de la madrugada."
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "Este comienzo temprano ofrece una experiencia serena y profunda, que conecta a los huéspedes "
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "000000000045"
+              ],
+              "text": "con el ritmo espiritual del"
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": " monasterio."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000040",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/vacaciones-inolvidables-en-egipto",
+              "newTab": false
+            },
+            {
+              "_key": "000000000045",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/ritmos-del-nilo-el-cairo-cena-crucero-con-danza-del-vientre/"
+              },
+              "_type": "externalLink",
+              "href": "/es/cena-crucero-por-el-nilo-en-el-cairo-con-danza-oriental",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "Visitar el Monasterio Blanco, cerca de Sohag, es algo más que una excursión; es "
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [
+                "00000000004a"
+              ],
+              "text": "un viaje en el tiempo"
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": ", donde los ecos del antiguo Egipto y de la primera era cristiana convergen en un notable legado arquitectónico y espiritual."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/itinerario-definitivo-de-8-dias-por-egipto-un-viaje-en-el-tiempo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/itinerario-definitivo-de-8-dias-por-egipto-un-viaje-en-el-tiempo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2025"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": " 「ホワイトモナステリーの発見：ソハグ近郊の歴史的な宝石」"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "dmk41f4uemio",
+              "_type": "span",
+              "marks": [],
+              "text": "ソハグを訪れる際、"
+            },
+            {
+              "_key": "dfngv4kafxxj",
+              "_type": "span",
+              "marks": [
+                "it3wufxnsdrc"
+              ],
+              "text": "白修道院"
+            },
+            {
+              "_key": "hikn03g6khhn",
+              "_type": "span",
+              "marks": [],
+              "text": "への訪問は必見の体験であり、エジプトのキリスト教遺産における重要な一章を示しています。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "it3wufxnsdrc",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.sohag.the-white-monastery",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "所在地と歴史的意義"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "ソハグの北西12kmに位置：ナイル川の古い氾濫原の上の岩場に建つ白修道院は、非常に重要な歴史的および霊的な意味を持つ場所です。"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": " 紀元400年頃に創設：聖シェヌダによって設立され、修道院は彼の師である聖ビゴルに捧げられました。これは、エジプトの異教徒の過去からキリスト教時代への移行を象徴しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "古代の響きを持つ建築の驚異"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "ファラオ時代の材料の再利用：この修道院は、ファラオの神殿から再利用された白い石灰岩の使用で注目されています。このユニークな特徴により、訪問者は一部の石ブロックに刻まれた古代の神々やヒエログリフを見ることができ、古代エジプトとキリスト教のシンボリズムが融合した魅力的な光景を楽しむことができます。"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": " かつて繁栄した修道院の共同体：修道院が最盛期を迎えた時期には、広大な修道院共同体の中心となり、エジプト最大の図書館が収められていました。今日では、その手稿は世界中に散らばり、修道院は23人の修道士の住まいとなっています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "構造的特徴と芸術的宝物"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "要塞のような壁と崩れた内部：要塞のような壁を持つものの、修道院の内部の多くは廃墟となっています。しかし、教会の基本的な構造は依然として識別可能で、バシリカ形式の計画に従い、中央廊、両側の通路、三重の半円形の後陣があります。"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": " 保存状態の良い中央廊と後陣：保存状態の良い中央廊と後陣は美しいドームで飾られており、聖母の昇天とキリスト・パンソクラトルの芸術的表現が描かれています。"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": " 物語を語る柱たち：以前の構造から持ち込まれた19本の柱が、中央廊と側廊を優雅に分けており、修道院の時を経ての変遷を物語っています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "生きた礼拝の場所"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "早朝のサービス：宗教的なサービスに参加したい訪問者は、午前4時には到着することができます。この早朝のスタートは、静かで深い体験を提供し、ゲストと修道院の霊的なリズムを結びつけます。"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " ソハグ近くの白修道院を訪れることは、単なる観光ではありません。それは時を超えた旅であり、古代エジプトと初期のキリスト教時代の響きが、素晴らしい建築的および霊的な遺産として交差する場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日：2024年8月"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Ancient Egyptian temple ruins of pale limestone under a blue sky, with inscribed fallen blocks"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Ruinas de un templo del antiguo Egipto en piedra caliza clara bajo un cielo azul, con bloques caídos inscritos"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "青空の下、淡い石灰岩の古代エジプト神殿の遺跡。碑文の刻まれた崩れた石材が並ぶ"
+      }
+    ],
+    "asset": {
+      "_ref": "image-d51de52ad85f6b288a36caa27a06133bc2a2c4b6-800x450-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Weathered limestone blocks and a columned facade stand among ancient temple ruins under open sky."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Bloques de caliza erosionados y una fachada con columnas se alzan entre las ruinas de un templo antiguo."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "風化した石灰岩の石材と列柱の正面が、青空の下の古代神殿の遺跡に残る。"
+      }
+    ]
+  },
+  "kind": "tours",
+  "migration": {
+    "migratedAt": "2026-05-05T12:57:25.520Z",
+    "source": "wp-import",
+    "wpId": 60536,
+    "wpModifiedAt": "2026-04-15T03:03:15",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/things-to-do-in-sohag/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58937",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "things-to-do-in-sohag"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "actividades-en-sohag"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "sohagu-no-akutibiti"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Discovering the White Monastery: A Historical Jewel Near Sohag For those visiting Sohag, a trip to the White Monastery is an essential experience, showcasing a significant chapter in Egypt s Christian heritage. Location and Historical Signi"
+    },
+    {
+      "_key": "es",
+      "value": "Descubrir el Monasterio Blanco: Una joya histórica cerca de Sohag Para quienes visiten Sohag, un viaje al Monasterio Blanco es una experiencia esencial, que muestra un capítulo significativo del patrimonio cristiano de Egipto. Localización "
+    },
+    {
+      "_key": "ja",
+      "value": "「ホワイトモナステリーの発見：ソハグ近郊の歴史的な宝石」 ソハグを訪れる際、白修道院への訪問は必見の体験であり、エジプトのキリスト教遺産における重要な一章を示しています。 所在地と歴史的意義 ソハグの北西12kmに位置：ナイル川の古い氾濫原の上の岩場に建つ白修道院は、非常に重要な歴史的および霊的な意味を持つ場所です。 紀元400年頃に創設：聖シェヌダによって設立され、修道院は彼の師である聖ビゴルに捧げられました。これは、エジプトの異教徒の過去からキリスト教時代への移行を象徴し"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Things To Do In Sohag"
+    },
+    {
+      "_key": "es",
+      "value": "Actividades en Sohag"
+    },
+    {
+      "_key": "ja",
+      "value": "ソハーグのアクティビティ"
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import type { Locale } from '@/i18n/routing';
 import { Body } from '@/components/Body';
 
 import { FaqHashOpener } from './FaqHashOpener';
+import { whatsappUrl } from '@/lib/concierge/constants';
 
 interface FaqEntry {
   _id: string;
@@ -24,9 +25,7 @@ interface Props {
   categories: FaqCategory[];
 }
 
-const WHATSAPP_HREF =
-  'https://wa.me/201158011600?text=' +
-  encodeURIComponent('Hi Travel2Egypt, I have a question about planning a trip.');
+const WHATSAPP_HREF = whatsappUrl('Hi Travel2Egypt, I have a question about planning a trip.');
 
 /** Derive a stable anchor id from question text — faqEntry has no slug field. */
 function anchorId(text: string): string {
@@ -66,17 +65,18 @@ export function FaqPage({ locale, categories }: Props) {
       {/* Intro */}
       <section className="mx-auto max-w-3xl px-6 pt-12">
         <p className="text-base leading-relaxed text-ink-soft">
-          For deeper guidance on specific topics — transportation, regional
-          itineraries, what to eat — see our{' '}
-          <Link href="/travel-tips" className="text-orange underline underline-offset-2">
-            Travel Tips
-          </Link>{' '}
-          and{' '}
-          <Link href="/guide" className="text-orange underline underline-offset-2">
-            Travel Guide
-          </Link>{' '}
-          sections. For questions about your own trip, the fastest path is to
-          write us directly — we respond within hours, seven days a week.
+          {t.rich('intro', {
+            tipsLink: (chunks) => (
+              <Link href="/travel-tips" className="text-orange underline underline-offset-2">
+                {chunks}
+              </Link>
+            ),
+            guideLink: (chunks) => (
+              <Link href="/guide" className="text-orange underline underline-offset-2">
+                {chunks}
+              </Link>
+            ),
+          })}
         </p>
       </section>
 

@@ -1,0 +1,70 @@
+from_url,to_path,locale,status_code,old_category_id,old_name,split
+/blog/category/adventure,/blog/category/desert-oases-and-sinai,en,301,wp-category-381,Adventure,DESERT:5; NILE:2; REDSEA:1; PLAN:1; SITES:1; CITY:1
+/es/blog/category/adventure,/es/blog/category/desierto-oasis-y-sinai,es,301,wp-category-381,Adventure,DESERT:5; NILE:2; REDSEA:1; PLAN:1; SITES:1; CITY:1
+/ja/blog/category/adventure,/ja/blog/category/desert-oases-and-sinai,ja,301,wp-category-381,Adventure,DESERT:5; NILE:2; REDSEA:1; PLAN:1; SITES:1; CITY:1
+/blog/category/coptic-monuments,/blog/category/cairo-and-the-cities,en,301,wp-category-355,Coptic Monuments,CITY:1
+/es/blog/category/coptic-monuments,/es/blog/category/el-cairo-y-las-ciudades,es,301,wp-category-355,Coptic Monuments,CITY:1
+/ja/blog/category/coptic-monuments,/ja/blog/category/cairo-and-the-cities,ja,301,wp-category-355,Coptic Monuments,CITY:1
+/blog/category/creative,/blog/category/planning-and-itineraries,en,301,wp-category-19,Creative,PLAN:1; HIST:1
+/es/blog/category/creative,/es/blog/category/planificacion-e-itinerarios,es,301,wp-category-19,Creative,PLAN:1; HIST:1
+/ja/blog/category/creative,/ja/blog/category/planning-and-itineraries,ja,301,wp-category-19,Creative,PLAN:1; HIST:1
+/blog/category/culture,/blog/category/culture-and-food,en,301,wp-category-77,Culture,CULT:2; CITY:2; PLAN:2; HIST:1; PRAC:1
+/es/blog/category/culture,/es/blog/category/cultura-y-gastronomia,es,301,wp-category-77,Culture,CULT:2; CITY:2; PLAN:2; HIST:1; PRAC:1
+/ja/blog/category/culture,/ja/blog/category/culture-and-food,ja,301,wp-category-77,Culture,CULT:2; CITY:2; PLAN:2; HIST:1; PRAC:1
+/blog/category/destination,/blog,en,301,category-destination,Destination,(no staying posts)
+/es/blog/category/destino,/es/blog,es,301,category-destination,Destination,(no staying posts)
+/ja/blog/category/destination,/ja/blog,ja,301,category-destination,Destination,(no staying posts)
+/blog/category/destination-depth,/blog/category/cairo-and-the-cities,en,301,category-destination-depth,Destination Depth,CITY:1; PLAN:1
+/es/blog/category/destination-depth,/es/blog/category/el-cairo-y-las-ciudades,es,301,category-destination-depth,Destination Depth,CITY:1; PLAN:1
+/ja/blog/category/destination-depth,/ja/blog/category/cairo-and-the-cities,ja,301,category-destination-depth,Destination Depth,CITY:1; PLAN:1
+/blog/category/egypt-travel-guide,/blog/category/planning-and-itineraries,en,301,wp-category-94,Egypt Travel Guide,PLAN:12
+/es/blog/category/egypt-travel-guide,/es/blog/category/planificacion-e-itinerarios,es,301,wp-category-94,Egypt Travel Guide,PLAN:12
+/ja/blog/category/egypt-travel-guide,/ja/blog/category/planning-and-itineraries,ja,301,wp-category-94,Egypt Travel Guide,PLAN:12
+/blog/category/food,/blog/category/culture-and-food,en,301,wp-category-693,Food,CULT:1
+/es/blog/category/food,/es/blog/category/cultura-y-gastronomia,es,301,wp-category-693,Food,CULT:1
+/ja/blog/category/food,/ja/blog/category/culture-and-food,ja,301,wp-category-693,Food,CULT:1
+/blog/category/history,/blog/category/history-and-egyptology,en,301,wp-category-72,History,HIST:6; SITES:2; CULT:2; CITY:1; NILE:1; DESERT:1
+/es/blog/category/history,/es/blog/category/historia-y-egiptologia,es,301,wp-category-72,History,HIST:6; SITES:2; CULT:2; CITY:1; NILE:1; DESERT:1
+/ja/blog/category/history,/ja/blog/category/history-and-egyptology,ja,301,wp-category-72,History,HIST:6; SITES:2; CULT:2; CITY:1; NILE:1; DESERT:1
+/blog/category/hotels,/blog/category/planning-and-itineraries,en,301,wp-category-1,Hotels,PLAN:2; CITY:1; DESERT:1
+/es/blog/category/hotels,/es/blog/category/planificacion-e-itinerarios,es,301,wp-category-1,Hotels,PLAN:2; CITY:1; DESERT:1
+/ja/blog/category/hotels,/ja/blog/category/planning-and-itineraries,ja,301,wp-category-1,Hotels,PLAN:2; CITY:1; DESERT:1
+/blog/category/islamic-monuments,/blog/category/cairo-and-the-cities,en,301,wp-category-354,Islamic Monuments,CITY:3; SITES:1
+/es/blog/category/islamic-monuments,/es/blog/category/el-cairo-y-las-ciudades,es,301,wp-category-354,Islamic Monuments,CITY:3; SITES:1
+/ja/blog/category/islamic-monuments,/ja/blog/category/cairo-and-the-cities,ja,301,wp-category-354,Islamic Monuments,CITY:3; SITES:1
+/blog/category/lifestyle,/blog/category/planning-and-itineraries,en,301,wp-category-20,Lifestyle,PLAN:1; CULT:1
+/es/blog/category/lifestyle,/es/blog/category/planificacion-e-itinerarios,es,301,wp-category-20,Lifestyle,PLAN:1; CULT:1
+/ja/blog/category/lifestyle,/ja/blog/category/planning-and-itineraries,ja,301,wp-category-20,Lifestyle,PLAN:1; CULT:1
+/blog/category/luxury-stay,/blog,en,301,wp-category-76,Luxury Stay,CITY:1; DESERT:1; CULT:1
+/es/blog/category/luxury-stay,/es/blog,es,301,wp-category-76,Luxury Stay,CITY:1; DESERT:1; CULT:1
+/ja/blog/category/luxury-stay,/ja/blog,ja,301,wp-category-76,Luxury Stay,CITY:1; DESERT:1; CULT:1
+/blog/category/nile-cruise,/blog/category/the-nile,en,301,wp-category-360,Nile Cruise,NILE:3; PLAN:1
+/es/blog/category/nile-cruise,/es/blog/category/el-nilo,es,301,wp-category-360,Nile Cruise,NILE:3; PLAN:1
+/ja/blog/category/nile-cruise,/ja/blog/category/the-nile,ja,301,wp-category-360,Nile Cruise,NILE:3; PLAN:1
+/blog/category/pharaoh-monuments,/blog/category/sites-and-monuments,en,301,wp-category-356,Pharaoh Monuments,SITES:3; HIST:2
+/es/blog/category/pharaoh-monuments,/es/blog/category/sitios-y-monumentos,es,301,wp-category-356,Pharaoh Monuments,SITES:3; HIST:2
+/ja/blog/category/pharaoh-monuments,/ja/blog/category/sites-and-monuments,ja,301,wp-category-356,Pharaoh Monuments,SITES:3; HIST:2
+/blog/category/places-in-egypt,/blog/category/cairo-and-the-cities,en,301,wp-category-73,Places in Egypt,CITY:3; DESERT:1; PLAN:1; REDSEA:1
+/es/blog/category/places-in-egypt,/es/blog/category/el-cairo-y-las-ciudades,es,301,wp-category-73,Places in Egypt,CITY:3; DESERT:1; PLAN:1; REDSEA:1
+/ja/blog/category/places-in-egypt,/ja/blog/category/cairo-and-the-cities,ja,301,wp-category-73,Places in Egypt,CITY:3; DESERT:1; PLAN:1; REDSEA:1
+/blog/category/planning,/blog/category/planning-and-itineraries,en,301,category-planning,Planning,(no staying posts)
+/es/blog/category/planificacion,/es/blog/category/planificacion-e-itinerarios,es,301,category-planning,Planning,(no staying posts)
+/ja/blog/category/planning,/ja/blog/category/planning-and-itineraries,ja,301,category-planning,Planning,(no staying posts)
+/blog/category/planning-advice,/blog/category/planning-and-itineraries,en,301,category-planning-advice,Planning Advice,(no staying posts)
+/es/blog/category/planning-advice,/es/blog/category/planificacion-e-itinerarios,es,301,category-planning-advice,Planning Advice,(no staying posts)
+/ja/blog/category/planning-advice,/ja/blog/category/planning-and-itineraries,ja,301,category-planning-advice,Planning Advice,(no staying posts)
+/blog/category/safety,/blog/category/practical-egypt,en,301,wp-category-78,Safety,(no staying posts)
+/es/blog/category/safety,/es/blog/category/egipto-practico,es,301,wp-category-78,Safety,(no staying posts)
+/ja/blog/category/safety,/ja/blog/category/practical-egypt,ja,301,wp-category-78,Safety,(no staying posts)
+/blog/category/things-to-do,/blog/category/planning-and-itineraries,en,301,wp-category-75,Things to Do,PLAN:2; REDSEA:1
+/es/blog/category/things-to-do,/es/blog/category/planificacion-e-itinerarios,es,301,wp-category-75,Things to Do,PLAN:2; REDSEA:1
+/ja/blog/category/things-to-do,/ja/blog/category/planning-and-itineraries,ja,301,wp-category-75,Things to Do,PLAN:2; REDSEA:1
+/blog/category/tips-tricks,/blog/category/practical-egypt,en,301,wp-category-21,Tips & Tricks,PRAC:3; SITES:2; PLAN:2
+/es/blog/category/tips-tricks,/es/blog/category/egipto-practico,es,301,wp-category-21,Tips & Tricks,PRAC:3; SITES:2; PLAN:2
+/ja/blog/category/tips-tricks,/ja/blog/category/practical-egypt,ja,301,wp-category-21,Tips & Tricks,PRAC:3; SITES:2; PLAN:2
+/blog/category/tours,/blog/category/planning-and-itineraries,en,301,wp-category-74,Tours,PLAN:14; HIST:8; SITES:5; NILE:4; PRAC:3; REDSEA:2; CITY:1; DESERT:1
+/es/blog/category/tours,/es/blog/category/planificacion-e-itinerarios,es,301,wp-category-74,Tours,PLAN:14; HIST:8; SITES:5; NILE:4; PRAC:3; REDSEA:2; CITY:1; DESERT:1
+/ja/blog/category/tours,/ja/blog/category/planning-and-itineraries,ja,301,wp-category-74,Tours,PLAN:14; HIST:8; SITES:5; NILE:4; PRAC:3; REDSEA:2; CITY:1; DESERT:1
+/blog/category/wellness,/blog/category/desert-oases-and-sinai,en,301,wp-category-647,Wellness,DESERT:1
+/es/blog/category/wellness,/es/blog/category/desierto-oasis-y-sinai,es,301,wp-category-647,Wellness,DESERT:1
+/ja/blog/category/wellness,/ja/blog/category/desert-oases-and-sinai,ja,301,wp-category-647,Wellness,DESERT:1

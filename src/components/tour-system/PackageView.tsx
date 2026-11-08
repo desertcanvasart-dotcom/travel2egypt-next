@@ -1,4 +1,6 @@
 import { getTranslations } from 'next-intl/server';
+import { StickyBarProduct } from '@/components/leads/LeadProvider';
+import { accreditationItems, getAccreditations } from '@/lib/accreditations';
 import { PortableText } from '@portabletext/react';
 
 import { Link } from '@/i18n/navigation';
@@ -14,8 +16,9 @@ import { ConciergeOpenButton } from './ConciergeOpenButton';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '../FloatingConcierge';
 import { buildDepartures, type RawDeparture } from './departures';
+import '@/styles/tour-system.css';
 
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP, waTourTitle } from '@/lib/concierge/constants';
 
 interface CityRef { _id: string; name: string; slug: string }
 interface PackageDay {
@@ -70,12 +73,16 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const tNav = await getTranslations('nav');
   const tSub = await getTranslations('subcategory');
   const ts = await getTranslations('tourSystem');
+  const waHref = `${WHATSAPP}?text=${encodeURIComponent(ts('waTourText', { title: waTourTitle(tour.title) }))}`;
 
   // Concierge CTAs ride the site's one lever (CHAT_ENABLED): → /plan-your-tour
   // with this package's context when chat is live, → /contact fail-safe otherwise.
   const conciergeHref = isChatEnabled()
     ? `/plan-your-tour?tour=${encodeURIComponent(tour.slug)}`
     : '/contact';
+  // The ?tour= variants all canonicalise to /plan-your-tour; keep crawlers from
+  // following one per tour × locale (GSC "Alternate page with proper canonical").
+  const conciergeRel = isChatEnabled() ? 'nofollow' : undefined;
 
   const cityNames = (tour.cities ?? []).map((c) => c.name).filter(Boolean);
   const route = cityNames.join(' · ');
@@ -387,7 +394,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
             )}
 
             <p className="body-cta">
-              <Link href={conciergeHref}>{ts('planThis')} →</Link>
+              <Link href={conciergeHref} rel={conciergeRel}>{ts('planThis')} →</Link>
             </p>
           </article>
 
@@ -453,14 +460,14 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               )}
               <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
               <CurrencyNote note={ts('priceCurrencyNote')} />
-              <Link className="rail-cta" href={conciergeHref}>{ts('pkgPlanThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
-              <a className="rail-cta ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
+              <Link className="rail-cta" href={conciergeHref} rel={conciergeRel}>{ts('pkgPlanThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
+              <a className="rail-cta ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
 
             <div className="card">
               <span className="ck">{ts('whyBook')}</span>
               <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
-              <div className="accred">{ts('trustAccred')}</div>
+              <div className="accred">{[accreditationItems(await getAccreditations(), locale).join(' · '), ts('trustAccred')].filter(Boolean).join(' — ')}</div>
             </div>
           </aside>
         </div>
@@ -473,8 +480,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
             <h2>{ts('pkgCtaTitle')} <em>{ts('pkgCtaTitleEm')}</em></h2>
             <p>{ts('pkgCtaBody')}</p>
             <div className="cta-buttons">
-              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>{ts('pkgCtaAbout')} <span className="cta-arrow" aria-hidden>→</span></Link>
-              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
+              <Link className="cta-btn cta-btn--primary" href={conciergeHref} rel={conciergeRel}>{ts('pkgCtaAbout')} <span className="cta-arrow" aria-hidden>→</span></Link>
+              <a className="cta-btn cta-btn--ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
           </div>
         </div>
@@ -535,6 +542,15 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
         </div>
       </section>
 
+      <StickyBarProduct
+        product={{
+          slug: tour.slug,
+          title: tour.title,
+          type: tour.type ?? 'package',
+          durationDays: tour.durationDays ?? null,
+          priceFromEur: typeof tour.priceFrom === 'number' ? tour.priceFrom : null,
+        }}
+      />
       <FloatingConcierge />
     </div>
   );

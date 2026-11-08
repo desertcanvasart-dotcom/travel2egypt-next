@@ -1,0 +1,2079 @@
+{
+  "_createdAt": "2026-05-04T20:39:26Z",
+  "_id": "wp-page-60075",
+  "_rev": "u771oJL7tQyayKi2DUTq7p",
+  "_system": {
+    "base": {
+      "id": "wp-page-60075",
+      "rev": "iPsARNKARC3Pl1oe0HTvfz"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:03:07Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "mue8k91ib6xw",
+              "_type": "span",
+              "marks": [],
+              "text": "A Seasoned Traveler's Guide to Navigating "
+            },
+            {
+              "_key": "lvamvrxk3478",
+              "_type": "span",
+              "marks": [
+                "qwmpzx2oc50f"
+              ],
+              "text": "Giza"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "qwmpzx2oc50f",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58854",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "Giza, with its towering pyramids visible even from parts of "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", is a mesmerizing destination. However, traversing this historic area can sometimes be more labyrinthine than one might expect, not least due to the occasional scam artist looking to capitalize on unwary travelers. Here are some seasoned tips to help you navigate Giza with ease and safety:"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Cairo",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "rh7vsnebm5hy",
+              "_type": "span",
+              "marks": [],
+              "text": "From "
+            },
+            {
+              "_key": "d6e168ujrc4y",
+              "_type": "span",
+              "marks": [
+                "3l1x9cyns1jz"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "bu6az7wk0bmy",
+              "_type": "span",
+              "marks": [],
+              "text": " International to the Heart of Giza"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "3l1x9cyns1jz",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Giza is conveniently just a 30-minute cab ride from Cairo International Airport, a global nexus connected by numerous international flights from Asia, Europe, the Americas, and other parts of Africa. For those on a brief visit primarily to witness the "
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "00000000000a"
+              ],
+              "text": "pyramids"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": ", a cab hailed directly upon arrival or a pre-arranged hotel transfer is your most straightforward option."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/pyramids-of-giza-and-sphinx/"
+              },
+              "_type": "externalLink",
+              "href": "/pyramids-of-giza-and-sphinx",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Metro Magic: Cairo to Giza"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "If your journey starts from Cairo, the Cairo Metro offers a seamless transit "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "000000000011"
+              ],
+              "text": "experience"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ". Utilize Line 1 or Line 2 to reach Giza, each offering unique vantage points of the city. For Line 1, alight at El-Malek El-Saleh and venture westward across the bridges. Line 2, renowned for its Nile tunneling, has Faisal as the optimal exit point."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000011",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/home/dahab-historical-guide-8/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/dahab/dahab-historical-guide",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Taxi Travel: Negotiate Before You Navigate"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Taxis are a popular choice among visitors for their convenience. However, it’s crucial to negotiate your fare prior to entering the taxi. To ensure a "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "smooth departure from your hotel"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": ", enlist the help of your doorman for arranging a trustworthy ride."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000018",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/transfer-from-cairo-airport-to-hotel/"
+              },
+              "_type": "externalLink",
+              "href": "/transfer-from-cairo-airport-to-hotel",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "Navigating Affluent Neighborhoods with Caution"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "While Dokki and Mohandessin are affluent districts in Giza, vigilance remains key, especially given the current socio-political climate. Trust your instincts; if a "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "00000000001f"
+              ],
+              "text": "place"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " feels dubious, it’s wise to avoid it. "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "000000000022"
+              ],
+              "text": "Solo female travelers"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": " should exercise particular caution after dark."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/places-2/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/rosetta-rasheed/places-to-go-in-rosetta",
+              "newTab": false
+            },
+            {
+              "_key": "000000000022",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/solo-woman-traveler-in-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/travel-tips/solo-woman-traveler-in-egypt",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Dealing with Scams and Touts"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "Giza, despite being a familiar spot for expats and international visitors, is not immune to "
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "000000000029"
+              ],
+              "text": "touts"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": " and scam artists, particularly around the pyramid area. Be wary of unsolicited "
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "00000000002c"
+              ],
+              "text": "tour"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": " guides and walk with confidence. If approached, a polite “nothing” with a smile while continuing on your way is often the best response."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000029",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/touts-in-egypt/"
+              },
+              "_type": "externalLink",
+              "href": "/travel-tips/touts-in-egypt",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/discovering-the-best-hotels-in-cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/kairo-no-doko-ni-tomaru-ka",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Cultural Sensitivity: Dressing in Egypt"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Remember, "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "000000000033"
+              ],
+              "text": "Egypt is predominantly a Muslim country"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": ", and respectful attire is appreciated. This means avoiding shorts, sleeveless tops, and low-cut clothing for both men and women."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000033",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/saint-catherine-mountain/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/saint-catherine/saint-catherine-mountain",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000038",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "Preparedness is Key"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": "To ensure a hassle-free return to your accommodation, carry a business card from your hotel with its name and address in Arabic. This simple step can be a lifesaver if you find yourself disoriented in the vibrant maze of Giza."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "Navigating Giza is part of the adventure, an opportunity to immerse yourself in the rhythms and realities of Egyptian life, set against the backdrop of its timeless pyramids. With these tips, your journey through Giza will not only be enriching but also secure and smooth."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Giza-City-Trips-in-Egypt-2.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Image of the Great Sphinx of Giza with the Pyramids in the background under a clear blue sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "The enigmatic Sphinx, a timeless guardian of ancient Egypt"
+            }
+          ]
+        },
+        {
+          "_key": "00000000003e",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/32.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Three ancient pyramids rising from the desert sands under a clear blue sky in Giza, Egypt"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "The Great Pyramids of Giza: A Testament to Ancient Wonders"
+            }
+          ]
+        },
+        {
+          "_key": "000000000040",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": "Essential Egypt Travel Tips: Your Guide to a Seamless Journey"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": "Navigate your Egyptian "
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [
+                "000000000042"
+              ],
+              "text": "adventure"
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " with confidence using our essential travel tips. From navigating local customs to selecting the best times to visit "
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "iconic"
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": " sites, our guide ensures you make the most of your trip. Click for insider advice on experiencing "
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [
+                "000000000048"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": " like a pro!"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000042",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/are-there-crocodiles-in-the-nile-river/"
+              },
+              "_type": "externalLink",
+              "href": "/blog/nairu-gawa-ni-wani-wa-iru-no-ka",
+              "newTab": false
+            },
+            {
+              "_key": "000000000048",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/the-aswan-museum/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/aswan/the-aswan-museum",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "Learn more"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "9ge9r228i6as",
+              "_type": "span",
+              "marks": [],
+              "text": "Guía del Viajero Experimentado para Navegar por "
+            },
+            {
+              "_key": "gnykr7st5cw8",
+              "_type": "span",
+              "marks": [
+                "1mtiql2jsfb1"
+              ],
+              "text": "Guiza"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "1mtiql2jsfb1",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58854",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "rsn4zpl4mkb9",
+              "_type": "span",
+              "marks": [],
+              "text": "Guiza, con sus imponentes pirámides visibles incluso desde algunas partes de "
+            },
+            {
+              "_key": "tzdj82g5koai",
+              "_type": "span",
+              "marks": [
+                "k77eet1vl6qr"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "j7smpwyhq5uo",
+              "_type": "span",
+              "marks": [],
+              "text": ", es un destino fascinante."
+            },
+            {
+              "_key": "000000000003",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": " Sin embargo, atravesar esta zona histórica puede resultar a veces más laberíntico de lo que cabría esperar, sobre todo debido a los ocasionales estafadores que buscan aprovecharse de los viajeros incautos."
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": " He aquí algunos consejos experimentados que te ayudarán a recorrer "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "000000000007"
+              ],
+              "text": "Guiza con facilidad y seguridad"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": ": "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000007",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/como-evitar-estafas-en-las-piramides-de-giza/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/como-evitar-estafas-en-las-piramides-de-giza",
+              "newTab": false
+            },
+            {
+              "_key": "k77eet1vl6qr",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "De El Cairo Internacional al Corazón de Guiza"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "Giza está convenientemente a sólo 30 minutos en taxi del Aeropuerto Internacional de "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": ", un nexo global conectado por numerosos vuelos internacionales desde Asia, Europa, América y otras partes de África."
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " Para quienes realicen una breve "
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [
+                "000000000013"
+              ],
+              "text": "visita principalmente para contemplar las pirámides"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": ", la opción más sencilla es tomar un taxi directamente a la llegada o un traslado preestablecido desde el hotel. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vista-de-las-piramides-excursion-de-un-dia-a-el-cairo-en-avion-desde-sharm-el-sheikh/"
+              },
+              "_type": "externalLink",
+              "href": "/es/dia-completo-a-el-cairo-en-avion-desde-sharm-el-sheij",
+              "newTab": false
+            },
+            {
+              "_key": "000000000013",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/visita-privada-a-las-iconicas-piramides-de-guiza-y-la-esfinge/"
+              },
+              "_type": "externalLink",
+              "href": "/es/piramides-de-guiza-la-esfinge-y-el-cairo-antiguo-tour-privado-de-dia",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Metro Mágico: De El Cairo a Giza"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "Si tu "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "viaje comienza en El Cairo"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": ", el metro de El Cairo te ofrece una experiencia de tránsito perfecta."
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": " Utiliza la Línea 1 o la Línea 2 para llegar a Giza, cada "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "00000000001f"
+              ],
+              "text": "una de las cuales ofrece puntos"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " de vista únicos de la ciudad."
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": " Para la Línea 1, bájate en El-Malek El-Saleh y aventúrate hacia el oeste a través de los puentes."
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " La Línea 2, famosa "
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "000000000026"
+              ],
+              "text": "por sus túneles sobre el Nilo"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": ", tiene en Faisal el punto de salida óptimo. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001a",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-en-egipto-crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-desde-espana/"
+              },
+              "_type": "externalLink",
+              "href": "/es/vacaciones-de-15-dias-en-luxor-y-crucero-por-el-nilo-luxor-el-nilo-y-el-cairo",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001f",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-tiempo-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/rosetta-rasheed/el-tiempo-en-rosetta-rashid-y-la-mejor-epoca-para-visitarla",
+              "newTab": false
+            },
+            {
+              "_key": "000000000026",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-nil-elegance-crucero-de-7-dias-dahabiya-por-el-nilo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/el-nil-elegance-siete-dias-de-luxor-a-asuan",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "Viajes en Taxi: Negocia Antes de Navegar"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "Los taxis son una opción popular entre "
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "00000000002d"
+              ],
+              "text": "los visitantes por"
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": " su comodidad."
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": " Sin embargo, es crucial negociar la tarifa antes de subir al taxi."
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [
+                "000000000034"
+              ],
+              "text": "Para garantizar una"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": " salida sin problemas de tu hotel, solicita la ayuda de tu portero para organizar un trayecto de confianza. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002d",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/historicos-visitados-en-un-crucero-por-el-nilo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/historicos-visitados-en-un-crucero-por-el-nilo",
+              "newTab": false
+            },
+            {
+              "_key": "000000000034",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viajes-de-baris/abrazar-el-clima-de-baris-una-guia-de-viaje-para-cada-estacion/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/baris/el-clima-en-baris-y-la-mejor-epoca-para-visitarla",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "Navegar con precaución por los barrios ricos"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Aunque Dokki y Mohandessin son barrios acomodados de Guiza, la vigilancia sigue siendo clave, "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "sobre todo dado el actual"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " clima sociopolítico."
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": " Confía en tus instintos; si un lugar te parece dudoso, es prudente evitarlo."
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [],
+              "text": " Las mujeres "
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [
+                "000000000042"
+              ],
+              "text": "que viajan solas deben"
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": " tener especial cuidado al anochecer. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/etiqueta-cultural-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/travel-tips/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria",
+              "newTab": false
+            },
+            {
+              "_key": "000000000042",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/por-que-deberias-visitar-egipto-en-abril/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/por-que-deberias-visitar-egipto-en-abril",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "Cómo enfrentarse a las estafas y a los charlatanes"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "Giza, a pesar de ser un lugar "
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [
+                "000000000049"
+              ],
+              "text": "familiar para expatriados y visitantes"
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": " internacionales, no es inmune a los vendedores ambulantes y estafadores, sobre todo alrededor de la zona de las pirámides."
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": " Desconfía de los "
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [
+                "00000000004e"
+              ],
+              "text": "guías turísticos no solicitados y camina con"
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": " confianza."
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": " Si te abordan, un cortés «nada» con una sonrisa mientras continúas tu camino suele ser la mejor respuesta. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000049",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/visitan-egipto-por-primera/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/visitan-egipto-por-primera",
+              "newTab": false
+            },
+            {
+              "_key": "00000000004e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/centros-turisticos-de-lujo-en-egipto-junto-al-nilo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/centros-turisticos-de-lujo-en-egipto-junto-al-nilo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "Sensibilidad cultural: Vestir en Egipto"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "Recuerda "
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": "que Egipto es un país"
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": " predominantemente musulmán, y se agradece una vestimenta respetuosa."
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": " Esto significa evitar pantalones cortos, camisetas sin mangas y ropa escotada, tanto "
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [
+                "00000000005c"
+              ],
+              "text": "para hombres como"
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " para mujeres. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-kom-ombo/sabores-para-comer/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/kom-ombo/gastronomia-de-kom-ombo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "La preparación es la clave"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "Para volver sin problemas a tu alojamiento, lleva una tarjeta de visita "
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [
+                "000000000063"
+              ],
+              "text": "de tu hotel"
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": " con su nombre y dirección en árabe."
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": " Este sencillo paso "
+            },
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [
+                "000000000068"
+              ],
+              "text": "puede salvarte la vida"
+            },
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [],
+              "text": " si te encuentras desorientado en el vibrante laberinto de Guiza. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000063",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/hoteles-economicos-cerca-de-las-piramides/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/hoteles-economicos-cerca-de-las-piramides",
+              "newTab": false
+            },
+            {
+              "_key": "000000000068",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/vacaciones-inolvidables-en-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000074",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [
+                "00000000006c"
+              ],
+              "text": "Navegar por"
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": " Guiza forma parte de la aventura, una oportunidad para sumergirte en los ritmos y realidades de la vida egipcia, con el telón de fondo de sus pirámides intemporales."
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000070",
+              "_type": "span",
+              "marks": [],
+              "text": " Con estos consejos, tu "
+            },
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "viaje"
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [],
+              "text": " por Guiza no sólo será enriquecedor, sino también seguro y fluido. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-kharga/navegar-por/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/kharga/como-moverse-en-oasis-de-kharga",
+              "newTab": false
+            },
+            {
+              "_key": "000000000071",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/viaje/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/alejandria/como-llegar-a-alejandria",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "oomy9zkoezfy",
+              "_type": "span",
+              "marks": [
+                "ojhpvf0xyunk"
+              ],
+              "text": "ギザ"
+            },
+            {
+              "_key": "hkvg83ptc4p8",
+              "_type": "span",
+              "marks": [],
+              "text": "への交通ルート "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "ojhpvf0xyunk",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58854",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "r68q3ai6r1ln",
+              "_type": "span",
+              "marks": [],
+              "text": "ギザは、"
+            },
+            {
+              "_key": "wx0zk7zpbhr3",
+              "_type": "span",
+              "marks": [
+                "iz5vqc9kk9ad"
+              ],
+              "text": "カイロ"
+            },
+            {
+              "_key": "02u6ol9f09u4",
+              "_type": "span",
+              "marks": [],
+              "text": "の一部からもその壮大なピラミッドが見える魅力的な目的地です。しかし、この歴史的な地域を歩くことは、予想以上に迷路のように感じることがあります。特に、無防備な旅行者をターゲットにした詐欺師が時折現れるため、注意が必要です。以下は、ギザを安全かつスムーズに移動するための経験豊富な旅行者向けのヒントです："
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "iz5vqc9kk9ad",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロ国際空港からギザの中心へ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "ギザはカイロ国際空港からわずか30分のタクシー乗車圏内にあり、アジア、ヨーロッパ、アメリカ、そしてアフリカの他の地域からの数多くの国際便が発着する世界的なハブです。ピラミッドを主な目的に短期間で訪れる方には、到着後に直接タクシーを利用するか、事前に手配されたホテルの送迎が最も簡単なオプションです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "メトロマジック：カイロからギザへ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロからの出発の場合、カイロメトロはスムーズな移動手段を提供します。ギザへは、ライン1またはライン2を利用できます。それぞれ、街の異なる視点を楽しめます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000010",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ライン1"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "：エル・マレク・エル・サレフ駅で下車し、橋を渡って西へ進むルートです。"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ライン2"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "：ナイルの地下トンネルを通ることで知られ、最適な出口はファイサル駅です。"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "どちらのラインもギザへ簡単にアクセスでき、カイロの街並みを楽しみながら移動できます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "タクシー旅行：移動前に交渉を忘れずに"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "タクシーは便利で多くの訪問者に人気のある選択肢ですが、乗車前に料金を交渉することが重要です。ホテルからのスムーズな出発を確保するために、信頼できるタクシーを手配する際は、ドアマンの助けを借りると良いでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "裕福な地域を慎重に移動する"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "ドッキとモハンディシンはギザの富裕層が住む地区ですが、現在の社会政治的な状況を考慮すると、警戒心を持つことが重要です。直感を信じて、怪しいと感じる場所は避けるのが賢明です。特に女性の一人旅の場合、夜間は特別な注意が必要です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "詐欺師や勧誘者への対処法"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "ギザは、外国人や国際的な訪問者にとって馴染みのある場所ですが、特にピラミッド周辺では勧誘者や詐欺師が存在します。無断で声をかけてくるツアーガイドには注意し、自信を持って歩きましょう。もし声をかけられた場合、微笑みながら「何もいりません」と言い、歩き続けるのが最も効果的な対応です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "文化的配慮：エジプトでの服装"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "エジプトは主にイスラム教徒の国であり、敬意を表する服装が求められます。男性も女性も、ショートパンツ、ノースリーブのトップス、低いカットの服は避けることが望ましいです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "準備が肝心"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "宿泊先へのスムーズな帰路を確保するために、ホテルの名前と住所が記載されたアラビア語の名刺を持ち歩きましょう。この簡単な対策は、ギザの賑やかな迷路の中で道に迷ったときに非常に役立ちます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": "ギザを歩くこと自体が冒険の一部であり、古代のピラミッドを背景に、エジプトの生活のリズムと現実に身を浸す絶好の機会です。これらのヒントを活用すれば、ギザでの旅は豊かで、安心してスムーズに楽しむことができるでしょう。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日：2025年8月1日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The Great Sphinx and Pyramid of Khafre at Giza with a person walking in the foreground"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "La Gran Esfinge y la Pirámide de Kefrén en Guiza con una persona caminando en primer plano"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "手前を歩く人物が見える、ギザの大スフィンクスとカフラー王のピラミッド"
+      }
+    ],
+    "asset": {
+      "_ref": "image-26d2d259d96b0d5f469ab010fd4ae2019bc8bb96-1200x800-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "A lone visitor approaches the Great Sphinx and the Pyramid of Khafre at Giza"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Un visitante solitario se acerca a la Gran Esfinge y la Pirámide de Kefrén en Guiza"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "一人の訪問者が、ギザの大スフィンクスとカフラー王のピラミッドへと歩み寄る"
+      }
+    ]
+  },
+  "kind": "transport-around",
+  "migration": {
+    "migratedAt": "2026-05-05T12:59:27.184Z",
+    "reviewFlag": "section-needs-assignment",
+    "source": "wp-import",
+    "wpId": 60075,
+    "wpModifiedAt": "2025-07-24T07:56:51",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/navigating-giza/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-58854",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "seo": {
+    "metaDescription": [
+      {
+        "_key": "es",
+        "_type": "internationalizedArrayTextValue",
+        "value": "Guiza, con sus imponentes pirámides visibles incluso desde algunas partes de El Cairo, es un destino fascinante."
+      }
+    ]
+  },
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "navigating-giza"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "como-moverse-en-guiza"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "giza-e-no-kotsu-ruto"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "A Seasoned Traveler s Guide to Navigating Giza Giza, with its towering pyramids visible even from parts of Cairo, is a mesmerizing destination. However, traversing this historic area can sometimes be more labyrinthine than one might expect,"
+    },
+    {
+      "_key": "ja",
+      "value": "ギザへの交通ルート ギザは、カイロの一部からもその壮大なピラミッドが見える魅力的な目的地です。しかし、この歴史的な地域を歩くことは、予想以上に迷路のように感じることがあります。特に、無防備な旅行者をターゲットにした詐欺師が時折現れるため、注意が必要です。以下は、ギザを安全かつスムーズに移動するための経験豊富な旅行者向けのヒントです： カイロ国際空港からギザの中心へ ギザはカイロ国際空港からわずか30分のタクシー乗車圏内にあり、アジア、ヨーロッパ、アメリカ、そしてアフリカの他の"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Navigating Giza"
+    },
+    {
+      "_key": "es",
+      "value": "Cómo moverse en Guiza"
+    },
+    {
+      "_key": "ja",
+      "value": "ギザへの交通ルート"
+    }
+  ]
+}

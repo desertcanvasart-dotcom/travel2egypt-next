@@ -1,0 +1,2658 @@
+{
+  "_createdAt": "2026-05-06T23:04:44Z",
+  "_id": "wp-page-60665",
+  "_rev": "I3z6540U8Hkd6LbcFYJpJ1",
+  "_type": "wikiMonument",
+  "_updatedAt": "2026-06-12T17:14:10Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "The Colossi of Memnon: A Testament to Ancient Egyptian Grandeur"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Overview"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Location"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ": Situated on the West Bank of Luxor, "
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "000000000006"
+              ],
+              "text": "the Colossi of Memnon"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": " are two monumental statues representing Pharaoh "
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "000000000009"
+              ],
+              "text": "Amenhotep III"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": " from the 18th Dynasty of ancient Egypt."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000006",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-88177",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000009",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Amenhotep_III",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Height"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Approximately 17 meters tall, these statues were once the guardians of Amenhotep III’s mortuary temple, which now lies in ruins."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Historical Significance"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Origin"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": Carved from massive granite blocks transported from quarries near Cairo."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Design"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ": The statues depict the seated figure of Amenhotep III, with smaller figures of his wife, Queen Tiye, and mother, Queen Mutemwiya, carved at his legs."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "The Legend of Memnon"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Mysterious Sounds"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": ": Following an earthquake in 27 BC, which damaged the northern colossus, the statue began emitting a ‘singing’ sound at dawn. This phenomenon attracted Greek and Roman tourists."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Mythical Connection"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": ": The statues were named after Memnon, a Trojan hero from Greek mythology, who was believed to sing to his mother, Eos, at sunrise."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Restoration by Septimus Severus"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": ": The attempt to repair the northern statue in the 3rd century AD led to the cessation of the ‘singing’ sounds."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "Current Status"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Tourist Attraction"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": ": The Colossi of Memnon remain a popular historical site, drawing visitors intrigued by their size, history, and the legends associated with them."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Conservation Efforts"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": ": Recent cleaning projects have revealed original paint beneath layers of accumulated dirt, shedding more light on the artistic techniques of the era."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "Cultural and Archaeological Importance"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Symbol of Thebes"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": ": The statues are emblematic of the ancient city of Thebes and its rich architectural heritage."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Archaeological Interest"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": ": Although the mortuary temple behind the statues is largely destroyed, the Colossi continue to offer insights into the construction and artistic practices of ancient Egypt."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusion"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "The Colossi of Memnon stand as a remarkable relic of ancient Egypt’s architectural ingenuity and cultural richness. Their enduring legacy, coupled with the fascinating legends surrounding them, makes them an essential part of any visit to Luxor’s historical landscape."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/dmitrii-zhodzishskii-2K5kuh3NRvk-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Ancient Egyptian hieroglyphs depicting a row of stylized elephants"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "A procession of elephant hieroglyphs, echoing the rich tapestry of Ancient Egyptian culture"
+            }
+          ]
+        },
+        {
+          "_key": "000000000038",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/artem-bryzgalov-YHXomDoU5r4-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "An obelisk with hieroglyphic engravings against a twilight sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Timeless Scripts - The enduring legacy of Egyptian hieroglyphs etched onto an obelisk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Los Colosos de Memnon: Un Testamento de la Grandeza del Antiguo Egipto"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Visión general"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Localización"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ": Situados en la orilla oeste de Luxor,"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "000000000006"
+              ],
+              "text": " los Colosos de Memnón"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": " son dos estatuas monumentales que representan al faraón "
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "000000000009"
+              ],
+              "text": "Amenhotep III"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": " de la XVIII Dinastía del antiguo Egipto."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000006",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-88177",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000009",
+              "_type": "externalLink",
+              "href": "https://es.wikipedia.org/wiki/Amenofis_III",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Altura"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Con una altura aproximada de 17 metros, estas estatuas fueron en su día los guardianes del templo mortuorio de Amenhotep III, que ahora yace en ruinas."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Significado histórico"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Origen"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": Tallado a partir de enormes bloques de granito transportados "
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "000000000014"
+              ],
+              "text": "desde canteras cercanas a El Cairo"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000014",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/vacaciones-en-egipto-crucero-por-el-nilo-de-11-dias-de-luxor-a-el-cairo-desde-espana/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Diseño"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": ": Las estatuas representan la figura sedente de Amenhotep III, "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "con figuras más pequeñas"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " de su esposa, la reina Tiye, y de su madre, la reina Mutemwiya, talladas en sus piernas."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/paquetes-de-viaje-para-grupos-pequenos/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "La leyenda de Memnón"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Sonidos misteriosos"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": ": Tras un terremoto en el año 27 a.C., "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "000000000022"
+              ],
+              "text": "que dañó el coloso del"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": " norte, la estatua empezó a emitir un sonido «cantarín» al amanecer."
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Este fenómeno atrajo a turistas griegos y romanos."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000022",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/el-templo-del-serapeum/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Conexión mítica"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": ": Las estatuas deben su nombre a Memnón, un héroe troyano de la mitología griega, de quien se creía que cantaba a su madre, Eos, al amanecer."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Restauración por Septimio Severo"
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [],
+              "text": ": El intento de reparar la estatua septentrional en el siglo III d.C. provocó el cese de los sonidos «cantarines»."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "Situación actual"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Atracción turística"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": ": Los Colosos de Memnon siguen siendo un popular lugar histórico, "
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "000000000032"
+              ],
+              "text": "que atrae a visitantes"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " intrigados por su tamaño, su historia y las leyendas asociadas a ellos."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000032",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Esfuerzos de conservación"
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": ": Recientes proyectos de limpieza han revelado pintura original bajo capas de suciedad acumulada, arrojando "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "más luz sobre las"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " técnicas artísticas de la época."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000038",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-al-gouna/mas-alla-de-las-playas/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "Importancia cultural y arqueológica"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Símbolo de Tebas"
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [],
+              "text": ": "
+            },
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "000000000040"
+              ],
+              "text": "Las estatuas son emblemáticas de la antigua"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": " ciudad de Tebas y de su rico patrimonio arquitectónico."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000040",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/las-piramides-de-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Interés arqueológico"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": ": Aunque el templo mortuorio que hay detrás de las estatuas está en gran parte destruido, los Colosos siguen ofreciendo una visión de las prácticas constructivas y artísticas del antiguo "
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [
+                "000000000046"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000046",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/el-mejor-itinerario-de-12-dias-por-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "Conclusión"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000052",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "Los Colosos de Memnon son una extraordinaria reliquia del ingenio arquitectónico y la riqueza cultural del antiguo Egipto."
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [],
+              "text": "Su perdurable legado, unido a las fascinantes leyendas que los rodean, los convierten en una parte esencial de cualquier visita al paisaje histórico "
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "00000000004f"
+              ],
+              "text": "de Luxor"
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004f",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-72343",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 23 de Séptiembre, 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000058",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": "PRESENTACIÓN DE LUXOR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [
+                "000000000059"
+              ],
+              "text": "Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000059",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/historia-de-luxor/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [
+                "00000000005c"
+              ],
+              "text": "El tiempo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/pronostico-del-tiempo-para-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000060",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": "PLANIFICA TU VIAJE"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [
+                "000000000061"
+              ],
+              "text": "Cómo ir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000061",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/maneras-de-llegar-a-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000066",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [
+                "000000000064"
+              ],
+              "text": "Dónde alojarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000064",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/mejores-hoteles-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [],
+              "text": "MIENTRAS ESTÉS ALLÍ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [
+                "000000000069"
+              ],
+              "text": "Cómo desplazarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000069",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-moverse-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [
+                "00000000006c"
+              ],
+              "text": "Cosas que hacer"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/que-hacer-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": "LUGARES DONDE IR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "El templo de Luxor"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000071",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-60663",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [
+                "000000000074"
+              ],
+              "text": "El Valle de las Reinas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000074",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-valle-de-las-reinas/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [
+                "000000000077"
+              ],
+              "text": "Los Colosos de Memnon"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000077",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-colossi-of-memnon",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [
+                "00000000007a"
+              ],
+              "text": "Deir El-Madina"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007a",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.deir-el-madina",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [
+                "00000000007d"
+              ],
+              "text": "Museo de Luxor"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-60670",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000082",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [
+                "000000000080"
+              ],
+              "text": "Templo de Madinat Habu"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000080",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-60671",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000085",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [
+                "000000000083"
+              ],
+              "text": "El Templo de Karnak"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000083",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.the-karnak-temple",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000088",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [
+                "000000000086"
+              ],
+              "text": "El Valle de los Reyes"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000086",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-valle-de-los-reyes/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000089",
+              "_type": "span",
+              "marks": [],
+              "text": "OTROS"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008c",
+              "_type": "span",
+              "marks": [
+                "00000000008b"
+              ],
+              "text": "Visitas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/mejores-tours-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000090",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [
+                "00000000008e"
+              ],
+              "text": "Alimentación"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/festin-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [
+                "000000000091"
+              ],
+              "text": "Sólo aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000091",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/solo-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000096",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000095",
+              "_type": "span",
+              "marks": [
+                "000000000094"
+              ],
+              "text": "Evento"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000094",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/fiestas-en-luxor/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000097",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/dmitrii-zhodzishskii-2K5kuh3NRvk-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Ancient Egyptian hieroglyphs depicting a row of stylized elephants"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Una procesión de jeroglíficos elefantes, haciendo eco del rico tapiz de la cultura egipcia antigua"
+            }
+          ]
+        },
+        {
+          "_key": "000000000098",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/artem-bryzgalov-YHXomDoU5r4-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "An obelisk with hieroglyphic engravings against a twilight sky"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "El legado duradero de los jeroglíficos egipcios grabados en un obelisco"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "メムノンの巨像：古代エジプトの壮大さを証明する遺産"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "概要"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "場所："
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールの西岸に位置し、メムノンの巨像は古代エジプト第18王朝のアメンホテプ3世を表す2つの記念碑的な像です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "高さ："
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "約17メートルの高さがあり、これらの像はかつて"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "000000000009"
+              ],
+              "text": "アメンホテプ3世"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "の葬祭殿の守護者でしたが、現在その葬祭殿は廃墟となっています。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000009",
+              "_type": "externalLink",
+              "href": "https://natgeo.nikkeibp.co.jp/atcl/gallery/091901002/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "歴史的意義"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "起源："
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロ近郊の採石場から運ばれた巨大な花崗岩のブロックから彫られました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "デザイン："
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "像は座っているアメンホテプ3世の姿を描いており、彼の足元には妻のティイエ王妃と母のムテムウィヤ王妃のより小さな像が彫られています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "メムノンの伝説"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "謎の音："
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "紀元前27年の地震で北側の巨像が損傷した後、像は夜明けに「歌う」音を発するようになりました。この現象はギリシャやローマの観光客を引き寄せました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "神話的な繋がり："
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "像はギリシャ神話のトロイの英雄メムノンにちなんで名付けられ、彼は日の出に母エオスに歌を歌ったと信じられていました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "セプティミウス・セウェルスによる修復："
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "3世紀に北像を修復しようとした試みにより、「歌う」音が止まりました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "現在の状況"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "観光名所："
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "メムノンの巨像はその大きさ、歴史、関連する伝説に魅了された訪問者を引きつける人気の歴史的遺跡です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "保存の取り組み："
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "最近の清掃プロジェクトにより、蓄積された汚れの層の下にオリジナルの塗料が明らかになり、当時の芸術技術についてさらに光が当てられました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "文化的・考古学的重要性"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "テーベのシンボル："
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "像は古代都市テーベとその豊かな建築遺産の象徴です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "考古学的関心："
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "像の背後にある葬祭殿は大部分が破壊されていますが、巨像は引き続き古代エジプトの建設と芸術的慣行に関する洞察を提供しています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "結論"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "000000000032"
+              ],
+              "text": "メムノンの巨像"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "は、古代エジプトの建築的独創性と文化的豊かさの顕著な遺物として立っています。その永続的な遺産と、それらを取り巻く魅力的な伝説により、ルクソールの歴史的景観を訪れる際には欠かせない存在となっています。"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000032",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/西岸の奇跡：グランド・ウエストバンク・ツアー/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日: 2020年3月18日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日: 2025年6月3日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "ルクソールのご紹介"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "00000000003c"
+              ],
+              "text": "歴史"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ルクソールの歴史的遺産を巡る/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [
+                "00000000003f"
+              ],
+              "text": "天気"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e6%b0%97%e5%80%99%e3%81%a8%e5%ad%a3%e7%af%80/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行の計画"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [
+                "000000000044"
+              ],
+              "text": "行き方"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000044",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%b8%e3%81%ae%e8%a1%8c%e3%81%8d%e6%96%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000049",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000048",
+              "_type": "span",
+              "marks": [
+                "000000000047"
+              ],
+              "text": "宿泊先"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000047",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ルクソールの宿泊施設/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "滞在中に"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004d",
+              "_type": "span",
+              "marks": [
+                "00000000004c"
+              ],
+              "text": "現地での移動方法"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ルクソールの移動手段あれこれ/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000051",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [
+                "00000000004f"
+              ],
+              "text": "おすすめのアクティビティ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000053",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000056",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [
+                "000000000054"
+              ],
+              "text": "カルナック神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000054",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%83%ab%e3%83%8a%e3%83%83%e3%82%af%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [
+                "000000000057"
+              ],
+              "text": "ルクソール神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000057",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [
+                "00000000005a"
+              ],
+              "text": "ルクソール博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [
+                "00000000005d"
+              ],
+              "text": "王家の谷"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e7%8e%8b%e5%ae%b6%e3%81%ae%e8%b0%b7/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000062",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [
+                "000000000060"
+              ],
+              "text": "王妃の谷"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000060",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e7%8e%8b%e5%a6%83%e3%81%ae%e8%b0%b7/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [
+                "000000000063"
+              ],
+              "text": "デイル・エル・マディーナ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000063",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%87%e3%82%a4%e3%83%ab%e3%83%bb%e3%82%a8%e3%83%ab%e3%83%bb%e3%83%9e%e3%83%87%e3%82%a3%e3%83%bc%e3%83%8a/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [
+                "000000000066"
+              ],
+              "text": "マディナ・ハブ神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000066",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%9e%e3%83%87%e3%82%a3%e3%83%8a%e3%83%83%e3%83%88%e3%83%bb%e3%83%8f%e3%83%96%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [
+                "000000000069"
+              ],
+              "text": "メムノンの巨像"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000069",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%a1%e3%83%a0%e3%83%8e%e3%83%b3%e3%81%ae%e5%b7%a8%e5%83%8f/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "その他"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [
+                "00000000006e"
+              ],
+              "text": "ツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e3%81%8a%e3%81%99%e3%81%99%e3%82%81%e3%83%84%e3%82%a2%e3%83%bc",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "食べ物"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000071",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e3%83%ac%e3%82%b9%e3%83%88%e3%83%a9%e3%83%b3%ef%bc%86%e3%82%b0%e3%83%ab%e3%83%a1/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000076",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000075",
+              "_type": "span",
+              "marks": [
+                "000000000074"
+              ],
+              "text": "ここだけ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000074",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%93%e3%81%93%e3%81%a0%e3%81%91%e3%81%ae%e4%bd%93%e9%a8%93/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000079",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [
+                "000000000077"
+              ],
+              "text": "イベント"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000077",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%ab%e3%82%af%e3%82%bd%e3%83%bc%e3%83%ab%e3%81%ae%e3%81%8a%e7%a5%ad%e3%82%8a/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007a",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/sean-wang-ZmsTWtUc03w-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "A serene river with lush greenery on the bank and a small boat moored near the shore"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "水上の静寂 – 川辺の自然の抱擁"
+            }
+          ]
+        },
+        {
+          "_key": "00000000007b",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/ahmed-shabana-ADa9bb3tqR4-unsplash-1.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Close-up of an ancient Egyptian pharaoh statue carved in stone"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "永遠の石の番人であるファラオの顔は、揺るぎない威厳をもって時の経過を観察している。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "city": {
+    "_ref": "wp-page-58877",
+    "_type": "reference"
+  },
+  "migration": {
+    "migratedAt": "2026-05-07T11:15:07.972Z",
+    "reviewFlag": "superseded-by-guideArticle",
+    "source": "wp-import",
+    "supersededAt": "2026-05-20T15:23:40.818Z",
+    "supersededBy": "guideArticle.luxor.the-colossi-of-memnon",
+    "wpId": 60665,
+    "wpModifiedAt": "2025-07-24T16:19:59",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/the-colossi-of-memnon/"
+  },
+  "monumentType": "colossus",
+  "name": [
+    {
+      "_key": "en",
+      "value": "The Colossi of Memnon"
+    },
+    {
+      "_key": "es",
+      "value": "Los Colosos de Memnon"
+    },
+    {
+      "_key": "ja",
+      "value": "メムノンの巨像"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "the-colossi-of-memnon"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "los-colosos-de-memnon"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "メムノンの巨像"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "The Colossi of Memnon: A Testament to Ancient Egyptian Grandeur Overview Location: Situated on the West Bank of Luxor, the Colossi of Memnon are two monumental statues representing Pharaoh Amenhotep III from the 18th Dynasty of ancient Egyp"
+    },
+    {
+      "_key": "es",
+      "value": "Los Colosos de Memnon: Un Testamento de la Grandeza del Antiguo Egipto Visión general Localización: Situados en la orilla oeste de Luxor, los Colosos de Memnón son dos estatuas monumentales que representan al faraón Amenhotep III de la XVII"
+    },
+    {
+      "_key": "ja",
+      "value": "メムノンの巨像：古代エジプトの壮大さを証明する遺産 概要 場所：ルクソールの西岸に位置し、メムノンの巨像は古代エジプト第18王朝のアメンホテプ3世を表す2つの記念碑的な像です。 高さ：約17メートルの高さがあり、これらの像はかつてアメンホテプ3世の葬祭殿の守護者でしたが、現在その葬祭殿は廃墟となっています。 歴史的意義 起源：カイロ近郊の採石場から運ばれた巨大な花崗岩のブロックから彫られました。 デザイン：像は座っているアメンホテプ3世の姿を描いており、彼の足元には妻のティイ"
+    }
+  ]
+}

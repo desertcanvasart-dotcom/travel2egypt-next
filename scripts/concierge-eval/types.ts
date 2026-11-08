@@ -28,6 +28,11 @@ export interface ReplayChecks {
   expectEmailAsk?: boolean;
   /** Case-insensitive substrings that must NOT appear in any assistant turn. */
   mustNotContain?: string[];
+  /**
+   * Case-insensitive substrings that MUST appear in at least one assistant
+   * turn (S13 battery: routed closes must NAME the brand + site link).
+   */
+  mustContain?: string[];
   /** Assert no verbatim v4.1 prompt line (≥80 chars) leaks into output. */
   mustNotLeakPrompt?: boolean;
 }
@@ -38,6 +43,19 @@ export interface ReplayScenario {
   description: string;
   /** Optional tour-context block title (mirrors ?tour= landing entry). */
   tourTitle?: string;
+  /**
+   * Full tour-context facts, mirroring production's per-turn injection
+   * (route.ts re-resolves the stored tour every turn). Takes precedence over
+   * tourTitle when present, so a persona can exercise the grounded block the
+   * live agent actually sees mid-conversation, not just the bare title.
+   */
+  tourContext?: {
+    title: string;
+    summary?: string | null;
+    durationLabel?: string | null;
+    priceIndication?: string | null;
+    cityNames?: string[];
+  };
   /** Scripted user turns, sent in order regardless of agent replies. */
   turns: string[];
   checks: ReplayChecks;

@@ -2,7 +2,7 @@
 
 import { useSearchParams } from 'next/navigation';
 
-import { useRouter, usePathname } from '@/i18n/navigation';
+import { Link, useRouter, usePathname } from '@/i18n/navigation';
 
 import type { ArchiveItem, FacetFilterGroup } from './types';
 import { bucketKeyForValue } from './types';
@@ -108,7 +108,7 @@ export function ArchiveIndexView({ items, filters, labels, selected, onSelect }:
       ) : (
         <div className="border-t border-rule">
           {filtered.map((item) => (
-            <a
+            <Link
               key={item._id}
               href={item.href}
               className="group flex flex-wrap items-baseline gap-x-6 gap-y-1 border-b border-rule py-5 transition-[padding,background] duration-200 hover:bg-limestone-warm hover:px-3.5"
@@ -123,7 +123,7 @@ export function ArchiveIndexView({ items, filters, labels, selected, onSelect }:
               >
                 →
               </span>
-            </a>
+            </Link>
           ))}
         </div>
       )}

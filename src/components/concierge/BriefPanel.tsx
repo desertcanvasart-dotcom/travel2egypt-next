@@ -3,6 +3,7 @@
 import { useState } from 'react';
 
 import { useTranslations } from 'next-intl';
+import { track } from '@/lib/analytics';
 
 import { computeFollowUpTimeframe } from '@/lib/concierge/timeframe';
 import type { BriefPayload } from '@/types/concierge';
@@ -70,6 +71,7 @@ export function BriefPanel({ payload, locale, onContinue }: BriefPanelProps) {
       });
       // S7: a 429 means we already sent a link recently — a benign outcome,
       // not an error. Show the gentle "already sent" copy instead.
+      if (res.ok) track('concierge_trip_saved', { locale });
       setSaveState(res.ok ? 'sent' : res.status === 429 ? 'throttled' : 'error');
     } catch {
       setSaveState('error');

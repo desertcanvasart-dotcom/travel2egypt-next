@@ -1,0 +1,2942 @@
+{
+  "_createdAt": "2026-05-06T23:05:03Z",
+  "_id": "wp-page-59718",
+  "_rev": "c7D10UIoL2h5Xn5KW7br9W",
+  "_type": "wikiMonument",
+  "_updatedAt": "2026-06-18T13:06:03Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "About The Museum "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "The Kharga Cultural Museum, a recent addition to the "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Egyptian"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " Ministry of Culture’s regional museum plan, offers a comprehensive overview of the antiquities discovered in Kharga and Dakhla Oases. Constructed using local bricks to mimic the early Christian architectural style seen at Bagawat, this museum is a testament to Egypt’s rich historical heritage. It showcases artifacts spanning from the Egyptian Prehistoric Period to the Islamic Era, providing visitors with a "
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [
+                "000000000006"
+              ],
+              "text": "journey through the desert region’s"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": " history."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Egyptian",
+              "newTab": true
+            },
+            {
+              "_key": "000000000006",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-115504-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Prehistory and Old Kingdom Collection"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "On the first floor of the museum, visitors can explore a collection of artifacts that shed light on the prehistoric and early periods of human presence in the "
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "00000000000d"
+              ],
+              "text": "Western Desert"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": ". Items such as prehistoric tools, ostrich eggs, and various artifacts "
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "000000000010"
+              ],
+              "text": "discovered in the Western Desert"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " indicate that humans inhabited the area from ancient times."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-144332-es",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000010",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-137052-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Many of these artifacts were unearthed during excavations conducted by the "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "000000000015"
+              ],
+              "text": "Dakhla Oasis"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " Project and are presented with the assistance of the Royal Ontario Museum’s Kharga Prehistory Project. Object labels in Arabic and English enhance the visitor’s experience."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000015",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-58783",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": "The oases played a vital role during Pharaonic times, serving as important provinces and front-line defenses against invaders from the west and south. The museum displays funerary items from pharaonic tombs, including fragments from the Dynasty VI tomb of Ima-Pepi and a false-door stela of Khent-Ka, both from the "
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "00000000001a"
+              ],
+              "text": "Old Kingdom"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": ". These significant pieces were discovered by the French Mission in Balat, Dakhla Oasis. Khent-Ka, the Governor of the Oasis during the Sixth Dynasty, had his mastaba tomb preserved at Qila el-Da’ba in Dakhla. Notably, this limestone false door contains the earliest known reference to the word for “oasis,” wahet."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001a",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-115478-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "A remarkable double statue of Ima Pepi, ‘Governor of the Oasis,’ and his wife, found in Balat, graces the first floor. The museum also features sarcophagi and mummy masks, including a Graeco-Roman sarcophagus made of painted sycamore wood, discovered at Labekha by the French Mission."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Graeco-Roman Collection"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "The Graeco-Roman collection includes cartonnage mummy masks that adorned the faces of the deceased. These masks were often painted and gilded, providing a vivid and colorful display. Notable pieces in this collection are three human-headed lion sphinxes discovered at "
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "000000000023"
+              ],
+              "text": "Deir el-Hagar"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " Temple in Dakhla. Unlike most Egyptian "
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [
+                "000000000026"
+              ],
+              "text": "sphinxes"
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": ", these Roman statues are unique in that two of them are in an upright crouching position, featuring human features, with one being a female sphinx with wings."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000023",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.luxor.deir-el-madina",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000026",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "The ground floor showcases smaller objects found in the New Valley within glass cases. One display features a charming group of ba-birds uncovered during the French Mission’s excavations at "
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "00000000002b"
+              ],
+              "text": "Dush"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": ". These miniature wooden "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "birds"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " were buried with the deceased to represent the five parts of the soul, ensuring its preservation during the journey to the afterlife."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002b",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.baris.the-roman-fortress-at-dush",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/egypt-bird-watching-tour/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [],
+              "text": "Roman presence in the Western Oases is well-represented through artifacts like glass, ceramics, and coins, discovered during excavations by various teams working in the region. Of particular significance are the Kellis Wooden Panels or codices, found at Ismant el-Kharab in Dakhla Oasis. These wooden “notebooks” date from the 360s CE, making them the earliest complete “bound” "
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [
+                "000000000033"
+              ],
+              "text": "books ever discovered"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": ". They contain "
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "000000000036"
+              ],
+              "text": "accounts"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": ", payments in kind by tenant farmers during Roman times, marriage contracts, and letters, providing invaluable insights into life in the oases during this period."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000033",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-113047-en",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000036",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/my-account/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "The "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [
+                "00000000003b"
+              ],
+              "text": "museum also houses"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " ostraca, pottery sherds used as writing material, which offer important details about daily life in the oases. One notable ostracon is an unfinished "
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "00000000003e"
+              ],
+              "text": "private letter from individuals"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": " named Psumenais and Kanah to a monk named Phibamon from Tamou. It discusses the transmission of a golden coin and the involvement of various individuals."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003b",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.cairo.gayer-anderson-museum",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-87438",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Coptic and Islamic Collection"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "The second floor of the "
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "000000000045"
+              ],
+              "text": "museum is dedicated to Christian and Islamic"
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": " artifacts from the oases, dating from the 3rd century onwards. This collection includes religious items and culturally significant artifacts from the region’s more recent "
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [
+                "000000000048"
+              ],
+              "text": "history"
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000045",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.cairo.museum-of-islamic-art",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000048",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-144318-es",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000050",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "Noteworthy items include textiles, icons, pottery, ceramics, books, and coins. On loan from the "
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "00000000004d"
+              ],
+              "text": "Coptic Museum"
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": " in Cairo, the museum displays 18th-century wooden painted icons depicting the Virgin Mary with the infant Jesus and the martyr Mari Girgis (St. George) slaying the dragon, a universal motif."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004d",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.cairo.the-coptic-museum",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000058",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": "A separate room is dedicated to silver items, including plates and tablecloths, from the Manial Palace in "
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [
+                "000000000052"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": ". The museum also houses various Islamic "
+            },
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [
+                "000000000055"
+              ],
+              "text": "cultural"
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [],
+              "text": " artifacts, such as coin collections. Folk items reflecting the customs and traditions of the New Valley region are also on display."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000052",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-88173",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000055",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-204425-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": "The Kharga Cultural Museum offers a captivating journey through the history and cultural heritage of the Kharga and Dakhla Oases, providing a valuable resource for understanding the rich history of this desert region in Egypt."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/04/kharga-museum-egypt-00.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "kharga cultural museum"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Intricately Decorated Sarcophagus on Display at the Kharga Museum, Egypt"
+            }
+          ]
+        },
+        {
+          "_key": "00000000005c",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2025/04/360-F-365121214-TrbLBAkfcgFAXF49WRVEmTk900nMfjFy.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "kharga cultural museum"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Colorful Mummy Mask Displayed at the Kharga Museum in Egypt’s Western Desert"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Sobre el Templo "
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo Cultural de "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Kharga"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", reciente incorporación al plan de museos regionales del Ministerio de Cultura egipcio, ofrece una visión completa de las antigüedades descubiertas en los oasis de Kharga y Dakhla."
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Construido con ladrillos locales para imitar el estilo arquitectónico cristiano primitivo visto en Bagawat, este museo es un testimonio del rico patrimonio histórico de "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "Expone artefactos que abarcan desde la Prehistoria egipcia hasta la Era Islámica, proporcionando a los visitantes un viaje a través de la historia de la región desértica."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://es.wikipedia.org/wiki/Jariy%C3%A1",
+              "newTab": true
+            },
+            {
+              "_key": "000000000008",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/acerca-de-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Colección Prehistoria y Reino Antiguo"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000016",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "En la primera planta del museo, los visitantes pueden explorar una colección de artefactos que arrojan luz sobre la prehistoria y los primeros periodos de presencia humana en el "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "000000000011"
+              ],
+              "text": "Desierto Occidental"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Objetos como herramientas prehistóricas, huevos de avestruz y diversos artefactos descubiertos en el Desierto Occidental indican que los humanos habitaron la zona desde tiempos remotos."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000011",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-desierto-occidental-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "Muchos de estos artefactos fueron desenterrados durante las excavaciones realizadas por el Proyecto Oasis de Dajla y se presentan con la ayuda del Proyecto de Prehistoria de "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "Kharga"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " del Museo Real de Ontario."
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "Las etiquetas de los objetos en árabe e inglés mejoran la experiencia del "
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "00000000001d"
+              ],
+              "text": "visitante"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000018",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-kharga/kharga-desenterrado/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "Los oasis desempeñaron un papel vital durante la época "
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [
+                "000000000022"
+              ],
+              "text": "faraónica"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": ", sirviendo como importantes provincias y defensas de primera línea contra los invasores del oeste y el sur."
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "En el museo se exponen objetos funerarios de tumbas faraónicas, como fragmentos "
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "000000000027"
+              ],
+              "text": "de la tumba"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": " de Ima-Pepi, de la Dinastía VI, y una estela de puerta falsa de Khent-Ka, ambas del Reino Antiguo."
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "Estas importantes piezas fueron descubiertas por la Misión Francesa en Balat, "
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "00000000002c"
+              ],
+              "text": "Oasis de Dakhla"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "Khent-Ka, gobernador del oasis durante la Sexta Dinastía, tenía su "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "000000000031"
+              ],
+              "text": "tumba mastaba"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " conservada en Qila el-Da’ba, en Dakhla."
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "Cabe "
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "000000000036"
+              ],
+              "text": "destacar"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": " que esta falsa puerta de piedra caliza contiene la primera referencia conocida a la palabra «oasis», wahet."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000022",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/faraones-del-reino-medio-logros-y-legado/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000027",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/tumbas-de-los-nobles-en-asuan/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-dajla/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000031",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/necropolis-de-meidum/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000036",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-suez/destacados/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": "Una notable estatua doble de Ima Pepi, «Gobernador del Oasis», y su esposa, hallada en Balat, adorna la primera planta."
+            },
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "En el museo también se exponen sarcófagos y máscaras de momias, incluido un sarcófago grecorromano de madera de sicomoro pintada, descubierto en Labekha por la Misión Francesa."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Colección grecorromana"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000050",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "La colección grecorromana incluye máscaras de momia "
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [
+                "000000000041"
+              ],
+              "text": "de cartonaje que"
+            },
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": " adornaban los rostros de los difuntos."
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": "Estas máscaras solían estar pintadas y doradas, lo que les daba un aspecto vívido y colorista."
+            },
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": "Piezas notables de esta colección son tres "
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [
+                "000000000048"
+              ],
+              "text": "esfinges"
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": " de león con cabeza humana descubiertas en el templo de Deir el-Hagar, en Dajla."
+            },
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [],
+              "text": "A diferencia de la mayoría de "
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "00000000004d"
+              ],
+              "text": "las esfinges egipcias"
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": ", estas estatuas romanas son únicas en el sentido de que dos de ellas están en posición vertical agachadas, con rasgos humanos, y una de ellas es una esfinge femenina con alas."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000041",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/que-incluyen-los-paquetes-de-crucero-por-el-nilo/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000048",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "00000000004d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/de-alejandria-a-el-cairo-excursion-privada-de-un-dia-a-las-piramides-de-guiza-la-esfinge-el-museo-egipcio-y-khan-el-khalili/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000059",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": "En la planta baja se exponen objetos más pequeños encontrados en el Valle Nuevo dentro de vitrinas de cristal."
+            },
+            {
+              "_key": "000000000052",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": "Una de ellas muestra un encantador grupo de pájaros ba descubiertos durante las excavaciones de la Misión Francesa en Dush."
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000055",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos pájaros de madera en miniatura se enterraban con el difunto para representar las cinco partes del alma, asegurando su conservación durante el "
+            },
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "000000000056"
+              ],
+              "text": "viaje"
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [],
+              "text": " al más allá."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000056",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-alejandria/viaje/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "La presencia romana en los Oasis Occidentales está bien representada a través de artefactos como vidrio, cerámica y monedas, descubiertos durante "
+            },
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [
+                "00000000005b"
+              ],
+              "text": "las excavaciones realizadas por diversos"
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [],
+              "text": " equipos que trabajan en la región."
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [],
+              "text": "De especial importancia son los paneles de madera o códices de Kellis, hallados en Ismant el-Kharab, en el "
+            },
+            {
+              "_key": "000000000061",
+              "_type": "span",
+              "marks": [
+                "000000000060"
+              ],
+              "text": "oasis de Dakhla"
+            },
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "000000000063",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "Estos «cuadernos» de madera datan de la década de 360 d.C., lo que los convierte en los primeros libros «encuadernados» completos jamás descubiertos."
+            },
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000066",
+              "_type": "span",
+              "marks": [],
+              "text": "Contienen "
+            },
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [
+                "000000000067"
+              ],
+              "text": "cuentas"
+            },
+            {
+              "_key": "000000000069",
+              "_type": "span",
+              "marks": [],
+              "text": ", pagos en especie de los campesinos arrendatarios durante la época romana, contratos matrimoniales y cartas, que proporcionan una valiosa información sobre la vida en los oasis durante este periodo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/el-tiempo-en-egipto/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000060",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-dajla/cosas-que-explorar/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000067",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/mi-cuenta/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [],
+              "text": "El museo también alberga ostraca, fragmentos de cerámica utilizados como material de escritura, que ofrecen detalles importantes sobre la vida cotidiana en los oasis."
+            },
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000006d",
+              "_type": "span",
+              "marks": [],
+              "text": "Un ostracon notable es una carta privada inacabada de unos individuos llamados Psumenais y Kanah a un monje llamado Phibamon de Tamou."
+            },
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [],
+              "text": "En ella se habla de la transmisión de una moneda de oro y de la implicación de varios individuos."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Colección "
+            },
+            {
+              "_key": "000000000073",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "000000000072"
+              ],
+              "text": "copta"
+            },
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " e islámica"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000072",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/los-coptos-de-egipto-guardianes-de-una-antigua-fe/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000076",
+              "_type": "span",
+              "marks": [],
+              "text": "La segunda planta del museo está dedicada a los objetos cristianos e islámicos de los oasis, que datan del siglo III en adelante."
+            },
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000078",
+              "_type": "span",
+              "marks": [],
+              "text": "Esta colección incluye objetos religiosos y artefactos culturalmente significativos de la "
+            },
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "000000000079"
+              ],
+              "text": "historia"
+            },
+            {
+              "_key": "00000000007b",
+              "_type": "span",
+              "marks": [],
+              "text": " más reciente de la región."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000079",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [],
+              "text": "Entre las piezas más destacadas figuran tejidos, iconos, alfarería, cerámica, libros y monedas."
+            },
+            {
+              "_key": "00000000007e",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [],
+              "text": "Prestados "
+            },
+            {
+              "_key": "000000000081",
+              "_type": "span",
+              "marks": [
+                "000000000080"
+              ],
+              "text": "por el Museo Copto de El Cairo"
+            },
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": ", se exponen iconos pintados en madera del siglo XVIII que representan a la Virgen María con el niño Jesús y al mártir Mari Girgis (San Jorge) matando al dragón, un motivo universal."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000080",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "tour.islamic-cairo-day-tour",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000084",
+              "_type": "span",
+              "marks": [],
+              "text": "Una sala aparte está dedicada a objetos de plata, como platos y manteles, procedentes del Palacio Manial de El Cairo."
+            },
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000086",
+              "_type": "span",
+              "marks": [],
+              "text": "El museo también alberga diversos objetos culturales islámicos, como colecciones de monedas."
+            },
+            {
+              "_key": "000000000087",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [],
+              "text": "También se exponen objetos populares que reflejan "
+            },
+            {
+              "_key": "00000000008a",
+              "_type": "span",
+              "marks": [
+                "000000000089"
+              ],
+              "text": "las costumbres y tradiciones de"
+            },
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [],
+              "text": " la región del Valle Nuevo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000089",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/itinerario-de-1-dia-por-las-piramides-de-guiza-disfruta-de-las-maravillas-del-antiguo-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000091",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008d",
+              "_type": "span",
+              "marks": [],
+              "text": "El Museo Cultural de Kharga ofrece un cautivador viaje a través de la historia y el patrimonio cultural de los Oasis de Kharga y Dakhla, proporcionando un valioso recurso para comprender la rica historia de esta región desértica de "
+            },
+            {
+              "_key": "00000000008f",
+              "_type": "span",
+              "marks": [
+                "00000000008e"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000090",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008e",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/programas-de-viaje-por-egipto/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000093",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000092",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000095",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en 26 de Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000097",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000096",
+              "_type": "span",
+              "marks": [],
+              "text": "PRESENTACIÓN DEL OASIS DE KHARGA"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000099",
+              "_type": "span",
+              "marks": [
+                "000000000098"
+              ],
+              "text": "Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000098",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-historia-de-oasis-de-kharga/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009c",
+              "_type": "span",
+              "marks": [
+                "00000000009b"
+              ],
+              "text": "El tiempo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/kharga-oasis-y-su-clima/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009e",
+              "_type": "span",
+              "marks": [],
+              "text": "PLANIFICA TU VIAJE"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a1",
+              "_type": "span",
+              "marks": [
+                "0000000000a0"
+              ],
+              "text": "Cómo ir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a0",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-llegar-al-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a4",
+              "_type": "span",
+              "marks": [
+                "0000000000a3"
+              ],
+              "text": "Dónde alojarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a3",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/donde-dormir-en-el-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [],
+              "text": "MIENTRAS ESTÉS ALLÍ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000aa",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [
+                "0000000000a8"
+              ],
+              "text": "Cómo desplazarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a8",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-moverse-en-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ad",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ac",
+              "_type": "span",
+              "marks": [
+                "0000000000ab"
+              ],
+              "text": "Cosas que hacer"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000ab",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/es-que-hacer-en-el-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000af",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [],
+              "text": "LUGARES DONDE IR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b1",
+              "_type": "span",
+              "marks": [
+                "0000000000b0"
+              ],
+              "text": "Cementerio de El-Bagawat"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b0",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/cementerio-de-el-bagawat/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b4",
+              "_type": "span",
+              "marks": [
+                "0000000000b3"
+              ],
+              "text": "Qasr El-Ghueita"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b3",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.kharga-oasis.qasr-el-ghueita",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b7",
+              "_type": "span",
+              "marks": [
+                "0000000000b6"
+              ],
+              "text": "Fortaleza y Templo de Nadura"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b6",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-59722",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000bb",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ba",
+              "_type": "span",
+              "marks": [
+                "0000000000b9"
+              ],
+              "text": "Templo de Hibis"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b9",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-59729",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000be",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000bd",
+              "_type": "span",
+              "marks": [
+                "0000000000bc"
+              ],
+              "text": "Museo Cultural Kharga"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000bc",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-59718",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c0",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000bf",
+              "_type": "span",
+              "marks": [],
+              "text": "OTROS"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c3",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c2",
+              "_type": "span",
+              "marks": [
+                "0000000000c1"
+              ],
+              "text": "Visitas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000c1",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/mejores-tours-en-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c6",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c5",
+              "_type": "span",
+              "marks": [
+                "0000000000c4"
+              ],
+              "text": "Alimentación"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000c4",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/gastronomia-del-oasis-de-kharga/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000c9",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000c8",
+              "_type": "span",
+              "marks": [
+                "0000000000c7"
+              ],
+              "text": "Solo Aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000c7",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/oasis-de-kharga-solo-aqui/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ca",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/History-of-Kharga-Oasis-Kharga-Oasis-Tavel-Guide-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Leisure Activities"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Portales de piedra secuenciales en el Oasis de Kharga se abren a la inmensidad de los cielos de Egipto"
+            }
+          ]
+        },
+        {
+          "_key": "0000000000cb",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/kharga-oasis-facts-trips-in-egypt.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Ruins of mud brick walls and arches in a desert"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "La belleza desgastada de una arquitectura desértica olvidada."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "神殿について"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "カーラ文化博物館は、エジプト文化省による地域博物館計画の一環として新たに設立された施設で、カーラ・オアシスとダフラ・オアシスで発見された遺物を網羅的に紹介しています。建物は、バガワットの初期キリスト教建築様式を模して、現地のレンガを用いて建てられており、エジプトの豊かな歴史遺産を体現する存在です。先史時代からイスラム時代までの遺物を展示し、訪れる人々に砂漠地域の歴史を巡る旅を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "先史時代および古王国コレクション"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "博物館の1階では、西方砂漠における先史時代および初期の人類活動を物語る品々を展示しています。先史時代の石器、ダチョウの卵、さまざまな遺物から、この地域に古くから人が住んでいたことが明らかになります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "これらの多くは、ダフラ・オアシス・プロジェクトによる発掘調査の成果であり、ロイヤル・オンタリオ博物館の協力を受けたカーラ先史プロジェクトによって紹介されています。展示物にはアラビア語と英語による説明があり、訪問者の理解を深めてくれます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "ファラオ時代、オアシスは重要な地方行政区であり、西および南からの侵略者に対する前線防衛線でもありました。館内には、ファラオ時代の墓から出土した副葬品が展示されており、第6王朝のイマ・ペピの墓から出土した石片や、ダフラ・オアシスのバラートでフランス隊によって発見されたケント・カーの偽扉のステラ（石碑）などが並びます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "ケント・カーは第6王朝時代のオアシス総督で、彼のマスタバ墓はダフラのキラ・エル・ダアバで保存されています。中でも注目すべきは、この石灰岩製の偽扉が「オアシス（ワハト）」という語の最古の使用例である点です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "バラートで発見された「オアシス総督」イマ・ペピとその妻の二体像は、博物館1階の目玉展示のひとつです。そのほか、彩色されたスズカケの木で作られたグレコ・ローマン時代の棺、ラベカでフランス隊により発見されたものなど、木棺やミイラマスクも見ることができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "グレコ・ローマン・コレクション"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "グレコ・ローマン時代の展示品には、故人の顔を彩ったカルトナージュ製のミイラマスクがあります。これらのマスクは彩色や金箔が施され、色鮮やかな印象を与えます。特に注目すべきは、ダフラのデイル・エル・ハガール神殿で発見された3体の人頭ライオンスフィンクスです。エジプトのスフィンクスとしては珍しく、ローマ時代のこの像は2体が直立したしゃがみ姿勢で、人間の顔を持ち、1体は翼を持つ女性のスフィンクスです。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "1階には、ガラスケースに入った新渓谷（ニュー・ヴァレー）で発見された小型の出土品も展示されています。中でもフランス隊がドゥシュで発掘した「バー・バード」（魂の鳥）の木製ミニチュア群は印象的で、これらは死者と共に埋葬され、魂の五つの構成要素を表し、来世への旅路で魂を守ると考えられていました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "また、ローマ時代にこの地域に存在した人々の生活を物語るガラス製品、陶器、コインなどの遺物も展示されています。特に貴重なのは、ダフラのイスマント・エル・カラブで発見されたケリス木板文書（コーデックス）で、360年代にさかのぼる、現存最古の製本された「書物」です。これらには、ローマ時代の小作農による物納記録や婚姻契約書、手紙などが記され、当時の生活を克明に伝えています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000019",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "博物館では、書写に使われた陶器片「オストラコン」も紹介されており、日常生活に関する貴重な情報源となっています。中でも有名なのは、タモウの修道士フィバモンに宛てた、プスメナイスとカナフからの未完成の私信です。これは金貨のやりとりと複数の人物の関与について述べた内容です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": "コプトおよびイスラム・コレクション"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": "博物館の2階には、3世紀以降のオアシス地域におけるキリスト教とイスラム教関連の遺物が展示されています。宗教的・文化的に価値のある品々がそろい、地域の近世史を感じることができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころは、織物、イコン、陶器、書籍、コインなどで、カイロのコプト博物館から貸し出された18世紀の木製彩色イコンもあります。中には、幼子イエスを抱く聖母マリアや、ドラゴンを倒す殉教者マリ・ギルギス（聖ゲオルギウス）を描いたものも含まれています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "また、カイロのマニアル宮殿から移された銀製の皿やテーブルクロスなどを展示する部屋もあります。イスラム文化を反映するコインコレクションや、ニュー・ヴァレー地域の習慣や伝統を示す民俗資料も豊富に展示されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "カーラ文化博物館は、カーラ・オアシスおよびダフラ・オアシスの歴史と文化遺産を深く知ることのできる貴重な場所です。この砂漠地帯に息づく過去の物語を、感動的かつ包括的に伝えてくれる魅力あふれる博物館です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000027",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日：2025年3月26日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000029",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [],
+              "text": "ハルガオアシスの紹介"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "00000000002a"
+              ],
+              "text": "歴史"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/ハルガダの歴史をたどる旅/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [
+                "00000000002d"
+              ],
+              "text": "天気"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%E3%83%8F%E3%83%AB%E3%82%AC%E3%83%80%E3%81%AE%E5%A4%A9%E6%B0%97%E4%BA%88%E5%A0%B1/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000031",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行の計画"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "000000000032"
+              ],
+              "text": "行き方"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000032",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%ab%e3%82%ac%e3%83%bb%e3%82%aa%e3%82%a2%e3%82%b7%e3%82%b9%e3%81%b8%e3%81%ae%e8%a1%8c%e3%81%8d%e6%96%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000037",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [
+                "000000000035"
+              ],
+              "text": "宿泊先"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000035",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%ab%e3%82%ac%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e5%bf%ab%e9%81%a9%e3%81%ae%e3%82%aa%e3%82%a2%e3%82%b7%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": "滞在中に"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [
+                "00000000003a"
+              ],
+              "text": "現地での移動方法"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%ab%e3%82%ac%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%a0%82%e6%bc%a0%e3%81%ae%e5%86%92%e9%99%ba/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "00000000003d"
+              ],
+              "text": "おすすめのアクティビティ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8f%e3%83%ab%e3%82%ac%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%ac%e3%82%b8%e3%83%a3%e3%83%bc%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [
+                "000000000042"
+              ],
+              "text": "エル・バガワット墓地"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000042",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a8%e3%83%ab%e3%83%bb%e3%83%90%e3%82%ac%e3%83%af%e3%83%83%e3%83%88%e3%81%ae%e5%a2%93%e5%9c%b0/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "000000000045"
+              ],
+              "text": "カスル・エル・ゲイタ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000045",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/カスル・エル・グウェイタ/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [
+                "000000000048"
+              ],
+              "text": "ナドゥラの要塞と寺院"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000048",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%8a%e3%83%89%e3%82%a5%e3%83%bc%e3%83%a9%e3%81%ae%e7%a0%a6%e3%81%a8%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [
+                "00000000004b"
+              ],
+              "text": "ヒビス神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%83%92%e3%83%93%e3%82%b9%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000050",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [
+                "00000000004e"
+              ],
+              "text": "カルガ文化博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%ab%e3%83%ab%e3%82%ac%e6%96%87%e5%8c%96%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000052",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": "その他"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [
+                "000000000053"
+              ],
+              "text": "ツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000053",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%b5%e3%83%95%e3%82%a1%e3%83%aa/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000058",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000057",
+              "_type": "span",
+              "marks": [
+                "000000000056"
+              ],
+              "text": "食べ物"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000056",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%aa%e3%82%a2%e3%82%b7%e3%82%b9%e3%82%92%e5%91%b3%e3%82%8f%e3%81%86/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [
+                "000000000059"
+              ],
+              "text": "ここだけ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000059",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%81%93%e3%81%93%e3%81%a0%e3%81%91-%e3%83%8f%e3%83%ab%e3%82%ac%e3%83%bb%e3%82%aa%e3%82%a2%e3%82%b7%e3%82%b9/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005c",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/History-of-Kharga-Oasis-Kharga-Oasis-Tavel-Guide-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Leisure Activities"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "カルガ・オアシスに並ぶ石の門――その先に広がるエジプトの果てしない空。"
+            }
+          ]
+        },
+        {
+          "_key": "00000000005d",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/kharga-oasis-facts-trips-in-egypt.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Ruins of mud brick walls and arches in a desert"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "忘れ去られた砂漠建築に刻まれた、風化の美。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "city": {
+    "_ref": "wp-page-58873",
+    "_type": "reference"
+  },
+  "migration": {
+    "migratedAt": "2026-05-07T11:15:15.443Z",
+    "reviewFlag": "superseded-by-guideArticle",
+    "source": "wp-import",
+    "supersededAt": "2026-05-20T15:23:40.818Z",
+    "supersededBy": "guideArticle.kharga-oasis.kharga-cultural-museum",
+    "wpId": 59718,
+    "wpModifiedAt": "2025-07-24T13:14:19",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/kharga-cultural-museum/"
+  },
+  "monumentType": "museum",
+  "name": [
+    {
+      "_key": "en",
+      "value": "Kharga Cultural Museum"
+    },
+    {
+      "_key": "es",
+      "value": "Museo Cultural de Kharga"
+    },
+    {
+      "_key": "ja",
+      "value": "カルガ文化博物館"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "kharga-cultural-museum"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "museo-cultural-de-kharga"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "カルガ文化博物館"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "About The Museum The Kharga Cultural Museum, a recent addition to the Egyptian Ministry of Culture s regional museum plan, offers a comprehensive overview of the antiquities discovered in Kharga and Dakhla Oases. Constructed using local bri"
+    },
+    {
+      "_key": "es",
+      "value": "Sobre el Templo El Museo Cultural de Kharga, reciente incorporación al plan de museos regionales del Ministerio de Cultura egipcio, ofrece una visión completa de las antigüedades descubiertas en los oasis de Kharga y Dakhla.Construido con l"
+    },
+    {
+      "_key": "ja",
+      "value": "神殿について カーラ文化博物館は、エジプト文化省による地域博物館計画の一環として新たに設立された施設で、カーラ・オアシスとダフラ・オアシスで発見された遺物を網羅的に紹介しています。建物は、バガワットの初期キリスト教建築様式を模して、現地のレンガを用いて建てられており、エジプトの豊かな歴史遺産を体現する存在です。先史時代からイスラム時代までの遺物を展示し、訪れる人々に砂漠地域の歴史を巡る旅を提供します。 先史時代および古王国コレクション 博物館の1階では、西方砂漠における先史時"
+    }
+  ]
+}

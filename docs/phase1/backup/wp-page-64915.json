@@ -1,0 +1,3026 @@
+{
+  "_createdAt": "2026-05-06T23:02:48Z",
+  "_id": "wp-page-64915",
+  "_rev": "I3z6540U8Hkd6LbcFYJpJ1",
+  "_type": "wikiMonument",
+  "_updatedAt": "2026-06-12T17:14:10Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "The Philae Temple in Aswan"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000006",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "The Temple of Philae, a gem of ancient Egyptian architecture and mythology, is located on "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "Agilika Island"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": " near Aswan. This temple, dedicated to the goddess Isis, was originally on Philae Island but was relocated to Agilika in the 1960s to save it from the floodwaters caused by the construction of the Aswan High Dam."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Agilkia_Island",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Key Features of the Philae Temple:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Relocation and Preservation"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": ": Due to the Aswan High Dam’s construction, the temples on Philae Island were at risk of submersion. UNESCO spearheaded a massive engineering project to relocate these structures to the nearby Agilika Island. This move preserved the temple’s original orientation and architectural integrity."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Architectural Significance"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": ": The most ancient monument on Philae is the Nectanebo I Kiosk from Dynasty XXX. The "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "temple complex primarily comprises Roman"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": " and Ptolemaic structures, reshaped to mirror the classic appearance of Philae Island."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000000e",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.baris.the-roman-fortress-at-dush",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Historical Legends"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": ": Philae is steeped in legend, particularly surrounding the story of Isis finding the heart of Osiris, her murdered husband, on the island. This mythological significance made Philae a vital center for the cults of Isis and Hathor during Roman times."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cultural Attractions"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ": The Sound and Light Show at Philae, held every evening, is a popular tourist attraction. It brings to life the legends associated with the temple against the backdrop of its floodlit monuments."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Structural Details"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": ": The temple complex includes:The Nectanebo I Kiosk, believed to be the oldest surviving structure."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "The first pylon constructed by Ptolemy XII, featuring classic Egyptian-style decorations."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "The Hypostyle Hall leading to the main sanctuary, adorned with reliefs depicting the life and death of Osiris."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "The smaller "
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "000000000020"
+              ],
+              "text": "Hathor Temple"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": ", showcasing Ptolemaic columns and various reliefs."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000020",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.qena.the-temple-of-hathor",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "The Trajan Kiosk, an iconic part of Philae known for its open structure and absence of a roof."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Adjacent Historical Sites"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": ": Nearby islands like Konosso and Biga have their own historical significance related to the Osiris myth and the cult practices of ancient "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "000000000028"
+              ],
+              "text": "Egypt"
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000028",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/contact-us/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Visitor Experience"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": ": The temple can be accessed by boat, "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "offering a unique"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " approach to this historical site. The overall experience is enriched by the "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "000000000031"
+              ],
+              "text": "scenic Nile River"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " and the surrounding landscape."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000002e",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-65273",
+                "_type": "reference"
+              }
+            },
+            {
+              "_key": "000000000031",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-112663-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000039",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "In summary, the Temple of Philae is not only an architectural marvel but also a cultural and historical treasure, representing the rich legacy of "
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "000000000036"
+              ],
+              "text": "ancient Egyptian mythology"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [],
+              "text": " and religion. Its relocation and preservation are testaments to global efforts in protecting and celebrating world heritage."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000036",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-post-115456-en",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Aswan-City-Egypt-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Traditional felucca sailboats on the blue waters of the Nile River with Aswan cityscape in the background."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Feluccas navigating the timeless flow of the Nile in Aswan, Egypt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "El Templo de Filae en Asuán"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000008",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "El Templo de Filae, una joya de la arquitectura y mitología del antiguo Egipto, se encuentra en "
+            },
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "000000000003"
+              ],
+              "text": "la isla de Agilika"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "span",
+              "marks": [],
+              "text": ", cerca de Asuán."
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": "Este templo, dedicado a la diosa Isis, se encontraba originalmente en la isla de Filae, pero fue trasladado a Agilika en la década de 1960 para salvarlo de las inundaciones provocadas por la construcción de la Presa Alta de Asuán."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000003",
+              "_type": "externalLink",
+              "href": "https://es.wikipedia.org/wiki/Isla_Agilkia",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": "Características principales del Templo de Filae:"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Reubicación y conservación"
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": ": Debido a la construcción de la Gran Presa de Asuán, los templos de la isla de Filae corrían peligro de quedar sumergidos."
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "La UNESCO encabezó un enorme proyecto de ingeniería para trasladar estas estructuras a la cercana isla de Agilika."
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "Este "
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [
+                "000000000011"
+              ],
+              "text": "traslado preservó la orientación original del"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": " templo y su integridad arquitectónica."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000011",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/llegada-sin-contratiempos-traslado-del-aeropuerto-de-el-cairo-al-hotel/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Importancia arquitectónica"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": ": El monumento más antiguo de Filae es el Kiosco de Nectanebo I, de la dinastía XXX."
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": "El "
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "000000000019"
+              ],
+              "text": "complejo de templos"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": " está formado principalmente por estructuras romanas y ptolemaicas, remodeladas para reflejar el aspecto clásico de la isla de Filae."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000019",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-88397",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000024",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Leyendas históricas"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": ": Filae está impregnada de leyendas, sobre todo en torno a la "
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [
+                "00000000001f"
+              ],
+              "text": "historia"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": " de Isis, que encontró en la isla el corazón de Osiris, su marido asesinado."
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "span",
+              "marks": [],
+              "text": "Este significado mitológico hizo de Philae un centro vital para los cultos de Isis y Hathor en la época romana."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000001f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Atracciones culturales"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": ": El Espectáculo de Luz y Sonido de Filae, "
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "000000000027"
+              ],
+              "text": "que se celebra todas las"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": " noches, es una atracción turística muy popular."
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "Da vida a "
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [
+                "00000000002c"
+              ],
+              "text": "las leyendas asociadas al templo con"
+            },
+            {
+              "_key": "00000000002e",
+              "_type": "span",
+              "marks": [],
+              "text": " el telón de fondo de sus monumentos iluminados."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000027",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/la-guia-definitiva-de-las-vacaciones-todo-incluido-en-egipto/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-ras-sudr/los-vientos-se-encuentran-con-las-olas/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000035",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Detalles estructurales"
+            },
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": ": El complejo del templo incluye:El Kiosco de Nectanebo I, "
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "000000000032"
+              ],
+              "text": "que"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " se cree que es la estructura más antigua que se conserva."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000032",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-guiza/menfis-la-ciudad-antigua/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": "El primer pilono construido por Ptolomeo XII, "
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "000000000037"
+              ],
+              "text": "con decoraciones clásicas de estilo"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": " egipcio."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000037",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-hurghada/mantente-con-estilo/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "La Sala "
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [
+                "00000000003c"
+              ],
+              "text": "Hipóstila"
+            },
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [],
+              "text": " que conduce al santuario principal, adornada con relieves que representan la vida y la muerte de Osiris."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "00000000003c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-qena/techo-hipostilo/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000043",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "000000000040"
+              ],
+              "text": "El Templo de Hathor"
+            },
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": ", más pequeño, muestra columnas ptolemaicas y varios relieves."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [
+            {
+              "_key": "000000000040",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "guideArticle.qena.the-temple-of-hathor",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000045",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [],
+              "text": "El Quiosco de Trajano, una parte emblemática de Filae conocida por su estructura abierta y la ausencia de tejado."
+            }
+          ],
+          "level": 1,
+          "listItem": "number",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Lugares históricos adyacentes"
+            },
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": ": Las islas cercanas, como Konosso y Biga, tienen su propio significado histórico relacionado con el mito de Osiris y las prácticas de culto del antiguo "
+            },
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [
+                "000000000048"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "00000000004a",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "000000000048",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000055",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004c",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Experiencia del "
+            },
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "strong",
+                "00000000004d"
+              ],
+              "text": "visitante"
+            },
+            {
+              "_key": "00000000004f",
+              "_type": "span",
+              "marks": [],
+              "text": ": Se puede acceder al templo en barco, lo que ofrece un acercamiento único a este lugar histórico."
+            },
+            {
+              "_key": "000000000050",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [],
+              "text": " La experiencia global se ve enriquecida "
+            },
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [
+                "000000000052"
+              ],
+              "text": "por el pintoresco río Nilo"
+            },
+            {
+              "_key": "000000000054",
+              "_type": "span",
+              "marks": [],
+              "text": " y el paisaje circundante. "
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [
+            {
+              "_key": "00000000004d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-beni-suef/visitas/",
+              "newTab": false
+            },
+            {
+              "_key": "000000000052",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/vacaciones-en-un-crucero-por-el-nilo/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [],
+              "text": "En resumen, el Templo de Filae no es sólo una maravilla arquitectónica, sino también un tesoro cultural e histórico, que representa el rico legado de la mitología y la religión del antiguo "
+            },
+            {
+              "_key": "000000000058",
+              "_type": "span",
+              "marks": [
+                "000000000057"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            },
+            {
+              "_key": "00000000005a",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "00000000005b",
+              "_type": "span",
+              "marks": [],
+              "text": " Su traslado y conservación son testimonio de "
+            },
+            {
+              "_key": "00000000005d",
+              "_type": "span",
+              "marks": [
+                "00000000005c"
+              ],
+              "text": "los esfuerzos mundiales por"
+            },
+            {
+              "_key": "00000000005e",
+              "_type": "span",
+              "marks": [],
+              "text": " proteger y celebrar el patrimonio mundial. "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000057",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/propinas-en-egipto/",
+              "newTab": false
+            },
+            {
+              "_key": "00000000005c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/guia-de-viaje-de-al-quseir/navega-por-los-viajes/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000061",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000060",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000065",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000064",
+              "_type": "span",
+              "marks": [],
+              "text": "presentación de asuán"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000068",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000067",
+              "_type": "span",
+              "marks": [
+                "000000000066"
+              ],
+              "text": "Historia"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000066",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/historia-de-asuan/",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006a",
+              "_type": "span",
+              "marks": [
+                "000000000069"
+              ],
+              "text": "El tiempo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000069",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/clima-de-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006c",
+              "_type": "span",
+              "marks": [],
+              "text": "PLANIFICA TU VIAJE"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000070",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006f",
+              "_type": "span",
+              "marks": [
+                "00000000006e"
+              ],
+              "text": "Cómo ir"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/como-llegar-a-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000073",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000072",
+              "_type": "span",
+              "marks": [
+                "000000000071"
+              ],
+              "text": "Dónde alojarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000071",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/alojamiento-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [],
+              "text": "MIENTRAS ESTÉS ALLÍ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [
+                "000000000076"
+              ],
+              "text": "Cómo desplazarse"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000076",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/embarque-en-viajes/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "000000000079"
+              ],
+              "text": "Cosas que hacer"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000079",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/tesoro-escondido-de-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007c",
+              "_type": "span",
+              "marks": [],
+              "text": "LUGARES DONDE IR"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000080",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007f",
+              "_type": "span",
+              "marks": [
+                "00000000007e"
+              ],
+              "text": "Isla Elefantina"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007e",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/isla-elefantina/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [
+                "000000000081"
+              ],
+              "text": "El templo de Kalabsha"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000081",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-templo-de-kalabsha/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000086",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [
+                "000000000084"
+              ],
+              "text": "Tumbas de los Nobles en Asuán"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000084",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/tumbas-de-los-nobles-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [
+                "000000000087"
+              ],
+              "text": "El Museo de Asuán"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000087",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-museo-de-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [
+                "00000000008a"
+              ],
+              "text": "Templo de Isis de Asuán – Pompeya"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008a",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/templo-de-isis-de-asuan-pompeya/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [
+                "00000000008d"
+              ],
+              "text": "El templo de Filae"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008d",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-templo-de-filae/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000092",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000091",
+              "_type": "span",
+              "marks": [
+                "000000000090"
+              ],
+              "text": "El Museo Nubio"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000090",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-museo-nubio/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000095",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000094",
+              "_type": "span",
+              "marks": [
+                "000000000093"
+              ],
+              "text": "El Obelisco Inacabado "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000093",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-obelisco-inacabado/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000098",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000097",
+              "_type": "span",
+              "marks": [
+                "000000000096"
+              ],
+              "text": "Monasterio de San Simeón "
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000096",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/monasterio-de-san-simeon/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009a",
+              "_type": "span",
+              "marks": [
+                "000000000099"
+              ],
+              "text": "La Presa Alta"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000099",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/la-presa-alta/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000009e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000009d",
+              "_type": "span",
+              "marks": [
+                "00000000009c"
+              ],
+              "text": "Isla de Kitchener"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009c",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/isla-de-kitchener/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a1",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a0",
+              "_type": "span",
+              "marks": [
+                "00000000009f"
+              ],
+              "text": "Isla de Sehel"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000009f",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/isla-de-sehel/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a4",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a3",
+              "_type": "span",
+              "marks": [
+                "0000000000a2"
+              ],
+              "text": "El Jardín Botánico"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a2",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-jardin-botanico/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000a7",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a6",
+              "_type": "span",
+              "marks": [
+                "0000000000a5"
+              ],
+              "text": "Mercado local de Asuán"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a5",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/mercado-local-de-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000aa",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000a9",
+              "_type": "span",
+              "marks": [
+                "0000000000a8"
+              ],
+              "text": "El Mausoleo de Agha Khan"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000a8",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/el-mausoleo-de-agha-khan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000ac",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ab",
+              "_type": "span",
+              "marks": [],
+              "text": "OTROS"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000af",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000ae",
+              "_type": "span",
+              "marks": [
+                "0000000000ad"
+              ],
+              "text": "Visitas"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000ad",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/tours-destacados-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b2",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b1",
+              "_type": "span",
+              "marks": [
+                "0000000000b0"
+              ],
+              "text": "Alimentación"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b0",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/festin-culinario/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b5",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b4",
+              "_type": "span",
+              "marks": [
+                "0000000000b3"
+              ],
+              "text": "Sólo aquí"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b3",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/es/unicamente-en-asuan/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b8",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "0000000000b7",
+              "_type": "span",
+              "marks": [
+                "0000000000b6"
+              ],
+              "text": "Eventos"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "0000000000b6",
+              "_type": "externalLink",
+              "href": "http://travel2egypt.org/es/guia-de-viaje-de-asuan/eventos-festivales/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "0000000000b9",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Aswan-City-Egypt-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Traditional felucca sailboats on the blue waters of the Nile River with Aswan cityscape in the background."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Feluccas navigating the timeless flow of the Nile in Aswan, Egypt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンのフィラエ神殿"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "フィラエ神殿は、古代エジプトの建築と神話の宝石ともいえる存在で、アスワン近郊のアギリカ島に位置しています。この神殿は女神イシスに捧げられたもので、もともとはフィラエ島にありましたが、1960年代にアスワン・ハイ・ダムの建設による水没を防ぐため、アギリカ島へ移設されました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "フィラエ神殿の主要な特徴"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "移設と保存"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワン・ハイ・ダムの建設により、フィラエ島の神殿群は水没の危機にさらされました。ユネスコの主導のもと、大規模な工学プロジェクトが実施され、神殿は近隣のアギリカ島へ移設されました。この移設により、神殿の元々の方角や建築的な整合性が維持されました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "建築的な重要性"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "フィラエに残る最古の建築物は、第30王朝時代のネクタネボ1世のキオスクです。神殿の主要部分は、ローマ時代およびプトレマイオス朝の構造物で構成されており、フィラエ島の古典的な姿を再現する形で配置されています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "歴史的な伝説"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "フィラエ島は伝説に彩られた場所であり、特に「イシスが夫オシリスの心臓をこの島で見つけた」という神話に深く結びついています。この神話的な重要性から、ローマ時代にはイシスとハトホルの信仰の中心地となりました。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "文化的な魅力"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000015",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "フィラエ神殿では毎晩「音と光のショー」が開催され、神殿にまつわる伝説がライトアップされた神殿を背景に語られます。このショーは観光客に人気のアトラクションとなっています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "神殿の構造"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ネクタネボ1世のキオスク"
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [],
+              "text": " – 現存する最古の建造物"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "第一塔門（プトレマイオス12世による建設）"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [],
+              "text": " – 古典的なエジプト様式の装飾が特徴"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "列柱室（ヒポスタイル・ホール）"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": " – 主祭殿へと続くホールで、オシリスの生涯と死を描いた浮彫が残る"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "ハトホル神殿"
+            },
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": " – プトレマイオス様式の柱やレリーフが見どころ"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000026",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "トラヤヌスのキオスク"
+            },
+            {
+              "_key": "000000000025",
+              "_type": "span",
+              "marks": [],
+              "text": " – 屋根のない開放的な構造が特徴的で、フィラエの象徴的存在"
+            }
+          ],
+          "level": 1,
+          "listItem": "bullet",
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000028",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": "周辺の歴史的遺跡"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": "近くのコノッソ島やビガ島も、オシリス神話や古代エジプトの宗教的儀式に関連する歴史的な価値を持っています。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [],
+              "text": "訪問者の体験"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000002e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "フィラエ神殿へはボートでアクセスでき、ナイル川の美しい風景を眺めながら神殿へと向かうユニークな体験が楽しめます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000030",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [],
+              "text": "まとめ"
+            }
+          ],
+          "markDefs": [],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000032",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000031",
+              "_type": "span",
+              "marks": [],
+              "text": "フィラエ神殿は、建築の傑作であるだけでなく、古代エジプトの神話と宗教を象徴する文化的・歴史的遺産です。その移設と保存は、世界遺産を守るための国際的な努力の証でもあります。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "作成日:"
+            },
+            {
+              "_key": "000000000034",
+              "_type": "span",
+              "marks": [],
+              "text": " 2020年3月18日"
+            },
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000036",
+              "_type": "span",
+              "marks": [],
+              "text": " "
+            },
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000038",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": " 更新日:"
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [],
+              "text": " 2025年3月11日"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003b",
+              "_type": "span",
+              "marks": [],
+              "text": "アスワンの紹介"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000003f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000003e",
+              "_type": "span",
+              "marks": [
+                "00000000003d"
+              ],
+              "text": "歴史"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000003d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/歴史に彩られたアスワンの街並み/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000042",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000041",
+              "_type": "span",
+              "marks": [
+                "000000000040"
+              ],
+              "text": "天気"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000040",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e4%bb%8a%e6%97%a5%e3%81%ae%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%81%ae%e5%a4%a9%e6%b0%97/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000044",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000043",
+              "_type": "span",
+              "marks": [],
+              "text": "旅行の計画"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000047",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000046",
+              "_type": "span",
+              "marks": [
+                "000000000045"
+              ],
+              "text": "行き方"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000045",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%82%ac%e3%82%a4%e3%83%89/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [
+                "000000000048"
+              ],
+              "text": "宿泊先"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000048",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%E3%82%A2%E3%82%B9%E3%83%AF%E3%83%B3%E3%81%AE%E5%AE%BF%E6%B3%8A%E3%82%AA%E3%83%97%E3%82%B7%E3%83%A7%E3%83%B3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004b",
+              "_type": "span",
+              "marks": [],
+              "text": "滞在中に"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000004e",
+              "_type": "span",
+              "marks": [
+                "00000000004d",
+                "strong"
+              ],
+              "text": "現地での移動方法"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000004d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/アスワン交通手段まとめ/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000052",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000051",
+              "_type": "span",
+              "marks": [
+                "000000000050",
+                "strong"
+              ],
+              "text": "おすすめのアクティビティ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000050",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%93%e3%83%86%e3%82%a3%e3%81%ae%e5%ae%9d%e5%ba%ab/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000054",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000053",
+              "_type": "span",
+              "marks": [],
+              "text": "見どころ"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000057",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000056",
+              "_type": "span",
+              "marks": [
+                "000000000055"
+              ],
+              "text": "エレファンティネ島"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000055",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a8%e3%83%ac%e3%83%95%e3%82%a1%e3%83%b3%e3%83%86%e3%82%a3%e3%83%8d%e5%b3%b6/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000059",
+              "_type": "span",
+              "marks": [
+                "000000000058"
+              ],
+              "text": "カラブシャ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000058",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ab%e3%83%a9%e3%83%96%e3%82%b7%e3%83%a3%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000005d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005c",
+              "_type": "span",
+              "marks": [
+                "00000000005b"
+              ],
+              "text": "アスワンの貴族の墓"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005b",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%81%ae%e8%b2%b4%e6%97%8f%e3%81%ae%e5%a2%93/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000060",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000005f",
+              "_type": "span",
+              "marks": [
+                "00000000005e"
+              ],
+              "text": "アスワン博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000005e",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000063",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000062",
+              "_type": "span",
+              "marks": [
+                "000000000061"
+              ],
+              "text": "アスワン・イシス神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000061",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%83%bb%e3%82%a4%e3%82%b7%e3%82%b9%e7%a5%9e%e6%ae%bf-%e3%83%9d%e3%83%b3%e3%83%9a%e3%82%a4/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000066",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000065",
+              "_type": "span",
+              "marks": [
+                "000000000064"
+              ],
+              "text": "フィラエ神殿"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000064",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%81%ae%e3%83%95%e3%82%a3%e3%83%a9%e3%82%a8%e7%a5%9e%e6%ae%bf/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000069",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000068",
+              "_type": "span",
+              "marks": [
+                "000000000067"
+              ],
+              "text": "ヌビア博物館"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000067",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%8c%e3%83%93%e3%82%a2%e5%8d%9a%e7%89%a9%e9%a4%a8/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006b",
+              "_type": "span",
+              "marks": [
+                "00000000006a"
+              ],
+              "text": "未完成のオベリスク"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e6%9c%aa%e5%ae%8c%e3%81%ae%e3%82%aa%e3%83%99%e3%83%aa%e3%82%b9%e3%82%af/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000006f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000006e",
+              "_type": "span",
+              "marks": [
+                "00000000006d"
+              ],
+              "text": "聖シメオン修道院"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000006d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e8%81%96%e3%82%b7%e3%83%a1%e3%82%aa%e3%83%b3%e4%bf%ae%e9%81%93%e9%99%a2/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000072",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000071",
+              "_type": "span",
+              "marks": [
+                "000000000070"
+              ],
+              "text": "ハイダム"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000070",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%83%bb%e3%83%8f%e3%82%a4%e3%83%bb%e3%83%80%e3%83%a0/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000075",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000074",
+              "_type": "span",
+              "marks": [
+                "000000000073"
+              ],
+              "text": "キッチナー島"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000073",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%ad%e3%83%83%e3%83%81%e3%83%8a%e3%83%bc%e5%b3%b6/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000078",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000077",
+              "_type": "span",
+              "marks": [
+                "000000000076"
+              ],
+              "text": "セヘル島"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000076",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%bb%e3%83%98%e3%83%ab%e5%b3%b6/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007a",
+              "_type": "span",
+              "marks": [
+                "000000000079"
+              ],
+              "text": "植物園"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000079",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%83%9c%e3%82%bf%e3%83%8b%e3%82%ab%e3%83%ab%e3%83%bb%e3%82%ac%e3%83%bc%e3%83%87%e3%83%b3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000007e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000007d",
+              "_type": "span",
+              "marks": [
+                "00000000007c"
+              ],
+              "text": "アスワン ローカル マーケット"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007c",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e3%81%ae%e3%83%ad%e3%83%bc%e3%82%ab%e3%83%ab%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000081",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000080",
+              "_type": "span",
+              "marks": [
+                "00000000007f"
+              ],
+              "text": "アーガー・ハーン廟"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000007f",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a2%e3%83%bc%e3%82%ac%e3%83%bc%e3%83%bb%e3%83%8f%e3%83%bc%e3%83%b3%e5%bb%9f/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000083",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000082",
+              "_type": "span",
+              "marks": [],
+              "text": "その他"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000086",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000085",
+              "_type": "span",
+              "marks": [
+                "000000000084"
+              ],
+              "text": "ツアー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000084",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e9%81%a0%e8%b6%b3%e3%83%97%e3%83%a9%e3%83%b3/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000089",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000088",
+              "_type": "span",
+              "marks": [
+                "000000000087"
+              ],
+              "text": "食べ物"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000087",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e7%be%8e%e9%a3%9f%e3%81%ae%e9%a5%97%e5%ae%b4/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008b",
+              "_type": "span",
+              "marks": [
+                "00000000008a"
+              ],
+              "text": "ここだけ"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008a",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e6%98%8e%e3%81%8b%e3%81%95%e3%82%8c%e3%82%8b%e4%bd%93%e9%a8%93/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000008f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000008e",
+              "_type": "span",
+              "marks": [
+                "00000000008d"
+              ],
+              "text": "イベント"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000008d",
+              "_type": "externalLink",
+              "href": "https://travel2egypt.org/ja/%e3%82%a2%e3%82%b9%e3%83%af%e3%83%b3%e6%97%85%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89/%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88%e3%83%bb%e3%83%95%e3%82%a7%e3%82%b9%e3%83%86%e3%82%a3%e3%83%90%e3%83%ab/",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000090",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Aswan-City-Egypt-Egypt-Tours-Portal.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Traditional felucca sailboats on the blue waters of the Nile River with Aswan cityscape in the background."
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "エジプト、アスワンで時を超えたナイル川の流れを航行するフェルッカ族"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "city": {
+    "_ref": "wp-page-58758",
+    "_type": "reference"
+  },
+  "migration": {
+    "migratedAt": "2026-05-07T11:13:49.989Z",
+    "reviewFlag": "superseded-by-guideArticle",
+    "source": "wp-import",
+    "supersededAt": "2026-05-20T15:23:40.818Z",
+    "supersededBy": "guideArticle.aswan.the-philae-temple",
+    "wpId": 64915,
+    "wpModifiedAt": "2025-07-13T00:02:39",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/the-philae-temple/"
+  },
+  "monumentType": "temple",
+  "name": [
+    {
+      "_key": "en",
+      "value": "The Philae Temple"
+    },
+    {
+      "_key": "es",
+      "value": "El templo de Filae"
+    },
+    {
+      "_key": "ja",
+      "value": "アスワンのフィラエ神殿"
+    }
+  ],
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "the-philae-temple"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "el-templo-de-filae"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "アスワンのフィラエ神殿"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "The Philae Temple in Aswan The Temple of Philae, a gem of ancient Egyptian architecture and mythology, is located on Agilika Island near Aswan. This temple, dedicated to the goddess Isis, was originally on Philae Island but was relocated to"
+    },
+    {
+      "_key": "es",
+      "value": "El Templo de Filae en Asuán El Templo de Filae, una joya de la arquitectura y mitología del antiguo Egipto, se encuentra en la isla de Agilika, cerca de Asuán.Este templo, dedicado a la diosa Isis, se encontraba originalmente en la isla de "
+    },
+    {
+      "_key": "ja",
+      "value": "アスワンのフィラエ神殿 フィラエ神殿は、古代エジプトの建築と神話の宝石ともいえる存在で、アスワン近郊のアギリカ島に位置しています。この神殿は女神イシスに捧げられたもので、もともとはフィラエ島にありましたが、1960年代にアスワン・ハイ・ダムの建設による水没を防ぐため、アギリカ島へ移設されました。 フィラエ神殿の主要な特徴 移設と保存 アスワン・ハイ・ダムの建設により、フィラエ島の神殿群は水没の危機にさらされました。ユネスコの主導のもと、大規模な工学プロジェクトが実施され、神殿"
+    }
+  ]
+}

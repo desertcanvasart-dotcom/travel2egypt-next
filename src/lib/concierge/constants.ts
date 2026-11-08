@@ -19,8 +19,9 @@ export const CONCIERGE_MODEL = 'claude-sonnet-4-6';
  * amendment in conciergePrompt.ts so briefs/exports attribute behavior to
  * the exact prompt that produced it.
  *  - v4.1.1 (2026-07-03): contact capture requires name + email + phone.
+ *  - v4.2 (S13, reconciled 2026-07-07): portfolio triage on the v4.1.1 base.
  */
-export const CONCIERGE_PROMPT_VERSION = 'v4.1.1';
+export const CONCIERGE_PROMPT_VERSION = 'v4.2';
 
 /**
  * Per-response output ceiling. v4.1 responses are conversational prose —
@@ -36,19 +37,38 @@ export const SESSION_COOKIE_MAX_AGE_SECONDS = 30 * 24 * 60 * 60;
 
 /**
  * Team WhatsApp number (constant, not env — brief Appendix A). The single
- * source for every wa.me link: the S1 fallback, the chat error path, and the
- * S5 escape hatch.
+ * source for every wa.me link: the S1 fallback, the chat error path, the
+ * S5 escape hatch, the tour-system CTAs, hotel/cruise pages and the footer.
+ * Changed 2026-10-27 (owner) from +20 108 091 6066 (and 2026-09-26 from
+ * +20 115 801 1600); siteSettings.contact and the Sanity contact page carry
+ * the same number.
  */
-export const WHATSAPP_NUMBER = '201158011600';
+export const WHATSAPP_NUMBER = '201551772258';
+
+/** Human-readable form of WHATSAPP_NUMBER, for visible link text. */
+export const WHATSAPP_DISPLAY = '+20 155 177 2258';
+
+/** Bare wa.me link (no prefilled message) — for "chat with us" buttons. */
+export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}`;
 
 /** wa.me URL with a prefilled, URL-encoded message. */
 export function whatsappUrl(text: string): string {
-  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+  return `${WHATSAPP_LINK}?text=${encodeURIComponent(text)}`;
 }
 
 /**
- * Public team inbox (constant, not env) — the same address shown in the
- * footer and legal pages. Client-safe: used for the S8 data-export mailto
+ * Public team inbox (constant, not env) — the same address shown on the
+ * legal pages (the footer carries no email; WhatsApp is the primary
+ * channel there). Client-safe: used for the S8 data-export mailto
  * link. The server-side TEAM_INBOX_EMAIL env is a separate concern.
  */
 export const PUBLIC_TEAM_EMAIL = 'info@travel2egypt.org';
+
+/**
+ * Title as it reads after "interested in the …" in the tour WhatsApp prefill:
+ * drops a leading English "The" so "The Giza Sound & Light Show" doesn't
+ * become "the The Giza…". ES/JA titles never start with it.
+ */
+export function waTourTitle(title: string): string {
+  return title.replace(/^the\s+/i, '');
+}

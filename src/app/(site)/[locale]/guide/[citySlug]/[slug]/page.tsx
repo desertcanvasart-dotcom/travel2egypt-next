@@ -146,12 +146,12 @@ export default async function GuideArticlePage({ params }: Props) {
     ? tSections(SECTION_LABEL_KEYS[article.section] ?? 'others')
     : null;
 
-  // Resolve region label for the parent city (used in the breadcrumb trail).
+  // Region crumb for the parent city — anchors to the /guide hub section,
+  // whose ids are the siteSettings.guideRegions keys (see the city page).
   const tNav = await getTranslations({ locale, namespace: 'nav' });
-  const tRegions = await getTranslations({ locale, namespace: 'regions' });
-  const cityRegion = article.parentCity?.region as string | undefined;
-  const regionLabel = cityRegion && tRegions.has(cityRegion as any)
-    ? tRegions(cityRegion as any)
+  const cityRegion = article.parentCity?.guideRegion as string | undefined;
+  const regionLabel = cityRegion
+    ? ((article.parentCity?.guideRegionName as string | undefined) ?? null)
     : null;
 
   const breadcrumbItems = [

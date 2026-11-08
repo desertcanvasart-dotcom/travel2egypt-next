@@ -1,0 +1,152 @@
+{
+  "_comment": "ES/JA renderings of the 6 fact-check-flagged overlap entries — translated from the LIVE EN answers (owner-approved content currently on /faq), NOT the VERIFY-flagged migration rewrites, decoupling localization from the pending fact-check. Plus ES/JA names for the 7 original categories. Canon-gated: figures identical; ES impersonal register; JA formal, full-width punctuation, no italics. Blocks preserve the EN structure (li=true → listItem bullet). STAGED AS DRAFTS — scripts/stage-faq-flagged-esja-drafts.ts.",
+  "categories": {
+    "faq-category-planning-your-visit": { "es": "Planificación del viaje", "ja": "旅行の計画" },
+    "faq-category-money-and-payments": { "es": "Dinero y pagos", "ja": "お金と支払い" },
+    "faq-category-health-and-safety": { "es": "Salud y seguridad", "ja": "健康と安全" },
+    "faq-category-practical-essentials": { "es": "Información práctica", "ja": "実用情報" },
+    "faq-category-culture-and-language": { "es": "Cultura e idioma", "ja": "文化と言語" },
+    "faq-category-avoiding-hassles": { "es": "Evitar contratiempos", "ja": "トラブルの回避" },
+    "faq-category-booking-with-travel2egypt": { "es": "Reservar con Travel2Egypt", "ja": "Travel2Egyptでの予約" }
+  },
+  "entries": {
+    "faq-entry-do-i-need-a-visa-for-egypt": {
+      "es": {
+        "question": "¿Se necesita visado para Egipto?",
+        "blocks": [
+          { "text": "La mayoría de los viajeros, sí. Hay tres vías según la nacionalidad:" },
+          { "li": true, "text": "e-Visa (recomendado para la mayoría): se solicita en línea en el portal oficial antes del viaje. 30 USD la entrada única, tramitado en cuestión de días. Evita las colas del aeropuerto." },
+          { "li": true, "text": "Visado a la llegada: muchas nacionalidades pueden comprarlo por 30 USD en efectivo en los principales aeropuertos. Es rápido, pero añade 20-40 minutos a la llegada." },
+          { "li": true, "text": "Exención de visado: los ciudadanos de determinados países pueden entrar sin visado para estancias cortas. Conviene comprobar las normas vigentes para cada pasaporte." },
+          { "text": "Validez del pasaporte: al menos 6 meses desde la fecha de entrada, sea cual sea el tipo de visado." },
+          { "text": "Una iniciativa reciente permite entrar sin visado a quienes vuelan directamente a los aeropuertos de Luxor o Asuán (de mayo a octubre). Merece la pena comprobarlo si el itinerario encaja." },
+          { "text": "Verificar siempre en el portal oficial de e-Visa de Egipto: las normas y las tasas cambian." }
+        ]
+      },
+      "ja": {
+        "question": "エジプトの入国にビザは必要ですか？",
+        "blocks": [
+          { "text": "ほとんどの旅行者に必要です。国籍に応じて3つの方法があります。" },
+          { "li": true, "text": "e-Visa（多くの方におすすめ）——出発前に公式ポータルからオンラインで申請します。シングルエントリーで30 USD、数日で発給されます。空港での行列を避けられます。" },
+          { "li": true, "text": "到着ビザ——多くの国籍の方は、主要空港で現金30 USDで購入できます。手続き自体は簡単ですが、到着時に20〜40分ほど余計にかかります。" },
+          { "li": true, "text": "ビザ免除——一部の国の方は、短期滞在であればビザなしで入国できます。お持ちのパスポートに適用される最新の規定をご確認ください。" },
+          { "text": "パスポートの有効期間：ビザの種類にかかわらず、入国日から6か月以上必要です。" },
+          { "text": "最近の措置として、ルクソールまたはアスワンの空港に直接乗り入れる場合（5月〜10月）、ビザなしで入国できる制度があります。旅程が当てはまる場合は確認する価値があります。" },
+          { "text": "規定や料金は変わるため、必ずエジプト公式のe-Visaポータルでご確認ください。" }
+        ]
+      }
+    },
+    "faq-entry-how-does-tipping-work-in-egypt": {
+      "es": {
+        "question": "¿Cómo funcionan las propinas en Egipto?",
+        "blocks": [
+          { "text": "La propina (baksheesh) forma parte de la vida diaria y no es opcional en la mayoría de los contextos de servicio. Algunas pautas orientativas:" },
+          { "li": true, "text": "Restaurantes: 10% si el servicio no está incluido; conviene revisar la cuenta, a veces se añade automáticamente." },
+          { "li": true, "text": "Limpieza del hotel: 20-50 EGP al día, dejadas en la habitación." },
+          { "li": true, "text": "Botones / maletero: 20-50 EGP por maleta." },
+          { "li": true, "text": "Conductores: 50-100 EGP al día para un conductor privado." },
+          { "li": true, "text": "Guías: 200-500+ EGP al día, según la duración y la calidad." },
+          { "li": true, "text": "Encargados de aseos, ayudantes de aparcamiento, etc.: 5-10 EGP." },
+          { "text": "Llevar siempre billetes pequeños. Intentar cambiar un billete grande para una propina es una frustración frecuente y evitable." }
+        ]
+      },
+      "ja": {
+        "question": "エジプトではチップはどうすればよいですか？",
+        "blocks": [
+          { "text": "チップ（バクシーシ）は日常生活に根付いた習慣で、ほとんどのサービスの場面で欠かせないものです。おおよその目安は次のとおりです。" },
+          { "li": true, "text": "レストラン——サービス料が含まれていない場合は10%。伝票をご確認ください。自動的に加算されている場合もあります。" },
+          { "li": true, "text": "ホテルの客室清掃——1日あたり20〜50 EGPを部屋に置いておきます。" },
+          { "li": true, "text": "ベルボーイ／ポーター——荷物1個につき20〜50 EGP。" },
+          { "li": true, "text": "ドライバー——プライベートドライバーには1日あたり50〜100 EGP。" },
+          { "li": true, "text": "ガイド——1日あたり200〜500 EGP以上。時間の長さと内容によって変わります。" },
+          { "li": true, "text": "トイレの係員、駐車の手伝いなど——5〜10 EGP。" },
+          { "text": "小額紙幣を常に持ち歩いてください。チップのために高額紙幣を崩そうとするのは、よくある——そして避けられる——ストレスです。" }
+        ]
+      }
+    },
+    "faq-entry-how-much-should-i-budget-per-day": {
+      "es": {
+        "question": "¿Cuánto conviene presupuestar por día?",
+        "blocks": [
+          { "text": "Muy variable. Órdenes de magnitud aproximados en USD por persona y día, sin contar los vuelos a Egipto:" },
+          { "li": true, "text": "Viajero económico: 30-60 USD (hostales, transporte público, comida local). Es factible, pero se pierde gran parte de lo que trae a la gente a Egipto." },
+          { "li": true, "text": "Gama media: 100-180 USD (hoteles de 3-4 estrellas, guía privado para las visitas, mezcla de restaurantes locales y turísticos). Lo que gasta la mayoría de los viajeros independientes." },
+          { "li": true, "text": "Confort / Boutique: 200-400 USD (hoteles de 4-5 estrellas, guías y conductores privados, mejores restaurantes, camarote de categoría media en crucero por el Nilo)." },
+          { "li": true, "text": "Lujo: 500-1500+ USD (hoteles de 5 estrellas, cruceros en dahabiya, barcos privados, guías premium)." },
+          { "text": "Esto no incluye el coste de los tours organizados ni de las experiencias de mayor precio (globo aerostático, excursiones de un día a Abu Simbel, etc.). Al viajar con nosotros, el itinerario incluye la mayoría de los costes operativos: el gasto diario de bolsillo se reduce básicamente a comidas, propinas y compras discrecionales." }
+        ]
+      },
+      "ja": {
+        "question": "1日の予算はどのくらい必要ですか？",
+        "blocks": [
+          { "text": "大きく幅があります。エジプトまでの航空券を除いた、お一人1日あたりのUSDでのおおよその目安です。" },
+          { "li": true, "text": "バジェット——30〜60 USD（ホステル、公共交通機関、ローカルフード）。不可能ではありませんが、エジプトを訪れる醍醐味の多くを逃すことになります。" },
+          { "li": true, "text": "ミッドレンジ——100〜180 USD（3〜4つ星ホテル、遺跡見学のプライベートガイド、ローカルと観光客向けのレストランの併用）。個人旅行者の多くはこの水準です。" },
+          { "li": true, "text": "コンフォート／ブティック——200〜400 USD（4〜5つ星ホテル、プライベートのガイドとドライバー、質の高いレストラン、ナイル川クルーズの中位クラスのキャビン）。" },
+          { "li": true, "text": "ラグジュアリー——500〜1500 USD以上（5つ星ホテル、ダハビーヤクルーズ、プライベートボート、トップクラスのガイド）。" },
+          { "text": "この金額には、オーガナイズドツアーや高額な体験（熱気球、アブ・シンベル日帰りツアーなど）の費用は含まれていません。当社とご旅行の場合は、運営費用の大半が旅程に含まれているため、日々の実費は主に食事、チップ、お土産などの任意のお買い物になります。" }
+        ]
+      }
+    },
+    "faq-entry-is-egypt-safe-to-travel-right-now": {
+      "es": {
+        "question": "¿Es seguro viajar a Egipto ahora mismo?",
+        "blocks": [
+          { "text": "En general sí, en las zonas a las que realmente van los viajeros. Las áreas turísticas cuentan con una fuerte presencia de policía y de seguridad turística, y los incidentes con visitantes extranjeros son poco frecuentes." },
+          { "text": "Pautas prácticas:" },
+          { "li": true, "text": "Evitar las zonas fronterizas (el interior del Sinaí más allá de Sharm el-Sheij, el desierto Occidental cerca de la frontera libia, partes del sur de Egipto cercanas a Sudán)." },
+          { "li": true, "text": "Estar al tanto de las recomendaciones vigentes del ministerio de exteriores del país de origen." },
+          { "li": true, "text": "Aplicar las precauciones de sentido común frente a los hurtos (mercados concurridos, transporte público)." },
+          { "li": true, "text": "Seguir las indicaciones del guía sobre manifestaciones o concentraciones políticas: hay que evitarlas." },
+          { "text": "Egipto no es Suiza, pero tampoco es lo que a veces sugieren los titulares internacionales. Cientos de miles de viajeros lo visitan cada año sin incidentes." }
+        ]
+      },
+      "ja": {
+        "question": "いま、エジプトへの旅行は安全ですか？",
+        "blocks": [
+          { "text": "旅行者が実際に訪れる地域については、おおむね安全です。観光地には警察と観光警察が手厚く配置されており、外国人旅行者が巻き込まれる事件はまれです。" },
+          { "text": "実践的な注意点：" },
+          { "li": true, "text": "国境地帯は避けてください（シャルム・エル・シェイク以遠のシナイ半島内陸部、リビア国境に近い西方砂漠、スーダンに近い南部の一部）。" },
+          { "li": true, "text": "自国の外務省が出す最新の渡航情報を確認してください。" },
+          { "li": true, "text": "スリや置き引きには常識的な注意を（混雑した市場、公共交通機関など）。" },
+          { "li": true, "text": "デモや政治集会についてはガイドの助言に従い、近づかないでください。" },
+          { "text": "エジプトはスイスではありませんが、国際ニュースの見出しが時に示唆するような国でもありません。毎年数十万人の旅行者が、何事もなく訪れています。" }
+        ]
+      }
+    },
+    "faq-entry-can-i-get-a-sim-card-in-egypt": {
+      "es": {
+        "question": "¿Se puede conseguir una SIM o datos móviles en Egipto?",
+        "blocks": [
+          { "text": "Sí, con facilidad. Las tres operadoras principales —Vodafone, Orange y Etisalat— venden tarjetas SIM para turistas en los principales aeropuertos nada más llegar, y en tiendas por toda la ciudad. Una SIM con varios GB de datos válida para una o dos semanas cuesta entre 10 y 20 USD." },
+          { "text": "Para el registro hace falta el pasaporte. La cobertura es buena en las ciudades y a lo largo del valle del Nilo; hay lagunas en las zonas desérticas remotas (que la mayoría de los viajeros visita con guías que llevan sus propios medios de comunicación)." },
+          { "text": "Las opciones de eSIM funcionan en teléfonos compatibles: Airalo y servicios similares se activan antes de llegar." }
+        ]
+      },
+      "ja": {
+        "question": "エジプトでSIMカードやモバイルデータは使えますか？",
+        "blocks": [
+          { "text": "はい、簡単に使えます。主要3キャリア——Vodafone、Orange、Etisalat——が、主要空港の到着エリアや市中の店舗で旅行者向けSIMカードを販売しています。数GBのデータ付きで1〜2週間有効なSIMは10〜20 USDが目安です。" },
+          { "text": "登録にはパスポートが必要です。都市部とナイル渓谷沿いの電波状況は良好ですが、人里離れた砂漠地帯では圏外になります（そうした場所へは、通信手段を備えたガイドと訪れるのが一般的です）。" },
+          { "text": "対応する携帯電話ではeSIMも利用できます——Airaloなどのサービスなら、到着前に有効化できます。" }
+        ]
+      }
+    },
+    "faq-entry-what-time-zone-is-egypt": {
+      "es": {
+        "question": "¿Qué huso horario tiene Egipto?",
+        "blocks": [
+          { "text": "Egipto se rige por la hora de Europa Oriental (UTC+2). De abril a octubre se aplica el horario de verano, que sitúa al país en UTC+3 durante esos meses." },
+          { "text": "En la práctica: 7 horas por delante de Nueva York, 2 horas por delante de Londres y 6 horas por detrás de Tokio (la mayor parte del año)." }
+        ]
+      },
+      "ja": {
+        "question": "エジプトのタイムゾーンはどうなっていますか？",
+        "blocks": [
+          { "text": "エジプトの標準時は東ヨーロッパ時間（UTC+2）です。4月から10月まではサマータイムが実施され、この期間はUTC+3になります。" },
+          { "text": "実用的には、ニューヨークより7時間進み、ロンドンより2時間進み、東京より6時間遅れています（年間の大半の期間）。" }
+        ]
+      }
+    }
+  }
+}

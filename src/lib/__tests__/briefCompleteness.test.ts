@@ -58,6 +58,8 @@ function brief(overrides: {
     preferences: { comfort_level: null, interests: [], must_see: [], must_avoid: [] },
     constraints: { dietary: null, mobility: null, religious: null, medical: null },
     brief_summary: null,
+    routed_brand: 'travel2egypt',
+    routing_reason: null,
     follow_up_window: null,
   };
 }

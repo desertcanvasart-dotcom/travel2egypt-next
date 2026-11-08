@@ -10,6 +10,7 @@ import {
   parseReviewerNotes,
   type ReviewNoteCategory,
 } from '@/lib/admin/review';
+import { BRAND_LABELS, ROUTED_BRANDS, coerceBrand } from '@/lib/concierge/brands';
 import type { BriefRow, MessageRow } from '@/types/concierge-db';
 
 export const dynamic = 'force-dynamic';
@@ -31,6 +32,7 @@ export default async function ConversationDetailPage({
       <Header email={session.email} conversationId={detail.conversation.id} />
       <MetaStrip detail={detail} />
       <ReviewerPanel detail={detail} />
+      <RoutingPanel detail={detail} />
       <BriefSection detail={detail} />
       <AutouraSection briefs={detail.briefs} />
       <TranscriptSection messages={detail.messages} />
@@ -86,6 +88,15 @@ function MetaStrip({ detail }: { detail: ConversationDetail }) {
     { label: 'Last message', value: formatCairoDateTime(c.last_message_at) },
     { label: 'Language', value: <span className="uppercase">{s.locale || '—'}</span> },
     { label: 'Prompt', value: c.prompt_version },
+    {
+      label: 'Routed to',
+      value:
+        coerceBrand(c.routed_brand) === 'travel2egypt' ? (
+          <span className="text-night-soft">Travel2Egypt (anchor)</span>
+        ) : (
+          <span className="text-night">{BRAND_LABELS[coerceBrand(c.routed_brand)]}</span>
+        ),
+    },
     { label: 'Email', value: s.email ?? <span className="text-night-soft">—</span> },
     {
       label: 'Session ref',
@@ -221,6 +232,62 @@ function ReviewerPanel({ detail }: { detail: ConversationDetail }) {
   );
 }
 
+function RoutingPanel({ detail }: { detail: ConversationDetail }) {
+  const c = detail.conversation;
+  const current = coerceBrand(c.routed_brand);
+  // The handoff is reversible: routing hands off HANDLING, never oversight, and
+  // the house always owns the relationship. An admin can move a lead back to the
+  // anchor or re-route it. Changing this updates handling only; it does not
+  // re-deliver a brief already sent (a re-route takes effect on the next brief).
+  return (
+    <section className="mb-6 rounded border border-night/10 bg-paper p-4">
+      <h2 className="mb-1 font-serif text-lg">Routing</h2>
+      <p className="mb-3 text-sm text-night-soft">
+        Which room in the family owns this lead. Reversible — Travel2Egypt keeps oversight of every
+        routed conversation.
+      </p>
+      <form
+        method="post"
+        action={`/api/admin/conversations/${c.id}/routing`}
+        className="grid grid-cols-1 gap-4 md:grid-cols-3"
+      >
+        <label className="block text-sm md:col-span-1">
+          <span className="text-night-soft">Routed to</span>
+          <select
+            name="routedBrand"
+            defaultValue={current}
+            className="mt-1 w-full rounded border border-night/15 px-2 py-1"
+          >
+            {ROUTED_BRANDS.map((bnd) => (
+              <option key={bnd} value={bnd}>
+                {BRAND_LABELS[bnd]}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label className="block text-sm md:col-span-2">
+          <span className="text-night-soft">Reason (optional)</span>
+          <input
+            type="text"
+            name="routingReason"
+            defaultValue={c.routing_reason ?? ''}
+            placeholder="Why this room — for oversight/audit"
+            className="mt-1 w-full rounded border border-night/15 px-2 py-1"
+          />
+        </label>
+        <div className="md:col-span-3 flex justify-end">
+          <button
+            type="submit"
+            className="rounded bg-night px-4 py-2 text-sm text-paper hover:bg-night/85"
+          >
+            Save routing
+          </button>
+        </div>
+      </form>
+    </section>
+  );
+}
+
 function BriefSection({ detail }: { detail: ConversationDetail }) {
   const c = detail.conversation;
   if (!c.brief_completed && !c.brief_payload) {
@@ -265,6 +332,7 @@ function AutouraSection({ briefs }: { briefs: BriefRow[] }) {
           <thead className="text-left text-xs uppercase tracking-wider text-night-soft">
             <tr>
               <th className="py-2 pr-3">Revision</th>
+              <th className="py-2 pr-3">Brand</th>
               <th className="py-2 pr-3">Status</th>
               <th className="py-2 pr-3">Attempts</th>
               <th className="py-2 pr-3">Email fallback</th>
@@ -276,6 +344,7 @@ function AutouraSection({ briefs }: { briefs: BriefRow[] }) {
             {briefs.map((b) => (
               <tr key={b.id} className="border-t border-night/10 align-top">
                 <td className="py-2 pr-3 tabular-nums">{b.brief_revision ?? 1}</td>
+                <td className="py-2 pr-3">{BRAND_LABELS[coerceBrand(b.delivered_brand)]}</td>
                 <td className="py-2 pr-3">
                   <StatusBadge status={b.autoura_webhook_status} />
                 </td>

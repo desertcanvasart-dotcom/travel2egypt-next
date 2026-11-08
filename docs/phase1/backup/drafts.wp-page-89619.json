@@ -1,0 +1,4449 @@
+{
+  "_createdAt": "2026-05-13T22:22:25Z",
+  "_id": "drafts.wp-page-89619",
+  "_rev": "zuJ7nG5j4IYgmq6vBBmbzA",
+  "_system": {
+    "base": {
+      "id": "wp-page-89619",
+      "rev": "WARbvYUZNjQADgogAemzJE"
+    }
+  },
+  "_type": "tour",
+  "_updatedAt": "2026-07-29T09:41:33Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000000",
+              "_type": "span",
+              "marks": [],
+              "text": "Embark on an extraordinary journey through Egypt with our \""
+            },
+            {
+              "_key": "000000000001",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Pharaohs' Legacy - 10-Day Egypt and The Nile Tour Package"
+            },
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": ",\" where each stop along the way unveils a layer of history, culture, and unparalleled beauty. Our meticulously crafted itinerary promises an adventure that spans the grandeur of ancient wonders and the serenity of the Nile's eternal flow. Here’s what awaits you on this spectacular voyage:"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cairo’s Timeless Wonders"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "Start Your Adventure: Your Egyptian tale begins in the bustling city of Cairo. Here, the ancient world meets the modern in a vibrant clash of sounds and colors. From the awe-inspiring Pyramids of "
+            },
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [
+                "000000000007"
+              ],
+              "text": "Giza"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [],
+              "text": " and the enigmatic Sphinx to the treasure-laden corridors of the Egyptian Museum, every moment in Cairo is a step back through time."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000007",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/giza-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/giza",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000b",
+              "_type": "span",
+              "marks": [],
+              "text": "Historic Coptic Cairo: Explore the winding lanes where history lives in the stones underfoot. Visit iconic sites like the Hanging Church and the Coptic Museum, offering a glimpse into the rich tapestry of Egypt's Christian heritage."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Luxor’s Pharaonic Legacy"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [],
+              "text": "Temples and Tombs: Fly to Luxor, the world’s greatest open-air museum. Walk through the colossal Karnak and "
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [
+                "000000000010"
+              ],
+              "text": "Luxor"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": " Temples and feel the history resonate around you. Venture into the Valley of the Kings, where the tombs of pharaohs like Tutankhamun whisper secrets of millennia."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000010",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/luxor-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/luxor",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000018",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Necropolis and Nighttime Wonder: Stand before the imposing statues of "
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "000000000015"
+              ],
+              "text": "the Colossi of Memnon"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": " and explore Queen Hatshepsut’s exquisite temple. As the sun sets, Luxor Temple comes alive with a spectacular light show that transforms the ancient stones under the starlit sky."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000015",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/luxor-travel-guide/the-colossi-of-memnon/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/luxor/the-colossi-of-memnon",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Nile River Voyage"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": "Sailing the Historical River: Board a"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [
+                "00000000001c"
+              ],
+              "text": " Nile cruiser"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "span",
+              "marks": [],
+              "text": " and set sail from Luxor. Your journey will take you to Edfu and Kom Ombo, each temple offering its own unique insight into ancient Egyptian spirituality and daily life."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000001c",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/dahabiya-nile-cruise-2/"
+              },
+              "_type": "externalLink",
+              "href": "/authentic-dahabiya-nile-cruise",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": "Felucca Experience: Glide gently past lush riverbanks on a traditional felucca, absorbing the peaceful rhythms of life on the Nile. This serene sail around Kitchener Island offers a perfect respite amidst the grandeur of your historical explorations."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Aswan’s Blend of Ancient and Modern"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000025",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Philae Temple and High Dam: In Aswan, marvel at the blend of ancient prowess and modern engineering. The majestic Philae Temple, relocated stone by stone, stands as a testament to both ancient devotion and contemporary preservation. The High Dam offers a panoramic view of the engineering feat that reshaped Egypt’s landscape."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [],
+              "text": "Unfinished Tales: Visit "
+            },
+            {
+              "_key": "000000000028",
+              "_type": "span",
+              "marks": [
+                "000000000027"
+              ],
+              "text": "the Unfinished Obelisk"
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [],
+              "text": " to witness the colossal ambitions of ancient stone carvers, an awe-inspiring sight that lays bare the monumental efforts behind Egypt’s iconic obelisks.."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000027",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/aswan-travel-guide/the-unfinished-obelisk/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/aswan/the-unfinished-obelisk",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000002c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002b",
+              "_type": "span",
+              "marks": [
+                "strong"
+              ],
+              "text": "Cairo’s Cultural Finale"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": "Return to the Capital: Your journey circles back to "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": ", where you will explore the medieval fortifications of the Saladin Citadel and gaze upon the city from the minarets of "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "000000000031"
+              ],
+              "text": "Mohamed Ali Mosque"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": ". Wander through the bustling lanes of Khan El Khalili bazaar, a sensory overload of fragrant spices, colorful crafts, and vibrant conversations—perfect for picking up unique souvenirs and gifts."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000002e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/cairo-travel-guide/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/cairo",
+              "newTab": false
+            },
+            {
+              "_key": "000000000031",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Muhammad_Ali_Mosque",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "Modern Meets Ancient: Conclude your tour with a fresh perspective on Cairo’s evolving landscape, offering a final night of reflection on the profound journey through time you have just undertaken."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "cities": [
+    {
+      "_key": "wp-page-83284",
+      "_ref": "wp-page-83284",
+      "_type": "reference"
+    }
+  ],
+  "conciergeNote": [
+    {
+      "_key": "en",
+      "_type": "internationalizedArrayTextValue",
+      "value": "A private journey is built around your party, not the other way around. Tell our team how you'd want to shape it — Alexandria added, a second day in Coptic Cairo, a longer Aswan stay — and we'll build the ten days to fit."
+    },
+    {
+      "_key": "es",
+      "_type": "internationalizedArrayTextValue",
+      "value": "Un viaje privado se construye alrededor de tu grupo, no al revés. Dinos cómo querrías ajustarlo —Alejandría añadida, un segundo día en el Cairo copto, una estancia más larga en Asuán— y armaremos los diez días contigo."
+    },
+    {
+      "_key": "ja",
+      "_type": "internationalizedArrayTextValue",
+      "value": "10日間はご一行のかたちに合わせて組み直せます——アレクサンドリアを加える、コプト・カイロに二日目を充てる、アスワン滞在を延ばす、など。組み立て方をお知らせください。"
+    }
+  ],
+  "days": [
+    {
+      "_key": "day-1",
+      "_type": "tourDay",
+      "dayNumber": 1,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Step off the plane and into the embrace of history as your Egyptian journey kicks off in vibrant Cairo. Our friendly team will be right there to greet you, ensuring your transition from the airport to your hotel is seamless and full of warm Egyptian hospitality. Settle into your cozy room, unwind, and later, indulge in a delicious dinner that promises a taste of Egypt's rich culinary heritage. As the city hums softly outside, tuck yourself in for a comfortable night's rest—your adventure has just begun!"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000010",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Baja del avión y sumérgete en el abrazo "
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [
+                    "000000000001"
+                  ],
+                  "text": "de la historia"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " cuando tu viaje egipcio comience en la vibrante El Cairo."
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Nuestro amable equipo estará allí para recibirte, asegurándose de que la transición "
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [
+                    "000000000006"
+                  ],
+                  "text": "del aeropuerto al hotel"
+                },
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " sea fluida y esté llena de la cálida hospitalidad egipcia."
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Acomódate en tu acogedora habitación, relájate y, más tarde, deléitate con una deliciosa cena que promete una muestra "
+                },
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000b"
+                  ],
+                  "text": "del rico patrimonio culinario"
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " de Egipto."
+                },
+                {
+                  "_key": "00000000000e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Mientras la ciudad zumba suavemente en el exterior, arrópate para descansar cómodamente: ¡tu aventura acaba de empezar! "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000001",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/explorando-la-gran-esfinge-de-guiza/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000006",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/llegada-sin-contratiempos-traslado-del-aeropuerto-de-el-cairo-al-hotel/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/traslado-privado-del-aeropuerto-de-el-cairo-al-hotel",
+                  "newTab": false
+                },
+                {
+                  "_key": "00000000000b",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-bahariya/sabores-del-oasis-degustacion-del-patrimonio-culinario-del-oasis-de-bahariya/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/bahariya/gastronomia-en-el-oasis-de-bahariya",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "飛行機を降りた瞬間から、歴史の息吹に包まれるエジプトの旅がカイロで始まります。活気あふれるこの都市で、温かいエジプトのおもてなしとともに、当社のフレンドリーなスタッフがお迎えし、スムーズにホテルへご案内いたします。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "ホテルに到着したら、快適な客室で旅の疲れを癒しながらリラックス。夜には、エジプトの豊かな食文化を感じる絶品ディナーをご堪能ください。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "街の喧騒が心地よく響く中、ゆっくりとお休みを。明日から始まる壮大な冒険に備え、心躍る夜をお過ごしください。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Day 01: Welcome to Cairo"
+        },
+        {
+          "_key": "es",
+          "value": "Día 1 Día 01: Bienvenido a El Cairo"
+        },
+        {
+          "_key": "ja",
+          "value": "1日目 カイロへようこそ"
+        }
+      ]
+    },
+    {
+      "_key": "day-2",
+      "_type": "tourDay",
+      "dayNumber": 2,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Today, we dive deep into the echoes of ancient civilizations. Start your morning with a trip to Memphis, Egypt's first capital, where history whispers through the ruins. Continue to the enchanting step pyramids of Saqqara, a monumental site that preludes the grandeur of Giza’s pyramids."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "As the morning adventures wind down, we’ll pause for a savory mixed grill lunch, offering a taste of local flavors that will energize you for the afternoon's exploration. Next on our itinerary is Cairo's Egyptian Museum. Here, you’ll come face-to-face with the legendary treasures of King Tutankhamun and countless artifacts that tell tales of a bygone era."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "After a day filled with awe-inspiring sights, we'll head back to the hotel. Spend your evening unwinding and reflecting on the day’s wonders over a delightful dinner."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "00000000000e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Hoy nos sumergimos en los ecos de las "
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "civilizaciones antiguas"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Empieza la mañana con un viaje a "
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [
+                    "000000000006"
+                  ],
+                  "text": "Menfis"
+                },
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", la primera capital de Egipto, donde la historia susurra a través de las ruinas."
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Continúa hacia las encantadoras "
+                },
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000b"
+                  ],
+                  "text": "pirámides escalonadas de Saqqara, un lugar monumental que preludia la grandeza de las pirámides de Guiza"
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000006",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-guiza/menfis-la-ciudad-antigua/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/guiza",
+                  "newTab": false
+                },
+                {
+                  "_key": "00000000000b",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/piramides-de-guiza-esfinge-menfis-y-saqqara/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A medida que las aventuras de la mañana se vayan acabando, haremos una pausa para disfrutar de un sabroso almuerzo a la parrilla, que te ofrecerá una muestra de los "
+                },
+                {
+                  "_key": "000000000011",
+                  "_type": "span",
+                  "marks": [
+                    "000000000010"
+                  ],
+                  "text": "sabores locales"
+                },
+                {
+                  "_key": "000000000012",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " que te llenarán de energía para la exploración de la tarde."
+                },
+                {
+                  "_key": "000000000013",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000014",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Lo siguiente en nuestro itinerario es el "
+                },
+                {
+                  "_key": "000000000016",
+                  "_type": "span",
+                  "marks": [
+                    "000000000015"
+                  ],
+                  "text": "Museo Egipcio de El Cairo"
+                },
+                {
+                  "_key": "000000000017",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000018",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000019",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Aquí te encontrarás cara a cara con "
+                },
+                {
+                  "_key": "00000000001b",
+                  "_type": "span",
+                  "marks": [
+                    "00000000001a"
+                  ],
+                  "text": "los legendarios tesoros"
+                },
+                {
+                  "_key": "00000000001c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " del rey Tutankamón e innumerables artefactos que cuentan historias de una época pasada. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000010",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/sabores-locales/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/abu-simbel/sabores-locales-en-abu-simbel",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000015",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/el-museo-egipcio/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/el-cairo",
+                  "newTab": false
+                },
+                {
+                  "_key": "00000000001a",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/escapada-a-el-cairo-y-alejandria-un-viaje-de-5-dias-a-traves-de-los-tesoros-de-egipto/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/escapada-a-el-cairo-y-alejandria-un-viaje-de-5-dias-a-traves-de-los-tesoros-de-egipto",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000024",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000001e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tras un día repleto de asombrosas vistas, regresaremos al hotel."
+                },
+                {
+                  "_key": "00000000001f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000020",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Pasa la noche relajándote y reflexionando sobre "
+                },
+                {
+                  "_key": "000000000022",
+                  "_type": "span",
+                  "marks": [
+                    "000000000021"
+                  ],
+                  "text": "las maravillas del día"
+                },
+                {
+                  "_key": "000000000023",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " con una deliciosa cena. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000021",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/itinerario-de-1-dia-por-las-piramides-de-guiza-disfruta-de-las-maravillas-del-antiguo-egipto/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/itinerario-de-1-dia-por-las-piramides-de-guiza-disfruta-de-las-maravillas-del-antiguo-egipto",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "今日は、古代文明の響きに深く耳を傾ける旅へ出かけましょう。朝は、エジプト最初の都・メンフィスへ。かつて繁栄を極めたこの地では、遺跡の中に歴史のささやきが今も息づいています。続いて、神秘的なサッカラの階段ピラミッドへ。この壮大な遺跡は、ギザのピラミッドの栄華へと続く壮麗な序章とも言えるでしょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "午前の冒険を終えたら、エジプトならではの香ばしいミックスグリルのランチを楽しみながらひと息。地元の味覚を堪能し、午後の探検に向けてエネルギーをチャージしましょう。次の目的地は、カイロのエジプト考古学博物館。ここでは、伝説の王・ツタンカーメンの黄金の秘宝や、遥かなる時を超えて語り継がれる数々の遺物と対面します。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "感動に満ちた一日を終えたら、ホテルへ戻りましょう。夜は、ゆったりとくつろぎながら、今日巡った歴史の軌跡を振り返るひとときを。美味しいディナーとともに、心に刻まれたエジプトの魅力を味わい尽くしてください。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "A Journey Through Time—Memphis, Saqqara, and the Egyptian Museum"
+        },
+        {
+          "_key": "es",
+          "value": "Día 2 Un viaje en el tiempo - Menfis, Saqqara y el Museo Egipcio"
+        },
+        {
+          "_key": "ja",
+          "value": "2日目 時を超える旅—メンフィス、サッカラ、エジプト考古学博物館"
+        }
+      ]
+    },
+    {
+      "_key": "day-3",
+      "_type": "tourDay",
+      "dayNumber": 3,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Today, prepare to be transported back through centuries as we explore the historical gems of Old Cairo. Our first stops include the serene Ben Ezra Synagogue and the iconic Hanging Church, both steeped in rich history and architectural beauty. We’ll also visit the Coptic Museum, where artifacts weave the story of Egypt’s Christian heritage, followed by the serene grounds of Abu Serga Church, one of Cairo’s oldest."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Midday, we'll change pace with a delightful Chinese lunch, adding a touch of the exotic to our "
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [
+                    "000000000003"
+                  ],
+                  "text": "culinary journey"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". Refreshed, we’ll continue to the Saladin Citadel, a fortress of medieval might and grandeur offering panoramic views of Cairo below."
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000003",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/al-gouna-travel-guide/culinary-journey/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/guide/al-gouna/traditional-food-in-al-gouna",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "As dusk falls, we’ll return to your hotel. There, you can relax and dine, savoring the flavors and memories of a day well spent exploring Cairo’s captivating past."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "00000000000e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Hoy, prepárate para ser transportado a través de los siglos mientras exploramos "
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [
+                    "000000000001"
+                  ],
+                  "text": "las joyas históricas del Viejo Cairo"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Nuestras primeras paradas incluyen la serena "
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [
+                    "000000000006"
+                  ],
+                  "text": "Sinagoga Ben Ezra"
+                },
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " y la emblemática Iglesia Colgante, ambas impregnadas de rica historia y belleza arquitectónica."
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " También visitaremos el Museo "
+                },
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000b"
+                  ],
+                  "text": "Copto"
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", donde los artefactos tejen la historia de la herencia cristiana de Egipto, seguido de los serenos terrenos de la Iglesia de Abu Serga, una de las más antiguas de El Cairo. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000001",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/el-oasis-de-bahariya-y-el-desierto-negro-las-joyas-ocultas-de-egipto/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/el-oasis-de-bahariya-y-el-desierto-negro-las-joyas-ocultas-de-egipto",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000006",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/sinagoga-ben-ezra/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/el-cairo/la-sinagoga-de-ben-ezra",
+                  "newTab": false
+                },
+                {
+                  "_key": "00000000000b",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/los-coptos-de-egipto-guardianes-de-una-antigua-fe/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/los-coptos-de-egipto-guardianes-de-una-antigua-fe",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A mediodía, cambiaremos de ritmo con un delicioso almuerzo chino, que añadirá un toque exótico a nuestro "
+                },
+                {
+                  "_key": "000000000011",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "viaje culinario"
+                },
+                {
+                  "_key": "000000000012",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000013",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000014",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Después de refrescarnos, continuaremos hacia "
+                },
+                {
+                  "_key": "000000000016",
+                  "_type": "span",
+                  "marks": [
+                    "000000000015"
+                  ],
+                  "text": "la Ciudadela de Saladino"
+                },
+                {
+                  "_key": "000000000017",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", una fortaleza de poderío y grandeza medievales que ofrece vistas panorámicas de El Cairo. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000015",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/la-ciudadela-de-saladino/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/el-cairo/la-ciudadela-de-saladino",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000019",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Al anochecer, regresaremos a tu hotel."
+                },
+                {
+                  "_key": "00000000001a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000001b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Allí podrás relajarte y cenar, saboreando los sabores y recuerdos de un día bien empleado explorando el cautivador pasado "
+                },
+                {
+                  "_key": "00000000001d",
+                  "_type": "span",
+                  "marks": [
+                    "00000000001c"
+                  ],
+                  "text": "de El Cairo"
+                },
+                {
+                  "_key": "00000000001e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "00000000001c",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/excursion-de-un-dia-en-avion-de-luxor-a-el-cairo/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/private-day-tours",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "今日は、時を超えた旅へと出発します。歴史が息づくオールド・カイロの至宝を巡りながら、何世紀にもわたる物語に触れていきましょう。まず訪れるのは、静寂に包まれたベン・エズラ・シナゴーグと、象徴的な「ハンギング・チャーチ」。どちらも長い歴史と美しい建築を誇る名所です。続いて、エジプトのキリスト教文化を伝える貴重な遺物が展示されたコプト博物館を訪問し、さらにカイロ最古の教会の一つ、アブ・セルガ教会の静謐な空間へと足を踏み入れます。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "昼食は、旅の味覚に新たなアクセントを加える中華料理を堪能。エジプトの歴史探訪に異国の味わいを加え、心も体もリフレッシュしましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "午後は、壮麗なるサラディン要塞へ。中世の威厳を誇るこの城塞からは、カイロの街を一望でき、悠久の歴史と現代の息吹が交差する絶景が広がります。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "夕暮れとともにホテルへ戻り、ゆったりとしたひとときを。ディナーを味わいながら、今日巡ったカイロの魅惑的な歴史を振り返り、心に刻んでください。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Exploring the Heart of Coptic Cairo and the Majestic Saladin Citadel"
+        },
+        {
+          "_key": "es",
+          "value": "Día 3 Explorar el corazón de El Cairo copto y la majestuosa Ciudadela de Saladino"
+        },
+        {
+          "_key": "ja",
+          "value": "3日目 コプト・カイロの歴史探訪と壮麗なるサラディン要塞"
+        }
+      ]
+    },
+    {
+      "_key": "day-4",
+      "_type": "tourDay",
+      "dayNumber": 4,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Awake early for a thrilling flight to Luxor, the world's greatest open-air museum. Upon arrival, we'll head straight to the awe-inspiring Karnak Temple Complex. As you wander through this vast forest of ancient pillars and chapels, you’ll feel the powerful presence of the pharaohs who walked these grounds millennia ago."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "After exploring Karnak, we’ll enjoy a leisurely lunch, giving you a moment to reflect on the morning’s wonders. As the sun begins to set, the magic of Luxor continues with a night tour of the Luxor Temple. Experience this majestic site in a truly enchanting way—by horse-drawn carriage, under the stars."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "The day’s adventure concludes with a memorable dinner aboard your Nile cruise. As you dine on the tranquil waters, let the river's timeless flow carry you into a night of peaceful rest, surrounded by the gentle sounds of the Nile."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "00000000000b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Despierta temprano para tomar un emocionante vuelo a Luxor, el mayor museo al aire libre del mundo."
+                },
+                {
+                  "_key": "000000000001",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Al llegar, nos dirigiremos directamente al sobrecogedor Complejo del "
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [
+                    "000000000003"
+                  ],
+                  "text": "Templo de Karnak"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Mientras paseas por este vasto bosque de antiguos pilares y capillas, sentirás la poderosa presencia de "
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [
+                    "000000000008"
+                  ],
+                  "text": "los faraones que recorrieron estos terrenos hace"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " milenios. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000003",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/espectaculo-de-luz-y-sonido-en-el-templo-de-karnak-de-luxor/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/luz-y-sonido-en-karnak",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000008",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/descubre-la-tierra-de-los-faraones/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/descubre-la-tierra-de-los-faraones",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tras explorar "
+                },
+                {
+                  "_key": "00000000000e",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000d"
+                  ],
+                  "text": "Karnak"
+                },
+                {
+                  "_key": "00000000000f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", disfrutaremos de un almuerzo tranquilo, que te permitirá reflexionar sobre las maravillas de la mañana."
+                },
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000011",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Cuando el sol comienza a ponerse, la magia de Luxor continúa con una visita nocturna al Templo de Luxor."
+                },
+                {
+                  "_key": "000000000012",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000013",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Disfruta de este majestuoso lugar de una forma realmente encantadora: en coche de caballos, bajo las estrellas. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "00000000000d",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/reyes-y-columnas-visita-de-un-dia-a-los-templos-y-museo-de-karnak-y-luxor/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/day-tour-to-karnak-luxor-temples-luxor-museum",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000001e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000015",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "La aventura del día concluye con una cena memorable a bordo "
+                },
+                {
+                  "_key": "000000000017",
+                  "_type": "span",
+                  "marks": [
+                    "000000000016"
+                  ],
+                  "text": "de tu crucero por el Nilo"
+                },
+                {
+                  "_key": "000000000018",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000019",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000001a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Mientras cenas sobre las tranquilas aguas, deja que el flujo intemporal del río te lleve a una noche de apacible descanso, rodeado de "
+                },
+                {
+                  "_key": "00000000001c",
+                  "_type": "span",
+                  "marks": [
+                    "00000000001b"
+                  ],
+                  "text": "los suaves sonidos del Nilo"
+                },
+                {
+                  "_key": "00000000001d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000016",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/el-nil-elegance-crucero-de-7-dias-dahabiya-por-el-nilo/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/el-nil-elegance-siete-dias-de-luxor-a-asuan",
+                  "newTab": false
+                },
+                {
+                  "_key": "00000000001b",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/10-dias-en-la-ruta-de-los-sonadores-del-nilo/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/nile-dreamer-10-dias-con-el-nilo-como-eje-del-viaje",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "早朝、ワクワクするルクソールへのフライトに出発。世界最大の屋外博物館とも称されるこの地では、時を超えた壮大な歴史があなたを待っています。到着後、まずは圧巻のカルナック神殿へ。無数の巨大な柱や礼拝堂が立ち並ぶこの神秘的な空間を歩けば、かつてこの地を支配したファラオたちの存在を肌で感じることでしょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "カルナック神殿の探索を終えたら、ゆったりとランチタイム。午前中の壮大な歴史の余韻に浸りながら、午後の旅への英気を養いましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "夕暮れ時、ルクソールの魔法はさらに深まります。夜のルクソール神殿を訪れ、幻想的な雰囲気の中でその美しさを堪能。星空の下、馬車に揺られながら神殿を巡る体験は、まるで古代へと誘われるような感動をもたらします。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "一日の冒険の締めくくりは、ナイル川クルーズ船での優雅なディナー。静かに流れるナイルのほとりで、歴史とロマンに包まれながら美食を楽しみ、穏やかな夜へと身をゆだねましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Luxor's Luxor's Temple Grandeur – From Karnak to Luxor by Night"
+        },
+        {
+          "_key": "es",
+          "value": "Día 4 La grandeza de los templos de Luxor - De Karnak a Luxor de noche"
+        },
+        {
+          "_key": "ja",
+          "value": "4日目 ルクソール神殿の壮麗さ – カルナックから夜のルクソールへ"
+        }
+      ]
+    },
+    {
+      "_key": "day-5",
+      "_type": "tourDay",
+      "dayNumber": 5,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Rise and shine for a day packed with archaeological treasures and timeless landscapes. Our first destination is the legendary Valley of the Kings, where the tombs of pharaohs await, hidden beneath the desert sands. Wander through these ancient corridors adorned with intricate hieroglyphics and feel the mystique of pharaonic Egypt. Next, we'll marvel at the architectural elegance of the Hatshepsut Temple, a monumental tribute to one of Egypt’s most powerful female rulers. Following this, a visit to the towering Colossi of Memnon provides a perfect photo opportunity with these massive stone guardians."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Before the afternoon heat sets in, we'll explore the vibrant local market where the colors, smells, and sounds are as vivid as the culture. After soaking up the market's bustling atmosphere, a relaxing lunch awaits you back on the Nile cruise."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "We'll cap the day with a visit to the lesser-known but equally fascinating "
+                },
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [
+                    "000000000005"
+                  ],
+                  "text": "Habu Temple"
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", an ancient structure rich with carvings and storied walls. As the day winds down, enjoy dinner onboard your Nile cruise, reflecting on the incredible history and culture you've experienced today."
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000005",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/luxor-travel-guide/madinat-habu-temple/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/guide/luxor/madinat-habu-temple",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000012",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Levántate y disfruta de un día repleto de tesoros arqueológicos y paisajes intemporales."
+                },
+                {
+                  "_key": "000000000001",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Nuestro primer destino es el legendario Valle de los Reyes, donde aguardan "
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [
+                    "000000000003"
+                  ],
+                  "text": "las tumbas de los"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " faraones, ocultas bajo las arenas del desierto."
+                },
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Pasea por estos antiguos corredores adornados con intrincados jeroglíficos y siente la mística "
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [
+                    "000000000008"
+                  ],
+                  "text": "del Egipto faraónico"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "00000000000b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " A continuación, nos maravillaremos ante la elegancia arquitectónica del Templo de Hatshepsut, un monumental homenaje a una de las gobernantes femeninas más poderosas de Egipto."
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " A continuación, una visita a los imponentes Colosos "
+                },
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000f"
+                  ],
+                  "text": "de Memnon ofrece una oportunidad perfecta para"
+                },
+                {
+                  "_key": "000000000011",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " fotografiarse con estos enormes guardianes de piedra. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000003",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/tumbas-de-los-nobles-en-asuan/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/asuan/tumbas-de-los-nobles-en-asuan",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000008",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/faraones-del-reino-medio-logros-y-legado/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/faraones-del-reino-medio-logros-y-legado",
+                  "newTab": false
+                },
+                {
+                  "_key": "00000000000f",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-taba/guia-de-viaje-estacional-de-taba-como-encontrar-el-momento-perfecto-para-visitarla/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/taba/condiciones-climaticas-de-taba",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000013",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Antes de que llegue el calor de la tarde, exploraremos el vibrante "
+                },
+                {
+                  "_key": "000000000015",
+                  "_type": "span",
+                  "marks": [
+                    "000000000014"
+                  ],
+                  "text": "mercado local"
+                },
+                {
+                  "_key": "000000000016",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", donde los colores, olores y sonidos son tan vivos como la cultura."
+                },
+                {
+                  "_key": "000000000017",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000018",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Tras empaparte del bullicioso ambiente del mercado, te espera un relajante almuerzo de vuelta en el "
+                },
+                {
+                  "_key": "00000000001a",
+                  "_type": "span",
+                  "marks": [
+                    "000000000019"
+                  ],
+                  "text": "crucero por el Nilo"
+                },
+                {
+                  "_key": "00000000001b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000014",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/visita-privada-mercado-local-con-coche-de-caballos/"
+                  },
+                  "_type": "externalLink",
+                  "href": "https://travel2egypt.org/es/visita-privada-mercado-local-con-coche-de-caballos/",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000019",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/propinas-en-egipto/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/travel-tips/propinas-en-egipto-como-funciona-de-verdad-el-baksheesh",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000026",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000001d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Remataremos el día con una visita al menos conocido pero igualmente fascinante "
+                },
+                {
+                  "_key": "00000000001f",
+                  "_type": "span",
+                  "marks": [
+                    "00000000001e"
+                  ],
+                  "text": "Templo de Habu"
+                },
+                {
+                  "_key": "000000000020",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", una antigua estructura rica en tallas y muros llenos de historia."
+                },
+                {
+                  "_key": "000000000021",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000022",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Al final del día, disfruta de una cena a bordo de tu crucero por el Nilo, reflexionando sobre la "
+                },
+                {
+                  "_key": "000000000024",
+                  "_type": "span",
+                  "marks": [
+                    "000000000023"
+                  ],
+                  "text": "increíble historia y cultura que"
+                },
+                {
+                  "_key": "000000000025",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " has vivido hoy. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "00000000001e",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-luxor/templo-de-madinat-habu/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/luxor/medinet-habu",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000023",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/cosas-increibles-que-hacer-en-hurghada/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/cosas-increibles-que-hacer-en-hurghada",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "早朝、壮大な考古学的遺産と時を超えた風景が広がる冒険の一日が始まります。最初の目的地は、伝説の"
+                },
+                {
+                  "_key": "000000000001",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "王家の谷"
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "。砂漠の奥深くに眠るファラオたちの墓を訪れ、壁一面に描かれた精巧なヒエログリフを眺めながら、古代エジプトの神秘に浸りましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000009",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "次に向かうのは、エジプト史上最も偉大な女性統治者の一人に捧げられた"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ハトシェプスト女王葬祭殿"
+                },
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "。壮麗な列柱と崖に溶け込む優美な建築美が、彼女の力強い統治を物語っています。その後は、悠然とそびえ立つ"
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "メムノンの巨像"
+                },
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "へ。時を超えて静かにたたずむこの石像は、写真撮影にもぴったりのスポットです。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "昼前には、地元の活気あふれる市場へ足を運びましょう。カラフルなスパイス、伝統工芸品、エキゾチックな香りと賑やかな声が交差する市場では、エジプトの文化を五感で味わえます。市場の喧騒を楽しんだ後は、ナイルクルーズ船でのランチでひと休み。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "午後は、あまり知られていないものの、歴史の息吹を感じられる"
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ハブ神殿"
+                },
+                {
+                  "_key": "00000000000e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "を訪問。神殿の壁には驚くほど細かいレリーフが残り、エジプトの古代世界が鮮やかに蘇ります。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "一日の締めくくりは、クルーズ船での優雅なディナー。ナイルの静かな流れを感じながら、今日巡った壮大な歴史と文化の余韻に浸りましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Luxor's Ancient Majesty – Valleys, Temples, and Market Wonders"
+        },
+        {
+          "_key": "es",
+          "value": "Día 5 La Antigua Majestad de Luxor: Valles, Templos y Maravillas del Mercado"
+        },
+        {
+          "_key": "ja",
+          "value": "5日目 ルクソールの古代の威厳 – 王家の谷、神殿、そして市場の魅力"
+        }
+      ]
+    },
+    {
+      "_key": "day-6",
+      "_type": "tourDay",
+      "dayNumber": 6,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Greet the morning with anticipation as we set sail towards Edfu, home to one of the best-preserved temples in Egypt. The Temple of Edfu, dedicated to the falcon god Horus, stands as a testament to the grandeur of ancient Egyptian architecture and religious practices. Exploring this monumental site, you'll feel as though you've stepped back in time, with each hieroglyph and carving telling its own story of gods, pharaohs, and the cosmos."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "After soaking in the majesty of Edfu, we continue our journey to the unique Kom-Ombo Temple. This architectural marvel is unlike any other in Egypt, dedicated to two gods—Sobek, the crocodile god of fertility, and Horus the Elder. The dual dedication is visible in the temple's symmetrical design, offering a fascinating glimpse into the complexity of ancient Egyptian theology and daily life."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Enjoy lunch back on the cruise as we navigate the gentle currents of the Nile, offering you moments of relaxation amidst the breathtaking landscapes. As evening approaches, gather for dinner aboard the cruise, where you can share stories of the day's discoveries with fellow travelers under the stars."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "00000000000e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Recibe la mañana con expectación mientras zarpamos hacia Edfu, donde se encuentra uno de "
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [
+                    "000000000001"
+                  ],
+                  "text": "los templos mejor conservados de Egipto"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " El "
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [
+                    "000000000006"
+                  ],
+                  "text": "Templo de Edfu"
+                },
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", dedicado al dios halcón Horus, es un testimonio de la grandeza de la arquitectura y las prácticas religiosas del antiguo Egipto."
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Explorando este monumental lugar, te sentirás como si hubieras retrocedido en el tiempo, con cada "
+                },
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000b"
+                  ],
+                  "text": "jeroglífico"
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " y talla contando su propia historia de dioses, faraones y el cosmos. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000001",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/alineaciones-de-templos-excursion-de-un-dia-a-los-templos-de-kom-ombo-y-edfu/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/esna-edfu-kom-ombo-temples-group-day-tour-from-luxor",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000006",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-edfu/templo-de-edfu/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/edfu",
+                  "newTab": false
+                },
+                {
+                  "_key": "00000000000b",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/lugares-sagrados-de-egipto/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/lugares-sagrados-de-egipto",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tras empaparnos de la majestuosidad de Edfu, continuamos nuestro viaje hacia el singular Templo de Kom-Ombo."
+                },
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000011",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Esta maravilla arquitectónica no se parece a ninguna otra de Egipto, pues está dedicada a dos dioses: Sobek, el dios cocodrilo de la fertilidad, y Horus el Viejo."
+                },
+                {
+                  "_key": "000000000012",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000013",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " La doble dedicación es visible en el diseño simétrico del templo, que ofrece una visión fascinante de la complejidad de la teología y la "
+                },
+                {
+                  "_key": "000000000015",
+                  "_type": "span",
+                  "marks": [
+                    "000000000014"
+                  ],
+                  "text": "vida cotidiana del antiguo Egipto"
+                },
+                {
+                  "_key": "000000000016",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000014",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/cine-de-egipto/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/cine-de-egipto",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000018",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Disfruta del almuerzo de vuelta en el crucero mientras "
+                },
+                {
+                  "_key": "00000000001a",
+                  "_type": "span",
+                  "marks": [
+                    "000000000019"
+                  ],
+                  "text": "navegamos por"
+                },
+                {
+                  "_key": "00000000001b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " las suaves corrientes del Nilo, ofreciéndote momentos de relajación en medio de los impresionantes paisajes."
+                },
+                {
+                  "_key": "00000000001c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000001d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Al anochecer, reúnete para cenar a bordo del crucero, donde podrás compartir historias de los "
+                },
+                {
+                  "_key": "00000000001f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "descubrimientos"
+                },
+                {
+                  "_key": "000000000020",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " del día con tus compañeros de viaje bajo las estrellas. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000019",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-kharga/navegar-por/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/kharga",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "朝の光を浴びながら、新たな冒険の始まりに胸を躍らせましょう。今日の最初の目的地は"
+                },
+                {
+                  "_key": "000000000001",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "エドフ"
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "。ここには、エジプトでも最も保存状態の良い壮麗な神殿のひとつ、"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ホルス神殿"
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "がそびえ立ちます。天空の神ホルスに捧げられたこの神殿は、古代エジプト建築の粋を極めた荘厳な造り。壁一面に刻まれたヒエログリフやレリーフに触れながら、神々とファラオが織りなす神秘の物語に浸りましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "エドフの壮大な遺跡を堪能した後は、次なる目的地"
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "コム・オンボ神殿"
+                },
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "へと向かいます。この神殿はエジプトの中でも珍しい"
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "二重信仰"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "を持つ神殿で、豊穣を司るワニ神"
+                },
+                {
+                  "_key": "00000000000b",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ソベク"
+                },
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "と、天空の神**ハロエリス（ホルスの長兄）**に捧げられています。完全な対称構造を持つこの神殿は、古代エジプトの信仰の奥深さと、当時の人々の生活の一端を垣間見せてくれます。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "ナイルの静かな流れに身を委ねながら、クルーズ船でのランチを楽しみ、移り変わる風景を眺めながら心を癒しましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "そして夜が訪れる頃、船上でのディナータイム。満天の星の下、旅の仲間たちと語らいながら、今日出会った神々と歴史の物語を振り返る、特別なひとときをお過ごしください。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Temple Tales—Edfu and Kom-Ombo"
+        },
+        {
+          "_key": "es",
+          "value": "Día 6 Cuentos de los templos-Edfu y Kom-Ombo"
+        },
+        {
+          "_key": "ja",
+          "value": "6日目 神殿の物語 — エドフとコム・オンボ"
+        }
+      ]
+    },
+    {
+      "_key": "day-7",
+      "_type": "tourDay",
+      "dayNumber": 7,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Today promises an early start and a journey south to one of Egypt’s most awe-inspiring sites—Abu Simbel. These massive rock-carved temples, built by Ramses II, stand as guardians by Lake Nasser and are a testament to both ancient ingenuity and the power of modern preservation efforts. Witnessing the colossal statues and intricate carvings up close is nothing short of breathtaking"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "After immersing ourselves in the grandeur of "
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [
+                    "000000000003"
+                  ],
+                  "text": "Abu Simbel"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", we'll change pace with a tranquil Felucca sail around Kitchener Island. Glide peacefully along the Nile, surrounded by lush botanical gardens—a stark contrast to the desert's embrace. We’ll also visit a charming Nubian village, where vibrant houses and warm smiles welcome us, offering a colorful glimpse into contemporary Nubian culture and daily life."
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000003",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/abu-simble-travel-guide/qasr-ibrim/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/guide/abu-simbel/qasr-ibrim",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Lunch will be served aboard the cruise as we continue to soak in the river's timeless beauty. Conclude your day with a delightful dinner onboard, sharing tales of the day’s adventures with your fellow explorers as the Nile’s serene waters guide us gently into the night."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000008",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "El día de hoy promete un comienzo temprano y un viaje hacia el sur, a uno de los lugares más sobrecogedores de Egipto: "
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [
+                    "000000000001"
+                  ],
+                  "text": "Abu Simbel"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Estos enormes templos tallados en la roca, construidos por Ramsés II, se erigen como guardianes junto al lago Nasser y son un testimonio tanto del antiguo ingenio como del poder de los esfuerzos modernos de conservación."
+                },
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Contemplar de cerca las colosales estatuas y las intrincadas tallas es sencillamente impresionante. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000001",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/egypt-travel-packages",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000014",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tras sumergirnos en la grandeza de "
+                },
+                {
+                  "_key": "00000000000b",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000a"
+                  ],
+                  "text": "Abu Simbel"
+                },
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", cambiaremos de ritmo con una tranquila navegación en Felucca por la isla de Kitchener."
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Deslízate apaciblemente por el Nilo, rodeado de exuberantes jardines botánicos, un marcado contraste con el abrazo del desierto."
+                },
+                {
+                  "_key": "00000000000f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " También "
+                },
+                {
+                  "_key": "000000000012",
+                  "_type": "span",
+                  "marks": [
+                    "000000000011"
+                  ],
+                  "text": "visitaremos un encantador poblado nubio"
+                },
+                {
+                  "_key": "000000000013",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", donde vibrantes casas y cálidas sonrisas nos dan la bienvenida, ofreciendo una colorida visión de la cultura nubia contemporánea y de la vida cotidiana. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "00000000000a",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/abu-simbel/el-templo-de-amada",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000011",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/los-secretos-de-asuan-excursion-de-un-dia-al-museo-nubio-y-al-mercado-local/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/private-day-tours",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000015",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "El almuerzo se servirá a bordo del crucero mientras seguimos empapándonos de la belleza intemporal del río."
+                },
+                {
+                  "_key": "000000000016",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000017",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Concluye el día con una deliciosa cena a bordo, compartiendo historias de "
+                },
+                {
+                  "_key": "000000000019",
+                  "_type": "span",
+                  "marks": [
+                    "000000000018"
+                  ],
+                  "text": "las aventuras del"
+                },
+                {
+                  "_key": "00000000001a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " día con tus compañeros exploradores mientras las serenas aguas del Nilo nos guían suavemente hacia la noche. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000018",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-bahariya/aventuras-en-el-oasis-de-bahariya-desvelando-las-gemas-del-desierto/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/bahariya",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "今日は早朝から、エジプトでも屈指の壮観な遺跡へと旅立ちます。目的地は"
+                },
+                {
+                  "_key": "000000000001",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "アブ・シンベル神殿"
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "。ラムセス2世によって築かれたこの巨大な岩窟神殿は、ナセル湖のほとりにそびえ立ち、古代の偉大な建築技術と、現代の保存努力の証として今なお圧倒的な存在感を放っています。巨像の迫力、繊細な壁画、そして太陽の光が差し込む神殿内部の神秘的な空間——すべてが息をのむような体験となるでしょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "アブ・シンベルの壮大な遺跡を堪能した後は、穏やかなひとときを求めてナイル川へ。"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "キッチナー島"
+                },
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "を優雅に巡るフェルーカ（伝統的な帆船）のクルーズを楽しみます。美しい植物園に囲まれたこの島は、砂漠の風景とは一線を画す緑豊かな楽園。静かに流れるナイルの上で、心を落ち着けながらエジプトの別の顔を感じてください。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "さらに、活気に満ちた"
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ヌビアの村"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "へも訪問。色鮮やかな家々、陽気な地元の人々、伝統的な工芸品や文化が息づくこの村では、ヌビアの温かいもてなしと独特のライフスタイルに触れることができます。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "その後は、クルーズ船に戻り、ナイルの穏やかな流れを眺めながらのランチタイム。夜は船上ディナーを楽しみながら、旅の仲間とともに今日の壮大な冒険を振り返りましょう。ナイルの静寂に包まれながら、心満たされる一日を締めくくります。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Abu Simbel's Rock-Carved Wonders and a Nubian Adventure"
+        },
+        {
+          "_key": "es",
+          "value": "Día 7 Las maravillas talladas en la roca de Abu Simbel y una aventura nubia"
+        },
+        {
+          "_key": "ja",
+          "value": "7日目 アブ・シンベルの岩窟神殿とヌビアの冒険"
+        }
+      ]
+    },
+    {
+      "_key": "day-8",
+      "_type": "tourDay",
+      "dayNumber": 8,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Your morning begins with a visit to two of Aswan’s most significant sites. First, we explore the High Dam, a feat of modern engineering that has had a profound impact on Egypt’s landscape and economy. Standing atop the dam offers panoramic views of both the Nile River and Lake Nasser—a sight that puts the scale of this monumental project into perspective."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Next, we delve into ancient craftsmanship at the site of the Unfinished Obelisk. Located in the ancient granite quarries, this colossal obelisk offers a fascinating glimpse into the stone-working techniques of ancient Egyptians and poses intriguing questions about what could have been had it been completed."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Following the morning’s explorations, we’ll enjoy a flavorful Nubian lunch, rich with spices and local ingredients, providing a tasty cultural immersion. Afterward, we'll catch a flight back to Cairo, where the evening is yours to enjoy at leisure. Whether you choose to stroll through Cairo’s vibrant streets or simply relax, the day concludes with a delightful dinner at your hotel, allowing you time to reflect on the incredible experiences of your journey so far."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "00000000000e",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tu mañana comienza con una visita a dos de los lugares más significativos de "
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [
+                    "000000000001"
+                  ],
+                  "text": "Asuán"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " En primer lugar, exploraremos "
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [
+                    "000000000006"
+                  ],
+                  "text": "la Presa Alta"
+                },
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", una proeza de la ingeniería moderna que ha tenido un profundo impacto en el paisaje y la economía de Egipto."
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Estar en lo alto de la presa ofrece vistas panorámicas tanto del río "
+                },
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000b"
+                  ],
+                  "text": "Nilo como del lago Nasser"
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", una visión que pone en perspectiva la escala de este monumental proyecto. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000001",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/asuan",
+                  "newTab": false
+                },
+                {
+                  "_key": "000000000006",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-asuan/la-presa-alta/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/asuan/la-presa-alta-de-asuan",
+                  "newTab": false
+                },
+                {
+                  "_key": "00000000000b",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/crucero-de-4-dias-por-el-lago-nasser-desde-abu-simble/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/explorador-del-lago-nasser-crucero-de-4-dias-de-abu-simbel-a-asuan",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000f",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A continuación, nos adentramos en la artesanía antigua en el yacimiento del Obelisco Inacabado."
+                },
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000011",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Situado en las antiguas canteras de granito, este colosal obelisco ofrece una fascinante visión de las técnicas de trabajo de la piedra de "
+                },
+                {
+                  "_key": "000000000013",
+                  "_type": "span",
+                  "marks": [
+                    "000000000012"
+                  ],
+                  "text": "los antiguos egipcios"
+                },
+                {
+                  "_key": "000000000014",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " y plantea intrigantes preguntas sobre lo que podría haber sido de haberse completado. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000012",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/dioses-egipcios/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/dioses-egipcios",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000021",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000016",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tras las exploraciones de la mañana, disfrutaremos de un sabroso almuerzo nubio, rico en especias e ingredientes locales, que nos proporcionará una sabrosa "
+                },
+                {
+                  "_key": "000000000018",
+                  "_type": "span",
+                  "marks": [
+                    "000000000017"
+                  ],
+                  "text": "inmersión cultural"
+                },
+                {
+                  "_key": "000000000019",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "00000000001a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000001b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Después, tomaremos un vuelo de regreso a El Cairo, donde podrás disfrutar de la noche a tu aire."
+                },
+                {
+                  "_key": "00000000001c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000001d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Tanto si eliges pasear por las vibrantes calles de El Cairo como si simplemente te relajas, el día concluye "
+                },
+                {
+                  "_key": "00000000001f",
+                  "_type": "span",
+                  "marks": [
+                    "00000000001e"
+                  ],
+                  "text": "con una deliciosa cena en tu hotel"
+                },
+                {
+                  "_key": "000000000020",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", que te dará tiempo para reflexionar sobre las increíbles experiencias de tu viaje hasta ahora. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000017",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/inmersiones-culturales/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/journeys/el-viajero-cultural",
+                  "newTab": false
+                },
+                {
+                  "_key": "00000000001e",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/hoteles-economicos-cerca-de-las-piramides/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/hoteles-economicos-cerca-de-las-piramides",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "朝は、アスワンが誇る二つの重要な史跡を訪れるところから始まります。まずは、エジプトの近代史において最も重要な建築プロジェクトの一つである"
+                },
+                {
+                  "_key": "000000000001",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ハイダム"
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "へ。ナイルの流れを制御し、エジプトの農業と経済に大きな影響を与えたこの巨大なダムの上に立てば、ナイル川とナセル湖を一望する壮大な景色が広がります。その規模の大きさを実感しながら、近代エジプトの発展に思いを馳せましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "次に訪れるのは、古代エジプトの石工技術の謎を秘めた"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "未完成のオベリスク"
+                },
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "。古代の花崗岩採石場に横たわるこの巨大なオベリスクは、古代エジプト人がどのようにして精巧な石造建築を築いたのか、その技術を垣間見ることができる貴重な遺跡です。もし完成していれば、エジプト最大のオベリスクとなっていたこの遺跡には、未完だからこそ語られる歴史の物語が詰まっています。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "午前中の探索を終えた後は、香り豊かなスパイスと地元の食材をふんだんに使った"
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ヌビア料理のランチ"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "を堪能。食を通じてヌビア文化を感じながら、旅の味わいをさらに深めましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "その後、国内線でカイロへと戻ります。夕方以降は自由時間となるので、カイロの活気ある街並みを散策するもよし、ホテルでゆったりと過ごすもよし。夜は、ホテルでの美味しいディナーとともに、これまでの壮大な旅を振り返りながら、心に刻まれた思い出を静かに味わいましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Aswan’s Engineering Marvels and Return to Cairo"
+        },
+        {
+          "_key": "es",
+          "value": "Día 8 Las maravillas de la ingeniería de Asuán y regreso a El Cairo"
+        },
+        {
+          "_key": "ja",
+          "value": "8日目 アスワンの偉大なエンジニアリング遺産とカイロへの帰還"
+        }
+      ]
+    },
+    {
+      "_key": "day-9",
+      "_type": "tourDay",
+      "dayNumber": 9,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000004",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Start your day with the iconic "
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [
+                    "000000000001"
+                  ],
+                  "text": "Giza Pyramids"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", the last surviving wonder of the ancient world. As you gaze up at the towering structures, the sheer scale and historical depth are bound to leave you in awe."
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000001",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/best-of-egypt-2/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/8-days-best-of-egypt-tour-package",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000006",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Experience the pyramids from a different perspective as you embark on a memorable camel ride, offering unique views and fantastic photo opportunities. Following your desert adventure, we'll treat you to a delicious seafood lunch, giving you a taste of Cairo's culinary diversity."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000008",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "In the afternoon, dive into the bustling lanes of Khan El Khalili bazaar. This famous market is a treasure trove of Egyptian handicrafts, spices, and souvenirs—perfect for picking up a memento of your travels."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Conclude your evening with a magical dinner cruise on the Nile. Enjoy sumptuous cuisine and live entertainment as you float along, surrounded by the glittering cityscape of Cairo."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "00000000000b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Empieza el día con las emblemáticas Pirámides de Guiza, la última "
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [
+                    "000000000001"
+                  ],
+                  "text": "maravilla superviviente del mundo"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " antiguo."
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000005",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Cuando contemples las imponentes estructuras, su enorme escala y profundidad histórica te dejarán asombrado."
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000001",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/maravillas-de-cisjordania-el-gran-recorrido-por-cisjordania/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/la-gran-orilla-occidental-de-luxor-excursion-en-grupo",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000012",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Experimenta las pirámides desde una perspectiva diferente mientras te embarcas en un memorable paseo en camello, que ofrece vistas únicas y fantásticas oportunidades para hacer fotos."
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Tras tu "
+                },
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000f"
+                  ],
+                  "text": "aventura por el desierto"
+                },
+                {
+                  "_key": "000000000011",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ", te invitaremos a un delicioso almuerzo a base de marisco, que te permitirá saborear la diversidad culinaria de El Cairo. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "00000000000f",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/emocionantes-paseos-por-el-desierto-aventura-en-quad-en-hurghada/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/hurghada-quad-bike-tour",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000013",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Por la tarde, sumérgete en las bulliciosas callejuelas "
+                },
+                {
+                  "_key": "000000000015",
+                  "_type": "span",
+                  "marks": [
+                    "000000000014"
+                  ],
+                  "text": "del bazar de Khan El Khalili"
+                },
+                {
+                  "_key": "000000000016",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000017",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000018",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Este famoso mercado es un tesoro de artesanía, especias y recuerdos egipcios, perfecto "
+                },
+                {
+                  "_key": "00000000001a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "para recoger un recuerdo de tus viajes"
+                },
+                {
+                  "_key": "00000000001b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": ". "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000014",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-el-cairo/bazar-khan-al-khalili/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/guide/el-cairo/khan-el-khalili",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000023",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000001d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Concluye tu velada con una mágica cena "
+                },
+                {
+                  "_key": "00000000001f",
+                  "_type": "span",
+                  "marks": [
+                    "00000000001e"
+                  ],
+                  "text": "en crucero por el Nilo"
+                },
+                {
+                  "_key": "000000000020",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "."
+                },
+                {
+                  "_key": "000000000021",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000022",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Disfruta de la suntuosa cocina y del entretenimiento en directo mientras flotas rodeado del resplandeciente paisaje urbano de El Cairo. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "00000000001e",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/vacaciones-en-un-crucero-por-el-nilo/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/nile-cruises/vacaciones-en-un-crucero-por-el-nilo",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000007",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "一日の始まりは、エジプトの象徴であり、"
+                },
+                {
+                  "_key": "000000000001",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "古代世界の七不思議"
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "の中で唯一現存する"
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ギザのピラミッド"
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "から。目の前にそびえ立つ巨大な構造物を見上げながら、その壮大さと歴史の重みに圧倒されることでしょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "次に、ピラミッドを異なる視点から楽しむ"
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "キャメルライド"
+                },
+                {
+                  "_key": "00000000000a",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "へ。黄金の砂漠に広がる荘厳な景色の中、ラクダの背に揺られながら進むこの体験は、まさにエジプトならではの特別なひととき。素晴らしい写真撮影のチャンスもお見逃しなく。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "午前の冒険の後は、カイロの海鮮料理を堪能できる"
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "シーフードランチ"
+                },
+                {
+                  "_key": "00000000000e",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "へ。ピラミッド観光の余韻に浸りながら、エジプトの食文化の多様性を味わいましょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "午後は、カイロ最大のバザール"
+                },
+                {
+                  "_key": "000000000011",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ハーン・ハリーリ"
+                },
+                {
+                  "_key": "000000000012",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "へと繰り出します。迷路のように入り組んだ路地には、色鮮やかなランプ、スパイス、エジプト伝統工芸品などが並び、どこを見ても活気にあふれています。旅の思い出に、お気に入りの一品を見つけてみてはいかがでしょうか？"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000014",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "夜は、"
+                },
+                {
+                  "_key": "000000000015",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "ナイル川ディナークルーズ"
+                },
+                {
+                  "_key": "000000000016",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "で締めくくり。美味しいディナーとともに、エジプトの音楽やベリーダンスのライブパフォーマンスを楽しみながら、ナイルの穏やかな流れとカイロの輝く夜景に包まれる贅沢な時間をお過ごしください。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "The Giza Pyramids and Vibrant Cairo Markets"
+        },
+        {
+          "_key": "es",
+          "value": "Día 9 Las pirámides de Guiza y los vibrantes mercados de El Cairo"
+        },
+        {
+          "_key": "ja",
+          "value": "9日目 ギザのピラミッドと活気あふれるカイロの市場巡り"
+        }
+      ]
+    },
+    {
+      "_key": "day-10",
+      "_type": "tourDay",
+      "dayNumber": 10,
+      "morning": [
+        {
+          "_key": "en",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Your Egyptian adventure concludes today. Enjoy a final breakfast with views of the city waking up. Depending on your flight schedule, take a moment to relax or enjoy a few final sights. Our"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "sights. Our team is on hand to assist with any late departure arrangements, ensuring you leave Egypt with nothing but cherished memories and plans to return. Safe travels and until next time!"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "es",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "00000000000a",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Tu aventura egipcia concluye hoy."
+                },
+                {
+                  "_key": "000000000001",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Disfruta de un último desayuno con vistas de la ciudad despertando."
+                },
+                {
+                  "_key": "000000000003",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Dependiendo del horario de tu vuelo, tómate un momento "
+                },
+                {
+                  "_key": "000000000006",
+                  "_type": "span",
+                  "marks": [
+                    "000000000005"
+                  ],
+                  "text": "para relajarte o disfrutar de unas"
+                },
+                {
+                  "_key": "000000000007",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " últimas vistas."
+                },
+                {
+                  "_key": "000000000008",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000009",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Nuestro "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "000000000005",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/familiares-en-la-playa-en-egipto/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/blog/familiares-en-la-playa-en-egipto",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000013",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "00000000000b",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "vistas."
+                },
+                {
+                  "_key": "00000000000c",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "00000000000d",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Nuestro equipo está a tu disposición para ayudarte a organizar cualquier salida tardía, asegurándose de que te marchas de Egipto "
+                },
+                {
+                  "_key": "00000000000f",
+                  "_type": "span",
+                  "marks": [
+                    "00000000000e"
+                  ],
+                  "text": "sólo"
+                },
+                {
+                  "_key": "000000000010",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " con recuerdos entrañables y planes para volver."
+                },
+                {
+                  "_key": "000000000011",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "\n"
+                },
+                {
+                  "_key": "000000000012",
+                  "_type": "span",
+                  "marks": [],
+                  "text": " Buen viaje y hasta la próxima. "
+                }
+              ],
+              "markDefs": [
+                {
+                  "_key": "00000000000e",
+                  "_pendingInternalRef": {
+                    "sourceLocale": "en",
+                    "wpUrl": "https://travel2egypt.org/es/mujer-viajera-sola-en-egipto/"
+                  },
+                  "_type": "externalLink",
+                  "href": "/es/travel-tips/viajar-sola-a-egipto-el-panorama-real",
+                  "newTab": false
+                }
+              ],
+              "style": "normal"
+            }
+          ]
+        },
+        {
+          "_key": "ja",
+          "_type": "object",
+          "value": [
+            {
+              "_key": "000000000001",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000000",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "あなたのエジプトの冒険も、ついに最終日を迎えます。朝は、カイロの街が目覚める景色を眺めながら、最後の朝食をゆっくりとお楽しみください。フライトの時間に応じて、ホテルでくつろいだり、最後にもう一度カイロの名所を訪れたりと、ご自身のペースでお過ごしいただけます。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000003",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000002",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "私たちのスタッフが、出発までのサポートをいたしますので、安心して旅の締めくくりを迎えてください。エジプトでの素晴らしい思い出とともに、新たな旅の計画を胸に刻みながらのご出発となることでしょう。"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            },
+            {
+              "_key": "000000000005",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "000000000004",
+                  "_type": "span",
+                  "marks": [
+                    "strong"
+                  ],
+                  "text": "安全な旅を、そしてまたのご来訪を心よりお待ちしております！"
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Farewell Cairo"
+        },
+        {
+          "_key": "es",
+          "value": "Día 10 Despedida de El Cairo"
+        },
+        {
+          "_key": "ja",
+          "value": "10日目 さらばカイロ、思い出とともに"
+        }
+      ]
+    }
+  ],
+  "durationDays": 10,
+  "heroImage": {
+    "_type": "image",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Close-up of the carved face on an ancient Egyptian stone sarcophagus in a museum."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Primer plano del rostro tallado en un sarcófago egipcio de piedra en un museo."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "博物館に展示された古代エジプトの石棺に刻まれた顔のクローズアップ。"
+      }
+    ],
+    "asset": {
+      "_ref": "image-c221fc3079d63d9917ff5984d6f1215b6f82dad8-3000x2000-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "The serene carved features of a pharaonic sarcophagus lid on museum display."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Los serenos rasgos tallados de una tapa de sarcófago faraónico en exposición."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "博物館に並ぶ、ファラオの石棺の蓋に刻まれた穏やかな顔立ち。"
+      }
+    ]
+  },
+  "migration": {
+    "cityResolution": "default-cairo",
+    "migratedAt": "2026-05-13T22:22:24.946Z",
+    "source": "wp-import",
+    "wpId": 89619,
+    "wpModifiedAt": "2025-09-22T11:34:39",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/egypt-and-the-nile-tour/"
+  },
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "egypt-and-the-nile-tour"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "paquete-turistico-de-10-dias-por-egipto-y-el-nilo"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "fa-rao-no-isan-10-nichikan-no-ejiputo-nairutsuapakkeji"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Embark on an extraordinary journey through Egypt with our \"Pharaohs' Legacy - 10-Day Egypt and The Nile Tour Package,\" where each stop along the way unveils a layer of history, culture, and unparalleled beauty. Our meticulously crafted"
+    }
+  ],
+  "theme": {
+    "_ref": "theme-egypt-in-depth",
+    "_type": "reference"
+  },
+  "title": [
+    {
+      "_key": "en",
+      "value": "Pharaohs Legacy: 10-Day Egypt and The Nile Tour Package"
+    },
+    {
+      "_key": "es",
+      "value": "Paquete Turístico De 10 Días Por Egipto Y El Nilo"
+    },
+    {
+      "_key": "ja",
+      "value": "ファラオの遺産：10日間のエジプト＆ナイルツアーパッケージ"
+    }
+  ],
+  "tourMode": "private",
+  "type": "package"
+}

@@ -1,0 +1,373 @@
+{
+  "_createdAt": "2026-06-17T10:44:47Z",
+  "_id": "fieldGuide-tipping-honestly",
+  "_rev": "YcokvUllokBeD9AO7FqOBg",
+  "_type": "fieldGuide",
+  "_updatedAt": "2026-06-17T10:44:47Z",
+  "closing": [
+    {
+      "_key": "en",
+      "value": "Egypt's tipping culture is real, pervasive, and not going away. Most first-time travelers find it overwhelming for the first day or two, and then it becomes background — small notes given as part of the rhythm of moving through a country where service work is still largely cash-based and personally compensated.\n\nThe framework above is what we tell our own travelers before they arrive. It's specific, sometimes uncomfortable, and honest. We'd rather you know than guess."
+    }
+  ],
+  "colophonNote": [
+    {
+      "_key": "en",
+      "value": "Field guide · current Egyptian pounds · honest about the grey areas"
+    }
+  ],
+  "intro": [
+    {
+      "_key": "en",
+      "value": "Most travel sites won't tell you how tipping works in Egypt. Some avoid it because they're worried it sounds mercenary; some include it as a vague \"tipping is appreciated\" line and move on. Neither serves you. The truth is that tipping in Egypt is woven into the service economy in a way that's different from most Western countries — service staff at hotels, on cruises, on tours, and in restaurants depend on it as part of their income. Knowing the framework before you arrive lets you participate gracefully rather than guess your way through it.\n\nWhat follows is the framework we explain to our own travelers. It's specific, in current Egyptian pounds, and honest about the grey areas."
+    }
+  ],
+  "order": 30,
+  "region": [
+    {
+      "_key": "en",
+      "value": "Egypt, end to end"
+    }
+  ],
+  "sections": [
+    {
+      "_key": "framework",
+      "_type": "section",
+      "body": [
+        {
+          "_key": "en",
+          "value": "Tip small notes for short interactions as they happen. Tip larger, consolidated amounts at the end for people who worked with you across multiple days. Carry small denominations of Egyptian pounds — 10s, 20s, 50s — at all times; trying to tip with a 200-pound note when 20 is appropriate creates an awkward situation for everyone.\n\nDon't tip in foreign currency unless you have nothing else. Egyptian pounds are what the recipient actually uses; euros and dollars require a trip to a money changer who'll take a cut. The exception is high-value end-of-trip tips for guides, where larger-denomination foreign currency is sometimes welcome."
+        }
+      ],
+      "emphasized": false,
+      "title": [
+        {
+          "_key": "en",
+          "value": "The framework, in one paragraph"
+        }
+      ]
+    },
+    {
+      "_key": "smallNotes",
+      "_type": "section",
+      "emphasized": false,
+      "operatorNote": [
+        {
+          "_key": "en",
+          "value": "The 5–10 EGP bathroom-attendant tip catches every first-time visitor off guard. Carry enough small notes that you're never digging for change. The amounts are small but the frequency is real."
+        }
+      ],
+      "tipRows": [
+        {
+          "_key": "small-0",
+          "_type": "tipRow",
+          "amount": "20–50 EGP per bag",
+          "context": [
+            {
+              "_key": "en",
+              "value": "On arrival and on departure. The going rate climbs with luggage size, not status of the hotel."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Porters at hotels"
+            }
+          ]
+        },
+        {
+          "_key": "small-1",
+          "_type": "tipRow",
+          "amount": "50–100 EGP per night",
+          "context": [
+            {
+              "_key": "en",
+              "value": "Left on the pillow on the last day, or daily if housekeeping rotates between staff."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Hotel housekeeping"
+            }
+          ]
+        },
+        {
+          "_key": "small-2",
+          "_type": "tipRow",
+          "amount": "Round up the fare",
+          "context": [
+            {
+              "_key": "en",
+              "value": "Add 20–50 EGP if they helped with luggage. Pre-arranged drivers are handled at end-of-trip."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Taxi drivers (street, not pre-arranged)"
+            }
+          ]
+        },
+        {
+          "_key": "small-3",
+          "_type": "tipRow",
+          "amount": "10% of the bill",
+          "context": [
+            {
+              "_key": "en",
+              "value": "At standard restaurants. Service charge on the bill is real and goes to staff; at better places an extra 5–10% in cash is customary on top of it."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Restaurant servers"
+            }
+          ]
+        },
+        {
+          "_key": "small-4",
+          "_type": "tipRow",
+          "amount": "A few coins",
+          "context": [
+            {
+              "_key": "en",
+              "value": "Not strictly necessary but appreciated. Small notes work too if you have them."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Café and street food"
+            }
+          ]
+        },
+        {
+          "_key": "small-5",
+          "_type": "tipRow",
+          "amount": "5–10 EGP",
+          "context": [
+            {
+              "_key": "en",
+              "value": "On leaving. Universal in public spaces and at tourist sites; expected even when there's no tray on the counter."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Bathroom attendants"
+            }
+          ]
+        },
+        {
+          "_key": "small-6",
+          "_type": "tipRow",
+          "amount": "20–50 EGP",
+          "context": [
+            {
+              "_key": "en",
+              "value": "Optional. Navigate carefully — see \"The grey areas\" below."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Site staff with a \"special\" view or unlocked room"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Small notes, as you go"
+        }
+      ]
+    },
+    {
+      "_key": "consolidated",
+      "_type": "section",
+      "emphasized": false,
+      "operatorNote": [
+        {
+          "_key": "en",
+          "value": "These are guidelines, not rules. What matters most is the gesture's honesty — give what reflects the quality of service you received. Underpaying when service was excellent is felt; overpaying when service was poor sets unrealistic expectations for the next traveler. Most guides and drivers won't ask, but their economic dependence on tips is real."
+        }
+      ],
+      "tipRows": [
+        {
+          "_key": "cons-0",
+          "_type": "tipRow",
+          "amount": "$30–60 USD per day, per party",
+          "context": [
+            {
+              "_key": "en",
+              "value": "Given as a single envelope at the end of the trip. Adjust upward for exceptional service or large parties."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Egyptologist guide on a multi-day tour"
+            }
+          ]
+        },
+        {
+          "_key": "cons-1",
+          "_type": "tipRow",
+          "amount": "$15–25 USD per day, per party",
+          "context": [
+            {
+              "_key": "en",
+              "value": "Same end-of-trip envelope convention as the guide; drivers often work the full circuit with the same party."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Driver on a multi-day tour"
+            }
+          ]
+        },
+        {
+          "_key": "cons-2",
+          "_type": "tipRow",
+          "amount": "$30–50 USD per traveler",
+          "context": [
+            {
+              "_key": "en",
+              "value": "For a 3–4 night cruise. Often distributed via a tip box on the ship or handed to the cruise manager to allocate."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Nile cruise crew (collective)"
+            }
+          ]
+        },
+        {
+          "_key": "cons-3",
+          "_type": "tipRow",
+          "amount": "$20–30 USD per traveler",
+          "context": [
+            {
+              "_key": "en",
+              "value": "For a 3–4 night cruise. Given separately to the cabin steward, not in the crew pool."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Cabin attendant on a cruise"
+            }
+          ]
+        },
+        {
+          "_key": "cons-4",
+          "_type": "tipRow",
+          "amount": "$20–30 USD per party, per day",
+          "context": [
+            {
+              "_key": "en",
+              "value": "Handed at the end of the day. If multiple parties share the guide, each party tips its share."
+            }
+          ],
+          "recipient": [
+            {
+              "_key": "en",
+              "value": "Day-tour guide"
+            }
+          ]
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "Consolidated tips, at the end"
+        }
+      ]
+    },
+    {
+      "_key": "greyAreas",
+      "_type": "section",
+      "body": [
+        {
+          "_key": "en",
+          "value": "The \"special access\" tip at sites — a guard at a monument offers to take you to a normally-closed area, or to let you photograph a spot where photography is restricted — is technically corruption of site staff, and you're under no obligation to participate. The honest answer: it happens, locals navigate it pragmatically, and travelers should feel free to decline politely. If you do participate, 50-100 EGP is the going rate. We don't encourage it.\n\nThe \"helper\" who appears uninvited is the second uncomfortable case. Someone at a site walks up, starts explaining things you didn't ask about, then expects a tip. Polite firmness — \"Lā shukran\" with a smile, kept walking — works. If you allowed several minutes of explanation, 20-50 EGP is fair.\n\nThe persistent vendor isn't tipping but is related: vendors at sites sometimes follow you persistently. The cultural norm is firm \"lā shukran\" repeated calmly, not anger.\n\nTipping for photos with people — if someone offered to be in your photo (camel handler, costumed performer), 20-50 EGP is expected. If you took someone's photo without asking, don't. Ask first, expect to tip."
+        }
+      ],
+      "emphasized": true,
+      "operatorNote": [
+        {
+          "_key": "en",
+          "value": "These situations frustrate travelers more than the standard tips because they feel like extraction rather than service. The cultural reality is that many of these workers are paid badly or not at all, and tips bridge the gap. That doesn't obligate you to participate in every interaction, but it helps to understand the economics behind them."
+        }
+      ],
+      "title": [
+        {
+          "_key": "en",
+          "value": "The grey areas"
+        }
+      ]
+    },
+    {
+      "_key": "currency",
+      "_type": "section",
+      "body": [
+        {
+          "_key": "en",
+          "value": "Before you arrive in Egypt, change a small amount of foreign currency to Egyptian pounds at your home country's exchange — enough for the first day of tipping. Once in Egypt, withdraw from ATMs (much better rates than hotels). Ask for small denominations when withdrawing; ATMs sometimes dispense only 200-pound notes, which are useless for most tipping situations.\n\nKeep tip money separate from your spending money. A small zippered compartment with 10s, 20s, and 50s prevents the \"do I really want to break this 100 for a 20-pound tip?\" moment that creates awkwardness."
+        }
+      ],
+      "emphasized": false,
+      "title": [
+        {
+          "_key": "en",
+          "value": "A note on currency"
+        }
+      ]
+    }
+  ],
+  "seriesNumber": "No. 03",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "tipping-honestly"
+      }
+    }
+  ],
+  "standfirstAccent": [
+    {
+      "_key": "en",
+      "value": "Here's how much, when, and to whom — written by people who've watched it from both sides."
+    }
+  ],
+  "standfirstLead": [
+    {
+      "_key": "en",
+      "value": "Egypt runs on small notes."
+    }
+  ],
+  "tagSummary": [
+    {
+      "_key": "en",
+      "value": "Tipping"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Tipping,"
+    }
+  ],
+  "titleAccent": [
+    {
+      "_key": "en",
+      "value": "Honestly"
+    }
+  ]
+}

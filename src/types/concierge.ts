@@ -4,6 +4,7 @@
  * route, the completion panel, and — at Session 9 — the Autoura webhook.
  * Keep this Autoura-aligned: field renames here ripple to S9.
  */
+import type { RoutedBrand } from '@/lib/concierge/brands';
 
 export type PreferredContact = 'email' | 'phone' | 'whatsapp' | null;
 
@@ -49,6 +50,16 @@ export interface BriefPayload {
   constraints: BriefConstraints;
   brief_summary: string | null;
   follow_up_window: string | null;
+  /**
+   * Portfolio routing (Session 13). The agent decides the route in
+   * conversation; this is the extraction READING BACK that decision from the
+   * agent's explicit handoff (default 'travel2egypt' when no sister-brand
+   * handoff was made). NOT sent on the Autoura wire (toAutouraPayload maps
+   * fields explicitly and omits these) — the target endpoint already encodes
+   * the brand. routing_reason is a short team-facing 'why', or null.
+   */
+  routed_brand: RoutedBrand;
+  routing_reason: string | null;
 }
 
 /** What /api/brief returns to the client. */

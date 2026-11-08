@@ -1,0 +1,31 @@
+{
+ "generated": "2026-10-31",
+ "note": "internalLink refs to hidden (superseded) guideArticles are repointed to migration.supersededBy. Applied by scripts/repoint-hidden-guide-links-2026-10-31.py",
+ "map": {
+  "guideArticle.cairo.the-hanging-church": "guideArticle.cairo.hanging-church-al-mu-allaqa",
+  "guideArticle.cairo.al-azhar-to-the-citadel": "guideArticle.cairo.from-al-azhar-to-the-citadel-walking-islamic-cairo",
+  "guideArticle.cairo.aqsunur-mosque": "guideArticle.cairo.aqsunqur-mosque-the-blue-mosque",
+  "guideArticle.cairo.church-of-st-barbara": "guideArticle.cairo.church-of-saint-barbara",
+  "guideArticle.cairo.ibn-tulun-citadel": "guideArticle.cairo.mosque-of-ibn-tulun",
+  "guideArticle.cairo.khan-al-khalili-bazaar": "guideArticle.cairo.khan-el-khalili",
+  "guideArticle.cairo.khanqah-mausoleum-of-sultan-baybars-al-gashankir": "guideArticle.cairo.khanqah-and-mausoleum-of-sultan-baybars-al-jashnagir",
+  "guideArticle.cairo.madrassa-mausoleum-of-as-salih-negm-el-din-ayyub": "guideArticle.cairo.madrasa-and-mausoleum-of-as-salih-najm-al-din-ayyub",
+  "guideArticle.cairo.an-nasir-mohammed-bin-qalawoon-mosque": "guideArticle.cairo.madrasa-of-al-nasir-muhammad-ibn-qalawun-en-2026-05",
+  "guideArticle.cairo.madrassa-and-mausoleum-of-barquq": "guideArticle.cairo.madrasa-and-khanqah-of-sultan-barquq",
+  "guideArticle.cairo.mosque-madrassa-of-al-ghouri": "guideArticle.cairo.mosque-madrasa-of-al-ghouri",
+  "guideArticle.cairo.mosque-madrassa-of-umm-sultan-shaaban": "guideArticle.cairo.mosque-madrassa-of-umm-sultan-sha-aban",
+  "guideArticle.cairo.sabil-and-kuttab-of-abdel-rahman-katkhuda": "guideArticle.cairo.sabil-kuttab-of-abd-al-rahman-katkhuda",
+  "guideArticle.cairo.church-of-st-sergius-bacchus": "guideArticle.cairo.church-of-saint-sergius-and-bacchus-abu-serga",
+  "guideArticle.cairo.the-mosque-of-sultan-qaitbey": "guideArticle.cairo.mausoleum-complex-of-sultan-qaytbay",
+  "guideArticle.qena.the-temple-of-hathor": "guideArticle.qena.the-temple-precinct",
+  "wp-page-86832": "wp-page-59386",
+  "wp-page-112945": "wp-page-60510",
+  "guideArticle.alexandria.the-national-museum": "guideArticle.alexandria.alexandria-national-museum",
+  "guideArticle.qena.the-temple-of-dendera": "guideArticle.qena.the-temple-precinct",
+  "guideArticle.al-wadi-al-gadid.el-wadi-el-gedid-museum": "guideArticle.al-wadi-al-gadid.kharga-museum-of-antiquities",
+  "wp-page-60509": "guideArticle.siwa-oasis.getting-around-in-siwa-oasis",
+  "wp-page-86936": "wp-page-60443",
+  "wp-page-86841": "wp-page-60653",
+  "guideArticle.cairo.mosque-of-al-nasir-mohammed-ben-qalawoon": "guideArticle.cairo.mosque-of-al-nasir-muhammad-ibn-qalawun-en-2026-05"
+ }
+}

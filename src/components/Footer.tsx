@@ -3,6 +3,10 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
+import { WHATSAPP_DISPLAY, WHATSAPP_LINK } from '@/lib/concierge/constants';
+import { LEGAL_NAME } from '@/lib/company';
+import { accreditationItems, etaaUrl, type Accreditations } from '@/lib/accreditations';
+
 import { CookiePreferencesButton } from './CookiePreferencesButton';
 
 interface FooterProps {
@@ -14,23 +18,23 @@ interface FooterProps {
 const SISTER_BRANDS = [
   { name: 'AffordEgypt', url: 'https://affordegypt.com/', descriptionKey: 'affordegypt' },
   { name: 'Sillage', url: 'https://sillage-egypte.com/', descriptionKey: 'sillage' },
-  { name: 'Sawa', url: 'https://sawatours.org/', descriptionKey: 'sawa' },
+  { name: 'Sawa', url: 'https://sawa.tours/', descriptionKey: 'sawa' },
 ];
 
 const SISTER_BRAND_DESCRIPTIONS: Record<Locale, Record<string, string>> = {
   en: {
     affordegypt: 'Egypt for budget-conscious travelers.',
-    sillage: 'Boutique luxury, Aswan-rooted.',
+    sillage: 'Bespoke luxury journeys for European travellers.',
     sawa: 'Group journeys, together.',
   },
   es: {
     affordegypt: 'Egipto para viajeros con presupuesto.',
-    sillage: 'Lujo boutique, con raíces en Asuán.',
+    sillage: 'Viajes de lujo a medida para viajeros europeos.',
     sawa: 'Viajes en grupo, juntos.',
   },
   ja: {
     affordegypt: '予算重視の旅行者のためのエジプト',
-    sillage: 'アスワンに根ざしたブティック・ラグジュアリー',
+    sillage: 'ヨーロッパの旅行者のための、オーダーメイドのラグジュアリーな旅',
     sawa: 'みんなで一緒に楽しむグループの旅',
   },
 };
@@ -47,8 +51,12 @@ const LEGAL_LINKS = [
  * (journey-1/2/3). Accreditation now lives in the brand tagline (matching the
  * reference), so the previous standalone trust-links strip is folded in.
  */
-export function Footer({ locale }: FooterProps) {
+export function Footer({ locale, accreditations }: FooterProps & { accreditations?: Accreditations | null }) {
   const t = useTranslations('footer');
+  // Licence/accreditation items come only from Sanity siteSettings; each
+  // renders only when set (homepage fix round 1, 2026-11-08).
+  const accItems = accreditationItems(accreditations, locale);
+  const etaaHref = etaaUrl(accreditations);
   const tNav = useTranslations('nav');
   const year = new Date().getFullYear();
   const descriptions = SISTER_BRAND_DESCRIPTIONS[locale];
@@ -61,7 +69,10 @@ export function Footer({ locale }: FooterProps) {
             <Link className="t2e-logo t2e-logo--wordmark" href="/" aria-label="Travel2Egypt — home">
               Travel<span className="t2e-logo-2">2</span>Egypt
             </Link>
-            <p>{t('tagline')}</p>
+            <p>
+              {t('tagline')}
+              {accItems.length > 0 && <> {accItems.join(' · ')}.</>}
+            </p>
           </div>
 
           <div className="t2e-foot-col">
@@ -109,6 +120,11 @@ export function Footer({ locale }: FooterProps) {
             <ul>
               <li><Link href="/about">{tNav('about')}</Link></li>
               <li><Link href="/contact">{tNav('contact')}</Link></li>
+              <li>
+                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer">
+                  {t('whatsapp', { number: WHATSAPP_DISPLAY })}
+                </a>
+              </li>
               <li><Link href="/blog">{tNav('blog')}</Link></li>
               <li><Link href="/responsible-travel">{t('responsibleTravel')}</Link></li>
             </ul>
@@ -132,7 +148,17 @@ export function Footer({ locale }: FooterProps) {
         </div>
 
         <div className="t2e-foot-legal">
-          <span>{t('rights', { year })}</span>
+          <span className="legal-owner">
+            {t('rights', { year })} {LEGAL_NAME}
+            {etaaHref && accreditations?.etaaNumber && (
+              <>
+                {' · '}
+                <a href={etaaHref} target="_blank" rel="noopener noreferrer">
+                  ETAA {accreditations.etaaNumber.trim()}
+                </a>
+              </>
+            )}
+          </span>
           <span className="legal-links">
             {LEGAL_LINKS.map((link) => (
               <Link key={link.href} href={link.href}>

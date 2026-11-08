@@ -1,0 +1,100 @@
+Phase 1 redirect verification against http://localhost:3100 — 2026-09-26T00:46:41.410Z
+
+PASS task 6  en  /blog/traveling-to-egypt-in-the-time-of-coronavirus  → 308 /travel-tips/passport-and-visa  target 200
+PASS task 6  es  /es/blog/viajar-a-egipto-en-tiempos-del-coronavirus  → 308 /es/travel-tips/pasaportes-y-visados-para-egipto-las-normas-de-entrada-explicadas  target 200
+PASS task 6  ja  /ja/blog/pandemikku-go-no-ejiputo-ryoko-de-shitte-oku-koto  → 308 /ja/travel-tips/ejiputo-nyukoku-gaido  target 200
+PASS task 7  en  /blog/how-to-choose-a-sim-card-for-your-trip-to-egypt  → 308 /travel-tips/staying-connected-in-egypt  target 200
+PASS task 7  es  /es/blog/sim-para-viajar-a-egipto  → 308 /es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas  target 200
+PASS task 7  ja  /ja/blog/ejiputo-ryoko-no-sim-kado  → 308 /ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido  target 200
+PASS task 7  en  /travel-tips/telephones-in-egypt  → 308 /travel-tips/staying-connected-in-egypt  target 200
+PASS task 7  es  /es/travel-tips/telefonos-en-egipto  → 308 /es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas  target 200
+PASS task 7  ja  /ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite  → 308 /ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido  target 200
+PASS task 14 en  /blog/egypt-holiday-deals  → 308 /egypt-travel-packages  target 200
+PASS task 14 es  /es/blog/ofertas-de-vacaciones-en-egipto  → 308 /es/paquetes-de-viaje-a-egipto  target 200
+PASS task 14 ja  /ja/blog/ejiputo-no-horide-puran  → 308 /ja/ejiputo-ryoko-pakkeeji  target 200
+PASS task 14 en  /blog/vacation-in-egypt  → 308 /journeys/first-time-in-egypt  target 200
+PASS task 14 es  /es/blog/vacaciones-inolvidables-en-egipto  → 308 /es/journeys/primera-vez-en-egipto  target 200
+PASS task 14 ja  /ja/blog/ejiputo-de-kyuka-o-sugosu-nara  → 308 /ja/journeys/hajimete-no-ejiputo  target 200
+PASS task 14 en  /blog/best-places-to-visit-in-egypt  → 308 /guide  target 200
+PASS task 14 es  /es/blog/los-mejores-lugares-que-visitar-en-egipto  → 308 /es/guide  target 200
+PASS task 14 ja  /ja/blog/ejiputo-de-otozureru-beki-basho  → 308 /ja/guide  target 200
+PASS task 14 en  /blog/places-in-egypt  → 308 /guide  target 200
+PASS task 14 es  /es/blog/historicos-de-egipto  → 308 /es/guide  target 200
+PASS task 14 ja  /ja/blog/ejiputo-de-otozureru-beki-rekishi-teki-na-basho  → 308 /ja/guide  target 200
+PASS task 14 en  /blog/touring-egypt  → 308 /journeys/first-time-in-egypt  target 200
+PASS task 14 es  /es/blog/la-mejor-experiencia-en-tours-por-egipto  → 308 /es/journeys/primera-vez-en-egipto  target 200
+PASS task 14 ja  /ja/blog/hajimete-ejiputo-o-tabi-suru-hito-e  → 308 /ja/journeys/hajimete-no-ejiputo  target 200
+PASS task 16 en  /blog/7-unforgettable-to-do-in-aswan  → 308 /guide/aswan/things-to-do-in-aswan  target 200
+PASS task 16 es  /es/blog/7-cosas-inolvidables-que-hacer-en-aswan  → 308 /es/guide/asuan/que-hacer-en-asuan  target 200
+PASS task 16 ja  /ja/blog/asuwan-de-nani-o-suru-beki-ka  → 308 /ja/guide/asuwan/asuwan-de-yaru-beki-koto  target 200
+PASS task 16 en  /blog/places-to-visit-in-aswan  → 308 /guide/aswan  target 200
+PASS task 16 es  /es/blog/categoria-para-visitar-en-aswan  → 308 /es/guide/asuan  target 200
+PASS task 16 ja  /ja/blog/asuwan-de-otozureru-beki-basho  → 308 /ja/guide/asuwan  target 200
+PASS task 16 en  /blog/top-things-to-do-in-luxor-egypt  → 308 /guide/luxor/what-to-do-in-luxor  target 200
+PASS task 16 es  /es/blog/lo-mejor-que-hacer-en-luxor  → 308 /es/guide/luxor/que-hacer-en-luxor  target 200
+PASS task 16 ja  /ja/blog/rukusoru-de-miru-beki-basho-to-sugoshi-kata  → 308 /ja/guide/rukusoru/rukusoru-no-akutibiti  target 200
+PASS task 16 en  /blog/33-amazing-things-to-do-in-hurghada  → 308 /guide/hurghada/activities-in-hurghada  target 200
+PASS task 16 es  /es/blog/cosas-increibles-que-hacer-en-hurghada  → 308 /es/guide/hurghada/actividades-en-hurghada  target 200
+PASS task 16 ja  /ja/blog/harugada-de-nani-o-suru-beki-ka  → 308 /ja/guide/harugada/harugada-no-akutibiti  target 200
+PASS task 16 en  /blog/top-adventures-things-to-do-in-sharm-el-sheikh  → 308 /guide/sharm-el-sheikh/things-to-do-in-sharm-el-sheikh  target 200
+PASS task 16 es  /es/blog/cosas-que-hacer-en-sharm-el-sheikh  → 308 /es/guide/sharm-el-sheikh/actividades-en-sharm-el-sheikh  target 200
+PASS task 16 ja  /ja/blog/sharumuerusheiku-de-taiken-shi-tai-koto  → 308 /ja/guide/sharumu-eru-sheiku/sharumuerusheiku-no-akutibiti  target 200
+PASS task 17 en  /blog/egypt-weather-guide  → 308 /travel-tips/egypt-weather-guide  target 200
+PASS task 17 es  /es/blog/guia-del-tiempo-en-egipto  → 308 /es/travel-tips/el-clima-de-egipto-zonas-climaticas-estaciones-y-cuando-visitar  target 200
+PASS task 17 ja  /ja/blog/ejiputo-no-tenko-gaido  → 308 /ja/travel-tips/ejiputo-no-tenko-gaido  target 200
+PASS task 17 en  /blog/faux-pas-to-avoid-in-egypt  → 308 /travel-tips/cultural-etiquette-in-egypt  target 200
+PASS task 17 es  /es/blog/pasos-en-falso-que-debes-evitar-en-egipto  → 308 /es/travel-tips/etiqueta-cultural-en-egipto-como-desenvolverse-en-la-vida-diaria  target 200
+PASS task 17 ja  /ja/blog/ejiputo-de-shitsurei-ni-nara-nai-tame-ni  → 308 /ja/travel-tips/ejiputo-no-bunka-mana  target 200
+PASS task 17 en  /blog/local-hospitals-in-egypt  → 308 /travel-tips/health-and-safety  target 200
+PASS task 17 es  /es/blog/hospitales-locales-en-egipto-costos-y-atencion-medica  → 308 /es/travel-tips/salud-y-seguridad-en-egipto-la-realidad-practica-para-el-viajero  target 200
+PASS task 17 ja  /ja/blog/ejiputo-de-byoin-ni-iku-koto-ni-nattara  → 308 /ja/travel-tips/ejiputo-no-kenko-to-anzen  target 200
+HOLD task 1  en  /blog/the-grand-egyptian-museum-2024-insider-guide  after-publish (task 1): source 200, planned target /blog/the-grand-egyptian-museum 200
+HOLD task 1  es  /es/blog/gran-museo-egipcio  after-publish (task 1): source 200, planned target /es/blog/el-gran-museo-egipcio-la-puerta-monumental-de-egipto-al-pasado 200
+HOLD task 1  ja  /ja/blog/dai-ejiputo-hakubutsukan-no-kengaku-gaido  after-publish (task 1): source 200, planned target /ja/blog/dai-ejiputo-hakubutsukan 200
+HOLD task 2  en  /blog/safety-guide-for-travelers-to-egypt  after-publish (task 2): source 200, planned target /blog/is-egypt-safe 200
+HOLD task 2  es  /es/blog/guia-de-seguridad-para-viajeros-en-egipto-2025-2026  after-publish (task 2): source 200, planned target /es/blog/es-seguro-viajar-a-egipto 200
+HOLD task 2  ja  /ja/blog/ejiputo-ryoko-no-anzen-gaido  after-publish (task 2): source 200, planned target /ja/blog/ejiputo-wa-anzen-ka 200
+HOLD task 3  en  /blog/discover-siwa-oasis  after-publish (task 3): source 200, planned target /guide/siwa-oasis 200
+HOLD task 3  es  /es/blog/descubre-el-oasis-de-siwa  after-publish (task 3): source 200, planned target /es/guide/siwa 200
+HOLD task 3  ja  /ja/blog/shiwa-oashisu  after-publish (task 3): source 200, planned target /ja/guide/shiwa-oashisu 200
+HOLD task 3  en  /blog/siwa-oasis-culture-and-adventure  after-publish (task 3): source 200, planned target /guide/siwa-oasis 200
+HOLD task 3  es  /es/blog/cultura-y-aventura-en-el-oasis-de-siwa  after-publish (task 3): source 200, planned target /es/guide/siwa 200
+HOLD task 3  ja  /ja/blog/shiwa-oashisu-no-bunka-to-boken  after-publish (task 3): source 200, planned target /ja/guide/shiwa-oashisu 200
+HOLD task 3  en  /blog/siwas-historical-landmarks  after-publish (task 3): source 200, planned target /guide/siwa-oasis 200
+HOLD task 3  es  /es/blog/hitos-historicos-de-siwa  after-publish (task 3): source 200, planned target /es/guide/siwa 200
+HOLD task 3  ja  /ja/blog/shiwa-oashisu-no-rekishi-teki-rando-maku  after-publish (task 3): source 200, planned target /ja/guide/shiwa-oashisu 200
+HOLD task 3  en  /blog/siwa-oasis-a-timeless-epic-adventure  after-publish (task 3): source 200, planned target /guide/siwa-oasis 200
+HOLD task 3  es  /es/blog/oasis-de-siwa-una-aventura-epica-eterna  after-publish (task 3): source 200, planned target /es/guide/siwa 200
+HOLD task 3  ja  /ja/blog/shiwa-oashisu-no-rekishi-to-fukei  after-publish (task 3): source 200, planned target /ja/guide/shiwa-oashisu 200
+HOLD task 5  en  /blog/best-time-to-cruise-the-nile  after-publish (task 5): source 200, planned target /blog/best-time-to-visit-egypt 200
+HOLD task 5  es  /es/blog/para-navegar-por-el-nilo  after-publish (task 5): source 200, planned target /es/blog/mejor-epoca-para-visitar-egipto 200
+HOLD task 5  ja  /ja/blog/nairu-kuruzu-ni-saiteki-na-jiki  after-publish (task 5): source 200, planned target /ja/blog/ejiputo-o-otozureru-sairyo-no-jiki 200
+HOLD task 9  en  /blog/the-1922-discovery-of-tutankhamuns-tomb-why-it-matters-the-ultimate-guide  after-publish (task 9): source 200, planned target /blog/the-story-of-king-tutankhamun-tomb 200
+HOLD task 9  es  /es/blog/descubrimiento-de-la-tumba-de-tutankhamun  after-publish (task 9): source 200, planned target /es/blog/la-historia-de-la-tumba-de-tutankhamun 200
+HOLD task 9  ja  /ja/blog/tsutankamen-no-haka-no-hakken  after-publish (task 9): source 200, planned target /ja/blog/tsutankamen-no-haka 200
+HOLD task 10 en  /blog/historical-sites-visited-by-a-nile-cruise  after-publish (task 10): source 200, planned target /blog/the-definitive-guide-to-egypt-nile-cruise 200
+HOLD task 10 es  /es/blog/historicos-visitados-en-un-crucero-por-el-nilo  after-publish (task 10): source 200, planned target /es/blog/crucero-por-el-nilo-en-egipto 200
+HOLD task 10 ja  /ja/blog/nairu-kuruzu-de-otozureru-rekishi-iseki  after-publish (task 10): source 200, planned target /ja/blog/ejiputo-no-nairu-kuruzu-kanzen-gaido 200
+HOLD task 11 en  /blog/family-beach-holidays-in-egypt  after-publish (task 11): source 200, planned target /blog/best-family-resorts-in-egypt 200
+HOLD task 11 es  /es/blog/familiares-en-la-playa-en-egipto  after-publish (task 11): source 200, planned target /es/blog/complejos-turisticos-familiares-de-egipto 200
+HOLD task 11 ja  /ja/blog/ejiputo-no-kazoku-bichi-kyuka  after-publish (task 11): source 200, planned target /ja/blog/ejiputo-no-famiri-rizoto 200
+HOLD task 12 en  /blog/the-luxurious-egyptian-vacation  cross-domain (task 12): source 200, planned https://sillage-egypte.com/journal/is-luxury-egypt-worth-it
+?    task 12 es  /es/blog/vacaciones-en-egipto  no redirect row (cross-domain move: this locale needs a decision)
+?    task 12 ja  /ja/blog/ejiputo-no-ragujuari-na-bakeshon  no redirect row (cross-domain move: this locale needs a decision)
+HOLD task 12 en  /blog/luxury-resorts-in-egypt  cross-domain (task 12): source 200, planned https://sillage-egypte.com/journal/best-luxury-resorts-red-sea
+?    task 12 es  /es/blog/centros-turisticos-de-lujo-en-egipto-junto-al-nilo  no redirect row (cross-domain move: this locale needs a decision)
+?    task 12 ja  /ja/blog/ejiputo-no-ragujuaririzoto-o-do-erabu-ka  no redirect row (cross-domain move: this locale needs a decision)
+HOLD task 12 en  /blog/egypt-luxury-beach-resorts  cross-domain (task 12): source 200, planned https://sillage-egypte.com/journal/best-luxury-resorts-red-sea
+?    task 12 es  /es/blog/resorts-de-playa-de-lujo-de-egipto  no redirect row (cross-domain move: this locale needs a decision)
+?    task 12 ja  /ja/blog/ejiputo-no-kokyu-bichi-rizoto  no redirect row (cross-domain move: this locale needs a decision)
+HOLD task 13 en  /blog/sinai-adventure  after-publish (task 13): source 200, planned target /blog/sinai-desert-safaris 200
+HOLD task 13 es  /es/blog/aventura-desencadenada-en-el-sinai  after-publish (task 13): source 200, planned target /es/blog/safaris-por-el-desierto-del-sinai-desvelando-los-misterios-de-la-frontera-salvaje-de-egipto 200
+HOLD task 13 ja  /ja/blog/shinaihanto-o-tabi-suru-mae-ni  after-publish (task 13): source 200, planned target /ja/blog/shinai-no-sabaku-o-aruku-hashiru-koeru 200
+HOLD task 15 en  /blog/travel-packages-from-the-usa-to-egypt  after-publish (task 15): source 200, planned target /blog/egypt-package-deals 200
+HOLD task 15 es  /es/blog/paquetes-de-viaje-con-vuelo-incluido-de-ee-uu  after-publish (task 15): source 200, planned target /es/blog/paquetes-a-egipto-una-nueva-era-de-viajes-en-grupo 200
+HOLD task 15 ja  /ja/blog/amerika-hatsu-ejiputo-ryoko-pakkeji-no-erabikata  after-publish (task 15): source 200, planned target /ja/blog/ejiputo-ryoko-pakkeji-no-erabikata 200
+HOLD task 18 en  /blog/budget-hotels-near-the-pyramids  cross-domain (task 18): source 200, planned https://affordegypt.com/VERIFY-destination-url
+?    task 18 es  /es/blog/hoteles-economicos-cerca-de-las-piramides  no redirect row (cross-domain move: this locale needs a decision)
+?    task 18 ja  /ja/blog/giza-no-piramiddo-chikaku-no-kakuyasu-hoteru  no redirect row (cross-domain move: this locale needs a decision)
+
+0 failure(s). PASS = live redirect verified; HOLD = waiting on publish or on the destination site.

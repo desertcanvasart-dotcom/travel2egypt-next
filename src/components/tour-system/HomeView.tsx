@@ -5,6 +5,7 @@ import type { Locale } from '@/i18n/routing';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 
 import { JourneyImage } from './JourneyImage';
+import '@/styles/tour-system.css';
 
 interface HomeCard {
   title?: string;
@@ -27,14 +28,16 @@ export interface HomePageData {
   startingPoints?: StartingPoint[];
 }
 
-/** Build the journey path from a referenced tour's type + slug. */
-function tourHref(type?: string, slug?: string): string | null {
+/** Build the journey path from a referenced tour's slug. Tours and packages
+ *  are canonical at the site root (see pathFromDoc); /tours/* and
+ *  /packages/* only 308 there. */
+function tourHref(_type?: string, slug?: string): string | null {
   if (!slug) return null;
-  return type === 'package' ? `/packages/${slug}` : `/tours/${slug}`;
+  return `/${slug}`;
 }
 
 const ROMAN = ['i.', 'ii.', 'iii.', 'iv.'];
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
 
 /**
  * Stable, locale-independent anchor ids for the six "Where to begin" cards, in
@@ -67,6 +70,17 @@ export async function HomeView({
   const traveller = data?.travellerCards ?? [];
   const guideCards = data?.guideCards ?? [];
   const starts = data?.startingPoints ?? [];
+
+  // Guide cards can deep-link to a section of /guide (e.g. /guide#cairo-giza),
+  // so each of the four lands on the topic it names rather than all on the
+  // landing top. A native, locale-aware anchor — the App Router Link does not
+  // reliably scroll to a hash on another page (same rule as JourneysMenu). The
+  // /guide path is identity-mapped across locales, so a locale prefix is all
+  // that's needed.
+  const guideCardHref = (href?: string) => {
+    const h = href && href.startsWith('/') ? href : '/guide';
+    return locale === 'en' ? h : `/${locale}${h}`;
+  };
 
   // Inline asset references — the three city heroes that best
   // illustrate each way to travel (Giza for day tours, Luxor for
@@ -106,6 +120,14 @@ export async function HomeView({
                 {t('heroFirstLine')} <em>{t('heroAccent')}</em>
               </h1>
               <p className="sub">{t('heroLede')}</p>
+              <div className="hero-cta">
+                <Link className="btn primary" href={conciergeHref}>
+                  {t('heroCtaPrimary')} <span className="cta-arrow" aria-hidden>→</span>
+                </Link>
+                <a className="btn text" href="#where-to-begin">
+                  {t('heroCtaSecondary')}
+                </a>
+              </div>
               <div className="stats">
                 <span>
                   <b>{t('heroMetaYears')}</b> {t('heroMetaYearsLabel')}
@@ -223,11 +245,11 @@ export async function HomeView({
             </div>
             <div className="gfeat-cards">
               {guideCards.map((c, i) => (
-                <Link className="gfc" href={c.href || '/guide'} key={i}>
+                <a className="gfc" href={guideCardHref(c.href)} key={i}>
                   <div className="ix">{ROMAN[i] ?? ''}</div>
                   <h3>{c.title}</h3>
                   <p>{c.dek}</p>
-                </Link>
+                </a>
               ))}
             </div>
           </div>
@@ -288,7 +310,7 @@ export async function HomeView({
             <Link className="btn solid" href={conciergeHref}>
               {t('planCtaPrimary')}
             </Link>
-            <a className="btn ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">
+            <a className="btn ghost" href={`${WHATSAPP}?text=${encodeURIComponent(t('planWhatsAppText'))}`} target="_blank" rel="noopener noreferrer">
               {t('planCtaWhatsApp')}
             </a>
           </div>

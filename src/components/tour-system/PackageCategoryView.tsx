@@ -4,14 +4,17 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
 import { JourneyImage } from './JourneyImage';
+import { JsonLd } from '@/components/JsonLd';
+import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
 import { TourProse } from './TourProse';
 import { packageBucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
 import { MastheadStats } from './MastheadStats';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '../FloatingConcierge';
+import '@/styles/tour-system.css';
 
-const WHATSAPP = 'https://wa.me/201158011600';
+import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
 
 interface RawPackage {
   _id: string;
@@ -173,7 +176,7 @@ export async function PackageCategoryView({
   const heroStats = [
     { label: k('StatAxis'), value: axisCount },
     { label: k('StatCount'), value: packages.length },
-    { label: ts('catStatSince'), value: 2003 },
+    { label: ts('catStatSince'), value: 1993 },
   ];
 
   const bylineKicker = archive?.editorByline?.kicker ?? k('WhyKicker');
@@ -182,6 +185,19 @@ export async function PackageCategoryView({
 
   return (
     <div className="tour-doc lvl-category">
+      <JsonLd
+        data={[
+          // s47 audit (2026-08-18): hub package pages had no structured data.
+          buildBreadcrumbList(
+            [
+              { name: tNav('home'), path: '/' },
+              { name: archive?.title ?? k('Title'), path: isGroup ? '/small-group-travel-packages' : '/egypt-travel-packages' },
+            ],
+            locale,
+          ),
+          buildItemListSchema(packages, locale),
+        ]}
+      />
       <div className="t2e-wrap">
         <nav className="t2e-crumb" aria-label="Breadcrumb">
           <ol>
@@ -318,7 +334,7 @@ export async function PackageCategoryView({
               <Link className="cta-btn cta-btn--primary" href={conciergeHref}>
                 {ts('ctaPrimary')} <span className="cta-arrow" aria-hidden>→</span>
               </Link>
-              <a className="cta-btn cta-btn--ghost" href={WHATSAPP} target="_blank" rel="noopener noreferrer">
+              <a className="cta-btn cta-btn--ghost" href={`${WHATSAPP}?text=${encodeURIComponent(ts('waLandingText', { title: archive?.title ?? k('Title') }))}`} target="_blank" rel="noopener noreferrer">
                 {ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span>
               </a>
             </div>

@@ -27,6 +27,8 @@ interface PlaceToGo {
   summary?: string;
   monumentType?: string;
   placesToGoGroup?: string | null;
+  /** guideArticle.orderRank ("Display order within city"); unset = 100. */
+  orderRank?: number | null;
 }
 
 interface Props {
@@ -68,7 +70,10 @@ export function CityGuideSidebar({
 
       // Group places by `placesToGoGroup` (e.g., "Coptic Cairo", "Saqqara").
       // Empty/null group → "Other sites" (rendered last).
-      // Inside each group: alphabetical by name.
+      // Inside each group: by `orderRank` (schema default 100, unset on almost
+      // every place), then alphabetical by name — so an editor can pin a
+      // specific order in every locale (Hurghada: Aquarium · Marina · Giftun,
+      // founder call 2026-09-14) without disturbing the alphabetical default.
       // Groups themselves: alphabetical, with "Other sites" pinned last.
       const OTHER_KEY = '__other__';
       const groupsMap = new Map<string, PlaceToGo[]>();
@@ -84,7 +89,7 @@ export function CityGuideSidebar({
       });
       const collator = new Intl.Collator(undefined, { sensitivity: 'base' });
       for (const k of groupKeys) {
-        groupsMap.get(k)!.sort((x, y) => collator.compare(x.name ?? '', y.name ?? ''));
+        groupsMap.get(k)!.sort((x, y) => (x.orderRank ?? 100) - (y.orderRank ?? 100) || collator.compare(x.name ?? '', y.name ?? ''));
       }
       // If every place is in the same single group (or all untagged),
       // render flat without sub-headers — sub-headers only help when

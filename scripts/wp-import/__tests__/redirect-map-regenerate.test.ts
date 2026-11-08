@@ -24,6 +24,7 @@ import {
   fromUrlToSource,
   makeStaticSlugLookup,
   readInventoryCsv,
+  readRedirectMapComments,
   readRedirectMapCsv,
   toPathToDestination,
   writeRedirectMapCsv,
@@ -85,6 +86,16 @@ try {
   for (let i = 0; i < baseline.length; i++) {
     assertEq(rt[i], baseline[i], `round-trip row ${i} identical`);
   }
+
+  // Comment lines (pending, not-yet-live rows) survive a rewrite and stay out of the data.
+  const comments = ['# PENDING: /blog/a,/blog/b,en,301,,0.00', '# note'];
+  const withComments = join(tmp, 'with-comments.csv');
+  writeRedirectMapCsv(withComments, baseline.slice(0, 3), comments);
+  assertEq(readRedirectMapComments(withComments), comments, 'comment lines preserved on write');
+  assertEq(readRedirectMapCsv(withComments).length, 3, 'comment lines are not parsed as rows');
+  const again = join(tmp, 'again.csv');
+  writeRedirectMapCsv(again, readRedirectMapCsv(withComments), readRedirectMapComments(withComments));
+  assertEq(readFileSync(again, 'utf8'), readFileSync(withComments, 'utf8'), 'rewrite with comments is byte-identical');
 } finally {
   rmSync(tmp, { recursive: true, force: true });
 }

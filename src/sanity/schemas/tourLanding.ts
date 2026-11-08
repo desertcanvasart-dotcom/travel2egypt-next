@@ -137,13 +137,15 @@ export const tourLandingSchema = defineType({
     landingBylineField,
     landingMoodChooserField,
     landingOrientationField,
-    defineField(
-      localizedPortableTextField('faq', {
-        title: 'FAQ',
-        description: 'Optional FAQ section shown below the listing.',
-        group: 'content',
-      }) as any,
-    ),
+    defineField({
+      name: 'faq',
+      title: 'FAQ',
+      description:
+        'Optional FAQ section shown below the listing. Structured Q&A — the page also emits it as FAQPage rich-result markup.',
+      type: 'array',
+      group: 'content',
+      of: [{ type: 'landingFaqItem' }],
+    }),
 
     // ── Related ──────────────────────────────────────────────────
     defineField({

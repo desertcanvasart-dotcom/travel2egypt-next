@@ -35,3 +35,10 @@ backups/
 /untouched-tours.csv
 /giza-audit.csv
 scripts/concierge-eval/results/
+
+# Regenerable data dumps written by tracked scripts into scripts/ —
+# outputs, not source (migrate-goodfor-and-shape.ts, audit-raw-links-*.cjs,
+# raw-link-recheck-*.cjs). Re-running the script recreates them.
+scripts/.goodfor-shape-plan.json
+scripts/raw-links-remaining.json
+scripts/raw-link-recheck-*.json

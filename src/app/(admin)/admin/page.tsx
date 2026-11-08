@@ -17,6 +17,7 @@ import {
   type ListFilters,
 } from '@/lib/admin/filters';
 import { formatCairoDateTime } from '@/lib/admin/format';
+import { BRAND_LABELS, ROUTED_BRANDS } from '@/lib/concierge/brands';
 
 export const dynamic = 'force-dynamic';
 
@@ -229,6 +230,21 @@ function FilterBar({ filters }: { filters: ListFilters }) {
           <option value="false">Not reviewed</option>
         </select>
       </label>
+      <label className="block text-sm">
+        <span className="text-night-soft">Routed to</span>
+        <select
+          name="brand"
+          defaultValue={filters.brand ?? ''}
+          className="mt-1 w-full rounded border border-night/15 px-2 py-1"
+        >
+          <option value="">Any</option>
+          {ROUTED_BRANDS.map((bnd) => (
+            <option key={bnd} value={bnd}>
+              {BRAND_LABELS[bnd]}
+            </option>
+          ))}
+        </select>
+      </label>
       <div className="flex items-end gap-2">
         <button
           type="submit"
@@ -277,6 +293,7 @@ function ResultsTable({
               <tr>
                 <th className="px-3 py-2">Started (Cairo)</th>
                 <th className="px-3 py-2">Lang</th>
+                <th className="px-3 py-2">Routed to</th>
                 <th className="px-3 py-2">Msgs</th>
                 <th className="px-3 py-2">Tokens</th>
                 <th className="px-3 py-2">Brief</th>
@@ -309,6 +326,15 @@ function ConversationRow({ row }: { row: ConversationListRow }) {
         </Link>
       </td>
       <td className="px-3 py-2 uppercase">{row.locale || '—'}</td>
+      <td className="px-3 py-2">
+        {row.routed_brand === 'travel2egypt' ? (
+          <span className="text-night-soft">Travel2Egypt</span>
+        ) : (
+          <Badge tone="neutral">
+            {BRAND_LABELS[row.routed_brand as keyof typeof BRAND_LABELS] ?? row.routed_brand}
+          </Badge>
+        )}
+      </td>
       <td className="px-3 py-2 tabular-nums">{row.msg_count}</td>
       <td className="px-3 py-2 tabular-nums">{row.total_tokens.toLocaleString()}</td>
       <td className="px-3 py-2">

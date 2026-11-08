@@ -11,7 +11,15 @@ lost between now and then.
 
 ---
 
-## ⚠️ Launch blocker: the wiki→guide redirects must be removed before publishing
+## ✅ Done 2026-09-13: the wiki→guide redirects were removed
+
+> Resolved in PR "fix(seo): restore wiki monument pages + real 404s": all 403
+> `/wiki/monuments/* → /guide/*` rows were dropped from the CSV and the map
+> regenerated, so the monument pages resolve again in all three locales. The
+> wiki nav entry in `Header.tsx` is still hidden (product call, not made here).
+> Original blocker text kept below for the record.
+
+### (historical) Launch blocker: the wiki→guide redirects must be removed before publishing
 
 During the Phase-2 / Session-57 consolidation (see
 [`migrations/phase-2-plan.md` §6](./migrations/phase-2-plan.md)), each

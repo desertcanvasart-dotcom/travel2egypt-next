@@ -1,0 +1,1200 @@
+{
+  "_createdAt": "2026-05-04T20:41:39Z",
+  "_id": "wp-page-59392",
+  "_rev": "u771oJL7tQyayKi2DUTsYH",
+  "_system": {
+    "base": {
+      "id": "wp-page-59392",
+      "rev": "4jxboK94xJN5bUSrjkS0oA"
+    }
+  },
+  "_type": "guideArticle",
+  "_updatedAt": "2026-07-17T01:03:39Z",
+  "body": [
+    {
+      "_key": "en",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "4qc92cw6xcdr",
+              "_type": "span",
+              "marks": [],
+              "text": "Things To Do in "
+            },
+            {
+              "_key": "idflwlobdrcu",
+              "_type": "span",
+              "marks": [
+                "b8b7j6ig6ezw"
+              ],
+              "text": "Cairo"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "b8b7j6ig6ezw",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1) Revel in the Charm of an Oriental Café"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Immerse yourself in the quintessential Egyptian experience at a traditional Oriental café. These cultural havens, scattered across Egypt, are the perfect retreat to unwind after a day of exploration. Among the must-visit destinations is the iconic "
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "000000000005"
+              ],
+              "text": "Khan El-Khalili Bazaar"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": ". Here, amidst the labyrinth of shopping delights, you can savor the flavors of Egypt with a steaming cup of mint tea or a richly aromatic coffee. For those inclined, partaking in a session of "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "shisha"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": " – the traditional flavored tobacco pipe – offers a taste of local leisure. These cafés, more than mere eateries, are gateways to Egyptian culture and camaraderie."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000005",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/cairo-travel-guide/khan-al-khalili-bazaar/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/cairo/khan-al-khalili-bazaar",
+              "newTab": false
+            },
+            {
+              "_key": "000000000008",
+              "_type": "externalLink",
+              "href": "https://www.hookah-shisha.com/c-3-hookah-tobacco-shisha-tobacco.html",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "2) Discover the Ancient Nilometer"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000012",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "Journey back in time at the historic"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [
+                "00000000000f"
+              ],
+              "text": " Nilometer"
+            },
+            {
+              "_key": "000000000011",
+              "_type": "span",
+              "marks": [],
+              "text": ", a remarkable testament to Egypt’s ancient ingenuity. Constructed in 861 AD, this architectural marvel was crucial in measuring the ebb and flow of the Nile. The Nilometer’s readings were pivotal for predicting harvests and floods, shaping the life along the river. Visitors can descend a steep staircase to witness this ancient tool, still nestled at the river’s edge, and feel the pulse of centuries-old Egyptian civilization."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "00000000000f",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Nilometer",
+              "newTab": true
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000014",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000013",
+              "_type": "span",
+              "marks": [],
+              "text": "3) Ascend the Tower of Cairo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000001c",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "Soar above the city’s horizon at the Tower of "
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [
+                "000000000016"
+              ],
+              "text": "Cairo"
+            },
+            {
+              "_key": "000000000018",
+              "_type": "span",
+              "marks": [],
+              "text": ", Egypt’s majestic beacon and a rival in fame only to the great "
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [
+                "000000000019"
+              ],
+              "text": "pyramids."
+            },
+            {
+              "_key": "00000000001b",
+              "_type": "span",
+              "marks": [],
+              "text": " Erected in 1961, this lotus-shaped tower stands as a symbol of modern Egyptian identity. From its heights, one can gaze over Cairo’s sprawling expanse, with the most breathtaking views emerging in the clear late morning or during the serene evenings. While the elevator ride to the top can be bustling, the journey is worth it. At the Sky Garden Café, refreshments are modestly priced, offering a casual setting just below the observatory. For a more luxurious experience, the tower’s revolving restaurant provides an exquisite dining affair with panoramic views."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000016",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/tours-by-location/cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/guide/cairo",
+              "newTab": false
+            },
+            {
+              "_key": "000000000019",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "http://travel2egypt.org/pyramids-of-giza-sphinx-egyptian-museum-khan-el-khalili-tour/"
+              },
+              "_type": "externalLink",
+              "href": "/private-tour-pyramids-of-giza-sphinx-egyptian-museum-and-khan-el-khalili-bazaar",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000001e",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": "4) Glide Along the Nile in a Nile Taxi"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000020",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [],
+              "text": "Experience Cairo from a unique perspective with a ride on the Nile Taxi. Whether you opt for a pre-chartered journey, join the bustling common lines, or choose a tourist-focused trip, the Nile Taxi offers an unparalleled view of the city from its lifeblood, the River Nile. Alongside these taxis, boats ply the waters, allowing for an intimate exploration of the Nile’s timeless beauty."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000022",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000021",
+              "_type": "span",
+              "marks": [],
+              "text": "Each of these experiences in Cairo weaves together the rich tapestry of Egypt’s past and present, inviting travelers to partake in the city’s enduring allure."
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/GI_815359526_CitadelView_Cairo.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Cairo Food Guide"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "The Citadel of Cairo: A blend of medieval magnificence and urban expansion"
+            }
+          ]
+        },
+        {
+          "_key": "000000000024",
+          "_pendingImage": "https://travel2egypt.org/wp-content/uploads/2024/03/Cairo-Egypt.jpg",
+          "_type": "image",
+          "alt": [
+            {
+              "_key": "en",
+              "value": "Cairo Food Guide"
+            }
+          ],
+          "caption": [
+            {
+              "_key": "en",
+              "value": "Cairo's golden hour, where the Nile meets the city's ancient charm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "_key": "es",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "ss29s43fpj5r",
+              "_type": "span",
+              "marks": [],
+              "text": "Explorando "
+            },
+            {
+              "_key": "403i4ikids63",
+              "_type": "span",
+              "marks": [
+                "tzrq8ck1ayf1"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "hcshcir56xu0",
+              "_type": "span",
+              "marks": [],
+              "text": ": Un tapiz de experiencias intemporales"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "tzrq8ck1ayf1",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "1) Deléitate con el encanto de un café oriental"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "Sumérgete en la experiencia egipcia por excelencia en un café oriental tradicional. Estos paraísos culturales, repartidos por todo Egipto, son el refugio perfecto para desconectar tras un día de exploración. Entre los destinos de visita obligada se encuentra el emblemático "
+            },
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [
+                "000000000005"
+              ],
+              "text": "Bazar de Khan El-Khalili"
+            },
+            {
+              "_key": "000000000007",
+              "_type": "span",
+              "marks": [],
+              "text": ". Aquí, en medio del laberinto de delicias comerciales, puedes saborear los sabores de "
+            },
+            {
+              "_key": "000000000009",
+              "_type": "span",
+              "marks": [
+                "000000000008"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": " con una humeante taza de té a la menta o un café ricamente aromático. Para los que se sientan inclinados, participar en una sesión de "
+            },
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [
+                "00000000000b"
+              ],
+              "text": "shisha"
+            },
+            {
+              "_key": "00000000000d",
+              "_type": "span",
+              "marks": [],
+              "text": " -la tradicional pipa de tabaco aromatizada- ofrece una muestra del ocio local. Estos cafés, más que meros restaurantes, son puertas de entrada a la "
+            },
+            {
+              "_key": "00000000000f",
+              "_type": "span",
+              "marks": [
+                "00000000000e"
+              ],
+              "text": "cultura y la camaradería egipcias"
+            },
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000005",
+              "_type": "externalLink",
+              "href": "https://travel2egypt1.wpenginepowered.com/cairo-travel-guide/khan-al-khalili-bazaar/",
+              "newTab": true
+            },
+            {
+              "_key": "000000000008",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-abu-simble/el-templo-de-amada/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/abu-simbel/el-templo-de-amada",
+              "newTab": false
+            },
+            {
+              "_key": "00000000000b",
+              "_type": "externalLink",
+              "href": "https://www.hookah-shisha.com/c-3-hookah-tobacco-shisha-tobacco.html",
+              "newTab": true
+            },
+            {
+              "_key": "00000000000e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/souq-bab-el-louk-el-mercado-fresco-de-el-cairo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/souq-bab-el-louk-el-mercado-fresco-de-el-cairo",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "2) Descubre el Antiguo Nilómetro"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000021",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "Viaja atrás en el tiempo en el histórico"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [
+                "000000000015"
+              ],
+              "text": " Nilómetro"
+            },
+            {
+              "_key": "000000000017",
+              "_type": "span",
+              "marks": [],
+              "text": ", un notable testimonio del antiguo ingenio egipcio. Construida en el año 861 d.C., esta maravilla arquitectónica fue crucial "
+            },
+            {
+              "_key": "000000000019",
+              "_type": "span",
+              "marks": [
+                "000000000018"
+              ],
+              "text": "para medir el flujo y"
+            },
+            {
+              "_key": "00000000001a",
+              "_type": "span",
+              "marks": [],
+              "text": " reflujo del Nilo. "
+            },
+            {
+              "_key": "00000000001c",
+              "_type": "span",
+              "marks": [
+                "00000000001b"
+              ],
+              "text": "Las lecturas del Nilómetro eran fundamentales para"
+            },
+            {
+              "_key": "00000000001d",
+              "_type": "span",
+              "marks": [],
+              "text": " predecir las cosechas y las inundaciones, configurando la vida a lo largo del río. Los "
+            },
+            {
+              "_key": "00000000001f",
+              "_type": "span",
+              "marks": [
+                "00000000001e"
+              ],
+              "text": "visitantes pueden"
+            },
+            {
+              "_key": "000000000020",
+              "_type": "span",
+              "marks": [],
+              "text": " descender por una empinada escalera para presenciar esta antigua herramienta, aún enclavada en la orilla del río, y sentir el pulso de la centenaria civilización egipcia."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000015",
+              "_type": "externalLink",
+              "href": "https://en.wikipedia.org/wiki/Nilometer",
+              "newTab": true
+            },
+            {
+              "_key": "000000000018",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/para-navegar-por-el-nilo/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/para-navegar-por-el-nilo",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/el-tiempo-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/rosetta-rasheed/el-tiempo-en-rosetta-rashid-y-la-mejor-epoca-para-visitarla",
+              "newTab": false
+            },
+            {
+              "_key": "00000000001e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vacaciones-inolvidables-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/vacaciones-inolvidables-en-egipto",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000023",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000022",
+              "_type": "span",
+              "marks": [],
+              "text": "3) Asciende a la Torre de El Cairo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000034",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000024",
+              "_type": "span",
+              "marks": [],
+              "text": "Elévate sobre el horizonte de la ciudad en la Torre de "
+            },
+            {
+              "_key": "000000000026",
+              "_type": "span",
+              "marks": [
+                "000000000025"
+              ],
+              "text": "El Cairo"
+            },
+            {
+              "_key": "000000000027",
+              "_type": "span",
+              "marks": [],
+              "text": ", majestuoso faro de Egipto y rival en fama sólo de las grandes "
+            },
+            {
+              "_key": "000000000029",
+              "_type": "span",
+              "marks": [
+                "000000000028"
+              ],
+              "text": "pirámides."
+            },
+            {
+              "_key": "00000000002a",
+              "_type": "span",
+              "marks": [],
+              "text": " Erigida en 1961, esta torre en forma de loto se erige como símbolo de la identidad egipcia moderna. Desde sus alturas, se puede contemplar la extensa extensión de El Cairo, y las vistas más impresionantes surgen al final de la clara mañana o durante las serenas tardes. Aunque el "
+            },
+            {
+              "_key": "00000000002c",
+              "_type": "span",
+              "marks": [
+                "00000000002b"
+              ],
+              "text": "viaje"
+            },
+            {
+              "_key": "00000000002d",
+              "_type": "span",
+              "marks": [],
+              "text": " en ascensor hasta la cima puede ser bullicioso, el trayecto merece la pena. En el Sky Garden Café, "
+            },
+            {
+              "_key": "00000000002f",
+              "_type": "span",
+              "marks": [
+                "00000000002e"
+              ],
+              "text": "los refrescos tienen un precio"
+            },
+            {
+              "_key": "000000000030",
+              "_type": "span",
+              "marks": [],
+              "text": " modesto y ofrecen un ambiente informal justo debajo del observatorio. Para una experiencia más lujosa, el restaurante giratorio de la torre ofrece "
+            },
+            {
+              "_key": "000000000032",
+              "_type": "span",
+              "marks": [
+                "000000000031"
+              ],
+              "text": "una exquisita cena con vistas"
+            },
+            {
+              "_key": "000000000033",
+              "_type": "span",
+              "marks": [],
+              "text": " panorámicas."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000025",
+              "_type": "externalLink",
+              "href": "https://travel2egypt1.wpenginepowered.com/tours-by-location/cairo/",
+              "newTab": true
+            },
+            {
+              "_key": "000000000028",
+              "_type": "externalLink",
+              "href": "https://travel2egypt1.wpenginepowered.com/pyramids-of-giza-sphinx-egyptian-museum-khan-el-khalili-tour/",
+              "newTab": true
+            },
+            {
+              "_key": "00000000002b",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-del-oasis-de-dajla/viajes/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/viajes-al-egipto-historico",
+              "newTab": false
+            },
+            {
+              "_key": "00000000002e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/precios-de-las-entradas-a-las-atracciones-de-luxor/"
+              },
+              "_type": "externalLink",
+              "href": "/es/guide/luxor/precios-de-las-entradas-a-las-atracciones-de-luxor",
+              "newTab": false
+            },
+            {
+              "_key": "000000000031",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/hoteles-economicos-cerca-de-las-piramides/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/hoteles-economicos-cerca-de-las-piramides",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000036",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000035",
+              "_type": "span",
+              "marks": [],
+              "text": "4) Deslízate por el Nilo en un Taxi del Nilo"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000041",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000037",
+              "_type": "span",
+              "marks": [],
+              "text": "Vive "
+            },
+            {
+              "_key": "000000000039",
+              "_type": "span",
+              "marks": [
+                "000000000038"
+              ],
+              "text": "El Cairo desde"
+            },
+            {
+              "_key": "00000000003a",
+              "_type": "span",
+              "marks": [],
+              "text": " una perspectiva única con un viaje en el Taxi del Nilo. Tanto si optas por un viaje prefijado, como si te unes a las bulliciosas líneas comunes o eliges un viaje turístico, el Taxi "
+            },
+            {
+              "_key": "00000000003c",
+              "_type": "span",
+              "marks": [],
+              "text": "del Nilo te ofrece una"
+            },
+            {
+              "_key": "00000000003d",
+              "_type": "span",
+              "marks": [],
+              "text": " vista incomparable de la ciudad desde su alma, el río Nilo. Junto a estos taxis, los barcos surcan las aguas, permitiendo una "
+            },
+            {
+              "_key": "00000000003f",
+              "_type": "span",
+              "marks": [
+                "00000000003e"
+              ],
+              "text": "exploración"
+            },
+            {
+              "_key": "000000000040",
+              "_type": "span",
+              "marks": [],
+              "text": " íntima de la belleza intemporal del Nilo."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000038",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/vista-de-las-piramides-excursion-de-un-dia-a-el-cairo-en-avion-desde-sharm-el-sheikh/"
+              },
+              "_type": "externalLink",
+              "href": "/es/dia-completo-a-el-cairo-en-avion-desde-sharm-el-sheij",
+              "newTab": false
+            },
+            {
+              "_key": "00000000003e",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/guia-de-viaje-de-nuweiba/explorando/"
+              },
+              "_type": "externalLink",
+              "href": "/es/blog/explorando-la-gran-esfinge-de-guiza",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000046",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000042",
+              "_type": "span",
+              "marks": [],
+              "text": "Cada una de estas experiencias en El Cairo teje el rico tapiz del pasado y el presente de "
+            },
+            {
+              "_key": "000000000044",
+              "_type": "span",
+              "marks": [
+                "000000000043"
+              ],
+              "text": "Egipto"
+            },
+            {
+              "_key": "000000000045",
+              "_type": "span",
+              "marks": [],
+              "text": ", invitando a los viajeros a participar en el perdurable encanto de la ciudad."
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "000000000043",
+              "_pendingInternalRef": {
+                "sourceLocale": "en",
+                "wpUrl": "https://travel2egypt.org/es/propinas-en-egipto/"
+              },
+              "_type": "externalLink",
+              "href": "/es/travel-tips/propinas-en-egipto-como-funciona-de-verdad-el-baksheesh",
+              "newTab": false
+            }
+          ],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000048",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000047",
+              "_type": "span",
+              "marks": [],
+              "text": "Creado el 18 de marzo de 2020"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000004a",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000049",
+              "_type": "span",
+              "marks": [],
+              "text": "Actualizado en Ago , 2024"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    },
+    {
+      "_key": "ja",
+      "_type": "object",
+      "value": [
+        {
+          "_key": "000000000001",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "16pk7o1uiorc",
+              "_type": "span",
+              "marks": [
+                "sfxhttkag60y"
+              ],
+              "text": "カイロ"
+            },
+            {
+              "_key": "7g6efdkdok75",
+              "_type": "span",
+              "marks": [],
+              "text": "を探訪する：時を超えた体験のタペストリー"
+            }
+          ],
+          "markDefs": [
+            {
+              "_key": "sfxhttkag60y",
+              "_type": "internalLink",
+              "reference": {
+                "_ref": "wp-page-83284",
+                "_type": "reference"
+              }
+            }
+          ],
+          "style": "h2"
+        },
+        {
+          "_key": "000000000003",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000002",
+              "_type": "span",
+              "marks": [],
+              "text": "オリエンタルカフェの魅力に浸る"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000005",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000004",
+              "_type": "span",
+              "marks": [],
+              "text": "伝統的なオリエンタルカフェで、エジプトの本質的な体験に浸りましょう。エジプト全土に点在するこれらの文化的な避難所は、探訪後のひとときをリラックスして過ごすのに最適な場所です。訪れるべき場所の一つは、象徴的なハーン・エル・ハリリ・バザールです。ここでは、ショッピングの迷路の中で、蒸気を立てたミントティーや芳香豊かなコーヒーを楽しみながら、エジプトの味を堪能できます。さらに、シーシャ（伝統的なフレーバー付きタバコパイプ）を楽しむことで、地元のレジャー文化を味わうことができます。これらのカフェは単なる食事処ではなく、エジプトの文化と交流への扉となる場所です。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000007",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000006",
+              "_type": "span",
+              "marks": [],
+              "text": "古代のニロメーターを発見する"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000009",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000008",
+              "_type": "span",
+              "marks": [],
+              "text": "歴史的なニロメーターで、エジプトの古代の巧妙さを体験し、時を遡りましょう。861年に建設されたこの建築の驚異は、ナイル川の増減を測るために重要な役割を果たしました。ニロメーターの測定値は、収穫や洪水の予測に欠かせず、川沿いの生活に大きな影響を与えました。訪問者は急な階段を下り、この古代の道具を見学することができ、今も川のほとりに静かに佇むその姿を目の当たりにし、何世紀も続いたエジプト文明の鼓動を感じることができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000b",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000a",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロタワーに登る"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "00000000000d",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000c",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロの地平線を超えて、エジプトの壮大なシンボルであり、偉大なピラミッドに次ぐ名声を誇るカイロタワーで空を翔けましょう。1961年に建設されたこの蓮の花の形をしたタワーは、現代エジプトのアイデンティティの象徴です。その高みからは、広がるカイロの街並みを一望でき、最も美しい景色は晴れ渡った遅い午前や静かな夕方に楽しめます。頂上へのエレベーターは混雑することもありますが、その旅は十分に価値があります。スカイガーデンカフェでは、手頃な価格で軽食を楽しみながら、展望台のすぐ下でカジュアルにくつろげます。さらに贅沢な体験を求めるなら、タワーの回転レストランで、パノラマビューを楽しみながら絶品の料理を堪能できます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "00000000000f",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "00000000000e",
+              "_type": "span",
+              "marks": [],
+              "text": "ナイルタクシーでナイル川を滑るように進む"
+            }
+          ],
+          "markDefs": [],
+          "style": "h3"
+        },
+        {
+          "_key": "000000000011",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000010",
+              "_type": "span",
+              "marks": [],
+              "text": "ナイルタクシーに乗って、カイロを独自の視点で体験しましょう。事前にチャーターした旅を選ぶもよし、賑やかな共通の路線を利用するもよし、観光客向けの旅行を選ぶもよし、ナイルタクシーはナイル川という命の源からカイロの街を眺める比類のない景色を提供します。これらのタクシーに加えて、ボートが水面を行き交い、ナイルの変わらぬ美しさを親密に探索することができます。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000013",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000012",
+              "_type": "span",
+              "marks": [],
+              "text": "カイロでのこれらの体験は、エジプトの過去と現在を織り交ぜ、旅行者にこの都市の永遠の魅力を体験する機会を提供します。"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        },
+        {
+          "_key": "000000000017",
+          "_type": "block",
+          "children": [
+            {
+              "_key": "000000000014",
+              "_type": "span",
+              "marks": [],
+              "text": "作成日：2020年3月18日"
+            },
+            {
+              "_key": "000000000015",
+              "_type": "span",
+              "marks": [],
+              "text": "\n"
+            },
+            {
+              "_key": "000000000016",
+              "_type": "span",
+              "marks": [],
+              "text": "更新日：2024年8月"
+            }
+          ],
+          "markDefs": [],
+          "style": "normal"
+        }
+      ]
+    }
+  ],
+  "heroImage": {
+    "_type": "localizedImage",
+    "alt": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Illuminated interior of the Mosque of Muhammad Ali at the Cairo Citadel with hanging glass lamps"
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Interior iluminado de la mezquita de Muhammad Ali en la Ciudadela de El Cairo con lámparas de vidrio"
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "カイロのシタデルにあるムハンマド・アリ・モスクの内部、吊るされたガラスのランプが灯る"
+      }
+    ],
+    "asset": {
+      "_ref": "image-d38b4d91bdfa6bd123040d7525c245c242d8ba0e-720x480-jpg",
+      "_type": "reference"
+    },
+    "caption": [
+      {
+        "_key": "en",
+        "_type": "object",
+        "value": "Rows of glass lamps glow beneath the domed interior of the Mosque of Muhammad Ali in Cairo."
+      },
+      {
+        "_key": "es",
+        "_type": "object",
+        "value": "Hileras de lámparas de vidrio brillan bajo la cúpula de la mezquita de Muhammad Ali en El Cairo."
+      },
+      {
+        "_key": "ja",
+        "_type": "object",
+        "value": "ガラスのランプが連なり、カイロのムハンマド・アリ・モスクのドーム内部を照らす。"
+      }
+    ]
+  },
+  "kind": "tours",
+  "migration": {
+    "migratedAt": "2026-05-05T13:00:49.391Z",
+    "source": "wp-import",
+    "wpId": 59392,
+    "wpModifiedAt": "2025-07-23T11:15:31",
+    "wpTemplate": "elementor_header_footer",
+    "wpUrl": "https://travel2egypt.org/things-to-do-in-cairo/"
+  },
+  "parentCity": {
+    "_ref": "wp-page-83284",
+    "_type": "reference"
+  },
+  "section": "while-you-are-there",
+  "slug": [
+    {
+      "_key": "en",
+      "value": {
+        "_type": "slug",
+        "current": "things-to-do-in-cairo"
+      }
+    },
+    {
+      "_key": "es",
+      "value": {
+        "_type": "slug",
+        "current": "el-corazon-de-egipto-actividades-imprescindibles-en-el-cairo"
+      }
+    },
+    {
+      "_key": "ja",
+      "value": {
+        "_type": "slug",
+        "current": "ejiputo-no-kokoro-kairo-de-no-hikken-akutibiti"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "_key": "en",
+      "value": "Things To Do in Cairo 1) Revel in the Charm of an Oriental Café Immerse yourself in the quintessential Egyptian experience at a traditional Oriental café. These cultural havens, scattered across Egypt, are the perfect retreat to unwind afte"
+    },
+    {
+      "_key": "es",
+      "value": "Explorando El Cairo: Un tapiz de experiencias intemporales 1) Deléitate con el encanto de un café oriental Sumérgete en la experiencia egipcia por excelencia en un café oriental tradicional. Estos paraísos culturales, repartidos por todo Eg"
+    },
+    {
+      "_key": "ja",
+      "value": "カイロを探訪する：時を超えた体験のタペストリー オリエンタルカフェの魅力に浸る 伝統的なオリエンタルカフェで、エジプトの本質的な体験に浸りましょう。エジプト全土に点在するこれらの文化的な避難所は、探訪後のひとときをリラックスして過ごすのに最適な場所です。訪れるべき場所の一つは、象徴的なハーン・エル・ハリリ・バザールです。ここでは、ショッピングの迷路の中で、蒸気を立てたミントティーや芳香豊かなコーヒーを楽しみながら、エジプトの味を堪能できます。さらに、シーシャ（伝統的なフレーバ"
+    }
+  ],
+  "title": [
+    {
+      "_key": "en",
+      "value": "Things To Do in Cairo"
+    },
+    {
+      "_key": "es",
+      "value": "El corazón de Egipto: Actividades imprescindibles en El Cairo"
+    },
+    {
+      "_key": "ja",
+      "value": "エジプトの心：カイロでの必見アクティビティ"
+    }
+  ]
+}
