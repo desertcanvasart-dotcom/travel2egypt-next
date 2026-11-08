@@ -22,7 +22,7 @@ export interface FeaturedTour {
 
 export const FEATURED_TOURS: FeaturedTour[] = [
   { slug: 'epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs', badge: 'First visit', route: 'Cairo · Nile cruise · Luxor · Aswan' },
-  { slug: '10-days-nile-dreamer-tour-experience', badge: 'The full Nile', route: 'Cairo · sleeper train · 4-night cruise · Luxor' },
+  { slug: '10-days-nile-dreamer-tour-experience', badge: 'The full Nile', route: 'Cairo · sleeper train · 3-night cruise · Luxor' },
   { slug: '10-day-egypt-travel-journey-through-history', badge: 'With Abu Simbel & Alexandria', route: 'Cairo · Alexandria · Luxor · Aswan · Abu Simbel' },
   { slug: '9-day-classic-egypt-family-adventure', badge: 'Families', route: 'Cairo · Nile cruise · Aswan, paced for children' },
   { slug: '10-day-nile-and-western-desert-tour', badge: 'Nile & desert', route: 'Cairo · Bahariya · White Desert · the Nile' },
