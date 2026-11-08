@@ -1,4 +1,5 @@
 import { defineField, defineType } from 'sanity';
+import { relatedToursFields } from './_relatedTours';
 import { HomeIcon } from '@sanity/icons';
 
 import {
@@ -16,6 +17,7 @@ export const wikiMonumentSchema = defineType({
   description:
     'Temples, tombs, pyramids, mortuary temples, and other monuments. URL: /wiki/monuments/[slug]',
   groups: [
+    { name: 'tours', title: 'Tours' },
     { name: 'identity', title: 'Identity', default: true },
     { name: 'location', title: 'Location' },
     { name: 'history', title: 'History' },
@@ -199,6 +201,7 @@ export const wikiMonumentSchema = defineType({
       type: 'seo',
       group: 'meta',
     }),
+    ...relatedToursFields({ localized: true, group: 'tours' }),
     migrationField(),
   ],
   preview: {

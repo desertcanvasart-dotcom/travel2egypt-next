@@ -32,8 +32,16 @@ export interface PageProduct {
   priceFromEur?: number | null;
 }
 
+export interface ResponseTime {
+  /** Approved short string (hero proof row, badges). */
+  short: string;
+  /** Approved full string (forms, dialogs, thank-you states). */
+  full: string;
+}
+
 interface LeadContextValue {
   open: (args: OpenArgs) => void;
+  responseTime: ResponseTime;
   isOpen: boolean;
   product: PageProduct | null;
   setProduct: (p: PageProduct | null) => void;
@@ -41,7 +49,19 @@ interface LeadContextValue {
 
 const LeadContext = createContext<LeadContextValue | null>(null);
 
-export function LeadProvider({ locale, children }: { locale: string; children: ReactNode }) {
+export function LeadProvider({
+  locale,
+  responseTime,
+  children,
+}: {
+  locale: string;
+  responseTime?: ResponseTime;
+  children: ReactNode;
+}) {
+  const rt: ResponseTime = useMemo(
+    () => ({ short: responseTime?.short ?? '', full: responseTime?.full ?? '' }),
+    [responseTime?.short, responseTime?.full],
+  );
   const [current, setCurrent] = useState<OpenArgs | null>(null);
   // Remount the form on every open so a previous thank-you state is cleared.
   const [openCount, setOpenCount] = useState(0);
@@ -63,8 +83,8 @@ export function LeadProvider({ locale, children }: { locale: string; children: R
   }, []);
 
   const value = useMemo(
-    () => ({ open, isOpen: current !== null, product, setProduct }),
-    [open, current, product],
+    () => ({ open, isOpen: current !== null, product, setProduct, responseTime: rt }),
+    [open, current, product, rt],
   );
   const isDay = current?.kind === 'day_tour';
 
@@ -87,7 +107,7 @@ export function LeadProvider({ locale, children }: { locale: string; children: R
         </h2>
         <p className="lead-modal-sub">
           {isDay
-            ? 'Tell us the day and how many of you. We confirm availability and the price by email, the same day.'
+            ? 'Tell us the day and how many of you. We confirm availability and the price by email, by 8 PM Cairo time the same day or by 10 AM the next morning.'
             : 'Tell us your dates. We send back a day-by-day plan and a firm price, free and with no obligation.'}
         </p>
         {current && (

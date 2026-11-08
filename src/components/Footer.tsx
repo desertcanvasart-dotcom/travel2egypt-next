@@ -33,7 +33,7 @@ const SISTER_BRAND_DESCRIPTIONS: Record<Locale, Record<string, string>> = {
   },
   ja: {
     affordegypt: '予算重視の旅行者のためのエジプト',
-    sillage: 'ヨーロッパの旅行者のための、オーダーメイドのラグジュアリーな旅',
+    sillage: 'ヨーロッパの旅行者のための、オーダーメイドのラグジュアリーな旅。',
     sawa: 'みんなで一緒に楽しむグループの旅',
   },
 };

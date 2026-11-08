@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { RelatedToursBlock } from '@/components/related-tours/RelatedToursBlock';
+import { fallbackTours, splitAfterSection, type ArticleTour } from '@/lib/articleTours';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
@@ -121,6 +123,19 @@ export default async function MonumentPage({ params }: Props) {
     locale as Locale
   );
 
+  // Round 3, Task C: priced tour blocks (inline only when hand-set).
+  const inlineTours: ArticleTour[] = m.inlineTours ?? [];
+  const inlineSplit = inlineTours.length > 0 ? splitAfterSection(m.body, m.inlineAfterHeading) : null;
+  const endTours: ArticleTour[] =
+    m.endTours && m.endTours.length > 0
+      ? m.endTours
+      : await fallbackTours({
+          cityIds: m.cityId ? [m.cityId] : [],
+          locale,
+          articleTopic: `${m.title ?? ''} ${slug}`,
+          excludeIds: inlineTours.map((t) => t._id),
+        });
+
   return (
     <article>
       <JsonLd data={[placeSchema, breadcrumbSchema]} />
@@ -162,10 +177,24 @@ export default async function MonumentPage({ params }: Props) {
                 {m.summary}
               </p>
             )}
-            {m.body && (
+            {m.body && inlineSplit ? (
               <div className="prose-editorial max-w-none">
-                <Body value={m.body} locale={locale as Locale} />
+                <Body value={inlineSplit[0]} locale={locale as Locale} />
+                <RelatedToursBlock
+                  variant="inline"
+                  heading={m.inlineHeading || ''}
+                  products={inlineTours}
+                  locale={locale}
+                  articleSlug={`wiki/monuments/${slug}`}
+                />
+                <Body value={inlineSplit[1]} locale={locale as Locale} />
               </div>
+            ) : (
+              m.body && (
+                <div className="prose-editorial max-w-none">
+                  <Body value={m.body} locale={locale as Locale} />
+                </div>
+              )
             )}
 
             {m.visitorInfo && (
@@ -236,6 +265,15 @@ export default async function MonumentPage({ params }: Props) {
           </aside>
         </div>
       </div>
+      {endTours.length >= 2 && (
+        <RelatedToursBlock
+          variant="end"
+          heading={m.endHeading || (locale === 'es' ? 'Tours para visitarlo' : locale === 'ja' ? 'ここを訪ねるツアー' : 'Tours that visit it')}
+          products={endTours}
+          locale={locale}
+          articleSlug={`wiki/monuments/${slug}`}
+        />
+      )}
     </article>
   );
 }
