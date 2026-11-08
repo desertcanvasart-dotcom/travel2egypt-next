@@ -3,7 +3,7 @@
  * Run: npx tsx src/lib/__tests__/lead-schema.test.ts
  */
 import assert from 'node:assert/strict';
-import { leadReference, normalizeLead } from '../leads/schema';
+import { dayBandFor, leadReference, normalizeLead } from '../leads/schema';
 
 const base = { email: 'Ana@Example.com ', source: 'home_footer', kind: 'trip', locale: 'en' };
 
@@ -58,5 +58,23 @@ assert.equal(normalizeLead({ ...base, startDate: '2027-02-10', endDate: '2027-02
 // Reference format.
 assert.match(leadReference(), /^T2E-[A-HJ-NP-Z2-9]{6}$/);
 assert.equal(leadReference(new Uint8Array([0, 1, 2, 3, 4, 31])), 'T2E-ABCDE9');
+
+// Customise pre-selects the trip length from the product (item 7).
+assert.equal(dayBandFor(7), '6-9', '7-Day card → 6–9');
+assert.equal(dayBandFor(10), '10-14', '10-day card → 10–14');
+assert.equal(dayBandFor(4), '3-5', '4-Day Cairo → 3–5');
+assert.equal(dayBandFor(15), '15+');
+assert.equal(dayBandFor(2), '', 'under 3 days stays unset');
+assert.equal(dayBandFor(null), '');
+
+// The day-tour estimate travels with the submission (item 8).
+{
+  const r = normalizeLead({ ...base, kind: 'day_tour', startDate: '2027-01-15', adults: 3, children: 2, childAges: '6, 9', estimatedTotal: 360 });
+  if (r.ok !== true) throw new Error('expected ok');
+  assert.equal(r.lead.estimatedTotal, 360);
+  assert.equal(r.lead.children, 2);
+  assert.equal(r.lead.childAges, '6, 9');
+  assert.equal(normalizeLead({ ...base, estimatedTotal: -5 }).ok === true && (normalizeLead({ ...base, estimatedTotal: -5 }) as { lead: { estimatedTotal: unknown } }).lead.estimatedTotal, null);
+}
 
 console.log('lead-schema: all assertions passed');

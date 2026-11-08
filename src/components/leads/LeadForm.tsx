@@ -3,8 +3,9 @@
 import { useId, useMemo, useState, type FormEvent } from 'react';
 
 import { track } from '@/lib/analytics';
+import { convertPrice } from '@/lib/currency';
 import { WHATSAPP_LINK } from '@/lib/concierge/constants';
-import { BUDGET_BANDS, BUDGET_LABELS, DAY_BANDS, type LeadSource } from '@/lib/leads/schema';
+import { BUDGET_BANDS, BUDGET_LABELS, DAY_BANDS, dayBandFor, type LeadSource } from '@/lib/leads/schema';
 
 import { readUtm } from './utm';
 
@@ -23,7 +24,12 @@ export interface LeadPrefill {
   tourTitle?: string;
   travelMonth?: string;
   days?: string;
+  /** Product duration — pre-selects "How many days?" (fix round 1, item 7). */
+  durationDays?: number | null;
+  /** Product "from" price (EUR, as stored) — drives the day-tour estimate (item 8). */
+  priceFromEur?: number | null;
 }
+
 
 interface Props {
   source: LeadSource;
@@ -62,6 +68,14 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
 
   const [exact, setExact] = useState(false);
   const [children, setChildren] = useState(0);
+  const [adults, setAdults] = useState(2);
+  // Day-tour estimate: the product's own "from" price, converted to USD the
+  // same way the cards render it (convertPrice), times adults.
+  const unitUsd =
+    isDay && typeof prefill?.priceFromEur === 'number' && prefill.priceFromEur > 0
+      ? convertPrice(prefill.priceFromEur, 'USD')
+      : null;
+  const estimatedTotal = unitUsd ? unitUsd * adults : null;
   const [state, setState] = useState<State>({ phase: 'idle' });
   const [fieldError, setFieldError] = useState<string | null>(null);
 
@@ -92,6 +106,8 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           adults: get('adults'),
           children: get('children'),
           childAges: get('childAges'),
+          estimatedTotal: estimatedTotal ?? undefined,
+          estimatedCurrency: estimatedTotal ? 'USD' : undefined,
           budget: isDay ? undefined : get('budget'),
           notes: get('notes'),
           tourSlug: prefill?.tourSlug,
@@ -179,8 +195,8 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
             <input id={id('startDate')} name="startDate" type="date" required min={todayIso()} aria-invalid={invalid('startDate')} />
           </div>
           <div className="lead-field">
-            <label htmlFor={id('adults')}>People</label>
-            <select id={id('adults')} name="adults" defaultValue="2">
+            <label htmlFor={id('adults')}>Adults</label>
+            <select id={id('adults')} name="adults" value={adults} onChange={(e) => setAdults(Number(e.target.value))}>
               {Array.from({ length: 12 }, (_, i) => i + 1).map((n) => (
                 <option key={n} value={n}>
                   {n}
@@ -188,6 +204,22 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
               ))}
             </select>
           </div>
+          <div className="lead-field">
+            <label htmlFor={id('children')}>Children</label>
+            <select id={id('children')} name="children" value={children} onChange={(e) => setChildren(Number(e.target.value))}>
+              {Array.from({ length: 7 }, (_, i) => i).map((n) => (
+                <option key={n} value={n}>
+                  {n}
+                </option>
+              ))}
+            </select>
+          </div>
+          {children > 0 && (
+            <div className="lead-field">
+              <label htmlFor={id('childAges')}>Ages</label>
+              <input id={id('childAges')} name="childAges" type="text" placeholder="e.g. 6, 11" maxLength={80} />
+            </div>
+          )}
         </div>
       ) : (
         <>
@@ -222,7 +254,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           <div className="lead-row">
             <div className="lead-field">
               <label htmlFor={id('days')}>How many days?</label>
-              <select id={id('days')} name="days" defaultValue={prefill?.days ?? ''}>
+              <select id={id('days')} name="days" defaultValue={prefill?.days ?? dayBandFor(prefill?.durationDays)}>
                 <option value="">Not sure</option>
                 {DAY_BANDS.map((b) => (
                   <option key={b} value={b}>
@@ -281,6 +313,13 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
         </>
       )}
 
+      {isDay && estimatedTotal !== null && (
+        <p className="lead-estimate" aria-live="polite">
+          Estimated: <strong>{'$' + estimatedTotal.toLocaleString('en-US')}</strong> for {adults} adult{adults === 1 ? '' : 's'}.
+          {children > 0 && " Children's prices are confirmed in our reply."}
+        </p>
+      )}
+
       <div className="lead-row">
         <div className="lead-field">
           <label htmlFor={id('email')}>Email</label>
@@ -323,10 +362,12 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
       </div>
 
       {/* Honeypot — hidden from people and screen readers. */}
-      <div aria-hidden="true" className="lead-hp">
-        <label>
-          Company <input name="company" type="text" tabIndex={-1} autoComplete="off" />
-        </label>
+      <div
+        aria-hidden="true"
+        className="lead-hp"
+        style={{ position: 'absolute', left: '-10000px', top: 'auto', width: 1, height: 1, overflow: 'hidden' }}
+      >
+        <input name="company" type="text" tabIndex={-1} autoComplete="off" />
       </div>
 
       {state.phase === 'error' && (

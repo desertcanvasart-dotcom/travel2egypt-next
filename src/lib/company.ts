@@ -5,13 +5,8 @@
  */
 export const LEGAL_NAME = 'Capital Travel Service';
 export const LEGAL_ADDRESS = '1 Farouk Mahmoud St, Giza, Cairo';
-export const ETAA_LICENCE_NUMBER = '2179';
-/** Ministry of Tourism licence — the same number ETAA lists (owner, 2026-11-08). */
-export const MINISTRY_LICENCE_NUMBER = ETAA_LICENCE_NUMBER;
-/** IATA agency number (owner, 2026-11-08). */
-export const IATA_NUMBER = '9022839';
-export const ETAA_LICENCE_URL =
-  'https://www.etaa-egypt.org/SitePages/CompanyDetailsEn.aspx?licc=2179';
+// Licence / ETAA / IATA numbers are NOT here: they live in Sanity
+// siteSettings and are read through src/lib/accreditations.ts.
 
 /**
  * Tripadvisor listing + score (read off the live listing 2026-11-08: 4.9,

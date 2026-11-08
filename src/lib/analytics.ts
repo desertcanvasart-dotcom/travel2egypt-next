@@ -52,7 +52,10 @@ export type AnalyticsEvent =
   // Homepage rebuild (2026-11-08)
   | 'generate_lead'
   | 'lead_form_open'
-  | 'select_item';
+  | 'select_item'
+  // Sticky bar (fix round 1): contact {method, location}, form_open {location}
+  | 'contact'
+  | 'form_open';
 
 type Params = Record<string, string | number | boolean | undefined>;
 

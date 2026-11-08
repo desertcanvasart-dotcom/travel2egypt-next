@@ -21,7 +21,12 @@ const SITE = siteUrlBase().replace(/\/$/, '');
 
 async function fetchSalesHome(): Promise<SalesHomeData> {
   const data = await client.fetch<SalesHomeData>(salesHomeQuery, { slugs: allHomeSlugs() });
-  return { home: data?.home ?? null, products: data?.products ?? [], dahabiyaFromEur: data?.dahabiyaFromEur ?? null };
+  return {
+    home: data?.home ?? null,
+    products: data?.products ?? [],
+    dahabiya: data?.dahabiya ?? null,
+    accreditations: data?.accreditations ?? null,
+  };
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

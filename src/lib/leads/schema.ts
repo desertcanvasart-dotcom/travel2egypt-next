@@ -22,6 +22,15 @@ export type LeadSource = (typeof LEAD_SOURCES)[number];
 export const DAY_BANDS = ['3-5', '6-9', '10-14', '15+'] as const;
 export type DayBand = (typeof DAY_BANDS)[number];
 
+/** Product length → the form's day band (fix round 1, item 7). Under 3 days → ''. */
+export function dayBandFor(days?: number | null): DayBand | '' {
+  if (typeof days !== 'number' || !Number.isFinite(days) || days < 3) return '';
+  if (days <= 5) return '3-5';
+  if (days <= 9) return '6-9';
+  if (days <= 14) return '10-14';
+  return '15+';
+}
+
 export const BUDGET_BANDS = ['lt1500', '1500-2500', '2500-4000', '4000+'] as const;
 export type BudgetBand = (typeof BUDGET_BANDS)[number];
 
@@ -54,6 +63,8 @@ export interface LeadInput {
   tourTitle: string | null;
   pagePath: string | null;
   utm: Record<string, string>;
+  /** Day-tour estimate shown to the visitor (USD), if any. */
+  estimatedTotal: number | null;
 }
 
 export type LeadValidation =
@@ -157,6 +168,10 @@ export function normalizeLead(body: unknown): LeadValidation {
       tourTitle: str(b.tourTitle, 200),
       pagePath: pagePath && pagePath.startsWith('/') ? pagePath : null,
       utm,
+      estimatedTotal:
+        typeof b.estimatedTotal === 'number' && Number.isFinite(b.estimatedTotal) && b.estimatedTotal > 0 && b.estimatedTotal < 1_000_000
+          ? Math.round(b.estimatedTotal)
+          : null,
     },
   };
 }

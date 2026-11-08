@@ -202,6 +202,8 @@ export default async function NileCruisesArchivePage({
       <JsonLd data={breadcrumbSchema} />
       <ArchiveTemplate
         locale={locale as Locale}
+        // Homepage "Compare cruise ships / dahabiyas" land here with ?vessel=…
+        indexAnchors={['cruise-ships', 'dahabiyas']}
         breadcrumbItems={breadcrumbItems}
         header={{
           kicker: archive?.kicker,

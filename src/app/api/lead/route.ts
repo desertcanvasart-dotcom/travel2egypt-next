@@ -93,6 +93,7 @@ export async function POST(req: NextRequest) {
       notes: lead.notes,
       pagePath: lead.pagePath,
       utm: lead.utm,
+      estimatedTotal: lead.estimatedTotal,
     });
     emailed = true;
   } catch (err) {

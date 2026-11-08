@@ -14,13 +14,29 @@ import '@/styles/lead-form.css';
  * One itinerary-form pop-up for the whole page: the header button, the mobile
  * bar, "Customise" on a tour card and "Check this date" on a day-tour card all
  * call `useLead().open(...)`. Mounted once in the locale layout.
+ *
+ * It also holds the product the current page is about (registered by
+ * <StickyBarProduct> on tour / day-tour / cruise pages), so the mobile
+ * sticky bar can name and pre-fill it (homepage fix round 1, item 5).
  */
 interface OpenArgs extends LeadPrefill {
   source: LeadSource;
 }
 
+export interface PageProduct {
+  slug: string;
+  title: string;
+  /** 'dayTour' opens the date request; anything else the trip form. */
+  type?: string | null;
+  durationDays?: number | null;
+  priceFromEur?: number | null;
+}
+
 interface LeadContextValue {
   open: (args: OpenArgs) => void;
+  isOpen: boolean;
+  product: PageProduct | null;
+  setProduct: (p: PageProduct | null) => void;
 }
 
 const LeadContext = createContext<LeadContextValue | null>(null);
@@ -29,6 +45,7 @@ export function LeadProvider({ locale, children }: { locale: string; children: R
   const [current, setCurrent] = useState<OpenArgs | null>(null);
   // Remount the form on every open so a previous thank-you state is cleared.
   const [openCount, setOpenCount] = useState(0);
+  const [product, setProduct] = useState<PageProduct | null>(null);
   const headingId = useId();
 
   useEffect(() => {
@@ -45,7 +62,10 @@ export function LeadProvider({ locale, children }: { locale: string; children: R
     });
   }, []);
 
-  const value = useMemo(() => ({ open }), [open]);
+  const value = useMemo(
+    () => ({ open, isOpen: current !== null, product, setProduct }),
+    [open, current, product],
+  );
   const isDay = current?.kind === 'day_tour';
 
   return (
@@ -89,6 +109,24 @@ export function useLead(): LeadContextValue {
   const ctx = useContext(LeadContext);
   if (!ctx) throw new Error('useLead must be used within a LeadProvider');
   return ctx;
+}
+
+/** Product pages call this so the sticky bar can name and pre-fill the tour. */
+export function StickyBarProduct({ product }: { product: PageProduct }) {
+  const { setProduct } = useLead();
+  const { slug, title, type, durationDays, priceFromEur } = product;
+  useEffect(() => {
+    setProduct({ slug, title, type, durationDays, priceFromEur });
+    return () => setProduct(null);
+  }, [setProduct, slug, title, type, durationDays, priceFromEur]);
+  return null;
+}
+
+/** Prefill for a page product: day tours → date request, else trip form. */
+export function prefillFor(p: PageProduct): LeadPrefill {
+  return p.type === 'dayTour'
+    ? { kind: 'day_tour', tourSlug: p.slug, tourTitle: p.title, priceFromEur: p.priceFromEur }
+    : { kind: 'trip', tourSlug: p.slug, tourTitle: p.title, durationDays: p.durationDays };
 }
 
 /** A button that opens the itinerary pop-up. */

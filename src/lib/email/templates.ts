@@ -572,6 +572,7 @@ export interface LeadEmailParams {
   notes: string | null;
   pagePath: string | null;
   utm: Record<string, string>;
+  estimatedTotal?: number | null;
 }
 
 export function leadTeamEmail(p: LeadEmailParams): { subject: string; html: string; text: string } {
@@ -584,6 +585,9 @@ export function leadTeamEmail(p: LeadEmailParams): { subject: string; html: stri
     [p.kind === 'day_tour' ? 'Tour date' : 'When', p.when],
     ...(p.days ? ([['Trip length', `${p.days} days`]] as Array<[string, string]>) : []),
     ['Travellers', p.party],
+    ...(p.estimatedTotal
+      ? ([['Estimate shown to traveller', 'USD ' + p.estimatedTotal.toLocaleString('en-US') + ' (adults x from price; children to confirm)']] as Array<[string, string]>)
+      : []),
     ...(p.budget ? ([['Budget per person (excl. flights)', p.budget]] as Array<[string, string]>) : []),
     ...(p.tour ? ([['Tour', p.tourUrl ? `${p.tour} — ${p.tourUrl}` : p.tour]] as Array<[string, string]>) : []),
     ['Form', p.source],

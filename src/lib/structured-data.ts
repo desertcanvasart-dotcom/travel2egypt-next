@@ -14,7 +14,8 @@
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
-import { ETAA_LICENCE_URL, IATA_NUMBER, LEGAL_NAME, MINISTRY_LICENCE_NUMBER } from './company';
+import { LEGAL_NAME } from './company';
+import { etaaUrl, type Accreditations } from './accreditations';
 import { siteUrlBase } from './path-from-doc';
 
 const SITE_NAME = 'Travel2Egypt';
@@ -96,23 +97,24 @@ export interface OrganizationInput {
   sisterBrands?: Array<{ name?: string; url?: string }>;
   knowsAbout?: string[];
   founder?: FounderInput | null;
+  ministryLicenceNumber?: string | null;
+  etaaNumber?: string | null;
+  iataNumber?: string | null;
 }
 
-// Owner-confirmed 2026-11-08: Ministry of Tourism licence 2179 (listed by
-// ETAA) and IATA 9022839. ASTA and JATA were removed on the owner's
-// instruction — do not re-add a credential without a member number.
-const ACCREDITATIONS: Array<{ name: string; org: string; url?: string }> = [
-  {
-    name: `Licensed travel agency, Ministry of Tourism (licence no. ${MINISTRY_LICENCE_NUMBER})`,
-    org: 'Egyptian Travel Agents Association',
-    url: ETAA_LICENCE_URL,
-  },
-  {
-    name: `IATA accredited agency (IATA no. ${IATA_NUMBER})`,
-    org: 'International Air Transport Association',
-    url: 'https://www.iata.org/',
-  },
-];
+// Credentials come from Sanity siteSettings (ministryLicenceNumber,
+// etaaNumber, iataNumber); an empty value emits nothing. Never hard-code a
+// number here (homepage fix round 1, 2026-11-08).
+function accreditationCredentials(a: Accreditations): Array<{ name: string; org: string; url?: string }> {
+  const out: Array<{ name: string; org: string; url?: string }> = [];
+  const m = a.ministryLicenceNumber?.trim();
+  const e = a.etaaNumber?.trim();
+  const i = a.iataNumber?.trim();
+  if (m) out.push({ name: `Licensed travel agency, Ministry of Tourism (licence no. ${m})`, org: 'Ministry of Tourism and Antiquities, Egypt' });
+  if (e) out.push({ name: `ETAA member (no. ${e})`, org: 'Egyptian Travel Agents Association', url: etaaUrl(a) ?? undefined });
+  if (i) out.push({ name: `IATA accredited agency (IATA no. ${i})`, org: 'International Air Transport Association', url: 'https://www.iata.org/' });
+  return out;
+}
 
 export function buildOrganizationSchema(input: OrganizationInput) {
   // Logo and image are kept distinct: logo for Knowledge Panel
@@ -204,7 +206,7 @@ export function buildOrganizationSchema(input: OrganizationInput) {
             })),
         }
       : {}),
-    hasCredential: ACCREDITATIONS.map((acc) => ({
+    hasCredential: accreditationCredentials(input).map((acc) => ({
       '@type': 'EducationalOccupationalCredential',
       name: acc.name,
       recognizedBy: {

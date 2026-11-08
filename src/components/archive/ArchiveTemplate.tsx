@@ -48,6 +48,8 @@ export interface ArchiveTemplateProps {
   collectionKicker: (n: number) => string;
   conciergeContextLabel: string;
   footBand: FootBandProps;
+  /** Optional ids placed just above the index, for deep links into it. */
+  indexAnchors?: string[];
 }
 
 /**
@@ -70,6 +72,7 @@ export function ArchiveTemplate({
   collectionKicker,
   conciergeContextLabel,
   footBand,
+  indexAnchors,
 }: ArchiveTemplateProps) {
   const hasEssay = essay?.body && (!Array.isArray(essay.body) || essay.body.length > 0);
 
@@ -119,6 +122,11 @@ export function ArchiveTemplate({
       )}
 
       <div className={CONTAINER}>
+        {/* Deep-link targets for the index (e.g. /nile-cruises#dahabiyas from
+            the homepage). Zero-height markers, clear of the sticky nav. */}
+        {indexAnchors?.map((id) => (
+          <span key={id} id={id} aria-hidden="true" style={{ display: 'block', height: 0, scrollMarginTop: 96 }} />
+        ))}
         {/* useSearchParams (in ArchiveIndex) must sit inside Suspense for static
             prerender. The fallback is the same view unfiltered, so the rows are
             still server-rendered for SEO; the client swaps in the interactive
