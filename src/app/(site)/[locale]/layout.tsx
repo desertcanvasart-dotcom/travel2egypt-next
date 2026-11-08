@@ -92,7 +92,7 @@ export default async function LocaleLayout({
                   locale={locale as Locale}
                   accreditations={{
                     ministryLicenceNumber: siteSettings?.ministryLicenceNumber,
-                    etaaNumber: siteSettings?.etaaNumber,
+                    etaaMember: siteSettings?.etaaMember,
                     iataNumber: siteSettings?.iataNumber,
                   }}
                 />

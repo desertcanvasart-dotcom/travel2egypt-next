@@ -1,6 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { StickyBarProduct } from '@/components/leads/LeadProvider';
-import { accreditationItems, getAccreditations } from '@/lib/accreditations';
+import { getAccreditations, iataItem, licenceShort } from '@/lib/accreditations';
 import { PortableText } from '@portabletext/react';
 
 import { Link } from '@/i18n/navigation';
@@ -70,6 +70,9 @@ export interface PackageDoc {
 const CRUISE_RE = /cruise|nile|dahabiya|river|boat|felucca/i;
 
 export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: Locale }) {
+  // Trust line: approved Short licence string + IATA item (fix round 2).
+  const accreditations = await getAccreditations();
+  const trustCreds = [licenceShort(accreditations, locale), iataItem(accreditations)].filter(Boolean).join(' · ');
   const tNav = await getTranslations('nav');
   const tSub = await getTranslations('subcategory');
   const ts = await getTranslations('tourSystem');
@@ -467,7 +470,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
             <div className="card">
               <span className="ck">{ts('whyBook')}</span>
               <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
-              <div className="accred">{[accreditationItems(await getAccreditations(), locale).join(' · '), ts('trustAccred')].filter(Boolean).join(' — ')}</div>
+              <div className="accred">{[trustCreds, ts('trustAccred')].filter(Boolean).join(' — ')}</div>
             </div>
           </aside>
         </div>

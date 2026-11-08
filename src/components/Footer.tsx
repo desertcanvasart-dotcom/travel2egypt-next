@@ -4,8 +4,7 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
 import { WHATSAPP_DISPLAY, WHATSAPP_LINK } from '@/lib/concierge/constants';
-import { LEGAL_NAME } from '@/lib/company';
-import { accreditationItems, etaaUrl, type Accreditations } from '@/lib/accreditations';
+import { iataItem, licenceFull, licenceLegal, type Accreditations } from '@/lib/accreditations';
 
 import { CookiePreferencesButton } from './CookiePreferencesButton';
 
@@ -53,10 +52,10 @@ const LEGAL_LINKS = [
  */
 export function Footer({ locale, accreditations }: FooterProps & { accreditations?: Accreditations | null }) {
   const t = useTranslations('footer');
-  // Licence/accreditation items come only from Sanity siteSettings; each
-  // renders only when set (homepage fix round 1, 2026-11-08).
-  const accItems = accreditationItems(accreditations, locale);
-  const etaaHref = etaaUrl(accreditations);
+  // Licence wording comes only from Sanity siteSettings via the approved
+  // Full / Legal strings (fix round 2, 2026-11-08). IATA item unchanged.
+  const accItems = [licenceFull(accreditations, locale), iataItem(accreditations)].filter(Boolean) as string[];
+  const stop = locale === 'ja' ? '。' : '.';
   const tNav = useTranslations('nav');
   const year = new Date().getFullYear();
   const descriptions = SISTER_BRAND_DESCRIPTIONS[locale];
@@ -71,7 +70,7 @@ export function Footer({ locale, accreditations }: FooterProps & { accreditation
             </Link>
             <p>
               {t('tagline')}
-              {accItems.length > 0 && <> {accItems.join(' · ')}.</>}
+              {accItems.length > 0 && <> {accItems.join(' · ')}{stop}</>}
             </p>
           </div>
 
@@ -149,15 +148,8 @@ export function Footer({ locale, accreditations }: FooterProps & { accreditation
 
         <div className="t2e-foot-legal">
           <span className="legal-owner">
-            {t('rights', { year })} {LEGAL_NAME}
-            {etaaHref && accreditations?.etaaNumber && (
-              <>
-                {' · '}
-                <a href={etaaHref} target="_blank" rel="noopener noreferrer">
-                  ETAA {accreditations.etaaNumber.trim()}
-                </a>
-              </>
-            )}
+            {licenceLegal(accreditations, locale, year)}
+            {stop} {t('rights')}
           </span>
           <span className="legal-links">
             {LEGAL_LINKS.map((link) => (

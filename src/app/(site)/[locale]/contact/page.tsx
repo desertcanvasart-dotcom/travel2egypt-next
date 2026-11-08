@@ -49,8 +49,8 @@ export default async function Page({ params }: Props) {
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
-      {/* ETAA/licence numbers in the body are {tokens} filled from siteSettings. */}
-      <EditorialPageView locale={lc} doc={applyAccreditationTokens(doc, await getAccreditations())} />
+      {/* Licence wording in the body is {tokens} filled from siteSettings. */}
+      <EditorialPageView locale={lc} doc={applyAccreditationTokens(doc, await getAccreditations(), lc)} />
     </>
   );
 }
