@@ -1,6 +1,6 @@
 'use client';
 
-import { useId, useMemo, useState, type FormEvent } from 'react';
+import { useId, useMemo, useState, type FormEvent, type ReactNode } from 'react';
 
 import { track } from '@/lib/analytics';
 import { convertPrice, formatConverted } from '@/lib/currency';
@@ -43,6 +43,8 @@ interface Props {
   /** Dark band styling (inline footer form) vs light (dialog). */
   tone?: 'dark' | 'light';
   headingId?: string;
+  /** Replaces the default thank-you block (e.g. the plan page's own copy). */
+  renderDone?: (reference: string) => ReactNode;
 }
 
 type State = { phase: 'idle' | 'sending' } | { phase: 'done'; reference: string } | { phase: 'error'; message: string };
@@ -64,7 +66,7 @@ function todayIso(): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 }
 
-export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headingId }: Props) {
+export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headingId, renderDone }: Props) {
   const kind = prefill?.kind ?? 'trip';
   const isDay = kind === 'day_tour';
   const uid = useId();
@@ -168,6 +170,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
   }
 
   if (state.phase === 'done') {
+    if (renderDone) return <>{renderDone(state.reference)}</>;
     return (
       <div className={`lead-done lead-${tone}`} role="status">
         <p className="lead-done-title">{c.doneTitle}</p>

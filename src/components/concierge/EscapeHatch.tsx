@@ -28,6 +28,12 @@ interface EscapeHatchProps {
   locale: 'en' | 'es';
   /** Where focus returns when the dialog closes (the header trigger). */
   triggerRef: React.RefObject<HTMLButtonElement | null>;
+  /**
+   * Plan page (2026-11-08): when set, the "Get a reply by email" option is
+   * replaced by "Send us your dates instead", which hands back to the
+   * itinerary form. The forward flow itself is unchanged, just not offered.
+   */
+  onSendDates?: () => void;
 }
 
 type View = 'options' | 'forward' | 'forwarded';
@@ -39,6 +45,7 @@ export function EscapeHatch({
   sessionRef,
   locale,
   triggerRef,
+  onSendDates,
 }: EscapeHatchProps) {
   const t = useTranslations('planYourTour');
   const [view, setView] = useState<View>('options');
@@ -158,17 +165,31 @@ export function EscapeHatch({
               <span className="cnc-escape-option__title">{t('escapeWhatsappTitle')}</span>
               <span className="cnc-escape-option__desc">{t('escapeWhatsappDesc')}</span>
             </a>
-            <button
-              type="button"
-              className="cnc-escape-option"
-              onClick={() => setView('forward')}
-              disabled={!conversationId}
-            >
-              <span className="cnc-escape-option__title">{t('escapeForwardTitle')}</span>
-              <span className="cnc-escape-option__desc">
-                {conversationId ? t('escapeForwardDesc') : t('escapeForwardDescEmpty')}
-              </span>
-            </button>
+            {onSendDates ? (
+              <button
+                type="button"
+                className="cnc-escape-option"
+                onClick={() => {
+                  close();
+                  onSendDates();
+                }}
+              >
+                <span className="cnc-escape-option__title">{t('escapeSendDatesTitle')}</span>
+                <span className="cnc-escape-option__desc">{t('escapeSendDatesDesc')}</span>
+              </button>
+            ) : (
+              <button
+                type="button"
+                className="cnc-escape-option"
+                onClick={() => setView('forward')}
+                disabled={!conversationId}
+              >
+                <span className="cnc-escape-option__title">{t('escapeForwardTitle')}</span>
+                <span className="cnc-escape-option__desc">
+                  {conversationId ? t('escapeForwardDesc') : t('escapeForwardDescEmpty')}
+                </span>
+              </button>
+            )}
             <button type="button" className="cnc-escape-option" onClick={onContinue}>
               <span className="cnc-escape-option__title">{t('escapeContinueTitle')}</span>
               <span className="cnc-escape-option__desc">{t('escapeContinueDesc')}</span>

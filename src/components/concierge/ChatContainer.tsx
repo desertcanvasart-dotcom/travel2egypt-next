@@ -53,6 +53,8 @@ interface ChatContainerProps {
   resumeError?: boolean;
   /** Resolved concierge link map for this locale (deep-link post-processor). */
   linkMap?: LinkMapEntry[];
+  /** Plan page: "Talk to a human" offers "Send us your dates instead" → the form. */
+  onSendDates?: () => void;
 }
 
 type Phase = 'idle' | 'thinking' | 'streaming';
@@ -63,6 +65,7 @@ export function ChatContainer({
   tourTitle,
   resumeError = false,
   linkMap = [],
+  onSendDates,
 }: ChatContainerProps) {
   const t = useTranslations('planYourTour');
   const format = useFormatter();
@@ -773,6 +776,7 @@ export function ChatContainer({
         sessionRef={sessionRef}
         locale={locale}
         triggerRef={escapeTriggerRef}
+        onSendDates={onSendDates}
       />
 
       <DataMenu
