@@ -3,26 +3,21 @@
 /**
  * Cookie-consent state.
  *
- * The site sets only strictly-necessary cookies and loads no analytics or
- * marketing scripts, so there is nothing to gate — the visible UI is an
- * informational notice, not a consent choice. The cookies are: `NEXT_LOCALE`
- * (remembers the reading language, set site-wide) and `t2e_session_id` (the
- * AI concierge's signed session cookie — set ONLY when a visitor engages the
- * concierge, 30 days, scoped to travel2egypt.org). The concierge additionally
- * processes a keyed one-way HMAC of the visitor's IP / User-Agent for abuse
- * prevention; the raw values are never stored or logged. The notice (Session 8)
- * discloses all of this; full detail is in the cookie + privacy policies.
+ * Strictly-necessary cookies: `NEXT_LOCALE` (reading language),
+ * `t2e_session_id` (AI concierge session, set only when the concierge is
+ * used, 30 days) and `t2e_ccy` (display currency, set only when chosen).
  *
- * This provider exists for future-proofing: the day a non-essential script
- * is added, a consumer only has to read `useConsent().consent?.categories`
- * before loading it, and `updateConsent` records a granular choice. The
- * storage format already carries the category shape so that change needs
- * no migration.
+ * Optional: Google Analytics (see lib/analytics.ts). When GA is configured
+ * (`ANALYTICS_ENABLED`) the notice becomes a real choice — "Accept
+ * analytics" / "Essential only", equally prominent — and the answer drives
+ * Consent Mode. When GA is not configured the notice stays informational
+ * ("Got it") and records no optional consent.
  *
  * The decision is persisted in localStorage under a versioned key and
  * re-requested after 12 months (ICO / CNIL guidance on consent refresh).
- * Bumping the version suffix re-prompts every visitor (old records ignored) —
- * done at S8 (`v1 → v2`) so the updated disclosure is shown once.
+ * `v2 → v3` (GA4 introduction) re-prompts every visitor once, since no
+ * earlier record carried an analytics choice. The GA bootstrap script reads
+ * the same key so a returning visitor's first page view already honours it.
  */
 
 import {
@@ -35,10 +30,11 @@ import {
   type ReactNode,
 } from 'react';
 
+import { CONSENT_MAX_AGE_MS, CONSENT_STORAGE_KEY } from '@/lib/analytics';
+
 /**
- * Optional cookie categories. Nothing is wired to these yet; the field
- * exists so a future analytics/marketing integration can store a granular
- * choice without a storage-format migration.
+ * Optional cookie categories. `analytics` gates Google Analytics storage;
+ * `marketing` is unused (the site runs no ads) and always false.
  */
 export type ConsentCategories = {
   analytics: boolean;
@@ -51,10 +47,10 @@ export type ConsentRecord = {
   categories: ConsentCategories;
 };
 
-// Versioned key — bump the suffix to cleanly re-prompt every visitor if the
-// cookie policy materially changes (old records are then simply ignored).
-const STORAGE_KEY = 'consent-v2';
-const MAX_AGE_MS = 365 * 24 * 60 * 60 * 1000;
+// Versioned key — bump the suffix (in lib/analytics.ts) to cleanly re-prompt
+// every visitor if the cookie policy materially changes.
+const STORAGE_KEY = CONSENT_STORAGE_KEY;
+const MAX_AGE_MS = CONSENT_MAX_AGE_MS;
 
 const NO_OPTIONAL: ConsentCategories = { analytics: false, marketing: false };
 
@@ -99,10 +95,7 @@ interface ConsentContextValue {
   acknowledge: () => void;
   /** Re-open the notice — footer "Cookie preferences" control. */
   openNotice: () => void;
-  /**
-   * Future granular setter — for when an analytics/marketing script is
-   * added and the notice becomes a real consent choice. Unused today.
-   */
+  /** Record a granular choice ("Accept analytics" / "Essential only"). */
   updateConsent: (categories: ConsentCategories) => void;
 }
 

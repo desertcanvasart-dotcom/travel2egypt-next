@@ -11,6 +11,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { JsonLd } from '@/components/JsonLd';
 import { CookieConsent } from '@/components/CookieConsent';
+import { Analytics } from '@/components/Analytics';
 import { ConsentProvider } from '@/lib/consent';
 import { CurrencyProvider } from '@/lib/currency-context';
 import { defaultCurrencyForLocale } from '@/lib/currency';
@@ -86,6 +87,7 @@ export default async function LocaleLayout({
               <main id="main">{children}</main>
               <Footer locale={locale as Locale} />
               <CookieConsent />
+              <Analytics locale={locale} />
             </CurrencyProvider>
           </ConsentProvider>
         </NextIntlClientProvider>

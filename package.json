@@ -37,7 +37,8 @@
     "test:markers": "tsx src/lib/__tests__/briefDetection.test.ts && tsx src/lib/__tests__/abuseDetection.test.ts && tsx src/lib/__tests__/briefCompleteness.test.ts",
     "test:concierge": "npm run test:markers && npm run test:autoura",
     "eval:concierge": "tsx scripts/concierge-eval/run.ts",
-    "seed:link-map": "tsx scripts/seed-concierge-link-map.ts"
+    "seed:link-map": "tsx scripts/seed-concierge-link-map.ts",
+    "test:analytics": "tsx src/lib/__tests__/analytics-classify.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.104.0",
