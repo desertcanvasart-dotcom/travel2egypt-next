@@ -1,0 +1,152 @@
+/* English sales homepage (2026-11-08). Extends .lvl-home (tour-system.css)
+ * — same tokens, type scale and rules; adds priced cards, tabs, proof row,
+ * quick finder, promises, boat panels, style cards and the closing form. */
+
+/* ── Hero ─────────────────────────────────────────────────────────── */
+.lvl-sales .sales-hero { padding: 72px 0 56px; }
+.lvl-sales .sales-hero h1 { font-size: clamp(42px, 5vw, 70px); line-height: 1.02; }
+.lvl-sales .sales-hero .sub { max-width: 520px; }
+.lvl-sales .hero-cta button.btn { border: 0; cursor: pointer; }
+.lvl-sales .proof {
+  list-style: none; margin: 34px 0 0; padding: 22px 0 0; border-top: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; gap: 10px 26px; font-family: var(--ui); font-size: 14px; color: var(--navy-mute);
+}
+.lvl-sales .proof li { position: relative; }
+.lvl-sales .proof a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.lvl-sales .proof a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+.lvl-sales .proof a span { color: #00a66e; }
+
+/* Quick finder */
+.lvl-sales .qf {
+  margin-top: 44px; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 14px 18px;
+  padding: 20px 22px; background: var(--paper-warm); border: 1px solid var(--rule); font-family: var(--ui);
+}
+.lvl-sales .qf-field { display: flex; align-items: center; gap: 10px; font-size: 15px; color: var(--navy-mute); }
+.lvl-sales .qf select {
+  font: inherit; font-size: 16px; color: var(--navy); background: #fff; border: 1px solid var(--rule);
+  padding: 10px 12px; min-height: 44px; border-radius: 0;
+}
+.lvl-sales .qf-go {
+  margin-left: auto; font-family: var(--ui); font-size: 13px; letter-spacing: .06em; min-height: 44px;
+  padding: 12px 26px; background: var(--navy); color: var(--paper); border: 0; cursor: pointer;
+}
+.lvl-sales .qf-go:hover { background: var(--gold-dark); }
+
+/* ── Shared bits ─────────────────────────────────────────────────── */
+.lvl-sales .sec { padding: 80px 0; }
+.lvl-sales .sec-more { display: flex; flex-wrap: wrap; gap: 14px 30px; margin-top: 34px; }
+.lvl-sales .btn-outline {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 10px 18px;
+  font-family: var(--ui); font-size: 13px; letter-spacing: .04em; text-decoration: none; cursor: pointer;
+  color: var(--navy); background: transparent; border: 1px solid var(--navy);
+}
+.lvl-sales .btn-outline:hover { background: var(--navy); color: var(--paper); }
+.lvl-sales .price { margin: 12px 0 0; display: flex; flex-direction: column; gap: 2px; }
+.lvl-sales .price-from { font-family: var(--ui); font-size: 18px; font-weight: 600; color: var(--navy); }
+.lvl-sales .price-basis { font-family: var(--ui); font-size: 12.5px; color: var(--navy-mute); }
+
+/* ── Tour cards ──────────────────────────────────────────────────── */
+.lvl-sales .pcards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px 28px; }
+.lvl-sales .pcard { display: flex; flex-direction: column; }
+.lvl-sales .pcard-img { position: relative; display: block; }
+.lvl-sales .pcard-img .t2e-visual { aspect-ratio: 3/2; width: 100%; }
+.lvl-sales .badge {
+  position: absolute; left: 12px; top: 12px; z-index: 3; background: var(--paper); color: var(--navy);
+  font-family: var(--ui); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; padding: 6px 10px;
+}
+.lvl-sales .pcard-body { padding-top: 16px; display: flex; flex-direction: column; flex: 1; }
+.lvl-sales .pcard h3, .lvl-sales .dcard h3 { font-family: var(--display); font-weight: 400; font-size: 24px; line-height: 1.08; color: var(--navy); }
+.lvl-sales .pcard h3 a, .lvl-sales .dcard h3 a { color: inherit; text-decoration: none; }
+.lvl-sales .pcard h3 a:hover, .lvl-sales .dcard h3 a:hover { color: var(--gold-dark); }
+.lvl-sales .route { margin-top: 8px; font-size: 15px; line-height: 1.45; color: var(--navy-mute); }
+.lvl-sales .route .dur { font-family: var(--ui); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-dark); margin-right: 6px; }
+.lvl-sales .pcard-actions { margin-top: auto; padding-top: 16px; display: flex; align-items: center; gap: 18px; }
+.lvl-sales .pcard-actions .link { font-family: var(--ui); font-size: 13px; color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 2px; }
+.lvl-sales .pcard-actions .link:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* ── Promises ────────────────────────────────────────────────────── */
+.lvl-sales .promises-title { font-family: var(--display); font-weight: 400; font-size: clamp(32px, 3.6vw, 46px); color: var(--navy); margin-bottom: 34px; }
+.lvl-sales .promise-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.lvl-sales .promise-grid li { background: var(--paper-warm); padding: 28px 24px; }
+.lvl-sales .promise-grid h3 { font-family: var(--display); font-weight: 500; font-size: 22px; line-height: 1.1; color: var(--navy); margin-bottom: 10px; }
+.lvl-sales .promise-grid p { font-size: 15px; line-height: 1.55; color: var(--navy-mute); }
+
+/* ── Day-tour tabs ───────────────────────────────────────────────── */
+.lvl-sales .dt-tablist { display: flex; gap: 0; border-bottom: 1px solid var(--rule); margin-bottom: 28px; overflow-x: auto; scrollbar-width: none; }
+.lvl-sales .dt-tablist::-webkit-scrollbar { display: none; }
+.lvl-sales .dt-tab {
+  flex: 0 0 auto; display: flex; flex-direction: column; align-items: flex-start; gap: 2px; padding: 12px 22px 14px;
+  background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px; cursor: pointer;
+  font-family: var(--ui); color: var(--navy-mute); min-height: 44px;
+}
+.lvl-sales .dt-tab-label { font-size: 15px; font-weight: 500; }
+.lvl-sales .dt-tab-from { font-size: 12.5px; }
+.lvl-sales .dt-tab.on { color: var(--navy); border-bottom-color: var(--gold-dark); }
+.lvl-sales .dt-tab:hover { color: var(--navy); }
+.lvl-sales .dt-tab:focus-visible, .lvl-sales .dt-panel:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+.lvl-sales .dcards { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.lvl-sales .dcard { display: flex; flex-direction: column; border: 1px solid var(--rule); background: var(--paper); }
+.lvl-sales .dcard-img { display: block; }
+.lvl-sales .dcard-img .t2e-visual { aspect-ratio: 16/10; width: 100%; }
+.lvl-sales .dcard-body { padding: 16px 18px 20px; display: flex; flex-direction: column; flex: 1; }
+.lvl-sales .dcard .meta { font-family: var(--ui); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-dark); min-height: 14px; margin-bottom: 8px; }
+.lvl-sales .dcard .btn-outline { margin-top: auto; align-self: flex-start; }
+.lvl-sales .dcard .price { margin-bottom: 16px; }
+
+/* ── Boats ───────────────────────────────────────────────────────── */
+.lvl-sales .boats { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.lvl-sales .boat { background: var(--paper); border: 1px solid var(--rule); padding: 30px 28px; }
+.lvl-sales .boat h3 { font-family: var(--display); font-weight: 400; font-size: 32px; color: var(--navy); margin-bottom: 18px; }
+.lvl-sales .boat dl { margin: 0 0 24px; }
+.lvl-sales .boat dl > div { display: grid; grid-template-columns: 130px 1fr; gap: 16px; padding: 10px 0; border-top: 1px solid var(--rule-soft); }
+.lvl-sales .boat dt { font-family: var(--ui); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold-dark); padding-top: 3px; }
+.lvl-sales .boat dd { margin: 0; font-size: 15.5px; color: var(--navy); }
+
+/* ── Travel styles ───────────────────────────────────────────────── */
+.lvl-sales .styles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+.lvl-sales .style { display: flex; flex-direction: column; height: 100%; background: var(--paper); padding: 26px 24px; text-decoration: none; color: inherit; transition: background .2s; }
+.lvl-sales .style:hover { background: var(--paper-deep); }
+.lvl-sales .style h3 { font-family: var(--display); font-weight: 400; font-size: 24px; line-height: 1.05; color: var(--navy); margin-bottom: 8px; }
+.lvl-sales .style p { font-size: 15px; line-height: 1.5; color: var(--navy-mute); flex: 1; margin-bottom: 14px; }
+.lvl-sales .style-from { font-family: var(--ui); font-size: 14px; font-weight: 600; color: var(--navy); }
+
+/* ── Guide teaser ────────────────────────────────────────────────── */
+.lvl-sales .guide-teaser { display: grid; grid-template-columns: .9fr 1.1fr; gap: 56px; align-items: start; }
+.lvl-sales .guide-teaser h2 { font-family: var(--display); font-weight: 400; font-size: clamp(32px, 3.6vw, 46px); color: var(--navy); margin: 12px 0 14px; }
+.lvl-sales .guide-teaser .lede { font-size: 16.5px; color: var(--navy-mute); margin-bottom: 22px; }
+.lvl-sales .guide-links { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+.lvl-sales .guide-links li { border-bottom: 1px solid var(--rule); }
+.lvl-sales .guide-links a { display: block; padding: 18px 0; font-family: var(--display); font-size: 23px; color: var(--navy); text-decoration: none; }
+.lvl-sales .guide-links a:hover { color: var(--gold-dark); }
+.lvl-sales .guide-links a::after { content: ' →'; color: var(--gold-dark); }
+
+/* ── Closing form ────────────────────────────────────────────────── */
+.lvl-sales .sales-close { padding: 88px 0; scroll-margin-top: 80px; }
+.lvl-sales .close-grid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 60px; align-items: start; }
+.lvl-sales .close-alt { list-style: none; margin: 30px 0 0; padding: 22px 0 0; border-top: 1px solid var(--rule-dark); display: grid; gap: 12px; font-size: 15.5px; color: var(--on-dark-mute); }
+.lvl-sales .close-alt a { color: var(--on-dark); }
+.lvl-sales .close-alt a:hover { color: var(--gold); }
+
+@media (max-width: 980px) {
+  .lvl-sales .sales-hero { padding: 40px 0 44px; }
+  .lvl-sales .qf { margin-top: 30px; flex-direction: column; align-items: stretch; }
+  .lvl-sales .qf-field { justify-content: space-between; }
+  .lvl-sales .qf select { flex: 1; }
+  .lvl-sales .qf-go { margin-left: 0; }
+  .lvl-sales .sec { padding: 60px 0; }
+  /* Swipe row on tablets/phones (spec: horizontal swipe on mobile). */
+  .lvl-sales .pcards, .lvl-sales .dcards {
+    grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: minmax(78%, 1fr);
+    overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; scrollbar-width: thin;
+  }
+  .lvl-sales .pcard, .lvl-sales .dcard { scroll-snap-align: start; }
+  .lvl-sales .promise-grid { grid-template-columns: 1fr 1fr; }
+  .lvl-sales .boats { grid-template-columns: 1fr; }
+  .lvl-sales .styles { grid-template-columns: 1fr 1fr; }
+  .lvl-sales .guide-teaser, .lvl-sales .close-grid { grid-template-columns: 1fr; gap: 34px; }
+}
+@media (max-width: 620px) {
+  .lvl-sales .promise-grid, .lvl-sales .styles { grid-template-columns: 1fr; }
+  .lvl-sales .boat dl > div { grid-template-columns: 1fr; gap: 4px; }
+  .lvl-sales .proof { gap: 8px 18px; font-size: 13.5px; }
+}

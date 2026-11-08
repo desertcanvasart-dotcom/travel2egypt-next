@@ -12,6 +12,8 @@ import { Footer } from '@/components/Footer';
 import { JsonLd } from '@/components/JsonLd';
 import { CookieConsent } from '@/components/CookieConsent';
 import { Analytics } from '@/components/Analytics';
+import { LeadProvider } from '@/components/leads/LeadProvider';
+import { MobileLeadBar } from '@/components/MobileLeadBar';
 import { ConsentProvider } from '@/lib/consent';
 import { CurrencyProvider } from '@/lib/currency-context';
 import { defaultCurrencyForLocale } from '@/lib/currency';
@@ -83,11 +85,15 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <ConsentProvider>
             <CurrencyProvider defaultCurrency={defaultCurrencyForLocale(locale)}>
-              <Header locale={locale as Locale} />
-              <main id="main">{children}</main>
-              <Footer locale={locale as Locale} />
-              <CookieConsent />
-              <Analytics locale={locale} />
+              <LeadProvider locale={locale}>
+                <Header locale={locale as Locale} />
+                <main id="main">{children}</main>
+                <Footer locale={locale as Locale} />
+                {/* English-first: the itinerary bar ships with the EN sales nav. */}
+                {locale === 'en' && <MobileLeadBar />}
+                <CookieConsent />
+                <Analytics locale={locale} />
+              </LeadProvider>
             </CurrencyProvider>
           </ConsentProvider>
         </NextIntlClientProvider>

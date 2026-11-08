@@ -23,6 +23,10 @@
  *   plan_tour_click           link into /plan-your-tour (the concierge)
  *   concierge_chat_start      first message of a new concierge conversation
  *   concierge_trip_saved      "email me a link to resume" sent
+ * Homepage rebuild (2026-11-08):
+ *   generate_lead             itinerary / date-request form submitted (mark as Key event)
+ *   lead_form_open            the form pop-up opened (funnel step)
+ *   select_item               a product card clicked (item_list_name = section)
  */
 
 export const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim() || '';
@@ -44,7 +48,11 @@ export type AnalyticsEvent =
   | 'concierge_chat_start'
   | 'concierge_brief_complete'
   | 'concierge_handoff_sent'
-  | 'concierge_trip_saved';
+  | 'concierge_trip_saved'
+  // Homepage rebuild (2026-11-08)
+  | 'generate_lead'
+  | 'lead_form_open'
+  | 'select_item';
 
 type Params = Record<string, string | number | boolean | undefined>;
 
