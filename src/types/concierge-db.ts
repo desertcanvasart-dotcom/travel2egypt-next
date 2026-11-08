@@ -264,6 +264,65 @@ export interface ConciergeDatabase {
         };
         Relationships: [];
       };
+      leads: {
+        Row: {
+          id: string;
+          reference: string;
+          created_at: string;
+          kind: string;
+          source: string;
+          locale: string;
+          email: string;
+          whatsapp: string | null;
+          travel_month: string | null;
+          start_date: string | null;
+          end_date: string | null;
+          days_band: string | null;
+          adults: number;
+          children: number;
+          child_ages: string | null;
+          budget_band: string | null;
+          notes: string | null;
+          tour_slug: string | null;
+          tour_title: string | null;
+          page_path: string | null;
+          utm: Record<string, string>;
+          ip_hash: string | null;
+          emailed: boolean;
+          status: string;
+        };
+        Insert: {
+          id?: string;
+          reference: string;
+          created_at?: string;
+          kind?: string;
+          source: string;
+          locale?: string;
+          email: string;
+          whatsapp?: string | null;
+          travel_month?: string | null;
+          start_date?: string | null;
+          end_date?: string | null;
+          days_band?: string | null;
+          adults?: number;
+          children?: number;
+          child_ages?: string | null;
+          budget_band?: string | null;
+          notes?: string | null;
+          tour_slug?: string | null;
+          tour_title?: string | null;
+          page_path?: string | null;
+          utm?: Record<string, string>;
+          ip_hash?: string | null;
+          emailed?: boolean;
+          status?: string;
+        };
+        Update: Partial<{
+          emailed: boolean;
+          status: string;
+        }>;
+        Relationships: [];
+      };
       eval_scores: {
         Row: {
           id: string;
