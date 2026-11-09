@@ -14,7 +14,7 @@
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
-import { LEGAL_NAME, TRIPADVISOR_URL } from './company';
+import { FACEBOOK_URL, INSTAGRAM_URL, LEGAL_NAME, TRIPADVISOR_URL } from './company';
 import { type Accreditations } from './accreditations';
 import { siteUrlBase } from './path-from-doc';
 
@@ -135,8 +135,8 @@ export function buildOrganizationSchema(input: OrganizationInput) {
   // sameAs — every public profile URL the operator wants Google and
   // AI engines to associate with this Organization.
   const sameAs = [
-    input.socialLinks?.facebook,
-    input.socialLinks?.instagram,
+    input.socialLinks?.facebook ?? FACEBOOK_URL,
+    input.socialLinks?.instagram ?? INSTAGRAM_URL,
     input.socialLinks?.youtube,
     input.socialLinks?.linkedin,
     input.socialLinks?.twitter,
@@ -185,7 +185,8 @@ export function buildOrganizationSchema(input: OrganizationInput) {
     slogan: input.tagline,
     url: SITE_URL,
     legalName: LEGAL_NAME,
-    foundingDate: '1993',
+    // Licensed operator since 2003 (owner, 2026-11-09); guiding since 1993 is the founder's story.
+    foundingDate: '2003',
     ...(logoUrl
       ? {
           logo: {
