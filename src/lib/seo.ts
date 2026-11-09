@@ -25,6 +25,7 @@ import { urlFor } from '@/sanity/lib/image';
 import { routing, type Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
 import { PRODUCTION_URL } from './site';
+import { trimMetaDescription } from './meta-description';
 
 const SITE_NAME = 'Travel2Egypt';
 const SITE_TAGLINE = 'Egypt travel, with judgment. An Egyptian operator since 1993.';
@@ -63,6 +64,8 @@ interface SourceDoc {
 }
 
 interface Options {
+  /** Keep the description exactly as given (hand-written copy). Default: trim to ~155 chars. */
+  keepDescription?: boolean;
   locale: Locale;
   /** Path under the locale prefix, e.g. "/tours/saqqara-dahshur-day-tour". */
   path?: string;
@@ -154,10 +157,12 @@ export async function buildMetadata(doc: SourceDoc, options: Options): Promise<M
       ? `${rawTitle} — ${SITE_NAME}`
       : rawTitle;
 
-  const description =
-    doc.seo?.metaDescription?.trim() ||
-    doc.summary?.trim() ||
-    SITE_TAGLINE;
+  // Trimmed to what Google shows, at a sentence or word boundary
+  // (lib/meta-description, Ahrefs audit 2026-11-09).
+  // Hand-written page copy (buildStaticMetadata: code / locale files) is
+  // kept as written; Sanity text — often migrated or auto-excerpted — is cut.
+  const rawDescription = doc.seo?.metaDescription?.trim() || doc.summary?.trim() || SITE_TAGLINE;
+  const description = options.keepDescription ? rawDescription : trimMetaDescription(rawDescription, locale);
 
   // OG image fallback chain: editor-set → doc hero → site default → static.
   // The site default (siteSettings.defaultOgImage) is fetched only when the
@@ -249,6 +254,7 @@ export async function buildStaticMetadata(args: {
       locale: args.locale,
       path: args.path,
       ogType: 'website',
+      keepDescription: true,
       defaultOgImage: args.defaultOgImage,
       pathByLocale,
     }
