@@ -54,7 +54,7 @@ Ahrefs Keywords Explorer and GSC Insights are locked on the free Ahrefs plan, so
 | Cluster (examples) | Impr. 3 mo | Now | Target page | Action |
 |---|---|---|---|---|
 | **Viaje / tour / paquete a Egipto** (tour a egipto, viajes a egipto, paquete de viaje a egipto, oferta viaje a egipto) | ~900 | 29–82; top page was a **404** (`/es/tours-a-egipto-desde-espana`) | `/es/paquetes-de-viaje-a-egipto` | 404 redirected (this PR); B5 |
-| **Crucero por el Nilo** | ~180 | 20–43; `/es/nile-cruise-holidays` and `/es/nile-cruises` are **both titled "Cruceros por el Nilo"**, plus a blog post (23) | `/es/nile-cruise-holidays` | B5: give `/es/nile-cruises` a ship-directory title |
+| **Crucero por el Nilo** | ~180 | 20–43; `/es/nile-cruise-holidays` and `/es/nile-cruises` were **both titled "Cruceros por el Nilo"**, plus a blog post (23) | "crucero por el Nilo" → `/es/nile-cruises` (it receives the old ES cruise page's redirect, which ranked 11.6); "viaje a Egipto con crucero" → `/es/nile-cruise-holidays` | Retitled in B5 ES (`docs/b5-copy-es-draft-2026-11-09.md`) |
 | **Por duración** (tour 4 días egipto, viaje a egipto 7 / 8 / 10 / 12 días) | ~250 | 37–72; the duration pages were **404s** | ES 4-day Cairo, 7-day, Essential 8-day, 10-day, 12-day packages | Redirected (this PR) |
 | **Romántico** (viaje romántico por egipto, paquetes románticos) | 110 | **20–25** | `/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias` | B5 |
 | **Abu Simbel / Festival del Sol** | ~245 | 25–66 | ES Abu Simbel package | B5 |

@@ -22,12 +22,11 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const ts = await getTranslations({ locale, namespace: 'tourSystem' });
   const t = await getTranslations({ locale, namespace: 'packagesHub' });
   return buildStaticMetadata({
     locale: locale as Locale,
     path: '/egypt-travel-packages',
-    title: ts('pkgCatTitle'),
+    title: t('metaTitle'),
     description: t('metaDescription'),
   });
 }
