@@ -59,4 +59,12 @@ const qo = trim(quoted, 'es');
 assert.ok(!qo.endsWith('Nilo?'), qo);
 assert.ok(qo.length <= 155, qo);
 
+// Spanish era abbreviations are not sentence ends.
+const era = 'El complejo-mausoleo del sultán Qaytbay en el Cementerio Norte fue construido entre 1470 y 1474 d. C. y es una de las obras más refinadas del arte mameluco tardío en El Cairo.';
+assert.ok(!trim(era, 'es').endsWith(' d.'), trim(era, 'es'));
+
+// A long text never falls under 100 when a fuller cut is possible.
+const longSp = 'La Mezquita de Mohamed Alí es el edificio visualmente más dominante de El Cairo. Domina la Ciudadela desde su construcción en el siglo XIX y su silueta se ve desde casi toda la ciudad…';
+assert.ok(trim(longSp, 'es').length >= 100, trim(longSp, 'es'));
+
 console.log('meta-description: all assertions passed');
