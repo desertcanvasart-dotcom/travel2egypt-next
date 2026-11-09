@@ -275,7 +275,7 @@ const EN: HomeCopy = {
 const ES: HomeCopy = {
   metaTitle: 'Viajes privados a Egipto y cruceros por el Nilo | Travel2Egypt',
   metaDescription: (t, d) =>
-    `${t && d ? `Viajes privados por Egipto desde ${t} y excursiones de un día desde ${d}, ` : 'Viajes privados por Egipto y excursiones de un día, '}con un operador de El Cairo que guía desde 1993. El Cairo, el Nilo, Luxor, Asuán y Abu Simbel, a tu medida.`,
+    `${t && d ? `Viajes privados por Egipto desde ${t} y excursiones de un día desde ${d}: ` : 'Viajes privados por Egipto y excursiones de un día: '}El Cairo, el Nilo, Luxor, Asuán y Abu Simbel, a tu medida. Guías desde 1993.`,
   itemListName: 'Viajes por Egipto para empezar',
   from: (p) => <>desde {p}</>,
   fromPerPerson: (p) => <>desde {p} por persona</>,
