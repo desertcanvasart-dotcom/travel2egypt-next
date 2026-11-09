@@ -21,6 +21,7 @@ export const LEAD_SOURCES = [
   'product_panel',
   'product_mid',
   'product_end',
+  'packages_hub',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];
 

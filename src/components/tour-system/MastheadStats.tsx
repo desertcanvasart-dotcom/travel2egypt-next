@@ -1,6 +1,8 @@
+import type { ReactNode } from 'react';
+
 interface Stat {
   label: string;
-  value: string | number;
+  value: ReactNode;
 }
 
 /**

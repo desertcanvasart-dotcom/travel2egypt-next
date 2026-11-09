@@ -1,0 +1,70 @@
+/* Packages hub (/egypt-travel-packages, 2026-11-09). Builds on the
+   .lvl-category styles in tour-system.css; the most-booked cards and the
+   closing form reuse the homepage's .lvl-sales styles unchanged. */
+
+/* Hero: tighter than the category masthead so the most-booked prices reach
+   the first screen. */
+.lvl-hub .masthead.hub-mast { padding: 10px 0 16px; align-items: center; }
+.lvl-hub .masthead .t2e-kicker { margin-bottom: 8px; }
+.lvl-hub .mast-title { font-size: clamp(38px, 4vw, 56px); max-width: none; }
+.lvl-hub .mast-tag { font-size: clamp(17px, 1.5vw, 20px); margin-top: 8px; max-width: 820px; }
+.lvl-hub .hub-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 26px; margin-top: 14px; }
+.lvl-hub .hub-btn {
+  border: 0; cursor: pointer; background: var(--navy); color: var(--paper);
+  font-family: var(--ui); font-size: 15px; letter-spacing: .02em; padding: 12px 22px;
+}
+.lvl-hub .hub-btn:hover { background: var(--black); }
+.lvl-hub .hub-text-link { font-family: var(--ui); font-size: 15px; color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.lvl-hub .hub-text-link:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+.lvl-hub .mast-stats dd { white-space: nowrap; }
+
+/* Most-booked */
+.lvl-hub .hub-sec { padding: 16px 0 72px; }
+.lvl-hub .hub-mb .t2e-section-head { margin-bottom: 14px; align-items: end; }
+.lvl-hub .hub-mb .t2e-section-head h2 { font-size: clamp(28px, 2.6vw, 38px); }
+.lvl-hub .hub-mb .t2e-section-head .t2e-kicker { margin-bottom: 6px; }
+/* The homepage card at hub width: a slightly wider crop so the price row
+   reaches the first screen at 1440×782 (the homepage itself is unchanged). */
+@media (min-width: 981px) {
+  .lvl-hub .hub-mb .pcard-img .t2e-visual { aspect-ratio: 9 / 4 !important; }
+}
+
+/* Themes: name over its note; count + from price on the right */
+.lvl-hub .city .c-name, .lvl-hub .city .c-note { display: block; }
+.lvl-hub .city .c-count { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.lvl-hub .city .c-from { color: var(--navy); letter-spacing: 0; font-size: 13px; }
+.lvl-hub .city--cta { align-items: center; }
+@media (min-width: 981px) { .lvl-hub .city--cta { grid-column: span var(--cta-span, 1); } }
+.lvl-hub .hub-link {
+  background: none; border: 0; padding: 0; cursor: pointer; text-align: left;
+  font-family: var(--ui); font-size: 14px; color: var(--navy); border-bottom: 1px solid var(--rule);
+}
+.lvl-hub .hub-link:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+.lvl-hub .city--cta .hub-link { display: inline-block; margin-top: 8px; }
+
+/* Index: controls + price column */
+.lvl-hub .hub-controls { margin-bottom: 22px; }
+.lvl-hub .hub-sort { display: inline-flex; align-items: center; gap: 10px; }
+.lvl-hub .hub-sort select {
+  font-family: var(--ui); font-size: 13px; color: var(--navy); background: transparent;
+  border: 1px solid var(--rule); border-radius: 100px; padding: 8px 14px;
+}
+.lvl-hub .trow.hub-row { grid-template-columns: 1.8fr 110px 140px 150px 32px; }
+.lvl-hub .trow .tr-price { font-family: var(--ui); font-size: 15px; color: var(--navy); text-align: right; white-space: nowrap; }
+.lvl-hub .trow .tr-por { font-size: 13px; color: var(--navy-mute); }
+.lvl-hub .hub-empty { font-family: var(--read); font-size: 16px; color: var(--navy-mute); padding: 24px 0; }
+
+@media (max-width: 900px) {
+  .lvl-hub .trow.hub-row { grid-template-columns: 1fr 32px; gap: 6px 12px; }
+  .lvl-hub .trow.hub-row .tr-name { grid-column: 1; grid-row: 1; }
+  .lvl-hub .trow.hub-row .tr-price { grid-column: 1; grid-row: 2; text-align: left; }
+  .lvl-hub .trow.hub-row .tr-dur { grid-column: 1; grid-row: 3; }
+  .lvl-hub .trow.hub-row .tr-city { grid-column: 1; grid-row: 4; }
+  .lvl-hub .trow.hub-row .tr-arrow { grid-column: 2; grid-row: 1 / 5; align-self: center; }
+}
+
+/* How our journeys work: moved below the index */
+.lvl-hub .hub-how { border-top: 1px solid var(--rule); }
+
+/* Closing form: homepage block, flush with the hub */
+.lvl-hub .hub-close .sales-close { margin: 0; }
