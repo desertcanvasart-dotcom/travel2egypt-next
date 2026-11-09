@@ -1,13 +1,16 @@
-/* Product page template (2026-11-09): decision panel under the H1 + dek —
-   a sticky right column from 1024px, full width under the dek below that. */
+/* Product page template (2026-11-09). Original order restored: title + dek,
+   then the full-width hero, then the narrative. The decision panel is a
+   sticky right column from 1024px that starts level with the title and
+   overlaps the hero's right edge; on phones it follows the hero. */
 
 .pdp {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  grid-template-areas: 'head' 'panel' 'main';
+  grid-template-areas: 'head' 'hero' 'panel' 'main';
   gap: 28px;
 }
 .pdp-head { grid-area: head; }
+.pdp-hero { grid-area: hero; }
 .pdp-side { grid-area: panel; }
 .pdp-main { grid-area: main; min-width: 0; }
 .lvl-single .pdp .head { padding-top: 32px; }
@@ -15,12 +18,15 @@
 @media (min-width: 1024px) {
   .pdp {
     grid-template-columns: minmax(0, 1fr) 380px;
-    grid-template-areas: 'head panel' 'main panel';
+    grid-template-areas: none;
     column-gap: 56px;
     row-gap: 0;
     align-items: start;
   }
-  .pdp-side { position: sticky; top: 96px; align-self: start; margin-top: -200px; z-index: 2; }
+  .pdp-head { grid-column: 1; grid-row: 1; }
+  .pdp-hero { grid-column: 1 / -1; grid-row: 2; }
+  .pdp-main { grid-column: 1; grid-row: 3; }
+  .pdp-side { grid-column: 2; grid-row: 1 / 4; position: sticky; top: 96px; align-self: start; margin-top: 32px; z-index: 2; }
   .pdp-side .pdp-panel { box-shadow: 0 18px 40px -18px rgba(20, 36, 59, .35), 0 2px 6px rgba(20, 36, 59, .08); }
 }
 
@@ -116,14 +122,12 @@
 /* Full-width hero (2026-11-09 owner decision): back at the top, under the
    breadcrumb, in the site's widest container; the panel overlaps its bottom
    edge by 120px on desktop. */
-/* Height (2026-11-09 v2): as tall as the first-screen rule allows, up to
-   21:9 of the container (500px at 1168 wide). 3:2 photos now show 49–64% of
-   their height instead of ~42%. The panel overlaps 200px, so From + the main
-   button stay on screen: H ≤ 100vh − 340px keeps the tallest panel
-   (day tours, 383px to the button) above the fold at 1440×782 and 1280×720. */
-.lvl-single .feature.pdp-hero { aspect-ratio: auto; height: clamp(380px, min(calc(100vh - 340px), 43vw), 500px); margin: 8px 0 0; }
+/* Height: the 12:5 shape of the desktop crop (~487px at 1168 wide), so the
+   whole crop shows. With the panel beside the title it no longer limits the
+   hero height for the first-screen rule. */
+.lvl-single .feature.pdp-hero { aspect-ratio: 12 / 5; height: auto; max-height: 560px; margin: 28px 0 0; }
 @media (max-width: 1023px) {
-  .lvl-single .feature.pdp-hero { height: clamp(220px, 42vh, 340px); margin-top: 4px; }
+  .lvl-single .feature.pdp-hero { aspect-ratio: auto; height: clamp(220px, 42vh, 340px); margin-top: 0; }
 }
 
 /* Panel blocks: details, price, actions. Phones lead with price + primary. */
@@ -178,11 +182,7 @@
   .pdp-panel--day .pdp-actions--day { order: 4; }
   .pdp-panel--day .pdp-rt { order: 5; }
 }
-@media (min-width: 1024px) and (max-height: 760px) {
-  .pdp-panel--day .pdp-price { order: 0; border-top: 0; }
-  .pdp-panel--day .pdp-inline-form { order: 1; }
-  .pdp-panel--day .pdp-facts--details { order: 2; margin-top: 10px; border-top: 1px solid var(--rule); }
-}
+
 @media (max-width: 1023px) {
   .pdp-panel--day .pdp-ccy { order: 2; }
 }
