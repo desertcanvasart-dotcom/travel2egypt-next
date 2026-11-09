@@ -46,6 +46,8 @@ export interface SingleTour {
   effortLevel?: string;
   departsFrom?: string;
   priceFrom?: number;
+  /** ES/JA page showing the Spanish/Japanese-speaking-guide price. */
+  guidePriced?: boolean;
   timeline?: Array<{ time?: string; description?: string }> | null;
   conciergeNote?: string;
   includedItems?: string[] | null;
@@ -320,7 +322,10 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                   </li>
                 )}
               </ul>
-              <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
+              <p className="price-note">
+                {tour.guidePriced && ts('guidePriceNote') ? `${ts('guidePriceNote')} ` : ''}
+                {tour.priceNote || ts('priceNoteOnInquiry')}
+              </p>
               <CurrencyNote note={ts('priceCurrencyNote')} />
               <Link className="rail-cta" href={conciergeHref} rel={conciergeRel}>{ts('planThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
               <a className="rail-cta ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>

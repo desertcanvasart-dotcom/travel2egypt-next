@@ -23,6 +23,7 @@ const COPY = {
     from: 'from', perPerson: 'per person', basis: 'per person, 2 sharing, 4★/5★ hotels',
     check: 'Check this date', customise: 'Customise', view: 'View tour',
     concierge: 'Not sure yet? Talk it through with our concierge →',
+    guide: '',
   },
   es: {
     private: 'Tour privado de un día', group: 'Tour de un día en grupo reducido', multi: 'Viaje de varios días',
@@ -30,6 +31,7 @@ const COPY = {
     from: 'desde', perPerson: 'por persona', basis: 'por persona, en habitación doble, hoteles de 4★/5★',
     check: 'Consultar esta fecha', customise: 'Personalizar', view: 'Ver viaje',
     concierge: '¿Aún no lo tienes claro? Háblalo con nuestro concierge →',
+    guide: 'con guía de habla hispana',
   },
   ja: {
     private: 'プライベート日帰りツアー', group: '少人数グループ日帰りツアー', multi: '周遊ツアー',
@@ -37,6 +39,7 @@ const COPY = {
     from: '', perPerson: '1名様あたり', basis: '2名1室利用時の1名様料金・4つ星／5つ星ホテル',
     check: 'この日付で確認', customise: 'カスタマイズ', view: '詳細を見る',
     concierge: 'まだ迷っていますか？コンシェルジュに相談する →',
+    guide: '日本語ガイド付き',
   },
 } as const;
 
@@ -91,7 +94,10 @@ export function RelatedToursBlock({
                     <Price eur={p.priceFrom} />
                     {locale === 'ja' ? '〜' : ''}
                   </span>
-                  <span className="rt-basis">{isDay ? t.perPerson : t.basis}</span>
+                  <span className="rt-basis">
+                    {isDay ? t.perPerson : t.basis}
+                    {p.guidePriced && t.guide ? `${locale === 'ja' ? '・' : ', '}${t.guide}` : ''}
+                  </span>
                 </p>
               ) : null}
               <div className="rt-actions">

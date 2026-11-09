@@ -39,6 +39,8 @@ export interface PackageDoc {
   durationDays?: number;
   durationLabel?: string;
   priceFrom?: number;
+  /** ES/JA page showing the Spanish/Japanese-speaking-guide price. */
+  guidePriced?: boolean;
   priceTiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }> | null;
   priceNote?: string;
   singleSupplement?: number | null;
@@ -461,7 +463,10 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               {suppValue && (
                 <div className="supp"><span>{ts('pkgSingleSupp')}</span><span>{suppValue}</span></div>
               )}
-              <p className="price-note">{tour.priceNote || ts('priceNoteOnInquiry')}</p>
+              <p className="price-note">
+                {tour.guidePriced && ts('guidePriceNote') ? `${ts('guidePriceNote')} ` : ''}
+                {tour.priceNote || ts('priceNoteOnInquiry')}
+              </p>
               <CurrencyNote note={ts('priceCurrencyNote')} />
               <Link className="rail-cta" href={conciergeHref} rel={conciergeRel}>{ts('pkgPlanThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
               <a className="rail-cta ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>

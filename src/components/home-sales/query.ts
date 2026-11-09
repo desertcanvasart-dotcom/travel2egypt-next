@@ -1,4 +1,5 @@
 import { groq } from 'next-sanity';
+import { guidePriceParam, guidePricedParam } from '@/sanity/lib/guidePrice';
 
 /**
  * One batched read for every product the sales homepage shows, in $locale.
@@ -15,7 +16,8 @@ export const salesHomeQuery = groq`{
     "href": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
     "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value, ""),
     type,
-    priceFrom,
+    "priceFrom": ${guidePriceParam},
+    "guidePriced": ${guidePricedParam},
     durationDays,
     durationHours,
     "included": includedItems[_key==$locale][0].value[0...3],
@@ -34,7 +36,7 @@ export const salesHomeQuery = groq`{
       "slug": slug[_key=="en"][0].value.current,
       "href": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
       "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value, ""),
-      priceFrom,
+      "priceFrom": ${guidePriceParam},
       durationDays
     }
 }`;
@@ -47,6 +49,8 @@ export interface SalesProduct {
   title: string;
   type?: string;
   priceFrom?: number | null;
+  /** ES/JA: the price is the Spanish/Japanese-speaking-guide price. */
+  guidePriced?: boolean | null;
   durationDays?: number | null;
   durationHours?: number | null;
   included?: string[] | null;

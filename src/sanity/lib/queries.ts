@@ -14,6 +14,7 @@ import { pickedToursProjection, pickedToursProjectionParam } from '@/lib/article
 
 import type { Locale } from '@/i18n/routing';
 
+import { guidePrice, guidePriced, guideTierPrice } from './guidePrice';
 import {
   localizedField,
   localizedFieldStrict,
@@ -422,7 +423,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     "groupSize": ${localizedField('groupSize', locale)},
     "effortLevel": ${localizedField('effortLevel', locale)},
     "departsFrom": ${localizedField('departsFrom', locale)},
-    priceFrom,
+    "priceFrom": ${guidePrice(locale)},
+    "guidePriced": ${guidePriced(locale)},
     "timeline": timeline[]{
       "time": ${localizedField('time', locale)},
       "description": ${localizedField('description', locale)}
@@ -442,7 +444,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     "priceTiers": priceTiers[]{
       "name": ${localizedField('name', locale)},
       "sub": ${localizedField('sub', locale)},
-      price,
+      "price": ${guideTierPrice(locale)},
       "unit": ${localizedField('unit', locale)}
     },
     "priceNote": ${localizedField('priceNote', locale)},

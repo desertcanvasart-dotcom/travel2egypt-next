@@ -30,6 +30,8 @@ export interface HomeCopy {
   days: (n: number) => string;
   hours: (n: number) => string;
   priceOnRequest: string;
+  /** Added to price lines when the guide-language price is shown ('' in EN). */
+  guideNote: string;
 
   hero: {
     eyebrow: string;
@@ -129,6 +131,7 @@ const EN: HomeCopy = {
   days: (n) => `${n} days`,
   hours: (n) => `${n} hours`,
   priceOnRequest: 'Price on request',
+  guideNote: '',
   hero: {
     eyebrow: 'Licensed Egyptian operator · Guiding since 1993',
     h1: 'Private Egypt tours, planned by the people who guide them.',
@@ -282,6 +285,7 @@ const ES: HomeCopy = {
   days: (n) => `${n} días`,
   hours: (n) => `${n} horas`,
   priceOnRequest: 'Precio a consultar',
+  guideNote: 'con guía de habla hispana',
   hero: {
     eyebrow: 'Operador egipcio con licencia · Guías desde 1993',
     h1: 'Viajes privados por Egipto, planificados por quienes los guían.',
@@ -469,6 +473,7 @@ const JA: HomeCopy = {
   days: (n) => `${n}日間`,
   hours: (n) => `${n}時間`,
   priceOnRequest: '料金はお問い合わせください',
+  guideNote: '日本語ガイド付き',
   hero: {
     eyebrow: 'エジプト観光省認可の現地オペレーター · 1993年からガイド',
     h1: 'エジプトのプライベートツアーを、実際に案内する私たちが計画します。',

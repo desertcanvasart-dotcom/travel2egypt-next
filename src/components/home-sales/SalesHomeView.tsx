@@ -155,7 +155,10 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
                       {p.priceFrom ? (
                         <p className="price">
                           <span className="price-from">{c.from(price(p.priceFrom))}</span>
-                          <span className="price-basis">{c.tours.basis}</span>
+                          <span className="price-basis">
+                            {c.tours.basis}
+                            {p.guidePriced && c.guideNote ? `${locale === 'ja' ? '・' : ', '}${c.guideNote}` : ''}
+                          </span>
                         </p>
                       ) : (
                         <p className="price">
@@ -257,7 +260,10 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
                               </h3>
                               <p className="price">
                                 {p.priceFrom ? (
-                                  <span className="price-from">{c.fromPerPerson(price(p.priceFrom))}</span>
+                                  <>
+                                    <span className="price-from">{c.fromPerPerson(price(p.priceFrom))}</span>
+                                    {p.guidePriced && c.guideNote && <span className="price-basis">{c.guideNote}</span>}
+                                  </>
                                 ) : (
                                   <span className="price-basis">{c.priceOnRequest}</span>
                                 )}

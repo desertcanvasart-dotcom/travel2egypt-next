@@ -1,6 +1,7 @@
 import { groq } from 'next-sanity';
 
 import { client } from '@/sanity/lib/client';
+import { guidePrice, guidePriced, guidePriceParam, guidePricedParam } from '@/sanity/lib/guidePrice';
 
 /**
  * Priced tour blocks inside articles and guides (fix round 3, Task C,
@@ -20,6 +21,8 @@ export interface ArticleTour {
   type?: string | null;
   tourMode?: string | null;
   priceFrom?: number | null;
+  /** ES/JA: the price is the Spanish/Japanese-speaking-guide price. */
+  guidePriced?: boolean | null;
   durationDays?: number | null;
   durationHours?: number | null;
   heroImage?: { asset?: unknown; alt?: string } | null;
@@ -30,7 +33,7 @@ export const articleTourProjection = (locale: string) => `{
   _id,
   "slug": coalesce(slug[_key=="${locale}"][0].value.current, slug[_key=="en"][0].value.current),
   "title": coalesce(title[_key=="${locale}"][0].value, title[_key=="en"][0].value, ""),
-  type, tourMode, priceFrom, durationDays, durationHours,
+  type, tourMode, "priceFrom": ${guidePrice(locale)}, "guidePriced": ${guidePriced(locale)}, durationDays, durationHours,
   heroImage{ ..., "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value, "") }
 }`;
 
@@ -39,7 +42,7 @@ export const articleTourProjectionParam = `{
   _id,
   "slug": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
   "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value, ""),
-  type, tourMode, priceFrom, durationDays, durationHours,
+  type, tourMode, "priceFrom": ${guidePriceParam}, "guidePriced": ${guidePricedParam}, durationDays, durationHours,
   heroImage{ ..., "alt": coalesce(alt[_key==$locale][0].value, alt[_key=="en"][0].value, "") }
 }`;
 
