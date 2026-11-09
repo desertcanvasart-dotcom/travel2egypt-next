@@ -14,7 +14,7 @@
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
-import { LEGAL_NAME } from './company';
+import { FACEBOOK_URL, INSTAGRAM_URL, LEGAL_NAME, TRIPADVISOR_URL } from './company';
 import { type Accreditations } from './accreditations';
 import { siteUrlBase } from './path-from-doc';
 
@@ -126,18 +126,21 @@ function licenceIdentity(a: Accreditations) {
 export function buildOrganizationSchema(input: OrganizationInput) {
   // Logo and image are kept distinct: logo for Knowledge Panel
   // identity, image for the share-card / generic visual fallback.
-  const logoUrl = imageUrlOrUndefined(input.logo, 600, 600);
-  const imageUrl = imageUrlOrUndefined(input.defaultOgImage, 1200, 630);
+  // Fallbacks (Ahrefs audit, 2026-11-09): siteSettings has no logo or
+  // default share image, so use the site's own /logo.png (202×123, above
+  // Google's 112px minimum) and /og-default.png (1200×630).
+  const logoUrl = imageUrlOrUndefined(input.logo, 600, 600) ?? `${SITE_URL}/logo.png`;
+  const imageUrl = imageUrlOrUndefined(input.defaultOgImage, 1200, 630) ?? `${SITE_URL}/og-default.png`;
 
   // sameAs — every public profile URL the operator wants Google and
   // AI engines to associate with this Organization.
   const sameAs = [
-    input.socialLinks?.facebook,
-    input.socialLinks?.instagram,
+    input.socialLinks?.facebook ?? FACEBOOK_URL,
+    input.socialLinks?.instagram ?? INSTAGRAM_URL,
     input.socialLinks?.youtube,
     input.socialLinks?.linkedin,
     input.socialLinks?.twitter,
-    input.socialLinks?.tripadvisor,
+    input.socialLinks?.tripadvisor ?? TRIPADVISOR_URL,
   ].filter((u): u is string => Boolean(u));
 
   // contactPoint replaces the previous flat email/telephone — the
@@ -182,7 +185,8 @@ export function buildOrganizationSchema(input: OrganizationInput) {
     slogan: input.tagline,
     url: SITE_URL,
     legalName: LEGAL_NAME,
-    foundingDate: '1993',
+    // Licensed operator since 2003 (owner, 2026-11-09); guiding since 1993 is the founder's story.
+    foundingDate: '2003',
     ...(logoUrl
       ? {
           logo: {
@@ -192,6 +196,10 @@ export function buildOrganizationSchema(input: OrganizationInput) {
         }
       : {}),
     ...(imageUrl ? { image: imageUrl } : {}),
+    // Flat telephone + email as well as contactPoint: TravelAgency is a
+    // LocalBusiness, whose recommended properties include both.
+    ...(phoneOrWhatsapp ? { telephone: phoneOrWhatsapp } : {}),
+    ...(input.contact?.email ? { email: input.contact.email } : {}),
     address,
     ...(contactPoint ? { contactPoint } : {}),
     ...(sameAs.length > 0 ? { sameAs } : {}),
