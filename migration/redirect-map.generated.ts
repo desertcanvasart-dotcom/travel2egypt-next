@@ -204,22 +204,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/guide/hurghada/royal-seascope-submarine-hurghada",
-    "destination": "/royal-sea-scope",
+    "destination": "/royal-seascope-submarine-hurghada",
     "permanent": true
   },
   {
     "source": "/es/guide/hurghada/submarino-hurghada-royal-seascope",
-    "destination": "/es/royal-sea-scope-tour-en-semisubmarino-por-el-mar-rojo-desde-sharm-el-sheij",
+    "destination": "/es/semisubmarino-royal-seascope-en-hurgada-bajo-el-mar-rojo",
     "permanent": true
   },
   {
     "source": "/ja/guide/hurghada/furugada-roiyarushisukopu-sensui-kan",
-    "destination": "/ja/roiyaru-shisu-kopu-sharumuerusheiku-hatsu-kokai-no-han",
-    "permanent": true
-  },
-  {
-    "source": "/royal-seascope-submarine-hurghada",
-    "destination": "/royal-sea-scope",
+    "destination": "/ja/furugada-no-roiyaru-shisu-kopu-han-sensui-tei-kokai-no",
     "permanent": true
   },
   {
@@ -14863,6 +14858,16 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/es/travel-tips/telefonos-en-egipto",
+    "destination": "/es/travel-tips/staying-connected-in-egypt-sim-esim-wifi-y-llamadas",
+    "permanent": true
+  },
+  {
+    "source": "/ja/travel-tips/ejiputo-de-no-denwa-riyo-nitsuite",
+    "destination": "/ja/travel-tips/ejiputo-no-tsushin-wi-fi-denwa-kanzen-gaido",
+    "permanent": true
+  },
+  {
     "source": "/travel-tips/wifi-in-egypt",
     "destination": "/travel-tips/staying-connected-in-egypt",
     "permanent": true
@@ -15024,6 +15029,16 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/guide/siwa-oasis/ghaliet-ecolodge-siwa",
+    "destination": "/ja/hotels/garietoekorojji-shiwa",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/siwa/ecolodge-ghaliet-siwa",
+    "destination": "/es/hotels/ghaliet-siwa-ecolodge",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/shiwa-oashisu/garietto-shiwa-eko-rojji",
     "destination": "/ja/hotels/garietoekorojji-shiwa",
     "permanent": true
   },
@@ -16874,7 +16889,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/ガリエット-シワ-エコロッジ",
-    "destination": "/ja/guide/shiwa-oashisu/garietto-shiwa-eko-rojji",
+    "destination": "/ja/hotels/garietoekorojji-shiwa",
     "permanent": true
   },
   {
@@ -21589,7 +21604,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/ecolodge-ghaliet-siwa",
-    "destination": "/es/guide/siwa/ecolodge-ghaliet-siwa",
+    "destination": "/es/hotels/ghaliet-siwa-ecolodge",
     "permanent": true
   },
   {
