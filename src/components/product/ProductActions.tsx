@@ -128,7 +128,7 @@ export function InlineDateCheck({
       <div className="pdp-inline-form">
         <LeadForm source="product_panel" locale={locale} tone="light" prefill={{ ...prefill, kind: 'day_tour' }} />
       </div>
-      <ProductLeadButton location="product_panel" prefill={{ ...prefill, kind: 'day_tour' }} className="pdp-btn pdp-btn--primary pdp-mobile-only">
+      <ProductLeadButton location="product_panel" prefill={{ ...prefill, kind: 'day_tour' }} className="pdp-btn pdp-btn--primary pdp-mobile-only pdp-primary">
         {buttonLabel}
       </ProductLeadButton>
     </>

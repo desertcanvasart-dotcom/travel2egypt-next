@@ -208,6 +208,10 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           </ol>
         </nav>
 
+        <figure className="feature pdp-hero">
+          <JourneyImage image={tour.heroImage} alt="" sizes="100vw" widthHint={2400} priority />
+        </figure>
+
         <div className="pdp">
           <header className="head pdp-head">
             <span className="t2e-kicker">{trackKicker}{cityName ? ` · ${cityName}` : ''}</span>
@@ -228,10 +232,6 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           </div>
 
           <div className="pdp-main">
-            <figure className="feature">
-              <JourneyImage image={tour.heroImage} alt="" sizes="(max-width:1024px) 100vw, 740px" widthHint={1480} ratio={2} priority />
-            </figure>
-
             <ProductFactsBlock locale={locale} included={included} excluded={notIncluded} />
 
             <article className="body">

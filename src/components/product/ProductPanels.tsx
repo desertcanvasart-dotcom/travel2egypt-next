@@ -45,11 +45,11 @@ export function conciergeAvailable(locale: Locale): boolean {
   return isChatEnabled() && (locale === 'en' || locale === 'es');
 }
 
-function Facts({ facts }: { facts: PanelFact[] }) {
+function Facts({ facts, className = '' }: { facts: PanelFact[]; className?: string }) {
   const rows = facts.filter((f) => f.value !== null && f.value !== undefined && f.value !== '');
   if (rows.length === 0) return null;
   return (
-    <dl className="pdp-facts">
+    <dl className={`pdp-facts ${className}`.trim()}>
       {rows.map((f) => (
         <div key={f.label}>
           <dt>{f.label}</dt>
@@ -95,15 +95,12 @@ export async function MultiDayPanel({
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const ts = await getTranslations({ locale, namespace: 'tourSystem' });
   const rt = await responseShort(locale);
-  const fromLabel = t('from');
-  const rows: PanelFact[] = [
-    ...facts,
-    { label: fromLabel, value: <FromRow fromEur={fromEur} basis={t('basisPerPerson')} onRequest={t('priceOnRequest')} /> },
-  ];
   const prefill = { kind: 'trip' as const, tourSlug: slug, tourTitle: title, durationDays };
   return (
     <aside id="pdp-panel" className="pdp-panel" aria-label={t('panelLabel')}>
-      <Facts facts={rows} />
+      <Facts facts={facts} className="pdp-facts--details" />
+      <div className="pdp-price">
+      <Facts facts={[{ label: t('from'), value: <FromRow fromEur={fromEur} basis={t('basisPerPerson')} onRequest={t('priceOnRequest')} /> }]} />
       {tiers && tiers.length > 0 && (
         <ul className="pdp-tiers">
           {tiers.map((tier, i) => (
@@ -121,7 +118,8 @@ export async function MultiDayPanel({
         </ul>
       )}
       {fromEur ? <CurrencyNote note={ts('priceCurrencyNote')} /> : null}
-      {extra}
+      </div>
+      {extra && <div className="pdp-extra">{extra}</div>}
       <div className="pdp-actions">
         <ProductLeadButton location="product_panel" prefill={prefill} className="pdp-btn pdp-btn--primary">
           {t('ctaCustomise')}
@@ -157,13 +155,11 @@ export async function DayTourPanel({
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const ts = await getTranslations({ locale, namespace: 'tourSystem' });
   const rt = await responseShort(locale);
-  const rows: PanelFact[] = [
-    ...facts,
-    { label: t('from'), value: <FromRow fromEur={fromEur} basis={t('basisDay')} onRequest={t('priceOnRequest')} /> },
-  ];
   return (
     <aside id="pdp-panel" className="pdp-panel pdp-panel--day" aria-label={t('panelLabel')}>
-      <Facts facts={rows} />
+      <Facts facts={facts} className="pdp-facts--details" />
+      <div className="pdp-price">
+      <Facts facts={[{ label: t('from'), value: <FromRow fromEur={fromEur} basis={t('basisDay')} onRequest={t('priceOnRequest')} /> }]} />
       {tiers && tiers.length > 0 && (
         <ul className="pdp-tiers">
           {tiers.map((tier, i) => (
@@ -180,7 +176,8 @@ export async function DayTourPanel({
           ))}
         </ul>
       )}
-      {fromEur ? <CurrencyNote note={ts('priceCurrencyNote')} /> : null}
+      </div>
+      {fromEur ? <div className="pdp-ccy"><CurrencyNote note={ts('priceCurrencyNote')} /></div> : null}
       <InlineDateCheck
         locale={locale}
         prefill={{ tourSlug: slug, tourTitle: title, priceFromEur: fromEur }}
