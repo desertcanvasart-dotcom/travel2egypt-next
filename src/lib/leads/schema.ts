@@ -18,6 +18,9 @@ export const LEAD_SOURCES = [
   'quick_finder',
   'nile_cruises',
   'plan_page',
+  'product_panel',
+  'product_mid',
+  'product_end',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];
 

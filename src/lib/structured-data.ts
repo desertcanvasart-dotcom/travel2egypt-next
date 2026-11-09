@@ -43,7 +43,7 @@ function imageUrlOrUndefined(
   return urlFor(img).width(width).height(height).quality(85).url();
 }
 
-function absoluteUrl(path: string, locale: Locale): string {
+export function absoluteUrl(path: string, locale: Locale): string {
   // getPathname applies the locale prefix (as-needed) AND localized pathnames
   // (the journey leaves in routing.ts), aligning JSON-LD URLs with the
   // canonical tag and sitemap, which already build through getPathname.
@@ -395,6 +395,17 @@ export interface TouristTripInput {
   durationLabel?: string;
   /** Per-person base price in EUR. Honest absence: when null, no `offers` is emitted. */
   basePrice?: number;
+  /**
+   * Product template (2026-11-09): the offer exactly as the page displays it
+   * (price in the page's currency). When given it is THE offer; when absent
+   * there is no price and no `offers` is emitted. Built by lib/productOffer.
+   */
+  offer?: {
+    price: number;
+    priceCurrency: string;
+    url: string;
+    validFrom?: string;
+  } | null;
   /** Percent applied to basePrice on peak-flagged departures (group packages). */
   peakUpliftPct?: number;
   /** Max scheduled-departure group size (group packages). */
@@ -447,7 +458,21 @@ export function buildTouristTripSchema(
         ? 'GroupDayTour'
         : 'PrivateDayTour';
 
-  const offers = buildTouristTripOffers(input);
+  // Product template pages pass `offer` (displayed price + currency); other
+  // callers keep the older group-only basePrice logic.
+  const offers =
+    'offer' in input
+      ? input.offer
+        ? {
+            '@type': 'Offer',
+            price: input.offer.price,
+            priceCurrency: input.offer.priceCurrency,
+            url: input.offer.url,
+            availability: 'https://schema.org/InStock',
+            ...(input.offer.validFrom ? { validFrom: input.offer.validFrom } : {}),
+          }
+        : null
+      : buildTouristTripOffers(input);
 
   return {
     '@context': 'https://schema.org',
@@ -480,19 +505,27 @@ export function buildTouristTripSchema(
           },
         }
       : {}),
-    ...(input.cities && input.cities.length > 0
+    // Route as an ItemList of Places, only when the route has data.
+    ...(input.cities && input.cities.filter((c) => c.name).length > 0
       ? {
-          itinerary: input.cities
-            .filter((c) => c.name)
-            .map((c) => ({
-              '@type': 'Place',
-              name: c.name,
-              address: {
-                '@type': 'PostalAddress',
-                addressCountry: 'EG',
-                addressLocality: c.name,
-              },
-            })),
+          itinerary: {
+            '@type': 'ItemList',
+            itemListElement: input.cities
+              .filter((c) => c.name)
+              .map((c, i) => ({
+                '@type': 'ListItem',
+                position: i + 1,
+                item: {
+                  '@type': 'Place',
+                  name: c.name,
+                  address: {
+                    '@type': 'PostalAddress',
+                    addressCountry: 'EG',
+                    addressLocality: c.name,
+                  },
+                },
+              })),
+          },
         }
       : {}),
     ...(offers ? { offers } : {}),

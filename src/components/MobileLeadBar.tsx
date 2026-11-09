@@ -35,7 +35,8 @@ export function MobileLeadBar() {
   const isPlan = pathname === '/plan-your-tour';
   // The inline form the bar must not cover: the homepage's #itinerary, the
   // plan page's #plan-form.
-  const inlineFormId = isHome ? 'itinerary' : isPlan ? 'plan-form' : null;
+  // …and on product pages, the decision panel (which holds the same actions).
+  const inlineFormId = isHome ? 'itinerary' : isPlan ? 'plan-form' : product ? 'pdp-panel' : null;
   const eligible = isHome || isPlan || product !== null;
 
   // Hide while the homepage's inline form (#itinerary) is on screen. A plain

@@ -393,20 +393,36 @@ export const tourSchema = defineType({
         },
       ],
     }),
-    defineField(
-      localizedPortableTextField('inclusions', {
-        title: 'Inclusions',
-        description: "What's included in the tour.",
-        group: 'itinerary',
-      }) as any
-    ),
-    defineField(
-      localizedPortableTextField('exclusions', {
-        title: 'Exclusions',
-        description: "What's not included.",
-        group: 'itinerary',
-      }) as any
-    ),
+    // Product page template (2026-11-09): Included / Not included and the
+    // "Itinerary at a glance", extracted from each product's own text. Every
+    // item carries its language, the exact source sentence it came from and a
+    // review flag; the site renders ONLY items the owner approved
+    // (needsReview = false). These replace the old rich-text inclusions /
+    // exclusions fields, which no tour ever used.
+    defineField({
+      name: 'inclusions',
+      title: 'Included (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'One row per item and language. Shown only when "Needs review" is off.',
+      of: [{ type: 'productFact' }],
+    }),
+    defineField({
+      name: 'exclusions',
+      title: 'Not included (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'One row per item and language. Shown only when "Needs review" is off.',
+      of: [{ type: 'productFact' }],
+    }),
+    defineField({
+      name: 'itineraryDays',
+      title: 'Itinerary at a glance (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'One row per day and language. Shown only when every day of the product is approved.',
+      of: [{ type: 'itineraryDay' }],
+    }),
     defineField(
       localizedPortableTextField('itinerary', {
         title: 'Legacy itinerary (deprecated)',
