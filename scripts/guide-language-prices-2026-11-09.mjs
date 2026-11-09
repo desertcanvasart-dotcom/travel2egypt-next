@@ -4,8 +4,8 @@
  * Rule: a Spanish-speaking guide costs $25 more per group per guided day, a
  * Japanese-speaking guide $40 more. Prices on the site are per person with two
  * sharing, so each person's share is half: $12.50 (ES) / $20 (JA) per guided
- * day. Prices are stored in EUR; the site shows USD at EUR × 1.08, so the
- * supplement is converted at the same rate.
+ * day. Prices are stored in EUR; the supplement is converted from USD at the
+ * day's ECB rate (the rate the site displays with).
  *
  * Guided days: day tour = 1; package = length − arrival − departure
  * (minimum 1; 2-day packages count both days). Every figure is reviewed by the
@@ -22,8 +22,14 @@ import { createClient } from '@sanity/client';
 
 const c = createClient({ projectId: 'ufallvd2', dataset: 'production', apiVersion: '2024-01-01', useCdn: false, token: process.env.SANITY_PRODUCTION_API_WRITE_TOKEN });
 
-const USD_PER_EUR = 1.08; // same as src/lib/currency.ts (USD rate)
-const JPY_PER_EUR = 170; //  same as src/lib/currency.ts (JPY rate)
+// Today's ECB reference rates (the site's live rates), falling back to the
+// old fixed rates if the feed can't be reached.
+const fx = await fetch('https://api.frankfurter.dev/v1/latest?base=EUR&symbols=USD,JPY')
+  .then((r) => (r.ok ? r.json() : null))
+  .catch(() => null);
+const USD_PER_EUR = fx?.rates?.USD ?? 1.08;
+const JPY_PER_EUR = fx?.rates?.JPY ?? 170;
+console.log(`rates: ${fx ? `ECB ${fx.date}` : 'fallback'}: EUR 1 = USD ${USD_PER_EUR}, JPY ${JPY_PER_EUR}`);
 const PER_GROUP_DAY_USD = { es: 25, ja: 40 };
 const SHARING = 2;
 const perPersonDayEur = (l) => PER_GROUP_DAY_USD[l] / SHARING / USD_PER_EUR;
