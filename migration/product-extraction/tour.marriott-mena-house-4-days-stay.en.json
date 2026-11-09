@@ -1,0 +1,61 @@
+{
+  "slug": "marriott-mena-house-4-days-stay",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Three nights at the Marriott Mena House, Giza",
+        "source": "- Where · Cairo — three nights at the Marriott Mena House, Giza; day trip to Alexandria; Cairo Citadel and Khan el-Khalili"
+      },
+      {
+        "text": "Meet at Cairo International and transfer to the Mena House",
+        "source": "You are met at Cairo International and transferred directly to the Mena House."
+      },
+      {
+        "text": "An Egyptologist for the Cairo and Alexandria touring days",
+        "source": "The stay is private throughout: an Egyptologist for the Cairo and Alexandria touring days, private air-conditioned transfers, entrances included on the programme."
+      },
+      {
+        "text": "Private air-conditioned transfers",
+        "source": "The stay is private throughout: an Egyptologist for the Cairo and Alexandria touring days, private air-conditioned transfers, entrances included on the programme."
+      },
+      {
+        "text": "Entrances included on the programme",
+        "source": "The stay is private throughout: an Egyptologist for the Cairo and Alexandria touring days, private air-conditioned transfers, entrances included on the programme."
+      },
+      {
+        "text": "Transfer to Cairo International on departure",
+        "source": "The departure morning belongs to the hotel: late breakfast on the terrace, a final walk to the plateau base in the morning light — the Pyramids at their best, before the day's heat builds — and an unhurried transfer to Cairo International."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and transfer to the Mena House",
+        "overnight": "Marriott Mena House",
+        "source": "Check-in, the grounds, the view from your room — that is the programme on the first day, and it is sufficient."
+      },
+      {
+        "day": 2,
+        "title": "Giza, the Egyptian Museum and the Citadel",
+        "overnight": "Marriott Mena House",
+        "source": "A second day turns to the monuments on the doorstep."
+      },
+      {
+        "day": 3,
+        "title": "Alexandria: the Mediterranean day",
+        "overnight": "Marriott Mena House",
+        "source": "A third day leaves Cairo entirely and goes north."
+      },
+      {
+        "day": 4,
+        "title": "Departure morning and transfer to Cairo International",
+        "overnight": null,
+        "source": "The departure morning belongs to the hotel: late breakfast on the terrace, a final walk to the plateau base in the morning light — the Pyramids at their best, before the day's heat builds — and an unhurried transfer to Cairo International."
+      }
+    ],
+    "dropped": 0
+  }
+}

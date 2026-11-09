@@ -1,0 +1,41 @@
+{
+  "slug": "aswan-private-car-and-guide",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private, air-conditioned car",
+        "source": "This is a private hire, operated for your party alone — a private, air-conditioned car, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person, with the day built around the sites you choose."
+      },
+      {
+        "text": "Licensed, English-speaking Egyptologist guide",
+        "source": "This is a private hire, operated for your party alone — a private, air-conditioned car, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person, with the day built around the sites you choose."
+      },
+      {
+        "text": "One bottle of mineral water per person",
+        "source": "This is a private hire, operated for your party alone — a private, air-conditioned car, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person, with the day built around the sites you choose."
+      },
+      {
+        "text": "Short motor boat crossing to Philae",
+        "source": "This requires a short motor boat crossing, which is included in the tour."
+      },
+      {
+        "text": "Pick-up anywhere within Aswan city",
+        "source": "The tour operates from a pick-up point anywhere within Aswan city — hotel lobby, Nile-side corniche, wherever you are staying — and is not available as an airport transfer service."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Site entrance fees are paid separately",
+        "source": "Site entrance fees are paid separately, since the day's sites are yours to choose (see the practical note below)."
+      },
+      {
+        "text": "Not available as an airport transfer service",
+        "source": "The tour operates from a pick-up point anywhere within Aswan city — hotel lobby, Nile-side corniche, wherever you are staying — and is not available as an airport transfer service."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

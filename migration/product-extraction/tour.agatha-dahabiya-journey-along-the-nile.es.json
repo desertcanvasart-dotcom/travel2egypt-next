@@ -1,0 +1,34 @@
+{
+  "slug": "agatha-dahabiya-journey-along-the-nile",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Un egiptólogo titulado acompaña cada visita",
+        "source": "Un egiptólogo titulado acompaña cada visita; los traslados en tierra se hacen en vehículos privados."
+      },
+      {
+        "text": "Traslados en tierra en vehículos privados",
+        "source": "Un egiptólogo titulado acompaña cada visita; los traslados en tierra se hacen en vehículos privados."
+      },
+      {
+        "text": "Una noche en hotel de Luxor",
+        "source": "Duración · ≈7 días / 6 noches (una en hotel de Luxor, seis a bordo de la Agatha)"
+      },
+      {
+        "text": "Seis noches a bordo de la Agatha",
+        "source": "Duración · ≈7 días / 6 noches (una en hotel de Luxor, seis a bordo de la Agatha)"
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Los monumentos de Asuán no figuran dentro del programa estándar de la Agatha",
+        "source": "Asuán es el siguiente capítulo natural, aunque los monumentos de la ciudad no figuran dentro del programa estándar de la Agatha y se organizan con su guía el mismo día de la llegada."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

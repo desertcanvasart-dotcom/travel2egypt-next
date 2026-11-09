@@ -1,0 +1,54 @@
+{
+  "slug": "02-day-luxor-tour-by-plane-from-cairo",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Return domestic flights included",
+        "source": "Duration · 2 days / 1 night, return domestic flights included"
+      },
+      {
+        "text": "Accommodation at the Karnak Luxor Hotel",
+        "source": "Accommodation is at the Karnak Luxor Hotel, a functional, well-located property close to the East Bank sites — rested and close to the monuments, which is the brief."
+      },
+      {
+        "text": "Fully private · own licensed Egyptologist · air-conditioned vehicle in Luxor · hotel night at the Karnak Luxor Hotel",
+        "source": "Character · Fully private · own licensed Egyptologist · air-conditioned vehicle in Luxor · early morning flight south · hotel night at the Karnak Luxor Hotel close to the East Bank"
+      },
+      {
+        "text": "Morning pickup from your hotel",
+        "source": "You depart Cairo early — expect a morning pickup from your hotel ahead of a domestic flight south."
+      },
+      {
+        "text": "Guide and vehicle meet you on arrival",
+        "source": "A guide and vehicle meet you on arrival and move directly to the first site."
+      },
+      {
+        "text": "Guide transfers you to the Karnak Luxor Hotel",
+        "source": "After the temples, the guide transfers you to the Karnak Luxor Hotel to check in."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Some tombs (notably KV62) carry separate tickets",
+        "source": "The second-day West Bank programme varies by operator — the Valley of the Kings, Hatshepsut's temple, and the Colossi of Memnon are the most common combination, with some tombs (notably KV62) carrying separate tickets."
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Fly to Luxor: Karnak and Luxor Temple",
+        "overnight": "Karnak Luxor Hotel",
+        "source": "After the temples, the guide transfers you to the Karnak Luxor Hotel to check in."
+      },
+      {
+        "day": 2,
+        "title": "West Bank and flight back to Cairo",
+        "overnight": null,
+        "source": "Return to the airport for your flight back to Cairo follows in the afternoon or early evening, depending on scheduling."
+      }
+    ],
+    "dropped": 0
+  }
+}

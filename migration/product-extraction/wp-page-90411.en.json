@@ -1,0 +1,79 @@
+{
+  "slug": "5-day-river-cruise-from-luxor",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "4 nights aboard a five-star Nile cruise vessel",
+        "source": "Duration · 5 days / 4 nights aboard a five-star Nile cruise vessel"
+      },
+      {
+        "text": "Private cabin on a five-star Nile cruise ship",
+        "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a five-star Nile cruise ship."
+      },
+      {
+        "text": "Your own Egyptologist",
+        "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a five-star Nile cruise ship."
+      },
+      {
+        "text": "Met at Luxor International Airport and transferred to the cruiser",
+        "source": "You are met at Luxor International Airport and transferred to your five-star Nile cruiser."
+      },
+      {
+        "text": "Lunch served on board",
+        "source": "Lunch is served on board, and the afternoon begins at Karnak — not a single temple but a succession of temples, chapels, pylons, and courts built and enlarged by pharaoh after pharaoh across roughly 1,500 years."
+      },
+      {
+        "text": "Horse-drawn carriage to Luxor Temple",
+        "source": "You arrive by horse-drawn carriage and visit after dark, when the floodlit columns stand clean against the sky."
+      },
+      {
+        "text": "Felucca sail around Kitchener's Island",
+        "source": "The day ends with a felucca sail around Kitchener's Island, the botanical garden established by Lord Kitchener in the 1890s."
+      },
+      {
+        "text": "Motorboat to Agilkia Island (Philae)",
+        "source": "The morning begins at the Philae Temple complex, dedicated to the goddess Isis and reached by motorboat to Agilkia Island."
+      },
+      {
+        "text": "Final breakfast and transfer to Aswan International Airport",
+        "source": "After a final breakfast on the Nile, you are transferred to Aswan International Airport."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Luxor East Bank: Karnak and Luxor Temple",
+        "overnight": "Nile cruise",
+        "source": "You are met at Luxor International Airport and transferred to your five-star Nile cruiser."
+      },
+      {
+        "day": 2,
+        "title": "The Theban West Bank",
+        "overnight": "Nile cruise",
+        "source": "From the Valley, the day continues to the Mortuary Temple of Hatshepsut at Deir el-Bahari."
+      },
+      {
+        "day": 3,
+        "title": "Edfu and Kom Ombo: the river days",
+        "overnight": "Nile cruise",
+        "source": "Day three is a travelling day — two of the Nile's finest temples with the river between them."
+      },
+      {
+        "day": 4,
+        "title": "Aswan: Philae, the dam, the Unfinished Obelisk",
+        "overnight": "Nile cruise",
+        "source": "The morning begins at the Philae Temple complex, dedicated to the goddess Isis and reached by motorboat to Agilkia Island."
+      },
+      {
+        "day": 5,
+        "title": "Departure from Aswan",
+        "overnight": null,
+        "source": "After a final breakfast on the Nile, you are transferred to Aswan International Airport."
+      }
+    ],
+    "dropped": 0
+  }
+}

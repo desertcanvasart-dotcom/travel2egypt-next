@@ -1,0 +1,33 @@
+{
+  "slug": "pyramids-of-giza-and-sphinx",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Guía privado",
+        "source": "Con guía privado y vehículo propio, el ritmo lo marcas tú."
+      },
+      {
+        "text": "Vehículo propio",
+        "source": "Con guía privado y vehículo propio, el ritmo lo marcas tú."
+      },
+      {
+        "text": "Transporte de vuelta a El Cairo",
+        "source": "Mientras te transportamos de vuelta a El Cairo, reflexiona sobre los profundos misterios y la grandeza arquitectónica que has presenciado."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "El Gran Museo Egipcio no está incluido en este itinerario",
+        "source": "El Gran Museo Egipcio, que abrió completamente el 1 de noviembre de 2025 en el borde de la meseta, no está incluido en este itinerario pero es visible desde el sitio."
+      },
+      {
+        "text": "Entrada aparte al Gran Museo Egipcio",
+        "source": "Si deseas añadirlo, conviene comentarlo con el guía antes de partir; requiere entrada aparte y, de manera realista, dos a tres horas adicionales."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

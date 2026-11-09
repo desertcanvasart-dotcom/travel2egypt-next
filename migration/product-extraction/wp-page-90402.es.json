@@ -1,0 +1,65 @@
+{
+  "slug": "4-days-cruise-from-aswan-to-luxor",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "3 noches a bordo de un crucero de cinco estrellas por el Nilo",
+        "source": "Duración · 4 días / 3 noches a bordo de un crucero de cinco estrellas por el Nilo, ajustable como viaje privado"
+      },
+      {
+        "text": "El barco funciona como hotel durante todo el trayecto",
+        "source": "El barco es un crucero estándar de cinco estrellas y funciona como hotel durante todo el trayecto; el egiptólogo viaja con el grupo y los traslados son privados."
+      },
+      {
+        "text": "Egiptólogo que viaja con el grupo",
+        "source": "El barco es un crucero estándar de cinco estrellas y funciona como hotel durante todo el trayecto; el egiptólogo viaja con el grupo y los traslados son privados."
+      },
+      {
+        "text": "Traslados privados",
+        "source": "El barco es un crucero estándar de cinco estrellas y funciona como hotel durante todo el trayecto; el egiptólogo viaja con el grupo y los traslados son privados."
+      },
+      {
+        "text": "Guía privado",
+        "source": "Un crucero breve, con guía privado, que recorre la ruta turística más antigua de Egipto al ritmo que su densidad permite."
+      },
+      {
+        "text": "Paseo en faluca alrededor de la isla Kitchener",
+        "source": "Se embarca a tiempo del almuerzo, y un paseo en faluca alrededor de la isla Kitchener cierra el día antes de zarpar hacia Kom Ombo."
+      },
+      {
+        "text": "Traslado al aeropuerto internacional de Luxor",
+        "source": "El traslado al aeropuerto internacional de Luxor cierra el crucero."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Asuán: presa Alta, obelisco inacabado, File",
+        "overnight": "Crucero por el Nilo",
+        "source": "Se embarca a tiempo del almuerzo, y un paseo en faluca alrededor de la isla Kitchener cierra el día antes de zarpar hacia Kom Ombo."
+      },
+      {
+        "day": 2,
+        "title": "Los días de río: Kom Ombo y Edfu",
+        "overnight": "Crucero por el Nilo",
+        "source": "El crucero continúa rumbo norte hacia Luxor durante la noche."
+      },
+      {
+        "day": 3,
+        "title": "Luxor, orilla oriental: Karnak y templo de Luxor",
+        "overnight": "A bordo, atracados en Luxor",
+        "source": "La velada transcurre a bordo, atracados en Luxor."
+      },
+      {
+        "day": 4,
+        "title": "Luxor, orilla occidental, y salida",
+        "overnight": null,
+        "source": "El último día cruza a la orilla occidental —la tierra de los muertos, donde los faraones del Reino Nuevo fueron sepultados en los acantilados del desierto."
+      }
+    ],
+    "dropped": 0
+  }
+}

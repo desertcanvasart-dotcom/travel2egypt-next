@@ -1,0 +1,109 @@
+{
+  "slug": "10-day-egypt-travel-journey-through-history",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Your own Egyptologist guide",
+        "source": "One private departure, operated for your party alone, with your own Egyptologist guide and private transfers throughout."
+      },
+      {
+        "text": "Private transfers throughout",
+        "source": "One private departure, operated for your party alone, with your own Egyptologist guide and private transfers throughout."
+      },
+      {
+        "text": "Airport transfer and hotel check-in on arrival",
+        "source": "Airport transfer, hotel check-in, and a gentle introduction to Cairo's atmosphere — the city is loud, layered, and not best met after a long flight."
+      },
+      {
+        "text": "Domestic flight Cairo–Aswan",
+        "source": "Character · Fully private · your own Egyptologist · domestic flight Cairo–Aswan · road journeys Aswan–Abu Simbel and Aswan–Luxor · sleeper train Luxor–Cairo · sunrise hot air balloon over Luxor's West Bank · 5-star accommodation throughout"
+      },
+      {
+        "text": "Road journeys Aswan–Abu Simbel and Aswan–Luxor",
+        "source": "Character · Fully private · your own Egyptologist · domestic flight Cairo–Aswan · road journeys Aswan–Abu Simbel and Aswan–Luxor · sleeper train Luxor–Cairo · sunrise hot air balloon over Luxor's West Bank · 5-star accommodation throughout"
+      },
+      {
+        "text": "Sleeper train Luxor–Cairo, private cabin with two berths, dinner and breakfast on board",
+        "source": "In the evening, the transfer is to Luxor railway station for the sleeper train back to Cairo — a private cabin with two berths, dinner and breakfast served on board, the Nile valley moving past the window through the night."
+      },
+      {
+        "text": "Sunrise hot air balloon over Luxor's West Bank",
+        "source": "Character · Fully private · your own Egyptologist · domestic flight Cairo–Aswan · road journeys Aswan–Abu Simbel and Aswan–Luxor · sleeper train Luxor–Cairo · sunrise hot air balloon over Luxor's West Bank · 5-star accommodation throughout"
+      },
+      {
+        "text": "5-star accommodation throughout",
+        "source": "Character · Fully private · your own Egyptologist · domestic flight Cairo–Aswan · road journeys Aswan–Abu Simbel and Aswan–Luxor · sleeper train Luxor–Cairo · sunrise hot air balloon over Luxor's West Bank · 5-star accommodation throughout"
+      },
+      {
+        "text": "Airport transfer for the departure flight",
+        "source": "The final day, day ten, is the airport transfer for the departure flight."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cairo",
+        "overnight": "Cairo",
+        "source": "Day one is given to arrival."
+      },
+      {
+        "day": 2,
+        "title": "Memphis, Saqqara, Coptic quarter, Citadel",
+        "overnight": "Cairo",
+        "source": "The second day reaches south of the city to where pyramid-building began."
+      },
+      {
+        "day": 3,
+        "title": "Desert highway north to Alexandria",
+        "overnight": "Cairo",
+        "source": "You return to Cairo in the evening."
+      },
+      {
+        "day": 4,
+        "title": "Morning flight to Aswan",
+        "overnight": "Aswan",
+        "source": "A morning flight on day four carries you to Aswan — the southernmost major city of Egypt, with golden light, granite outcrops, Nubian culture, and a calm Nile after the urgency of Cairo."
+      },
+      {
+        "day": 5,
+        "title": "The road to Abu Simbel",
+        "overnight": "Aswan",
+        "source": "After the visit, the drive returns to Aswan for a restful evening."
+      },
+      {
+        "day": 6,
+        "title": "Travelling day from Aswan to Luxor",
+        "overnight": "Luxor",
+        "source": "Day six is a travelling day."
+      },
+      {
+        "day": 7,
+        "title": "Hot air balloon over the West Bank",
+        "overnight": "Luxor",
+        "source": "The seventh day starts before dawn with a hot air balloon over the West Bank."
+      },
+      {
+        "day": 8,
+        "title": "East Bank and sleeper train",
+        "overnight": "Sleeper train",
+        "source": "In the evening, the transfer is to Luxor railway station for the sleeper train back to Cairo — a private cabin with two berths, dinner and breakfast served on board, the Nile valley moving past the window through the night."
+      },
+      {
+        "day": 9,
+        "title": "Giza, Egyptian Museum, Khan el-Khalili",
+        "overnight": "Cairo",
+        "source": "The ninth day is the closing chapter, and it is a long, charged one."
+      },
+      {
+        "day": 10,
+        "title": "Airport transfer for departure flight",
+        "overnight": null,
+        "source": "The final day, day ten, is the airport transfer for the departure flight."
+      }
+    ],
+    "dropped": 0
+  }
+}

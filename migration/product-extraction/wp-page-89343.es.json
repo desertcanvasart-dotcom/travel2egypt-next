@@ -1,0 +1,101 @@
+{
+  "slug": "10-days-the-splendid-minya-tour",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Su propio egiptólogo",
+        "source": "El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta."
+      },
+      {
+        "text": "Traslados privados durante toda la ruta",
+        "source": "El viaje es una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta."
+      },
+      {
+        "text": "Traslado del aeropuerto al hotel a la llegada",
+        "source": "Llegada al aeropuerto internacional de El Cairo, traslado al hotel, sin programa para la primera tarde."
+      },
+      {
+        "text": "Vuelo interno Luxor–El Cairo",
+        "source": "Carácter · Salida privada · su propio egiptólogo · carretera al sur por el Nilo Medio (sin saltar Cairo–Luxor en avión) · vuelo interno Luxor–El Cairo · faluca en Asuán · noche en Abu Simbel · cena en crucero por el Nilo en El Cairo"
+      },
+      {
+        "text": "Faluca en Asuán",
+        "source": "Carácter · Salida privada · su propio egiptólogo · carretera al sur por el Nilo Medio (sin saltar Cairo–Luxor en avión) · vuelo interno Luxor–El Cairo · faluca en Asuán · noche en Abu Simbel · cena en crucero por el Nilo en El Cairo"
+      },
+      {
+        "text": "Cena en crucero por el Nilo en El Cairo",
+        "source": "Carácter · Salida privada · su propio egiptólogo · carretera al sur por el Nilo Medio (sin saltar Cairo–Luxor en avión) · vuelo interno Luxor–El Cairo · faluca en Asuán · noche en Abu Simbel · cena en crucero por el Nilo en El Cairo"
+      },
+      {
+        "text": "Traslado al aeropuerto el último día",
+        "source": "El traslado al aeropuerto sigue después, con vuelos tardíos modulados para que las últimas horas en Egipto se pasen entre las pirámides y no en el vestíbulo de un hotel."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada al aeropuerto internacional de El Cairo",
+        "overnight": "El Cairo",
+        "source": "Llegada al aeropuerto internacional de El Cairo, traslado al hotel, sin programa para la primera tarde."
+      },
+      {
+        "day": 2,
+        "title": "Meseta de Guiza y ruta a El Minya",
+        "overnight": "El Minya",
+        "source": "Después la ruta deja El Cairo y baja por el valle del Nilo hasta El Minya, la ciudad que los egipcios llaman desde hace tiempo la Novia del Alto Egipto."
+      },
+      {
+        "day": 3,
+        "title": "Beni Hasan y Tell el-Amarna",
+        "overnight": "El Minya",
+        "source": "Se regresa a El Minya para pasar la noche."
+      },
+      {
+        "day": 4,
+        "title": "Asuán, presa Alta y Abu Simbel",
+        "overnight": "Abu Simbel",
+        "source": "El día se cierra con el espectáculo de luz y sonido en los templos; se pasa la noche en el sitio."
+      },
+      {
+        "day": 5,
+        "title": "File y paseo en faluca en Asuán",
+        "overnight": "Asuán",
+        "source": "El quinto día regresa a Asuán propiamente a un ritmo más lento."
+      },
+      {
+        "day": 6,
+        "title": "Kom Ombo, Edfu y llegada a Luxor",
+        "overnight": "Luxor",
+        "source": "Se llega a Luxor por la noche, a tiempo para registrarse antes del tramo más denso del viaje."
+      },
+      {
+        "day": 7,
+        "title": "Orilla occidental y Valle de los Reyes",
+        "overnight": "Luxor",
+        "source": "El séptimo día cruza al país de los muertos."
+      },
+      {
+        "day": 8,
+        "title": "Karnak, templo de Luxor y vuelo a El Cairo",
+        "overnight": "El Cairo",
+        "source": "La tarde-noche trae un vuelo de Luxor de regreso a El Cairo."
+      },
+      {
+        "day": 9,
+        "title": "Gran Museo Egipcio, Ciudadela y Jan el-Jalili",
+        "overnight": "El Cairo",
+        "source": "El segundo día en El Cairo recorre las capas de la ciudad antes que sus estratos antiguos."
+      },
+      {
+        "day": 10,
+        "title": "Menfis, Saqqara, Dahshur y traslado al aeropuerto",
+        "overnight": null,
+        "source": "El traslado al aeropuerto sigue después, con vuelos tardíos modulados para que las últimas horas en Egipto se pasen entre las pirámides y no en el vestíbulo de un hotel."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "private-tour-2-days-1-night-trip-to-saint-catherine-from-cairo",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Régimen privado con un guía beduino para la montaña y un egiptólogo o guía de peregrinación independiente cuando corresponde",
+        "source": "Esta es la versión breve: dos días, en régimen privado, con un guía beduino para la montaña y un egiptólogo o guía de peregrinación independiente cuando corresponde."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "De El Cairo a Santa Catalina",
+        "overnight": "Santa Catalina",
+        "source": "El primer día es la carretera."
+      },
+      {
+        "day": 2,
+        "title": "Ascenso al Monte Sinaí y regreso a El Cairo",
+        "overnight": null,
+        "source": "El descenso de Santa Catalina de vuelta a El Cairo ocupa el resto del día —la misma carretera del Sinaí meridional en sentido inverso, llegada a El Cairo por la tarde-noche."
+      }
+    ],
+    "dropped": 0
+  }
+}

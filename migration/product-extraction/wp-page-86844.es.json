@@ -1,0 +1,73 @@
+{
+  "slug": "8-days-egypt-panorama-tour",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Guía egiptólogo con licencia en español",
+        "source": "Su guía egiptólogo con licencia en español, los traslados privados con aire acondicionado y el agua embotellada van incluidos durante todo el viaje."
+      },
+      {
+        "text": "Traslados privados con aire acondicionado",
+        "source": "Su guía egiptólogo con licencia en español, los traslados privados con aire acondicionado y el agua embotellada van incluidos durante todo el viaje."
+      },
+      {
+        "text": "Agua embotellada",
+        "source": "Su guía egiptólogo con licencia en español, los traslados privados con aire acondicionado y el agua embotellada van incluidos durante todo el viaje."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada a El Cairo, traslado y cena",
+        "overnight": "El Cairo",
+        "source": "La primera tarde es ligera por diseño: traslado desde el aeropuerto internacional, cena, ciudad dejada fuera hasta que la familia esté lista para ella."
+      },
+      {
+        "day": 2,
+        "title": "El Cairo: museo, ciudadela, bazar",
+        "overnight": "Tren nocturno a Luxor",
+        "source": "El día se cierra con un tren nocturno a Luxor; la cena se sirve a bordo."
+      },
+      {
+        "day": 3,
+        "title": "Luxor: la orilla occidental",
+        "overnight": "Luxor",
+        "source": "La orilla occidental ocupa el primer día."
+      },
+      {
+        "day": 4,
+        "title": "Karnak y traslado a Hurghada",
+        "overnight": "Hurghada (resort)",
+        "source": "Se llega al resort por la tarde-noche."
+      },
+      {
+        "day": 5,
+        "title": "Primer día en Hurghada: arrecifes",
+        "overnight": "Hurghada",
+        "source": "El mar Rojo conserva uno de los sistemas de arrecifes coralinos más finos del planeta, y el primer día en Hurghada es el de salir a su encuentro."
+      },
+      {
+        "day": 6,
+        "title": "Segundo día en Hurghada, libre",
+        "overnight": "Hurghada",
+        "source": "El segundo día en Hurghada queda deliberadamente abierto."
+      },
+      {
+        "day": 7,
+        "title": "Vuelo a El Cairo: Guiza, Menfis, Saqqara",
+        "overnight": "El Cairo",
+        "source": "Se vuela de regreso a El Cairo, y el último día completo se remonta al mismo comienzo de la tradición piramidal —antes, en realidad, que la propia meseta de Guiza—."
+      },
+      {
+        "day": 8,
+        "title": "Traslado al aeropuerto",
+        "overnight": null,
+        "source": "La mañana siguiente, traslado al aeropuerto; para familias con vuelos tardíos, se pueden organizar arreglos adicionales que mantengan las últimas horas fuera del vestíbulo de un hotel."
+      }
+    ],
+    "dropped": 0
+  }
+}

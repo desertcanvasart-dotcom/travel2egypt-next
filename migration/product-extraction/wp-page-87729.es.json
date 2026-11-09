@@ -1,0 +1,33 @@
+{
+  "slug": "egyptian-museum-and-bazaar-tour",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Vehículo moderno con aire acondicionado",
+        "source": "A lo largo de tu viaje, disfruta de la facilidad de viajar en un vehículo moderno con aire acondicionado, que garantiza tu comodidad mientras te desplazas entre los destinos."
+      },
+      {
+        "text": "Guía profesional que domine tu idioma preferido",
+        "source": "Mejora tu experiencia con los conocimientos de un guía profesional, que domine tu idioma preferido, y que enriquecerá tu comprensión del paisaje histórico de El Cairo."
+      },
+      {
+        "text": "Agua mineral y toallas refrescantes",
+        "source": "Refréscate con agua mineral y toallas refrescantes durante tu recorrido."
+      },
+      {
+        "text": "Todos los impuestos y cargos por servicio",
+        "source": "Todos los impuestos y cargos por servicio están incluidos para que disfrutes de una experiencia sin contratiempos."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Visita al Gran Museo Egipcio y al Museo Nacional de la Civilización Egipcia (NMEC)",
+        "source": "Si alguno de los dos es el objetivo principal, conviene planear una visita aparte al museo correspondiente: este tour no los incluye."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

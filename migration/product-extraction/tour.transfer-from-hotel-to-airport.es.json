@@ -1,0 +1,37 @@
+{
+  "slug": "transfer-from-hotel-to-airport",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Coche privado",
+        "source": "Es un único servicio logístico bien ejecutado: un coche privado, un conductor profesional y un representante que te recibe en el vestíbulo del hotel para que lo último que Egipto te pida no sea nada más esforzado que sentarte hacia atrás y ver desfilar El Cairo por la ventanilla una vez más."
+      },
+      {
+        "text": "Conductor profesional",
+        "source": "Es un único servicio logístico bien ejecutado: un coche privado, un conductor profesional y un representante que te recibe en el vestíbulo del hotel para que lo último que Egipto te pida no sea nada más esforzado que sentarte hacia atrás y ver desfilar El Cairo por la ventanilla una vez más."
+      },
+      {
+        "text": "Representante que te recibe en el vestíbulo del hotel",
+        "source": "Es un único servicio logístico bien ejecutado: un coche privado, un conductor profesional y un representante que te recibe en el vestíbulo del hotel para que lo último que Egipto te pida no sea nada más esforzado que sentarte hacia atrás y ver desfilar El Cairo por la ventanilla una vez más."
+      },
+      {
+        "text": "Vehículo privado con aire acondicionado",
+        "source": "Desde el vestíbulo se te acompaña directamente a un vehículo privado con aire acondicionado."
+      },
+      {
+        "text": "Traslado hasta la terminal correspondiente a tu compañía aérea",
+        "source": "Tu conductor te dejará en la terminal correspondiente a tu compañía aérea."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Comentario guiado",
+        "source": "No hay comentario guiado: es simplemente El Cairo, sin guion, en tu camino de salida."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

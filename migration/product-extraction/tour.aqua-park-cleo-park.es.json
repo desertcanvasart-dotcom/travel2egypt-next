@@ -1,0 +1,33 @@
+{
+  "slug": "aqua-park-cleo-park",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Recogida en el vestíbulo del hotel en vehículo con aire acondicionado",
+        "source": "La recogida se realiza en el vestíbulo del hotel, en un vehículo con aire acondicionado, a la hora pactada."
+      },
+      {
+        "text": "Traslado privado para tu grupo",
+        "source": "El traslado al hotel es privado para tu grupo; Cleo Park en sí es un recinto compartido con entrada."
+      },
+      {
+        "text": "Una botella de agua mineral por persona para el trayecto",
+        "source": "La salida acepta reservas a partir de una persona, sin grupo mínimo, y se proporciona una botella de agua mineral por persona para el trayecto."
+      },
+      {
+        "text": "Traslado de regreso al hotel",
+        "source": "El traslado de regreso te recoge a la hora pactada y te devuelve al hotel."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Alquiler de taquillas, comida y bebida (se venden por separado)",
+        "source": "Hay alquiler de taquillas, comida y bebida en el recinto, pero se venden por separado; la entrada no cubre el gasto interior."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

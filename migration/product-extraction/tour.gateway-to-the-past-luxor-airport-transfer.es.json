@@ -1,0 +1,37 @@
+{
+  "slug": "gateway-to-the-past-luxor-airport-transfer",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Traslado privado con aire acondicionado entre el aeropuerto de Luxor y el alojamiento",
+        "source": "Un traslado privado con aire acondicionado entre el aeropuerto de Luxor y el alojamiento, con un representante esperando desde el momento del aterrizaje."
+      },
+      {
+        "text": "Representante con cartel en la sala de llegadas",
+        "source": "Una vez cruzada la puerta de salida, busque a un representante con un cartel con el nombre de Travel2Egypt y el suyo propio."
+      },
+      {
+        "text": "Acompañamiento del representante hasta el vehículo",
+        "source": "Su representante le acompañará hasta un vehículo privado con aire acondicionado en el exterior de la terminal."
+      },
+      {
+        "text": "Vehículo privado, no compartido; el conductor se encarga del equipaje",
+        "source": "El vehículo es privado —no se comparte con otros pasajeros— y el conductor se encargará de su equipaje."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "El traslado no se detiene en templos ni monumentos",
+        "source": "El traslado no se detiene en ninguno de ellos."
+      },
+      {
+        "text": "Ningún monumento, ningún comentario",
+        "source": "Un traslado estrictamente práctico: ningún monumento, ningún comentario, solo un relevo limpio entre la terminal y el alojamiento."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

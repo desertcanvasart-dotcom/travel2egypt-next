@@ -1,0 +1,29 @@
+{
+  "slug": "transfer-from-hotel-to-airport",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private, air-conditioned transfer from your Cairo or Giza hotel to Cairo International Airport",
+        "source": "A private, air-conditioned transfer from your Cairo or Giza hotel to Cairo International Airport — prompt, professional, and entirely stress-free."
+      },
+      {
+        "text": "Travel2Egypt representative waiting in your hotel lobby",
+        "source": "On your departure day, a Travel2Egypt representative will be waiting for you in the lobby of your hotel."
+      },
+      {
+        "text": "Drop-off at the correct terminal for your airline",
+        "source": "Your driver will deliver you to the correct terminal for your airline."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Not a guided commentary",
+        "source": "It is not a guided commentary — it is simply Cairo, unscripted, on your way out."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

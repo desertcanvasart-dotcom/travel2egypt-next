@@ -1,0 +1,61 @@
+{
+  "slug": "cairo-and-alexandria-4-days-family-package",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Salida privada, sólo su grupo",
+        "source": "Es una salida privada, sólo su grupo, su propio egiptólogo de principio a fin, los hoteles elegidos para idoneidad familiar."
+      },
+      {
+        "text": "Su propio egiptólogo de principio a fin",
+        "source": "Es una salida privada, sólo su grupo, su propio egiptólogo de principio a fin, los hoteles elegidos para idoneidad familiar."
+      },
+      {
+        "text": "Hoteles elegidos para idoneidad familiar",
+        "source": "Es una salida privada, sólo su grupo, su propio egiptólogo de principio a fin, los hoteles elegidos para idoneidad familiar."
+      },
+      {
+        "text": "Coche privado",
+        "source": "El coche es suyo."
+      },
+      {
+        "text": "Bienvenida en el aeropuerto",
+        "source": "El viaje abre con la bienvenida en el aeropuerto y la tarde libre en el hotel: un baño, una cena temprana, el vuelo largo absorbido."
+      },
+      {
+        "text": "Traslado al aeropuerto",
+        "source": "Un almuerzo largo, una última parada de recuerdos y el traslado al aeropuerto cierran los cuatro días."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bienvenida en el aeropuerto y tarde libre",
+        "overnight": "El Cairo",
+        "source": "El viaje abre con la bienvenida en el aeropuerto y la tarde libre en el hotel: un baño, una cena temprana, el vuelo largo absorbido."
+      },
+      {
+        "day": 2,
+        "title": "Giza, Gran Museo Egipcio y Jan el-Jalili",
+        "overnight": "El Cairo",
+        "source": "El primer día completo es Giza."
+      },
+      {
+        "day": 3,
+        "title": "Excursión al norte a Alejandría",
+        "overnight": "El Cairo",
+        "source": "Una excursión al norte a Alejandría —tres horas en cada sentido por la autopista del desierto— le da al viaje su aire de mar."
+      },
+      {
+        "day": 4,
+        "title": "El Cairo Antiguo y el cierre",
+        "overnight": null,
+        "source": "El último día es la mitad más lenta de El Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

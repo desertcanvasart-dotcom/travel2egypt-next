@@ -1,0 +1,79 @@
+{
+  "slug": "9-day-egypt-group-tour-cairo-abu-simbel-nile",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Shared, licensed Egyptologist guide",
+        "source": "This is a group journey: a scheduled departure travelling together as one party, with a shared, licensed Egyptologist guide and private air-conditioned transport throughout."
+      },
+      {
+        "text": "Private air-conditioned transport throughout",
+        "source": "This is a group journey: a scheduled departure travelling together as one party, with a shared, licensed Egyptologist guide and private air-conditioned transport throughout."
+      },
+      {
+        "text": "Met at the airport and assisted through arrival formalities",
+        "source": "The group arrives in Cairo around midday and is met at the airport and assisted through arrival formalities."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cairo and the Egyptian Museum",
+        "overnight": "Cairo",
+        "source": "Meals: Lunch Overnight: Cairo"
+      },
+      {
+        "day": 2,
+        "title": "Giza, Grand Egyptian Museum, Night Train",
+        "overnight": "Sleeper train to Aswan",
+        "source": "Meals: Breakfast, Lunch, Dinner Overnight: Sleeper train to Aswan"
+      },
+      {
+        "day": 3,
+        "title": "Arrival in Aswan, Drive to Abu Simbel",
+        "overnight": "Abu Simbel",
+        "source": "Meals: Breakfast, Lunch, Dinner Overnight: Abu Simbel"
+      },
+      {
+        "day": 4,
+        "title": "Abu Simbel at Sunrise, Philae, Nile Cruise",
+        "overnight": "Nile cruise",
+        "source": "Meals: Breakfast, Lunch, Dinner Overnight: Nile cruise"
+      },
+      {
+        "day": 5,
+        "title": "Kom Ombo and Sailing North",
+        "overnight": "Nile cruise",
+        "source": "Meals: Breakfast, Lunch, Dinner Overnight: Nile cruise"
+      },
+      {
+        "day": 6,
+        "title": "Edfu and Sailing to Luxor",
+        "overnight": "Nile cruise",
+        "source": "Meals: Breakfast, Lunch, Dinner Overnight: Nile cruise"
+      },
+      {
+        "day": 7,
+        "title": "The Theban West Bank, Unhurried Luxor",
+        "overnight": "Luxor",
+        "source": "Meals: Breakfast, Lunch Overnight: Luxor"
+      },
+      {
+        "day": 8,
+        "title": "Cairo: Memphis, Saqqara and Dahshur",
+        "overnight": "Cairo",
+        "source": "Meals: Breakfast, Lunch, Dinner Overnight: Cairo"
+      },
+      {
+        "day": 9,
+        "title": "Departure",
+        "overnight": null,
+        "source": "After breakfast and check-out, transfer to Cairo International Airport for the onward flight."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "13-day-impressive-egypt-tour",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "hotel nights in Cairo, Sinai and Sharm",
+        "source": "Duration · ≈13 days / 12 nights — hotel nights in Cairo, Sinai and Sharm; several nights aboard the Nile cruise"
+      },
+      {
+        "text": "several nights aboard the Nile cruise",
+        "source": "Duration · ≈13 days / 12 nights — hotel nights in Cairo, Sinai and Sharm; several nights aboard the Nile cruise"
+      },
+      {
+        "text": "your own Egyptologist",
+        "source": "Character · Fully private · your own Egyptologist · five-star hotels and cruise · three terrains (river, desert mountain, reef) in one journey · one pre-dawn ascent on day nine, otherwise honest pace"
+      },
+      {
+        "text": "five-star hotels and cruise",
+        "source": "Character · Fully private · your own Egyptologist · five-star hotels and cruise · three terrains (river, desert mountain, reef) in one journey · one pre-dawn ascent on day nine, otherwise honest pace"
+      },
+      {
+        "text": "Met at Cairo International and taken to the hotel",
+        "source": "You are met at Cairo International and taken to the hotel; Cairo rewards a night's rest before it is confronted."
+      },
+      {
+        "text": "Transfer to Cairo International on departure",
+        "source": "After breakfast the next morning, you are transferred to Cairo International."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cairo",
+        "overnight": "Cairo",
+        "source": "You are met at Cairo International and taken to the hotel; Cairo rewards a night's rest before it is confronted."
+      },
+      {
+        "day": 2,
+        "title": "Fly to Luxor, Karnak, board cruise",
+        "overnight": "Nile cruise",
+        "source": "You fly south to Luxor on day two and board the cruise upriver to Aswan."
+      },
+      {
+        "day": 3,
+        "title": "Second Luxor day crosses the river",
+        "overnight": "Nile cruise",
+        "source": "The second Luxor day crosses the river."
+      },
+      {
+        "day": 4,
+        "title": "Edfu and Kom Ombo",
+        "overnight": "Nile cruise",
+        "source": "The fourth day moors at Edfu in the morning."
+      },
+      {
+        "day": 5,
+        "title": "Abu Simbel and Aswan",
+        "overnight": "Nile cruise",
+        "source": "The fifth day is the longest."
+      },
+      {
+        "day": 6,
+        "title": "Philae, flight to Cairo",
+        "overnight": "Cairo",
+        "source": "From Aswan, a domestic flight returns you to Cairo."
+      },
+      {
+        "day": 7,
+        "title": "Memphis, Saqqara and Giza",
+        "overnight": "Cairo",
+        "source": "Day seven reaches back to the beginning of monumental building in Egypt."
+      },
+      {
+        "day": 8,
+        "title": "Drive east into Sinai",
+        "overnight": "St. Catherine",
+        "source": "The eighth day moves east into Sinai, and the landscape changes entirely."
+      },
+      {
+        "day": 9,
+        "title": "Mount Sinai ascent and St. Catherine's Monastery",
+        "overnight": "St. Catherine",
+        "source": "The ascent of Mount Sinai begins before dawn."
+      },
+      {
+        "day": 10,
+        "title": "Transfer to Sharm el-Sheikh",
+        "overnight": "Sharm el-Sheikh",
+        "source": "Day ten transfers to Sharm el-Sheikh at the tip of the Sinai Peninsula, where the Gulf of Aqaba meets the Gulf of Suez."
+      },
+      {
+        "day": 11,
+        "title": "Second Sharm day on the reef",
+        "overnight": "Sharm el-Sheikh",
+        "source": "The Red Sea holds one of the finest reef systems in the world, and the second Sharm day is for it — or not, as you prefer."
+      },
+      {
+        "day": 12,
+        "title": "Return to Cairo for final day",
+        "overnight": "Cairo",
+        "source": "You return to Cairo for the final full day."
+      },
+      {
+        "day": 13,
+        "title": "Transfer to Cairo International",
+        "overnight": null,
+        "source": "After breakfast the next morning, you are transferred to Cairo International."
+      }
+    ],
+    "dropped": 0
+  }
+}

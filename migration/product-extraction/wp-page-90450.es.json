@@ -1,0 +1,119 @@
+{
+  "slug": "11-day-cairo-and-nile-cruise-round-trip",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "7 noches a bordo de un crucero de cinco estrellas por el Nilo",
+        "source": "Siete de las once noches se pasan a bordo de un crucero de cinco estrellas entre Luxor y Asuán, y eso cambia el carácter del viaje por completo."
+      },
+      {
+        "text": "3 noches en El Cairo (repartidas)",
+        "source": "Duración · 11 días / 10 noches —3 en El Cairo (repartidas), 7 a bordo de un crucero de cinco estrellas por el Nilo"
+      },
+      {
+        "text": "Su propio egiptólogo",
+        "source": "El grupo viaja con su propio egiptólogo; a bordo se dispone de camarote privado en un barco estándar de 4–5 estrellas de clase Nilo."
+      },
+      {
+        "text": "Camarote privado en barco estándar de 4–5 estrellas",
+        "source": "El grupo viaja con su propio egiptólogo; a bordo se dispone de camarote privado en un barco estándar de 4–5 estrellas de clase Nilo."
+      },
+      {
+        "text": "Vuelo a Luxor",
+        "source": "Un vuelo temprano lleva al sur a Luxor, y a la llegada se embarca en el crucero que será casa durante las siete noches siguientes."
+      },
+      {
+        "text": "Vuelo de regreso a El Cairo",
+        "source": "Un vuelo devuelve a El Cairo para el capítulo final."
+      },
+      {
+        "text": "Almuerzo a bordo el día de embarque",
+        "source": "El almuerzo se sirve a bordo, la tarde se dedica a instalarse y al caer la tarde se da un paseo en coche de caballos por las calles de Luxor y se busca café en una ahwa local —una de esas cafeterías con fachada abierta que sostienen la vida callejera egipcia."
+      },
+      {
+        "text": "Paseo en faluca alrededor de la isla Kitchener",
+        "source": "Al caer la luz, una faluca lleva al viajero alrededor de la isla Kitchener."
+      },
+      {
+        "text": "Cena-crucero por el Nilo",
+        "source": "La mañana queda libre; por la noche, una cena-crucero por el Nilo cierra el viaje —la ciudad iluminada en ambas orillas, la misma agua que llevó el barco junto a Karnak y al Valle de los Reyes lleva ahora la última cena."
+      },
+      {
+        "text": "Traslado al aeropuerto internacional de El Cairo",
+        "source": "Tras el desayuno de la mañana siguiente, se traslada al viajero al aeropuerto internacional de El Cairo."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Guiza y Saqqara",
+        "overnight": "El Cairo",
+        "source": "El primer día: Guiza y Saqqara."
+      },
+      {
+        "day": 2,
+        "title": "Vuelo a Luxor y embarque",
+        "overnight": "Crucero por el Nilo",
+        "source": "Un vuelo temprano lleva al sur a Luxor, y a la llegada se embarca en el crucero que será casa durante las siete noches siguientes."
+      },
+      {
+        "day": 3,
+        "title": "Valle de los Reyes, Hatshepsut, Memnón",
+        "overnight": "Crucero por el Nilo",
+        "source": "El tercer día es el más cargado del tramo de crucero."
+      },
+      {
+        "day": 4,
+        "title": "Edfu y Kom Ombo",
+        "overnight": "Crucero por el Nilo",
+        "source": "El cuarto día es jornada de río entre dos paradas templarias."
+      },
+      {
+        "day": 5,
+        "title": "Asuán: presa Alta, obelisco, File",
+        "overnight": "Crucero por el Nilo",
+        "source": "Asuán es la principal ciudad meridional de la ruta, allí donde el Nilo se estrecha hacia la primera catarata."
+      },
+      {
+        "day": 6,
+        "title": "Jornada libre a bordo",
+        "overnight": "Crucero por el Nilo",
+        "source": "La sexta jornada se deja abierta —necesidad estructural, no indulgencia."
+      },
+      {
+        "day": 7,
+        "title": "Regreso a Kom Ombo y río",
+        "overnight": "Crucero por el Nilo",
+        "source": "El séptimo día regresa brevemente a Kom Ombo antes de que el barco siga aguas arriba —la luz es distinta por la mañana que a últimas horas de la tarde, y el sitio suele estar más tranquilo."
+      },
+      {
+        "day": 8,
+        "title": "Luxor: Karnak",
+        "overnight": "Crucero por el Nilo",
+        "source": "El barco regresa a Luxor para la octava jornada, dedicada a Karnak —menos un templo que una ciudad de templos."
+      },
+      {
+        "day": 9,
+        "title": "Vuelo a El Cairo, museo, Ciudadela",
+        "overnight": "El Cairo",
+        "source": "Un vuelo devuelve a El Cairo para el capítulo final."
+      },
+      {
+        "day": 10,
+        "title": "Mañana libre y cena-crucero",
+        "overnight": "El Cairo",
+        "source": "El décimo día es de El Cairo."
+      },
+      {
+        "day": 11,
+        "title": "Traslado al aeropuerto",
+        "overnight": null,
+        "source": "Tras el desayuno de la mañana siguiente, se traslada al viajero al aeropuerto internacional de El Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "overnight-sataya-dolphin-reef-safari",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Una botella de agua mineral por persona",
+        "source": "El safari acepta reservas desde una sola persona, sin mínimo de grupo, y se incluye una botella de agua mineral por persona junto con las comidas servidas a bordo."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Salida y Primera Exploración",
+        "overnight": "Barco",
+        "source": "Day 1: Día 1 Salida y Primera Exploración"
+      },
+      {
+        "day": 2,
+        "title": "Snorkel matutino y regreso a Hamata",
+        "overnight": null,
+        "source": "Day 2: Morning Snorkelling and Return Journey"
+      }
+    ],
+    "dropped": 0
+  }
+}

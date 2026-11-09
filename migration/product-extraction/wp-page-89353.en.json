@@ -1,0 +1,165 @@
+{
+  "slug": "tour-of-egypt",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Fully private, your own Egyptologist throughout",
+        "source": "This is one private departure with your own Egyptologist throughout — fourteen nights in five-star hotels and resorts, three nights aboard a five-star Nile cruise ship."
+      },
+      {
+        "text": "Fourteen nights in five-star hotels and resorts",
+        "source": "This is one private departure with your own Egyptologist throughout — fourteen nights in five-star hotels and resorts, three nights aboard a five-star Nile cruise ship."
+      },
+      {
+        "text": "Three nights aboard a five-star Nile cruise ship",
+        "source": "This is one private departure with your own Egyptologist throughout — fourteen nights in five-star hotels and resorts, three nights aboard a five-star Nile cruise ship."
+      },
+      {
+        "text": "Domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan",
+        "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon"
+      },
+      {
+        "text": "Ferry Hurghada–Sharm El Sheikh",
+        "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon"
+      },
+      {
+        "text": "Felucca at Aswan",
+        "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon"
+      },
+      {
+        "text": "Sound and Light Show at Giza",
+        "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon"
+      },
+      {
+        "text": "Desert safari from Hurghada",
+        "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon"
+      },
+      {
+        "text": "Bedouin village afternoon",
+        "source": "Character · Fully private · your own Egyptologist · 14 hotel nights + 3 nights aboard a five-star Nile cruise · domestic flights Cairo–Abu Simbel and Abu Simbel–Aswan · ferry Hurghada–Sharm El Sheikh · felucca at Aswan · Sound and Light Show at Giza · desert safari from Hurghada · Bedouin village afternoon"
+      },
+      {
+        "text": "Meet at Cairo International and transfer to hotel",
+        "source": "The tour begins quietly: you are met at Cairo International and taken to your hotel, no programme for the first evening."
+      },
+      {
+        "text": "Airport transfer",
+        "source": "The airport transfer follows the next morning."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Met at Cairo International, hotel",
+        "overnight": "Cairo",
+        "source": "The tour begins quietly: you are met at Cairo International and taken to your hotel, no programme for the first evening."
+      },
+      {
+        "day": 2,
+        "title": "Old Cairo, Citadel, Khan el-Khalili",
+        "overnight": "Cairo",
+        "source": "The second day works a less-visited stratum than the pharaonic."
+      },
+      {
+        "day": 3,
+        "title": "Memphis, Saqqara and Dahshur",
+        "overnight": "Cairo",
+        "source": "Day three traces the oldest pyramid-building sequence that exists."
+      },
+      {
+        "day": 4,
+        "title": "Flight to Abu Simbel, then Aswan",
+        "overnight": "Aswan",
+        "source": "Day four is the longest in the itinerary."
+      },
+      {
+        "day": 5,
+        "title": "High Dam, Philae, boarding Nile cruise",
+        "overnight": "Nile cruise",
+        "source": "Day five moves between modern engineering and ancient stone."
+      },
+      {
+        "day": 6,
+        "title": "Cruise north: Kom Ombo and Edfu",
+        "overnight": "Nile cruise",
+        "source": "The cruise carries you north on day six, pausing at two river temples."
+      },
+      {
+        "day": 7,
+        "title": "Luxor West Bank, Valley of the Kings",
+        "overnight": "Nile cruise",
+        "source": "The cruise reaches Luxor, ancient Thebes, and the first Luxor day crosses to the land the Egyptians set aside for their dead."
+      },
+      {
+        "day": 8,
+        "title": "Karnak and Luxor Temple",
+        "overnight": "Luxor",
+        "source": "The second Luxor day stays on the living side."
+      },
+      {
+        "day": 9,
+        "title": "Drive across Eastern Desert to Hurghada",
+        "overnight": "Hurghada",
+        "source": "Day nine changes register: you leave the Nile Valley and drive east across the Eastern Desert to Hurghada."
+      },
+      {
+        "day": 10,
+        "title": "Red Sea coral reef day",
+        "overnight": "Hurghada",
+        "source": "The Red Sea holds one of the finest coral reef systems on earth, and day ten is the one to encounter it."
+      },
+      {
+        "day": 11,
+        "title": "Bedouin village afternoon, Eastern Desert",
+        "overnight": "Hurghada",
+        "source": "The third Hurghada day turns inland: a Bedouin village afternoon takes you into the Eastern Desert on its own terms."
+      },
+      {
+        "day": 12,
+        "title": "Ferry south to Sharm El Sheikh",
+        "overnight": "Sharm El Sheikh",
+        "source": "A ferry on day twelve carries you south to Sharm El Sheikh, at the tip of the Sinai Peninsula — more developed and international than Hurghada, its diving reputation reaching beyond Egypt."
+      },
+      {
+        "day": 13,
+        "title": "Sharm full day, no fixed programme",
+        "overnight": "Sharm El Sheikh",
+        "source": "Sharm then gets two full days without a fixed programme: reef, beaches, dive schools, markets, or excursions into the Sinai interior."
+      },
+      {
+        "day": 14,
+        "title": "Sharm full day, no fixed programme",
+        "overnight": "Sharm El Sheikh",
+        "source": "Sharm then gets two full days without a fixed programme: reef, beaches, dive schools, markets, or excursions into the Sinai interior."
+      },
+      {
+        "day": 15,
+        "title": "Sinai interior, Saint Catherine's Monastery",
+        "overnight": "Saint Catherine",
+        "source": "You overnight in Saint Catherine."
+      },
+      {
+        "day": 16,
+        "title": "Return to Cairo, Sound and Light",
+        "overnight": "Cairo",
+        "source": "Day sixteen returns you to Cairo, the drive timed for the Sound and Light Show at Giza — the plateau flood-lit, the Sphinx narrating its own history."
+      },
+      {
+        "day": 17,
+        "title": "Pyramids of Giza, Grand Egyptian Museum",
+        "overnight": "Cairo",
+        "source": "Day seventeen is the one many travellers have been building toward since Saqqara."
+      },
+      {
+        "day": 18,
+        "title": "Airport transfer",
+        "overnight": null,
+        "source": "The airport transfer follows the next morning."
+      }
+    ],
+    "dropped": 0
+  }
+}

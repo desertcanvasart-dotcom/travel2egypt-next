@@ -1,0 +1,29 @@
+{
+  "slug": "adelaide-dahabiya-nile-cruise",
+  "lang": "ja",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "ルクソールのホテルに1泊",
+        "source": "日数 · 7日間／6泊（ルクソールのホテルに1泊、アデライド号に6泊）"
+      },
+      {
+        "text": "アデライド号に6泊",
+        "source": "日数 · 7日間／6泊（ルクソールのホテルに1泊、アデライド号に6泊）"
+      },
+      {
+        "text": "ライセンスを持つ英語対応のエジプト学ガイド（全ての遺跡見学に同行）",
+        "source": "ライセンスを持つ英語対応のエジプト学ガイドが全ての遺跡見学に同行し、上陸時の移動はプライベートの車両が担います。"
+      },
+      {
+        "text": "上陸時の移動はプライベートの車両",
+        "source": "ライセンスを持つ英語対応のエジプト学ガイドが全ての遺跡見学に同行し、上陸時の移動はプライベートの車両が担います。"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

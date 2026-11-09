@@ -206,7 +206,7 @@ async function worker() {
     if (done % 25 === 0) console.log(`  ${done}/${todo.length * LANGS.length}`);
   }
 }
-await Promise.all(Array.from({ length: 6 }, worker));
+await Promise.all(Array.from({ length: 10 }, worker));
 
 // ── Write to Sanity ──────────────────────────────────────────────────────
 if (!WRITE) {

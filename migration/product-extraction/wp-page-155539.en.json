@@ -1,0 +1,67 @@
+{
+  "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Your own Egyptologist",
+        "source": "Your Egyptologist handles the oasis archaeology, the Oracle, the Shali ruins and the rock-cut tombs at Gebel al-Mawta; the 4×4 desert drivers handle the off-road country and the Great Sand Sea crossing."
+      },
+      {
+        "text": "4×4 desert drivers",
+        "source": "Your Egyptologist handles the oasis archaeology, the Oracle, the Shali ruins and the rock-cut tombs at Gebel al-Mawta; the 4×4 desert drivers handle the off-road country and the Great Sand Sea crossing."
+      },
+      {
+        "text": "One night camping in the White Desert",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night camping in the White Desert · two long desert drives; Adrère Amellal ecolodge available in Siwa on request"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Departure from Cairo to Bahariya",
+        "overnight": "Bahariya",
+        "source": "The opening stretch begins with a departure from Cairo after breakfast and a four-hour drive southwest into the Western Desert."
+      },
+      {
+        "day": 2,
+        "title": "The Black Desert and the White Desert",
+        "overnight": "White Desert",
+        "source": "Camp is set up here, under the formations and the open sky."
+      },
+      {
+        "day": 3,
+        "title": "Crystal Mountain and the Valley of Agabat",
+        "overnight": "Bahariya",
+        "source": "The night returns to Bahariya, with dinner and a final oasis night before the long drive west."
+      },
+      {
+        "day": 4,
+        "title": "The long road to Siwa",
+        "overnight": "Siwa",
+        "source": "Arrival is in the evening; dinner is in Siwa, and the night is used to rest before a full day in the oasis."
+      },
+      {
+        "day": 5,
+        "title": "Siwa: Shali ruins, Oracle, springs",
+        "overnight": "Siwa hotel",
+        "source": "Siwa's distinctive ecolodge, Adrère Amellal — built from salt rock and palm beams at the foot of the White Mountain, lit by candles and without electricity by design — can be requested for those who want the cultural experience of staying inside the oasis's architectural vocabulary rather than at a conventional hotel; otherwise the night is at a Siwa hotel."
+      },
+      {
+        "day": 6,
+        "title": "The Great Sand Sea",
+        "overnight": "Siwa",
+        "source": "The return to Siwa is in the early evening."
+      },
+      {
+        "day": 7,
+        "title": "Last morning in Siwa, road back",
+        "overnight": null,
+        "source": "Lunch in Siwa, then the long drive back to Cairo, arriving in the evening."
+      }
+    ],
+    "dropped": 0
+  }
+}

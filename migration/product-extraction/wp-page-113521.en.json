@@ -1,0 +1,30 @@
+{
+  "slug": "3-day-siwa-journey-from-alexandria",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "The coast: El Alamein and the desert war",
+        "overnight": "Siwa",
+        "source": "The first evening is sunset at Fatnas Island on Birket Siwa — a salt lake with a single palm-shaded island — and dinner in town."
+      },
+      {
+        "day": 2,
+        "title": "Siwa: the oracle, the lakes, the sand sea",
+        "overnight": "desert camp or one of Siwa's eco-lodges",
+        "source": "Sunset Bedouin tea at the dune edge, a barbecue dinner, and an overnight at a desert camp or one of Siwa's eco-lodges (Adrère Amellal or Talist, depending on availability)."
+      },
+      {
+        "day": 3,
+        "title": "The return: Shali, the dead, and the coast",
+        "overnight": null,
+        "source": "From Siwa the route turns north again to Marsa Matrouh on the Mediterranean — beaches the colour the postcard would suggest — and east along the coast back to Alexandria by evening."
+      }
+    ],
+    "dropped": 0
+  }
+}

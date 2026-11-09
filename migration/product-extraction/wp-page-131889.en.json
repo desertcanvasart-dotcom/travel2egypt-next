@@ -1,0 +1,59 @@
+{
+  "slug": "5-day-the-obeiyed-cave-safari-tour",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Your own Egyptologist",
+        "source": "Your Egyptologist handles the oasis archaeology and the cave interpretation; the 4×4 desert drivers handle the off-road country between Bahariya, the White Deserts, Obeiyed and the springs."
+      },
+      {
+        "text": "4×4 desert drivers",
+        "source": "Your Egyptologist handles the oasis archaeology and the cave interpretation; the 4×4 desert drivers handle the off-road country between Bahariya, the White Deserts, Obeiyed and the springs."
+      },
+      {
+        "text": "Private departure, operated for your party alone",
+        "source": "This is a private departure — operated for your party alone, never a shared group."
+      },
+      {
+        "text": "Two nights in Bahariya hotels, two nights camping in the open desert",
+        "source": "- Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping in the open desert"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Cairo to Bahariya: the staging ground",
+        "overnight": "Bahariya hotel",
+        "source": "The night is spent at a local Bahariya hotel."
+      },
+      {
+        "day": 2,
+        "title": "Black Desert, Agabat, Old White Desert",
+        "overnight": "Camp in the Old White Desert",
+        "source": "Camp is set up in the open desert among the chalk shapes."
+      },
+      {
+        "day": 3,
+        "title": "Obeiyed Cave and Magic Spring",
+        "overnight": "Desert camp",
+        "source": "The second desert camp follows."
+      },
+      {
+        "day": 4,
+        "title": "New White Desert and back to Bahariya",
+        "overnight": "Bahariya hotel",
+        "source": "The return to the oasis hotel is a genuine comfort after two desert nights."
+      },
+      {
+        "day": 5,
+        "title": "Back to Cairo",
+        "overnight": null,
+        "source": "The drive back to Cairo follows."
+      }
+    ],
+    "dropped": 0
+  }
+}

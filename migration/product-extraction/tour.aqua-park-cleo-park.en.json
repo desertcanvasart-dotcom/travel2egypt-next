@@ -1,0 +1,33 @@
+{
+  "slug": "aqua-park-cleo-park",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Hotel lobby pickup in an air-conditioned vehicle",
+        "source": "Pickup is from your hotel lobby, in an air-conditioned vehicle, at a pre-arranged time."
+      },
+      {
+        "text": "Private hotel transfer",
+        "source": "The hotel transfer is private to your party; Cleo Park itself is a shared, ticketed venue."
+      },
+      {
+        "text": "One bottle of mineral water per person for the transfer",
+        "source": "The outing takes bookings from a single person upward, with no minimum group, and one bottle of mineral water per person is provided for the transfer."
+      },
+      {
+        "text": "Return transfer to your hotel",
+        "source": "The return transfer collects you at the agreed time and brings you back to your hotel."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Locker hire, food, and beverages sold separately",
+        "source": "Locker hire, food, and beverages are available on-site but sold separately; the entrance fee does not cover in-park spending."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

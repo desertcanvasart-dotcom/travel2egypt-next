@@ -1,0 +1,59 @@
+{
+  "slug": "5-day-lake-nasser-cruise-from-aswan",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "5 días / 4 noches a bordo de un crucero confortable del lago Nasser",
+        "source": "Duración · 5 días / 4 noches a bordo de un crucero confortable del lago Nasser"
+      },
+      {
+        "text": "Guía privado (su propio egiptólogo)",
+        "source": "Se trata de un programa con guía privado —su propio egiptólogo, traslados privados, camarote privado en un barco compartido— y con un ritmo de lago, no de río."
+      },
+      {
+        "text": "Traslados privados",
+        "source": "Se trata de un programa con guía privado —su propio egiptólogo, traslados privados, camarote privado en un barco compartido— y con un ritmo de lago, no de río."
+      },
+      {
+        "text": "Camarote privado en un barco compartido",
+        "source": "Se trata de un programa con guía privado —su propio egiptólogo, traslados privados, camarote privado en un barco compartido— y con un ritmo de lago, no de río."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Asuán y embarque",
+        "overnight": "Crucero por el lago Nasser",
+        "source": "Se embarca en Asuán y se almuerza a bordo."
+      },
+      {
+        "day": 2,
+        "title": "Kalabsha, Beit el-Wali y el quiosco de Kertassi",
+        "overnight": "Wadi es-Sebua (a bordo)",
+        "source": "El barco zarpa hacia el sur durante la tarde rumbo a Wadi es-Sebua, donde fondea para pasar la noche."
+      },
+      {
+        "day": 3,
+        "title": "Wadi es-Sebua, Dakka, Maharraqa y Amada",
+        "overnight": "Crucero por el lago Nasser",
+        "source": "El tercer día es el más completo del crucero y el más variado."
+      },
+      {
+        "day": 4,
+        "title": "Qasr Ibrim y Abu Simbel: el clímax",
+        "overnight": "Cerca de Abu Simbel (a bordo)",
+        "source": "La tarde transcurre en Abu Simbel y se fondea cerca para la noche —tiempo para volver a los templos cuando los grupos del día ya se han ido."
+      },
+      {
+        "day": 5,
+        "title": "Salida desde Abu Simbel",
+        "overnight": null,
+        "source": "Luego desembarque y traslado al aeropuerto de Abu Simbel para el vuelo doméstico de continuación."
+      }
+    ],
+    "dropped": 0
+  }
+}

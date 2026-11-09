@@ -1,0 +1,49 @@
+{
+  "slug": "the-elegant-cairo-4-days-tour",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Egiptólogo titulado",
+        "source": "El viaje es privado en todo su recorrido: un egiptólogo titulado, traslados privados, entradas incluidas en el programa."
+      },
+      {
+        "text": "Traslados privados",
+        "source": "El viaje es privado en todo su recorrido: un egiptólogo titulado, traslados privados, entradas incluidas en el programa."
+      },
+      {
+        "text": "Entradas incluidas en el programa",
+        "source": "El viaje es privado en todo su recorrido: un egiptólogo titulado, traslados privados, entradas incluidas en el programa."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada y la ciudad al paso",
+        "overnight": "El Cairo",
+        "source": "Le esperan en el Aeropuerto Internacional de El Cairo y le trasladan al hotel."
+      },
+      {
+        "day": 2,
+        "title": "NMEC y la meseta de Guiza",
+        "overnight": "El Cairo",
+        "source": "El segundo día carga con los dos sitios más pesados del viaje, y el orden es deliberado: la colección antes que los monumentos, para que lo que se ha leído en las salas se vea luego en piedra sobre la meseta."
+      },
+      {
+        "day": 3,
+        "title": "El Cairo copto, Ben Ezra y Jan el-Jalili",
+        "overnight": "El Cairo",
+        "source": "Un tercer día se dedica a la otra historia de El Cairo — la que precede a la conquista árabe y se remonta, pasando por Bizancio, hasta las comunidades cristianas tempranas de los siglos I y II."
+      },
+      {
+        "day": 4,
+        "title": "Último desayuno y traslado al aeropuerto",
+        "overnight": null,
+        "source": "Un último desayuno en el hotel y traslado al Aeropuerto Internacional de El Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

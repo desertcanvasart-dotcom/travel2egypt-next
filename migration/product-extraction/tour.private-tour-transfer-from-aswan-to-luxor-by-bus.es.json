@@ -1,0 +1,41 @@
+{
+  "slug": "private-tour-transfer-from-aswan-to-luxor-by-bus",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Vehículo privado, en exclusiva para su grupo",
+        "source": "El vehículo es privado, en exclusiva para su grupo, el conductor es enteramente suyo y el ritmo, en gran medida, también."
+      },
+      {
+        "text": "Conductor privado",
+        "source": "El vehículo es privado, en exclusiva para su grupo, el conductor es enteramente suyo y el ritmo, en gran medida, también."
+      },
+      {
+        "text": "Una botella de agua mineral por persona",
+        "source": "Se reserva desde un único viajero, sin tamaño mínimo de grupo, y se entrega una botella de agua mineral por persona."
+      },
+      {
+        "text": "Salida desde su hotel de Asuán o desde la terminal de cruceros de Asuán",
+        "source": "La salida se realiza desde su hotel de Asuán, o desde la terminal de cruceros de Asuán si se incorpora al traslado desde un barco."
+      },
+      {
+        "text": "Llegada al destino elegido en Luxor (hotel, atracadero de crucero o aeropuerto)",
+        "source": "La llegada al destino elegido en Luxor —hotel, atracadero de crucero o aeropuerto— cierra el traslado."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Entradas a ambos yacimientos (se abonan a la llegada en libras egipcias)",
+        "source": "Las entradas a ambos yacimientos no se incluyen en el precio del traslado y se abonan a la llegada en libras egipcias."
+      },
+      {
+        "text": "Guía egiptólogo (complemento opcional)",
+        "source": "Un guía egiptólogo, disponible como complemento opcional, hará mucho más legible lo que se está viendo, en particular en Edfu, donde los textos mitológicos de los muros se hallan entre los relatos más completos del ciclo de Horus que se conservan."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

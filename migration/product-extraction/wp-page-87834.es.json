@@ -1,0 +1,29 @@
+{
+  "slug": "private-tour-2-day-trip-to-bahariya-oasis",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "4×4 privado con chófer",
+        "source": "Dos días, un 4×4 privado con chófer, desde El Cairo hasta el oasis de Bahariya: el oasis-puerta del desierto occidental, unos 370 kilómetros al suroeste de la ciudad, en una depresión por debajo del nivel de la meseta circundante."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bahariya: la jornada del oasis",
+        "overnight": "Lodge en el oasis de Bahariya",
+        "source": "El registro de entrada es en un lodge operativo del oasis —el Sands Bahariya o alguno de sus pares— y la tarde es el oasis propiamente dicho."
+      },
+      {
+        "day": 2,
+        "title": "Las antigüedades, los desiertos, el regreso",
+        "overnight": null,
+        "source": "El regreso por carretera devuelve el viaje a la ciudad ya entrada la noche."
+      }
+    ],
+    "dropped": 0
+  }
+}

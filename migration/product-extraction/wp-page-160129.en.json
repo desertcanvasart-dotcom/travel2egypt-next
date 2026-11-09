@@ -1,0 +1,71 @@
+{
+  "slug": "bahariya-and-siwa-oasis-vacation",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private departure, operated for your party alone",
+        "source": "The journey is one private departure, operated for your party alone, with your own guide, private transfers, and 4×4s for the desert stages throughout."
+      },
+      {
+        "text": "Your own guide",
+        "source": "The journey is one private departure, operated for your party alone, with your own guide, private transfers, and 4×4s for the desert stages throughout."
+      },
+      {
+        "text": "Private transfers",
+        "source": "The journey is one private departure, operated for your party alone, with your own guide, private transfers, and 4×4s for the desert stages throughout."
+      },
+      {
+        "text": "4×4s for the desert stages",
+        "source": "The journey is one private departure, operated for your party alone, with your own guide, private transfers, and 4×4s for the desert stages throughout."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Departure from Cairo to Bahariya",
+        "overnight": "Bahariya",
+        "source": "The tour opens with a departure from Cairo after breakfast and a four-hour drive southwest into the Western Desert."
+      },
+      {
+        "day": 2,
+        "title": "Black Mountains, Salt Lake, White Desert",
+        "overnight": "Camp in the White Desert",
+        "source": "Camp is set up here, beneath the formations and the open sky."
+      },
+      {
+        "day": 3,
+        "title": "Crystal Mountain, Agabat, Black Desert",
+        "overnight": "Bahariya",
+        "source": "The day closes back in Bahariya, a last night at the oasis before the long push west."
+      },
+      {
+        "day": 4,
+        "title": "The long road to Siwa",
+        "overnight": "Siwa",
+        "source": "You arrive in the evening, and the night is for rest before a full day in the oasis."
+      },
+      {
+        "day": 5,
+        "title": "Shali Fortress, Oracle of Amun, Cleopatra's Spring",
+        "overnight": "Siwa",
+        "source": "Siwa's history is denser than it first looks, and the fifth day works down through it."
+      },
+      {
+        "day": 6,
+        "title": "Into the Great Sand Sea",
+        "overnight": "Siwa",
+        "source": "You return to Siwa in the early evening."
+      },
+      {
+        "day": 7,
+        "title": "Mountain of the Dead, drive to Cairo",
+        "overnight": null,
+        "source": "Lunch in Siwa, then the long drive back to Cairo, arriving in the evening."
+      }
+    ],
+    "dropped": 0
+  }
+}

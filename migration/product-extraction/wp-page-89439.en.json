@@ -1,0 +1,51 @@
+{
+  "slug": "3-day-bahariya-white-desert-tour",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Your own driver-guide",
+        "source": "The journey is one private departure, with your own driver-guide, private 4x4 transport for the desert day, all meals from the camp dinner onwards, and overnight accommodation split between the oasis hotel and the desert camp."
+      },
+      {
+        "text": "Private 4x4 transport for the desert day",
+        "source": "The journey is one private departure, with your own driver-guide, private 4x4 transport for the desert day, all meals from the camp dinner onwards, and overnight accommodation split between the oasis hotel and the desert camp."
+      },
+      {
+        "text": "All meals from the camp dinner onwards",
+        "source": "The journey is one private departure, with your own driver-guide, private 4x4 transport for the desert day, all meals from the camp dinner onwards, and overnight accommodation split between the oasis hotel and the desert camp."
+      },
+      {
+        "text": "Overnight accommodation split between the oasis hotel and the desert camp",
+        "source": "The journey is one private departure, with your own driver-guide, private 4x4 transport for the desert day, all meals from the camp dinner onwards, and overnight accommodation split between the oasis hotel and the desert camp."
+      },
+      {
+        "text": "Sleeping equipment provided at the camp",
+        "source": "The camp itself is set up in a sheltered area of the Old White Desert, with sleeping equipment provided, dinner cooked at the camp, and the night sky free of light pollution in any direction."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Cairo to Bahariya: the oasis day",
+        "overnight": "Local hotel, Bahariya Oasis",
+        "source": "Overnight is at a local hotel."
+      },
+      {
+        "day": 2,
+        "title": "The desert traverse: black, crystal, chalk",
+        "overnight": "Desert camp, Old White Desert",
+        "source": "The camp itself is set up in a sheltered area of the Old White Desert, with sleeping equipment provided, dinner cooked at the camp, and the night sky free of light pollution in any direction."
+      },
+      {
+        "day": 3,
+        "title": "White Desert sunrise, return to Cairo",
+        "overnight": null,
+        "source": "After breakfast at the camp and a short final walk through the surrounding formations — Mushroom Rock among them — the drive returns to Cairo through the morning, arriving by afternoon."
+      }
+    ],
+    "dropped": 0
+  }
+}

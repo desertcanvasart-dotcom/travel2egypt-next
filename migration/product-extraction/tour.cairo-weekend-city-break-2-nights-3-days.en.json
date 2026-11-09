@@ -1,0 +1,47 @@
+{
+  "slug": "cairo-weekend-city-break-2-nights-3-days",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "A licensed English-speaking Egyptologist",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, two nights' accommodation, and full board are included throughout; children are welcome on request."
+      },
+      {
+        "text": "private air-conditioned transfers",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, two nights' accommodation, and full board are included throughout; children are welcome on request."
+      },
+      {
+        "text": "two nights' accommodation",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, two nights' accommodation, and full board are included throughout; children are welcome on request."
+      },
+      {
+        "text": "full board",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, two nights' accommodation, and full board are included throughout; children are welcome on request."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "The Giza plateau",
+        "overnight": "Cairo",
+        "source": "The trip opens where Egypt's reputation begins."
+      },
+      {
+        "day": 2,
+        "title": "Saqqara: where the pyramid was invented",
+        "overnight": "Cairo",
+        "source": "The second day reaches further back than the first."
+      },
+      {
+        "day": 3,
+        "title": "The medieval city and the bazaar",
+        "overnight": null,
+        "source": "The final day moves into a different Cairo entirely — one built not from pharaonic ambition but from a thousand years of Islamic rule and trade."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "4-days-city-break",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Five-star hotel selected for your party",
+        "source": "The hotel is a five-star property selected for your party; transfers are private and air-conditioned; the Egyptologist is yours alone for the duration."
+      },
+      {
+        "text": "Private, air-conditioned transfers",
+        "source": "The hotel is a five-star property selected for your party; transfers are private and air-conditioned; the Egyptologist is yours alone for the duration."
+      },
+      {
+        "text": "Private Egyptologist for the duration",
+        "source": "The hotel is a five-star property selected for your party; transfers are private and air-conditioned; the Egyptologist is yours alone for the duration."
+      },
+      {
+        "text": "Egyptologist at every site",
+        "source": "A five-star hotel is the base, an Egyptologist is at every site, and the pace respects the heat."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

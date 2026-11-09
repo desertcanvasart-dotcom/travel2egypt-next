@@ -1,0 +1,24 @@
+{
+  "slug": "2-day-nubian-desert-nature-wildlife-retreat",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "El lodge y la reserva",
+        "overnight": "lodge",
+        "source": "La base es un lodge pequeño, deliberadamente remoto, a tiro de piedra de una reserva protegida en el desierto al sur de Asuán."
+      },
+      {
+        "day": 2,
+        "title": "La mañana: fauna y salida",
+        "overnight": null,
+        "source": "La salida es después del almuerzo."
+      }
+    ],
+    "dropped": 0
+  }
+}

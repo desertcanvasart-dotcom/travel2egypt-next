@@ -1,0 +1,57 @@
+{
+  "slug": "4-days-white-desert-wadi-al-hittan-exploration",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "su propio egiptólogo",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco"
+      },
+      {
+        "text": "conductores de 4×4 del desierto",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco"
+      },
+      {
+        "text": "una noche en campamento del Fayum",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco"
+      },
+      {
+        "text": "una noche en hotel de Bahariya",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco"
+      },
+      {
+        "text": "una noche acampados en el Desierto Blanco",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche en campamento del Fayum, una en hotel de Bahariya y una acampados en el Desierto Blanco"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "El Fayum: Karanis, Wadi al-Rayan y Wadi al-Hitan",
+        "overnight": "Campamento del Fayum",
+        "source": "La noche se pasa en un campamento del Fayum, sin las luces de la ciudad y con el cielo haciendo lo que los cielos del desierto hacen."
+      },
+      {
+        "day": 2,
+        "title": "Al oeste, a Bahariya: el oasis y sus manantiales",
+        "overnight": "Hotel de Bahariya",
+        "source": "La noche se pasa en un hotel de Bahariya."
+      },
+      {
+        "day": 3,
+        "title": "Dentro de los desiertos Negro y Blanco",
+        "overnight": "Campamento en el Desierto Blanco",
+        "source": "Se acampa entre ellas, la cena se cocina al fuego y el desierto hace el resto."
+      },
+      {
+        "day": 4,
+        "title": "Regreso por Bahariya a El Cairo",
+        "overnight": null,
+        "source": "El regreso atraviesa Bahariya y vuelve a El Cairo durante la tarde, lo que da al paisaje tiempo para asentarse en la memoria antes de que la ciudad vuelva a imponerse."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "La cena (día 1)",
+        "source": "La cena está incluida."
+      },
+      {
+        "text": "Egiptólogo licenciado de habla hispana",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches a bordo de un crucero cinco estrellas entre Asuán y Luxor, el tren nocturno al sur, el vuelo Luxor–El Cairo y pensión completa durante todo el viaje forman parte del paquete."
+      },
+      {
+        "text": "Traslados privados climatizados",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches a bordo de un crucero cinco estrellas entre Asuán y Luxor, el tren nocturno al sur, el vuelo Luxor–El Cairo y pensión completa durante todo el viaje forman parte del paquete."
+      },
+      {
+        "text": "Tres noches en hoteles cinco estrellas",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches a bordo de un crucero cinco estrellas entre Asuán y Luxor, el tren nocturno al sur, el vuelo Luxor–El Cairo y pensión completa durante todo el viaje forman parte del paquete."
+      },
+      {
+        "text": "Tres noches a bordo de un crucero cinco estrellas entre Asuán y Luxor",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches a bordo de un crucero cinco estrellas entre Asuán y Luxor, el tren nocturno al sur, el vuelo Luxor–El Cairo y pensión completa durante todo el viaje forman parte del paquete."
+      },
+      {
+        "text": "El tren nocturno al sur",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches a bordo de un crucero cinco estrellas entre Asuán y Luxor, el tren nocturno al sur, el vuelo Luxor–El Cairo y pensión completa durante todo el viaje forman parte del paquete."
+      },
+      {
+        "text": "El vuelo Luxor–El Cairo",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches a bordo de un crucero cinco estrellas entre Asuán y Luxor, el tren nocturno al sur, el vuelo Luxor–El Cairo y pensión completa durante todo el viaje forman parte del paquete."
+      },
+      {
+        "text": "Pensión completa durante todo el viaje",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, tres noches en hoteles cinco estrellas cuidadosamente seleccionados, tres noches a bordo de un crucero cinco estrellas entre Asuán y Luxor, el tren nocturno al sur, el vuelo Luxor–El Cairo y pensión completa durante todo el viaje forman parte del paquete."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada a El Cairo y traslado al hotel",
+        "overnight": "El Cairo",
+        "source": "Recibimos al viajero en el Aeropuerto Internacional de El Cairo y lo trasladamos al hotel: sin monumentos, sin programa, solo llegada."
+      },
+      {
+        "day": 2,
+        "title": "Guiza, Museo Egipcio, Jan el-Jalili, tren nocturno",
+        "overnight": "Tren con literas hacia Asuán",
+        "source": "Por la noche se embarca el tren con literas hacia Asuán: cruce práctico de la distancia que resulta también una de las formas más atmosféricas de viajar dentro de Egipto."
+      },
+      {
+        "day": 3,
+        "title": "Llegada a Asuán y embarque al crucero",
+        "overnight": "Barco de crucero",
+        "source": "Por la mañana se llega a Asuán y se sube al barco de crucero que servirá de hotel durante las tres noches siguientes."
+      },
+      {
+        "day": 4,
+        "title": "Crucero desde Asuán hacia Kom Ombo",
+        "overnight": "Barco de crucero",
+        "source": "El crucero sube desde Asuán hacia Kom Ombo, y las horas en cubierta son tanto el punto del día como el destino."
+      },
+      {
+        "day": 5,
+        "title": "Templo de Horus en Edfu",
+        "overnight": "Barco de crucero",
+        "source": "El quinto día se ancla en Edfu, el templo más fino del río."
+      },
+      {
+        "day": 6,
+        "title": "Luxor: Valle de los Reyes y Karnak",
+        "overnight": "El Cairo",
+        "source": "En la capital, la noche transcurre en El Cairo Antiguo a lo largo de la calle Al-Muizz —espina dorsal de la ciudad fatimí medieval, jalonada de arquitectura islámica intacta desde el siglo X al XIX, y una de las calles con mayor concentración histórica de África."
+      },
+      {
+        "day": 7,
+        "title": "Traslado al Aeropuerto Internacional de El Cairo",
+        "overnight": null,
+        "source": "El séptimo día es de traslado: último desayuno y vuelta al Aeropuerto Internacional de El Cairo, con vuelos posteriores que dejan opción a alguna hora más en la ciudad."
+      }
+    ],
+    "dropped": 0
+  }
+}

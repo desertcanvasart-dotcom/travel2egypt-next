@@ -1,0 +1,38 @@
+{
+  "slug": "3-day-nubian-fishing-safari",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "2 noches a bordo",
+        "source": "Duración · 3 días / 2 noches a bordo — ampliable de 4 a 7 días"
+      },
+      {
+        "text": "Salida privada a bordo",
+        "source": "Carácter · Salida privada a bordo · guías nubios de pesca · todo el equipo a bordo · sueño en camarote o en cubierta"
+      },
+      {
+        "text": "Guías nubios de pesca",
+        "source": "Carácter · Salida privada a bordo · guías nubios de pesca · todo el equipo a bordo · sueño en camarote o en cubierta"
+      },
+      {
+        "text": "Todo el equipo a bordo",
+        "source": "Carácter · Salida privada a bordo · guías nubios de pesca · todo el equipo a bordo · sueño en camarote o en cubierta"
+      },
+      {
+        "text": "Cañas, carretes y una selección operativa de señuelos y aparejos",
+        "source": "La nodriza lleva cañas, carretes y una selección operativa de señuelos y aparejos."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Las grandes visitas a templos no se incluyen como estándar",
+        "source": "Su calendario de pesca no incluye las grandes visitas a templos como estándar, pero la línea costera está salpicada de ruinas de aldeas cuyos habitantes fueron trasladados al norte, a Kom Ombo, y su guía leerá el paisaje de un modo que ningún otro guía podría."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}
