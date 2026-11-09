@@ -28736,5 +28736,130 @@ export const redirects: RedirectRule[] = [
     "source": "/wifi-in-egypt-2",
     "destination": "/travel-tips/staying-connected-in-egypt",
     "permanent": true
+  },
+  {
+    "source": "/7-days-egypt-tours",
+    "destination": "/epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
+    "permanent": true
+  },
+  {
+    "source": "/8-days-egypt-tours",
+    "destination": "/essential-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/9-days-egypt-tours",
+    "destination": "/a-9-day-egypt-tour-of-culture-and-history",
+    "permanent": true
+  },
+  {
+    "source": "/11-days-egypt-tours",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/12-days-egypt-tours",
+    "destination": "/12-day-amazing-family-vacation-in-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/14-days-egypt-tours",
+    "destination": "/14-day-egypt-luxury-family-holiday",
+    "permanent": true
+  },
+  {
+    "source": "/14-day-egypt-tour-package-from-turkey-for-families",
+    "destination": "/14-day-egypt-luxury-family-holiday",
+    "permanent": true
+  },
+  {
+    "source": "/dahab-travel-guide",
+    "destination": "/guide/dahab",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-tours-from-australia",
+    "destination": "/egypt-group-tours-from-australia",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-tours-from-canada",
+    "destination": "/egypt-group-tours-from-usa-canada",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-tours-from-usa",
+    "destination": "/egypt-group-tours-from-usa-canada",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-tours-from-germany",
+    "destination": "/egypt-group-tours-from-uk-europe",
+    "permanent": true
+  },
+  {
+    "source": "/vacation-in-egypt",
+    "destination": "/egypt-travel-packages",
+    "permanent": true
+  },
+  {
+    "source": "/es/escape-a-egipto-paquete-de-viaje-de-4-dias-a-el-cairo-desde-espana",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-de-4-dias-por-egipto",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-de-7-dias-por-egipto",
+    "destination": "/es/egipto-en-7-dias-el-cairo-crucero-por-el-nilo-luxor-y-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-de-8-dias-por-egipto",
+    "destination": "/es/egipto-esencial-en-8-dias-el-cairo-alejandria-asuan-y-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-por-egipto-de-10-dias",
+    "destination": "/es/patrimonio-egipcio-descubrimiento-cultural-de-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-por-egipto-de-12-dias",
+    "destination": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/paquete-de-tour-de-lujo-de-14-dias-por-egipto-desde-espana-para-familias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-a-egipto-desde-espana",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-a-egipto-desde-turquia",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-kom-ombo",
+    "destination": "/es/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-sharm-el-sheikh",
+    "destination": "/es/guide/sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/es/visita-privada-a-las-iconicas-piramides-de-guiza-y-la-esfinge",
+    "destination": "/es/piramides-de-guiza-la-esfinge-y-el-cairo-antiguo-tour-privado-de-dia",
+    "permanent": true
   }
 ];
