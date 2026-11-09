@@ -25,7 +25,7 @@ export const familyContent: LocalizedJourney = {
     meta: {
       title: 'Travelling as a Family in Egypt',
       description:
-        'Egypt with children — Cairo in short morning strikes, the Nile by boat, a Red Sea close. How we pace a family trip: one anchor a morning, afternoons for the pool.',
+        'Egypt with children: Cairo in short morning outings, the Nile by boat, a Red Sea close. How we pace a family trip: one anchor a morning, afternoons free.',
     },
 
     masthead: {

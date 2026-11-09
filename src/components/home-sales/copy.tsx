@@ -122,7 +122,7 @@ export interface HomeCopy {
 const EN: HomeCopy = {
   metaTitle: 'Egypt Tours & Nile Cruises — Private, Priced Openly | Travel2Egypt',
   metaDescription: (t, d) =>
-    `${t && d ? `Private Egypt tours from ${t} and day tours from ${d}, ` : 'Private Egypt tours and day tours, '}run by a Cairo operator guiding since 1993. Cairo, the Nile, Luxor, Aswan and Abu Simbel, customised to your dates.`,
+    `${t && d ? `Private Egypt tours from ${t} and day tours from ${d}: ` : 'Private Egypt tours and day tours: '}Cairo, the Nile, Luxor, Aswan and Abu Simbel, customised to your dates. Guiding since 1993.`,
   itemListName: 'Egypt tours to start with',
   from: (p) => <>from {p}</>,
   fromPerPerson: (p) => <>from {p} per person</>,

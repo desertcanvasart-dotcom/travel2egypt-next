@@ -32,7 +32,7 @@ export const travellingInStyleContent: LocalizedJourney = {
     meta: {
       title: 'Travelling in Style in Egypt',
       description:
-        'Dahabiyas under sail, the landmark hotels, a private Egyptologist, and the invisible choreography that makes Egypt effortless. Travel2Egypt at its fullest register — in practice, not adjectives.',
+        'Dahabiyas under sail, landmark hotels, a private Egyptologist and the quiet planning that makes Egypt effortless: Travel2Egypt at its fullest register.',
     },
 
     masthead: {
@@ -130,7 +130,7 @@ export const travellingInStyleContent: LocalizedJourney = {
     meta: {
       title: 'Viajar con estilo',
       description:
-        'Dahabiyas a vela, hoteles que son monumentos, un egiptólogo propio y la hora justa en cada sitio: el registro más pleno de Travel2Egypt, explicado en la práctica.',
+        'Dahabiyas a vela, hoteles que son monumentos, un egiptólogo propio y la hora justa en cada sitio: Travel2Egypt en su registro más pleno.',
     },
 
     masthead: {

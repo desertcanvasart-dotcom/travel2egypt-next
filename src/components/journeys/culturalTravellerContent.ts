@@ -27,7 +27,7 @@ export const culturalTravellerContent: LocalizedJourney = {
     meta: {
       title: 'The Cultural Traveller in Egypt',
       description:
-        'Egypt in layers — Islamic and Coptic Cairo, the desert monasteries, Nubian Aswan, and the ancient sites read not toured. The cultural trip, built around the guide.',
+        'Egypt in layers: Islamic and Coptic Cairo, the desert monasteries, Nubian Aswan and ancient sites read, not toured — the cultural trip, built on the guide.',
     },
 
     masthead: {
@@ -121,7 +121,7 @@ export const culturalTravellerContent: LocalizedJourney = {
     meta: {
       title: 'El viajero cultural',
       description:
-        'El Cairo islámico y copto, los monasterios donde empezó el monacato, la Asuán nubia y los sitios antiguos leídos de cerca: el Egipto de cinco civilizaciones, con el guía como pieza central.',
+        'El Cairo islámico y copto, los monasterios del desierto, la Asuán nubia y los sitios antiguos leídos de cerca: el Egipto cultural, con el guía al centro.',
     },
 
     masthead: {
