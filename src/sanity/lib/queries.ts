@@ -251,6 +251,8 @@ const tourCardProjection = (locale: Locale) => `
   durationHours,
   originRegion,
   basePrice,
+  priceFrom,
+  "enSlug": slug[_key=="en"][0].value.current,
   peakUpliftPct,
   maxGroup,
   "title": ${localizedField('title', locale)},
@@ -266,7 +268,8 @@ const tourCardProjection = (locale: Locale) => `
   "cities": cities[]->{
     _id,
     "name": ${localizedField('name', locale)},
-    "slug": ${localizedSlug('slug', locale)}
+    "slug": ${localizedSlug('slug', locale)},
+    "enSlug": slug[_key=="en"][0].value.current
   },
   "theme": theme->{
     _id,
@@ -2194,6 +2197,7 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
     "category": category->{ _id, key, "title": ${localizedField('title', locale)}, "slug": ${localizedSlug('slug', locale)} },
     "destinationCity": destinationCity->{
       _id,
+      "enSlug": slug[_key=="en"][0].value.current,
       "name": ${localizedField('name', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "heroImage": heroImage{ ..., "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value) }
@@ -2291,7 +2295,9 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
         (^.category->key == "group-package"    && type == "package" && tourMode == "group")
       )
     ] | order(durationDays asc, _createdAt desc){
-      _id, type, tourMode, durationDays, durationHours,
+      _id, type, tourMode, durationDays, durationHours, priceFrom,
+      "enSlug": slug[_key=="en"][0].value.current,
+      "cities": cities[]->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)}, "enSlug": slug[_key=="en"][0].value.current },
       "title": ${localizedField('title', locale)},
       "slug": ${localizedSlug('slug', locale)},
       "summary": ${localizedField('summary', locale)},

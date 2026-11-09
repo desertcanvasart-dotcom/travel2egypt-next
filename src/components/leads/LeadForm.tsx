@@ -33,6 +33,8 @@ export interface LeadPrefill {
   priceFromEur?: number | null;
   /** Pre-filled "Anything we should know?" text, e.g. "Interested in: Nile cruise". */
   notes?: string;
+  /** Day-tour hub slug the request came from (GA4 `hub`, 2026-11-09). */
+  hub?: string;
 }
 
 
@@ -136,6 +138,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           form_location: source,
           lead_kind: kind,
           ...(prefill?.tourSlug ? { tour: prefill.tourSlug } : {}),
+          ...(prefill?.hub ? { hub: prefill.hub } : {}),
           locale,
         });
         setState({ phase: 'done', reference: data.reference });
