@@ -77,6 +77,25 @@ async function resolveSlug(
   return getHit(locale, rest[0]);
 }
 
+/**
+ * Cache these pages (Ahrefs "slow server response", 2026-11-09).
+ *
+ * Without a generateStaticParams export this route built as fully dynamic
+ * and every tour, package and city day-tour hub rendered per request
+ * (cache-control: private, no-store; ~1–2 s TTFB, 10–30 s under load).
+ * An empty list prebuilds nothing at deploy time and turns the route into
+ * ISR: each page renders on its first request, is cached, and refreshes per
+ * the layout's revalidate. Unknown slugs still 404.
+ *
+ * Verified for /es/… and /ja/… (MISS, then HIT at ~12 ms). English URLs are
+ * NOT cached yet: they have no locale prefix, the middleware rewrites
+ * /slug → /en/slug, and Next.js matches cacheability against the original
+ * one-segment path, which does not fit /[locale]/[...rest]. Open follow-up.
+ */
+export async function generateStaticParams() {
+  return [];
+}
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, rest } = await params;
   const hit = await resolveSlug(locale as Locale, rest);
