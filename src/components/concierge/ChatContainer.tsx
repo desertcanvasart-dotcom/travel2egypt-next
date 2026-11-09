@@ -55,6 +55,11 @@ interface ChatContainerProps {
   linkMap?: LinkMapEntry[];
   /** Plan page: "Talk to a human" offers "Send us your dates instead" → the form. */
   onSendDates?: () => void;
+  /**
+   * A question picked in the floating "Ask anything about this" panel
+   * (?q=). It pre-fills the input, like a starter chip — never auto-sent.
+   */
+  initialInput?: string | null;
 }
 
 type Phase = 'idle' | 'thinking' | 'streaming';
@@ -66,6 +71,7 @@ export function ChatContainer({
   resumeError = false,
   linkMap = [],
   onSendDates,
+  initialInput,
 }: ChatContainerProps) {
   const t = useTranslations('planYourTour');
   const format = useFormatter();
@@ -74,7 +80,7 @@ export function ChatContainer({
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [phase, setPhase] = useState<Phase>('idle');
   const [streamText, setStreamText] = useState('');
-  const [input, setInput] = useState('');
+  const [input, setInput] = useState(initialInput ?? '');
   const [conversationId, setConversationId] = useState<string | null>(null);
   const [continuingFrom, setContinuingFrom] = useState<string | null>(null);
   const [chipsHidden, setChipsHidden] = useState(false);

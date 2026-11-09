@@ -54,6 +54,8 @@ export function PlanOptions({
     tourTitle: string | null;
     resumeError: boolean;
     linkMap: LinkMapEntry[];
+    /** ?q= from the floating concierge panel: pre-fills the chat input. */
+    initialInput: string | null;
   } | null;
 }) {
   const { responseTime } = useLead();
@@ -193,6 +195,7 @@ export function PlanOptions({
               resumeError={chat.resumeError}
               linkMap={chat.linkMap}
               onSendDates={() => show('form')}
+              initialInput={chat.initialInput}
             />
           </div>
         )}

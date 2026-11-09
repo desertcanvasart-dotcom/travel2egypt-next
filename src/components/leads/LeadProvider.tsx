@@ -46,6 +46,8 @@ interface LeadContextValue {
   isOpen: boolean;
   product: PageProduct | null;
   setProduct: (p: PageProduct | null) => void;
+  /** CHAT_ENABLED (read server-side in the layout): the AI concierge is on. */
+  chatEnabled: boolean;
 }
 
 const LeadContext = createContext<LeadContextValue | null>(null);
@@ -53,10 +55,12 @@ const LeadContext = createContext<LeadContextValue | null>(null);
 export function LeadProvider({
   locale,
   responseTime,
+  chatEnabled = false,
   children,
 }: {
   locale: string;
   responseTime?: ResponseTime;
+  chatEnabled?: boolean;
   children: ReactNode;
 }) {
   const rt: ResponseTime = useMemo(
@@ -84,8 +88,8 @@ export function LeadProvider({
   }, []);
 
   const value = useMemo(
-    () => ({ open, isOpen: current !== null, product, setProduct, responseTime: rt }),
-    [open, current, product, rt],
+    () => ({ open, isOpen: current !== null, product, setProduct, responseTime: rt, chatEnabled }),
+    [open, current, product, rt, chatEnabled],
   );
   const isDay = current?.kind === 'day_tour';
   const c = LEAD_COPY[leadLocale(locale)];

@@ -554,7 +554,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
           priceFromEur: typeof tour.priceFrom === 'number' ? tour.priceFrom : null,
         }}
       />
-      <FloatingConcierge />
+      <FloatingConcierge tourSlug={tour.slug} />
     </div>
   );
 }

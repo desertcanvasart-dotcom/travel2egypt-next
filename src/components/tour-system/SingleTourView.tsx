@@ -424,7 +424,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           priceFromEur: typeof tour.priceFrom === 'number' ? tour.priceFrom : null,
         }}
       />
-      <FloatingConcierge />
+      <FloatingConcierge tourSlug={tour.slug} />
     </div>
   );
 }
