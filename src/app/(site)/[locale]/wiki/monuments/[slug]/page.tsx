@@ -18,6 +18,8 @@ import { JsonLd } from '@/components/JsonLd';
 import {
   buildPlaceSchema,
   buildBreadcrumbList,
+  buildPageArticleSchema,
+  placeId,
 } from '@/lib/structured-data';
 
 interface Props {
@@ -138,7 +140,25 @@ export default async function MonumentPage({ params }: Props) {
 
   return (
     <article>
-      <JsonLd data={[placeSchema, breadcrumbSchema]} />
+      <JsonLd
+        data={[
+          placeSchema,
+          // The wiki entry as an article about the monument (Ahrefs audit, 2026-11-09).
+          buildPageArticleSchema(
+            {
+              title: m.name,
+              description: m.summary,
+              path: `/wiki/monuments/${slug}`,
+              heroImage: m.heroImage,
+              datePublished: m.createdAt,
+              dateModified: m.updatedAt,
+              aboutId: placeId(`/wiki/monuments/${slug}`, locale as Locale),
+            },
+            locale as Locale,
+          ),
+          breadcrumbSchema,
+        ]}
+      />
       <div className="relative h-[55vh] min-h-[360px] w-full overflow-hidden bg-cream-deep">
         {heroUrl && (
           <Image

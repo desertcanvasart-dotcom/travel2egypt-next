@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
+import { ArticleJsonLd } from '@/components/ArticleJsonLd';
 import type { Locale } from '@/i18n/routing';
 import { buildStaticMetadata } from '@/lib/seo';
 import {
@@ -58,9 +59,11 @@ export default async function PharaohTimelinePage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('resources.timeline');
+  const tFg = await getTranslations('resources');
 
   return (
     <FieldGuideShell>
+      <ArticleJsonLd title={t('metaTitle')} description={t('metaDescription')} path="/resources/pharaoh-timeline" locale={locale as Locale} parent={{ name: tFg('metaTitle').replace(/ — .*$/, ''), path: '/resources' }} />
       <FieldMasthead
         number={t('kicker')}
         region={t('region')}

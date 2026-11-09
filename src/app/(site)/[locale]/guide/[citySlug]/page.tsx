@@ -10,8 +10,7 @@ import { Breadcrumb } from '@/components/Breadcrumb';
 import { JsonLd } from '@/components/JsonLd';
 import {
   buildPlaceSchema,
-  buildBreadcrumbList,
-} from '@/lib/structured-data';
+  buildBreadcrumbList, buildPageArticleSchema, placeId } from '@/lib/structured-data';
 
 import { Link } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -200,7 +199,25 @@ export default async function CityGuidePage({ params }: Props) {
 
   return (
     <article>
-      <JsonLd data={[placeSchema, breadcrumbSchema]} />
+      <JsonLd
+        data={[
+          placeSchema,
+          // The city guide as an article about the destination (Ahrefs audit, 2026-11-09).
+          buildPageArticleSchema(
+            {
+              title: city.name,
+              description: city.summary,
+              path: `/guide/${citySlug}`,
+              heroImage: city.heroImage,
+              datePublished: city.createdAt,
+              dateModified: city.updatedAt,
+              aboutId: placeId(`/guide/${citySlug}`, locale as Locale),
+            },
+            locale as Locale,
+          ),
+          breadcrumbSchema,
+        ]}
+      />
       {heroUrl ? (
         // With-hero variant: full-bleed image + overlay gradient + bottom-aligned title.
         <div className="relative h-[60vh] min-h-[400px] w-full overflow-hidden bg-limestone-deep">

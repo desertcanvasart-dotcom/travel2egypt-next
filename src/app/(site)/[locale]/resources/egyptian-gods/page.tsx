@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
+import { ArticleJsonLd } from '@/components/ArticleJsonLd';
 import type { Locale } from '@/i18n/routing';
 import { buildStaticMetadata } from '@/lib/seo';
 import { client } from '@/sanity/lib/client';
@@ -51,6 +52,7 @@ export default async function EgyptianGodsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('resources.egyptianGods');
+  const tFg = await getTranslations('resources');
 
   const deities = await client.fetch<DeityNode[]>(
     allTreeDeitiesQuery(locale as Locale)
@@ -62,6 +64,7 @@ export default async function EgyptianGodsPage({ params }: Props) {
 
   return (
     <FieldGuideShell>
+      <ArticleJsonLd title={t('metaTitle')} description={t('metaDescription')} path="/resources/egyptian-gods" locale={locale as Locale} parent={{ name: tFg('metaTitle').replace(/ — .*$/, ''), path: '/resources' }} />
       <FieldMasthead
         number={t('kicker')}
         region={t('region')}

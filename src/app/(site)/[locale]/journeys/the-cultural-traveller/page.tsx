@@ -6,7 +6,7 @@ import { JourneyPage } from '@/components/journeys/JourneyPage';
 import { culturalTravellerContent } from '@/components/journeys/culturalTravellerContent';
 import { JsonLd } from '@/components/JsonLd';
 import { buildStaticMetadata } from '@/lib/seo';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import { buildBreadcrumbList, buildPageArticleSchema } from '@/lib/structured-data';
 
 import '@/styles/journeys.css';
 
@@ -45,7 +45,19 @@ export default async function Page({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={breadcrumbSchema} />
+      <JsonLd
+        data={[
+          buildPageArticleSchema(
+            {
+              title: (culturalTravellerContent[lc] ?? culturalTravellerContent.en).meta.title,
+              description: (culturalTravellerContent[lc] ?? culturalTravellerContent.en).meta.description,
+              path: PATH,
+            },
+            lc,
+          ),
+          breadcrumbSchema,
+        ]}
+      />
       <JourneyPage content={culturalTravellerContent[lc] ?? culturalTravellerContent.en} locale={lc} />
     </>
   );

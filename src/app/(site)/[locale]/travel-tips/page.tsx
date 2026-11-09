@@ -3,6 +3,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 
 import { Link } from '@/i18n/navigation';
+import { ArticleJsonLd } from '@/components/ArticleJsonLd';
 import type { Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import { urlFor } from '@/sanity/lib/image';
@@ -155,6 +156,7 @@ export default async function TravelTipsArchivePage({ params }: Props) {
 
   return (
     <>
+      <ArticleJsonLd title={t('landingTitle')} description={t('landingDeck')} path="/travel-tips" locale={locale as Locale} />
       <div className="mx-auto max-w-7xl px-6">
         <Breadcrumb
           items={[{ label: tNav('home'), href: '/' }, { label: t('breadcrumb') }]}

@@ -3,6 +3,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { Noto_Naskh_Arabic } from 'next/font/google';
 
+import { ArticleJsonLd } from '@/components/ArticleJsonLd';
 import type { Locale } from '@/i18n/routing';
 import { buildStaticMetadata } from '@/lib/seo';
 import { FieldGuideShell, FieldMasthead } from '@/components/resources';
@@ -238,9 +239,11 @@ export default async function ArabicLightlyPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations('resources.arabic');
+  const tFg = await getTranslations('resources');
 
   return (
     <div className={notoNaskhArabic.variable}>
+      <ArticleJsonLd title={t('metaTitle')} description={t('metaDescription')} path="/resources/arabic-lightly" locale={locale as Locale} parent={{ name: tFg('metaTitle').replace(/ — .*$/, ''), path: '/resources' }} />
       <FieldGuideShell>
       <FieldMasthead
         number={t('kicker')}

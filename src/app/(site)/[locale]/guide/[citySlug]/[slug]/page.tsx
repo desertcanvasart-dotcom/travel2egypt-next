@@ -19,6 +19,8 @@ import { priceData } from '@/data/prices';
 import {
   buildBreadcrumbList,
   buildGuideArticleSchema,
+  buildPageArticleSchema,
+  placeId,
 } from '@/lib/structured-data';
 
 import { Link } from '@/i18n/navigation';
@@ -216,7 +218,32 @@ export default async function GuideArticlePage({ params }: Props) {
 
   return (
     <article>
-      <JsonLd data={[guideArticleSchema, breadcrumbSchema]} />
+      <JsonLd
+        data={[
+          guideArticleSchema,
+          // Attraction pages: an Article about the place alongside the
+          // TouristAttraction (Ahrefs audit, 2026-11-09). Other kinds already
+          // emit Article from buildGuideArticleSchema.
+          ...(article.kind === 'attraction'
+            ? [
+                buildPageArticleSchema(
+                  {
+                    title: article.title,
+                    description: article.summary,
+                    path: `/guide/${citySlug}/${slug}`,
+                    heroImage: article.heroImage,
+                    datePublished: article.createdAt,
+                    dateModified: article.updatedAt,
+                    section: article.parentCity?.name,
+                    aboutId: placeId(`/guide/${citySlug}/${slug}`, locale as Locale),
+                  },
+                  locale as Locale,
+                ),
+              ]
+            : []),
+          breadcrumbSchema,
+        ]}
+      />
 
       <div className="mx-auto max-w-7xl px-6 py-12">
         <Breadcrumb items={breadcrumbItems} className="mb-8" />

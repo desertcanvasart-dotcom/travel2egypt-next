@@ -50,6 +50,8 @@ export const cityBySlugQuery = (locale: Locale) => groq`
      slug[_key == "en"][0].value.current == $slug)
   )][0]{
     _id,
+    "createdAt": _createdAt,
+    "updatedAt": _updatedAt,
     region,
     guideRegion,
     // The /guide hub renders one section per siteSettings.guideRegions key
@@ -145,6 +147,8 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
     (parentCity->slug[_key == "${locale}"][0].value.current == null &&
      parentCity->slug[_key == "en"][0].value.current == $citySlug)
   )][0]{
+    "createdAt": _createdAt,
+    "updatedAt": _updatedAt,
     _id,
     section,
     kind,
@@ -1146,6 +1150,8 @@ export const monumentBySlugQuery = (locale: Locale) => groq`
     (slug[_key == "${locale}"][0].value.current == null &&
      slug[_key == "en"][0].value.current == $slug)
   )][0]{
+    "createdAt": _createdAt,
+    "updatedAt": _updatedAt,
     ${wikiCardProjection(locale)},
     "allSlugs": slug[]{ _key, "current": value.current },
     coordinates,
