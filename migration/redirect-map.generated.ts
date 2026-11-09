@@ -218,6 +218,21 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
+    "source": "/guide/sharm-el-sheikh/sharm-el-sheikh-to-jerusalem-and-dead-sea",
+    "destination": "/jerusalem-dead-sea-bethlehem-group-day-tour-from-sharm",
+    "permanent": true
+  },
+  {
+    "source": "/es/guide/sharm-el-sheikh/excursion-de-dia-completo-de-sharm-el-sheikh-a-jerusalen-y-el-mar-muerto",
+    "destination": "/es/jerusalen-mar-muerto-y-belen-desde-sharm-el-sheij-excursion-en-grupo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/sharumu-eru-sheiku/sharumuerusheiku-kara-erusaremu-to-shikai-e-no-furudeitua",
+    "destination": "/ja/kokkyo-o-futatsu-koeru-ichi-nichi-erusaremu-shi-umi",
+    "permanent": true
+  },
+  {
     "source": "/guide/al-fayoum/4-days-white-desert-wadi-al-hittan-exploration",
     "destination": "/4-days-white-desert-wadi-al-hittan-exploration",
     "permanent": true
