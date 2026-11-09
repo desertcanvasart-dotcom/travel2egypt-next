@@ -11,6 +11,7 @@ import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { WHATSAPP_LINK } from '@/lib/concierge/constants';
 import { FloatingConcierge } from '@/components/FloatingConcierge';
 import { TourProse } from '@/components/tour-system/TourProse';
+import { withoutRetiredSections } from '@/components/tour-system/retiredEssaySections';
 import { MastheadStats } from '@/components/tour-system/MastheadStats';
 import { TourCard } from '@/components/home-sales/TourCard';
 import type { SalesProduct } from '@/components/home-sales/query';
@@ -52,24 +53,6 @@ export interface HubArchive {
   title?: string;
   editorByline?: { kicker?: string; heading?: string; intro?: string } | null;
   essay?: unknown;
-}
-
-/** The essay's "How to use this page" section is retired (spec §2); it is the h2 below in each language. */
-const RETIRED_ESSAY_HEADINGS = new Set(['How to use this page', 'Cómo usar esta página', 'このページの使い方']);
-
-function withoutRetiredSections(essay: unknown): unknown {
-  if (!Array.isArray(essay)) return essay;
-  const out: unknown[] = [];
-  let skipping = false;
-  for (const b of essay as Array<{ _type?: string; style?: string; children?: Array<{ text?: string }> }>) {
-    const isHeading = b?._type === 'block' && /^h[1-6]$/.test(b.style ?? '');
-    if (isHeading) {
-      const text = (b.children ?? []).map((c) => c.text ?? '').join('').trim();
-      skipping = RETIRED_ESSAY_HEADINGS.has(text);
-    }
-    if (!skipping) out.push(b);
-  }
-  return out;
 }
 
 const minEur = (xs: Array<number | null | undefined>) => {

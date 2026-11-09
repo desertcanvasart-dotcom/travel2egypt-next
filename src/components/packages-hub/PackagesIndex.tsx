@@ -77,7 +77,8 @@ export function PackagesIndex({
   const [budget, setBudget] = useState<Budget | null>(null);
   const [sort, setSort] = useState<Sort>('length');
   const rootRef = useRef<HTMLDivElement | null>(null);
-  const ready = useRef(false);
+  // URL is written only after the visitor changes something (see DayHubList).
+  const [touched, setTouched] = useState(false);
 
   const presentLengths = useMemo(
     () => new Set<string>(rows.flatMap((r) => (r.days ? LENGTHS.filter((l) => l.test(r.days!)).map((l) => l.key) : []))),
@@ -96,20 +97,19 @@ export function PackagesIndex({
     if (b && (BUDGETS as readonly string[]).includes(b)) setBudget(b as Budget);
     if (s && (SORTS as readonly string[]).includes(s)) setSort(s as Sort);
     if (rawLen || b || s) rootRef.current?.scrollIntoView({ block: 'start' });
-    ready.current = true;
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Write state back to the URL (replaceState: no history entry per click).
   useEffect(() => {
-    if (!ready.current) return;
+    if (!touched) return;
     const url = new URL(window.location.href);
     const set = (k: string, v: string | null) => (v ? url.searchParams.set(k, v) : url.searchParams.delete(k));
     set('length', length);
     set('budget', budget);
     set('sort', sort === 'length' ? null : sort);
     window.history.replaceState(window.history.state, '', url.pathname + url.search + url.hash);
-  }, [length, budget, sort]);
+  }, [touched, length, budget, sort]);
 
   const lenTest = LENGTHS.find((l) => l.key === length)?.test;
   const filtered = rows.filter(
@@ -133,7 +133,7 @@ export function PackagesIndex({
         {lengthOptions.length >= 2 && (
           <div className="filters" role="group" aria-label={labels.lengthLabel}>
             <span className="filter-label">{labels.lengthLabel}</span>
-            <button type="button" className={length == null ? 'filter on' : 'filter'} aria-pressed={length == null} onClick={() => setLength(null)}>
+            <button type="button" className={length == null ? 'filter on' : 'filter'} aria-pressed={length == null} onClick={() => { setTouched(true); setLength(null); }}>
               {labels.anyLength}
             </button>
             {lengthOptions.map((o) => (
@@ -142,7 +142,7 @@ export function PackagesIndex({
                 type="button"
                 className={length === o.key ? 'filter on' : 'filter'}
                 aria-pressed={length === o.key}
-                onClick={() => setLength(o.key)}
+                onClick={() => { setTouched(true); setLength(o.key); }}
               >
                 {labels.lengths[o.key]}
               </button>
@@ -151,18 +151,18 @@ export function PackagesIndex({
         )}
         <div className="filters" role="group" aria-label={labels.budgetLabel}>
           <span className="filter-label">{labels.budgetLabel}</span>
-          <button type="button" className={budget == null ? 'filter on' : 'filter'} aria-pressed={budget == null} onClick={() => setBudget(null)}>
+          <button type="button" className={budget == null ? 'filter on' : 'filter'} aria-pressed={budget == null} onClick={() => { setTouched(true); setBudget(null); }}>
             {labels.budgetAny}
           </button>
           {BUDGETS.map((b) => (
-            <button key={b} type="button" className={budget === b ? 'filter on' : 'filter'} aria-pressed={budget === b} onClick={() => setBudget(b)}>
+            <button key={b} type="button" className={budget === b ? 'filter on' : 'filter'} aria-pressed={budget === b} onClick={() => { setTouched(true); setBudget(b); }}>
               {labels.budgets[b]}
             </button>
           ))}
         </div>
         <label className="hub-sort">
           <span className="filter-label">{labels.sortLabel}</span>
-          <select value={sort} onChange={(e) => setSort(e.target.value as Sort)}>
+          <select value={sort} onChange={(e) => { setTouched(true); setSort(e.target.value as Sort); }}>
             {SORTS.map((s) => (
               <option key={s} value={s}>
                 {labels.sorts[s]}

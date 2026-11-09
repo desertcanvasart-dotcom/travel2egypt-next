@@ -1,0 +1,79 @@
+/* Day-tour hubs (/tours, /private-day-tours, /group-day-tours, Nile Valley
+   city hubs), 2026-11-09. Cards and the closing form reuse the homepage's
+   .lvl-sales styles; filters reuse the .lvl-category / .lvl-subcategory pills. */
+
+:is(.lvl-dayhub, .lvl-cityhub) .dh-from {
+  font-family: var(--ui); font-size: 15px; color: var(--navy); margin-top: 14px;
+}
+.lvl-dayhub .masthead.dh-mast { padding: 34px 0 40px; }
+.lvl-dayhub .dh-mast .mast-title { font-size: clamp(44px, 5.4vw, 80px); }
+
+/* Where will you be? — Nile tiles with a from price; Red Sea as a text line. */
+.lvl-dayhub .city .c-count { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; }
+.lvl-dayhub .city .c-from { color: var(--navy); letter-spacing: 0; font-size: 13px; }
+.lvl-dayhub .city .c-name, .lvl-dayhub .city .c-note { display: block; }
+.lvl-dayhub .dh-nav .city-grid { grid-template-columns: repeat(2, 1fr); }
+.lvl-dayhub .dh-redsea-line { margin: 16px 0 0; font-family: var(--ui); font-size: 14px; }
+.lvl-dayhub .dh-redsea-line a { color: var(--navy-mute); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.lvl-dayhub .dh-redsea-line a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* Most booked */
+.lvl-dayhub .dh-mb { padding: 64px 0 24px; }
+
+/* Card extras on hubs: city + one-line description */
+.lvl-sales .dcard .dcard-city { font-family: var(--display); font-style: italic; font-size: 15px; color: var(--navy-mute); margin: -4px 0 4px; }
+.lvl-sales .dcard .dcard-desc { font-family: var(--read); font-size: 14px; line-height: 1.5; color: var(--navy-mute); margin: 8px 0 0; }
+
+/* Filters, count, sort */
+.day-hub-list .filters { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+.day-hub-list .filter-label { font-family: var(--ui); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--navy-mute); margin-right: 6px; }
+.day-hub-list .filter { background: transparent; border: 1px solid var(--rule); border-radius: 100px; padding: 8px 18px; font-family: var(--ui); font-size: 13px; color: var(--navy-mute); cursor: pointer; transition: .2s; }
+.day-hub-list .filter:hover { border-color: var(--navy); color: var(--navy); }
+.day-hub-list .filter.on { background: var(--navy); color: var(--paper); border-color: var(--navy); }
+.day-hub-list .dh-divider {
+  font-family: var(--ui); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--navy-mute);
+  padding-left: 14px; margin-left: 4px; border-left: 1px solid var(--rule);
+}
+.day-hub-list .range-hint { font-family: var(--read); font-style: italic; font-size: 13px; color: var(--navy-mute); margin: 2px 0 16px; }
+.day-hub-list .dh-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin: 10px 0 24px; padding-top: 16px; border-top: 1px solid var(--rule); }
+.day-hub-list .dh-count { font-family: var(--ui); font-size: 14px; color: var(--navy); margin: 0; }
+.day-hub-list .dh-sort { display: inline-flex; align-items: center; gap: 10px; }
+.day-hub-list .dh-sort select {
+  font-family: var(--ui); font-size: 13px; color: var(--navy); background: transparent;
+  border: 1px solid var(--rule); border-radius: 100px; padding: 8px 14px;
+}
+.day-hub-list .dh-empty { font-family: var(--read); font-size: 16px; color: var(--navy-mute); padding: 24px 0; }
+.day-hub-list .dh-link, .lvl-dayhub .dh-link {
+  background: none; border: 0; padding: 0; cursor: pointer; font-family: var(--ui); font-size: 15px;
+  color: var(--navy); border-bottom: 1px solid var(--rule);
+}
+.day-hub-list .dh-link:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* The full list is a grid on every width (no swipe row for a long list). */
+.lvl-sales .dcards.dh-grid { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 980px) {
+  .lvl-sales .dcards.dh-grid {
+    grid-auto-flow: row; grid-auto-columns: auto; overflow: visible; scroll-snap-type: none;
+    grid-template-columns: 1fr 1fr; padding-bottom: 0;
+  }
+}
+@media (max-width: 620px) {
+  .lvl-sales .dcards.dh-grid { grid-template-columns: 1fr; }
+  .lvl-dayhub .dh-nav .city-grid { grid-template-columns: 1fr; }
+}
+
+/* Red Sea section: below the main list, before the end block */
+.day-hub-list .dh-redsea { margin-top: 72px; padding-top: 48px; border-top: 1px solid var(--rule); scroll-margin-top: 90px; }
+.day-hub-list .dh-redsea h2 { font-size: clamp(28px, 2.8vw, 40px); }
+
+.lvl-dayhub .dh-how, .lvl-cityhub .dh-how { border-top: 1px solid var(--rule); }
+
+/* City hubs: picks directly under the hero */
+.lvl-cityhub .dh-picks { padding: 48px 0 24px; }
+.lvl-cityhub .dh-picks .t2e-section-head { margin-bottom: 24px; }
+/* City hub hero sits on a photo: the from line takes the hero's light text. */
+.lvl-cityhub .hero .dh-from--hero { color: var(--paper); opacity: .92; margin-top: 18px; font-size: 16px; }
+/* The city hub hero had no side gutter on phones (text touched the edge). */
+@media (max-width: 760px) {
+  .lvl-cityhub .hero .t2e-wrap { padding-left: 24px; padding-right: 24px; }
+}

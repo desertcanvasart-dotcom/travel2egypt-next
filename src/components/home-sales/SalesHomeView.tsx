@@ -24,6 +24,7 @@ import { DayToursTabs } from './DayToursTabs';
 import { QuickFinder } from './QuickFinder';
 import { TrackedLink } from './TrackedLink';
 import { TourCard } from './TourCard';
+import { DayTourCard } from './DayTourCard';
 import type { SalesHomeData, SalesProduct } from './query';
 
 import '@/styles/tour-system.css';
@@ -179,58 +180,22 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
                 panel: (
                   <>
                     <ul className="dcards">
-                      {city.tours.map(({ slug, format, p }) => {
-                        const label = c.dayTours.labels[slug] ?? p.title;
-                        const href = `/${p.href}`;
-                        return (
-                          <li className="dcard" key={slug}>
-                            <TrackedLink href={href} listName={`home_day_${city.key}`} itemId={slug} className="dcard-img">
-                              <JourneyImage
-                                image={p.heroImage}
-                                alt={p.heroImage?.alt || label}
-                                className=""
-                                sizes="(max-width:980px) 90vw, 380px"
-                                widthHint={700}
-                                ratio={16 / 10}
-                              />
-                            </TrackedLink>
-                            <div className="dcard-body">
-                              <p className="meta">
-                                {[formatLabel(format), p.type === 'dayTour' && p.durationHours ? c.hours(p.durationHours) : null]
-                                  .filter(Boolean)
-                                  .join(' · ')}
-                              </p>
-                              <h3>
-                                <TrackedLink href={href} listName={`home_day_${city.key}`} itemId={slug}>
-                                  {label}
-                                </TrackedLink>
-                              </h3>
-                              <p className="price">
-                                {p.priceFrom ? (
-                                  <span className="price-from">{c.fromPerPerson(price(p.priceFrom))}</span>
-                                ) : (
-                                  <span className="price-basis">{c.priceOnRequest}</span>
-                                )}
-                              </p>
-                              {p.included && p.included.length > 0 && (
-                                <ul className="incl">
-                                  {p.included.slice(0, 3).map((x) => (
-                                    <li key={x}>{x}</li>
-                                  ))}
-                                </ul>
-                              )}
-                              <LeadButton
-                                source="day_tour_card"
-                                prefill={{ kind: 'day_tour', tourSlug: slug, tourTitle: p.title, priceFromEur: p.priceFrom }}
-                                itemListName={`home_day_${city.key}`}
-                                className="btn-outline"
-                              >
-                                {c.dayTours.check}
-                              </LeadButton>
-                            </div>
-                          </li>
-                        );
-                      })}
+                      {city.tours.map(({ slug, format, p }) => (
+                        <DayTourCard
+                          key={slug}
+                          p={{ slug, href: p.href, title: p.title, priceFrom: p.priceFrom, heroImage: p.heroImage }}
+                          displayTitle={c.dayTours.labels[slug] ?? p.title}
+                          meta={[formatLabel(format), p.type === 'dayTour' && p.durationHours ? c.hours(p.durationHours) : null]
+                            .filter(Boolean)
+                            .join(' · ')}
+                          included={p.included}
+                          listName={`home_day_${city.key}`}
+                          source="day_tour_card"
+                          checkLabel={c.dayTours.check}
+                          fromPerPerson={c.fromPerPerson}
+                          priceOnRequest={c.priceOnRequest}
+                        />
+                      ))}
                     </ul>
                     <p className="sec-more">
                       <Link className="more" href={localHref(c, city.href)}>
