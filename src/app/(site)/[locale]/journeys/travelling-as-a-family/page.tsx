@@ -6,7 +6,7 @@ import { JourneyPage } from '@/components/journeys/JourneyPage';
 import { familyContent } from '@/components/journeys/familyContent';
 import { JsonLd } from '@/components/JsonLd';
 import { buildStaticMetadata } from '@/lib/seo';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import { buildBreadcrumbList, buildPageArticleSchema } from '@/lib/structured-data';
 
 import '@/styles/journeys.css';
 
@@ -45,7 +45,19 @@ export default async function Page({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={breadcrumbSchema} />
+      <JsonLd
+        data={[
+          buildPageArticleSchema(
+            {
+              title: (familyContent[lc] ?? familyContent.en).meta.title,
+              description: (familyContent[lc] ?? familyContent.en).meta.description,
+              path: PATH,
+            },
+            lc,
+          ),
+          breadcrumbSchema,
+        ]}
+      />
       <JourneyPage content={familyContent[lc] ?? familyContent.en} locale={lc} />
     </>
   );

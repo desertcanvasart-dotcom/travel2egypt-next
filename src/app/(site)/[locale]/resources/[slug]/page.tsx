@@ -4,6 +4,7 @@ import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 
+import { ArticleJsonLd } from '@/components/ArticleJsonLd';
 import type { Locale } from '@/i18n/routing';
 import { routing } from '@/i18n/routing';
 import { buildStaticMetadata } from '@/lib/seo';
@@ -127,9 +128,11 @@ export default async function FieldGuidePage({ params }: Props) {
 
   const data = await getResource(slug, locale);
   if (!data) notFound();
+  const tFg = await getTranslations({ locale, namespace: 'resources' });
 
   return (
     <FieldGuideShell>
+      <ArticleJsonLd title={data.seo?.metaTitle || data.title} description={data.seo?.metaDescription || data.standfirstLead} path={`/resources/${slug}`} locale={locale as Locale} parent={{ name: tFg('metaTitle').replace(/ — .*$/, ''), path: '/resources' }} />
       <FieldMasthead
         number={data.seriesNumber}
         region={data.region ?? ''}

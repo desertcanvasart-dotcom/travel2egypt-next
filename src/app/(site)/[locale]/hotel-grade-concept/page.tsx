@@ -11,7 +11,7 @@ import {
 import { HotelGradeConceptPage } from '@/components/HotelGradeConceptPage';
 import { buildStaticMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import { buildBreadcrumbList, buildPageArticleSchema } from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -51,7 +51,12 @@ export default async function Page({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={breadcrumbSchema} />
+      <JsonLd
+        data={[
+          buildPageArticleSchema({ title: t('metaTitle'), description: t('metaDescription'), path: '/hotel-grade-concept' }, lc),
+          breadcrumbSchema,
+        ]}
+      />
       <HotelGradeConceptPage
         locale={lc}
         editorial={editorial}

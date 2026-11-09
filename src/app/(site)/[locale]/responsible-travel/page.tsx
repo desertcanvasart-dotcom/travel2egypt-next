@@ -9,7 +9,7 @@ import { EditorialPageView, type EditorialDoc } from '@/components/EditorialPage
 import { applyAccreditationTokens, getAccreditations } from '@/lib/accreditations';
 import { buildStaticMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import { buildBreadcrumbList, buildPageArticleSchema } from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -37,6 +37,7 @@ export default async function Page({ params }: Props) {
   );
   if (!doc) notFound();
 
+  const tMeta = await getTranslations({ locale, namespace: 'responsibleTravel' });
   const tNav = await getTranslations({ locale, namespace: 'nav' });
   const breadcrumbSchema = buildBreadcrumbList(
     [
@@ -48,7 +49,12 @@ export default async function Page({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={breadcrumbSchema} />
+      <JsonLd
+        data={[
+          buildPageArticleSchema({ title: tMeta('metaTitle'), description: tMeta('metaDescription'), path: '/responsible-travel' }, lc),
+          breadcrumbSchema,
+        ]}
+      />
       {/* Licence wording in the body is {tokens} filled from siteSettings. */}
       <EditorialPageView locale={lc} doc={applyAccreditationTokens(doc, await getAccreditations(), lc)} />
     </>

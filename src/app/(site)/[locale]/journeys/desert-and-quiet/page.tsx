@@ -6,7 +6,7 @@ import { JourneyPage } from '@/components/journeys/JourneyPage';
 import { desertAndQuietContent } from '@/components/journeys/desertAndQuietContent';
 import { JsonLd } from '@/components/JsonLd';
 import { buildStaticMetadata } from '@/lib/seo';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import { buildBreadcrumbList, buildPageArticleSchema } from '@/lib/structured-data';
 
 import '@/styles/journeys.css';
 
@@ -45,7 +45,19 @@ export default async function Page({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={breadcrumbSchema} />
+      <JsonLd
+        data={[
+          buildPageArticleSchema(
+            {
+              title: (desertAndQuietContent[lc] ?? desertAndQuietContent.en).meta.title,
+              description: (desertAndQuietContent[lc] ?? desertAndQuietContent.en).meta.description,
+              path: PATH,
+            },
+            lc,
+          ),
+          breadcrumbSchema,
+        ]}
+      />
       <JourneyPage content={desertAndQuietContent[lc] ?? desertAndQuietContent.en} locale={lc} />
     </>
   );

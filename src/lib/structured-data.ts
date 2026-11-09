@@ -376,6 +376,56 @@ export function buildArticleSchema(
   };
 }
 
+/**
+ * Article markup for editorial pages that are not journal posts (2026-11-09,
+ * Ahrefs "Article page missing"): resources, journeys, travel tips index,
+ * responsible travel, the hotel-grade concept, and the guide / wiki pages
+ * alongside their place markup. `about` points at the page's place node
+ * (by @id) when the page is about a place; the place markup stays the main
+ * entity type. No author is invented: the publisher is the organization.
+ */
+export interface PageArticleInput {
+  title: string;
+  description?: string | null;
+  /** Locale-neutral path, e.g. "/resources/egyptian-cuisine". */
+  path: string;
+  heroImage?: ImageField | null;
+  /** Absolute image URL, when the page has no Sanity image field. */
+  imageUrl?: string;
+  datePublished?: string | null;
+  dateModified?: string | null;
+  section?: string | null;
+  /** @id of the place this article is about (see placeId()). */
+  aboutId?: string;
+}
+
+export function buildPageArticleSchema(input: PageArticleInput, locale: Locale) {
+  const url = absoluteUrl(input.path, locale);
+  const image = imageUrlOrUndefined(input.heroImage, 1600, 900) ?? input.imageUrl;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    '@id': `${url}#article`,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    // Headline without the brand suffix some meta titles carry ("… · Travel2Egypt").
+    headline: input.title.replace(/\s+[·|—–-]\s+Travel2Egypt.*$/, '').trim(),
+    ...(input.description ? { description: input.description } : {}),
+    ...(image ? { image } : {}),
+    ...(input.datePublished ? { datePublished: input.datePublished } : {}),
+    ...(input.dateModified || input.datePublished ? { dateModified: input.dateModified ?? input.datePublished } : {}),
+    ...(input.section ? { articleSection: input.section } : {}),
+    ...(input.aboutId ? { about: { '@id': input.aboutId } } : {}),
+    author: { '@id': `${SITE_URL}#organization` },
+    publisher: { '@id': `${SITE_URL}#organization` },
+    inLanguage: locale,
+  };
+}
+
+/** Stable @id for a page's place node (TouristAttraction, landmark, destination). */
+export function placeId(path: string, locale: Locale): string {
+  return `${absoluteUrl(path, locale)}#place`;
+}
+
 // ─────────────────────────────────────────────────────────
 // TouristTrip (tours and packages)
 // ─────────────────────────────────────────────────────────
@@ -766,11 +816,13 @@ export function buildPlaceSchema(input: PlaceInput, locale: Locale) {
   const url = absoluteUrl(path, locale);
   // For monuments the LandmarkOrHistoricalBuilding subtype is more
   // specific; cities use Place.
+  // Cities are travel destinations (TouristDestination is a Place subtype).
   const schemaType =
-    input.type === 'wikiMonument' ? 'LandmarksOrHistoricalBuildings' : 'Place';
+    input.type === 'wikiMonument' ? 'LandmarksOrHistoricalBuildings' : 'TouristDestination';
   return {
     '@context': 'https://schema.org',
     '@type': schemaType,
+    '@id': `${url}#place`,
     name: input.name,
     description: input.summary,
     url,
@@ -839,6 +891,7 @@ export function buildGuideArticleSchema(
     return {
       '@context': 'https://schema.org',
       '@type': 'TouristAttraction',
+      '@id': `${url}#place`,
       ...(input.monumentType ? { additionalType: input.monumentType } : {}),
       name: input.title,
       description: input.summary,
