@@ -1,15 +1,25 @@
 'use client';
 
 import { useEffect, useId, useRef, useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
+
+import { Link, useRouter } from '@/i18n/navigation';
 import { whatsappUrl } from '@/lib/concierge/constants';
+import { useLead } from '@/components/leads/LeadProvider';
 
 /**
  * Persistent floating concierge — reconciled to the approved tour-system
  * reference (journey-1/2/3). Classes/styles live in src/styles/tour-system.css
- * (.t2e-conc*). There is no concierge backend yet, so suggested questions and
- * the free-text box hand off to WhatsApp with the message pre-filled. Opens in
- * response to a `concierge:open` window event dispatched by in-page prompts.
+ * (.t2e-conc*). Opens in response to a `concierge:open` window event
+ * dispatched by in-page prompts.
+ *
+ * Where a question goes (2026-11-09 — this panel predated the AI concierge
+ * and sent everything to WhatsApp, even after the copy said "AI concierge"):
+ *  - EN/ES with the chat on: the AI concierge on /plan-your-tour#concierge,
+ *    with the question pre-filled in its input (?q=) and this page's tour as
+ *    context (?tour=).
+ *  - JA (the concierge doesn't speak Japanese) or the chat switched off:
+ *    WhatsApp with the question pre-filled, and the panel says so.
  *
  * Keyboard: Tab is trapped within the panel, Escape closes it, focus returns
  * to the trigger on close.
@@ -17,8 +27,18 @@ import { whatsappUrl } from '@/lib/concierge/constants';
 
 
 
-export function FloatingConcierge() {
+export function FloatingConcierge({ tourSlug }: { tourSlug?: string | null } = {}) {
   const t = useTranslations('floatingConcierge');
+  const locale = useLocale();
+  const router = useRouter();
+  const { chatEnabled } = useLead();
+  const toConcierge = chatEnabled && (locale === 'en' || locale === 'es');
+  const conciergeHref = (q: string) => {
+    const qs = new URLSearchParams();
+    if (tourSlug) qs.set('tour', tourSlug);
+    qs.set('q', q);
+    return `/plan-your-tour?${qs.toString()}#concierge`;
+  };
   const [open, setOpen] = useState(false);
   const [draft, setDraft] = useState('');
   const panelRef = useRef<HTMLDivElement>(null);
@@ -109,14 +129,20 @@ export function FloatingConcierge() {
         </button>
         <span className="t2e-kicker">{t('eyebrow')}</span>
         <h4 id={titleId}>{t('title')}</h4>
-        <p className="sub">{t('sub')}</p>
+        <p className="sub">{toConcierge ? t('sub') : t('subWhatsapp')}</p>
         {prompts.length > 0 && (
           <ul className="t2e-conc-list">
             {prompts.map((prompt) => (
               <li key={prompt}>
-                <a href={whatsappUrl(prompt)} target="_blank" rel="noopener noreferrer">
-                  {prompt}
-                </a>
+                {toConcierge ? (
+                  <Link href={conciergeHref(prompt)} rel="nofollow" onClick={() => setOpen(false)}>
+                    {prompt}
+                  </Link>
+                ) : (
+                  <a href={whatsappUrl(prompt)} target="_blank" rel="noopener noreferrer">
+                    {prompt}
+                  </a>
+                )}
               </li>
             ))}
           </ul>
@@ -126,6 +152,11 @@ export function FloatingConcierge() {
             e.preventDefault();
             const message = draft.trim();
             if (!message) return;
+            if (toConcierge) {
+              setOpen(false);
+              router.push(conciergeHref(message.slice(0, 500)));
+              return;
+            }
             // Enter follows a real link (see the list above) rather than
             // window.open, which popup blockers intercept.
             const link = document.createElement('a');

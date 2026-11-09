@@ -21,7 +21,7 @@ import '@/styles/plan-page.css';
 
 interface Props {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ tour?: string | string[]; resume_error?: string | string[] }>;
+  searchParams: Promise<{ tour?: string | string[]; resume_error?: string | string[]; q?: string | string[] }>;
 }
 
 /**
@@ -69,7 +69,9 @@ export default async function Page({ params, searchParams }: Props) {
   const lc = locale as Locale;
   const hl = homeLocale(locale);
 
-  const { tour, resume_error } = await searchParams;
+  const { tour, resume_error, q } = await searchParams;
+  // A question from the floating concierge panel; plain text, length-capped.
+  const question = typeof q === 'string' ? q.replace(/\s+/g, ' ').trim().slice(0, 500) || null : null;
   const rawSlug = typeof tour === 'string' ? tour : null;
 
   const chatLocale = lc === 'en' || lc === 'es' ? lc : null;
@@ -142,6 +144,7 @@ export default async function Page({ params, searchParams }: Props) {
                 tourTitle: tourContext?.title ?? null,
                 resumeError: resume_error === '1',
                 linkMap,
+                initialInput: question,
               }
             : null
         }

@@ -13,6 +13,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { CookieConsent } from '@/components/CookieConsent';
 import { Analytics } from '@/components/Analytics';
 import { LeadProvider } from '@/components/leads/LeadProvider';
+import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { MobileLeadBar } from '@/components/MobileLeadBar';
 import { ConsentProvider } from '@/lib/consent';
 import { CurrencyProvider } from '@/lib/currency-context';
@@ -87,6 +88,7 @@ export default async function LocaleLayout({
             <CurrencyProvider defaultCurrency={defaultCurrencyForLocale(locale)}>
               <LeadProvider
                 locale={locale}
+                chatEnabled={isChatEnabled()}
                 responseTime={{ short: siteSettings?.responseTimeShort ?? '', full: siteSettings?.responseTimeFull ?? '' }}
               >
                 <Header locale={locale as Locale} />
