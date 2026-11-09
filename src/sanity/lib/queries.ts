@@ -2145,7 +2145,7 @@ export const tourCategoryBySlugQuery = (locale: Locale) => groq`
     "intro": ${portableTextBodyProjection('intro', locale)},
     "faq": faq[]{
       _key,
-      "question": ${localizedField('question', locale)},
+      "question": ${localizedFieldStrict('question', locale)},
       "answer": ${portableTextBodyProjection('answer', locale)},
     },
     heroImage{
@@ -2192,7 +2192,7 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
     "intro": ${portableTextBodyProjection('intro', locale)},
     "faq": faq[]{
       _key,
-      "question": ${localizedField('question', locale)},
+      "question": ${localizedFieldStrict('question', locale)},
       "answer": ${portableTextBodyProjection('answer', locale)},
     },
     heroImage{
