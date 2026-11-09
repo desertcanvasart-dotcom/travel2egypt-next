@@ -1,0 +1,29 @@
+{
+  "slug": "cairo-dinner-cruise-with-belly-dancing-show",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Traslado desde el hotel en vehículo con aire acondicionado",
+        "source": "La velada empieza con un traslado desde el hotel en vehículo con aire acondicionado; conviene confirmar la dirección exacta y la hora de salida al reservar, ya que el embarque tiene una ventana fija."
+      },
+      {
+        "text": "Traslado de regreso al hotel",
+        "source": "El crucero concluye con un traslado de regreso al hotel."
+      },
+      {
+        "text": "Refrescos (suelen estar incluidos)",
+        "source": "Las bebidas están disponibles; los refrescos suelen estar incluidos y el alcohol se cobra aparte."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "El alcohol se cobra aparte",
+        "source": "Las bebidas están disponibles; los refrescos suelen estar incluidos y el alcohol se cobra aparte."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

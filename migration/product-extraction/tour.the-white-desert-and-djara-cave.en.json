@@ -1,0 +1,59 @@
+{
+  "slug": "the-white-desert-and-djara-cave",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "your own Egyptologist",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping (White Desert and beside Djara)"
+      },
+      {
+        "text": "4×4 desert drivers",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping (White Desert and beside Djara)"
+      },
+      {
+        "text": "two nights in Bahariya hotels",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping (White Desert and beside Djara)"
+      },
+      {
+        "text": "two nights camping (White Desert and beside Djara)",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · two nights in Bahariya hotels, two nights camping (White Desert and beside Djara)"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Cairo to Bahariya",
+        "overnight": "Bahariya hotel",
+        "source": "The night is spent at a Bahariya hotel."
+      },
+      {
+        "day": 2,
+        "title": "Golden Mummies, Black and White Desert",
+        "overnight": "White Desert camp",
+        "source": "Camp is set up among them for the night, in the open desert, with the chalk shapes visible by moonlight."
+      },
+      {
+        "day": 3,
+        "title": "West to Djara Cave: the deep desert",
+        "overnight": "Camp beside Djara Cave",
+        "source": "Camp is made beside Djara Cave, some 150 kilometres from the White Desert camp."
+      },
+      {
+        "day": 4,
+        "title": "Djara Cave, drive back to Bahariya",
+        "overnight": "Hotel in Bahariya oasis",
+        "source": "The night is spent at a hotel in the oasis, which registers as genuine comfort after two nights under canvas."
+      },
+      {
+        "day": 5,
+        "title": "Back to Cairo",
+        "overnight": null,
+        "source": "A final breakfast in Bahariya, then the four-hour drive northeast back to Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "10-day-egypt-group-tour-cairo-nile-red-sea",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Guía egiptólogo licenciado compartido",
+        "source": "Esto es un viaje en grupo: una salida programada que se desplaza junta como un solo grupo, con un guía egiptólogo licenciado compartido y transporte privado climatizado durante todo el recorrido."
+      },
+      {
+        "text": "Transporte privado climatizado durante todo el recorrido",
+        "source": "Esto es un viaje en grupo: una salida programada que se desplaza junta como un solo grupo, con un guía egiptólogo licenciado compartido y transporte privado climatizado durante todo el recorrido."
+      },
+      {
+        "text": "Recepción en el aeropuerto, asistencia y traslado al hotel",
+        "source": "El grupo es recibido en el Aeropuerto Internacional de El Cairo, asistido en los trámites de llegada y trasladado directamente al hotel."
+      },
+      {
+        "text": "Tres noches de crucero por el Nilo entre Asuán y Luxor",
+        "source": "Viaje en grupo de diez días por los museos y mezquitas de El Cairo, tres noches de crucero por el Nilo entre Asuán y Luxor, y el mar Rojo en Hurghada."
+      },
+      {
+        "text": "Cena del día 1 según la hora de llegada",
+        "source": "La cena se incluye o no en función de la hora de llegada."
+      },
+      {
+        "text": "Almuerzo durante la visita del día 2",
+        "source": "El almuerzo se incluye durante la visita; regreso al hotel para cenar."
+      },
+      {
+        "text": "Desayuno, almuerzo y cena (días 2, 3, 4, 5, 6, 7 y 9)",
+        "source": "Comidas: Desayuno, Almuerzo, Cena Alojamiento: El Cairo"
+      },
+      {
+        "text": "Almuerzo y cena a bordo del crucero",
+        "source": "Almuerzo y cena a bordo."
+      },
+      {
+        "text": "Desayuno y cena en Hurghada, según el régimen del hotel",
+        "source": "Comidas: Desayuno y cena, según el régimen del hotel Alojamiento: Hurghada"
+      },
+      {
+        "text": "Traslado al Aeropuerto Internacional de El Cairo el día de salida",
+        "source": "Tras el desayuno y la salida del hotel, traslado al Aeropuerto Internacional de El Cairo para el vuelo de regreso."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada a El Cairo",
+        "overnight": "El Cairo",
+        "source": "Comidas: Cena, según la hora de llegada Alojamiento: El Cairo"
+      },
+      {
+        "day": 2,
+        "title": "El Gran Museo Egipcio y las pirámides de Guiza",
+        "overnight": "El Cairo",
+        "source": "Tras el desayuno, el viaje empieza allí donde el Egipto contemporáneo ha elegido contar su propia historia: el Gran Museo Egipcio, junto a la meseta de Guiza, abierto completamente desde el 1 de noviembre de 2025, hogar ya de la colección íntegra de Tutankamón —la máscara de oro, los sarcófagos encajados, las capillas doradas— expuesta toda junta por primera vez."
+      },
+      {
+        "day": 3,
+        "title": "El Cairo antiguo, El Cairo islámico y Jan el-Jalili",
+        "overnight": "El Cairo",
+        "source": "Tras el desayuno, el día gira de la ciudad faraónica a la medieval."
+      },
+      {
+        "day": 4,
+        "title": "Vuelo a Asuán y embarque en el crucero",
+        "overnight": "Crucero por el Nilo",
+        "source": "Comidas: Desayuno, Almuerzo, Cena Alojamiento: Crucero por el Nilo"
+      },
+      {
+        "day": 5,
+        "title": "Kom Ombo y navegación hacia el norte",
+        "overnight": "Crucero por el Nilo",
+        "source": "Desayuno a bordo mientras el barco avanza hacia el norte."
+      },
+      {
+        "day": 6,
+        "title": "Edfu y navegación hasta Luxor",
+        "overnight": "Crucero por el Nilo",
+        "source": "De vuelta a bordo, el barco continúa hacia Luxor y el resto del día queda libre en cubierta."
+      },
+      {
+        "day": 7,
+        "title": "Luxor y trayecto al mar Rojo",
+        "overnight": "Hurghada",
+        "source": "Comidas: Desayuno, Almuerzo, Cena Alojamiento: Hurghada"
+      },
+      {
+        "day": 8,
+        "title": "Hurghada: el mar Rojo",
+        "overnight": "Hurghada",
+        "source": "Comidas: Desayuno y cena, según el régimen del hotel Alojamiento: Hurghada"
+      },
+      {
+        "day": 9,
+        "title": "Vuelo a El Cairo y la Ciudadela",
+        "overnight": "El Cairo",
+        "source": "Tras el desayuno, traslado al aeropuerto de Hurghada para el vuelo de regreso a El Cairo."
+      },
+      {
+        "day": 10,
+        "title": "Salida",
+        "overnight": null,
+        "source": "Tras el desayuno y la salida del hotel, traslado al Aeropuerto Internacional de El Cairo para el vuelo de regreso."
+      }
+    ],
+    "dropped": 0
+  }
+}

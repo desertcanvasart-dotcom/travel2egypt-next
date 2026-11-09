@@ -1,0 +1,58 @@
+{
+  "slug": "2-day-tour-to-al-minya-from-cairo",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Guía egiptólogo licenciado",
+        "source": "Viaje privado de dos días al Egipto Medio: Beni Hassan, Amarna, Hermópolis y Tuna el-Gebel con noche en Minia y guía egiptólogo licenciado."
+      },
+      {
+        "text": "Noche en Minia",
+        "source": "Viaje privado de dos días al Egipto Medio: Beni Hassan, Amarna, Hermópolis y Tuna el-Gebel con noche en Minia y guía egiptólogo licenciado."
+      },
+      {
+        "text": "Vehículo privado con recogida en el hotel",
+        "source": "El guía y el vehículo privado recogen al viajero en su hotel, y el trayecto hacia el sur hasta Minia toma aproximadamente tres horas dependiendo del tráfico —conviene contar con el plazo completo, no con el mejor escenario—."
+      },
+      {
+        "text": "Traslado de vuelta a los alojamientos en El Cairo",
+        "source": "Por la noche, los huéspedes serán transportados cómodamente de vuelta a sus alojamientos en El Cairo"
+      },
+      {
+        "text": "Comidas día 1: Cena (contradice la exclusión de la cena en el texto)",
+        "source": "Comidas: Cena"
+      },
+      {
+        "text": "Comidas día 2: Desayuno",
+        "source": "Comidas: Desayuno"
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Tarifas de entrada fuera de la tarifa Base",
+        "source": "Las tarifas de entrada en Egipto se revisan a menudo, así que las dejamos fuera de la tarifa Base y permitimos añadirlas para no tener que manejar efectivo en cada puerta."
+      },
+      {
+        "text": "Cena por cuenta del viajero",
+        "source": "La cena corre por cuenta del viajero; el guía puede recomendar opciones locales."
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Viaje de El Cairo a Al Menya",
+        "overnight": "Minia",
+        "source": "La noche se pasa en Minia, una ciudad más tranquila y menos turística en la orilla occidental del Nilo."
+      },
+      {
+        "day": 2,
+        "title": "Explorar Tuna El Gabal y Tal El Amarna",
+        "overnight": null,
+        "source": "Vuelve a visitar Tuna El Gabal para realizar una exploración más profunda."
+      }
+    ],
+    "dropped": 0
+  }
+}

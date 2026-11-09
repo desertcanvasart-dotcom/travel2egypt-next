@@ -318,8 +318,19 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       highlights[_key == "${locale}"][0].value,
       highlights[_key == "en"][0].value
     ),
-    "inclusions": ${portableTextBodyProjection('inclusions', locale)},
-    "exclusions": ${portableTextBodyProjection('exclusions', locale)},
+    // Review-gated facts (2026-11-09): only owner-approved items in this
+    // language reach the page. The itinerary comes back only when EVERY row
+    // in this language is approved (title and night); the view also checks
+    // it covers every day, so a partial itinerary never renders.
+    "approvedInclusions": inclusions[lang == "${locale}" && needsReview == false].text,
+    "approvedExclusions": exclusions[lang == "${locale}" && needsReview == false].text,
+    "approvedItinerary": select(
+      count(itineraryDays[lang == "${locale}"]) > 0 &&
+      count(itineraryDays[lang == "${locale}" && (needsReview != false || overnightNeedsReview != false)]) == 0
+        => itineraryDays[lang == "${locale}"] | order(day asc){ day, title, overnight },
+      []
+    ),
+    "priceUpdatedAt": _updatedAt,
     "days": days[]{
       dayNumber,
       "title": ${localizedField('title', locale)},
@@ -355,7 +366,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       credit
     },
     "relatedTours": relatedTours[${relatedLocaleGuard(locale)}]->{
-      ${tourCardProjection(locale)}
+      ${tourCardProjection(locale)},
+      priceFrom
     },
     "relatedGuides": relatedGuides[]->{
       _id,

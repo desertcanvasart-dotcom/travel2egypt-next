@@ -1,0 +1,41 @@
+{
+  "slug": "private-tour-transfer-from-luxor-to-marsa-alam-by-car",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Hotel pickup in Luxor",
+        "source": "Pickup is from your hotel in Luxor, typically in the morning to allow for a reasonable afternoon arrival."
+      },
+      {
+        "text": "Private vehicle and driver",
+        "source": "The drive is private, meaning the vehicle and driver are yours alone."
+      },
+      {
+        "text": "Air-conditioned vehicle",
+        "source": "The vehicle is air-conditioned, which matters — the desert crossing can be very hot, particularly between April and October."
+      },
+      {
+        "text": "Drop-off at your hotel or resort in Marsa Alam",
+        "source": "Your driver will take you directly to your hotel or resort."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "No guided commentary",
+        "source": "No guided commentary, no entry tickets, no set itinerary."
+      },
+      {
+        "text": "No entry tickets",
+        "source": "No guided commentary, no entry tickets, no set itinerary."
+      },
+      {
+        "text": "Not a guided experience",
+        "source": "The driver speaks sufficient English to manage the logistics; this is not a guided experience."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

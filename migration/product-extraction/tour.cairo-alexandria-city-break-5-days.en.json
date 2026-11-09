@@ -1,0 +1,59 @@
+{
+  "slug": "cairo-alexandria-city-break-5-days",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "A licensed English-speaking Egyptologist",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers including the Cairo-Alexandria run, four nights in carefully selected hotels, and full board throughout are part of the package."
+      },
+      {
+        "text": "Private air-conditioned transfers including the Cairo-Alexandria run",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers including the Cairo-Alexandria run, four nights in carefully selected hotels, and full board throughout are part of the package."
+      },
+      {
+        "text": "Four nights in carefully selected hotels",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers including the Cairo-Alexandria run, four nights in carefully selected hotels, and full board throughout are part of the package."
+      },
+      {
+        "text": "Full board throughout",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers including the Cairo-Alexandria run, four nights in carefully selected hotels, and full board throughout are part of the package."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Cairo: the plateau",
+        "overnight": "Cairo",
+        "source": "Day one opens with the monuments that organised Egypt's reputation for the rest of history."
+      },
+      {
+        "day": 2,
+        "title": "Cairo: museum and the medieval city",
+        "overnight": "Cairo",
+        "source": "The second day moves from the plateau to the city, and from the pharaonic to the medieval."
+      },
+      {
+        "day": 3,
+        "title": "Cairo: the invention of the pyramid",
+        "overnight": "Cairo",
+        "source": "The third day reaches back past Giza to the point where large-scale stone architecture began."
+      },
+      {
+        "day": 4,
+        "title": "Alexandria: the Mediterranean city",
+        "overnight": "Cairo",
+        "source": "The Alexandria day is built as a single long return drive rather than an overnight, which keeps the hotel stay anchored in Cairo and the packing minimal."
+      },
+      {
+        "day": 5,
+        "title": "Transfer to Cairo International Airport for departure",
+        "overnight": null,
+        "source": "The fifth day is a transfer day: a final breakfast and the drive back to Cairo International Airport for departure, with later flights giving the option of additional hours in the city."
+      }
+    ],
+    "dropped": 0
+  }
+}

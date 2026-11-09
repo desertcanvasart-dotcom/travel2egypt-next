@@ -1,0 +1,29 @@
+{
+  "slug": "full-day-trip-to-luxor-by-plane-from-cairo",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Entrada al Valle de los Reyes",
+        "source": "La entrada al valle está incluida; el guía indicará qué tumbas están abiertas y son más interesantes en el día de la visita, ya que el acceso rota por motivos de conservación."
+      },
+      {
+        "text": "Guía privado",
+        "source": "Una jornada intensa para quien solo tiene un día pero quiere ver Tebas con guía privado y vuelos internos."
+      },
+      {
+        "text": "Vuelos internos",
+        "source": "Una jornada intensa para quien solo tiene un día pero quiere ver Tebas con guía privado y vuelos internos."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "La tumba de Tutankamón (KV62) requiere entrada aparte",
+        "source": "La tumba de Tutankamón (KV62) requiere entrada aparte dentro del Valle de los Reyes; su contenido se expone ahora en el Gran Museo Egipcio."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

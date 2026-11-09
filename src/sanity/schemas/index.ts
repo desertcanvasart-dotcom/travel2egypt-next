@@ -7,6 +7,7 @@ import { citySchema } from './city';
 import { coordinatesSchema } from './coordinates';
 import { guideArticleSchema } from './guideArticle';
 import { localizedImageSchema } from './localizedImage';
+import { productFactSchema, itineraryDaySchema } from './productFacts';
 import { portableTextSchema } from './portableText';
 import { seoSchema } from './seo';
 import { themeSchema } from './theme';
@@ -48,6 +49,8 @@ export const schemaTypes = [
   seoSchema,
   coordinatesSchema,
   localizedImageSchema,
+  productFactSchema,
+  itineraryDaySchema,
   portableTextSchema,
 
   // ── Editorial ──

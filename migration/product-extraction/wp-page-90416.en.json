@@ -1,0 +1,81 @@
+{
+  "slug": "8-day-luxor-to-luxor-cruise",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "7 nights aboard a five-star Nile cruise vessel",
+        "source": "Duration · 8 days / 7 nights aboard a five-star Nile cruise vessel"
+      },
+      {
+        "text": "Your own Egyptologist",
+        "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a standard 4–5 star cruise vessel."
+      },
+      {
+        "text": "Private cabin on a standard 4–5 star cruise vessel",
+        "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a standard 4–5 star cruise vessel."
+      },
+      {
+        "text": "Meet at Luxor International Airport and transfer to the ship",
+        "source": "You are met at Luxor International Airport and transferred to the ship."
+      },
+      {
+        "text": "Transfer to Luxor International Airport",
+        "source": "After a final breakfast on the water, you are transferred to Luxor International Airport."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Luxor, transfer to ship",
+        "overnight": "Nile cruise",
+        "source": "You are met at Luxor International Airport and transferred to the ship."
+      },
+      {
+        "day": 2,
+        "title": "The West Bank",
+        "overnight": "Nile cruise",
+        "source": "The first full day crosses to the West Bank — the land the ancient Egyptians set aside for the dead."
+      },
+      {
+        "day": 3,
+        "title": "Edfu and the Temple of Horus",
+        "overnight": "Nile cruise",
+        "source": "The cruise sails south overnight and arrives at Edfu in the morning."
+      },
+      {
+        "day": 4,
+        "title": "Aswan: High Dam, Obelisk, Philae",
+        "overnight": "Nile cruise",
+        "source": "The cruise reaches Aswan next, where the Nile narrows toward the first cataract."
+      },
+      {
+        "day": 5,
+        "title": "A day on the river",
+        "overnight": "Nile cruise",
+        "source": "The next day has no programme."
+      },
+      {
+        "day": 6,
+        "title": "Kom Ombo and the return north",
+        "overnight": "Nile cruise",
+        "source": "An Oriental Show and another Galabia Party round out the evening on board as the ship continues north."
+      },
+      {
+        "day": 7,
+        "title": "Luxor East Bank: Karnak, Luxor Temple",
+        "overnight": "Nile cruise",
+        "source": "The cruise returns to Luxor for its final full day, given to the East Bank — the city of the living, as opposed to the West Bank city of the dead visited at the start."
+      },
+      {
+        "day": 8,
+        "title": "Transfer to Luxor International Airport",
+        "overnight": null,
+        "source": "After a final breakfast on the water, you are transferred to Luxor International Airport."
+      }
+    ],
+    "dropped": 0
+  }
+}

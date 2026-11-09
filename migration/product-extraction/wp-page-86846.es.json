@@ -1,0 +1,25 @@
+{
+  "slug": "4-days-city-break",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Hotel de cinco estrellas",
+        "source": "El hotel es una propiedad de cinco estrellas seleccionada para el grupo; los traslados son privados y climatizados; el egiptólogo es exclusivo durante toda la estancia."
+      },
+      {
+        "text": "Traslados privados y climatizados",
+        "source": "El hotel es una propiedad de cinco estrellas seleccionada para el grupo; los traslados son privados y climatizados; el egiptólogo es exclusivo durante toda la estancia."
+      },
+      {
+        "text": "Egiptólogo exclusivo durante toda la estancia",
+        "source": "El hotel es una propiedad de cinco estrellas seleccionada para el grupo; los traslados son privados y climatizados; el egiptólogo es exclusivo durante toda la estancia."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

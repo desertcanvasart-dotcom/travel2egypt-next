@@ -1,0 +1,63 @@
+{
+  "slug": "5-day-the-obeiyed-cave-safari-tour",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Salida privada",
+        "source": "Es una salida privada —operada en exclusiva para su grupo, nunca compartida—."
+      },
+      {
+        "text": "Su propio egiptólogo",
+        "source": "Su egiptólogo se ocupa de la arqueología del oasis y de la interpretación de la cueva; los conductores de 4×4 del desierto manejan el terreno fuera de carretera entre Bahariya, los Desiertos Blancos, El-Obeiyed y los manantiales."
+      },
+      {
+        "text": "Conductores de 4×4 del desierto",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · dos noches en hoteles de Bahariya y dos acampados a cielo abierto"
+      },
+      {
+        "text": "Dos noches en hoteles de Bahariya",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · dos noches en hoteles de Bahariya y dos acampados a cielo abierto"
+      },
+      {
+        "text": "Dos noches acampados a cielo abierto",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · dos noches en hoteles de Bahariya y dos acampados a cielo abierto"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bahariya: la base de operaciones",
+        "overnight": "Hotel local de Bahariya",
+        "source": "La noche se pasa en un hotel local de Bahariya."
+      },
+      {
+        "day": 2,
+        "title": "Desierto Negro, Agabat y Desierto Blanco Antiguo",
+        "overnight": "Campamento en el Desierto Blanco Antiguo",
+        "source": "El campamento se monta a cielo abierto, entre las siluetas de tiza."
+      },
+      {
+        "day": 3,
+        "title": "La cueva de El-Obeiyed y el Manantial Mágico",
+        "overnight": "Segundo campamento del desierto",
+        "source": "Sigue el segundo campamento del desierto."
+      },
+      {
+        "day": 4,
+        "title": "Desierto Blanco Nuevo y regreso a Bahariya",
+        "overnight": "Hotel del oasis (Bahariya)",
+        "source": "La vuelta al hotel del oasis es un alivio genuino tras dos noches en el desierto."
+      },
+      {
+        "day": 5,
+        "title": "Regreso a El Cairo",
+        "overnight": null,
+        "source": "Sigue la conducción de vuelta a El Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

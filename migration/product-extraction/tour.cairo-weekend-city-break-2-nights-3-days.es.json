@@ -1,0 +1,47 @@
+{
+  "slug": "cairo-weekend-city-break-2-nights-3-days",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Un egiptólogo licenciado de habla hispana",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, dos noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema."
+      },
+      {
+        "text": "Traslados privados climatizados",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, dos noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema."
+      },
+      {
+        "text": "Dos noches de alojamiento",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, dos noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema."
+      },
+      {
+        "text": "Pensión completa",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados, dos noches de alojamiento y pensión completa están incluidos en todo momento; se reciben familias con niños sin problema."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "La meseta de Guiza",
+        "overnight": "El Cairo",
+        "source": "El viaje abre donde empieza la reputación de Egipto."
+      },
+      {
+        "day": 2,
+        "title": "Saqqara: donde se inventó la pirámide",
+        "overnight": "El Cairo",
+        "source": "El segundo día retrocede más que el primero."
+      },
+      {
+        "day": 3,
+        "title": "La ciudad medieval y el bazar",
+        "overnight": null,
+        "source": "El último día se mueve a otro Cairo distinto, levantado no por la ambición faraónica sino por mil años de gobierno e intercambio islámico."
+      }
+    ],
+    "dropped": 0
+  }
+}

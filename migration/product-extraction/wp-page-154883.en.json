@@ -1,0 +1,49 @@
+{
+  "slug": "overnight-sataya-dolphin-reef-safari",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private hotel transfer",
+        "source": "The hotel transfer is private to your party; the boat is a shared vessel, run by its crew."
+      },
+      {
+        "text": "Shared boat run by its crew",
+        "source": "The hotel transfer is private to your party; the boat is a shared vessel, run by its crew."
+      },
+      {
+        "text": "One bottle of mineral water per person",
+        "source": "The safari takes bookings from a single person upward, with no minimum group, and one bottle of mineral water per person is provided alongside the meals served aboard."
+      },
+      {
+        "text": "Meals served aboard",
+        "source": "The safari takes bookings from a single person upward, with no minimum group, and one bottle of mineral water per person is provided alongside the meals served aboard."
+      },
+      {
+        "text": "Guided snorkelling",
+        "source": "A guide leads you into the water at a point chosen for dolphin activity — the approach is respectful rather than chase-based, and swimmers are briefed on conduct before entering."
+      },
+      {
+        "text": "Overnight accommodation in double cabins or on the open deck",
+        "source": "Overnight accommodation is either in the vessel's double cabins or on the open deck under the sky."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Departure and First Exploration",
+        "overnight": "Aboard the vessel (double cabins or open deck)",
+        "source": "Day 1: Departure and First Exploration"
+      },
+      {
+        "day": 2,
+        "title": "Morning Snorkelling and Return Journey",
+        "overnight": null,
+        "source": "Day 2: Morning Snorkelling and Return Journey"
+      }
+    ],
+    "dropped": 0
+  }
+}

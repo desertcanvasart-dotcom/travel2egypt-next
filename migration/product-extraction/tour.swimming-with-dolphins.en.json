@@ -1,0 +1,41 @@
+{
+  "slug": "swimming-with-dolphins",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Hotel pickup",
+        "source": "The half-day runs on a fixed schedule, with hotel pickup included."
+      },
+      {
+        "text": "Private hotel transfer",
+        "source": "The hotel transfer is private to your party; Dolphinella itself is a shared, ticketed facility."
+      },
+      {
+        "text": "One bottle of mineral water per person",
+        "source": "The outing takes bookings from a single person upward, with no minimum group, and one bottle of mineral water per person is provided for the transfer."
+      },
+      {
+        "text": "Guide and vehicle",
+        "source": "The day begins at your hotel, where a guide and vehicle collect you and transfer you to Dolphinella in Hadaba."
+      },
+      {
+        "text": "Life vests",
+        "source": "Life vests are provided."
+      },
+      {
+        "text": "Transfer back to your hotel",
+        "source": "Transfer back to your hotel follows, completing the half-day."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Photographs and video footage (optional purchase)",
+        "source": "This is handled separately from the tour price and is entirely optional, though the images are the obvious way to document something that is otherwise difficult to photograph yourself."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

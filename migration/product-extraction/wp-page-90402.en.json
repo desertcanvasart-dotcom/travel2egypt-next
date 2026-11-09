@@ -1,0 +1,57 @@
+{
+  "slug": "4-days-cruise-from-aswan-to-luxor",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Standard five-star Nile cruise ship as your hotel throughout",
+        "source": "The vessel is a standard five-star Nile cruise ship and functions as your hotel throughout, the Egyptologist travelling with the party and transfers private."
+      },
+      {
+        "text": "3 nights aboard a five-star Nile cruise",
+        "source": "Duration · 4 days / 3 nights aboard a five-star Nile cruise — adjustable"
+      },
+      {
+        "text": "Egyptologist travelling with the party",
+        "source": "The vessel is a standard five-star Nile cruise ship and functions as your hotel throughout, the Egyptologist travelling with the party and transfers private."
+      },
+      {
+        "text": "Private transfers",
+        "source": "The vessel is a standard five-star Nile cruise ship and functions as your hotel throughout, the Egyptologist travelling with the party and transfers private."
+      },
+      {
+        "text": "Transfer to Luxor International Airport",
+        "source": "Your transfer to Luxor International Airport closes the cruise."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Aswan High Dam, Unfinished Obelisk, Philae",
+        "overnight": "Nile cruise",
+        "source": "You board in time for lunch, and a felucca sail around Kitchener's Island closes the day before the ship departs for Kom Ombo overnight."
+      },
+      {
+        "day": 2,
+        "title": "The river days: Kom Ombo and Edfu",
+        "overnight": "Nile cruise",
+        "source": "The middle day is the river at its most purposeful — two major temple stops, a long afternoon of sailing, and Luxor by evening."
+      },
+      {
+        "day": 3,
+        "title": "Luxor East Bank: Karnak and Luxor Temple",
+        "overnight": "Nile cruise, moored at Luxor",
+        "source": "The evening is aboard, moored at Luxor."
+      },
+      {
+        "day": 4,
+        "title": "Luxor West Bank and out",
+        "overnight": null,
+        "source": "The final day crosses to the West Bank — the land of the dead, where the New Kingdom pharaohs were buried in the desert cliffs."
+      }
+    ],
+    "dropped": 0
+  }
+}

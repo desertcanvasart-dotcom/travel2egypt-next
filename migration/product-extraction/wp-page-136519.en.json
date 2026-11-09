@@ -1,0 +1,91 @@
+{
+  "slug": "epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "A licensed English-speaking Egyptologist",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel between Aswan and Luxor, the sleeper train south, the Luxor–Cairo flight, and full board throughout are all part of the package."
+      },
+      {
+        "text": "Private air-conditioned transfers",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel between Aswan and Luxor, the sleeper train south, the Luxor–Cairo flight, and full board throughout are all part of the package."
+      },
+      {
+        "text": "Three nights in carefully selected five-star hotels",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel between Aswan and Luxor, the sleeper train south, the Luxor–Cairo flight, and full board throughout are all part of the package."
+      },
+      {
+        "text": "Three nights aboard a five-star cruise vessel between Aswan and Luxor",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel between Aswan and Luxor, the sleeper train south, the Luxor–Cairo flight, and full board throughout are all part of the package."
+      },
+      {
+        "text": "The sleeper train south",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel between Aswan and Luxor, the sleeper train south, the Luxor–Cairo flight, and full board throughout are all part of the package."
+      },
+      {
+        "text": "The Luxor–Cairo flight",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel between Aswan and Luxor, the sleeper train south, the Luxor–Cairo flight, and full board throughout are all part of the package."
+      },
+      {
+        "text": "Full board throughout",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights in carefully selected five-star hotels, three nights aboard a five-star cruise vessel between Aswan and Luxor, the sleeper train south, the Luxor–Cairo flight, and full board throughout are all part of the package."
+      },
+      {
+        "text": "Meet at Cairo International Airport and transfer to hotel",
+        "source": "You are met at Cairo International Airport and transferred to your hotel; no monuments, no programme, just arrival."
+      },
+      {
+        "text": "Dinner on day one",
+        "source": "Dinner is provided."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival at Cairo International Airport",
+        "overnight": "Cairo",
+        "source": "You are met at Cairo International Airport and transferred to your hotel; no monuments, no programme, just arrival."
+      },
+      {
+        "day": 2,
+        "title": "Giza plateau, Egyptian Museum, Khan el-Khalili",
+        "overnight": "Sleeping train",
+        "source": "In the evening you board the sleeping train south toward Aswan — a practical crossing of the distance that also happens to be one of the more atmospheric ways to travel in Egypt."
+      },
+      {
+        "day": 3,
+        "title": "Arrive in Aswan, board cruise",
+        "overnight": "Nile cruise ship",
+        "source": "You arrive in Aswan in the morning and board the Nile cruise ship that will be your hotel for the next three nights."
+      },
+      {
+        "day": 4,
+        "title": "Cruise sails north toward Kom Ombo",
+        "overnight": "Nile cruise ship",
+        "source": "The cruise sails north from Aswan toward Kom Ombo, and the hours on deck are as much the point as the destination."
+      },
+      {
+        "day": 5,
+        "title": "Edfu, the finest temple on the river",
+        "overnight": "Nile cruise ship",
+        "source": "Day five is anchored by Edfu, the finest temple on the river."
+      },
+      {
+        "day": 6,
+        "title": "Luxor West and East Banks, flight to Cairo",
+        "overnight": "Cairo",
+        "source": "The afternoon takes in Luxor Temple, the smaller East Bank complex connected to Karnak by the Avenue of Sphinxes, before a domestic flight back to Cairo."
+      },
+      {
+        "day": 7,
+        "title": "Transfer to Cairo International Airport",
+        "overnight": null,
+        "source": "Day seven is a transfer day: a final breakfast and the drive to Cairo International Airport, with later flights giving the option of additional hours in the city."
+      }
+    ],
+    "dropped": 0
+  }
+}

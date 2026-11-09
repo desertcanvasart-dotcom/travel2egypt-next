@@ -1,0 +1,37 @@
+{
+  "slug": "desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private 4×4 and driver",
+        "source": "Two days, a private 4×4 and driver, from Cairo into the Bahariya Oasis — the gateway oasis of the Western Desert, roughly 370 kilometres south-west of the city, in a depression below the level of the surrounding plateau."
+      },
+      {
+        "text": "Your own guide and 4×4 driver",
+        "source": "Character · Fully private · your own guide and 4×4 driver · oasis lodge stay · brisk pace, long driving days"
+      },
+      {
+        "text": "1 night at an oasis lodge",
+        "source": "Duration · 2 days / 1 night (at an oasis lodge) — extendable to 3 days with a White Desert overnight"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bahariya: the oasis day",
+        "overnight": "Oasis lodge (Sands Bahariya or one of its peers)",
+        "source": "Check-in is at a working oasis lodge — the Sands Bahariya, or one of its peers — and the afternoon is the oasis proper."
+      },
+      {
+        "day": 2,
+        "title": "The antiquities, the deserts, the drive back",
+        "overnight": null,
+        "source": "The return drive to Cairo brings the trip back to the city by late evening."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "3-day-nubian-fishing-safari",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "2 nights aboard",
+        "source": "Duration · 3 days / 2 nights aboard — extendable to 4–7 days"
+      },
+      {
+        "text": "Fully private live-aboard",
+        "source": "Character · Fully private live-aboard · Nubian fishing guides · all gear provided · cabin or deck sleeping"
+      },
+      {
+        "text": "Nubian fishing guides",
+        "source": "Character · Fully private live-aboard · Nubian fishing guides · all gear provided · cabin or deck sleeping"
+      },
+      {
+        "text": "all gear provided",
+        "source": "Character · Fully private live-aboard · Nubian fishing guides · all gear provided · cabin or deck sleeping"
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Major temple visits not included as standard",
+        "source": "Your fishing schedule does not include the major temple visits as standard, but the shoreline is dotted with the ruins of villages whose inhabitants were moved north to Kom Ombo, and your guide will read the landscape for you in a way no other guide can."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

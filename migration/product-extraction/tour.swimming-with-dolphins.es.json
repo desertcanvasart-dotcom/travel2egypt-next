@@ -1,0 +1,29 @@
+{
+  "slug": "swimming-with-dolphins",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Recogida en hotel",
+        "source": "El medio día opera con horario fijo, con recogida en hotel incluida."
+      },
+      {
+        "text": "Botella de agua mineral por persona para el trayecto",
+        "source": "La salida acepta reservas a partir de una persona, sin grupo mínimo, y se proporciona una botella de agua mineral por persona para el trayecto."
+      },
+      {
+        "text": "Chalecos salvavidas",
+        "source": "Se proporcionan chalecos salvavidas."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Fotografías y vídeo (opcionales, aparte del precio del tour)",
+        "source": "Esto se gestiona aparte del precio del tour y es enteramente opcional, aunque las imágenes son la manera evidente de documentar algo que, de otro modo, resulta difícil de fotografiar uno mismo."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

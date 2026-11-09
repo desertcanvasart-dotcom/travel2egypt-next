@@ -1,0 +1,41 @@
+{
+  "slug": "private-tour-transfer-from-luxor-to-hurghada-by-bus",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Vehículo privado",
+        "source": "Lo que se ofrece es un vehículo privado, un conductor competente y una travesía cómoda por un terreno que la mayoría de los visitantes solo ve desde la ventanilla de un avión, cuando no lo evita por completo."
+      },
+      {
+        "text": "Conductor",
+        "source": "Lo que se ofrece es un vehículo privado, un conductor competente y una travesía cómoda por un terreno que la mayoría de los visitantes solo ve desde la ventanilla de un avión, cuando no lo evita por completo."
+      },
+      {
+        "text": "Recogida en el hotel de Luxor",
+        "source": "Su conductor le recibe en el hotel de Luxor a una hora acordada por adelantado; cuente con una salida entre primera hora y media mañana según dónde se aloje y cómo desee llegar."
+      },
+      {
+        "text": "Vehículo con aire acondicionado",
+        "source": "El vehículo cuenta con aire acondicionado, lo que importa en el Alto Egipto, donde las temperaturas diurnas superan habitualmente los 35 °C entre abril y octubre."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Paradas con guía",
+        "source": "No hay paradas con guía, ni atrios de templos, ni colas."
+      },
+      {
+        "text": "Paradas en templos",
+        "source": "Un traslado puro: ni paradas en templos, ni comentario, solo el desierto pasando."
+      },
+      {
+        "text": "Comentario",
+        "source": "Un traslado puro: ni paradas en templos, ni comentario, solo el desierto pasando."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

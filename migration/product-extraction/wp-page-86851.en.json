@@ -1,0 +1,57 @@
+{
+  "slug": "the-elegant-cairo-4-days-tour",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Meet at Cairo International and transfer to the hotel",
+        "source": "You are met at Cairo International and transferred to the hotel."
+      },
+      {
+        "text": "Licensed Egyptologist",
+        "source": "The tour is private throughout: a licensed Egyptologist, private transfers, entrances included on the programme."
+      },
+      {
+        "text": "Private transfers",
+        "source": "The tour is private throughout: a licensed Egyptologist, private transfers, entrances included on the programme."
+      },
+      {
+        "text": "Entrances included on the programme",
+        "source": "The tour is private throughout: a licensed Egyptologist, private transfers, entrances included on the programme."
+      },
+      {
+        "text": "Transfer to Cairo International on departure",
+        "source": "A final breakfast at the hotel, then a transfer to Cairo International."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and the city at walking pace",
+        "overnight": "Cairo",
+        "source": "You are met at Cairo International and transferred to the hotel."
+      },
+      {
+        "day": 2,
+        "title": "NMEC and the Giza plateau",
+        "overnight": "Cairo",
+        "source": "The second day carries the tour's two heaviest sites, and the sequencing is deliberate: the collection before the monuments, so that what you have read in the galleries is visible in stone on the plateau."
+      },
+      {
+        "day": 3,
+        "title": "Coptic Cairo, Ben Ezra Synagogue, Khan el-Khalili",
+        "overnight": "Cairo",
+        "source": "A third day is Cairo's other history — the one that predates the Arab conquest and runs back through Byzantium to the early Christian communities of the first and second centuries."
+      },
+      {
+        "day": 4,
+        "title": "Final breakfast, transfer to Cairo International",
+        "overnight": null,
+        "source": "A final breakfast at the hotel, then a transfer to Cairo International."
+      }
+    ],
+    "dropped": 0
+  }
+}

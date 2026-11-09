@@ -1,0 +1,24 @@
+{
+  "slug": "aswan-and-abu-simbel-from-luxor",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "From Luxor to the splendor of Aswan",
+        "overnight": "Aswan",
+        "source": "After a restful overnight stay in Aswan, recharge your spirits for the journey ahead."
+      },
+      {
+        "day": 2,
+        "title": "Temples of Abu Simbel, back to Luxor",
+        "overnight": null,
+        "source": "As the sun rises, set forth on a pilgrimage to the awe-inspiring temples of Abu Simbel."
+      }
+    ],
+    "dropped": 0
+  }
+}

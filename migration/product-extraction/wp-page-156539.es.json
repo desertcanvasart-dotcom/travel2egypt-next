@@ -1,0 +1,113 @@
+{
+  "slug": "10-day-egypt-travel-journey-through-history",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Salida privada, operada solo para su grupo",
+        "source": "Una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta."
+      },
+      {
+        "text": "Su propio egiptólogo",
+        "source": "Una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta."
+      },
+      {
+        "text": "Traslados privados durante toda la ruta",
+        "source": "Una salida privada, operada solo para su grupo, con su propio egiptólogo y traslados privados durante toda la ruta."
+      },
+      {
+        "text": "Traslado desde el aeropuerto",
+        "source": "Traslado desde el aeropuerto, registro en el hotel y una introducción suave al ambiente de El Cairo —una ciudad ruidosa, estratificada y que no conviene encontrarse tras un vuelo largo."
+      },
+      {
+        "text": "Vuelo interno El Cairo–Asuán",
+        "source": "Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+      },
+      {
+        "text": "Trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor",
+        "source": "Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+      },
+      {
+        "text": "Tren nocturno Luxor–El Cairo",
+        "source": "Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+      },
+      {
+        "text": "Cabina privada con dos literas, cena y desayuno servidos a bordo",
+        "source": "Por la noche, el traslado lleva a la estación de Luxor para tomar el tren nocturno de regreso a El Cairo —cabina privada con dos literas, cena y desayuno servidos a bordo, el valle del Nilo deslizándose por la ventana durante la noche."
+      },
+      {
+        "text": "Globo aerostático al amanecer sobre la orilla occidental de Luxor",
+        "source": "Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+      },
+      {
+        "text": "Alojamiento 5 estrellas durante todo el recorrido",
+        "source": "Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada a El Cairo",
+        "overnight": "El Cairo",
+        "source": "El primer día se reserva a la llegada."
+      },
+      {
+        "day": 2,
+        "title": "Menfis, Saqqara, barrio copto y Ciudadela",
+        "overnight": "El Cairo",
+        "source": "El segundo día se desplaza al sur de la ciudad, hacia donde comenzó la construcción de pirámides."
+      },
+      {
+        "day": 3,
+        "title": "Alejandría: el día mediterráneo",
+        "overnight": "El Cairo",
+        "source": "Regreso a El Cairo por la tarde-noche."
+      },
+      {
+        "day": 4,
+        "title": "Vuelo a Asuán, presa Alta y Filae",
+        "overnight": "Asuán",
+        "source": "Un vuelo matinal en el cuarto día lleva a Asuán —la ciudad principal más al sur de Egipto, con luz dorada, afloramientos de granito, cultura nubia y un Nilo apacible tras la urgencia de El Cairo."
+      },
+      {
+        "day": 5,
+        "title": "Excursión por carretera a Abu Simbel",
+        "overnight": "Asuán",
+        "source": "Tras la visita, el regreso por carretera a Asuán deja la tarde para descansar."
+      },
+      {
+        "day": 6,
+        "title": "Traslado de Asuán a Luxor",
+        "overnight": "Luxor",
+        "source": "El sexto día es de traslado."
+      },
+      {
+        "day": 7,
+        "title": "Globo aerostático y orilla occidental",
+        "overnight": "Luxor",
+        "source": "El séptimo día empieza antes del amanecer con un vuelo en globo aerostático sobre la orilla occidental."
+      },
+      {
+        "day": 8,
+        "title": "Orilla oriental: Karnak y templo de Luxor",
+        "overnight": "Tren nocturno",
+        "source": "Por la noche, el traslado lleva a la estación de Luxor para tomar el tren nocturno de regreso a El Cairo —cabina privada con dos literas, cena y desayuno servidos a bordo, el valle del Nilo deslizándose por la ventana durante la noche."
+      },
+      {
+        "day": 9,
+        "title": "Guiza, Museo Egipcio y Jan el-Jalili",
+        "overnight": "El Cairo",
+        "source": "Tras el traslado al hotel y el desayuno, el día comienza en Guiza —la Gran Pirámide de Keops, la pirámide de Kefrén con su revestimiento superior conservado, la más pequeña pirámide de Micerinos y la Esfinge agachada al pie."
+      },
+      {
+        "day": 10,
+        "title": "Traslado al aeropuerto para salida",
+        "overnight": null,
+        "source": "El décimo día es el traslado al aeropuerto para el vuelo de salida."
+      }
+    ],
+    "dropped": 0
+  }
+}

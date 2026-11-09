@@ -1,0 +1,37 @@
+{
+  "slug": "aswan-private-car-and-guide",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Coche privado con aire acondicionado",
+        "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija."
+      },
+      {
+        "text": "Guía egiptólogo licenciado de habla hispana",
+        "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija."
+      },
+      {
+        "text": "Una botella de agua mineral por persona",
+        "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija."
+      },
+      {
+        "text": "Breve traslado en lancha motora a Philae",
+        "source": "Esto requiere un breve traslado en lancha motora, incluido en el tour."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Entradas a los yacimientos (se abonan por separado)",
+        "source": "Las entradas a los yacimientos se abonan por separado, dado que usted decide los sitios del día (véase la nota práctica más abajo)."
+      },
+      {
+        "text": "No disponible como servicio de traslado aeroportuario",
+        "source": "El tour opera desde un punto de recogida en cualquier lugar dentro de la ciudad de Asuán —vestíbulo de hotel, corniche ribereña, lo que corresponda al alojamiento— y no está disponible como servicio de traslado aeroportuario."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

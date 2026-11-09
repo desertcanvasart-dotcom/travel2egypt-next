@@ -60,7 +60,9 @@ export type AnalyticsEvent =
   // select_plan_option {option}, concierge_open (first time card 3 is chosen)
   | 'view_plan_page'
   | 'select_plan_option'
-  | 'concierge_open';
+  | 'concierge_open'
+  // Product page template (2026-11-09)
+  | 'view_item';
 
 type Params = Record<string, string | number | boolean | undefined>;
 

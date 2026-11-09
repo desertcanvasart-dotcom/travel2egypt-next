@@ -1,0 +1,73 @@
+{
+  "slug": "the-pearl-of-red-sea-hurghada",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Egiptólogo titulado de habla hispana",
+        "source": "Un egiptólogo titulado de habla hispana, traslados privados climatizados entre hoteles, aeropuerto y visitas y agua embotellada están incluidos en todo el recorrido."
+      },
+      {
+        "text": "Traslados privados climatizados entre hoteles, aeropuerto y visitas",
+        "source": "Un egiptólogo titulado de habla hispana, traslados privados climatizados entre hoteles, aeropuerto y visitas y agua embotellada están incluidos en todo el recorrido."
+      },
+      {
+        "text": "Agua embotellada",
+        "source": "Un egiptólogo titulado de habla hispana, traslados privados climatizados entre hoteles, aeropuerto y visitas y agua embotellada están incluidos en todo el recorrido."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada al Aeropuerto Internacional de Hurghada",
+        "overnight": "Hurghada",
+        "source": "Le esperan en el Aeropuerto Internacional de Hurghada y le trasladan directamente al hotel."
+      },
+      {
+        "day": 2,
+        "title": "El segundo día pertenece al agua",
+        "overnight": "Hurghada",
+        "source": "El segundo día pertenece por entero al agua."
+      },
+      {
+        "day": 3,
+        "title": "Arrecifes de las islas Giftun y pecios",
+        "overnight": "Hurghada",
+        "source": "Los días tres y cuatro abren la estructura del viaje hacia afuera."
+      },
+      {
+        "day": 4,
+        "title": "Arrecifes de las islas Giftun y pecios",
+        "overnight": "Hurghada",
+        "source": "Los días tres y cuatro abren la estructura del viaje hacia afuera."
+      },
+      {
+        "day": 5,
+        "title": "Último día costero completo, jornada abierta",
+        "overnight": "Hurghada",
+        "source": "El último día costero completo se deja abierto por diseño."
+      },
+      {
+        "day": 6,
+        "title": "Vuelo interno de Hurghada a El Cairo",
+        "overnight": "El Cairo",
+        "source": "Un vuelo interno le lleva de Hurghada a El Cairo, y el viaje cambia de registro por completo."
+      },
+      {
+        "day": 7,
+        "title": "Museo Egipcio y crucero-cena de despedida",
+        "overnight": "El Cairo",
+        "source": "La velada se cierra con un crucero-cena de despedida por el Nilo, con la silueta iluminada deslizándose mientras el río le lleva."
+      },
+      {
+        "day": 8,
+        "title": "Traslado al Aeropuerto Internacional de El Cairo",
+        "overnight": null,
+        "source": "A la mañana siguiente, traslado al Aeropuerto Internacional de El Cairo para el vuelo de regreso."
+      }
+    ],
+    "dropped": 0
+  }
+}

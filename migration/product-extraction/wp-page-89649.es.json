@@ -1,0 +1,50 @@
+{
+  "slug": "aswan-personalized-vacation",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Un egiptólogo licenciado de habla hispana para los días guiados",
+        "source": "Un egiptólogo licenciado de habla hispana para los días guiados, traslados privados climatizados, siete noches en un hotel de cinco estrellas cuidadosamente seleccionado en una sola base, desayunos y cenas diarios combinando cocina egipcia y nubia con opciones internacionales, y atención de relaciones con el huésped en todo momento forman parte del paquete."
+      },
+      {
+        "text": "Traslados privados climatizados",
+        "source": "Un egiptólogo licenciado de habla hispana para los días guiados, traslados privados climatizados, siete noches en un hotel de cinco estrellas cuidadosamente seleccionado en una sola base, desayunos y cenas diarios combinando cocina egipcia y nubia con opciones internacionales, y atención de relaciones con el huésped en todo momento forman parte del paquete."
+      },
+      {
+        "text": "Siete noches en un hotel de cinco estrellas en una sola base",
+        "source": "Un egiptólogo licenciado de habla hispana para los días guiados, traslados privados climatizados, siete noches en un hotel de cinco estrellas cuidadosamente seleccionado en una sola base, desayunos y cenas diarios combinando cocina egipcia y nubia con opciones internacionales, y atención de relaciones con el huésped en todo momento forman parte del paquete."
+      },
+      {
+        "text": "Desayunos y cenas diarios",
+        "source": "Un egiptólogo licenciado de habla hispana para los días guiados, traslados privados climatizados, siete noches en un hotel de cinco estrellas cuidadosamente seleccionado en una sola base, desayunos y cenas diarios combinando cocina egipcia y nubia con opciones internacionales, y atención de relaciones con el huésped en todo momento forman parte del paquete."
+      },
+      {
+        "text": "Atención de relaciones con el huésped en todo momento",
+        "source": "Un egiptólogo licenciado de habla hispana para los días guiados, traslados privados climatizados, siete noches en un hotel de cinco estrellas cuidadosamente seleccionado en una sola base, desayunos y cenas diarios combinando cocina egipcia y nubia con opciones internacionales, y atención de relaciones con el huésped en todo momento forman parte del paquete."
+      },
+      {
+        "text": "Recepción en el Aeropuerto Internacional de Asuán y traslado al hotel",
+        "source": "Recibimos al viajero en el Aeropuerto Internacional de Asuán y lo trasladamos al hotel."
+      },
+      {
+        "text": "Traslado al Aeropuerto Internacional de Asuán el día de salida",
+        "source": "El octavo día es la salida: último desayuno y traslado al Aeropuerto Internacional de Asuán, con vuelos posteriores que dejan margen para una última excursión o una última hora en la terraza del hotel."
+      },
+      {
+        "text": "Salida privada, operada solo para tu grupo",
+        "source": "La salida es privada —operada solo para tu grupo, nunca compartida—."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Excursión a Abu Simbel opcional, se reserva aparte",
+        "source": "La excursión es opcional y se reserva aparte; quien decida no ir, se queda en Asuán."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

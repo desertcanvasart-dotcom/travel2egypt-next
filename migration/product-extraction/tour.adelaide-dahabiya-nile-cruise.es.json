@@ -1,0 +1,21 @@
+{
+  "slug": "adelaide-dahabiya-nile-cruise",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Un egiptólogo titulado acompaña cada visita",
+        "source": "Un egiptólogo titulado acompaña cada visita; los traslados en tierra se hacen en vehículos privados."
+      },
+      {
+        "text": "Traslados en tierra en vehículos privados",
+        "source": "Un egiptólogo titulado acompaña cada visita; los traslados en tierra se hacen en vehículos privados."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

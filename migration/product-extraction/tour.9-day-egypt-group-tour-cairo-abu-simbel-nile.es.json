@@ -1,0 +1,111 @@
+{
+  "slug": "9-day-egypt-group-tour-cairo-abu-simbel-nile",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Recibimiento en el aeropuerto con asistencia en los trámites de llegada",
+        "source": "El grupo aterriza en El Cairo hacia el mediodía y es recibido en el aeropuerto, con asistencia en los trámites de llegada."
+      },
+      {
+        "text": "Guía egiptólogo licenciado compartido",
+        "source": "Esto es un viaje en grupo: una salida programada que se desplaza junta como un solo grupo, con un guía egiptólogo licenciado compartido y transporte privado climatizado durante todo el recorrido."
+      },
+      {
+        "text": "Transporte privado climatizado durante todo el recorrido",
+        "source": "Esto es un viaje en grupo: una salida programada que se desplaza junta como un solo grupo, con un guía egiptólogo licenciado compartido y transporte privado climatizado durante todo el recorrido."
+      },
+      {
+        "text": "9 días / 8 noches — salida fija en grupo",
+        "source": "Duración · 9 días / 8 noches — salida fija en grupo"
+      },
+      {
+        "text": "Tren nocturno con literas rumbo a Asuán, cena a bordo",
+        "source": "Al caer la tarde, el grupo se traslada a la estación de Guiza para tomar el tren nocturno con literas rumbo a Asuán; la cena se sirve a bordo mientras el tren avanza hacia el sur."
+      },
+      {
+        "text": "Noche en Abu Simbel",
+        "source": "Comidas: Desayuno, Almuerzo, Cena Alojamiento: Abu Simbel"
+      },
+      {
+        "text": "Espectáculo de luz y sonido en los templos de Abu Simbel",
+        "source": "Tras el registro y un descanso, la tarde trae el espectáculo de luz y sonido en los templos: la historia de Ramsés II y el rescate de los monumentos en el siglo XX, contada contra la pared de roca iluminada."
+      },
+      {
+        "text": "Crucero por el Nilo con cena a bordo",
+        "source": "Al caer la tarde, el grupo embarca en el crucero por el Nilo, amarrado en Asuán, y se acomoda mientras comienza la travesía, con la cena servida a bordo."
+      },
+      {
+        "text": "Almuerzo y cena a bordo",
+        "source": "Almuerzo y cena a bordo."
+      },
+      {
+        "text": "Vuelo de regreso a El Cairo",
+        "source": "Tras el desayuno, el grupo vuela de regreso a El Cairo y conduce hacia el sur de la ciudad, allí donde empezó la construcción de pirámides."
+      },
+      {
+        "text": "Traslado al Aeropuerto Internacional de El Cairo",
+        "source": "Tras el desayuno y la salida del hotel, traslado al Aeropuerto Internacional de El Cairo para el vuelo de regreso."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada a El Cairo y el Museo Egipcio",
+        "overnight": "El Cairo",
+        "source": "Comidas: Almuerzo Alojamiento: El Cairo"
+      },
+      {
+        "day": 2,
+        "title": "Guiza, el Gran Museo Egipcio y tren nocturno",
+        "overnight": "Tren nocturno a Asuán",
+        "source": "Comidas: Desayuno, Almuerzo, Cena Alojamiento: Tren nocturno a Asuán"
+      },
+      {
+        "day": 3,
+        "title": "Llegada a Asuán y traslado a Abu Simbel",
+        "overnight": "Abu Simbel",
+        "source": "Comidas: Desayuno, Almuerzo, Cena Alojamiento: Abu Simbel"
+      },
+      {
+        "day": 4,
+        "title": "Abu Simbel al amanecer, File y crucero",
+        "overnight": "Crucero por el Nilo",
+        "source": "Al caer la tarde, el grupo embarca en el crucero por el Nilo, amarrado en Asuán, y se acomoda mientras comienza la travesía, con la cena servida a bordo."
+      },
+      {
+        "day": 5,
+        "title": "Kom Ombo y navegación hacia el norte",
+        "overnight": "Crucero por el Nilo",
+        "source": "Desayuno a bordo mientras el barco avanza hacia el norte."
+      },
+      {
+        "day": 6,
+        "title": "Edfu y navegación hasta Luxor",
+        "overnight": "Crucero por el Nilo",
+        "source": "De vuelta a bordo, el barco continúa hacia Luxor y el resto del día queda libre en cubierta."
+      },
+      {
+        "day": 7,
+        "title": "La orilla occidental tebana y Luxor sin prisa",
+        "overnight": "Luxor",
+        "source": "Comidas: Desayuno, Almuerzo Alojamiento: Luxor"
+      },
+      {
+        "day": 8,
+        "title": "El Cairo: Menfis, Saqqara y Dahshur",
+        "overnight": "El Cairo",
+        "source": "Tras el desayuno, el grupo vuela de regreso a El Cairo y conduce hacia el sur de la ciudad, allí donde empezó la construcción de pirámides."
+      },
+      {
+        "day": 9,
+        "title": "Salida",
+        "overnight": null,
+        "source": "Tras el desayuno y la salida del hotel, traslado al Aeropuerto Internacional de El Cairo para el vuelo de regreso."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "8-days-egypt-panorama-tour",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Licensed English-speaking Egyptologist guide",
+        "source": "A licensed English-speaking Egyptologist guide, private air-conditioned transfers, and bottled water are included throughout."
+      },
+      {
+        "text": "Private air-conditioned transfers",
+        "source": "A licensed English-speaking Egyptologist guide, private air-conditioned transfers, and bottled water are included throughout."
+      },
+      {
+        "text": "Bottled water",
+        "source": "A licensed English-speaking Egyptologist guide, private air-conditioned transfers, and bottled water are included throughout."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival transfer from Cairo International Airport",
+        "overnight": "Cairo",
+        "source": "The first evening is light by design — a transfer from Cairo International Airport, a dinner, and the city left outside until the family is ready for it."
+      },
+      {
+        "day": 2,
+        "title": "Egyptian Museum, Citadel, Khan el-Khalili",
+        "overnight": "Overnight train",
+        "source": "The day closes with an overnight train to Luxor, dinner served on board."
+      },
+      {
+        "day": 3,
+        "title": "Luxor: the West Bank",
+        "overnight": "Luxor",
+        "source": "The West Bank takes the first day."
+      },
+      {
+        "day": 4,
+        "title": "Karnak, then Hurghada on the Red Sea",
+        "overnight": "Hurghada",
+        "source": "After Karnak, the itinerary turns east, leaving the Nile Valley for Hurghada on the Red Sea coast — the landscape shifting from cultivated green to open desert, then to the narrow coastal plain and the water."
+      },
+      {
+        "day": 5,
+        "title": "First Hurghada day: coral reef",
+        "overnight": "Hurghada",
+        "source": "The Red Sea holds one of the finest coral reef systems on earth, and the first Hurghada day is the one to meet it."
+      },
+      {
+        "day": 6,
+        "title": "Second Hurghada day left open",
+        "overnight": "Hurghada",
+        "source": "The second Hurghada day is deliberately left open."
+      },
+      {
+        "day": 7,
+        "title": "Fly to Cairo: Giza, Memphis, Saqqara",
+        "overnight": "Cairo",
+        "source": "You fly back to Cairo, and the final full day reaches back to the very beginning of the pyramid-building tradition — earlier, in fact, than the Giza plateau itself."
+      },
+      {
+        "day": 8,
+        "title": "Transfer to the airport",
+        "overnight": null,
+        "source": "The morning after, a transfer to the airport — and for families with later departures, additional arrangements can keep the final hours out of a hotel lobby."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "7-days-luxury-dahabiya-nile-cruise",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "One night in a Luxor hotel",
+        "source": "- Duration · ≈7 days / 6 nights (one in a Luxor hotel, five aboard the Meroe)"
+      },
+      {
+        "text": "Five nights aboard the Meroe",
+        "source": "- Duration · ≈7 days / 6 nights (one in a Luxor hotel, five aboard the Meroe)"
+      },
+      {
+        "text": "Licensed English-speaking Egyptologist at every site visit",
+        "source": "A licensed English-speaking Egyptologist accompanies every site visit; private vehicles handle the transfers ashore."
+      },
+      {
+        "text": "Private vehicles for transfers ashore",
+        "source": "A licensed English-speaking Egyptologist accompanies every site visit; private vehicles handle the transfers ashore."
+      },
+      {
+        "text": "Tutankhamun's tomb",
+        "source": "The Valley of the Kings holds more than sixty royal tombs; the programme includes Tutankhamun's tomb, modest in scale but freighted with the story of its intact discovery in 1922, plus the grander painted corridors of the Rameside and Thutmosid burials."
+      },
+      {
+        "text": "Morning walk through the gorge, visit to the Horemheb speos, time at a local café",
+        "source": "The day includes a morning walk through the gorge, a visit to the Horemheb speos, and time at a local café on the bank — tea, hookah if you want it, the river moving past."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Luxor: West Bank and the temple by night",
+        "overnight": "Luxor hotel",
+        "source": "The first night is in a Luxor hotel, and the first afternoon goes directly to the West Bank — the necropolis of ancient Thebes, where the New Kingdom pharaohs were buried in the desert cliffs across the river from their palaces."
+      },
+      {
+        "day": 2,
+        "title": "Karnak, then board the Meroe at Esna",
+        "overnight": "Aboard the Meroe",
+        "source": "After Karnak, the Meroe is boarded at Esna, 55 kilometres south, where the first site of the cruise is already waiting."
+      },
+      {
+        "day": 3,
+        "title": "The Meroe sails south toward El Kab",
+        "overnight": "Aboard the Meroe",
+        "source": "The Meroe sails south toward El Kab."
+      },
+      {
+        "day": 4,
+        "title": "Edfu and the Temple of Horus",
+        "overnight": "Aboard the Meroe",
+        "source": "The fourth morning reaches Edfu and the Temple of Horus — the most completely preserved temple in Egypt."
+      },
+      {
+        "day": 5,
+        "title": "A full day at Gebel Silsila",
+        "overnight": "Aboard at Gebel Silsila",
+        "source": "Overnight aboard at Gebel Silsila."
+      },
+      {
+        "day": 6,
+        "title": "Sails to Kom Ombo",
+        "overnight": "Aboard the Meroe",
+        "source": "The day allows time at a beach on the Nile's western bank before the visit, and the evening is spent aboard as the Meroe approaches Aswan."
+      },
+      {
+        "day": 7,
+        "title": "Aswan: Philae, the dam, the obelisk",
+        "overnight": null,
+        "source": "The final morning disembarks in Aswan for the city's three principal sites."
+      }
+    ],
+    "dropped": 0
+  }
+}

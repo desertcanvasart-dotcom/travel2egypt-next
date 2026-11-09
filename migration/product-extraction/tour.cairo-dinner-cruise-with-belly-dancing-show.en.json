@@ -1,0 +1,29 @@
+{
+  "slug": "cairo-dinner-cruise-with-belly-dancing-show",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Hotel pickup in an air-conditioned vehicle",
+        "source": "The evening begins with a hotel pickup in an air-conditioned vehicle; confirm your hotel address and a precise departure time when booking, as the cruise has a fixed boarding window."
+      },
+      {
+        "text": "Return transfer to your hotel",
+        "source": "The cruise concludes with a return transfer to your hotel."
+      },
+      {
+        "text": "Soft drinks are typically included",
+        "source": "Beverages are available; soft drinks are typically included, alcohol is an additional charge."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Alcohol is an additional charge",
+        "source": "Beverages are available; soft drinks are typically included, alcohol is an additional charge."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

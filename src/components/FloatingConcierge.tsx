@@ -27,7 +27,10 @@ import { useLead } from '@/components/leads/LeadProvider';
 
 
 
-export function FloatingConcierge({ tourSlug }: { tourSlug?: string | null } = {}) {
+export function FloatingConcierge({
+  tourSlug,
+  initialOpen = false,
+}: { tourSlug?: string | null; initialOpen?: boolean } = {}) {
   const t = useTranslations('floatingConcierge');
   const locale = useLocale();
   const router = useRouter();
@@ -39,7 +42,7 @@ export function FloatingConcierge({ tourSlug }: { tourSlug?: string | null } = {
     qs.set('q', q);
     return `/plan-your-tour?${qs.toString()}#concierge`;
   };
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(initialOpen);
   const [draft, setDraft] = useState('');
   const panelRef = useRef<HTMLDivElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -93,6 +96,10 @@ export function FloatingConcierge({ tourSlug }: { tourSlug?: string | null } = {
     setOpen(false);
     triggerRef.current?.focus();
   }
+
+  // Product template spec (2026-11-09): the concierge is hidden on every
+  // Japanese page — it doesn't speak Japanese.
+  if (locale === 'ja') return null;
 
   return (
     <>

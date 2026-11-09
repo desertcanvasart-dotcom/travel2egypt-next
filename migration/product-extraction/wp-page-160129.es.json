@@ -1,0 +1,71 @@
+{
+  "slug": "bahariya-and-siwa-oasis-vacation",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Salida privada, operada solo para su grupo",
+        "source": "El viaje es una salida privada, operada solo para su grupo, con su propio guía, traslados privados y vehículos 4×4 para las etapas del desierto durante toda la ruta."
+      },
+      {
+        "text": "Su propio guía",
+        "source": "El viaje es una salida privada, operada solo para su grupo, con su propio guía, traslados privados y vehículos 4×4 para las etapas del desierto durante toda la ruta."
+      },
+      {
+        "text": "Traslados privados",
+        "source": "El viaje es una salida privada, operada solo para su grupo, con su propio guía, traslados privados y vehículos 4×4 para las etapas del desierto durante toda la ruta."
+      },
+      {
+        "text": "Vehículos 4×4 para las etapas del desierto",
+        "source": "El viaje es una salida privada, operada solo para su grupo, con su propio guía, traslados privados y vehículos 4×4 para las etapas del desierto durante toda la ruta."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Salida de El Cairo hacia Bahariya",
+        "overnight": "Bahariya",
+        "source": "El viaje abre con la salida de El Cairo después del desayuno y cuatro horas de carretera hacia el suroeste, adentrándose en el desierto occidental."
+      },
+      {
+        "day": 2,
+        "title": "Montañas Negras, Lago Salado y Desierto Blanco",
+        "overnight": "Campamento en el Desierto Blanco",
+        "source": "El campamento se instala aquí, bajo las formaciones y el cielo abierto."
+      },
+      {
+        "day": 3,
+        "title": "Montaña de Cristal, Valle de Agabat, Desierto Negro",
+        "overnight": "Bahariya",
+        "source": "El día se cierra de vuelta en Bahariya, una última noche en el oasis antes del largo empuje al oeste."
+      },
+      {
+        "day": 4,
+        "title": "La larga carretera hasta Siwa",
+        "overnight": "Siwa",
+        "source": "El cuarto día es la conducción más larga del viaje, y no finge lo contrario."
+      },
+      {
+        "day": 5,
+        "title": "Siwa: Shali, Oráculo de Amón, Fitnas",
+        "overnight": "Siwa",
+        "source": "La historia de Siwa es más densa de lo que parece a primera vista, y el quinto día la trabaja hacia abajo."
+      },
+      {
+        "day": 6,
+        "title": "Gran Mar de Arena en 4×4",
+        "overnight": "Siwa",
+        "source": "Se regresa a Siwa a primera hora de la noche."
+      },
+      {
+        "day": 7,
+        "title": "Montaña de los Muertos y regreso a El Cairo",
+        "overnight": null,
+        "source": "La última mañana completa la historia de Siwa antes de la carretera al este."
+      }
+    ],
+    "dropped": 0
+  }
+}

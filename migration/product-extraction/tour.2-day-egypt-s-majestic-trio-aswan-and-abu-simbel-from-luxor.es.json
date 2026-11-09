@@ -1,0 +1,37 @@
+{
+  "slug": "2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Régimen privado",
+        "source": "Son dos días en régimen privado, con su propio egiptólogo y su propio chófer."
+      },
+      {
+        "text": "Su propio egiptólogo",
+        "source": "Son dos días en régimen privado, con su propio egiptólogo y su propio chófer."
+      },
+      {
+        "text": "Su propio chófer",
+        "source": "Son dos días en régimen privado, con su propio egiptólogo y su propio chófer."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Traslado de Luxor a Asuán",
+        "overnight": "Asuán",
+        "source": "El traslado de Luxor a Asuán es el trabajo del primer día, y la noche se pasa en Asuán y no de regreso al punto de partida; eso es lo que convierte la mañana siguiente en una llegada y no en una prueba de resistencia."
+      },
+      {
+        "day": 2,
+        "title": "Salida a Abu Simbel y regreso",
+        "overnight": null,
+        "source": "La forma es sencilla: rumbo al sur hasta Asuán y sus monumentos el primer día; salida a Abu Simbel y regreso el segundo, con una opción de devolución que lo deja en Asuán, en el aeropuerto o de vuelta en Luxor según lo que venga después."
+      }
+    ],
+    "dropped": 0
+  }
+}

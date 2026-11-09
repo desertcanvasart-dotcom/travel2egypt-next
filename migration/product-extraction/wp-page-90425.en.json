@@ -1,0 +1,67 @@
+{
+  "slug": "5-day-lake-nasser-cruise-from-aswan",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "4 nights aboard a comfortable Lake Nasser cruise vessel",
+        "source": "Duration · 5 days / 4 nights aboard a comfortable Lake Nasser cruise vessel"
+      },
+      {
+        "text": "Your own Egyptologist",
+        "source": "This is a privately guided programme — your own Egyptologist, private transfers, a private cabin on a shared vessel — paced for a lake rather than a river."
+      },
+      {
+        "text": "Private transfers",
+        "source": "This is a privately guided programme — your own Egyptologist, private transfers, a private cabin on a shared vessel — paced for a lake rather than a river."
+      },
+      {
+        "text": "Private cabin on a shared vessel",
+        "source": "This is a privately guided programme — your own Egyptologist, private transfers, a private cabin on a shared vessel — paced for a lake rather than a river."
+      },
+      {
+        "text": "Lunch served on board (day 1)",
+        "source": "You board in Aswan and lunch is served on board."
+      },
+      {
+        "text": "Transfer to Abu Simbel Airport",
+        "source": "Then disembarkation and transfer to Abu Simbel Airport for the domestic flight onward."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Aswan and embarkation",
+        "overnight": "Lake Nasser cruise",
+        "source": "You board in Aswan and lunch is served on board."
+      },
+      {
+        "day": 2,
+        "title": "Kalabsha, Beit Al Wali, the Kiosk of Kertassi",
+        "overnight": "Lake Nasser cruise",
+        "source": "The ship sails south through the afternoon toward Wadi es-Sebua, mooring there for the night."
+      },
+      {
+        "day": 3,
+        "title": "Wadi es-Sebua, Dakka, Maharraqa and Amada",
+        "overnight": "Lake Nasser cruise",
+        "source": "The third day is the fullest of the cruise and the most varied."
+      },
+      {
+        "day": 4,
+        "title": "Qasr Ibrim and Abu Simbel",
+        "overnight": "Lake Nasser cruise",
+        "source": "You spend the afternoon at Abu Simbel and moor for the night nearby — time to return to the temples after the day-trip groups have left."
+      },
+      {
+        "day": 5,
+        "title": "Departure from Abu Simbel",
+        "overnight": null,
+        "source": "Then disembarkation and transfer to Abu Simbel Airport for the domestic flight onward."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "4-days-lake-nasser-cruise-from-abu-simbel",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private cabin on a shared vessel",
+        "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a shared vessel."
+      },
+      {
+        "text": "Your own Egyptologist",
+        "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a shared vessel."
+      },
+      {
+        "text": "Four days, three nights on a comfortable lake cruise ship",
+        "source": "The vessel is a comfortable lake cruise ship: four days, three nights, days structured around landings at temple sites, afternoons and evenings spent sailing between them."
+      },
+      {
+        "text": "Met at Abu Simbel Airport and transferred to the ship",
+        "source": "You are met at Abu Simbel Airport and transferred to the ship."
+      },
+      {
+        "text": "Transfer to Aswan International Airport or onward",
+        "source": "After Kalabsha, you return to the ship for a final breakfast, then disembark and transfer to Aswan International Airport or onward."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Abu Simbel: the southern beginning",
+        "overnight": "Lake cruise ship",
+        "source": "After the temples you return to the ship; dinner is taken as the vessel begins its northward journey."
+      },
+      {
+        "day": 2,
+        "title": "Qasr Ibrim and Amada",
+        "overnight": "Lake cruise ship",
+        "source": "The ship sails overnight toward Wadi es-Sebua."
+      },
+      {
+        "day": 3,
+        "title": "Wadi es-Sebua, Dakka and Maharraqa",
+        "overnight": "Lake cruise ship",
+        "source": "The afternoon is spent on board as the ship makes for Aswan."
+      },
+      {
+        "day": 4,
+        "title": "Kalabsha and the approach to Aswan",
+        "overnight": null,
+        "source": "After Kalabsha, you return to the ship for a final breakfast, then disembark and transfer to Aswan International Airport or onward."
+      }
+    ],
+    "dropped": 0
+  }
+}

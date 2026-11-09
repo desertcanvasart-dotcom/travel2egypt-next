@@ -1,0 +1,97 @@
+{
+  "slug": "10-day-egypt-group-tour-cairo-nile-red-sea",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Shared, licensed Egyptologist guide",
+        "source": "This is a group journey: a scheduled departure travelling together as one party, with a shared, licensed Egyptologist guide and private air-conditioned transport throughout."
+      },
+      {
+        "text": "Private air-conditioned transport throughout",
+        "source": "This is a group journey: a scheduled departure travelling together as one party, with a shared, licensed Egyptologist guide and private air-conditioned transport throughout."
+      },
+      {
+        "text": "Meet at Cairo International Airport, assistance and transfer to the hotel",
+        "source": "The group is met at Cairo International Airport, assisted through arrival formalities, and transferred directly to the hotel."
+      },
+      {
+        "text": "Day 1 dinner, depending on arrival time",
+        "source": "Dinner is included or not depending on the arrival time."
+      },
+      {
+        "text": "Lunch provided during the Day 2 tour",
+        "source": "Lunch is provided during the tour; return to the hotel for dinner."
+      },
+      {
+        "text": "3 nights on the Nile and 2 nights on the Red Sea",
+        "source": "- Character · Scheduled group departure · shared licensed Egyptologist guide · 3 nights on the Nile and 2 nights on the Red Sea · soft arrival, sea-pause before the close"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cairo",
+        "overnight": "Cairo",
+        "source": "Meals: Dinner, depending on arrival time Overnight: Cairo"
+      },
+      {
+        "day": 2,
+        "title": "The Grand Egyptian Museum and the Pyramids of Giza",
+        "overnight": "Cairo",
+        "source": "The tour then continues onto the plateau itself: the Great Pyramid of Khufu, the pyramids of Khafre and Menkaure, and the Great Sphinx."
+      },
+      {
+        "day": 3,
+        "title": "Old Cairo, Islamic Cairo and Khan el-Khalili",
+        "overnight": "Cairo",
+        "source": "After breakfast, the day turns from the pharaonic city to the medieval one."
+      },
+      {
+        "day": 4,
+        "title": "Fly to Aswan and Board the Nile Cruise",
+        "overnight": "Nile cruise",
+        "source": "After breakfast, transfer to Cairo Airport for the domestic flight south to Aswan."
+      },
+      {
+        "day": 5,
+        "title": "Kom Ombo and Sailing North",
+        "overnight": "Nile cruise",
+        "source": "The ship then continues toward Edfu."
+      },
+      {
+        "day": 6,
+        "title": "Edfu and Sailing to Luxor",
+        "overnight": "Nile cruise",
+        "source": "Back aboard, the ship continues toward Luxor, and the rest of the day is at leisure on deck."
+      },
+      {
+        "day": 7,
+        "title": "Luxor and the Drive to the Red Sea",
+        "overnight": "Hurghada",
+        "source": "Meals: Breakfast, Lunch, Dinner Overnight: Hurghada"
+      },
+      {
+        "day": 8,
+        "title": "Hurghada: The Red Sea",
+        "overnight": "Hurghada",
+        "source": "Meals: Breakfast and dinner, per the hotel's board basis Overnight: Hurghada"
+      },
+      {
+        "day": 9,
+        "title": "Fly to Cairo and the Citadel",
+        "overnight": "Cairo",
+        "source": "After breakfast, transfer to Hurghada Airport for the flight back to Cairo."
+      },
+      {
+        "day": 10,
+        "title": "Departure",
+        "overnight": null,
+        "source": "After breakfast and check-out, transfer to Cairo International Airport for the onward flight."
+      }
+    ],
+    "dropped": 0
+  }
+}

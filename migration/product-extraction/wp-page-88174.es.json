@@ -1,0 +1,41 @@
+{
+  "slug": "private-tour-transfer-from-luxor-to-marsa-alam-by-car",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Recogida en su hotel de Luxor",
+        "source": "La recogida se realiza en su hotel de Luxor, habitualmente por la mañana para asegurar una llegada razonable por la tarde."
+      },
+      {
+        "text": "Vehículo y conductor privados",
+        "source": "El trayecto es privado, lo que significa que el vehículo y el conductor son enteramente para usted."
+      },
+      {
+        "text": "Coche con aire acondicionado",
+        "source": "Solo un conductor, un coche con aire acondicionado y aproximadamente ocho horas de carretera."
+      },
+      {
+        "text": "Entrega directamente en su hotel o resort en Marsa Alam",
+        "source": "El conductor le dejará directamente en su hotel o resort."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Sin comentario guiado",
+        "source": "Sin comentario guiado, sin entradas, sin itinerario fijado."
+      },
+      {
+        "text": "Sin entradas",
+        "source": "Sin comentario guiado, sin entradas, sin itinerario fijado."
+      },
+      {
+        "text": "No es una experiencia guiada",
+        "source": "El conductor maneja el inglés suficiente para gestionar la logística; no es una experiencia guiada."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

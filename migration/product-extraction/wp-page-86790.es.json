@@ -1,0 +1,46 @@
+{
+  "slug": "luxor-2-day-tour-by-plane-from-cairo",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Vuelos internos",
+        "source": "Viaje privado de dos días desde El Cairo a Luxor con vuelos internos, templos en la orilla oriental, hipogeos reales en la occidental y tiempo para entender Tebas."
+      },
+      {
+        "text": "Alojamiento en el Karnak Luxor Hotel",
+        "source": "El alojamiento es el Karnak Luxor Hotel, un establecimiento funcional y bien ubicado, cerca de los monumentos de la orilla oriental: descansado y próximo a los sitios, que es lo que se busca."
+      },
+      {
+        "text": "Recogida en el hotel de El Cairo",
+        "source": "La salida desde El Cairo es temprana: el equipo recoge al viajero en su hotel para tomar un vuelo doméstico hacia el sur."
+      },
+      {
+        "text": "Guía y vehículo a la llegada",
+        "source": "Un guía y un vehículo esperan a la llegada y se dirigen directamente al primer sitio."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Algunas tumbas (especialmente la KV62) requieren entrada aparte",
+        "source": "El programa del segundo día en la orilla occidental varía según el operador: Valle de los Reyes, templo de Hatshepsut y colosos de Memnón forman la combinación más habitual, con algunas tumbas (especialmente la KV62) que requieren entrada aparte."
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Vuelo a Luxor, Karnak y templo de Luxor",
+        "overnight": "Karnak Luxor Hotel",
+        "source": "Tras los templos, el guía traslada al viajero al Karnak Luxor Hotel para el check-in."
+      },
+      {
+        "day": 2,
+        "title": "Orilla occidental y regreso a El Cairo",
+        "overnight": null,
+        "source": "El regreso al aeropuerto para el vuelo a El Cairo se realiza por la tarde o al atardecer, según horarios."
+      }
+    ],
+    "dropped": 0
+  }
+}

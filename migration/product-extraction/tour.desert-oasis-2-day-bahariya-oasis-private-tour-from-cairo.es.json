@@ -1,0 +1,37 @@
+{
+  "slug": "desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Salida privada",
+        "source": "Carácter · Salida privada · guía y chófer 4×4 propios · estancia en lodge del oasis · ritmo enérgico, largas jornadas de carretera"
+      },
+      {
+        "text": "Guía y chófer 4×4 propios",
+        "source": "Carácter · Salida privada · guía y chófer 4×4 propios · estancia en lodge del oasis · ritmo enérgico, largas jornadas de carretera"
+      },
+      {
+        "text": "Estancia en lodge del oasis (1 noche)",
+        "source": "Duración · 2 días / 1 noche (en lodge del oasis) — ampliable a 3 días con noche en el Desierto Blanco"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bahariya: la jornada del oasis",
+        "overnight": "Lodge del oasis de Bahariya",
+        "source": "El registro de entrada es en un lodge operativo del oasis —el Sands Bahariya o alguno de sus pares— y la tarde es el oasis propiamente dicho."
+      },
+      {
+        "day": 2,
+        "title": "Las antigüedades, los desiertos, el regreso",
+        "overnight": null,
+        "source": "El regreso por carretera devuelve el viaje a la ciudad ya entrada la noche."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "transfer-from-cairo-airport-to-hotel",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private, air-conditioned car from Cairo Airport to your hotel in Cairo or Giza",
+        "source": "A private, air-conditioned car meets you at Cairo Airport and delivers you to your hotel in Cairo or Giza — no queues, no guesswork."
+      },
+      {
+        "text": "Representative meets you in the arrivals hall and escorts you to the vehicle",
+        "source": "The arrangement is straightforward: a representative meets you in the arrivals hall, escorts you to a private air-conditioned vehicle, and drives you to your hotel in Cairo or Giza."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Visa, immigration, and luggage are still yours to handle",
+        "source": "Visa, immigration, and luggage are still yours to handle — your representative meets you on the public side of arrivals."
+      },
+      {
+        "text": "Not a guided orientation; the driver does not narrate",
+        "source": "It is not a guided orientation; the driver is there to deliver you safely, not to narrate."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}
