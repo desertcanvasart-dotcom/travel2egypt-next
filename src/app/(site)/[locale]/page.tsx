@@ -9,7 +9,8 @@ import { SalesHomeView } from '@/components/home-sales/SalesHomeView';
 import { FEATURED_TOURS, allHomeSlugs } from '@/components/home-sales/config';
 import { salesHomeQuery, type SalesHomeData } from '@/components/home-sales/query';
 import { HOME_COPY, homeLocale, type HomeLocale } from '@/components/home-sales/copy';
-import { defaultCurrencyForLocale, formatPrice } from '@/lib/currency';
+import { defaultCurrencyForLocale, formatPrice, type Rates } from '@/lib/currency';
+import { getRates } from '@/lib/fx';
 import { JsonLd } from '@/components/JsonLd';
 import { buildWebSiteSchema } from '@/lib/structured-data';
 import { siteUrlBase } from '@/lib/path-from-doc';
@@ -31,9 +32,9 @@ async function fetchSalesHome(locale: HomeLocale): Promise<SalesHomeData> {
   };
 }
 
-/** SSR display currency per language (en→USD, es→EUR, ja→JPY), as on the cards. */
-function metaPrice(eur: number, locale: HomeLocale): string {
-  return formatPrice(eur, defaultCurrencyForLocale(locale), null, locale);
+/** SSR display currency per language (en→USD, es→EUR, ja→JPY), at today's rates, as on the cards. */
+function metaPrice(eur: number, locale: HomeLocale, rates: Rates): string {
+  return formatPrice(eur, defaultCurrencyForLocale(locale), null, locale, rates);
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -42,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // Query-matched title + description (owner spec, 2026-11-08; ES/JA from the
   // owner's translations). The prices quoted are the live lowest of what the
   // page features, in the language's default display currency.
-  const data = await fetchSalesHome(locale);
+  const [data, fx] = await Promise.all([fetchSalesHome(locale), getRates()]);
   const featured = new Set(FEATURED_TOURS.map((f) => f.slug));
   const min = (xs: Array<number | null | undefined>) => {
     const v = xs.filter((n): n is number => typeof n === 'number' && n > 0);
@@ -56,8 +57,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     path: '/',
     title: c.metaTitle,
     description: c.metaDescription(
-      tourFrom ? metaPrice(tourFrom, locale) : null,
-      dayFrom ? metaPrice(dayFrom, locale) : null,
+      tourFrom ? metaPrice(tourFrom, locale, fx.rates) : null,
+      dayFrom ? metaPrice(dayFrom, locale, fx.rates) : null,
     ),
   });
 }

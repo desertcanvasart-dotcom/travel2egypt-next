@@ -18,6 +18,7 @@ import { MobileLeadBar } from '@/components/MobileLeadBar';
 import { ConsentProvider } from '@/lib/consent';
 import { CurrencyProvider } from '@/lib/currency-context';
 import { defaultCurrencyForLocale } from '@/lib/currency';
+import { getRates } from '@/lib/fx';
 import { client } from '@/sanity/lib/client';
 import { siteSettingsQuery } from '@/sanity/lib/queries';
 import {
@@ -59,7 +60,7 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
 
-  const siteSettings = await client.fetch(siteSettingsQuery(locale as Locale));
+  const [siteSettings, fx] = await Promise.all([client.fetch(siteSettingsQuery(locale as Locale)), getRates()]);
   const orgSchema = buildOrganizationSchema(siteSettings ?? {});
   // Founder Person is emitted as a sibling JSON-LD when configured. Its
   // @id is referenced from the Organization's `founder` property so
@@ -85,7 +86,7 @@ export default async function LocaleLayout({
         <JsonLd data={orgGraph} />
         <NextIntlClientProvider messages={messages}>
           <ConsentProvider>
-            <CurrencyProvider defaultCurrency={defaultCurrencyForLocale(locale)}>
+            <CurrencyProvider defaultCurrency={defaultCurrencyForLocale(locale)} rates={fx.rates}>
               <LeadProvider
                 locale={locale}
                 chatEnabled={isChatEnabled()}
