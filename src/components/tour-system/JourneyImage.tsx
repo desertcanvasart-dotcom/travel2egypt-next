@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { preload } from 'react-dom';
 
 import { urlFor } from '@/sanity/lib/image';
 import { objectPositionFromHotspot } from '@/lib/hotspot';
@@ -46,6 +47,13 @@ interface JourneyImageProps {
    */
   ratio?: number;
   priority?: boolean;
+  /**
+   * LCP heroes (2026-11-09): serve straight from Sanity's image CDN with a
+   * sized srcset, fetchpriority="high" and a matching preload, instead of
+   * the Next image optimizer (its first-request resize sat on the LCP path).
+   * Full-bleed only (no `ratio`).
+   */
+  direct?: boolean;
 }
 
 export function JourneyImage({
@@ -56,6 +64,7 @@ export function JourneyImage({
   widthHint = 1400,
   ratio,
   priority = false,
+  direct = false,
 }: JourneyImageProps) {
   const cls = `t2e-visual ${className}`.trim();
   const hasAsset = Boolean(image?.asset);
@@ -77,6 +86,28 @@ export function JourneyImage({
   const objectPosition = !ratio
     ? objectPositionFromHotspot(image?.hotspot)
     : undefined;
+
+  if (direct && !ratio) {
+    const widths = [480, 640, 828, 1080, 1440, 1920, 2400];
+    const at = (w: number) => urlFor(image as never).width(w).quality(72).auto('format').url();
+    const srcSet = widths.map((w) => `${at(w)} ${w}w`).join(', ');
+    if (priority) preload(at(1080), { as: 'image', imageSrcSet: srcSet, imageSizes: sizes, fetchPriority: 'high' });
+    return (
+      <div className={cls}>
+        {/* eslint-disable-next-line @next/next/no-img-element -- CDN-sized srcset, see `direct` */}
+        <img
+          src={at(1080)}
+          srcSet={srcSet}
+          sizes={sizes}
+          alt={alt ?? image?.alt ?? ''}
+          decoding="async"
+          loading={priority ? 'eager' : 'lazy'}
+          fetchPriority={priority ? 'high' : 'auto'}
+          style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition }}
+        />
+      </div>
+    );
+  }
 
   return (
     <div className={cls}>

@@ -209,7 +209,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         </nav>
 
         <figure className="feature pdp-hero">
-          <JourneyImage image={tour.heroImage} alt="" sizes="100vw" widthHint={2400} priority />
+          <JourneyImage image={tour.heroImage} alt="" sizes="(max-width: 1024px) 100vw, 1168px" widthHint={2400} priority direct />
         </figure>
 
         <div className="pdp">
