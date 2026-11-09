@@ -1,7 +1,7 @@
-/* Product page template (2026-11-09). Original order restored: title + dek,
-   then the full-width hero, then the narrative. The decision panel is a
-   sticky right column from 1024px that starts level with the title and
-   overlaps the hero's right edge; on phones it follows the hero. */
+/* Product page template (2026-11-09). Title + dek run the full width, then
+   the full-width hero. From 1024px the decision panel sits in the right
+   column below the hero, beside the narrative, and scrolls with the page
+   (no sticky: owner, 2026-11-09). On phones it follows the hero. */
 
 .pdp {
   display: grid;
@@ -14,6 +14,12 @@
 .pdp-side { grid-area: panel; }
 .pdp-main { grid-area: main; min-width: 0; }
 .lvl-single .pdp .head { padding-top: 32px; }
+/* The title runs the full content width (no 880px cap) so long titles,
+   Japanese especially, take fewer lines; the dek keeps its reading measure. */
+.lvl-single .pdp .head { max-width: none; }
+/* Japanese glyphs are full-width: at the Latin 76px a 30-character title
+   needs three lines. A smaller size fits two. */
+:lang(ja) .lvl-single .pdp .head h1 { font-size: clamp(30px, 3.4vw, 50px); line-height: 1.25; letter-spacing: 0; }
 
 @media (min-width: 1024px) {
   .pdp {
@@ -23,10 +29,10 @@
     row-gap: 0;
     align-items: start;
   }
-  .pdp-head { grid-column: 1; grid-row: 1; }
+  .pdp-head { grid-column: 1 / -1; grid-row: 1; }
   .pdp-hero { grid-column: 1 / -1; grid-row: 2; }
   .pdp-main { grid-column: 1; grid-row: 3; }
-  .pdp-side { grid-column: 2; grid-row: 1 / 4; position: sticky; top: 96px; align-self: start; margin-top: 32px; z-index: 2; }
+  .pdp-side { grid-column: 2; grid-row: 3; align-self: start; margin-top: 36px; }
   .pdp-side .pdp-panel { box-shadow: 0 18px 40px -18px rgba(20, 36, 59, .35), 0 2px 6px rgba(20, 36, 59, .08); }
 }
 
