@@ -20,7 +20,7 @@
     row-gap: 0;
     align-items: start;
   }
-  .pdp-side { position: sticky; top: 96px; align-self: start; margin-top: -120px; z-index: 2; }
+  .pdp-side { position: sticky; top: 96px; align-self: start; margin-top: -200px; z-index: 2; }
   .pdp-side .pdp-panel { box-shadow: 0 18px 40px -18px rgba(20, 36, 59, .35), 0 2px 6px rgba(20, 36, 59, .08); }
 }
 
@@ -116,10 +116,12 @@
 /* Full-width hero (2026-11-09 owner decision): back at the top, under the
    breadcrumb, in the site's widest container; the panel overlaps its bottom
    edge by 120px on desktop. */
-.lvl-single .feature.pdp-hero { aspect-ratio: auto; height: clamp(380px, 50vh, 560px); margin: 8px 0 0; }
-@media (max-height: 799px) and (min-width: 1024px) {
-  .lvl-single .feature.pdp-hero { height: clamp(320px, 42vh, 560px); }
-}
+/* Height (2026-11-09 v2): as tall as the first-screen rule allows, up to
+   21:9 of the container (500px at 1168 wide). 3:2 photos now show 49–64% of
+   their height instead of ~42%. The panel overlaps 200px, so From + the main
+   button stay on screen: H ≤ 100vh − 340px keeps the tallest panel
+   (day tours, 383px to the button) above the fold at 1440×782 and 1280×720. */
+.lvl-single .feature.pdp-hero { aspect-ratio: auto; height: clamp(380px, min(calc(100vh - 340px), 43vw), 500px); margin: 8px 0 0; }
 @media (max-width: 1023px) {
   .lvl-single .feature.pdp-hero { height: clamp(220px, 42vh, 340px); margin-top: 4px; }
 }
