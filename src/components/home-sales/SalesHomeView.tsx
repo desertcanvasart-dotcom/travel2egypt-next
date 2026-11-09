@@ -23,6 +23,7 @@ import { HOME_COPY, localHref, type HomeLocale } from './copy';
 import { DayToursTabs } from './DayToursTabs';
 import { QuickFinder } from './QuickFinder';
 import { TrackedLink } from './TrackedLink';
+import { TourCard } from './TourCard';
 import type { SalesHomeData, SalesProduct } from './query';
 
 import '@/styles/tour-system.css';
@@ -65,8 +66,6 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
   const dayFrom = minEur(cities.map((city) => (city.fromEur ? ({ priceFrom: city.fromEur } as SalesProduct) : undefined)));
   const cruise = bySlug.get(CRUISE_SLUG);
   const conciergeHref = isChatEnabled() ? '/plan-your-tour' : '/contact';
-  const durationLabel = (p: SalesProduct): string | null =>
-    p.type === 'dayTour' ? (p.durationHours ? c.hours(p.durationHours) : null) : p.durationDays ? c.days(p.durationDays) : null;
   const formatLabel = (f: 'private' | 'group' | null) =>
     f === 'private' ? c.dayTours.private : f === 'group' ? c.dayTours.smallGroup : null;
 
@@ -127,58 +126,9 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
               <p className="lede">{c.tours.intro}</p>
             </div>
             <ul className="pcards">
-              {featured.map(({ slug, p }) => {
-                const card = c.tours.cards[slug];
-                const href = `/${p.href}`;
-                return (
-                  <li className="pcard" key={slug}>
-                    <TrackedLink href={href} listName="home_egypt_tours" itemId={slug} className="pcard-img">
-                      <JourneyImage
-                        image={p.heroImage}
-                        alt={p.heroImage?.alt || p.title}
-                        className=""
-                        sizes="(max-width:620px) 85vw, (max-width:980px) 45vw, 380px"
-                        widthHint={760}
-                        ratio={3 / 2}
-                      />
-                      {card?.badge && <span className="badge">{card.badge}</span>}
-                    </TrackedLink>
-                    <div className="pcard-body">
-                      <h3>
-                        <TrackedLink href={href} listName="home_egypt_tours" itemId={slug}>
-                          {p.title}
-                        </TrackedLink>
-                      </h3>
-                      <p className="route">
-                        {durationLabel(p) && <span className="dur">{durationLabel(p)}</span>} {card?.route}
-                      </p>
-                      {p.priceFrom ? (
-                        <p className="price">
-                          <span className="price-from">{c.from(price(p.priceFrom))}</span>
-                          <span className="price-basis">{c.tours.basis}</span>
-                        </p>
-                      ) : (
-                        <p className="price">
-                          <span className="price-basis">{c.priceOnRequest}</span>
-                        </p>
-                      )}
-                      <div className="pcard-actions">
-                        <TrackedLink href={href} listName="home_egypt_tours" itemId={slug} className="link">
-                          {c.tours.view}
-                        </TrackedLink>
-                        <LeadButton
-                          source="tour_card"
-                          prefill={{ kind: 'trip', tourSlug: slug, tourTitle: p.title, durationDays: p.durationDays }}
-                          itemListName="home_egypt_tours"
-                          className="btn-outline"
-                        >
-                          {c.tours.customise}
-                        </LeadButton>
-                      </div>
-                    </div>
-                  </li>
-                );
-              })}
+              {featured.map(({ slug, p }) => (
+                <TourCard key={slug} slug={slug} p={p} locale={locale} listName="home_egypt_tours" />
+              ))}
             </ul>
             <p className="sec-more">
               <Link className="more" href="/egypt-travel-packages">
