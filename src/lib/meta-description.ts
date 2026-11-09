@@ -19,7 +19,9 @@
 
 const LIMITS: Record<string, { max: number; min: number }> = {
   ja: { max: 110, min: 45 },
-  default: { max: 155, min: 70 },
+  // min 100: a sentence ending earlier gives way to a fuller whole-word cut
+  // (Ahrefs flags descriptions under 100 as too short).
+  default: { max: 155, min: 100 },
 };
 
 const ELLIPSIS = '…';
@@ -54,14 +56,16 @@ export function trimMetaDescription(input: string | null | undefined, locale: st
     const end = m.index + 1;
     // Skip common abbreviations ("St.", "c.", "a.C.", "e.g.").
     const head = window.slice(0, end);
-    if (!isJa && /\b(?:St|Dr|Mt|vs|etc|e\.g|i\.e|c|a\.C|d\.C|n)\.$/i.test(head)) continue;
+    if (!isJa && /\b(?:St|Dr|Mt|vs|etc|e\.g|i\.e|c|a|d|a\.C|d\.C|n)\.$/i.test(head)) continue;
     // Not inside an open quotation (e.g. a "¿…?" title in quotes).
     if (insideQuote(head)) continue;
     cut = end;
   }
   // An already-truncated text accepts a shorter complete sentence: a clean
   // short line beats a visibly unfinished one.
-  if (cut >= (unfinished ? Math.round(min * 0.6) : min)) return text.slice(0, cut).trim();
+  // (Only when the text already fits: a longer one can give a fuller cut.)
+  const lenient = unfinished && text.length <= max - 1;
+  if (cut >= (lenient ? Math.round(min * 0.6) : min)) return text.slice(0, cut).trim();
 
   // The whole (unfinished) text fits: keep it, marked as continuing.
   if (text.length <= max - 1) return `${text}${ELLIPSIS}`;
