@@ -28861,5 +28861,275 @@ export const redirects: RedirectRule[] = [
     "source": "/es/visita-privada-a-las-iconicas-piramides-de-guiza-y-la-esfinge",
     "destination": "/es/piramides-de-guiza-la-esfinge-y-el-cairo-antiguo-tour-privado-de-dia",
     "permanent": true
+  },
+  {
+    "source": "/4-day-lake-nasser-cruise-from-abu-simbel",
+    "destination": "/4-days-lake-nasser-cruise-from-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/4-day-lake-nasser-cruise-from-abu-simble",
+    "destination": "/4-days-lake-nasser-cruise-from-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/dendera-and-abydos-temples-tour-from-al-gouna",
+    "destination": "/dendera-and-abydos-temples-from-al-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/dendera-abydos-temples-from-al-gouna",
+    "destination": "/dendera-and-abydos-temples-from-al-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/group-day-tour-to-alexandria-from-cairo",
+    "destination": "/alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/transfer-from-luxor-to-aswan-by-car",
+    "destination": "/private-tour-transfer-from-luxor-to-aswan-by-bus",
+    "permanent": true
+  },
+  {
+    "source": "/bahariya-and-siwa-oasis-vacation-from-germany",
+    "destination": "/bahariya-and-siwa-oasis-vacation",
+    "permanent": true
+  },
+  {
+    "source": "/bahariya-and-siwa-oasis-vacation-from-spain",
+    "destination": "/bahariya-and-siwa-oasis-vacation",
+    "permanent": true
+  },
+  {
+    "source": "/bahariya-oasis-siwa-oasis-tour",
+    "destination": "/desert-horizons-7-day-bahariya-siwa-oasis-tour",
+    "permanent": true
+  },
+  {
+    "source": "/07-dahabiya-nile-cruise-el-nil",
+    "destination": "/7-days-luxury-dahabiya-cruise-on-the-nile",
+    "permanent": true
+  },
+  {
+    "source": "/18-day-grand-egypt-holiday-package-from-usa",
+    "destination": "/tour-of-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/18-day-grand-egypt-holiday-package-from-turkey",
+    "destination": "/tour-of-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/10-day-romantic-egypt-travel-deals-from-germany",
+    "destination": "/the-romantic-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/eco-felucca-sailing-at-sunset-time",
+    "destination": "/aswan-felucca-adventure",
+    "permanent": true
+  },
+  {
+    "source": "/sinai-quest-adventures",
+    "destination": "/blog/sinai-adventure",
+    "permanent": true
+  },
+  {
+    "source": "/siwa-oasis-a-timeless-epic-adventure",
+    "destination": "/siwa-oasis-adventure-tour",
+    "permanent": true
+  },
+  {
+    "source": "/plan-your-trip",
+    "destination": "/plan-your-tour",
+    "permanent": true
+  },
+  {
+    "source": "/tailor",
+    "destination": "/plan-your-tour",
+    "permanent": true
+  },
+  {
+    "source": "/best-places-to-visit-in-egypt",
+    "destination": "/guide",
+    "permanent": true
+  },
+  {
+    "source": "/tips-for-families",
+    "destination": "/blog/tips-for-first-time-family-visitors-to-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "destination": "/es/alejandria-en-un-dia-desde-el-cairo-catacumbas-columnas-y-costa-mediterranea",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-a-egipto-desde-canada",
+    "destination": "/es/egypt-group-tours-from-usa-canada",
+    "permanent": true
+  },
+  {
+    "source": "/es/tours-por-egipto-desde-india",
+    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/egipto-panoramico-8-dias",
+    "destination": "/es/panorama-de-egipto-en-8-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/crucero-de-11-dias-por-el-nilo-de-luxor-a-el-cairo",
+    "destination": "/es/gran-travesia-del-nilo-crucero-de-11-dias-de-luxor-a-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/grandeza-del-nilo-crucero-largo-de-15-dias-de-el-cairo-a-asuan",
+    "destination": "/es/grandeza-del-nilo-en-15-dias-de-el-cairo-a-asuan-por-el-rio",
+    "permanent": true
+  },
+  {
+    "source": "/es/templos-intemporales-tour-de-10-dias-por-el-maravilloso-abu-simbel-y-el-antiguo-egipto",
+    "destination": "/es/abu-simbel-y-el-antiguo-egipto-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/experiencia-definitiva-de-4-dias-en-el-lago-nasser",
+    "destination": "/es/cuatro-dias-en-el-lago-nasser-pesca-desierto-y-los-templos-rescatados",
+    "permanent": true
+  },
+  {
+    "source": "/es/crucero-de-4-dias-por-el-lago-nasser-desde-abu-simble",
+    "destination": "/es/explorador-del-lago-nasser-crucero-de-4-dias-de-abu-simbel-a-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/escape-a-egipto-paquete-de-viaje-de-4-dias-a-el-cairo-desde-alemania",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/es/escape-a-egipto-paquete-de-viaje-de-4-dias-a-el-cairo-desde-ee-uu",
+    "destination": "/es/el-cairo-en-4-dias-piramides-gran-museo-egipcio-y-el-cairo-antiguo",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-placer-de-sharm-paquete-de-vacaciones-en-egipto-de-8-dias-desde-espana",
+    "destination": "/es/sharm-el-sheij-en-8-dias-mar-rojo-arrecifes-y-costa-desertica",
+    "permanent": true
+  },
+  {
+    "source": "/es/paquete-de-tour-de-lujo-de-14-dias-por-egipto-desde-ee-uu-para-familias",
+    "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/vacaciones-familiares-de-12-dias-en-egipto",
+    "destination": "/es/viaje-familiar-por-egipto-en-12-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/lo-mejor-de-egipto-un-recorrido-de-8-dias",
+    "destination": "/es/lo-mejor-de-egipto-en-8-dias-el-cairo-abu-simbel-el-nilo-y-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/tour-elegante-de-4-dias-por-el-cairo",
+    "destination": "/es/el-cairo-elegante-4-dias-entre-la-ciudad-antigua-y-la-ciudad-viva",
+    "permanent": true
+  },
+  {
+    "source": "/es/programa-paraiso-12-dias-en-egipto-y-el-mar-rojo",
+    "destination": "/es/egipto-y-el-mar-rojo-en-12-dias-el-cairo-el-nilo-luxor-asuan-y-alejandria",
+    "permanent": true
+  },
+  {
+    "source": "/es/del-arrecife-al-rio-crucero-de-14-noches-por-el-nilo-y-estancia-en-hurghada",
+    "destination": "/es/crucero-por-el-nilo-de-14-dias-y-estancia-en-hurghada-luxor-asuan-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/15-dias-por-el-nilo-y-tour-por-hurghada",
+    "destination": "/es/crucero-por-el-nilo-y-hurghada-en-15-dias-luxor-asuan-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/unas-vacaciones-inolvidables-en-los-oasis-de-bahariya-y-siwa-desde-espana",
+    "destination": "/es/unas-vacaciones-inolvidables-en-los-oasis-de-bahariya-y-siwa-desde-india",
+    "permanent": true
+  },
+  {
+    "source": "/es/tour-oasis-de-bahariya-y-oasis-de-siwa-7-dias-en-el-desierto-occidental",
+    "destination": "/es/bahariya-y-siwa-en-siete-dias-el-desierto-occidental-de-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/maravillas-del-desierto-blanco-excursion-de-4-dias-a-el-cairo-y-el-desierto-blanco",
+    "destination": "/es/el-cairo-y-el-desierto-blanco-cuatro-dias-de-las-piramides-a-la-tiza",
+    "permanent": true
+  },
+  {
+    "source": "/es/fairways-y-faraones-8-dias-de-golf-en-egipto",
+    "destination": "/es/fairways-y-faraones-viaje-privado-de-golf-en-egipto-en-ocho-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/safari-de-pesca-en-nubia-de-3-dias",
+    "destination": "/es/tres-dias-en-el-lago-nasser-un-safari-nubio-de-pesca",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-un-dia-en-grupo-a-luxor-desde-hurghada",
+    "destination": "/es/lo-esencial-de-luxor-desde-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/es/ruta-de-los-templos-excursion-de-un-dia-en-autobus-a-abu-simble-desde-asuan",
+    "destination": "/es/abu-simbel-por-carretera-desde-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/dendera-y-abydos-desde-al-gouna",
+    "destination": "/es/templos-de-dendera-y-abidos-tour-privado-de-dia-completo-desde-el-gouna",
+    "permanent": true
+  },
+  {
+    "source": "/es/visita-privada-mercado-local-con-coche-de-caballos",
+    "destination": "/es/calesa-y-mercado-local-en-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-gran-recorrido-islamico-de-un-dia",
+    "destination": "/es/el-gran-tour-por-el-cairo-islamico-siete-siglos-en-un-dia",
+    "permanent": true
+  },
+  {
+    "source": "/es/coche-privado-y-guia-por-un-dia",
+    "destination": "/es/coche-privado-y-guia-en-el-cairo-arma-tu-propia-ruta",
+    "permanent": true
+  },
+  {
+    "source": "/es/templos-de-kom-ombo-y-edfu",
+    "destination": "/es/kom-ombo-y-edfu-desde-asuan-hasta-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/salida-rapida-servicio-de-traslado-al-aeropuerto-de-hurghada",
+    "destination": "/es/traslado-privado-desde-el-aeropuerto-de-hurgada-al-hotel",
+    "permanent": true
+  },
+  {
+    "source": "/es/safari-nocturno-en-el-arrecife-de-delfines-de-sataya",
+    "destination": "/es/safari-con-pernocta-en-shaab-sataya-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/es/de-alejandria-a-el-cairo-excursion-privada-de-un-dia-a-las-piramides-de-guiza-la-esfinge-el-museo-egipcio-y-khan-el-khalili",
+    "destination": "/es/tour-de-dia-desde-alejandria-a-el-cairo-piramides-museo-y-jan-el-jalili",
+    "permanent": true
   }
 ];
