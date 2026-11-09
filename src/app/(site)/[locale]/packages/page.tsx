@@ -7,7 +7,7 @@ import { packagesByThemeQuery } from '@/sanity/lib/queries';
 import { PackageCard, type PackageCardData } from '@/components/PackageCard';
 import { buildStaticMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
 
 interface Props {
   params: Promise<{ locale: string }>;
@@ -53,7 +53,16 @@ export default async function PackagesLandingPage({ params }: Props) {
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-16">
-      <JsonLd data={breadcrumbSchema} />
+      <JsonLd
+        data={[
+          breadcrumbSchema,
+          // Every listed package, once (Ahrefs "category page missing schema", 2026-11-09).
+          buildItemListSchema(
+            [...new Map(themes.flatMap((th) => th.packages ?? []).filter((p) => p.slug).map((p) => [p.slug, p])).values()],
+            locale as Locale,
+          ),
+        ]}
+      />
       <header className="mb-16 max-w-3xl">
         <h1 className="mb-4 font-serif text-5xl font-medium leading-tight text-ink md:text-6xl">
           {t('landingTitle')}
