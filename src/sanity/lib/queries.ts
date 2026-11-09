@@ -69,8 +69,8 @@ export const cityBySlugQuery = (locale: Locale) => groq`
     "seoDescription": ${localizedField('seoDescription', locale)},
     "dek": ${localizedField('dek', locale)},
     "seo": {
-      "metaTitle": ${localizedField('seo.metaTitle', locale)},
-      "metaDescription": ${localizedField('seo.metaDescription', locale)}
+      "metaTitle": ${localizedFieldStrict('seo.metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('seo.metaDescription', locale)}
     },
     // Task C (round 3): priced tour blocks.
     ${pickedToursProjection('inlineTours', locale)},
@@ -125,8 +125,8 @@ export const cityBySlugQuery = (locale: Locale) => groq`
       }
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -209,8 +209,8 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
       heroImage
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -478,8 +478,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     "trustSignals": coalesce(trustSignals[_key=="${locale}"][0].value, trustSignals[_key=="en"][0].value),
     "accreditations": ${localizedField('accreditations', locale)},
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -730,8 +730,8 @@ export const hotelBySlugQuery = (locale: Locale) => groq`
       ${tourCardProjection(locale)}
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -769,8 +769,8 @@ export const hotelsArchiveQuery = (locale: Locale) => groq`
       "hotels": hotels[]->{ ${hotelCardProjection(locale)} }
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -821,8 +821,8 @@ export const dayToursArchiveQuery = (locale: Locale) => groq`
       }
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -883,8 +883,8 @@ export const nileCruisesArchiveQuery = (locale: Locale) => groq`
       "cruises": cruises[]->{ ${cruiseCardProjection(locale)} }
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -937,8 +937,8 @@ export const cruiseBySlugQuery = (locale: Locale) => groq`
       ${tourCardProjection(locale)}
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -1047,8 +1047,8 @@ export const dynastyBySlugQuery = (locale: Locale) => groq`
       ${wikiCardProjection(locale)}
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -1119,8 +1119,8 @@ export const personBySlugQuery = (locale: Locale) => groq`
       ${wikiCardProjection(locale)}
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -1187,8 +1187,8 @@ export const monumentBySlugQuery = (locale: Locale) => groq`
       ${wikiCardProjection(locale)}
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -1239,8 +1239,8 @@ export const deityBySlugQuery = (locale: Locale) => groq`
       ${wikiCardProjection(locale)}
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -1623,8 +1623,8 @@ export const categoryBySlugQuery = (locale: Locale) => groq`
       "slug": ${localizedSlug('slug', locale)}
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -1740,8 +1740,8 @@ export const travelTipBySlugQuery = (locale: Locale) => groq`
       "caption": coalesce(caption[_key=="${locale}"][0].value, caption[_key=="en"][0].value)
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -1781,8 +1781,8 @@ export const travelTipsArchiveQuery = (locale: Locale) => groq`
       "category": category->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)} }
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -2167,8 +2167,8 @@ export const tourCategoryBySlugQuery = (locale: Locale) => groq`
       originRegion
     } | order(coalesce(destinationCitySlug, themeSlug, originRegion) asc),
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -2314,8 +2314,8 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
       }
     },
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
@@ -2392,8 +2392,8 @@ export const fieldGuideBySlugQuery = (locale: Locale) => groq`
     "closing": ${localizedField('closing', locale)},
     "colophonNote": ${localizedField('colophonNote', locale)},
     seo{
-      "metaTitle": ${localizedField('metaTitle', locale)},
-      "metaDescription": ${localizedField('metaDescription', locale)},
+      "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
+      "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
       ogImage
     }
   }
