@@ -32,7 +32,7 @@ interface CategoryIndexProps {
     lengthLabel: string;
     allCity?: string;
     anyLength: string;
-    lengthHint: string;
+    lengthHint?: string;
     empty: string;
   };
 }
@@ -124,7 +124,7 @@ export function CategoryIndex({ rows, cityOptions = [], lengthOptions, variant =
           ))}
         </div>
       )}
-      <p className="range-hint">{labels.lengthHint}</p>
+      {labels.lengthHint && <p className="range-hint">{labels.lengthHint}</p>}
       <div className="rows">
         {filtered.length === 0 ? (
           <p className="range-hint">{labels.empty}</p>
