@@ -11,8 +11,8 @@ import { useCurrency } from '@/lib/currency-context';
  * Renders nothing for a missing/non-finite amount (callers show "On inquiry").
  */
 export function Price({ eur, unit }: { eur: number | null | undefined; unit?: string }) {
-  const { currency } = useCurrency();
+  const { currency, rates } = useCurrency();
   const locale = useLocale();
-  const s = formatPrice(eur, currency, unit, locale);
+  const s = formatPrice(eur, currency, unit, locale, rates);
   return s ? <>{s}</> : null;
 }

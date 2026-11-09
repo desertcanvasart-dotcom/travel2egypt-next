@@ -10,30 +10,39 @@
  * the statically-cached HTML is deterministic; the client swaps to the viewer's
  * chosen currency after hydration. Converted figures are INDICATIVE — the base
  * price is EUR.
+ *
+ * Rates (2026-11-09): the live European Central Bank reference rates, fetched
+ * once a day on the server (lib/fx.ts) and handed to every converter as
+ * `rates`. The `rate` values below are only the FALLBACK when the feed is
+ * unavailable or returns something implausible.
  */
+
+/** EUR → currency multipliers, e.g. { USD: 1.1165, JPY: 176.77 }. */
+export type Rates = Partial<Record<string, number>>;
 
 export interface CurrencyConf {
   /** ISO 4217 code. */
   code: string;
   /** Display symbol. */
   symbol: string;
-  /** EUR → this currency multiplier. EUR is the base (1). */
+  /** FALLBACK EUR → this currency multiplier (live ECB rates override). EUR is the base (1). */
   rate: number;
   /** Round converted amounts to the nearest this many units (0/1 = no rounding). */
   roundTo: number;
 }
 
 /**
- * ⚠️ MANUAL EXCHANGE RATES — update the multipliers when rates move.
- * Prices are authored in EUR in Sanity; these convert them for display.
+ * Fallback exchange rates — used only when the live ECB rates can't be had
+ * (lib/fx.ts). Prices are authored in EUR in Sanity.
  */
 export const CURRENCIES: Record<string, CurrencyConf> = {
   EUR: { code: 'EUR', symbol: '€', rate: 1, roundTo: 0 },
-  USD: { code: 'USD', symbol: '$', rate: 1.08, roundTo: 10 },
-  GBP: { code: 'GBP', symbol: '£', rate: 0.85, roundTo: 10 },
-  AUD: { code: 'AUD', symbol: 'A$', rate: 1.65, roundTo: 10 },
-  CAD: { code: 'CAD', symbol: 'C$', rate: 1.47, roundTo: 10 },
-  JPY: { code: 'JPY', symbol: '¥', rate: 170, roundTo: 1000 },
+  // Fallback rates = ECB reference rates of 2026-11-06 (refresh occasionally).
+  USD: { code: 'USD', symbol: '$', rate: 1.1165, roundTo: 10 },
+  GBP: { code: 'GBP', symbol: '£', rate: 0.83415, roundTo: 10 },
+  AUD: { code: 'AUD', symbol: 'A$', rate: 1.625, roundTo: 10 },
+  CAD: { code: 'CAD', symbol: 'C$', rate: 1.5705, roundTo: 10 },
+  JPY: { code: 'JPY', symbol: '¥', rate: 176.77, roundTo: 1000 },
 };
 
 /** Display order for the currency switcher. */
@@ -60,9 +69,10 @@ export function currencyConf(code?: string | null): CurrencyConf {
  * Convert a stored EUR amount to the given currency, rounded to a clean figure.
  * Returns the EUR amount unchanged for the base currency.
  */
-export function convertPrice(amountEur: number, currency?: string | null): number {
+export function convertPrice(amountEur: number, currency?: string | null, rates?: Rates | null): number {
   const c = currencyConf(currency);
-  const raw = amountEur * c.rate;
+  const live = c.code === 'EUR' ? 1 : rates?.[c.code];
+  const raw = amountEur * (typeof live === 'number' && live > 0 ? live : c.rate);
   if (c.roundTo > 1) return Math.round(raw / c.roundTo) * c.roundTo;
   return Math.round(raw);
 }
@@ -81,9 +91,10 @@ export function formatPrice(
   currency?: string | null,
   unit?: string | null,
   locale?: string | null,
+  rates?: Rates | null,
 ): string {
   if (typeof amount !== 'number' || !Number.isFinite(amount)) return '';
-  const figure = formatConverted(convertPrice(amount, currency), currency, locale);
+  const figure = formatConverted(convertPrice(amount, currency, rates), currency, locale);
   return unit ? `${figure} ${unit}` : figure;
 }
 

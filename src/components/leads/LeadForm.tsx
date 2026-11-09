@@ -74,7 +74,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
   const L = leadLocale(locale);
   const c = LEAD_COPY[L];
   const months = useMemo(() => nextMonths(18, c), [c]);
-  const { currency } = useCurrency();
+  const { currency, rates } = useCurrency();
 
   const { responseTime } = useLead();
   const full = responseTime.full;
@@ -85,7 +85,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
   // currency, converted the same way the cards render it, times adults.
   const unitPrice =
     isDay && typeof prefill?.priceFromEur === 'number' && prefill.priceFromEur > 0
-      ? convertPrice(prefill.priceFromEur, currency)
+      ? convertPrice(prefill.priceFromEur, currency, rates)
       : null;
   const estimatedTotal = unitPrice ? unitPrice * adults : null;
   const estimateLabel = estimatedTotal !== null ? formatConverted(estimatedTotal, currency, L) : '';
