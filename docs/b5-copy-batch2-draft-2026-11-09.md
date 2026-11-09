@@ -2,7 +2,7 @@
 
 Phase B5, continued. These are the keyword-map pages (`docs/keyword-map-2026-11-09.md`) that the first batch didn't cover. Each page gets the search it should win.
 
-**Status: DRAFT — awaiting owner approval.** Once you approve it, this file is locked (Canon Gate A), and the staging script writes only strings that byte-match it.
+**Status: LOCKED — approved by the owner 9 Nov 2026 ("Yes, apply all"), including the flagged claims as written.** Locked copy (Canon Gate A): the staging script writes only strings that byte-match this file.
 
 The rules are the same as in batch 1:
 - **Meta title:** the blue link in Google. The site adds " — Travel2Egypt", so each one is kept to 45 characters or fewer.

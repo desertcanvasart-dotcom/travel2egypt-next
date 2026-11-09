@@ -2,7 +2,7 @@
 
 Phase B5, the FAQ part. The landing pages already have an FAQ section that shows below the tour list and sends Google FAQ markup (`LandingFaq`). It shows only when questions exist, and none do yet.
 
-**Status: DRAFT — awaiting owner approval.** Once you approve it, this file is locked (Canon Gate A), and the staging script writes only strings that byte-match it.
+**Status: LOCKED — approved by the owner 9 Nov 2026 ("Yes, apply all"), including the flagged claims as written.** Locked copy (Canon Gate A): the staging script writes only strings that byte-match this file.
 
 ## How it was built
 
