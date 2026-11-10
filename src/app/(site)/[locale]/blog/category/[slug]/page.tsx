@@ -51,7 +51,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     { slug }
   );
   if (!cat) return {};
-  return buildMetadata(
+  // A category with no articles in this language renders an empty list —
+  // thin content Google files under "Crawled - currently not indexed"
+  // (2026-11-10: planning-advice had 0 articles in every locale). Keep it
+  // out of the index but let crawlers follow its links. Root sections with sub-categories stay
+  // indexable: they list their leaves.
+  const articles = await client.fetch<ArticleCardData[]>(articlesByCategorySlugQuery, {
+    locale,
+    slug,
+  });
+  const isEmpty = articles.length === 0 && (cat.parent
+    ? true
+    : (await client.fetch<LeafSummary[]>(categoryLeavesByParentIdQuery(locale as Locale), {
+        parentId: cat._id,
+      })).length === 0);
+  const meta = await buildMetadata(
     { title: cat.name, summary: cat.description, heroImage: cat.heroImage, seo: cat.seo },
     {
       locale: locale as Locale,
@@ -62,6 +76,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       pathByLocale: pathByLocaleFromSlugs(cat.allSlugs, (s) => `/blog/category/${s}`),
     }
   );
+  return isEmpty ? { ...meta, robots: { index: false, follow: true } } : meta;
 }
 
 export async function generateStaticParams() {
