@@ -43,7 +43,7 @@ export const comingBackContent: LocalizedJourney = {
         { text: 'Desert & quiet', href: '/journeys/desert-and-quiet' },
         '.)',
       ],
-      'Which of the three is yours depends on what the first trip left you wanting — more of ancient Egypt but deeper, a different Egypt entirely, or an older and quieter one. That is a better conversation than a comparison table, and it is the first question our concierge will ask.',
+      'Which of the three is yours depends on what the first trip left you wanting — more of ancient Egypt but deeper, a different Egypt entirely, or an older and quieter one. That is a better conversation than a comparison table, and it is the first question we\'ll ask.',
     ],
 
     operatorNote: {
@@ -140,7 +140,7 @@ export const comingBackContent: LocalizedJourney = {
         { text: 'Desierto y calma', href: '/journeys/desert-and-quiet' },
         '.)',
       ],
-      'Cuál de las tres es la tuya depende de lo que el primer viaje te dejó queriendo — más Egipto antiguo pero más hondo, un Egipto distinto por completo, o uno más viejo y más callado. Esa es una conversación mejor que cualquier tabla comparativa, y es la primera pregunta que hará nuestro concierge.',
+      'Cuál de las tres es la tuya depende de lo que el primer viaje te dejó queriendo — más Egipto antiguo pero más hondo, un Egipto distinto por completo, o uno más viejo y más callado. Esa es una conversación mejor que cualquier tabla comparativa, y es la primera pregunta que te haremos.',
     ],
 
     operatorNote: {
@@ -239,7 +239,7 @@ export const comingBackContent: LocalizedJourney = {
         { text: '砂漠と静けさ', href: '/journeys/desert-and-quiet' },
         ' で計画しています。）',
       ],
-      '三つのどれがあなたのものかは、最初の旅が何を残していったかで決まります。古代エジプトをもっと深く、なのか。まったく別のエジプト、なのか。もっと古く、もっと静かなエジプト、なのか。それは比較表より良い会話であり、私たちのコンシェルジュが最初にする質問です。',
+      '三つのどれがあなたのものかは、最初の旅が何を残していったかで決まります。古代エジプトをもっと深く、なのか。まったく別のエジプト、なのか。もっと古く、もっと静かなエジプト、なのか。それは比較表より良い会話であり、私たちが最初にお尋ねすることです。',
     ],
 
     operatorNote: {

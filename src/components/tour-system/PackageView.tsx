@@ -10,6 +10,7 @@ import { JsonLd } from '../JsonLd';
 import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-data';
 
 import { JourneyImage } from './JourneyImage';
+import { enSlugOf } from '@/lib/products/bySlug';
 import { TourProse } from './TourProse';
 import { LazyFloatingConcierge } from '../LazyFloatingConcierge';
 import { MultiDayPanel, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
@@ -337,7 +338,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               durationDays={durationDays || null}
               tiers={tiers}
               extra={nextDeparture}
-              enSlug={(tour as { allSlugs?: Array<{ _key: string; current?: string }> }).allSlugs?.find((s) => s._key === 'en')?.current ?? tour.slug}
+              enSlug={enSlugOf((tour as { allSlugs?: Array<{ _key: string; current?: string }> }).allSlugs, tour.slug) ?? undefined}
             />
           </div>
 

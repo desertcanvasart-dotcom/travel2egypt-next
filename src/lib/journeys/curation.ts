@@ -36,6 +36,9 @@ export interface JourneyCuration {
 export const CURATION: Record<JourneyKey, JourneyCuration> = {
   "first-time": {
     tours: [
+      // Owner decision 2026-11-10: the homepage's "First visit" tour leads (the
+      // essay allows 7 days "at a push"); outside the paired hub by design.
+      { slug: "epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs", why: { en: "Egypt's essential spine in one week — Cairo, the night train south, a three-night Nile cruise and Luxor." }, needsReview: true },
       { slug: "essential-egypt", why: { en: "The full first arc in eight days — Giza, Alexandria, Abu Simbel, Aswan and Luxor." }, needsReview: true },
       { slug: "egypt-and-the-nile-tour", why: { en: "The classic arc with time for Coptic and Islamic Cairo, for a first trip that wants depth as well as breadth." }, needsReview: true },
     ],

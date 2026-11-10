@@ -21,6 +21,7 @@ import { cache } from 'react';
 import { groq } from 'next-sanity';
 
 import { client } from '@/sanity/lib/client';
+import { EN_SLUG, PRODUCTS_BY_SLUGS_FILTER } from '@/lib/products/bySlug';
 import type { Locale } from '@/i18n/routing';
 import { STYLE_CARDS } from '@/components/home-sales/config';
 import { TRIPADVISOR_URL } from '@/lib/company';
@@ -40,7 +41,7 @@ const CITY_LANDINGS = {
 
 const navPricesQuery = groq`{
   "packages": *[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**")) && priceFrom > 0]{ durationDays, priceFrom },
-  "journeys": *[_type == "tour" && !(_id in path("drafts.**")) && slug[_key=="en"][0].value.current in $journeySlugs]{ "slug": slug[_key=="en"][0].value.current, priceFrom },
+  "journeys": *[${PRODUCTS_BY_SLUGS_FILTER.replace('$slugs', '$journeySlugs')}]{ "slug": ${EN_SLUG}, priceFrom },
   "cities": *[_type == "tourLanding" && _id in $landingIds]{
     _id,
     "min": math::min(*[_type == "tour" && !(_id in path("drafts.**")) && type == "dayTour" && tourMode == "private"

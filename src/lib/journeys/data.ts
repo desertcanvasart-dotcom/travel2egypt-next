@@ -4,6 +4,7 @@ import { cache } from 'react';
 import { groq } from 'next-sanity';
 
 import { client } from '@/sanity/lib/client';
+import { EN_SLUG, LOCAL_SLUG, PRODUCTS_BY_SLUGS_FILTER } from '@/lib/products/bySlug';
 import type { SalesProduct } from '@/components/home-sales/query';
 
 import { approved } from './curation';
@@ -33,9 +34,9 @@ export interface JourneyLive {
 }
 
 const query = groq`{
-  "products": *[_type == "tour" && !(_id in path("drafts.**")) && slug[_key=="en"][0].value.current in $slugs]{
-    "slug": slug[_key=="en"][0].value.current,
-    "href": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
+  "products": *[${PRODUCTS_BY_SLUGS_FILTER}]{
+    "slug": ${EN_SLUG},
+    "href": ${LOCAL_SLUG},
     "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value, ""),
     type, priceFrom, durationDays, durationHours,
     "cityNames": cities[]->{ "n": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value) }.n,
@@ -96,9 +97,12 @@ export const getJourneysLive = cache(async (locale: string): Promise<Record<Jour
   return out;
 });
 
-/** Journeys whose APPROVED picks include this product (EN slug). */
-export function journeysForProduct(slug: string): JourneyKey[] {
-  return JOURNEY_KEYS.filter((k) => approved(k, 'en').tours.some((t) => t.slug === slug));
+/**
+ * Journeys whose APPROVED picks include this product. Pass the product's EN
+ * slug (resolve it with enSlugOf(doc.allSlugs) — never derive it from _id).
+ */
+export function journeysForProduct(enSlug: string): JourneyKey[] {
+  return JOURNEY_KEYS.filter((k) => approved(k, 'en').tours.some((t) => t.slug === enSlug));
 }
 
 /**
@@ -113,7 +117,7 @@ export const getJourneyCardPrices = cache(async (locale: string): Promise<Record
   let rows: Array<{ slug: string; priceFrom?: number | null }> = [];
   try {
     rows = await client.fetch(
-      groq`*[_type == "tour" && !(_id in path("drafts.**")) && slug[_key=="en"][0].value.current in $slugs]{ "slug": slug[_key=="en"][0].value.current, priceFrom }`,
+      groq`*[${PRODUCTS_BY_SLUGS_FILTER}]{ "slug": ${EN_SLUG}, priceFrom }`,
       { slugs },
     );
   } catch (err) {

@@ -86,7 +86,8 @@ export interface LeadInput {
   estimatedCurrency: string | null;
   /** Journey the form opened from, and its style-question answer (Phase A). */
   journey: JourneyKey | null;
-  styleAnswer: string | null;
+  /** Raw answer: a string (radio, text, days band, ages) or the multi-select array. */
+  styleAnswer: string | string[] | null;
 }
 
 export type LeadValidation =
@@ -129,6 +130,15 @@ function phone(v: unknown): string | null {
   if (!/^[+\d\s()-]+$/.test(s)) return null;
   const digits = s.replace(/\D/g, '');
   return digits.length >= 6 && digits.length <= 20 ? s : null;
+}
+
+/** A string (≤300) or an array of up to 10 short strings; anything else → null. */
+function styleAnswerOf(v: unknown): string | string[] | null {
+  if (Array.isArray(v)) {
+    const xs = v.map((x) => str(x, 80)).filter((x): x is string => Boolean(x)).slice(0, 10);
+    return xs.length ? xs : null;
+  }
+  return str(v, 300);
 }
 
 export function normalizeLead(body: unknown): LeadValidation {
@@ -199,7 +209,7 @@ export function normalizeLead(body: unknown): LeadValidation {
           ? b.estimatedCurrency
           : null,
       journey: kind === 'trip' ? oneOf(b.journey, JOURNEY_KEYS) : null,
-      styleAnswer: kind === 'trip' ? str(b.styleAnswer, 300) : null,
+      styleAnswer: kind === 'trip' ? styleAnswerOf(b.styleAnswer) : null,
     },
   };
 }

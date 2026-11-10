@@ -97,7 +97,7 @@ export async function POST(req: NextRequest) {
       estimatedTotal: lead.estimatedTotal,
       estimatedCurrency: lead.estimatedCurrency,
       journey: lead.journey ? `${JOURNEYS[lead.journey].label.en} (${lead.journey})` : null,
-      styleAnswer: lead.styleAnswer,
+      styleAnswer: Array.isArray(lead.styleAnswer) ? lead.styleAnswer.join(', ') : lead.styleAnswer,
     });
     emailed = true;
   } catch (err) {
@@ -107,7 +107,7 @@ export async function POST(req: NextRequest) {
   // 2. Store (best-effort).
   let stored = false;
   if (db) {
-    const { error } = await db.from('leads').insert({
+    const row = {
       reference,
       kind: lead.kind,
       source: lead.source,
@@ -126,16 +126,18 @@ export async function POST(req: NextRequest) {
       tour_slug: lead.tourSlug,
       tour_title: lead.tourTitle,
       page_path: lead.pagePath,
-      // No dedicated columns yet (avoids a migration): the journey and its
-      // style answer ride in the utm jsonb under non-utm keys.
-      utm: {
-        ...lead.utm,
-        ...(lead.journey ? { journey: lead.journey } : {}),
-        ...(lead.styleAnswer ? { style_answer: lead.styleAnswer } : {}),
-      },
+      utm: lead.utm,
       ip_hash: ipHash,
       emailed,
-    });
+    };
+    // journey + style_answer have their own columns (migration 0010). Until
+    // 0010 is applied, retry without them so the lead is still stored.
+    const journeyCols = lead.journey ? { journey: lead.journey, style_answer: lead.styleAnswer } : {};
+    let { error } = await db.from('leads').insert({ ...row, ...journeyCols });
+    if (error && lead.journey && /journey|style_answer/.test(error.message)) {
+      console.error('[lead] journey columns missing (apply migration 0010):', error.message);
+      ({ error } = await db.from('leads').insert(row));
+    }
     if (error) console.error('[lead] insert failed (migration 0009 applied?):', error.message);
     else stored = true;
   }

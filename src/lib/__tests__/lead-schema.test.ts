@@ -77,4 +77,20 @@ assert.equal(dayBandFor(null), '');
   assert.equal(normalizeLead({ ...base, estimatedTotal: -5 }).ok === true && (normalizeLead({ ...base, estimatedTotal: -5 }) as { lead: { estimatedTotal: unknown } }).lead.estimatedTotal, null);
 }
 
+// Journey + raw style answer (journey pages Phase A; own columns, migration 0010).
+{
+  const multi = normalizeLead({ ...base, journey: 'cultural', styleAnswer: ['Islamic Cairo', 'Museums', ''] });
+  if (multi.ok !== true) throw new Error('expected ok');
+  assert.equal(multi.lead.journey, 'cultural');
+  assert.deepEqual(multi.lead.styleAnswer, ['Islamic Cairo', 'Museums'], 'multi-select stays an array');
+  assert.deepEqual(multi.lead.utm, {}, 'utm never carries the journey');
+  const radio = normalizeLead({ ...base, journey: 'desert', styleAnswer: 'Camping' });
+  if (radio.ok !== true) throw new Error('expected ok');
+  assert.equal(radio.lead.styleAnswer, 'Camping');
+  const bad = normalizeLead({ ...base, journey: 'nope', styleAnswer: { x: 1 } });
+  if (bad.ok !== true) throw new Error('expected ok');
+  assert.equal(bad.lead.journey, null);
+  assert.equal(bad.lead.styleAnswer, null);
+}
+
 console.log('lead-schema: all assertions passed');

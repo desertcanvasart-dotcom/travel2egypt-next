@@ -117,7 +117,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
         : sq.kind === 'childAges'
           ? get('childAges')
           : sq.kind === 'multi'
-            ? f.getAll('styleAnswer').filter((v): v is string => typeof v === 'string').join(', ')
+            ? f.getAll('styleAnswer').filter((v): v is string => typeof v === 'string')
             : get('styleAnswer');
     setState({ phase: 'sending' });
     setFieldError(null);
@@ -145,7 +145,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           tourSlug: prefill?.tourSlug,
           tourTitle: prefill?.tourTitle,
           journey,
-          styleAnswer: styleAnswer || undefined,
+          styleAnswer: (Array.isArray(styleAnswer) ? styleAnswer.length > 0 : Boolean(styleAnswer)) ? styleAnswer : undefined,
           company: get('company'),
           pagePath: window.location.pathname,
           utm: readUtm(),
