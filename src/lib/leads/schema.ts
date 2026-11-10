@@ -86,6 +86,12 @@ export interface LeadInput {
   estimatedCurrency: string | null;
   /** Journey the form opened from, and its style-question answer (Phase A). */
   journey: JourneyKey | null;
+  /** 2026-11-10 attribution: the form/button (= source), the hub or interest it
+   *  opened with, the visit's first page and the external referrer domain. */
+  formLocation: string;
+  interest: string | null;
+  landingPage: string | null;
+  referrerDomain: string | null;
   /** Raw answer: a string (radio, text, days band, ages) or the multi-select array. */
   styleAnswer: string | string[] | null;
 }
@@ -209,9 +215,25 @@ export function normalizeLead(body: unknown): LeadValidation {
           ? b.estimatedCurrency
           : null,
       journey: kind === 'trip' ? oneOf(b.journey, JOURNEY_KEYS) : null,
+      formLocation: source,
+      interest: str(b.interest, 100),
+      landingPage: (() => {
+        const lp = str(b.landingPage, 300);
+        return lp && lp.startsWith('/') ? lp : null;
+      })(),
+      referrerDomain: (() => {
+        const d = str(b.referrerDomain, 100)?.toLowerCase() ?? null;
+        return d && /^[a-z0-9.-]+\.[a-z]{2,}$/.test(d) ? d : null;
+      })(),
       styleAnswer: kind === 'trip' ? styleAnswerOf(b.styleAnswer) : null,
     },
   };
+}
+
+/** Test leads (2026-11-10): stored with is_test, never emailed or counted. */
+export const TEST_EMAIL_DOMAIN = '@test.travel2egypt.org';
+export function isTestEmail(email: string | null | undefined): boolean {
+  return typeof email === 'string' && email.toLowerCase().endsWith(TEST_EMAIL_DOMAIN);
 }
 
 /** Short human reference for the thank-you state and the team email. */

@@ -66,7 +66,9 @@ export type AnalyticsEvent =
   // Nav rebuild (2026-11-10): nav_click {menu, group, item, position}
   | 'nav_click'
   // Journey pages Phase A (2026-11-10): view_journey {journey}
-  | 'view_journey';
+  | 'view_journey'
+  // Measurement (2026-11-10): a test-mode lead (never generate_lead)
+  | 'test_lead';
 
 type Params = Record<string, string | number | boolean | undefined>;
 
@@ -90,8 +92,14 @@ export function track(event: AnalyticsEvent, params: Params = {}): void {
 /** Push the visitor's analytics choice to Consent Mode. */
 export function setAnalyticsConsent(granted: boolean): void {
   try {
+    // Consent Mode v2: every signal is set explicitly on each change. The
+    // advertising signals stay denied — the site runs no ads and the banner
+    // offers no marketing choice.
     gtag()?.('consent', 'update', {
       analytics_storage: granted ? 'granted' : 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
     });
   } catch {
     // ignore

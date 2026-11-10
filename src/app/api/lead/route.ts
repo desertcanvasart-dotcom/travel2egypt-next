@@ -5,7 +5,7 @@ import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { hashedIp } from '@/lib/concierge/ipHash';
 import { sendLeadEmail } from '@/lib/email/resend';
 import { conciergeDb } from '@/lib/supabase/server';
-import { BUDGET_LABELS, leadReference, normalizeLead, type LeadInput } from '@/lib/leads/schema';
+import { BUDGET_LABELS, isTestEmail, leadReference, normalizeLead, type LeadInput } from '@/lib/leads/schema';
 import { JOURNEYS } from '@/lib/journeys/registry';
 
 /**
@@ -55,6 +55,13 @@ export async function POST(req: NextRequest) {
   if (!v.ok) return NextResponse.json({ error: v.error, field: v.field }, { status: 422 });
   const lead = v.lead;
 
+  // Test mode: @test.travel2egypt.org addresses, or the X-T2E-Test header
+  // carrying T2E_TEST_SECRET. Stored with is_test = true; no team email, no
+  // alert, no auto-reply; the client fires `test_lead`, never `generate_lead`.
+  const testSecret = process.env.T2E_TEST_SECRET?.trim();
+  const isTest =
+    isTestEmail(lead.email) || Boolean(testSecret && req.headers.get('x-t2e-test') === testSecret);
+
   const ipHash = await hashedIp(req).catch(() => null);
 
   // Rate limit (per hashed IP). If the limiter itself is unavailable, let the
@@ -75,9 +82,9 @@ export async function POST(req: NextRequest) {
     console.error('[lead] rate limiter unavailable:', err);
   }
 
-  // 1. Email the team — the primary channel.
+  // 1. Email the team — the primary channel (never for test leads).
   let emailed = false;
-  try {
+  if (!isTest) try {
     await sendLeadEmail({
       reference,
       kind: lead.kind,
@@ -107,7 +114,7 @@ export async function POST(req: NextRequest) {
   // 2. Store (best-effort).
   let stored = false;
   if (db) {
-    const row = {
+    const base = {
       reference,
       kind: lead.kind,
       source: lead.source,
@@ -130,18 +137,35 @@ export async function POST(req: NextRequest) {
       ip_hash: ipHash,
       emailed,
     };
-    // journey + style_answer have their own columns (migration 0010). Until
-    // 0010 is applied, retry without them so the lead is still stored.
-    const journeyCols = lead.journey ? { journey: lead.journey, style_answer: lead.styleAnswer } : {};
-    let { error } = await db.from('leads').insert({ ...row, ...journeyCols });
-    if (error && lead.journey && /journey|style_answer/.test(error.message)) {
-      console.error('[lead] journey columns missing (apply migration 0010):', error.message);
-      ({ error } = await db.from('leads').insert(row));
+    // Newer columns, by migration. If one isn't applied yet the insert is
+    // retried without that tier, so the lead is always stored (logged).
+    const m0010 = { journey: lead.journey, style_answer: lead.styleAnswer, is_test: isTest };
+    const m0011 = {
+      form_location: lead.formLocation,
+      interest: lead.interest,
+      landing_page: lead.landingPage,
+      referrer_domain: lead.referrerDomain,
+    };
+    const tiers = [
+      { label: '0011', row: { ...base, ...m0010, ...m0011 } },
+      { label: '0010', row: { ...base, ...m0010 } },
+      { label: '0009', row: base },
+    ];
+    for (const [i, tier] of tiers.entries()) {
+      // A test lead is never stored without its is_test flag.
+      if (isTest && tier.label === '0009') break;
+      const { error } = await db.from('leads').insert(tier.row);
+      if (!error) {
+        stored = true;
+        break;
+      }
+      const missingColumn = /column|schema cache/i.test(error.message);
+      console.error(`[lead] insert failed at ${tier.label}${missingColumn && i < tiers.length - 1 ? ' (newer migration not applied; retrying)' : ''}:`, error.message);
+      if (!missingColumn) break;
     }
-    if (error) console.error('[lead] insert failed (migration 0009 applied?):', error.message);
-    else stored = true;
   }
 
+  if (isTest) return NextResponse.json({ ok: true, reference, test: true, stored });
   if (!emailed && !stored) {
     // Nothing reached the team: tell the visitor so they can use WhatsApp.
     return NextResponse.json({ error: 'lead_unavailable' }, { status: 503 });

@@ -11,6 +11,7 @@ import { journeyLabel, type JourneyKey } from '@/lib/journeys/registry';
 import { STYLE_QUESTIONS } from '@/lib/journeys/styleQuestions';
 
 import { readUtm } from './utm';
+import { sessionAttribution } from '@/lib/measure/session';
 import { useLead } from './LeadProvider';
 import { LEAD_COPY, leadLocale, type LeadCopy } from './copy';
 
@@ -37,6 +38,8 @@ export interface LeadPrefill {
   notes?: string;
   /** Day-tour hub slug the request came from (GA4 `hub`, 2026-11-09). */
   hub?: string;
+  /** What the form opened about (e.g. "nile-cruise"): stored as leads.interest. */
+  interest?: string;
   /** Journey the form opened from (journey pages Phase A): adds its style question. */
   journey?: JourneyKey;
 }
@@ -145,13 +148,21 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           tourSlug: prefill?.tourSlug,
           tourTitle: prefill?.tourTitle,
           journey,
+          interest: prefill?.interest ?? prefill?.hub,
+          ...sessionAttribution(),
           styleAnswer: (Array.isArray(styleAnswer) ? styleAnswer.length > 0 : Boolean(styleAnswer)) ? styleAnswer : undefined,
           company: get('company'),
           pagePath: window.location.pathname,
           utm: readUtm(),
         }),
       });
-      const data = (await res.json().catch(() => ({}))) as { reference?: string; error?: string; field?: string };
+      const data = (await res.json().catch(() => ({}))) as { reference?: string; error?: string; field?: string; test?: boolean };
+      if (res.ok && data.reference && data.test) {
+        // Test mode: never a generate_lead (keeps GA4 conversions clean).
+        track('test_lead', { form_location: source, ...(journey ? { journey } : {}) });
+        setState({ phase: 'done', reference: data.reference });
+        return;
+      }
       if (res.ok && data.reference) {
         track('generate_lead', {
           form_location: source,
