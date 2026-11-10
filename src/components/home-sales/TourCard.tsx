@@ -2,6 +2,7 @@ import { Price } from '@/components/Price';
 import { JourneyImage } from '@/components/tour-system/JourneyImage';
 import { LeadButton } from '@/components/leads/LeadProvider';
 import type { LeadSource } from '@/lib/leads/schema';
+import type { JourneyKey } from '@/lib/journeys/registry';
 
 import { HOME_COPY, type HomeLocale } from './copy';
 import { TrackedLink } from './TrackedLink';
@@ -20,6 +21,9 @@ export function TourCard({
   locale,
   listName,
   source = 'tour_card',
+  route,
+  why,
+  journey,
 }: {
   /** EN slug — the config key for the card's badge and route copy. */
   slug: string;
@@ -28,6 +32,12 @@ export function TourCard({
   /** GA4 item_list_name for select_item. */
   listName: string;
   source?: LeadSource;
+  /** Route line when the slug has no homepage copy (journey cards). */
+  route?: string | null;
+  /** The owner-approved "why it suits" line (journey cards). */
+  why?: string | null;
+  /** Journey the card sits on: Customise opens with its style question. */
+  journey?: JourneyKey;
 }) {
   const c = HOME_COPY[locale];
   const card = c.tours.cards[slug];
@@ -54,8 +64,9 @@ export function TourCard({
           </TrackedLink>
         </h3>
         <p className="route">
-          {duration && <span className="dur">{duration}</span>} {card?.route}
+          {duration && <span className="dur">{duration}</span>} {card?.route ?? route}
         </p>
+        {why && <p className="why">{why}</p>}
         {p.priceFrom ? (
           <p className="price">
             <span className="price-from">{c.from(<Price eur={p.priceFrom} />)}</span>
@@ -72,7 +83,7 @@ export function TourCard({
           </TrackedLink>
           <LeadButton
             source={source}
-            prefill={{ kind: 'trip', tourSlug: slug, tourTitle: p.title, durationDays: p.durationDays }}
+            prefill={{ kind: 'trip', tourSlug: slug, tourTitle: p.title, durationDays: p.durationDays, journey }}
             itemListName={listName}
             className="btn-outline"
           >

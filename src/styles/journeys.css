@@ -88,6 +88,14 @@
 .journey-doc .essay p:last-child {
   margin-bottom: 0;
 }
+/* Phase A wraps each paragraph (to host an optional subheading above it):
+ * keep the 1.5em rhythm between wrapped paragraphs. */
+.journey-doc .essay .essay-part p:last-child {
+  margin-bottom: 1.5em;
+}
+.journey-doc .essay .essay-part:last-of-type p:last-child {
+  margin-bottom: 0;
+}
 /* Operator note (global .operator-note styling) — a little breathing room in
  * this single-column context. */
 .journey-doc .operator-note {
@@ -349,3 +357,95 @@ html[lang='ja'] .journey-doc :is(h1, h2, h3, h4) {
 html[lang='ja'] .journey-doc :is(.eyebrow, .spine-label) {
   letter-spacing: 0.06em;
 }
+
+/* ===========================================================================
+ * PHASE A STRUCTURE (2026-11-10): hero, facts row, tour cards, subheadings,
+ * Before you go, end form, related styles. See JourneyPage.tsx.
+ * ========================================================================= */
+.journey-doc .wrap--wide { max-width: 1120px; }
+
+/* § 1 Hero — same treatment as the product-page hero (12:5, capped). */
+.journey-doc .journey-hero { position: relative; margin: 0; aspect-ratio: 12 / 5; max-height: 560px; width: 100%; overflow: hidden; }
+.journey-doc .journey-hero > .t2e-visual { position: absolute; inset: 0; }
+.journey-doc .journey-hero + .masthead { padding-top: 56px; }
+.journey-doc .masthead .eyebrow { letter-spacing: 0.16em; }
+
+/* § 2 Facts row */
+.journey-doc .journey-facts { padding: 40px 0 0; }
+.journey-doc .facts-row {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0;
+  margin: 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+}
+.journey-doc .facts-row > div { padding: 18px 20px 18px 0; }
+.journey-doc .facts-row > div + div { padding-left: 20px; border-left: 1px solid var(--rule-soft, var(--rule)); }
+.journey-doc .facts-row dt {
+  font-family: var(--ui); font-size: 11px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-dark); margin-bottom: 6px;
+}
+.journey-doc .facts-row dd { margin: 0; font-family: var(--read); font-size: 16px; line-height: 1.45; color: var(--navy); }
+.journey-doc .facts-from dd { font-family: var(--ui); font-size: 19px; font-weight: 600; }
+.journey-doc .facts-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+.journey-doc .j-btn {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 22px;
+  font-family: var(--ui); font-size: 14px; font-weight: 500; letter-spacing: 0.03em; text-decoration: none; cursor: pointer; border: 1px solid var(--navy);
+}
+.journey-doc .j-btn--primary { background: var(--navy); color: var(--paper); }
+.journey-doc .j-btn--primary:hover { background: var(--gold-dark); border-color: var(--gold-dark); }
+.journey-doc .j-btn--ghost { background: transparent; color: var(--navy); }
+.journey-doc .j-btn--ghost:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* § 3 Tour cards (homepage card, wrapped in .lvl-sales) */
+.journey-doc .journey-tours.lvl-sales { background: transparent; }
+.journey-doc .journey-tours .pcards { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.journey-doc .journey-tours .why { margin: 8px 0 0; font-family: var(--read); font-size: 15px; line-height: 1.5; color: var(--ink); }
+.journey-doc .journey-tours .see-all { margin: 32px 0 0; font-family: var(--ui); font-size: 14px; }
+.journey-doc .journey-tours .see-all a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--navy); padding-bottom: 3px; }
+.journey-doc .journey-tours .see-all a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* § 4 Essay subheadings */
+.journey-doc .essay .essay-h {
+  font-family: var(--display); font-weight: 400; font-size: clamp(24px, 2.8vw, 30px); line-height: 1.15; color: var(--navy); margin: 48px 0 16px;
+}
+.journey-doc .essay .essay-part:first-child .essay-h { margin-top: 0; }
+
+/* § 5 Before you go — planning links */
+.journey-doc .planning-links { list-style: none; margin: 28px 0 0; padding: 24px 0 0; border-top: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: 10px 28px; }
+.journey-doc .planning-links a { font-family: var(--ui); font-size: 14px; color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 2px; }
+.journey-doc .planning-links a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* § 6 End block — inline form */
+.journey-doc .journey-form { margin: 8px 0 24px; font-size: 16px; line-height: 1.5; }
+.journey-doc .close .close-alt { margin: 0 0 10px; font-family: var(--ui); font-size: 14px; }
+.journey-doc .close .close-alt a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 2px; }
+.journey-doc .close .close-alt a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* § 7 Related styles */
+.journey-doc .related-styles { padding-bottom: 96px; }
+.journey-doc .related-styles ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; }
+.journey-doc .related-styles li { border-top: 1px solid var(--rule); }
+.journey-doc .related-styles li:last-child { border-bottom: 1px solid var(--rule); }
+.journey-doc .related-styles a { display: flex; align-items: baseline; gap: 14px; padding: 18px 0; color: var(--navy); text-decoration: none; }
+.journey-doc .related-styles a:hover { color: var(--gold-dark); }
+.journey-doc .related-styles .rs-label { font-family: var(--display); font-size: 24px; line-height: 1.1; }
+.journey-doc .related-styles .rs-from { font-family: var(--ui); font-size: 14px; color: var(--navy-mute); margin-left: auto; }
+
+@media (max-width: 640px) {
+  .journey-doc .journey-hero { aspect-ratio: auto; height: clamp(220px, 42vh, 340px); }
+  .journey-doc .facts-row { grid-template-columns: 1fr 1fr; }
+  .journey-doc .facts-row > div,
+  .journey-doc .facts-row > div + div { padding: 14px 12px 14px 0; border-left: 0; border-top: 1px solid var(--rule-soft, var(--rule)); }
+  .journey-doc .facts-row > div:nth-child(-n + 2) { border-top: 0; }
+  .journey-doc .j-btn { flex: 1 1 100%; }
+}
+
+/* /journeys overview */
+.journeys-index .masthead h1 em { display: inline; }
+.journeys-index .journeys-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 32px 28px; }
+.journeys-index .jcard { display: flex; flex-direction: column; height: 100%; color: var(--navy); text-decoration: none; border-top: 1px solid var(--rule); }
+.journeys-index .jcard-img { display: block; position: relative; }
+.journeys-index .jcard-img .t2e-visual { aspect-ratio: 3/2; width: 100%; }
+.journeys-index .jcard-body { display: flex; flex-direction: column; gap: 8px; padding-top: 16px; flex: 1; }
+.journeys-index .jcard-label { font-family: var(--display); font-size: 28px; line-height: 1.08; }
+.journeys-index .jcard-line { font-family: var(--read); font-size: 16px; line-height: 1.5; color: var(--ink); }
+.journeys-index .jcard-from { font-family: var(--ui); font-size: 16px; font-weight: 600; }
+.journeys-index .jcard-cta { margin-top: auto; padding-top: 8px; font-family: var(--ui); font-size: 14px; }
+.journeys-index .jcard:hover .jcard-label, .journeys-index .jcard:hover .jcard-cta { color: var(--gold-dark); }

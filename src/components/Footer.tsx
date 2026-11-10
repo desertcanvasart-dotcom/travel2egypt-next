@@ -15,6 +15,7 @@ import { LeadButton } from './leads/LeadProvider';
 import { NavLinkItem } from './nav/NavLinkItem';
 import { TrackedWhatsApp } from './nav/TrackedWhatsApp';
 import type { NavChrome, NavLeaf } from './nav/types';
+import { JOURNEY_KEYS } from '@/lib/journeys/registry';
 
 interface FooterProps {
   locale: Locale;
@@ -102,7 +103,7 @@ export function Footer({ locale, nav, accreditations, responseTimeFull }: Footer
   const strip = (i: NavLeaf): NavLeaf => ({ ...i, fromEur: null }); // no prices in the footer
 
   const columns: NavLeaf[][] = [
-    pick(['all_packages', 'small_group', 'first_time', 'family', 'luxury']).map(strip),
+    pick(['all_packages', 'small_group', ...JOURNEY_KEYS.map((k) => `journey_${k}`)]).map(strip),
     [
       ...pick(['cairo', 'luxor', 'aswan', 'alexandria', 'all_day_tours']).map(strip),
       { id: 'nile_cruises', label: c.nileCruises, href: '/nile-cruises' },

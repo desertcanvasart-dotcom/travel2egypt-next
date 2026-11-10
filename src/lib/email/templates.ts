@@ -574,12 +574,18 @@ export interface LeadEmailParams {
   utm: Record<string, string>;
   estimatedTotal?: number | null;
   estimatedCurrency?: string | null;
+  /** Journey label + key, e.g. "Families (family)", and its style answer. */
+  journey?: string | null;
+  styleAnswer?: string | null;
 }
 
 export function leadTeamEmail(p: LeadEmailParams): { subject: string; html: string; text: string } {
   const what = p.kind === 'day_tour' ? 'Day-tour date request' : 'Itinerary request';
   const subject = `[Website lead — ${what}] ${p.reference}${p.tour ? ` — ${p.tour}` : ''}`;
   const rows: Array<[string, string]> = [
+    // Journey pages Phase A: the travel style and its answer lead the email.
+    ...(p.journey ? ([['Travel style', p.journey]] as Array<[string, string]>) : []),
+    ...(p.journey ? ([['Style answer', p.styleAnswer ?? '(not answered)']] as Array<[string, string]>) : []),
     ['Reference', p.reference],
     ['Email', p.email],
     ['WhatsApp', p.whatsapp ?? '(not given)'],

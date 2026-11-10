@@ -14,7 +14,7 @@ export function TrackedWhatsApp({
 }: {
   href: string;
   aria?: string;
-  location: 'header' | 'mobile_menu' | 'footer_band' | 'footer';
+  location: 'header' | 'mobile_menu' | 'footer_band' | 'footer' | 'journey_facts' | 'journey_end' | 'journeys_index';
   className?: string;
   children: ReactNode;
 }) {

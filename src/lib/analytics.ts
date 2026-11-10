@@ -64,7 +64,9 @@ export type AnalyticsEvent =
   // Product page template (2026-11-09)
   | 'view_item'
   // Nav rebuild (2026-11-10): nav_click {menu, group, item, position}
-  | 'nav_click';
+  | 'nav_click'
+  // Journey pages Phase A (2026-11-10): view_journey {journey}
+  | 'view_journey';
 
 type Params = Record<string, string | number | boolean | undefined>;
 

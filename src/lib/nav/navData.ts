@@ -17,14 +17,18 @@
  *  - "Steamer": no steamer boats are listed on /nile-cruises → omitted until
  *    one is (the item appears automatically when the count is > 0).
  */
+import { cache } from 'react';
 import { groq } from 'next-sanity';
 
 import { client } from '@/sanity/lib/client';
+import { EN_SLUG, PRODUCTS_BY_SLUGS_FILTER } from '@/lib/products/bySlug';
 import type { Locale } from '@/i18n/routing';
 import { STYLE_CARDS } from '@/components/home-sales/config';
 import { TRIPADVISOR_URL } from '@/lib/company';
 import { WHATSAPP_DISPLAY, WHATSAPP_LINK, whatsappUrl } from '@/lib/concierge/constants';
 import type { NavChrome, NavMenu } from '@/components/nav/types';
+import { getJourneysLive } from '@/lib/journeys/data';
+import { JOURNEY_KEYS, JOURNEYS, JOURNEY_UI, journeyLocale } from '@/lib/journeys/registry';
 
 const JOURNEY_PRICE_SLUG = Object.fromEntries(STYLE_CARDS.filter((c) => c.priceSlug).map((c) => [c.href, c.priceSlug!]));
 
@@ -37,7 +41,7 @@ const CITY_LANDINGS = {
 
 const navPricesQuery = groq`{
   "packages": *[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**")) && priceFrom > 0]{ durationDays, priceFrom },
-  "journeys": *[_type == "tour" && !(_id in path("drafts.**")) && slug[_key=="en"][0].value.current in $journeySlugs]{ "slug": slug[_key=="en"][0].value.current, priceFrom },
+  "journeys": *[${PRODUCTS_BY_SLUGS_FILTER.replace('$slugs', '$journeySlugs')}]{ "slug": ${EN_SLUG}, priceFrom },
   "cities": *[_type == "tourLanding" && _id in $landingIds]{
     _id,
     "min": math::min(*[_type == "tour" && !(_id in path("drafts.**")) && type == "dayTour" && tourMode == "private"
@@ -149,16 +153,25 @@ const HUB_PATH: Record<Locale, string> = {
   ja: '/ejiputo-ryoko-pakkeeji',
 };
 
-export async function getNavData(locale: Locale): Promise<NavChrome> {
+export const getNavData = cache(async (locale: Locale): Promise<NavChrome> => {
   const t = L[locale] ?? L.en;
   const p = t.paths;
-  const prices = await client.fetch<NavPrices>(navPricesQuery, {
-    journeySlugs: Object.values(JOURNEY_PRICE_SLUG),
-    landingIds: Object.values(CITY_LANDINGS),
-  });
+  const [prices, live] = await Promise.all([
+    client.fetch<NavPrices>(navPricesQuery, {
+      journeySlugs: Object.values(JOURNEY_PRICE_SLUG),
+      landingIds: Object.values(CITY_LANDINGS),
+    }),
+    getJourneysLive(locale),
+  ]);
+  // Journey "from": the approved tours' lowest price (same figure as the
+  // journey page and homepage card); until a journey's tours are approved,
+  // the homepage card's existing source (a product price or owner figure).
   const journeyFrom = (enHref: string) => {
+    const key = JOURNEY_KEYS.find((k) => JOURNEYS[k].path === enHref);
+    if (key && live[key].fromEur) return live[key].fromEur;
     const slug = JOURNEY_PRICE_SLUG[enHref];
-    return min(prices.journeys.filter((j) => j.slug === slug).map((j) => j.priceFrom));
+    if (slug) return min(prices.journeys.filter((j) => j.slug === slug).map((j) => j.priceFrom));
+    return STYLE_CARDS.find((c) => c.href === enHref)?.ownerFromEur ?? null;
   };
   const cityFrom = (id: string) => min(prices.cities.filter((c) => c._id === id).map((c) => c.min));
   const lengthFrom = (i: number) =>
@@ -175,11 +188,15 @@ export async function getNavData(locale: Locale): Promise<NavChrome> {
         {
           id: 'who',
           label: t.whoFor,
+          // The six journeys (journey pages Phase A, §7.1) + the overview.
           items: [
-            { id: 'first_time', label: t.firstTime, href: p.firstTime, fromEur: journeyFrom('/journeys/first-time-in-egypt') },
-            { id: 'family', label: t.family, href: p.family, fromEur: journeyFrom('/journeys/travelling-as-a-family') },
-            { id: 'luxury', label: t.luxury, href: p.luxury, fromEur: journeyFrom('/journeys/travelling-in-style') },
-            { id: 'nile_desert', label: t.nileDesert, href: p.nileDesert, fromEur: journeyFrom('/journeys/desert-and-quiet') },
+            ...JOURNEY_KEYS.map((k) => ({
+              id: `journey_${k}`,
+              label: JOURNEYS[k].label[journeyLocale(locale)],
+              href: JOURNEYS[k].path,
+              fromEur: journeyFrom(JOURNEYS[k].path),
+            })),
+            { id: 'all_styles', label: JOURNEY_UI[journeyLocale(locale)].allStyles, href: '/journeys' },
           ],
         },
         {
@@ -283,4 +300,4 @@ export async function getNavData(locale: Locale): Promise<NavChrome> {
     closeMenu: t.closeMenu,
     primaryNavLabel: t.primaryNav,
   };
-}
+});

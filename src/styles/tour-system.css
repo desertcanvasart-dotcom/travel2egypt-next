@@ -693,3 +693,9 @@ html[lang='ja'] .lvl-single .dep-row .dp-price { font-size: 16px; white-space: n
 @media (max-width: 620px) {
   .lvl-home .starts, .lvl-home .gfeat-cards, .lvl-home .steps { grid-template-columns: 1fr; }
 }
+
+/* Journey pages Phase A §7.4 — one-line planning-advice banner on the six paired theme hubs. */
+.lvl-subcategory .hub-journey-banner { margin: 0; background: var(--paper-warm); border-bottom: 1px solid var(--rule); font-family: var(--ui); font-size: 14px; }
+.lvl-subcategory .hub-journey-banner .t2e-wrap { display: block; padding-top: 12px; padding-bottom: 12px; }
+.lvl-subcategory .hub-journey-banner a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 2px; }
+.lvl-subcategory .hub-journey-banner a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }

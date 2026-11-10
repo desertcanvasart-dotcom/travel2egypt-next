@@ -1,3 +1,4 @@
+import { JOURNEY_KEYS, type JourneyKey } from '@/lib/journeys/registry';
 /**
  * Itinerary-request lead (homepage rebuild, 2026-11-08) — the shape the short
  * form posts to /api/lead, and its validation. Pure: unit-tested, and shared
@@ -28,6 +29,10 @@ export const LEAD_SOURCES = [
   'mobile_menu',
   'footer_band',
   'footer',
+  // Journey pages Phase A (2026-11-10)
+  'journey_facts',
+  'journey_end',
+  'journeys_index',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];
 
@@ -79,6 +84,10 @@ export interface LeadInput {
   estimatedTotal: number | null;
   /** ISO code of the estimate (the viewer's display currency); USD when absent. */
   estimatedCurrency: string | null;
+  /** Journey the form opened from, and its style-question answer (Phase A). */
+  journey: JourneyKey | null;
+  /** Raw answer: a string (radio, text, days band, ages) or the multi-select array. */
+  styleAnswer: string | string[] | null;
 }
 
 export type LeadValidation =
@@ -121,6 +130,15 @@ function phone(v: unknown): string | null {
   if (!/^[+\d\s()-]+$/.test(s)) return null;
   const digits = s.replace(/\D/g, '');
   return digits.length >= 6 && digits.length <= 20 ? s : null;
+}
+
+/** A string (≤300) or an array of up to 10 short strings; anything else → null. */
+function styleAnswerOf(v: unknown): string | string[] | null {
+  if (Array.isArray(v)) {
+    const xs = v.map((x) => str(x, 80)).filter((x): x is string => Boolean(x)).slice(0, 10);
+    return xs.length ? xs : null;
+  }
+  return str(v, 300);
 }
 
 export function normalizeLead(body: unknown): LeadValidation {
@@ -190,6 +208,8 @@ export function normalizeLead(body: unknown): LeadValidation {
         typeof b.estimatedCurrency === 'string' && /^(EUR|USD|GBP|AUD|CAD|JPY)$/.test(b.estimatedCurrency)
           ? b.estimatedCurrency
           : null,
+      journey: kind === 'trip' ? oneOf(b.journey, JOURNEY_KEYS) : null,
+      styleAnswer: kind === 'trip' ? styleAnswerOf(b.styleAnswer) : null,
     },
   };
 }

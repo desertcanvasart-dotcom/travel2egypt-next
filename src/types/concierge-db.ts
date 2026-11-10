@@ -289,6 +289,10 @@ export interface ConciergeDatabase {
           utm: Record<string, string>;
           ip_hash: string | null;
           emailed: boolean;
+          /** 0010: journey key, raw style answer (string | string[]), test flag. */
+          journey: string | null;
+          style_answer: string | string[] | null;
+          is_test: boolean;
           status: string;
         };
         Insert: {
@@ -315,6 +319,9 @@ export interface ConciergeDatabase {
           utm?: Record<string, string>;
           ip_hash?: string | null;
           emailed?: boolean;
+          journey?: string | null;
+          style_answer?: string | string[] | null;
+          is_test?: boolean;
           status?: string;
         };
         Update: Partial<{
