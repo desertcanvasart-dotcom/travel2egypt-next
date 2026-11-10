@@ -10554,7 +10554,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/blog/naseru-ko-ejiputo-no-kakure-ta-boken-to-shizukesa-no-hoseki",
-    "destination": "/ja/blog/naseru-ko-kuruzu-no-erabikata",
+    "destination": "/ja/blog/naseru-ko-kuruzu-to-wa-nani-ka",
     "permanent": true
   },
   {
@@ -29815,6 +29815,36 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/責任ある旅行",
     "destination": "/ja/responsible-travel",
+    "permanent": true
+  },
+  {
+    "source": "/blog/lake-nasser-cruises",
+    "destination": "/blog/lake-nasser-cruise",
+    "permanent": true
+  },
+  {
+    "source": "/lake-nasser-cruises",
+    "destination": "/blog/lake-nasser-cruise",
+    "permanent": true
+  },
+  {
+    "source": "/es/blog/lago-nasser",
+    "destination": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser",
+    "permanent": true
+  },
+  {
+    "source": "/es/lago-nasser",
+    "destination": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/naseru-ko-kuruzu-no-erabikata",
+    "destination": "/ja/blog/naseru-ko-kuruzu-to-wa-nani-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/naseru-ko-kuruzu-no-erabikata",
+    "destination": "/ja/blog/naseru-ko-kuruzu-to-wa-nani-ka",
     "permanent": true
   }
 ];

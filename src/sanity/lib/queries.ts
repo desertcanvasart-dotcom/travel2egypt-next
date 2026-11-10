@@ -1385,6 +1385,7 @@ export const articleBySlugQuery = groq`
         }
       }
     },
+    "faq": faq[]{ _key, question, answer },
     "categoryDescription": category->{
       "description": coalesce(description[_key==$locale][0].value, description[_key=="en"][0].value)
     },
