@@ -60,6 +60,14 @@ const OWN = {
   'roman-towers-and-church-of-saint-george': ['Church of Saint George in Coptic Cairo, reached by a wide flight of steps.', 'La iglesia de San Jorge en El Cairo copto, a la que se sube por una amplia escalinata.', '広い石段の上に建つ、コプト・カイロの聖ゲオルギオス教会。'],
   'sabil-of-muhammad-ali-pasha': ['Curved façade of the Sabil of Muhammad Ali Pasha in Cairo, with gilded carving and a balcony.', 'Fachada curva del sabil de Muhammad Ali Pasha en El Cairo, con tallas doradas y un balcón.', 'カイロのムハンマド・アリー・パシャのサビール。金色の彫刻とバルコニーのある曲面のファサード。'],
   'sharia-al-muizz-li-din-allah': ['Brass lantern shop beside a stone doorway on Al-Muizz li-Din Allah Street, Cairo.', 'Tienda de faroles de latón junto a una puerta de piedra en la calle Al-Muizz li-Din Allah, El Cairo.', 'カイロ、ムイッズ・リ・ディーニッラー通りの石の戸口の脇にある真鍮ランタンの店。'],
+  // Owner, 10 Nov 2026: replace the existing image on these pages.
+  'cairo-food-guide': ["A bowl of koshari, Cairo's dish of rice, pasta and chickpeas topped with tomato sauce and fried onions.", 'Un cuenco de koshari, el plato cairota de arroz, pasta y garbanzos con salsa de tomate y cebolla frita.', 'トマトソースと揚げ玉ねぎをのせた、米・パスタ・ひよこ豆のカイロ料理コシャリ。'],
+  'cairo-tours': ['The Pyramid of Khafre and the Great Sphinx at Giza under a sunset sky.', 'La pirámide de Kefrén y la Gran Esfinge de Guiza bajo el cielo del atardecer.', '夕焼け空の下のギザのカフラー王のピラミッドと大スフィンクス。'],
+  'coptic-cairo': ['The twin bell towers of the Hanging Church above a lane in Coptic Cairo.', 'Las dos torres campanario de la Iglesia Colgante sobre una calle de El Cairo copto.', 'コプト・カイロの小路の先にそびえる、吊り下げ教会の二つの鐘楼。'],
+  'how-to-go-to-cairo': ['An EgyptAir Express plane on an airport apron.', 'Un avión de EgyptAir Express en la plataforma de un aeropuerto.', '空港のエプロンに駐機するエジプト航空エクスプレスの機体。'],
+  'things-to-do-in-cairo': ['A white-sailed felucca on the Nile.', 'Una faluca de vela blanca en el Nilo.', 'ナイル川を進む白い帆のフェルッカ。'],
+  'ticket-prices-for-attractions-in-cairo': ['Façade of the Egyptian Museum in Tahrir Square, Cairo, with its pool and sphinx statues.', 'Fachada del Museo Egipcio en la plaza Tahrir, El Cairo, con su estanque y sus esfinges.', 'カイロ・タハリール広場のエジプト考古学博物館。池とスフィンクス像のある正面。'],
+  'where-to-stay-in-cairo': ['The Nile in central Cairo, with riverside hotels and the Cairo Tower on the skyline.', 'El Nilo en el centro de El Cairo, con hoteles junto al río y la Torre de El Cairo en el horizonte.', 'ナイル川沿いのホテルとカイロ・タワーが並ぶ、カイロ中心部のスカイライン。'],
 };
 // Creative Commons (credits.json) → [EN, ES, JA, credit]
 const CCMAP = {
@@ -73,6 +81,9 @@ const CCMAP = {
   'gawhara-terrace-and-palace': ['Sign for El Gohara Palace on a stone wall at the Cairo Citadel.', 'Placa del palacio de El Gohara en un muro de piedra de la Ciudadela de El Cairo.', 'カイロ城塞の石壁に掲げられたガウハラ宮殿の銘板。', 'Zienauto / Wikimedia Commons, CC BY-SA 4.0'],
 };
 
+// Pages whose existing (live or draft-only) image the owner chose to replace (10 Nov 2026).
+const REPLACE = new Set(['cairo-food-guide', 'cairo-tours', 'coptic-cairo', 'how-to-go-to-cairo', 'things-to-do-in-cairo', 'ticket-prices-for-attractions-in-cairo', 'where-to-stay-in-cairo',
+  'al-ghuriyya-complex', 'bab-zuweila', 'beit-al-suhaymi', 'khan-el-khalili', 'madrasa-and-khanqah-of-sultan-barquq', 'mosque-of-al-aqmar', 'mosque-of-al-hakim', 'mosque-of-al-mu-ayyad-shaykh', 'sharia-al-muizz-li-din-allah']);
 const SET = CC ? CCMAP : OWN;
 const loc = (en, es, ja) => [
   { _key: 'en', _type: 'internationalizedArrayStringValue', value: en },
@@ -86,7 +97,9 @@ for (const [slug, v] of Object.entries(SET)) {
   const ids = pages.filter((p) => p.s === slug);
   const pub = ids.find((p) => !p._id.startsWith('drafts.'));
   if (!pub) throw new Error(`no published page for ${slug}`);
-  if (ids.some((p) => p.has)) { console.log(`skip ${slug}: page already has an image`); continue; }
+  const done = await c.fetch(`*[_id==$id][0].heroImage.asset->originalFilename`, { id: pub._id });
+  if (done === `${slug}.jpg`) { console.log(`${slug}: already has this image`); continue; }
+  if (ids.some((p) => p.has) && !REPLACE.has(slug)) { console.log(`skip ${slug}: page already has an image`); continue; }
   const file = `${DIR}/${slug}.jpg`;
   if (!fs.existsSync(file)) throw new Error(`missing ${file}`);
   let assetId = '(dry run)';
