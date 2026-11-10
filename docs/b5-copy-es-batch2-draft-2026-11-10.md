@@ -2,7 +2,7 @@
 
 The Spanish counterpart of `docs/b5-copy-batch2-draft-2026-11-09.md`. Search figures are Search Console impressions over the last 16 months for Spanish searches.
 
-**Status: DRAFT — awaiting owner approval.** Once you approve it, this file is locked (Canon Gate A), and the staging script writes only strings that byte-match it.
+**Status: LOCKED — approved by the owner 10 Nov 2026 ("Yes, apply all").** Locked copy (Canon Gate A): the staging script writes only strings that byte-match this file.
 
 The rules are the same as before:
 - **Meta title:** 45 characters or fewer, because the site adds " — Travel2Egypt".
