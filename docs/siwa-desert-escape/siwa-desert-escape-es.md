@@ -49,7 +49,7 @@ Llegas a una mañana tranquila en Siwa, con desayuno y tiempo para instalarte en
 Adéntrate en el pasado de Siwa con un guía privado. Las tumbas y el Oráculo con el fresco de la mañana, el pueblo y sus historias por la tarde, y Shali al anochecer.
 
 - **9:30 · Montaña de los Muertos** — Tumbas pintadas excavadas en la roca, y todo el oasis a tus pies desde la cima.
-- **10:45 · Templo del Oráculo** — Donde Alejandro vino a consultar a Amón en el 331 a. C. Después, el templo de Amón en Umm Ubeida, muy cerca.
+- **10:45 · Templo del Oráculo** — Donde Alejandro vino a consultar a Amón en el 332 a. C. Después, el templo de Amón en Umm Ubeida, muy cerca.
 - **12:30 · Almuerzo** — Un sitio local de confianza para tu guía.
 - **14:00 · Museo de la Casa de Siwa** — Bordados, plata y vida cotidiana en una casa tradicional de karsheef.
 - **14:45 · Biblioteca Black Lions** — Una pequeña biblioteca privada que mantiene un viajero italiano que vive en Siwa desde hace más de veinte años. Libros raros sobre el oasis, sus fotografías de Siwa a lo largo de dos décadas y una salita donde se proyectan documentales sobre cómo era el oasis.

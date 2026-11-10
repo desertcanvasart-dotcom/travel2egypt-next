@@ -55,7 +55,7 @@ Arrive to a slow Siwa morning, with breakfast and time to settle in at your Trav
 Step into Siwa's past with a private guide. Tombs and the Oracle in the cool of the morning, the town and its stories through the afternoon, and Shali at dusk.
 
 - **9:30 AM · Mountain of the Dead** — Painted rock-cut tombs, and the whole oasis spread out from the top.
-- **10:45 AM · Oracle Temple** — Where Alexander came to consult Amun in 331 BC. Then the Temple of Amun at Umm Ubeida nearby.
+- **10:45 AM · Oracle Temple** — Where Alexander came to consult Amun in 332 BC. Then the Temple of Amun at Umm Ubeida nearby.
 - **12:30 PM · Lunch** — A local spot your guide trusts.
 - **2:00 PM · Siwa House Museum** — Embroidery, silver and everyday life in a traditional karsheef house.
 - **2:45 PM · Black Lions Library** — A small private library kept by an Italian traveller who has lived in Siwa for more than twenty years. Rare books on the oasis, his photographs of Siwa across two decades, and a small room screening documentaries of how the oasis used to look.
