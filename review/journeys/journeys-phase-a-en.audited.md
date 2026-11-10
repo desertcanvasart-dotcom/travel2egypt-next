@@ -12,6 +12,34 @@
 
 ---
 
+## Owner decisions (10 Nov 2026, after the audit)
+
+These are the owner's replies to this audit, recorded here. Nothing is applied to `curation.ts` yet; that needs a separate change.
+
+| # | Decision | Status |
+|---|---|---|
+| 1 | **First time:** use `10-days-nile-dreamer-tour-experience` ($2,480) instead of `essential-egypt`. | **Agreed by owner.** The why line proposed below stands: "Cairo, the sleeper train south, three nights cruising from Aswan to Luxor, and the Theban temples." |
+| 2 | **Desert ↔ Coming back swap:** `4-days-white-desert-wadi-al-hittan-exploration` moves to Desert & quiet, and `3-day-siwa-journey-from-alexandria` moves to Coming back. | **Agreed by owner.** Approve both journeys together. |
+| 3 | **Culture & history:** the owner pointed to https://travel2egypt.org/a-9-day-egypt-tour-of-culture-and-history and will find further tours. | The 9-day ($2,650) stands as the Culture pick (already **Approve**). The other Culture picks wait for the owner's choice. If only this pick is approved, the Culture card shows **$2,650**, against $1,350 today (+96%). |
+| 4 | **Families, a tour with the Red Sea in the latter part:** the owner suggested https://travel2egypt.org/egypt-and-the-red-sea-paradise. | **Not recommended for Families.** See the check below. |
+
+### Check: `egypt-and-the-red-sea-paradise`
+
+The page is live (200): 12 days, **$3,650**, theme "Egypt & Red Sea" (not Family). It fails what the owner asked for on two counts:
+
+- **The Red Sea is in the middle, not the latter part.** The product's own text says: "The Red Sea days sit in the middle as deliberate release", with the route "Cairo → Hurghada → Luxor… → Abu Simbel → sleeper train → Alexandria → … → Cairo". The family essay asks for the opposite: "Last, the Red Sea — and the order matters."
+- **It has no family pacing in its own text.** Audience note: "Travellers who want maximum geographic range in twelve days; first or second visits hungry for the full sweep". Body: "The pace is demanding in the middle". It also includes Alexandria.
+
+### Family products whose own text puts the Red Sea in the latter part
+
+| Slug | Days | Price (USD, live) | Route (product's own "Where" line) | Family text | Fit |
+|---|---|---|---|---|---|
+| `14-day-egypt-luxury-family-holiday` (already pick 3) | 14 | $4,240 | Cairo → Aswan → Kom Ombo → Edfu → Luxor → **Hurghada** → Cairo | "Families with children of mixed ages…" | Red Sea in the latter part (4 nights), then a Cairo close. Keep it, with the corrected why line. |
+| `11-day-the-splendor-of-egypt-tour` | 11 | **$3,500** | Cairo → Abu Simbel → Aswan → Edfu → Kom Ombo → Luxor → **Hurghada** → Cairo (Memphis, Saqqara, Dahshur) | "Families with children who want both the deep archaeological south and a real coastal pause"; "family-paced… three days on the Red Sea" | **Best match for the owner's ask.** The Red Sea comes after the Nile, and 11 days sits inside the essay's "10–12 days with the Red Sea close". It could replace the 14-day (spread 4 / 9 / 11 days at $750 / $2,340 / $3,500), or be added as a fourth option. Owner's choice. Suggested why line, trimmed from its summary: "Eleven family-paced days from the Giza plateau to Abu Simbel, Luxor's two banks, and the Red Sea." |
+| `12-day-amazing-family-vacation-in-egypt` | 12 | $3,700 | Cairo → **Hurghada** → Luxor → … → Aswan → Cairo | "Families with children of mixed ages…" | The Red Sea comes early, so it doesn't match the ask. |
+
+---
+
 ## 5. Summary
 
 ### 5.1 Per journey
