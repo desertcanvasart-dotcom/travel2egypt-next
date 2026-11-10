@@ -29131,5 +29131,35 @@ export const redirects: RedirectRule[] = [
     "source": "/es/de-alejandria-a-el-cairo-excursion-privada-de-un-dia-a-las-piramides-de-guiza-la-esfinge-el-museo-egipcio-y-khan-el-khalili",
     "destination": "/es/tour-de-dia-desde-alejandria-a-el-cairo-piramides-museo-y-jan-el-jalili",
     "permanent": true
+  },
+  {
+    "source": "/ja/カイロ旅行ガイド/シャーリア・アル・ムイッズ・リッディーン・ア",
+    "destination": "/ja/guide/kairo/muizzu-dori-shariaarumuizzuridinarra",
+    "permanent": true
+  },
+  {
+    "source": "/kharga-oasis-travel-guide/cemetery-of-el-bagawat",
+    "destination": "/guide/kharga-oasis/cemetery-of-el-bagawat",
+    "permanent": true
+  },
+  {
+    "source": "/es/9-lugares-de-primera-categoria-para-visitar-en-aswan",
+    "destination": "/es/blog/7-cosas-inolvidables-que-hacer-en-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/es/distancia-entre-ciudades-egipcias",
+    "destination": "/es/distance-between-egyptian-cities",
+    "permanent": true
+  },
+  {
+    "source": "/ja/サファリ",
+    "destination": "/ja/multiday-adventure-and-safari-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/観光ガイド",
+    "destination": "/ja/guide",
+    "permanent": true
   }
 ];
