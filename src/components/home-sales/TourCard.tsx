@@ -24,6 +24,7 @@ export function TourCard({
   route,
   why,
   journey,
+  anchorId,
 }: {
   /** EN slug — the config key for the card's badge and route copy. */
   slug: string;
@@ -38,6 +39,8 @@ export function TourCard({
   why?: string | null;
   /** Journey the card sits on: Customise opens with its style question. */
   journey?: JourneyKey;
+  /** DOM id (journey days selector scrolls to and highlights the card). */
+  anchorId?: string;
 }) {
   const c = HOME_COPY[locale];
   const card = c.tours.cards[slug];
@@ -45,7 +48,7 @@ export function TourCard({
   const duration =
     p.type === 'dayTour' ? (p.durationHours ? c.hours(p.durationHours) : null) : p.durationDays ? c.days(p.durationDays) : null;
   return (
-    <li className="pcard">
+    <li className="pcard" id={anchorId} data-days={p.durationDays ?? undefined}>
       <TrackedLink href={href} listName={listName} itemId={slug} className="pcard-img">
         <JourneyImage
           image={p.heroImage}
