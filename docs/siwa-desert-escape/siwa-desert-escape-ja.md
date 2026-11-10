@@ -1,6 +1,6 @@
 # シワ・デザート・エスケープ
 
-Status: DRAFT — Japanese translation of the locked English copy (siwa-desert-escape-en.md), awaiting owner approval. です・ます調; no new facts; 24-hour times; no concierge links. Google title: 「カイロ発シワ・オアシス4日間の旅」.
+Status: LOCKED — approved by the owner 10 Nov 2026 ("Yes, both"). Japanese translation of the locked English copy (siwa-desert-escape-en.md), awaiting owner approval. です・ます調; no new facts; 24-hour times; no concierge links. Google title: 「カイロ発シワ・オアシス4日間の旅」.
 
 概要: 塩湖、古代のシワ、そしてグレート・サンド・シー。到着から出発まで、丁寧に整えた4日間です。
 

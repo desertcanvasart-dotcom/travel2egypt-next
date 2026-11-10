@@ -1,6 +1,6 @@
 # Escapada al desierto de Siwa
 
-Status: DRAFT — Spanish translation of the locked English copy (siwa-desert-escape-en.md), awaiting owner approval. Uses tú; no new facts; times in 24-hour format. Google title: "Tour al oasis de Siwa desde El Cairo: 4 días".
+Status: LOCKED — approved by the owner 10 Nov 2026 ("Yes, both"). Spanish translation of the locked English copy (siwa-desert-escape-en.md), awaiting owner approval. Uses tú; no new facts; times in 24-hour format. Google title: "Tour al oasis de Siwa desde El Cairo: 4 días".
 
 Resumen: Cuatro días entre lagos salados, la antigua Siwa y el Gran Mar de Arena, organizados con cuidado desde la llegada hasta la salida.
 
