@@ -19559,7 +19559,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/siwa-oasis-adventure-tour",
-    "destination": "/es/excursion-de-aventura-de-3-dias-al-encantador-oasis-de-siwa",
+    "destination": "/es/excursion-de-aventura-de-4-dias-al-encantador-oasis-de-siwa",
     "permanent": true
   },
   {
@@ -29845,6 +29845,16 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/naseru-ko-kuruzu-no-erabikata",
     "destination": "/ja/blog/naseru-ko-kuruzu-to-wa-nani-ka",
+    "permanent": true
+  },
+  {
+    "source": "/es/excursion-de-aventura-de-3-dias-al-encantador-oasis-de-siwa",
+    "destination": "/es/excursion-de-aventura-de-4-dias-al-encantador-oasis-de-siwa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/3-nichikan-no-miwaku-teki-na-shiwa-oashisu-boken-tsua",
+    "destination": "/ja/4-nichikan-no-miwaku-teki-na-shiwa-oashisu-boken-tsua",
     "permanent": true
   }
 ];
