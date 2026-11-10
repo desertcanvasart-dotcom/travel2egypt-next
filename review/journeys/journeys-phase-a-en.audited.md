@@ -22,6 +22,7 @@ These are the owner's replies to this audit, recorded here. Nothing is applied t
 | 2 | **Desert ↔ Coming back swap:** `4-days-white-desert-wadi-al-hittan-exploration` moves to Desert & quiet, and `3-day-siwa-journey-from-alexandria` moves to Coming back. | **Agreed by owner.** Approve both journeys together. |
 | 3 | **Culture & history:** the owner pointed to https://travel2egypt.org/a-9-day-egypt-tour-of-culture-and-history and will find further tours. | The 9-day ($2,650) stands as the Culture pick (already **Approve**). The other Culture picks wait for the owner's choice. If only this pick is approved, the Culture card shows **$2,650**, against $1,350 today (+96%). |
 | 4 | **Families, a tour with the Red Sea in the latter part:** the owner suggested https://travel2egypt.org/egypt-and-the-red-sea-paradise. | **Not recommended for Families.** See the check below. |
+| 5 | **Families pick 3:** use `11-day-the-splendor-of-egypt-tour` ($3,500) **instead of** `14-day-egypt-luxury-family-holiday`. | **Agreed by owner.** Why line: "Eleven family-paced days from the Giza plateau to Abu Simbel, Luxor's two banks, and the Red Sea." Families picks are now 4 / 9 / 11 days at $750 / $2,340 / $3,500; the card stays at $750. The 14-day becomes an alternate. The page's "Where this usually leads" link to the 14-day is essay copy and is left unchanged. |
 
 ### Check: `egypt-and-the-red-sea-paradise`
 
