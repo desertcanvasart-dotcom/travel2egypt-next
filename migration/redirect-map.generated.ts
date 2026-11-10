@@ -518,18 +518,13 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/abu-simbel-by-plane-from-aswan",
-    "destination": "/abu-simble-by-plane-from-aswan",
-    "permanent": true
-  },
-  {
     "source": "/ja/asuwan-kara-hikoki-de-iku-abu-shin-beru",
     "destination": "/ja/asuwan-kara-hikoki-de-iku-abu-shin-beru-ramusesu-2-sei-to",
     "permanent": true
   },
   {
     "source": "/abu-simbel-car-day-tour-from-aswan",
-    "destination": "/private-tour-abu-simble-by-bus-from-aswan",
+    "destination": "/abu-simbel-by-car-from-aswan",
     "permanent": true
   },
   {
@@ -11769,27 +11764,27 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-de-viaje-de-abu-simble/el-pequeno-templo-de-abu-simbel",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/abu-simbel/el-templo-pequeno-de-abu-simbel",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viaje-de-abu-simble",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/abu-simbel",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viaje-del-oasis-de-dajla",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/dakhla",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viaje-del-oasis-de-dajla/cosas-que-explorar",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/dakhla/cosas-que-hacer-en-el-oasis-de-dakhla",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viaje-del-oasis-de-dajla/cuando-explorar",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/dakhla/clima-del-oasis-de-dakhla-y-mejor-epoca-para-visitarlo",
     "permanent": true
   },
   {
@@ -11824,7 +11819,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/tours-destacados-en-el-cairo",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/el-cairo/excursiones-por-el-cairo",
     "permanent": true
   },
   {
@@ -11899,7 +11894,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/paquetes-de-viaje-para-grupos-pequenos",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/paquetes-en-grupo-reducido",
     "permanent": true
   },
   {
@@ -11949,12 +11944,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/que-incluyen-los-paquetes-de-crucero-por-el-nilo",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/blog/que-incluyen-los-paquetes-de-crucero-por-el-nilo",
     "permanent": true
   },
   {
     "source": "/es/ritmos-del-nilo-el-cairo-cena-crucero-con-danza-del-vientre",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/cena-crucero-por-el-nilo-en-el-cairo-con-danza-oriental",
     "permanent": true
   },
   {
@@ -12004,72 +11999,72 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-de-viajes-de-sharm-el-sheij",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/sharm-el-sheikh",
     "permanent": true
   },
   {
     "source": "/ja/カイロ旅行ガイド/アル＝グーリー・ウィカラ",
-    "destination": "/ja/ejiputo-ryoko-pakkeeji",
+    "destination": "/ja/guide/kairo/aruguriya-fukugo-tai",
     "permanent": true
   },
   {
     "source": "/ja/カイロ旅行ガイド/観光ルート",
-    "destination": "/ja/ejiputo-ryoko-pakkeeji",
+    "destination": "/ja/guide/kairo",
     "permanent": true
   },
   {
     "source": "/ja/カイロ旅行ガイド/カイロの真実：千のミナレットの街",
-    "destination": "/ja/ejiputo-ryoko-pakkeeji",
+    "destination": "/ja/guide/kairo",
     "permanent": true
   },
   {
     "source": "/ja/アブ・シンベル旅行ガイド/アブ・シンベル：ユニークな発見と隠れた宝石",
-    "destination": "/ja/ejiputo-ryoko-pakkeeji",
+    "destination": "/ja/guide/abu-shinberu",
     "permanent": true
   },
   {
     "source": "/abu-simble-travel-guide/the-small-temple-of-abu-simble",
-    "destination": "/egypt-travel-packages",
+    "destination": "/guide/abu-simbel/the-small-temple-of-abu-simbel",
     "permanent": true
   },
   {
     "source": "/abu-simble-travel-guide/great-temple-of-abu-simble",
-    "destination": "/egypt-travel-packages",
+    "destination": "/guide/abu-simbel/the-great-temple-of-abu-simbel",
     "permanent": true
   },
   {
     "source": "/egypt-travel-guide",
-    "destination": "/egypt-travel-packages",
+    "destination": "/guide",
     "permanent": true
   },
   {
     "source": "/abu-simble-travel-guide/the-great-temple-of-abu-simble",
-    "destination": "/egypt-travel-packages",
+    "destination": "/guide/abu-simbel/the-great-temple-of-abu-simbel",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viajes-de-sharm-el-sheij/parque-nacional-de-ras-mohamed",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/sharm-el-sheikh/parque-nacional-ras-mohammed",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viajes-de-sharm-el-sheij/parque-nacional-de-nabq",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/sharm-el-sheikh/area-protegida-de-nabq",
     "permanent": true
   },
   {
     "source": "/abu-simble-travel-guide/weather-insights",
-    "destination": "/egypt-travel-packages",
+    "destination": "/guide/abu-simbel/weather-in-abu-simbel",
     "permanent": true
   },
   {
     "source": "/es/guia-de-viajes-de-egipto",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide",
     "permanent": true
   },
   {
     "source": "/abu-simble-travel-guide/flavors-local",
-    "destination": "/egypt-travel-packages",
+    "destination": "/guide/abu-simbel/food-in-abu-simbel",
     "permanent": true
   },
   {
@@ -12104,17 +12099,17 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/beit-zeinab-al-jatun",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/el-cairo/beit-zeinab-al-khatoun",
     "permanent": true
   },
   {
     "source": "/es/muros-y-puertas-del-norte",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/el-cairo/las-murallas-y-puertas-del-norte-de-el-cairo-fatimi",
     "permanent": true
   },
   {
     "source": "/es/wikala-al-bazara",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/el-cairo/la-wikala-al-bazar-a",
     "permanent": true
   },
   {
@@ -12124,7 +12119,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/lo-mejor-de-el-cairo",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/el-cairo",
     "permanent": true
   },
   {
@@ -12189,7 +12184,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/lo-mejor-que-hacer-en-luxor-egipto",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/luxor/que-hacer-en-luxor",
     "permanent": true
   },
   {
@@ -19014,12 +19009,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/asuwan-kara-hikoki-de-iku-abu-shin-beru-ramusesu-2-sei-to",
-    "destination": "/abu-simble-by-plane-from-aswan",
+    "destination": "/abu-simbel-by-plane-from-aswan",
     "permanent": true
   },
   {
     "source": "/asuwan-kara-kuruma-de-iku-abu-shin-beru-shujitsu-no-shinden",
-    "destination": "/private-tour-abu-simble-by-bus-from-aswan",
+    "destination": "/abu-simbel-by-car-from-aswan",
     "permanent": true
   },
   {
@@ -24979,7 +24974,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/egypt-travel-guide/abu-simble",
-    "destination": "/abu-simble-by-plane-from-aswan",
+    "destination": "/abu-simbel-by-plane-from-aswan",
     "permanent": true
   },
   {
@@ -29170,6 +29165,656 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/es/los-mejores-recorridos-en-guiza",
     "destination": "/es/guide/guiza/las-mejores-excursiones-en-guiza",
+    "permanent": true
+  },
+  {
+    "source": "/abu-simble-by-plane-from-aswan",
+    "destination": "/abu-simbel-by-plane-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/private-tour-abu-simble-by-bus-from-aswan",
+    "destination": "/abu-simbel-by-car-from-aswan",
+    "permanent": true
+  },
+  {
+    "source": "/ghaliet-ecolodge-siwa",
+    "destination": "/hotels/ghaliet-siwa-ecolodge",
+    "permanent": true
+  },
+  {
+    "source": "/kom-ombo-travel-guide/public-transport-in-kom-ombo",
+    "destination": "/guide/kom-ombo/public-transport-in-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/kom-ombo-travel-guide/getting-around",
+    "destination": "/guide/kom-ombo/public-transport-in-kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/kom-ombo-travel-guide/dining-flavors",
+    "destination": "/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/dahab-historical-guide-6",
+    "destination": "/guide/dahab/dahab-historical-guide",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-travel-guide/al-azhar-mosque",
+    "destination": "/guide/cairo/al-azhar-mosque",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-travel-guide/sabil-of-muhammed-ali-pasha",
+    "destination": "/guide/cairo/sabil-of-muhammad-ali-pasha",
+    "permanent": true
+  },
+  {
+    "source": "/al-arish-travel-guide/the-fortress-of-al-arish",
+    "destination": "/guide/al-arish/the-fortress-of-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/akhmim-travel-guide/akhmim-history",
+    "destination": "/guide/akhmim/history-of-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/akhmim-travel-guide/history-legacy",
+    "destination": "/guide/akhmim/history-of-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/akhmim-history",
+    "destination": "/guide/akhmim/history-of-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-travel-guide/akhmim-travel-guide-2/introducing-akhamim/history-of-akhmim",
+    "destination": "/guide/akhmim/history-of-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/weather-in-abu-simbel",
+    "destination": "/guide/abu-simbel/weather-in-abu-simbel",
+    "permanent": true
+  },
+  {
+    "source": "/transport-to-sharm-el-sheikh",
+    "destination": "/guide/sharm-el-sheikh/transport-to-sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/ras-sudr-travel-guide/ras-sudr-climate",
+    "destination": "/guide/ras-sudr/ras-sudr-climate",
+    "permanent": true
+  },
+  {
+    "source": "/ras-sudr-travel-guide/places-in-ras-sudr",
+    "destination": "/guide/ras-sudr/places-in-ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/ras-sudr-travel-guide/trip-planning",
+    "destination": "/guide/ras-sudr",
+    "permanent": true
+  },
+  {
+    "source": "/the-high-dam",
+    "destination": "/guide/aswan/aswan-high-dam",
+    "permanent": true
+  },
+  {
+    "source": "/marsa-matruh-travel-guide/accommodations-guide",
+    "destination": "/guide/marsa-matruh",
+    "permanent": true
+  },
+  {
+    "source": "/whats-on-in-nuweiba",
+    "destination": "/guide/nuweiba/cultural-events-in-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/nuweiba-travel-guide/whats-on-in-nuweiba",
+    "destination": "/guide/nuweiba/cultural-events-in-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/nuweiba-travel-guide/events-unfold",
+    "destination": "/guide/nuweiba/cultural-events-in-nuweiba",
+    "permanent": true
+  },
+  {
+    "source": "/naama-bay",
+    "destination": "/guide/sharm-el-sheikh/naama-bay-sharm-el-sheikh-guide",
+    "permanent": true
+  },
+  {
+    "source": "/explore-the-amazing-naama-bay",
+    "destination": "/guide/sharm-el-sheikh/naama-bay-sharm-el-sheikh-guide",
+    "permanent": true
+  },
+  {
+    "source": "/beni-suef-travel-guide/path-to-follow",
+    "destination": "/guide/beni-suef",
+    "permanent": true
+  },
+  {
+    "source": "/saint-catherine-travel-guide/must-see-attractions",
+    "destination": "/guide/saint-catherine/things-to-do-in-saint-catherine",
+    "permanent": true
+  },
+  {
+    "source": "/sharm-dreams-resort-sharm-el-sheikh",
+    "destination": "/guide/sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/hyatt-regency-sharm-el-sheikh",
+    "destination": "/guide/sharm-el-sheikh",
+    "permanent": true
+  },
+  {
+    "source": "/basma-hotel-aswan",
+    "destination": "/guide/aswan",
+    "permanent": true
+  },
+  {
+    "source": "/de/egypt-travel-tips",
+    "destination": "/travel-tips",
+    "permanent": true
+  },
+  {
+    "source": "/terms-and-conditions",
+    "destination": "/terms",
+    "permanent": true
+  },
+  {
+    "source": "/es/lugares-para-visitar-en-rosetta",
+    "destination": "/es/guide/rosetta-rasheed/lugares-de-rasheed",
+    "permanent": true
+  },
+  {
+    "source": "/es/nuweiba-tarabeen",
+    "destination": "/es/guide/nuweiba/nuweiba-tarabeen",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-sohag/el-monasterio-blanco",
+    "destination": "/es/guide/sohag/el-monasterio-blanco",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-fayoum",
+    "destination": "/es/guide/al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/es/antecedentes-historicos-de-dahab",
+    "destination": "/es/guide/dahab/antecedentes-historicos-de-dahab",
+    "permanent": true
+  },
+  {
+    "source": "/es/precios-de-las-entradas-a-las-atracciones-de-asuan",
+    "destination": "/es/guide/asuan/precios-de-las-entradas-a-las-atracciones-de-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/visita-al-bazar-khan-el-khalili-de-el-cairo",
+    "destination": "/es/wiki/monuments/bazar-khan-al-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/es/experiencias-unicas-en-beni-suef",
+    "destination": "/es/guide/beni-suef/descubrir-beni-suef-ideas-y-experiencias-unicas",
+    "permanent": true
+  },
+  {
+    "source": "/es/actividades-en-kom-ombo",
+    "destination": "/es/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/es/sitios-unicos-en-akhmim",
+    "destination": "/es/guide/akhmim/lugares-unicos-de-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/es/observacion-de-aves-en-asuan",
+    "destination": "/es/avistamiento-de-aves-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/clima-en-baris",
+    "destination": "/es/guide/baris",
+    "permanent": true
+  },
+  {
+    "source": "/es/protectorado-de-abu-galum",
+    "destination": "/es/guide/dahab/area-protegida-de-abu-galum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-al-minya/secretos-historicos",
+    "destination": "/es/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/tihna-el-gebel",
+    "destination": "/es/guide/al-minya",
+    "permanent": true
+  },
+  {
+    "source": "/es/deir-el-madina",
+    "destination": "/es/guide/luxor/deir-el-medina",
+    "permanent": true
+  },
+  {
+    "source": "/es/fuerte-de-qaitbey",
+    "destination": "/es/guide/alejandria/ciudadela-de-qaitbay",
+    "permanent": true
+  },
+  {
+    "source": "/es/asuan-serenidad-crucero-de-7-dias-dahabiya-por-el-nilo",
+    "destination": "/es/authentic-dahabiya-nile-cruise",
+    "permanent": true
+  },
+  {
+    "source": "/es/valle-de-los-nobles-excursion-privada-de-dia-completo-a-la-gran-ribera-occidental",
+    "destination": "/es/gran-orilla-occidental-de-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/es/espectaculo-de-danza-sufi-tanoura-en-la-wikala-de-el-ghoury",
+    "destination": "/es/tanoura-en-wekalet-el-ghuri-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/hotel-le-meridien-aeropuerto-de-el-cairo",
+    "destination": "/es/guide/el-cairo/mejores-hoteles-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/hotel-four-seasons-nile-plaza",
+    "destination": "/es/guide/el-cairo/mejores-hoteles-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/primera-residencia-four-seasons",
+    "destination": "/es/guide/el-cairo/mejores-hoteles-en-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/estudiantes-viajeros",
+    "destination": "/es/blog/vacaciones-en-grupo-en-egipto-para-estudiantes",
+    "permanent": true
+  },
+  {
+    "source": "/es/los-mejores-lugares-que-visitar-en-egipto",
+    "destination": "/es/guide",
+    "permanent": true
+  },
+  {
+    "source": "/es/retretes-en-egipto",
+    "destination": "/es/travel-tips/los-aseos-en-egipto-una-guia-practica-para-el-viajero",
+    "permanent": true
+  },
+  {
+    "source": "/es/contactenos",
+    "destination": "/es/contact",
+    "permanent": true
+  },
+  {
+    "source": "/es/por-que-elegirnos",
+    "destination": "/es/about",
+    "permanent": true
+  },
+  {
+    "source": "/es/todos-los-articulos",
+    "destination": "/es/blog",
+    "permanent": true
+  },
+  {
+    "source": "/ja/バハレイヤ・オアシス旅行ガイド/エル・ハイズ",
+    "destination": "/ja/guide/bahariya-oashisu/eru-haizu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/クヌム神殿",
+    "destination": "/ja/guide/komu-ombo/kunumu-shinden",
+    "permanent": true
+  },
+  {
+    "source": "/ja/イズマイリア旅行ガイド/イスマイリアの移動方法",
+    "destination": "/ja/guide/izumairia/isumairia-no-ido-hoho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロプライベートデイツアー",
+    "destination": "/ja/kairo-puraibeto-dei-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア国立博物館",
+    "destination": "/ja/guide/arekusandoria/arekusandoria-kokuritsu-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/天空の旅：カイロ発ルクソール2日間ツアー（飛行",
+    "destination": "/ja/tenku-no-tabi-kairo-hatsu-rukusoru-2-nichikan-tsua-hikoki",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ハルガダの歴史的背景",
+    "destination": "/ja/guide/harugada/harugada-no-rekishi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アレクサンドリア発-メンフィス、サッカラ、ダハ",
+    "destination": "/ja/menfisu-sakkara-dahashuru-arekusandoria-hatsu-furudei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイトベイの要塞",
+    "destination": "/ja/guide/arekusandoria/kaito-bei-yosai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/マルチデイアドベンチャー＆サファリツアー",
+    "destination": "/ja/multiday-adventure-and-safari-tours",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アル・グーナ発-デンデラとアビドス神殿ツアー",
+    "destination": "/ja/dendera-to-abidosu-no-shinden-aru-guna-hatsu-furudeitsua",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ファラオの遺産：10日間のエジプト＆ナイルツアー",
+    "destination": "/ja/fa-rao-no-isan-ejiputo-to-nairu-10-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/プライベートツアー-メンフィス、サッカラ、ダハ",
+    "destination": "/ja/puraibetodeitsua-kairo-hatsu-menfisu-sakkara-dahashuru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エジプトのラグジュアリーなバケーション",
+    "destination": "/ja/blog/ejiputo-no-ragujuari-na-bakeshon",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ルクソール日帰り探訪ツアー：マルサアラム発",
+    "destination": "/ja/marusaaramu-hatsu-rukusoru-shujitsu-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エジプト考古学博物館とバザールツアー",
+    "destination": "/ja/guide/kairo/ejiputo-kokogaku-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/5日間-ナセル湖クルーズ（アスワン発）",
+    "destination": "/ja/asuwan-hatsu-5-nichikan-naseru-ko-kuruzu-suitei-ni-shizun-da",
+    "permanent": true
+  },
+  {
+    "source": "/ja/楽園への鍵：エジプトのベストファミリーリゾー",
+    "destination": "/ja/blog/ejiputo-no-famiri-rizoto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/マルサ・アラムでのプライベートシュノーケリン",
+    "destination": "/ja/marusaaramu-no-puraibetoshunokeringu-ichi-nichi-yotto-de",
+    "permanent": true
+  },
+  {
+    "source": "/ja/中王国のファラオ-成功と遺産",
+    "destination": "/ja/blog/chu-okoku-no-fa-rao-tachi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エジプト旅行に最適なsimカードの選び方",
+    "destination": "/ja/blog/ejiputo-ryoko-no-sim-kado",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ナイルの旅：ルクソール＆ナイルクルーズ15日間の",
+    "destination": "/ja/15-nichikan-no-rukusoru-nairu-kuruzu-no-kyuka-rukusoru-nairu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アスワンの秘密：ヌビア博物館＆ローカルマーケ",
+    "destination": "/ja/guide/asuwan/asuwan-no-rokaru-maketto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エジプトを7日間で体験する旅：理想の7日間エジプ",
+    "destination": "/ja/blog/ejiputo-o-7-nichikan-de-tabi-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/フルガダ-ロイヤルシースコープ潜水艦",
+    "destination": "/ja/furugada-no-roiyaru-shisu-kopu-han-sensui-tei-kokai-no",
+    "permanent": true
+  },
+  {
+    "source": "/ja/グランド・イスラム・デイツアー",
+    "destination": "/ja/gurandoisuramikkukairo-deitsua-ichi-nichi-de-roku-seiki",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エジプトの象形文字を理解する",
+    "destination": "/ja/blog/ejiputo-no-hierogurifu-o-rikai-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/世界初の労働ストライキ",
+    "destination": "/ja/blog/kiroku-ni-nokoru-saiko-kyu-no-rodo-sutoraiki",
+    "permanent": true
+  },
+  {
+    "source": "/ja/オーストラリアからのエジプトツアー",
+    "destination": "/ja/egypt-group-tours-from-australia",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アル・グーリー・ウィカラ",
+    "destination": "/ja/guide/kairo/aruguriya-fukugo-tai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ナイルの雄大さ：ルクソール発5日間の川クルーズ",
+    "destination": "/ja/5-nichikan-nairu-gawa-kuruzu-rukusoru-kara-asuwan-e",
+    "permanent": true
+  },
+  {
+    "source": "/ja/サファガから巡る聖域の旅：デンデラ-アビドス",
+    "destination": "/ja/safaga-hatsu-dendera-abidosu-shinden-higaeri-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ホワイトデザートとワディ・アル・ヒッタン",
+    "destination": "/ja/guide/aru-faiyumu/wadiaruhitan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/神聖なる砂丘：フルガダ発-デンデラ＆アビドス探",
+    "destination": "/ja/furugada-hatsu-dendera-to-abidosu-shujitsu-no-shinden-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/ja/学生向け-エジプト・グループホリデー",
+    "destination": "/ja/blog/gakusei-gurupu-no-tame-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/神殿の道：アスワン発-アブ・シンベル神殿日帰り",
+    "destination": "/ja/asuwan-kara-kuruma-de-iku-abu-shin-beru-shujitsu-no-shinden",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ネフェルタリ潜水艇アドベンチャー＆サンセット",
+    "destination": "/ja/marusaaramu-hatsu-neferutari-sensui-tei-to",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ネフェルタリ潜水艇で楽しむ魅惑のサンセット＆",
+    "destination": "/ja/marusaaramu-hatsu-neferutari-sensui-tei-to",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ドルフィンズ・ダンス・グループ：紅海シュノー",
+    "destination": "/ja/dorufinzudansu-furugada-hatsu-kyodo-bin-de-sugosu-kokai-ichi",
+    "permanent": true
+  },
+  {
+    "source": "/ja/聖母マリア・ディルンカ修道院",
+    "destination": "/ja/guide/asuyuto/durunka-seibo-shudoin",
+    "permanent": true
+  },
+  {
+    "source": "/ja/メンフィス、サッカラ、シタデル-ハーン・エル",
+    "destination": "/ja/menfisu-sakkara-josai-hanhariri-kairo-deitsua",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カルナック神殿を訪れる129の理由",
+    "destination": "/ja/guide/rukusoru/karunakku-shinden-fukugo-tai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル発-4日間-レイク・ナセルクルーズ",
+    "destination": "/ja/naseru-ko-ekusupurora-abu-shin-beru-kara-asuwan-e-no-4",
+    "permanent": true
+  },
+  {
+    "source": "/ja/コースタルロード：ルクソールからマルサ・アラ",
+    "destination": "/ja/puraibeto-ka-sogei-rukusoru-kara-marusaaramu-e-kaigan-no",
+    "permanent": true
+  },
+  {
+    "source": "/ja/シンドバッド潜水艦レッドシーツアー（フルガダ",
+    "destination": "/ja/furugada-no-shindobaddo-sensui-tei-kokai-e-no-hommono-no",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ナイルの帆船：伝統的なフェルッカでエジプトを",
+    "destination": "/ja/blog/ejiputo-de-ferukka-ni-noru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/砂漠の冒険：5日間-オベイエッド洞窟サファリツア",
+    "destination": "/ja/seiho-sabaku-o-sono-ryugi-de-obeiyado-dokutsu-e-no-5",
+    "permanent": true
+  },
+  {
+    "source": "/ja/聖なる旅：15日間-エジプトにおける聖家族の旅",
+    "destination": "/ja/seikazoku-no-michi-koputo-no-ejiputo-to-kodai-nairu-o-meguru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/2024年グランド・エジプト博物館を探訪：内部ガイ",
+    "destination": "/ja/blog/dai-ejiputo-hakubutsukan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/夜のカイロで訪れたいおすすめスポット",
+    "destination": "/ja/blog/yoru-no-kairo-de-iku-beki-basho",
+    "permanent": true
+  },
+  {
+    "source": "/ja/砂漠の川：10日間のナイル川と西部砂漠ツアーパッ",
+    "destination": "/ja/sabaku-no-kawa-nairu-kara-seiho-sabaku-e-soshite-modoru-10",
+    "permanent": true
+  },
+  {
+    "source": "/ja/迅速な出発：フルガダ空港送迎サービス",
+    "destination": "/ja/furugada-kuko-sogei-tochaku-to-hoteru-e-no-ido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/海のスペクタクル：フルガダイルカショー",
+    "destination": "/ja/furugada-no-iruka-sho-chiketto-to-hoteru-sogei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/マリオット・メナ・ハウス・ホテル（marriott-mena-house-hotel）",
+    "destination": "/ja/roiyaruritorito-mariottomenahausu-ni-tomaru-4-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/ja/カイロ週末エスケープ-忘れられない3日間",
+    "destination": "/ja/kairo-shumatsu-shitibureiku-ejiputo-no-shuto-de-sugosu-3",
+    "permanent": true
+  },
+  {
+    "source": "/ja/2日間のヌビア砂漠の自然と野生動物の隠れ家",
+    "destination": "/ja/nubia-sabaku-no-ni-nichikan-naseru-mizuumi-chikaku-no",
+    "permanent": true
+  },
+  {
+    "source": "/ja/4日間の究極のナセル湖体験",
+    "destination": "/ja/naseru-ko-no-yon-nichikan-tsuri-to-sabaku-to-kyushutsu-sa-re",
+    "permanent": true
+  },
+  {
+    "source": "/ja/フルガダで体験すべき33の驚くべきこと",
+    "destination": "/ja/blog/harugada-de-nani-o-suru-beki-ka",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ナーマ湾",
+    "destination": "/ja/guide/sharumu-eru-sheiku/naamabei",
+    "permanent": true
+  },
+  {
+    "source": "/ja/エジプト・グループデイツアー",
+    "destination": "/ja/shoninzu-guruupu-deitsuaa",
+    "permanent": true
+  },
+  {
+    "source": "/ja/団体旅行パケージ",
+    "destination": "/ja/shoninzu-guruupu-pakkeeji",
+    "permanent": true
+  },
+  {
+    "source": "/ja/コンタクト",
+    "destination": "/ja/contact",
+    "permanent": true
+  },
+  {
+    "source": "/ja/guide/aswan/aswan-high-dam",
+    "destination": "/ja/guide/asuwan/asuwan-hai-damu",
+    "permanent": true
+  },
+  {
+    "source": "/ja/wiki/monuments/tawila-island",
+    "destination": "/ja/guide/eru-gu-na/tawira-to",
+    "permanent": true
+  },
+  {
+    "source": "/ja/blog/river-nile-cruising-oberoi-zahra",
+    "destination": "/ja/blog/oberoizafura-de-nairu-o-tabi-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/オベロイ・ザハラ号で楽しむエジプトの極上体験",
+    "destination": "/ja/blog/oberoizafura-de-nairu-o-tabi-suru",
+    "permanent": true
+  },
+  {
+    "source": "/ja/travel-tips/los-aseos-en-egipto-una-guia-practica-para-el-viajero",
+    "destination": "/ja/travel-tips/ejiputo-no-toire-jijo-kanzen-gaido",
+    "permanent": true
+  },
+  {
+    "source": "/ja/責任ある旅行",
+    "destination": "/ja/responsible-travel",
     "permanent": true
   }
 ];

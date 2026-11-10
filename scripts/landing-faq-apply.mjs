@@ -52,7 +52,14 @@ for (const p of pages) {
     const doc = await c.fetch(`*[_id==$id][0]{_id, faq}`, { id });
     if (!doc) { if (id === p.id) throw new Error(`missing ${id}`); continue; }
     if (Array.isArray(doc.faq) && doc.faq.length) {
-      if (JSON.stringify(doc.faq) === JSON.stringify(items)) { console.log(`${id}: already applied`); continue; }
+      // Compare the EN text only: Sanity re-orders object keys on save, and
+      // later locales (ES) are added to the same items, so a JSON compare
+      // reports a false mismatch on re-runs.
+      const enText = (list) => list.map((it) => [
+        it.question?.find((x) => x._key === 'en')?.value,
+        it.answer?.find((x) => x._key === 'en')?.value?.map((b) => (b.children || []).map((s) => s.text).join('')).join('\n'),
+      ]);
+      if (JSON.stringify(enText(doc.faq)) === JSON.stringify(enText(items))) { console.log(`${id}: already applied`); continue; }
       throw new Error(`${id} already has a different FAQ — not overwriting`);
     }
     console.log(`\n${id} · faq (${items.length})`);
