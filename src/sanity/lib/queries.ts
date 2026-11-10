@@ -318,6 +318,9 @@ export const tourBySlugQuery = (locale: Locale) => groq`
   )][0]{
     ${tourCardProjection(locale)},
     "body": ${portableTextBodyProjection('body', locale)},
+    // Locale-strict: no English fallback, so a language without its own
+    // practical information shows none rather than English text.
+    "practicalInfo": practicalInfo[_key=="${locale}"][0].value,
     "themeLanding": *[_type == "tourLanding" && themeRef._ref == ^.theme._ref][0]{
       "slug": ${localizedSlug('slug', locale)}
     },

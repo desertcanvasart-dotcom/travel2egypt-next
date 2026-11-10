@@ -185,6 +185,14 @@ export const tourSchema = defineType({
         group: 'content',
       }) as any
     ),
+    defineField(
+      localizedPortableTextField('practicalInfo', {
+        title: 'Practical information',
+        description:
+          'Optional. Shown after the day-by-day itinerary: timing notes, what to bring, guest questions, meeting point, cancellation terms. Locale-strict — a language without its own text shows nothing (no English fallback).',
+        group: 'content',
+      }) as any
+    ),
 
     // ── Itinerary & details ────────────────────────────
     defineField({
