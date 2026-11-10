@@ -164,6 +164,7 @@ export function PlanOptions({
           </div>
         )}
 
+        <span data-end-form hidden />
         <div id="plan-form" hidden={view === 'concierge'} className="plan-form">
           <LeadForm
             source="plan_page"

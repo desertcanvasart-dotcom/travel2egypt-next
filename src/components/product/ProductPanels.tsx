@@ -298,7 +298,8 @@ export async function EndBlock({ locale, kind, slug, title, waHref, durationDays
       : { kind: 'day_tour' as const, tourSlug: slug, tourTitle: title, priceFromEur: fromEur };
   const sep = locale === 'ja' ? '' : ' ';
   return (
-    <section className="concierge-cta">
+    // data-end-form: the page already ends with this itinerary CTA, so the footer action band hides.
+    <section className="concierge-cta" data-end-form="">
       <div className="t2e-wrap">
         <div className="cta-inner">
           <span className="t2e-kicker">{ts('ctaKicker')}</span>

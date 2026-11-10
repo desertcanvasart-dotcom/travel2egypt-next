@@ -207,61 +207,18 @@
 .t2e-conc-trigger:focus-visible,
 .lvl-subcategory .quiz button:focus-visible { outline-color: var(--paper); }
 
-/* ---- MOBILE NAV (hamburger + sheet) — revealed below the 980px breakpoint
-   where .t2e-nav-links is hidden. Button lives in .t2e-nav-right; the sheet is
-   absolutely positioned under the sticky .t2e-nav bar. ---- */
-/* Scoped so `.t2e-nav-right button { display:flex }` (higher specificity) can't
-   force the burger visible on desktop — it must stay hidden above 980px. */
-.t2e-nav-right .t2e-burger { display: none; align-items: center; justify-content: center; width: 42px; height: 42px; margin-left: 2px; background: transparent; border: 0; color: var(--navy); cursor: pointer; }
-.t2e-burger:hover { color: var(--gold-dark); }
-.t2e-burger svg { display: block; }
-.t2e-mobile-sheet { position: absolute; top: 100%; left: 0; right: 0; background: var(--paper); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); box-shadow: 0 24px 50px rgba(20, 36, 59, .12); padding: 10px 0 22px; max-height: calc(100dvh - 84px); overflow-y: auto; }
-.t2e-mobile-sheet ul { list-style: none; margin: 0; padding: 0; }
-.t2e-mobile-sheet a { display: block; padding: 13px 24px; font-family: var(--ui); font-size: 16px; color: var(--navy); text-decoration: none; }
-.t2e-mobile-sheet a:hover, .t2e-mobile-sheet a[aria-current="page"] { color: var(--gold-dark); background: var(--paper-warm); }
-.t2e-mobile-sheet .ms-heading { display: block; padding: 16px 24px 4px; font-family: var(--ui); font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--navy-mute); }
-.t2e-mobile-sheet .ms-sub a { padding-left: 38px; font-size: 15px; color: var(--navy-mute); }
-.t2e-mobile-sheet .ms-sub a:hover { color: var(--gold-dark); }
-
 /* SHARED CHROME RESPONSIVE (global) */
 @media (max-width: 980px) {
   .t2e-wrap { padding: 0 24px; }
-  .t2e-nav-links { display: none; }
-  .t2e-nav-right .t2e-burger { display: inline-flex; }
-  /* De-crowd the mobile bar: the Contact CTA (which wrapped its arrow and
-     pushed against the currency control) moves into the sheet, and the
-     remaining controls — currency, locale, burger — sit on a tighter gap. */
   .t2e-nav-cta { display: none; }
-  .t2e-nav-right { gap: 16px; }
   .t2e-section-head, .t2e-footband-grid, .t2e-foot-top { grid-template-columns: 1fr; gap: 36px; }
   .t2e-conc-panel { width: calc(100vw - 32px); right: 16px; }
 }
 
-@media (max-width: 380px) {
-  /* Smallest phones: trim the gap further so logo + currency + locale + burger
-     never collide. */
-  .t2e-nav-right { gap: 12px; }
-}
 
 
-/* ---- ENGLISH SALES NAV (2026-11-08): "Get a free itinerary" button,
-   WhatsApp icon, and the phone-only sticky bar (WhatsApp + Get itinerary). */
-.t2e-nav--sales .t2e-nav-links { gap: 28px; }
-.t2e-nav-right .t2e-nav-lead {
-  background: var(--navy); color: var(--paper); padding: 10px 16px; min-height: 40px;
-  font-family: var(--ui); font-size: 13px; letter-spacing: .03em; white-space: nowrap;
-}
-.t2e-nav-right .t2e-nav-lead:hover { background: var(--gold-dark); color: var(--paper); }
-.t2e-nav-wa { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; color: #128c7e; }
-.t2e-nav-wa:hover { color: var(--gold-dark); }
+/* Phone-only sticky bar (WhatsApp + Get itinerary). */
 .t2e-leadbar { display: none; }
-@media (max-width: 1180px) {
-  .t2e-nav--sales .t2e-nav-links { gap: 20px; }
-  .t2e-nav--sales .t2e-nav-links a, .t2e-nav--sales .t2e-nav-links button { font-size: 13.5px; }
-}
-@media (max-width: 980px) {
-  .t2e-nav-right .t2e-nav-lead, .t2e-nav-wa { display: none; }
-}
 /* Sticky bar — phones only (< 768px). Rendered only while it should show;
    <body> gets .has-leadbar at the same time to keep content clear of it. */
 @media (max-width: 767px) {
@@ -280,3 +237,175 @@
   body.has-leadbar .t2e-conc { bottom: calc(76px + env(safe-area-inset-bottom)); }
 }
 
+
+/* ===========================================================================
+ * NAV REBUILD (2026-11-10) — header dropdowns, mobile menu, footer.
+ * Desktop header ≥1024px; below that: Logo · WhatsApp icon · menu button.
+ * ========================================================================= */
+.t2e-nav--sales .t2e-nav-inner { gap: 20px; padding-top: 18px; padding-bottom: 18px; }
+/* (.t2e-nav-inner's `padding: 22px 0` shorthand above zeroed the .t2e-wrap side gutter.) */
+.t2e-nav.t2e-nav--sales .t2e-wrap.t2e-nav-inner { padding-left: 56px; padding-right: 56px; }
+@media (max-width: 980px) { .t2e-nav.t2e-nav--sales .t2e-wrap.t2e-nav-inner { padding-left: 24px; padding-right: 24px; } }
+.t2e-nav--sales .t2e-nav-links { gap: 22px; }
+.t2e-nav--sales .t2e-nav-links > li { white-space: nowrap; }
+.t2e-nav--sales .t2e-nav-right { gap: 18px; }
+
+/* Dropdown trigger: label link + chevron button. */
+.t2e-dd { position: relative; }
+.t2e-dd-trigger { display: inline-flex; align-items: center; gap: 2px; }
+.t2e-nav-links .t2e-dd-trigger button { width: 24px; height: 24px; justify-content: center; color: var(--navy-mute); }
+.t2e-dd-chev { transition: transform .18s ease; }
+.t2e-dd-chev.open { transform: rotate(180deg); }
+
+/* Panel. Selectors carry .t2e-nav-links so they out-rank the bare header link rules. */
+.t2e-nav-links .t2e-dd-panel {
+  position: absolute; top: calc(100% + 6px); left: -20px; z-index: 120; min-width: 320px;
+  background: var(--paper); border: 1px solid var(--rule); box-shadow: 0 24px 50px rgba(20, 36, 59, .12);
+  padding: 14px 0 12px; white-space: normal;
+}
+.t2e-nav-links .t2e-dd-panel[hidden] { display: none; }
+/* Hover bridge so the pointer can travel from the label into the panel. */
+.t2e-nav-links .t2e-dd-panel::before { content: ""; position: absolute; left: 0; right: 0; top: -12px; height: 12px; }
+.t2e-nav-links .t2e-dd-panel ul { list-style: none; margin: 0; padding: 0; }
+.t2e-nav-links .t2e-dd-panel a { display: flex; width: 100%; padding: 7px 22px; font-size: 14px; line-height: 1.4; }
+.t2e-nav-links .t2e-dd-panel a:hover, .t2e-nav-links .t2e-dd-panel a:focus-visible { background: var(--paper-warm); color: var(--gold-dark); }
+.t2e-nav-links .t2e-dd-panel .t2e-dd-all { font-weight: 500; padding-bottom: 10px; margin-bottom: 4px; border-bottom: 1px solid var(--rule-soft); }
+.t2e-dd-group + .t2e-dd-group, .t2e-dd-all + .t2e-dd-group { margin-top: 6px; }
+.t2e-dd-glabel { margin: 8px 0 2px; padding: 0 22px; font-family: var(--ui); font-size: 11px; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--navy-mute); }
+.t2e-nav-links .t2e-dd-link { justify-content: space-between; gap: 24px; }
+.t2e-dd-price { color: var(--navy-mute); font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.t2e-nav-links .t2e-dd-panel .t2e-dd-lead,
+.t2e-mm .t2e-dd-lead {
+  display: block; width: calc(100% - 44px); margin: 10px 22px 0; padding: 12px 0 2px; border-top: 1px solid var(--rule-soft);
+  text-align: left; font-family: var(--ui); font-size: 14px; color: var(--gold-dark); background: transparent; cursor: pointer;
+}
+.t2e-nav-links .t2e-dd-panel .t2e-dd-lead:hover, .t2e-mm .t2e-dd-lead:hover { color: var(--navy); }
+
+/* Right cluster: switchers quieter than the menu, WhatsApp, the one solid button. */
+.t2e-nav-prefs { display: flex; align-items: center; gap: 14px; opacity: .8; }
+.t2e-nav-prefs:hover, .t2e-nav-prefs:focus-within { opacity: 1; }
+.t2e-nav-right .t2e-nav-wa { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; color: var(--navy); text-decoration: none; font-family: var(--ui); font-size: 13px; white-space: nowrap; }
+.t2e-nav-wa svg { color: #128c7e; flex: none; }
+.t2e-nav-right .t2e-nav-wa:hover { color: var(--gold-dark); }
+.t2e-nav-right .t2e-nav-lead {
+  background: var(--navy); color: var(--paper); padding: 10px 16px; min-height: 40px;
+  font-family: var(--ui); font-size: 13px; letter-spacing: .03em; white-space: nowrap;
+}
+.t2e-nav-right .t2e-nav-lead:hover { background: var(--gold-dark); color: var(--paper); }
+/* Fit fallback (spec): drop the WhatsApp text first, then tighten spacing. */
+/* ES/JA labels are longer: measured 2026-11-10, the text does not fit at
+   1280px there, so those locales show the icon only (aria-label keeps the name). */
+html[lang='es'] .t2e-nav-wa-text, html[lang='ja'] .t2e-nav-wa-text { display: none; }
+@media (max-width: 1279px) {
+  .t2e-nav-wa-text { display: none; }
+}
+@media (min-width: 1024px) and (max-width: 1199px) {
+  .t2e-nav.t2e-nav--sales .t2e-wrap.t2e-nav-inner { padding-left: 24px; padding-right: 24px; gap: 12px; }
+  .t2e-nav--sales .t2e-nav-links { gap: 12px; }
+  .t2e-nav--sales .t2e-nav-right { gap: 10px; }
+  .t2e-nav--sales .t2e-nav-links a, .t2e-nav--sales .t2e-nav-links button { font-size: 13px; }
+  .t2e-nav--sales .t2e-logo--wordmark { font-size: 23px; }
+  .t2e-nav-prefs { gap: 10px; }
+  .t2e-nav-right .t2e-nav-lead { padding: 8px 12px; font-size: 12.5px; }
+  .t2e-nav-links .t2e-dd-trigger button { width: 18px; }
+  .t2e-nav--sales .t2e-nav-links > li { min-width: 0; }
+}
+
+/* Mobile bar + menu (<1024px). */
+.t2e-nav-right .t2e-burger { display: none; align-items: center; justify-content: center; width: 42px; height: 42px; background: transparent; border: 0; color: var(--navy); cursor: pointer; }
+.t2e-burger:hover { color: var(--gold-dark); }
+.t2e-burger svg { display: block; }
+@media (max-width: 1023px) {
+  .t2e-nav--sales .t2e-nav-links,
+  .t2e-nav--sales .t2e-nav-prefs,
+  .t2e-nav--sales .t2e-nav-right .t2e-nav-lead,
+  .t2e-nav-wa-text { display: none; }
+  .t2e-nav-right .t2e-burger { display: inline-flex; }
+  .t2e-nav--sales .t2e-nav-right { gap: 6px; }
+  .t2e-nav-right .t2e-nav-wa { width: 42px; height: 42px; justify-content: center; }
+  .t2e-nav-wa svg { width: 24px; height: 24px; }
+}
+.t2e-mm {
+  position: absolute; top: 100%; left: 0; right: 0; z-index: 130;
+  background: var(--paper); border-top: 1px solid var(--rule); box-shadow: 0 24px 50px rgba(20, 36, 59, .14);
+  max-height: calc(100dvh - 72px); overflow-y: auto; overscroll-behavior: contain;
+  padding: 16px 24px 28px; font-family: var(--ui);
+}
+.t2e-mm-actions { display: grid; gap: 10px; margin-bottom: 14px; }
+.t2e-nav-right .t2e-mm .t2e-mm-lead,
+.t2e-mm .t2e-mm-wa {
+  display: flex; align-items: center; justify-content: center; width: 100%; min-height: 48px;
+  font-family: var(--ui); font-size: 15px; font-weight: 500; text-decoration: none; border: 0; cursor: pointer;
+}
+.t2e-nav-right .t2e-mm .t2e-mm-lead { background: var(--navy); color: var(--paper); }
+.t2e-mm .t2e-mm-wa { background: #0e7064; color: #fff; }
+.t2e-mm-list { list-style: none; margin: 0; padding: 0; }
+.t2e-mm-section { border-bottom: 1px solid var(--rule); }
+.t2e-nav-right .t2e-mm .t2e-mm-head {
+  display: flex; width: 100%; justify-content: space-between; align-items: center; min-height: 52px;
+  font-size: 17px; color: var(--navy); text-align: left;
+}
+.t2e-mm-body { padding: 0 0 14px; }
+.t2e-mm-body ul { list-style: none; margin: 0; padding: 0; }
+.t2e-mm .t2e-mm-all, .t2e-mm .t2e-mm-link {
+  display: flex; justify-content: space-between; gap: 16px; padding: 10px 0; min-height: 44px; align-items: center;
+  font-size: 15px; color: var(--navy); text-decoration: none;
+}
+.t2e-mm .t2e-mm-all { font-weight: 500; }
+.t2e-mm .t2e-mm-all:hover, .t2e-mm .t2e-mm-link:hover { color: var(--gold-dark); }
+.t2e-mm .t2e-dd-glabel { padding: 0; margin: 10px 0 0; }
+.t2e-mm .t2e-dd-lead { width: 100%; margin: 8px 0 0; }
+.t2e-mm-switchers { display: flex; gap: 22px; align-items: center; padding-top: 20px; }
+
+/* ---- Footer ---- */
+.t2e-footer { padding: 0 0 40px; }
+.t2e-foot-band { background: var(--navy); color: var(--paper); padding: 56px 0; margin-bottom: 44px; text-align: center; }
+body:has([data-end-form]) .t2e-foot-band { display: none; }
+body:has([data-end-form]) .t2e-footer { padding-top: 48px; }
+.t2e-foot-band h2 { font-family: var(--display); font-weight: 400; font-size: clamp(28px, 3.4vw, 38px); line-height: 1.15; color: var(--paper); margin: 0 0 12px; }
+.t2e-foot-band-line { font-family: var(--read); font-size: 17px; line-height: 1.5; max-width: 620px; margin: 0 auto 24px; color: var(--paper); }
+.t2e-foot-band-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 12px; }
+.t2e-foot-band .t2e-foot-band-lead, .t2e-foot-band .t2e-foot-band-wa {
+  display: inline-flex; align-items: center; justify-content: center; min-height: 48px; padding: 0 24px;
+  font-family: var(--ui); font-size: 15px; font-weight: 500; text-decoration: none; border: 0; cursor: pointer;
+}
+.t2e-foot-band .t2e-foot-band-lead { background: var(--paper); color: var(--navy); }
+.t2e-foot-band .t2e-foot-band-lead:hover { background: var(--gold); }
+.t2e-foot-band .t2e-foot-band-wa { background: transparent; color: var(--paper); border: 1px solid rgba(250, 246, 236, .6); }
+.t2e-foot-band .t2e-foot-band-wa:hover { border-color: var(--paper); }
+.t2e-foot-band-small { margin: 16px 0 0; font-family: var(--ui); font-size: 13px; color: rgba(250, 246, 236, .85); }
+.t2e-foot-band :focus-visible { outline-color: var(--paper); }
+
+.t2e-foot-trust { margin: 0 0 40px; padding-bottom: 28px; border-bottom: 1px solid var(--rule); font-family: var(--ui); font-size: 14px; font-style: normal; font-weight: 400; line-height: 1.7; color: var(--navy); }
+.t2e-foot-trust a { color: var(--navy); text-decoration: none; }
+.t2e-foot-trust a:hover { color: var(--gold-dark); }
+.t2e-foot-trust .star { color: var(--gold-dark); }
+.t2e-foot-trust .sep, .t2e-foot-guides .sep, .t2e-foot-brandsline .sep { color: var(--navy-mute); }
+
+.t2e-foot-cols { display: grid; grid-template-columns: repeat(5, 1fr); gap: 32px; margin-bottom: 40px; }
+.t2e-foot-col li { margin-bottom: 10px; }
+.t2e-foot-col a, .t2e-foot-col .t2e-foot-address, .t2e-foot-col .t2e-foot-lead { font-family: var(--read); font-size: 15px; line-height: 1.4; color: var(--navy); }
+.t2e-foot-col .t2e-foot-lead { background: transparent; border: 0; padding: 0; cursor: pointer; text-align: left; color: var(--gold-dark); }
+.t2e-foot-col .t2e-foot-lead:hover { color: var(--navy); }
+.t2e-foot-col .t2e-foot-address { color: var(--navy-mute); font-size: 14px; }
+
+.t2e-foot-guides { margin: 0 0 14px; padding-top: 24px; border-top: 1px solid var(--rule); font-family: var(--ui); font-size: 14px; line-height: 1.8; color: var(--navy); }
+.t2e-foot-guides .label { font-weight: 500; margin-right: 8px; }
+.t2e-foot-guides a { color: var(--navy); text-decoration: none; }
+.t2e-foot-guides a:hover { color: var(--gold-dark); text-decoration: underline; }
+.t2e-foot-brandsline { margin: 0 0 28px; font-family: var(--ui); font-size: 13px; line-height: 1.7; color: var(--navy-mute); }
+.t2e-foot-brandsline a { color: var(--navy-mute); text-decoration: none; }
+.t2e-foot-brandsline a strong { font-weight: 500; color: var(--navy); }
+.t2e-foot-brandsline a:hover strong { color: var(--gold-dark); }
+.t2e-foot-legal .legal-prefs { display: inline-flex; gap: 16px; align-items: center; margin-left: 24px; }
+.t2e-foot-legal .legal-prefs button { margin-left: 0; }
+
+@media (max-width: 1023px) {
+  .t2e-foot-cols { grid-template-columns: repeat(2, 1fr); gap: 28px; }
+}
+@media (max-width: 560px) {
+  .t2e-foot-cols { grid-template-columns: 1fr; }
+  .t2e-foot-band { text-align: left; }
+  .t2e-foot-band-actions { justify-content: flex-start; }
+  .t2e-foot-legal .legal-prefs { margin-left: 0; margin-top: 8px; }
+}

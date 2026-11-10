@@ -23,6 +23,11 @@ export const LEAD_SOURCES = [
   'product_end',
   'packages_hub',
   'day_tour_hub',
+  // Nav rebuild (2026-11-10)
+  'nav_menu',
+  'mobile_menu',
+  'footer_band',
+  'footer',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];
 

@@ -339,10 +339,13 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
                 </a>
               </li>
               <li>
-                {c.close.stillExploring} <Link href={conciergeHref}>{c.close.concierge}</Link>
+                {c.close.stillExploring}
+                {locale === 'ja' ? '' : ' '}
+                <Link href={conciergeHref}>{c.close.concierge}</Link>
               </li>
             </ul>
           </div>
+          <span data-end-form hidden />
           <LeadForm source="home_footer" tone="dark" headingId="h-close" locale={locale} />
         </div>
       </section>

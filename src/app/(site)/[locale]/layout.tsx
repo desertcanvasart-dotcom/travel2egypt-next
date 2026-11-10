@@ -9,6 +9,7 @@ import { JaFontGate } from '@/components/JaFontGate';
 import { routing, type Locale } from '@/i18n/routing';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { getNavData } from '@/lib/nav/navData';
 import { JsonLd } from '@/components/JsonLd';
 import { CookieConsent } from '@/components/CookieConsent';
 import { Analytics } from '@/components/Analytics';
@@ -60,7 +61,11 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
 
-  const [siteSettings, fx] = await Promise.all([client.fetch(siteSettingsQuery(locale as Locale)), getRates()]);
+  const [siteSettings, fx, nav] = await Promise.all([
+    client.fetch(siteSettingsQuery(locale as Locale)),
+    getRates(),
+    getNavData(locale as Locale),
+  ]);
   const orgSchema = buildOrganizationSchema(siteSettings ?? {});
   // Founder Person is emitted as a sibling JSON-LD when configured. Its
   // @id is referenced from the Organization's `founder` property so
@@ -92,10 +97,12 @@ export default async function LocaleLayout({
                 chatEnabled={isChatEnabled()}
                 responseTime={{ short: siteSettings?.responseTimeShort ?? '', full: siteSettings?.responseTimeFull ?? '' }}
               >
-                <Header locale={locale as Locale} />
+                <Header locale={locale as Locale} nav={nav} />
                 <main id="main">{children}</main>
                 <Footer
                   locale={locale as Locale}
+                  nav={nav}
+                  responseTimeFull={siteSettings?.responseTimeFull ?? null}
                   accreditations={{
                     ministryLicenceNumber: siteSettings?.ministryLicenceNumber,
                     etaaMember: siteSettings?.etaaMember,

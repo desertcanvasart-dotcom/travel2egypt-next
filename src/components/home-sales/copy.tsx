@@ -266,8 +266,8 @@ const EN: HomeCopy = {
     h2: 'Tell us your dates. We’ll send a plan and a price.',
     free: 'Free, with no obligation.',
     preferChat: 'Prefer to chat?',
-    stillExploring: 'Still exploring?',
-    concierge: 'Talk it through with our AI concierge →',
+    stillExploring: 'Not sure yet?',
+    concierge: 'Get advice from our Egypt travel specialists →',
   },
   hrefs: {},
 };
@@ -437,8 +437,8 @@ const ES: HomeCopy = {
     h2: 'Cuéntanos tus fechas. Te enviamos un plan y un precio.',
     free: 'Gratis y sin compromiso.',
     preferChat: '¿Prefieres chatear?',
-    stillExploring: '¿Todavía explorando?',
-    concierge: 'Háblalo con nuestro concierge de IA →',
+    stillExploring: '¿Aún no lo tienes claro?',
+    concierge: 'Pide consejo a nuestros especialistas en Egipto →',
   },
   hrefs: {
     '/egypt-travel-packages': '/paquetes-de-viaje-a-egipto',
@@ -624,8 +624,8 @@ const JA: HomeCopy = {
     h2: '日程を教えてください。プランと料金をお送りします。',
     free: '無料・義務なし。',
     preferChat: 'チャットがお好みなら：',
-    stillExploring: 'まだ検討中ですか？',
-    concierge: 'AIコンシェルジュに相談する →',
+    stillExploring: '迷ったら、',
+    concierge: 'エジプト旅行の専門スタッフにご相談ください →',
   },
   hrefs: {
     '/egypt-travel-packages': '/ejiputo-ryoko-pakkeeji',

@@ -1557,7 +1557,7 @@
     "endMultiBody": "Tell us your dates and what you'd change. We'll reply with a day-by-day plan and a firm price.",
     "endDayH2": "Check a date for this day.",
     "endDayBody": "Tell us the day and how many of you. We'll confirm availability and the price.",
-    "stillExploring": "Still exploring? Ask our AI concierge →",
+    "stillExploring": "Not sure yet? Ask our AI concierge →",
     "daysNights": "{days, plural, one {# day} other {# days}} · {nights, plural, one {# night} other {# nights}}",
     "days": "{days, plural, one {# day} other {# days}}",
     "aboutHours": "about {hours, plural, one {# hour} other {# hours}}",
@@ -1604,8 +1604,8 @@
     "closeTitle": "Tell us your dates. We'll send a plan and a price.",
     "closeFree": "Free, with no obligation.",
     "closeChat": "Prefer to chat?",
-    "closeExploring": "Still exploring?",
-    "closeConcierge": "Ask our AI concierge →"
+    "closeExploring": "Not sure yet?",
+    "closeConcierge": "Get advice from our Egypt travel specialists →"
   },
   "dayHub": {
     "cairoGiza": "Cairo & Giza",
@@ -1644,8 +1644,8 @@
     "endLine": "We'll suggest the right day and confirm the price.",
     "notesCity": "Interested in: {city} day tours",
     "chat": "Prefer to chat?",
-    "exploring": "Still exploring?",
-    "concierge": "Ask our AI concierge →",
+    "exploring": "Not sure yet?",
+    "concierge": "Get advice from our Egypt travel specialists →",
     "howKicker": "How it works"
   }
 }

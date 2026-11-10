@@ -1557,7 +1557,7 @@
     "endMultiBody": "Cuéntanos tus fechas y qué cambiarías. Te respondemos con un plan día a día y un precio cerrado.",
     "endDayH2": "Consulta una fecha para este día.",
     "endDayBody": "Dinos el día y cuántas personas viajan. Te confirmamos la disponibilidad y el precio.",
-    "stillExploring": "¿Aún explorando? Pregunta a nuestro concierge con IA →",
+    "stillExploring": "¿Aún no lo tienes claro? Pregunta a nuestro concierge con IA →",
     "daysNights": "{days, plural, one {# día} other {# días}} · {nights, plural, one {# noche} other {# noches}}",
     "days": "{days, plural, one {# día} other {# días}}",
     "aboutHours": "unas {hours, plural, one {# hora} other {# horas}}",
@@ -1604,8 +1604,8 @@
     "closeTitle": "Cuéntanos tus fechas. Te enviamos un plan y un precio.",
     "closeFree": "Gratis y sin compromiso.",
     "closeChat": "¿Prefieres chatear?",
-    "closeExploring": "¿Aún explorando?",
-    "closeConcierge": "Pregunta a nuestro concierge con IA →"
+    "closeExploring": "¿Aún no lo tienes claro?",
+    "closeConcierge": "Pide consejo a nuestros especialistas en Egipto →"
   },
   "dayHub": {
     "cairoGiza": "El Cairo y Guiza",
@@ -1644,8 +1644,8 @@
     "endLine": "Te sugerimos la excursión adecuada y te confirmamos el precio.",
     "notesCity": "Me interesan excursiones en {city}",
     "chat": "¿Prefieres chatear?",
-    "exploring": "¿Aún explorando?",
-    "concierge": "Pregunta a nuestro concierge con IA →",
+    "exploring": "¿Aún no lo tienes claro?",
+    "concierge": "Pide consejo a nuestros especialistas en Egipto →",
     "howKicker": "Cómo funciona"
   }
 }

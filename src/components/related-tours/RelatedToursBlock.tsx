@@ -23,14 +23,14 @@ const COPY = {
     hours: (n: number) => `${n} hours`, days: (n: number) => `${n} days`,
     from: 'from', perPerson: 'per person', basis: 'per person, 2 sharing, 4★/5★ hotels',
     check: 'Check this date', customise: 'Customise', view: 'View tour',
-    concierge: 'Not sure yet? Talk it through with our concierge →',
+    concierge: 'Not sure yet? Get advice from our Egypt travel specialists →',
   },
   es: {
     private: 'Tour privado de un día', group: 'Tour de un día en grupo reducido', multi: 'Viaje de varios días',
     hours: (n: number) => `${n} horas`, days: (n: number) => `${n} días`,
     from: 'desde', perPerson: 'por persona', basis: 'por persona, en habitación doble, hoteles de 4★/5★',
     check: 'Consultar esta fecha', customise: 'Personalizar', view: 'Ver viaje',
-    concierge: '¿Aún no lo tienes claro? Háblalo con nuestro concierge →',
+    concierge: '¿Aún no lo tienes claro? Pide consejo a nuestros especialistas en Egipto →',
   },
   ja: {
     private: 'プライベート日帰りツアー', group: '少人数グループ日帰りツアー', multi: '周遊ツアー',

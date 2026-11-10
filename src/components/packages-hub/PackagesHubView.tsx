@@ -337,6 +337,7 @@ export async function PackagesHubView({
                   )}
                 </ul>
               </div>
+              <span data-end-form hidden />
               <LeadForm source="packages_hub" tone="dark" headingId="h-hub-close" locale={locale} />
             </div>
           </div>
