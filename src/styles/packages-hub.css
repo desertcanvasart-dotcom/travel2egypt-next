@@ -3,8 +3,11 @@
    closing form reuse the homepage's .lvl-sales styles unchanged. */
 
 /* Hero: tighter than the category masthead so the most-booked prices reach
-   the first screen. */
-.lvl-hub .masthead.hub-mast { padding: 10px 0 16px; align-items: center; }
+   the first screen. 2026-11-10 (both hubs): +24px above the hero, the same
+   24px taken from the gap before the first section heading, so the first
+   card row does not move; the counters sit bottom-aligned with the dek +
+   buttons block. */
+.lvl-hub .masthead.hub-mast { padding: 34px 0 8px; align-items: flex-end; }
 .lvl-hub .masthead .t2e-kicker { margin-bottom: 8px; }
 .lvl-hub .mast-title { font-size: clamp(38px, 4vw, 56px); max-width: none; }
 .lvl-hub .mast-tag { font-size: clamp(17px, 1.5vw, 20px); margin-top: 8px; max-width: 820px; }
@@ -19,14 +22,26 @@
 .lvl-hub .mast-stats dd { white-space: nowrap; }
 
 /* Most-booked */
-.lvl-hub .hub-sec { padding: 16px 0 72px; }
+.lvl-hub .hub-sec { padding: 0 0 72px; }
 .lvl-hub .hub-mb .t2e-section-head { margin-bottom: 14px; align-items: end; }
 .lvl-hub .hub-mb .t2e-section-head h2 { font-size: clamp(28px, 2.6vw, 38px); }
 .lvl-hub .hub-mb .t2e-section-head .t2e-kicker { margin-bottom: 6px; }
-/* The homepage card at hub width: a slightly wider crop so the price row
-   reaches the first screen at 1440×782 (the homepage itself is unchanged). */
+/* The homepage card at hub width: a wider crop and the price on one line
+   (basis wraps after it if needed) so image, title and price of the first
+   row reach the first screen at 1440×782 AND 1280×720 (owner hard rule,
+   2026-11-10; measured EN/ES/JA). The homepage itself is unchanged. */
 @media (min-width: 981px) {
-  .lvl-hub .hub-mb .pcard-img .t2e-visual { aspect-ratio: 9 / 4 !important; }
+  .lvl-hub .hub-mb .pcard-img .t2e-visual { aspect-ratio: 3 / 1 !important; }
+  .lvl-hub .hub-mb .price { flex-direction: row; flex-wrap: wrap; align-items: baseline; column-gap: 8px; }
+  /* JA: CJK lines are taller and wrap sooner — step type down and crop a
+     little wider so the same rule holds. */
+  html[lang='ja'] .lvl-hub .mast-title { font-size: clamp(34px, 3.2vw, 46px); }
+  html[lang='ja'] .lvl-hub .mast-tag { font-size: 16px; line-height: 1.6; }
+  html[lang='ja'] .lvl-hub .hub-mb .t2e-section-head { margin-bottom: 6px; }
+  html[lang='ja'] .lvl-hub .hub-mb .t2e-section-head h2 { font-size: clamp(26px, 2.2vw, 32px); }
+  html[lang='ja'] .lvl-hub .hub-mb .t2e-section-head p { font-size: 14px; line-height: 1.5; }
+  html[lang='ja'] .lvl-hub .hub-mb .pcard h3 { font-size: 20px; line-height: 1.25; }
+  html[lang='ja'] .lvl-hub .hub-mb .pcard-img .t2e-visual { aspect-ratio: 7 / 2 !important; }
 }
 
 /* Themes: name over its note; count + from price on the right */
@@ -68,3 +83,21 @@
 
 /* Closing form: homepage block, flush with the hub */
 .lvl-hub .hub-close .sales-close { margin: 0; }
+
+/* Packages → small-group link at the end of "How our journeys work". */
+.lvl-hub .hub-sg-link { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--rule); font-family: var(--ui); font-size: 15px; color: var(--navy-mute); }
+.lvl-hub .hub-sg-link a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); }
+.lvl-hub .hub-sg-link a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* ── Small-group hub (2026-11-10): the packages card in two columns
+   (swipe row below 981px, as on the packages hub), plus its facts. ── */
+@media (min-width: 981px) {
+  .lvl-sg .pcards.pcards--two { grid-template-columns: repeat(2, 1fr); gap: 40px 36px; }
+  /* Two columns are twice as wide: a wider crop keeps the same first-screen rule. */
+  .lvl-sg .hub-mb .pcard-img .t2e-visual { aspect-ratio: 4 / 1 !important; }
+  html[lang='ja'] .lvl-sg .hub-mb .pcard-img .t2e-visual { aspect-ratio: 9 / 2 !important; }
+}
+.lvl-sales .btn-outline.btn-solid { background: var(--navy); color: var(--paper); }
+.lvl-sales .btn-outline.btn-solid:hover { background: var(--black); border-color: var(--black); }
+.lvl-sg .sg-facts { margin-top: 10px; display: grid; gap: 2px; font-family: var(--ui); font-size: 13.5px; line-height: 1.45; color: var(--navy); }
+.lvl-sg .sg-size { color: var(--navy-mute); }

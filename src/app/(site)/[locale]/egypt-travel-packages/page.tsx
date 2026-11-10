@@ -7,6 +7,7 @@ import { client } from '@/sanity/lib/client';
 import { packageCategoryQuery, packageThemeLandingsQuery } from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
 import { getRates } from '@/lib/fx';
+import { ONE_DAY_CHECK_FIELDS } from '@/lib/products/multiDay';
 import { salesHomeQuery, type SalesHomeData } from '@/components/home-sales/query';
 import { FEATURED_TOURS } from '@/components/home-sales/config';
 import {
@@ -42,6 +43,7 @@ const hubPackagesQuery = groq`
     durationDays,
     "durationLabel": coalesce(durationLabel[_key==$locale][0].value, durationLabel[_key=="en"][0].value),
     priceFrom,
+    ${ONE_DAY_CHECK_FIELDS},
     "theme": theme->{ _id, "name": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value) }
   }
 `;

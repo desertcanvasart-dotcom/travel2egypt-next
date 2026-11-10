@@ -22,6 +22,7 @@ import { groq } from 'next-sanity';
 
 import { client } from '@/sanity/lib/client';
 import { EN_SLUG, PRODUCTS_BY_SLUGS_FILTER } from '@/lib/products/bySlug';
+import { ONE_DAY_CHECK_FIELDS, multiDayOnly } from '@/lib/products/multiDay';
 import type { Locale } from '@/i18n/routing';
 import { STYLE_CARDS } from '@/components/home-sales/config';
 import { TRIPADVISOR_URL } from '@/lib/company';
@@ -40,7 +41,7 @@ const CITY_LANDINGS = {
 } as const;
 
 const navPricesQuery = groq`{
-  "packages": *[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**")) && priceFrom > 0]{ durationDays, priceFrom },
+  "packages": *[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**")) && priceFrom > 0]{ durationDays, priceFrom, ${ONE_DAY_CHECK_FIELDS} },
   "journeys": *[${PRODUCTS_BY_SLUGS_FILTER.replace('$slugs', '$journeySlugs')}]{ "slug": ${EN_SLUG}, priceFrom },
   "cities": *[_type == "tourLanding" && _id in $landingIds]{
     _id,
@@ -57,7 +58,7 @@ const navPricesQuery = groq`{
 }`;
 
 interface NavPrices {
-  packages: Array<{ durationDays?: number | null; priceFrom: number }>;
+  packages: Array<{ durationDays?: number | null; priceFrom: number; enTitle?: string | null; enSummary?: string | null }>;
   journeys: Array<{ slug: string; priceFrom?: number | null }>;
   cities: Array<{ _id: string; min?: number | null }>;
   ship?: number | null;
@@ -175,7 +176,8 @@ export const getNavData = cache(async (locale: Locale): Promise<NavChrome> => {
   };
   const cityFrom = (id: string) => min(prices.cities.filter((c) => c._id === id).map((c) => c.min));
   const lengthFrom = (i: number) =>
-    min(prices.packages.filter((x) => typeof x.durationDays === 'number' && LENGTHS[i].test(x.durationDays)).map((x) => x.priceFrom));
+    // One-day products (e.g. "Alexandria in a Day", stored as 2 days) never set a length price.
+    min(multiDayOnly(prices.packages).filter((x) => typeof x.durationDays === 'number' && LENGTHS[i].test(x.durationDays)).map((x) => x.priceFrom));
 
   const menus: NavMenu[] = [
     {

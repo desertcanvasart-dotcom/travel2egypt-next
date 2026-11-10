@@ -48,8 +48,12 @@
 .lvl-category .city-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
 .lvl-category .city { background: var(--paper); padding: 28px 30px; text-decoration: none; color: inherit; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; transition: background .2s; }
 .lvl-category .city:hover { background: var(--paper-warm); }
-.lvl-category .city .c-name { font-family: var(--display); font-size: 25px; font-weight: 400; color: var(--navy); }
-.lvl-category .city .c-note { font-family: var(--read); font-size: 13px; color: var(--navy-mute); margin-top: 4px; line-height: 1.4; }
+/* Name over note, never inline (2026-11-10 overlap fix): as inline spans the
+   13px note ran on after a wrapped 25px name, inside the name's tall line
+   boxes, and read as overlapping it from 320 to 1920px. */
+.lvl-category .city > span:first-child { min-width: 0; }
+.lvl-category .city .c-name { display: block; font-family: var(--display); font-size: 25px; font-weight: 400; line-height: 1.15; color: var(--navy); overflow-wrap: anywhere; }
+.lvl-category .city .c-note { display: block; font-family: var(--read); font-size: 13px; color: var(--navy-mute); margin-top: 4px; line-height: 1.4; }
 .lvl-category .city .c-count { font-family: var(--ui); font-size: 12px; color: var(--gold-dark); letter-spacing: .06em; white-space: nowrap; }
 /* Concierge filler — occupies a ragged final row's empty cells so the grid
    never shows a bare grey block. A button styled to sit in the grid; the warm
