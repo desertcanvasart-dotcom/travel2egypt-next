@@ -12119,7 +12119,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/wikala-de-al-ghouri",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
+    "destination": "/es/guide/el-cairo/el-complejo-de-al-ghuriyya",
     "permanent": true
   },
   {
@@ -26404,7 +26404,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-de-viaje-de-el-cairo/wikala-de-al-ghouri",
-    "destination": "/es/guide/el-cairo",
+    "destination": "/es/guide/el-cairo/el-complejo-de-al-ghuriyya",
     "permanent": true
   },
   {
@@ -29160,6 +29160,16 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/観光ガイド",
     "destination": "/ja/guide",
+    "permanent": true
+  },
+  {
+    "source": "/saint-catherine-travel-guide/things-to-do",
+    "destination": "/guide/saint-catherine/things-to-do-in-saint-catherine",
+    "permanent": true
+  },
+  {
+    "source": "/es/los-mejores-recorridos-en-guiza",
+    "destination": "/es/guide/guiza/las-mejores-excursiones-en-guiza",
     "permanent": true
   }
 ];
