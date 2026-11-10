@@ -1,6 +1,6 @@
 # Copy fixes draft: Spanish 9-day body + dahabiya "no engine" (10 Nov 2026)
 
-**Status: DRAFT — awaiting owner approval.** Once you approve it, this file is locked (Canon Gate A), and the staging script writes only strings that byte-match it.
+**Status: LOCKED — approved by the owner 10 Nov 2026 ("Yes, apply all").** Locked copy (Canon Gate A): the staging script writes only strings that byte-match this file.
 
 ---
 
