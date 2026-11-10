@@ -1,6 +1,6 @@
 # B5 copy draft: small-group page (10 Nov 2026)
 
-**Status: DRAFT — awaiting owner approval.** Once you approve it, this file is locked (Canon Gate A), and the change is a straight edit of two translation keys.
+**Status: LOCKED — approved by the owner 10 Nov 2026 ("You have my permission…").**
 
 ## Why this page
 
