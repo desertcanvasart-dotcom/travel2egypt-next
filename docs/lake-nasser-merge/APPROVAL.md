@@ -1,6 +1,6 @@
 # Lake Nasser merge: changes for approval (10 Nov 2026)
 
-**Status: AWAITING OWNER APPROVAL.** Nothing below is live yet.
+**Status: APPROVED by the owner 10 Nov 2026 ("Approve, option B (€)"): prices stored as €750 / €1,390.**
 
 - The new copy is staged as Sanity **drafts** of the three surviving posts. The public site reads published documents only.
 - The "Faris Hussein" author document exists, but nothing published points to it yet.
