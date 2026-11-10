@@ -12,7 +12,7 @@ export interface EditorialDoc {
   heroSubhead?: string;
   heroPrimaryCta?: CtaLink;
   heroSecondaryCta?: CtaLink;
-  sections?: Array<{ _key: string; heading?: string; body?: unknown }>;
+  sections?: Array<{ _key: string; anchor?: string | null; heading?: string; body?: unknown }>;
   ribbonBody?: string;
   ribbonCta?: CtaLink;
   bottomCtaHeading?: string;
@@ -91,7 +91,9 @@ export function EditorialPageView({ locale, doc }: Props) {
           {doc.sections.map((s) => (
             <div key={s._key} className="mb-16 last:mb-0">
               {s.heading && (
-                <h2 className="mb-6 font-serif text-3xl font-medium text-ink">{s.heading}</h2>
+                <h2 id={s.anchor || undefined} className="mb-6 scroll-mt-28 font-serif text-3xl font-medium text-ink">
+                  {s.heading}
+                </h2>
               )}
               {Boolean(s.body) && (
                 <div className="prose-editorial max-w-none">

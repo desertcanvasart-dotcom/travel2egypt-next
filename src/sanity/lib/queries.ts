@@ -2038,6 +2038,7 @@ export const editorialPageByKindQuery = (locale: Locale) => groq`
     "heroSecondaryCta": heroSecondaryCta${ctaProjection(locale)},
     sections[]{
       _key,
+      anchor,
       "heading": ${localizedField('heading', locale)},
       "body":    ${portableTextBodyProjection('body', locale)}
     },

@@ -54,6 +54,7 @@ export async function DayHubEnd({
                 )}
               </ul>
             </div>
+            <span data-end-form hidden />
             <LeadForm
               source="day_tour_hub"
               tone="dark"

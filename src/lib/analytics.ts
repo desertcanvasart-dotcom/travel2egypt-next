@@ -62,7 +62,9 @@ export type AnalyticsEvent =
   | 'select_plan_option'
   | 'concierge_open'
   // Product page template (2026-11-09)
-  | 'view_item';
+  | 'view_item'
+  // Nav rebuild (2026-11-10): nav_click {menu, group, item, position}
+  | 'nav_click';
 
 type Params = Record<string, string | number | boolean | undefined>;
 
