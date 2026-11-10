@@ -16,8 +16,19 @@ const ID = 'wp-page-113061';
 const c = createClient({ projectId: 'ufallvd2', dataset: 'production', apiVersion: '2024-01-01', useCdn: false, token: process.env.SANITY_PRODUCTION_API_WRITE_TOKEN });
 
 const md = fs.readFileSync(`docs/siwa-desert-escape/siwa-desert-escape-${LANG}.md`, 'utf8').replace(/\r\n/g, '\n');
-if (!/Status: LOCKED/.test(md)) throw new Error('copy file is not LOCKED');
+// --check-draft: parse an unapproved draft in a dry run (never with --apply).
+const CHECK_DRAFT = process.argv.includes('--check-draft');
+if (CHECK_DRAFT && APPLY) throw new Error('--check-draft cannot be combined with --apply');
+if (!/Status: LOCKED/.test(md) && !CHECK_DRAFT) throw new Error('copy file is not LOCKED');
 const SEO = {
+  es: {
+    metaTitle: 'Tour al oasis de Siwa desde El Cairo: 4 días',
+    metaDescription: 'Cuatro días privados desde El Cairo: el manantial de Cleopatra y un lago salado, un día de patrimonio con guía y un 4×4 hacia el Gran Mar de Arena.',
+  },
+  ja: {
+    metaTitle: 'カイロ発シワ・オアシス4日間の旅',
+    metaDescription: 'カイロ発のプライベート4日間。クレオパトラの泉と塩湖での浮遊体験、ガイド付きの遺産巡り、4WDで向かうグレート・サンド・シー。',
+  },
   en: {
     metaTitle: 'Siwa Oasis Tour from Cairo: 4 Days',
     metaDescription: 'A private 4-day Siwa journey from Cairo: Cleopatra Spring, a salt lake float, a guided heritage day and a 4×4 into the Great Sand Sea.',
@@ -68,7 +79,7 @@ const included = bullets(sections[1]);
 const excluded = bullets(sections[2]);
 const daySecs = sections.slice(3, 7);
 const days = daySecs.map((s, i) => {
-  const m = s.h.match(/^\S+\s+(\d+)\s+—\s+(.+)$/);
+  const m = s.h.match(/^\D*?(\d+)\D*?—\s+(.+)$/);
   if (!m || Number(m[1]) !== i + 1) throw new Error(`bad day heading: ${s.h}`);
   return { n: i + 1, title: m[2].trim(), blocks: toBlocks(s.lines) };
 });
