@@ -97,7 +97,12 @@ function SearchBar({ q }: { q: string }) {
 function Header({ email }: { email: string }) {
   return (
     <header className="mb-6 flex items-baseline justify-between border-b border-night/10 pb-4">
-      <h1 className="font-serif text-2xl text-night">Concierge Admin</h1>
+      <h1 className="font-serif text-2xl text-night">
+        Concierge Admin{' '}
+        <Link href="/admin/report" className="ml-3 font-sans text-sm underline">
+          Enquiries &amp; traffic report →
+        </Link>
+      </h1>
       <form
         method="post"
         action="/api/admin/auth/logout"

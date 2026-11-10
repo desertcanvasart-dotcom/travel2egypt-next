@@ -293,6 +293,16 @@ export interface ConciergeDatabase {
           journey: string | null;
           style_answer: string | string[] | null;
           is_test: boolean;
+          /** 0011: attribution (old rows NULL); utm_* are generated from utm. */
+          form_location: string | null;
+          interest: string | null;
+          landing_page: string | null;
+          referrer_domain: string | null;
+          utm_source: string | null;
+          utm_medium: string | null;
+          utm_campaign: string | null;
+          utm_term: string | null;
+          utm_content: string | null;
           status: string;
         };
         Insert: {
@@ -322,6 +332,10 @@ export interface ConciergeDatabase {
           journey?: string | null;
           style_answer?: string | string[] | null;
           is_test?: boolean;
+          form_location?: string | null;
+          interest?: string | null;
+          landing_page?: string | null;
+          referrer_domain?: string | null;
           status?: string;
         };
         Update: Partial<{
@@ -374,9 +388,31 @@ export interface ConciergeDatabase {
           },
         ];
       };
+      pageviews_daily: {
+        Row: { day: string; path: string; locale: string; referrer_domain: string; device: string; views: number };
+        Insert: { day: string; path: string; locale?: string; referrer_domain?: string; device?: string; views?: number };
+        Update: Partial<{ views: number }>;
+        Relationships: [];
+      };
+      site_changes: {
+        Row: { id: number; day: string; description: string; created_at: string };
+        Insert: { day: string; description: string };
+        Update: Partial<{ day: string; description: string }>;
+        Relationships: [];
+      };
     };
     Views: { [_ in never]: never };
-    Functions: { [_ in never]: never };
+    /** 0011: cookieless page counts + report functions. */
+    Functions: {
+      pv_increment: {
+        Args: { p_day: string; p_path: string; p_locale: string; p_referrer: string; p_device: string };
+        Returns: undefined;
+      };
+      pv_by_path: { Args: { p_from: string; p_to: string; p_locale?: string | null }; Returns: Array<{ path: string; views: number }> };
+      pv_by_day: { Args: { p_from: string; p_to: string; p_locale?: string | null }; Returns: Array<{ day: string; views: number }> };
+      pv_by_referrer: { Args: { p_from: string; p_to: string; p_locale?: string | null }; Returns: Array<{ referrer_domain: string; views: number }> };
+      pv_by_device: { Args: { p_from: string; p_to: string; p_locale?: string | null }; Returns: Array<{ device: string; views: number }> };
+    };
     Enums: { [_ in never]: never };
     CompositeTypes: { [_ in never]: never };
   };

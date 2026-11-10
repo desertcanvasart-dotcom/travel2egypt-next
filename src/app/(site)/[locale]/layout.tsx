@@ -13,6 +13,7 @@ import { getNavData } from '@/lib/nav/navData';
 import { JsonLd } from '@/components/JsonLd';
 import { CookieConsent } from '@/components/CookieConsent';
 import { Analytics } from '@/components/Analytics';
+import { PageCounter } from '@/components/PageCounter';
 import { LeadProvider } from '@/components/leads/LeadProvider';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { MobileLeadBar } from '@/components/MobileLeadBar';
@@ -113,6 +114,7 @@ export default async function LocaleLayout({
                 <MobileLeadBar />
                 <CookieConsent />
                 <Analytics locale={locale} />
+                <PageCounter locale={locale} />
               </LeadProvider>
             </CurrencyProvider>
           </ConsentProvider>
