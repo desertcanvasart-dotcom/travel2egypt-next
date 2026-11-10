@@ -367,13 +367,9 @@ export function buildArticleSchema(
     dateModified: input.updatedAt ?? input.publishedAt,
     ...(input.author?.name
       ? {
-          author: {
-            '@type': 'Person',
-            name: input.author.name,
-            ...(input.author.slug?.current
-              ? { url: `${SITE_URL}/about/${input.author.slug.current}` }
-              : {}),
-          },
+          // No `url`: the site has no per-author pages (/about/<slug> 404s),
+          // and pointing structured data at a 404 is worse than omitting it.
+          author: { '@type': 'Person', name: input.author.name },
         }
       : {}),
     ...(input.category?.name
@@ -1048,10 +1044,11 @@ export function buildItemListSchema(
   };
 }
 
-export function buildFAQSchema(items: FAQItem[]) {
+export function buildFAQSchema(items: FAQItem[], inLanguage?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    ...(inLanguage ? { inLanguage } : {}),
     mainEntity: items.map((item) => ({
       '@type': 'Question',
       name: item.question,

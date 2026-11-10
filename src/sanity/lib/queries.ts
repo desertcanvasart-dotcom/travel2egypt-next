@@ -318,6 +318,9 @@ export const tourBySlugQuery = (locale: Locale) => groq`
   )][0]{
     ${tourCardProjection(locale)},
     "body": ${portableTextBodyProjection('body', locale)},
+    // Locale-strict: no English fallback, so a language without its own
+    // practical information shows none rather than English text.
+    "practicalInfo": practicalInfo[_key=="${locale}"][0].value,
     "themeLanding": *[_type == "tourLanding" && themeRef._ref == ^.theme._ref][0]{
       "slug": ${localizedSlug('slug', locale)}
     },
@@ -1385,6 +1388,7 @@ export const articleBySlugQuery = groq`
         }
       }
     },
+    "faq": faq[]{ _key, question, answer },
     "categoryDescription": category->{
       "description": coalesce(description[_key==$locale][0].value, description[_key=="en"][0].value)
     },

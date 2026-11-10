@@ -1,0 +1,589 @@
+[
+ {
+  "id": "drafts.wp-page-57848",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"en\"].value[_key==\"000000000045\"].markDefs[_key==\"000000000042\"].href",
+    "from": "/blog/lake-nasser-cruises",
+    "to": "/blog/lake-nasser-cruise"
+   },
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000004a\"].markDefs[_key==\"000000000047\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "drafts.wp-page-86853",
+  "type": "hotel",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000007e\"].markDefs[_key==\"00000000007b\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "guideArticle.cairo.church-of-st-barbara",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000001d\"].markDefs[_key==\"000000000015\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "guideArticle.cairo.mosque-madrassa-of-umm-sultan-shaaban",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000005f\"].markDefs[_key==\"000000000055\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "guideArticle.qena.the-temple-of-hathor",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000042\"].markDefs[_key==\"00000000003a\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "guideArticle.saint-catherine.mosque-of-al-hakim-be-amr-allah",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000002c\"].markDefs[_key==\"000000000020\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-156550",
+  "type": "tour",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000027\"].markDefs[_key==\"000000000024\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-56930",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"en\"].value[_key==\"00000000002f\"].markDefs[_key==\"000000000029\"].href",
+    "from": "/blog/lake-nasser-cruises",
+    "to": "/blog/lake-nasser-cruise"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-57848",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"en\"].value[_key==\"000000000045\"].markDefs[_key==\"000000000042\"].href",
+    "from": "/blog/lake-nasser-cruises",
+    "to": "/blog/lake-nasser-cruise"
+   },
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000004a\"].markDefs[_key==\"000000000047\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-57881",
+  "type": "wikiMonument",
+  "changes": [
+   {
+    "field": "body[_key==\"en\"].value[_key==\"000000000028\"].markDefs[_key==\"000000000022\"].reference._ref",
+    "from": "wp-post-144896-en",
+    "to": "wp-post-145378-en"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-58693",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000000f\"].markDefs[_key==\"00000000000c\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-58798",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000016\"].markDefs[_key==\"00000000000e\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-59212",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"en\"].value[_key==\"000000000038\"].markDefs[_key==\"000000000035\"].href",
+    "from": "/blog/lake-nasser-cruises",
+    "to": "/blog/lake-nasser-cruise"
+   },
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000050\"].markDefs[_key==\"000000000048\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-59230",
+  "type": "wikiMonument",
+  "changes": [
+   {
+    "field": "body[_key==\"en\"].value[_key==\"000000000013\"].markDefs[_key==\"000000000010\"].reference._ref",
+    "from": "wp-post-144896-en",
+    "to": "wp-post-145378-en"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-59345",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000019\"].markDefs[_key==\"000000000016\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-59423",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000028\"].markDefs[_key==\"000000000025\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-59478",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000009\"].markDefs[_key==\"000000000003\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-59629",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000050\"].markDefs[_key==\"000000000048\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-59704",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000000c\"].markDefs[_key==\"000000000009\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-59734",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000027\"].markDefs[_key==\"000000000024\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-59749",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"en\"].value[_key==\"00000000001e\"].markDefs[_key==\"000000000015\"].href",
+    "from": "/blog/lake-nasser-cruises",
+    "to": "/blog/lake-nasser-cruise"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60207",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000004d\"].markDefs[_key==\"00000000004a\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60229",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000052\"].markDefs[_key==\"00000000004c\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60381",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000040\"].markDefs[_key==\"00000000003b\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60388",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000004f\"].markDefs[_key==\"000000000044\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60439",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000004c\"].markDefs[_key==\"000000000049\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60484",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000005c\"].markDefs[_key==\"000000000059\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60487",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000005f\"].markDefs[_key==\"00000000005c\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60564",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000016\"].markDefs[_key==\"00000000000d\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60582",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000051\"].markDefs[_key==\"00000000004e\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-60747",
+  "type": "wikiMonument",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000002c\"].markDefs[_key==\"000000000020\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-69918",
+  "type": "wikiMonument",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000045\"].markDefs[_key==\"000000000033\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-69924",
+  "type": "wikiMonument",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000039\"].markDefs[_key==\"00000000002f\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-75745",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000014\"].markDefs[_key==\"00000000000c\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-76518",
+  "type": "wikiMonument",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000042\"].markDefs[_key==\"00000000003a\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-78152",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000042\"].markDefs[_key==\"000000000035\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-78361",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"en\"].value[_key==\"000000000069\"].markDefs[_key==\"000000000066\"].href",
+    "from": "/blog/lake-nasser-cruises",
+    "to": "/blog/lake-nasser-cruise"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-78448",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000028\"].markDefs[_key==\"00000000001e\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-86858",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000029\"].markDefs[_key==\"000000000026\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-86911",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000044\"].markDefs[_key==\"00000000003c\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-87001",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000014e\"].markDefs[_key==\"00000000014b\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-87064",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000032\"].markDefs[_key==\"00000000002f\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-87387",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000126\"].markDefs[_key==\"000000000123\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-87637",
+  "type": "tour",
+  "changes": [
+   {
+    "field": "days[_key==\"day-1\"].morning[_key==\"es\"].value[_key==\"000000000004\"].markDefs[_key==\"000000000001\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-87739",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000058\"].markDefs[_key==\"000000000050\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-88555",
+  "type": "tour",
+  "changes": [
+   {
+    "field": "days[_key==\"day-1\"].morning[_key==\"es\"].value[_key==\"00000000000b\"].markDefs[_key==\"000000000003\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-96604",
+  "type": "wikiMonument",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000001d\"].markDefs[_key==\"000000000015\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-96618",
+  "type": "guideArticle",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"000000000023\"].markDefs[_key==\"000000000020\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-page-96626",
+  "type": "wikiMonument",
+  "changes": [
+   {
+    "field": "body[_key==\"es\"].value[_key==\"00000000005f\"].markDefs[_key==\"000000000055\"].href",
+    "from": "/es/blog/lago-nasser",
+    "to": "/es/blog/por-que-elegir-un-crucero-por-el-lago-nasser"
+   }
+  ]
+ },
+ {
+  "id": "wp-post-144338-es",
+  "type": "article",
+  "changes": [
+   {
+    "field": "body[_key==\"8a76dfccf98d\"].markDefs[_key==\"fca5669b9bfe\"].reference._ref",
+    "from": "wp-post-155635-es",
+    "to": "wp-post-155359-es"
+   }
+  ]
+ },
+ {
+  "id": "wp-post-164256-ja",
+  "type": "article",
+  "changes": [
+   {
+    "field": "body[_key==\"5c9160126ad4\"].markDefs[_key==\"df7a483d76dc\"].reference._ref",
+    "from": "wp-post-170183-ja",
+    "to": "wp-post-170181-ja"
+   }
+  ]
+ },
+ {
+  "id": "wp-post-97294-en",
+  "type": "article",
+  "changes": [
+   {
+    "field": "body[_key==\"a4a0ef153649\"].markDefs[_key==\"de641fe0a215\"].reference._ref",
+    "from": "wp-post-144896-en",
+    "to": "wp-post-145378-en"
+   }
+  ]
+ }
+]

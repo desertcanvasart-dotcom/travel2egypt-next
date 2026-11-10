@@ -51,6 +51,8 @@ export interface PackageDoc {
   heroImage?: { asset?: unknown; alt?: string } | null;
   cities?: CityRef[];
   body?: unknown;
+  /** Optional section rendered after the day-by-day itinerary (locale-strict). */
+  practicalInfo?: unknown[] | null;
   days?: PackageDay[] | null;
   conciergeNote?: string;
   includedItems?: string[] | null;
@@ -368,6 +370,12 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                     ))}
                   </ol>
                 </>
+              )}
+
+              {Array.isArray(tour.practicalInfo) && tour.practicalInfo.length > 0 && (
+                <section className="practical" id="practical">
+                  <TourProse value={tour.practicalInfo} locale={locale} lead={false} />
+                </section>
               )}
 
               {isGroup && dep && dep.rows.length > 0 && (

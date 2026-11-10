@@ -34,6 +34,7 @@ import { JsonLd } from '@/components/JsonLd';
 import {
   buildArticleSchema,
   buildBreadcrumbList,
+  buildFAQSchema,
 } from '@/lib/structured-data';
 import {
   buildBlogTrail,
@@ -115,6 +116,8 @@ interface ArticleDoc {
   relatedCityIds?: string[];
   publishedAt?: string;
   updatedAt?: string;
+  /** Structured FAQ (per-language doc → plain question, Portable Text answer). */
+  faq?: Array<{ _key: string; question?: string; answer?: unknown[] }> | null;
   heroImage?: {
     asset?: unknown;
     alt?: string;
@@ -154,6 +157,17 @@ interface WeaveData {
   }>;
 }
 
+/** Plain text of Portable Text blocks (paragraphs joined by a blank line),
+ *  exactly as rendered — used for FAQPage `acceptedAnswer.text`. */
+function blocksPlainText(blocks: unknown[] | undefined): string {
+  if (!Array.isArray(blocks)) return '';
+  return blocks
+    .map((b) => ((b as { children?: Array<{ text?: string }> }).children ?? []).map((c) => c.text ?? '').join(''))
+    .filter(Boolean)
+    .join('\n\n')
+    .trim();
+}
+
 function formatDate(value: string | undefined, locale: string): string | null {
   if (!value) return null;
   return new Date(value).toLocaleDateString(
@@ -180,9 +194,32 @@ export default async function ArticlePage({ params }: Props) {
     cityId: primaryCity?._id ?? null,
   })) as WeaveData;
 
+  // Structured FAQ: one list feeds the visible section, the table of
+  // contents entry and the FAQPage markup, so they cannot drift apart.
+  const faqItems = (article.faq ?? []).filter(
+    (i) => i.question?.trim() && Array.isArray(i.answer) && i.answer.length > 0
+  );
+  const faqHeading = t('faqHeading');
   const headings = extractHeadings(article.body);
-  const minutes = readingTimeMinutes(article.body, locale as Locale);
-  const dateLabel = formatDate(article.updatedAt ?? article.publishedAt, locale);
+  if (faqItems.length > 0) headings.push({ id: 'faq', text: faqHeading });
+  const minutes = readingTimeMinutes(
+    [
+      ...(Array.isArray(article.body) ? article.body : []),
+      ...faqItems.flatMap((i) => [
+        { _type: 'block', children: [{ _type: 'span', text: i.question }] },
+        ...(i.answer as unknown[]),
+      ]),
+    ],
+    locale as Locale
+  );
+  // Published date always; "Last updated" only when a later update exists.
+  const dateLabel = formatDate(article.publishedAt ?? article.updatedAt, locale);
+  const updatedLabel =
+    article.updatedAt &&
+    article.publishedAt &&
+    article.updatedAt.slice(0, 10) > article.publishedAt.slice(0, 10)
+      ? formatDate(article.updatedAt, locale)
+      : null;
 
   const authorPhotoUrl = article.author?.photo?.asset
     ? urlFor(article.author.photo).width(96).height(96).quality(85).url()
@@ -287,6 +324,13 @@ export default async function ArticlePage({ params }: Props) {
   });
   const breadcrumbItems = toVisibleCrumbs(trail);
   const breadcrumbSchema = buildBreadcrumbList(toSchemaCrumbs(trail), locale as Locale);
+  const faqSchema =
+    faqItems.length > 0
+      ? buildFAQSchema(
+          faqItems.map((i) => ({ question: i.question!.trim(), answer: blocksPlainText(i.answer) })),
+          locale
+        )
+      : null;
 
   // Task C (round 3): hand-picked inline/end tours; end falls back to priced
   // products tagged with the article's cities.
@@ -304,7 +348,7 @@ export default async function ArticlePage({ params }: Props) {
 
   return (
     <article>
-      <JsonLd data={[articleSchema, breadcrumbSchema]} />
+      <JsonLd data={faqSchema ? [articleSchema, breadcrumbSchema, faqSchema] : [articleSchema, breadcrumbSchema]} />
 
       {/* ── Breadcrumb + type-led header ── */}
       <div className="mx-auto max-w-7xl px-6">
@@ -337,6 +381,12 @@ export default async function ArticlePage({ params }: Props) {
             )}
             {article.author && dateLabel && <span aria-hidden className="text-rule-strong">·</span>}
             {dateLabel && <span>{dateLabel}</span>}
+            {updatedLabel && (
+              <>
+                <span aria-hidden className="text-rule-strong">·</span>
+                <span>{t('lastUpdated', { date: updatedLabel })}</span>
+              </>
+            )}
             <span aria-hidden className="text-rule-strong">·</span>
             <span>{t('readingTime', { count: minutes })}</span>
           </div>
@@ -407,6 +457,19 @@ export default async function ArticlePage({ params }: Props) {
                 )}
               </div>
             ) : null}
+
+            {/* Structured FAQ — the same items feed the FAQPage markup above */}
+            {faqItems.length > 0 && (
+              <section aria-labelledby="faq" className="prose-editorial mt-4 max-w-[680px]">
+                <h2 id="faq">{faqHeading}</h2>
+                {faqItems.map((i) => (
+                  <div key={i._key}>
+                    <h3>{i.question}</h3>
+                    <Body value={i.answer as never} locale={locale as Locale} />
+                  </div>
+                ))}
+              </section>
+            )}
 
             {/* Archive attribution — only for legacy archive pieces */}
             {isArchive && (

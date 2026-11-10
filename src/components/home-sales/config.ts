@@ -59,7 +59,7 @@ export const DAY_TOUR_CITIES: DayTourCity[] = [
     key: 'aswan',
     href: '/aswan-private-day-tours',
     tours: [
-      { slug: 'private-tour-abu-simble-by-bus-from-aswan', format: 'private' },
+      { slug: 'abu-simbel-by-car-from-aswan', format: 'private' },
       { slug: 'nubian-temples-day-tour-from-aswan', format: null },
       { slug: 'aswan-felucca-adventure', format: null },
     ],

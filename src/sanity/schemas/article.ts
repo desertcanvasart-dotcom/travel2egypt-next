@@ -109,6 +109,32 @@ export const articleSchema = defineType({
       group: 'content',
     }),
     defineField({
+      name: 'faq',
+      title: 'FAQ',
+      description:
+        'Optional. Shown after the body as a "Frequently asked questions" section (H2 + one H3 per question) and emitted as FAQPage markup built from the same items, so the visible text and the markup never drift. Do not repeat the FAQ in the body.',
+      type: 'array',
+      group: 'content',
+      of: [
+        {
+          type: 'object',
+          name: 'articleFaqItem',
+          title: 'Question',
+          fields: [
+            defineField({ name: 'question', title: 'Question', type: 'string', validation: (Rule) => Rule.required() }),
+            defineField({
+              name: 'answer',
+              title: 'Answer',
+              type: 'array',
+              of: [{ type: 'block' }],
+              validation: (Rule) => Rule.required(),
+            }),
+          ],
+          preview: { select: { title: 'question' } },
+        },
+      ],
+    }),
+    defineField({
       name: 'body',
       title: 'Body',
       description: 'Full article. The body uses the standard portable text editor with operator-note callouts.',
