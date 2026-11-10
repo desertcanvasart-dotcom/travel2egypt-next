@@ -264,16 +264,24 @@ export default async function GuideArticlePage({ params }: Props) {
           </div>
         ) : (
           heroUrl && (
-            <div className="relative mb-10 aspect-[2/1] w-full overflow-hidden rounded-lg bg-cream-deep">
-              <Image
-                src={heroUrl}
-                alt={article.heroImage?.alt || article.title}
-                fill
-                priority
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 1200px"
-              />
-            </div>
+            <figure className="mb-10">
+              <div className="relative aspect-[2/1] w-full overflow-hidden rounded-lg bg-cream-deep">
+                <Image
+                  src={heroUrl}
+                  alt={article.heroImage?.alt || article.title}
+                  fill
+                  priority
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 1200px"
+                />
+              </div>
+              {/* Photo credit — required for Creative Commons images (attribution). */}
+              {article.heroImage?.credit && (
+                <figcaption className="mt-2 text-right font-sans text-xs text-ink-soft">
+                  {article.heroImage.credit}
+                </figcaption>
+              )}
+            </figure>
           )
         )}
 
