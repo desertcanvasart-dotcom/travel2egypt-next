@@ -20,6 +20,8 @@ import {
   STYLE_CARDS,
 } from './config';
 import { HOME_COPY, localHref, type HomeLocale } from './copy';
+import type { JourneyLive } from '@/lib/journeys/data';
+import { JOURNEY_KEYS, JOURNEYS, JOURNEY_UI, type JourneyKey } from '@/lib/journeys/registry';
 import { DayToursTabs } from './DayToursTabs';
 import { QuickFinder } from './QuickFinder';
 import { TrackedLink } from './TrackedLink';
@@ -50,7 +52,16 @@ function minEur(products: Array<SalesProduct | undefined>): number | null {
 
 const price = (eur: number | null | undefined) => (eur ? <Price eur={eur} /> : null);
 
-export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: HomeLocale }) {
+export function SalesHomeView({
+  data,
+  locale,
+  journeys,
+}: {
+  data: SalesHomeData;
+  locale: HomeLocale;
+  /** Journey pages Phase A: approved heroes + the shared "from" per journey. */
+  journeys?: { live: Record<JourneyKey, JourneyLive>; prices: Record<JourneyKey, number | null> };
+}) {
   const c = HOME_COPY[locale];
   const bySlug = new Map(data.products.map((p) => [p.slug, p]));
   const featured = FEATURED_TOURS.map((f) => ({ ...f, p: bySlug.get(f.slug) })).filter(
@@ -281,20 +292,34 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
           </div>
           <ul className="styles">
             {STYLE_CARDS.map((s) => {
-              const eur = s.priceSlug ? bySlug.get(s.priceSlug)?.priceFrom : s.ownerFromEur;
+              // One "from" per journey (Phase A): the approved tours' minimum
+              // once approved, else this card's existing source.
+              const key = JOURNEY_KEYS.find((k) => JOURNEYS[k].path === s.href);
+              const fallback = s.priceSlug ? bySlug.get(s.priceSlug)?.priceFrom : s.ownerFromEur;
+              const eur = (key && journeys?.prices[key]) ?? fallback;
+              const hero = key ? journeys?.live[key].hero : null;
               const card = c.styles.cards[s.href];
               const href = localHref(c, s.href);
               return (
                 <li key={s.href}>
                   <TrackedLink href={href} listName="home_styles" itemId={s.href} className="style">
-                    <h3>{card?.title}</h3>
+                    {hero && (
+                      <span className="style-img">
+                        <JourneyImage image={hero} alt={hero.alt} widthHint={640} ratio={3 / 2} sizes="(max-width:620px) 90vw, 380px" />
+                      </span>
+                    )}
+                    <h3>{key ? JOURNEYS[key].label[locale] : card?.title}</h3>
                     <p>{card?.line}</p>
                     {eur ? <span className="style-from">{c.from(price(eur))}</span> : null}
+                    <span className="style-cta">{JOURNEY_UI[locale].explore}</span>
                   </TrackedLink>
                 </li>
               );
             })}
           </ul>
+          <p className="styles-all">
+            <Link href="/journeys">{JOURNEY_UI[locale].allStyles}</Link>
+          </p>
         </div>
       </section>
 

@@ -1,3 +1,4 @@
+import { JOURNEY_KEYS, type JourneyKey } from '@/lib/journeys/registry';
 /**
  * Itinerary-request lead (homepage rebuild, 2026-11-08) — the shape the short
  * form posts to /api/lead, and its validation. Pure: unit-tested, and shared
@@ -28,6 +29,10 @@ export const LEAD_SOURCES = [
   'mobile_menu',
   'footer_band',
   'footer',
+  // Journey pages Phase A (2026-11-10)
+  'journey_facts',
+  'journey_end',
+  'journeys_index',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];
 
@@ -79,6 +84,9 @@ export interface LeadInput {
   estimatedTotal: number | null;
   /** ISO code of the estimate (the viewer's display currency); USD when absent. */
   estimatedCurrency: string | null;
+  /** Journey the form opened from, and its style-question answer (Phase A). */
+  journey: JourneyKey | null;
+  styleAnswer: string | null;
 }
 
 export type LeadValidation =
@@ -190,6 +198,8 @@ export function normalizeLead(body: unknown): LeadValidation {
         typeof b.estimatedCurrency === 'string' && /^(EUR|USD|GBP|AUD|CAD|JPY)$/.test(b.estimatedCurrency)
           ? b.estimatedCurrency
           : null,
+      journey: kind === 'trip' ? oneOf(b.journey, JOURNEY_KEYS) : null,
+      styleAnswer: kind === 'trip' ? str(b.styleAnswer, 300) : null,
     },
   };
 }

@@ -6,6 +6,9 @@ import { client } from '@/sanity/lib/client';
 import { siteSettingsQuery } from '@/sanity/lib/queries';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { Price } from '@/components/Price';
+import { Link } from '@/i18n/navigation';
+import { journeysForProduct } from '@/lib/journeys/data';
+import { JOURNEYS, JOURNEY_UI, journeyLocale } from '@/lib/journeys/registry';
 import { CurrencyNote } from '@/components/CurrencyNote';
 
 import {
@@ -84,6 +87,7 @@ export async function MultiDayPanel({
   durationDays,
   tiers,
   extra,
+  enSlug,
 }: Common & {
   facts: PanelFact[];
   fromEur: number | null;
@@ -91,6 +95,8 @@ export async function MultiDayPanel({
   tiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }>;
   /** e.g. the group package's next-departure card. */
   extra?: ReactNode;
+  /** EN slug — for the journey "Part of" line (Phase A §7.5). */
+  enSlug?: string;
 }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const ts = await getTranslations({ locale, namespace: 'tourSystem' });
@@ -99,6 +105,7 @@ export async function MultiDayPanel({
   return (
     <aside id="pdp-panel" className="pdp-panel" aria-label={t('panelLabel')}>
       <Facts facts={facts} className="pdp-facts--details" />
+      <PartOfJourneys enSlug={enSlug} locale={locale} />
       <div className="pdp-price">
       <Facts facts={[{ label: t('from'), value: <FromRow fromEur={fromEur} basis={t('basisPerPerson')} onRequest={t('priceOnRequest')} /> }]} />
       {tiers && tiers.length > 0 && (
@@ -324,5 +331,28 @@ export async function EndBlock({ locale, kind, slug, title, waHref, durationDays
         </div>
       </div>
     </section>
+  );
+}
+
+/**
+ * "Part of: {journey label} →" — shown when this product is an APPROVED pick
+ * on a journey page (journey pages Phase A §7.5).
+ */
+function PartOfJourneys({ enSlug, locale }: { enSlug?: string; locale: Locale }) {
+  if (!enSlug) return null;
+  const keys = journeysForProduct(enSlug);
+  if (!keys.length) return null;
+  const L = journeyLocale(locale);
+  return (
+    <p className="pdp-partof">
+      {JOURNEY_UI[L].partOf}
+      {L === 'ja' ? '' : ' '}
+      {keys.map((k, i) => (
+        <span key={k}>
+          {i > 0 && ' · '}
+          <Link href={JOURNEYS[k].path as never}>{JOURNEYS[k].label[L]} →</Link>
+        </span>
+      ))}
+    </p>
   );
 }

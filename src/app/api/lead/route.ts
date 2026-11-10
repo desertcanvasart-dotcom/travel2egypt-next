@@ -6,6 +6,7 @@ import { hashedIp } from '@/lib/concierge/ipHash';
 import { sendLeadEmail } from '@/lib/email/resend';
 import { conciergeDb } from '@/lib/supabase/server';
 import { BUDGET_LABELS, leadReference, normalizeLead, type LeadInput } from '@/lib/leads/schema';
+import { JOURNEYS } from '@/lib/journeys/registry';
 
 /**
  * POST /api/lead — itinerary request / day-tour date request from the new
@@ -95,6 +96,8 @@ export async function POST(req: NextRequest) {
       utm: lead.utm,
       estimatedTotal: lead.estimatedTotal,
       estimatedCurrency: lead.estimatedCurrency,
+      journey: lead.journey ? `${JOURNEYS[lead.journey].label.en} (${lead.journey})` : null,
+      styleAnswer: lead.styleAnswer,
     });
     emailed = true;
   } catch (err) {
@@ -123,7 +126,13 @@ export async function POST(req: NextRequest) {
       tour_slug: lead.tourSlug,
       tour_title: lead.tourTitle,
       page_path: lead.pagePath,
-      utm: lead.utm,
+      // No dedicated columns yet (avoids a migration): the journey and its
+      // style answer ride in the utm jsonb under non-utm keys.
+      utm: {
+        ...lead.utm,
+        ...(lead.journey ? { journey: lead.journey } : {}),
+        ...(lead.styleAnswer ? { style_answer: lead.styleAnswer } : {}),
+      },
       ip_hash: ipHash,
       emailed,
     });

@@ -1,16 +1,32 @@
-import { getTranslations } from 'next-intl/server';
-
 import type { Locale } from '@/i18n/routing';
 import { Link, getPathname } from '@/i18n/navigation';
+import { Price } from '@/components/Price';
+import { JourneyImage } from '@/components/tour-system/JourneyImage';
+import { LeadButton } from '@/components/leads/LeadProvider';
+import { LeadForm } from '@/components/leads/LeadForm';
+import { TourCard } from '@/components/home-sales/TourCard';
+import { TrackedWhatsApp } from '@/components/nav/TrackedWhatsApp';
+import { NavLinkItem } from '@/components/nav/NavLinkItem';
+import type { NavLeaf } from '@/components/nav/types';
+import type { HomeLocale } from '@/components/home-sales/copy';
+import { approved } from '@/lib/journeys/curation';
+import type { JourneyLive } from '@/lib/journeys/data';
+import { JOURNEYS, JOURNEY_UI, journeyLocale, type JourneyKey } from '@/lib/journeys/registry';
+
+import { JourneyViewTracker } from './JourneyViewTracker';
 
 /**
- * Shared layout for the traveller-type "journeys" pages.
- *
- * Extracted from the first-time build (which keeps its own bespoke component,
- * untouched) so subsequent pages — coming-back and the rest — share one
- * layout. Markup and class names are identical to FirstTimeInEgypt, scoped
- * under `.journey-doc` (see src/styles/journeys.css, imported by each route).
- * All copy is data on the `content` object; nothing here is page-specific.
+ * Shared layout for the six traveller-type "journeys" pages — Phase A
+ * structure (2026-11-10):
+ *   1 Hero (approved image) · eyebrow = journey label · literary H1 · dek
+ *   2 Facts row (Length · Route · Pace · Best season · Suits · From) + Plan my trip + WhatsApp
+ *   3 "Two or three ways we'd do it" — approved tour cards + "See all … →" hub link
+ *   4 The essay (text unchanged), split under approved subheadings, + operator note
+ *   5 Before you go — the guide/journal links + four planning links (no product link)
+ *   6 End block — existing heading, new body + response time, inline form, WhatsApp, AI link (not JA)
+ *   7 Related styles — "Also suits you if…"
+ * Owner-proposed items (hero, tours, subheadings, short facts, ES/JA titles)
+ * render only once approved in src/lib/journeys/curation.ts.
  */
 
 /** An in-essay link to a homepage anchor, e.g. "Desert & quiet" → /#desert-and-quiet. */
@@ -23,13 +39,7 @@ export interface JourneyRouteLink {
   text: string;
   href: string;
 }
-/**
- * An in-essay link to an external site, e.g. "Sillage" → https://sillage-egypte.com/.
- * Rendered as a native <a target="_blank" rel="noopener noreferrer">, matching the
- * sister-brand strip in Footer.tsx. Added for /journeys/travelling-in-style (the only
- * page with an outbound sister-brand mention); the five earlier pages carry no external
- * segments, so their rendering is unchanged.
- */
+/** An in-essay link to an external site, e.g. "Sillage" → https://sillage-egypte.com/. */
 export interface JourneyExternalLink {
   text: string;
   url: string;
@@ -58,28 +68,54 @@ export interface JourneyContent {
 
 /**
  * A journey page's copy across locales. EN is always present (it is the
- * canonical source and the fallback); ES/JA are added as their re-authored
- * modules land. Routes select `content[locale] ?? content.en`, so a locale
- * without its own module renders the EN fallback rather than 404ing.
+ * canonical source and the fallback); routes select `content[locale] ?? content.en`.
  */
 export type LocalizedJourney = { en: JourneyContent } & Partial<Record<Locale, JourneyContent>>;
 
-export async function JourneyPage({
+const FACT_LABELS = {
+  en: ['Length', 'Route', 'Pace', 'Best season', 'Suits'],
+  es: ['Duración', 'Ruta', 'Ritmo', 'Mejor época', 'Ideal para'],
+  ja: ['日数', 'ルート', 'ペース', 'ベストシーズン', 'おすすめの方'],
+} as const;
+const FROM_LABEL = { en: 'From', es: 'Desde', ja: '料金' } as const;
+
+/** Weave links that are products (single-segment slugs) move to the tour cards. */
+const NON_PRODUCT_ROOTS = new Set(['/nile-cruises', '/hotels']);
+const isProductHref = (href: string) => /^\/[^/]+$/.test(href) && !NON_PRODUCT_ROOTS.has(href);
+
+const capitalize = (s: string) => (s ? s[0].toUpperCase() + s.slice(1) : s);
+
+export function JourneyPage({
+  journey,
   content: c,
   locale,
+  live,
+  planningLinks,
+  whatsappHref,
+  whatsappAria,
+  responseTimeFull,
+  aiConcierge,
 }: {
+  journey: JourneyKey;
   content: JourneyContent;
   locale: Locale;
+  /** Live data for every journey (this one + related styles). */
+  live: Record<JourneyKey, JourneyLive>;
+  /** Best time · How many days · What Egypt costs · Passport & visa (nav targets). */
+  planningLinks: NavLeaf[];
+  whatsappHref: string;
+  whatsappAria: string;
+  responseTimeFull: string;
+  /** EN/ES with the chat on: "Still exploring? Ask our AI concierge →". */
+  aiConcierge: boolean;
 }) {
-  // Shared, already-localized concierge copy for the mid-page invite (§2.5).
-  // Reused across all six journey pages so a reader who does not scroll to the
-  // §6 close still meets the concierge partway through the essay.
-  const tc = await getTranslations({ locale, namespace: 'concierge' });
+  const L = journeyLocale(locale);
+  const ui = JOURNEY_UI[L];
+  const def = JOURNEYS[journey];
+  const me = live[journey];
+  const ap = approved(journey, L);
+  const sep = L === 'ja' ? '' : ' ';
 
-  // Locale-aware homepage hash — native <a> so the browser scrolls to the
-  // anchor (App Router Link is unreliable for hashes), mirroring JourneysMenu.
-  // Built via getPathname (not a hand-rolled prefix) so it stays aligned with
-  // next-intl's pathname localization; identical output for the home path.
   const hashHref = (hash: string) => `${getPathname({ href: '/', locale })}#${hash}`;
 
   const renderParagraph = (para: EssayParagraph, key: number) => {
@@ -88,18 +124,12 @@ export async function JourneyPage({
       <p key={key}>
         {para.map((seg, i) => {
           if (typeof seg === 'string') return seg;
-          // External link (e.g. "Sillage") → native <a> opening in a new tab,
-          // matching the sister-brand strip in Footer.tsx. Checked first so it
-          // wins over the route/hash branches below.
           if ('url' in seg)
             return (
               <a key={i} href={seg.url} target="_blank" rel="noopener noreferrer">
                 {seg.text}
               </a>
             );
-          // Route link (e.g. "Coming back") → locale-aware next-intl Link;
-          // hash link (e.g. "Desert & quiet" → #anchor) → native <a> so the
-          // browser scrolls to the anchor.
           if ('href' in seg)
             return (
               <Link key={i} href={seg.href}>
@@ -116,12 +146,29 @@ export async function JourneyPage({
     );
   };
 
+  // § 2 — facts: approved short values, else the current "Shape of the trip"
+  // text (rows 0–4; row 5 "How it begins" is retired — spec §3).
+  const rows = c.spine.rows;
+  const factValues = ap.facts
+    ? [ap.facts.length, ap.facts.route, ap.facts.pace, ap.facts.season, ap.facts.suits]
+    : rows.slice(0, 5).map((r) => capitalize(r.value));
+  const subheadAt = new Map(ap.subheadings.map((s) => [s.beforeParagraph, s.text]));
+  const guideLinks = c.weave.items.filter((i) => !isProductHref(i.href));
+  const formPrefill = { kind: 'trip' as const, journey };
+
   return (
     <article className="journey-doc" lang={locale}>
-      {/* § 1 — Masthead */}
+      <JourneyViewTracker journey={journey} />
+
+      {/* § 1 — Hero */}
+      {me.hero && (
+        <figure className="journey-hero">
+          <JourneyImage image={me.hero} alt={me.hero.alt} widthHint={2400} priority direct />
+        </figure>
+      )}
       <header className="masthead">
         <div className="wrap">
-          <span className="eyebrow">{c.masthead.eyebrow}</span>
+          <span className="eyebrow">{def.label[L]}</span>
           <h1>
             {c.masthead.headlineLead} <em>{c.masthead.headlineAccent}</em>
           </h1>
@@ -129,10 +176,85 @@ export async function JourneyPage({
         </div>
       </header>
 
-      {/* § 2 — The essay + operator note */}
+      {/* § 2 — Facts row */}
+      <section className="journey-facts" aria-label={c.spine.heading}>
+        <div className="wrap wrap--wide">
+          <dl className="facts-row">
+            {factValues.map((v, i) => (
+              <div key={i}>
+                <dt>{FACT_LABELS[L][i]}</dt>
+                <dd>{v}</dd>
+              </div>
+            ))}
+            {me.fromEur ? (
+              <div className="facts-from">
+                <dt>{FROM_LABEL[L]}</dt>
+                <dd>
+                  {L === 'ja' ? (
+                    <>
+                      <Price eur={me.fromEur} />〜
+                    </>
+                  ) : (
+                    <Price eur={me.fromEur} />
+                  )}
+                </dd>
+              </div>
+            ) : null}
+          </dl>
+          <div className="facts-actions">
+            <LeadButton
+              source="journey_facts"
+              prefill={formPrefill}
+              className="j-btn j-btn--primary"
+              openEvent={{ name: 'form_open', params: { form_location: 'journey_facts', location: 'journey_facts', journey } }}
+            >
+              {ui.planMyTrip}
+            </LeadButton>
+            <TrackedWhatsApp href={whatsappHref} aria={whatsappAria} location="journey_facts" className="j-btn j-btn--ghost">
+              {ui.whatsapp}
+            </TrackedWhatsApp>
+          </div>
+        </div>
+      </section>
+
+      {/* § 3 — Approved tours */}
+      {me.tours.length > 0 && (
+        <section className="section journey-tours lvl-sales" aria-labelledby={`h-tours-${journey}`}>
+          <div className="wrap wrap--wide">
+            <h2 id={`h-tours-${journey}`}>{ui.toursH2}</h2>
+            <ul className="pcards">
+              {me.tours.map((t) => (
+                <TourCard
+                  key={t.slug}
+                  slug={t.slug}
+                  p={t}
+                  locale={L as HomeLocale}
+                  listName="journey_tours"
+                  source="journey_facts"
+                  route={t.route}
+                  why={t.why}
+                  journey={journey}
+                />
+              ))}
+            </ul>
+            {me.hubCount > 0 && (
+              <p className="see-all">
+                <Link href={me.hubHref as never}>{ui.seeAll(me.hubCount, def.styleNoun, def.label[L])}</Link>
+              </p>
+            )}
+          </div>
+        </section>
+      )}
+
+      {/* § 4 — The essay (unchanged text) + operator note */}
       <section className="essay">
         <div className="wrap">
-          {c.essay.map((para, i) => renderParagraph(para, i))}
+          {c.essay.map((para, i) => (
+            <div key={i} className="essay-part">
+              {subheadAt.has(i) && <h2 className="essay-h">{subheadAt.get(i)}</h2>}
+              {renderParagraph(para, i)}
+            </div>
+          ))}
           <aside className="operator-note">
             <div className="operator-note__label">{c.operatorNote.label}</div>
             <div className="operator-note__body">
@@ -142,81 +264,85 @@ export async function JourneyPage({
         </div>
       </section>
 
-      {/* § 2.5 — Mid-page concierge invite. The essay above is a long read; this
-          is a light touchpoint so an engaged reader can move to planning without
-          scrolling to the §6 close. Same destination as the close (the page's own
-          concierge href); shared, localized copy. */}
-      <section className="section mid-invite-sec">
-        <div className="wrap">
-          <div className="mid-invite">
-            <span className="mid-invite__eyebrow">{tc('eyebrow')}</span>
-            <p className="mid-invite__prompt">{tc('midInvite')}</p>
-            <Link href={c.close.ctaHref} className="cta">
-              <span>{tc('primaryCta')}</span>
-              <span aria-hidden>→</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* § 3 — The shape of the trip (fact spine) */}
+      {/* § 5 — Before you go */}
       <section className="section">
         <div className="wrap">
-          <h2>{c.spine.heading}</h2>
-          <div className="spine-box">
-            {c.spine.rows.map((row) => (
-              <div className="spine-row" key={row.label}>
-                <span className="spine-label">{row.label}</span>
-                <span className="spine-value">{row.value}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* § 4 — Where this usually leads (curated weave) */}
-      <section className="section">
-        <div className="wrap">
-          <h2>{c.weave.heading}</h2>
-          {c.weave.items.map((item) => (
+          <h2>{ui.beforeYouGo}</h2>
+          {guideLinks.map((item) => (
             <div className="weave-item" key={item.href}>
               <Link href={item.href}>{item.label}</Link>
               <p>{item.sentence}</p>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* § 5 — One journal thread (single featured piece) */}
-      <section className="section">
-        <div className="wrap">
-          <h2>{c.journal.heading}</h2>
-          <div className="journal-card">
+          <div className="weave-item">
             <Link href={c.journal.card.href}>{c.journal.card.title}</Link>
             <p>{c.journal.card.deck}</p>
           </div>
+          <ul className="planning-links">
+            {planningLinks.map((l, i) => (
+              <li key={l.id}>
+                <NavLinkItem item={l} menu="footer" group={`journey_${journey}_before`} position={i} />
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
-      {/* § 6 — The concierge close */}
-      <section className="section close">
+      {/* § 6 — End block: existing heading, new body, inline form, WhatsApp */}
+      <section className="section close" aria-labelledby={`h-close-${journey}`}>
         <div className="wrap">
-          <h2>{c.close.heading}</h2>
-          <p>{c.close.body}</p>
-          <Link href={c.close.ctaHref} className="cta">
-            <span>{c.close.ctaLabel}</span>
-            <span aria-hidden>→</span>
-          </Link>
+          <h2 id={`h-close-${journey}`}>{c.close.heading}</h2>
+          <p>
+            {ui.closeBody}
+            {responseTimeFull ? `${sep}${responseTimeFull}` : ''}
+          </p>
+          {/* Page ends with the inline form: the footer action band hides (Footer.tsx). */}
+          <span data-end-form hidden />
+          <div className="journey-form">
+            <LeadForm source="journey_end" prefill={formPrefill} locale={locale} tone="light" headingId={`h-close-${journey}`} />
+          </div>
+          <p className="close-alt">
+            <TrackedWhatsApp href={whatsappHref} aria={whatsappAria} location="journey_end">
+              WhatsApp +20 155 177 2258 →
+            </TrackedWhatsApp>
+          </p>
+          {aiConcierge && ui.aiConcierge && (
+            <p className="close-alt">
+              <a href={`${getPathname({ href: '/plan-your-tour', locale })}#concierge`}>{ui.aiConcierge}</a>
+            </p>
+          )}
         </div>
       </section>
 
-      {/* § 7 — The quiet cross-reference */}
-      <section className="cross-ref">
+      {/* § 7 — Related styles */}
+      <nav className="section related-styles" aria-labelledby={`h-related-${journey}`}>
         <div className="wrap">
-          {c.crossRef.lead}
-          <a href={hashHref(c.crossRef.hash)}>{c.crossRef.linkText} →</a>
+          <h2 id={`h-related-${journey}`}>{ui.related}</h2>
+          <ul>
+            {def.related.map((k) => (
+              <li key={k}>
+                <Link href={JOURNEYS[k].path as never}>
+                  <span className="rs-label">{JOURNEYS[k].label[L]}</span>
+                  {live[k].fromEur ? (
+                    <span className="rs-from">
+                      {L === 'ja' ? (
+                        <>
+                          <Price eur={live[k].fromEur} />〜
+                        </>
+                      ) : (
+                        <>
+                          {FROM_LABEL[L].toLowerCase()} <Price eur={live[k].fromEur} />
+                        </>
+                      )}
+                    </span>
+                  ) : null}
+                  <span aria-hidden="true"> →</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
-      </section>
+      </nav>
     </article>
   );
 }

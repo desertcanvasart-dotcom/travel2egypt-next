@@ -6,6 +6,7 @@ import type { Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import { siteSettingsQuery } from '@/sanity/lib/queries';
 import { SalesHomeView } from '@/components/home-sales/SalesHomeView';
+import { getJourneyCardPrices, getJourneysLive } from '@/lib/journeys/data';
 import { FEATURED_TOURS, allHomeSlugs } from '@/components/home-sales/config';
 import { salesHomeQuery, type SalesHomeData } from '@/components/home-sales/query';
 import { HOME_COPY, homeLocale, type HomeLocale } from '@/components/home-sales/copy';
@@ -115,7 +116,7 @@ export default async function HomePage({ params }: Props) {
   return (
     <>
       <JsonLd data={[websiteSchema, itemList]} />
-      <SalesHomeView data={data} locale={hl} />
+      <SalesHomeView data={data} locale={hl} journeys={{ live: await getJourneysLive(hl), prices: await getJourneyCardPrices(hl) }} />
     </>
   );
 }

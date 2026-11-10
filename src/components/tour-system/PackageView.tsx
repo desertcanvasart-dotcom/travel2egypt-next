@@ -337,6 +337,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               durationDays={durationDays || null}
               tiers={tiers}
               extra={nextDeparture}
+              enSlug={(tour as { allSlugs?: Array<{ _key: string; current?: string }> }).allSlugs?.find((s) => s._key === 'en')?.current ?? tour.slug}
             />
           </div>
 

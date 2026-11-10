@@ -15,13 +15,14 @@ import { TRIPADVISOR_RATING, TRIPADVISOR_REVIEW_COUNT } from '@/lib/company';
 import { HOME_COPY, homeLocale } from '@/components/home-sales/copy';
 import { TrustStrip } from '@/components/TrustStrip';
 import { PlanOptions } from '@/components/plan/PlanOptions';
+import { JOURNEY_KEYS, JOURNEYS } from '@/lib/journeys/registry';
 import '@/styles/concierge.css';
 import '@/styles/lead-form.css';
 import '@/styles/plan-page.css';
 
 interface Props {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ tour?: string | string[]; resume_error?: string | string[]; q?: string | string[] }>;
+  searchParams: Promise<{ tour?: string | string[]; resume_error?: string | string[]; q?: string | string[]; journey?: string | string[] }>;
 }
 
 /**
@@ -69,7 +70,10 @@ export default async function Page({ params, searchParams }: Props) {
   const lc = locale as Locale;
   const hl = homeLocale(locale);
 
-  const { tour, resume_error, q } = await searchParams;
+  const { tour, resume_error, q, journey: journeyParam } = await searchParams;
+  // ?journey= accepts the journey key ("family") or its EN page slug ("travelling-as-a-family").
+  const jp = typeof journeyParam === 'string' ? journeyParam : null;
+  const journey = jp ? (JOURNEY_KEYS.find((k) => k === jp || JOURNEYS[k].path === `/journeys/${jp}`) ?? null) : null;
   // A question from the floating concierge panel; plain text, length-capped.
   const question = typeof q === 'string' ? q.replace(/\s+/g, ' ').trim().slice(0, 500) || null : null;
   const rawSlug = typeof tour === 'string' ? tour : null;
@@ -123,6 +127,7 @@ export default async function Page({ params, searchParams }: Props) {
       <PlanOptions
         locale={hl}
         tour={tourForForm}
+        journey={journey}
         copy={{
           optionsLabel: t('optionsLabel'),
           card1Title: t('card1Title'),
