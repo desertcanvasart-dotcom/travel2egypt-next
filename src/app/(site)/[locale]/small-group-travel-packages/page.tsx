@@ -47,7 +47,7 @@ const smallGroupToursQuery = groq`{
     durationDays,
     originRegion,
     maxGroup,
-    departures[]{ startDate, status },
+    departures[]{ startDate, status, placesLeft },
     ${ONE_DAY_CHECK_FIELDS},
     heroImage{ ..., "alt": coalesce(alt[_key==$locale][0].value, alt[_key=="en"][0].value, "") }
   },

@@ -209,7 +209,7 @@ export async function SmallGroupHubView({
               <ul className="pcards pcards--two">
                 {tours.map((p) => {
                   const route = routeFromTitle(p.title).join(' · ');
-                  const dates = nextDepartureLabels(p.departures, L, now);
+                  const dates = nextDepartureLabels(p.departures, L, now, 3, p.maxGroup);
                   return (
                     <TourCard
                       key={p._id}

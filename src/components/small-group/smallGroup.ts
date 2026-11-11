@@ -6,7 +6,7 @@
  * `departures[]` (Sanity), the route from the product's own localized title,
  * the region from `originRegion`.
  */
-import type { RawDeparture } from '@/components/tour-system/departures';
+import { isOffered, type RawDeparture } from '@/components/tour-system/departures';
 
 export type SgLocale = 'en' | 'es' | 'ja';
 
@@ -23,18 +23,18 @@ export function regionLabel(region: string | null | undefined, locale: SgLocale)
 }
 
 /**
- * The next `max` FUTURE departure dates (start date strictly after today,
- * UTC; sold-out dates skipped), formatted per language:
- * en "14 Jan", es "14 ene", ja "1月14日". Past dates never appear; an
- * empty list means "ask us".
+ * The next `max` departure dates still offered (see isOffered: after today,
+ * and more than 7 days away unless marked booked; sold-out dates skipped),
+ * formatted per language: en "14 Jan", es "14 ene", ja "1月14日". Past
+ * dates never appear; an empty list means "ask us".
  */
 export function nextDepartureLabels(
   departures: RawDeparture[] | null | undefined,
   locale: SgLocale,
   now: Date,
   max = 3,
+  maxGroup?: number | null,
 ): string[] {
-  const today = now.toISOString().slice(0, 10);
   const fmt = new Intl.DateTimeFormat(locale === 'en' ? 'en-GB' : locale, {
     day: 'numeric',
     month: locale === 'ja' ? 'long' : 'short',
@@ -42,7 +42,7 @@ export function nextDepartureLabels(
   });
   return (departures ?? [])
     .filter((d): d is RawDeparture & { startDate: string } => typeof d?.startDate === 'string' && /^\d{4}-\d{2}-\d{2}/.test(d.startDate))
-    .filter((d) => d.status !== 'soldout' && d.startDate.slice(0, 10) > today)
+    .filter((d) => d.status !== 'soldout' && isOffered(d, { now, maxGroup }))
     .map((d) => d.startDate.slice(0, 10))
     .sort()
     .filter((iso, i, all) => all.indexOf(iso) === i)
