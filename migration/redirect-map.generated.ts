@@ -29916,5 +29916,230 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/egypt-group-tours-from-australia",
     "destination": "/ja/12-nichikan-ejiputo-gurupu-tsua-kairo-dahabiya-kokai",
     "permanent": true
+  },
+  {
+    "source": "/ja/アブ・シンベル大神殿",
+    "destination": "/ja/guide/abu-shinberu/abushimberu-dai-shinden",
+    "permanent": true
+  },
+  {
+    "source": "/es/hyatt-regency-sharm-el-sheikh",
+    "destination": "/es/hotels/park-regency-sharm-el-sheikh-resort",
+    "permanent": true
+  },
+  {
+    "source": "/es/amor-en-el-nilo-viaje-de-10-dias-al-egipto-romantico",
+    "destination": "/es/amor-sobre-el-nilo-viaje-romantico-por-egipto-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/es/descubrimiento-del-nilo-crucero-de-4-dias-de-asuan-a-luxor",
+    "destination": "/es/crucero-de-4-dias-por-el-nilo-de-asuan-a-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/al-arish-travel-guide/movement-guide",
+    "destination": "/guide/al-arish/getting-around-al-arish",
+    "permanent": true
+  },
+  {
+    "source": "/tours-in-akhmim",
+    "destination": "/guide/akhmim/tours-in-akhmim",
+    "permanent": true
+  },
+  {
+    "source": "/qena-travel-guide/do-not-miss",
+    "destination": "/guide/qena/only-in-qena",
+    "permanent": true
+  },
+  {
+    "source": "/baris-travel-guide/accommodations-havens",
+    "destination": "/guide/baris/where-to-stay-in-baris",
+    "permanent": true
+  },
+  {
+    "source": "/cairo-travel-guide/museo-mevlevi",
+    "destination": "/guide/cairo/museo-mevlevi-mawlawiyya-museum",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-siwa/montana-dakrour",
+    "destination": "/es/guide/siwa/montana-dakrour",
+    "permanent": true
+  },
+  {
+    "source": "/es/la-guia-definitiva-del-crucero-por-el-nilo-en-egipto",
+    "destination": "/es/blog/crucero-por-el-nilo-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/es/explorando-el-cairo-copto",
+    "destination": "/es/guide/el-cairo/el-cairo-copto",
+    "permanent": true
+  },
+  {
+    "source": "/marsa-matruh-travel-guide/marsa-matruh-events",
+    "destination": "/guide/marsa-matruh/marsa-matruh-events",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-asuan/templo-de-isis-de-asuan",
+    "destination": "/es/guide/asuan/el-templo-de-isis-en-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-de-el-cairo/museo-textil-egipcio",
+    "destination": "/es/guide/el-cairo/el-museo-textil-egipcio",
+    "permanent": true
+  },
+  {
+    "source": "/ja/ルクソール旅行ガイド/カルナック神殿",
+    "destination": "/ja/guide/rukusoru/karunakku-shinden-fukugo-tai",
+    "permanent": true
+  },
+  {
+    "source": "/ja/聖カトリナ山",
+    "destination": "/ja/guide/sei-katarina/sei-katarina-san",
+    "permanent": true
+  },
+  {
+    "source": "/dakhla-oasis-tours",
+    "destination": "/guide/dakhla-oasis/dakhla-oasis-tours",
+    "permanent": true
+  },
+  {
+    "source": "/es/sofitel-pavillon-winter-luxor",
+    "destination": "/es/hotels/mandarin-oriental-winter-palace-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/sofitel-pavillon-winter-luxor",
+    "destination": "/hotels/mandarin-oriental-winter-palace-luxor",
+    "permanent": true
+  },
+  {
+    "source": "/ja/冒険旅行ガイド：究極のスリリングな冒険",
+    "destination": "/ja/blog/ejiputo-no-adobencha-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/es/el-viaje-de-meroe-crucero-de-lujo-dahabiya-de-7-dias-por-egipto-desde-turquia",
+    "destination": "/es/la-meroe-siete-dias-en-el-nilo-de-luxor-a-asuan",
+    "permanent": true
+  },
+  {
+    "source": "/giza/the-great-sphinx",
+    "destination": "/guide/giza/the-great-sphinx",
+    "permanent": true
+  },
+  {
+    "source": "/14-day-egypt-tour-package-from-spain-for-families",
+    "destination": "/14-day-egypt-luxury-family-holiday",
+    "permanent": true
+  },
+  {
+    "source": "/asyut-travel-guide/what-to-eat-in-asyut",
+    "destination": "/guide/asyut/what-to-eat-in-asyut",
+    "permanent": true
+  },
+  {
+    "source": "/tours/hurghada-desert/4wd-desert-safari-dinner-and-show",
+    "destination": "/4wd-desert-safari-dinner-and-show-from-hurghada",
+    "permanent": true
+  },
+  {
+    "source": "/ja/the-copts-of-egypt-guardians-of-an-ancient-faith",
+    "destination": "/ja/blog/ejiputo-no-koputo-kyoto",
+    "permanent": true
+  },
+  {
+    "source": "/es/guia-de-viaje-del-oasis-de-dajla/alimentacion",
+    "destination": "/es/guide/dakhla/comida-en-el-oasis-de-dakhla",
+    "permanent": true
+  },
+  {
+    "source": "/vegetarian-travelers",
+    "destination": "/travel-tips/vegetarian-travelers-to-egypt",
+    "permanent": true
+  },
+  {
+    "source": "/wadi-al-natron-travel-guide/wadi-el-natrun-history",
+    "destination": "/guide/wadi-el-natrun/wadi-el-natrun-history",
+    "permanent": true
+  },
+  {
+    "source": "/m-s-nubian-sea-lake-nasser",
+    "destination": "/nile-cruises/m-s-nubian-sea",
+    "permanent": true
+  },
+  {
+    "source": "/the-mosque-of-qaitbay-in-al-fayoum",
+    "destination": "/guide/al-fayoum/the-mosque-of-qaitbey-in-al-fayoum",
+    "permanent": true
+  },
+  {
+    "source": "/egyptin-perhelomat",
+    "destination": "/egypt-family-holidays",
+    "permanent": true
+  },
+  {
+    "source": "/nile-cruise-hurghada-14-nights",
+    "destination": "/14-night-nile-cruise-and-hurghada-stay",
+    "permanent": true
+  },
+  {
+    "source": "/safaga-travel-guide/best-time-visit",
+    "destination": "/guide/safaga/weather-in-safaga",
+    "permanent": true
+  },
+  {
+    "source": "/al-fayoum-travel-guide/kom-ushim-karanis",
+    "destination": "/guide/al-fayoum/kom-ushim-karanis",
+    "permanent": true
+  },
+  {
+    "source": "/al-fayoum-travel-guide/the-pyramid-of-hawara",
+    "destination": "/guide/al-fayoum/the-pyramid-of-hawara",
+    "permanent": true
+  },
+  {
+    "source": "/port-said-travel-guide/move-methods",
+    "destination": "/guide/port-said/port-said-getting-around-guide",
+    "permanent": true
+  },
+  {
+    "source": "/port-said-travel-guide/planning-your-trip-to-port-said",
+    "destination": "/guide/port-said",
+    "permanent": true
+  },
+  {
+    "source": "/farafra-oasis-travel-guide/el-qaf",
+    "destination": "/guide/farafra-oasis/el-qaf",
+    "permanent": true
+  },
+  {
+    "source": "/the-splendor-of-egypt-11-days",
+    "destination": "/11-day-the-splendor-of-egypt-tour",
+    "permanent": true
+  },
+  {
+    "source": "/dahab-travel-guide/culinary-journey",
+    "destination": "/guide/dahab/dahab-restaurants",
+    "permanent": true
+  },
+  {
+    "source": "/home/dahab-historical-guide-6",
+    "destination": "/guide/dahab/dahab-historical-guide",
+    "permanent": true
+  },
+  {
+    "source": "/kom-ombo-travel-guide/sightseeing-scripts",
+    "destination": "/guide/kom-ombo",
+    "permanent": true
+  },
+  {
+    "source": "/bahariya-oasis-travel-guide/accommodations-retreats",
+    "destination": "/guide/bahariya-oasis/where-to-stay-in-bahariya-oasis",
+    "permanent": true
   }
 ];
