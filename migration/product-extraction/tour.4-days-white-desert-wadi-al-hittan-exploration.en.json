@@ -1,0 +1,61 @@
+{
+  "slug": "4-days-white-desert-wadi-al-hittan-exploration",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Fully private",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert"
+      },
+      {
+        "text": "your own Egyptologist",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert"
+      },
+      {
+        "text": "4×4 desert drivers",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert"
+      },
+      {
+        "text": "one night at a Fayoum campsite",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert"
+      },
+      {
+        "text": "one in a Bahariya hotel",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert"
+      },
+      {
+        "text": "one camped in the White Desert",
+        "source": "Character · Fully private · your own Egyptologist + 4×4 desert drivers · one night at a Fayoum campsite, one in a Bahariya hotel, one camped in the White Desert"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Fayoum: Karanis, Wadi El Ryan, Valley of Whales",
+        "overnight": "Fayoum campsite",
+        "source": "The night is spent at a Fayoum campsite, with the lights of the city absent and the sky doing what desert skies do."
+      },
+      {
+        "day": 2,
+        "title": "West to Bahariya: the oasis and its springs",
+        "overnight": "Bahariya hotel",
+        "source": "The night is spent in a Bahariya hotel."
+      },
+      {
+        "day": 3,
+        "title": "Into the Black and White Deserts",
+        "overnight": "White Desert camp",
+        "source": "Camp is made among them, dinner is cooked over open fire, and the desert does the rest."
+      },
+      {
+        "day": 4,
+        "title": "Breakfast at the campsite, back to Cairo",
+        "overnight": null,
+        "source": "The drive returns through Bahariya and back to Cairo through the afternoon, which gives the landscape time to settle in memory before the city reasserts itself."
+      }
+    ],
+    "dropped": 0
+  }
+}

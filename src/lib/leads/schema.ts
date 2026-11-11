@@ -1,3 +1,4 @@
+import { JOURNEY_KEYS, type JourneyKey } from '@/lib/journeys/registry';
 /**
  * Itinerary-request lead (homepage rebuild, 2026-11-08) — the shape the short
  * form posts to /api/lead, and its validation. Pure: unit-tested, and shared
@@ -18,8 +19,33 @@ export const LEAD_SOURCES = [
   'quick_finder',
   'nile_cruises',
   'plan_page',
+  'product_panel',
+  'product_mid',
+  'product_end',
+  'packages_hub',
+  'day_tour_hub',
+  // Nav rebuild (2026-11-10)
+  'nav_menu',
+  'mobile_menu',
+  'footer_band',
+  'footer',
+  // Journey pages Phase A (2026-11-10)
+  'journey_facts',
+  'journey_end',
+  'journeys_index',
+  // Small-group hub (2026-11-10)
+  'small_group_hero',
+  'small_group_card',
+  'small_group_end',
+  // Product page right column (2026-11-11)
+  'product_sticky_card',
+  'product_options',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];
+
+/** What the enquiry is about, beyond kind (2026-11-10): leads.enquiry_type. */
+export const ENQUIRY_TYPES = ['small_group'] as const;
+export type EnquiryType = (typeof ENQUIRY_TYPES)[number];
 
 export const DAY_BANDS = ['3-5', '6-9', '10-14', '15+'] as const;
 export type DayBand = (typeof DAY_BANDS)[number];
@@ -69,6 +95,20 @@ export interface LeadInput {
   estimatedTotal: number | null;
   /** ISO code of the estimate (the viewer's display currency); USD when absent. */
   estimatedCurrency: string | null;
+  /** Journey the form opened from, and its style-question answer (Phase A). */
+  journey: JourneyKey | null;
+  /** 2026-11-10 attribution: the form/button (= source), the hub or interest it
+   *  opened with, the visit's first page and the external referrer domain. */
+  formLocation: string;
+  interest: string | null;
+  landingPage: string | null;
+  referrerDomain: string | null;
+  /** Raw answer: a string (radio, text, days band, ages) or the multi-select array. */
+  styleAnswer: string | string[] | null;
+  /** 'small_group' for the small-group hub's forms; null otherwise. */
+  enquiryType: EnquiryType | null;
+  /** Small group: the "Which departure?" answer as shown ("Not sure" allowed). */
+  departure: string | null;
 }
 
 export type LeadValidation =
@@ -111,6 +151,15 @@ function phone(v: unknown): string | null {
   if (!/^[+\d\s()-]+$/.test(s)) return null;
   const digits = s.replace(/\D/g, '');
   return digits.length >= 6 && digits.length <= 20 ? s : null;
+}
+
+/** A string (≤300) or an array of up to 10 short strings; anything else → null. */
+function styleAnswerOf(v: unknown): string | string[] | null {
+  if (Array.isArray(v)) {
+    const xs = v.map((x) => str(x, 80)).filter((x): x is string => Boolean(x)).slice(0, 10);
+    return xs.length ? xs : null;
+  }
+  return str(v, 300);
 }
 
 export function normalizeLead(body: unknown): LeadValidation {
@@ -180,8 +229,28 @@ export function normalizeLead(body: unknown): LeadValidation {
         typeof b.estimatedCurrency === 'string' && /^(EUR|USD|GBP|AUD|CAD|JPY)$/.test(b.estimatedCurrency)
           ? b.estimatedCurrency
           : null,
+      journey: kind === 'trip' ? oneOf(b.journey, JOURNEY_KEYS) : null,
+      formLocation: source,
+      interest: str(b.interest, 100),
+      landingPage: (() => {
+        const lp = str(b.landingPage, 300);
+        return lp && lp.startsWith('/') ? lp : null;
+      })(),
+      referrerDomain: (() => {
+        const d = str(b.referrerDomain, 100)?.toLowerCase() ?? null;
+        return d && /^[a-z0-9.-]+\.[a-z]{2,}$/.test(d) ? d : null;
+      })(),
+      styleAnswer: kind === 'trip' ? styleAnswerOf(b.styleAnswer) : null,
+      enquiryType: kind === 'trip' ? oneOf(b.enquiryType, ENQUIRY_TYPES) : null,
+      departure: kind === 'trip' && b.enquiryType === 'small_group' ? str(b.departure, 200) : null,
     },
   };
+}
+
+/** Test leads (2026-11-10): stored with is_test, never emailed or counted. */
+export const TEST_EMAIL_DOMAIN = '@test.travel2egypt.org';
+export function isTestEmail(email: string | null | undefined): boolean {
+  return typeof email === 'string' && email.toLowerCase().endsWith(TEST_EMAIL_DOMAIN);
 }
 
 /** Short human reference for the thank-you state and the team email. */

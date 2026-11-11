@@ -1,5 +1,6 @@
 'use client';
 
+import type { JourneyKey } from '@/lib/journeys/registry';
 import dynamic from 'next/dynamic';
 import { useCallback, useEffect, useRef, useState } from 'react';
 
@@ -42,11 +43,14 @@ export function PlanOptions({
   copy,
   tour,
   chat,
+  journey,
 }: {
   locale: 'en' | 'es' | 'ja';
   copy: PlanCopy;
   /** Resolved ?tour= product for the form (EN slug, localized title). */
   tour: { slug: string; title: string; durationDays: number | null } | null;
+  /** ?journey= (key or EN page slug): "Interested in: {label}" + its style question. */
+  journey?: JourneyKey | null;
   /** Concierge props, or null where it isn't offered (JA, or chat switched off). */
   chat: {
     locale: 'en' | 'es';
@@ -164,12 +168,21 @@ export function PlanOptions({
           </div>
         )}
 
+        <span data-end-form hidden />
         <div id="plan-form" hidden={view === 'concierge'} className="plan-form">
           <LeadForm
             source="plan_page"
             locale={locale}
             tone="light"
-            prefill={tour ? { kind: 'trip', tourSlug: tour.slug, tourTitle: tour.title, durationDays: tour.durationDays } : undefined}
+            prefill={
+              tour || journey
+                ? {
+                    kind: 'trip',
+                    ...(tour ? { tourSlug: tour.slug, tourTitle: tour.title, durationDays: tour.durationDays } : {}),
+                    ...(journey ? { journey } : {}),
+                  }
+                : undefined
+            }
             renderDone={() => (
               <div className="plan-done" role="status">
                 <p className="plan-done__title">{copy.thanksHeading}</p>

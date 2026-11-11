@@ -14,7 +14,7 @@
 import { urlFor } from '@/sanity/lib/image';
 import type { Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
-import { LEGAL_NAME } from './company';
+import { FACEBOOK_URL, INSTAGRAM_URL, LEGAL_NAME, TRIPADVISOR_URL } from './company';
 import { type Accreditations } from './accreditations';
 import { siteUrlBase } from './path-from-doc';
 
@@ -43,7 +43,7 @@ function imageUrlOrUndefined(
   return urlFor(img).width(width).height(height).quality(85).url();
 }
 
-function absoluteUrl(path: string, locale: Locale): string {
+export function absoluteUrl(path: string, locale: Locale): string {
   // getPathname applies the locale prefix (as-needed) AND localized pathnames
   // (the journey leaves in routing.ts), aligning JSON-LD URLs with the
   // canonical tag and sitemap, which already build through getPathname.
@@ -126,18 +126,21 @@ function licenceIdentity(a: Accreditations) {
 export function buildOrganizationSchema(input: OrganizationInput) {
   // Logo and image are kept distinct: logo for Knowledge Panel
   // identity, image for the share-card / generic visual fallback.
-  const logoUrl = imageUrlOrUndefined(input.logo, 600, 600);
-  const imageUrl = imageUrlOrUndefined(input.defaultOgImage, 1200, 630);
+  // Fallbacks (Ahrefs audit, 2026-11-09): siteSettings has no logo or
+  // default share image, so use the site's own /logo.png (202×123, above
+  // Google's 112px minimum) and /og-default.png (1200×630).
+  const logoUrl = imageUrlOrUndefined(input.logo, 600, 600) ?? `${SITE_URL}/logo.png`;
+  const imageUrl = imageUrlOrUndefined(input.defaultOgImage, 1200, 630) ?? `${SITE_URL}/og-default.png`;
 
   // sameAs — every public profile URL the operator wants Google and
   // AI engines to associate with this Organization.
   const sameAs = [
-    input.socialLinks?.facebook,
-    input.socialLinks?.instagram,
+    input.socialLinks?.facebook ?? FACEBOOK_URL,
+    input.socialLinks?.instagram ?? INSTAGRAM_URL,
     input.socialLinks?.youtube,
     input.socialLinks?.linkedin,
     input.socialLinks?.twitter,
-    input.socialLinks?.tripadvisor,
+    input.socialLinks?.tripadvisor ?? TRIPADVISOR_URL,
   ].filter((u): u is string => Boolean(u));
 
   // contactPoint replaces the previous flat email/telephone — the
@@ -182,7 +185,8 @@ export function buildOrganizationSchema(input: OrganizationInput) {
     slogan: input.tagline,
     url: SITE_URL,
     legalName: LEGAL_NAME,
-    foundingDate: '1993',
+    // Licensed operator since 2003 (owner, 2026-11-09); guiding since 1993 is the founder's story.
+    foundingDate: '2003',
     ...(logoUrl
       ? {
           logo: {
@@ -192,6 +196,10 @@ export function buildOrganizationSchema(input: OrganizationInput) {
         }
       : {}),
     ...(imageUrl ? { image: imageUrl } : {}),
+    // Flat telephone + email as well as contactPoint: TravelAgency is a
+    // LocalBusiness, whose recommended properties include both.
+    ...(phoneOrWhatsapp ? { telephone: phoneOrWhatsapp } : {}),
+    ...(input.contact?.email ? { email: input.contact.email } : {}),
     address,
     ...(contactPoint ? { contactPoint } : {}),
     ...(sameAs.length > 0 ? { sameAs } : {}),
@@ -359,13 +367,9 @@ export function buildArticleSchema(
     dateModified: input.updatedAt ?? input.publishedAt,
     ...(input.author?.name
       ? {
-          author: {
-            '@type': 'Person',
-            name: input.author.name,
-            ...(input.author.slug?.current
-              ? { url: `${SITE_URL}/about/${input.author.slug.current}` }
-              : {}),
-          },
+          // No `url`: the site has no per-author pages (/about/<slug> 404s),
+          // and pointing structured data at a 404 is worse than omitting it.
+          author: { '@type': 'Person', name: input.author.name },
         }
       : {}),
     ...(input.category?.name
@@ -374,6 +378,56 @@ export function buildArticleSchema(
     publisher: { '@id': `${SITE_URL}#organization` },
     inLanguage: locale,
   };
+}
+
+/**
+ * Article markup for editorial pages that are not journal posts (2026-11-09,
+ * Ahrefs "Article page missing"): resources, journeys, travel tips index,
+ * responsible travel, the hotel-grade concept, and the guide / wiki pages
+ * alongside their place markup. `about` points at the page's place node
+ * (by @id) when the page is about a place; the place markup stays the main
+ * entity type. No author is invented: the publisher is the organization.
+ */
+export interface PageArticleInput {
+  title: string;
+  description?: string | null;
+  /** Locale-neutral path, e.g. "/resources/egyptian-cuisine". */
+  path: string;
+  heroImage?: ImageField | null;
+  /** Absolute image URL, when the page has no Sanity image field. */
+  imageUrl?: string;
+  datePublished?: string | null;
+  dateModified?: string | null;
+  section?: string | null;
+  /** @id of the place this article is about (see placeId()). */
+  aboutId?: string;
+}
+
+export function buildPageArticleSchema(input: PageArticleInput, locale: Locale) {
+  const url = absoluteUrl(input.path, locale);
+  const image = imageUrlOrUndefined(input.heroImage, 1600, 900) ?? input.imageUrl;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    '@id': `${url}#article`,
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    // Headline without the brand suffix some meta titles carry ("… · Travel2Egypt").
+    headline: input.title.replace(/\s+[·|—–-]\s+Travel2Egypt.*$/, '').trim(),
+    ...(input.description ? { description: input.description } : {}),
+    ...(image ? { image } : {}),
+    ...(input.datePublished ? { datePublished: input.datePublished } : {}),
+    ...(input.dateModified || input.datePublished ? { dateModified: input.dateModified ?? input.datePublished } : {}),
+    ...(input.section ? { articleSection: input.section } : {}),
+    ...(input.aboutId ? { about: { '@id': input.aboutId } } : {}),
+    author: { '@id': `${SITE_URL}#organization` },
+    publisher: { '@id': `${SITE_URL}#organization` },
+    inLanguage: locale,
+  };
+}
+
+/** Stable @id for a page's place node (TouristAttraction, landmark, destination). */
+export function placeId(path: string, locale: Locale): string {
+  return `${absoluteUrl(path, locale)}#place`;
 }
 
 // ─────────────────────────────────────────────────────────
@@ -395,6 +449,17 @@ export interface TouristTripInput {
   durationLabel?: string;
   /** Per-person base price in EUR. Honest absence: when null, no `offers` is emitted. */
   basePrice?: number;
+  /**
+   * Product template (2026-11-09): the offer exactly as the page displays it
+   * (price in the page's currency). When given it is THE offer; when absent
+   * there is no price and no `offers` is emitted. Built by lib/productOffer.
+   */
+  offer?: {
+    price: number;
+    priceCurrency: string;
+    url: string;
+    validFrom?: string;
+  } | null;
   /** Percent applied to basePrice on peak-flagged departures (group packages). */
   peakUpliftPct?: number;
   /** Max scheduled-departure group size (group packages). */
@@ -447,7 +512,21 @@ export function buildTouristTripSchema(
         ? 'GroupDayTour'
         : 'PrivateDayTour';
 
-  const offers = buildTouristTripOffers(input);
+  // Product template pages pass `offer` (displayed price + currency); other
+  // callers keep the older group-only basePrice logic.
+  const offers =
+    'offer' in input
+      ? input.offer
+        ? {
+            '@type': 'Offer',
+            price: input.offer.price,
+            priceCurrency: input.offer.priceCurrency,
+            url: input.offer.url,
+            availability: 'https://schema.org/InStock',
+            ...(input.offer.validFrom ? { validFrom: input.offer.validFrom } : {}),
+          }
+        : null
+      : buildTouristTripOffers(input);
 
   return {
     '@context': 'https://schema.org',
@@ -480,19 +559,27 @@ export function buildTouristTripSchema(
           },
         }
       : {}),
-    ...(input.cities && input.cities.length > 0
+    // Route as an ItemList of Places, only when the route has data.
+    ...(input.cities && input.cities.filter((c) => c.name).length > 0
       ? {
-          itinerary: input.cities
-            .filter((c) => c.name)
-            .map((c) => ({
-              '@type': 'Place',
-              name: c.name,
-              address: {
-                '@type': 'PostalAddress',
-                addressCountry: 'EG',
-                addressLocality: c.name,
-              },
-            })),
+          itinerary: {
+            '@type': 'ItemList',
+            itemListElement: input.cities
+              .filter((c) => c.name)
+              .map((c, i) => ({
+                '@type': 'ListItem',
+                position: i + 1,
+                item: {
+                  '@type': 'Place',
+                  name: c.name,
+                  address: {
+                    '@type': 'PostalAddress',
+                    addressCountry: 'EG',
+                    addressLocality: c.name,
+                  },
+                },
+              })),
+          },
         }
       : {}),
     ...(offers ? { offers } : {}),
@@ -733,11 +820,13 @@ export function buildPlaceSchema(input: PlaceInput, locale: Locale) {
   const url = absoluteUrl(path, locale);
   // For monuments the LandmarkOrHistoricalBuilding subtype is more
   // specific; cities use Place.
+  // Cities are travel destinations (TouristDestination is a Place subtype).
   const schemaType =
-    input.type === 'wikiMonument' ? 'LandmarksOrHistoricalBuildings' : 'Place';
+    input.type === 'wikiMonument' ? 'LandmarksOrHistoricalBuildings' : 'TouristDestination';
   return {
     '@context': 'https://schema.org',
     '@type': schemaType,
+    '@id': `${url}#place`,
     name: input.name,
     description: input.summary,
     url,
@@ -806,6 +895,7 @@ export function buildGuideArticleSchema(
     return {
       '@context': 'https://schema.org',
       '@type': 'TouristAttraction',
+      '@id': `${url}#place`,
       ...(input.monumentType ? { additionalType: input.monumentType } : {}),
       name: input.title,
       description: input.summary,
@@ -954,10 +1044,11 @@ export function buildItemListSchema(
   };
 }
 
-export function buildFAQSchema(items: FAQItem[]) {
+export function buildFAQSchema(items: FAQItem[], inLanguage?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
+    ...(inLanguage ? { inLanguage } : {}),
     mainEntity: items.map((item) => ({
       '@type': 'Question',
       name: item.question,

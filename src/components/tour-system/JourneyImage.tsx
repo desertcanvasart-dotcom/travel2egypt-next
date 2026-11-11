@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { preload } from 'react-dom';
 
 import { urlFor } from '@/sanity/lib/image';
 import { objectPositionFromHotspot } from '@/lib/hotspot';
@@ -46,6 +47,13 @@ interface JourneyImageProps {
    */
   ratio?: number;
   priority?: boolean;
+  /**
+   * LCP heroes (2026-11-09): serve straight from Sanity's image CDN with a
+   * sized srcset, fetchpriority="high" and a matching preload, instead of
+   * the Next image optimizer (its first-request resize sat on the LCP path).
+   * Full-bleed only (no `ratio`).
+   */
+  direct?: boolean;
 }
 
 export function JourneyImage({
@@ -56,6 +64,7 @@ export function JourneyImage({
   widthHint = 1400,
   ratio,
   priority = false,
+  direct = false,
 }: JourneyImageProps) {
   const cls = `t2e-visual ${className}`.trim();
   const hasAsset = Boolean(image?.asset);
@@ -77,6 +86,52 @@ export function JourneyImage({
   const objectPosition = !ratio
     ? objectPositionFromHotspot(image?.hotspot)
     : undefined;
+
+  if (direct && !ratio) {
+    // Hero crop (2026-11-09 v2). Two art-directed crops — desktop ~2.4:1, phone
+    // ~1.2:1 — cut by Sanity, then CSS cover trims the last few pixels:
+    //   - a hand-set focal point (hotspot moved off centre) wins: the builder
+    //     turns it into the crop rectangle;
+    //   - otherwise Sanity's `crop=entropy` keeps the most detailed region
+    //     instead of the dead centre (only 3 of 205 heroes have a focal point).
+    const hs = image?.hotspot;
+    const custom = Boolean(hs && (hs.x !== 0.5 || hs.y !== 0.5));
+    const at = (w: number, r: number) => {
+      const b = urlFor((custom ? image : { asset: image?.asset }) as never)
+        .width(w)
+        .height(Math.round(w / r))
+        .fit('crop')
+        .quality(72)
+        .auto('format');
+      return (custom ? b : b.crop('entropy')).url();
+    };
+    const DESK = 2.4;
+    const PHONE = 1.2;
+    const deskSet = [1168, 1600, 2336].map((w) => `${at(w, DESK)} ${w}w`).join(', ');
+    const phoneSet = [480, 750, 1080].map((w) => `${at(w, PHONE)} ${w}w`).join(', ');
+    if (priority) {
+      preload(at(1168, DESK), { as: 'image', imageSrcSet: deskSet, imageSizes: '1168px', fetchPriority: 'high', media: '(min-width: 1024px)' });
+      preload(at(750, PHONE), { as: 'image', imageSrcSet: phoneSet, imageSizes: '100vw', fetchPriority: 'high', media: '(max-width: 1023px)' });
+    }
+    return (
+      <div className={cls}>
+        <picture>
+          <source media="(min-width: 1024px)" srcSet={deskSet} sizes="1168px" />
+          {/* eslint-disable-next-line @next/next/no-img-element -- art-directed CDN crops, see `direct` */}
+          <img
+            src={at(750, PHONE)}
+            srcSet={phoneSet}
+            sizes="100vw"
+            alt={alt ?? image?.alt ?? ''}
+            decoding="async"
+            loading={priority ? 'eager' : 'lazy'}
+            fetchPriority={priority ? 'high' : 'auto'}
+            style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
+          />
+        </picture>
+      </div>
+    );
+  }
 
   return (
     <div className={cls}>

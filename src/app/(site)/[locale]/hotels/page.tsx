@@ -10,7 +10,7 @@ import {
 } from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
 import { JsonLd } from '@/components/JsonLd';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
 import { ArchiveTemplate } from '@/components/archive/ArchiveTemplate';
 import type {
   ArchiveItem,
@@ -199,7 +199,16 @@ export default async function HotelsArchivePage({
 
   return (
     <>
-      <JsonLd data={breadcrumbSchema} />
+      <JsonLd
+        data={[
+          breadcrumbSchema,
+          // The listed hotels (Ahrefs "category page missing schema", 2026-11-09).
+          buildItemListSchema(
+            hotels.filter((h) => h.slug).map((h) => ({ title: h.name, slug: `hotels/${h.slug}` })),
+            locale as Locale,
+          ),
+        ]}
+      />
       <ArchiveTemplate
         locale={locale as Locale}
         breadcrumbItems={breadcrumbItems}

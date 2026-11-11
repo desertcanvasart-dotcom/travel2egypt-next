@@ -6,7 +6,7 @@ import type { Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
 import { guideArchiveQuery } from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
-import { buildBreadcrumbList } from '@/lib/structured-data';
+import { buildBreadcrumbList, buildPageArticleSchema } from '@/lib/structured-data';
 import {
   GuideArchiveView,
   type GuideArchiveSettings,
@@ -33,6 +33,7 @@ export default async function GuideLandingPage({ params }: Props) {
   setRequestLocale(locale);
 
   const tNav = await getTranslations('nav');
+  const t = await getTranslations({ locale, namespace: 'guide' });
   const [{ settings, cities }, guideCount] = await Promise.all([
     client.fetch<{
       settings: GuideArchiveSettings | null;
@@ -51,7 +52,15 @@ export default async function GuideLandingPage({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={breadcrumbSchema} />
+      <JsonLd
+        data={[
+          buildPageArticleSchema(
+            { title: t('landingTitle'), description: t('landingDeck'), path: '/guide' },
+            locale as Locale,
+          ),
+          breadcrumbSchema,
+        ]}
+      />
       <GuideArchiveView settings={settings} cities={cities ?? []} guideCount={guideCount} locale={locale as Locale} />
     </>
   );

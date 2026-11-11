@@ -21,6 +21,7 @@
     "import:food": "tsx scripts/import-food.ts",
     "test:merge": "tsx scripts/wp-import/__tests__/merge.test.ts",
     "test:redirect-map-regenerate": "tsx scripts/wp-import/__tests__/redirect-map-regenerate.test.ts",
+    "test:journeys": "tsx src/lib/__tests__/journeys-phase-b.test.ts",
     "test:retired-content": "tsx src/lib/__tests__/retired-content.test.ts",
     "test:redirect-map-integrity": "tsx src/lib/__tests__/redirect-map-integrity.test.ts",
     "test:migration-routing": "tsx src/lib/__tests__/migration-routing.test.ts && tsx src/lib/__tests__/sitemap-policy.test.ts && tsx src/lib/__tests__/monument-locale.test.ts && tsx src/lib/__tests__/canonical-content-href.test.ts",
@@ -38,7 +39,7 @@
     "test:concierge": "npm run test:markers && npm run test:autoura",
     "eval:concierge": "tsx scripts/concierge-eval/run.ts",
     "seed:link-map": "tsx scripts/seed-concierge-link-map.ts",
-    "test:analytics": "tsx src/lib/__tests__/analytics-classify.test.ts && tsx src/lib/__tests__/lead-schema.test.ts"
+    "test:analytics": "tsx src/lib/__tests__/analytics-classify.test.ts && tsx src/lib/__tests__/lead-schema.test.ts && tsx src/lib/__tests__/small-group.test.ts && tsx src/lib/__tests__/departure-cutoff.test.ts && tsx src/lib/__tests__/measurement.test.ts && tsx src/lib/__tests__/meta-description.test.ts && tsx src/lib/__tests__/article-tours-rank.test.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.104.0",

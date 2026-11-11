@@ -1,0 +1,37 @@
+{
+  "slug": "luxor-private-car-and-guide",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Coche privado con aire acondicionado",
+        "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija."
+      },
+      {
+        "text": "Guía egiptólogo licenciado de habla hispana",
+        "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija."
+      },
+      {
+        "text": "Una botella de agua mineral por persona",
+        "source": "Se trata de un servicio estrictamente privado, operado en exclusiva para su grupo: un coche privado con aire acondicionado, un guía egiptólogo licenciado de habla hispana y una botella de agua mineral por persona, con el día construido en torno a los yacimientos que usted elija."
+      },
+      {
+        "text": "Recogida y regreso flexibles dentro de Luxor",
+        "source": "La recogida y el regreso son flexibles dentro de Luxor: su hotel, un atracadero de crucero del Nilo u otro punto acordado de la ciudad."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Entradas a los yacimientos",
+        "source": "Las entradas a cada yacimiento se abonan por separado y no se incluyen en el precio del tour."
+      },
+      {
+        "text": "Traslados desde o hasta el Aeropuerto Internacional de Luxor",
+        "source": "Los traslados desde o hasta el Aeropuerto Internacional de Luxor no forman parte de este servicio."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

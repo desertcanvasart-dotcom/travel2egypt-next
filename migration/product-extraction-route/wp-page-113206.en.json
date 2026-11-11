@@ -1,0 +1,48 @@
+{
+  "slug": "aswan-felucca-adventure",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Add the Nile Feast lunch package",
+        "source": "An English-speaking assistant and one bottle of mineral water per person are included; a lunch (onboard or riverside) is an optional add-on, chosen at booking."
+      },
+      {
+        "option": "Choose lunch onboard or at a riverside restaurant",
+        "source": "The choice is straightforward: a table at a riverside restaurant overlooking the water, or a meal served directly on the felucca while under sail."
+      },
+      {
+        "option": "Drift longer around the islands or turn back early",
+        "source": "The boat is privately yours, though — it can drift longer around the islands or turn back early without apology."
+      },
+      {
+        "option": "Choose a morning or afternoon sailing window",
+        "source": "The concierge can recommend the best window: morning sails are noticeably cooler than afternoon ones from May onward."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Add the Nile Feast lunch package",
+        "source": "An English-speaking assistant and one bottle of mineral water per person are included; a lunch (onboard or riverside) is an optional add-on, chosen at booking."
+      },
+      {
+        "text": "Choose lunch onboard or at a riverside restaurant",
+        "source": "The choice is straightforward: a table at a riverside restaurant overlooking the water, or a meal served directly on the felucca while under sail."
+      },
+      {
+        "text": "Drift longer around the islands or turn back early",
+        "source": "The boat is privately yours, though — it can drift longer around the islands or turn back early without apology."
+      },
+      {
+        "text": "Choose a morning or afternoon sailing window",
+        "source": "The concierge can recommend the best window: morning sails are noticeably cooler than afternoon ones from May onward."
+      }
+    ],
+    "dropped": 0
+  }
+}

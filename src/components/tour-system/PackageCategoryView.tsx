@@ -317,7 +317,6 @@ export async function PackageCategoryView({
             labels={{
               lengthLabel: ts('pkgCatLenLabel'),
               anyLength: ts('pkgCatLenAny'),
-              lengthHint: ts('pkgCatLenHint'),
               empty: tArchive('emptyState'),
             }}
           />

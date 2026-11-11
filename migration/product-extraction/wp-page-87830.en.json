@@ -1,0 +1,54 @@
+{
+  "slug": "2-day-tour-to-al-minya-from-cairo",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Guide and private vehicle hotel pickup in Cairo",
+        "source": "Your guide and private vehicle collect you from your hotel, and the drive south to Minya takes approximately three hours depending on traffic — plan for the full stretch rather than a best-case scenario."
+      },
+      {
+        "text": "Fully private · own licensed Egyptologist · air-conditioned vehicle",
+        "source": "Character · Fully private · own licensed Egyptologist · air-conditioned vehicle · adults only (minimum age 18) · tiered pricing with optional entrance-fee and lunch bundles"
+      },
+      {
+        "text": "Day 1 meals: Dinner",
+        "source": "Meals: Dinner"
+      },
+      {
+        "text": "Day 2 meals: Breakfast",
+        "source": "Meals: Breakfast"
+      },
+      {
+        "text": "Transport back to accommodations in Cairo",
+        "source": "By evening, guests will be comfortably transported back to their accommodations in Cairo"
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Dinner is on your own account",
+        "source": "Dinner is on your own account; your guide can advise on local options."
+      },
+      {
+        "text": "Entrance fees kept off the Base fare",
+        "source": "Entrance fees in Egypt are revised often, so we keep them off the Base fare and let you bolt them on if you would rather not handle cash at every gate."
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Drive from Cairo to Al Menya",
+        "overnight": "Minya",
+        "source": "Overnight is in Minya, a quieter, less touristed city on the west bank of the Nile."
+      },
+      {
+        "day": 2,
+        "title": "Explore Tuna El Gabal and Tal El Amarna",
+        "overnight": null,
+        "source": "Day 2: Explore Tuna El Gabal and Tal El Amarna"
+      }
+    ],
+    "dropped": 0
+  }
+}

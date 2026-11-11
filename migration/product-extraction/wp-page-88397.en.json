@@ -1,0 +1,41 @@
+{
+  "slug": "private-tour-karnak-temple-luxor-temple",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private, air-conditioned vehicle (every tier)",
+        "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier."
+      },
+      {
+        "text": "Licensed, English-speaking Egyptologist guide (every tier)",
+        "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier."
+      },
+      {
+        "text": "One bottle of mineral water per person (every tier)",
+        "source": "A private, air-conditioned vehicle, a licensed, English-speaking Egyptologist guide, and one bottle of mineral water per person are included in every tier."
+      },
+      {
+        "text": "Base package: all logistics",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to both Luxor Temple and the Karnak complex); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal)."
+      },
+      {
+        "text": "Entry to Luxor Temple and the Karnak complex (Base + Entrance Fees and Base + Entrance Fees & Lunch tiers only)",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to both Luxor Temple and the Karnak complex); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal)."
+      },
+      {
+        "text": "Midday meal (Base + Entrance Fees & Lunch tier only)",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to both Luxor Temple and the Karnak complex); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal)."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Entrance fees kept separate from the base fare",
+        "source": "Egyptian entrance fees are revised often, so keeping them separate keeps the base fare honest."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

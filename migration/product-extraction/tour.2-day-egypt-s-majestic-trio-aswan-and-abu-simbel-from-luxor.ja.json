@@ -1,0 +1,33 @@
+{
+  "slug": "2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
+  "lang": "ja",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "完全プライベート運行",
+        "source": "二日間、完全プライベート運行。"
+      },
+      {
+        "text": "専属のエジプト学ガイドとドライバーが同行",
+        "source": "専属のエジプト学ガイドとドライバーが同行し、形は明快です。"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "ルクソールからアスワンへ南下",
+        "overnight": "アスワン",
+        "source": "一日目はルクソールからアスワンへ南下し、夜はアスワンで過ごす。"
+      },
+      {
+        "day": 2,
+        "title": "二日目の朝にアブ・シンベルへ",
+        "overnight": null,
+        "source": "二日目の朝にアブ・シンベルへ向かう。"
+      }
+    ],
+    "dropped": 0
+  }
+}

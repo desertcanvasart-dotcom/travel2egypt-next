@@ -1,0 +1,29 @@
+{
+  "slug": "2-day-egypt-s-majestic-trio-aswan-and-abu-simbel-from-luxor",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Your own Egyptologist guide and driver",
+        "source": "It is two days, privately operated, with your own Egyptologist guide and driver."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "South to Aswan and its monuments",
+        "overnight": "Aswan",
+        "source": "The shape is simple: south to Aswan and its monuments on day one; out to Abu Simbel and back on day two, with a return option that leaves you in Aswan, at the airport, or back in Luxor depending on what comes next."
+      },
+      {
+        "day": 2,
+        "title": "Out to Abu Simbel and back",
+        "overnight": null,
+        "source": "The shape is simple: south to Aswan and its monuments on day one; out to Abu Simbel and back on day two, with a return option that leaves you in Aswan, at the airport, or back in Luxor depending on what comes next."
+      }
+    ],
+    "dropped": 0
+  }
+}

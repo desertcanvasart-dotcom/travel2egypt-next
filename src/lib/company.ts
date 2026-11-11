@@ -17,5 +17,8 @@ export const LEGAL_ADDRESS = '1 Farouk Mahmoud St, Giza, Cairo';
  */
 export const TRIPADVISOR_URL =
   'https://www.tripadvisor.com/Attraction_Review-g294201-d17406742-Reviews-Travel2Egypt-Cairo_Cairo_Governorate.html';
+/** Official social profiles (owner, 2026-11-09) — Organization sameAs. */
+export const INSTAGRAM_URL = 'https://www.instagram.com/travel2egypt_/';
+export const FACEBOOK_URL = 'https://www.facebook.com/travell2egypt/';
 export const TRIPADVISOR_RATING = '4.9';
 export const TRIPADVISOR_REVIEW_COUNT = 87;

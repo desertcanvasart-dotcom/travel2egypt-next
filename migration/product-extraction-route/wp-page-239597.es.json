@@ -1,0 +1,48 @@
+{
+  "slug": "pyramids-of-giza-and-grand-egyptian-museum",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Añadir la entrada al interior de una pirámide",
+        "source": "Entrada al interior de una pirámide (sujeto a disponibilidad de entradas y normas del sitio)."
+      },
+      {
+        "option": "Añadir un paseo en camello en la zona panorámica",
+        "source": "Paseo en camello en la zona panorámica (programado para disfrutar de las mejores vistas)."
+      },
+      {
+        "option": "Almorzar en un restaurante de hotel",
+        "source": "Si prefieres el entorno más tranquilo de un restaurante de hotel, se puede organizar; requisitos dietéticos atendidos con aviso previo."
+      },
+      {
+        "option": "Repartir el tour en dos días más llevaderos",
+        "source": "Aun así, nueve horas exigen mucho a los niños pequeños y a las piernas cansadas; avísanos de quién viene y ajustaremos el ritmo, o repartiremos el par en dos días más llevaderos."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Añadir la entrada al interior de una pirámide",
+        "source": "Entrada al interior de una pirámide (sujeto a disponibilidad de entradas y normas del sitio)."
+      },
+      {
+        "text": "Añadir un paseo en camello en la zona panorámica",
+        "source": "Paseo en camello en la zona panorámica (programado para disfrutar de las mejores vistas)."
+      },
+      {
+        "text": "Almorzar en un restaurante de hotel",
+        "source": "Si prefieres el entorno más tranquilo de un restaurante de hotel, se puede organizar; requisitos dietéticos atendidos con aviso previo."
+      },
+      {
+        "text": "Repartir el tour en dos días más llevaderos",
+        "source": "Aun así, nueve horas exigen mucho a los niños pequeños y a las piernas cansadas; avísanos de quién viene y ajustaremos el ritmo, o repartiremos el par en dos días más llevaderos."
+      }
+    ],
+    "dropped": 0
+  }
+}

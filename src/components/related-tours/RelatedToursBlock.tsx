@@ -2,6 +2,7 @@ import { Link } from '@/i18n/navigation';
 import { Price } from '@/components/Price';
 import { JourneyImage } from '@/components/tour-system/JourneyImage';
 import type { ArticleTour } from '@/lib/articleTours';
+import { whatsappUrl } from '@/lib/concierge/constants';
 
 import { TourRequestButton, TourViewLink } from './RelatedTourActions';
 import '@/styles/related-tours.css';
@@ -22,7 +23,7 @@ const COPY = {
     hours: (n: number) => `${n} hours`, days: (n: number) => `${n} days`,
     from: 'from', perPerson: 'per person', basis: 'per person, 2 sharing, 4★/5★ hotels',
     check: 'Check this date', customise: 'Customise', view: 'View tour',
-    concierge: 'Not sure yet? Talk it through with our concierge →',
+    concierge: 'Not sure yet? Get advice from our Egypt travel specialists →',
     guide: '',
   },
   es: {
@@ -30,7 +31,7 @@ const COPY = {
     hours: (n: number) => `${n} horas`, days: (n: number) => `${n} días`,
     from: 'desde', perPerson: 'por persona', basis: 'por persona, en habitación doble, hoteles de 4★/5★',
     check: 'Consultar esta fecha', customise: 'Personalizar', view: 'Ver viaje',
-    concierge: '¿Aún no lo tienes claro? Háblalo con nuestro concierge →',
+    concierge: '¿Aún no lo tienes claro? Pide consejo a nuestros especialistas en Egipto →',
     guide: 'con guía de habla hispana',
   },
   ja: {
@@ -38,7 +39,9 @@ const COPY = {
     hours: (n: number) => `${n}時間`, days: (n: number) => `${n}日間`,
     from: '', perPerson: '1名様あたり', basis: '2名1室利用時の1名様料金・4つ星／5つ星ホテル',
     check: 'この日付で確認', customise: 'カスタマイズ', view: '詳細を見る',
-    concierge: 'まだ迷っていますか？コンシェルジュに相談する →',
+    // Japanese pages carry no concierge links (house rule): WhatsApp instead.
+    concierge: 'まだ迷っていますか？WhatsAppで相談する →',
+    whatsappText: 'こんにちは。エジプト旅行の計画について相談したいです。',
     guide: '日本語ガイド付き',
   },
 } as const;
@@ -139,7 +142,13 @@ export function RelatedToursBlock({
         </h2>
         {cards}
         <p className="rt-concierge">
-          <Link href="/plan-your-tour">{t.concierge}</Link>
+          {'whatsappText' in t ? (
+            <a href={whatsappUrl(t.whatsappText)} target="_blank" rel="noopener noreferrer">
+              {t.concierge}
+            </a>
+          ) : (
+            <Link href="/plan-your-tour">{t.concierge}</Link>
+          )}
         </p>
       </div>
     </section>

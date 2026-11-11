@@ -1,0 +1,33 @@
+{
+  "slug": "2-day-nubian-desert-nature-wildlife-retreat",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "resident naturalist guide",
+        "source": "Character · Fully private · resident naturalist guide · one night at a remote lodge · light pace, very early morning safari"
+      },
+      {
+        "text": "one night at a remote lodge",
+        "source": "Character · Fully private · resident naturalist guide · one night at a remote lodge · light pace, very early morning safari"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "The lodge and the reserve",
+        "overnight": "desert lodge",
+        "source": "The base is a small lodge, deliberately remote, within easy reach of a protected reserve in the desert south of Aswan."
+      },
+      {
+        "day": 2,
+        "title": "Morning: wildlife and the desert's other hours",
+        "overnight": null,
+        "source": "Departure is after lunch."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "11-day-cairo-and-nile-cruise-round-trip",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Seven nights aboard a five-star Nile cruise ship",
+        "source": "Seven of the eleven nights are spent aboard a five-star cruise ship moving between Luxor and Aswan, and this changes the character of the trip entirely."
+      },
+      {
+        "text": "Own Egyptologist",
+        "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a standard 4–5 star Nile class vessel."
+      },
+      {
+        "text": "Private cabin on a standard 4–5 star Nile class vessel",
+        "source": "Your party travels with its own Egyptologist; aboard you have a private cabin on a standard 4–5 star Nile class vessel."
+      },
+      {
+        "text": "Transfer to Cairo International Airport",
+        "source": "After breakfast the next morning, you are transferred to Cairo International Airport."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Giza and Saqqara",
+        "overnight": "Cairo",
+        "source": "Day one is Giza and Saqqara."
+      },
+      {
+        "day": 2,
+        "title": "Flight south to Luxor, board cruise",
+        "overnight": "Nile cruise",
+        "source": "An early flight carries you south to Luxor, and on arrival you board the cruise that will be your home for the next seven nights."
+      },
+      {
+        "day": 3,
+        "title": "Valley of the Kings, Hatshepsut, Colossi",
+        "overnight": "Nile cruise",
+        "source": "The third day is the heaviest of the cruise section."
+      },
+      {
+        "day": 4,
+        "title": "River day: Edfu and Kom Ombo",
+        "overnight": "Nile cruise",
+        "source": "Day four is a river day between two temple stops."
+      },
+      {
+        "day": 5,
+        "title": "Aswan: High Dam and Philae",
+        "overnight": "Nile cruise",
+        "source": "Aswan is the southernmost main city on the route, where the Nile narrows toward the first cataract."
+      },
+      {
+        "day": 6,
+        "title": "Leisure day on the cruise",
+        "overnight": "Nile cruise",
+        "source": "The sixth day is left open — a structural necessity rather than an indulgence."
+      },
+      {
+        "day": 7,
+        "title": "Return briefly to Kom Ombo",
+        "overnight": "Nile cruise",
+        "source": "The seventh day returns briefly to Kom Ombo before the ship continues upstream — the light is different in the morning than in the late afternoon, and the site is typically quieter."
+      },
+      {
+        "day": 8,
+        "title": "Luxor, given to Karnak",
+        "overnight": "Nile cruise",
+        "source": "The ship returns to Luxor for the eighth day, given to Karnak — not a temple so much as a temple city."
+      },
+      {
+        "day": 9,
+        "title": "Flight back to Cairo",
+        "overnight": "Cairo",
+        "source": "A flight carries you back to Cairo for the trip's final chapter."
+      },
+      {
+        "day": 10,
+        "title": "Cairo's own day, Nile dinner cruise",
+        "overnight": "Cairo",
+        "source": "The tenth day is Cairo's own."
+      },
+      {
+        "day": 11,
+        "title": "Transfer to Cairo International Airport",
+        "overnight": null,
+        "source": "After breakfast the next morning, you are transferred to Cairo International Airport."
+      }
+    ],
+    "dropped": 0
+  }
+}

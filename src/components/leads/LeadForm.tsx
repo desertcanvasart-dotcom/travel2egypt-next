@@ -6,9 +6,12 @@ import { track } from '@/lib/analytics';
 import { convertPrice, formatConverted } from '@/lib/currency';
 import { useCurrency } from '@/lib/currency-context';
 import { WHATSAPP_LINK } from '@/lib/concierge/constants';
-import { BUDGET_BANDS, DAY_BANDS, dayBandFor, type LeadSource } from '@/lib/leads/schema';
+import { BUDGET_BANDS, DAY_BANDS, dayBandFor, type EnquiryType, type LeadSource } from '@/lib/leads/schema';
+import { journeyLabel, type JourneyKey } from '@/lib/journeys/registry';
+import { STYLE_QUESTIONS } from '@/lib/journeys/styleQuestions';
 
 import { readUtm } from './utm';
+import { sessionAttribution } from '@/lib/measure/session';
 import { useLead } from './LeadProvider';
 import { LEAD_COPY, leadLocale, type LeadCopy } from './copy';
 
@@ -33,6 +36,25 @@ export interface LeadPrefill {
   priceFromEur?: number | null;
   /** Pre-filled "Anything we should know?" text, e.g. "Interested in: Nile cruise". */
   notes?: string;
+  /** Day-tour hub slug the request came from (GA4 `hub`, 2026-11-09). */
+  hub?: string;
+  /** What the form opened about (e.g. "nile-cruise"): stored as leads.interest. */
+  interest?: string;
+  /** Journey the form opened from (journey pages Phase A): adds its style question. */
+  journey?: JourneyKey;
+  /** Small-group enquiry (2026-11-10): adds "Which departure?", hides "How many days?". */
+  enquiryType?: EnquiryType;
+  /** The departures the "Which departure?" select lists (EN slug → label). */
+  departureOptions?: DepartureOption[];
+}
+
+export interface DepartureOption {
+  /** EN slug of the small-group product. */
+  value: string;
+  /** Select label, e.g. "Japan & East Asia · 9 days". */
+  label: string;
+  /** Product title (stored as the lead's tour). */
+  title: string;
 }
 
 
@@ -74,7 +96,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
   const L = leadLocale(locale);
   const c = LEAD_COPY[L];
   const months = useMemo(() => nextMonths(18, c), [c]);
-  const { currency } = useCurrency();
+  const { currency, rates } = useCurrency();
 
   const { responseTime } = useLead();
   const full = responseTime.full;
@@ -85,10 +107,14 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
   // currency, converted the same way the cards render it, times adults.
   const unitPrice =
     isDay && typeof prefill?.priceFromEur === 'number' && prefill.priceFromEur > 0
-      ? convertPrice(prefill.priceFromEur, currency)
+      ? convertPrice(prefill.priceFromEur, currency, rates)
       : null;
   const estimatedTotal = unitPrice ? unitPrice * adults : null;
   const estimateLabel = estimatedTotal !== null ? formatConverted(estimatedTotal, currency, L) : '';
+  const journey = !isDay ? prefill?.journey : undefined;
+  const sq = journey ? STYLE_QUESTIONS[journey][L] : null;
+  const isSmallGroup = !isDay && prefill?.enquiryType === 'small_group';
+  const departures = isSmallGroup ? prefill?.departureOptions ?? [] : [];
   const [state, setState] = useState<State>({ phase: 'idle' });
   const [fieldError, setFieldError] = useState<string | null>(null);
 
@@ -100,6 +126,22 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
       const v = f.get(k);
       return typeof v === 'string' ? v : '';
     };
+    // The journey's style question (spec §5): days band, children's ages,
+    // the ticked interests, the chosen option, or free text.
+    const styleAnswer = !sq
+      ? undefined
+      : sq.kind === 'days'
+        ? get('days')
+        : sq.kind === 'childAges'
+          ? get('childAges')
+          : sq.kind === 'multi'
+            ? f.getAll('styleAnswer').filter((v): v is string => typeof v === 'string')
+            : get('styleAnswer');
+    // Small group: the chosen departure is the lead's tour ("Not sure" → none).
+    const dep = isSmallGroup ? departures.find((d) => d.value === get('departure')) : undefined;
+    const tourSlug = isSmallGroup ? dep?.value : prefill?.tourSlug;
+    const tourTitle = isSmallGroup ? dep?.title : prefill?.tourTitle;
+    const typeParam = isSmallGroup ? { type: 'small_group' } : {};
     setState({ phase: 'sending' });
     setFieldError(null);
     try {
@@ -115,7 +157,7 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           travelMonth: !isDay && !exact ? get('travelMonth') : undefined,
           startDate: isDay || exact ? get('startDate') : undefined,
           endDate: !isDay && exact ? get('endDate') : undefined,
-          days: isDay ? undefined : get('days'),
+          days: isDay || isSmallGroup ? undefined : get('days'),
           adults: get('adults'),
           children: get('children'),
           childAges: get('childAges'),
@@ -123,19 +165,34 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           estimatedCurrency: estimatedTotal ? currency : undefined,
           budget: isDay ? undefined : get('budget'),
           notes: get('notes'),
-          tourSlug: prefill?.tourSlug,
-          tourTitle: prefill?.tourTitle,
+          tourSlug,
+          tourTitle,
+          enquiryType: isSmallGroup ? 'small_group' : undefined,
+          departure: isSmallGroup ? dep?.label ?? 'Not sure' : undefined,
+          journey,
+          interest: prefill?.interest ?? prefill?.hub,
+          ...sessionAttribution(),
+          styleAnswer: (Array.isArray(styleAnswer) ? styleAnswer.length > 0 : Boolean(styleAnswer)) ? styleAnswer : undefined,
           company: get('company'),
           pagePath: window.location.pathname,
           utm: readUtm(),
         }),
       });
-      const data = (await res.json().catch(() => ({}))) as { reference?: string; error?: string; field?: string };
+      const data = (await res.json().catch(() => ({}))) as { reference?: string; error?: string; field?: string; test?: boolean };
+      if (res.ok && data.reference && data.test) {
+        // Test mode: never a generate_lead (keeps GA4 conversions clean).
+        track('test_lead', { form_location: source, ...(journey ? { journey } : {}), ...typeParam });
+        setState({ phase: 'done', reference: data.reference });
+        return;
+      }
       if (res.ok && data.reference) {
         track('generate_lead', {
           form_location: source,
           lead_kind: kind,
-          ...(prefill?.tourSlug ? { tour: prefill.tourSlug } : {}),
+          ...(tourSlug ? { tour: tourSlug } : {}),
+          ...(prefill?.hub ? { hub: prefill.hub } : {}),
+          ...(journey ? { journey } : {}),
+          ...typeParam,
           locale,
         });
         setState({ phase: 'done', reference: data.reference });
@@ -193,7 +250,13 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
 
   return (
     <form className={`lead-form lead-${tone}`} onSubmit={onSubmit} noValidate={false} aria-labelledby={headingId}>
-      {prefill?.tourTitle && (
+      {journey && (
+        <p className="lead-tour">
+          {L === 'ja' ? 'ご関心：' : L === 'es' ? 'Te interesa: ' : 'Interested in: '}
+          <strong>{journeyLabel(journey, L)}</strong>
+        </p>
+      )}
+      {prefill?.tourTitle && !isSmallGroup && (
         <p className="lead-tour">
           {isDay ? c.tourLineDay(prefill.tourTitle) : c.tourLineTrip(prefill.tourTitle)}
           {L === 'ja' ? '：' : ': '}
@@ -236,6 +299,19 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
         </div>
       ) : (
         <>
+          {isSmallGroup && (
+            <div className="lead-field">
+              <label htmlFor={id('departure')}>{c.departureQ}</label>
+              <select id={id('departure')} name="departure" defaultValue={prefill?.tourSlug ?? ''}>
+                {departures.map((d) => (
+                  <option key={d.value} value={d.value}>
+                    {d.label}
+                  </option>
+                ))}
+                <option value="">{c.notSure}</option>
+              </select>
+            </div>
+          )}
           <fieldset className="lead-field">
             <legend>{c.when}</legend>
             {exact ? (
@@ -265,17 +341,19 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
           </fieldset>
 
           <div className="lead-row">
-            <div className="lead-field">
-              <label htmlFor={id('days')}>{c.howManyDays}</label>
-              <select id={id('days')} name="days" defaultValue={prefill?.days ?? dayBandFor(prefill?.durationDays)}>
-                <option value="">{c.notSure}</option>
-                {DAY_BANDS.map((b) => (
-                  <option key={b} value={b}>
-                    {c.dayBand[b]}
-                  </option>
-                ))}
-              </select>
-            </div>
+            {!isSmallGroup && (
+              <div className="lead-field">
+                <label htmlFor={id('days')}>{sq?.kind === 'days' ? sq.label : c.howManyDays}</label>
+                <select id={id('days')} name="days" defaultValue={prefill?.days ?? dayBandFor(prefill?.durationDays)}>
+                  <option value="">{c.notSure}</option>
+                  {DAY_BANDS.map((b) => (
+                    <option key={b} value={b}>
+                      {c.dayBand[b]}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
             <div className="lead-field">
               <label htmlFor={id('budget')}>{c.budget}</label>
               <select id={id('budget')} name="budget" defaultValue="">
@@ -318,11 +396,45 @@ export function LeadForm({ source, prefill, locale = 'en', tone = 'light', headi
             </div>
             {children > 0 && (
               <div className="lead-field">
-                <label htmlFor={id('childAges')}>{c.childAges}</label>
-                <input id={id('childAges')} name="childAges" type="text" placeholder={c.childAgesPlaceholder} maxLength={80} />
+                <label htmlFor={id('childAges')}>{sq?.kind === 'childAges' ? sq.label : c.childAges}</label>
+                <input
+                  id={id('childAges')}
+                  name="childAges"
+                  type="text"
+                  placeholder={c.childAgesPlaceholder}
+                  maxLength={80}
+                  required={sq?.kind === 'childAges'}
+                />
               </div>
             )}
           </div>
+
+          {sq && (sq.kind === 'multi' || sq.kind === 'radio') && (
+            <fieldset className="lead-field lead-style">
+              <legend>
+                {sq.label}
+                {L === 'ja' ? '' : ' '}
+                <span className="lead-optional">{c.optional}</span>
+              </legend>
+              <div className="lead-choices">
+                {sq.options.map((o) => (
+                  <label key={o.value} className="lead-check">
+                    <input type={sq.kind === 'multi' ? 'checkbox' : 'radio'} name="styleAnswer" value={o.value} /> {o.label}
+                  </label>
+                ))}
+              </div>
+            </fieldset>
+          )}
+          {sq?.kind === 'text' && (
+            <div className="lead-field">
+              <label htmlFor={id('styleAnswer')}>
+                {sq.label}
+                {L === 'ja' ? '' : ' '}
+                <span className="lead-optional">{c.optional}</span>
+              </label>
+              <input id={id('styleAnswer')} name="styleAnswer" type="text" maxLength={300} />
+            </div>
+          )}
         </>
       )}
 

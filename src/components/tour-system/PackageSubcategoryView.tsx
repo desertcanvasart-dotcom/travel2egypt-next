@@ -6,6 +6,7 @@ import type { Locale } from '@/i18n/routing';
 import { JourneyImage } from './JourneyImage';
 import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
+import { JOURNEY_KEYS, JOURNEYS, JOURNEY_UI, journeyLocale } from '@/lib/journeys/registry';
 import { TourProse } from './TourProse';
 import { packageBucketKey } from './lengthBucket';
 import { CategoryIndex, type CategoryRow } from './CategoryIndex';
@@ -98,6 +99,7 @@ export async function PackageSubcategoryView({
       ts('pkgGroupRegionLabel', { region: (doc.originRegion ?? '').replace(/-/g, '_') })
     : doc.themeRef?.name ?? doc.title;
   const heroKicker = isGroup ? ts('pkgGroupSubHeroKicker') : ts('pkgSubHeroKicker');
+  const journey = isGroup ? null : (JOURNEY_KEYS.map((k) => JOURNEYS[k]).find((j) => j.hubId === doc._id) ?? null);
   const breadcrumb = isGroup ? ts('pkgGroupSubBreadcrumb') : ts('pkgSubBreadcrumb');
   // s47 audit (2026-08-18): package theme/origin landings had no structured
   // data. Breadcrumb mirrors the visible crumb (hub linked, axis terminal).
@@ -181,6 +183,14 @@ export async function PackageSubcategoryView({
   return (
     <div className="tour-doc lvl-subcategory">
       <JsonLd data={[breadcrumbSchema, itemListSchema]} />
+      {/* Journey pages Phase A §7.4: the paired journey's planning advice. */}
+      {journey && (
+        <p className="hub-journey-banner">
+          <span className="t2e-wrap">
+            <Link href={journey.path as never}>{JOURNEY_UI[journeyLocale(locale)].planning(journey.planNoun[journeyLocale(locale)])}</Link>
+          </span>
+        </p>
+      )}
       <header className="hero">
         <div className="bg">
           <JourneyImage image={heroImage} alt="" className="" sizes="100vw" widthHint={2560} priority />

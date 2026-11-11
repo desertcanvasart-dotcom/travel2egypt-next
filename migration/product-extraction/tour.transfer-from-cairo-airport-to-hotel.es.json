@@ -1,0 +1,29 @@
+{
+  "slug": "transfer-from-cairo-airport-to-hotel",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Un representante te recibe en la sala de llegadas",
+        "source": "El esquema es directo: un representante te recibe en la sala de llegadas, te acompaña a un vehículo privado con aire acondicionado y te conduce al hotel en El Cairo o Guiza."
+      },
+      {
+        "text": "Vehículo privado con aire acondicionado",
+        "source": "El esquema es directo: un representante te recibe en la sala de llegadas, te acompaña a un vehículo privado con aire acondicionado y te conduce al hotel en El Cairo o Guiza."
+      },
+      {
+        "text": "Traslado al hotel en El Cairo o Guiza",
+        "source": "El esquema es directo: un representante te recibe en la sala de llegadas, te acompaña a un vehículo privado con aire acondicionado y te conduce al hotel en El Cairo o Guiza."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "No es una orientación guiada",
+        "source": "No es una orientación guiada; el conductor está para entregarte con seguridad, no para narrar."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

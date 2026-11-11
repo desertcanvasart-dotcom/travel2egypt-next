@@ -1,0 +1,33 @@
+{
+  "slug": "mount-sinai-pilgrimage-2-day-trip-to-saint-catherine-from-cairo",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Bedouin guide for the mountain",
+        "source": "This is the short version: two days, private, with a Bedouin guide for the mountain and a separate Egyptologist or pilgrimage guide where appropriate."
+      },
+      {
+        "text": "Separate Egyptologist or pilgrimage guide where appropriate",
+        "source": "This is the short version: two days, private, with a Bedouin guide for the mountain and a separate Egyptologist or pilgrimage guide where appropriate."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Cairo to Saint Catherine: southern Sinai road",
+        "overnight": "Saint Catherine",
+        "source": "Check-in at the local hotel — the Monastery Guesthouse, Daniela Village, Catherine Plaza, depending on season — and an early dinner."
+      },
+      {
+        "day": 2,
+        "title": "Night climb, monastery, back to Cairo",
+        "overnight": null,
+        "source": "The descent from Saint Catherine back to Cairo is the rest of the day — the same southern Sinai road in reverse, arrival in Cairo by evening."
+      }
+    ],
+    "dropped": 0
+  }
+}

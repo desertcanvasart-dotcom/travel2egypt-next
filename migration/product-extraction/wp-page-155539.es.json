@@ -1,0 +1,71 @@
+{
+  "slug": "desert-horizons-7-day-bahariya-siwa-oasis-tour",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Salida privada",
+        "source": "Es una salida privada —operada en exclusiva para su grupo, nunca compartida—."
+      },
+      {
+        "text": "Su propio egiptólogo",
+        "source": "Su egiptólogo se ocupa de la arqueología del oasis, del Oráculo, de las ruinas de Shali y de las tumbas rupestres de Gebel al-Mawta; los conductores de 4×4 del desierto manejan el terreno fuera de carretera y la travesía del Gran Mar de Arena."
+      },
+      {
+        "text": "Conductores de 4×4 del desierto",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche acampados en el Desierto Blanco · dos conducciones largas de desierto; ecolodge Adrère Amellal disponible en Siwa a petición"
+      },
+      {
+        "text": "Una noche acampados en el Desierto Blanco",
+        "source": "Carácter · Salida privada · su propio egiptólogo más conductores de 4×4 del desierto · una noche acampados en el Desierto Blanco · dos conducciones largas de desierto; ecolodge Adrère Amellal disponible en Siwa a petición"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Salida de El Cairo a Bahariya",
+        "overnight": "Bahariya (campamento u hotel)",
+        "source": "El tramo inicial empieza con una salida de El Cairo tras el desayuno y una conducción de cuatro horas al suroeste por el desierto occidental."
+      },
+      {
+        "day": 2,
+        "title": "El Desierto Negro y el Desierto Blanco",
+        "overnight": "Campamento en el Desierto Blanco",
+        "source": "El campamento se monta aquí, bajo las formaciones y el cielo abierto."
+      },
+      {
+        "day": 3,
+        "title": "Montaña de Cristal y valle de Agabat",
+        "overnight": "Bahariya",
+        "source": "La noche regresa a Bahariya, con cena y una última noche de oasis antes de la larga conducción al oeste."
+      },
+      {
+        "day": 4,
+        "title": "La larga carretera a Siwa",
+        "overnight": "Siwa",
+        "source": "La llegada es al anochecer; la cena se toma en Siwa y la noche se usa para descansar antes de una jornada completa en el oasis."
+      },
+      {
+        "day": 5,
+        "title": "Siwa: Shali, el Oráculo y los manantiales",
+        "overnight": "Hotel de Siwa",
+        "source": "El distintivo ecolodge de Siwa, Adrère Amellal —construido con roca salina y vigas de palmera al pie de la Montaña Blanca, iluminado con velas y sin electricidad por diseño—, puede solicitarse para quienes deseen la experiencia cultural de alojarse dentro del vocabulario arquitectónico del oasis en lugar de en un hotel convencional; de otro modo, la noche se pasa en un hotel de Siwa."
+      },
+      {
+        "day": 6,
+        "title": "El Gran Mar de Arena",
+        "overnight": "Siwa",
+        "source": "El regreso a Siwa es al comienzo de la tarde."
+      },
+      {
+        "day": 7,
+        "title": "Última mañana en Siwa y vuelta",
+        "overnight": null,
+        "source": "Almuerzo en Siwa y luego el largo trayecto de vuelta a El Cairo, con llegada al anochecer."
+      }
+    ],
+    "dropped": 0
+  }
+}

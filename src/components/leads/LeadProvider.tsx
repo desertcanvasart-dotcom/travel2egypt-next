@@ -48,6 +48,8 @@ interface LeadContextValue {
   setProduct: (p: PageProduct | null) => void;
   /** CHAT_ENABLED (read server-side in the layout): the AI concierge is on. */
   chatEnabled: boolean;
+  /** A day band chosen on the page (journey days selector): pre-sets "How many days?" on every later open. */
+  setDaysPreset: (band: string | null) => void;
 }
 
 const LeadContext = createContext<LeadContextValue | null>(null);
@@ -71,6 +73,7 @@ export function LeadProvider({
   // Remount the form on every open so a previous thank-you state is cleared.
   const [openCount, setOpenCount] = useState(0);
   const [product, setProduct] = useState<PageProduct | null>(null);
+  const [daysPreset, setDaysPreset] = useState<string | null>(null);
   const headingId = useId();
 
   useEffect(() => {
@@ -78,17 +81,19 @@ export function LeadProvider({
   }, []);
 
   const open = useCallback((args: OpenArgs) => {
-    setCurrent(args);
+    setCurrent(daysPreset && !args.days && !args.durationDays && args.kind !== 'day_tour' ? { ...args, days: daysPreset } : args);
     setOpenCount((n) => n + 1);
     track('lead_form_open', {
       form_location: args.source,
       lead_kind: args.kind ?? 'trip',
       ...(args.tourSlug ? { tour: args.tourSlug } : {}),
+      ...(args.hub ? { hub: args.hub } : {}),
+      ...(args.enquiryType ? { type: args.enquiryType } : {}),
     });
-  }, []);
+  }, [daysPreset]);
 
   const value = useMemo(
-    () => ({ open, isOpen: current !== null, product, setProduct, responseTime: rt, chatEnabled }),
+    () => ({ open, isOpen: current !== null, product, setProduct, responseTime: rt, chatEnabled, setDaysPreset }),
     [open, current, product, rt, chatEnabled],
   );
   const isDay = current?.kind === 'day_tour';
@@ -160,6 +165,8 @@ export function LeadButton({
   className,
   children,
   itemListName,
+  itemParams,
+  openEvent,
 }: {
   source: LeadSource;
   prefill?: LeadPrefill;
@@ -167,6 +174,10 @@ export function LeadButton({
   children: ReactNode;
   /** For select_item when the button sits on a product card. */
   itemListName?: string;
+  /** Extra select_item params (e.g. type: 'small_group'). */
+  itemParams?: Record<string, string>;
+  /** An extra GA4 event on open, e.g. form_open {location: 'hub_card'}. */
+  openEvent?: { name: 'form_open'; params: Record<string, string> };
 }) {
   const { open } = useLead();
   return (
@@ -175,8 +186,9 @@ export function LeadButton({
       className={className}
       onClick={() => {
         if (itemListName && prefill?.tourSlug) {
-          track('select_item', { item_list_name: itemListName, item_id: prefill.tourSlug, action: 'request' });
+          track('select_item', { item_list_name: itemListName, item_id: prefill.tourSlug, action: 'request', ...itemParams });
         }
+        if (openEvent) track(openEvent.name, openEvent.params);
         open({ source, ...prefill });
       }}
     >

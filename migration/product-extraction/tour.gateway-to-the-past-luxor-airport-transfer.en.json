@@ -1,0 +1,37 @@
+{
+  "slug": "gateway-to-the-past-luxor-airport-transfer",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private, air-conditioned transfer between Luxor Airport and your hotel",
+        "source": "A private, air-conditioned transfer between Luxor Airport and your hotel — with a rep on the ground from the moment you land."
+      },
+      {
+        "text": "Representative meets you at the exit gate",
+        "source": "It is a private airport-to-hotel run in Luxor, handled by a representative who meets you at the exit gate and puts you in an air-conditioned vehicle before the city's heat has a chance to disorient you."
+      },
+      {
+        "text": "Meet and greet with a name sign",
+        "source": "Once you have cleared the exit gate, look for a representative holding a sign with the Travel2Egypt name and your own."
+      },
+      {
+        "text": "Private vehicle; the driver will handle your luggage",
+        "source": "The vehicle is private — you are not sharing with other passengers — and the driver will handle your luggage."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "The transfer does not stop at any of the temple sites",
+        "source": "The transfer does not stop at any of them."
+      },
+      {
+        "text": "No monuments, no commentary",
+        "source": "A purely practical transfer — no monuments, no commentary, just a clean handover from terminal to hotel."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

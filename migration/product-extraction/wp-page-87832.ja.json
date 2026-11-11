@@ -1,0 +1,33 @@
+{
+  "slug": "private-tour-2-days-1-night-trip-to-saint-catherine-from-cairo",
+  "lang": "ja",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "プライベート運行",
+        "source": "二日間、プライベート運行、山ではベドウィンのガイド、必要に応じてエジプト学ガイドまたは巡礼ガイドが別途同行します。"
+      },
+      {
+        "text": "山ではベドウィンのガイド",
+        "source": "二日間、プライベート運行、山ではベドウィンのガイド、必要に応じてエジプト学ガイドまたは巡礼ガイドが別途同行します。"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "カイロから聖カタリナへ――南シナイの道",
+        "overnight": "聖カタリナ",
+        "source": "一日目は陸路です。"
+      },
+      {
+        "day": 2,
+        "title": "シナイ山登頂と聖カタリナ修道院、カイロへ",
+        "overnight": null,
+        "source": "聖カタリナからカイロへの下りは、残り半日かけて南シナイの道を逆向きに進み、夕刻にカイロへ着きます。"
+      }
+    ],
+    "dropped": 0
+  }
+}

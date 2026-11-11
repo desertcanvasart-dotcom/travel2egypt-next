@@ -1,0 +1,37 @@
+{
+  "slug": "hurghada-airport-transfer",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private transfer, operated for your party alone",
+        "source": "This is a private transfer, operated for your party alone — never shared with other travellers."
+      },
+      {
+        "text": "Private air-conditioned vehicle",
+        "source": "The vehicle is private and air-conditioned, and one bottle of mineral water per person is provided for the drive."
+      },
+      {
+        "text": "One bottle of mineral water per person",
+        "source": "The vehicle is private and air-conditioned, and one bottle of mineral water per person is provided for the drive."
+      },
+      {
+        "text": "Meet-and-greet with representative holding a name sign",
+        "source": "Your representative will be standing in the meet-and-greet area beyond the exit gate, holding a sign bearing the Travel2Egypt name and your own."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Guide",
+        "source": "It does not include a guide; this is a point-to-point transfer, not a sightseeing tour."
+      },
+      {
+        "text": "USD 25 visa-on-arrival fee",
+        "source": "The USD 25 visa-on-arrival fee is a government charge, not part of the transfer, and cannot be pre-paid through this service."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

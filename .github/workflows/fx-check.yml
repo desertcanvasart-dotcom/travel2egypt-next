@@ -1,0 +1,36 @@
+# Daily exchange-rate check (2026-11-09).
+#
+# The site converts EUR prices with the European Central Bank's daily rates
+# (src/lib/fx.ts) and falls back to fixed rates if the feed is unavailable or
+# implausible. This job asks the live site which rates it is using and goes
+# red — GitHub then emails the repository owner — when it reports the fallback,
+# or ECB rates older than 5 days (the ECB doesn't publish on weekends and
+# TARGET holidays, so a few days' gap is normal).
+name: FX rates check
+
+on:
+  schedule:
+    - cron: '30 6 * * *' # daily 06:30 UTC ≈ 08:30 Cairo
+  workflow_dispatch: {}
+
+jobs:
+  fx-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check the site's exchange rates
+        run: |
+          resp=$(curl -fsS -m 30 https://travel2egypt.org/api/fx)
+          echo "$resp"
+          source=$(echo "$resp" | jq -r '.source')
+          date=$(echo "$resp" | jq -r '.date')
+          if [ "$source" != "ecb" ]; then
+            echo "::error::Site is using the FALLBACK exchange rates ($(echo "$resp" | jq -r '.reason'))"
+            exit 1
+          fi
+          age=$(( ( $(date -u +%s) - $(date -u -d "$date" +%s) ) / 86400 ))
+          if [ "$age" -gt 5 ]; then
+            echo "::error::ECB rates are $age days old ($date)"
+            exit 1
+          fi
+          echo "OK: ECB rates of $date ($age days old)"

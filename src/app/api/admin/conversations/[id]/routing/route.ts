@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { redirectTo } from '@/lib/http/redirect';
+
 import { requireAdminSession } from '@/lib/admin/guard';
 import { isRoutedBrand } from '@/lib/concierge/brands';
 import { conciergeDb } from '@/lib/supabase/server';
@@ -84,5 +86,5 @@ export async function POST(req: NextRequest, context: { params: Promise<{ id: st
   if (accept.includes('application/json')) {
     return NextResponse.json({ ok: true });
   }
-  return NextResponse.redirect(new URL(`/admin/conversations/${id}`, req.url), { status: 303 });
+  return redirectTo(`/admin/conversations/${id}`, 303);
 }

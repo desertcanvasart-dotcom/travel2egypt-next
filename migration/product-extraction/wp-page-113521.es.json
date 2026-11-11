@@ -1,0 +1,30 @@
+{
+  "slug": "3-day-siwa-journey-from-alexandria",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "La costa: El Alamein y la guerra del desierto",
+        "overnight": "Siwa",
+        "source": "La primera tarde es la puesta de sol en la isla de Fatnas, sobre el Birket Siwa —un lago salado con una sola isla a la sombra de las palmeras—, y la cena en el pueblo."
+      },
+      {
+        "day": 2,
+        "title": "Siwa: el oráculo, los lagos, el mar de arena",
+        "overnight": "Campamento del desierto o ecolodge de Siwa (Adrère Amellal o Talist)",
+        "source": "Té beduino al ocaso en el borde de las dunas, cena a la brasa y noche en un campamento del desierto o en uno de los ecolodges de Siwa (Adrère Amellal o Talist, según disponibilidad)."
+      },
+      {
+        "day": 3,
+        "title": "El regreso: Shali, los muertos y la costa",
+        "overnight": null,
+        "source": "Desde Siwa la ruta gira al norte de vuelta a Marsa Matruh sobre el Mediterráneo —playas del color que la postal sugeriría— y al este por la costa de regreso a Alejandría por la tarde."
+      }
+    ],
+    "dropped": 0
+  }
+}

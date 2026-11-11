@@ -1,0 +1,37 @@
+{
+  "slug": "essential-egypt",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "traslados privados",
+        "source": "La logística está gestionada por el operador de principio a fin —traslados privados, tu propio egiptólogo de habla hispana, vuelos internos, selección hotelera y faluca y cena-crucero bajo un mismo grupo."
+      },
+      {
+        "text": "tu propio egiptólogo de habla hispana",
+        "source": "La logística está gestionada por el operador de principio a fin —traslados privados, tu propio egiptólogo de habla hispana, vuelos internos, selección hotelera y faluca y cena-crucero bajo un mismo grupo."
+      },
+      {
+        "text": "hoteles cinco estrellas",
+        "source": "Carácter · Salida privada · su propio egiptólogo · hoteles cinco estrellas · vuelos internos, faluca y cena-crucero incluidos · ritmo honesto, varias jornadas genuinamente completas"
+      },
+      {
+        "text": "vuelos internos incluidos",
+        "source": "Carácter · Salida privada · su propio egiptólogo · hoteles cinco estrellas · vuelos internos, faluca y cena-crucero incluidos · ritmo honesto, varias jornadas genuinamente completas"
+      },
+      {
+        "text": "faluca incluida",
+        "source": "Carácter · Salida privada · su propio egiptólogo · hoteles cinco estrellas · vuelos internos, faluca y cena-crucero incluidos · ritmo honesto, varias jornadas genuinamente completas"
+      },
+      {
+        "text": "cena-crucero incluida",
+        "source": "Carácter · Salida privada · su propio egiptólogo · hoteles cinco estrellas · vuelos internos, faluca y cena-crucero incluidos · ritmo honesto, varias jornadas genuinamente completas"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

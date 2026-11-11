@@ -147,7 +147,7 @@ export const firstTimeContent: LocalizedJourney = {
     meta: {
       title: 'Primera vez en Egipto',
       description:
-        'Cómo planificamos un primer Egipto: El Cairo, el río entre Asuán y Luxor, qué debe entrar, qué puede esperar al segundo viaje y por qué el orden importa más que la lista.',
+        'Cómo planificamos un primer viaje a Egipto: El Cairo, el Nilo entre Asuán y Luxor, qué debe entrar, qué puede esperar y por qué importa el orden.',
     },
 
     masthead: {

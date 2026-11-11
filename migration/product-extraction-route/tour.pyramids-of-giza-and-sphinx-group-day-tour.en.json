@@ -1,0 +1,48 @@
+{
+  "slug": "pyramids-of-giza-and-sphinx-group-day-tour",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Add entry inside a pyramid (extra cost, on site)",
+        "source": "Optional inside-pyramid entry and camel or horse rides are available on site at additional cost and are not part of the package."
+      },
+      {
+        "option": "Add a camel or horse ride (extra cost, on site)",
+        "source": "Optional inside-pyramid entry and camel or horse rides are available on site at additional cost and are not part of the package."
+      },
+      {
+        "option": "Pair with the Grand Egyptian Museum",
+        "source": "A natural pairing with the new Grand Egyptian Museum (fully opened 1 November 2025) for a full Old Kingdom day; we can also extend into Memphis–Saqqara–Dahshur if you have a second day in town."
+      },
+      {
+        "option": "Extend to Memphis–Saqqara–Dahshur on a second day",
+        "source": "A natural pairing with the new Grand Egyptian Museum (fully opened 1 November 2025) for a full Old Kingdom day; we can also extend into Memphis–Saqqara–Dahshur if you have a second day in town."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Add entry inside a pyramid (extra cost, on site)",
+        "source": "Optional inside-pyramid entry and camel or horse rides are available on site at additional cost and are not part of the package."
+      },
+      {
+        "text": "Add a camel or horse ride (extra cost, on site)",
+        "source": "Optional inside-pyramid entry and camel or horse rides are available on site at additional cost and are not part of the package."
+      },
+      {
+        "text": "Pair with the Grand Egyptian Museum",
+        "source": "A natural pairing with the new Grand Egyptian Museum (fully opened 1 November 2025) for a full Old Kingdom day; we can also extend into Memphis–Saqqara–Dahshur if you have a second day in town."
+      },
+      {
+        "text": "Extend to Memphis–Saqqara–Dahshur on a second day",
+        "source": "A natural pairing with the new Grand Egyptian Museum (fully opened 1 November 2025) for a full Old Kingdom day; we can also extend into Memphis–Saqqara–Dahshur if you have a second day in town."
+      }
+    ],
+    "dropped": 0
+  }
+}

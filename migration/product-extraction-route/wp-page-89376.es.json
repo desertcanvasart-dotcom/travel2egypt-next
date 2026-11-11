@@ -1,0 +1,107 @@
+{
+  "slug": "10-days-nile-dreamer-tour-experience",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [
+      {
+        "from": "El Cairo",
+        "to": "Asuán",
+        "via": [],
+        "sources": [
+          "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre)",
+          "La ruta desciende de El Cairo a Asuán en tren nocturno, sube de nuevo a bordo de un crucero durante tres noches por Kom Ombo y Edfu hasta Luxor y regresa a la capital en avión."
+        ]
+      },
+      {
+        "from": "Asuán",
+        "to": "Luxor",
+        "via": [
+          "Kom Ombo",
+          "Edfu"
+        ],
+        "sources": [
+          "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre)",
+          "La ruta desciende de El Cairo a Asuán en tren nocturno, sube de nuevo a bordo de un crucero durante tres noches por Kom Ombo y Edfu hasta Luxor y regresa a la capital en avión."
+        ]
+      },
+      {
+        "from": "Luxor",
+        "to": "El Cairo",
+        "via": [],
+        "sources": [
+          "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre)",
+          "Por la tarde, desembarque y traslado al aeropuerto de Luxor para el breve vuelo doméstico de regreso a El Cairo, donde su conductor le recibe y le lleva al hotel para pasar la noche."
+        ]
+      }
+    ],
+    "customisationOptions": [
+      {
+        "option": "Añadir Abu Simbel en Asuán",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo."
+      },
+      {
+        "option": "Cambiar el museo de Tahrir por el GEM o el NMEC",
+        "source": "Cualquiera de las dos opciones, o ambas, puede sustituir la visita a Tahrir si se pide."
+      },
+      {
+        "option": "Añadir un vuelo en globo sobre la orilla occidental",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo."
+      },
+      {
+        "option": "Volar al sur en lugar de ir en tren nocturno",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [
+      {
+        "from": "El Cairo",
+        "to": "Asuán",
+        "via": [],
+        "mode": "sleeper_train",
+        "nights": 1,
+        "source": "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre) … La ruta desciende de El Cairo a Asuán en tren nocturno, sube de nuevo a bordo de un crucero durante tres noches por Kom Ombo y Edfu hasta Luxor y regresa a la capital en avión."
+      },
+      {
+        "from": "Asuán",
+        "to": "Luxor",
+        "via": [
+          "Kom Ombo",
+          "Edfu"
+        ],
+        "mode": "nile_cruise",
+        "nights": 3,
+        "source": "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre) … La ruta desciende de El Cairo a Asuán en tren nocturno, sube de nuevo a bordo de un crucero durante tres noches por Kom Ombo y Edfu hasta Luxor y regresa a la capital en avión."
+      },
+      {
+        "from": "Luxor",
+        "to": "El Cairo",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "Dónde · El Cairo → (tren nocturno) → Asuán → Kom Ombo → Edfu → Luxor → (vuelo) → El Cairo (con Menfis, Saqqara y Dahshur en el cierre) … Por la tarde, desembarque y traslado al aeropuerto de Luxor para el breve vuelo doméstico de regreso a El Cairo, donde su conductor le recibe y le lleva al hotel para pasar la noche."
+      }
+    ],
+    "options": [
+      {
+        "text": "Añadir Abu Simbel en Asuán",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo."
+      },
+      {
+        "text": "Cambiar el museo de Tahrir por el GEM o el NMEC",
+        "source": "Cualquiera de las dos opciones, o ambas, puede sustituir la visita a Tahrir si se pide."
+      },
+      {
+        "text": "Añadir un vuelo en globo sobre la orilla occidental",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo."
+      },
+      {
+        "text": "Volar al sur en lugar de ir en tren nocturno",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo en globo sobre la orilla occidental, un vuelo al sur en vez del tren nocturno— y armaremos los diez días contigo."
+      }
+    ],
+    "dropped": 0
+  }
+}

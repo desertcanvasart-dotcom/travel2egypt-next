@@ -1,0 +1,25 @@
+{
+  "slug": "4-days-city-break",
+  "lang": "ja",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "5つ星ホテル",
+        "source": "ホテルはあなたのご一行に合わせて選定した5つ星、移動は専用エアコン車、エジプト学ガイドは期間中あなたのご一行専属です。"
+      },
+      {
+        "text": "専用エアコン車での移動",
+        "source": "ホテルはあなたのご一行に合わせて選定した5つ星、移動は専用エアコン車、エジプト学ガイドは期間中あなたのご一行専属です。"
+      },
+      {
+        "text": "期間中ご一行専属のエジプト学ガイド",
+        "source": "ホテルはあなたのご一行に合わせて選定した5つ星、移動は専用エアコン車、エジプト学ガイドは期間中あなたのご一行専属です。"
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "slug": "13-day-impressive-egypt-tour",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Recepción en el Aeropuerto Internacional de El Cairo y traslado al hotel",
+        "source": "Recibimos al viajero en el Aeropuerto Internacional de El Cairo y lo trasladamos al hotel; El Cairo recompensa una noche de descanso antes de enfrentarse a él."
+      },
+      {
+        "text": "Traslado al Aeropuerto Internacional de El Cairo",
+        "source": "Tras el desayuno del día siguiente, traslado al Aeropuerto Internacional de El Cairo."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada a El Cairo",
+        "overnight": "El Cairo",
+        "source": "La primera noche es para la llegada."
+      },
+      {
+        "day": 2,
+        "title": "Vuelo a Luxor, Karnak y Luxor Temple",
+        "overnight": "Crucero por el Nilo",
+        "source": "Un vuelo temprano lleva al sur, a Luxor, la antigua Tebas."
+      },
+      {
+        "day": 3,
+        "title": "Orilla occidental: Valle de los Reyes",
+        "overnight": "Crucero por el Nilo",
+        "source": "El segundo día en Luxor cruza el río."
+      },
+      {
+        "day": 4,
+        "title": "Edfu y Kom Ombo",
+        "overnight": "Crucero por el Nilo",
+        "source": "El cuarto día atraca en Edfu por la mañana."
+      },
+      {
+        "day": 5,
+        "title": "Abu Simbel y Asuán",
+        "overnight": "Crucero por el Nilo",
+        "source": "El quinto día es el más largo."
+      },
+      {
+        "day": 6,
+        "title": "File y vuelo a El Cairo",
+        "overnight": "El Cairo",
+        "source": "La última mañana sobre el río se dedica a File."
+      },
+      {
+        "day": 7,
+        "title": "Menfis, Saqqara y Guiza",
+        "overnight": "El Cairo",
+        "source": "El séptimo día retrocede al inicio mismo de la construcción monumental en Egipto."
+      },
+      {
+        "day": 8,
+        "title": "Trayecto al Sinaí, Santa Catalina",
+        "overnight": "Santa Catalina",
+        "source": "El octavo día se mueve al este, hacia el Sinaí, y el paisaje cambia por completo."
+      },
+      {
+        "day": 9,
+        "title": "Ascensión al monte Sinaí y monasterio",
+        "overnight": "Santa Catalina",
+        "source": "La ascensión al monte Sinaí empieza antes del alba."
+      },
+      {
+        "day": 10,
+        "title": "Traslado a Sharm el-Sheij",
+        "overnight": "Sharm el-Sheij",
+        "source": "El décimo día traslada a Sharm el-Sheij, en la punta de la península del Sinaí, donde el golfo de Aqaba se encuentra con el golfo de Suez."
+      },
+      {
+        "day": 11,
+        "title": "Segundo día de Sharm: arrecife",
+        "overnight": "Sharm el-Sheij",
+        "source": "El mar Rojo guarda uno de los sistemas de arrecife más finos del mundo, y el segundo día de Sharm está dedicado a él, o no, según se prefiera."
+      },
+      {
+        "day": 12,
+        "title": "Regreso a El Cairo: Gran Museo Egipcio",
+        "overnight": "El Cairo",
+        "source": "Se vuelve a El Cairo para la última jornada completa."
+      },
+      {
+        "day": 13,
+        "title": "Traslado al Aeropuerto Internacional de El Cairo",
+        "overnight": null,
+        "source": "Tras el desayuno del día siguiente, traslado al Aeropuerto Internacional de El Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

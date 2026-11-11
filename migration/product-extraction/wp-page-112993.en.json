@@ -1,0 +1,97 @@
+{
+  "slug": "12-day-amazing-family-vacation-in-egypt",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Licensed English-speaking Egyptologist guide",
+        "source": "A licensed English-speaking Egyptologist guide, private air-conditioned transfers, and bottled water are included throughout."
+      },
+      {
+        "text": "Private air-conditioned transfers",
+        "source": "A licensed English-speaking Egyptologist guide, private air-conditioned transfers, and bottled water are included throughout."
+      },
+      {
+        "text": "Bottled water",
+        "source": "A licensed English-speaking Egyptologist guide, private air-conditioned transfers, and bottled water are included throughout."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival in Cairo, welcome dinner",
+        "overnight": "Cairo",
+        "source": "You are met at Cairo International Airport, transferred to your hotel, and sit down to a welcome dinner that introduces the Egyptian table — mezze, grilled meats, flatbreads — before any of the serious work begins."
+      },
+      {
+        "day": 2,
+        "title": "Giza plateau, Grand Egyptian Museum, Khan el-Khalili",
+        "overnight": "Cairo",
+        "source": "The second day covers more ground than any other Cairo day."
+      },
+      {
+        "day": 3,
+        "title": "Flight to Hurghada, all-inclusive resort",
+        "overnight": "Hurghada",
+        "source": "You arrive in Hurghada and check into your all-inclusive resort; the afternoon is yours immediately — beach, pool, a beachside dinner as the light leaves the water."
+      },
+      {
+        "day": 4,
+        "title": "First full Hurghada day: the reef",
+        "overnight": "Hurghada",
+        "source": "The Red Sea holds one of the most biodiverse coral reef systems on earth, and the first full Hurghada day is the one to meet it."
+      },
+      {
+        "day": 5,
+        "title": "Free day with no programme",
+        "overnight": "Hurghada",
+        "source": "The next day has no programme at all."
+      },
+      {
+        "day": 6,
+        "title": "Drive to Luxor, board Nile cruise",
+        "overnight": "Nile cruise",
+        "source": "You arrive in Luxor in the afternoon and board your S-grade Nile cruise ship, home for the next four nights."
+      },
+      {
+        "day": 7,
+        "title": "West Bank: the land of the dead",
+        "overnight": "Nile cruise",
+        "source": "The next morning the ship moors on the West Bank, and the day belongs to the land of the dead."
+      },
+      {
+        "day": 8,
+        "title": "Edfu and Kom Ombo",
+        "overnight": "Nile cruise",
+        "source": "The ship continues to Aswan overnight."
+      },
+      {
+        "day": 9,
+        "title": "Aswan: dam, obelisk, Philae, felucca",
+        "overnight": "Nile cruise",
+        "source": "The final evening aboard the cruise ship is a farewell dinner."
+      },
+      {
+        "day": 10,
+        "title": "Disembark and fly Aswan to Cairo",
+        "overnight": "Cairo",
+        "source": "You disembark in the morning and fly north from Aswan to Cairo."
+      },
+      {
+        "day": 11,
+        "title": "Coptic and Islamic Cairo",
+        "overnight": "Cairo",
+        "source": "The last full day explores the Cairo beyond the pharaonic story."
+      },
+      {
+        "day": 12,
+        "title": "Transfer to the airport",
+        "overnight": null,
+        "source": "The morning brings a transfer to the airport; for those with a late departure, additional time can be arranged."
+      }
+    ],
+    "dropped": 0
+  }
+}

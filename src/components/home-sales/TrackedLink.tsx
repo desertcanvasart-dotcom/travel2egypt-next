@@ -14,19 +14,22 @@ export function TrackedLink({
   listName,
   itemId,
   className,
+  params,
   children,
 }: {
   href: string;
   listName: string;
   itemId: string;
   className?: string;
+  /** Extra GA4 params (e.g. type: 'small_group'). */
+  params?: Record<string, string>;
   children: ReactNode;
 }) {
   return (
     <Link
       href={href}
       className={className}
-      onClick={() => track('select_item', { item_list_name: listName, item_id: itemId })}
+      onClick={() => track('select_item', { item_list_name: listName, item_id: itemId, ...params })}
     >
       {children}
     </Link>

@@ -59,9 +59,12 @@ export function Analytics({ locale }: { locale: string }) {
       <Script id="ga-bootstrap" strategy="afterInteractive">
         {gaBootstrapScript(GA_MEASUREMENT_ID)}
       </Script>
+      {/* lazyOnload (2026-11-09): the 194 KB gtag library competed with the
+          hero image for bandwidth on mobile. Events queue in dataLayer (the
+          bootstrap above defines gtag + consent defaults) and send once it loads. */}
       <Script
         id="ga-gtag"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
       />
     </>

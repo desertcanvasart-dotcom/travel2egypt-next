@@ -1,0 +1,66 @@
+{
+  "slug": "white-desert-wonders-4-day-cairo-and-white-desert-tour",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Meet at Cairo International Airport and transfer to hotel",
+        "source": "You are met at Cairo International Airport and taken to your hotel."
+      },
+      {
+        "text": "Desert safari in 4×4 vehicles with dedicated desert drivers",
+        "source": "After lunch the desert safari begins in 4×4 vehicles, with your dedicated desert drivers."
+      },
+      {
+        "text": "Camp in the open desert among the formations, dinner cooked over open fire",
+        "source": "Camp is made in the open desert among the formations, dinner is cooked over open fire, and the night does what no monument can: it gives you the sky the Sahara keeps exceptionally clear."
+      },
+      {
+        "text": "Egyptologist at Giza",
+        "source": "Your Egyptologist handles Giza; the desert drivers handle the 4×4 stretch from Bahariya into the chalk."
+      },
+      {
+        "text": "Transfer to Cairo International Airport",
+        "source": "After the visit, the tour transfers you to Cairo International Airport."
+      },
+      {
+        "text": "Private departure, operated for your party alone",
+        "source": "This is a private departure — operated for your party alone, never a shared group."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Day 3 dinner and evening are your own",
+        "source": "Dinner and the evening are your own."
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Cairo: the arrival",
+        "overnight": "Cairo",
+        "source": "You are met at Cairo International Airport and taken to your hotel."
+      },
+      {
+        "day": 2,
+        "title": "West to Bahariya and the White Desert",
+        "overnight": "Camp in the White Desert",
+        "source": "Camp is made in the open desert among the formations, dinner is cooked over open fire, and the night does what no monument can: it gives you the sky the Sahara keeps exceptionally clear."
+      },
+      {
+        "day": 3,
+        "title": "Back to Cairo: the return drive",
+        "overnight": "Cairo",
+        "source": "After breakfast in the open you return north to Bahariya Oasis, where the camp facilities allow a shower and a proper lunch, and the drive back to Cairo follows in the afternoon — four hours of desert giving way gradually to the outer suburbs of the capital."
+      },
+      {
+        "day": 4,
+        "title": "Giza: the close",
+        "overnight": null,
+        "source": "After the visit, the tour transfers you to Cairo International Airport."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "private-tour-local-market-with-horse-carriage",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Horse carriage for 1–2 people (Category 1)",
+        "source": "Inclusions: Horse carriage for 1–2 people"
+      },
+      {
+        "text": "Horse carriage + Expert English-speaking guide + Local market visit (Category 2)",
+        "source": "Inclusions: Horse carriage + Expert English-speaking guide + Local market visit"
+      },
+      {
+        "text": "Horse carriage + Guide + Local market visit + Local coffee shop experience (shisha + mango juice) (Category 3)",
+        "source": "Inclusions: Horse carriage + Guide + Local market visit + Local coffee shop experience (shisha + mango juice)"
+      },
+      {
+        "text": "One bottle of mineral water per person",
+        "source": "One bottle of mineral water per person is provided."
+      },
+      {
+        "text": "Shisha at the café (Category 3)",
+        "source": "The café in Category 3 serves shisha as part of the included experience."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Guide not included (Category 1)",
+        "source": "Guide: Not included"
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

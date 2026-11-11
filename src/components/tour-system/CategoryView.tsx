@@ -3,30 +3,43 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 
-import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
-import { bucketKey } from './lengthBucket';
-import { CategoryIndex, type CategoryRow } from './CategoryIndex';
+import { withoutRetiredSections } from './retiredEssaySections';
 import { JsonLd } from '@/components/JsonLd';
+import { Price } from '@/components/Price';
 import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
+import { getRates } from '@/lib/fx';
 import { MastheadStats } from './MastheadStats';
-import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { FloatingConcierge } from '../FloatingConcierge';
+import { DayHubList } from '@/components/day-hubs/DayHubList';
+import { DayHubEnd } from '@/components/day-hubs/DayHubEnd';
+import { buildDayHub, cityOptionsFor, dayCardRenderer, responseTimeFull } from '@/components/day-hubs/buildDayHub';
+import {
+  HOME_DAY_SLUGS,
+  NILE_KEYS,
+  cityKeyFor,
+  isRedSea,
+  minPrice,
+  primaryCity,
+  type RawHubTour,
+} from '@/components/day-hubs/dayHubData';
 import '@/styles/tour-system.css';
-
-import { WHATSAPP_LINK as WHATSAPP } from '@/lib/concierge/constants';
+import '@/styles/home-sales.css';
+import '@/styles/day-hubs.css';
 
 interface RawTour {
   _id: string;
+  enSlug?: string;
   title: string;
   slug: string;
   summary?: string;
   tourMode?: string;
+  priceFrom?: number | null;
   durationDays?: number;
   durationHours?: number;
   durationLabel?: string;
   heroImage?: { asset?: unknown; alt?: string } | null;
-  cities?: Array<{ _id: string; name: string; slug: string }>;
+  cities?: Array<{ _id: string; name: string; slug: string; enSlug?: string }>;
 }
 
 export interface CategoryArchiveDoc {
@@ -74,76 +87,28 @@ export async function CategoryView({
   const tArchive = await getTranslations('archive');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+  const th = await getTranslations('dayHub');
   const isGroup = mode === 'group';
+  const hubPath = isGroup ? '/group-day-tours' : '/private-day-tours';
+  const hub = hubPath.slice(1);
 
-  // Concierge CTA rides the site's one lever (CHAT_ENABLED).
-  const conciergeHref = isChatEnabled() ? '/plan-your-tour' : '/contact';
+  // ── Day-tour hub rebuild (owner spec, 2026-11-09). Order: hero (+ "from"
+  // line) → Where will you be? → Most booked → Every day (filters, sort, Red
+  // Sea section last) → editorial → inline itinerary form → footband. Nile
+  // Valley first; Red Sea products stay published and linked, in their own
+  // section at the bottom. ──
+  const [fx, rtFull] = await Promise.all([getRates(), responseTimeFull(locale)]);
+  const hubTours = tours as RawHubTour[];
+  const { items, cards, sorted, budgetEdges } = await buildDayHub(hubTours, { locale, hub, rates: fx.rates });
+  const nileTours = hubTours.filter((tr) => !isRedSea(primaryCity(tr).key));
+  const lowestNile = minPrice(nileTours);
+  const [heroBefore, heroAfter] = (th.raw('heroFrom') as string).split('{price}');
+  const [tileBefore, tileAfter] = (th.raw('tileFrom') as string).split('{price}');
 
-  const bucketLabel = (key: string) =>
-    key === 'half' ? t('lengthHalf') : key === 'extended' ? t('lengthExtended') : t('lengthFull');
-
-  // ── Editor's picks: always 1 lead + 2 sides, tours of THIS bucket's mode only.
-  // Curated `editorsPicks` first, then the `featured` tour, then top up from the
-  // (already mode-scoped) tours list so the 3-card grid never collapses even when
-  // curation is short or empty. Off-mode tours are filtered out so a mis-curated
-  // tour can never appear on the wrong page. ──
-  const isMine = (tr?: RawTour | null): tr is RawTour => Boolean(tr) && tr!.tourMode === mode;
-  const pickTours: RawTour[] = [];
-  const seenPicks = new Set<string>();
-  const curatedCount = (archive?.editorsPicks ?? []).filter(isMine).length;
-  // Group has no curated picks and sparse hero coverage; surface the few tours
-  // that DO carry a hero first so the marquee's prominent lead card isn't a
-  // placeholder. Private keeps its archive-curated order untouched.
-  const topUp = isGroup
-    ? [...tours].sort((a, b) => Number(Boolean(b.heroImage?.asset)) - Number(Boolean(a.heroImage?.asset)))
-    : tours;
-  for (const tr of [
-    ...(archive?.editorsPicks ?? []),
-    archive?.featured?.tour ?? null,
-    ...topUp,
-  ]) {
-    if (!isMine(tr) || seenPicks.has(tr._id)) continue;
-    seenPicks.add(tr._id);
-    pickTours.push(tr);
-    if (pickTours.length === 3) break;
-  }
-  if (curatedCount < 3) {
-    // eslint-disable-next-line no-console
-    console.warn(
-      `[${isGroup ? 'group-day-tours' : 'private-day-tours'}] editor's picks: only ${curatedCount} ${mode} tour(s) curated in dayToursArchive.editorsPicks; ` +
-        `topped up to ${pickTours.length} from featured + recent ${mode} tours. Curate 3 in Studio for editorial control.`,
-    );
-  }
-  const lead = pickTours[0];
-  const sides = pickTours.slice(1, 3);
-
-  const pickCard = (tour: RawTour, isLead: boolean) => {
-    const durLabel = tour.durationLabel || bucketLabel(bucketKey(tour));
-    const cityName = tour.cities?.[0]?.name;
-    return (
-      <Link key={tour._id} className={isLead ? 'tour tour--lead' : 'tour'} href={`/${tour.slug}`}>
-        <JourneyImage
-          image={tour.heroImage}
-          alt=""
-          className="tour-visual"
-          sizes={isLead ? '(max-width:980px) 100vw, 470px' : '(max-width:980px) 100vw, 474px'}
-          widthHint={isLead ? 940 : 950}
-          ratio={isLead ? 3 / 4 : 4 / 3}
-        />
-        <div className="tour-badge">
-          <span className="dur">{durLabel}</span>
-          {cityName && <span>· {cityName}</span>}
-        </div>
-        <h4 className="tour-name">{tour.title}</h4>
-        {tour.summary && <p className="tour-desc">{tour.summary}</p>}
-      </Link>
-    );
-  };
-
-  // ── Navigator. The group page passes `navLandings` (city landings); the
-  // private page sources its curated navigator from the dayToursArchive
-  // singleton. Both normalise to {slug, cityId, cityName, note} and derive the
-  // per-city count from the (mode-scoped) tours list — one source of truth. ──
+  // ── Where will you be? The private page sources its navigator from the
+  // dayToursArchive singleton; the group page passes city landings. Nile
+  // Valley cities become tiles with a "from" price; Red Sea cities collapse
+  // into one text line that jumps to the Red Sea section. ──
   const navSource: CategoryNavLanding[] = navLandings
     ? navLandings
     : (archive?.navigator?.items ?? []).map((it) => ({
@@ -155,68 +120,50 @@ export async function CategoryView({
   const navItems = navSource
     .filter((it) => it.slug && it.cityId)
     .map((it) => {
-      const count = tours.filter((tr) => tr.cities?.some((c) => c._id === it.cityId)).length;
+      const cityTours = hubTours.filter((tr) => tr.cities?.some((c) => c._id === it.cityId));
+      const cityRef = hubTours.flatMap((tr) => tr.cities ?? []).find((c) => c._id === it.cityId);
       return {
         id: it.cityId!,
         cityName: it.cityName ?? '',
         note: it.note,
-        countLabel: t('cityTourCount', { count }),
+        redSea: isRedSea(cityKeyFor(cityRef?.enSlug ?? it.slug?.replace(/-(private|small-group)-day-tours$/, ''))),
+        countLabel: t('cityTourCount', { count: cityTours.length }),
+        fromEur: minPrice(cityTours),
         href: `/${it.slug}`,
       };
     });
+  // Nile Valley order: Cairo & Giza, Luxor, Aswan, Alexandria, then others.
+  const tileRank = (id: string) => {
+    const ref = hubTours.flatMap((tr) => tr.cities ?? []).find((c) => c._id === id);
+    const i = (NILE_KEYS as readonly string[]).indexOf(cityKeyFor(ref?.enSlug));
+    return i === -1 ? NILE_KEYS.length : i;
+  };
+  const nileTiles = navItems.filter((n) => !n.redSea).sort((a, b) => tileRank(a.id) - tileRank(b.id));
+  const hasRedSea = items.some((i) => i.redSea);
 
-  // ── Index rows + facet options ──
-  const rows: CategoryRow[] = tours
-    .filter((tr) => tr.slug)
-    .map((tr) => {
-      const key = bucketKey(tr);
-      return {
-        id: tr._id,
-        name: tr.title,
-        durKey: key,
-        durLabel: tr.durationLabel || bucketLabel(key),
-        cityName: tr.cities?.[0]?.name ?? '',
-        citySlug: tr.cities?.[0]?.slug ?? '',
-        href: `/${tr.slug}`,
-      };
-    });
-  const cityMap = new Map<string, string>();
-  for (const r of rows) if (r.citySlug) cityMap.set(r.citySlug, r.cityName);
-  const cityOptions = Array.from(cityMap, ([value, label]) => ({ value, label })).sort((a, b) =>
-    a.label.localeCompare(b.label)
-  );
-  const lengthOptions = [
-    { value: 'half', label: t('lengthHalf') },
-    { value: 'full', label: t('lengthFull') },
-    { value: 'extended', label: t('lengthExtended') },
-  ];
+  // ── Most booked: the homepage day-tour products in this page's mode. ──
+  const byEnSlug = new Map(hubTours.map((tr) => [tr.enSlug, tr]));
+  const renderCard = await dayCardRenderer(locale);
+  const mostBooked = HOME_DAY_SLUGS.map((s) => byEnSlug.get(s))
+    .filter((tr): tr is RawHubTour => Boolean(tr) && tr!.tourMode === mode)
+    .slice(0, 6);
+
+  const cityOpts = await cityOptionsFor(hubTours, locale);
 
   // ── Copy. Private uses the dayToursArchive doc fields (with i18n fallbacks);
-  // group has no archive singleton, so it reads a dedicated `grpDayCat*` set in
-  // the tourSystem namespace. Centralised here so the JSX stays mode-agnostic.
-  // Byline heading + note are REQUIRED content — the aside must never render with
-  // only its kicker, so every value resolves to copy in every locale. ──
+  // group reads the `grpDayCat*` set. ──
   const c = isGroup
     ? {
         crumb: ts('grpDayCatTitle'),
         mastKicker: ts('grpDayCatMastKicker'),
         mastTitle: ts('grpDayCatTitle'),
         mastTag: ts('grpDayCatDeck'),
-        whyKicker: ts('grpDayCatWhyKicker'),
         whyHeading: ts('grpDayCatWhyHeading'),
         whyNote: ts('grpDayCatWhyNote'),
         navTitle: ts('grpDayCatNavTitle'),
-        picksKicker: ts('grpDayCatPicksKicker'),
-        picksTitle: ts('grpDayCatPicksTitle'),
-        picksTitleEm: ts('grpDayCatPicksTitleEm'),
-        picksIntro: ts('grpDayCatPicksIntro'),
         indexTitle: ts('grpDayCatIndexTitle'),
         indexTitleEm: ts('grpDayCatIndexTitleEm'),
         indexIntro: ts('grpDayCatIndexIntro'),
-        ctaKicker: ts('grpDayCatCtaKicker'),
-        ctaTitle: ts('grpDayCatCtaTitle'),
-        ctaTitleEm: ts('grpDayCatCtaTitleEm'),
-        ctaBody: ts('grpDayCatCtaBody'),
         footSeasonLabel: ts('grpDayCatFootSeasonLabel'),
         footSeasonBody: ts('grpDayCatFootSeasonBody'),
         statAxis: ts('dayCatStatCities'),
@@ -227,21 +174,12 @@ export async function CategoryView({
         mastKicker: archive?.kicker ?? ts('mastKicker'),
         mastTitle: archive?.title ?? t('landingTitle'),
         mastTag: archive?.tagline ?? t('landingDeck'),
-        whyKicker: archive?.editorByline?.kicker ?? ts('whyKicker'),
         whyHeading: archive?.editorByline?.heading ?? ts('whyHeading'),
         whyNote: archive?.editorByline?.intro ?? ts('whyNote'),
         navTitle: archive?.navigator?.heading ?? ts('navTitle'),
-        picksKicker: ts('picksKicker'),
-        picksTitle: ts('picksTitle'),
-        picksTitleEm: ts('picksTitleEm'),
-        picksIntro: ts('picksIntro'),
         indexTitle: ts('indexTitle'),
         indexTitleEm: ts('indexTitleEm'),
         indexIntro: t('indexIntro'),
-        ctaKicker: ts('ctaKicker'),
-        ctaTitle: ts('ctaTitleL1'),
-        ctaTitleEm: ts('ctaTitleL1Em'),
-        ctaBody: ts('ctaBodyL1'),
         footSeasonLabel: t('footInSeasonLabel'),
         footSeasonBody: t('footInSeasonBody'),
         statAxis: ts('dayCatStatCities'),
@@ -252,24 +190,21 @@ export async function CategoryView({
     { label: c.statCount, value: tours.length },
     { label: ts('catStatSince'), value: 1993 },
   ];
-  // The editorial section always renders: the byline always has content, and the
-  // essay shows when present.
-  const hasEditorial = true;
+  // ItemList: the main (Nile Valley) list only, in the Recommended order.
+  const itemListTours = sorted.filter((tr) => !isRedSea(primaryCity(tr).key));
 
   return (
-    <div className="tour-doc lvl-category">
+    <div className="tour-doc lvl-category lvl-dayhub">
       <JsonLd
         data={[
-          // s47 audit (2026-08-18): the hub category pages were the only
-          // landing type without BreadcrumbList; grid gets an ItemList.
           buildBreadcrumbList(
             [
               { name: tNav('home'), path: '/' },
-              { name: c.crumb, path: mode === 'group' ? '/group-day-tours' : '/private-day-tours' },
+              { name: c.crumb, path: hubPath },
             ],
             locale,
           ),
-          buildItemListSchema(tours, locale),
+          buildItemListSchema(itemListTours, locale),
         ]}
       />
       <div className="t2e-wrap">
@@ -281,48 +216,25 @@ export async function CategoryView({
           </ol>
         </nav>
 
-        <header className="masthead">
+        <header className="masthead dh-mast">
           <div className="mast-lead">
             <span className="t2e-kicker">{c.mastKicker}</span>
             <h1 className="mast-title">{c.mastTitle}</h1>
             <p className="mast-tag">{c.mastTag}</p>
+            {lowestNile && (
+              <p className="dh-from">
+                {heroBefore}
+                <Price eur={lowestNile} />
+                {heroAfter}
+              </p>
+            )}
           </div>
           <MastheadStats stats={heroStats} />
         </header>
       </div>
 
-      {hasEditorial && (
-        <section className="editorial">
-          <div className="t2e-wrap intro-grid">
-            <aside className="byline">
-              <span className="t2e-kicker">{c.whyKicker}</span>
-              <h3>{c.whyHeading}</h3>
-              <p>{c.whyNote}</p>
-            </aside>
-            <article className="article">
-              {archive?.essay ? (
-                <TourProse value={archive.essay} locale={locale} />
-              ) : isGroup ? (
-                // Group has no archive essay; render the i18n editorial framing so
-                // the article column is never a blank frame (rules §3). First
-                // paragraph carries `.lead` for the reference drop-cap.
-                ts('grpDayCatEssay')
-                  .split('\n\n')
-                  .map((para, i) => (
-                    <p key={i} className={i === 0 ? 'lead' : undefined}>
-                      {para}
-                    </p>
-                  ))
-              ) : (
-                <TourProse value={archive?.essay} locale={locale} />
-              )}
-            </article>
-          </div>
-        </section>
-      )}
-
-      {navItems.length > 0 && (
-        <section className="navigator">
+      {nileTiles.length > 0 && (
+        <section className="navigator dh-nav">
           <div className="t2e-wrap">
             <div className="t2e-section-head">
               <div>
@@ -332,39 +244,53 @@ export async function CategoryView({
               {archive?.navigator?.intro && <p>{archive.navigator.intro}</p>}
             </div>
             <div className="city-grid">
-              {navItems.map((c) => (
-                <Link key={c.id} className="city" href={c.href}>
+              {nileTiles.map((n) => (
+                <Link key={n.id} className="city" href={n.href}>
                   <span>
-                    <span className="c-name">{c.cityName}</span>
-                    {c.note && <span className="c-note">{c.note}</span>}
+                    <span className="c-name">{n.cityName}</span>
+                    {n.note && <span className="c-note">{n.note}</span>}
                   </span>
-                  <span className="c-count">{c.countLabel}</span>
+                  <span className="c-count">
+                    {n.countLabel}
+                    {n.fromEur ? (
+                      <span className="c-from">
+                        {tileBefore}
+                        <Price eur={n.fromEur} />
+                        {tileAfter}
+                      </span>
+                    ) : null}
+                  </span>
                 </Link>
               ))}
             </div>
+            {hasRedSea && (
+              <p className="dh-redsea-line">
+                <a href="#red-sea">{th('redSeaLine')}</a>
+              </p>
+            )}
           </div>
         </section>
       )}
 
-      {lead && (
-        <section className="picks">
+      {mostBooked.length > 0 && (
+        <section className="dh-mb" aria-labelledby="h-dh-mb">
           <div className="t2e-wrap">
             <div className="t2e-section-head">
               <div>
-                <span className="t2e-kicker">{c.picksKicker}</span>
-                <h2>{c.picksTitle} <em>{c.picksTitleEm}</em></h2>
+                <span className="t2e-kicker">{th('mbKicker')}</span>
+                <h2 id="h-dh-mb">{th('mbTitle')}</h2>
               </div>
-              <p>{c.picksIntro}</p>
             </div>
-            <div className="grid-lead">
-              {pickCard(lead, true)}
-              {sides.map((s) => pickCard(s, false))}
+            <div className="lvl-home lvl-sales">
+              <ul className="dcards">
+                {mostBooked.map((tr) => renderCard(tr, { listName: 'day_hub_most_booked', hub }))}
+              </ul>
             </div>
           </div>
         </section>
       )}
 
-      <section className="index">
+      <section className="index dh-index" id="every-day">
         <div className="t2e-wrap">
           <div className="t2e-section-head">
             <div>
@@ -373,39 +299,43 @@ export async function CategoryView({
             </div>
             <p>{c.indexIntro}</p>
           </div>
-          <CategoryIndex
-            rows={rows}
-            cityOptions={cityOptions}
-            lengthOptions={lengthOptions}
-            labels={{
-              cityLabel: t('filterCity'),
-              lengthLabel: t('filterLength'),
-              allCity: tArchive('all'),
-              anyLength: t('anyLength'),
-              lengthHint: t('lengthHint'),
-              empty: tArchive('emptyState'),
-            }}
+          <DayHubList
+            items={items}
+            cards={cards}
+            budgetEdges={budgetEdges}
+            cityOptions={{ nile: cityOpts.nile, redSea: cityOpts.redSea }}
+            cityAliases={cityOpts.aliases}
+            lengthLabels={{ label: t('filterLength'), any: t('anyLength'), half: t('lengthHalf'), full: t('lengthFull'), extended: t('lengthExtended') }}
+            lengthNote={t('lengthHint')}
+            hub={hub}
           />
         </div>
       </section>
 
-      <section className="concierge-cta">
-        <div className="t2e-wrap">
-          <div className="cta-inner">
-            <span className="t2e-kicker">{c.ctaKicker}</span>
-            <h2>{c.ctaTitle} <em>{c.ctaTitleEm}</em></h2>
-            <p>{c.ctaBody}</p>
-            <div className="cta-buttons">
-              <Link className="cta-btn cta-btn--primary" href={conciergeHref}>
-                {ts('ctaPrimary')} <span className="cta-arrow" aria-hidden>→</span>
-              </Link>
-              <a className="cta-btn cta-btn--ghost" href={`${WHATSAPP}?text=${encodeURIComponent(ts('waLandingText', { title: c.mastTitle }))}`} target="_blank" rel="noopener noreferrer">
-                {ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span>
-              </a>
-            </div>
-          </div>
+      <section className="editorial dh-how">
+        <div className="t2e-wrap intro-grid">
+          <aside className="byline">
+            <span className="t2e-kicker">{th('howKicker')}</span>
+            <h3>{c.whyHeading}</h3>
+            <p>{c.whyNote}</p>
+          </aside>
+          <article className="article">
+            {archive?.essay ? (
+              <TourProse value={withoutRetiredSections(archive.essay)} locale={locale} />
+            ) : isGroup ? (
+              ts('grpDayCatEssay')
+                .split('\n\n')
+                .map((para, i) => (
+                  <p key={i} className={i === 0 ? 'lead' : undefined}>
+                    {para}
+                  </p>
+                ))
+            ) : null}
+          </article>
         </div>
       </section>
+
+      <DayHubEnd locale={locale} hub={hub} responseTimeFull={rtFull} />
 
       <section className="t2e-footband">
         <div className="t2e-wrap t2e-footband-grid">

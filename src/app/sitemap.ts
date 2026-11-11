@@ -123,6 +123,7 @@ const STATIC_PATHS: Array<{ path: string; priority?: number }> = [
   // Paths are the EN pathnames keys; buildLocaleUrl → getPathname emits the
   // localized ES/JA leaves declared in routing.ts (audit fix: these pages
   // were absent from the sitemap in all locales).
+  { path: '/journeys', priority: 0.7 },
   { path: '/journeys/first-time-in-egypt', priority: 0.7 },
   { path: '/journeys/the-cultural-traveller', priority: 0.7 },
   { path: '/journeys/travelling-as-a-family', priority: 0.7 },

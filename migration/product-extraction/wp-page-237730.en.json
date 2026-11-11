@@ -1,0 +1,61 @@
+{
+  "slug": "cairo-and-alexandria-4-days-family-package",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Private departure, your party alone",
+        "source": "This is a private departure, your party alone, your own Egyptologist throughout, the hotels chosen for family suitability."
+      },
+      {
+        "text": "Your own Egyptologist throughout",
+        "source": "This is a private departure, your party alone, your own Egyptologist throughout, the hotels chosen for family suitability."
+      },
+      {
+        "text": "Hotels chosen for family suitability",
+        "source": "This is a private departure, your party alone, your own Egyptologist throughout, the hotels chosen for family suitability."
+      },
+      {
+        "text": "Private car",
+        "source": "The car is yours."
+      },
+      {
+        "text": "Welcome at the airport",
+        "source": "The trip opens with a welcome at the airport and the afternoon free at the hotel — a swim, an early dinner, the long flight absorbed."
+      },
+      {
+        "text": "Airport transfer",
+        "source": "A long lunch, a final souvenir stop, and the airport transfer closes the four days."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Welcome at the airport, afternoon free",
+        "overnight": "Cairo",
+        "source": "The trip opens with a welcome at the airport and the afternoon free at the hotel — a swim, an early dinner, the long flight absorbed."
+      },
+      {
+        "day": 2,
+        "title": "The first full day is Giza",
+        "overnight": "Cairo",
+        "source": "The first full day is Giza."
+      },
+      {
+        "day": 3,
+        "title": "A day-trip north to Alexandria",
+        "overnight": "Cairo",
+        "source": "A day-trip north to Alexandria — three hours each way by road along the desert highway — gives the trip its sea air."
+      },
+      {
+        "day": 4,
+        "title": "The slower half of Cairo",
+        "overnight": null,
+        "source": "The final day is the slower half of Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -121,6 +121,14 @@ export const editorialPageSchema = defineType({
             defineField(
               localizedPortableTextField('body', { title: 'Body' }) as any
             ),
+            defineField({
+              name: 'anchor',
+              title: 'Anchor id',
+              description:
+                'Optional. Lets other pages link straight to this section, e.g. "accreditations" → /contact#accreditations. Lowercase letters, digits and hyphens.',
+              type: 'string',
+              validation: (Rule) => Rule.regex(/^[a-z0-9-]+$/, { name: 'anchor' }),
+            }),
           ],
           preview: {
             select: { heading: 'heading' },

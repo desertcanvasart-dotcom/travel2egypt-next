@@ -1,0 +1,37 @@
+{
+  "slug": "snorkeling-adventure-on-the-nefertari-submarine",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Una botella de agua mineral por persona",
+        "source": "La salida acepta reservas desde una sola persona, sin mínimo de grupo, y se incluye una botella de agua mineral por persona junto con la comida y la bebida de bienvenida."
+      },
+      {
+        "text": "Comida",
+        "source": "La salida acepta reservas desde una sola persona, sin mínimo de grupo, y se incluye una botella de agua mineral por persona junto con la comida y la bebida de bienvenida."
+      },
+      {
+        "text": "Bebida de bienvenida",
+        "source": "La salida acepta reservas desde una sola persona, sin mínimo de grupo, y se incluye una botella de agua mineral por persona junto con la comida y la bebida de bienvenida."
+      },
+      {
+        "text": "Equipo de snorkel",
+        "source": "Se proporciona equipo de snorkel; conviene llevar toalla propia para secarse después, ya que no se entregan."
+      },
+      {
+        "text": "Traslado al hotel privado para su grupo",
+        "source": "El traslado al hotel es privado para su grupo; el Nefertari en sí es una embarcación compartida, operada por su tripulación."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "Toallas (no se entregan)",
+        "source": "Se proporciona equipo de snorkel; conviene llevar toalla propia para secarse después, ya que no se entregan."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

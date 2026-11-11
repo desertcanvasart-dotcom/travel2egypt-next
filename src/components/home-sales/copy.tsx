@@ -124,7 +124,7 @@ export interface HomeCopy {
 const EN: HomeCopy = {
   metaTitle: 'Egypt Tours & Nile Cruises — Private, Priced Openly | Travel2Egypt',
   metaDescription: (t, d) =>
-    `${t && d ? `Private Egypt tours from ${t} and day tours from ${d}, ` : 'Private Egypt tours and day tours, '}run by a Cairo operator guiding since 1993. Cairo, the Nile, Luxor, Aswan and Abu Simbel, customised to your dates.`,
+    `${t && d ? `Private Egypt tours from ${t} and day tours from ${d}: ` : 'Private Egypt tours and day tours: '}Cairo, the Nile, Luxor, Aswan and Abu Simbel, customised to your dates. Guiding since 1993.`,
   itemListName: 'Egypt tours to start with',
   from: (p) => <>from {p}</>,
   fromPerPerson: (p) => <>from {p} per person</>,
@@ -213,7 +213,7 @@ const EN: HomeCopy = {
       'day-tour-to-karnak-luxor-temples-luxor-museum': 'Karnak, Luxor Temple & the Luxor Museum',
       'grand-west-bank-group-day-tour-luxor': 'The Grand West Bank',
       'skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience': 'Luxor sunrise balloon',
-      'private-tour-abu-simble-by-bus-from-aswan': 'Abu Simbel by car from Aswan',
+      'abu-simbel-by-car-from-aswan': 'Abu Simbel by car from Aswan',
       'nubian-temples-day-tour-from-aswan': 'Nubian temples: Kalabsha & Beit el-Wali',
       'aswan-felucca-adventure': 'Felucca sail with a Nile-side lunch',
       '2-day-pyramids-mediterranean-tour': 'Alexandria in a day: catacombs & the coast',
@@ -269,8 +269,8 @@ const EN: HomeCopy = {
     h2: 'Tell us your dates. We’ll send a plan and a price.',
     free: 'Free, with no obligation.',
     preferChat: 'Prefer to chat?',
-    stillExploring: 'Still exploring?',
-    concierge: 'Talk it through with our AI concierge →',
+    stillExploring: 'Not sure yet?',
+    concierge: 'Get advice from our Egypt travel specialists →',
   },
   hrefs: {},
 };
@@ -278,7 +278,7 @@ const EN: HomeCopy = {
 const ES: HomeCopy = {
   metaTitle: 'Viajes privados a Egipto y cruceros por el Nilo | Travel2Egypt',
   metaDescription: (t, d) =>
-    `${t && d ? `Viajes privados por Egipto desde ${t} y excursiones de un día desde ${d}, ` : 'Viajes privados por Egipto y excursiones de un día, '}con un operador de El Cairo que guía desde 1993. El Cairo, el Nilo, Luxor, Asuán y Abu Simbel, a tu medida.`,
+    `${t && d ? `Viajes privados por Egipto desde ${t} y excursiones de un día desde ${d}: ` : 'Viajes privados por Egipto y excursiones de un día: '}El Cairo, el Nilo, Luxor, Asuán y Abu Simbel, a tu medida. Guías desde 1993.`,
   itemListName: 'Viajes por Egipto para empezar',
   from: (p) => <>desde {p}</>,
   fromPerPerson: (p) => <>desde {p} por persona</>,
@@ -373,7 +373,7 @@ const ES: HomeCopy = {
       'day-tour-to-karnak-luxor-temples-luxor-museum': 'Karnak, el templo de Luxor y el Museo de Luxor',
       'grand-west-bank-group-day-tour-luxor': 'La gran orilla occidental',
       'skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience': 'Globo al amanecer en Luxor',
-      'private-tour-abu-simble-by-bus-from-aswan': 'Abu Simbel en coche desde Asuán',
+      'abu-simbel-by-car-from-aswan': 'Abu Simbel en coche desde Asuán',
       'nubian-temples-day-tour-from-aswan': 'Templos nubios: Kalabsha y Beit el-Wali',
       'aswan-felucca-adventure': 'Faluca con almuerzo a orillas del Nilo',
       '2-day-pyramids-mediterranean-tour': 'Alejandría en un día: catacumbas y costa',
@@ -441,8 +441,8 @@ const ES: HomeCopy = {
     h2: 'Cuéntanos tus fechas. Te enviamos un plan y un precio.',
     free: 'Gratis y sin compromiso.',
     preferChat: '¿Prefieres chatear?',
-    stillExploring: '¿Todavía explorando?',
-    concierge: 'Háblalo con nuestro concierge de IA →',
+    stillExploring: '¿Aún no lo tienes claro?',
+    concierge: 'Pide consejo a nuestros especialistas en Egipto →',
   },
   hrefs: {
     '/egypt-travel-packages': '/paquetes-de-viaje-a-egipto',
@@ -561,7 +561,7 @@ const JA: HomeCopy = {
       'day-tour-to-karnak-luxor-temples-luxor-museum': 'カルナック神殿、ルクソール神殿、ルクソール博物館',
       'grand-west-bank-group-day-tour-luxor': 'ルクソール西岸をめぐる一日',
       'skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience': 'ルクソール、夜明けの熱気球',
-      'private-tour-abu-simble-by-bus-from-aswan': 'アスワンから車で行くアブ・シンベル',
+      'abu-simbel-by-car-from-aswan': 'アスワンから車で行くアブ・シンベル',
       'nubian-temples-day-tour-from-aswan': 'ヌビアの神殿：カラブシャとベイト・エル＝ワリ',
       'aswan-felucca-adventure': 'フェルッカ・セーリングとナイル河畔の昼食',
       '2-day-pyramids-mediterranean-tour': '一日で巡るアレクサンドリア：カタコンベと海岸',
@@ -629,8 +629,8 @@ const JA: HomeCopy = {
     h2: '日程を教えてください。プランと料金をお送りします。',
     free: '無料・義務なし。',
     preferChat: 'チャットがお好みなら：',
-    stillExploring: 'まだ検討中ですか？',
-    concierge: 'AIコンシェルジュに相談する →',
+    stillExploring: '迷ったら、',
+    concierge: 'エジプト旅行の専門スタッフにご相談ください →',
   },
   hrefs: {
     '/egypt-travel-packages': '/ejiputo-ryoko-pakkeeji',

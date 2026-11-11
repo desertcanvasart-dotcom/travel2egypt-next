@@ -1,0 +1,62 @@
+{
+  "slug": "white-desert-wonders-4-day-cairo-and-white-desert-tour",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Recepción en el Aeropuerto Internacional de El Cairo y traslado al hotel",
+        "source": "Lo recibimos en el Aeropuerto Internacional de El Cairo y lo trasladamos a su hotel."
+      },
+      {
+        "text": "Safari en vehículos 4×4 con conductores dedicados del desierto",
+        "source": "Tras el almuerzo empieza el safari en vehículos 4×4 con sus conductores dedicados del desierto."
+      },
+      {
+        "text": "Egiptólogo en Guiza",
+        "source": "Su egiptólogo se ocupa de Guiza; los conductores del desierto manejan el tramo en 4×4 desde Bahariya hasta la tiza."
+      },
+      {
+        "text": "Traslado al Aeropuerto Internacional de El Cairo",
+        "source": "Tras la visita, el viaje traslada al viajero al Aeropuerto Internacional de El Cairo."
+      },
+      {
+        "text": "Salida privada, operada en exclusiva para su grupo",
+        "source": "Es una salida privada —operada en exclusiva para su grupo, nunca compartida—."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "La cena y la velada del tercer día quedan libres",
+        "source": "La cena y la velada quedan libres."
+      }
+    ],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "El Cairo: la llegada",
+        "overnight": "El Cairo (hotel)",
+        "source": "Lo recibimos en el Aeropuerto Internacional de El Cairo y lo trasladamos a su hotel."
+      },
+      {
+        "day": 2,
+        "title": "Al oeste, a Bahariya y al Desierto Blanco",
+        "overnight": "Campamento en el Desierto Blanco",
+        "source": "El campamento se monta a cielo abierto entre las formaciones, la cena se cocina al fuego y la noche hace lo que ningún monumento puede: entrega el cielo que el Sahara mantiene excepcionalmente despejado."
+      },
+      {
+        "day": 3,
+        "title": "De vuelta a El Cairo",
+        "overnight": "El Cairo",
+        "source": "Tras el desayuno al aire libre se regresa al norte, al oasis de Bahariya, donde las instalaciones del campamento permiten una ducha y un almuerzo decente, y la conducción de regreso a El Cairo sigue por la tarde —cuatro horas de desierto cediendo paulatinamente a los suburbios exteriores de la capital—."
+      },
+      {
+        "day": 4,
+        "title": "Guiza: el cierre",
+        "overnight": null,
+        "source": "Tras la visita, el viaje traslada al viajero al Aeropuerto Internacional de El Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

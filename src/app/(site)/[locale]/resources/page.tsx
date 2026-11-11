@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { Link } from '@/i18n/navigation';
+import { ArticleJsonLd } from '@/components/ArticleJsonLd';
 import type { Locale } from '@/i18n/routing';
 import { buildStaticMetadata } from '@/lib/seo';
 import { FieldGuideShell, FieldMasthead } from '@/components/resources';
@@ -107,6 +108,7 @@ export default async function ResourcesIndexPage({ params }: Props) {
 
   return (
     <FieldGuideShell>
+      <ArticleJsonLd title={t('indexTitle')} description={t('metaDescription')} path="/resources" locale={locale as Locale} />
       <FieldMasthead
         number={t('indexNumber')}
         region={t('indexRegion')}

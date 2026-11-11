@@ -8,14 +8,17 @@ import { otherTrackLandingSlugQuery } from '@/sanity/lib/queries';
 import type { Locale } from '@/i18n/routing';
 
 import { Price } from '../Price';
-import { CurrencyNote } from '../CurrencyNote';
 import { JsonLd } from '../JsonLd';
 import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-data';
 
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
-import { FloatingConcierge } from '../FloatingConcierge';
-import { isChatEnabled } from '@/lib/concierge/chatEnabled';
+import { LazyFloatingConcierge } from '../LazyFloatingConcierge';
+import { DayTourPanel, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
+import { MakeItYourOwn, CompactStickyCard } from '../product/RightColumn';
+import { ProductViewTracker } from '../product/ProductActions';
+import { HOME_COPY, homeLocale } from '../home-sales/copy';
+import { buildProductOffer } from '@/lib/productOffer';
 import '@/styles/tour-system.css';
 
 import { WHATSAPP_LINK as WHATSAPP, waTourTitle } from '@/lib/concierge/constants';
@@ -46,8 +49,6 @@ export interface SingleTour {
   effortLevel?: string;
   departsFrom?: string;
   priceFrom?: number;
-  /** ES/JA page showing the Spanish/Japanese-speaking-guide price. */
-  guidePriced?: boolean;
   timeline?: Array<{ time?: string; description?: string }> | null;
   conciergeNote?: string;
   includedItems?: string[] | null;
@@ -59,9 +60,16 @@ export interface SingleTour {
   shapeOfDay?: { where?: string; duration?: string; character?: string } | null;
   priceTiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }> | null;
   priceNote?: string;
+  /** ES/JA: priceFrom includes the guide-language supplement. */
+  guidePriced?: boolean | null;
   trustSignals?: string[] | null;
   accreditations?: string;
-  relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[] }> | null;
+  relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[]; priceFrom?: number | null }> | null;
+  approvedInclusions?: string[] | null;
+  approvedExclusions?: string[] | null;
+  /** Owner-approved "Make it your own" options (this language). */
+  approvedOptions?: string[] | null;
+  priceUpdatedAt?: string;
   relatedGuides?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   relatedGuideArticles?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   journalRefs?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
@@ -75,16 +83,9 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const tSub = await getTranslations('subcategory');
   const tNav = await getTranslations('nav');
   const ts = await getTranslations('tourSystem');
+  const tp = await getTranslations('productPanel');
   const waHref = `${WHATSAPP}?text=${encodeURIComponent(ts('waTourText', { title: waTourTitle(tour.title) }))}`;
 
-  // Concierge CTAs ride the site's one lever (CHAT_ENABLED): → /plan-your-tour
-  // with this tour's context when chat is live, → /contact fail-safe otherwise.
-  const conciergeHref = isChatEnabled()
-    ? `/plan-your-tour?tour=${encodeURIComponent(tour.slug)}`
-    : '/contact';
-  // The ?tour= variants all canonicalise to /plan-your-tour; keep crawlers from
-  // following one per tour × locale (GSC "Alternate page with proper canonical").
-  const conciergeRel = isChatEnabled() ? 'nofollow' : undefined;
 
   const isGroup = tour.tourMode === 'group';
   const trackLabel = isGroup ? tSub('trackGroup') : tSub('trackPrivate');
@@ -107,18 +108,14 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const fromAmount = typeof tour.priceFrom === 'number' ? tour.priceFrom : tier0?.price;
   const fromEl = typeof fromAmount === 'number' ? <Price eur={fromAmount} unit="pp" /> : null;
 
-  const metaItems = [
-    { label: ts('metaDuration'), value: tour.durationLabel },
-    { label: ts('metaGroup'), value: tour.groupSize },
-    { label: ts('metaEffort'), value: tour.effortLevel },
-    { label: ts('metaDeparts'), value: tour.departsFrom },
-    { label: ts('metaFrom'), value: fromEl ?? '' },
-  ].filter((m) => m.value);
 
   const timeline = (tour.timeline ?? []).filter((s) => s.time || s.description);
-  const included = tour.includedItems ?? [];
-  const notIncluded = tour.notIncludedItems ?? [];
-  const hasIncl = included.length > 0 || notIncluded.length > 0;
+  // Approved extracted items (review-gated); a product with none falls back to
+  // the lists authored before the template (one quad-bike tour has them).
+  const approvedIn = tour.approvedInclusions ?? [];
+  const approvedOut = tour.approvedExclusions ?? [];
+  const included = approvedIn.length || approvedOut.length ? approvedIn : tour.includedItems ?? [];
+  const notIncluded = approvedIn.length || approvedOut.length ? approvedOut : tour.notIncludedItems ?? [];
 
   // Shape-of-the-day card ALWAYS renders. When a field isn't explicitly authored,
   // derive it from existing tour data so the rail never shows a blank/broken card.
@@ -170,6 +167,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
       originRegion: tour.originRegion,
       heroImage: tour.heroImage,
       cities: tour.cities,
+      offer: await buildProductOffer(fromAmount, tour.slug, locale, tour.priceUpdatedAt),
     },
     locale,
   );
@@ -185,9 +183,23 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
     locale,
   );
 
+  const L = homeLocale(locale);
+  const hoursText = typeof tour.durationHours === 'number' && tour.durationHours > 0 ? tp('aboutHours', { hours: tour.durationHours }) : '';
+  // The band ('Full day', 'Jornada larga', '延長') is the label segment without a number.
+  const durationBand = (tour.durationLabel ?? '').split(/[·・]/).map((x) => x.trim()).find((x) => x && !/\d/.test(x)) ?? '';
+  const panelFacts: PanelFact[] = [
+    { label: tp('type'), value: isGroup ? tp('typeSmallGroup') : tp('typePrivate') },
+    // durationLabel is e.g. 'Full day · ~9 hrs': keep its band ('Full day') and
+    // state the hours once, in the panel's own wording.
+    { label: tp('duration'), value: [hoursText ? durationBand : tour.durationLabel, hoursText].filter(Boolean).join(locale === 'ja' ? '・' : ' · ') },
+    { label: tp('startsFrom'), value: tour.departsFrom ?? '' },
+  ];
+  const fromEur = typeof fromAmount === 'number' && fromAmount > 0 ? fromAmount : null;
+
   return (
     <div className="tour-doc lvl-single">
       <JsonLd data={[tripSchema, breadcrumbSchema]} />
+      <ProductViewTracker slug={tour.slug} category="day_tour" priceEur={fromEur} locale={locale} />
       <div className="t2e-wrap">
         <nav className="t2e-crumb" aria-label="Breadcrumb">
           <ol>
@@ -201,158 +213,131 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           </ol>
         </nav>
 
-        <header className="head">
-          <span className="t2e-kicker">{trackKicker}{cityName ? ` · ${cityName}` : ''}</span>
-          <h1>{tour.title}</h1>
-          {tour.summary && <p className="dek">{tour.summary}</p>}
-          {metaItems.length > 0 && (
-            <div className="head-meta">
-              {metaItems.map((m, i) => (
-                <div className="m" key={i}>
-                  <small>{m.label}</small>
-                  <strong>{m.value}</strong>
+        <div className="pdp">
+          <header className="head pdp-head">
+            <span className="t2e-kicker">{trackKicker}{cityName ? ` · ${cityName}` : ''}</span>
+            <h1>{tour.title}</h1>
+            {tour.summary && <p className="dek">{tour.summary}</p>}
+          </header>
+
+          <figure className="feature pdp-hero">
+            <JourneyImage image={tour.heroImage} alt="" widthHint={2400} priority direct />
+          </figure>
+
+          <div className="pdp-side">
+            <DayTourPanel
+              locale={locale}
+              slug={tour.slug}
+              title={tour.title}
+              waHref={waHref}
+              facts={panelFacts}
+              fromEur={fromEur}
+              tiers={tiers}
+              guidePriced={tour.guidePriced}
+            />
+            <MakeItYourOwn
+              locale={locale}
+              options={tour.approvedOptions ?? []}
+              kind="day"
+              slug={tour.slug}
+              title={tour.title}
+              durationDays={null}
+              fromEur={fromEur}
+            />
+            <CompactStickyCard
+              locale={locale}
+              kind="day"
+              slug={tour.slug}
+              title={tour.title}
+              waHref={waHref}
+              fromEur={fromEur}
+              durationDays={null}
+            />
+          </div>
+
+          <div className="pdp-main">
+            <ProductFactsBlock locale={locale} included={included} excluded={notIncluded} />
+
+            <article className="body">
+              <TourProse value={tour.body} locale={locale} />
+
+              {timeline.length > 0 && (
+                <>
+                  <h2>{ts('timelineTitle')}</h2>
+                  <ul className="timeline">
+                    {timeline.map((s, i) => (
+                      <li key={i}>
+                        <span className="t">{s.time}</span>
+                        <span className="d">{s.description}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              )}
+
+              {tour.accessNote && (
+                <>
+                  <h2>{tour.accessNoteTitle ?? ts('accessTitle')}</h2>
+                  <p>{tour.accessNote}</p>
+                </>
+              )}
+
+              {tour.audienceNote && (
+                <div className="audience">
+                  <span className="t2e-kicker">{tour.audienceNoteTitle ?? ts('audienceTitle')}</span>
+                  <p>{tour.audienceNote}</p>
                 </div>
-              ))}
-            </div>
-          )}
-        </header>
-      </div>
+              )}
 
-      <div className="t2e-wrap">
-        <figure className="feature">
-          <JourneyImage image={tour.heroImage} alt="" sizes="(max-width:980px) 100vw, 1168px" widthHint={2336} ratio={2} priority />
-        </figure>
-      </div>
-
-      <div className="t2e-wrap">
-        <div className="layout">
-          <article className="body">
-            <TourProse value={tour.body} locale={locale} />
-
-            {timeline.length > 0 && (
-              <>
-                <h2>{ts('timelineTitle')}</h2>
-                <ul className="timeline">
-                  {timeline.map((s, i) => (
-                    <li key={i}>
-                      <span className="t">{s.time}</span>
-                      <span className="d">{s.description}</span>
-                    </li>
-                  ))}
-                </ul>
-              </>
-            )}
-
-            {hasIncl && (
-              <>
-                <h2>{ts('includedTitle')}</h2>
-                <div className="incl">
-                  <div>
-                    <h4>{ts('includedLabel')}</h4>
-                    <ul className="yes">{included.map((it, i) => <li key={i}>{it}</li>)}</ul>
-                  </div>
-                  <div>
-                    <h4>{ts('notIncludedLabel')}</h4>
-                    <ul className="no">{notIncluded.map((it, i) => <li key={i}>{it}</li>)}</ul>
-                  </div>
+              {tour.conciergeNote && (
+                <div className="note">
+                  <span className="t2e-kicker">{ts('conciergeNoteLabel')}</span>
+                  <p>{tour.conciergeNote}</p>
                 </div>
-              </>
-            )}
+              )}
 
-            {tour.accessNote && (
-              <>
-                <h2>{tour.accessNoteTitle ?? ts('accessTitle')}</h2>
-                <p>{tour.accessNote}</p>
-              </>
-            )}
+              <MidCta
+                locale={locale}
+                kind="day"
+                slug={tour.slug}
+                title={tour.title}
+                waHref={waHref}
+                durationDays={null}
+                fromEur={fromEur}
+              />
+            </article>
 
-            {/* "Good for" — audience fit, demoted from a section heading to a
-                compact kicker aside and placed just above the closing
-                concierge note (orientation → tailoring → CTA). */}
-            {tour.audienceNote && (
-              <div className="audience">
-                <span className="t2e-kicker">{tour.audienceNoteTitle ?? ts('audienceTitle')}</span>
-                <p>{tour.audienceNote}</p>
-              </div>
-            )}
-
-            {tour.conciergeNote && (
-              <div className="note">
-                <span className="t2e-kicker">{ts('conciergeNoteLabel')}</span>
-                <p>{tour.conciergeNote}</p>
-              </div>
-            )}
-
-            <p className="body-cta">
-              <Link href={conciergeHref} rel={conciergeRel}>{ts('planThis')} →</Link>
-            </p>
-          </article>
-
-          <aside className="rail">
-            {/* Shape-of-the-day — always renders (derived from tour data when unauthored). */}
-            {shapeRows.length > 0 && (
+            <div className="pdp-details">
+              {shapeRows.length > 0 && (
+                <div className="card">
+                  <span className="ck">{ts('shapeTitle')}</span>
+                  <ul className="shape">
+                    {shapeRows.map((r, i) => (
+                      <li key={i}><small>{r.label}</small><span>{r.value}</span></li>
+                    ))}
+                  </ul>
+                  {tour.priceNote && <p className="price-note">{tour.priceNote}</p>}
+                </div>
+              )}
               <div className="card">
-                <span className="ck">{ts('shapeTitle')}</span>
-                <ul className="shape">
-                  {shapeRows.map((r, i) => (
-                    <li key={i}><small>{r.label}</small><span>{r.value}</span></li>
-                  ))}
-                </ul>
+                <span className="ck">{ts('whyBook')}</span>
+                <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
+                <div className="accred">{[trustCreds, ts('trustAccred')].filter(Boolean).join(' — ')}</div>
               </div>
-            )}
-
-            {/* Price-logic — always renders. No tiers → "From · on inquiry" + honesty note. */}
-            <div className="card">
-              <span className="ck">{ts('priceTitle')}</span>
-              <ul className="tiers">
-                {tiers.length > 0 ? (
-                  tiers.map((tier, i) => (
-                    <li key={i}>
-                      <span className="tn">{tier.name}{tier.sub && <small>{tier.sub}</small>}</span>
-                      <span className="tp"><Price eur={tier.price} />{tier.unit && <small> {tier.unit}</small>}</span>
-                    </li>
-                  ))
-                ) : (
-                  <li>
-                    <span className="tn">{ts('priceFromLabel')}</span>
-                    {/* No tiers → fall back to the structured priceFrom (same
-                        rule as the masthead and PackageView) before the
-                        "On inquiry" honesty label. */}
-                    <span className="tp">{fromEl ?? ts('priceOnInquiry')}</span>
-                  </li>
-                )}
-              </ul>
-              <p className="price-note">
-                {tour.guidePriced && ts('guidePriceNote') ? `${ts('guidePriceNote')} ` : ''}
-                {tour.priceNote || ts('priceNoteOnInquiry')}
-              </p>
-              <CurrencyNote note={ts('priceCurrencyNote')} />
-              <Link className="rail-cta" href={conciergeHref} rel={conciergeRel}>{ts('planThis')} <span className="cta-arrow" aria-hidden>→</span></Link>
-              <a className="rail-cta ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
-            </div>
-
-            <div className="card">
-              <span className="ck">{ts('whyBook')}</span>
-              <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
-              <div className="accred">{[trustCreds, ts('trustAccred')].filter(Boolean).join(' — ')}</div>
-            </div>
-          </aside>
-        </div>
-      </div>
-
-      <section className="concierge-cta">
-        <div className="t2e-wrap">
-          <div className="cta-inner">
-            <span className="t2e-kicker">{ts('ctaKicker')}</span>
-            <h2>{ts('ctaTitleL3')} <em>{ts('ctaTitleL3Em')}</em></h2>
-            <p>{ts('ctaBodyL3')}</p>
-            <div className="cta-buttons">
-              <Link className="cta-btn cta-btn--primary" href={conciergeHref} rel={conciergeRel}>{ts('ctaAboutTour')} <span className="cta-arrow" aria-hidden>→</span></Link>
-              <a className="cta-btn cta-btn--ghost" href={waHref} target="_blank" rel="noopener noreferrer">{ts('ctaWhatsapp')} <span className="cta-arrow" aria-hidden>→</span></a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+
+      <EndBlock
+        locale={locale}
+        kind="day"
+        slug={tour.slug}
+        title={tour.title}
+        waHref={waHref}
+        durationDays={null}
+        fromEur={fromEur}
+      />
 
       {(moreDays.length > 0 || guideItems.length > 0 || journal.length > 0) && (
         <section className="related">
@@ -365,6 +350,9 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                     <Link key={r._id} className="ritem" href={`/${r.slug}`}>
                       {r.durationLabel && <span className="rk">{r.durationLabel}</span>}
                       <span className="rt">{r.title}</span>
+                      {typeof r.priceFrom === 'number' && r.priceFrom > 0 && (
+                        <span className="rp">{HOME_COPY[L].from(<Price eur={r.priceFrom} />)}</span>
+                      )}
                     </Link>
                   ))}
                 </div>
@@ -429,7 +417,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           priceFromEur: typeof tour.priceFrom === 'number' ? tour.priceFrom : null,
         }}
       />
-      <FloatingConcierge tourSlug={tour.slug} />
+      <LazyFloatingConcierge tourSlug={tour.slug} />
     </div>
   );
 }

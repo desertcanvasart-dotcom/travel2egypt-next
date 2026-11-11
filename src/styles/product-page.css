@@ -1,0 +1,265 @@
+/* Product page template (2026-11-09). Title + dek run the full width, then
+   the full-width hero. From 1024px the decision panel sits in the right
+   column below the hero, beside the narrative, and scrolls with the page
+   (no sticky: owner, 2026-11-09). On phones it follows the hero. */
+
+.pdp {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: 'head' 'hero' 'panel' 'main';
+  gap: 28px;
+}
+.pdp-head { grid-area: head; }
+.pdp-hero { grid-area: hero; }
+.pdp-side { grid-area: panel; }
+.pdp-main { grid-area: main; min-width: 0; }
+.lvl-single .pdp .head { padding-top: 32px; }
+/* The title runs the full content width (no 880px cap) so long titles,
+   Japanese especially, take fewer lines; the dek keeps its reading measure. */
+.lvl-single .pdp .head { max-width: none; }
+/* Japanese glyphs are full-width: at the Latin 76px a 30-character title
+   needs three lines. A smaller size fits two. */
+:lang(ja) .lvl-single .pdp .head h1 { font-size: clamp(30px, 3.4vw, 50px); line-height: 1.25; letter-spacing: 0; }
+
+@media (min-width: 1024px) {
+  .pdp {
+    grid-template-columns: minmax(0, 1fr) 380px;
+    grid-template-areas: none;
+    column-gap: 56px;
+    row-gap: 0;
+    align-items: start;
+  }
+  .pdp-head { grid-column: 1 / -1; grid-row: 1; }
+  .pdp-hero { grid-column: 1 / -1; grid-row: 2; }
+  .pdp-main { grid-column: 1; grid-row: 3; padding-top: 36px; }
+  .pdp-side { grid-column: 2; grid-row: 3; align-self: start; margin-top: 36px; }
+  .pdp-side .pdp-panel { box-shadow: 0 18px 40px -18px rgba(20, 36, 59, .35), 0 2px 6px rgba(20, 36, 59, .08); }
+}
+
+/* Panel */
+.pdp-panel {
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  padding: 22px 24px;
+  font-family: var(--ui);
+  color: var(--navy);
+}
+.pdp-facts { margin: 0; display: grid; gap: 0; }
+.pdp-facts > div { display: grid; grid-template-columns: 112px 1fr; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--rule); }
+.pdp-facts > div:last-child { border-bottom: 0; }
+.pdp-facts dt { font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--navy-mute); padding-top: 3px; }
+.pdp-facts dd { margin: 0; font-family: var(--display); font-size: 18px; line-height: 1.3; }
+.pdp-from { display: flex; flex-direction: column; gap: 2px; }
+.pdp-from strong { font-family: var(--display); font-weight: 500; font-size: 26px; line-height: 1.1; }
+.pdp-from small { font-family: var(--ui); font-size: 12px; color: var(--navy-mute); }
+.pdp-from--req { font-size: 17px; }
+.pdp-tiers { list-style: none; margin: 6px 0 0; padding: 0; font-size: 14px; }
+.pdp-tiers li { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-top: 1px dashed var(--rule); }
+.pdp-tiers small { display: block; color: var(--navy-mute); font-size: 12px; }
+.pdp-panel .t2e-currency-note, .pdp-panel .currency-note { margin-top: 8px; font-size: 12px; }
+
+.pdp-actions { display: flex; flex-direction: column; gap: 10px; margin-top: 18px; }
+.pdp-btn {
+  display: block; width: 100%; box-sizing: border-box; min-height: 46px; padding: 12px 16px;
+  text-align: center; font: 500 14px/1.2 var(--ui); letter-spacing: .03em; cursor: pointer; text-decoration: none;
+}
+.pdp-btn--primary { background: var(--navy); color: var(--paper); border: 1px solid var(--navy); }
+.pdp-btn--primary:hover { background: var(--black); }
+.pdp-btn--ghost { background: transparent; color: var(--navy); border: 1px solid var(--rule); }
+.pdp-btn--ghost:hover { border-color: var(--navy); }
+.pdp-link { font-size: 14px; color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); align-self: flex-start; }
+.pdp-link:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+.pdp-actions--day { margin-top: 14px; gap: 8px; }
+.pdp-rt { margin: 14px 0 0; font-size: 12.5px; color: var(--navy-mute); }
+
+/* Day tour: inline date check on desktop, a button below 1024px. */
+.pdp-inline-form { display: none; margin-top: 16px; }
+.pdp-mobile-only { margin-top: 16px; }
+@media (min-width: 1024px) {
+  .pdp-inline-form { display: block; }
+  .pdp-mobile-only { display: none; }
+}
+.pdp-inline-form .lead-form { gap: 10px; }
+
+/* Included / Not included + Itinerary at a glance */
+.pdp-factsblock { margin: 36px 0 8px; display: grid; gap: 28px; }
+.pdp-factsblock h2 { font-family: var(--display); font-weight: 400; font-size: 26px; margin: 0 0 12px; color: var(--navy); }
+.pdp-incl { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 24px; }
+.pdp-incl ul { list-style: none; margin: 0; padding: 0; font-family: var(--ui); font-size: 15px; line-height: 1.5; }
+.pdp-incl li { padding: 5px 0 5px 24px; position: relative; }
+.pdp-incl .yes li::before { content: '✓'; position: absolute; left: 0; color: var(--gold-dark); }
+.pdp-incl .no li::before { content: '–'; position: absolute; left: 4px; color: var(--navy-mute); }
+.pdp-glance ol { list-style: none; margin: 0; padding: 0; font-family: var(--ui); font-size: 15px; }
+.pdp-glance li { display: grid; grid-template-columns: 70px 1fr auto; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--rule); }
+.pdp-glance__day { color: var(--gold-dark); font-weight: 500; }
+.pdp-glance__night { color: var(--navy-mute); font-size: 13.5px; text-align: right; }
+@media (max-width: 620px) {
+  .pdp-glance li { grid-template-columns: 56px 1fr; }
+  .pdp-glance__night { grid-column: 2; text-align: left; }
+}
+
+/* Mid-page buttons + details moved out of the old rail */
+.pdp-mid { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 22px; margin: 44px 0 0; }
+.pdp-mid .pdp-btn { width: auto; display: inline-block; padding: 12px 22px; }
+.pdp-details { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 48px 0 40px; }
+.pdp-end-concierge { margin-top: 18px; }
+.pdp-end-concierge a { color: inherit; }
+
+/* Related products: "from" price line */
+.related .ritem .rp { display: block; font-family: var(--ui); font-size: 13px; color: var(--navy-mute); margin-top: 4px; }
+
+/* Phones: a tighter panel so the primary button sits on the first screen. */
+@media (max-width: 1023px) {
+  .pdp { gap: 18px; }
+  .lvl-single .pdp .head { padding-top: 18px; }
+  .lvl-single .pdp .head .t2e-kicker { margin-bottom: 12px; }
+  .lvl-single .pdp .head .dek { margin-top: 12px; font-size: 19px; }
+  .pdp-panel { padding: 12px 16px 16px; }
+  .pdp-facts > div { grid-template-columns: 96px 1fr; padding: 6px 0; }
+  .pdp-facts dd { font-size: 16px; }
+  .pdp-from strong { font-size: 22px; }
+  .pdp-actions { margin-top: 12px; gap: 8px; }
+}
+@media (max-width: 1023px) {
+  .lvl-single .pdp .head h1 { font-size: 36px; line-height: 1.05; }
+}
+
+
+/* Full-width hero (2026-11-09 owner decision): back at the top, under the
+   breadcrumb, in the site's widest container; the panel overlaps its bottom
+   edge by 120px on desktop. */
+/* Height: the 12:5 shape of the desktop crop (~487px at 1168 wide), so the
+   whole crop shows. With the panel beside the title it no longer limits the
+   hero height for the first-screen rule. */
+.lvl-single .feature.pdp-hero { aspect-ratio: 12 / 5; height: auto; max-height: 560px; margin: 28px 0 0; }
+@media (max-width: 1023px) {
+  .lvl-single .feature.pdp-hero { aspect-ratio: auto; height: clamp(220px, 42vh, 340px); margin-top: 0; }
+}
+
+/* Panel blocks: details, price, actions. Phones lead with price + primary. */
+.pdp-panel { display: flex; flex-direction: column; }
+.pdp-price .pdp-facts > div { border-bottom: 0; }
+.pdp-facts--details + .pdp-price { border-top: 1px solid var(--rule); }
+@media (max-width: 1023px) {
+  .pdp-price { order: 0; }
+  .pdp-panel > .pdp-actions:not(.pdp-actions--day), .pdp-primary { order: 1; }
+  .pdp-facts--details { order: 2; margin-top: 12px; border-top: 1px solid var(--rule); }
+  .pdp-facts--details + .pdp-price { border-top: 0; }
+  .pdp-extra, .pdp-actions--day { order: 3; }
+  .pdp-rt { order: 4; }
+}
+
+/* Day tours: a compact inline date check in the panel (desktop only — the
+   inline form is hidden below 1024px, so the smaller type never reaches
+   phones). The notes field and the repeated tour line live in the full
+   dialog. Sized so the Check-this-date button sits on the first screen at
+   1440×782 and 1280×720. */
+.pdp-inline-form { margin-top: 10px; }
+.pdp-inline-form .lead-form { gap: 8px; }
+.pdp-inline-form .lead-tour,
+.pdp-inline-form .lead-field:has(textarea) { display: none; }
+.pdp-inline-form .lead-row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.pdp-inline-form .lead-row:has(input[type='date']) { grid-template-columns: 1.5fr 1fr 1fr; }
+.pdp-inline-form .lead-field { gap: 3px; }
+.pdp-inline-form .lead-field > label:not(.lead-check) { font-size: 10px; margin-bottom: 0; letter-spacing: .08em; }
+.pdp-inline-form .lead-form input[type='text'],
+.pdp-inline-form .lead-form input[type='email'],
+.pdp-inline-form .lead-form input[type='tel'],
+.pdp-inline-form .lead-form input[type='date'],
+.pdp-inline-form .lead-form select { min-height: 36px; padding: 6px 8px; font-size: 14px; }
+.pdp-inline-form .lead-estimate { padding: 5px 8px; font-size: 13px; }
+.pdp-inline-form .lead-submit { justify-self: stretch; min-height: 44px; padding: 11px 16px; }
+.pdp-inline-form .lead-fine { font-size: 11px; line-height: 1.4; }
+.pdp-panel--day .pdp-facts > div { padding: 6px 0; }
+.pdp-panel .price-note--ccy { margin-top: 4px; padding-top: 0; border-top: 0; font-size: 10.5px; line-height: 1.35; }
+
+/* Day tours on desktop. The first screen must show Duration, From and the
+   Check-this-date button (owner, 2026-11-09). Content is unchanged; only the
+   order moves:
+   - 761px tall and up (e.g. 1440×782): Type / Duration, From, the form, then
+     the indicative-price note.
+   - shorter windows (e.g. 1280×720): From and the form lead; Type / Duration
+     follow. */
+@media (min-width: 1024px) {
+  .pdp-panel--day .pdp-facts--details { order: 0; }
+  .pdp-panel--day .pdp-price { order: 1; }
+  .pdp-panel--day .pdp-inline-form { order: 2; }
+  .pdp-panel--day .pdp-ccy { order: 3; }
+  .pdp-panel--day .pdp-actions--day { order: 4; }
+  .pdp-panel--day .pdp-rt { order: 5; }
+}
+
+@media (max-width: 1023px) {
+  .pdp-panel--day .pdp-ccy { order: 2; }
+}
+
+/* Journey pages Phase A §7.5 — "Part of: {journey} →" under the panel facts. */
+.pdp-partof { margin: 12px 0 0; font-family: var(--ui); font-size: 14px; color: var(--navy-mute); }
+.pdp-partof a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 1px; }
+.pdp-partof a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* ── Right column (owner spec 2026-11-11), desktop only ──────────────────
+   1 decision panel · 2 "Your route" (multi-day) · 3 "Make it your own" ·
+   4 compact sticky card. Root cause of the old empty column: the grid uses
+   align-items:start and .pdp-side had align-self:start, so the column was
+   only as tall as the panel and nothing below it had a track to stick in.
+   The column now stretches the full height of the content row. */
+.pdp-rc, .pdp-sticky { display: none; }
+@media (min-width: 1024px) {
+  .pdp-side { align-self: stretch; display: flex; flex-direction: column; }
+  .pdp-rc { display: block; margin-top: 32px; padding: 0 4px; font-family: var(--ui); color: var(--navy); }
+  .pdp-rc__h {
+    margin: 0 0 14px; font-family: var(--ui); font-weight: 500; font-size: 11px; line-height: 1.4;
+    letter-spacing: .16em; text-transform: uppercase; color: var(--navy-mute);
+  }
+  :lang(ja) .pdp-rc__h { letter-spacing: .08em; font-size: 12px; }
+
+  /* 2 · Your route: stops in the serif, legs in small UI type on a thin gold line. */
+  .pdp-route__list { list-style: none; margin: 0; padding: 0; }
+  .pdp-route__stop { margin: 0; }
+  .pdp-route__name { display: block; font-family: var(--display); font-size: 19px; line-height: 1.3; }
+  .pdp-route__leg { display: flex; align-items: center; gap: 12px; min-height: 30px; padding: 4px 0; }
+  .pdp-route__line { flex: none; align-self: stretch; width: 1px; margin-left: 7px; background: var(--gold); opacity: .8; }
+  .pdp-route__mode { font-size: 12.5px; line-height: 1.35; color: var(--navy-mute); }
+
+  /* 3 · Make it your own */
+  .pdp-own__list { list-style: none; margin: 0; padding: 0; font-size: 14.5px; line-height: 1.45; }
+  .pdp-own__list li { position: relative; padding: 5px 0 5px 18px; }
+  .pdp-own__list li::before { content: ''; position: absolute; left: 2px; top: 13px; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
+  .pdp-own__ask {
+    margin-top: 10px; padding: 0 0 1px; background: none; border: 0; border-bottom: 1px solid var(--rule);
+    font: 500 14px/1.4 var(--ui); color: var(--navy); cursor: pointer; text-align: left;
+  }
+  .pdp-own__ask:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+  /* 4 · Compact sticky card. In the layout always (no jump), shown by fading in.
+     No fixed height, nothing clipped; StickyCardShell drops the trust line,
+     then shortens the title, then hides the card when it can't fit. */
+  .pdp-sticky {
+    display: flex; flex-direction: column; gap: 10px;
+    position: sticky; top: 104px; margin-top: 32px;
+    border: 1px solid var(--rule); background: var(--paper); padding: 18px 20px;
+    font-family: var(--ui); color: var(--navy);
+    box-shadow: 0 12px 30px -16px rgba(20, 36, 59, .3);
+    opacity: 0; visibility: hidden; transition: opacity .25s ease, visibility 0s linear .25s;
+  }
+  .pdp-sticky.is-on { opacity: 1; visibility: visible; transition: opacity .25s ease, visibility 0s; }
+  .pdp-sticky__title {
+    margin: 0; font-family: var(--display); font-size: 18px; line-height: 1.3;
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
+  }
+  .pdp-sticky[data-fit='tight'] .pdp-sticky__title { -webkit-line-clamp: 1; }
+  .pdp-sticky__price { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 6px; }
+  .pdp-sticky__from { font-size: 12px; color: var(--navy-mute); }
+  .pdp-sticky__price strong { font-family: var(--display); font-weight: 500; font-size: 22px; line-height: 1.15; }
+  .pdp-sticky__price small { font-size: 12px; color: var(--navy-mute); }
+  .pdp-sticky .pdp-btn { min-height: 44px; padding: 11px 14px; white-space: normal; }
+  .pdp-sticky__wa { font-size: 13.5px; }
+  .pdp-sticky__trust { margin: 2px 0 0; padding-top: 10px; border-top: 1px solid var(--rule); font-size: 12px; line-height: 1.45; color: var(--navy-mute); }
+  .pdp-sticky__trust span { color: var(--gold); }
+  .pdp-sticky[data-fit='no-trust'] .pdp-sticky__trust,
+  .pdp-sticky[data-fit='tight'] .pdp-sticky__trust { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pdp-sticky, .pdp-sticky.is-on { transition: none; }
+}

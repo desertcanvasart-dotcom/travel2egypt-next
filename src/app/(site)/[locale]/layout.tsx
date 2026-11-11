@@ -9,15 +9,18 @@ import { JaFontGate } from '@/components/JaFontGate';
 import { routing, type Locale } from '@/i18n/routing';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { getNavData } from '@/lib/nav/navData';
 import { JsonLd } from '@/components/JsonLd';
 import { CookieConsent } from '@/components/CookieConsent';
 import { Analytics } from '@/components/Analytics';
+import { PageCounter } from '@/components/PageCounter';
 import { LeadProvider } from '@/components/leads/LeadProvider';
 import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { MobileLeadBar } from '@/components/MobileLeadBar';
 import { ConsentProvider } from '@/lib/consent';
 import { CurrencyProvider } from '@/lib/currency-context';
 import { defaultCurrencyForLocale } from '@/lib/currency';
+import { getRates } from '@/lib/fx';
 import { client } from '@/sanity/lib/client';
 import { siteSettingsQuery } from '@/sanity/lib/queries';
 import {
@@ -59,7 +62,11 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
 
-  const siteSettings = await client.fetch(siteSettingsQuery(locale as Locale));
+  const [siteSettings, fx, nav] = await Promise.all([
+    client.fetch(siteSettingsQuery(locale as Locale)),
+    getRates(),
+    getNavData(locale as Locale),
+  ]);
   const orgSchema = buildOrganizationSchema(siteSettings ?? {});
   // Founder Person is emitted as a sibling JSON-LD when configured. Its
   // @id is referenced from the Organization's `founder` property so
@@ -85,16 +92,18 @@ export default async function LocaleLayout({
         <JsonLd data={orgGraph} />
         <NextIntlClientProvider messages={messages}>
           <ConsentProvider>
-            <CurrencyProvider defaultCurrency={defaultCurrencyForLocale(locale)}>
+            <CurrencyProvider defaultCurrency={defaultCurrencyForLocale(locale)} rates={fx.rates}>
               <LeadProvider
                 locale={locale}
                 chatEnabled={isChatEnabled()}
                 responseTime={{ short: siteSettings?.responseTimeShort ?? '', full: siteSettings?.responseTimeFull ?? '' }}
               >
-                <Header locale={locale as Locale} />
+                <Header locale={locale as Locale} nav={nav} />
                 <main id="main">{children}</main>
                 <Footer
                   locale={locale as Locale}
+                  nav={nav}
+                  responseTimeFull={siteSettings?.responseTimeFull ?? null}
                   accreditations={{
                     ministryLicenceNumber: siteSettings?.ministryLicenceNumber,
                     etaaMember: siteSettings?.etaaMember,
@@ -105,6 +114,7 @@ export default async function LocaleLayout({
                 <MobileLeadBar />
                 <CookieConsent />
                 <Analytics locale={locale} />
+                <PageCounter locale={locale} />
               </LeadProvider>
             </CurrencyProvider>
           </ConsentProvider>

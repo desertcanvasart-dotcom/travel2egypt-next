@@ -1,0 +1,26 @@
+{
+  "slug": "2-day-pyramids-mediterranean-tour",
+  "lang": "ja",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      null,
+      null,
+      {
+        "option": "入場料と昼食のセットを追加する",
+        "source": "性格 · お客様のご一行だけのプライベートツアー · 公認エジプト学ガイド · エアコン付き専用車両 · 18歳以上 · 三段階のプライシング（ベース／＋入場料／＋入場料・昼食）"
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "入場料と昼食のセットを追加する",
+        "source": "性格 · お客様のご一行だけのプライベートツアー · 公認エジプト学ガイド · エアコン付き専用車両 · 18歳以上 · 三段階のプライシング（ベース／＋入場料／＋入場料・昼食）"
+      }
+    ],
+    "dropped": 2
+  }
+}

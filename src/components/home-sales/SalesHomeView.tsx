@@ -20,9 +20,13 @@ import {
   STYLE_CARDS,
 } from './config';
 import { HOME_COPY, localHref, type HomeLocale } from './copy';
+import type { JourneyLive } from '@/lib/journeys/data';
+import { JOURNEY_KEYS, JOURNEYS, JOURNEY_UI, type JourneyKey } from '@/lib/journeys/registry';
 import { DayToursTabs } from './DayToursTabs';
 import { QuickFinder } from './QuickFinder';
 import { TrackedLink } from './TrackedLink';
+import { TourCard } from './TourCard';
+import { DayTourCard } from './DayTourCard';
 import type { SalesHomeData, SalesProduct } from './query';
 
 import '@/styles/tour-system.css';
@@ -48,7 +52,16 @@ function minEur(products: Array<SalesProduct | undefined>): number | null {
 
 const price = (eur: number | null | undefined) => (eur ? <Price eur={eur} /> : null);
 
-export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: HomeLocale }) {
+export function SalesHomeView({
+  data,
+  locale,
+  journeys,
+}: {
+  data: SalesHomeData;
+  locale: HomeLocale;
+  /** Journey pages Phase A: approved heroes + the shared "from" per journey. */
+  journeys?: { live: Record<JourneyKey, JourneyLive>; prices: Record<JourneyKey, number | null> };
+}) {
   const c = HOME_COPY[locale];
   const bySlug = new Map(data.products.map((p) => [p.slug, p]));
   const featured = FEATURED_TOURS.map((f) => ({ ...f, p: bySlug.get(f.slug) })).filter(
@@ -65,8 +78,6 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
   const dayFrom = minEur(cities.map((city) => (city.fromEur ? ({ priceFrom: city.fromEur } as SalesProduct) : undefined)));
   const cruise = bySlug.get(CRUISE_SLUG);
   const conciergeHref = isChatEnabled() ? '/plan-your-tour' : '/contact';
-  const durationLabel = (p: SalesProduct): string | null =>
-    p.type === 'dayTour' ? (p.durationHours ? c.hours(p.durationHours) : null) : p.durationDays ? c.days(p.durationDays) : null;
   const formatLabel = (f: 'private' | 'group' | null) =>
     f === 'private' ? c.dayTours.private : f === 'group' ? c.dayTours.smallGroup : null;
 
@@ -127,61 +138,9 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
               <p className="lede">{c.tours.intro}</p>
             </div>
             <ul className="pcards">
-              {featured.map(({ slug, p }) => {
-                const card = c.tours.cards[slug];
-                const href = `/${p.href}`;
-                return (
-                  <li className="pcard" key={slug}>
-                    <TrackedLink href={href} listName="home_egypt_tours" itemId={slug} className="pcard-img">
-                      <JourneyImage
-                        image={p.heroImage}
-                        alt={p.heroImage?.alt || p.title}
-                        className=""
-                        sizes="(max-width:620px) 85vw, (max-width:980px) 45vw, 380px"
-                        widthHint={760}
-                        ratio={3 / 2}
-                      />
-                      {card?.badge && <span className="badge">{card.badge}</span>}
-                    </TrackedLink>
-                    <div className="pcard-body">
-                      <h3>
-                        <TrackedLink href={href} listName="home_egypt_tours" itemId={slug}>
-                          {p.title}
-                        </TrackedLink>
-                      </h3>
-                      <p className="route">
-                        {durationLabel(p) && <span className="dur">{durationLabel(p)}</span>} {card?.route}
-                      </p>
-                      {p.priceFrom ? (
-                        <p className="price">
-                          <span className="price-from">{c.from(price(p.priceFrom))}</span>
-                          <span className="price-basis">
-                            {c.tours.basis}
-                            {p.guidePriced && c.guideNote ? `${locale === 'ja' ? '・' : ', '}${c.guideNote}` : ''}
-                          </span>
-                        </p>
-                      ) : (
-                        <p className="price">
-                          <span className="price-basis">{c.priceOnRequest}</span>
-                        </p>
-                      )}
-                      <div className="pcard-actions">
-                        <TrackedLink href={href} listName="home_egypt_tours" itemId={slug} className="link">
-                          {c.tours.view}
-                        </TrackedLink>
-                        <LeadButton
-                          source="tour_card"
-                          prefill={{ kind: 'trip', tourSlug: slug, tourTitle: p.title, durationDays: p.durationDays }}
-                          itemListName="home_egypt_tours"
-                          className="btn-outline"
-                        >
-                          {c.tours.customise}
-                        </LeadButton>
-                      </div>
-                    </div>
-                  </li>
-                );
-              })}
+              {featured.map(({ slug, p }) => (
+                <TourCard key={slug} slug={slug} p={p} locale={locale} listName="home_egypt_tours" />
+              ))}
             </ul>
             <p className="sec-more">
               <Link className="more" href="/egypt-travel-packages">
@@ -232,61 +191,23 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
                 panel: (
                   <>
                     <ul className="dcards">
-                      {city.tours.map(({ slug, format, p }) => {
-                        const label = c.dayTours.labels[slug] ?? p.title;
-                        const href = `/${p.href}`;
-                        return (
-                          <li className="dcard" key={slug}>
-                            <TrackedLink href={href} listName={`home_day_${city.key}`} itemId={slug} className="dcard-img">
-                              <JourneyImage
-                                image={p.heroImage}
-                                alt={p.heroImage?.alt || label}
-                                className=""
-                                sizes="(max-width:980px) 90vw, 380px"
-                                widthHint={700}
-                                ratio={16 / 10}
-                              />
-                            </TrackedLink>
-                            <div className="dcard-body">
-                              <p className="meta">
-                                {[formatLabel(format), p.type === 'dayTour' && p.durationHours ? c.hours(p.durationHours) : null]
-                                  .filter(Boolean)
-                                  .join(' · ')}
-                              </p>
-                              <h3>
-                                <TrackedLink href={href} listName={`home_day_${city.key}`} itemId={slug}>
-                                  {label}
-                                </TrackedLink>
-                              </h3>
-                              <p className="price">
-                                {p.priceFrom ? (
-                                  <>
-                                    <span className="price-from">{c.fromPerPerson(price(p.priceFrom))}</span>
-                                    {p.guidePriced && c.guideNote && <span className="price-basis">{c.guideNote}</span>}
-                                  </>
-                                ) : (
-                                  <span className="price-basis">{c.priceOnRequest}</span>
-                                )}
-                              </p>
-                              {p.included && p.included.length > 0 && (
-                                <ul className="incl">
-                                  {p.included.slice(0, 3).map((x) => (
-                                    <li key={x}>{x}</li>
-                                  ))}
-                                </ul>
-                              )}
-                              <LeadButton
-                                source="day_tour_card"
-                                prefill={{ kind: 'day_tour', tourSlug: slug, tourTitle: p.title, priceFromEur: p.priceFrom }}
-                                itemListName={`home_day_${city.key}`}
-                                className="btn-outline"
-                              >
-                                {c.dayTours.check}
-                              </LeadButton>
-                            </div>
-                          </li>
-                        );
-                      })}
+                      {city.tours.map(({ slug, format, p }) => (
+                        <DayTourCard
+                          key={slug}
+                          p={{ slug, href: p.href, title: p.title, priceFrom: p.priceFrom, heroImage: p.heroImage }}
+                          displayTitle={c.dayTours.labels[slug] ?? p.title}
+                          meta={[formatLabel(format), p.type === 'dayTour' && p.durationHours ? c.hours(p.durationHours) : null]
+                            .filter(Boolean)
+                            .join(' · ')}
+                          included={p.included}
+                          listName={`home_day_${city.key}`}
+                          source="day_tour_card"
+                          checkLabel={c.dayTours.check}
+                          fromPerPerson={c.fromPerPerson}
+                          priceOnRequest={c.priceOnRequest}
+                          guideNote={p.guidePriced ? c.guideNote : null}
+                        />
+                      ))}
                     </ul>
                     <p className="sec-more">
                       <Link className="more" href={localHref(c, city.href)}>
@@ -372,20 +293,34 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
           </div>
           <ul className="styles">
             {STYLE_CARDS.map((s) => {
-              const eur = s.priceSlug ? bySlug.get(s.priceSlug)?.priceFrom : s.ownerFromEur;
+              // One "from" per journey (Phase A): the approved tours' minimum
+              // once approved, else this card's existing source.
+              const key = JOURNEY_KEYS.find((k) => JOURNEYS[k].path === s.href);
+              const fallback = s.priceSlug ? bySlug.get(s.priceSlug)?.priceFrom : s.ownerFromEur;
+              const eur = (key && journeys?.prices[key]) ?? fallback;
+              const hero = key ? journeys?.live[key].hero : null;
               const card = c.styles.cards[s.href];
               const href = localHref(c, s.href);
               return (
                 <li key={s.href}>
                   <TrackedLink href={href} listName="home_styles" itemId={s.href} className="style">
-                    <h3>{card?.title}</h3>
+                    {hero && (
+                      <span className="style-img">
+                        <JourneyImage image={hero} alt={hero.alt} widthHint={640} ratio={3 / 2} sizes="(max-width:620px) 90vw, 380px" />
+                      </span>
+                    )}
+                    <h3>{key ? JOURNEYS[key].label[locale] : card?.title}</h3>
                     <p>{card?.line}</p>
                     {eur ? <span className="style-from">{c.from(price(eur))}</span> : null}
+                    <span className="style-cta">{JOURNEY_UI[locale].explore}</span>
                   </TrackedLink>
                 </li>
               );
             })}
           </ul>
+          <p className="styles-all">
+            <Link href="/journeys">{JOURNEY_UI[locale].allStyles}</Link>
+          </p>
         </div>
       </section>
 
@@ -430,10 +365,13 @@ export function SalesHomeView({ data, locale }: { data: SalesHomeData; locale: H
                 </a>
               </li>
               <li>
-                {c.close.stillExploring} <Link href={conciergeHref}>{c.close.concierge}</Link>
+                {c.close.stillExploring}
+                {locale === 'ja' ? '' : ' '}
+                <Link href={conciergeHref}>{c.close.concierge}</Link>
               </li>
             </ul>
           </div>
+          <span data-end-form hidden />
           <LeadForm source="home_footer" tone="dark" headingId="h-close" locale={locale} />
         </div>
       </section>

@@ -1,0 +1,111 @@
+{
+  "slug": "9-day-classic-egypt-family-adventure",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [
+      {
+        "from": "Cairo",
+        "to": "Luxor",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "sources": [
+          "A domestic flight delivers you to Luxor — Egypt's open-air museum, the site of ancient Thebes, religious capital of the New Kingdom empire."
+        ]
+      },
+      {
+        "from": "Luxor",
+        "to": "Aswan",
+        "via": [
+          "Edfu",
+          "Kom Ombo"
+        ],
+        "mode": "nile_cruise",
+        "nights": 4,
+        "sources": [
+          "Character · Fully private · your own Egyptologist · family-paced · four nights aboard a Nile cruiser Luxor → Aswan · onboard hieroglyphics workshop and cooking class · felucca and Nubian music in Aswan",
+          "Where · Cairo → Luxor → Edfu → Kom Ombo → Aswan → Cairo"
+        ]
+      },
+      {
+        "from": "Aswan",
+        "to": "Cairo",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "sources": [
+          "The morning brings disembarkation and a flight north to Cairo."
+        ]
+      }
+    ],
+    "customisationOptions": [
+      {
+        "option": "Substitute or combine with the Tahrir Egyptian Museum",
+        "source": "The original Egyptian Museum on Tahrir Square remains a major institution for its broader collection and can be substituted or combined on request."
+      },
+      {
+        "option": "Extend the Cairo opening",
+        "source": "Tell our team how you'd want to shape it — a longer Cairo opening, a higher-grade cruise ship, an Abu Simbel day added at Aswan — and we'll build the nine days to fit."
+      },
+      {
+        "option": "Upgrade to a higher-grade cruise ship",
+        "source": "Tell our team how you'd want to shape it — a longer Cairo opening, a higher-grade cruise ship, an Abu Simbel day added at Aswan — and we'll build the nine days to fit."
+      },
+      {
+        "option": "Add an Abu Simbel day at Aswan",
+        "source": "Tell our team how you'd want to shape it — a longer Cairo opening, a higher-grade cruise ship, an Abu Simbel day added at Aswan — and we'll build the nine days to fit."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [
+      {
+        "from": "Cairo",
+        "to": "Luxor",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "A domestic flight delivers you to Luxor — Egypt's open-air museum, the site of ancient Thebes, religious capital of the New Kingdom empire."
+      },
+      {
+        "from": "Luxor",
+        "to": "Aswan",
+        "via": [
+          "Edfu",
+          "Kom Ombo"
+        ],
+        "mode": "nile_cruise",
+        "nights": 4,
+        "source": "Character · Fully private · your own Egyptologist · family-paced · four nights aboard a Nile cruiser Luxor → Aswan · onboard hieroglyphics workshop and cooking class · felucca and Nubian music in Aswan … Where · Cairo → Luxor → Edfu → Kom Ombo → Aswan → Cairo"
+      },
+      {
+        "from": "Aswan",
+        "to": "Cairo",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "The morning brings disembarkation and a flight north to Cairo."
+      }
+    ],
+    "options": [
+      {
+        "text": "Substitute or combine with the Tahrir Egyptian Museum",
+        "source": "The original Egyptian Museum on Tahrir Square remains a major institution for its broader collection and can be substituted or combined on request."
+      },
+      {
+        "text": "Extend the Cairo opening",
+        "source": "Tell our team how you'd want to shape it — a longer Cairo opening, a higher-grade cruise ship, an Abu Simbel day added at Aswan — and we'll build the nine days to fit."
+      },
+      {
+        "text": "Upgrade to a higher-grade cruise ship",
+        "source": "Tell our team how you'd want to shape it — a longer Cairo opening, a higher-grade cruise ship, an Abu Simbel day added at Aswan — and we'll build the nine days to fit."
+      },
+      {
+        "text": "Add an Abu Simbel day at Aswan",
+        "source": "Tell our team how you'd want to shape it — a longer Cairo opening, a higher-grade cruise ship, an Abu Simbel day added at Aswan — and we'll build the nine days to fit."
+      }
+    ],
+    "dropped": 0
+  }
+}

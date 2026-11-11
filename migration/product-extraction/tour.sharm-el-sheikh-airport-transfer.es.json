@@ -1,0 +1,28 @@
+{
+  "slug": "sharm-el-sheikh-airport-transfer",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Traslado en coche privado desde el aeropuerto de Sharm el-Sheij a tu hotel",
+        "source": "Este es un servicio de coche privado desde el aeropuerto de Sharm el-Sheij a tu hotel: directo, climatizado y anclado por un representante que te recibe en llegadas."
+      },
+      {
+        "text": "Coche privado con aire acondicionado, no una lanzadera compartida",
+        "source": "El vehículo es un coche privado con aire acondicionado, no una lanzadera compartida."
+      },
+      {
+        "text": "Representante que te recibe en llegadas",
+        "source": "Este es un servicio de coche privado desde el aeropuerto de Sharm el-Sheij a tu hotel: directo, climatizado y anclado por un representante que te recibe en llegadas."
+      },
+      {
+        "text": "El representante se hará cargo del equipaje",
+        "source": "El representante se hará cargo del equipaje y te conducirá directamente al coche."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

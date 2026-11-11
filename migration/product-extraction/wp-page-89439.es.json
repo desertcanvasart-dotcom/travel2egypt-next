@@ -1,0 +1,51 @@
+{
+  "slug": "3-day-bahariya-white-desert-tour",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Conductor-guía propio (salida privada)",
+        "source": "El viaje es una salida privada, con su propio conductor-guía, transporte privado en 4×4 para el día del desierto, todas las comidas incluidas a partir de la cena del campamento, y el alojamiento dividido entre el hotel del oasis y el campamento."
+      },
+      {
+        "text": "Transporte privado en 4×4 para el día del desierto",
+        "source": "El viaje es una salida privada, con su propio conductor-guía, transporte privado en 4×4 para el día del desierto, todas las comidas incluidas a partir de la cena del campamento, y el alojamiento dividido entre el hotel del oasis y el campamento."
+      },
+      {
+        "text": "Todas las comidas incluidas a partir de la cena del campamento",
+        "source": "El viaje es una salida privada, con su propio conductor-guía, transporte privado en 4×4 para el día del desierto, todas las comidas incluidas a partir de la cena del campamento, y el alojamiento dividido entre el hotel del oasis y el campamento."
+      },
+      {
+        "text": "Alojamiento dividido entre el hotel del oasis y el campamento",
+        "source": "El viaje es una salida privada, con su propio conductor-guía, transporte privado en 4×4 para el día del desierto, todas las comidas incluidas a partir de la cena del campamento, y el alojamiento dividido entre el hotel del oasis y el campamento."
+      },
+      {
+        "text": "Equipo de dormir proporcionado en el campamento",
+        "source": "El campamento mismo se monta en una zona resguardada del Desierto Blanco antiguo, con equipo de dormir proporcionado, cena cocinada en el campamento, y el cielo nocturno libre de contaminación lumínica en cualquier dirección."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bahariya: la jornada del oasis",
+        "overnight": "Hotel local (oasis de Bahariya)",
+        "source": "Pernocta en un hotel local."
+      },
+      {
+        "day": 2,
+        "title": "La travesía del desierto: negro, cristal, creta",
+        "overnight": "Campamento en el Desierto Blanco",
+        "source": "El campamento mismo se monta en una zona resguardada del Desierto Blanco antiguo, con equipo de dormir proporcionado, cena cocinada en el campamento, y el cielo nocturno libre de contaminación lumínica en cualquier dirección."
+      },
+      {
+        "day": 3,
+        "title": "Amanecer en el Desierto Blanco y regreso a El Cairo",
+        "overnight": null,
+        "source": "Tras el desayuno en el campamento y una corta caminata final por las formaciones circundantes —la Roca Hongo entre ellas—, el viaje de vuelta a El Cairo se hace por la mañana, llegando a la ciudad por la tarde."
+      }
+    ],
+    "dropped": 0
+  }
+}

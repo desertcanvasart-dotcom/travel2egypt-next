@@ -1,0 +1,57 @@
+{
+  "slug": "4-days-lake-nasser-cruise-from-abu-simbel",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "4 días / 3 noches a bordo de un crucero confortable del lago Nasser",
+        "source": "Duración · 4 días / 3 noches a bordo de un crucero confortable del lago Nasser"
+      },
+      {
+        "text": "Su propio egiptólogo",
+        "source": "El grupo viaja con su propio egiptólogo; a bordo se dispone de camarote privado en un barco compartido."
+      },
+      {
+        "text": "Camarote privado en un barco compartido",
+        "source": "El grupo viaja con su propio egiptólogo; a bordo se dispone de camarote privado en un barco compartido."
+      },
+      {
+        "text": "Recepción en el aeropuerto de Abu Simbel y traslado al barco",
+        "source": "Se recibe al viajero en el aeropuerto de Abu Simbel y se le traslada al barco."
+      },
+      {
+        "text": "Traslado al aeropuerto internacional de Asuán o a su próximo destino",
+        "source": "Tras Kalabsha se vuelve al barco para el último desayuno, se desembarca y se traslada al viajero al aeropuerto internacional de Asuán o a su próximo destino."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Abu Simbel: el comienzo meridional",
+        "overnight": "A bordo del barco",
+        "source": "Tras la visita se regresa al barco; la cena se sirve mientras la embarcación inicia su singladura hacia el norte."
+      },
+      {
+        "day": 2,
+        "title": "Qasr Ibrim y Amada",
+        "overnight": "A bordo del barco",
+        "source": "El barco navega de noche rumbo a Wadi es-Sebua."
+      },
+      {
+        "day": 3,
+        "title": "Wadi es-Sebua, Dakka y Maharraqa",
+        "overnight": "A bordo del barco",
+        "source": "La tarde se pasa a bordo mientras el barco enfila Asuán."
+      },
+      {
+        "day": 4,
+        "title": "Kalabsha y la aproximación a Asuán",
+        "overnight": null,
+        "source": "Tras Kalabsha se vuelve al barco para el último desayuno, se desembarca y se traslada al viajero al aeropuerto internacional de Asuán o a su próximo destino."
+      }
+    ],
+    "dropped": 0
+  }
+}

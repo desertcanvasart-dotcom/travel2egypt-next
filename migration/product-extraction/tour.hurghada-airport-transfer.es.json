@@ -1,0 +1,29 @@
+{
+  "slug": "hurghada-airport-transfer",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Traslado privado con aire acondicionado",
+        "source": "El vehículo es privado y con aire acondicionado, y se incluye una botella de agua mineral por persona para el trayecto."
+      },
+      {
+        "text": "Una botella de agua mineral por persona para el trayecto",
+        "source": "El vehículo es privado y con aire acondicionado, y se incluye una botella de agua mineral por persona para el trayecto."
+      }
+    ],
+    "exclusions": [
+      {
+        "text": "No incluye guía",
+        "source": "No incluye guía: es un transfer punto a punto, no una excursión."
+      },
+      {
+        "text": "Tasa de visado de 25 USD a la llegada",
+        "source": "La tasa de 25 USD por el visado a la llegada es un cargo gubernamental, no forma parte del traslado y no puede prepagarse a través de este servicio."
+      }
+    ],
+    "itinerary": [],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "marriott-mena-house-4-days-stay",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Tres noches en el Marriott Mena House, Guiza",
+        "source": "Dónde · El Cairo — tres noches en el Marriott Mena House, Guiza; excursión a Alejandría; Ciudadela y Jan el-Jalili"
+      },
+      {
+        "text": "Traslado desde el Aeropuerto Internacional de El Cairo al Mena House",
+        "source": "Le esperan en el Aeropuerto Internacional de El Cairo y le trasladan directamente al Mena House."
+      },
+      {
+        "text": "Traslado al Aeropuerto Internacional de El Cairo el día de salida",
+        "source": "La mañana de salida pertenece al hotel: desayuno tardío en la terraza, un último paseo a pie hasta la base de la meseta con la luz de la mañana — las pirámides en su mejor momento, antes de que el calor apriete — y un traslado sin prisa al Aeropuerto Internacional de El Cairo."
+      },
+      {
+        "text": "Un egiptólogo para las jornadas de visitas en El Cairo y Alejandría",
+        "source": "La estancia es privada en todo su recorrido: un egiptólogo para las jornadas de visitas en El Cairo y Alejandría, traslados privados climatizados, entradas incluidas en el programa."
+      },
+      {
+        "text": "Traslados privados climatizados",
+        "source": "La estancia es privada en todo su recorrido: un egiptólogo para las jornadas de visitas en El Cairo y Alejandría, traslados privados climatizados, entradas incluidas en el programa."
+      },
+      {
+        "text": "Entradas incluidas en el programa",
+        "source": "La estancia es privada en todo su recorrido: un egiptólogo para las jornadas de visitas en El Cairo y Alejandría, traslados privados climatizados, entradas incluidas en el programa."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Llegada y traslado al Mena House",
+        "overnight": "Marriott Mena House",
+        "source": "Le esperan en el Aeropuerto Internacional de El Cairo y le trasladan directamente al Mena House."
+      },
+      {
+        "day": 2,
+        "title": "Guiza, el Museo Egipcio y la Ciudadela",
+        "overnight": "Marriott Mena House",
+        "source": "La jornada asciende a la Ciudadela de Saladino y a la mezquita de Mohamed Alí, el templo otomano de alabastro que define el horizonte de El Cairo desde el siglo XIX, y se cierra en Jan el-Jalili, el barrio del bazar medieval con actividad comercial continua desde el siglo XIV, donde se cena antes de regresar al Mena House."
+      },
+      {
+        "day": 3,
+        "title": "Alejandría: la jornada mediterránea",
+        "overnight": "Marriott Mena House",
+        "source": "La jornada se cierra con un paseo por Al Muntazah, el complejo de jardines reales en el extremo oriental de la ciudad, antes del regreso a El Cairo."
+      },
+      {
+        "day": 4,
+        "title": "La mañana de salida",
+        "overnight": null,
+        "source": "La mañana de salida pertenece al hotel: desayuno tardío en la terraza, un último paseo a pie hasta la base de la meseta con la luz de la mañana — las pirámides en su mejor momento, antes de que el calor apriete — y un traslado sin prisa al Aeropuerto Internacional de El Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

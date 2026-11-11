@@ -1,0 +1,63 @@
+{
+  "slug": "5-day-river-cruise-from-luxor",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Egiptólogo propio",
+        "source": "El grupo viaja con su propio egiptólogo; a bordo se dispone de camarote privado en un crucero de cinco estrellas."
+      },
+      {
+        "text": "Camarote privado en un crucero de cinco estrellas",
+        "source": "El grupo viaja con su propio egiptólogo; a bordo se dispone de camarote privado en un crucero de cinco estrellas."
+      },
+      {
+        "text": "4 noches a bordo de un crucero fluvial de cinco estrellas",
+        "source": "Duración · 5 días / 4 noches a bordo de un crucero fluvial de cinco estrellas"
+      },
+      {
+        "text": "Recepción en el aeropuerto internacional de Luxor y traslado al crucero",
+        "source": "Se recibe al viajero en el aeropuerto internacional de Luxor y se le traslada al crucero de cinco estrellas."
+      },
+      {
+        "text": "Traslado al aeropuerto internacional de Asuán",
+        "source": "Tras un último desayuno sobre el Nilo, se traslada al viajero al aeropuerto internacional de Asuán."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Luxor, orilla oriental: Karnak y templo de Luxor",
+        "overnight": "Crucero de cinco estrellas",
+        "source": "Se recibe al viajero en el aeropuerto internacional de Luxor y se le traslada al crucero de cinco estrellas."
+      },
+      {
+        "day": 2,
+        "title": "La orilla occidental tebana",
+        "overnight": "Crucero de cinco estrellas",
+        "source": "Esta travesía dura cinco días, de Luxor hacia el sur hasta Asuán: la orilla oriental de Luxor el primero, la occidental el segundo, Edfu y Kom Ombo el tercero, Asuán el cuarto, salida el quinto."
+      },
+      {
+        "day": 3,
+        "title": "Edfu y Kom Ombo: día de navegación",
+        "overnight": "Crucero de cinco estrellas",
+        "source": "La tercera jornada es día de navegación —dos de los mejores templos del Nilo con el río en medio."
+      },
+      {
+        "day": 4,
+        "title": "Asuán: File, la presa, el obelisco inacabado",
+        "overnight": "Crucero de cinco estrellas",
+        "source": "Esta travesía dura cinco días, de Luxor hacia el sur hasta Asuán: la orilla oriental de Luxor el primero, la occidental el segundo, Edfu y Kom Ombo el tercero, Asuán el cuarto, salida el quinto."
+      },
+      {
+        "day": 5,
+        "title": "Salida desde Asuán",
+        "overnight": null,
+        "source": "Tras un último desayuno sobre el Nilo, se traslada al viajero al aeropuerto internacional de Asuán."
+      }
+    ],
+    "dropped": 0
+  }
+}

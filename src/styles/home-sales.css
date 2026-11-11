@@ -158,3 +158,12 @@
 /* JA (2026-11-08): the Latin hero size sets a 30-character CJK headline in
    five lines on a phone; CJK glyphs are wider per character, so step it down. */
 html[lang='ja'] .lvl-sales .sales-hero h1 { font-size: clamp(30px, 3.6vw, 50px); }
+
+/* Travel styles cards — journey pages Phase A (approved hero, explore link, all styles). */
+.lvl-sales .style-img { display: block; margin: -26px -24px 18px; }
+.lvl-sales .style-img .t2e-visual { aspect-ratio: 3/2; width: 100%; }
+.lvl-sales .style-cta { margin-top: 10px; font-family: var(--ui); font-size: 13px; color: var(--navy); }
+.lvl-sales .style:hover .style-cta { color: var(--gold-dark); }
+.lvl-sales .styles-all { margin: 22px 0 0; font-family: var(--ui); font-size: 14px; }
+.lvl-sales .styles-all a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--navy); padding-bottom: 3px; }
+.lvl-sales .styles-all a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }

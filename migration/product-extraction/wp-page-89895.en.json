@@ -1,0 +1,29 @@
+{
+  "slug": "cairo-and-nile-cruise-tour",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Your party travels with its own Egyptologist",
+        "source": "Your party travels with its own Egyptologist; aboard the Nile you have a private cabin on a five-star cruise ship."
+      },
+      {
+        "text": "Private cabin on a five-star cruise ship",
+        "source": "Your party travels with its own Egyptologist; aboard the Nile you have a private cabin on a five-star cruise ship."
+      },
+      {
+        "text": "Met at Cairo International Airport and transferred to your hotel",
+        "source": "You are met at Cairo International Airport and transferred to your hotel — no programme, just arrival and rest."
+      },
+      {
+        "text": "Transfer to Cairo International Airport on departure",
+        "source": "After a final breakfast the following morning, you are transferred to Cairo International Airport."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [],
+    "dropped": 0,
+    "itineraryRejected": "could not map every day without guessing"
+  }
+}

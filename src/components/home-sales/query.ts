@@ -1,6 +1,8 @@
 import { groq } from 'next-sanity';
 import { guidePriceParam, guidePricedParam } from '@/sanity/lib/guidePrice';
 
+import { EN_SLUG, LOCAL_SLUG, PRODUCTS_BY_SLUGS_FILTER } from '@/lib/products/bySlug';
+
 /**
  * One batched read for every product the sales homepage shows, in $locale.
  * Products are matched by EN slug (config keys); `href` is this language's
@@ -11,9 +13,9 @@ export const salesHomeQuery = groq`{
     heroImage{ ..., "alt": coalesce(alt[_key==$locale][0].value, alt[_key=="en"][0].value, "") },
     "heroCaption": coalesce(heroCaption[_key==$locale][0].value, heroCaption[_key=="en"][0].value, "")
   },
-  "products": *[_type == "tour" && !(_id in path("drafts.**")) && slug[_key=="en"][0].value.current in $slugs]{
-    "slug": slug[_key=="en"][0].value.current,
-    "href": coalesce(slug[_key==$locale][0].value.current, slug[_key=="en"][0].value.current),
+  "products": *[${PRODUCTS_BY_SLUGS_FILTER}]{
+    "slug": ${EN_SLUG},
+    "href": ${LOCAL_SLUG},
     "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value, ""),
     type,
     "priceFrom": ${guidePriceParam},

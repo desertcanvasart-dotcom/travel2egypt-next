@@ -2,7 +2,7 @@
 
 import { createContext, useCallback, useContext, useEffect, useState } from 'react';
 
-import { CURRENCIES, CURRENCY_COOKIE, DEFAULT_CURRENCY } from './currency';
+import { CURRENCIES, CURRENCY_COOKIE, DEFAULT_CURRENCY, type Rates } from './currency';
 
 /**
  * Viewer-selected display currency, persisted to the `t2e_ccy` cookie.
@@ -16,15 +16,19 @@ const COOKIE = CURRENCY_COOKIE;
 interface Ctx {
   currency: string;
   setCurrency: (code: string) => void;
+  /** Today's live EUR→currency rates (server-fetched, lib/fx.ts); empty → fallback rates. */
+  rates: Rates;
 }
 
-const CurrencyContext = createContext<Ctx>({ currency: DEFAULT_CURRENCY, setCurrency: () => {} });
+const CurrencyContext = createContext<Ctx>({ currency: DEFAULT_CURRENCY, setCurrency: () => {}, rates: {} });
 
 export function CurrencyProvider({
   defaultCurrency,
+  rates = {},
   children,
 }: {
   defaultCurrency: string;
+  rates?: Rates;
   children: React.ReactNode;
 }) {
   const [currency, setCur] = useState(
@@ -66,7 +70,7 @@ export function CurrencyProvider({
   }, []);
 
   return (
-    <CurrencyContext.Provider value={{ currency, setCurrency }}>
+    <CurrencyContext.Provider value={{ currency, setCurrency, rates }}>
       {children}
     </CurrencyContext.Provider>
   );

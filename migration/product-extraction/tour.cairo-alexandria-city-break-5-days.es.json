@@ -1,0 +1,59 @@
+{
+  "slug": "cairo-alexandria-city-break-5-days",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "Egiptólogo licenciado de habla hispana",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados incluido el trayecto El Cairo–Alejandría, cuatro noches en hoteles cuidadosamente seleccionados y pensión completa durante todo el viaje son parte del paquete."
+      },
+      {
+        "text": "Traslados privados climatizados incluido el trayecto El Cairo–Alejandría",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados incluido el trayecto El Cairo–Alejandría, cuatro noches en hoteles cuidadosamente seleccionados y pensión completa durante todo el viaje son parte del paquete."
+      },
+      {
+        "text": "Cuatro noches en hoteles cuidadosamente seleccionados",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados incluido el trayecto El Cairo–Alejandría, cuatro noches en hoteles cuidadosamente seleccionados y pensión completa durante todo el viaje son parte del paquete."
+      },
+      {
+        "text": "Pensión completa durante todo el viaje",
+        "source": "Un egiptólogo licenciado de habla hispana, traslados privados climatizados incluido el trayecto El Cairo–Alejandría, cuatro noches en hoteles cuidadosamente seleccionados y pensión completa durante todo el viaje son parte del paquete."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "El Cairo: la meseta",
+        "overnight": "El Cairo",
+        "source": "El primer día abre con los monumentos que organizaron la reputación de Egipto para el resto de la historia."
+      },
+      {
+        "day": 2,
+        "title": "El Cairo: museo y ciudad medieval",
+        "overnight": "El Cairo",
+        "source": "El segundo día se mueve de la meseta a la ciudad, y de lo faraónico a lo medieval."
+      },
+      {
+        "day": 3,
+        "title": "El Cairo: la invención de la pirámide",
+        "overnight": "El Cairo",
+        "source": "El tercer día retrocede más allá de Guiza, hasta el punto donde empezó la arquitectura monumental en piedra."
+      },
+      {
+        "day": 4,
+        "title": "Alejandría: la ciudad mediterránea",
+        "overnight": "El Cairo",
+        "source": "La jornada de Alejandría se plantea como ida y vuelta larga en lugar de pernoctación, lo que mantiene la estancia anclada en El Cairo y reduce el equipaje en movimiento."
+      },
+      {
+        "day": 5,
+        "title": "Traslado al Aeropuerto Internacional de El Cairo",
+        "overnight": null,
+        "source": "El quinto día es de traslado: último desayuno y vuelta por carretera al Aeropuerto Internacional de El Cairo, con vuelos posteriores que dejan margen para alguna hora añadida en la ciudad."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "day-tour-to-karnak-luxor-temples-luxor-museum",
+  "lang": "ja",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      null,
+      null,
+      null,
+      {
+        "option": "順序を変えて、神殿か博物館のどちらかに時間を多く割く",
+        "source": "完全プライベートですから、順序も滞在時間もご一行の関心に合わせて組み替えられます。"
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "順序を変えて、神殿か博物館のどちらかに時間を多く割く",
+        "source": "完全プライベートですから、順序も滞在時間もご一行の関心に合わせて組み替えられます。"
+      }
+    ],
+    "dropped": 3
+  }
+}

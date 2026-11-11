@@ -1,0 +1,33 @@
+{
+  "slug": "nubian-temples-day-tour-from-aswan",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Combinar la visita con Filae esa misma tarde",
+        "source": "Únelo con Filae esa misma tarde, o pregunta por un almuerzo en un pueblo nubio al regreso; nuestro concierge da forma al día de Asuán a tu ritmo."
+      },
+      {
+        "option": "Añadir un almuerzo en un pueblo nubio al regreso",
+        "source": "Únelo con Filae esa misma tarde, o pregunta por un almuerzo en un pueblo nubio al regreso; nuestro concierge da forma al día de Asuán a tu ritmo."
+      },
+      null
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Combinar la visita con Filae esa misma tarde",
+        "source": "Únelo con Filae esa misma tarde, o pregunta por un almuerzo en un pueblo nubio al regreso; nuestro concierge da forma al día de Asuán a tu ritmo."
+      },
+      {
+        "text": "Añadir un almuerzo en un pueblo nubio al regreso",
+        "source": "Únelo con Filae esa misma tarde, o pregunta por un almuerzo en un pueblo nubio al regreso; nuestro concierge da forma al día de Asuán a tu ritmo."
+      }
+    ],
+    "dropped": 1
+  }
+}

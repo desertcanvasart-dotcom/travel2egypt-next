@@ -1,0 +1,53 @@
+{
+  "slug": "4-day-history-culture-escape",
+  "lang": "en",
+  "empty": false,
+  "kept": {
+    "inclusions": [
+      {
+        "text": "A licensed English-speaking Egyptologist",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights' accommodation, and full board are included throughout; children are welcome on request."
+      },
+      {
+        "text": "private air-conditioned transfers",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights' accommodation, and full board are included throughout; children are welcome on request."
+      },
+      {
+        "text": "three nights' accommodation",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights' accommodation, and full board are included throughout; children are welcome on request."
+      },
+      {
+        "text": "full board",
+        "source": "A licensed English-speaking Egyptologist, private air-conditioned transfers, three nights' accommodation, and full board are included throughout; children are welcome on request."
+      }
+    ],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "The Giza plateau",
+        "overnight": "Cairo",
+        "source": "The first day goes straight to Giza, because the plateau is where most people's idea of Egypt was formed and where it either holds or deepens."
+      },
+      {
+        "day": 2,
+        "title": "The Grand Egyptian Museum",
+        "overnight": "Cairo",
+        "source": "The second day belongs to the collection."
+      },
+      {
+        "day": 3,
+        "title": "Saqqara and Old Cairo",
+        "overnight": "Cairo",
+        "source": "The third day reaches back past Giza to the very beginning of monumental stone construction, then forward to Cairo's older inhabited layers."
+      },
+      {
+        "day": 4,
+        "title": "The Citadel and the bazaar",
+        "overnight": null,
+        "source": "The final day belongs to medieval Cairo before the airport transfer."
+      }
+    ],
+    "dropped": 0
+  }
+}

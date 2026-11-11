@@ -1,0 +1,42 @@
+{
+  "slug": "the-white-desert-and-djara-cave",
+  "lang": "es",
+  "empty": false,
+  "kept": {
+    "inclusions": [],
+    "exclusions": [],
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Bahariya: el oasis del umbral",
+        "overnight": "hotel de Bahariya",
+        "source": "La noche se pasa en un hotel de Bahariya."
+      },
+      {
+        "day": 2,
+        "title": "El Desierto Negro y el Desierto Blanco en 4×4",
+        "overnight": "Campamento en el Desierto Blanco",
+        "source": "El campamento se monta entre ellas, en el desierto abierto, con las siluetas de tiza visibles a la luz de la luna."
+      },
+      {
+        "day": 3,
+        "title": "Al oeste, a la cueva de Djara",
+        "overnight": "Campamento junto a la cueva de Djara",
+        "source": "El campamento se monta junto a la cueva de Djara, a unos 150 kilómetros del campamento del Desierto Blanco."
+      },
+      {
+        "day": 4,
+        "title": "La jornada siguiente pertenece a la cueva",
+        "overnight": "hotel del oasis",
+        "source": "La noche se pasa en un hotel del oasis, que se registra como confort genuino después de dos noches bajo lona."
+      },
+      {
+        "day": 5,
+        "title": "De vuelta a El Cairo",
+        "overnight": null,
+        "source": "Un último desayuno en Bahariya y luego la conducción de cuatro horas al noreste, de regreso a El Cairo."
+      }
+    ],
+    "dropped": 0
+  }
+}

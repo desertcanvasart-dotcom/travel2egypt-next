@@ -185,6 +185,14 @@ export const tourSchema = defineType({
         group: 'content',
       }) as any
     ),
+    defineField(
+      localizedPortableTextField('practicalInfo', {
+        title: 'Practical information',
+        description:
+          'Optional. Shown after the day-by-day itinerary: timing notes, what to bring, guest questions, meeting point, cancellation terms. Locale-strict — a language without its own text shows nothing (no English fallback).',
+        group: 'content',
+      }) as any
+    ),
 
     // ── Itinerary & details ────────────────────────────
     defineField({
@@ -393,20 +401,55 @@ export const tourSchema = defineType({
         },
       ],
     }),
-    defineField(
-      localizedPortableTextField('inclusions', {
-        title: 'Inclusions',
-        description: "What's included in the tour.",
-        group: 'itinerary',
-      }) as any
-    ),
-    defineField(
-      localizedPortableTextField('exclusions', {
-        title: 'Exclusions',
-        description: "What's not included.",
-        group: 'itinerary',
-      }) as any
-    ),
+    // Product page template (2026-11-09): Included / Not included and the
+    // "Itinerary at a glance", extracted from each product's own text. Every
+    // item carries its language, the exact source sentence it came from and a
+    // review flag; the site renders ONLY items the owner approved
+    // (needsReview = false). These replace the old rich-text inclusions /
+    // exclusions fields, which no tour ever used.
+    defineField({
+      name: 'inclusions',
+      title: 'Included (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'One row per item and language. Shown only when "Needs review" is off.',
+      of: [{ type: 'productFact' }],
+    }),
+    defineField({
+      name: 'exclusions',
+      title: 'Not included (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'One row per item and language. Shown only when "Needs review" is off.',
+      of: [{ type: 'productFact' }],
+    }),
+    defineField({
+      name: 'itineraryDays',
+      title: 'Itinerary at a glance (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'One row per day and language. Shown only when every day of the product is approved.',
+      of: [{ type: 'itineraryDay' }],
+    }),
+    // Product page right column (2026-11-11): "Your route" (multi-day) and
+    // "Make it your own", extracted from the product's own text with the
+    // source sentence kept; shown only once the owner approves them.
+    defineField({
+      name: 'routeLegs',
+      title: 'Route legs (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'One row per leg and language, in order. "Your route" and the Route row render only when every leg is approved.',
+      of: [{ type: 'routeLeg' }],
+    }),
+    defineField({
+      name: 'customisationOptions',
+      title: 'Make it your own (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: '1–4 changes the product text already offers, one short line each, per language. Shown only when "Needs review" is off.',
+      of: [{ type: 'productFact' }],
+    }),
     defineField(
       localizedPortableTextField('itinerary', {
         title: 'Legacy itinerary (deprecated)',
@@ -439,7 +482,7 @@ export const tourSchema = defineType({
       name: 'basePrice',
       title: 'Base price (per person, EUR)',
       description:
-        'Per-person price for a standard scheduled departure. Leave unset → every date shows "On inquiry" and the peak uplift stays dormant. Number only — never a symbol.',
+        'Per-person price for a standard scheduled departure. Leave unset → each date uses the tour\'s "From" price (priceFrom), peak dates adding the uplift; with neither set the date shows "On inquiry". Number only — never a symbol.',
       type: 'number',
       group: 'pricing',
     }),

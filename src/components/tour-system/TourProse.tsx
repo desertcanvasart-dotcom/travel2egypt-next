@@ -30,11 +30,20 @@ const NOTE_LABELS: Record<string, string> = {
   ja: 'コンシェルジュより',
 };
 
-export function TourProse({ value, locale }: { value: unknown; locale: Locale }) {
+export function TourProse({
+  value,
+  locale,
+  lead = true,
+}: {
+  value: unknown;
+  locale: Locale;
+  /** Drop-cap the first paragraph. Off for secondary sections (e.g. practical info). */
+  lead?: boolean;
+}) {
   if (!value || !Array.isArray(value)) return null;
 
   // Tag the first `normal` block so it gets the drop-cap `.lead` class.
-  let leadAssigned = false;
+  let leadAssigned = !lead;
   const blocks = value as Array<Record<string, unknown>>;
   const firstNormalKey = (() => {
     for (const b of blocks) {
