@@ -85,6 +85,7 @@ export function LeadProvider({
       lead_kind: args.kind ?? 'trip',
       ...(args.tourSlug ? { tour: args.tourSlug } : {}),
       ...(args.hub ? { hub: args.hub } : {}),
+      ...(args.enquiryType ? { type: args.enquiryType } : {}),
     });
   }, []);
 
@@ -161,6 +162,7 @@ export function LeadButton({
   className,
   children,
   itemListName,
+  itemParams,
   openEvent,
 }: {
   source: LeadSource;
@@ -169,6 +171,8 @@ export function LeadButton({
   children: ReactNode;
   /** For select_item when the button sits on a product card. */
   itemListName?: string;
+  /** Extra select_item params (e.g. type: 'small_group'). */
+  itemParams?: Record<string, string>;
   /** An extra GA4 event on open, e.g. form_open {location: 'hub_card'}. */
   openEvent?: { name: 'form_open'; params: Record<string, string> };
 }) {
@@ -179,7 +183,7 @@ export function LeadButton({
       className={className}
       onClick={() => {
         if (itemListName && prefill?.tourSlug) {
-          track('select_item', { item_list_name: itemListName, item_id: prefill.tourSlug, action: 'request' });
+          track('select_item', { item_list_name: itemListName, item_id: prefill.tourSlug, action: 'request', ...itemParams });
         }
         if (openEvent) track(openEvent.name, openEvent.params);
         open({ source, ...prefill });

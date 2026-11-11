@@ -1605,7 +1605,9 @@
     "closeFree": "Gratis y sin compromiso.",
     "closeChat": "¿Prefieres chatear?",
     "closeExploring": "¿Aún no lo tienes claro?",
-    "closeConcierge": "Pide consejo a nuestros especialistas en Egipto →"
+    "closeConcierge": "Pide consejo a nuestros especialistas en Egipto →",
+    "smallGroupLead": "¿Prefieres viajar en un grupo reducido?",
+    "smallGroupAction": "Ver salidas programadas →"
   },
   "dayHub": {
     "cairoGiza": "El Cairo y Guiza",
@@ -1647,5 +1649,25 @@
     "exploring": "¿Aún no lo tienes claro?",
     "concierge": "Pide consejo a nuestros especialistas en Egipto →",
     "howKicker": "Cómo funciona"
+  },
+  "smallGroupHub": {
+    "crumb": "Salidas en grupo reducido",
+    "title": "Salidas en grupo reducido",
+    "dek": "Viajes por Egipto con fechas fijas, grupo limitado y un egiptólogo con licencia. Costes compartidos y todos los hoteles y traslados organizados.",
+    "primary": "Consultar fechas de salida",
+    "secondary": "Ver las salidas ↓",
+    "statTours": "Viajes en grupo",
+    "statToursValue": "{count}",
+    "statFrom": "Desde",
+    "statSince": "Guías desde",
+    "statSinceValue": "1993",
+    "basis": "por persona, en grupo",
+    "askDates": "Consultar fechas",
+    "maxGroup": "Máx. {n} viajeros",
+    "nextDepartures": "Próximas salidas:",
+    "nextAsk": "Próximas salidas: consúltanos",
+    "closeTitle": "Dinos cuándo te gustaría viajar. Te enviamos las fechas y un precio.",
+    "closeFree": "Gratis y sin compromiso.",
+    "closeChat": "¿Prefieres chatear?"
   }
 }

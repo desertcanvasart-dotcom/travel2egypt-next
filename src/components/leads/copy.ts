@@ -30,6 +30,8 @@ export interface LeadCopy {
   leave: string;
   howManyDays: string;
   notSure: string;
+  /** Small-group form: "Which departure?" (2026-11-10). */
+  departureQ: string;
   dayBand: Record<DayBand, string>;
   budget: string;
   budgetNone: string;
@@ -92,6 +94,7 @@ export const LEAD_COPY: Record<LeadLocale, LeadCopy> = {
     leave: 'Leave',
     howManyDays: 'How many days?',
     notSure: 'Not sure',
+    departureQ: 'Which departure?',
     dayBand: { '3-5': '3-5 days', '6-9': '6-9 days', '10-14': '10-14 days', '15+': '15+ days' },
     budget: 'Budget per person',
     budgetNone: 'Prefer not to say',
@@ -152,6 +155,7 @@ export const LEAD_COPY: Record<LeadLocale, LeadCopy> = {
     leave: 'Salida',
     howManyDays: '¿Cuántos días?',
     notSure: 'Aún no lo sé',
+    departureQ: '¿Qué salida?',
     dayBand: { '3-5': '3–5 días', '6-9': '6–9 días', '10-14': '10–14 días', '15+': '15 días o más' },
     budget: 'Presupuesto por persona',
     budgetNone: 'Prefiero no decirlo',
@@ -215,6 +219,7 @@ export const LEAD_COPY: Record<LeadLocale, LeadCopy> = {
     leave: '出発日',
     howManyDays: 'ご旅行の日数',
     notSure: '未定',
+    departureQ: 'ご希望のツアー',
     dayBand: { '3-5': '3〜5日', '6-9': '6〜9日', '10-14': '10〜14日', '15+': '15日以上' },
     budget: '1名様あたりのご予算',
     budgetNone: '回答しない',
