@@ -11619,7 +11619,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/guia-de-viaje-de-al-gouna/playa-de-mangroovy",
-    "destination": "/es/guide/el-gouna",
+    "destination": "/es/guide/el-gouna/mangroovy-beach",
     "permanent": true
   },
   {
