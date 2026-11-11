@@ -1,0 +1,32 @@
+{
+  "slug": "skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Pair the flight with the standard West Bank day",
+        "source": "The flight is weather-dependent and the schedule is fixed by the sun; we usually pair this with the standard West Bank day so the ground-level visits arrive with the aerial map already in your head."
+      },
+      {
+        "option": "Give flexible mornings to allow for postponement",
+        "source": "If your dates have any slack, tell our concierge which mornings could work and we'll place the flight where a postponement still has somewhere to go."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Pair the flight with the standard West Bank day",
+        "source": "The flight is weather-dependent and the schedule is fixed by the sun; we usually pair this with the standard West Bank day so the ground-level visits arrive with the aerial map already in your head."
+      },
+      {
+        "text": "Give flexible mornings to allow for postponement",
+        "source": "If your dates have any slack, tell our concierge which mornings could work and we'll place the flight where a postponement still has somewhere to go."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [
+      {
+        "from": "El Cairo",
+        "to": "Asuán",
+        "via": [],
+        "sources": [
+          "La ruta baja al sur, de El Cairo a Asuán en tren nocturno, sube por el Nilo en crucero hasta Luxor y vuelve a El Cairo en vuelo doméstico.",
+          "Por la noche se embarca el tren con literas hacia Asuán: cruce práctico de la distancia que resulta también una de las formas más atmosféricas de viajar dentro de Egipto."
+        ]
+      },
+      {
+        "from": "Asuán",
+        "to": "Luxor",
+        "via": [
+          "Kom Ombo",
+          "Edfu"
+        ],
+        "sources": [
+          "El crucero sube desde Asuán hacia Kom Ombo, y las horas en cubierta son tanto el punto del día como el destino.",
+          "El quinto día se ancla en Edfu, el templo más fino del río.",
+          "La tarde es libre; Luxor se alcanza al atardecer."
+        ]
+      },
+      {
+        "from": "Luxor",
+        "to": "El Cairo",
+        "via": [],
+        "sources": [
+          "La tarde recorre Luxor Temple, el complejo más pequeño de la orilla oriental, conectado a Karnak por la Avenida de las Esfinges —reabierta ceremonialmente en noviembre de 2021—, antes de un vuelo doméstico de vuelta a El Cairo.",
+          "La ruta baja al sur, de El Cairo a Asuán en tren nocturno, sube por el Nilo en crucero hasta Luxor y vuelve a El Cairo en vuelo doméstico."
+        ]
+      }
+    ],
+    "customisationOptions": [
+      {
+        "option": "Añadir Abu Simbel en Asuán",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo al sur en vez del tren nocturno— y armaremos los siete días contigo."
+      },
+      {
+        "option": "Cambiar el museo de Tahrir por el GEM o el NMEC",
+        "source": "Cualquiera de las dos, o ambas, pueden sustituir la visita a Tahrir si se pide."
+      },
+      {
+        "option": "Volar al sur en vez de ir en el tren nocturno",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo al sur en vez del tren nocturno— y armaremos los siete días contigo."
+      },
+      {
+        "option": "Tomar un vuelo posterior para tener unas horas más en El Cairo",
+        "source": "El séptimo día es de traslado: último desayuno y vuelta al Aeropuerto Internacional de El Cairo, con vuelos posteriores que dejan opción a alguna hora más en la ciudad."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [
+      {
+        "from": "El Cairo",
+        "to": "Asuán",
+        "via": [],
+        "mode": "sleeper_train",
+        "nights": null,
+        "source": "La ruta baja al sur, de El Cairo a Asuán en tren nocturno, sube por el Nilo en crucero hasta Luxor y vuelve a El Cairo en vuelo doméstico. … Por la noche se embarca el tren con literas hacia Asuán: cruce práctico de la distancia que resulta también una de las formas más atmosféricas de viajar dentro de Egipto."
+      },
+      {
+        "from": "Asuán",
+        "to": "Luxor",
+        "via": [
+          "Kom Ombo",
+          "Edfu"
+        ],
+        "mode": "nile_cruise",
+        "nights": 3,
+        "source": "El crucero sube desde Asuán hacia Kom Ombo, y las horas en cubierta son tanto el punto del día como el destino. … El quinto día se ancla en Edfu, el templo más fino del río. … La tarde es libre; Luxor se alcanza al atardecer."
+      },
+      {
+        "from": "Luxor",
+        "to": "El Cairo",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "La tarde recorre Luxor Temple, el complejo más pequeño de la orilla oriental, conectado a Karnak por la Avenida de las Esfinges —reabierta ceremonialmente en noviembre de 2021—, antes de un vuelo doméstico de vuelta a El Cairo. … La ruta baja al sur, de El Cairo a Asuán en tren nocturno, sube por el Nilo en crucero hasta Luxor y vuelve a El Cairo en vuelo doméstico."
+      }
+    ],
+    "options": [
+      {
+        "text": "Añadir Abu Simbel en Asuán",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo al sur en vez del tren nocturno— y armaremos los siete días contigo."
+      },
+      {
+        "text": "Cambiar el museo de Tahrir por el GEM o el NMEC",
+        "source": "Cualquiera de las dos, o ambas, pueden sustituir la visita a Tahrir si se pide."
+      },
+      {
+        "text": "Volar al sur en vez de ir en el tren nocturno",
+        "source": "Dinos cómo querrías ajustarlo —Abu Simbel añadido en Asuán, el GEM en lugar del museo de Tahrir, un vuelo al sur en vez del tren nocturno— y armaremos los siete días contigo."
+      },
+      {
+        "text": "Tomar un vuelo posterior para tener unas horas más en El Cairo",
+        "source": "El séptimo día es de traslado: último desayuno y vuelta al Aeropuerto Internacional de El Cairo, con vuelos posteriores que dejan opción a alguna hora más en la ciudad."
+      }
+    ],
+    "dropped": 0
+  }
+}

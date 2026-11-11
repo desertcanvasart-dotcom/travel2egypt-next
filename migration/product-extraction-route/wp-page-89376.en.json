@@ -1,0 +1,111 @@
+{
+  "slug": "10-days-nile-dreamer-tour-experience",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [
+      {
+        "from": "Cairo",
+        "to": "Aswan",
+        "via": [],
+        "mode": "sleeper_train",
+        "nights": 1,
+        "sources": [
+          "In the evening you board the overnight train to Aswan, with dinner served onboard.",
+          "Duration · 10 days / 9 nights — 5 hotel nights + 1 sleeper-train night + 3 cruise nights"
+        ]
+      },
+      {
+        "from": "Aswan",
+        "to": "Luxor",
+        "via": [
+          "Kom Ombo",
+          "Edfu"
+        ],
+        "mode": "nile_cruise",
+        "nights": 3,
+        "sources": [
+          "This itinerary moves south from Cairo to Aswan by overnight train, boards a Nile cruise for three nights, sails north through Kom Ombo and Edfu to Luxor, and then returns to Cairo by flight to close."
+        ]
+      },
+      {
+        "from": "Luxor",
+        "to": "Cairo",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "sources": [
+          "In the afternoon you disembark and transfer to Luxor Airport for the short domestic flight back to Cairo, where your driver meets you and takes you to your hotel for the night."
+        ]
+      }
+    ],
+    "customisationOptions": [
+      {
+        "option": "Add Abu Simbel at Aswan",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit."
+      },
+      {
+        "option": "Swap the Tahrir museum for the GEM or NMEC",
+        "source": "Either or both can be substituted for the Tahrir visit on request.)"
+      },
+      {
+        "option": "Add a hot-air balloon over the West Bank",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit."
+      },
+      {
+        "option": "Fly south instead of the sleeper train",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [
+      {
+        "from": "Cairo",
+        "to": "Aswan",
+        "via": [],
+        "mode": "sleeper_train",
+        "nights": 1,
+        "source": "In the evening you board the overnight train to Aswan, with dinner served onboard. … Duration · 10 days / 9 nights — 5 hotel nights + 1 sleeper-train night + 3 cruise nights"
+      },
+      {
+        "from": "Aswan",
+        "to": "Luxor",
+        "via": [
+          "Kom Ombo",
+          "Edfu"
+        ],
+        "mode": "nile_cruise",
+        "nights": 3,
+        "source": "This itinerary moves south from Cairo to Aswan by overnight train, boards a Nile cruise for three nights, sails north through Kom Ombo and Edfu to Luxor, and then returns to Cairo by flight to close."
+      },
+      {
+        "from": "Luxor",
+        "to": "Cairo",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "In the afternoon you disembark and transfer to Luxor Airport for the short domestic flight back to Cairo, where your driver meets you and takes you to your hotel for the night."
+      }
+    ],
+    "options": [
+      {
+        "text": "Add Abu Simbel at Aswan",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit."
+      },
+      {
+        "text": "Swap the Tahrir museum for the GEM or NMEC",
+        "source": "Either or both can be substituted for the Tahrir visit on request.)"
+      },
+      {
+        "text": "Add a hot-air balloon over the West Bank",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit."
+      },
+      {
+        "text": "Fly south instead of the sleeper train",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a hot-air balloon over the West Bank, a flight south instead of the sleeper — and we will build the ten days to fit."
+      }
+    ],
+    "dropped": 0
+  }
+}

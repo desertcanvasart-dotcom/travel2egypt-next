@@ -197,3 +197,69 @@
 .pdp-partof { margin: 12px 0 0; font-family: var(--ui); font-size: 14px; color: var(--navy-mute); }
 .pdp-partof a { color: var(--navy); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 1px; }
 .pdp-partof a:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+/* ── Right column (owner spec 2026-11-11), desktop only ──────────────────
+   1 decision panel · 2 "Your route" (multi-day) · 3 "Make it your own" ·
+   4 compact sticky card. Root cause of the old empty column: the grid uses
+   align-items:start and .pdp-side had align-self:start, so the column was
+   only as tall as the panel and nothing below it had a track to stick in.
+   The column now stretches the full height of the content row. */
+.pdp-rc, .pdp-sticky { display: none; }
+@media (min-width: 1024px) {
+  .pdp-side { align-self: stretch; display: flex; flex-direction: column; }
+  .pdp-rc { display: block; margin-top: 32px; padding: 0 4px; font-family: var(--ui); color: var(--navy); }
+  .pdp-rc__h {
+    margin: 0 0 14px; font-family: var(--ui); font-weight: 500; font-size: 11px; line-height: 1.4;
+    letter-spacing: .16em; text-transform: uppercase; color: var(--navy-mute);
+  }
+  :lang(ja) .pdp-rc__h { letter-spacing: .08em; font-size: 12px; }
+
+  /* 2 · Your route: stops in the serif, legs in small UI type on a thin gold line. */
+  .pdp-route__list { list-style: none; margin: 0; padding: 0; }
+  .pdp-route__stop { margin: 0; }
+  .pdp-route__name { display: block; font-family: var(--display); font-size: 19px; line-height: 1.3; }
+  .pdp-route__leg { display: flex; align-items: center; gap: 12px; min-height: 30px; padding: 4px 0; }
+  .pdp-route__line { flex: none; align-self: stretch; width: 1px; margin-left: 7px; background: var(--gold); opacity: .8; }
+  .pdp-route__mode { font-size: 12.5px; line-height: 1.35; color: var(--navy-mute); }
+
+  /* 3 · Make it your own */
+  .pdp-own__list { list-style: none; margin: 0; padding: 0; font-size: 14.5px; line-height: 1.45; }
+  .pdp-own__list li { position: relative; padding: 5px 0 5px 18px; }
+  .pdp-own__list li::before { content: ''; position: absolute; left: 2px; top: 13px; width: 5px; height: 5px; border-radius: 50%; background: var(--gold); }
+  .pdp-own__ask {
+    margin-top: 10px; padding: 0 0 1px; background: none; border: 0; border-bottom: 1px solid var(--rule);
+    font: 500 14px/1.4 var(--ui); color: var(--navy); cursor: pointer; text-align: left;
+  }
+  .pdp-own__ask:hover { color: var(--gold-dark); border-color: var(--gold-dark); }
+
+  /* 4 · Compact sticky card. In the layout always (no jump), shown by fading in.
+     No fixed height, nothing clipped; StickyCardShell drops the trust line,
+     then shortens the title, then hides the card when it can't fit. */
+  .pdp-sticky {
+    display: flex; flex-direction: column; gap: 10px;
+    position: sticky; top: 104px; margin-top: 32px;
+    border: 1px solid var(--rule); background: var(--paper); padding: 18px 20px;
+    font-family: var(--ui); color: var(--navy);
+    box-shadow: 0 12px 30px -16px rgba(20, 36, 59, .3);
+    opacity: 0; visibility: hidden; transition: opacity .25s ease, visibility 0s linear .25s;
+  }
+  .pdp-sticky.is-on { opacity: 1; visibility: visible; transition: opacity .25s ease, visibility 0s; }
+  .pdp-sticky__title {
+    margin: 0; font-family: var(--display); font-size: 18px; line-height: 1.3;
+    display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
+  }
+  .pdp-sticky[data-fit='tight'] .pdp-sticky__title { -webkit-line-clamp: 1; }
+  .pdp-sticky__price { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 6px; }
+  .pdp-sticky__from { font-size: 12px; color: var(--navy-mute); }
+  .pdp-sticky__price strong { font-family: var(--display); font-weight: 500; font-size: 22px; line-height: 1.15; }
+  .pdp-sticky__price small { font-size: 12px; color: var(--navy-mute); }
+  .pdp-sticky .pdp-btn { min-height: 44px; padding: 11px 14px; white-space: normal; }
+  .pdp-sticky__wa { font-size: 13.5px; }
+  .pdp-sticky__trust { margin: 2px 0 0; padding-top: 10px; border-top: 1px solid var(--rule); font-size: 12px; line-height: 1.45; color: var(--navy-mute); }
+  .pdp-sticky__trust span { color: var(--gold); }
+  .pdp-sticky[data-fit='no-trust'] .pdp-sticky__trust,
+  .pdp-sticky[data-fit='tight'] .pdp-sticky__trust { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pdp-sticky, .pdp-sticky.is-on { transition: none; }
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      null,
+      {
+        "option": "Invertir el orden para terminar en la meseta de Guiza",
+        "source": "Hay viajeros que prefieren el relato hacia delante; al ser privado, podemos invertir el orden para que la meseta sea tu final."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Invertir el orden para terminar en la meseta de Guiza",
+        "source": "Hay viajeros que prefieren el relato hacia delante; al ser privado, podemos invertir el orden para que la meseta sea tu final."
+      }
+    ],
+    "dropped": 1
+  }
+}

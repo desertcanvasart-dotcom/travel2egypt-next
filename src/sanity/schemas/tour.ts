@@ -431,6 +431,25 @@ export const tourSchema = defineType({
       description: 'One row per day and language. Shown only when every day of the product is approved.',
       of: [{ type: 'itineraryDay' }],
     }),
+    // Product page right column (2026-11-11): "Your route" (multi-day) and
+    // "Make it your own", extracted from the product's own text with the
+    // source sentence kept; shown only once the owner approves them.
+    defineField({
+      name: 'routeLegs',
+      title: 'Route legs (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'One row per leg and language, in order. "Your route" and the Route row render only when every leg is approved.',
+      of: [{ type: 'routeLeg' }],
+    }),
+    defineField({
+      name: 'customisationOptions',
+      title: 'Make it your own (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: '1–4 changes the product text already offers, one short line each, per language. Shown only when "Needs review" is off.',
+      of: [{ type: 'productFact' }],
+    }),
     defineField(
       localizedPortableTextField('itinerary', {
         title: 'Legacy itinerary (deprecated)',

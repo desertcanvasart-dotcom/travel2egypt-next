@@ -1,0 +1,32 @@
+{
+  "slug": "skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Combinar el vuelo con el día estándar de la orilla occidental",
+        "source": "El vuelo depende del tiempo y su horario lo marca el sol; lo habitual es combinarlo con el día estándar de la orilla occidental, de modo que las visitas a pie de tierra lleguen con el mapa aéreo ya en la cabeza."
+      },
+      {
+        "option": "Indicar mañanas flexibles para permitir un aplazamiento",
+        "source": "Si tus fechas tienen algo de holgura, dile a nuestro concierge qué mañanas podrían servir y colocaremos el vuelo donde un aplazamiento aún tenga adónde ir."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Combinar el vuelo con el día estándar de la orilla occidental",
+        "source": "El vuelo depende del tiempo y su horario lo marca el sol; lo habitual es combinarlo con el día estándar de la orilla occidental, de modo que las visitas a pie de tierra lleguen con el mapa aéreo ya en la cabeza."
+      },
+      {
+        "text": "Indicar mañanas flexibles para permitir un aplazamiento",
+        "source": "Si tus fechas tienen algo de holgura, dile a nuestro concierge qué mañanas podrían servir y colocaremos el vuelo donde un aplazamiento aún tenga adónde ir."
+      }
+    ],
+    "dropped": 0
+  }
+}

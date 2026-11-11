@@ -15,6 +15,7 @@ import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { LazyFloatingConcierge } from '../LazyFloatingConcierge';
 import { DayTourPanel, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
+import { MakeItYourOwn, CompactStickyCard } from '../product/RightColumn';
 import { ProductViewTracker } from '../product/ProductActions';
 import { HOME_COPY, homeLocale } from '../home-sales/copy';
 import { buildProductOffer } from '@/lib/productOffer';
@@ -64,6 +65,8 @@ export interface SingleTour {
   relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[]; priceFrom?: number | null }> | null;
   approvedInclusions?: string[] | null;
   approvedExclusions?: string[] | null;
+  /** Owner-approved "Make it your own" options (this language). */
+  approvedOptions?: string[] | null;
   priceUpdatedAt?: string;
   relatedGuides?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   relatedGuideArticles?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
@@ -228,6 +231,24 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               facts={panelFacts}
               fromEur={fromEur}
               tiers={tiers}
+            />
+            <MakeItYourOwn
+              locale={locale}
+              options={tour.approvedOptions ?? []}
+              kind="day"
+              slug={tour.slug}
+              title={tour.title}
+              durationDays={null}
+              fromEur={fromEur}
+            />
+            <CompactStickyCard
+              locale={locale}
+              kind="day"
+              slug={tour.slug}
+              title={tour.title}
+              waHref={waHref}
+              fromEur={fromEur}
+              durationDays={null}
             />
           </div>
 
