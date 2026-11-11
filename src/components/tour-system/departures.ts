@@ -4,7 +4,20 @@
  * from the trip duration; the row price is the base price, lifted by the peak
  * percentage on peak-flagged dates; price is null ("On inquiry") when no base
  * price is set (the peak flag stays dormant until then).
+ *
+ * Booking cut-off (owner, 2026-11-11): a departure is only offered while it
+ * can still be joined. It disappears once it has started, and from
+ * DEPARTURE_CUTOFF_DAYS before its start date unless it is marked as having
+ * bookings in Sanity (status Guaranteed / Few places / Sold out, or a
+ * "Places left" figure below the group cap). Nothing is deleted: the date
+ * stays in Sanity and reappears as soon as someone marks it booked.
  */
+
+/** Days before departure at which an unbooked date stops being offered. */
+export const DEPARTURE_CUTOFF_DAYS = 7;
+
+/** Statuses that mean the departure has bookings or holds on it. */
+const BOOKED_STATUSES = new Set(['guaranteed', 'few', 'soldout']);
 
 export interface RawDeparture {
   startDate?: string; // ISO yyyy-mm-dd
@@ -30,6 +43,30 @@ function parseUTC(iso: string): Date | null {
   if (!iso || !/^\d{4}-\d{2}-\d{2}/.test(iso)) return null;
   const d = new Date(`${iso.slice(0, 10)}T00:00:00Z`);
   return Number.isNaN(d.getTime()) ? null : d;
+}
+
+/** True when the departure is marked as having bookings or holds. */
+export function hasBookings(dep: RawDeparture, maxGroup?: number | null): boolean {
+  if (dep.status && BOOKED_STATUSES.has(dep.status)) return true;
+  return (
+    typeof dep.placesLeft === 'number' &&
+    typeof maxGroup === 'number' &&
+    maxGroup > 0 &&
+    dep.placesLeft < maxGroup
+  );
+}
+
+/**
+ * Whether a departure is still offered on `now`: it starts after today
+ * (UTC), and either more than DEPARTURE_CUTOFF_DAYS away or marked booked.
+ */
+export function isOffered(dep: RawDeparture, opts: { now: Date; maxGroup?: number | null }): boolean {
+  const start = dep.startDate ? parseUTC(dep.startDate) : null;
+  if (!start) return false;
+  const today = Date.UTC(opts.now.getUTCFullYear(), opts.now.getUTCMonth(), opts.now.getUTCDate());
+  const daysUntil = Math.round((start.getTime() - today) / 86_400_000);
+  if (daysUntil < 1) return false;
+  return daysUntil > DEPARTURE_CUTOFF_DAYS || hasBookings(dep, opts.maxGroup);
 }
 
 function monthShort(d: Date, locale: string): string {
@@ -68,7 +105,7 @@ function priceFor(dep: RawDeparture, basePrice: number | null | undefined, uplif
 }
 
 export interface DeparturesModel {
-  rows: DepartureRow[]; // chronological, all dates
+  rows: DepartureRow[]; // chronological, offered dates only (see isOffered)
   count: number;
   next: DepartureRow | null; // soonest still-upcoming date
   upcomingAfterNext: DepartureRow[]; // the rest of the future dates, chronological
@@ -82,13 +119,22 @@ export interface DeparturesModel {
  */
 export function buildDepartures(
   departures: RawDeparture[] | null | undefined,
-  opts: { durationDays: number; basePrice?: number | null; peakUpliftPct?: number | null; locale: string; now: Date },
+  opts: {
+    durationDays: number;
+    basePrice?: number | null;
+    peakUpliftPct?: number | null;
+    /** Group cap: a "Places left" figure below it counts as booked. */
+    maxGroup?: number | null;
+    locale: string;
+    now: Date;
+  },
 ): DeparturesModel {
   const upliftPct = typeof opts.peakUpliftPct === 'number' ? opts.peakUpliftPct : 30;
   const nowMs = opts.now.getTime();
 
   const rows: DepartureRow[] = (departures ?? [])
     .filter((d): d is RawDeparture & { startDate: string } => Boolean(d?.startDate && parseUTC(d.startDate)))
+    .filter((d) => isOffered(d, { now: opts.now, maxGroup: opts.maxGroup }))
     .map((d) => {
       const start = parseUTC(d.startDate)!;
       const end = new Date(start);

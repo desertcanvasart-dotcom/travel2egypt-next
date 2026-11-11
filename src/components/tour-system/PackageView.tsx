@@ -110,6 +110,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
         durationDays,
         basePrice: tour.basePrice,
         peakUpliftPct: tour.peakUpliftPct,
+        maxGroup: tour.maxGroup,
         locale,
         now: new Date(),
       })
