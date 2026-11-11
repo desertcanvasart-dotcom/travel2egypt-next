@@ -68,7 +68,13 @@ export type AnalyticsEvent =
   // Journey pages Phase A (2026-11-10): view_journey {journey}
   | 'view_journey'
   // Measurement (2026-11-10): a test-mode lead (never generate_lead)
-  | 'test_lead';
+  | 'test_lead'
+  // Journey pages Phase B (2026-11-10): select_days {journey, days},
+  // select_content {content_type=journey_experience, journey, item_id},
+  // faq_open {journey, question_id}
+  | 'select_days'
+  | 'select_content'
+  | 'faq_open';
 
 type Params = Record<string, string | number | boolean | undefined>;
 
