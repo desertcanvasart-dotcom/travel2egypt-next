@@ -463,7 +463,7 @@ export const tourSchema = defineType({
       name: 'basePrice',
       title: 'Base price (per person, EUR)',
       description:
-        'Per-person price for a standard scheduled departure. Leave unset → every date shows "On inquiry" and the peak uplift stays dormant. Number only — never a symbol.',
+        'Per-person price for a standard scheduled departure. Leave unset → each date uses the tour\'s "From" price (priceFrom), peak dates adding the uplift; with neither set the date shows "On inquiry". Number only — never a symbol.',
       type: 'number',
       group: 'pricing',
     }),

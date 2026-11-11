@@ -11114,22 +11114,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/egypt-tours",
-    "destination": "/es/egypt-group-tours-from-uk-europe",
+    "destination": "/es/egipto-en-equilibrio-el-cairo-el-nilo-y-el-mar-rojo-en-10-dias",
     "permanent": true
   },
   {
     "source": "/egypt-tours",
-    "destination": "/egypt-group-tours-from-uk-europe",
+    "destination": "/10-day-egypt-group-tour-cairo-nile-red-sea",
     "permanent": true
   },
   {
     "source": "/es/viajes-a-egipto-desde-el-reino-unido",
-    "destination": "/es/egypt-group-tours-from-uk-europe",
+    "destination": "/es/egipto-en-equilibrio-el-cairo-el-nilo-y-el-mar-rojo-en-10-dias",
     "permanent": true
   },
   {
     "source": "/ja/igirisu-hatsu-ejiputo-tsua",
-    "destination": "/ja/egypt-group-tours-from-uk-europe",
+    "destination": "/ja/10-nichikan-ejiputo-gurupu-tsua-kairo-nairu-kokai",
     "permanent": true
   },
   {
@@ -27364,7 +27364,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/egypt-tours-from-spain",
-    "destination": "/egypt-group-tours-from-uk-europe",
+    "destination": "/10-day-egypt-group-tour-cairo-nile-red-sea",
     "permanent": true
   },
   {
@@ -27454,12 +27454,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/スペイン発-エジプトツアー",
-    "destination": "/ja/egypt-group-tours-from-uk-europe",
+    "destination": "/ja/10-nichikan-ejiputo-gurupu-tsua-kairo-nairu-kokai",
     "permanent": true
   },
   {
     "source": "/ja/ドイツ発-エジプトツアー",
-    "destination": "/ja/egypt-group-tours-from-uk-europe",
+    "destination": "/ja/10-nichikan-ejiputo-gurupu-tsua-kairo-nairu-kokai",
     "permanent": true
   },
   {
@@ -27574,7 +27574,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/tours-a-egipto-desde-ee-uu",
-    "destination": "/es/egypt-group-tours-from-usa-canada",
+    "destination": "/es/egipto-sin-prisa-el-cairo-el-mar-rojo-y-el-nilo-en-11-dias",
     "permanent": true
   },
   {
@@ -28774,22 +28774,22 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/egypt-tours-from-australia",
-    "destination": "/egypt-group-tours-from-australia",
+    "destination": "/12-day-egypt-group-tour-cairo-dahabiya-red-sea",
     "permanent": true
   },
   {
     "source": "/egypt-tours-from-canada",
-    "destination": "/egypt-group-tours-from-usa-canada",
+    "destination": "/11-day-egypt-group-tour-cairo-red-sea-nile",
     "permanent": true
   },
   {
     "source": "/egypt-tours-from-usa",
-    "destination": "/egypt-group-tours-from-usa-canada",
+    "destination": "/11-day-egypt-group-tour-cairo-red-sea-nile",
     "permanent": true
   },
   {
     "source": "/egypt-tours-from-germany",
-    "destination": "/egypt-group-tours-from-uk-europe",
+    "destination": "/10-day-egypt-group-tour-cairo-nile-red-sea",
     "permanent": true
   },
   {
@@ -28964,7 +28964,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/tours-a-egipto-desde-canada",
-    "destination": "/es/egypt-group-tours-from-usa-canada",
+    "destination": "/es/egipto-sin-prisa-el-cairo-el-mar-rojo-y-el-nilo-en-11-dias",
     "permanent": true
   },
   {
@@ -29619,7 +29619,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/オーストラリアからのエジプトツアー",
-    "destination": "/ja/egypt-group-tours-from-australia",
+    "destination": "/ja/12-nichikan-ejiputo-gurupu-tsua-kairo-dahabiya-kokai",
     "permanent": true
   },
   {
@@ -29855,6 +29855,66 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/ja/3-nichikan-no-miwaku-teki-na-shiwa-oashisu-boken-tsua",
     "destination": "/ja/4-nichikan-no-miwaku-teki-na-shiwa-oashisu-boken-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-group-tours-from-japan",
+    "destination": "/9-day-egypt-group-tour-cairo-abu-simbel-nile",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-group-tours-from-japan",
+    "destination": "/es/egipto-en-armonia-el-cairo-abu-simbel-y-el-nilo-en-9-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-group-tours-from-japan",
+    "destination": "/ja/9-nichikan-ejiputo-gurupu-tsua-kairo-abu-shin-beru-nairu",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-group-tours-from-uk-europe",
+    "destination": "/10-day-egypt-group-tour-cairo-nile-red-sea",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-group-tours-from-uk-europe",
+    "destination": "/es/egipto-en-equilibrio-el-cairo-el-nilo-y-el-mar-rojo-en-10-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-group-tours-from-uk-europe",
+    "destination": "/ja/10-nichikan-ejiputo-gurupu-tsua-kairo-nairu-kokai",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-group-tours-from-usa-canada",
+    "destination": "/11-day-egypt-group-tour-cairo-red-sea-nile",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-group-tours-from-usa-canada",
+    "destination": "/es/egipto-sin-prisa-el-cairo-el-mar-rojo-y-el-nilo-en-11-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-group-tours-from-usa-canada",
+    "destination": "/ja/11-nichikan-ejiputo-gurupu-tsua-kairo-kokai-nairu",
+    "permanent": true
+  },
+  {
+    "source": "/egypt-group-tours-from-australia",
+    "destination": "/12-day-egypt-group-tour-cairo-dahabiya-red-sea",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-group-tours-from-australia",
+    "destination": "/es/egipto-en-plenitud-el-cairo-el-nilo-en-dahabeya-y-el-mar-rojo-en-12-dias",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-group-tours-from-australia",
+    "destination": "/ja/12-nichikan-ejiputo-gurupu-tsua-kairo-dahabiya-kokai",
     "permanent": true
   }
 ];
