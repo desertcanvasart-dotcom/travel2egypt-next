@@ -1,6 +1,8 @@
 import { revalidatePath } from 'next/cache';
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { redirectTo } from '@/lib/http/redirect';
+
 import { requireAdminSession } from '@/lib/admin/guard';
 import { assertSameOrigin } from '@/lib/http/sameOrigin';
 import { adminSanity, canWrite, DEPARTURE_STATUSES, type DepartureStatus } from '@/lib/admin/departures';
@@ -23,7 +25,7 @@ const LOCALES = ['en', 'es', 'ja'] as const;
 const DATE_RE = /^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$/;
 
 function back(req: NextRequest, msg: string) {
-  return NextResponse.redirect(new URL(`/admin/departures?msg=${encodeURIComponent(msg)}`, req.url), 303);
+  return redirectTo(`/admin/departures?msg=${encodeURIComponent(msg)}`, 303);
 }
 
 export async function POST(req: NextRequest) {

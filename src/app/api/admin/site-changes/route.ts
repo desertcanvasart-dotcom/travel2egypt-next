@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { redirectTo } from '@/lib/http/redirect';
+
 import { requireAdminSession } from '@/lib/admin/guard';
 import { assertSameOrigin } from '@/lib/http/sameOrigin';
 import { conciergeDb } from '@/lib/supabase/server';
@@ -35,5 +37,5 @@ export async function POST(req: NextRequest) {
   } else {
     return NextResponse.json({ error: 'invalid' }, { status: 422 });
   }
-  return NextResponse.redirect(new URL('/admin/report', req.url), 303);
+  return redirectTo('/admin/report', 303);
 }
