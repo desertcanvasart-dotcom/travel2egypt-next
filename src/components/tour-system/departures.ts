@@ -13,8 +13,8 @@
  * stays in Sanity and reappears as soon as someone marks it booked.
  */
 
-/** Days before departure at which an unbooked date stops being offered. */
-export const DEPARTURE_CUTOFF_DAYS = 7;
+/** Days before departure at which an unbooked date stops being offered (owner: 14, 2026-11-11). */
+export const DEPARTURE_CUTOFF_DAYS = 14;
 
 /** Statuses that mean the departure has bookings or holds on it. */
 const BOOKED_STATUSES = new Set(['guaranteed', 'few', 'soldout']);

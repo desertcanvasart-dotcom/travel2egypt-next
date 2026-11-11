@@ -24,7 +24,7 @@ export function regionLabel(region: string | null | undefined, locale: SgLocale)
 
 /**
  * The next `max` departure dates still offered (see isOffered: after today,
- * and more than 7 days away unless marked booked; sold-out dates skipped),
+ * and more than DEPARTURE_CUTOFF_DAYS (14) days away unless marked booked; sold-out dates skipped),
  * formatted per language: en "14 Jan", es "14 ene", ja "1月14日". Past
  * dates never appear; an empty list means "ask us".
  */

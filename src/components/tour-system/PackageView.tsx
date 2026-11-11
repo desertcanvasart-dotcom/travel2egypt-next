@@ -105,10 +105,14 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   // ── Group package: the scheduled-departures apparatus. Built deterministically
   // at render/build time so the soonest FUTURE date is selected. ──
   const isGroup = tour.tourMode === 'group';
+  // Per-departure base price: the stored base price, else the tour's "from"
+  // price (owner, 2026-11-11), so dates are priced instead of "On inquiry".
+  const groupBase =
+    typeof tour.basePrice === 'number' ? tour.basePrice : typeof tour.priceFrom === 'number' ? tour.priceFrom : null;
   const dep = isGroup
     ? buildDepartures(tour.departures, {
         durationDays,
-        basePrice: tour.basePrice,
+        basePrice: groupBase,
         peakUpliftPct: tour.peakUpliftPct,
         maxGroup: tour.maxGroup,
         locale,
@@ -221,7 +225,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
       summary: tour.summary,
       durationDays: tour.durationDays,
       durationLabel: tour.durationLabel,
-      basePrice: tour.basePrice ?? undefined,
+      basePrice: isGroup ? groupBase ?? undefined : tour.basePrice ?? undefined,
       peakUpliftPct: tour.peakUpliftPct ?? undefined,
       maxGroup: tour.maxGroup ?? undefined,
       originRegion: tour.originRegion,
