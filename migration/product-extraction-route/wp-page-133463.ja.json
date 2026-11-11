@@ -1,0 +1,32 @@
+{
+  "slug": "skyward-solitude-private-luxor-sunrise-hot-air-balloon-experience",
+  "lang": "ja",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "フライトを標準の西岸の一日と組み合わせる",
+        "source": "私たちは通常、これを標準の西岸の一日と組み合わせます。"
+      },
+      {
+        "option": "延期に備えて、飛べそうな朝の候補に余裕を持たせる",
+        "source": "日程に少しでも余裕があれば、飛べそうな朝の候補をコンシェルジュへお知らせください。"
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "フライトを標準の西岸の一日と組み合わせる",
+        "source": "私たちは通常、これを標準の西岸の一日と組み合わせます。"
+      },
+      {
+        "text": "延期に備えて、飛べそうな朝の候補に余裕を持たせる",
+        "source": "日程に少しでも余裕があれば、飛べそうな朝の候補をコンシェルジュへお知らせください。"
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "4-day-history-culture-escape",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Spend a longer day at the Grand Egyptian Museum",
+        "source": "Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit."
+      },
+      {
+        "option": "Add a visit to Dahshur",
+        "source": "Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit."
+      },
+      {
+        "option": "Swap the Tanoura evening for a dinner cruise",
+        "source": "Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit."
+      },
+      {
+        "option": "Enter the Pyramid of Khafre",
+        "source": "The option to enter the Pyramid of Khafre — a low, steep passage into the body of the structure — is available for those who want it."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "routeRejected": "the text does not state how every leg is travelled",
+    "options": [
+      {
+        "text": "Spend a longer day at the Grand Egyptian Museum",
+        "source": "Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit."
+      },
+      {
+        "text": "Add a visit to Dahshur",
+        "source": "Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit."
+      },
+      {
+        "text": "Swap the Tanoura evening for a dinner cruise",
+        "source": "Tell our team how you'd want to shape it — a longer GEM day, a Dahshur add-on, the Tanoura evening swapped for a dinner cruise — and we will build the four days to fit."
+      },
+      {
+        "text": "Enter the Pyramid of Khafre",
+        "source": "The option to enter the Pyramid of Khafre — a low, steep passage into the body of the structure — is available for those who want it."
+      }
+    ],
+    "dropped": 0
+  }
+}

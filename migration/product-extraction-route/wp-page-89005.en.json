@@ -1,0 +1,41 @@
+{
+  "slug": "10-day-nile-and-western-desert-tour",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Add the Grand Egyptian Museum to the Cairo days",
+        "source": "Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit."
+      },
+      {
+        "option": "Spend more time in the oases",
+        "source": "Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit."
+      },
+      {
+        "option": "Pace the desert driving differently",
+        "source": "Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "routeRejected": "the text does not state how every leg is travelled",
+    "options": [
+      {
+        "text": "Add the Grand Egyptian Museum to the Cairo days",
+        "source": "Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit."
+      },
+      {
+        "text": "Spend more time in the oases",
+        "source": "Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit."
+      },
+      {
+        "text": "Pace the desert driving differently",
+        "source": "Tell our team how you'd want to shape it — more time in the oases, the Grand Egyptian Museum added, the desert driving paced differently — and we'll build the ten days to fit."
+      }
+    ],
+    "dropped": 0
+  }
+}

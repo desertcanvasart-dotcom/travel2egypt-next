@@ -4,6 +4,8 @@ How to review: tick ☐ → ☑ to approve a row. To correct a row, write the co
 
 Every row quotes the exact sentence from the product page it was taken from; rows that could not be quoted were not created.
 
+**New fields (2026-11-11):** the route (`routeLegs`) and "Make it your own" (`customisationOptions`) for these same products are in the supplementary file [`batch-01b-en.md`](batch-01b-en.md), with the 7-Day tour first.
+
 ## 7-Day Egypt Tour: Cairo, the Nile Cruise, Luxor and Aswan
 
 `epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs` · https://travel2egypt.org/epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs

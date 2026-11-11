@@ -340,6 +340,15 @@ export const tourBySlugQuery = (locale: Locale) => groq`
         => itineraryDays[lang == "${locale}"] | order(day asc){ day, title, overnight },
       []
     ),
+    // Right column (2026-11-11): the route renders only when EVERY leg in
+    // this language is approved; options one by one.
+    "approvedRoute": select(
+      count(routeLegs[lang == "${locale}"]) > 0 &&
+      count(routeLegs[lang == "${locale}" && needsReview != false]) == 0
+        => routeLegs[lang == "${locale}"]{ from, to, via, mode, nights },
+      []
+    ),
+    "approvedOptions": customisationOptions[lang == "${locale}" && needsReview == false].text,
     "priceUpdatedAt": _updatedAt,
     "days": days[]{
       dayNumber,

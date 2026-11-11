@@ -1,0 +1,48 @@
+{
+  "slug": "pyramids-of-giza-and-grand-egyptian-museum",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Add inside-entry to one pyramid",
+        "source": "Inside-entry to one pyramid (subject to ticket availability and site rules)."
+      },
+      {
+        "option": "Add a camel ride at the panorama area",
+        "source": "Camel ride at the panorama area (timed for the best views)."
+      },
+      {
+        "option": "Lunch at a hotel restaurant instead",
+        "source": "If you would prefer the quieter setting of a hotel restaurant, that can be arranged; dietary requirements accommodated with advance notice."
+      },
+      {
+        "option": "Split the tour across two easier days",
+        "source": "Even so, nine hours asks a lot of small children and tired legs; let us know who's coming and we'll adjust the pace, or split the pairing across two easier days."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Add inside-entry to one pyramid",
+        "source": "Inside-entry to one pyramid (subject to ticket availability and site rules)."
+      },
+      {
+        "text": "Add a camel ride at the panorama area",
+        "source": "Camel ride at the panorama area (timed for the best views)."
+      },
+      {
+        "text": "Lunch at a hotel restaurant instead",
+        "source": "If you would prefer the quieter setting of a hotel restaurant, that can be arranged; dietary requirements accommodated with advance notice."
+      },
+      {
+        "text": "Split the tour across two easier days",
+        "source": "Even so, nine hours asks a lot of small children and tired legs; let us know who's coming and we'll adjust the pace, or split the pairing across two easier days."
+      }
+    ],
+    "dropped": 0
+  }
+}

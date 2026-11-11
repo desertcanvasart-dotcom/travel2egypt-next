@@ -1,0 +1,40 @@
+{
+  "slug": "abu-simbel-by-car-from-aswan",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Añadir la entrada a ambos templos (nivel Base + entradas)",
+        "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso a ambos templos); y Base + entradas y almuerzo (esa entrada más una comida al mediodía)."
+      },
+      {
+        "option": "Añadir un almuerzo al mediodía junto con las entradas",
+        "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso a ambos templos); y Base + entradas y almuerzo (esa entrada más una comida al mediodía)."
+      },
+      {
+        "option": "Organizar una víspera tranquila y una mañana lenta al día siguiente",
+        "source": "Lo que sí podemos organizar es todo lo demás: una víspera tranquila, una mañana lenta al día siguiente y un calendario en Asuán que absorba el madrugón."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Añadir la entrada a ambos templos (nivel Base + entradas)",
+        "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso a ambos templos); y Base + entradas y almuerzo (esa entrada más una comida al mediodía)."
+      },
+      {
+        "text": "Añadir un almuerzo al mediodía junto con las entradas",
+        "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística de conducción); Base + entradas (lo anterior más el acceso a ambos templos); y Base + entradas y almuerzo (esa entrada más una comida al mediodía)."
+      },
+      {
+        "text": "Organizar una víspera tranquila y una mañana lenta al día siguiente",
+        "source": "Lo que sí podemos organizar es todo lo demás: una víspera tranquila, una mañana lenta al día siguiente y un calendario en Asuán que absorba el madrugón."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "2-day-pyramids-mediterranean-tour",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Stay one or two nights at an Alexandria seafront hotel",
+        "source": "If the round-trip drive feels punishing, the same circuit pairs naturally with one or two nights at an Alexandria seafront hotel, which lets the city breathe and adds the Bibliotheca Alexandrina and the Greco-Roman Museum to the sequence."
+      },
+      {
+        "option": "Add Bibliotheca Alexandrina and Greco-Roman Museum",
+        "source": "If the round-trip drive feels punishing, the same circuit pairs naturally with one or two nights at an Alexandria seafront hotel, which lets the city breathe and adds the Bibliotheca Alexandrina and the Greco-Roman Museum to the sequence."
+      },
+      {
+        "option": "Add the entrance-fee and lunch bundles",
+        "source": "Character · Fully private · own licensed Egyptologist · air-conditioned vehicle · adults only (minimum age 18, given the long drive) · tiered pricing with optional entrance-fee and lunch bundles"
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "routeRejected": "the text does not state how every leg is travelled",
+    "options": [
+      {
+        "text": "Stay one or two nights at an Alexandria seafront hotel",
+        "source": "If the round-trip drive feels punishing, the same circuit pairs naturally with one or two nights at an Alexandria seafront hotel, which lets the city breathe and adds the Bibliotheca Alexandrina and the Greco-Roman Museum to the sequence."
+      },
+      {
+        "text": "Add Bibliotheca Alexandrina and Greco-Roman Museum",
+        "source": "If the round-trip drive feels punishing, the same circuit pairs naturally with one or two nights at an Alexandria seafront hotel, which lets the city breathe and adds the Bibliotheca Alexandrina and the Greco-Roman Museum to the sequence."
+      },
+      {
+        "text": "Add the entrance-fee and lunch bundles",
+        "source": "Character · Fully private · own licensed Egyptologist · air-conditioned vehicle · adults only (minimum age 18, given the long drive) · tiered pricing with optional entrance-fee and lunch bundles"
+      }
+    ],
+    "dropped": 0
+  }
+}

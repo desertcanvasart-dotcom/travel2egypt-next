@@ -14,6 +14,8 @@ import { enSlugOf } from '@/lib/products/bySlug';
 import { TourProse } from './TourProse';
 import { LazyFloatingConcierge } from '../LazyFloatingConcierge';
 import { MultiDayPanel, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
+import { YourRoute, MakeItYourOwn, CompactStickyCard } from '../product/RightColumn';
+import { routeStops, type RouteLegRow } from '@/lib/products/routeLabels';
 import { ProductLeadButton, ProductViewTracker } from '../product/ProductActions';
 import { HOME_COPY, homeLocale } from '../home-sales/copy';
 import { buildProductOffer } from '@/lib/productOffer';
@@ -69,6 +71,9 @@ export interface PackageDoc {
   approvedInclusions?: string[] | null;
   approvedExclusions?: string[] | null;
   approvedItinerary?: Array<{ day: number; title: string; overnight?: string | null }> | null;
+  /** Owner-approved route legs (all legs in this language, or none). */
+  approvedRoute?: RouteLegRow[] | null;
+  approvedOptions?: string[] | null;
   priceUpdatedAt?: string;
   relatedGuides?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
   relatedGuideArticles?: Array<{ _id: string; _type?: string; title?: string; slug?: string; parentCity?: { slug?: string } | null }> | null;
@@ -90,6 +95,12 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
 
   const cityNames = (tour.cities ?? []).map((c) => c.name).filter(Boolean);
   const route = cityNames.join(' · ');
+  // Panel Route row (2026-11-11): stops only, in order, repeats kept. Once
+  // the route legs are approved it reads from their stops; before that from
+  // the linked cities. A single-stop route shows no row (never "Cairo" alone).
+  const approvedRoute = tour.approvedRoute ?? [];
+  const stops = approvedRoute.length ? routeStops(approvedRoute) : cityNames;
+  const routeRow = stops.length >= 2 ? stops.join(' · ') : '';
   const days = (tour.days ?? []).filter((d) => d.title || d.morning || d.afternoon || d.dayNumber);
   const durationDays = tour.durationDays ?? days.length;
   const approvedItin = tour.approvedItinerary ?? [];
@@ -254,7 +265,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   const L = homeLocale(locale);
   const panelFacts: PanelFact[] = [
     { label: tp('duration'), value: durationDays > 0 ? tp('daysNights', { days: durationDays, nights }) : '' },
-    { label: tp('route'), value: route },
+    { label: tp('route'), value: routeRow },
     { label: tp('style'), value: isGroup ? tp('styleSmallGroup') : tp('stylePrivate') },
     ...(isGroup
       ? [
@@ -344,6 +355,25 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               tiers={tiers}
               extra={nextDeparture}
               enSlug={enSlugOf((tour as { allSlugs?: Array<{ _key: string; current?: string }> }).allSlugs, tour.slug) ?? undefined}
+            />
+            <YourRoute locale={locale} legs={approvedRoute} />
+            <MakeItYourOwn
+              locale={locale}
+              options={tour.approvedOptions ?? []}
+              kind="multi"
+              slug={tour.slug}
+              title={tour.title}
+              durationDays={durationDays || null}
+              fromEur={null}
+            />
+            <CompactStickyCard
+              locale={locale}
+              kind="multi"
+              slug={tour.slug}
+              title={tour.title}
+              waHref={waHref}
+              fromEur={typeof fromAmount === 'number' && fromAmount > 0 ? fromAmount : null}
+              durationDays={durationDays || null}
             />
           </div>
 

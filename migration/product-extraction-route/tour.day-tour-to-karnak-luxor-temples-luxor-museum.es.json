@@ -1,0 +1,48 @@
+{
+  "slug": "day-tour-to-karnak-luxor-temples-luxor-museum",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Añadir las entradas a los tres yacimientos",
+        "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos); y Base + entradas y almuerzo (las entradas más una comida al mediodía)."
+      },
+      {
+        "option": "Añadir un almuerzo al mediodía junto con las entradas",
+        "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos); y Base + entradas y almuerzo (las entradas más una comida al mediodía)."
+      },
+      {
+        "option": "Ordenar el día para esquivar el calor de mediodía en Karnak",
+        "source": "El concierge puede ordenar el día para esquivar el calor de mediodía en los patios abiertos de Karnak."
+      },
+      {
+        "option": "Cambiar el orden: más templo o más museo",
+        "source": "Como el día es tuyo, el orden y los tiempos se ajustan a tu grupo — más templo, menos museo, o al revés."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Añadir las entradas a los tres yacimientos",
+        "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos); y Base + entradas y almuerzo (las entradas más una comida al mediodía)."
+      },
+      {
+        "text": "Añadir un almuerzo al mediodía junto con las entradas",
+        "source": "Se ofrece en tres niveles, para pagar solo por lo que se desea: un nivel Base (vehículo privado, guía, agua y toda la logística); Base + entradas (lo anterior más el acceso a los tres yacimientos); y Base + entradas y almuerzo (las entradas más una comida al mediodía)."
+      },
+      {
+        "text": "Ordenar el día para esquivar el calor de mediodía en Karnak",
+        "source": "El concierge puede ordenar el día para esquivar el calor de mediodía en los patios abiertos de Karnak."
+      },
+      {
+        "text": "Cambiar el orden: más templo o más museo",
+        "source": "Como el día es tuyo, el orden y los tiempos se ajustan a tu grupo — más templo, menos museo, o al revés."
+      }
+    ],
+    "dropped": 0
+  }
+}

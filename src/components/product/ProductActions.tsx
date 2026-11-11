@@ -15,7 +15,7 @@ import type { LeadSource } from '@/lib/leads/schema';
  * homepage form pipeline: Customise / Check a date open the existing dialog,
  * the day-tour panel embeds the same LeadForm. Analytics per spec §9.
  */
-export type ProductLocation = 'product_panel' | 'product_mid' | 'product_end';
+export type ProductLocation = 'product_panel' | 'product_mid' | 'product_end' | 'product_sticky_card' | 'product_options';
 
 /** Opens the existing Customise / Check-a-date dialog. */
 export function ProductLeadButton({

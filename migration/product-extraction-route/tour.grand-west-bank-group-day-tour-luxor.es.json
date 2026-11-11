@@ -1,0 +1,41 @@
+{
+  "slug": "grand-west-bank-group-day-tour-luxor",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Añadir la tumba de Nefertari bajo petición (con suplemento y permiso)",
+        "source": "La tumba de Nefertari no está incluida en el precio — puede añadirse bajo petición, con un suplemento y, en ocasiones, un permiso aparte."
+      },
+      {
+        "option": "Añadir tumbas con billete adicional, como KV62 y KV17",
+        "source": "La tumba de Tutankamón (KV62) y la de Seti I (KV17) requieren billetes adicionales que pueden adquirirse por separado en el sitio."
+      },
+      null,
+      {
+        "option": "Añadir un globo al amanecer o ir a ritmo privado",
+        "source": "Si quieres las tumbas de entrada especial — Seti I, Ramsés VI —, un globo al amanecer antes de que salgan los vehículos, o el mismo terreno a ritmo privado, nuestro concierge lo integra en la mañana."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Añadir la tumba de Nefertari bajo petición (con suplemento y permiso)",
+        "source": "La tumba de Nefertari no está incluida en el precio — puede añadirse bajo petición, con un suplemento y, en ocasiones, un permiso aparte."
+      },
+      {
+        "text": "Añadir tumbas con billete adicional, como KV62 y KV17",
+        "source": "La tumba de Tutankamón (KV62) y la de Seti I (KV17) requieren billetes adicionales que pueden adquirirse por separado en el sitio."
+      },
+      {
+        "text": "Añadir un globo al amanecer o ir a ritmo privado",
+        "source": "Si quieres las tumbas de entrada especial — Seti I, Ramsés VI —, un globo al amanecer antes de que salgan los vehículos, o el mismo terreno a ritmo privado, nuestro concierge lo integra en la mañana."
+      }
+    ],
+    "dropped": 1
+  }
+}

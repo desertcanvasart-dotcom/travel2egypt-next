@@ -1,0 +1,32 @@
+{
+  "slug": "alexandria-catacombs-pompeys-pillar-group-day-tour-from-cairo",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Make it an overnight with a seafront stay",
+        "source": "Alexandria as a day-return is genuinely long; we can also build it as an overnight with a seafront stay if the schedule allows."
+      },
+      {
+        "option": "Book a private return trip built around your wishes",
+        "source": "If the shared day whets your appetite, we can build a private return, or an overnight, around what you wished you'd had time for."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Make it an overnight with a seafront stay",
+        "source": "Alexandria as a day-return is genuinely long; we can also build it as an overnight with a seafront stay if the schedule allows."
+      },
+      {
+        "text": "Book a private return trip built around your wishes",
+        "source": "If the shared day whets your appetite, we can build a private return, or an overnight, around what you wished you'd had time for."
+      }
+    ],
+    "dropped": 0
+  }
+}
