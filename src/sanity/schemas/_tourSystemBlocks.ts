@@ -221,7 +221,23 @@ export const tourMetaFields = [
   defineField({ name: 'groupSize', title: 'Group size (meta)', type: 'internationalizedArrayString', group: 'classification', description: 'Meta row. e.g. "Max 10 guests" or "Private — your party only".' }),
   defineField({ name: 'effortLevel', title: 'Effort (meta)', type: 'internationalizedArrayString', group: 'classification', description: 'Meta row. e.g. "Moderate–demanding".' }),
   defineField({ name: 'departsFrom', title: 'Departs (meta)', type: 'internationalizedArrayString', group: 'classification', description: 'Meta row. e.g. "Sharm · Dahab".' }),
-  defineField({ name: 'priceFrom', title: 'From price (number)', type: 'number', group: 'pricing', description: 'Numeric "from" price (per person), e.g. 1290. Currency is EUR, applied by the renderer — do NOT type a symbol. Falls back to the first price tier.' }),
+  defineField({ name: 'priceFrom', title: 'From price (number)', type: 'number', group: 'pricing', description: 'Numeric "from" price (per person), e.g. 1290. Currency is EUR, applied by the renderer — do NOT type a symbol. Falls back to the first price tier. This is the price with an English-speaking guide.' }),
+  // Guide-language prices (owner decision 2026-11-09): Spanish- and
+  // Japanese-speaking guides cost more, so ES and JA pages show their own
+  // "from" price. Empty → the page falls back to priceFrom. Price tiers on
+  // ES/JA pages move by the same difference (guide price − priceFrom).
+  defineField({
+    name: 'guideLanguagePrices',
+    title: 'From price with a Spanish / Japanese-speaking guide',
+    type: 'object',
+    group: 'pricing',
+    description: 'Per person, EUR, no symbol. Shown on Spanish / Japanese pages. Leave empty to use the English-guide price.',
+    options: { columns: 2 },
+    fields: [
+      defineField({ name: 'es', title: 'Spanish-speaking guide (EUR)', type: 'number', validation: (R: any) => R.min(0) }),
+      defineField({ name: 'ja', title: 'Japanese-speaking guide (EUR)', type: 'number', validation: (R: any) => R.min(0) }),
+    ],
+  }),
 ];
 
 /** Hour-by-hour timeline (distinct from the multi-day `days[]`). */

@@ -14,6 +14,7 @@ import { pickedToursProjection, pickedToursProjectionParam } from '@/lib/article
 
 import type { Locale } from '@/i18n/routing';
 
+import { guidePrice, guidePriced, guideTierPrice } from './guidePrice';
 import {
   localizedField,
   localizedFieldStrict,
@@ -255,7 +256,8 @@ const tourCardProjection = (locale: Locale) => `
   durationHours,
   originRegion,
   basePrice,
-  priceFrom,
+  "priceFrom": ${guidePrice(locale)},
+  "guidePriced": ${guidePriced(locale)},
   "enSlug": slug[_key=="en"][0].value.current,
   peakUpliftPct,
   maxGroup,
@@ -385,8 +387,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       credit
     },
     "relatedTours": relatedTours[${relatedLocaleGuard(locale)}]->{
-      ${tourCardProjection(locale)},
-      priceFrom
+      ${tourCardProjection(locale)}
     },
     "relatedGuides": relatedGuides[]->{
       _id,
@@ -453,7 +454,8 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     "groupSize": ${localizedField('groupSize', locale)},
     "effortLevel": ${localizedField('effortLevel', locale)},
     "departsFrom": ${localizedField('departsFrom', locale)},
-    priceFrom,
+    "priceFrom": ${guidePrice(locale)},
+    "guidePriced": ${guidePriced(locale)},
     "timeline": timeline[]{
       "time": ${localizedField('time', locale)},
       "description": ${localizedField('description', locale)}
@@ -473,7 +475,7 @@ export const tourBySlugQuery = (locale: Locale) => groq`
     "priceTiers": priceTiers[]{
       "name": ${localizedField('name', locale)},
       "sub": ${localizedField('sub', locale)},
-      price,
+      "price": ${guideTierPrice(locale)},
       "unit": ${localizedField('unit', locale)}
     },
     "priceNote": ${localizedField('priceNote', locale)},
@@ -2315,7 +2317,7 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
         (^.category->key == "group-package"    && type == "package" && tourMode == "group")
       )
     ] | order(durationDays asc, _createdAt desc){
-      _id, type, tourMode, durationDays, durationHours, priceFrom,
+      _id, type, tourMode, durationDays, durationHours, "priceFrom": ${guidePrice(locale)}, "guidePriced": ${guidePriced(locale)},
       "enSlug": slug[_key=="en"][0].value.current,
       "cities": cities[]->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)}, "enSlug": slug[_key=="en"][0].value.current },
       "title": ${localizedField('title', locale)},

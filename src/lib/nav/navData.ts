@@ -21,6 +21,7 @@ import { cache } from 'react';
 import { groq } from 'next-sanity';
 
 import { client } from '@/sanity/lib/client';
+import { guidePriceParam, guidePricedParam } from '@/sanity/lib/guidePrice';
 import { EN_SLUG, PRODUCTS_BY_SLUGS_FILTER } from '@/lib/products/bySlug';
 import { ONE_DAY_CHECK_FIELDS, multiDayOnly } from '@/lib/products/multiDay';
 import type { Locale } from '@/i18n/routing';
@@ -41,19 +42,19 @@ const CITY_LANDINGS = {
 } as const;
 
 const navPricesQuery = groq`{
-  "packages": *[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**")) && priceFrom > 0]{ durationDays, priceFrom, ${ONE_DAY_CHECK_FIELDS} },
-  "journeys": *[${PRODUCTS_BY_SLUGS_FILTER.replace('$slugs', '$journeySlugs')}]{ "slug": ${EN_SLUG}, priceFrom },
+  "packages": *[_type == "tour" && type == "package" && tourMode == "private" && !(_id in path("drafts.**")) && priceFrom > 0]{ durationDays, "priceFrom": ${guidePriceParam}, ${ONE_DAY_CHECK_FIELDS} },
+  "journeys": *[${PRODUCTS_BY_SLUGS_FILTER.replace('$slugs', '$journeySlugs')}]{ "slug": ${EN_SLUG}, "priceFrom": ${guidePriceParam} },
   "cities": *[_type == "tourLanding" && _id in $landingIds]{
     _id,
     "min": math::min(*[_type == "tour" && !(_id in path("drafts.**")) && type == "dayTour" && tourMode == "private"
-      && priceFrom > 0 && ^.destinationCity._ref in cities[]._ref].priceFrom)
+      && priceFrom > 0 && ^.destinationCity._ref in cities[]._ref]{ "p": select($locale == "es" => coalesce(guideLanguagePrices.es, priceFrom), $locale == "ja" => coalesce(guideLanguagePrices.ja, priceFrom), priceFrom) }.p)
   },
   "ship": math::min(*[_type == "tour" && !(_id in path("drafts.**")) && priceFrom > 0
     && theme->slug[_key=="en"][0].value.current == "nile-cruise"
-    && !(slug[_key=="en"][0].value.current match "*nasser*")].priceFrom),
+    && !(slug[_key=="en"][0].value.current match "*nasser*")]{ "p": select($locale == "es" => coalesce(guideLanguagePrices.es, priceFrom), $locale == "ja" => coalesce(guideLanguagePrices.ja, priceFrom), priceFrom) }.p),
   "dahabiya": math::min(*[_type == "tour" && !(_id in path("drafts.**")) && priceFrom > 0
     && theme->slug[_key=="en"][0].value.current == "dahabiya-nile-cruise"
-    && !(slug[_key=="en"][0].value.current match "*nasser*")].priceFrom),
+    && !(slug[_key=="en"][0].value.current match "*nasser*")]{ "p": select($locale == "es" => coalesce(guideLanguagePrices.es, priceFrom), $locale == "ja" => coalesce(guideLanguagePrices.ja, priceFrom), priceFrom) }.p),
   "steamers": count(*[_type == "hotelAndCruise" && !(_id in path("drafts.**")) && "steam" in poweredBy && cruiseRoute != "lake-nasser"])
 }`;
 
@@ -161,6 +162,7 @@ export const getNavData = cache(async (locale: Locale): Promise<NavChrome> => {
     client.fetch<NavPrices>(navPricesQuery, {
       journeySlugs: Object.values(JOURNEY_PRICE_SLUG),
       landingIds: Object.values(CITY_LANDINGS),
+      locale,
     }),
     getJourneysLive(locale),
   ]);

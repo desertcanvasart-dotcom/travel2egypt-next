@@ -60,6 +60,8 @@ export interface SingleTour {
   shapeOfDay?: { where?: string; duration?: string; character?: string } | null;
   priceTiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }> | null;
   priceNote?: string;
+  /** ES/JA: priceFrom includes the guide-language supplement. */
+  guidePriced?: boolean | null;
   trustSignals?: string[] | null;
   accreditations?: string;
   relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[]; priceFrom?: number | null }> | null;
@@ -231,6 +233,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               facts={panelFacts}
               fromEur={fromEur}
               tiers={tiers}
+              guidePriced={tour.guidePriced}
             />
             <MakeItYourOwn
               locale={locale}

@@ -205,6 +205,7 @@ export function SalesHomeView({
                           checkLabel={c.dayTours.check}
                           fromPerPerson={c.fromPerPerson}
                           priceOnRequest={c.priceOnRequest}
+                          guideNote={p.guidePriced ? c.guideNote : null}
                         />
                       ))}
                     </ul>

@@ -101,7 +101,10 @@ export function TourCard({
         {p.priceFrom ? (
           <p className="price">
             <span className="price-from">{c.from(<Price eur={p.priceFrom} />)}</span>
-            <span className="price-basis">{basis ?? c.tours.basis}</span>
+            <span className="price-basis">
+              {basis ?? c.tours.basis}
+              {p.guidePriced && c.guideNote ? `${locale === 'ja' ? '・' : ', '}${c.guideNote}` : ''}
+            </span>
           </p>
         ) : (
           <p className="price">

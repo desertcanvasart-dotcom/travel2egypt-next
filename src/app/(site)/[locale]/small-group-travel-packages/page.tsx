@@ -4,6 +4,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { type Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
+import { guidePriceParam, guidePricedParam } from '@/sanity/lib/guidePrice';
 import { packageCategoryQuery } from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
 import { getRates } from '@/lib/fx';
@@ -43,7 +44,8 @@ const smallGroupToursQuery = groq`{
     "href": ${LOCAL_SLUG},
     "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value, ""),
     type,
-    priceFrom,
+    "priceFrom": ${guidePriceParam},
+    "guidePriced": ${guidePricedParam},
     durationDays,
     originRegion,
     maxGroup,

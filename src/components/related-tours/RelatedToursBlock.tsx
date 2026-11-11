@@ -24,6 +24,7 @@ const COPY = {
     from: 'from', perPerson: 'per person', basis: 'per person, 2 sharing, 4★/5★ hotels',
     check: 'Check this date', customise: 'Customise', view: 'View tour',
     concierge: 'Not sure yet? Get advice from our Egypt travel specialists →',
+    guide: '',
   },
   es: {
     private: 'Tour privado de un día', group: 'Tour de un día en grupo reducido', multi: 'Viaje de varios días',
@@ -31,6 +32,7 @@ const COPY = {
     from: 'desde', perPerson: 'por persona', basis: 'por persona, en habitación doble, hoteles de 4★/5★',
     check: 'Consultar esta fecha', customise: 'Personalizar', view: 'Ver viaje',
     concierge: '¿Aún no lo tienes claro? Pide consejo a nuestros especialistas en Egipto →',
+    guide: 'con guía de habla hispana',
   },
   ja: {
     private: 'プライベート日帰りツアー', group: '少人数グループ日帰りツアー', multi: '周遊ツアー',
@@ -40,6 +42,7 @@ const COPY = {
     // Japanese pages carry no concierge links (house rule): WhatsApp instead.
     concierge: 'まだ迷っていますか？WhatsAppで相談する →',
     whatsappText: 'こんにちは。エジプト旅行の計画について相談したいです。',
+    guide: '日本語ガイド付き',
   },
 } as const;
 
@@ -94,7 +97,10 @@ export function RelatedToursBlock({
                     <Price eur={p.priceFrom} />
                     {locale === 'ja' ? '〜' : ''}
                   </span>
-                  <span className="rt-basis">{isDay ? t.perPerson : t.basis}</span>
+                  <span className="rt-basis">
+                    {isDay ? t.perPerson : t.basis}
+                    {p.guidePriced && t.guide ? `${locale === 'ja' ? '・' : ', '}${t.guide}` : ''}
+                  </span>
                 </p>
               ) : null}
               <div className="rt-actions">

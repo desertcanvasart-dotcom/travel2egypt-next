@@ -36,6 +36,13 @@ interface Common {
   slug: string;
   title: string;
   waHref: string;
+  /** ES/JA price includes the guide-language supplement (PR #167). */
+  guidePriced?: boolean | null;
+}
+
+/** "Includes a Spanish-/Japanese-speaking guide" — only when the price does. */
+function GuideNote({ on, note }: { on?: boolean | null; note: string }) {
+  return on && note ? <p className="price-note price-note--guide">{note}</p> : null;
 }
 
 async function responseShort(locale: Locale): Promise<string> {
@@ -88,6 +95,7 @@ export async function MultiDayPanel({
   tiers,
   extra,
   enSlug,
+  guidePriced,
 }: Common & {
   facts: PanelFact[];
   fromEur: number | null;
@@ -124,6 +132,7 @@ export async function MultiDayPanel({
           ))}
         </ul>
       )}
+      <GuideNote on={guidePriced && !!fromEur} note={ts('guidePriceNote')} />
       {fromEur ? <CurrencyNote note={ts('priceCurrencyNote')} /> : null}
       </div>
       {extra && <div className="pdp-extra">{extra}</div>}
@@ -154,6 +163,7 @@ export async function DayTourPanel({
   facts,
   fromEur,
   tiers,
+  guidePriced,
 }: Common & {
   facts: PanelFact[];
   fromEur: number | null;
@@ -183,6 +193,7 @@ export async function DayTourPanel({
           ))}
         </ul>
       )}
+      <GuideNote on={guidePriced && !!fromEur} note={ts('guidePriceNote')} />
       </div>
       {fromEur ? <div className="pdp-ccy"><CurrencyNote note={ts('priceCurrencyNote')} /></div> : null}
       <InlineDateCheck

@@ -45,6 +45,8 @@ export interface PackageDoc {
   priceFrom?: number;
   priceTiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }> | null;
   priceNote?: string;
+  /** ES/JA: priceFrom includes the guide-language supplement. */
+  guidePriced?: boolean | null;
   singleSupplement?: number | null;
   basePrice?: number | null;
   peakUpliftPct?: number | null;
@@ -354,6 +356,7 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               durationDays={durationDays || null}
               tiers={tiers}
               extra={nextDeparture}
+              guidePriced={tour.guidePriced}
               enSlug={enSlugOf((tour as { allSlugs?: Array<{ _key: string; current?: string }> }).allSlugs, tour.slug) ?? undefined}
             />
             <YourRoute locale={locale} legs={approvedRoute} />

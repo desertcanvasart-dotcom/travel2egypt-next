@@ -37,6 +37,7 @@ export function DayTourCard({
   priceOnRequest,
   hub,
   displayTitle,
+  guideNote,
 }: {
   p: DayTourCardProduct;
   /** Shorter card title (homepage labels); the lead keeps the full title. */
@@ -54,6 +55,8 @@ export function DayTourCard({
   priceOnRequest: string;
   /** Hub slug, when the card sits on a day-tour hub (analytics + lead). */
   hub?: string;
+  /** ES/JA: shown under the price when it includes the guide-language supplement. */
+  guideNote?: string | null;
 }) {
   const href = `/${p.href}`;
   const shown = displayTitle ?? p.title;
@@ -80,7 +83,10 @@ export function DayTourCard({
         {summary && <p className="dcard-desc">{summary}</p>}
         <p className="price">
           {p.priceFrom ? (
-            <span className="price-from">{fromPerPerson(<Price eur={p.priceFrom} />)}</span>
+            <>
+              <span className="price-from">{fromPerPerson(<Price eur={p.priceFrom} />)}</span>
+              {guideNote && <span className="price-basis">{guideNote}</span>}
+            </>
           ) : (
             <span className="price-basis">{priceOnRequest}</span>
           )}

@@ -4,6 +4,7 @@ import { cache } from 'react';
 import { groq } from 'next-sanity';
 
 import { client } from '@/sanity/lib/client';
+import { guidePriceParam, guidePricedParam } from '@/sanity/lib/guidePrice';
 import { EN_SLUG, LOCAL_SLUG, PRODUCTS_BY_SLUGS_FILTER } from '@/lib/products/bySlug';
 import type { SalesProduct } from '@/components/home-sales/query';
 
@@ -38,7 +39,7 @@ const query = groq`{
     "slug": ${EN_SLUG},
     "href": ${LOCAL_SLUG},
     "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value, ""),
-    type, priceFrom, durationDays, durationHours,
+    type, "priceFrom": ${guidePriceParam}, durationDays, durationHours,
     "cityNames": cities[]->{ "n": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value) }.n,
     heroImage{ ..., "alt": coalesce(alt[_key==$locale][0].value, alt[_key=="en"][0].value, "") }
   },
@@ -117,8 +118,8 @@ export const getJourneyCardPrices = cache(async (locale: string): Promise<Record
   let rows: Array<{ slug: string; priceFrom?: number | null }> = [];
   try {
     rows = await client.fetch(
-      groq`*[${PRODUCTS_BY_SLUGS_FILTER}]{ "slug": ${EN_SLUG}, priceFrom }`,
-      { slugs },
+      groq`*[${PRODUCTS_BY_SLUGS_FILTER}]{ "slug": ${EN_SLUG}, "priceFrom": ${guidePriceParam} }`,
+      { slugs, locale },
     );
   } catch (err) {
     console.error('[journeys] card price fetch failed:', err);

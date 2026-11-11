@@ -4,6 +4,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 
 import { type Locale } from '@/i18n/routing';
 import { client } from '@/sanity/lib/client';
+import { guidePriceParam, guidePricedParam } from '@/sanity/lib/guidePrice';
 import { packageCategoryQuery, packageThemeLandingsQuery } from '@/sanity/lib/queries';
 import { buildStaticMetadata } from '@/lib/seo';
 import { getRates } from '@/lib/fx';
@@ -42,7 +43,7 @@ const hubPackagesQuery = groq`
     "title": coalesce(title[_key==$locale][0].value, title[_key=="en"][0].value, ""),
     durationDays,
     "durationLabel": coalesce(durationLabel[_key==$locale][0].value, durationLabel[_key=="en"][0].value),
-    priceFrom,
+    "priceFrom": ${guidePriceParam},
     ${ONE_DAY_CHECK_FIELDS},
     "theme": theme->{ _id, "name": coalesce(name[_key==$locale][0].value, name[_key=="en"][0].value) }
   }
