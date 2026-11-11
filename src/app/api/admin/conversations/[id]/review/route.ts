@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { redirectTo } from '@/lib/http/redirect';
+
 import { requireAdminSession } from '@/lib/admin/guard';
 import { assertSameOrigin } from '@/lib/http/sameOrigin';
 import {
@@ -101,9 +103,7 @@ export async function POST(
 
   if (Object.keys(update).length === 0) {
     // Form submitted with no changes — accept and redirect back, idempotent.
-    return NextResponse.redirect(new URL(`/admin/conversations/${id}`, req.url), {
-      status: 303,
-    });
+    return redirectTo(`/admin/conversations/${id}`, 303);
   }
 
   try {
@@ -121,7 +121,5 @@ export async function POST(
   if (accept.includes('application/json')) {
     return NextResponse.json({ ok: true });
   }
-  return NextResponse.redirect(new URL(`/admin/conversations/${id}`, req.url), {
-    status: 303,
-  });
+  return redirectTo(`/admin/conversations/${id}`, 303);
 }

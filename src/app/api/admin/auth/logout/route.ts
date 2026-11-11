@@ -1,4 +1,6 @@
-import { NextResponse, type NextRequest } from 'next/server';
+import { type NextRequest } from 'next/server';
+
+import { redirectTo } from '@/lib/http/redirect';
 
 import { adminAuthClient } from '@/lib/admin/auth';
 
@@ -10,5 +12,5 @@ export const runtime = 'nodejs';
 export async function POST(req: NextRequest) {
   const supabase = await adminAuthClient();
   await supabase.auth.signOut();
-  return NextResponse.redirect(new URL('/admin/login', req.url), { status: 303 });
+  return redirectTo('/admin/login', 303);
 }
