@@ -34,12 +34,12 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/desert-trails-una-expedicion-por-el-desierto-occidental",
-    "destination": "/es/multiday-adventure-and-safari-tours",
+    "destination": "/es/tours-de-aventura-y-safari",
     "permanent": true
   },
   {
     "source": "/ja/sabaku-no-michi-seibu-sabaku-ekusupedishon",
-    "destination": "/ja/multiday-adventure-and-safari-tours",
+    "destination": "/ja/adobencha-safari-tsua",
     "permanent": true
   },
   {
@@ -12198,11 +12198,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/es/egipto-y-el-mar-rojo",
-    "destination": "/es/egypt-and-the-red-sea",
-    "permanent": true
-  },
-  {
     "source": "/es/iconos",
     "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
@@ -12213,13 +12208,8 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/es/vacaciones-de-lujo-en-egipto",
-    "destination": "/es/egypt-luxury-holidays",
-    "permanent": true
-  },
-  {
     "source": "/ja/エジプト・ラグジュアリーホリデー",
-    "destination": "/ja/egypt-luxury-holidays",
+    "destination": "/ja/ejiputo-ragujuarii-ryoko",
     "permanent": true
   },
   {
@@ -12289,7 +12279,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/エジプトと紅海",
-    "destination": "/ja/egypt-and-the-red-sea",
+    "destination": "/ja/ejiputo-to-kokai",
     "permanent": true
   },
   {
@@ -12300,11 +12290,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/es/oasis-misteriosos-y-el-nilo",
     "destination": "/es/oasis-y-nilo-en-13-dias",
-    "permanent": true
-  },
-  {
-    "source": "/es/vacaciones-en-familia-en-egipto",
-    "destination": "/es/egypt-family-holidays",
     "permanent": true
   },
   {
@@ -22519,7 +22504,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/エジプト・オン・ザ・ゴー",
-    "destination": "/ja/egypt-on-the-go",
+    "destination": "/ja/ejiputo-on-za-go",
     "permanent": true
   },
   {
@@ -23969,7 +23954,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/エジプトと紅海の楽園",
-    "destination": "/ja/egypt-and-the-red-sea",
+    "destination": "/ja/ejiputo-to-kokai",
     "permanent": true
   },
   {
@@ -29149,7 +29134,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/サファリ",
-    "destination": "/ja/multiday-adventure-and-safari-tours",
+    "destination": "/ja/adobencha-safari-tsua",
     "permanent": true
   },
   {
@@ -29419,7 +29404,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/asuan-serenidad-crucero-de-7-dias-dahabiya-por-el-nilo",
-    "destination": "/es/authentic-dahabiya-nile-cruise",
+    "destination": "/es/crucero-autentico-en-dahabiya-por-el-nilo",
     "permanent": true
   },
   {
@@ -29524,7 +29509,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/マルチデイアドベンチャー＆サファリツアー",
-    "destination": "/ja/multiday-adventure-and-safari-tours",
+    "destination": "/ja/adobencha-safari-tsua",
     "permanent": true
   },
   {
@@ -30140,6 +30125,106 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/bahariya-oasis-travel-guide/accommodations-retreats",
     "destination": "/guide/bahariya-oasis/where-to-stay-in-bahariya-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-on-the-go",
+    "destination": "/es/egipto-en-marcha",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-on-the-go",
+    "destination": "/ja/ejiputo-on-za-go",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-and-the-red-sea",
+    "destination": "/es/egipto-y-el-mar-rojo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-and-the-red-sea",
+    "destination": "/ja/ejiputo-to-kokai",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-family-holidays",
+    "destination": "/es/vacaciones-en-familia-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-family-holidays",
+    "destination": "/ja/ejiputo-kazoku-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-luxury-holidays",
+    "destination": "/es/vacaciones-de-lujo-en-egipto",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-luxury-holidays",
+    "destination": "/ja/ejiputo-ragujuarii-ryoko",
+    "permanent": true
+  },
+  {
+    "source": "/es/hassle-free-egypt",
+    "destination": "/es/egipto-sin-complicaciones",
+    "permanent": true
+  },
+  {
+    "source": "/ja/hassle-free-egypt",
+    "destination": "/ja/tema-irazu-no-ejiputo",
+    "permanent": true
+  },
+  {
+    "source": "/es/egypt-in-depth",
+    "destination": "/es/egipto-en-profundidad",
+    "permanent": true
+  },
+  {
+    "source": "/ja/egypt-in-depth",
+    "destination": "/ja/ejiputo-fukabori-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/es/multiday-adventure-and-safari-tours",
+    "destination": "/es/tours-de-aventura-y-safari",
+    "permanent": true
+  },
+  {
+    "source": "/ja/multiday-adventure-and-safari-tours",
+    "destination": "/ja/adobencha-safari-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/es/nile-cruise-holidays",
+    "destination": "/es/vacaciones-en-crucero-por-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/nile-cruise-holidays",
+    "destination": "/ja/nairu-kuruzu-no-kyuka",
+    "permanent": true
+  },
+  {
+    "source": "/es/special-interest-tours",
+    "destination": "/es/tours-de-interes-especial",
+    "permanent": true
+  },
+  {
+    "source": "/ja/special-interest-tours",
+    "destination": "/ja/tokubetsu-kanshin-tsua",
+    "permanent": true
+  },
+  {
+    "source": "/es/authentic-dahabiya-nile-cruise",
+    "destination": "/es/crucero-autentico-en-dahabiya-por-el-nilo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/authentic-dahabiya-nile-cruise",
+    "destination": "/ja/honkaku-dahabiya-nairu-kuruzu",
     "permanent": true
   }
 ];
