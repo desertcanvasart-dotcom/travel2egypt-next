@@ -102,6 +102,9 @@ function Header({ email }: { email: string }) {
         <Link href="/admin/report" className="ml-3 font-sans text-sm underline">
           Enquiries &amp; traffic report →
         </Link>
+        <Link href="/admin/departures" className="ml-3 font-sans text-sm underline">
+          Small-group departures →
+        </Link>
       </h1>
       <form
         method="post"

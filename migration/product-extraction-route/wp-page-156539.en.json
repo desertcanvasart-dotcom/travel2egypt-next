@@ -1,0 +1,104 @@
+{
+  "slug": "10-day-egypt-travel-journey-through-history",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [
+      {
+        "from": "Cairo",
+        "to": "Aswan",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "sources": [
+          "A morning flight on day four carries you to Aswan — the southernmost major city of Egypt, with golden light, granite outcrops, Nubian culture, and a calm Nile after the urgency of Cairo."
+        ]
+      },
+      {
+        "from": "Aswan",
+        "to": "Luxor",
+        "via": [],
+        "mode": "road",
+        "nights": null,
+        "sources": [
+          "The road from Aswan to Luxor follows the Nile north for roughly four hours, with the option to stop at the Temple of Horus at Edfu — built during the Ptolemaic period between 237 and 57 BC and the most completely preserved temple in Egypt — and the unusual double temple at Kom Ombo, dedicated to Sobek the crocodile god and Horus the Elder simultaneously, with a remarkable collection of mummified crocodiles in its galleries."
+        ]
+      },
+      {
+        "from": "Luxor",
+        "to": "Cairo",
+        "via": [],
+        "mode": "sleeper_train",
+        "nights": null,
+        "sources": [
+          "In the evening, the transfer is to Luxor railway station for the sleeper train back to Cairo — a private cabin with two berths, dinner and breakfast served on board, the Nile valley moving past the window through the night."
+        ]
+      }
+    ],
+    "customisationOptions": [
+      {
+        "option": "Stop at Edfu and Kom Ombo on the drive to Luxor",
+        "source": "The road from Aswan to Luxor follows the Nile north for roughly four hours, with the option to stop at the Temple of Horus at Edfu — built during the Ptolemaic period between 237 and 57 BC and the most completely preserved temple in Egypt — and the unusual double temple at Kom Ombo, dedicated to Sobek the crocodile god and Horus the Elder simultaneously, with a remarkable collection of mummified crocodiles in its galleries."
+      },
+      {
+        "option": "Add a Nile cruise between Luxor and Aswan",
+        "source": "Tell our team how you'd want to shape it — a Nile cruise added between Luxor and Aswan, more time at Alexandria, the closing day paced differently — and we'll build the ten days to fit."
+      },
+      {
+        "option": "Spend more time at Alexandria",
+        "source": "Tell our team how you'd want to shape it — a Nile cruise added between Luxor and Aswan, more time at Alexandria, the closing day paced differently — and we'll build the ten days to fit."
+      },
+      {
+        "option": "Pace the closing day differently",
+        "source": "Tell our team how you'd want to shape it — a Nile cruise added between Luxor and Aswan, more time at Alexandria, the closing day paced differently — and we'll build the ten days to fit."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [
+      {
+        "from": "Cairo",
+        "to": "Aswan",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "A morning flight on day four carries you to Aswan — the southernmost major city of Egypt, with golden light, granite outcrops, Nubian culture, and a calm Nile after the urgency of Cairo."
+      },
+      {
+        "from": "Aswan",
+        "to": "Luxor",
+        "via": [],
+        "mode": "road",
+        "nights": null,
+        "source": "The road from Aswan to Luxor follows the Nile north for roughly four hours, with the option to stop at the Temple of Horus at Edfu — built during the Ptolemaic period between 237 and 57 BC and the most completely preserved temple in Egypt — and the unusual double temple at Kom Ombo, dedicated to Sobek the crocodile god and Horus the Elder simultaneously, with a remarkable collection of mummified crocodiles in its galleries."
+      },
+      {
+        "from": "Luxor",
+        "to": "Cairo",
+        "via": [],
+        "mode": "sleeper_train",
+        "nights": null,
+        "source": "In the evening, the transfer is to Luxor railway station for the sleeper train back to Cairo — a private cabin with two berths, dinner and breakfast served on board, the Nile valley moving past the window through the night."
+      }
+    ],
+    "options": [
+      {
+        "text": "Stop at Edfu and Kom Ombo on the drive to Luxor",
+        "source": "The road from Aswan to Luxor follows the Nile north for roughly four hours, with the option to stop at the Temple of Horus at Edfu — built during the Ptolemaic period between 237 and 57 BC and the most completely preserved temple in Egypt — and the unusual double temple at Kom Ombo, dedicated to Sobek the crocodile god and Horus the Elder simultaneously, with a remarkable collection of mummified crocodiles in its galleries."
+      },
+      {
+        "text": "Add a Nile cruise between Luxor and Aswan",
+        "source": "Tell our team how you'd want to shape it — a Nile cruise added between Luxor and Aswan, more time at Alexandria, the closing day paced differently — and we'll build the ten days to fit."
+      },
+      {
+        "text": "Spend more time at Alexandria",
+        "source": "Tell our team how you'd want to shape it — a Nile cruise added between Luxor and Aswan, more time at Alexandria, the closing day paced differently — and we'll build the ten days to fit."
+      },
+      {
+        "text": "Pace the closing day differently",
+        "source": "Tell our team how you'd want to shape it — a Nile cruise added between Luxor and Aswan, more time at Alexandria, the closing day paced differently — and we'll build the ten days to fit."
+      }
+    ],
+    "dropped": 0
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [
+      {
+        "from": "Cairo",
+        "to": "Aswan",
+        "via": [],
+        "mode": "sleeper_train",
+        "nights": null,
+        "sources": [
+          "The route runs south from Cairo to Aswan by overnight sleeper train, then north along the Nile by cruise to Luxor, then back to Cairo by domestic flight.",
+          "In the evening you board the sleeping train south toward Aswan — a practical crossing of the distance that also happens to be one of the more atmospheric ways to travel in Egypt."
+        ]
+      },
+      {
+        "from": "Aswan",
+        "to": "Luxor",
+        "via": [
+          "Kom Ombo",
+          "Edfu"
+        ],
+        "mode": "nile_cruise",
+        "nights": 3,
+        "sources": [
+          "Where · Cairo → (sleeper train) → Aswan → Kom Ombo → Edfu → Luxor → (flight) → Cairo",
+          "You arrive in Aswan in the morning and board the Nile cruise ship that will be your hotel for the next three nights."
+        ]
+      },
+      {
+        "from": "Luxor",
+        "to": "Cairo",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "sources": [
+          "The route runs south from Cairo to Aswan by overnight sleeper train, then north along the Nile by cruise to Luxor, then back to Cairo by domestic flight."
+        ]
+      }
+    ],
+    "customisationOptions": [
+      {
+        "option": "Add Abu Simbel at Aswan",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a flight south instead of the sleeper — and we will build the seven days to fit."
+      },
+      {
+        "option": "Swap the GEM or NMEC in for the Tahrir museum",
+        "source": "Either or both can be substituted for the Tahrir visit on request."
+      },
+      {
+        "option": "Fly south instead of the sleeper train",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a flight south instead of the sleeper — and we will build the seven days to fit."
+      },
+      {
+        "option": "Take a later flight for extra hours in Cairo",
+        "source": "Day seven is a transfer day: a final breakfast and the drive to Cairo International Airport, with later flights giving the option of additional hours in the city."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [
+      {
+        "from": "Cairo",
+        "to": "Aswan",
+        "via": [],
+        "mode": "sleeper_train",
+        "nights": null,
+        "source": "The route runs south from Cairo to Aswan by overnight sleeper train, then north along the Nile by cruise to Luxor, then back to Cairo by domestic flight. … In the evening you board the sleeping train south toward Aswan — a practical crossing of the distance that also happens to be one of the more atmospheric ways to travel in Egypt."
+      },
+      {
+        "from": "Aswan",
+        "to": "Luxor",
+        "via": [
+          "Kom Ombo",
+          "Edfu"
+        ],
+        "mode": "nile_cruise",
+        "nights": 3,
+        "source": "Where · Cairo → (sleeper train) → Aswan → Kom Ombo → Edfu → Luxor → (flight) → Cairo … You arrive in Aswan in the morning and board the Nile cruise ship that will be your hotel for the next three nights."
+      },
+      {
+        "from": "Luxor",
+        "to": "Cairo",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "The route runs south from Cairo to Aswan by overnight sleeper train, then north along the Nile by cruise to Luxor, then back to Cairo by domestic flight."
+      }
+    ],
+    "options": [
+      {
+        "text": "Add Abu Simbel at Aswan",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a flight south instead of the sleeper — and we will build the seven days to fit."
+      },
+      {
+        "text": "Swap the GEM or NMEC in for the Tahrir museum",
+        "source": "Either or both can be substituted for the Tahrir visit on request."
+      },
+      {
+        "text": "Fly south instead of the sleeper train",
+        "source": "Tell our team how you'd want to shape it — Abu Simbel added at Aswan, GEM swapped in for the Tahrir museum, a flight south instead of the sleeper — and we will build the seven days to fit."
+      },
+      {
+        "text": "Take a later flight for extra hours in Cairo",
+        "source": "Day seven is a transfer day: a final breakfast and the drive to Cairo International Airport, with later flights giving the option of additional hours in the city."
+      }
+    ],
+    "dropped": 0
+  }
+}

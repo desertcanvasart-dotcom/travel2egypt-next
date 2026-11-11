@@ -577,12 +577,18 @@ export interface LeadEmailParams {
   /** Journey label + key, e.g. "Families (family)", and its style answer. */
   journey?: string | null;
   styleAnswer?: string | null;
+  /** 'small_group' (2026-11-10): titled "Small-group enquiry", departure first. */
+  enquiryType?: string | null;
+  departure?: string | null;
 }
 
 export function leadTeamEmail(p: LeadEmailParams): { subject: string; html: string; text: string } {
-  const what = p.kind === 'day_tour' ? 'Day-tour date request' : 'Itinerary request';
+  const isSmallGroup = p.enquiryType === 'small_group';
+  const what = p.kind === 'day_tour' ? 'Day-tour date request' : isSmallGroup ? 'Small-group enquiry' : 'Itinerary request';
   const subject = `[Website lead — ${what}] ${p.reference}${p.tour ? ` — ${p.tour}` : ''}`;
   const rows: Array<[string, string]> = [
+    // Small-group hub: the chosen departure leads the email.
+    ...(isSmallGroup ? ([['Departure', p.departure || 'Not sure']] as Array<[string, string]>) : []),
     // Journey pages Phase A: the travel style and its answer lead the email.
     ...(p.journey ? ([['Travel style', p.journey]] as Array<[string, string]>) : []),
     ...(p.journey ? ([['Style answer', p.styleAnswer ?? '(not answered)']] as Array<[string, string]>) : []),

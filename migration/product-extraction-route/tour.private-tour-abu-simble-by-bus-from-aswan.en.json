@@ -1,0 +1,40 @@
+{
+  "slug": "abu-simbel-by-car-from-aswan",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Add admission to both temples (Entrance Fees tier)",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus admission to both temples); and Base + Entrance Fees & Lunch (that admission plus a midday meal)."
+      },
+      {
+        "option": "Add a midday lunch with entrance fees",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus admission to both temples); and Base + Entrance Fees & Lunch (that admission plus a midday meal)."
+      },
+      {
+        "option": "Arrange a gentle evening before and slow morning after",
+        "source": "What we can arrange is everything around it: a gentle evening before, a slow morning after, an Aswan schedule that absorbs the early start."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Add admission to both temples (Entrance Fees tier)",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus admission to both temples); and Base + Entrance Fees & Lunch (that admission plus a midday meal)."
+      },
+      {
+        "text": "Add a midday lunch with entrance fees",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all driving and logistics); Base + Entrance Fees (the same, plus admission to both temples); and Base + Entrance Fees & Lunch (that admission plus a midday meal)."
+      },
+      {
+        "text": "Arrange a gentle evening before and slow morning after",
+        "source": "What we can arrange is everything around it: a gentle evening before, a slow morning after, an Aswan schedule that absorbs the early start."
+      }
+    ],
+    "dropped": 0
+  }
+}

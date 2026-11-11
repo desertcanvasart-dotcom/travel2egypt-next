@@ -1,0 +1,48 @@
+{
+  "slug": "grand-west-bank-group-day-tour-luxor",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Add Nefertari's tomb on request (extra fee, permit)",
+        "source": "A grand day here covers all five major sites; the tomb of Nefertari can be added on request, at an extra fee and subject to a permit."
+      },
+      {
+        "option": "Add extra-ticket tombs such as KV62 and KV17",
+        "source": "If your party wants the deeper Theban argument we can pair this with a separate Karnak-and-Luxor-Temple East Bank day, or add the supplementary tickets for KV62 and KV17."
+      },
+      {
+        "option": "Pair with a Karnak and Luxor Temple East Bank day",
+        "source": "If your party wants the deeper Theban argument we can pair this with a separate Karnak-and-Luxor-Temple East Bank day, or add the supplementary tickets for KV62 and KV17."
+      },
+      {
+        "option": "Add a dawn balloon or go at a private pace",
+        "source": "If you want the extra-ticket tombs — Seti I, Ramses VI — a dawn balloon before the vans roll, or the same ground at a private pace, our concierge will build it into the morning."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Add Nefertari's tomb on request (extra fee, permit)",
+        "source": "A grand day here covers all five major sites; the tomb of Nefertari can be added on request, at an extra fee and subject to a permit."
+      },
+      {
+        "text": "Add extra-ticket tombs such as KV62 and KV17",
+        "source": "If your party wants the deeper Theban argument we can pair this with a separate Karnak-and-Luxor-Temple East Bank day, or add the supplementary tickets for KV62 and KV17."
+      },
+      {
+        "text": "Pair with a Karnak and Luxor Temple East Bank day",
+        "source": "If your party wants the deeper Theban argument we can pair this with a separate Karnak-and-Luxor-Temple East Bank day, or add the supplementary tickets for KV62 and KV17."
+      },
+      {
+        "text": "Add a dawn balloon or go at a private pace",
+        "source": "If you want the extra-ticket tombs — Seti I, Ramses VI — a dawn balloon before the vans roll, or the same ground at a private pace, our concierge will build it into the morning."
+      }
+    ],
+    "dropped": 0
+  }
+}

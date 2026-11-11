@@ -105,6 +105,8 @@ export async function POST(req: NextRequest) {
       estimatedCurrency: lead.estimatedCurrency,
       journey: lead.journey ? `${JOURNEYS[lead.journey].label.en} (${lead.journey})` : null,
       styleAnswer: Array.isArray(lead.styleAnswer) ? lead.styleAnswer.join(', ') : lead.styleAnswer,
+      enquiryType: lead.enquiryType,
+      departure: lead.departure,
     });
     emailed = true;
   } catch (err) {
@@ -146,7 +148,11 @@ export async function POST(req: NextRequest) {
       landing_page: lead.landingPage,
       referrer_domain: lead.referrerDomain,
     };
+    // 0012: the enquiry type (small_group). Until it is applied the lead is
+    // stored without it (fail-soft); the team email still names it.
+    const m0012 = { enquiry_type: lead.enquiryType };
     const tiers = [
+      { label: '0012', row: { ...base, ...m0010, ...m0011, ...m0012 } },
       { label: '0011', row: { ...base, ...m0010, ...m0011 } },
       { label: '0010', row: { ...base, ...m0010 } },
       { label: '0009', row: base },

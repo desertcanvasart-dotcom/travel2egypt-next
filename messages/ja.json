@@ -1464,7 +1464,11 @@
     "basisPerPerson": "2名1室利用時の1名様料金",
     "basisDay": "1名様あたり",
     "panelLabel": "このツアーの予約・お問い合わせ",
-    "quickWhatsapp": "WhatsAppで気軽に問い合わせる →"
+    "quickWhatsapp": "WhatsAppで気軽に問い合わせる →",
+    "routeTitle": "旅のルート",
+    "optionsTitle": "自分らしくアレンジ",
+    "askChanges": "変更について相談する",
+    "stickyLabel": "お問い合わせ"
   },
   "packagesHub": {
     "crumbTours": "エジプトツアー",
@@ -1504,7 +1508,9 @@
     "closeFree": "無料・義務なし。",
     "closeChat": "チャットがお好みなら：",
     "closeExploring": "",
-    "closeConcierge": ""
+    "closeConcierge": "",
+    "smallGroupLead": "少人数グループでの旅をご希望なら：",
+    "smallGroupAction": "出発日程を見る →"
   },
   "dayHub": {
     "cairoGiza": "カイロ・ギザ",
@@ -1546,5 +1552,25 @@
     "exploring": "",
     "concierge": "",
     "howKicker": "しくみ"
+  },
+  "smallGroupHub": {
+    "crumb": "少人数グループの出発",
+    "title": "少人数グループツアー",
+    "dek": "人数を限定した、日程固定のエジプトツアー。観光省認可のエジプト学者ガイドが同行し、ホテルや送迎もすべて手配済み。費用はグループでシェアします。",
+    "primary": "出発日を問い合わせる",
+    "secondary": "出発日程を見る ↓",
+    "statTours": "グループツアー",
+    "statToursValue": "{count}件",
+    "statFrom": "料金",
+    "statSince": "ガイド",
+    "statSinceValue": "1993年から",
+    "basis": "1名様あたり（グループ参加）",
+    "askDates": "出発日を問い合わせる",
+    "maxGroup": "最大{n}名",
+    "nextDepartures": "次回出発日：",
+    "nextAsk": "次回出発日：お問い合わせください",
+    "closeTitle": "ご希望の時期を教えてください。出発日と料金をお送りします。",
+    "closeFree": "無料・義務なし。",
+    "closeChat": "チャットがお好みなら："
   }
 }

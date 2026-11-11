@@ -1,0 +1,34 @@
+{
+  "slug": "pyramids-of-giza-and-sphinx-group-day-tour",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Añadir la entrada al interior de una pirámide (coste extra, en el sitio)",
+        "source": "La entrada al interior de las pirámides y los paseos en camello o caballo son opcionales, se contratan en el sitio y no forman parte del paquete."
+      },
+      {
+        "option": "Añadir un paseo en camello o caballo (coste extra, en el sitio)",
+        "source": "La entrada al interior de las pirámides y los paseos en camello o caballo son opcionales, se contratan en el sitio y no forman parte del paquete."
+      },
+      null,
+      null
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Añadir la entrada al interior de una pirámide (coste extra, en el sitio)",
+        "source": "La entrada al interior de las pirámides y los paseos en camello o caballo son opcionales, se contratan en el sitio y no forman parte del paquete."
+      },
+      {
+        "text": "Añadir un paseo en camello o caballo (coste extra, en el sitio)",
+        "source": "La entrada al interior de las pirámides y los paseos en camello o caballo son opcionales, se contratan en el sitio y no forman parte del paquete."
+      }
+    ],
+    "dropped": 2
+  }
+}

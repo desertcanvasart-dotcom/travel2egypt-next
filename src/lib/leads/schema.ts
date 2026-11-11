@@ -33,8 +33,19 @@ export const LEAD_SOURCES = [
   'journey_facts',
   'journey_end',
   'journeys_index',
+  // Small-group hub (2026-11-10)
+  'small_group_hero',
+  'small_group_card',
+  'small_group_end',
+  // Product page right column (2026-11-11)
+  'product_sticky_card',
+  'product_options',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];
+
+/** What the enquiry is about, beyond kind (2026-11-10): leads.enquiry_type. */
+export const ENQUIRY_TYPES = ['small_group'] as const;
+export type EnquiryType = (typeof ENQUIRY_TYPES)[number];
 
 export const DAY_BANDS = ['3-5', '6-9', '10-14', '15+'] as const;
 export type DayBand = (typeof DAY_BANDS)[number];
@@ -94,6 +105,10 @@ export interface LeadInput {
   referrerDomain: string | null;
   /** Raw answer: a string (radio, text, days band, ages) or the multi-select array. */
   styleAnswer: string | string[] | null;
+  /** 'small_group' for the small-group hub's forms; null otherwise. */
+  enquiryType: EnquiryType | null;
+  /** Small group: the "Which departure?" answer as shown ("Not sure" allowed). */
+  departure: string | null;
 }
 
 export type LeadValidation =
@@ -226,6 +241,8 @@ export function normalizeLead(body: unknown): LeadValidation {
         return d && /^[a-z0-9.-]+\.[a-z]{2,}$/.test(d) ? d : null;
       })(),
       styleAnswer: kind === 'trip' ? styleAnswerOf(b.styleAnswer) : null,
+      enquiryType: kind === 'trip' ? oneOf(b.enquiryType, ENQUIRY_TYPES) : null,
+      departure: kind === 'trip' && b.enquiryType === 'small_group' ? str(b.departure, 200) : null,
     },
   };
 }

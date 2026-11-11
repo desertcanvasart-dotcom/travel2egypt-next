@@ -13,6 +13,7 @@ import { FloatingConcierge } from '@/components/FloatingConcierge';
 import { TourProse } from '@/components/tour-system/TourProse';
 import { withoutRetiredSections } from '@/components/tour-system/retiredEssaySections';
 import { MastheadStats } from '@/components/tour-system/MastheadStats';
+import { multiDayOnly } from '@/lib/products/multiDay';
 import { TourCard } from '@/components/home-sales/TourCard';
 import type { SalesProduct } from '@/components/home-sales/query';
 import type { HomeLocale } from '@/components/home-sales/copy';
@@ -28,7 +29,7 @@ import '@/styles/packages-hub.css';
  * hero → most-booked (the homepage's six cards) → themes with "from" prices →
  * the full index (prices, budget filter, sort) → how our journeys work (the
  * former intro essay, moved down) → inline itinerary form → footband.
- * The small-group hub keeps the older PackageCategoryView.
+ * The small-group hub (SmallGroupHubView) shares this hero, card and form.
  */
 
 export interface HubPackage {
@@ -39,6 +40,9 @@ export interface HubPackage {
   durationDays?: number | null;
   durationLabel?: string | null;
   priceFrom?: number | null;
+  /** EN title + summary, read by the one-day check (multiDay.ts). */
+  enTitle?: string | null;
+  enSummary?: string | null;
   theme?: { _id: string; name?: string } | null;
 }
 
@@ -93,7 +97,10 @@ export async function PackagesHubView({
   // Hero counters — unique journeys (same-titled duplicates count once) and
   // the lowest "from" price among them.
   const uniqueCount = new Set(packages.map((p) => p.title.trim().toLowerCase())).size;
-  const lowest = minEur(packages.map((p) => p.priceFrom));
+  // "From" figures skip one-day products (e.g. "Alexandria in a Day", stored
+  // as 2 days): they stay in the index but never set a multi-day price.
+  const multiDay = multiDayOnly(packages);
+  const lowest = minEur(multiDay.map((p) => p.priceFrom));
   const stats = [
     { label: t('statJourneys'), value: uniqueCount },
     { label: t('statFrom'), value: lowest ? isJa ? <><Price eur={lowest} />〜</> : <Price eur={lowest} /> : 0 },
@@ -110,7 +117,7 @@ export async function PackagesHubView({
         name: l.themeName!,
         note: l.note,
         count: inTheme.length,
-        fromEur: minEur(inTheme.map((p) => p.priceFrom)),
+        fromEur: minEur(multiDayOnly(inTheme).map((p) => p.priceFrom)),
         href: inTheme.length > 0 ? `/${l.slug}` : undefined,
       };
     });
@@ -305,6 +312,11 @@ export async function PackagesHubView({
           </aside>
           <article className="article">
             <TourProse value={withoutRetiredSections(archive?.essay)} locale={locale} />
+            <p className="hub-sg-link">
+              {t('smallGroupLead')}
+              {isJa ? '' : ' '}
+              <Link href="/small-group-travel-packages">{t('smallGroupAction')}</Link>
+            </p>
           </article>
         </div>
       </section>

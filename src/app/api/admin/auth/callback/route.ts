@@ -1,4 +1,6 @@
-import { NextResponse, type NextRequest } from 'next/server';
+import { type NextRequest } from 'next/server';
+
+import { pathWithQuery, redirectTo } from '@/lib/http/redirect';
 
 /**
  * GET /api/admin/auth/callback — graceful degrade for stale magic links.
@@ -12,8 +14,6 @@ import { NextResponse, type NextRequest } from 'next/server';
  */
 export const runtime = 'nodejs';
 
-export async function GET(req: NextRequest) {
-  const url = new URL('/admin/login', req.url);
-  url.searchParams.set('error', 'use_otp');
-  return NextResponse.redirect(url, { status: 307 });
+export async function GET(_req: NextRequest) {
+  return redirectTo(pathWithQuery('/admin/login', { error: 'use_otp' }), 307);
 }

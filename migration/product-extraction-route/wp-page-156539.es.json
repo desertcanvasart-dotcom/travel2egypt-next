@@ -1,0 +1,101 @@
+{
+  "slug": "10-day-egypt-travel-journey-through-history",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [
+      {
+        "from": "El Cairo",
+        "to": "Asuán",
+        "via": [],
+        "sources": [
+          "Un vuelo matinal en el cuarto día lleva a Asuán —la ciudad principal más al sur de Egipto, con luz dorada, afloramientos de granito, cultura nubia y un Nilo apacible tras la urgencia de El Cairo.",
+          "Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+        ]
+      },
+      {
+        "from": "Asuán",
+        "to": "Luxor",
+        "via": [],
+        "sources": [
+          "La ruta de Asuán a Luxor sigue el Nilo al norte durante unas cuatro horas, con la opción de detenerse en el templo de Horus en Edfu —construido en el período ptolemaico entre 237 y 57 a. C., el templo más completamente preservado de Egipto— y en el inusual templo doble de Kom Ombo, dedicado a la vez a Sobek el cocodrilo y a Horus el Viejo, con una notable colección de cocodrilos momificados en sus galerías.",
+          "Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+        ]
+      },
+      {
+        "from": "Luxor",
+        "to": "El Cairo",
+        "via": [],
+        "sources": [
+          "Por la noche, el traslado lleva a la estación de Luxor para tomar el tren nocturno de regreso a El Cairo —cabina privada con dos literas, cena y desayuno servidos a bordo, el valle del Nilo deslizándose por la ventana durante la noche.",
+          "Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+        ]
+      }
+    ],
+    "customisationOptions": [
+      {
+        "option": "Parar en Edfu y Kom Ombo en el trayecto a Luxor",
+        "source": "La ruta de Asuán a Luxor sigue el Nilo al norte durante unas cuatro horas, con la opción de detenerse en el templo de Horus en Edfu —construido en el período ptolemaico entre 237 y 57 a. C., el templo más completamente preservado de Egipto— y en el inusual templo doble de Kom Ombo, dedicado a la vez a Sobek el cocodrilo y a Horus el Viejo, con una notable colección de cocodrilos momificados en sus galerías."
+      },
+      {
+        "option": "Añadir un crucero por el Nilo entre Luxor y Asuán",
+        "source": "Cuéntenos cómo quieren modelarlo —un crucero por el Nilo añadido entre Luxor y Asuán, más tiempo en Alejandría, el día de cierre con otro ritmo— y armaremos los diez días a su medida."
+      },
+      {
+        "option": "Pasar más tiempo en Alejandría",
+        "source": "Cuéntenos cómo quieren modelarlo —un crucero por el Nilo añadido entre Luxor y Asuán, más tiempo en Alejandría, el día de cierre con otro ritmo— y armaremos los diez días a su medida."
+      },
+      {
+        "option": "Llevar el día de cierre con otro ritmo",
+        "source": "Cuéntenos cómo quieren modelarlo —un crucero por el Nilo añadido entre Luxor y Asuán, más tiempo en Alejandría, el día de cierre con otro ritmo— y armaremos los diez días a su medida."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [
+      {
+        "from": "El Cairo",
+        "to": "Asuán",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "Un vuelo matinal en el cuarto día lleva a Asuán —la ciudad principal más al sur de Egipto, con luz dorada, afloramientos de granito, cultura nubia y un Nilo apacible tras la urgencia de El Cairo. … Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+      },
+      {
+        "from": "Asuán",
+        "to": "Luxor",
+        "via": [],
+        "mode": "road",
+        "nights": null,
+        "source": "La ruta de Asuán a Luxor sigue el Nilo al norte durante unas cuatro horas, con la opción de detenerse en el templo de Horus en Edfu —construido en el período ptolemaico entre 237 y 57 a. C., el templo más completamente preservado de Egipto— y en el inusual templo doble de Kom Ombo, dedicado a la vez a Sobek el cocodrilo y a Horus el Viejo, con una notable colección de cocodrilos momificados en sus galerías. … Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+      },
+      {
+        "from": "Luxor",
+        "to": "El Cairo",
+        "via": [],
+        "mode": "sleeper_train",
+        "nights": null,
+        "source": "Por la noche, el traslado lleva a la estación de Luxor para tomar el tren nocturno de regreso a El Cairo —cabina privada con dos literas, cena y desayuno servidos a bordo, el valle del Nilo deslizándose por la ventana durante la noche. … Carácter · Salida privada · su propio egiptólogo · vuelo interno El Cairo–Asuán · trayectos por carretera Asuán–Abu Simbel y Asuán–Luxor · tren nocturno Luxor–El Cairo · globo aerostático al amanecer sobre la orilla occidental de Luxor · alojamiento 5 estrellas durante todo el recorrido"
+      }
+    ],
+    "options": [
+      {
+        "text": "Parar en Edfu y Kom Ombo en el trayecto a Luxor",
+        "source": "La ruta de Asuán a Luxor sigue el Nilo al norte durante unas cuatro horas, con la opción de detenerse en el templo de Horus en Edfu —construido en el período ptolemaico entre 237 y 57 a. C., el templo más completamente preservado de Egipto— y en el inusual templo doble de Kom Ombo, dedicado a la vez a Sobek el cocodrilo y a Horus el Viejo, con una notable colección de cocodrilos momificados en sus galerías."
+      },
+      {
+        "text": "Añadir un crucero por el Nilo entre Luxor y Asuán",
+        "source": "Cuéntenos cómo quieren modelarlo —un crucero por el Nilo añadido entre Luxor y Asuán, más tiempo en Alejandría, el día de cierre con otro ritmo— y armaremos los diez días a su medida."
+      },
+      {
+        "text": "Pasar más tiempo en Alejandría",
+        "source": "Cuéntenos cómo quieren modelarlo —un crucero por el Nilo añadido entre Luxor y Asuán, más tiempo en Alejandría, el día de cierre con otro ritmo— y armaremos los diez días a su medida."
+      },
+      {
+        "text": "Llevar el día de cierre con otro ritmo",
+        "source": "Cuéntenos cómo quieren modelarlo —un crucero por el Nilo añadido entre Luxor y Asuán, más tiempo en Alejandría, el día de cierre con otro ritmo— y armaremos los diez días a su medida."
+      }
+    ],
+    "dropped": 0
+  }
+}

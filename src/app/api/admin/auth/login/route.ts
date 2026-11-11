@@ -1,5 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { pathWithQuery, redirectTo } from '@/lib/http/redirect';
+
 import { adminAuthClient } from '@/lib/admin/auth';
 import { isAdminEmail } from '@/lib/admin/whitelist';
 
@@ -41,20 +43,15 @@ async function readEmail(req: NextRequest): Promise<string | null> {
   return typeof raw === 'string' ? raw.trim() : null;
 }
 
-function sentRedirect(req: NextRequest, email: string): NextResponse {
-  const url = new URL('/admin/login', req.url);
-  url.searchParams.set('sent', '1');
-  url.searchParams.set('email', email);
-  return NextResponse.redirect(url, { status: 303 });
+function sentRedirect(_req: NextRequest, email: string): NextResponse {
+  return redirectTo(pathWithQuery('/admin/login', { sent: '1', email }), 303);
 }
 
 export async function POST(req: NextRequest) {
   const email = await readEmail(req);
 
   if (!email) {
-    return NextResponse.redirect(new URL('/admin/login?error=invalid', req.url), {
-      status: 303,
-    });
+    return redirectTo('/admin/login?error=invalid', 303);
   }
 
   // Allowlist check happens BEFORE the Supabase call. Non-admins still get
@@ -70,15 +67,11 @@ export async function POST(req: NextRequest) {
     const { error } = await supabase.auth.signInWithOtp({ email });
     if (error) {
       console.error('[admin auth] signInWithOtp failed:', error.message);
-      return NextResponse.redirect(new URL('/admin/login?error=send_failed', req.url), {
-        status: 303,
-      });
+      return redirectTo('/admin/login?error=send_failed', 303);
     }
   } catch (err) {
     console.error('[admin auth] login route failed:', err);
-    return NextResponse.redirect(new URL('/admin/login?error=send_failed', req.url), {
-      status: 303,
-    });
+    return redirectTo('/admin/login?error=send_failed', 303);
   }
 
   return sentRedirect(req, email);

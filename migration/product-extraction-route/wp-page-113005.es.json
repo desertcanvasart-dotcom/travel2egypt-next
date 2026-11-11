@@ -1,0 +1,107 @@
+{
+  "slug": "9-day-classic-egypt-family-adventure",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [
+      {
+        "from": "El Cairo",
+        "to": "Luxor",
+        "via": [],
+        "sources": [
+          "Un vuelo doméstico deja al viajero en Luxor —el museo al aire libre de Egipto, el lugar de la antigua Tebas, capital religiosa del imperio del Imperio Nuevo—.",
+          "Dónde · El Cairo → Luxor → Edfu → Kom Ombo → Asuán → El Cairo"
+        ]
+      },
+      {
+        "from": "Luxor",
+        "to": "Asuán",
+        "via": [
+          "Edfu",
+          "Kom Ombo"
+        ],
+        "sources": [
+          "Dónde · El Cairo → Luxor → Edfu → Kom Ombo → Asuán → El Cairo",
+          "El crucero es la columna estructural: resuelve la logística de moverse entre Luxor, Edfu, Kom Ombo y Asuán sin rehacer la maleta cada noche, y aporta el tiempo libre a bordo (piscina, clase de cocina, taller de jeroglíficos) que vuelve sostenibles los días de tierra."
+        ]
+      },
+      {
+        "from": "Asuán",
+        "to": "El Cairo",
+        "via": [],
+        "sources": [
+          "La mañana trae el desembarque y un vuelo al norte a El Cairo.",
+          "Dónde · El Cairo → Luxor → Edfu → Kom Ombo → Asuán → El Cairo"
+        ]
+      }
+    ],
+    "customisationOptions": [
+      {
+        "option": "Sustituir o combinar con el Museo Egipcio de la plaza Tahrir",
+        "source": "El Museo Egipcio original de la plaza Tahrir sigue siendo una institución mayor por su colección más amplia, y puede sustituirse o combinarse a petición."
+      },
+      {
+        "option": "Alargar la apertura en El Cairo",
+        "source": "Cuéntennos cómo quieren modelarlo —una apertura más larga en El Cairo, un barco de categoría superior, un día de Abu Simbel añadido en Asuán— y armaremos los nueve días a su medida."
+      },
+      {
+        "option": "Pasar a un barco de crucero de categoría superior",
+        "source": "Cuéntennos cómo quieren modelarlo —una apertura más larga en El Cairo, un barco de categoría superior, un día de Abu Simbel añadido en Asuán— y armaremos los nueve días a su medida."
+      },
+      {
+        "option": "Añadir un día en Abu Simbel desde Asuán",
+        "source": "Cuéntennos cómo quieren modelarlo —una apertura más larga en El Cairo, un barco de categoría superior, un día de Abu Simbel añadido en Asuán— y armaremos los nueve días a su medida."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [
+      {
+        "from": "El Cairo",
+        "to": "Luxor",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "Un vuelo doméstico deja al viajero en Luxor —el museo al aire libre de Egipto, el lugar de la antigua Tebas, capital religiosa del imperio del Imperio Nuevo—. … Dónde · El Cairo → Luxor → Edfu → Kom Ombo → Asuán → El Cairo"
+      },
+      {
+        "from": "Luxor",
+        "to": "Asuán",
+        "via": [
+          "Edfu",
+          "Kom Ombo"
+        ],
+        "mode": "nile_cruise",
+        "nights": 4,
+        "source": "Dónde · El Cairo → Luxor → Edfu → Kom Ombo → Asuán → El Cairo … El crucero es la columna estructural: resuelve la logística de moverse entre Luxor, Edfu, Kom Ombo y Asuán sin rehacer la maleta cada noche, y aporta el tiempo libre a bordo (piscina, clase de cocina, taller de jeroglíficos) que vuelve sostenibles los días de tierra."
+      },
+      {
+        "from": "Asuán",
+        "to": "El Cairo",
+        "via": [],
+        "mode": "flight",
+        "nights": null,
+        "source": "La mañana trae el desembarque y un vuelo al norte a El Cairo. … Dónde · El Cairo → Luxor → Edfu → Kom Ombo → Asuán → El Cairo"
+      }
+    ],
+    "options": [
+      {
+        "text": "Sustituir o combinar con el Museo Egipcio de la plaza Tahrir",
+        "source": "El Museo Egipcio original de la plaza Tahrir sigue siendo una institución mayor por su colección más amplia, y puede sustituirse o combinarse a petición."
+      },
+      {
+        "text": "Alargar la apertura en El Cairo",
+        "source": "Cuéntennos cómo quieren modelarlo —una apertura más larga en El Cairo, un barco de categoría superior, un día de Abu Simbel añadido en Asuán— y armaremos los nueve días a su medida."
+      },
+      {
+        "text": "Pasar a un barco de crucero de categoría superior",
+        "source": "Cuéntennos cómo quieren modelarlo —una apertura más larga en El Cairo, un barco de categoría superior, un día de Abu Simbel añadido en Asuán— y armaremos los nueve días a su medida."
+      },
+      {
+        "text": "Añadir un día en Abu Simbel desde Asuán",
+        "source": "Cuéntennos cómo quieren modelarlo —una apertura más larga en El Cairo, un barco de categoría superior, un día de Abu Simbel añadido en Asuán— y armaremos los nueve días a su medida."
+      }
+    ],
+    "dropped": 0
+  }
+}

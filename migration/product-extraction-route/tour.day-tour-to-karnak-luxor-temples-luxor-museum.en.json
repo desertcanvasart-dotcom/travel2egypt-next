@@ -1,0 +1,48 @@
+{
+  "slug": "day-tour-to-karnak-luxor-temples-luxor-museum",
+  "lang": "en",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Add entrance fees to all three sites",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal)."
+      },
+      {
+        "option": "Add a midday lunch with the entrance fees",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal)."
+      },
+      {
+        "option": "Sequence the day to dodge Karnak's midday heat",
+        "source": "The concierge can sequence the day to dodge the midday heat at Karnak's open courts."
+      },
+      {
+        "option": "Change the order: more temple or more museum",
+        "source": "Because the day is yours, the order and the dwell times bend to your party — more temple, less museum, or the reverse."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Add entrance fees to all three sites",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal)."
+      },
+      {
+        "text": "Add a midday lunch with the entrance fees",
+        "source": "The tour comes in three tiers, so you only pay for what you want: a Base package (private vehicle, guide, water, and all logistics); Base + Entrance Fees (the same, plus entry to all three sites); and Base + Entrance Fees & Lunch (those entrance fees plus a midday meal)."
+      },
+      {
+        "text": "Sequence the day to dodge Karnak's midday heat",
+        "source": "The concierge can sequence the day to dodge the midday heat at Karnak's open courts."
+      },
+      {
+        "text": "Change the order: more temple or more museum",
+        "source": "Because the day is yours, the order and the dwell times bend to your party — more temple, less museum, or the reverse."
+      }
+    ],
+    "dropped": 0
+  }
+}

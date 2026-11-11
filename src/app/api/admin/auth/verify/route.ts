@@ -1,6 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 import { NextResponse, type NextRequest } from 'next/server';
 
+import { pathWithQuery, redirectTo } from '@/lib/http/redirect';
+
 import { adminAuthClient } from '@/lib/admin/auth';
 import { isAdminEmail } from '@/lib/admin/whitelist';
 
@@ -72,11 +74,8 @@ async function readInput(req: NextRequest): Promise<VerifyInput> {
 }
 
 function backToCodeForm(req: NextRequest, email: string | null, error: string): NextResponse {
-  const url = new URL('/admin/login', req.url);
-  url.searchParams.set('sent', '1');
-  if (email) url.searchParams.set('email', email);
-  url.searchParams.set('error', error);
-  return NextResponse.redirect(url, { status: 303 });
+  void req;
+  return redirectTo(pathWithQuery('/admin/login', { sent: '1', email, error }), 303);
 }
 
 export async function POST(req: NextRequest) {
@@ -101,12 +100,10 @@ export async function POST(req: NextRequest) {
     // being sent and the code being submitted).
     if (!isAdminEmail(data.user.email)) {
       await supabase.auth.signOut();
-      return NextResponse.redirect(new URL('/admin/login?error=unauthorized', req.url), {
-        status: 303,
-      });
+      return redirectTo('/admin/login?error=unauthorized', 303);
     }
 
-    return NextResponse.redirect(new URL('/admin', req.url), { status: 303 });
+    return redirectTo('/admin', 303);
   } catch (err) {
     console.error('[admin auth] verifyOtp threw:', err);
     return backToCodeForm(req, email, 'invalid_code');

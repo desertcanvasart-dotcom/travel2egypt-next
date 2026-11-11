@@ -1,0 +1,48 @@
+{
+  "slug": "aswan-felucca-adventure",
+  "lang": "es",
+  "empty": false,
+  "raw": {
+    "routeLegs": [],
+    "customisationOptions": [
+      {
+        "option": "Añadir el paquete de almuerzo Festín del Nilo",
+        "source": "Se incluye un asistente de habla hispana y una botella de agua mineral por persona; el almuerzo (a bordo o a orillas) es un complemento opcional que se elige al reservar."
+      },
+      {
+        "option": "Elegir almorzar a bordo o en un restaurante a orillas del río",
+        "source": "La elección es directa: una mesa en un restaurante ribereño con vistas al agua, o una comida servida directamente a bordo de la faluca durante la navegación."
+      },
+      {
+        "option": "Quedarte más tiempo entre las islas o volver antes",
+        "source": "Eso sí, el barco es todo tuyo — puede demorarse entre las islas o volver antes sin pedir disculpas."
+      },
+      {
+        "option": "Elegir una salida de mañana o de tarde",
+        "source": "El concierge puede recomendar la mejor ventana: las salidas matinales son perceptiblemente más frescas que las vespertinas a partir de mayo."
+      }
+    ]
+  },
+  "kept": {
+    "routeLegs": [],
+    "options": [
+      {
+        "text": "Añadir el paquete de almuerzo Festín del Nilo",
+        "source": "Se incluye un asistente de habla hispana y una botella de agua mineral por persona; el almuerzo (a bordo o a orillas) es un complemento opcional que se elige al reservar."
+      },
+      {
+        "text": "Elegir almorzar a bordo o en un restaurante a orillas del río",
+        "source": "La elección es directa: una mesa en un restaurante ribereño con vistas al agua, o una comida servida directamente a bordo de la faluca durante la navegación."
+      },
+      {
+        "text": "Quedarte más tiempo entre las islas o volver antes",
+        "source": "Eso sí, el barco es todo tuyo — puede demorarse entre las islas o volver antes sin pedir disculpas."
+      },
+      {
+        "text": "Elegir una salida de mañana o de tarde",
+        "source": "El concierge puede recomendar la mejor ventana: las salidas matinales son perceptiblemente más frescas que las vespertinas a partir de mayo."
+      }
+    ],
+    "dropped": 0
+  }
+}

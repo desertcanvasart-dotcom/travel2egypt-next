@@ -1565,7 +1565,11 @@
     "basisPerPerson": "per person, 2 sharing",
     "basisDay": "per person",
     "panelLabel": "Book or ask about this tour",
-    "quickWhatsapp": "Quick WhatsApp inquiry →"
+    "quickWhatsapp": "Quick WhatsApp inquiry →",
+    "routeTitle": "Your route",
+    "optionsTitle": "Make it your own",
+    "askChanges": "Ask about changes",
+    "stickyLabel": "Quick enquiry"
   },
   "packagesHub": {
     "crumbTours": "Egypt Tours",
@@ -1605,7 +1609,9 @@
     "closeFree": "Free, with no obligation.",
     "closeChat": "Prefer to chat?",
     "closeExploring": "Not sure yet?",
-    "closeConcierge": "Get advice from our Egypt travel specialists →"
+    "closeConcierge": "Get advice from our Egypt travel specialists →",
+    "smallGroupLead": "Prefer travelling with a small group?",
+    "smallGroupAction": "See scheduled departures →"
   },
   "dayHub": {
     "cairoGiza": "Cairo & Giza",
@@ -1647,5 +1653,25 @@
     "exploring": "Not sure yet?",
     "concierge": "Get advice from our Egypt travel specialists →",
     "howKicker": "How it works"
+  },
+  "smallGroupHub": {
+    "crumb": "Small-group departures",
+    "title": "Small-group departures",
+    "dek": "Scheduled Egypt tours with a capped group and a licensed Egyptologist. Fixed dates, shared costs, every hotel and transfer arranged.",
+    "primary": "Ask for departure dates",
+    "secondary": "See the departures ↓",
+    "statTours": "Group tours",
+    "statToursValue": "{count}",
+    "statFrom": "From",
+    "statSince": "Guiding since",
+    "statSinceValue": "1993",
+    "basis": "per person, shared",
+    "askDates": "Ask for dates",
+    "maxGroup": "Max {n} travellers",
+    "nextDepartures": "Next departures:",
+    "nextAsk": "Next departures: ask us",
+    "closeTitle": "Tell us when you'd like to travel. We'll send the dates and a price.",
+    "closeFree": "Free, with no obligation.",
+    "closeChat": "Prefer to chat?"
   }
 }

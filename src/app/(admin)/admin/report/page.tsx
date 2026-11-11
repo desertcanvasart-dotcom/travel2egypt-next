@@ -25,6 +25,7 @@ export default async function ReportPage({ searchParams }: { searchParams: Promi
         <h1 className="font-serif text-2xl">Enquiries &amp; traffic</h1>
         <nav className="flex gap-4 text-sm">
           <Link href="/admin" className="underline">Conversations</Link>
+          <Link href="/admin/departures" className="underline">Departures</Link>
           <span className="text-night-soft">{session.email}</span>
         </nav>
       </header>
