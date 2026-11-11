@@ -30226,5 +30226,15 @@ export const redirects: RedirectRule[] = [
     "source": "/ja/authentic-dahabiya-nile-cruise",
     "destination": "/ja/honkaku-dahabiya-nairu-kuruzu",
     "permanent": true
+  },
+  {
+    "source": "/ja/神秘のオアシスとナイル",
+    "destination": "/ja/mazu-oashisu-sorekara-kawa-seiho-sabaku-to-nairu-o-minami-e",
+    "permanent": true
+  },
+  {
+    "source": "/baris-travel-guide/travel-finding",
+    "destination": "/guide/baris/things-to-do-in-baris",
+    "permanent": true
   }
 ];
