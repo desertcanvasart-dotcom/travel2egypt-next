@@ -7,6 +7,8 @@ import { sendLeadEmail } from '@/lib/email/resend';
 import { conciergeDb } from '@/lib/supabase/server';
 import { BUDGET_LABELS, isTestEmail, leadReference, normalizeLead, type LeadInput } from '@/lib/leads/schema';
 import { JOURNEYS } from '@/lib/journeys/registry';
+import { DEFAULT_BRAND } from '@/lib/concierge/brands';
+import { sendLeadToAutoura, toAutouraLead } from '@/lib/leads/autoura';
 
 /**
  * POST /api/lead — itinerary request / day-tour date request from the new
@@ -14,7 +16,9 @@ import { JOURNEYS } from '@/lib/journeys/registry';
  *
  * Order: same-origin → validate (honeypot = silent 200) → rate limit by
  * hashed IP → EMAIL the team (primary channel; must succeed) → store in
- * concierge.leads (best-effort: logs if migration 0009 isn't applied yet).
+ * concierge.leads (best-effort: logs if migration 0009 isn't applied yet) →
+ * send it to the Autoura app (2026-11-12, fire-and-forget; the outcome is
+ * written back to the lead row, migration 0013 — src/lib/leads/autoura.ts).
  *
  * Response: { ok: true, reference } | { error, field? }
  */
@@ -169,6 +173,27 @@ export async function POST(req: NextRequest) {
       console.error(`[lead] insert failed at ${tier.label}${missingColumn && i < tiers.length - 1 ? ' (newer migration not applied; retrying)' : ''}:`, error.message);
       if (!missingColumn) break;
     }
+  }
+
+  // 3. Into the Autoura app, so the lead lands in the team's CRM (never for
+  //    test leads). Fire-and-forget: Railway's persistent Node process lets
+  //    it outlive the response; the visitor never waits on it.
+  if (!isTest) {
+    const payload = toAutouraLead(reference, lead, {
+      brand: DEFAULT_BRAND,
+      site: SITE,
+      budgetLabel: lead.budget ? BUDGET_LABELS[lead.budget] : null,
+      journeyLabel: lead.journey ? `${JOURNEYS[lead.journey].label.en} (${lead.journey})` : null,
+    });
+    void sendLeadToAutoura(payload).then(async result => {
+      if (result.status !== 'sent') console.error('[lead] not delivered to Autoura:', reference, result.status, result.httpStatus, JSON.stringify(result.response)?.slice(0, 300));
+      if (!stored || !db) return;
+      const { error } = await db
+        .from('leads')
+        .update({ autoura_status: result.status, autoura_response: result.response as never, autoura_attempts: result.attempts } as never)
+        .eq('reference', reference);
+      if (error) console.error('[lead] could not record the Autoura outcome (migration 0013 applied?):', error.message);
+    });
   }
 
   if (isTest) return NextResponse.json({ ok: true, reference, test: true, stored });
