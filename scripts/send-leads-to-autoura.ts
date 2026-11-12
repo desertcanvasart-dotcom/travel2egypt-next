@@ -13,7 +13,9 @@
  */
 import { config as loadEnv } from 'dotenv';
 
-loadEnv();
+// override: the .env file wins over the shell — a shell that already has
+// SUPABASE_URL (even empty) would otherwise keep it and the script reads nothing.
+loadEnv({ override: true });
 
 import { DEFAULT_BRAND } from '../src/lib/concierge/brands';
 import { JOURNEYS } from '../src/lib/journeys/registry';
