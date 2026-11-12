@@ -5,15 +5,17 @@
  *   npx tsx scripts/send-leads-to-autoura.ts          # dry run: lists them
  *   npx tsx scripts/send-leads-to-autoura.ts --send   # sends them
  *
- * Picks every non-test lead with no Autoura outcome yet (autoura_status IS
- * NULL — needs migration 0013). Safe to re-run: Autoura files a reference
+ * Picks every non-test lead not yet in Autoura: no outcome yet, or 'failed'
+ * (needs migration 0013). Safe to re-run: Autoura files a reference
  * once, so a lead sent twice answers duplicate_ignored. Reads .env
  * (SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, AUTOURA_WEBHOOK_URL,
  * AUTOURA_WEBHOOK_SECRET) — point them at production to backfill production.
  */
 import { config as loadEnv } from 'dotenv';
 
-loadEnv();
+// override: the .env file wins over the shell — a shell that already has
+// SUPABASE_URL (even empty) would otherwise keep it and the script reads nothing.
+loadEnv({ override: true });
 
 import { DEFAULT_BRAND } from '../src/lib/concierge/brands';
 import { JOURNEYS } from '../src/lib/journeys/registry';
@@ -67,12 +69,14 @@ async function main() {
   const { data, error } = await db
     .from('leads')
     .select('*')
-    .is('autoura_status' as never, null)
-    .or('is_test.is.null,is_test.eq.false')
+    // Never tried, or tried and refused/unreachable (e.g. sent before the
+    // Autoura side was live). 'sent' is never resent.
+    .or('autoura_status.is.null,autoura_status.eq.failed')
     .order('created_at', { ascending: true });
   if (error) throw new Error(`reading leads: ${error.message} (is migration 0013 applied?)`);
-  const rows = (data ?? []) as Row[];
-  console.log(`${rows.length} lead(s) not yet in Autoura${send ? '' : ' — dry run, pass --send to send'}`);
+  // Test leads are never sent (filtered here: one .or() per query).
+  const rows = ((data ?? []) as Row[]).filter(r => r.is_test !== true);
+  console.log(`${rows.length} lead(s) not yet in Autoura (never sent, or failed)${send ? '' : ' — dry run, pass --send to send'}`);
   for (const r of rows) {
     const lead = asLead(r);
     const line = `${String(r.created_at).slice(0, 16)}  ${r.reference}  ${lead.email}`;
