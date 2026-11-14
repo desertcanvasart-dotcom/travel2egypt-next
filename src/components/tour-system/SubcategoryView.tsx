@@ -14,6 +14,7 @@ import { isChatEnabled } from '@/lib/concierge/chatEnabled';
 import { JsonLd } from '@/components/JsonLd';
 import { buildBreadcrumbList, buildItemListSchema } from '@/lib/structured-data';
 import { LandingFaq, type LandingFaqItem } from './LandingFaq';
+import { withStandardFaq } from '@/lib/standardFaq';
 import { FloatingConcierge } from '../FloatingConcierge';
 import { Price } from '@/components/Price';
 import { getRates } from '@/lib/fx';
@@ -465,7 +466,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
           <DayHubEnd locale={locale} hub={hub} city={cityName} responseTimeFull={rtFull} />
 
           {footband}
-          <LandingFaq items={doc.faq} locale={locale} />
+          <LandingFaq items={withStandardFaq(doc.faq, locale)} locale={locale} />
         </main>
 
         <FloatingConcierge />
@@ -546,7 +547,7 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
 
         {footband}
 
-        <LandingFaq items={doc.faq} locale={locale} />
+        <LandingFaq items={withStandardFaq(doc.faq, locale)} locale={locale} />
       </main>
 
       <FloatingConcierge />
