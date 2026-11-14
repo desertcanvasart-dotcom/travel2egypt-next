@@ -1,6 +1,6 @@
 # Christmas & New Year in Egypt — page plan + EN draft copy (2026-11-14)
 
-**Status: FINAL DRAFT, awaiting owner lock** (Canon Gate A). Owner facts applied 2026-11-14. Nothing has been written to Sanity. Once you sign off, this file becomes the locked copy, and the staging script will refuse any string that doesn't match it word for word.
+**Status: LOCKED by owner 2026-11-14** ("Lock it, build page"; FAQ 2 correction approved "Yes, all three"). Canon Gate A source of truth.
 
 ## Why this page
 
@@ -78,7 +78,7 @@ A **theme landing**, the same template as Family Holidays and Nile Cruise Holida
 1. **When should we book a Christmas trip to Egypt?** At least 60 days ahead for Christmas and New Year. Hotels, boats and guides fill first over this fortnight. Closer than that, ask us anyway: availability is limited, but not always gone.
 2. **Are prices higher over Christmas and New Year?** Yes. Christmas, New Year and Easter are peak dates in Egypt. Scheduled departures on those dates usually cost 30% more. Private journeys cost more over the same dates too.
 
-   ⚠️ *Correction pending owner OK (2026-11-14):* removed "and the departure prices shown here already include it". It isn't true: the holiday group tours show base "From" prices ($2,200–$3,540) and their departure rows say "on request". Removal only; nothing added.
+   ✓ *Correction approved by owner 2026-11-14:* removed the false clause "and the departure prices shown here already include it" (the holiday tours show base From prices; their departure rows say "on request").
 3. **Is there a gala dinner on Christmas Eve or New Year's Eve?** Most Egyptian hotels hold a gala dinner on Christmas Eve (24 December) and on New Year's Eve, and it is compulsory, charged on top of the room rate with no exception. On a Nile cruise the gala dinner is included in the cruise price. That difference is worth knowing when you compare a hotel stay with a cruise over the holidays.
 4. **Is December a good time for a Nile cruise?** Yes. Winter is the main Nile cruise season. Ships and quays are busier, so confirm the boat, cabin and sightseeing times in advance. For a quieter river, dahabiyas sail in winter too, but the popular boats fill early.
 5. **What is Coptic Christmas?** 7 January is Christmas for Egypt's Coptic Orthodox Church, with services at churches across the country, including St. Mark's Cathedral in Abbasiya. It's a religious occasion, not a tourist event; dress and behave as you would at any place of worship.
