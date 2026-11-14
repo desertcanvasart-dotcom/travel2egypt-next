@@ -28718,33 +28718,33 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/7-days-egypt-tours",
-    "destination": "/epic-egyptian-escape-a-7-day-adventure-from-pyramids-to-pharaohs",
-    "permanent": true
-  },
-  {
     "source": "/8-days-egypt-tours",
-    "destination": "/essential-egypt",
+    "destination": "/7-days-egypt-tours",
     "permanent": true
   },
   {
     "source": "/9-days-egypt-tours",
-    "destination": "/a-9-day-egypt-tour-of-culture-and-history",
+    "destination": "/10-days-egypt-tours",
     "permanent": true
   },
   {
     "source": "/11-days-egypt-tours",
-    "destination": "/11-day-the-splendor-of-egypt-tour",
+    "destination": "/10-days-egypt-tours",
     "permanent": true
   },
   {
     "source": "/12-days-egypt-tours",
-    "destination": "/12-day-amazing-family-vacation-in-egypt",
+    "destination": "/14-days-egypt-tours",
     "permanent": true
   },
   {
-    "source": "/14-days-egypt-tours",
-    "destination": "/14-day-egypt-luxury-family-holiday",
+    "source": "/5-days-egypt-tours",
+    "destination": "/4-days-egypt-tours",
+    "permanent": true
+  },
+  {
+    "source": "/15-days-egypt-tours",
+    "destination": "/14-days-egypt-tours",
     "permanent": true
   },
   {
