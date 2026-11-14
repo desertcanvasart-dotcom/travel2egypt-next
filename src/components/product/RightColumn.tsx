@@ -101,6 +101,8 @@ export async function CompactStickyCard({
   waHref,
   fromEur,
   durationDays,
+  ticks,
+  accred,
 }: {
   locale: Locale;
   kind: 'multi' | 'day';
@@ -109,11 +111,20 @@ export async function CompactStickyCard({
   waHref: string;
   fromEur: number | null;
   durationDays: number | null;
+  /**
+   * Day tours (tour-page Phase 1, 2026-11-15): the "Why book with us" ticks
+   * and licence line, compact, directly under the button. When given, the
+   * licence leaves the bottom line (shown once), which keeps the Tripadvisor
+   * rating where it was. Packages pass nothing and are unchanged.
+   */
+  ticks?: string[];
+  accred?: string;
 }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const L = homeLocale(locale);
   const licence = licenceShort(await getAccreditations(), locale);
-  const trust = [HOME_COPY[L].hero.tripadvisor(TRIPADVISOR_RATING, TRIPADVISOR_REVIEW_COUNT), licence].filter(Boolean).join(' · ');
+  const why = ticks && ticks.length > 0;
+  const trust = [HOME_COPY[L].hero.tripadvisor(TRIPADVISOR_RATING, TRIPADVISOR_REVIEW_COUNT), why ? '' : licence].filter(Boolean).join(' · ');
   const prefill =
     kind === 'multi'
       ? { kind: 'trip' as const, tourSlug: slug, tourTitle: title, durationDays }
@@ -137,6 +148,12 @@ export async function CompactStickyCard({
       <ProductLeadButton location="product_sticky_card" prefill={prefill} className="pdp-btn pdp-btn--primary">
         {kind === 'multi' ? t('ctaCustomise') : t('ctaCheckDate')}
       </ProductLeadButton>
+      {why && (
+        <div className="pdp-sticky__why">
+          <ul>{ticks!.map((x, i) => <li key={i}>{x}</li>)}</ul>
+          {accred && <p>{accred}</p>}
+        </div>
+      )}
       <ProductWhatsApp href={waHref} location="product_sticky_card" tourSlug={slug} className="pdp-link pdp-sticky__wa">
         {t('ctaWhatsApp')} →
       </ProductWhatsApp>
