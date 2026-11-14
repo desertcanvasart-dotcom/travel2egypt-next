@@ -1329,7 +1329,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
-    "destination": "/ja/kairo-kara-seiho-sabaku-e-ni-nichikan-bahareiya-kuro-sabaku",
+    "destination": "/ja/sabaku-no-oashisu-2-nichikan-no",
     "permanent": true
   },
   {
@@ -1454,7 +1454,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/mount-sinai-pilgrimage-2-day-trip-to-saint-catherine-from-cairo",
-    "destination": "/ja/kairo-kara-shinai-san-to-sei-katarina-shudoin-e-ni",
+    "destination": "/ja/shinai-san-junrei-kairo-kara-hijiri-katarina-e-no-2-nichikan",
     "permanent": true
   },
   {
@@ -1489,7 +1489,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/private-tour-memphis-saqqara-citadel-and-khan-el-khalili-bazaar",
-    "destination": "/ja/menfisu-sakkara-josai-hanhariri-kairo-deitsua",
+    "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
     "permanent": true
   },
   {
@@ -6234,7 +6234,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
-    "destination": "/es/dos-dias-desde-el-cairo-al-desierto-occidental-bahariya-negro-y-blanco",
+    "destination": "/es/oasis-del-desierto-excursion-privada-2-dias-bahariya-desde-cairo",
     "permanent": true
   },
   {
@@ -6359,7 +6359,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/mount-sinai-pilgrimage-2-day-trip-to-saint-catherine-from-cairo",
-    "destination": "/es/dos-dias-desde-el-cairo-al-monte-sinai-y-a-santa-catalina",
+    "destination": "/es/peregrinacion-al-monte-sinai-viaje-de-2-dias-a-santa-catalina-desde-el-cairo",
     "permanent": true
   },
   {
@@ -6394,7 +6394,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/es/private-tour-memphis-saqqara-citadel-and-khan-el-khalili-bazaar",
-    "destination": "/es/menfis-saqqara-la-ciudadela-y-jan-el-jalili-un-tour-de-dia-por-el-cairo",
+    "destination": "/es/menfis-saqqara-ciudadela-y-khan-el-khalili",
     "permanent": true
   },
   {
@@ -27729,7 +27729,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/砂漠のオアシス：2日間のバハレイヤ・オアシスプ",
-    "destination": "/ja/kairo-kara-seiho-sabaku-e-ni-nichikan-bahareiya-kuro-sabaku",
+    "destination": "/ja/sabaku-no-oashisu-2-nichikan-no",
     "permanent": true
   },
   {
@@ -29664,7 +29664,7 @@ export const redirects: RedirectRule[] = [
   },
   {
     "source": "/ja/メンフィス、サッカラ、シタデル-ハーン・エル",
-    "destination": "/ja/menfisu-sakkara-josai-hanhariri-kairo-deitsua",
+    "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
     "permanent": true
   },
   {
@@ -30235,6 +30235,51 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/baris-travel-guide/travel-finding",
     "destination": "/guide/baris/things-to-do-in-baris",
+    "permanent": true
+  },
+  {
+    "source": "/mount-sinai-pilgrimage-2-day-trip-to-saint-catherine-from-cairo",
+    "destination": "/private-tour-2-days-1-night-trip-to-saint-catherine-from-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/es/dos-dias-desde-el-cairo-al-monte-sinai-y-a-santa-catalina",
+    "destination": "/es/peregrinacion-al-monte-sinai-viaje-de-2-dias-a-santa-catalina-desde-el-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kairo-kara-shinai-san-to-sei-katarina-shudoin-e-ni",
+    "destination": "/ja/shinai-san-junrei-kairo-kara-hijiri-katarina-e-no-2-nichikan",
+    "permanent": true
+  },
+  {
+    "source": "/desert-oasis-2-day-bahariya-oasis-private-tour-from-cairo",
+    "destination": "/private-tour-2-day-trip-to-bahariya-oasis",
+    "permanent": true
+  },
+  {
+    "source": "/es/dos-dias-desde-el-cairo-al-desierto-occidental-bahariya-negro-y-blanco",
+    "destination": "/es/oasis-del-desierto-excursion-privada-2-dias-bahariya-desde-cairo",
+    "permanent": true
+  },
+  {
+    "source": "/ja/kairo-kara-seiho-sabaku-e-ni-nichikan-bahareiya-kuro-sabaku",
+    "destination": "/ja/sabaku-no-oashisu-2-nichikan-no",
+    "permanent": true
+  },
+  {
+    "source": "/private-tour-memphis-saqqara-citadel-and-khan-el-khalili-bazaar",
+    "destination": "/memphis-saqqara-citadel-khan-tour",
+    "permanent": true
+  },
+  {
+    "source": "/es/menfis-saqqara-la-ciudadela-y-jan-el-jalili-un-tour-de-dia-por-el-cairo",
+    "destination": "/es/menfis-saqqara-ciudadela-y-khan-el-khalili",
+    "permanent": true
+  },
+  {
+    "source": "/ja/menfisu-sakkara-josai-hanhariri-kairo-deitsua",
+    "destination": "/ja/menfisu-sakkara-shitaderu-han-eru-hariri",
     "permanent": true
   }
 ];
