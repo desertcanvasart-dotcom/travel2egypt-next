@@ -28763,16 +28763,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/egypt-tours-from-canada",
-    "destination": "/11-day-egypt-group-tour-cairo-red-sea-nile",
-    "permanent": true
-  },
-  {
-    "source": "/egypt-tours-from-usa",
-    "destination": "/11-day-egypt-group-tour-cairo-red-sea-nile",
-    "permanent": true
-  },
-  {
     "source": "/egypt-tours-from-germany",
     "destination": "/10-day-egypt-group-tour-cairo-nile-red-sea",
     "permanent": true
