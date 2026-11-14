@@ -221,6 +221,11 @@ export async function CategoryView({
             <span className="t2e-kicker">{c.mastKicker}</span>
             <h1 className="mast-title">{c.mastTitle}</h1>
             <p className="mast-tag">{c.mastTag}</p>
+            {isGroup && (
+              <p className="mast-tag">
+                <Link href="/small-group-travel-packages">{ts('grpSeeMultiDay')}</Link>
+              </p>
+            )}
             {lowestNile && (
               <p className="dh-from">
                 {heroBefore}

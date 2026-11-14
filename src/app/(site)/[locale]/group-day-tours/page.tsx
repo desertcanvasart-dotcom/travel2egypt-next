@@ -20,7 +20,7 @@ export async function generateMetadata({
   return buildStaticMetadata({
     locale: locale as Locale,
     path: '/group-day-tours',
-    title: ts('grpDayCatTitle'),
+    title: ts('grpDayCatMetaTitle'),
     description: ts('grpDayCatDeck'),
   });
 }

@@ -124,7 +124,15 @@ export default async function CruisePage({ params }: Props) {
   setRequestLocale(locale);
 
   const t = await getTranslations('cruise');
-  const cruise = await client.fetch<CruiseDetail | null>(cruiseBySlugQuery(locale as Locale), { slug });
+  const [cruise, holidaysHubSlug] = await Promise.all([
+    client.fetch<CruiseDetail | null>(cruiseBySlugQuery(locale as Locale), { slug }),
+    // The itinerary hub that owns "nile cruise" (owner decision 2026-11-14);
+    // its slug is localized in Sanity, so resolve it per locale.
+    client.fetch<string | null>(
+      `*[_id == "tourLanding.nile-cruise-holidays"][0].slug[_key == $locale][0].value.current`,
+      { locale },
+    ),
+  ]);
 
   if (!cruise) notFound();
 
@@ -403,6 +411,14 @@ export default async function CruisePage({ params }: Props) {
                 >
                   {t('whatsappInquiry')}
                 </a>
+              )}
+              {holidaysHubSlug && (
+                <Link
+                  href={`/${holidaysHubSlug}`}
+                  className="block pt-1 text-center text-sm text-ink underline-offset-4 hover:underline"
+                >
+                  {t('holidaysHubLink')}
+                </Link>
               )}
             </div>
           </aside>

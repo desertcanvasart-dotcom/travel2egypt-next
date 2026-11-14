@@ -204,6 +204,9 @@ export function resolveInternalLinkHref(ref: ResolvableRef | null | undefined): 
       return `/hotels/${ref.slug}`;
     case 'nileCruise':
       return `/nile-cruises/${ref.slug}`;
+    case 'tourLanding':
+      // Hubs are canonical at the site root, like tours.
+      return `/${ref.slug}`;
     default:
       return null;
   }

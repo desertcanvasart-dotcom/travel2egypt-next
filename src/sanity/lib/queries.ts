@@ -162,6 +162,13 @@ export const guideArticleBySlugQuery = (locale: Locale) => groq`
     "summary": ${localizedField('summary', locale)},
     // Round 3: separate meta (Task B) + priced tour blocks (Task C).
     "seoDescription": ${localizedField('seoDescription', locale)},
+    // Striking-distance pass (2026-11-14): per-locale SEO title (strict — no EN
+    // fallback into ES/JA) and the city's private day-tour hub for the
+    // "See all <city> day tours" link under the end tour block.
+    seo{ "metaTitle": ${localizedFieldStrict('metaTitle', locale)} },
+    "privateDayHub": *[_type == "tourLanding" && category->key == "private-day-tour" && destinationCity._ref == ^.parentCity._ref && !(_id in path("drafts.**"))][0]{
+      "slug": ${localizedSlug('slug', locale)}
+    },
     "dek": ${localizedField('dek', locale)},
     ${pickedToursProjection('inlineTours', locale)},
     ${pickedToursProjection('endTours', locale)},
