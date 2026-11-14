@@ -2312,7 +2312,25 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
     },
     // Build the tours list from the discriminator: this landing lists tours
     // sharing the same parent-category (type × tourMode) AND the same axis value.
-    "tours": *[
+    // "Featured tours (manual order)" (schema: relatedTours) overrides the
+    // auto-filtered list when set — any type × mode, in the editor's order
+    // (implemented 2026-11-14 for the Christmas & New Year landing).
+    "tours": select(
+      count(relatedTours[@->_id != null && !(@->_id in path("drafts.**"))]) > 0 =>
+        relatedTours[]->{
+      _id, type, tourMode, durationDays, durationHours, "priceFrom": ${guidePrice(locale)}, "guidePriced": ${guidePriced(locale)},
+      "enSlug": slug[_key=="en"][0].value.current,
+      "cities": cities[]->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)}, "enSlug": slug[_key=="en"][0].value.current },
+      "title": ${localizedField('title', locale)},
+      "slug": ${localizedSlug('slug', locale)},
+      "summary": ${localizedField('summary', locale)},
+      "durationLabel": ${localizedField('durationLabel', locale)},
+      heroImage{
+        ...,
+        "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
+      }
+    },
+      *[
       _type == "tour" &&
       !(_id in path("drafts.**")) &&
       (
@@ -2340,7 +2358,8 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
         ...,
         "alt": coalesce(alt[_key=="${locale}"][0].value, alt[_key=="en"][0].value)
       }
-    },
+    }
+    ),
     seo{
       "metaTitle": ${localizedFieldStrict('metaTitle', locale)},
       "metaDescription": ${localizedFieldStrict('metaDescription', locale)},
