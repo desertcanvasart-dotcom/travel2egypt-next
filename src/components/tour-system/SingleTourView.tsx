@@ -10,6 +10,7 @@ import type { Locale } from '@/i18n/routing';
 import { Price } from '../Price';
 import { JsonLd } from '../JsonLd';
 import { LandingFaq, type LandingFaqItem } from './LandingFaq';
+import { withStandardFaq } from '@/lib/standardFaq';
 import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-data';
 
 import { JourneyImage } from './JourneyImage';
@@ -384,7 +385,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         </section>
       )}
 
-      <LandingFaq items={tour.faq} locale={locale} />
+      <LandingFaq items={withStandardFaq(tour.faq, locale)} locale={locale} />
 
       <section className="t2e-footband">
         <div className="t2e-wrap t2e-footband-grid">
