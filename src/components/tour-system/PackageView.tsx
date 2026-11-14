@@ -7,6 +7,7 @@ import { Link } from '@/i18n/navigation';
 import type { Locale } from '@/i18n/routing';
 import { Price } from '../Price';
 import { JsonLd } from '../JsonLd';
+import { LandingFaq, type LandingFaqItem } from './LandingFaq';
 import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-data';
 
 import { JourneyImage } from './JourneyImage';
@@ -60,6 +61,7 @@ export interface PackageDoc {
   practicalInfo?: unknown[] | null;
   days?: PackageDay[] | null;
   conciergeNote?: string;
+  faq?: LandingFaqItem[];
   includedItems?: string[] | null;
   notIncludedItems?: string[] | null;
   accessNoteTitle?: string;
@@ -560,6 +562,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
           </div>
         </section>
       )}
+
+      <LandingFaq items={tour.faq} locale={locale} />
 
       <section className="t2e-footband">
         <div className="t2e-wrap t2e-footband-grid">

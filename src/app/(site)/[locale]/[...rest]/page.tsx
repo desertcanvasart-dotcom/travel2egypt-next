@@ -17,6 +17,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 
 import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { minPrice, type RawHubTour } from '@/components/day-hubs/dayHubData';
 import { Link, permanentRedirect } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
 import { isRedirectSource, localizedPath } from '@/lib/redirect-sources';
@@ -164,6 +165,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       path: `/${rest[0]}`,
       ogType: 'website',
       pathByLocale: pathByLocaleFromSlugs(doc.allSlugs, (s: string) => `/${s}`),
+      priceFromEur: minPrice((doc.tours ?? []) as RawHubTour[]),
     });
   }
   if (hit._type === 'tour') {
@@ -173,6 +175,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: locale as Locale,
       path: `/${rest[0]}`,
       pathByLocale: pathByLocaleFromSlugs(tour.allSlugs, (s: string) => `/${s}`),
+      priceFromEur: tour.priceFrom,
     });
   }
   // article / wikiMonument still routed via their explicit handlers; they own metadata there.
