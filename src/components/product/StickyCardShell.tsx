@@ -61,7 +61,10 @@ export function StickyCardShell({ label, children }: { label: string; children: 
       // The stack = every earlier sibling in the right column.
       const prev = el.previousElementSibling as HTMLElement | null;
       const stackGone = prev ? prev.getBoundingClientRect().bottom <= hdr : true;
-      const endInView = end ? end.getBoundingClientRect().top < window.innerHeight : false;
+      // Hide only once the end band ("Plan your trip") reaches the card's own
+      // bottom edge, not the viewport bottom (tour-page Phase 1, 2026-11-15):
+      // the card stays beside the content right down to the band.
+      const endInView = end ? end.getBoundingClientRect().top < el.getBoundingClientRect().bottom : false;
       const on = mode !== null && stackGone && !endInView;
       const next = { on, mode: mode ?? 'tight', top: hdr + 24 };
       setState((s) => (s.on === next.on && s.mode === next.mode && s.top === next.top ? s : next));

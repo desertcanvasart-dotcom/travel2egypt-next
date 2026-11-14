@@ -39,6 +39,7 @@ export const LEAD_SOURCES = [
   'small_group_end',
   // Product page right column (2026-11-11)
   'product_sticky_card',
+  'product_hero',
   'product_options',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];

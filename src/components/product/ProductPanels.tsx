@@ -12,7 +12,6 @@ import { JOURNEYS, JOURNEY_UI, journeyLocale } from '@/lib/journeys/registry';
 import { CurrencyNote } from '@/components/CurrencyNote';
 
 import {
-  InlineDateCheck,
   ProductConciergeLink,
   ProductLeadButton,
   ProductWhatsApp,
@@ -154,32 +153,91 @@ export async function MultiDayPanel({
   );
 }
 
-/** §2 — day tours: the date check sits in the panel (inline from 1024px). */
-export async function DayTourPanel({
+/**
+ * Day tours, hero facts (owner decision 2026-11-15, tour-page Phase 1): the
+ * decision panel's Type, Duration, From-price and CTAs moved into the hero,
+ * right of the italic intro, without a card (small-caps labels, hairline
+ * dividers). The CTA opens the existing pop-up form (form_open, location
+ * product_hero). Below 1024px one compact line + a full-width button.
+ */
+export async function DayHeroFacts({
   locale,
   slug,
   title,
   waHref,
   facts,
   fromEur,
-  tiers,
   guidePriced,
+  mobileLine,
 }: Common & {
   facts: PanelFact[];
   fromEur: number | null;
-  tiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }>;
+  /** e.g. "Full day · Private" for the compact phone line. */
+  mobileLine: string;
 }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const ts = await getTranslations({ locale, namespace: 'tourSystem' });
   const rt = await responseShort(locale);
+  const prefill = { kind: 'day_tour' as const, tourSlug: slug, tourTitle: title, priceFromEur: fromEur };
+  return (
+    <div className="pdp-hf" aria-label={t('panelLabel')}>
+      <Facts
+        facts={[...facts, { label: t('from'), value: <FromRow fromEur={fromEur} basis={t('basisDay')} onRequest={t('priceOnRequest')} /> }]}
+        className="pdp-facts--hero"
+      />
+      <p className="pdp-hf__line">
+        {mobileLine}
+        {fromEur ? (
+          <>
+            {mobileLine ? ' · ' : ''}
+            {t('from')} <strong><Price eur={fromEur} /></strong>
+          </>
+        ) : null}
+      </p>
+      <GuideNote on={guidePriced && !!fromEur} note={ts('guidePriceNote')} />
+      {fromEur ? <div className="pdp-ccy"><CurrencyNote note={ts('priceCurrencyNote')} /></div> : null}
+      <div className="pdp-actions pdp-hf__actions">
+        <ProductLeadButton location="product_hero" prefill={prefill} className="pdp-btn pdp-btn--primary">
+          {t('ctaCheckDate')}
+        </ProductLeadButton>
+        <ProductWhatsApp href={waHref} location="product_hero" tourSlug={slug} className="pdp-link">
+          {t('ctaWhatsApp')} →
+        </ProductWhatsApp>
+        {conciergeAvailable(locale) && (
+          <ProductConciergeLink tourSlug={slug} className="pdp-link">
+            {t('ctaConcierge')}
+          </ProductConciergeLink>
+        )}
+      </div>
+      {rt && <p className="pdp-rt">{rt}</p>}
+    </div>
+  );
+}
+
+/**
+ * Day tours, right-column panel. Type, Duration, From-price and the CTAs now
+ * live in the hero (DayHeroFacts), so the panel keeps only what is not shown
+ * there: "Starts from" and the price tiers. Renders nothing when both are empty.
+ */
+export async function DayTourPanel({
+  locale,
+  facts,
+  tiers,
+}: {
+  locale: Locale;
+  facts: PanelFact[];
+  tiers?: Array<{ name?: string; sub?: string; price?: number; unit?: string }>;
+}) {
+  const t = await getTranslations({ locale, namespace: 'productPanel' });
+  const rows = facts.filter((f) => f.value !== null && f.value !== undefined && f.value !== '');
+  const tierRows = (tiers ?? []).filter((x) => x.name || x.price);
+  if (rows.length === 0 && tierRows.length === 0) return null;
   return (
     <aside id="pdp-panel" className="pdp-panel pdp-panel--day" aria-label={t('panelLabel')}>
-      <Facts facts={facts} className="pdp-facts--details" />
-      <div className="pdp-price">
-      <Facts facts={[{ label: t('from'), value: <FromRow fromEur={fromEur} basis={t('basisDay')} onRequest={t('priceOnRequest')} /> }]} />
-      {tiers && tiers.length > 0 && (
+      <Facts facts={rows} className="pdp-facts--details" />
+      {tierRows.length > 0 && (
         <ul className="pdp-tiers">
-          {tiers.map((tier, i) => (
+          {tierRows.map((tier, i) => (
             <li key={i}>
               <span>
                 {tier.name}
@@ -193,25 +251,6 @@ export async function DayTourPanel({
           ))}
         </ul>
       )}
-      <GuideNote on={guidePriced && !!fromEur} note={ts('guidePriceNote')} />
-      </div>
-      {fromEur ? <div className="pdp-ccy"><CurrencyNote note={ts('priceCurrencyNote')} /></div> : null}
-      <InlineDateCheck
-        locale={locale}
-        prefill={{ tourSlug: slug, tourTitle: title, priceFromEur: fromEur }}
-        buttonLabel={t('ctaCheckDate')}
-      />
-      <div className="pdp-actions pdp-actions--day">
-        <ProductWhatsApp href={waHref} location="product_panel" tourSlug={slug} className="pdp-link">
-          {t('ctaWhatsApp')} →
-        </ProductWhatsApp>
-        {conciergeAvailable(locale) && (
-          <ProductConciergeLink tourSlug={slug} className="pdp-link">
-            {t('ctaConcierge')}
-          </ProductConciergeLink>
-        )}
-      </div>
-      {rt && <p className="pdp-rt">{rt}</p>}
     </aside>
   );
 }

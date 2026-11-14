@@ -263,3 +263,51 @@
 @media (prefers-reduced-motion: reduce) {
   .pdp-sticky, .pdp-sticky.is-on { transition: none; }
 }
+
+/* ── Tour-page Phase 1 (2026-11-15): day-tour hero facts ─────────────────
+   The decision panel's Type, Duration, From-price and CTAs sit in the hero,
+   right of the italic intro, with no card: small-caps labels and hairline
+   dividers (same as .pdp-facts). The facts column is the right column's width
+   so its right edge lines up with the hero image's right edge. */
+.pdp-hf { display: flex; flex-direction: column; gap: 10px; margin-top: 22px; }
+.pdp-hf .pdp-facts--hero { display: none; }
+.pdp-hf__line { margin: 0; font-family: var(--ui); font-size: 15px; color: var(--navy); }
+.pdp-hf__line strong { font-family: var(--display); font-weight: 500; font-size: 20px; }
+.pdp-hf__actions { margin-top: 4px; }
+.pdp-hf__actions .pdp-btn--primary { width: 100%; }
+.pdp-hf .pdp-rt { margin-top: 0; }
+.lvl-single .pdp-hf .price-note { margin-top: 0; padding-top: 0; border-top: 0; font-size: 10.5px; line-height: 1.35; }
+@media (min-width: 1024px) {
+  .lvl-single .pdp .pdp-head {
+    display: grid; grid-template-columns: minmax(0, 1fr) 380px; column-gap: 56px; align-items: start;
+  }
+  .lvl-single .pdp .pdp-head > .t2e-kicker,
+  .lvl-single .pdp .pdp-head > h1 { grid-column: 1 / -1; }
+  .lvl-single .pdp .pdp-head > .dek { grid-column: 1; grid-row: 3; }
+  .lvl-single .pdp .pdp-head > .pdp-hf { grid-column: 2; grid-row: 3; margin-top: 18px; }
+  .pdp-hf .pdp-facts--hero { display: grid; }
+  .pdp-hf__line { display: none; }
+  /* Compact so the hero image's top edge clears a 720px-tall screen. */
+  .pdp-hf { gap: 8px; }
+  .pdp-hf .pdp-facts > div { padding: 6px 0; }
+  .pdp-hf .pdp-facts dd { font-size: 17px; }
+  .pdp-hf .pdp-from { flex-direction: row; align-items: baseline; gap: 8px; }
+  .pdp-hf .pdp-from strong { font-size: 22px; }
+  .pdp-hf__actions { flex-direction: row; flex-wrap: wrap; column-gap: 18px; row-gap: 6px; }
+  .pdp-hf__actions .pdp-btn--primary { flex: 1 0 100%; }
+  /* H1 one step down the scale at desktop (76 → 66px), so Type, Duration,
+     price, CTA and the top of the image fit a 1280x720 screen. */
+  .lvl-single .pdp .head h1 { font-size: clamp(42px, 4.6vw, 66px); }
+}
+
+/* Day tours: "Why book with us" ticks + licence line, compact, under the
+   sticky card's button. Dropped first when the screen is short. */
+@media (min-width: 1024px) {
+  .pdp-sticky__why { font-size: 12.5px; line-height: 1.45; color: var(--navy-mute); }
+  .pdp-sticky__why ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 3px; }
+  .pdp-sticky__why li { position: relative; padding-left: 16px; color: var(--navy); }
+  .pdp-sticky__why li::before { content: '✓'; position: absolute; left: 0; color: var(--gold-dark); }
+  .pdp-sticky__why p { margin: 6px 0 0; font-size: 12px; }
+  .pdp-sticky[data-fit='no-trust'] .pdp-sticky__why,
+  .pdp-sticky[data-fit='tight'] .pdp-sticky__why { display: none; }
+}

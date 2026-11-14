@@ -16,7 +16,7 @@ import { buildTouristTripSchema, buildBreadcrumbList } from '@/lib/structured-da
 import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { LazyFloatingConcierge } from '../LazyFloatingConcierge';
-import { DayTourPanel, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
+import { DayTourPanel, DayHeroFacts, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
 import { MakeItYourOwn, CompactStickyCard } from '../product/RightColumn';
 import { ProductViewTracker } from '../product/ProductActions';
 import { HOME_COPY, homeLocale } from '../home-sales/copy';
@@ -120,27 +120,17 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const included = approvedIn.length || approvedOut.length ? approvedIn : tour.includedItems ?? [];
   const notIncluded = approvedIn.length || approvedOut.length ? approvedOut : tour.notIncludedItems ?? [];
 
-  // Shape-of-the-day card ALWAYS renders. When a field isn't explicitly authored,
-  // derive it from existing tour data so the rail never shows a blank/broken card.
-  const shape = tour.shapeOfDay;
-  const derivedWhere =
-    shape?.where || (tour.cities ?? []).map((c) => c.name).filter(Boolean).join(' · ') || cityName;
-  const derivedDuration =
-    shape?.duration ||
-    tour.durationLabel ||
-    (tour.durationDays && tour.durationDays > 1 ? ts('shapeDaysCount', { count: tour.durationDays }) : '');
-  const derivedCharacter =
-    shape?.character ||
-    [isGroup ? tSub('trackGroup') : tSub('trackPrivate'), tour.groupSize].filter(Boolean).join(' · ');
-  const shapeRows = [
-    { label: ts('shapeWhere'), value: derivedWhere },
-    { label: ts('shapeDuration'), value: derivedDuration },
-    { label: ts('shapeCharacter'), value: derivedCharacter },
-  ].filter((r) => r.value);
-
   const tiers = (tour.priceTiers ?? []).filter((p) => p.name || p.price);
-  // Trust signals are GLOBAL — identical on every tour, from i18n, not per-tour data.
-  const trustSignals = [ts('trustSignal1'), ts('trustSignal2'), ts('trustSignal3'), ts('trustSignal4')];
+  // Trust signals are GLOBAL — identical on every tour, from i18n, not per-tour
+  // data — except the format tick, which follows tourMode (a page never calls
+  // itself both private and small group). Shown compact in the sticky card.
+  const trustSignals = [
+    ts('trustSignal1'),
+    isGroup ? ts('trustSignal2Group') : ts('trustSignal2Private'),
+    ts('trustSignal3'),
+    ts('trustSignal4'),
+  ];
+  const trustLine = [trustCreds, ts('trustAccred')].filter(Boolean).join(' — ');
 
   const guideItems = [...(tour.relatedGuides ?? []), ...(tour.relatedGuideArticles ?? [])].filter((g) => g.title);
   const journal = (tour.journalRefs ?? []).filter((j) => j.title);
@@ -190,13 +180,18 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const hoursText = typeof tour.durationHours === 'number' && tour.durationHours > 0 ? tp('aboutHours', { hours: tour.durationHours }) : '';
   // The band ('Full day', 'Jornada larga', '延長') is the label segment without a number.
   const durationBand = (tour.durationLabel ?? '').split(/[·・]/).map((x) => x.trim()).find((x) => x && !/\d/.test(x)) ?? '';
-  const panelFacts: PanelFact[] = [
-    { label: tp('type'), value: isGroup ? tp('typeSmallGroup') : tp('typePrivate') },
-    // durationLabel is e.g. 'Full day · ~9 hrs': keep its band ('Full day') and
-    // state the hours once, in the panel's own wording.
+  const typeLabel = isGroup ? tp('typeSmallGroup') : tp('typePrivate');
+  // Hero facts (tour-page Phase 1): Type + Duration (+ From-price and CTAs in
+  // DayHeroFacts). durationLabel is e.g. 'Full day · ~9 hrs': keep its band
+  // ('Full day') and state the hours once, in the panel's own wording.
+  const heroFacts: PanelFact[] = [
+    { label: tp('type'), value: typeLabel },
     { label: tp('duration'), value: [hoursText ? durationBand : tour.durationLabel, hoursText].filter(Boolean).join(locale === 'ja' ? '・' : ' · ') },
-    { label: tp('startsFrom'), value: tour.departsFrom ?? '' },
   ];
+  const sep = locale === 'ja' ? '・' : ' · ';
+  const mobileLine = [durationBand || tour.durationLabel || '', typeLabel].filter(Boolean).join(sep);
+  // The right-column panel keeps only what the hero does not show.
+  const panelFacts: PanelFact[] = [{ label: tp('startsFrom'), value: tour.departsFrom ?? '' }];
   const fromEur = typeof fromAmount === 'number' && fromAmount > 0 ? fromAmount : null;
 
   return (
@@ -221,6 +216,16 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
             <span className="t2e-kicker">{trackKicker}{cityName ? ` · ${cityName}` : ''}</span>
             <h1>{tour.title}</h1>
             {tour.summary && <p className="dek">{tour.summary}</p>}
+            <DayHeroFacts
+              locale={locale}
+              slug={tour.slug}
+              title={tour.title}
+              waHref={waHref}
+              facts={heroFacts}
+              fromEur={fromEur}
+              guidePriced={tour.guidePriced}
+              mobileLine={mobileLine}
+            />
           </header>
 
           <figure className="feature pdp-hero">
@@ -228,16 +233,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           </figure>
 
           <div className="pdp-side">
-            <DayTourPanel
-              locale={locale}
-              slug={tour.slug}
-              title={tour.title}
-              waHref={waHref}
-              facts={panelFacts}
-              fromEur={fromEur}
-              tiers={tiers}
-              guidePriced={tour.guidePriced}
-            />
+            <DayTourPanel locale={locale} facts={panelFacts} tiers={tiers} />
             <MakeItYourOwn
               locale={locale}
               options={tour.approvedOptions ?? []}
@@ -255,6 +251,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               waHref={waHref}
               fromEur={fromEur}
               durationDays={null}
+              ticks={trustSignals}
+              accred={trustLine}
             />
           </div>
 
@@ -310,24 +308,6 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               />
             </article>
 
-            <div className="pdp-details">
-              {shapeRows.length > 0 && (
-                <div className="card">
-                  <span className="ck">{ts('shapeTitle')}</span>
-                  <ul className="shape">
-                    {shapeRows.map((r, i) => (
-                      <li key={i}><small>{r.label}</small><span>{r.value}</span></li>
-                    ))}
-                  </ul>
-                  {tour.priceNote && <p className="price-note">{tour.priceNote}</p>}
-                </div>
-              )}
-              <div className="card">
-                <span className="ck">{ts('whyBook')}</span>
-                <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
-                <div className="accred">{[trustCreds, ts('trustAccred')].filter(Boolean).join(' — ')}</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
