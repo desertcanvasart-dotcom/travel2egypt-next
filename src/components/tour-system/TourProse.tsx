@@ -1,6 +1,7 @@
 import { PortableText, type PortableTextComponents } from '@portabletext/react';
 
 import { pickLocalized } from '@/sanity/lib/i18n';
+import { getBodyComponents } from '@/components/Body';
 import type { Locale } from '@/i18n/routing';
 
 /**
@@ -123,6 +124,10 @@ export function TourProse({
       },
     },
     marks: {
+      // In-text internal links: reuse the shared Body serializer (owner rule:
+      // factory over fork). Without this, internalLink marks rendered as
+      // plain "unknown mark" spans on tour pages (found 2026-11-14).
+      internalLink: getBodyComponents(locale).marks?.internalLink,
       externalLink: ({ children, value: v }) => (
         <a href={(v as { href?: string })?.href} target="_blank" rel="noopener noreferrer">
           {children}
