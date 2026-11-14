@@ -114,6 +114,7 @@ if (!apply) { console.log('dry run — pass --apply'); process.exit(0); }
 const tx = c.transaction().createOrReplace(theme).createOrReplace(landing);
 console.log('committed', (await tx.commit()).transactionId);
 if (publish) {
-  const r = await c.action({ actionType: 'sanity.action.document.publish', draftId: landing._id, publishedId: landing._id.replace(/^drafts\./, '') });
+  // The Actions API needs apiVersion ≥ 2024-05-23 (2024-01-01 returns 404).
+  const r = await c.withConfig({ apiVersion: '2025-02-19' }).action({ actionType: 'sanity.action.document.publish', draftId: landing._id, publishedId: landing._id.replace(/^drafts\./, '') });
   console.log('published', r.transactionId);
 }
