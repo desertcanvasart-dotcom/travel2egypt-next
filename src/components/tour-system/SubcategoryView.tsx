@@ -369,6 +369,9 @@ export async function SubcategoryView({ doc, locale }: { doc: SubcategoryDoc; lo
           <ul>
             <li><Link href={citySlug ? `/guide/${citySlug}` : '/guide'}>{t('crosslinkCityGuide', { city: cityName })}<small>{t('crosslinkGuideKicker')}</small></Link></li>
             <li><Link href="/hotels">{t('crosslinkHotels', { city: cityName })}<small>{t('crosslinkHotelsKicker')}</small></Link></li>
+            {isGroup && (
+              <li><Link href="/small-group-travel-packages">{ts('grpSeeMultiDay')}</Link></li>
+            )}
             {other?.slug && (
               <li>
                 <Link href={`/${other.slug}`}>

@@ -52,8 +52,11 @@ export function RelatedToursBlock({
   variant,
   locale,
   articleSlug,
+  seeAll,
 }: {
   heading: string;
+  /** Optional hub link under the end block ("See all Luxor day tours →"). */
+  seeAll?: { href: string; label: string };
   products: ArticleTour[];
   variant: 'inline' | 'end';
   locale: string;
@@ -141,6 +144,11 @@ export function RelatedToursBlock({
           {heading}
         </h2>
         {cards}
+        {seeAll && (
+          <p className="rt-concierge">
+            <Link href={seeAll.href}>{seeAll.label}</Link>
+          </p>
+        )}
         <p className="rt-concierge">
           {'whatsappText' in t ? (
             <a href={whatsappUrl(t.whatsappText)} target="_blank" rel="noopener noreferrer">

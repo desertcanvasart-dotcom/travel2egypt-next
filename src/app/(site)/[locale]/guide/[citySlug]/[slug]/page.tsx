@@ -416,10 +416,22 @@ export default async function GuideArticlePage({ params }: Props) {
           products={endTours}
           locale={locale}
           articleSlug={`guide/${citySlug}/${article.slug}`}
+          seeAll={
+            article.privateDayHub?.slug
+              ? { href: `/${article.privateDayHub.slug}`, label: guideSeeAllLabel(locale, article.parentCity.name) }
+              : undefined
+          }
         />
       )}
     </article>
   );
+}
+
+// Wording reused from the approved homepage day-tour tabs (home-sales/copy.tsx).
+function guideSeeAllLabel(locale: string, city: string): string {
+  if (locale === 'es') return `Ver todas las excursiones en ${city} →`;
+  if (locale === 'ja') return `${city}の日帰りツアーをすべて見る →`;
+  return `See all ${city} day tours →`;
 }
 
 function guideEndHeading(locale: string, city: string): string {

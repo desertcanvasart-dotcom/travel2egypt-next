@@ -67,6 +67,8 @@ export const linkAnnotations = [
           { type: 'wikiDeity' },
           { type: 'hotel' },
           { type: 'nileCruise' },
+          // Tour hubs (day-tour city landings, package themes) — 2026-11-14.
+          { type: 'tourLanding' },
         ],
       }),
     ],
