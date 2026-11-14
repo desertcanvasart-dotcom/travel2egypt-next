@@ -27778,11 +27778,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/egypt-tours-from-india",
-    "destination": "/egypt-travel-packages",
-    "permanent": true
-  },
-  {
     "source": "/gawhara-terrace",
     "destination": "/guide/cairo/gawhara-terrace-and-palace",
     "permanent": true
@@ -28758,11 +28753,6 @@ export const redirects: RedirectRule[] = [
     "permanent": true
   },
   {
-    "source": "/egypt-tours-from-australia",
-    "destination": "/12-day-egypt-group-tour-cairo-dahabiya-red-sea",
-    "permanent": true
-  },
-  {
     "source": "/egypt-tours-from-germany",
     "destination": "/10-day-egypt-group-tour-cairo-nile-red-sea",
     "permanent": true
@@ -28805,11 +28795,6 @@ export const redirects: RedirectRule[] = [
   {
     "source": "/es/paquete-de-tour-de-lujo-de-14-dias-por-egipto-desde-espana-para-familias",
     "destination": "/es/vacaciones-familiares-de-lujo-en-egipto-en-14-dias",
-    "permanent": true
-  },
-  {
-    "source": "/es/tours-a-egipto-desde-espana",
-    "destination": "/es/paquetes-de-viaje-a-egipto",
     "permanent": true
   },
   {
