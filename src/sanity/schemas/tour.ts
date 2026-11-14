@@ -560,6 +560,15 @@ export const tourSchema = defineType({
 
     // ── Related ────────────────────────────
     defineField({
+      name: 'faq',
+      title: 'FAQ',
+      description:
+        'Optional FAQ shown near the end of the tour page; also emitted as FAQPage markup. Same item type as the hub FAQs.',
+      type: 'array',
+      group: 'content',
+      of: [{ type: 'landingFaqItem' }],
+    }),
+    defineField({
       name: 'relatedTours',
       title: 'Related tours',
       type: 'array',

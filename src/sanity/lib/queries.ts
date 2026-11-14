@@ -468,6 +468,11 @@ export const tourBySlugQuery = (locale: Locale) => groq`
       "description": ${localizedField('description', locale)}
     },
     "conciergeNote": ${localizedField('conciergeNote', locale)},
+    "faq": faq[]{
+      _key,
+      "question": ${localizedFieldStrict('question', locale)},
+      "answer": ${portableTextBodyProjection('answer', locale)},
+    },
     "includedItems": coalesce(includedItems[_key=="${locale}"][0].value, includedItems[_key=="en"][0].value),
     "notIncludedItems": coalesce(notIncludedItems[_key=="${locale}"][0].value, notIncludedItems[_key=="en"][0].value),
     "accessNoteTitle": ${localizedField('accessNoteTitle', locale)},

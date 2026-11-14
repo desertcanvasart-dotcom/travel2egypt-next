@@ -37,9 +37,13 @@ function insideQuote(s: string): boolean {
   );
 }
 
-export function trimMetaDescription(input: string | null | undefined, locale: string): string {
+export function trimMetaDescription(input: string | null | undefined, locale: string, reserve = 0): string {
   if (!input) return '';
-  const { max, min } = LIMITS[locale] ?? LIMITS.default;
+  // `reserve`: characters kept free for a suffix the caller appends (the
+  // "From $X per person." price line on tours and hubs, 2026-11-14).
+  const lim = LIMITS[locale] ?? LIMITS.default;
+  const max = lim.max - reserve;
+  const min = Math.min(lim.min, max - 10);
   const isJa = locale === 'ja';
 
   let text = input.replace(/\s+/g, ' ').trim();

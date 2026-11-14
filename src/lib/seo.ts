@@ -26,6 +26,8 @@ import { routing, type Locale } from '@/i18n/routing';
 import { getPathname } from '@/i18n/navigation';
 import { PRODUCTION_URL } from './site';
 import { trimMetaDescription } from './meta-description';
+import { defaultCurrencyForLocale, formatPrice } from './currency';
+import { getRates } from './fx';
 
 const SITE_NAME = 'Travel2Egypt';
 const SITE_TAGLINE = 'Egypt travel, with judgment. An Egyptian operator since 1993.';
@@ -66,6 +68,13 @@ interface SourceDoc {
 interface Options {
   /** Keep the description exactly as given (hand-written copy). Default: trim to ~155 chars. */
   keepDescription?: boolean;
+  /**
+   * Stored EUR "from" price (tours, and the lowest tour on a hub). When set,
+   * the description ends with "From $X per person." in the locale's default
+   * display currency — the same figure the page shows (owner-approved
+   * 2026-11-14, review/seo/tour-page-upgrades-2026-11-14.md U1).
+   */
+  priceFromEur?: number | null;
   locale: Locale;
   /** Path under the locale prefix, e.g. "/tours/saqqara-dahshur-day-tour". */
   path?: string;
@@ -147,6 +156,16 @@ function buildLanguageAlternates(
   return out;
 }
 
+async function priceSuffix(eur: number | null | undefined, locale: string): Promise<string> {
+  if (typeof eur !== 'number' || !Number.isFinite(eur) || eur <= 0) return '';
+  const { rates } = await getRates();
+  const fig = formatPrice(eur, defaultCurrencyForLocale(locale), null, locale, rates);
+  if (!fig) return '';
+  if (locale === 'es') return `Desde ${fig} por persona.`;
+  if (locale === 'ja') return `1名様あたり${fig}から。`;
+  return `From ${fig} per person.`;
+}
+
 export async function buildMetadata(doc: SourceDoc, options: Options): Promise<Metadata> {
   const { locale, path = '/', brandSuffix = true, ogType = 'article' } = options;
 
@@ -162,7 +181,12 @@ export async function buildMetadata(doc: SourceDoc, options: Options): Promise<M
   // Hand-written page copy (buildStaticMetadata: code / locale files) is
   // kept as written; Sanity text — often migrated or auto-excerpted — is cut.
   const rawDescription = doc.seo?.metaDescription?.trim() || doc.summary?.trim() || SITE_TAGLINE;
-  const description = options.keepDescription ? rawDescription : trimMetaDescription(rawDescription, locale);
+  const priceLine = await priceSuffix(options.priceFromEur, locale);
+  const description = options.keepDescription
+    ? rawDescription
+    : priceLine
+      ? `${trimMetaDescription(rawDescription, locale, priceLine.length + 1)}${locale === 'ja' ? '' : ' '}${priceLine}`
+      : trimMetaDescription(rawDescription, locale);
 
   // OG image fallback chain: editor-set → doc hero → site default → static.
   // The site default (siteSettings.defaultOgImage) is fetched only when the
