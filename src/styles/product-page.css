@@ -281,10 +281,14 @@
   .lvl-single .pdp .pdp-head {
     display: grid; grid-template-columns: minmax(0, 1fr) 380px; column-gap: 56px; align-items: start;
   }
-  .lvl-single .pdp .pdp-head > .t2e-kicker,
-  .lvl-single .pdp .pdp-head > h1 { grid-column: 1 / -1; }
+  /* Two columns (owner, 2026-11-15): eyebrow, H1 and intro on the left;
+     facts + CTAs on the right from the top of the header, so no blank
+     space opens under the intro. */
+  .lvl-single .pdp .pdp-head { grid-template-rows: auto auto 1fr; }
+  .lvl-single .pdp .pdp-head > .t2e-kicker { grid-column: 1; grid-row: 1; }
+  .lvl-single .pdp .pdp-head > h1 { grid-column: 1; grid-row: 2; }
   .lvl-single .pdp .pdp-head > .dek { grid-column: 1; grid-row: 3; }
-  .lvl-single .pdp .pdp-head > .pdp-hf { grid-column: 2; grid-row: 3; margin-top: 18px; }
+  .lvl-single .pdp .pdp-head > .pdp-hf { grid-column: 2; grid-row: 1 / span 3; margin-top: 0; }
   .pdp-hf .pdp-facts--hero { display: grid; }
   .pdp-hf__line { display: none; }
   /* Compact so the hero image's top edge clears a 720px-tall screen. */
@@ -295,9 +299,9 @@
   .pdp-hf .pdp-from strong { font-size: 22px; }
   .pdp-hf__actions { flex-direction: row; flex-wrap: wrap; column-gap: 18px; row-gap: 6px; }
   .pdp-hf__actions .pdp-btn--primary { flex: 1 0 100%; }
-  /* H1 one step down the scale at desktop (76 → 66px), so Type, Duration,
-     price, CTA and the top of the image fit a 1280x720 screen. */
-  .lvl-single .pdp .head h1 { font-size: clamp(42px, 4.6vw, 66px); }
+  /* H1 at desktop: 56px max (owner, 2026-11-15), sized for the narrower
+     left column so long titles stay at 2-3 lines. */
+  .lvl-single .pdp .head h1 { font-size: clamp(40px, 4.4vw, 56px); }
 }
 
 /* Day tours: "Why book with us" ticks + licence line, compact, under the
