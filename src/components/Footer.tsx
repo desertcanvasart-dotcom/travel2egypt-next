@@ -202,7 +202,9 @@ export function Footer({ locale, nav, accreditations, responseTimeFull }: Footer
           ))}
         </p>
 
-        {/* 5. Other brands */}
+        {/* 5. Other brands, with the seal at the right end of the line (owner,
+            2026-11-15: header size, beside the text, no empty row). */}
+        <div className="t2e-foot-brandsrow">
         <p className="t2e-foot-brandsline">
           {c.brands.intro}{' '}
           {(['sillage', 'affordegypt', 'sawa'] as const).map((b, i) => (
@@ -220,9 +222,8 @@ export function Footer({ locale, nav, accreditations, responseTimeFull }: Footer
             </span>
           ))}
         </p>
-
-        {/* Seal, light-background version (owner, 2026-11-15). */}
-        <img className="t2e-foot-seal" src="/brand/T2E-light-bg.svg" width={72} height={72} alt="Travel2Egypt" loading="lazy" decoding="async" />
+        <img className="t2e-foot-seal" src="/brand/T2E-light-bg.svg" width={40} height={40} alt="Travel2Egypt" loading="lazy" decoding="async" />
+        </div>
 
         {/* 6. Legal row */}
         <div className="t2e-foot-legal">
