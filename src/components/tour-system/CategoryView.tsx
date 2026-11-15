@@ -139,6 +139,10 @@ export async function CategoryView({
     return i === -1 ? NILE_KEYS.length : i;
   };
   const nileTiles = navItems.filter((n) => !n.redSea).sort((a, b) => tileRank(a.id) - tileRank(b.id));
+  // Red Sea city hubs: no tiles (owner spec 2026-11-09), but each city name
+  // links to its hub under the Red Sea line, so the hubs are not orphaned
+  // (owner, 2026-11-15). Order and names as in the Sanity navigator.
+  const redSeaLinks = navItems.filter((n) => n.redSea && n.cityName);
   const hasRedSea = items.some((i) => i.redSea);
 
   // ── Most booked: the homepage day-tour products in this page's mode. ──
@@ -271,6 +275,17 @@ export async function CategoryView({
             {hasRedSea && (
               <p className="dh-redsea-line">
                 <a href="#red-sea">{th('redSeaLine')}</a>
+                {redSeaLinks.length > 0 && (
+                  <>
+                    <br />
+                    {redSeaLinks.map((n, i) => (
+                      <span key={n.id}>
+                        {i > 0 && ' · '}
+                        <Link href={n.href}>{n.cityName}</Link>
+                      </span>
+                    ))}
+                  </>
+                )}
               </p>
             )}
           </div>
