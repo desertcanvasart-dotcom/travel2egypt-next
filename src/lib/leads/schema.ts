@@ -24,6 +24,8 @@ export const LEAD_SOURCES = [
   'product_end',
   'packages_hub',
   'day_tour_hub',
+  // Day-tour city pages aligned with the theme pages (2026-11-15)
+  'city_hub_hero',
   // Nav rebuild (2026-11-10)
   'nav_menu',
   'mobile_menu',
