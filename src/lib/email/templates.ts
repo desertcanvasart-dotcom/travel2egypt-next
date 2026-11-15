@@ -36,7 +36,7 @@ function shell(headingHtml: string, bodyHtml: string, buttonLabel: string, url: 
     <tr><td align="center">
       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:520px;background:${BRAND.surface};border:1px solid ${BRAND.line};">
         <tr><td style="padding:32px 32px 24px;">
-          <p style="margin:0 0 24px;font-family:Georgia,'Times New Roman',serif;font-size:15px;letter-spacing:0.04em;text-transform:uppercase;color:${BRAND.accent};">Travel2Egypt</p>
+          <img src="https://travel2egypt.org/brand/T2E-light-bg-512.png" width="72" height="72" alt="Travel2Egypt" style="display:block;width:72px;height:72px;border:0;margin:0 0 24px;">
           <h1 style="margin:0 0 16px;font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:24px;line-height:1.25;color:${BRAND.ink};">${headingHtml}</h1>
           ${bodyHtml}
           <table role="presentation" cellpadding="0" cellspacing="0" style="margin:28px 0 8px;"><tr>

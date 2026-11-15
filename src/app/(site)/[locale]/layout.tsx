@@ -1,6 +1,6 @@
 import '../../globals.css';
 import '@/styles/tour-chrome.css';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale, getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -31,6 +31,14 @@ import {
 export const metadata: Metadata = {
   title: 'Travel2Egypt',
   description: 'Egypt travel, with judgment. An Egyptian operator since 1993.',
+  // Final logo set (owner, 2026-11-15). favicon.ico, icon.svg and
+  // apple-icon.png live in src/app (Next writes their tags); the manifest
+  // and Android icons live in /public.
+  manifest: '/site.webmanifest',
+};
+
+export const viewport: Viewport = {
+  themeColor: '#14243B',
 };
 
 // ISR for the whole public site. Pages are statically rendered, then
