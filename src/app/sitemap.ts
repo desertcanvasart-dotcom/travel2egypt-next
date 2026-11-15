@@ -198,7 +198,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // ── Localized-slug docs ──
   for (const doc of data.localizedDocs) {
     const enSlug = doc.slugs?.find((s) => s._key === 'en')?.current;
-    if (!enSlug) continue;
+    // Hubs (tourLanding) are listed only in the languages they really have,
+    // with no EN-slug fallback copies; an ES-only hub has no EN slug at all
+    // (hub fix, 2026-11-15).
+    const ownOnly = doc._type === 'tourLanding';
+    if (!enSlug && !ownOnly) continue;
 
     const enParentCity = doc.parentCitySlugs?.find((s) => s._key === 'en')
       ?.current;
@@ -206,8 +210,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Build the per-locale URL map for this single doc.
     const urlsByLocale: Record<string, string> = {};
     for (const locale of routing.locales) {
-      const slug =
-        doc.slugs?.find((s) => s._key === locale)?.current ?? enSlug;
+      const slug = ownOnly
+        ? doc.slugs?.find((s) => s._key === locale)?.current
+        : doc.slugs?.find((s) => s._key === locale)?.current ?? enSlug;
+      if (!slug) continue;
       const parentCitySlug =
         doc.parentCitySlugs?.find((s) => s._key === locale)?.current ??
         enParentCity ??
@@ -234,7 +240,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         alternates: {
           languages: {
             ...urlsByLocale,
-            'x-default': urlsByLocale['en'] ?? url,
+            'x-default':
+              urlsByLocale['en'] ??
+              urlsByLocale[routing.locales.find((l) => urlsByLocale[l]) ?? ''] ??
+              url,
           },
         },
       });
