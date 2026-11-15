@@ -1,6 +1,7 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
 import { assertSameOrigin } from '@/lib/http/sameOrigin';
+import { PRODUCTION_URL } from '@/lib/site';
 
 import { enforceExpensive } from '@/lib/concierge/rateLimit';
 import { ensureSession, sessionCookie } from '@/lib/concierge/session';
@@ -61,7 +62,10 @@ export async function POST(req: NextRequest) {
     await db.from('sessions').update({ email }).eq('id', session.rowId);
 
     const token = await signResumeToken(session.cookieId);
-    const resumeUrl = `${req.nextUrl.origin}/${locale === 'es' ? 'es/' : ''}plan-your-tour?resume=${encodeURIComponent(token)}`;
+    // Always the public site address. req.nextUrl.origin is the address the
+    // server sees, which behind Railway's proxy can be an internal host
+    // (a September email linked to localhost). 2026-11-15.
+    const resumeUrl = `${PRODUCTION_URL}/${locale === 'es' ? 'es/' : ''}plan-your-tour?resume=${encodeURIComponent(token)}`;
     await sendResumeEmail(email, resumeUrl, locale);
 
     const res = NextResponse.json({ ok: true });
