@@ -95,6 +95,8 @@ export async function MultiDayPanel({
   extra,
   enSlug,
   guidePriced,
+  heroed = false,
+  notes,
 }: Common & {
   facts: PanelFact[];
   fromEur: number | null;
@@ -104,11 +106,48 @@ export async function MultiDayPanel({
   extra?: ReactNode;
   /** EN slug — for the journey "Part of" line (Phase A §7.5). */
   enSlug?: string;
+  /** Packages, 2026-11-15: Type, Duration, From and the CTAs live in the
+   *  hero (DayHeroFacts variant="multi"); the panel keeps the rest (route,
+   *  nights, character, group facts, tiers, supplement, departures). */
+  heroed?: boolean;
+  /** Extra rows under the tiers (single supplement, price note). */
+  notes?: ReactNode;
 }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const ts = await getTranslations({ locale, namespace: 'tourSystem' });
   const rt = await responseShort(locale);
   const prefill = { kind: 'trip' as const, tourSlug: slug, tourTitle: title, durationDays };
+  if (heroed) {
+    const rows = facts.filter((f) => f.value !== null && f.value !== undefined && f.value !== '');
+    const tierRows = (tiers ?? []).filter((x) => x.name || typeof x.price === 'number');
+    if (rows.length === 0 && tierRows.length === 0 && !extra && !notes) {
+      return <PartOfJourneys enSlug={enSlug} locale={locale} />;
+    }
+    return (
+      <aside id="pdp-panel" className="pdp-panel pdp-panel--rest" aria-label={t('panelLabel')}>
+        <Facts facts={rows} className="pdp-facts--details" />
+        <PartOfJourneys enSlug={enSlug} locale={locale} />
+        {tierRows.length > 0 && (
+          <ul className="pdp-tiers">
+            {tierRows.map((tier, i) => (
+              <li key={i}>
+                <span>
+                  {tier.name}
+                  {tier.sub && <small>{tier.sub}</small>}
+                </span>
+                <span>
+                  <Price eur={tier.price} />
+                  {tier.unit && <small> {tier.unit}</small>}
+                </span>
+              </li>
+            ))}
+          </ul>
+        )}
+        {notes}
+        {extra && <div className="pdp-extra">{extra}</div>}
+      </aside>
+    );
+  }
   return (
     <aside id="pdp-panel" className="pdp-panel" aria-label={t('panelLabel')}>
       <Facts facts={facts} className="pdp-facts--details" />
@@ -169,20 +208,29 @@ export async function DayHeroFacts({
   fromEur,
   guidePriced,
   mobileLine,
+  variant = 'day',
+  durationDays = null,
 }: Common & {
   facts: PanelFact[];
   fromEur: number | null;
   /** e.g. "Full day · Private" for the compact phone line. */
   mobileLine: string;
+  /** 'multi' = packages (2026-11-15): per-person basis, "Customise this
+   *  trip" CTA and the trip prefill, same layout as the day tours. */
+  variant?: 'day' | 'multi';
+  durationDays?: number | null;
 }) {
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   const ts = await getTranslations({ locale, namespace: 'tourSystem' });
   const rt = await responseShort(locale);
-  const prefill = { kind: 'day_tour' as const, tourSlug: slug, tourTitle: title, priceFromEur: fromEur };
+  const multi = variant === 'multi';
+  const prefill = multi
+    ? { kind: 'trip' as const, tourSlug: slug, tourTitle: title, durationDays }
+    : { kind: 'day_tour' as const, tourSlug: slug, tourTitle: title, priceFromEur: fromEur };
   return (
     <div className="pdp-hf" aria-label={t('panelLabel')}>
       <Facts
-        facts={[...facts, { label: t('from'), value: <FromRow fromEur={fromEur} basis={t('basisDay')} onRequest={t('priceOnRequest')} /> }]}
+        facts={[...facts, { label: t('from'), value: <FromRow fromEur={fromEur} basis={multi ? t('basisPerPerson') : t('basisDay')} onRequest={t('priceOnRequest')} /> }]}
         className="pdp-facts--hero"
       />
       <p className="pdp-hf__line">
@@ -198,7 +246,7 @@ export async function DayHeroFacts({
       {fromEur ? <div className="pdp-ccy"><CurrencyNote note={ts('priceCurrencyNote')} /></div> : null}
       <div className="pdp-actions pdp-hf__actions">
         <ProductLeadButton location="product_hero" prefill={prefill} className="pdp-btn pdp-btn--primary">
-          {t('ctaCheckDate')}
+          {multi ? t('ctaCustomise') : t('ctaCheckDate')}
         </ProductLeadButton>
         <ProductWhatsApp href={waHref} location="product_hero" tourSlug={slug} className="pdp-link">
           {t('ctaWhatsApp')} →

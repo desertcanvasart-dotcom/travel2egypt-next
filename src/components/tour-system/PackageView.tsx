@@ -15,7 +15,7 @@ import { JourneyImage } from './JourneyImage';
 import { enSlugOf } from '@/lib/products/bySlug';
 import { TourProse } from './TourProse';
 import { LazyFloatingConcierge } from '../LazyFloatingConcierge';
-import { MultiDayPanel, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
+import { MultiDayPanel, DayHeroFacts, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
 import { YourRoute, MakeItYourOwn, CompactStickyCard } from '../product/RightColumn';
 import { routeStops, type RouteLegRow } from '@/lib/products/routeLabels';
 import { ProductLeadButton, ProductViewTracker } from '../product/ProductActions';
@@ -115,8 +115,6 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
     : durationDays > 0
       ? durationDays - 1
       : 0;
-  const styleLabel = ts('pkgStylePrivate');
-  const durationMeta = durationDays > 0 ? ts('pkgDurationMeta', { days: durationDays, nights }) : '';
 
   // ── Group package: the scheduled-departures apparatus. Built deterministically
   // at render/build time so the soonest FUTURE date is selected. ──
@@ -174,30 +172,22 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
       ? tour.priceFrom
       : tour.priceTiers?.[0]?.price;
 
-  // RAIL — shape of the journey (always renders; derived).
   const shape = tour.shapeOfDay;
-  const shapeRows = (
-    isGroup
-      ? [
-          { label: ts('shapeRoute'), value: shape?.where || route },
-          { label: ts('shapeLength'), value: durationDays > 0 ? ts('shapeDaysCount', { count: durationDays }) : durationMeta },
-          { label: ts('pkgGrpGroupLabel'), value: typeof tour.maxGroup === 'number' ? ts('pkgGrpMaxGroup', { n: tour.maxGroup }) : '' },
-          { label: ts('pkgGrpGuideLabel'), value: ts('pkgGrpGuideValue') },
-        ]
-      : [
-          { label: ts('shapeRoute'), value: shape?.where || route },
-          { label: ts('shapeLength'), value: shape?.duration || durationMeta },
-          { label: ts('shapeNights'), value: nightsSplit },
-          { label: ts('shapeStyle'), value: shape?.character || styleLabel },
-        ]
-  ).filter((r) => r.value);
 
   const tiers = (tour.priceTiers ?? []).filter((p) => p.name || typeof p.price === 'number');
   const suppValue =
     typeof tour.singleSupplement === 'number'
       ? <>{ts('pkgSuppFrom')} <Price eur={tour.singleSupplement} /></>
       : null;
-  const trustSignals = [ts('trustSignal1'), ts('trustSignal2'), ts('trustSignal3'), ts('trustSignal4')];
+  // "Why book with us" ticks + licence line, now inside the sticky card
+  // (packages, 2026-11-15, same as day tours); the second tick follows tourMode.
+  const trustSignals = [
+    ts('trustSignal1'),
+    isGroup ? ts('trustSignal2Group') : ts('trustSignal2Private'),
+    ts('trustSignal3'),
+    ts('trustSignal4'),
+  ];
+  const trustLine = [trustCreds, ts('trustAccred')].filter(Boolean).join(' — ');
 
   // Approved extracted items (review-gated); a product with none falls back to
   // the lists authored before the template (one quad-bike tour has them).
@@ -268,17 +258,34 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
   );
 
   const L = homeLocale(locale);
+  // Hero facts (packages, 2026-11-15, same pattern as day tours): Type +
+  // Duration (+ From-price and CTAs in DayHeroFacts). An authored
+  // shapeOfDay.duration (e.g. "3 days / 2 nights — extendable") wins.
+  const typeLabel = isGroup ? tp('typeSmallGroup') : tp('typePrivate');
+  const daysNights = durationDays > 0 ? tp('daysNights', { days: durationDays, nights }) : '';
+  const heroFacts: PanelFact[] = [
+    { label: tp('type'), value: typeLabel },
+    { label: tp('duration'), value: (!isGroup && shape?.duration) || daysNights },
+  ];
+  const mobileLine = [daysNights, typeLabel].filter(Boolean).join(locale === 'ja' ? '・' : ' · ');
+  // The panel under the photo keeps everything the hero does not show,
+  // including what the old "shape of the journey" card carried (authored
+  // route and character, the hotel/river night split, single supplement),
+  // so no detail is lost and nothing is shown twice.
   const panelFacts: PanelFact[] = [
-    { label: tp('duration'), value: durationDays > 0 ? tp('daysNights', { days: durationDays, nights }) : '' },
-    { label: tp('route'), value: routeRow },
-    { label: tp('style'), value: isGroup ? tp('styleSmallGroup') : tp('stylePrivate') },
+    { label: tp('route'), value: shape?.where || routeRow },
     ...(isGroup
       ? [
           { label: ts('pkgGrpGroupLabel'), value: typeof tour.maxGroup === 'number' ? ts('pkgGrpMaxGroup', { n: tour.maxGroup }) : '' },
+          { label: ts('pkgGrpGuideLabel'), value: ts('pkgGrpGuideValue') },
           { label: ts('pkgGrpDeparturesLabel'), value: dep && dep.count > 0 ? ts('pkgGrpPerYear', { count: dep.count }) : '' },
         ]
-      : []),
-    { label: tp('cruise'), value: cruiseNights > 0 ? tp('cruiseNights', { nights: cruiseNights }) : '' },
+      : [
+          { label: ts('shapeNights'), value: nightsSplit },
+          { label: ts('shapeStyle'), value: shape?.character || '' },
+        ]),
+    { label: tp('cruise'), value: cruiseNights > 0 && !(!isGroup && nightsSplit) ? tp('cruiseNights', { nights: cruiseNights }) : '' },
+    { label: ts('pkgSingleSupp'), value: suppValue ?? '' },
   ];
   const nextDeparture = isGroup && dep ? (
     dep.next ? (
@@ -342,6 +349,18 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
             <span className="t2e-kicker">{kicker}</span>
             <h1>{tour.title}</h1>
             {tour.summary && <p className="dek">{tour.summary}</p>}
+            <DayHeroFacts
+              locale={locale}
+              slug={tour.slug}
+              title={tour.title}
+              waHref={waHref}
+              facts={heroFacts}
+              fromEur={typeof fromAmount === 'number' && fromAmount > 0 ? fromAmount : null}
+              guidePriced={tour.guidePriced}
+              mobileLine={mobileLine}
+              variant="multi"
+              durationDays={durationDays || null}
+            />
           </header>
 
           <figure className="feature pdp-hero">
@@ -361,6 +380,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               extra={nextDeparture}
               guidePriced={tour.guidePriced}
               enSlug={enSlugOf((tour as { allSlugs?: Array<{ _key: string; current?: string }> }).allSlugs, tour.slug) ?? undefined}
+              heroed
+              notes={tour.priceNote ? <p className="price-note">{tour.priceNote}</p> : null}
             />
             <YourRoute locale={locale} legs={approvedRoute} />
             <MakeItYourOwn
@@ -380,6 +401,8 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
               waHref={waHref}
               fromEur={typeof fromAmount === 'number' && fromAmount > 0 ? fromAmount : null}
               durationDays={durationDays || null}
+              ticks={trustSignals}
+              accred={trustLine}
             />
           </div>
 
@@ -489,28 +512,6 @@ export async function PackageView({ tour, locale }: { tour: PackageDoc; locale: 
                 fromEur={null}
               />
             </article>
-
-            <div className="pdp-details">
-              {shapeRows.length > 0 && (
-                <div className="card">
-                  <span className="ck">{ts('pkgShapeTitle')}</span>
-                  <ul className="shape">
-                    {shapeRows.map((r, i) => (
-                      <li key={i}><small>{r.label}</small><span>{r.value}</span></li>
-                    ))}
-                  </ul>
-                  {suppValue && (
-                    <div className="supp"><span>{ts('pkgSingleSupp')}</span><span>{suppValue}</span></div>
-                  )}
-                  {tour.priceNote && <p className="price-note">{tour.priceNote}</p>}
-                </div>
-              )}
-              <div className="card">
-                <span className="ck">{ts('whyBook')}</span>
-                <ul className="trust">{trustSignals.map((s, i) => <li key={i}>{s}</li>)}</ul>
-                <div className="accred">{[trustCreds, ts('trustAccred')].filter(Boolean).join(' — ')}</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
