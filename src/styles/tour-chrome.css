@@ -101,6 +101,11 @@
 /* The "2" takes --black (the dark ground of the home "What we do differently"
    band) — a warm near-black accent against the cool navy of the wordmark. */
 .t2e-logo--wordmark .t2e-logo-2 { font-style: italic; color: var(--black); }
+/* Final seal beside the wordmark (owner, 2026-11-15); fixed box, no layout shift. */
+.t2e-logo--wordmark { display: inline-flex; align-items: center; gap: 10px; }
+.t2e-logo--wordmark .t2e-logo-seal { width: 40px; height: 40px; flex: none; display: block; }
+@media (max-width: 620px) { .t2e-logo--wordmark .t2e-logo-seal { width: 32px; height: 32px; } .t2e-logo--wordmark { gap: 8px; } }
+.t2e-foot-seal { display: block; width: 72px; height: 72px; margin: 8px 0 20px; }
 @media (max-width: 620px) { .t2e-logo--wordmark { font-size: 21px; } }
 .t2e-nav-links { display: flex; align-items: center; gap: 36px; list-style: none; }
 .t2e-nav-links { margin: 0; padding: 0; }

@@ -127,9 +127,9 @@ export function buildOrganizationSchema(input: OrganizationInput) {
   // Logo and image are kept distinct: logo for Knowledge Panel
   // identity, image for the share-card / generic visual fallback.
   // Fallbacks (Ahrefs audit, 2026-11-09): siteSettings has no logo or
-  // default share image, so use the site's own /logo.png (202×123, above
-  // Google's 112px minimum) and /og-default.png (1200×630).
-  const logoUrl = imageUrlOrUndefined(input.logo, 600, 600) ?? `${SITE_URL}/logo.png`;
+  // default share image, so use the final seal /brand/T2E-seal-512.png (512×512 square, above
+  // Google's 112px minimum; owner, 2026-11-15) and /og-default.png (1200×630).
+  const logoUrl = imageUrlOrUndefined(input.logo, 600, 600) ?? `${SITE_URL}/brand/T2E-seal-512.png`;
   const imageUrl = imageUrlOrUndefined(input.defaultOgImage, 1200, 630) ?? `${SITE_URL}/og-default.png`;
 
   // sameAs — every public profile URL the operator wants Google and

@@ -221,6 +221,9 @@ export function Footer({ locale, nav, accreditations, responseTimeFull }: Footer
           ))}
         </p>
 
+        {/* Seal, light-background version (owner, 2026-11-15). */}
+        <img className="t2e-foot-seal" src="/brand/T2E-light-bg.svg" width={72} height={72} alt="Travel2Egypt" loading="lazy" decoding="async" />
+
         {/* 6. Legal row */}
         <div className="t2e-foot-legal">
           <span className="legal-owner">
