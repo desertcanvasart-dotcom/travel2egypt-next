@@ -365,7 +365,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         </section>
       )}
 
-      <LandingFaq items={withStandardFaq(tour.faq, locale)} locale={locale} />
+      <LandingFaq items={withStandardFaq(tour.faq, locale, tour._id)} locale={locale} />
 
       <section className="t2e-footband">
         <div className="t2e-wrap t2e-footband-grid">

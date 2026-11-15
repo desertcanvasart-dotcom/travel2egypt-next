@@ -104,9 +104,28 @@ export function standardFaq(locale: string): LandingFaqItem[] {
   return locale === 'es' ? ES : locale === 'ja' ? JA : EN;
 }
 
+/**
+ * Tours whose entrance fees are NOT included, so the standard "What's
+ * included" answer would be wrong there (owner, 2026-11-15: the Cairo
+ * private car & guide day is the only one; its own page states it).
+ */
+const NO_ENTRANCE_FEES = new Set(['wp-page-87764']);
+
 /** Page FAQs first, then the standard set (skipping any same-question duplicate). */
-export function withStandardFaq(items: LandingFaqItem[] | null | undefined, locale: string): LandingFaqItem[] {
+export function withStandardFaq(
+  items: LandingFaqItem[] | null | undefined,
+  locale: string,
+  docId?: string,
+): LandingFaqItem[] {
   const own = items ?? [];
   const seen = new Set(own.map((i) => (i.question ?? '').trim().toLowerCase()));
-  return [...own, ...standardFaq(locale).filter((i) => !seen.has((i.question ?? '').trim().toLowerCase()))];
+  const skipIncluded = !!docId && NO_ENTRANCE_FEES.has(docId.replace(/^drafts\./, ''));
+  return [
+    ...own,
+    ...standardFaq(locale).filter(
+      (i) =>
+        !seen.has((i.question ?? '').trim().toLowerCase()) &&
+        !(skipIncluded && (i._key ?? '').startsWith('std-faq-included')),
+    ),
+  ];
 }
