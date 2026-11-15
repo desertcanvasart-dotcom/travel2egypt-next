@@ -15,6 +15,7 @@ import { pickedToursProjection, pickedToursProjectionParam } from '@/lib/article
 import type { Locale } from '@/i18n/routing';
 
 import { guidePrice, guidePriced, guideTierPrice } from './guidePrice';
+import { ONE_DAY_CHECK_FIELDS } from '@/lib/products/multiDay';
 import {
   localizedField,
   localizedFieldStrict,
@@ -2348,6 +2349,7 @@ export const tourLandingBySlugQuery = (locale: Locale) => groq`
       )
     ] | order(durationDays asc, _createdAt desc){
       _id, type, tourMode, durationDays, durationHours, "priceFrom": ${guidePrice(locale)}, "guidePriced": ${guidePriced(locale)},
+      ${ONE_DAY_CHECK_FIELDS},
       "enSlug": slug[_key=="en"][0].value.current,
       "cities": cities[]->{ _id, "name": ${localizedField('name', locale)}, "slug": ${localizedSlug('slug', locale)}, "enSlug": slug[_key=="en"][0].value.current },
       "title": ${localizedField('title', locale)},

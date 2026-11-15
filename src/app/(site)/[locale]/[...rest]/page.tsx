@@ -40,6 +40,7 @@ import { PackageView } from '@/components/tour-system/PackageView';
 import { SubcategoryView } from '@/components/tour-system/SubcategoryView';
 import { LandingFaq, type LandingFaqItem } from '@/components/tour-system/LandingFaq';
 import { PackageSubcategoryView } from '@/components/tour-system/PackageSubcategoryView';
+import { ThemeHubView, isThemeHub } from '@/components/packages-hub/ThemeHubView';
 import { TourCloseRhythm } from '@/components/subcategory/TourCloseRhythm';
 
 interface Props {
@@ -269,6 +270,10 @@ export default async function CatchAllPage({ params }: Props) {
     const key = doc.category?.key;
     if ((key === 'private-day-tour' || key === 'group-day-tour') && doc.destinationCity?.slug) {
       return <SubcategoryView doc={doc} locale={locale as Locale} />;
+    }
+    // The ten package theme pages: aligned with the packages hub (2026-11-15).
+    if (key === 'private-package' && doc.themeRef?.slug && isThemeHub(own)) {
+      return <ThemeHubView doc={doc} enSlug={own.find((s) => s._key === 'en')!.current!} locale={locale as Locale} />;
     }
     if (key === 'private-package' && doc.themeRef?.slug) {
       return <PackageSubcategoryView doc={doc} locale={locale as Locale} />;

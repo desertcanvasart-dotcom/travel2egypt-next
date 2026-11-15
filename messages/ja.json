@@ -1518,6 +1518,14 @@
     "smallGroupLead": "少人数グループでの旅をご希望なら：",
     "smallGroupAction": "出発日程を見る →"
   },
+  "themeHub": {
+    "seeTheTours": "ツアーを見る ↓",
+    "everyThemeJourney": "{theme}のツアー一覧",
+    "breadcrumb": {
+      "tourPackages": "ツアーパッケージ"
+    },
+    "interestedIn": "ご興味：{theme}"
+  },
   "dayHub": {
     "cairoGiza": "カイロ・ギザ",
     "redSeaDivider": "紅海リゾート",

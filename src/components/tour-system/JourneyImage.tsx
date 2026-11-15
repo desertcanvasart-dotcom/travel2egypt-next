@@ -54,6 +54,8 @@ interface JourneyImageProps {
    * Full-bleed only (no `ratio`).
    */
   direct?: boolean;
+  /** Explicit fetchpriority on the Next image (theme-page hero: 'high'). */
+  fetchPriority?: 'high' | 'low' | 'auto';
 }
 
 export function JourneyImage({
@@ -65,6 +67,7 @@ export function JourneyImage({
   ratio,
   priority = false,
   direct = false,
+  fetchPriority,
 }: JourneyImageProps) {
   const cls = `t2e-visual ${className}`.trim();
   const hasAsset = Boolean(image?.asset);
@@ -141,6 +144,7 @@ export function JourneyImage({
         fill
         sizes={sizes}
         priority={priority}
+        fetchPriority={fetchPriority}
         style={{ objectFit: 'cover', objectPosition }}
       />
     </div>

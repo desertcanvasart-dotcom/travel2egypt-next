@@ -41,6 +41,10 @@ export const LEAD_SOURCES = [
   'product_sticky_card',
   'product_hero',
   'product_options',
+  // Package theme pages aligned with the packages hub (2026-11-15)
+  'theme_hub',
+  'theme_hero',
+  'theme_end',
 ] as const;
 export type LeadSource = (typeof LEAD_SOURCES)[number];
 

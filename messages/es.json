@@ -1619,6 +1619,16 @@
     "smallGroupLead": "¿Prefieres viajar en un grupo reducido?",
     "smallGroupAction": "Ver salidas programadas →"
   },
+  "themeHub": {
+    "seeTheTours": "Ver los viajes ↓",
+    "everyThemeJourney": "Todos los viajes de {theme}",
+    "breadcrumb": {
+      "tourPackages": "Paquetes"
+    },
+    "interestedIn": "Me interesa: {theme}",
+    "closeExploring": "¿Sigues explorando?",
+    "closeConcierge": "Pregúntale a nuestro concierge con IA →"
+  },
   "dayHub": {
     "cairoGiza": "El Cairo y Guiza",
     "redSeaDivider": "Resorts del mar Rojo",
