@@ -150,7 +150,18 @@ function buildLanguageAlternates(
   }
 
   // x-default: the EN canonical (falls back to the bare path if EN-less).
-  const enPath = options.pathByLocale?.en ?? options.path ?? '/';
+  // When an explicit per-locale map has no EN entry (a doc that exists only
+  // in ES or JA), x-default points at the first locale that does exist, not
+  // at an English URL that would 404 (hub fix, 2026-11-15).
+  const map = options.pathByLocale;
+  if (map && !map.en) {
+    const first = routing.locales.find((l) => map[l as Locale]);
+    if (first) {
+      out['x-default'] = buildAbsoluteUrl(first as Locale, map[first as Locale]!);
+      return out;
+    }
+  }
+  const enPath = map?.en ?? options.path ?? '/';
   out['x-default'] = buildAbsoluteUrl('en', enPath);
 
   return out;
@@ -301,6 +312,23 @@ export function pathByLocaleFromSlugs(
     const slugForLocale =
       allSlugs.find((s) => s._key === loc)?.current ?? enSlug;
     if (slugForLocale) out[loc as Locale] = buildPath(slugForLocale);
+  }
+  return out;
+}
+
+/**
+ * Like `pathByLocaleFromSlugs`, but WITHOUT the EN fallback: only locales
+ * where the doc has its own slug. For docs written in one or two languages
+ * (country hubs, 2026-11-15), so no hreflang points at a fallback copy.
+ */
+export function pathByLocaleFromOwnSlugs(
+  allSlugs: Array<{ _key: string; current: string }> | null | undefined,
+  buildPath: (slug: string) => string
+): Partial<Record<Locale, string>> {
+  const out: Partial<Record<Locale, string>> = {};
+  for (const loc of routing.locales) {
+    const own = allSlugs?.find((s) => s._key === loc)?.current;
+    if (own) out[loc as Locale] = buildPath(own);
   }
   return out;
 }

@@ -16,7 +16,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import Image from 'next/image';
 
-import { buildMetadata, pathByLocaleFromSlugs } from '@/lib/seo';
+import { buildMetadata, pathByLocaleFromSlugs, pathByLocaleFromOwnSlugs } from '@/lib/seo';
 import { minPrice, type RawHubTour } from '@/components/day-hubs/dayHubData';
 import { Link, permanentRedirect } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -124,7 +124,12 @@ export async function generateStaticParams({
     groq`array::unique(*[
       _type in ["tour", "tourLanding", "tourCategory"] &&
       !(_id in path("drafts.**"))
-    ]{"s": coalesce(slug[_key == $locale][0].value.current, slug[_key == "en"][0].value.current)}.s)`,
+    ]{"s": select(
+      // Hubs exist only in the languages they were written in: no EN-slug
+      // fallback copy (that URL 301s to the real one, see below).
+      _type == "tourLanding" => slug[_key == $locale][0].value.current,
+      coalesce(slug[_key == $locale][0].value.current, slug[_key == "en"][0].value.current)
+    )}.s)`,
     { locale },
   );
   const out = slugs
@@ -164,7 +169,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: locale as Locale,
       path: `/${rest[0]}`,
       ogType: 'website',
-      pathByLocale: pathByLocaleFromSlugs(doc.allSlugs, (s: string) => `/${s}`),
+      // Only the languages the hub really has (no EN-fallback alternates).
+      pathByLocale: pathByLocaleFromOwnSlugs(doc.allSlugs, (s: string) => `/${s}`),
       priceFromEur: minPrice((doc.tours ?? []) as RawHubTour[]),
     });
   }
@@ -243,6 +249,19 @@ export default async function CatchAllPage({ params }: Props) {
   if (hit._type === 'tourLanding') {
     const doc = await getTourLanding(locale as Locale, rest[0]);
     if (!doc) notFound();
+    // A hub with no slug in this language was only reachable through the EN
+    // slug fallback: an English copy under /es or /ja. 301 it to the hub in
+    // the language it exists in (EN first), 2026-11-15.
+    const own = (doc.allSlugs ?? []) as Array<{ _key: string; current?: string | null }>;
+    if (!own.some((s) => s._key === locale && s.current)) {
+      const target =
+        own.find((s) => s._key === 'en' && s.current) ??
+        own.find((s) => routing.locales.includes(s._key as Locale) && s.current);
+      if (target?.current) {
+        permanentRedirect({ href: `/${target.current}`, locale: target._key as Locale });
+      }
+      notFound();
+    }
     // Day-tour landings (city × track) render through the reconciled
     // SubcategoryView (journey-2). Private/standard package theme landings
     // render through PackageSubcategoryView (journey-pkg-subcategory). Group
