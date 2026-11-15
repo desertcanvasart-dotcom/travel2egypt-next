@@ -4,6 +4,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 
 import { Price } from '@/components/Price';
 import { LeadButton } from '@/components/leads/LeadProvider';
+import type { LeadPrefill } from '@/components/leads/LeadForm';
+import type { LeadSource } from '@/lib/leads/schema';
 import { track } from '@/lib/analytics';
 import { Link } from '@/i18n/navigation';
 
@@ -54,8 +56,19 @@ export function PackagesIndex({
   rows,
   budgetEdges,
   labels,
+  listName = 'packages_index',
+  trackParams,
+  leadSource = 'packages_hub',
+  leadPrefill,
 }: {
   rows: HubRow[];
+  /** GA4 item_list_name on row clicks (theme pages: 'theme_index'). */
+  listName?: string;
+  /** Extra GA4 params on row clicks (theme pages: { hub }). */
+  trackParams?: Record<string, string>;
+  /** The empty state's request button (theme pages: 'theme_hub' + their prefill). */
+  leadSource?: LeadSource;
+  leadPrefill?: LeadPrefill;
   /** Bucket edges in the labels' currency, e.g. [1500, 2500, 4000] or [250000, 400000, 600000]. */
   budgetEdges: [number, number, number];
   labels: {
@@ -175,7 +188,7 @@ export function PackagesIndex({
         {sorted.length === 0 ? (
           <p className="hub-empty">
             {labels.empty}{' '}
-            <LeadButton source="packages_hub" className="hub-link">
+            <LeadButton source={leadSource} prefill={leadPrefill} className="hub-link">
               {labels.emptyAction}
             </LeadButton>
           </p>
@@ -185,7 +198,7 @@ export function PackagesIndex({
               key={r.id}
               className="trow hub-row"
               href={r.href}
-              onClick={() => track('select_item', { item_list_name: 'packages_index', item_id: r.slug })}
+              onClick={() => track('select_item', { item_list_name: listName, item_id: r.slug, ...trackParams })}
             >
               <div className="tr-name">{r.name}</div>
               <div className="tr-dur">{r.durLabel}</div>

@@ -130,13 +130,14 @@ export function TourCard({
           </div>
         ) : (
           <div className="pcard-actions">
-            <TrackedLink href={href} listName={listName} itemId={slug} className="link">
+            <TrackedLink href={href} listName={listName} itemId={slug} params={trackParams} className="link">
               {c.tours.view}
             </TrackedLink>
             <LeadButton
               source={source}
               prefill={{ kind: 'trip', tourSlug: slug, tourTitle: p.title, durationDays: p.durationDays, journey }}
               itemListName={listName}
+              itemParams={trackParams}
               className="btn-outline"
             >
               {c.tours.customise}
