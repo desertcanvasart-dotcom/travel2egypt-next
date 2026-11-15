@@ -31,9 +31,10 @@ export function Header({ locale, nav }: HeaderProps) {
       <nav className="t2e-nav t2e-nav--sales" aria-label={nav.primaryNavLabel}>
         <div className="t2e-wrap t2e-nav-inner">
           <Link className="t2e-logo t2e-logo--wordmark" href="/" aria-label="Travel2Egypt — home">
-            {/* Final seal, light-background version (owner, 2026-11-15). */}
+            {/* Final seal only, light-background version (owner, 2026-11-15:
+                "remove the word travel2egypt and keep image only"). The link's
+                aria-label names the brand for screen readers. */}
             <img className="t2e-logo-seal" src="/brand/T2E-light-bg.svg" width={40} height={40} alt="" decoding="async" />
-            <span className="t2e-logo-text">Travel<span className="t2e-logo-2">2</span>Egypt</span>
           </Link>
           <ul className="t2e-nav-links">
             {nav.menus.map((m) => (
