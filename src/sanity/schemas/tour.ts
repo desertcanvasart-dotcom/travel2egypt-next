@@ -423,12 +423,24 @@ export const tourSchema = defineType({
       description: 'One row per item and language. Shown only when "Needs review" is off.',
       of: [{ type: 'productFact' }],
     }),
+    // Multi-day itinerary format (2026-11-16): the numbered day blocks and
+    // the journey intro around them replace "Itinerary at a glance" and the
+    // essay's H2 sections. The essay itself stays in `body`; each day's
+    // "More about this stop" points at its blocks by _key.
     defineField({
-      name: 'itineraryDays',
-      title: 'Itinerary at a glance (review-gated)',
+      name: 'itineraryIntro',
+      title: 'Journey intro (review-gated)',
       type: 'array',
       group: 'itinerary',
-      description: 'One row per day and language. Shown only when every day of the product is approved.',
+      description: 'One row per language: opening, why this route works, stay and travel, who it suits.',
+      of: [{ type: 'itineraryIntro' }],
+    }),
+    defineField({
+      name: 'itineraryDays',
+      title: 'Your days (review-gated)',
+      type: 'array',
+      group: 'itinerary',
+      description: 'One row per day and language. The day blocks render only when every day and the journey intro in that language are approved. Approved overnights also drive the panel Nights count.',
       of: [{ type: 'itineraryDay' }],
     }),
     // Product page right column (2026-11-11): "Your route" (multi-day) and
