@@ -12,6 +12,7 @@
 import { createClient } from '@sanity/client';
 import { parse, evaluate } from 'groq-js';
 import { writeFileSync } from 'node:fs';
+import { curlyRows, visibleStrings, verbatimPreflight, writeRollback, contentGate } from '../lib/content-gates.mjs';
 import { TIMELINE_EN, INTRO_EN, INCLUDED_EN, NOT_INCLUDED_EN, OPTIONS_EN, GUIDE_IDS } from './giza-gem.data.mjs';
 
 const ID = 'wp-page-239597';
@@ -32,6 +33,13 @@ const set = {
   exclusions: [...notEn(doc.exclusions), ...NOT_INCLUDED_EN],
   customisationOptions: [...notEn(doc.customisationOptions), ...OPTIONS_EN],
 };
+for (const k of Object.keys(set)) set[k] = curlyRows(set[k], 'en');
+// Gate A-2: every EN string written must be in the locked copy (two glance labels are locked in the brief).
+verbatimPreflight(Object.values(set).flatMap((rows) => visibleStrings(rows, 'en')), ['review/locked/giza-pyramids-gem-day-tour.md'], {
+  Panorama: 'day-tour brief §2, "Your day at a glance" example',
+  'Sphinx & Valley Temple': 'day-tour brief §2, "Your day at a glance" example',
+});
+await contentGate({ locked: [['review/locked/giza-pyramids-gem-day-tour.md', 'en']], apply });
 for (const [k, v] of Object.entries(set)) console.log(`${k}: ${(doc[k] ?? []).length} → ${v.length} rows`);
 
 if (previewOut) {
@@ -49,7 +57,14 @@ if (previewOut) {
   writeFileSync(previewOut, JSON.stringify(out, null, 1));
   console.log(`preview → ${previewOut}`);
 }
+{
+  // What this run changes, as reader-visible strings (EN).
+  const changed = Object.entries(set).flatMap(([k, rows]) => visibleStrings(rows, 'en', doc[k]));
+  console.log(`EN strings this run changes: ${changed.length}`);
+  for (const c of changed) console.log(`  ~ ${c.slice(0, 100)}`);
+}
 if (apply) {
+  await writeRollback(client, [ID], 'before-giza-import');
   await client.patch(ID).set(set).commit();
   console.log(`APPLIED to production ${ID}`);
 } else if (!previewOut) console.log('dry run (pass --apply to write production; owner OK required)');

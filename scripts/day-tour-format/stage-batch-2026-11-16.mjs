@@ -11,7 +11,9 @@
  * reported for the owner to merge by hand. Nothing renders until approved.
  */
 import { createClient } from '@sanity/client';
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, unlinkSync } from 'node:fs';
+import { relative } from 'node:path';
+import { curlyRows, visibleStrings, verbatimPreflight, writeRollback, contentGate } from '../lib/content-gates.mjs';
 
 const args = process.argv.slice(2);
 const apply = args.includes('--apply');
@@ -56,7 +58,17 @@ for (const f of files) {
     else set[field] = [...(doc[field] ?? []), ...facts(list, prefix)];
   }
   console.log(`${d.slug} (${d._id}): ${periods.length} periods, intro${held.length ? `; owner merges by hand: ${held.join(', ')}` : ''}`);
+  for (const k of Object.keys(set)) set[k] = curlyRows(set[k], 'en');
+  // Gate A-2: the draft file (approved by the owner) is the locked copy.
+  verbatimPreflight(Object.values(set).flatMap((rows) => visibleStrings(rows, 'en')), [relative(new URL('../../', import.meta.url).pathname, f)]);
+  // Lint the draft's own strings (the locked copy for this product).
+  {
+    const tmp = new URL(`../../migration/lint-tmp-${d.slug}.md`, import.meta.url);
+    writeFileSync(tmp, Object.values(set).flatMap((rows) => visibleStrings(rows, 'en')).join('\n'));
+    try { await contentGate({ locked: [[relative(new URL('../../', import.meta.url).pathname, tmp.pathname), 'en']], apply }); } finally { unlinkSync(tmp); }
+  }
   if (apply) {
+    await writeRollback(client, [d._id], 'before-daytour-staging');
     await client.patch(d._id).set(set).commit();
     console.log('  APPLIED');
   }

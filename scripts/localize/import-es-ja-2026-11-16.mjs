@@ -14,6 +14,7 @@
 import { createClient } from '@sanity/client';
 import { parse, evaluate } from 'groq-js';
 import { readFileSync, writeFileSync } from 'node:fs';
+import { visibleStrings, verbatimPreflight, writeRollback, contentGate } from '../lib/content-gates.mjs';
 import { DAYS_EN, INTRO_EN, NEW_EXCLUSIONS_EN, OPTIONS_EN, GUIDE_IDS as G7 } from '../itinerary-format/7-day-epic-escape.data.mjs';
 import { TIMELINE_EN, INTRO_EN as GINTRO, INCLUDED_EN, NOT_INCLUDED_EN, OPTIONS_EN as GOPTIONS, GUIDE_IDS as GG } from '../day-tour-format/giza-gem.data.mjs';
 
@@ -151,6 +152,17 @@ const setG = {
   customisationOptions: [...others(gz.customisationOptions), ...gFacts(GOPTIONS, 'option', 'gzopt')],
 };
 
+// Gate A-2: every string written in this language must be in the approved strings file
+// (closing lines come verbatim from this language's own essay, which is locked copy too).
+{
+  const essays = [d7, gz].flatMap((d) => (d.body.find((b) => b._key === L)?.value ?? []).map((b) => (b.children ?? []).map((c) => c.text).join('')));
+  verbatimPreflight([...Object.entries(set7).flatMap(([k, rows]) => visibleStrings(rows, L, d7[k])), ...Object.entries(setG).flatMap(([k, rows]) => visibleStrings(rows, L, gz[k]))], [`review/localize/${L}-strings.json`], Object.fromEntries(essays.filter(Boolean).map((e) => [e, `${L} essay`])));
+}
+await contentGate({
+  locked: [[`review/localize/${L}-strings.json`, L]],
+  numeric: { en: JSON.parse(readFileSync(new URL('../../review/localize/en-strings.json', import.meta.url), 'utf8')), loc: T, lang: L },
+  apply,
+});
 for (const [id, set, doc] of [['wp-page-136519', set7, d7], ['wp-page-239597', setG, gz]])
   for (const [k, v] of Object.entries(set)) console.log(`${id} ${k}: ${(doc[k] ?? []).length} → ${v.length} rows`);
 console.log(`7-Day ${L} closing line: ${closing7 ? 'from the essay' : 'none'}; Giza ${L} closingRef: ${gClosingRef ?? 'none (line shown, essay block kept in the expander)'}`);
@@ -174,6 +186,7 @@ if (previewOut) {
   console.log(`preview → ${previewOut}`);
 }
 if (apply) {
+  await writeRollback(client, ['wp-page-136519', 'wp-page-239597'], `before-${L}-import`);
   await client.patch('wp-page-136519').set(set7).commit();
   await client.patch('wp-page-239597').set(setG).commit();
   console.log(`APPLIED ${L} (approved) to production`);
