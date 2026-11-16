@@ -16,6 +16,8 @@
  */
 import { createClient } from '@sanity/client';
 import { readFileSync } from 'node:fs';
+import { relative } from 'node:path';
+import { curlyRows, visibleStrings, verbatimPreflight, writeRollback } from '../lib/content-gates.mjs';
 
 const args = process.argv.slice(2);
 const apply = args.includes('--apply');
@@ -71,7 +73,11 @@ for (const f of files) {
     ];
   }
   console.log(`${d.slug} (${d._id}): ${enDays.length} EN days, intro, ${set.customisationOptions ? 'options added' : 'options kept'}`);
+  for (const k of Object.keys(set)) set[k] = curlyRows(set[k], 'en');
+  // Gate A-2: the draft file (approved by the owner) is the locked copy.
+  verbatimPreflight(Object.values(set).flatMap((rows) => visibleStrings(rows, 'en')), [relative(new URL('../../', import.meta.url).pathname, f)]);
   if (apply) {
+    await writeRollback(client, [d._id], 'before-itinerary-staging');
     await client.patch(d._id).set(set).commit();
     console.log('  APPLIED');
   }
