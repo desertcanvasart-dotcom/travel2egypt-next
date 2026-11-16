@@ -353,6 +353,12 @@ export const dayTourIntroSchema = defineType({
     defineField({ name: 'worthKnowing', title: 'Worth knowing', type: 'array', of: [{ type: 'string' }] }),
     defineField({ name: 'closingLine', title: 'Closing line (italic)', type: 'string' }),
     defineField({ name: 'closingRef', title: 'Essay block the closing line is (its _key; kept out of the expander)', type: 'string' }),
+    defineField({
+      name: 'skipRefs',
+      title: 'Essay blocks left out of "More about this day" (their _key), e.g. a concierge mention on the JA page',
+      type: 'array',
+      of: [{ type: 'string' }],
+    }),
     defineField({ name: 'source', title: 'Sources', type: 'text', rows: 3 }),
     defineField({ name: 'needsReview', title: 'Needs review (the day-tour layout is hidden while on)', type: 'boolean', initialValue: true }),
   ],
