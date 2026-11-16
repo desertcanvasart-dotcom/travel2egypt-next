@@ -12,7 +12,7 @@
 import { createClient } from '@sanity/client';
 import { parse, evaluate } from 'groq-js';
 import { writeFileSync } from 'node:fs';
-import { curlyRows, visibleStrings, verbatimPreflight, writeRollback } from '../lib/content-gates.mjs';
+import { curlyRows, visibleStrings, verbatimPreflight, writeRollback, contentGate } from '../lib/content-gates.mjs';
 import { TIMELINE_EN, INTRO_EN, INCLUDED_EN, NOT_INCLUDED_EN, OPTIONS_EN, GUIDE_IDS } from './giza-gem.data.mjs';
 
 const ID = 'wp-page-239597';
@@ -39,6 +39,7 @@ verbatimPreflight(Object.values(set).flatMap((rows) => visibleStrings(rows, 'en'
   Panorama: 'day-tour brief §2, "Your day at a glance" example',
   'Sphinx & Valley Temple': 'day-tour brief §2, "Your day at a glance" example',
 });
+await contentGate({ locked: [['review/locked/giza-pyramids-gem-day-tour.md', 'en']], apply });
 for (const [k, v] of Object.entries(set)) console.log(`${k}: ${(doc[k] ?? []).length} → ${v.length} rows`);
 
 if (previewOut) {

@@ -96,3 +96,21 @@ export async function writeRollback(client, ids, label) {
   console.log(`rollback written first:\n  ${paths.join('\n  ')}`);
   return paths;
 }
+
+/**
+ * Content lint + numeric gate in the staging pre-flight (content prompt §3, canon III.2).
+ * `locked`: [[repo-relative file, lang], …] — every locked copy file the run reads.
+ * `numeric`: { en, loc, lang } keyed strings to compare figure by figure (ES/JA runs).
+ * Aborts on any lint ABORT or numeric mismatch. Superlative flags (no tier) block
+ * --apply until the owner approves them (pass --flags-approved after that OK).
+ */
+export async function contentGate({ locked = [], numeric = null, apply = false, args = process.argv.slice(2) }) {
+  const { lintLocked } = await import('../content-lint/index.mjs');
+  const { numericGate } = await import('../content-lint/numeric-gate.mjs');
+  const flags = lintLocked(locked);
+  if (numeric) numericGate(numeric.en, numeric.loc, numeric.lang);
+  if (apply && flags.length && !args.includes('--flags-approved')) {
+    throw new Error(`${flags.length} superlative flag(s) await owner approval (canon II.3 as amended 2026-11-16). Add them to docs/established-superlatives.md, frame them as ours, or pass --flags-approved once the owner has approved them.`);
+  }
+  return flags;
+}

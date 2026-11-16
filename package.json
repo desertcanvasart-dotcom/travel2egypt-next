@@ -23,6 +23,8 @@
     "test:redirect-map-regenerate": "tsx scripts/wp-import/__tests__/redirect-map-regenerate.test.ts",
     "test:journeys": "tsx src/lib/__tests__/journeys-phase-b.test.ts",
     "test:nights": "tsx src/lib/__tests__/nights.test.ts",
+    "test:content-lint": "node scripts/content-lint/__tests__/lint.test.mjs",
+    "content-lint": "node scripts/content-lint/index.mjs",
     "test:retired-content": "tsx src/lib/__tests__/retired-content.test.ts",
     "test:redirect-map-integrity": "tsx src/lib/__tests__/redirect-map-integrity.test.ts",
     "test:migration-routing": "tsx src/lib/__tests__/migration-routing.test.ts && tsx src/lib/__tests__/sitemap-policy.test.ts && tsx src/lib/__tests__/monument-locale.test.ts && tsx src/lib/__tests__/canonical-content-href.test.ts",

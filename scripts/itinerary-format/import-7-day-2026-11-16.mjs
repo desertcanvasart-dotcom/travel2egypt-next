@@ -18,7 +18,7 @@
 import { createClient } from '@sanity/client';
 import { parse, evaluate } from 'groq-js';
 import { writeFileSync } from 'node:fs';
-import { curlyRows, visibleStrings, verbatimPreflight, writeRollback } from '../lib/content-gates.mjs';
+import { curlyRows, visibleStrings, verbatimPreflight, writeRollback, contentGate } from '../lib/content-gates.mjs';
 import { DAYS_EN, INTRO_EN, MEALS_INCLUSION, NEW_EXCLUSIONS_EN, OPTIONS_EN, GUIDE_IDS } from './7-day-epic-escape.data.mjs';
 
 const ID = 'wp-page-136519';
@@ -58,6 +58,7 @@ export function patched(d) {
 const set = Object.fromEntries(Object.entries(patched(doc)).map(([k, v]) => [k, curlyRows(v, 'en')]));
 // Gate A-2: every EN string written must be in the locked copy.
 verbatimPreflight(Object.values(set).flatMap((rows) => visibleStrings(rows, 'en')), ['review/locked/7-day-egypt-tour-itinerary.md']);
+await contentGate({ locked: [['review/locked/7-day-egypt-tour-itinerary.md', 'en']], apply });
 for (const [k, v] of Object.entries(set)) {
   const before = JSON.stringify(doc[k] ?? null);
   console.log(`${k}: ${before === JSON.stringify(v) ? 'unchanged' : `${(doc[k] ?? []).length} → ${v.length} rows`}`);

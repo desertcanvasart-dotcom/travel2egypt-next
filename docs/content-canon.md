@@ -342,3 +342,4 @@ For any new page, page type, or content batch:
 - *2026-07-17 — v1.0 of this canon adopted. Extracted from the live corpus,
   the concierge prompt v4.x, journey-system rules, and eleven weeks of
   recorded build decisions.*
+- 2026-11-16. Part II.3 (superlatives) amended for the site's move from magazine to magazine-plus-booking. Superlatives fall into three tiers. (1) Established facts, sourced once in `docs/established-superlatives.md` and approved by the founder, may be used on any page without re-verifying them. (2) Judgements framed as our own, or comparisons within one itinerary, are allowed. (3) Claims ranking our own product against others, and empty hype, are banned. Any other superlative needs founder approval before it publishes. Reason: accurate superlatives sell the experience, and requiring each to be re-verified per page was flattening true claims. Approved by the founder.
