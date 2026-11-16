@@ -41,6 +41,8 @@ export interface DayTourIntro {
   worthKnowing?: string[] | null;
   closingLine?: string | null;
   closingRef?: string | null;
+  /** Essay blocks left out of the expander (e.g. a concierge mention on the JA page). */
+  skipRefs?: string[] | null;
 }
 export interface DayTourFormatData {
   intro: DayTourIntro;
@@ -57,10 +59,11 @@ export function glanceItems(f: DayTourFormatData): Array<{ time?: string | null;
 }
 
 /** The essay for the expander: every non-empty block except the closing line (shown on its own). */
-function essayForExpander(essay: unknown, closingRef?: string | null): Block[] {
+function essayForExpander(essay: unknown, closingRef?: string | null, skipRefs?: string[] | null): Block[] {
   if (!Array.isArray(essay)) return [];
+  const skip = new Set(skipRefs ?? []);
   return (essay as Block[]).filter((b) => {
-    if (!b || (closingRef && b._key === closingRef)) return false;
+    if (!b || (closingRef && b._key === closingRef) || (b._key && skip.has(b._key))) return false;
     if (b._type === 'block') return (b.children ?? []).some((c) => (c.text ?? '').trim());
     return true;
   });
@@ -93,7 +96,7 @@ export async function DayTourFormat({
   const { intro, periods } = data;
   const periodWord = (p: string) =>
     p === 'morning' ? t('dtMorning') : p === 'midday' ? t('dtMidday') : p === 'afternoon' ? t('dtAfternoon') : t('dtEvening');
-  const more = essayForExpander(essay, intro.closingRef);
+  const more = essayForExpander(essay, intro.closingRef, intro.skipRefs);
 
   return (
     <div className="pdp-itin pdp-daytour">

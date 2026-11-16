@@ -151,7 +151,8 @@ export async function ItineraryFormat({
               .map((m, i) => {
                 const word = m.label || mealWord(m.meal);
                 const w = i === 0 ? upperFirst(word, locale) : word;
-                return m.note ? `${w} (${m.note})` : w;
+                if (!m.note) return w;
+                return locale === 'ja' ? `${w}（${m.note}）` : `${w} (${m.note})`;
               })
               .join(sep);
             const isLast = d.day === days.length;
