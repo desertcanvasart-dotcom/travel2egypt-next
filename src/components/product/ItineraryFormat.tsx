@@ -3,10 +3,9 @@ import { getTranslations } from 'next-intl/server';
 import { PortableText } from '@portabletext/react';
 
 import type { Locale } from '@/i18n/routing';
-import { Link } from '@/i18n/navigation';
-import { pathFromDoc, type SitemapDocType } from '@/lib/path-from-doc';
 import { TourProse } from '../tour-system/TourProse';
 import { MoreAbout } from './MoreAbout';
+import { SitesLine, IncludedAndExtra, ForYou, MakeItYours, type SiteRef } from './ProductSections';
 
 /**
  * Multi-day itinerary format (owner brief, 2026-11-16). Renders, in order:
@@ -20,10 +19,7 @@ import { MoreAbout } from './MoreAbout';
 
 type Block = { _key?: string; _type?: string; style?: string };
 
-export interface ItinSite {
-  name: string;
-  ref?: { _type?: string; slug?: string | null; citySlug?: string | null } | null;
-}
+export type ItinSite = SiteRef;
 export interface ItinDay {
   day: number;
   place?: string | null;
@@ -69,12 +65,6 @@ function countWord(n: number, locale: Locale): string {
   if (locale === 'en' && n >= 2 && n < EN_WORDS.length) return EN_WORDS[n];
   if (locale === 'es' && n >= 2 && n < ES_WORDS.length) return ES_WORDS[n];
   return String(n);
-}
-
-function siteHref(s: ItinSite): string | null {
-  const r = s.ref;
-  if (!r?._type || !r.slug) return null;
-  return pathFromDoc({ type: r._type as SitemapDocType, slug: r.slug, parentCitySlug: r.citySlug ?? null });
 }
 
 function upperFirst(s: string, locale: Locale): string {
@@ -132,8 +122,6 @@ export async function ItineraryFormat({
     [t('stayRoad'), stay.road],
     [t('stayEveryDay'), stay.everyDay],
   ];
-  const fit = (intro.fitFor ?? []).filter(Boolean);
-  const worth = (intro.worthKnowing ?? []).filter(Boolean);
   const routeMore = pick(intro.whyRouteRefs);
 
   return (
@@ -168,19 +156,7 @@ export async function ItineraryFormat({
               .join(sep);
             const isLast = d.day === days.length;
             const rows: Array<[string, ReactNode]> = [];
-            if (sites.length)
-              rows.push([
-                t('theDay'),
-                sites.map((s, i) => {
-                  const href = siteHref(s);
-                  return (
-                    <span key={i}>
-                      {i > 0 && sep}
-                      {href ? <Link href={href}>{s.name}</Link> : s.name}
-                    </span>
-                  );
-                }),
-              ]);
+            if (sites.length) rows.push([t('theDay'), <SitesLine sites={sites} locale={locale} />]);
             if (d.overnight) rows.push([t('overnight'), d.overnight]);
             else if (isLast) rows.push([t('overnight'), '—']);
             if (mealsText) rows.push([t('meals'), mealsText]);
@@ -255,88 +231,23 @@ export async function ItineraryFormat({
         </section>
       )}
 
-      {(included.length > 0 || excluded.length > 0) && (
-        <section className="pdp-factsblock pdp-incl-extra" aria-labelledby="pdp-incl-h">
-          <h2 id="pdp-incl-h">{t('includedExtra')}</h2>
-          <div className="pdp-incl">
-            {included.length > 0 && (
-              <div>
-                <h3>{t('included')}</h3>
-                <ul className="yes">
-                  {included.map((x, i) => (
-                    <li key={i}>{x}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            {excluded.length > 0 && (
-              <div>
-                <h3>{t('notIncluded')}</h3>
-                <ul className="no">
-                  {excluded.map((x, i) => {
-                    const day = x._key ? dayOfExclusion.get(x._key) : undefined;
-                    const link =
-                      typeof day === 'number' ? (
-                        <a href={`#day-${day}`}>{t('seeDay', { n: day })}</a>
-                      ) : x.seeSection === 'make-it-yours' ? (
-                        <a href="#make-it-yours">{t('seeMakeItYours')}</a>
-                      ) : null;
-                    // "Item: see Day 2", or "Item: optional (see Day 7)" when the text already has a colon.
-                    const hasColon = /[:：]/.test(x.text);
-                    return (
-                      <li key={i}>
-                        {x.text}
-                        {link && (hasColon ? <> ({link})</> : <>{locale === 'ja' ? '：' : ': '}{link}</>)}
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-            )}
-          </div>
-        </section>
-      )}
+      <IncludedAndExtra
+        locale={locale}
+        included={included}
+        excluded={excluded}
+        seeLink={(x) => {
+          const day = x._key ? dayOfExclusion.get(x._key) : undefined;
+          if (typeof day === 'number') return <a href={`#day-${day}`}>{t('seeDay', { n: day })}</a>;
+          if (x.seeSection === 'make-it-yours') return <a href="#make-it-yours">{t('seeMakeItYours')}</a>;
+          return null;
+        }}
+      />
 
-      {(fit.length > 0 || worth.length > 0) && (
-        <section className="pdp-foryou" aria-labelledby="pdp-foryou-h">
-          <h2 id="pdp-foryou-h">{t('forYou')}</h2>
-          {fit.length > 0 && (
-            <>
-              <p className="pdp-foryou__h">{t('goodFit')}</p>
-              <ul>
-                {fit.map((x, i) => (
-                  <li key={i}>{x}</li>
-                ))}
-              </ul>
-            </>
-          )}
-          {worth.length > 0 && (
-            <>
-              <p className="pdp-foryou__h">{t('worthKnowing')}</p>
-              <ul>
-                {worth.map((x, i) => (
-                  <li key={i}>{x}</li>
-                ))}
-              </ul>
-            </>
-          )}
-        </section>
-      )}
+      <ForYou locale={locale} heading={t('forYou')} fitFor={intro.fitFor ?? []} worthKnowing={intro.worthKnowing ?? []} />
 
       {beforeMakeItYours}
 
-      <section className="pdp-yours" id="make-it-yours" aria-labelledby="pdp-yours-h">
-        <h2 id="pdp-yours-h">{t('makeItYours')}</h2>
-        {intro.makeItYoursIntro && <p>{intro.makeItYoursIntro}</p>}
-        {options.length > 0 && (
-          <ul>
-            {options.map((o, i) => (
-              <li key={i}>{o}</li>
-            ))}
-          </ul>
-        )}
-        {cta}
-      </section>
+      <MakeItYours locale={locale} intro={intro.makeItYoursIntro} options={options} cta={cta} />
     </div>
   );
 }

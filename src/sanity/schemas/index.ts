@@ -7,7 +7,7 @@ import { citySchema } from './city';
 import { coordinatesSchema } from './coordinates';
 import { guideArticleSchema } from './guideArticle';
 import { localizedImageSchema } from './localizedImage';
-import { productFactSchema, itineraryDaySchema, itineraryIntroSchema, routeLegSchema } from './productFacts';
+import { productFactSchema, itineraryDaySchema, itineraryIntroSchema, dayTourPeriodSchema, dayTourIntroSchema, routeLegSchema } from './productFacts';
 import { portableTextSchema } from './portableText';
 import { seoSchema } from './seo';
 import { themeSchema } from './theme';
@@ -52,6 +52,8 @@ export const schemaTypes = [
   productFactSchema,
   itineraryDaySchema,
   itineraryIntroSchema,
+  dayTourPeriodSchema,
+  dayTourIntroSchema,
   routeLegSchema,
   portableTextSchema,
 

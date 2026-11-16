@@ -17,7 +17,8 @@ import { JourneyImage } from './JourneyImage';
 import { TourProse } from './TourProse';
 import { LazyFloatingConcierge } from '../LazyFloatingConcierge';
 import { DayTourPanel, DayHeroFacts, ProductFactsBlock, MidCta, EndBlock, type PanelFact } from '../product/ProductPanels';
-import { MakeItYourOwn, CompactStickyCard } from '../product/RightColumn';
+import { MakeItYourOwn, CompactStickyCard, YourDayAtAGlance } from '../product/RightColumn';
+import { DayTourFormat, dayTourFormatReady, glanceItems, type DayTourFormatData } from '../product/DayTourFormat';
 import { ProductViewTracker } from '../product/ProductActions';
 import { HOME_COPY, homeLocale } from '../home-sales/copy';
 import { buildProductOffer } from '@/lib/productOffer';
@@ -70,6 +71,11 @@ export interface SingleTour {
   relatedTours?: Array<{ _id: string; title: string; slug: string; durationLabel?: string; cities?: CityRef[]; priceFrom?: number | null }> | null;
   approvedInclusions?: string[] | null;
   approvedExclusions?: string[] | null;
+  approvedExclusionRows?: Array<{ _key?: string; text: string; seeSection?: string | null }> | null;
+  /** Day-tour format: intro + timeline, only when all approved in this language. */
+  dayTourFormat?: DayTourFormatData | null;
+  /** The cities' EN slugs (owner-rule panel rows key on Cairo / Giza). */
+  citySlugsEn?: Array<string | null> | null;
   /** Owner-approved "Make it your own" options (this language). */
   approvedOptions?: string[] | null;
   priceUpdatedAt?: string;
@@ -194,6 +200,46 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   const panelFacts: PanelFact[] = [{ label: tp('startsFrom'), value: tour.departsFrom ?? '' }];
   const fromEur = typeof fromAmount === 'number' && fromAmount > 0 ? fromAmount : null;
 
+  // Day-tour format (2026-11-16). Owner-rule rows (children 50% off, guide
+  // language = page language, the Cairo/Giza pickup zones) show on every Cairo
+  // and Giza day tour now; other cities wait for their rules. Pickup time,
+  // Back and Lunch come only from an approved day-tour intro.
+  const dayFormat = dayTourFormatReady(tour.dayTourFormat) ? tour.dayTourFormat : null;
+  const intro = dayFormat?.intro;
+  const cairoGiza = (tour.citySlugsEn ?? []).some((c) => c === 'cairo' || c === 'giza');
+  const pickupText = (() => {
+    if (!cairoGiza) return '';
+    const zone = tp('pickupZoneIncluded');
+    const first = intro?.pickupTime
+      ? locale === 'ja'
+        ? `${intro.pickupTime}に${zone}`
+        : `${intro.pickupTime} ${zone}`
+      : locale === 'ja'
+        ? zone
+        : zone.charAt(0).toUpperCase() + zone.slice(1);
+    return `${first}${locale === 'ja' ? '。' : '. '}${tp('pickupZoneExtra')}`;
+  })();
+  const ruleRows: PanelFact[] = cairoGiza
+    ? [
+        { label: tp('children'), value: tp('childrenValue') },
+        { label: tp('pickup'), value: pickupText },
+        { label: tp('back'), value: intro?.returnNote ?? '' },
+        { label: tp('lunch'), value: intro?.lunch?.text ?? '' },
+        { label: tp('guideSpeaks'), value: tp('guideLanguage') },
+      ]
+    : [
+        { label: tp('back'), value: intro?.returnNote ?? '' },
+        { label: tp('lunch'), value: intro?.lunch?.text ?? '' },
+      ];
+  const exclusionRows = (approvedIn.length || approvedOut.length ? tour.approvedExclusionRows : null) ?? notIncluded.map((text) => ({ text }));
+
+  const accessBlock = tour.accessNote ? (
+    <>
+      <h2>{tour.accessNoteTitle ?? ts('accessTitle')}</h2>
+      <p>{tour.accessNote}</p>
+    </>
+  ) : null;
+
   return (
     <div className="tour-doc lvl-single">
       <JsonLd data={[tripSchema, breadcrumbSchema]} />
@@ -225,6 +271,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
               fromEur={fromEur}
               guidePriced={tour.guidePriced}
               mobileLine={mobileLine}
+              fromNote={dayFormat ? tp('fromGroupNote') : undefined}
+              afterFrom={ruleRows}
             />
           </header>
 
@@ -234,6 +282,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
 
           <div className="pdp-side">
             <DayTourPanel locale={locale} facts={panelFacts} tiers={tiers} />
+            {dayFormat && <YourDayAtAGlance locale={locale} items={glanceItems(dayFormat)} />}
             <MakeItYourOwn
               locale={locale}
               options={tour.approvedOptions ?? []}
@@ -257,10 +306,34 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
           </div>
 
           <div className="pdp-main">
-            <ProductFactsBlock locale={locale} included={included} excluded={notIncluded} />
+            {!dayFormat && <ProductFactsBlock locale={locale} included={included} excluded={notIncluded} />}
 
             <article className="body">
-              <TourProse value={tour.body} locale={locale} />
+              {dayFormat ? (
+                <DayTourFormat
+                  locale={locale}
+                  slug={tour.slug}
+                  data={dayFormat}
+                  essay={tour.body}
+                  included={included}
+                  excluded={exclusionRows}
+                  options={tour.approvedOptions ?? []}
+                  beforeMakeItYours={accessBlock}
+                  cta={
+              <MidCta
+                locale={locale}
+                kind="day"
+                slug={tour.slug}
+                title={tour.title}
+                waHref={waHref}
+                durationDays={null}
+                fromEur={fromEur}
+              />
+                  }
+                />
+              ) : (
+                <>
+                  <TourProse value={tour.body} locale={locale} />
 
               {timeline.length > 0 && (
                 <>
@@ -276,12 +349,7 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                 </>
               )}
 
-              {tour.accessNote && (
-                <>
-                  <h2>{tour.accessNoteTitle ?? ts('accessTitle')}</h2>
-                  <p>{tour.accessNote}</p>
-                </>
-              )}
+              {accessBlock}
 
               {tour.audienceNote && (
                 <div className="audience">
@@ -306,6 +374,8 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
                 durationDays={null}
                 fromEur={fromEur}
               />
+                </>
+              )}
             </article>
 
           </div>

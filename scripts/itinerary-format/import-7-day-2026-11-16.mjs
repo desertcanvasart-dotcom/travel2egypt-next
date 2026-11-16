@@ -25,7 +25,7 @@ const args = process.argv.slice(2);
 const apply = args.includes('--apply');
 const previewOut = args.includes('--preview') ? args[args.indexOf('--preview') + 1] : null;
 
-const client = createClient({ projectId: 'ufallvd2', dataset: 'production', apiVersion: '2024-01-01', token: process.env.SANITY_API_WRITE_TOKEN, useCdn: false });
+const client = createClient({ projectId: 'ufallvd2', dataset: 'production', apiVersion: '2024-01-01', token: process.env.SANITY_PRODUCTION_API_WRITE_TOKEN ?? process.env.SANITY_API_WRITE_TOKEN, useCdn: false });
 const doc = await client.getDocument(ID);
 if (!doc) throw new Error(`${ID} not found`);
 
