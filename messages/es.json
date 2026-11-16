@@ -1604,12 +1604,11 @@
     "goodFit": "Encaja contigo si:",
     "worthKnowing": "Conviene saber:",
     "seeDay": "ver Día {n}",
-    "seeMakeItYours": "ver Hazlo tuyo",
+    "seeMakeItYours": "ver Hazlo a tu medida",
     "mealBreakfast": "desayuno",
     "mealLunch": "almuerzo",
     "mealDinner": "cena",
     "farewellDinner": "cena de despedida",
-    "makeItYours": "Hazlo tuyo",
     "nightsHotel": "{n} en hotel",
     "nightsTrain": "{n} en tren nocturno",
     "nightsRiver": "{n} en el río",
@@ -1637,7 +1636,8 @@
     "guideLanguage": "español",
     "pickupZoneIncluded": "desde tu hotel en El Cairo o Guiza, incluidos los hoteles del aeropuerto de El Cairo",
     "pickupZoneExtra": "Nuevo Cairo, la Nueva Capital Administrativa, Sheikh Zayed y 6 de Octubre: con suplemento",
-    "fromGroupNote": "el precio depende del tamaño del grupo"
+    "fromGroupNote": "el precio depende del tamaño del grupo",
+    "backAround": "hacia las {time}"
   },
   "packagesHub": {
     "crumbTours": "Viajes por Egipto",

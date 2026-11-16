@@ -35,6 +35,8 @@ export interface DayTourIntro {
   opening?: string | null;
   whyThisOrder?: string | null;
   pickupTime?: string | null;
+  /** Return time as a field (canon II.7), e.g. "17:00–18:00". */
+  returnTime?: string | null;
   returnNote?: string | null;
   lunch?: { status?: 'included' | 'notIncluded' | 'unknown' | null; text?: string | null } | null;
   fitFor?: string[] | null;
