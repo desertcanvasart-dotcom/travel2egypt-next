@@ -183,7 +183,13 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
   );
 
   const L = homeLocale(locale);
-  const hoursText = typeof tour.durationHours === 'number' && tour.durationHours > 0 ? tp('aboutHours', { hours: tour.durationHours }) : '';
+  // Half hours read as ½ ("about 8½ hours"), as the owner's locked panels write them.
+  const hoursText =
+    typeof tour.durationHours === 'number' && tour.durationHours > 0
+      ? tour.durationHours % 1 === 0.5
+        ? tp('aboutHoursHalf', { hours: `${Math.floor(tour.durationHours)}½` })
+        : tp('aboutHours', { hours: tour.durationHours })
+      : '';
   // The band ('Full day', 'Jornada larga', '延長') is the label segment without a number.
   const durationBand = (tour.durationLabel ?? '').split(/[·・]/).map((x) => x.trim()).find((x) => x && !/\d/.test(x)) ?? '';
   const typeLabel = isGroup ? tp('typeSmallGroup') : tp('typePrivate');
