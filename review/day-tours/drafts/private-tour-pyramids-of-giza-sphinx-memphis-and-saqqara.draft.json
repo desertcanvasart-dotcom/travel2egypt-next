@@ -1,0 +1,111 @@
+{
+  "slug": "private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+  "_id": "tour.private-tour-pyramids-of-giza-sphinx-memphis-and-saqqara",
+  "intro": {
+    "opening": "Giza, Memphis and Saqqara in one private day. Within forty kilometres of central Cairo, you stand before the only surviving wonder of the ancient world, walk through the open-air ruins of Egypt's first capital, and descend into the necropolis where the idea of the pyramid was invented. It's a long, full day, honest about its pace.",
+    "whyThisOrder": "The day moves south with purpose. Giza comes first, in the morning light when the plateau is at its clearest; then Memphis, a quiet archaeological park south of Mit Rahina; then Saqqara. The driving between sites is modest: about thirty kilometres from Giza to Memphis, another ten to Saqqara. As routed, the day runs history backwards, from Khufu's perfection to Djoser's first attempt. Because the tour is private, we can flip the order so the plateau becomes your finale.",
+    "lunch": {
+      "status": "unknown"
+    },
+    "fitFor": [
+      "have limited time in Cairo and want more than a photograph in front of the Giza pyramids",
+      "want all three Old Kingdom anchors in one day, from Khufu's perfection back to Djoser's invention",
+      "want to understand why Egypt's Old Kingdom, roughly 2700 to 2200 BC, built monuments that still set the terms four and a half millennia later"
+    ],
+    "worthKnowing": [
+      "It's a long, full day, about 9 to 10 hours. This is not a tour for anyone wanting a gentle half-morning.",
+      "The day starts early and the sites are physically demanding. Wear comfortable shoes; the desert sun at Giza is strong.",
+      "Children under 12 pay half price."
+    ],
+    "closingLine": "One day is not enough. It is, however, a start.",
+    "closingRef": "00000000003b"
+  },
+  "periods": [
+    {
+      "period": "morning",
+      "periodLabel": "The Giza Plateau",
+      "stops": [
+        {
+          "title": "Pickup from your hotel",
+          "glanceLabel": "Pickup",
+          "text": "The day starts early. A private vehicle connects all three sites, and a knowledgeable guide accompanies you throughout."
+        },
+        {
+          "title": "The three pyramids of Giza",
+          "glanceLabel": "Giza pyramids",
+          "text": "Three pyramids built across roughly seventy years, from around 2560 to 2490 BC. The Great Pyramid of Khufu was the tallest man-made structure on earth for nearly four thousand years. Khafre's keeps a band of its original polished casing at the apex, the only one on the plateau to do so; Menkaure's, from around 2510 BC, is the smallest.",
+          "sites": [
+            "Great Pyramid of Khufu",
+            "Pyramid of Khafre",
+            "Pyramid of Menkaure"
+          ]
+        },
+        {
+          "title": "The Great Sphinx",
+          "glanceLabel": "Great Sphinx",
+          "text": "73 metres long and 20 metres high, carved from a single limestone outcrop during Khafre's reign. It is the largest monolithic statue in the world, and standing before it at ground level resets your sense of its size.",
+          "sites": [
+            "Great Sphinx"
+          ]
+        },
+        {
+          "title": "Camel ride across the desert flank of Giza",
+          "glanceLabel": "Camel ride",
+          "text": "Before leaving the plateau, a camel ride gives a panoramic view of all three pyramids in alignment, the angle from which their proportions become legible. The photographs from here are the ones that convey the site's geography.",
+          "includedNote": "Camel ride (included). It's easy to skip on the day."
+        }
+      ]
+    },
+    {
+      "period": "afternoon",
+      "periodLabel": "Memphis and Saqqara",
+      "stops": [
+        {
+          "title": "Memphis open-air museum",
+          "glanceLabel": "Memphis",
+          "text": "Egypt's first capital, founded around 3100 BC by Narmer and a major city for three thousand years. What survives is an open-air museum in a palm-shaded garden: a colossal limestone statue of Ramses II, displayed lying down because its legs are missing, and the Alabaster Sphinx of Memphis, carved in a single piece of calcite alabaster.",
+          "sites": [
+            "Memphis",
+            "Colossus of Ramses II",
+            "Alabaster Sphinx of Memphis"
+          ]
+        },
+        {
+          "title": "The Step Pyramid of Djoser at Saqqara",
+          "glanceLabel": "Step Pyramid",
+          "text": "Built around 2650 BC by the architect Imhotep for the pharaoh Djoser, it is the world's oldest large-scale cut-stone structure and the first pyramid: six mastabas of decreasing size stacked to rise 62 metres above the desert, inside a 10-metre-high perimeter wall.",
+          "sites": [
+            "Saqqara",
+            "Step Pyramid of Djoser"
+          ]
+        },
+        {
+          "title": "The mastaba tombs of Saqqara",
+          "glanceLabel": "Mastaba tombs",
+          "text": "Less visited than the pyramids and, for many travellers, more affecting. Their walls carry painted reliefs of daily life in the Old Kingdom (farming, fishing, bread-making, cattle herding), in pigments that survived because the tombs were sealed and buried for thousands of years.",
+          "sites": [
+            "Saqqara mastaba tombs"
+          ]
+        }
+      ]
+    }
+  ],
+  "included": [
+    "Private tour for your party",
+    "A knowledgeable guide throughout, in your language (English, Spanish or Japanese)",
+    "A private vehicle connecting all three sites, with pickup and return to your hotel in Cairo or Giza, including Cairo airport hotels",
+    "Camel ride at Giza (easy to skip on the day)",
+    "A bottle of water per person",
+    "Tipping for your driver"
+  ],
+  "notIncluded": [
+    "Inside the Great Pyramid of Khufu: extra",
+    "Tipping for your guide: not obligatory, but recommended",
+    "Pickup from New Cairo, the New Administrative Capital, Sheikh Zayed or 6th of October: extra charge"
+  ],
+  "options": [
+    "Flip the order so the day ends at the Giza Plateau",
+    "Skip the camel ride on the day"
+  ],
+  "timesSourced": false
+}

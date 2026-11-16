@@ -1,0 +1,113 @@
+{
+ "slug": "abu-simbel-by-car-from-aswan",
+ "_id": "tour.private-tour-abu-simble-by-bus-from-aswan",
+ "intro": {
+  "opening": "Roughly three and a half hours south of Aswan, on the desert road to Sudan, the road descends, the water draws close, and Abu Simbel appears: two temples cut directly into a sandstone cliff, their four colossal seated figures of Ramses II staring across Lake Nasser. This is a long day, and the drive is not particularly scenic. None of that diminishes what you find when you get there.",
+  "whyThisOrder": "Departure is early, typically around 4 a.m., because the Egyptian authorities organise road travel to Abu Simbel in escorted convoys, and the timing is fixed by that schedule rather than preference. Arriving early matters: by mid-morning tour buses from across Upper Egypt have arrived and the temple interiors fill quickly, and the sun can be punishing by late morning. Because the tour is private, the pace at the temples is yours to set.",
+  "pickupTime": "around 04:00",
+  "returnNote": "Back in Aswan typically late afternoon, depending on departure time and any stops along the road",
+  "lunch": {
+   "status": "unknown",
+   "text": "Included in the Base + Entrance Fees & Lunch tier only (a midday meal)"
+  },
+  "fitFor": [
+   "don't have an extra night in Aswan but still want the depth a road approach gives",
+   "prefer a late-afternoon return to a flight schedule",
+   "have the patience for a long drive and want to see one of Egypt's most important sites without committing to a Nile cruise"
+  ],
+  "worthKnowing": [
+   "The minimum age is 18, given the 4 a.m. convoy departure, the long desert drive and the exposed site.",
+   "It's about seven hours on the road, roughly three and a half each way, and the drive is not particularly scenic.",
+   "The sun at Abu Simbel can be punishing by late morning.",
+   "The departure time is set by the convoy schedule, not by us.",
+   "It's private, so it runs for as few as one traveller, with no minimum group size."
+  ],
+  "closingLine": "What you find at the end of that drive has no equivalent anywhere else in Egypt.",
+  "closingRef": "000000000035"
+ },
+ "periods": [
+  {
+   "period": "morning",
+   "periodLabel": "The desert road south",
+   "stops": [
+    {
+     "time": "around 04:00",
+     "title": "Pickup from your Aswan hotel",
+     "glanceLabel": "Pickup",
+     "skipGlance": false,
+     "text": "Departure is early, to coincide with convoy hours: the Egyptian authorities organise road travel to Abu Simbel in escorted groups. You travel in a private, air-conditioned vehicle.",
+     "sites": []
+    },
+    {
+     "title": "The road along Lake Nasser",
+     "glanceLabel": "Desert road",
+     "skipGlance": false,
+     "text": "The road south runs along the western bank of Lake Nasser through open desert. It is a smooth, well-maintained highway, and the drive takes approximately three and a half hours.",
+     "sites": [
+      "Lake Nasser"
+     ]
+    }
+   ]
+  },
+  {
+   "period": "morning",
+   "periodLabel": "Abu Simbel",
+   "stops": [
+    {
+     "title": "The Great Temple of Ramses II",
+     "glanceLabel": "Great Temple",
+     "skipGlance": false,
+     "text": "You reach Abu Simbel before the site becomes crowded, with time in the great hypostyle hall before the crowds press in. Four seated statues of Ramses II, each roughly twenty metres tall, flank the entrance. Inside are eight Osiride pillars, reliefs of the Battle of Kadesh, and the inner sanctuary that the sun reaches every 22 February and 22 October.",
+     "sites": [
+      "Great Temple of Ramses II, Abu Simbel"
+     ],
+     "includedNote": "Admission to both temples is included in the Base + Entrance Fees and Base + Entrance Fees & Lunch tiers, not in the Base package."
+    },
+    {
+     "title": "The Small Temple of Nefertari and Hathor",
+     "glanceLabel": "Small Temple",
+     "skipGlance": false,
+     "text": "Roughly a hundred metres to the north, it is the only Egyptian temple in which a queen's statues are carved at the same scale as the pharaoh's, and its reliefs include some of the best-preserved colour in any Nubian monument. Your guide moves you through both temples in sequence; plan for two to two and a half hours on site.",
+     "sites": [
+      "Small Temple of Nefertari and Hathor, Abu Simbel"
+     ]
+    }
+   ]
+  },
+  {
+   "period": "afternoon",
+   "periodLabel": "Back to Aswan",
+   "stops": [
+    {
+     "title": "Drive back to Aswan",
+     "glanceLabel": "Back in Aswan",
+     "skipGlance": false,
+     "text": "After the temples you return to your vehicle for the drive back north. Arrival in Aswan is typically late afternoon, depending on departure time and any stops along the road.",
+     "sites": []
+    }
+   ]
+  }
+ ],
+ "included": [
+  "Private tour for your party alone, with your own vehicle and guide",
+  "A private, air-conditioned vehicle",
+  "A licensed, English-speaking Egyptologist guide",
+  "One bottle of mineral water per person",
+  "All driving and logistics",
+  "Admission to both temples (Base + Entrance Fees and Base + Entrance Fees & Lunch tiers)",
+  "A midday meal (Base + Entrance Fees & Lunch tier only)",
+  "Tipping for your driver"
+ ],
+ "notIncluded": [
+  "Admission to the temples: not in the Base package",
+  "Lunch: not in the Base or Base + Entrance Fees tiers",
+  "Tipping for your guide: not obligatory, but recommended"
+ ],
+ "options": [
+  "Add admission to both temples (Base + Entrance Fees tier)",
+  "Add a midday lunch with the entrance fees (Base + Entrance Fees & Lunch tier)",
+  "Ask our concierge to arrange a gentle evening before and a slow morning after the early start",
+  "Ask our concierge whether your dates match the sun-alignment days, around 22 February and 22 October"
+ ],
+ "timesSourced": true
+}

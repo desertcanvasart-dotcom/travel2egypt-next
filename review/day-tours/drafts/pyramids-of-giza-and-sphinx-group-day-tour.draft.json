@@ -1,0 +1,113 @@
+{
+  "slug": "pyramids-of-giza-and-sphinx-group-day-tour",
+  "_id": "tour.pyramids-of-giza-and-sphinx-group-day-tour",
+  "intro": {
+    "opening": "The only surviving wonder of the ancient world, in the morning while the air is still cool. This is the shared-departure version: a small group, a licensed Egyptologist guide, an air-conditioned vehicle, and the three pyramids and the Great Sphinx before the plateau heats up and the coaches arrive. By early to mid-afternoon you're back at your hotel.",
+    "whyThisOrder": "The early start is the point: you reach the plateau before it heats and before the coaches arrive. Your guide moves the group through the three pyramids in sequence, then the panorama viewpoint, then the Sphinx and its valley temple. Two to three hours on the plateau is enough to absorb the scale without losing the group to the heat.",
+    "pickupTime": "09:00",
+    "returnNote": "by early to mid-afternoon, at your hotel",
+    "lunch": {
+      "status": "unknown"
+    },
+    "fitFor": [
+      "are visiting for the first time, with a single Cairo morning",
+      "want the Old Kingdom canon read by a qualified guide",
+      "prefer a shared departure with a small group"
+    ],
+    "worthKnowing": [
+      "It's a half day, about 5 to 6 hours.",
+      "The drive to the plateau takes roughly thirty to forty-five minutes, depending on the morning traffic.",
+      "You spend two to three hours on the plateau, in a group.",
+      "Children under 12 pay half price."
+    ],
+    "closingLine": "The reason the day still matters is the same reason it has always mattered: standing in front of the thing.",
+    "closingRef": "00000000001b"
+  },
+  "periods": [
+    {
+      "period": "morning",
+      "periodLabel": "The Giza Plateau",
+      "stops": [
+        {
+          "time": "09:00",
+          "title": "Pickup from your hotel",
+          "glanceLabel": "Pickup",
+          "text": "Pickup from your hotel, then the drive to the Giza Plateau through the morning traffic, roughly thirty to forty-five minutes depending on the day."
+        },
+        {
+          "title": "The three pyramids",
+          "glanceLabel": "Giza pyramids",
+          "text": "The Great Pyramid of Khufu, completed around 2560 BC, stood at 146 metres for the next four thousand years, built from about 2.3 million blocks aligned to true north. Khafre's, slightly smaller and on higher ground, still carries a band of original white Tura limestone casing at the apex. Menkaure's, the smallest, finishes the line.",
+          "sites": [
+            "Great Pyramid of Khufu",
+            "Pyramid of Khafre",
+            "Pyramid of Menkaure"
+          ]
+        },
+        {
+          "title": "The panorama viewpoint",
+          "glanceLabel": "Panorama",
+          "text": "From the pyramids, your guide takes the group on to the panorama viewpoint."
+        },
+        {
+          "title": "The Great Sphinx and its valley temple",
+          "glanceLabel": "Sphinx & Valley Temple",
+          "text": "The Sphinx sits at the plateau's eastern edge, carved from a single limestone outcrop, generally dated to Khafre's reign around 2500 BC. It is the largest monolithic statue in the world. The missing nose has nothing to do with Napoleon's artillery, despite the legend.",
+          "sites": [
+            "Great Sphinx",
+            "Valley Temple of Khafre"
+          ]
+        },
+        {
+          "title": "Optional extras, if you've chosen them",
+          "glanceLabel": "Optional extras",
+          "skipGlance": true,
+          "text": "Available on site at additional cost, and not part of the package.",
+          "optional": [
+            {
+              "text": "Entry inside a pyramid: additional cost, on site",
+              "cost": "extraTicket"
+            },
+            {
+              "text": "A camel or horse ride: additional cost, on site",
+              "cost": "extraCost",
+              "note": "We work with handlers we know, whose animals are in good condition, and the ride is entirely your choice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "period": "afternoon",
+      "periodLabel": "Back to Cairo",
+      "stops": [
+        {
+          "title": "Back to your hotel",
+          "glanceLabel": "Back",
+          "text": "The return drive to central Cairo, with drop-off at your hotel by early to mid-afternoon."
+        }
+      ]
+    }
+  ],
+  "included": [
+    "Shared group departure, with the group capped at a small size",
+    "A licensed Egyptologist guide, in your language (English, Spanish or Japanese)",
+    "An air-conditioned vehicle",
+    "09:00 pickup from your hotel in Cairo or Giza, including Cairo airport hotels, and drop-off at your hotel",
+    "A bottle of water per person",
+    "Tipping for your driver"
+  ],
+  "notIncluded": [
+    "Entry inside a pyramid: additional cost, on site (the Great Pyramid of Khufu is always an extra)",
+    "Camel or horse ride: additional cost, on site",
+    "Tipping for your guide: not obligatory, but recommended",
+    "Pickup from New Cairo, the New Administrative Capital, Sheikh Zayed or 6th of October: extra charge"
+  ],
+  "options": [
+    "Add entry inside a pyramid (extra cost, on site)",
+    "Add a camel or horse ride (extra cost, on site)",
+    "Pair it with the Grand Egyptian Museum (fully open since 1 November 2025) for a full Old Kingdom day",
+    "Extend to Memphis, Saqqara and Dahshur on a second day in town"
+  ],
+  "timesSourced": true
+}

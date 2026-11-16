@@ -1,0 +1,96 @@
+{
+  "slug": "day-tour-to-karnak-luxor-temples-luxor-museum",
+  "_id": "tour.day-tour-to-karnak-luxor-temples-luxor-museum",
+  "intro": {
+    "opening": "Karnak, Luxor Temple and the Luxor Museum: the three strongest reasons to spend a day on Luxor's east bank. Together they form the most coherent single-day argument for why the ancient Egyptians built the way they did. It's a private tour, operated for your party alone.",
+    "whyThisOrder": "Luxor in summer is brutally hot by mid-morning, so the tour begins early, and the day opens at Karnak, because no other site in Egypt prepares you for quite what this complex turns out to be. The afternoon concludes at the Luxor Museum. Because the day is yours, the order and the dwell times bend to your party: more temple, less museum, or the reverse.",
+    "returnNote": "You finish in time to spend the evening on your own terms.",
+    "lunch": {
+      "status": "unknown",
+      "text": "Included in the Base + Entrance Fees & Lunch tier only"
+    },
+    "fitFor": [
+      "want the East Bank done properly: Karnak's accumulated 1,500 years, Luxor Temple's continuous sacred use, and a museum that edits the story rather than overwhelming it",
+      "have a genuine interest in ancient history and want a guide who can explain why a hypostyle hall was built to that proportion"
+    ],
+    "worthKnowing": [
+      "The minimum age is 18.",
+      "It's about eight hours. You're on your feet for most of the morning and into early afternoon, across two outdoor complexes and one museum. The pace is full but not punishing.",
+      "Luxor in summer is brutally hot by mid-morning. The tour begins early for good reason.",
+      "Entrance fees and lunch depend on the tier you choose. Egyptian entrance fees are revised often, so they're kept separate. Tier prices are shown at booking."
+    ],
+    "closingLine": "Karnak, Luxor Temple, and the museum between them contain a larger proportion of surviving ancient Egyptian history than any other single day's itinerary can offer.",
+    "closingRef": "00000000002b"
+  },
+  "periods": [
+    {
+      "period": "morning",
+      "periodLabel": "Karnak and Luxor Temple",
+      "stops": [
+        {
+          "title": "The Karnak complex",
+          "glanceLabel": "Karnak",
+          "skipGlance": false,
+          "text": "Closer to a religious city than a temple, built up across roughly 1,500 years. You enter the Precinct of Amun-Ra through pylons that increase in age as you move inward, into the Great Hypostyle Hall: 134 sandstone columns in 16 rows, the central ones nearly 21 metres tall. Beyond are the obelisks of Thutmose I and Hatshepsut, the sacred lake and the Festival Temple of Thutmose III.",
+          "sites": ["Karnak Temple Complex", "Precinct of Amun-Ra", "Great Hypostyle Hall", "Sacred Lake", "Festival Temple of Thutmose III"]
+        },
+        {
+          "title": "Along the Avenue of Sphinxes",
+          "glanceLabel": "Avenue of Sphinxes",
+          "skipGlance": false,
+          "text": "From Karnak, the tour moves south along the Avenue of Sphinxes, the 2.7-kilometre processional road connecting the two great temples of ancient Thebes. Ram-headed sphinxes line the Karnak end, human-headed sphinxes the Luxor Temple end.",
+          "sites": ["Avenue of Sphinxes"]
+        },
+        {
+          "title": "Luxor Temple",
+          "glanceLabel": "Luxor Temple",
+          "skipGlance": false,
+          "text": "Raised by Amenhotep III and added to by Ramses II, whose pylon carries scenes from the Battle of Kadesh. One of its two obelisks still stands; the other has been in the Place de la Concorde in Paris since 1836. The mosque of Abu Haggag sits in the northeast corner: the temple never fully disappeared from use.",
+          "sites": ["Luxor Temple", "Mosque of Abu Haggag"]
+        }
+      ]
+    },
+    {
+      "period": "afternoon",
+      "periodLabel": "The Luxor Museum",
+      "stops": [
+        {
+          "title": "The Luxor Museum",
+          "glanceLabel": "Luxor Museum",
+          "skipGlance": false,
+          "text": "A small, exceptionally well-curated museum on the Corniche, concentrating on New Kingdom material from Thebes. Highlights include the reconstructed Akhenaten wall from a dismantled Aten temple at Karnak, the statuary cache found beneath the Luxor Temple courtyard in 1989, and military equipment and chariots from the reigns of Ahmose I and Thutmose III.",
+          "sites": ["Luxor Museum"]
+        },
+        {
+          "title": "End of the day",
+          "glanceLabel": "Day ends",
+          "skipGlance": false,
+          "text": "You finish in time to spend the evening on your own terms."
+        }
+      ]
+    }
+  ],
+  "included": [
+    "Private tour for your party, from one traveller, with no minimum group size",
+    "A licensed, English-speaking Egyptologist guide",
+    "A private, air-conditioned vehicle",
+    "One bottle of mineral water per person",
+    "All logistics",
+    "Entry to all three sites (Base + Entrance Fees and Base + Entrance Fees & Lunch tiers)",
+    "A midday meal (Base + Entrance Fees & Lunch tier)",
+    "Tipping for your driver"
+  ],
+  "notIncluded": [
+    "Entrance fees to the three sites: not in the Base package",
+    "Lunch: not in the Base or Base + Entrance Fees tiers",
+    "Tipping for your guide: not obligatory, but recommended"
+  ],
+  "options": [
+    "Add entrance fees to all three sites",
+    "Add a midday lunch with the entrance fees",
+    "Sequence the day to dodge Karnak's midday heat",
+    "Change the order: more temple or more museum",
+    "Tell our concierge where the West Bank sits in your plans, and we'll place this day accordingly"
+  ],
+  "timesSourced": false
+}
