@@ -140,7 +140,8 @@ export async function MakeItYours({ locale, intro, options, cta }: { locale: Loc
   const t = await getTranslations({ locale, namespace: 'productPanel' });
   return (
     <section className="pdp-yours" id="make-it-yours" aria-labelledby="pdp-yours-h">
-      <h2 id="pdp-yours-h">{t('makeItYours')}</h2>
+      {/* Approved heading set (canon III.5): the same heading as the right-column block. */}
+      <h2 id="pdp-yours-h">{t('optionsTitle')}</h2>
       {intro && <p>{intro}</p>}
       {options.length > 0 && (
         <ul>

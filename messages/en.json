@@ -1604,12 +1604,11 @@
     "goodFit": "A good fit if you:",
     "worthKnowing": "Worth knowing:",
     "seeDay": "see Day {n}",
-    "seeMakeItYours": "see Make it yours",
+    "seeMakeItYours": "see Make it your own",
     "mealBreakfast": "breakfast",
     "mealLunch": "lunch",
     "mealDinner": "dinner",
     "farewellDinner": "farewell dinner",
-    "makeItYours": "Make it yours",
     "nightsHotel": "{n} hotel",
     "nightsTrain": "{n} sleeper train",
     "nightsRiver": "{n} on the river",
@@ -1637,7 +1636,8 @@
     "guideLanguage": "English",
     "pickupZoneIncluded": "from your hotel in Cairo or Giza, including Cairo airport hotels",
     "pickupZoneExtra": "New Cairo, the New Administrative Capital, Sheikh Zayed and 6th of October: extra charge",
-    "fromGroupNote": "price depends on group size"
+    "fromGroupNote": "price depends on group size",
+    "backAround": "around {time}"
   },
   "packagesHub": {
     "crumbTours": "Egypt Tours",

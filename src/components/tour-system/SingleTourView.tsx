@@ -219,16 +219,21 @@ export async function SingleTourView({ tour, locale }: { tour: SingleTour; local
         : zone.charAt(0).toUpperCase() + zone.slice(1);
     return `${first}${locale === 'ja' ? '。' : '. '}${tp('pickupZoneExtra')}`;
   })();
+  // Back (canon II.7): the time comes from the returnTime field; returnNote
+  // adds the qualifier. Legacy rows without returnTime keep their full line.
+  const backText = intro?.returnTime
+    ? `${tp('backAround', { time: intro.returnTime })}${intro.returnNote ? (locale === 'ja' ? intro.returnNote : `, ${intro.returnNote}`) : ''}`
+    : intro?.returnNote ?? '';
   const ruleRows: PanelFact[] = cairoGiza
     ? [
         { label: tp('children'), value: tp('childrenValue') },
         { label: tp('pickup'), value: pickupText },
-        { label: tp('back'), value: intro?.returnNote ?? '' },
+        { label: tp('back'), value: backText },
         { label: tp('lunch'), value: intro?.lunch?.text ?? '' },
         { label: tp('guideSpeaks'), value: tp('guideLanguage') },
       ]
     : [
-        { label: tp('back'), value: intro?.returnNote ?? '' },
+        { label: tp('back'), value: backText },
         { label: tp('lunch'), value: intro?.lunch?.text ?? '' },
       ];
   const exclusionRows = (approvedIn.length || approvedOut.length ? tour.approvedExclusionRows : null) ?? notIncluded.map((text) => ({ text }));

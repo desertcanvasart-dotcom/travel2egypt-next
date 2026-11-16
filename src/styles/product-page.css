@@ -149,6 +149,8 @@
 .pdp-dayline .pdp-more { margin-top: 24px; }
 .pdp-more__body h2 { font-size: 22px !important; margin: 18px 0 8px !important; }
 .pdp-daytour .pdp-itin__closing { margin-top: 36px; }
+/* Canon III.6: the closing line is italic in EN and ES only; JA renders it upright, normal weight. */
+html[lang='ja'] .pdp-itin__closing, html[lang='ja'] .pdp-itin__closing em { font-style: normal; font-weight: 400; }
 .pdp-dayglance .pdp-route__name { font-size: 17px; }
 .pdp-dayglance__time { display: inline-block; min-width: 6.4em; margin-right: 8px; font-family: var(--ui); font-size: 12.5px; color: var(--gold-dark); letter-spacing: .02em; }
 .pdp-dayglance .pdp-route__leg { min-height: 16px; }
